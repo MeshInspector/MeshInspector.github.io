@@ -1,0 +1,957 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: MRSceneLoad.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('MRSceneLoad_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">MRSceneLoad.h File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
+</div>
+<p><a href="MRSceneLoad_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:adb03ce28cacfff1e499d75d512dc4a84" id="r_adb03ce28cacfff1e499d75d512dc4a84"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a></td></tr>
+<tr class="separator:adb03ce28cacfff1e499d75d512dc4a84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a643be8924febede2961c294ed184ba55" id="r_a643be8924febede2961c294ed184ba55"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a643be8924febede2961c294ed184ba55">MR_std_function_void_from_MR_SceneLoad_SceneLoadResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a643be8924febede2961c294ed184ba55">MR_std_function_void_from_MR_SceneLoad_SceneLoadResult</a></td></tr>
+<tr class="separator:a643be8924febede2961c294ed184ba55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a455fb1e45d1e455a5436d36279622bb2" id="r_a455fb1e45d1e455a5436d36279622bb2"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a455fb1e45d1e455a5436d36279622bb2">MR_std_shared_ptr_MR_SceneRootObject</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a455fb1e45d1e455a5436d36279622bb2">MR_std_shared_ptr_MR_SceneRootObject</a></td></tr>
+<tr class="separator:a455fb1e45d1e455a5436d36279622bb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69dc6868c10c92fb8b8a255b0130d289" id="r_a69dc6868c10c92fb8b8a255b0130d289"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></td></tr>
+<tr class="separator:a69dc6868c10c92fb8b8a255b0130d289"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d75e004d098bc7d987ebfcf304f5454" id="r_a4d75e004d098bc7d987ebfcf304f5454"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a4d75e004d098bc7d987ebfcf304f5454">MR_std_vector_std_filesystem_path</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d75e004d098bc7d987ebfcf304f5454">MR_std_vector_std_filesystem_path</a></td></tr>
+<tr class="separator:a4d75e004d098bc7d987ebfcf304f5454"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f1d25d16e4703c9e4fd6d1b05c0552d" id="r_a7f1d25d16e4703c9e4fd6d1b05c0552d"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a7f1d25d16e4703c9e4fd6d1b05c0552d">MR_SceneLoad_SceneLoadResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f1d25d16e4703c9e4fd6d1b05c0552d">MR_SceneLoad_SceneLoadResult</a></td></tr>
+<tr class="separator:a7f1d25d16e4703c9e4fd6d1b05c0552d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a65479792def3cdf5ffedf2dda4b2a559" id="r_a65479792def3cdf5ffedf2dda4b2a559"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a455fb1e45d1e455a5436d36279622bb2">MR_std_shared_ptr_MR_SceneRootObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65479792def3cdf5ffedf2dda4b2a559">MR_SceneLoad_SceneLoadResult_Get_scene</a> (const <a class="el" href="#a7f1d25d16e4703c9e4fd6d1b05c0552d">MR_SceneLoad_SceneLoadResult</a> *_this)</td></tr>
+<tr class="separator:a65479792def3cdf5ffedf2dda4b2a559"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a170422ebf7bcbe99eab70b331dcba25d" id="r_a170422ebf7bcbe99eab70b331dcba25d"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a170422ebf7bcbe99eab70b331dcba25d">MR_SceneLoad_SceneLoadResult_Set_scene</a> (<a class="el" href="#a7f1d25d16e4703c9e4fd6d1b05c0552d">MR_SceneLoad_SceneLoadResult</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="#a455fb1e45d1e455a5436d36279622bb2">MR_std_shared_ptr_MR_SceneRootObject</a> *value)</td></tr>
+<tr class="separator:a170422ebf7bcbe99eab70b331dcba25d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7369e1f3e534d67aa3649d2d072cc279" id="r_a7369e1f3e534d67aa3649d2d072cc279"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a455fb1e45d1e455a5436d36279622bb2">MR_std_shared_ptr_MR_SceneRootObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7369e1f3e534d67aa3649d2d072cc279">MR_SceneLoad_SceneLoadResult_GetMutable_scene</a> (<a class="el" href="#a7f1d25d16e4703c9e4fd6d1b05c0552d">MR_SceneLoad_SceneLoadResult</a> *_this)</td></tr>
+<tr class="separator:a7369e1f3e534d67aa3649d2d072cc279"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07f0c87606eca428bf493eee99c6a743" id="r_a07f0c87606eca428bf493eee99c6a743"><td class="memItemLeft" align="right" valign="top">MRC_API const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a07f0c87606eca428bf493eee99c6a743">MR_SceneLoad_SceneLoadResult_Get_isSceneConstructed</a> (const <a class="el" href="#a7f1d25d16e4703c9e4fd6d1b05c0552d">MR_SceneLoad_SceneLoadResult</a> *_this)</td></tr>
+<tr class="separator:a07f0c87606eca428bf493eee99c6a743"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac02d5bfca5301cf5af22cf70fcea6c56" id="r_ac02d5bfca5301cf5af22cf70fcea6c56"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac02d5bfca5301cf5af22cf70fcea6c56">MR_SceneLoad_SceneLoadResult_Set_isSceneConstructed</a> (<a class="el" href="#a7f1d25d16e4703c9e4fd6d1b05c0552d">MR_SceneLoad_SceneLoadResult</a> *_this, bool value)</td></tr>
+<tr class="separator:ac02d5bfca5301cf5af22cf70fcea6c56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a166f62cf0d22d63ac1a593a20014cfd3" id="r_a166f62cf0d22d63ac1a593a20014cfd3"><td class="memItemLeft" align="right" valign="top">MRC_API bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a166f62cf0d22d63ac1a593a20014cfd3">MR_SceneLoad_SceneLoadResult_GetMutable_isSceneConstructed</a> (<a class="el" href="#a7f1d25d16e4703c9e4fd6d1b05c0552d">MR_SceneLoad_SceneLoadResult</a> *_this)</td></tr>
+<tr class="separator:a166f62cf0d22d63ac1a593a20014cfd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ace8e0428b7a5d5ef46c46be9be2d52" id="r_a0ace8e0428b7a5d5ef46c46be9be2d52"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a4d75e004d098bc7d987ebfcf304f5454">MR_std_vector_std_filesystem_path</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ace8e0428b7a5d5ef46c46be9be2d52">MR_SceneLoad_SceneLoadResult_Get_loadedFiles</a> (const <a class="el" href="#a7f1d25d16e4703c9e4fd6d1b05c0552d">MR_SceneLoad_SceneLoadResult</a> *_this)</td></tr>
+<tr class="separator:a0ace8e0428b7a5d5ef46c46be9be2d52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d7e7c9b9c9244e45ba34c6319bc92ec" id="r_a1d7e7c9b9c9244e45ba34c6319bc92ec"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d7e7c9b9c9244e45ba34c6319bc92ec">MR_SceneLoad_SceneLoadResult_Set_loadedFiles</a> (<a class="el" href="#a7f1d25d16e4703c9e4fd6d1b05c0552d">MR_SceneLoad_SceneLoadResult</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="#a4d75e004d098bc7d987ebfcf304f5454">MR_std_vector_std_filesystem_path</a> *value)</td></tr>
+<tr class="separator:a1d7e7c9b9c9244e45ba34c6319bc92ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64d665d116f7ea5e101fe0f6ecb5c2b6" id="r_a64d665d116f7ea5e101fe0f6ecb5c2b6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a4d75e004d098bc7d987ebfcf304f5454">MR_std_vector_std_filesystem_path</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64d665d116f7ea5e101fe0f6ecb5c2b6">MR_SceneLoad_SceneLoadResult_GetMutable_loadedFiles</a> (<a class="el" href="#a7f1d25d16e4703c9e4fd6d1b05c0552d">MR_SceneLoad_SceneLoadResult</a> *_this)</td></tr>
+<tr class="separator:a64d665d116f7ea5e101fe0f6ecb5c2b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca927805f6247ed49cd5a5a1a04e396b" id="r_aca927805f6247ed49cd5a5a1a04e396b"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aca927805f6247ed49cd5a5a1a04e396b">MR_SceneLoad_SceneLoadResult_Get_errorSummary</a> (const <a class="el" href="#a7f1d25d16e4703c9e4fd6d1b05c0552d">MR_SceneLoad_SceneLoadResult</a> *_this)</td></tr>
+<tr class="memdesc:aca927805f6247ed49cd5a5a1a04e396b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Error summary text.  <br /></td></tr>
+<tr class="separator:aca927805f6247ed49cd5a5a1a04e396b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31945def8b84e954ac6246d250c704af" id="r_a31945def8b84e954ac6246d250c704af"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a31945def8b84e954ac6246d250c704af">MR_SceneLoad_SceneLoadResult_Set_errorSummary</a> (<a class="el" href="#a7f1d25d16e4703c9e4fd6d1b05c0552d">MR_SceneLoad_SceneLoadResult</a> *_this, const char *value, const char *value_end)</td></tr>
+<tr class="memdesc:a31945def8b84e954ac6246d250c704af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Error summary text.  <br /></td></tr>
+<tr class="separator:a31945def8b84e954ac6246d250c704af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1345b7abf4d919f2f0f7177d3c2037d0" id="r_a1345b7abf4d919f2f0f7177d3c2037d0"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1345b7abf4d919f2f0f7177d3c2037d0">MR_SceneLoad_SceneLoadResult_GetMutable_errorSummary</a> (<a class="el" href="#a7f1d25d16e4703c9e4fd6d1b05c0552d">MR_SceneLoad_SceneLoadResult</a> *_this)</td></tr>
+<tr class="memdesc:a1345b7abf4d919f2f0f7177d3c2037d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Error summary text.  <br /></td></tr>
+<tr class="separator:a1345b7abf4d919f2f0f7177d3c2037d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7bfbae93aaf8928a999b8e70366457d7" id="r_a7bfbae93aaf8928a999b8e70366457d7"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7bfbae93aaf8928a999b8e70366457d7">MR_SceneLoad_SceneLoadResult_Get_warningSummary</a> (const <a class="el" href="#a7f1d25d16e4703c9e4fd6d1b05c0552d">MR_SceneLoad_SceneLoadResult</a> *_this)</td></tr>
+<tr class="memdesc:a7bfbae93aaf8928a999b8e70366457d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Warning summary text.  <br /></td></tr>
+<tr class="separator:a7bfbae93aaf8928a999b8e70366457d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50d0478edba29f8e04917636ac43e822" id="r_a50d0478edba29f8e04917636ac43e822"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50d0478edba29f8e04917636ac43e822">MR_SceneLoad_SceneLoadResult_Set_warningSummary</a> (<a class="el" href="#a7f1d25d16e4703c9e4fd6d1b05c0552d">MR_SceneLoad_SceneLoadResult</a> *_this, const char *value, const char *value_end)</td></tr>
+<tr class="memdesc:a50d0478edba29f8e04917636ac43e822"><td class="mdescLeft">&#160;</td><td class="mdescRight">Warning summary text.  <br /></td></tr>
+<tr class="separator:a50d0478edba29f8e04917636ac43e822"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a845d6aa9ed4676cd35caaa1b4f3a4896" id="r_a845d6aa9ed4676cd35caaa1b4f3a4896"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a845d6aa9ed4676cd35caaa1b4f3a4896">MR_SceneLoad_SceneLoadResult_GetMutable_warningSummary</a> (<a class="el" href="#a7f1d25d16e4703c9e4fd6d1b05c0552d">MR_SceneLoad_SceneLoadResult</a> *_this)</td></tr>
+<tr class="memdesc:a845d6aa9ed4676cd35caaa1b4f3a4896"><td class="mdescLeft">&#160;</td><td class="mdescRight">Warning summary text.  <br /></td></tr>
+<tr class="separator:a845d6aa9ed4676cd35caaa1b4f3a4896"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab283d91be98e016dfd9d492868830e3a" id="r_ab283d91be98e016dfd9d492868830e3a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a7f1d25d16e4703c9e4fd6d1b05c0552d">MR_SceneLoad_SceneLoadResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab283d91be98e016dfd9d492868830e3a">MR_SceneLoad_SceneLoadResult_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:ab283d91be98e016dfd9d492868830e3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a685de76e74ee9c1fe5234263c9c5135b" id="r_a685de76e74ee9c1fe5234263c9c5135b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a7f1d25d16e4703c9e4fd6d1b05c0552d">MR_SceneLoad_SceneLoadResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a685de76e74ee9c1fe5234263c9c5135b">MR_SceneLoad_SceneLoadResult_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a685de76e74ee9c1fe5234263c9c5135b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa686ddc3b0a504e01bef39ba003ae4c9" id="r_aa686ddc3b0a504e01bef39ba003ae4c9"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a7f1d25d16e4703c9e4fd6d1b05c0552d">MR_SceneLoad_SceneLoadResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa686ddc3b0a504e01bef39ba003ae4c9">MR_SceneLoad_SceneLoadResult_ConstructFrom</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> scene_pass_by, <a class="el" href="#a455fb1e45d1e455a5436d36279622bb2">MR_std_shared_ptr_MR_SceneRootObject</a> *scene, bool isSceneConstructed, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> loadedFiles_pass_by, <a class="el" href="#a4d75e004d098bc7d987ebfcf304f5454">MR_std_vector_std_filesystem_path</a> *loadedFiles, const char *errorSummary, const char *errorSummary_end, const char *warningSummary, const char *warningSummary_end)</td></tr>
+<tr class="separator:aa686ddc3b0a504e01bef39ba003ae4c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49056a614b0f3e50c6d6fa81c1829b99" id="r_a49056a614b0f3e50c6d6fa81c1829b99"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a7f1d25d16e4703c9e4fd6d1b05c0552d">MR_SceneLoad_SceneLoadResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49056a614b0f3e50c6d6fa81c1829b99">MR_SceneLoad_SceneLoadResult_OffsetPtr</a> (const <a class="el" href="#a7f1d25d16e4703c9e4fd6d1b05c0552d">MR_SceneLoad_SceneLoadResult</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a49056a614b0f3e50c6d6fa81c1829b99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a49056a614b0f3e50c6d6fa81c1829b99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47ca7593c8f55f0d4d0f507a4ef33fbe" id="r_a47ca7593c8f55f0d4d0f507a4ef33fbe"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a7f1d25d16e4703c9e4fd6d1b05c0552d">MR_SceneLoad_SceneLoadResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47ca7593c8f55f0d4d0f507a4ef33fbe">MR_SceneLoad_SceneLoadResult_OffsetMutablePtr</a> (<a class="el" href="#a7f1d25d16e4703c9e4fd6d1b05c0552d">MR_SceneLoad_SceneLoadResult</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a47ca7593c8f55f0d4d0f507a4ef33fbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a47ca7593c8f55f0d4d0f507a4ef33fbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb17f2c673615e78b21dda42266f58a7" id="r_abb17f2c673615e78b21dda42266f58a7"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a7f1d25d16e4703c9e4fd6d1b05c0552d">MR_SceneLoad_SceneLoadResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abb17f2c673615e78b21dda42266f58a7">MR_SceneLoad_SceneLoadResult_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a7f1d25d16e4703c9e4fd6d1b05c0552d">MR_SceneLoad_SceneLoadResult</a> *_other)</td></tr>
+<tr class="separator:abb17f2c673615e78b21dda42266f58a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab95b33a50323cca2d1297423d77a482f" id="r_ab95b33a50323cca2d1297423d77a482f"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab95b33a50323cca2d1297423d77a482f">MR_SceneLoad_SceneLoadResult_Destroy</a> (const <a class="el" href="#a7f1d25d16e4703c9e4fd6d1b05c0552d">MR_SceneLoad_SceneLoadResult</a> *_this)</td></tr>
+<tr class="memdesc:ab95b33a50323cca2d1297423d77a482f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_SceneLoad_SceneLoadResult</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ab95b33a50323cca2d1297423d77a482f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbdb5a82401f71da06df98ea7e311d8e" id="r_afbdb5a82401f71da06df98ea7e311d8e"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afbdb5a82401f71da06df98ea7e311d8e">MR_SceneLoad_SceneLoadResult_DestroyArray</a> (const <a class="el" href="#a7f1d25d16e4703c9e4fd6d1b05c0552d">MR_SceneLoad_SceneLoadResult</a> *_this)</td></tr>
+<tr class="memdesc:afbdb5a82401f71da06df98ea7e311d8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_SceneLoad_SceneLoadResult</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:afbdb5a82401f71da06df98ea7e311d8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1b2057153369c7c0e56bf0ece33fe67" id="r_af1b2057153369c7c0e56bf0ece33fe67"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a7f1d25d16e4703c9e4fd6d1b05c0552d">MR_SceneLoad_SceneLoadResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1b2057153369c7c0e56bf0ece33fe67">MR_SceneLoad_SceneLoadResult_AssignFromAnother</a> (<a class="el" href="#a7f1d25d16e4703c9e4fd6d1b05c0552d">MR_SceneLoad_SceneLoadResult</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a7f1d25d16e4703c9e4fd6d1b05c0552d">MR_SceneLoad_SceneLoadResult</a> *_other)</td></tr>
+<tr class="separator:af1b2057153369c7c0e56bf0ece33fe67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad80dfb6e7d4349a40f7b6ca0cebecbc9" id="r_ad80dfb6e7d4349a40f7b6ca0cebecbc9"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a7f1d25d16e4703c9e4fd6d1b05c0552d">MR_SceneLoad_SceneLoadResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad80dfb6e7d4349a40f7b6ca0cebecbc9">MR_SceneLoad_fromAnySupportedFormat</a> (const <a class="el" href="#a4d75e004d098bc7d987ebfcf304f5454">MR_std_vector_std_filesystem_path</a> *files, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> callback_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *callback)</td></tr>
+<tr class="separator:ad80dfb6e7d4349a40f7b6ca0cebecbc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaaf2d05918b7c18e0451153fd237f7c1" id="r_aaaf2d05918b7c18e0451153fd237f7c1"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaaf2d05918b7c18e0451153fd237f7c1">MR_SceneLoad_asyncFromAnySupportedFormat</a> (const <a class="el" href="#a4d75e004d098bc7d987ebfcf304f5454">MR_std_vector_std_filesystem_path</a> *files, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> postLoadCallback_pass_by, <a class="el" href="#a643be8924febede2961c294ed184ba55">MR_std_function_void_from_MR_SceneLoad_SceneLoadResult</a> *postLoadCallback, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> progressCallback_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *progressCallback)</td></tr>
+<tr class="separator:aaaf2d05918b7c18e0451153fd237f7c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a7f1d25d16e4703c9e4fd6d1b05c0552d" name="a7f1d25d16e4703c9e4fd6d1b05c0552d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f1d25d16e4703c9e4fd6d1b05c0552d">&#9670;&#160;</a></span>MR_SceneLoad_SceneLoadResult</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a7f1d25d16e4703c9e4fd6d1b05c0552d">MR_SceneLoad_SceneLoadResult</a> <a class="el" href="#a7f1d25d16e4703c9e4fd6d1b05c0552d">MR_SceneLoad_SceneLoadResult</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Scene loading result Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1SceneLoad_1_1SceneLoadResult.html">MR::SceneLoad::SceneLoadResult</a></code>. </p>
+
+</div>
+</div>
+<a id="adb03ce28cacfff1e499d75d512dc4a84" name="adb03ce28cacfff1e499d75d512dc4a84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb03ce28cacfff1e499d75d512dc4a84">&#9670;&#160;</a></span>MR_std_function_bool_from_float</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a643be8924febede2961c294ed184ba55" name="a643be8924febede2961c294ed184ba55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a643be8924febede2961c294ed184ba55">&#9670;&#160;</a></span>MR_std_function_void_from_MR_SceneLoad_SceneLoadResult</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a643be8924febede2961c294ed184ba55">MR_std_function_void_from_MR_SceneLoad_SceneLoadResult</a> <a class="el" href="#a643be8924febede2961c294ed184ba55">MR_std_function_void_from_MR_SceneLoad_SceneLoadResult</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a455fb1e45d1e455a5436d36279622bb2" name="a455fb1e45d1e455a5436d36279622bb2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a455fb1e45d1e455a5436d36279622bb2">&#9670;&#160;</a></span>MR_std_shared_ptr_MR_SceneRootObject</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a455fb1e45d1e455a5436d36279622bb2">MR_std_shared_ptr_MR_SceneRootObject</a> <a class="el" href="#a455fb1e45d1e455a5436d36279622bb2">MR_std_shared_ptr_MR_SceneRootObject</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a69dc6868c10c92fb8b8a255b0130d289" name="a69dc6868c10c92fb8b8a255b0130d289"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69dc6868c10c92fb8b8a255b0130d289">&#9670;&#160;</a></span>MR_std_string</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4d75e004d098bc7d987ebfcf304f5454" name="a4d75e004d098bc7d987ebfcf304f5454"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d75e004d098bc7d987ebfcf304f5454">&#9670;&#160;</a></span>MR_std_vector_std_filesystem_path</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a4d75e004d098bc7d987ebfcf304f5454">MR_std_vector_std_filesystem_path</a> <a class="el" href="#a4d75e004d098bc7d987ebfcf304f5454">MR_std_vector_std_filesystem_path</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="aaaf2d05918b7c18e0451153fd237f7c1" name="aaaf2d05918b7c18e0451153fd237f7c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaaf2d05918b7c18e0451153fd237f7c1">&#9670;&#160;</a></span>MR_SceneLoad_asyncFromAnySupportedFormat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_SceneLoad_asyncFromAnySupportedFormat </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a4d75e004d098bc7d987ebfcf304f5454">MR_std_vector_std_filesystem_path</a> *</td>          <td class="paramname"><span class="paramname"><em>files</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>postLoadCallback_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a643be8924febede2961c294ed184ba55">MR_std_function_void_from_MR_SceneLoad_SceneLoadResult</a> *</td>          <td class="paramname"><span class="paramname"><em>postLoadCallback</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>progressCallback_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *</td>          <td class="paramname"><span class="paramname"><em>progressCallback</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1SceneLoad.html#a70619566d4d89dbf29aaa2a7a3b4833e">MR::SceneLoad::asyncFromAnySupportedFormat</a></code>. Parameter <code>files</code> can not be null. Parameter <code>progressCallback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. </p>
+
+</div>
+</div>
+<a id="ad80dfb6e7d4349a40f7b6ca0cebecbc9" name="ad80dfb6e7d4349a40f7b6ca0cebecbc9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad80dfb6e7d4349a40f7b6ca0cebecbc9">&#9670;&#160;</a></span>MR_SceneLoad_fromAnySupportedFormat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a7f1d25d16e4703c9e4fd6d1b05c0552d">MR_SceneLoad_SceneLoadResult</a> * MR_SceneLoad_fromAnySupportedFormat </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a4d75e004d098bc7d987ebfcf304f5454">MR_std_vector_std_filesystem_path</a> *</td>          <td class="paramname"><span class="paramname"><em>files</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>callback_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *</td>          <td class="paramname"><span class="paramname"><em>callback</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Load scene from file Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1SceneLoad.html#a089505a3e07c34d60c30955259757d11">MR::SceneLoad::fromAnySupportedFormat</a></code>. Parameter <code>files</code> can not be null. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ab95b33a50323cca2d1297423d77a482f" title="Destroys a heap-allocated instance of MR_SceneLoad_SceneLoadResult. Does nothing if the pointer is nu...">MR_SceneLoad_SceneLoadResult_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="af1b2057153369c7c0e56bf0ece33fe67" name="af1b2057153369c7c0e56bf0ece33fe67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1b2057153369c7c0e56bf0ece33fe67">&#9670;&#160;</a></span>MR_SceneLoad_SceneLoadResult_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a7f1d25d16e4703c9e4fd6d1b05c0552d">MR_SceneLoad_SceneLoadResult</a> * MR_SceneLoad_SceneLoadResult_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a7f1d25d16e4703c9e4fd6d1b05c0552d">MR_SceneLoad_SceneLoadResult</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a7f1d25d16e4703c9e4fd6d1b05c0552d">MR_SceneLoad_SceneLoadResult</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1SceneLoad_1_1SceneLoadResult.html">MR::SceneLoad::SceneLoadResult</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="aa686ddc3b0a504e01bef39ba003ae4c9" name="aa686ddc3b0a504e01bef39ba003ae4c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa686ddc3b0a504e01bef39ba003ae4c9">&#9670;&#160;</a></span>MR_SceneLoad_SceneLoadResult_ConstructFrom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a7f1d25d16e4703c9e4fd6d1b05c0552d">MR_SceneLoad_SceneLoadResult</a> * MR_SceneLoad_SceneLoadResult_ConstructFrom </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>scene_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a455fb1e45d1e455a5436d36279622bb2">MR_std_shared_ptr_MR_SceneRootObject</a> *</td>          <td class="paramname"><span class="paramname"><em>scene</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>isSceneConstructed</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>loadedFiles_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a4d75e004d098bc7d987ebfcf304f5454">MR_std_vector_std_filesystem_path</a> *</td>          <td class="paramname"><span class="paramname"><em>loadedFiles</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>errorSummary</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>errorSummary_end</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>warningSummary</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>warningSummary_end</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1SceneLoad_1_1SceneLoadResult.html">MR::SceneLoad::SceneLoadResult</a></code> elementwise. Parameter <code>errorSummary</code> can not be null. If <code>errorSummary_end</code> is null, then <code>errorSummary</code> is assumed to be null-terminated. Parameter <code>warningSummary</code> can not be null. If <code>warningSummary_end</code> is null, then <code>warningSummary</code> is assumed to be null-terminated. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ab95b33a50323cca2d1297423d77a482f" title="Destroys a heap-allocated instance of MR_SceneLoad_SceneLoadResult. Does nothing if the pointer is nu...">MR_SceneLoad_SceneLoadResult_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="abb17f2c673615e78b21dda42266f58a7" name="abb17f2c673615e78b21dda42266f58a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb17f2c673615e78b21dda42266f58a7">&#9670;&#160;</a></span>MR_SceneLoad_SceneLoadResult_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a7f1d25d16e4703c9e4fd6d1b05c0552d">MR_SceneLoad_SceneLoadResult</a> * MR_SceneLoad_SceneLoadResult_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a7f1d25d16e4703c9e4fd6d1b05c0552d">MR_SceneLoad_SceneLoadResult</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1SceneLoad_1_1SceneLoadResult.html">MR::SceneLoad::SceneLoadResult</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ab95b33a50323cca2d1297423d77a482f" title="Destroys a heap-allocated instance of MR_SceneLoad_SceneLoadResult. Does nothing if the pointer is nu...">MR_SceneLoad_SceneLoadResult_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ab283d91be98e016dfd9d492868830e3a" name="ab283d91be98e016dfd9d492868830e3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab283d91be98e016dfd9d492868830e3a">&#9670;&#160;</a></span>MR_SceneLoad_SceneLoadResult_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a7f1d25d16e4703c9e4fd6d1b05c0552d">MR_SceneLoad_SceneLoadResult</a> * MR_SceneLoad_SceneLoadResult_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ab95b33a50323cca2d1297423d77a482f" title="Destroys a heap-allocated instance of MR_SceneLoad_SceneLoadResult. Does nothing if the pointer is nu...">MR_SceneLoad_SceneLoadResult_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a685de76e74ee9c1fe5234263c9c5135b" name="a685de76e74ee9c1fe5234263c9c5135b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a685de76e74ee9c1fe5234263c9c5135b">&#9670;&#160;</a></span>MR_SceneLoad_SceneLoadResult_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a7f1d25d16e4703c9e4fd6d1b05c0552d">MR_SceneLoad_SceneLoadResult</a> * MR_SceneLoad_SceneLoadResult_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#afbdb5a82401f71da06df98ea7e311d8e" title="Destroys a heap-allocated array of MR_SceneLoad_SceneLoadResult. Does nothing if the pointer is null.">MR_SceneLoad_SceneLoadResult_DestroyArray()</a></code>. Use <code><a class="el" href="#a47ca7593c8f55f0d4d0f507a4ef33fbe" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_SceneLoad_SceneLoadResult_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a49056a614b0f3e50c6d6fa81c1829b99" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_SceneLoad_SceneLoadResult_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="ab95b33a50323cca2d1297423d77a482f" name="ab95b33a50323cca2d1297423d77a482f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab95b33a50323cca2d1297423d77a482f">&#9670;&#160;</a></span>MR_SceneLoad_SceneLoadResult_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_SceneLoad_SceneLoadResult_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a7f1d25d16e4703c9e4fd6d1b05c0552d">MR_SceneLoad_SceneLoadResult</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_SceneLoad_SceneLoadResult</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="afbdb5a82401f71da06df98ea7e311d8e" name="afbdb5a82401f71da06df98ea7e311d8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afbdb5a82401f71da06df98ea7e311d8e">&#9670;&#160;</a></span>MR_SceneLoad_SceneLoadResult_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_SceneLoad_SceneLoadResult_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a7f1d25d16e4703c9e4fd6d1b05c0552d">MR_SceneLoad_SceneLoadResult</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_SceneLoad_SceneLoadResult</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="aca927805f6247ed49cd5a5a1a04e396b" name="aca927805f6247ed49cd5a5a1a04e396b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca927805f6247ed49cd5a5a1a04e396b">&#9670;&#160;</a></span>MR_SceneLoad_SceneLoadResult_Get_errorSummary()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_SceneLoad_SceneLoadResult_Get_errorSummary </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a7f1d25d16e4703c9e4fd6d1b05c0552d">MR_SceneLoad_SceneLoadResult</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Error summary text. </p>
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SceneLoad_1_1SceneLoadResult.html">MR::SceneLoad::SceneLoadResult</a></code> named <code>errorSummary</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a07f0c87606eca428bf493eee99c6a743" name="a07f0c87606eca428bf493eee99c6a743"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07f0c87606eca428bf493eee99c6a743">&#9670;&#160;</a></span>MR_SceneLoad_SceneLoadResult_Get_isSceneConstructed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const bool * MR_SceneLoad_SceneLoadResult_Get_isSceneConstructed </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a7f1d25d16e4703c9e4fd6d1b05c0552d">MR_SceneLoad_SceneLoadResult</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Marks whether the scene was loaded from a single file (false) or was built from scratch (true) Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SceneLoad_1_1SceneLoadResult.html">MR::SceneLoad::SceneLoadResult</a></code> named <code>isSceneConstructed</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a0ace8e0428b7a5d5ef46c46be9be2d52" name="a0ace8e0428b7a5d5ef46c46be9be2d52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ace8e0428b7a5d5ef46c46be9be2d52">&#9670;&#160;</a></span>MR_SceneLoad_SceneLoadResult_Get_loadedFiles()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a4d75e004d098bc7d987ebfcf304f5454">MR_std_vector_std_filesystem_path</a> * MR_SceneLoad_SceneLoadResult_Get_loadedFiles </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a7f1d25d16e4703c9e4fd6d1b05c0552d">MR_SceneLoad_SceneLoadResult</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>List of successfully loaded files Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SceneLoad_1_1SceneLoadResult.html">MR::SceneLoad::SceneLoadResult</a></code> named <code>loadedFiles</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a65479792def3cdf5ffedf2dda4b2a559" name="a65479792def3cdf5ffedf2dda4b2a559"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65479792def3cdf5ffedf2dda4b2a559">&#9670;&#160;</a></span>MR_SceneLoad_SceneLoadResult_Get_scene()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a455fb1e45d1e455a5436d36279622bb2">MR_std_shared_ptr_MR_SceneRootObject</a> * MR_SceneLoad_SceneLoadResult_Get_scene </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a7f1d25d16e4703c9e4fd6d1b05c0552d">MR_SceneLoad_SceneLoadResult</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The loaded scene or empty object Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SceneLoad_1_1SceneLoadResult.html">MR::SceneLoad::SceneLoadResult</a></code> named <code>scene</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a7bfbae93aaf8928a999b8e70366457d7" name="a7bfbae93aaf8928a999b8e70366457d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7bfbae93aaf8928a999b8e70366457d7">&#9670;&#160;</a></span>MR_SceneLoad_SceneLoadResult_Get_warningSummary()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_SceneLoad_SceneLoadResult_Get_warningSummary </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a7f1d25d16e4703c9e4fd6d1b05c0552d">MR_SceneLoad_SceneLoadResult</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Warning summary text. </p>
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SceneLoad_1_1SceneLoadResult.html">MR::SceneLoad::SceneLoadResult</a></code> named <code>warningSummary</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a1345b7abf4d919f2f0f7177d3c2037d0" name="a1345b7abf4d919f2f0f7177d3c2037d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1345b7abf4d919f2f0f7177d3c2037d0">&#9670;&#160;</a></span>MR_SceneLoad_SceneLoadResult_GetMutable_errorSummary()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_SceneLoad_SceneLoadResult_GetMutable_errorSummary </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a7f1d25d16e4703c9e4fd6d1b05c0552d">MR_SceneLoad_SceneLoadResult</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Error summary text. </p>
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SceneLoad_1_1SceneLoadResult.html">MR::SceneLoad::SceneLoadResult</a></code> named <code>errorSummary</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a166f62cf0d22d63ac1a593a20014cfd3" name="a166f62cf0d22d63ac1a593a20014cfd3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a166f62cf0d22d63ac1a593a20014cfd3">&#9670;&#160;</a></span>MR_SceneLoad_SceneLoadResult_GetMutable_isSceneConstructed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool * MR_SceneLoad_SceneLoadResult_GetMutable_isSceneConstructed </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a7f1d25d16e4703c9e4fd6d1b05c0552d">MR_SceneLoad_SceneLoadResult</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Marks whether the scene was loaded from a single file (false) or was built from scratch (true) Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SceneLoad_1_1SceneLoadResult.html">MR::SceneLoad::SceneLoadResult</a></code> named <code>isSceneConstructed</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a64d665d116f7ea5e101fe0f6ecb5c2b6" name="a64d665d116f7ea5e101fe0f6ecb5c2b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64d665d116f7ea5e101fe0f6ecb5c2b6">&#9670;&#160;</a></span>MR_SceneLoad_SceneLoadResult_GetMutable_loadedFiles()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a4d75e004d098bc7d987ebfcf304f5454">MR_std_vector_std_filesystem_path</a> * MR_SceneLoad_SceneLoadResult_GetMutable_loadedFiles </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a7f1d25d16e4703c9e4fd6d1b05c0552d">MR_SceneLoad_SceneLoadResult</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>List of successfully loaded files Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SceneLoad_1_1SceneLoadResult.html">MR::SceneLoad::SceneLoadResult</a></code> named <code>loadedFiles</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a7369e1f3e534d67aa3649d2d072cc279" name="a7369e1f3e534d67aa3649d2d072cc279"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7369e1f3e534d67aa3649d2d072cc279">&#9670;&#160;</a></span>MR_SceneLoad_SceneLoadResult_GetMutable_scene()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a455fb1e45d1e455a5436d36279622bb2">MR_std_shared_ptr_MR_SceneRootObject</a> * MR_SceneLoad_SceneLoadResult_GetMutable_scene </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a7f1d25d16e4703c9e4fd6d1b05c0552d">MR_SceneLoad_SceneLoadResult</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The loaded scene or empty object Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SceneLoad_1_1SceneLoadResult.html">MR::SceneLoad::SceneLoadResult</a></code> named <code>scene</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a845d6aa9ed4676cd35caaa1b4f3a4896" name="a845d6aa9ed4676cd35caaa1b4f3a4896"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a845d6aa9ed4676cd35caaa1b4f3a4896">&#9670;&#160;</a></span>MR_SceneLoad_SceneLoadResult_GetMutable_warningSummary()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_SceneLoad_SceneLoadResult_GetMutable_warningSummary </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a7f1d25d16e4703c9e4fd6d1b05c0552d">MR_SceneLoad_SceneLoadResult</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Warning summary text. </p>
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SceneLoad_1_1SceneLoadResult.html">MR::SceneLoad::SceneLoadResult</a></code> named <code>warningSummary</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a47ca7593c8f55f0d4d0f507a4ef33fbe" name="a47ca7593c8f55f0d4d0f507a4ef33fbe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47ca7593c8f55f0d4d0f507a4ef33fbe">&#9670;&#160;</a></span>MR_SceneLoad_SceneLoadResult_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a7f1d25d16e4703c9e4fd6d1b05c0552d">MR_SceneLoad_SceneLoadResult</a> * MR_SceneLoad_SceneLoadResult_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a7f1d25d16e4703c9e4fd6d1b05c0552d">MR_SceneLoad_SceneLoadResult</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a49056a614b0f3e50c6d6fa81c1829b99" name="a49056a614b0f3e50c6d6fa81c1829b99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49056a614b0f3e50c6d6fa81c1829b99">&#9670;&#160;</a></span>MR_SceneLoad_SceneLoadResult_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a7f1d25d16e4703c9e4fd6d1b05c0552d">MR_SceneLoad_SceneLoadResult</a> * MR_SceneLoad_SceneLoadResult_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a7f1d25d16e4703c9e4fd6d1b05c0552d">MR_SceneLoad_SceneLoadResult</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a31945def8b84e954ac6246d250c704af" name="a31945def8b84e954ac6246d250c704af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31945def8b84e954ac6246d250c704af">&#9670;&#160;</a></span>MR_SceneLoad_SceneLoadResult_Set_errorSummary()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_SceneLoad_SceneLoadResult_Set_errorSummary </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a7f1d25d16e4703c9e4fd6d1b05c0552d">MR_SceneLoad_SceneLoadResult</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>value_end</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Error summary text. </p>
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SceneLoad_1_1SceneLoadResult.html">MR::SceneLoad::SceneLoadResult</a></code> named <code>errorSummary</code>. Parameter <code>_this</code> can not be null. Parameter <code>value</code> can not be null. If <code>value_end</code> is null, then <code>value</code> is assumed to be null-terminated. </p>
+
+</div>
+</div>
+<a id="ac02d5bfca5301cf5af22cf70fcea6c56" name="ac02d5bfca5301cf5af22cf70fcea6c56"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac02d5bfca5301cf5af22cf70fcea6c56">&#9670;&#160;</a></span>MR_SceneLoad_SceneLoadResult_Set_isSceneConstructed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_SceneLoad_SceneLoadResult_Set_isSceneConstructed </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a7f1d25d16e4703c9e4fd6d1b05c0552d">MR_SceneLoad_SceneLoadResult</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Marks whether the scene was loaded from a single file (false) or was built from scratch (true) Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SceneLoad_1_1SceneLoadResult.html">MR::SceneLoad::SceneLoadResult</a></code> named <code>isSceneConstructed</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a1d7e7c9b9c9244e45ba34c6319bc92ec" name="a1d7e7c9b9c9244e45ba34c6319bc92ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d7e7c9b9c9244e45ba34c6319bc92ec">&#9670;&#160;</a></span>MR_SceneLoad_SceneLoadResult_Set_loadedFiles()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_SceneLoad_SceneLoadResult_Set_loadedFiles </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a7f1d25d16e4703c9e4fd6d1b05c0552d">MR_SceneLoad_SceneLoadResult</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a4d75e004d098bc7d987ebfcf304f5454">MR_std_vector_std_filesystem_path</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>List of successfully loaded files Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SceneLoad_1_1SceneLoadResult.html">MR::SceneLoad::SceneLoadResult</a></code> named <code>loadedFiles</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a170422ebf7bcbe99eab70b331dcba25d" name="a170422ebf7bcbe99eab70b331dcba25d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a170422ebf7bcbe99eab70b331dcba25d">&#9670;&#160;</a></span>MR_SceneLoad_SceneLoadResult_Set_scene()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_SceneLoad_SceneLoadResult_Set_scene </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a7f1d25d16e4703c9e4fd6d1b05c0552d">MR_SceneLoad_SceneLoadResult</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a455fb1e45d1e455a5436d36279622bb2">MR_std_shared_ptr_MR_SceneRootObject</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The loaded scene or empty object Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SceneLoad_1_1SceneLoadResult.html">MR::SceneLoad::SceneLoadResult</a></code> named <code>scene</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a50d0478edba29f8e04917636ac43e822" name="a50d0478edba29f8e04917636ac43e822"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50d0478edba29f8e04917636ac43e822">&#9670;&#160;</a></span>MR_SceneLoad_SceneLoadResult_Set_warningSummary()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_SceneLoad_SceneLoadResult_Set_warningSummary </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a7f1d25d16e4703c9e4fd6d1b05c0552d">MR_SceneLoad_SceneLoadResult</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>value_end</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Warning summary text. </p>
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SceneLoad_1_1SceneLoadResult.html">MR::SceneLoad::SceneLoadResult</a></code> named <code>warningSummary</code>. Parameter <code>_this</code> can not be null. Parameter <code>value</code> can not be null. If <code>value_end</code> is null, then <code>value</code> is assumed to be null-terminated. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_87d38852fc01aff5f853718c8d8b5cb2.html">Cbindings</a></li><li class="navelem"><a class="el" href="dir_cb83f9b98dc6f67356ff76bcc17f4f67.html">MRCMesh</a></li><li class="navelem"><a class="el" href="MRSceneLoad_8h.html">MRSceneLoad.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

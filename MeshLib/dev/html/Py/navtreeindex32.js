@@ -1,5 +1,6 @@
 var NAVTREEINDEX32 =
 {
+"classmrmeshpy_1_1GraphVertBitSet.html#a0ed597f34b83f6bca59b46a178908099":[6,1,1,0,1,359,3],
 "classmrmeshpy_1_1GraphVertBitSet.html#a19282e51a096b4b8d402fac992e573f8":[6,1,0,0,2,359,15],
 "classmrmeshpy_1_1GraphVertBitSet.html#a19282e51a096b4b8d402fac992e573f8":[6,1,1,0,1,359,15],
 "classmrmeshpy_1_1GraphVertBitSet.html#a1d237f734362530906bb32b8dadd5424":[6,1,0,0,2,359,34],
@@ -248,6 +249,5 @@ var NAVTREEINDEX32 =
 "classmrmeshpy_1_1Heap__float__GraphVertId__std__greater__float.html#afc370715813ca64b385de80a4e2b6146":[6,1,1,0,1,363,2],
 "classmrmeshpy_1_1Heap__float__GraphVertId__std__greater__float_1_1Element.html":[6,1,0,0,2,363,0],
 "classmrmeshpy_1_1Heap__float__GraphVertId__std__greater__float_1_1Element.html":[6,1,1,0,1,363,0],
-"classmrmeshpy_1_1Heap__float__GraphVertId__std__greater__float_1_1Element.html#a3b83941f583706377fff21a7554f7556":[6,1,0,0,2,363,0,0],
-"classmrmeshpy_1_1Heap__float__GraphVertId__std__greater__float_1_1Element.html#a3b83941f583706377fff21a7554f7556":[6,1,1,0,1,363,0,0]
+"classmrmeshpy_1_1Heap__float__GraphVertId__std__greater__float_1_1Element.html#a3b83941f583706377fff21a7554f7556":[6,1,0,0,2,363,0,0]
 };

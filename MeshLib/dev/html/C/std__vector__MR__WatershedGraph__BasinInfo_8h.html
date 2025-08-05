@@ -1,0 +1,1770 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: std_vector_MR_WatershedGraph_BasinInfo.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('std__vector__MR__WatershedGraph__BasinInfo_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">std_vector_MR_WatershedGraph_BasinInfo.h File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
+</div>
+<p><a href="std__vector__MR__WatershedGraph__BasinInfo_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a9c7c2a4f5d98b95ad690a545b3e1560b" id="r_a9c7c2a4f5d98b95ad690a545b3e1560b"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRVector_8h.html#a9c7c2a4f5d98b95ad690a545b3e1560b">MR_WatershedGraph_BasinInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c7c2a4f5d98b95ad690a545b3e1560b">MR_WatershedGraph_BasinInfo</a></td></tr>
+<tr class="separator:a9c7c2a4f5d98b95ad690a545b3e1560b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44e4503744b09efb9e2e133dc7b9cbb0" id="r_a44e4503744b09efb9e2e133dc7b9cbb0"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a></td></tr>
+<tr class="separator:a44e4503744b09efb9e2e133dc7b9cbb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef894bd5f5872a0522de8da8264b3918" id="r_aef894bd5f5872a0522de8da8264b3918"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#aef894bd5f5872a0522de8da8264b3918">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef894bd5f5872a0522de8da8264b3918">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator</a></td></tr>
+<tr class="separator:aef894bd5f5872a0522de8da8264b3918"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60302f6e090205bcecc89e97048adedc" id="r_a60302f6e090205bcecc89e97048adedc"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a60302f6e090205bcecc89e97048adedc">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60302f6e090205bcecc89e97048adedc">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator</a></td></tr>
+<tr class="separator:a60302f6e090205bcecc89e97048adedc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a57e75793e9ee2d0527a8d68b7d2a449c" id="r_a57e75793e9ee2d0527a8d68b7d2a449c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a57e75793e9ee2d0527a8d68b7d2a449c">MR_std_vector_MR_WatershedGraph_BasinInfo_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a57e75793e9ee2d0527a8d68b7d2a449c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2622d77de2cb00c82804154cc6936a9" id="r_aa2622d77de2cb00c82804154cc6936a9"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2622d77de2cb00c82804154cc6936a9">MR_std_vector_MR_WatershedGraph_BasinInfo_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:aa2622d77de2cb00c82804154cc6936a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a053331ba5923b2bff2ea78ab4e7d6ee9" id="r_a053331ba5923b2bff2ea78ab4e7d6ee9"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a053331ba5923b2bff2ea78ab4e7d6ee9">MR_std_vector_MR_WatershedGraph_BasinInfo_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> other_pass_by, <a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *other)</td></tr>
+<tr class="separator:a053331ba5923b2bff2ea78ab4e7d6ee9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c817fc0baa215442e6ac803be17be90" id="r_a0c817fc0baa215442e6ac803be17be90"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c817fc0baa215442e6ac803be17be90">MR_std_vector_MR_WatershedGraph_BasinInfo_AssignFromAnother</a> (<a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> other_pass_by, <a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *other)</td></tr>
+<tr class="separator:a0c817fc0baa215442e6ac803be17be90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a398e5caa6d7cf385865aea3773096758" id="r_a398e5caa6d7cf385865aea3773096758"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a398e5caa6d7cf385865aea3773096758">MR_std_vector_MR_WatershedGraph_BasinInfo_Destroy</a> (const <a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *_this)</td></tr>
+<tr class="memdesc:a398e5caa6d7cf385865aea3773096758"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_std_vector_MR_WatershedGraph_BasinInfo</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a398e5caa6d7cf385865aea3773096758"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66f18a0da9b9d8b3fcd302546909a9bd" id="r_a66f18a0da9b9d8b3fcd302546909a9bd"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66f18a0da9b9d8b3fcd302546909a9bd">MR_std_vector_MR_WatershedGraph_BasinInfo_DestroyArray</a> (const <a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *_this)</td></tr>
+<tr class="memdesc:a66f18a0da9b9d8b3fcd302546909a9bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_std_vector_MR_WatershedGraph_BasinInfo</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a66f18a0da9b9d8b3fcd302546909a9bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38e94ef4c21a593746494ba46b83150f" id="r_a38e94ef4c21a593746494ba46b83150f"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38e94ef4c21a593746494ba46b83150f">MR_std_vector_MR_WatershedGraph_BasinInfo_OffsetPtr</a> (const <a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a38e94ef4c21a593746494ba46b83150f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a38e94ef4c21a593746494ba46b83150f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5512e7e7c52b22a611578344ede62a5" id="r_ad5512e7e7c52b22a611578344ede62a5"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5512e7e7c52b22a611578344ede62a5">MR_std_vector_MR_WatershedGraph_BasinInfo_OffsetMutablePtr</a> (<a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:ad5512e7e7c52b22a611578344ede62a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:ad5512e7e7c52b22a611578344ede62a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8e16cfc42645e3090244a2c0199ee1f" id="r_ab8e16cfc42645e3090244a2c0199ee1f"><td class="memItemLeft" align="right" valign="top">MRC_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8e16cfc42645e3090244a2c0199ee1f">MR_std_vector_MR_WatershedGraph_BasinInfo_Size</a> (const <a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *_this)</td></tr>
+<tr class="separator:ab8e16cfc42645e3090244a2c0199ee1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63f202935709325d83e3d35f9d52b3bb" id="r_a63f202935709325d83e3d35f9d52b3bb"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a63f202935709325d83e3d35f9d52b3bb">MR_std_vector_MR_WatershedGraph_BasinInfo_IsEmpty</a> (const <a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *_this)</td></tr>
+<tr class="separator:a63f202935709325d83e3d35f9d52b3bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a611217e079bd008074cb00aff7bd9410" id="r_a611217e079bd008074cb00aff7bd9410"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a611217e079bd008074cb00aff7bd9410">MR_std_vector_MR_WatershedGraph_BasinInfo_Resize</a> (<a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *_this, size_t new_size)</td></tr>
+<tr class="separator:a611217e079bd008074cb00aff7bd9410"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa087fcba6323d871e7bfebcb3da28aae" id="r_aa087fcba6323d871e7bfebcb3da28aae"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa087fcba6323d871e7bfebcb3da28aae">MR_std_vector_MR_WatershedGraph_BasinInfo_ResizeWithDefaultValue</a> (<a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *_this, size_t new_size, const <a class="el" href="MRVector_8h.html#a9c7c2a4f5d98b95ad690a545b3e1560b">MR_WatershedGraph_BasinInfo</a> *value)</td></tr>
+<tr class="separator:aa087fcba6323d871e7bfebcb3da28aae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acca3823fd8776a534df75f81ecf70def" id="r_acca3823fd8776a534df75f81ecf70def"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acca3823fd8776a534df75f81ecf70def">MR_std_vector_MR_WatershedGraph_BasinInfo_Clear</a> (<a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *_this)</td></tr>
+<tr class="separator:acca3823fd8776a534df75f81ecf70def"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8108115c53fd41da4bbee153e25680fa" id="r_a8108115c53fd41da4bbee153e25680fa"><td class="memItemLeft" align="right" valign="top">MRC_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8108115c53fd41da4bbee153e25680fa">MR_std_vector_MR_WatershedGraph_BasinInfo_Capacity</a> (const <a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *_this)</td></tr>
+<tr class="separator:a8108115c53fd41da4bbee153e25680fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ababa704825a4a5553d30ce1a765e4de5" id="r_ababa704825a4a5553d30ce1a765e4de5"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ababa704825a4a5553d30ce1a765e4de5">MR_std_vector_MR_WatershedGraph_BasinInfo_Reserve</a> (<a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *_this, size_t new_capacity)</td></tr>
+<tr class="separator:ababa704825a4a5553d30ce1a765e4de5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14b12ede925d8cb2fb268d4cda51849e" id="r_a14b12ede925d8cb2fb268d4cda51849e"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14b12ede925d8cb2fb268d4cda51849e">MR_std_vector_MR_WatershedGraph_BasinInfo_ShrinkToFit</a> (<a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *_this)</td></tr>
+<tr class="separator:a14b12ede925d8cb2fb268d4cda51849e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad655d5e61cc450fbf2d9533cd2c23cfb" id="r_ad655d5e61cc450fbf2d9533cd2c23cfb"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRVector_8h.html#a9c7c2a4f5d98b95ad690a545b3e1560b">MR_WatershedGraph_BasinInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad655d5e61cc450fbf2d9533cd2c23cfb">MR_std_vector_MR_WatershedGraph_BasinInfo_At</a> (const <a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *_this, size_t i)</td></tr>
+<tr class="separator:ad655d5e61cc450fbf2d9533cd2c23cfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8cf154981eaa05b1a879861f005bcb6d" id="r_a8cf154981eaa05b1a879861f005bcb6d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRVector_8h.html#a9c7c2a4f5d98b95ad690a545b3e1560b">MR_WatershedGraph_BasinInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8cf154981eaa05b1a879861f005bcb6d">MR_std_vector_MR_WatershedGraph_BasinInfo_MutableAt</a> (<a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *_this, size_t i)</td></tr>
+<tr class="separator:a8cf154981eaa05b1a879861f005bcb6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d8de74c51cb98bca326c103b9090ba9" id="r_a9d8de74c51cb98bca326c103b9090ba9"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRVector_8h.html#a9c7c2a4f5d98b95ad690a545b3e1560b">MR_WatershedGraph_BasinInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d8de74c51cb98bca326c103b9090ba9">MR_std_vector_MR_WatershedGraph_BasinInfo_Front</a> (const <a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *_this)</td></tr>
+<tr class="separator:a9d8de74c51cb98bca326c103b9090ba9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71b8e062e7b3934110b9e87a67ebe65b" id="r_a71b8e062e7b3934110b9e87a67ebe65b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRVector_8h.html#a9c7c2a4f5d98b95ad690a545b3e1560b">MR_WatershedGraph_BasinInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71b8e062e7b3934110b9e87a67ebe65b">MR_std_vector_MR_WatershedGraph_BasinInfo_MutableFront</a> (<a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *_this)</td></tr>
+<tr class="separator:a71b8e062e7b3934110b9e87a67ebe65b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82ab3f1b40b337433e7a18cfbb51a8ec" id="r_a82ab3f1b40b337433e7a18cfbb51a8ec"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRVector_8h.html#a9c7c2a4f5d98b95ad690a545b3e1560b">MR_WatershedGraph_BasinInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a82ab3f1b40b337433e7a18cfbb51a8ec">MR_std_vector_MR_WatershedGraph_BasinInfo_Back</a> (const <a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *_this)</td></tr>
+<tr class="separator:a82ab3f1b40b337433e7a18cfbb51a8ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8d72ef07fb2f05925ec5d077c84a680" id="r_ac8d72ef07fb2f05925ec5d077c84a680"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRVector_8h.html#a9c7c2a4f5d98b95ad690a545b3e1560b">MR_WatershedGraph_BasinInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac8d72ef07fb2f05925ec5d077c84a680">MR_std_vector_MR_WatershedGraph_BasinInfo_MutableBack</a> (<a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *_this)</td></tr>
+<tr class="separator:ac8d72ef07fb2f05925ec5d077c84a680"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cbed59b13da05f8581ea2d1f415e3e6" id="r_a2cbed59b13da05f8581ea2d1f415e3e6"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2cbed59b13da05f8581ea2d1f415e3e6">MR_std_vector_MR_WatershedGraph_BasinInfo_PushBack</a> (<a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *_this, const <a class="el" href="MRVector_8h.html#a9c7c2a4f5d98b95ad690a545b3e1560b">MR_WatershedGraph_BasinInfo</a> *new_elem)</td></tr>
+<tr class="separator:a2cbed59b13da05f8581ea2d1f415e3e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff0e559b556922eb7008aa9521745360" id="r_aff0e559b556922eb7008aa9521745360"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff0e559b556922eb7008aa9521745360">MR_std_vector_MR_WatershedGraph_BasinInfo_PopBack</a> (<a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *_this)</td></tr>
+<tr class="separator:aff0e559b556922eb7008aa9521745360"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8388313eece4a312b3c4cabd6c5b47ad" id="r_a8388313eece4a312b3c4cabd6c5b47ad"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8388313eece4a312b3c4cabd6c5b47ad">MR_std_vector_MR_WatershedGraph_BasinInfo_Insert</a> (<a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *_this, size_t position, const <a class="el" href="MRVector_8h.html#a9c7c2a4f5d98b95ad690a545b3e1560b">MR_WatershedGraph_BasinInfo</a> *new_elem)</td></tr>
+<tr class="separator:a8388313eece4a312b3c4cabd6c5b47ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefc97cc0a75ad995a758bfc9e6ca779b" id="r_aefc97cc0a75ad995a758bfc9e6ca779b"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefc97cc0a75ad995a758bfc9e6ca779b">MR_std_vector_MR_WatershedGraph_BasinInfo_Erase</a> (<a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *_this, size_t position)</td></tr>
+<tr class="separator:aefc97cc0a75ad995a758bfc9e6ca779b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c261ec8f3f4816ca3e147dbc0c99729" id="r_a6c261ec8f3f4816ca3e147dbc0c99729"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c261ec8f3f4816ca3e147dbc0c99729">MR_std_vector_MR_WatershedGraph_BasinInfo_InsertAtMutableIter</a> (<a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *_this, const <a class="el" href="#a60302f6e090205bcecc89e97048adedc">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator</a> *position, const <a class="el" href="MRVector_8h.html#a9c7c2a4f5d98b95ad690a545b3e1560b">MR_WatershedGraph_BasinInfo</a> *new_elem)</td></tr>
+<tr class="separator:a6c261ec8f3f4816ca3e147dbc0c99729"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0e42cf8dd49b1f0419b8f75a4a29b86" id="r_aa0e42cf8dd49b1f0419b8f75a4a29b86"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0e42cf8dd49b1f0419b8f75a4a29b86">MR_std_vector_MR_WatershedGraph_BasinInfo_EraseAtMutableIter</a> (<a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *_this, const <a class="el" href="#a60302f6e090205bcecc89e97048adedc">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator</a> *position)</td></tr>
+<tr class="separator:aa0e42cf8dd49b1f0419b8f75a4a29b86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6ced6dc3674bdb0d18efdd2c8c92a05" id="r_ad6ced6dc3674bdb0d18efdd2c8c92a05"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad6ced6dc3674bdb0d18efdd2c8c92a05">MR_std_vector_MR_WatershedGraph_BasinInfo_InsertAtIter</a> (<a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *_this, const <a class="el" href="#aef894bd5f5872a0522de8da8264b3918">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator</a> *position, const <a class="el" href="MRVector_8h.html#a9c7c2a4f5d98b95ad690a545b3e1560b">MR_WatershedGraph_BasinInfo</a> *new_elem)</td></tr>
+<tr class="separator:ad6ced6dc3674bdb0d18efdd2c8c92a05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f3b0fa9eb6a4d1662397ef1160c1061" id="r_a6f3b0fa9eb6a4d1662397ef1160c1061"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f3b0fa9eb6a4d1662397ef1160c1061">MR_std_vector_MR_WatershedGraph_BasinInfo_EraseAtIter</a> (<a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *_this, const <a class="el" href="#aef894bd5f5872a0522de8da8264b3918">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator</a> *position)</td></tr>
+<tr class="separator:a6f3b0fa9eb6a4d1662397ef1160c1061"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aceb3a07b82addf34ae6d39bb8ddfd702" id="r_aceb3a07b82addf34ae6d39bb8ddfd702"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aef894bd5f5872a0522de8da8264b3918">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aceb3a07b82addf34ae6d39bb8ddfd702">MR_std_vector_MR_WatershedGraph_BasinInfo_Begin</a> (const <a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *_this)</td></tr>
+<tr class="separator:aceb3a07b82addf34ae6d39bb8ddfd702"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70181bb88f4821e6cf26074eec3f586c" id="r_a70181bb88f4821e6cf26074eec3f586c"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70181bb88f4821e6cf26074eec3f586c">MR_std_vector_MR_WatershedGraph_BasinInfo_IsBegin</a> (const <a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *_this, const <a class="el" href="#aef894bd5f5872a0522de8da8264b3918">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator</a> *iter)</td></tr>
+<tr class="separator:a70181bb88f4821e6cf26074eec3f586c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7f7f54f589538990bae1806bcaf5579" id="r_aa7f7f54f589538990bae1806bcaf5579"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a60302f6e090205bcecc89e97048adedc">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7f7f54f589538990bae1806bcaf5579">MR_std_vector_MR_WatershedGraph_BasinInfo_MutableBegin</a> (<a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *_this)</td></tr>
+<tr class="separator:aa7f7f54f589538990bae1806bcaf5579"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0431f893e422aea9d21fda8710be0395" id="r_a0431f893e422aea9d21fda8710be0395"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0431f893e422aea9d21fda8710be0395">MR_std_vector_MR_WatershedGraph_BasinInfo_IsMutableBegin</a> (<a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *_this, const <a class="el" href="#a60302f6e090205bcecc89e97048adedc">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator</a> *iter)</td></tr>
+<tr class="separator:a0431f893e422aea9d21fda8710be0395"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff39b5648723881d5629249b1b15e58b" id="r_aff39b5648723881d5629249b1b15e58b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aef894bd5f5872a0522de8da8264b3918">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff39b5648723881d5629249b1b15e58b">MR_std_vector_MR_WatershedGraph_BasinInfo_End</a> (const <a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *_this)</td></tr>
+<tr class="separator:aff39b5648723881d5629249b1b15e58b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc7c5b5df14328e6d2b57029942597fa" id="r_acc7c5b5df14328e6d2b57029942597fa"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc7c5b5df14328e6d2b57029942597fa">MR_std_vector_MR_WatershedGraph_BasinInfo_IsEnd</a> (const <a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *_this, const <a class="el" href="#aef894bd5f5872a0522de8da8264b3918">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator</a> *iter)</td></tr>
+<tr class="separator:acc7c5b5df14328e6d2b57029942597fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58cfad8d63190232aeed3c95eb648dad" id="r_a58cfad8d63190232aeed3c95eb648dad"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a60302f6e090205bcecc89e97048adedc">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58cfad8d63190232aeed3c95eb648dad">MR_std_vector_MR_WatershedGraph_BasinInfo_MutableEnd</a> (<a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *_this)</td></tr>
+<tr class="separator:a58cfad8d63190232aeed3c95eb648dad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaac7cc5675b11f6664778b985dae9e11" id="r_aaac7cc5675b11f6664778b985dae9e11"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaac7cc5675b11f6664778b985dae9e11">MR_std_vector_MR_WatershedGraph_BasinInfo_IsMutableEnd</a> (<a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *_this, const <a class="el" href="#a60302f6e090205bcecc89e97048adedc">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator</a> *iter)</td></tr>
+<tr class="separator:aaac7cc5675b11f6664778b985dae9e11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5ec035b2429edc534172dd488426ff9" id="r_aa5ec035b2429edc534172dd488426ff9"><td class="memItemLeft" align="right" valign="top">MRC_API ptrdiff_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa5ec035b2429edc534172dd488426ff9">MR_std_vector_MR_WatershedGraph_BasinInfo_ToIndex</a> (const <a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *_this, const <a class="el" href="#aef894bd5f5872a0522de8da8264b3918">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator</a> *iter)</td></tr>
+<tr class="separator:aa5ec035b2429edc534172dd488426ff9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ce5c9ec425d51e30f4adba29fb8bf98" id="r_a5ce5c9ec425d51e30f4adba29fb8bf98"><td class="memItemLeft" align="right" valign="top">MRC_API ptrdiff_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ce5c9ec425d51e30f4adba29fb8bf98">MR_std_vector_MR_WatershedGraph_BasinInfo_MutableToIndex</a> (const <a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *_this, const <a class="el" href="#a60302f6e090205bcecc89e97048adedc">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator</a> *iter)</td></tr>
+<tr class="separator:a5ce5c9ec425d51e30f4adba29fb8bf98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a840d942d55c7ab0cf8c26022b96b454e" id="r_a840d942d55c7ab0cf8c26022b96b454e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aef894bd5f5872a0522de8da8264b3918">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a840d942d55c7ab0cf8c26022b96b454e">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a840d942d55c7ab0cf8c26022b96b454e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb2f988bb07e65cd9935ca370349c428" id="r_acb2f988bb07e65cd9935ca370349c428"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aef894bd5f5872a0522de8da8264b3918">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb2f988bb07e65cd9935ca370349c428">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:acb2f988bb07e65cd9935ca370349c428"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a181529069e7494a02cbe40059302089f" id="r_a181529069e7494a02cbe40059302089f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aef894bd5f5872a0522de8da8264b3918">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a181529069e7494a02cbe40059302089f">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator_ConstructFromAnother</a> (const <a class="el" href="#aef894bd5f5872a0522de8da8264b3918">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator</a> *other)</td></tr>
+<tr class="separator:a181529069e7494a02cbe40059302089f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff8d2e7c7b7c6cc99e9a1659c1ffad62" id="r_aff8d2e7c7b7c6cc99e9a1659c1ffad62"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff8d2e7c7b7c6cc99e9a1659c1ffad62">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator_AssignFromAnother</a> (<a class="el" href="#aef894bd5f5872a0522de8da8264b3918">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator</a> *_this, const <a class="el" href="#aef894bd5f5872a0522de8da8264b3918">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator</a> *other)</td></tr>
+<tr class="separator:aff8d2e7c7b7c6cc99e9a1659c1ffad62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bb7ff1fed86b97e930037bc75bf0da3" id="r_a0bb7ff1fed86b97e930037bc75bf0da3"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0bb7ff1fed86b97e930037bc75bf0da3">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator_Destroy</a> (const <a class="el" href="#aef894bd5f5872a0522de8da8264b3918">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator</a> *_this)</td></tr>
+<tr class="memdesc:a0bb7ff1fed86b97e930037bc75bf0da3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a0bb7ff1fed86b97e930037bc75bf0da3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7524c6fed42773121b6d05436aecc1d" id="r_af7524c6fed42773121b6d05436aecc1d"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7524c6fed42773121b6d05436aecc1d">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator_DestroyArray</a> (const <a class="el" href="#aef894bd5f5872a0522de8da8264b3918">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator</a> *_this)</td></tr>
+<tr class="memdesc:af7524c6fed42773121b6d05436aecc1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:af7524c6fed42773121b6d05436aecc1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8765b6f465f3a013422a14c93e18d94" id="r_ab8765b6f465f3a013422a14c93e18d94"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#aef894bd5f5872a0522de8da8264b3918">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8765b6f465f3a013422a14c93e18d94">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator_OffsetPtr</a> (const <a class="el" href="#aef894bd5f5872a0522de8da8264b3918">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:ab8765b6f465f3a013422a14c93e18d94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:ab8765b6f465f3a013422a14c93e18d94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a644b572b8ac02c3b53c5125fb0a9f5ef" id="r_a644b572b8ac02c3b53c5125fb0a9f5ef"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aef894bd5f5872a0522de8da8264b3918">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a644b572b8ac02c3b53c5125fb0a9f5ef">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator_OffsetMutablePtr</a> (<a class="el" href="#aef894bd5f5872a0522de8da8264b3918">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a644b572b8ac02c3b53c5125fb0a9f5ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a644b572b8ac02c3b53c5125fb0a9f5ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a972e969226f890a3a35d659967ba3046" id="r_a972e969226f890a3a35d659967ba3046"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aef894bd5f5872a0522de8da8264b3918">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a972e969226f890a3a35d659967ba3046">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator_FromMutable</a> (const <a class="el" href="#a60302f6e090205bcecc89e97048adedc">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator</a> *iter)</td></tr>
+<tr class="separator:a972e969226f890a3a35d659967ba3046"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48dc9ee0427ae4bf76b07153a34e9ffc" id="r_a48dc9ee0427ae4bf76b07153a34e9ffc"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a60302f6e090205bcecc89e97048adedc">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a48dc9ee0427ae4bf76b07153a34e9ffc">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a48dc9ee0427ae4bf76b07153a34e9ffc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8468eecff29cf9aa7f752d9cec5ed3a6" id="r_a8468eecff29cf9aa7f752d9cec5ed3a6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a60302f6e090205bcecc89e97048adedc">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8468eecff29cf9aa7f752d9cec5ed3a6">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a8468eecff29cf9aa7f752d9cec5ed3a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa64f67d35320110646e8ad55fdf9e168" id="r_aa64f67d35320110646e8ad55fdf9e168"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a60302f6e090205bcecc89e97048adedc">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa64f67d35320110646e8ad55fdf9e168">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator_ConstructFromAnother</a> (const <a class="el" href="#a60302f6e090205bcecc89e97048adedc">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator</a> *other)</td></tr>
+<tr class="separator:aa64f67d35320110646e8ad55fdf9e168"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebe48c139af9427527b743b4a3239763" id="r_aebe48c139af9427527b743b4a3239763"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aebe48c139af9427527b743b4a3239763">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator_AssignFromAnother</a> (<a class="el" href="#a60302f6e090205bcecc89e97048adedc">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator</a> *_this, const <a class="el" href="#a60302f6e090205bcecc89e97048adedc">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator</a> *other)</td></tr>
+<tr class="separator:aebe48c139af9427527b743b4a3239763"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a144709416c9173679f37f235c0d7cd9f" id="r_a144709416c9173679f37f235c0d7cd9f"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a144709416c9173679f37f235c0d7cd9f">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator_Destroy</a> (const <a class="el" href="#a60302f6e090205bcecc89e97048adedc">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator</a> *_this)</td></tr>
+<tr class="memdesc:a144709416c9173679f37f235c0d7cd9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_std_vector_MR_WatershedGraph_BasinInfo_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a144709416c9173679f37f235c0d7cd9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a363e7a3d4ea208f17a1467d4be5f85ba" id="r_a363e7a3d4ea208f17a1467d4be5f85ba"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a363e7a3d4ea208f17a1467d4be5f85ba">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator_DestroyArray</a> (const <a class="el" href="#a60302f6e090205bcecc89e97048adedc">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator</a> *_this)</td></tr>
+<tr class="memdesc:a363e7a3d4ea208f17a1467d4be5f85ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_std_vector_MR_WatershedGraph_BasinInfo_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a363e7a3d4ea208f17a1467d4be5f85ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2dac36fffb2e6f9e0d0c449b02989585" id="r_a2dac36fffb2e6f9e0d0c449b02989585"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a60302f6e090205bcecc89e97048adedc">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2dac36fffb2e6f9e0d0c449b02989585">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator_OffsetPtr</a> (const <a class="el" href="#a60302f6e090205bcecc89e97048adedc">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a2dac36fffb2e6f9e0d0c449b02989585"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a2dac36fffb2e6f9e0d0c449b02989585"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c12be780acd313c5a5773fabf2a8cfd" id="r_a9c12be780acd313c5a5773fabf2a8cfd"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a60302f6e090205bcecc89e97048adedc">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c12be780acd313c5a5773fabf2a8cfd">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator_OffsetMutablePtr</a> (<a class="el" href="#a60302f6e090205bcecc89e97048adedc">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a9c12be780acd313c5a5773fabf2a8cfd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a9c12be780acd313c5a5773fabf2a8cfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af50ce7ef0de8533b1c954b1f19282a6f" id="r_af50ce7ef0de8533b1c954b1f19282a6f"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRVector_8h.html#a9c7c2a4f5d98b95ad690a545b3e1560b">MR_WatershedGraph_BasinInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af50ce7ef0de8533b1c954b1f19282a6f">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator_Deref</a> (const <a class="el" href="#aef894bd5f5872a0522de8da8264b3918">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator</a> *_this)</td></tr>
+<tr class="separator:af50ce7ef0de8533b1c954b1f19282a6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f79ca27badd343e5f696516606587ec" id="r_a5f79ca27badd343e5f696516606587ec"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f79ca27badd343e5f696516606587ec">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator_Incr</a> (<a class="el" href="#aef894bd5f5872a0522de8da8264b3918">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator</a> *_this)</td></tr>
+<tr class="separator:a5f79ca27badd343e5f696516606587ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69d66ddcbad26acb45c86fc3974fb2f5" id="r_a69d66ddcbad26acb45c86fc3974fb2f5"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69d66ddcbad26acb45c86fc3974fb2f5">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator_Decr</a> (<a class="el" href="#aef894bd5f5872a0522de8da8264b3918">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator</a> *_this)</td></tr>
+<tr class="separator:a69d66ddcbad26acb45c86fc3974fb2f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa435879c3f14368107a00eb3e4f8f074" id="r_aa435879c3f14368107a00eb3e4f8f074"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa435879c3f14368107a00eb3e4f8f074">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator_OffsetBy</a> (<a class="el" href="#aef894bd5f5872a0522de8da8264b3918">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator</a> *_this, ptrdiff_t delta)</td></tr>
+<tr class="separator:aa435879c3f14368107a00eb3e4f8f074"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8b884b49ab9b0f52a3014e19577956f" id="r_ae8b884b49ab9b0f52a3014e19577956f"><td class="memItemLeft" align="right" valign="top">MRC_API ptrdiff_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae8b884b49ab9b0f52a3014e19577956f">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator_Distance</a> (const <a class="el" href="#aef894bd5f5872a0522de8da8264b3918">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator</a> *a, const <a class="el" href="#aef894bd5f5872a0522de8da8264b3918">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator</a> *b)</td></tr>
+<tr class="separator:ae8b884b49ab9b0f52a3014e19577956f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa89d2b88d28966bd2448f8cbf338d18d" id="r_aa89d2b88d28966bd2448f8cbf338d18d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRVector_8h.html#a9c7c2a4f5d98b95ad690a545b3e1560b">MR_WatershedGraph_BasinInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa89d2b88d28966bd2448f8cbf338d18d">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator_Deref</a> (const <a class="el" href="#a60302f6e090205bcecc89e97048adedc">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator</a> *_this)</td></tr>
+<tr class="separator:aa89d2b88d28966bd2448f8cbf338d18d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af37c901b04c5a65ee13c999d68a4794c" id="r_af37c901b04c5a65ee13c999d68a4794c"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af37c901b04c5a65ee13c999d68a4794c">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator_Incr</a> (<a class="el" href="#a60302f6e090205bcecc89e97048adedc">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator</a> *_this)</td></tr>
+<tr class="separator:af37c901b04c5a65ee13c999d68a4794c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0855d6d4252748053969f999489eee27" id="r_a0855d6d4252748053969f999489eee27"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0855d6d4252748053969f999489eee27">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator_Decr</a> (<a class="el" href="#a60302f6e090205bcecc89e97048adedc">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator</a> *_this)</td></tr>
+<tr class="separator:a0855d6d4252748053969f999489eee27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a913fff7799c3afdb29bde2f2a44acaf5" id="r_a913fff7799c3afdb29bde2f2a44acaf5"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a913fff7799c3afdb29bde2f2a44acaf5">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator_OffsetBy</a> (<a class="el" href="#a60302f6e090205bcecc89e97048adedc">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator</a> *_this, ptrdiff_t delta)</td></tr>
+<tr class="separator:a913fff7799c3afdb29bde2f2a44acaf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15dbf0cede81e1c1e0f355fb0b03b2d6" id="r_a15dbf0cede81e1c1e0f355fb0b03b2d6"><td class="memItemLeft" align="right" valign="top">MRC_API ptrdiff_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a15dbf0cede81e1c1e0f355fb0b03b2d6">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator_Distance</a> (const <a class="el" href="#a60302f6e090205bcecc89e97048adedc">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator</a> *a, const <a class="el" href="#a60302f6e090205bcecc89e97048adedc">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator</a> *b)</td></tr>
+<tr class="separator:a15dbf0cede81e1c1e0f355fb0b03b2d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a44e4503744b09efb9e2e133dc7b9cbb0" name="a44e4503744b09efb9e2e133dc7b9cbb0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44e4503744b09efb9e2e133dc7b9cbb0">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> <a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from C++ container <code>std::vector&lt;<a class="elRef" href="../Cpp/structMR_1_1WatershedGraph_1_1BasinInfo.html">MR::WatershedGraph::BasinInfo</a>&gt;</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code>, (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="aef894bd5f5872a0522de8da8264b3918" name="aef894bd5f5872a0522de8da8264b3918"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef894bd5f5872a0522de8da8264b3918">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#aef894bd5f5872a0522de8da8264b3918">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator</a> <a class="el" href="#aef894bd5f5872a0522de8da8264b3918">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Read-only iterator for <code>MR_std_vector_MR_WatershedGraph_BasinInfo</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code>, (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="a60302f6e090205bcecc89e97048adedc" name="a60302f6e090205bcecc89e97048adedc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60302f6e090205bcecc89e97048adedc">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_iterator</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a60302f6e090205bcecc89e97048adedc">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator</a> <a class="el" href="#a60302f6e090205bcecc89e97048adedc">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Mutable iterator for <code>MR_std_vector_MR_WatershedGraph_BasinInfo</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code>, (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="a9c7c2a4f5d98b95ad690a545b3e1560b" name="a9c7c2a4f5d98b95ad690a545b3e1560b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c7c2a4f5d98b95ad690a545b3e1560b">&#9670;&#160;</a></span>MR_WatershedGraph_BasinInfo</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRVector_8h.html#a9c7c2a4f5d98b95ad690a545b3e1560b">MR_WatershedGraph_BasinInfo</a> <a class="el" href="MRVector_8h.html#a9c7c2a4f5d98b95ad690a545b3e1560b">MR_WatershedGraph_BasinInfo</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a0c817fc0baa215442e6ac803be17be90" name="a0c817fc0baa215442e6ac803be17be90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c817fc0baa215442e6ac803be17be90">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_WatershedGraph_BasinInfo_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ad655d5e61cc450fbf2d9533cd2c23cfb" name="ad655d5e61cc450fbf2d9533cd2c23cfb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad655d5e61cc450fbf2d9533cd2c23cfb">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_At()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRVector_8h.html#a9c7c2a4f5d98b95ad690a545b3e1560b">MR_WatershedGraph_BasinInfo</a> * MR_std_vector_MR_WatershedGraph_BasinInfo_At </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The element at a specific index, read-only. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a82ab3f1b40b337433e7a18cfbb51a8ec" name="a82ab3f1b40b337433e7a18cfbb51a8ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82ab3f1b40b337433e7a18cfbb51a8ec">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_Back()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRVector_8h.html#a9c7c2a4f5d98b95ad690a545b3e1560b">MR_WatershedGraph_BasinInfo</a> * MR_std_vector_MR_WatershedGraph_BasinInfo_Back </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The last element or null if empty, read-only. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aceb3a07b82addf34ae6d39bb8ddfd702" name="aceb3a07b82addf34ae6d39bb8ddfd702"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aceb3a07b82addf34ae6d39bb8ddfd702">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_Begin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aef894bd5f5872a0522de8da8264b3918">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator</a> * MR_std_vector_MR_WatershedGraph_BasinInfo_Begin </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, const. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a0bb7ff1fed86b97e930037bc75bf0da3" title="Destroys a heap-allocated instance of MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator....">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a8108115c53fd41da4bbee153e25680fa" name="a8108115c53fd41da4bbee153e25680fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8108115c53fd41da4bbee153e25680fa">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_Capacity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API size_t MR_std_vector_MR_WatershedGraph_BasinInfo_Capacity </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The memory capacity, measued in the number of elements. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="acca3823fd8776a534df75f81ecf70def" name="acca3823fd8776a534df75f81ecf70def"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acca3823fd8776a534df75f81ecf70def">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_Clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_WatershedGraph_BasinInfo_Clear </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Removes all elements from the container. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aff8d2e7c7b7c6cc99e9a1659c1ffad62" name="aff8d2e7c7b7c6cc99e9a1659c1ffad62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff8d2e7c7b7c6cc99e9a1659c1ffad62">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aef894bd5f5872a0522de8da8264b3918">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#aef894bd5f5872a0522de8da8264b3918">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <code>_this</code> can not be null. Parameter <code>other</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a181529069e7494a02cbe40059302089f" name="a181529069e7494a02cbe40059302089f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a181529069e7494a02cbe40059302089f">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aef894bd5f5872a0522de8da8264b3918">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator</a> * MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aef894bd5f5872a0522de8da8264b3918">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs a copy of another instance. The source remains alive. Parameter <code>other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a0bb7ff1fed86b97e930037bc75bf0da3" title="Destroys a heap-allocated instance of MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator....">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a69d66ddcbad26acb45c86fc3974fb2f5" name="a69d66ddcbad26acb45c86fc3974fb2f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69d66ddcbad26acb45c86fc3974fb2f5">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator_Decr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator_Decr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aef894bd5f5872a0522de8da8264b3918">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Decrements a const iterator. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a840d942d55c7ab0cf8c26022b96b454e" name="a840d942d55c7ab0cf8c26022b96b454e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a840d942d55c7ab0cf8c26022b96b454e">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aef894bd5f5872a0522de8da8264b3918">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator</a> * MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a0bb7ff1fed86b97e930037bc75bf0da3" title="Destroys a heap-allocated instance of MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator....">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="acb2f988bb07e65cd9935ca370349c428" name="acb2f988bb07e65cd9935ca370349c428"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb2f988bb07e65cd9935ca370349c428">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aef894bd5f5872a0522de8da8264b3918">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator</a> * MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#af7524c6fed42773121b6d05436aecc1d" title="Destroys a heap-allocated array of MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator....">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator_DestroyArray()</a></code>. Use <code><a class="el" href="#a644b572b8ac02c3b53c5125fb0a9f5ef" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator_OffsetMutablePtr()</a></code> and <code><a class="el" href="#ab8765b6f465f3a013422a14c93e18d94" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="af50ce7ef0de8533b1c954b1f19282a6f" name="af50ce7ef0de8533b1c954b1f19282a6f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af50ce7ef0de8533b1c954b1f19282a6f">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator_Deref()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRVector_8h.html#a9c7c2a4f5d98b95ad690a545b3e1560b">MR_WatershedGraph_BasinInfo</a> * MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator_Deref </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aef894bd5f5872a0522de8da8264b3918">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Dereferences a const iterator. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a0bb7ff1fed86b97e930037bc75bf0da3" name="a0bb7ff1fed86b97e930037bc75bf0da3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bb7ff1fed86b97e930037bc75bf0da3">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aef894bd5f5872a0522de8da8264b3918">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="af7524c6fed42773121b6d05436aecc1d" name="af7524c6fed42773121b6d05436aecc1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7524c6fed42773121b6d05436aecc1d">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aef894bd5f5872a0522de8da8264b3918">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="ae8b884b49ab9b0f52a3014e19577956f" name="ae8b884b49ab9b0f52a3014e19577956f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8b884b49ab9b0f52a3014e19577956f">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator_Distance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API ptrdiff_t MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator_Distance </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aef894bd5f5872a0522de8da8264b3918">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#aef894bd5f5872a0522de8da8264b3918">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Computes the signed difference between two const iterators. Completes in constant time. Parameter <code>a</code> can not be null. Parameter <code>b</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a972e969226f890a3a35d659967ba3046" name="a972e969226f890a3a35d659967ba3046"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a972e969226f890a3a35d659967ba3046">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator_FromMutable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aef894bd5f5872a0522de8da8264b3918">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator</a> * MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator_FromMutable </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a60302f6e090205bcecc89e97048adedc">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Makes a const iterator from a mutable one. Parameter <code>iter</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a0bb7ff1fed86b97e930037bc75bf0da3" title="Destroys a heap-allocated instance of MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator....">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a5f79ca27badd343e5f696516606587ec" name="a5f79ca27badd343e5f696516606587ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f79ca27badd343e5f696516606587ec">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator_Incr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator_Incr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aef894bd5f5872a0522de8da8264b3918">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Increments a const iterator. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aa435879c3f14368107a00eb3e4f8f074" name="aa435879c3f14368107a00eb3e4f8f074"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa435879c3f14368107a00eb3e4f8f074">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator_OffsetBy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator_OffsetBy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aef894bd5f5872a0522de8da8264b3918">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>delta</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Increments or decrements a const iterator by the specific amount. Completes in constant time. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a644b572b8ac02c3b53c5125fb0a9f5ef" name="a644b572b8ac02c3b53c5125fb0a9f5ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a644b572b8ac02c3b53c5125fb0a9f5ef">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aef894bd5f5872a0522de8da8264b3918">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator</a> * MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aef894bd5f5872a0522de8da8264b3918">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="ab8765b6f465f3a013422a14c93e18d94" name="ab8765b6f465f3a013422a14c93e18d94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8765b6f465f3a013422a14c93e18d94">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#aef894bd5f5872a0522de8da8264b3918">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator</a> * MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aef894bd5f5872a0522de8da8264b3918">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a053331ba5923b2bff2ea78ab4e7d6ee9" name="a053331ba5923b2bff2ea78ab4e7d6ee9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a053331ba5923b2bff2ea78ab4e7d6ee9">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> * MR_std_vector_MR_WatershedGraph_BasinInfo_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs a copy of another instance. The source remains alive. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a398e5caa6d7cf385865aea3773096758" title="Destroys a heap-allocated instance of MR_std_vector_MR_WatershedGraph_BasinInfo. Does nothing if the ...">MR_std_vector_MR_WatershedGraph_BasinInfo_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a57e75793e9ee2d0527a8d68b7d2a449c" name="a57e75793e9ee2d0527a8d68b7d2a449c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57e75793e9ee2d0527a8d68b7d2a449c">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> * MR_std_vector_MR_WatershedGraph_BasinInfo_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a398e5caa6d7cf385865aea3773096758" title="Destroys a heap-allocated instance of MR_std_vector_MR_WatershedGraph_BasinInfo. Does nothing if the ...">MR_std_vector_MR_WatershedGraph_BasinInfo_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="aa2622d77de2cb00c82804154cc6936a9" name="aa2622d77de2cb00c82804154cc6936a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2622d77de2cb00c82804154cc6936a9">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> * MR_std_vector_MR_WatershedGraph_BasinInfo_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a66f18a0da9b9d8b3fcd302546909a9bd" title="Destroys a heap-allocated array of MR_std_vector_MR_WatershedGraph_BasinInfo. Does nothing if the poi...">MR_std_vector_MR_WatershedGraph_BasinInfo_DestroyArray()</a></code>. Use <code><a class="el" href="#ad5512e7e7c52b22a611578344ede62a5" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_WatershedGraph_BasinInfo_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a38e94ef4c21a593746494ba46b83150f" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_WatershedGraph_BasinInfo_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a398e5caa6d7cf385865aea3773096758" name="a398e5caa6d7cf385865aea3773096758"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a398e5caa6d7cf385865aea3773096758">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_WatershedGraph_BasinInfo_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_std_vector_MR_WatershedGraph_BasinInfo</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a66f18a0da9b9d8b3fcd302546909a9bd" name="a66f18a0da9b9d8b3fcd302546909a9bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66f18a0da9b9d8b3fcd302546909a9bd">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_WatershedGraph_BasinInfo_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_std_vector_MR_WatershedGraph_BasinInfo</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="aff39b5648723881d5629249b1b15e58b" name="aff39b5648723881d5629249b1b15e58b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff39b5648723881d5629249b1b15e58b">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_End()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aef894bd5f5872a0522de8da8264b3918">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator</a> * MR_std_vector_MR_WatershedGraph_BasinInfo_End </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, const. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a0bb7ff1fed86b97e930037bc75bf0da3" title="Destroys a heap-allocated instance of MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator....">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="aefc97cc0a75ad995a758bfc9e6ca779b" name="aefc97cc0a75ad995a758bfc9e6ca779b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefc97cc0a75ad995a758bfc9e6ca779b">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_Erase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_WatershedGraph_BasinInfo_Erase </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>position</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Erases the element at the specified position. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a6f3b0fa9eb6a4d1662397ef1160c1061" name="a6f3b0fa9eb6a4d1662397ef1160c1061"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f3b0fa9eb6a4d1662397ef1160c1061">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_EraseAtIter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_WatershedGraph_BasinInfo_EraseAtIter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#aef894bd5f5872a0522de8da8264b3918">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>position</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Erases the element at the specified position. This version takes the position in form of a const iterator, that's the only difference. Parameter <code>_this</code> can not be null. Parameter <code>position</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aa0e42cf8dd49b1f0419b8f75a4a29b86" name="aa0e42cf8dd49b1f0419b8f75a4a29b86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0e42cf8dd49b1f0419b8f75a4a29b86">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_EraseAtMutableIter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_WatershedGraph_BasinInfo_EraseAtMutableIter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a60302f6e090205bcecc89e97048adedc">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>position</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Erases the element at the specified position. Parameter <code>_this</code> can not be null. Parameter <code>position</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a9d8de74c51cb98bca326c103b9090ba9" name="a9d8de74c51cb98bca326c103b9090ba9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d8de74c51cb98bca326c103b9090ba9">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_Front()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRVector_8h.html#a9c7c2a4f5d98b95ad690a545b3e1560b">MR_WatershedGraph_BasinInfo</a> * MR_std_vector_MR_WatershedGraph_BasinInfo_Front </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The first element or null if empty, read-only. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a8388313eece4a312b3c4cabd6c5b47ad" name="a8388313eece4a312b3c4cabd6c5b47ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8388313eece4a312b3c4cabd6c5b47ad">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_Insert()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_WatershedGraph_BasinInfo_Insert </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRVector_8h.html#a9c7c2a4f5d98b95ad690a545b3e1560b">MR_WatershedGraph_BasinInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>new_elem</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Inserts a new element right before the specified position. Parameter <code>_this</code> can not be null. Parameter <code>new_elem</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ad6ced6dc3674bdb0d18efdd2c8c92a05" name="ad6ced6dc3674bdb0d18efdd2c8c92a05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6ced6dc3674bdb0d18efdd2c8c92a05">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_InsertAtIter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_WatershedGraph_BasinInfo_InsertAtIter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#aef894bd5f5872a0522de8da8264b3918">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRVector_8h.html#a9c7c2a4f5d98b95ad690a545b3e1560b">MR_WatershedGraph_BasinInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>new_elem</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Inserts a new element right before the specified position. This version takes the position in form of a const iterator, that's the only difference. Parameter <code>_this</code> can not be null. Parameter <code>position</code> can not be null. Parameter <code>new_elem</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a6c261ec8f3f4816ca3e147dbc0c99729" name="a6c261ec8f3f4816ca3e147dbc0c99729"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c261ec8f3f4816ca3e147dbc0c99729">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_InsertAtMutableIter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_WatershedGraph_BasinInfo_InsertAtMutableIter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a60302f6e090205bcecc89e97048adedc">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRVector_8h.html#a9c7c2a4f5d98b95ad690a545b3e1560b">MR_WatershedGraph_BasinInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>new_elem</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Inserts a new element right before the specified position. Parameter <code>_this</code> can not be null. Parameter <code>position</code> can not be null. Parameter <code>new_elem</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a70181bb88f4821e6cf26074eec3f586c" name="a70181bb88f4821e6cf26074eec3f586c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70181bb88f4821e6cf26074eec3f586c">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_IsBegin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_MR_WatershedGraph_BasinInfo_IsBegin </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#aef894bd5f5872a0522de8da8264b3918">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a const iterator is the begin iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a63f202935709325d83e3d35f9d52b3bb" name="a63f202935709325d83e3d35f9d52b3bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63f202935709325d83e3d35f9d52b3bb">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_IsEmpty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_MR_WatershedGraph_BasinInfo_IsEmpty </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns true if the size is zero. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="acc7c5b5df14328e6d2b57029942597fa" name="acc7c5b5df14328e6d2b57029942597fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc7c5b5df14328e6d2b57029942597fa">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_IsEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_MR_WatershedGraph_BasinInfo_IsEnd </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#aef894bd5f5872a0522de8da8264b3918">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a const iterator is the end iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a0431f893e422aea9d21fda8710be0395" name="a0431f893e422aea9d21fda8710be0395"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0431f893e422aea9d21fda8710be0395">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_IsMutableBegin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_MR_WatershedGraph_BasinInfo_IsMutableBegin </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a60302f6e090205bcecc89e97048adedc">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a mutable iterator is the begin iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aaac7cc5675b11f6664778b985dae9e11" name="aaac7cc5675b11f6664778b985dae9e11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaac7cc5675b11f6664778b985dae9e11">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_IsMutableEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_MR_WatershedGraph_BasinInfo_IsMutableEnd </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a60302f6e090205bcecc89e97048adedc">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a mutable iterator is the end iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aebe48c139af9427527b743b4a3239763" name="aebe48c139af9427527b743b4a3239763"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebe48c139af9427527b743b4a3239763">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_iterator_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_WatershedGraph_BasinInfo_iterator_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a60302f6e090205bcecc89e97048adedc">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a60302f6e090205bcecc89e97048adedc">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <code>_this</code> can not be null. Parameter <code>other</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aa64f67d35320110646e8ad55fdf9e168" name="aa64f67d35320110646e8ad55fdf9e168"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa64f67d35320110646e8ad55fdf9e168">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_iterator_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a60302f6e090205bcecc89e97048adedc">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator</a> * MR_std_vector_MR_WatershedGraph_BasinInfo_iterator_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a60302f6e090205bcecc89e97048adedc">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs a copy of another instance. The source remains alive. Parameter <code>other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a144709416c9173679f37f235c0d7cd9f" title="Destroys a heap-allocated instance of MR_std_vector_MR_WatershedGraph_BasinInfo_iterator....">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a0855d6d4252748053969f999489eee27" name="a0855d6d4252748053969f999489eee27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0855d6d4252748053969f999489eee27">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_iterator_Decr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_WatershedGraph_BasinInfo_iterator_Decr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a60302f6e090205bcecc89e97048adedc">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Decrements a mutable iterator. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a48dc9ee0427ae4bf76b07153a34e9ffc" name="a48dc9ee0427ae4bf76b07153a34e9ffc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48dc9ee0427ae4bf76b07153a34e9ffc">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_iterator_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a60302f6e090205bcecc89e97048adedc">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator</a> * MR_std_vector_MR_WatershedGraph_BasinInfo_iterator_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a144709416c9173679f37f235c0d7cd9f" title="Destroys a heap-allocated instance of MR_std_vector_MR_WatershedGraph_BasinInfo_iterator....">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a8468eecff29cf9aa7f752d9cec5ed3a6" name="a8468eecff29cf9aa7f752d9cec5ed3a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8468eecff29cf9aa7f752d9cec5ed3a6">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_iterator_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a60302f6e090205bcecc89e97048adedc">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator</a> * MR_std_vector_MR_WatershedGraph_BasinInfo_iterator_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a363e7a3d4ea208f17a1467d4be5f85ba" title="Destroys a heap-allocated array of MR_std_vector_MR_WatershedGraph_BasinInfo_iterator....">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator_DestroyArray()</a></code>. Use <code><a class="el" href="#a9c12be780acd313c5a5773fabf2a8cfd" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a2dac36fffb2e6f9e0d0c449b02989585" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="aa89d2b88d28966bd2448f8cbf338d18d" name="aa89d2b88d28966bd2448f8cbf338d18d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa89d2b88d28966bd2448f8cbf338d18d">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_iterator_Deref()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRVector_8h.html#a9c7c2a4f5d98b95ad690a545b3e1560b">MR_WatershedGraph_BasinInfo</a> * MR_std_vector_MR_WatershedGraph_BasinInfo_iterator_Deref </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a60302f6e090205bcecc89e97048adedc">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Dereferences a mutable iterator. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a144709416c9173679f37f235c0d7cd9f" name="a144709416c9173679f37f235c0d7cd9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a144709416c9173679f37f235c0d7cd9f">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_iterator_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_WatershedGraph_BasinInfo_iterator_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a60302f6e090205bcecc89e97048adedc">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_std_vector_MR_WatershedGraph_BasinInfo_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a363e7a3d4ea208f17a1467d4be5f85ba" name="a363e7a3d4ea208f17a1467d4be5f85ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a363e7a3d4ea208f17a1467d4be5f85ba">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_iterator_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_WatershedGraph_BasinInfo_iterator_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a60302f6e090205bcecc89e97048adedc">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_std_vector_MR_WatershedGraph_BasinInfo_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a15dbf0cede81e1c1e0f355fb0b03b2d6" name="a15dbf0cede81e1c1e0f355fb0b03b2d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15dbf0cede81e1c1e0f355fb0b03b2d6">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_iterator_Distance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API ptrdiff_t MR_std_vector_MR_WatershedGraph_BasinInfo_iterator_Distance </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a60302f6e090205bcecc89e97048adedc">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a60302f6e090205bcecc89e97048adedc">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Computes the signed difference between two mutable iterators. Completes in constant time. Parameter <code>a</code> can not be null. Parameter <code>b</code> can not be null. </p>
+
+</div>
+</div>
+<a id="af37c901b04c5a65ee13c999d68a4794c" name="af37c901b04c5a65ee13c999d68a4794c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af37c901b04c5a65ee13c999d68a4794c">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_iterator_Incr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_WatershedGraph_BasinInfo_iterator_Incr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a60302f6e090205bcecc89e97048adedc">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Increments a mutable iterator. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a913fff7799c3afdb29bde2f2a44acaf5" name="a913fff7799c3afdb29bde2f2a44acaf5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a913fff7799c3afdb29bde2f2a44acaf5">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_iterator_OffsetBy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_WatershedGraph_BasinInfo_iterator_OffsetBy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a60302f6e090205bcecc89e97048adedc">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>delta</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Increments or decrements a mutable iterator by the specific amount. Completes in constant time. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a9c12be780acd313c5a5773fabf2a8cfd" name="a9c12be780acd313c5a5773fabf2a8cfd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c12be780acd313c5a5773fabf2a8cfd">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_iterator_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a60302f6e090205bcecc89e97048adedc">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator</a> * MR_std_vector_MR_WatershedGraph_BasinInfo_iterator_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a60302f6e090205bcecc89e97048adedc">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a2dac36fffb2e6f9e0d0c449b02989585" name="a2dac36fffb2e6f9e0d0c449b02989585"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2dac36fffb2e6f9e0d0c449b02989585">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_iterator_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a60302f6e090205bcecc89e97048adedc">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator</a> * MR_std_vector_MR_WatershedGraph_BasinInfo_iterator_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a60302f6e090205bcecc89e97048adedc">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a8cf154981eaa05b1a879861f005bcb6d" name="a8cf154981eaa05b1a879861f005bcb6d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8cf154981eaa05b1a879861f005bcb6d">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_MutableAt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRVector_8h.html#a9c7c2a4f5d98b95ad690a545b3e1560b">MR_WatershedGraph_BasinInfo</a> * MR_std_vector_MR_WatershedGraph_BasinInfo_MutableAt </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The element at a specific index, mutable. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ac8d72ef07fb2f05925ec5d077c84a680" name="ac8d72ef07fb2f05925ec5d077c84a680"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8d72ef07fb2f05925ec5d077c84a680">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_MutableBack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRVector_8h.html#a9c7c2a4f5d98b95ad690a545b3e1560b">MR_WatershedGraph_BasinInfo</a> * MR_std_vector_MR_WatershedGraph_BasinInfo_MutableBack </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The last element or null if empty, mutable. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aa7f7f54f589538990bae1806bcaf5579" name="aa7f7f54f589538990bae1806bcaf5579"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7f7f54f589538990bae1806bcaf5579">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_MutableBegin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a60302f6e090205bcecc89e97048adedc">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator</a> * MR_std_vector_MR_WatershedGraph_BasinInfo_MutableBegin </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, mutable. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a144709416c9173679f37f235c0d7cd9f" title="Destroys a heap-allocated instance of MR_std_vector_MR_WatershedGraph_BasinInfo_iterator....">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a58cfad8d63190232aeed3c95eb648dad" name="a58cfad8d63190232aeed3c95eb648dad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58cfad8d63190232aeed3c95eb648dad">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_MutableEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a60302f6e090205bcecc89e97048adedc">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator</a> * MR_std_vector_MR_WatershedGraph_BasinInfo_MutableEnd </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, mutable. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a144709416c9173679f37f235c0d7cd9f" title="Destroys a heap-allocated instance of MR_std_vector_MR_WatershedGraph_BasinInfo_iterator....">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a71b8e062e7b3934110b9e87a67ebe65b" name="a71b8e062e7b3934110b9e87a67ebe65b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71b8e062e7b3934110b9e87a67ebe65b">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_MutableFront()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRVector_8h.html#a9c7c2a4f5d98b95ad690a545b3e1560b">MR_WatershedGraph_BasinInfo</a> * MR_std_vector_MR_WatershedGraph_BasinInfo_MutableFront </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The first element or null if empty, mutable. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a5ce5c9ec425d51e30f4adba29fb8bf98" name="a5ce5c9ec425d51e30f4adba29fb8bf98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ce5c9ec425d51e30f4adba29fb8bf98">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_MutableToIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API ptrdiff_t MR_std_vector_MR_WatershedGraph_BasinInfo_MutableToIndex </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a60302f6e090205bcecc89e97048adedc">MR_std_vector_MR_WatershedGraph_BasinInfo_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Convert a mutable iterator to an index. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ad5512e7e7c52b22a611578344ede62a5" name="ad5512e7e7c52b22a611578344ede62a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5512e7e7c52b22a611578344ede62a5">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> * MR_std_vector_MR_WatershedGraph_BasinInfo_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a38e94ef4c21a593746494ba46b83150f" name="a38e94ef4c21a593746494ba46b83150f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38e94ef4c21a593746494ba46b83150f">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> * MR_std_vector_MR_WatershedGraph_BasinInfo_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="aff0e559b556922eb7008aa9521745360" name="aff0e559b556922eb7008aa9521745360"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff0e559b556922eb7008aa9521745360">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_PopBack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_WatershedGraph_BasinInfo_PopBack </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Removes one element from the end. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a2cbed59b13da05f8581ea2d1f415e3e6" name="a2cbed59b13da05f8581ea2d1f415e3e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2cbed59b13da05f8581ea2d1f415e3e6">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_PushBack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_WatershedGraph_BasinInfo_PushBack </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRVector_8h.html#a9c7c2a4f5d98b95ad690a545b3e1560b">MR_WatershedGraph_BasinInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>new_elem</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Inserts a new element at the end. Parameter <code>_this</code> can not be null. Parameter <code>new_elem</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ababa704825a4a5553d30ce1a765e4de5" name="ababa704825a4a5553d30ce1a765e4de5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ababa704825a4a5553d30ce1a765e4de5">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_Reserve()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_WatershedGraph_BasinInfo_Reserve </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>new_capacity</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Reserves memory for a certain number of elements. Never shrinks the memory. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a611217e079bd008074cb00aff7bd9410" name="a611217e079bd008074cb00aff7bd9410"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a611217e079bd008074cb00aff7bd9410">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_Resize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_WatershedGraph_BasinInfo_Resize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>new_size</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Resizes the container. The new elements if any are zeroed. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aa087fcba6323d871e7bfebcb3da28aae" name="aa087fcba6323d871e7bfebcb3da28aae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa087fcba6323d871e7bfebcb3da28aae">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_ResizeWithDefaultValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_WatershedGraph_BasinInfo_ResizeWithDefaultValue </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>new_size</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRVector_8h.html#a9c7c2a4f5d98b95ad690a545b3e1560b">MR_WatershedGraph_BasinInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Resizes the container. The new elements if any are set to the specified value. Parameter <code>_this</code> can not be null. Parameter <code>value</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a14b12ede925d8cb2fb268d4cda51849e" name="a14b12ede925d8cb2fb268d4cda51849e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14b12ede925d8cb2fb268d4cda51849e">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_ShrinkToFit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_WatershedGraph_BasinInfo_ShrinkToFit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Shrinks the capacity to match the size. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ab8e16cfc42645e3090244a2c0199ee1f" name="ab8e16cfc42645e3090244a2c0199ee1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8e16cfc42645e3090244a2c0199ee1f">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_Size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API size_t MR_std_vector_MR_WatershedGraph_BasinInfo_Size </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The number of elements. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aa5ec035b2429edc534172dd488426ff9" name="aa5ec035b2429edc534172dd488426ff9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5ec035b2429edc534172dd488426ff9">&#9670;&#160;</a></span>MR_std_vector_MR_WatershedGraph_BasinInfo_ToIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API ptrdiff_t MR_std_vector_MR_WatershedGraph_BasinInfo_ToIndex </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRVector_8h.html#a44e4503744b09efb9e2e133dc7b9cbb0">MR_std_vector_MR_WatershedGraph_BasinInfo</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#aef894bd5f5872a0522de8da8264b3918">MR_std_vector_MR_WatershedGraph_BasinInfo_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Convert a const iterator to an index. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_87d38852fc01aff5f853718c8d8b5cb2.html">Cbindings</a></li><li class="navelem"><a class="el" href="dir_12d01ef4fa7c7ca18852dd6d7d92a624.html">MRCMisc</a></li><li class="navelem"><a class="el" href="std__vector__MR__WatershedGraph__BasinInfo_8h.html">std_vector_MR_WatershedGraph_BasinInfo.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

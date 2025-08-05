@@ -1,0 +1,1790 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: std_vector_MR_SomeLocalTriangulations.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('std__vector__MR__SomeLocalTriangulations_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">std_vector_MR_SomeLocalTriangulations.h File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
+</div>
+<p><a href="std__vector__MR__SomeLocalTriangulations_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:af924f45d3602419626e62bc51be3808a" id="r_af924f45d3602419626e62bc51be3808a"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRLocalTriangulations_8h.html#af924f45d3602419626e62bc51be3808a">MR_SomeLocalTriangulations</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af924f45d3602419626e62bc51be3808a">MR_SomeLocalTriangulations</a></td></tr>
+<tr class="separator:af924f45d3602419626e62bc51be3808a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a489561b95f6667ee8ca345740e307a4f" id="r_a489561b95f6667ee8ca345740e307a4f"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a></td></tr>
+<tr class="separator:a489561b95f6667ee8ca345740e307a4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68e8df2fc7d97654baae359c46d81322" id="r_a68e8df2fc7d97654baae359c46d81322"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a68e8df2fc7d97654baae359c46d81322">MR_std_vector_MR_SomeLocalTriangulations_const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68e8df2fc7d97654baae359c46d81322">MR_std_vector_MR_SomeLocalTriangulations_const_iterator</a></td></tr>
+<tr class="separator:a68e8df2fc7d97654baae359c46d81322"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9120c86bef2f3e598ba6d74a54c3231" id="r_ab9120c86bef2f3e598ba6d74a54c3231"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ab9120c86bef2f3e598ba6d74a54c3231">MR_std_vector_MR_SomeLocalTriangulations_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9120c86bef2f3e598ba6d74a54c3231">MR_std_vector_MR_SomeLocalTriangulations_iterator</a></td></tr>
+<tr class="separator:ab9120c86bef2f3e598ba6d74a54c3231"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a2d74f1674b9fa0e8d7fa913bfa7a333a" id="r_a2d74f1674b9fa0e8d7fa913bfa7a333a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d74f1674b9fa0e8d7fa913bfa7a333a">MR_std_vector_MR_SomeLocalTriangulations_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a2d74f1674b9fa0e8d7fa913bfa7a333a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8ebca47fd26557ac8682b752dc1535c" id="r_ad8ebca47fd26557ac8682b752dc1535c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8ebca47fd26557ac8682b752dc1535c">MR_std_vector_MR_SomeLocalTriangulations_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:ad8ebca47fd26557ac8682b752dc1535c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba0d1c5a5ac33d580f5d2de699c42afb" id="r_aba0d1c5a5ac33d580f5d2de699c42afb"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba0d1c5a5ac33d580f5d2de699c42afb">MR_std_vector_MR_SomeLocalTriangulations_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> other_pass_by, <a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *other)</td></tr>
+<tr class="separator:aba0d1c5a5ac33d580f5d2de699c42afb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8bcc19e2fae1cf94d4246dd9768c2e89" id="r_a8bcc19e2fae1cf94d4246dd9768c2e89"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8bcc19e2fae1cf94d4246dd9768c2e89">MR_std_vector_MR_SomeLocalTriangulations_AssignFromAnother</a> (<a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> other_pass_by, <a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *other)</td></tr>
+<tr class="separator:a8bcc19e2fae1cf94d4246dd9768c2e89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2051e8620f4b0a6c4d45a542946d33e6" id="r_a2051e8620f4b0a6c4d45a542946d33e6"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2051e8620f4b0a6c4d45a542946d33e6">MR_std_vector_MR_SomeLocalTriangulations_Destroy</a> (const <a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *_this)</td></tr>
+<tr class="memdesc:a2051e8620f4b0a6c4d45a542946d33e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_std_vector_MR_SomeLocalTriangulations</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a2051e8620f4b0a6c4d45a542946d33e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a05f67cae2666629ef7bf09dd0af7eb" id="r_a9a05f67cae2666629ef7bf09dd0af7eb"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a05f67cae2666629ef7bf09dd0af7eb">MR_std_vector_MR_SomeLocalTriangulations_DestroyArray</a> (const <a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *_this)</td></tr>
+<tr class="memdesc:a9a05f67cae2666629ef7bf09dd0af7eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_std_vector_MR_SomeLocalTriangulations</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a9a05f67cae2666629ef7bf09dd0af7eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03f56ebd156b309ebaf1e35d8c4e77da" id="r_a03f56ebd156b309ebaf1e35d8c4e77da"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03f56ebd156b309ebaf1e35d8c4e77da">MR_std_vector_MR_SomeLocalTriangulations_OffsetPtr</a> (const <a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a03f56ebd156b309ebaf1e35d8c4e77da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a03f56ebd156b309ebaf1e35d8c4e77da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbcd669ba30bd936db96a349c4de98d5" id="r_abbcd669ba30bd936db96a349c4de98d5"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abbcd669ba30bd936db96a349c4de98d5">MR_std_vector_MR_SomeLocalTriangulations_OffsetMutablePtr</a> (<a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:abbcd669ba30bd936db96a349c4de98d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:abbcd669ba30bd936db96a349c4de98d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9581299e369cf4c8c5a8c3e20add3ce" id="r_aa9581299e369cf4c8c5a8c3e20add3ce"><td class="memItemLeft" align="right" valign="top">MRC_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa9581299e369cf4c8c5a8c3e20add3ce">MR_std_vector_MR_SomeLocalTriangulations_Size</a> (const <a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *_this)</td></tr>
+<tr class="separator:aa9581299e369cf4c8c5a8c3e20add3ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1c1e7dccd197194c692fc99bf200ecc" id="r_aa1c1e7dccd197194c692fc99bf200ecc"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1c1e7dccd197194c692fc99bf200ecc">MR_std_vector_MR_SomeLocalTriangulations_IsEmpty</a> (const <a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *_this)</td></tr>
+<tr class="separator:aa1c1e7dccd197194c692fc99bf200ecc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a756d2caa5dab115849f95f9797cc5223" id="r_a756d2caa5dab115849f95f9797cc5223"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a756d2caa5dab115849f95f9797cc5223">MR_std_vector_MR_SomeLocalTriangulations_Resize</a> (<a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *_this, size_t new_size)</td></tr>
+<tr class="separator:a756d2caa5dab115849f95f9797cc5223"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b9d5431f0e7ce15fe6e0e9962ac6e58" id="r_a1b9d5431f0e7ce15fe6e0e9962ac6e58"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b9d5431f0e7ce15fe6e0e9962ac6e58">MR_std_vector_MR_SomeLocalTriangulations_ResizeWithDefaultValue</a> (<a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *_this, size_t new_size, const <a class="el" href="MRLocalTriangulations_8h.html#af924f45d3602419626e62bc51be3808a">MR_SomeLocalTriangulations</a> *value)</td></tr>
+<tr class="separator:a1b9d5431f0e7ce15fe6e0e9962ac6e58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5928b632070316a387dccaa290663628" id="r_a5928b632070316a387dccaa290663628"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5928b632070316a387dccaa290663628">MR_std_vector_MR_SomeLocalTriangulations_Clear</a> (<a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *_this)</td></tr>
+<tr class="separator:a5928b632070316a387dccaa290663628"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d20ae2d7f18d3062868a9f56ea02fa9" id="r_a4d20ae2d7f18d3062868a9f56ea02fa9"><td class="memItemLeft" align="right" valign="top">MRC_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d20ae2d7f18d3062868a9f56ea02fa9">MR_std_vector_MR_SomeLocalTriangulations_Capacity</a> (const <a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *_this)</td></tr>
+<tr class="separator:a4d20ae2d7f18d3062868a9f56ea02fa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7386e9310cc3c73005a861c1bd55a83" id="r_af7386e9310cc3c73005a861c1bd55a83"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7386e9310cc3c73005a861c1bd55a83">MR_std_vector_MR_SomeLocalTriangulations_Reserve</a> (<a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *_this, size_t new_capacity)</td></tr>
+<tr class="separator:af7386e9310cc3c73005a861c1bd55a83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15a2899da051a8d6dde22b7b1f9fac4c" id="r_a15a2899da051a8d6dde22b7b1f9fac4c"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a15a2899da051a8d6dde22b7b1f9fac4c">MR_std_vector_MR_SomeLocalTriangulations_ShrinkToFit</a> (<a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *_this)</td></tr>
+<tr class="separator:a15a2899da051a8d6dde22b7b1f9fac4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a878d6934e5f65ff8b8889f34e164fae1" id="r_a878d6934e5f65ff8b8889f34e164fae1"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRLocalTriangulations_8h.html#af924f45d3602419626e62bc51be3808a">MR_SomeLocalTriangulations</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a878d6934e5f65ff8b8889f34e164fae1">MR_std_vector_MR_SomeLocalTriangulations_At</a> (const <a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *_this, size_t i)</td></tr>
+<tr class="separator:a878d6934e5f65ff8b8889f34e164fae1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa3187c5404aa54de25f3c6e84f85476" id="r_afa3187c5404aa54de25f3c6e84f85476"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRLocalTriangulations_8h.html#af924f45d3602419626e62bc51be3808a">MR_SomeLocalTriangulations</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa3187c5404aa54de25f3c6e84f85476">MR_std_vector_MR_SomeLocalTriangulations_MutableAt</a> (<a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *_this, size_t i)</td></tr>
+<tr class="separator:afa3187c5404aa54de25f3c6e84f85476"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb1d06ca31732c1f300dd8d1de276081" id="r_afb1d06ca31732c1f300dd8d1de276081"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRLocalTriangulations_8h.html#af924f45d3602419626e62bc51be3808a">MR_SomeLocalTriangulations</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afb1d06ca31732c1f300dd8d1de276081">MR_std_vector_MR_SomeLocalTriangulations_Front</a> (const <a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *_this)</td></tr>
+<tr class="separator:afb1d06ca31732c1f300dd8d1de276081"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f48228d4908ce83875bf1b82ed04d79" id="r_a0f48228d4908ce83875bf1b82ed04d79"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRLocalTriangulations_8h.html#af924f45d3602419626e62bc51be3808a">MR_SomeLocalTriangulations</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f48228d4908ce83875bf1b82ed04d79">MR_std_vector_MR_SomeLocalTriangulations_MutableFront</a> (<a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *_this)</td></tr>
+<tr class="separator:a0f48228d4908ce83875bf1b82ed04d79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa517dc5098a238e811fe2c8fe486750d" id="r_aa517dc5098a238e811fe2c8fe486750d"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRLocalTriangulations_8h.html#af924f45d3602419626e62bc51be3808a">MR_SomeLocalTriangulations</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa517dc5098a238e811fe2c8fe486750d">MR_std_vector_MR_SomeLocalTriangulations_Back</a> (const <a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *_this)</td></tr>
+<tr class="separator:aa517dc5098a238e811fe2c8fe486750d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f234ff7b6864d8ab64a428c5515f312" id="r_a8f234ff7b6864d8ab64a428c5515f312"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRLocalTriangulations_8h.html#af924f45d3602419626e62bc51be3808a">MR_SomeLocalTriangulations</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f234ff7b6864d8ab64a428c5515f312">MR_std_vector_MR_SomeLocalTriangulations_MutableBack</a> (<a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *_this)</td></tr>
+<tr class="separator:a8f234ff7b6864d8ab64a428c5515f312"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace92ac6220039302bd30ec0e74a94aeb" id="r_ace92ac6220039302bd30ec0e74a94aeb"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace92ac6220039302bd30ec0e74a94aeb">MR_std_vector_MR_SomeLocalTriangulations_PushBack</a> (<a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> new_elem_pass_by, <a class="el" href="MRLocalTriangulations_8h.html#af924f45d3602419626e62bc51be3808a">MR_SomeLocalTriangulations</a> *new_elem)</td></tr>
+<tr class="separator:ace92ac6220039302bd30ec0e74a94aeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3932b5ae23f32f1553cd9314c53b73fc" id="r_a3932b5ae23f32f1553cd9314c53b73fc"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3932b5ae23f32f1553cd9314c53b73fc">MR_std_vector_MR_SomeLocalTriangulations_PopBack</a> (<a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *_this)</td></tr>
+<tr class="separator:a3932b5ae23f32f1553cd9314c53b73fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27548b5df74649d022f392ecbd144305" id="r_a27548b5df74649d022f392ecbd144305"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a27548b5df74649d022f392ecbd144305">MR_std_vector_MR_SomeLocalTriangulations_Insert</a> (<a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *_this, size_t position, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> new_elem_pass_by, <a class="el" href="MRLocalTriangulations_8h.html#af924f45d3602419626e62bc51be3808a">MR_SomeLocalTriangulations</a> *new_elem)</td></tr>
+<tr class="separator:a27548b5df74649d022f392ecbd144305"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0206e046e8c59589a6efaa41ec59d9b" id="r_ae0206e046e8c59589a6efaa41ec59d9b"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae0206e046e8c59589a6efaa41ec59d9b">MR_std_vector_MR_SomeLocalTriangulations_Erase</a> (<a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *_this, size_t position)</td></tr>
+<tr class="separator:ae0206e046e8c59589a6efaa41ec59d9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5e2019273f7b7a631f5c27369ae64ce" id="r_af5e2019273f7b7a631f5c27369ae64ce"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af5e2019273f7b7a631f5c27369ae64ce">MR_std_vector_MR_SomeLocalTriangulations_InsertAtMutableIter</a> (<a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *_this, const <a class="el" href="#ab9120c86bef2f3e598ba6d74a54c3231">MR_std_vector_MR_SomeLocalTriangulations_iterator</a> *position, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> new_elem_pass_by, <a class="el" href="MRLocalTriangulations_8h.html#af924f45d3602419626e62bc51be3808a">MR_SomeLocalTriangulations</a> *new_elem)</td></tr>
+<tr class="separator:af5e2019273f7b7a631f5c27369ae64ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66b25025eb575a6bc156628b6759bd46" id="r_a66b25025eb575a6bc156628b6759bd46"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66b25025eb575a6bc156628b6759bd46">MR_std_vector_MR_SomeLocalTriangulations_EraseAtMutableIter</a> (<a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *_this, const <a class="el" href="#ab9120c86bef2f3e598ba6d74a54c3231">MR_std_vector_MR_SomeLocalTriangulations_iterator</a> *position)</td></tr>
+<tr class="separator:a66b25025eb575a6bc156628b6759bd46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7e343e3a81c66a6320cc6de6083b227" id="r_aa7e343e3a81c66a6320cc6de6083b227"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7e343e3a81c66a6320cc6de6083b227">MR_std_vector_MR_SomeLocalTriangulations_InsertAtIter</a> (<a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *_this, const <a class="el" href="#a68e8df2fc7d97654baae359c46d81322">MR_std_vector_MR_SomeLocalTriangulations_const_iterator</a> *position, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> new_elem_pass_by, <a class="el" href="MRLocalTriangulations_8h.html#af924f45d3602419626e62bc51be3808a">MR_SomeLocalTriangulations</a> *new_elem)</td></tr>
+<tr class="separator:aa7e343e3a81c66a6320cc6de6083b227"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fe1a598d840c699dd7b2fbecc46075a" id="r_a2fe1a598d840c699dd7b2fbecc46075a"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2fe1a598d840c699dd7b2fbecc46075a">MR_std_vector_MR_SomeLocalTriangulations_EraseAtIter</a> (<a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *_this, const <a class="el" href="#a68e8df2fc7d97654baae359c46d81322">MR_std_vector_MR_SomeLocalTriangulations_const_iterator</a> *position)</td></tr>
+<tr class="separator:a2fe1a598d840c699dd7b2fbecc46075a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a633ab9c8912e169c01cb71a3a22f6997" id="r_a633ab9c8912e169c01cb71a3a22f6997"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a68e8df2fc7d97654baae359c46d81322">MR_std_vector_MR_SomeLocalTriangulations_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a633ab9c8912e169c01cb71a3a22f6997">MR_std_vector_MR_SomeLocalTriangulations_Begin</a> (const <a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *_this)</td></tr>
+<tr class="separator:a633ab9c8912e169c01cb71a3a22f6997"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79c39a917ea536822f629dbb2a3d1718" id="r_a79c39a917ea536822f629dbb2a3d1718"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79c39a917ea536822f629dbb2a3d1718">MR_std_vector_MR_SomeLocalTriangulations_IsBegin</a> (const <a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *_this, const <a class="el" href="#a68e8df2fc7d97654baae359c46d81322">MR_std_vector_MR_SomeLocalTriangulations_const_iterator</a> *iter)</td></tr>
+<tr class="separator:a79c39a917ea536822f629dbb2a3d1718"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29683673e9d08ad8ab34af2e4572f395" id="r_a29683673e9d08ad8ab34af2e4572f395"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ab9120c86bef2f3e598ba6d74a54c3231">MR_std_vector_MR_SomeLocalTriangulations_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29683673e9d08ad8ab34af2e4572f395">MR_std_vector_MR_SomeLocalTriangulations_MutableBegin</a> (<a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *_this)</td></tr>
+<tr class="separator:a29683673e9d08ad8ab34af2e4572f395"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b0f946226e8020715d7dbd77d30c9db" id="r_a5b0f946226e8020715d7dbd77d30c9db"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b0f946226e8020715d7dbd77d30c9db">MR_std_vector_MR_SomeLocalTriangulations_IsMutableBegin</a> (<a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *_this, const <a class="el" href="#ab9120c86bef2f3e598ba6d74a54c3231">MR_std_vector_MR_SomeLocalTriangulations_iterator</a> *iter)</td></tr>
+<tr class="separator:a5b0f946226e8020715d7dbd77d30c9db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1eea9446768a9a6eb3147cbc93f9c9f" id="r_ab1eea9446768a9a6eb3147cbc93f9c9f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a68e8df2fc7d97654baae359c46d81322">MR_std_vector_MR_SomeLocalTriangulations_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab1eea9446768a9a6eb3147cbc93f9c9f">MR_std_vector_MR_SomeLocalTriangulations_End</a> (const <a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *_this)</td></tr>
+<tr class="separator:ab1eea9446768a9a6eb3147cbc93f9c9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab56963fb92b4213bbb5314b2c4c4404a" id="r_ab56963fb92b4213bbb5314b2c4c4404a"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab56963fb92b4213bbb5314b2c4c4404a">MR_std_vector_MR_SomeLocalTriangulations_IsEnd</a> (const <a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *_this, const <a class="el" href="#a68e8df2fc7d97654baae359c46d81322">MR_std_vector_MR_SomeLocalTriangulations_const_iterator</a> *iter)</td></tr>
+<tr class="separator:ab56963fb92b4213bbb5314b2c4c4404a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d900ae98c8374147f2c5b58e4fc38d1" id="r_a9d900ae98c8374147f2c5b58e4fc38d1"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ab9120c86bef2f3e598ba6d74a54c3231">MR_std_vector_MR_SomeLocalTriangulations_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d900ae98c8374147f2c5b58e4fc38d1">MR_std_vector_MR_SomeLocalTriangulations_MutableEnd</a> (<a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *_this)</td></tr>
+<tr class="separator:a9d900ae98c8374147f2c5b58e4fc38d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1bcd4f6de31be1ee53d8fd588d15dbe" id="r_ac1bcd4f6de31be1ee53d8fd588d15dbe"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac1bcd4f6de31be1ee53d8fd588d15dbe">MR_std_vector_MR_SomeLocalTriangulations_IsMutableEnd</a> (<a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *_this, const <a class="el" href="#ab9120c86bef2f3e598ba6d74a54c3231">MR_std_vector_MR_SomeLocalTriangulations_iterator</a> *iter)</td></tr>
+<tr class="separator:ac1bcd4f6de31be1ee53d8fd588d15dbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0887994a2986e43a9da7f087dba193d" id="r_ae0887994a2986e43a9da7f087dba193d"><td class="memItemLeft" align="right" valign="top">MRC_API ptrdiff_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae0887994a2986e43a9da7f087dba193d">MR_std_vector_MR_SomeLocalTriangulations_ToIndex</a> (const <a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *_this, const <a class="el" href="#a68e8df2fc7d97654baae359c46d81322">MR_std_vector_MR_SomeLocalTriangulations_const_iterator</a> *iter)</td></tr>
+<tr class="separator:ae0887994a2986e43a9da7f087dba193d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97402d8bc07039d294300ffe74edf236" id="r_a97402d8bc07039d294300ffe74edf236"><td class="memItemLeft" align="right" valign="top">MRC_API ptrdiff_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97402d8bc07039d294300ffe74edf236">MR_std_vector_MR_SomeLocalTriangulations_MutableToIndex</a> (const <a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *_this, const <a class="el" href="#ab9120c86bef2f3e598ba6d74a54c3231">MR_std_vector_MR_SomeLocalTriangulations_iterator</a> *iter)</td></tr>
+<tr class="separator:a97402d8bc07039d294300ffe74edf236"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6079dced91fcb1f49f908d2a52a25277" id="r_a6079dced91fcb1f49f908d2a52a25277"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a68e8df2fc7d97654baae359c46d81322">MR_std_vector_MR_SomeLocalTriangulations_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6079dced91fcb1f49f908d2a52a25277">MR_std_vector_MR_SomeLocalTriangulations_const_iterator_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a6079dced91fcb1f49f908d2a52a25277"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74d6b0a0088fc16b7682030c944221ae" id="r_a74d6b0a0088fc16b7682030c944221ae"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a68e8df2fc7d97654baae359c46d81322">MR_std_vector_MR_SomeLocalTriangulations_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74d6b0a0088fc16b7682030c944221ae">MR_std_vector_MR_SomeLocalTriangulations_const_iterator_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a74d6b0a0088fc16b7682030c944221ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a658f1cc7c1f8df4676d7ebe56feb3e8a" id="r_a658f1cc7c1f8df4676d7ebe56feb3e8a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a68e8df2fc7d97654baae359c46d81322">MR_std_vector_MR_SomeLocalTriangulations_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a658f1cc7c1f8df4676d7ebe56feb3e8a">MR_std_vector_MR_SomeLocalTriangulations_const_iterator_ConstructFromAnother</a> (const <a class="el" href="#a68e8df2fc7d97654baae359c46d81322">MR_std_vector_MR_SomeLocalTriangulations_const_iterator</a> *other)</td></tr>
+<tr class="separator:a658f1cc7c1f8df4676d7ebe56feb3e8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a91ec5adb4cbe8c27a661a1eaacaf56" id="r_a8a91ec5adb4cbe8c27a661a1eaacaf56"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a91ec5adb4cbe8c27a661a1eaacaf56">MR_std_vector_MR_SomeLocalTriangulations_const_iterator_AssignFromAnother</a> (<a class="el" href="#a68e8df2fc7d97654baae359c46d81322">MR_std_vector_MR_SomeLocalTriangulations_const_iterator</a> *_this, const <a class="el" href="#a68e8df2fc7d97654baae359c46d81322">MR_std_vector_MR_SomeLocalTriangulations_const_iterator</a> *other)</td></tr>
+<tr class="separator:a8a91ec5adb4cbe8c27a661a1eaacaf56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad44448dabb40e3f3f7d153fe4819cc1d" id="r_ad44448dabb40e3f3f7d153fe4819cc1d"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad44448dabb40e3f3f7d153fe4819cc1d">MR_std_vector_MR_SomeLocalTriangulations_const_iterator_Destroy</a> (const <a class="el" href="#a68e8df2fc7d97654baae359c46d81322">MR_std_vector_MR_SomeLocalTriangulations_const_iterator</a> *_this)</td></tr>
+<tr class="memdesc:ad44448dabb40e3f3f7d153fe4819cc1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_std_vector_MR_SomeLocalTriangulations_const_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ad44448dabb40e3f3f7d153fe4819cc1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3999da18afebc7d52ee75e22dc0c0fba" id="r_a3999da18afebc7d52ee75e22dc0c0fba"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3999da18afebc7d52ee75e22dc0c0fba">MR_std_vector_MR_SomeLocalTriangulations_const_iterator_DestroyArray</a> (const <a class="el" href="#a68e8df2fc7d97654baae359c46d81322">MR_std_vector_MR_SomeLocalTriangulations_const_iterator</a> *_this)</td></tr>
+<tr class="memdesc:a3999da18afebc7d52ee75e22dc0c0fba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_std_vector_MR_SomeLocalTriangulations_const_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a3999da18afebc7d52ee75e22dc0c0fba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4f59b422e034f6ca70f1d49e71a9103" id="r_ac4f59b422e034f6ca70f1d49e71a9103"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a68e8df2fc7d97654baae359c46d81322">MR_std_vector_MR_SomeLocalTriangulations_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac4f59b422e034f6ca70f1d49e71a9103">MR_std_vector_MR_SomeLocalTriangulations_const_iterator_OffsetPtr</a> (const <a class="el" href="#a68e8df2fc7d97654baae359c46d81322">MR_std_vector_MR_SomeLocalTriangulations_const_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:ac4f59b422e034f6ca70f1d49e71a9103"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:ac4f59b422e034f6ca70f1d49e71a9103"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa27fa0d33e7bd46f6266f6024c23dd79" id="r_aa27fa0d33e7bd46f6266f6024c23dd79"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a68e8df2fc7d97654baae359c46d81322">MR_std_vector_MR_SomeLocalTriangulations_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa27fa0d33e7bd46f6266f6024c23dd79">MR_std_vector_MR_SomeLocalTriangulations_const_iterator_OffsetMutablePtr</a> (<a class="el" href="#a68e8df2fc7d97654baae359c46d81322">MR_std_vector_MR_SomeLocalTriangulations_const_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:aa27fa0d33e7bd46f6266f6024c23dd79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:aa27fa0d33e7bd46f6266f6024c23dd79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a937fc7722e5e8af7ee84d1365b04d234" id="r_a937fc7722e5e8af7ee84d1365b04d234"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a68e8df2fc7d97654baae359c46d81322">MR_std_vector_MR_SomeLocalTriangulations_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a937fc7722e5e8af7ee84d1365b04d234">MR_std_vector_MR_SomeLocalTriangulations_const_iterator_FromMutable</a> (const <a class="el" href="#ab9120c86bef2f3e598ba6d74a54c3231">MR_std_vector_MR_SomeLocalTriangulations_iterator</a> *iter)</td></tr>
+<tr class="separator:a937fc7722e5e8af7ee84d1365b04d234"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a855532b0294c533568c8f6b28e7e216b" id="r_a855532b0294c533568c8f6b28e7e216b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ab9120c86bef2f3e598ba6d74a54c3231">MR_std_vector_MR_SomeLocalTriangulations_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a855532b0294c533568c8f6b28e7e216b">MR_std_vector_MR_SomeLocalTriangulations_iterator_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a855532b0294c533568c8f6b28e7e216b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2b2c834d65db70f3a77de81f9bb5670" id="r_ab2b2c834d65db70f3a77de81f9bb5670"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ab9120c86bef2f3e598ba6d74a54c3231">MR_std_vector_MR_SomeLocalTriangulations_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab2b2c834d65db70f3a77de81f9bb5670">MR_std_vector_MR_SomeLocalTriangulations_iterator_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:ab2b2c834d65db70f3a77de81f9bb5670"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6425b75d9a14f143aa02ca22bad75e0" id="r_ab6425b75d9a14f143aa02ca22bad75e0"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ab9120c86bef2f3e598ba6d74a54c3231">MR_std_vector_MR_SomeLocalTriangulations_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6425b75d9a14f143aa02ca22bad75e0">MR_std_vector_MR_SomeLocalTriangulations_iterator_ConstructFromAnother</a> (const <a class="el" href="#ab9120c86bef2f3e598ba6d74a54c3231">MR_std_vector_MR_SomeLocalTriangulations_iterator</a> *other)</td></tr>
+<tr class="separator:ab6425b75d9a14f143aa02ca22bad75e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a813f96c17ce0d403ea98cdacc9067020" id="r_a813f96c17ce0d403ea98cdacc9067020"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a813f96c17ce0d403ea98cdacc9067020">MR_std_vector_MR_SomeLocalTriangulations_iterator_AssignFromAnother</a> (<a class="el" href="#ab9120c86bef2f3e598ba6d74a54c3231">MR_std_vector_MR_SomeLocalTriangulations_iterator</a> *_this, const <a class="el" href="#ab9120c86bef2f3e598ba6d74a54c3231">MR_std_vector_MR_SomeLocalTriangulations_iterator</a> *other)</td></tr>
+<tr class="separator:a813f96c17ce0d403ea98cdacc9067020"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc4bcd83e518227b201dd3740ee80eda" id="r_adc4bcd83e518227b201dd3740ee80eda"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc4bcd83e518227b201dd3740ee80eda">MR_std_vector_MR_SomeLocalTriangulations_iterator_Destroy</a> (const <a class="el" href="#ab9120c86bef2f3e598ba6d74a54c3231">MR_std_vector_MR_SomeLocalTriangulations_iterator</a> *_this)</td></tr>
+<tr class="memdesc:adc4bcd83e518227b201dd3740ee80eda"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_std_vector_MR_SomeLocalTriangulations_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:adc4bcd83e518227b201dd3740ee80eda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38eed5759ec86c5039f5b48913820ab3" id="r_a38eed5759ec86c5039f5b48913820ab3"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38eed5759ec86c5039f5b48913820ab3">MR_std_vector_MR_SomeLocalTriangulations_iterator_DestroyArray</a> (const <a class="el" href="#ab9120c86bef2f3e598ba6d74a54c3231">MR_std_vector_MR_SomeLocalTriangulations_iterator</a> *_this)</td></tr>
+<tr class="memdesc:a38eed5759ec86c5039f5b48913820ab3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_std_vector_MR_SomeLocalTriangulations_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a38eed5759ec86c5039f5b48913820ab3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8476aabfa538dbefabd0f6fbe9d734d2" id="r_a8476aabfa538dbefabd0f6fbe9d734d2"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#ab9120c86bef2f3e598ba6d74a54c3231">MR_std_vector_MR_SomeLocalTriangulations_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8476aabfa538dbefabd0f6fbe9d734d2">MR_std_vector_MR_SomeLocalTriangulations_iterator_OffsetPtr</a> (const <a class="el" href="#ab9120c86bef2f3e598ba6d74a54c3231">MR_std_vector_MR_SomeLocalTriangulations_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a8476aabfa538dbefabd0f6fbe9d734d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a8476aabfa538dbefabd0f6fbe9d734d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac86faf7ed578385356eae4b14201a7eb" id="r_ac86faf7ed578385356eae4b14201a7eb"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ab9120c86bef2f3e598ba6d74a54c3231">MR_std_vector_MR_SomeLocalTriangulations_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac86faf7ed578385356eae4b14201a7eb">MR_std_vector_MR_SomeLocalTriangulations_iterator_OffsetMutablePtr</a> (<a class="el" href="#ab9120c86bef2f3e598ba6d74a54c3231">MR_std_vector_MR_SomeLocalTriangulations_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:ac86faf7ed578385356eae4b14201a7eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:ac86faf7ed578385356eae4b14201a7eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae458bafa55da572081fd2b8b48c5b757" id="r_ae458bafa55da572081fd2b8b48c5b757"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRLocalTriangulations_8h.html#af924f45d3602419626e62bc51be3808a">MR_SomeLocalTriangulations</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae458bafa55da572081fd2b8b48c5b757">MR_std_vector_MR_SomeLocalTriangulations_const_iterator_Deref</a> (const <a class="el" href="#a68e8df2fc7d97654baae359c46d81322">MR_std_vector_MR_SomeLocalTriangulations_const_iterator</a> *_this)</td></tr>
+<tr class="separator:ae458bafa55da572081fd2b8b48c5b757"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac797f19628fc3ee1fb66a26c534e0278" id="r_ac797f19628fc3ee1fb66a26c534e0278"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac797f19628fc3ee1fb66a26c534e0278">MR_std_vector_MR_SomeLocalTriangulations_const_iterator_Incr</a> (<a class="el" href="#a68e8df2fc7d97654baae359c46d81322">MR_std_vector_MR_SomeLocalTriangulations_const_iterator</a> *_this)</td></tr>
+<tr class="separator:ac797f19628fc3ee1fb66a26c534e0278"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73cd790be35d3ad2a8cc1c0214a815f0" id="r_a73cd790be35d3ad2a8cc1c0214a815f0"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73cd790be35d3ad2a8cc1c0214a815f0">MR_std_vector_MR_SomeLocalTriangulations_const_iterator_Decr</a> (<a class="el" href="#a68e8df2fc7d97654baae359c46d81322">MR_std_vector_MR_SomeLocalTriangulations_const_iterator</a> *_this)</td></tr>
+<tr class="separator:a73cd790be35d3ad2a8cc1c0214a815f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6cb86217ba657310cc976a5a6c8a1b31" id="r_a6cb86217ba657310cc976a5a6c8a1b31"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6cb86217ba657310cc976a5a6c8a1b31">MR_std_vector_MR_SomeLocalTriangulations_const_iterator_OffsetBy</a> (<a class="el" href="#a68e8df2fc7d97654baae359c46d81322">MR_std_vector_MR_SomeLocalTriangulations_const_iterator</a> *_this, ptrdiff_t delta)</td></tr>
+<tr class="separator:a6cb86217ba657310cc976a5a6c8a1b31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfebc83d623ae2c1735a2d4a9d8ad397" id="r_abfebc83d623ae2c1735a2d4a9d8ad397"><td class="memItemLeft" align="right" valign="top">MRC_API ptrdiff_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abfebc83d623ae2c1735a2d4a9d8ad397">MR_std_vector_MR_SomeLocalTriangulations_const_iterator_Distance</a> (const <a class="el" href="#a68e8df2fc7d97654baae359c46d81322">MR_std_vector_MR_SomeLocalTriangulations_const_iterator</a> *a, const <a class="el" href="#a68e8df2fc7d97654baae359c46d81322">MR_std_vector_MR_SomeLocalTriangulations_const_iterator</a> *b)</td></tr>
+<tr class="separator:abfebc83d623ae2c1735a2d4a9d8ad397"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90e6153c2282167f7ef5a7b5066cd0cc" id="r_a90e6153c2282167f7ef5a7b5066cd0cc"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRLocalTriangulations_8h.html#af924f45d3602419626e62bc51be3808a">MR_SomeLocalTriangulations</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90e6153c2282167f7ef5a7b5066cd0cc">MR_std_vector_MR_SomeLocalTriangulations_iterator_Deref</a> (const <a class="el" href="#ab9120c86bef2f3e598ba6d74a54c3231">MR_std_vector_MR_SomeLocalTriangulations_iterator</a> *_this)</td></tr>
+<tr class="separator:a90e6153c2282167f7ef5a7b5066cd0cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a509d2b8bc5af3e5823c2fae6b6169f2a" id="r_a509d2b8bc5af3e5823c2fae6b6169f2a"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a509d2b8bc5af3e5823c2fae6b6169f2a">MR_std_vector_MR_SomeLocalTriangulations_iterator_Incr</a> (<a class="el" href="#ab9120c86bef2f3e598ba6d74a54c3231">MR_std_vector_MR_SomeLocalTriangulations_iterator</a> *_this)</td></tr>
+<tr class="separator:a509d2b8bc5af3e5823c2fae6b6169f2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad440f5cda30fb629ac90000bdfe7eafb" id="r_ad440f5cda30fb629ac90000bdfe7eafb"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad440f5cda30fb629ac90000bdfe7eafb">MR_std_vector_MR_SomeLocalTriangulations_iterator_Decr</a> (<a class="el" href="#ab9120c86bef2f3e598ba6d74a54c3231">MR_std_vector_MR_SomeLocalTriangulations_iterator</a> *_this)</td></tr>
+<tr class="separator:ad440f5cda30fb629ac90000bdfe7eafb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acdfa055abf0e2839155cfe9fa471006e" id="r_acdfa055abf0e2839155cfe9fa471006e"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acdfa055abf0e2839155cfe9fa471006e">MR_std_vector_MR_SomeLocalTriangulations_iterator_OffsetBy</a> (<a class="el" href="#ab9120c86bef2f3e598ba6d74a54c3231">MR_std_vector_MR_SomeLocalTriangulations_iterator</a> *_this, ptrdiff_t delta)</td></tr>
+<tr class="separator:acdfa055abf0e2839155cfe9fa471006e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e9f80992d6188e18e24834a584262a1" id="r_a8e9f80992d6188e18e24834a584262a1"><td class="memItemLeft" align="right" valign="top">MRC_API ptrdiff_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e9f80992d6188e18e24834a584262a1">MR_std_vector_MR_SomeLocalTriangulations_iterator_Distance</a> (const <a class="el" href="#ab9120c86bef2f3e598ba6d74a54c3231">MR_std_vector_MR_SomeLocalTriangulations_iterator</a> *a, const <a class="el" href="#ab9120c86bef2f3e598ba6d74a54c3231">MR_std_vector_MR_SomeLocalTriangulations_iterator</a> *b)</td></tr>
+<tr class="separator:a8e9f80992d6188e18e24834a584262a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="af924f45d3602419626e62bc51be3808a" name="af924f45d3602419626e62bc51be3808a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af924f45d3602419626e62bc51be3808a">&#9670;&#160;</a></span>MR_SomeLocalTriangulations</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRLocalTriangulations_8h.html#af924f45d3602419626e62bc51be3808a">MR_SomeLocalTriangulations</a> <a class="el" href="MRLocalTriangulations_8h.html#af924f45d3602419626e62bc51be3808a">MR_SomeLocalTriangulations</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a489561b95f6667ee8ca345740e307a4f" name="a489561b95f6667ee8ca345740e307a4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a489561b95f6667ee8ca345740e307a4f">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> <a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from C++ container <code>std::vector&lt;<a class="elRef" href="../Cpp/structMR_1_1SomeLocalTriangulations.html">MR::SomeLocalTriangulations</a>&gt;</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code>, (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="a68e8df2fc7d97654baae359c46d81322" name="a68e8df2fc7d97654baae359c46d81322"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68e8df2fc7d97654baae359c46d81322">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_const_iterator</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a68e8df2fc7d97654baae359c46d81322">MR_std_vector_MR_SomeLocalTriangulations_const_iterator</a> <a class="el" href="#a68e8df2fc7d97654baae359c46d81322">MR_std_vector_MR_SomeLocalTriangulations_const_iterator</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Read-only iterator for <code>MR_std_vector_MR_SomeLocalTriangulations</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code>, (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="ab9120c86bef2f3e598ba6d74a54c3231" name="ab9120c86bef2f3e598ba6d74a54c3231"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9120c86bef2f3e598ba6d74a54c3231">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_iterator</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#ab9120c86bef2f3e598ba6d74a54c3231">MR_std_vector_MR_SomeLocalTriangulations_iterator</a> <a class="el" href="#ab9120c86bef2f3e598ba6d74a54c3231">MR_std_vector_MR_SomeLocalTriangulations_iterator</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Mutable iterator for <code>MR_std_vector_MR_SomeLocalTriangulations</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code>, (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a8bcc19e2fae1cf94d4246dd9768c2e89" name="a8bcc19e2fae1cf94d4246dd9768c2e89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8bcc19e2fae1cf94d4246dd9768c2e89">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_SomeLocalTriangulations_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a878d6934e5f65ff8b8889f34e164fae1" name="a878d6934e5f65ff8b8889f34e164fae1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a878d6934e5f65ff8b8889f34e164fae1">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_At()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRLocalTriangulations_8h.html#af924f45d3602419626e62bc51be3808a">MR_SomeLocalTriangulations</a> * MR_std_vector_MR_SomeLocalTriangulations_At </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The element at a specific index, read-only. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="aa517dc5098a238e811fe2c8fe486750d" name="aa517dc5098a238e811fe2c8fe486750d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa517dc5098a238e811fe2c8fe486750d">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_Back()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRLocalTriangulations_8h.html#af924f45d3602419626e62bc51be3808a">MR_SomeLocalTriangulations</a> * MR_std_vector_MR_SomeLocalTriangulations_Back </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The last element or null if empty, read-only. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a633ab9c8912e169c01cb71a3a22f6997" name="a633ab9c8912e169c01cb71a3a22f6997"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a633ab9c8912e169c01cb71a3a22f6997">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_Begin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a68e8df2fc7d97654baae359c46d81322">MR_std_vector_MR_SomeLocalTriangulations_const_iterator</a> * MR_std_vector_MR_SomeLocalTriangulations_Begin </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, const. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ad44448dabb40e3f3f7d153fe4819cc1d" title="Destroys a heap-allocated instance of MR_std_vector_MR_SomeLocalTriangulations_const_iterator....">MR_std_vector_MR_SomeLocalTriangulations_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a4d20ae2d7f18d3062868a9f56ea02fa9" name="a4d20ae2d7f18d3062868a9f56ea02fa9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d20ae2d7f18d3062868a9f56ea02fa9">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_Capacity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API size_t MR_std_vector_MR_SomeLocalTriangulations_Capacity </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The memory capacity, measued in the number of elements. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a5928b632070316a387dccaa290663628" name="a5928b632070316a387dccaa290663628"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5928b632070316a387dccaa290663628">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_Clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_SomeLocalTriangulations_Clear </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Removes all elements from the container. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a8a91ec5adb4cbe8c27a661a1eaacaf56" name="a8a91ec5adb4cbe8c27a661a1eaacaf56"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a91ec5adb4cbe8c27a661a1eaacaf56">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_const_iterator_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_SomeLocalTriangulations_const_iterator_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a68e8df2fc7d97654baae359c46d81322">MR_std_vector_MR_SomeLocalTriangulations_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a68e8df2fc7d97654baae359c46d81322">MR_std_vector_MR_SomeLocalTriangulations_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <code>_this</code> can not be null. Parameter <code>other</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a658f1cc7c1f8df4676d7ebe56feb3e8a" name="a658f1cc7c1f8df4676d7ebe56feb3e8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a658f1cc7c1f8df4676d7ebe56feb3e8a">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_const_iterator_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a68e8df2fc7d97654baae359c46d81322">MR_std_vector_MR_SomeLocalTriangulations_const_iterator</a> * MR_std_vector_MR_SomeLocalTriangulations_const_iterator_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a68e8df2fc7d97654baae359c46d81322">MR_std_vector_MR_SomeLocalTriangulations_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs a copy of another instance. The source remains alive. Parameter <code>other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ad44448dabb40e3f3f7d153fe4819cc1d" title="Destroys a heap-allocated instance of MR_std_vector_MR_SomeLocalTriangulations_const_iterator....">MR_std_vector_MR_SomeLocalTriangulations_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a73cd790be35d3ad2a8cc1c0214a815f0" name="a73cd790be35d3ad2a8cc1c0214a815f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73cd790be35d3ad2a8cc1c0214a815f0">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_const_iterator_Decr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_SomeLocalTriangulations_const_iterator_Decr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a68e8df2fc7d97654baae359c46d81322">MR_std_vector_MR_SomeLocalTriangulations_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Decrements a const iterator. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a6079dced91fcb1f49f908d2a52a25277" name="a6079dced91fcb1f49f908d2a52a25277"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6079dced91fcb1f49f908d2a52a25277">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_const_iterator_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a68e8df2fc7d97654baae359c46d81322">MR_std_vector_MR_SomeLocalTriangulations_const_iterator</a> * MR_std_vector_MR_SomeLocalTriangulations_const_iterator_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ad44448dabb40e3f3f7d153fe4819cc1d" title="Destroys a heap-allocated instance of MR_std_vector_MR_SomeLocalTriangulations_const_iterator....">MR_std_vector_MR_SomeLocalTriangulations_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a74d6b0a0088fc16b7682030c944221ae" name="a74d6b0a0088fc16b7682030c944221ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74d6b0a0088fc16b7682030c944221ae">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_const_iterator_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a68e8df2fc7d97654baae359c46d81322">MR_std_vector_MR_SomeLocalTriangulations_const_iterator</a> * MR_std_vector_MR_SomeLocalTriangulations_const_iterator_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a3999da18afebc7d52ee75e22dc0c0fba" title="Destroys a heap-allocated array of MR_std_vector_MR_SomeLocalTriangulations_const_iterator....">MR_std_vector_MR_SomeLocalTriangulations_const_iterator_DestroyArray()</a></code>. Use <code><a class="el" href="#aa27fa0d33e7bd46f6266f6024c23dd79" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_SomeLocalTriangulations_const_iterator_OffsetMutablePtr()</a></code> and <code><a class="el" href="#ac4f59b422e034f6ca70f1d49e71a9103" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_SomeLocalTriangulations_const_iterator_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="ae458bafa55da572081fd2b8b48c5b757" name="ae458bafa55da572081fd2b8b48c5b757"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae458bafa55da572081fd2b8b48c5b757">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_const_iterator_Deref()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRLocalTriangulations_8h.html#af924f45d3602419626e62bc51be3808a">MR_SomeLocalTriangulations</a> * MR_std_vector_MR_SomeLocalTriangulations_const_iterator_Deref </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a68e8df2fc7d97654baae359c46d81322">MR_std_vector_MR_SomeLocalTriangulations_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Dereferences a const iterator. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ad44448dabb40e3f3f7d153fe4819cc1d" name="ad44448dabb40e3f3f7d153fe4819cc1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad44448dabb40e3f3f7d153fe4819cc1d">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_const_iterator_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_SomeLocalTriangulations_const_iterator_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a68e8df2fc7d97654baae359c46d81322">MR_std_vector_MR_SomeLocalTriangulations_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_std_vector_MR_SomeLocalTriangulations_const_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a3999da18afebc7d52ee75e22dc0c0fba" name="a3999da18afebc7d52ee75e22dc0c0fba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3999da18afebc7d52ee75e22dc0c0fba">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_const_iterator_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_SomeLocalTriangulations_const_iterator_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a68e8df2fc7d97654baae359c46d81322">MR_std_vector_MR_SomeLocalTriangulations_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_std_vector_MR_SomeLocalTriangulations_const_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="abfebc83d623ae2c1735a2d4a9d8ad397" name="abfebc83d623ae2c1735a2d4a9d8ad397"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfebc83d623ae2c1735a2d4a9d8ad397">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_const_iterator_Distance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API ptrdiff_t MR_std_vector_MR_SomeLocalTriangulations_const_iterator_Distance </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a68e8df2fc7d97654baae359c46d81322">MR_std_vector_MR_SomeLocalTriangulations_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a68e8df2fc7d97654baae359c46d81322">MR_std_vector_MR_SomeLocalTriangulations_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Computes the signed difference between two const iterators. Completes in constant time. Parameter <code>a</code> can not be null. Parameter <code>b</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a937fc7722e5e8af7ee84d1365b04d234" name="a937fc7722e5e8af7ee84d1365b04d234"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a937fc7722e5e8af7ee84d1365b04d234">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_const_iterator_FromMutable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a68e8df2fc7d97654baae359c46d81322">MR_std_vector_MR_SomeLocalTriangulations_const_iterator</a> * MR_std_vector_MR_SomeLocalTriangulations_const_iterator_FromMutable </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ab9120c86bef2f3e598ba6d74a54c3231">MR_std_vector_MR_SomeLocalTriangulations_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Makes a const iterator from a mutable one. Parameter <code>iter</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ad44448dabb40e3f3f7d153fe4819cc1d" title="Destroys a heap-allocated instance of MR_std_vector_MR_SomeLocalTriangulations_const_iterator....">MR_std_vector_MR_SomeLocalTriangulations_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ac797f19628fc3ee1fb66a26c534e0278" name="ac797f19628fc3ee1fb66a26c534e0278"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac797f19628fc3ee1fb66a26c534e0278">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_const_iterator_Incr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_SomeLocalTriangulations_const_iterator_Incr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a68e8df2fc7d97654baae359c46d81322">MR_std_vector_MR_SomeLocalTriangulations_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Increments a const iterator. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a6cb86217ba657310cc976a5a6c8a1b31" name="a6cb86217ba657310cc976a5a6c8a1b31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6cb86217ba657310cc976a5a6c8a1b31">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_const_iterator_OffsetBy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_SomeLocalTriangulations_const_iterator_OffsetBy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a68e8df2fc7d97654baae359c46d81322">MR_std_vector_MR_SomeLocalTriangulations_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>delta</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Increments or decrements a const iterator by the specific amount. Completes in constant time. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aa27fa0d33e7bd46f6266f6024c23dd79" name="aa27fa0d33e7bd46f6266f6024c23dd79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa27fa0d33e7bd46f6266f6024c23dd79">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_const_iterator_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a68e8df2fc7d97654baae359c46d81322">MR_std_vector_MR_SomeLocalTriangulations_const_iterator</a> * MR_std_vector_MR_SomeLocalTriangulations_const_iterator_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a68e8df2fc7d97654baae359c46d81322">MR_std_vector_MR_SomeLocalTriangulations_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="ac4f59b422e034f6ca70f1d49e71a9103" name="ac4f59b422e034f6ca70f1d49e71a9103"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4f59b422e034f6ca70f1d49e71a9103">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_const_iterator_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a68e8df2fc7d97654baae359c46d81322">MR_std_vector_MR_SomeLocalTriangulations_const_iterator</a> * MR_std_vector_MR_SomeLocalTriangulations_const_iterator_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a68e8df2fc7d97654baae359c46d81322">MR_std_vector_MR_SomeLocalTriangulations_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="aba0d1c5a5ac33d580f5d2de699c42afb" name="aba0d1c5a5ac33d580f5d2de699c42afb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba0d1c5a5ac33d580f5d2de699c42afb">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> * MR_std_vector_MR_SomeLocalTriangulations_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs a copy of another instance. The source remains alive. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a2051e8620f4b0a6c4d45a542946d33e6" title="Destroys a heap-allocated instance of MR_std_vector_MR_SomeLocalTriangulations. Does nothing if the p...">MR_std_vector_MR_SomeLocalTriangulations_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a2d74f1674b9fa0e8d7fa913bfa7a333a" name="a2d74f1674b9fa0e8d7fa913bfa7a333a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d74f1674b9fa0e8d7fa913bfa7a333a">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> * MR_std_vector_MR_SomeLocalTriangulations_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a2051e8620f4b0a6c4d45a542946d33e6" title="Destroys a heap-allocated instance of MR_std_vector_MR_SomeLocalTriangulations. Does nothing if the p...">MR_std_vector_MR_SomeLocalTriangulations_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ad8ebca47fd26557ac8682b752dc1535c" name="ad8ebca47fd26557ac8682b752dc1535c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8ebca47fd26557ac8682b752dc1535c">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> * MR_std_vector_MR_SomeLocalTriangulations_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a9a05f67cae2666629ef7bf09dd0af7eb" title="Destroys a heap-allocated array of MR_std_vector_MR_SomeLocalTriangulations. Does nothing if the poin...">MR_std_vector_MR_SomeLocalTriangulations_DestroyArray()</a></code>. Use <code><a class="el" href="#abbcd669ba30bd936db96a349c4de98d5" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_SomeLocalTriangulations_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a03f56ebd156b309ebaf1e35d8c4e77da" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_SomeLocalTriangulations_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a2051e8620f4b0a6c4d45a542946d33e6" name="a2051e8620f4b0a6c4d45a542946d33e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2051e8620f4b0a6c4d45a542946d33e6">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_SomeLocalTriangulations_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_std_vector_MR_SomeLocalTriangulations</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a9a05f67cae2666629ef7bf09dd0af7eb" name="a9a05f67cae2666629ef7bf09dd0af7eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a05f67cae2666629ef7bf09dd0af7eb">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_SomeLocalTriangulations_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_std_vector_MR_SomeLocalTriangulations</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="ab1eea9446768a9a6eb3147cbc93f9c9f" name="ab1eea9446768a9a6eb3147cbc93f9c9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1eea9446768a9a6eb3147cbc93f9c9f">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_End()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a68e8df2fc7d97654baae359c46d81322">MR_std_vector_MR_SomeLocalTriangulations_const_iterator</a> * MR_std_vector_MR_SomeLocalTriangulations_End </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, const. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ad44448dabb40e3f3f7d153fe4819cc1d" title="Destroys a heap-allocated instance of MR_std_vector_MR_SomeLocalTriangulations_const_iterator....">MR_std_vector_MR_SomeLocalTriangulations_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ae0206e046e8c59589a6efaa41ec59d9b" name="ae0206e046e8c59589a6efaa41ec59d9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0206e046e8c59589a6efaa41ec59d9b">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_Erase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_SomeLocalTriangulations_Erase </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>position</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Erases the element at the specified position. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a2fe1a598d840c699dd7b2fbecc46075a" name="a2fe1a598d840c699dd7b2fbecc46075a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2fe1a598d840c699dd7b2fbecc46075a">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_EraseAtIter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_SomeLocalTriangulations_EraseAtIter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a68e8df2fc7d97654baae359c46d81322">MR_std_vector_MR_SomeLocalTriangulations_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>position</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Erases the element at the specified position. This version takes the position in form of a const iterator, that's the only difference. Parameter <code>_this</code> can not be null. Parameter <code>position</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a66b25025eb575a6bc156628b6759bd46" name="a66b25025eb575a6bc156628b6759bd46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66b25025eb575a6bc156628b6759bd46">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_EraseAtMutableIter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_SomeLocalTriangulations_EraseAtMutableIter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ab9120c86bef2f3e598ba6d74a54c3231">MR_std_vector_MR_SomeLocalTriangulations_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>position</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Erases the element at the specified position. Parameter <code>_this</code> can not be null. Parameter <code>position</code> can not be null. </p>
+
+</div>
+</div>
+<a id="afb1d06ca31732c1f300dd8d1de276081" name="afb1d06ca31732c1f300dd8d1de276081"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb1d06ca31732c1f300dd8d1de276081">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_Front()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRLocalTriangulations_8h.html#af924f45d3602419626e62bc51be3808a">MR_SomeLocalTriangulations</a> * MR_std_vector_MR_SomeLocalTriangulations_Front </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The first element or null if empty, read-only. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a27548b5df74649d022f392ecbd144305" name="a27548b5df74649d022f392ecbd144305"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27548b5df74649d022f392ecbd144305">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_Insert()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_SomeLocalTriangulations_Insert </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>new_elem_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRLocalTriangulations_8h.html#af924f45d3602419626e62bc51be3808a">MR_SomeLocalTriangulations</a> *</td>          <td class="paramname"><span class="paramname"><em>new_elem</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Inserts a new element right before the specified position. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aa7e343e3a81c66a6320cc6de6083b227" name="aa7e343e3a81c66a6320cc6de6083b227"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7e343e3a81c66a6320cc6de6083b227">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_InsertAtIter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_SomeLocalTriangulations_InsertAtIter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a68e8df2fc7d97654baae359c46d81322">MR_std_vector_MR_SomeLocalTriangulations_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>new_elem_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRLocalTriangulations_8h.html#af924f45d3602419626e62bc51be3808a">MR_SomeLocalTriangulations</a> *</td>          <td class="paramname"><span class="paramname"><em>new_elem</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Inserts a new element right before the specified position. This version takes the position in form of a const iterator, that's the only difference. Parameter <code>_this</code> can not be null. Parameter <code>position</code> can not be null. </p>
+
+</div>
+</div>
+<a id="af5e2019273f7b7a631f5c27369ae64ce" name="af5e2019273f7b7a631f5c27369ae64ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5e2019273f7b7a631f5c27369ae64ce">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_InsertAtMutableIter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_SomeLocalTriangulations_InsertAtMutableIter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ab9120c86bef2f3e598ba6d74a54c3231">MR_std_vector_MR_SomeLocalTriangulations_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>new_elem_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRLocalTriangulations_8h.html#af924f45d3602419626e62bc51be3808a">MR_SomeLocalTriangulations</a> *</td>          <td class="paramname"><span class="paramname"><em>new_elem</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Inserts a new element right before the specified position. Parameter <code>_this</code> can not be null. Parameter <code>position</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a79c39a917ea536822f629dbb2a3d1718" name="a79c39a917ea536822f629dbb2a3d1718"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79c39a917ea536822f629dbb2a3d1718">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_IsBegin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_MR_SomeLocalTriangulations_IsBegin </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a68e8df2fc7d97654baae359c46d81322">MR_std_vector_MR_SomeLocalTriangulations_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a const iterator is the begin iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aa1c1e7dccd197194c692fc99bf200ecc" name="aa1c1e7dccd197194c692fc99bf200ecc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1c1e7dccd197194c692fc99bf200ecc">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_IsEmpty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_MR_SomeLocalTriangulations_IsEmpty </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns true if the size is zero. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ab56963fb92b4213bbb5314b2c4c4404a" name="ab56963fb92b4213bbb5314b2c4c4404a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab56963fb92b4213bbb5314b2c4c4404a">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_IsEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_MR_SomeLocalTriangulations_IsEnd </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a68e8df2fc7d97654baae359c46d81322">MR_std_vector_MR_SomeLocalTriangulations_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a const iterator is the end iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a5b0f946226e8020715d7dbd77d30c9db" name="a5b0f946226e8020715d7dbd77d30c9db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b0f946226e8020715d7dbd77d30c9db">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_IsMutableBegin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_MR_SomeLocalTriangulations_IsMutableBegin </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ab9120c86bef2f3e598ba6d74a54c3231">MR_std_vector_MR_SomeLocalTriangulations_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a mutable iterator is the begin iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ac1bcd4f6de31be1ee53d8fd588d15dbe" name="ac1bcd4f6de31be1ee53d8fd588d15dbe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1bcd4f6de31be1ee53d8fd588d15dbe">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_IsMutableEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_MR_SomeLocalTriangulations_IsMutableEnd </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ab9120c86bef2f3e598ba6d74a54c3231">MR_std_vector_MR_SomeLocalTriangulations_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a mutable iterator is the end iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a813f96c17ce0d403ea98cdacc9067020" name="a813f96c17ce0d403ea98cdacc9067020"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a813f96c17ce0d403ea98cdacc9067020">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_iterator_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_SomeLocalTriangulations_iterator_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ab9120c86bef2f3e598ba6d74a54c3231">MR_std_vector_MR_SomeLocalTriangulations_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ab9120c86bef2f3e598ba6d74a54c3231">MR_std_vector_MR_SomeLocalTriangulations_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <code>_this</code> can not be null. Parameter <code>other</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ab6425b75d9a14f143aa02ca22bad75e0" name="ab6425b75d9a14f143aa02ca22bad75e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6425b75d9a14f143aa02ca22bad75e0">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_iterator_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ab9120c86bef2f3e598ba6d74a54c3231">MR_std_vector_MR_SomeLocalTriangulations_iterator</a> * MR_std_vector_MR_SomeLocalTriangulations_iterator_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ab9120c86bef2f3e598ba6d74a54c3231">MR_std_vector_MR_SomeLocalTriangulations_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs a copy of another instance. The source remains alive. Parameter <code>other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#adc4bcd83e518227b201dd3740ee80eda" title="Destroys a heap-allocated instance of MR_std_vector_MR_SomeLocalTriangulations_iterator....">MR_std_vector_MR_SomeLocalTriangulations_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ad440f5cda30fb629ac90000bdfe7eafb" name="ad440f5cda30fb629ac90000bdfe7eafb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad440f5cda30fb629ac90000bdfe7eafb">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_iterator_Decr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_SomeLocalTriangulations_iterator_Decr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ab9120c86bef2f3e598ba6d74a54c3231">MR_std_vector_MR_SomeLocalTriangulations_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Decrements a mutable iterator. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a855532b0294c533568c8f6b28e7e216b" name="a855532b0294c533568c8f6b28e7e216b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a855532b0294c533568c8f6b28e7e216b">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_iterator_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ab9120c86bef2f3e598ba6d74a54c3231">MR_std_vector_MR_SomeLocalTriangulations_iterator</a> * MR_std_vector_MR_SomeLocalTriangulations_iterator_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#adc4bcd83e518227b201dd3740ee80eda" title="Destroys a heap-allocated instance of MR_std_vector_MR_SomeLocalTriangulations_iterator....">MR_std_vector_MR_SomeLocalTriangulations_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ab2b2c834d65db70f3a77de81f9bb5670" name="ab2b2c834d65db70f3a77de81f9bb5670"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2b2c834d65db70f3a77de81f9bb5670">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_iterator_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ab9120c86bef2f3e598ba6d74a54c3231">MR_std_vector_MR_SomeLocalTriangulations_iterator</a> * MR_std_vector_MR_SomeLocalTriangulations_iterator_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a38eed5759ec86c5039f5b48913820ab3" title="Destroys a heap-allocated array of MR_std_vector_MR_SomeLocalTriangulations_iterator....">MR_std_vector_MR_SomeLocalTriangulations_iterator_DestroyArray()</a></code>. Use <code><a class="el" href="#ac86faf7ed578385356eae4b14201a7eb" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_SomeLocalTriangulations_iterator_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a8476aabfa538dbefabd0f6fbe9d734d2" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_SomeLocalTriangulations_iterator_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a90e6153c2282167f7ef5a7b5066cd0cc" name="a90e6153c2282167f7ef5a7b5066cd0cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90e6153c2282167f7ef5a7b5066cd0cc">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_iterator_Deref()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRLocalTriangulations_8h.html#af924f45d3602419626e62bc51be3808a">MR_SomeLocalTriangulations</a> * MR_std_vector_MR_SomeLocalTriangulations_iterator_Deref </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ab9120c86bef2f3e598ba6d74a54c3231">MR_std_vector_MR_SomeLocalTriangulations_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Dereferences a mutable iterator. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="adc4bcd83e518227b201dd3740ee80eda" name="adc4bcd83e518227b201dd3740ee80eda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc4bcd83e518227b201dd3740ee80eda">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_iterator_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_SomeLocalTriangulations_iterator_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ab9120c86bef2f3e598ba6d74a54c3231">MR_std_vector_MR_SomeLocalTriangulations_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_std_vector_MR_SomeLocalTriangulations_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a38eed5759ec86c5039f5b48913820ab3" name="a38eed5759ec86c5039f5b48913820ab3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38eed5759ec86c5039f5b48913820ab3">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_iterator_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_SomeLocalTriangulations_iterator_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ab9120c86bef2f3e598ba6d74a54c3231">MR_std_vector_MR_SomeLocalTriangulations_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_std_vector_MR_SomeLocalTriangulations_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a8e9f80992d6188e18e24834a584262a1" name="a8e9f80992d6188e18e24834a584262a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e9f80992d6188e18e24834a584262a1">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_iterator_Distance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API ptrdiff_t MR_std_vector_MR_SomeLocalTriangulations_iterator_Distance </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ab9120c86bef2f3e598ba6d74a54c3231">MR_std_vector_MR_SomeLocalTriangulations_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ab9120c86bef2f3e598ba6d74a54c3231">MR_std_vector_MR_SomeLocalTriangulations_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Computes the signed difference between two mutable iterators. Completes in constant time. Parameter <code>a</code> can not be null. Parameter <code>b</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a509d2b8bc5af3e5823c2fae6b6169f2a" name="a509d2b8bc5af3e5823c2fae6b6169f2a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a509d2b8bc5af3e5823c2fae6b6169f2a">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_iterator_Incr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_SomeLocalTriangulations_iterator_Incr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ab9120c86bef2f3e598ba6d74a54c3231">MR_std_vector_MR_SomeLocalTriangulations_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Increments a mutable iterator. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="acdfa055abf0e2839155cfe9fa471006e" name="acdfa055abf0e2839155cfe9fa471006e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acdfa055abf0e2839155cfe9fa471006e">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_iterator_OffsetBy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_SomeLocalTriangulations_iterator_OffsetBy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ab9120c86bef2f3e598ba6d74a54c3231">MR_std_vector_MR_SomeLocalTriangulations_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>delta</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Increments or decrements a mutable iterator by the specific amount. Completes in constant time. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ac86faf7ed578385356eae4b14201a7eb" name="ac86faf7ed578385356eae4b14201a7eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac86faf7ed578385356eae4b14201a7eb">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_iterator_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ab9120c86bef2f3e598ba6d74a54c3231">MR_std_vector_MR_SomeLocalTriangulations_iterator</a> * MR_std_vector_MR_SomeLocalTriangulations_iterator_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ab9120c86bef2f3e598ba6d74a54c3231">MR_std_vector_MR_SomeLocalTriangulations_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a8476aabfa538dbefabd0f6fbe9d734d2" name="a8476aabfa538dbefabd0f6fbe9d734d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8476aabfa538dbefabd0f6fbe9d734d2">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_iterator_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#ab9120c86bef2f3e598ba6d74a54c3231">MR_std_vector_MR_SomeLocalTriangulations_iterator</a> * MR_std_vector_MR_SomeLocalTriangulations_iterator_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ab9120c86bef2f3e598ba6d74a54c3231">MR_std_vector_MR_SomeLocalTriangulations_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="afa3187c5404aa54de25f3c6e84f85476" name="afa3187c5404aa54de25f3c6e84f85476"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa3187c5404aa54de25f3c6e84f85476">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_MutableAt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRLocalTriangulations_8h.html#af924f45d3602419626e62bc51be3808a">MR_SomeLocalTriangulations</a> * MR_std_vector_MR_SomeLocalTriangulations_MutableAt </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The element at a specific index, mutable. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a8f234ff7b6864d8ab64a428c5515f312" name="a8f234ff7b6864d8ab64a428c5515f312"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f234ff7b6864d8ab64a428c5515f312">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_MutableBack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRLocalTriangulations_8h.html#af924f45d3602419626e62bc51be3808a">MR_SomeLocalTriangulations</a> * MR_std_vector_MR_SomeLocalTriangulations_MutableBack </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The last element or null if empty, mutable. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a29683673e9d08ad8ab34af2e4572f395" name="a29683673e9d08ad8ab34af2e4572f395"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29683673e9d08ad8ab34af2e4572f395">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_MutableBegin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ab9120c86bef2f3e598ba6d74a54c3231">MR_std_vector_MR_SomeLocalTriangulations_iterator</a> * MR_std_vector_MR_SomeLocalTriangulations_MutableBegin </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, mutable. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#adc4bcd83e518227b201dd3740ee80eda" title="Destroys a heap-allocated instance of MR_std_vector_MR_SomeLocalTriangulations_iterator....">MR_std_vector_MR_SomeLocalTriangulations_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a9d900ae98c8374147f2c5b58e4fc38d1" name="a9d900ae98c8374147f2c5b58e4fc38d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d900ae98c8374147f2c5b58e4fc38d1">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_MutableEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ab9120c86bef2f3e598ba6d74a54c3231">MR_std_vector_MR_SomeLocalTriangulations_iterator</a> * MR_std_vector_MR_SomeLocalTriangulations_MutableEnd </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, mutable. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#adc4bcd83e518227b201dd3740ee80eda" title="Destroys a heap-allocated instance of MR_std_vector_MR_SomeLocalTriangulations_iterator....">MR_std_vector_MR_SomeLocalTriangulations_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a0f48228d4908ce83875bf1b82ed04d79" name="a0f48228d4908ce83875bf1b82ed04d79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f48228d4908ce83875bf1b82ed04d79">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_MutableFront()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRLocalTriangulations_8h.html#af924f45d3602419626e62bc51be3808a">MR_SomeLocalTriangulations</a> * MR_std_vector_MR_SomeLocalTriangulations_MutableFront </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The first element or null if empty, mutable. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a97402d8bc07039d294300ffe74edf236" name="a97402d8bc07039d294300ffe74edf236"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97402d8bc07039d294300ffe74edf236">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_MutableToIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API ptrdiff_t MR_std_vector_MR_SomeLocalTriangulations_MutableToIndex </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ab9120c86bef2f3e598ba6d74a54c3231">MR_std_vector_MR_SomeLocalTriangulations_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Convert a mutable iterator to an index. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="abbcd669ba30bd936db96a349c4de98d5" name="abbcd669ba30bd936db96a349c4de98d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abbcd669ba30bd936db96a349c4de98d5">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> * MR_std_vector_MR_SomeLocalTriangulations_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a03f56ebd156b309ebaf1e35d8c4e77da" name="a03f56ebd156b309ebaf1e35d8c4e77da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03f56ebd156b309ebaf1e35d8c4e77da">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> * MR_std_vector_MR_SomeLocalTriangulations_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a3932b5ae23f32f1553cd9314c53b73fc" name="a3932b5ae23f32f1553cd9314c53b73fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3932b5ae23f32f1553cd9314c53b73fc">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_PopBack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_SomeLocalTriangulations_PopBack </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Removes one element from the end. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ace92ac6220039302bd30ec0e74a94aeb" name="ace92ac6220039302bd30ec0e74a94aeb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace92ac6220039302bd30ec0e74a94aeb">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_PushBack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_SomeLocalTriangulations_PushBack </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>new_elem_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRLocalTriangulations_8h.html#af924f45d3602419626e62bc51be3808a">MR_SomeLocalTriangulations</a> *</td>          <td class="paramname"><span class="paramname"><em>new_elem</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Inserts a new element at the end. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="af7386e9310cc3c73005a861c1bd55a83" name="af7386e9310cc3c73005a861c1bd55a83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7386e9310cc3c73005a861c1bd55a83">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_Reserve()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_SomeLocalTriangulations_Reserve </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>new_capacity</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Reserves memory for a certain number of elements. Never shrinks the memory. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a756d2caa5dab115849f95f9797cc5223" name="a756d2caa5dab115849f95f9797cc5223"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a756d2caa5dab115849f95f9797cc5223">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_Resize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_SomeLocalTriangulations_Resize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>new_size</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Resizes the container. The new elements if any are zeroed. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a1b9d5431f0e7ce15fe6e0e9962ac6e58" name="a1b9d5431f0e7ce15fe6e0e9962ac6e58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b9d5431f0e7ce15fe6e0e9962ac6e58">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_ResizeWithDefaultValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_SomeLocalTriangulations_ResizeWithDefaultValue </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>new_size</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRLocalTriangulations_8h.html#af924f45d3602419626e62bc51be3808a">MR_SomeLocalTriangulations</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Resizes the container. The new elements if any are set to the specified value. Parameter <code>_this</code> can not be null. Parameter <code>value</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a15a2899da051a8d6dde22b7b1f9fac4c" name="a15a2899da051a8d6dde22b7b1f9fac4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15a2899da051a8d6dde22b7b1f9fac4c">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_ShrinkToFit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_SomeLocalTriangulations_ShrinkToFit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Shrinks the capacity to match the size. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aa9581299e369cf4c8c5a8c3e20add3ce" name="aa9581299e369cf4c8c5a8c3e20add3ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9581299e369cf4c8c5a8c3e20add3ce">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_Size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API size_t MR_std_vector_MR_SomeLocalTriangulations_Size </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The number of elements. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ae0887994a2986e43a9da7f087dba193d" name="ae0887994a2986e43a9da7f087dba193d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0887994a2986e43a9da7f087dba193d">&#9670;&#160;</a></span>MR_std_vector_MR_SomeLocalTriangulations_ToIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API ptrdiff_t MR_std_vector_MR_SomeLocalTriangulations_ToIndex </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f">MR_std_vector_MR_SomeLocalTriangulations</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a68e8df2fc7d97654baae359c46d81322">MR_std_vector_MR_SomeLocalTriangulations_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Convert a const iterator to an index. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_87d38852fc01aff5f853718c8d8b5cb2.html">Cbindings</a></li><li class="navelem"><a class="el" href="dir_12d01ef4fa7c7ca18852dd6d7d92a624.html">MRCMisc</a></li><li class="navelem"><a class="el" href="std__vector__MR__SomeLocalTriangulations_8h.html">std_vector_MR_SomeLocalTriangulations.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,5 +1,6 @@
 var NAVTREEINDEX61 =
 {
+"classmrmeshpy_1_1PointAccumulator.html#ae3855e20e0beb747d1e26445717d69b2":[6,1,1,0,1,651,5],
 "classmrmeshpy_1_1PointAccumulator.html#ae820f4bf4835b7deda3e913b64ad9eec":[6,1,0,0,2,651,7],
 "classmrmeshpy_1_1PointAccumulator.html#ae820f4bf4835b7deda3e913b64ad9eec":[6,1,1,0,1,651,7],
 "classmrmeshpy_1_1PointAndDistance.html":[6,1,0,0,2,652],
@@ -248,6 +249,5 @@ var NAVTREEINDEX61 =
 "classmrmeshpy_1_1PointToPointAligningTransform.html#a86aca32140f4b9131b96438aa438257f":[6,1,1,0,1,673,3],
 "classmrmeshpy_1_1PointToPointAligningTransform.html#a8dd90117267caa4d674c2b57fced2b52":[6,1,0,0,2,673,8],
 "classmrmeshpy_1_1PointToPointAligningTransform.html#a8dd90117267caa4d674c2b57fced2b52":[6,1,1,0,1,673,8],
-"classmrmeshpy_1_1PointToPointAligningTransform.html#a99ef5a6899ef9ef3f62f43812523b674":[6,1,0,0,2,673,1],
-"classmrmeshpy_1_1PointToPointAligningTransform.html#a99ef5a6899ef9ef3f62f43812523b674":[6,1,1,0,1,673,1]
+"classmrmeshpy_1_1PointToPointAligningTransform.html#a99ef5a6899ef9ef3f62f43812523b674":[6,1,0,0,2,673,1]
 };

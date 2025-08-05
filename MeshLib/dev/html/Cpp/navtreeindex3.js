@@ -1,5 +1,6 @@
 var NAVTREEINDEX3 =
 {
+"MRFileDialog_8h.html#a964135dd0f9cc9740de117f85b0e793d":[6,0,3,0,0,1,11,20,7],
 "MRFileDialog_8h.html#a9fc3a0fb211326213beb41fb1ecd8d71":[6,0,3,0,0,1,11,20,4],
 "MRFileDialog_8h.html#aa9296b50297d1b2d93a8f2f08c495eef":[6,0,3,0,0,1,11,20,10],
 "MRFileDialog_8h_source.html":[6,0,3,0,0,1,11,20],
@@ -248,6 +249,5 @@ var NAVTREEINDEX3 =
 "MRImGuiVectorOperators_8h.html#a12ab63056037f694d9ccdffda8ddb013":[6,0,3,0,0,1,11,36,26],
 "MRImGuiVectorOperators_8h.html#a1b10073d5f904b51b53263f742597596":[6,0,3,0,0,1,11,36,28],
 "MRImGuiVectorOperators_8h.html#a1bb63ebefff7965e722fdab681030eda":[6,0,3,0,0,1,11,36,35],
-"MRImGuiVectorOperators_8h.html#a1ec7b8101f9329b606187e6018ad4728":[6,0,3,0,0,1,11,36,44],
-"MRImGuiVectorOperators_8h.html#a2da72d9bf27a5413a0a6b1c470bebe96":[6,0,3,0,0,1,11,36,36]
+"MRImGuiVectorOperators_8h.html#a1ec7b8101f9329b606187e6018ad4728":[6,0,3,0,0,1,11,36,44]
 };

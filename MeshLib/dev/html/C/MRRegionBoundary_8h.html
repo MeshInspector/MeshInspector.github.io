@@ -1,0 +1,1097 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: MRRegionBoundary.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('MRRegionBoundary_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">MRRegionBoundary.h File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="MRId_8h_source.html">MRCMesh/MRId.h</a>&gt;</code><br />
+<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
+</div>
+<p><a href="MRRegionBoundary_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a0ab67259585b94fe4f3e06c70ba102f3" id="r_a0ab67259585b94fe4f3e06c70ba102f3"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRBitSet_8h.html#a0ab67259585b94fe4f3e06c70ba102f3">MR_EdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ab67259585b94fe4f3e06c70ba102f3">MR_EdgeBitSet</a></td></tr>
+<tr class="separator:a0ab67259585b94fe4f3e06c70ba102f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba7bc6ac732c34fd4721c543fa3445ea" id="r_aba7bc6ac732c34fd4721c543fa3445ea"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a></td></tr>
+<tr class="separator:aba7bc6ac732c34fd4721c543fa3445ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31b172f68efca6438544d56eb86d6f40" id="r_a31b172f68efca6438544d56eb86d6f40"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a></td></tr>
+<tr class="separator:a31b172f68efca6438544d56eb86d6f40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad396cf7d4433c5ba7924776f5b379c9b" id="r_ad396cf7d4433c5ba7924776f5b379c9b"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a></td></tr>
+<tr class="separator:ad396cf7d4433c5ba7924776f5b379c9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7f59a6736b29701d7e619412b6e2890" id="r_ac7f59a6736b29701d7e619412b6e2890"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a></td></tr>
+<tr class="separator:ac7f59a6736b29701d7e619412b6e2890"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3df50e76b078a1626dd994e1df803764" id="r_a3df50e76b078a1626dd994e1df803764"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a></td></tr>
+<tr class="separator:a3df50e76b078a1626dd994e1df803764"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2cb99914308eb7429fd11738cf79483" id="r_aa2cb99914308eb7429fd11738cf79483"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRContoursStitch_8h.html#aa2cb99914308eb7429fd11738cf79483">MR_std_vector_MR_EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2cb99914308eb7429fd11738cf79483">MR_std_vector_MR_EdgeId</a></td></tr>
+<tr class="separator:aa2cb99914308eb7429fd11738cf79483"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5de264b6065dbf84f6b3fa0f6530592" id="r_ab5de264b6065dbf84f6b3fa0f6530592"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MR2DContoursTriangulation_8h.html#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a></td></tr>
+<tr class="separator:ab5de264b6065dbf84f6b3fa0f6530592"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ab30596ddc03ad05aa8db744656f03033" id="r_ab30596ddc03ad05aa8db744656f03033"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRContoursStitch_8h.html#aa2cb99914308eb7429fd11738cf79483">MR_std_vector_MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab30596ddc03ad05aa8db744656f03033">MR_trackLeftBoundaryLoop_MR_EdgeId</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, <a class="el" href="structMR__EdgeId.html">MR_EdgeId</a> e0, const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *region)</td></tr>
+<tr class="separator:ab30596ddc03ad05aa8db744656f03033"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefb14d87f9ee965972b1e18fcedbe10b" id="r_aefb14d87f9ee965972b1e18fcedbe10b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRContoursStitch_8h.html#aa2cb99914308eb7429fd11738cf79483">MR_std_vector_MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefb14d87f9ee965972b1e18fcedbe10b">MR_trackLeftBoundaryLoop_MR_FaceBitSet</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *region, <a class="el" href="structMR__EdgeId.html">MR_EdgeId</a> e0)</td></tr>
+<tr class="separator:aefb14d87f9ee965972b1e18fcedbe10b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c5c104492c5f050394cdf51afa7f25c" id="r_a3c5c104492c5f050394cdf51afa7f25c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRContoursStitch_8h.html#aa2cb99914308eb7429fd11738cf79483">MR_std_vector_MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c5c104492c5f050394cdf51afa7f25c">MR_trackRightBoundaryLoop_MR_EdgeId</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, <a class="el" href="structMR__EdgeId.html">MR_EdgeId</a> e0, const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *region)</td></tr>
+<tr class="separator:a3c5c104492c5f050394cdf51afa7f25c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9329e9c88bda9faafe1e425557dce5e6" id="r_a9329e9c88bda9faafe1e425557dce5e6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRContoursStitch_8h.html#aa2cb99914308eb7429fd11738cf79483">MR_std_vector_MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9329e9c88bda9faafe1e425557dce5e6">MR_trackRightBoundaryLoop_MR_FaceBitSet</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *region, <a class="el" href="structMR__EdgeId.html">MR_EdgeId</a> e0)</td></tr>
+<tr class="separator:a9329e9c88bda9faafe1e425557dce5e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af859bbcc04c3e1d92542f52f98f12309" id="r_af859bbcc04c3e1d92542f52f98f12309"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MR2DContoursTriangulation_8h.html#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af859bbcc04c3e1d92542f52f98f12309">MR_findLeftBoundary_const_MR_FaceBitSet_ptr</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *region)</td></tr>
+<tr class="separator:af859bbcc04c3e1d92542f52f98f12309"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac74c1ff261d881cea8fe67e9bf9b5685" id="r_ac74c1ff261d881cea8fe67e9bf9b5685"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MR2DContoursTriangulation_8h.html#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac74c1ff261d881cea8fe67e9bf9b5685">MR_findLeftBoundary_MR_FaceBitSet</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *region)</td></tr>
+<tr class="separator:ac74c1ff261d881cea8fe67e9bf9b5685"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a995953be5b945b164addbe2d710f438f" id="r_a995953be5b945b164addbe2d710f438f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MR2DContoursTriangulation_8h.html#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a995953be5b945b164addbe2d710f438f">MR_findRightBoundary_const_MR_FaceBitSet_ptr</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *region)</td></tr>
+<tr class="separator:a995953be5b945b164addbe2d710f438f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01b6abe6f484ffeab24e6dd97543aa77" id="r_a01b6abe6f484ffeab24e6dd97543aa77"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MR2DContoursTriangulation_8h.html#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01b6abe6f484ffeab24e6dd97543aa77">MR_findRightBoundary_MR_FaceBitSet</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *region)</td></tr>
+<tr class="separator:a01b6abe6f484ffeab24e6dd97543aa77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af47af0fe29e10853bdb24f367bbf6ee8" id="r_af47af0fe29e10853bdb24f367bbf6ee8"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MR2DContoursTriangulation_8h.html#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af47af0fe29e10853bdb24f367bbf6ee8">MR_delRegionKeepBd_const_MR_FaceBitSet_ptr</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *region, const bool *keepLoneHoles)</td></tr>
+<tr class="separator:af47af0fe29e10853bdb24f367bbf6ee8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c4e3ce9cceb3e75eaf8399132673906" id="r_a7c4e3ce9cceb3e75eaf8399132673906"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MR2DContoursTriangulation_8h.html#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c4e3ce9cceb3e75eaf8399132673906">MR_delRegionKeepBd_MR_FaceBitSet</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *region, const bool *keepLoneHoles)</td></tr>
+<tr class="separator:a7c4e3ce9cceb3e75eaf8399132673906"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c48be4de5fd9bb6cd1c1cdfc214ebef" id="r_a4c48be4de5fd9bb6cd1c1cdfc214ebef"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MR2DContoursTriangulation_8h.html#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c48be4de5fd9bb6cd1c1cdfc214ebef">MR_findLeftBoundaryInsideMesh</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *region)</td></tr>
+<tr class="separator:a4c48be4de5fd9bb6cd1c1cdfc214ebef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fc2c864f51739bc04f5c0c0441f20d0" id="r_a3fc2c864f51739bc04f5c0c0441f20d0"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3fc2c864f51739bc04f5c0c0441f20d0">MR_findRegionBoundaryUndirectedEdgesInsideMesh</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *region)</td></tr>
+<tr class="separator:a3fc2c864f51739bc04f5c0c0441f20d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e74514392a6d690b257c9532d2b9166" id="r_a5e74514392a6d690b257c9532d2b9166"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e74514392a6d690b257c9532d2b9166">MR_findRegionOuterFaces</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *region)</td></tr>
+<tr class="separator:a5e74514392a6d690b257c9532d2b9166"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac96a00beebdbe13f883a4136ea332c19" id="r_ac96a00beebdbe13f883a4136ea332c19"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac96a00beebdbe13f883a4136ea332c19">MR_getIncidentVerts_2_MR_FaceBitSet</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *faces)</td></tr>
+<tr class="separator:ac96a00beebdbe13f883a4136ea332c19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41b20dcd6b4dc832c0947f4126ac08ac" id="r_a41b20dcd6b4dc832c0947f4126ac08ac"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41b20dcd6b4dc832c0947f4126ac08ac">MR_getIncidentVerts_3_const_MR_FaceBitSet_ptr</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *faces, <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *store)</td></tr>
+<tr class="separator:a41b20dcd6b4dc832c0947f4126ac08ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab202fa0b71f3ab7b7ba62ad83d94a156" id="r_ab202fa0b71f3ab7b7ba62ad83d94a156"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab202fa0b71f3ab7b7ba62ad83d94a156">MR_getInnerVerts_const_MR_FaceBitSet_ptr</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *region)</td></tr>
+<tr class="separator:ab202fa0b71f3ab7b7ba62ad83d94a156"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0981827febc2aec7fcd4a638b62e4d16" id="r_a0981827febc2aec7fcd4a638b62e4d16"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0981827febc2aec7fcd4a638b62e4d16">MR_getInnerVerts_MR_FaceBitSet</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *region)</td></tr>
+<tr class="separator:a0981827febc2aec7fcd4a638b62e4d16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1da9b9cfff9aa16ba01a199d99096701" id="r_a1da9b9cfff9aa16ba01a199d99096701"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1da9b9cfff9aa16ba01a199d99096701">MR_getBoundaryVerts</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *region)</td></tr>
+<tr class="separator:a1da9b9cfff9aa16ba01a199d99096701"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae57ddc8ac6663dd6ff295ae87563894b" id="r_ae57ddc8ac6663dd6ff295ae87563894b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae57ddc8ac6663dd6ff295ae87563894b">MR_getRegionBoundaryVerts</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *region)</td></tr>
+<tr class="separator:ae57ddc8ac6663dd6ff295ae87563894b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afed13e0b82762d877a491d6dd7771f84" id="r_afed13e0b82762d877a491d6dd7771f84"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afed13e0b82762d877a491d6dd7771f84">MR_getIncidentFaces_MR_VertBitSet</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *verts)</td></tr>
+<tr class="separator:afed13e0b82762d877a491d6dd7771f84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cf2e4e5eb3d786d8fbd2e705041142d" id="r_a3cf2e4e5eb3d786d8fbd2e705041142d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3cf2e4e5eb3d786d8fbd2e705041142d">MR_getInnerFaces</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *verts)</td></tr>
+<tr class="separator:a3cf2e4e5eb3d786d8fbd2e705041142d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a662031c498a11646473af948cb07cf" id="r_a5a662031c498a11646473af948cb07cf"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBitSet_8h.html#a0ab67259585b94fe4f3e06c70ba102f3">MR_EdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a662031c498a11646473af948cb07cf">MR_getRegionEdges</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *faces)</td></tr>
+<tr class="separator:a5a662031c498a11646473af948cb07cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9d09c1b257f748f176f475bffcee7b7" id="r_ae9d09c1b257f748f176f475bffcee7b7"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9d09c1b257f748f176f475bffcee7b7">MR_getIncidentEdges_MR_FaceBitSet</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *faces)</td></tr>
+<tr class="separator:ae9d09c1b257f748f176f475bffcee7b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af211e7bdfe425bcd2bcd20da58b0e069" id="r_af211e7bdfe425bcd2bcd20da58b0e069"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af211e7bdfe425bcd2bcd20da58b0e069">MR_getIncidentEdges_MR_UndirectedEdgeBitSet</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *edges)</td></tr>
+<tr class="separator:af211e7bdfe425bcd2bcd20da58b0e069"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8b18564b7aa49bcca920b5f6ef1bfee" id="r_ac8b18564b7aa49bcca920b5f6ef1bfee"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac8b18564b7aa49bcca920b5f6ef1bfee">MR_getIncidentVerts_2_MR_UndirectedEdgeBitSet</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *edges)</td></tr>
+<tr class="separator:ac8b18564b7aa49bcca920b5f6ef1bfee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9f1d48a7e228d7b5dfee3036db30cb3" id="r_aa9f1d48a7e228d7b5dfee3036db30cb3"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa9f1d48a7e228d7b5dfee3036db30cb3">MR_getIncidentFaces_MR_UndirectedEdgeBitSet</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *edges)</td></tr>
+<tr class="separator:aa9f1d48a7e228d7b5dfee3036db30cb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9925fb85f523c534f2c493446a49224b" id="r_a9925fb85f523c534f2c493446a49224b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9925fb85f523c534f2c493446a49224b">MR_getNeighborFaces</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *edges)</td></tr>
+<tr class="separator:a9925fb85f523c534f2c493446a49224b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45b8804bc6ef191e181f090cad61b2c0" id="r_a45b8804bc6ef191e181f090cad61b2c0"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45b8804bc6ef191e181f090cad61b2c0">MR_getInnerEdges_MR_VertBitSet</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *verts)</td></tr>
+<tr class="separator:a45b8804bc6ef191e181f090cad61b2c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81288e34a773b260db37d1a4470de3e6" id="r_a81288e34a773b260db37d1a4470de3e6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a81288e34a773b260db37d1a4470de3e6">MR_getInnerEdges_MR_FaceBitSet</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *region)</td></tr>
+<tr class="separator:a81288e34a773b260db37d1a4470de3e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abec6a9ab819d82a84db99d1170bec2ae" id="r_abec6a9ab819d82a84db99d1170bec2ae"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abec6a9ab819d82a84db99d1170bec2ae">MR_getIncidentVerts_3_const_MR_UndirectedEdgeBitSet_ptr</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *edges, <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *store)</td></tr>
+<tr class="separator:abec6a9ab819d82a84db99d1170bec2ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9790e2e7d211cda5b9c887595d935c1c" id="r_a9790e2e7d211cda5b9c887595d935c1c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9790e2e7d211cda5b9c887595d935c1c">MR_getInnerVerts_MR_UndirectedEdgeBitSet</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *edges)</td></tr>
+<tr class="separator:a9790e2e7d211cda5b9c887595d935c1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a0ab67259585b94fe4f3e06c70ba102f3" name="a0ab67259585b94fe4f3e06c70ba102f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ab67259585b94fe4f3e06c70ba102f3">&#9670;&#160;</a></span>MR_EdgeBitSet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRBitSet_8h.html#a0ab67259585b94fe4f3e06c70ba102f3">MR_EdgeBitSet</a> <a class="el" href="MRBitSet_8h.html#a0ab67259585b94fe4f3e06c70ba102f3">MR_EdgeBitSet</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aba7bc6ac732c34fd4721c543fa3445ea" name="aba7bc6ac732c34fd4721c543fa3445ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba7bc6ac732c34fd4721c543fa3445ea">&#9670;&#160;</a></span>MR_FaceBitSet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a31b172f68efca6438544d56eb86d6f40" name="a31b172f68efca6438544d56eb86d6f40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31b172f68efca6438544d56eb86d6f40">&#9670;&#160;</a></span>MR_Mesh</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad396cf7d4433c5ba7924776f5b379c9b" name="ad396cf7d4433c5ba7924776f5b379c9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad396cf7d4433c5ba7924776f5b379c9b">&#9670;&#160;</a></span>MR_MeshTopology</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa2cb99914308eb7429fd11738cf79483" name="aa2cb99914308eb7429fd11738cf79483"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2cb99914308eb7429fd11738cf79483">&#9670;&#160;</a></span>MR_std_vector_MR_EdgeId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRContoursStitch_8h.html#aa2cb99914308eb7429fd11738cf79483">MR_std_vector_MR_EdgeId</a> <a class="el" href="MRContoursStitch_8h.html#aa2cb99914308eb7429fd11738cf79483">MR_std_vector_MR_EdgeId</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab5de264b6065dbf84f6b3fa0f6530592" name="ab5de264b6065dbf84f6b3fa0f6530592"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5de264b6065dbf84f6b3fa0f6530592">&#9670;&#160;</a></span>MR_std_vector_std_vector_MR_EdgeId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MR2DContoursTriangulation_8h.html#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a> <a class="el" href="MR2DContoursTriangulation_8h.html#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac7f59a6736b29701d7e619412b6e2890" name="ac7f59a6736b29701d7e619412b6e2890"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7f59a6736b29701d7e619412b6e2890">&#9670;&#160;</a></span>MR_UndirectedEdgeBitSet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3df50e76b078a1626dd994e1df803764" name="a3df50e76b078a1626dd994e1df803764"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3df50e76b078a1626dd994e1df803764">&#9670;&#160;</a></span>MR_VertBitSet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="af47af0fe29e10853bdb24f367bbf6ee8" name="af47af0fe29e10853bdb24f367bbf6ee8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af47af0fe29e10853bdb24f367bbf6ee8">&#9670;&#160;</a></span>MR_delRegionKeepBd_const_MR_FaceBitSet_ptr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MR2DContoursTriangulation_8h.html#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a> * MR_delRegionKeepBd_const_MR_FaceBitSet_ptr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>region</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool *</td>          <td class="paramname"><span class="paramname"><em>keepLoneHoles</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>deletes all region faces, inner edges and vertices, but keeps boundary edges and vertices of the region (or whole mesh if region is null); if <code>keepLoneHoles</code> is set - keeps boundary even if it has no valid faces on other side returns edge loops, each having deleted region faces on the left, and not-region faces or holes on the right Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#adacfce1ed3976c8879c40d3eb35423cf">MR::delRegionKeepBd</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>region</code> defaults to a null pointer in C++. Parameter <code>keepLoneHoles</code> has a default argument: <code>false</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__std__vector__MR__EdgeId_8h.html#aeef24721eeb11c2c74a8c0804ad4f104" title="Destroys a heap-allocated instance of MR_std_vector_std_vector_MR_EdgeId. Does nothing if the pointer...">MR_std_vector_std_vector_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a7c4e3ce9cceb3e75eaf8399132673906" name="a7c4e3ce9cceb3e75eaf8399132673906"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c4e3ce9cceb3e75eaf8399132673906">&#9670;&#160;</a></span>MR_delRegionKeepBd_MR_FaceBitSet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MR2DContoursTriangulation_8h.html#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a> * MR_delRegionKeepBd_MR_FaceBitSet </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>region</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool *</td>          <td class="paramname"><span class="paramname"><em>keepLoneHoles</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#adacfce1ed3976c8879c40d3eb35423cf">MR::delRegionKeepBd</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>region</code> can not be null. Parameter <code>keepLoneHoles</code> has a default argument: <code>false</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__std__vector__MR__EdgeId_8h.html#aeef24721eeb11c2c74a8c0804ad4f104" title="Destroys a heap-allocated instance of MR_std_vector_std_vector_MR_EdgeId. Does nothing if the pointer...">MR_std_vector_std_vector_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="af859bbcc04c3e1d92542f52f98f12309" name="af859bbcc04c3e1d92542f52f98f12309"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af859bbcc04c3e1d92542f52f98f12309">&#9670;&#160;</a></span>MR_findLeftBoundary_const_MR_FaceBitSet_ptr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MR2DContoursTriangulation_8h.html#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a> * MR_findLeftBoundary_const_MR_FaceBitSet_ptr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>region</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns all region boundary loops; every loop has region faces on the left, and not-region faces or holes on the right Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a1fc4b7cc580d42260b45c0af3ff2fd12">MR::findLeftBoundary</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>region</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__std__vector__MR__EdgeId_8h.html#aeef24721eeb11c2c74a8c0804ad4f104" title="Destroys a heap-allocated instance of MR_std_vector_std_vector_MR_EdgeId. Does nothing if the pointer...">MR_std_vector_std_vector_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ac74c1ff261d881cea8fe67e9bf9b5685" name="ac74c1ff261d881cea8fe67e9bf9b5685"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac74c1ff261d881cea8fe67e9bf9b5685">&#9670;&#160;</a></span>MR_findLeftBoundary_MR_FaceBitSet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MR2DContoursTriangulation_8h.html#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a> * MR_findLeftBoundary_MR_FaceBitSet </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>region</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a1fc4b7cc580d42260b45c0af3ff2fd12">MR::findLeftBoundary</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>region</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__std__vector__MR__EdgeId_8h.html#aeef24721eeb11c2c74a8c0804ad4f104" title="Destroys a heap-allocated instance of MR_std_vector_std_vector_MR_EdgeId. Does nothing if the pointer...">MR_std_vector_std_vector_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a4c48be4de5fd9bb6cd1c1cdfc214ebef" name="a4c48be4de5fd9bb6cd1c1cdfc214ebef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c48be4de5fd9bb6cd1c1cdfc214ebef">&#9670;&#160;</a></span>MR_findLeftBoundaryInsideMesh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MR2DContoursTriangulation_8h.html#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a> * MR_findLeftBoundaryInsideMesh </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>region</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns all region boundary paths; every path has region faces on the left, and valid not-region faces on the right Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#ae00243e83bb9017aa03fcb42bd7f524d">MR::findLeftBoundaryInsideMesh</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>region</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__std__vector__MR__EdgeId_8h.html#aeef24721eeb11c2c74a8c0804ad4f104" title="Destroys a heap-allocated instance of MR_std_vector_std_vector_MR_EdgeId. Does nothing if the pointer...">MR_std_vector_std_vector_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a3fc2c864f51739bc04f5c0c0441f20d0" name="a3fc2c864f51739bc04f5c0c0441f20d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3fc2c864f51739bc04f5c0c0441f20d0">&#9670;&#160;</a></span>MR_findRegionBoundaryUndirectedEdgesInsideMesh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> * MR_findRegionBoundaryUndirectedEdgesInsideMesh </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>region</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns all region boundary edges, where each edge has a region face on one side, and a valid not-region face on another side Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#acb8bc789d5f982acca80ec85c34cfca6">MR::findRegionBoundaryUndirectedEdgesInsideMesh</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>region</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a5f5b1d2e5d4d71fe8be1eddbe649ca16" title="Destroys a heap-allocated instance of MR_UndirectedEdgeBitSet. Does nothing if the pointer is null.">MR_UndirectedEdgeBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a5e74514392a6d690b257c9532d2b9166" name="a5e74514392a6d690b257c9532d2b9166"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e74514392a6d690b257c9532d2b9166">&#9670;&#160;</a></span>MR_findRegionOuterFaces()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> * MR_findRegionOuterFaces </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>region</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>All out of region faces that have a common edge with at least one region face Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab80626">MR::findRegionOuterFaces</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>region</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a4ebdc52390d331e5313d029ce55682ab" title="Destroys a heap-allocated instance of MR_FaceBitSet. Does nothing if the pointer is null.">MR_FaceBitSet_Destroy()</a></code> to free it when you're done using it. </dd></dl>
+
+</div>
+</div>
+<a id="a995953be5b945b164addbe2d710f438f" name="a995953be5b945b164addbe2d710f438f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a995953be5b945b164addbe2d710f438f">&#9670;&#160;</a></span>MR_findRightBoundary_const_MR_FaceBitSet_ptr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MR2DContoursTriangulation_8h.html#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a> * MR_findRightBoundary_const_MR_FaceBitSet_ptr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>region</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns all region boundary loops; every loop has region faces on the right, and not-region faces or holes on the left Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a25514d4f7efbcece3bf2daa5fa1bff62">MR::findRightBoundary</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>region</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__std__vector__MR__EdgeId_8h.html#aeef24721eeb11c2c74a8c0804ad4f104" title="Destroys a heap-allocated instance of MR_std_vector_std_vector_MR_EdgeId. Does nothing if the pointer...">MR_std_vector_std_vector_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a01b6abe6f484ffeab24e6dd97543aa77" name="a01b6abe6f484ffeab24e6dd97543aa77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01b6abe6f484ffeab24e6dd97543aa77">&#9670;&#160;</a></span>MR_findRightBoundary_MR_FaceBitSet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MR2DContoursTriangulation_8h.html#ab5de264b6065dbf84f6b3fa0f6530592">MR_std_vector_std_vector_MR_EdgeId</a> * MR_findRightBoundary_MR_FaceBitSet </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>region</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a25514d4f7efbcece3bf2daa5fa1bff62">MR::findRightBoundary</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>region</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__std__vector__MR__EdgeId_8h.html#aeef24721eeb11c2c74a8c0804ad4f104" title="Destroys a heap-allocated instance of MR_std_vector_std_vector_MR_EdgeId. Does nothing if the pointer...">MR_std_vector_std_vector_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a1da9b9cfff9aa16ba01a199d99096701" name="a1da9b9cfff9aa16ba01a199d99096701"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1da9b9cfff9aa16ba01a199d99096701">&#9670;&#160;</a></span>MR_getBoundaryVerts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> * MR_getBoundaryVerts </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>region</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>composes the set of all boundary vertices for given region (or whole mesh if !region) Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a2ea3516bc5bd31a954ef5cea5edd4ae5">MR::getBoundaryVerts</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>region</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#af27f6187810c8a81eb376ac7513aea76" title="Destroys a heap-allocated instance of MR_VertBitSet. Does nothing if the pointer is null.">MR_VertBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ae9d09c1b257f748f176f475bffcee7b7" name="ae9d09c1b257f748f176f475bffcee7b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9d09c1b257f748f176f475bffcee7b7">&#9670;&#160;</a></span>MR_getIncidentEdges_MR_FaceBitSet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> * MR_getIncidentEdges_MR_FaceBitSet </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>faces</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>composes the set of all undirected edges, having a face from given set from one of two sides Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a917717848776c5bef68005e7fbdf24ff">MR::getIncidentEdges</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>faces</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a5f5b1d2e5d4d71fe8be1eddbe649ca16" title="Destroys a heap-allocated instance of MR_UndirectedEdgeBitSet. Does nothing if the pointer is null.">MR_UndirectedEdgeBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="af211e7bdfe425bcd2bcd20da58b0e069" name="af211e7bdfe425bcd2bcd20da58b0e069"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af211e7bdfe425bcd2bcd20da58b0e069">&#9670;&#160;</a></span>MR_getIncidentEdges_MR_UndirectedEdgeBitSet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> * MR_getIncidentEdges_MR_UndirectedEdgeBitSet </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>edges</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>composes the set of all undirected edges, having at least one common vertex with an edge from given set Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a917717848776c5bef68005e7fbdf24ff">MR::getIncidentEdges</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>edges</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a5f5b1d2e5d4d71fe8be1eddbe649ca16" title="Destroys a heap-allocated instance of MR_UndirectedEdgeBitSet. Does nothing if the pointer is null.">MR_UndirectedEdgeBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="aa9f1d48a7e228d7b5dfee3036db30cb3" name="aa9f1d48a7e228d7b5dfee3036db30cb3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9f1d48a7e228d7b5dfee3036db30cb3">&#9670;&#160;</a></span>MR_getIncidentFaces_MR_UndirectedEdgeBitSet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> * MR_getIncidentFaces_MR_UndirectedEdgeBitSet </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>edges</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>composes the set of all faces incident to given edges Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a1c01820370782b8d802d74ce6d038985">MR::getIncidentFaces</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>edges</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a4ebdc52390d331e5313d029ce55682ab" title="Destroys a heap-allocated instance of MR_FaceBitSet. Does nothing if the pointer is null.">MR_FaceBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="afed13e0b82762d877a491d6dd7771f84" name="afed13e0b82762d877a491d6dd7771f84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afed13e0b82762d877a491d6dd7771f84">&#9670;&#160;</a></span>MR_getIncidentFaces_MR_VertBitSet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> * MR_getIncidentFaces_MR_VertBitSet </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>verts</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>composes the set of all faces incident to given vertices Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a1c01820370782b8d802d74ce6d038985">MR::getIncidentFaces</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>verts</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a4ebdc52390d331e5313d029ce55682ab" title="Destroys a heap-allocated instance of MR_FaceBitSet. Does nothing if the pointer is null.">MR_FaceBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ac96a00beebdbe13f883a4136ea332c19" name="ac96a00beebdbe13f883a4136ea332c19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac96a00beebdbe13f883a4136ea332c19">&#9670;&#160;</a></span>MR_getIncidentVerts_2_MR_FaceBitSet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> * MR_getIncidentVerts_2_MR_FaceBitSet </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>faces</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>composes the set of all vertices incident to given faces Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a42bfb820a74ca491a32df3c3c86c8053">MR::getIncidentVerts</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>faces</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#af27f6187810c8a81eb376ac7513aea76" title="Destroys a heap-allocated instance of MR_VertBitSet. Does nothing if the pointer is null.">MR_VertBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ac8b18564b7aa49bcca920b5f6ef1bfee" name="ac8b18564b7aa49bcca920b5f6ef1bfee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8b18564b7aa49bcca920b5f6ef1bfee">&#9670;&#160;</a></span>MR_getIncidentVerts_2_MR_UndirectedEdgeBitSet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> * MR_getIncidentVerts_2_MR_UndirectedEdgeBitSet </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>edges</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>composes the set of all vertices incident to given edges Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a42bfb820a74ca491a32df3c3c86c8053">MR::getIncidentVerts</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>edges</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#af27f6187810c8a81eb376ac7513aea76" title="Destroys a heap-allocated instance of MR_VertBitSet. Does nothing if the pointer is null.">MR_VertBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a41b20dcd6b4dc832c0947f4126ac08ac" name="a41b20dcd6b4dc832c0947f4126ac08ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41b20dcd6b4dc832c0947f4126ac08ac">&#9670;&#160;</a></span>MR_getIncidentVerts_3_const_MR_FaceBitSet_ptr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> * MR_getIncidentVerts_3_const_MR_FaceBitSet_ptr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>faces</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>store</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if faces-parameter is null pointer then simply returns the reference on all valid vertices; otherwise performs store = getIncidentVerts( topology, *faces ) and returns reference on store Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a42bfb820a74ca491a32df3c3c86c8053">MR::getIncidentVerts</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>store</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="abec6a9ab819d82a84db99d1170bec2ae" name="abec6a9ab819d82a84db99d1170bec2ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abec6a9ab819d82a84db99d1170bec2ae">&#9670;&#160;</a></span>MR_getIncidentVerts_3_const_MR_UndirectedEdgeBitSet_ptr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> * MR_getIncidentVerts_3_const_MR_UndirectedEdgeBitSet_ptr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>edges</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>store</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if edges-parameter is null pointer then simply returns the reference on all valid vertices; otherwise performs store = getIncidentVerts( topology, *edges ) and returns reference on store Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a42bfb820a74ca491a32df3c3c86c8053">MR::getIncidentVerts</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>store</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a81288e34a773b260db37d1a4470de3e6" name="a81288e34a773b260db37d1a4470de3e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81288e34a773b260db37d1a4470de3e6">&#9670;&#160;</a></span>MR_getInnerEdges_MR_FaceBitSet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> * MR_getInnerEdges_MR_FaceBitSet </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>region</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>composes the set of all edges having both left and right in given region Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#afadfa7c61c73e9a699449d9a2828496d">MR::getInnerEdges</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>region</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a5f5b1d2e5d4d71fe8be1eddbe649ca16" title="Destroys a heap-allocated instance of MR_UndirectedEdgeBitSet. Does nothing if the pointer is null.">MR_UndirectedEdgeBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a45b8804bc6ef191e181f090cad61b2c0" name="a45b8804bc6ef191e181f090cad61b2c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45b8804bc6ef191e181f090cad61b2c0">&#9670;&#160;</a></span>MR_getInnerEdges_MR_VertBitSet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> * MR_getInnerEdges_MR_VertBitSet </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>verts</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>composes the set of all edges with all their vertices in given set Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#afadfa7c61c73e9a699449d9a2828496d">MR::getInnerEdges</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>verts</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a5f5b1d2e5d4d71fe8be1eddbe649ca16" title="Destroys a heap-allocated instance of MR_UndirectedEdgeBitSet. Does nothing if the pointer is null.">MR_UndirectedEdgeBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a3cf2e4e5eb3d786d8fbd2e705041142d" name="a3cf2e4e5eb3d786d8fbd2e705041142d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3cf2e4e5eb3d786d8fbd2e705041142d">&#9670;&#160;</a></span>MR_getInnerFaces()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> * MR_getInnerFaces </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>verts</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>composes the set of all faces with all their vertices in given set Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a4d3bc72716887b5d9dfa102464142635">MR::getInnerFaces</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>verts</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a4ebdc52390d331e5313d029ce55682ab" title="Destroys a heap-allocated instance of MR_FaceBitSet. Does nothing if the pointer is null.">MR_FaceBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ab202fa0b71f3ab7b7ba62ad83d94a156" name="ab202fa0b71f3ab7b7ba62ad83d94a156"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab202fa0b71f3ab7b7ba62ad83d94a156">&#9670;&#160;</a></span>MR_getInnerVerts_const_MR_FaceBitSet_ptr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> * MR_getInnerVerts_const_MR_FaceBitSet_ptr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>region</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>composes the set of all vertices not on the boundary of a hole and with all their adjacent faces in given set Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#aac11bef9a8e5379d5e2c001e26299317">MR::getInnerVerts</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>region</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#af27f6187810c8a81eb376ac7513aea76" title="Destroys a heap-allocated instance of MR_VertBitSet. Does nothing if the pointer is null.">MR_VertBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a0981827febc2aec7fcd4a638b62e4d16" name="a0981827febc2aec7fcd4a638b62e4d16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0981827febc2aec7fcd4a638b62e4d16">&#9670;&#160;</a></span>MR_getInnerVerts_MR_FaceBitSet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> * MR_getInnerVerts_MR_FaceBitSet </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>region</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>composes the set of all vertices not on the boundary of a hole and with all their adjacent faces in given set Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#aac11bef9a8e5379d5e2c001e26299317">MR::getInnerVerts</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>region</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#af27f6187810c8a81eb376ac7513aea76" title="Destroys a heap-allocated instance of MR_VertBitSet. Does nothing if the pointer is null.">MR_VertBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a9790e2e7d211cda5b9c887595d935c1c" name="a9790e2e7d211cda5b9c887595d935c1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9790e2e7d211cda5b9c887595d935c1c">&#9670;&#160;</a></span>MR_getInnerVerts_MR_UndirectedEdgeBitSet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> * MR_getInnerVerts_MR_UndirectedEdgeBitSet </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>edges</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>composes the set of all vertices with all their edges in given set Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#aac11bef9a8e5379d5e2c001e26299317">MR::getInnerVerts</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>edges</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#af27f6187810c8a81eb376ac7513aea76" title="Destroys a heap-allocated instance of MR_VertBitSet. Does nothing if the pointer is null.">MR_VertBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a9925fb85f523c534f2c493446a49224b" name="a9925fb85f523c534f2c493446a49224b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9925fb85f523c534f2c493446a49224b">&#9670;&#160;</a></span>MR_getNeighborFaces()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> * MR_getNeighborFaces </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>edges</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>composes the set of all left and right faces of given edges Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#aebdf2a05f88c6e14134e0029a8aa0cda">MR::getNeighborFaces</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>edges</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a4ebdc52390d331e5313d029ce55682ab" title="Destroys a heap-allocated instance of MR_FaceBitSet. Does nothing if the pointer is null.">MR_FaceBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ae57ddc8ac6663dd6ff295ae87563894b" name="ae57ddc8ac6663dd6ff295ae87563894b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae57ddc8ac6663dd6ff295ae87563894b">&#9670;&#160;</a></span>MR_getRegionBoundaryVerts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> * MR_getRegionBoundaryVerts </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>region</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>composes the set of all boundary vertices for given region, unlike getBoundaryVerts the vertices of mesh boundary having no incident not-region faces are not returned Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a00473b872f5242451db75ba1ba87b378">MR::getRegionBoundaryVerts</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>region</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#af27f6187810c8a81eb376ac7513aea76" title="Destroys a heap-allocated instance of MR_VertBitSet. Does nothing if the pointer is null.">MR_VertBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a5a662031c498a11646473af948cb07cf" name="a5a662031c498a11646473af948cb07cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a662031c498a11646473af948cb07cf">&#9670;&#160;</a></span>MR_getRegionEdges()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBitSet_8h.html#a0ab67259585b94fe4f3e06c70ba102f3">MR_EdgeBitSet</a> * MR_getRegionEdges </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>faces</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>composes the set of all edges, having a face from given set at the left Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#ad236300492a56bcb9401d780f9a30acf">MR::getRegionEdges</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>faces</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a9c02438faafb5b467654055dff8238ac" title="Destroys a heap-allocated instance of MR_EdgeBitSet. Does nothing if the pointer is null.">MR_EdgeBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ab30596ddc03ad05aa8db744656f03033" name="ab30596ddc03ad05aa8db744656f03033"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab30596ddc03ad05aa8db744656f03033">&#9670;&#160;</a></span>MR_trackLeftBoundaryLoop_MR_EdgeId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRContoursStitch_8h.html#aa2cb99914308eb7429fd11738cf79483">MR_std_vector_MR_EdgeId</a> * MR_trackLeftBoundaryLoop_MR_EdgeId </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__EdgeId.html">MR_EdgeId</a></td>          <td class="paramname"><span class="paramname"><em>e0</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>region</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns closed loop of region boundary starting from given region boundary edge (region faces on the left, and not-region faces or holes on the right); if more than two boundary edges connect in one vertex, then the function makes the most abrupt turn to right Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a0deb53e0a4ba2c6305e86e1874919f11">MR::trackLeftBoundaryLoop</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>region</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__EdgeId_8h.html#aff32903925f94225f0f7bb9e860a3e5e" title="Destroys a heap-allocated instance of MR_std_vector_MR_EdgeId. Does nothing if the pointer is null.">MR_std_vector_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="aefb14d87f9ee965972b1e18fcedbe10b" name="aefb14d87f9ee965972b1e18fcedbe10b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefb14d87f9ee965972b1e18fcedbe10b">&#9670;&#160;</a></span>MR_trackLeftBoundaryLoop_MR_FaceBitSet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRContoursStitch_8h.html#aa2cb99914308eb7429fd11738cf79483">MR_std_vector_MR_EdgeId</a> * MR_trackLeftBoundaryLoop_MR_FaceBitSet </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>region</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__EdgeId.html">MR_EdgeId</a></td>          <td class="paramname"><span class="paramname"><em>e0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a0deb53e0a4ba2c6305e86e1874919f11">MR::trackLeftBoundaryLoop</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>region</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__EdgeId_8h.html#aff32903925f94225f0f7bb9e860a3e5e" title="Destroys a heap-allocated instance of MR_std_vector_MR_EdgeId. Does nothing if the pointer is null.">MR_std_vector_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a3c5c104492c5f050394cdf51afa7f25c" name="a3c5c104492c5f050394cdf51afa7f25c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c5c104492c5f050394cdf51afa7f25c">&#9670;&#160;</a></span>MR_trackRightBoundaryLoop_MR_EdgeId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRContoursStitch_8h.html#aa2cb99914308eb7429fd11738cf79483">MR_std_vector_MR_EdgeId</a> * MR_trackRightBoundaryLoop_MR_EdgeId </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__EdgeId.html">MR_EdgeId</a></td>          <td class="paramname"><span class="paramname"><em>e0</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>region</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns closed loop of region boundary starting from given region boundary edge (region faces on the right, and not-region faces or holes on the left); if more than two boundary edges connect in one vertex, then the function makes the most abrupt turn to left Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a10723dc5e9c17648ce207691c6c0f547">MR::trackRightBoundaryLoop</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>region</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__EdgeId_8h.html#aff32903925f94225f0f7bb9e860a3e5e" title="Destroys a heap-allocated instance of MR_std_vector_MR_EdgeId. Does nothing if the pointer is null.">MR_std_vector_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a9329e9c88bda9faafe1e425557dce5e6" name="a9329e9c88bda9faafe1e425557dce5e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9329e9c88bda9faafe1e425557dce5e6">&#9670;&#160;</a></span>MR_trackRightBoundaryLoop_MR_FaceBitSet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRContoursStitch_8h.html#aa2cb99914308eb7429fd11738cf79483">MR_std_vector_MR_EdgeId</a> * MR_trackRightBoundaryLoop_MR_FaceBitSet </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>region</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__EdgeId.html">MR_EdgeId</a></td>          <td class="paramname"><span class="paramname"><em>e0</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a10723dc5e9c17648ce207691c6c0f547">MR::trackRightBoundaryLoop</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>region</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__EdgeId_8h.html#aff32903925f94225f0f7bb9e860a3e5e" title="Destroys a heap-allocated instance of MR_std_vector_MR_EdgeId. Does nothing if the pointer is null.">MR_std_vector_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_87d38852fc01aff5f853718c8d8b5cb2.html">Cbindings</a></li><li class="navelem"><a class="el" href="dir_cb83f9b98dc6f67356ff76bcc17f4f67.html">MRCMesh</a></li><li class="navelem"><a class="el" href="MRRegionBoundary_8h.html">MRRegionBoundary.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,5 +1,6 @@
 var NAVTREEINDEX104 =
 {
+"classmrmeshpy_1_1VertexMass.html#aa83f684228e15f6d093227e0875f9a8e":[6,1,1,0,1,1119,9],
 "classmrmeshpy_1_1VertexMass.html#aa9f60bbfbdf4b2e4270c747d5a5529a4":[6,1,0,0,2,1119,4],
 "classmrmeshpy_1_1VertexMass.html#aa9f60bbfbdf4b2e4270c747d5a5529a4":[6,1,1,0,1,1119,4],
 "classmrmeshpy_1_1VertexMass.html#ac7219f05f84cd0c76205bc71a37492ee":[6,1,0,0,2,1119,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX104 =
 "classmrmeshpy_1_1VisualObject.html#a51881787ab04577da4acce749b1d747e":[6,1,1,0,1,1134,11],
 "classmrmeshpy_1_1VisualObject.html#a571b17c0c898d7ba22361d3acea9f511":[6,1,0,0,2,1134,36],
 "classmrmeshpy_1_1VisualObject.html#a571b17c0c898d7ba22361d3acea9f511":[6,1,1,0,1,1134,36],
-"classmrmeshpy_1_1VisualObject.html#a5e25b63c3965dc9f65f914e80f164bbd":[6,1,0,0,2,1134,48],
-"classmrmeshpy_1_1VisualObject.html#a5e25b63c3965dc9f65f914e80f164bbd":[6,1,1,0,1,1134,48]
+"classmrmeshpy_1_1VisualObject.html#a5e25b63c3965dc9f65f914e80f164bbd":[6,1,0,0,2,1134,48]
 };

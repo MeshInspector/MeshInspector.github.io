@@ -1,5 +1,6 @@
 var NAVTREEINDEX60 =
 {
+"classmrmeshpy_1_1PlanarTriangulation_1_1BaseOutlineParameters.html#ad7ce6576bef4c13edcf83d1eeb7cba99":[6,1,1,0,1,645,0,5],
 "classmrmeshpy_1_1PlanarTriangulation_1_1BaseOutlineParameters.html#aeba2dacadd4858126ef73305e61b2bc4":[6,1,0,0,2,645,0,2],
 "classmrmeshpy_1_1PlanarTriangulation_1_1BaseOutlineParameters.html#aeba2dacadd4858126ef73305e61b2bc4":[6,1,1,0,1,645,0,2],
 "classmrmeshpy_1_1PlanarTriangulation_1_1BaseOutlineParameters.html#af7fa3c9303bfffc296bce8ff9f7df868":[6,1,0,0,2,645,0,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX60 =
 "classmrmeshpy_1_1PointAccumulator.html#ab852f3d3eb749db28056dee77c3c12b6":[6,1,1,0,1,651,1],
 "classmrmeshpy_1_1PointAccumulator.html#addaac270335bd1cf623051eefa4cd65a":[6,1,0,0,2,651,11],
 "classmrmeshpy_1_1PointAccumulator.html#addaac270335bd1cf623051eefa4cd65a":[6,1,1,0,1,651,11],
-"classmrmeshpy_1_1PointAccumulator.html#ae3855e20e0beb747d1e26445717d69b2":[6,1,0,0,2,651,5],
-"classmrmeshpy_1_1PointAccumulator.html#ae3855e20e0beb747d1e26445717d69b2":[6,1,1,0,1,651,5]
+"classmrmeshpy_1_1PointAccumulator.html#ae3855e20e0beb747d1e26445717d69b2":[6,1,0,0,2,651,5]
 };

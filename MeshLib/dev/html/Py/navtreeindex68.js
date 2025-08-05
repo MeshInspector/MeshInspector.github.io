@@ -1,5 +1,6 @@
 var NAVTREEINDEX68 =
 {
+"classmrmeshpy_1_1RegionBitSet.html#adb79c2f0725c29504f972177441f9da1":[6,1,1,0,1,728,43],
 "classmrmeshpy_1_1RegionBitSet.html#adde407913076c7b8ff9fd6aacaf7460f":[6,1,0,0,2,728,4],
 "classmrmeshpy_1_1RegionBitSet.html#adde407913076c7b8ff9fd6aacaf7460f":[6,1,1,0,1,728,4],
 "classmrmeshpy_1_1RegionBitSet.html#adf402872183efd9c4c820c114c5c6f10":[6,1,0,0,2,728,20],
@@ -248,6 +249,5 @@ var NAVTREEINDEX68 =
 "classmrmeshpy_1_1ResolveMeshDegenSettings.html#a243c832d9683f3f343222119c742ab80":[6,1,1,0,1,736,9],
 "classmrmeshpy_1_1ResolveMeshDegenSettings.html#a3593dc31228e9582f9e0d94f94362e51":[6,1,0,0,2,736,3],
 "classmrmeshpy_1_1ResolveMeshDegenSettings.html#a3593dc31228e9582f9e0d94f94362e51":[6,1,1,0,1,736,3],
-"classmrmeshpy_1_1ResolveMeshDegenSettings.html#a4efadbadeba7b68701eed34d01b7f00f":[6,1,0,0,2,736,0],
-"classmrmeshpy_1_1ResolveMeshDegenSettings.html#a4efadbadeba7b68701eed34d01b7f00f":[6,1,1,0,1,736,0]
+"classmrmeshpy_1_1ResolveMeshDegenSettings.html#a4efadbadeba7b68701eed34d01b7f00f":[6,1,0,0,2,736,0]
 };

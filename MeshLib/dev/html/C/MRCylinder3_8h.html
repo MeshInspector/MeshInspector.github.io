@@ -1,0 +1,1316 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: MRCylinder3.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('MRCylinder3_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">MRCylinder3.h File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
+</div>
+<p><a href="MRCylinder3_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:ac137600e53e2a5c6efea3c61034a1a95" id="r_ac137600e53e2a5c6efea3c61034a1a95"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRBestFit_8h.html#ac137600e53e2a5c6efea3c61034a1a95">MR_Line3d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac137600e53e2a5c6efea3c61034a1a95">MR_Line3d</a></td></tr>
+<tr class="separator:ac137600e53e2a5c6efea3c61034a1a95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca1d803422d4caa25c56d04a67efbc52" id="r_aca1d803422d4caa25c56d04a67efbc52"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRBestFit_8h.html#aca1d803422d4caa25c56d04a67efbc52">MR_Line3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aca1d803422d4caa25c56d04a67efbc52">MR_Line3f</a></td></tr>
+<tr class="separator:aca1d803422d4caa25c56d04a67efbc52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6b35c703a4572c3ccc120ee82723a66" id="r_aa6b35c703a4572c3ccc120ee82723a66"><td class="memItemLeft" align="right" valign="top">typedef struct MR_Vector3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6b35c703a4572c3ccc120ee82723a66">MR_Vector3d</a></td></tr>
+<tr class="separator:aa6b35c703a4572c3ccc120ee82723a66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bf133eda1ec95be202b77c33412bc8e" id="r_a6bf133eda1ec95be202b77c33412bc8e"><td class="memItemLeft" align="right" valign="top">typedef struct MR_Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6bf133eda1ec95be202b77c33412bc8e">MR_Vector3f</a></td></tr>
+<tr class="separator:a6bf133eda1ec95be202b77c33412bc8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c5f105c6381a1539730147b6aba3709" id="r_a0c5f105c6381a1539730147b6aba3709"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a0c5f105c6381a1539730147b6aba3709">MR_Cylinder3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c5f105c6381a1539730147b6aba3709">MR_Cylinder3f</a></td></tr>
+<tr class="memdesc:a0c5f105c6381a1539730147b6aba3709"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="elRef" href="../Cpp/namespaceMR.html#a1e1eeb9ec9e53f13003c0882dc66eaef">MR::Cylinder3f</a></code>.  <br /></td></tr>
+<tr class="separator:a0c5f105c6381a1539730147b6aba3709"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d1b221eca1c0b5750d2ca9dedce3ad6" id="r_a9d1b221eca1c0b5750d2ca9dedce3ad6"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a></td></tr>
+<tr class="memdesc:a9d1b221eca1c0b5750d2ca9dedce3ad6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code>MR::Cylinder3d</code>.  <br /></td></tr>
+<tr class="separator:a9d1b221eca1c0b5750d2ca9dedce3ad6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a8544a3e2d1ec17590bbee4d0d80e8425" id="r_a8544a3e2d1ec17590bbee4d0d80e8425"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRBestFit_8h.html#aca1d803422d4caa25c56d04a67efbc52">MR_Line3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8544a3e2d1ec17590bbee4d0d80e8425">MR_Cylinder3f_Get_mainAxis</a> (const <a class="el" href="#a0c5f105c6381a1539730147b6aba3709">MR_Cylinder3f</a> *_this)</td></tr>
+<tr class="separator:a8544a3e2d1ec17590bbee4d0d80e8425"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7162ebec09fb9b5488bffd0b752c6682" id="r_a7162ebec09fb9b5488bffd0b752c6682"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7162ebec09fb9b5488bffd0b752c6682">MR_Cylinder3f_Set_mainAxis</a> (<a class="el" href="#a0c5f105c6381a1539730147b6aba3709">MR_Cylinder3f</a> *_this, const <a class="el" href="MRBestFit_8h.html#aca1d803422d4caa25c56d04a67efbc52">MR_Line3f</a> *value)</td></tr>
+<tr class="separator:a7162ebec09fb9b5488bffd0b752c6682"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a348b2f72c4b3e09ea19c05707f8b8cf2" id="r_a348b2f72c4b3e09ea19c05707f8b8cf2"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBestFit_8h.html#aca1d803422d4caa25c56d04a67efbc52">MR_Line3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a348b2f72c4b3e09ea19c05707f8b8cf2">MR_Cylinder3f_GetMutable_mainAxis</a> (<a class="el" href="#a0c5f105c6381a1539730147b6aba3709">MR_Cylinder3f</a> *_this)</td></tr>
+<tr class="separator:a348b2f72c4b3e09ea19c05707f8b8cf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d0bf2dc5d8fe80257782e7b14795488" id="r_a5d0bf2dc5d8fe80257782e7b14795488"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d0bf2dc5d8fe80257782e7b14795488">MR_Cylinder3f_Get_radius</a> (const <a class="el" href="#a0c5f105c6381a1539730147b6aba3709">MR_Cylinder3f</a> *_this)</td></tr>
+<tr class="separator:a5d0bf2dc5d8fe80257782e7b14795488"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafb86f71c09763f9f0ce3d001895c000" id="r_aafb86f71c09763f9f0ce3d001895c000"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aafb86f71c09763f9f0ce3d001895c000">MR_Cylinder3f_Set_radius</a> (<a class="el" href="#a0c5f105c6381a1539730147b6aba3709">MR_Cylinder3f</a> *_this, float value)</td></tr>
+<tr class="separator:aafb86f71c09763f9f0ce3d001895c000"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f00226fd2d2c73f238c0e691146c9a6" id="r_a5f00226fd2d2c73f238c0e691146c9a6"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f00226fd2d2c73f238c0e691146c9a6">MR_Cylinder3f_GetMutable_radius</a> (<a class="el" href="#a0c5f105c6381a1539730147b6aba3709">MR_Cylinder3f</a> *_this)</td></tr>
+<tr class="separator:a5f00226fd2d2c73f238c0e691146c9a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0d07f86013b4f797aca0498b4036385" id="r_ab0d07f86013b4f797aca0498b4036385"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0d07f86013b4f797aca0498b4036385">MR_Cylinder3f_Get_length</a> (const <a class="el" href="#a0c5f105c6381a1539730147b6aba3709">MR_Cylinder3f</a> *_this)</td></tr>
+<tr class="separator:ab0d07f86013b4f797aca0498b4036385"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6042d6e78b1a5a8ac2235b314120b4ae" id="r_a6042d6e78b1a5a8ac2235b314120b4ae"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6042d6e78b1a5a8ac2235b314120b4ae">MR_Cylinder3f_Set_length</a> (<a class="el" href="#a0c5f105c6381a1539730147b6aba3709">MR_Cylinder3f</a> *_this, float value)</td></tr>
+<tr class="separator:a6042d6e78b1a5a8ac2235b314120b4ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a579cb51807cbaa76383beca620f51410" id="r_a579cb51807cbaa76383beca620f51410"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a579cb51807cbaa76383beca620f51410">MR_Cylinder3f_GetMutable_length</a> (<a class="el" href="#a0c5f105c6381a1539730147b6aba3709">MR_Cylinder3f</a> *_this)</td></tr>
+<tr class="separator:a579cb51807cbaa76383beca620f51410"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8fc6abb69c7460d2d0a5cdf49fbe16c2" id="r_a8fc6abb69c7460d2d0a5cdf49fbe16c2"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0c5f105c6381a1539730147b6aba3709">MR_Cylinder3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8fc6abb69c7460d2d0a5cdf49fbe16c2">MR_Cylinder3f_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a8fc6abb69c7460d2d0a5cdf49fbe16c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7bb0cd061f659438a73acddf52712ac6" id="r_a7bb0cd061f659438a73acddf52712ac6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0c5f105c6381a1539730147b6aba3709">MR_Cylinder3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7bb0cd061f659438a73acddf52712ac6">MR_Cylinder3f_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a7bb0cd061f659438a73acddf52712ac6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab903a09bc51baf93a83c911b065ba1f6" id="r_ab903a09bc51baf93a83c911b065ba1f6"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a0c5f105c6381a1539730147b6aba3709">MR_Cylinder3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab903a09bc51baf93a83c911b065ba1f6">MR_Cylinder3f_OffsetPtr</a> (const <a class="el" href="#a0c5f105c6381a1539730147b6aba3709">MR_Cylinder3f</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:ab903a09bc51baf93a83c911b065ba1f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:ab903a09bc51baf93a83c911b065ba1f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53e9d6b9e04c77ef589dfb81639fd159" id="r_a53e9d6b9e04c77ef589dfb81639fd159"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0c5f105c6381a1539730147b6aba3709">MR_Cylinder3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a53e9d6b9e04c77ef589dfb81639fd159">MR_Cylinder3f_OffsetMutablePtr</a> (<a class="el" href="#a0c5f105c6381a1539730147b6aba3709">MR_Cylinder3f</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a53e9d6b9e04c77ef589dfb81639fd159"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a53e9d6b9e04c77ef589dfb81639fd159"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afcdb60a83e6e6f1b8331162c004efe1f" id="r_afcdb60a83e6e6f1b8331162c004efe1f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0c5f105c6381a1539730147b6aba3709">MR_Cylinder3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afcdb60a83e6e6f1b8331162c004efe1f">MR_Cylinder3f_ConstructFromAnother</a> (const <a class="el" href="#a0c5f105c6381a1539730147b6aba3709">MR_Cylinder3f</a> *_other)</td></tr>
+<tr class="separator:afcdb60a83e6e6f1b8331162c004efe1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66fbe3d1d0e55b8d6e5acce9a373ae3e" id="r_a66fbe3d1d0e55b8d6e5acce9a373ae3e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0c5f105c6381a1539730147b6aba3709">MR_Cylinder3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66fbe3d1d0e55b8d6e5acce9a373ae3e">MR_Cylinder3f_Construct_4</a> (const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *inCenter, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *inDirectoin, float inRadius, float inLength)</td></tr>
+<tr class="separator:a66fbe3d1d0e55b8d6e5acce9a373ae3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91ac0b911d91be008209a9cd9646f2d7" id="r_a91ac0b911d91be008209a9cd9646f2d7"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0c5f105c6381a1539730147b6aba3709">MR_Cylinder3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91ac0b911d91be008209a9cd9646f2d7">MR_Cylinder3f_Construct_3</a> (const <a class="el" href="MRBestFit_8h.html#aca1d803422d4caa25c56d04a67efbc52">MR_Line3f</a> *inAxis, float inRadius, float inLength)</td></tr>
+<tr class="separator:a91ac0b911d91be008209a9cd9646f2d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02a7f692713dc561ea61030a1cafaae9" id="r_a02a7f692713dc561ea61030a1cafaae9"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a02a7f692713dc561ea61030a1cafaae9">MR_Cylinder3f_Destroy</a> (const <a class="el" href="#a0c5f105c6381a1539730147b6aba3709">MR_Cylinder3f</a> *_this)</td></tr>
+<tr class="memdesc:a02a7f692713dc561ea61030a1cafaae9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_Cylinder3f</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a02a7f692713dc561ea61030a1cafaae9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb24498725c7dc0bd6a09394b437ba1e" id="r_afb24498725c7dc0bd6a09394b437ba1e"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afb24498725c7dc0bd6a09394b437ba1e">MR_Cylinder3f_DestroyArray</a> (const <a class="el" href="#a0c5f105c6381a1539730147b6aba3709">MR_Cylinder3f</a> *_this)</td></tr>
+<tr class="memdesc:afb24498725c7dc0bd6a09394b437ba1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_Cylinder3f</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:afb24498725c7dc0bd6a09394b437ba1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2538e1c1ea08e0749887df6d2bc7ae37" id="r_a2538e1c1ea08e0749887df6d2bc7ae37"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0c5f105c6381a1539730147b6aba3709">MR_Cylinder3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2538e1c1ea08e0749887df6d2bc7ae37">MR_Cylinder3f_AssignFromAnother</a> (<a class="el" href="#a0c5f105c6381a1539730147b6aba3709">MR_Cylinder3f</a> *_this, const <a class="el" href="#a0c5f105c6381a1539730147b6aba3709">MR_Cylinder3f</a> *_other)</td></tr>
+<tr class="separator:a2538e1c1ea08e0749887df6d2bc7ae37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a252c7158e385cb7e2c2de02124729785" id="r_a252c7158e385cb7e2c2de02124729785"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a252c7158e385cb7e2c2de02124729785">MR_Cylinder3f_center</a> (<a class="el" href="#a0c5f105c6381a1539730147b6aba3709">MR_Cylinder3f</a> *_this)</td></tr>
+<tr class="separator:a252c7158e385cb7e2c2de02124729785"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfc83b11b817debd437c159aeba899d9" id="r_acfc83b11b817debd437c159aeba899d9"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acfc83b11b817debd437c159aeba899d9">MR_Cylinder3f_center_const</a> (const <a class="el" href="#a0c5f105c6381a1539730147b6aba3709">MR_Cylinder3f</a> *_this)</td></tr>
+<tr class="separator:acfc83b11b817debd437c159aeba899d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7718e786bf438f1540d0065600c0b229" id="r_a7718e786bf438f1540d0065600c0b229"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7718e786bf438f1540d0065600c0b229">MR_Cylinder3f_direction</a> (<a class="el" href="#a0c5f105c6381a1539730147b6aba3709">MR_Cylinder3f</a> *_this)</td></tr>
+<tr class="separator:a7718e786bf438f1540d0065600c0b229"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a074e041d27d8bf4064921041777525a5" id="r_a074e041d27d8bf4064921041777525a5"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a074e041d27d8bf4064921041777525a5">MR_Cylinder3f_direction_const</a> (const <a class="el" href="#a0c5f105c6381a1539730147b6aba3709">MR_Cylinder3f</a> *_this)</td></tr>
+<tr class="separator:a074e041d27d8bf4064921041777525a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1998ceeb2d2b1c2f05213e9a91eaa475" id="r_a1998ceeb2d2b1c2f05213e9a91eaa475"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRBestFit_8h.html#ac137600e53e2a5c6efea3c61034a1a95">MR_Line3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1998ceeb2d2b1c2f05213e9a91eaa475">MR_Cylinder3d_Get_mainAxis</a> (const <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *_this)</td></tr>
+<tr class="separator:a1998ceeb2d2b1c2f05213e9a91eaa475"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1a73561ed9b8a8ccb849d5e093a6371" id="r_ae1a73561ed9b8a8ccb849d5e093a6371"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1a73561ed9b8a8ccb849d5e093a6371">MR_Cylinder3d_Set_mainAxis</a> (<a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *_this, const <a class="el" href="MRBestFit_8h.html#ac137600e53e2a5c6efea3c61034a1a95">MR_Line3d</a> *value)</td></tr>
+<tr class="separator:ae1a73561ed9b8a8ccb849d5e093a6371"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a544b30557adbc80dbec845e8151a3740" id="r_a544b30557adbc80dbec845e8151a3740"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBestFit_8h.html#ac137600e53e2a5c6efea3c61034a1a95">MR_Line3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a544b30557adbc80dbec845e8151a3740">MR_Cylinder3d_GetMutable_mainAxis</a> (<a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *_this)</td></tr>
+<tr class="separator:a544b30557adbc80dbec845e8151a3740"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32854aef6af4985f870cad926100d5f2" id="r_a32854aef6af4985f870cad926100d5f2"><td class="memItemLeft" align="right" valign="top">MRC_API const double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a32854aef6af4985f870cad926100d5f2">MR_Cylinder3d_Get_radius</a> (const <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *_this)</td></tr>
+<tr class="separator:a32854aef6af4985f870cad926100d5f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe1225e7d00b83433f3f3944f1d28938" id="r_afe1225e7d00b83433f3f3944f1d28938"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe1225e7d00b83433f3f3944f1d28938">MR_Cylinder3d_Set_radius</a> (<a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *_this, double value)</td></tr>
+<tr class="separator:afe1225e7d00b83433f3f3944f1d28938"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52bd04a26435114207e6474c80aaaa24" id="r_a52bd04a26435114207e6474c80aaaa24"><td class="memItemLeft" align="right" valign="top">MRC_API double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52bd04a26435114207e6474c80aaaa24">MR_Cylinder3d_GetMutable_radius</a> (<a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *_this)</td></tr>
+<tr class="separator:a52bd04a26435114207e6474c80aaaa24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a399f36148f43bba0697fc600a7baf1bb" id="r_a399f36148f43bba0697fc600a7baf1bb"><td class="memItemLeft" align="right" valign="top">MRC_API const double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a399f36148f43bba0697fc600a7baf1bb">MR_Cylinder3d_Get_length</a> (const <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *_this)</td></tr>
+<tr class="separator:a399f36148f43bba0697fc600a7baf1bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d2e67cf734b056946bc99457ab64d03" id="r_a9d2e67cf734b056946bc99457ab64d03"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d2e67cf734b056946bc99457ab64d03">MR_Cylinder3d_Set_length</a> (<a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *_this, double value)</td></tr>
+<tr class="separator:a9d2e67cf734b056946bc99457ab64d03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcf55a64061bf471789a293bd887c0d3" id="r_abcf55a64061bf471789a293bd887c0d3"><td class="memItemLeft" align="right" valign="top">MRC_API double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abcf55a64061bf471789a293bd887c0d3">MR_Cylinder3d_GetMutable_length</a> (<a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *_this)</td></tr>
+<tr class="separator:abcf55a64061bf471789a293bd887c0d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5340d259a1732a010792885f35ea2bb" id="r_ab5340d259a1732a010792885f35ea2bb"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5340d259a1732a010792885f35ea2bb">MR_Cylinder3d_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:ab5340d259a1732a010792885f35ea2bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a275bdbff379e73180d78cdbd3c240cad" id="r_a275bdbff379e73180d78cdbd3c240cad"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a275bdbff379e73180d78cdbd3c240cad">MR_Cylinder3d_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a275bdbff379e73180d78cdbd3c240cad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08eb5433790040caafd4d21d424e264d" id="r_a08eb5433790040caafd4d21d424e264d"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08eb5433790040caafd4d21d424e264d">MR_Cylinder3d_OffsetPtr</a> (const <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a08eb5433790040caafd4d21d424e264d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a08eb5433790040caafd4d21d424e264d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a439a18425f9c7d96fd83571842d1880b" id="r_a439a18425f9c7d96fd83571842d1880b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a439a18425f9c7d96fd83571842d1880b">MR_Cylinder3d_OffsetMutablePtr</a> (<a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a439a18425f9c7d96fd83571842d1880b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a439a18425f9c7d96fd83571842d1880b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeaf2835c8a642bd3c0c45223a6ac4aa4" id="r_aeaf2835c8a642bd3c0c45223a6ac4aa4"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeaf2835c8a642bd3c0c45223a6ac4aa4">MR_Cylinder3d_ConstructFromAnother</a> (const <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *_other)</td></tr>
+<tr class="separator:aeaf2835c8a642bd3c0c45223a6ac4aa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a37772d2071757e64670c19c52dd2eb" id="r_a1a37772d2071757e64670c19c52dd2eb"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a37772d2071757e64670c19c52dd2eb">MR_Cylinder3d_Construct_4</a> (const <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *inCenter, const <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *inDirectoin, double inRadius, double inLength)</td></tr>
+<tr class="separator:a1a37772d2071757e64670c19c52dd2eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae5b86521a8f909f9901b7c619944d4b" id="r_aae5b86521a8f909f9901b7c619944d4b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae5b86521a8f909f9901b7c619944d4b">MR_Cylinder3d_Construct_3</a> (const <a class="el" href="MRBestFit_8h.html#ac137600e53e2a5c6efea3c61034a1a95">MR_Line3d</a> *inAxis, double inRadius, double inLength)</td></tr>
+<tr class="separator:aae5b86521a8f909f9901b7c619944d4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3957a55a3fc8c56bbe5d903c8eab218e" id="r_a3957a55a3fc8c56bbe5d903c8eab218e"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3957a55a3fc8c56bbe5d903c8eab218e">MR_Cylinder3d_Destroy</a> (const <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *_this)</td></tr>
+<tr class="memdesc:a3957a55a3fc8c56bbe5d903c8eab218e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_Cylinder3d</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a3957a55a3fc8c56bbe5d903c8eab218e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8b499ea7d9ed3e8f885315bdff4199b" id="r_aa8b499ea7d9ed3e8f885315bdff4199b"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa8b499ea7d9ed3e8f885315bdff4199b">MR_Cylinder3d_DestroyArray</a> (const <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *_this)</td></tr>
+<tr class="memdesc:aa8b499ea7d9ed3e8f885315bdff4199b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_Cylinder3d</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:aa8b499ea7d9ed3e8f885315bdff4199b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77be0a859a19cabe4553a6cac2c489cd" id="r_a77be0a859a19cabe4553a6cac2c489cd"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77be0a859a19cabe4553a6cac2c489cd">MR_Cylinder3d_AssignFromAnother</a> (<a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *_this, const <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *_other)</td></tr>
+<tr class="separator:a77be0a859a19cabe4553a6cac2c489cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a0f98c7d109ef571bcc13bc03ea1d69" id="r_a1a0f98c7d109ef571bcc13bc03ea1d69"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a0f98c7d109ef571bcc13bc03ea1d69">MR_Cylinder3d_center</a> (<a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *_this)</td></tr>
+<tr class="separator:a1a0f98c7d109ef571bcc13bc03ea1d69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e0463e9040cf89604a03d536fb2451c" id="r_a5e0463e9040cf89604a03d536fb2451c"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e0463e9040cf89604a03d536fb2451c">MR_Cylinder3d_center_const</a> (const <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *_this)</td></tr>
+<tr class="separator:a5e0463e9040cf89604a03d536fb2451c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfc9e847a53652126c62e8f47a1131d3" id="r_abfc9e847a53652126c62e8f47a1131d3"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abfc9e847a53652126c62e8f47a1131d3">MR_Cylinder3d_direction</a> (<a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *_this)</td></tr>
+<tr class="separator:abfc9e847a53652126c62e8f47a1131d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb4fae5e6c53e1f0efe46b4c1b13ab87" id="r_acb4fae5e6c53e1f0efe46b4c1b13ab87"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb4fae5e6c53e1f0efe46b4c1b13ab87">MR_Cylinder3d_direction_const</a> (const <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *_this)</td></tr>
+<tr class="separator:acb4fae5e6c53e1f0efe46b4c1b13ab87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a9d1b221eca1c0b5750d2ca9dedce3ad6" name="a9d1b221eca1c0b5750d2ca9dedce3ad6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">&#9670;&#160;</a></span>MR_Cylinder3d</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Generated from class <code>MR::Cylinder3d</code>. </p>
+
+</div>
+</div>
+<a id="a0c5f105c6381a1539730147b6aba3709" name="a0c5f105c6381a1539730147b6aba3709"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c5f105c6381a1539730147b6aba3709">&#9670;&#160;</a></span>MR_Cylinder3f</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a0c5f105c6381a1539730147b6aba3709">MR_Cylinder3f</a> <a class="el" href="#a0c5f105c6381a1539730147b6aba3709">MR_Cylinder3f</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Generated from class <code><a class="elRef" href="../Cpp/namespaceMR.html#a1e1eeb9ec9e53f13003c0882dc66eaef">MR::Cylinder3f</a></code>. </p>
+
+</div>
+</div>
+<a id="ac137600e53e2a5c6efea3c61034a1a95" name="ac137600e53e2a5c6efea3c61034a1a95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac137600e53e2a5c6efea3c61034a1a95">&#9670;&#160;</a></span>MR_Line3d</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRBestFit_8h.html#ac137600e53e2a5c6efea3c61034a1a95">MR_Line3d</a> <a class="el" href="MRBestFit_8h.html#ac137600e53e2a5c6efea3c61034a1a95">MR_Line3d</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aca1d803422d4caa25c56d04a67efbc52" name="aca1d803422d4caa25c56d04a67efbc52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca1d803422d4caa25c56d04a67efbc52">&#9670;&#160;</a></span>MR_Line3f</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRBestFit_8h.html#aca1d803422d4caa25c56d04a67efbc52">MR_Line3f</a> <a class="el" href="MRBestFit_8h.html#aca1d803422d4caa25c56d04a67efbc52">MR_Line3f</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa6b35c703a4572c3ccc120ee82723a66" name="aa6b35c703a4572c3ccc120ee82723a66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6b35c703a4572c3ccc120ee82723a66">&#9670;&#160;</a></span>MR_Vector3d</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct MR_Vector3d MR_Vector3d</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6bf133eda1ec95be202b77c33412bc8e" name="a6bf133eda1ec95be202b77c33412bc8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bf133eda1ec95be202b77c33412bc8e">&#9670;&#160;</a></span>MR_Vector3f</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct MR_Vector3f MR_Vector3f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a77be0a859a19cabe4553a6cac2c489cd" name="a77be0a859a19cabe4553a6cac2c489cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77be0a859a19cabe4553a6cac2c489cd">&#9670;&#160;</a></span>MR_Cylinder3d_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> * MR_Cylinder3d_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code>MR::Cylinder3d</code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. Parameter <code>_other</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a1a0f98c7d109ef571bcc13bc03ea1d69" name="a1a0f98c7d109ef571bcc13bc03ea1d69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a0f98c7d109ef571bcc13bc03ea1d69">&#9670;&#160;</a></span>MR_Cylinder3d_center()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> * MR_Cylinder3d_center </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code>MR::Cylinder3d</code> named <code>center</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a5e0463e9040cf89604a03d536fb2451c" name="a5e0463e9040cf89604a03d536fb2451c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e0463e9040cf89604a03d536fb2451c">&#9670;&#160;</a></span>MR_Cylinder3d_center_const()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> * MR_Cylinder3d_center_const </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code>MR::Cylinder3d</code> named <code>center</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="aae5b86521a8f909f9901b7c619944d4b" name="aae5b86521a8f909f9901b7c619944d4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae5b86521a8f909f9901b7c619944d4b">&#9670;&#160;</a></span>MR_Cylinder3d_Construct_3()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> * MR_Cylinder3d_Construct_3 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBestFit_8h.html#ac137600e53e2a5c6efea3c61034a1a95">MR_Line3d</a> *</td>          <td class="paramname"><span class="paramname"><em>inAxis</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>inRadius</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>inLength</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code>MR::Cylinder3d</code>. Parameter <code>inAxis</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a3957a55a3fc8c56bbe5d903c8eab218e" title="Destroys a heap-allocated instance of MR_Cylinder3d. Does nothing if the pointer is null.">MR_Cylinder3d_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a1a37772d2071757e64670c19c52dd2eb" name="a1a37772d2071757e64670c19c52dd2eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a37772d2071757e64670c19c52dd2eb">&#9670;&#160;</a></span>MR_Cylinder3d_Construct_4()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> * MR_Cylinder3d_Construct_4 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *</td>          <td class="paramname"><span class="paramname"><em>inCenter</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *</td>          <td class="paramname"><span class="paramname"><em>inDirectoin</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>inRadius</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>inLength</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code>MR::Cylinder3d</code>. Parameter <code>inCenter</code> can not be null. Parameter <code>inDirectoin</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a3957a55a3fc8c56bbe5d903c8eab218e" title="Destroys a heap-allocated instance of MR_Cylinder3d. Does nothing if the pointer is null.">MR_Cylinder3d_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="aeaf2835c8a642bd3c0c45223a6ac4aa4" name="aeaf2835c8a642bd3c0c45223a6ac4aa4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeaf2835c8a642bd3c0c45223a6ac4aa4">&#9670;&#160;</a></span>MR_Cylinder3d_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> * MR_Cylinder3d_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code>MR::Cylinder3d</code>. Parameter <code>_other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a3957a55a3fc8c56bbe5d903c8eab218e" title="Destroys a heap-allocated instance of MR_Cylinder3d. Does nothing if the pointer is null.">MR_Cylinder3d_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ab5340d259a1732a010792885f35ea2bb" name="ab5340d259a1732a010792885f35ea2bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5340d259a1732a010792885f35ea2bb">&#9670;&#160;</a></span>MR_Cylinder3d_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> * MR_Cylinder3d_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a3957a55a3fc8c56bbe5d903c8eab218e" title="Destroys a heap-allocated instance of MR_Cylinder3d. Does nothing if the pointer is null.">MR_Cylinder3d_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a275bdbff379e73180d78cdbd3c240cad" name="a275bdbff379e73180d78cdbd3c240cad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a275bdbff379e73180d78cdbd3c240cad">&#9670;&#160;</a></span>MR_Cylinder3d_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> * MR_Cylinder3d_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#aa8b499ea7d9ed3e8f885315bdff4199b" title="Destroys a heap-allocated array of MR_Cylinder3d. Does nothing if the pointer is null.">MR_Cylinder3d_DestroyArray()</a></code>. Use <code><a class="el" href="#a439a18425f9c7d96fd83571842d1880b" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_Cylinder3d_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a08eb5433790040caafd4d21d424e264d" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_Cylinder3d_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a3957a55a3fc8c56bbe5d903c8eab218e" name="a3957a55a3fc8c56bbe5d903c8eab218e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3957a55a3fc8c56bbe5d903c8eab218e">&#9670;&#160;</a></span>MR_Cylinder3d_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_Cylinder3d_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_Cylinder3d</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="aa8b499ea7d9ed3e8f885315bdff4199b" name="aa8b499ea7d9ed3e8f885315bdff4199b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8b499ea7d9ed3e8f885315bdff4199b">&#9670;&#160;</a></span>MR_Cylinder3d_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_Cylinder3d_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_Cylinder3d</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="abfc9e847a53652126c62e8f47a1131d3" name="abfc9e847a53652126c62e8f47a1131d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfc9e847a53652126c62e8f47a1131d3">&#9670;&#160;</a></span>MR_Cylinder3d_direction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> * MR_Cylinder3d_direction </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code>MR::Cylinder3d</code> named <code>direction</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="acb4fae5e6c53e1f0efe46b4c1b13ab87" name="acb4fae5e6c53e1f0efe46b4c1b13ab87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb4fae5e6c53e1f0efe46b4c1b13ab87">&#9670;&#160;</a></span>MR_Cylinder3d_direction_const()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> * MR_Cylinder3d_direction_const </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code>MR::Cylinder3d</code> named <code>direction</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a399f36148f43bba0697fc600a7baf1bb" name="a399f36148f43bba0697fc600a7baf1bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a399f36148f43bba0697fc600a7baf1bb">&#9670;&#160;</a></span>MR_Cylinder3d_Get_length()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const double * MR_Cylinder3d_Get_length </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code>MR::Cylinder3d</code> named <code>length</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a1998ceeb2d2b1c2f05213e9a91eaa475" name="a1998ceeb2d2b1c2f05213e9a91eaa475"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1998ceeb2d2b1c2f05213e9a91eaa475">&#9670;&#160;</a></span>MR_Cylinder3d_Get_mainAxis()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRBestFit_8h.html#ac137600e53e2a5c6efea3c61034a1a95">MR_Line3d</a> * MR_Cylinder3d_Get_mainAxis </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code>MR::Cylinder3d</code> named <code>mainAxis</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a32854aef6af4985f870cad926100d5f2" name="a32854aef6af4985f870cad926100d5f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32854aef6af4985f870cad926100d5f2">&#9670;&#160;</a></span>MR_Cylinder3d_Get_radius()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const double * MR_Cylinder3d_Get_radius </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code>MR::Cylinder3d</code> named <code>radius</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="abcf55a64061bf471789a293bd887c0d3" name="abcf55a64061bf471789a293bd887c0d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abcf55a64061bf471789a293bd887c0d3">&#9670;&#160;</a></span>MR_Cylinder3d_GetMutable_length()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API double * MR_Cylinder3d_GetMutable_length </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code>MR::Cylinder3d</code> named <code>length</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a544b30557adbc80dbec845e8151a3740" name="a544b30557adbc80dbec845e8151a3740"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a544b30557adbc80dbec845e8151a3740">&#9670;&#160;</a></span>MR_Cylinder3d_GetMutable_mainAxis()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBestFit_8h.html#ac137600e53e2a5c6efea3c61034a1a95">MR_Line3d</a> * MR_Cylinder3d_GetMutable_mainAxis </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code>MR::Cylinder3d</code> named <code>mainAxis</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a52bd04a26435114207e6474c80aaaa24" name="a52bd04a26435114207e6474c80aaaa24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52bd04a26435114207e6474c80aaaa24">&#9670;&#160;</a></span>MR_Cylinder3d_GetMutable_radius()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API double * MR_Cylinder3d_GetMutable_radius </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code>MR::Cylinder3d</code> named <code>radius</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a439a18425f9c7d96fd83571842d1880b" name="a439a18425f9c7d96fd83571842d1880b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a439a18425f9c7d96fd83571842d1880b">&#9670;&#160;</a></span>MR_Cylinder3d_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> * MR_Cylinder3d_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a08eb5433790040caafd4d21d424e264d" name="a08eb5433790040caafd4d21d424e264d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08eb5433790040caafd4d21d424e264d">&#9670;&#160;</a></span>MR_Cylinder3d_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> * MR_Cylinder3d_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a9d2e67cf734b056946bc99457ab64d03" name="a9d2e67cf734b056946bc99457ab64d03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d2e67cf734b056946bc99457ab64d03">&#9670;&#160;</a></span>MR_Cylinder3d_Set_length()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_Cylinder3d_Set_length </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code>MR::Cylinder3d</code> named <code>length</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ae1a73561ed9b8a8ccb849d5e093a6371" name="ae1a73561ed9b8a8ccb849d5e093a6371"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1a73561ed9b8a8ccb849d5e093a6371">&#9670;&#160;</a></span>MR_Cylinder3d_Set_mainAxis()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_Cylinder3d_Set_mainAxis </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRBestFit_8h.html#ac137600e53e2a5c6efea3c61034a1a95">MR_Line3d</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code>MR::Cylinder3d</code> named <code>mainAxis</code>. Parameter <code>_this</code> can not be null. Parameter <code>value</code> can not be null. </p>
+
+</div>
+</div>
+<a id="afe1225e7d00b83433f3f3944f1d28938" name="afe1225e7d00b83433f3f3944f1d28938"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe1225e7d00b83433f3f3944f1d28938">&#9670;&#160;</a></span>MR_Cylinder3d_Set_radius()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_Cylinder3d_Set_radius </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a9d1b221eca1c0b5750d2ca9dedce3ad6">MR_Cylinder3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code>MR::Cylinder3d</code> named <code>radius</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a2538e1c1ea08e0749887df6d2bc7ae37" name="a2538e1c1ea08e0749887df6d2bc7ae37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2538e1c1ea08e0749887df6d2bc7ae37">&#9670;&#160;</a></span>MR_Cylinder3f_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a0c5f105c6381a1539730147b6aba3709">MR_Cylinder3f</a> * MR_Cylinder3f_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a0c5f105c6381a1539730147b6aba3709">MR_Cylinder3f</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a0c5f105c6381a1539730147b6aba3709">MR_Cylinder3f</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/namespaceMR.html#a1e1eeb9ec9e53f13003c0882dc66eaef">MR::Cylinder3f</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. Parameter <code>_other</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a252c7158e385cb7e2c2de02124729785" name="a252c7158e385cb7e2c2de02124729785"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a252c7158e385cb7e2c2de02124729785">&#9670;&#160;</a></span>MR_Cylinder3f_center()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> * MR_Cylinder3f_center </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a0c5f105c6381a1539730147b6aba3709">MR_Cylinder3f</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/namespaceMR.html#a1e1eeb9ec9e53f13003c0882dc66eaef">MR::Cylinder3f</a></code> named <code>center</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="acfc83b11b817debd437c159aeba899d9" name="acfc83b11b817debd437c159aeba899d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acfc83b11b817debd437c159aeba899d9">&#9670;&#160;</a></span>MR_Cylinder3f_center_const()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> * MR_Cylinder3f_center_const </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a0c5f105c6381a1539730147b6aba3709">MR_Cylinder3f</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/namespaceMR.html#a1e1eeb9ec9e53f13003c0882dc66eaef">MR::Cylinder3f</a></code> named <code>center</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a91ac0b911d91be008209a9cd9646f2d7" name="a91ac0b911d91be008209a9cd9646f2d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91ac0b911d91be008209a9cd9646f2d7">&#9670;&#160;</a></span>MR_Cylinder3f_Construct_3()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a0c5f105c6381a1539730147b6aba3709">MR_Cylinder3f</a> * MR_Cylinder3f_Construct_3 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBestFit_8h.html#aca1d803422d4caa25c56d04a67efbc52">MR_Line3f</a> *</td>          <td class="paramname"><span class="paramname"><em>inAxis</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>inRadius</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>inLength</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/namespaceMR.html#a1e1eeb9ec9e53f13003c0882dc66eaef">MR::Cylinder3f</a></code>. Parameter <code>inAxis</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a02a7f692713dc561ea61030a1cafaae9" title="Destroys a heap-allocated instance of MR_Cylinder3f. Does nothing if the pointer is null.">MR_Cylinder3f_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a66fbe3d1d0e55b8d6e5acce9a373ae3e" name="a66fbe3d1d0e55b8d6e5acce9a373ae3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66fbe3d1d0e55b8d6e5acce9a373ae3e">&#9670;&#160;</a></span>MR_Cylinder3f_Construct_4()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a0c5f105c6381a1539730147b6aba3709">MR_Cylinder3f</a> * MR_Cylinder3f_Construct_4 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>inCenter</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>inDirectoin</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>inRadius</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>inLength</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/namespaceMR.html#a1e1eeb9ec9e53f13003c0882dc66eaef">MR::Cylinder3f</a></code>. Parameter <code>inCenter</code> can not be null. Parameter <code>inDirectoin</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a02a7f692713dc561ea61030a1cafaae9" title="Destroys a heap-allocated instance of MR_Cylinder3f. Does nothing if the pointer is null.">MR_Cylinder3f_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="afcdb60a83e6e6f1b8331162c004efe1f" name="afcdb60a83e6e6f1b8331162c004efe1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afcdb60a83e6e6f1b8331162c004efe1f">&#9670;&#160;</a></span>MR_Cylinder3f_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a0c5f105c6381a1539730147b6aba3709">MR_Cylinder3f</a> * MR_Cylinder3f_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a0c5f105c6381a1539730147b6aba3709">MR_Cylinder3f</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/namespaceMR.html#a1e1eeb9ec9e53f13003c0882dc66eaef">MR::Cylinder3f</a></code>. Parameter <code>_other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a02a7f692713dc561ea61030a1cafaae9" title="Destroys a heap-allocated instance of MR_Cylinder3f. Does nothing if the pointer is null.">MR_Cylinder3f_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a8fc6abb69c7460d2d0a5cdf49fbe16c2" name="a8fc6abb69c7460d2d0a5cdf49fbe16c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8fc6abb69c7460d2d0a5cdf49fbe16c2">&#9670;&#160;</a></span>MR_Cylinder3f_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a0c5f105c6381a1539730147b6aba3709">MR_Cylinder3f</a> * MR_Cylinder3f_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a02a7f692713dc561ea61030a1cafaae9" title="Destroys a heap-allocated instance of MR_Cylinder3f. Does nothing if the pointer is null.">MR_Cylinder3f_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a7bb0cd061f659438a73acddf52712ac6" name="a7bb0cd061f659438a73acddf52712ac6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7bb0cd061f659438a73acddf52712ac6">&#9670;&#160;</a></span>MR_Cylinder3f_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a0c5f105c6381a1539730147b6aba3709">MR_Cylinder3f</a> * MR_Cylinder3f_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#afb24498725c7dc0bd6a09394b437ba1e" title="Destroys a heap-allocated array of MR_Cylinder3f. Does nothing if the pointer is null.">MR_Cylinder3f_DestroyArray()</a></code>. Use <code><a class="el" href="#a53e9d6b9e04c77ef589dfb81639fd159" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_Cylinder3f_OffsetMutablePtr()</a></code> and <code><a class="el" href="#ab903a09bc51baf93a83c911b065ba1f6" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_Cylinder3f_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a02a7f692713dc561ea61030a1cafaae9" name="a02a7f692713dc561ea61030a1cafaae9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02a7f692713dc561ea61030a1cafaae9">&#9670;&#160;</a></span>MR_Cylinder3f_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_Cylinder3f_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a0c5f105c6381a1539730147b6aba3709">MR_Cylinder3f</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_Cylinder3f</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="afb24498725c7dc0bd6a09394b437ba1e" name="afb24498725c7dc0bd6a09394b437ba1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb24498725c7dc0bd6a09394b437ba1e">&#9670;&#160;</a></span>MR_Cylinder3f_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_Cylinder3f_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a0c5f105c6381a1539730147b6aba3709">MR_Cylinder3f</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_Cylinder3f</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a7718e786bf438f1540d0065600c0b229" name="a7718e786bf438f1540d0065600c0b229"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7718e786bf438f1540d0065600c0b229">&#9670;&#160;</a></span>MR_Cylinder3f_direction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> * MR_Cylinder3f_direction </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a0c5f105c6381a1539730147b6aba3709">MR_Cylinder3f</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/namespaceMR.html#a1e1eeb9ec9e53f13003c0882dc66eaef">MR::Cylinder3f</a></code> named <code>direction</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a074e041d27d8bf4064921041777525a5" name="a074e041d27d8bf4064921041777525a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a074e041d27d8bf4064921041777525a5">&#9670;&#160;</a></span>MR_Cylinder3f_direction_const()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> * MR_Cylinder3f_direction_const </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a0c5f105c6381a1539730147b6aba3709">MR_Cylinder3f</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/namespaceMR.html#a1e1eeb9ec9e53f13003c0882dc66eaef">MR::Cylinder3f</a></code> named <code>direction</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ab0d07f86013b4f797aca0498b4036385" name="ab0d07f86013b4f797aca0498b4036385"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0d07f86013b4f797aca0498b4036385">&#9670;&#160;</a></span>MR_Cylinder3f_Get_length()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const float * MR_Cylinder3f_Get_length </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a0c5f105c6381a1539730147b6aba3709">MR_Cylinder3f</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/namespaceMR.html#a1e1eeb9ec9e53f13003c0882dc66eaef">MR::Cylinder3f</a></code> named <code>length</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a8544a3e2d1ec17590bbee4d0d80e8425" name="a8544a3e2d1ec17590bbee4d0d80e8425"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8544a3e2d1ec17590bbee4d0d80e8425">&#9670;&#160;</a></span>MR_Cylinder3f_Get_mainAxis()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRBestFit_8h.html#aca1d803422d4caa25c56d04a67efbc52">MR_Line3f</a> * MR_Cylinder3f_Get_mainAxis </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a0c5f105c6381a1539730147b6aba3709">MR_Cylinder3f</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/namespaceMR.html#a1e1eeb9ec9e53f13003c0882dc66eaef">MR::Cylinder3f</a></code> named <code>mainAxis</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a5d0bf2dc5d8fe80257782e7b14795488" name="a5d0bf2dc5d8fe80257782e7b14795488"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d0bf2dc5d8fe80257782e7b14795488">&#9670;&#160;</a></span>MR_Cylinder3f_Get_radius()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const float * MR_Cylinder3f_Get_radius </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a0c5f105c6381a1539730147b6aba3709">MR_Cylinder3f</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/namespaceMR.html#a1e1eeb9ec9e53f13003c0882dc66eaef">MR::Cylinder3f</a></code> named <code>radius</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a579cb51807cbaa76383beca620f51410" name="a579cb51807cbaa76383beca620f51410"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a579cb51807cbaa76383beca620f51410">&#9670;&#160;</a></span>MR_Cylinder3f_GetMutable_length()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API float * MR_Cylinder3f_GetMutable_length </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a0c5f105c6381a1539730147b6aba3709">MR_Cylinder3f</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/namespaceMR.html#a1e1eeb9ec9e53f13003c0882dc66eaef">MR::Cylinder3f</a></code> named <code>length</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a348b2f72c4b3e09ea19c05707f8b8cf2" name="a348b2f72c4b3e09ea19c05707f8b8cf2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a348b2f72c4b3e09ea19c05707f8b8cf2">&#9670;&#160;</a></span>MR_Cylinder3f_GetMutable_mainAxis()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBestFit_8h.html#aca1d803422d4caa25c56d04a67efbc52">MR_Line3f</a> * MR_Cylinder3f_GetMutable_mainAxis </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a0c5f105c6381a1539730147b6aba3709">MR_Cylinder3f</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/namespaceMR.html#a1e1eeb9ec9e53f13003c0882dc66eaef">MR::Cylinder3f</a></code> named <code>mainAxis</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a5f00226fd2d2c73f238c0e691146c9a6" name="a5f00226fd2d2c73f238c0e691146c9a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f00226fd2d2c73f238c0e691146c9a6">&#9670;&#160;</a></span>MR_Cylinder3f_GetMutable_radius()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API float * MR_Cylinder3f_GetMutable_radius </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a0c5f105c6381a1539730147b6aba3709">MR_Cylinder3f</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/namespaceMR.html#a1e1eeb9ec9e53f13003c0882dc66eaef">MR::Cylinder3f</a></code> named <code>radius</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a53e9d6b9e04c77ef589dfb81639fd159" name="a53e9d6b9e04c77ef589dfb81639fd159"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53e9d6b9e04c77ef589dfb81639fd159">&#9670;&#160;</a></span>MR_Cylinder3f_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a0c5f105c6381a1539730147b6aba3709">MR_Cylinder3f</a> * MR_Cylinder3f_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a0c5f105c6381a1539730147b6aba3709">MR_Cylinder3f</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="ab903a09bc51baf93a83c911b065ba1f6" name="ab903a09bc51baf93a83c911b065ba1f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab903a09bc51baf93a83c911b065ba1f6">&#9670;&#160;</a></span>MR_Cylinder3f_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a0c5f105c6381a1539730147b6aba3709">MR_Cylinder3f</a> * MR_Cylinder3f_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a0c5f105c6381a1539730147b6aba3709">MR_Cylinder3f</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a6042d6e78b1a5a8ac2235b314120b4ae" name="a6042d6e78b1a5a8ac2235b314120b4ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6042d6e78b1a5a8ac2235b314120b4ae">&#9670;&#160;</a></span>MR_Cylinder3f_Set_length()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_Cylinder3f_Set_length </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a0c5f105c6381a1539730147b6aba3709">MR_Cylinder3f</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/namespaceMR.html#a1e1eeb9ec9e53f13003c0882dc66eaef">MR::Cylinder3f</a></code> named <code>length</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a7162ebec09fb9b5488bffd0b752c6682" name="a7162ebec09fb9b5488bffd0b752c6682"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7162ebec09fb9b5488bffd0b752c6682">&#9670;&#160;</a></span>MR_Cylinder3f_Set_mainAxis()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_Cylinder3f_Set_mainAxis </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a0c5f105c6381a1539730147b6aba3709">MR_Cylinder3f</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRBestFit_8h.html#aca1d803422d4caa25c56d04a67efbc52">MR_Line3f</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/namespaceMR.html#a1e1eeb9ec9e53f13003c0882dc66eaef">MR::Cylinder3f</a></code> named <code>mainAxis</code>. Parameter <code>_this</code> can not be null. Parameter <code>value</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aafb86f71c09763f9f0ce3d001895c000" name="aafb86f71c09763f9f0ce3d001895c000"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aafb86f71c09763f9f0ce3d001895c000">&#9670;&#160;</a></span>MR_Cylinder3f_Set_radius()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_Cylinder3f_Set_radius </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a0c5f105c6381a1539730147b6aba3709">MR_Cylinder3f</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/namespaceMR.html#a1e1eeb9ec9e53f13003c0882dc66eaef">MR::Cylinder3f</a></code> named <code>radius</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_87d38852fc01aff5f853718c8d8b5cb2.html">Cbindings</a></li><li class="navelem"><a class="el" href="dir_cb83f9b98dc6f67356ff76bcc17f4f67.html">MRCMesh</a></li><li class="navelem"><a class="el" href="MRCylinder3_8h.html">MRCylinder3.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

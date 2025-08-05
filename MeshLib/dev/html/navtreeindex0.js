@@ -4,6 +4,7 @@ var NAVTREEINDEX0 =
 "APIPage.html":[6],
 "BasedApplication.html":[4,0,0],
 "BasicMathTypesOverview.html":[5,2],
+"C/APICPage.html":[6,2],
 "Cpp/APICppPage.html":[6,0],
 "DataModel.html":[5,4],
 "ExampleContourTriangulation.html":[4,0,22],

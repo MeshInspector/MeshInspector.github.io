@@ -1,0 +1,1457 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: MRRebuildMesh.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('MRRebuildMesh_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">MRRebuildMesh.h File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="MREnums_8h_source.html">MRCMesh/MREnums.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="MRSignDetectionMode_8h_source.html">MRCMesh/MRSignDetectionMode.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
+</div>
+<p><a href="MRRebuildMesh_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:af1ba30a3fa8a895c1f72e182f3e73e17" id="r_af1ba30a3fa8a895c1f72e182f3e73e17"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a></td></tr>
+<tr class="separator:af1ba30a3fa8a895c1f72e182f3e73e17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7f59a6736b29701d7e619412b6e2890" id="r_ac7f59a6736b29701d7e619412b6e2890"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a></td></tr>
+<tr class="separator:ac7f59a6736b29701d7e619412b6e2890"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d97154d4aed695055160a4688c04a3d" id="r_a0d97154d4aed695055160a4688c04a3d"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a></td></tr>
+<tr class="separator:a0d97154d4aed695055160a4688c04a3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb03ce28cacfff1e499d75d512dc4a84" id="r_adb03ce28cacfff1e499d75d512dc4a84"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a></td></tr>
+<tr class="separator:adb03ce28cacfff1e499d75d512dc4a84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22d2ec9cd17ac887031de93b58b597b7" id="r_a22d2ec9cd17ac887031de93b58b597b7"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="std__function__void__from__MR__SignDetectionMode_8h.html#a22d2ec9cd17ac887031de93b58b597b7">MR_std_function_void_from_MR_SignDetectionMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a22d2ec9cd17ac887031de93b58b597b7">MR_std_function_void_from_MR_SignDetectionMode</a></td></tr>
+<tr class="separator:a22d2ec9cd17ac887031de93b58b597b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a264b5271a8409b6f782f8649cf34c164" id="r_a264b5271a8409b6f782f8649cf34c164"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="std__shared__ptr__MR__IFastWindingNumber_8h.html#a264b5271a8409b6f782f8649cf34c164">MR_std_shared_ptr_MR_IFastWindingNumber</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a264b5271a8409b6f782f8649cf34c164">MR_std_shared_ptr_MR_IFastWindingNumber</a></td></tr>
+<tr class="separator:a264b5271a8409b6f782f8649cf34c164"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2853cd7a55a4391d2d36fb2e810eedb" id="r_aa2853cd7a55a4391d2d36fb2e810eedb"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a></td></tr>
+<tr class="memdesc:aa2853cd7a55a4391d2d36fb2e810eedb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1RebuildMeshSettings.html">MR::RebuildMeshSettings</a></code>.  <br /></td></tr>
+<tr class="separator:aa2853cd7a55a4391d2d36fb2e810eedb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:aa28308937e53f9844425d73e5fcf5519" id="r_aa28308937e53f9844425d73e5fcf5519"><td class="memItemLeft" align="right" valign="top">MRC_API const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa28308937e53f9844425d73e5fcf5519">MR_RebuildMeshSettings_Get_preSubdivide</a> (const <a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *_this)</td></tr>
+<tr class="separator:aa28308937e53f9844425d73e5fcf5519"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0e8f37b5d765095ea1fe571cc7b3215" id="r_af0e8f37b5d765095ea1fe571cc7b3215"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0e8f37b5d765095ea1fe571cc7b3215">MR_RebuildMeshSettings_Set_preSubdivide</a> (<a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *_this, bool value)</td></tr>
+<tr class="separator:af0e8f37b5d765095ea1fe571cc7b3215"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8afed900787ecee7f81b2110e6da96cb" id="r_a8afed900787ecee7f81b2110e6da96cb"><td class="memItemLeft" align="right" valign="top">MRC_API bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8afed900787ecee7f81b2110e6da96cb">MR_RebuildMeshSettings_GetMutable_preSubdivide</a> (<a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *_this)</td></tr>
+<tr class="separator:a8afed900787ecee7f81b2110e6da96cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e3052cbf95fec10d5856e0257325bb9" id="r_a6e3052cbf95fec10d5856e0257325bb9"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e3052cbf95fec10d5856e0257325bb9">MR_RebuildMeshSettings_Get_voxelSize</a> (const <a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *_this)</td></tr>
+<tr class="separator:a6e3052cbf95fec10d5856e0257325bb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69027d1e08708613ba28f8a0c3f1379b" id="r_a69027d1e08708613ba28f8a0c3f1379b"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69027d1e08708613ba28f8a0c3f1379b">MR_RebuildMeshSettings_Set_voxelSize</a> (<a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *_this, float value)</td></tr>
+<tr class="separator:a69027d1e08708613ba28f8a0c3f1379b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0c5a7645330a63326dc8bdc4a104067" id="r_aa0c5a7645330a63326dc8bdc4a104067"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0c5a7645330a63326dc8bdc4a104067">MR_RebuildMeshSettings_GetMutable_voxelSize</a> (<a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *_this)</td></tr>
+<tr class="separator:aa0c5a7645330a63326dc8bdc4a104067"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1770887dd24c877432762fd64e7803bd" id="r_a1770887dd24c877432762fd64e7803bd"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRSignDetectionMode_8h.html#a72267b400fd34f68348b1d13b36e9cc4">MR_SignDetectionModeShort</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1770887dd24c877432762fd64e7803bd">MR_RebuildMeshSettings_Get_signMode</a> (const <a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *_this)</td></tr>
+<tr class="separator:a1770887dd24c877432762fd64e7803bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9500530abaab3cd6afb2f43eb265ec8e" id="r_a9500530abaab3cd6afb2f43eb265ec8e"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9500530abaab3cd6afb2f43eb265ec8e">MR_RebuildMeshSettings_Set_signMode</a> (<a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *_this, <a class="el" href="MRSignDetectionMode_8h.html#a72267b400fd34f68348b1d13b36e9cc4">MR_SignDetectionModeShort</a> value)</td></tr>
+<tr class="separator:a9500530abaab3cd6afb2f43eb265ec8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6477d142fd5cc42856123b02c145a276" id="r_a6477d142fd5cc42856123b02c145a276"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRSignDetectionMode_8h.html#a72267b400fd34f68348b1d13b36e9cc4">MR_SignDetectionModeShort</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6477d142fd5cc42856123b02c145a276">MR_RebuildMeshSettings_GetMutable_signMode</a> (<a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *_this)</td></tr>
+<tr class="separator:a6477d142fd5cc42856123b02c145a276"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97a5af65613d6ca7b1852acd61626f8e" id="r_a97a5af65613d6ca7b1852acd61626f8e"><td class="memItemLeft" align="right" valign="top">MRC_API const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97a5af65613d6ca7b1852acd61626f8e">MR_RebuildMeshSettings_Get_closeHolesInHoleWindingNumber</a> (const <a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *_this)</td></tr>
+<tr class="separator:a97a5af65613d6ca7b1852acd61626f8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7ad442ad643ec37331ae1248a66e056" id="r_ab7ad442ad643ec37331ae1248a66e056"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7ad442ad643ec37331ae1248a66e056">MR_RebuildMeshSettings_Set_closeHolesInHoleWindingNumber</a> (<a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *_this, bool value)</td></tr>
+<tr class="separator:ab7ad442ad643ec37331ae1248a66e056"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e5d8cabd70408a01fb0e2d930ebe5c2" id="r_a3e5d8cabd70408a01fb0e2d930ebe5c2"><td class="memItemLeft" align="right" valign="top">MRC_API bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e5d8cabd70408a01fb0e2d930ebe5c2">MR_RebuildMeshSettings_GetMutable_closeHolesInHoleWindingNumber</a> (<a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *_this)</td></tr>
+<tr class="separator:a3e5d8cabd70408a01fb0e2d930ebe5c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8a84783970d954185d3de88e00d8750" id="r_ae8a84783970d954185d3de88e00d8750"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MREnums_8h.html#ac184e1044255fc4ab3441599f7b90cb2">MR_OffsetMode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae8a84783970d954185d3de88e00d8750">MR_RebuildMeshSettings_Get_offsetMode</a> (const <a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *_this)</td></tr>
+<tr class="separator:ae8a84783970d954185d3de88e00d8750"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a210a07c063d36a6a4afc8dd405e97503" id="r_a210a07c063d36a6a4afc8dd405e97503"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a210a07c063d36a6a4afc8dd405e97503">MR_RebuildMeshSettings_Set_offsetMode</a> (<a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *_this, <a class="el" href="MREnums_8h.html#ac184e1044255fc4ab3441599f7b90cb2">MR_OffsetMode</a> value)</td></tr>
+<tr class="separator:a210a07c063d36a6a4afc8dd405e97503"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b445726c2ecb70b40ebf0962976b82d" id="r_a7b445726c2ecb70b40ebf0962976b82d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MREnums_8h.html#ac184e1044255fc4ab3441599f7b90cb2">MR_OffsetMode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b445726c2ecb70b40ebf0962976b82d">MR_RebuildMeshSettings_GetMutable_offsetMode</a> (<a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *_this)</td></tr>
+<tr class="separator:a7b445726c2ecb70b40ebf0962976b82d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afeeb00f2e045b5ca5d05c44f6bb3cf02" id="r_afeeb00f2e045b5ca5d05c44f6bb3cf02"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afeeb00f2e045b5ca5d05c44f6bb3cf02">MR_RebuildMeshSettings_Get_outSharpEdges</a> (const <a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *_this)</td></tr>
+<tr class="separator:afeeb00f2e045b5ca5d05c44f6bb3cf02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d690a3be19817e237733aa4a7ea55ba" id="r_a5d690a3be19817e237733aa4a7ea55ba"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d690a3be19817e237733aa4a7ea55ba">MR_RebuildMeshSettings_Set_outSharpEdges</a> (<a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *_this, <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *value)</td></tr>
+<tr class="separator:a5d690a3be19817e237733aa4a7ea55ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a518cd6bceca8cd3e15464d4b6ce733" id="r_a4a518cd6bceca8cd3e15464d4b6ce733"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a518cd6bceca8cd3e15464d4b6ce733">MR_RebuildMeshSettings_GetMutable_outSharpEdges</a> (<a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *_this)</td></tr>
+<tr class="separator:a4a518cd6bceca8cd3e15464d4b6ce733"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae36dba85820de0e48924de372381c096" id="r_ae36dba85820de0e48924de372381c096"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae36dba85820de0e48924de372381c096">MR_RebuildMeshSettings_Get_windingNumberThreshold</a> (const <a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *_this)</td></tr>
+<tr class="separator:ae36dba85820de0e48924de372381c096"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18c67643bba4000b6900bae869d03c94" id="r_a18c67643bba4000b6900bae869d03c94"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18c67643bba4000b6900bae869d03c94">MR_RebuildMeshSettings_Set_windingNumberThreshold</a> (<a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *_this, float value)</td></tr>
+<tr class="separator:a18c67643bba4000b6900bae869d03c94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92ca740c829fd1d3859f9044a97d3be4" id="r_a92ca740c829fd1d3859f9044a97d3be4"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a92ca740c829fd1d3859f9044a97d3be4">MR_RebuildMeshSettings_GetMutable_windingNumberThreshold</a> (<a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *_this)</td></tr>
+<tr class="separator:a92ca740c829fd1d3859f9044a97d3be4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab1b32ee9feaec535046a25a1fd12e94" id="r_aab1b32ee9feaec535046a25a1fd12e94"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab1b32ee9feaec535046a25a1fd12e94">MR_RebuildMeshSettings_Get_windingNumberBeta</a> (const <a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *_this)</td></tr>
+<tr class="separator:aab1b32ee9feaec535046a25a1fd12e94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64eb5b5f141e47d4e11bd098bdaae178" id="r_a64eb5b5f141e47d4e11bd098bdaae178"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64eb5b5f141e47d4e11bd098bdaae178">MR_RebuildMeshSettings_Set_windingNumberBeta</a> (<a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *_this, float value)</td></tr>
+<tr class="separator:a64eb5b5f141e47d4e11bd098bdaae178"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb00ab298a599ec7252d918d4d6f98e4" id="r_afb00ab298a599ec7252d918d4d6f98e4"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afb00ab298a599ec7252d918d4d6f98e4">MR_RebuildMeshSettings_GetMutable_windingNumberBeta</a> (<a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *_this)</td></tr>
+<tr class="separator:afb00ab298a599ec7252d918d4d6f98e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91312f37661f7134ac2002ae85cdef76" id="r_a91312f37661f7134ac2002ae85cdef76"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="std__shared__ptr__MR__IFastWindingNumber_8h.html#a264b5271a8409b6f782f8649cf34c164">MR_std_shared_ptr_MR_IFastWindingNumber</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91312f37661f7134ac2002ae85cdef76">MR_RebuildMeshSettings_Get_fwn</a> (const <a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *_this)</td></tr>
+<tr class="separator:a91312f37661f7134ac2002ae85cdef76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa77ea27673e9d52e1b6cd2f058bc67c5" id="r_aa77ea27673e9d52e1b6cd2f058bc67c5"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa77ea27673e9d52e1b6cd2f058bc67c5">MR_RebuildMeshSettings_Set_fwn</a> (<a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="std__shared__ptr__MR__IFastWindingNumber_8h.html#a264b5271a8409b6f782f8649cf34c164">MR_std_shared_ptr_MR_IFastWindingNumber</a> *value)</td></tr>
+<tr class="separator:aa77ea27673e9d52e1b6cd2f058bc67c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b47274609279654d5f82a60c4f18e8a" id="r_a6b47274609279654d5f82a60c4f18e8a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="std__shared__ptr__MR__IFastWindingNumber_8h.html#a264b5271a8409b6f782f8649cf34c164">MR_std_shared_ptr_MR_IFastWindingNumber</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b47274609279654d5f82a60c4f18e8a">MR_RebuildMeshSettings_GetMutable_fwn</a> (<a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *_this)</td></tr>
+<tr class="separator:a6b47274609279654d5f82a60c4f18e8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38feda7f898877345c529b642dff9e00" id="r_a38feda7f898877345c529b642dff9e00"><td class="memItemLeft" align="right" valign="top">MRC_API const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38feda7f898877345c529b642dff9e00">MR_RebuildMeshSettings_Get_decimate</a> (const <a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *_this)</td></tr>
+<tr class="separator:a38feda7f898877345c529b642dff9e00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6094b53d38b8ae1836ea16edf8fb0599" id="r_a6094b53d38b8ae1836ea16edf8fb0599"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6094b53d38b8ae1836ea16edf8fb0599">MR_RebuildMeshSettings_Set_decimate</a> (<a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *_this, bool value)</td></tr>
+<tr class="separator:a6094b53d38b8ae1836ea16edf8fb0599"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35d4f9affdaf378a5304203cc62361df" id="r_a35d4f9affdaf378a5304203cc62361df"><td class="memItemLeft" align="right" valign="top">MRC_API bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a35d4f9affdaf378a5304203cc62361df">MR_RebuildMeshSettings_GetMutable_decimate</a> (<a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *_this)</td></tr>
+<tr class="separator:a35d4f9affdaf378a5304203cc62361df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4b5b9aed0a0f0510e9d1389ee545f5b" id="r_ad4b5b9aed0a0f0510e9d1389ee545f5b"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4b5b9aed0a0f0510e9d1389ee545f5b">MR_RebuildMeshSettings_Get_tinyEdgeLength</a> (const <a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *_this)</td></tr>
+<tr class="separator:ad4b5b9aed0a0f0510e9d1389ee545f5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a942c872ad88916feebf56c9b3384f686" id="r_a942c872ad88916feebf56c9b3384f686"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a942c872ad88916feebf56c9b3384f686">MR_RebuildMeshSettings_Set_tinyEdgeLength</a> (<a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *_this, float value)</td></tr>
+<tr class="separator:a942c872ad88916feebf56c9b3384f686"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab71ccebdcbf03e51dec9e8b2ca0ec493" id="r_ab71ccebdcbf03e51dec9e8b2ca0ec493"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab71ccebdcbf03e51dec9e8b2ca0ec493">MR_RebuildMeshSettings_GetMutable_tinyEdgeLength</a> (<a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *_this)</td></tr>
+<tr class="separator:ab71ccebdcbf03e51dec9e8b2ca0ec493"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab20f416b21447b69849821ea2c4beb2c" id="r_ab20f416b21447b69849821ea2c4beb2c"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab20f416b21447b69849821ea2c4beb2c">MR_RebuildMeshSettings_Get_progress</a> (const <a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *_this)</td></tr>
+<tr class="separator:ab20f416b21447b69849821ea2c4beb2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af891f3ff4b42e8916b98ad796180282c" id="r_af891f3ff4b42e8916b98ad796180282c"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af891f3ff4b42e8916b98ad796180282c">MR_RebuildMeshSettings_Set_progress</a> (<a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *value)</td></tr>
+<tr class="separator:af891f3ff4b42e8916b98ad796180282c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1b3c4f7e58cc3d0ea646811d02cf108" id="r_ab1b3c4f7e58cc3d0ea646811d02cf108"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab1b3c4f7e58cc3d0ea646811d02cf108">MR_RebuildMeshSettings_GetMutable_progress</a> (<a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *_this)</td></tr>
+<tr class="separator:ab1b3c4f7e58cc3d0ea646811d02cf108"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c8610ab95a2e1d51cb1fa60199357d2" id="r_a8c8610ab95a2e1d51cb1fa60199357d2"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="std__function__void__from__MR__SignDetectionMode_8h.html#a22d2ec9cd17ac887031de93b58b597b7">MR_std_function_void_from_MR_SignDetectionMode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c8610ab95a2e1d51cb1fa60199357d2">MR_RebuildMeshSettings_Get_onSignDetectionModeSelected</a> (const <a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *_this)</td></tr>
+<tr class="separator:a8c8610ab95a2e1d51cb1fa60199357d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f9d6a42f3db33d5df60c62cd76da240" id="r_a0f9d6a42f3db33d5df60c62cd76da240"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f9d6a42f3db33d5df60c62cd76da240">MR_RebuildMeshSettings_Set_onSignDetectionModeSelected</a> (<a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="std__function__void__from__MR__SignDetectionMode_8h.html#a22d2ec9cd17ac887031de93b58b597b7">MR_std_function_void_from_MR_SignDetectionMode</a> *value)</td></tr>
+<tr class="separator:a0f9d6a42f3db33d5df60c62cd76da240"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79f1c6a23bebabd63ae44efe4475b1ef" id="r_a79f1c6a23bebabd63ae44efe4475b1ef"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="std__function__void__from__MR__SignDetectionMode_8h.html#a22d2ec9cd17ac887031de93b58b597b7">MR_std_function_void_from_MR_SignDetectionMode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79f1c6a23bebabd63ae44efe4475b1ef">MR_RebuildMeshSettings_GetMutable_onSignDetectionModeSelected</a> (<a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *_this)</td></tr>
+<tr class="separator:a79f1c6a23bebabd63ae44efe4475b1ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00c111c6af95c4b172cc6eb5ece49224" id="r_a00c111c6af95c4b172cc6eb5ece49224"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a00c111c6af95c4b172cc6eb5ece49224">MR_RebuildMeshSettings_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a00c111c6af95c4b172cc6eb5ece49224"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a461dee84577a1c9dd70728bfa4f4cb99" id="r_a461dee84577a1c9dd70728bfa4f4cb99"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a461dee84577a1c9dd70728bfa4f4cb99">MR_RebuildMeshSettings_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a461dee84577a1c9dd70728bfa4f4cb99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07660db8814483ade015658decb7d24c" id="r_a07660db8814483ade015658decb7d24c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a07660db8814483ade015658decb7d24c">MR_RebuildMeshSettings_ConstructFrom</a> (bool preSubdivide, float voxelSize, <a class="el" href="MRSignDetectionMode_8h.html#a72267b400fd34f68348b1d13b36e9cc4">MR_SignDetectionModeShort</a> signMode, bool closeHolesInHoleWindingNumber, <a class="el" href="MREnums_8h.html#ac184e1044255fc4ab3441599f7b90cb2">MR_OffsetMode</a> offsetMode, <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *outSharpEdges, float windingNumberThreshold, float windingNumberBeta, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> fwn_pass_by, <a class="el" href="std__shared__ptr__MR__IFastWindingNumber_8h.html#a264b5271a8409b6f782f8649cf34c164">MR_std_shared_ptr_MR_IFastWindingNumber</a> *fwn, bool decimate, float tinyEdgeLength, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> progress_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *progress, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> onSignDetectionModeSelected_pass_by, <a class="el" href="std__function__void__from__MR__SignDetectionMode_8h.html#a22d2ec9cd17ac887031de93b58b597b7">MR_std_function_void_from_MR_SignDetectionMode</a> *onSignDetectionModeSelected)</td></tr>
+<tr class="separator:a07660db8814483ade015658decb7d24c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afff110bbd93f2d551432f4eb747ab2a0" id="r_afff110bbd93f2d551432f4eb747ab2a0"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afff110bbd93f2d551432f4eb747ab2a0">MR_RebuildMeshSettings_OffsetPtr</a> (const <a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:afff110bbd93f2d551432f4eb747ab2a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:afff110bbd93f2d551432f4eb747ab2a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab884befa59ad674ed64a6116731a6b1f" id="r_ab884befa59ad674ed64a6116731a6b1f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab884befa59ad674ed64a6116731a6b1f">MR_RebuildMeshSettings_OffsetMutablePtr</a> (<a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:ab884befa59ad674ed64a6116731a6b1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:ab884befa59ad674ed64a6116731a6b1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0f25594800d534d2715932ffa1f8e77" id="r_ae0f25594800d534d2715932ffa1f8e77"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae0f25594800d534d2715932ffa1f8e77">MR_RebuildMeshSettings_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *_other)</td></tr>
+<tr class="separator:ae0f25594800d534d2715932ffa1f8e77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea4b8b7c4ac8006b30c9a2b45840652e" id="r_aea4b8b7c4ac8006b30c9a2b45840652e"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea4b8b7c4ac8006b30c9a2b45840652e">MR_RebuildMeshSettings_Destroy</a> (const <a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *_this)</td></tr>
+<tr class="memdesc:aea4b8b7c4ac8006b30c9a2b45840652e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_RebuildMeshSettings</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:aea4b8b7c4ac8006b30c9a2b45840652e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ae3e723e6f4ccc4c63249e4e4135996" id="r_a7ae3e723e6f4ccc4c63249e4e4135996"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ae3e723e6f4ccc4c63249e4e4135996">MR_RebuildMeshSettings_DestroyArray</a> (const <a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *_this)</td></tr>
+<tr class="memdesc:a7ae3e723e6f4ccc4c63249e4e4135996"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_RebuildMeshSettings</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a7ae3e723e6f4ccc4c63249e4e4135996"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a2b123ccb8744363956f0f4e59a7417" id="r_a2a2b123ccb8744363956f0f4e59a7417"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a2b123ccb8744363956f0f4e59a7417">MR_RebuildMeshSettings_AssignFromAnother</a> (<a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *_other)</td></tr>
+<tr class="separator:a2a2b123ccb8744363956f0f4e59a7417"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21860dab1e858f0a70ebc66e20ec9c42" id="r_a21860dab1e858f0a70ebc66e20ec9c42"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21860dab1e858f0a70ebc66e20ec9c42">MR_rebuildMesh</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp, const <a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *settings)</td></tr>
+<tr class="separator:a21860dab1e858f0a70ebc66e20ec9c42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a0d97154d4aed695055160a4688c04a3d" name="a0d97154d4aed695055160a4688c04a3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d97154d4aed695055160a4688c04a3d">&#9670;&#160;</a></span>MR_expected_MR_Mesh_std_string</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af1ba30a3fa8a895c1f72e182f3e73e17" name="af1ba30a3fa8a895c1f72e182f3e73e17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1ba30a3fa8a895c1f72e182f3e73e17">&#9670;&#160;</a></span>MR_MeshPart</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa2853cd7a55a4391d2d36fb2e810eedb" name="aa2853cd7a55a4391d2d36fb2e810eedb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2853cd7a55a4391d2d36fb2e810eedb">&#9670;&#160;</a></span>MR_RebuildMeshSettings</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> <a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1RebuildMeshSettings.html">MR::RebuildMeshSettings</a></code>. </p>
+
+</div>
+</div>
+<a id="adb03ce28cacfff1e499d75d512dc4a84" name="adb03ce28cacfff1e499d75d512dc4a84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb03ce28cacfff1e499d75d512dc4a84">&#9670;&#160;</a></span>MR_std_function_bool_from_float</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a22d2ec9cd17ac887031de93b58b597b7" name="a22d2ec9cd17ac887031de93b58b597b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22d2ec9cd17ac887031de93b58b597b7">&#9670;&#160;</a></span>MR_std_function_void_from_MR_SignDetectionMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="std__function__void__from__MR__SignDetectionMode_8h.html#a22d2ec9cd17ac887031de93b58b597b7">MR_std_function_void_from_MR_SignDetectionMode</a> <a class="el" href="std__function__void__from__MR__SignDetectionMode_8h.html#a22d2ec9cd17ac887031de93b58b597b7">MR_std_function_void_from_MR_SignDetectionMode</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a264b5271a8409b6f782f8649cf34c164" name="a264b5271a8409b6f782f8649cf34c164"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a264b5271a8409b6f782f8649cf34c164">&#9670;&#160;</a></span>MR_std_shared_ptr_MR_IFastWindingNumber</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="std__shared__ptr__MR__IFastWindingNumber_8h.html#a264b5271a8409b6f782f8649cf34c164">MR_std_shared_ptr_MR_IFastWindingNumber</a> <a class="el" href="std__shared__ptr__MR__IFastWindingNumber_8h.html#a264b5271a8409b6f782f8649cf34c164">MR_std_shared_ptr_MR_IFastWindingNumber</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac7f59a6736b29701d7e619412b6e2890" name="ac7f59a6736b29701d7e619412b6e2890"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7f59a6736b29701d7e619412b6e2890">&#9670;&#160;</a></span>MR_UndirectedEdgeBitSet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a21860dab1e858f0a70ebc66e20ec9c42" name="a21860dab1e858f0a70ebc66e20ec9c42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21860dab1e858f0a70ebc66e20ec9c42">&#9670;&#160;</a></span>MR_rebuildMesh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> * MR_rebuildMesh </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *</td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>settings</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>fixes all types of issues in input mesh (degenerations, holes, self-intersections, etc.) by first converting mesh in voxel representation, and then backward Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#ae3f5900ab5832382ad11410977098452">MR::rebuildMesh</a></code>. Parameter <code>mp</code> can not be null. Parameter <code>settings</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a2a2b123ccb8744363956f0f4e59a7417" name="a2a2b123ccb8744363956f0f4e59a7417"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a2b123ccb8744363956f0f4e59a7417">&#9670;&#160;</a></span>MR_RebuildMeshSettings_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> * MR_RebuildMeshSettings_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1RebuildMeshSettings.html">MR::RebuildMeshSettings</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a07660db8814483ade015658decb7d24c" name="a07660db8814483ade015658decb7d24c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07660db8814483ade015658decb7d24c">&#9670;&#160;</a></span>MR_RebuildMeshSettings_ConstructFrom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> * MR_RebuildMeshSettings_ConstructFrom </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>preSubdivide</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>voxelSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRSignDetectionMode_8h.html#a72267b400fd34f68348b1d13b36e9cc4">MR_SignDetectionModeShort</a></td>          <td class="paramname"><span class="paramname"><em>signMode</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>closeHolesInHoleWindingNumber</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MREnums_8h.html#ac184e1044255fc4ab3441599f7b90cb2">MR_OffsetMode</a></td>          <td class="paramname"><span class="paramname"><em>offsetMode</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>outSharpEdges</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>windingNumberThreshold</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>windingNumberBeta</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>fwn_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="std__shared__ptr__MR__IFastWindingNumber_8h.html#a264b5271a8409b6f782f8649cf34c164">MR_std_shared_ptr_MR_IFastWindingNumber</a> *</td>          <td class="paramname"><span class="paramname"><em>fwn</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>decimate</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>tinyEdgeLength</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>progress_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *</td>          <td class="paramname"><span class="paramname"><em>progress</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>onSignDetectionModeSelected_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="std__function__void__from__MR__SignDetectionMode_8h.html#a22d2ec9cd17ac887031de93b58b597b7">MR_std_function_void_from_MR_SignDetectionMode</a> *</td>          <td class="paramname"><span class="paramname"><em>onSignDetectionModeSelected</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1RebuildMeshSettings.html">MR::RebuildMeshSettings</a></code> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aea4b8b7c4ac8006b30c9a2b45840652e" title="Destroys a heap-allocated instance of MR_RebuildMeshSettings. Does nothing if the pointer is null.">MR_RebuildMeshSettings_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ae0f25594800d534d2715932ffa1f8e77" name="ae0f25594800d534d2715932ffa1f8e77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0f25594800d534d2715932ffa1f8e77">&#9670;&#160;</a></span>MR_RebuildMeshSettings_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> * MR_RebuildMeshSettings_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1RebuildMeshSettings.html">MR::RebuildMeshSettings</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aea4b8b7c4ac8006b30c9a2b45840652e" title="Destroys a heap-allocated instance of MR_RebuildMeshSettings. Does nothing if the pointer is null.">MR_RebuildMeshSettings_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a00c111c6af95c4b172cc6eb5ece49224" name="a00c111c6af95c4b172cc6eb5ece49224"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00c111c6af95c4b172cc6eb5ece49224">&#9670;&#160;</a></span>MR_RebuildMeshSettings_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> * MR_RebuildMeshSettings_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aea4b8b7c4ac8006b30c9a2b45840652e" title="Destroys a heap-allocated instance of MR_RebuildMeshSettings. Does nothing if the pointer is null.">MR_RebuildMeshSettings_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a461dee84577a1c9dd70728bfa4f4cb99" name="a461dee84577a1c9dd70728bfa4f4cb99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a461dee84577a1c9dd70728bfa4f4cb99">&#9670;&#160;</a></span>MR_RebuildMeshSettings_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> * MR_RebuildMeshSettings_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a7ae3e723e6f4ccc4c63249e4e4135996" title="Destroys a heap-allocated array of MR_RebuildMeshSettings. Does nothing if the pointer is null.">MR_RebuildMeshSettings_DestroyArray()</a></code>. Use <code><a class="el" href="#ab884befa59ad674ed64a6116731a6b1f" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_RebuildMeshSettings_OffsetMutablePtr()</a></code> and <code><a class="el" href="#afff110bbd93f2d551432f4eb747ab2a0" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_RebuildMeshSettings_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="aea4b8b7c4ac8006b30c9a2b45840652e" name="aea4b8b7c4ac8006b30c9a2b45840652e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea4b8b7c4ac8006b30c9a2b45840652e">&#9670;&#160;</a></span>MR_RebuildMeshSettings_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_RebuildMeshSettings_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_RebuildMeshSettings</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a7ae3e723e6f4ccc4c63249e4e4135996" name="a7ae3e723e6f4ccc4c63249e4e4135996"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ae3e723e6f4ccc4c63249e4e4135996">&#9670;&#160;</a></span>MR_RebuildMeshSettings_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_RebuildMeshSettings_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_RebuildMeshSettings</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a97a5af65613d6ca7b1852acd61626f8e" name="a97a5af65613d6ca7b1852acd61626f8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97a5af65613d6ca7b1852acd61626f8e">&#9670;&#160;</a></span>MR_RebuildMeshSettings_Get_closeHolesInHoleWindingNumber()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const bool * MR_RebuildMeshSettings_Get_closeHolesInHoleWindingNumber </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>whether to construct closed mesh in signMode = SignDetectionModeShort::HoleWindingNumber Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1RebuildMeshSettings.html">MR::RebuildMeshSettings</a></code> named <code>closeHolesInHoleWindingNumber</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a38feda7f898877345c529b642dff9e00" name="a38feda7f898877345c529b642dff9e00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38feda7f898877345c529b642dff9e00">&#9670;&#160;</a></span>MR_RebuildMeshSettings_Get_decimate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const bool * MR_RebuildMeshSettings_Get_decimate </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>whether to decimate resulting mesh Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1RebuildMeshSettings.html">MR::RebuildMeshSettings</a></code> named <code>decimate</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a91312f37661f7134ac2002ae85cdef76" name="a91312f37661f7134ac2002ae85cdef76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91312f37661f7134ac2002ae85cdef76">&#9670;&#160;</a></span>MR_RebuildMeshSettings_Get_fwn()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="std__shared__ptr__MR__IFastWindingNumber_8h.html#a264b5271a8409b6f782f8649cf34c164">MR_std_shared_ptr_MR_IFastWindingNumber</a> * MR_RebuildMeshSettings_Get_fwn </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>defines particular implementation of IFastWindingNumber interface that will compute windings (if required). If it is not specified, default FastWindingNumber is used Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1RebuildMeshSettings.html">MR::RebuildMeshSettings</a></code> named <code>fwn</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ae8a84783970d954185d3de88e00d8750" name="ae8a84783970d954185d3de88e00d8750"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8a84783970d954185d3de88e00d8750">&#9670;&#160;</a></span>MR_RebuildMeshSettings_Get_offsetMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MREnums_8h.html#ac184e1044255fc4ab3441599f7b90cb2">MR_OffsetMode</a> * MR_RebuildMeshSettings_Get_offsetMode </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1RebuildMeshSettings.html">MR::RebuildMeshSettings</a></code> named <code>offsetMode</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a8c8610ab95a2e1d51cb1fa60199357d2" name="a8c8610ab95a2e1d51cb1fa60199357d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c8610ab95a2e1d51cb1fa60199357d2">&#9670;&#160;</a></span>MR_RebuildMeshSettings_Get_onSignDetectionModeSelected()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="std__function__void__from__MR__SignDetectionMode_8h.html#a22d2ec9cd17ac887031de93b58b597b7">MR_std_function_void_from_MR_SignDetectionMode</a> * MR_RebuildMeshSettings_Get_onSignDetectionModeSelected </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>this callback is invoked when SignDetectionMode is determined (useful if signMode = SignDetectionModeShort::Auto), but before actual work begins Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1RebuildMeshSettings.html">MR::RebuildMeshSettings</a></code> named <code>onSignDetectionModeSelected</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="afeeb00f2e045b5ca5d05c44f6bb3cf02" name="afeeb00f2e045b5ca5d05c44f6bb3cf02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afeeb00f2e045b5ca5d05c44f6bb3cf02">&#9670;&#160;</a></span>MR_RebuildMeshSettings_Get_outSharpEdges()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *const  * MR_RebuildMeshSettings_Get_outSharpEdges </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if non-null then created sharp edges (only if offsetMode = OffsetMode::Sharpening) will be saved here Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1RebuildMeshSettings.html">MR::RebuildMeshSettings</a></code> named <code>outSharpEdges</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="aa28308937e53f9844425d73e5fcf5519" name="aa28308937e53f9844425d73e5fcf5519"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa28308937e53f9844425d73e5fcf5519">&#9670;&#160;</a></span>MR_RebuildMeshSettings_Get_preSubdivide()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const bool * MR_RebuildMeshSettings_Get_preSubdivide </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>whether to make subdivision of initial mesh before conversion to voxels, despite time and memory required for the subdivision, it typically makes the whole rebuilding faster (or even much faster in case of large initial triangles), because AABB tree contains small triangles in leaves, which is good for both 1) search for closest triangle because the closest box more frequently contains the closest triangle, 2) and winding number approximation because of more frequent usage of approximation for distant dipoles Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1RebuildMeshSettings.html">MR::RebuildMeshSettings</a></code> named <code>preSubdivide</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ab20f416b21447b69849821ea2c4beb2c" name="ab20f416b21447b69849821ea2c4beb2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab20f416b21447b69849821ea2c4beb2c">&#9670;&#160;</a></span>MR_RebuildMeshSettings_Get_progress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> * MR_RebuildMeshSettings_Get_progress </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>To report algorithm's progress and cancel it on user demand Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1RebuildMeshSettings.html">MR::RebuildMeshSettings</a></code> named <code>progress</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a1770887dd24c877432762fd64e7803bd" name="a1770887dd24c877432762fd64e7803bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1770887dd24c877432762fd64e7803bd">&#9670;&#160;</a></span>MR_RebuildMeshSettings_Get_signMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRSignDetectionMode_8h.html#a72267b400fd34f68348b1d13b36e9cc4">MR_SignDetectionModeShort</a> * MR_RebuildMeshSettings_Get_signMode </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1RebuildMeshSettings.html">MR::RebuildMeshSettings</a></code> named <code>signMode</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ad4b5b9aed0a0f0510e9d1389ee545f5b" name="ad4b5b9aed0a0f0510e9d1389ee545f5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4b5b9aed0a0f0510e9d1389ee545f5b">&#9670;&#160;</a></span>MR_RebuildMeshSettings_Get_tinyEdgeLength()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const float * MR_RebuildMeshSettings_Get_tinyEdgeLength </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>only if decimate = true: edges not longer than this value will be collapsed even if it results in appearance of a triangle with high aspect ratio Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1RebuildMeshSettings.html">MR::RebuildMeshSettings</a></code> named <code>tinyEdgeLength</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a6e3052cbf95fec10d5856e0257325bb9" name="a6e3052cbf95fec10d5856e0257325bb9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e3052cbf95fec10d5856e0257325bb9">&#9670;&#160;</a></span>MR_RebuildMeshSettings_Get_voxelSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const float * MR_RebuildMeshSettings_Get_voxelSize </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Size of voxel in grid conversions; The user is responsible for setting some positive value here Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1RebuildMeshSettings.html">MR::RebuildMeshSettings</a></code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="aab1b32ee9feaec535046a25a1fd12e94" name="aab1b32ee9feaec535046a25a1fd12e94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab1b32ee9feaec535046a25a1fd12e94">&#9670;&#160;</a></span>MR_RebuildMeshSettings_Get_windingNumberBeta()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const float * MR_RebuildMeshSettings_Get_windingNumberBeta </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if general winding number is used to differentiate inside from outside: determines the precision of fast approximation: the more the better, minimum value is 1 Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1RebuildMeshSettings.html">MR::RebuildMeshSettings</a></code> named <code>windingNumberBeta</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ae36dba85820de0e48924de372381c096" name="ae36dba85820de0e48924de372381c096"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae36dba85820de0e48924de372381c096">&#9670;&#160;</a></span>MR_RebuildMeshSettings_Get_windingNumberThreshold()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const float * MR_RebuildMeshSettings_Get_windingNumberThreshold </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if general winding number is used to differentiate inside from outside: positive distance if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1RebuildMeshSettings.html">MR::RebuildMeshSettings</a></code> named <code>windingNumberThreshold</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a3e5d8cabd70408a01fb0e2d930ebe5c2" name="a3e5d8cabd70408a01fb0e2d930ebe5c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e5d8cabd70408a01fb0e2d930ebe5c2">&#9670;&#160;</a></span>MR_RebuildMeshSettings_GetMutable_closeHolesInHoleWindingNumber()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool * MR_RebuildMeshSettings_GetMutable_closeHolesInHoleWindingNumber </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>whether to construct closed mesh in signMode = SignDetectionModeShort::HoleWindingNumber Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1RebuildMeshSettings.html">MR::RebuildMeshSettings</a></code> named <code>closeHolesInHoleWindingNumber</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a35d4f9affdaf378a5304203cc62361df" name="a35d4f9affdaf378a5304203cc62361df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35d4f9affdaf378a5304203cc62361df">&#9670;&#160;</a></span>MR_RebuildMeshSettings_GetMutable_decimate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool * MR_RebuildMeshSettings_GetMutable_decimate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>whether to decimate resulting mesh Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1RebuildMeshSettings.html">MR::RebuildMeshSettings</a></code> named <code>decimate</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a6b47274609279654d5f82a60c4f18e8a" name="a6b47274609279654d5f82a60c4f18e8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b47274609279654d5f82a60c4f18e8a">&#9670;&#160;</a></span>MR_RebuildMeshSettings_GetMutable_fwn()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="std__shared__ptr__MR__IFastWindingNumber_8h.html#a264b5271a8409b6f782f8649cf34c164">MR_std_shared_ptr_MR_IFastWindingNumber</a> * MR_RebuildMeshSettings_GetMutable_fwn </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>defines particular implementation of IFastWindingNumber interface that will compute windings (if required). If it is not specified, default FastWindingNumber is used Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1RebuildMeshSettings.html">MR::RebuildMeshSettings</a></code> named <code>fwn</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a7b445726c2ecb70b40ebf0962976b82d" name="a7b445726c2ecb70b40ebf0962976b82d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b445726c2ecb70b40ebf0962976b82d">&#9670;&#160;</a></span>MR_RebuildMeshSettings_GetMutable_offsetMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MREnums_8h.html#ac184e1044255fc4ab3441599f7b90cb2">MR_OffsetMode</a> * MR_RebuildMeshSettings_GetMutable_offsetMode </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1RebuildMeshSettings.html">MR::RebuildMeshSettings</a></code> named <code>offsetMode</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a79f1c6a23bebabd63ae44efe4475b1ef" name="a79f1c6a23bebabd63ae44efe4475b1ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79f1c6a23bebabd63ae44efe4475b1ef">&#9670;&#160;</a></span>MR_RebuildMeshSettings_GetMutable_onSignDetectionModeSelected()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="std__function__void__from__MR__SignDetectionMode_8h.html#a22d2ec9cd17ac887031de93b58b597b7">MR_std_function_void_from_MR_SignDetectionMode</a> * MR_RebuildMeshSettings_GetMutable_onSignDetectionModeSelected </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>this callback is invoked when SignDetectionMode is determined (useful if signMode = SignDetectionModeShort::Auto), but before actual work begins Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1RebuildMeshSettings.html">MR::RebuildMeshSettings</a></code> named <code>onSignDetectionModeSelected</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a4a518cd6bceca8cd3e15464d4b6ce733" name="a4a518cd6bceca8cd3e15464d4b6ce733"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a518cd6bceca8cd3e15464d4b6ce733">&#9670;&#160;</a></span>MR_RebuildMeshSettings_GetMutable_outSharpEdges()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> ** MR_RebuildMeshSettings_GetMutable_outSharpEdges </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if non-null then created sharp edges (only if offsetMode = OffsetMode::Sharpening) will be saved here Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1RebuildMeshSettings.html">MR::RebuildMeshSettings</a></code> named <code>outSharpEdges</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a8afed900787ecee7f81b2110e6da96cb" name="a8afed900787ecee7f81b2110e6da96cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8afed900787ecee7f81b2110e6da96cb">&#9670;&#160;</a></span>MR_RebuildMeshSettings_GetMutable_preSubdivide()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool * MR_RebuildMeshSettings_GetMutable_preSubdivide </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>whether to make subdivision of initial mesh before conversion to voxels, despite time and memory required for the subdivision, it typically makes the whole rebuilding faster (or even much faster in case of large initial triangles), because AABB tree contains small triangles in leaves, which is good for both 1) search for closest triangle because the closest box more frequently contains the closest triangle, 2) and winding number approximation because of more frequent usage of approximation for distant dipoles Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1RebuildMeshSettings.html">MR::RebuildMeshSettings</a></code> named <code>preSubdivide</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ab1b3c4f7e58cc3d0ea646811d02cf108" name="ab1b3c4f7e58cc3d0ea646811d02cf108"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1b3c4f7e58cc3d0ea646811d02cf108">&#9670;&#160;</a></span>MR_RebuildMeshSettings_GetMutable_progress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> * MR_RebuildMeshSettings_GetMutable_progress </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>To report algorithm's progress and cancel it on user demand Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1RebuildMeshSettings.html">MR::RebuildMeshSettings</a></code> named <code>progress</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a6477d142fd5cc42856123b02c145a276" name="a6477d142fd5cc42856123b02c145a276"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6477d142fd5cc42856123b02c145a276">&#9670;&#160;</a></span>MR_RebuildMeshSettings_GetMutable_signMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRSignDetectionMode_8h.html#a72267b400fd34f68348b1d13b36e9cc4">MR_SignDetectionModeShort</a> * MR_RebuildMeshSettings_GetMutable_signMode </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1RebuildMeshSettings.html">MR::RebuildMeshSettings</a></code> named <code>signMode</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ab71ccebdcbf03e51dec9e8b2ca0ec493" name="ab71ccebdcbf03e51dec9e8b2ca0ec493"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab71ccebdcbf03e51dec9e8b2ca0ec493">&#9670;&#160;</a></span>MR_RebuildMeshSettings_GetMutable_tinyEdgeLength()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API float * MR_RebuildMeshSettings_GetMutable_tinyEdgeLength </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>only if decimate = true: edges not longer than this value will be collapsed even if it results in appearance of a triangle with high aspect ratio Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1RebuildMeshSettings.html">MR::RebuildMeshSettings</a></code> named <code>tinyEdgeLength</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="aa0c5a7645330a63326dc8bdc4a104067" name="aa0c5a7645330a63326dc8bdc4a104067"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0c5a7645330a63326dc8bdc4a104067">&#9670;&#160;</a></span>MR_RebuildMeshSettings_GetMutable_voxelSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API float * MR_RebuildMeshSettings_GetMutable_voxelSize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Size of voxel in grid conversions; The user is responsible for setting some positive value here Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1RebuildMeshSettings.html">MR::RebuildMeshSettings</a></code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="afb00ab298a599ec7252d918d4d6f98e4" name="afb00ab298a599ec7252d918d4d6f98e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb00ab298a599ec7252d918d4d6f98e4">&#9670;&#160;</a></span>MR_RebuildMeshSettings_GetMutable_windingNumberBeta()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API float * MR_RebuildMeshSettings_GetMutable_windingNumberBeta </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if general winding number is used to differentiate inside from outside: determines the precision of fast approximation: the more the better, minimum value is 1 Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1RebuildMeshSettings.html">MR::RebuildMeshSettings</a></code> named <code>windingNumberBeta</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a92ca740c829fd1d3859f9044a97d3be4" name="a92ca740c829fd1d3859f9044a97d3be4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92ca740c829fd1d3859f9044a97d3be4">&#9670;&#160;</a></span>MR_RebuildMeshSettings_GetMutable_windingNumberThreshold()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API float * MR_RebuildMeshSettings_GetMutable_windingNumberThreshold </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if general winding number is used to differentiate inside from outside: positive distance if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1RebuildMeshSettings.html">MR::RebuildMeshSettings</a></code> named <code>windingNumberThreshold</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ab884befa59ad674ed64a6116731a6b1f" name="ab884befa59ad674ed64a6116731a6b1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab884befa59ad674ed64a6116731a6b1f">&#9670;&#160;</a></span>MR_RebuildMeshSettings_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> * MR_RebuildMeshSettings_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="afff110bbd93f2d551432f4eb747ab2a0" name="afff110bbd93f2d551432f4eb747ab2a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afff110bbd93f2d551432f4eb747ab2a0">&#9670;&#160;</a></span>MR_RebuildMeshSettings_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> * MR_RebuildMeshSettings_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="ab7ad442ad643ec37331ae1248a66e056" name="ab7ad442ad643ec37331ae1248a66e056"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7ad442ad643ec37331ae1248a66e056">&#9670;&#160;</a></span>MR_RebuildMeshSettings_Set_closeHolesInHoleWindingNumber()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_RebuildMeshSettings_Set_closeHolesInHoleWindingNumber </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>whether to construct closed mesh in signMode = SignDetectionModeShort::HoleWindingNumber Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1RebuildMeshSettings.html">MR::RebuildMeshSettings</a></code> named <code>closeHolesInHoleWindingNumber</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a6094b53d38b8ae1836ea16edf8fb0599" name="a6094b53d38b8ae1836ea16edf8fb0599"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6094b53d38b8ae1836ea16edf8fb0599">&#9670;&#160;</a></span>MR_RebuildMeshSettings_Set_decimate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_RebuildMeshSettings_Set_decimate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>whether to decimate resulting mesh Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1RebuildMeshSettings.html">MR::RebuildMeshSettings</a></code> named <code>decimate</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aa77ea27673e9d52e1b6cd2f058bc67c5" name="aa77ea27673e9d52e1b6cd2f058bc67c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa77ea27673e9d52e1b6cd2f058bc67c5">&#9670;&#160;</a></span>MR_RebuildMeshSettings_Set_fwn()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_RebuildMeshSettings_Set_fwn </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="std__shared__ptr__MR__IFastWindingNumber_8h.html#a264b5271a8409b6f782f8649cf34c164">MR_std_shared_ptr_MR_IFastWindingNumber</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>defines particular implementation of IFastWindingNumber interface that will compute windings (if required). If it is not specified, default FastWindingNumber is used Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1RebuildMeshSettings.html">MR::RebuildMeshSettings</a></code> named <code>fwn</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a210a07c063d36a6a4afc8dd405e97503" name="a210a07c063d36a6a4afc8dd405e97503"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a210a07c063d36a6a4afc8dd405e97503">&#9670;&#160;</a></span>MR_RebuildMeshSettings_Set_offsetMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_RebuildMeshSettings_Set_offsetMode </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MREnums_8h.html#ac184e1044255fc4ab3441599f7b90cb2">MR_OffsetMode</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1RebuildMeshSettings.html">MR::RebuildMeshSettings</a></code> named <code>offsetMode</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a0f9d6a42f3db33d5df60c62cd76da240" name="a0f9d6a42f3db33d5df60c62cd76da240"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f9d6a42f3db33d5df60c62cd76da240">&#9670;&#160;</a></span>MR_RebuildMeshSettings_Set_onSignDetectionModeSelected()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_RebuildMeshSettings_Set_onSignDetectionModeSelected </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="std__function__void__from__MR__SignDetectionMode_8h.html#a22d2ec9cd17ac887031de93b58b597b7">MR_std_function_void_from_MR_SignDetectionMode</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>this callback is invoked when SignDetectionMode is determined (useful if signMode = SignDetectionModeShort::Auto), but before actual work begins Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1RebuildMeshSettings.html">MR::RebuildMeshSettings</a></code> named <code>onSignDetectionModeSelected</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a5d690a3be19817e237733aa4a7ea55ba" name="a5d690a3be19817e237733aa4a7ea55ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d690a3be19817e237733aa4a7ea55ba">&#9670;&#160;</a></span>MR_RebuildMeshSettings_Set_outSharpEdges()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_RebuildMeshSettings_Set_outSharpEdges </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if non-null then created sharp edges (only if offsetMode = OffsetMode::Sharpening) will be saved here Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1RebuildMeshSettings.html">MR::RebuildMeshSettings</a></code> named <code>outSharpEdges</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="af0e8f37b5d765095ea1fe571cc7b3215" name="af0e8f37b5d765095ea1fe571cc7b3215"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0e8f37b5d765095ea1fe571cc7b3215">&#9670;&#160;</a></span>MR_RebuildMeshSettings_Set_preSubdivide()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_RebuildMeshSettings_Set_preSubdivide </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>whether to make subdivision of initial mesh before conversion to voxels, despite time and memory required for the subdivision, it typically makes the whole rebuilding faster (or even much faster in case of large initial triangles), because AABB tree contains small triangles in leaves, which is good for both 1) search for closest triangle because the closest box more frequently contains the closest triangle, 2) and winding number approximation because of more frequent usage of approximation for distant dipoles Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1RebuildMeshSettings.html">MR::RebuildMeshSettings</a></code> named <code>preSubdivide</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="af891f3ff4b42e8916b98ad796180282c" name="af891f3ff4b42e8916b98ad796180282c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af891f3ff4b42e8916b98ad796180282c">&#9670;&#160;</a></span>MR_RebuildMeshSettings_Set_progress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_RebuildMeshSettings_Set_progress </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>To report algorithm's progress and cancel it on user demand Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1RebuildMeshSettings.html">MR::RebuildMeshSettings</a></code> named <code>progress</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a9500530abaab3cd6afb2f43eb265ec8e" name="a9500530abaab3cd6afb2f43eb265ec8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9500530abaab3cd6afb2f43eb265ec8e">&#9670;&#160;</a></span>MR_RebuildMeshSettings_Set_signMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_RebuildMeshSettings_Set_signMode </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRSignDetectionMode_8h.html#a72267b400fd34f68348b1d13b36e9cc4">MR_SignDetectionModeShort</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1RebuildMeshSettings.html">MR::RebuildMeshSettings</a></code> named <code>signMode</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a942c872ad88916feebf56c9b3384f686" name="a942c872ad88916feebf56c9b3384f686"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a942c872ad88916feebf56c9b3384f686">&#9670;&#160;</a></span>MR_RebuildMeshSettings_Set_tinyEdgeLength()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_RebuildMeshSettings_Set_tinyEdgeLength </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>only if decimate = true: edges not longer than this value will be collapsed even if it results in appearance of a triangle with high aspect ratio Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1RebuildMeshSettings.html">MR::RebuildMeshSettings</a></code> named <code>tinyEdgeLength</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a69027d1e08708613ba28f8a0c3f1379b" name="a69027d1e08708613ba28f8a0c3f1379b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69027d1e08708613ba28f8a0c3f1379b">&#9670;&#160;</a></span>MR_RebuildMeshSettings_Set_voxelSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_RebuildMeshSettings_Set_voxelSize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Size of voxel in grid conversions; The user is responsible for setting some positive value here Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1RebuildMeshSettings.html">MR::RebuildMeshSettings</a></code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a64eb5b5f141e47d4e11bd098bdaae178" name="a64eb5b5f141e47d4e11bd098bdaae178"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64eb5b5f141e47d4e11bd098bdaae178">&#9670;&#160;</a></span>MR_RebuildMeshSettings_Set_windingNumberBeta()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_RebuildMeshSettings_Set_windingNumberBeta </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if general winding number is used to differentiate inside from outside: determines the precision of fast approximation: the more the better, minimum value is 1 Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1RebuildMeshSettings.html">MR::RebuildMeshSettings</a></code> named <code>windingNumberBeta</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a18c67643bba4000b6900bae869d03c94" name="a18c67643bba4000b6900bae869d03c94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18c67643bba4000b6900bae869d03c94">&#9670;&#160;</a></span>MR_RebuildMeshSettings_Set_windingNumberThreshold()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_RebuildMeshSettings_Set_windingNumberThreshold </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa2853cd7a55a4391d2d36fb2e810eedb">MR_RebuildMeshSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if general winding number is used to differentiate inside from outside: positive distance if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1RebuildMeshSettings.html">MR::RebuildMeshSettings</a></code> named <code>windingNumberThreshold</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_87d38852fc01aff5f853718c8d8b5cb2.html">Cbindings</a></li><li class="navelem"><a class="el" href="dir_f3347e714ce645328a0f1e84cdba4df7.html">MRCVoxels</a></li><li class="navelem"><a class="el" href="MRRebuildMesh_8h.html">MRRebuildMesh.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,1166 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: MRTeethMaskToDirectionVolume.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('MRTeethMaskToDirectionVolume_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">MRTeethMaskToDirectionVolume.h File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="MRAffineXf_8h_source.html">MRCMesh/MRAffineXf.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
+<code>#include &lt;stdint.h&gt;</code><br />
+</div>
+<p><a href="MRTeethMaskToDirectionVolume_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a3d8aa59058b2516d2c9b34241f2c0441" id="r_a3d8aa59058b2516d2c9b34241f2c0441"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRBox_8h.html#a3d8aa59058b2516d2c9b34241f2c0441">MR_VdbVolume</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d8aa59058b2516d2c9b34241f2c0441">MR_VdbVolume</a></td></tr>
+<tr class="separator:a3d8aa59058b2516d2c9b34241f2c0441"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab456714ac10941c863782f86be8c4e59" id="r_ab456714ac10941c863782f86be8c4e59"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__ProcessResult__std__string_8h.html#ab456714ac10941c863782f86be8c4e59">MR_expected_MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab456714ac10941c863782f86be8c4e59">MR_expected_MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_std_string</a></td></tr>
+<tr class="separator:ab456714ac10941c863782f86be8c4e59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada3c6705192ecf017ccdd4dd06d14db2" id="r_ada3c6705192ecf017ccdd4dd06d14db2"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__std__string_8h.html#ada3c6705192ecf017ccdd4dd06d14db2">MR_expected_MR_TeethMaskToDirectionVolumeConvertor_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada3c6705192ecf017ccdd4dd06d14db2">MR_expected_MR_TeethMaskToDirectionVolumeConvertor_std_string</a></td></tr>
+<tr class="separator:ada3c6705192ecf017ccdd4dd06d14db2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3554f92b96c0a2d817a822991c8b2bfc" id="r_a3554f92b96c0a2d817a822991c8b2bfc"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="expected__std__array__MR__SimpleVolumeMinMax__3__std__string_8h.html#a3554f92b96c0a2d817a822991c8b2bfc">MR_expected_std_array_MR_SimpleVolumeMinMax_3_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3554f92b96c0a2d817a822991c8b2bfc">MR_expected_std_array_MR_SimpleVolumeMinMax_3_std_string</a></td></tr>
+<tr class="separator:a3554f92b96c0a2d817a822991c8b2bfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2258f2b6955b96183d9dc53e077c594a" id="r_a2258f2b6955b96183d9dc53e077c594a"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="phmap__flat__hash__map__int32__t__MR__Box3i__phmap__Hash__int32__t_8h.html#a2258f2b6955b96183d9dc53e077c594a">MR_phmap_flat_hash_map_int32_t_MR_Box3i_phmap_Hash_int32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2258f2b6955b96183d9dc53e077c594a">MR_phmap_flat_hash_map_int32_t_MR_Box3i_phmap_Hash_int32_t</a></td></tr>
+<tr class="separator:a2258f2b6955b96183d9dc53e077c594a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a141bfd9c399b4067c50ea9b395c34036" id="r_a141bfd9c399b4067c50ea9b395c34036"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="expected__std__array__MR__SimpleVolumeMinMax__3__std__string_8h.html#a141bfd9c399b4067c50ea9b395c34036">MR_std_array_MR_SimpleVolumeMinMax_3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a141bfd9c399b4067c50ea9b395c34036">MR_std_array_MR_SimpleVolumeMinMax_3</a></td></tr>
+<tr class="separator:a141bfd9c399b4067c50ea9b395c34036"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70e90e25000fe83f068e20390c444a01" id="r_a70e90e25000fe83f068e20390c444a01"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="std__optional__MR__DentalId_8h.html#a70e90e25000fe83f068e20390c444a01">MR_std_optional_MR_DentalId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70e90e25000fe83f068e20390c444a01">MR_std_optional_MR_DentalId</a></td></tr>
+<tr class="separator:a70e90e25000fe83f068e20390c444a01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3f10f6b559b293d87a6320a3b17ccc6" id="r_af3f10f6b559b293d87a6320a3b17ccc6"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRIntersectionContour_8h.html#af3f10f6b559b293d87a6320a3b17ccc6">MR_std_vector_int32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3f10f6b559b293d87a6320a3b17ccc6">MR_std_vector_int32_t</a></td></tr>
+<tr class="separator:af3f10f6b559b293d87a6320a3b17ccc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7bd897125b1d83316b5e001e044804b" id="r_ad7bd897125b1d83316b5e001e044804b"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="std__optional__MR__DentalId_8h.html#ad7bd897125b1d83316b5e001e044804b">MR_DentalId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad7bd897125b1d83316b5e001e044804b">MR_DentalId</a></td></tr>
+<tr class="separator:ad7bd897125b1d83316b5e001e044804b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa30b1977d5827fa4332728b958ee1381" id="r_aa30b1977d5827fa4332728b958ee1381"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__std__string_8h.html#aa30b1977d5827fa4332728b958ee1381">MR_TeethMaskToDirectionVolumeConvertor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa30b1977d5827fa4332728b958ee1381">MR_TeethMaskToDirectionVolumeConvertor</a></td></tr>
+<tr class="separator:aa30b1977d5827fa4332728b958ee1381"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23d9f9dfce98967576082c7b44d0f0cd" id="r_a23d9f9dfce98967576082c7b44d0f0cd"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__ProcessResult__std__string_8h.html#a23d9f9dfce98967576082c7b44d0f0cd">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a23d9f9dfce98967576082c7b44d0f0cd">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</a></td></tr>
+<tr class="memdesc:a23d9f9dfce98967576082c7b44d0f0cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html">MR::TeethMaskToDirectionVolumeConvertor::ProcessResult</a></code>.  <br /></td></tr>
+<tr class="separator:a23d9f9dfce98967576082c7b44d0f0cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a3d5afb97aa2f556f52c582b2c45d7bef" id="r_a3d5afb97aa2f556f52c582b2c45d7bef"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="std__optional__MR__DentalId_8h.html#ad7bd897125b1d83316b5e001e044804b">MR_DentalId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d5afb97aa2f556f52c582b2c45d7bef">MR_DentalId_ConstructFromAnother</a> (const <a class="el" href="std__optional__MR__DentalId_8h.html#ad7bd897125b1d83316b5e001e044804b">MR_DentalId</a> *_other)</td></tr>
+<tr class="separator:a3d5afb97aa2f556f52c582b2c45d7bef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc4c4bed39a6ec56323b513f40134245" id="r_afc4c4bed39a6ec56323b513f40134245"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="std__optional__MR__DentalId_8h.html#ad7bd897125b1d83316b5e001e044804b">MR_DentalId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc4c4bed39a6ec56323b513f40134245">MR_DentalId_OffsetPtr</a> (const <a class="el" href="std__optional__MR__DentalId_8h.html#ad7bd897125b1d83316b5e001e044804b">MR_DentalId</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:afc4c4bed39a6ec56323b513f40134245"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:afc4c4bed39a6ec56323b513f40134245"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d7b42e9177e346e39aa0eaa8e9d4e0d" id="r_a3d7b42e9177e346e39aa0eaa8e9d4e0d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="std__optional__MR__DentalId_8h.html#ad7bd897125b1d83316b5e001e044804b">MR_DentalId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d7b42e9177e346e39aa0eaa8e9d4e0d">MR_DentalId_OffsetMutablePtr</a> (<a class="el" href="std__optional__MR__DentalId_8h.html#ad7bd897125b1d83316b5e001e044804b">MR_DentalId</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a3d7b42e9177e346e39aa0eaa8e9d4e0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a3d7b42e9177e346e39aa0eaa8e9d4e0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99443e08074f5d4ba377d226fd060456" id="r_a99443e08074f5d4ba377d226fd060456"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a99443e08074f5d4ba377d226fd060456">MR_DentalId_Destroy</a> (const <a class="el" href="std__optional__MR__DentalId_8h.html#ad7bd897125b1d83316b5e001e044804b">MR_DentalId</a> *_this)</td></tr>
+<tr class="memdesc:a99443e08074f5d4ba377d226fd060456"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_DentalId</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a99443e08074f5d4ba377d226fd060456"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9d0bc8a1ea2fefb75d4c3b99cb42617" id="r_af9d0bc8a1ea2fefb75d4c3b99cb42617"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9d0bc8a1ea2fefb75d4c3b99cb42617">MR_DentalId_DestroyArray</a> (const <a class="el" href="std__optional__MR__DentalId_8h.html#ad7bd897125b1d83316b5e001e044804b">MR_DentalId</a> *_this)</td></tr>
+<tr class="memdesc:af9d0bc8a1ea2fefb75d4c3b99cb42617"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_DentalId</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:af9d0bc8a1ea2fefb75d4c3b99cb42617"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae410a30fa357fbbe725d96ea4ef45625" id="r_ae410a30fa357fbbe725d96ea4ef45625"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="std__optional__MR__DentalId_8h.html#ad7bd897125b1d83316b5e001e044804b">MR_DentalId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae410a30fa357fbbe725d96ea4ef45625">MR_DentalId_AssignFromAnother</a> (<a class="el" href="std__optional__MR__DentalId_8h.html#ad7bd897125b1d83316b5e001e044804b">MR_DentalId</a> *_this, const <a class="el" href="std__optional__MR__DentalId_8h.html#ad7bd897125b1d83316b5e001e044804b">MR_DentalId</a> *_other)</td></tr>
+<tr class="separator:ae410a30fa357fbbe725d96ea4ef45625"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5edfa76891c3e733253bcb7ff5d79d8f" id="r_a5edfa76891c3e733253bcb7ff5d79d8f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="std__optional__MR__DentalId_8h.html#a70e90e25000fe83f068e20390c444a01">MR_std_optional_MR_DentalId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5edfa76891c3e733253bcb7ff5d79d8f">MR_DentalId_fromFDI</a> (int32_t id)</td></tr>
+<tr class="separator:a5edfa76891c3e733253bcb7ff5d79d8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5998032cee5e714b2ae6bb34aea3cd17" id="r_a5998032cee5e714b2ae6bb34aea3cd17"><td class="memItemLeft" align="right" valign="top">MRC_API int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5998032cee5e714b2ae6bb34aea3cd17">MR_DentalId_fdi</a> (const <a class="el" href="std__optional__MR__DentalId_8h.html#ad7bd897125b1d83316b5e001e044804b">MR_DentalId</a> *_this)</td></tr>
+<tr class="separator:a5998032cee5e714b2ae6bb34aea3cd17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad76a5a3c81a616d0db9b65e0167cd2e" id="r_aad76a5a3c81a616d0db9b65e0167cd2e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__std__string_8h.html#aa30b1977d5827fa4332728b958ee1381">MR_TeethMaskToDirectionVolumeConvertor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad76a5a3c81a616d0db9b65e0167cd2e">MR_TeethMaskToDirectionVolumeConvertor_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__std__string_8h.html#aa30b1977d5827fa4332728b958ee1381">MR_TeethMaskToDirectionVolumeConvertor</a> *_other)</td></tr>
+<tr class="separator:aad76a5a3c81a616d0db9b65e0167cd2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc3a55e0d776abdc696afd67f2205340" id="r_adc3a55e0d776abdc696afd67f2205340"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__std__string_8h.html#aa30b1977d5827fa4332728b958ee1381">MR_TeethMaskToDirectionVolumeConvertor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc3a55e0d776abdc696afd67f2205340">MR_TeethMaskToDirectionVolumeConvertor_OffsetPtr</a> (const <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__std__string_8h.html#aa30b1977d5827fa4332728b958ee1381">MR_TeethMaskToDirectionVolumeConvertor</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:adc3a55e0d776abdc696afd67f2205340"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:adc3a55e0d776abdc696afd67f2205340"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a136a72576e83d6a34e74867679ea5482" id="r_a136a72576e83d6a34e74867679ea5482"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__std__string_8h.html#aa30b1977d5827fa4332728b958ee1381">MR_TeethMaskToDirectionVolumeConvertor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a136a72576e83d6a34e74867679ea5482">MR_TeethMaskToDirectionVolumeConvertor_OffsetMutablePtr</a> (<a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__std__string_8h.html#aa30b1977d5827fa4332728b958ee1381">MR_TeethMaskToDirectionVolumeConvertor</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a136a72576e83d6a34e74867679ea5482"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a136a72576e83d6a34e74867679ea5482"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b9acf6979daf99cb75ea2e73bc8dfef" id="r_a4b9acf6979daf99cb75ea2e73bc8dfef"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b9acf6979daf99cb75ea2e73bc8dfef">MR_TeethMaskToDirectionVolumeConvertor_Destroy</a> (const <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__std__string_8h.html#aa30b1977d5827fa4332728b958ee1381">MR_TeethMaskToDirectionVolumeConvertor</a> *_this)</td></tr>
+<tr class="memdesc:a4b9acf6979daf99cb75ea2e73bc8dfef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_TeethMaskToDirectionVolumeConvertor</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a4b9acf6979daf99cb75ea2e73bc8dfef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1b5431a034c576f358fbea02d4ee2f5" id="r_ad1b5431a034c576f358fbea02d4ee2f5"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1b5431a034c576f358fbea02d4ee2f5">MR_TeethMaskToDirectionVolumeConvertor_DestroyArray</a> (const <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__std__string_8h.html#aa30b1977d5827fa4332728b958ee1381">MR_TeethMaskToDirectionVolumeConvertor</a> *_this)</td></tr>
+<tr class="memdesc:ad1b5431a034c576f358fbea02d4ee2f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_TeethMaskToDirectionVolumeConvertor</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ad1b5431a034c576f358fbea02d4ee2f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25b03b68f178c7d0e037abc80a20f680" id="r_a25b03b68f178c7d0e037abc80a20f680"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__std__string_8h.html#aa30b1977d5827fa4332728b958ee1381">MR_TeethMaskToDirectionVolumeConvertor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25b03b68f178c7d0e037abc80a20f680">MR_TeethMaskToDirectionVolumeConvertor_AssignFromAnother</a> (<a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__std__string_8h.html#aa30b1977d5827fa4332728b958ee1381">MR_TeethMaskToDirectionVolumeConvertor</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__std__string_8h.html#aa30b1977d5827fa4332728b958ee1381">MR_TeethMaskToDirectionVolumeConvertor</a> *_other)</td></tr>
+<tr class="separator:a25b03b68f178c7d0e037abc80a20f680"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a014b0756e624b89114d3169f950a808e" id="r_a014b0756e624b89114d3169f950a808e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__std__string_8h.html#ada3c6705192ecf017ccdd4dd06d14db2">MR_expected_MR_TeethMaskToDirectionVolumeConvertor_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a014b0756e624b89114d3169f950a808e">MR_TeethMaskToDirectionVolumeConvertor_create</a> (const <a class="el" href="MRBox_8h.html#a3d8aa59058b2516d2c9b34241f2c0441">MR_VdbVolume</a> *volume, const <a class="el" href="MRIntersectionContour_8h.html#af3f10f6b559b293d87a6320a3b17ccc6">MR_std_vector_int32_t</a> *additionalIds)</td></tr>
+<tr class="separator:a014b0756e624b89114d3169f950a808e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d6b87cec0d5f21f4d317fe6a88ef494" id="r_a7d6b87cec0d5f21f4d317fe6a88ef494"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="phmap__flat__hash__map__int32__t__MR__Box3i__phmap__Hash__int32__t_8h.html#a2258f2b6955b96183d9dc53e077c594a">MR_phmap_flat_hash_map_int32_t_MR_Box3i_phmap_Hash_int32_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d6b87cec0d5f21f4d317fe6a88ef494">MR_TeethMaskToDirectionVolumeConvertor_getObjectBounds</a> (const <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__std__string_8h.html#aa30b1977d5827fa4332728b958ee1381">MR_TeethMaskToDirectionVolumeConvertor</a> *_this)</td></tr>
+<tr class="separator:a7d6b87cec0d5f21f4d317fe6a88ef494"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cc13182cb488f8468b0b2952c737ec2" id="r_a3cc13182cb488f8468b0b2952c737ec2"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__ProcessResult__std__string_8h.html#ab456714ac10941c863782f86be8c4e59">MR_expected_MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3cc13182cb488f8468b0b2952c737ec2">MR_TeethMaskToDirectionVolumeConvertor_convertObject</a> (const <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__std__string_8h.html#aa30b1977d5827fa4332728b958ee1381">MR_TeethMaskToDirectionVolumeConvertor</a> *_this, int32_t id)</td></tr>
+<tr class="separator:a3cc13182cb488f8468b0b2952c737ec2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefc76f1f049fee37d25bad8ae672a692" id="r_aefc76f1f049fee37d25bad8ae672a692"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__ProcessResult__std__string_8h.html#ab456714ac10941c863782f86be8c4e59">MR_expected_MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefc76f1f049fee37d25bad8ae672a692">MR_TeethMaskToDirectionVolumeConvertor_convertAll</a> (const <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__std__string_8h.html#aa30b1977d5827fa4332728b958ee1381">MR_TeethMaskToDirectionVolumeConvertor</a> *_this)</td></tr>
+<tr class="separator:aefc76f1f049fee37d25bad8ae672a692"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a9438765f0d6b2099f5c8cc99a41b1f" id="r_a6a9438765f0d6b2099f5c8cc99a41b1f"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="expected__std__array__MR__SimpleVolumeMinMax__3__std__string_8h.html#a141bfd9c399b4067c50ea9b395c34036">MR_std_array_MR_SimpleVolumeMinMax_3</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a9438765f0d6b2099f5c8cc99a41b1f">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_Get_volume</a> (const <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__ProcessResult__std__string_8h.html#a23d9f9dfce98967576082c7b44d0f0cd">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</a> *_this)</td></tr>
+<tr class="separator:a6a9438765f0d6b2099f5c8cc99a41b1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e3d2c3eb6391f76af32eb0ead762bd3" id="r_a2e3d2c3eb6391f76af32eb0ead762bd3"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e3d2c3eb6391f76af32eb0ead762bd3">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_Set_volume</a> (<a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__ProcessResult__std__string_8h.html#a23d9f9dfce98967576082c7b44d0f0cd">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="expected__std__array__MR__SimpleVolumeMinMax__3__std__string_8h.html#a141bfd9c399b4067c50ea9b395c34036">MR_std_array_MR_SimpleVolumeMinMax_3</a> *value)</td></tr>
+<tr class="separator:a2e3d2c3eb6391f76af32eb0ead762bd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a218713967d7651b497e9b2f012a70048" id="r_a218713967d7651b497e9b2f012a70048"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__std__array__MR__SimpleVolumeMinMax__3__std__string_8h.html#a141bfd9c399b4067c50ea9b395c34036">MR_std_array_MR_SimpleVolumeMinMax_3</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a218713967d7651b497e9b2f012a70048">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_GetMutable_volume</a> (<a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__ProcessResult__std__string_8h.html#a23d9f9dfce98967576082c7b44d0f0cd">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</a> *_this)</td></tr>
+<tr class="separator:a218713967d7651b497e9b2f012a70048"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a878e92734466502a3c1f69adc2c332d7" id="r_a878e92734466502a3c1f69adc2c332d7"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a878e92734466502a3c1f69adc2c332d7">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_Get_xf</a> (const <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__ProcessResult__std__string_8h.html#a23d9f9dfce98967576082c7b44d0f0cd">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</a> *_this)</td></tr>
+<tr class="separator:a878e92734466502a3c1f69adc2c332d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f3758e285f020d5c6f33a0898a1fd55" id="r_a6f3758e285f020d5c6f33a0898a1fd55"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f3758e285f020d5c6f33a0898a1fd55">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_Set_xf</a> (<a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__ProcessResult__std__string_8h.html#a23d9f9dfce98967576082c7b44d0f0cd">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</a> *_this, <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> value)</td></tr>
+<tr class="separator:a6f3758e285f020d5c6f33a0898a1fd55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a630d4fc134b2174c7475c22ac8959ce5" id="r_a630d4fc134b2174c7475c22ac8959ce5"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a630d4fc134b2174c7475c22ac8959ce5">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_GetMutable_xf</a> (<a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__ProcessResult__std__string_8h.html#a23d9f9dfce98967576082c7b44d0f0cd">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</a> *_this)</td></tr>
+<tr class="separator:a630d4fc134b2174c7475c22ac8959ce5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a616bb9594f73581f26b7b350aa0c8d" id="r_a0a616bb9594f73581f26b7b350aa0c8d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__ProcessResult__std__string_8h.html#a23d9f9dfce98967576082c7b44d0f0cd">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a616bb9594f73581f26b7b350aa0c8d">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a0a616bb9594f73581f26b7b350aa0c8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbc9a08ff2df92b17e58076a56c3bfba" id="r_abbc9a08ff2df92b17e58076a56c3bfba"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__ProcessResult__std__string_8h.html#a23d9f9dfce98967576082c7b44d0f0cd">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abbc9a08ff2df92b17e58076a56c3bfba">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:abbc9a08ff2df92b17e58076a56c3bfba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d80a5d2b45e8e2d2354b7b505a119c1" id="r_a4d80a5d2b45e8e2d2354b7b505a119c1"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__ProcessResult__std__string_8h.html#a23d9f9dfce98967576082c7b44d0f0cd">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d80a5d2b45e8e2d2354b7b505a119c1">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_ConstructFrom</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> volume_pass_by, <a class="el" href="expected__std__array__MR__SimpleVolumeMinMax__3__std__string_8h.html#a141bfd9c399b4067c50ea9b395c34036">MR_std_array_MR_SimpleVolumeMinMax_3</a> *volume, <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> xf)</td></tr>
+<tr class="separator:a4d80a5d2b45e8e2d2354b7b505a119c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ef9e9dfc729831e2bc673dc4f417339" id="r_a4ef9e9dfc729831e2bc673dc4f417339"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__ProcessResult__std__string_8h.html#a23d9f9dfce98967576082c7b44d0f0cd">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ef9e9dfc729831e2bc673dc4f417339">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_OffsetPtr</a> (const <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__ProcessResult__std__string_8h.html#a23d9f9dfce98967576082c7b44d0f0cd">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a4ef9e9dfc729831e2bc673dc4f417339"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a4ef9e9dfc729831e2bc673dc4f417339"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38d888f69dd533b9403128df2307711f" id="r_a38d888f69dd533b9403128df2307711f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__ProcessResult__std__string_8h.html#a23d9f9dfce98967576082c7b44d0f0cd">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38d888f69dd533b9403128df2307711f">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_OffsetMutablePtr</a> (<a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__ProcessResult__std__string_8h.html#a23d9f9dfce98967576082c7b44d0f0cd">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a38d888f69dd533b9403128df2307711f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a38d888f69dd533b9403128df2307711f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23799a124c354bec54db015b40077287" id="r_a23799a124c354bec54db015b40077287"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__ProcessResult__std__string_8h.html#a23d9f9dfce98967576082c7b44d0f0cd">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a23799a124c354bec54db015b40077287">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__ProcessResult__std__string_8h.html#a23d9f9dfce98967576082c7b44d0f0cd">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</a> *_other)</td></tr>
+<tr class="separator:a23799a124c354bec54db015b40077287"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b42cfed72ec071767baaf3dfb4f2132" id="r_a0b42cfed72ec071767baaf3dfb4f2132"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b42cfed72ec071767baaf3dfb4f2132">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_Destroy</a> (const <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__ProcessResult__std__string_8h.html#a23d9f9dfce98967576082c7b44d0f0cd">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</a> *_this)</td></tr>
+<tr class="memdesc:a0b42cfed72ec071767baaf3dfb4f2132"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a0b42cfed72ec071767baaf3dfb4f2132"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8798ff5f49faa799dd73964a221f7e94" id="r_a8798ff5f49faa799dd73964a221f7e94"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8798ff5f49faa799dd73964a221f7e94">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_DestroyArray</a> (const <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__ProcessResult__std__string_8h.html#a23d9f9dfce98967576082c7b44d0f0cd">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</a> *_this)</td></tr>
+<tr class="memdesc:a8798ff5f49faa799dd73964a221f7e94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a8798ff5f49faa799dd73964a221f7e94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bc762bc101073a24ee3b8c0c41e119b" id="r_a6bc762bc101073a24ee3b8c0c41e119b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__ProcessResult__std__string_8h.html#a23d9f9dfce98967576082c7b44d0f0cd">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6bc762bc101073a24ee3b8c0c41e119b">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_AssignFromAnother</a> (<a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__ProcessResult__std__string_8h.html#a23d9f9dfce98967576082c7b44d0f0cd">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__ProcessResult__std__string_8h.html#a23d9f9dfce98967576082c7b44d0f0cd">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</a> *_other)</td></tr>
+<tr class="separator:a6bc762bc101073a24ee3b8c0c41e119b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad52f29d707d7291fc529075dc193d08b" id="r_ad52f29d707d7291fc529075dc193d08b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__std__array__MR__SimpleVolumeMinMax__3__std__string_8h.html#a3554f92b96c0a2d817a822991c8b2bfc">MR_expected_std_array_MR_SimpleVolumeMinMax_3_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad52f29d707d7291fc529075dc193d08b">MR_teethMaskToDirectionVolume</a> (const <a class="el" href="MRBox_8h.html#a3d8aa59058b2516d2c9b34241f2c0441">MR_VdbVolume</a> *volume, const <a class="el" href="MRIntersectionContour_8h.html#af3f10f6b559b293d87a6320a3b17ccc6">MR_std_vector_int32_t</a> *additionalIds)</td></tr>
+<tr class="separator:ad52f29d707d7291fc529075dc193d08b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="ad7bd897125b1d83316b5e001e044804b" name="ad7bd897125b1d83316b5e001e044804b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7bd897125b1d83316b5e001e044804b">&#9670;&#160;</a></span>MR_DentalId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="std__optional__MR__DentalId_8h.html#ad7bd897125b1d83316b5e001e044804b">MR_DentalId</a> <a class="el" href="std__optional__MR__DentalId_8h.html#ad7bd897125b1d83316b5e001e044804b">MR_DentalId</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This class represents tooth id Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1DentalId.html">MR::DentalId</a></code>. </p>
+
+</div>
+</div>
+<a id="ab456714ac10941c863782f86be8c4e59" name="ab456714ac10941c863782f86be8c4e59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab456714ac10941c863782f86be8c4e59">&#9670;&#160;</a></span>MR_expected_MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_std_string</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__ProcessResult__std__string_8h.html#ab456714ac10941c863782f86be8c4e59">MR_expected_MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_std_string</a> <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__ProcessResult__std__string_8h.html#ab456714ac10941c863782f86be8c4e59">MR_expected_MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_std_string</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ada3c6705192ecf017ccdd4dd06d14db2" name="ada3c6705192ecf017ccdd4dd06d14db2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada3c6705192ecf017ccdd4dd06d14db2">&#9670;&#160;</a></span>MR_expected_MR_TeethMaskToDirectionVolumeConvertor_std_string</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__std__string_8h.html#ada3c6705192ecf017ccdd4dd06d14db2">MR_expected_MR_TeethMaskToDirectionVolumeConvertor_std_string</a> <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__std__string_8h.html#ada3c6705192ecf017ccdd4dd06d14db2">MR_expected_MR_TeethMaskToDirectionVolumeConvertor_std_string</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3554f92b96c0a2d817a822991c8b2bfc" name="a3554f92b96c0a2d817a822991c8b2bfc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3554f92b96c0a2d817a822991c8b2bfc">&#9670;&#160;</a></span>MR_expected_std_array_MR_SimpleVolumeMinMax_3_std_string</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="expected__std__array__MR__SimpleVolumeMinMax__3__std__string_8h.html#a3554f92b96c0a2d817a822991c8b2bfc">MR_expected_std_array_MR_SimpleVolumeMinMax_3_std_string</a> <a class="el" href="expected__std__array__MR__SimpleVolumeMinMax__3__std__string_8h.html#a3554f92b96c0a2d817a822991c8b2bfc">MR_expected_std_array_MR_SimpleVolumeMinMax_3_std_string</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2258f2b6955b96183d9dc53e077c594a" name="a2258f2b6955b96183d9dc53e077c594a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2258f2b6955b96183d9dc53e077c594a">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_int32_t_MR_Box3i_phmap_Hash_int32_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="phmap__flat__hash__map__int32__t__MR__Box3i__phmap__Hash__int32__t_8h.html#a2258f2b6955b96183d9dc53e077c594a">MR_phmap_flat_hash_map_int32_t_MR_Box3i_phmap_Hash_int32_t</a> <a class="el" href="phmap__flat__hash__map__int32__t__MR__Box3i__phmap__Hash__int32__t_8h.html#a2258f2b6955b96183d9dc53e077c594a">MR_phmap_flat_hash_map_int32_t_MR_Box3i_phmap_Hash_int32_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a141bfd9c399b4067c50ea9b395c34036" name="a141bfd9c399b4067c50ea9b395c34036"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a141bfd9c399b4067c50ea9b395c34036">&#9670;&#160;</a></span>MR_std_array_MR_SimpleVolumeMinMax_3</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="expected__std__array__MR__SimpleVolumeMinMax__3__std__string_8h.html#a141bfd9c399b4067c50ea9b395c34036">MR_std_array_MR_SimpleVolumeMinMax_3</a> <a class="el" href="expected__std__array__MR__SimpleVolumeMinMax__3__std__string_8h.html#a141bfd9c399b4067c50ea9b395c34036">MR_std_array_MR_SimpleVolumeMinMax_3</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a70e90e25000fe83f068e20390c444a01" name="a70e90e25000fe83f068e20390c444a01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70e90e25000fe83f068e20390c444a01">&#9670;&#160;</a></span>MR_std_optional_MR_DentalId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="std__optional__MR__DentalId_8h.html#a70e90e25000fe83f068e20390c444a01">MR_std_optional_MR_DentalId</a> <a class="el" href="std__optional__MR__DentalId_8h.html#a70e90e25000fe83f068e20390c444a01">MR_std_optional_MR_DentalId</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af3f10f6b559b293d87a6320a3b17ccc6" name="af3f10f6b559b293d87a6320a3b17ccc6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3f10f6b559b293d87a6320a3b17ccc6">&#9670;&#160;</a></span>MR_std_vector_int32_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRIntersectionContour_8h.html#af3f10f6b559b293d87a6320a3b17ccc6">MR_std_vector_int32_t</a> <a class="el" href="MRIntersectionContour_8h.html#af3f10f6b559b293d87a6320a3b17ccc6">MR_std_vector_int32_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa30b1977d5827fa4332728b958ee1381" name="aa30b1977d5827fa4332728b958ee1381"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa30b1977d5827fa4332728b958ee1381">&#9670;&#160;</a></span>MR_TeethMaskToDirectionVolumeConvertor</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__std__string_8h.html#aa30b1977d5827fa4332728b958ee1381">MR_TeethMaskToDirectionVolumeConvertor</a> <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__std__string_8h.html#aa30b1977d5827fa4332728b958ee1381">MR_TeethMaskToDirectionVolumeConvertor</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This class is an alternative to directly invoking meshToDirectionVolume for the mesh retrieved from the teeth mask. It is better because when a single mesh is created from mask, some neighboring teeth might fuse together, creating incorrect mask. This class invokes meshing for each teeth separately, thus eliminating this problem. Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1TeethMaskToDirectionVolumeConvertor.html">MR::TeethMaskToDirectionVolumeConvertor</a></code>. </p>
+
+</div>
+</div>
+<a id="a23d9f9dfce98967576082c7b44d0f0cd" name="a23d9f9dfce98967576082c7b44d0f0cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23d9f9dfce98967576082c7b44d0f0cd">&#9670;&#160;</a></span>MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__ProcessResult__std__string_8h.html#a23d9f9dfce98967576082c7b44d0f0cd">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</a> <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__ProcessResult__std__string_8h.html#a23d9f9dfce98967576082c7b44d0f0cd">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html">MR::TeethMaskToDirectionVolumeConvertor::ProcessResult</a></code>. </p>
+
+</div>
+</div>
+<a id="a3d8aa59058b2516d2c9b34241f2c0441" name="a3d8aa59058b2516d2c9b34241f2c0441"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d8aa59058b2516d2c9b34241f2c0441">&#9670;&#160;</a></span>MR_VdbVolume</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRBox_8h.html#a3d8aa59058b2516d2c9b34241f2c0441">MR_VdbVolume</a> <a class="el" href="MRBox_8h.html#a3d8aa59058b2516d2c9b34241f2c0441">MR_VdbVolume</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="ae410a30fa357fbbe725d96ea4ef45625" name="ae410a30fa357fbbe725d96ea4ef45625"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae410a30fa357fbbe725d96ea4ef45625">&#9670;&#160;</a></span>MR_DentalId_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="std__optional__MR__DentalId_8h.html#ad7bd897125b1d83316b5e001e044804b">MR_DentalId</a> * MR_DentalId_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="std__optional__MR__DentalId_8h.html#ad7bd897125b1d83316b5e001e044804b">MR_DentalId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="std__optional__MR__DentalId_8h.html#ad7bd897125b1d83316b5e001e044804b">MR_DentalId</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DentalId.html">MR::DentalId</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. Parameter <code>_other</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a3d5afb97aa2f556f52c582b2c45d7bef" name="a3d5afb97aa2f556f52c582b2c45d7bef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d5afb97aa2f556f52c582b2c45d7bef">&#9670;&#160;</a></span>MR_DentalId_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="std__optional__MR__DentalId_8h.html#ad7bd897125b1d83316b5e001e044804b">MR_DentalId</a> * MR_DentalId_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="std__optional__MR__DentalId_8h.html#ad7bd897125b1d83316b5e001e044804b">MR_DentalId</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1DentalId.html">MR::DentalId</a></code>. Parameter <code>_other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a99443e08074f5d4ba377d226fd060456" title="Destroys a heap-allocated instance of MR_DentalId. Does nothing if the pointer is null.">MR_DentalId_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a99443e08074f5d4ba377d226fd060456" name="a99443e08074f5d4ba377d226fd060456"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99443e08074f5d4ba377d226fd060456">&#9670;&#160;</a></span>MR_DentalId_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_DentalId_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="std__optional__MR__DentalId_8h.html#ad7bd897125b1d83316b5e001e044804b">MR_DentalId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_DentalId</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="af9d0bc8a1ea2fefb75d4c3b99cb42617" name="af9d0bc8a1ea2fefb75d4c3b99cb42617"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9d0bc8a1ea2fefb75d4c3b99cb42617">&#9670;&#160;</a></span>MR_DentalId_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_DentalId_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="std__optional__MR__DentalId_8h.html#ad7bd897125b1d83316b5e001e044804b">MR_DentalId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_DentalId</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a5998032cee5e714b2ae6bb34aea3cd17" name="a5998032cee5e714b2ae6bb34aea3cd17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5998032cee5e714b2ae6bb34aea3cd17">&#9670;&#160;</a></span>MR_DentalId_fdi()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API int32_t MR_DentalId_fdi </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="std__optional__MR__DentalId_8h.html#ad7bd897125b1d83316b5e001e044804b">MR_DentalId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns FDI representation of the id Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DentalId.html">MR::DentalId</a></code> named <code>fdi</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a5edfa76891c3e733253bcb7ff5d79d8f" name="a5edfa76891c3e733253bcb7ff5d79d8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5edfa76891c3e733253bcb7ff5d79d8f">&#9670;&#160;</a></span>MR_DentalId_fromFDI()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="std__optional__MR__DentalId_8h.html#a70e90e25000fe83f068e20390c444a01">MR_std_optional_MR_DentalId</a> * MR_DentalId_fromFDI </td>
+          <td>(</td>
+          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>id</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Creates id from FDI number known only at runtime Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DentalId.html">MR::DentalId</a></code> named <code>fromFDI</code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__optional__MR__DentalId_8h.html#a0cb575c3a7a6c498597f31f58abb4053" title="Destroys a heap-allocated instance of MR_std_optional_MR_DentalId. Does nothing if the pointer is nul...">MR_std_optional_MR_DentalId_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a3d7b42e9177e346e39aa0eaa8e9d4e0d" name="a3d7b42e9177e346e39aa0eaa8e9d4e0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d7b42e9177e346e39aa0eaa8e9d4e0d">&#9670;&#160;</a></span>MR_DentalId_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="std__optional__MR__DentalId_8h.html#ad7bd897125b1d83316b5e001e044804b">MR_DentalId</a> * MR_DentalId_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="std__optional__MR__DentalId_8h.html#ad7bd897125b1d83316b5e001e044804b">MR_DentalId</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="afc4c4bed39a6ec56323b513f40134245" name="afc4c4bed39a6ec56323b513f40134245"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc4c4bed39a6ec56323b513f40134245">&#9670;&#160;</a></span>MR_DentalId_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="std__optional__MR__DentalId_8h.html#ad7bd897125b1d83316b5e001e044804b">MR_DentalId</a> * MR_DentalId_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="std__optional__MR__DentalId_8h.html#ad7bd897125b1d83316b5e001e044804b">MR_DentalId</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="ad52f29d707d7291fc529075dc193d08b" name="ad52f29d707d7291fc529075dc193d08b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad52f29d707d7291fc529075dc193d08b">&#9670;&#160;</a></span>MR_teethMaskToDirectionVolume()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="expected__std__array__MR__SimpleVolumeMinMax__3__std__string_8h.html#a3554f92b96c0a2d817a822991c8b2bfc">MR_expected_std_array_MR_SimpleVolumeMinMax_3_std_string</a> * MR_teethMaskToDirectionVolume </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBox_8h.html#a3d8aa59058b2516d2c9b34241f2c0441">MR_VdbVolume</a> *</td>          <td class="paramname"><span class="paramname"><em>volume</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRIntersectionContour_8h.html#af3f10f6b559b293d87a6320a3b17ccc6">MR_std_vector_int32_t</a> *</td>          <td class="paramname"><span class="paramname"><em>additionalIds</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>A shortcut for TeethMaskToDirectionVolumeConvertor::create and TeethMaskToDirectionVolumeConvertor::convertAll Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a60b64c60400c783d65cff22715afab1e">MR::teethMaskToDirectionVolume</a></code>. Parameter <code>volume</code> can not be null. Parameter <code>additionalIds</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__std__array__MR__SimpleVolumeMinMax__3__std__string_8h.html#a78f194b83a7172b934c8fe6b45954272" title="Destroys a heap-allocated instance of MR_expected_std_array_MR_SimpleVolumeMinMax_3_std_string....">MR_expected_std_array_MR_SimpleVolumeMinMax_3_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a25b03b68f178c7d0e037abc80a20f680" name="a25b03b68f178c7d0e037abc80a20f680"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25b03b68f178c7d0e037abc80a20f680">&#9670;&#160;</a></span>MR_TeethMaskToDirectionVolumeConvertor_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__std__string_8h.html#aa30b1977d5827fa4332728b958ee1381">MR_TeethMaskToDirectionVolumeConvertor</a> * MR_TeethMaskToDirectionVolumeConvertor_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__std__string_8h.html#aa30b1977d5827fa4332728b958ee1381">MR_TeethMaskToDirectionVolumeConvertor</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__std__string_8h.html#aa30b1977d5827fa4332728b958ee1381">MR_TeethMaskToDirectionVolumeConvertor</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1TeethMaskToDirectionVolumeConvertor.html">MR::TeethMaskToDirectionVolumeConvertor</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="aad76a5a3c81a616d0db9b65e0167cd2e" name="aad76a5a3c81a616d0db9b65e0167cd2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad76a5a3c81a616d0db9b65e0167cd2e">&#9670;&#160;</a></span>MR_TeethMaskToDirectionVolumeConvertor_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__std__string_8h.html#aa30b1977d5827fa4332728b958ee1381">MR_TeethMaskToDirectionVolumeConvertor</a> * MR_TeethMaskToDirectionVolumeConvertor_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__std__string_8h.html#aa30b1977d5827fa4332728b958ee1381">MR_TeethMaskToDirectionVolumeConvertor</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1TeethMaskToDirectionVolumeConvertor.html">MR::TeethMaskToDirectionVolumeConvertor</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a4b9acf6979daf99cb75ea2e73bc8dfef" title="Destroys a heap-allocated instance of MR_TeethMaskToDirectionVolumeConvertor. Does nothing if the poi...">MR_TeethMaskToDirectionVolumeConvertor_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="aefc76f1f049fee37d25bad8ae672a692" name="aefc76f1f049fee37d25bad8ae672a692"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefc76f1f049fee37d25bad8ae672a692">&#9670;&#160;</a></span>MR_TeethMaskToDirectionVolumeConvertor_convertAll()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__ProcessResult__std__string_8h.html#ab456714ac10941c863782f86be8c4e59">MR_expected_MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_std_string</a> * MR_TeethMaskToDirectionVolumeConvertor_convertAll </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__std__string_8h.html#aa30b1977d5827fa4332728b958ee1381">MR_TeethMaskToDirectionVolumeConvertor</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Converts all the objects into direction volume Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1TeethMaskToDirectionVolumeConvertor.html">MR::TeethMaskToDirectionVolumeConvertor</a></code> named <code>convertAll</code>. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__ProcessResult__std__string_8h.html#a0360bc559724a5a615cf8a23ac4c5f45" title="Destroys a heap-allocated instance of MR_expected_MR_TeethMaskToDirectionVolumeConvertor_ProcessResul...">MR_expected_MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a3cc13182cb488f8468b0b2952c737ec2" name="a3cc13182cb488f8468b0b2952c737ec2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3cc13182cb488f8468b0b2952c737ec2">&#9670;&#160;</a></span>MR_TeethMaskToDirectionVolumeConvertor_convertObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__ProcessResult__std__string_8h.html#ab456714ac10941c863782f86be8c4e59">MR_expected_MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_std_string</a> * MR_TeethMaskToDirectionVolumeConvertor_convertObject </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__std__string_8h.html#aa30b1977d5827fa4332728b958ee1381">MR_TeethMaskToDirectionVolumeConvertor</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>id</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Converts single object into direction volume Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1TeethMaskToDirectionVolumeConvertor.html">MR::TeethMaskToDirectionVolumeConvertor</a></code> named <code>convertObject</code>. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__ProcessResult__std__string_8h.html#a0360bc559724a5a615cf8a23ac4c5f45" title="Destroys a heap-allocated instance of MR_expected_MR_TeethMaskToDirectionVolumeConvertor_ProcessResul...">MR_expected_MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a014b0756e624b89114d3169f950a808e" name="a014b0756e624b89114d3169f950a808e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a014b0756e624b89114d3169f950a808e">&#9670;&#160;</a></span>MR_TeethMaskToDirectionVolumeConvertor_create()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__std__string_8h.html#ada3c6705192ecf017ccdd4dd06d14db2">MR_expected_MR_TeethMaskToDirectionVolumeConvertor_std_string</a> * MR_TeethMaskToDirectionVolumeConvertor_create </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBox_8h.html#a3d8aa59058b2516d2c9b34241f2c0441">MR_VdbVolume</a> *</td>          <td class="paramname"><span class="paramname"><em>volume</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRIntersectionContour_8h.html#af3f10f6b559b293d87a6320a3b17ccc6">MR_std_vector_int32_t</a> *</td>          <td class="paramname"><span class="paramname"><em>additionalIds</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Initialize class </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">volume</td><td>Voxel mask </td></tr>
+    <tr><td class="paramname">additionalIds</td><td>List of additional ids (besides teeth) to convert Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1TeethMaskToDirectionVolumeConvertor.html">MR::TeethMaskToDirectionVolumeConvertor</a></code> named <code>create</code>. Parameter <code>volume</code> can not be null. Parameter <code>additionalIds</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__std__string_8h.html#a6257af0a62806e77b12b2a4265b910fc" title="Destroys a heap-allocated instance of MR_expected_MR_TeethMaskToDirectionVolumeConvertor_std_string....">MR_expected_MR_TeethMaskToDirectionVolumeConvertor_std_string_Destroy()</a></code> to free it when you're done using it. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a4b9acf6979daf99cb75ea2e73bc8dfef" name="a4b9acf6979daf99cb75ea2e73bc8dfef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b9acf6979daf99cb75ea2e73bc8dfef">&#9670;&#160;</a></span>MR_TeethMaskToDirectionVolumeConvertor_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_TeethMaskToDirectionVolumeConvertor_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__std__string_8h.html#aa30b1977d5827fa4332728b958ee1381">MR_TeethMaskToDirectionVolumeConvertor</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_TeethMaskToDirectionVolumeConvertor</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="ad1b5431a034c576f358fbea02d4ee2f5" name="ad1b5431a034c576f358fbea02d4ee2f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1b5431a034c576f358fbea02d4ee2f5">&#9670;&#160;</a></span>MR_TeethMaskToDirectionVolumeConvertor_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_TeethMaskToDirectionVolumeConvertor_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__std__string_8h.html#aa30b1977d5827fa4332728b958ee1381">MR_TeethMaskToDirectionVolumeConvertor</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_TeethMaskToDirectionVolumeConvertor</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a7d6b87cec0d5f21f4d317fe6a88ef494" name="a7d6b87cec0d5f21f4d317fe6a88ef494"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d6b87cec0d5f21f4d317fe6a88ef494">&#9670;&#160;</a></span>MR_TeethMaskToDirectionVolumeConvertor_getObjectBounds()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="phmap__flat__hash__map__int32__t__MR__Box3i__phmap__Hash__int32__t_8h.html#a2258f2b6955b96183d9dc53e077c594a">MR_phmap_flat_hash_map_int32_t_MR_Box3i_phmap_Hash_int32_t</a> * MR_TeethMaskToDirectionVolumeConvertor_getObjectBounds </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__std__string_8h.html#aa30b1977d5827fa4332728b958ee1381">MR_TeethMaskToDirectionVolumeConvertor</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns all the objects present in volume and corresponding bounding boxes Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1TeethMaskToDirectionVolumeConvertor.html">MR::TeethMaskToDirectionVolumeConvertor</a></code> named <code>getObjectBounds</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a136a72576e83d6a34e74867679ea5482" name="a136a72576e83d6a34e74867679ea5482"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a136a72576e83d6a34e74867679ea5482">&#9670;&#160;</a></span>MR_TeethMaskToDirectionVolumeConvertor_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__std__string_8h.html#aa30b1977d5827fa4332728b958ee1381">MR_TeethMaskToDirectionVolumeConvertor</a> * MR_TeethMaskToDirectionVolumeConvertor_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__std__string_8h.html#aa30b1977d5827fa4332728b958ee1381">MR_TeethMaskToDirectionVolumeConvertor</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="adc3a55e0d776abdc696afd67f2205340" name="adc3a55e0d776abdc696afd67f2205340"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc3a55e0d776abdc696afd67f2205340">&#9670;&#160;</a></span>MR_TeethMaskToDirectionVolumeConvertor_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__std__string_8h.html#aa30b1977d5827fa4332728b958ee1381">MR_TeethMaskToDirectionVolumeConvertor</a> * MR_TeethMaskToDirectionVolumeConvertor_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__std__string_8h.html#aa30b1977d5827fa4332728b958ee1381">MR_TeethMaskToDirectionVolumeConvertor</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a6bc762bc101073a24ee3b8c0c41e119b" name="a6bc762bc101073a24ee3b8c0c41e119b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bc762bc101073a24ee3b8c0c41e119b">&#9670;&#160;</a></span>MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__ProcessResult__std__string_8h.html#a23d9f9dfce98967576082c7b44d0f0cd">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</a> * MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__ProcessResult__std__string_8h.html#a23d9f9dfce98967576082c7b44d0f0cd">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__ProcessResult__std__string_8h.html#a23d9f9dfce98967576082c7b44d0f0cd">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html">MR::TeethMaskToDirectionVolumeConvertor::ProcessResult</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a4d80a5d2b45e8e2d2354b7b505a119c1" name="a4d80a5d2b45e8e2d2354b7b505a119c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d80a5d2b45e8e2d2354b7b505a119c1">&#9670;&#160;</a></span>MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_ConstructFrom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__ProcessResult__std__string_8h.html#a23d9f9dfce98967576082c7b44d0f0cd">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</a> * MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_ConstructFrom </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>volume_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="expected__std__array__MR__SimpleVolumeMinMax__3__std__string_8h.html#a141bfd9c399b4067c50ea9b395c34036">MR_std_array_MR_SimpleVolumeMinMax_3</a> *</td>          <td class="paramname"><span class="paramname"><em>volume</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a></td>          <td class="paramname"><span class="paramname"><em>xf</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html">MR::TeethMaskToDirectionVolumeConvertor::ProcessResult</a></code> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a0b42cfed72ec071767baaf3dfb4f2132" title="Destroys a heap-allocated instance of MR_TeethMaskToDirectionVolumeConvertor_ProcessResult....">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a23799a124c354bec54db015b40077287" name="a23799a124c354bec54db015b40077287"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23799a124c354bec54db015b40077287">&#9670;&#160;</a></span>MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__ProcessResult__std__string_8h.html#a23d9f9dfce98967576082c7b44d0f0cd">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</a> * MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__ProcessResult__std__string_8h.html#a23d9f9dfce98967576082c7b44d0f0cd">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html">MR::TeethMaskToDirectionVolumeConvertor::ProcessResult</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a0b42cfed72ec071767baaf3dfb4f2132" title="Destroys a heap-allocated instance of MR_TeethMaskToDirectionVolumeConvertor_ProcessResult....">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a0a616bb9594f73581f26b7b350aa0c8d" name="a0a616bb9594f73581f26b7b350aa0c8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a616bb9594f73581f26b7b350aa0c8d">&#9670;&#160;</a></span>MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__ProcessResult__std__string_8h.html#a23d9f9dfce98967576082c7b44d0f0cd">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</a> * MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a0b42cfed72ec071767baaf3dfb4f2132" title="Destroys a heap-allocated instance of MR_TeethMaskToDirectionVolumeConvertor_ProcessResult....">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="abbc9a08ff2df92b17e58076a56c3bfba" name="abbc9a08ff2df92b17e58076a56c3bfba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abbc9a08ff2df92b17e58076a56c3bfba">&#9670;&#160;</a></span>MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__ProcessResult__std__string_8h.html#a23d9f9dfce98967576082c7b44d0f0cd">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</a> * MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a8798ff5f49faa799dd73964a221f7e94" title="Destroys a heap-allocated array of MR_TeethMaskToDirectionVolumeConvertor_ProcessResult....">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_DestroyArray()</a></code>. Use <code><a class="el" href="#a38d888f69dd533b9403128df2307711f" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a4ef9e9dfc729831e2bc673dc4f417339" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a0b42cfed72ec071767baaf3dfb4f2132" name="a0b42cfed72ec071767baaf3dfb4f2132"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b42cfed72ec071767baaf3dfb4f2132">&#9670;&#160;</a></span>MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__ProcessResult__std__string_8h.html#a23d9f9dfce98967576082c7b44d0f0cd">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a8798ff5f49faa799dd73964a221f7e94" name="a8798ff5f49faa799dd73964a221f7e94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8798ff5f49faa799dd73964a221f7e94">&#9670;&#160;</a></span>MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__ProcessResult__std__string_8h.html#a23d9f9dfce98967576082c7b44d0f0cd">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a6a9438765f0d6b2099f5c8cc99a41b1f" name="a6a9438765f0d6b2099f5c8cc99a41b1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a9438765f0d6b2099f5c8cc99a41b1f">&#9670;&#160;</a></span>MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_Get_volume()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="expected__std__array__MR__SimpleVolumeMinMax__3__std__string_8h.html#a141bfd9c399b4067c50ea9b395c34036">MR_std_array_MR_SimpleVolumeMinMax_3</a> * MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_Get_volume </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__ProcessResult__std__string_8h.html#a23d9f9dfce98967576082c7b44d0f0cd">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html">MR::TeethMaskToDirectionVolumeConvertor::ProcessResult</a></code> named <code>volume</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a878e92734466502a3c1f69adc2c332d7" name="a878e92734466502a3c1f69adc2c332d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a878e92734466502a3c1f69adc2c332d7">&#9670;&#160;</a></span>MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_Get_xf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> * MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_Get_xf </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__ProcessResult__std__string_8h.html#a23d9f9dfce98967576082c7b44d0f0cd">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html">MR::TeethMaskToDirectionVolumeConvertor::ProcessResult</a></code> named <code>xf</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a218713967d7651b497e9b2f012a70048" name="a218713967d7651b497e9b2f012a70048"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a218713967d7651b497e9b2f012a70048">&#9670;&#160;</a></span>MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_GetMutable_volume()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="expected__std__array__MR__SimpleVolumeMinMax__3__std__string_8h.html#a141bfd9c399b4067c50ea9b395c34036">MR_std_array_MR_SimpleVolumeMinMax_3</a> * MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_GetMutable_volume </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__ProcessResult__std__string_8h.html#a23d9f9dfce98967576082c7b44d0f0cd">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html">MR::TeethMaskToDirectionVolumeConvertor::ProcessResult</a></code> named <code>volume</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a630d4fc134b2174c7475c22ac8959ce5" name="a630d4fc134b2174c7475c22ac8959ce5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a630d4fc134b2174c7475c22ac8959ce5">&#9670;&#160;</a></span>MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_GetMutable_xf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> * MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_GetMutable_xf </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__ProcessResult__std__string_8h.html#a23d9f9dfce98967576082c7b44d0f0cd">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html">MR::TeethMaskToDirectionVolumeConvertor::ProcessResult</a></code> named <code>xf</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a38d888f69dd533b9403128df2307711f" name="a38d888f69dd533b9403128df2307711f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38d888f69dd533b9403128df2307711f">&#9670;&#160;</a></span>MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__ProcessResult__std__string_8h.html#a23d9f9dfce98967576082c7b44d0f0cd">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</a> * MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__ProcessResult__std__string_8h.html#a23d9f9dfce98967576082c7b44d0f0cd">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a4ef9e9dfc729831e2bc673dc4f417339" name="a4ef9e9dfc729831e2bc673dc4f417339"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ef9e9dfc729831e2bc673dc4f417339">&#9670;&#160;</a></span>MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__ProcessResult__std__string_8h.html#a23d9f9dfce98967576082c7b44d0f0cd">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</a> * MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__ProcessResult__std__string_8h.html#a23d9f9dfce98967576082c7b44d0f0cd">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a2e3d2c3eb6391f76af32eb0ead762bd3" name="a2e3d2c3eb6391f76af32eb0ead762bd3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e3d2c3eb6391f76af32eb0ead762bd3">&#9670;&#160;</a></span>MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_Set_volume()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_Set_volume </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__ProcessResult__std__string_8h.html#a23d9f9dfce98967576082c7b44d0f0cd">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="expected__std__array__MR__SimpleVolumeMinMax__3__std__string_8h.html#a141bfd9c399b4067c50ea9b395c34036">MR_std_array_MR_SimpleVolumeMinMax_3</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html">MR::TeethMaskToDirectionVolumeConvertor::ProcessResult</a></code> named <code>volume</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a6f3758e285f020d5c6f33a0898a1fd55" name="a6f3758e285f020d5c6f33a0898a1fd55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f3758e285f020d5c6f33a0898a1fd55">&#9670;&#160;</a></span>MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_Set_xf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_TeethMaskToDirectionVolumeConvertor_ProcessResult_Set_xf </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="expected__MR__TeethMaskToDirectionVolumeConvertor__ProcessResult__std__string_8h.html#a23d9f9dfce98967576082c7b44d0f0cd">MR_TeethMaskToDirectionVolumeConvertor_ProcessResult</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html">MR::TeethMaskToDirectionVolumeConvertor::ProcessResult</a></code> named <code>xf</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_87d38852fc01aff5f853718c8d8b5cb2.html">Cbindings</a></li><li class="navelem"><a class="el" href="dir_f3347e714ce645328a0f1e84cdba4df7.html">MRCVoxels</a></li><li class="navelem"><a class="el" href="MRTeethMaskToDirectionVolume_8h.html">MRTeethMaskToDirectionVolume.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

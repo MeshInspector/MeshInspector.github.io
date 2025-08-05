@@ -1,0 +1,565 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: MRChangeColoringType.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('MRChangeColoringType_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">MRChangeColoringType.h File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="MREnums_8h_source.html">MRCMesh/MREnums.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="MRHistoryAction_8h_source.html">MRCMesh/MRHistoryAction.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
+</div>
+<p><a href="MRChangeColoringType_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a26fdcccc5668d7a10acc1e27c11d1e56" id="r_a26fdcccc5668d7a10acc1e27c11d1e56"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a></td></tr>
+<tr class="separator:a26fdcccc5668d7a10acc1e27c11d1e56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4b9828f4113d20d85483568f977c8ff" id="r_aa4b9828f4113d20d85483568f977c8ff"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRChangeColoringActions_8h.html#aa4b9828f4113d20d85483568f977c8ff">MR_std_shared_ptr_MR_VisualObject</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4b9828f4113d20d85483568f977c8ff">MR_std_shared_ptr_MR_VisualObject</a></td></tr>
+<tr class="separator:aa4b9828f4113d20d85483568f977c8ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69dc6868c10c92fb8b8a255b0130d289" id="r_a69dc6868c10c92fb8b8a255b0130d289"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></td></tr>
+<tr class="separator:a69dc6868c10c92fb8b8a255b0130d289"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39d00a70b6ff4dda255d4fe1d3b6d8a9" id="r_a39d00a70b6ff4dda255d4fe1d3b6d8a9"><td class="memItemLeft" align="right" valign="top">typedef struct MR_ChangeColoringType&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__HistoryGroup.html#a39d00a70b6ff4dda255d4fe1d3b6d8a9">MR_ChangeColoringType</a></td></tr>
+<tr class="separator:a39d00a70b6ff4dda255d4fe1d3b6d8a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a822f530aaf38dc596720f0dfe35dbf9b" id="r_a822f530aaf38dc596720f0dfe35dbf9b"><td class="memItemLeft" align="right" valign="top">MRC_API MR_ChangeColoringType *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a822f530aaf38dc596720f0dfe35dbf9b">MR_ChangeColoringType_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, MR_ChangeColoringType *_other)</td></tr>
+<tr class="separator:a822f530aaf38dc596720f0dfe35dbf9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a74c8412a669c4ca4ea597d528d6111" id="r_a7a74c8412a669c4ca4ea597d528d6111"><td class="memItemLeft" align="right" valign="top">MRC_API const MR_ChangeColoringType *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a74c8412a669c4ca4ea597d528d6111">MR_ChangeColoringType_OffsetPtr</a> (const MR_ChangeColoringType *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a7a74c8412a669c4ca4ea597d528d6111"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a7a74c8412a669c4ca4ea597d528d6111"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58c803fd23b8448e4a8e31ca6005826b" id="r_a58c803fd23b8448e4a8e31ca6005826b"><td class="memItemLeft" align="right" valign="top">MRC_API MR_ChangeColoringType *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58c803fd23b8448e4a8e31ca6005826b">MR_ChangeColoringType_OffsetMutablePtr</a> (MR_ChangeColoringType *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a58c803fd23b8448e4a8e31ca6005826b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a58c803fd23b8448e4a8e31ca6005826b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cd92d210ddbc9ad1275291338678faa" id="r_a4cd92d210ddbc9ad1275291338678faa"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4cd92d210ddbc9ad1275291338678faa">MR_ChangeColoringType_UpcastTo_MR_HistoryAction</a> (const MR_ChangeColoringType *object)</td></tr>
+<tr class="separator:a4cd92d210ddbc9ad1275291338678faa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a692462b697ae62b50e5ba0047e13520d" id="r_a692462b697ae62b50e5ba0047e13520d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a692462b697ae62b50e5ba0047e13520d">MR_ChangeColoringType_MutableUpcastTo_MR_HistoryAction</a> (MR_ChangeColoringType *object)</td></tr>
+<tr class="memdesc:a692462b697ae62b50e5ba0047e13520d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1ChangeColoringType.html">MR::ChangeColoringType</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code>.  <br /></td></tr>
+<tr class="separator:a692462b697ae62b50e5ba0047e13520d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a200870bdf8aa3964385abd864cbcad67" id="r_a200870bdf8aa3964385abd864cbcad67"><td class="memItemLeft" align="right" valign="top">MRC_API MR_ChangeColoringType *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a200870bdf8aa3964385abd864cbcad67">MR_ChangeColoringType_Construct_2</a> (const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *<a class="elRef" href="../Cpp/group__HistoryGroup.html#ga6b90613818f7b81547a5b0bba1d40c39">name</a>, const <a class="el" href="MRChangeColoringActions_8h.html#aa4b9828f4113d20d85483568f977c8ff">MR_std_shared_ptr_MR_VisualObject</a> *obj)</td></tr>
+<tr class="separator:a200870bdf8aa3964385abd864cbcad67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b09762154e51556edad2c7ed185f376" id="r_a5b09762154e51556edad2c7ed185f376"><td class="memItemLeft" align="right" valign="top">MRC_API MR_ChangeColoringType *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b09762154e51556edad2c7ed185f376">MR_ChangeColoringType_Construct_3</a> (const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *<a class="elRef" href="../Cpp/group__HistoryGroup.html#ga6b90613818f7b81547a5b0bba1d40c39">name</a>, const <a class="el" href="MRChangeColoringActions_8h.html#aa4b9828f4113d20d85483568f977c8ff">MR_std_shared_ptr_MR_VisualObject</a> *obj, <a class="el" href="MREnums_8h.html#a41d00a69f9b75e753f009d89e9967d4d">MR_ColoringType</a> newType)</td></tr>
+<tr class="separator:a5b09762154e51556edad2c7ed185f376"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2960a6406cc2b54afc49f3c9a749480" id="r_af2960a6406cc2b54afc49f3c9a749480"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af2960a6406cc2b54afc49f3c9a749480">MR_ChangeColoringType_Destroy</a> (const MR_ChangeColoringType *_this)</td></tr>
+<tr class="memdesc:af2960a6406cc2b54afc49f3c9a749480"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_ChangeColoringType</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:af2960a6406cc2b54afc49f3c9a749480"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cf4cd8b9c63981d1862bc10422b3794" id="r_a7cf4cd8b9c63981d1862bc10422b3794"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7cf4cd8b9c63981d1862bc10422b3794">MR_ChangeColoringType_DestroyArray</a> (const MR_ChangeColoringType *_this)</td></tr>
+<tr class="memdesc:a7cf4cd8b9c63981d1862bc10422b3794"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_ChangeColoringType</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a7cf4cd8b9c63981d1862bc10422b3794"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4649cf3b2d320af0bb873cc0df9aa05" id="r_ad4649cf3b2d320af0bb873cc0df9aa05"><td class="memItemLeft" align="right" valign="top">MRC_API MR_ChangeColoringType *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4649cf3b2d320af0bb873cc0df9aa05">MR_ChangeColoringType_AssignFromAnother</a> (MR_ChangeColoringType *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, MR_ChangeColoringType *_other)</td></tr>
+<tr class="separator:ad4649cf3b2d320af0bb873cc0df9aa05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3eb36e4fc82a67e6c00894fdb5631b0" id="r_af3eb36e4fc82a67e6c00894fdb5631b0"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3eb36e4fc82a67e6c00894fdb5631b0">MR_ChangeColoringType_name</a> (const MR_ChangeColoringType *_this)</td></tr>
+<tr class="separator:af3eb36e4fc82a67e6c00894fdb5631b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca4dc01ff9d00e2caac119559af108de" id="r_aca4dc01ff9d00e2caac119559af108de"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aca4dc01ff9d00e2caac119559af108de">MR_ChangeColoringType_action</a> (MR_ChangeColoringType *_this, <a class="el" href="MRHistoryAction_8h.html#aa6545a91fb04c0c7a224383de1b0d1dc">MR_HistoryAction_Type</a> _1)</td></tr>
+<tr class="separator:aca4dc01ff9d00e2caac119559af108de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8951fff58e10d1dbfa4d98494d1fa775" id="r_a8951fff58e10d1dbfa4d98494d1fa775"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8951fff58e10d1dbfa4d98494d1fa775">MR_ChangeColoringType_setObjectDirty</a> (const <a class="el" href="MRChangeColoringActions_8h.html#aa4b9828f4113d20d85483568f977c8ff">MR_std_shared_ptr_MR_VisualObject</a> *obj)</td></tr>
+<tr class="separator:a8951fff58e10d1dbfa4d98494d1fa775"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c0d25cc3bc363b5837dced42674c18c" id="r_a1c0d25cc3bc363b5837dced42674c18c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c0d25cc3bc363b5837dced42674c18c">MR_ChangeColoringType_heapBytes</a> (const MR_ChangeColoringType *_this)</td></tr>
+<tr class="separator:a1c0d25cc3bc363b5837dced42674c18c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a26fdcccc5668d7a10acc1e27c11d1e56" name="a26fdcccc5668d7a10acc1e27c11d1e56"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26fdcccc5668d7a10acc1e27c11d1e56">&#9670;&#160;</a></span>MR_HistoryAction</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a> <a class="el" href="MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa4b9828f4113d20d85483568f977c8ff" name="aa4b9828f4113d20d85483568f977c8ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4b9828f4113d20d85483568f977c8ff">&#9670;&#160;</a></span>MR_std_shared_ptr_MR_VisualObject</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRChangeColoringActions_8h.html#aa4b9828f4113d20d85483568f977c8ff">MR_std_shared_ptr_MR_VisualObject</a> <a class="el" href="MRChangeColoringActions_8h.html#aa4b9828f4113d20d85483568f977c8ff">MR_std_shared_ptr_MR_VisualObject</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a69dc6868c10c92fb8b8a255b0130d289" name="a69dc6868c10c92fb8b8a255b0130d289"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69dc6868c10c92fb8b8a255b0130d289">&#9670;&#160;</a></span>MR_std_string</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="aca4dc01ff9d00e2caac119559af108de" name="aca4dc01ff9d00e2caac119559af108de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca4dc01ff9d00e2caac119559af108de">&#9670;&#160;</a></span>MR_ChangeColoringType_action()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_ChangeColoringType_action </td>
+          <td>(</td>
+          <td class="paramtype">MR_ChangeColoringType *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRHistoryAction_8h.html#aa6545a91fb04c0c7a224383de1b0d1dc">MR_HistoryAction_Type</a></td>          <td class="paramname"><span class="paramname"><em>_1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeColoringType.html">MR::ChangeColoringType</a></code> named <code>action</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ad4649cf3b2d320af0bb873cc0df9aa05" name="ad4649cf3b2d320af0bb873cc0df9aa05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4649cf3b2d320af0bb873cc0df9aa05">&#9670;&#160;</a></span>MR_ChangeColoringType_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API MR_ChangeColoringType * MR_ChangeColoringType_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">MR_ChangeColoringType *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR_ChangeColoringType *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeColoringType.html">MR::ChangeColoringType</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a200870bdf8aa3964385abd864cbcad67" name="a200870bdf8aa3964385abd864cbcad67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a200870bdf8aa3964385abd864cbcad67">&#9670;&#160;</a></span>MR_ChangeColoringType_Construct_2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API MR_ChangeColoringType * MR_ChangeColoringType_Construct_2 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRChangeColoringActions_8h.html#aa4b9828f4113d20d85483568f977c8ff">MR_std_shared_ptr_MR_VisualObject</a> *</td>          <td class="paramname"><span class="paramname"><em>obj</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>use this constructor to remember object's coloring type before making any changes in it Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeColoringType.html">MR::ChangeColoringType</a></code>. Parameter <code>name</code> can not be null. Parameter <code>obj</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#af2960a6406cc2b54afc49f3c9a749480" title="Destroys a heap-allocated instance of MR_ChangeColoringType. Does nothing if the pointer is null.">MR_ChangeColoringType_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a5b09762154e51556edad2c7ed185f376" name="a5b09762154e51556edad2c7ed185f376"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b09762154e51556edad2c7ed185f376">&#9670;&#160;</a></span>MR_ChangeColoringType_Construct_3()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API MR_ChangeColoringType * MR_ChangeColoringType_Construct_3 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRChangeColoringActions_8h.html#aa4b9828f4113d20d85483568f977c8ff">MR_std_shared_ptr_MR_VisualObject</a> *</td>          <td class="paramname"><span class="paramname"><em>obj</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MREnums_8h.html#a41d00a69f9b75e753f009d89e9967d4d">MR_ColoringType</a></td>          <td class="paramname"><span class="paramname"><em>newType</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>use this constructor to remember object's coloring type and immediate set new value Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeColoringType.html">MR::ChangeColoringType</a></code>. Parameter <code>name</code> can not be null. Parameter <code>obj</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#af2960a6406cc2b54afc49f3c9a749480" title="Destroys a heap-allocated instance of MR_ChangeColoringType. Does nothing if the pointer is null.">MR_ChangeColoringType_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a822f530aaf38dc596720f0dfe35dbf9b" name="a822f530aaf38dc596720f0dfe35dbf9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a822f530aaf38dc596720f0dfe35dbf9b">&#9670;&#160;</a></span>MR_ChangeColoringType_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API MR_ChangeColoringType * MR_ChangeColoringType_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR_ChangeColoringType *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeColoringType.html">MR::ChangeColoringType</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#af2960a6406cc2b54afc49f3c9a749480" title="Destroys a heap-allocated instance of MR_ChangeColoringType. Does nothing if the pointer is null.">MR_ChangeColoringType_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="af2960a6406cc2b54afc49f3c9a749480" name="af2960a6406cc2b54afc49f3c9a749480"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2960a6406cc2b54afc49f3c9a749480">&#9670;&#160;</a></span>MR_ChangeColoringType_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_ChangeColoringType_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const MR_ChangeColoringType *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_ChangeColoringType</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a7cf4cd8b9c63981d1862bc10422b3794" name="a7cf4cd8b9c63981d1862bc10422b3794"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7cf4cd8b9c63981d1862bc10422b3794">&#9670;&#160;</a></span>MR_ChangeColoringType_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_ChangeColoringType_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const MR_ChangeColoringType *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_ChangeColoringType</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a1c0d25cc3bc363b5837dced42674c18c" name="a1c0d25cc3bc363b5837dced42674c18c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c0d25cc3bc363b5837dced42674c18c">&#9670;&#160;</a></span>MR_ChangeColoringType_heapBytes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> MR_ChangeColoringType_heapBytes </td>
+          <td>(</td>
+          <td class="paramtype">const MR_ChangeColoringType *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeColoringType.html">MR::ChangeColoringType</a></code> named <code>heapBytes</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a692462b697ae62b50e5ba0047e13520d" name="a692462b697ae62b50e5ba0047e13520d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a692462b697ae62b50e5ba0047e13520d">&#9670;&#160;</a></span>MR_ChangeColoringType_MutableUpcastTo_MR_HistoryAction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a> * MR_ChangeColoringType_MutableUpcastTo_MR_HistoryAction </td>
+          <td>(</td>
+          <td class="paramtype">MR_ChangeColoringType *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1ChangeColoringType.html">MR::ChangeColoringType</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code>. </p>
+
+</div>
+</div>
+<a id="af3eb36e4fc82a67e6c00894fdb5631b0" name="af3eb36e4fc82a67e6c00894fdb5631b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3eb36e4fc82a67e6c00894fdb5631b0">&#9670;&#160;</a></span>MR_ChangeColoringType_name()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_ChangeColoringType_name </td>
+          <td>(</td>
+          <td class="paramtype">const MR_ChangeColoringType *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeColoringType.html">MR::ChangeColoringType</a></code> named <code>name</code>. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__string_8h.html#a9ffa0a79c0c1ac50a81c8dfdf2fd5d91" title="Destroys a heap-allocated instance of MR_std_string. Does nothing if the pointer is null.">MR_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a58c803fd23b8448e4a8e31ca6005826b" name="a58c803fd23b8448e4a8e31ca6005826b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58c803fd23b8448e4a8e31ca6005826b">&#9670;&#160;</a></span>MR_ChangeColoringType_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API MR_ChangeColoringType * MR_ChangeColoringType_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype">MR_ChangeColoringType *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a7a74c8412a669c4ca4ea597d528d6111" name="a7a74c8412a669c4ca4ea597d528d6111"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a74c8412a669c4ca4ea597d528d6111">&#9670;&#160;</a></span>MR_ChangeColoringType_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const MR_ChangeColoringType * MR_ChangeColoringType_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const MR_ChangeColoringType *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a8951fff58e10d1dbfa4d98494d1fa775" name="a8951fff58e10d1dbfa4d98494d1fa775"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8951fff58e10d1dbfa4d98494d1fa775">&#9670;&#160;</a></span>MR_ChangeColoringType_setObjectDirty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_ChangeColoringType_setObjectDirty </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRChangeColoringActions_8h.html#aa4b9828f4113d20d85483568f977c8ff">MR_std_shared_ptr_MR_VisualObject</a> *</td>          <td class="paramname"><span class="paramname"><em>obj</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeColoringType.html">MR::ChangeColoringType</a></code> named <code>setObjectDirty</code>. Parameter <code>obj</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a4cd92d210ddbc9ad1275291338678faa" name="a4cd92d210ddbc9ad1275291338678faa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4cd92d210ddbc9ad1275291338678faa">&#9670;&#160;</a></span>MR_ChangeColoringType_UpcastTo_MR_HistoryAction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a> * MR_ChangeColoringType_UpcastTo_MR_HistoryAction </td>
+          <td>(</td>
+          <td class="paramtype">const MR_ChangeColoringType *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1ChangeColoringType.html">MR::ChangeColoringType</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code>. This version is acting on mutable pointers. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_87d38852fc01aff5f853718c8d8b5cb2.html">Cbindings</a></li><li class="navelem"><a class="el" href="dir_cb83f9b98dc6f67356ff76bcc17f4f67.html">MRCMesh</a></li><li class="navelem"><a class="el" href="MRChangeColoringType_8h.html">MRChangeColoringType.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

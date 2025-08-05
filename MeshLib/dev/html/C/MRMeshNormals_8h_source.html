@@ -1,0 +1,266 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: MRMeshNormals.h Source File</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('MRMeshNormals_8h_source.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">MRMeshNormals.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="MRMeshNormals_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;<a class="code" href="common_8h.html">MRCMisc/common.h</a>&gt;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;MRCMisc/exports.h&gt;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;stddef.h&gt;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> {</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="MRMeshNormals_8h.html#a8adffd0fdf3bafd75f3ddebfbdb22ef5">   12</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRMeshNormals_8h.html#a8adffd0fdf3bafd75f3ddebfbdb22ef5">MR_FaceNormals</a> <a class="code hl_typedef" href="MRMeshNormals_8h.html#a8adffd0fdf3bafd75f3ddebfbdb22ef5">MR_FaceNormals</a>; <span class="comment">// Defined in `#include &lt;MRCMesh/MRVector.h&gt;`.</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="MRMeshNormals_8h.html#a31b172f68efca6438544d56eb86d6f40">   13</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> <a class="code hl_typedef" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a>; <span class="comment">// Defined in `#include &lt;MRCMesh/MRMesh.h&gt;`.</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="MRMeshNormals_8h.html#ac7f59a6736b29701d7e619412b6e2890">   14</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> <a class="code hl_typedef" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a>; <span class="comment">// Defined in `#include &lt;MRCMesh/MRBitSet.h&gt;`.</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="MRMeshNormals_8h.html#a3bbb72144be216efbb91200d0fc37f10">   15</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="structMR__Vector4f.html">MR_Vector4f</a> <a class="code hl_struct" href="structMR__Vector4f.html">MR_Vector4f</a>; <span class="comment">// Defined in `#include &lt;MRCMesh/MRVector4.h&gt;`.</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="MRMeshNormals_8h.html#a50f94ee230b3b0bffb2b4b0a00986133">   16</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRMeshNormals_8h.html#a50f94ee230b3b0bffb2b4b0a00986133">MR_Vector_std_array_MR_Vector3f_3_MR_FaceId</a> <a class="code hl_typedef" href="MRMeshNormals_8h.html#a50f94ee230b3b0bffb2b4b0a00986133">MR_Vector_std_array_MR_Vector3f_3_MR_FaceId</a>; <span class="comment">// Defined in `#include &lt;MRCMesh/MRVector.h&gt;`.</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="MRMeshNormals_8h.html#a249fd9254c0c3395567807936ad32641">   17</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> <a class="code hl_typedef" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a>; <span class="comment">// Defined in `#include &lt;MRCMesh/MRVector.h&gt;`.</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="group__MeshNormalsGroup.html#ga4c404df0e68a9dc60914c3fab1545116">   24</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="group__MeshNormalsGroup.html#ga4c404df0e68a9dc60914c3fab1545116">MR_MeshNormals</a> <a class="code hl_typedef" href="group__MeshNormalsGroup.html#ga4c404df0e68a9dc60914c3fab1545116">MR_MeshNormals</a>;</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="group__MeshNormalsGroup.html#ga9a70381c61b885e33de14e303cbc594b">   29</a></span>MRC_API <span class="keyword">const</span> <a class="code hl_typedef" href="MRMeshNormals_8h.html#a8adffd0fdf3bafd75f3ddebfbdb22ef5">MR_FaceNormals</a> *<a class="code hl_function" href="group__MeshNormalsGroup.html#ga9a70381c61b885e33de14e303cbc594b">MR_MeshNormals_Get_faceNormals</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="group__MeshNormalsGroup.html#ga4c404df0e68a9dc60914c3fab1545116">MR_MeshNormals</a> *_this);</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="group__MeshNormalsGroup.html#ga90f1492da1768b8a3be6deb2c60918d4">   33</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="group__MeshNormalsGroup.html#ga90f1492da1768b8a3be6deb2c60918d4">MR_MeshNormals_Set_faceNormals</a>(<a class="code hl_typedef" href="group__MeshNormalsGroup.html#ga4c404df0e68a9dc60914c3fab1545116">MR_MeshNormals</a> *_this, <a class="code hl_enumeration" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="code hl_typedef" href="MRMeshNormals_8h.html#a8adffd0fdf3bafd75f3ddebfbdb22ef5">MR_FaceNormals</a> *value);</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="group__MeshNormalsGroup.html#gaee022184d15f4080049e4b15159f160e">   38</a></span>MRC_API <a class="code hl_typedef" href="MRMeshNormals_8h.html#a8adffd0fdf3bafd75f3ddebfbdb22ef5">MR_FaceNormals</a> *<a class="code hl_function" href="group__MeshNormalsGroup.html#gaee022184d15f4080049e4b15159f160e">MR_MeshNormals_GetMutable_faceNormals</a>(<a class="code hl_typedef" href="group__MeshNormalsGroup.html#ga4c404df0e68a9dc60914c3fab1545116">MR_MeshNormals</a> *_this);</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="group__MeshNormalsGroup.html#gae92c03b14948ebabc3de188692a78e7f">   43</a></span>MRC_API <span class="keyword">const</span> <a class="code hl_typedef" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *<a class="code hl_function" href="group__MeshNormalsGroup.html#gae92c03b14948ebabc3de188692a78e7f">MR_MeshNormals_Get_vertNormals</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="group__MeshNormalsGroup.html#ga4c404df0e68a9dc60914c3fab1545116">MR_MeshNormals</a> *_this);</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="group__MeshNormalsGroup.html#gaf0e5e92131de63e61de72069e015a169">   47</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="group__MeshNormalsGroup.html#gaf0e5e92131de63e61de72069e015a169">MR_MeshNormals_Set_vertNormals</a>(<a class="code hl_typedef" href="group__MeshNormalsGroup.html#ga4c404df0e68a9dc60914c3fab1545116">MR_MeshNormals</a> *_this, <a class="code hl_enumeration" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="code hl_typedef" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *value);</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="group__MeshNormalsGroup.html#gaef6ff3ea06277f9ce7cf058b3a205451">   52</a></span>MRC_API <a class="code hl_typedef" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *<a class="code hl_function" href="group__MeshNormalsGroup.html#gaef6ff3ea06277f9ce7cf058b3a205451">MR_MeshNormals_GetMutable_vertNormals</a>(<a class="code hl_typedef" href="group__MeshNormalsGroup.html#ga4c404df0e68a9dc60914c3fab1545116">MR_MeshNormals</a> *_this);</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="group__MeshNormalsGroup.html#ga1b20e1e97a8d6b5bc3ecf420c4386e51">   56</a></span>MRC_API <a class="code hl_typedef" href="group__MeshNormalsGroup.html#ga4c404df0e68a9dc60914c3fab1545116">MR_MeshNormals</a> *<a class="code hl_function" href="group__MeshNormalsGroup.html#ga1b20e1e97a8d6b5bc3ecf420c4386e51">MR_MeshNormals_DefaultConstruct</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="group__MeshNormalsGroup.html#ga26e5011aba3d6280435d425667ff55b3">   61</a></span>MRC_API <a class="code hl_typedef" href="group__MeshNormalsGroup.html#ga4c404df0e68a9dc60914c3fab1545116">MR_MeshNormals</a> *<a class="code hl_function" href="group__MeshNormalsGroup.html#ga26e5011aba3d6280435d425667ff55b3">MR_MeshNormals_DefaultConstructArray</a>(<span class="keywordtype">size_t</span> num_elems);</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="group__MeshNormalsGroup.html#gafc9e46d271b8c4e6e92c0e50b0393311">   65</a></span>MRC_API <a class="code hl_typedef" href="group__MeshNormalsGroup.html#ga4c404df0e68a9dc60914c3fab1545116">MR_MeshNormals</a> *<a class="code hl_function" href="group__MeshNormalsGroup.html#gafc9e46d271b8c4e6e92c0e50b0393311">MR_MeshNormals_ConstructFrom</a>(<a class="code hl_enumeration" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> faceNormals_pass_by, <a class="code hl_typedef" href="MRMeshNormals_8h.html#a8adffd0fdf3bafd75f3ddebfbdb22ef5">MR_FaceNormals</a> *faceNormals, <a class="code hl_enumeration" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> vertNormals_pass_by, <a class="code hl_typedef" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *vertNormals);</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno"><a class="line" href="group__MeshNormalsGroup.html#gaea159d850eef22897e8d5a48c48cbdd4">   68</a></span>MRC_API <span class="keyword">const</span> <a class="code hl_typedef" href="group__MeshNormalsGroup.html#ga4c404df0e68a9dc60914c3fab1545116">MR_MeshNormals</a> *<a class="code hl_function" href="group__MeshNormalsGroup.html#gaea159d850eef22897e8d5a48c48cbdd4">MR_MeshNormals_OffsetPtr</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="group__MeshNormalsGroup.html#ga4c404df0e68a9dc60914c3fab1545116">MR_MeshNormals</a> *ptr, ptrdiff_t i);</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno"><a class="line" href="group__MeshNormalsGroup.html#ga85bd087739fedd399bbfd16bc940e94f">   71</a></span>MRC_API <a class="code hl_typedef" href="group__MeshNormalsGroup.html#ga4c404df0e68a9dc60914c3fab1545116">MR_MeshNormals</a> *<a class="code hl_function" href="group__MeshNormalsGroup.html#ga85bd087739fedd399bbfd16bc940e94f">MR_MeshNormals_OffsetMutablePtr</a>(<a class="code hl_typedef" href="group__MeshNormalsGroup.html#ga4c404df0e68a9dc60914c3fab1545116">MR_MeshNormals</a> *ptr, ptrdiff_t i);</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno"><a class="line" href="group__MeshNormalsGroup.html#gab5ead6246bd372592e6bee394809bda1">   75</a></span>MRC_API <a class="code hl_typedef" href="group__MeshNormalsGroup.html#ga4c404df0e68a9dc60914c3fab1545116">MR_MeshNormals</a> *<a class="code hl_function" href="group__MeshNormalsGroup.html#gab5ead6246bd372592e6bee394809bda1">MR_MeshNormals_ConstructFromAnother</a>(<a class="code hl_enumeration" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="code hl_typedef" href="group__MeshNormalsGroup.html#ga4c404df0e68a9dc60914c3fab1545116">MR_MeshNormals</a> *_other);</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> </div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno"><a class="line" href="group__MeshNormalsGroup.html#gaf77d78e1df224886cfb166d038155b0b">   78</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="group__MeshNormalsGroup.html#gaf77d78e1df224886cfb166d038155b0b">MR_MeshNormals_Destroy</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="group__MeshNormalsGroup.html#ga4c404df0e68a9dc60914c3fab1545116">MR_MeshNormals</a> *_this);</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span> </div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno"><a class="line" href="group__MeshNormalsGroup.html#gaaf0c322fc62234e155b93ef2a1ecb09a">   81</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="group__MeshNormalsGroup.html#gaaf0c322fc62234e155b93ef2a1ecb09a">MR_MeshNormals_DestroyArray</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="group__MeshNormalsGroup.html#ga4c404df0e68a9dc60914c3fab1545116">MR_MeshNormals</a> *_this);</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span> </div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno"><a class="line" href="group__MeshNormalsGroup.html#gaa3a2c77a648fc5784f34274775b122c7">   86</a></span>MRC_API <a class="code hl_typedef" href="group__MeshNormalsGroup.html#ga4c404df0e68a9dc60914c3fab1545116">MR_MeshNormals</a> *<a class="code hl_function" href="group__MeshNormalsGroup.html#gaa3a2c77a648fc5784f34274775b122c7">MR_MeshNormals_AssignFromAnother</a>(<a class="code hl_typedef" href="group__MeshNormalsGroup.html#ga4c404df0e68a9dc60914c3fab1545116">MR_MeshNormals</a> *_this, <a class="code hl_enumeration" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="code hl_typedef" href="group__MeshNormalsGroup.html#ga4c404df0e68a9dc60914c3fab1545116">MR_MeshNormals</a> *_other);</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span> </div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno"><a class="line" href="group__MeshNormalsGroup.html#ga6c9067cbe12173d78299a2557aea7430">   92</a></span>MRC_API <a class="code hl_typedef" href="MRMeshNormals_8h.html#a8adffd0fdf3bafd75f3ddebfbdb22ef5">MR_FaceNormals</a> *<a class="code hl_function" href="group__MeshNormalsGroup.html#ga6c9067cbe12173d78299a2557aea7430">MR_computePerFaceNormals</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh);</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span> </div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno"><a class="line" href="group__MeshNormalsGroup.html#gab77d7b151a38f8898616806e018b7cff">   97</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="group__MeshNormalsGroup.html#gab77d7b151a38f8898616806e018b7cff">MR_computePerFaceNormals4</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, <a class="code hl_struct" href="structMR__Vector4f.html">MR_Vector4f</a> *faceNormals, <a class="code hl_typedef" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> <a class="code hl_functionRef" href="../Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a>);</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span> </div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno"><a class="line" href="group__MeshNormalsGroup.html#ga71523707783284d3297474c6a4fd0fca">  103</a></span>MRC_API <a class="code hl_typedef" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *<a class="code hl_function" href="group__MeshNormalsGroup.html#ga71523707783284d3297474c6a4fd0fca">MR_computePerVertNormals</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh);</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span> </div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno"><a class="line" href="group__MeshNormalsGroup.html#gaa49099f8f2dd0b9fbc747416c00964a8">  110</a></span>MRC_API <a class="code hl_typedef" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *<a class="code hl_function" href="group__MeshNormalsGroup.html#gaa49099f8f2dd0b9fbc747416c00964a8">MR_computePerVertPseudoNormals</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh);</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span> </div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno"><a class="line" href="group__MeshNormalsGroup.html#gaa38d33691c3bbad2742a1057548fef86">  116</a></span>MRC_API <a class="code hl_typedef" href="group__MeshNormalsGroup.html#ga4c404df0e68a9dc60914c3fab1545116">MR_MeshNormals</a> *<a class="code hl_function" href="group__MeshNormalsGroup.html#gaa38d33691c3bbad2742a1057548fef86">MR_computeMeshNormals</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh);</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span> </div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno"><a class="line" href="group__MeshNormalsGroup.html#gafd2c9ab9488a861871977f8f7fdd29cd">  123</a></span>MRC_API <a class="code hl_typedef" href="MRMeshNormals_8h.html#a50f94ee230b3b0bffb2b4b0a00986133">MR_Vector_std_array_MR_Vector3f_3_MR_FaceId</a> *<a class="code hl_function" href="group__MeshNormalsGroup.html#gafd2c9ab9488a861871977f8f7fdd29cd">MR_computePerCornerNormals</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, <span class="keyword">const</span> <a class="code hl_typedef" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *creases);</div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span> </div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span><span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>} <span class="comment">// extern &quot;C&quot;</span></div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aMRAABBTreeBase_8h_html_ac7f59a6736b29701d7e619412b6e2890"><div class="ttname"><a href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a></div><div class="ttdeci">struct MR_UndirectedEdgeBitSet MR_UndirectedEdgeBitSet</div><div class="ttdef"><b>Definition</b> MRAABBTreeBase.h:29</div></div>
+<div class="ttc" id="aMRAABBTreePoints_8h_html_a249fd9254c0c3395567807936ad32641"><div class="ttname"><a href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a></div><div class="ttdeci">struct MR_VertCoords MR_VertCoords</div><div class="ttdef"><b>Definition</b> MRAABBTreePoints.h:22</div></div>
+<div class="ttc" id="aMRCtm_8h_html_a31b172f68efca6438544d56eb86d6f40"><div class="ttname"><a href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a></div><div class="ttdeci">struct MR_Mesh MR_Mesh</div><div class="ttdef"><b>Definition</b> MRCtm.h:13</div></div>
+<div class="ttc" id="aMRMeshNormals_8h_html_a50f94ee230b3b0bffb2b4b0a00986133"><div class="ttname"><a href="MRMeshNormals_8h.html#a50f94ee230b3b0bffb2b4b0a00986133">MR_Vector_std_array_MR_Vector3f_3_MR_FaceId</a></div><div class="ttdeci">struct MR_Vector_std_array_MR_Vector3f_3_MR_FaceId MR_Vector_std_array_MR_Vector3f_3_MR_FaceId</div><div class="ttdef"><b>Definition</b> MRMeshNormals.h:16</div></div>
+<div class="ttc" id="aMRMeshNormals_8h_html_a8adffd0fdf3bafd75f3ddebfbdb22ef5"><div class="ttname"><a href="MRMeshNormals_8h.html#a8adffd0fdf3bafd75f3ddebfbdb22ef5">MR_FaceNormals</a></div><div class="ttdeci">struct MR_FaceNormals MR_FaceNormals</div><div class="ttdef"><b>Definition</b> MRMeshNormals.h:12</div></div>
+<div class="ttc" id="acommon_8h_html"><div class="ttname"><a href="common_8h.html">common.h</a></div></div>
+<div class="ttc" id="acommon_8h_html_ac983b89bddb9b22c9b416f31399f0095"><div class="ttname"><a href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></div><div class="ttdeci">MR_PassBy</div><div class="ttdef"><b>Definition</b> common.h:19</div></div>
+<div class="ttc" id="acommon_8h_html_aefc0b2fe2e376b1b34a189af81dc8a49"><div class="ttname"><a href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></div><div class="ttdeci">uint64_t MR_uint64_t</div><div class="ttdef"><b>Definition</b> common.h:14</div></div>
+<div class="ttc" id="agroup__MeshNormalsGroup_html_ga1b20e1e97a8d6b5bc3ecf420c4386e51"><div class="ttname"><a href="group__MeshNormalsGroup.html#ga1b20e1e97a8d6b5bc3ecf420c4386e51">MR_MeshNormals_DefaultConstruct</a></div><div class="ttdeci">MRC_API MR_MeshNormals * MR_MeshNormals_DefaultConstruct(void)</div></div>
+<div class="ttc" id="agroup__MeshNormalsGroup_html_ga26e5011aba3d6280435d425667ff55b3"><div class="ttname"><a href="group__MeshNormalsGroup.html#ga26e5011aba3d6280435d425667ff55b3">MR_MeshNormals_DefaultConstructArray</a></div><div class="ttdeci">MRC_API MR_MeshNormals * MR_MeshNormals_DefaultConstructArray(size_t num_elems)</div></div>
+<div class="ttc" id="agroup__MeshNormalsGroup_html_ga4c404df0e68a9dc60914c3fab1545116"><div class="ttname"><a href="group__MeshNormalsGroup.html#ga4c404df0e68a9dc60914c3fab1545116">MR_MeshNormals</a></div><div class="ttdeci">struct MR_MeshNormals MR_MeshNormals</div><div class="ttdef"><b>Definition</b> MRMeshNormals.h:24</div></div>
+<div class="ttc" id="agroup__MeshNormalsGroup_html_ga6c9067cbe12173d78299a2557aea7430"><div class="ttname"><a href="group__MeshNormalsGroup.html#ga6c9067cbe12173d78299a2557aea7430">MR_computePerFaceNormals</a></div><div class="ttdeci">MRC_API MR_FaceNormals * MR_computePerFaceNormals(const MR_Mesh *mesh)</div></div>
+<div class="ttc" id="agroup__MeshNormalsGroup_html_ga71523707783284d3297474c6a4fd0fca"><div class="ttname"><a href="group__MeshNormalsGroup.html#ga71523707783284d3297474c6a4fd0fca">MR_computePerVertNormals</a></div><div class="ttdeci">MRC_API MR_VertCoords * MR_computePerVertNormals(const MR_Mesh *mesh)</div></div>
+<div class="ttc" id="agroup__MeshNormalsGroup_html_ga85bd087739fedd399bbfd16bc940e94f"><div class="ttname"><a href="group__MeshNormalsGroup.html#ga85bd087739fedd399bbfd16bc940e94f">MR_MeshNormals_OffsetMutablePtr</a></div><div class="ttdeci">MRC_API MR_MeshNormals * MR_MeshNormals_OffsetMutablePtr(MR_MeshNormals *ptr, ptrdiff_t i)</div><div class="ttdoc">Offsets a pointer to an array element by i positions (not bytes). Use only if you're certain that the...</div></div>
+<div class="ttc" id="agroup__MeshNormalsGroup_html_ga90f1492da1768b8a3be6deb2c60918d4"><div class="ttname"><a href="group__MeshNormalsGroup.html#ga90f1492da1768b8a3be6deb2c60918d4">MR_MeshNormals_Set_faceNormals</a></div><div class="ttdeci">MRC_API void MR_MeshNormals_Set_faceNormals(MR_MeshNormals *_this, MR_PassBy value_pass_by, MR_FaceNormals *value)</div></div>
+<div class="ttc" id="agroup__MeshNormalsGroup_html_ga9a70381c61b885e33de14e303cbc594b"><div class="ttname"><a href="group__MeshNormalsGroup.html#ga9a70381c61b885e33de14e303cbc594b">MR_MeshNormals_Get_faceNormals</a></div><div class="ttdeci">MRC_API const MR_FaceNormals * MR_MeshNormals_Get_faceNormals(const MR_MeshNormals *_this)</div></div>
+<div class="ttc" id="agroup__MeshNormalsGroup_html_gaa38d33691c3bbad2742a1057548fef86"><div class="ttname"><a href="group__MeshNormalsGroup.html#gaa38d33691c3bbad2742a1057548fef86">MR_computeMeshNormals</a></div><div class="ttdeci">MRC_API MR_MeshNormals * MR_computeMeshNormals(const MR_Mesh *mesh)</div></div>
+<div class="ttc" id="agroup__MeshNormalsGroup_html_gaa3a2c77a648fc5784f34274775b122c7"><div class="ttname"><a href="group__MeshNormalsGroup.html#gaa3a2c77a648fc5784f34274775b122c7">MR_MeshNormals_AssignFromAnother</a></div><div class="ttdeci">MRC_API MR_MeshNormals * MR_MeshNormals_AssignFromAnother(MR_MeshNormals *_this, MR_PassBy _other_pass_by, MR_MeshNormals *_other)</div></div>
+<div class="ttc" id="agroup__MeshNormalsGroup_html_gaa49099f8f2dd0b9fbc747416c00964a8"><div class="ttname"><a href="group__MeshNormalsGroup.html#gaa49099f8f2dd0b9fbc747416c00964a8">MR_computePerVertPseudoNormals</a></div><div class="ttdeci">MRC_API MR_VertCoords * MR_computePerVertPseudoNormals(const MR_Mesh *mesh)</div></div>
+<div class="ttc" id="agroup__MeshNormalsGroup_html_gaaf0c322fc62234e155b93ef2a1ecb09a"><div class="ttname"><a href="group__MeshNormalsGroup.html#gaaf0c322fc62234e155b93ef2a1ecb09a">MR_MeshNormals_DestroyArray</a></div><div class="ttdeci">MRC_API void MR_MeshNormals_DestroyArray(const MR_MeshNormals *_this)</div><div class="ttdoc">Destroys a heap-allocated array of MR_MeshNormals. Does nothing if the pointer is null.</div></div>
+<div class="ttc" id="agroup__MeshNormalsGroup_html_gab5ead6246bd372592e6bee394809bda1"><div class="ttname"><a href="group__MeshNormalsGroup.html#gab5ead6246bd372592e6bee394809bda1">MR_MeshNormals_ConstructFromAnother</a></div><div class="ttdeci">MRC_API MR_MeshNormals * MR_MeshNormals_ConstructFromAnother(MR_PassBy _other_pass_by, MR_MeshNormals *_other)</div></div>
+<div class="ttc" id="agroup__MeshNormalsGroup_html_gab77d7b151a38f8898616806e018b7cff"><div class="ttname"><a href="group__MeshNormalsGroup.html#gab77d7b151a38f8898616806e018b7cff">MR_computePerFaceNormals4</a></div><div class="ttdeci">MRC_API void MR_computePerFaceNormals4(const MR_Mesh *mesh, MR_Vector4f *faceNormals, MR_uint64_t size)</div></div>
+<div class="ttc" id="agroup__MeshNormalsGroup_html_gae92c03b14948ebabc3de188692a78e7f"><div class="ttname"><a href="group__MeshNormalsGroup.html#gae92c03b14948ebabc3de188692a78e7f">MR_MeshNormals_Get_vertNormals</a></div><div class="ttdeci">MRC_API const MR_VertCoords * MR_MeshNormals_Get_vertNormals(const MR_MeshNormals *_this)</div></div>
+<div class="ttc" id="agroup__MeshNormalsGroup_html_gaea159d850eef22897e8d5a48c48cbdd4"><div class="ttname"><a href="group__MeshNormalsGroup.html#gaea159d850eef22897e8d5a48c48cbdd4">MR_MeshNormals_OffsetPtr</a></div><div class="ttdeci">MRC_API const MR_MeshNormals * MR_MeshNormals_OffsetPtr(const MR_MeshNormals *ptr, ptrdiff_t i)</div><div class="ttdoc">Offsets a pointer to an array element by i positions (not bytes). Use only if you're certain that the...</div></div>
+<div class="ttc" id="agroup__MeshNormalsGroup_html_gaee022184d15f4080049e4b15159f160e"><div class="ttname"><a href="group__MeshNormalsGroup.html#gaee022184d15f4080049e4b15159f160e">MR_MeshNormals_GetMutable_faceNormals</a></div><div class="ttdeci">MRC_API MR_FaceNormals * MR_MeshNormals_GetMutable_faceNormals(MR_MeshNormals *_this)</div></div>
+<div class="ttc" id="agroup__MeshNormalsGroup_html_gaef6ff3ea06277f9ce7cf058b3a205451"><div class="ttname"><a href="group__MeshNormalsGroup.html#gaef6ff3ea06277f9ce7cf058b3a205451">MR_MeshNormals_GetMutable_vertNormals</a></div><div class="ttdeci">MRC_API MR_VertCoords * MR_MeshNormals_GetMutable_vertNormals(MR_MeshNormals *_this)</div></div>
+<div class="ttc" id="agroup__MeshNormalsGroup_html_gaf0e5e92131de63e61de72069e015a169"><div class="ttname"><a href="group__MeshNormalsGroup.html#gaf0e5e92131de63e61de72069e015a169">MR_MeshNormals_Set_vertNormals</a></div><div class="ttdeci">MRC_API void MR_MeshNormals_Set_vertNormals(MR_MeshNormals *_this, MR_PassBy value_pass_by, MR_VertCoords *value)</div></div>
+<div class="ttc" id="agroup__MeshNormalsGroup_html_gaf77d78e1df224886cfb166d038155b0b"><div class="ttname"><a href="group__MeshNormalsGroup.html#gaf77d78e1df224886cfb166d038155b0b">MR_MeshNormals_Destroy</a></div><div class="ttdeci">MRC_API void MR_MeshNormals_Destroy(const MR_MeshNormals *_this)</div><div class="ttdoc">Destroys a heap-allocated instance of MR_MeshNormals. Does nothing if the pointer is null.</div></div>
+<div class="ttc" id="agroup__MeshNormalsGroup_html_gafc9e46d271b8c4e6e92c0e50b0393311"><div class="ttname"><a href="group__MeshNormalsGroup.html#gafc9e46d271b8c4e6e92c0e50b0393311">MR_MeshNormals_ConstructFrom</a></div><div class="ttdeci">MRC_API MR_MeshNormals * MR_MeshNormals_ConstructFrom(MR_PassBy faceNormals_pass_by, MR_FaceNormals *faceNormals, MR_PassBy vertNormals_pass_by, MR_VertCoords *vertNormals)</div></div>
+<div class="ttc" id="agroup__MeshNormalsGroup_html_gafd2c9ab9488a861871977f8f7fdd29cd"><div class="ttname"><a href="group__MeshNormalsGroup.html#gafd2c9ab9488a861871977f8f7fdd29cd">MR_computePerCornerNormals</a></div><div class="ttdeci">MRC_API MR_Vector_std_array_MR_Vector3f_3_MR_FaceId * MR_computePerCornerNormals(const MR_Mesh *mesh, const MR_UndirectedEdgeBitSet *creases)</div></div>
+<div class="ttc" id="agroup__VoxelGroup_html_ga1a728fc2d1e7dd47e0f137af620f6985"><div class="ttname"><a href="../Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a></div><div class="ttdeci">size_t size() const</div></div>
+<div class="ttc" id="astructMR__Vector4f_html"><div class="ttname"><a href="structMR__Vector4f.html">MR_Vector4f</a></div><div class="ttdef"><b>Definition</b> MRVector4.h:55</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_87d38852fc01aff5f853718c8d8b5cb2.html">Cbindings</a></li><li class="navelem"><a class="el" href="dir_cb83f9b98dc6f67356ff76bcc17f4f67.html">MRCMesh</a></li><li class="navelem"><a class="el" href="MRMeshNormals_8h.html">MRMeshNormals.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

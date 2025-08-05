@@ -1,5 +1,6 @@
 var NAVTREEINDEX109 =
 {
+"classmrmeshpy_1_1expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__std__string.html#ac7f9c3615dee40bc052ed4e763892d8a":[6,1,1,0,1,228,1],
 "classmrmeshpy_1_1expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__std__string.html#ad9aa01cef9a1b4bd7b4cce1d5e7e7366":[6,1,0,0,2,228,3],
 "classmrmeshpy_1_1expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__std__string.html#ad9aa01cef9a1b4bd7b4cce1d5e7e7366":[6,1,1,0,1,228,3],
 "classmrmeshpy_1_1expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__std__string.html#aeb9894aff9bc892fe16b59b3b08b790d":[6,1,0,0,2,228,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX109 =
 "classmrmeshpy_1_1func__Vector2__int__from__Vector2__float.html#a805061be18c426f93f208cd272739939":[6,1,1,0,1,316,7],
 "classmrmeshpy_1_1func__Vector2__int__from__Vector2__float.html#a947dc33ba796af6d618f177c1ba2d329":[6,1,0,0,2,316,0],
 "classmrmeshpy_1_1func__Vector2__int__from__Vector2__float.html#a947dc33ba796af6d618f177c1ba2d329":[6,1,1,0,1,316,0],
-"classmrmeshpy_1_1func__Vector2__int__from__Vector2__float.html#a98500780fbff6dc65759355856b1fd45":[6,1,0,0,2,316,6],
-"classmrmeshpy_1_1func__Vector2__int__from__Vector2__float.html#a98500780fbff6dc65759355856b1fd45":[6,1,1,0,1,316,6]
+"classmrmeshpy_1_1func__Vector2__int__from__Vector2__float.html#a98500780fbff6dc65759355856b1fd45":[6,1,0,0,2,316,6]
 };

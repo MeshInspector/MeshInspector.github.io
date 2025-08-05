@@ -1,0 +1,1274 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: phmap_flat_hash_map_MR_VoxelId_MR_VoxelId.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('phmap__flat__hash__map__MR__VoxelId__MR__VoxelId_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">phmap_flat_hash_map_MR_VoxelId_MR_VoxelId.h File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
+</div>
+<p><a href="phmap__flat__hash__map__MR__VoxelId__MR__VoxelId_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a7247055c41fa504d97ac1bfce74f16ab" id="r_a7247055c41fa504d97ac1bfce74f16ab"><td class="memItemLeft" align="right" valign="top">typedef struct MR_VoxelId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7247055c41fa504d97ac1bfce74f16ab">MR_VoxelId</a></td></tr>
+<tr class="separator:a7247055c41fa504d97ac1bfce74f16ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8cdcb9bf634f626b222700801d5b019c" id="r_a8cdcb9bf634f626b222700801d5b019c"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRBitSet_8h.html#a8cdcb9bf634f626b222700801d5b019c">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8cdcb9bf634f626b222700801d5b019c">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</a></td></tr>
+<tr class="separator:a8cdcb9bf634f626b222700801d5b019c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5c08cb34b80d62b6ef5932d91b552ef" id="r_ad5c08cb34b80d62b6ef5932d91b552ef"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ad5c08cb34b80d62b6ef5932d91b552ef">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5c08cb34b80d62b6ef5932d91b552ef">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator</a></td></tr>
+<tr class="separator:ad5c08cb34b80d62b6ef5932d91b552ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f741c74c9fbe0f4d54e7be76d4494e2" id="r_a7f741c74c9fbe0f4d54e7be76d4494e2"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a7f741c74c9fbe0f4d54e7be76d4494e2">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f741c74c9fbe0f4d54e7be76d4494e2">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator</a></td></tr>
+<tr class="separator:a7f741c74c9fbe0f4d54e7be76d4494e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ac6553fe7364af626c1e06939d5c6a10b" id="r_ac6553fe7364af626c1e06939d5c6a10b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBitSet_8h.html#a8cdcb9bf634f626b222700801d5b019c">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6553fe7364af626c1e06939d5c6a10b">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:ac6553fe7364af626c1e06939d5c6a10b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2366364a56fae7e1098d6b778ff9d81a" id="r_a2366364a56fae7e1098d6b778ff9d81a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBitSet_8h.html#a8cdcb9bf634f626b222700801d5b019c">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2366364a56fae7e1098d6b778ff9d81a">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a2366364a56fae7e1098d6b778ff9d81a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaae0384ad15defe484ae95196455913c" id="r_aaae0384ad15defe484ae95196455913c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBitSet_8h.html#a8cdcb9bf634f626b222700801d5b019c">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaae0384ad15defe484ae95196455913c">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> other_pass_by, <a class="el" href="MRBitSet_8h.html#a8cdcb9bf634f626b222700801d5b019c">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</a> *other)</td></tr>
+<tr class="separator:aaae0384ad15defe484ae95196455913c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cf80709e231029e485d87632339910b" id="r_a9cf80709e231029e485d87632339910b"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9cf80709e231029e485d87632339910b">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_AssignFromAnother</a> (<a class="el" href="MRBitSet_8h.html#a8cdcb9bf634f626b222700801d5b019c">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> other_pass_by, <a class="el" href="MRBitSet_8h.html#a8cdcb9bf634f626b222700801d5b019c">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</a> *other)</td></tr>
+<tr class="separator:a9cf80709e231029e485d87632339910b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae99d43657423f17b67a80a5900f7ee4f" id="r_ae99d43657423f17b67a80a5900f7ee4f"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae99d43657423f17b67a80a5900f7ee4f">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_Destroy</a> (const <a class="el" href="MRBitSet_8h.html#a8cdcb9bf634f626b222700801d5b019c">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</a> *_this)</td></tr>
+<tr class="memdesc:ae99d43657423f17b67a80a5900f7ee4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ae99d43657423f17b67a80a5900f7ee4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0077b049e05ff30c43566780b65a5b9e" id="r_a0077b049e05ff30c43566780b65a5b9e"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0077b049e05ff30c43566780b65a5b9e">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_DestroyArray</a> (const <a class="el" href="MRBitSet_8h.html#a8cdcb9bf634f626b222700801d5b019c">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</a> *_this)</td></tr>
+<tr class="memdesc:a0077b049e05ff30c43566780b65a5b9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a0077b049e05ff30c43566780b65a5b9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c8ee1f40e8005372911437dac4cdcc4" id="r_a9c8ee1f40e8005372911437dac4cdcc4"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRBitSet_8h.html#a8cdcb9bf634f626b222700801d5b019c">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c8ee1f40e8005372911437dac4cdcc4">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_OffsetPtr</a> (const <a class="el" href="MRBitSet_8h.html#a8cdcb9bf634f626b222700801d5b019c">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a9c8ee1f40e8005372911437dac4cdcc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a9c8ee1f40e8005372911437dac4cdcc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af340dfa30c8a817b1d4616632db7361a" id="r_af340dfa30c8a817b1d4616632db7361a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBitSet_8h.html#a8cdcb9bf634f626b222700801d5b019c">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af340dfa30c8a817b1d4616632db7361a">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_OffsetMutablePtr</a> (<a class="el" href="MRBitSet_8h.html#a8cdcb9bf634f626b222700801d5b019c">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:af340dfa30c8a817b1d4616632db7361a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:af340dfa30c8a817b1d4616632db7361a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3175ee16731ec0e8a5b3c122f4fcb165" id="r_a3175ee16731ec0e8a5b3c122f4fcb165"><td class="memItemLeft" align="right" valign="top">MRC_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3175ee16731ec0e8a5b3c122f4fcb165">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_Size</a> (const <a class="el" href="MRBitSet_8h.html#a8cdcb9bf634f626b222700801d5b019c">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</a> *_this)</td></tr>
+<tr class="separator:a3175ee16731ec0e8a5b3c122f4fcb165"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a790be60c8999654ba647981e26632b7b" id="r_a790be60c8999654ba647981e26632b7b"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a790be60c8999654ba647981e26632b7b">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_IsEmpty</a> (const <a class="el" href="MRBitSet_8h.html#a8cdcb9bf634f626b222700801d5b019c">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</a> *_this)</td></tr>
+<tr class="separator:a790be60c8999654ba647981e26632b7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c2ff368284ab322ce89d5220df5beff" id="r_a4c2ff368284ab322ce89d5220df5beff"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c2ff368284ab322ce89d5220df5beff">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_Clear</a> (<a class="el" href="MRBitSet_8h.html#a8cdcb9bf634f626b222700801d5b019c">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</a> *_this)</td></tr>
+<tr class="separator:a4c2ff368284ab322ce89d5220df5beff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89ea3b3db4f0b8dd9b66e4af27b0a29d" id="r_a89ea3b3db4f0b8dd9b66e4af27b0a29d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__VoxelId.html">MR_VoxelId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a89ea3b3db4f0b8dd9b66e4af27b0a29d">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_FindOrConstructElem</a> (<a class="el" href="MRBitSet_8h.html#a8cdcb9bf634f626b222700801d5b019c">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</a> *_this, const <a class="el" href="structMR__VoxelId.html">MR_VoxelId</a> *key)</td></tr>
+<tr class="separator:a89ea3b3db4f0b8dd9b66e4af27b0a29d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3830bdbfbbbf118046263327ca1739d0" id="r_a3830bdbfbbbf118046263327ca1739d0"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3830bdbfbbbf118046263327ca1739d0">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_Contains</a> (const <a class="el" href="MRBitSet_8h.html#a8cdcb9bf634f626b222700801d5b019c">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</a> *_this, const <a class="el" href="structMR__VoxelId.html">MR_VoxelId</a> *key)</td></tr>
+<tr class="separator:a3830bdbfbbbf118046263327ca1739d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5120e90f72fc4135d21b369466c5084a" id="r_a5120e90f72fc4135d21b369466c5084a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ad5c08cb34b80d62b6ef5932d91b552ef">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5120e90f72fc4135d21b369466c5084a">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_Find</a> (const <a class="el" href="MRBitSet_8h.html#a8cdcb9bf634f626b222700801d5b019c">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</a> *_this, const <a class="el" href="structMR__VoxelId.html">MR_VoxelId</a> *key)</td></tr>
+<tr class="separator:a5120e90f72fc4135d21b369466c5084a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6d439a0ec785ee520ff79aba82ce17d" id="r_ae6d439a0ec785ee520ff79aba82ce17d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a7f741c74c9fbe0f4d54e7be76d4494e2">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6d439a0ec785ee520ff79aba82ce17d">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_FindMutable</a> (<a class="el" href="MRBitSet_8h.html#a8cdcb9bf634f626b222700801d5b019c">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</a> *_this, const <a class="el" href="structMR__VoxelId.html">MR_VoxelId</a> *key)</td></tr>
+<tr class="separator:ae6d439a0ec785ee520ff79aba82ce17d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac37bf7077f27166d90ab6d06091c5f32" id="r_ac37bf7077f27166d90ab6d06091c5f32"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ad5c08cb34b80d62b6ef5932d91b552ef">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac37bf7077f27166d90ab6d06091c5f32">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_Begin</a> (const <a class="el" href="MRBitSet_8h.html#a8cdcb9bf634f626b222700801d5b019c">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</a> *_this)</td></tr>
+<tr class="separator:ac37bf7077f27166d90ab6d06091c5f32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0c05799a8ab57159ac203043a7875ca" id="r_ad0c05799a8ab57159ac203043a7875ca"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad0c05799a8ab57159ac203043a7875ca">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_IsBegin</a> (const <a class="el" href="MRBitSet_8h.html#a8cdcb9bf634f626b222700801d5b019c">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</a> *_this, const <a class="el" href="#ad5c08cb34b80d62b6ef5932d91b552ef">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator</a> *iter)</td></tr>
+<tr class="separator:ad0c05799a8ab57159ac203043a7875ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac27a55dee82c5677c57bf98c25178b80" id="r_ac27a55dee82c5677c57bf98c25178b80"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a7f741c74c9fbe0f4d54e7be76d4494e2">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac27a55dee82c5677c57bf98c25178b80">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_MutableBegin</a> (<a class="el" href="MRBitSet_8h.html#a8cdcb9bf634f626b222700801d5b019c">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</a> *_this)</td></tr>
+<tr class="separator:ac27a55dee82c5677c57bf98c25178b80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc19187359ca703f69c0f6202b66437c" id="r_adc19187359ca703f69c0f6202b66437c"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc19187359ca703f69c0f6202b66437c">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_IsMutableBegin</a> (<a class="el" href="MRBitSet_8h.html#a8cdcb9bf634f626b222700801d5b019c">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</a> *_this, const <a class="el" href="#a7f741c74c9fbe0f4d54e7be76d4494e2">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator</a> *iter)</td></tr>
+<tr class="separator:adc19187359ca703f69c0f6202b66437c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0e584578d919549beb2fd87a1fc72e0" id="r_ae0e584578d919549beb2fd87a1fc72e0"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ad5c08cb34b80d62b6ef5932d91b552ef">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae0e584578d919549beb2fd87a1fc72e0">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_End</a> (const <a class="el" href="MRBitSet_8h.html#a8cdcb9bf634f626b222700801d5b019c">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</a> *_this)</td></tr>
+<tr class="separator:ae0e584578d919549beb2fd87a1fc72e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaaae97d1e79a42fa6c14b2d1497c3084" id="r_aaaae97d1e79a42fa6c14b2d1497c3084"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaaae97d1e79a42fa6c14b2d1497c3084">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_IsEnd</a> (const <a class="el" href="MRBitSet_8h.html#a8cdcb9bf634f626b222700801d5b019c">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</a> *_this, const <a class="el" href="#ad5c08cb34b80d62b6ef5932d91b552ef">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator</a> *iter)</td></tr>
+<tr class="separator:aaaae97d1e79a42fa6c14b2d1497c3084"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98410b614e9dcfec4c184e31596f26e1" id="r_a98410b614e9dcfec4c184e31596f26e1"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a7f741c74c9fbe0f4d54e7be76d4494e2">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98410b614e9dcfec4c184e31596f26e1">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_MutableEnd</a> (<a class="el" href="MRBitSet_8h.html#a8cdcb9bf634f626b222700801d5b019c">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</a> *_this)</td></tr>
+<tr class="separator:a98410b614e9dcfec4c184e31596f26e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa407f6f78a52d85d8ab47ac61da6811e" id="r_aa407f6f78a52d85d8ab47ac61da6811e"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa407f6f78a52d85d8ab47ac61da6811e">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_IsMutableEnd</a> (<a class="el" href="MRBitSet_8h.html#a8cdcb9bf634f626b222700801d5b019c">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</a> *_this, const <a class="el" href="#a7f741c74c9fbe0f4d54e7be76d4494e2">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator</a> *iter)</td></tr>
+<tr class="separator:aa407f6f78a52d85d8ab47ac61da6811e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe3df25476d81eaab1cffcfd93c00a92" id="r_abe3df25476d81eaab1cffcfd93c00a92"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ad5c08cb34b80d62b6ef5932d91b552ef">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe3df25476d81eaab1cffcfd93c00a92">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:abe3df25476d81eaab1cffcfd93c00a92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab14ee6226d3491c8b1b62b9b3df067bc" id="r_ab14ee6226d3491c8b1b62b9b3df067bc"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ad5c08cb34b80d62b6ef5932d91b552ef">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab14ee6226d3491c8b1b62b9b3df067bc">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:ab14ee6226d3491c8b1b62b9b3df067bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12b3523ddb52e2217f80a7155f5ba0c5" id="r_a12b3523ddb52e2217f80a7155f5ba0c5"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ad5c08cb34b80d62b6ef5932d91b552ef">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12b3523ddb52e2217f80a7155f5ba0c5">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator_ConstructFromAnother</a> (const <a class="el" href="#ad5c08cb34b80d62b6ef5932d91b552ef">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator</a> *other)</td></tr>
+<tr class="separator:a12b3523ddb52e2217f80a7155f5ba0c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a756032c30109db39795285885ec0bc14" id="r_a756032c30109db39795285885ec0bc14"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a756032c30109db39795285885ec0bc14">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator_AssignFromAnother</a> (<a class="el" href="#ad5c08cb34b80d62b6ef5932d91b552ef">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator</a> *_this, const <a class="el" href="#ad5c08cb34b80d62b6ef5932d91b552ef">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator</a> *other)</td></tr>
+<tr class="separator:a756032c30109db39795285885ec0bc14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8817e85edc4628c6be459d414fb8178" id="r_ab8817e85edc4628c6be459d414fb8178"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8817e85edc4628c6be459d414fb8178">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator_Destroy</a> (const <a class="el" href="#ad5c08cb34b80d62b6ef5932d91b552ef">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator</a> *_this)</td></tr>
+<tr class="memdesc:ab8817e85edc4628c6be459d414fb8178"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ab8817e85edc4628c6be459d414fb8178"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf4f62c3b482a619794e106c94201b72" id="r_aaf4f62c3b482a619794e106c94201b72"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf4f62c3b482a619794e106c94201b72">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator_DestroyArray</a> (const <a class="el" href="#ad5c08cb34b80d62b6ef5932d91b552ef">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator</a> *_this)</td></tr>
+<tr class="memdesc:aaf4f62c3b482a619794e106c94201b72"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:aaf4f62c3b482a619794e106c94201b72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fb65910095fcc370125daaf42b4aee4" id="r_a1fb65910095fcc370125daaf42b4aee4"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#ad5c08cb34b80d62b6ef5932d91b552ef">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1fb65910095fcc370125daaf42b4aee4">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator_OffsetPtr</a> (const <a class="el" href="#ad5c08cb34b80d62b6ef5932d91b552ef">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a1fb65910095fcc370125daaf42b4aee4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a1fb65910095fcc370125daaf42b4aee4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fb517cd38848f02143d69b974d42eeb" id="r_a1fb517cd38848f02143d69b974d42eeb"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ad5c08cb34b80d62b6ef5932d91b552ef">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1fb517cd38848f02143d69b974d42eeb">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator_OffsetMutablePtr</a> (<a class="el" href="#ad5c08cb34b80d62b6ef5932d91b552ef">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a1fb517cd38848f02143d69b974d42eeb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a1fb517cd38848f02143d69b974d42eeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a281d2ee14dd070b301dc1cbd0da2541a" id="r_a281d2ee14dd070b301dc1cbd0da2541a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ad5c08cb34b80d62b6ef5932d91b552ef">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a281d2ee14dd070b301dc1cbd0da2541a">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator_FromMutable</a> (const <a class="el" href="#a7f741c74c9fbe0f4d54e7be76d4494e2">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator</a> *iter)</td></tr>
+<tr class="separator:a281d2ee14dd070b301dc1cbd0da2541a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e55e5d10e0e09dae2735caf25c136a7" id="r_a7e55e5d10e0e09dae2735caf25c136a7"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a7f741c74c9fbe0f4d54e7be76d4494e2">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e55e5d10e0e09dae2735caf25c136a7">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a7e55e5d10e0e09dae2735caf25c136a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbdb91985be2ae7a708c5057eb220975" id="r_afbdb91985be2ae7a708c5057eb220975"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a7f741c74c9fbe0f4d54e7be76d4494e2">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afbdb91985be2ae7a708c5057eb220975">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:afbdb91985be2ae7a708c5057eb220975"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a625a871158f2890411d54d0c42d8f314" id="r_a625a871158f2890411d54d0c42d8f314"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a7f741c74c9fbe0f4d54e7be76d4494e2">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a625a871158f2890411d54d0c42d8f314">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator_ConstructFromAnother</a> (const <a class="el" href="#a7f741c74c9fbe0f4d54e7be76d4494e2">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator</a> *other)</td></tr>
+<tr class="separator:a625a871158f2890411d54d0c42d8f314"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d8ba285a50e3f4983e8303bc0fd4e2a" id="r_a4d8ba285a50e3f4983e8303bc0fd4e2a"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d8ba285a50e3f4983e8303bc0fd4e2a">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator_AssignFromAnother</a> (<a class="el" href="#a7f741c74c9fbe0f4d54e7be76d4494e2">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator</a> *_this, const <a class="el" href="#a7f741c74c9fbe0f4d54e7be76d4494e2">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator</a> *other)</td></tr>
+<tr class="separator:a4d8ba285a50e3f4983e8303bc0fd4e2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38232c3f333da68d3f1b383c0baba9b8" id="r_a38232c3f333da68d3f1b383c0baba9b8"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38232c3f333da68d3f1b383c0baba9b8">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator_Destroy</a> (const <a class="el" href="#a7f741c74c9fbe0f4d54e7be76d4494e2">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator</a> *_this)</td></tr>
+<tr class="memdesc:a38232c3f333da68d3f1b383c0baba9b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a38232c3f333da68d3f1b383c0baba9b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8677bc77af44e950843854a95a2de121" id="r_a8677bc77af44e950843854a95a2de121"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8677bc77af44e950843854a95a2de121">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator_DestroyArray</a> (const <a class="el" href="#a7f741c74c9fbe0f4d54e7be76d4494e2">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator</a> *_this)</td></tr>
+<tr class="memdesc:a8677bc77af44e950843854a95a2de121"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a8677bc77af44e950843854a95a2de121"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87331fb63b06b8f9b17d3f130139266d" id="r_a87331fb63b06b8f9b17d3f130139266d"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a7f741c74c9fbe0f4d54e7be76d4494e2">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a87331fb63b06b8f9b17d3f130139266d">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator_OffsetPtr</a> (const <a class="el" href="#a7f741c74c9fbe0f4d54e7be76d4494e2">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a87331fb63b06b8f9b17d3f130139266d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a87331fb63b06b8f9b17d3f130139266d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0d741718049eaeefdaaea0b5ef0c694" id="r_aa0d741718049eaeefdaaea0b5ef0c694"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a7f741c74c9fbe0f4d54e7be76d4494e2">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0d741718049eaeefdaaea0b5ef0c694">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator_OffsetMutablePtr</a> (<a class="el" href="#a7f741c74c9fbe0f4d54e7be76d4494e2">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:aa0d741718049eaeefdaaea0b5ef0c694"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:aa0d741718049eaeefdaaea0b5ef0c694"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a018f5db514db7ac08cef4a68e11210e3" id="r_a018f5db514db7ac08cef4a68e11210e3"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__VoxelId.html">MR_VoxelId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a018f5db514db7ac08cef4a68e11210e3">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator_DerefKey</a> (const <a class="el" href="#ad5c08cb34b80d62b6ef5932d91b552ef">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator</a> *_this)</td></tr>
+<tr class="separator:a018f5db514db7ac08cef4a68e11210e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa61d93d6513c7ed175803a198f86a5ca" id="r_aa61d93d6513c7ed175803a198f86a5ca"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__VoxelId.html">MR_VoxelId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa61d93d6513c7ed175803a198f86a5ca">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator_DerefValue</a> (const <a class="el" href="#ad5c08cb34b80d62b6ef5932d91b552ef">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator</a> *_this)</td></tr>
+<tr class="separator:aa61d93d6513c7ed175803a198f86a5ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad242f6ccaadee7419607514a2cb28023" id="r_ad242f6ccaadee7419607514a2cb28023"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad242f6ccaadee7419607514a2cb28023">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator_Incr</a> (<a class="el" href="#ad5c08cb34b80d62b6ef5932d91b552ef">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator</a> *_this)</td></tr>
+<tr class="separator:ad242f6ccaadee7419607514a2cb28023"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11d1b9e21a1ff1db34cc2bc7127c3979" id="r_a11d1b9e21a1ff1db34cc2bc7127c3979"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__VoxelId.html">MR_VoxelId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11d1b9e21a1ff1db34cc2bc7127c3979">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator_DerefKey</a> (const <a class="el" href="#a7f741c74c9fbe0f4d54e7be76d4494e2">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator</a> *_this)</td></tr>
+<tr class="separator:a11d1b9e21a1ff1db34cc2bc7127c3979"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25ab2d42c77e9d6370972aaecbdc92f8" id="r_a25ab2d42c77e9d6370972aaecbdc92f8"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__VoxelId.html">MR_VoxelId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25ab2d42c77e9d6370972aaecbdc92f8">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator_DerefValue</a> (const <a class="el" href="#a7f741c74c9fbe0f4d54e7be76d4494e2">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator</a> *_this)</td></tr>
+<tr class="separator:a25ab2d42c77e9d6370972aaecbdc92f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fc43e0c4e6082fc0d8d60f26cbc13c9" id="r_a0fc43e0c4e6082fc0d8d60f26cbc13c9"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0fc43e0c4e6082fc0d8d60f26cbc13c9">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator_Incr</a> (<a class="el" href="#a7f741c74c9fbe0f4d54e7be76d4494e2">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator</a> *_this)</td></tr>
+<tr class="separator:a0fc43e0c4e6082fc0d8d60f26cbc13c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a8cdcb9bf634f626b222700801d5b019c" name="a8cdcb9bf634f626b222700801d5b019c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8cdcb9bf634f626b222700801d5b019c">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRBitSet_8h.html#a8cdcb9bf634f626b222700801d5b019c">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</a> <a class="el" href="MRBitSet_8h.html#a8cdcb9bf634f626b222700801d5b019c">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from C++ container <code>phmap::flat_hash_map&lt;MR::VoxelId, MR::VoxelId&gt;</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code>, (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="ad5c08cb34b80d62b6ef5932d91b552ef" name="ad5c08cb34b80d62b6ef5932d91b552ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5c08cb34b80d62b6ef5932d91b552ef">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#ad5c08cb34b80d62b6ef5932d91b552ef">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator</a> <a class="el" href="#ad5c08cb34b80d62b6ef5932d91b552ef">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Read-only iterator for <code>MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code>, (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="a7f741c74c9fbe0f4d54e7be76d4494e2" name="a7f741c74c9fbe0f4d54e7be76d4494e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f741c74c9fbe0f4d54e7be76d4494e2">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a7f741c74c9fbe0f4d54e7be76d4494e2">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator</a> <a class="el" href="#a7f741c74c9fbe0f4d54e7be76d4494e2">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Mutable iterator for <code>MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code>, (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="a7247055c41fa504d97ac1bfce74f16ab" name="a7247055c41fa504d97ac1bfce74f16ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7247055c41fa504d97ac1bfce74f16ab">&#9670;&#160;</a></span>MR_VoxelId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct MR_VoxelId MR_VoxelId</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a9cf80709e231029e485d87632339910b" name="a9cf80709e231029e485d87632339910b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9cf80709e231029e485d87632339910b">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRBitSet_8h.html#a8cdcb9bf634f626b222700801d5b019c">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRBitSet_8h.html#a8cdcb9bf634f626b222700801d5b019c">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ac37bf7077f27166d90ab6d06091c5f32" name="ac37bf7077f27166d90ab6d06091c5f32"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac37bf7077f27166d90ab6d06091c5f32">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_Begin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ad5c08cb34b80d62b6ef5932d91b552ef">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator</a> * MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_Begin </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBitSet_8h.html#a8cdcb9bf634f626b222700801d5b019c">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, const. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ab8817e85edc4628c6be459d414fb8178" title="Destroys a heap-allocated instance of MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator....">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a4c2ff368284ab322ce89d5220df5beff" name="a4c2ff368284ab322ce89d5220df5beff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c2ff368284ab322ce89d5220df5beff">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_Clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_Clear </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRBitSet_8h.html#a8cdcb9bf634f626b222700801d5b019c">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Removes all elements from the container. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a756032c30109db39795285885ec0bc14" name="a756032c30109db39795285885ec0bc14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a756032c30109db39795285885ec0bc14">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ad5c08cb34b80d62b6ef5932d91b552ef">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ad5c08cb34b80d62b6ef5932d91b552ef">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <code>_this</code> can not be null. Parameter <code>other</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a12b3523ddb52e2217f80a7155f5ba0c5" name="a12b3523ddb52e2217f80a7155f5ba0c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12b3523ddb52e2217f80a7155f5ba0c5">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ad5c08cb34b80d62b6ef5932d91b552ef">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator</a> * MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ad5c08cb34b80d62b6ef5932d91b552ef">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs a copy of another instance. The source remains alive. Parameter <code>other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ab8817e85edc4628c6be459d414fb8178" title="Destroys a heap-allocated instance of MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator....">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="abe3df25476d81eaab1cffcfd93c00a92" name="abe3df25476d81eaab1cffcfd93c00a92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe3df25476d81eaab1cffcfd93c00a92">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ad5c08cb34b80d62b6ef5932d91b552ef">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator</a> * MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ab8817e85edc4628c6be459d414fb8178" title="Destroys a heap-allocated instance of MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator....">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ab14ee6226d3491c8b1b62b9b3df067bc" name="ab14ee6226d3491c8b1b62b9b3df067bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab14ee6226d3491c8b1b62b9b3df067bc">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ad5c08cb34b80d62b6ef5932d91b552ef">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator</a> * MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#aaf4f62c3b482a619794e106c94201b72" title="Destroys a heap-allocated array of MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator....">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator_DestroyArray()</a></code>. Use <code><a class="el" href="#a1fb517cd38848f02143d69b974d42eeb" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a1fb65910095fcc370125daaf42b4aee4" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a018f5db514db7ac08cef4a68e11210e3" name="a018f5db514db7ac08cef4a68e11210e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a018f5db514db7ac08cef4a68e11210e3">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator_DerefKey()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="structMR__VoxelId.html">MR_VoxelId</a> * MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator_DerefKey </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ad5c08cb34b80d62b6ef5932d91b552ef">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Dereferences a const iterator, returning the key. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="aa61d93d6513c7ed175803a198f86a5ca" name="aa61d93d6513c7ed175803a198f86a5ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa61d93d6513c7ed175803a198f86a5ca">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator_DerefValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="structMR__VoxelId.html">MR_VoxelId</a> * MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator_DerefValue </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ad5c08cb34b80d62b6ef5932d91b552ef">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Dereferences a const iterator, returning the mapped value. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ab8817e85edc4628c6be459d414fb8178" name="ab8817e85edc4628c6be459d414fb8178"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8817e85edc4628c6be459d414fb8178">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ad5c08cb34b80d62b6ef5932d91b552ef">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="aaf4f62c3b482a619794e106c94201b72" name="aaf4f62c3b482a619794e106c94201b72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf4f62c3b482a619794e106c94201b72">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ad5c08cb34b80d62b6ef5932d91b552ef">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a281d2ee14dd070b301dc1cbd0da2541a" name="a281d2ee14dd070b301dc1cbd0da2541a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a281d2ee14dd070b301dc1cbd0da2541a">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator_FromMutable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ad5c08cb34b80d62b6ef5932d91b552ef">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator</a> * MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator_FromMutable </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a7f741c74c9fbe0f4d54e7be76d4494e2">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Makes a const iterator from a mutable one. Parameter <code>iter</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ab8817e85edc4628c6be459d414fb8178" title="Destroys a heap-allocated instance of MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator....">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ad242f6ccaadee7419607514a2cb28023" name="ad242f6ccaadee7419607514a2cb28023"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad242f6ccaadee7419607514a2cb28023">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator_Incr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator_Incr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ad5c08cb34b80d62b6ef5932d91b552ef">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Increments a const iterator. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a1fb517cd38848f02143d69b974d42eeb" name="a1fb517cd38848f02143d69b974d42eeb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1fb517cd38848f02143d69b974d42eeb">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ad5c08cb34b80d62b6ef5932d91b552ef">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator</a> * MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ad5c08cb34b80d62b6ef5932d91b552ef">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a1fb65910095fcc370125daaf42b4aee4" name="a1fb65910095fcc370125daaf42b4aee4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1fb65910095fcc370125daaf42b4aee4">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#ad5c08cb34b80d62b6ef5932d91b552ef">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator</a> * MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ad5c08cb34b80d62b6ef5932d91b552ef">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="aaae0384ad15defe484ae95196455913c" name="aaae0384ad15defe484ae95196455913c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaae0384ad15defe484ae95196455913c">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBitSet_8h.html#a8cdcb9bf634f626b222700801d5b019c">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</a> * MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRBitSet_8h.html#a8cdcb9bf634f626b222700801d5b019c">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs a copy of another instance. The source remains alive. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae99d43657423f17b67a80a5900f7ee4f" title="Destroys a heap-allocated instance of MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId....">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a3830bdbfbbbf118046263327ca1739d0" name="a3830bdbfbbbf118046263327ca1739d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3830bdbfbbbf118046263327ca1739d0">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_Contains()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_Contains </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBitSet_8h.html#a8cdcb9bf634f626b222700801d5b019c">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__VoxelId.html">MR_VoxelId</a> *</td>          <td class="paramname"><span class="paramname"><em>key</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Checks if the contain contains this key. Parameter <code>_this</code> can not be null. Parameter <code>key</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ac6553fe7364af626c1e06939d5c6a10b" name="ac6553fe7364af626c1e06939d5c6a10b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6553fe7364af626c1e06939d5c6a10b">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBitSet_8h.html#a8cdcb9bf634f626b222700801d5b019c">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</a> * MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae99d43657423f17b67a80a5900f7ee4f" title="Destroys a heap-allocated instance of MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId....">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a2366364a56fae7e1098d6b778ff9d81a" name="a2366364a56fae7e1098d6b778ff9d81a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2366364a56fae7e1098d6b778ff9d81a">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBitSet_8h.html#a8cdcb9bf634f626b222700801d5b019c">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</a> * MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a0077b049e05ff30c43566780b65a5b9e" title="Destroys a heap-allocated array of MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId. Does nothing if the ...">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_DestroyArray()</a></code>. Use <code><a class="el" href="#af340dfa30c8a817b1d4616632db7361a" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a9c8ee1f40e8005372911437dac4cdcc4" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="ae99d43657423f17b67a80a5900f7ee4f" name="ae99d43657423f17b67a80a5900f7ee4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae99d43657423f17b67a80a5900f7ee4f">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBitSet_8h.html#a8cdcb9bf634f626b222700801d5b019c">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a0077b049e05ff30c43566780b65a5b9e" name="a0077b049e05ff30c43566780b65a5b9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0077b049e05ff30c43566780b65a5b9e">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBitSet_8h.html#a8cdcb9bf634f626b222700801d5b019c">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="ae0e584578d919549beb2fd87a1fc72e0" name="ae0e584578d919549beb2fd87a1fc72e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0e584578d919549beb2fd87a1fc72e0">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_End()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ad5c08cb34b80d62b6ef5932d91b552ef">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator</a> * MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_End </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBitSet_8h.html#a8cdcb9bf634f626b222700801d5b019c">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, const. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ab8817e85edc4628c6be459d414fb8178" title="Destroys a heap-allocated instance of MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator....">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a5120e90f72fc4135d21b369466c5084a" name="a5120e90f72fc4135d21b369466c5084a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5120e90f72fc4135d21b369466c5084a">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_Find()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ad5c08cb34b80d62b6ef5932d91b552ef">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator</a> * MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_Find </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBitSet_8h.html#a8cdcb9bf634f626b222700801d5b019c">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__VoxelId.html">MR_VoxelId</a> *</td>          <td class="paramname"><span class="paramname"><em>key</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Finds the element by key, or returns the end iterator if no such key. Returns a read-only iterator. Parameter <code>_this</code> can not be null. Parameter <code>key</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ab8817e85edc4628c6be459d414fb8178" title="Destroys a heap-allocated instance of MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator....">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ae6d439a0ec785ee520ff79aba82ce17d" name="ae6d439a0ec785ee520ff79aba82ce17d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6d439a0ec785ee520ff79aba82ce17d">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_FindMutable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a7f741c74c9fbe0f4d54e7be76d4494e2">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator</a> * MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_FindMutable </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRBitSet_8h.html#a8cdcb9bf634f626b222700801d5b019c">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__VoxelId.html">MR_VoxelId</a> *</td>          <td class="paramname"><span class="paramname"><em>key</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Finds the element by key, or returns the end iterator if no such key. Returns a mutable iterator. Parameter <code>_this</code> can not be null. Parameter <code>key</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a38232c3f333da68d3f1b383c0baba9b8" title="Destroys a heap-allocated instance of MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator....">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a89ea3b3db4f0b8dd9b66e4af27b0a29d" name="a89ea3b3db4f0b8dd9b66e4af27b0a29d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89ea3b3db4f0b8dd9b66e4af27b0a29d">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_FindOrConstructElem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__VoxelId.html">MR_VoxelId</a> * MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_FindOrConstructElem </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRBitSet_8h.html#a8cdcb9bf634f626b222700801d5b019c">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__VoxelId.html">MR_VoxelId</a> *</td>          <td class="paramname"><span class="paramname"><em>key</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the element with the specific key. If it doesn't exist, creates it first. Acts like map's <code>operator[]</code> in C++. Parameter <code>_this</code> can not be null. Parameter <code>key</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ad0c05799a8ab57159ac203043a7875ca" name="ad0c05799a8ab57159ac203043a7875ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0c05799a8ab57159ac203043a7875ca">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_IsBegin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_IsBegin </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBitSet_8h.html#a8cdcb9bf634f626b222700801d5b019c">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ad5c08cb34b80d62b6ef5932d91b552ef">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a const iterator is the begin iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a790be60c8999654ba647981e26632b7b" name="a790be60c8999654ba647981e26632b7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a790be60c8999654ba647981e26632b7b">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_IsEmpty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_IsEmpty </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBitSet_8h.html#a8cdcb9bf634f626b222700801d5b019c">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns true if the size is zero. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aaaae97d1e79a42fa6c14b2d1497c3084" name="aaaae97d1e79a42fa6c14b2d1497c3084"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaaae97d1e79a42fa6c14b2d1497c3084">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_IsEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_IsEnd </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBitSet_8h.html#a8cdcb9bf634f626b222700801d5b019c">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ad5c08cb34b80d62b6ef5932d91b552ef">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a const iterator is the end iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="adc19187359ca703f69c0f6202b66437c" name="adc19187359ca703f69c0f6202b66437c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc19187359ca703f69c0f6202b66437c">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_IsMutableBegin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_IsMutableBegin </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRBitSet_8h.html#a8cdcb9bf634f626b222700801d5b019c">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a7f741c74c9fbe0f4d54e7be76d4494e2">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a mutable iterator is the begin iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aa407f6f78a52d85d8ab47ac61da6811e" name="aa407f6f78a52d85d8ab47ac61da6811e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa407f6f78a52d85d8ab47ac61da6811e">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_IsMutableEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_IsMutableEnd </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRBitSet_8h.html#a8cdcb9bf634f626b222700801d5b019c">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a7f741c74c9fbe0f4d54e7be76d4494e2">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a mutable iterator is the end iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a4d8ba285a50e3f4983e8303bc0fd4e2a" name="a4d8ba285a50e3f4983e8303bc0fd4e2a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d8ba285a50e3f4983e8303bc0fd4e2a">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a7f741c74c9fbe0f4d54e7be76d4494e2">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a7f741c74c9fbe0f4d54e7be76d4494e2">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <code>_this</code> can not be null. Parameter <code>other</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a625a871158f2890411d54d0c42d8f314" name="a625a871158f2890411d54d0c42d8f314"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a625a871158f2890411d54d0c42d8f314">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a7f741c74c9fbe0f4d54e7be76d4494e2">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator</a> * MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a7f741c74c9fbe0f4d54e7be76d4494e2">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs a copy of another instance. The source remains alive. Parameter <code>other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a38232c3f333da68d3f1b383c0baba9b8" title="Destroys a heap-allocated instance of MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator....">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a7e55e5d10e0e09dae2735caf25c136a7" name="a7e55e5d10e0e09dae2735caf25c136a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e55e5d10e0e09dae2735caf25c136a7">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a7f741c74c9fbe0f4d54e7be76d4494e2">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator</a> * MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a38232c3f333da68d3f1b383c0baba9b8" title="Destroys a heap-allocated instance of MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator....">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="afbdb91985be2ae7a708c5057eb220975" name="afbdb91985be2ae7a708c5057eb220975"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afbdb91985be2ae7a708c5057eb220975">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a7f741c74c9fbe0f4d54e7be76d4494e2">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator</a> * MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a8677bc77af44e950843854a95a2de121" title="Destroys a heap-allocated array of MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator....">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator_DestroyArray()</a></code>. Use <code><a class="el" href="#aa0d741718049eaeefdaaea0b5ef0c694" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a87331fb63b06b8f9b17d3f130139266d" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a11d1b9e21a1ff1db34cc2bc7127c3979" name="a11d1b9e21a1ff1db34cc2bc7127c3979"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11d1b9e21a1ff1db34cc2bc7127c3979">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator_DerefKey()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="structMR__VoxelId.html">MR_VoxelId</a> * MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator_DerefKey </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a7f741c74c9fbe0f4d54e7be76d4494e2">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Dereferences a mutable iterator, returning the key. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a25ab2d42c77e9d6370972aaecbdc92f8" name="a25ab2d42c77e9d6370972aaecbdc92f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25ab2d42c77e9d6370972aaecbdc92f8">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator_DerefValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__VoxelId.html">MR_VoxelId</a> * MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator_DerefValue </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a7f741c74c9fbe0f4d54e7be76d4494e2">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Dereferences a mutable iterator, returning the mapped value. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a38232c3f333da68d3f1b383c0baba9b8" name="a38232c3f333da68d3f1b383c0baba9b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38232c3f333da68d3f1b383c0baba9b8">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a7f741c74c9fbe0f4d54e7be76d4494e2">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a8677bc77af44e950843854a95a2de121" name="a8677bc77af44e950843854a95a2de121"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8677bc77af44e950843854a95a2de121">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a7f741c74c9fbe0f4d54e7be76d4494e2">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a0fc43e0c4e6082fc0d8d60f26cbc13c9" name="a0fc43e0c4e6082fc0d8d60f26cbc13c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fc43e0c4e6082fc0d8d60f26cbc13c9">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator_Incr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator_Incr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a7f741c74c9fbe0f4d54e7be76d4494e2">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Increments a mutable iterator. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aa0d741718049eaeefdaaea0b5ef0c694" name="aa0d741718049eaeefdaaea0b5ef0c694"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0d741718049eaeefdaaea0b5ef0c694">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a7f741c74c9fbe0f4d54e7be76d4494e2">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator</a> * MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a7f741c74c9fbe0f4d54e7be76d4494e2">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a87331fb63b06b8f9b17d3f130139266d" name="a87331fb63b06b8f9b17d3f130139266d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87331fb63b06b8f9b17d3f130139266d">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a7f741c74c9fbe0f4d54e7be76d4494e2">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator</a> * MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a7f741c74c9fbe0f4d54e7be76d4494e2">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="ac27a55dee82c5677c57bf98c25178b80" name="ac27a55dee82c5677c57bf98c25178b80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac27a55dee82c5677c57bf98c25178b80">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_MutableBegin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a7f741c74c9fbe0f4d54e7be76d4494e2">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator</a> * MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_MutableBegin </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRBitSet_8h.html#a8cdcb9bf634f626b222700801d5b019c">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, mutable. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a38232c3f333da68d3f1b383c0baba9b8" title="Destroys a heap-allocated instance of MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator....">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a98410b614e9dcfec4c184e31596f26e1" name="a98410b614e9dcfec4c184e31596f26e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98410b614e9dcfec4c184e31596f26e1">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_MutableEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a7f741c74c9fbe0f4d54e7be76d4494e2">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator</a> * MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_MutableEnd </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRBitSet_8h.html#a8cdcb9bf634f626b222700801d5b019c">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, mutable. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a38232c3f333da68d3f1b383c0baba9b8" title="Destroys a heap-allocated instance of MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator....">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="af340dfa30c8a817b1d4616632db7361a" name="af340dfa30c8a817b1d4616632db7361a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af340dfa30c8a817b1d4616632db7361a">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBitSet_8h.html#a8cdcb9bf634f626b222700801d5b019c">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</a> * MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRBitSet_8h.html#a8cdcb9bf634f626b222700801d5b019c">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a9c8ee1f40e8005372911437dac4cdcc4" name="a9c8ee1f40e8005372911437dac4cdcc4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c8ee1f40e8005372911437dac4cdcc4">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRBitSet_8h.html#a8cdcb9bf634f626b222700801d5b019c">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</a> * MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBitSet_8h.html#a8cdcb9bf634f626b222700801d5b019c">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a3175ee16731ec0e8a5b3c122f4fcb165" name="a3175ee16731ec0e8a5b3c122f4fcb165"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3175ee16731ec0e8a5b3c122f4fcb165">&#9670;&#160;</a></span>MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_Size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API size_t MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId_Size </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBitSet_8h.html#a8cdcb9bf634f626b222700801d5b019c">MR_phmap_flat_hash_map_MR_VoxelId_MR_VoxelId</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The number of elements. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_87d38852fc01aff5f853718c8d8b5cb2.html">Cbindings</a></li><li class="navelem"><a class="el" href="dir_12d01ef4fa7c7ca18852dd6d7d92a624.html">MRCMisc</a></li><li class="navelem"><a class="el" href="phmap__flat__hash__map__MR__VoxelId__MR__VoxelId_8h.html">phmap_flat_hash_map_MR_VoxelId_MR_VoxelId.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

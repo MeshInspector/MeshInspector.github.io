@@ -1,0 +1,1770 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: std_vector_MR_MeshBuilder_VertDuplication.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('std__vector__MR__MeshBuilder__VertDuplication_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">std_vector_MR_MeshBuilder_VertDuplication.h File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
+</div>
+<p><a href="std__vector__MR__MeshBuilder__VertDuplication_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:adefa96bedfd70d997a908e017e491827" id="r_adefa96bedfd70d997a908e017e491827"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRMeshBuilder_8h.html#adefa96bedfd70d997a908e017e491827">MR_MeshBuilder_VertDuplication</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adefa96bedfd70d997a908e017e491827">MR_MeshBuilder_VertDuplication</a></td></tr>
+<tr class="separator:adefa96bedfd70d997a908e017e491827"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5dd2fd820a754655ef67335b8cd94f73" id="r_a5dd2fd820a754655ef67335b8cd94f73"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a></td></tr>
+<tr class="separator:a5dd2fd820a754655ef67335b8cd94f73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae620bd616bc97ad38428816dac455776" id="r_ae620bd616bc97ad38428816dac455776"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ae620bd616bc97ad38428816dac455776">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae620bd616bc97ad38428816dac455776">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator</a></td></tr>
+<tr class="separator:ae620bd616bc97ad38428816dac455776"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9112c89c90fbc54469f97df2373e644" id="r_ad9112c89c90fbc54469f97df2373e644"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ad9112c89c90fbc54469f97df2373e644">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad9112c89c90fbc54469f97df2373e644">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator</a></td></tr>
+<tr class="separator:ad9112c89c90fbc54469f97df2373e644"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:aa164536152c72ab8986334cb6bdf31a1" id="r_aa164536152c72ab8986334cb6bdf31a1"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa164536152c72ab8986334cb6bdf31a1">MR_std_vector_MR_MeshBuilder_VertDuplication_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:aa164536152c72ab8986334cb6bdf31a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab58db55527a3a018906638b7ec992a12" id="r_ab58db55527a3a018906638b7ec992a12"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab58db55527a3a018906638b7ec992a12">MR_std_vector_MR_MeshBuilder_VertDuplication_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:ab58db55527a3a018906638b7ec992a12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87c48362ac72b11c5aeb910c230c1a66" id="r_a87c48362ac72b11c5aeb910c230c1a66"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a87c48362ac72b11c5aeb910c230c1a66">MR_std_vector_MR_MeshBuilder_VertDuplication_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> other_pass_by, <a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *other)</td></tr>
+<tr class="separator:a87c48362ac72b11c5aeb910c230c1a66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25765d14ecac006eab7e81828c66d1a5" id="r_a25765d14ecac006eab7e81828c66d1a5"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25765d14ecac006eab7e81828c66d1a5">MR_std_vector_MR_MeshBuilder_VertDuplication_AssignFromAnother</a> (<a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> other_pass_by, <a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *other)</td></tr>
+<tr class="separator:a25765d14ecac006eab7e81828c66d1a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ed58c1eef3c82ab0d4ea8d9ee57b3fc" id="r_a6ed58c1eef3c82ab0d4ea8d9ee57b3fc"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ed58c1eef3c82ab0d4ea8d9ee57b3fc">MR_std_vector_MR_MeshBuilder_VertDuplication_Destroy</a> (const <a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *_this)</td></tr>
+<tr class="memdesc:a6ed58c1eef3c82ab0d4ea8d9ee57b3fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_std_vector_MR_MeshBuilder_VertDuplication</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a6ed58c1eef3c82ab0d4ea8d9ee57b3fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab51b6063e939f1593ec223aeff7e5f16" id="r_ab51b6063e939f1593ec223aeff7e5f16"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab51b6063e939f1593ec223aeff7e5f16">MR_std_vector_MR_MeshBuilder_VertDuplication_DestroyArray</a> (const <a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *_this)</td></tr>
+<tr class="memdesc:ab51b6063e939f1593ec223aeff7e5f16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_std_vector_MR_MeshBuilder_VertDuplication</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ab51b6063e939f1593ec223aeff7e5f16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9901cb42f5b5f67d35e1c0840795c6b9" id="r_a9901cb42f5b5f67d35e1c0840795c6b9"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9901cb42f5b5f67d35e1c0840795c6b9">MR_std_vector_MR_MeshBuilder_VertDuplication_OffsetPtr</a> (const <a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a9901cb42f5b5f67d35e1c0840795c6b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a9901cb42f5b5f67d35e1c0840795c6b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d0432c46c8337097891e05f4c1fbd31" id="r_a9d0432c46c8337097891e05f4c1fbd31"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d0432c46c8337097891e05f4c1fbd31">MR_std_vector_MR_MeshBuilder_VertDuplication_OffsetMutablePtr</a> (<a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a9d0432c46c8337097891e05f4c1fbd31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a9d0432c46c8337097891e05f4c1fbd31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94c065acfafdefdce1c5759e4f417ddf" id="r_a94c065acfafdefdce1c5759e4f417ddf"><td class="memItemLeft" align="right" valign="top">MRC_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94c065acfafdefdce1c5759e4f417ddf">MR_std_vector_MR_MeshBuilder_VertDuplication_Size</a> (const <a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *_this)</td></tr>
+<tr class="separator:a94c065acfafdefdce1c5759e4f417ddf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6eda61d57ee944ff96feaf83c6cfbe7" id="r_af6eda61d57ee944ff96feaf83c6cfbe7"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6eda61d57ee944ff96feaf83c6cfbe7">MR_std_vector_MR_MeshBuilder_VertDuplication_IsEmpty</a> (const <a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *_this)</td></tr>
+<tr class="separator:af6eda61d57ee944ff96feaf83c6cfbe7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a392ea441012f00fb2528713b7b2560d4" id="r_a392ea441012f00fb2528713b7b2560d4"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a392ea441012f00fb2528713b7b2560d4">MR_std_vector_MR_MeshBuilder_VertDuplication_Resize</a> (<a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *_this, size_t new_size)</td></tr>
+<tr class="separator:a392ea441012f00fb2528713b7b2560d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a650aff5bd544d1ce4610c1afa459a13d" id="r_a650aff5bd544d1ce4610c1afa459a13d"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a650aff5bd544d1ce4610c1afa459a13d">MR_std_vector_MR_MeshBuilder_VertDuplication_ResizeWithDefaultValue</a> (<a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *_this, size_t new_size, const <a class="el" href="MRMeshBuilder_8h.html#adefa96bedfd70d997a908e017e491827">MR_MeshBuilder_VertDuplication</a> *value)</td></tr>
+<tr class="separator:a650aff5bd544d1ce4610c1afa459a13d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cf7793911fa0f68938480ed5e07993b" id="r_a9cf7793911fa0f68938480ed5e07993b"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9cf7793911fa0f68938480ed5e07993b">MR_std_vector_MR_MeshBuilder_VertDuplication_Clear</a> (<a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *_this)</td></tr>
+<tr class="separator:a9cf7793911fa0f68938480ed5e07993b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad79c8cfd405038cedf1558229603562f" id="r_ad79c8cfd405038cedf1558229603562f"><td class="memItemLeft" align="right" valign="top">MRC_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad79c8cfd405038cedf1558229603562f">MR_std_vector_MR_MeshBuilder_VertDuplication_Capacity</a> (const <a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *_this)</td></tr>
+<tr class="separator:ad79c8cfd405038cedf1558229603562f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb05d1f412cd0c8168100e721036adae" id="r_adb05d1f412cd0c8168100e721036adae"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb05d1f412cd0c8168100e721036adae">MR_std_vector_MR_MeshBuilder_VertDuplication_Reserve</a> (<a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *_this, size_t new_capacity)</td></tr>
+<tr class="separator:adb05d1f412cd0c8168100e721036adae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64240e96bd5060ee3c15b20bc10e6e1f" id="r_a64240e96bd5060ee3c15b20bc10e6e1f"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64240e96bd5060ee3c15b20bc10e6e1f">MR_std_vector_MR_MeshBuilder_VertDuplication_ShrinkToFit</a> (<a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *_this)</td></tr>
+<tr class="separator:a64240e96bd5060ee3c15b20bc10e6e1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc31c853af4a9d12f8181751c74f5802" id="r_afc31c853af4a9d12f8181751c74f5802"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRMeshBuilder_8h.html#adefa96bedfd70d997a908e017e491827">MR_MeshBuilder_VertDuplication</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc31c853af4a9d12f8181751c74f5802">MR_std_vector_MR_MeshBuilder_VertDuplication_At</a> (const <a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *_this, size_t i)</td></tr>
+<tr class="separator:afc31c853af4a9d12f8181751c74f5802"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa61bfda65043e2267176ec93cc3a62e4" id="r_aa61bfda65043e2267176ec93cc3a62e4"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMeshBuilder_8h.html#adefa96bedfd70d997a908e017e491827">MR_MeshBuilder_VertDuplication</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa61bfda65043e2267176ec93cc3a62e4">MR_std_vector_MR_MeshBuilder_VertDuplication_MutableAt</a> (<a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *_this, size_t i)</td></tr>
+<tr class="separator:aa61bfda65043e2267176ec93cc3a62e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1cfc863cb281357a91370cffd94ab976" id="r_a1cfc863cb281357a91370cffd94ab976"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRMeshBuilder_8h.html#adefa96bedfd70d997a908e017e491827">MR_MeshBuilder_VertDuplication</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1cfc863cb281357a91370cffd94ab976">MR_std_vector_MR_MeshBuilder_VertDuplication_Front</a> (const <a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *_this)</td></tr>
+<tr class="separator:a1cfc863cb281357a91370cffd94ab976"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a254750759f5862305ca48769723a2959" id="r_a254750759f5862305ca48769723a2959"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMeshBuilder_8h.html#adefa96bedfd70d997a908e017e491827">MR_MeshBuilder_VertDuplication</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a254750759f5862305ca48769723a2959">MR_std_vector_MR_MeshBuilder_VertDuplication_MutableFront</a> (<a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *_this)</td></tr>
+<tr class="separator:a254750759f5862305ca48769723a2959"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c978434a3b8cd857379267bfd0e5342" id="r_a5c978434a3b8cd857379267bfd0e5342"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRMeshBuilder_8h.html#adefa96bedfd70d997a908e017e491827">MR_MeshBuilder_VertDuplication</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c978434a3b8cd857379267bfd0e5342">MR_std_vector_MR_MeshBuilder_VertDuplication_Back</a> (const <a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *_this)</td></tr>
+<tr class="separator:a5c978434a3b8cd857379267bfd0e5342"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeac00b514a42485215811ac65c2acea2" id="r_aeac00b514a42485215811ac65c2acea2"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMeshBuilder_8h.html#adefa96bedfd70d997a908e017e491827">MR_MeshBuilder_VertDuplication</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeac00b514a42485215811ac65c2acea2">MR_std_vector_MR_MeshBuilder_VertDuplication_MutableBack</a> (<a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *_this)</td></tr>
+<tr class="separator:aeac00b514a42485215811ac65c2acea2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a274277ecee2fd3e8ec752d4990f3efc1" id="r_a274277ecee2fd3e8ec752d4990f3efc1"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a274277ecee2fd3e8ec752d4990f3efc1">MR_std_vector_MR_MeshBuilder_VertDuplication_PushBack</a> (<a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *_this, const <a class="el" href="MRMeshBuilder_8h.html#adefa96bedfd70d997a908e017e491827">MR_MeshBuilder_VertDuplication</a> *new_elem)</td></tr>
+<tr class="separator:a274277ecee2fd3e8ec752d4990f3efc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea965d3504d3c8923a1df84ee71799d1" id="r_aea965d3504d3c8923a1df84ee71799d1"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea965d3504d3c8923a1df84ee71799d1">MR_std_vector_MR_MeshBuilder_VertDuplication_PopBack</a> (<a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *_this)</td></tr>
+<tr class="separator:aea965d3504d3c8923a1df84ee71799d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab82c0e323755a1e29530a8d75cd86b0" id="r_aab82c0e323755a1e29530a8d75cd86b0"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab82c0e323755a1e29530a8d75cd86b0">MR_std_vector_MR_MeshBuilder_VertDuplication_Insert</a> (<a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *_this, size_t position, const <a class="el" href="MRMeshBuilder_8h.html#adefa96bedfd70d997a908e017e491827">MR_MeshBuilder_VertDuplication</a> *new_elem)</td></tr>
+<tr class="separator:aab82c0e323755a1e29530a8d75cd86b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d9e0b2ee16c64890af005684f48f02b" id="r_a7d9e0b2ee16c64890af005684f48f02b"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d9e0b2ee16c64890af005684f48f02b">MR_std_vector_MR_MeshBuilder_VertDuplication_Erase</a> (<a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *_this, size_t position)</td></tr>
+<tr class="separator:a7d9e0b2ee16c64890af005684f48f02b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad6724b767173e24705208ab5854e974" id="r_aad6724b767173e24705208ab5854e974"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad6724b767173e24705208ab5854e974">MR_std_vector_MR_MeshBuilder_VertDuplication_InsertAtMutableIter</a> (<a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *_this, const <a class="el" href="#ad9112c89c90fbc54469f97df2373e644">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator</a> *position, const <a class="el" href="MRMeshBuilder_8h.html#adefa96bedfd70d997a908e017e491827">MR_MeshBuilder_VertDuplication</a> *new_elem)</td></tr>
+<tr class="separator:aad6724b767173e24705208ab5854e974"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a712c292d79f276feadaecf723b5e9387" id="r_a712c292d79f276feadaecf723b5e9387"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a712c292d79f276feadaecf723b5e9387">MR_std_vector_MR_MeshBuilder_VertDuplication_EraseAtMutableIter</a> (<a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *_this, const <a class="el" href="#ad9112c89c90fbc54469f97df2373e644">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator</a> *position)</td></tr>
+<tr class="separator:a712c292d79f276feadaecf723b5e9387"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b7d88f87ed19ec55caa4af219b17c94" id="r_a5b7d88f87ed19ec55caa4af219b17c94"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b7d88f87ed19ec55caa4af219b17c94">MR_std_vector_MR_MeshBuilder_VertDuplication_InsertAtIter</a> (<a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *_this, const <a class="el" href="#ae620bd616bc97ad38428816dac455776">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator</a> *position, const <a class="el" href="MRMeshBuilder_8h.html#adefa96bedfd70d997a908e017e491827">MR_MeshBuilder_VertDuplication</a> *new_elem)</td></tr>
+<tr class="separator:a5b7d88f87ed19ec55caa4af219b17c94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43a08e04444cf146c1941428ac70b557" id="r_a43a08e04444cf146c1941428ac70b557"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43a08e04444cf146c1941428ac70b557">MR_std_vector_MR_MeshBuilder_VertDuplication_EraseAtIter</a> (<a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *_this, const <a class="el" href="#ae620bd616bc97ad38428816dac455776">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator</a> *position)</td></tr>
+<tr class="separator:a43a08e04444cf146c1941428ac70b557"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ca6e18383535cecdecef739c1d88478" id="r_a2ca6e18383535cecdecef739c1d88478"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae620bd616bc97ad38428816dac455776">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ca6e18383535cecdecef739c1d88478">MR_std_vector_MR_MeshBuilder_VertDuplication_Begin</a> (const <a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *_this)</td></tr>
+<tr class="separator:a2ca6e18383535cecdecef739c1d88478"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac67e744f7a68077f537e76c474ef77d9" id="r_ac67e744f7a68077f537e76c474ef77d9"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac67e744f7a68077f537e76c474ef77d9">MR_std_vector_MR_MeshBuilder_VertDuplication_IsBegin</a> (const <a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *_this, const <a class="el" href="#ae620bd616bc97ad38428816dac455776">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator</a> *iter)</td></tr>
+<tr class="separator:ac67e744f7a68077f537e76c474ef77d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38800243e609f1eb2ac212faf9c8e4d6" id="r_a38800243e609f1eb2ac212faf9c8e4d6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ad9112c89c90fbc54469f97df2373e644">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38800243e609f1eb2ac212faf9c8e4d6">MR_std_vector_MR_MeshBuilder_VertDuplication_MutableBegin</a> (<a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *_this)</td></tr>
+<tr class="separator:a38800243e609f1eb2ac212faf9c8e4d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a403087ddb7ca07bf7c300fabcd6e4cf6" id="r_a403087ddb7ca07bf7c300fabcd6e4cf6"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a403087ddb7ca07bf7c300fabcd6e4cf6">MR_std_vector_MR_MeshBuilder_VertDuplication_IsMutableBegin</a> (<a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *_this, const <a class="el" href="#ad9112c89c90fbc54469f97df2373e644">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator</a> *iter)</td></tr>
+<tr class="separator:a403087ddb7ca07bf7c300fabcd6e4cf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d181945fdbde444c939570de7d8464f" id="r_a7d181945fdbde444c939570de7d8464f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae620bd616bc97ad38428816dac455776">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d181945fdbde444c939570de7d8464f">MR_std_vector_MR_MeshBuilder_VertDuplication_End</a> (const <a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *_this)</td></tr>
+<tr class="separator:a7d181945fdbde444c939570de7d8464f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a701762c220601c9c9a53c914b33c5dd6" id="r_a701762c220601c9c9a53c914b33c5dd6"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a701762c220601c9c9a53c914b33c5dd6">MR_std_vector_MR_MeshBuilder_VertDuplication_IsEnd</a> (const <a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *_this, const <a class="el" href="#ae620bd616bc97ad38428816dac455776">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator</a> *iter)</td></tr>
+<tr class="separator:a701762c220601c9c9a53c914b33c5dd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2469ae96347f5c5d7c5884e14f8579f8" id="r_a2469ae96347f5c5d7c5884e14f8579f8"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ad9112c89c90fbc54469f97df2373e644">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2469ae96347f5c5d7c5884e14f8579f8">MR_std_vector_MR_MeshBuilder_VertDuplication_MutableEnd</a> (<a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *_this)</td></tr>
+<tr class="separator:a2469ae96347f5c5d7c5884e14f8579f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2f80ba8ca549ef6e5650bfde64737ec" id="r_aa2f80ba8ca549ef6e5650bfde64737ec"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2f80ba8ca549ef6e5650bfde64737ec">MR_std_vector_MR_MeshBuilder_VertDuplication_IsMutableEnd</a> (<a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *_this, const <a class="el" href="#ad9112c89c90fbc54469f97df2373e644">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator</a> *iter)</td></tr>
+<tr class="separator:aa2f80ba8ca549ef6e5650bfde64737ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab619b1416c4a1a445690eb8e9c3eb5a6" id="r_ab619b1416c4a1a445690eb8e9c3eb5a6"><td class="memItemLeft" align="right" valign="top">MRC_API ptrdiff_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab619b1416c4a1a445690eb8e9c3eb5a6">MR_std_vector_MR_MeshBuilder_VertDuplication_ToIndex</a> (const <a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *_this, const <a class="el" href="#ae620bd616bc97ad38428816dac455776">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator</a> *iter)</td></tr>
+<tr class="separator:ab619b1416c4a1a445690eb8e9c3eb5a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b5aeb5c189c9764943a5cf14e1b1839" id="r_a9b5aeb5c189c9764943a5cf14e1b1839"><td class="memItemLeft" align="right" valign="top">MRC_API ptrdiff_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b5aeb5c189c9764943a5cf14e1b1839">MR_std_vector_MR_MeshBuilder_VertDuplication_MutableToIndex</a> (const <a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *_this, const <a class="el" href="#ad9112c89c90fbc54469f97df2373e644">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator</a> *iter)</td></tr>
+<tr class="separator:a9b5aeb5c189c9764943a5cf14e1b1839"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78af7e7c0b71fe809ed1566fbab56c79" id="r_a78af7e7c0b71fe809ed1566fbab56c79"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae620bd616bc97ad38428816dac455776">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78af7e7c0b71fe809ed1566fbab56c79">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a78af7e7c0b71fe809ed1566fbab56c79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1384bd55a4a47a0d77f4205567da9ec2" id="r_a1384bd55a4a47a0d77f4205567da9ec2"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae620bd616bc97ad38428816dac455776">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1384bd55a4a47a0d77f4205567da9ec2">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a1384bd55a4a47a0d77f4205567da9ec2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbd661d1372db415851a6dfac27ea3ce" id="r_adbd661d1372db415851a6dfac27ea3ce"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae620bd616bc97ad38428816dac455776">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adbd661d1372db415851a6dfac27ea3ce">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator_ConstructFromAnother</a> (const <a class="el" href="#ae620bd616bc97ad38428816dac455776">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator</a> *other)</td></tr>
+<tr class="separator:adbd661d1372db415851a6dfac27ea3ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a908190d5706a348344593c41505c4cbc" id="r_a908190d5706a348344593c41505c4cbc"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a908190d5706a348344593c41505c4cbc">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator_AssignFromAnother</a> (<a class="el" href="#ae620bd616bc97ad38428816dac455776">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator</a> *_this, const <a class="el" href="#ae620bd616bc97ad38428816dac455776">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator</a> *other)</td></tr>
+<tr class="separator:a908190d5706a348344593c41505c4cbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8cc30a33b4579bf8071f49019e460ab" id="r_aa8cc30a33b4579bf8071f49019e460ab"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa8cc30a33b4579bf8071f49019e460ab">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator_Destroy</a> (const <a class="el" href="#ae620bd616bc97ad38428816dac455776">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator</a> *_this)</td></tr>
+<tr class="memdesc:aa8cc30a33b4579bf8071f49019e460ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:aa8cc30a33b4579bf8071f49019e460ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29ea0a90593e8da0ead89d8533dc575f" id="r_a29ea0a90593e8da0ead89d8533dc575f"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29ea0a90593e8da0ead89d8533dc575f">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator_DestroyArray</a> (const <a class="el" href="#ae620bd616bc97ad38428816dac455776">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator</a> *_this)</td></tr>
+<tr class="memdesc:a29ea0a90593e8da0ead89d8533dc575f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a29ea0a90593e8da0ead89d8533dc575f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43940bd92a80919a12a6d0b2cc519e09" id="r_a43940bd92a80919a12a6d0b2cc519e09"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#ae620bd616bc97ad38428816dac455776">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43940bd92a80919a12a6d0b2cc519e09">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator_OffsetPtr</a> (const <a class="el" href="#ae620bd616bc97ad38428816dac455776">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a43940bd92a80919a12a6d0b2cc519e09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a43940bd92a80919a12a6d0b2cc519e09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab780b62e62ccdce241af83351166b943" id="r_ab780b62e62ccdce241af83351166b943"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae620bd616bc97ad38428816dac455776">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab780b62e62ccdce241af83351166b943">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator_OffsetMutablePtr</a> (<a class="el" href="#ae620bd616bc97ad38428816dac455776">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:ab780b62e62ccdce241af83351166b943"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:ab780b62e62ccdce241af83351166b943"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3e3039ac6f6a6d9a105e92ca444eb7b" id="r_ac3e3039ac6f6a6d9a105e92ca444eb7b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae620bd616bc97ad38428816dac455776">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3e3039ac6f6a6d9a105e92ca444eb7b">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator_FromMutable</a> (const <a class="el" href="#ad9112c89c90fbc54469f97df2373e644">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator</a> *iter)</td></tr>
+<tr class="separator:ac3e3039ac6f6a6d9a105e92ca444eb7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaae22858d88d736c98761ea6c48887aa" id="r_aaae22858d88d736c98761ea6c48887aa"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ad9112c89c90fbc54469f97df2373e644">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaae22858d88d736c98761ea6c48887aa">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:aaae22858d88d736c98761ea6c48887aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9cc2937ca4e824bd19607f2f2f44be7" id="r_ad9cc2937ca4e824bd19607f2f2f44be7"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ad9112c89c90fbc54469f97df2373e644">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad9cc2937ca4e824bd19607f2f2f44be7">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:ad9cc2937ca4e824bd19607f2f2f44be7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3af400cfc4d115960b0beeba03ad998" id="r_ac3af400cfc4d115960b0beeba03ad998"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ad9112c89c90fbc54469f97df2373e644">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3af400cfc4d115960b0beeba03ad998">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator_ConstructFromAnother</a> (const <a class="el" href="#ad9112c89c90fbc54469f97df2373e644">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator</a> *other)</td></tr>
+<tr class="separator:ac3af400cfc4d115960b0beeba03ad998"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee6093ef1b848132139db8355f5f64ba" id="r_aee6093ef1b848132139db8355f5f64ba"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee6093ef1b848132139db8355f5f64ba">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator_AssignFromAnother</a> (<a class="el" href="#ad9112c89c90fbc54469f97df2373e644">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator</a> *_this, const <a class="el" href="#ad9112c89c90fbc54469f97df2373e644">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator</a> *other)</td></tr>
+<tr class="separator:aee6093ef1b848132139db8355f5f64ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad86b1a9ed3a2c976afadeee2ef77cfff" id="r_ad86b1a9ed3a2c976afadeee2ef77cfff"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad86b1a9ed3a2c976afadeee2ef77cfff">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator_Destroy</a> (const <a class="el" href="#ad9112c89c90fbc54469f97df2373e644">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator</a> *_this)</td></tr>
+<tr class="memdesc:ad86b1a9ed3a2c976afadeee2ef77cfff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_std_vector_MR_MeshBuilder_VertDuplication_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ad86b1a9ed3a2c976afadeee2ef77cfff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6004f461a48b9c28ac3c83a345e84e89" id="r_a6004f461a48b9c28ac3c83a345e84e89"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6004f461a48b9c28ac3c83a345e84e89">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator_DestroyArray</a> (const <a class="el" href="#ad9112c89c90fbc54469f97df2373e644">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator</a> *_this)</td></tr>
+<tr class="memdesc:a6004f461a48b9c28ac3c83a345e84e89"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_std_vector_MR_MeshBuilder_VertDuplication_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a6004f461a48b9c28ac3c83a345e84e89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9134d7041278ac359d3d999dd909c898" id="r_a9134d7041278ac359d3d999dd909c898"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#ad9112c89c90fbc54469f97df2373e644">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9134d7041278ac359d3d999dd909c898">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator_OffsetPtr</a> (const <a class="el" href="#ad9112c89c90fbc54469f97df2373e644">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a9134d7041278ac359d3d999dd909c898"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a9134d7041278ac359d3d999dd909c898"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2649f428afd9f17bfa229765bf13f8b4" id="r_a2649f428afd9f17bfa229765bf13f8b4"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ad9112c89c90fbc54469f97df2373e644">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2649f428afd9f17bfa229765bf13f8b4">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator_OffsetMutablePtr</a> (<a class="el" href="#ad9112c89c90fbc54469f97df2373e644">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a2649f428afd9f17bfa229765bf13f8b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a2649f428afd9f17bfa229765bf13f8b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add9d857cbd8407932974e4a466840914" id="r_add9d857cbd8407932974e4a466840914"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRMeshBuilder_8h.html#adefa96bedfd70d997a908e017e491827">MR_MeshBuilder_VertDuplication</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add9d857cbd8407932974e4a466840914">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator_Deref</a> (const <a class="el" href="#ae620bd616bc97ad38428816dac455776">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator</a> *_this)</td></tr>
+<tr class="separator:add9d857cbd8407932974e4a466840914"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a674b92255a4677cd3ab6cbc29c8d2f47" id="r_a674b92255a4677cd3ab6cbc29c8d2f47"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a674b92255a4677cd3ab6cbc29c8d2f47">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator_Incr</a> (<a class="el" href="#ae620bd616bc97ad38428816dac455776">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator</a> *_this)</td></tr>
+<tr class="separator:a674b92255a4677cd3ab6cbc29c8d2f47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa90d1ca2c577067c1afbc640f8f87a52" id="r_aa90d1ca2c577067c1afbc640f8f87a52"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa90d1ca2c577067c1afbc640f8f87a52">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator_Decr</a> (<a class="el" href="#ae620bd616bc97ad38428816dac455776">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator</a> *_this)</td></tr>
+<tr class="separator:aa90d1ca2c577067c1afbc640f8f87a52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adeb806d8866c2fead2346ceb3268bcd0" id="r_adeb806d8866c2fead2346ceb3268bcd0"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adeb806d8866c2fead2346ceb3268bcd0">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator_OffsetBy</a> (<a class="el" href="#ae620bd616bc97ad38428816dac455776">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator</a> *_this, ptrdiff_t delta)</td></tr>
+<tr class="separator:adeb806d8866c2fead2346ceb3268bcd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b900855ad4949638e3ed6e1057473cc" id="r_a0b900855ad4949638e3ed6e1057473cc"><td class="memItemLeft" align="right" valign="top">MRC_API ptrdiff_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b900855ad4949638e3ed6e1057473cc">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator_Distance</a> (const <a class="el" href="#ae620bd616bc97ad38428816dac455776">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator</a> *a, const <a class="el" href="#ae620bd616bc97ad38428816dac455776">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator</a> *b)</td></tr>
+<tr class="separator:a0b900855ad4949638e3ed6e1057473cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a831b07906b5f8817e71e1df90df51847" id="r_a831b07906b5f8817e71e1df90df51847"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMeshBuilder_8h.html#adefa96bedfd70d997a908e017e491827">MR_MeshBuilder_VertDuplication</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a831b07906b5f8817e71e1df90df51847">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator_Deref</a> (const <a class="el" href="#ad9112c89c90fbc54469f97df2373e644">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator</a> *_this)</td></tr>
+<tr class="separator:a831b07906b5f8817e71e1df90df51847"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0369657e635d1d18f36927a353fd706" id="r_aa0369657e635d1d18f36927a353fd706"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0369657e635d1d18f36927a353fd706">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator_Incr</a> (<a class="el" href="#ad9112c89c90fbc54469f97df2373e644">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator</a> *_this)</td></tr>
+<tr class="separator:aa0369657e635d1d18f36927a353fd706"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55cc32027764c840a957656d50c5533e" id="r_a55cc32027764c840a957656d50c5533e"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a55cc32027764c840a957656d50c5533e">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator_Decr</a> (<a class="el" href="#ad9112c89c90fbc54469f97df2373e644">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator</a> *_this)</td></tr>
+<tr class="separator:a55cc32027764c840a957656d50c5533e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a7f97444ebc01bb254c1b3c7339cd59" id="r_a6a7f97444ebc01bb254c1b3c7339cd59"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a7f97444ebc01bb254c1b3c7339cd59">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator_OffsetBy</a> (<a class="el" href="#ad9112c89c90fbc54469f97df2373e644">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator</a> *_this, ptrdiff_t delta)</td></tr>
+<tr class="separator:a6a7f97444ebc01bb254c1b3c7339cd59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9dd768ad7d913ee40a85714c3f8a634" id="r_ac9dd768ad7d913ee40a85714c3f8a634"><td class="memItemLeft" align="right" valign="top">MRC_API ptrdiff_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac9dd768ad7d913ee40a85714c3f8a634">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator_Distance</a> (const <a class="el" href="#ad9112c89c90fbc54469f97df2373e644">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator</a> *a, const <a class="el" href="#ad9112c89c90fbc54469f97df2373e644">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator</a> *b)</td></tr>
+<tr class="separator:ac9dd768ad7d913ee40a85714c3f8a634"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="adefa96bedfd70d997a908e017e491827" name="adefa96bedfd70d997a908e017e491827"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adefa96bedfd70d997a908e017e491827">&#9670;&#160;</a></span>MR_MeshBuilder_VertDuplication</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRMeshBuilder_8h.html#adefa96bedfd70d997a908e017e491827">MR_MeshBuilder_VertDuplication</a> <a class="el" href="MRMeshBuilder_8h.html#adefa96bedfd70d997a908e017e491827">MR_MeshBuilder_VertDuplication</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5dd2fd820a754655ef67335b8cd94f73" name="a5dd2fd820a754655ef67335b8cd94f73"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5dd2fd820a754655ef67335b8cd94f73">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> <a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from C++ container <code>std::vector&lt;<a class="elRef" href="../Cpp/structMR_1_1MeshBuilder_1_1VertDuplication.html">MR::MeshBuilder::VertDuplication</a>&gt;</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code>, (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="ae620bd616bc97ad38428816dac455776" name="ae620bd616bc97ad38428816dac455776"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae620bd616bc97ad38428816dac455776">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#ae620bd616bc97ad38428816dac455776">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator</a> <a class="el" href="#ae620bd616bc97ad38428816dac455776">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Read-only iterator for <code>MR_std_vector_MR_MeshBuilder_VertDuplication</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code>, (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="ad9112c89c90fbc54469f97df2373e644" name="ad9112c89c90fbc54469f97df2373e644"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9112c89c90fbc54469f97df2373e644">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_iterator</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#ad9112c89c90fbc54469f97df2373e644">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator</a> <a class="el" href="#ad9112c89c90fbc54469f97df2373e644">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Mutable iterator for <code>MR_std_vector_MR_MeshBuilder_VertDuplication</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code>, (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a25765d14ecac006eab7e81828c66d1a5" name="a25765d14ecac006eab7e81828c66d1a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25765d14ecac006eab7e81828c66d1a5">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_MeshBuilder_VertDuplication_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="afc31c853af4a9d12f8181751c74f5802" name="afc31c853af4a9d12f8181751c74f5802"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc31c853af4a9d12f8181751c74f5802">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_At()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRMeshBuilder_8h.html#adefa96bedfd70d997a908e017e491827">MR_MeshBuilder_VertDuplication</a> * MR_std_vector_MR_MeshBuilder_VertDuplication_At </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The element at a specific index, read-only. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a5c978434a3b8cd857379267bfd0e5342" name="a5c978434a3b8cd857379267bfd0e5342"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c978434a3b8cd857379267bfd0e5342">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_Back()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRMeshBuilder_8h.html#adefa96bedfd70d997a908e017e491827">MR_MeshBuilder_VertDuplication</a> * MR_std_vector_MR_MeshBuilder_VertDuplication_Back </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The last element or null if empty, read-only. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a2ca6e18383535cecdecef739c1d88478" name="a2ca6e18383535cecdecef739c1d88478"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ca6e18383535cecdecef739c1d88478">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_Begin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ae620bd616bc97ad38428816dac455776">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator</a> * MR_std_vector_MR_MeshBuilder_VertDuplication_Begin </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, const. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aa8cc30a33b4579bf8071f49019e460ab" title="Destroys a heap-allocated instance of MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator....">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ad79c8cfd405038cedf1558229603562f" name="ad79c8cfd405038cedf1558229603562f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad79c8cfd405038cedf1558229603562f">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_Capacity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API size_t MR_std_vector_MR_MeshBuilder_VertDuplication_Capacity </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The memory capacity, measued in the number of elements. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a9cf7793911fa0f68938480ed5e07993b" name="a9cf7793911fa0f68938480ed5e07993b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9cf7793911fa0f68938480ed5e07993b">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_Clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_MeshBuilder_VertDuplication_Clear </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Removes all elements from the container. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a908190d5706a348344593c41505c4cbc" name="a908190d5706a348344593c41505c4cbc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a908190d5706a348344593c41505c4cbc">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae620bd616bc97ad38428816dac455776">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ae620bd616bc97ad38428816dac455776">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <code>_this</code> can not be null. Parameter <code>other</code> can not be null. </p>
+
+</div>
+</div>
+<a id="adbd661d1372db415851a6dfac27ea3ce" name="adbd661d1372db415851a6dfac27ea3ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbd661d1372db415851a6dfac27ea3ce">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ae620bd616bc97ad38428816dac455776">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator</a> * MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ae620bd616bc97ad38428816dac455776">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs a copy of another instance. The source remains alive. Parameter <code>other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aa8cc30a33b4579bf8071f49019e460ab" title="Destroys a heap-allocated instance of MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator....">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="aa90d1ca2c577067c1afbc640f8f87a52" name="aa90d1ca2c577067c1afbc640f8f87a52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa90d1ca2c577067c1afbc640f8f87a52">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator_Decr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator_Decr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae620bd616bc97ad38428816dac455776">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Decrements a const iterator. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a78af7e7c0b71fe809ed1566fbab56c79" name="a78af7e7c0b71fe809ed1566fbab56c79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78af7e7c0b71fe809ed1566fbab56c79">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ae620bd616bc97ad38428816dac455776">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator</a> * MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aa8cc30a33b4579bf8071f49019e460ab" title="Destroys a heap-allocated instance of MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator....">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a1384bd55a4a47a0d77f4205567da9ec2" name="a1384bd55a4a47a0d77f4205567da9ec2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1384bd55a4a47a0d77f4205567da9ec2">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ae620bd616bc97ad38428816dac455776">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator</a> * MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a29ea0a90593e8da0ead89d8533dc575f" title="Destroys a heap-allocated array of MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator....">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator_DestroyArray()</a></code>. Use <code><a class="el" href="#ab780b62e62ccdce241af83351166b943" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a43940bd92a80919a12a6d0b2cc519e09" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="add9d857cbd8407932974e4a466840914" name="add9d857cbd8407932974e4a466840914"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add9d857cbd8407932974e4a466840914">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator_Deref()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRMeshBuilder_8h.html#adefa96bedfd70d997a908e017e491827">MR_MeshBuilder_VertDuplication</a> * MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator_Deref </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ae620bd616bc97ad38428816dac455776">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Dereferences a const iterator. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="aa8cc30a33b4579bf8071f49019e460ab" name="aa8cc30a33b4579bf8071f49019e460ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8cc30a33b4579bf8071f49019e460ab">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ae620bd616bc97ad38428816dac455776">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a29ea0a90593e8da0ead89d8533dc575f" name="a29ea0a90593e8da0ead89d8533dc575f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29ea0a90593e8da0ead89d8533dc575f">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ae620bd616bc97ad38428816dac455776">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a0b900855ad4949638e3ed6e1057473cc" name="a0b900855ad4949638e3ed6e1057473cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b900855ad4949638e3ed6e1057473cc">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator_Distance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API ptrdiff_t MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator_Distance </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ae620bd616bc97ad38428816dac455776">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ae620bd616bc97ad38428816dac455776">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Computes the signed difference between two const iterators. Completes in constant time. Parameter <code>a</code> can not be null. Parameter <code>b</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ac3e3039ac6f6a6d9a105e92ca444eb7b" name="ac3e3039ac6f6a6d9a105e92ca444eb7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3e3039ac6f6a6d9a105e92ca444eb7b">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator_FromMutable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ae620bd616bc97ad38428816dac455776">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator</a> * MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator_FromMutable </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ad9112c89c90fbc54469f97df2373e644">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Makes a const iterator from a mutable one. Parameter <code>iter</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aa8cc30a33b4579bf8071f49019e460ab" title="Destroys a heap-allocated instance of MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator....">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a674b92255a4677cd3ab6cbc29c8d2f47" name="a674b92255a4677cd3ab6cbc29c8d2f47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a674b92255a4677cd3ab6cbc29c8d2f47">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator_Incr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator_Incr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae620bd616bc97ad38428816dac455776">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Increments a const iterator. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="adeb806d8866c2fead2346ceb3268bcd0" name="adeb806d8866c2fead2346ceb3268bcd0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adeb806d8866c2fead2346ceb3268bcd0">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator_OffsetBy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator_OffsetBy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae620bd616bc97ad38428816dac455776">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>delta</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Increments or decrements a const iterator by the specific amount. Completes in constant time. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ab780b62e62ccdce241af83351166b943" name="ab780b62e62ccdce241af83351166b943"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab780b62e62ccdce241af83351166b943">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ae620bd616bc97ad38428816dac455776">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator</a> * MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae620bd616bc97ad38428816dac455776">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a43940bd92a80919a12a6d0b2cc519e09" name="a43940bd92a80919a12a6d0b2cc519e09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43940bd92a80919a12a6d0b2cc519e09">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#ae620bd616bc97ad38428816dac455776">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator</a> * MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ae620bd616bc97ad38428816dac455776">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a87c48362ac72b11c5aeb910c230c1a66" name="a87c48362ac72b11c5aeb910c230c1a66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87c48362ac72b11c5aeb910c230c1a66">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> * MR_std_vector_MR_MeshBuilder_VertDuplication_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs a copy of another instance. The source remains alive. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a6ed58c1eef3c82ab0d4ea8d9ee57b3fc" title="Destroys a heap-allocated instance of MR_std_vector_MR_MeshBuilder_VertDuplication....">MR_std_vector_MR_MeshBuilder_VertDuplication_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="aa164536152c72ab8986334cb6bdf31a1" name="aa164536152c72ab8986334cb6bdf31a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa164536152c72ab8986334cb6bdf31a1">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> * MR_std_vector_MR_MeshBuilder_VertDuplication_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a6ed58c1eef3c82ab0d4ea8d9ee57b3fc" title="Destroys a heap-allocated instance of MR_std_vector_MR_MeshBuilder_VertDuplication....">MR_std_vector_MR_MeshBuilder_VertDuplication_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ab58db55527a3a018906638b7ec992a12" name="ab58db55527a3a018906638b7ec992a12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab58db55527a3a018906638b7ec992a12">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> * MR_std_vector_MR_MeshBuilder_VertDuplication_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#ab51b6063e939f1593ec223aeff7e5f16" title="Destroys a heap-allocated array of MR_std_vector_MR_MeshBuilder_VertDuplication. Does nothing if the ...">MR_std_vector_MR_MeshBuilder_VertDuplication_DestroyArray()</a></code>. Use <code><a class="el" href="#a9d0432c46c8337097891e05f4c1fbd31" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_MeshBuilder_VertDuplication_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a9901cb42f5b5f67d35e1c0840795c6b9" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_MeshBuilder_VertDuplication_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a6ed58c1eef3c82ab0d4ea8d9ee57b3fc" name="a6ed58c1eef3c82ab0d4ea8d9ee57b3fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ed58c1eef3c82ab0d4ea8d9ee57b3fc">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_MeshBuilder_VertDuplication_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_std_vector_MR_MeshBuilder_VertDuplication</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="ab51b6063e939f1593ec223aeff7e5f16" name="ab51b6063e939f1593ec223aeff7e5f16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab51b6063e939f1593ec223aeff7e5f16">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_MeshBuilder_VertDuplication_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_std_vector_MR_MeshBuilder_VertDuplication</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a7d181945fdbde444c939570de7d8464f" name="a7d181945fdbde444c939570de7d8464f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d181945fdbde444c939570de7d8464f">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_End()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ae620bd616bc97ad38428816dac455776">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator</a> * MR_std_vector_MR_MeshBuilder_VertDuplication_End </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, const. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aa8cc30a33b4579bf8071f49019e460ab" title="Destroys a heap-allocated instance of MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator....">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a7d9e0b2ee16c64890af005684f48f02b" name="a7d9e0b2ee16c64890af005684f48f02b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d9e0b2ee16c64890af005684f48f02b">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_Erase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_MeshBuilder_VertDuplication_Erase </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>position</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Erases the element at the specified position. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a43a08e04444cf146c1941428ac70b557" name="a43a08e04444cf146c1941428ac70b557"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43a08e04444cf146c1941428ac70b557">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_EraseAtIter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_MeshBuilder_VertDuplication_EraseAtIter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ae620bd616bc97ad38428816dac455776">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>position</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Erases the element at the specified position. This version takes the position in form of a const iterator, that's the only difference. Parameter <code>_this</code> can not be null. Parameter <code>position</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a712c292d79f276feadaecf723b5e9387" name="a712c292d79f276feadaecf723b5e9387"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a712c292d79f276feadaecf723b5e9387">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_EraseAtMutableIter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_MeshBuilder_VertDuplication_EraseAtMutableIter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ad9112c89c90fbc54469f97df2373e644">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>position</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Erases the element at the specified position. Parameter <code>_this</code> can not be null. Parameter <code>position</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a1cfc863cb281357a91370cffd94ab976" name="a1cfc863cb281357a91370cffd94ab976"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1cfc863cb281357a91370cffd94ab976">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_Front()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRMeshBuilder_8h.html#adefa96bedfd70d997a908e017e491827">MR_MeshBuilder_VertDuplication</a> * MR_std_vector_MR_MeshBuilder_VertDuplication_Front </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The first element or null if empty, read-only. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aab82c0e323755a1e29530a8d75cd86b0" name="aab82c0e323755a1e29530a8d75cd86b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab82c0e323755a1e29530a8d75cd86b0">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_Insert()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_MeshBuilder_VertDuplication_Insert </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRMeshBuilder_8h.html#adefa96bedfd70d997a908e017e491827">MR_MeshBuilder_VertDuplication</a> *</td>          <td class="paramname"><span class="paramname"><em>new_elem</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Inserts a new element right before the specified position. Parameter <code>_this</code> can not be null. Parameter <code>new_elem</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a5b7d88f87ed19ec55caa4af219b17c94" name="a5b7d88f87ed19ec55caa4af219b17c94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b7d88f87ed19ec55caa4af219b17c94">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_InsertAtIter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_MeshBuilder_VertDuplication_InsertAtIter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ae620bd616bc97ad38428816dac455776">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRMeshBuilder_8h.html#adefa96bedfd70d997a908e017e491827">MR_MeshBuilder_VertDuplication</a> *</td>          <td class="paramname"><span class="paramname"><em>new_elem</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Inserts a new element right before the specified position. This version takes the position in form of a const iterator, that's the only difference. Parameter <code>_this</code> can not be null. Parameter <code>position</code> can not be null. Parameter <code>new_elem</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aad6724b767173e24705208ab5854e974" name="aad6724b767173e24705208ab5854e974"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad6724b767173e24705208ab5854e974">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_InsertAtMutableIter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_MeshBuilder_VertDuplication_InsertAtMutableIter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ad9112c89c90fbc54469f97df2373e644">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRMeshBuilder_8h.html#adefa96bedfd70d997a908e017e491827">MR_MeshBuilder_VertDuplication</a> *</td>          <td class="paramname"><span class="paramname"><em>new_elem</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Inserts a new element right before the specified position. Parameter <code>_this</code> can not be null. Parameter <code>position</code> can not be null. Parameter <code>new_elem</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ac67e744f7a68077f537e76c474ef77d9" name="ac67e744f7a68077f537e76c474ef77d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac67e744f7a68077f537e76c474ef77d9">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_IsBegin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_MR_MeshBuilder_VertDuplication_IsBegin </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ae620bd616bc97ad38428816dac455776">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a const iterator is the begin iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="af6eda61d57ee944ff96feaf83c6cfbe7" name="af6eda61d57ee944ff96feaf83c6cfbe7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6eda61d57ee944ff96feaf83c6cfbe7">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_IsEmpty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_MR_MeshBuilder_VertDuplication_IsEmpty </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns true if the size is zero. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a701762c220601c9c9a53c914b33c5dd6" name="a701762c220601c9c9a53c914b33c5dd6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a701762c220601c9c9a53c914b33c5dd6">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_IsEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_MR_MeshBuilder_VertDuplication_IsEnd </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ae620bd616bc97ad38428816dac455776">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a const iterator is the end iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a403087ddb7ca07bf7c300fabcd6e4cf6" name="a403087ddb7ca07bf7c300fabcd6e4cf6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a403087ddb7ca07bf7c300fabcd6e4cf6">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_IsMutableBegin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_MR_MeshBuilder_VertDuplication_IsMutableBegin </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ad9112c89c90fbc54469f97df2373e644">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a mutable iterator is the begin iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aa2f80ba8ca549ef6e5650bfde64737ec" name="aa2f80ba8ca549ef6e5650bfde64737ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2f80ba8ca549ef6e5650bfde64737ec">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_IsMutableEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_MR_MeshBuilder_VertDuplication_IsMutableEnd </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ad9112c89c90fbc54469f97df2373e644">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a mutable iterator is the end iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aee6093ef1b848132139db8355f5f64ba" name="aee6093ef1b848132139db8355f5f64ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee6093ef1b848132139db8355f5f64ba">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_iterator_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_MeshBuilder_VertDuplication_iterator_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ad9112c89c90fbc54469f97df2373e644">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ad9112c89c90fbc54469f97df2373e644">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <code>_this</code> can not be null. Parameter <code>other</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ac3af400cfc4d115960b0beeba03ad998" name="ac3af400cfc4d115960b0beeba03ad998"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3af400cfc4d115960b0beeba03ad998">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_iterator_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ad9112c89c90fbc54469f97df2373e644">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator</a> * MR_std_vector_MR_MeshBuilder_VertDuplication_iterator_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ad9112c89c90fbc54469f97df2373e644">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs a copy of another instance. The source remains alive. Parameter <code>other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ad86b1a9ed3a2c976afadeee2ef77cfff" title="Destroys a heap-allocated instance of MR_std_vector_MR_MeshBuilder_VertDuplication_iterator....">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a55cc32027764c840a957656d50c5533e" name="a55cc32027764c840a957656d50c5533e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55cc32027764c840a957656d50c5533e">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_iterator_Decr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_MeshBuilder_VertDuplication_iterator_Decr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ad9112c89c90fbc54469f97df2373e644">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Decrements a mutable iterator. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aaae22858d88d736c98761ea6c48887aa" name="aaae22858d88d736c98761ea6c48887aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaae22858d88d736c98761ea6c48887aa">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_iterator_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ad9112c89c90fbc54469f97df2373e644">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator</a> * MR_std_vector_MR_MeshBuilder_VertDuplication_iterator_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ad86b1a9ed3a2c976afadeee2ef77cfff" title="Destroys a heap-allocated instance of MR_std_vector_MR_MeshBuilder_VertDuplication_iterator....">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ad9cc2937ca4e824bd19607f2f2f44be7" name="ad9cc2937ca4e824bd19607f2f2f44be7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9cc2937ca4e824bd19607f2f2f44be7">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_iterator_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ad9112c89c90fbc54469f97df2373e644">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator</a> * MR_std_vector_MR_MeshBuilder_VertDuplication_iterator_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a6004f461a48b9c28ac3c83a345e84e89" title="Destroys a heap-allocated array of MR_std_vector_MR_MeshBuilder_VertDuplication_iterator....">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator_DestroyArray()</a></code>. Use <code><a class="el" href="#a2649f428afd9f17bfa229765bf13f8b4" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a9134d7041278ac359d3d999dd909c898" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a831b07906b5f8817e71e1df90df51847" name="a831b07906b5f8817e71e1df90df51847"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a831b07906b5f8817e71e1df90df51847">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_iterator_Deref()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRMeshBuilder_8h.html#adefa96bedfd70d997a908e017e491827">MR_MeshBuilder_VertDuplication</a> * MR_std_vector_MR_MeshBuilder_VertDuplication_iterator_Deref </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ad9112c89c90fbc54469f97df2373e644">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Dereferences a mutable iterator. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ad86b1a9ed3a2c976afadeee2ef77cfff" name="ad86b1a9ed3a2c976afadeee2ef77cfff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad86b1a9ed3a2c976afadeee2ef77cfff">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_iterator_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_MeshBuilder_VertDuplication_iterator_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ad9112c89c90fbc54469f97df2373e644">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_std_vector_MR_MeshBuilder_VertDuplication_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a6004f461a48b9c28ac3c83a345e84e89" name="a6004f461a48b9c28ac3c83a345e84e89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6004f461a48b9c28ac3c83a345e84e89">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_iterator_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_MeshBuilder_VertDuplication_iterator_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ad9112c89c90fbc54469f97df2373e644">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_std_vector_MR_MeshBuilder_VertDuplication_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="ac9dd768ad7d913ee40a85714c3f8a634" name="ac9dd768ad7d913ee40a85714c3f8a634"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9dd768ad7d913ee40a85714c3f8a634">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_iterator_Distance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API ptrdiff_t MR_std_vector_MR_MeshBuilder_VertDuplication_iterator_Distance </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ad9112c89c90fbc54469f97df2373e644">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ad9112c89c90fbc54469f97df2373e644">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Computes the signed difference between two mutable iterators. Completes in constant time. Parameter <code>a</code> can not be null. Parameter <code>b</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aa0369657e635d1d18f36927a353fd706" name="aa0369657e635d1d18f36927a353fd706"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0369657e635d1d18f36927a353fd706">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_iterator_Incr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_MeshBuilder_VertDuplication_iterator_Incr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ad9112c89c90fbc54469f97df2373e644">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Increments a mutable iterator. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a6a7f97444ebc01bb254c1b3c7339cd59" name="a6a7f97444ebc01bb254c1b3c7339cd59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a7f97444ebc01bb254c1b3c7339cd59">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_iterator_OffsetBy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_MeshBuilder_VertDuplication_iterator_OffsetBy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ad9112c89c90fbc54469f97df2373e644">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>delta</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Increments or decrements a mutable iterator by the specific amount. Completes in constant time. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a2649f428afd9f17bfa229765bf13f8b4" name="a2649f428afd9f17bfa229765bf13f8b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2649f428afd9f17bfa229765bf13f8b4">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_iterator_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ad9112c89c90fbc54469f97df2373e644">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator</a> * MR_std_vector_MR_MeshBuilder_VertDuplication_iterator_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ad9112c89c90fbc54469f97df2373e644">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a9134d7041278ac359d3d999dd909c898" name="a9134d7041278ac359d3d999dd909c898"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9134d7041278ac359d3d999dd909c898">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_iterator_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#ad9112c89c90fbc54469f97df2373e644">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator</a> * MR_std_vector_MR_MeshBuilder_VertDuplication_iterator_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ad9112c89c90fbc54469f97df2373e644">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="aa61bfda65043e2267176ec93cc3a62e4" name="aa61bfda65043e2267176ec93cc3a62e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa61bfda65043e2267176ec93cc3a62e4">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_MutableAt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRMeshBuilder_8h.html#adefa96bedfd70d997a908e017e491827">MR_MeshBuilder_VertDuplication</a> * MR_std_vector_MR_MeshBuilder_VertDuplication_MutableAt </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The element at a specific index, mutable. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="aeac00b514a42485215811ac65c2acea2" name="aeac00b514a42485215811ac65c2acea2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeac00b514a42485215811ac65c2acea2">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_MutableBack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRMeshBuilder_8h.html#adefa96bedfd70d997a908e017e491827">MR_MeshBuilder_VertDuplication</a> * MR_std_vector_MR_MeshBuilder_VertDuplication_MutableBack </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The last element or null if empty, mutable. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a38800243e609f1eb2ac212faf9c8e4d6" name="a38800243e609f1eb2ac212faf9c8e4d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38800243e609f1eb2ac212faf9c8e4d6">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_MutableBegin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ad9112c89c90fbc54469f97df2373e644">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator</a> * MR_std_vector_MR_MeshBuilder_VertDuplication_MutableBegin </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, mutable. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ad86b1a9ed3a2c976afadeee2ef77cfff" title="Destroys a heap-allocated instance of MR_std_vector_MR_MeshBuilder_VertDuplication_iterator....">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a2469ae96347f5c5d7c5884e14f8579f8" name="a2469ae96347f5c5d7c5884e14f8579f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2469ae96347f5c5d7c5884e14f8579f8">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_MutableEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ad9112c89c90fbc54469f97df2373e644">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator</a> * MR_std_vector_MR_MeshBuilder_VertDuplication_MutableEnd </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, mutable. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ad86b1a9ed3a2c976afadeee2ef77cfff" title="Destroys a heap-allocated instance of MR_std_vector_MR_MeshBuilder_VertDuplication_iterator....">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a254750759f5862305ca48769723a2959" name="a254750759f5862305ca48769723a2959"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a254750759f5862305ca48769723a2959">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_MutableFront()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRMeshBuilder_8h.html#adefa96bedfd70d997a908e017e491827">MR_MeshBuilder_VertDuplication</a> * MR_std_vector_MR_MeshBuilder_VertDuplication_MutableFront </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The first element or null if empty, mutable. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a9b5aeb5c189c9764943a5cf14e1b1839" name="a9b5aeb5c189c9764943a5cf14e1b1839"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b5aeb5c189c9764943a5cf14e1b1839">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_MutableToIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API ptrdiff_t MR_std_vector_MR_MeshBuilder_VertDuplication_MutableToIndex </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ad9112c89c90fbc54469f97df2373e644">MR_std_vector_MR_MeshBuilder_VertDuplication_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Convert a mutable iterator to an index. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a9d0432c46c8337097891e05f4c1fbd31" name="a9d0432c46c8337097891e05f4c1fbd31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d0432c46c8337097891e05f4c1fbd31">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> * MR_std_vector_MR_MeshBuilder_VertDuplication_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a9901cb42f5b5f67d35e1c0840795c6b9" name="a9901cb42f5b5f67d35e1c0840795c6b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9901cb42f5b5f67d35e1c0840795c6b9">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> * MR_std_vector_MR_MeshBuilder_VertDuplication_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="aea965d3504d3c8923a1df84ee71799d1" name="aea965d3504d3c8923a1df84ee71799d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea965d3504d3c8923a1df84ee71799d1">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_PopBack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_MeshBuilder_VertDuplication_PopBack </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Removes one element from the end. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a274277ecee2fd3e8ec752d4990f3efc1" name="a274277ecee2fd3e8ec752d4990f3efc1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a274277ecee2fd3e8ec752d4990f3efc1">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_PushBack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_MeshBuilder_VertDuplication_PushBack </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRMeshBuilder_8h.html#adefa96bedfd70d997a908e017e491827">MR_MeshBuilder_VertDuplication</a> *</td>          <td class="paramname"><span class="paramname"><em>new_elem</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Inserts a new element at the end. Parameter <code>_this</code> can not be null. Parameter <code>new_elem</code> can not be null. </p>
+
+</div>
+</div>
+<a id="adb05d1f412cd0c8168100e721036adae" name="adb05d1f412cd0c8168100e721036adae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb05d1f412cd0c8168100e721036adae">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_Reserve()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_MeshBuilder_VertDuplication_Reserve </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>new_capacity</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Reserves memory for a certain number of elements. Never shrinks the memory. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a392ea441012f00fb2528713b7b2560d4" name="a392ea441012f00fb2528713b7b2560d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a392ea441012f00fb2528713b7b2560d4">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_Resize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_MeshBuilder_VertDuplication_Resize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>new_size</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Resizes the container. The new elements if any are zeroed. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a650aff5bd544d1ce4610c1afa459a13d" name="a650aff5bd544d1ce4610c1afa459a13d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a650aff5bd544d1ce4610c1afa459a13d">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_ResizeWithDefaultValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_MeshBuilder_VertDuplication_ResizeWithDefaultValue </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>new_size</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRMeshBuilder_8h.html#adefa96bedfd70d997a908e017e491827">MR_MeshBuilder_VertDuplication</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Resizes the container. The new elements if any are set to the specified value. Parameter <code>_this</code> can not be null. Parameter <code>value</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a64240e96bd5060ee3c15b20bc10e6e1f" name="a64240e96bd5060ee3c15b20bc10e6e1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64240e96bd5060ee3c15b20bc10e6e1f">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_ShrinkToFit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_MeshBuilder_VertDuplication_ShrinkToFit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Shrinks the capacity to match the size. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a94c065acfafdefdce1c5759e4f417ddf" name="a94c065acfafdefdce1c5759e4f417ddf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94c065acfafdefdce1c5759e4f417ddf">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_Size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API size_t MR_std_vector_MR_MeshBuilder_VertDuplication_Size </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The number of elements. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ab619b1416c4a1a445690eb8e9c3eb5a6" name="ab619b1416c4a1a445690eb8e9c3eb5a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab619b1416c4a1a445690eb8e9c3eb5a6">&#9670;&#160;</a></span>MR_std_vector_MR_MeshBuilder_VertDuplication_ToIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API ptrdiff_t MR_std_vector_MR_MeshBuilder_VertDuplication_ToIndex </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMesh_8h.html#a5dd2fd820a754655ef67335b8cd94f73">MR_std_vector_MR_MeshBuilder_VertDuplication</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ae620bd616bc97ad38428816dac455776">MR_std_vector_MR_MeshBuilder_VertDuplication_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Convert a const iterator to an index. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_87d38852fc01aff5f853718c8d8b5cb2.html">Cbindings</a></li><li class="navelem"><a class="el" href="dir_12d01ef4fa7c7ca18852dd6d7d92a624.html">MRCMisc</a></li><li class="navelem"><a class="el" href="std__vector__MR__MeshBuilder__VertDuplication_8h.html">std_vector_MR_MeshBuilder_VertDuplication.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+var group__VisualObjectGroup =
+[
+    [ "MR::AllVisualizeProperties", "../Cpp/group__VisualObjectGroup.html#ga1f6aeed936aa967b17cba0997d30ff7f", null ],
+    [ "MR::DirtyFlags", "../Cpp/group__VisualObjectGroup.html#ga03255e831f4895337e7cf27d64e51269", null ],
+    [ "MR::DIRTY_ALL", "../Cpp/group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a5f0ff2832e18692b2704a662acfc6b2a", null ],
+    [ "MR::DIRTY_BORDER_LINES", "../Cpp/group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a4d37651692aaecc731860a4e8c4df169", null ],
+    [ "MR::DIRTY_BOUNDING_BOX", "../Cpp/group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a9db66783aae1f516f71efb3d8e57443a", null ],
+    [ "MR::DIRTY_CACHES", "../Cpp/group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a7930beec8f8d317d708811012219855a", null ],
+    [ "MR::DIRTY_CORNERS_RENDER_NORMAL", "../Cpp/group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269ad29e189e07ab368b8c42c681ca3cf611", null ],
+    [ "MR::DIRTY_EDGES_SELECTION", "../Cpp/group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a38d6a5c484bf483e7d19d0e88b575a5f", null ],
+    [ "MR::DIRTY_FACE", "../Cpp/group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a32fcd55df4b9420427f5168b5558a4a6", null ],
+    [ "MR::DIRTY_FACES_COLORMAP", "../Cpp/group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a2844551064db079a1d3da473c389c9ca", null ],
+    [ "MR::DIRTY_FACES_RENDER_NORMAL", "../Cpp/group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a23f7dbe9a82e38743db156f56a7b30d3", null ],
+    [ "MR::DIRTY_MESH", "../Cpp/group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a269c9589c9cb0406be81dcb855532f0b", null ],
+    [ "MR::DIRTY_NONE", "../Cpp/group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a162875ffd2234840bdaf002277708668", null ],
+    [ "MR::DIRTY_POSITION", "../Cpp/group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a13dc959326bf43980af4080c50288110", null ],
+    [ "MR::DIRTY_PRIMITIVE_COLORMAP", "../Cpp/group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a095a0cbf99eaeafc9e593ee191e48cf3", null ],
+    [ "MR::DIRTY_PRIMITIVES", "../Cpp/group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a8a1e8d099f1d302ff6e72082b8546627", null ],
+    [ "MR::DIRTY_RENDER_NORMALS", "../Cpp/group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a48d2a0f89c21288fc6f9acde5fb8338d", null ],
+    [ "MR::DIRTY_SELECTION", "../Cpp/group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a1f9525826d3c360ff36177637df2a4d2", null ],
+    [ "MR::DIRTY_TEXTURE", "../Cpp/group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a16187984f5e9329e2eefbdce7ce0585d", null ],
+    [ "MR::DIRTY_TEXTURE_PER_FACE", "../Cpp/group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a2d7eb6cdde4e22fa902012a7a63152a9", null ],
+    [ "MR::DIRTY_UV", "../Cpp/group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a877972448d284e00b0ce05682f39dbb6", null ],
+    [ "MR::DIRTY_VERTS_COLORMAP", "../Cpp/group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a3a601c32f4902f478919ce2b64a4e475", null ],
+    [ "MR::DIRTY_VERTS_RENDER_NORMAL", "../Cpp/group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a7901e85f6ada294be0794acc817a1914", null ],
+    [ "MR::DIRTY_VOLUME", "../Cpp/group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a6c7eea869dc164adaaa93aa744a519f2", null ]
+];

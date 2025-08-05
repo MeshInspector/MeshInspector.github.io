@@ -1,5 +1,6 @@
 var NAVTREEINDEX102 =
 {
+"classmrmeshpy_1_1VertColors.html#a17912b9af8eae5da57a3eaa0cffc45b1":[6,1,1,0,1,1114,16],
 "classmrmeshpy_1_1VertColors.html#a1b2e8846f0f3a3a150b11e6d8eda7669":[6,1,0,0,2,1114,24],
 "classmrmeshpy_1_1VertColors.html#a1b2e8846f0f3a3a150b11e6d8eda7669":[6,1,0,0,2,1114,25],
 "classmrmeshpy_1_1VertColors.html#a1b2e8846f0f3a3a150b11e6d8eda7669":[6,1,1,0,1,1114,24],
@@ -248,6 +249,5 @@ var NAVTREEINDEX102 =
 "classmrmeshpy_1_1VertCoordsDiff.html#a4a72f67221207562890675c33452ecc4":[6,1,1,0,1,1117,0],
 "classmrmeshpy_1_1VertCoordsDiff.html#af5292de97a12bb2b173977bfe50415e9":[6,1,0,0,2,1117,2],
 "classmrmeshpy_1_1VertCoordsDiff.html#af5292de97a12bb2b173977bfe50415e9":[6,1,1,0,1,1117,2],
-"classmrmeshpy_1_1VertDistance.html":[6,1,0,0,2,1118],
-"classmrmeshpy_1_1VertDistance.html":[6,1,1,0,1,1118]
+"classmrmeshpy_1_1VertDistance.html":[6,1,0,0,2,1118]
 };

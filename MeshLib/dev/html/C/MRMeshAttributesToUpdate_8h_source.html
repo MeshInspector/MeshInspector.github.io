@@ -1,0 +1,258 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: MRMeshAttributesToUpdate.h Source File</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('MRMeshAttributesToUpdate_8h_source.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">MRMeshAttributesToUpdate.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="MRMeshAttributesToUpdate_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;MRCMisc/exports.h&gt;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;stddef.h&gt;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> {</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="MRMeshAttributesToUpdate_8h.html#a88c7503c40b624a577fda0eab1faa5fa">   11</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRChangeColoringActions_8h.html#a88c7503c40b624a577fda0eab1faa5fa">MR_FaceColors</a> <a class="code hl_typedef" href="MRChangeColoringActions_8h.html#a88c7503c40b624a577fda0eab1faa5fa">MR_FaceColors</a>; <span class="comment">// Defined in `#include &lt;MRCMesh/MRVector.h&gt;`.</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="MRMeshAttributesToUpdate_8h.html#a248aef9b7513a21932ba1dfcfbd3410d">   12</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRChangeMeshAction_8h.html#a248aef9b7513a21932ba1dfcfbd3410d">MR_TexturePerFace</a> <a class="code hl_typedef" href="MRChangeMeshAction_8h.html#a248aef9b7513a21932ba1dfcfbd3410d">MR_TexturePerFace</a>; <span class="comment">// Defined in `#include &lt;MRCMesh/MRVector.h&gt;`.</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="MRMeshAttributesToUpdate_8h.html#a20dc7d636220f61a60c7ae92b8caa768">   13</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> <a class="code hl_typedef" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a>; <span class="comment">// Defined in `#include &lt;MRCMesh/MRVector.h&gt;`.</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="MRMeshAttributesToUpdate_8h.html#ae385080e7b7a68ff32f8d03ae2d70a7a">   14</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRChangeMeshAction_8h.html#ae385080e7b7a68ff32f8d03ae2d70a7a">MR_VertCoords2</a> <a class="code hl_typedef" href="MRChangeMeshAction_8h.html#ae385080e7b7a68ff32f8d03ae2d70a7a">MR_VertCoords2</a>; <span class="comment">// Defined in `#include &lt;MRCMesh/MRVector.h&gt;`.</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="comment">// the attribute data of the mesh that needs to be updated</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="MRMeshAttributesToUpdate_8h.html#a3234fa00173b082d381b15e1ded995e0">   19</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRMeshAttributesToUpdate_8h.html#a3234fa00173b082d381b15e1ded995e0">MR_MeshAttributesToUpdate</a> <a class="code hl_typedef" href="MRMeshAttributesToUpdate_8h.html#a3234fa00173b082d381b15e1ded995e0">MR_MeshAttributesToUpdate</a>;</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="MRMeshAttributesToUpdate_8h.html#a62e11ed37812a7619c61f4ca46cb83f5">   24</a></span>MRC_API <a class="code hl_typedef" href="MRChangeMeshAction_8h.html#ae385080e7b7a68ff32f8d03ae2d70a7a">MR_VertCoords2</a> *<span class="keyword">const</span> *<a class="code hl_function" href="MRMeshAttributesToUpdate_8h.html#a62e11ed37812a7619c61f4ca46cb83f5">MR_MeshAttributesToUpdate_Get_uvCoords</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRMeshAttributesToUpdate_8h.html#a3234fa00173b082d381b15e1ded995e0">MR_MeshAttributesToUpdate</a> *_this);</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="MRMeshAttributesToUpdate_8h.html#ad5481bbaf5c6032e06d59b231d6bdb02">   28</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRMeshAttributesToUpdate_8h.html#ad5481bbaf5c6032e06d59b231d6bdb02">MR_MeshAttributesToUpdate_Set_uvCoords</a>(<a class="code hl_typedef" href="MRMeshAttributesToUpdate_8h.html#a3234fa00173b082d381b15e1ded995e0">MR_MeshAttributesToUpdate</a> *_this, <a class="code hl_typedef" href="MRChangeMeshAction_8h.html#ae385080e7b7a68ff32f8d03ae2d70a7a">MR_VertCoords2</a> *value);</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="MRMeshAttributesToUpdate_8h.html#a24829120ddb04554a2d4878ff7505afa">   33</a></span>MRC_API <a class="code hl_typedef" href="MRChangeMeshAction_8h.html#ae385080e7b7a68ff32f8d03ae2d70a7a">MR_VertCoords2</a> **<a class="code hl_function" href="MRMeshAttributesToUpdate_8h.html#a24829120ddb04554a2d4878ff7505afa">MR_MeshAttributesToUpdate_GetMutable_uvCoords</a>(<a class="code hl_typedef" href="MRMeshAttributesToUpdate_8h.html#a3234fa00173b082d381b15e1ded995e0">MR_MeshAttributesToUpdate</a> *_this);</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="MRMeshAttributesToUpdate_8h.html#aeec29531a4cd0bf131e9f228456b224d">   38</a></span>MRC_API <a class="code hl_typedef" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> *<span class="keyword">const</span> *<a class="code hl_function" href="MRMeshAttributesToUpdate_8h.html#aeec29531a4cd0bf131e9f228456b224d">MR_MeshAttributesToUpdate_Get_colorMap</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRMeshAttributesToUpdate_8h.html#a3234fa00173b082d381b15e1ded995e0">MR_MeshAttributesToUpdate</a> *_this);</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="MRMeshAttributesToUpdate_8h.html#aaf08f3021c7afac5fa05ffc28ec93f40">   42</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRMeshAttributesToUpdate_8h.html#aaf08f3021c7afac5fa05ffc28ec93f40">MR_MeshAttributesToUpdate_Set_colorMap</a>(<a class="code hl_typedef" href="MRMeshAttributesToUpdate_8h.html#a3234fa00173b082d381b15e1ded995e0">MR_MeshAttributesToUpdate</a> *_this, <a class="code hl_typedef" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> *value);</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="MRMeshAttributesToUpdate_8h.html#afe100f20dd8a1562f5953ba8210113d5">   47</a></span>MRC_API <a class="code hl_typedef" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> **<a class="code hl_function" href="MRMeshAttributesToUpdate_8h.html#afe100f20dd8a1562f5953ba8210113d5">MR_MeshAttributesToUpdate_GetMutable_colorMap</a>(<a class="code hl_typedef" href="MRMeshAttributesToUpdate_8h.html#a3234fa00173b082d381b15e1ded995e0">MR_MeshAttributesToUpdate</a> *_this);</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="MRMeshAttributesToUpdate_8h.html#aa5603dfe11354416f951be30f8f9840a">   52</a></span>MRC_API <a class="code hl_typedef" href="MRChangeMeshAction_8h.html#a248aef9b7513a21932ba1dfcfbd3410d">MR_TexturePerFace</a> *<span class="keyword">const</span> *<a class="code hl_function" href="MRMeshAttributesToUpdate_8h.html#aa5603dfe11354416f951be30f8f9840a">MR_MeshAttributesToUpdate_Get_texturePerFace</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRMeshAttributesToUpdate_8h.html#a3234fa00173b082d381b15e1ded995e0">MR_MeshAttributesToUpdate</a> *_this);</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="MRMeshAttributesToUpdate_8h.html#a7a69448f45a98e47cbd9c5fdade708eb">   56</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRMeshAttributesToUpdate_8h.html#a7a69448f45a98e47cbd9c5fdade708eb">MR_MeshAttributesToUpdate_Set_texturePerFace</a>(<a class="code hl_typedef" href="MRMeshAttributesToUpdate_8h.html#a3234fa00173b082d381b15e1ded995e0">MR_MeshAttributesToUpdate</a> *_this, <a class="code hl_typedef" href="MRChangeMeshAction_8h.html#a248aef9b7513a21932ba1dfcfbd3410d">MR_TexturePerFace</a> *value);</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="MRMeshAttributesToUpdate_8h.html#acb073ba41898dfd975b3a815b0d538c7">   61</a></span>MRC_API <a class="code hl_typedef" href="MRChangeMeshAction_8h.html#a248aef9b7513a21932ba1dfcfbd3410d">MR_TexturePerFace</a> **<a class="code hl_function" href="MRMeshAttributesToUpdate_8h.html#acb073ba41898dfd975b3a815b0d538c7">MR_MeshAttributesToUpdate_GetMutable_texturePerFace</a>(<a class="code hl_typedef" href="MRMeshAttributesToUpdate_8h.html#a3234fa00173b082d381b15e1ded995e0">MR_MeshAttributesToUpdate</a> *_this);</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno"><a class="line" href="MRMeshAttributesToUpdate_8h.html#afcb6bd2d92436a442b1106e475656e8f">   66</a></span>MRC_API <a class="code hl_typedef" href="MRChangeColoringActions_8h.html#a88c7503c40b624a577fda0eab1faa5fa">MR_FaceColors</a> *<span class="keyword">const</span> *<a class="code hl_function" href="MRMeshAttributesToUpdate_8h.html#afcb6bd2d92436a442b1106e475656e8f">MR_MeshAttributesToUpdate_Get_faceColors</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRMeshAttributesToUpdate_8h.html#a3234fa00173b082d381b15e1ded995e0">MR_MeshAttributesToUpdate</a> *_this);</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno"><a class="line" href="MRMeshAttributesToUpdate_8h.html#a9c69266d79ba09605076f4a495fcf5f7">   70</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRMeshAttributesToUpdate_8h.html#a9c69266d79ba09605076f4a495fcf5f7">MR_MeshAttributesToUpdate_Set_faceColors</a>(<a class="code hl_typedef" href="MRMeshAttributesToUpdate_8h.html#a3234fa00173b082d381b15e1ded995e0">MR_MeshAttributesToUpdate</a> *_this, <a class="code hl_typedef" href="MRChangeColoringActions_8h.html#a88c7503c40b624a577fda0eab1faa5fa">MR_FaceColors</a> *value);</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span> </div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno"><a class="line" href="MRMeshAttributesToUpdate_8h.html#a6774e2ac4839c6ce1853577c3a414556">   75</a></span>MRC_API <a class="code hl_typedef" href="MRChangeColoringActions_8h.html#a88c7503c40b624a577fda0eab1faa5fa">MR_FaceColors</a> **<a class="code hl_function" href="MRMeshAttributesToUpdate_8h.html#a6774e2ac4839c6ce1853577c3a414556">MR_MeshAttributesToUpdate_GetMutable_faceColors</a>(<a class="code hl_typedef" href="MRMeshAttributesToUpdate_8h.html#a3234fa00173b082d381b15e1ded995e0">MR_MeshAttributesToUpdate</a> *_this);</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> </div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno"><a class="line" href="MRMeshAttributesToUpdate_8h.html#a60014204edea6780a6ad647f10d46407">   79</a></span>MRC_API <a class="code hl_typedef" href="MRMeshAttributesToUpdate_8h.html#a3234fa00173b082d381b15e1ded995e0">MR_MeshAttributesToUpdate</a> *<a class="code hl_function" href="MRMeshAttributesToUpdate_8h.html#a60014204edea6780a6ad647f10d46407">MR_MeshAttributesToUpdate_DefaultConstruct</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span> </div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno"><a class="line" href="MRMeshAttributesToUpdate_8h.html#a6ed4d78f9e8a6816bd6eb663b87d73b0">   84</a></span>MRC_API <a class="code hl_typedef" href="MRMeshAttributesToUpdate_8h.html#a3234fa00173b082d381b15e1ded995e0">MR_MeshAttributesToUpdate</a> *<a class="code hl_function" href="MRMeshAttributesToUpdate_8h.html#a6ed4d78f9e8a6816bd6eb663b87d73b0">MR_MeshAttributesToUpdate_DefaultConstructArray</a>(<span class="keywordtype">size_t</span> num_elems);</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span> </div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno"><a class="line" href="MRMeshAttributesToUpdate_8h.html#a9b00b2f9609231f058a2c1f94e193fe5">   88</a></span>MRC_API <a class="code hl_typedef" href="MRMeshAttributesToUpdate_8h.html#a3234fa00173b082d381b15e1ded995e0">MR_MeshAttributesToUpdate</a> *<a class="code hl_function" href="MRMeshAttributesToUpdate_8h.html#a9b00b2f9609231f058a2c1f94e193fe5">MR_MeshAttributesToUpdate_ConstructFrom</a>(<a class="code hl_typedef" href="MRChangeMeshAction_8h.html#ae385080e7b7a68ff32f8d03ae2d70a7a">MR_VertCoords2</a> *uvCoords, <a class="code hl_typedef" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> *colorMap, <a class="code hl_typedef" href="MRChangeMeshAction_8h.html#a248aef9b7513a21932ba1dfcfbd3410d">MR_TexturePerFace</a> *texturePerFace, <a class="code hl_typedef" href="MRChangeColoringActions_8h.html#a88c7503c40b624a577fda0eab1faa5fa">MR_FaceColors</a> *faceColors);</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span> </div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno"><a class="line" href="MRMeshAttributesToUpdate_8h.html#a3ecbbbdb53beacb7eeee7a55a15a9996">   91</a></span>MRC_API <span class="keyword">const</span> <a class="code hl_typedef" href="MRMeshAttributesToUpdate_8h.html#a3234fa00173b082d381b15e1ded995e0">MR_MeshAttributesToUpdate</a> *<a class="code hl_function" href="MRMeshAttributesToUpdate_8h.html#a3ecbbbdb53beacb7eeee7a55a15a9996">MR_MeshAttributesToUpdate_OffsetPtr</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRMeshAttributesToUpdate_8h.html#a3234fa00173b082d381b15e1ded995e0">MR_MeshAttributesToUpdate</a> *ptr, ptrdiff_t i);</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span> </div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno"><a class="line" href="MRMeshAttributesToUpdate_8h.html#ac0b157b21f10547df57fc44528f0bc87">   94</a></span>MRC_API <a class="code hl_typedef" href="MRMeshAttributesToUpdate_8h.html#a3234fa00173b082d381b15e1ded995e0">MR_MeshAttributesToUpdate</a> *<a class="code hl_function" href="MRMeshAttributesToUpdate_8h.html#ac0b157b21f10547df57fc44528f0bc87">MR_MeshAttributesToUpdate_OffsetMutablePtr</a>(<a class="code hl_typedef" href="MRMeshAttributesToUpdate_8h.html#a3234fa00173b082d381b15e1ded995e0">MR_MeshAttributesToUpdate</a> *ptr, ptrdiff_t i);</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span> </div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno"><a class="line" href="MRMeshAttributesToUpdate_8h.html#a11dd2bb19e3682c547bc3b37fb3bfd2c">   99</a></span>MRC_API <a class="code hl_typedef" href="MRMeshAttributesToUpdate_8h.html#a3234fa00173b082d381b15e1ded995e0">MR_MeshAttributesToUpdate</a> *<a class="code hl_function" href="MRMeshAttributesToUpdate_8h.html#a11dd2bb19e3682c547bc3b37fb3bfd2c">MR_MeshAttributesToUpdate_ConstructFromAnother</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRMeshAttributesToUpdate_8h.html#a3234fa00173b082d381b15e1ded995e0">MR_MeshAttributesToUpdate</a> *_other);</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span> </div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno"><a class="line" href="MRMeshAttributesToUpdate_8h.html#a18489c02ce4b1a21ac653d8a35f44e1f">  102</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRMeshAttributesToUpdate_8h.html#a18489c02ce4b1a21ac653d8a35f44e1f">MR_MeshAttributesToUpdate_Destroy</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRMeshAttributesToUpdate_8h.html#a3234fa00173b082d381b15e1ded995e0">MR_MeshAttributesToUpdate</a> *_this);</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span> </div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno"><a class="line" href="MRMeshAttributesToUpdate_8h.html#a1a1e303a886d5efb59fdca9ef6bea6f0">  105</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRMeshAttributesToUpdate_8h.html#a1a1e303a886d5efb59fdca9ef6bea6f0">MR_MeshAttributesToUpdate_DestroyArray</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRMeshAttributesToUpdate_8h.html#a3234fa00173b082d381b15e1ded995e0">MR_MeshAttributesToUpdate</a> *_this);</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span> </div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno"><a class="line" href="MRMeshAttributesToUpdate_8h.html#a47188d85c78eefc3547e2b3f71b101e0">  111</a></span>MRC_API <a class="code hl_typedef" href="MRMeshAttributesToUpdate_8h.html#a3234fa00173b082d381b15e1ded995e0">MR_MeshAttributesToUpdate</a> *<a class="code hl_function" href="MRMeshAttributesToUpdate_8h.html#a47188d85c78eefc3547e2b3f71b101e0">MR_MeshAttributesToUpdate_AssignFromAnother</a>(<a class="code hl_typedef" href="MRMeshAttributesToUpdate_8h.html#a3234fa00173b082d381b15e1ded995e0">MR_MeshAttributesToUpdate</a> *_this, <span class="keyword">const</span> <a class="code hl_typedef" href="MRMeshAttributesToUpdate_8h.html#a3234fa00173b082d381b15e1ded995e0">MR_MeshAttributesToUpdate</a> *_other);</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span> </div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span><span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>} <span class="comment">// extern &quot;C&quot;</span></div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aMRChangeColoringActions_8h_html_a88c7503c40b624a577fda0eab1faa5fa"><div class="ttname"><a href="MRChangeColoringActions_8h.html#a88c7503c40b624a577fda0eab1faa5fa">MR_FaceColors</a></div><div class="ttdeci">struct MR_FaceColors MR_FaceColors</div><div class="ttdef"><b>Definition</b> MRChangeColoringActions.h:14</div></div>
+<div class="ttc" id="aMRChangeMeshAction_8h_html_a248aef9b7513a21932ba1dfcfbd3410d"><div class="ttname"><a href="MRChangeMeshAction_8h.html#a248aef9b7513a21932ba1dfcfbd3410d">MR_TexturePerFace</a></div><div class="ttdeci">struct MR_TexturePerFace MR_TexturePerFace</div><div class="ttdef"><b>Definition</b> MRChangeMeshAction.h:15</div></div>
+<div class="ttc" id="aMRChangeMeshAction_8h_html_ae385080e7b7a68ff32f8d03ae2d70a7a"><div class="ttname"><a href="MRChangeMeshAction_8h.html#ae385080e7b7a68ff32f8d03ae2d70a7a">MR_VertCoords2</a></div><div class="ttdeci">struct MR_VertCoords2 MR_VertCoords2</div><div class="ttdef"><b>Definition</b> MRChangeMeshAction.h:18</div></div>
+<div class="ttc" id="aMRE57_8h_html_a20dc7d636220f61a60c7ae92b8caa768"><div class="ttname"><a href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a></div><div class="ttdeci">struct MR_VertColors MR_VertColors</div><div class="ttdef"><b>Definition</b> MRE57.h:16</div></div>
+<div class="ttc" id="aMRMeshAttributesToUpdate_8h_html_a11dd2bb19e3682c547bc3b37fb3bfd2c"><div class="ttname"><a href="MRMeshAttributesToUpdate_8h.html#a11dd2bb19e3682c547bc3b37fb3bfd2c">MR_MeshAttributesToUpdate_ConstructFromAnother</a></div><div class="ttdeci">MRC_API MR_MeshAttributesToUpdate * MR_MeshAttributesToUpdate_ConstructFromAnother(const MR_MeshAttributesToUpdate *_other)</div></div>
+<div class="ttc" id="aMRMeshAttributesToUpdate_8h_html_a18489c02ce4b1a21ac653d8a35f44e1f"><div class="ttname"><a href="MRMeshAttributesToUpdate_8h.html#a18489c02ce4b1a21ac653d8a35f44e1f">MR_MeshAttributesToUpdate_Destroy</a></div><div class="ttdeci">MRC_API void MR_MeshAttributesToUpdate_Destroy(const MR_MeshAttributesToUpdate *_this)</div><div class="ttdoc">Destroys a heap-allocated instance of MR_MeshAttributesToUpdate. Does nothing if the pointer is null.</div></div>
+<div class="ttc" id="aMRMeshAttributesToUpdate_8h_html_a1a1e303a886d5efb59fdca9ef6bea6f0"><div class="ttname"><a href="MRMeshAttributesToUpdate_8h.html#a1a1e303a886d5efb59fdca9ef6bea6f0">MR_MeshAttributesToUpdate_DestroyArray</a></div><div class="ttdeci">MRC_API void MR_MeshAttributesToUpdate_DestroyArray(const MR_MeshAttributesToUpdate *_this)</div><div class="ttdoc">Destroys a heap-allocated array of MR_MeshAttributesToUpdate. Does nothing if the pointer is null.</div></div>
+<div class="ttc" id="aMRMeshAttributesToUpdate_8h_html_a24829120ddb04554a2d4878ff7505afa"><div class="ttname"><a href="MRMeshAttributesToUpdate_8h.html#a24829120ddb04554a2d4878ff7505afa">MR_MeshAttributesToUpdate_GetMutable_uvCoords</a></div><div class="ttdeci">MRC_API MR_VertCoords2 ** MR_MeshAttributesToUpdate_GetMutable_uvCoords(MR_MeshAttributesToUpdate *_this)</div></div>
+<div class="ttc" id="aMRMeshAttributesToUpdate_8h_html_a3234fa00173b082d381b15e1ded995e0"><div class="ttname"><a href="MRMeshAttributesToUpdate_8h.html#a3234fa00173b082d381b15e1ded995e0">MR_MeshAttributesToUpdate</a></div><div class="ttdeci">struct MR_MeshAttributesToUpdate MR_MeshAttributesToUpdate</div><div class="ttdoc">Generated from class MR::MeshAttributesToUpdate.</div><div class="ttdef"><b>Definition</b> MRMeshAttributesToUpdate.h:19</div></div>
+<div class="ttc" id="aMRMeshAttributesToUpdate_8h_html_a3ecbbbdb53beacb7eeee7a55a15a9996"><div class="ttname"><a href="MRMeshAttributesToUpdate_8h.html#a3ecbbbdb53beacb7eeee7a55a15a9996">MR_MeshAttributesToUpdate_OffsetPtr</a></div><div class="ttdeci">MRC_API const MR_MeshAttributesToUpdate * MR_MeshAttributesToUpdate_OffsetPtr(const MR_MeshAttributesToUpdate *ptr, ptrdiff_t i)</div><div class="ttdoc">Offsets a pointer to an array element by i positions (not bytes). Use only if you're certain that the...</div></div>
+<div class="ttc" id="aMRMeshAttributesToUpdate_8h_html_a47188d85c78eefc3547e2b3f71b101e0"><div class="ttname"><a href="MRMeshAttributesToUpdate_8h.html#a47188d85c78eefc3547e2b3f71b101e0">MR_MeshAttributesToUpdate_AssignFromAnother</a></div><div class="ttdeci">MRC_API MR_MeshAttributesToUpdate * MR_MeshAttributesToUpdate_AssignFromAnother(MR_MeshAttributesToUpdate *_this, const MR_MeshAttributesToUpdate *_other)</div></div>
+<div class="ttc" id="aMRMeshAttributesToUpdate_8h_html_a60014204edea6780a6ad647f10d46407"><div class="ttname"><a href="MRMeshAttributesToUpdate_8h.html#a60014204edea6780a6ad647f10d46407">MR_MeshAttributesToUpdate_DefaultConstruct</a></div><div class="ttdeci">MRC_API MR_MeshAttributesToUpdate * MR_MeshAttributesToUpdate_DefaultConstruct(void)</div></div>
+<div class="ttc" id="aMRMeshAttributesToUpdate_8h_html_a62e11ed37812a7619c61f4ca46cb83f5"><div class="ttname"><a href="MRMeshAttributesToUpdate_8h.html#a62e11ed37812a7619c61f4ca46cb83f5">MR_MeshAttributesToUpdate_Get_uvCoords</a></div><div class="ttdeci">MRC_API MR_VertCoords2 *const * MR_MeshAttributesToUpdate_Get_uvCoords(const MR_MeshAttributesToUpdate *_this)</div></div>
+<div class="ttc" id="aMRMeshAttributesToUpdate_8h_html_a6774e2ac4839c6ce1853577c3a414556"><div class="ttname"><a href="MRMeshAttributesToUpdate_8h.html#a6774e2ac4839c6ce1853577c3a414556">MR_MeshAttributesToUpdate_GetMutable_faceColors</a></div><div class="ttdeci">MRC_API MR_FaceColors ** MR_MeshAttributesToUpdate_GetMutable_faceColors(MR_MeshAttributesToUpdate *_this)</div></div>
+<div class="ttc" id="aMRMeshAttributesToUpdate_8h_html_a6ed4d78f9e8a6816bd6eb663b87d73b0"><div class="ttname"><a href="MRMeshAttributesToUpdate_8h.html#a6ed4d78f9e8a6816bd6eb663b87d73b0">MR_MeshAttributesToUpdate_DefaultConstructArray</a></div><div class="ttdeci">MRC_API MR_MeshAttributesToUpdate * MR_MeshAttributesToUpdate_DefaultConstructArray(size_t num_elems)</div></div>
+<div class="ttc" id="aMRMeshAttributesToUpdate_8h_html_a7a69448f45a98e47cbd9c5fdade708eb"><div class="ttname"><a href="MRMeshAttributesToUpdate_8h.html#a7a69448f45a98e47cbd9c5fdade708eb">MR_MeshAttributesToUpdate_Set_texturePerFace</a></div><div class="ttdeci">MRC_API void MR_MeshAttributesToUpdate_Set_texturePerFace(MR_MeshAttributesToUpdate *_this, MR_TexturePerFace *value)</div></div>
+<div class="ttc" id="aMRMeshAttributesToUpdate_8h_html_a9b00b2f9609231f058a2c1f94e193fe5"><div class="ttname"><a href="MRMeshAttributesToUpdate_8h.html#a9b00b2f9609231f058a2c1f94e193fe5">MR_MeshAttributesToUpdate_ConstructFrom</a></div><div class="ttdeci">MRC_API MR_MeshAttributesToUpdate * MR_MeshAttributesToUpdate_ConstructFrom(MR_VertCoords2 *uvCoords, MR_VertColors *colorMap, MR_TexturePerFace *texturePerFace, MR_FaceColors *faceColors)</div></div>
+<div class="ttc" id="aMRMeshAttributesToUpdate_8h_html_a9c69266d79ba09605076f4a495fcf5f7"><div class="ttname"><a href="MRMeshAttributesToUpdate_8h.html#a9c69266d79ba09605076f4a495fcf5f7">MR_MeshAttributesToUpdate_Set_faceColors</a></div><div class="ttdeci">MRC_API void MR_MeshAttributesToUpdate_Set_faceColors(MR_MeshAttributesToUpdate *_this, MR_FaceColors *value)</div></div>
+<div class="ttc" id="aMRMeshAttributesToUpdate_8h_html_aa5603dfe11354416f951be30f8f9840a"><div class="ttname"><a href="MRMeshAttributesToUpdate_8h.html#aa5603dfe11354416f951be30f8f9840a">MR_MeshAttributesToUpdate_Get_texturePerFace</a></div><div class="ttdeci">MRC_API MR_TexturePerFace *const * MR_MeshAttributesToUpdate_Get_texturePerFace(const MR_MeshAttributesToUpdate *_this)</div></div>
+<div class="ttc" id="aMRMeshAttributesToUpdate_8h_html_aaf08f3021c7afac5fa05ffc28ec93f40"><div class="ttname"><a href="MRMeshAttributesToUpdate_8h.html#aaf08f3021c7afac5fa05ffc28ec93f40">MR_MeshAttributesToUpdate_Set_colorMap</a></div><div class="ttdeci">MRC_API void MR_MeshAttributesToUpdate_Set_colorMap(MR_MeshAttributesToUpdate *_this, MR_VertColors *value)</div></div>
+<div class="ttc" id="aMRMeshAttributesToUpdate_8h_html_ac0b157b21f10547df57fc44528f0bc87"><div class="ttname"><a href="MRMeshAttributesToUpdate_8h.html#ac0b157b21f10547df57fc44528f0bc87">MR_MeshAttributesToUpdate_OffsetMutablePtr</a></div><div class="ttdeci">MRC_API MR_MeshAttributesToUpdate * MR_MeshAttributesToUpdate_OffsetMutablePtr(MR_MeshAttributesToUpdate *ptr, ptrdiff_t i)</div><div class="ttdoc">Offsets a pointer to an array element by i positions (not bytes). Use only if you're certain that the...</div></div>
+<div class="ttc" id="aMRMeshAttributesToUpdate_8h_html_acb073ba41898dfd975b3a815b0d538c7"><div class="ttname"><a href="MRMeshAttributesToUpdate_8h.html#acb073ba41898dfd975b3a815b0d538c7">MR_MeshAttributesToUpdate_GetMutable_texturePerFace</a></div><div class="ttdeci">MRC_API MR_TexturePerFace ** MR_MeshAttributesToUpdate_GetMutable_texturePerFace(MR_MeshAttributesToUpdate *_this)</div></div>
+<div class="ttc" id="aMRMeshAttributesToUpdate_8h_html_ad5481bbaf5c6032e06d59b231d6bdb02"><div class="ttname"><a href="MRMeshAttributesToUpdate_8h.html#ad5481bbaf5c6032e06d59b231d6bdb02">MR_MeshAttributesToUpdate_Set_uvCoords</a></div><div class="ttdeci">MRC_API void MR_MeshAttributesToUpdate_Set_uvCoords(MR_MeshAttributesToUpdate *_this, MR_VertCoords2 *value)</div></div>
+<div class="ttc" id="aMRMeshAttributesToUpdate_8h_html_aeec29531a4cd0bf131e9f228456b224d"><div class="ttname"><a href="MRMeshAttributesToUpdate_8h.html#aeec29531a4cd0bf131e9f228456b224d">MR_MeshAttributesToUpdate_Get_colorMap</a></div><div class="ttdeci">MRC_API MR_VertColors *const * MR_MeshAttributesToUpdate_Get_colorMap(const MR_MeshAttributesToUpdate *_this)</div></div>
+<div class="ttc" id="aMRMeshAttributesToUpdate_8h_html_afcb6bd2d92436a442b1106e475656e8f"><div class="ttname"><a href="MRMeshAttributesToUpdate_8h.html#afcb6bd2d92436a442b1106e475656e8f">MR_MeshAttributesToUpdate_Get_faceColors</a></div><div class="ttdeci">MRC_API MR_FaceColors *const * MR_MeshAttributesToUpdate_Get_faceColors(const MR_MeshAttributesToUpdate *_this)</div></div>
+<div class="ttc" id="aMRMeshAttributesToUpdate_8h_html_afe100f20dd8a1562f5953ba8210113d5"><div class="ttname"><a href="MRMeshAttributesToUpdate_8h.html#afe100f20dd8a1562f5953ba8210113d5">MR_MeshAttributesToUpdate_GetMutable_colorMap</a></div><div class="ttdeci">MRC_API MR_VertColors ** MR_MeshAttributesToUpdate_GetMutable_colorMap(MR_MeshAttributesToUpdate *_this)</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_87d38852fc01aff5f853718c8d8b5cb2.html">Cbindings</a></li><li class="navelem"><a class="el" href="dir_cb83f9b98dc6f67356ff76bcc17f4f67.html">MRCMesh</a></li><li class="navelem"><a class="el" href="MRMeshAttributesToUpdate_8h.html">MRMeshAttributesToUpdate.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

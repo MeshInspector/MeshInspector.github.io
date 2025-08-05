@@ -1,0 +1,1177 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: MRUniteManyMeshes.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('MRUniteManyMeshes_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">MRUniteManyMeshes.h File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
+<code>#include &lt;stdint.h&gt;</code><br />
+</div>
+<p><a href="MRUniteManyMeshes_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:aba7bc6ac732c34fd4721c543fa3445ea" id="r_aba7bc6ac732c34fd4721c543fa3445ea"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a></td></tr>
+<tr class="separator:aba7bc6ac732c34fd4721c543fa3445ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d97154d4aed695055160a4688c04a3d" id="r_a0d97154d4aed695055160a4688c04a3d"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a></td></tr>
+<tr class="separator:a0d97154d4aed695055160a4688c04a3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb03ce28cacfff1e499d75d512dc4a84" id="r_adb03ce28cacfff1e499d75d512dc4a84"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a></td></tr>
+<tr class="separator:adb03ce28cacfff1e499d75d512dc4a84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7193edfceac57cfb2d1d3b5b68a90b8" id="r_ae7193edfceac57cfb2d1d3b5b68a90b8"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ae7193edfceac57cfb2d1d3b5b68a90b8">MR_std_vector_const_MR_Mesh_ptr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae7193edfceac57cfb2d1d3b5b68a90b8">MR_std_vector_const_MR_Mesh_ptr</a></td></tr>
+<tr class="separator:ae7193edfceac57cfb2d1d3b5b68a90b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfde5ee8f62ba3de783e8f63282a683f" id="r_acfde5ee8f62ba3de783e8f63282a683f"><td class="memItemLeft" align="right" valign="top">typedef int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acfde5ee8f62ba3de783e8f63282a683f">MR_NestedComponenetsMode</a></td></tr>
+<tr class="memdesc:acfde5ee8f62ba3de783e8f63282a683f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mode of processing components.  <br /></td></tr>
+<tr class="separator:acfde5ee8f62ba3de783e8f63282a683f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a768fbaa1a635c9393fdb3628694b9f61" id="r_a768fbaa1a635c9393fdb3628694b9f61"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a></td></tr>
+<tr class="separator:a768fbaa1a635c9393fdb3628694b9f61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:ad63240694c6dc2a28c24bfc2db90ad7a" id="r_ad63240694c6dc2a28c24bfc2db90ad7a"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#ad63240694c6dc2a28c24bfc2db90ad7aa1f9866b626345c006575db992e30e70a">MR_NestedComponenetsMode_Remove</a> = 0
+, <a class="el" href="#ad63240694c6dc2a28c24bfc2db90ad7aa5686960c5309ee42c800b9aae6d53557">MR_NestedComponenetsMode_Merge</a> = 1
+, <a class="el" href="#ad63240694c6dc2a28c24bfc2db90ad7aa78ef8e00427c0af348d84b9a69df2d85">MR_NestedComponenetsMode_Union</a> = 2
+ }</td></tr>
+<tr class="separator:ad63240694c6dc2a28c24bfc2db90ad7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a815aeec03d41ba8646fcbdac6c9a7bb9" id="r_a815aeec03d41ba8646fcbdac6c9a7bb9"><td class="memItemLeft" align="right" valign="top">MRC_API const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a815aeec03d41ba8646fcbdac6c9a7bb9">MR_UniteManyMeshesParams_Get_useRandomShifts</a> (const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
+<tr class="separator:a815aeec03d41ba8646fcbdac6c9a7bb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a811f8a6529787d033b5897f8bd4995f9" id="r_a811f8a6529787d033b5897f8bd4995f9"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a811f8a6529787d033b5897f8bd4995f9">MR_UniteManyMeshesParams_Set_useRandomShifts</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this, bool value)</td></tr>
+<tr class="separator:a811f8a6529787d033b5897f8bd4995f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a202072a113d7b995762e70912bc88b60" id="r_a202072a113d7b995762e70912bc88b60"><td class="memItemLeft" align="right" valign="top">MRC_API bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a202072a113d7b995762e70912bc88b60">MR_UniteManyMeshesParams_GetMutable_useRandomShifts</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
+<tr class="separator:a202072a113d7b995762e70912bc88b60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abaf33831a6cce06066386248fcebe754" id="r_abaf33831a6cce06066386248fcebe754"><td class="memItemLeft" align="right" valign="top">MRC_API const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abaf33831a6cce06066386248fcebe754">MR_UniteManyMeshesParams_Get_fixDegenerations</a> (const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
+<tr class="separator:abaf33831a6cce06066386248fcebe754"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c4a9a452fac99be5f360a11fca89d96" id="r_a6c4a9a452fac99be5f360a11fca89d96"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c4a9a452fac99be5f360a11fca89d96">MR_UniteManyMeshesParams_Set_fixDegenerations</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this, bool value)</td></tr>
+<tr class="separator:a6c4a9a452fac99be5f360a11fca89d96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1504abd5af5b5a33f63671af7a788996" id="r_a1504abd5af5b5a33f63671af7a788996"><td class="memItemLeft" align="right" valign="top">MRC_API bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1504abd5af5b5a33f63671af7a788996">MR_UniteManyMeshesParams_GetMutable_fixDegenerations</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
+<tr class="separator:a1504abd5af5b5a33f63671af7a788996"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0617a974f50a8dc4b23565863e781a2c" id="r_a0617a974f50a8dc4b23565863e781a2c"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0617a974f50a8dc4b23565863e781a2c">MR_UniteManyMeshesParams_Get_maxAllowedError</a> (const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
+<tr class="separator:a0617a974f50a8dc4b23565863e781a2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaffbbf139f639e5dd671ab65d7cb37d4" id="r_aaffbbf139f639e5dd671ab65d7cb37d4"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaffbbf139f639e5dd671ab65d7cb37d4">MR_UniteManyMeshesParams_Set_maxAllowedError</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this, float value)</td></tr>
+<tr class="separator:aaffbbf139f639e5dd671ab65d7cb37d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9168d43d84ac114dcdf6bf405b0c9232" id="r_a9168d43d84ac114dcdf6bf405b0c9232"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9168d43d84ac114dcdf6bf405b0c9232">MR_UniteManyMeshesParams_GetMutable_maxAllowedError</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
+<tr class="separator:a9168d43d84ac114dcdf6bf405b0c9232"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43c5748c8daea1c6a57a040a4742842d" id="r_a43c5748c8daea1c6a57a040a4742842d"><td class="memItemLeft" align="right" valign="top">MRC_API const uint32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43c5748c8daea1c6a57a040a4742842d">MR_UniteManyMeshesParams_Get_randomShiftsSeed</a> (const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
+<tr class="separator:a43c5748c8daea1c6a57a040a4742842d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3056d3f5d5596c05f94f54d6a297f5b1" id="r_a3056d3f5d5596c05f94f54d6a297f5b1"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3056d3f5d5596c05f94f54d6a297f5b1">MR_UniteManyMeshesParams_Set_randomShiftsSeed</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this, uint32_t value)</td></tr>
+<tr class="separator:a3056d3f5d5596c05f94f54d6a297f5b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cd81de979cc8efebbe64a15e2a517f2" id="r_a9cd81de979cc8efebbe64a15e2a517f2"><td class="memItemLeft" align="right" valign="top">MRC_API uint32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9cd81de979cc8efebbe64a15e2a517f2">MR_UniteManyMeshesParams_GetMutable_randomShiftsSeed</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
+<tr class="separator:a9cd81de979cc8efebbe64a15e2a517f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af72e4f9ed5825f5341a675e70e72bc45" id="r_af72e4f9ed5825f5341a675e70e72bc45"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af72e4f9ed5825f5341a675e70e72bc45">MR_UniteManyMeshesParams_Get_newFaces</a> (const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
+<tr class="separator:af72e4f9ed5825f5341a675e70e72bc45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbcc59689b65300b513db258ed8cddbc" id="r_afbcc59689b65300b513db258ed8cddbc"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afbcc59689b65300b513db258ed8cddbc">MR_UniteManyMeshesParams_Set_newFaces</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this, <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *value)</td></tr>
+<tr class="separator:afbcc59689b65300b513db258ed8cddbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90512e36c0f8188183949f30d298d6be" id="r_a90512e36c0f8188183949f30d298d6be"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90512e36c0f8188183949f30d298d6be">MR_UniteManyMeshesParams_GetMutable_newFaces</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
+<tr class="separator:a90512e36c0f8188183949f30d298d6be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade5e7a8333f3b493b6ecd5e0de810bea" id="r_ade5e7a8333f3b493b6ecd5e0de810bea"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#acfde5ee8f62ba3de783e8f63282a683f">MR_NestedComponenetsMode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade5e7a8333f3b493b6ecd5e0de810bea">MR_UniteManyMeshesParams_Get_nestedComponentsMode</a> (const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
+<tr class="separator:ade5e7a8333f3b493b6ecd5e0de810bea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a765535345779f67b4492757b3d613d57" id="r_a765535345779f67b4492757b3d613d57"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a765535345779f67b4492757b3d613d57">MR_UniteManyMeshesParams_Set_nestedComponentsMode</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this, <a class="el" href="#acfde5ee8f62ba3de783e8f63282a683f">MR_NestedComponenetsMode</a> value)</td></tr>
+<tr class="separator:a765535345779f67b4492757b3d613d57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9918bbfb181a8c73974a959291c4743" id="r_ab9918bbfb181a8c73974a959291c4743"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#acfde5ee8f62ba3de783e8f63282a683f">MR_NestedComponenetsMode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9918bbfb181a8c73974a959291c4743">MR_UniteManyMeshesParams_GetMutable_nestedComponentsMode</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
+<tr class="separator:ab9918bbfb181a8c73974a959291c4743"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f205153ad98413752624545ea12622c" id="r_a4f205153ad98413752624545ea12622c"><td class="memItemLeft" align="right" valign="top">MRC_API const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f205153ad98413752624545ea12622c">MR_UniteManyMeshesParams_Get_mergeOnFail</a> (const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
+<tr class="separator:a4f205153ad98413752624545ea12622c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83a923a10580b9a067b3125e4007bdcd" id="r_a83a923a10580b9a067b3125e4007bdcd"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a83a923a10580b9a067b3125e4007bdcd">MR_UniteManyMeshesParams_Set_mergeOnFail</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this, bool value)</td></tr>
+<tr class="separator:a83a923a10580b9a067b3125e4007bdcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56184079cfc91b2ef085c1163385634e" id="r_a56184079cfc91b2ef085c1163385634e"><td class="memItemLeft" align="right" valign="top">MRC_API bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56184079cfc91b2ef085c1163385634e">MR_UniteManyMeshesParams_GetMutable_mergeOnFail</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
+<tr class="separator:a56184079cfc91b2ef085c1163385634e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f5c25f2651505ece1869a5f256987ec" id="r_a7f5c25f2651505ece1869a5f256987ec"><td class="memItemLeft" align="right" valign="top">MRC_API const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f5c25f2651505ece1869a5f256987ec">MR_UniteManyMeshesParams_Get_forceCut</a> (const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
+<tr class="separator:a7f5c25f2651505ece1869a5f256987ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b4a1d176cfc6acee41c4dd6291fc068" id="r_a1b4a1d176cfc6acee41c4dd6291fc068"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b4a1d176cfc6acee41c4dd6291fc068">MR_UniteManyMeshesParams_Set_forceCut</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this, bool value)</td></tr>
+<tr class="separator:a1b4a1d176cfc6acee41c4dd6291fc068"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a582895e6bacbdc68c33fadd71312aa05" id="r_a582895e6bacbdc68c33fadd71312aa05"><td class="memItemLeft" align="right" valign="top">MRC_API bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a582895e6bacbdc68c33fadd71312aa05">MR_UniteManyMeshesParams_GetMutable_forceCut</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
+<tr class="separator:a582895e6bacbdc68c33fadd71312aa05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17a85aa62b4e0013af638f2d511effe1" id="r_a17a85aa62b4e0013af638f2d511effe1"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17a85aa62b4e0013af638f2d511effe1">MR_UniteManyMeshesParams_Get_progressCb</a> (const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
+<tr class="separator:a17a85aa62b4e0013af638f2d511effe1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9014cb316d4a994f59f7ea04e1257248" id="r_a9014cb316d4a994f59f7ea04e1257248"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9014cb316d4a994f59f7ea04e1257248">MR_UniteManyMeshesParams_Set_progressCb</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *value)</td></tr>
+<tr class="separator:a9014cb316d4a994f59f7ea04e1257248"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93c8e78713f0a6edbe3badbeaa4ae39c" id="r_a93c8e78713f0a6edbe3badbeaa4ae39c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93c8e78713f0a6edbe3badbeaa4ae39c">MR_UniteManyMeshesParams_GetMutable_progressCb</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
+<tr class="separator:a93c8e78713f0a6edbe3badbeaa4ae39c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea25dd860532caabb4545140e67c3773" id="r_aea25dd860532caabb4545140e67c3773"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea25dd860532caabb4545140e67c3773">MR_UniteManyMeshesParams_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:aea25dd860532caabb4545140e67c3773"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a973f757a98dc45a29df0ea202982411d" id="r_a973f757a98dc45a29df0ea202982411d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a973f757a98dc45a29df0ea202982411d">MR_UniteManyMeshesParams_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a973f757a98dc45a29df0ea202982411d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa460daf111c9e7b7054c663656e01c1" id="r_afa460daf111c9e7b7054c663656e01c1"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa460daf111c9e7b7054c663656e01c1">MR_UniteManyMeshesParams_ConstructFrom</a> (bool useRandomShifts, bool fixDegenerations, float maxAllowedError, uint32_t randomShiftsSeed, <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *newFaces, <a class="el" href="#acfde5ee8f62ba3de783e8f63282a683f">MR_NestedComponenetsMode</a> nestedComponentsMode, bool mergeOnFail, bool forceCut, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> progressCb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *progressCb)</td></tr>
+<tr class="separator:afa460daf111c9e7b7054c663656e01c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a963ca5e79de4f0122e2ec63db134d238" id="r_a963ca5e79de4f0122e2ec63db134d238"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a963ca5e79de4f0122e2ec63db134d238">MR_UniteManyMeshesParams_OffsetPtr</a> (const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a963ca5e79de4f0122e2ec63db134d238"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a963ca5e79de4f0122e2ec63db134d238"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c7233bf8812cb4af5412dcd22e6ac60" id="r_a2c7233bf8812cb4af5412dcd22e6ac60"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c7233bf8812cb4af5412dcd22e6ac60">MR_UniteManyMeshesParams_OffsetMutablePtr</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a2c7233bf8812cb4af5412dcd22e6ac60"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a2c7233bf8812cb4af5412dcd22e6ac60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4824c6fc906c8bbb0901aefd1cabceb0" id="r_a4824c6fc906c8bbb0901aefd1cabceb0"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4824c6fc906c8bbb0901aefd1cabceb0">MR_UniteManyMeshesParams_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_other)</td></tr>
+<tr class="separator:a4824c6fc906c8bbb0901aefd1cabceb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3cb7000f5f540aa30fe619684227153" id="r_ad3cb7000f5f540aa30fe619684227153"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad3cb7000f5f540aa30fe619684227153">MR_UniteManyMeshesParams_Destroy</a> (const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
+<tr class="memdesc:ad3cb7000f5f540aa30fe619684227153"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_UniteManyMeshesParams</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ad3cb7000f5f540aa30fe619684227153"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea6a2768acab3a6cf00c4f5b9af6e20d" id="r_aea6a2768acab3a6cf00c4f5b9af6e20d"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea6a2768acab3a6cf00c4f5b9af6e20d">MR_UniteManyMeshesParams_DestroyArray</a> (const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
+<tr class="memdesc:aea6a2768acab3a6cf00c4f5b9af6e20d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_UniteManyMeshesParams</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:aea6a2768acab3a6cf00c4f5b9af6e20d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b9cc39c7987242ef812466516187831" id="r_a2b9cc39c7987242ef812466516187831"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b9cc39c7987242ef812466516187831">MR_UniteManyMeshesParams_AssignFromAnother</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_other)</td></tr>
+<tr class="separator:a2b9cc39c7987242ef812466516187831"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea757129ffa2722d3062c2f234acf0fe" id="r_aea757129ffa2722d3062c2f234acf0fe"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea757129ffa2722d3062c2f234acf0fe">MR_uniteManyMeshes</a> (const <a class="el" href="#ae7193edfceac57cfb2d1d3b5b68a90b8">MR_std_vector_const_MR_Mesh_ptr</a> *meshes, const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *params)</td></tr>
+<tr class="separator:aea757129ffa2722d3062c2f234acf0fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a0d97154d4aed695055160a4688c04a3d" name="a0d97154d4aed695055160a4688c04a3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d97154d4aed695055160a4688c04a3d">&#9670;&#160;</a></span>MR_expected_MR_Mesh_std_string</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aba7bc6ac732c34fd4721c543fa3445ea" name="aba7bc6ac732c34fd4721c543fa3445ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba7bc6ac732c34fd4721c543fa3445ea">&#9670;&#160;</a></span>MR_FaceBitSet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acfde5ee8f62ba3de783e8f63282a683f" name="acfde5ee8f62ba3de783e8f63282a683f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acfde5ee8f62ba3de783e8f63282a683f">&#9670;&#160;</a></span>MR_NestedComponenetsMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef int32_t <a class="el" href="#acfde5ee8f62ba3de783e8f63282a683f">MR_NestedComponenetsMode</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Mode of processing components. </p>
+
+</div>
+</div>
+<a id="adb03ce28cacfff1e499d75d512dc4a84" name="adb03ce28cacfff1e499d75d512dc4a84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb03ce28cacfff1e499d75d512dc4a84">&#9670;&#160;</a></span>MR_std_function_bool_from_float</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae7193edfceac57cfb2d1d3b5b68a90b8" name="ae7193edfceac57cfb2d1d3b5b68a90b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7193edfceac57cfb2d1d3b5b68a90b8">&#9670;&#160;</a></span>MR_std_vector_const_MR_Mesh_ptr</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#ae7193edfceac57cfb2d1d3b5b68a90b8">MR_std_vector_const_MR_Mesh_ptr</a> <a class="el" href="#ae7193edfceac57cfb2d1d3b5b68a90b8">MR_std_vector_const_MR_Mesh_ptr</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a768fbaa1a635c9393fdb3628694b9f61" name="a768fbaa1a635c9393fdb3628694b9f61"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a768fbaa1a635c9393fdb3628694b9f61">&#9670;&#160;</a></span>MR_UniteManyMeshesParams</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Parameters structure for uniteManyMeshes function Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1UniteManyMeshesParams.html">MR::UniteManyMeshesParams</a></code>. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="ad63240694c6dc2a28c24bfc2db90ad7a" name="ad63240694c6dc2a28c24bfc2db90ad7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad63240694c6dc2a28c24bfc2db90ad7a">&#9670;&#160;</a></span>anonymous enum</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">anonymous enum</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ad63240694c6dc2a28c24bfc2db90ad7aa1f9866b626345c006575db992e30e70a" name="ad63240694c6dc2a28c24bfc2db90ad7aa1f9866b626345c006575db992e30e70a"></a>MR_NestedComponenetsMode_Remove&#160;</td><td class="fielddoc"><p>Default: separate nested meshes and remove them, just like union operation should do, use this if input meshes are single component. </p>
+<p>merge nested meshes, useful if input meshes are components of single object </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ad63240694c6dc2a28c24bfc2db90ad7aa5686960c5309ee42c800b9aae6d53557" name="ad63240694c6dc2a28c24bfc2db90ad7aa5686960c5309ee42c800b9aae6d53557"></a>MR_NestedComponenetsMode_Merge&#160;</td><td class="fielddoc"><p>does not separate components and call union for all input meshes, works slower than Remove and Merge method but returns valid result if input meshes has multiple components </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ad63240694c6dc2a28c24bfc2db90ad7aa78ef8e00427c0af348d84b9a69df2d85" name="ad63240694c6dc2a28c24bfc2db90ad7aa78ef8e00427c0af348d84b9a69df2d85"></a>MR_NestedComponenetsMode_Union&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="aea757129ffa2722d3062c2f234acf0fe" name="aea757129ffa2722d3062c2f234acf0fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea757129ffa2722d3062c2f234acf0fe">&#9670;&#160;</a></span>MR_uniteManyMeshes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> * MR_uniteManyMeshes </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ae7193edfceac57cfb2d1d3b5b68a90b8">MR_std_vector_const_MR_Mesh_ptr</a> *</td>          <td class="paramname"><span class="paramname"><em>meshes</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a6d49af12748cc8c14c417a9938a57ab7">MR::uniteManyMeshes</a></code>. Parameter <code>meshes</code> can not be null. Parameter <code>params</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a2b9cc39c7987242ef812466516187831" name="a2b9cc39c7987242ef812466516187831"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b9cc39c7987242ef812466516187831">&#9670;&#160;</a></span>MR_UniteManyMeshesParams_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> * MR_UniteManyMeshesParams_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1UniteManyMeshesParams.html">MR::UniteManyMeshesParams</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="afa460daf111c9e7b7054c663656e01c1" name="afa460daf111c9e7b7054c663656e01c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa460daf111c9e7b7054c663656e01c1">&#9670;&#160;</a></span>MR_UniteManyMeshesParams_ConstructFrom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> * MR_UniteManyMeshesParams_ConstructFrom </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>useRandomShifts</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>fixDegenerations</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>maxAllowedError</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>randomShiftsSeed</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>newFaces</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#acfde5ee8f62ba3de783e8f63282a683f">MR_NestedComponenetsMode</a></td>          <td class="paramname"><span class="paramname"><em>nestedComponentsMode</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>mergeOnFail</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>forceCut</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>progressCb_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *</td>          <td class="paramname"><span class="paramname"><em>progressCb</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1UniteManyMeshesParams.html">MR::UniteManyMeshesParams</a></code> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ad3cb7000f5f540aa30fe619684227153" title="Destroys a heap-allocated instance of MR_UniteManyMeshesParams. Does nothing if the pointer is null.">MR_UniteManyMeshesParams_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a4824c6fc906c8bbb0901aefd1cabceb0" name="a4824c6fc906c8bbb0901aefd1cabceb0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4824c6fc906c8bbb0901aefd1cabceb0">&#9670;&#160;</a></span>MR_UniteManyMeshesParams_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> * MR_UniteManyMeshesParams_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1UniteManyMeshesParams.html">MR::UniteManyMeshesParams</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ad3cb7000f5f540aa30fe619684227153" title="Destroys a heap-allocated instance of MR_UniteManyMeshesParams. Does nothing if the pointer is null.">MR_UniteManyMeshesParams_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="aea25dd860532caabb4545140e67c3773" name="aea25dd860532caabb4545140e67c3773"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea25dd860532caabb4545140e67c3773">&#9670;&#160;</a></span>MR_UniteManyMeshesParams_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> * MR_UniteManyMeshesParams_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ad3cb7000f5f540aa30fe619684227153" title="Destroys a heap-allocated instance of MR_UniteManyMeshesParams. Does nothing if the pointer is null.">MR_UniteManyMeshesParams_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a973f757a98dc45a29df0ea202982411d" name="a973f757a98dc45a29df0ea202982411d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a973f757a98dc45a29df0ea202982411d">&#9670;&#160;</a></span>MR_UniteManyMeshesParams_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> * MR_UniteManyMeshesParams_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#aea6a2768acab3a6cf00c4f5b9af6e20d" title="Destroys a heap-allocated array of MR_UniteManyMeshesParams. Does nothing if the pointer is null.">MR_UniteManyMeshesParams_DestroyArray()</a></code>. Use <code><a class="el" href="#a2c7233bf8812cb4af5412dcd22e6ac60" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_UniteManyMeshesParams_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a963ca5e79de4f0122e2ec63db134d238" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_UniteManyMeshesParams_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="ad3cb7000f5f540aa30fe619684227153" name="ad3cb7000f5f540aa30fe619684227153"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3cb7000f5f540aa30fe619684227153">&#9670;&#160;</a></span>MR_UniteManyMeshesParams_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_UniteManyMeshesParams_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_UniteManyMeshesParams</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="aea6a2768acab3a6cf00c4f5b9af6e20d" name="aea6a2768acab3a6cf00c4f5b9af6e20d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea6a2768acab3a6cf00c4f5b9af6e20d">&#9670;&#160;</a></span>MR_UniteManyMeshesParams_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_UniteManyMeshesParams_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_UniteManyMeshesParams</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="abaf33831a6cce06066386248fcebe754" name="abaf33831a6cce06066386248fcebe754"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abaf33831a6cce06066386248fcebe754">&#9670;&#160;</a></span>MR_UniteManyMeshesParams_Get_fixDegenerations()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const bool * MR_UniteManyMeshesParams_Get_fixDegenerations </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Try fix degenerations after each boolean step, to prevent boolean failure due to high amount of degenerated faces useful on meshes with many coincident surfaces (useRandomShifts used for same issue) Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1UniteManyMeshesParams.html">MR::UniteManyMeshesParams</a></code> named <code>fixDegenerations</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a7f5c25f2651505ece1869a5f256987ec" name="a7f5c25f2651505ece1869a5f256987ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f5c25f2651505ece1869a5f256987ec">&#9670;&#160;</a></span>MR_UniteManyMeshesParams_Get_forceCut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const bool * MR_UniteManyMeshesParams_Get_forceCut </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>If this option is enabled boolean will try to cut meshes even if there are self-intersections in intersecting area it might work in some cases, but in general it might prevent fast error report and lead to other errors along the way </p><dl class="section warning"><dt>Warning</dt><dd>not recommended in most cases Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1UniteManyMeshesParams.html">MR::UniteManyMeshesParams</a></code> named <code>forceCut</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </dd></dl>
+
+</div>
+</div>
+<a id="a0617a974f50a8dc4b23565863e781a2c" name="a0617a974f50a8dc4b23565863e781a2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0617a974f50a8dc4b23565863e781a2c">&#9670;&#160;</a></span>MR_UniteManyMeshesParams_Get_maxAllowedError()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const float * MR_UniteManyMeshesParams_Get_maxAllowedError </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Max allowed random shifts in each direction, and max allowed deviation after degeneration fixing not used if both flags (useRandomShifts,fixDegenerations) are false Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1UniteManyMeshesParams.html">MR::UniteManyMeshesParams</a></code> named <code>maxAllowedError</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a4f205153ad98413752624545ea12622c" name="a4f205153ad98413752624545ea12622c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f205153ad98413752624545ea12622c">&#9670;&#160;</a></span>MR_UniteManyMeshesParams_Get_mergeOnFail()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const bool * MR_UniteManyMeshesParams_Get_mergeOnFail </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>If set - merges meshes instead of booleaning it if boolean operation fails Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1UniteManyMeshesParams.html">MR::UniteManyMeshesParams</a></code> named <code>mergeOnFail</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ade5e7a8333f3b493b6ecd5e0de810bea" name="ade5e7a8333f3b493b6ecd5e0de810bea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade5e7a8333f3b493b6ecd5e0de810bea">&#9670;&#160;</a></span>MR_UniteManyMeshesParams_Get_nestedComponentsMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#acfde5ee8f62ba3de783e8f63282a683f">MR_NestedComponenetsMode</a> * MR_UniteManyMeshesParams_Get_nestedComponentsMode </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>By default function separate nested meshes and remove them, just like union operation should do read comment of NestedComponenetsMode enum for more information Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1UniteManyMeshesParams.html">MR::UniteManyMeshesParams</a></code> named <code>nestedComponentsMode</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="af72e4f9ed5825f5341a675e70e72bc45" name="af72e4f9ed5825f5341a675e70e72bc45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af72e4f9ed5825f5341a675e70e72bc45">&#9670;&#160;</a></span>MR_UniteManyMeshesParams_Get_newFaces()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *const  * MR_UniteManyMeshesParams_Get_newFaces </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>If set, the bitset will store new faces created by boolean operations Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1UniteManyMeshesParams.html">MR::UniteManyMeshesParams</a></code> named <code>newFaces</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a17a85aa62b4e0013af638f2d511effe1" name="a17a85aa62b4e0013af638f2d511effe1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17a85aa62b4e0013af638f2d511effe1">&#9670;&#160;</a></span>MR_UniteManyMeshesParams_Get_progressCb()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> * MR_UniteManyMeshesParams_Get_progressCb </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1UniteManyMeshesParams.html">MR::UniteManyMeshesParams</a></code> named <code>progressCb</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a43c5748c8daea1c6a57a040a4742842d" name="a43c5748c8daea1c6a57a040a4742842d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43c5748c8daea1c6a57a040a4742842d">&#9670;&#160;</a></span>MR_UniteManyMeshesParams_Get_randomShiftsSeed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const uint32_t * MR_UniteManyMeshesParams_Get_randomShiftsSeed </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Seed that is used for random shifts Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1UniteManyMeshesParams.html">MR::UniteManyMeshesParams</a></code> named <code>randomShiftsSeed</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a815aeec03d41ba8646fcbdac6c9a7bb9" name="a815aeec03d41ba8646fcbdac6c9a7bb9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a815aeec03d41ba8646fcbdac6c9a7bb9">&#9670;&#160;</a></span>MR_UniteManyMeshesParams_Get_useRandomShifts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const bool * MR_UniteManyMeshesParams_Get_useRandomShifts </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Apply random shift to each mesh, to prevent degenerations on coincident surfaces Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1UniteManyMeshesParams.html">MR::UniteManyMeshesParams</a></code> named <code>useRandomShifts</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a1504abd5af5b5a33f63671af7a788996" name="a1504abd5af5b5a33f63671af7a788996"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1504abd5af5b5a33f63671af7a788996">&#9670;&#160;</a></span>MR_UniteManyMeshesParams_GetMutable_fixDegenerations()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool * MR_UniteManyMeshesParams_GetMutable_fixDegenerations </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Try fix degenerations after each boolean step, to prevent boolean failure due to high amount of degenerated faces useful on meshes with many coincident surfaces (useRandomShifts used for same issue) Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1UniteManyMeshesParams.html">MR::UniteManyMeshesParams</a></code> named <code>fixDegenerations</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a582895e6bacbdc68c33fadd71312aa05" name="a582895e6bacbdc68c33fadd71312aa05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a582895e6bacbdc68c33fadd71312aa05">&#9670;&#160;</a></span>MR_UniteManyMeshesParams_GetMutable_forceCut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool * MR_UniteManyMeshesParams_GetMutable_forceCut </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>If this option is enabled boolean will try to cut meshes even if there are self-intersections in intersecting area it might work in some cases, but in general it might prevent fast error report and lead to other errors along the way </p><dl class="section warning"><dt>Warning</dt><dd>not recommended in most cases Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1UniteManyMeshesParams.html">MR::UniteManyMeshesParams</a></code> named <code>forceCut</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </dd></dl>
+
+</div>
+</div>
+<a id="a9168d43d84ac114dcdf6bf405b0c9232" name="a9168d43d84ac114dcdf6bf405b0c9232"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9168d43d84ac114dcdf6bf405b0c9232">&#9670;&#160;</a></span>MR_UniteManyMeshesParams_GetMutable_maxAllowedError()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API float * MR_UniteManyMeshesParams_GetMutable_maxAllowedError </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Max allowed random shifts in each direction, and max allowed deviation after degeneration fixing not used if both flags (useRandomShifts,fixDegenerations) are false Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1UniteManyMeshesParams.html">MR::UniteManyMeshesParams</a></code> named <code>maxAllowedError</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a56184079cfc91b2ef085c1163385634e" name="a56184079cfc91b2ef085c1163385634e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56184079cfc91b2ef085c1163385634e">&#9670;&#160;</a></span>MR_UniteManyMeshesParams_GetMutable_mergeOnFail()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool * MR_UniteManyMeshesParams_GetMutable_mergeOnFail </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>If set - merges meshes instead of booleaning it if boolean operation fails Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1UniteManyMeshesParams.html">MR::UniteManyMeshesParams</a></code> named <code>mergeOnFail</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ab9918bbfb181a8c73974a959291c4743" name="ab9918bbfb181a8c73974a959291c4743"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9918bbfb181a8c73974a959291c4743">&#9670;&#160;</a></span>MR_UniteManyMeshesParams_GetMutable_nestedComponentsMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#acfde5ee8f62ba3de783e8f63282a683f">MR_NestedComponenetsMode</a> * MR_UniteManyMeshesParams_GetMutable_nestedComponentsMode </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>By default function separate nested meshes and remove them, just like union operation should do read comment of NestedComponenetsMode enum for more information Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1UniteManyMeshesParams.html">MR::UniteManyMeshesParams</a></code> named <code>nestedComponentsMode</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a90512e36c0f8188183949f30d298d6be" name="a90512e36c0f8188183949f30d298d6be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90512e36c0f8188183949f30d298d6be">&#9670;&#160;</a></span>MR_UniteManyMeshesParams_GetMutable_newFaces()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> ** MR_UniteManyMeshesParams_GetMutable_newFaces </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>If set, the bitset will store new faces created by boolean operations Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1UniteManyMeshesParams.html">MR::UniteManyMeshesParams</a></code> named <code>newFaces</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a93c8e78713f0a6edbe3badbeaa4ae39c" name="a93c8e78713f0a6edbe3badbeaa4ae39c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93c8e78713f0a6edbe3badbeaa4ae39c">&#9670;&#160;</a></span>MR_UniteManyMeshesParams_GetMutable_progressCb()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> * MR_UniteManyMeshesParams_GetMutable_progressCb </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1UniteManyMeshesParams.html">MR::UniteManyMeshesParams</a></code> named <code>progressCb</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a9cd81de979cc8efebbe64a15e2a517f2" name="a9cd81de979cc8efebbe64a15e2a517f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9cd81de979cc8efebbe64a15e2a517f2">&#9670;&#160;</a></span>MR_UniteManyMeshesParams_GetMutable_randomShiftsSeed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API uint32_t * MR_UniteManyMeshesParams_GetMutable_randomShiftsSeed </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Seed that is used for random shifts Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1UniteManyMeshesParams.html">MR::UniteManyMeshesParams</a></code> named <code>randomShiftsSeed</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a202072a113d7b995762e70912bc88b60" name="a202072a113d7b995762e70912bc88b60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a202072a113d7b995762e70912bc88b60">&#9670;&#160;</a></span>MR_UniteManyMeshesParams_GetMutable_useRandomShifts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool * MR_UniteManyMeshesParams_GetMutable_useRandomShifts </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Apply random shift to each mesh, to prevent degenerations on coincident surfaces Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1UniteManyMeshesParams.html">MR::UniteManyMeshesParams</a></code> named <code>useRandomShifts</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a2c7233bf8812cb4af5412dcd22e6ac60" name="a2c7233bf8812cb4af5412dcd22e6ac60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c7233bf8812cb4af5412dcd22e6ac60">&#9670;&#160;</a></span>MR_UniteManyMeshesParams_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> * MR_UniteManyMeshesParams_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a963ca5e79de4f0122e2ec63db134d238" name="a963ca5e79de4f0122e2ec63db134d238"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a963ca5e79de4f0122e2ec63db134d238">&#9670;&#160;</a></span>MR_UniteManyMeshesParams_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> * MR_UniteManyMeshesParams_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a6c4a9a452fac99be5f360a11fca89d96" name="a6c4a9a452fac99be5f360a11fca89d96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c4a9a452fac99be5f360a11fca89d96">&#9670;&#160;</a></span>MR_UniteManyMeshesParams_Set_fixDegenerations()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_UniteManyMeshesParams_Set_fixDegenerations </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Try fix degenerations after each boolean step, to prevent boolean failure due to high amount of degenerated faces useful on meshes with many coincident surfaces (useRandomShifts used for same issue) Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1UniteManyMeshesParams.html">MR::UniteManyMeshesParams</a></code> named <code>fixDegenerations</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a1b4a1d176cfc6acee41c4dd6291fc068" name="a1b4a1d176cfc6acee41c4dd6291fc068"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b4a1d176cfc6acee41c4dd6291fc068">&#9670;&#160;</a></span>MR_UniteManyMeshesParams_Set_forceCut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_UniteManyMeshesParams_Set_forceCut </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>If this option is enabled boolean will try to cut meshes even if there are self-intersections in intersecting area it might work in some cases, but in general it might prevent fast error report and lead to other errors along the way </p><dl class="section warning"><dt>Warning</dt><dd>not recommended in most cases Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1UniteManyMeshesParams.html">MR::UniteManyMeshesParams</a></code> named <code>forceCut</code>. Parameter <code>_this</code> can not be null. </dd></dl>
+
+</div>
+</div>
+<a id="aaffbbf139f639e5dd671ab65d7cb37d4" name="aaffbbf139f639e5dd671ab65d7cb37d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaffbbf139f639e5dd671ab65d7cb37d4">&#9670;&#160;</a></span>MR_UniteManyMeshesParams_Set_maxAllowedError()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_UniteManyMeshesParams_Set_maxAllowedError </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Max allowed random shifts in each direction, and max allowed deviation after degeneration fixing not used if both flags (useRandomShifts,fixDegenerations) are false Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1UniteManyMeshesParams.html">MR::UniteManyMeshesParams</a></code> named <code>maxAllowedError</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a83a923a10580b9a067b3125e4007bdcd" name="a83a923a10580b9a067b3125e4007bdcd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83a923a10580b9a067b3125e4007bdcd">&#9670;&#160;</a></span>MR_UniteManyMeshesParams_Set_mergeOnFail()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_UniteManyMeshesParams_Set_mergeOnFail </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>If set - merges meshes instead of booleaning it if boolean operation fails Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1UniteManyMeshesParams.html">MR::UniteManyMeshesParams</a></code> named <code>mergeOnFail</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a765535345779f67b4492757b3d613d57" name="a765535345779f67b4492757b3d613d57"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a765535345779f67b4492757b3d613d57">&#9670;&#160;</a></span>MR_UniteManyMeshesParams_Set_nestedComponentsMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_UniteManyMeshesParams_Set_nestedComponentsMode </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#acfde5ee8f62ba3de783e8f63282a683f">MR_NestedComponenetsMode</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>By default function separate nested meshes and remove them, just like union operation should do read comment of NestedComponenetsMode enum for more information Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1UniteManyMeshesParams.html">MR::UniteManyMeshesParams</a></code> named <code>nestedComponentsMode</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="afbcc59689b65300b513db258ed8cddbc" name="afbcc59689b65300b513db258ed8cddbc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afbcc59689b65300b513db258ed8cddbc">&#9670;&#160;</a></span>MR_UniteManyMeshesParams_Set_newFaces()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_UniteManyMeshesParams_Set_newFaces </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>If set, the bitset will store new faces created by boolean operations Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1UniteManyMeshesParams.html">MR::UniteManyMeshesParams</a></code> named <code>newFaces</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a9014cb316d4a994f59f7ea04e1257248" name="a9014cb316d4a994f59f7ea04e1257248"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9014cb316d4a994f59f7ea04e1257248">&#9670;&#160;</a></span>MR_UniteManyMeshesParams_Set_progressCb()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_UniteManyMeshesParams_Set_progressCb </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1UniteManyMeshesParams.html">MR::UniteManyMeshesParams</a></code> named <code>progressCb</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a3056d3f5d5596c05f94f54d6a297f5b1" name="a3056d3f5d5596c05f94f54d6a297f5b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3056d3f5d5596c05f94f54d6a297f5b1">&#9670;&#160;</a></span>MR_UniteManyMeshesParams_Set_randomShiftsSeed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_UniteManyMeshesParams_Set_randomShiftsSeed </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Seed that is used for random shifts Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1UniteManyMeshesParams.html">MR::UniteManyMeshesParams</a></code> named <code>randomShiftsSeed</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a811f8a6529787d033b5897f8bd4995f9" name="a811f8a6529787d033b5897f8bd4995f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a811f8a6529787d033b5897f8bd4995f9">&#9670;&#160;</a></span>MR_UniteManyMeshesParams_Set_useRandomShifts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_UniteManyMeshesParams_Set_useRandomShifts </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Apply random shift to each mesh, to prevent degenerations on coincident surfaces Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1UniteManyMeshesParams.html">MR::UniteManyMeshesParams</a></code> named <code>useRandomShifts</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_87d38852fc01aff5f853718c8d8b5cb2.html">Cbindings</a></li><li class="navelem"><a class="el" href="dir_cb83f9b98dc6f67356ff76bcc17f4f67.html">MRCMesh</a></li><li class="navelem"><a class="el" href="MRUniteManyMeshes_8h.html">MRUniteManyMeshes.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

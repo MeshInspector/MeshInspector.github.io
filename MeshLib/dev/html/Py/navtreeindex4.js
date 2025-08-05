@@ -1,5 +1,6 @@
 var NAVTREEINDEX4 =
 {
+"classmrmeshpy_1_1BaseRenderParams.html#a06a24f78b01ee76af109eec7fdd8a6e6":[6,1,1,0,1,36,2],
 "classmrmeshpy_1_1BaseRenderParams.html#a3151a01c38d5c2e60e7030dc94614922":[6,1,0,0,2,36,3],
 "classmrmeshpy_1_1BaseRenderParams.html#a3151a01c38d5c2e60e7030dc94614922":[6,1,1,0,1,36,3],
 "classmrmeshpy_1_1BaseRenderParams.html#a44585bc0b0c20ddbf9fb174fe454473c":[6,1,0,0,2,36,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX4 =
 "classmrmeshpy_1_1BitSet.html#ad1d43b5793a3dce9511fd445d695aa83":[6,1,1,0,1,43,15],
 "classmrmeshpy_1_1BitSet.html#ad25bdd5a49f4648994cef1ae56864c3f":[6,1,0,0,2,43,25],
 "classmrmeshpy_1_1BitSet.html#ad25bdd5a49f4648994cef1ae56864c3f":[6,1,1,0,1,43,25],
-"classmrmeshpy_1_1BitSet.html#ad26de1c874d61f87b11ce29769fd8658":[6,1,0,0,2,43,29],
-"classmrmeshpy_1_1BitSet.html#ad26de1c874d61f87b11ce29769fd8658":[6,1,1,0,1,43,29]
+"classmrmeshpy_1_1BitSet.html#ad26de1c874d61f87b11ce29769fd8658":[6,1,0,0,2,43,29]
 };

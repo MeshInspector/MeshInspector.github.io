@@ -1,0 +1,358 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: MRDirMax.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('MRDirMax_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">MRDirMax.h File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="MREnums_8h_source.html">MRCMesh/MREnums.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="MRId_8h_source.html">MRCMesh/MRId.h</a>&gt;</code><br />
+<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+</div>
+<p><a href="MRDirMax_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:aaa96ed5b79deaa81e7e5e848584a7b6a" id="r_aaa96ed5b79deaa81e7e5e848584a7b6a"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAABBTreePoints_8h.html#aaa96ed5b79deaa81e7e5e848584a7b6a">MR_AABBTreePoints</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa96ed5b79deaa81e7e5e848584a7b6a">MR_AABBTreePoints</a></td></tr>
+<tr class="separator:aaa96ed5b79deaa81e7e5e848584a7b6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31b172f68efca6438544d56eb86d6f40" id="r_a31b172f68efca6438544d56eb86d6f40"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a></td></tr>
+<tr class="separator:a31b172f68efca6438544d56eb86d6f40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1ba30a3fa8a895c1f72e182f3e73e17" id="r_af1ba30a3fa8a895c1f72e182f3e73e17"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a></td></tr>
+<tr class="separator:af1ba30a3fa8a895c1f72e182f3e73e17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1278957cdc2df07940e90426e9a58809" id="r_a1278957cdc2df07940e90426e9a58809"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a1278957cdc2df07940e90426e9a58809">MR_MeshVertPart</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1278957cdc2df07940e90426e9a58809">MR_MeshVertPart</a></td></tr>
+<tr class="separator:a1278957cdc2df07940e90426e9a58809"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa319738c95f0bbde075b7ef777cf2665" id="r_aa319738c95f0bbde075b7ef777cf2665"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a></td></tr>
+<tr class="separator:aa319738c95f0bbde075b7ef777cf2665"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac19d267fe4a2399b21a578c74213dfd2" id="r_ac19d267fe4a2399b21a578c74213dfd2"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAABBTreePolyline_8h.html#ac19d267fe4a2399b21a578c74213dfd2">MR_Polyline2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac19d267fe4a2399b21a578c74213dfd2">MR_Polyline2</a></td></tr>
+<tr class="separator:ac19d267fe4a2399b21a578c74213dfd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6075b2f3b7dec92f779f4f58c28f7e1b" id="r_a6075b2f3b7dec92f779f4f58c28f7e1b"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAABBTreePolyline_8h.html#a6075b2f3b7dec92f779f4f58c28f7e1b">MR_Polyline3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6075b2f3b7dec92f779f4f58c28f7e1b">MR_Polyline3</a></td></tr>
+<tr class="separator:a6075b2f3b7dec92f779f4f58c28f7e1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72ab0be0b71b29e9f310e7526a8cc57b" id="r_a72ab0be0b71b29e9f310e7526a8cc57b"><td class="memItemLeft" align="right" valign="top">typedef struct MR_Vector2f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72ab0be0b71b29e9f310e7526a8cc57b">MR_Vector2f</a></td></tr>
+<tr class="separator:a72ab0be0b71b29e9f310e7526a8cc57b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bf133eda1ec95be202b77c33412bc8e" id="r_a6bf133eda1ec95be202b77c33412bc8e"><td class="memItemLeft" align="right" valign="top">typedef struct MR_Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6bf133eda1ec95be202b77c33412bc8e">MR_Vector3f</a></td></tr>
+<tr class="separator:a6bf133eda1ec95be202b77c33412bc8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3df50e76b078a1626dd994e1df803764" id="r_a3df50e76b078a1626dd994e1df803764"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a></td></tr>
+<tr class="separator:a3df50e76b078a1626dd994e1df803764"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ga92aa167ce1abc133727f982f88004c10" id="r_ga92aa167ce1abc133727f982f88004c10"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__VertId.html">MR_VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga92aa167ce1abc133727f982f88004c10">MR_findDirMax_3_const_MR_Vector3f_ref_MR_Mesh</a> (const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *dir, const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *m, const <a class="el" href="MREnums_8h.html#aa1d2c713a5636fa77f6767aec61a0be5">MR_UseAABBTree</a> *u)</td></tr>
+<tr class="separator:ga92aa167ce1abc133727f982f88004c10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7a606cba9ced57e79e98fbc990d9a1ca" id="r_ga7a606cba9ced57e79e98fbc990d9a1ca"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__VertId.html">MR_VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga7a606cba9ced57e79e98fbc990d9a1ca">MR_findDirMax_3_const_MR_Vector3f_ref_MR_MeshPart</a> (const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *dir, const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp, const <a class="el" href="MREnums_8h.html#aa1d2c713a5636fa77f6767aec61a0be5">MR_UseAABBTree</a> *u)</td></tr>
+<tr class="separator:ga7a606cba9ced57e79e98fbc990d9a1ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad1386c535ef8c518b6c72fc4bd6fad77" id="r_gad1386c535ef8c518b6c72fc4bd6fad77"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__VertId.html">MR_VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gad1386c535ef8c518b6c72fc4bd6fad77">MR_findDirMax_3_const_MR_Vector3f_ref_MR_MeshVertPart</a> (const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *dir, const <a class="el" href="#a1278957cdc2df07940e90426e9a58809">MR_MeshVertPart</a> *mp, const <a class="el" href="MREnums_8h.html#aa1d2c713a5636fa77f6767aec61a0be5">MR_UseAABBTree</a> *u)</td></tr>
+<tr class="separator:gad1386c535ef8c518b6c72fc4bd6fad77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0865370b8dd8301d23b8a84ddbb288e2" id="r_ga0865370b8dd8301d23b8a84ddbb288e2"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__VertId.html">MR_VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga0865370b8dd8301d23b8a84ddbb288e2">MR_findDirMax_3_const_MR_Vector3f_ref_MR_Polyline3</a> (const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *dir, const <a class="el" href="MRAABBTreePolyline_8h.html#a6075b2f3b7dec92f779f4f58c28f7e1b">MR_Polyline3</a> *polyline, const <a class="el" href="MREnums_8h.html#aa1d2c713a5636fa77f6767aec61a0be5">MR_UseAABBTree</a> *u)</td></tr>
+<tr class="separator:ga0865370b8dd8301d23b8a84ddbb288e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf1cedbb2654f6556c99477e561e7f4cb" id="r_gaf1cedbb2654f6556c99477e561e7f4cb"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__VertId.html">MR_VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gaf1cedbb2654f6556c99477e561e7f4cb">MR_findDirMax_3_const_MR_Vector2f_ref</a> (const <a class="el" href="structMR__Vector2f.html">MR_Vector2f</a> *dir, const <a class="el" href="MRAABBTreePolyline_8h.html#ac19d267fe4a2399b21a578c74213dfd2">MR_Polyline2</a> *polyline, const <a class="el" href="MREnums_8h.html#aa1d2c713a5636fa77f6767aec61a0be5">MR_UseAABBTree</a> *u)</td></tr>
+<tr class="separator:gaf1cedbb2654f6556c99477e561e7f4cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacc6e42413ce4c04b3acda6f1ca01436b" id="r_gacc6e42413ce4c04b3acda6f1ca01436b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__VertId.html">MR_VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gacc6e42413ce4c04b3acda6f1ca01436b">MR_findDirMax_4</a> (const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *dir, const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *cloud, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *region, const <a class="el" href="MREnums_8h.html#aa1d2c713a5636fa77f6767aec61a0be5">MR_UseAABBTree</a> *u)</td></tr>
+<tr class="separator:gacc6e42413ce4c04b3acda6f1ca01436b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac01653c3fd170aa6e82f509f1cee6c90" id="r_gac01653c3fd170aa6e82f509f1cee6c90"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__VertId.html">MR_VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gac01653c3fd170aa6e82f509f1cee6c90">MR_findDirMax_3_const_MR_Vector3f_ref_MR_AABBTreePoints</a> (const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *dir, const <a class="el" href="MRAABBTreePoints_8h.html#aaa96ed5b79deaa81e7e5e848584a7b6a">MR_AABBTreePoints</a> *tree, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *region)</td></tr>
+<tr class="separator:gac01653c3fd170aa6e82f509f1cee6c90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="aaa96ed5b79deaa81e7e5e848584a7b6a" name="aaa96ed5b79deaa81e7e5e848584a7b6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa96ed5b79deaa81e7e5e848584a7b6a">&#9670;&#160;</a></span>MR_AABBTreePoints</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAABBTreePoints_8h.html#aaa96ed5b79deaa81e7e5e848584a7b6a">MR_AABBTreePoints</a> <a class="el" href="MRAABBTreePoints_8h.html#aaa96ed5b79deaa81e7e5e848584a7b6a">MR_AABBTreePoints</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a31b172f68efca6438544d56eb86d6f40" name="a31b172f68efca6438544d56eb86d6f40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31b172f68efca6438544d56eb86d6f40">&#9670;&#160;</a></span>MR_Mesh</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af1ba30a3fa8a895c1f72e182f3e73e17" name="af1ba30a3fa8a895c1f72e182f3e73e17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1ba30a3fa8a895c1f72e182f3e73e17">&#9670;&#160;</a></span>MR_MeshPart</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1278957cdc2df07940e90426e9a58809" name="a1278957cdc2df07940e90426e9a58809"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1278957cdc2df07940e90426e9a58809">&#9670;&#160;</a></span>MR_MeshVertPart</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a1278957cdc2df07940e90426e9a58809">MR_MeshVertPart</a> <a class="el" href="#a1278957cdc2df07940e90426e9a58809">MR_MeshVertPart</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa319738c95f0bbde075b7ef777cf2665" name="aa319738c95f0bbde075b7ef777cf2665"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa319738c95f0bbde075b7ef777cf2665">&#9670;&#160;</a></span>MR_PointCloud</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac19d267fe4a2399b21a578c74213dfd2" name="ac19d267fe4a2399b21a578c74213dfd2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac19d267fe4a2399b21a578c74213dfd2">&#9670;&#160;</a></span>MR_Polyline2</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAABBTreePolyline_8h.html#ac19d267fe4a2399b21a578c74213dfd2">MR_Polyline2</a> <a class="el" href="MRAABBTreePolyline_8h.html#ac19d267fe4a2399b21a578c74213dfd2">MR_Polyline2</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6075b2f3b7dec92f779f4f58c28f7e1b" name="a6075b2f3b7dec92f779f4f58c28f7e1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6075b2f3b7dec92f779f4f58c28f7e1b">&#9670;&#160;</a></span>MR_Polyline3</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAABBTreePolyline_8h.html#a6075b2f3b7dec92f779f4f58c28f7e1b">MR_Polyline3</a> <a class="el" href="MRAABBTreePolyline_8h.html#a6075b2f3b7dec92f779f4f58c28f7e1b">MR_Polyline3</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a72ab0be0b71b29e9f310e7526a8cc57b" name="a72ab0be0b71b29e9f310e7526a8cc57b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72ab0be0b71b29e9f310e7526a8cc57b">&#9670;&#160;</a></span>MR_Vector2f</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct MR_Vector2f MR_Vector2f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6bf133eda1ec95be202b77c33412bc8e" name="a6bf133eda1ec95be202b77c33412bc8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bf133eda1ec95be202b77c33412bc8e">&#9670;&#160;</a></span>MR_Vector3f</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct MR_Vector3f MR_Vector3f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3df50e76b078a1626dd994e1df803764" name="a3df50e76b078a1626dd994e1df803764"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3df50e76b078a1626dd994e1df803764">&#9670;&#160;</a></span>MR_VertBitSet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_87d38852fc01aff5f853718c8d8b5cb2.html">Cbindings</a></li><li class="navelem"><a class="el" href="dir_cb83f9b98dc6f67356ff76bcc17f4f67.html">MRCMesh</a></li><li class="navelem"><a class="el" href="MRDirMax_8h.html">MRDirMax.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

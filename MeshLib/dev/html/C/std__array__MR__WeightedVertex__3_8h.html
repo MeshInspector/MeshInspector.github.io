@@ -1,0 +1,485 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: std_array_MR_WeightedVertex_3.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('std__array__MR__WeightedVertex__3_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">std_array_MR_WeightedVertex_3.h File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
+</div>
+<p><a href="std__array__MR__WeightedVertex__3_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a952541534f8c2ed5464a4cd0e9dd22e1" id="r_a952541534f8c2ed5464a4cd0e9dd22e1"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRMeshTriPoint_8h.html#a952541534f8c2ed5464a4cd0e9dd22e1">MR_WeightedVertex</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a952541534f8c2ed5464a4cd0e9dd22e1">MR_WeightedVertex</a></td></tr>
+<tr class="separator:a952541534f8c2ed5464a4cd0e9dd22e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acee251444e864a39820436d6262c2534" id="r_acee251444e864a39820436d6262c2534"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRMeshTriPoint_8h.html#acee251444e864a39820436d6262c2534">MR_std_array_MR_WeightedVertex_3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acee251444e864a39820436d6262c2534">MR_std_array_MR_WeightedVertex_3</a></td></tr>
+<tr class="separator:acee251444e864a39820436d6262c2534"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a9106b5c59c8a98eec5f959f50da3fef2" id="r_a9106b5c59c8a98eec5f959f50da3fef2"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMeshTriPoint_8h.html#acee251444e864a39820436d6262c2534">MR_std_array_MR_WeightedVertex_3</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9106b5c59c8a98eec5f959f50da3fef2">MR_std_array_MR_WeightedVertex_3_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a9106b5c59c8a98eec5f959f50da3fef2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeaf23550d419731ddba845d26b2bb713" id="r_aeaf23550d419731ddba845d26b2bb713"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMeshTriPoint_8h.html#acee251444e864a39820436d6262c2534">MR_std_array_MR_WeightedVertex_3</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeaf23550d419731ddba845d26b2bb713">MR_std_array_MR_WeightedVertex_3_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:aeaf23550d419731ddba845d26b2bb713"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38b8a4ddcc8df0d34e27f6c9b38a61c2" id="r_a38b8a4ddcc8df0d34e27f6c9b38a61c2"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMeshTriPoint_8h.html#acee251444e864a39820436d6262c2534">MR_std_array_MR_WeightedVertex_3</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38b8a4ddcc8df0d34e27f6c9b38a61c2">MR_std_array_MR_WeightedVertex_3_ConstructFromAnother</a> (const <a class="el" href="MRMeshTriPoint_8h.html#acee251444e864a39820436d6262c2534">MR_std_array_MR_WeightedVertex_3</a> *other)</td></tr>
+<tr class="separator:a38b8a4ddcc8df0d34e27f6c9b38a61c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2204e202bcf14a787aed541b13f74de" id="r_af2204e202bcf14a787aed541b13f74de"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af2204e202bcf14a787aed541b13f74de">MR_std_array_MR_WeightedVertex_3_AssignFromAnother</a> (<a class="el" href="MRMeshTriPoint_8h.html#acee251444e864a39820436d6262c2534">MR_std_array_MR_WeightedVertex_3</a> *_this, const <a class="el" href="MRMeshTriPoint_8h.html#acee251444e864a39820436d6262c2534">MR_std_array_MR_WeightedVertex_3</a> *other)</td></tr>
+<tr class="separator:af2204e202bcf14a787aed541b13f74de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fe90e3c873a4d38252c8d9da882ef5e" id="r_a0fe90e3c873a4d38252c8d9da882ef5e"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0fe90e3c873a4d38252c8d9da882ef5e">MR_std_array_MR_WeightedVertex_3_Destroy</a> (const <a class="el" href="MRMeshTriPoint_8h.html#acee251444e864a39820436d6262c2534">MR_std_array_MR_WeightedVertex_3</a> *_this)</td></tr>
+<tr class="memdesc:a0fe90e3c873a4d38252c8d9da882ef5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_std_array_MR_WeightedVertex_3</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a0fe90e3c873a4d38252c8d9da882ef5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac36fd16b4e29a4f756f3ab8a587fb6a1" id="r_ac36fd16b4e29a4f756f3ab8a587fb6a1"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac36fd16b4e29a4f756f3ab8a587fb6a1">MR_std_array_MR_WeightedVertex_3_DestroyArray</a> (const <a class="el" href="MRMeshTriPoint_8h.html#acee251444e864a39820436d6262c2534">MR_std_array_MR_WeightedVertex_3</a> *_this)</td></tr>
+<tr class="memdesc:ac36fd16b4e29a4f756f3ab8a587fb6a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_std_array_MR_WeightedVertex_3</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ac36fd16b4e29a4f756f3ab8a587fb6a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a735d933c0f9fba98daa84873370d16c9" id="r_a735d933c0f9fba98daa84873370d16c9"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRMeshTriPoint_8h.html#acee251444e864a39820436d6262c2534">MR_std_array_MR_WeightedVertex_3</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a735d933c0f9fba98daa84873370d16c9">MR_std_array_MR_WeightedVertex_3_OffsetPtr</a> (const <a class="el" href="MRMeshTriPoint_8h.html#acee251444e864a39820436d6262c2534">MR_std_array_MR_WeightedVertex_3</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a735d933c0f9fba98daa84873370d16c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a735d933c0f9fba98daa84873370d16c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee405c086730bffc515c7b063ec68946" id="r_aee405c086730bffc515c7b063ec68946"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMeshTriPoint_8h.html#acee251444e864a39820436d6262c2534">MR_std_array_MR_WeightedVertex_3</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee405c086730bffc515c7b063ec68946">MR_std_array_MR_WeightedVertex_3_OffsetMutablePtr</a> (<a class="el" href="MRMeshTriPoint_8h.html#acee251444e864a39820436d6262c2534">MR_std_array_MR_WeightedVertex_3</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:aee405c086730bffc515c7b063ec68946"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:aee405c086730bffc515c7b063ec68946"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8427f4ddc3f025f1706628a7f712cfb1" id="r_a8427f4ddc3f025f1706628a7f712cfb1"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRMeshTriPoint_8h.html#a952541534f8c2ed5464a4cd0e9dd22e1">MR_WeightedVertex</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8427f4ddc3f025f1706628a7f712cfb1">MR_std_array_MR_WeightedVertex_3_At</a> (const <a class="el" href="MRMeshTriPoint_8h.html#acee251444e864a39820436d6262c2534">MR_std_array_MR_WeightedVertex_3</a> *_this, size_t i)</td></tr>
+<tr class="separator:a8427f4ddc3f025f1706628a7f712cfb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78e7c4420a5d650d61c80ac9f28f7a12" id="r_a78e7c4420a5d650d61c80ac9f28f7a12"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMeshTriPoint_8h.html#a952541534f8c2ed5464a4cd0e9dd22e1">MR_WeightedVertex</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78e7c4420a5d650d61c80ac9f28f7a12">MR_std_array_MR_WeightedVertex_3_MutableAt</a> (<a class="el" href="MRMeshTriPoint_8h.html#acee251444e864a39820436d6262c2534">MR_std_array_MR_WeightedVertex_3</a> *_this, size_t i)</td></tr>
+<tr class="separator:a78e7c4420a5d650d61c80ac9f28f7a12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbcea0d28012334cf1a60388886ecb23" id="r_adbcea0d28012334cf1a60388886ecb23"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRMeshTriPoint_8h.html#a952541534f8c2ed5464a4cd0e9dd22e1">MR_WeightedVertex</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adbcea0d28012334cf1a60388886ecb23">MR_std_array_MR_WeightedVertex_3_Data</a> (const <a class="el" href="MRMeshTriPoint_8h.html#acee251444e864a39820436d6262c2534">MR_std_array_MR_WeightedVertex_3</a> *_this)</td></tr>
+<tr class="separator:adbcea0d28012334cf1a60388886ecb23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a656a82a190cef3d3241d10290fd6fdb6" id="r_a656a82a190cef3d3241d10290fd6fdb6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMeshTriPoint_8h.html#a952541534f8c2ed5464a4cd0e9dd22e1">MR_WeightedVertex</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a656a82a190cef3d3241d10290fd6fdb6">MR_std_array_MR_WeightedVertex_3_MutableData</a> (<a class="el" href="MRMeshTriPoint_8h.html#acee251444e864a39820436d6262c2534">MR_std_array_MR_WeightedVertex_3</a> *_this)</td></tr>
+<tr class="separator:a656a82a190cef3d3241d10290fd6fdb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="acee251444e864a39820436d6262c2534" name="acee251444e864a39820436d6262c2534"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acee251444e864a39820436d6262c2534">&#9670;&#160;</a></span>MR_std_array_MR_WeightedVertex_3</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRMeshTriPoint_8h.html#acee251444e864a39820436d6262c2534">MR_std_array_MR_WeightedVertex_3</a> <a class="el" href="MRMeshTriPoint_8h.html#acee251444e864a39820436d6262c2534">MR_std_array_MR_WeightedVertex_3</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>A fixed-size array of <code><a class="elRef" href="../Cpp/structMR_1_1WeightedVertex.html">MR::WeightedVertex</a></code> of size 3. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code>, (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="a952541534f8c2ed5464a4cd0e9dd22e1" name="a952541534f8c2ed5464a4cd0e9dd22e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a952541534f8c2ed5464a4cd0e9dd22e1">&#9670;&#160;</a></span>MR_WeightedVertex</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRMeshTriPoint_8h.html#a952541534f8c2ed5464a4cd0e9dd22e1">MR_WeightedVertex</a> <a class="el" href="MRMeshTriPoint_8h.html#a952541534f8c2ed5464a4cd0e9dd22e1">MR_WeightedVertex</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="af2204e202bcf14a787aed541b13f74de" name="af2204e202bcf14a787aed541b13f74de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2204e202bcf14a787aed541b13f74de">&#9670;&#160;</a></span>MR_std_array_MR_WeightedVertex_3_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_array_MR_WeightedVertex_3_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeshTriPoint_8h.html#acee251444e864a39820436d6262c2534">MR_std_array_MR_WeightedVertex_3</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRMeshTriPoint_8h.html#acee251444e864a39820436d6262c2534">MR_std_array_MR_WeightedVertex_3</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <code>_this</code> can not be null. Parameter <code>other</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a8427f4ddc3f025f1706628a7f712cfb1" name="a8427f4ddc3f025f1706628a7f712cfb1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8427f4ddc3f025f1706628a7f712cfb1">&#9670;&#160;</a></span>MR_std_array_MR_WeightedVertex_3_At()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRMeshTriPoint_8h.html#a952541534f8c2ed5464a4cd0e9dd22e1">MR_WeightedVertex</a> * MR_std_array_MR_WeightedVertex_3_At </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeshTriPoint_8h.html#acee251444e864a39820436d6262c2534">MR_std_array_MR_WeightedVertex_3</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The element at a specific index, read-only. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a38b8a4ddcc8df0d34e27f6c9b38a61c2" name="a38b8a4ddcc8df0d34e27f6c9b38a61c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38b8a4ddcc8df0d34e27f6c9b38a61c2">&#9670;&#160;</a></span>MR_std_array_MR_WeightedVertex_3_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRMeshTriPoint_8h.html#acee251444e864a39820436d6262c2534">MR_std_array_MR_WeightedVertex_3</a> * MR_std_array_MR_WeightedVertex_3_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeshTriPoint_8h.html#acee251444e864a39820436d6262c2534">MR_std_array_MR_WeightedVertex_3</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs a copy of another instance. The source remains alive. Parameter <code>other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a0fe90e3c873a4d38252c8d9da882ef5e" title="Destroys a heap-allocated instance of MR_std_array_MR_WeightedVertex_3. Does nothing if the pointer i...">MR_std_array_MR_WeightedVertex_3_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="adbcea0d28012334cf1a60388886ecb23" name="adbcea0d28012334cf1a60388886ecb23"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbcea0d28012334cf1a60388886ecb23">&#9670;&#160;</a></span>MR_std_array_MR_WeightedVertex_3_Data()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRMeshTriPoint_8h.html#a952541534f8c2ed5464a4cd0e9dd22e1">MR_WeightedVertex</a> * MR_std_array_MR_WeightedVertex_3_Data </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeshTriPoint_8h.html#acee251444e864a39820436d6262c2534">MR_std_array_MR_WeightedVertex_3</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to the continuous storage that holds all elements, read-only. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a9106b5c59c8a98eec5f959f50da3fef2" name="a9106b5c59c8a98eec5f959f50da3fef2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9106b5c59c8a98eec5f959f50da3fef2">&#9670;&#160;</a></span>MR_std_array_MR_WeightedVertex_3_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRMeshTriPoint_8h.html#acee251444e864a39820436d6262c2534">MR_std_array_MR_WeightedVertex_3</a> * MR_std_array_MR_WeightedVertex_3_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a0fe90e3c873a4d38252c8d9da882ef5e" title="Destroys a heap-allocated instance of MR_std_array_MR_WeightedVertex_3. Does nothing if the pointer i...">MR_std_array_MR_WeightedVertex_3_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="aeaf23550d419731ddba845d26b2bb713" name="aeaf23550d419731ddba845d26b2bb713"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeaf23550d419731ddba845d26b2bb713">&#9670;&#160;</a></span>MR_std_array_MR_WeightedVertex_3_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRMeshTriPoint_8h.html#acee251444e864a39820436d6262c2534">MR_std_array_MR_WeightedVertex_3</a> * MR_std_array_MR_WeightedVertex_3_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#ac36fd16b4e29a4f756f3ab8a587fb6a1" title="Destroys a heap-allocated array of MR_std_array_MR_WeightedVertex_3. Does nothing if the pointer is n...">MR_std_array_MR_WeightedVertex_3_DestroyArray()</a></code>. Use <code><a class="el" href="#aee405c086730bffc515c7b063ec68946" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_array_MR_WeightedVertex_3_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a735d933c0f9fba98daa84873370d16c9" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_array_MR_WeightedVertex_3_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a0fe90e3c873a4d38252c8d9da882ef5e" name="a0fe90e3c873a4d38252c8d9da882ef5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fe90e3c873a4d38252c8d9da882ef5e">&#9670;&#160;</a></span>MR_std_array_MR_WeightedVertex_3_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_array_MR_WeightedVertex_3_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeshTriPoint_8h.html#acee251444e864a39820436d6262c2534">MR_std_array_MR_WeightedVertex_3</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_std_array_MR_WeightedVertex_3</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="ac36fd16b4e29a4f756f3ab8a587fb6a1" name="ac36fd16b4e29a4f756f3ab8a587fb6a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac36fd16b4e29a4f756f3ab8a587fb6a1">&#9670;&#160;</a></span>MR_std_array_MR_WeightedVertex_3_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_array_MR_WeightedVertex_3_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeshTriPoint_8h.html#acee251444e864a39820436d6262c2534">MR_std_array_MR_WeightedVertex_3</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_std_array_MR_WeightedVertex_3</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a78e7c4420a5d650d61c80ac9f28f7a12" name="a78e7c4420a5d650d61c80ac9f28f7a12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78e7c4420a5d650d61c80ac9f28f7a12">&#9670;&#160;</a></span>MR_std_array_MR_WeightedVertex_3_MutableAt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRMeshTriPoint_8h.html#a952541534f8c2ed5464a4cd0e9dd22e1">MR_WeightedVertex</a> * MR_std_array_MR_WeightedVertex_3_MutableAt </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeshTriPoint_8h.html#acee251444e864a39820436d6262c2534">MR_std_array_MR_WeightedVertex_3</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The element at a specific index, mutable. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a656a82a190cef3d3241d10290fd6fdb6" name="a656a82a190cef3d3241d10290fd6fdb6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a656a82a190cef3d3241d10290fd6fdb6">&#9670;&#160;</a></span>MR_std_array_MR_WeightedVertex_3_MutableData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRMeshTriPoint_8h.html#a952541534f8c2ed5464a4cd0e9dd22e1">MR_WeightedVertex</a> * MR_std_array_MR_WeightedVertex_3_MutableData </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeshTriPoint_8h.html#acee251444e864a39820436d6262c2534">MR_std_array_MR_WeightedVertex_3</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to the continuous storage that holds all elements, mutable. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aee405c086730bffc515c7b063ec68946" name="aee405c086730bffc515c7b063ec68946"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee405c086730bffc515c7b063ec68946">&#9670;&#160;</a></span>MR_std_array_MR_WeightedVertex_3_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRMeshTriPoint_8h.html#acee251444e864a39820436d6262c2534">MR_std_array_MR_WeightedVertex_3</a> * MR_std_array_MR_WeightedVertex_3_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeshTriPoint_8h.html#acee251444e864a39820436d6262c2534">MR_std_array_MR_WeightedVertex_3</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a735d933c0f9fba98daa84873370d16c9" name="a735d933c0f9fba98daa84873370d16c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a735d933c0f9fba98daa84873370d16c9">&#9670;&#160;</a></span>MR_std_array_MR_WeightedVertex_3_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRMeshTriPoint_8h.html#acee251444e864a39820436d6262c2534">MR_std_array_MR_WeightedVertex_3</a> * MR_std_array_MR_WeightedVertex_3_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeshTriPoint_8h.html#acee251444e864a39820436d6262c2534">MR_std_array_MR_WeightedVertex_3</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_87d38852fc01aff5f853718c8d8b5cb2.html">Cbindings</a></li><li class="navelem"><a class="el" href="dir_12d01ef4fa7c7ca18852dd6d7d92a624.html">MRCMisc</a></li><li class="navelem"><a class="el" href="std__array__MR__WeightedVertex__3_8h.html">std_array_MR_WeightedVertex_3.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

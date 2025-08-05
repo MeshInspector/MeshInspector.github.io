@@ -1,0 +1,337 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: MRTriPoint.h Source File</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('MRTriPoint_8h_source.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">MRTriPoint.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="MRTriPoint_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;MRCMisc/exports.h&gt;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;stdbool.h&gt;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;stddef.h&gt;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;stdint.h&gt;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> {</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="MRTriPoint_8h.html#a14f0f26a43ddb92c3fa3c2192008224c">   13</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRBox_8h.html#a14f0f26a43ddb92c3fa3c2192008224c">MR_NoInit</a> <a class="code hl_typedef" href="MRBox_8h.html#a14f0f26a43ddb92c3fa3c2192008224c">MR_NoInit</a>; <span class="comment">// Defined in `#include &lt;MRCMesh/MRMeshFwd.h&gt;`.</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="MRTriPoint_8h.html#aa6b35c703a4572c3ccc120ee82723a66">   14</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="structMR__Vector3d.html">MR_Vector3d</a> <a class="code hl_struct" href="structMR__Vector3d.html">MR_Vector3d</a>; <span class="comment">// Defined in `#include &lt;MRCMesh/MRVector3.h&gt;`.</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="MRTriPoint_8h.html#a6bf133eda1ec95be202b77c33412bc8e">   15</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="structMR__Vector3f.html">MR_Vector3f</a> <a class="code hl_struct" href="structMR__Vector3f.html">MR_Vector3f</a>; <span class="comment">// Defined in `#include &lt;MRCMesh/MRVector3.h&gt;`.</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRMeshTriPoint_8h.html#a9b2681646fc37c10c6deec7f555be88c">MR_TriPointf</a> <a class="code hl_typedef" href="MRMeshTriPoint_8h.html#a9b2681646fc37c10c6deec7f555be88c">MR_TriPointf</a>;</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="keyword">typedef</span> <span class="keyword">struct </span>MR_TriPointd MR_TriPointd;</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="MRTriPoint_8h.html#a367a5a0fdb968ff5f4d33bae22d28d32">   32</a></span>MRC_API <span class="keyword">const</span> <span class="keywordtype">float</span> *<a class="code hl_function" href="MRTriPoint_8h.html#a367a5a0fdb968ff5f4d33bae22d28d32">MR_TriPointf_Get_eps</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="MRTriPoint_8h.html#af27278c10f8f2cef39d54d1f4e7f9773">   38</a></span>MRC_API <span class="keyword">const</span> <span class="keywordtype">float</span> *<a class="code hl_function" href="MRTriPoint_8h.html#af27278c10f8f2cef39d54d1f4e7f9773">MR_TriPointf_Get_a</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRMeshTriPoint_8h.html#a9b2681646fc37c10c6deec7f555be88c">MR_TriPointf</a> *_this);</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="MRTriPoint_8h.html#a10a5392aff749817df207f8cdc8a4b24">   43</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRTriPoint_8h.html#a10a5392aff749817df207f8cdc8a4b24">MR_TriPointf_Set_a</a>(<a class="code hl_typedef" href="MRMeshTriPoint_8h.html#a9b2681646fc37c10c6deec7f555be88c">MR_TriPointf</a> *_this, <span class="keywordtype">float</span> value);</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="MRTriPoint_8h.html#a57edfc82784cf5d4f1aa873e607de2f3">   49</a></span>MRC_API <span class="keywordtype">float</span> *<a class="code hl_function" href="MRTriPoint_8h.html#a57edfc82784cf5d4f1aa873e607de2f3">MR_TriPointf_GetMutable_a</a>(<a class="code hl_typedef" href="MRMeshTriPoint_8h.html#a9b2681646fc37c10c6deec7f555be88c">MR_TriPointf</a> *_this);</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="MRTriPoint_8h.html#a6e7acf5f073dba09485255ac0069976b">   55</a></span>MRC_API <span class="keyword">const</span> <span class="keywordtype">float</span> *<a class="code hl_function" href="MRTriPoint_8h.html#a6e7acf5f073dba09485255ac0069976b">MR_TriPointf_Get_b</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRMeshTriPoint_8h.html#a9b2681646fc37c10c6deec7f555be88c">MR_TriPointf</a> *_this);</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="MRTriPoint_8h.html#a309acadbf96deb255cb1a81af201f56e">   60</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRTriPoint_8h.html#a309acadbf96deb255cb1a81af201f56e">MR_TriPointf_Set_b</a>(<a class="code hl_typedef" href="MRMeshTriPoint_8h.html#a9b2681646fc37c10c6deec7f555be88c">MR_TriPointf</a> *_this, <span class="keywordtype">float</span> value);</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno"><a class="line" href="MRTriPoint_8h.html#a75f108a44387e649c82ccceb30d45c40">   66</a></span>MRC_API <span class="keywordtype">float</span> *<a class="code hl_function" href="MRTriPoint_8h.html#a75f108a44387e649c82ccceb30d45c40">MR_TriPointf_GetMutable_b</a>(<a class="code hl_typedef" href="MRMeshTriPoint_8h.html#a9b2681646fc37c10c6deec7f555be88c">MR_TriPointf</a> *_this);</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno"><a class="line" href="MRTriPoint_8h.html#a29982766aa13d1c581be1b2abbad7e03">   70</a></span>MRC_API <a class="code hl_typedef" href="MRMeshTriPoint_8h.html#a9b2681646fc37c10c6deec7f555be88c">MR_TriPointf</a> *<a class="code hl_function" href="MRTriPoint_8h.html#a29982766aa13d1c581be1b2abbad7e03">MR_TriPointf_DefaultConstruct</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span> </div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno"><a class="line" href="MRTriPoint_8h.html#a3a95bc9908c7c4b6ca106ea04b7ca9af">   75</a></span>MRC_API <a class="code hl_typedef" href="MRMeshTriPoint_8h.html#a9b2681646fc37c10c6deec7f555be88c">MR_TriPointf</a> *<a class="code hl_function" href="MRTriPoint_8h.html#a3a95bc9908c7c4b6ca106ea04b7ca9af">MR_TriPointf_DefaultConstructArray</a>(<span class="keywordtype">size_t</span> num_elems);</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> </div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno"><a class="line" href="MRTriPoint_8h.html#a195466fe5c4a4efc8c7513d7dd365270">   78</a></span>MRC_API <span class="keyword">const</span> <a class="code hl_typedef" href="MRMeshTriPoint_8h.html#a9b2681646fc37c10c6deec7f555be88c">MR_TriPointf</a> *<a class="code hl_function" href="MRTriPoint_8h.html#a195466fe5c4a4efc8c7513d7dd365270">MR_TriPointf_OffsetPtr</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRMeshTriPoint_8h.html#a9b2681646fc37c10c6deec7f555be88c">MR_TriPointf</a> *ptr, ptrdiff_t i);</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span> </div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno"><a class="line" href="MRTriPoint_8h.html#a259dfd84f015eedef9ea4434500ce40d">   81</a></span>MRC_API <a class="code hl_typedef" href="MRMeshTriPoint_8h.html#a9b2681646fc37c10c6deec7f555be88c">MR_TriPointf</a> *<a class="code hl_function" href="MRTriPoint_8h.html#a259dfd84f015eedef9ea4434500ce40d">MR_TriPointf_OffsetMutablePtr</a>(<a class="code hl_typedef" href="MRMeshTriPoint_8h.html#a9b2681646fc37c10c6deec7f555be88c">MR_TriPointf</a> *ptr, ptrdiff_t i);</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span> </div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno"><a class="line" href="MRTriPoint_8h.html#a8e076c644374156b35ff20916817a9ff">   86</a></span>MRC_API <a class="code hl_typedef" href="MRMeshTriPoint_8h.html#a9b2681646fc37c10c6deec7f555be88c">MR_TriPointf</a> *<a class="code hl_function" href="MRTriPoint_8h.html#a8e076c644374156b35ff20916817a9ff">MR_TriPointf_ConstructFromAnother</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRMeshTriPoint_8h.html#a9b2681646fc37c10c6deec7f555be88c">MR_TriPointf</a> *_other);</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span> </div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno"><a class="line" href="MRTriPoint_8h.html#a4e854ec778dc7c5cf2f3fb0984e53f67">   91</a></span>MRC_API <a class="code hl_typedef" href="MRMeshTriPoint_8h.html#a9b2681646fc37c10c6deec7f555be88c">MR_TriPointf</a> *<a class="code hl_function" href="MRTriPoint_8h.html#a4e854ec778dc7c5cf2f3fb0984e53f67">MR_TriPointf_Construct_1</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRBox_8h.html#a14f0f26a43ddb92c3fa3c2192008224c">MR_NoInit</a> *_1);</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span> </div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno"><a class="line" href="MRTriPoint_8h.html#a03bba17c83938f7d06c839703667108b">   95</a></span>MRC_API <a class="code hl_typedef" href="MRMeshTriPoint_8h.html#a9b2681646fc37c10c6deec7f555be88c">MR_TriPointf</a> *<a class="code hl_function" href="MRTriPoint_8h.html#a03bba17c83938f7d06c839703667108b">MR_TriPointf_Construct_2</a>(<span class="keywordtype">float</span> a, <span class="keywordtype">float</span> b);</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span> </div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno"><a class="line" href="MRTriPoint_8h.html#a5931227cc136c1d59b9ebc90b3d6003e">  100</a></span>MRC_API <a class="code hl_typedef" href="MRMeshTriPoint_8h.html#a9b2681646fc37c10c6deec7f555be88c">MR_TriPointf</a> *<a class="code hl_function" href="MRTriPoint_8h.html#a5931227cc136c1d59b9ebc90b3d6003e">MR_TriPointf_Construct_float</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRMeshTriPoint_8h.html#a9b2681646fc37c10c6deec7f555be88c">MR_TriPointf</a> *s);</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span> </div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno"><a class="line" href="MRTriPoint_8h.html#a6db42c927e3567a7874d80105382e754">  109</a></span>MRC_API <a class="code hl_typedef" href="MRMeshTriPoint_8h.html#a9b2681646fc37c10c6deec7f555be88c">MR_TriPointf</a> *<a class="code hl_function" href="MRTriPoint_8h.html#a6db42c927e3567a7874d80105382e754">MR_TriPointf_Construct_4</a>(<span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector3f.html">MR_Vector3f</a> *p, <span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector3f.html">MR_Vector3f</a> *v0, <span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector3f.html">MR_Vector3f</a> *v1, <span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector3f.html">MR_Vector3f</a> *v2);</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span> </div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno"><a class="line" href="MRTriPoint_8h.html#a7a9ac1e51156915081dc64d4b70dc0d9">  117</a></span>MRC_API <a class="code hl_typedef" href="MRMeshTriPoint_8h.html#a9b2681646fc37c10c6deec7f555be88c">MR_TriPointf</a> *<a class="code hl_function" href="MRTriPoint_8h.html#a7a9ac1e51156915081dc64d4b70dc0d9">MR_TriPointf_Construct_3</a>(<span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector3f.html">MR_Vector3f</a> *p, <span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector3f.html">MR_Vector3f</a> *v1, <span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector3f.html">MR_Vector3f</a> *v2);</div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span> </div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno"><a class="line" href="MRTriPoint_8h.html#a1a057294800fc78583a6f59bd20d8eca">  120</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRTriPoint_8h.html#a1a057294800fc78583a6f59bd20d8eca">MR_TriPointf_Destroy</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRMeshTriPoint_8h.html#a9b2681646fc37c10c6deec7f555be88c">MR_TriPointf</a> *_this);</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span> </div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno"><a class="line" href="MRTriPoint_8h.html#a3c408d3c78848249e37a218ba4f42a65">  123</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRTriPoint_8h.html#a3c408d3c78848249e37a218ba4f42a65">MR_TriPointf_DestroyArray</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRMeshTriPoint_8h.html#a9b2681646fc37c10c6deec7f555be88c">MR_TriPointf</a> *_this);</div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span> </div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno"><a class="line" href="MRTriPoint_8h.html#a19de1839107df99f8591e322273fb03f">  129</a></span>MRC_API <a class="code hl_typedef" href="MRMeshTriPoint_8h.html#a9b2681646fc37c10c6deec7f555be88c">MR_TriPointf</a> *<a class="code hl_function" href="MRTriPoint_8h.html#a19de1839107df99f8591e322273fb03f">MR_TriPointf_AssignFromAnother</a>(<a class="code hl_typedef" href="MRMeshTriPoint_8h.html#a9b2681646fc37c10c6deec7f555be88c">MR_TriPointf</a> *_this, <span class="keyword">const</span> <a class="code hl_typedef" href="MRMeshTriPoint_8h.html#a9b2681646fc37c10c6deec7f555be88c">MR_TriPointf</a> *_other);</div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span> </div>
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno"><a class="line" href="MRTriPoint_8h.html#a7607ad4ac88759002b367bd80cbee157">  135</a></span>MRC_API <a class="code hl_typedef" href="MRMeshTriPoint_8h.html#a9b2681646fc37c10c6deec7f555be88c">MR_TriPointf</a> *<a class="code hl_function" href="MRTriPoint_8h.html#a7607ad4ac88759002b367bd80cbee157">MR_TriPointf_lnext</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRMeshTriPoint_8h.html#a9b2681646fc37c10c6deec7f555be88c">MR_TriPointf</a> *_this);</div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span> </div>
+<div class="line"><a id="l00140" name="l00140"></a><span class="lineno"><a class="line" href="MRTriPoint_8h.html#a47d1738e9203c4b4d0b92151bea0c952">  140</a></span>MRC_API int32_t <a class="code hl_function" href="MRTriPoint_8h.html#a47d1738e9203c4b4d0b92151bea0c952">MR_TriPointf_inVertex</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRMeshTriPoint_8h.html#a9b2681646fc37c10c6deec7f555be88c">MR_TriPointf</a> *_this);</div>
+<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span> </div>
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno"><a class="line" href="MRTriPoint_8h.html#a624dbace7bf0b00dad984a8e72c7c060">  146</a></span>MRC_API int32_t <a class="code hl_function" href="MRTriPoint_8h.html#a624dbace7bf0b00dad984a8e72c7c060">MR_TriPointf_onEdge</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRMeshTriPoint_8h.html#a9b2681646fc37c10c6deec7f555be88c">MR_TriPointf</a> *_this);</div>
+<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span> </div>
+<div class="line"><a id="l00152" name="l00152"></a><span class="lineno"><a class="line" href="MRTriPoint_8h.html#aa08f569c94b6abcd4a7c79204adef811">  152</a></span>MRC_API <span class="keywordtype">bool</span> <a class="code hl_function" href="MRTriPoint_8h.html#aa08f569c94b6abcd4a7c79204adef811">MR_equal_MR_TriPointf</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRMeshTriPoint_8h.html#a9b2681646fc37c10c6deec7f555be88c">MR_TriPointf</a> *_this, <span class="keyword">const</span> <a class="code hl_typedef" href="MRMeshTriPoint_8h.html#a9b2681646fc37c10c6deec7f555be88c">MR_TriPointf</a> *rhs);</div>
+<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span> </div>
+<div class="line"><a id="l00156" name="l00156"></a><span class="lineno"><a class="line" href="MRTriPoint_8h.html#a3f4fa186e8b2b8f257ab02098e5b322c">  156</a></span>MRC_API <span class="keyword">const</span> <span class="keywordtype">double</span> *<a class="code hl_function" href="MRTriPoint_8h.html#a3f4fa186e8b2b8f257ab02098e5b322c">MR_TriPointd_Get_eps</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span> </div>
+<div class="line"><a id="l00162" name="l00162"></a><span class="lineno"><a class="line" href="MRTriPoint_8h.html#af8b810bce95ee4590b78cb1f7fdbb99c">  162</a></span>MRC_API <span class="keyword">const</span> <span class="keywordtype">double</span> *<a class="code hl_function" href="MRTriPoint_8h.html#af8b810bce95ee4590b78cb1f7fdbb99c">MR_TriPointd_Get_a</a>(<span class="keyword">const</span> MR_TriPointd *_this);</div>
+<div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span> </div>
+<div class="line"><a id="l00167" name="l00167"></a><span class="lineno"><a class="line" href="MRTriPoint_8h.html#ab7dbe799c2a334b5b8fcd3e2c1deed96">  167</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRTriPoint_8h.html#ab7dbe799c2a334b5b8fcd3e2c1deed96">MR_TriPointd_Set_a</a>(MR_TriPointd *_this, <span class="keywordtype">double</span> value);</div>
+<div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span> </div>
+<div class="line"><a id="l00173" name="l00173"></a><span class="lineno"><a class="line" href="MRTriPoint_8h.html#adb150d376430c33062102128db9b1b26">  173</a></span>MRC_API <span class="keywordtype">double</span> *<a class="code hl_function" href="MRTriPoint_8h.html#adb150d376430c33062102128db9b1b26">MR_TriPointd_GetMutable_a</a>(MR_TriPointd *_this);</div>
+<div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span> </div>
+<div class="line"><a id="l00179" name="l00179"></a><span class="lineno"><a class="line" href="MRTriPoint_8h.html#a7696628960a46a2a24d9733dd223a958">  179</a></span>MRC_API <span class="keyword">const</span> <span class="keywordtype">double</span> *<a class="code hl_function" href="MRTriPoint_8h.html#a7696628960a46a2a24d9733dd223a958">MR_TriPointd_Get_b</a>(<span class="keyword">const</span> MR_TriPointd *_this);</div>
+<div class="line"><a id="l00180" name="l00180"></a><span class="lineno">  180</span> </div>
+<div class="line"><a id="l00184" name="l00184"></a><span class="lineno"><a class="line" href="MRTriPoint_8h.html#ab9ff40bb16b35567e25d18c9003273c0">  184</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRTriPoint_8h.html#ab9ff40bb16b35567e25d18c9003273c0">MR_TriPointd_Set_b</a>(MR_TriPointd *_this, <span class="keywordtype">double</span> value);</div>
+<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span> </div>
+<div class="line"><a id="l00190" name="l00190"></a><span class="lineno"><a class="line" href="MRTriPoint_8h.html#a59a3d90f10b7b568e014afe56d085090">  190</a></span>MRC_API <span class="keywordtype">double</span> *<a class="code hl_function" href="MRTriPoint_8h.html#a59a3d90f10b7b568e014afe56d085090">MR_TriPointd_GetMutable_b</a>(MR_TriPointd *_this);</div>
+<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span> </div>
+<div class="line"><a id="l00194" name="l00194"></a><span class="lineno"><a class="line" href="MRTriPoint_8h.html#a02bfa6f26ee123a549af0fe2d1fb0536">  194</a></span>MRC_API MR_TriPointd *<a class="code hl_function" href="MRTriPoint_8h.html#a02bfa6f26ee123a549af0fe2d1fb0536">MR_TriPointd_DefaultConstruct</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span> </div>
+<div class="line"><a id="l00199" name="l00199"></a><span class="lineno"><a class="line" href="MRTriPoint_8h.html#aa9e24693cb9fee4f55c3ef848e614ebc">  199</a></span>MRC_API MR_TriPointd *<a class="code hl_function" href="MRTriPoint_8h.html#aa9e24693cb9fee4f55c3ef848e614ebc">MR_TriPointd_DefaultConstructArray</a>(<span class="keywordtype">size_t</span> num_elems);</div>
+<div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span> </div>
+<div class="line"><a id="l00202" name="l00202"></a><span class="lineno"><a class="line" href="MRTriPoint_8h.html#aa780ad1ee91fd02209a89d5a14f53a93">  202</a></span>MRC_API <span class="keyword">const</span> MR_TriPointd *<a class="code hl_function" href="MRTriPoint_8h.html#aa780ad1ee91fd02209a89d5a14f53a93">MR_TriPointd_OffsetPtr</a>(<span class="keyword">const</span> MR_TriPointd *ptr, ptrdiff_t i);</div>
+<div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span> </div>
+<div class="line"><a id="l00205" name="l00205"></a><span class="lineno"><a class="line" href="MRTriPoint_8h.html#a5e249b4062caa373db6d29ef8ec0ee11">  205</a></span>MRC_API MR_TriPointd *<a class="code hl_function" href="MRTriPoint_8h.html#a5e249b4062caa373db6d29ef8ec0ee11">MR_TriPointd_OffsetMutablePtr</a>(MR_TriPointd *ptr, ptrdiff_t i);</div>
+<div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span> </div>
+<div class="line"><a id="l00210" name="l00210"></a><span class="lineno"><a class="line" href="MRTriPoint_8h.html#a5767de4b4e90ed2bb0d8e89022e74d0b">  210</a></span>MRC_API MR_TriPointd *<a class="code hl_function" href="MRTriPoint_8h.html#a5767de4b4e90ed2bb0d8e89022e74d0b">MR_TriPointd_ConstructFromAnother</a>(<span class="keyword">const</span> MR_TriPointd *_other);</div>
+<div class="line"><a id="l00211" name="l00211"></a><span class="lineno">  211</span> </div>
+<div class="line"><a id="l00215" name="l00215"></a><span class="lineno"><a class="line" href="MRTriPoint_8h.html#a073a3ed4f1ac3ac0c4568956508885e3">  215</a></span>MRC_API MR_TriPointd *<a class="code hl_function" href="MRTriPoint_8h.html#a073a3ed4f1ac3ac0c4568956508885e3">MR_TriPointd_Construct_1</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRBox_8h.html#a14f0f26a43ddb92c3fa3c2192008224c">MR_NoInit</a> *_1);</div>
+<div class="line"><a id="l00216" name="l00216"></a><span class="lineno">  216</span> </div>
+<div class="line"><a id="l00219" name="l00219"></a><span class="lineno"><a class="line" href="MRTriPoint_8h.html#ad67c9452f2d36b3e882f41bec39deb5c">  219</a></span>MRC_API MR_TriPointd *<a class="code hl_function" href="MRTriPoint_8h.html#ad67c9452f2d36b3e882f41bec39deb5c">MR_TriPointd_Construct_2</a>(<span class="keywordtype">double</span> a, <span class="keywordtype">double</span> b);</div>
+<div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span> </div>
+<div class="line"><a id="l00228" name="l00228"></a><span class="lineno"><a class="line" href="MRTriPoint_8h.html#ac2294567bed258069aafb981a12c1b4f">  228</a></span>MRC_API MR_TriPointd *<a class="code hl_function" href="MRTriPoint_8h.html#ac2294567bed258069aafb981a12c1b4f">MR_TriPointd_Construct_4</a>(<span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector3d.html">MR_Vector3d</a> *p, <span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector3d.html">MR_Vector3d</a> *v0, <span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector3d.html">MR_Vector3d</a> *v1, <span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector3d.html">MR_Vector3d</a> *v2);</div>
+<div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span> </div>
+<div class="line"><a id="l00236" name="l00236"></a><span class="lineno"><a class="line" href="MRTriPoint_8h.html#a8e002a8e89dbda1428f3128fc295f35a">  236</a></span>MRC_API MR_TriPointd *<a class="code hl_function" href="MRTriPoint_8h.html#a8e002a8e89dbda1428f3128fc295f35a">MR_TriPointd_Construct_3</a>(<span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector3d.html">MR_Vector3d</a> *p, <span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector3d.html">MR_Vector3d</a> *v1, <span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector3d.html">MR_Vector3d</a> *v2);</div>
+<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span> </div>
+<div class="line"><a id="l00239" name="l00239"></a><span class="lineno"><a class="line" href="MRTriPoint_8h.html#a6a829920cc66de4a1e76d28546f6d751">  239</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRTriPoint_8h.html#a6a829920cc66de4a1e76d28546f6d751">MR_TriPointd_Destroy</a>(<span class="keyword">const</span> MR_TriPointd *_this);</div>
+<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span> </div>
+<div class="line"><a id="l00242" name="l00242"></a><span class="lineno"><a class="line" href="MRTriPoint_8h.html#a0f518881ed6ddadc06908c8d93fdab2e">  242</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRTriPoint_8h.html#a0f518881ed6ddadc06908c8d93fdab2e">MR_TriPointd_DestroyArray</a>(<span class="keyword">const</span> MR_TriPointd *_this);</div>
+<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span> </div>
+<div class="line"><a id="l00248" name="l00248"></a><span class="lineno"><a class="line" href="MRTriPoint_8h.html#aec9c5e337a115ddffd9aa6df4d3f910a">  248</a></span>MRC_API MR_TriPointd *<a class="code hl_function" href="MRTriPoint_8h.html#aec9c5e337a115ddffd9aa6df4d3f910a">MR_TriPointd_AssignFromAnother</a>(MR_TriPointd *_this, <span class="keyword">const</span> MR_TriPointd *_other);</div>
+<div class="line"><a id="l00249" name="l00249"></a><span class="lineno">  249</span> </div>
+<div class="line"><a id="l00254" name="l00254"></a><span class="lineno"><a class="line" href="MRTriPoint_8h.html#a25b7d4251b4ea9c454207f5cd1a02bad">  254</a></span>MRC_API MR_TriPointd *<a class="code hl_function" href="MRTriPoint_8h.html#a25b7d4251b4ea9c454207f5cd1a02bad">MR_TriPointd_lnext</a>(<span class="keyword">const</span> MR_TriPointd *_this);</div>
+<div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span> </div>
+<div class="line"><a id="l00259" name="l00259"></a><span class="lineno"><a class="line" href="MRTriPoint_8h.html#a33c3b0a534f58a5a901f08208b0929f8">  259</a></span>MRC_API int32_t <a class="code hl_function" href="MRTriPoint_8h.html#a33c3b0a534f58a5a901f08208b0929f8">MR_TriPointd_inVertex</a>(<span class="keyword">const</span> MR_TriPointd *_this);</div>
+<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span> </div>
+<div class="line"><a id="l00265" name="l00265"></a><span class="lineno"><a class="line" href="MRTriPoint_8h.html#a58fe2f95fe2c300ab11fa85f4e401a5c">  265</a></span>MRC_API int32_t <a class="code hl_function" href="MRTriPoint_8h.html#a58fe2f95fe2c300ab11fa85f4e401a5c">MR_TriPointd_onEdge</a>(<span class="keyword">const</span> MR_TriPointd *_this);</div>
+<div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span> </div>
+<div class="line"><a id="l00271" name="l00271"></a><span class="lineno"><a class="line" href="MRTriPoint_8h.html#a1ea5e8a7ea858db42b9f376b7d49637e">  271</a></span>MRC_API <span class="keywordtype">bool</span> <a class="code hl_function" href="MRTriPoint_8h.html#a1ea5e8a7ea858db42b9f376b7d49637e">MR_equal_MR_TriPointd</a>(<span class="keyword">const</span> MR_TriPointd *_this, <span class="keyword">const</span> MR_TriPointd *rhs);</div>
+<div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span> </div>
+<div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span><span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span>} <span class="comment">// extern &quot;C&quot;</span></div>
+<div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aMRBox_8h_html_a14f0f26a43ddb92c3fa3c2192008224c"><div class="ttname"><a href="MRBox_8h.html#a14f0f26a43ddb92c3fa3c2192008224c">MR_NoInit</a></div><div class="ttdeci">struct MR_NoInit MR_NoInit</div><div class="ttdef"><b>Definition</b> MRBox.h:16</div></div>
+<div class="ttc" id="aMRMeshTriPoint_8h_html_a9b2681646fc37c10c6deec7f555be88c"><div class="ttname"><a href="MRMeshTriPoint_8h.html#a9b2681646fc37c10c6deec7f555be88c">MR_TriPointf</a></div><div class="ttdeci">struct MR_TriPointf MR_TriPointf</div><div class="ttdef"><b>Definition</b> MRMeshTriPoint.h:17</div></div>
+<div class="ttc" id="aMRTriPoint_8h_html_a02bfa6f26ee123a549af0fe2d1fb0536"><div class="ttname"><a href="MRTriPoint_8h.html#a02bfa6f26ee123a549af0fe2d1fb0536">MR_TriPointd_DefaultConstruct</a></div><div class="ttdeci">MRC_API MR_TriPointd * MR_TriPointd_DefaultConstruct(void)</div></div>
+<div class="ttc" id="aMRTriPoint_8h_html_a03bba17c83938f7d06c839703667108b"><div class="ttname"><a href="MRTriPoint_8h.html#a03bba17c83938f7d06c839703667108b">MR_TriPointf_Construct_2</a></div><div class="ttdeci">MRC_API MR_TriPointf * MR_TriPointf_Construct_2(float a, float b)</div></div>
+<div class="ttc" id="aMRTriPoint_8h_html_a073a3ed4f1ac3ac0c4568956508885e3"><div class="ttname"><a href="MRTriPoint_8h.html#a073a3ed4f1ac3ac0c4568956508885e3">MR_TriPointd_Construct_1</a></div><div class="ttdeci">MRC_API MR_TriPointd * MR_TriPointd_Construct_1(const MR_NoInit *_1)</div></div>
+<div class="ttc" id="aMRTriPoint_8h_html_a0f518881ed6ddadc06908c8d93fdab2e"><div class="ttname"><a href="MRTriPoint_8h.html#a0f518881ed6ddadc06908c8d93fdab2e">MR_TriPointd_DestroyArray</a></div><div class="ttdeci">MRC_API void MR_TriPointd_DestroyArray(const MR_TriPointd *_this)</div><div class="ttdoc">Destroys a heap-allocated array of MR_TriPointd. Does nothing if the pointer is null.</div></div>
+<div class="ttc" id="aMRTriPoint_8h_html_a10a5392aff749817df207f8cdc8a4b24"><div class="ttname"><a href="MRTriPoint_8h.html#a10a5392aff749817df207f8cdc8a4b24">MR_TriPointf_Set_a</a></div><div class="ttdeci">MRC_API void MR_TriPointf_Set_a(MR_TriPointf *_this, float value)</div></div>
+<div class="ttc" id="aMRTriPoint_8h_html_a195466fe5c4a4efc8c7513d7dd365270"><div class="ttname"><a href="MRTriPoint_8h.html#a195466fe5c4a4efc8c7513d7dd365270">MR_TriPointf_OffsetPtr</a></div><div class="ttdeci">MRC_API const MR_TriPointf * MR_TriPointf_OffsetPtr(const MR_TriPointf *ptr, ptrdiff_t i)</div><div class="ttdoc">Offsets a pointer to an array element by i positions (not bytes). Use only if you're certain that the...</div></div>
+<div class="ttc" id="aMRTriPoint_8h_html_a19de1839107df99f8591e322273fb03f"><div class="ttname"><a href="MRTriPoint_8h.html#a19de1839107df99f8591e322273fb03f">MR_TriPointf_AssignFromAnother</a></div><div class="ttdeci">MRC_API MR_TriPointf * MR_TriPointf_AssignFromAnother(MR_TriPointf *_this, const MR_TriPointf *_other)</div></div>
+<div class="ttc" id="aMRTriPoint_8h_html_a1a057294800fc78583a6f59bd20d8eca"><div class="ttname"><a href="MRTriPoint_8h.html#a1a057294800fc78583a6f59bd20d8eca">MR_TriPointf_Destroy</a></div><div class="ttdeci">MRC_API void MR_TriPointf_Destroy(const MR_TriPointf *_this)</div><div class="ttdoc">Destroys a heap-allocated instance of MR_TriPointf. Does nothing if the pointer is null.</div></div>
+<div class="ttc" id="aMRTriPoint_8h_html_a1ea5e8a7ea858db42b9f376b7d49637e"><div class="ttname"><a href="MRTriPoint_8h.html#a1ea5e8a7ea858db42b9f376b7d49637e">MR_equal_MR_TriPointd</a></div><div class="ttdeci">MRC_API bool MR_equal_MR_TriPointd(const MR_TriPointd *_this, const MR_TriPointd *rhs)</div></div>
+<div class="ttc" id="aMRTriPoint_8h_html_a259dfd84f015eedef9ea4434500ce40d"><div class="ttname"><a href="MRTriPoint_8h.html#a259dfd84f015eedef9ea4434500ce40d">MR_TriPointf_OffsetMutablePtr</a></div><div class="ttdeci">MRC_API MR_TriPointf * MR_TriPointf_OffsetMutablePtr(MR_TriPointf *ptr, ptrdiff_t i)</div><div class="ttdoc">Offsets a pointer to an array element by i positions (not bytes). Use only if you're certain that the...</div></div>
+<div class="ttc" id="aMRTriPoint_8h_html_a25b7d4251b4ea9c454207f5cd1a02bad"><div class="ttname"><a href="MRTriPoint_8h.html#a25b7d4251b4ea9c454207f5cd1a02bad">MR_TriPointd_lnext</a></div><div class="ttdeci">MRC_API MR_TriPointd * MR_TriPointd_lnext(const MR_TriPointd *_this)</div></div>
+<div class="ttc" id="aMRTriPoint_8h_html_a29982766aa13d1c581be1b2abbad7e03"><div class="ttname"><a href="MRTriPoint_8h.html#a29982766aa13d1c581be1b2abbad7e03">MR_TriPointf_DefaultConstruct</a></div><div class="ttdeci">MRC_API MR_TriPointf * MR_TriPointf_DefaultConstruct(void)</div></div>
+<div class="ttc" id="aMRTriPoint_8h_html_a309acadbf96deb255cb1a81af201f56e"><div class="ttname"><a href="MRTriPoint_8h.html#a309acadbf96deb255cb1a81af201f56e">MR_TriPointf_Set_b</a></div><div class="ttdeci">MRC_API void MR_TriPointf_Set_b(MR_TriPointf *_this, float value)</div></div>
+<div class="ttc" id="aMRTriPoint_8h_html_a33c3b0a534f58a5a901f08208b0929f8"><div class="ttname"><a href="MRTriPoint_8h.html#a33c3b0a534f58a5a901f08208b0929f8">MR_TriPointd_inVertex</a></div><div class="ttdeci">MRC_API int32_t MR_TriPointd_inVertex(const MR_TriPointd *_this)</div></div>
+<div class="ttc" id="aMRTriPoint_8h_html_a367a5a0fdb968ff5f4d33bae22d28d32"><div class="ttname"><a href="MRTriPoint_8h.html#a367a5a0fdb968ff5f4d33bae22d28d32">MR_TriPointf_Get_eps</a></div><div class="ttdeci">MRC_API const float * MR_TriPointf_Get_eps(void)</div></div>
+<div class="ttc" id="aMRTriPoint_8h_html_a3a95bc9908c7c4b6ca106ea04b7ca9af"><div class="ttname"><a href="MRTriPoint_8h.html#a3a95bc9908c7c4b6ca106ea04b7ca9af">MR_TriPointf_DefaultConstructArray</a></div><div class="ttdeci">MRC_API MR_TriPointf * MR_TriPointf_DefaultConstructArray(size_t num_elems)</div></div>
+<div class="ttc" id="aMRTriPoint_8h_html_a3c408d3c78848249e37a218ba4f42a65"><div class="ttname"><a href="MRTriPoint_8h.html#a3c408d3c78848249e37a218ba4f42a65">MR_TriPointf_DestroyArray</a></div><div class="ttdeci">MRC_API void MR_TriPointf_DestroyArray(const MR_TriPointf *_this)</div><div class="ttdoc">Destroys a heap-allocated array of MR_TriPointf. Does nothing if the pointer is null.</div></div>
+<div class="ttc" id="aMRTriPoint_8h_html_a3f4fa186e8b2b8f257ab02098e5b322c"><div class="ttname"><a href="MRTriPoint_8h.html#a3f4fa186e8b2b8f257ab02098e5b322c">MR_TriPointd_Get_eps</a></div><div class="ttdeci">MRC_API const double * MR_TriPointd_Get_eps(void)</div></div>
+<div class="ttc" id="aMRTriPoint_8h_html_a47d1738e9203c4b4d0b92151bea0c952"><div class="ttname"><a href="MRTriPoint_8h.html#a47d1738e9203c4b4d0b92151bea0c952">MR_TriPointf_inVertex</a></div><div class="ttdeci">MRC_API int32_t MR_TriPointf_inVertex(const MR_TriPointf *_this)</div></div>
+<div class="ttc" id="aMRTriPoint_8h_html_a4e854ec778dc7c5cf2f3fb0984e53f67"><div class="ttname"><a href="MRTriPoint_8h.html#a4e854ec778dc7c5cf2f3fb0984e53f67">MR_TriPointf_Construct_1</a></div><div class="ttdeci">MRC_API MR_TriPointf * MR_TriPointf_Construct_1(const MR_NoInit *_1)</div></div>
+<div class="ttc" id="aMRTriPoint_8h_html_a5767de4b4e90ed2bb0d8e89022e74d0b"><div class="ttname"><a href="MRTriPoint_8h.html#a5767de4b4e90ed2bb0d8e89022e74d0b">MR_TriPointd_ConstructFromAnother</a></div><div class="ttdeci">MRC_API MR_TriPointd * MR_TriPointd_ConstructFromAnother(const MR_TriPointd *_other)</div></div>
+<div class="ttc" id="aMRTriPoint_8h_html_a57edfc82784cf5d4f1aa873e607de2f3"><div class="ttname"><a href="MRTriPoint_8h.html#a57edfc82784cf5d4f1aa873e607de2f3">MR_TriPointf_GetMutable_a</a></div><div class="ttdeci">MRC_API float * MR_TriPointf_GetMutable_a(MR_TriPointf *_this)</div></div>
+<div class="ttc" id="aMRTriPoint_8h_html_a58fe2f95fe2c300ab11fa85f4e401a5c"><div class="ttname"><a href="MRTriPoint_8h.html#a58fe2f95fe2c300ab11fa85f4e401a5c">MR_TriPointd_onEdge</a></div><div class="ttdeci">MRC_API int32_t MR_TriPointd_onEdge(const MR_TriPointd *_this)</div></div>
+<div class="ttc" id="aMRTriPoint_8h_html_a5931227cc136c1d59b9ebc90b3d6003e"><div class="ttname"><a href="MRTriPoint_8h.html#a5931227cc136c1d59b9ebc90b3d6003e">MR_TriPointf_Construct_float</a></div><div class="ttdeci">MRC_API MR_TriPointf * MR_TriPointf_Construct_float(const MR_TriPointf *s)</div></div>
+<div class="ttc" id="aMRTriPoint_8h_html_a59a3d90f10b7b568e014afe56d085090"><div class="ttname"><a href="MRTriPoint_8h.html#a59a3d90f10b7b568e014afe56d085090">MR_TriPointd_GetMutable_b</a></div><div class="ttdeci">MRC_API double * MR_TriPointd_GetMutable_b(MR_TriPointd *_this)</div></div>
+<div class="ttc" id="aMRTriPoint_8h_html_a5e249b4062caa373db6d29ef8ec0ee11"><div class="ttname"><a href="MRTriPoint_8h.html#a5e249b4062caa373db6d29ef8ec0ee11">MR_TriPointd_OffsetMutablePtr</a></div><div class="ttdeci">MRC_API MR_TriPointd * MR_TriPointd_OffsetMutablePtr(MR_TriPointd *ptr, ptrdiff_t i)</div><div class="ttdoc">Offsets a pointer to an array element by i positions (not bytes). Use only if you're certain that the...</div></div>
+<div class="ttc" id="aMRTriPoint_8h_html_a624dbace7bf0b00dad984a8e72c7c060"><div class="ttname"><a href="MRTriPoint_8h.html#a624dbace7bf0b00dad984a8e72c7c060">MR_TriPointf_onEdge</a></div><div class="ttdeci">MRC_API int32_t MR_TriPointf_onEdge(const MR_TriPointf *_this)</div></div>
+<div class="ttc" id="aMRTriPoint_8h_html_a6a829920cc66de4a1e76d28546f6d751"><div class="ttname"><a href="MRTriPoint_8h.html#a6a829920cc66de4a1e76d28546f6d751">MR_TriPointd_Destroy</a></div><div class="ttdeci">MRC_API void MR_TriPointd_Destroy(const MR_TriPointd *_this)</div><div class="ttdoc">Destroys a heap-allocated instance of MR_TriPointd. Does nothing if the pointer is null.</div></div>
+<div class="ttc" id="aMRTriPoint_8h_html_a6db42c927e3567a7874d80105382e754"><div class="ttname"><a href="MRTriPoint_8h.html#a6db42c927e3567a7874d80105382e754">MR_TriPointf_Construct_4</a></div><div class="ttdeci">MRC_API MR_TriPointf * MR_TriPointf_Construct_4(const MR_Vector3f *p, const MR_Vector3f *v0, const MR_Vector3f *v1, const MR_Vector3f *v2)</div></div>
+<div class="ttc" id="aMRTriPoint_8h_html_a6e7acf5f073dba09485255ac0069976b"><div class="ttname"><a href="MRTriPoint_8h.html#a6e7acf5f073dba09485255ac0069976b">MR_TriPointf_Get_b</a></div><div class="ttdeci">MRC_API const float * MR_TriPointf_Get_b(const MR_TriPointf *_this)</div></div>
+<div class="ttc" id="aMRTriPoint_8h_html_a75f108a44387e649c82ccceb30d45c40"><div class="ttname"><a href="MRTriPoint_8h.html#a75f108a44387e649c82ccceb30d45c40">MR_TriPointf_GetMutable_b</a></div><div class="ttdeci">MRC_API float * MR_TriPointf_GetMutable_b(MR_TriPointf *_this)</div></div>
+<div class="ttc" id="aMRTriPoint_8h_html_a7607ad4ac88759002b367bd80cbee157"><div class="ttname"><a href="MRTriPoint_8h.html#a7607ad4ac88759002b367bd80cbee157">MR_TriPointf_lnext</a></div><div class="ttdeci">MRC_API MR_TriPointf * MR_TriPointf_lnext(const MR_TriPointf *_this)</div></div>
+<div class="ttc" id="aMRTriPoint_8h_html_a7696628960a46a2a24d9733dd223a958"><div class="ttname"><a href="MRTriPoint_8h.html#a7696628960a46a2a24d9733dd223a958">MR_TriPointd_Get_b</a></div><div class="ttdeci">MRC_API const double * MR_TriPointd_Get_b(const MR_TriPointd *_this)</div></div>
+<div class="ttc" id="aMRTriPoint_8h_html_a7a9ac1e51156915081dc64d4b70dc0d9"><div class="ttname"><a href="MRTriPoint_8h.html#a7a9ac1e51156915081dc64d4b70dc0d9">MR_TriPointf_Construct_3</a></div><div class="ttdeci">MRC_API MR_TriPointf * MR_TriPointf_Construct_3(const MR_Vector3f *p, const MR_Vector3f *v1, const MR_Vector3f *v2)</div></div>
+<div class="ttc" id="aMRTriPoint_8h_html_a8e002a8e89dbda1428f3128fc295f35a"><div class="ttname"><a href="MRTriPoint_8h.html#a8e002a8e89dbda1428f3128fc295f35a">MR_TriPointd_Construct_3</a></div><div class="ttdeci">MRC_API MR_TriPointd * MR_TriPointd_Construct_3(const MR_Vector3d *p, const MR_Vector3d *v1, const MR_Vector3d *v2)</div></div>
+<div class="ttc" id="aMRTriPoint_8h_html_a8e076c644374156b35ff20916817a9ff"><div class="ttname"><a href="MRTriPoint_8h.html#a8e076c644374156b35ff20916817a9ff">MR_TriPointf_ConstructFromAnother</a></div><div class="ttdeci">MRC_API MR_TriPointf * MR_TriPointf_ConstructFromAnother(const MR_TriPointf *_other)</div></div>
+<div class="ttc" id="aMRTriPoint_8h_html_aa08f569c94b6abcd4a7c79204adef811"><div class="ttname"><a href="MRTriPoint_8h.html#aa08f569c94b6abcd4a7c79204adef811">MR_equal_MR_TriPointf</a></div><div class="ttdeci">MRC_API bool MR_equal_MR_TriPointf(const MR_TriPointf *_this, const MR_TriPointf *rhs)</div></div>
+<div class="ttc" id="aMRTriPoint_8h_html_aa780ad1ee91fd02209a89d5a14f53a93"><div class="ttname"><a href="MRTriPoint_8h.html#aa780ad1ee91fd02209a89d5a14f53a93">MR_TriPointd_OffsetPtr</a></div><div class="ttdeci">MRC_API const MR_TriPointd * MR_TriPointd_OffsetPtr(const MR_TriPointd *ptr, ptrdiff_t i)</div><div class="ttdoc">Offsets a pointer to an array element by i positions (not bytes). Use only if you're certain that the...</div></div>
+<div class="ttc" id="aMRTriPoint_8h_html_aa9e24693cb9fee4f55c3ef848e614ebc"><div class="ttname"><a href="MRTriPoint_8h.html#aa9e24693cb9fee4f55c3ef848e614ebc">MR_TriPointd_DefaultConstructArray</a></div><div class="ttdeci">MRC_API MR_TriPointd * MR_TriPointd_DefaultConstructArray(size_t num_elems)</div></div>
+<div class="ttc" id="aMRTriPoint_8h_html_ab7dbe799c2a334b5b8fcd3e2c1deed96"><div class="ttname"><a href="MRTriPoint_8h.html#ab7dbe799c2a334b5b8fcd3e2c1deed96">MR_TriPointd_Set_a</a></div><div class="ttdeci">MRC_API void MR_TriPointd_Set_a(MR_TriPointd *_this, double value)</div></div>
+<div class="ttc" id="aMRTriPoint_8h_html_ab9ff40bb16b35567e25d18c9003273c0"><div class="ttname"><a href="MRTriPoint_8h.html#ab9ff40bb16b35567e25d18c9003273c0">MR_TriPointd_Set_b</a></div><div class="ttdeci">MRC_API void MR_TriPointd_Set_b(MR_TriPointd *_this, double value)</div></div>
+<div class="ttc" id="aMRTriPoint_8h_html_ac2294567bed258069aafb981a12c1b4f"><div class="ttname"><a href="MRTriPoint_8h.html#ac2294567bed258069aafb981a12c1b4f">MR_TriPointd_Construct_4</a></div><div class="ttdeci">MRC_API MR_TriPointd * MR_TriPointd_Construct_4(const MR_Vector3d *p, const MR_Vector3d *v0, const MR_Vector3d *v1, const MR_Vector3d *v2)</div></div>
+<div class="ttc" id="aMRTriPoint_8h_html_ad67c9452f2d36b3e882f41bec39deb5c"><div class="ttname"><a href="MRTriPoint_8h.html#ad67c9452f2d36b3e882f41bec39deb5c">MR_TriPointd_Construct_2</a></div><div class="ttdeci">MRC_API MR_TriPointd * MR_TriPointd_Construct_2(double a, double b)</div></div>
+<div class="ttc" id="aMRTriPoint_8h_html_adb150d376430c33062102128db9b1b26"><div class="ttname"><a href="MRTriPoint_8h.html#adb150d376430c33062102128db9b1b26">MR_TriPointd_GetMutable_a</a></div><div class="ttdeci">MRC_API double * MR_TriPointd_GetMutable_a(MR_TriPointd *_this)</div></div>
+<div class="ttc" id="aMRTriPoint_8h_html_aec9c5e337a115ddffd9aa6df4d3f910a"><div class="ttname"><a href="MRTriPoint_8h.html#aec9c5e337a115ddffd9aa6df4d3f910a">MR_TriPointd_AssignFromAnother</a></div><div class="ttdeci">MRC_API MR_TriPointd * MR_TriPointd_AssignFromAnother(MR_TriPointd *_this, const MR_TriPointd *_other)</div></div>
+<div class="ttc" id="aMRTriPoint_8h_html_af27278c10f8f2cef39d54d1f4e7f9773"><div class="ttname"><a href="MRTriPoint_8h.html#af27278c10f8f2cef39d54d1f4e7f9773">MR_TriPointf_Get_a</a></div><div class="ttdeci">MRC_API const float * MR_TriPointf_Get_a(const MR_TriPointf *_this)</div></div>
+<div class="ttc" id="aMRTriPoint_8h_html_af8b810bce95ee4590b78cb1f7fdbb99c"><div class="ttname"><a href="MRTriPoint_8h.html#af8b810bce95ee4590b78cb1f7fdbb99c">MR_TriPointd_Get_a</a></div><div class="ttdeci">MRC_API const double * MR_TriPointd_Get_a(const MR_TriPointd *_this)</div></div>
+<div class="ttc" id="astructMR__Vector3d_html"><div class="ttname"><a href="structMR__Vector3d.html">MR_Vector3d</a></div><div class="ttdef"><b>Definition</b> MRVector3.h:65</div></div>
+<div class="ttc" id="astructMR__Vector3f_html"><div class="ttname"><a href="structMR__Vector3f.html">MR_Vector3f</a></div><div class="ttdef"><b>Definition</b> MRVector3.h:55</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_87d38852fc01aff5f853718c8d8b5cb2.html">Cbindings</a></li><li class="navelem"><a class="el" href="dir_cb83f9b98dc6f67356ff76bcc17f4f67.html">MRCMesh</a></li><li class="navelem"><a class="el" href="MRTriPoint_8h.html">MRTriPoint.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

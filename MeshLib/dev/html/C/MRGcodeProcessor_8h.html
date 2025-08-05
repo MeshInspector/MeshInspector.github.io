@@ -1,0 +1,2317 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: MRGcodeProcessor.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('MRGcodeProcessor_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">MRGcodeProcessor.h File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
+</div>
+<p><a href="MRGcodeProcessor_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a325911971cee7957b63b98e5d38aedc4" id="r_a325911971cee7957b63b98e5d38aedc4"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRCNCMachineSettings_8h.html#a325911971cee7957b63b98e5d38aedc4">MR_CNCMachineSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a325911971cee7957b63b98e5d38aedc4">MR_CNCMachineSettings</a></td></tr>
+<tr class="separator:a325911971cee7957b63b98e5d38aedc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69dc6868c10c92fb8b8a255b0130d289" id="r_a69dc6868c10c92fb8b8a255b0130d289"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></td></tr>
+<tr class="separator:a69dc6868c10c92fb8b8a255b0130d289"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bba1b4d4d65cea43177e79dcd45f502" id="r_a5bba1b4d4d65cea43177e79dcd45f502"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a5bba1b4d4d65cea43177e79dcd45f502">MR_std_vector_MR_GcodeProcessor_Command</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5bba1b4d4d65cea43177e79dcd45f502">MR_std_vector_MR_GcodeProcessor_Command</a></td></tr>
+<tr class="separator:a5bba1b4d4d65cea43177e79dcd45f502"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9be9ae97af22d55be76e6cf4df34f8a" id="r_ac9be9ae97af22d55be76e6cf4df34f8a"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ac9be9ae97af22d55be76e6cf4df34f8a">MR_std_vector_MR_GcodeProcessor_MoveAction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac9be9ae97af22d55be76e6cf4df34f8a">MR_std_vector_MR_GcodeProcessor_MoveAction</a></td></tr>
+<tr class="separator:ac9be9ae97af22d55be76e6cf4df34f8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3ae972f4acf6dd1ffc9c11061641f3f" id="r_af3ae972f4acf6dd1ffc9c11061641f3f"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRContour_8h.html#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a></td></tr>
+<tr class="separator:af3ae972f4acf6dd1ffc9c11061641f3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefed148a09a0ae55edbd22814638b462" id="r_aefed148a09a0ae55edbd22814638b462"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a></td></tr>
+<tr class="separator:aefed148a09a0ae55edbd22814638b462"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab26d333cd7549e6f3f49cc80e3ba5900" id="r_ab26d333cd7549e6f3f49cc80e3ba5900"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAngleMeasurementObject_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a></td></tr>
+<tr class="separator:ab26d333cd7549e6f3f49cc80e3ba5900"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ac6289dc28b26197d3bce9b7a888ca2" id="r_a9ac6289dc28b26197d3bce9b7a888ca2"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a9ac6289dc28b26197d3bce9b7a888ca2">MR_GcodeProcessor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ac6289dc28b26197d3bce9b7a888ca2">MR_GcodeProcessor</a></td></tr>
+<tr class="memdesc:a9ac6289dc28b26197d3bce9b7a888ca2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1GcodeProcessor.html">MR::GcodeProcessor</a></code>.  <br /></td></tr>
+<tr class="separator:a9ac6289dc28b26197d3bce9b7a888ca2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a102198471a3767d59fe6d6a0c104da93" id="r_a102198471a3767d59fe6d6a0c104da93"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a102198471a3767d59fe6d6a0c104da93">MR_GcodeProcessor_BaseAction_MR_Vector2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a102198471a3767d59fe6d6a0c104da93">MR_GcodeProcessor_BaseAction_MR_Vector2f</a></td></tr>
+<tr class="memdesc:a102198471a3767d59fe6d6a0c104da93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1GcodeProcessor_1_1BaseAction.html">MR::GcodeProcessor::BaseAction</a>&lt;MR::Vector2f&gt;</code>.  <br /></td></tr>
+<tr class="separator:a102198471a3767d59fe6d6a0c104da93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f3a04a880d4501d50aa6ffcf780d707" id="r_a0f3a04a880d4501d50aa6ffcf780d707"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a0f3a04a880d4501d50aa6ffcf780d707">MR_GcodeProcessor_BaseAction_MR_Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f3a04a880d4501d50aa6ffcf780d707">MR_GcodeProcessor_BaseAction_MR_Vector3f</a></td></tr>
+<tr class="memdesc:a0f3a04a880d4501d50aa6ffcf780d707"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1GcodeProcessor_1_1BaseAction.html">MR::GcodeProcessor::BaseAction</a>&lt;MR::Vector3f&gt;</code>.  <br /></td></tr>
+<tr class="separator:a0f3a04a880d4501d50aa6ffcf780d707"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18a0e6711c9d545039e776ae8e7685b4" id="r_a18a0e6711c9d545039e776ae8e7685b4"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a18a0e6711c9d545039e776ae8e7685b4">MR_GcodeProcessor_MoveAction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18a0e6711c9d545039e776ae8e7685b4">MR_GcodeProcessor_MoveAction</a></td></tr>
+<tr class="memdesc:a18a0e6711c9d545039e776ae8e7685b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1GcodeProcessor_1_1MoveAction.html">MR::GcodeProcessor::MoveAction</a></code>.  <br /></td></tr>
+<tr class="separator:a18a0e6711c9d545039e776ae8e7685b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2dfa7f50d06ba9cf366accd703febb8c" id="r_a2dfa7f50d06ba9cf366accd703febb8c"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a2dfa7f50d06ba9cf366accd703febb8c">MR_GcodeProcessor_Command</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2dfa7f50d06ba9cf366accd703febb8c">MR_GcodeProcessor_Command</a></td></tr>
+<tr class="memdesc:a2dfa7f50d06ba9cf366accd703febb8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1GcodeProcessor_1_1Command.html">MR::GcodeProcessor::Command</a></code>.  <br /></td></tr>
+<tr class="separator:a2dfa7f50d06ba9cf366accd703febb8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a5866c590fe10ee196582601211ab47f7" id="r_a5866c590fe10ee196582601211ab47f7"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a9ac6289dc28b26197d3bce9b7a888ca2">MR_GcodeProcessor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5866c590fe10ee196582601211ab47f7">MR_GcodeProcessor_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a5866c590fe10ee196582601211ab47f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39a2d78bd27b20fc768ff86025f54eb2" id="r_a39a2d78bd27b20fc768ff86025f54eb2"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a9ac6289dc28b26197d3bce9b7a888ca2">MR_GcodeProcessor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a39a2d78bd27b20fc768ff86025f54eb2">MR_GcodeProcessor_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a39a2d78bd27b20fc768ff86025f54eb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa256e51c22cb19c99f7b5109cf148fa6" id="r_aa256e51c22cb19c99f7b5109cf148fa6"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a9ac6289dc28b26197d3bce9b7a888ca2">MR_GcodeProcessor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa256e51c22cb19c99f7b5109cf148fa6">MR_GcodeProcessor_OffsetPtr</a> (const <a class="el" href="#a9ac6289dc28b26197d3bce9b7a888ca2">MR_GcodeProcessor</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:aa256e51c22cb19c99f7b5109cf148fa6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:aa256e51c22cb19c99f7b5109cf148fa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7559ac1b722cdd2b688cdb03e6c8740" id="r_af7559ac1b722cdd2b688cdb03e6c8740"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a9ac6289dc28b26197d3bce9b7a888ca2">MR_GcodeProcessor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7559ac1b722cdd2b688cdb03e6c8740">MR_GcodeProcessor_OffsetMutablePtr</a> (<a class="el" href="#a9ac6289dc28b26197d3bce9b7a888ca2">MR_GcodeProcessor</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:af7559ac1b722cdd2b688cdb03e6c8740"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:af7559ac1b722cdd2b688cdb03e6c8740"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a037a397badcca6e3c5d92c7a445d95c9" id="r_a037a397badcca6e3c5d92c7a445d95c9"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a9ac6289dc28b26197d3bce9b7a888ca2">MR_GcodeProcessor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a037a397badcca6e3c5d92c7a445d95c9">MR_GcodeProcessor_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a9ac6289dc28b26197d3bce9b7a888ca2">MR_GcodeProcessor</a> *_other)</td></tr>
+<tr class="separator:a037a397badcca6e3c5d92c7a445d95c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abaf30df52ba876c881bb653cbe6964f1" id="r_abaf30df52ba876c881bb653cbe6964f1"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abaf30df52ba876c881bb653cbe6964f1">MR_GcodeProcessor_Destroy</a> (const <a class="el" href="#a9ac6289dc28b26197d3bce9b7a888ca2">MR_GcodeProcessor</a> *_this)</td></tr>
+<tr class="memdesc:abaf30df52ba876c881bb653cbe6964f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_GcodeProcessor</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:abaf30df52ba876c881bb653cbe6964f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abac4181b28fdca43bf3ef5290512bd41" id="r_abac4181b28fdca43bf3ef5290512bd41"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abac4181b28fdca43bf3ef5290512bd41">MR_GcodeProcessor_DestroyArray</a> (const <a class="el" href="#a9ac6289dc28b26197d3bce9b7a888ca2">MR_GcodeProcessor</a> *_this)</td></tr>
+<tr class="memdesc:abac4181b28fdca43bf3ef5290512bd41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_GcodeProcessor</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:abac4181b28fdca43bf3ef5290512bd41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a42719ffb7857e490d0f217a5eef6bb" id="r_a8a42719ffb7857e490d0f217a5eef6bb"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a9ac6289dc28b26197d3bce9b7a888ca2">MR_GcodeProcessor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a42719ffb7857e490d0f217a5eef6bb">MR_GcodeProcessor_AssignFromAnother</a> (<a class="el" href="#a9ac6289dc28b26197d3bce9b7a888ca2">MR_GcodeProcessor</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a9ac6289dc28b26197d3bce9b7a888ca2">MR_GcodeProcessor</a> *_other)</td></tr>
+<tr class="separator:a8a42719ffb7857e490d0f217a5eef6bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac566fdeb3a6cc051ef035a26ab7f7037" id="r_ac566fdeb3a6cc051ef035a26ab7f7037"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac566fdeb3a6cc051ef035a26ab7f7037">MR_GcodeProcessor_reset</a> (<a class="el" href="#a9ac6289dc28b26197d3bce9b7a888ca2">MR_GcodeProcessor</a> *_this)</td></tr>
+<tr class="separator:ac566fdeb3a6cc051ef035a26ab7f7037"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af10f3887b1d812306d3229481d2a862a" id="r_af10f3887b1d812306d3229481d2a862a"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af10f3887b1d812306d3229481d2a862a">MR_GcodeProcessor_setGcodeSource</a> (<a class="el" href="#a9ac6289dc28b26197d3bce9b7a888ca2">MR_GcodeProcessor</a> *_this, const <a class="el" href="MRAngleMeasurementObject_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> *gcodeSource)</td></tr>
+<tr class="separator:af10f3887b1d812306d3229481d2a862a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2df4de6272f064e30be7602f421524d4" id="r_a2df4de6272f064e30be7602f421524d4"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ac9be9ae97af22d55be76e6cf4df34f8a">MR_std_vector_MR_GcodeProcessor_MoveAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2df4de6272f064e30be7602f421524d4">MR_GcodeProcessor_processSource</a> (<a class="el" href="#a9ac6289dc28b26197d3bce9b7a888ca2">MR_GcodeProcessor</a> *_this)</td></tr>
+<tr class="separator:a2df4de6272f064e30be7602f421524d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae552738a6afe9e8d74702f3ab39bfb5a" id="r_ae552738a6afe9e8d74702f3ab39bfb5a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a18a0e6711c9d545039e776ae8e7685b4">MR_GcodeProcessor_MoveAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae552738a6afe9e8d74702f3ab39bfb5a">MR_GcodeProcessor_processLine</a> (<a class="el" href="#a9ac6289dc28b26197d3bce9b7a888ca2">MR_GcodeProcessor</a> *_this, const char *line, const char *line_end, <a class="el" href="#a5bba1b4d4d65cea43177e79dcd45f502">MR_std_vector_MR_GcodeProcessor_Command</a> *externalStorage)</td></tr>
+<tr class="separator:ae552738a6afe9e8d74702f3ab39bfb5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8657b028cb5285bc9998833d4f4e7592" id="r_a8657b028cb5285bc9998833d4f4e7592"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8657b028cb5285bc9998833d4f4e7592">MR_GcodeProcessor_setCNCMachineSettings</a> (<a class="el" href="#a9ac6289dc28b26197d3bce9b7a888ca2">MR_GcodeProcessor</a> *_this, const <a class="el" href="MRCNCMachineSettings_8h.html#a325911971cee7957b63b98e5d38aedc4">MR_CNCMachineSettings</a> *settings)</td></tr>
+<tr class="separator:a8657b028cb5285bc9998833d4f4e7592"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4fe0b445d71cd97762ec01f2ffcba39" id="r_ae4fe0b445d71cd97762ec01f2ffcba39"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRCNCMachineSettings_8h.html#a325911971cee7957b63b98e5d38aedc4">MR_CNCMachineSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4fe0b445d71cd97762ec01f2ffcba39">MR_GcodeProcessor_getCNCMachineSettings</a> (<a class="el" href="#a9ac6289dc28b26197d3bce9b7a888ca2">MR_GcodeProcessor</a> *_this)</td></tr>
+<tr class="separator:ae4fe0b445d71cd97762ec01f2ffcba39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66590c58c7d0466765bd523ff1740344" id="r_a66590c58c7d0466765bd523ff1740344"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRContour_8h.html#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66590c58c7d0466765bd523ff1740344">MR_GcodeProcessor_BaseAction_MR_Vector2f_Get_path</a> (const <a class="el" href="#a102198471a3767d59fe6d6a0c104da93">MR_GcodeProcessor_BaseAction_MR_Vector2f</a> *_this)</td></tr>
+<tr class="separator:a66590c58c7d0466765bd523ff1740344"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac3b40cd0c3708ab445b326685287c38" id="r_aac3b40cd0c3708ab445b326685287c38"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac3b40cd0c3708ab445b326685287c38">MR_GcodeProcessor_BaseAction_MR_Vector2f_Set_path</a> (<a class="el" href="#a102198471a3767d59fe6d6a0c104da93">MR_GcodeProcessor_BaseAction_MR_Vector2f</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MRContour_8h.html#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a> *value)</td></tr>
+<tr class="separator:aac3b40cd0c3708ab445b326685287c38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a720e413c915185e517125cae179a77cc" id="r_a720e413c915185e517125cae179a77cc"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRContour_8h.html#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a720e413c915185e517125cae179a77cc">MR_GcodeProcessor_BaseAction_MR_Vector2f_GetMutable_path</a> (<a class="el" href="#a102198471a3767d59fe6d6a0c104da93">MR_GcodeProcessor_BaseAction_MR_Vector2f</a> *_this)</td></tr>
+<tr class="separator:a720e413c915185e517125cae179a77cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a597f1f7b10413f5866258a48478eb5db" id="r_a597f1f7b10413f5866258a48478eb5db"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a597f1f7b10413f5866258a48478eb5db">MR_GcodeProcessor_BaseAction_MR_Vector2f_Get_warning</a> (const <a class="el" href="#a102198471a3767d59fe6d6a0c104da93">MR_GcodeProcessor_BaseAction_MR_Vector2f</a> *_this)</td></tr>
+<tr class="separator:a597f1f7b10413f5866258a48478eb5db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aceccac6418cffdc17dd08279acc8dbb2" id="r_aceccac6418cffdc17dd08279acc8dbb2"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aceccac6418cffdc17dd08279acc8dbb2">MR_GcodeProcessor_BaseAction_MR_Vector2f_Set_warning</a> (<a class="el" href="#a102198471a3767d59fe6d6a0c104da93">MR_GcodeProcessor_BaseAction_MR_Vector2f</a> *_this, const char *value, const char *value_end)</td></tr>
+<tr class="separator:aceccac6418cffdc17dd08279acc8dbb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0662870c3647193d5a9c232c961fa71" id="r_ab0662870c3647193d5a9c232c961fa71"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0662870c3647193d5a9c232c961fa71">MR_GcodeProcessor_BaseAction_MR_Vector2f_GetMutable_warning</a> (<a class="el" href="#a102198471a3767d59fe6d6a0c104da93">MR_GcodeProcessor_BaseAction_MR_Vector2f</a> *_this)</td></tr>
+<tr class="separator:ab0662870c3647193d5a9c232c961fa71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c509f9b1f85bb0589010992a111c640" id="r_a3c509f9b1f85bb0589010992a111c640"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a102198471a3767d59fe6d6a0c104da93">MR_GcodeProcessor_BaseAction_MR_Vector2f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c509f9b1f85bb0589010992a111c640">MR_GcodeProcessor_BaseAction_MR_Vector2f_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a3c509f9b1f85bb0589010992a111c640"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a8fa9a355adc1985a88d48c118d1958" id="r_a2a8fa9a355adc1985a88d48c118d1958"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a102198471a3767d59fe6d6a0c104da93">MR_GcodeProcessor_BaseAction_MR_Vector2f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a8fa9a355adc1985a88d48c118d1958">MR_GcodeProcessor_BaseAction_MR_Vector2f_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a2a8fa9a355adc1985a88d48c118d1958"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa461dd73c892c5f5d1f477d5b716293f" id="r_aa461dd73c892c5f5d1f477d5b716293f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a102198471a3767d59fe6d6a0c104da93">MR_GcodeProcessor_BaseAction_MR_Vector2f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa461dd73c892c5f5d1f477d5b716293f">MR_GcodeProcessor_BaseAction_MR_Vector2f_ConstructFrom</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> path_pass_by, <a class="el" href="MRContour_8h.html#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a> *path, const char *warning, const char *warning_end)</td></tr>
+<tr class="separator:aa461dd73c892c5f5d1f477d5b716293f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8cd6e42b8e6ee2b7ee7c58831d2f31ef" id="r_a8cd6e42b8e6ee2b7ee7c58831d2f31ef"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a102198471a3767d59fe6d6a0c104da93">MR_GcodeProcessor_BaseAction_MR_Vector2f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8cd6e42b8e6ee2b7ee7c58831d2f31ef">MR_GcodeProcessor_BaseAction_MR_Vector2f_OffsetPtr</a> (const <a class="el" href="#a102198471a3767d59fe6d6a0c104da93">MR_GcodeProcessor_BaseAction_MR_Vector2f</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a8cd6e42b8e6ee2b7ee7c58831d2f31ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a8cd6e42b8e6ee2b7ee7c58831d2f31ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4238fd3d9d73ec494023b06c4fce554" id="r_ad4238fd3d9d73ec494023b06c4fce554"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a102198471a3767d59fe6d6a0c104da93">MR_GcodeProcessor_BaseAction_MR_Vector2f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4238fd3d9d73ec494023b06c4fce554">MR_GcodeProcessor_BaseAction_MR_Vector2f_OffsetMutablePtr</a> (<a class="el" href="#a102198471a3767d59fe6d6a0c104da93">MR_GcodeProcessor_BaseAction_MR_Vector2f</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:ad4238fd3d9d73ec494023b06c4fce554"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:ad4238fd3d9d73ec494023b06c4fce554"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57bfee8f3d4a1bcd0ab15a5d6984c6cc" id="r_a57bfee8f3d4a1bcd0ab15a5d6984c6cc"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a102198471a3767d59fe6d6a0c104da93">MR_GcodeProcessor_BaseAction_MR_Vector2f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a57bfee8f3d4a1bcd0ab15a5d6984c6cc">MR_GcodeProcessor_BaseAction_MR_Vector2f_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a102198471a3767d59fe6d6a0c104da93">MR_GcodeProcessor_BaseAction_MR_Vector2f</a> *_other)</td></tr>
+<tr class="separator:a57bfee8f3d4a1bcd0ab15a5d6984c6cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad834cd5393ec6d862a262aeb90369088" id="r_ad834cd5393ec6d862a262aeb90369088"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad834cd5393ec6d862a262aeb90369088">MR_GcodeProcessor_BaseAction_MR_Vector2f_Destroy</a> (const <a class="el" href="#a102198471a3767d59fe6d6a0c104da93">MR_GcodeProcessor_BaseAction_MR_Vector2f</a> *_this)</td></tr>
+<tr class="memdesc:ad834cd5393ec6d862a262aeb90369088"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_GcodeProcessor_BaseAction_MR_Vector2f</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ad834cd5393ec6d862a262aeb90369088"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1bbfa48012a43a5ac598f6ce3a5084c" id="r_af1bbfa48012a43a5ac598f6ce3a5084c"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1bbfa48012a43a5ac598f6ce3a5084c">MR_GcodeProcessor_BaseAction_MR_Vector2f_DestroyArray</a> (const <a class="el" href="#a102198471a3767d59fe6d6a0c104da93">MR_GcodeProcessor_BaseAction_MR_Vector2f</a> *_this)</td></tr>
+<tr class="memdesc:af1bbfa48012a43a5ac598f6ce3a5084c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_GcodeProcessor_BaseAction_MR_Vector2f</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:af1bbfa48012a43a5ac598f6ce3a5084c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab77364382fa2d9a29426509879259e99" id="r_ab77364382fa2d9a29426509879259e99"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a102198471a3767d59fe6d6a0c104da93">MR_GcodeProcessor_BaseAction_MR_Vector2f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab77364382fa2d9a29426509879259e99">MR_GcodeProcessor_BaseAction_MR_Vector2f_AssignFromAnother</a> (<a class="el" href="#a102198471a3767d59fe6d6a0c104da93">MR_GcodeProcessor_BaseAction_MR_Vector2f</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a102198471a3767d59fe6d6a0c104da93">MR_GcodeProcessor_BaseAction_MR_Vector2f</a> *_other)</td></tr>
+<tr class="separator:ab77364382fa2d9a29426509879259e99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83fb44a857bd843a1c51ea1f8a518a92" id="r_a83fb44a857bd843a1c51ea1f8a518a92"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a83fb44a857bd843a1c51ea1f8a518a92">MR_GcodeProcessor_BaseAction_MR_Vector3f_Get_path</a> (const <a class="el" href="#a0f3a04a880d4501d50aa6ffcf780d707">MR_GcodeProcessor_BaseAction_MR_Vector3f</a> *_this)</td></tr>
+<tr class="separator:a83fb44a857bd843a1c51ea1f8a518a92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10194d8f29a00e7af929deb6e3bf73e2" id="r_a10194d8f29a00e7af929deb6e3bf73e2"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10194d8f29a00e7af929deb6e3bf73e2">MR_GcodeProcessor_BaseAction_MR_Vector3f_Set_path</a> (<a class="el" href="#a0f3a04a880d4501d50aa6ffcf780d707">MR_GcodeProcessor_BaseAction_MR_Vector3f</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *value)</td></tr>
+<tr class="separator:a10194d8f29a00e7af929deb6e3bf73e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef45cd7b403a89538e1a13525877d053" id="r_aef45cd7b403a89538e1a13525877d053"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef45cd7b403a89538e1a13525877d053">MR_GcodeProcessor_BaseAction_MR_Vector3f_GetMutable_path</a> (<a class="el" href="#a0f3a04a880d4501d50aa6ffcf780d707">MR_GcodeProcessor_BaseAction_MR_Vector3f</a> *_this)</td></tr>
+<tr class="separator:aef45cd7b403a89538e1a13525877d053"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0fd8981233e36b028a9bd36f26fcb77" id="r_af0fd8981233e36b028a9bd36f26fcb77"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0fd8981233e36b028a9bd36f26fcb77">MR_GcodeProcessor_BaseAction_MR_Vector3f_Get_warning</a> (const <a class="el" href="#a0f3a04a880d4501d50aa6ffcf780d707">MR_GcodeProcessor_BaseAction_MR_Vector3f</a> *_this)</td></tr>
+<tr class="separator:af0fd8981233e36b028a9bd36f26fcb77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd23c7e5a4f8244bd5cebc06f9ccc938" id="r_abd23c7e5a4f8244bd5cebc06f9ccc938"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd23c7e5a4f8244bd5cebc06f9ccc938">MR_GcodeProcessor_BaseAction_MR_Vector3f_Set_warning</a> (<a class="el" href="#a0f3a04a880d4501d50aa6ffcf780d707">MR_GcodeProcessor_BaseAction_MR_Vector3f</a> *_this, const char *value, const char *value_end)</td></tr>
+<tr class="separator:abd23c7e5a4f8244bd5cebc06f9ccc938"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1da8b8ffd3543fb44dcc7ba09e7b96d" id="r_aa1da8b8ffd3543fb44dcc7ba09e7b96d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1da8b8ffd3543fb44dcc7ba09e7b96d">MR_GcodeProcessor_BaseAction_MR_Vector3f_GetMutable_warning</a> (<a class="el" href="#a0f3a04a880d4501d50aa6ffcf780d707">MR_GcodeProcessor_BaseAction_MR_Vector3f</a> *_this)</td></tr>
+<tr class="separator:aa1da8b8ffd3543fb44dcc7ba09e7b96d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca990630df4ed169ca2c0ccb4aa3efa7" id="r_aca990630df4ed169ca2c0ccb4aa3efa7"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0f3a04a880d4501d50aa6ffcf780d707">MR_GcodeProcessor_BaseAction_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aca990630df4ed169ca2c0ccb4aa3efa7">MR_GcodeProcessor_BaseAction_MR_Vector3f_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:aca990630df4ed169ca2c0ccb4aa3efa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af39a5b274462d7e8a053aa7c4bb93cc6" id="r_af39a5b274462d7e8a053aa7c4bb93cc6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0f3a04a880d4501d50aa6ffcf780d707">MR_GcodeProcessor_BaseAction_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af39a5b274462d7e8a053aa7c4bb93cc6">MR_GcodeProcessor_BaseAction_MR_Vector3f_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:af39a5b274462d7e8a053aa7c4bb93cc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee9ccbe2ce3c48b7e6b0b880d15b82b7" id="r_aee9ccbe2ce3c48b7e6b0b880d15b82b7"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0f3a04a880d4501d50aa6ffcf780d707">MR_GcodeProcessor_BaseAction_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee9ccbe2ce3c48b7e6b0b880d15b82b7">MR_GcodeProcessor_BaseAction_MR_Vector3f_ConstructFrom</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> path_pass_by, <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *path, const char *warning, const char *warning_end)</td></tr>
+<tr class="separator:aee9ccbe2ce3c48b7e6b0b880d15b82b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d0fd1bc7875db0898c5c4bf44433021" id="r_a1d0fd1bc7875db0898c5c4bf44433021"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a0f3a04a880d4501d50aa6ffcf780d707">MR_GcodeProcessor_BaseAction_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d0fd1bc7875db0898c5c4bf44433021">MR_GcodeProcessor_BaseAction_MR_Vector3f_OffsetPtr</a> (const <a class="el" href="#a0f3a04a880d4501d50aa6ffcf780d707">MR_GcodeProcessor_BaseAction_MR_Vector3f</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a1d0fd1bc7875db0898c5c4bf44433021"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a1d0fd1bc7875db0898c5c4bf44433021"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d892c9840563647ceac6942be9de00f" id="r_a0d892c9840563647ceac6942be9de00f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0f3a04a880d4501d50aa6ffcf780d707">MR_GcodeProcessor_BaseAction_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d892c9840563647ceac6942be9de00f">MR_GcodeProcessor_BaseAction_MR_Vector3f_OffsetMutablePtr</a> (<a class="el" href="#a0f3a04a880d4501d50aa6ffcf780d707">MR_GcodeProcessor_BaseAction_MR_Vector3f</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a0d892c9840563647ceac6942be9de00f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a0d892c9840563647ceac6942be9de00f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a687263f07a73713b8f014ca84af91546" id="r_a687263f07a73713b8f014ca84af91546"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0f3a04a880d4501d50aa6ffcf780d707">MR_GcodeProcessor_BaseAction_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a687263f07a73713b8f014ca84af91546">MR_GcodeProcessor_BaseAction_MR_Vector3f_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a0f3a04a880d4501d50aa6ffcf780d707">MR_GcodeProcessor_BaseAction_MR_Vector3f</a> *_other)</td></tr>
+<tr class="separator:a687263f07a73713b8f014ca84af91546"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61757b8eef4341f681025e9364119d5f" id="r_a61757b8eef4341f681025e9364119d5f"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a61757b8eef4341f681025e9364119d5f">MR_GcodeProcessor_BaseAction_MR_Vector3f_Destroy</a> (const <a class="el" href="#a0f3a04a880d4501d50aa6ffcf780d707">MR_GcodeProcessor_BaseAction_MR_Vector3f</a> *_this)</td></tr>
+<tr class="memdesc:a61757b8eef4341f681025e9364119d5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_GcodeProcessor_BaseAction_MR_Vector3f</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a61757b8eef4341f681025e9364119d5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73b029330de1f185c1a27a643261aaa9" id="r_a73b029330de1f185c1a27a643261aaa9"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73b029330de1f185c1a27a643261aaa9">MR_GcodeProcessor_BaseAction_MR_Vector3f_DestroyArray</a> (const <a class="el" href="#a0f3a04a880d4501d50aa6ffcf780d707">MR_GcodeProcessor_BaseAction_MR_Vector3f</a> *_this)</td></tr>
+<tr class="memdesc:a73b029330de1f185c1a27a643261aaa9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_GcodeProcessor_BaseAction_MR_Vector3f</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a73b029330de1f185c1a27a643261aaa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a014a9eb1d6da6889db149594e0faa30b" id="r_a014a9eb1d6da6889db149594e0faa30b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0f3a04a880d4501d50aa6ffcf780d707">MR_GcodeProcessor_BaseAction_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a014a9eb1d6da6889db149594e0faa30b">MR_GcodeProcessor_BaseAction_MR_Vector3f_AssignFromAnother</a> (<a class="el" href="#a0f3a04a880d4501d50aa6ffcf780d707">MR_GcodeProcessor_BaseAction_MR_Vector3f</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a0f3a04a880d4501d50aa6ffcf780d707">MR_GcodeProcessor_BaseAction_MR_Vector3f</a> *_other)</td></tr>
+<tr class="separator:a014a9eb1d6da6889db149594e0faa30b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada3be59a00d5388cfa5ff31f4c86066e" id="r_ada3be59a00d5388cfa5ff31f4c86066e"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a0f3a04a880d4501d50aa6ffcf780d707">MR_GcodeProcessor_BaseAction_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada3be59a00d5388cfa5ff31f4c86066e">MR_GcodeProcessor_MoveAction_Get_action</a> (const <a class="el" href="#a18a0e6711c9d545039e776ae8e7685b4">MR_GcodeProcessor_MoveAction</a> *_this)</td></tr>
+<tr class="separator:ada3be59a00d5388cfa5ff31f4c86066e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5dfd29bd1524e12f180a25b4e4c735a5" id="r_a5dfd29bd1524e12f180a25b4e4c735a5"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5dfd29bd1524e12f180a25b4e4c735a5">MR_GcodeProcessor_MoveAction_Set_action</a> (<a class="el" href="#a18a0e6711c9d545039e776ae8e7685b4">MR_GcodeProcessor_MoveAction</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="#a0f3a04a880d4501d50aa6ffcf780d707">MR_GcodeProcessor_BaseAction_MR_Vector3f</a> *value)</td></tr>
+<tr class="separator:a5dfd29bd1524e12f180a25b4e4c735a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27f04be8f96613aaa06944f0dc28fc8b" id="r_a27f04be8f96613aaa06944f0dc28fc8b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0f3a04a880d4501d50aa6ffcf780d707">MR_GcodeProcessor_BaseAction_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a27f04be8f96613aaa06944f0dc28fc8b">MR_GcodeProcessor_MoveAction_GetMutable_action</a> (<a class="el" href="#a18a0e6711c9d545039e776ae8e7685b4">MR_GcodeProcessor_MoveAction</a> *_this)</td></tr>
+<tr class="separator:a27f04be8f96613aaa06944f0dc28fc8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18ef39cf3f35278cdb7e83edd4535221" id="r_a18ef39cf3f35278cdb7e83edd4535221"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18ef39cf3f35278cdb7e83edd4535221">MR_GcodeProcessor_MoveAction_Get_toolDirection</a> (const <a class="el" href="#a18a0e6711c9d545039e776ae8e7685b4">MR_GcodeProcessor_MoveAction</a> *_this)</td></tr>
+<tr class="separator:a18ef39cf3f35278cdb7e83edd4535221"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cf1e209a9e33804cce66f49cf6e2af5" id="r_a7cf1e209a9e33804cce66f49cf6e2af5"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7cf1e209a9e33804cce66f49cf6e2af5">MR_GcodeProcessor_MoveAction_Set_toolDirection</a> (<a class="el" href="#a18a0e6711c9d545039e776ae8e7685b4">MR_GcodeProcessor_MoveAction</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *value)</td></tr>
+<tr class="separator:a7cf1e209a9e33804cce66f49cf6e2af5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb428d2824f235d153313118bc3ba9ed" id="r_adb428d2824f235d153313118bc3ba9ed"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb428d2824f235d153313118bc3ba9ed">MR_GcodeProcessor_MoveAction_GetMutable_toolDirection</a> (<a class="el" href="#a18a0e6711c9d545039e776ae8e7685b4">MR_GcodeProcessor_MoveAction</a> *_this)</td></tr>
+<tr class="separator:adb428d2824f235d153313118bc3ba9ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a377051cbe91210066827efc51991048d" id="r_a377051cbe91210066827efc51991048d"><td class="memItemLeft" align="right" valign="top">MRC_API const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a377051cbe91210066827efc51991048d">MR_GcodeProcessor_MoveAction_Get_idle</a> (const <a class="el" href="#a18a0e6711c9d545039e776ae8e7685b4">MR_GcodeProcessor_MoveAction</a> *_this)</td></tr>
+<tr class="separator:a377051cbe91210066827efc51991048d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8feff90b29bbaa120f7d20698c35138" id="r_ad8feff90b29bbaa120f7d20698c35138"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8feff90b29bbaa120f7d20698c35138">MR_GcodeProcessor_MoveAction_Set_idle</a> (<a class="el" href="#a18a0e6711c9d545039e776ae8e7685b4">MR_GcodeProcessor_MoveAction</a> *_this, bool value)</td></tr>
+<tr class="separator:ad8feff90b29bbaa120f7d20698c35138"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a671bf424e9e921d5f5f29b253158d196" id="r_a671bf424e9e921d5f5f29b253158d196"><td class="memItemLeft" align="right" valign="top">MRC_API bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a671bf424e9e921d5f5f29b253158d196">MR_GcodeProcessor_MoveAction_GetMutable_idle</a> (<a class="el" href="#a18a0e6711c9d545039e776ae8e7685b4">MR_GcodeProcessor_MoveAction</a> *_this)</td></tr>
+<tr class="separator:a671bf424e9e921d5f5f29b253158d196"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada68982c5675924ff472e9af60a335fe" id="r_ada68982c5675924ff472e9af60a335fe"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada68982c5675924ff472e9af60a335fe">MR_GcodeProcessor_MoveAction_Get_feedrate</a> (const <a class="el" href="#a18a0e6711c9d545039e776ae8e7685b4">MR_GcodeProcessor_MoveAction</a> *_this)</td></tr>
+<tr class="separator:ada68982c5675924ff472e9af60a335fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac82def65565ce9d6dabbe28ae10457a6" id="r_ac82def65565ce9d6dabbe28ae10457a6"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac82def65565ce9d6dabbe28ae10457a6">MR_GcodeProcessor_MoveAction_Set_feedrate</a> (<a class="el" href="#a18a0e6711c9d545039e776ae8e7685b4">MR_GcodeProcessor_MoveAction</a> *_this, float value)</td></tr>
+<tr class="separator:ac82def65565ce9d6dabbe28ae10457a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afeea5865597ac4042234168496f02d05" id="r_afeea5865597ac4042234168496f02d05"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afeea5865597ac4042234168496f02d05">MR_GcodeProcessor_MoveAction_GetMutable_feedrate</a> (<a class="el" href="#a18a0e6711c9d545039e776ae8e7685b4">MR_GcodeProcessor_MoveAction</a> *_this)</td></tr>
+<tr class="separator:afeea5865597ac4042234168496f02d05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a288e21d85c929e47a46440fca9d370ad" id="r_a288e21d85c929e47a46440fca9d370ad"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a18a0e6711c9d545039e776ae8e7685b4">MR_GcodeProcessor_MoveAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a288e21d85c929e47a46440fca9d370ad">MR_GcodeProcessor_MoveAction_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a288e21d85c929e47a46440fca9d370ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1181add62aa11d303697d97f5572a044" id="r_a1181add62aa11d303697d97f5572a044"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a18a0e6711c9d545039e776ae8e7685b4">MR_GcodeProcessor_MoveAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1181add62aa11d303697d97f5572a044">MR_GcodeProcessor_MoveAction_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a1181add62aa11d303697d97f5572a044"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56f07d4e457f88af34a01ab46d4ae472" id="r_a56f07d4e457f88af34a01ab46d4ae472"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a18a0e6711c9d545039e776ae8e7685b4">MR_GcodeProcessor_MoveAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56f07d4e457f88af34a01ab46d4ae472">MR_GcodeProcessor_MoveAction_ConstructFrom</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> action_pass_by, <a class="el" href="#a0f3a04a880d4501d50aa6ffcf780d707">MR_GcodeProcessor_BaseAction_MR_Vector3f</a> *<a class="elRef" href="../Cpp/group__HistoryGroup.html#gab0a69b615a514d76010260695c2116e5">action</a>, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> toolDirection_pass_by, <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *toolDirection, bool idle, float feedrate)</td></tr>
+<tr class="separator:a56f07d4e457f88af34a01ab46d4ae472"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af17a7b6bb81f39230c82bde7f27bdd17" id="r_af17a7b6bb81f39230c82bde7f27bdd17"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a18a0e6711c9d545039e776ae8e7685b4">MR_GcodeProcessor_MoveAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af17a7b6bb81f39230c82bde7f27bdd17">MR_GcodeProcessor_MoveAction_OffsetPtr</a> (const <a class="el" href="#a18a0e6711c9d545039e776ae8e7685b4">MR_GcodeProcessor_MoveAction</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:af17a7b6bb81f39230c82bde7f27bdd17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:af17a7b6bb81f39230c82bde7f27bdd17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac9cab0708340b8e2a4b1fcffe8077b5" id="r_aac9cab0708340b8e2a4b1fcffe8077b5"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a18a0e6711c9d545039e776ae8e7685b4">MR_GcodeProcessor_MoveAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac9cab0708340b8e2a4b1fcffe8077b5">MR_GcodeProcessor_MoveAction_OffsetMutablePtr</a> (<a class="el" href="#a18a0e6711c9d545039e776ae8e7685b4">MR_GcodeProcessor_MoveAction</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:aac9cab0708340b8e2a4b1fcffe8077b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:aac9cab0708340b8e2a4b1fcffe8077b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67debab6b04345e7cdbb944fc6a2d550" id="r_a67debab6b04345e7cdbb944fc6a2d550"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a18a0e6711c9d545039e776ae8e7685b4">MR_GcodeProcessor_MoveAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67debab6b04345e7cdbb944fc6a2d550">MR_GcodeProcessor_MoveAction_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a18a0e6711c9d545039e776ae8e7685b4">MR_GcodeProcessor_MoveAction</a> *_other)</td></tr>
+<tr class="separator:a67debab6b04345e7cdbb944fc6a2d550"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e07dd4f710d23714369a4549cc2eacf" id="r_a2e07dd4f710d23714369a4549cc2eacf"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e07dd4f710d23714369a4549cc2eacf">MR_GcodeProcessor_MoveAction_Destroy</a> (const <a class="el" href="#a18a0e6711c9d545039e776ae8e7685b4">MR_GcodeProcessor_MoveAction</a> *_this)</td></tr>
+<tr class="memdesc:a2e07dd4f710d23714369a4549cc2eacf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_GcodeProcessor_MoveAction</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a2e07dd4f710d23714369a4549cc2eacf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7673d96c474145d70d631e35924193f" id="r_af7673d96c474145d70d631e35924193f"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7673d96c474145d70d631e35924193f">MR_GcodeProcessor_MoveAction_DestroyArray</a> (const <a class="el" href="#a18a0e6711c9d545039e776ae8e7685b4">MR_GcodeProcessor_MoveAction</a> *_this)</td></tr>
+<tr class="memdesc:af7673d96c474145d70d631e35924193f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_GcodeProcessor_MoveAction</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:af7673d96c474145d70d631e35924193f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a421ab43bd150a96224088407c7160823" id="r_a421ab43bd150a96224088407c7160823"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a421ab43bd150a96224088407c7160823">MR_GcodeProcessor_MoveAction_ConvertTo_bool</a> (const <a class="el" href="#a18a0e6711c9d545039e776ae8e7685b4">MR_GcodeProcessor_MoveAction</a> *_this)</td></tr>
+<tr class="separator:a421ab43bd150a96224088407c7160823"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2de5320a5531ee05b909d21e33e2642f" id="r_a2de5320a5531ee05b909d21e33e2642f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a18a0e6711c9d545039e776ae8e7685b4">MR_GcodeProcessor_MoveAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2de5320a5531ee05b909d21e33e2642f">MR_GcodeProcessor_MoveAction_AssignFromAnother</a> (<a class="el" href="#a18a0e6711c9d545039e776ae8e7685b4">MR_GcodeProcessor_MoveAction</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a18a0e6711c9d545039e776ae8e7685b4">MR_GcodeProcessor_MoveAction</a> *_other)</td></tr>
+<tr class="separator:a2de5320a5531ee05b909d21e33e2642f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af288337f2c8991f8b671d16102d74d2c" id="r_af288337f2c8991f8b671d16102d74d2c"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af288337f2c8991f8b671d16102d74d2c">MR_GcodeProcessor_MoveAction_valid</a> (const <a class="el" href="#a18a0e6711c9d545039e776ae8e7685b4">MR_GcodeProcessor_MoveAction</a> *_this)</td></tr>
+<tr class="separator:af288337f2c8991f8b671d16102d74d2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7e4b10a419595c67c416d3b12b9c4b1" id="r_aa7e4b10a419595c67c416d3b12b9c4b1"><td class="memItemLeft" align="right" valign="top">MRC_API const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7e4b10a419595c67c416d3b12b9c4b1">MR_GcodeProcessor_Command_Get_key</a> (const <a class="el" href="#a2dfa7f50d06ba9cf366accd703febb8c">MR_GcodeProcessor_Command</a> *_this)</td></tr>
+<tr class="separator:aa7e4b10a419595c67c416d3b12b9c4b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab56caf99642daf1591e29bbff2dbd9d9" id="r_ab56caf99642daf1591e29bbff2dbd9d9"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab56caf99642daf1591e29bbff2dbd9d9">MR_GcodeProcessor_Command_Set_key</a> (<a class="el" href="#a2dfa7f50d06ba9cf366accd703febb8c">MR_GcodeProcessor_Command</a> *_this, char value)</td></tr>
+<tr class="separator:ab56caf99642daf1591e29bbff2dbd9d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aace988ef0a926c3031fa20604231d3ee" id="r_aace988ef0a926c3031fa20604231d3ee"><td class="memItemLeft" align="right" valign="top">MRC_API char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aace988ef0a926c3031fa20604231d3ee">MR_GcodeProcessor_Command_GetMutable_key</a> (<a class="el" href="#a2dfa7f50d06ba9cf366accd703febb8c">MR_GcodeProcessor_Command</a> *_this)</td></tr>
+<tr class="separator:aace988ef0a926c3031fa20604231d3ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ba54ca4bcdf5c8d648133fa4891bceb" id="r_a2ba54ca4bcdf5c8d648133fa4891bceb"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ba54ca4bcdf5c8d648133fa4891bceb">MR_GcodeProcessor_Command_Get_value</a> (const <a class="el" href="#a2dfa7f50d06ba9cf366accd703febb8c">MR_GcodeProcessor_Command</a> *_this)</td></tr>
+<tr class="separator:a2ba54ca4bcdf5c8d648133fa4891bceb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34fee6011cc1e7b694ee3f0a2e305b46" id="r_a34fee6011cc1e7b694ee3f0a2e305b46"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34fee6011cc1e7b694ee3f0a2e305b46">MR_GcodeProcessor_Command_Set_value</a> (<a class="el" href="#a2dfa7f50d06ba9cf366accd703febb8c">MR_GcodeProcessor_Command</a> *_this, float value)</td></tr>
+<tr class="separator:a34fee6011cc1e7b694ee3f0a2e305b46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a427130a26b5abd95964f56e04fdfb0df" id="r_a427130a26b5abd95964f56e04fdfb0df"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a427130a26b5abd95964f56e04fdfb0df">MR_GcodeProcessor_Command_GetMutable_value</a> (<a class="el" href="#a2dfa7f50d06ba9cf366accd703febb8c">MR_GcodeProcessor_Command</a> *_this)</td></tr>
+<tr class="separator:a427130a26b5abd95964f56e04fdfb0df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e88d478f03ad3c8671deab017bdcecc" id="r_a2e88d478f03ad3c8671deab017bdcecc"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a2dfa7f50d06ba9cf366accd703febb8c">MR_GcodeProcessor_Command</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e88d478f03ad3c8671deab017bdcecc">MR_GcodeProcessor_Command_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a2e88d478f03ad3c8671deab017bdcecc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7fe9c909361c29573537a59607efb0d" id="r_ab7fe9c909361c29573537a59607efb0d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a2dfa7f50d06ba9cf366accd703febb8c">MR_GcodeProcessor_Command</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7fe9c909361c29573537a59607efb0d">MR_GcodeProcessor_Command_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:ab7fe9c909361c29573537a59607efb0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acda5ac2d221ac666bfdd20e6192fb211" id="r_acda5ac2d221ac666bfdd20e6192fb211"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a2dfa7f50d06ba9cf366accd703febb8c">MR_GcodeProcessor_Command</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acda5ac2d221ac666bfdd20e6192fb211">MR_GcodeProcessor_Command_ConstructFrom</a> (char key, float value)</td></tr>
+<tr class="separator:acda5ac2d221ac666bfdd20e6192fb211"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70317fcdaa76bd596f7d3c60f631d7e3" id="r_a70317fcdaa76bd596f7d3c60f631d7e3"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a2dfa7f50d06ba9cf366accd703febb8c">MR_GcodeProcessor_Command</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70317fcdaa76bd596f7d3c60f631d7e3">MR_GcodeProcessor_Command_OffsetPtr</a> (const <a class="el" href="#a2dfa7f50d06ba9cf366accd703febb8c">MR_GcodeProcessor_Command</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a70317fcdaa76bd596f7d3c60f631d7e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a70317fcdaa76bd596f7d3c60f631d7e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3ce68757e2f0ab66481408c32d10bd3" id="r_ab3ce68757e2f0ab66481408c32d10bd3"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a2dfa7f50d06ba9cf366accd703febb8c">MR_GcodeProcessor_Command</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3ce68757e2f0ab66481408c32d10bd3">MR_GcodeProcessor_Command_OffsetMutablePtr</a> (<a class="el" href="#a2dfa7f50d06ba9cf366accd703febb8c">MR_GcodeProcessor_Command</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:ab3ce68757e2f0ab66481408c32d10bd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:ab3ce68757e2f0ab66481408c32d10bd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92f700c102562b91a9f100ee4330480f" id="r_a92f700c102562b91a9f100ee4330480f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a2dfa7f50d06ba9cf366accd703febb8c">MR_GcodeProcessor_Command</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a92f700c102562b91a9f100ee4330480f">MR_GcodeProcessor_Command_ConstructFromAnother</a> (const <a class="el" href="#a2dfa7f50d06ba9cf366accd703febb8c">MR_GcodeProcessor_Command</a> *_other)</td></tr>
+<tr class="separator:a92f700c102562b91a9f100ee4330480f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d4275d8c0916de0f1c15d5f57f7e8bc" id="r_a6d4275d8c0916de0f1c15d5f57f7e8bc"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d4275d8c0916de0f1c15d5f57f7e8bc">MR_GcodeProcessor_Command_Destroy</a> (const <a class="el" href="#a2dfa7f50d06ba9cf366accd703febb8c">MR_GcodeProcessor_Command</a> *_this)</td></tr>
+<tr class="memdesc:a6d4275d8c0916de0f1c15d5f57f7e8bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_GcodeProcessor_Command</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a6d4275d8c0916de0f1c15d5f57f7e8bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea34220c947323ce08c4b51c8f55321f" id="r_aea34220c947323ce08c4b51c8f55321f"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea34220c947323ce08c4b51c8f55321f">MR_GcodeProcessor_Command_DestroyArray</a> (const <a class="el" href="#a2dfa7f50d06ba9cf366accd703febb8c">MR_GcodeProcessor_Command</a> *_this)</td></tr>
+<tr class="memdesc:aea34220c947323ce08c4b51c8f55321f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_GcodeProcessor_Command</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:aea34220c947323ce08c4b51c8f55321f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a135e04c85fdda4b8ba65cfdfdd6d2cc6" id="r_a135e04c85fdda4b8ba65cfdfdd6d2cc6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a2dfa7f50d06ba9cf366accd703febb8c">MR_GcodeProcessor_Command</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a135e04c85fdda4b8ba65cfdfdd6d2cc6">MR_GcodeProcessor_Command_AssignFromAnother</a> (<a class="el" href="#a2dfa7f50d06ba9cf366accd703febb8c">MR_GcodeProcessor_Command</a> *_this, const <a class="el" href="#a2dfa7f50d06ba9cf366accd703febb8c">MR_GcodeProcessor_Command</a> *_other)</td></tr>
+<tr class="separator:a135e04c85fdda4b8ba65cfdfdd6d2cc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a325911971cee7957b63b98e5d38aedc4" name="a325911971cee7957b63b98e5d38aedc4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a325911971cee7957b63b98e5d38aedc4">&#9670;&#160;</a></span>MR_CNCMachineSettings</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRCNCMachineSettings_8h.html#a325911971cee7957b63b98e5d38aedc4">MR_CNCMachineSettings</a> <a class="el" href="MRCNCMachineSettings_8h.html#a325911971cee7957b63b98e5d38aedc4">MR_CNCMachineSettings</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9ac6289dc28b26197d3bce9b7a888ca2" name="a9ac6289dc28b26197d3bce9b7a888ca2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ac6289dc28b26197d3bce9b7a888ca2">&#9670;&#160;</a></span>MR_GcodeProcessor</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a9ac6289dc28b26197d3bce9b7a888ca2">MR_GcodeProcessor</a> <a class="el" href="#a9ac6289dc28b26197d3bce9b7a888ca2">MR_GcodeProcessor</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1GcodeProcessor.html">MR::GcodeProcessor</a></code>. </p>
+
+</div>
+</div>
+<a id="a102198471a3767d59fe6d6a0c104da93" name="a102198471a3767d59fe6d6a0c104da93"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a102198471a3767d59fe6d6a0c104da93">&#9670;&#160;</a></span>MR_GcodeProcessor_BaseAction_MR_Vector2f</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a102198471a3767d59fe6d6a0c104da93">MR_GcodeProcessor_BaseAction_MR_Vector2f</a> <a class="el" href="#a102198471a3767d59fe6d6a0c104da93">MR_GcodeProcessor_BaseAction_MR_Vector2f</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1GcodeProcessor_1_1BaseAction.html">MR::GcodeProcessor::BaseAction</a>&lt;MR::Vector2f&gt;</code>. </p>
+
+</div>
+</div>
+<a id="a0f3a04a880d4501d50aa6ffcf780d707" name="a0f3a04a880d4501d50aa6ffcf780d707"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f3a04a880d4501d50aa6ffcf780d707">&#9670;&#160;</a></span>MR_GcodeProcessor_BaseAction_MR_Vector3f</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a0f3a04a880d4501d50aa6ffcf780d707">MR_GcodeProcessor_BaseAction_MR_Vector3f</a> <a class="el" href="#a0f3a04a880d4501d50aa6ffcf780d707">MR_GcodeProcessor_BaseAction_MR_Vector3f</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1GcodeProcessor_1_1BaseAction.html">MR::GcodeProcessor::BaseAction</a>&lt;MR::Vector3f&gt;</code>. </p>
+
+</div>
+</div>
+<a id="a2dfa7f50d06ba9cf366accd703febb8c" name="a2dfa7f50d06ba9cf366accd703febb8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2dfa7f50d06ba9cf366accd703febb8c">&#9670;&#160;</a></span>MR_GcodeProcessor_Command</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a2dfa7f50d06ba9cf366accd703febb8c">MR_GcodeProcessor_Command</a> <a class="el" href="#a2dfa7f50d06ba9cf366accd703febb8c">MR_GcodeProcessor_Command</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1GcodeProcessor_1_1Command.html">MR::GcodeProcessor::Command</a></code>. </p>
+
+</div>
+</div>
+<a id="a18a0e6711c9d545039e776ae8e7685b4" name="a18a0e6711c9d545039e776ae8e7685b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18a0e6711c9d545039e776ae8e7685b4">&#9670;&#160;</a></span>MR_GcodeProcessor_MoveAction</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a18a0e6711c9d545039e776ae8e7685b4">MR_GcodeProcessor_MoveAction</a> <a class="el" href="#a18a0e6711c9d545039e776ae8e7685b4">MR_GcodeProcessor_MoveAction</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1GcodeProcessor_1_1MoveAction.html">MR::GcodeProcessor::MoveAction</a></code>. </p>
+
+</div>
+</div>
+<a id="a69dc6868c10c92fb8b8a255b0130d289" name="a69dc6868c10c92fb8b8a255b0130d289"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69dc6868c10c92fb8b8a255b0130d289">&#9670;&#160;</a></span>MR_std_string</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5bba1b4d4d65cea43177e79dcd45f502" name="a5bba1b4d4d65cea43177e79dcd45f502"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5bba1b4d4d65cea43177e79dcd45f502">&#9670;&#160;</a></span>MR_std_vector_MR_GcodeProcessor_Command</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a5bba1b4d4d65cea43177e79dcd45f502">MR_std_vector_MR_GcodeProcessor_Command</a> <a class="el" href="#a5bba1b4d4d65cea43177e79dcd45f502">MR_std_vector_MR_GcodeProcessor_Command</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac9be9ae97af22d55be76e6cf4df34f8a" name="ac9be9ae97af22d55be76e6cf4df34f8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9be9ae97af22d55be76e6cf4df34f8a">&#9670;&#160;</a></span>MR_std_vector_MR_GcodeProcessor_MoveAction</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#ac9be9ae97af22d55be76e6cf4df34f8a">MR_std_vector_MR_GcodeProcessor_MoveAction</a> <a class="el" href="#ac9be9ae97af22d55be76e6cf4df34f8a">MR_std_vector_MR_GcodeProcessor_MoveAction</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af3ae972f4acf6dd1ffc9c11061641f3f" name="af3ae972f4acf6dd1ffc9c11061641f3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3ae972f4acf6dd1ffc9c11061641f3f">&#9670;&#160;</a></span>MR_std_vector_MR_Vector2f</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRContour_8h.html#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a> <a class="el" href="MRContour_8h.html#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aefed148a09a0ae55edbd22814638b462" name="aefed148a09a0ae55edbd22814638b462"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefed148a09a0ae55edbd22814638b462">&#9670;&#160;</a></span>MR_std_vector_MR_Vector3f</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab26d333cd7549e6f3f49cc80e3ba5900" name="ab26d333cd7549e6f3f49cc80e3ba5900"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab26d333cd7549e6f3f49cc80e3ba5900">&#9670;&#160;</a></span>MR_std_vector_std_string</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAngleMeasurementObject_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> <a class="el" href="MRAngleMeasurementObject_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a8a42719ffb7857e490d0f217a5eef6bb" name="a8a42719ffb7857e490d0f217a5eef6bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a42719ffb7857e490d0f217a5eef6bb">&#9670;&#160;</a></span>MR_GcodeProcessor_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a9ac6289dc28b26197d3bce9b7a888ca2">MR_GcodeProcessor</a> * MR_GcodeProcessor_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a9ac6289dc28b26197d3bce9b7a888ca2">MR_GcodeProcessor</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a9ac6289dc28b26197d3bce9b7a888ca2">MR_GcodeProcessor</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1GcodeProcessor.html">MR::GcodeProcessor</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ab77364382fa2d9a29426509879259e99" name="ab77364382fa2d9a29426509879259e99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab77364382fa2d9a29426509879259e99">&#9670;&#160;</a></span>MR_GcodeProcessor_BaseAction_MR_Vector2f_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a102198471a3767d59fe6d6a0c104da93">MR_GcodeProcessor_BaseAction_MR_Vector2f</a> * MR_GcodeProcessor_BaseAction_MR_Vector2f_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a102198471a3767d59fe6d6a0c104da93">MR_GcodeProcessor_BaseAction_MR_Vector2f</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a102198471a3767d59fe6d6a0c104da93">MR_GcodeProcessor_BaseAction_MR_Vector2f</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1GcodeProcessor_1_1BaseAction.html">MR::GcodeProcessor::BaseAction</a>&lt;MR::Vector2f&gt;</code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="aa461dd73c892c5f5d1f477d5b716293f" name="aa461dd73c892c5f5d1f477d5b716293f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa461dd73c892c5f5d1f477d5b716293f">&#9670;&#160;</a></span>MR_GcodeProcessor_BaseAction_MR_Vector2f_ConstructFrom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a102198471a3767d59fe6d6a0c104da93">MR_GcodeProcessor_BaseAction_MR_Vector2f</a> * MR_GcodeProcessor_BaseAction_MR_Vector2f_ConstructFrom </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>path_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRContour_8h.html#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a> *</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>warning</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>warning_end</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1GcodeProcessor_1_1BaseAction.html">MR::GcodeProcessor::BaseAction</a>&lt;MR::Vector2f&gt;</code> elementwise. Parameter <code>warning</code> can not be null. If <code>warning_end</code> is null, then <code>warning</code> is assumed to be null-terminated. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ad834cd5393ec6d862a262aeb90369088" title="Destroys a heap-allocated instance of MR_GcodeProcessor_BaseAction_MR_Vector2f. Does nothing if the p...">MR_GcodeProcessor_BaseAction_MR_Vector2f_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a57bfee8f3d4a1bcd0ab15a5d6984c6cc" name="a57bfee8f3d4a1bcd0ab15a5d6984c6cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57bfee8f3d4a1bcd0ab15a5d6984c6cc">&#9670;&#160;</a></span>MR_GcodeProcessor_BaseAction_MR_Vector2f_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a102198471a3767d59fe6d6a0c104da93">MR_GcodeProcessor_BaseAction_MR_Vector2f</a> * MR_GcodeProcessor_BaseAction_MR_Vector2f_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a102198471a3767d59fe6d6a0c104da93">MR_GcodeProcessor_BaseAction_MR_Vector2f</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1GcodeProcessor_1_1BaseAction.html">MR::GcodeProcessor::BaseAction</a>&lt;MR::Vector2f&gt;</code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ad834cd5393ec6d862a262aeb90369088" title="Destroys a heap-allocated instance of MR_GcodeProcessor_BaseAction_MR_Vector2f. Does nothing if the p...">MR_GcodeProcessor_BaseAction_MR_Vector2f_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a3c509f9b1f85bb0589010992a111c640" name="a3c509f9b1f85bb0589010992a111c640"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c509f9b1f85bb0589010992a111c640">&#9670;&#160;</a></span>MR_GcodeProcessor_BaseAction_MR_Vector2f_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a102198471a3767d59fe6d6a0c104da93">MR_GcodeProcessor_BaseAction_MR_Vector2f</a> * MR_GcodeProcessor_BaseAction_MR_Vector2f_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ad834cd5393ec6d862a262aeb90369088" title="Destroys a heap-allocated instance of MR_GcodeProcessor_BaseAction_MR_Vector2f. Does nothing if the p...">MR_GcodeProcessor_BaseAction_MR_Vector2f_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a2a8fa9a355adc1985a88d48c118d1958" name="a2a8fa9a355adc1985a88d48c118d1958"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a8fa9a355adc1985a88d48c118d1958">&#9670;&#160;</a></span>MR_GcodeProcessor_BaseAction_MR_Vector2f_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a102198471a3767d59fe6d6a0c104da93">MR_GcodeProcessor_BaseAction_MR_Vector2f</a> * MR_GcodeProcessor_BaseAction_MR_Vector2f_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#af1bbfa48012a43a5ac598f6ce3a5084c" title="Destroys a heap-allocated array of MR_GcodeProcessor_BaseAction_MR_Vector2f. Does nothing if the poin...">MR_GcodeProcessor_BaseAction_MR_Vector2f_DestroyArray()</a></code>. Use <code><a class="el" href="#ad4238fd3d9d73ec494023b06c4fce554" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_GcodeProcessor_BaseAction_MR_Vector2f_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a8cd6e42b8e6ee2b7ee7c58831d2f31ef" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_GcodeProcessor_BaseAction_MR_Vector2f_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="ad834cd5393ec6d862a262aeb90369088" name="ad834cd5393ec6d862a262aeb90369088"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad834cd5393ec6d862a262aeb90369088">&#9670;&#160;</a></span>MR_GcodeProcessor_BaseAction_MR_Vector2f_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_GcodeProcessor_BaseAction_MR_Vector2f_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a102198471a3767d59fe6d6a0c104da93">MR_GcodeProcessor_BaseAction_MR_Vector2f</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_GcodeProcessor_BaseAction_MR_Vector2f</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="af1bbfa48012a43a5ac598f6ce3a5084c" name="af1bbfa48012a43a5ac598f6ce3a5084c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1bbfa48012a43a5ac598f6ce3a5084c">&#9670;&#160;</a></span>MR_GcodeProcessor_BaseAction_MR_Vector2f_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_GcodeProcessor_BaseAction_MR_Vector2f_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a102198471a3767d59fe6d6a0c104da93">MR_GcodeProcessor_BaseAction_MR_Vector2f</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_GcodeProcessor_BaseAction_MR_Vector2f</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a66590c58c7d0466765bd523ff1740344" name="a66590c58c7d0466765bd523ff1740344"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66590c58c7d0466765bd523ff1740344">&#9670;&#160;</a></span>MR_GcodeProcessor_BaseAction_MR_Vector2f_Get_path()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRContour_8h.html#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a> * MR_GcodeProcessor_BaseAction_MR_Vector2f_Get_path </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a102198471a3767d59fe6d6a0c104da93">MR_GcodeProcessor_BaseAction_MR_Vector2f</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1GcodeProcessor_1_1BaseAction.html">MR::GcodeProcessor::BaseAction</a>&lt;MR::Vector2f&gt;</code> named <code>path</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a597f1f7b10413f5866258a48478eb5db" name="a597f1f7b10413f5866258a48478eb5db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a597f1f7b10413f5866258a48478eb5db">&#9670;&#160;</a></span>MR_GcodeProcessor_BaseAction_MR_Vector2f_Get_warning()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_GcodeProcessor_BaseAction_MR_Vector2f_Get_warning </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a102198471a3767d59fe6d6a0c104da93">MR_GcodeProcessor_BaseAction_MR_Vector2f</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1GcodeProcessor_1_1BaseAction.html">MR::GcodeProcessor::BaseAction</a>&lt;MR::Vector2f&gt;</code> named <code>warning</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a720e413c915185e517125cae179a77cc" name="a720e413c915185e517125cae179a77cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a720e413c915185e517125cae179a77cc">&#9670;&#160;</a></span>MR_GcodeProcessor_BaseAction_MR_Vector2f_GetMutable_path()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRContour_8h.html#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a> * MR_GcodeProcessor_BaseAction_MR_Vector2f_GetMutable_path </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a102198471a3767d59fe6d6a0c104da93">MR_GcodeProcessor_BaseAction_MR_Vector2f</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1GcodeProcessor_1_1BaseAction.html">MR::GcodeProcessor::BaseAction</a>&lt;MR::Vector2f&gt;</code> named <code>path</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ab0662870c3647193d5a9c232c961fa71" name="ab0662870c3647193d5a9c232c961fa71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0662870c3647193d5a9c232c961fa71">&#9670;&#160;</a></span>MR_GcodeProcessor_BaseAction_MR_Vector2f_GetMutable_warning()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_GcodeProcessor_BaseAction_MR_Vector2f_GetMutable_warning </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a102198471a3767d59fe6d6a0c104da93">MR_GcodeProcessor_BaseAction_MR_Vector2f</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1GcodeProcessor_1_1BaseAction.html">MR::GcodeProcessor::BaseAction</a>&lt;MR::Vector2f&gt;</code> named <code>warning</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ad4238fd3d9d73ec494023b06c4fce554" name="ad4238fd3d9d73ec494023b06c4fce554"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4238fd3d9d73ec494023b06c4fce554">&#9670;&#160;</a></span>MR_GcodeProcessor_BaseAction_MR_Vector2f_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a102198471a3767d59fe6d6a0c104da93">MR_GcodeProcessor_BaseAction_MR_Vector2f</a> * MR_GcodeProcessor_BaseAction_MR_Vector2f_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a102198471a3767d59fe6d6a0c104da93">MR_GcodeProcessor_BaseAction_MR_Vector2f</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a8cd6e42b8e6ee2b7ee7c58831d2f31ef" name="a8cd6e42b8e6ee2b7ee7c58831d2f31ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8cd6e42b8e6ee2b7ee7c58831d2f31ef">&#9670;&#160;</a></span>MR_GcodeProcessor_BaseAction_MR_Vector2f_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a102198471a3767d59fe6d6a0c104da93">MR_GcodeProcessor_BaseAction_MR_Vector2f</a> * MR_GcodeProcessor_BaseAction_MR_Vector2f_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a102198471a3767d59fe6d6a0c104da93">MR_GcodeProcessor_BaseAction_MR_Vector2f</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="aac3b40cd0c3708ab445b326685287c38" name="aac3b40cd0c3708ab445b326685287c38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac3b40cd0c3708ab445b326685287c38">&#9670;&#160;</a></span>MR_GcodeProcessor_BaseAction_MR_Vector2f_Set_path()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_GcodeProcessor_BaseAction_MR_Vector2f_Set_path </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a102198471a3767d59fe6d6a0c104da93">MR_GcodeProcessor_BaseAction_MR_Vector2f</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRContour_8h.html#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1GcodeProcessor_1_1BaseAction.html">MR::GcodeProcessor::BaseAction</a>&lt;MR::Vector2f&gt;</code> named <code>path</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aceccac6418cffdc17dd08279acc8dbb2" name="aceccac6418cffdc17dd08279acc8dbb2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aceccac6418cffdc17dd08279acc8dbb2">&#9670;&#160;</a></span>MR_GcodeProcessor_BaseAction_MR_Vector2f_Set_warning()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_GcodeProcessor_BaseAction_MR_Vector2f_Set_warning </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a102198471a3767d59fe6d6a0c104da93">MR_GcodeProcessor_BaseAction_MR_Vector2f</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>value_end</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1GcodeProcessor_1_1BaseAction.html">MR::GcodeProcessor::BaseAction</a>&lt;MR::Vector2f&gt;</code> named <code>warning</code>. Parameter <code>_this</code> can not be null. Parameter <code>value</code> can not be null. If <code>value_end</code> is null, then <code>value</code> is assumed to be null-terminated. </p>
+
+</div>
+</div>
+<a id="a014a9eb1d6da6889db149594e0faa30b" name="a014a9eb1d6da6889db149594e0faa30b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a014a9eb1d6da6889db149594e0faa30b">&#9670;&#160;</a></span>MR_GcodeProcessor_BaseAction_MR_Vector3f_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a0f3a04a880d4501d50aa6ffcf780d707">MR_GcodeProcessor_BaseAction_MR_Vector3f</a> * MR_GcodeProcessor_BaseAction_MR_Vector3f_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a0f3a04a880d4501d50aa6ffcf780d707">MR_GcodeProcessor_BaseAction_MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a0f3a04a880d4501d50aa6ffcf780d707">MR_GcodeProcessor_BaseAction_MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1GcodeProcessor_1_1BaseAction.html">MR::GcodeProcessor::BaseAction</a>&lt;MR::Vector3f&gt;</code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="aee9ccbe2ce3c48b7e6b0b880d15b82b7" name="aee9ccbe2ce3c48b7e6b0b880d15b82b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee9ccbe2ce3c48b7e6b0b880d15b82b7">&#9670;&#160;</a></span>MR_GcodeProcessor_BaseAction_MR_Vector3f_ConstructFrom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a0f3a04a880d4501d50aa6ffcf780d707">MR_GcodeProcessor_BaseAction_MR_Vector3f</a> * MR_GcodeProcessor_BaseAction_MR_Vector3f_ConstructFrom </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>path_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>warning</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>warning_end</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1GcodeProcessor_1_1BaseAction.html">MR::GcodeProcessor::BaseAction</a>&lt;MR::Vector3f&gt;</code> elementwise. Parameter <code>warning</code> can not be null. If <code>warning_end</code> is null, then <code>warning</code> is assumed to be null-terminated. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a61757b8eef4341f681025e9364119d5f" title="Destroys a heap-allocated instance of MR_GcodeProcessor_BaseAction_MR_Vector3f. Does nothing if the p...">MR_GcodeProcessor_BaseAction_MR_Vector3f_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a687263f07a73713b8f014ca84af91546" name="a687263f07a73713b8f014ca84af91546"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a687263f07a73713b8f014ca84af91546">&#9670;&#160;</a></span>MR_GcodeProcessor_BaseAction_MR_Vector3f_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a0f3a04a880d4501d50aa6ffcf780d707">MR_GcodeProcessor_BaseAction_MR_Vector3f</a> * MR_GcodeProcessor_BaseAction_MR_Vector3f_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a0f3a04a880d4501d50aa6ffcf780d707">MR_GcodeProcessor_BaseAction_MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1GcodeProcessor_1_1BaseAction.html">MR::GcodeProcessor::BaseAction</a>&lt;MR::Vector3f&gt;</code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a61757b8eef4341f681025e9364119d5f" title="Destroys a heap-allocated instance of MR_GcodeProcessor_BaseAction_MR_Vector3f. Does nothing if the p...">MR_GcodeProcessor_BaseAction_MR_Vector3f_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="aca990630df4ed169ca2c0ccb4aa3efa7" name="aca990630df4ed169ca2c0ccb4aa3efa7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca990630df4ed169ca2c0ccb4aa3efa7">&#9670;&#160;</a></span>MR_GcodeProcessor_BaseAction_MR_Vector3f_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a0f3a04a880d4501d50aa6ffcf780d707">MR_GcodeProcessor_BaseAction_MR_Vector3f</a> * MR_GcodeProcessor_BaseAction_MR_Vector3f_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a61757b8eef4341f681025e9364119d5f" title="Destroys a heap-allocated instance of MR_GcodeProcessor_BaseAction_MR_Vector3f. Does nothing if the p...">MR_GcodeProcessor_BaseAction_MR_Vector3f_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="af39a5b274462d7e8a053aa7c4bb93cc6" name="af39a5b274462d7e8a053aa7c4bb93cc6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af39a5b274462d7e8a053aa7c4bb93cc6">&#9670;&#160;</a></span>MR_GcodeProcessor_BaseAction_MR_Vector3f_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a0f3a04a880d4501d50aa6ffcf780d707">MR_GcodeProcessor_BaseAction_MR_Vector3f</a> * MR_GcodeProcessor_BaseAction_MR_Vector3f_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a73b029330de1f185c1a27a643261aaa9" title="Destroys a heap-allocated array of MR_GcodeProcessor_BaseAction_MR_Vector3f. Does nothing if the poin...">MR_GcodeProcessor_BaseAction_MR_Vector3f_DestroyArray()</a></code>. Use <code><a class="el" href="#a0d892c9840563647ceac6942be9de00f" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_GcodeProcessor_BaseAction_MR_Vector3f_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a1d0fd1bc7875db0898c5c4bf44433021" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_GcodeProcessor_BaseAction_MR_Vector3f_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a61757b8eef4341f681025e9364119d5f" name="a61757b8eef4341f681025e9364119d5f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61757b8eef4341f681025e9364119d5f">&#9670;&#160;</a></span>MR_GcodeProcessor_BaseAction_MR_Vector3f_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_GcodeProcessor_BaseAction_MR_Vector3f_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a0f3a04a880d4501d50aa6ffcf780d707">MR_GcodeProcessor_BaseAction_MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_GcodeProcessor_BaseAction_MR_Vector3f</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a73b029330de1f185c1a27a643261aaa9" name="a73b029330de1f185c1a27a643261aaa9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73b029330de1f185c1a27a643261aaa9">&#9670;&#160;</a></span>MR_GcodeProcessor_BaseAction_MR_Vector3f_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_GcodeProcessor_BaseAction_MR_Vector3f_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a0f3a04a880d4501d50aa6ffcf780d707">MR_GcodeProcessor_BaseAction_MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_GcodeProcessor_BaseAction_MR_Vector3f</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a83fb44a857bd843a1c51ea1f8a518a92" name="a83fb44a857bd843a1c51ea1f8a518a92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83fb44a857bd843a1c51ea1f8a518a92">&#9670;&#160;</a></span>MR_GcodeProcessor_BaseAction_MR_Vector3f_Get_path()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> * MR_GcodeProcessor_BaseAction_MR_Vector3f_Get_path </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a0f3a04a880d4501d50aa6ffcf780d707">MR_GcodeProcessor_BaseAction_MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1GcodeProcessor_1_1BaseAction.html">MR::GcodeProcessor::BaseAction</a>&lt;MR::Vector3f&gt;</code> named <code>path</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="af0fd8981233e36b028a9bd36f26fcb77" name="af0fd8981233e36b028a9bd36f26fcb77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0fd8981233e36b028a9bd36f26fcb77">&#9670;&#160;</a></span>MR_GcodeProcessor_BaseAction_MR_Vector3f_Get_warning()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_GcodeProcessor_BaseAction_MR_Vector3f_Get_warning </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a0f3a04a880d4501d50aa6ffcf780d707">MR_GcodeProcessor_BaseAction_MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1GcodeProcessor_1_1BaseAction.html">MR::GcodeProcessor::BaseAction</a>&lt;MR::Vector3f&gt;</code> named <code>warning</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="aef45cd7b403a89538e1a13525877d053" name="aef45cd7b403a89538e1a13525877d053"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef45cd7b403a89538e1a13525877d053">&#9670;&#160;</a></span>MR_GcodeProcessor_BaseAction_MR_Vector3f_GetMutable_path()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> * MR_GcodeProcessor_BaseAction_MR_Vector3f_GetMutable_path </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a0f3a04a880d4501d50aa6ffcf780d707">MR_GcodeProcessor_BaseAction_MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1GcodeProcessor_1_1BaseAction.html">MR::GcodeProcessor::BaseAction</a>&lt;MR::Vector3f&gt;</code> named <code>path</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="aa1da8b8ffd3543fb44dcc7ba09e7b96d" name="aa1da8b8ffd3543fb44dcc7ba09e7b96d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1da8b8ffd3543fb44dcc7ba09e7b96d">&#9670;&#160;</a></span>MR_GcodeProcessor_BaseAction_MR_Vector3f_GetMutable_warning()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_GcodeProcessor_BaseAction_MR_Vector3f_GetMutable_warning </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a0f3a04a880d4501d50aa6ffcf780d707">MR_GcodeProcessor_BaseAction_MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1GcodeProcessor_1_1BaseAction.html">MR::GcodeProcessor::BaseAction</a>&lt;MR::Vector3f&gt;</code> named <code>warning</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a0d892c9840563647ceac6942be9de00f" name="a0d892c9840563647ceac6942be9de00f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d892c9840563647ceac6942be9de00f">&#9670;&#160;</a></span>MR_GcodeProcessor_BaseAction_MR_Vector3f_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a0f3a04a880d4501d50aa6ffcf780d707">MR_GcodeProcessor_BaseAction_MR_Vector3f</a> * MR_GcodeProcessor_BaseAction_MR_Vector3f_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a0f3a04a880d4501d50aa6ffcf780d707">MR_GcodeProcessor_BaseAction_MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a1d0fd1bc7875db0898c5c4bf44433021" name="a1d0fd1bc7875db0898c5c4bf44433021"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d0fd1bc7875db0898c5c4bf44433021">&#9670;&#160;</a></span>MR_GcodeProcessor_BaseAction_MR_Vector3f_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a0f3a04a880d4501d50aa6ffcf780d707">MR_GcodeProcessor_BaseAction_MR_Vector3f</a> * MR_GcodeProcessor_BaseAction_MR_Vector3f_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a0f3a04a880d4501d50aa6ffcf780d707">MR_GcodeProcessor_BaseAction_MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a10194d8f29a00e7af929deb6e3bf73e2" name="a10194d8f29a00e7af929deb6e3bf73e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10194d8f29a00e7af929deb6e3bf73e2">&#9670;&#160;</a></span>MR_GcodeProcessor_BaseAction_MR_Vector3f_Set_path()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_GcodeProcessor_BaseAction_MR_Vector3f_Set_path </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a0f3a04a880d4501d50aa6ffcf780d707">MR_GcodeProcessor_BaseAction_MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1GcodeProcessor_1_1BaseAction.html">MR::GcodeProcessor::BaseAction</a>&lt;MR::Vector3f&gt;</code> named <code>path</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="abd23c7e5a4f8244bd5cebc06f9ccc938" name="abd23c7e5a4f8244bd5cebc06f9ccc938"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd23c7e5a4f8244bd5cebc06f9ccc938">&#9670;&#160;</a></span>MR_GcodeProcessor_BaseAction_MR_Vector3f_Set_warning()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_GcodeProcessor_BaseAction_MR_Vector3f_Set_warning </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a0f3a04a880d4501d50aa6ffcf780d707">MR_GcodeProcessor_BaseAction_MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>value_end</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1GcodeProcessor_1_1BaseAction.html">MR::GcodeProcessor::BaseAction</a>&lt;MR::Vector3f&gt;</code> named <code>warning</code>. Parameter <code>_this</code> can not be null. Parameter <code>value</code> can not be null. If <code>value_end</code> is null, then <code>value</code> is assumed to be null-terminated. </p>
+
+</div>
+</div>
+<a id="a135e04c85fdda4b8ba65cfdfdd6d2cc6" name="a135e04c85fdda4b8ba65cfdfdd6d2cc6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a135e04c85fdda4b8ba65cfdfdd6d2cc6">&#9670;&#160;</a></span>MR_GcodeProcessor_Command_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a2dfa7f50d06ba9cf366accd703febb8c">MR_GcodeProcessor_Command</a> * MR_GcodeProcessor_Command_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a2dfa7f50d06ba9cf366accd703febb8c">MR_GcodeProcessor_Command</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a2dfa7f50d06ba9cf366accd703febb8c">MR_GcodeProcessor_Command</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1GcodeProcessor_1_1Command.html">MR::GcodeProcessor::Command</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. Parameter <code>_other</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="acda5ac2d221ac666bfdd20e6192fb211" name="acda5ac2d221ac666bfdd20e6192fb211"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acda5ac2d221ac666bfdd20e6192fb211">&#9670;&#160;</a></span>MR_GcodeProcessor_Command_ConstructFrom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a2dfa7f50d06ba9cf366accd703febb8c">MR_GcodeProcessor_Command</a> * MR_GcodeProcessor_Command_ConstructFrom </td>
+          <td>(</td>
+          <td class="paramtype">char</td>          <td class="paramname"><span class="paramname"><em>key</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1GcodeProcessor_1_1Command.html">MR::GcodeProcessor::Command</a></code> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a6d4275d8c0916de0f1c15d5f57f7e8bc" title="Destroys a heap-allocated instance of MR_GcodeProcessor_Command. Does nothing if the pointer is null.">MR_GcodeProcessor_Command_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a92f700c102562b91a9f100ee4330480f" name="a92f700c102562b91a9f100ee4330480f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92f700c102562b91a9f100ee4330480f">&#9670;&#160;</a></span>MR_GcodeProcessor_Command_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a2dfa7f50d06ba9cf366accd703febb8c">MR_GcodeProcessor_Command</a> * MR_GcodeProcessor_Command_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a2dfa7f50d06ba9cf366accd703febb8c">MR_GcodeProcessor_Command</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1GcodeProcessor_1_1Command.html">MR::GcodeProcessor::Command</a></code>. Parameter <code>_other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a6d4275d8c0916de0f1c15d5f57f7e8bc" title="Destroys a heap-allocated instance of MR_GcodeProcessor_Command. Does nothing if the pointer is null.">MR_GcodeProcessor_Command_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a2e88d478f03ad3c8671deab017bdcecc" name="a2e88d478f03ad3c8671deab017bdcecc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e88d478f03ad3c8671deab017bdcecc">&#9670;&#160;</a></span>MR_GcodeProcessor_Command_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a2dfa7f50d06ba9cf366accd703febb8c">MR_GcodeProcessor_Command</a> * MR_GcodeProcessor_Command_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a6d4275d8c0916de0f1c15d5f57f7e8bc" title="Destroys a heap-allocated instance of MR_GcodeProcessor_Command. Does nothing if the pointer is null.">MR_GcodeProcessor_Command_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ab7fe9c909361c29573537a59607efb0d" name="ab7fe9c909361c29573537a59607efb0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7fe9c909361c29573537a59607efb0d">&#9670;&#160;</a></span>MR_GcodeProcessor_Command_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a2dfa7f50d06ba9cf366accd703febb8c">MR_GcodeProcessor_Command</a> * MR_GcodeProcessor_Command_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#aea34220c947323ce08c4b51c8f55321f" title="Destroys a heap-allocated array of MR_GcodeProcessor_Command. Does nothing if the pointer is null.">MR_GcodeProcessor_Command_DestroyArray()</a></code>. Use <code><a class="el" href="#ab3ce68757e2f0ab66481408c32d10bd3" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_GcodeProcessor_Command_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a70317fcdaa76bd596f7d3c60f631d7e3" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_GcodeProcessor_Command_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a6d4275d8c0916de0f1c15d5f57f7e8bc" name="a6d4275d8c0916de0f1c15d5f57f7e8bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d4275d8c0916de0f1c15d5f57f7e8bc">&#9670;&#160;</a></span>MR_GcodeProcessor_Command_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_GcodeProcessor_Command_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a2dfa7f50d06ba9cf366accd703febb8c">MR_GcodeProcessor_Command</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_GcodeProcessor_Command</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="aea34220c947323ce08c4b51c8f55321f" name="aea34220c947323ce08c4b51c8f55321f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea34220c947323ce08c4b51c8f55321f">&#9670;&#160;</a></span>MR_GcodeProcessor_Command_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_GcodeProcessor_Command_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a2dfa7f50d06ba9cf366accd703febb8c">MR_GcodeProcessor_Command</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_GcodeProcessor_Command</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="aa7e4b10a419595c67c416d3b12b9c4b1" name="aa7e4b10a419595c67c416d3b12b9c4b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7e4b10a419595c67c416d3b12b9c4b1">&#9670;&#160;</a></span>MR_GcodeProcessor_Command_Get_key()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const char * MR_GcodeProcessor_Command_Get_key </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a2dfa7f50d06ba9cf366accd703febb8c">MR_GcodeProcessor_Command</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1GcodeProcessor_1_1Command.html">MR::GcodeProcessor::Command</a></code> named <code>key</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a2ba54ca4bcdf5c8d648133fa4891bceb" name="a2ba54ca4bcdf5c8d648133fa4891bceb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ba54ca4bcdf5c8d648133fa4891bceb">&#9670;&#160;</a></span>MR_GcodeProcessor_Command_Get_value()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const float * MR_GcodeProcessor_Command_Get_value </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a2dfa7f50d06ba9cf366accd703febb8c">MR_GcodeProcessor_Command</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1GcodeProcessor_1_1Command.html">MR::GcodeProcessor::Command</a></code> named <code>value</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="aace988ef0a926c3031fa20604231d3ee" name="aace988ef0a926c3031fa20604231d3ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aace988ef0a926c3031fa20604231d3ee">&#9670;&#160;</a></span>MR_GcodeProcessor_Command_GetMutable_key()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API char * MR_GcodeProcessor_Command_GetMutable_key </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a2dfa7f50d06ba9cf366accd703febb8c">MR_GcodeProcessor_Command</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1GcodeProcessor_1_1Command.html">MR::GcodeProcessor::Command</a></code> named <code>key</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a427130a26b5abd95964f56e04fdfb0df" name="a427130a26b5abd95964f56e04fdfb0df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a427130a26b5abd95964f56e04fdfb0df">&#9670;&#160;</a></span>MR_GcodeProcessor_Command_GetMutable_value()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API float * MR_GcodeProcessor_Command_GetMutable_value </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a2dfa7f50d06ba9cf366accd703febb8c">MR_GcodeProcessor_Command</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1GcodeProcessor_1_1Command.html">MR::GcodeProcessor::Command</a></code> named <code>value</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ab3ce68757e2f0ab66481408c32d10bd3" name="ab3ce68757e2f0ab66481408c32d10bd3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3ce68757e2f0ab66481408c32d10bd3">&#9670;&#160;</a></span>MR_GcodeProcessor_Command_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a2dfa7f50d06ba9cf366accd703febb8c">MR_GcodeProcessor_Command</a> * MR_GcodeProcessor_Command_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a2dfa7f50d06ba9cf366accd703febb8c">MR_GcodeProcessor_Command</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a70317fcdaa76bd596f7d3c60f631d7e3" name="a70317fcdaa76bd596f7d3c60f631d7e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70317fcdaa76bd596f7d3c60f631d7e3">&#9670;&#160;</a></span>MR_GcodeProcessor_Command_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a2dfa7f50d06ba9cf366accd703febb8c">MR_GcodeProcessor_Command</a> * MR_GcodeProcessor_Command_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a2dfa7f50d06ba9cf366accd703febb8c">MR_GcodeProcessor_Command</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="ab56caf99642daf1591e29bbff2dbd9d9" name="ab56caf99642daf1591e29bbff2dbd9d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab56caf99642daf1591e29bbff2dbd9d9">&#9670;&#160;</a></span>MR_GcodeProcessor_Command_Set_key()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_GcodeProcessor_Command_Set_key </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a2dfa7f50d06ba9cf366accd703febb8c">MR_GcodeProcessor_Command</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1GcodeProcessor_1_1Command.html">MR::GcodeProcessor::Command</a></code> named <code>key</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a34fee6011cc1e7b694ee3f0a2e305b46" name="a34fee6011cc1e7b694ee3f0a2e305b46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34fee6011cc1e7b694ee3f0a2e305b46">&#9670;&#160;</a></span>MR_GcodeProcessor_Command_Set_value()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_GcodeProcessor_Command_Set_value </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a2dfa7f50d06ba9cf366accd703febb8c">MR_GcodeProcessor_Command</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1GcodeProcessor_1_1Command.html">MR::GcodeProcessor::Command</a></code> named <code>value</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a037a397badcca6e3c5d92c7a445d95c9" name="a037a397badcca6e3c5d92c7a445d95c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a037a397badcca6e3c5d92c7a445d95c9">&#9670;&#160;</a></span>MR_GcodeProcessor_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a9ac6289dc28b26197d3bce9b7a888ca2">MR_GcodeProcessor</a> * MR_GcodeProcessor_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a9ac6289dc28b26197d3bce9b7a888ca2">MR_GcodeProcessor</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1GcodeProcessor.html">MR::GcodeProcessor</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#abaf30df52ba876c881bb653cbe6964f1" title="Destroys a heap-allocated instance of MR_GcodeProcessor. Does nothing if the pointer is null.">MR_GcodeProcessor_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a5866c590fe10ee196582601211ab47f7" name="a5866c590fe10ee196582601211ab47f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5866c590fe10ee196582601211ab47f7">&#9670;&#160;</a></span>MR_GcodeProcessor_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a9ac6289dc28b26197d3bce9b7a888ca2">MR_GcodeProcessor</a> * MR_GcodeProcessor_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#abaf30df52ba876c881bb653cbe6964f1" title="Destroys a heap-allocated instance of MR_GcodeProcessor. Does nothing if the pointer is null.">MR_GcodeProcessor_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a39a2d78bd27b20fc768ff86025f54eb2" name="a39a2d78bd27b20fc768ff86025f54eb2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39a2d78bd27b20fc768ff86025f54eb2">&#9670;&#160;</a></span>MR_GcodeProcessor_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a9ac6289dc28b26197d3bce9b7a888ca2">MR_GcodeProcessor</a> * MR_GcodeProcessor_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#abac4181b28fdca43bf3ef5290512bd41" title="Destroys a heap-allocated array of MR_GcodeProcessor. Does nothing if the pointer is null.">MR_GcodeProcessor_DestroyArray()</a></code>. Use <code><a class="el" href="#af7559ac1b722cdd2b688cdb03e6c8740" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_GcodeProcessor_OffsetMutablePtr()</a></code> and <code><a class="el" href="#aa256e51c22cb19c99f7b5109cf148fa6" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_GcodeProcessor_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="abaf30df52ba876c881bb653cbe6964f1" name="abaf30df52ba876c881bb653cbe6964f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abaf30df52ba876c881bb653cbe6964f1">&#9670;&#160;</a></span>MR_GcodeProcessor_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_GcodeProcessor_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a9ac6289dc28b26197d3bce9b7a888ca2">MR_GcodeProcessor</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_GcodeProcessor</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="abac4181b28fdca43bf3ef5290512bd41" name="abac4181b28fdca43bf3ef5290512bd41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abac4181b28fdca43bf3ef5290512bd41">&#9670;&#160;</a></span>MR_GcodeProcessor_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_GcodeProcessor_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a9ac6289dc28b26197d3bce9b7a888ca2">MR_GcodeProcessor</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_GcodeProcessor</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="ae4fe0b445d71cd97762ec01f2ffcba39" name="ae4fe0b445d71cd97762ec01f2ffcba39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4fe0b445d71cd97762ec01f2ffcba39">&#9670;&#160;</a></span>MR_GcodeProcessor_getCNCMachineSettings()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRCNCMachineSettings_8h.html#a325911971cee7957b63b98e5d38aedc4">MR_CNCMachineSettings</a> * MR_GcodeProcessor_getCNCMachineSettings </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a9ac6289dc28b26197d3bce9b7a888ca2">MR_GcodeProcessor</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1GcodeProcessor.html">MR::GcodeProcessor</a></code> named <code>getCNCMachineSettings</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a2de5320a5531ee05b909d21e33e2642f" name="a2de5320a5531ee05b909d21e33e2642f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2de5320a5531ee05b909d21e33e2642f">&#9670;&#160;</a></span>MR_GcodeProcessor_MoveAction_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a18a0e6711c9d545039e776ae8e7685b4">MR_GcodeProcessor_MoveAction</a> * MR_GcodeProcessor_MoveAction_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a18a0e6711c9d545039e776ae8e7685b4">MR_GcodeProcessor_MoveAction</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a18a0e6711c9d545039e776ae8e7685b4">MR_GcodeProcessor_MoveAction</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1GcodeProcessor_1_1MoveAction.html">MR::GcodeProcessor::MoveAction</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a56f07d4e457f88af34a01ab46d4ae472" name="a56f07d4e457f88af34a01ab46d4ae472"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56f07d4e457f88af34a01ab46d4ae472">&#9670;&#160;</a></span>MR_GcodeProcessor_MoveAction_ConstructFrom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a18a0e6711c9d545039e776ae8e7685b4">MR_GcodeProcessor_MoveAction</a> * MR_GcodeProcessor_MoveAction_ConstructFrom </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>action_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a0f3a04a880d4501d50aa6ffcf780d707">MR_GcodeProcessor_BaseAction_MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>action</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>toolDirection_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>toolDirection</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>idle</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>feedrate</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1GcodeProcessor_1_1MoveAction.html">MR::GcodeProcessor::MoveAction</a></code> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a2e07dd4f710d23714369a4549cc2eacf" title="Destroys a heap-allocated instance of MR_GcodeProcessor_MoveAction. Does nothing if the pointer is nu...">MR_GcodeProcessor_MoveAction_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a67debab6b04345e7cdbb944fc6a2d550" name="a67debab6b04345e7cdbb944fc6a2d550"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67debab6b04345e7cdbb944fc6a2d550">&#9670;&#160;</a></span>MR_GcodeProcessor_MoveAction_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a18a0e6711c9d545039e776ae8e7685b4">MR_GcodeProcessor_MoveAction</a> * MR_GcodeProcessor_MoveAction_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a18a0e6711c9d545039e776ae8e7685b4">MR_GcodeProcessor_MoveAction</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1GcodeProcessor_1_1MoveAction.html">MR::GcodeProcessor::MoveAction</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a2e07dd4f710d23714369a4549cc2eacf" title="Destroys a heap-allocated instance of MR_GcodeProcessor_MoveAction. Does nothing if the pointer is nu...">MR_GcodeProcessor_MoveAction_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a421ab43bd150a96224088407c7160823" name="a421ab43bd150a96224088407c7160823"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a421ab43bd150a96224088407c7160823">&#9670;&#160;</a></span>MR_GcodeProcessor_MoveAction_ConvertTo_bool()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_GcodeProcessor_MoveAction_ConvertTo_bool </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a18a0e6711c9d545039e776ae8e7685b4">MR_GcodeProcessor_MoveAction</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a conversion operator of class <code><a class="elRef" href="../Cpp/structMR_1_1GcodeProcessor_1_1MoveAction.html">MR::GcodeProcessor::MoveAction</a></code> to type <code>bool</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a288e21d85c929e47a46440fca9d370ad" name="a288e21d85c929e47a46440fca9d370ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a288e21d85c929e47a46440fca9d370ad">&#9670;&#160;</a></span>MR_GcodeProcessor_MoveAction_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a18a0e6711c9d545039e776ae8e7685b4">MR_GcodeProcessor_MoveAction</a> * MR_GcodeProcessor_MoveAction_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a2e07dd4f710d23714369a4549cc2eacf" title="Destroys a heap-allocated instance of MR_GcodeProcessor_MoveAction. Does nothing if the pointer is nu...">MR_GcodeProcessor_MoveAction_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a1181add62aa11d303697d97f5572a044" name="a1181add62aa11d303697d97f5572a044"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1181add62aa11d303697d97f5572a044">&#9670;&#160;</a></span>MR_GcodeProcessor_MoveAction_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a18a0e6711c9d545039e776ae8e7685b4">MR_GcodeProcessor_MoveAction</a> * MR_GcodeProcessor_MoveAction_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#af7673d96c474145d70d631e35924193f" title="Destroys a heap-allocated array of MR_GcodeProcessor_MoveAction. Does nothing if the pointer is null.">MR_GcodeProcessor_MoveAction_DestroyArray()</a></code>. Use <code><a class="el" href="#aac9cab0708340b8e2a4b1fcffe8077b5" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_GcodeProcessor_MoveAction_OffsetMutablePtr()</a></code> and <code><a class="el" href="#af17a7b6bb81f39230c82bde7f27bdd17" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_GcodeProcessor_MoveAction_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a2e07dd4f710d23714369a4549cc2eacf" name="a2e07dd4f710d23714369a4549cc2eacf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e07dd4f710d23714369a4549cc2eacf">&#9670;&#160;</a></span>MR_GcodeProcessor_MoveAction_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_GcodeProcessor_MoveAction_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a18a0e6711c9d545039e776ae8e7685b4">MR_GcodeProcessor_MoveAction</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_GcodeProcessor_MoveAction</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="af7673d96c474145d70d631e35924193f" name="af7673d96c474145d70d631e35924193f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7673d96c474145d70d631e35924193f">&#9670;&#160;</a></span>MR_GcodeProcessor_MoveAction_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_GcodeProcessor_MoveAction_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a18a0e6711c9d545039e776ae8e7685b4">MR_GcodeProcessor_MoveAction</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_GcodeProcessor_MoveAction</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="ada3be59a00d5388cfa5ff31f4c86066e" name="ada3be59a00d5388cfa5ff31f4c86066e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada3be59a00d5388cfa5ff31f4c86066e">&#9670;&#160;</a></span>MR_GcodeProcessor_MoveAction_Get_action()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a0f3a04a880d4501d50aa6ffcf780d707">MR_GcodeProcessor_BaseAction_MR_Vector3f</a> * MR_GcodeProcessor_MoveAction_Get_action </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a18a0e6711c9d545039e776ae8e7685b4">MR_GcodeProcessor_MoveAction</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1GcodeProcessor_1_1MoveAction.html">MR::GcodeProcessor::MoveAction</a></code> named <code>action</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ada68982c5675924ff472e9af60a335fe" name="ada68982c5675924ff472e9af60a335fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada68982c5675924ff472e9af60a335fe">&#9670;&#160;</a></span>MR_GcodeProcessor_MoveAction_Get_feedrate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const float * MR_GcodeProcessor_MoveAction_Get_feedrate </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a18a0e6711c9d545039e776ae8e7685b4">MR_GcodeProcessor_MoveAction</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1GcodeProcessor_1_1MoveAction.html">MR::GcodeProcessor::MoveAction</a></code> named <code>feedrate</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a377051cbe91210066827efc51991048d" name="a377051cbe91210066827efc51991048d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a377051cbe91210066827efc51991048d">&#9670;&#160;</a></span>MR_GcodeProcessor_MoveAction_Get_idle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const bool * MR_GcodeProcessor_MoveAction_Get_idle </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a18a0e6711c9d545039e776ae8e7685b4">MR_GcodeProcessor_MoveAction</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1GcodeProcessor_1_1MoveAction.html">MR::GcodeProcessor::MoveAction</a></code> named <code>idle</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a18ef39cf3f35278cdb7e83edd4535221" name="a18ef39cf3f35278cdb7e83edd4535221"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18ef39cf3f35278cdb7e83edd4535221">&#9670;&#160;</a></span>MR_GcodeProcessor_MoveAction_Get_toolDirection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> * MR_GcodeProcessor_MoveAction_Get_toolDirection </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a18a0e6711c9d545039e776ae8e7685b4">MR_GcodeProcessor_MoveAction</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1GcodeProcessor_1_1MoveAction.html">MR::GcodeProcessor::MoveAction</a></code> named <code>toolDirection</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a27f04be8f96613aaa06944f0dc28fc8b" name="a27f04be8f96613aaa06944f0dc28fc8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27f04be8f96613aaa06944f0dc28fc8b">&#9670;&#160;</a></span>MR_GcodeProcessor_MoveAction_GetMutable_action()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a0f3a04a880d4501d50aa6ffcf780d707">MR_GcodeProcessor_BaseAction_MR_Vector3f</a> * MR_GcodeProcessor_MoveAction_GetMutable_action </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a18a0e6711c9d545039e776ae8e7685b4">MR_GcodeProcessor_MoveAction</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1GcodeProcessor_1_1MoveAction.html">MR::GcodeProcessor::MoveAction</a></code> named <code>action</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="afeea5865597ac4042234168496f02d05" name="afeea5865597ac4042234168496f02d05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afeea5865597ac4042234168496f02d05">&#9670;&#160;</a></span>MR_GcodeProcessor_MoveAction_GetMutable_feedrate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API float * MR_GcodeProcessor_MoveAction_GetMutable_feedrate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a18a0e6711c9d545039e776ae8e7685b4">MR_GcodeProcessor_MoveAction</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1GcodeProcessor_1_1MoveAction.html">MR::GcodeProcessor::MoveAction</a></code> named <code>feedrate</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a671bf424e9e921d5f5f29b253158d196" name="a671bf424e9e921d5f5f29b253158d196"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a671bf424e9e921d5f5f29b253158d196">&#9670;&#160;</a></span>MR_GcodeProcessor_MoveAction_GetMutable_idle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool * MR_GcodeProcessor_MoveAction_GetMutable_idle </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a18a0e6711c9d545039e776ae8e7685b4">MR_GcodeProcessor_MoveAction</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1GcodeProcessor_1_1MoveAction.html">MR::GcodeProcessor::MoveAction</a></code> named <code>idle</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="adb428d2824f235d153313118bc3ba9ed" name="adb428d2824f235d153313118bc3ba9ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb428d2824f235d153313118bc3ba9ed">&#9670;&#160;</a></span>MR_GcodeProcessor_MoveAction_GetMutable_toolDirection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> * MR_GcodeProcessor_MoveAction_GetMutable_toolDirection </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a18a0e6711c9d545039e776ae8e7685b4">MR_GcodeProcessor_MoveAction</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1GcodeProcessor_1_1MoveAction.html">MR::GcodeProcessor::MoveAction</a></code> named <code>toolDirection</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="aac9cab0708340b8e2a4b1fcffe8077b5" name="aac9cab0708340b8e2a4b1fcffe8077b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac9cab0708340b8e2a4b1fcffe8077b5">&#9670;&#160;</a></span>MR_GcodeProcessor_MoveAction_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a18a0e6711c9d545039e776ae8e7685b4">MR_GcodeProcessor_MoveAction</a> * MR_GcodeProcessor_MoveAction_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a18a0e6711c9d545039e776ae8e7685b4">MR_GcodeProcessor_MoveAction</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="af17a7b6bb81f39230c82bde7f27bdd17" name="af17a7b6bb81f39230c82bde7f27bdd17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af17a7b6bb81f39230c82bde7f27bdd17">&#9670;&#160;</a></span>MR_GcodeProcessor_MoveAction_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a18a0e6711c9d545039e776ae8e7685b4">MR_GcodeProcessor_MoveAction</a> * MR_GcodeProcessor_MoveAction_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a18a0e6711c9d545039e776ae8e7685b4">MR_GcodeProcessor_MoveAction</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a5dfd29bd1524e12f180a25b4e4c735a5" name="a5dfd29bd1524e12f180a25b4e4c735a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5dfd29bd1524e12f180a25b4e4c735a5">&#9670;&#160;</a></span>MR_GcodeProcessor_MoveAction_Set_action()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_GcodeProcessor_MoveAction_Set_action </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a18a0e6711c9d545039e776ae8e7685b4">MR_GcodeProcessor_MoveAction</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a0f3a04a880d4501d50aa6ffcf780d707">MR_GcodeProcessor_BaseAction_MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1GcodeProcessor_1_1MoveAction.html">MR::GcodeProcessor::MoveAction</a></code> named <code>action</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ac82def65565ce9d6dabbe28ae10457a6" name="ac82def65565ce9d6dabbe28ae10457a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac82def65565ce9d6dabbe28ae10457a6">&#9670;&#160;</a></span>MR_GcodeProcessor_MoveAction_Set_feedrate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_GcodeProcessor_MoveAction_Set_feedrate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a18a0e6711c9d545039e776ae8e7685b4">MR_GcodeProcessor_MoveAction</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1GcodeProcessor_1_1MoveAction.html">MR::GcodeProcessor::MoveAction</a></code> named <code>feedrate</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ad8feff90b29bbaa120f7d20698c35138" name="ad8feff90b29bbaa120f7d20698c35138"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8feff90b29bbaa120f7d20698c35138">&#9670;&#160;</a></span>MR_GcodeProcessor_MoveAction_Set_idle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_GcodeProcessor_MoveAction_Set_idle </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a18a0e6711c9d545039e776ae8e7685b4">MR_GcodeProcessor_MoveAction</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1GcodeProcessor_1_1MoveAction.html">MR::GcodeProcessor::MoveAction</a></code> named <code>idle</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a7cf1e209a9e33804cce66f49cf6e2af5" name="a7cf1e209a9e33804cce66f49cf6e2af5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7cf1e209a9e33804cce66f49cf6e2af5">&#9670;&#160;</a></span>MR_GcodeProcessor_MoveAction_Set_toolDirection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_GcodeProcessor_MoveAction_Set_toolDirection </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a18a0e6711c9d545039e776ae8e7685b4">MR_GcodeProcessor_MoveAction</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1GcodeProcessor_1_1MoveAction.html">MR::GcodeProcessor::MoveAction</a></code> named <code>toolDirection</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="af288337f2c8991f8b671d16102d74d2c" name="af288337f2c8991f8b671d16102d74d2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af288337f2c8991f8b671d16102d74d2c">&#9670;&#160;</a></span>MR_GcodeProcessor_MoveAction_valid()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_GcodeProcessor_MoveAction_valid </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a18a0e6711c9d545039e776ae8e7685b4">MR_GcodeProcessor_MoveAction</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1GcodeProcessor_1_1MoveAction.html">MR::GcodeProcessor::MoveAction</a></code> named <code>valid</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="af7559ac1b722cdd2b688cdb03e6c8740" name="af7559ac1b722cdd2b688cdb03e6c8740"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7559ac1b722cdd2b688cdb03e6c8740">&#9670;&#160;</a></span>MR_GcodeProcessor_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a9ac6289dc28b26197d3bce9b7a888ca2">MR_GcodeProcessor</a> * MR_GcodeProcessor_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a9ac6289dc28b26197d3bce9b7a888ca2">MR_GcodeProcessor</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="aa256e51c22cb19c99f7b5109cf148fa6" name="aa256e51c22cb19c99f7b5109cf148fa6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa256e51c22cb19c99f7b5109cf148fa6">&#9670;&#160;</a></span>MR_GcodeProcessor_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a9ac6289dc28b26197d3bce9b7a888ca2">MR_GcodeProcessor</a> * MR_GcodeProcessor_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a9ac6289dc28b26197d3bce9b7a888ca2">MR_GcodeProcessor</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="ae552738a6afe9e8d74702f3ab39bfb5a" name="ae552738a6afe9e8d74702f3ab39bfb5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae552738a6afe9e8d74702f3ab39bfb5a">&#9670;&#160;</a></span>MR_GcodeProcessor_processLine()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a18a0e6711c9d545039e776ae8e7685b4">MR_GcodeProcessor_MoveAction</a> * MR_GcodeProcessor_processLine </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a9ac6289dc28b26197d3bce9b7a888ca2">MR_GcodeProcessor</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>line</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>line_end</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a5bba1b4d4d65cea43177e79dcd45f502">MR_std_vector_MR_GcodeProcessor_Command</a> *</td>          <td class="paramname"><span class="paramname"><em>externalStorage</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1GcodeProcessor.html">MR::GcodeProcessor</a></code> named <code>processLine</code>. Parameter <code>_this</code> can not be null. Parameter <code>line</code> can not be null. If <code>line_end</code> is null, then <code>line</code> is assumed to be null-terminated. Parameter <code>externalStorage</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a2e07dd4f710d23714369a4549cc2eacf" title="Destroys a heap-allocated instance of MR_GcodeProcessor_MoveAction. Does nothing if the pointer is nu...">MR_GcodeProcessor_MoveAction_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a2df4de6272f064e30be7602f421524d4" name="a2df4de6272f064e30be7602f421524d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2df4de6272f064e30be7602f421524d4">&#9670;&#160;</a></span>MR_GcodeProcessor_processSource()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ac9be9ae97af22d55be76e6cf4df34f8a">MR_std_vector_MR_GcodeProcessor_MoveAction</a> * MR_GcodeProcessor_processSource </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a9ac6289dc28b26197d3bce9b7a888ca2">MR_GcodeProcessor</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1GcodeProcessor.html">MR::GcodeProcessor</a></code> named <code>processSource</code>. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__GcodeProcessor__MoveAction_8h.html#ae724413d1c22a6704cafd1d4fa5b9744" title="Destroys a heap-allocated instance of MR_std_vector_MR_GcodeProcessor_MoveAction. Does nothing if the...">MR_std_vector_MR_GcodeProcessor_MoveAction_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ac566fdeb3a6cc051ef035a26ab7f7037" name="ac566fdeb3a6cc051ef035a26ab7f7037"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac566fdeb3a6cc051ef035a26ab7f7037">&#9670;&#160;</a></span>MR_GcodeProcessor_reset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_GcodeProcessor_reset </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a9ac6289dc28b26197d3bce9b7a888ca2">MR_GcodeProcessor</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1GcodeProcessor.html">MR::GcodeProcessor</a></code> named <code>reset</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a8657b028cb5285bc9998833d4f4e7592" name="a8657b028cb5285bc9998833d4f4e7592"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8657b028cb5285bc9998833d4f4e7592">&#9670;&#160;</a></span>MR_GcodeProcessor_setCNCMachineSettings()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_GcodeProcessor_setCNCMachineSettings </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a9ac6289dc28b26197d3bce9b7a888ca2">MR_GcodeProcessor</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRCNCMachineSettings_8h.html#a325911971cee7957b63b98e5d38aedc4">MR_CNCMachineSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>settings</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1GcodeProcessor.html">MR::GcodeProcessor</a></code> named <code>setCNCMachineSettings</code>. Parameter <code>_this</code> can not be null. Parameter <code>settings</code> can not be null. </p>
+
+</div>
+</div>
+<a id="af10f3887b1d812306d3229481d2a862a" name="af10f3887b1d812306d3229481d2a862a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af10f3887b1d812306d3229481d2a862a">&#9670;&#160;</a></span>MR_GcodeProcessor_setGcodeSource()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_GcodeProcessor_setGcodeSource </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a9ac6289dc28b26197d3bce9b7a888ca2">MR_GcodeProcessor</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAngleMeasurementObject_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>gcodeSource</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1GcodeProcessor.html">MR::GcodeProcessor</a></code> named <code>setGcodeSource</code>. Parameter <code>_this</code> can not be null. Parameter <code>gcodeSource</code> can not be null. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_87d38852fc01aff5f853718c8d8b5cb2.html">Cbindings</a></li><li class="navelem"><a class="el" href="dir_cb83f9b98dc6f67356ff76bcc17f4f67.html">MRCMesh</a></li><li class="navelem"><a class="el" href="MRGcodeProcessor_8h.html">MRGcodeProcessor.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

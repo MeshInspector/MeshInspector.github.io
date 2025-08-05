@@ -146,7 +146,7 @@ var searchData=
   ['icp_0',['Mesh ICP',['../ExampleMeshICP.html',1,'']]],
   ['install_20meshlib_20sdk_20for_20python_1',['How to Install MeshLib SDK for Python',['../MeshLibPythonSetupGuide.html',1,'']]],
   ['integrating_20meshlib_20with_20c_2',['Integrating MeshLib with C#',['../MeshLibCSharpSetupGuide.html',1,'']]],
-  ['c_0',['C',['.././Cpp/APICppPage.html',1,'C++'],['../MeshLibCSharpSetupGuide.html',1,'Integrating MeshLib with C#']]],
+  ['c_0',['C',['../APICPage.html',1,'C'],['.././Cpp/APICppPage.html',1,'C++'],['../MeshLibCSharpSetupGuide.html',1,'Integrating MeshLib with C#']]],
   ['c_20example_20plugin_20overview_1',['C++ Example Plugin Overview',['../ExamplePluginOverview.html',1,'']]],
   ['c_20on_20windows_2',['How to create a first plugin using MeshLib C++ on Windows',['../FirstPluginTutorial.html',1,'']]],
   ['c_20setup_20guide_3',['MeshLib C++ Setup Guide',['../MeshLibCppSetupGuide.html',1,'']]],

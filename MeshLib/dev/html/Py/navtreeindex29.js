@@ -1,5 +1,6 @@
 var NAVTREEINDEX29 =
 {
+"classmrmeshpy_1_1FilterType.html#a9c1c5ae85d5c29a28a7ac95d3bfa7593":[6,1,1,0,1,257,7],
 "classmrmeshpy_1_1FilterType.html#ab071689ce8550cd765bc48a23aa47099":[6,1,0,0,2,257,6],
 "classmrmeshpy_1_1FilterType.html#ab071689ce8550cd765bc48a23aa47099":[6,1,1,0,1,257,6],
 "classmrmeshpy_1_1FilterType.html#ac4bc61d46e6d3d0a20f3f5e413c9c1d3":[6,1,0,0,2,257,11],
@@ -248,6 +249,5 @@ var NAVTREEINDEX29 =
 "classmrmeshpy_1_1FixUndercuts.html":[6,1,1,0,1,266],
 "classmrmeshpy_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html":[6,1,0,0,2,266,0],
 "classmrmeshpy_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html":[6,1,1,0,1,266,0],
-"classmrmeshpy_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html#a2b2d5dab9363778e81168768b83cd7e3":[6,1,0,0,2,266,0,2],
-"classmrmeshpy_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html#a2b2d5dab9363778e81168768b83cd7e3":[6,1,1,0,1,266,0,2]
+"classmrmeshpy_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html#a2b2d5dab9363778e81168768b83cd7e3":[6,1,0,0,2,266,0,2]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX122 =
 {
+"classmrmeshpy_1_1std__vector__Dipole.html#aee4f8408b2f6739bea04c066c9488af6":[6,1,1,0,1,838,8],
 "classmrmeshpy_1_1std__vector__DistanceMap.html":[6,1,0,0,2,839],
 "classmrmeshpy_1_1std__vector__DistanceMap.html":[6,1,1,0,1,839],
 "classmrmeshpy_1_1std__vector__DistanceMap.html#a047c7707c632368512ee7222394b6553":[6,1,0,0,2,839,12],
@@ -248,6 +249,5 @@ var NAVTREEINDEX122 =
 "classmrmeshpy_1_1std__vector__EdgeTri.html#a269b9275c8d4131d0550d855502dea3b":[6,1,1,0,1,844,9],
 "classmrmeshpy_1_1std__vector__EdgeTri.html#a2ecf7ea6eb2a2f6d0800a81a5d3c5518":[6,1,0,0,2,844,27],
 "classmrmeshpy_1_1std__vector__EdgeTri.html#a2ecf7ea6eb2a2f6d0800a81a5d3c5518":[6,1,1,0,1,844,27],
-"classmrmeshpy_1_1std__vector__EdgeTri.html#a34d5455ec067f9cfffdcd32976dd1efe":[6,1,0,0,2,844,24],
-"classmrmeshpy_1_1std__vector__EdgeTri.html#a34d5455ec067f9cfffdcd32976dd1efe":[6,1,1,0,1,844,24]
+"classmrmeshpy_1_1std__vector__EdgeTri.html#a34d5455ec067f9cfffdcd32976dd1efe":[6,1,0,0,2,844,24]
 };

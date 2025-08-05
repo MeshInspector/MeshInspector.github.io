@@ -1,0 +1,224 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: std_optional_MR_SignedDistanceToMeshResult.h Source File</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('std__optional__MR__SignedDistanceToMeshResult_8h_source.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">std_optional_MR_SignedDistanceToMeshResult.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="std__optional__MR__SignedDistanceToMeshResult_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;MRCMisc/exports.h&gt;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;stddef.h&gt;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> {</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="std__optional__MR__SignedDistanceToMeshResult_8h.html#a73972e9a3971bd937b3cc45bc8c5ca59">   11</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="group__AABBTreeGroup.html#ga73972e9a3971bd937b3cc45bc8c5ca59">MR_SignedDistanceToMeshResult</a> <a class="code hl_typedef" href="group__AABBTreeGroup.html#ga73972e9a3971bd937b3cc45bc8c5ca59">MR_SignedDistanceToMeshResult</a>; <span class="comment">// Defined in `#include &lt;MRCMesh/MRMeshProject.h&gt;`.</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="std__optional__MR__SignedDistanceToMeshResult_8h.html#a36bed5bf8f7d2034ad860f9c4f037e7b">   16</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRMeshProject_8h.html#a36bed5bf8f7d2034ad860f9c4f037e7b">MR_std_optional_MR_SignedDistanceToMeshResult</a> <a class="code hl_typedef" href="MRMeshProject_8h.html#a36bed5bf8f7d2034ad860f9c4f037e7b">MR_std_optional_MR_SignedDistanceToMeshResult</a>;</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="std__optional__MR__SignedDistanceToMeshResult_8h.html#a161d8e449886927b2605d802e650e616">   20</a></span>MRC_API <a class="code hl_typedef" href="MRMeshProject_8h.html#a36bed5bf8f7d2034ad860f9c4f037e7b">MR_std_optional_MR_SignedDistanceToMeshResult</a> *<a class="code hl_function" href="std__optional__MR__SignedDistanceToMeshResult_8h.html#a161d8e449886927b2605d802e650e616">MR_std_optional_MR_SignedDistanceToMeshResult_DefaultConstruct</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="std__optional__MR__SignedDistanceToMeshResult_8h.html#ab80a7f0c4f4801c17c30253503dde450">   25</a></span>MRC_API <a class="code hl_typedef" href="MRMeshProject_8h.html#a36bed5bf8f7d2034ad860f9c4f037e7b">MR_std_optional_MR_SignedDistanceToMeshResult</a> *<a class="code hl_function" href="std__optional__MR__SignedDistanceToMeshResult_8h.html#ab80a7f0c4f4801c17c30253503dde450">MR_std_optional_MR_SignedDistanceToMeshResult_DefaultConstructArray</a>(<span class="keywordtype">size_t</span> num_elems);</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="std__optional__MR__SignedDistanceToMeshResult_8h.html#ab8f68329316590423dea22273d4992a3">   30</a></span>MRC_API <a class="code hl_typedef" href="MRMeshProject_8h.html#a36bed5bf8f7d2034ad860f9c4f037e7b">MR_std_optional_MR_SignedDistanceToMeshResult</a> *<a class="code hl_function" href="std__optional__MR__SignedDistanceToMeshResult_8h.html#ab8f68329316590423dea22273d4992a3">MR_std_optional_MR_SignedDistanceToMeshResult_ConstructFromAnother</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRMeshProject_8h.html#a36bed5bf8f7d2034ad860f9c4f037e7b">MR_std_optional_MR_SignedDistanceToMeshResult</a> *other);</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="std__optional__MR__SignedDistanceToMeshResult_8h.html#a320207ac83c80a29f7b964a5dddec623">   35</a></span>MRC_API <a class="code hl_typedef" href="MRMeshProject_8h.html#a36bed5bf8f7d2034ad860f9c4f037e7b">MR_std_optional_MR_SignedDistanceToMeshResult</a> *<a class="code hl_function" href="std__optional__MR__SignedDistanceToMeshResult_8h.html#a320207ac83c80a29f7b964a5dddec623">MR_std_optional_MR_SignedDistanceToMeshResult_ConstructFrom</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="group__AABBTreeGroup.html#ga73972e9a3971bd937b3cc45bc8c5ca59">MR_SignedDistanceToMeshResult</a> *other);</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="std__optional__MR__SignedDistanceToMeshResult_8h.html#a9718696c7ed116f2271f64613f55b3d8">   40</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="std__optional__MR__SignedDistanceToMeshResult_8h.html#a9718696c7ed116f2271f64613f55b3d8">MR_std_optional_MR_SignedDistanceToMeshResult_AssignFromAnother</a>(<a class="code hl_typedef" href="MRMeshProject_8h.html#a36bed5bf8f7d2034ad860f9c4f037e7b">MR_std_optional_MR_SignedDistanceToMeshResult</a> *_this, <span class="keyword">const</span> <a class="code hl_typedef" href="MRMeshProject_8h.html#a36bed5bf8f7d2034ad860f9c4f037e7b">MR_std_optional_MR_SignedDistanceToMeshResult</a> *other);</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="std__optional__MR__SignedDistanceToMeshResult_8h.html#a31751180fa24dc5f4eacbc3737c93080">   45</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="std__optional__MR__SignedDistanceToMeshResult_8h.html#a31751180fa24dc5f4eacbc3737c93080">MR_std_optional_MR_SignedDistanceToMeshResult_AssignFrom</a>(<a class="code hl_typedef" href="MRMeshProject_8h.html#a36bed5bf8f7d2034ad860f9c4f037e7b">MR_std_optional_MR_SignedDistanceToMeshResult</a> *_this, <span class="keyword">const</span> <a class="code hl_typedef" href="group__AABBTreeGroup.html#ga73972e9a3971bd937b3cc45bc8c5ca59">MR_SignedDistanceToMeshResult</a> *other);</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="std__optional__MR__SignedDistanceToMeshResult_8h.html#ae2ac01170927ef8235d27a2b3a607094">   48</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="std__optional__MR__SignedDistanceToMeshResult_8h.html#ae2ac01170927ef8235d27a2b3a607094">MR_std_optional_MR_SignedDistanceToMeshResult_Destroy</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRMeshProject_8h.html#a36bed5bf8f7d2034ad860f9c4f037e7b">MR_std_optional_MR_SignedDistanceToMeshResult</a> *_this);</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="std__optional__MR__SignedDistanceToMeshResult_8h.html#a38aa9985aaa2d8d1ef8a41ac7f1a0c5c">   51</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="std__optional__MR__SignedDistanceToMeshResult_8h.html#a38aa9985aaa2d8d1ef8a41ac7f1a0c5c">MR_std_optional_MR_SignedDistanceToMeshResult_DestroyArray</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRMeshProject_8h.html#a36bed5bf8f7d2034ad860f9c4f037e7b">MR_std_optional_MR_SignedDistanceToMeshResult</a> *_this);</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="std__optional__MR__SignedDistanceToMeshResult_8h.html#a9e6f82fed7df1ff40a11bbe5ac6d51d3">   54</a></span>MRC_API <span class="keyword">const</span> <a class="code hl_typedef" href="MRMeshProject_8h.html#a36bed5bf8f7d2034ad860f9c4f037e7b">MR_std_optional_MR_SignedDistanceToMeshResult</a> *<a class="code hl_function" href="std__optional__MR__SignedDistanceToMeshResult_8h.html#a9e6f82fed7df1ff40a11bbe5ac6d51d3">MR_std_optional_MR_SignedDistanceToMeshResult_OffsetPtr</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRMeshProject_8h.html#a36bed5bf8f7d2034ad860f9c4f037e7b">MR_std_optional_MR_SignedDistanceToMeshResult</a> *ptr, ptrdiff_t i);</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="std__optional__MR__SignedDistanceToMeshResult_8h.html#aca4af3b3bc6caa254922196b6480ce19">   57</a></span>MRC_API <a class="code hl_typedef" href="MRMeshProject_8h.html#a36bed5bf8f7d2034ad860f9c4f037e7b">MR_std_optional_MR_SignedDistanceToMeshResult</a> *<a class="code hl_function" href="std__optional__MR__SignedDistanceToMeshResult_8h.html#aca4af3b3bc6caa254922196b6480ce19">MR_std_optional_MR_SignedDistanceToMeshResult_OffsetMutablePtr</a>(<a class="code hl_typedef" href="MRMeshProject_8h.html#a36bed5bf8f7d2034ad860f9c4f037e7b">MR_std_optional_MR_SignedDistanceToMeshResult</a> *ptr, ptrdiff_t i);</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="std__optional__MR__SignedDistanceToMeshResult_8h.html#a587f74a537f9107fff82672c9eafaae8">   61</a></span>MRC_API <span class="keyword">const</span> <a class="code hl_typedef" href="group__AABBTreeGroup.html#ga73972e9a3971bd937b3cc45bc8c5ca59">MR_SignedDistanceToMeshResult</a> *<a class="code hl_function" href="std__optional__MR__SignedDistanceToMeshResult_8h.html#a587f74a537f9107fff82672c9eafaae8">MR_std_optional_MR_SignedDistanceToMeshResult_Value</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRMeshProject_8h.html#a36bed5bf8f7d2034ad860f9c4f037e7b">MR_std_optional_MR_SignedDistanceToMeshResult</a> *_this);</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="std__optional__MR__SignedDistanceToMeshResult_8h.html#a67fa7c1b3e61740e5a9e8a8bed955263">   65</a></span>MRC_API <a class="code hl_typedef" href="group__AABBTreeGroup.html#ga73972e9a3971bd937b3cc45bc8c5ca59">MR_SignedDistanceToMeshResult</a> *<a class="code hl_function" href="std__optional__MR__SignedDistanceToMeshResult_8h.html#a67fa7c1b3e61740e5a9e8a8bed955263">MR_std_optional_MR_SignedDistanceToMeshResult_MutableValue</a>(<a class="code hl_typedef" href="MRMeshProject_8h.html#a36bed5bf8f7d2034ad860f9c4f037e7b">MR_std_optional_MR_SignedDistanceToMeshResult</a> *_this);</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span><span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>} <span class="comment">// extern &quot;C&quot;</span></div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aMRMeshProject_8h_html_a36bed5bf8f7d2034ad860f9c4f037e7b"><div class="ttname"><a href="MRMeshProject_8h.html#a36bed5bf8f7d2034ad860f9c4f037e7b">MR_std_optional_MR_SignedDistanceToMeshResult</a></div><div class="ttdeci">struct MR_std_optional_MR_SignedDistanceToMeshResult MR_std_optional_MR_SignedDistanceToMeshResult</div><div class="ttdef"><b>Definition</b> MRMeshProject.h:23</div></div>
+<div class="ttc" id="agroup__AABBTreeGroup_html_ga73972e9a3971bd937b3cc45bc8c5ca59"><div class="ttname"><a href="group__AABBTreeGroup.html#ga73972e9a3971bd937b3cc45bc8c5ca59">MR_SignedDistanceToMeshResult</a></div><div class="ttdeci">struct MR_SignedDistanceToMeshResult MR_SignedDistanceToMeshResult</div><div class="ttdoc">Generated from class MR::SignedDistanceToMeshResult.</div><div class="ttdef"><b>Definition</b> MRMeshProject.h:35</div></div>
+<div class="ttc" id="astd__optional__MR__SignedDistanceToMeshResult_8h_html_a161d8e449886927b2605d802e650e616"><div class="ttname"><a href="std__optional__MR__SignedDistanceToMeshResult_8h.html#a161d8e449886927b2605d802e650e616">MR_std_optional_MR_SignedDistanceToMeshResult_DefaultConstruct</a></div><div class="ttdeci">MRC_API MR_std_optional_MR_SignedDistanceToMeshResult * MR_std_optional_MR_SignedDistanceToMeshResult_DefaultConstruct(void)</div></div>
+<div class="ttc" id="astd__optional__MR__SignedDistanceToMeshResult_8h_html_a31751180fa24dc5f4eacbc3737c93080"><div class="ttname"><a href="std__optional__MR__SignedDistanceToMeshResult_8h.html#a31751180fa24dc5f4eacbc3737c93080">MR_std_optional_MR_SignedDistanceToMeshResult_AssignFrom</a></div><div class="ttdeci">MRC_API void MR_std_optional_MR_SignedDistanceToMeshResult_AssignFrom(MR_std_optional_MR_SignedDistanceToMeshResult *_this, const MR_SignedDistanceToMeshResult *other)</div></div>
+<div class="ttc" id="astd__optional__MR__SignedDistanceToMeshResult_8h_html_a320207ac83c80a29f7b964a5dddec623"><div class="ttname"><a href="std__optional__MR__SignedDistanceToMeshResult_8h.html#a320207ac83c80a29f7b964a5dddec623">MR_std_optional_MR_SignedDistanceToMeshResult_ConstructFrom</a></div><div class="ttdeci">MRC_API MR_std_optional_MR_SignedDistanceToMeshResult * MR_std_optional_MR_SignedDistanceToMeshResult_ConstructFrom(const MR_SignedDistanceToMeshResult *other)</div></div>
+<div class="ttc" id="astd__optional__MR__SignedDistanceToMeshResult_8h_html_a38aa9985aaa2d8d1ef8a41ac7f1a0c5c"><div class="ttname"><a href="std__optional__MR__SignedDistanceToMeshResult_8h.html#a38aa9985aaa2d8d1ef8a41ac7f1a0c5c">MR_std_optional_MR_SignedDistanceToMeshResult_DestroyArray</a></div><div class="ttdeci">MRC_API void MR_std_optional_MR_SignedDistanceToMeshResult_DestroyArray(const MR_std_optional_MR_SignedDistanceToMeshResult *_this)</div><div class="ttdoc">Destroys a heap-allocated array of MR_std_optional_MR_SignedDistanceToMeshResult. Does nothing if the...</div></div>
+<div class="ttc" id="astd__optional__MR__SignedDistanceToMeshResult_8h_html_a587f74a537f9107fff82672c9eafaae8"><div class="ttname"><a href="std__optional__MR__SignedDistanceToMeshResult_8h.html#a587f74a537f9107fff82672c9eafaae8">MR_std_optional_MR_SignedDistanceToMeshResult_Value</a></div><div class="ttdeci">MRC_API const MR_SignedDistanceToMeshResult * MR_std_optional_MR_SignedDistanceToMeshResult_Value(const MR_std_optional_MR_SignedDistanceToMeshResult *_this)</div></div>
+<div class="ttc" id="astd__optional__MR__SignedDistanceToMeshResult_8h_html_a67fa7c1b3e61740e5a9e8a8bed955263"><div class="ttname"><a href="std__optional__MR__SignedDistanceToMeshResult_8h.html#a67fa7c1b3e61740e5a9e8a8bed955263">MR_std_optional_MR_SignedDistanceToMeshResult_MutableValue</a></div><div class="ttdeci">MRC_API MR_SignedDistanceToMeshResult * MR_std_optional_MR_SignedDistanceToMeshResult_MutableValue(MR_std_optional_MR_SignedDistanceToMeshResult *_this)</div></div>
+<div class="ttc" id="astd__optional__MR__SignedDistanceToMeshResult_8h_html_a9718696c7ed116f2271f64613f55b3d8"><div class="ttname"><a href="std__optional__MR__SignedDistanceToMeshResult_8h.html#a9718696c7ed116f2271f64613f55b3d8">MR_std_optional_MR_SignedDistanceToMeshResult_AssignFromAnother</a></div><div class="ttdeci">MRC_API void MR_std_optional_MR_SignedDistanceToMeshResult_AssignFromAnother(MR_std_optional_MR_SignedDistanceToMeshResult *_this, const MR_std_optional_MR_SignedDistanceToMeshResult *other)</div></div>
+<div class="ttc" id="astd__optional__MR__SignedDistanceToMeshResult_8h_html_a9e6f82fed7df1ff40a11bbe5ac6d51d3"><div class="ttname"><a href="std__optional__MR__SignedDistanceToMeshResult_8h.html#a9e6f82fed7df1ff40a11bbe5ac6d51d3">MR_std_optional_MR_SignedDistanceToMeshResult_OffsetPtr</a></div><div class="ttdeci">MRC_API const MR_std_optional_MR_SignedDistanceToMeshResult * MR_std_optional_MR_SignedDistanceToMeshResult_OffsetPtr(const MR_std_optional_MR_SignedDistanceToMeshResult *ptr, ptrdiff_t i)</div><div class="ttdoc">Offsets a pointer to an array element by i positions (not bytes). Use only if you're certain that the...</div></div>
+<div class="ttc" id="astd__optional__MR__SignedDistanceToMeshResult_8h_html_ab80a7f0c4f4801c17c30253503dde450"><div class="ttname"><a href="std__optional__MR__SignedDistanceToMeshResult_8h.html#ab80a7f0c4f4801c17c30253503dde450">MR_std_optional_MR_SignedDistanceToMeshResult_DefaultConstructArray</a></div><div class="ttdeci">MRC_API MR_std_optional_MR_SignedDistanceToMeshResult * MR_std_optional_MR_SignedDistanceToMeshResult_DefaultConstructArray(size_t num_elems)</div></div>
+<div class="ttc" id="astd__optional__MR__SignedDistanceToMeshResult_8h_html_ab8f68329316590423dea22273d4992a3"><div class="ttname"><a href="std__optional__MR__SignedDistanceToMeshResult_8h.html#ab8f68329316590423dea22273d4992a3">MR_std_optional_MR_SignedDistanceToMeshResult_ConstructFromAnother</a></div><div class="ttdeci">MRC_API MR_std_optional_MR_SignedDistanceToMeshResult * MR_std_optional_MR_SignedDistanceToMeshResult_ConstructFromAnother(const MR_std_optional_MR_SignedDistanceToMeshResult *other)</div></div>
+<div class="ttc" id="astd__optional__MR__SignedDistanceToMeshResult_8h_html_aca4af3b3bc6caa254922196b6480ce19"><div class="ttname"><a href="std__optional__MR__SignedDistanceToMeshResult_8h.html#aca4af3b3bc6caa254922196b6480ce19">MR_std_optional_MR_SignedDistanceToMeshResult_OffsetMutablePtr</a></div><div class="ttdeci">MRC_API MR_std_optional_MR_SignedDistanceToMeshResult * MR_std_optional_MR_SignedDistanceToMeshResult_OffsetMutablePtr(MR_std_optional_MR_SignedDistanceToMeshResult *ptr, ptrdiff_t i)</div><div class="ttdoc">Offsets a pointer to an array element by i positions (not bytes). Use only if you're certain that the...</div></div>
+<div class="ttc" id="astd__optional__MR__SignedDistanceToMeshResult_8h_html_ae2ac01170927ef8235d27a2b3a607094"><div class="ttname"><a href="std__optional__MR__SignedDistanceToMeshResult_8h.html#ae2ac01170927ef8235d27a2b3a607094">MR_std_optional_MR_SignedDistanceToMeshResult_Destroy</a></div><div class="ttdeci">MRC_API void MR_std_optional_MR_SignedDistanceToMeshResult_Destroy(const MR_std_optional_MR_SignedDistanceToMeshResult *_this)</div><div class="ttdoc">Destroys a heap-allocated instance of MR_std_optional_MR_SignedDistanceToMeshResult....</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_87d38852fc01aff5f853718c8d8b5cb2.html">Cbindings</a></li><li class="navelem"><a class="el" href="dir_12d01ef4fa7c7ca18852dd6d7d92a624.html">MRCMisc</a></li><li class="navelem"><a class="el" href="std__optional__MR__SignedDistanceToMeshResult_8h.html">std_optional_MR_SignedDistanceToMeshResult.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

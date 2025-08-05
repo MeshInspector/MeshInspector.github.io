@@ -1,0 +1,491 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: std_shared_ptr_MR_IPointsToMeshProjector.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('std__shared__ptr__MR__IPointsToMeshProjector_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">std_shared_ptr_MR_IPointsToMeshProjector.h File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
+</div>
+<p><a href="std__shared__ptr__MR__IPointsToMeshProjector_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a13728835bad064fbe79769d853105e4c" id="r_a13728835bad064fbe79769d853105e4c"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRPointsToMeshProjector_8h.html#a13728835bad064fbe79769d853105e4c">MR_IPointsToMeshProjector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a13728835bad064fbe79769d853105e4c">MR_IPointsToMeshProjector</a></td></tr>
+<tr class="separator:a13728835bad064fbe79769d853105e4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4a4ae722e7df7893e0de3e384c50c9c" id="r_aa4a4ae722e7df7893e0de3e384c50c9c"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#aa4a4ae722e7df7893e0de3e384c50c9c">MR_std_shared_ptr_MR_IPointsToMeshProjector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4a4ae722e7df7893e0de3e384c50c9c">MR_std_shared_ptr_MR_IPointsToMeshProjector</a></td></tr>
+<tr class="separator:aa4a4ae722e7df7893e0de3e384c50c9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ad2d5a1268045a19d27fe953ab005b986" id="r_ad2d5a1268045a19d27fe953ab005b986"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aa4a4ae722e7df7893e0de3e384c50c9c">MR_std_shared_ptr_MR_IPointsToMeshProjector</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad2d5a1268045a19d27fe953ab005b986">MR_std_shared_ptr_MR_IPointsToMeshProjector_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:ad2d5a1268045a19d27fe953ab005b986"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae349b34030dbcb6f86d260acc631c66" id="r_aae349b34030dbcb6f86d260acc631c66"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aa4a4ae722e7df7893e0de3e384c50c9c">MR_std_shared_ptr_MR_IPointsToMeshProjector</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae349b34030dbcb6f86d260acc631c66">MR_std_shared_ptr_MR_IPointsToMeshProjector_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:aae349b34030dbcb6f86d260acc631c66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a902250f3b95c6592277ce1bc620c0076" id="r_a902250f3b95c6592277ce1bc620c0076"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aa4a4ae722e7df7893e0de3e384c50c9c">MR_std_shared_ptr_MR_IPointsToMeshProjector</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a902250f3b95c6592277ce1bc620c0076">MR_std_shared_ptr_MR_IPointsToMeshProjector_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> other_pass_by, <a class="el" href="#aa4a4ae722e7df7893e0de3e384c50c9c">MR_std_shared_ptr_MR_IPointsToMeshProjector</a> *other)</td></tr>
+<tr class="separator:a902250f3b95c6592277ce1bc620c0076"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ef3f96f05c06e4410ae5ce0a7ee99ed" id="r_a7ef3f96f05c06e4410ae5ce0a7ee99ed"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ef3f96f05c06e4410ae5ce0a7ee99ed">MR_std_shared_ptr_MR_IPointsToMeshProjector_AssignFromAnother</a> (<a class="el" href="#aa4a4ae722e7df7893e0de3e384c50c9c">MR_std_shared_ptr_MR_IPointsToMeshProjector</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> other_pass_by, <a class="el" href="#aa4a4ae722e7df7893e0de3e384c50c9c">MR_std_shared_ptr_MR_IPointsToMeshProjector</a> *other)</td></tr>
+<tr class="separator:a7ef3f96f05c06e4410ae5ce0a7ee99ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0b61c537ff67e38ab930d00705578ff" id="r_af0b61c537ff67e38ab930d00705578ff"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0b61c537ff67e38ab930d00705578ff">MR_std_shared_ptr_MR_IPointsToMeshProjector_Destroy</a> (const <a class="el" href="#aa4a4ae722e7df7893e0de3e384c50c9c">MR_std_shared_ptr_MR_IPointsToMeshProjector</a> *_this)</td></tr>
+<tr class="memdesc:af0b61c537ff67e38ab930d00705578ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_std_shared_ptr_MR_IPointsToMeshProjector</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:af0b61c537ff67e38ab930d00705578ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa13ba296eb331f9ded14d3e31500eae3" id="r_aa13ba296eb331f9ded14d3e31500eae3"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa13ba296eb331f9ded14d3e31500eae3">MR_std_shared_ptr_MR_IPointsToMeshProjector_DestroyArray</a> (const <a class="el" href="#aa4a4ae722e7df7893e0de3e384c50c9c">MR_std_shared_ptr_MR_IPointsToMeshProjector</a> *_this)</td></tr>
+<tr class="memdesc:aa13ba296eb331f9ded14d3e31500eae3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_std_shared_ptr_MR_IPointsToMeshProjector</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:aa13ba296eb331f9ded14d3e31500eae3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55114a96a141dfee8e820667d6644a8a" id="r_a55114a96a141dfee8e820667d6644a8a"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#aa4a4ae722e7df7893e0de3e384c50c9c">MR_std_shared_ptr_MR_IPointsToMeshProjector</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a55114a96a141dfee8e820667d6644a8a">MR_std_shared_ptr_MR_IPointsToMeshProjector_OffsetPtr</a> (const <a class="el" href="#aa4a4ae722e7df7893e0de3e384c50c9c">MR_std_shared_ptr_MR_IPointsToMeshProjector</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a55114a96a141dfee8e820667d6644a8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a55114a96a141dfee8e820667d6644a8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9f5a1cac08c12e9fd1dba49af840cf9" id="r_ae9f5a1cac08c12e9fd1dba49af840cf9"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aa4a4ae722e7df7893e0de3e384c50c9c">MR_std_shared_ptr_MR_IPointsToMeshProjector</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9f5a1cac08c12e9fd1dba49af840cf9">MR_std_shared_ptr_MR_IPointsToMeshProjector_OffsetMutablePtr</a> (<a class="el" href="#aa4a4ae722e7df7893e0de3e384c50c9c">MR_std_shared_ptr_MR_IPointsToMeshProjector</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:ae9f5a1cac08c12e9fd1dba49af840cf9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:ae9f5a1cac08c12e9fd1dba49af840cf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23aeff712bd5b82ecfd9383f9a4c04f9" id="r_a23aeff712bd5b82ecfd9383f9a4c04f9"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRPointsToMeshProjector_8h.html#a13728835bad064fbe79769d853105e4c">MR_IPointsToMeshProjector</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a23aeff712bd5b82ecfd9383f9a4c04f9">MR_std_shared_ptr_MR_IPointsToMeshProjector_Get</a> (const <a class="el" href="#aa4a4ae722e7df7893e0de3e384c50c9c">MR_std_shared_ptr_MR_IPointsToMeshProjector</a> *_this)</td></tr>
+<tr class="separator:a23aeff712bd5b82ecfd9383f9a4c04f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae602175f887be530b64060371c6252f3" id="r_ae602175f887be530b64060371c6252f3"><td class="memItemLeft" align="right" valign="top">MRC_API int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae602175f887be530b64060371c6252f3">MR_std_shared_ptr_MR_IPointsToMeshProjector_UseCount</a> (const <a class="el" href="#aa4a4ae722e7df7893e0de3e384c50c9c">MR_std_shared_ptr_MR_IPointsToMeshProjector</a> *_this)</td></tr>
+<tr class="separator:ae602175f887be530b64060371c6252f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab91bf505c033e3988434a88288e9111d" id="r_ab91bf505c033e3988434a88288e9111d"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab91bf505c033e3988434a88288e9111d">MR_std_shared_ptr_MR_IPointsToMeshProjector_Construct</a> (<a class="el" href="MRPointsToMeshProjector_8h.html#a13728835bad064fbe79769d853105e4c">MR_IPointsToMeshProjector</a> *ptr)</td></tr>
+<tr class="separator:ab91bf505c033e3988434a88288e9111d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b89767bce297a3752e7668e04629613" id="r_a7b89767bce297a3752e7668e04629613"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b89767bce297a3752e7668e04629613">MR_std_shared_ptr_MR_IPointsToMeshProjector_Assign</a> (<a class="el" href="#aa4a4ae722e7df7893e0de3e384c50c9c">MR_std_shared_ptr_MR_IPointsToMeshProjector</a> *_this, <a class="el" href="MRPointsToMeshProjector_8h.html#a13728835bad064fbe79769d853105e4c">MR_IPointsToMeshProjector</a> *ptr)</td></tr>
+<tr class="separator:a7b89767bce297a3752e7668e04629613"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a13728835bad064fbe79769d853105e4c" name="a13728835bad064fbe79769d853105e4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13728835bad064fbe79769d853105e4c">&#9670;&#160;</a></span>MR_IPointsToMeshProjector</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRPointsToMeshProjector_8h.html#a13728835bad064fbe79769d853105e4c">MR_IPointsToMeshProjector</a> <a class="el" href="MRPointsToMeshProjector_8h.html#a13728835bad064fbe79769d853105e4c">MR_IPointsToMeshProjector</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa4a4ae722e7df7893e0de3e384c50c9c" name="aa4a4ae722e7df7893e0de3e384c50c9c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4a4ae722e7df7893e0de3e384c50c9c">&#9670;&#160;</a></span>MR_std_shared_ptr_MR_IPointsToMeshProjector</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#aa4a4ae722e7df7893e0de3e384c50c9c">MR_std_shared_ptr_MR_IPointsToMeshProjector</a> <a class="el" href="#aa4a4ae722e7df7893e0de3e384c50c9c">MR_std_shared_ptr_MR_IPointsToMeshProjector</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Wraps a pointer to a single shared reference-counted heap-allocated <code><a class="elRef" href="../Cpp/classMR_1_1IPointsToMeshProjector.html">MR::IPointsToMeshProjector</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code>, (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a7b89767bce297a3752e7668e04629613" name="a7b89767bce297a3752e7668e04629613"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b89767bce297a3752e7668e04629613">&#9670;&#160;</a></span>MR_std_shared_ptr_MR_IPointsToMeshProjector_Assign()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_shared_ptr_MR_IPointsToMeshProjector_Assign </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa4a4ae722e7df7893e0de3e384c50c9c">MR_std_shared_ptr_MR_IPointsToMeshProjector</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRPointsToMeshProjector_8h.html#a13728835bad064fbe79769d853105e4c">MR_IPointsToMeshProjector</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Overwrite the existing instance, taking ownership of an existing pointer. The previously owned object, if any, has its reference count decremented. Parameter <code>_this</code> can not be null. Parameter <code>ptr</code> should point to a single object rather than to an array. Parameter <code>ptr</code> takes ownership of the passed pointer (if not null), and will later call <code><a class="el" href="MRPointsToMeshProjector_8h.html#a2a5088044848ec455716db598f152e25" title="Destroys a heap-allocated instance of MR_IPointsToMeshProjector. Does nothing if the pointer is null.">MR_IPointsToMeshProjector_Destroy()</a></code> on it automatically. </p>
+
+</div>
+</div>
+<a id="a7ef3f96f05c06e4410ae5ce0a7ee99ed" name="a7ef3f96f05c06e4410ae5ce0a7ee99ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ef3f96f05c06e4410ae5ce0a7ee99ed">&#9670;&#160;</a></span>MR_std_shared_ptr_MR_IPointsToMeshProjector_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_shared_ptr_MR_IPointsToMeshProjector_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa4a4ae722e7df7893e0de3e384c50c9c">MR_std_shared_ptr_MR_IPointsToMeshProjector</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#aa4a4ae722e7df7893e0de3e384c50c9c">MR_std_shared_ptr_MR_IPointsToMeshProjector</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ab91bf505c033e3988434a88288e9111d" name="ab91bf505c033e3988434a88288e9111d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab91bf505c033e3988434a88288e9111d">&#9670;&#160;</a></span>MR_std_shared_ptr_MR_IPointsToMeshProjector_Construct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_shared_ptr_MR_IPointsToMeshProjector_Construct </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRPointsToMeshProjector_8h.html#a13728835bad064fbe79769d853105e4c">MR_IPointsToMeshProjector</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Create a new instance, taking ownership of an existing pointer. Parameter <code>ptr</code> should point to a single object rather than to an array. Parameter <code>ptr</code> takes ownership of the passed pointer (if not null), and will later call <code><a class="el" href="MRPointsToMeshProjector_8h.html#a2a5088044848ec455716db598f152e25" title="Destroys a heap-allocated instance of MR_IPointsToMeshProjector. Does nothing if the pointer is null.">MR_IPointsToMeshProjector_Destroy()</a></code> on it automatically. </p>
+
+</div>
+</div>
+<a id="a902250f3b95c6592277ce1bc620c0076" name="a902250f3b95c6592277ce1bc620c0076"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a902250f3b95c6592277ce1bc620c0076">&#9670;&#160;</a></span>MR_std_shared_ptr_MR_IPointsToMeshProjector_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aa4a4ae722e7df7893e0de3e384c50c9c">MR_std_shared_ptr_MR_IPointsToMeshProjector</a> * MR_std_shared_ptr_MR_IPointsToMeshProjector_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#aa4a4ae722e7df7893e0de3e384c50c9c">MR_std_shared_ptr_MR_IPointsToMeshProjector</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs a copy of another instance. The source remains alive. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#af0b61c537ff67e38ab930d00705578ff" title="Destroys a heap-allocated instance of MR_std_shared_ptr_MR_IPointsToMeshProjector....">MR_std_shared_ptr_MR_IPointsToMeshProjector_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ad2d5a1268045a19d27fe953ab005b986" name="ad2d5a1268045a19d27fe953ab005b986"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2d5a1268045a19d27fe953ab005b986">&#9670;&#160;</a></span>MR_std_shared_ptr_MR_IPointsToMeshProjector_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aa4a4ae722e7df7893e0de3e384c50c9c">MR_std_shared_ptr_MR_IPointsToMeshProjector</a> * MR_std_shared_ptr_MR_IPointsToMeshProjector_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#af0b61c537ff67e38ab930d00705578ff" title="Destroys a heap-allocated instance of MR_std_shared_ptr_MR_IPointsToMeshProjector....">MR_std_shared_ptr_MR_IPointsToMeshProjector_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="aae349b34030dbcb6f86d260acc631c66" name="aae349b34030dbcb6f86d260acc631c66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae349b34030dbcb6f86d260acc631c66">&#9670;&#160;</a></span>MR_std_shared_ptr_MR_IPointsToMeshProjector_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aa4a4ae722e7df7893e0de3e384c50c9c">MR_std_shared_ptr_MR_IPointsToMeshProjector</a> * MR_std_shared_ptr_MR_IPointsToMeshProjector_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#aa13ba296eb331f9ded14d3e31500eae3" title="Destroys a heap-allocated array of MR_std_shared_ptr_MR_IPointsToMeshProjector. Does nothing if the p...">MR_std_shared_ptr_MR_IPointsToMeshProjector_DestroyArray()</a></code>. Use <code><a class="el" href="#ae9f5a1cac08c12e9fd1dba49af840cf9" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_shared_ptr_MR_IPointsToMeshProjector_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a55114a96a141dfee8e820667d6644a8a" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_shared_ptr_MR_IPointsToMeshProjector_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="af0b61c537ff67e38ab930d00705578ff" name="af0b61c537ff67e38ab930d00705578ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0b61c537ff67e38ab930d00705578ff">&#9670;&#160;</a></span>MR_std_shared_ptr_MR_IPointsToMeshProjector_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_shared_ptr_MR_IPointsToMeshProjector_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa4a4ae722e7df7893e0de3e384c50c9c">MR_std_shared_ptr_MR_IPointsToMeshProjector</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_std_shared_ptr_MR_IPointsToMeshProjector</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="aa13ba296eb331f9ded14d3e31500eae3" name="aa13ba296eb331f9ded14d3e31500eae3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa13ba296eb331f9ded14d3e31500eae3">&#9670;&#160;</a></span>MR_std_shared_ptr_MR_IPointsToMeshProjector_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_shared_ptr_MR_IPointsToMeshProjector_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa4a4ae722e7df7893e0de3e384c50c9c">MR_std_shared_ptr_MR_IPointsToMeshProjector</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_std_shared_ptr_MR_IPointsToMeshProjector</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a23aeff712bd5b82ecfd9383f9a4c04f9" name="a23aeff712bd5b82ecfd9383f9a4c04f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23aeff712bd5b82ecfd9383f9a4c04f9">&#9670;&#160;</a></span>MR_std_shared_ptr_MR_IPointsToMeshProjector_Get()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRPointsToMeshProjector_8h.html#a13728835bad064fbe79769d853105e4c">MR_IPointsToMeshProjector</a> * MR_std_shared_ptr_MR_IPointsToMeshProjector_Get </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa4a4ae722e7df7893e0de3e384c50c9c">MR_std_shared_ptr_MR_IPointsToMeshProjector</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the stored pointer, possibly null. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ae9f5a1cac08c12e9fd1dba49af840cf9" name="ae9f5a1cac08c12e9fd1dba49af840cf9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9f5a1cac08c12e9fd1dba49af840cf9">&#9670;&#160;</a></span>MR_std_shared_ptr_MR_IPointsToMeshProjector_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aa4a4ae722e7df7893e0de3e384c50c9c">MR_std_shared_ptr_MR_IPointsToMeshProjector</a> * MR_std_shared_ptr_MR_IPointsToMeshProjector_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aa4a4ae722e7df7893e0de3e384c50c9c">MR_std_shared_ptr_MR_IPointsToMeshProjector</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a55114a96a141dfee8e820667d6644a8a" name="a55114a96a141dfee8e820667d6644a8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55114a96a141dfee8e820667d6644a8a">&#9670;&#160;</a></span>MR_std_shared_ptr_MR_IPointsToMeshProjector_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#aa4a4ae722e7df7893e0de3e384c50c9c">MR_std_shared_ptr_MR_IPointsToMeshProjector</a> * MR_std_shared_ptr_MR_IPointsToMeshProjector_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa4a4ae722e7df7893e0de3e384c50c9c">MR_std_shared_ptr_MR_IPointsToMeshProjector</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="ae602175f887be530b64060371c6252f3" name="ae602175f887be530b64060371c6252f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae602175f887be530b64060371c6252f3">&#9670;&#160;</a></span>MR_std_shared_ptr_MR_IPointsToMeshProjector_UseCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API int MR_std_shared_ptr_MR_IPointsToMeshProjector_UseCount </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa4a4ae722e7df7893e0de3e384c50c9c">MR_std_shared_ptr_MR_IPointsToMeshProjector</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>How many shared pointers share the managed object. Zero if no object is being managed. This being zero usually conincides with <code><a class="el" href="#a23aeff712bd5b82ecfd9383f9a4c04f9">MR_std_shared_ptr_MR_IPointsToMeshProjector_Get()</a></code> returning null, but is ultimately orthogonal. Note that in multithreaded environments, the only safe way to use this number is comparing it with zero. Positive values might change by the time you get to use them. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_87d38852fc01aff5f853718c8d8b5cb2.html">Cbindings</a></li><li class="navelem"><a class="el" href="dir_12d01ef4fa7c7ca18852dd6d7d92a624.html">MRCMisc</a></li><li class="navelem"><a class="el" href="std__shared__ptr__MR__IPointsToMeshProjector_8h.html">std_shared_ptr_MR_IPointsToMeshProjector.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,5 +1,6 @@
 var NAVTREEINDEX27 =
 {
+"classmrmeshpy_1_1FeatureVisualizePropertyType.html#a44524d186e9c441da0b9905845fa5bd8":[6,1,1,0,1,251,5],
 "classmrmeshpy_1_1FeatureVisualizePropertyType.html#a501a158687a06c1d212978e884e114b6":[6,1,0,0,2,251,6],
 "classmrmeshpy_1_1FeatureVisualizePropertyType.html#a501a158687a06c1d212978e884e114b6":[6,1,1,0,1,251,6],
 "classmrmeshpy_1_1FeatureVisualizePropertyType.html#a76b675d9b7ae14b522a2d81a5a7998d9":[6,1,0,0,2,251,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX27 =
 "classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Features__Primitives__ConeSegment__Sphere3f.html#ac8065a4e3da0ead7db176148880ba3b4":[6,1,1,0,1,249,3,1,1],
 "classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Features__Primitives__Plane__Features__Primitives__ConeSegment.html":[6,1,0,0,2,249,3,2],
 "classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Features__Primitives__Plane__Features__Primitives__ConeSegment.html":[6,1,1,0,1,249,3,2],
-"classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Features__Primitives__Plane__Features__Primitives__ConeSegment.html#a3630e41bb0d364af0118f14812f617c9":[6,1,0,0,2,249,3,2,0],
-"classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Features__Primitives__Plane__Features__Primitives__ConeSegment.html#a3630e41bb0d364af0118f14812f617c9":[6,1,0,0,2,249,3,2,1]
+"classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Features__Primitives__Plane__Features__Primitives__ConeSegment.html#a3630e41bb0d364af0118f14812f617c9":[6,1,0,0,2,249,3,2,0]
 };

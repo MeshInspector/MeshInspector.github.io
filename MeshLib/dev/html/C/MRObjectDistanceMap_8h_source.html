@@ -1,0 +1,306 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: MRObjectDistanceMap.h Source File</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('MRObjectDistanceMap_8h_source.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">MRObjectDistanceMap.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="MRObjectDistanceMap_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;<a class="code" href="common_8h.html">MRCMisc/common.h</a>&gt;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;MRCMisc/exports.h&gt;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;stdbool.h&gt;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;stddef.h&gt;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> {</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="MRObjectDistanceMap_8h.html#a88a1df6fb138786a55241b1d77a4b0cc">   13</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> <a class="code hl_struct" href="structMR__AffineXf3f.html">MR_AffineXf3f</a>; <span class="comment">// Defined in `#include &lt;MRCMesh/MRAffineXf.h&gt;`.</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="MRObjectDistanceMap_8h.html#accce9c9179cadabc541edda0fc7a2571">   14</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> <a class="code hl_typedef" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a>; <span class="comment">// Defined in `#include &lt;MRCMesh/MRObject.h&gt;`.</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="MRObjectDistanceMap_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc">   15</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRAddVisualPropertiesMixin_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a> <a class="code hl_typedef" href="MRAddVisualPropertiesMixin_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a>; <span class="comment">// Defined in `#include &lt;MRCMesh/MRObject.h&gt;`.</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="MRObjectDistanceMap_8h.html#a1c5e41e50d86c1613114a6f1296f0934">   16</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRObject_8h.html#a1c5e41e50d86c1613114a6f1296f0934">MR_ObjectMeshHolder</a> <a class="code hl_typedef" href="MRObject_8h.html#a1c5e41e50d86c1613114a6f1296f0934">MR_ObjectMeshHolder</a>; <span class="comment">// Defined in `#include &lt;MRCMesh/MRObjectMeshHolder.h&gt;`.</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="MRObjectDistanceMap_8h.html#a36f3696eda81d7005927ebc5fdf17e14">   17</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a> <a class="code hl_typedef" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a>; <span class="comment">// Defined in `#include &lt;MRCMesh/MRVisualObject.h&gt;`.</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="MRObjectDistanceMap_8h.html#adb03ce28cacfff1e499d75d512dc4a84">   18</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> <a class="code hl_typedef" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a>; <span class="comment">// Defined in `#include &lt;MRCMisc/std_function_bool_from_float.h&gt;`.</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="MRObjectDistanceMap_8h.html#a3b8d674f09ca07367dd436984548c268">   19</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRObjectDistanceMap_8h.html#a3b8d674f09ca07367dd436984548c268">MR_std_shared_ptr_MR_DistanceMap</a> <a class="code hl_typedef" href="MRObjectDistanceMap_8h.html#a3b8d674f09ca07367dd436984548c268">MR_std_shared_ptr_MR_DistanceMap</a>; <span class="comment">// Defined in `#include &lt;MRCMisc/std_shared_ptr_MR_DistanceMap.h&gt;`.</span></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="MRObjectDistanceMap_8h.html#a078d52fb855baae04a6dcdd71e46fbed">   20</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRChangeMeshAction_8h.html#a078d52fb855baae04a6dcdd71e46fbed">MR_std_shared_ptr_MR_Mesh</a> <a class="code hl_typedef" href="MRChangeMeshAction_8h.html#a078d52fb855baae04a6dcdd71e46fbed">MR_std_shared_ptr_MR_Mesh</a>; <span class="comment">// Defined in `#include &lt;MRCMisc/std_shared_ptr_MR_Mesh.h&gt;`.</span></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="MRObjectDistanceMap_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">   21</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> <a class="code hl_typedef" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a>; <span class="comment">// Defined in `#include &lt;MRCMisc/std_shared_ptr_MR_Object.h&gt;`.</span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="MRObjectDistanceMap_8h.html#a69dc6868c10c92fb8b8a255b0130d289">   22</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> <a class="code hl_typedef" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a>; <span class="comment">// Defined in `#include &lt;MRCMisc/std_string.h&gt;`.</span></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="MRObjectDistanceMap_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">   23</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRAngleMeasurementObject_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> <a class="code hl_typedef" href="MRAngleMeasurementObject_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a>; <span class="comment">// Defined in `#include &lt;MRCMisc/std_vector_std_string.h&gt;`.</span></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRObject_8h.html#ad6ad696793a6623bba06b95cbf9e7245">MR_ObjectDistanceMap</a> <a class="code hl_typedef" href="MRObject_8h.html#ad6ad696793a6623bba06b95cbf9e7245">MR_ObjectDistanceMap</a>;</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="MRObjectDistanceMap_8h.html#a33379f56debb69c35694195ed0110dd8">   40</a></span>MRC_API <a class="code hl_typedef" href="MRObject_8h.html#ad6ad696793a6623bba06b95cbf9e7245">MR_ObjectDistanceMap</a> *<a class="code hl_function" href="MRObjectDistanceMap_8h.html#a33379f56debb69c35694195ed0110dd8">MR_ObjectDistanceMap_DefaultConstruct</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="MRObjectDistanceMap_8h.html#a4bc1508e89eb29bab807525d51ff698c">   45</a></span>MRC_API <a class="code hl_typedef" href="MRObject_8h.html#ad6ad696793a6623bba06b95cbf9e7245">MR_ObjectDistanceMap</a> *<a class="code hl_function" href="MRObjectDistanceMap_8h.html#a4bc1508e89eb29bab807525d51ff698c">MR_ObjectDistanceMap_DefaultConstructArray</a>(<span class="keywordtype">size_t</span> num_elems);</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="MRObjectDistanceMap_8h.html#a9c73f65c4db389ca0b166616066b2ec5">   48</a></span>MRC_API <span class="keyword">const</span> <a class="code hl_typedef" href="MRObject_8h.html#ad6ad696793a6623bba06b95cbf9e7245">MR_ObjectDistanceMap</a> *<a class="code hl_function" href="MRObjectDistanceMap_8h.html#a9c73f65c4db389ca0b166616066b2ec5">MR_ObjectDistanceMap_OffsetPtr</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRObject_8h.html#ad6ad696793a6623bba06b95cbf9e7245">MR_ObjectDistanceMap</a> *ptr, ptrdiff_t i);</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="MRObjectDistanceMap_8h.html#ab43fd9943b05f154125961af09e7edb1">   51</a></span>MRC_API <a class="code hl_typedef" href="MRObject_8h.html#ad6ad696793a6623bba06b95cbf9e7245">MR_ObjectDistanceMap</a> *<a class="code hl_function" href="MRObjectDistanceMap_8h.html#ab43fd9943b05f154125961af09e7edb1">MR_ObjectDistanceMap_OffsetMutablePtr</a>(<a class="code hl_typedef" href="MRObject_8h.html#ad6ad696793a6623bba06b95cbf9e7245">MR_ObjectDistanceMap</a> *ptr, ptrdiff_t i);</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="MRObjectDistanceMap_8h.html#aa5041e786d873f37d96edd9ecd6f287e">   55</a></span>MRC_API <span class="keyword">const</span> <a class="code hl_typedef" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> *<a class="code hl_function" href="MRObjectDistanceMap_8h.html#aa5041e786d873f37d96edd9ecd6f287e">MR_ObjectDistanceMap_UpcastTo_MR_Object</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRObject_8h.html#ad6ad696793a6623bba06b95cbf9e7245">MR_ObjectDistanceMap</a> *<span class="keywordtype">object</span>);</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno"><a class="line" href="MRObjectDistanceMap_8h.html#a8539a1a78fb09f67189dc38b2d91474e">   58</a></span>MRC_API <a class="code hl_typedef" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> *<a class="code hl_function" href="MRObjectDistanceMap_8h.html#a8539a1a78fb09f67189dc38b2d91474e">MR_ObjectDistanceMap_MutableUpcastTo_MR_Object</a>(<a class="code hl_typedef" href="MRObject_8h.html#ad6ad696793a6623bba06b95cbf9e7245">MR_ObjectDistanceMap</a> *<span class="keywordtype">object</span>);</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno"><a class="line" href="MRObjectDistanceMap_8h.html#aaeee594fa3cded1d31623676f77d6234">   62</a></span>MRC_API <span class="keyword">const</span> <a class="code hl_typedef" href="MRAddVisualPropertiesMixin_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a> *<a class="code hl_function" href="MRObjectDistanceMap_8h.html#aaeee594fa3cded1d31623676f77d6234">MR_ObjectDistanceMap_UpcastTo_MR_ObjectChildrenHolder</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRObject_8h.html#ad6ad696793a6623bba06b95cbf9e7245">MR_ObjectDistanceMap</a> *<span class="keywordtype">object</span>);</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="MRObjectDistanceMap_8h.html#ab7788cc5e52fe634dd26c4c3ba1db3b5">   65</a></span>MRC_API <a class="code hl_typedef" href="MRAddVisualPropertiesMixin_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a> *<a class="code hl_function" href="MRObjectDistanceMap_8h.html#ab7788cc5e52fe634dd26c4c3ba1db3b5">MR_ObjectDistanceMap_MutableUpcastTo_MR_ObjectChildrenHolder</a>(<a class="code hl_typedef" href="MRObject_8h.html#ad6ad696793a6623bba06b95cbf9e7245">MR_ObjectDistanceMap</a> *<span class="keywordtype">object</span>);</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno"><a class="line" href="MRObjectDistanceMap_8h.html#a40e8146b423b231699e1da5bfdcb17b7">   69</a></span>MRC_API <span class="keyword">const</span> <a class="code hl_typedef" href="MRObject_8h.html#a1c5e41e50d86c1613114a6f1296f0934">MR_ObjectMeshHolder</a> *<a class="code hl_function" href="MRObjectDistanceMap_8h.html#a40e8146b423b231699e1da5bfdcb17b7">MR_ObjectDistanceMap_UpcastTo_MR_ObjectMeshHolder</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRObject_8h.html#ad6ad696793a6623bba06b95cbf9e7245">MR_ObjectDistanceMap</a> *<span class="keywordtype">object</span>);</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno"><a class="line" href="MRObjectDistanceMap_8h.html#a07f069cdd5bbc8658766f343f2280e88">   72</a></span>MRC_API <a class="code hl_typedef" href="MRObject_8h.html#a1c5e41e50d86c1613114a6f1296f0934">MR_ObjectMeshHolder</a> *<a class="code hl_function" href="MRObjectDistanceMap_8h.html#a07f069cdd5bbc8658766f343f2280e88">MR_ObjectDistanceMap_MutableUpcastTo_MR_ObjectMeshHolder</a>(<a class="code hl_typedef" href="MRObject_8h.html#ad6ad696793a6623bba06b95cbf9e7245">MR_ObjectDistanceMap</a> *<span class="keywordtype">object</span>);</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno"><a class="line" href="MRObjectDistanceMap_8h.html#a5e8bf7a358048f80eba09cb5582bac5b">   76</a></span>MRC_API <span class="keyword">const</span> <a class="code hl_typedef" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a> *<a class="code hl_function" href="MRObjectDistanceMap_8h.html#a5e8bf7a358048f80eba09cb5582bac5b">MR_ObjectDistanceMap_UpcastTo_MR_VisualObject</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRObject_8h.html#ad6ad696793a6623bba06b95cbf9e7245">MR_ObjectDistanceMap</a> *<span class="keywordtype">object</span>);</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno"><a class="line" href="MRObjectDistanceMap_8h.html#a4b79f27677227795652442c388c5b6c4">   79</a></span>MRC_API <a class="code hl_typedef" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a> *<a class="code hl_function" href="MRObjectDistanceMap_8h.html#a4b79f27677227795652442c388c5b6c4">MR_ObjectDistanceMap_MutableUpcastTo_MR_VisualObject</a>(<a class="code hl_typedef" href="MRObject_8h.html#ad6ad696793a6623bba06b95cbf9e7245">MR_ObjectDistanceMap</a> *<span class="keywordtype">object</span>);</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span> </div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno"><a class="line" href="MRObjectDistanceMap_8h.html#ab413ce6675e4130f599b98fdb64866c7">   83</a></span>MRC_API <a class="code hl_typedef" href="MRObject_8h.html#ad6ad696793a6623bba06b95cbf9e7245">MR_ObjectDistanceMap</a> *<a class="code hl_function" href="MRObjectDistanceMap_8h.html#ab413ce6675e4130f599b98fdb64866c7">MR_ObjectDistanceMap_ConstructFromAnother</a>(<a class="code hl_enumeration" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="code hl_typedef" href="MRObject_8h.html#ad6ad696793a6623bba06b95cbf9e7245">MR_ObjectDistanceMap</a> *_other);</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span> </div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno"><a class="line" href="MRObjectDistanceMap_8h.html#a01a0700e3716bf71dab83d16727ba698">   86</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRObjectDistanceMap_8h.html#a01a0700e3716bf71dab83d16727ba698">MR_ObjectDistanceMap_Destroy</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRObject_8h.html#ad6ad696793a6623bba06b95cbf9e7245">MR_ObjectDistanceMap</a> *_this);</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span> </div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno"><a class="line" href="MRObjectDistanceMap_8h.html#a7feb0823dff278c43cf61325069dd2ae">   89</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRObjectDistanceMap_8h.html#a7feb0823dff278c43cf61325069dd2ae">MR_ObjectDistanceMap_DestroyArray</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRObject_8h.html#ad6ad696793a6623bba06b95cbf9e7245">MR_ObjectDistanceMap</a> *_this);</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span> </div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno"><a class="line" href="MRObjectDistanceMap_8h.html#a8c88a8affab43178f158f8b2bb9a6e93">   94</a></span>MRC_API <a class="code hl_typedef" href="MRObject_8h.html#ad6ad696793a6623bba06b95cbf9e7245">MR_ObjectDistanceMap</a> *<a class="code hl_function" href="MRObjectDistanceMap_8h.html#a8c88a8affab43178f158f8b2bb9a6e93">MR_ObjectDistanceMap_AssignFromAnother</a>(<a class="code hl_typedef" href="MRObject_8h.html#ad6ad696793a6623bba06b95cbf9e7245">MR_ObjectDistanceMap</a> *_this, <a class="code hl_enumeration" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="code hl_typedef" href="MRObject_8h.html#ad6ad696793a6623bba06b95cbf9e7245">MR_ObjectDistanceMap</a> *_other);</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span> </div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno"><a class="line" href="MRObjectDistanceMap_8h.html#ac16fbd5fc2338eb19c678806d5107fb9">   97</a></span>MRC_API <span class="keyword">const</span> <span class="keywordtype">char</span> *<a class="code hl_function" href="MRObjectDistanceMap_8h.html#ac16fbd5fc2338eb19c678806d5107fb9">MR_ObjectDistanceMap_TypeName</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span> </div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno"><a class="line" href="MRObjectDistanceMap_8h.html#a3faf70c8dd51409064b9ba4beba0b01e">  101</a></span>MRC_API <span class="keyword">const</span> <span class="keywordtype">char</span> *<a class="code hl_function" href="MRObjectDistanceMap_8h.html#a3faf70c8dd51409064b9ba4beba0b01e">MR_ObjectDistanceMap_typeName</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRObject_8h.html#ad6ad696793a6623bba06b95cbf9e7245">MR_ObjectDistanceMap</a> *_this);</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span> </div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno"><a class="line" href="MRObjectDistanceMap_8h.html#a004b634bd2d3333119dd3fef7afcbde7">  105</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRObjectDistanceMap_8h.html#a004b634bd2d3333119dd3fef7afcbde7">MR_ObjectDistanceMap_applyScale</a>(<a class="code hl_typedef" href="MRObject_8h.html#ad6ad696793a6623bba06b95cbf9e7245">MR_ObjectDistanceMap</a> *_this, <span class="keywordtype">float</span> scaleFactor);</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span> </div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno"><a class="line" href="MRObjectDistanceMap_8h.html#a528465c59e12c7d382041614781b0f5f">  110</a></span>MRC_API <a class="code hl_typedef" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> *<a class="code hl_function" href="MRObjectDistanceMap_8h.html#a528465c59e12c7d382041614781b0f5f">MR_ObjectDistanceMap_clone</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRObject_8h.html#ad6ad696793a6623bba06b95cbf9e7245">MR_ObjectDistanceMap</a> *_this);</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span> </div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno"><a class="line" href="MRObjectDistanceMap_8h.html#a2b025639cbd6b7914795c414428030f9">  115</a></span>MRC_API <a class="code hl_typedef" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> *<a class="code hl_function" href="MRObjectDistanceMap_8h.html#a2b025639cbd6b7914795c414428030f9">MR_ObjectDistanceMap_shallowClone</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRObject_8h.html#ad6ad696793a6623bba06b95cbf9e7245">MR_ObjectDistanceMap</a> *_this);</div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span> </div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno"><a class="line" href="MRObjectDistanceMap_8h.html#ad903d9f5b37c0c6843b86f77bd46a825">  120</a></span>MRC_API <a class="code hl_typedef" href="MRAngleMeasurementObject_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> *<a class="code hl_function" href="MRObjectDistanceMap_8h.html#ad903d9f5b37c0c6843b86f77bd46a825">MR_ObjectDistanceMap_getInfoLines</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRObject_8h.html#ad6ad696793a6623bba06b95cbf9e7245">MR_ObjectDistanceMap</a> *_this);</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span> </div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno"><a class="line" href="MRObjectDistanceMap_8h.html#a74c562ad8a56deb338fb7e5178fe11f2">  125</a></span>MRC_API <a class="code hl_typedef" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *<a class="code hl_function" href="MRObjectDistanceMap_8h.html#a74c562ad8a56deb338fb7e5178fe11f2">MR_ObjectDistanceMap_getClassName</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRObject_8h.html#ad6ad696793a6623bba06b95cbf9e7245">MR_ObjectDistanceMap</a> *_this);</div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span> </div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno"><a class="line" href="MRObjectDistanceMap_8h.html#ab06ab54db6e074fd8d7e2fb39ddb0323">  130</a></span>MRC_API <a class="code hl_typedef" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *<a class="code hl_function" href="MRObjectDistanceMap_8h.html#ab06ab54db6e074fd8d7e2fb39ddb0323">MR_ObjectDistanceMap_getClassNameInPlural</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRObject_8h.html#ad6ad696793a6623bba06b95cbf9e7245">MR_ObjectDistanceMap</a> *_this);</div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span> </div>
+<div class="line"><a id="l00142" name="l00142"></a><span class="lineno"><a class="line" href="MRObjectDistanceMap_8h.html#adbd129a805f202af9c54e86e65056f74">  142</a></span>MRC_API <span class="keywordtype">bool</span> <a class="code hl_function" href="MRObjectDistanceMap_8h.html#adbd129a805f202af9c54e86e65056f74">MR_ObjectDistanceMap_setDistanceMap</a>(<a class="code hl_typedef" href="MRObject_8h.html#ad6ad696793a6623bba06b95cbf9e7245">MR_ObjectDistanceMap</a> *_this, <span class="keyword">const</span> <a class="code hl_typedef" href="MRObjectDistanceMap_8h.html#a3b8d674f09ca07367dd436984548c268">MR_std_shared_ptr_MR_DistanceMap</a> *dmap, <span class="keyword">const</span> <a class="code hl_struct" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *dmap2local, <span class="keyword">const</span> <span class="keywordtype">bool</span> *needUpdateMesh, <a class="code hl_enumeration" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> cb_pass_by, <a class="code hl_typedef" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb);</div>
+<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span> </div>
+<div class="line"><a id="l00149" name="l00149"></a><span class="lineno"><a class="line" href="MRObjectDistanceMap_8h.html#a4861abd7bcea4e77a05656987e960d37">  149</a></span>MRC_API <a class="code hl_typedef" href="MRChangeMeshAction_8h.html#a078d52fb855baae04a6dcdd71e46fbed">MR_std_shared_ptr_MR_Mesh</a> *<a class="code hl_function" href="MRObjectDistanceMap_8h.html#a4861abd7bcea4e77a05656987e960d37">MR_ObjectDistanceMap_calculateMesh</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRObject_8h.html#ad6ad696793a6623bba06b95cbf9e7245">MR_ObjectDistanceMap</a> *_this, <a class="code hl_enumeration" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> cb_pass_by, <a class="code hl_typedef" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb);</div>
+<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span> </div>
+<div class="line"><a id="l00155" name="l00155"></a><span class="lineno"><a class="line" href="MRObjectDistanceMap_8h.html#ab31e9094d724d2d7e2df97c39923d9f5">  155</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRObjectDistanceMap_8h.html#ab31e9094d724d2d7e2df97c39923d9f5">MR_ObjectDistanceMap_updateMesh</a>(<a class="code hl_typedef" href="MRObject_8h.html#ad6ad696793a6623bba06b95cbf9e7245">MR_ObjectDistanceMap</a> *_this, <span class="keyword">const</span> <a class="code hl_typedef" href="MRChangeMeshAction_8h.html#a078d52fb855baae04a6dcdd71e46fbed">MR_std_shared_ptr_MR_Mesh</a> *mesh);</div>
+<div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span> </div>
+<div class="line"><a id="l00160" name="l00160"></a><span class="lineno"><a class="line" href="MRObjectDistanceMap_8h.html#a163fbf662be0737f43aa18b591fec752">  160</a></span>MRC_API <span class="keyword">const</span> <a class="code hl_typedef" href="MRObjectDistanceMap_8h.html#a3b8d674f09ca07367dd436984548c268">MR_std_shared_ptr_MR_DistanceMap</a> *<a class="code hl_function" href="MRObjectDistanceMap_8h.html#a163fbf662be0737f43aa18b591fec752">MR_ObjectDistanceMap_getDistanceMap</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRObject_8h.html#ad6ad696793a6623bba06b95cbf9e7245">MR_ObjectDistanceMap</a> *_this);</div>
+<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span> </div>
+<div class="line"><a id="l00164" name="l00164"></a><span class="lineno"><a class="line" href="MRObjectDistanceMap_8h.html#a0dae11bb85031af676f1fc06116a8e0d">  164</a></span>MRC_API <span class="keywordtype">bool</span> <a class="code hl_function" href="MRObjectDistanceMap_8h.html#a0dae11bb85031af676f1fc06116a8e0d">MR_ObjectDistanceMap_hasModel</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRObject_8h.html#ad6ad696793a6623bba06b95cbf9e7245">MR_ObjectDistanceMap</a> *_this);</div>
+<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span> </div>
+<div class="line"><a id="l00170" name="l00170"></a><span class="lineno"><a class="line" href="MRObjectDistanceMap_8h.html#a42cd923ac9f72daa90a4abb450b759ed">  170</a></span>MRC_API <span class="keyword">const</span> <a class="code hl_struct" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *<a class="code hl_function" href="MRObjectDistanceMap_8h.html#a42cd923ac9f72daa90a4abb450b759ed">MR_ObjectDistanceMap_getToWorldParameters</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRObject_8h.html#ad6ad696793a6623bba06b95cbf9e7245">MR_ObjectDistanceMap</a> *_this);</div>
+<div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span> </div>
+<div class="line"><a id="l00175" name="l00175"></a><span class="lineno"><a class="line" href="MRObjectDistanceMap_8h.html#a1146f315832eac4845e194f7092fb1c2">  175</a></span>MRC_API <a class="code hl_typedef" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> <a class="code hl_function" href="MRObjectDistanceMap_8h.html#a1146f315832eac4845e194f7092fb1c2">MR_ObjectDistanceMap_heapBytes</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRObject_8h.html#ad6ad696793a6623bba06b95cbf9e7245">MR_ObjectDistanceMap</a> *_this);</div>
+<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span> </div>
+<div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span><span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span>} <span class="comment">// extern &quot;C&quot;</span></div>
+<div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aMR3mf_8h_html_adb03ce28cacfff1e499d75d512dc4a84"><div class="ttname"><a href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a></div><div class="ttdeci">struct MR_std_function_bool_from_float MR_std_function_bool_from_float</div><div class="ttdef"><b>Definition</b> MR3mf.h:10</div></div>
+<div class="ttc" id="aMRAddVisualPropertiesMixin_8h_html_a36f3696eda81d7005927ebc5fdf17e14"><div class="ttname"><a href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a></div><div class="ttdeci">struct MR_VisualObject MR_VisualObject</div><div class="ttdef"><b>Definition</b> MRAddVisualPropertiesMixin.h:21</div></div>
+<div class="ttc" id="aMRAddVisualPropertiesMixin_8h_html_aecafdb5edbdb31eb13fbab762e3c39bc"><div class="ttname"><a href="MRAddVisualPropertiesMixin_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a></div><div class="ttdeci">struct MR_ObjectChildrenHolder MR_ObjectChildrenHolder</div><div class="ttdef"><b>Definition</b> MRAddVisualPropertiesMixin.h:18</div></div>
+<div class="ttc" id="aMRAngleMeasurementObject_8h_html_a9e9b9c2b8a1a0540b204b1b7e6e792f4"><div class="ttname"><a href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a></div><div class="ttdeci">struct MR_std_shared_ptr_MR_Object MR_std_shared_ptr_MR_Object</div><div class="ttdef"><b>Definition</b> MRAngleMeasurementObject.h:18</div></div>
+<div class="ttc" id="aMRAngleMeasurementObject_8h_html_ab26d333cd7549e6f3f49cc80e3ba5900"><div class="ttname"><a href="MRAngleMeasurementObject_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a></div><div class="ttdeci">struct MR_std_vector_std_string MR_std_vector_std_string</div><div class="ttdef"><b>Definition</b> MRAngleMeasurementObject.h:20</div></div>
+<div class="ttc" id="aMRChangeMeshAction_8h_html_a078d52fb855baae04a6dcdd71e46fbed"><div class="ttname"><a href="MRChangeMeshAction_8h.html#a078d52fb855baae04a6dcdd71e46fbed">MR_std_shared_ptr_MR_Mesh</a></div><div class="ttdeci">struct MR_std_shared_ptr_MR_Mesh MR_std_shared_ptr_MR_Mesh</div><div class="ttdef"><b>Definition</b> MRChangeMeshAction.h:19</div></div>
+<div class="ttc" id="aMRE57_8h_html_a69dc6868c10c92fb8b8a255b0130d289"><div class="ttname"><a href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></div><div class="ttdeci">struct MR_std_string MR_std_string</div><div class="ttdef"><b>Definition</b> MRE57.h:22</div></div>
+<div class="ttc" id="aMRGltf_8h_html_accce9c9179cadabc541edda0fc7a2571"><div class="ttname"><a href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a></div><div class="ttdeci">struct MR_Object MR_Object</div><div class="ttdef"><b>Definition</b> MRGltf.h:10</div></div>
+<div class="ttc" id="aMRObjectDistanceMap_8h_html_a004b634bd2d3333119dd3fef7afcbde7"><div class="ttname"><a href="MRObjectDistanceMap_8h.html#a004b634bd2d3333119dd3fef7afcbde7">MR_ObjectDistanceMap_applyScale</a></div><div class="ttdeci">MRC_API void MR_ObjectDistanceMap_applyScale(MR_ObjectDistanceMap *_this, float scaleFactor)</div></div>
+<div class="ttc" id="aMRObjectDistanceMap_8h_html_a01a0700e3716bf71dab83d16727ba698"><div class="ttname"><a href="MRObjectDistanceMap_8h.html#a01a0700e3716bf71dab83d16727ba698">MR_ObjectDistanceMap_Destroy</a></div><div class="ttdeci">MRC_API void MR_ObjectDistanceMap_Destroy(const MR_ObjectDistanceMap *_this)</div><div class="ttdoc">Destroys a heap-allocated instance of MR_ObjectDistanceMap. Does nothing if the pointer is null.</div></div>
+<div class="ttc" id="aMRObjectDistanceMap_8h_html_a07f069cdd5bbc8658766f343f2280e88"><div class="ttname"><a href="MRObjectDistanceMap_8h.html#a07f069cdd5bbc8658766f343f2280e88">MR_ObjectDistanceMap_MutableUpcastTo_MR_ObjectMeshHolder</a></div><div class="ttdeci">MRC_API MR_ObjectMeshHolder * MR_ObjectDistanceMap_MutableUpcastTo_MR_ObjectMeshHolder(MR_ObjectDistanceMap *object)</div><div class="ttdoc">Upcasts an instance of MR::ObjectDistanceMap to its base class MR::ObjectMeshHolder.</div></div>
+<div class="ttc" id="aMRObjectDistanceMap_8h_html_a0dae11bb85031af676f1fc06116a8e0d"><div class="ttname"><a href="MRObjectDistanceMap_8h.html#a0dae11bb85031af676f1fc06116a8e0d">MR_ObjectDistanceMap_hasModel</a></div><div class="ttdeci">MRC_API bool MR_ObjectDistanceMap_hasModel(const MR_ObjectDistanceMap *_this)</div></div>
+<div class="ttc" id="aMRObjectDistanceMap_8h_html_a1146f315832eac4845e194f7092fb1c2"><div class="ttname"><a href="MRObjectDistanceMap_8h.html#a1146f315832eac4845e194f7092fb1c2">MR_ObjectDistanceMap_heapBytes</a></div><div class="ttdeci">MRC_API MR_uint64_t MR_ObjectDistanceMap_heapBytes(const MR_ObjectDistanceMap *_this)</div></div>
+<div class="ttc" id="aMRObjectDistanceMap_8h_html_a163fbf662be0737f43aa18b591fec752"><div class="ttname"><a href="MRObjectDistanceMap_8h.html#a163fbf662be0737f43aa18b591fec752">MR_ObjectDistanceMap_getDistanceMap</a></div><div class="ttdeci">MRC_API const MR_std_shared_ptr_MR_DistanceMap * MR_ObjectDistanceMap_getDistanceMap(const MR_ObjectDistanceMap *_this)</div></div>
+<div class="ttc" id="aMRObjectDistanceMap_8h_html_a2b025639cbd6b7914795c414428030f9"><div class="ttname"><a href="MRObjectDistanceMap_8h.html#a2b025639cbd6b7914795c414428030f9">MR_ObjectDistanceMap_shallowClone</a></div><div class="ttdeci">MRC_API MR_std_shared_ptr_MR_Object * MR_ObjectDistanceMap_shallowClone(const MR_ObjectDistanceMap *_this)</div></div>
+<div class="ttc" id="aMRObjectDistanceMap_8h_html_a33379f56debb69c35694195ed0110dd8"><div class="ttname"><a href="MRObjectDistanceMap_8h.html#a33379f56debb69c35694195ed0110dd8">MR_ObjectDistanceMap_DefaultConstruct</a></div><div class="ttdeci">MRC_API MR_ObjectDistanceMap * MR_ObjectDistanceMap_DefaultConstruct(void)</div></div>
+<div class="ttc" id="aMRObjectDistanceMap_8h_html_a3b8d674f09ca07367dd436984548c268"><div class="ttname"><a href="MRObjectDistanceMap_8h.html#a3b8d674f09ca07367dd436984548c268">MR_std_shared_ptr_MR_DistanceMap</a></div><div class="ttdeci">struct MR_std_shared_ptr_MR_DistanceMap MR_std_shared_ptr_MR_DistanceMap</div><div class="ttdef"><b>Definition</b> MRObjectDistanceMap.h:19</div></div>
+<div class="ttc" id="aMRObjectDistanceMap_8h_html_a3faf70c8dd51409064b9ba4beba0b01e"><div class="ttname"><a href="MRObjectDistanceMap_8h.html#a3faf70c8dd51409064b9ba4beba0b01e">MR_ObjectDistanceMap_typeName</a></div><div class="ttdeci">MRC_API const char * MR_ObjectDistanceMap_typeName(const MR_ObjectDistanceMap *_this)</div></div>
+<div class="ttc" id="aMRObjectDistanceMap_8h_html_a40e8146b423b231699e1da5bfdcb17b7"><div class="ttname"><a href="MRObjectDistanceMap_8h.html#a40e8146b423b231699e1da5bfdcb17b7">MR_ObjectDistanceMap_UpcastTo_MR_ObjectMeshHolder</a></div><div class="ttdeci">MRC_API const MR_ObjectMeshHolder * MR_ObjectDistanceMap_UpcastTo_MR_ObjectMeshHolder(const MR_ObjectDistanceMap *object)</div></div>
+<div class="ttc" id="aMRObjectDistanceMap_8h_html_a42cd923ac9f72daa90a4abb450b759ed"><div class="ttname"><a href="MRObjectDistanceMap_8h.html#a42cd923ac9f72daa90a4abb450b759ed">MR_ObjectDistanceMap_getToWorldParameters</a></div><div class="ttdeci">MRC_API const MR_AffineXf3f * MR_ObjectDistanceMap_getToWorldParameters(const MR_ObjectDistanceMap *_this)</div></div>
+<div class="ttc" id="aMRObjectDistanceMap_8h_html_a4861abd7bcea4e77a05656987e960d37"><div class="ttname"><a href="MRObjectDistanceMap_8h.html#a4861abd7bcea4e77a05656987e960d37">MR_ObjectDistanceMap_calculateMesh</a></div><div class="ttdeci">MRC_API MR_std_shared_ptr_MR_Mesh * MR_ObjectDistanceMap_calculateMesh(const MR_ObjectDistanceMap *_this, MR_PassBy cb_pass_by, MR_std_function_bool_from_float *cb)</div></div>
+<div class="ttc" id="aMRObjectDistanceMap_8h_html_a4b79f27677227795652442c388c5b6c4"><div class="ttname"><a href="MRObjectDistanceMap_8h.html#a4b79f27677227795652442c388c5b6c4">MR_ObjectDistanceMap_MutableUpcastTo_MR_VisualObject</a></div><div class="ttdeci">MRC_API MR_VisualObject * MR_ObjectDistanceMap_MutableUpcastTo_MR_VisualObject(MR_ObjectDistanceMap *object)</div><div class="ttdoc">Upcasts an instance of MR::ObjectDistanceMap to its base class MR::VisualObject.</div></div>
+<div class="ttc" id="aMRObjectDistanceMap_8h_html_a4bc1508e89eb29bab807525d51ff698c"><div class="ttname"><a href="MRObjectDistanceMap_8h.html#a4bc1508e89eb29bab807525d51ff698c">MR_ObjectDistanceMap_DefaultConstructArray</a></div><div class="ttdeci">MRC_API MR_ObjectDistanceMap * MR_ObjectDistanceMap_DefaultConstructArray(size_t num_elems)</div></div>
+<div class="ttc" id="aMRObjectDistanceMap_8h_html_a528465c59e12c7d382041614781b0f5f"><div class="ttname"><a href="MRObjectDistanceMap_8h.html#a528465c59e12c7d382041614781b0f5f">MR_ObjectDistanceMap_clone</a></div><div class="ttdeci">MRC_API MR_std_shared_ptr_MR_Object * MR_ObjectDistanceMap_clone(const MR_ObjectDistanceMap *_this)</div></div>
+<div class="ttc" id="aMRObjectDistanceMap_8h_html_a5e8bf7a358048f80eba09cb5582bac5b"><div class="ttname"><a href="MRObjectDistanceMap_8h.html#a5e8bf7a358048f80eba09cb5582bac5b">MR_ObjectDistanceMap_UpcastTo_MR_VisualObject</a></div><div class="ttdeci">MRC_API const MR_VisualObject * MR_ObjectDistanceMap_UpcastTo_MR_VisualObject(const MR_ObjectDistanceMap *object)</div></div>
+<div class="ttc" id="aMRObjectDistanceMap_8h_html_a74c562ad8a56deb338fb7e5178fe11f2"><div class="ttname"><a href="MRObjectDistanceMap_8h.html#a74c562ad8a56deb338fb7e5178fe11f2">MR_ObjectDistanceMap_getClassName</a></div><div class="ttdeci">MRC_API MR_std_string * MR_ObjectDistanceMap_getClassName(const MR_ObjectDistanceMap *_this)</div></div>
+<div class="ttc" id="aMRObjectDistanceMap_8h_html_a7feb0823dff278c43cf61325069dd2ae"><div class="ttname"><a href="MRObjectDistanceMap_8h.html#a7feb0823dff278c43cf61325069dd2ae">MR_ObjectDistanceMap_DestroyArray</a></div><div class="ttdeci">MRC_API void MR_ObjectDistanceMap_DestroyArray(const MR_ObjectDistanceMap *_this)</div><div class="ttdoc">Destroys a heap-allocated array of MR_ObjectDistanceMap. Does nothing if the pointer is null.</div></div>
+<div class="ttc" id="aMRObjectDistanceMap_8h_html_a8539a1a78fb09f67189dc38b2d91474e"><div class="ttname"><a href="MRObjectDistanceMap_8h.html#a8539a1a78fb09f67189dc38b2d91474e">MR_ObjectDistanceMap_MutableUpcastTo_MR_Object</a></div><div class="ttdeci">MRC_API MR_Object * MR_ObjectDistanceMap_MutableUpcastTo_MR_Object(MR_ObjectDistanceMap *object)</div><div class="ttdoc">Upcasts an instance of MR::ObjectDistanceMap to its base class MR::Object.</div></div>
+<div class="ttc" id="aMRObjectDistanceMap_8h_html_a8c88a8affab43178f158f8b2bb9a6e93"><div class="ttname"><a href="MRObjectDistanceMap_8h.html#a8c88a8affab43178f158f8b2bb9a6e93">MR_ObjectDistanceMap_AssignFromAnother</a></div><div class="ttdeci">MRC_API MR_ObjectDistanceMap * MR_ObjectDistanceMap_AssignFromAnother(MR_ObjectDistanceMap *_this, MR_PassBy _other_pass_by, MR_ObjectDistanceMap *_other)</div></div>
+<div class="ttc" id="aMRObjectDistanceMap_8h_html_a9c73f65c4db389ca0b166616066b2ec5"><div class="ttname"><a href="MRObjectDistanceMap_8h.html#a9c73f65c4db389ca0b166616066b2ec5">MR_ObjectDistanceMap_OffsetPtr</a></div><div class="ttdeci">MRC_API const MR_ObjectDistanceMap * MR_ObjectDistanceMap_OffsetPtr(const MR_ObjectDistanceMap *ptr, ptrdiff_t i)</div><div class="ttdoc">Offsets a pointer to an array element by i positions (not bytes). Use only if you're certain that the...</div></div>
+<div class="ttc" id="aMRObjectDistanceMap_8h_html_aa5041e786d873f37d96edd9ecd6f287e"><div class="ttname"><a href="MRObjectDistanceMap_8h.html#aa5041e786d873f37d96edd9ecd6f287e">MR_ObjectDistanceMap_UpcastTo_MR_Object</a></div><div class="ttdeci">MRC_API const MR_Object * MR_ObjectDistanceMap_UpcastTo_MR_Object(const MR_ObjectDistanceMap *object)</div></div>
+<div class="ttc" id="aMRObjectDistanceMap_8h_html_aaeee594fa3cded1d31623676f77d6234"><div class="ttname"><a href="MRObjectDistanceMap_8h.html#aaeee594fa3cded1d31623676f77d6234">MR_ObjectDistanceMap_UpcastTo_MR_ObjectChildrenHolder</a></div><div class="ttdeci">MRC_API const MR_ObjectChildrenHolder * MR_ObjectDistanceMap_UpcastTo_MR_ObjectChildrenHolder(const MR_ObjectDistanceMap *object)</div></div>
+<div class="ttc" id="aMRObjectDistanceMap_8h_html_ab06ab54db6e074fd8d7e2fb39ddb0323"><div class="ttname"><a href="MRObjectDistanceMap_8h.html#ab06ab54db6e074fd8d7e2fb39ddb0323">MR_ObjectDistanceMap_getClassNameInPlural</a></div><div class="ttdeci">MRC_API MR_std_string * MR_ObjectDistanceMap_getClassNameInPlural(const MR_ObjectDistanceMap *_this)</div></div>
+<div class="ttc" id="aMRObjectDistanceMap_8h_html_ab31e9094d724d2d7e2df97c39923d9f5"><div class="ttname"><a href="MRObjectDistanceMap_8h.html#ab31e9094d724d2d7e2df97c39923d9f5">MR_ObjectDistanceMap_updateMesh</a></div><div class="ttdeci">MRC_API void MR_ObjectDistanceMap_updateMesh(MR_ObjectDistanceMap *_this, const MR_std_shared_ptr_MR_Mesh *mesh)</div></div>
+<div class="ttc" id="aMRObjectDistanceMap_8h_html_ab413ce6675e4130f599b98fdb64866c7"><div class="ttname"><a href="MRObjectDistanceMap_8h.html#ab413ce6675e4130f599b98fdb64866c7">MR_ObjectDistanceMap_ConstructFromAnother</a></div><div class="ttdeci">MRC_API MR_ObjectDistanceMap * MR_ObjectDistanceMap_ConstructFromAnother(MR_PassBy _other_pass_by, MR_ObjectDistanceMap *_other)</div></div>
+<div class="ttc" id="aMRObjectDistanceMap_8h_html_ab43fd9943b05f154125961af09e7edb1"><div class="ttname"><a href="MRObjectDistanceMap_8h.html#ab43fd9943b05f154125961af09e7edb1">MR_ObjectDistanceMap_OffsetMutablePtr</a></div><div class="ttdeci">MRC_API MR_ObjectDistanceMap * MR_ObjectDistanceMap_OffsetMutablePtr(MR_ObjectDistanceMap *ptr, ptrdiff_t i)</div><div class="ttdoc">Offsets a pointer to an array element by i positions (not bytes). Use only if you're certain that the...</div></div>
+<div class="ttc" id="aMRObjectDistanceMap_8h_html_ab7788cc5e52fe634dd26c4c3ba1db3b5"><div class="ttname"><a href="MRObjectDistanceMap_8h.html#ab7788cc5e52fe634dd26c4c3ba1db3b5">MR_ObjectDistanceMap_MutableUpcastTo_MR_ObjectChildrenHolder</a></div><div class="ttdeci">MRC_API MR_ObjectChildrenHolder * MR_ObjectDistanceMap_MutableUpcastTo_MR_ObjectChildrenHolder(MR_ObjectDistanceMap *object)</div><div class="ttdoc">Upcasts an instance of MR::ObjectDistanceMap to its base class MR::ObjectChildrenHolder.</div></div>
+<div class="ttc" id="aMRObjectDistanceMap_8h_html_ac16fbd5fc2338eb19c678806d5107fb9"><div class="ttname"><a href="MRObjectDistanceMap_8h.html#ac16fbd5fc2338eb19c678806d5107fb9">MR_ObjectDistanceMap_TypeName</a></div><div class="ttdeci">MRC_API const char * MR_ObjectDistanceMap_TypeName(void)</div><div class="ttdoc">Generated from a method of class MR::ObjectDistanceMap named TypeName.</div></div>
+<div class="ttc" id="aMRObjectDistanceMap_8h_html_ad903d9f5b37c0c6843b86f77bd46a825"><div class="ttname"><a href="MRObjectDistanceMap_8h.html#ad903d9f5b37c0c6843b86f77bd46a825">MR_ObjectDistanceMap_getInfoLines</a></div><div class="ttdeci">MRC_API MR_std_vector_std_string * MR_ObjectDistanceMap_getInfoLines(const MR_ObjectDistanceMap *_this)</div></div>
+<div class="ttc" id="aMRObjectDistanceMap_8h_html_adbd129a805f202af9c54e86e65056f74"><div class="ttname"><a href="MRObjectDistanceMap_8h.html#adbd129a805f202af9c54e86e65056f74">MR_ObjectDistanceMap_setDistanceMap</a></div><div class="ttdeci">MRC_API bool MR_ObjectDistanceMap_setDistanceMap(MR_ObjectDistanceMap *_this, const MR_std_shared_ptr_MR_DistanceMap *dmap, const MR_AffineXf3f *dmap2local, const bool *needUpdateMesh, MR_PassBy cb_pass_by, MR_std_function_bool_from_float *cb)</div></div>
+<div class="ttc" id="aMRObject_8h_html_a1c5e41e50d86c1613114a6f1296f0934"><div class="ttname"><a href="MRObject_8h.html#a1c5e41e50d86c1613114a6f1296f0934">MR_ObjectMeshHolder</a></div><div class="ttdeci">struct MR_ObjectMeshHolder MR_ObjectMeshHolder</div><div class="ttdef"><b>Definition</b> MRObject.h:33</div></div>
+<div class="ttc" id="aMRObject_8h_html_ad6ad696793a6623bba06b95cbf9e7245"><div class="ttname"><a href="MRObject_8h.html#ad6ad696793a6623bba06b95cbf9e7245">MR_ObjectDistanceMap</a></div><div class="ttdeci">struct MR_ObjectDistanceMap MR_ObjectDistanceMap</div><div class="ttdef"><b>Definition</b> MRObject.h:27</div></div>
+<div class="ttc" id="acommon_8h_html"><div class="ttname"><a href="common_8h.html">common.h</a></div></div>
+<div class="ttc" id="acommon_8h_html_ac983b89bddb9b22c9b416f31399f0095"><div class="ttname"><a href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></div><div class="ttdeci">MR_PassBy</div><div class="ttdef"><b>Definition</b> common.h:19</div></div>
+<div class="ttc" id="acommon_8h_html_aefc0b2fe2e376b1b34a189af81dc8a49"><div class="ttname"><a href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></div><div class="ttdeci">uint64_t MR_uint64_t</div><div class="ttdef"><b>Definition</b> common.h:14</div></div>
+<div class="ttc" id="astructMR__AffineXf3f_html"><div class="ttname"><a href="structMR__AffineXf3f.html">MR_AffineXf3f</a></div><div class="ttdef"><b>Definition</b> MRAffineXf.h:39</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_87d38852fc01aff5f853718c8d8b5cb2.html">Cbindings</a></li><li class="navelem"><a class="el" href="dir_cb83f9b98dc6f67356ff76bcc17f4f67.html">MRCMesh</a></li><li class="navelem"><a class="el" href="MRObjectDistanceMap_8h.html">MRObjectDistanceMap.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

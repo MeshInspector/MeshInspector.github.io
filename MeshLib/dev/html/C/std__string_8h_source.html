@@ -1,0 +1,233 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: std_string.h Source File</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('std__string_8h_source.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">std_string.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="std__string_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;<a class="code" href="common_8h.html">MRCMisc/common.h</a>&gt;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;MRCMisc/exports.h&gt;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;stddef.h&gt;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> {</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="std__string_8h.html#a69dc6868c10c92fb8b8a255b0130d289">   15</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> <a class="code hl_typedef" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a>;</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="std__string_8h.html#ac46c1cfaf14cc87fe14dac9aefbfeace">   19</a></span>MRC_API <a class="code hl_typedef" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *<a class="code hl_function" href="std__string_8h.html#ac46c1cfaf14cc87fe14dac9aefbfeace">MR_std_string_DefaultConstruct</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="std__string_8h.html#acece0810b7116f0fb7d1a57a565d7c3b">   24</a></span>MRC_API <a class="code hl_typedef" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *<a class="code hl_function" href="std__string_8h.html#acece0810b7116f0fb7d1a57a565d7c3b">MR_std_string_DefaultConstructArray</a>(<span class="keywordtype">size_t</span> num_elems);</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="std__string_8h.html#ac7c7cee10f454a6543530376aa759435">   28</a></span>MRC_API <a class="code hl_typedef" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *<a class="code hl_function" href="std__string_8h.html#ac7c7cee10f454a6543530376aa759435">MR_std_string_ConstructFromAnother</a>(<a class="code hl_enumeration" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> other_pass_by, <a class="code hl_typedef" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *other);</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="std__string_8h.html#ab938c7be5268bfba9034ce163f8a5c10">   34</a></span>MRC_API <a class="code hl_typedef" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *<a class="code hl_function" href="std__string_8h.html#ab938c7be5268bfba9034ce163f8a5c10">MR_std_string_ConstructFrom</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> *other, <span class="keyword">const</span> <span class="keywordtype">char</span> *other_end);</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="std__string_8h.html#ae5133f9169374330e846cebf188c868b">   38</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="std__string_8h.html#ae5133f9169374330e846cebf188c868b">MR_std_string_AssignFromAnother</a>(<a class="code hl_typedef" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *_this, <a class="code hl_enumeration" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> other_pass_by, <a class="code hl_typedef" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *other);</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="std__string_8h.html#a7f4c11f2fd76dfec4baa9ecf9e4d350a">   44</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="std__string_8h.html#a7f4c11f2fd76dfec4baa9ecf9e4d350a">MR_std_string_AssignFrom</a>(<a class="code hl_typedef" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *_this, <span class="keyword">const</span> <span class="keywordtype">char</span> *other, <span class="keyword">const</span> <span class="keywordtype">char</span> *other_end);</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="std__string_8h.html#a9ffa0a79c0c1ac50a81c8dfdf2fd5d91">   47</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="std__string_8h.html#a9ffa0a79c0c1ac50a81c8dfdf2fd5d91">MR_std_string_Destroy</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *_this);</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="std__string_8h.html#adb9a566a1a1d75ea1da39958abdd1bd8">   50</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="std__string_8h.html#adb9a566a1a1d75ea1da39958abdd1bd8">MR_std_string_DestroyArray</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *_this);</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="std__string_8h.html#a58dffdc8fa8ed5258897e4b20dec4333">   53</a></span>MRC_API <span class="keyword">const</span> <a class="code hl_typedef" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *<a class="code hl_function" href="std__string_8h.html#a58dffdc8fa8ed5258897e4b20dec4333">MR_std_string_OffsetPtr</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *ptr, ptrdiff_t i);</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="std__string_8h.html#a1085c13ddd3e6311766535dc075202b4">   56</a></span>MRC_API <a class="code hl_typedef" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *<a class="code hl_function" href="std__string_8h.html#a1085c13ddd3e6311766535dc075202b4">MR_std_string_OffsetMutablePtr</a>(<a class="code hl_typedef" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *ptr, ptrdiff_t i);</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="std__string_8h.html#a278dfb984eee05ef8df40e450b49eaf4">   60</a></span>MRC_API <span class="keywordtype">size_t</span> <a class="code hl_function" href="std__string_8h.html#a278dfb984eee05ef8df40e450b49eaf4">MR_std_string_Size</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *_this);</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno"><a class="line" href="std__string_8h.html#ae6d1b10a4ee031ae30876d74a6894c67">   64</a></span>MRC_API <span class="keyword">const</span> <span class="keywordtype">char</span> *<a class="code hl_function" href="std__string_8h.html#ae6d1b10a4ee031ae30876d74a6894c67">MR_std_string_Data</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *_this);</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno"><a class="line" href="std__string_8h.html#a6ebd729482375c7980ec6cf802d03d5f">   68</a></span>MRC_API <span class="keyword">const</span> <span class="keywordtype">char</span> *<a class="code hl_function" href="std__string_8h.html#a6ebd729482375c7980ec6cf802d03d5f">MR_std_string_MutableData</a>(<a class="code hl_typedef" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *_this);</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno"><a class="line" href="std__string_8h.html#ae906919d36105961d53e9d3419d73c02">   72</a></span>MRC_API <span class="keyword">const</span> <span class="keywordtype">char</span> *<a class="code hl_function" href="std__string_8h.html#ae906919d36105961d53e9d3419d73c02">MR_std_string_DataEnd</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *_this);</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno"><a class="line" href="std__string_8h.html#a594903bd0026a0e79d9aee30f3473751">   76</a></span>MRC_API <span class="keywordtype">char</span> *<a class="code hl_function" href="std__string_8h.html#a594903bd0026a0e79d9aee30f3473751">MR_std_string_MutableDataEnd</a>(<a class="code hl_typedef" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *_this);</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span><span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>} <span class="comment">// extern &quot;C&quot;</span></div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aMRE57_8h_html_a69dc6868c10c92fb8b8a255b0130d289"><div class="ttname"><a href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></div><div class="ttdeci">struct MR_std_string MR_std_string</div><div class="ttdef"><b>Definition</b> MRE57.h:22</div></div>
+<div class="ttc" id="acommon_8h_html"><div class="ttname"><a href="common_8h.html">common.h</a></div></div>
+<div class="ttc" id="acommon_8h_html_ac983b89bddb9b22c9b416f31399f0095"><div class="ttname"><a href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></div><div class="ttdeci">MR_PassBy</div><div class="ttdef"><b>Definition</b> common.h:19</div></div>
+<div class="ttc" id="astd__string_8h_html_a1085c13ddd3e6311766535dc075202b4"><div class="ttname"><a href="std__string_8h.html#a1085c13ddd3e6311766535dc075202b4">MR_std_string_OffsetMutablePtr</a></div><div class="ttdeci">MRC_API MR_std_string * MR_std_string_OffsetMutablePtr(MR_std_string *ptr, ptrdiff_t i)</div><div class="ttdoc">Offsets a pointer to an array element by i positions (not bytes). Use only if you're certain that the...</div></div>
+<div class="ttc" id="astd__string_8h_html_a278dfb984eee05ef8df40e450b49eaf4"><div class="ttname"><a href="std__string_8h.html#a278dfb984eee05ef8df40e450b49eaf4">MR_std_string_Size</a></div><div class="ttdeci">MRC_API size_t MR_std_string_Size(const MR_std_string *_this)</div></div>
+<div class="ttc" id="astd__string_8h_html_a58dffdc8fa8ed5258897e4b20dec4333"><div class="ttname"><a href="std__string_8h.html#a58dffdc8fa8ed5258897e4b20dec4333">MR_std_string_OffsetPtr</a></div><div class="ttdeci">MRC_API const MR_std_string * MR_std_string_OffsetPtr(const MR_std_string *ptr, ptrdiff_t i)</div><div class="ttdoc">Offsets a pointer to an array element by i positions (not bytes). Use only if you're certain that the...</div></div>
+<div class="ttc" id="astd__string_8h_html_a594903bd0026a0e79d9aee30f3473751"><div class="ttname"><a href="std__string_8h.html#a594903bd0026a0e79d9aee30f3473751">MR_std_string_MutableDataEnd</a></div><div class="ttdeci">MRC_API char * MR_std_string_MutableDataEnd(MR_std_string *_this)</div></div>
+<div class="ttc" id="astd__string_8h_html_a6ebd729482375c7980ec6cf802d03d5f"><div class="ttname"><a href="std__string_8h.html#a6ebd729482375c7980ec6cf802d03d5f">MR_std_string_MutableData</a></div><div class="ttdeci">MRC_API const char * MR_std_string_MutableData(MR_std_string *_this)</div></div>
+<div class="ttc" id="astd__string_8h_html_a7f4c11f2fd76dfec4baa9ecf9e4d350a"><div class="ttname"><a href="std__string_8h.html#a7f4c11f2fd76dfec4baa9ecf9e4d350a">MR_std_string_AssignFrom</a></div><div class="ttdeci">MRC_API void MR_std_string_AssignFrom(MR_std_string *_this, const char *other, const char *other_end)</div></div>
+<div class="ttc" id="astd__string_8h_html_a9ffa0a79c0c1ac50a81c8dfdf2fd5d91"><div class="ttname"><a href="std__string_8h.html#a9ffa0a79c0c1ac50a81c8dfdf2fd5d91">MR_std_string_Destroy</a></div><div class="ttdeci">MRC_API void MR_std_string_Destroy(const MR_std_string *_this)</div><div class="ttdoc">Destroys a heap-allocated instance of MR_std_string. Does nothing if the pointer is null.</div></div>
+<div class="ttc" id="astd__string_8h_html_ab938c7be5268bfba9034ce163f8a5c10"><div class="ttname"><a href="std__string_8h.html#ab938c7be5268bfba9034ce163f8a5c10">MR_std_string_ConstructFrom</a></div><div class="ttdeci">MRC_API MR_std_string * MR_std_string_ConstructFrom(const char *other, const char *other_end)</div></div>
+<div class="ttc" id="astd__string_8h_html_ac46c1cfaf14cc87fe14dac9aefbfeace"><div class="ttname"><a href="std__string_8h.html#ac46c1cfaf14cc87fe14dac9aefbfeace">MR_std_string_DefaultConstruct</a></div><div class="ttdeci">MRC_API MR_std_string * MR_std_string_DefaultConstruct(void)</div></div>
+<div class="ttc" id="astd__string_8h_html_ac7c7cee10f454a6543530376aa759435"><div class="ttname"><a href="std__string_8h.html#ac7c7cee10f454a6543530376aa759435">MR_std_string_ConstructFromAnother</a></div><div class="ttdeci">MRC_API MR_std_string * MR_std_string_ConstructFromAnother(MR_PassBy other_pass_by, MR_std_string *other)</div></div>
+<div class="ttc" id="astd__string_8h_html_acece0810b7116f0fb7d1a57a565d7c3b"><div class="ttname"><a href="std__string_8h.html#acece0810b7116f0fb7d1a57a565d7c3b">MR_std_string_DefaultConstructArray</a></div><div class="ttdeci">MRC_API MR_std_string * MR_std_string_DefaultConstructArray(size_t num_elems)</div></div>
+<div class="ttc" id="astd__string_8h_html_adb9a566a1a1d75ea1da39958abdd1bd8"><div class="ttname"><a href="std__string_8h.html#adb9a566a1a1d75ea1da39958abdd1bd8">MR_std_string_DestroyArray</a></div><div class="ttdeci">MRC_API void MR_std_string_DestroyArray(const MR_std_string *_this)</div><div class="ttdoc">Destroys a heap-allocated array of MR_std_string. Does nothing if the pointer is null.</div></div>
+<div class="ttc" id="astd__string_8h_html_ae5133f9169374330e846cebf188c868b"><div class="ttname"><a href="std__string_8h.html#ae5133f9169374330e846cebf188c868b">MR_std_string_AssignFromAnother</a></div><div class="ttdeci">MRC_API void MR_std_string_AssignFromAnother(MR_std_string *_this, MR_PassBy other_pass_by, MR_std_string *other)</div></div>
+<div class="ttc" id="astd__string_8h_html_ae6d1b10a4ee031ae30876d74a6894c67"><div class="ttname"><a href="std__string_8h.html#ae6d1b10a4ee031ae30876d74a6894c67">MR_std_string_Data</a></div><div class="ttdeci">MRC_API const char * MR_std_string_Data(const MR_std_string *_this)</div></div>
+<div class="ttc" id="astd__string_8h_html_ae906919d36105961d53e9d3419d73c02"><div class="ttname"><a href="std__string_8h.html#ae906919d36105961d53e9d3419d73c02">MR_std_string_DataEnd</a></div><div class="ttdeci">MRC_API const char * MR_std_string_DataEnd(const MR_std_string *_this)</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_87d38852fc01aff5f853718c8d8b5cb2.html">Cbindings</a></li><li class="navelem"><a class="el" href="dir_12d01ef4fa7c7ca18852dd6d7d92a624.html">MRCMisc</a></li><li class="navelem"><a class="el" href="std__string_8h.html">std_string.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

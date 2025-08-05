@@ -1,0 +1,297 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: MRMeshLoad.h Source File</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('MRMeshLoad_8h_source.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">MRMeshLoad.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="MRMeshLoad_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;MRCMisc/exports.h&gt;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> {</div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno"><a class="line" href="MRMeshLoad_8h.html#a616a0b042e712074c2ed4013f47fa0af">    9</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRCtm_8h.html#a616a0b042e712074c2ed4013f47fa0af">MR_MeshLoadSettings</a> <a class="code hl_typedef" href="MRCtm_8h.html#a616a0b042e712074c2ed4013f47fa0af">MR_MeshLoadSettings</a>; <span class="comment">// Defined in `#include &lt;MRCMesh/MRMeshLoadSettings.h&gt;`.</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="MRMeshLoad_8h.html#a0d97154d4aed695055160a4688c04a3d">   10</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> <a class="code hl_typedef" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a>; <span class="comment">// Defined in `#include &lt;MRCMisc/expected_MR_Mesh_std_string.h&gt;`.</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="MRMeshLoad_8h.html#aef22a11476e76208a3f9a5cf2eba4c98">   11</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRCtm_8h.html#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a> <a class="code hl_typedef" href="MRCtm_8h.html#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a>; <span class="comment">// Defined in `#include &lt;MRCMisc/iostream.h&gt;`.</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="MRMeshLoad_8h.html#a69dc6868c10c92fb8b8a255b0130d289">   12</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> <a class="code hl_typedef" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a>; <span class="comment">// Defined in `#include &lt;MRCMisc/std_string.h&gt;`.</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="MRMeshLoad_8h.html#acc97c13c2328f0e26ff701a37f110a39">   20</a></span>MRC_API <a class="code hl_typedef" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *<a class="code hl_function" href="MRMeshLoad_8h.html#acc97c13c2328f0e26ff701a37f110a39">MR_loadMrmesh_std_filesystem_path</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> *file, <span class="keyword">const</span> <span class="keywordtype">char</span> *file_end, <span class="keyword">const</span> <a class="code hl_typedef" href="MRCtm_8h.html#a616a0b042e712074c2ed4013f47fa0af">MR_MeshLoadSettings</a> *settings);</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="MRMeshLoad_8h.html#a4044ff2c1849338c1c0e588581ffcc44">   28</a></span>MRC_API <a class="code hl_typedef" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *<a class="code hl_function" href="MRMeshLoad_8h.html#a4044ff2c1849338c1c0e588581ffcc44">MR_loadMrmesh_std_istream</a>(<a class="code hl_typedef" href="MRCtm_8h.html#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a> *in, <span class="keyword">const</span> <a class="code hl_typedef" href="MRCtm_8h.html#a616a0b042e712074c2ed4013f47fa0af">MR_MeshLoadSettings</a> *settings);</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="MRMeshLoad_8h.html#a9645c5ace5bb1b92182df8cb57d8f0b9">   35</a></span>MRC_API <a class="code hl_typedef" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *<a class="code hl_function" href="MRMeshLoad_8h.html#a9645c5ace5bb1b92182df8cb57d8f0b9">MR_loadOff_std_filesystem_path</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> *file, <span class="keyword">const</span> <span class="keywordtype">char</span> *file_end, <span class="keyword">const</span> <a class="code hl_typedef" href="MRCtm_8h.html#a616a0b042e712074c2ed4013f47fa0af">MR_MeshLoadSettings</a> *settings);</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="MRMeshLoad_8h.html#ae42013694a10fe4d2ff30f9ff7cfc815">   42</a></span>MRC_API <a class="code hl_typedef" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *<a class="code hl_function" href="MRMeshLoad_8h.html#ae42013694a10fe4d2ff30f9ff7cfc815">MR_loadOff_std_istream</a>(<a class="code hl_typedef" href="MRCtm_8h.html#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a> *in, <span class="keyword">const</span> <a class="code hl_typedef" href="MRCtm_8h.html#a616a0b042e712074c2ed4013f47fa0af">MR_MeshLoadSettings</a> *settings);</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="MRMeshLoad_8h.html#a858f41301a731e90d3f6e225cef8cf1b">   49</a></span>MRC_API <a class="code hl_typedef" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *<a class="code hl_function" href="MRMeshLoad_8h.html#a858f41301a731e90d3f6e225cef8cf1b">MR_loadObj_std_filesystem_path</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> *file, <span class="keyword">const</span> <span class="keywordtype">char</span> *file_end, <span class="keyword">const</span> <a class="code hl_typedef" href="MRCtm_8h.html#a616a0b042e712074c2ed4013f47fa0af">MR_MeshLoadSettings</a> *settings);</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="MRMeshLoad_8h.html#ab4daa37a7651b807d9239f32cb51dd74">   57</a></span>MRC_API <a class="code hl_typedef" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *<a class="code hl_function" href="MRMeshLoad_8h.html#ab4daa37a7651b807d9239f32cb51dd74">MR_loadObj_std_istream</a>(<a class="code hl_typedef" href="MRCtm_8h.html#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a> *in, <span class="keyword">const</span> <a class="code hl_typedef" href="MRCtm_8h.html#a616a0b042e712074c2ed4013f47fa0af">MR_MeshLoadSettings</a> *settings);</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno"><a class="line" href="MRMeshLoad_8h.html#adc625e6267100508b3dd93f43eff86db">   64</a></span>MRC_API <a class="code hl_typedef" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *<a class="code hl_function" href="MRMeshLoad_8h.html#adc625e6267100508b3dd93f43eff86db">MR_loadStl_std_filesystem_path</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> *file, <span class="keyword">const</span> <span class="keywordtype">char</span> *file_end, <span class="keyword">const</span> <a class="code hl_typedef" href="MRCtm_8h.html#a616a0b042e712074c2ed4013f47fa0af">MR_MeshLoadSettings</a> *settings);</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno"><a class="line" href="MRMeshLoad_8h.html#a8ecc1b5ad2aa94d7c7a00f6d06868181">   72</a></span>MRC_API <a class="code hl_typedef" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *<a class="code hl_function" href="MRMeshLoad_8h.html#a8ecc1b5ad2aa94d7c7a00f6d06868181">MR_loadStl_std_istream</a>(<a class="code hl_typedef" href="MRCtm_8h.html#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a> *in, <span class="keyword">const</span> <a class="code hl_typedef" href="MRCtm_8h.html#a616a0b042e712074c2ed4013f47fa0af">MR_MeshLoadSettings</a> *settings);</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno"><a class="line" href="MRMeshLoad_8h.html#a15bee7234b9e4132f0a5a81744ab9dcf">   79</a></span>MRC_API <a class="code hl_typedef" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *<a class="code hl_function" href="MRMeshLoad_8h.html#a15bee7234b9e4132f0a5a81744ab9dcf">MR_loadBinaryStl_std_filesystem_path</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> *file, <span class="keyword">const</span> <span class="keywordtype">char</span> *file_end, <span class="keyword">const</span> <a class="code hl_typedef" href="MRCtm_8h.html#a616a0b042e712074c2ed4013f47fa0af">MR_MeshLoadSettings</a> *settings);</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span> </div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno"><a class="line" href="MRMeshLoad_8h.html#a8f926f406277dfdab055e5e2f22772c6">   87</a></span>MRC_API <a class="code hl_typedef" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *<a class="code hl_function" href="MRMeshLoad_8h.html#a8f926f406277dfdab055e5e2f22772c6">MR_loadBinaryStl_std_istream</a>(<a class="code hl_typedef" href="MRCtm_8h.html#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a> *in, <span class="keyword">const</span> <a class="code hl_typedef" href="MRCtm_8h.html#a616a0b042e712074c2ed4013f47fa0af">MR_MeshLoadSettings</a> *settings);</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span> </div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno"><a class="line" href="MRMeshLoad_8h.html#a889186794202128fc6c7d1cfcf78445a">   94</a></span>MRC_API <a class="code hl_typedef" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *<a class="code hl_function" href="MRMeshLoad_8h.html#a889186794202128fc6c7d1cfcf78445a">MR_loadASCIIStl_std_filesystem_path</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> *file, <span class="keyword">const</span> <span class="keywordtype">char</span> *file_end, <span class="keyword">const</span> <a class="code hl_typedef" href="MRCtm_8h.html#a616a0b042e712074c2ed4013f47fa0af">MR_MeshLoadSettings</a> *settings);</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span> </div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno"><a class="line" href="MRMeshLoad_8h.html#af9beb502e15d4821569cda36d44af6d2">  101</a></span>MRC_API <a class="code hl_typedef" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *<a class="code hl_function" href="MRMeshLoad_8h.html#af9beb502e15d4821569cda36d44af6d2">MR_loadASCIIStl_std_istream</a>(<a class="code hl_typedef" href="MRCtm_8h.html#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a> *in, <span class="keyword">const</span> <a class="code hl_typedef" href="MRCtm_8h.html#a616a0b042e712074c2ed4013f47fa0af">MR_MeshLoadSettings</a> *settings);</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span> </div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno"><a class="line" href="MRMeshLoad_8h.html#ac969eb05f61e621960d82cb257db02d1">  108</a></span>MRC_API <a class="code hl_typedef" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *<a class="code hl_function" href="MRMeshLoad_8h.html#ac969eb05f61e621960d82cb257db02d1">MR_loadPly_const_std_filesystem_path_ref</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> *file, <span class="keyword">const</span> <span class="keywordtype">char</span> *file_end, <span class="keyword">const</span> <a class="code hl_typedef" href="MRCtm_8h.html#a616a0b042e712074c2ed4013f47fa0af">MR_MeshLoadSettings</a> *settings);</div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span> </div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno"><a class="line" href="MRMeshLoad_8h.html#a41d3ac7f8da32b968f71a2e89aef8401">  116</a></span>MRC_API <a class="code hl_typedef" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *<a class="code hl_function" href="MRMeshLoad_8h.html#a41d3ac7f8da32b968f71a2e89aef8401">MR_loadPly_std_istream_ref_MR_MeshLoadSettings</a>(<a class="code hl_typedef" href="MRCtm_8h.html#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a> *in, <span class="keyword">const</span> <a class="code hl_typedef" href="MRCtm_8h.html#a616a0b042e712074c2ed4013f47fa0af">MR_MeshLoadSettings</a> *settings);</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span> </div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno"><a class="line" href="MRMeshLoad_8h.html#abcfc51884d96835dacd96d6b659248f6">  123</a></span>MRC_API <a class="code hl_typedef" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *<a class="code hl_function" href="MRMeshLoad_8h.html#abcfc51884d96835dacd96d6b659248f6">MR_loadDxf_std_filesystem_path</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> *path, <span class="keyword">const</span> <span class="keywordtype">char</span> *path_end, <span class="keyword">const</span> <a class="code hl_typedef" href="MRCtm_8h.html#a616a0b042e712074c2ed4013f47fa0af">MR_MeshLoadSettings</a> *settings);</div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span> </div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno"><a class="line" href="MRMeshLoad_8h.html#a14a56201b87fe3c51d1ee9f06867c1e4">  130</a></span>MRC_API <a class="code hl_typedef" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *<a class="code hl_function" href="MRMeshLoad_8h.html#a14a56201b87fe3c51d1ee9f06867c1e4">MR_loadDxf_std_istream</a>(<a class="code hl_typedef" href="MRCtm_8h.html#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a> *in, <span class="keyword">const</span> <a class="code hl_typedef" href="MRCtm_8h.html#a616a0b042e712074c2ed4013f47fa0af">MR_MeshLoadSettings</a> *settings);</div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span> </div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno"><a class="line" href="MRMeshLoad_8h.html#a49e8e565c387a4a46dcc1e8f3b3722b6">  137</a></span>MRC_API <a class="code hl_typedef" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *<a class="code hl_function" href="MRMeshLoad_8h.html#a49e8e565c387a4a46dcc1e8f3b3722b6">MR_loadMesh_2</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> *file, <span class="keyword">const</span> <span class="keywordtype">char</span> *file_end, <span class="keyword">const</span> <a class="code hl_typedef" href="MRCtm_8h.html#a616a0b042e712074c2ed4013f47fa0af">MR_MeshLoadSettings</a> *settings);</div>
+<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span> </div>
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno"><a class="line" href="MRMeshLoad_8h.html#a78ed3bd9b66ea7cbf2509c56b37eb37a">  146</a></span>MRC_API <a class="code hl_typedef" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *<a class="code hl_function" href="MRMeshLoad_8h.html#a78ed3bd9b66ea7cbf2509c56b37eb37a">MR_loadMesh_3</a>(<a class="code hl_typedef" href="MRCtm_8h.html#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a> *in, <span class="keyword">const</span> <a class="code hl_typedef" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *extension, <span class="keyword">const</span> <a class="code hl_typedef" href="MRCtm_8h.html#a616a0b042e712074c2ed4013f47fa0af">MR_MeshLoadSettings</a> *settings);</div>
+<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span> </div>
+<div class="line"><a id="l00153" name="l00153"></a><span class="lineno"><a class="line" href="MRMeshLoad_8h.html#ab709026454fb0233eacdf8e353a0b43c">  153</a></span>MRC_API <a class="code hl_typedef" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *<a class="code hl_function" href="MRMeshLoad_8h.html#ab709026454fb0233eacdf8e353a0b43c">MR_MeshLoad_fromMrmesh_std_filesystem_path</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> *file, <span class="keyword">const</span> <span class="keywordtype">char</span> *file_end, <span class="keyword">const</span> <a class="code hl_typedef" href="MRCtm_8h.html#a616a0b042e712074c2ed4013f47fa0af">MR_MeshLoadSettings</a> *settings);</div>
+<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span> </div>
+<div class="line"><a id="l00161" name="l00161"></a><span class="lineno"><a class="line" href="MRMeshLoad_8h.html#a16e488e4b27be06f7dda0f76f0140fc8">  161</a></span>MRC_API <a class="code hl_typedef" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *<a class="code hl_function" href="MRMeshLoad_8h.html#a16e488e4b27be06f7dda0f76f0140fc8">MR_MeshLoad_fromMrmesh_std_istream</a>(<a class="code hl_typedef" href="MRCtm_8h.html#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a> *in, <span class="keyword">const</span> <a class="code hl_typedef" href="MRCtm_8h.html#a616a0b042e712074c2ed4013f47fa0af">MR_MeshLoadSettings</a> *settings);</div>
+<div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span> </div>
+<div class="line"><a id="l00168" name="l00168"></a><span class="lineno"><a class="line" href="MRMeshLoad_8h.html#a26e145122e53f0deaf676ed85af0bb9f">  168</a></span>MRC_API <a class="code hl_typedef" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *<a class="code hl_function" href="MRMeshLoad_8h.html#a26e145122e53f0deaf676ed85af0bb9f">MR_MeshLoad_fromOff_std_filesystem_path</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> *file, <span class="keyword">const</span> <span class="keywordtype">char</span> *file_end, <span class="keyword">const</span> <a class="code hl_typedef" href="MRCtm_8h.html#a616a0b042e712074c2ed4013f47fa0af">MR_MeshLoadSettings</a> *settings);</div>
+<div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span> </div>
+<div class="line"><a id="l00175" name="l00175"></a><span class="lineno"><a class="line" href="MRMeshLoad_8h.html#a4fd16b66e8b00b3872982dbf0ce8133b">  175</a></span>MRC_API <a class="code hl_typedef" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *<a class="code hl_function" href="MRMeshLoad_8h.html#a4fd16b66e8b00b3872982dbf0ce8133b">MR_MeshLoad_fromOff_std_istream</a>(<a class="code hl_typedef" href="MRCtm_8h.html#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a> *in, <span class="keyword">const</span> <a class="code hl_typedef" href="MRCtm_8h.html#a616a0b042e712074c2ed4013f47fa0af">MR_MeshLoadSettings</a> *settings);</div>
+<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span> </div>
+<div class="line"><a id="l00182" name="l00182"></a><span class="lineno"><a class="line" href="MRMeshLoad_8h.html#a735fabf02b67d504dadff9df69b57e12">  182</a></span>MRC_API <a class="code hl_typedef" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *<a class="code hl_function" href="MRMeshLoad_8h.html#a735fabf02b67d504dadff9df69b57e12">MR_MeshLoad_fromObj_std_filesystem_path</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> *file, <span class="keyword">const</span> <span class="keywordtype">char</span> *file_end, <span class="keyword">const</span> <a class="code hl_typedef" href="MRCtm_8h.html#a616a0b042e712074c2ed4013f47fa0af">MR_MeshLoadSettings</a> *settings);</div>
+<div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span> </div>
+<div class="line"><a id="l00190" name="l00190"></a><span class="lineno"><a class="line" href="MRMeshLoad_8h.html#a10c2952d182d90423da6f203173f8c7e">  190</a></span>MRC_API <a class="code hl_typedef" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *<a class="code hl_function" href="MRMeshLoad_8h.html#a10c2952d182d90423da6f203173f8c7e">MR_MeshLoad_fromObj_std_istream</a>(<a class="code hl_typedef" href="MRCtm_8h.html#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a> *in, <span class="keyword">const</span> <a class="code hl_typedef" href="MRCtm_8h.html#a616a0b042e712074c2ed4013f47fa0af">MR_MeshLoadSettings</a> *settings);</div>
+<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span> </div>
+<div class="line"><a id="l00197" name="l00197"></a><span class="lineno"><a class="line" href="MRMeshLoad_8h.html#ade75b2673a8f6fd52ae43f6630a0518c">  197</a></span>MRC_API <a class="code hl_typedef" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *<a class="code hl_function" href="MRMeshLoad_8h.html#ade75b2673a8f6fd52ae43f6630a0518c">MR_MeshLoad_fromAnyStl_std_filesystem_path</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> *file, <span class="keyword">const</span> <span class="keywordtype">char</span> *file_end, <span class="keyword">const</span> <a class="code hl_typedef" href="MRCtm_8h.html#a616a0b042e712074c2ed4013f47fa0af">MR_MeshLoadSettings</a> *settings);</div>
+<div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span> </div>
+<div class="line"><a id="l00205" name="l00205"></a><span class="lineno"><a class="line" href="MRMeshLoad_8h.html#a9577fbbe38fd22f302e7477e47781335">  205</a></span>MRC_API <a class="code hl_typedef" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *<a class="code hl_function" href="MRMeshLoad_8h.html#a9577fbbe38fd22f302e7477e47781335">MR_MeshLoad_fromAnyStl_std_istream</a>(<a class="code hl_typedef" href="MRCtm_8h.html#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a> *in, <span class="keyword">const</span> <a class="code hl_typedef" href="MRCtm_8h.html#a616a0b042e712074c2ed4013f47fa0af">MR_MeshLoadSettings</a> *settings);</div>
+<div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span> </div>
+<div class="line"><a id="l00212" name="l00212"></a><span class="lineno"><a class="line" href="MRMeshLoad_8h.html#a583681e539a41493990eef9ef0cab69c">  212</a></span>MRC_API <a class="code hl_typedef" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *<a class="code hl_function" href="MRMeshLoad_8h.html#a583681e539a41493990eef9ef0cab69c">MR_MeshLoad_fromBinaryStl_std_filesystem_path</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> *file, <span class="keyword">const</span> <span class="keywordtype">char</span> *file_end, <span class="keyword">const</span> <a class="code hl_typedef" href="MRCtm_8h.html#a616a0b042e712074c2ed4013f47fa0af">MR_MeshLoadSettings</a> *settings);</div>
+<div class="line"><a id="l00213" name="l00213"></a><span class="lineno">  213</span> </div>
+<div class="line"><a id="l00220" name="l00220"></a><span class="lineno"><a class="line" href="MRMeshLoad_8h.html#a6c6644050c377b2fe814b33c49dc50fc">  220</a></span>MRC_API <a class="code hl_typedef" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *<a class="code hl_function" href="MRMeshLoad_8h.html#a6c6644050c377b2fe814b33c49dc50fc">MR_MeshLoad_fromBinaryStl_std_istream</a>(<a class="code hl_typedef" href="MRCtm_8h.html#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a> *in, <span class="keyword">const</span> <a class="code hl_typedef" href="MRCtm_8h.html#a616a0b042e712074c2ed4013f47fa0af">MR_MeshLoadSettings</a> *settings);</div>
+<div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span> </div>
+<div class="line"><a id="l00227" name="l00227"></a><span class="lineno"><a class="line" href="MRMeshLoad_8h.html#a9b1f878f9badcedc1a9ae76a5c61eb24">  227</a></span>MRC_API <a class="code hl_typedef" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *<a class="code hl_function" href="MRMeshLoad_8h.html#a9b1f878f9badcedc1a9ae76a5c61eb24">MR_MeshLoad_fromASCIIStl_std_filesystem_path</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> *file, <span class="keyword">const</span> <span class="keywordtype">char</span> *file_end, <span class="keyword">const</span> <a class="code hl_typedef" href="MRCtm_8h.html#a616a0b042e712074c2ed4013f47fa0af">MR_MeshLoadSettings</a> *settings);</div>
+<div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span> </div>
+<div class="line"><a id="l00234" name="l00234"></a><span class="lineno"><a class="line" href="MRMeshLoad_8h.html#ab05ebb9f39a29f4688e68e497d3e898b">  234</a></span>MRC_API <a class="code hl_typedef" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *<a class="code hl_function" href="MRMeshLoad_8h.html#ab05ebb9f39a29f4688e68e497d3e898b">MR_MeshLoad_fromASCIIStl_std_istream</a>(<a class="code hl_typedef" href="MRCtm_8h.html#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a> *in, <span class="keyword">const</span> <a class="code hl_typedef" href="MRCtm_8h.html#a616a0b042e712074c2ed4013f47fa0af">MR_MeshLoadSettings</a> *settings);</div>
+<div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span> </div>
+<div class="line"><a id="l00241" name="l00241"></a><span class="lineno"><a class="line" href="MRMeshLoad_8h.html#ab5d3c532b0b5fa32278bfcba2d1a2da8">  241</a></span>MRC_API <a class="code hl_typedef" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *<a class="code hl_function" href="MRMeshLoad_8h.html#ab5d3c532b0b5fa32278bfcba2d1a2da8">MR_MeshLoad_fromPly_std_filesystem_path</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> *file, <span class="keyword">const</span> <span class="keywordtype">char</span> *file_end, <span class="keyword">const</span> <a class="code hl_typedef" href="MRCtm_8h.html#a616a0b042e712074c2ed4013f47fa0af">MR_MeshLoadSettings</a> *settings);</div>
+<div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span> </div>
+<div class="line"><a id="l00249" name="l00249"></a><span class="lineno"><a class="line" href="MRMeshLoad_8h.html#a3e874e979aefb3e331ac87a1ea01b508">  249</a></span>MRC_API <a class="code hl_typedef" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *<a class="code hl_function" href="MRMeshLoad_8h.html#a3e874e979aefb3e331ac87a1ea01b508">MR_MeshLoad_fromPly_std_istream</a>(<a class="code hl_typedef" href="MRCtm_8h.html#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a> *in, <span class="keyword">const</span> <a class="code hl_typedef" href="MRCtm_8h.html#a616a0b042e712074c2ed4013f47fa0af">MR_MeshLoadSettings</a> *settings);</div>
+<div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span> </div>
+<div class="line"><a id="l00256" name="l00256"></a><span class="lineno"><a class="line" href="MRMeshLoad_8h.html#a1844bbb940448096be80317f63b5808a">  256</a></span>MRC_API <a class="code hl_typedef" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *<a class="code hl_function" href="MRMeshLoad_8h.html#a1844bbb940448096be80317f63b5808a">MR_MeshLoad_fromDxf_std_filesystem_path</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> *path, <span class="keyword">const</span> <span class="keywordtype">char</span> *path_end, <span class="keyword">const</span> <a class="code hl_typedef" href="MRCtm_8h.html#a616a0b042e712074c2ed4013f47fa0af">MR_MeshLoadSettings</a> *settings);</div>
+<div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span> </div>
+<div class="line"><a id="l00263" name="l00263"></a><span class="lineno"><a class="line" href="MRMeshLoad_8h.html#a77372e1145c97dc187c0b45cad1be30a">  263</a></span>MRC_API <a class="code hl_typedef" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *<a class="code hl_function" href="MRMeshLoad_8h.html#a77372e1145c97dc187c0b45cad1be30a">MR_MeshLoad_fromDxf_std_istream</a>(<a class="code hl_typedef" href="MRCtm_8h.html#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a> *in, <span class="keyword">const</span> <a class="code hl_typedef" href="MRCtm_8h.html#a616a0b042e712074c2ed4013f47fa0af">MR_MeshLoadSettings</a> *settings);</div>
+<div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span> </div>
+<div class="line"><a id="l00270" name="l00270"></a><span class="lineno"><a class="line" href="MRMeshLoad_8h.html#aefab6e45c641a8da45d4d9b0b28217d3">  270</a></span>MRC_API <a class="code hl_typedef" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *<a class="code hl_function" href="MRMeshLoad_8h.html#aefab6e45c641a8da45d4d9b0b28217d3">MR_MeshLoad_fromAnySupportedFormat_2</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> *file, <span class="keyword">const</span> <span class="keywordtype">char</span> *file_end, <span class="keyword">const</span> <a class="code hl_typedef" href="MRCtm_8h.html#a616a0b042e712074c2ed4013f47fa0af">MR_MeshLoadSettings</a> *settings);</div>
+<div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span> </div>
+<div class="line"><a id="l00279" name="l00279"></a><span class="lineno"><a class="line" href="MRMeshLoad_8h.html#ac0ef838c6c3a8b77e502df423bab4f7f">  279</a></span>MRC_API <a class="code hl_typedef" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *<a class="code hl_function" href="MRMeshLoad_8h.html#ac0ef838c6c3a8b77e502df423bab4f7f">MR_MeshLoad_fromAnySupportedFormat_3</a>(<a class="code hl_typedef" href="MRCtm_8h.html#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a> *in, <span class="keyword">const</span> <a class="code hl_typedef" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *extension, <span class="keyword">const</span> <a class="code hl_typedef" href="MRCtm_8h.html#a616a0b042e712074c2ed4013f47fa0af">MR_MeshLoadSettings</a> *settings);</div>
+<div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span> </div>
+<div class="line"><a id="l00281" name="l00281"></a><span class="lineno">  281</span><span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a id="l00282" name="l00282"></a><span class="lineno">  282</span>} <span class="comment">// extern &quot;C&quot;</span></div>
+<div class="line"><a id="l00283" name="l00283"></a><span class="lineno">  283</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aMRCtm_8h_html_a0d97154d4aed695055160a4688c04a3d"><div class="ttname"><a href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a></div><div class="ttdeci">struct MR_expected_MR_Mesh_std_string MR_expected_MR_Mesh_std_string</div><div class="ttdef"><b>Definition</b> MRCtm.h:18</div></div>
+<div class="ttc" id="aMRCtm_8h_html_a616a0b042e712074c2ed4013f47fa0af"><div class="ttname"><a href="MRCtm_8h.html#a616a0b042e712074c2ed4013f47fa0af">MR_MeshLoadSettings</a></div><div class="ttdeci">struct MR_MeshLoadSettings MR_MeshLoadSettings</div><div class="ttdef"><b>Definition</b> MRCtm.h:14</div></div>
+<div class="ttc" id="aMRCtm_8h_html_aef22a11476e76208a3f9a5cf2eba4c98"><div class="ttname"><a href="MRCtm_8h.html#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a></div><div class="ttdeci">struct MR_std_istream MR_std_istream</div><div class="ttdef"><b>Definition</b> MRCtm.h:21</div></div>
+<div class="ttc" id="aMRE57_8h_html_a69dc6868c10c92fb8b8a255b0130d289"><div class="ttname"><a href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></div><div class="ttdeci">struct MR_std_string MR_std_string</div><div class="ttdef"><b>Definition</b> MRE57.h:22</div></div>
+<div class="ttc" id="aMRMeshLoad_8h_html_a10c2952d182d90423da6f203173f8c7e"><div class="ttname"><a href="MRMeshLoad_8h.html#a10c2952d182d90423da6f203173f8c7e">MR_MeshLoad_fromObj_std_istream</a></div><div class="ttdeci">MRC_API MR_expected_MR_Mesh_std_string * MR_MeshLoad_fromObj_std_istream(MR_std_istream *in, const MR_MeshLoadSettings *settings)</div></div>
+<div class="ttc" id="aMRMeshLoad_8h_html_a14a56201b87fe3c51d1ee9f06867c1e4"><div class="ttname"><a href="MRMeshLoad_8h.html#a14a56201b87fe3c51d1ee9f06867c1e4">MR_loadDxf_std_istream</a></div><div class="ttdeci">MRC_API MR_expected_MR_Mesh_std_string * MR_loadDxf_std_istream(MR_std_istream *in, const MR_MeshLoadSettings *settings)</div></div>
+<div class="ttc" id="aMRMeshLoad_8h_html_a15bee7234b9e4132f0a5a81744ab9dcf"><div class="ttname"><a href="MRMeshLoad_8h.html#a15bee7234b9e4132f0a5a81744ab9dcf">MR_loadBinaryStl_std_filesystem_path</a></div><div class="ttdeci">MRC_API MR_expected_MR_Mesh_std_string * MR_loadBinaryStl_std_filesystem_path(const char *file, const char *file_end, const MR_MeshLoadSettings *settings)</div></div>
+<div class="ttc" id="aMRMeshLoad_8h_html_a16e488e4b27be06f7dda0f76f0140fc8"><div class="ttname"><a href="MRMeshLoad_8h.html#a16e488e4b27be06f7dda0f76f0140fc8">MR_MeshLoad_fromMrmesh_std_istream</a></div><div class="ttdeci">MRC_API MR_expected_MR_Mesh_std_string * MR_MeshLoad_fromMrmesh_std_istream(MR_std_istream *in, const MR_MeshLoadSettings *settings)</div></div>
+<div class="ttc" id="aMRMeshLoad_8h_html_a1844bbb940448096be80317f63b5808a"><div class="ttname"><a href="MRMeshLoad_8h.html#a1844bbb940448096be80317f63b5808a">MR_MeshLoad_fromDxf_std_filesystem_path</a></div><div class="ttdeci">MRC_API MR_expected_MR_Mesh_std_string * MR_MeshLoad_fromDxf_std_filesystem_path(const char *path, const char *path_end, const MR_MeshLoadSettings *settings)</div></div>
+<div class="ttc" id="aMRMeshLoad_8h_html_a26e145122e53f0deaf676ed85af0bb9f"><div class="ttname"><a href="MRMeshLoad_8h.html#a26e145122e53f0deaf676ed85af0bb9f">MR_MeshLoad_fromOff_std_filesystem_path</a></div><div class="ttdeci">MRC_API MR_expected_MR_Mesh_std_string * MR_MeshLoad_fromOff_std_filesystem_path(const char *file, const char *file_end, const MR_MeshLoadSettings *settings)</div></div>
+<div class="ttc" id="aMRMeshLoad_8h_html_a3e874e979aefb3e331ac87a1ea01b508"><div class="ttname"><a href="MRMeshLoad_8h.html#a3e874e979aefb3e331ac87a1ea01b508">MR_MeshLoad_fromPly_std_istream</a></div><div class="ttdeci">MRC_API MR_expected_MR_Mesh_std_string * MR_MeshLoad_fromPly_std_istream(MR_std_istream *in, const MR_MeshLoadSettings *settings)</div></div>
+<div class="ttc" id="aMRMeshLoad_8h_html_a4044ff2c1849338c1c0e588581ffcc44"><div class="ttname"><a href="MRMeshLoad_8h.html#a4044ff2c1849338c1c0e588581ffcc44">MR_loadMrmesh_std_istream</a></div><div class="ttdeci">MRC_API MR_expected_MR_Mesh_std_string * MR_loadMrmesh_std_istream(MR_std_istream *in, const MR_MeshLoadSettings *settings)</div></div>
+<div class="ttc" id="aMRMeshLoad_8h_html_a41d3ac7f8da32b968f71a2e89aef8401"><div class="ttname"><a href="MRMeshLoad_8h.html#a41d3ac7f8da32b968f71a2e89aef8401">MR_loadPly_std_istream_ref_MR_MeshLoadSettings</a></div><div class="ttdeci">MRC_API MR_expected_MR_Mesh_std_string * MR_loadPly_std_istream_ref_MR_MeshLoadSettings(MR_std_istream *in, const MR_MeshLoadSettings *settings)</div></div>
+<div class="ttc" id="aMRMeshLoad_8h_html_a49e8e565c387a4a46dcc1e8f3b3722b6"><div class="ttname"><a href="MRMeshLoad_8h.html#a49e8e565c387a4a46dcc1e8f3b3722b6">MR_loadMesh_2</a></div><div class="ttdeci">MRC_API MR_expected_MR_Mesh_std_string * MR_loadMesh_2(const char *file, const char *file_end, const MR_MeshLoadSettings *settings)</div></div>
+<div class="ttc" id="aMRMeshLoad_8h_html_a4fd16b66e8b00b3872982dbf0ce8133b"><div class="ttname"><a href="MRMeshLoad_8h.html#a4fd16b66e8b00b3872982dbf0ce8133b">MR_MeshLoad_fromOff_std_istream</a></div><div class="ttdeci">MRC_API MR_expected_MR_Mesh_std_string * MR_MeshLoad_fromOff_std_istream(MR_std_istream *in, const MR_MeshLoadSettings *settings)</div></div>
+<div class="ttc" id="aMRMeshLoad_8h_html_a583681e539a41493990eef9ef0cab69c"><div class="ttname"><a href="MRMeshLoad_8h.html#a583681e539a41493990eef9ef0cab69c">MR_MeshLoad_fromBinaryStl_std_filesystem_path</a></div><div class="ttdeci">MRC_API MR_expected_MR_Mesh_std_string * MR_MeshLoad_fromBinaryStl_std_filesystem_path(const char *file, const char *file_end, const MR_MeshLoadSettings *settings)</div></div>
+<div class="ttc" id="aMRMeshLoad_8h_html_a6c6644050c377b2fe814b33c49dc50fc"><div class="ttname"><a href="MRMeshLoad_8h.html#a6c6644050c377b2fe814b33c49dc50fc">MR_MeshLoad_fromBinaryStl_std_istream</a></div><div class="ttdeci">MRC_API MR_expected_MR_Mesh_std_string * MR_MeshLoad_fromBinaryStl_std_istream(MR_std_istream *in, const MR_MeshLoadSettings *settings)</div></div>
+<div class="ttc" id="aMRMeshLoad_8h_html_a735fabf02b67d504dadff9df69b57e12"><div class="ttname"><a href="MRMeshLoad_8h.html#a735fabf02b67d504dadff9df69b57e12">MR_MeshLoad_fromObj_std_filesystem_path</a></div><div class="ttdeci">MRC_API MR_expected_MR_Mesh_std_string * MR_MeshLoad_fromObj_std_filesystem_path(const char *file, const char *file_end, const MR_MeshLoadSettings *settings)</div></div>
+<div class="ttc" id="aMRMeshLoad_8h_html_a77372e1145c97dc187c0b45cad1be30a"><div class="ttname"><a href="MRMeshLoad_8h.html#a77372e1145c97dc187c0b45cad1be30a">MR_MeshLoad_fromDxf_std_istream</a></div><div class="ttdeci">MRC_API MR_expected_MR_Mesh_std_string * MR_MeshLoad_fromDxf_std_istream(MR_std_istream *in, const MR_MeshLoadSettings *settings)</div></div>
+<div class="ttc" id="aMRMeshLoad_8h_html_a78ed3bd9b66ea7cbf2509c56b37eb37a"><div class="ttname"><a href="MRMeshLoad_8h.html#a78ed3bd9b66ea7cbf2509c56b37eb37a">MR_loadMesh_3</a></div><div class="ttdeci">MRC_API MR_expected_MR_Mesh_std_string * MR_loadMesh_3(MR_std_istream *in, const MR_std_string *extension, const MR_MeshLoadSettings *settings)</div></div>
+<div class="ttc" id="aMRMeshLoad_8h_html_a858f41301a731e90d3f6e225cef8cf1b"><div class="ttname"><a href="MRMeshLoad_8h.html#a858f41301a731e90d3f6e225cef8cf1b">MR_loadObj_std_filesystem_path</a></div><div class="ttdeci">MRC_API MR_expected_MR_Mesh_std_string * MR_loadObj_std_filesystem_path(const char *file, const char *file_end, const MR_MeshLoadSettings *settings)</div></div>
+<div class="ttc" id="aMRMeshLoad_8h_html_a889186794202128fc6c7d1cfcf78445a"><div class="ttname"><a href="MRMeshLoad_8h.html#a889186794202128fc6c7d1cfcf78445a">MR_loadASCIIStl_std_filesystem_path</a></div><div class="ttdeci">MRC_API MR_expected_MR_Mesh_std_string * MR_loadASCIIStl_std_filesystem_path(const char *file, const char *file_end, const MR_MeshLoadSettings *settings)</div></div>
+<div class="ttc" id="aMRMeshLoad_8h_html_a8ecc1b5ad2aa94d7c7a00f6d06868181"><div class="ttname"><a href="MRMeshLoad_8h.html#a8ecc1b5ad2aa94d7c7a00f6d06868181">MR_loadStl_std_istream</a></div><div class="ttdeci">MRC_API MR_expected_MR_Mesh_std_string * MR_loadStl_std_istream(MR_std_istream *in, const MR_MeshLoadSettings *settings)</div></div>
+<div class="ttc" id="aMRMeshLoad_8h_html_a8f926f406277dfdab055e5e2f22772c6"><div class="ttname"><a href="MRMeshLoad_8h.html#a8f926f406277dfdab055e5e2f22772c6">MR_loadBinaryStl_std_istream</a></div><div class="ttdeci">MRC_API MR_expected_MR_Mesh_std_string * MR_loadBinaryStl_std_istream(MR_std_istream *in, const MR_MeshLoadSettings *settings)</div></div>
+<div class="ttc" id="aMRMeshLoad_8h_html_a9577fbbe38fd22f302e7477e47781335"><div class="ttname"><a href="MRMeshLoad_8h.html#a9577fbbe38fd22f302e7477e47781335">MR_MeshLoad_fromAnyStl_std_istream</a></div><div class="ttdeci">MRC_API MR_expected_MR_Mesh_std_string * MR_MeshLoad_fromAnyStl_std_istream(MR_std_istream *in, const MR_MeshLoadSettings *settings)</div></div>
+<div class="ttc" id="aMRMeshLoad_8h_html_a9645c5ace5bb1b92182df8cb57d8f0b9"><div class="ttname"><a href="MRMeshLoad_8h.html#a9645c5ace5bb1b92182df8cb57d8f0b9">MR_loadOff_std_filesystem_path</a></div><div class="ttdeci">MRC_API MR_expected_MR_Mesh_std_string * MR_loadOff_std_filesystem_path(const char *file, const char *file_end, const MR_MeshLoadSettings *settings)</div></div>
+<div class="ttc" id="aMRMeshLoad_8h_html_a9b1f878f9badcedc1a9ae76a5c61eb24"><div class="ttname"><a href="MRMeshLoad_8h.html#a9b1f878f9badcedc1a9ae76a5c61eb24">MR_MeshLoad_fromASCIIStl_std_filesystem_path</a></div><div class="ttdeci">MRC_API MR_expected_MR_Mesh_std_string * MR_MeshLoad_fromASCIIStl_std_filesystem_path(const char *file, const char *file_end, const MR_MeshLoadSettings *settings)</div></div>
+<div class="ttc" id="aMRMeshLoad_8h_html_ab05ebb9f39a29f4688e68e497d3e898b"><div class="ttname"><a href="MRMeshLoad_8h.html#ab05ebb9f39a29f4688e68e497d3e898b">MR_MeshLoad_fromASCIIStl_std_istream</a></div><div class="ttdeci">MRC_API MR_expected_MR_Mesh_std_string * MR_MeshLoad_fromASCIIStl_std_istream(MR_std_istream *in, const MR_MeshLoadSettings *settings)</div></div>
+<div class="ttc" id="aMRMeshLoad_8h_html_ab4daa37a7651b807d9239f32cb51dd74"><div class="ttname"><a href="MRMeshLoad_8h.html#ab4daa37a7651b807d9239f32cb51dd74">MR_loadObj_std_istream</a></div><div class="ttdeci">MRC_API MR_expected_MR_Mesh_std_string * MR_loadObj_std_istream(MR_std_istream *in, const MR_MeshLoadSettings *settings)</div></div>
+<div class="ttc" id="aMRMeshLoad_8h_html_ab5d3c532b0b5fa32278bfcba2d1a2da8"><div class="ttname"><a href="MRMeshLoad_8h.html#ab5d3c532b0b5fa32278bfcba2d1a2da8">MR_MeshLoad_fromPly_std_filesystem_path</a></div><div class="ttdeci">MRC_API MR_expected_MR_Mesh_std_string * MR_MeshLoad_fromPly_std_filesystem_path(const char *file, const char *file_end, const MR_MeshLoadSettings *settings)</div></div>
+<div class="ttc" id="aMRMeshLoad_8h_html_ab709026454fb0233eacdf8e353a0b43c"><div class="ttname"><a href="MRMeshLoad_8h.html#ab709026454fb0233eacdf8e353a0b43c">MR_MeshLoad_fromMrmesh_std_filesystem_path</a></div><div class="ttdeci">MRC_API MR_expected_MR_Mesh_std_string * MR_MeshLoad_fromMrmesh_std_filesystem_path(const char *file, const char *file_end, const MR_MeshLoadSettings *settings)</div></div>
+<div class="ttc" id="aMRMeshLoad_8h_html_abcfc51884d96835dacd96d6b659248f6"><div class="ttname"><a href="MRMeshLoad_8h.html#abcfc51884d96835dacd96d6b659248f6">MR_loadDxf_std_filesystem_path</a></div><div class="ttdeci">MRC_API MR_expected_MR_Mesh_std_string * MR_loadDxf_std_filesystem_path(const char *path, const char *path_end, const MR_MeshLoadSettings *settings)</div></div>
+<div class="ttc" id="aMRMeshLoad_8h_html_ac0ef838c6c3a8b77e502df423bab4f7f"><div class="ttname"><a href="MRMeshLoad_8h.html#ac0ef838c6c3a8b77e502df423bab4f7f">MR_MeshLoad_fromAnySupportedFormat_3</a></div><div class="ttdeci">MRC_API MR_expected_MR_Mesh_std_string * MR_MeshLoad_fromAnySupportedFormat_3(MR_std_istream *in, const MR_std_string *extension, const MR_MeshLoadSettings *settings)</div></div>
+<div class="ttc" id="aMRMeshLoad_8h_html_ac969eb05f61e621960d82cb257db02d1"><div class="ttname"><a href="MRMeshLoad_8h.html#ac969eb05f61e621960d82cb257db02d1">MR_loadPly_const_std_filesystem_path_ref</a></div><div class="ttdeci">MRC_API MR_expected_MR_Mesh_std_string * MR_loadPly_const_std_filesystem_path_ref(const char *file, const char *file_end, const MR_MeshLoadSettings *settings)</div></div>
+<div class="ttc" id="aMRMeshLoad_8h_html_acc97c13c2328f0e26ff701a37f110a39"><div class="ttname"><a href="MRMeshLoad_8h.html#acc97c13c2328f0e26ff701a37f110a39">MR_loadMrmesh_std_filesystem_path</a></div><div class="ttdeci">MRC_API MR_expected_MR_Mesh_std_string * MR_loadMrmesh_std_filesystem_path(const char *file, const char *file_end, const MR_MeshLoadSettings *settings)</div></div>
+<div class="ttc" id="aMRMeshLoad_8h_html_adc625e6267100508b3dd93f43eff86db"><div class="ttname"><a href="MRMeshLoad_8h.html#adc625e6267100508b3dd93f43eff86db">MR_loadStl_std_filesystem_path</a></div><div class="ttdeci">MRC_API MR_expected_MR_Mesh_std_string * MR_loadStl_std_filesystem_path(const char *file, const char *file_end, const MR_MeshLoadSettings *settings)</div></div>
+<div class="ttc" id="aMRMeshLoad_8h_html_ade75b2673a8f6fd52ae43f6630a0518c"><div class="ttname"><a href="MRMeshLoad_8h.html#ade75b2673a8f6fd52ae43f6630a0518c">MR_MeshLoad_fromAnyStl_std_filesystem_path</a></div><div class="ttdeci">MRC_API MR_expected_MR_Mesh_std_string * MR_MeshLoad_fromAnyStl_std_filesystem_path(const char *file, const char *file_end, const MR_MeshLoadSettings *settings)</div></div>
+<div class="ttc" id="aMRMeshLoad_8h_html_ae42013694a10fe4d2ff30f9ff7cfc815"><div class="ttname"><a href="MRMeshLoad_8h.html#ae42013694a10fe4d2ff30f9ff7cfc815">MR_loadOff_std_istream</a></div><div class="ttdeci">MRC_API MR_expected_MR_Mesh_std_string * MR_loadOff_std_istream(MR_std_istream *in, const MR_MeshLoadSettings *settings)</div></div>
+<div class="ttc" id="aMRMeshLoad_8h_html_aefab6e45c641a8da45d4d9b0b28217d3"><div class="ttname"><a href="MRMeshLoad_8h.html#aefab6e45c641a8da45d4d9b0b28217d3">MR_MeshLoad_fromAnySupportedFormat_2</a></div><div class="ttdeci">MRC_API MR_expected_MR_Mesh_std_string * MR_MeshLoad_fromAnySupportedFormat_2(const char *file, const char *file_end, const MR_MeshLoadSettings *settings)</div></div>
+<div class="ttc" id="aMRMeshLoad_8h_html_af9beb502e15d4821569cda36d44af6d2"><div class="ttname"><a href="MRMeshLoad_8h.html#af9beb502e15d4821569cda36d44af6d2">MR_loadASCIIStl_std_istream</a></div><div class="ttdeci">MRC_API MR_expected_MR_Mesh_std_string * MR_loadASCIIStl_std_istream(MR_std_istream *in, const MR_MeshLoadSettings *settings)</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_87d38852fc01aff5f853718c8d8b5cb2.html">Cbindings</a></li><li class="navelem"><a class="el" href="dir_cb83f9b98dc6f67356ff76bcc17f4f67.html">MRCMesh</a></li><li class="navelem"><a class="el" href="MRMeshLoad_8h.html">MRMeshLoad.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

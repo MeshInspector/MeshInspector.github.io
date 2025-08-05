@@ -240,5 +240,6 @@ var menudata={children:[
 {text:"y",url:"functions_vars_y.html#index_y"},
 {text:"z",url:"functions_vars_z.html#index_z"}]}]}]},
 {text:"File List",url:"files.html",children:[
-{text:"File List",url:"files.html"}]}]}]},
+{text:"File List",url:"files.html"}]}]},
+{text:"C",url:"../C/APICPage.html"}]},
 {text:"Third-Party Dependencies",url:"../ThirdParty.html"}]}

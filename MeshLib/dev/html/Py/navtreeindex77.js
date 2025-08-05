@@ -1,5 +1,6 @@
 var NAVTREEINDEX77 =
 {
+"classmrmeshpy_1_1TextureBitSet.html#a433e68781317128861352427daa207c0":[6,1,1,0,1,1001,29],
 "classmrmeshpy_1_1TextureBitSet.html#a4a3ad5a71f947bedd344e8ec4844e54a":[6,1,0,0,2,1001,39],
 "classmrmeshpy_1_1TextureBitSet.html#a4a3ad5a71f947bedd344e8ec4844e54a":[6,1,1,0,1,1001,39],
 "classmrmeshpy_1_1TextureBitSet.html#a501ca697c0df73930a2a118138b599cc":[6,1,0,0,2,1001,22],
@@ -248,6 +249,5 @@ var NAVTREEINDEX77 =
 "classmrmeshpy_1_1ToolPathParams.html#ad0c3a31e05fd880ac03c39a5021b1f21":[6,1,1,0,1,1006,19],
 "classmrmeshpy_1_1ToolPathParams.html#ad0f9f0a8079dc8e262fcfd36980d8aea":[6,1,0,0,2,1006,25],
 "classmrmeshpy_1_1ToolPathParams.html#ad0f9f0a8079dc8e262fcfd36980d8aea":[6,1,1,0,1,1006,25],
-"classmrmeshpy_1_1ToolPathParams.html#ad931242b84fd87e9436f92f468a74db7":[6,1,0,0,2,1006,33],
-"classmrmeshpy_1_1ToolPathParams.html#ad931242b84fd87e9436f92f468a74db7":[6,1,1,0,1,1006,33]
+"classmrmeshpy_1_1ToolPathParams.html#ad931242b84fd87e9436f92f468a74db7":[6,1,0,0,2,1006,33]
 };

@@ -1,0 +1,1741 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: Voxels Load</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('group__VoxelsLoadGroup.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#enumval-members">Enumerator</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">Voxels Load<div class="ingroups"><a class="elRef" href="../Cpp/group__IOGroup.html">Input/Output</a></div></div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:gaf646f8f51576a586c8b409eb6b38e998" id="r_gaf646f8f51576a586c8b409eb6b38e998"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a></td></tr>
+<tr class="separator:gaf646f8f51576a586c8b409eb6b38e998"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga636d5442fee281cbfc2e4f63dec2570d" id="r_ga636d5442fee281cbfc2e4f63dec2570d"><td class="memItemLeft" align="right" valign="top">typedef int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga636d5442fee281cbfc2e4f63dec2570d">MR_VoxelsLoad_GridType</a></td></tr>
+<tr class="separator:ga636d5442fee281cbfc2e4f63dec2570d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaeb55c2e7200cad314e4876ce3d2d50a9" id="r_gaeb55c2e7200cad314e4876ce3d2d50a9"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a></td></tr>
+<tr class="memdesc:gaeb55c2e7200cad314e4876ce3d2d50a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html">MR::VoxelsLoad::LoadingTiffSettings</a></code>.  <br /></td></tr>
+<tr class="separator:gaeb55c2e7200cad314e4876ce3d2d50a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:gadbaf9202177df73e6880eab6e6aab329" id="r_gadbaf9202177df73e6880eab6e6aab329"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#ggadbaf9202177df73e6880eab6e6aab329a692c6c55e992b9c5076ae747616ef2e2">MR_VoxelsLoad_GridType_DenseGrid</a> = 0
+, <a class="el" href="#ggadbaf9202177df73e6880eab6e6aab329a47d65f766447b295a21ed3614b20b22b">MR_VoxelsLoad_GridType_LevelSet</a> = 1
+ }</td></tr>
+<tr class="separator:gadbaf9202177df73e6880eab6e6aab329"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:gad3e3783e957919006d682b65886541bb" id="r_gad3e3783e957919006d682b65886541bb"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Cpp/MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="elRef" href="../Cpp/namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VdbVolume &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__VoxelsLoadGroup.html#gad3e3783e957919006d682b65886541bb">MR::VoxelsLoad::fromRaw</a> (const std::filesystem::path &amp;file, const <a class="elRef" href="../Cpp/structMR_1_1VoxelsLoad_1_1RawParameters.html">RawParameters</a> &amp;params, const <a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
+<tr class="separator:gad3e3783e957919006d682b65886541bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga603131e52dfc2ce8aa33d3a0d0028878" id="r_ga603131e52dfc2ce8aa33d3a0d0028878"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Cpp/MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="elRef" href="../Cpp/namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VdbVolume &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__VoxelsLoadGroup.html#ga603131e52dfc2ce8aa33d3a0d0028878">MR::VoxelsLoad::fromRaw</a> (std::istream &amp;in, const <a class="elRef" href="../Cpp/structMR_1_1VoxelsLoad_1_1RawParameters.html">RawParameters</a> &amp;params, const <a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
+<tr class="separator:ga603131e52dfc2ce8aa33d3a0d0028878"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8d1d5e8fd4d557ab5cb0501f801e09c2" id="r_ga8d1d5e8fd4d557ab5cb0501f801e09c2"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Cpp/MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="elRef" href="../Cpp/namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="elRef" href="../Cpp/classMR_1_1FloatGrid.html">FloatGrid</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__VoxelsLoadGroup.html#ga8d1d5e8fd4d557ab5cb0501f801e09c2">MR::VoxelsLoad::gridFromRaw</a> (const std::filesystem::path &amp;file, const <a class="elRef" href="../Cpp/structMR_1_1VoxelsLoad_1_1RawParameters.html">RawParameters</a> &amp;params, const <a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
+<tr class="separator:ga8d1d5e8fd4d557ab5cb0501f801e09c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7f875c47121fc2d63dc69e1376825a4f" id="r_ga7f875c47121fc2d63dc69e1376825a4f"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Cpp/MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="elRef" href="../Cpp/namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="elRef" href="../Cpp/classMR_1_1FloatGrid.html">FloatGrid</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__VoxelsLoadGroup.html#ga7f875c47121fc2d63dc69e1376825a4f">MR::VoxelsLoad::gridFromRaw</a> (std::istream &amp;in, const <a class="elRef" href="../Cpp/structMR_1_1VoxelsLoad_1_1RawParameters.html">RawParameters</a> &amp;params, const <a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
+<tr class="separator:ga7f875c47121fc2d63dc69e1376825a4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga36e0b89b1624754a51c853b7254c9223" id="r_ga36e0b89b1624754a51c853b7254c9223"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Cpp/MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="elRef" href="../Cpp/namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="elRef" href="../Cpp/structMR_1_1VoxelsLoad_1_1RawParameters.html">RawParameters</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__VoxelsLoadGroup.html#ga36e0b89b1624754a51c853b7254c9223">MR::VoxelsLoad::findRawParameters</a> (std::filesystem::path &amp;file)</td></tr>
+<tr class="separator:ga36e0b89b1624754a51c853b7254c9223"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa5b34db6cedd5a6c229f738a4b953212" id="r_gaa5b34db6cedd5a6c229f738a4b953212"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Cpp/MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="elRef" href="../Cpp/namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VdbVolume &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__VoxelsLoadGroup.html#gaa5b34db6cedd5a6c229f738a4b953212">MR::VoxelsLoad::fromRaw</a> (const std::filesystem::path &amp;file, const <a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
+<tr class="separator:gaa5b34db6cedd5a6c229f738a4b953212"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaff744634fa4916b622b9c213b3a37243" id="r_gaff744634fa4916b622b9c213b3a37243"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Cpp/MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="elRef" href="../Cpp/namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="elRef" href="../Cpp/classMR_1_1FloatGrid.html">FloatGrid</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__VoxelsLoadGroup.html#gaff744634fa4916b622b9c213b3a37243">MR::VoxelsLoad::gridFromRaw</a> (const std::filesystem::path &amp;file, const <a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
+<tr class="separator:gaff744634fa4916b622b9c213b3a37243"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae5828d9a431d4b30b9d90a66a7fa0e9d" id="r_gae5828d9a431d4b30b9d90a66a7fa0e9d"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Cpp/MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="elRef" href="../Cpp/namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::vector&lt; VdbVolume &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__VoxelsLoadGroup.html#gae5828d9a431d4b30b9d90a66a7fa0e9d">MR::VoxelsLoad::fromVdb</a> (const std::filesystem::path &amp;file, const <a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
+<tr class="separator:gae5828d9a431d4b30b9d90a66a7fa0e9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga292cb0932a07bdafb7ba56453be65262" id="r_ga292cb0932a07bdafb7ba56453be65262"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Cpp/MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="elRef" href="../Cpp/namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::vector&lt; <a class="elRef" href="../Cpp/classMR_1_1FloatGrid.html">FloatGrid</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__VoxelsLoadGroup.html#ga292cb0932a07bdafb7ba56453be65262">MR::VoxelsLoad::gridsFromVdb</a> (const std::filesystem::path &amp;file, const <a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
+<tr class="separator:ga292cb0932a07bdafb7ba56453be65262"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga17380baf5a009298d3c817ed07b4b43f" id="r_ga17380baf5a009298d3c817ed07b4b43f"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Cpp/MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="elRef" href="../Cpp/namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::vector&lt; <a class="elRef" href="../Cpp/classMR_1_1FloatGrid.html">FloatGrid</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__VoxelsLoadGroup.html#ga17380baf5a009298d3c817ed07b4b43f">MR::VoxelsLoad::gridsFromVdb</a> (std::istream &amp;in, const <a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
+<tr class="separator:ga17380baf5a009298d3c817ed07b4b43f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3a4b1b8a761fbb02df49c120adf8a866" id="r_ga3a4b1b8a761fbb02df49c120adf8a866"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Cpp/MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="elRef" href="../Cpp/namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VdbVolume &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__VoxelsLoadGroup.html#ga3a4b1b8a761fbb02df49c120adf8a866">MR::VoxelsLoad::fromGav</a> (const std::filesystem::path &amp;file, const <a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
+<tr class="separator:ga3a4b1b8a761fbb02df49c120adf8a866"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab4eb40aeebde5d9880345caadb3a0ae7" id="r_gab4eb40aeebde5d9880345caadb3a0ae7"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Cpp/MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="elRef" href="../Cpp/namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VdbVolume &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__VoxelsLoadGroup.html#gab4eb40aeebde5d9880345caadb3a0ae7">MR::VoxelsLoad::fromGav</a> (std::istream &amp;in, const <a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
+<tr class="separator:gab4eb40aeebde5d9880345caadb3a0ae7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9c5c70dae47d427c0b4441b8b1df6b17" id="r_ga9c5c70dae47d427c0b4441b8b1df6b17"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Cpp/MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="elRef" href="../Cpp/namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::vector&lt; <a class="elRef" href="../Cpp/classMR_1_1FloatGrid.html">FloatGrid</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__VoxelsLoadGroup.html#ga9c5c70dae47d427c0b4441b8b1df6b17">MR::VoxelsLoad::gridsFromAnySupportedFormat</a> (const std::filesystem::path &amp;file, const <a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
+<tr class="separator:ga9c5c70dae47d427c0b4441b8b1df6b17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga112e15838444077291559cd2320baedb" id="r_ga112e15838444077291559cd2320baedb"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Cpp/MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="elRef" href="../Cpp/namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::vector&lt; VdbVolume &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__VoxelsLoadGroup.html#ga112e15838444077291559cd2320baedb">MR::VoxelsLoad::fromAnySupportedFormat</a> (const std::filesystem::path &amp;file, const <a class="elRef" href="../Cpp/group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
+<tr class="separator:ga112e15838444077291559cd2320baedb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6d7c799106ec441c3db3a48ba3b253cd" id="r_ga6d7c799106ec441c3db3a48ba3b253cd"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6d7c799106ec441c3db3a48ba3b253cd">MR_VoxelsLoad_RawParameters_Get_dimensions</a> (const <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *_this)</td></tr>
+<tr class="separator:ga6d7c799106ec441c3db3a48ba3b253cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga81d056b1d7984d551d3a182ae3ac027e" id="r_ga81d056b1d7984d551d3a182ae3ac027e"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga81d056b1d7984d551d3a182ae3ac027e">MR_VoxelsLoad_RawParameters_Set_dimensions</a> (<a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *_this, <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> value)</td></tr>
+<tr class="separator:ga81d056b1d7984d551d3a182ae3ac027e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafe44cf12cc761621d0073a4d4f720310" id="r_gafe44cf12cc761621d0073a4d4f720310"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafe44cf12cc761621d0073a4d4f720310">MR_VoxelsLoad_RawParameters_GetMutable_dimensions</a> (<a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *_this)</td></tr>
+<tr class="separator:gafe44cf12cc761621d0073a4d4f720310"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4e541ecf2f2a1afad2f0142d13f97bf3" id="r_ga4e541ecf2f2a1afad2f0142d13f97bf3"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4e541ecf2f2a1afad2f0142d13f97bf3">MR_VoxelsLoad_RawParameters_Get_voxelSize</a> (const <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *_this)</td></tr>
+<tr class="separator:ga4e541ecf2f2a1afad2f0142d13f97bf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae7d3ec5d5bcb1f6a57160dbd1af1ebe2" id="r_gae7d3ec5d5bcb1f6a57160dbd1af1ebe2"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae7d3ec5d5bcb1f6a57160dbd1af1ebe2">MR_VoxelsLoad_RawParameters_Set_voxelSize</a> (<a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *_this, <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> value)</td></tr>
+<tr class="separator:gae7d3ec5d5bcb1f6a57160dbd1af1ebe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9bbffd4a23a138648eb79fc90fd68007" id="r_ga9bbffd4a23a138648eb79fc90fd68007"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9bbffd4a23a138648eb79fc90fd68007">MR_VoxelsLoad_RawParameters_GetMutable_voxelSize</a> (<a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *_this)</td></tr>
+<tr class="separator:ga9bbffd4a23a138648eb79fc90fd68007"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5a2109b8cd6663f0eefb837e7ed84afd" id="r_ga5a2109b8cd6663f0eefb837e7ed84afd"><td class="memItemLeft" align="right" valign="top">MRC_API const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5a2109b8cd6663f0eefb837e7ed84afd">MR_VoxelsLoad_RawParameters_Get_gridLevelSet</a> (const <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *_this)</td></tr>
+<tr class="separator:ga5a2109b8cd6663f0eefb837e7ed84afd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac90b9de5bc0cf3f150cbcbb30ab91528" id="r_gac90b9de5bc0cf3f150cbcbb30ab91528"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac90b9de5bc0cf3f150cbcbb30ab91528">MR_VoxelsLoad_RawParameters_Set_gridLevelSet</a> (<a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *_this, bool value)</td></tr>
+<tr class="separator:gac90b9de5bc0cf3f150cbcbb30ab91528"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabb2e10c65c4d4e642a671a50fed9bb66" id="r_gabb2e10c65c4d4e642a671a50fed9bb66"><td class="memItemLeft" align="right" valign="top">MRC_API bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabb2e10c65c4d4e642a671a50fed9bb66">MR_VoxelsLoad_RawParameters_GetMutable_gridLevelSet</a> (<a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *_this)</td></tr>
+<tr class="separator:gabb2e10c65c4d4e642a671a50fed9bb66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9c0332177a691d3f4e40c5c42ea3aa52" id="r_ga9c0332177a691d3f4e40c5c42ea3aa52"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRScalarConvert_8h.html#a1743944c8e2ea6eccba09898ecac81c1">MR_ScalarType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9c0332177a691d3f4e40c5c42ea3aa52">MR_VoxelsLoad_RawParameters_Get_scalarType</a> (const <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *_this)</td></tr>
+<tr class="separator:ga9c0332177a691d3f4e40c5c42ea3aa52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaed7a9929c7a0b507f536d8da91322611" id="r_gaed7a9929c7a0b507f536d8da91322611"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaed7a9929c7a0b507f536d8da91322611">MR_VoxelsLoad_RawParameters_Set_scalarType</a> (<a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *_this, <a class="el" href="MRScalarConvert_8h.html#a1743944c8e2ea6eccba09898ecac81c1">MR_ScalarType</a> value)</td></tr>
+<tr class="separator:gaed7a9929c7a0b507f536d8da91322611"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafbe7b7f538e6bb304729847bad7b6313" id="r_gafbe7b7f538e6bb304729847bad7b6313"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRScalarConvert_8h.html#a1743944c8e2ea6eccba09898ecac81c1">MR_ScalarType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafbe7b7f538e6bb304729847bad7b6313">MR_VoxelsLoad_RawParameters_GetMutable_scalarType</a> (<a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *_this)</td></tr>
+<tr class="separator:gafbe7b7f538e6bb304729847bad7b6313"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad5e68f1dcee5cd6d3a71700d673a64a5" id="r_gad5e68f1dcee5cd6d3a71700d673a64a5"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad5e68f1dcee5cd6d3a71700d673a64a5">MR_VoxelsLoad_RawParameters_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:gad5e68f1dcee5cd6d3a71700d673a64a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6cecefbfffd032603fe658524a8742f5" id="r_ga6cecefbfffd032603fe658524a8742f5"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6cecefbfffd032603fe658524a8742f5">MR_VoxelsLoad_RawParameters_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:ga6cecefbfffd032603fe658524a8742f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga85049d280dab49bb7660b557759e7bfc" id="r_ga85049d280dab49bb7660b557759e7bfc"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga85049d280dab49bb7660b557759e7bfc">MR_VoxelsLoad_RawParameters_ConstructFrom</a> (<a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> dimensions, <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> voxelSize, bool gridLevelSet, <a class="el" href="MRScalarConvert_8h.html#a1743944c8e2ea6eccba09898ecac81c1">MR_ScalarType</a> scalarType)</td></tr>
+<tr class="separator:ga85049d280dab49bb7660b557759e7bfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2fcb10382752c97be0f20f3599fd79b5" id="r_ga2fcb10382752c97be0f20f3599fd79b5"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2fcb10382752c97be0f20f3599fd79b5">MR_VoxelsLoad_RawParameters_OffsetPtr</a> (const <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:ga2fcb10382752c97be0f20f3599fd79b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:ga2fcb10382752c97be0f20f3599fd79b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3ff11520972628479c4240d721a5b9b2" id="r_ga3ff11520972628479c4240d721a5b9b2"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3ff11520972628479c4240d721a5b9b2">MR_VoxelsLoad_RawParameters_OffsetMutablePtr</a> (<a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:ga3ff11520972628479c4240d721a5b9b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:ga3ff11520972628479c4240d721a5b9b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6acaba3a839d01ef6f58192bd46179b2" id="r_ga6acaba3a839d01ef6f58192bd46179b2"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6acaba3a839d01ef6f58192bd46179b2">MR_VoxelsLoad_RawParameters_ConstructFromAnother</a> (const <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *_other)</td></tr>
+<tr class="separator:ga6acaba3a839d01ef6f58192bd46179b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaeaf1d290581013e42dcbfcd01ed30275" id="r_gaeaf1d290581013e42dcbfcd01ed30275"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaeaf1d290581013e42dcbfcd01ed30275">MR_VoxelsLoad_RawParameters_Destroy</a> (const <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *_this)</td></tr>
+<tr class="memdesc:gaeaf1d290581013e42dcbfcd01ed30275"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_VoxelsLoad_RawParameters</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:gaeaf1d290581013e42dcbfcd01ed30275"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadf448b1c5623aad65147002fb6ff5a76" id="r_gadf448b1c5623aad65147002fb6ff5a76"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gadf448b1c5623aad65147002fb6ff5a76">MR_VoxelsLoad_RawParameters_DestroyArray</a> (const <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *_this)</td></tr>
+<tr class="memdesc:gadf448b1c5623aad65147002fb6ff5a76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_VoxelsLoad_RawParameters</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:gadf448b1c5623aad65147002fb6ff5a76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga276a8bb64d939aee11ee9c81377dd99a" id="r_ga276a8bb64d939aee11ee9c81377dd99a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga276a8bb64d939aee11ee9c81377dd99a">MR_VoxelsLoad_RawParameters_AssignFromAnother</a> (<a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *_this, const <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *_other)</td></tr>
+<tr class="separator:ga276a8bb64d939aee11ee9c81377dd99a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaaf975f3060f8a5a48e23a036cc55cc92" id="r_gaaf975f3060f8a5a48e23a036cc55cc92"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__MR__VdbVolume__std__string_8h.html#a61cd90e7a5c3eb5c7524a41ee1678db1">MR_expected_MR_VdbVolume_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaaf975f3060f8a5a48e23a036cc55cc92">MR_VoxelsLoad_fromRaw_3_std_filesystem_path</a> (const char *file, const char *file_end, const <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *params, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="separator:gaaf975f3060f8a5a48e23a036cc55cc92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf30ce01d7a492340e1e774621e8d6362" id="r_gaf30ce01d7a492340e1e774621e8d6362"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__MR__VdbVolume__std__string_8h.html#a61cd90e7a5c3eb5c7524a41ee1678db1">MR_expected_MR_VdbVolume_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf30ce01d7a492340e1e774621e8d6362">MR_VoxelsLoad_fromRaw_3_std_istream</a> (<a class="el" href="MRCtm_8h.html#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a> *in, const <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *params, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="separator:gaf30ce01d7a492340e1e774621e8d6362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabb0c9c2c9507d6238d4e89db2a35cb8b" id="r_gabb0c9c2c9507d6238d4e89db2a35cb8b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__MR__FloatGrid__std__string_8h.html#ad964a22a5f428efbf66fb45d2d17ed82">MR_expected_MR_FloatGrid_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabb0c9c2c9507d6238d4e89db2a35cb8b">MR_VoxelsLoad_gridFromRaw_3_std_filesystem_path</a> (const char *file, const char *file_end, const <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *params, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="separator:gabb0c9c2c9507d6238d4e89db2a35cb8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2a91f0e6b0bf04ebc46fecefd8cfbe7a" id="r_ga2a91f0e6b0bf04ebc46fecefd8cfbe7a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__MR__FloatGrid__std__string_8h.html#ad964a22a5f428efbf66fb45d2d17ed82">MR_expected_MR_FloatGrid_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2a91f0e6b0bf04ebc46fecefd8cfbe7a">MR_VoxelsLoad_gridFromRaw_3_std_istream</a> (<a class="el" href="MRCtm_8h.html#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a> *in, const <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *params, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="separator:ga2a91f0e6b0bf04ebc46fecefd8cfbe7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga41b5d827b24453df587f673f2028e086" id="r_ga41b5d827b24453df587f673f2028e086"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#a633ff3caabdb019f6ddf961b8f5836be">MR_expected_MR_VoxelsLoad_RawParameters_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga41b5d827b24453df587f673f2028e086">MR_VoxelsLoad_findRawParameters</a> (<a class="el" href="MRSceneRoot_8h.html#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a> *file)</td></tr>
+<tr class="separator:ga41b5d827b24453df587f673f2028e086"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6e8a10246067c229db81778b640a81fd" id="r_ga6e8a10246067c229db81778b640a81fd"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__MR__VdbVolume__std__string_8h.html#a61cd90e7a5c3eb5c7524a41ee1678db1">MR_expected_MR_VdbVolume_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6e8a10246067c229db81778b640a81fd">MR_VoxelsLoad_fromRaw_2</a> (const char *file, const char *file_end, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="separator:ga6e8a10246067c229db81778b640a81fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae9cf112df47b14eaf49139fa4861cca0" id="r_gae9cf112df47b14eaf49139fa4861cca0"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__MR__FloatGrid__std__string_8h.html#ad964a22a5f428efbf66fb45d2d17ed82">MR_expected_MR_FloatGrid_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae9cf112df47b14eaf49139fa4861cca0">MR_VoxelsLoad_gridFromRaw_2</a> (const char *file, const char *file_end, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="separator:gae9cf112df47b14eaf49139fa4861cca0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga622aa4a9ee4a490f47b4254c4920a2f8" id="r_ga622aa4a9ee4a490f47b4254c4920a2f8"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__std__vector__MR__VdbVolume__std__string_8h.html#ae3ba0e6af4325538adb54422bf66550e">MR_expected_std_vector_MR_VdbVolume_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga622aa4a9ee4a490f47b4254c4920a2f8">MR_VoxelsLoad_fromVdb</a> (const char *file, const char *file_end, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="separator:ga622aa4a9ee4a490f47b4254c4920a2f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafd59012ab707c022d5fde4eb78ece4ef" id="r_gafd59012ab707c022d5fde4eb78ece4ef"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__std__vector__MR__FloatGrid__std__string_8h.html#a2715e10954cbaa44a81ecdf891016721">MR_expected_std_vector_MR_FloatGrid_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafd59012ab707c022d5fde4eb78ece4ef">MR_VoxelsLoad_gridsFromVdb_std_filesystem_path</a> (const char *file, const char *file_end, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="separator:gafd59012ab707c022d5fde4eb78ece4ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8d759e4fbf5cd8e24ae236ecd953c909" id="r_ga8d759e4fbf5cd8e24ae236ecd953c909"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__std__vector__MR__FloatGrid__std__string_8h.html#a2715e10954cbaa44a81ecdf891016721">MR_expected_std_vector_MR_FloatGrid_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8d759e4fbf5cd8e24ae236ecd953c909">MR_VoxelsLoad_gridsFromVdb_std_istream</a> (<a class="el" href="MRCtm_8h.html#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a> *in, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="separator:ga8d759e4fbf5cd8e24ae236ecd953c909"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga57532d4546c5c795d5d0d982ba95d76b" id="r_ga57532d4546c5c795d5d0d982ba95d76b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__MR__VdbVolume__std__string_8h.html#a61cd90e7a5c3eb5c7524a41ee1678db1">MR_expected_MR_VdbVolume_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga57532d4546c5c795d5d0d982ba95d76b">MR_VoxelsLoad_fromGav_std_filesystem_path</a> (const char *file, const char *file_end, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="separator:ga57532d4546c5c795d5d0d982ba95d76b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaee47609fb24bf8f15c208bd65a0cfea2" id="r_gaee47609fb24bf8f15c208bd65a0cfea2"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__MR__VdbVolume__std__string_8h.html#a61cd90e7a5c3eb5c7524a41ee1678db1">MR_expected_MR_VdbVolume_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaee47609fb24bf8f15c208bd65a0cfea2">MR_VoxelsLoad_fromGav_std_istream</a> (<a class="el" href="MRCtm_8h.html#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a> *in, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="separator:gaee47609fb24bf8f15c208bd65a0cfea2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga11896268c70ea93a1189e1a49ea40089" id="r_ga11896268c70ea93a1189e1a49ea40089"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__std__vector__MR__FloatGrid__std__string_8h.html#a2715e10954cbaa44a81ecdf891016721">MR_expected_std_vector_MR_FloatGrid_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga11896268c70ea93a1189e1a49ea40089">MR_VoxelsLoad_gridsFromAnySupportedFormat</a> (const char *file, const char *file_end, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="separator:ga11896268c70ea93a1189e1a49ea40089"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac51c63e42adaafa76c997bf7e57243cc" id="r_gac51c63e42adaafa76c997bf7e57243cc"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__std__vector__MR__VdbVolume__std__string_8h.html#ae3ba0e6af4325538adb54422bf66550e">MR_expected_std_vector_MR_VdbVolume_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac51c63e42adaafa76c997bf7e57243cc">MR_VoxelsLoad_fromAnySupportedFormat</a> (const char *file, const char *file_end, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="separator:gac51c63e42adaafa76c997bf7e57243cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa8912e897ed96dc28ba096eec2046e8a" id="r_gaa8912e897ed96dc28ba096eec2046e8a"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRSceneRoot_8h.html#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa8912e897ed96dc28ba096eec2046e8a">MR_VoxelsLoad_LoadingTiffSettings_Get_dir</a> (const <a class="el" href="#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *_this)</td></tr>
+<tr class="separator:gaa8912e897ed96dc28ba096eec2046e8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad266fb0a060dcc4d8dadaf99c3928267" id="r_gad266fb0a060dcc4d8dadaf99c3928267"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad266fb0a060dcc4d8dadaf99c3928267">MR_VoxelsLoad_LoadingTiffSettings_Set_dir</a> (<a class="el" href="#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *_this, const char *value, const char *value_end)</td></tr>
+<tr class="separator:gad266fb0a060dcc4d8dadaf99c3928267"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga20be48a5eaee620097c06f457c55c9a1" id="r_ga20be48a5eaee620097c06f457c55c9a1"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRSceneRoot_8h.html#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga20be48a5eaee620097c06f457c55c9a1">MR_VoxelsLoad_LoadingTiffSettings_GetMutable_dir</a> (<a class="el" href="#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *_this)</td></tr>
+<tr class="separator:ga20be48a5eaee620097c06f457c55c9a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0147a46a348f40ce96674a59aaa2b042" id="r_ga0147a46a348f40ce96674a59aaa2b042"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0147a46a348f40ce96674a59aaa2b042">MR_VoxelsLoad_LoadingTiffSettings_Get_voxelSize</a> (const <a class="el" href="#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *_this)</td></tr>
+<tr class="separator:ga0147a46a348f40ce96674a59aaa2b042"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaeff961572e1fc4390d5d7d363df57d7d" id="r_gaeff961572e1fc4390d5d7d363df57d7d"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaeff961572e1fc4390d5d7d363df57d7d">MR_VoxelsLoad_LoadingTiffSettings_Set_voxelSize</a> (<a class="el" href="#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *_this, <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> value)</td></tr>
+<tr class="separator:gaeff961572e1fc4390d5d7d363df57d7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5da79e2e4e8a071981b719bc17ed69fd" id="r_ga5da79e2e4e8a071981b719bc17ed69fd"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5da79e2e4e8a071981b719bc17ed69fd">MR_VoxelsLoad_LoadingTiffSettings_GetMutable_voxelSize</a> (<a class="el" href="#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *_this)</td></tr>
+<tr class="separator:ga5da79e2e4e8a071981b719bc17ed69fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3a9880d183d9c1d412afeedfc1a5d535" id="r_ga3a9880d183d9c1d412afeedfc1a5d535"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#ga636d5442fee281cbfc2e4f63dec2570d">MR_VoxelsLoad_GridType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3a9880d183d9c1d412afeedfc1a5d535">MR_VoxelsLoad_LoadingTiffSettings_Get_gridType</a> (const <a class="el" href="#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *_this)</td></tr>
+<tr class="separator:ga3a9880d183d9c1d412afeedfc1a5d535"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga28b7293a8999ff7f62842b9d13aec1e9" id="r_ga28b7293a8999ff7f62842b9d13aec1e9"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga28b7293a8999ff7f62842b9d13aec1e9">MR_VoxelsLoad_LoadingTiffSettings_Set_gridType</a> (<a class="el" href="#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *_this, <a class="el" href="#ga636d5442fee281cbfc2e4f63dec2570d">MR_VoxelsLoad_GridType</a> value)</td></tr>
+<tr class="separator:ga28b7293a8999ff7f62842b9d13aec1e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga771732e5673994c5cb305a05051fc422" id="r_ga771732e5673994c5cb305a05051fc422"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ga636d5442fee281cbfc2e4f63dec2570d">MR_VoxelsLoad_GridType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga771732e5673994c5cb305a05051fc422">MR_VoxelsLoad_LoadingTiffSettings_GetMutable_gridType</a> (<a class="el" href="#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *_this)</td></tr>
+<tr class="separator:ga771732e5673994c5cb305a05051fc422"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6e0dc8f72313b22622e4fb5b5d749168" id="r_ga6e0dc8f72313b22622e4fb5b5d749168"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6e0dc8f72313b22622e4fb5b5d749168">MR_VoxelsLoad_LoadingTiffSettings_Get_cb</a> (const <a class="el" href="#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *_this)</td></tr>
+<tr class="separator:ga6e0dc8f72313b22622e4fb5b5d749168"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga04e4ac89ebcfbd947135caa095e07f7e" id="r_ga04e4ac89ebcfbd947135caa095e07f7e"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga04e4ac89ebcfbd947135caa095e07f7e">MR_VoxelsLoad_LoadingTiffSettings_Set_cb</a> (<a class="el" href="#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *value)</td></tr>
+<tr class="separator:ga04e4ac89ebcfbd947135caa095e07f7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadf1fe2aaeca45d7e63dbd9eee463d04c" id="r_gadf1fe2aaeca45d7e63dbd9eee463d04c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gadf1fe2aaeca45d7e63dbd9eee463d04c">MR_VoxelsLoad_LoadingTiffSettings_GetMutable_cb</a> (<a class="el" href="#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *_this)</td></tr>
+<tr class="separator:gadf1fe2aaeca45d7e63dbd9eee463d04c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga131e02a16948d22dc6dc25cfebac26e0" id="r_ga131e02a16948d22dc6dc25cfebac26e0"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga131e02a16948d22dc6dc25cfebac26e0">MR_VoxelsLoad_LoadingTiffSettings_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:ga131e02a16948d22dc6dc25cfebac26e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8997c99acd68bb0ea17b3885d8968b0d" id="r_ga8997c99acd68bb0ea17b3885d8968b0d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8997c99acd68bb0ea17b3885d8968b0d">MR_VoxelsLoad_LoadingTiffSettings_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:ga8997c99acd68bb0ea17b3885d8968b0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa8b28dc0590689ff3253f1b020e06d06" id="r_gaa8b28dc0590689ff3253f1b020e06d06"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa8b28dc0590689ff3253f1b020e06d06">MR_VoxelsLoad_LoadingTiffSettings_ConstructFrom</a> (const char *dir, const char *dir_end, <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> voxelSize, <a class="el" href="#ga636d5442fee281cbfc2e4f63dec2570d">MR_VoxelsLoad_GridType</a> gridType, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> cb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="separator:gaa8b28dc0590689ff3253f1b020e06d06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga373c3dc98c987a14b9a7f64e064a6286" id="r_ga373c3dc98c987a14b9a7f64e064a6286"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga373c3dc98c987a14b9a7f64e064a6286">MR_VoxelsLoad_LoadingTiffSettings_OffsetPtr</a> (const <a class="el" href="#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:ga373c3dc98c987a14b9a7f64e064a6286"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:ga373c3dc98c987a14b9a7f64e064a6286"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf851854396e80a2a6ff71586bd303862" id="r_gaf851854396e80a2a6ff71586bd303862"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf851854396e80a2a6ff71586bd303862">MR_VoxelsLoad_LoadingTiffSettings_OffsetMutablePtr</a> (<a class="el" href="#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:gaf851854396e80a2a6ff71586bd303862"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:gaf851854396e80a2a6ff71586bd303862"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga270de112e16d9c71bbe683512efd0cfa" id="r_ga270de112e16d9c71bbe683512efd0cfa"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga270de112e16d9c71bbe683512efd0cfa">MR_VoxelsLoad_LoadingTiffSettings_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *_other)</td></tr>
+<tr class="separator:ga270de112e16d9c71bbe683512efd0cfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga232ccf76360eabacbd668f5cb7d6af7a" id="r_ga232ccf76360eabacbd668f5cb7d6af7a"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga232ccf76360eabacbd668f5cb7d6af7a">MR_VoxelsLoad_LoadingTiffSettings_Destroy</a> (const <a class="el" href="#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *_this)</td></tr>
+<tr class="memdesc:ga232ccf76360eabacbd668f5cb7d6af7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_VoxelsLoad_LoadingTiffSettings</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ga232ccf76360eabacbd668f5cb7d6af7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7dc8b7961625eb5f5923659fb317a30b" id="r_ga7dc8b7961625eb5f5923659fb317a30b"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7dc8b7961625eb5f5923659fb317a30b">MR_VoxelsLoad_LoadingTiffSettings_DestroyArray</a> (const <a class="el" href="#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *_this)</td></tr>
+<tr class="memdesc:ga7dc8b7961625eb5f5923659fb317a30b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_VoxelsLoad_LoadingTiffSettings</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ga7dc8b7961625eb5f5923659fb317a30b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa67b2a467727a9365a09899f7ae70e8f" id="r_gaa67b2a467727a9365a09899f7ae70e8f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa67b2a467727a9365a09899f7ae70e8f">MR_VoxelsLoad_LoadingTiffSettings_AssignFromAnother</a> (<a class="el" href="#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *_other)</td></tr>
+<tr class="separator:gaa67b2a467727a9365a09899f7ae70e8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9a9c31128691bcc88e2fc8132dd4ef1a" id="r_ga9a9c31128691bcc88e2fc8132dd4ef1a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__MR__VdbVolume__std__string_8h.html#a61cd90e7a5c3eb5c7524a41ee1678db1">MR_expected_MR_VdbVolume_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9a9c31128691bcc88e2fc8132dd4ef1a">MR_VoxelsLoad_loadTiffDir</a> (const <a class="el" href="#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *settings)</td></tr>
+<tr class="separator:ga9a9c31128691bcc88e2fc8132dd4ef1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1ef86ceb605d0bffae3b67211a5598b2" id="r_ga1ef86ceb605d0bffae3b67211a5598b2"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__std__vector__std__shared__ptr__MR__ObjectVoxels__std__string_8h.html#ac9916094f7c66b0214a856e06fe3ea70">MR_expected_std_vector_std_shared_ptr_MR_ObjectVoxels_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1ef86ceb605d0bffae3b67211a5598b2">MR_makeObjectVoxelsFromFile</a> (const char *file, const char *file_end, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> callback_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *callback)</td></tr>
+<tr class="separator:ga1ef86ceb605d0bffae3b67211a5598b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga52b39239ae5695304c1d98ff2d13b7bc" id="r_ga52b39239ae5695304c1d98ff2d13b7bc"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRE57_8h.html#afddfdf9f07abac630b268df02dbaed95">MR_expected_MR_LoadedObjects_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga52b39239ae5695304c1d98ff2d13b7bc">MR_makeObjectFromVoxelsFile</a> (const char *file, const char *file_end, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *callback)</td></tr>
+<tr class="separator:ga52b39239ae5695304c1d98ff2d13b7bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsLoad_1_1RawParameters.html">MR::VoxelsLoad::RawParameters</a></code>. </p>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="ga636d5442fee281cbfc2e4f63dec2570d" name="ga636d5442fee281cbfc2e4f63dec2570d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga636d5442fee281cbfc2e4f63dec2570d">&#9670;&#160;</a></span>MR_VoxelsLoad_GridType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef int32_t <a class="el" href="#ga636d5442fee281cbfc2e4f63dec2570d">MR_VoxelsLoad_GridType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gaeb55c2e7200cad314e4876ce3d2d50a9" name="gaeb55c2e7200cad314e4876ce3d2d50a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaeb55c2e7200cad314e4876ce3d2d50a9">&#9670;&#160;</a></span>MR_VoxelsLoad_LoadingTiffSettings</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> <a class="el" href="#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html">MR::VoxelsLoad::LoadingTiffSettings</a></code>. </p>
+
+</div>
+</div>
+<a id="gaf646f8f51576a586c8b409eb6b38e998" name="gaf646f8f51576a586c8b409eb6b38e998"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf646f8f51576a586c8b409eb6b38e998">&#9670;&#160;</a></span>MR_VoxelsLoad_RawParameters</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="gadbaf9202177df73e6880eab6e6aab329" name="gadbaf9202177df73e6880eab6e6aab329"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gadbaf9202177df73e6880eab6e6aab329">&#9670;&#160;</a></span>anonymous enum</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">anonymous enum</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ggadbaf9202177df73e6880eab6e6aab329a692c6c55e992b9c5076ae747616ef2e2" name="ggadbaf9202177df73e6880eab6e6aab329a692c6c55e992b9c5076ae747616ef2e2"></a>MR_VoxelsLoad_GridType_DenseGrid&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ggadbaf9202177df73e6880eab6e6aab329a47d65f766447b295a21ed3614b20b22b" name="ggadbaf9202177df73e6880eab6e6aab329a47d65f766447b295a21ed3614b20b22b"></a>MR_VoxelsLoad_GridType_LevelSet&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="ga52b39239ae5695304c1d98ff2d13b7bc" name="ga52b39239ae5695304c1d98ff2d13b7bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga52b39239ae5695304c1d98ff2d13b7bc">&#9670;&#160;</a></span>MR_makeObjectFromVoxelsFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRE57_8h.html#afddfdf9f07abac630b268df02dbaed95">MR_expected_MR_LoadedObjects_std_string</a> * MR_makeObjectFromVoxelsFile </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>file_end</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *</td>          <td class="paramname"><span class="paramname"><em>callback</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a3312390052a5a2d862b167edc9e773b3">MR::makeObjectFromVoxelsFile</a></code>. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__LoadedObjects__std__string_8h.html#a473289ce8f7d72bea2182cb2dba9257b" title="Destroys a heap-allocated instance of MR_expected_MR_LoadedObjects_std_string. Does nothing if the po...">MR_expected_MR_LoadedObjects_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ga1ef86ceb605d0bffae3b67211a5598b2" name="ga1ef86ceb605d0bffae3b67211a5598b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1ef86ceb605d0bffae3b67211a5598b2">&#9670;&#160;</a></span>MR_makeObjectVoxelsFromFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="expected__std__vector__std__shared__ptr__MR__ObjectVoxels__std__string_8h.html#ac9916094f7c66b0214a856e06fe3ea70">MR_expected_std_vector_std_shared_ptr_MR_ObjectVoxels_std_string</a> * MR_makeObjectVoxelsFromFile </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>file_end</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>callback_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *</td>          <td class="paramname"><span class="paramname"><em>callback</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>loads voxels from given file in new object Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a771ff6491d2acec943253070393ce902">MR::makeObjectVoxelsFromFile</a></code>. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__std__vector__std__shared__ptr__MR__ObjectVoxels__std__string_8h.html#a4adcd0b564f30f38bfcc624d39e424ad" title="Destroys a heap-allocated instance of MR_expected_std_vector_std_shared_ptr_MR_ObjectVoxels_std_strin...">MR_expected_std_vector_std_shared_ptr_MR_ObjectVoxels_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ga41b5d827b24453df587f673f2028e086" name="ga41b5d827b24453df587f673f2028e086"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga41b5d827b24453df587f673f2028e086">&#9670;&#160;</a></span>MR_VoxelsLoad_findRawParameters()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#a633ff3caabdb019f6ddf961b8f5836be">MR_expected_MR_VoxelsLoad_RawParameters_std_string</a> * MR_VoxelsLoad_findRawParameters </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRSceneRoot_8h.html#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a> *</td>          <td class="paramname"><span class="paramname"><em>file</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>finds raw voxels file and its encoding parameters </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">file</td><td>on input: file name probably without suffix with parameters on output: if success existing file name Generated from function <code><a class="elRef" href="../Cpp/group__VoxelsLoadGroup.html#ga36e0b89b1624754a51c853b7254c9223">MR::VoxelsLoad::findRawParameters</a></code>. Parameter <code>file</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#aa5089acd57a9335bfd4bfb14c1284f6c" title="Destroys a heap-allocated instance of MR_expected_MR_VoxelsLoad_RawParameters_std_string....">MR_expected_MR_VoxelsLoad_RawParameters_std_string_Destroy()</a></code> to free it when you're done using it. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gac51c63e42adaafa76c997bf7e57243cc" name="gac51c63e42adaafa76c997bf7e57243cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac51c63e42adaafa76c997bf7e57243cc">&#9670;&#160;</a></span>MR_VoxelsLoad_fromAnySupportedFormat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="expected__std__vector__MR__VdbVolume__std__string_8h.html#ae3ba0e6af4325538adb54422bf66550e">MR_expected_std_vector_MR_VdbVolume_std_string</a> * MR_VoxelsLoad_fromAnySupportedFormat </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>file_end</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Detects the format from file extension and loads voxels from it Generated from function <code><a class="elRef" href="../Cpp/group__VoxelsLoadGroup.html#ga112e15838444077291559cd2320baedb">MR::VoxelsLoad::fromAnySupportedFormat</a></code>. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__std__vector__MR__VdbVolume__std__string_8h.html#ab312c9e630cc3fcc9b8f2c75af19c610" title="Destroys a heap-allocated instance of MR_expected_std_vector_MR_VdbVolume_std_string....">MR_expected_std_vector_MR_VdbVolume_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ga57532d4546c5c795d5d0d982ba95d76b" name="ga57532d4546c5c795d5d0d982ba95d76b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga57532d4546c5c795d5d0d982ba95d76b">&#9670;&#160;</a></span>MR_VoxelsLoad_fromGav_std_filesystem_path()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="expected__MR__VdbVolume__std__string_8h.html#a61cd90e7a5c3eb5c7524a41ee1678db1">MR_expected_MR_VdbVolume_std_string</a> * MR_VoxelsLoad_fromGav_std_filesystem_path </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>file_end</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Load voxel from Gav-file with micro CT reconstruction Generated from function <code><a class="elRef" href="../Cpp/group__VoxelsLoadGroup.html#ga3a4b1b8a761fbb02df49c120adf8a866">MR::VoxelsLoad::fromGav</a></code>. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__VdbVolume__std__string_8h.html#a63d0432e270cbf6256899313477a31d9" title="Destroys a heap-allocated instance of MR_expected_MR_VdbVolume_std_string. Does nothing if the pointe...">MR_expected_MR_VdbVolume_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="gaee47609fb24bf8f15c208bd65a0cfea2" name="gaee47609fb24bf8f15c208bd65a0cfea2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaee47609fb24bf8f15c208bd65a0cfea2">&#9670;&#160;</a></span>MR_VoxelsLoad_fromGav_std_istream()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="expected__MR__VdbVolume__std__string_8h.html#a61cd90e7a5c3eb5c7524a41ee1678db1">MR_expected_MR_VdbVolume_std_string</a> * MR_VoxelsLoad_fromGav_std_istream </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRCtm_8h.html#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a> *</td>          <td class="paramname"><span class="paramname"><em>in</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Load voxel from Gav-stream with micro CT reconstruction Generated from function <code><a class="elRef" href="../Cpp/group__VoxelsLoadGroup.html#ga3a4b1b8a761fbb02df49c120adf8a866">MR::VoxelsLoad::fromGav</a></code>. Parameter <code>in</code> can not be null. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__VdbVolume__std__string_8h.html#a63d0432e270cbf6256899313477a31d9" title="Destroys a heap-allocated instance of MR_expected_MR_VdbVolume_std_string. Does nothing if the pointe...">MR_expected_MR_VdbVolume_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ga6e8a10246067c229db81778b640a81fd" name="ga6e8a10246067c229db81778b640a81fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6e8a10246067c229db81778b640a81fd">&#9670;&#160;</a></span>MR_VoxelsLoad_fromRaw_2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="expected__MR__VdbVolume__std__string_8h.html#a61cd90e7a5c3eb5c7524a41ee1678db1">MR_expected_MR_VdbVolume_std_string</a> * MR_VoxelsLoad_fromRaw_2 </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>file_end</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Load raw voxels file, parsing parameters from name Generated from function <code><a class="elRef" href="../Cpp/group__VoxelsLoadGroup.html#gad3e3783e957919006d682b65886541bb">MR::VoxelsLoad::fromRaw</a></code>. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__VdbVolume__std__string_8h.html#a63d0432e270cbf6256899313477a31d9" title="Destroys a heap-allocated instance of MR_expected_MR_VdbVolume_std_string. Does nothing if the pointe...">MR_expected_MR_VdbVolume_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="gaaf975f3060f8a5a48e23a036cc55cc92" name="gaaf975f3060f8a5a48e23a036cc55cc92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaaf975f3060f8a5a48e23a036cc55cc92">&#9670;&#160;</a></span>MR_VoxelsLoad_fromRaw_3_std_filesystem_path()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="expected__MR__VdbVolume__std__string_8h.html#a61cd90e7a5c3eb5c7524a41ee1678db1">MR_expected_MR_VdbVolume_std_string</a> * MR_VoxelsLoad_fromRaw_3_std_filesystem_path </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>file_end</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>params</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Load raw voxels from file with provided parameters Generated from function <code><a class="elRef" href="../Cpp/group__VoxelsLoadGroup.html#gad3e3783e957919006d682b65886541bb">MR::VoxelsLoad::fromRaw</a></code>. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>params</code> can not be null. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__VdbVolume__std__string_8h.html#a63d0432e270cbf6256899313477a31d9" title="Destroys a heap-allocated instance of MR_expected_MR_VdbVolume_std_string. Does nothing if the pointe...">MR_expected_MR_VdbVolume_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="gaf30ce01d7a492340e1e774621e8d6362" name="gaf30ce01d7a492340e1e774621e8d6362"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf30ce01d7a492340e1e774621e8d6362">&#9670;&#160;</a></span>MR_VoxelsLoad_fromRaw_3_std_istream()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="expected__MR__VdbVolume__std__string_8h.html#a61cd90e7a5c3eb5c7524a41ee1678db1">MR_expected_MR_VdbVolume_std_string</a> * MR_VoxelsLoad_fromRaw_3_std_istream </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRCtm_8h.html#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a> *</td>          <td class="paramname"><span class="paramname"><em>in</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>params</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Load raw voxels from stream with provided parameters; important on Windows: in stream must be open in binary mode Generated from function <code><a class="elRef" href="../Cpp/group__VoxelsLoadGroup.html#gad3e3783e957919006d682b65886541bb">MR::VoxelsLoad::fromRaw</a></code>. Parameter <code>in</code> can not be null. Parameter <code>params</code> can not be null. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__VdbVolume__std__string_8h.html#a63d0432e270cbf6256899313477a31d9" title="Destroys a heap-allocated instance of MR_expected_MR_VdbVolume_std_string. Does nothing if the pointe...">MR_expected_MR_VdbVolume_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ga622aa4a9ee4a490f47b4254c4920a2f8" name="ga622aa4a9ee4a490f47b4254c4920a2f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga622aa4a9ee4a490f47b4254c4920a2f8">&#9670;&#160;</a></span>MR_VoxelsLoad_fromVdb()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="expected__std__vector__MR__VdbVolume__std__string_8h.html#ae3ba0e6af4325538adb54422bf66550e">MR_expected_std_vector_MR_VdbVolume_std_string</a> * MR_VoxelsLoad_fromVdb </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>file_end</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Load all voxel volumes from OpenVDB file Generated from function <code><a class="elRef" href="../Cpp/group__VoxelsLoadGroup.html#gae5828d9a431d4b30b9d90a66a7fa0e9d">MR::VoxelsLoad::fromVdb</a></code>. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__std__vector__MR__VdbVolume__std__string_8h.html#ab312c9e630cc3fcc9b8f2c75af19c610" title="Destroys a heap-allocated instance of MR_expected_std_vector_MR_VdbVolume_std_string....">MR_expected_std_vector_MR_VdbVolume_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="gae9cf112df47b14eaf49139fa4861cca0" name="gae9cf112df47b14eaf49139fa4861cca0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae9cf112df47b14eaf49139fa4861cca0">&#9670;&#160;</a></span>MR_VoxelsLoad_gridFromRaw_2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="expected__MR__FloatGrid__std__string_8h.html#ad964a22a5f428efbf66fb45d2d17ed82">MR_expected_MR_FloatGrid_std_string</a> * MR_VoxelsLoad_gridFromRaw_2 </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>file_end</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Load raw voxels file, parsing parameters from name Generated from function <code><a class="elRef" href="../Cpp/group__VoxelsLoadGroup.html#ga8d1d5e8fd4d557ab5cb0501f801e09c2">MR::VoxelsLoad::gridFromRaw</a></code>. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__FloatGrid__std__string_8h.html#a35f9fad7888613a1b35f979ef4e46dbf" title="Destroys a heap-allocated instance of MR_expected_MR_FloatGrid_std_string. Does nothing if the pointe...">MR_expected_MR_FloatGrid_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="gabb0c9c2c9507d6238d4e89db2a35cb8b" name="gabb0c9c2c9507d6238d4e89db2a35cb8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabb0c9c2c9507d6238d4e89db2a35cb8b">&#9670;&#160;</a></span>MR_VoxelsLoad_gridFromRaw_3_std_filesystem_path()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="expected__MR__FloatGrid__std__string_8h.html#ad964a22a5f428efbf66fb45d2d17ed82">MR_expected_MR_FloatGrid_std_string</a> * MR_VoxelsLoad_gridFromRaw_3_std_filesystem_path </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>file_end</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>params</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Load raw voxels from file with provided parameters Generated from function <code><a class="elRef" href="../Cpp/group__VoxelsLoadGroup.html#ga8d1d5e8fd4d557ab5cb0501f801e09c2">MR::VoxelsLoad::gridFromRaw</a></code>. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>params</code> can not be null. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__FloatGrid__std__string_8h.html#a35f9fad7888613a1b35f979ef4e46dbf" title="Destroys a heap-allocated instance of MR_expected_MR_FloatGrid_std_string. Does nothing if the pointe...">MR_expected_MR_FloatGrid_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ga2a91f0e6b0bf04ebc46fecefd8cfbe7a" name="ga2a91f0e6b0bf04ebc46fecefd8cfbe7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2a91f0e6b0bf04ebc46fecefd8cfbe7a">&#9670;&#160;</a></span>MR_VoxelsLoad_gridFromRaw_3_std_istream()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="expected__MR__FloatGrid__std__string_8h.html#ad964a22a5f428efbf66fb45d2d17ed82">MR_expected_MR_FloatGrid_std_string</a> * MR_VoxelsLoad_gridFromRaw_3_std_istream </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRCtm_8h.html#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a> *</td>          <td class="paramname"><span class="paramname"><em>in</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>params</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Load raw voxels from stream with provided parameters; important on Windows: in stream must be open in binary mode Generated from function <code><a class="elRef" href="../Cpp/group__VoxelsLoadGroup.html#ga8d1d5e8fd4d557ab5cb0501f801e09c2">MR::VoxelsLoad::gridFromRaw</a></code>. Parameter <code>in</code> can not be null. Parameter <code>params</code> can not be null. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__FloatGrid__std__string_8h.html#a35f9fad7888613a1b35f979ef4e46dbf" title="Destroys a heap-allocated instance of MR_expected_MR_FloatGrid_std_string. Does nothing if the pointe...">MR_expected_MR_FloatGrid_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ga11896268c70ea93a1189e1a49ea40089" name="ga11896268c70ea93a1189e1a49ea40089"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga11896268c70ea93a1189e1a49ea40089">&#9670;&#160;</a></span>MR_VoxelsLoad_gridsFromAnySupportedFormat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="expected__std__vector__MR__FloatGrid__std__string_8h.html#a2715e10954cbaa44a81ecdf891016721">MR_expected_std_vector_MR_FloatGrid_std_string</a> * MR_VoxelsLoad_gridsFromAnySupportedFormat </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>file_end</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Detects the format from file extension and loads voxels from it Generated from function <code><a class="elRef" href="../Cpp/group__VoxelsLoadGroup.html#ga9c5c70dae47d427c0b4441b8b1df6b17">MR::VoxelsLoad::gridsFromAnySupportedFormat</a></code>. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__std__vector__MR__FloatGrid__std__string_8h.html#afa919897a34682ff2856e72dbfd4fd35" title="Destroys a heap-allocated instance of MR_expected_std_vector_MR_FloatGrid_std_string....">MR_expected_std_vector_MR_FloatGrid_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="gafd59012ab707c022d5fde4eb78ece4ef" name="gafd59012ab707c022d5fde4eb78ece4ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafd59012ab707c022d5fde4eb78ece4ef">&#9670;&#160;</a></span>MR_VoxelsLoad_gridsFromVdb_std_filesystem_path()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="expected__std__vector__MR__FloatGrid__std__string_8h.html#a2715e10954cbaa44a81ecdf891016721">MR_expected_std_vector_MR_FloatGrid_std_string</a> * MR_VoxelsLoad_gridsFromVdb_std_filesystem_path </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>file_end</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__VoxelsLoadGroup.html#ga292cb0932a07bdafb7ba56453be65262">MR::VoxelsLoad::gridsFromVdb</a></code>. Parameter <code>file</code> is a UTF-8 encoded filesystem path. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__std__vector__MR__FloatGrid__std__string_8h.html#afa919897a34682ff2856e72dbfd4fd35" title="Destroys a heap-allocated instance of MR_expected_std_vector_MR_FloatGrid_std_string....">MR_expected_std_vector_MR_FloatGrid_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ga8d759e4fbf5cd8e24ae236ecd953c909" name="ga8d759e4fbf5cd8e24ae236ecd953c909"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8d759e4fbf5cd8e24ae236ecd953c909">&#9670;&#160;</a></span>MR_VoxelsLoad_gridsFromVdb_std_istream()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="expected__std__vector__MR__FloatGrid__std__string_8h.html#a2715e10954cbaa44a81ecdf891016721">MR_expected_std_vector_MR_FloatGrid_std_string</a> * MR_VoxelsLoad_gridsFromVdb_std_istream </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRCtm_8h.html#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a> *</td>          <td class="paramname"><span class="paramname"><em>in</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__VoxelsLoadGroup.html#ga292cb0932a07bdafb7ba56453be65262">MR::VoxelsLoad::gridsFromVdb</a></code>. Parameter <code>in</code> can not be null. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__std__vector__MR__FloatGrid__std__string_8h.html#afa919897a34682ff2856e72dbfd4fd35" title="Destroys a heap-allocated instance of MR_expected_std_vector_MR_FloatGrid_std_string....">MR_expected_std_vector_MR_FloatGrid_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="gaa67b2a467727a9365a09899f7ae70e8f" name="gaa67b2a467727a9365a09899f7ae70e8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa67b2a467727a9365a09899f7ae70e8f">&#9670;&#160;</a></span>MR_VoxelsLoad_LoadingTiffSettings_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> * MR_VoxelsLoad_LoadingTiffSettings_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html">MR::VoxelsLoad::LoadingTiffSettings</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="gaa8b28dc0590689ff3253f1b020e06d06" name="gaa8b28dc0590689ff3253f1b020e06d06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa8b28dc0590689ff3253f1b020e06d06">&#9670;&#160;</a></span>MR_VoxelsLoad_LoadingTiffSettings_ConstructFrom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> * MR_VoxelsLoad_LoadingTiffSettings_ConstructFrom </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>dir</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>dir_end</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__Vector3f.html">MR_Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>voxelSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#ga636d5442fee281cbfc2e4f63dec2570d">MR_VoxelsLoad_GridType</a></td>          <td class="paramname"><span class="paramname"><em>gridType</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>cb_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html">MR::VoxelsLoad::LoadingTiffSettings</a></code> elementwise. Parameter <code>dir</code> is a UTF-8 encoded filesystem path. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ga232ccf76360eabacbd668f5cb7d6af7a" title="Destroys a heap-allocated instance of MR_VoxelsLoad_LoadingTiffSettings. Does nothing if the pointer ...">MR_VoxelsLoad_LoadingTiffSettings_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ga270de112e16d9c71bbe683512efd0cfa" name="ga270de112e16d9c71bbe683512efd0cfa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga270de112e16d9c71bbe683512efd0cfa">&#9670;&#160;</a></span>MR_VoxelsLoad_LoadingTiffSettings_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> * MR_VoxelsLoad_LoadingTiffSettings_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html">MR::VoxelsLoad::LoadingTiffSettings</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ga232ccf76360eabacbd668f5cb7d6af7a" title="Destroys a heap-allocated instance of MR_VoxelsLoad_LoadingTiffSettings. Does nothing if the pointer ...">MR_VoxelsLoad_LoadingTiffSettings_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ga131e02a16948d22dc6dc25cfebac26e0" name="ga131e02a16948d22dc6dc25cfebac26e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga131e02a16948d22dc6dc25cfebac26e0">&#9670;&#160;</a></span>MR_VoxelsLoad_LoadingTiffSettings_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> * MR_VoxelsLoad_LoadingTiffSettings_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ga232ccf76360eabacbd668f5cb7d6af7a" title="Destroys a heap-allocated instance of MR_VoxelsLoad_LoadingTiffSettings. Does nothing if the pointer ...">MR_VoxelsLoad_LoadingTiffSettings_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ga8997c99acd68bb0ea17b3885d8968b0d" name="ga8997c99acd68bb0ea17b3885d8968b0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8997c99acd68bb0ea17b3885d8968b0d">&#9670;&#160;</a></span>MR_VoxelsLoad_LoadingTiffSettings_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> * MR_VoxelsLoad_LoadingTiffSettings_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#ga7dc8b7961625eb5f5923659fb317a30b" title="Destroys a heap-allocated array of MR_VoxelsLoad_LoadingTiffSettings. Does nothing if the pointer is ...">MR_VoxelsLoad_LoadingTiffSettings_DestroyArray()</a></code>. Use <code><a class="el" href="#gaf851854396e80a2a6ff71586bd303862" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_VoxelsLoad_LoadingTiffSettings_OffsetMutablePtr()</a></code> and <code><a class="el" href="#ga373c3dc98c987a14b9a7f64e064a6286" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_VoxelsLoad_LoadingTiffSettings_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="ga232ccf76360eabacbd668f5cb7d6af7a" name="ga232ccf76360eabacbd668f5cb7d6af7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga232ccf76360eabacbd668f5cb7d6af7a">&#9670;&#160;</a></span>MR_VoxelsLoad_LoadingTiffSettings_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_VoxelsLoad_LoadingTiffSettings_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_VoxelsLoad_LoadingTiffSettings</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="ga7dc8b7961625eb5f5923659fb317a30b" name="ga7dc8b7961625eb5f5923659fb317a30b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7dc8b7961625eb5f5923659fb317a30b">&#9670;&#160;</a></span>MR_VoxelsLoad_LoadingTiffSettings_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_VoxelsLoad_LoadingTiffSettings_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_VoxelsLoad_LoadingTiffSettings</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="ga6e0dc8f72313b22622e4fb5b5d749168" name="ga6e0dc8f72313b22622e4fb5b5d749168"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6e0dc8f72313b22622e4fb5b5d749168">&#9670;&#160;</a></span>MR_VoxelsLoad_LoadingTiffSettings_Get_cb()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> * MR_VoxelsLoad_LoadingTiffSettings_Get_cb </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html">MR::VoxelsLoad::LoadingTiffSettings</a></code> named <code>cb</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="gaa8912e897ed96dc28ba096eec2046e8a" name="gaa8912e897ed96dc28ba096eec2046e8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa8912e897ed96dc28ba096eec2046e8a">&#9670;&#160;</a></span>MR_VoxelsLoad_LoadingTiffSettings_Get_dir()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRSceneRoot_8h.html#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a> * MR_VoxelsLoad_LoadingTiffSettings_Get_dir </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html">MR::VoxelsLoad::LoadingTiffSettings</a></code> named <code>dir</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ga3a9880d183d9c1d412afeedfc1a5d535" name="ga3a9880d183d9c1d412afeedfc1a5d535"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3a9880d183d9c1d412afeedfc1a5d535">&#9670;&#160;</a></span>MR_VoxelsLoad_LoadingTiffSettings_Get_gridType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#ga636d5442fee281cbfc2e4f63dec2570d">MR_VoxelsLoad_GridType</a> * MR_VoxelsLoad_LoadingTiffSettings_Get_gridType </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html">MR::VoxelsLoad::LoadingTiffSettings</a></code> named <code>gridType</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ga0147a46a348f40ce96674a59aaa2b042" name="ga0147a46a348f40ce96674a59aaa2b042"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0147a46a348f40ce96674a59aaa2b042">&#9670;&#160;</a></span>MR_VoxelsLoad_LoadingTiffSettings_Get_voxelSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> * MR_VoxelsLoad_LoadingTiffSettings_Get_voxelSize </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html">MR::VoxelsLoad::LoadingTiffSettings</a></code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="gadf1fe2aaeca45d7e63dbd9eee463d04c" name="gadf1fe2aaeca45d7e63dbd9eee463d04c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gadf1fe2aaeca45d7e63dbd9eee463d04c">&#9670;&#160;</a></span>MR_VoxelsLoad_LoadingTiffSettings_GetMutable_cb()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> * MR_VoxelsLoad_LoadingTiffSettings_GetMutable_cb </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html">MR::VoxelsLoad::LoadingTiffSettings</a></code> named <code>cb</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ga20be48a5eaee620097c06f457c55c9a1" name="ga20be48a5eaee620097c06f457c55c9a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga20be48a5eaee620097c06f457c55c9a1">&#9670;&#160;</a></span>MR_VoxelsLoad_LoadingTiffSettings_GetMutable_dir()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRSceneRoot_8h.html#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a> * MR_VoxelsLoad_LoadingTiffSettings_GetMutable_dir </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html">MR::VoxelsLoad::LoadingTiffSettings</a></code> named <code>dir</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ga771732e5673994c5cb305a05051fc422" name="ga771732e5673994c5cb305a05051fc422"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga771732e5673994c5cb305a05051fc422">&#9670;&#160;</a></span>MR_VoxelsLoad_LoadingTiffSettings_GetMutable_gridType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ga636d5442fee281cbfc2e4f63dec2570d">MR_VoxelsLoad_GridType</a> * MR_VoxelsLoad_LoadingTiffSettings_GetMutable_gridType </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html">MR::VoxelsLoad::LoadingTiffSettings</a></code> named <code>gridType</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ga5da79e2e4e8a071981b719bc17ed69fd" name="ga5da79e2e4e8a071981b719bc17ed69fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5da79e2e4e8a071981b719bc17ed69fd">&#9670;&#160;</a></span>MR_VoxelsLoad_LoadingTiffSettings_GetMutable_voxelSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> * MR_VoxelsLoad_LoadingTiffSettings_GetMutable_voxelSize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html">MR::VoxelsLoad::LoadingTiffSettings</a></code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="gaf851854396e80a2a6ff71586bd303862" name="gaf851854396e80a2a6ff71586bd303862"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf851854396e80a2a6ff71586bd303862">&#9670;&#160;</a></span>MR_VoxelsLoad_LoadingTiffSettings_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> * MR_VoxelsLoad_LoadingTiffSettings_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="ga373c3dc98c987a14b9a7f64e064a6286" name="ga373c3dc98c987a14b9a7f64e064a6286"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga373c3dc98c987a14b9a7f64e064a6286">&#9670;&#160;</a></span>MR_VoxelsLoad_LoadingTiffSettings_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> * MR_VoxelsLoad_LoadingTiffSettings_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="ga04e4ac89ebcfbd947135caa095e07f7e" name="ga04e4ac89ebcfbd947135caa095e07f7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga04e4ac89ebcfbd947135caa095e07f7e">&#9670;&#160;</a></span>MR_VoxelsLoad_LoadingTiffSettings_Set_cb()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_VoxelsLoad_LoadingTiffSettings_Set_cb </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html">MR::VoxelsLoad::LoadingTiffSettings</a></code> named <code>cb</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="gad266fb0a060dcc4d8dadaf99c3928267" name="gad266fb0a060dcc4d8dadaf99c3928267"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad266fb0a060dcc4d8dadaf99c3928267">&#9670;&#160;</a></span>MR_VoxelsLoad_LoadingTiffSettings_Set_dir()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_VoxelsLoad_LoadingTiffSettings_Set_dir </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>value_end</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html">MR::VoxelsLoad::LoadingTiffSettings</a></code> named <code>dir</code>. Parameter <code>_this</code> can not be null. Parameter <code>value</code> is a UTF-8 encoded filesystem path. </p>
+
+</div>
+</div>
+<a id="ga28b7293a8999ff7f62842b9d13aec1e9" name="ga28b7293a8999ff7f62842b9d13aec1e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga28b7293a8999ff7f62842b9d13aec1e9">&#9670;&#160;</a></span>MR_VoxelsLoad_LoadingTiffSettings_Set_gridType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_VoxelsLoad_LoadingTiffSettings_Set_gridType </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#ga636d5442fee281cbfc2e4f63dec2570d">MR_VoxelsLoad_GridType</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html">MR::VoxelsLoad::LoadingTiffSettings</a></code> named <code>gridType</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="gaeff961572e1fc4390d5d7d363df57d7d" name="gaeff961572e1fc4390d5d7d363df57d7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaeff961572e1fc4390d5d7d363df57d7d">&#9670;&#160;</a></span>MR_VoxelsLoad_LoadingTiffSettings_Set_voxelSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_VoxelsLoad_LoadingTiffSettings_Set_voxelSize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__Vector3f.html">MR_Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html">MR::VoxelsLoad::LoadingTiffSettings</a></code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ga9a9c31128691bcc88e2fc8132dd4ef1a" name="ga9a9c31128691bcc88e2fc8132dd4ef1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9a9c31128691bcc88e2fc8132dd4ef1a">&#9670;&#160;</a></span>MR_VoxelsLoad_loadTiffDir()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="expected__MR__VdbVolume__std__string_8h.html#a61cd90e7a5c3eb5c7524a41ee1678db1">MR_expected_MR_VdbVolume_std_string</a> * MR_VoxelsLoad_loadTiffDir </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>settings</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Load voxels from a set of TIFF files Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1VoxelsLoad.html#a44442bb9fb78ce9c9668e928460258b9">MR::VoxelsLoad::loadTiffDir</a></code>. Parameter <code>settings</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__VdbVolume__std__string_8h.html#a63d0432e270cbf6256899313477a31d9" title="Destroys a heap-allocated instance of MR_expected_MR_VdbVolume_std_string. Does nothing if the pointe...">MR_expected_MR_VdbVolume_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ga276a8bb64d939aee11ee9c81377dd99a" name="ga276a8bb64d939aee11ee9c81377dd99a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga276a8bb64d939aee11ee9c81377dd99a">&#9670;&#160;</a></span>MR_VoxelsLoad_RawParameters_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> * MR_VoxelsLoad_RawParameters_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsLoad_1_1RawParameters.html">MR::VoxelsLoad::RawParameters</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. Parameter <code>_other</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ga85049d280dab49bb7660b557759e7bfc" name="ga85049d280dab49bb7660b557759e7bfc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga85049d280dab49bb7660b557759e7bfc">&#9670;&#160;</a></span>MR_VoxelsLoad_RawParameters_ConstructFrom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> * MR_VoxelsLoad_RawParameters_ConstructFrom </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR__Vector3i.html">MR_Vector3i</a></td>          <td class="paramname"><span class="paramname"><em>dimensions</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__Vector3f.html">MR_Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>voxelSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>gridLevelSet</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRScalarConvert_8h.html#a1743944c8e2ea6eccba09898ecac81c1">MR_ScalarType</a></td>          <td class="paramname"><span class="paramname"><em>scalarType</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsLoad_1_1RawParameters.html">MR::VoxelsLoad::RawParameters</a></code> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#gaeaf1d290581013e42dcbfcd01ed30275" title="Destroys a heap-allocated instance of MR_VoxelsLoad_RawParameters. Does nothing if the pointer is nul...">MR_VoxelsLoad_RawParameters_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ga6acaba3a839d01ef6f58192bd46179b2" name="ga6acaba3a839d01ef6f58192bd46179b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6acaba3a839d01ef6f58192bd46179b2">&#9670;&#160;</a></span>MR_VoxelsLoad_RawParameters_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> * MR_VoxelsLoad_RawParameters_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsLoad_1_1RawParameters.html">MR::VoxelsLoad::RawParameters</a></code>. Parameter <code>_other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#gaeaf1d290581013e42dcbfcd01ed30275" title="Destroys a heap-allocated instance of MR_VoxelsLoad_RawParameters. Does nothing if the pointer is nul...">MR_VoxelsLoad_RawParameters_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="gad5e68f1dcee5cd6d3a71700d673a64a5" name="gad5e68f1dcee5cd6d3a71700d673a64a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad5e68f1dcee5cd6d3a71700d673a64a5">&#9670;&#160;</a></span>MR_VoxelsLoad_RawParameters_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> * MR_VoxelsLoad_RawParameters_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#gaeaf1d290581013e42dcbfcd01ed30275" title="Destroys a heap-allocated instance of MR_VoxelsLoad_RawParameters. Does nothing if the pointer is nul...">MR_VoxelsLoad_RawParameters_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ga6cecefbfffd032603fe658524a8742f5" name="ga6cecefbfffd032603fe658524a8742f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6cecefbfffd032603fe658524a8742f5">&#9670;&#160;</a></span>MR_VoxelsLoad_RawParameters_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> * MR_VoxelsLoad_RawParameters_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#gadf448b1c5623aad65147002fb6ff5a76" title="Destroys a heap-allocated array of MR_VoxelsLoad_RawParameters. Does nothing if the pointer is null.">MR_VoxelsLoad_RawParameters_DestroyArray()</a></code>. Use <code><a class="el" href="#ga3ff11520972628479c4240d721a5b9b2" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_VoxelsLoad_RawParameters_OffsetMutablePtr()</a></code> and <code><a class="el" href="#ga2fcb10382752c97be0f20f3599fd79b5" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_VoxelsLoad_RawParameters_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="gaeaf1d290581013e42dcbfcd01ed30275" name="gaeaf1d290581013e42dcbfcd01ed30275"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaeaf1d290581013e42dcbfcd01ed30275">&#9670;&#160;</a></span>MR_VoxelsLoad_RawParameters_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_VoxelsLoad_RawParameters_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_VoxelsLoad_RawParameters</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="gadf448b1c5623aad65147002fb6ff5a76" name="gadf448b1c5623aad65147002fb6ff5a76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gadf448b1c5623aad65147002fb6ff5a76">&#9670;&#160;</a></span>MR_VoxelsLoad_RawParameters_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_VoxelsLoad_RawParameters_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_VoxelsLoad_RawParameters</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="ga6d7c799106ec441c3db3a48ba3b253cd" name="ga6d7c799106ec441c3db3a48ba3b253cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6d7c799106ec441c3db3a48ba3b253cd">&#9670;&#160;</a></span>MR_VoxelsLoad_RawParameters_Get_dimensions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> * MR_VoxelsLoad_RawParameters_Get_dimensions </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsLoad_1_1RawParameters.html">MR::VoxelsLoad::RawParameters</a></code> named <code>dimensions</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ga5a2109b8cd6663f0eefb837e7ed84afd" name="ga5a2109b8cd6663f0eefb837e7ed84afd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5a2109b8cd6663f0eefb837e7ed84afd">&#9670;&#160;</a></span>MR_VoxelsLoad_RawParameters_Get_gridLevelSet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const bool * MR_VoxelsLoad_RawParameters_Get_gridLevelSet </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>OpenVDB GridClass set as GRID_LEVEL_SET (need to set right surface normals direction) Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsLoad_1_1RawParameters.html">MR::VoxelsLoad::RawParameters</a></code> named <code>gridLevelSet</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ga9c0332177a691d3f4e40c5c42ea3aa52" name="ga9c0332177a691d3f4e40c5c42ea3aa52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9c0332177a691d3f4e40c5c42ea3aa52">&#9670;&#160;</a></span>MR_VoxelsLoad_RawParameters_Get_scalarType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRScalarConvert_8h.html#a1743944c8e2ea6eccba09898ecac81c1">MR_ScalarType</a> * MR_VoxelsLoad_RawParameters_Get_scalarType </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsLoad_1_1RawParameters.html">MR::VoxelsLoad::RawParameters</a></code> named <code>scalarType</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ga4e541ecf2f2a1afad2f0142d13f97bf3" name="ga4e541ecf2f2a1afad2f0142d13f97bf3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4e541ecf2f2a1afad2f0142d13f97bf3">&#9670;&#160;</a></span>MR_VoxelsLoad_RawParameters_Get_voxelSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> * MR_VoxelsLoad_RawParameters_Get_voxelSize </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsLoad_1_1RawParameters.html">MR::VoxelsLoad::RawParameters</a></code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="gafe44cf12cc761621d0073a4d4f720310" name="gafe44cf12cc761621d0073a4d4f720310"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafe44cf12cc761621d0073a4d4f720310">&#9670;&#160;</a></span>MR_VoxelsLoad_RawParameters_GetMutable_dimensions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> * MR_VoxelsLoad_RawParameters_GetMutable_dimensions </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsLoad_1_1RawParameters.html">MR::VoxelsLoad::RawParameters</a></code> named <code>dimensions</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="gabb2e10c65c4d4e642a671a50fed9bb66" name="gabb2e10c65c4d4e642a671a50fed9bb66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabb2e10c65c4d4e642a671a50fed9bb66">&#9670;&#160;</a></span>MR_VoxelsLoad_RawParameters_GetMutable_gridLevelSet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool * MR_VoxelsLoad_RawParameters_GetMutable_gridLevelSet </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gafbe7b7f538e6bb304729847bad7b6313" name="gafbe7b7f538e6bb304729847bad7b6313"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafbe7b7f538e6bb304729847bad7b6313">&#9670;&#160;</a></span>MR_VoxelsLoad_RawParameters_GetMutable_scalarType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRScalarConvert_8h.html#a1743944c8e2ea6eccba09898ecac81c1">MR_ScalarType</a> * MR_VoxelsLoad_RawParameters_GetMutable_scalarType </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsLoad_1_1RawParameters.html">MR::VoxelsLoad::RawParameters</a></code> named <code>scalarType</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ga9bbffd4a23a138648eb79fc90fd68007" name="ga9bbffd4a23a138648eb79fc90fd68007"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9bbffd4a23a138648eb79fc90fd68007">&#9670;&#160;</a></span>MR_VoxelsLoad_RawParameters_GetMutable_voxelSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> * MR_VoxelsLoad_RawParameters_GetMutable_voxelSize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsLoad_1_1RawParameters.html">MR::VoxelsLoad::RawParameters</a></code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. OpenVDB GridClass set as GRID_LEVEL_SET (need to set right surface normals direction) Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsLoad_1_1RawParameters.html">MR::VoxelsLoad::RawParameters</a></code> named <code>gridLevelSet</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ga3ff11520972628479c4240d721a5b9b2" name="ga3ff11520972628479c4240d721a5b9b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3ff11520972628479c4240d721a5b9b2">&#9670;&#160;</a></span>MR_VoxelsLoad_RawParameters_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> * MR_VoxelsLoad_RawParameters_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="ga2fcb10382752c97be0f20f3599fd79b5" name="ga2fcb10382752c97be0f20f3599fd79b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2fcb10382752c97be0f20f3599fd79b5">&#9670;&#160;</a></span>MR_VoxelsLoad_RawParameters_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> * MR_VoxelsLoad_RawParameters_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="ga81d056b1d7984d551d3a182ae3ac027e" name="ga81d056b1d7984d551d3a182ae3ac027e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga81d056b1d7984d551d3a182ae3ac027e">&#9670;&#160;</a></span>MR_VoxelsLoad_RawParameters_Set_dimensions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_VoxelsLoad_RawParameters_Set_dimensions </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__Vector3i.html">MR_Vector3i</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsLoad_1_1RawParameters.html">MR::VoxelsLoad::RawParameters</a></code> named <code>dimensions</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="gac90b9de5bc0cf3f150cbcbb30ab91528" name="gac90b9de5bc0cf3f150cbcbb30ab91528"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac90b9de5bc0cf3f150cbcbb30ab91528">&#9670;&#160;</a></span>MR_VoxelsLoad_RawParameters_Set_gridLevelSet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_VoxelsLoad_RawParameters_Set_gridLevelSet </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>OpenVDB GridClass set as GRID_LEVEL_SET (need to set right surface normals direction) Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsLoad_1_1RawParameters.html">MR::VoxelsLoad::RawParameters</a></code> named <code>gridLevelSet</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="gaed7a9929c7a0b507f536d8da91322611" name="gaed7a9929c7a0b507f536d8da91322611"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaed7a9929c7a0b507f536d8da91322611">&#9670;&#160;</a></span>MR_VoxelsLoad_RawParameters_Set_scalarType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_VoxelsLoad_RawParameters_Set_scalarType </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRScalarConvert_8h.html#a1743944c8e2ea6eccba09898ecac81c1">MR_ScalarType</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsLoad_1_1RawParameters.html">MR::VoxelsLoad::RawParameters</a></code> named <code>scalarType</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="gae7d3ec5d5bcb1f6a57160dbd1af1ebe2" name="gae7d3ec5d5bcb1f6a57160dbd1af1ebe2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae7d3ec5d5bcb1f6a57160dbd1af1ebe2">&#9670;&#160;</a></span>MR_VoxelsLoad_RawParameters_Set_voxelSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_VoxelsLoad_RawParameters_Set_voxelSize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__Vector3f.html">MR_Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsLoad_1_1RawParameters.html">MR::VoxelsLoad::RawParameters</a></code> named <code>voxelSize</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

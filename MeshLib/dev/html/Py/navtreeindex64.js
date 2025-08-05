@@ -1,5 +1,6 @@
 var NAVTREEINDEX64 =
 {
+"classmrmeshpy_1_1PolylineToDistanceVolumeParams.html#ad76f3214093961fc983e64b195dac2cd":[6,1,1,0,1,685,1],
 "classmrmeshpy_1_1PolylineToVolumeParams.html":[6,1,0,0,2,687],
 "classmrmeshpy_1_1PolylineToVolumeParams.html":[6,1,1,0,1,687],
 "classmrmeshpy_1_1PolylineToVolumeParams.html#a24f39f30ea03b71566f8c5d4c2c7ca9d":[6,1,0,0,2,687,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX64 =
 "classmrmeshpy_1_1Polynomial__double__6.html#ad2490b895d7b1903a665b37e02cb52e6":[6,1,1,0,1,697,1],
 "classmrmeshpy_1_1Polynomial__double__6.html#afa3eada44cc2b0ec2e8946e5dd773758":[6,1,0,0,2,697,2],
 "classmrmeshpy_1_1Polynomial__double__6.html#afa3eada44cc2b0ec2e8946e5dd773758":[6,1,1,0,1,697,2],
-"classmrmeshpy_1_1Polynomial__float__0.html":[6,1,0,0,2,698],
-"classmrmeshpy_1_1Polynomial__float__0.html":[6,1,1,0,1,698]
+"classmrmeshpy_1_1Polynomial__float__0.html":[6,1,0,0,2,698]
 };

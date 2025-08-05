@@ -1,0 +1,1152 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: MRContour.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('MRContour_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">MRContour.h File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="MRVector3_8h_source.html">MRCMesh/MRVector3.h</a>&gt;</code><br />
+<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+</div>
+<p><a href="MRContour_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:af7de7b4db973d11bf60ee592f1fff70e" id="r_af7de7b4db973d11bf60ee592f1fff70e"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#af7de7b4db973d11bf60ee592f1fff70e">MR_std_vector_MR_Vector2d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7de7b4db973d11bf60ee592f1fff70e">MR_std_vector_MR_Vector2d</a></td></tr>
+<tr class="separator:af7de7b4db973d11bf60ee592f1fff70e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3ae972f4acf6dd1ffc9c11061641f3f" id="r_af3ae972f4acf6dd1ffc9c11061641f3f"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a></td></tr>
+<tr class="separator:af3ae972f4acf6dd1ffc9c11061641f3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d89d0b00a747b263e81d4999e8ed90b" id="r_a5d89d0b00a747b263e81d4999e8ed90b"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a5d89d0b00a747b263e81d4999e8ed90b">MR_std_vector_MR_Vector3d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d89d0b00a747b263e81d4999e8ed90b">MR_std_vector_MR_Vector3d</a></td></tr>
+<tr class="separator:a5d89d0b00a747b263e81d4999e8ed90b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefed148a09a0ae55edbd22814638b462" id="r_aefed148a09a0ae55edbd22814638b462"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a></td></tr>
+<tr class="separator:aefed148a09a0ae55edbd22814638b462"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e55692f157422c7881b4d55c583d9df" id="r_a8e55692f157422c7881b4d55c583d9df"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MR2DContoursTriangulation_8h.html#a8e55692f157422c7881b4d55c583d9df">MR_std_vector_std_vector_MR_Vector2d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e55692f157422c7881b4d55c583d9df">MR_std_vector_std_vector_MR_Vector2d</a></td></tr>
+<tr class="separator:a8e55692f157422c7881b4d55c583d9df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a603c36c96311a8cb693f3e5500963e17" id="r_a603c36c96311a8cb693f3e5500963e17"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a></td></tr>
+<tr class="separator:a603c36c96311a8cb693f3e5500963e17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0c7c77418cae72106564e939421bb39" id="r_aa0c7c77418cae72106564e939421bb39"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#aa0c7c77418cae72106564e939421bb39">MR_std_vector_std_vector_MR_Vector3d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0c7c77418cae72106564e939421bb39">MR_std_vector_std_vector_MR_Vector3d</a></td></tr>
+<tr class="separator:aa0c7c77418cae72106564e939421bb39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79b88ecd897f6c27c8428cecc4a91f30" id="r_a79b88ecd897f6c27c8428cecc4a91f30"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a></td></tr>
+<tr class="separator:a79b88ecd897f6c27c8428cecc4a91f30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a8780a0ec01d860faae462a69b98b1696" id="r_a8780a0ec01d860faae462a69b98b1696"><td class="memItemLeft" align="right" valign="top">MRC_API float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8780a0ec01d860faae462a69b98b1696">MR_calcOrientedArea_float_float_std_vector_MR_Vector2f</a> (const <a class="el" href="#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a> *contour)</td></tr>
+<tr class="separator:a8780a0ec01d860faae462a69b98b1696"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e21fab93a593f7ce26d3febcb0c7fd7" id="r_a8e21fab93a593f7ce26d3febcb0c7fd7"><td class="memItemLeft" align="right" valign="top">MRC_API double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e21fab93a593f7ce26d3febcb0c7fd7">MR_calcOrientedArea_double_double_std_vector_MR_Vector2d</a> (const <a class="el" href="#af7de7b4db973d11bf60ee592f1fff70e">MR_std_vector_MR_Vector2d</a> *contour)</td></tr>
+<tr class="separator:a8e21fab93a593f7ce26d3febcb0c7fd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeafa317753000656a3984c5372691b35" id="r_aeafa317753000656a3984c5372691b35"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeafa317753000656a3984c5372691b35">MR_calcOrientedArea_float_float_std_vector_MR_Vector3f</a> (const <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *contour)</td></tr>
+<tr class="separator:aeafa317753000656a3984c5372691b35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac724e0880ee930d6135b777d8f488ebc" id="r_ac724e0880ee930d6135b777d8f488ebc"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac724e0880ee930d6135b777d8f488ebc">MR_calcOrientedArea_double_double_std_vector_MR_Vector3d</a> (const <a class="el" href="#a5d89d0b00a747b263e81d4999e8ed90b">MR_std_vector_MR_Vector3d</a> *contour)</td></tr>
+<tr class="separator:ac724e0880ee930d6135b777d8f488ebc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf22f8e0c01ae7431153659eb518058a" id="r_adf22f8e0c01ae7431153659eb518058a"><td class="memItemLeft" align="right" valign="top">MRC_API float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf22f8e0c01ae7431153659eb518058a">MR_calcLength_MR_Vector2f_float</a> (const <a class="el" href="#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a> *contour)</td></tr>
+<tr class="separator:adf22f8e0c01ae7431153659eb518058a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c745739e600bc97f0898cdb43580ece" id="r_a4c745739e600bc97f0898cdb43580ece"><td class="memItemLeft" align="right" valign="top">MRC_API double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c745739e600bc97f0898cdb43580ece">MR_calcLength_MR_Vector2d_double</a> (const <a class="el" href="#af7de7b4db973d11bf60ee592f1fff70e">MR_std_vector_MR_Vector2d</a> *contour)</td></tr>
+<tr class="separator:a4c745739e600bc97f0898cdb43580ece"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1dc15b6d770ba7f8de23c90b226a47e5" id="r_a1dc15b6d770ba7f8de23c90b226a47e5"><td class="memItemLeft" align="right" valign="top">MRC_API float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1dc15b6d770ba7f8de23c90b226a47e5">MR_calcLength_MR_Vector3f_float</a> (const <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *contour)</td></tr>
+<tr class="separator:a1dc15b6d770ba7f8de23c90b226a47e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf4fe12924808bf401accfd06976f762" id="r_aaf4fe12924808bf401accfd06976f762"><td class="memItemLeft" align="right" valign="top">MRC_API double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf4fe12924808bf401accfd06976f762">MR_calcLength_MR_Vector3d_double</a> (const <a class="el" href="#a5d89d0b00a747b263e81d4999e8ed90b">MR_std_vector_MR_Vector3d</a> *contour)</td></tr>
+<tr class="separator:aaf4fe12924808bf401accfd06976f762"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84e22c8b9bb38e13693602be1e2f72f8" id="r_a84e22c8b9bb38e13693602be1e2f72f8"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84e22c8b9bb38e13693602be1e2f72f8">MR_convertContourTo2f_std_vector_MR_Vector2f</a> (const <a class="el" href="#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a> *from)</td></tr>
+<tr class="separator:a84e22c8b9bb38e13693602be1e2f72f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1aa567137a7c5e7968b54d0ffc18710f" id="r_a1aa567137a7c5e7968b54d0ffc18710f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1aa567137a7c5e7968b54d0ffc18710f">MR_convertContourTo2f_std_vector_MR_Vector2d</a> (const <a class="el" href="#af7de7b4db973d11bf60ee592f1fff70e">MR_std_vector_MR_Vector2d</a> *from)</td></tr>
+<tr class="separator:a1aa567137a7c5e7968b54d0ffc18710f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1e727866e4a31b30928af7271dac2e4" id="r_ae1e727866e4a31b30928af7271dac2e4"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1e727866e4a31b30928af7271dac2e4">MR_convertContourTo2f_std_vector_MR_Vector3f</a> (const <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *from)</td></tr>
+<tr class="separator:ae1e727866e4a31b30928af7271dac2e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab818cafc1b8fef11ea55a479bdca2a55" id="r_ab818cafc1b8fef11ea55a479bdca2a55"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab818cafc1b8fef11ea55a479bdca2a55">MR_convertContourTo2f_std_vector_MR_Vector3d</a> (const <a class="el" href="#a5d89d0b00a747b263e81d4999e8ed90b">MR_std_vector_MR_Vector3d</a> *from)</td></tr>
+<tr class="separator:ab818cafc1b8fef11ea55a479bdca2a55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8145ec4bed0298a2808adafe10b33493" id="r_a8145ec4bed0298a2808adafe10b33493"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8145ec4bed0298a2808adafe10b33493">MR_convertContourTo3f_std_vector_MR_Vector2f</a> (const <a class="el" href="#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a> *from)</td></tr>
+<tr class="separator:a8145ec4bed0298a2808adafe10b33493"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5778e00a3a556624861e6855c3e62f66" id="r_a5778e00a3a556624861e6855c3e62f66"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5778e00a3a556624861e6855c3e62f66">MR_convertContourTo3f_std_vector_MR_Vector2d</a> (const <a class="el" href="#af7de7b4db973d11bf60ee592f1fff70e">MR_std_vector_MR_Vector2d</a> *from)</td></tr>
+<tr class="separator:a5778e00a3a556624861e6855c3e62f66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a477ead64d4e21c3917260c0dc172ebe7" id="r_a477ead64d4e21c3917260c0dc172ebe7"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a477ead64d4e21c3917260c0dc172ebe7">MR_convertContourTo3f_std_vector_MR_Vector3f</a> (const <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *from)</td></tr>
+<tr class="separator:a477ead64d4e21c3917260c0dc172ebe7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87b2bcd87bfc86e8d5194b09fbf216b5" id="r_a87b2bcd87bfc86e8d5194b09fbf216b5"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a87b2bcd87bfc86e8d5194b09fbf216b5">MR_convertContourTo3f_std_vector_MR_Vector3d</a> (const <a class="el" href="#a5d89d0b00a747b263e81d4999e8ed90b">MR_std_vector_MR_Vector3d</a> *from)</td></tr>
+<tr class="separator:a87b2bcd87bfc86e8d5194b09fbf216b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa10d0bc71ba2207f2f55e1c318e1dee7" id="r_aa10d0bc71ba2207f2f55e1c318e1dee7"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#af7de7b4db973d11bf60ee592f1fff70e">MR_std_vector_MR_Vector2d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa10d0bc71ba2207f2f55e1c318e1dee7">MR_convertContourTo2d_std_vector_MR_Vector2f</a> (const <a class="el" href="#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a> *from)</td></tr>
+<tr class="separator:aa10d0bc71ba2207f2f55e1c318e1dee7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc14bc48b9d7dd4af220a9c468ebc7c8" id="r_afc14bc48b9d7dd4af220a9c468ebc7c8"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#af7de7b4db973d11bf60ee592f1fff70e">MR_std_vector_MR_Vector2d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc14bc48b9d7dd4af220a9c468ebc7c8">MR_convertContourTo2d_std_vector_MR_Vector2d</a> (const <a class="el" href="#af7de7b4db973d11bf60ee592f1fff70e">MR_std_vector_MR_Vector2d</a> *from)</td></tr>
+<tr class="separator:afc14bc48b9d7dd4af220a9c468ebc7c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a20977dcc623ac6777d353b525f79fc" id="r_a5a20977dcc623ac6777d353b525f79fc"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#af7de7b4db973d11bf60ee592f1fff70e">MR_std_vector_MR_Vector2d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a20977dcc623ac6777d353b525f79fc">MR_convertContourTo2d_std_vector_MR_Vector3f</a> (const <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *from)</td></tr>
+<tr class="separator:a5a20977dcc623ac6777d353b525f79fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f25da57fb28cc5c790dc697ae20a375" id="r_a9f25da57fb28cc5c790dc697ae20a375"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#af7de7b4db973d11bf60ee592f1fff70e">MR_std_vector_MR_Vector2d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f25da57fb28cc5c790dc697ae20a375">MR_convertContourTo2d_std_vector_MR_Vector3d</a> (const <a class="el" href="#a5d89d0b00a747b263e81d4999e8ed90b">MR_std_vector_MR_Vector3d</a> *from)</td></tr>
+<tr class="separator:a9f25da57fb28cc5c790dc697ae20a375"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a837eb9fce0b9ea816c00c83978c8b40c" id="r_a837eb9fce0b9ea816c00c83978c8b40c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a5d89d0b00a747b263e81d4999e8ed90b">MR_std_vector_MR_Vector3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a837eb9fce0b9ea816c00c83978c8b40c">MR_convertContourTo3d_std_vector_MR_Vector2f</a> (const <a class="el" href="#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a> *from)</td></tr>
+<tr class="separator:a837eb9fce0b9ea816c00c83978c8b40c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a213b78791855f2fee4b8b81f46833bf7" id="r_a213b78791855f2fee4b8b81f46833bf7"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a5d89d0b00a747b263e81d4999e8ed90b">MR_std_vector_MR_Vector3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a213b78791855f2fee4b8b81f46833bf7">MR_convertContourTo3d_std_vector_MR_Vector2d</a> (const <a class="el" href="#af7de7b4db973d11bf60ee592f1fff70e">MR_std_vector_MR_Vector2d</a> *from)</td></tr>
+<tr class="separator:a213b78791855f2fee4b8b81f46833bf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34dd89b82403217a0743ce43283afe77" id="r_a34dd89b82403217a0743ce43283afe77"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a5d89d0b00a747b263e81d4999e8ed90b">MR_std_vector_MR_Vector3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34dd89b82403217a0743ce43283afe77">MR_convertContourTo3d_std_vector_MR_Vector3f</a> (const <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *from)</td></tr>
+<tr class="separator:a34dd89b82403217a0743ce43283afe77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4f2a13cbcf1da9a9e0ae11d79091028" id="r_ab4f2a13cbcf1da9a9e0ae11d79091028"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a5d89d0b00a747b263e81d4999e8ed90b">MR_std_vector_MR_Vector3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4f2a13cbcf1da9a9e0ae11d79091028">MR_convertContourTo3d_std_vector_MR_Vector3d</a> (const <a class="el" href="#a5d89d0b00a747b263e81d4999e8ed90b">MR_std_vector_MR_Vector3d</a> *from)</td></tr>
+<tr class="separator:ab4f2a13cbcf1da9a9e0ae11d79091028"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa95e3e23cfbf3867cd27772866d876f3" id="r_aa95e3e23cfbf3867cd27772866d876f3"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa95e3e23cfbf3867cd27772866d876f3">MR_convertContoursTo2f_std_vector_std_vector_MR_Vector2f</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *from)</td></tr>
+<tr class="separator:aa95e3e23cfbf3867cd27772866d876f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0567bd1878b61399a5194758ad80730" id="r_ae0567bd1878b61399a5194758ad80730"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae0567bd1878b61399a5194758ad80730">MR_convertContoursTo2f_std_vector_std_vector_MR_Vector2d</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#a8e55692f157422c7881b4d55c583d9df">MR_std_vector_std_vector_MR_Vector2d</a> *from)</td></tr>
+<tr class="separator:ae0567bd1878b61399a5194758ad80730"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4dec4402ac3423415a48c20f93773329" id="r_a4dec4402ac3423415a48c20f93773329"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4dec4402ac3423415a48c20f93773329">MR_convertContoursTo2f_std_vector_std_vector_MR_Vector3f</a> (const <a class="el" href="#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> *from)</td></tr>
+<tr class="separator:a4dec4402ac3423415a48c20f93773329"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee446244f4f001325d55241197ab0e9e" id="r_aee446244f4f001325d55241197ab0e9e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee446244f4f001325d55241197ab0e9e">MR_convertContoursTo2f_std_vector_std_vector_MR_Vector3d</a> (const <a class="el" href="#aa0c7c77418cae72106564e939421bb39">MR_std_vector_std_vector_MR_Vector3d</a> *from)</td></tr>
+<tr class="separator:aee446244f4f001325d55241197ab0e9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9230b0b900dcca27b6f135223efdf2a6" id="r_a9230b0b900dcca27b6f135223efdf2a6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9230b0b900dcca27b6f135223efdf2a6">MR_convertContoursTo3f_std_vector_std_vector_MR_Vector2f</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *from)</td></tr>
+<tr class="separator:a9230b0b900dcca27b6f135223efdf2a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56aeb003692e32ce14a37ece02b427c1" id="r_a56aeb003692e32ce14a37ece02b427c1"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56aeb003692e32ce14a37ece02b427c1">MR_convertContoursTo3f_std_vector_std_vector_MR_Vector2d</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#a8e55692f157422c7881b4d55c583d9df">MR_std_vector_std_vector_MR_Vector2d</a> *from)</td></tr>
+<tr class="separator:a56aeb003692e32ce14a37ece02b427c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a421acf46d54d10c4a5fd56139286840f" id="r_a421acf46d54d10c4a5fd56139286840f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a421acf46d54d10c4a5fd56139286840f">MR_convertContoursTo3f_std_vector_std_vector_MR_Vector3f</a> (const <a class="el" href="#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> *from)</td></tr>
+<tr class="separator:a421acf46d54d10c4a5fd56139286840f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04ce595f348969d882282fda6631bb33" id="r_a04ce595f348969d882282fda6631bb33"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04ce595f348969d882282fda6631bb33">MR_convertContoursTo3f_std_vector_std_vector_MR_Vector3d</a> (const <a class="el" href="#aa0c7c77418cae72106564e939421bb39">MR_std_vector_std_vector_MR_Vector3d</a> *from)</td></tr>
+<tr class="separator:a04ce595f348969d882282fda6631bb33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8aae2fe2257076be097fa7c40098f769" id="r_a8aae2fe2257076be097fa7c40098f769"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MR2DContoursTriangulation_8h.html#a8e55692f157422c7881b4d55c583d9df">MR_std_vector_std_vector_MR_Vector2d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8aae2fe2257076be097fa7c40098f769">MR_convertContoursTo2d_std_vector_std_vector_MR_Vector2f</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *from)</td></tr>
+<tr class="separator:a8aae2fe2257076be097fa7c40098f769"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a982ce4003fbda8de1762c6ba5adb9eee" id="r_a982ce4003fbda8de1762c6ba5adb9eee"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MR2DContoursTriangulation_8h.html#a8e55692f157422c7881b4d55c583d9df">MR_std_vector_std_vector_MR_Vector2d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a982ce4003fbda8de1762c6ba5adb9eee">MR_convertContoursTo2d_std_vector_std_vector_MR_Vector2d</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#a8e55692f157422c7881b4d55c583d9df">MR_std_vector_std_vector_MR_Vector2d</a> *from)</td></tr>
+<tr class="separator:a982ce4003fbda8de1762c6ba5adb9eee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a634edbc720bbe0ce929505de0e8949d7" id="r_a634edbc720bbe0ce929505de0e8949d7"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MR2DContoursTriangulation_8h.html#a8e55692f157422c7881b4d55c583d9df">MR_std_vector_std_vector_MR_Vector2d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a634edbc720bbe0ce929505de0e8949d7">MR_convertContoursTo2d_std_vector_std_vector_MR_Vector3f</a> (const <a class="el" href="#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> *from)</td></tr>
+<tr class="separator:a634edbc720bbe0ce929505de0e8949d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a254d57fce9801f1cec4ceeda4db1dc70" id="r_a254d57fce9801f1cec4ceeda4db1dc70"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MR2DContoursTriangulation_8h.html#a8e55692f157422c7881b4d55c583d9df">MR_std_vector_std_vector_MR_Vector2d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a254d57fce9801f1cec4ceeda4db1dc70">MR_convertContoursTo2d_std_vector_std_vector_MR_Vector3d</a> (const <a class="el" href="#aa0c7c77418cae72106564e939421bb39">MR_std_vector_std_vector_MR_Vector3d</a> *from)</td></tr>
+<tr class="separator:a254d57fce9801f1cec4ceeda4db1dc70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78ded3bd32cac36dd3082868536eba8b" id="r_a78ded3bd32cac36dd3082868536eba8b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aa0c7c77418cae72106564e939421bb39">MR_std_vector_std_vector_MR_Vector3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78ded3bd32cac36dd3082868536eba8b">MR_convertContoursTo3d_std_vector_std_vector_MR_Vector2f</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *from)</td></tr>
+<tr class="separator:a78ded3bd32cac36dd3082868536eba8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6d92981461f22b26bf74ab71d95410d" id="r_ac6d92981461f22b26bf74ab71d95410d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aa0c7c77418cae72106564e939421bb39">MR_std_vector_std_vector_MR_Vector3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6d92981461f22b26bf74ab71d95410d">MR_convertContoursTo3d_std_vector_std_vector_MR_Vector2d</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#a8e55692f157422c7881b4d55c583d9df">MR_std_vector_std_vector_MR_Vector2d</a> *from)</td></tr>
+<tr class="separator:ac6d92981461f22b26bf74ab71d95410d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45d08517bc5a458071fb1ebcf4f516ca" id="r_a45d08517bc5a458071fb1ebcf4f516ca"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aa0c7c77418cae72106564e939421bb39">MR_std_vector_std_vector_MR_Vector3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45d08517bc5a458071fb1ebcf4f516ca">MR_convertContoursTo3d_std_vector_std_vector_MR_Vector3f</a> (const <a class="el" href="#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> *from)</td></tr>
+<tr class="separator:a45d08517bc5a458071fb1ebcf4f516ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7ee6a613dba0fb8f4e1e92f3f3247c0" id="r_ac7ee6a613dba0fb8f4e1e92f3f3247c0"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aa0c7c77418cae72106564e939421bb39">MR_std_vector_std_vector_MR_Vector3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7ee6a613dba0fb8f4e1e92f3f3247c0">MR_convertContoursTo3d_std_vector_std_vector_MR_Vector3d</a> (const <a class="el" href="#aa0c7c77418cae72106564e939421bb39">MR_std_vector_std_vector_MR_Vector3d</a> *from)</td></tr>
+<tr class="separator:ac7ee6a613dba0fb8f4e1e92f3f3247c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="af7de7b4db973d11bf60ee592f1fff70e" name="af7de7b4db973d11bf60ee592f1fff70e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7de7b4db973d11bf60ee592f1fff70e">&#9670;&#160;</a></span>MR_std_vector_MR_Vector2d</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#af7de7b4db973d11bf60ee592f1fff70e">MR_std_vector_MR_Vector2d</a> <a class="el" href="#af7de7b4db973d11bf60ee592f1fff70e">MR_std_vector_MR_Vector2d</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af3ae972f4acf6dd1ffc9c11061641f3f" name="af3ae972f4acf6dd1ffc9c11061641f3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3ae972f4acf6dd1ffc9c11061641f3f">&#9670;&#160;</a></span>MR_std_vector_MR_Vector2f</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a> <a class="el" href="#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5d89d0b00a747b263e81d4999e8ed90b" name="a5d89d0b00a747b263e81d4999e8ed90b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d89d0b00a747b263e81d4999e8ed90b">&#9670;&#160;</a></span>MR_std_vector_MR_Vector3d</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a5d89d0b00a747b263e81d4999e8ed90b">MR_std_vector_MR_Vector3d</a> <a class="el" href="#a5d89d0b00a747b263e81d4999e8ed90b">MR_std_vector_MR_Vector3d</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aefed148a09a0ae55edbd22814638b462" name="aefed148a09a0ae55edbd22814638b462"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefed148a09a0ae55edbd22814638b462">&#9670;&#160;</a></span>MR_std_vector_MR_Vector3f</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8e55692f157422c7881b4d55c583d9df" name="a8e55692f157422c7881b4d55c583d9df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e55692f157422c7881b4d55c583d9df">&#9670;&#160;</a></span>MR_std_vector_std_vector_MR_Vector2d</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MR2DContoursTriangulation_8h.html#a8e55692f157422c7881b4d55c583d9df">MR_std_vector_std_vector_MR_Vector2d</a> <a class="el" href="MR2DContoursTriangulation_8h.html#a8e55692f157422c7881b4d55c583d9df">MR_std_vector_std_vector_MR_Vector2d</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a603c36c96311a8cb693f3e5500963e17" name="a603c36c96311a8cb693f3e5500963e17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a603c36c96311a8cb693f3e5500963e17">&#9670;&#160;</a></span>MR_std_vector_std_vector_MR_Vector2f</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa0c7c77418cae72106564e939421bb39" name="aa0c7c77418cae72106564e939421bb39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0c7c77418cae72106564e939421bb39">&#9670;&#160;</a></span>MR_std_vector_std_vector_MR_Vector3d</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#aa0c7c77418cae72106564e939421bb39">MR_std_vector_std_vector_MR_Vector3d</a> <a class="el" href="#aa0c7c77418cae72106564e939421bb39">MR_std_vector_std_vector_MR_Vector3d</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a79b88ecd897f6c27c8428cecc4a91f30" name="a79b88ecd897f6c27c8428cecc4a91f30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79b88ecd897f6c27c8428cecc4a91f30">&#9670;&#160;</a></span>MR_std_vector_std_vector_MR_Vector3f</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> <a class="el" href="#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a4c745739e600bc97f0898cdb43580ece" name="a4c745739e600bc97f0898cdb43580ece"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c745739e600bc97f0898cdb43580ece">&#9670;&#160;</a></span>MR_calcLength_MR_Vector2d_double()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API double MR_calcLength_MR_Vector2d_double </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#af7de7b4db973d11bf60ee592f1fff70e">MR_std_vector_MR_Vector2d</a> *</td>          <td class="paramname"><span class="paramname"><em>contour</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns sum length of the given contour </p><dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">R</td><td>is the type for the accumulation and for result Generated from function <code><a class="elRef" href="../Cpp/group__ContourGroup.html#ga0642fc9f0cb1e856cf09d3920b1b36f1">MR::calcLength</a>&lt;MR::Vector2d, double&gt;</code>. Parameter <code>contour</code> can not be null. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="adf22f8e0c01ae7431153659eb518058a" name="adf22f8e0c01ae7431153659eb518058a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf22f8e0c01ae7431153659eb518058a">&#9670;&#160;</a></span>MR_calcLength_MR_Vector2f_float()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API float MR_calcLength_MR_Vector2f_float </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a> *</td>          <td class="paramname"><span class="paramname"><em>contour</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns sum length of the given contour </p><dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">R</td><td>is the type for the accumulation and for result Generated from function <code><a class="elRef" href="../Cpp/group__ContourGroup.html#ga0642fc9f0cb1e856cf09d3920b1b36f1">MR::calcLength</a>&lt;MR::Vector2f, float&gt;</code>. Parameter <code>contour</code> can not be null. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aaf4fe12924808bf401accfd06976f762" name="aaf4fe12924808bf401accfd06976f762"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf4fe12924808bf401accfd06976f762">&#9670;&#160;</a></span>MR_calcLength_MR_Vector3d_double()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API double MR_calcLength_MR_Vector3d_double </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a5d89d0b00a747b263e81d4999e8ed90b">MR_std_vector_MR_Vector3d</a> *</td>          <td class="paramname"><span class="paramname"><em>contour</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns sum length of the given contour </p><dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">R</td><td>is the type for the accumulation and for result Generated from function <code><a class="elRef" href="../Cpp/group__ContourGroup.html#ga0642fc9f0cb1e856cf09d3920b1b36f1">MR::calcLength</a>&lt;MR::Vector3d, double&gt;</code>. Parameter <code>contour</code> can not be null. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a1dc15b6d770ba7f8de23c90b226a47e5" name="a1dc15b6d770ba7f8de23c90b226a47e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1dc15b6d770ba7f8de23c90b226a47e5">&#9670;&#160;</a></span>MR_calcLength_MR_Vector3f_float()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API float MR_calcLength_MR_Vector3f_float </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>contour</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns sum length of the given contour </p><dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">R</td><td>is the type for the accumulation and for result Generated from function <code><a class="elRef" href="../Cpp/group__ContourGroup.html#ga0642fc9f0cb1e856cf09d3920b1b36f1">MR::calcLength</a>&lt;MR::Vector3f, float&gt;</code>. Parameter <code>contour</code> can not be null. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a8e21fab93a593f7ce26d3febcb0c7fd7" name="a8e21fab93a593f7ce26d3febcb0c7fd7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e21fab93a593f7ce26d3febcb0c7fd7">&#9670;&#160;</a></span>MR_calcOrientedArea_double_double_std_vector_MR_Vector2d()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API double MR_calcOrientedArea_double_double_std_vector_MR_Vector2d </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#af7de7b4db973d11bf60ee592f1fff70e">MR_std_vector_MR_Vector2d</a> *</td>          <td class="paramname"><span class="paramname"><em>contour</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>&gt;0 for clockwise loop, &lt; 0 for CCW loop </p><dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">R</td><td>is the type for the accumulation and for result Generated from function <code><a class="elRef" href="../Cpp/group__ContourGroup.html#ga63c4064b2101e045fff282197ff239c3">MR::calcOrientedArea</a>&lt;double, double&gt;</code>. Parameter <code>contour</code> can not be null. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ac724e0880ee930d6135b777d8f488ebc" name="ac724e0880ee930d6135b777d8f488ebc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac724e0880ee930d6135b777d8f488ebc">&#9670;&#160;</a></span>MR_calcOrientedArea_double_double_std_vector_MR_Vector3d()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> MR_calcOrientedArea_double_double_std_vector_MR_Vector3d </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a5d89d0b00a747b263e81d4999e8ed90b">MR_std_vector_MR_Vector3d</a> *</td>          <td class="paramname"><span class="paramname"><em>contour</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns the vector with the magnitude equal to contour area, and directed to see the contour in ccw order from the vector tip </p><dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">R</td><td>is the type for the accumulation and for result Generated from function <code><a class="elRef" href="../Cpp/group__ContourGroup.html#ga63c4064b2101e045fff282197ff239c3">MR::calcOrientedArea</a>&lt;double, double&gt;</code>. Parameter <code>contour</code> can not be null. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a8780a0ec01d860faae462a69b98b1696" name="a8780a0ec01d860faae462a69b98b1696"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8780a0ec01d860faae462a69b98b1696">&#9670;&#160;</a></span>MR_calcOrientedArea_float_float_std_vector_MR_Vector2f()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API float MR_calcOrientedArea_float_float_std_vector_MR_Vector2f </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a> *</td>          <td class="paramname"><span class="paramname"><em>contour</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>&gt;0 for clockwise loop, &lt; 0 for CCW loop </p><dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">R</td><td>is the type for the accumulation and for result Generated from function <code><a class="elRef" href="../Cpp/group__ContourGroup.html#ga63c4064b2101e045fff282197ff239c3">MR::calcOrientedArea</a>&lt;float, float&gt;</code>. Parameter <code>contour</code> can not be null. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aeafa317753000656a3984c5372691b35" name="aeafa317753000656a3984c5372691b35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeafa317753000656a3984c5372691b35">&#9670;&#160;</a></span>MR_calcOrientedArea_float_float_std_vector_MR_Vector3f()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> MR_calcOrientedArea_float_float_std_vector_MR_Vector3f </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>contour</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns the vector with the magnitude equal to contour area, and directed to see the contour in ccw order from the vector tip </p><dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">R</td><td>is the type for the accumulation and for result Generated from function <code><a class="elRef" href="../Cpp/group__ContourGroup.html#ga63c4064b2101e045fff282197ff239c3">MR::calcOrientedArea</a>&lt;float, float&gt;</code>. Parameter <code>contour</code> can not be null. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a982ce4003fbda8de1762c6ba5adb9eee" name="a982ce4003fbda8de1762c6ba5adb9eee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a982ce4003fbda8de1762c6ba5adb9eee">&#9670;&#160;</a></span>MR_convertContoursTo2d_std_vector_std_vector_MR_Vector2d()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MR2DContoursTriangulation_8h.html#a8e55692f157422c7881b4d55c583d9df">MR_std_vector_std_vector_MR_Vector2d</a> * MR_convertContoursTo2d_std_vector_std_vector_MR_Vector2d </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#a8e55692f157422c7881b4d55c583d9df">MR_std_vector_std_vector_MR_Vector2d</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a37394dbbccf94a8952c58ec583819bee">MR::convertContoursTo2d</a>&lt;std::vector&lt;std::vector&lt;MR::Vector2d&gt;&gt;&gt;</code>. Parameter <code>from</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__std__vector__MR__Vector2d_8h.html#affefded3025e08b6c6788173108d6bc2" title="Destroys a heap-allocated instance of MR_std_vector_std_vector_MR_Vector2d. Does nothing if the point...">MR_std_vector_std_vector_MR_Vector2d_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a8aae2fe2257076be097fa7c40098f769" name="a8aae2fe2257076be097fa7c40098f769"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8aae2fe2257076be097fa7c40098f769">&#9670;&#160;</a></span>MR_convertContoursTo2d_std_vector_std_vector_MR_Vector2f()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MR2DContoursTriangulation_8h.html#a8e55692f157422c7881b4d55c583d9df">MR_std_vector_std_vector_MR_Vector2d</a> * MR_convertContoursTo2d_std_vector_std_vector_MR_Vector2f </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a37394dbbccf94a8952c58ec583819bee">MR::convertContoursTo2d</a>&lt;std::vector&lt;std::vector&lt;MR::Vector2f&gt;&gt;&gt;</code>. Parameter <code>from</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__std__vector__MR__Vector2d_8h.html#affefded3025e08b6c6788173108d6bc2" title="Destroys a heap-allocated instance of MR_std_vector_std_vector_MR_Vector2d. Does nothing if the point...">MR_std_vector_std_vector_MR_Vector2d_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a254d57fce9801f1cec4ceeda4db1dc70" name="a254d57fce9801f1cec4ceeda4db1dc70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a254d57fce9801f1cec4ceeda4db1dc70">&#9670;&#160;</a></span>MR_convertContoursTo2d_std_vector_std_vector_MR_Vector3d()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MR2DContoursTriangulation_8h.html#a8e55692f157422c7881b4d55c583d9df">MR_std_vector_std_vector_MR_Vector2d</a> * MR_convertContoursTo2d_std_vector_std_vector_MR_Vector3d </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa0c7c77418cae72106564e939421bb39">MR_std_vector_std_vector_MR_Vector3d</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a37394dbbccf94a8952c58ec583819bee">MR::convertContoursTo2d</a>&lt;std::vector&lt;std::vector&lt;MR::Vector3d&gt;&gt;&gt;</code>. Parameter <code>from</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__std__vector__MR__Vector2d_8h.html#affefded3025e08b6c6788173108d6bc2" title="Destroys a heap-allocated instance of MR_std_vector_std_vector_MR_Vector2d. Does nothing if the point...">MR_std_vector_std_vector_MR_Vector2d_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a634edbc720bbe0ce929505de0e8949d7" name="a634edbc720bbe0ce929505de0e8949d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a634edbc720bbe0ce929505de0e8949d7">&#9670;&#160;</a></span>MR_convertContoursTo2d_std_vector_std_vector_MR_Vector3f()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MR2DContoursTriangulation_8h.html#a8e55692f157422c7881b4d55c583d9df">MR_std_vector_std_vector_MR_Vector2d</a> * MR_convertContoursTo2d_std_vector_std_vector_MR_Vector3f </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a37394dbbccf94a8952c58ec583819bee">MR::convertContoursTo2d</a>&lt;std::vector&lt;std::vector&lt;MR::Vector3f&gt;&gt;&gt;</code>. Parameter <code>from</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__std__vector__MR__Vector2d_8h.html#affefded3025e08b6c6788173108d6bc2" title="Destroys a heap-allocated instance of MR_std_vector_std_vector_MR_Vector2d. Does nothing if the point...">MR_std_vector_std_vector_MR_Vector2d_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ae0567bd1878b61399a5194758ad80730" name="ae0567bd1878b61399a5194758ad80730"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0567bd1878b61399a5194758ad80730">&#9670;&#160;</a></span>MR_convertContoursTo2f_std_vector_std_vector_MR_Vector2d()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> * MR_convertContoursTo2f_std_vector_std_vector_MR_Vector2d </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#a8e55692f157422c7881b4d55c583d9df">MR_std_vector_std_vector_MR_Vector2d</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a69641f0e5e3836b15c6e1a31f8a419b6">MR::convertContoursTo2f</a>&lt;std::vector&lt;std::vector&lt;MR::Vector2d&gt;&gt;&gt;</code>. Parameter <code>from</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__std__vector__MR__Vector2f_8h.html#a163951b7acd39b66fcea579eb89c2c6a" title="Destroys a heap-allocated instance of MR_std_vector_std_vector_MR_Vector2f. Does nothing if the point...">MR_std_vector_std_vector_MR_Vector2f_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="aa95e3e23cfbf3867cd27772866d876f3" name="aa95e3e23cfbf3867cd27772866d876f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa95e3e23cfbf3867cd27772866d876f3">&#9670;&#160;</a></span>MR_convertContoursTo2f_std_vector_std_vector_MR_Vector2f()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> * MR_convertContoursTo2f_std_vector_std_vector_MR_Vector2f </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a69641f0e5e3836b15c6e1a31f8a419b6">MR::convertContoursTo2f</a>&lt;std::vector&lt;std::vector&lt;MR::Vector2f&gt;&gt;&gt;</code>. Parameter <code>from</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__std__vector__MR__Vector2f_8h.html#a163951b7acd39b66fcea579eb89c2c6a" title="Destroys a heap-allocated instance of MR_std_vector_std_vector_MR_Vector2f. Does nothing if the point...">MR_std_vector_std_vector_MR_Vector2f_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="aee446244f4f001325d55241197ab0e9e" name="aee446244f4f001325d55241197ab0e9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee446244f4f001325d55241197ab0e9e">&#9670;&#160;</a></span>MR_convertContoursTo2f_std_vector_std_vector_MR_Vector3d()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> * MR_convertContoursTo2f_std_vector_std_vector_MR_Vector3d </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa0c7c77418cae72106564e939421bb39">MR_std_vector_std_vector_MR_Vector3d</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a69641f0e5e3836b15c6e1a31f8a419b6">MR::convertContoursTo2f</a>&lt;std::vector&lt;std::vector&lt;MR::Vector3d&gt;&gt;&gt;</code>. Parameter <code>from</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__std__vector__MR__Vector2f_8h.html#a163951b7acd39b66fcea579eb89c2c6a" title="Destroys a heap-allocated instance of MR_std_vector_std_vector_MR_Vector2f. Does nothing if the point...">MR_std_vector_std_vector_MR_Vector2f_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a4dec4402ac3423415a48c20f93773329" name="a4dec4402ac3423415a48c20f93773329"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4dec4402ac3423415a48c20f93773329">&#9670;&#160;</a></span>MR_convertContoursTo2f_std_vector_std_vector_MR_Vector3f()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> * MR_convertContoursTo2f_std_vector_std_vector_MR_Vector3f </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a69641f0e5e3836b15c6e1a31f8a419b6">MR::convertContoursTo2f</a>&lt;std::vector&lt;std::vector&lt;MR::Vector3f&gt;&gt;&gt;</code>. Parameter <code>from</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__std__vector__MR__Vector2f_8h.html#a163951b7acd39b66fcea579eb89c2c6a" title="Destroys a heap-allocated instance of MR_std_vector_std_vector_MR_Vector2f. Does nothing if the point...">MR_std_vector_std_vector_MR_Vector2f_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ac6d92981461f22b26bf74ab71d95410d" name="ac6d92981461f22b26bf74ab71d95410d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6d92981461f22b26bf74ab71d95410d">&#9670;&#160;</a></span>MR_convertContoursTo3d_std_vector_std_vector_MR_Vector2d()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aa0c7c77418cae72106564e939421bb39">MR_std_vector_std_vector_MR_Vector3d</a> * MR_convertContoursTo3d_std_vector_std_vector_MR_Vector2d </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#a8e55692f157422c7881b4d55c583d9df">MR_std_vector_std_vector_MR_Vector2d</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#ae6b021b9aa296238fa47d7443aa5c680">MR::convertContoursTo3d</a>&lt;std::vector&lt;std::vector&lt;MR::Vector2d&gt;&gt;&gt;</code>. Parameter <code>from</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__std__vector__MR__Vector3d_8h.html#a27eeb83312e1ca81c5182912f2e4852d" title="Destroys a heap-allocated instance of MR_std_vector_std_vector_MR_Vector3d. Does nothing if the point...">MR_std_vector_std_vector_MR_Vector3d_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a78ded3bd32cac36dd3082868536eba8b" name="a78ded3bd32cac36dd3082868536eba8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78ded3bd32cac36dd3082868536eba8b">&#9670;&#160;</a></span>MR_convertContoursTo3d_std_vector_std_vector_MR_Vector2f()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aa0c7c77418cae72106564e939421bb39">MR_std_vector_std_vector_MR_Vector3d</a> * MR_convertContoursTo3d_std_vector_std_vector_MR_Vector2f </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#ae6b021b9aa296238fa47d7443aa5c680">MR::convertContoursTo3d</a>&lt;std::vector&lt;std::vector&lt;MR::Vector2f&gt;&gt;&gt;</code>. Parameter <code>from</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__std__vector__MR__Vector3d_8h.html#a27eeb83312e1ca81c5182912f2e4852d" title="Destroys a heap-allocated instance of MR_std_vector_std_vector_MR_Vector3d. Does nothing if the point...">MR_std_vector_std_vector_MR_Vector3d_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ac7ee6a613dba0fb8f4e1e92f3f3247c0" name="ac7ee6a613dba0fb8f4e1e92f3f3247c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7ee6a613dba0fb8f4e1e92f3f3247c0">&#9670;&#160;</a></span>MR_convertContoursTo3d_std_vector_std_vector_MR_Vector3d()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aa0c7c77418cae72106564e939421bb39">MR_std_vector_std_vector_MR_Vector3d</a> * MR_convertContoursTo3d_std_vector_std_vector_MR_Vector3d </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa0c7c77418cae72106564e939421bb39">MR_std_vector_std_vector_MR_Vector3d</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#ae6b021b9aa296238fa47d7443aa5c680">MR::convertContoursTo3d</a>&lt;std::vector&lt;std::vector&lt;MR::Vector3d&gt;&gt;&gt;</code>. Parameter <code>from</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__std__vector__MR__Vector3d_8h.html#a27eeb83312e1ca81c5182912f2e4852d" title="Destroys a heap-allocated instance of MR_std_vector_std_vector_MR_Vector3d. Does nothing if the point...">MR_std_vector_std_vector_MR_Vector3d_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a45d08517bc5a458071fb1ebcf4f516ca" name="a45d08517bc5a458071fb1ebcf4f516ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45d08517bc5a458071fb1ebcf4f516ca">&#9670;&#160;</a></span>MR_convertContoursTo3d_std_vector_std_vector_MR_Vector3f()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aa0c7c77418cae72106564e939421bb39">MR_std_vector_std_vector_MR_Vector3d</a> * MR_convertContoursTo3d_std_vector_std_vector_MR_Vector3f </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#ae6b021b9aa296238fa47d7443aa5c680">MR::convertContoursTo3d</a>&lt;std::vector&lt;std::vector&lt;MR::Vector3f&gt;&gt;&gt;</code>. Parameter <code>from</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__std__vector__MR__Vector3d_8h.html#a27eeb83312e1ca81c5182912f2e4852d" title="Destroys a heap-allocated instance of MR_std_vector_std_vector_MR_Vector3d. Does nothing if the point...">MR_std_vector_std_vector_MR_Vector3d_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a56aeb003692e32ce14a37ece02b427c1" name="a56aeb003692e32ce14a37ece02b427c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56aeb003692e32ce14a37ece02b427c1">&#9670;&#160;</a></span>MR_convertContoursTo3f_std_vector_std_vector_MR_Vector2d()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> * MR_convertContoursTo3f_std_vector_std_vector_MR_Vector2d </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#a8e55692f157422c7881b4d55c583d9df">MR_std_vector_std_vector_MR_Vector2d</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#aa10491e865bfcc7b0b92278a06a0773a">MR::convertContoursTo3f</a>&lt;std::vector&lt;std::vector&lt;MR::Vector2d&gt;&gt;&gt;</code>. Parameter <code>from</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__std__vector__MR__Vector3f_8h.html#a08f11bac5424cae534d0a451b6f8568a" title="Destroys a heap-allocated instance of MR_std_vector_std_vector_MR_Vector3f. Does nothing if the point...">MR_std_vector_std_vector_MR_Vector3f_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a9230b0b900dcca27b6f135223efdf2a6" name="a9230b0b900dcca27b6f135223efdf2a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9230b0b900dcca27b6f135223efdf2a6">&#9670;&#160;</a></span>MR_convertContoursTo3f_std_vector_std_vector_MR_Vector2f()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> * MR_convertContoursTo3f_std_vector_std_vector_MR_Vector2f </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#aa10491e865bfcc7b0b92278a06a0773a">MR::convertContoursTo3f</a>&lt;std::vector&lt;std::vector&lt;MR::Vector2f&gt;&gt;&gt;</code>. Parameter <code>from</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__std__vector__MR__Vector3f_8h.html#a08f11bac5424cae534d0a451b6f8568a" title="Destroys a heap-allocated instance of MR_std_vector_std_vector_MR_Vector3f. Does nothing if the point...">MR_std_vector_std_vector_MR_Vector3f_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a04ce595f348969d882282fda6631bb33" name="a04ce595f348969d882282fda6631bb33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04ce595f348969d882282fda6631bb33">&#9670;&#160;</a></span>MR_convertContoursTo3f_std_vector_std_vector_MR_Vector3d()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> * MR_convertContoursTo3f_std_vector_std_vector_MR_Vector3d </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aa0c7c77418cae72106564e939421bb39">MR_std_vector_std_vector_MR_Vector3d</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#aa10491e865bfcc7b0b92278a06a0773a">MR::convertContoursTo3f</a>&lt;std::vector&lt;std::vector&lt;MR::Vector3d&gt;&gt;&gt;</code>. Parameter <code>from</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__std__vector__MR__Vector3f_8h.html#a08f11bac5424cae534d0a451b6f8568a" title="Destroys a heap-allocated instance of MR_std_vector_std_vector_MR_Vector3f. Does nothing if the point...">MR_std_vector_std_vector_MR_Vector3f_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a421acf46d54d10c4a5fd56139286840f" name="a421acf46d54d10c4a5fd56139286840f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a421acf46d54d10c4a5fd56139286840f">&#9670;&#160;</a></span>MR_convertContoursTo3f_std_vector_std_vector_MR_Vector3f()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> * MR_convertContoursTo3f_std_vector_std_vector_MR_Vector3f </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#aa10491e865bfcc7b0b92278a06a0773a">MR::convertContoursTo3f</a>&lt;std::vector&lt;std::vector&lt;MR::Vector3f&gt;&gt;&gt;</code>. Parameter <code>from</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__std__vector__MR__Vector3f_8h.html#a08f11bac5424cae534d0a451b6f8568a" title="Destroys a heap-allocated instance of MR_std_vector_std_vector_MR_Vector3f. Does nothing if the point...">MR_std_vector_std_vector_MR_Vector3f_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="afc14bc48b9d7dd4af220a9c468ebc7c8" name="afc14bc48b9d7dd4af220a9c468ebc7c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc14bc48b9d7dd4af220a9c468ebc7c8">&#9670;&#160;</a></span>MR_convertContourTo2d_std_vector_MR_Vector2d()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#af7de7b4db973d11bf60ee592f1fff70e">MR_std_vector_MR_Vector2d</a> * MR_convertContourTo2d_std_vector_MR_Vector2d </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#af7de7b4db973d11bf60ee592f1fff70e">MR_std_vector_MR_Vector2d</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#aba764c41a940b36b3557d7cfd2dfa4a2">MR::convertContourTo2d</a>&lt;std::vector&lt;MR::Vector2d&gt;&gt;</code>. Parameter <code>from</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__Vector2d_8h.html#a11d228098cc92d1fcda361552c9f153b" title="Destroys a heap-allocated instance of MR_std_vector_MR_Vector2d. Does nothing if the pointer is null.">MR_std_vector_MR_Vector2d_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="aa10d0bc71ba2207f2f55e1c318e1dee7" name="aa10d0bc71ba2207f2f55e1c318e1dee7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa10d0bc71ba2207f2f55e1c318e1dee7">&#9670;&#160;</a></span>MR_convertContourTo2d_std_vector_MR_Vector2f()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#af7de7b4db973d11bf60ee592f1fff70e">MR_std_vector_MR_Vector2d</a> * MR_convertContourTo2d_std_vector_MR_Vector2f </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#aba764c41a940b36b3557d7cfd2dfa4a2">MR::convertContourTo2d</a>&lt;std::vector&lt;MR::Vector2f&gt;&gt;</code>. Parameter <code>from</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__Vector2d_8h.html#a11d228098cc92d1fcda361552c9f153b" title="Destroys a heap-allocated instance of MR_std_vector_MR_Vector2d. Does nothing if the pointer is null.">MR_std_vector_MR_Vector2d_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a9f25da57fb28cc5c790dc697ae20a375" name="a9f25da57fb28cc5c790dc697ae20a375"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f25da57fb28cc5c790dc697ae20a375">&#9670;&#160;</a></span>MR_convertContourTo2d_std_vector_MR_Vector3d()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#af7de7b4db973d11bf60ee592f1fff70e">MR_std_vector_MR_Vector2d</a> * MR_convertContourTo2d_std_vector_MR_Vector3d </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a5d89d0b00a747b263e81d4999e8ed90b">MR_std_vector_MR_Vector3d</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#aba764c41a940b36b3557d7cfd2dfa4a2">MR::convertContourTo2d</a>&lt;std::vector&lt;MR::Vector3d&gt;&gt;</code>. Parameter <code>from</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__Vector2d_8h.html#a11d228098cc92d1fcda361552c9f153b" title="Destroys a heap-allocated instance of MR_std_vector_MR_Vector2d. Does nothing if the pointer is null.">MR_std_vector_MR_Vector2d_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a5a20977dcc623ac6777d353b525f79fc" name="a5a20977dcc623ac6777d353b525f79fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a20977dcc623ac6777d353b525f79fc">&#9670;&#160;</a></span>MR_convertContourTo2d_std_vector_MR_Vector3f()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#af7de7b4db973d11bf60ee592f1fff70e">MR_std_vector_MR_Vector2d</a> * MR_convertContourTo2d_std_vector_MR_Vector3f </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#aba764c41a940b36b3557d7cfd2dfa4a2">MR::convertContourTo2d</a>&lt;std::vector&lt;MR::Vector3f&gt;&gt;</code>. Parameter <code>from</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__Vector2d_8h.html#a11d228098cc92d1fcda361552c9f153b" title="Destroys a heap-allocated instance of MR_std_vector_MR_Vector2d. Does nothing if the pointer is null.">MR_std_vector_MR_Vector2d_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a1aa567137a7c5e7968b54d0ffc18710f" name="a1aa567137a7c5e7968b54d0ffc18710f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1aa567137a7c5e7968b54d0ffc18710f">&#9670;&#160;</a></span>MR_convertContourTo2f_std_vector_MR_Vector2d()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a> * MR_convertContourTo2f_std_vector_MR_Vector2d </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#af7de7b4db973d11bf60ee592f1fff70e">MR_std_vector_MR_Vector2d</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a2781b4d5e5bf7cc617f8a0eba5a524f6">MR::convertContourTo2f</a>&lt;std::vector&lt;MR::Vector2d&gt;&gt;</code>. Parameter <code>from</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__Vector2f_8h.html#aeab3bfadb986f1cf0210b5857e6fd125" title="Destroys a heap-allocated instance of MR_std_vector_MR_Vector2f. Does nothing if the pointer is null.">MR_std_vector_MR_Vector2f_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a84e22c8b9bb38e13693602be1e2f72f8" name="a84e22c8b9bb38e13693602be1e2f72f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84e22c8b9bb38e13693602be1e2f72f8">&#9670;&#160;</a></span>MR_convertContourTo2f_std_vector_MR_Vector2f()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a> * MR_convertContourTo2f_std_vector_MR_Vector2f </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a2781b4d5e5bf7cc617f8a0eba5a524f6">MR::convertContourTo2f</a>&lt;std::vector&lt;MR::Vector2f&gt;&gt;</code>. Parameter <code>from</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__Vector2f_8h.html#aeab3bfadb986f1cf0210b5857e6fd125" title="Destroys a heap-allocated instance of MR_std_vector_MR_Vector2f. Does nothing if the pointer is null.">MR_std_vector_MR_Vector2f_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ab818cafc1b8fef11ea55a479bdca2a55" name="ab818cafc1b8fef11ea55a479bdca2a55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab818cafc1b8fef11ea55a479bdca2a55">&#9670;&#160;</a></span>MR_convertContourTo2f_std_vector_MR_Vector3d()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a> * MR_convertContourTo2f_std_vector_MR_Vector3d </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a5d89d0b00a747b263e81d4999e8ed90b">MR_std_vector_MR_Vector3d</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a2781b4d5e5bf7cc617f8a0eba5a524f6">MR::convertContourTo2f</a>&lt;std::vector&lt;MR::Vector3d&gt;&gt;</code>. Parameter <code>from</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__Vector2f_8h.html#aeab3bfadb986f1cf0210b5857e6fd125" title="Destroys a heap-allocated instance of MR_std_vector_MR_Vector2f. Does nothing if the pointer is null.">MR_std_vector_MR_Vector2f_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ae1e727866e4a31b30928af7271dac2e4" name="ae1e727866e4a31b30928af7271dac2e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1e727866e4a31b30928af7271dac2e4">&#9670;&#160;</a></span>MR_convertContourTo2f_std_vector_MR_Vector3f()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a> * MR_convertContourTo2f_std_vector_MR_Vector3f </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a2781b4d5e5bf7cc617f8a0eba5a524f6">MR::convertContourTo2f</a>&lt;std::vector&lt;MR::Vector3f&gt;&gt;</code>. Parameter <code>from</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__Vector2f_8h.html#aeab3bfadb986f1cf0210b5857e6fd125" title="Destroys a heap-allocated instance of MR_std_vector_MR_Vector2f. Does nothing if the pointer is null.">MR_std_vector_MR_Vector2f_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a213b78791855f2fee4b8b81f46833bf7" name="a213b78791855f2fee4b8b81f46833bf7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a213b78791855f2fee4b8b81f46833bf7">&#9670;&#160;</a></span>MR_convertContourTo3d_std_vector_MR_Vector2d()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a5d89d0b00a747b263e81d4999e8ed90b">MR_std_vector_MR_Vector3d</a> * MR_convertContourTo3d_std_vector_MR_Vector2d </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#af7de7b4db973d11bf60ee592f1fff70e">MR_std_vector_MR_Vector2d</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#ace9504b6b71c3d36b4f5b44b333fe7c4">MR::convertContourTo3d</a>&lt;std::vector&lt;MR::Vector2d&gt;&gt;</code>. Parameter <code>from</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__Vector3d_8h.html#a51557ca2a2436a6c26cce589d6792444" title="Destroys a heap-allocated instance of MR_std_vector_MR_Vector3d. Does nothing if the pointer is null.">MR_std_vector_MR_Vector3d_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a837eb9fce0b9ea816c00c83978c8b40c" name="a837eb9fce0b9ea816c00c83978c8b40c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a837eb9fce0b9ea816c00c83978c8b40c">&#9670;&#160;</a></span>MR_convertContourTo3d_std_vector_MR_Vector2f()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a5d89d0b00a747b263e81d4999e8ed90b">MR_std_vector_MR_Vector3d</a> * MR_convertContourTo3d_std_vector_MR_Vector2f </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#ace9504b6b71c3d36b4f5b44b333fe7c4">MR::convertContourTo3d</a>&lt;std::vector&lt;MR::Vector2f&gt;&gt;</code>. Parameter <code>from</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__Vector3d_8h.html#a51557ca2a2436a6c26cce589d6792444" title="Destroys a heap-allocated instance of MR_std_vector_MR_Vector3d. Does nothing if the pointer is null.">MR_std_vector_MR_Vector3d_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ab4f2a13cbcf1da9a9e0ae11d79091028" name="ab4f2a13cbcf1da9a9e0ae11d79091028"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4f2a13cbcf1da9a9e0ae11d79091028">&#9670;&#160;</a></span>MR_convertContourTo3d_std_vector_MR_Vector3d()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a5d89d0b00a747b263e81d4999e8ed90b">MR_std_vector_MR_Vector3d</a> * MR_convertContourTo3d_std_vector_MR_Vector3d </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a5d89d0b00a747b263e81d4999e8ed90b">MR_std_vector_MR_Vector3d</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#ace9504b6b71c3d36b4f5b44b333fe7c4">MR::convertContourTo3d</a>&lt;std::vector&lt;MR::Vector3d&gt;&gt;</code>. Parameter <code>from</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__Vector3d_8h.html#a51557ca2a2436a6c26cce589d6792444" title="Destroys a heap-allocated instance of MR_std_vector_MR_Vector3d. Does nothing if the pointer is null.">MR_std_vector_MR_Vector3d_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a34dd89b82403217a0743ce43283afe77" name="a34dd89b82403217a0743ce43283afe77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34dd89b82403217a0743ce43283afe77">&#9670;&#160;</a></span>MR_convertContourTo3d_std_vector_MR_Vector3f()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a5d89d0b00a747b263e81d4999e8ed90b">MR_std_vector_MR_Vector3d</a> * MR_convertContourTo3d_std_vector_MR_Vector3f </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#ace9504b6b71c3d36b4f5b44b333fe7c4">MR::convertContourTo3d</a>&lt;std::vector&lt;MR::Vector3f&gt;&gt;</code>. Parameter <code>from</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__Vector3d_8h.html#a51557ca2a2436a6c26cce589d6792444" title="Destroys a heap-allocated instance of MR_std_vector_MR_Vector3d. Does nothing if the pointer is null.">MR_std_vector_MR_Vector3d_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a5778e00a3a556624861e6855c3e62f66" name="a5778e00a3a556624861e6855c3e62f66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5778e00a3a556624861e6855c3e62f66">&#9670;&#160;</a></span>MR_convertContourTo3f_std_vector_MR_Vector2d()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> * MR_convertContourTo3f_std_vector_MR_Vector2d </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#af7de7b4db973d11bf60ee592f1fff70e">MR_std_vector_MR_Vector2d</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#aa4ceecc8e73e44a2e6581d55a462f1ea">MR::convertContourTo3f</a>&lt;std::vector&lt;MR::Vector2d&gt;&gt;</code>. Parameter <code>from</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__Vector3f_8h.html#abab6d7c953a1806ebeb1b7e736c18d49" title="Destroys a heap-allocated instance of MR_std_vector_MR_Vector3f. Does nothing if the pointer is null.">MR_std_vector_MR_Vector3f_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a8145ec4bed0298a2808adafe10b33493" name="a8145ec4bed0298a2808adafe10b33493"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8145ec4bed0298a2808adafe10b33493">&#9670;&#160;</a></span>MR_convertContourTo3f_std_vector_MR_Vector2f()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> * MR_convertContourTo3f_std_vector_MR_Vector2f </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#aa4ceecc8e73e44a2e6581d55a462f1ea">MR::convertContourTo3f</a>&lt;std::vector&lt;MR::Vector2f&gt;&gt;</code>. Parameter <code>from</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__Vector3f_8h.html#abab6d7c953a1806ebeb1b7e736c18d49" title="Destroys a heap-allocated instance of MR_std_vector_MR_Vector3f. Does nothing if the pointer is null.">MR_std_vector_MR_Vector3f_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a87b2bcd87bfc86e8d5194b09fbf216b5" name="a87b2bcd87bfc86e8d5194b09fbf216b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87b2bcd87bfc86e8d5194b09fbf216b5">&#9670;&#160;</a></span>MR_convertContourTo3f_std_vector_MR_Vector3d()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> * MR_convertContourTo3f_std_vector_MR_Vector3d </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a5d89d0b00a747b263e81d4999e8ed90b">MR_std_vector_MR_Vector3d</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#aa4ceecc8e73e44a2e6581d55a462f1ea">MR::convertContourTo3f</a>&lt;std::vector&lt;MR::Vector3d&gt;&gt;</code>. Parameter <code>from</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__Vector3f_8h.html#abab6d7c953a1806ebeb1b7e736c18d49" title="Destroys a heap-allocated instance of MR_std_vector_MR_Vector3f. Does nothing if the pointer is null.">MR_std_vector_MR_Vector3f_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a477ead64d4e21c3917260c0dc172ebe7" name="a477ead64d4e21c3917260c0dc172ebe7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a477ead64d4e21c3917260c0dc172ebe7">&#9670;&#160;</a></span>MR_convertContourTo3f_std_vector_MR_Vector3f()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> * MR_convertContourTo3f_std_vector_MR_Vector3f </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#aa4ceecc8e73e44a2e6581d55a462f1ea">MR::convertContourTo3f</a>&lt;std::vector&lt;MR::Vector3f&gt;&gt;</code>. Parameter <code>from</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__Vector3f_8h.html#abab6d7c953a1806ebeb1b7e736c18d49" title="Destroys a heap-allocated instance of MR_std_vector_MR_Vector3f. Does nothing if the pointer is null.">MR_std_vector_MR_Vector3f_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_87d38852fc01aff5f853718c8d8b5cb2.html">Cbindings</a></li><li class="navelem"><a class="el" href="dir_cb83f9b98dc6f67356ff76bcc17f4f67.html">MRCMesh</a></li><li class="navelem"><a class="el" href="MRContour_8h.html">MRContour.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

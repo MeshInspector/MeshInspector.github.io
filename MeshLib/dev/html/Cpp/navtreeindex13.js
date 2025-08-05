@@ -1,5 +1,6 @@
 var NAVTREEINDEX13 =
 {
+"MRRenderNameObject_8h.html":[6,0,3,0,0,1,11,79],
 "MRRenderNameObject_8h_source.html":[6,0,3,0,0,1,11,79],
 "MRRenderPointsObject_8h.html":[6,0,3,0,0,1,11,80],
 "MRRenderPointsObject_8h_source.html":[6,0,3,0,0,1,11,80],
@@ -248,6 +249,5 @@ var NAVTREEINDEX13 =
 "MRShadowsGL_8h.html":[6,0,3,0,0,1,11,109],
 "MRShadowsGL_8h_source.html":[6,0,3,0,0,1,11,109],
 "MRSharedThreadSafeOwner_8h.html":[6,0,3,0,0,1,4,349],
-"MRSharedThreadSafeOwner_8h_source.html":[6,0,3,0,0,1,4,349],
-"MRSharpenMarchingCubesMesh_8h.html":[6,0,3,0,0,1,4,350]
+"MRSharedThreadSafeOwner_8h_source.html":[6,0,3,0,0,1,4,349]
 };

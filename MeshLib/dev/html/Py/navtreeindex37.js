@@ -1,5 +1,6 @@
 var NAVTREEINDEX37 =
 {
+"classmrmeshpy_1_1LineObject.html#a0a51955f3410656c8857f0147e5a3dec":[6,1,1,0,1,421,2],
 "classmrmeshpy_1_1LineObject.html#a24643553868594c9f2fba4cb8ec092e7":[6,1,0,0,2,421,7],
 "classmrmeshpy_1_1LineObject.html#a24643553868594c9f2fba4cb8ec092e7":[6,1,1,0,1,421,7],
 "classmrmeshpy_1_1LineObject.html#a3a38ce42412625b786e9fafb4a178ece":[6,1,0,0,2,421,13],
@@ -248,6 +249,5 @@ var NAVTREEINDEX37 =
 "classmrmeshpy_1_1MakeSignedByWindingNumberSettings.html#aaa1bfb235faaaf5670b4dabee9c27081":[6,1,1,0,1,438,4],
 "classmrmeshpy_1_1MakeSignedByWindingNumberSettings.html#ab91fd75763c85954d435510f9516ed33":[6,1,0,0,2,438,5],
 "classmrmeshpy_1_1MakeSignedByWindingNumberSettings.html#ab91fd75763c85954d435510f9516ed33":[6,1,1,0,1,438,5],
-"classmrmeshpy_1_1MakeSignedByWindingNumberSettings.html#ac83cb7aa9a55db761f4da48c417db9da":[6,1,0,0,2,438,6],
-"classmrmeshpy_1_1MakeSignedByWindingNumberSettings.html#ac83cb7aa9a55db761f4da48c417db9da":[6,1,1,0,1,438,6]
+"classmrmeshpy_1_1MakeSignedByWindingNumberSettings.html#ac83cb7aa9a55db761f4da48c417db9da":[6,1,0,0,2,438,6]
 };

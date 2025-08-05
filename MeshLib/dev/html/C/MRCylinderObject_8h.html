@@ -1,0 +1,1175 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: MRCylinderObject.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('MRCylinderObject_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">MRCylinderObject.h File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="MRVector3_8h_source.html">MRCMesh/MRVector3.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="MRViewportId_8h_source.html">MRCMesh/MRViewportId.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
+</div>
+<p><a href="MRCylinderObject_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:aec928ec9053250e5440a0bd58db3b348" id="r_aec928ec9053250e5440a0bd58db3b348"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAddVisualPropertiesMixin_8h.html#aec928ec9053250e5440a0bd58db3b348">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_length</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec928ec9053250e5440a0bd58db3b348">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_length</a></td></tr>
+<tr class="separator:aec928ec9053250e5440a0bd58db3b348"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff93746de8efe15fd5fa764838b71e9b" id="r_aff93746de8efe15fd5fa764838b71e9b"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAddVisualPropertiesMixin_8h.html#aff93746de8efe15fd5fa764838b71e9b">MR_FeatureObject</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff93746de8efe15fd5fa764838b71e9b">MR_FeatureObject</a></td></tr>
+<tr class="separator:aff93746de8efe15fd5fa764838b71e9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9fa34609dfd430727cb347f86a5f28f" id="r_af9fa34609dfd430727cb347f86a5f28f"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRCircleObject_8h.html#af9fa34609dfd430727cb347f86a5f28f">MR_FeatureObjectProjectPointResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9fa34609dfd430727cb347f86a5f28f">MR_FeatureObjectProjectPointResult</a></td></tr>
+<tr class="separator:af9fa34609dfd430727cb347f86a5f28f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accce9c9179cadabc541edda0fc7a2571" id="r_accce9c9179cadabc541edda0fc7a2571"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#accce9c9179cadabc541edda0fc7a2571">MR_Object</a></td></tr>
+<tr class="separator:accce9c9179cadabc541edda0fc7a2571"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecafdb5edbdb31eb13fbab762e3c39bc" id="r_aecafdb5edbdb31eb13fbab762e3c39bc"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAddVisualPropertiesMixin_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a></td></tr>
+<tr class="separator:aecafdb5edbdb31eb13fbab762e3c39bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36f3696eda81d7005927ebc5fdf17e14" id="r_a36f3696eda81d7005927ebc5fdf17e14"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a></td></tr>
+<tr class="separator:a36f3696eda81d7005927ebc5fdf17e14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e9b9c2b8a1a0540b204b1b7e6e792f4" id="r_a9e9b9c2b8a1a0540b204b1b7e6e792f4"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a></td></tr>
+<tr class="separator:a9e9b9c2b8a1a0540b204b1b7e6e792f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69dc6868c10c92fb8b8a255b0130d289" id="r_a69dc6868c10c92fb8b8a255b0130d289"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></td></tr>
+<tr class="separator:a69dc6868c10c92fb8b8a255b0130d289"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2957a5feb78e9a6b527f0725f45a01a1" id="r_a2957a5feb78e9a6b527f0725f45a01a1"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRCircleObject_8h.html#a2957a5feb78e9a6b527f0725f45a01a1">MR_std_vector_MR_FeatureObjectSharedProperty</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2957a5feb78e9a6b527f0725f45a01a1">MR_std_vector_MR_FeatureObjectSharedProperty</a></td></tr>
+<tr class="separator:a2957a5feb78e9a6b527f0725f45a01a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefed148a09a0ae55edbd22814638b462" id="r_aefed148a09a0ae55edbd22814638b462"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a></td></tr>
+<tr class="separator:aefed148a09a0ae55edbd22814638b462"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01e7c260afa54426440fd3f81b13e76e" id="r_a01e7c260afa54426440fd3f81b13e76e"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__FeaturesGroup.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a></td></tr>
+<tr class="separator:a01e7c260afa54426440fd3f81b13e76e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a03fa1648f4640596dc6f5c6363c21335" id="r_a03fa1648f4640596dc6f5c6363c21335"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03fa1648f4640596dc6f5c6363c21335">MR_CylinderObject_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a03fa1648f4640596dc6f5c6363c21335"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade37e983b306d83588e418b488661af6" id="r_ade37e983b306d83588e418b488661af6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade37e983b306d83588e418b488661af6">MR_CylinderObject_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:ade37e983b306d83588e418b488661af6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b93973d6a5c997dc75676aaf18be26b" id="r_a2b93973d6a5c997dc75676aaf18be26b"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b93973d6a5c997dc75676aaf18be26b">MR_CylinderObject_OffsetPtr</a> (const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a2b93973d6a5c997dc75676aaf18be26b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a2b93973d6a5c997dc75676aaf18be26b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7966f124725dd3ec493c7cc84e0bc65" id="r_ad7966f124725dd3ec493c7cc84e0bc65"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad7966f124725dd3ec493c7cc84e0bc65">MR_CylinderObject_OffsetMutablePtr</a> (<a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:ad7966f124725dd3ec493c7cc84e0bc65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:ad7966f124725dd3ec493c7cc84e0bc65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad41b5fa4e2296bd76917675de036adf6" id="r_ad41b5fa4e2296bd76917675de036adf6"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#aec928ec9053250e5440a0bd58db3b348">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_length</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad41b5fa4e2296bd76917675de036adf6">MR_CylinderObject_UpcastTo_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_length</a> (const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *object)</td></tr>
+<tr class="separator:ad41b5fa4e2296bd76917675de036adf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac21e3cad8651f7ee694eb3438e91db02" id="r_ac21e3cad8651f7ee694eb3438e91db02"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAddVisualPropertiesMixin_8h.html#aec928ec9053250e5440a0bd58db3b348">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_length</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac21e3cad8651f7ee694eb3438e91db02">MR_CylinderObject_MutableUpcastTo_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_length</a> (<a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *object)</td></tr>
+<tr class="memdesc:ac21e3cad8651f7ee694eb3438e91db02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1CylinderObject.html">MR::CylinderObject</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1AddVisualProperties.html">MR::AddVisualProperties</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1FeatureObject.html">MR::FeatureObject</a>, MR::DimensionsVisualizePropertyType::diameter, MR::DimensionsVisualizePropertyType::length&gt;</code>.  <br /></td></tr>
+<tr class="separator:ac21e3cad8651f7ee694eb3438e91db02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0dc2c693208159699859b6c846da938" id="r_ac0dc2c693208159699859b6c846da938"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#aff93746de8efe15fd5fa764838b71e9b">MR_FeatureObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac0dc2c693208159699859b6c846da938">MR_CylinderObject_UpcastTo_MR_FeatureObject</a> (const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *object)</td></tr>
+<tr class="separator:ac0dc2c693208159699859b6c846da938"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa5c4d19beaf055fb845a44969b0e40d" id="r_afa5c4d19beaf055fb845a44969b0e40d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAddVisualPropertiesMixin_8h.html#aff93746de8efe15fd5fa764838b71e9b">MR_FeatureObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa5c4d19beaf055fb845a44969b0e40d">MR_CylinderObject_MutableUpcastTo_MR_FeatureObject</a> (<a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *object)</td></tr>
+<tr class="memdesc:afa5c4d19beaf055fb845a44969b0e40d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1CylinderObject.html">MR::CylinderObject</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1FeatureObject.html">MR::FeatureObject</a></code>.  <br /></td></tr>
+<tr class="separator:afa5c4d19beaf055fb845a44969b0e40d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e9035e3a1c2d55b5c0cb5f13bc46408" id="r_a2e9035e3a1c2d55b5c0cb5f13bc46408"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e9035e3a1c2d55b5c0cb5f13bc46408">MR_CylinderObject_UpcastTo_MR_Object</a> (const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *object)</td></tr>
+<tr class="separator:a2e9035e3a1c2d55b5c0cb5f13bc46408"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac42f971db3ab694ab01c52c72ef4d410" id="r_ac42f971db3ab694ab01c52c72ef4d410"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac42f971db3ab694ab01c52c72ef4d410">MR_CylinderObject_MutableUpcastTo_MR_Object</a> (<a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *object)</td></tr>
+<tr class="memdesc:ac42f971db3ab694ab01c52c72ef4d410"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1CylinderObject.html">MR::CylinderObject</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1Object.html">MR::Object</a></code>.  <br /></td></tr>
+<tr class="separator:ac42f971db3ab694ab01c52c72ef4d410"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae686fb8c8a264e707b51b7a5e62b05b9" id="r_ae686fb8c8a264e707b51b7a5e62b05b9"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae686fb8c8a264e707b51b7a5e62b05b9">MR_CylinderObject_UpcastTo_MR_ObjectChildrenHolder</a> (const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *object)</td></tr>
+<tr class="separator:ae686fb8c8a264e707b51b7a5e62b05b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15fad864a15349651adfcfd4a999c1fb" id="r_a15fad864a15349651adfcfd4a999c1fb"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAddVisualPropertiesMixin_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a15fad864a15349651adfcfd4a999c1fb">MR_CylinderObject_MutableUpcastTo_MR_ObjectChildrenHolder</a> (<a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *object)</td></tr>
+<tr class="memdesc:a15fad864a15349651adfcfd4a999c1fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1CylinderObject.html">MR::CylinderObject</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectChildrenHolder.html">MR::ObjectChildrenHolder</a></code>.  <br /></td></tr>
+<tr class="separator:a15fad864a15349651adfcfd4a999c1fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3f65a193f6ccc0e5dae77603b95f4c0" id="r_aa3f65a193f6ccc0e5dae77603b95f4c0"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3f65a193f6ccc0e5dae77603b95f4c0">MR_CylinderObject_UpcastTo_MR_VisualObject</a> (const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *object)</td></tr>
+<tr class="separator:aa3f65a193f6ccc0e5dae77603b95f4c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace3ba09a698cad543fda5b887bf33c97" id="r_ace3ba09a698cad543fda5b887bf33c97"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace3ba09a698cad543fda5b887bf33c97">MR_CylinderObject_MutableUpcastTo_MR_VisualObject</a> (<a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *object)</td></tr>
+<tr class="memdesc:ace3ba09a698cad543fda5b887bf33c97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1CylinderObject.html">MR::CylinderObject</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1VisualObject.html">MR::VisualObject</a></code>.  <br /></td></tr>
+<tr class="separator:ace3ba09a698cad543fda5b887bf33c97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ed34b4a4cdcfcb28ca25d5e79aebe6a" id="r_a2ed34b4a4cdcfcb28ca25d5e79aebe6a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ed34b4a4cdcfcb28ca25d5e79aebe6a">MR_CylinderObject_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *_other)</td></tr>
+<tr class="separator:a2ed34b4a4cdcfcb28ca25d5e79aebe6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f587936585ab8be34a5bf65abbe0b3b" id="r_a5f587936585ab8be34a5bf65abbe0b3b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f587936585ab8be34a5bf65abbe0b3b">MR_CylinderObject_Construct</a> (const <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *pointsToApprox)</td></tr>
+<tr class="separator:a5f587936585ab8be34a5bf65abbe0b3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22bb20c3347d4a9e4706505aca4a8102" id="r_a22bb20c3347d4a9e4706505aca4a8102"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a22bb20c3347d4a9e4706505aca4a8102">MR_CylinderObject_Destroy</a> (const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *_this)</td></tr>
+<tr class="memdesc:a22bb20c3347d4a9e4706505aca4a8102"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_CylinderObject</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a22bb20c3347d4a9e4706505aca4a8102"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd92c0e1c92ac1a179c5bf24e4b4a5e9" id="r_afd92c0e1c92ac1a179c5bf24e4b4a5e9"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd92c0e1c92ac1a179c5bf24e4b4a5e9">MR_CylinderObject_DestroyArray</a> (const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *_this)</td></tr>
+<tr class="memdesc:afd92c0e1c92ac1a179c5bf24e4b4a5e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_CylinderObject</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:afd92c0e1c92ac1a179c5bf24e4b4a5e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a103ab74d245fc788169e9c407e8f493c" id="r_a103ab74d245fc788169e9c407e8f493c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a103ab74d245fc788169e9c407e8f493c">MR_CylinderObject_AssignFromAnother</a> (<a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *_other)</td></tr>
+<tr class="separator:a103ab74d245fc788169e9c407e8f493c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1be0cf301d23ca6f339bd25310aafd4f" id="r_a1be0cf301d23ca6f339bd25310aafd4f"><td class="memItemLeft" align="right" valign="top">MRC_API const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1be0cf301d23ca6f339bd25310aafd4f">MR_CylinderObject_TypeName</a> (void)</td></tr>
+<tr class="memdesc:a1be0cf301d23ca6f339bd25310aafd4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1CylinderObject.html">MR::CylinderObject</a></code> named <code>TypeName</code>.  <br /></td></tr>
+<tr class="separator:a1be0cf301d23ca6f339bd25310aafd4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09915c4a0cbd58871139f9046acf3252" id="r_a09915c4a0cbd58871139f9046acf3252"><td class="memItemLeft" align="right" valign="top">MRC_API const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09915c4a0cbd58871139f9046acf3252">MR_CylinderObject_typeName</a> (const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *_this)</td></tr>
+<tr class="separator:a09915c4a0cbd58871139f9046acf3252"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62b487e3d965444bfaad470f4490ab4a" id="r_a62b487e3d965444bfaad470f4490ab4a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a62b487e3d965444bfaad470f4490ab4a">MR_CylinderObject_getClassName</a> (const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *_this)</td></tr>
+<tr class="separator:a62b487e3d965444bfaad470f4490ab4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a617cc550548103f266b5ea7d32e6ce2a" id="r_a617cc550548103f266b5ea7d32e6ce2a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a617cc550548103f266b5ea7d32e6ce2a">MR_CylinderObject_getClassNameInPlural</a> (const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *_this)</td></tr>
+<tr class="separator:a617cc550548103f266b5ea7d32e6ce2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0842f66a4d7da75b66488a22ad4cd31" id="r_ae0842f66a4d7da75b66488a22ad4cd31"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae0842f66a4d7da75b66488a22ad4cd31">MR_CylinderObject_clone</a> (const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *_this)</td></tr>
+<tr class="separator:ae0842f66a4d7da75b66488a22ad4cd31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c70bd76951da2b60d473c06bd8e5521" id="r_a5c70bd76951da2b60d473c06bd8e5521"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c70bd76951da2b60d473c06bd8e5521">MR_CylinderObject_shallowClone</a> (const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *_this)</td></tr>
+<tr class="separator:a5c70bd76951da2b60d473c06bd8e5521"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8119f8ac75b1116663afae05c2069386" id="r_a8119f8ac75b1116663afae05c2069386"><td class="memItemLeft" align="right" valign="top">MRC_API float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8119f8ac75b1116663afae05c2069386">MR_CylinderObject_getRadius</a> (const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *_this, const <a class="el" href="structMR__ViewportId.html">MR_ViewportId</a> *id)</td></tr>
+<tr class="separator:a8119f8ac75b1116663afae05c2069386"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87738ed52efad06e804efedbd9f56df4" id="r_a87738ed52efad06e804efedbd9f56df4"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a87738ed52efad06e804efedbd9f56df4">MR_CylinderObject_getCenter</a> (const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *_this, const <a class="el" href="structMR__ViewportId.html">MR_ViewportId</a> *id)</td></tr>
+<tr class="separator:a87738ed52efad06e804efedbd9f56df4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a794ae43f88cb0c4d0829b40ce4c62cf8" id="r_a794ae43f88cb0c4d0829b40ce4c62cf8"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a794ae43f88cb0c4d0829b40ce4c62cf8">MR_CylinderObject_setRadius</a> (<a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *_this, float radius, const <a class="el" href="structMR__ViewportId.html">MR_ViewportId</a> *id)</td></tr>
+<tr class="separator:a794ae43f88cb0c4d0829b40ce4c62cf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a152816f739ea0e389da1b1b2e0e9ee71" id="r_a152816f739ea0e389da1b1b2e0e9ee71"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a152816f739ea0e389da1b1b2e0e9ee71">MR_CylinderObject_setCenter</a> (<a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *_this, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *center, const <a class="el" href="structMR__ViewportId.html">MR_ViewportId</a> *id)</td></tr>
+<tr class="separator:a152816f739ea0e389da1b1b2e0e9ee71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a3eb8a2f7a463318cfc77ce4f0f1944" id="r_a7a3eb8a2f7a463318cfc77ce4f0f1944"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a3eb8a2f7a463318cfc77ce4f0f1944">MR_CylinderObject_getDirection</a> (const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *_this, const <a class="el" href="structMR__ViewportId.html">MR_ViewportId</a> *id)</td></tr>
+<tr class="separator:a7a3eb8a2f7a463318cfc77ce4f0f1944"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07d6600864ea06eb3314176a7fc8efd6" id="r_a07d6600864ea06eb3314176a7fc8efd6"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a07d6600864ea06eb3314176a7fc8efd6">MR_CylinderObject_setDirection</a> (<a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *_this, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *normal, const <a class="el" href="structMR__ViewportId.html">MR_ViewportId</a> *id)</td></tr>
+<tr class="separator:a07d6600864ea06eb3314176a7fc8efd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89019b300b3d16baabcc6833e7554bc6" id="r_a89019b300b3d16baabcc6833e7554bc6"><td class="memItemLeft" align="right" valign="top">MRC_API float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a89019b300b3d16baabcc6833e7554bc6">MR_CylinderObject_getLength</a> (const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *_this, const <a class="el" href="structMR__ViewportId.html">MR_ViewportId</a> *id)</td></tr>
+<tr class="separator:a89019b300b3d16baabcc6833e7554bc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ec8f9737c08c576a98549f4d5b72258" id="r_a9ec8f9737c08c576a98549f4d5b72258"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ec8f9737c08c576a98549f4d5b72258">MR_CylinderObject_setLength</a> (<a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *_this, float <a class="elRef" href="../Cpp/MRObjectDimensionsEnum_8h.html#af9d495c1655d813d553030485d00fea7">length</a>, const <a class="el" href="structMR__ViewportId.html">MR_ViewportId</a> *id)</td></tr>
+<tr class="separator:a9ec8f9737c08c576a98549f4d5b72258"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afea06aeb9a701ed2c5c17a67d5249ebb" id="r_afea06aeb9a701ed2c5c17a67d5249ebb"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afea06aeb9a701ed2c5c17a67d5249ebb">MR_CylinderObject_getBasePoint</a> (const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *_this, const <a class="el" href="structMR__ViewportId.html">MR_ViewportId</a> *id)</td></tr>
+<tr class="separator:afea06aeb9a701ed2c5c17a67d5249ebb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf13ebc4b6d93e63ae2bf4ec1e898c1d" id="r_adf13ebc4b6d93e63ae2bf4ec1e898c1d"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRCircleObject_8h.html#a2957a5feb78e9a6b527f0725f45a01a1">MR_std_vector_MR_FeatureObjectSharedProperty</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf13ebc4b6d93e63ae2bf4ec1e898c1d">MR_CylinderObject_getAllSharedProperties</a> (const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *_this)</td></tr>
+<tr class="separator:adf13ebc4b6d93e63ae2bf4ec1e898c1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7defa23f98364c33f981390accb17b41" id="r_a7defa23f98364c33f981390accb17b41"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCircleObject_8h.html#af9fa34609dfd430727cb347f86a5f28f">MR_FeatureObjectProjectPointResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7defa23f98364c33f981390accb17b41">MR_CylinderObject_projectPoint</a> (const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *_this, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *point, const <a class="el" href="structMR__ViewportId.html">MR_ViewportId</a> *id)</td></tr>
+<tr class="separator:a7defa23f98364c33f981390accb17b41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="aec928ec9053250e5440a0bd58db3b348" name="aec928ec9053250e5440a0bd58db3b348"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec928ec9053250e5440a0bd58db3b348">&#9670;&#160;</a></span>MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_length</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAddVisualPropertiesMixin_8h.html#aec928ec9053250e5440a0bd58db3b348">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_length</a> <a class="el" href="MRAddVisualPropertiesMixin_8h.html#aec928ec9053250e5440a0bd58db3b348">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_length</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aff93746de8efe15fd5fa764838b71e9b" name="aff93746de8efe15fd5fa764838b71e9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff93746de8efe15fd5fa764838b71e9b">&#9670;&#160;</a></span>MR_FeatureObject</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAddVisualPropertiesMixin_8h.html#aff93746de8efe15fd5fa764838b71e9b">MR_FeatureObject</a> <a class="el" href="MRAddVisualPropertiesMixin_8h.html#aff93746de8efe15fd5fa764838b71e9b">MR_FeatureObject</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af9fa34609dfd430727cb347f86a5f28f" name="af9fa34609dfd430727cb347f86a5f28f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9fa34609dfd430727cb347f86a5f28f">&#9670;&#160;</a></span>MR_FeatureObjectProjectPointResult</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRCircleObject_8h.html#af9fa34609dfd430727cb347f86a5f28f">MR_FeatureObjectProjectPointResult</a> <a class="el" href="MRCircleObject_8h.html#af9fa34609dfd430727cb347f86a5f28f">MR_FeatureObjectProjectPointResult</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="accce9c9179cadabc541edda0fc7a2571" name="accce9c9179cadabc541edda0fc7a2571"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#accce9c9179cadabc541edda0fc7a2571">&#9670;&#160;</a></span>MR_Object</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> <a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aecafdb5edbdb31eb13fbab762e3c39bc" name="aecafdb5edbdb31eb13fbab762e3c39bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aecafdb5edbdb31eb13fbab762e3c39bc">&#9670;&#160;</a></span>MR_ObjectChildrenHolder</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAddVisualPropertiesMixin_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a> <a class="el" href="MRAddVisualPropertiesMixin_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9e9b9c2b8a1a0540b204b1b7e6e792f4" name="a9e9b9c2b8a1a0540b204b1b7e6e792f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e9b9c2b8a1a0540b204b1b7e6e792f4">&#9670;&#160;</a></span>MR_std_shared_ptr_MR_Object</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a69dc6868c10c92fb8b8a255b0130d289" name="a69dc6868c10c92fb8b8a255b0130d289"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69dc6868c10c92fb8b8a255b0130d289">&#9670;&#160;</a></span>MR_std_string</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2957a5feb78e9a6b527f0725f45a01a1" name="a2957a5feb78e9a6b527f0725f45a01a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2957a5feb78e9a6b527f0725f45a01a1">&#9670;&#160;</a></span>MR_std_vector_MR_FeatureObjectSharedProperty</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRCircleObject_8h.html#a2957a5feb78e9a6b527f0725f45a01a1">MR_std_vector_MR_FeatureObjectSharedProperty</a> <a class="el" href="MRCircleObject_8h.html#a2957a5feb78e9a6b527f0725f45a01a1">MR_std_vector_MR_FeatureObjectSharedProperty</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aefed148a09a0ae55edbd22814638b462" name="aefed148a09a0ae55edbd22814638b462"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefed148a09a0ae55edbd22814638b462">&#9670;&#160;</a></span>MR_std_vector_MR_Vector3f</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a36f3696eda81d7005927ebc5fdf17e14" name="a36f3696eda81d7005927ebc5fdf17e14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36f3696eda81d7005927ebc5fdf17e14">&#9670;&#160;</a></span>MR_VisualObject</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a> <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a103ab74d245fc788169e9c407e8f493c" name="a103ab74d245fc788169e9c407e8f493c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a103ab74d245fc788169e9c407e8f493c">&#9670;&#160;</a></span>MR_CylinderObject_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> * MR_CylinderObject_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1CylinderObject.html">MR::CylinderObject</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ae0842f66a4d7da75b66488a22ad4cd31" name="ae0842f66a4d7da75b66488a22ad4cd31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0842f66a4d7da75b66488a22ad4cd31">&#9670;&#160;</a></span>MR_CylinderObject_clone()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> * MR_CylinderObject_clone </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1CylinderObject.html">MR::CylinderObject</a></code> named <code>clone</code>. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__shared__ptr__MR__Object_8h.html#ac4d53a470c9103f8ebd58aa32856108e" title="Destroys a heap-allocated instance of MR_std_shared_ptr_MR_Object. Does nothing if the pointer is nul...">MR_std_shared_ptr_MR_Object_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a5f587936585ab8be34a5bf65abbe0b3b" name="a5f587936585ab8be34a5bf65abbe0b3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f587936585ab8be34a5bf65abbe0b3b">&#9670;&#160;</a></span>MR_CylinderObject_Construct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> * MR_CylinderObject_Construct </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>pointsToApprox</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Finds best Cylinder to approx given points Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1CylinderObject.html">MR::CylinderObject</a></code>. Parameter <code>pointsToApprox</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a22bb20c3347d4a9e4706505aca4a8102" title="Destroys a heap-allocated instance of MR_CylinderObject. Does nothing if the pointer is null.">MR_CylinderObject_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a2ed34b4a4cdcfcb28ca25d5e79aebe6a" name="a2ed34b4a4cdcfcb28ca25d5e79aebe6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ed34b4a4cdcfcb28ca25d5e79aebe6a">&#9670;&#160;</a></span>MR_CylinderObject_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> * MR_CylinderObject_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1CylinderObject.html">MR::CylinderObject</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a22bb20c3347d4a9e4706505aca4a8102" title="Destroys a heap-allocated instance of MR_CylinderObject. Does nothing if the pointer is null.">MR_CylinderObject_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a03fa1648f4640596dc6f5c6363c21335" name="a03fa1648f4640596dc6f5c6363c21335"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03fa1648f4640596dc6f5c6363c21335">&#9670;&#160;</a></span>MR_CylinderObject_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> * MR_CylinderObject_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a22bb20c3347d4a9e4706505aca4a8102" title="Destroys a heap-allocated instance of MR_CylinderObject. Does nothing if the pointer is null.">MR_CylinderObject_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ade37e983b306d83588e418b488661af6" name="ade37e983b306d83588e418b488661af6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade37e983b306d83588e418b488661af6">&#9670;&#160;</a></span>MR_CylinderObject_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> * MR_CylinderObject_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#afd92c0e1c92ac1a179c5bf24e4b4a5e9" title="Destroys a heap-allocated array of MR_CylinderObject. Does nothing if the pointer is null.">MR_CylinderObject_DestroyArray()</a></code>. Use <code><a class="el" href="#ad7966f124725dd3ec493c7cc84e0bc65" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_CylinderObject_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a2b93973d6a5c997dc75676aaf18be26b" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_CylinderObject_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a22bb20c3347d4a9e4706505aca4a8102" name="a22bb20c3347d4a9e4706505aca4a8102"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22bb20c3347d4a9e4706505aca4a8102">&#9670;&#160;</a></span>MR_CylinderObject_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_CylinderObject_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_CylinderObject</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="afd92c0e1c92ac1a179c5bf24e4b4a5e9" name="afd92c0e1c92ac1a179c5bf24e4b4a5e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd92c0e1c92ac1a179c5bf24e4b4a5e9">&#9670;&#160;</a></span>MR_CylinderObject_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_CylinderObject_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_CylinderObject</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="adf13ebc4b6d93e63ae2bf4ec1e898c1d" name="adf13ebc4b6d93e63ae2bf4ec1e898c1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf13ebc4b6d93e63ae2bf4ec1e898c1d">&#9670;&#160;</a></span>MR_CylinderObject_getAllSharedProperties()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRCircleObject_8h.html#a2957a5feb78e9a6b527f0725f45a01a1">MR_std_vector_MR_FeatureObjectSharedProperty</a> * MR_CylinderObject_getAllSharedProperties </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1CylinderObject.html">MR::CylinderObject</a></code> named <code>getAllSharedProperties</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="afea06aeb9a701ed2c5c17a67d5249ebb" name="afea06aeb9a701ed2c5c17a67d5249ebb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afea06aeb9a701ed2c5c17a67d5249ebb">&#9670;&#160;</a></span>MR_CylinderObject_getBasePoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> MR_CylinderObject_getBasePoint </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__ViewportId.html">MR_ViewportId</a> *</td>          <td class="paramname"><span class="paramname"><em>id</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1CylinderObject.html">MR::CylinderObject</a></code> named <code>getBasePoint</code>. Parameter <code>_this</code> can not be null. Parameter <code>id</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </p>
+
+</div>
+</div>
+<a id="a87738ed52efad06e804efedbd9f56df4" name="a87738ed52efad06e804efedbd9f56df4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87738ed52efad06e804efedbd9f56df4">&#9670;&#160;</a></span>MR_CylinderObject_getCenter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> MR_CylinderObject_getCenter </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__ViewportId.html">MR_ViewportId</a> *</td>          <td class="paramname"><span class="paramname"><em>id</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>calculates center from xf Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1CylinderObject.html">MR::CylinderObject</a></code> named <code>getCenter</code>. Parameter <code>_this</code> can not be null. Parameter <code>id</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </p>
+
+</div>
+</div>
+<a id="a62b487e3d965444bfaad470f4490ab4a" name="a62b487e3d965444bfaad470f4490ab4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62b487e3d965444bfaad470f4490ab4a">&#9670;&#160;</a></span>MR_CylinderObject_getClassName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_CylinderObject_getClassName </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1CylinderObject.html">MR::CylinderObject</a></code> named <code>getClassName</code>. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__string_8h.html#a9ffa0a79c0c1ac50a81c8dfdf2fd5d91" title="Destroys a heap-allocated instance of MR_std_string. Does nothing if the pointer is null.">MR_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a617cc550548103f266b5ea7d32e6ce2a" name="a617cc550548103f266b5ea7d32e6ce2a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a617cc550548103f266b5ea7d32e6ce2a">&#9670;&#160;</a></span>MR_CylinderObject_getClassNameInPlural()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_CylinderObject_getClassNameInPlural </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1CylinderObject.html">MR::CylinderObject</a></code> named <code>getClassNameInPlural</code>. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__string_8h.html#a9ffa0a79c0c1ac50a81c8dfdf2fd5d91" title="Destroys a heap-allocated instance of MR_std_string. Does nothing if the pointer is null.">MR_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a7a3eb8a2f7a463318cfc77ce4f0f1944" name="a7a3eb8a2f7a463318cfc77ce4f0f1944"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a3eb8a2f7a463318cfc77ce4f0f1944">&#9670;&#160;</a></span>MR_CylinderObject_getDirection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> MR_CylinderObject_getDirection </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__ViewportId.html">MR_ViewportId</a> *</td>          <td class="paramname"><span class="paramname"><em>id</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>calculates main axis direction from xf Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1CylinderObject.html">MR::CylinderObject</a></code> named <code>getDirection</code>. Parameter <code>_this</code> can not be null. Parameter <code>id</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </p>
+
+</div>
+</div>
+<a id="a89019b300b3d16baabcc6833e7554bc6" name="a89019b300b3d16baabcc6833e7554bc6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89019b300b3d16baabcc6833e7554bc6">&#9670;&#160;</a></span>MR_CylinderObject_getLength()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API float MR_CylinderObject_getLength </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__ViewportId.html">MR_ViewportId</a> *</td>          <td class="paramname"><span class="paramname"><em>id</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>calculates cylinder length from xf Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1CylinderObject.html">MR::CylinderObject</a></code> named <code>getLength</code>. Parameter <code>_this</code> can not be null. Parameter <code>id</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </p>
+
+</div>
+</div>
+<a id="a8119f8ac75b1116663afae05c2069386" name="a8119f8ac75b1116663afae05c2069386"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8119f8ac75b1116663afae05c2069386">&#9670;&#160;</a></span>MR_CylinderObject_getRadius()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API float MR_CylinderObject_getRadius </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__ViewportId.html">MR_ViewportId</a> *</td>          <td class="paramname"><span class="paramname"><em>id</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>calculates radius from xf Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1CylinderObject.html">MR::CylinderObject</a></code> named <code>getRadius</code>. Parameter <code>_this</code> can not be null. Parameter <code>id</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </p>
+
+</div>
+</div>
+<a id="ac21e3cad8651f7ee694eb3438e91db02" name="ac21e3cad8651f7ee694eb3438e91db02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac21e3cad8651f7ee694eb3438e91db02">&#9670;&#160;</a></span>MR_CylinderObject_MutableUpcastTo_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_length()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAddVisualPropertiesMixin_8h.html#aec928ec9053250e5440a0bd58db3b348">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_length</a> * MR_CylinderObject_MutableUpcastTo_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_length </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1CylinderObject.html">MR::CylinderObject</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1AddVisualProperties.html">MR::AddVisualProperties</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1FeatureObject.html">MR::FeatureObject</a>, MR::DimensionsVisualizePropertyType::diameter, MR::DimensionsVisualizePropertyType::length&gt;</code>. </p>
+
+</div>
+</div>
+<a id="afa5c4d19beaf055fb845a44969b0e40d" name="afa5c4d19beaf055fb845a44969b0e40d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa5c4d19beaf055fb845a44969b0e40d">&#9670;&#160;</a></span>MR_CylinderObject_MutableUpcastTo_MR_FeatureObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAddVisualPropertiesMixin_8h.html#aff93746de8efe15fd5fa764838b71e9b">MR_FeatureObject</a> * MR_CylinderObject_MutableUpcastTo_MR_FeatureObject </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1CylinderObject.html">MR::CylinderObject</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1FeatureObject.html">MR::FeatureObject</a></code>. </p>
+
+</div>
+</div>
+<a id="ac42f971db3ab694ab01c52c72ef4d410" name="ac42f971db3ab694ab01c52c72ef4d410"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac42f971db3ab694ab01c52c72ef4d410">&#9670;&#160;</a></span>MR_CylinderObject_MutableUpcastTo_MR_Object()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> * MR_CylinderObject_MutableUpcastTo_MR_Object </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1CylinderObject.html">MR::CylinderObject</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1Object.html">MR::Object</a></code>. </p>
+
+</div>
+</div>
+<a id="a15fad864a15349651adfcfd4a999c1fb" name="a15fad864a15349651adfcfd4a999c1fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15fad864a15349651adfcfd4a999c1fb">&#9670;&#160;</a></span>MR_CylinderObject_MutableUpcastTo_MR_ObjectChildrenHolder()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAddVisualPropertiesMixin_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a> * MR_CylinderObject_MutableUpcastTo_MR_ObjectChildrenHolder </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1CylinderObject.html">MR::CylinderObject</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectChildrenHolder.html">MR::ObjectChildrenHolder</a></code>. </p>
+
+</div>
+</div>
+<a id="ace3ba09a698cad543fda5b887bf33c97" name="ace3ba09a698cad543fda5b887bf33c97"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace3ba09a698cad543fda5b887bf33c97">&#9670;&#160;</a></span>MR_CylinderObject_MutableUpcastTo_MR_VisualObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a> * MR_CylinderObject_MutableUpcastTo_MR_VisualObject </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1CylinderObject.html">MR::CylinderObject</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1VisualObject.html">MR::VisualObject</a></code>. </p>
+
+</div>
+</div>
+<a id="ad7966f124725dd3ec493c7cc84e0bc65" name="ad7966f124725dd3ec493c7cc84e0bc65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7966f124725dd3ec493c7cc84e0bc65">&#9670;&#160;</a></span>MR_CylinderObject_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> * MR_CylinderObject_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a2b93973d6a5c997dc75676aaf18be26b" name="a2b93973d6a5c997dc75676aaf18be26b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b93973d6a5c997dc75676aaf18be26b">&#9670;&#160;</a></span>MR_CylinderObject_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> * MR_CylinderObject_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a7defa23f98364c33f981390accb17b41" name="a7defa23f98364c33f981390accb17b41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7defa23f98364c33f981390accb17b41">&#9670;&#160;</a></span>MR_CylinderObject_projectPoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRCircleObject_8h.html#af9fa34609dfd430727cb347f86a5f28f">MR_FeatureObjectProjectPointResult</a> * MR_CylinderObject_projectPoint </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>point</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__ViewportId.html">MR_ViewportId</a> *</td>          <td class="paramname"><span class="paramname"><em>id</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1CylinderObject.html">MR::CylinderObject</a></code> named <code>projectPoint</code>. Parameter <code>_this</code> can not be null. Parameter <code>point</code> can not be null. Parameter <code>id</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRFeatureObject_8h.html#ae02b3d30126653a9d878acbc68fd4e44" title="Destroys a heap-allocated instance of MR_FeatureObjectProjectPointResult. Does nothing if the pointer...">MR_FeatureObjectProjectPointResult_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a152816f739ea0e389da1b1b2e0e9ee71" name="a152816f739ea0e389da1b1b2e0e9ee71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a152816f739ea0e389da1b1b2e0e9ee71">&#9670;&#160;</a></span>MR_CylinderObject_setCenter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_CylinderObject_setCenter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>center</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__ViewportId.html">MR_ViewportId</a> *</td>          <td class="paramname"><span class="paramname"><em>id</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>updates xf to fit given center Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1CylinderObject.html">MR::CylinderObject</a></code> named <code>setCenter</code>. Parameter <code>_this</code> can not be null. Parameter <code>center</code> can not be null. Parameter <code>id</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </p>
+
+</div>
+</div>
+<a id="a07d6600864ea06eb3314176a7fc8efd6" name="a07d6600864ea06eb3314176a7fc8efd6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07d6600864ea06eb3314176a7fc8efd6">&#9670;&#160;</a></span>MR_CylinderObject_setDirection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_CylinderObject_setDirection </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>normal</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__ViewportId.html">MR_ViewportId</a> *</td>          <td class="paramname"><span class="paramname"><em>id</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>updates xf to fit main axis Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1CylinderObject.html">MR::CylinderObject</a></code> named <code>setDirection</code>. Parameter <code>_this</code> can not be null. Parameter <code>normal</code> can not be null. Parameter <code>id</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </p>
+
+</div>
+</div>
+<a id="a9ec8f9737c08c576a98549f4d5b72258" name="a9ec8f9737c08c576a98549f4d5b72258"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ec8f9737c08c576a98549f4d5b72258">&#9670;&#160;</a></span>MR_CylinderObject_setLength()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_CylinderObject_setLength </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>length</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__ViewportId.html">MR_ViewportId</a> *</td>          <td class="paramname"><span class="paramname"><em>id</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>updates xf to fit cylinder length Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1CylinderObject.html">MR::CylinderObject</a></code> named <code>setLength</code>. Parameter <code>_this</code> can not be null. Parameter <code>id</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </p>
+
+</div>
+</div>
+<a id="a794ae43f88cb0c4d0829b40ce4c62cf8" name="a794ae43f88cb0c4d0829b40ce4c62cf8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a794ae43f88cb0c4d0829b40ce4c62cf8">&#9670;&#160;</a></span>MR_CylinderObject_setRadius()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_CylinderObject_setRadius </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>radius</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__ViewportId.html">MR_ViewportId</a> *</td>          <td class="paramname"><span class="paramname"><em>id</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>updates xf to fit given radius Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1CylinderObject.html">MR::CylinderObject</a></code> named <code>setRadius</code>. Parameter <code>_this</code> can not be null. Parameter <code>id</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </p>
+
+</div>
+</div>
+<a id="a5c70bd76951da2b60d473c06bd8e5521" name="a5c70bd76951da2b60d473c06bd8e5521"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c70bd76951da2b60d473c06bd8e5521">&#9670;&#160;</a></span>MR_CylinderObject_shallowClone()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> * MR_CylinderObject_shallowClone </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1CylinderObject.html">MR::CylinderObject</a></code> named <code>shallowClone</code>. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__shared__ptr__MR__Object_8h.html#ac4d53a470c9103f8ebd58aa32856108e" title="Destroys a heap-allocated instance of MR_std_shared_ptr_MR_Object. Does nothing if the pointer is nul...">MR_std_shared_ptr_MR_Object_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a1be0cf301d23ca6f339bd25310aafd4f" name="a1be0cf301d23ca6f339bd25310aafd4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1be0cf301d23ca6f339bd25310aafd4f">&#9670;&#160;</a></span>MR_CylinderObject_TypeName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const char * MR_CylinderObject_TypeName </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1CylinderObject.html">MR::CylinderObject</a></code> named <code>TypeName</code>. </p>
+
+</div>
+</div>
+<a id="a09915c4a0cbd58871139f9046acf3252" name="a09915c4a0cbd58871139f9046acf3252"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09915c4a0cbd58871139f9046acf3252">&#9670;&#160;</a></span>MR_CylinderObject_typeName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const char * MR_CylinderObject_typeName </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1CylinderObject.html">MR::CylinderObject</a></code> named <code>typeName</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ad41b5fa4e2296bd76917675de036adf6" name="ad41b5fa4e2296bd76917675de036adf6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad41b5fa4e2296bd76917675de036adf6">&#9670;&#160;</a></span>MR_CylinderObject_UpcastTo_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_length()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#aec928ec9053250e5440a0bd58db3b348">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_length</a> * MR_CylinderObject_UpcastTo_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_length </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1CylinderObject.html">MR::CylinderObject</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1AddVisualProperties.html">MR::AddVisualProperties</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1FeatureObject.html">MR::FeatureObject</a>, MR::DimensionsVisualizePropertyType::diameter, MR::DimensionsVisualizePropertyType::length&gt;</code>. This version is acting on mutable pointers. </p>
+
+</div>
+</div>
+<a id="ac0dc2c693208159699859b6c846da938" name="ac0dc2c693208159699859b6c846da938"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0dc2c693208159699859b6c846da938">&#9670;&#160;</a></span>MR_CylinderObject_UpcastTo_MR_FeatureObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#aff93746de8efe15fd5fa764838b71e9b">MR_FeatureObject</a> * MR_CylinderObject_UpcastTo_MR_FeatureObject </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1CylinderObject.html">MR::CylinderObject</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1FeatureObject.html">MR::FeatureObject</a></code>. This version is acting on mutable pointers. </p>
+
+</div>
+</div>
+<a id="a2e9035e3a1c2d55b5c0cb5f13bc46408" name="a2e9035e3a1c2d55b5c0cb5f13bc46408"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e9035e3a1c2d55b5c0cb5f13bc46408">&#9670;&#160;</a></span>MR_CylinderObject_UpcastTo_MR_Object()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> * MR_CylinderObject_UpcastTo_MR_Object </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1CylinderObject.html">MR::CylinderObject</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1Object.html">MR::Object</a></code>. This version is acting on mutable pointers. </p>
+
+</div>
+</div>
+<a id="ae686fb8c8a264e707b51b7a5e62b05b9" name="ae686fb8c8a264e707b51b7a5e62b05b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae686fb8c8a264e707b51b7a5e62b05b9">&#9670;&#160;</a></span>MR_CylinderObject_UpcastTo_MR_ObjectChildrenHolder()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a> * MR_CylinderObject_UpcastTo_MR_ObjectChildrenHolder </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1CylinderObject.html">MR::CylinderObject</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectChildrenHolder.html">MR::ObjectChildrenHolder</a></code>. This version is acting on mutable pointers. </p>
+
+</div>
+</div>
+<a id="aa3f65a193f6ccc0e5dae77603b95f4c0" name="aa3f65a193f6ccc0e5dae77603b95f4c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3f65a193f6ccc0e5dae77603b95f4c0">&#9670;&#160;</a></span>MR_CylinderObject_UpcastTo_MR_VisualObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a> * MR_CylinderObject_UpcastTo_MR_VisualObject </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a01e7c260afa54426440fd3f81b13e76e">MR_CylinderObject</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1CylinderObject.html">MR::CylinderObject</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1VisualObject.html">MR::VisualObject</a></code>. This version is acting on mutable pointers. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_87d38852fc01aff5f853718c8d8b5cb2.html">Cbindings</a></li><li class="navelem"><a class="el" href="dir_cb83f9b98dc6f67356ff76bcc17f4f67.html">MRCMesh</a></li><li class="navelem"><a class="el" href="MRCylinderObject_8h.html">MRCylinderObject.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

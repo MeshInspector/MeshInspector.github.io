@@ -1,5 +1,6 @@
 var NAVTREEINDEX57 =
 {
+"classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1LutType.html#a98efd4e491180b7a27318eb85fd8f98e":[6,1,1,0,1,583,0,1,0],
 "classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1LutType.html#ab680184187f1d10326747871dc4a407c":[6,1,0,0,2,583,0,1,7],
 "classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1LutType.html#ab680184187f1d10326747871dc4a407c":[6,1,1,0,1,583,0,1,7],
 "classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1LutType.html#ad276dfd54e0f11abfd290f3b3378aa0a":[6,1,0,0,2,583,0,1,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX57 =
 "classmrmeshpy_1_1OneMeshContour.html#af74823f44272f9ac1b1af1c896786a30":[6,1,1,0,1,601,0],
 "classmrmeshpy_1_1OneMeshIntersection.html":[6,1,0,0,2,602],
 "classmrmeshpy_1_1OneMeshIntersection.html":[6,1,1,0,1,602],
-"classmrmeshpy_1_1OneMeshIntersection.html#a8da33f7635ccb7e951d2997e88edb041":[6,1,0,0,2,602,1],
-"classmrmeshpy_1_1OneMeshIntersection.html#a8da33f7635ccb7e951d2997e88edb041":[6,1,1,0,1,602,1]
+"classmrmeshpy_1_1OneMeshIntersection.html#a8da33f7635ccb7e951d2997e88edb041":[6,1,0,0,2,602,1]
 };

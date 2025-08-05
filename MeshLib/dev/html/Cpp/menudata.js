@@ -440,5 +440,6 @@ var menudata={children:[
 {text:"s",url:"globals_defs.html#index_s"},
 {text:"t",url:"globals_defs.html#index_t"},
 {text:"v",url:"globals_defs.html#index_v"}]}]}]}]},
-{text:"Python",url:"../Py/APIPyPage.html"}]},
+{text:"Python",url:"../Py/APIPyPage.html"},
+{text:"C",url:"../C/APICPage.html"}]},
 {text:"Third-Party Dependencies",url:"../ThirdParty.html"}]}

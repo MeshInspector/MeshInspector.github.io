@@ -1,5 +1,6 @@
 var NAVTREEINDEX28 =
 {
+"classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Features__Primitives__Plane__Features__Primitives__ConeSegment.html#a3630e41bb0d364af0118f14812f617c9":[6,1,0,0,2,249,3,2,1],
 "classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Features__Primitives__Plane__Features__Primitives__ConeSegment.html#a3630e41bb0d364af0118f14812f617c9":[6,1,1,0,1,249,3,2,0],
 "classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Features__Primitives__Plane__Features__Primitives__ConeSegment.html#a3630e41bb0d364af0118f14812f617c9":[6,1,1,0,1,249,3,2,1],
 "classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Features__Primitives__Plane__Features__Primitives__ConeSegment.html#a64c15078d8acf366c4f9864f59ef12c5":[6,1,0,0,2,249,3,2,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX28 =
 "classmrmeshpy_1_1FilterType.html#a6de9688b9c9a1db644983f488cc48d4f":[6,1,1,0,1,257,4],
 "classmrmeshpy_1_1FilterType.html#a9506265edc0716e4a82d3b9187f096a9":[6,1,0,0,2,257,5],
 "classmrmeshpy_1_1FilterType.html#a9506265edc0716e4a82d3b9187f096a9":[6,1,1,0,1,257,5],
-"classmrmeshpy_1_1FilterType.html#a9c1c5ae85d5c29a28a7ac95d3bfa7593":[6,1,0,0,2,257,7],
-"classmrmeshpy_1_1FilterType.html#a9c1c5ae85d5c29a28a7ac95d3bfa7593":[6,1,1,0,1,257,7]
+"classmrmeshpy_1_1FilterType.html#a9c1c5ae85d5c29a28a7ac95d3bfa7593":[6,1,0,0,2,257,7]
 };

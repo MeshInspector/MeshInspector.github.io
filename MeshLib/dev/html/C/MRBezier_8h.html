@@ -1,0 +1,1481 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: MRBezier.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('MRBezier_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">MRBezier.h File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="MRVector2_8h_source.html">MRCMesh/MRVector2.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="MRVector3_8h_source.html">MRCMesh/MRVector3.h</a>&gt;</code><br />
+<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="std__array__double__4_8h_source.html">MRCMisc/std_array_double_4.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="std__array__float__4_8h_source.html">MRCMisc/std_array_float_4.h</a>&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
+<code>#include &lt;stdint.h&gt;</code><br />
+</div>
+<p><a href="MRBezier_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a748c94b3b56fa47109e29eb582aeedf9" id="r_a748c94b3b56fa47109e29eb582aeedf9"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a748c94b3b56fa47109e29eb582aeedf9">MR_CubicBezierCurve2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a748c94b3b56fa47109e29eb582aeedf9">MR_CubicBezierCurve2f</a></td></tr>
+<tr class="separator:a748c94b3b56fa47109e29eb582aeedf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3c2ec3e923df312a3b4e23142bd10a4" id="r_ac3c2ec3e923df312a3b4e23142bd10a4"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ac3c2ec3e923df312a3b4e23142bd10a4">MR_CubicBezierCurve2d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3c2ec3e923df312a3b4e23142bd10a4">MR_CubicBezierCurve2d</a></td></tr>
+<tr class="separator:ac3c2ec3e923df312a3b4e23142bd10a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46982165a17fc380e86ae49bf5cd5e2b" id="r_a46982165a17fc380e86ae49bf5cd5e2b"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a46982165a17fc380e86ae49bf5cd5e2b">MR_CubicBezierCurve3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46982165a17fc380e86ae49bf5cd5e2b">MR_CubicBezierCurve3f</a></td></tr>
+<tr class="separator:a46982165a17fc380e86ae49bf5cd5e2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76ff148784ee6506f11815bd0141b9bb" id="r_a76ff148784ee6506f11815bd0141b9bb"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a76ff148784ee6506f11815bd0141b9bb">MR_CubicBezierCurve3d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a76ff148784ee6506f11815bd0141b9bb">MR_CubicBezierCurve3d</a></td></tr>
+<tr class="separator:a76ff148784ee6506f11815bd0141b9bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a6318f707bc2ea0433290c64654a7a74c" id="r_a6318f707bc2ea0433290c64654a7a74c"><td class="memItemLeft" align="right" valign="top">MRC_API const int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6318f707bc2ea0433290c64654a7a74c">MR_CubicBezierCurve2f_Get_elements</a> (void)</td></tr>
+<tr class="separator:a6318f707bc2ea0433290c64654a7a74c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4c0eac06bda36fdeb903bd9f2ed6d6c" id="r_ad4c0eac06bda36fdeb903bd9f2ed6d6c"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__Vector2f.html">MR_Vector2f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4c0eac06bda36fdeb903bd9f2ed6d6c">MR_CubicBezierCurve2f_Get_p</a> (const <a class="el" href="#a748c94b3b56fa47109e29eb582aeedf9">MR_CubicBezierCurve2f</a> *_this)</td></tr>
+<tr class="separator:ad4c0eac06bda36fdeb903bd9f2ed6d6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85de9b94e3f95a254ab93cae2debb2a5" id="r_a85de9b94e3f95a254ab93cae2debb2a5"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector2f.html">MR_Vector2f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a85de9b94e3f95a254ab93cae2debb2a5">MR_CubicBezierCurve2f_GetMutable_p</a> (<a class="el" href="#a748c94b3b56fa47109e29eb582aeedf9">MR_CubicBezierCurve2f</a> *_this)</td></tr>
+<tr class="separator:a85de9b94e3f95a254ab93cae2debb2a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5275e5e5fa7725ad4162476faa52ebf" id="r_aa5275e5e5fa7725ad4162476faa52ebf"><td class="memItemLeft" align="right" valign="top">MRC_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa5275e5e5fa7725ad4162476faa52ebf">MR_CubicBezierCurve2f_GetSize_p</a> (void)</td></tr>
+<tr class="memdesc:aa5275e5e5fa7725ad4162476faa52ebf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the size of the array member of class <code>MR::CubicBezierCurve2f</code> named <code>p</code>. The size is <code>4</code>.  <br /></td></tr>
+<tr class="separator:aa5275e5e5fa7725ad4162476faa52ebf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f6030cf2ca07a60e9ac87ea98ec0ec8" id="r_a1f6030cf2ca07a60e9ac87ea98ec0ec8"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a748c94b3b56fa47109e29eb582aeedf9">MR_CubicBezierCurve2f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f6030cf2ca07a60e9ac87ea98ec0ec8">MR_CubicBezierCurve2f_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a1f6030cf2ca07a60e9ac87ea98ec0ec8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32bac8cc950ea1f0f9722ea7775a3766" id="r_a32bac8cc950ea1f0f9722ea7775a3766"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a748c94b3b56fa47109e29eb582aeedf9">MR_CubicBezierCurve2f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a32bac8cc950ea1f0f9722ea7775a3766">MR_CubicBezierCurve2f_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a32bac8cc950ea1f0f9722ea7775a3766"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe3286f3893adc7d6179b6a001e8dd58" id="r_afe3286f3893adc7d6179b6a001e8dd58"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a748c94b3b56fa47109e29eb582aeedf9">MR_CubicBezierCurve2f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe3286f3893adc7d6179b6a001e8dd58">MR_CubicBezierCurve2f_OffsetPtr</a> (const <a class="el" href="#a748c94b3b56fa47109e29eb582aeedf9">MR_CubicBezierCurve2f</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:afe3286f3893adc7d6179b6a001e8dd58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:afe3286f3893adc7d6179b6a001e8dd58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b2213940d33405493ea2c3e89e22408" id="r_a4b2213940d33405493ea2c3e89e22408"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a748c94b3b56fa47109e29eb582aeedf9">MR_CubicBezierCurve2f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b2213940d33405493ea2c3e89e22408">MR_CubicBezierCurve2f_OffsetMutablePtr</a> (<a class="el" href="#a748c94b3b56fa47109e29eb582aeedf9">MR_CubicBezierCurve2f</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a4b2213940d33405493ea2c3e89e22408"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a4b2213940d33405493ea2c3e89e22408"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33062ef5e904aa852fe0a90423fa3fde" id="r_a33062ef5e904aa852fe0a90423fa3fde"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a748c94b3b56fa47109e29eb582aeedf9">MR_CubicBezierCurve2f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33062ef5e904aa852fe0a90423fa3fde">MR_CubicBezierCurve2f_ConstructFromAnother</a> (const <a class="el" href="#a748c94b3b56fa47109e29eb582aeedf9">MR_CubicBezierCurve2f</a> *_other)</td></tr>
+<tr class="separator:a33062ef5e904aa852fe0a90423fa3fde"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01672567c26ea1b6c8e51a5af86087a7" id="r_a01672567c26ea1b6c8e51a5af86087a7"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01672567c26ea1b6c8e51a5af86087a7">MR_CubicBezierCurve2f_Destroy</a> (const <a class="el" href="#a748c94b3b56fa47109e29eb582aeedf9">MR_CubicBezierCurve2f</a> *_this)</td></tr>
+<tr class="memdesc:a01672567c26ea1b6c8e51a5af86087a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_CubicBezierCurve2f</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a01672567c26ea1b6c8e51a5af86087a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb72deb8ec410ace34243119beb4e161" id="r_abb72deb8ec410ace34243119beb4e161"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abb72deb8ec410ace34243119beb4e161">MR_CubicBezierCurve2f_DestroyArray</a> (const <a class="el" href="#a748c94b3b56fa47109e29eb582aeedf9">MR_CubicBezierCurve2f</a> *_this)</td></tr>
+<tr class="memdesc:abb72deb8ec410ace34243119beb4e161"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_CubicBezierCurve2f</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:abb72deb8ec410ace34243119beb4e161"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a112441e35844bbcd2f0822e5d7856c62" id="r_a112441e35844bbcd2f0822e5d7856c62"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a748c94b3b56fa47109e29eb582aeedf9">MR_CubicBezierCurve2f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a112441e35844bbcd2f0822e5d7856c62">MR_CubicBezierCurve2f_AssignFromAnother</a> (<a class="el" href="#a748c94b3b56fa47109e29eb582aeedf9">MR_CubicBezierCurve2f</a> *_this, const <a class="el" href="#a748c94b3b56fa47109e29eb582aeedf9">MR_CubicBezierCurve2f</a> *_other)</td></tr>
+<tr class="separator:a112441e35844bbcd2f0822e5d7856c62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af66b0981288b67784c9ea4a77c83bdb2" id="r_af66b0981288b67784c9ea4a77c83bdb2"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector2f.html">MR_Vector2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af66b0981288b67784c9ea4a77c83bdb2">MR_CubicBezierCurve2f_getPoint</a> (const <a class="el" href="#a748c94b3b56fa47109e29eb582aeedf9">MR_CubicBezierCurve2f</a> *_this, float t)</td></tr>
+<tr class="separator:af66b0981288b67784c9ea4a77c83bdb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcb685400cfe8907493a104affc99475" id="r_abcb685400cfe8907493a104affc99475"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__std__array__float__4.html">MR_std_array_float_4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abcb685400cfe8907493a104affc99475">MR_CubicBezierCurve2f_getWeights</a> (float t)</td></tr>
+<tr class="separator:abcb685400cfe8907493a104affc99475"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a400105ce66e54d257287fa7c162669fd" id="r_a400105ce66e54d257287fa7c162669fd"><td class="memItemLeft" align="right" valign="top">MRC_API const int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a400105ce66e54d257287fa7c162669fd">MR_CubicBezierCurve2d_Get_elements</a> (void)</td></tr>
+<tr class="separator:a400105ce66e54d257287fa7c162669fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cad5297dc4a340c5882003878be6551" id="r_a4cad5297dc4a340c5882003878be6551"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__Vector2d.html">MR_Vector2d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4cad5297dc4a340c5882003878be6551">MR_CubicBezierCurve2d_Get_p</a> (const <a class="el" href="#ac3c2ec3e923df312a3b4e23142bd10a4">MR_CubicBezierCurve2d</a> *_this)</td></tr>
+<tr class="separator:a4cad5297dc4a340c5882003878be6551"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79f0c404c0455d62e9a7d181e7d00380" id="r_a79f0c404c0455d62e9a7d181e7d00380"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector2d.html">MR_Vector2d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79f0c404c0455d62e9a7d181e7d00380">MR_CubicBezierCurve2d_GetMutable_p</a> (<a class="el" href="#ac3c2ec3e923df312a3b4e23142bd10a4">MR_CubicBezierCurve2d</a> *_this)</td></tr>
+<tr class="separator:a79f0c404c0455d62e9a7d181e7d00380"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4a10e82e1e3e9681490f58a219dc602" id="r_ac4a10e82e1e3e9681490f58a219dc602"><td class="memItemLeft" align="right" valign="top">MRC_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac4a10e82e1e3e9681490f58a219dc602">MR_CubicBezierCurve2d_GetSize_p</a> (void)</td></tr>
+<tr class="memdesc:ac4a10e82e1e3e9681490f58a219dc602"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the size of the array member of class <code>MR::CubicBezierCurve2d</code> named <code>p</code>. The size is <code>4</code>.  <br /></td></tr>
+<tr class="separator:ac4a10e82e1e3e9681490f58a219dc602"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac97c493a60a27830e006c7a0d2416061" id="r_ac97c493a60a27830e006c7a0d2416061"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ac3c2ec3e923df312a3b4e23142bd10a4">MR_CubicBezierCurve2d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac97c493a60a27830e006c7a0d2416061">MR_CubicBezierCurve2d_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:ac97c493a60a27830e006c7a0d2416061"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa931bde18e42e3fb7d34b4c491a3b09" id="r_afa931bde18e42e3fb7d34b4c491a3b09"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ac3c2ec3e923df312a3b4e23142bd10a4">MR_CubicBezierCurve2d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa931bde18e42e3fb7d34b4c491a3b09">MR_CubicBezierCurve2d_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:afa931bde18e42e3fb7d34b4c491a3b09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae85765834bc0044c009998ea5b013501" id="r_ae85765834bc0044c009998ea5b013501"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#ac3c2ec3e923df312a3b4e23142bd10a4">MR_CubicBezierCurve2d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae85765834bc0044c009998ea5b013501">MR_CubicBezierCurve2d_OffsetPtr</a> (const <a class="el" href="#ac3c2ec3e923df312a3b4e23142bd10a4">MR_CubicBezierCurve2d</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:ae85765834bc0044c009998ea5b013501"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:ae85765834bc0044c009998ea5b013501"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff7835188e7ba3c96a545e08e794ee07" id="r_aff7835188e7ba3c96a545e08e794ee07"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ac3c2ec3e923df312a3b4e23142bd10a4">MR_CubicBezierCurve2d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff7835188e7ba3c96a545e08e794ee07">MR_CubicBezierCurve2d_OffsetMutablePtr</a> (<a class="el" href="#ac3c2ec3e923df312a3b4e23142bd10a4">MR_CubicBezierCurve2d</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:aff7835188e7ba3c96a545e08e794ee07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:aff7835188e7ba3c96a545e08e794ee07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a703c929eb05bb90c778e997f96aad97c" id="r_a703c929eb05bb90c778e997f96aad97c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ac3c2ec3e923df312a3b4e23142bd10a4">MR_CubicBezierCurve2d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a703c929eb05bb90c778e997f96aad97c">MR_CubicBezierCurve2d_ConstructFromAnother</a> (const <a class="el" href="#ac3c2ec3e923df312a3b4e23142bd10a4">MR_CubicBezierCurve2d</a> *_other)</td></tr>
+<tr class="separator:a703c929eb05bb90c778e997f96aad97c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31c16b54f8e94eaccbdc8cbfeaf2f2c0" id="r_a31c16b54f8e94eaccbdc8cbfeaf2f2c0"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a31c16b54f8e94eaccbdc8cbfeaf2f2c0">MR_CubicBezierCurve2d_Destroy</a> (const <a class="el" href="#ac3c2ec3e923df312a3b4e23142bd10a4">MR_CubicBezierCurve2d</a> *_this)</td></tr>
+<tr class="memdesc:a31c16b54f8e94eaccbdc8cbfeaf2f2c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_CubicBezierCurve2d</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a31c16b54f8e94eaccbdc8cbfeaf2f2c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1b5406820df03df1d3ece11578d4442" id="r_ac1b5406820df03df1d3ece11578d4442"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac1b5406820df03df1d3ece11578d4442">MR_CubicBezierCurve2d_DestroyArray</a> (const <a class="el" href="#ac3c2ec3e923df312a3b4e23142bd10a4">MR_CubicBezierCurve2d</a> *_this)</td></tr>
+<tr class="memdesc:ac1b5406820df03df1d3ece11578d4442"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_CubicBezierCurve2d</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ac1b5406820df03df1d3ece11578d4442"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa345082f60847b7c3ad6e429a4cb5c48" id="r_aa345082f60847b7c3ad6e429a4cb5c48"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ac3c2ec3e923df312a3b4e23142bd10a4">MR_CubicBezierCurve2d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa345082f60847b7c3ad6e429a4cb5c48">MR_CubicBezierCurve2d_AssignFromAnother</a> (<a class="el" href="#ac3c2ec3e923df312a3b4e23142bd10a4">MR_CubicBezierCurve2d</a> *_this, const <a class="el" href="#ac3c2ec3e923df312a3b4e23142bd10a4">MR_CubicBezierCurve2d</a> *_other)</td></tr>
+<tr class="separator:aa345082f60847b7c3ad6e429a4cb5c48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62238ff980e7cffcb8e3b2a4dbf2b769" id="r_a62238ff980e7cffcb8e3b2a4dbf2b769"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector2d.html">MR_Vector2d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a62238ff980e7cffcb8e3b2a4dbf2b769">MR_CubicBezierCurve2d_getPoint</a> (const <a class="el" href="#ac3c2ec3e923df312a3b4e23142bd10a4">MR_CubicBezierCurve2d</a> *_this, double t)</td></tr>
+<tr class="separator:a62238ff980e7cffcb8e3b2a4dbf2b769"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac24f9dbbfda75a0213633658d985a57a" id="r_ac24f9dbbfda75a0213633658d985a57a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__std__array__double__4.html">MR_std_array_double_4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac24f9dbbfda75a0213633658d985a57a">MR_CubicBezierCurve2d_getWeights</a> (double t)</td></tr>
+<tr class="separator:ac24f9dbbfda75a0213633658d985a57a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6695d0269b606243b3b440fff2e5177a" id="r_a6695d0269b606243b3b440fff2e5177a"><td class="memItemLeft" align="right" valign="top">MRC_API const int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6695d0269b606243b3b440fff2e5177a">MR_CubicBezierCurve3f_Get_elements</a> (void)</td></tr>
+<tr class="separator:a6695d0269b606243b3b440fff2e5177a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9baaf0d75b4c4741fdfa8d999ccecd71" id="r_a9baaf0d75b4c4741fdfa8d999ccecd71"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9baaf0d75b4c4741fdfa8d999ccecd71">MR_CubicBezierCurve3f_Get_p</a> (const <a class="el" href="#a46982165a17fc380e86ae49bf5cd5e2b">MR_CubicBezierCurve3f</a> *_this)</td></tr>
+<tr class="separator:a9baaf0d75b4c4741fdfa8d999ccecd71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94a1cab3f574cdaecbd5e773bc8e49a0" id="r_a94a1cab3f574cdaecbd5e773bc8e49a0"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94a1cab3f574cdaecbd5e773bc8e49a0">MR_CubicBezierCurve3f_GetMutable_p</a> (<a class="el" href="#a46982165a17fc380e86ae49bf5cd5e2b">MR_CubicBezierCurve3f</a> *_this)</td></tr>
+<tr class="separator:a94a1cab3f574cdaecbd5e773bc8e49a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a697c5b09edd74a7740f3305f9e734e7f" id="r_a697c5b09edd74a7740f3305f9e734e7f"><td class="memItemLeft" align="right" valign="top">MRC_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a697c5b09edd74a7740f3305f9e734e7f">MR_CubicBezierCurve3f_GetSize_p</a> (void)</td></tr>
+<tr class="memdesc:a697c5b09edd74a7740f3305f9e734e7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the size of the array member of class <code>MR::CubicBezierCurve3f</code> named <code>p</code>. The size is <code>4</code>.  <br /></td></tr>
+<tr class="separator:a697c5b09edd74a7740f3305f9e734e7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56529241efc9f1c00f9412b67fe6d579" id="r_a56529241efc9f1c00f9412b67fe6d579"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a46982165a17fc380e86ae49bf5cd5e2b">MR_CubicBezierCurve3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56529241efc9f1c00f9412b67fe6d579">MR_CubicBezierCurve3f_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a56529241efc9f1c00f9412b67fe6d579"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a1097ec7d5a24e735e373f5c8d68b48" id="r_a6a1097ec7d5a24e735e373f5c8d68b48"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a46982165a17fc380e86ae49bf5cd5e2b">MR_CubicBezierCurve3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a1097ec7d5a24e735e373f5c8d68b48">MR_CubicBezierCurve3f_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a6a1097ec7d5a24e735e373f5c8d68b48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b68ed98d4f33984adcd269920aab67b" id="r_a3b68ed98d4f33984adcd269920aab67b"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a46982165a17fc380e86ae49bf5cd5e2b">MR_CubicBezierCurve3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b68ed98d4f33984adcd269920aab67b">MR_CubicBezierCurve3f_OffsetPtr</a> (const <a class="el" href="#a46982165a17fc380e86ae49bf5cd5e2b">MR_CubicBezierCurve3f</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a3b68ed98d4f33984adcd269920aab67b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a3b68ed98d4f33984adcd269920aab67b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51d50641cae6fef3e7e5ef6e6e612f05" id="r_a51d50641cae6fef3e7e5ef6e6e612f05"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a46982165a17fc380e86ae49bf5cd5e2b">MR_CubicBezierCurve3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51d50641cae6fef3e7e5ef6e6e612f05">MR_CubicBezierCurve3f_OffsetMutablePtr</a> (<a class="el" href="#a46982165a17fc380e86ae49bf5cd5e2b">MR_CubicBezierCurve3f</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a51d50641cae6fef3e7e5ef6e6e612f05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a51d50641cae6fef3e7e5ef6e6e612f05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afce96f6938c846585f0c7df0c795bd79" id="r_afce96f6938c846585f0c7df0c795bd79"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a46982165a17fc380e86ae49bf5cd5e2b">MR_CubicBezierCurve3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afce96f6938c846585f0c7df0c795bd79">MR_CubicBezierCurve3f_ConstructFromAnother</a> (const <a class="el" href="#a46982165a17fc380e86ae49bf5cd5e2b">MR_CubicBezierCurve3f</a> *_other)</td></tr>
+<tr class="separator:afce96f6938c846585f0c7df0c795bd79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a043fdd39ae91a3b602aef1c4891729ff" id="r_a043fdd39ae91a3b602aef1c4891729ff"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a043fdd39ae91a3b602aef1c4891729ff">MR_CubicBezierCurve3f_Destroy</a> (const <a class="el" href="#a46982165a17fc380e86ae49bf5cd5e2b">MR_CubicBezierCurve3f</a> *_this)</td></tr>
+<tr class="memdesc:a043fdd39ae91a3b602aef1c4891729ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_CubicBezierCurve3f</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a043fdd39ae91a3b602aef1c4891729ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46002afc8d89ecc60751af189bfc4639" id="r_a46002afc8d89ecc60751af189bfc4639"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46002afc8d89ecc60751af189bfc4639">MR_CubicBezierCurve3f_DestroyArray</a> (const <a class="el" href="#a46982165a17fc380e86ae49bf5cd5e2b">MR_CubicBezierCurve3f</a> *_this)</td></tr>
+<tr class="memdesc:a46002afc8d89ecc60751af189bfc4639"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_CubicBezierCurve3f</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a46002afc8d89ecc60751af189bfc4639"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad897c35896d0a703fc99a68dca4c855b" id="r_ad897c35896d0a703fc99a68dca4c855b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a46982165a17fc380e86ae49bf5cd5e2b">MR_CubicBezierCurve3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad897c35896d0a703fc99a68dca4c855b">MR_CubicBezierCurve3f_AssignFromAnother</a> (<a class="el" href="#a46982165a17fc380e86ae49bf5cd5e2b">MR_CubicBezierCurve3f</a> *_this, const <a class="el" href="#a46982165a17fc380e86ae49bf5cd5e2b">MR_CubicBezierCurve3f</a> *_other)</td></tr>
+<tr class="separator:ad897c35896d0a703fc99a68dca4c855b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa303ff201e4f597d1779d95e25570c8" id="r_aaa303ff201e4f597d1779d95e25570c8"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa303ff201e4f597d1779d95e25570c8">MR_CubicBezierCurve3f_getPoint</a> (const <a class="el" href="#a46982165a17fc380e86ae49bf5cd5e2b">MR_CubicBezierCurve3f</a> *_this, float t)</td></tr>
+<tr class="separator:aaa303ff201e4f597d1779d95e25570c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21045c4e26279b6262c6bf488b3b8b46" id="r_a21045c4e26279b6262c6bf488b3b8b46"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__std__array__float__4.html">MR_std_array_float_4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21045c4e26279b6262c6bf488b3b8b46">MR_CubicBezierCurve3f_getWeights</a> (float t)</td></tr>
+<tr class="separator:a21045c4e26279b6262c6bf488b3b8b46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad82bef720998a34f6dea4f5cd11b313a" id="r_ad82bef720998a34f6dea4f5cd11b313a"><td class="memItemLeft" align="right" valign="top">MRC_API const int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad82bef720998a34f6dea4f5cd11b313a">MR_CubicBezierCurve3d_Get_elements</a> (void)</td></tr>
+<tr class="separator:ad82bef720998a34f6dea4f5cd11b313a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8c1b1bb716ac61365e0a534f93c72dc" id="r_aa8c1b1bb716ac61365e0a534f93c72dc"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa8c1b1bb716ac61365e0a534f93c72dc">MR_CubicBezierCurve3d_Get_p</a> (const <a class="el" href="#a76ff148784ee6506f11815bd0141b9bb">MR_CubicBezierCurve3d</a> *_this)</td></tr>
+<tr class="separator:aa8c1b1bb716ac61365e0a534f93c72dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55f5e102e272593fa0e315264f8201ed" id="r_a55f5e102e272593fa0e315264f8201ed"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a55f5e102e272593fa0e315264f8201ed">MR_CubicBezierCurve3d_GetMutable_p</a> (<a class="el" href="#a76ff148784ee6506f11815bd0141b9bb">MR_CubicBezierCurve3d</a> *_this)</td></tr>
+<tr class="separator:a55f5e102e272593fa0e315264f8201ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ed191de3d5bfc523f20c84f54e27b97" id="r_a5ed191de3d5bfc523f20c84f54e27b97"><td class="memItemLeft" align="right" valign="top">MRC_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ed191de3d5bfc523f20c84f54e27b97">MR_CubicBezierCurve3d_GetSize_p</a> (void)</td></tr>
+<tr class="memdesc:a5ed191de3d5bfc523f20c84f54e27b97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the size of the array member of class <code>MR::CubicBezierCurve3d</code> named <code>p</code>. The size is <code>4</code>.  <br /></td></tr>
+<tr class="separator:a5ed191de3d5bfc523f20c84f54e27b97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90db69e36168c12ee1d48c96bd4d4e59" id="r_a90db69e36168c12ee1d48c96bd4d4e59"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a76ff148784ee6506f11815bd0141b9bb">MR_CubicBezierCurve3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90db69e36168c12ee1d48c96bd4d4e59">MR_CubicBezierCurve3d_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a90db69e36168c12ee1d48c96bd4d4e59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56f034a4f635beee45e3705bec63b5eb" id="r_a56f034a4f635beee45e3705bec63b5eb"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a76ff148784ee6506f11815bd0141b9bb">MR_CubicBezierCurve3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56f034a4f635beee45e3705bec63b5eb">MR_CubicBezierCurve3d_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a56f034a4f635beee45e3705bec63b5eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ba3a0c96c5f42d892913d0fabbc0eac" id="r_a7ba3a0c96c5f42d892913d0fabbc0eac"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a76ff148784ee6506f11815bd0141b9bb">MR_CubicBezierCurve3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ba3a0c96c5f42d892913d0fabbc0eac">MR_CubicBezierCurve3d_OffsetPtr</a> (const <a class="el" href="#a76ff148784ee6506f11815bd0141b9bb">MR_CubicBezierCurve3d</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a7ba3a0c96c5f42d892913d0fabbc0eac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a7ba3a0c96c5f42d892913d0fabbc0eac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a032930890ecdd9b101466ea5a0f5256f" id="r_a032930890ecdd9b101466ea5a0f5256f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a76ff148784ee6506f11815bd0141b9bb">MR_CubicBezierCurve3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a032930890ecdd9b101466ea5a0f5256f">MR_CubicBezierCurve3d_OffsetMutablePtr</a> (<a class="el" href="#a76ff148784ee6506f11815bd0141b9bb">MR_CubicBezierCurve3d</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a032930890ecdd9b101466ea5a0f5256f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a032930890ecdd9b101466ea5a0f5256f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a474959be6a2b2db8eb535025d9f42adf" id="r_a474959be6a2b2db8eb535025d9f42adf"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a76ff148784ee6506f11815bd0141b9bb">MR_CubicBezierCurve3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a474959be6a2b2db8eb535025d9f42adf">MR_CubicBezierCurve3d_ConstructFromAnother</a> (const <a class="el" href="#a76ff148784ee6506f11815bd0141b9bb">MR_CubicBezierCurve3d</a> *_other)</td></tr>
+<tr class="separator:a474959be6a2b2db8eb535025d9f42adf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14cce647bf39e71f39ae6bd7e8064ada" id="r_a14cce647bf39e71f39ae6bd7e8064ada"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14cce647bf39e71f39ae6bd7e8064ada">MR_CubicBezierCurve3d_Destroy</a> (const <a class="el" href="#a76ff148784ee6506f11815bd0141b9bb">MR_CubicBezierCurve3d</a> *_this)</td></tr>
+<tr class="memdesc:a14cce647bf39e71f39ae6bd7e8064ada"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_CubicBezierCurve3d</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a14cce647bf39e71f39ae6bd7e8064ada"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af97f6e0ac61c9d8865ae9ded2429e0e3" id="r_af97f6e0ac61c9d8865ae9ded2429e0e3"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af97f6e0ac61c9d8865ae9ded2429e0e3">MR_CubicBezierCurve3d_DestroyArray</a> (const <a class="el" href="#a76ff148784ee6506f11815bd0141b9bb">MR_CubicBezierCurve3d</a> *_this)</td></tr>
+<tr class="memdesc:af97f6e0ac61c9d8865ae9ded2429e0e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_CubicBezierCurve3d</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:af97f6e0ac61c9d8865ae9ded2429e0e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c8fd43a525b10a9b92e7b54367e08d6" id="r_a8c8fd43a525b10a9b92e7b54367e08d6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a76ff148784ee6506f11815bd0141b9bb">MR_CubicBezierCurve3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c8fd43a525b10a9b92e7b54367e08d6">MR_CubicBezierCurve3d_AssignFromAnother</a> (<a class="el" href="#a76ff148784ee6506f11815bd0141b9bb">MR_CubicBezierCurve3d</a> *_this, const <a class="el" href="#a76ff148784ee6506f11815bd0141b9bb">MR_CubicBezierCurve3d</a> *_other)</td></tr>
+<tr class="separator:a8c8fd43a525b10a9b92e7b54367e08d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c2dc690fe6685f1db073d4fad75f671" id="r_a6c2dc690fe6685f1db073d4fad75f671"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c2dc690fe6685f1db073d4fad75f671">MR_CubicBezierCurve3d_getPoint</a> (const <a class="el" href="#a76ff148784ee6506f11815bd0141b9bb">MR_CubicBezierCurve3d</a> *_this, double t)</td></tr>
+<tr class="separator:a6c2dc690fe6685f1db073d4fad75f671"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a460a8638ceb9b89676938b771b69c5" id="r_a4a460a8638ceb9b89676938b771b69c5"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__std__array__double__4.html">MR_std_array_double_4</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a460a8638ceb9b89676938b771b69c5">MR_CubicBezierCurve3d_getWeights</a> (double t)</td></tr>
+<tr class="separator:a4a460a8638ceb9b89676938b771b69c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="ac3c2ec3e923df312a3b4e23142bd10a4" name="ac3c2ec3e923df312a3b4e23142bd10a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3c2ec3e923df312a3b4e23142bd10a4">&#9670;&#160;</a></span>MR_CubicBezierCurve2d</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#ac3c2ec3e923df312a3b4e23142bd10a4">MR_CubicBezierCurve2d</a> <a class="el" href="#ac3c2ec3e923df312a3b4e23142bd10a4">MR_CubicBezierCurve2d</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Cubic Bezier curve Generated from class <code>MR::CubicBezierCurve2d</code>. </p>
+
+</div>
+</div>
+<a id="a748c94b3b56fa47109e29eb582aeedf9" name="a748c94b3b56fa47109e29eb582aeedf9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a748c94b3b56fa47109e29eb582aeedf9">&#9670;&#160;</a></span>MR_CubicBezierCurve2f</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a748c94b3b56fa47109e29eb582aeedf9">MR_CubicBezierCurve2f</a> <a class="el" href="#a748c94b3b56fa47109e29eb582aeedf9">MR_CubicBezierCurve2f</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Cubic Bezier curve Generated from class <code>MR::CubicBezierCurve2f</code>. </p>
+
+</div>
+</div>
+<a id="a76ff148784ee6506f11815bd0141b9bb" name="a76ff148784ee6506f11815bd0141b9bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76ff148784ee6506f11815bd0141b9bb">&#9670;&#160;</a></span>MR_CubicBezierCurve3d</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a76ff148784ee6506f11815bd0141b9bb">MR_CubicBezierCurve3d</a> <a class="el" href="#a76ff148784ee6506f11815bd0141b9bb">MR_CubicBezierCurve3d</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Cubic Bezier curve Generated from class <code>MR::CubicBezierCurve3d</code>. </p>
+
+</div>
+</div>
+<a id="a46982165a17fc380e86ae49bf5cd5e2b" name="a46982165a17fc380e86ae49bf5cd5e2b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46982165a17fc380e86ae49bf5cd5e2b">&#9670;&#160;</a></span>MR_CubicBezierCurve3f</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a46982165a17fc380e86ae49bf5cd5e2b">MR_CubicBezierCurve3f</a> <a class="el" href="#a46982165a17fc380e86ae49bf5cd5e2b">MR_CubicBezierCurve3f</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Cubic Bezier curve Generated from class <code>MR::CubicBezierCurve3f</code>. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="aa345082f60847b7c3ad6e429a4cb5c48" name="aa345082f60847b7c3ad6e429a4cb5c48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa345082f60847b7c3ad6e429a4cb5c48">&#9670;&#160;</a></span>MR_CubicBezierCurve2d_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ac3c2ec3e923df312a3b4e23142bd10a4">MR_CubicBezierCurve2d</a> * MR_CubicBezierCurve2d_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ac3c2ec3e923df312a3b4e23142bd10a4">MR_CubicBezierCurve2d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ac3c2ec3e923df312a3b4e23142bd10a4">MR_CubicBezierCurve2d</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code>MR::CubicBezierCurve2d</code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. Parameter <code>_other</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a703c929eb05bb90c778e997f96aad97c" name="a703c929eb05bb90c778e997f96aad97c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a703c929eb05bb90c778e997f96aad97c">&#9670;&#160;</a></span>MR_CubicBezierCurve2d_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ac3c2ec3e923df312a3b4e23142bd10a4">MR_CubicBezierCurve2d</a> * MR_CubicBezierCurve2d_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ac3c2ec3e923df312a3b4e23142bd10a4">MR_CubicBezierCurve2d</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code>MR::CubicBezierCurve2d</code>. Parameter <code>_other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a31c16b54f8e94eaccbdc8cbfeaf2f2c0" title="Destroys a heap-allocated instance of MR_CubicBezierCurve2d. Does nothing if the pointer is null.">MR_CubicBezierCurve2d_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ac97c493a60a27830e006c7a0d2416061" name="ac97c493a60a27830e006c7a0d2416061"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac97c493a60a27830e006c7a0d2416061">&#9670;&#160;</a></span>MR_CubicBezierCurve2d_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ac3c2ec3e923df312a3b4e23142bd10a4">MR_CubicBezierCurve2d</a> * MR_CubicBezierCurve2d_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a31c16b54f8e94eaccbdc8cbfeaf2f2c0" title="Destroys a heap-allocated instance of MR_CubicBezierCurve2d. Does nothing if the pointer is null.">MR_CubicBezierCurve2d_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="afa931bde18e42e3fb7d34b4c491a3b09" name="afa931bde18e42e3fb7d34b4c491a3b09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa931bde18e42e3fb7d34b4c491a3b09">&#9670;&#160;</a></span>MR_CubicBezierCurve2d_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ac3c2ec3e923df312a3b4e23142bd10a4">MR_CubicBezierCurve2d</a> * MR_CubicBezierCurve2d_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#ac1b5406820df03df1d3ece11578d4442" title="Destroys a heap-allocated array of MR_CubicBezierCurve2d. Does nothing if the pointer is null.">MR_CubicBezierCurve2d_DestroyArray()</a></code>. Use <code><a class="el" href="#aff7835188e7ba3c96a545e08e794ee07" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_CubicBezierCurve2d_OffsetMutablePtr()</a></code> and <code><a class="el" href="#ae85765834bc0044c009998ea5b013501" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_CubicBezierCurve2d_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a31c16b54f8e94eaccbdc8cbfeaf2f2c0" name="a31c16b54f8e94eaccbdc8cbfeaf2f2c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31c16b54f8e94eaccbdc8cbfeaf2f2c0">&#9670;&#160;</a></span>MR_CubicBezierCurve2d_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_CubicBezierCurve2d_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ac3c2ec3e923df312a3b4e23142bd10a4">MR_CubicBezierCurve2d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_CubicBezierCurve2d</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="ac1b5406820df03df1d3ece11578d4442" name="ac1b5406820df03df1d3ece11578d4442"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1b5406820df03df1d3ece11578d4442">&#9670;&#160;</a></span>MR_CubicBezierCurve2d_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_CubicBezierCurve2d_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ac3c2ec3e923df312a3b4e23142bd10a4">MR_CubicBezierCurve2d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_CubicBezierCurve2d</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a400105ce66e54d257287fa7c162669fd" name="a400105ce66e54d257287fa7c162669fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a400105ce66e54d257287fa7c162669fd">&#9670;&#160;</a></span>MR_CubicBezierCurve2d_Get_elements()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const int32_t * MR_CubicBezierCurve2d_Get_elements </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code>MR::CubicBezierCurve2d</code> named <code>elements</code>. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a4cad5297dc4a340c5882003878be6551" name="a4cad5297dc4a340c5882003878be6551"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4cad5297dc4a340c5882003878be6551">&#9670;&#160;</a></span>MR_CubicBezierCurve2d_Get_p()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="structMR__Vector2d.html">MR_Vector2d</a> * MR_CubicBezierCurve2d_Get_p </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ac3c2ec3e923df312a3b4e23142bd10a4">MR_CubicBezierCurve2d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>4 control points Returns a pointer to a member variable of class <code>MR::CubicBezierCurve2d</code> named <code>p</code>. This is a pointer to the first element of an array. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a79f0c404c0455d62e9a7d181e7d00380" name="a79f0c404c0455d62e9a7d181e7d00380"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79f0c404c0455d62e9a7d181e7d00380">&#9670;&#160;</a></span>MR_CubicBezierCurve2d_GetMutable_p()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__Vector2d.html">MR_Vector2d</a> * MR_CubicBezierCurve2d_GetMutable_p </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ac3c2ec3e923df312a3b4e23142bd10a4">MR_CubicBezierCurve2d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>4 control points Returns a mutable pointer to a member variable of class <code>MR::CubicBezierCurve2d</code> named <code>p</code>. This is a pointer to the first element of an array. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a62238ff980e7cffcb8e3b2a4dbf2b769" name="a62238ff980e7cffcb8e3b2a4dbf2b769"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62238ff980e7cffcb8e3b2a4dbf2b769">&#9670;&#160;</a></span>MR_CubicBezierCurve2d_getPoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__Vector2d.html">MR_Vector2d</a> MR_CubicBezierCurve2d_getPoint </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ac3c2ec3e923df312a3b4e23142bd10a4">MR_CubicBezierCurve2d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>t</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>computes point on the curve from parameter value Generated from a method of class <code>MR::CubicBezierCurve2d</code> named <code>getPoint</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ac4a10e82e1e3e9681490f58a219dc602" name="ac4a10e82e1e3e9681490f58a219dc602"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4a10e82e1e3e9681490f58a219dc602">&#9670;&#160;</a></span>MR_CubicBezierCurve2d_GetSize_p()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API size_t MR_CubicBezierCurve2d_GetSize_p </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the size of the array member of class <code>MR::CubicBezierCurve2d</code> named <code>p</code>. The size is <code>4</code>. </p>
+
+</div>
+</div>
+<a id="ac24f9dbbfda75a0213633658d985a57a" name="ac24f9dbbfda75a0213633658d985a57a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac24f9dbbfda75a0213633658d985a57a">&#9670;&#160;</a></span>MR_CubicBezierCurve2d_getWeights()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__std__array__double__4.html">MR_std_array_double_4</a> MR_CubicBezierCurve2d_getWeights </td>
+          <td>(</td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>t</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>computes weights of every control point for given parameter value, the sum of all weights is equal to 1 Generated from a method of class <code>MR::CubicBezierCurve2d</code> named <code>getWeights</code>. </p>
+
+</div>
+</div>
+<a id="aff7835188e7ba3c96a545e08e794ee07" name="aff7835188e7ba3c96a545e08e794ee07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff7835188e7ba3c96a545e08e794ee07">&#9670;&#160;</a></span>MR_CubicBezierCurve2d_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ac3c2ec3e923df312a3b4e23142bd10a4">MR_CubicBezierCurve2d</a> * MR_CubicBezierCurve2d_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ac3c2ec3e923df312a3b4e23142bd10a4">MR_CubicBezierCurve2d</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="ae85765834bc0044c009998ea5b013501" name="ae85765834bc0044c009998ea5b013501"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae85765834bc0044c009998ea5b013501">&#9670;&#160;</a></span>MR_CubicBezierCurve2d_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#ac3c2ec3e923df312a3b4e23142bd10a4">MR_CubicBezierCurve2d</a> * MR_CubicBezierCurve2d_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ac3c2ec3e923df312a3b4e23142bd10a4">MR_CubicBezierCurve2d</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a112441e35844bbcd2f0822e5d7856c62" name="a112441e35844bbcd2f0822e5d7856c62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a112441e35844bbcd2f0822e5d7856c62">&#9670;&#160;</a></span>MR_CubicBezierCurve2f_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a748c94b3b56fa47109e29eb582aeedf9">MR_CubicBezierCurve2f</a> * MR_CubicBezierCurve2f_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a748c94b3b56fa47109e29eb582aeedf9">MR_CubicBezierCurve2f</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a748c94b3b56fa47109e29eb582aeedf9">MR_CubicBezierCurve2f</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code>MR::CubicBezierCurve2f</code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. Parameter <code>_other</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a33062ef5e904aa852fe0a90423fa3fde" name="a33062ef5e904aa852fe0a90423fa3fde"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33062ef5e904aa852fe0a90423fa3fde">&#9670;&#160;</a></span>MR_CubicBezierCurve2f_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a748c94b3b56fa47109e29eb582aeedf9">MR_CubicBezierCurve2f</a> * MR_CubicBezierCurve2f_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a748c94b3b56fa47109e29eb582aeedf9">MR_CubicBezierCurve2f</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code>MR::CubicBezierCurve2f</code>. Parameter <code>_other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a01672567c26ea1b6c8e51a5af86087a7" title="Destroys a heap-allocated instance of MR_CubicBezierCurve2f. Does nothing if the pointer is null.">MR_CubicBezierCurve2f_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a1f6030cf2ca07a60e9ac87ea98ec0ec8" name="a1f6030cf2ca07a60e9ac87ea98ec0ec8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f6030cf2ca07a60e9ac87ea98ec0ec8">&#9670;&#160;</a></span>MR_CubicBezierCurve2f_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a748c94b3b56fa47109e29eb582aeedf9">MR_CubicBezierCurve2f</a> * MR_CubicBezierCurve2f_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a01672567c26ea1b6c8e51a5af86087a7" title="Destroys a heap-allocated instance of MR_CubicBezierCurve2f. Does nothing if the pointer is null.">MR_CubicBezierCurve2f_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a32bac8cc950ea1f0f9722ea7775a3766" name="a32bac8cc950ea1f0f9722ea7775a3766"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32bac8cc950ea1f0f9722ea7775a3766">&#9670;&#160;</a></span>MR_CubicBezierCurve2f_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a748c94b3b56fa47109e29eb582aeedf9">MR_CubicBezierCurve2f</a> * MR_CubicBezierCurve2f_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#abb72deb8ec410ace34243119beb4e161" title="Destroys a heap-allocated array of MR_CubicBezierCurve2f. Does nothing if the pointer is null.">MR_CubicBezierCurve2f_DestroyArray()</a></code>. Use <code><a class="el" href="#a4b2213940d33405493ea2c3e89e22408" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_CubicBezierCurve2f_OffsetMutablePtr()</a></code> and <code><a class="el" href="#afe3286f3893adc7d6179b6a001e8dd58" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_CubicBezierCurve2f_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a01672567c26ea1b6c8e51a5af86087a7" name="a01672567c26ea1b6c8e51a5af86087a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01672567c26ea1b6c8e51a5af86087a7">&#9670;&#160;</a></span>MR_CubicBezierCurve2f_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_CubicBezierCurve2f_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a748c94b3b56fa47109e29eb582aeedf9">MR_CubicBezierCurve2f</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_CubicBezierCurve2f</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="abb72deb8ec410ace34243119beb4e161" name="abb72deb8ec410ace34243119beb4e161"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb72deb8ec410ace34243119beb4e161">&#9670;&#160;</a></span>MR_CubicBezierCurve2f_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_CubicBezierCurve2f_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a748c94b3b56fa47109e29eb582aeedf9">MR_CubicBezierCurve2f</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_CubicBezierCurve2f</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a6318f707bc2ea0433290c64654a7a74c" name="a6318f707bc2ea0433290c64654a7a74c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6318f707bc2ea0433290c64654a7a74c">&#9670;&#160;</a></span>MR_CubicBezierCurve2f_Get_elements()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const int32_t * MR_CubicBezierCurve2f_Get_elements </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code>MR::CubicBezierCurve2f</code> named <code>elements</code>. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ad4c0eac06bda36fdeb903bd9f2ed6d6c" name="ad4c0eac06bda36fdeb903bd9f2ed6d6c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4c0eac06bda36fdeb903bd9f2ed6d6c">&#9670;&#160;</a></span>MR_CubicBezierCurve2f_Get_p()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="structMR__Vector2f.html">MR_Vector2f</a> * MR_CubicBezierCurve2f_Get_p </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a748c94b3b56fa47109e29eb582aeedf9">MR_CubicBezierCurve2f</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>4 control points Returns a pointer to a member variable of class <code>MR::CubicBezierCurve2f</code> named <code>p</code>. This is a pointer to the first element of an array. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a85de9b94e3f95a254ab93cae2debb2a5" name="a85de9b94e3f95a254ab93cae2debb2a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85de9b94e3f95a254ab93cae2debb2a5">&#9670;&#160;</a></span>MR_CubicBezierCurve2f_GetMutable_p()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__Vector2f.html">MR_Vector2f</a> * MR_CubicBezierCurve2f_GetMutable_p </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a748c94b3b56fa47109e29eb582aeedf9">MR_CubicBezierCurve2f</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>4 control points Returns a mutable pointer to a member variable of class <code>MR::CubicBezierCurve2f</code> named <code>p</code>. This is a pointer to the first element of an array. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="af66b0981288b67784c9ea4a77c83bdb2" name="af66b0981288b67784c9ea4a77c83bdb2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af66b0981288b67784c9ea4a77c83bdb2">&#9670;&#160;</a></span>MR_CubicBezierCurve2f_getPoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__Vector2f.html">MR_Vector2f</a> MR_CubicBezierCurve2f_getPoint </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a748c94b3b56fa47109e29eb582aeedf9">MR_CubicBezierCurve2f</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>t</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>computes point on the curve from parameter value Generated from a method of class <code>MR::CubicBezierCurve2f</code> named <code>getPoint</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aa5275e5e5fa7725ad4162476faa52ebf" name="aa5275e5e5fa7725ad4162476faa52ebf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5275e5e5fa7725ad4162476faa52ebf">&#9670;&#160;</a></span>MR_CubicBezierCurve2f_GetSize_p()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API size_t MR_CubicBezierCurve2f_GetSize_p </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the size of the array member of class <code>MR::CubicBezierCurve2f</code> named <code>p</code>. The size is <code>4</code>. </p>
+
+</div>
+</div>
+<a id="abcb685400cfe8907493a104affc99475" name="abcb685400cfe8907493a104affc99475"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abcb685400cfe8907493a104affc99475">&#9670;&#160;</a></span>MR_CubicBezierCurve2f_getWeights()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__std__array__float__4.html">MR_std_array_float_4</a> MR_CubicBezierCurve2f_getWeights </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>t</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>computes weights of every control point for given parameter value, the sum of all weights is equal to 1 Generated from a method of class <code>MR::CubicBezierCurve2f</code> named <code>getWeights</code>. </p>
+
+</div>
+</div>
+<a id="a4b2213940d33405493ea2c3e89e22408" name="a4b2213940d33405493ea2c3e89e22408"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b2213940d33405493ea2c3e89e22408">&#9670;&#160;</a></span>MR_CubicBezierCurve2f_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a748c94b3b56fa47109e29eb582aeedf9">MR_CubicBezierCurve2f</a> * MR_CubicBezierCurve2f_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a748c94b3b56fa47109e29eb582aeedf9">MR_CubicBezierCurve2f</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="afe3286f3893adc7d6179b6a001e8dd58" name="afe3286f3893adc7d6179b6a001e8dd58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe3286f3893adc7d6179b6a001e8dd58">&#9670;&#160;</a></span>MR_CubicBezierCurve2f_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a748c94b3b56fa47109e29eb582aeedf9">MR_CubicBezierCurve2f</a> * MR_CubicBezierCurve2f_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a748c94b3b56fa47109e29eb582aeedf9">MR_CubicBezierCurve2f</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a8c8fd43a525b10a9b92e7b54367e08d6" name="a8c8fd43a525b10a9b92e7b54367e08d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c8fd43a525b10a9b92e7b54367e08d6">&#9670;&#160;</a></span>MR_CubicBezierCurve3d_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a76ff148784ee6506f11815bd0141b9bb">MR_CubicBezierCurve3d</a> * MR_CubicBezierCurve3d_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a76ff148784ee6506f11815bd0141b9bb">MR_CubicBezierCurve3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a76ff148784ee6506f11815bd0141b9bb">MR_CubicBezierCurve3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code>MR::CubicBezierCurve3d</code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. Parameter <code>_other</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a474959be6a2b2db8eb535025d9f42adf" name="a474959be6a2b2db8eb535025d9f42adf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a474959be6a2b2db8eb535025d9f42adf">&#9670;&#160;</a></span>MR_CubicBezierCurve3d_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a76ff148784ee6506f11815bd0141b9bb">MR_CubicBezierCurve3d</a> * MR_CubicBezierCurve3d_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a76ff148784ee6506f11815bd0141b9bb">MR_CubicBezierCurve3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code>MR::CubicBezierCurve3d</code>. Parameter <code>_other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a14cce647bf39e71f39ae6bd7e8064ada" title="Destroys a heap-allocated instance of MR_CubicBezierCurve3d. Does nothing if the pointer is null.">MR_CubicBezierCurve3d_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a90db69e36168c12ee1d48c96bd4d4e59" name="a90db69e36168c12ee1d48c96bd4d4e59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90db69e36168c12ee1d48c96bd4d4e59">&#9670;&#160;</a></span>MR_CubicBezierCurve3d_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a76ff148784ee6506f11815bd0141b9bb">MR_CubicBezierCurve3d</a> * MR_CubicBezierCurve3d_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a14cce647bf39e71f39ae6bd7e8064ada" title="Destroys a heap-allocated instance of MR_CubicBezierCurve3d. Does nothing if the pointer is null.">MR_CubicBezierCurve3d_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a56f034a4f635beee45e3705bec63b5eb" name="a56f034a4f635beee45e3705bec63b5eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56f034a4f635beee45e3705bec63b5eb">&#9670;&#160;</a></span>MR_CubicBezierCurve3d_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a76ff148784ee6506f11815bd0141b9bb">MR_CubicBezierCurve3d</a> * MR_CubicBezierCurve3d_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#af97f6e0ac61c9d8865ae9ded2429e0e3" title="Destroys a heap-allocated array of MR_CubicBezierCurve3d. Does nothing if the pointer is null.">MR_CubicBezierCurve3d_DestroyArray()</a></code>. Use <code><a class="el" href="#a032930890ecdd9b101466ea5a0f5256f" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_CubicBezierCurve3d_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a7ba3a0c96c5f42d892913d0fabbc0eac" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_CubicBezierCurve3d_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a14cce647bf39e71f39ae6bd7e8064ada" name="a14cce647bf39e71f39ae6bd7e8064ada"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14cce647bf39e71f39ae6bd7e8064ada">&#9670;&#160;</a></span>MR_CubicBezierCurve3d_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_CubicBezierCurve3d_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a76ff148784ee6506f11815bd0141b9bb">MR_CubicBezierCurve3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_CubicBezierCurve3d</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="af97f6e0ac61c9d8865ae9ded2429e0e3" name="af97f6e0ac61c9d8865ae9ded2429e0e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af97f6e0ac61c9d8865ae9ded2429e0e3">&#9670;&#160;</a></span>MR_CubicBezierCurve3d_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_CubicBezierCurve3d_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a76ff148784ee6506f11815bd0141b9bb">MR_CubicBezierCurve3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_CubicBezierCurve3d</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="ad82bef720998a34f6dea4f5cd11b313a" name="ad82bef720998a34f6dea4f5cd11b313a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad82bef720998a34f6dea4f5cd11b313a">&#9670;&#160;</a></span>MR_CubicBezierCurve3d_Get_elements()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const int32_t * MR_CubicBezierCurve3d_Get_elements </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code>MR::CubicBezierCurve3d</code> named <code>elements</code>. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="aa8c1b1bb716ac61365e0a534f93c72dc" name="aa8c1b1bb716ac61365e0a534f93c72dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8c1b1bb716ac61365e0a534f93c72dc">&#9670;&#160;</a></span>MR_CubicBezierCurve3d_Get_p()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> * MR_CubicBezierCurve3d_Get_p </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a76ff148784ee6506f11815bd0141b9bb">MR_CubicBezierCurve3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>4 control points Returns a pointer to a member variable of class <code>MR::CubicBezierCurve3d</code> named <code>p</code>. This is a pointer to the first element of an array. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a55f5e102e272593fa0e315264f8201ed" name="a55f5e102e272593fa0e315264f8201ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55f5e102e272593fa0e315264f8201ed">&#9670;&#160;</a></span>MR_CubicBezierCurve3d_GetMutable_p()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> * MR_CubicBezierCurve3d_GetMutable_p </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a76ff148784ee6506f11815bd0141b9bb">MR_CubicBezierCurve3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>4 control points Returns a mutable pointer to a member variable of class <code>MR::CubicBezierCurve3d</code> named <code>p</code>. This is a pointer to the first element of an array. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a6c2dc690fe6685f1db073d4fad75f671" name="a6c2dc690fe6685f1db073d4fad75f671"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c2dc690fe6685f1db073d4fad75f671">&#9670;&#160;</a></span>MR_CubicBezierCurve3d_getPoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> MR_CubicBezierCurve3d_getPoint </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a76ff148784ee6506f11815bd0141b9bb">MR_CubicBezierCurve3d</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>t</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>computes point on the curve from parameter value Generated from a method of class <code>MR::CubicBezierCurve3d</code> named <code>getPoint</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a5ed191de3d5bfc523f20c84f54e27b97" name="a5ed191de3d5bfc523f20c84f54e27b97"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ed191de3d5bfc523f20c84f54e27b97">&#9670;&#160;</a></span>MR_CubicBezierCurve3d_GetSize_p()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API size_t MR_CubicBezierCurve3d_GetSize_p </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the size of the array member of class <code>MR::CubicBezierCurve3d</code> named <code>p</code>. The size is <code>4</code>. </p>
+
+</div>
+</div>
+<a id="a4a460a8638ceb9b89676938b771b69c5" name="a4a460a8638ceb9b89676938b771b69c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a460a8638ceb9b89676938b771b69c5">&#9670;&#160;</a></span>MR_CubicBezierCurve3d_getWeights()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__std__array__double__4.html">MR_std_array_double_4</a> MR_CubicBezierCurve3d_getWeights </td>
+          <td>(</td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>t</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>computes weights of every control point for given parameter value, the sum of all weights is equal to 1 Generated from a method of class <code>MR::CubicBezierCurve3d</code> named <code>getWeights</code>. </p>
+
+</div>
+</div>
+<a id="a032930890ecdd9b101466ea5a0f5256f" name="a032930890ecdd9b101466ea5a0f5256f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a032930890ecdd9b101466ea5a0f5256f">&#9670;&#160;</a></span>MR_CubicBezierCurve3d_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a76ff148784ee6506f11815bd0141b9bb">MR_CubicBezierCurve3d</a> * MR_CubicBezierCurve3d_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a76ff148784ee6506f11815bd0141b9bb">MR_CubicBezierCurve3d</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a7ba3a0c96c5f42d892913d0fabbc0eac" name="a7ba3a0c96c5f42d892913d0fabbc0eac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ba3a0c96c5f42d892913d0fabbc0eac">&#9670;&#160;</a></span>MR_CubicBezierCurve3d_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a76ff148784ee6506f11815bd0141b9bb">MR_CubicBezierCurve3d</a> * MR_CubicBezierCurve3d_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a76ff148784ee6506f11815bd0141b9bb">MR_CubicBezierCurve3d</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="ad897c35896d0a703fc99a68dca4c855b" name="ad897c35896d0a703fc99a68dca4c855b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad897c35896d0a703fc99a68dca4c855b">&#9670;&#160;</a></span>MR_CubicBezierCurve3f_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a46982165a17fc380e86ae49bf5cd5e2b">MR_CubicBezierCurve3f</a> * MR_CubicBezierCurve3f_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a46982165a17fc380e86ae49bf5cd5e2b">MR_CubicBezierCurve3f</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a46982165a17fc380e86ae49bf5cd5e2b">MR_CubicBezierCurve3f</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code>MR::CubicBezierCurve3f</code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. Parameter <code>_other</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="afce96f6938c846585f0c7df0c795bd79" name="afce96f6938c846585f0c7df0c795bd79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afce96f6938c846585f0c7df0c795bd79">&#9670;&#160;</a></span>MR_CubicBezierCurve3f_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a46982165a17fc380e86ae49bf5cd5e2b">MR_CubicBezierCurve3f</a> * MR_CubicBezierCurve3f_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a46982165a17fc380e86ae49bf5cd5e2b">MR_CubicBezierCurve3f</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code>MR::CubicBezierCurve3f</code>. Parameter <code>_other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a043fdd39ae91a3b602aef1c4891729ff" title="Destroys a heap-allocated instance of MR_CubicBezierCurve3f. Does nothing if the pointer is null.">MR_CubicBezierCurve3f_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a56529241efc9f1c00f9412b67fe6d579" name="a56529241efc9f1c00f9412b67fe6d579"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56529241efc9f1c00f9412b67fe6d579">&#9670;&#160;</a></span>MR_CubicBezierCurve3f_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a46982165a17fc380e86ae49bf5cd5e2b">MR_CubicBezierCurve3f</a> * MR_CubicBezierCurve3f_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a043fdd39ae91a3b602aef1c4891729ff" title="Destroys a heap-allocated instance of MR_CubicBezierCurve3f. Does nothing if the pointer is null.">MR_CubicBezierCurve3f_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a6a1097ec7d5a24e735e373f5c8d68b48" name="a6a1097ec7d5a24e735e373f5c8d68b48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a1097ec7d5a24e735e373f5c8d68b48">&#9670;&#160;</a></span>MR_CubicBezierCurve3f_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a46982165a17fc380e86ae49bf5cd5e2b">MR_CubicBezierCurve3f</a> * MR_CubicBezierCurve3f_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a46002afc8d89ecc60751af189bfc4639" title="Destroys a heap-allocated array of MR_CubicBezierCurve3f. Does nothing if the pointer is null.">MR_CubicBezierCurve3f_DestroyArray()</a></code>. Use <code><a class="el" href="#a51d50641cae6fef3e7e5ef6e6e612f05" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_CubicBezierCurve3f_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a3b68ed98d4f33984adcd269920aab67b" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_CubicBezierCurve3f_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a043fdd39ae91a3b602aef1c4891729ff" name="a043fdd39ae91a3b602aef1c4891729ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a043fdd39ae91a3b602aef1c4891729ff">&#9670;&#160;</a></span>MR_CubicBezierCurve3f_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_CubicBezierCurve3f_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a46982165a17fc380e86ae49bf5cd5e2b">MR_CubicBezierCurve3f</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_CubicBezierCurve3f</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a46002afc8d89ecc60751af189bfc4639" name="a46002afc8d89ecc60751af189bfc4639"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46002afc8d89ecc60751af189bfc4639">&#9670;&#160;</a></span>MR_CubicBezierCurve3f_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_CubicBezierCurve3f_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a46982165a17fc380e86ae49bf5cd5e2b">MR_CubicBezierCurve3f</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_CubicBezierCurve3f</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a6695d0269b606243b3b440fff2e5177a" name="a6695d0269b606243b3b440fff2e5177a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6695d0269b606243b3b440fff2e5177a">&#9670;&#160;</a></span>MR_CubicBezierCurve3f_Get_elements()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const int32_t * MR_CubicBezierCurve3f_Get_elements </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code>MR::CubicBezierCurve3f</code> named <code>elements</code>. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a9baaf0d75b4c4741fdfa8d999ccecd71" name="a9baaf0d75b4c4741fdfa8d999ccecd71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9baaf0d75b4c4741fdfa8d999ccecd71">&#9670;&#160;</a></span>MR_CubicBezierCurve3f_Get_p()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> * MR_CubicBezierCurve3f_Get_p </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a46982165a17fc380e86ae49bf5cd5e2b">MR_CubicBezierCurve3f</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>4 control points Returns a pointer to a member variable of class <code>MR::CubicBezierCurve3f</code> named <code>p</code>. This is a pointer to the first element of an array. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a94a1cab3f574cdaecbd5e773bc8e49a0" name="a94a1cab3f574cdaecbd5e773bc8e49a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94a1cab3f574cdaecbd5e773bc8e49a0">&#9670;&#160;</a></span>MR_CubicBezierCurve3f_GetMutable_p()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> * MR_CubicBezierCurve3f_GetMutable_p </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a46982165a17fc380e86ae49bf5cd5e2b">MR_CubicBezierCurve3f</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>4 control points Returns a mutable pointer to a member variable of class <code>MR::CubicBezierCurve3f</code> named <code>p</code>. This is a pointer to the first element of an array. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="aaa303ff201e4f597d1779d95e25570c8" name="aaa303ff201e4f597d1779d95e25570c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa303ff201e4f597d1779d95e25570c8">&#9670;&#160;</a></span>MR_CubicBezierCurve3f_getPoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> MR_CubicBezierCurve3f_getPoint </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a46982165a17fc380e86ae49bf5cd5e2b">MR_CubicBezierCurve3f</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>t</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>computes point on the curve from parameter value Generated from a method of class <code>MR::CubicBezierCurve3f</code> named <code>getPoint</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a697c5b09edd74a7740f3305f9e734e7f" name="a697c5b09edd74a7740f3305f9e734e7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a697c5b09edd74a7740f3305f9e734e7f">&#9670;&#160;</a></span>MR_CubicBezierCurve3f_GetSize_p()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API size_t MR_CubicBezierCurve3f_GetSize_p </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the size of the array member of class <code>MR::CubicBezierCurve3f</code> named <code>p</code>. The size is <code>4</code>. </p>
+
+</div>
+</div>
+<a id="a21045c4e26279b6262c6bf488b3b8b46" name="a21045c4e26279b6262c6bf488b3b8b46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21045c4e26279b6262c6bf488b3b8b46">&#9670;&#160;</a></span>MR_CubicBezierCurve3f_getWeights()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__std__array__float__4.html">MR_std_array_float_4</a> MR_CubicBezierCurve3f_getWeights </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>t</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>computes weights of every control point for given parameter value, the sum of all weights is equal to 1 Generated from a method of class <code>MR::CubicBezierCurve3f</code> named <code>getWeights</code>. </p>
+
+</div>
+</div>
+<a id="a51d50641cae6fef3e7e5ef6e6e612f05" name="a51d50641cae6fef3e7e5ef6e6e612f05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51d50641cae6fef3e7e5ef6e6e612f05">&#9670;&#160;</a></span>MR_CubicBezierCurve3f_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a46982165a17fc380e86ae49bf5cd5e2b">MR_CubicBezierCurve3f</a> * MR_CubicBezierCurve3f_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a46982165a17fc380e86ae49bf5cd5e2b">MR_CubicBezierCurve3f</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a3b68ed98d4f33984adcd269920aab67b" name="a3b68ed98d4f33984adcd269920aab67b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b68ed98d4f33984adcd269920aab67b">&#9670;&#160;</a></span>MR_CubicBezierCurve3f_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a46982165a17fc380e86ae49bf5cd5e2b">MR_CubicBezierCurve3f</a> * MR_CubicBezierCurve3f_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a46982165a17fc380e86ae49bf5cd5e2b">MR_CubicBezierCurve3f</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_87d38852fc01aff5f853718c8d8b5cb2.html">Cbindings</a></li><li class="navelem"><a class="el" href="dir_cb83f9b98dc6f67356ff76bcc17f4f67.html">MRCMesh</a></li><li class="navelem"><a class="el" href="MRBezier_8h.html">MRBezier.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

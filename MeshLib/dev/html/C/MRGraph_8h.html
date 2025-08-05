@@ -1,0 +1,1225 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: MRGraph.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('MRGraph_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">MRGraph.h File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="MRId_8h_source.html">MRCMesh/MRId.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
+</div>
+<p><a href="MRGraph_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a05d09e19e779df08fe9df7bbb7e22cb7" id="r_a05d09e19e779df08fe9df7bbb7e22cb7"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRBitSet_8h.html#a05d09e19e779df08fe9df7bbb7e22cb7">MR_GraphEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05d09e19e779df08fe9df7bbb7e22cb7">MR_GraphEdgeBitSet</a></td></tr>
+<tr class="separator:a05d09e19e779df08fe9df7bbb7e22cb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4241c1f908eab380e90d72ea0fc69a32" id="r_a4241c1f908eab380e90d72ea0fc69a32"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRBitSet_8h.html#a4241c1f908eab380e90d72ea0fc69a32">MR_GraphVertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4241c1f908eab380e90d72ea0fc69a32">MR_GraphVertBitSet</a></td></tr>
+<tr class="separator:a4241c1f908eab380e90d72ea0fc69a32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa587fe38469cba58044669a58438b656" id="r_aa587fe38469cba58044669a58438b656"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#aa587fe38469cba58044669a58438b656">MR_Vector_MR_Graph_EndVertices_MR_GraphEdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa587fe38469cba58044669a58438b656">MR_Vector_MR_Graph_EndVertices_MR_GraphEdgeId</a></td></tr>
+<tr class="separator:aa587fe38469cba58044669a58438b656"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4dc64f4d7249dc400451d0a7774feb7a" id="r_a4dc64f4d7249dc400451d0a7774feb7a"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a4dc64f4d7249dc400451d0a7774feb7a">MR_Vector_std_vector_MR_GraphEdgeId_MR_GraphVertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4dc64f4d7249dc400451d0a7774feb7a">MR_Vector_std_vector_MR_GraphEdgeId_MR_GraphVertId</a></td></tr>
+<tr class="separator:a4dc64f4d7249dc400451d0a7774feb7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a036edfb07f39db6a183328939d25f1b5" id="r_a036edfb07f39db6a183328939d25f1b5"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a036edfb07f39db6a183328939d25f1b5">MR_std_function_void_from_MR_GraphEdgeId_MR_GraphEdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a036edfb07f39db6a183328939d25f1b5">MR_std_function_void_from_MR_GraphEdgeId_MR_GraphEdgeId</a></td></tr>
+<tr class="separator:a036edfb07f39db6a183328939d25f1b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69bf1e3186eb9f5254b48c24d41f5de7" id="r_a69bf1e3186eb9f5254b48c24d41f5de7"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a69bf1e3186eb9f5254b48c24d41f5de7">MR_std_vector_MR_GraphEdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69bf1e3186eb9f5254b48c24d41f5de7">MR_std_vector_MR_GraphEdgeId</a></td></tr>
+<tr class="separator:a69bf1e3186eb9f5254b48c24d41f5de7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e638837d22d1028b724cc8f267c2762" id="r_a5e638837d22d1028b724cc8f267c2762"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a5e638837d22d1028b724cc8f267c2762">MR_Graph</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e638837d22d1028b724cc8f267c2762">MR_Graph</a></td></tr>
+<tr class="separator:a5e638837d22d1028b724cc8f267c2762"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c7bacba4378ff403f17cdff39d814a5" id="r_a8c7bacba4378ff403f17cdff39d814a5"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a></td></tr>
+<tr class="memdesc:a8c7bacba4378ff403f17cdff39d814a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1Graph_1_1EndVertices.html">MR::Graph::EndVertices</a></code>.  <br /></td></tr>
+<tr class="separator:a8c7bacba4378ff403f17cdff39d814a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a0d0b42845153a80846f99a7fe18c2f05" id="r_a0d0b42845153a80846f99a7fe18c2f05"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a5e638837d22d1028b724cc8f267c2762">MR_Graph</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d0b42845153a80846f99a7fe18c2f05">MR_Graph_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a0d0b42845153a80846f99a7fe18c2f05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9dc4f54f4d50cc47be2c71411e1de69" id="r_aa9dc4f54f4d50cc47be2c71411e1de69"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a5e638837d22d1028b724cc8f267c2762">MR_Graph</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa9dc4f54f4d50cc47be2c71411e1de69">MR_Graph_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:aa9dc4f54f4d50cc47be2c71411e1de69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ffb1a094f443f8b32a767b891e4341f" id="r_a8ffb1a094f443f8b32a767b891e4341f"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a5e638837d22d1028b724cc8f267c2762">MR_Graph</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ffb1a094f443f8b32a767b891e4341f">MR_Graph_OffsetPtr</a> (const <a class="el" href="#a5e638837d22d1028b724cc8f267c2762">MR_Graph</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a8ffb1a094f443f8b32a767b891e4341f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a8ffb1a094f443f8b32a767b891e4341f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e091fca1c56b39d687507d40ddaaa29" id="r_a5e091fca1c56b39d687507d40ddaaa29"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a5e638837d22d1028b724cc8f267c2762">MR_Graph</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e091fca1c56b39d687507d40ddaaa29">MR_Graph_OffsetMutablePtr</a> (<a class="el" href="#a5e638837d22d1028b724cc8f267c2762">MR_Graph</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a5e091fca1c56b39d687507d40ddaaa29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a5e091fca1c56b39d687507d40ddaaa29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a460237fbb5b5df0a3c92df1297ed87da" id="r_a460237fbb5b5df0a3c92df1297ed87da"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a5e638837d22d1028b724cc8f267c2762">MR_Graph</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a460237fbb5b5df0a3c92df1297ed87da">MR_Graph_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a5e638837d22d1028b724cc8f267c2762">MR_Graph</a> *_other)</td></tr>
+<tr class="separator:a460237fbb5b5df0a3c92df1297ed87da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b0b764c055c02361738c0b874631ea0" id="r_a8b0b764c055c02361738c0b874631ea0"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b0b764c055c02361738c0b874631ea0">MR_Graph_Destroy</a> (const <a class="el" href="#a5e638837d22d1028b724cc8f267c2762">MR_Graph</a> *_this)</td></tr>
+<tr class="memdesc:a8b0b764c055c02361738c0b874631ea0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_Graph</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a8b0b764c055c02361738c0b874631ea0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adfecf361491ded8253cb892d3df3ba6b" id="r_adfecf361491ded8253cb892d3df3ba6b"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adfecf361491ded8253cb892d3df3ba6b">MR_Graph_DestroyArray</a> (const <a class="el" href="#a5e638837d22d1028b724cc8f267c2762">MR_Graph</a> *_this)</td></tr>
+<tr class="memdesc:adfecf361491ded8253cb892d3df3ba6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_Graph</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:adfecf361491ded8253cb892d3df3ba6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2eb1d05eb9c746edfbb9112437a172c" id="r_ac2eb1d05eb9c746edfbb9112437a172c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a5e638837d22d1028b724cc8f267c2762">MR_Graph</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2eb1d05eb9c746edfbb9112437a172c">MR_Graph_AssignFromAnother</a> (<a class="el" href="#a5e638837d22d1028b724cc8f267c2762">MR_Graph</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a5e638837d22d1028b724cc8f267c2762">MR_Graph</a> *_other)</td></tr>
+<tr class="separator:ac2eb1d05eb9c746edfbb9112437a172c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff1708063a9c740eca583f5751ca8703" id="r_aff1708063a9c740eca583f5751ca8703"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff1708063a9c740eca583f5751ca8703">MR_Graph_construct</a> (<a class="el" href="#a5e638837d22d1028b724cc8f267c2762">MR_Graph</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> neighboursPerVertex_pass_by, <a class="el" href="#a4dc64f4d7249dc400451d0a7774feb7a">MR_Vector_std_vector_MR_GraphEdgeId_MR_GraphVertId</a> *neighboursPerVertex, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> endsPerEdge_pass_by, <a class="el" href="#aa587fe38469cba58044669a58438b656">MR_Vector_MR_Graph_EndVertices_MR_GraphEdgeId</a> *endsPerEdge)</td></tr>
+<tr class="separator:aff1708063a9c740eca583f5751ca8703"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbb4bc090f6b7735962dd3129366367a" id="r_adbb4bc090f6b7735962dd3129366367a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adbb4bc090f6b7735962dd3129366367a">MR_Graph_vertSize</a> (const <a class="el" href="#a5e638837d22d1028b724cc8f267c2762">MR_Graph</a> *_this)</td></tr>
+<tr class="separator:adbb4bc090f6b7735962dd3129366367a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5c9843174373c315a5a0e010f3f90fe" id="r_ac5c9843174373c315a5a0e010f3f90fe"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRBitSet_8h.html#a4241c1f908eab380e90d72ea0fc69a32">MR_GraphVertBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac5c9843174373c315a5a0e010f3f90fe">MR_Graph_validVerts</a> (const <a class="el" href="#a5e638837d22d1028b724cc8f267c2762">MR_Graph</a> *_this)</td></tr>
+<tr class="separator:ac5c9843174373c315a5a0e010f3f90fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae94a46ece700c3706039a3314cb644de" id="r_ae94a46ece700c3706039a3314cb644de"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae94a46ece700c3706039a3314cb644de">MR_Graph_valid_MR_GraphVertId</a> (const <a class="el" href="#a5e638837d22d1028b724cc8f267c2762">MR_Graph</a> *_this, <a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a> v)</td></tr>
+<tr class="separator:ae94a46ece700c3706039a3314cb644de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad1d9896cb21aa743b31621691fc545b" id="r_aad1d9896cb21aa743b31621691fc545b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad1d9896cb21aa743b31621691fc545b">MR_Graph_edgeSize</a> (const <a class="el" href="#a5e638837d22d1028b724cc8f267c2762">MR_Graph</a> *_this)</td></tr>
+<tr class="separator:aad1d9896cb21aa743b31621691fc545b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a262c3037b7184340b8c1ecd748927ece" id="r_a262c3037b7184340b8c1ecd748927ece"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRBitSet_8h.html#a05d09e19e779df08fe9df7bbb7e22cb7">MR_GraphEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a262c3037b7184340b8c1ecd748927ece">MR_Graph_validEdges</a> (const <a class="el" href="#a5e638837d22d1028b724cc8f267c2762">MR_Graph</a> *_this)</td></tr>
+<tr class="separator:a262c3037b7184340b8c1ecd748927ece"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8bbf52d71274e2d2e175c77745de5e4c" id="r_a8bbf52d71274e2d2e175c77745de5e4c"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8bbf52d71274e2d2e175c77745de5e4c">MR_Graph_valid_MR_GraphEdgeId</a> (const <a class="el" href="#a5e638837d22d1028b724cc8f267c2762">MR_Graph</a> *_this, <a class="el" href="structMR__GraphEdgeId.html">MR_GraphEdgeId</a> e)</td></tr>
+<tr class="separator:a8bbf52d71274e2d2e175c77745de5e4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a503d058a5e1c2c78d0853fedd1ac8ee0" id="r_a503d058a5e1c2c78d0853fedd1ac8ee0"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a69bf1e3186eb9f5254b48c24d41f5de7">MR_std_vector_MR_GraphEdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a503d058a5e1c2c78d0853fedd1ac8ee0">MR_Graph_neighbours</a> (const <a class="el" href="#a5e638837d22d1028b724cc8f267c2762">MR_Graph</a> *_this, <a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a> v)</td></tr>
+<tr class="separator:a503d058a5e1c2c78d0853fedd1ac8ee0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad29629c8f6e73eece1da3024aaae2de1" id="r_ad29629c8f6e73eece1da3024aaae2de1"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad29629c8f6e73eece1da3024aaae2de1">MR_Graph_ends</a> (const <a class="el" href="#a5e638837d22d1028b724cc8f267c2762">MR_Graph</a> *_this, <a class="el" href="structMR__GraphEdgeId.html">MR_GraphEdgeId</a> e)</td></tr>
+<tr class="separator:ad29629c8f6e73eece1da3024aaae2de1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2ae940c5d0dc5d03b5e0a4f7f7fc887" id="r_ad2ae940c5d0dc5d03b5e0a4f7f7fc887"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__GraphEdgeId.html">MR_GraphEdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad2ae940c5d0dc5d03b5e0a4f7f7fc887">MR_Graph_findEdge</a> (const <a class="el" href="#a5e638837d22d1028b724cc8f267c2762">MR_Graph</a> *_this, <a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a> a, <a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a> b)</td></tr>
+<tr class="separator:ad2ae940c5d0dc5d03b5e0a4f7f7fc887"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c5ad21314dbeb7fe5ff3f8dcfce436c" id="r_a3c5ad21314dbeb7fe5ff3f8dcfce436c"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c5ad21314dbeb7fe5ff3f8dcfce436c">MR_Graph_areNeighbors</a> (const <a class="el" href="#a5e638837d22d1028b724cc8f267c2762">MR_Graph</a> *_this, <a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a> a, <a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a> b)</td></tr>
+<tr class="separator:a3c5ad21314dbeb7fe5ff3f8dcfce436c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3330350b296a1a41f388d6f66ca2ae4" id="r_ab3330350b296a1a41f388d6f66ca2ae4"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3330350b296a1a41f388d6f66ca2ae4">MR_Graph_merge</a> (<a class="el" href="#a5e638837d22d1028b724cc8f267c2762">MR_Graph</a> *_this, <a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a> remnant, <a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a> dead, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> onMergeEdges_pass_by, <a class="el" href="#a036edfb07f39db6a183328939d25f1b5">MR_std_function_void_from_MR_GraphEdgeId_MR_GraphEdgeId</a> *onMergeEdges)</td></tr>
+<tr class="separator:ab3330350b296a1a41f388d6f66ca2ae4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab86e55517291dadf8809fe462bbf7544" id="r_ab86e55517291dadf8809fe462bbf7544"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab86e55517291dadf8809fe462bbf7544">MR_Graph_checkValidity</a> (const <a class="el" href="#a5e638837d22d1028b724cc8f267c2762">MR_Graph</a> *_this)</td></tr>
+<tr class="separator:ab86e55517291dadf8809fe462bbf7544"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78571e7d3fa45f13cdded54e6d33f6fd" id="r_a78571e7d3fa45f13cdded54e6d33f6fd"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78571e7d3fa45f13cdded54e6d33f6fd">MR_Graph_EndVertices_Get_v0</a> (const <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *_this)</td></tr>
+<tr class="separator:a78571e7d3fa45f13cdded54e6d33f6fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c6253859d95f87473960b5399cf9ce1" id="r_a5c6253859d95f87473960b5399cf9ce1"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c6253859d95f87473960b5399cf9ce1">MR_Graph_EndVertices_Set_v0</a> (<a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *_this, <a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a> value)</td></tr>
+<tr class="separator:a5c6253859d95f87473960b5399cf9ce1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c2b594ca4b72fee1322c4d99118e052" id="r_a1c2b594ca4b72fee1322c4d99118e052"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c2b594ca4b72fee1322c4d99118e052">MR_Graph_EndVertices_GetMutable_v0</a> (<a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *_this)</td></tr>
+<tr class="separator:a1c2b594ca4b72fee1322c4d99118e052"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fd5831340cadc846a8e217066379fb7" id="r_a5fd5831340cadc846a8e217066379fb7"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5fd5831340cadc846a8e217066379fb7">MR_Graph_EndVertices_Get_v1</a> (const <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *_this)</td></tr>
+<tr class="separator:a5fd5831340cadc846a8e217066379fb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a879aae0f9463df087816ecf26c6a07" id="r_a8a879aae0f9463df087816ecf26c6a07"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a879aae0f9463df087816ecf26c6a07">MR_Graph_EndVertices_Set_v1</a> (<a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *_this, <a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a> value)</td></tr>
+<tr class="separator:a8a879aae0f9463df087816ecf26c6a07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92c8f408d60d38278c3ade89a6bc49ec" id="r_a92c8f408d60d38278c3ade89a6bc49ec"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a92c8f408d60d38278c3ade89a6bc49ec">MR_Graph_EndVertices_GetMutable_v1</a> (<a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *_this)</td></tr>
+<tr class="separator:a92c8f408d60d38278c3ade89a6bc49ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2806c430e2ec53ce14023e06c894314f" id="r_a2806c430e2ec53ce14023e06c894314f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2806c430e2ec53ce14023e06c894314f">MR_Graph_EndVertices_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a2806c430e2ec53ce14023e06c894314f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95b7533b962833a4dd1a15189d518271" id="r_a95b7533b962833a4dd1a15189d518271"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95b7533b962833a4dd1a15189d518271">MR_Graph_EndVertices_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a95b7533b962833a4dd1a15189d518271"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afba92047abade72ea772e6b83fce9d91" id="r_afba92047abade72ea772e6b83fce9d91"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afba92047abade72ea772e6b83fce9d91">MR_Graph_EndVertices_ConstructFrom</a> (<a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a> v0, <a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a> v1)</td></tr>
+<tr class="separator:afba92047abade72ea772e6b83fce9d91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9239129924a969a89aa69ef899679d1d" id="r_a9239129924a969a89aa69ef899679d1d"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9239129924a969a89aa69ef899679d1d">MR_Graph_EndVertices_OffsetPtr</a> (const <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a9239129924a969a89aa69ef899679d1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a9239129924a969a89aa69ef899679d1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a848a66056163d67edd087c16767f1a07" id="r_a848a66056163d67edd087c16767f1a07"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a848a66056163d67edd087c16767f1a07">MR_Graph_EndVertices_OffsetMutablePtr</a> (<a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a848a66056163d67edd087c16767f1a07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a848a66056163d67edd087c16767f1a07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa77ce34cb05570bf866ae385f3c348bb" id="r_aa77ce34cb05570bf866ae385f3c348bb"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa77ce34cb05570bf866ae385f3c348bb">MR_Graph_EndVertices_ConstructFromAnother</a> (const <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *_other)</td></tr>
+<tr class="separator:aa77ce34cb05570bf866ae385f3c348bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5584a13e214708c79470993eb8542752" id="r_a5584a13e214708c79470993eb8542752"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5584a13e214708c79470993eb8542752">MR_Graph_EndVertices_Destroy</a> (const <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *_this)</td></tr>
+<tr class="memdesc:a5584a13e214708c79470993eb8542752"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_Graph_EndVertices</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a5584a13e214708c79470993eb8542752"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a763376a7a5b984279885d0bdcfb26205" id="r_a763376a7a5b984279885d0bdcfb26205"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a763376a7a5b984279885d0bdcfb26205">MR_Graph_EndVertices_DestroyArray</a> (const <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *_this)</td></tr>
+<tr class="memdesc:a763376a7a5b984279885d0bdcfb26205"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_Graph_EndVertices</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a763376a7a5b984279885d0bdcfb26205"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5d1a954faf700f30e71b1100db61d90" id="r_ad5d1a954faf700f30e71b1100db61d90"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5d1a954faf700f30e71b1100db61d90">MR_Graph_EndVertices_AssignFromAnother</a> (<a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *_this, const <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *_other)</td></tr>
+<tr class="separator:ad5d1a954faf700f30e71b1100db61d90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa960b639c65d5cd9bc8ff95fe3d2a25c" id="r_aa960b639c65d5cd9bc8ff95fe3d2a25c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa960b639c65d5cd9bc8ff95fe3d2a25c">MR_Graph_EndVertices_otherEnd</a> (const <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *_this, <a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a> a)</td></tr>
+<tr class="separator:aa960b639c65d5cd9bc8ff95fe3d2a25c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e79968e025fd296dbaaf2a1108d6e09" id="r_a3e79968e025fd296dbaaf2a1108d6e09"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e79968e025fd296dbaaf2a1108d6e09">MR_Graph_EndVertices_replaceEnd</a> (<a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *_this, <a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a> what, <a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a> with)</td></tr>
+<tr class="separator:a3e79968e025fd296dbaaf2a1108d6e09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a5e638837d22d1028b724cc8f267c2762" name="a5e638837d22d1028b724cc8f267c2762"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e638837d22d1028b724cc8f267c2762">&#9670;&#160;</a></span>MR_Graph</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a5e638837d22d1028b724cc8f267c2762">MR_Graph</a> <a class="el" href="#a5e638837d22d1028b724cc8f267c2762">MR_Graph</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>mathematical graph consisting from vertices and undirected edges Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1Graph.html">MR::Graph</a></code>. </p>
+
+</div>
+</div>
+<a id="a8c7bacba4378ff403f17cdff39d814a5" name="a8c7bacba4378ff403f17cdff39d814a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c7bacba4378ff403f17cdff39d814a5">&#9670;&#160;</a></span>MR_Graph_EndVertices</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1Graph_1_1EndVertices.html">MR::Graph::EndVertices</a></code>. </p>
+
+</div>
+</div>
+<a id="a05d09e19e779df08fe9df7bbb7e22cb7" name="a05d09e19e779df08fe9df7bbb7e22cb7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05d09e19e779df08fe9df7bbb7e22cb7">&#9670;&#160;</a></span>MR_GraphEdgeBitSet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRBitSet_8h.html#a05d09e19e779df08fe9df7bbb7e22cb7">MR_GraphEdgeBitSet</a> <a class="el" href="MRBitSet_8h.html#a05d09e19e779df08fe9df7bbb7e22cb7">MR_GraphEdgeBitSet</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4241c1f908eab380e90d72ea0fc69a32" name="a4241c1f908eab380e90d72ea0fc69a32"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4241c1f908eab380e90d72ea0fc69a32">&#9670;&#160;</a></span>MR_GraphVertBitSet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRBitSet_8h.html#a4241c1f908eab380e90d72ea0fc69a32">MR_GraphVertBitSet</a> <a class="el" href="MRBitSet_8h.html#a4241c1f908eab380e90d72ea0fc69a32">MR_GraphVertBitSet</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a036edfb07f39db6a183328939d25f1b5" name="a036edfb07f39db6a183328939d25f1b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a036edfb07f39db6a183328939d25f1b5">&#9670;&#160;</a></span>MR_std_function_void_from_MR_GraphEdgeId_MR_GraphEdgeId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a036edfb07f39db6a183328939d25f1b5">MR_std_function_void_from_MR_GraphEdgeId_MR_GraphEdgeId</a> <a class="el" href="#a036edfb07f39db6a183328939d25f1b5">MR_std_function_void_from_MR_GraphEdgeId_MR_GraphEdgeId</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a69bf1e3186eb9f5254b48c24d41f5de7" name="a69bf1e3186eb9f5254b48c24d41f5de7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69bf1e3186eb9f5254b48c24d41f5de7">&#9670;&#160;</a></span>MR_std_vector_MR_GraphEdgeId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a69bf1e3186eb9f5254b48c24d41f5de7">MR_std_vector_MR_GraphEdgeId</a> <a class="el" href="#a69bf1e3186eb9f5254b48c24d41f5de7">MR_std_vector_MR_GraphEdgeId</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa587fe38469cba58044669a58438b656" name="aa587fe38469cba58044669a58438b656"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa587fe38469cba58044669a58438b656">&#9670;&#160;</a></span>MR_Vector_MR_Graph_EndVertices_MR_GraphEdgeId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#aa587fe38469cba58044669a58438b656">MR_Vector_MR_Graph_EndVertices_MR_GraphEdgeId</a> <a class="el" href="#aa587fe38469cba58044669a58438b656">MR_Vector_MR_Graph_EndVertices_MR_GraphEdgeId</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4dc64f4d7249dc400451d0a7774feb7a" name="a4dc64f4d7249dc400451d0a7774feb7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4dc64f4d7249dc400451d0a7774feb7a">&#9670;&#160;</a></span>MR_Vector_std_vector_MR_GraphEdgeId_MR_GraphVertId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a4dc64f4d7249dc400451d0a7774feb7a">MR_Vector_std_vector_MR_GraphEdgeId_MR_GraphVertId</a> <a class="el" href="#a4dc64f4d7249dc400451d0a7774feb7a">MR_Vector_std_vector_MR_GraphEdgeId_MR_GraphVertId</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a3c5ad21314dbeb7fe5ff3f8dcfce436c" name="a3c5ad21314dbeb7fe5ff3f8dcfce436c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c5ad21314dbeb7fe5ff3f8dcfce436c">&#9670;&#160;</a></span>MR_Graph_areNeighbors()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_Graph_areNeighbors </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a5e638837d22d1028b724cc8f267c2762">MR_Graph</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns true if the vertices a and b are neighbors Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Graph.html">MR::Graph</a></code> named <code>areNeighbors</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ac2eb1d05eb9c746edfbb9112437a172c" name="ac2eb1d05eb9c746edfbb9112437a172c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2eb1d05eb9c746edfbb9112437a172c">&#9670;&#160;</a></span>MR_Graph_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a5e638837d22d1028b724cc8f267c2762">MR_Graph</a> * MR_Graph_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a5e638837d22d1028b724cc8f267c2762">MR_Graph</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a5e638837d22d1028b724cc8f267c2762">MR_Graph</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Graph.html">MR::Graph</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ab86e55517291dadf8809fe462bbf7544" name="ab86e55517291dadf8809fe462bbf7544"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab86e55517291dadf8809fe462bbf7544">&#9670;&#160;</a></span>MR_Graph_checkValidity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_Graph_checkValidity </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a5e638837d22d1028b724cc8f267c2762">MR_Graph</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>verifies that all internal data structures are valid Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Graph.html">MR::Graph</a></code> named <code>checkValidity</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aff1708063a9c740eca583f5751ca8703" name="aff1708063a9c740eca583f5751ca8703"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff1708063a9c740eca583f5751ca8703">&#9670;&#160;</a></span>MR_Graph_construct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_Graph_construct </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a5e638837d22d1028b724cc8f267c2762">MR_Graph</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>neighboursPerVertex_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a4dc64f4d7249dc400451d0a7774feb7a">MR_Vector_std_vector_MR_GraphEdgeId_MR_GraphVertId</a> *</td>          <td class="paramname"><span class="paramname"><em>neighboursPerVertex</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>endsPerEdge_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#aa587fe38469cba58044669a58438b656">MR_Vector_MR_Graph_EndVertices_MR_GraphEdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>endsPerEdge</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>constructs the graph from all valid vertices and edges Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Graph.html">MR::Graph</a></code> named <code>construct</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a460237fbb5b5df0a3c92df1297ed87da" name="a460237fbb5b5df0a3c92df1297ed87da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a460237fbb5b5df0a3c92df1297ed87da">&#9670;&#160;</a></span>MR_Graph_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a5e638837d22d1028b724cc8f267c2762">MR_Graph</a> * MR_Graph_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a5e638837d22d1028b724cc8f267c2762">MR_Graph</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1Graph.html">MR::Graph</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a8b0b764c055c02361738c0b874631ea0" title="Destroys a heap-allocated instance of MR_Graph. Does nothing if the pointer is null.">MR_Graph_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a0d0b42845153a80846f99a7fe18c2f05" name="a0d0b42845153a80846f99a7fe18c2f05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d0b42845153a80846f99a7fe18c2f05">&#9670;&#160;</a></span>MR_Graph_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a5e638837d22d1028b724cc8f267c2762">MR_Graph</a> * MR_Graph_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a8b0b764c055c02361738c0b874631ea0" title="Destroys a heap-allocated instance of MR_Graph. Does nothing if the pointer is null.">MR_Graph_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="aa9dc4f54f4d50cc47be2c71411e1de69" name="aa9dc4f54f4d50cc47be2c71411e1de69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9dc4f54f4d50cc47be2c71411e1de69">&#9670;&#160;</a></span>MR_Graph_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a5e638837d22d1028b724cc8f267c2762">MR_Graph</a> * MR_Graph_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#adfecf361491ded8253cb892d3df3ba6b" title="Destroys a heap-allocated array of MR_Graph. Does nothing if the pointer is null.">MR_Graph_DestroyArray()</a></code>. Use <code><a class="el" href="#a5e091fca1c56b39d687507d40ddaaa29" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_Graph_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a8ffb1a094f443f8b32a767b891e4341f" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_Graph_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a8b0b764c055c02361738c0b874631ea0" name="a8b0b764c055c02361738c0b874631ea0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b0b764c055c02361738c0b874631ea0">&#9670;&#160;</a></span>MR_Graph_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_Graph_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a5e638837d22d1028b724cc8f267c2762">MR_Graph</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_Graph</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="adfecf361491ded8253cb892d3df3ba6b" name="adfecf361491ded8253cb892d3df3ba6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adfecf361491ded8253cb892d3df3ba6b">&#9670;&#160;</a></span>MR_Graph_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_Graph_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a5e638837d22d1028b724cc8f267c2762">MR_Graph</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_Graph</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="aad1d9896cb21aa743b31621691fc545b" name="aad1d9896cb21aa743b31621691fc545b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad1d9896cb21aa743b31621691fc545b">&#9670;&#160;</a></span>MR_Graph_edgeSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> MR_Graph_edgeSize </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a5e638837d22d1028b724cc8f267c2762">MR_Graph</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns the number of edge records, including invalid ones Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Graph.html">MR::Graph</a></code> named <code>edgeSize</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ad29629c8f6e73eece1da3024aaae2de1" name="ad29629c8f6e73eece1da3024aaae2de1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad29629c8f6e73eece1da3024aaae2de1">&#9670;&#160;</a></span>MR_Graph_ends()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> * MR_Graph_ends </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a5e638837d22d1028b724cc8f267c2762">MR_Graph</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__GraphEdgeId.html">MR_GraphEdgeId</a></td>          <td class="paramname"><span class="paramname"><em>e</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns the ends of given edge Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Graph.html">MR::Graph</a></code> named <code>ends</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ad5d1a954faf700f30e71b1100db61d90" name="ad5d1a954faf700f30e71b1100db61d90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5d1a954faf700f30e71b1100db61d90">&#9670;&#160;</a></span>MR_Graph_EndVertices_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> * MR_Graph_EndVertices_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1Graph_1_1EndVertices.html">MR::Graph::EndVertices</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. Parameter <code>_other</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="afba92047abade72ea772e6b83fce9d91" name="afba92047abade72ea772e6b83fce9d91"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afba92047abade72ea772e6b83fce9d91">&#9670;&#160;</a></span>MR_Graph_EndVertices_ConstructFrom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> * MR_Graph_EndVertices_ConstructFrom </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>v0</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>v1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1Graph_1_1EndVertices.html">MR::Graph::EndVertices</a></code> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a5584a13e214708c79470993eb8542752" title="Destroys a heap-allocated instance of MR_Graph_EndVertices. Does nothing if the pointer is null.">MR_Graph_EndVertices_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="aa77ce34cb05570bf866ae385f3c348bb" name="aa77ce34cb05570bf866ae385f3c348bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa77ce34cb05570bf866ae385f3c348bb">&#9670;&#160;</a></span>MR_Graph_EndVertices_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> * MR_Graph_EndVertices_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1Graph_1_1EndVertices.html">MR::Graph::EndVertices</a></code>. Parameter <code>_other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a5584a13e214708c79470993eb8542752" title="Destroys a heap-allocated instance of MR_Graph_EndVertices. Does nothing if the pointer is null.">MR_Graph_EndVertices_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a2806c430e2ec53ce14023e06c894314f" name="a2806c430e2ec53ce14023e06c894314f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2806c430e2ec53ce14023e06c894314f">&#9670;&#160;</a></span>MR_Graph_EndVertices_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> * MR_Graph_EndVertices_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a5584a13e214708c79470993eb8542752" title="Destroys a heap-allocated instance of MR_Graph_EndVertices. Does nothing if the pointer is null.">MR_Graph_EndVertices_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a95b7533b962833a4dd1a15189d518271" name="a95b7533b962833a4dd1a15189d518271"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95b7533b962833a4dd1a15189d518271">&#9670;&#160;</a></span>MR_Graph_EndVertices_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> * MR_Graph_EndVertices_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a763376a7a5b984279885d0bdcfb26205" title="Destroys a heap-allocated array of MR_Graph_EndVertices. Does nothing if the pointer is null.">MR_Graph_EndVertices_DestroyArray()</a></code>. Use <code><a class="el" href="#a848a66056163d67edd087c16767f1a07" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_Graph_EndVertices_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a9239129924a969a89aa69ef899679d1d" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_Graph_EndVertices_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a5584a13e214708c79470993eb8542752" name="a5584a13e214708c79470993eb8542752"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5584a13e214708c79470993eb8542752">&#9670;&#160;</a></span>MR_Graph_EndVertices_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_Graph_EndVertices_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_Graph_EndVertices</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a763376a7a5b984279885d0bdcfb26205" name="a763376a7a5b984279885d0bdcfb26205"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a763376a7a5b984279885d0bdcfb26205">&#9670;&#160;</a></span>MR_Graph_EndVertices_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_Graph_EndVertices_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_Graph_EndVertices</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a78571e7d3fa45f13cdded54e6d33f6fd" name="a78571e7d3fa45f13cdded54e6d33f6fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78571e7d3fa45f13cdded54e6d33f6fd">&#9670;&#160;</a></span>MR_Graph_EndVertices_Get_v0()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a> * MR_Graph_EndVertices_Get_v0 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1Graph_1_1EndVertices.html">MR::Graph::EndVertices</a></code> named <code>v0</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a5fd5831340cadc846a8e217066379fb7" name="a5fd5831340cadc846a8e217066379fb7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5fd5831340cadc846a8e217066379fb7">&#9670;&#160;</a></span>MR_Graph_EndVertices_Get_v1()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a> * MR_Graph_EndVertices_Get_v1 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1Graph_1_1EndVertices.html">MR::Graph::EndVertices</a></code> named <code>v1</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a1c2b594ca4b72fee1322c4d99118e052" name="a1c2b594ca4b72fee1322c4d99118e052"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c2b594ca4b72fee1322c4d99118e052">&#9670;&#160;</a></span>MR_Graph_EndVertices_GetMutable_v0()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a> * MR_Graph_EndVertices_GetMutable_v0 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1Graph_1_1EndVertices.html">MR::Graph::EndVertices</a></code> named <code>v0</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a92c8f408d60d38278c3ade89a6bc49ec" name="a92c8f408d60d38278c3ade89a6bc49ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92c8f408d60d38278c3ade89a6bc49ec">&#9670;&#160;</a></span>MR_Graph_EndVertices_GetMutable_v1()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a> * MR_Graph_EndVertices_GetMutable_v1 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1Graph_1_1EndVertices.html">MR::Graph::EndVertices</a></code> named <code>v1</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a848a66056163d67edd087c16767f1a07" name="a848a66056163d67edd087c16767f1a07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a848a66056163d67edd087c16767f1a07">&#9670;&#160;</a></span>MR_Graph_EndVertices_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> * MR_Graph_EndVertices_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a9239129924a969a89aa69ef899679d1d" name="a9239129924a969a89aa69ef899679d1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9239129924a969a89aa69ef899679d1d">&#9670;&#160;</a></span>MR_Graph_EndVertices_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> * MR_Graph_EndVertices_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="aa960b639c65d5cd9bc8ff95fe3d2a25c" name="aa960b639c65d5cd9bc8ff95fe3d2a25c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa960b639c65d5cd9bc8ff95fe3d2a25c">&#9670;&#160;</a></span>MR_Graph_EndVertices_otherEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a> MR_Graph_EndVertices_otherEnd </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1Graph_1_1EndVertices.html">MR::Graph::EndVertices</a></code> named <code>otherEnd</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a3e79968e025fd296dbaaf2a1108d6e09" name="a3e79968e025fd296dbaaf2a1108d6e09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e79968e025fd296dbaaf2a1108d6e09">&#9670;&#160;</a></span>MR_Graph_EndVertices_replaceEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_Graph_EndVertices_replaceEnd </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>what</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>with</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1Graph_1_1EndVertices.html">MR::Graph::EndVertices</a></code> named <code>replaceEnd</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a5c6253859d95f87473960b5399cf9ce1" name="a5c6253859d95f87473960b5399cf9ce1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c6253859d95f87473960b5399cf9ce1">&#9670;&#160;</a></span>MR_Graph_EndVertices_Set_v0()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_Graph_EndVertices_Set_v0 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1Graph_1_1EndVertices.html">MR::Graph::EndVertices</a></code> named <code>v0</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a8a879aae0f9463df087816ecf26c6a07" name="a8a879aae0f9463df087816ecf26c6a07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a879aae0f9463df087816ecf26c6a07">&#9670;&#160;</a></span>MR_Graph_EndVertices_Set_v1()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_Graph_EndVertices_Set_v1 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a8c7bacba4378ff403f17cdff39d814a5">MR_Graph_EndVertices</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1Graph_1_1EndVertices.html">MR::Graph::EndVertices</a></code> named <code>v1</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ad2ae940c5d0dc5d03b5e0a4f7f7fc887" name="ad2ae940c5d0dc5d03b5e0a4f7f7fc887"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2ae940c5d0dc5d03b5e0a4f7f7fc887">&#9670;&#160;</a></span>MR_Graph_findEdge()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__GraphEdgeId.html">MR_GraphEdgeId</a> MR_Graph_findEdge </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a5e638837d22d1028b724cc8f267c2762">MR_Graph</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>finds and returns edge between vertices a and b; returns invalid edge otherwise Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Graph.html">MR::Graph</a></code> named <code>findEdge</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ab3330350b296a1a41f388d6f66ca2ae4" name="ab3330350b296a1a41f388d6f66ca2ae4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3330350b296a1a41f388d6f66ca2ae4">&#9670;&#160;</a></span>MR_Graph_merge()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_Graph_merge </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a5e638837d22d1028b724cc8f267c2762">MR_Graph</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>remnant</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>dead</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>onMergeEdges_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a036edfb07f39db6a183328939d25f1b5">MR_std_function_void_from_MR_GraphEdgeId_MR_GraphEdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>onMergeEdges</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>unites two vertices into one (deleting the second one), which leads to deletion and merge of some edges, for which callback is called Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Graph.html">MR::Graph</a></code> named <code>merge</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a503d058a5e1c2c78d0853fedd1ac8ee0" name="a503d058a5e1c2c78d0853fedd1ac8ee0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a503d058a5e1c2c78d0853fedd1ac8ee0">&#9670;&#160;</a></span>MR_Graph_neighbours()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a69bf1e3186eb9f5254b48c24d41f5de7">MR_std_vector_MR_GraphEdgeId</a> * MR_Graph_neighbours </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a5e638837d22d1028b724cc8f267c2762">MR_Graph</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>v</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns all edges adjacent to given vertex Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Graph.html">MR::Graph</a></code> named <code>neighbours</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a5e091fca1c56b39d687507d40ddaaa29" name="a5e091fca1c56b39d687507d40ddaaa29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e091fca1c56b39d687507d40ddaaa29">&#9670;&#160;</a></span>MR_Graph_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a5e638837d22d1028b724cc8f267c2762">MR_Graph</a> * MR_Graph_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a5e638837d22d1028b724cc8f267c2762">MR_Graph</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a8ffb1a094f443f8b32a767b891e4341f" name="a8ffb1a094f443f8b32a767b891e4341f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ffb1a094f443f8b32a767b891e4341f">&#9670;&#160;</a></span>MR_Graph_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a5e638837d22d1028b724cc8f267c2762">MR_Graph</a> * MR_Graph_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a5e638837d22d1028b724cc8f267c2762">MR_Graph</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a8bbf52d71274e2d2e175c77745de5e4c" name="a8bbf52d71274e2d2e175c77745de5e4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8bbf52d71274e2d2e175c77745de5e4c">&#9670;&#160;</a></span>MR_Graph_valid_MR_GraphEdgeId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_Graph_valid_MR_GraphEdgeId </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a5e638837d22d1028b724cc8f267c2762">MR_Graph</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__GraphEdgeId.html">MR_GraphEdgeId</a></td>          <td class="paramname"><span class="paramname"><em>e</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns true if given edge is valid Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Graph.html">MR::Graph</a></code> named <code>valid</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ae94a46ece700c3706039a3314cb644de" name="ae94a46ece700c3706039a3314cb644de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae94a46ece700c3706039a3314cb644de">&#9670;&#160;</a></span>MR_Graph_valid_MR_GraphVertId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_Graph_valid_MR_GraphVertId </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a5e638837d22d1028b724cc8f267c2762">MR_Graph</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a></td>          <td class="paramname"><span class="paramname"><em>v</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns true if given vertex is valid Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Graph.html">MR::Graph</a></code> named <code>valid</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a262c3037b7184340b8c1ecd748927ece" name="a262c3037b7184340b8c1ecd748927ece"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a262c3037b7184340b8c1ecd748927ece">&#9670;&#160;</a></span>MR_Graph_validEdges()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRBitSet_8h.html#a05d09e19e779df08fe9df7bbb7e22cb7">MR_GraphEdgeBitSet</a> * MR_Graph_validEdges </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a5e638837d22d1028b724cc8f267c2762">MR_Graph</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns all valid edges in the graph Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Graph.html">MR::Graph</a></code> named <code>validEdges</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ac5c9843174373c315a5a0e010f3f90fe" name="ac5c9843174373c315a5a0e010f3f90fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5c9843174373c315a5a0e010f3f90fe">&#9670;&#160;</a></span>MR_Graph_validVerts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRBitSet_8h.html#a4241c1f908eab380e90d72ea0fc69a32">MR_GraphVertBitSet</a> * MR_Graph_validVerts </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a5e638837d22d1028b724cc8f267c2762">MR_Graph</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns all valid vertices in the graph Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Graph.html">MR::Graph</a></code> named <code>validVerts</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="adbb4bc090f6b7735962dd3129366367a" name="adbb4bc090f6b7735962dd3129366367a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbb4bc090f6b7735962dd3129366367a">&#9670;&#160;</a></span>MR_Graph_vertSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> MR_Graph_vertSize </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a5e638837d22d1028b724cc8f267c2762">MR_Graph</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns the number of vertex records, including invalid ones Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Graph.html">MR::Graph</a></code> named <code>vertSize</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_87d38852fc01aff5f853718c8d8b5cb2.html">Cbindings</a></li><li class="navelem"><a class="el" href="dir_cb83f9b98dc6f67356ff76bcc17f4f67.html">MRCMesh</a></li><li class="navelem"><a class="el" href="MRGraph_8h.html">MRGraph.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

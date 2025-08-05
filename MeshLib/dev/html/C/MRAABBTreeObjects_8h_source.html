@@ -1,0 +1,274 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: MRAABBTreeObjects.h Source File</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('MRAABBTreeObjects_8h_source.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">MRAABBTreeObjects.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="MRAABBTreeObjects_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;<a class="code" href="MRId_8h.html">MRCMesh/MRId.h</a>&gt;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;<a class="code" href="common_8h.html">MRCMisc/common.h</a>&gt;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;MRCMisc/exports.h&gt;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;stddef.h&gt;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> {</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="MRAABBTreeObjects_8h.html#ab8ab85105e33c89ad87612eed235c7d2">   13</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRAABBTreeBase_8h.html#ab8ab85105e33c89ad87612eed235c7d2">MR_AABBTreeBase_MR_ObjTreeTraits</a> <a class="code hl_typedef" href="MRAABBTreeBase_8h.html#ab8ab85105e33c89ad87612eed235c7d2">MR_AABBTreeBase_MR_ObjTreeTraits</a>; <span class="comment">// Defined in `#include &lt;MRCMesh/MRAABBTreeBase.h&gt;`.</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="MRAABBTreeObjects_8h.html#a88a1df6fb138786a55241b1d77a4b0cc">   14</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> <a class="code hl_struct" href="structMR__AffineXf3f.html">MR_AffineXf3f</a>; <span class="comment">// Defined in `#include &lt;MRCMesh/MRAffineXf.h&gt;`.</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="MRAABBTreeObjects_8h.html#aef2e5b60c55f275988c9749f64cd52ac">   15</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRAABBTreeObjects_8h.html#aef2e5b60c55f275988c9749f64cd52ac">MR_MeshOrPoints</a> <a class="code hl_typedef" href="MRAABBTreeObjects_8h.html#aef2e5b60c55f275988c9749f64cd52ac">MR_MeshOrPoints</a>; <span class="comment">// Defined in `#include &lt;MRCMesh/MRMeshOrPoints.h&gt;`.</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="MRAABBTreeObjects_8h.html#aacc07e59e1aff05da5bd1c15a106851c">   16</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRAABBTreeObjects_8h.html#aacc07e59e1aff05da5bd1c15a106851c">MR_Vector_MR_AffineXf3f_MR_ObjId</a> <a class="code hl_typedef" href="MRAABBTreeObjects_8h.html#aacc07e59e1aff05da5bd1c15a106851c">MR_Vector_MR_AffineXf3f_MR_ObjId</a>; <span class="comment">// Defined in `#include &lt;MRCMesh/MRVector.h&gt;`.</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="MRAABBTreeObjects_8h.html#ab1b29b4cbc55e158ecc6bb26e9c1f747">   17</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRAABBTreeObjects_8h.html#ab1b29b4cbc55e158ecc6bb26e9c1f747">MR_Vector_MR_MeshOrPointsXf_MR_ObjId</a> <a class="code hl_typedef" href="MRAABBTreeObjects_8h.html#ab1b29b4cbc55e158ecc6bb26e9c1f747">MR_Vector_MR_MeshOrPointsXf_MR_ObjId</a>; <span class="comment">// Defined in `#include &lt;MRCMesh/MRVector.h&gt;`.</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="MRAABBTreeObjects_8h.html#ae1ff6707de9cbe25a7cbdab4f6e63d62">   21</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRAABBTreeObjects_8h.html#ae1ff6707de9cbe25a7cbdab4f6e63d62">MR_ObjTreeTraits</a> <a class="code hl_typedef" href="MRAABBTreeObjects_8h.html#ae1ff6707de9cbe25a7cbdab4f6e63d62">MR_ObjTreeTraits</a>;</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="group__AABBTreeGroup.html#gacaf939bbc299f35104b33e6cdc0d6870">   29</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRAABBTreeBase_8h.html#acaf939bbc299f35104b33e6cdc0d6870">MR_AABBTreeObjects</a> <a class="code hl_typedef" href="MRAABBTreeBase_8h.html#acaf939bbc299f35104b33e6cdc0d6870">MR_AABBTreeObjects</a>;</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="MRAABBTreeObjects_8h.html#a7ecbcc438838be8912a0a5dad9e5aaab">   33</a></span>MRC_API <a class="code hl_typedef" href="MRAABBTreeObjects_8h.html#ae1ff6707de9cbe25a7cbdab4f6e63d62">MR_ObjTreeTraits</a> *<a class="code hl_function" href="MRAABBTreeObjects_8h.html#a7ecbcc438838be8912a0a5dad9e5aaab">MR_ObjTreeTraits_DefaultConstruct</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="MRAABBTreeObjects_8h.html#a9d5e2df7d0424d7570e5d3faf1c7fc0c">   38</a></span>MRC_API <a class="code hl_typedef" href="MRAABBTreeObjects_8h.html#ae1ff6707de9cbe25a7cbdab4f6e63d62">MR_ObjTreeTraits</a> *<a class="code hl_function" href="MRAABBTreeObjects_8h.html#a9d5e2df7d0424d7570e5d3faf1c7fc0c">MR_ObjTreeTraits_DefaultConstructArray</a>(<span class="keywordtype">size_t</span> num_elems);</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="MRAABBTreeObjects_8h.html#a57b3878375670ed2035a3db70bf72c9f">   41</a></span>MRC_API <span class="keyword">const</span> <a class="code hl_typedef" href="MRAABBTreeObjects_8h.html#ae1ff6707de9cbe25a7cbdab4f6e63d62">MR_ObjTreeTraits</a> *<a class="code hl_function" href="MRAABBTreeObjects_8h.html#a57b3878375670ed2035a3db70bf72c9f">MR_ObjTreeTraits_OffsetPtr</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRAABBTreeObjects_8h.html#ae1ff6707de9cbe25a7cbdab4f6e63d62">MR_ObjTreeTraits</a> *ptr, ptrdiff_t i);</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="MRAABBTreeObjects_8h.html#a8a3ab3cd7ff32c66bd3c3c9d81ab622a">   44</a></span>MRC_API <a class="code hl_typedef" href="MRAABBTreeObjects_8h.html#ae1ff6707de9cbe25a7cbdab4f6e63d62">MR_ObjTreeTraits</a> *<a class="code hl_function" href="MRAABBTreeObjects_8h.html#a8a3ab3cd7ff32c66bd3c3c9d81ab622a">MR_ObjTreeTraits_OffsetMutablePtr</a>(<a class="code hl_typedef" href="MRAABBTreeObjects_8h.html#ae1ff6707de9cbe25a7cbdab4f6e63d62">MR_ObjTreeTraits</a> *ptr, ptrdiff_t i);</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="MRAABBTreeObjects_8h.html#a2c534144e8ed58c01e29c6d44e94ecfa">   49</a></span>MRC_API <a class="code hl_typedef" href="MRAABBTreeObjects_8h.html#ae1ff6707de9cbe25a7cbdab4f6e63d62">MR_ObjTreeTraits</a> *<a class="code hl_function" href="MRAABBTreeObjects_8h.html#a2c534144e8ed58c01e29c6d44e94ecfa">MR_ObjTreeTraits_ConstructFromAnother</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRAABBTreeObjects_8h.html#ae1ff6707de9cbe25a7cbdab4f6e63d62">MR_ObjTreeTraits</a> *_other);</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="MRAABBTreeObjects_8h.html#a6e1424ef2d6d292f1a999039c0bb5edf">   52</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRAABBTreeObjects_8h.html#a6e1424ef2d6d292f1a999039c0bb5edf">MR_ObjTreeTraits_Destroy</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRAABBTreeObjects_8h.html#ae1ff6707de9cbe25a7cbdab4f6e63d62">MR_ObjTreeTraits</a> *_this);</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="MRAABBTreeObjects_8h.html#a79f9f73ed592f0294c884580cfb0bb86">   55</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRAABBTreeObjects_8h.html#a79f9f73ed592f0294c884580cfb0bb86">MR_ObjTreeTraits_DestroyArray</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRAABBTreeObjects_8h.html#ae1ff6707de9cbe25a7cbdab4f6e63d62">MR_ObjTreeTraits</a> *_this);</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="MRAABBTreeObjects_8h.html#aa012e77d5c19427203ac5e649420d988">   61</a></span>MRC_API <a class="code hl_typedef" href="MRAABBTreeObjects_8h.html#ae1ff6707de9cbe25a7cbdab4f6e63d62">MR_ObjTreeTraits</a> *<a class="code hl_function" href="MRAABBTreeObjects_8h.html#aa012e77d5c19427203ac5e649420d988">MR_ObjTreeTraits_AssignFromAnother</a>(<a class="code hl_typedef" href="MRAABBTreeObjects_8h.html#ae1ff6707de9cbe25a7cbdab4f6e63d62">MR_ObjTreeTraits</a> *_this, <span class="keyword">const</span> <a class="code hl_typedef" href="MRAABBTreeObjects_8h.html#ae1ff6707de9cbe25a7cbdab4f6e63d62">MR_ObjTreeTraits</a> *_other);</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="MRAABBTreeObjects_8h.html#a92fb114f408d956ad136c54448c5e087">   65</a></span>MRC_API <a class="code hl_typedef" href="MRAABBTreeBase_8h.html#acaf939bbc299f35104b33e6cdc0d6870">MR_AABBTreeObjects</a> *<a class="code hl_function" href="MRAABBTreeObjects_8h.html#a92fb114f408d956ad136c54448c5e087">MR_AABBTreeObjects_DefaultConstruct</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno"><a class="line" href="MRAABBTreeObjects_8h.html#ae027402a818ed28d8b8dfc17674a0543">   70</a></span>MRC_API <a class="code hl_typedef" href="MRAABBTreeBase_8h.html#acaf939bbc299f35104b33e6cdc0d6870">MR_AABBTreeObjects</a> *<a class="code hl_function" href="MRAABBTreeObjects_8h.html#ae027402a818ed28d8b8dfc17674a0543">MR_AABBTreeObjects_DefaultConstructArray</a>(<span class="keywordtype">size_t</span> num_elems);</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span> </div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno"><a class="line" href="MRAABBTreeObjects_8h.html#ae3487f829ee2b8664814b0f9f04cf27a">   73</a></span>MRC_API <span class="keyword">const</span> <a class="code hl_typedef" href="MRAABBTreeBase_8h.html#acaf939bbc299f35104b33e6cdc0d6870">MR_AABBTreeObjects</a> *<a class="code hl_function" href="MRAABBTreeObjects_8h.html#ae3487f829ee2b8664814b0f9f04cf27a">MR_AABBTreeObjects_OffsetPtr</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRAABBTreeBase_8h.html#acaf939bbc299f35104b33e6cdc0d6870">MR_AABBTreeObjects</a> *ptr, ptrdiff_t i);</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno"><a class="line" href="MRAABBTreeObjects_8h.html#afa31c2f846b08c2a62a74bf47d6719a7">   76</a></span>MRC_API <a class="code hl_typedef" href="MRAABBTreeBase_8h.html#acaf939bbc299f35104b33e6cdc0d6870">MR_AABBTreeObjects</a> *<a class="code hl_function" href="MRAABBTreeObjects_8h.html#afa31c2f846b08c2a62a74bf47d6719a7">MR_AABBTreeObjects_OffsetMutablePtr</a>(<a class="code hl_typedef" href="MRAABBTreeBase_8h.html#acaf939bbc299f35104b33e6cdc0d6870">MR_AABBTreeObjects</a> *ptr, ptrdiff_t i);</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno"><a class="line" href="MRAABBTreeObjects_8h.html#ad55565b2c6197e180228d83e79423eb0">   80</a></span>MRC_API <span class="keyword">const</span> <a class="code hl_typedef" href="MRAABBTreeBase_8h.html#ab8ab85105e33c89ad87612eed235c7d2">MR_AABBTreeBase_MR_ObjTreeTraits</a> *<a class="code hl_function" href="MRAABBTreeObjects_8h.html#ad55565b2c6197e180228d83e79423eb0">MR_AABBTreeObjects_UpcastTo_MR_AABBTreeBase_MR_ObjTreeTraits</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRAABBTreeBase_8h.html#acaf939bbc299f35104b33e6cdc0d6870">MR_AABBTreeObjects</a> *<span class="keywordtype">object</span>);</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span> </div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno"><a class="line" href="MRAABBTreeObjects_8h.html#aaa82927e7e141dd796d62d1d2d0ba7f4">   83</a></span>MRC_API <a class="code hl_typedef" href="MRAABBTreeBase_8h.html#ab8ab85105e33c89ad87612eed235c7d2">MR_AABBTreeBase_MR_ObjTreeTraits</a> *<a class="code hl_function" href="MRAABBTreeObjects_8h.html#aaa82927e7e141dd796d62d1d2d0ba7f4">MR_AABBTreeObjects_MutableUpcastTo_MR_AABBTreeBase_MR_ObjTreeTraits</a>(<a class="code hl_typedef" href="MRAABBTreeBase_8h.html#acaf939bbc299f35104b33e6cdc0d6870">MR_AABBTreeObjects</a> *<span class="keywordtype">object</span>);</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span> </div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno"><a class="line" href="MRAABBTreeObjects_8h.html#a3b7e419afe42ee6a2efe03b8806c3ab6">   87</a></span>MRC_API <a class="code hl_typedef" href="MRAABBTreeBase_8h.html#acaf939bbc299f35104b33e6cdc0d6870">MR_AABBTreeObjects</a> *<a class="code hl_function" href="MRAABBTreeObjects_8h.html#a3b7e419afe42ee6a2efe03b8806c3ab6">MR_AABBTreeObjects_ConstructFromAnother</a>(<a class="code hl_enumeration" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="code hl_typedef" href="MRAABBTreeBase_8h.html#acaf939bbc299f35104b33e6cdc0d6870">MR_AABBTreeObjects</a> *_other);</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span> </div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno"><a class="line" href="MRAABBTreeObjects_8h.html#ad908e55bb407979a0c232e81d40a21a6">   92</a></span>MRC_API <a class="code hl_typedef" href="MRAABBTreeBase_8h.html#acaf939bbc299f35104b33e6cdc0d6870">MR_AABBTreeObjects</a> *<a class="code hl_function" href="MRAABBTreeObjects_8h.html#ad908e55bb407979a0c232e81d40a21a6">MR_AABBTreeObjects_Construct</a>(<a class="code hl_enumeration" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> objs_pass_by, <a class="code hl_typedef" href="MRAABBTreeObjects_8h.html#ab1b29b4cbc55e158ecc6bb26e9c1f747">MR_Vector_MR_MeshOrPointsXf_MR_ObjId</a> *objs);</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span> </div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno"><a class="line" href="MRAABBTreeObjects_8h.html#a5cd671fd8c4124801eb0d6e022769132">   95</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRAABBTreeObjects_8h.html#a5cd671fd8c4124801eb0d6e022769132">MR_AABBTreeObjects_Destroy</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRAABBTreeBase_8h.html#acaf939bbc299f35104b33e6cdc0d6870">MR_AABBTreeObjects</a> *_this);</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span> </div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno"><a class="line" href="MRAABBTreeObjects_8h.html#a534b574a5a797e07c91f0c2690cc599c">   98</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRAABBTreeObjects_8h.html#a534b574a5a797e07c91f0c2690cc599c">MR_AABBTreeObjects_DestroyArray</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRAABBTreeBase_8h.html#acaf939bbc299f35104b33e6cdc0d6870">MR_AABBTreeObjects</a> *_this);</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span> </div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno"><a class="line" href="MRAABBTreeObjects_8h.html#a68a12845cd5558068e0abd620bcc5213">  103</a></span>MRC_API <a class="code hl_typedef" href="MRAABBTreeBase_8h.html#acaf939bbc299f35104b33e6cdc0d6870">MR_AABBTreeObjects</a> *<a class="code hl_function" href="MRAABBTreeObjects_8h.html#a68a12845cd5558068e0abd620bcc5213">MR_AABBTreeObjects_AssignFromAnother</a>(<a class="code hl_typedef" href="MRAABBTreeBase_8h.html#acaf939bbc299f35104b33e6cdc0d6870">MR_AABBTreeObjects</a> *_this, <a class="code hl_enumeration" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="code hl_typedef" href="MRAABBTreeBase_8h.html#acaf939bbc299f35104b33e6cdc0d6870">MR_AABBTreeObjects</a> *_other);</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span> </div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno"><a class="line" href="MRAABBTreeObjects_8h.html#a7cadc9e6aa0ec35e640b6dadffe41e0b">  109</a></span>MRC_API <span class="keyword">const</span> <a class="code hl_typedef" href="MRAABBTreeObjects_8h.html#aef2e5b60c55f275988c9749f64cd52ac">MR_MeshOrPoints</a> *<a class="code hl_function" href="MRAABBTreeObjects_8h.html#a7cadc9e6aa0ec35e640b6dadffe41e0b">MR_AABBTreeObjects_obj</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRAABBTreeBase_8h.html#acaf939bbc299f35104b33e6cdc0d6870">MR_AABBTreeObjects</a> *_this, <a class="code hl_struct" href="structMR__ObjId.html">MR_ObjId</a> oi);</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span> </div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno"><a class="line" href="MRAABBTreeObjects_8h.html#a609f8ee0de6284546ce8d1ed1c531697">  115</a></span>MRC_API <span class="keyword">const</span> <a class="code hl_struct" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *<a class="code hl_function" href="MRAABBTreeObjects_8h.html#a609f8ee0de6284546ce8d1ed1c531697">MR_AABBTreeObjects_toWorld</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRAABBTreeBase_8h.html#acaf939bbc299f35104b33e6cdc0d6870">MR_AABBTreeObjects</a> *_this, <a class="code hl_struct" href="structMR__ObjId.html">MR_ObjId</a> oi);</div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span> </div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno"><a class="line" href="MRAABBTreeObjects_8h.html#ad4e3674804291b003a16e710e6eb5890">  121</a></span>MRC_API <span class="keyword">const</span> <a class="code hl_struct" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *<a class="code hl_function" href="MRAABBTreeObjects_8h.html#ad4e3674804291b003a16e710e6eb5890">MR_AABBTreeObjects_toLocal_1</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRAABBTreeBase_8h.html#acaf939bbc299f35104b33e6cdc0d6870">MR_AABBTreeObjects</a> *_this, <a class="code hl_struct" href="structMR__ObjId.html">MR_ObjId</a> oi);</div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span> </div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno"><a class="line" href="MRAABBTreeObjects_8h.html#a84c76ef34d7de7136b8c2e6103311f8c">  127</a></span>MRC_API <span class="keyword">const</span> <a class="code hl_typedef" href="MRAABBTreeObjects_8h.html#aacc07e59e1aff05da5bd1c15a106851c">MR_Vector_MR_AffineXf3f_MR_ObjId</a> *<a class="code hl_function" href="MRAABBTreeObjects_8h.html#a84c76ef34d7de7136b8c2e6103311f8c">MR_AABBTreeObjects_toLocal_0</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRAABBTreeBase_8h.html#acaf939bbc299f35104b33e6cdc0d6870">MR_AABBTreeObjects</a> *_this);</div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span> </div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span><span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>} <span class="comment">// extern &quot;C&quot;</span></div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aMRAABBTreeBase_8h_html_ab8ab85105e33c89ad87612eed235c7d2"><div class="ttname"><a href="MRAABBTreeBase_8h.html#ab8ab85105e33c89ad87612eed235c7d2">MR_AABBTreeBase_MR_ObjTreeTraits</a></div><div class="ttdeci">struct MR_AABBTreeBase_MR_ObjTreeTraits MR_AABBTreeBase_MR_ObjTreeTraits</div><div class="ttdef"><b>Definition</b> MRAABBTreeBase.h:49</div></div>
+<div class="ttc" id="aMRAABBTreeBase_8h_html_acaf939bbc299f35104b33e6cdc0d6870"><div class="ttname"><a href="MRAABBTreeBase_8h.html#acaf939bbc299f35104b33e6cdc0d6870">MR_AABBTreeObjects</a></div><div class="ttdeci">struct MR_AABBTreeObjects MR_AABBTreeObjects</div><div class="ttdef"><b>Definition</b> MRAABBTreeBase.h:20</div></div>
+<div class="ttc" id="aMRAABBTreeObjects_8h_html_a2c534144e8ed58c01e29c6d44e94ecfa"><div class="ttname"><a href="MRAABBTreeObjects_8h.html#a2c534144e8ed58c01e29c6d44e94ecfa">MR_ObjTreeTraits_ConstructFromAnother</a></div><div class="ttdeci">MRC_API MR_ObjTreeTraits * MR_ObjTreeTraits_ConstructFromAnother(const MR_ObjTreeTraits *_other)</div></div>
+<div class="ttc" id="aMRAABBTreeObjects_8h_html_a3b7e419afe42ee6a2efe03b8806c3ab6"><div class="ttname"><a href="MRAABBTreeObjects_8h.html#a3b7e419afe42ee6a2efe03b8806c3ab6">MR_AABBTreeObjects_ConstructFromAnother</a></div><div class="ttdeci">MRC_API MR_AABBTreeObjects * MR_AABBTreeObjects_ConstructFromAnother(MR_PassBy _other_pass_by, MR_AABBTreeObjects *_other)</div></div>
+<div class="ttc" id="aMRAABBTreeObjects_8h_html_a534b574a5a797e07c91f0c2690cc599c"><div class="ttname"><a href="MRAABBTreeObjects_8h.html#a534b574a5a797e07c91f0c2690cc599c">MR_AABBTreeObjects_DestroyArray</a></div><div class="ttdeci">MRC_API void MR_AABBTreeObjects_DestroyArray(const MR_AABBTreeObjects *_this)</div><div class="ttdoc">Destroys a heap-allocated array of MR_AABBTreeObjects. Does nothing if the pointer is null.</div></div>
+<div class="ttc" id="aMRAABBTreeObjects_8h_html_a57b3878375670ed2035a3db70bf72c9f"><div class="ttname"><a href="MRAABBTreeObjects_8h.html#a57b3878375670ed2035a3db70bf72c9f">MR_ObjTreeTraits_OffsetPtr</a></div><div class="ttdeci">MRC_API const MR_ObjTreeTraits * MR_ObjTreeTraits_OffsetPtr(const MR_ObjTreeTraits *ptr, ptrdiff_t i)</div><div class="ttdoc">Offsets a pointer to an array element by i positions (not bytes). Use only if you're certain that the...</div></div>
+<div class="ttc" id="aMRAABBTreeObjects_8h_html_a5cd671fd8c4124801eb0d6e022769132"><div class="ttname"><a href="MRAABBTreeObjects_8h.html#a5cd671fd8c4124801eb0d6e022769132">MR_AABBTreeObjects_Destroy</a></div><div class="ttdeci">MRC_API void MR_AABBTreeObjects_Destroy(const MR_AABBTreeObjects *_this)</div><div class="ttdoc">Destroys a heap-allocated instance of MR_AABBTreeObjects. Does nothing if the pointer is null.</div></div>
+<div class="ttc" id="aMRAABBTreeObjects_8h_html_a609f8ee0de6284546ce8d1ed1c531697"><div class="ttname"><a href="MRAABBTreeObjects_8h.html#a609f8ee0de6284546ce8d1ed1c531697">MR_AABBTreeObjects_toWorld</a></div><div class="ttdeci">MRC_API const MR_AffineXf3f * MR_AABBTreeObjects_toWorld(const MR_AABBTreeObjects *_this, MR_ObjId oi)</div></div>
+<div class="ttc" id="aMRAABBTreeObjects_8h_html_a68a12845cd5558068e0abd620bcc5213"><div class="ttname"><a href="MRAABBTreeObjects_8h.html#a68a12845cd5558068e0abd620bcc5213">MR_AABBTreeObjects_AssignFromAnother</a></div><div class="ttdeci">MRC_API MR_AABBTreeObjects * MR_AABBTreeObjects_AssignFromAnother(MR_AABBTreeObjects *_this, MR_PassBy _other_pass_by, MR_AABBTreeObjects *_other)</div></div>
+<div class="ttc" id="aMRAABBTreeObjects_8h_html_a6e1424ef2d6d292f1a999039c0bb5edf"><div class="ttname"><a href="MRAABBTreeObjects_8h.html#a6e1424ef2d6d292f1a999039c0bb5edf">MR_ObjTreeTraits_Destroy</a></div><div class="ttdeci">MRC_API void MR_ObjTreeTraits_Destroy(const MR_ObjTreeTraits *_this)</div><div class="ttdoc">Destroys a heap-allocated instance of MR_ObjTreeTraits. Does nothing if the pointer is null.</div></div>
+<div class="ttc" id="aMRAABBTreeObjects_8h_html_a79f9f73ed592f0294c884580cfb0bb86"><div class="ttname"><a href="MRAABBTreeObjects_8h.html#a79f9f73ed592f0294c884580cfb0bb86">MR_ObjTreeTraits_DestroyArray</a></div><div class="ttdeci">MRC_API void MR_ObjTreeTraits_DestroyArray(const MR_ObjTreeTraits *_this)</div><div class="ttdoc">Destroys a heap-allocated array of MR_ObjTreeTraits. Does nothing if the pointer is null.</div></div>
+<div class="ttc" id="aMRAABBTreeObjects_8h_html_a7cadc9e6aa0ec35e640b6dadffe41e0b"><div class="ttname"><a href="MRAABBTreeObjects_8h.html#a7cadc9e6aa0ec35e640b6dadffe41e0b">MR_AABBTreeObjects_obj</a></div><div class="ttdeci">MRC_API const MR_MeshOrPoints * MR_AABBTreeObjects_obj(const MR_AABBTreeObjects *_this, MR_ObjId oi)</div></div>
+<div class="ttc" id="aMRAABBTreeObjects_8h_html_a7ecbcc438838be8912a0a5dad9e5aaab"><div class="ttname"><a href="MRAABBTreeObjects_8h.html#a7ecbcc438838be8912a0a5dad9e5aaab">MR_ObjTreeTraits_DefaultConstruct</a></div><div class="ttdeci">MRC_API MR_ObjTreeTraits * MR_ObjTreeTraits_DefaultConstruct(void)</div></div>
+<div class="ttc" id="aMRAABBTreeObjects_8h_html_a84c76ef34d7de7136b8c2e6103311f8c"><div class="ttname"><a href="MRAABBTreeObjects_8h.html#a84c76ef34d7de7136b8c2e6103311f8c">MR_AABBTreeObjects_toLocal_0</a></div><div class="ttdeci">MRC_API const MR_Vector_MR_AffineXf3f_MR_ObjId * MR_AABBTreeObjects_toLocal_0(const MR_AABBTreeObjects *_this)</div></div>
+<div class="ttc" id="aMRAABBTreeObjects_8h_html_a8a3ab3cd7ff32c66bd3c3c9d81ab622a"><div class="ttname"><a href="MRAABBTreeObjects_8h.html#a8a3ab3cd7ff32c66bd3c3c9d81ab622a">MR_ObjTreeTraits_OffsetMutablePtr</a></div><div class="ttdeci">MRC_API MR_ObjTreeTraits * MR_ObjTreeTraits_OffsetMutablePtr(MR_ObjTreeTraits *ptr, ptrdiff_t i)</div><div class="ttdoc">Offsets a pointer to an array element by i positions (not bytes). Use only if you're certain that the...</div></div>
+<div class="ttc" id="aMRAABBTreeObjects_8h_html_a92fb114f408d956ad136c54448c5e087"><div class="ttname"><a href="MRAABBTreeObjects_8h.html#a92fb114f408d956ad136c54448c5e087">MR_AABBTreeObjects_DefaultConstruct</a></div><div class="ttdeci">MRC_API MR_AABBTreeObjects * MR_AABBTreeObjects_DefaultConstruct(void)</div></div>
+<div class="ttc" id="aMRAABBTreeObjects_8h_html_a9d5e2df7d0424d7570e5d3faf1c7fc0c"><div class="ttname"><a href="MRAABBTreeObjects_8h.html#a9d5e2df7d0424d7570e5d3faf1c7fc0c">MR_ObjTreeTraits_DefaultConstructArray</a></div><div class="ttdeci">MRC_API MR_ObjTreeTraits * MR_ObjTreeTraits_DefaultConstructArray(size_t num_elems)</div></div>
+<div class="ttc" id="aMRAABBTreeObjects_8h_html_aa012e77d5c19427203ac5e649420d988"><div class="ttname"><a href="MRAABBTreeObjects_8h.html#aa012e77d5c19427203ac5e649420d988">MR_ObjTreeTraits_AssignFromAnother</a></div><div class="ttdeci">MRC_API MR_ObjTreeTraits * MR_ObjTreeTraits_AssignFromAnother(MR_ObjTreeTraits *_this, const MR_ObjTreeTraits *_other)</div></div>
+<div class="ttc" id="aMRAABBTreeObjects_8h_html_aaa82927e7e141dd796d62d1d2d0ba7f4"><div class="ttname"><a href="MRAABBTreeObjects_8h.html#aaa82927e7e141dd796d62d1d2d0ba7f4">MR_AABBTreeObjects_MutableUpcastTo_MR_AABBTreeBase_MR_ObjTreeTraits</a></div><div class="ttdeci">MRC_API MR_AABBTreeBase_MR_ObjTreeTraits * MR_AABBTreeObjects_MutableUpcastTo_MR_AABBTreeBase_MR_ObjTreeTraits(MR_AABBTreeObjects *object)</div><div class="ttdoc">Upcasts an instance of MR::AABBTreeObjects to its base class MR::AABBTreeBase&lt;MR::ObjTreeTraits&gt;.</div></div>
+<div class="ttc" id="aMRAABBTreeObjects_8h_html_aacc07e59e1aff05da5bd1c15a106851c"><div class="ttname"><a href="MRAABBTreeObjects_8h.html#aacc07e59e1aff05da5bd1c15a106851c">MR_Vector_MR_AffineXf3f_MR_ObjId</a></div><div class="ttdeci">struct MR_Vector_MR_AffineXf3f_MR_ObjId MR_Vector_MR_AffineXf3f_MR_ObjId</div><div class="ttdef"><b>Definition</b> MRAABBTreeObjects.h:16</div></div>
+<div class="ttc" id="aMRAABBTreeObjects_8h_html_ab1b29b4cbc55e158ecc6bb26e9c1f747"><div class="ttname"><a href="MRAABBTreeObjects_8h.html#ab1b29b4cbc55e158ecc6bb26e9c1f747">MR_Vector_MR_MeshOrPointsXf_MR_ObjId</a></div><div class="ttdeci">struct MR_Vector_MR_MeshOrPointsXf_MR_ObjId MR_Vector_MR_MeshOrPointsXf_MR_ObjId</div><div class="ttdef"><b>Definition</b> MRAABBTreeObjects.h:17</div></div>
+<div class="ttc" id="aMRAABBTreeObjects_8h_html_ad4e3674804291b003a16e710e6eb5890"><div class="ttname"><a href="MRAABBTreeObjects_8h.html#ad4e3674804291b003a16e710e6eb5890">MR_AABBTreeObjects_toLocal_1</a></div><div class="ttdeci">MRC_API const MR_AffineXf3f * MR_AABBTreeObjects_toLocal_1(const MR_AABBTreeObjects *_this, MR_ObjId oi)</div></div>
+<div class="ttc" id="aMRAABBTreeObjects_8h_html_ad55565b2c6197e180228d83e79423eb0"><div class="ttname"><a href="MRAABBTreeObjects_8h.html#ad55565b2c6197e180228d83e79423eb0">MR_AABBTreeObjects_UpcastTo_MR_AABBTreeBase_MR_ObjTreeTraits</a></div><div class="ttdeci">MRC_API const MR_AABBTreeBase_MR_ObjTreeTraits * MR_AABBTreeObjects_UpcastTo_MR_AABBTreeBase_MR_ObjTreeTraits(const MR_AABBTreeObjects *object)</div></div>
+<div class="ttc" id="aMRAABBTreeObjects_8h_html_ad908e55bb407979a0c232e81d40a21a6"><div class="ttname"><a href="MRAABBTreeObjects_8h.html#ad908e55bb407979a0c232e81d40a21a6">MR_AABBTreeObjects_Construct</a></div><div class="ttdeci">MRC_API MR_AABBTreeObjects * MR_AABBTreeObjects_Construct(MR_PassBy objs_pass_by, MR_Vector_MR_MeshOrPointsXf_MR_ObjId *objs)</div></div>
+<div class="ttc" id="aMRAABBTreeObjects_8h_html_ae027402a818ed28d8b8dfc17674a0543"><div class="ttname"><a href="MRAABBTreeObjects_8h.html#ae027402a818ed28d8b8dfc17674a0543">MR_AABBTreeObjects_DefaultConstructArray</a></div><div class="ttdeci">MRC_API MR_AABBTreeObjects * MR_AABBTreeObjects_DefaultConstructArray(size_t num_elems)</div></div>
+<div class="ttc" id="aMRAABBTreeObjects_8h_html_ae1ff6707de9cbe25a7cbdab4f6e63d62"><div class="ttname"><a href="MRAABBTreeObjects_8h.html#ae1ff6707de9cbe25a7cbdab4f6e63d62">MR_ObjTreeTraits</a></div><div class="ttdeci">struct MR_ObjTreeTraits MR_ObjTreeTraits</div><div class="ttdoc">Generated from class MR::ObjTreeTraits.</div><div class="ttdef"><b>Definition</b> MRAABBTreeObjects.h:21</div></div>
+<div class="ttc" id="aMRAABBTreeObjects_8h_html_ae3487f829ee2b8664814b0f9f04cf27a"><div class="ttname"><a href="MRAABBTreeObjects_8h.html#ae3487f829ee2b8664814b0f9f04cf27a">MR_AABBTreeObjects_OffsetPtr</a></div><div class="ttdeci">MRC_API const MR_AABBTreeObjects * MR_AABBTreeObjects_OffsetPtr(const MR_AABBTreeObjects *ptr, ptrdiff_t i)</div><div class="ttdoc">Offsets a pointer to an array element by i positions (not bytes). Use only if you're certain that the...</div></div>
+<div class="ttc" id="aMRAABBTreeObjects_8h_html_aef2e5b60c55f275988c9749f64cd52ac"><div class="ttname"><a href="MRAABBTreeObjects_8h.html#aef2e5b60c55f275988c9749f64cd52ac">MR_MeshOrPoints</a></div><div class="ttdeci">struct MR_MeshOrPoints MR_MeshOrPoints</div><div class="ttdef"><b>Definition</b> MRAABBTreeObjects.h:15</div></div>
+<div class="ttc" id="aMRAABBTreeObjects_8h_html_afa31c2f846b08c2a62a74bf47d6719a7"><div class="ttname"><a href="MRAABBTreeObjects_8h.html#afa31c2f846b08c2a62a74bf47d6719a7">MR_AABBTreeObjects_OffsetMutablePtr</a></div><div class="ttdeci">MRC_API MR_AABBTreeObjects * MR_AABBTreeObjects_OffsetMutablePtr(MR_AABBTreeObjects *ptr, ptrdiff_t i)</div><div class="ttdoc">Offsets a pointer to an array element by i positions (not bytes). Use only if you're certain that the...</div></div>
+<div class="ttc" id="aMRId_8h_html"><div class="ttname"><a href="MRId_8h.html">MRId.h</a></div></div>
+<div class="ttc" id="acommon_8h_html"><div class="ttname"><a href="common_8h.html">common.h</a></div></div>
+<div class="ttc" id="acommon_8h_html_ac983b89bddb9b22c9b416f31399f0095"><div class="ttname"><a href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></div><div class="ttdeci">MR_PassBy</div><div class="ttdef"><b>Definition</b> common.h:19</div></div>
+<div class="ttc" id="astructMR__AffineXf3f_html"><div class="ttname"><a href="structMR__AffineXf3f.html">MR_AffineXf3f</a></div><div class="ttdef"><b>Definition</b> MRAffineXf.h:39</div></div>
+<div class="ttc" id="astructMR__ObjId_html"><div class="ttname"><a href="structMR__ObjId.html">MR_ObjId</a></div><div class="ttdef"><b>Definition</b> MRId.h:97</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_87d38852fc01aff5f853718c8d8b5cb2.html">Cbindings</a></li><li class="navelem"><a class="el" href="dir_cb83f9b98dc6f67356ff76bcc17f4f67.html">MRCMesh</a></li><li class="navelem"><a class="el" href="MRAABBTreeObjects_8h.html">MRAABBTreeObjects.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

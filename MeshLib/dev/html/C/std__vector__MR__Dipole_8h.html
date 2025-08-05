@@ -1,0 +1,1770 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: std_vector_MR_Dipole.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('std__vector__MR__Dipole_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">std_vector_MR_Dipole.h File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
+</div>
+<p><a href="std__vector__MR__Dipole_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a1355a9205c77a994f7dc42f7ce5eb774" id="r_a1355a9205c77a994f7dc42f7ce5eb774"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRDipole_8h.html#a1355a9205c77a994f7dc42f7ce5eb774">MR_Dipole</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1355a9205c77a994f7dc42f7ce5eb774">MR_Dipole</a></td></tr>
+<tr class="separator:a1355a9205c77a994f7dc42f7ce5eb774"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abaeea631b3bf284704cbff68b83f9486" id="r_abaeea631b3bf284704cbff68b83f9486"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a></td></tr>
+<tr class="separator:abaeea631b3bf284704cbff68b83f9486"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad33b5937075b0fd2fbb00ee3697d9bd9" id="r_ad33b5937075b0fd2fbb00ee3697d9bd9"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ad33b5937075b0fd2fbb00ee3697d9bd9">MR_std_vector_MR_Dipole_const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad33b5937075b0fd2fbb00ee3697d9bd9">MR_std_vector_MR_Dipole_const_iterator</a></td></tr>
+<tr class="separator:ad33b5937075b0fd2fbb00ee3697d9bd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0e2144843316a1e4710007217c6ba96" id="r_ab0e2144843316a1e4710007217c6ba96"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ab0e2144843316a1e4710007217c6ba96">MR_std_vector_MR_Dipole_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0e2144843316a1e4710007217c6ba96">MR_std_vector_MR_Dipole_iterator</a></td></tr>
+<tr class="separator:ab0e2144843316a1e4710007217c6ba96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a4646cb29f69c0c9d453a3e7c4c789b3b" id="r_a4646cb29f69c0c9d453a3e7c4c789b3b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4646cb29f69c0c9d453a3e7c4c789b3b">MR_std_vector_MR_Dipole_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a4646cb29f69c0c9d453a3e7c4c789b3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d434e1359e728a7275bd2e6df12fd17" id="r_a7d434e1359e728a7275bd2e6df12fd17"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d434e1359e728a7275bd2e6df12fd17">MR_std_vector_MR_Dipole_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a7d434e1359e728a7275bd2e6df12fd17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28b17126f878fe48a6bd93b01bcb5a98" id="r_a28b17126f878fe48a6bd93b01bcb5a98"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28b17126f878fe48a6bd93b01bcb5a98">MR_std_vector_MR_Dipole_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> other_pass_by, <a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *other)</td></tr>
+<tr class="separator:a28b17126f878fe48a6bd93b01bcb5a98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecdc82cbb36abc1f9fcb6a055fca74f9" id="r_aecdc82cbb36abc1f9fcb6a055fca74f9"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aecdc82cbb36abc1f9fcb6a055fca74f9">MR_std_vector_MR_Dipole_AssignFromAnother</a> (<a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> other_pass_by, <a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *other)</td></tr>
+<tr class="separator:aecdc82cbb36abc1f9fcb6a055fca74f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96243fe63322f5f058a68cd1fddd68e8" id="r_a96243fe63322f5f058a68cd1fddd68e8"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a96243fe63322f5f058a68cd1fddd68e8">MR_std_vector_MR_Dipole_Destroy</a> (const <a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *_this)</td></tr>
+<tr class="memdesc:a96243fe63322f5f058a68cd1fddd68e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_std_vector_MR_Dipole</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a96243fe63322f5f058a68cd1fddd68e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1eda0d34c4e2d6183363b5d4cc1f5d76" id="r_a1eda0d34c4e2d6183363b5d4cc1f5d76"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1eda0d34c4e2d6183363b5d4cc1f5d76">MR_std_vector_MR_Dipole_DestroyArray</a> (const <a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *_this)</td></tr>
+<tr class="memdesc:a1eda0d34c4e2d6183363b5d4cc1f5d76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_std_vector_MR_Dipole</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a1eda0d34c4e2d6183363b5d4cc1f5d76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65a2bd9c2011cf76c51f004cb40237af" id="r_a65a2bd9c2011cf76c51f004cb40237af"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65a2bd9c2011cf76c51f004cb40237af">MR_std_vector_MR_Dipole_OffsetPtr</a> (const <a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a65a2bd9c2011cf76c51f004cb40237af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a65a2bd9c2011cf76c51f004cb40237af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8563f21837529d6c99d5b0f262b8fb0e" id="r_a8563f21837529d6c99d5b0f262b8fb0e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8563f21837529d6c99d5b0f262b8fb0e">MR_std_vector_MR_Dipole_OffsetMutablePtr</a> (<a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a8563f21837529d6c99d5b0f262b8fb0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a8563f21837529d6c99d5b0f262b8fb0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79163e4d7d2b6f73731e7292ccd4d8d6" id="r_a79163e4d7d2b6f73731e7292ccd4d8d6"><td class="memItemLeft" align="right" valign="top">MRC_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79163e4d7d2b6f73731e7292ccd4d8d6">MR_std_vector_MR_Dipole_Size</a> (const <a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *_this)</td></tr>
+<tr class="separator:a79163e4d7d2b6f73731e7292ccd4d8d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e6137c01b59087ba5438ace7a83c525" id="r_a9e6137c01b59087ba5438ace7a83c525"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e6137c01b59087ba5438ace7a83c525">MR_std_vector_MR_Dipole_IsEmpty</a> (const <a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *_this)</td></tr>
+<tr class="separator:a9e6137c01b59087ba5438ace7a83c525"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d2c626aee1bdd891515bfdbe5b470bb" id="r_a5d2c626aee1bdd891515bfdbe5b470bb"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d2c626aee1bdd891515bfdbe5b470bb">MR_std_vector_MR_Dipole_Resize</a> (<a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *_this, size_t new_size)</td></tr>
+<tr class="separator:a5d2c626aee1bdd891515bfdbe5b470bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a557249d4bc02353d810fa49e78211d7a" id="r_a557249d4bc02353d810fa49e78211d7a"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a557249d4bc02353d810fa49e78211d7a">MR_std_vector_MR_Dipole_ResizeWithDefaultValue</a> (<a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *_this, size_t new_size, const <a class="el" href="MRDipole_8h.html#a1355a9205c77a994f7dc42f7ce5eb774">MR_Dipole</a> *value)</td></tr>
+<tr class="separator:a557249d4bc02353d810fa49e78211d7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6516d8a7eeaba07f9ae759f286941b2a" id="r_a6516d8a7eeaba07f9ae759f286941b2a"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6516d8a7eeaba07f9ae759f286941b2a">MR_std_vector_MR_Dipole_Clear</a> (<a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *_this)</td></tr>
+<tr class="separator:a6516d8a7eeaba07f9ae759f286941b2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:addb263722c6b5b6f267014a111e2133b" id="r_addb263722c6b5b6f267014a111e2133b"><td class="memItemLeft" align="right" valign="top">MRC_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#addb263722c6b5b6f267014a111e2133b">MR_std_vector_MR_Dipole_Capacity</a> (const <a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *_this)</td></tr>
+<tr class="separator:addb263722c6b5b6f267014a111e2133b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa064395391f133240c2509b703f5eeb0" id="r_aa064395391f133240c2509b703f5eeb0"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa064395391f133240c2509b703f5eeb0">MR_std_vector_MR_Dipole_Reserve</a> (<a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *_this, size_t new_capacity)</td></tr>
+<tr class="separator:aa064395391f133240c2509b703f5eeb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3080c3a231727fb133d64b087a180214" id="r_a3080c3a231727fb133d64b087a180214"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3080c3a231727fb133d64b087a180214">MR_std_vector_MR_Dipole_ShrinkToFit</a> (<a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *_this)</td></tr>
+<tr class="separator:a3080c3a231727fb133d64b087a180214"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4102932779f53a4adcc3fbebbd463455" id="r_a4102932779f53a4adcc3fbebbd463455"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRDipole_8h.html#a1355a9205c77a994f7dc42f7ce5eb774">MR_Dipole</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4102932779f53a4adcc3fbebbd463455">MR_std_vector_MR_Dipole_At</a> (const <a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *_this, size_t i)</td></tr>
+<tr class="separator:a4102932779f53a4adcc3fbebbd463455"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a593644219f2ca99d6ddcd0640d9a450e" id="r_a593644219f2ca99d6ddcd0640d9a450e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRDipole_8h.html#a1355a9205c77a994f7dc42f7ce5eb774">MR_Dipole</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a593644219f2ca99d6ddcd0640d9a450e">MR_std_vector_MR_Dipole_MutableAt</a> (<a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *_this, size_t i)</td></tr>
+<tr class="separator:a593644219f2ca99d6ddcd0640d9a450e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3382426273f212fa48509fc313fa79b2" id="r_a3382426273f212fa48509fc313fa79b2"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRDipole_8h.html#a1355a9205c77a994f7dc42f7ce5eb774">MR_Dipole</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3382426273f212fa48509fc313fa79b2">MR_std_vector_MR_Dipole_Front</a> (const <a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *_this)</td></tr>
+<tr class="separator:a3382426273f212fa48509fc313fa79b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26a813968e60b4e064919396b74e6510" id="r_a26a813968e60b4e064919396b74e6510"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRDipole_8h.html#a1355a9205c77a994f7dc42f7ce5eb774">MR_Dipole</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a26a813968e60b4e064919396b74e6510">MR_std_vector_MR_Dipole_MutableFront</a> (<a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *_this)</td></tr>
+<tr class="separator:a26a813968e60b4e064919396b74e6510"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38c581cb4a64cb12baaf81dc5c35cee5" id="r_a38c581cb4a64cb12baaf81dc5c35cee5"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRDipole_8h.html#a1355a9205c77a994f7dc42f7ce5eb774">MR_Dipole</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38c581cb4a64cb12baaf81dc5c35cee5">MR_std_vector_MR_Dipole_Back</a> (const <a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *_this)</td></tr>
+<tr class="separator:a38c581cb4a64cb12baaf81dc5c35cee5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60ba36c9bea14642bb5c9b22b8aed424" id="r_a60ba36c9bea14642bb5c9b22b8aed424"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRDipole_8h.html#a1355a9205c77a994f7dc42f7ce5eb774">MR_Dipole</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60ba36c9bea14642bb5c9b22b8aed424">MR_std_vector_MR_Dipole_MutableBack</a> (<a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *_this)</td></tr>
+<tr class="separator:a60ba36c9bea14642bb5c9b22b8aed424"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab94439bf4ec40ac68e9a239f646ae73f" id="r_ab94439bf4ec40ac68e9a239f646ae73f"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab94439bf4ec40ac68e9a239f646ae73f">MR_std_vector_MR_Dipole_PushBack</a> (<a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *_this, const <a class="el" href="MRDipole_8h.html#a1355a9205c77a994f7dc42f7ce5eb774">MR_Dipole</a> *new_elem)</td></tr>
+<tr class="separator:ab94439bf4ec40ac68e9a239f646ae73f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a942ceac074ce5e89aebc69a40b3e6de5" id="r_a942ceac074ce5e89aebc69a40b3e6de5"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a942ceac074ce5e89aebc69a40b3e6de5">MR_std_vector_MR_Dipole_PopBack</a> (<a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *_this)</td></tr>
+<tr class="separator:a942ceac074ce5e89aebc69a40b3e6de5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a037b0f56ecd54f4d546d28743e7a26b8" id="r_a037b0f56ecd54f4d546d28743e7a26b8"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a037b0f56ecd54f4d546d28743e7a26b8">MR_std_vector_MR_Dipole_Insert</a> (<a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *_this, size_t position, const <a class="el" href="MRDipole_8h.html#a1355a9205c77a994f7dc42f7ce5eb774">MR_Dipole</a> *new_elem)</td></tr>
+<tr class="separator:a037b0f56ecd54f4d546d28743e7a26b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fbfb190b01b779c2b74ffe217087acc" id="r_a3fbfb190b01b779c2b74ffe217087acc"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3fbfb190b01b779c2b74ffe217087acc">MR_std_vector_MR_Dipole_Erase</a> (<a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *_this, size_t position)</td></tr>
+<tr class="separator:a3fbfb190b01b779c2b74ffe217087acc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafb0a56bcf8ba9438f6bfaa81f1a07d1" id="r_aafb0a56bcf8ba9438f6bfaa81f1a07d1"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aafb0a56bcf8ba9438f6bfaa81f1a07d1">MR_std_vector_MR_Dipole_InsertAtMutableIter</a> (<a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *_this, const <a class="el" href="#ab0e2144843316a1e4710007217c6ba96">MR_std_vector_MR_Dipole_iterator</a> *position, const <a class="el" href="MRDipole_8h.html#a1355a9205c77a994f7dc42f7ce5eb774">MR_Dipole</a> *new_elem)</td></tr>
+<tr class="separator:aafb0a56bcf8ba9438f6bfaa81f1a07d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab49c30fae9bbd2d01b49bbcd26262b87" id="r_ab49c30fae9bbd2d01b49bbcd26262b87"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab49c30fae9bbd2d01b49bbcd26262b87">MR_std_vector_MR_Dipole_EraseAtMutableIter</a> (<a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *_this, const <a class="el" href="#ab0e2144843316a1e4710007217c6ba96">MR_std_vector_MR_Dipole_iterator</a> *position)</td></tr>
+<tr class="separator:ab49c30fae9bbd2d01b49bbcd26262b87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ae884454b7534b8d63484a71b242bb6" id="r_a0ae884454b7534b8d63484a71b242bb6"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ae884454b7534b8d63484a71b242bb6">MR_std_vector_MR_Dipole_InsertAtIter</a> (<a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *_this, const <a class="el" href="#ad33b5937075b0fd2fbb00ee3697d9bd9">MR_std_vector_MR_Dipole_const_iterator</a> *position, const <a class="el" href="MRDipole_8h.html#a1355a9205c77a994f7dc42f7ce5eb774">MR_Dipole</a> *new_elem)</td></tr>
+<tr class="separator:a0ae884454b7534b8d63484a71b242bb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e0769913e00f8741ca6d7d0bee51ab2" id="r_a5e0769913e00f8741ca6d7d0bee51ab2"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e0769913e00f8741ca6d7d0bee51ab2">MR_std_vector_MR_Dipole_EraseAtIter</a> (<a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *_this, const <a class="el" href="#ad33b5937075b0fd2fbb00ee3697d9bd9">MR_std_vector_MR_Dipole_const_iterator</a> *position)</td></tr>
+<tr class="separator:a5e0769913e00f8741ca6d7d0bee51ab2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f234dfa9fe8d3f212d37d094d1179bd" id="r_a1f234dfa9fe8d3f212d37d094d1179bd"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ad33b5937075b0fd2fbb00ee3697d9bd9">MR_std_vector_MR_Dipole_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f234dfa9fe8d3f212d37d094d1179bd">MR_std_vector_MR_Dipole_Begin</a> (const <a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *_this)</td></tr>
+<tr class="separator:a1f234dfa9fe8d3f212d37d094d1179bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb69c6af35877878bcf1b155efc6aa37" id="r_adb69c6af35877878bcf1b155efc6aa37"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb69c6af35877878bcf1b155efc6aa37">MR_std_vector_MR_Dipole_IsBegin</a> (const <a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *_this, const <a class="el" href="#ad33b5937075b0fd2fbb00ee3697d9bd9">MR_std_vector_MR_Dipole_const_iterator</a> *iter)</td></tr>
+<tr class="separator:adb69c6af35877878bcf1b155efc6aa37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7f20f3c3d0624578099c772d58dca42" id="r_ac7f20f3c3d0624578099c772d58dca42"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ab0e2144843316a1e4710007217c6ba96">MR_std_vector_MR_Dipole_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7f20f3c3d0624578099c772d58dca42">MR_std_vector_MR_Dipole_MutableBegin</a> (<a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *_this)</td></tr>
+<tr class="separator:ac7f20f3c3d0624578099c772d58dca42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a43c92ac76b0aea58a3aeadeaa6312a" id="r_a7a43c92ac76b0aea58a3aeadeaa6312a"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a43c92ac76b0aea58a3aeadeaa6312a">MR_std_vector_MR_Dipole_IsMutableBegin</a> (<a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *_this, const <a class="el" href="#ab0e2144843316a1e4710007217c6ba96">MR_std_vector_MR_Dipole_iterator</a> *iter)</td></tr>
+<tr class="separator:a7a43c92ac76b0aea58a3aeadeaa6312a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5371b8835e8aa2125894a7a290cde150" id="r_a5371b8835e8aa2125894a7a290cde150"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ad33b5937075b0fd2fbb00ee3697d9bd9">MR_std_vector_MR_Dipole_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5371b8835e8aa2125894a7a290cde150">MR_std_vector_MR_Dipole_End</a> (const <a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *_this)</td></tr>
+<tr class="separator:a5371b8835e8aa2125894a7a290cde150"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b572b736707376279d307b7f3146aaf" id="r_a1b572b736707376279d307b7f3146aaf"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b572b736707376279d307b7f3146aaf">MR_std_vector_MR_Dipole_IsEnd</a> (const <a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *_this, const <a class="el" href="#ad33b5937075b0fd2fbb00ee3697d9bd9">MR_std_vector_MR_Dipole_const_iterator</a> *iter)</td></tr>
+<tr class="separator:a1b572b736707376279d307b7f3146aaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afad40d19e46cc9246bcd9cbf04a01548" id="r_afad40d19e46cc9246bcd9cbf04a01548"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ab0e2144843316a1e4710007217c6ba96">MR_std_vector_MR_Dipole_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afad40d19e46cc9246bcd9cbf04a01548">MR_std_vector_MR_Dipole_MutableEnd</a> (<a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *_this)</td></tr>
+<tr class="separator:afad40d19e46cc9246bcd9cbf04a01548"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07adec07b97cd88d4c18577556eeacee" id="r_a07adec07b97cd88d4c18577556eeacee"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a07adec07b97cd88d4c18577556eeacee">MR_std_vector_MR_Dipole_IsMutableEnd</a> (<a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *_this, const <a class="el" href="#ab0e2144843316a1e4710007217c6ba96">MR_std_vector_MR_Dipole_iterator</a> *iter)</td></tr>
+<tr class="separator:a07adec07b97cd88d4c18577556eeacee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae786e597da58a4f6216eee2b29b3b451" id="r_ae786e597da58a4f6216eee2b29b3b451"><td class="memItemLeft" align="right" valign="top">MRC_API ptrdiff_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae786e597da58a4f6216eee2b29b3b451">MR_std_vector_MR_Dipole_ToIndex</a> (const <a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *_this, const <a class="el" href="#ad33b5937075b0fd2fbb00ee3697d9bd9">MR_std_vector_MR_Dipole_const_iterator</a> *iter)</td></tr>
+<tr class="separator:ae786e597da58a4f6216eee2b29b3b451"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6082b91a932d39de399fb7b5089920e" id="r_aa6082b91a932d39de399fb7b5089920e"><td class="memItemLeft" align="right" valign="top">MRC_API ptrdiff_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6082b91a932d39de399fb7b5089920e">MR_std_vector_MR_Dipole_MutableToIndex</a> (const <a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *_this, const <a class="el" href="#ab0e2144843316a1e4710007217c6ba96">MR_std_vector_MR_Dipole_iterator</a> *iter)</td></tr>
+<tr class="separator:aa6082b91a932d39de399fb7b5089920e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a721b70f5fc0e20f12e2a4e5265e28513" id="r_a721b70f5fc0e20f12e2a4e5265e28513"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ad33b5937075b0fd2fbb00ee3697d9bd9">MR_std_vector_MR_Dipole_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a721b70f5fc0e20f12e2a4e5265e28513">MR_std_vector_MR_Dipole_const_iterator_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a721b70f5fc0e20f12e2a4e5265e28513"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4058b4979c668523d373b04f80f4640d" id="r_a4058b4979c668523d373b04f80f4640d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ad33b5937075b0fd2fbb00ee3697d9bd9">MR_std_vector_MR_Dipole_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4058b4979c668523d373b04f80f4640d">MR_std_vector_MR_Dipole_const_iterator_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a4058b4979c668523d373b04f80f4640d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9dbdcc209fb3d87a12fd4db22d0710af" id="r_a9dbdcc209fb3d87a12fd4db22d0710af"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ad33b5937075b0fd2fbb00ee3697d9bd9">MR_std_vector_MR_Dipole_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9dbdcc209fb3d87a12fd4db22d0710af">MR_std_vector_MR_Dipole_const_iterator_ConstructFromAnother</a> (const <a class="el" href="#ad33b5937075b0fd2fbb00ee3697d9bd9">MR_std_vector_MR_Dipole_const_iterator</a> *other)</td></tr>
+<tr class="separator:a9dbdcc209fb3d87a12fd4db22d0710af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65916ff0459abb0f4deb964b7ef729e2" id="r_a65916ff0459abb0f4deb964b7ef729e2"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65916ff0459abb0f4deb964b7ef729e2">MR_std_vector_MR_Dipole_const_iterator_AssignFromAnother</a> (<a class="el" href="#ad33b5937075b0fd2fbb00ee3697d9bd9">MR_std_vector_MR_Dipole_const_iterator</a> *_this, const <a class="el" href="#ad33b5937075b0fd2fbb00ee3697d9bd9">MR_std_vector_MR_Dipole_const_iterator</a> *other)</td></tr>
+<tr class="separator:a65916ff0459abb0f4deb964b7ef729e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26c7f2988871b77f8e1d6bbd1da01cb7" id="r_a26c7f2988871b77f8e1d6bbd1da01cb7"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a26c7f2988871b77f8e1d6bbd1da01cb7">MR_std_vector_MR_Dipole_const_iterator_Destroy</a> (const <a class="el" href="#ad33b5937075b0fd2fbb00ee3697d9bd9">MR_std_vector_MR_Dipole_const_iterator</a> *_this)</td></tr>
+<tr class="memdesc:a26c7f2988871b77f8e1d6bbd1da01cb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_std_vector_MR_Dipole_const_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a26c7f2988871b77f8e1d6bbd1da01cb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2748b37e851b4e55cff02829a3c49231" id="r_a2748b37e851b4e55cff02829a3c49231"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2748b37e851b4e55cff02829a3c49231">MR_std_vector_MR_Dipole_const_iterator_DestroyArray</a> (const <a class="el" href="#ad33b5937075b0fd2fbb00ee3697d9bd9">MR_std_vector_MR_Dipole_const_iterator</a> *_this)</td></tr>
+<tr class="memdesc:a2748b37e851b4e55cff02829a3c49231"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_std_vector_MR_Dipole_const_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a2748b37e851b4e55cff02829a3c49231"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2036bc3f80fc801aeb6b3eedfc962b76" id="r_a2036bc3f80fc801aeb6b3eedfc962b76"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#ad33b5937075b0fd2fbb00ee3697d9bd9">MR_std_vector_MR_Dipole_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2036bc3f80fc801aeb6b3eedfc962b76">MR_std_vector_MR_Dipole_const_iterator_OffsetPtr</a> (const <a class="el" href="#ad33b5937075b0fd2fbb00ee3697d9bd9">MR_std_vector_MR_Dipole_const_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a2036bc3f80fc801aeb6b3eedfc962b76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a2036bc3f80fc801aeb6b3eedfc962b76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a647fc3d7a434c42c2587e3a5a69e919b" id="r_a647fc3d7a434c42c2587e3a5a69e919b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ad33b5937075b0fd2fbb00ee3697d9bd9">MR_std_vector_MR_Dipole_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a647fc3d7a434c42c2587e3a5a69e919b">MR_std_vector_MR_Dipole_const_iterator_OffsetMutablePtr</a> (<a class="el" href="#ad33b5937075b0fd2fbb00ee3697d9bd9">MR_std_vector_MR_Dipole_const_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a647fc3d7a434c42c2587e3a5a69e919b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a647fc3d7a434c42c2587e3a5a69e919b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34e3fdcb09b6c6efc4d17a2268e8f4b4" id="r_a34e3fdcb09b6c6efc4d17a2268e8f4b4"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ad33b5937075b0fd2fbb00ee3697d9bd9">MR_std_vector_MR_Dipole_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34e3fdcb09b6c6efc4d17a2268e8f4b4">MR_std_vector_MR_Dipole_const_iterator_FromMutable</a> (const <a class="el" href="#ab0e2144843316a1e4710007217c6ba96">MR_std_vector_MR_Dipole_iterator</a> *iter)</td></tr>
+<tr class="separator:a34e3fdcb09b6c6efc4d17a2268e8f4b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a681282a9240b22acde552891bc8578be" id="r_a681282a9240b22acde552891bc8578be"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ab0e2144843316a1e4710007217c6ba96">MR_std_vector_MR_Dipole_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a681282a9240b22acde552891bc8578be">MR_std_vector_MR_Dipole_iterator_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a681282a9240b22acde552891bc8578be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a362745fca7e162743930074510e803ea" id="r_a362745fca7e162743930074510e803ea"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ab0e2144843316a1e4710007217c6ba96">MR_std_vector_MR_Dipole_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a362745fca7e162743930074510e803ea">MR_std_vector_MR_Dipole_iterator_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a362745fca7e162743930074510e803ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26ee62f0b9f889ebf37a629a854ec4ef" id="r_a26ee62f0b9f889ebf37a629a854ec4ef"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ab0e2144843316a1e4710007217c6ba96">MR_std_vector_MR_Dipole_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a26ee62f0b9f889ebf37a629a854ec4ef">MR_std_vector_MR_Dipole_iterator_ConstructFromAnother</a> (const <a class="el" href="#ab0e2144843316a1e4710007217c6ba96">MR_std_vector_MR_Dipole_iterator</a> *other)</td></tr>
+<tr class="separator:a26ee62f0b9f889ebf37a629a854ec4ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43cdf6362e6f280a22ecf16612f00b14" id="r_a43cdf6362e6f280a22ecf16612f00b14"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43cdf6362e6f280a22ecf16612f00b14">MR_std_vector_MR_Dipole_iterator_AssignFromAnother</a> (<a class="el" href="#ab0e2144843316a1e4710007217c6ba96">MR_std_vector_MR_Dipole_iterator</a> *_this, const <a class="el" href="#ab0e2144843316a1e4710007217c6ba96">MR_std_vector_MR_Dipole_iterator</a> *other)</td></tr>
+<tr class="separator:a43cdf6362e6f280a22ecf16612f00b14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc26762eaf64be73fb93aca955b03c44" id="r_afc26762eaf64be73fb93aca955b03c44"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc26762eaf64be73fb93aca955b03c44">MR_std_vector_MR_Dipole_iterator_Destroy</a> (const <a class="el" href="#ab0e2144843316a1e4710007217c6ba96">MR_std_vector_MR_Dipole_iterator</a> *_this)</td></tr>
+<tr class="memdesc:afc26762eaf64be73fb93aca955b03c44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_std_vector_MR_Dipole_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:afc26762eaf64be73fb93aca955b03c44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61cbde51bfdf129f3912ed27f5b0db29" id="r_a61cbde51bfdf129f3912ed27f5b0db29"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a61cbde51bfdf129f3912ed27f5b0db29">MR_std_vector_MR_Dipole_iterator_DestroyArray</a> (const <a class="el" href="#ab0e2144843316a1e4710007217c6ba96">MR_std_vector_MR_Dipole_iterator</a> *_this)</td></tr>
+<tr class="memdesc:a61cbde51bfdf129f3912ed27f5b0db29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_std_vector_MR_Dipole_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a61cbde51bfdf129f3912ed27f5b0db29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3e4cc31b0af221a7b025b36288c24b2" id="r_af3e4cc31b0af221a7b025b36288c24b2"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#ab0e2144843316a1e4710007217c6ba96">MR_std_vector_MR_Dipole_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3e4cc31b0af221a7b025b36288c24b2">MR_std_vector_MR_Dipole_iterator_OffsetPtr</a> (const <a class="el" href="#ab0e2144843316a1e4710007217c6ba96">MR_std_vector_MR_Dipole_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:af3e4cc31b0af221a7b025b36288c24b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:af3e4cc31b0af221a7b025b36288c24b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3907eaeff17837820db3cafb0db779c0" id="r_a3907eaeff17837820db3cafb0db779c0"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ab0e2144843316a1e4710007217c6ba96">MR_std_vector_MR_Dipole_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3907eaeff17837820db3cafb0db779c0">MR_std_vector_MR_Dipole_iterator_OffsetMutablePtr</a> (<a class="el" href="#ab0e2144843316a1e4710007217c6ba96">MR_std_vector_MR_Dipole_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a3907eaeff17837820db3cafb0db779c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a3907eaeff17837820db3cafb0db779c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45995c7ec1927ca847247978cfb29cf1" id="r_a45995c7ec1927ca847247978cfb29cf1"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRDipole_8h.html#a1355a9205c77a994f7dc42f7ce5eb774">MR_Dipole</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45995c7ec1927ca847247978cfb29cf1">MR_std_vector_MR_Dipole_const_iterator_Deref</a> (const <a class="el" href="#ad33b5937075b0fd2fbb00ee3697d9bd9">MR_std_vector_MR_Dipole_const_iterator</a> *_this)</td></tr>
+<tr class="separator:a45995c7ec1927ca847247978cfb29cf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69c49c45700da60726e764e6606b0c3e" id="r_a69c49c45700da60726e764e6606b0c3e"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69c49c45700da60726e764e6606b0c3e">MR_std_vector_MR_Dipole_const_iterator_Incr</a> (<a class="el" href="#ad33b5937075b0fd2fbb00ee3697d9bd9">MR_std_vector_MR_Dipole_const_iterator</a> *_this)</td></tr>
+<tr class="separator:a69c49c45700da60726e764e6606b0c3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ca395873a8a038f64284be8b726e88f" id="r_a0ca395873a8a038f64284be8b726e88f"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ca395873a8a038f64284be8b726e88f">MR_std_vector_MR_Dipole_const_iterator_Decr</a> (<a class="el" href="#ad33b5937075b0fd2fbb00ee3697d9bd9">MR_std_vector_MR_Dipole_const_iterator</a> *_this)</td></tr>
+<tr class="separator:a0ca395873a8a038f64284be8b726e88f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ff5588743d5a3d9f654560fc62ac5ad" id="r_a5ff5588743d5a3d9f654560fc62ac5ad"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ff5588743d5a3d9f654560fc62ac5ad">MR_std_vector_MR_Dipole_const_iterator_OffsetBy</a> (<a class="el" href="#ad33b5937075b0fd2fbb00ee3697d9bd9">MR_std_vector_MR_Dipole_const_iterator</a> *_this, ptrdiff_t delta)</td></tr>
+<tr class="separator:a5ff5588743d5a3d9f654560fc62ac5ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3831d87a9e9656ccfc39d1f57e93ed9c" id="r_a3831d87a9e9656ccfc39d1f57e93ed9c"><td class="memItemLeft" align="right" valign="top">MRC_API ptrdiff_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3831d87a9e9656ccfc39d1f57e93ed9c">MR_std_vector_MR_Dipole_const_iterator_Distance</a> (const <a class="el" href="#ad33b5937075b0fd2fbb00ee3697d9bd9">MR_std_vector_MR_Dipole_const_iterator</a> *a, const <a class="el" href="#ad33b5937075b0fd2fbb00ee3697d9bd9">MR_std_vector_MR_Dipole_const_iterator</a> *b)</td></tr>
+<tr class="separator:a3831d87a9e9656ccfc39d1f57e93ed9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89236eeb10fe2506aa72c6d6bf6c8f7f" id="r_a89236eeb10fe2506aa72c6d6bf6c8f7f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRDipole_8h.html#a1355a9205c77a994f7dc42f7ce5eb774">MR_Dipole</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a89236eeb10fe2506aa72c6d6bf6c8f7f">MR_std_vector_MR_Dipole_iterator_Deref</a> (const <a class="el" href="#ab0e2144843316a1e4710007217c6ba96">MR_std_vector_MR_Dipole_iterator</a> *_this)</td></tr>
+<tr class="separator:a89236eeb10fe2506aa72c6d6bf6c8f7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a352161ddd5f8189dd9c6656d44eb654d" id="r_a352161ddd5f8189dd9c6656d44eb654d"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a352161ddd5f8189dd9c6656d44eb654d">MR_std_vector_MR_Dipole_iterator_Incr</a> (<a class="el" href="#ab0e2144843316a1e4710007217c6ba96">MR_std_vector_MR_Dipole_iterator</a> *_this)</td></tr>
+<tr class="separator:a352161ddd5f8189dd9c6656d44eb654d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafbfcd7391f7bfadf43fac5969962cad" id="r_aafbfcd7391f7bfadf43fac5969962cad"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aafbfcd7391f7bfadf43fac5969962cad">MR_std_vector_MR_Dipole_iterator_Decr</a> (<a class="el" href="#ab0e2144843316a1e4710007217c6ba96">MR_std_vector_MR_Dipole_iterator</a> *_this)</td></tr>
+<tr class="separator:aafbfcd7391f7bfadf43fac5969962cad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade4977b79945de8f7d9c6c31560960a8" id="r_ade4977b79945de8f7d9c6c31560960a8"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade4977b79945de8f7d9c6c31560960a8">MR_std_vector_MR_Dipole_iterator_OffsetBy</a> (<a class="el" href="#ab0e2144843316a1e4710007217c6ba96">MR_std_vector_MR_Dipole_iterator</a> *_this, ptrdiff_t delta)</td></tr>
+<tr class="separator:ade4977b79945de8f7d9c6c31560960a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a791a21427c9db49ada58bf1600cb925c" id="r_a791a21427c9db49ada58bf1600cb925c"><td class="memItemLeft" align="right" valign="top">MRC_API ptrdiff_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a791a21427c9db49ada58bf1600cb925c">MR_std_vector_MR_Dipole_iterator_Distance</a> (const <a class="el" href="#ab0e2144843316a1e4710007217c6ba96">MR_std_vector_MR_Dipole_iterator</a> *a, const <a class="el" href="#ab0e2144843316a1e4710007217c6ba96">MR_std_vector_MR_Dipole_iterator</a> *b)</td></tr>
+<tr class="separator:a791a21427c9db49ada58bf1600cb925c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a1355a9205c77a994f7dc42f7ce5eb774" name="a1355a9205c77a994f7dc42f7ce5eb774"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1355a9205c77a994f7dc42f7ce5eb774">&#9670;&#160;</a></span>MR_Dipole</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRDipole_8h.html#a1355a9205c77a994f7dc42f7ce5eb774">MR_Dipole</a> <a class="el" href="MRDipole_8h.html#a1355a9205c77a994f7dc42f7ce5eb774">MR_Dipole</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abaeea631b3bf284704cbff68b83f9486" name="abaeea631b3bf284704cbff68b83f9486"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abaeea631b3bf284704cbff68b83f9486">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> <a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from C++ container <code>std::vector&lt;<a class="elRef" href="../Cpp/structMR_1_1Dipole.html">MR::Dipole</a>&gt;</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code>, (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="ad33b5937075b0fd2fbb00ee3697d9bd9" name="ad33b5937075b0fd2fbb00ee3697d9bd9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad33b5937075b0fd2fbb00ee3697d9bd9">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_const_iterator</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#ad33b5937075b0fd2fbb00ee3697d9bd9">MR_std_vector_MR_Dipole_const_iterator</a> <a class="el" href="#ad33b5937075b0fd2fbb00ee3697d9bd9">MR_std_vector_MR_Dipole_const_iterator</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Read-only iterator for <code>MR_std_vector_MR_Dipole</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code>, (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="ab0e2144843316a1e4710007217c6ba96" name="ab0e2144843316a1e4710007217c6ba96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0e2144843316a1e4710007217c6ba96">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_iterator</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#ab0e2144843316a1e4710007217c6ba96">MR_std_vector_MR_Dipole_iterator</a> <a class="el" href="#ab0e2144843316a1e4710007217c6ba96">MR_std_vector_MR_Dipole_iterator</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Mutable iterator for <code>MR_std_vector_MR_Dipole</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code>, (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="aecdc82cbb36abc1f9fcb6a055fca74f9" name="aecdc82cbb36abc1f9fcb6a055fca74f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aecdc82cbb36abc1f9fcb6a055fca74f9">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_Dipole_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a4102932779f53a4adcc3fbebbd463455" name="a4102932779f53a4adcc3fbebbd463455"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4102932779f53a4adcc3fbebbd463455">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_At()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRDipole_8h.html#a1355a9205c77a994f7dc42f7ce5eb774">MR_Dipole</a> * MR_std_vector_MR_Dipole_At </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The element at a specific index, read-only. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a38c581cb4a64cb12baaf81dc5c35cee5" name="a38c581cb4a64cb12baaf81dc5c35cee5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38c581cb4a64cb12baaf81dc5c35cee5">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_Back()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRDipole_8h.html#a1355a9205c77a994f7dc42f7ce5eb774">MR_Dipole</a> * MR_std_vector_MR_Dipole_Back </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The last element or null if empty, read-only. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a1f234dfa9fe8d3f212d37d094d1179bd" name="a1f234dfa9fe8d3f212d37d094d1179bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f234dfa9fe8d3f212d37d094d1179bd">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_Begin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ad33b5937075b0fd2fbb00ee3697d9bd9">MR_std_vector_MR_Dipole_const_iterator</a> * MR_std_vector_MR_Dipole_Begin </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, const. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a26c7f2988871b77f8e1d6bbd1da01cb7" title="Destroys a heap-allocated instance of MR_std_vector_MR_Dipole_const_iterator. Does nothing if the poi...">MR_std_vector_MR_Dipole_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="addb263722c6b5b6f267014a111e2133b" name="addb263722c6b5b6f267014a111e2133b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#addb263722c6b5b6f267014a111e2133b">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_Capacity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API size_t MR_std_vector_MR_Dipole_Capacity </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The memory capacity, measued in the number of elements. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a6516d8a7eeaba07f9ae759f286941b2a" name="a6516d8a7eeaba07f9ae759f286941b2a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6516d8a7eeaba07f9ae759f286941b2a">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_Clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_Dipole_Clear </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Removes all elements from the container. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a65916ff0459abb0f4deb964b7ef729e2" name="a65916ff0459abb0f4deb964b7ef729e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65916ff0459abb0f4deb964b7ef729e2">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_const_iterator_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_Dipole_const_iterator_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ad33b5937075b0fd2fbb00ee3697d9bd9">MR_std_vector_MR_Dipole_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ad33b5937075b0fd2fbb00ee3697d9bd9">MR_std_vector_MR_Dipole_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <code>_this</code> can not be null. Parameter <code>other</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a9dbdcc209fb3d87a12fd4db22d0710af" name="a9dbdcc209fb3d87a12fd4db22d0710af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9dbdcc209fb3d87a12fd4db22d0710af">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_const_iterator_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ad33b5937075b0fd2fbb00ee3697d9bd9">MR_std_vector_MR_Dipole_const_iterator</a> * MR_std_vector_MR_Dipole_const_iterator_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ad33b5937075b0fd2fbb00ee3697d9bd9">MR_std_vector_MR_Dipole_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs a copy of another instance. The source remains alive. Parameter <code>other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a26c7f2988871b77f8e1d6bbd1da01cb7" title="Destroys a heap-allocated instance of MR_std_vector_MR_Dipole_const_iterator. Does nothing if the poi...">MR_std_vector_MR_Dipole_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a0ca395873a8a038f64284be8b726e88f" name="a0ca395873a8a038f64284be8b726e88f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ca395873a8a038f64284be8b726e88f">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_const_iterator_Decr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_Dipole_const_iterator_Decr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ad33b5937075b0fd2fbb00ee3697d9bd9">MR_std_vector_MR_Dipole_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Decrements a const iterator. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a721b70f5fc0e20f12e2a4e5265e28513" name="a721b70f5fc0e20f12e2a4e5265e28513"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a721b70f5fc0e20f12e2a4e5265e28513">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_const_iterator_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ad33b5937075b0fd2fbb00ee3697d9bd9">MR_std_vector_MR_Dipole_const_iterator</a> * MR_std_vector_MR_Dipole_const_iterator_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a26c7f2988871b77f8e1d6bbd1da01cb7" title="Destroys a heap-allocated instance of MR_std_vector_MR_Dipole_const_iterator. Does nothing if the poi...">MR_std_vector_MR_Dipole_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a4058b4979c668523d373b04f80f4640d" name="a4058b4979c668523d373b04f80f4640d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4058b4979c668523d373b04f80f4640d">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_const_iterator_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ad33b5937075b0fd2fbb00ee3697d9bd9">MR_std_vector_MR_Dipole_const_iterator</a> * MR_std_vector_MR_Dipole_const_iterator_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a2748b37e851b4e55cff02829a3c49231" title="Destroys a heap-allocated array of MR_std_vector_MR_Dipole_const_iterator. Does nothing if the pointe...">MR_std_vector_MR_Dipole_const_iterator_DestroyArray()</a></code>. Use <code><a class="el" href="#a647fc3d7a434c42c2587e3a5a69e919b" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_Dipole_const_iterator_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a2036bc3f80fc801aeb6b3eedfc962b76" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_Dipole_const_iterator_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a45995c7ec1927ca847247978cfb29cf1" name="a45995c7ec1927ca847247978cfb29cf1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45995c7ec1927ca847247978cfb29cf1">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_const_iterator_Deref()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRDipole_8h.html#a1355a9205c77a994f7dc42f7ce5eb774">MR_Dipole</a> * MR_std_vector_MR_Dipole_const_iterator_Deref </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ad33b5937075b0fd2fbb00ee3697d9bd9">MR_std_vector_MR_Dipole_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Dereferences a const iterator. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a26c7f2988871b77f8e1d6bbd1da01cb7" name="a26c7f2988871b77f8e1d6bbd1da01cb7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26c7f2988871b77f8e1d6bbd1da01cb7">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_const_iterator_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_Dipole_const_iterator_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ad33b5937075b0fd2fbb00ee3697d9bd9">MR_std_vector_MR_Dipole_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_std_vector_MR_Dipole_const_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a2748b37e851b4e55cff02829a3c49231" name="a2748b37e851b4e55cff02829a3c49231"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2748b37e851b4e55cff02829a3c49231">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_const_iterator_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_Dipole_const_iterator_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ad33b5937075b0fd2fbb00ee3697d9bd9">MR_std_vector_MR_Dipole_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_std_vector_MR_Dipole_const_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a3831d87a9e9656ccfc39d1f57e93ed9c" name="a3831d87a9e9656ccfc39d1f57e93ed9c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3831d87a9e9656ccfc39d1f57e93ed9c">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_const_iterator_Distance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API ptrdiff_t MR_std_vector_MR_Dipole_const_iterator_Distance </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ad33b5937075b0fd2fbb00ee3697d9bd9">MR_std_vector_MR_Dipole_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ad33b5937075b0fd2fbb00ee3697d9bd9">MR_std_vector_MR_Dipole_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Computes the signed difference between two const iterators. Completes in constant time. Parameter <code>a</code> can not be null. Parameter <code>b</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a34e3fdcb09b6c6efc4d17a2268e8f4b4" name="a34e3fdcb09b6c6efc4d17a2268e8f4b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34e3fdcb09b6c6efc4d17a2268e8f4b4">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_const_iterator_FromMutable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ad33b5937075b0fd2fbb00ee3697d9bd9">MR_std_vector_MR_Dipole_const_iterator</a> * MR_std_vector_MR_Dipole_const_iterator_FromMutable </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ab0e2144843316a1e4710007217c6ba96">MR_std_vector_MR_Dipole_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Makes a const iterator from a mutable one. Parameter <code>iter</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a26c7f2988871b77f8e1d6bbd1da01cb7" title="Destroys a heap-allocated instance of MR_std_vector_MR_Dipole_const_iterator. Does nothing if the poi...">MR_std_vector_MR_Dipole_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a69c49c45700da60726e764e6606b0c3e" name="a69c49c45700da60726e764e6606b0c3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69c49c45700da60726e764e6606b0c3e">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_const_iterator_Incr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_Dipole_const_iterator_Incr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ad33b5937075b0fd2fbb00ee3697d9bd9">MR_std_vector_MR_Dipole_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Increments a const iterator. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a5ff5588743d5a3d9f654560fc62ac5ad" name="a5ff5588743d5a3d9f654560fc62ac5ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ff5588743d5a3d9f654560fc62ac5ad">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_const_iterator_OffsetBy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_Dipole_const_iterator_OffsetBy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ad33b5937075b0fd2fbb00ee3697d9bd9">MR_std_vector_MR_Dipole_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>delta</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Increments or decrements a const iterator by the specific amount. Completes in constant time. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a647fc3d7a434c42c2587e3a5a69e919b" name="a647fc3d7a434c42c2587e3a5a69e919b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a647fc3d7a434c42c2587e3a5a69e919b">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_const_iterator_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ad33b5937075b0fd2fbb00ee3697d9bd9">MR_std_vector_MR_Dipole_const_iterator</a> * MR_std_vector_MR_Dipole_const_iterator_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ad33b5937075b0fd2fbb00ee3697d9bd9">MR_std_vector_MR_Dipole_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a2036bc3f80fc801aeb6b3eedfc962b76" name="a2036bc3f80fc801aeb6b3eedfc962b76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2036bc3f80fc801aeb6b3eedfc962b76">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_const_iterator_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#ad33b5937075b0fd2fbb00ee3697d9bd9">MR_std_vector_MR_Dipole_const_iterator</a> * MR_std_vector_MR_Dipole_const_iterator_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ad33b5937075b0fd2fbb00ee3697d9bd9">MR_std_vector_MR_Dipole_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a28b17126f878fe48a6bd93b01bcb5a98" name="a28b17126f878fe48a6bd93b01bcb5a98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28b17126f878fe48a6bd93b01bcb5a98">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> * MR_std_vector_MR_Dipole_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs a copy of another instance. The source remains alive. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a96243fe63322f5f058a68cd1fddd68e8" title="Destroys a heap-allocated instance of MR_std_vector_MR_Dipole. Does nothing if the pointer is null.">MR_std_vector_MR_Dipole_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a4646cb29f69c0c9d453a3e7c4c789b3b" name="a4646cb29f69c0c9d453a3e7c4c789b3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4646cb29f69c0c9d453a3e7c4c789b3b">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> * MR_std_vector_MR_Dipole_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a96243fe63322f5f058a68cd1fddd68e8" title="Destroys a heap-allocated instance of MR_std_vector_MR_Dipole. Does nothing if the pointer is null.">MR_std_vector_MR_Dipole_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a7d434e1359e728a7275bd2e6df12fd17" name="a7d434e1359e728a7275bd2e6df12fd17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d434e1359e728a7275bd2e6df12fd17">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> * MR_std_vector_MR_Dipole_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a1eda0d34c4e2d6183363b5d4cc1f5d76" title="Destroys a heap-allocated array of MR_std_vector_MR_Dipole. Does nothing if the pointer is null.">MR_std_vector_MR_Dipole_DestroyArray()</a></code>. Use <code><a class="el" href="#a8563f21837529d6c99d5b0f262b8fb0e" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_Dipole_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a65a2bd9c2011cf76c51f004cb40237af" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_Dipole_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a96243fe63322f5f058a68cd1fddd68e8" name="a96243fe63322f5f058a68cd1fddd68e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96243fe63322f5f058a68cd1fddd68e8">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_Dipole_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_std_vector_MR_Dipole</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a1eda0d34c4e2d6183363b5d4cc1f5d76" name="a1eda0d34c4e2d6183363b5d4cc1f5d76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1eda0d34c4e2d6183363b5d4cc1f5d76">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_Dipole_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_std_vector_MR_Dipole</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a5371b8835e8aa2125894a7a290cde150" name="a5371b8835e8aa2125894a7a290cde150"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5371b8835e8aa2125894a7a290cde150">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_End()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ad33b5937075b0fd2fbb00ee3697d9bd9">MR_std_vector_MR_Dipole_const_iterator</a> * MR_std_vector_MR_Dipole_End </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, const. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a26c7f2988871b77f8e1d6bbd1da01cb7" title="Destroys a heap-allocated instance of MR_std_vector_MR_Dipole_const_iterator. Does nothing if the poi...">MR_std_vector_MR_Dipole_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a3fbfb190b01b779c2b74ffe217087acc" name="a3fbfb190b01b779c2b74ffe217087acc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3fbfb190b01b779c2b74ffe217087acc">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_Erase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_Dipole_Erase </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>position</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Erases the element at the specified position. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a5e0769913e00f8741ca6d7d0bee51ab2" name="a5e0769913e00f8741ca6d7d0bee51ab2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e0769913e00f8741ca6d7d0bee51ab2">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_EraseAtIter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_Dipole_EraseAtIter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ad33b5937075b0fd2fbb00ee3697d9bd9">MR_std_vector_MR_Dipole_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>position</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Erases the element at the specified position. This version takes the position in form of a const iterator, that's the only difference. Parameter <code>_this</code> can not be null. Parameter <code>position</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ab49c30fae9bbd2d01b49bbcd26262b87" name="ab49c30fae9bbd2d01b49bbcd26262b87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab49c30fae9bbd2d01b49bbcd26262b87">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_EraseAtMutableIter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_Dipole_EraseAtMutableIter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ab0e2144843316a1e4710007217c6ba96">MR_std_vector_MR_Dipole_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>position</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Erases the element at the specified position. Parameter <code>_this</code> can not be null. Parameter <code>position</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a3382426273f212fa48509fc313fa79b2" name="a3382426273f212fa48509fc313fa79b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3382426273f212fa48509fc313fa79b2">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_Front()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRDipole_8h.html#a1355a9205c77a994f7dc42f7ce5eb774">MR_Dipole</a> * MR_std_vector_MR_Dipole_Front </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The first element or null if empty, read-only. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a037b0f56ecd54f4d546d28743e7a26b8" name="a037b0f56ecd54f4d546d28743e7a26b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a037b0f56ecd54f4d546d28743e7a26b8">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_Insert()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_Dipole_Insert </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRDipole_8h.html#a1355a9205c77a994f7dc42f7ce5eb774">MR_Dipole</a> *</td>          <td class="paramname"><span class="paramname"><em>new_elem</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Inserts a new element right before the specified position. Parameter <code>_this</code> can not be null. Parameter <code>new_elem</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a0ae884454b7534b8d63484a71b242bb6" name="a0ae884454b7534b8d63484a71b242bb6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ae884454b7534b8d63484a71b242bb6">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_InsertAtIter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_Dipole_InsertAtIter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ad33b5937075b0fd2fbb00ee3697d9bd9">MR_std_vector_MR_Dipole_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRDipole_8h.html#a1355a9205c77a994f7dc42f7ce5eb774">MR_Dipole</a> *</td>          <td class="paramname"><span class="paramname"><em>new_elem</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Inserts a new element right before the specified position. This version takes the position in form of a const iterator, that's the only difference. Parameter <code>_this</code> can not be null. Parameter <code>position</code> can not be null. Parameter <code>new_elem</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aafb0a56bcf8ba9438f6bfaa81f1a07d1" name="aafb0a56bcf8ba9438f6bfaa81f1a07d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aafb0a56bcf8ba9438f6bfaa81f1a07d1">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_InsertAtMutableIter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_Dipole_InsertAtMutableIter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ab0e2144843316a1e4710007217c6ba96">MR_std_vector_MR_Dipole_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRDipole_8h.html#a1355a9205c77a994f7dc42f7ce5eb774">MR_Dipole</a> *</td>          <td class="paramname"><span class="paramname"><em>new_elem</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Inserts a new element right before the specified position. Parameter <code>_this</code> can not be null. Parameter <code>position</code> can not be null. Parameter <code>new_elem</code> can not be null. </p>
+
+</div>
+</div>
+<a id="adb69c6af35877878bcf1b155efc6aa37" name="adb69c6af35877878bcf1b155efc6aa37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb69c6af35877878bcf1b155efc6aa37">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_IsBegin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_MR_Dipole_IsBegin </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ad33b5937075b0fd2fbb00ee3697d9bd9">MR_std_vector_MR_Dipole_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a const iterator is the begin iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a9e6137c01b59087ba5438ace7a83c525" name="a9e6137c01b59087ba5438ace7a83c525"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e6137c01b59087ba5438ace7a83c525">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_IsEmpty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_MR_Dipole_IsEmpty </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns true if the size is zero. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a1b572b736707376279d307b7f3146aaf" name="a1b572b736707376279d307b7f3146aaf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b572b736707376279d307b7f3146aaf">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_IsEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_MR_Dipole_IsEnd </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ad33b5937075b0fd2fbb00ee3697d9bd9">MR_std_vector_MR_Dipole_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a const iterator is the end iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a7a43c92ac76b0aea58a3aeadeaa6312a" name="a7a43c92ac76b0aea58a3aeadeaa6312a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a43c92ac76b0aea58a3aeadeaa6312a">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_IsMutableBegin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_MR_Dipole_IsMutableBegin </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ab0e2144843316a1e4710007217c6ba96">MR_std_vector_MR_Dipole_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a mutable iterator is the begin iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a07adec07b97cd88d4c18577556eeacee" name="a07adec07b97cd88d4c18577556eeacee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07adec07b97cd88d4c18577556eeacee">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_IsMutableEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_MR_Dipole_IsMutableEnd </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ab0e2144843316a1e4710007217c6ba96">MR_std_vector_MR_Dipole_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a mutable iterator is the end iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a43cdf6362e6f280a22ecf16612f00b14" name="a43cdf6362e6f280a22ecf16612f00b14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43cdf6362e6f280a22ecf16612f00b14">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_iterator_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_Dipole_iterator_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ab0e2144843316a1e4710007217c6ba96">MR_std_vector_MR_Dipole_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ab0e2144843316a1e4710007217c6ba96">MR_std_vector_MR_Dipole_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <code>_this</code> can not be null. Parameter <code>other</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a26ee62f0b9f889ebf37a629a854ec4ef" name="a26ee62f0b9f889ebf37a629a854ec4ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26ee62f0b9f889ebf37a629a854ec4ef">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_iterator_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ab0e2144843316a1e4710007217c6ba96">MR_std_vector_MR_Dipole_iterator</a> * MR_std_vector_MR_Dipole_iterator_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ab0e2144843316a1e4710007217c6ba96">MR_std_vector_MR_Dipole_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs a copy of another instance. The source remains alive. Parameter <code>other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#afc26762eaf64be73fb93aca955b03c44" title="Destroys a heap-allocated instance of MR_std_vector_MR_Dipole_iterator. Does nothing if the pointer i...">MR_std_vector_MR_Dipole_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="aafbfcd7391f7bfadf43fac5969962cad" name="aafbfcd7391f7bfadf43fac5969962cad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aafbfcd7391f7bfadf43fac5969962cad">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_iterator_Decr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_Dipole_iterator_Decr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ab0e2144843316a1e4710007217c6ba96">MR_std_vector_MR_Dipole_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Decrements a mutable iterator. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a681282a9240b22acde552891bc8578be" name="a681282a9240b22acde552891bc8578be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a681282a9240b22acde552891bc8578be">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_iterator_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ab0e2144843316a1e4710007217c6ba96">MR_std_vector_MR_Dipole_iterator</a> * MR_std_vector_MR_Dipole_iterator_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#afc26762eaf64be73fb93aca955b03c44" title="Destroys a heap-allocated instance of MR_std_vector_MR_Dipole_iterator. Does nothing if the pointer i...">MR_std_vector_MR_Dipole_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a362745fca7e162743930074510e803ea" name="a362745fca7e162743930074510e803ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a362745fca7e162743930074510e803ea">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_iterator_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ab0e2144843316a1e4710007217c6ba96">MR_std_vector_MR_Dipole_iterator</a> * MR_std_vector_MR_Dipole_iterator_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a61cbde51bfdf129f3912ed27f5b0db29" title="Destroys a heap-allocated array of MR_std_vector_MR_Dipole_iterator. Does nothing if the pointer is n...">MR_std_vector_MR_Dipole_iterator_DestroyArray()</a></code>. Use <code><a class="el" href="#a3907eaeff17837820db3cafb0db779c0" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_Dipole_iterator_OffsetMutablePtr()</a></code> and <code><a class="el" href="#af3e4cc31b0af221a7b025b36288c24b2" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_Dipole_iterator_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a89236eeb10fe2506aa72c6d6bf6c8f7f" name="a89236eeb10fe2506aa72c6d6bf6c8f7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89236eeb10fe2506aa72c6d6bf6c8f7f">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_iterator_Deref()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRDipole_8h.html#a1355a9205c77a994f7dc42f7ce5eb774">MR_Dipole</a> * MR_std_vector_MR_Dipole_iterator_Deref </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ab0e2144843316a1e4710007217c6ba96">MR_std_vector_MR_Dipole_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Dereferences a mutable iterator. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="afc26762eaf64be73fb93aca955b03c44" name="afc26762eaf64be73fb93aca955b03c44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc26762eaf64be73fb93aca955b03c44">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_iterator_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_Dipole_iterator_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ab0e2144843316a1e4710007217c6ba96">MR_std_vector_MR_Dipole_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_std_vector_MR_Dipole_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a61cbde51bfdf129f3912ed27f5b0db29" name="a61cbde51bfdf129f3912ed27f5b0db29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61cbde51bfdf129f3912ed27f5b0db29">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_iterator_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_Dipole_iterator_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ab0e2144843316a1e4710007217c6ba96">MR_std_vector_MR_Dipole_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_std_vector_MR_Dipole_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a791a21427c9db49ada58bf1600cb925c" name="a791a21427c9db49ada58bf1600cb925c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a791a21427c9db49ada58bf1600cb925c">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_iterator_Distance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API ptrdiff_t MR_std_vector_MR_Dipole_iterator_Distance </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ab0e2144843316a1e4710007217c6ba96">MR_std_vector_MR_Dipole_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ab0e2144843316a1e4710007217c6ba96">MR_std_vector_MR_Dipole_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Computes the signed difference between two mutable iterators. Completes in constant time. Parameter <code>a</code> can not be null. Parameter <code>b</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a352161ddd5f8189dd9c6656d44eb654d" name="a352161ddd5f8189dd9c6656d44eb654d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a352161ddd5f8189dd9c6656d44eb654d">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_iterator_Incr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_Dipole_iterator_Incr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ab0e2144843316a1e4710007217c6ba96">MR_std_vector_MR_Dipole_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Increments a mutable iterator. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ade4977b79945de8f7d9c6c31560960a8" name="ade4977b79945de8f7d9c6c31560960a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade4977b79945de8f7d9c6c31560960a8">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_iterator_OffsetBy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_Dipole_iterator_OffsetBy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ab0e2144843316a1e4710007217c6ba96">MR_std_vector_MR_Dipole_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>delta</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Increments or decrements a mutable iterator by the specific amount. Completes in constant time. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a3907eaeff17837820db3cafb0db779c0" name="a3907eaeff17837820db3cafb0db779c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3907eaeff17837820db3cafb0db779c0">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_iterator_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ab0e2144843316a1e4710007217c6ba96">MR_std_vector_MR_Dipole_iterator</a> * MR_std_vector_MR_Dipole_iterator_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ab0e2144843316a1e4710007217c6ba96">MR_std_vector_MR_Dipole_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="af3e4cc31b0af221a7b025b36288c24b2" name="af3e4cc31b0af221a7b025b36288c24b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3e4cc31b0af221a7b025b36288c24b2">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_iterator_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#ab0e2144843316a1e4710007217c6ba96">MR_std_vector_MR_Dipole_iterator</a> * MR_std_vector_MR_Dipole_iterator_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ab0e2144843316a1e4710007217c6ba96">MR_std_vector_MR_Dipole_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a593644219f2ca99d6ddcd0640d9a450e" name="a593644219f2ca99d6ddcd0640d9a450e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a593644219f2ca99d6ddcd0640d9a450e">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_MutableAt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRDipole_8h.html#a1355a9205c77a994f7dc42f7ce5eb774">MR_Dipole</a> * MR_std_vector_MR_Dipole_MutableAt </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The element at a specific index, mutable. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a60ba36c9bea14642bb5c9b22b8aed424" name="a60ba36c9bea14642bb5c9b22b8aed424"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60ba36c9bea14642bb5c9b22b8aed424">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_MutableBack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRDipole_8h.html#a1355a9205c77a994f7dc42f7ce5eb774">MR_Dipole</a> * MR_std_vector_MR_Dipole_MutableBack </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The last element or null if empty, mutable. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ac7f20f3c3d0624578099c772d58dca42" name="ac7f20f3c3d0624578099c772d58dca42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7f20f3c3d0624578099c772d58dca42">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_MutableBegin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ab0e2144843316a1e4710007217c6ba96">MR_std_vector_MR_Dipole_iterator</a> * MR_std_vector_MR_Dipole_MutableBegin </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, mutable. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#afc26762eaf64be73fb93aca955b03c44" title="Destroys a heap-allocated instance of MR_std_vector_MR_Dipole_iterator. Does nothing if the pointer i...">MR_std_vector_MR_Dipole_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="afad40d19e46cc9246bcd9cbf04a01548" name="afad40d19e46cc9246bcd9cbf04a01548"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afad40d19e46cc9246bcd9cbf04a01548">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_MutableEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ab0e2144843316a1e4710007217c6ba96">MR_std_vector_MR_Dipole_iterator</a> * MR_std_vector_MR_Dipole_MutableEnd </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, mutable. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#afc26762eaf64be73fb93aca955b03c44" title="Destroys a heap-allocated instance of MR_std_vector_MR_Dipole_iterator. Does nothing if the pointer i...">MR_std_vector_MR_Dipole_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a26a813968e60b4e064919396b74e6510" name="a26a813968e60b4e064919396b74e6510"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26a813968e60b4e064919396b74e6510">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_MutableFront()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRDipole_8h.html#a1355a9205c77a994f7dc42f7ce5eb774">MR_Dipole</a> * MR_std_vector_MR_Dipole_MutableFront </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The first element or null if empty, mutable. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aa6082b91a932d39de399fb7b5089920e" name="aa6082b91a932d39de399fb7b5089920e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6082b91a932d39de399fb7b5089920e">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_MutableToIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API ptrdiff_t MR_std_vector_MR_Dipole_MutableToIndex </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ab0e2144843316a1e4710007217c6ba96">MR_std_vector_MR_Dipole_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Convert a mutable iterator to an index. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a8563f21837529d6c99d5b0f262b8fb0e" name="a8563f21837529d6c99d5b0f262b8fb0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8563f21837529d6c99d5b0f262b8fb0e">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> * MR_std_vector_MR_Dipole_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a65a2bd9c2011cf76c51f004cb40237af" name="a65a2bd9c2011cf76c51f004cb40237af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65a2bd9c2011cf76c51f004cb40237af">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> * MR_std_vector_MR_Dipole_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a942ceac074ce5e89aebc69a40b3e6de5" name="a942ceac074ce5e89aebc69a40b3e6de5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a942ceac074ce5e89aebc69a40b3e6de5">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_PopBack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_Dipole_PopBack </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Removes one element from the end. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ab94439bf4ec40ac68e9a239f646ae73f" name="ab94439bf4ec40ac68e9a239f646ae73f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab94439bf4ec40ac68e9a239f646ae73f">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_PushBack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_Dipole_PushBack </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRDipole_8h.html#a1355a9205c77a994f7dc42f7ce5eb774">MR_Dipole</a> *</td>          <td class="paramname"><span class="paramname"><em>new_elem</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Inserts a new element at the end. Parameter <code>_this</code> can not be null. Parameter <code>new_elem</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aa064395391f133240c2509b703f5eeb0" name="aa064395391f133240c2509b703f5eeb0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa064395391f133240c2509b703f5eeb0">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_Reserve()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_Dipole_Reserve </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>new_capacity</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Reserves memory for a certain number of elements. Never shrinks the memory. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a5d2c626aee1bdd891515bfdbe5b470bb" name="a5d2c626aee1bdd891515bfdbe5b470bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d2c626aee1bdd891515bfdbe5b470bb">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_Resize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_Dipole_Resize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>new_size</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Resizes the container. The new elements if any are zeroed. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a557249d4bc02353d810fa49e78211d7a" name="a557249d4bc02353d810fa49e78211d7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a557249d4bc02353d810fa49e78211d7a">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_ResizeWithDefaultValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_Dipole_ResizeWithDefaultValue </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>new_size</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRDipole_8h.html#a1355a9205c77a994f7dc42f7ce5eb774">MR_Dipole</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Resizes the container. The new elements if any are set to the specified value. Parameter <code>_this</code> can not be null. Parameter <code>value</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a3080c3a231727fb133d64b087a180214" name="a3080c3a231727fb133d64b087a180214"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3080c3a231727fb133d64b087a180214">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_ShrinkToFit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_Dipole_ShrinkToFit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Shrinks the capacity to match the size. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a79163e4d7d2b6f73731e7292ccd4d8d6" name="a79163e4d7d2b6f73731e7292ccd4d8d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79163e4d7d2b6f73731e7292ccd4d8d6">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_Size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API size_t MR_std_vector_MR_Dipole_Size </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The number of elements. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ae786e597da58a4f6216eee2b29b3b451" name="ae786e597da58a4f6216eee2b29b3b451"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae786e597da58a4f6216eee2b29b3b451">&#9670;&#160;</a></span>MR_std_vector_MR_Dipole_ToIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API ptrdiff_t MR_std_vector_MR_Dipole_ToIndex </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRVector_8h.html#abaeea631b3bf284704cbff68b83f9486">MR_std_vector_MR_Dipole</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ad33b5937075b0fd2fbb00ee3697d9bd9">MR_std_vector_MR_Dipole_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Convert a const iterator to an index. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_87d38852fc01aff5f853718c8d8b5cb2.html">Cbindings</a></li><li class="navelem"><a class="el" href="dir_12d01ef4fa7c7ca18852dd6d7d92a624.html">MRCMisc</a></li><li class="navelem"><a class="el" href="std__vector__MR__Dipole_8h.html">std_vector_MR_Dipole.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

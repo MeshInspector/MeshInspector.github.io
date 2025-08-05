@@ -1,0 +1,929 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: MRMeshOverhangs.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('MRMeshOverhangs_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">MRMeshOverhangs.h File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="MRVector3_8h_source.html">MRCMesh/MRVector3.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
+<code>#include &lt;stdint.h&gt;</code><br />
+</div>
+<p><a href="MRMeshOverhangs_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a88a1df6fb138786a55241b1d77a4b0cc" id="r_a88a1df6fb138786a55241b1d77a4b0cc"><td class="memItemLeft" align="right" valign="top">typedef struct MR_AffineXf3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88a1df6fb138786a55241b1d77a4b0cc">MR_AffineXf3f</a></td></tr>
+<tr class="separator:a88a1df6fb138786a55241b1d77a4b0cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31b172f68efca6438544d56eb86d6f40" id="r_a31b172f68efca6438544d56eb86d6f40"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a></td></tr>
+<tr class="separator:a31b172f68efca6438544d56eb86d6f40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b1abbd2bb9a00492f7da1010eee6c21" id="r_a1b1abbd2bb9a00492f7da1010eee6c21"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a1b1abbd2bb9a00492f7da1010eee6c21">MR_expected_std_vector_MR_FaceBitSet_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b1abbd2bb9a00492f7da1010eee6c21">MR_expected_std_vector_MR_FaceBitSet_std_string</a></td></tr>
+<tr class="separator:a1b1abbd2bb9a00492f7da1010eee6c21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb03ce28cacfff1e499d75d512dc4a84" id="r_adb03ce28cacfff1e499d75d512dc4a84"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a></td></tr>
+<tr class="separator:adb03ce28cacfff1e499d75d512dc4a84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad61d6c00ae6daaf30097ffaca3c8c9c2" id="r_ad61d6c00ae6daaf30097ffaca3c8c9c2"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a></td></tr>
+<tr class="separator:ad61d6c00ae6daaf30097ffaca3c8c9c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a741166ac19124393dc826db763c21b81" id="r_a741166ac19124393dc826db763c21b81"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a741166ac19124393dc826db763c21b81">MR_FindOverhangsSettings_Get_axis</a> (const <a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> *_this)</td></tr>
+<tr class="separator:a741166ac19124393dc826db763c21b81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abec162200c1ad771afb9c0bb1b2211f8" id="r_abec162200c1ad771afb9c0bb1b2211f8"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abec162200c1ad771afb9c0bb1b2211f8">MR_FindOverhangsSettings_Set_axis</a> (<a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> *_this, <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> value)</td></tr>
+<tr class="separator:abec162200c1ad771afb9c0bb1b2211f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a519b75bbbcd1bc1e53c32630bb9c9b66" id="r_a519b75bbbcd1bc1e53c32630bb9c9b66"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a519b75bbbcd1bc1e53c32630bb9c9b66">MR_FindOverhangsSettings_GetMutable_axis</a> (<a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> *_this)</td></tr>
+<tr class="separator:a519b75bbbcd1bc1e53c32630bb9c9b66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75941afc3c858cddb4d21b177c785071" id="r_a75941afc3c858cddb4d21b177c785071"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75941afc3c858cddb4d21b177c785071">MR_FindOverhangsSettings_Get_layerHeight</a> (const <a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> *_this)</td></tr>
+<tr class="separator:a75941afc3c858cddb4d21b177c785071"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f09999e4ca75c775888da2e04a96f78" id="r_a3f09999e4ca75c775888da2e04a96f78"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f09999e4ca75c775888da2e04a96f78">MR_FindOverhangsSettings_Set_layerHeight</a> (<a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> *_this, float value)</td></tr>
+<tr class="separator:a3f09999e4ca75c775888da2e04a96f78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61343bace734de28a03a0d1597201dbe" id="r_a61343bace734de28a03a0d1597201dbe"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a61343bace734de28a03a0d1597201dbe">MR_FindOverhangsSettings_GetMutable_layerHeight</a> (<a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> *_this)</td></tr>
+<tr class="separator:a61343bace734de28a03a0d1597201dbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8311b151fe74bd6a81ed0c4487c93cdf" id="r_a8311b151fe74bd6a81ed0c4487c93cdf"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8311b151fe74bd6a81ed0c4487c93cdf">MR_FindOverhangsSettings_Get_maxOverhangDistance</a> (const <a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> *_this)</td></tr>
+<tr class="separator:a8311b151fe74bd6a81ed0c4487c93cdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1212339b29e14af3fa24d75e4f39796" id="r_af1212339b29e14af3fa24d75e4f39796"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1212339b29e14af3fa24d75e4f39796">MR_FindOverhangsSettings_Set_maxOverhangDistance</a> (<a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> *_this, float value)</td></tr>
+<tr class="separator:af1212339b29e14af3fa24d75e4f39796"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c01116d1ab7812301f5dd718e2ed575" id="r_a3c01116d1ab7812301f5dd718e2ed575"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c01116d1ab7812301f5dd718e2ed575">MR_FindOverhangsSettings_GetMutable_maxOverhangDistance</a> (<a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> *_this)</td></tr>
+<tr class="separator:a3c01116d1ab7812301f5dd718e2ed575"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d51c05282db8baa69e777aa2a3f3ba5" id="r_a0d51c05282db8baa69e777aa2a3f3ba5"><td class="memItemLeft" align="right" valign="top">MRC_API const int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d51c05282db8baa69e777aa2a3f3ba5">MR_FindOverhangsSettings_Get_hops</a> (const <a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> *_this)</td></tr>
+<tr class="separator:a0d51c05282db8baa69e777aa2a3f3ba5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae52affa7c63fa624deb1f9eb5f29a959" id="r_ae52affa7c63fa624deb1f9eb5f29a959"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae52affa7c63fa624deb1f9eb5f29a959">MR_FindOverhangsSettings_Set_hops</a> (<a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> *_this, int32_t value)</td></tr>
+<tr class="separator:ae52affa7c63fa624deb1f9eb5f29a959"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f74cd3063adf0555867b13df9a8b4a4" id="r_a7f74cd3063adf0555867b13df9a8b4a4"><td class="memItemLeft" align="right" valign="top">MRC_API int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f74cd3063adf0555867b13df9a8b4a4">MR_FindOverhangsSettings_GetMutable_hops</a> (<a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> *_this)</td></tr>
+<tr class="separator:a7f74cd3063adf0555867b13df9a8b4a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a311581e1d52aef4df169af8c196eeb6c" id="r_a311581e1d52aef4df169af8c196eeb6c"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a311581e1d52aef4df169af8c196eeb6c">MR_FindOverhangsSettings_Get_xf</a> (const <a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> *_this)</td></tr>
+<tr class="separator:a311581e1d52aef4df169af8c196eeb6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a217042f076f8ed2be2d7e8306d33b51e" id="r_a217042f076f8ed2be2d7e8306d33b51e"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a217042f076f8ed2be2d7e8306d33b51e">MR_FindOverhangsSettings_Set_xf</a> (<a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> *_this, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *value)</td></tr>
+<tr class="separator:a217042f076f8ed2be2d7e8306d33b51e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d044310812331ec2a0fd6181c4754e0" id="r_a6d044310812331ec2a0fd6181c4754e0"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d044310812331ec2a0fd6181c4754e0">MR_FindOverhangsSettings_GetMutable_xf</a> (<a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> *_this)</td></tr>
+<tr class="separator:a6d044310812331ec2a0fd6181c4754e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae54d13d1e96897e6e7d2040b164cae28" id="r_ae54d13d1e96897e6e7d2040b164cae28"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae54d13d1e96897e6e7d2040b164cae28">MR_FindOverhangsSettings_Get_progressCb</a> (const <a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> *_this)</td></tr>
+<tr class="separator:ae54d13d1e96897e6e7d2040b164cae28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1f7aace86f9ddc2f56ee6e6a895330c" id="r_ae1f7aace86f9ddc2f56ee6e6a895330c"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1f7aace86f9ddc2f56ee6e6a895330c">MR_FindOverhangsSettings_Set_progressCb</a> (<a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *value)</td></tr>
+<tr class="separator:ae1f7aace86f9ddc2f56ee6e6a895330c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9aeb02109878b8096243a1c6b4b390b2" id="r_a9aeb02109878b8096243a1c6b4b390b2"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9aeb02109878b8096243a1c6b4b390b2">MR_FindOverhangsSettings_GetMutable_progressCb</a> (<a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> *_this)</td></tr>
+<tr class="separator:a9aeb02109878b8096243a1c6b4b390b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91d19ebdbcd046e9e23cc5861d28ad6b" id="r_a91d19ebdbcd046e9e23cc5861d28ad6b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91d19ebdbcd046e9e23cc5861d28ad6b">MR_FindOverhangsSettings_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a91d19ebdbcd046e9e23cc5861d28ad6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a964f2503a78087e140bf61fde6b10727" id="r_a964f2503a78087e140bf61fde6b10727"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a964f2503a78087e140bf61fde6b10727">MR_FindOverhangsSettings_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a964f2503a78087e140bf61fde6b10727"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33ca7505d1263bef1f82ba8b5875bd6f" id="r_a33ca7505d1263bef1f82ba8b5875bd6f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33ca7505d1263bef1f82ba8b5875bd6f">MR_FindOverhangsSettings_ConstructFrom</a> (<a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> axis, float layerHeight, float maxOverhangDistance, int32_t hops, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *xf, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> progressCb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *progressCb)</td></tr>
+<tr class="separator:a33ca7505d1263bef1f82ba8b5875bd6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52c8592d5a26005eecc682ddccb16bae" id="r_a52c8592d5a26005eecc682ddccb16bae"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52c8592d5a26005eecc682ddccb16bae">MR_FindOverhangsSettings_OffsetPtr</a> (const <a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a52c8592d5a26005eecc682ddccb16bae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a52c8592d5a26005eecc682ddccb16bae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae15b37ff2f41d060b093f7d1797daf17" id="r_ae15b37ff2f41d060b093f7d1797daf17"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae15b37ff2f41d060b093f7d1797daf17">MR_FindOverhangsSettings_OffsetMutablePtr</a> (<a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:ae15b37ff2f41d060b093f7d1797daf17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:ae15b37ff2f41d060b093f7d1797daf17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf7a495ce416e02a8535ad3f46e6a8cd" id="r_acf7a495ce416e02a8535ad3f46e6a8cd"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf7a495ce416e02a8535ad3f46e6a8cd">MR_FindOverhangsSettings_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> *_other)</td></tr>
+<tr class="separator:acf7a495ce416e02a8535ad3f46e6a8cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe1cc0c12c883c07e0c28c32b7ade898" id="r_afe1cc0c12c883c07e0c28c32b7ade898"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe1cc0c12c883c07e0c28c32b7ade898">MR_FindOverhangsSettings_Destroy</a> (const <a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> *_this)</td></tr>
+<tr class="memdesc:afe1cc0c12c883c07e0c28c32b7ade898"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_FindOverhangsSettings</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:afe1cc0c12c883c07e0c28c32b7ade898"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6d2f730eba062244d1fc576f074716c" id="r_ae6d2f730eba062244d1fc576f074716c"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6d2f730eba062244d1fc576f074716c">MR_FindOverhangsSettings_DestroyArray</a> (const <a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> *_this)</td></tr>
+<tr class="memdesc:ae6d2f730eba062244d1fc576f074716c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_FindOverhangsSettings</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ae6d2f730eba062244d1fc576f074716c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42cad8e94a73230306eda89acd723646" id="r_a42cad8e94a73230306eda89acd723646"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42cad8e94a73230306eda89acd723646">MR_FindOverhangsSettings_AssignFromAnother</a> (<a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> *_other)</td></tr>
+<tr class="separator:a42cad8e94a73230306eda89acd723646"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30f926307f58d8adde041658e60debcf" id="r_a30f926307f58d8adde041658e60debcf"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a1b1abbd2bb9a00492f7da1010eee6c21">MR_expected_std_vector_MR_FaceBitSet_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30f926307f58d8adde041658e60debcf">MR_findOverhangs</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> *settings)</td></tr>
+<tr class="memdesc:a30f926307f58d8adde041658e60debcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find face regions that might create overhangs.  <br /></td></tr>
+<tr class="separator:a30f926307f58d8adde041658e60debcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a88a1df6fb138786a55241b1d77a4b0cc" name="a88a1df6fb138786a55241b1d77a4b0cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88a1df6fb138786a55241b1d77a4b0cc">&#9670;&#160;</a></span>MR_AffineXf3f</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct MR_AffineXf3f MR_AffineXf3f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1b1abbd2bb9a00492f7da1010eee6c21" name="a1b1abbd2bb9a00492f7da1010eee6c21"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b1abbd2bb9a00492f7da1010eee6c21">&#9670;&#160;</a></span>MR_expected_std_vector_MR_FaceBitSet_std_string</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a1b1abbd2bb9a00492f7da1010eee6c21">MR_expected_std_vector_MR_FaceBitSet_std_string</a> <a class="el" href="#a1b1abbd2bb9a00492f7da1010eee6c21">MR_expected_std_vector_MR_FaceBitSet_std_string</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad61d6c00ae6daaf30097ffaca3c8c9c2" name="ad61d6c00ae6daaf30097ffaca3c8c9c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">&#9670;&#160;</a></span>MR_FindOverhangsSettings</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> <a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>parameters for <a class="elRef" href="../Cpp/namespaceMR.html#ae5a23c27bb3bb838f31c354a2569981f">MR::findOverhangs</a> Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1FindOverhangsSettings.html">MR::FindOverhangsSettings</a></code>. </p>
+
+</div>
+</div>
+<a id="a31b172f68efca6438544d56eb86d6f40" name="a31b172f68efca6438544d56eb86d6f40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31b172f68efca6438544d56eb86d6f40">&#9670;&#160;</a></span>MR_Mesh</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adb03ce28cacfff1e499d75d512dc4a84" name="adb03ce28cacfff1e499d75d512dc4a84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb03ce28cacfff1e499d75d512dc4a84">&#9670;&#160;</a></span>MR_std_function_bool_from_float</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a30f926307f58d8adde041658e60debcf" name="a30f926307f58d8adde041658e60debcf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30f926307f58d8adde041658e60debcf">&#9670;&#160;</a></span>MR_findOverhangs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a1b1abbd2bb9a00492f7da1010eee6c21">MR_expected_std_vector_MR_FaceBitSet_std_string</a> * MR_findOverhangs </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>settings</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Find face regions that might create overhangs. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mesh</td><td>- source mesh </td></tr>
+    <tr><td class="paramname">settings</td><td>- parameters </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>face regions Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#ae5a23c27bb3bb838f31c354a2569981f">MR::findOverhangs</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>settings</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__std__vector__MR__FaceBitSet__std__string_8h.html#a1a7bbf48e3dfa4dcabd053f9e3aab40b" title="Destroys a heap-allocated instance of MR_expected_std_vector_MR_FaceBitSet_std_string....">MR_expected_std_vector_MR_FaceBitSet_std_string_Destroy()</a></code> to free it when you're done using it. </dd></dl>
+
+</div>
+</div>
+<a id="a42cad8e94a73230306eda89acd723646" name="a42cad8e94a73230306eda89acd723646"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42cad8e94a73230306eda89acd723646">&#9670;&#160;</a></span>MR_FindOverhangsSettings_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> * MR_FindOverhangsSettings_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1FindOverhangsSettings.html">MR::FindOverhangsSettings</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a33ca7505d1263bef1f82ba8b5875bd6f" name="a33ca7505d1263bef1f82ba8b5875bd6f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33ca7505d1263bef1f82ba8b5875bd6f">&#9670;&#160;</a></span>MR_FindOverhangsSettings_ConstructFrom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> * MR_FindOverhangsSettings_ConstructFrom </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR__Vector3f.html">MR_Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>axis</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>layerHeight</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>maxOverhangDistance</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>hops</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *</td>          <td class="paramname"><span class="paramname"><em>xf</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>progressCb_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *</td>          <td class="paramname"><span class="paramname"><em>progressCb</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1FindOverhangsSettings.html">MR::FindOverhangsSettings</a></code> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#afe1cc0c12c883c07e0c28c32b7ade898" title="Destroys a heap-allocated instance of MR_FindOverhangsSettings. Does nothing if the pointer is null.">MR_FindOverhangsSettings_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="acf7a495ce416e02a8535ad3f46e6a8cd" name="acf7a495ce416e02a8535ad3f46e6a8cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf7a495ce416e02a8535ad3f46e6a8cd">&#9670;&#160;</a></span>MR_FindOverhangsSettings_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> * MR_FindOverhangsSettings_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1FindOverhangsSettings.html">MR::FindOverhangsSettings</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#afe1cc0c12c883c07e0c28c32b7ade898" title="Destroys a heap-allocated instance of MR_FindOverhangsSettings. Does nothing if the pointer is null.">MR_FindOverhangsSettings_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a91d19ebdbcd046e9e23cc5861d28ad6b" name="a91d19ebdbcd046e9e23cc5861d28ad6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91d19ebdbcd046e9e23cc5861d28ad6b">&#9670;&#160;</a></span>MR_FindOverhangsSettings_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> * MR_FindOverhangsSettings_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#afe1cc0c12c883c07e0c28c32b7ade898" title="Destroys a heap-allocated instance of MR_FindOverhangsSettings. Does nothing if the pointer is null.">MR_FindOverhangsSettings_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a964f2503a78087e140bf61fde6b10727" name="a964f2503a78087e140bf61fde6b10727"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a964f2503a78087e140bf61fde6b10727">&#9670;&#160;</a></span>MR_FindOverhangsSettings_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> * MR_FindOverhangsSettings_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#ae6d2f730eba062244d1fc576f074716c" title="Destroys a heap-allocated array of MR_FindOverhangsSettings. Does nothing if the pointer is null.">MR_FindOverhangsSettings_DestroyArray()</a></code>. Use <code><a class="el" href="#ae15b37ff2f41d060b093f7d1797daf17" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_FindOverhangsSettings_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a52c8592d5a26005eecc682ddccb16bae" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_FindOverhangsSettings_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="afe1cc0c12c883c07e0c28c32b7ade898" name="afe1cc0c12c883c07e0c28c32b7ade898"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe1cc0c12c883c07e0c28c32b7ade898">&#9670;&#160;</a></span>MR_FindOverhangsSettings_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_FindOverhangsSettings_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_FindOverhangsSettings</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="ae6d2f730eba062244d1fc576f074716c" name="ae6d2f730eba062244d1fc576f074716c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6d2f730eba062244d1fc576f074716c">&#9670;&#160;</a></span>MR_FindOverhangsSettings_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_FindOverhangsSettings_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_FindOverhangsSettings</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a741166ac19124393dc826db763c21b81" name="a741166ac19124393dc826db763c21b81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a741166ac19124393dc826db763c21b81">&#9670;&#160;</a></span>MR_FindOverhangsSettings_Get_axis()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> * MR_FindOverhangsSettings_Get_axis </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>base axis marking the up direction Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FindOverhangsSettings.html">MR::FindOverhangsSettings</a></code> named <code>axis</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a0d51c05282db8baa69e777aa2a3f3ba5" name="a0d51c05282db8baa69e777aa2a3f3ba5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d51c05282db8baa69e777aa2a3f3ba5">&#9670;&#160;</a></span>MR_FindOverhangsSettings_Get_hops()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const int32_t * MR_FindOverhangsSettings_Get_hops </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>number of hops used to smooth out the overhang regions (0 - disable smoothing) Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FindOverhangsSettings.html">MR::FindOverhangsSettings</a></code> named <code>hops</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a75941afc3c858cddb4d21b177c785071" name="a75941afc3c858cddb4d21b177c785071"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75941afc3c858cddb4d21b177c785071">&#9670;&#160;</a></span>MR_FindOverhangsSettings_Get_layerHeight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const float * MR_FindOverhangsSettings_Get_layerHeight </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>height of a layer Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FindOverhangsSettings.html">MR::FindOverhangsSettings</a></code> named <code>layerHeight</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a8311b151fe74bd6a81ed0c4487c93cdf" name="a8311b151fe74bd6a81ed0c4487c93cdf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8311b151fe74bd6a81ed0c4487c93cdf">&#9670;&#160;</a></span>MR_FindOverhangsSettings_Get_maxOverhangDistance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const float * MR_FindOverhangsSettings_Get_maxOverhangDistance </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>maximum allowed overhang distance within a layer Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FindOverhangsSettings.html">MR::FindOverhangsSettings</a></code> named <code>maxOverhangDistance</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ae54d13d1e96897e6e7d2040b164cae28" name="ae54d13d1e96897e6e7d2040b164cae28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae54d13d1e96897e6e7d2040b164cae28">&#9670;&#160;</a></span>MR_FindOverhangsSettings_Get_progressCb()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> * MR_FindOverhangsSettings_Get_progressCb </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FindOverhangsSettings.html">MR::FindOverhangsSettings</a></code> named <code>progressCb</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a311581e1d52aef4df169af8c196eeb6c" name="a311581e1d52aef4df169af8c196eeb6c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a311581e1d52aef4df169af8c196eeb6c">&#9670;&#160;</a></span>MR_FindOverhangsSettings_Get_xf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *const  * MR_FindOverhangsSettings_Get_xf </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>mesh transform Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FindOverhangsSettings.html">MR::FindOverhangsSettings</a></code> named <code>xf</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a519b75bbbcd1bc1e53c32630bb9c9b66" name="a519b75bbbcd1bc1e53c32630bb9c9b66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a519b75bbbcd1bc1e53c32630bb9c9b66">&#9670;&#160;</a></span>MR_FindOverhangsSettings_GetMutable_axis()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> * MR_FindOverhangsSettings_GetMutable_axis </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>base axis marking the up direction Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FindOverhangsSettings.html">MR::FindOverhangsSettings</a></code> named <code>axis</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a7f74cd3063adf0555867b13df9a8b4a4" name="a7f74cd3063adf0555867b13df9a8b4a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f74cd3063adf0555867b13df9a8b4a4">&#9670;&#160;</a></span>MR_FindOverhangsSettings_GetMutable_hops()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API int32_t * MR_FindOverhangsSettings_GetMutable_hops </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>number of hops used to smooth out the overhang regions (0 - disable smoothing) Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FindOverhangsSettings.html">MR::FindOverhangsSettings</a></code> named <code>hops</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a61343bace734de28a03a0d1597201dbe" name="a61343bace734de28a03a0d1597201dbe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61343bace734de28a03a0d1597201dbe">&#9670;&#160;</a></span>MR_FindOverhangsSettings_GetMutable_layerHeight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API float * MR_FindOverhangsSettings_GetMutable_layerHeight </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>height of a layer Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FindOverhangsSettings.html">MR::FindOverhangsSettings</a></code> named <code>layerHeight</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a3c01116d1ab7812301f5dd718e2ed575" name="a3c01116d1ab7812301f5dd718e2ed575"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c01116d1ab7812301f5dd718e2ed575">&#9670;&#160;</a></span>MR_FindOverhangsSettings_GetMutable_maxOverhangDistance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API float * MR_FindOverhangsSettings_GetMutable_maxOverhangDistance </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>maximum allowed overhang distance within a layer Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FindOverhangsSettings.html">MR::FindOverhangsSettings</a></code> named <code>maxOverhangDistance</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a9aeb02109878b8096243a1c6b4b390b2" name="a9aeb02109878b8096243a1c6b4b390b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9aeb02109878b8096243a1c6b4b390b2">&#9670;&#160;</a></span>MR_FindOverhangsSettings_GetMutable_progressCb()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> * MR_FindOverhangsSettings_GetMutable_progressCb </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FindOverhangsSettings.html">MR::FindOverhangsSettings</a></code> named <code>progressCb</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a6d044310812331ec2a0fd6181c4754e0" name="a6d044310812331ec2a0fd6181c4754e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d044310812331ec2a0fd6181c4754e0">&#9670;&#160;</a></span>MR_FindOverhangsSettings_GetMutable_xf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> ** MR_FindOverhangsSettings_GetMutable_xf </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>mesh transform Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FindOverhangsSettings.html">MR::FindOverhangsSettings</a></code> named <code>xf</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ae15b37ff2f41d060b093f7d1797daf17" name="ae15b37ff2f41d060b093f7d1797daf17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae15b37ff2f41d060b093f7d1797daf17">&#9670;&#160;</a></span>MR_FindOverhangsSettings_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> * MR_FindOverhangsSettings_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a52c8592d5a26005eecc682ddccb16bae" name="a52c8592d5a26005eecc682ddccb16bae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52c8592d5a26005eecc682ddccb16bae">&#9670;&#160;</a></span>MR_FindOverhangsSettings_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> * MR_FindOverhangsSettings_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="abec162200c1ad771afb9c0bb1b2211f8" name="abec162200c1ad771afb9c0bb1b2211f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abec162200c1ad771afb9c0bb1b2211f8">&#9670;&#160;</a></span>MR_FindOverhangsSettings_Set_axis()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_FindOverhangsSettings_Set_axis </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__Vector3f.html">MR_Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>base axis marking the up direction Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FindOverhangsSettings.html">MR::FindOverhangsSettings</a></code> named <code>axis</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ae52affa7c63fa624deb1f9eb5f29a959" name="ae52affa7c63fa624deb1f9eb5f29a959"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae52affa7c63fa624deb1f9eb5f29a959">&#9670;&#160;</a></span>MR_FindOverhangsSettings_Set_hops()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_FindOverhangsSettings_Set_hops </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>number of hops used to smooth out the overhang regions (0 - disable smoothing) Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FindOverhangsSettings.html">MR::FindOverhangsSettings</a></code> named <code>hops</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a3f09999e4ca75c775888da2e04a96f78" name="a3f09999e4ca75c775888da2e04a96f78"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f09999e4ca75c775888da2e04a96f78">&#9670;&#160;</a></span>MR_FindOverhangsSettings_Set_layerHeight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_FindOverhangsSettings_Set_layerHeight </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>height of a layer Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FindOverhangsSettings.html">MR::FindOverhangsSettings</a></code> named <code>layerHeight</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="af1212339b29e14af3fa24d75e4f39796" name="af1212339b29e14af3fa24d75e4f39796"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1212339b29e14af3fa24d75e4f39796">&#9670;&#160;</a></span>MR_FindOverhangsSettings_Set_maxOverhangDistance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_FindOverhangsSettings_Set_maxOverhangDistance </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>maximum allowed overhang distance within a layer Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FindOverhangsSettings.html">MR::FindOverhangsSettings</a></code> named <code>maxOverhangDistance</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ae1f7aace86f9ddc2f56ee6e6a895330c" name="ae1f7aace86f9ddc2f56ee6e6a895330c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1f7aace86f9ddc2f56ee6e6a895330c">&#9670;&#160;</a></span>MR_FindOverhangsSettings_Set_progressCb()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_FindOverhangsSettings_Set_progressCb </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FindOverhangsSettings.html">MR::FindOverhangsSettings</a></code> named <code>progressCb</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a217042f076f8ed2be2d7e8306d33b51e" name="a217042f076f8ed2be2d7e8306d33b51e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a217042f076f8ed2be2d7e8306d33b51e">&#9670;&#160;</a></span>MR_FindOverhangsSettings_Set_xf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_FindOverhangsSettings_Set_xf </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ad61d6c00ae6daaf30097ffaca3c8c9c2">MR_FindOverhangsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>mesh transform Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1FindOverhangsSettings.html">MR::FindOverhangsSettings</a></code> named <code>xf</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_87d38852fc01aff5f853718c8d8b5cb2.html">Cbindings</a></li><li class="navelem"><a class="el" href="dir_cb83f9b98dc6f67356ff76bcc17f4f67.html">MRCMesh</a></li><li class="navelem"><a class="el" href="MRMeshOverhangs_8h.html">MRMeshOverhangs.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

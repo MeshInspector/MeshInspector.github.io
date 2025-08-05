@@ -3,6 +3,7 @@ var NAVTREEINDEX0 =
 "../APIPage.html":[6],
 "../BasedApplication.html":[4,0,0],
 "../BasicMathTypesOverview.html":[5,2],
+"../C/APICPage.html":[6,2],
 "../DataModel.html":[5,4],
 "../ExampleContourTriangulation.html":[4,0,22],
 "../ExampleCudaOffset.html":[4,1,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "MRBoolean_8h.html":[6,0,3,0,0,1,12,1],
 "MRBoolean_8h_source.html":[6,0,3,0,0,1,12,1],
 "MRBuffer_8h.html":[6,0,3,0,0,1,4,33],
-"MRBuffer_8h.html#a3bd81207bb5dccdfe9533eae31414e16":[6,0,3,0,0,1,4,33,6],
-"MRBuffer_8h.html#a43427e0d96ff10e6af29370a3b0d7c17":[6,0,3,0,0,1,4,33,10]
+"MRBuffer_8h.html#a3bd81207bb5dccdfe9533eae31414e16":[6,0,3,0,0,1,4,33,6]
 };

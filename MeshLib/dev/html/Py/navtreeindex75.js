@@ -1,5 +1,6 @@
 var NAVTREEINDEX75 =
 {
+"classmrmeshpy_1_1SymMatrix3i64.html#add1b1b60d43570e8234d2ea5c15dfd55":[6,1,1,0,1,990,7],
 "classmrmeshpy_1_1SymMatrix3i64.html#aeb5da810d85e165a742dd8bb632c71d6":[6,1,0,0,2,990,2],
 "classmrmeshpy_1_1SymMatrix3i64.html#aeb5da810d85e165a742dd8bb632c71d6":[6,1,1,0,1,990,2],
 "classmrmeshpy_1_1SymMatrix3i64.html#afdad0eead0228241b15b6ff62e011dcf":[6,1,0,0,2,990,16],
@@ -248,6 +249,5 @@ var NAVTREEINDEX75 =
 "classmrmeshpy_1_1SymMatrix4i64.html#a748c04b81d10502ef93da9d8335ebd05":[6,1,1,0,1,995,19],
 "classmrmeshpy_1_1SymMatrix4i64.html#a75578c8e2acf76102bbabc87df5e92d9":[6,1,0,0,2,995,1],
 "classmrmeshpy_1_1SymMatrix4i64.html#a75578c8e2acf76102bbabc87df5e92d9":[6,1,1,0,1,995,1],
-"classmrmeshpy_1_1SymMatrix4i64.html#a88c4ea8150e96dec4047af8fec0e04dd":[6,1,0,0,2,995,2],
-"classmrmeshpy_1_1SymMatrix4i64.html#a88c4ea8150e96dec4047af8fec0e04dd":[6,1,1,0,1,995,2]
+"classmrmeshpy_1_1SymMatrix4i64.html#a88c4ea8150e96dec4047af8fec0e04dd":[6,1,0,0,2,995,2]
 };

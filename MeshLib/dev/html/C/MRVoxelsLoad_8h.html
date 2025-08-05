@@ -1,0 +1,489 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: MRVoxelsLoad.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('MRVoxelsLoad_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">MRVoxelsLoad.h File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="MRVector3_8h_source.html">MRCMesh/MRVector3.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="MRScalarConvert_8h_source.html">MRCVoxels/MRScalarConvert.h</a>&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
+<code>#include &lt;stdint.h&gt;</code><br />
+</div>
+<p><a href="MRVoxelsLoad_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:ad964a22a5f428efbf66fb45d2d17ed82" id="r_ad964a22a5f428efbf66fb45d2d17ed82"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="expected__MR__FloatGrid__std__string_8h.html#ad964a22a5f428efbf66fb45d2d17ed82">MR_expected_MR_FloatGrid_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad964a22a5f428efbf66fb45d2d17ed82">MR_expected_MR_FloatGrid_std_string</a></td></tr>
+<tr class="separator:ad964a22a5f428efbf66fb45d2d17ed82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afddfdf9f07abac630b268df02dbaed95" id="r_afddfdf9f07abac630b268df02dbaed95"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRE57_8h.html#afddfdf9f07abac630b268df02dbaed95">MR_expected_MR_LoadedObjects_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afddfdf9f07abac630b268df02dbaed95">MR_expected_MR_LoadedObjects_std_string</a></td></tr>
+<tr class="separator:afddfdf9f07abac630b268df02dbaed95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61cd90e7a5c3eb5c7524a41ee1678db1" id="r_a61cd90e7a5c3eb5c7524a41ee1678db1"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="expected__MR__VdbVolume__std__string_8h.html#a61cd90e7a5c3eb5c7524a41ee1678db1">MR_expected_MR_VdbVolume_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a61cd90e7a5c3eb5c7524a41ee1678db1">MR_expected_MR_VdbVolume_std_string</a></td></tr>
+<tr class="separator:a61cd90e7a5c3eb5c7524a41ee1678db1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a633ff3caabdb019f6ddf961b8f5836be" id="r_a633ff3caabdb019f6ddf961b8f5836be"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#a633ff3caabdb019f6ddf961b8f5836be">MR_expected_MR_VoxelsLoad_RawParameters_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a633ff3caabdb019f6ddf961b8f5836be">MR_expected_MR_VoxelsLoad_RawParameters_std_string</a></td></tr>
+<tr class="separator:a633ff3caabdb019f6ddf961b8f5836be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2715e10954cbaa44a81ecdf891016721" id="r_a2715e10954cbaa44a81ecdf891016721"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="expected__std__vector__MR__FloatGrid__std__string_8h.html#a2715e10954cbaa44a81ecdf891016721">MR_expected_std_vector_MR_FloatGrid_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2715e10954cbaa44a81ecdf891016721">MR_expected_std_vector_MR_FloatGrid_std_string</a></td></tr>
+<tr class="separator:a2715e10954cbaa44a81ecdf891016721"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3ba0e6af4325538adb54422bf66550e" id="r_ae3ba0e6af4325538adb54422bf66550e"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="expected__std__vector__MR__VdbVolume__std__string_8h.html#ae3ba0e6af4325538adb54422bf66550e">MR_expected_std_vector_MR_VdbVolume_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae3ba0e6af4325538adb54422bf66550e">MR_expected_std_vector_MR_VdbVolume_std_string</a></td></tr>
+<tr class="separator:ae3ba0e6af4325538adb54422bf66550e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9916094f7c66b0214a856e06fe3ea70" id="r_ac9916094f7c66b0214a856e06fe3ea70"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="expected__std__vector__std__shared__ptr__MR__ObjectVoxels__std__string_8h.html#ac9916094f7c66b0214a856e06fe3ea70">MR_expected_std_vector_std_shared_ptr_MR_ObjectVoxels_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac9916094f7c66b0214a856e06fe3ea70">MR_expected_std_vector_std_shared_ptr_MR_ObjectVoxels_std_string</a></td></tr>
+<tr class="separator:ac9916094f7c66b0214a856e06fe3ea70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a006d61fd2048bba5b5622d42cbe72526" id="r_a006d61fd2048bba5b5622d42cbe72526"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRSceneRoot_8h.html#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a></td></tr>
+<tr class="separator:a006d61fd2048bba5b5622d42cbe72526"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb03ce28cacfff1e499d75d512dc4a84" id="r_adb03ce28cacfff1e499d75d512dc4a84"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a></td></tr>
+<tr class="separator:adb03ce28cacfff1e499d75d512dc4a84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef22a11476e76208a3f9a5cf2eba4c98" id="r_aef22a11476e76208a3f9a5cf2eba4c98"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRCtm_8h.html#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a></td></tr>
+<tr class="separator:aef22a11476e76208a3f9a5cf2eba4c98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf646f8f51576a586c8b409eb6b38e998" id="r_gaf646f8f51576a586c8b409eb6b38e998"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#gaf646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a></td></tr>
+<tr class="separator:gaf646f8f51576a586c8b409eb6b38e998"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga636d5442fee281cbfc2e4f63dec2570d" id="r_ga636d5442fee281cbfc2e4f63dec2570d"><td class="memItemLeft" align="right" valign="top">typedef int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga636d5442fee281cbfc2e4f63dec2570d">MR_VoxelsLoad_GridType</a></td></tr>
+<tr class="separator:ga636d5442fee281cbfc2e4f63dec2570d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaeb55c2e7200cad314e4876ce3d2d50a9" id="r_gaeb55c2e7200cad314e4876ce3d2d50a9"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="group__VoxelsLoadGroup.html#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a></td></tr>
+<tr class="memdesc:gaeb55c2e7200cad314e4876ce3d2d50a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html">MR::VoxelsLoad::LoadingTiffSettings</a></code>.  <br /></td></tr>
+<tr class="separator:gaeb55c2e7200cad314e4876ce3d2d50a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:gadbaf9202177df73e6880eab6e6aab329" id="r_gadbaf9202177df73e6880eab6e6aab329"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="group__VoxelsLoadGroup.html#ggadbaf9202177df73e6880eab6e6aab329a692c6c55e992b9c5076ae747616ef2e2">MR_VoxelsLoad_GridType_DenseGrid</a> = 0
+, <a class="el" href="group__VoxelsLoadGroup.html#ggadbaf9202177df73e6880eab6e6aab329a47d65f766447b295a21ed3614b20b22b">MR_VoxelsLoad_GridType_LevelSet</a> = 1
+ }</td></tr>
+<tr class="separator:gadbaf9202177df73e6880eab6e6aab329"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ga6d7c799106ec441c3db3a48ba3b253cd" id="r_ga6d7c799106ec441c3db3a48ba3b253cd"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga6d7c799106ec441c3db3a48ba3b253cd">MR_VoxelsLoad_RawParameters_Get_dimensions</a> (const <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *_this)</td></tr>
+<tr class="separator:ga6d7c799106ec441c3db3a48ba3b253cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga81d056b1d7984d551d3a182ae3ac027e" id="r_ga81d056b1d7984d551d3a182ae3ac027e"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga81d056b1d7984d551d3a182ae3ac027e">MR_VoxelsLoad_RawParameters_Set_dimensions</a> (<a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *_this, <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> value)</td></tr>
+<tr class="separator:ga81d056b1d7984d551d3a182ae3ac027e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafe44cf12cc761621d0073a4d4f720310" id="r_gafe44cf12cc761621d0073a4d4f720310"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#gafe44cf12cc761621d0073a4d4f720310">MR_VoxelsLoad_RawParameters_GetMutable_dimensions</a> (<a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *_this)</td></tr>
+<tr class="separator:gafe44cf12cc761621d0073a4d4f720310"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4e541ecf2f2a1afad2f0142d13f97bf3" id="r_ga4e541ecf2f2a1afad2f0142d13f97bf3"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga4e541ecf2f2a1afad2f0142d13f97bf3">MR_VoxelsLoad_RawParameters_Get_voxelSize</a> (const <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *_this)</td></tr>
+<tr class="separator:ga4e541ecf2f2a1afad2f0142d13f97bf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae7d3ec5d5bcb1f6a57160dbd1af1ebe2" id="r_gae7d3ec5d5bcb1f6a57160dbd1af1ebe2"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#gae7d3ec5d5bcb1f6a57160dbd1af1ebe2">MR_VoxelsLoad_RawParameters_Set_voxelSize</a> (<a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *_this, <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> value)</td></tr>
+<tr class="separator:gae7d3ec5d5bcb1f6a57160dbd1af1ebe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9bbffd4a23a138648eb79fc90fd68007" id="r_ga9bbffd4a23a138648eb79fc90fd68007"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga9bbffd4a23a138648eb79fc90fd68007">MR_VoxelsLoad_RawParameters_GetMutable_voxelSize</a> (<a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *_this)</td></tr>
+<tr class="separator:ga9bbffd4a23a138648eb79fc90fd68007"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5a2109b8cd6663f0eefb837e7ed84afd" id="r_ga5a2109b8cd6663f0eefb837e7ed84afd"><td class="memItemLeft" align="right" valign="top">MRC_API const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga5a2109b8cd6663f0eefb837e7ed84afd">MR_VoxelsLoad_RawParameters_Get_gridLevelSet</a> (const <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *_this)</td></tr>
+<tr class="separator:ga5a2109b8cd6663f0eefb837e7ed84afd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac90b9de5bc0cf3f150cbcbb30ab91528" id="r_gac90b9de5bc0cf3f150cbcbb30ab91528"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#gac90b9de5bc0cf3f150cbcbb30ab91528">MR_VoxelsLoad_RawParameters_Set_gridLevelSet</a> (<a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *_this, bool value)</td></tr>
+<tr class="separator:gac90b9de5bc0cf3f150cbcbb30ab91528"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabb2e10c65c4d4e642a671a50fed9bb66" id="r_gabb2e10c65c4d4e642a671a50fed9bb66"><td class="memItemLeft" align="right" valign="top">MRC_API bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#gabb2e10c65c4d4e642a671a50fed9bb66">MR_VoxelsLoad_RawParameters_GetMutable_gridLevelSet</a> (<a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *_this)</td></tr>
+<tr class="separator:gabb2e10c65c4d4e642a671a50fed9bb66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9c0332177a691d3f4e40c5c42ea3aa52" id="r_ga9c0332177a691d3f4e40c5c42ea3aa52"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRScalarConvert_8h.html#a1743944c8e2ea6eccba09898ecac81c1">MR_ScalarType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga9c0332177a691d3f4e40c5c42ea3aa52">MR_VoxelsLoad_RawParameters_Get_scalarType</a> (const <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *_this)</td></tr>
+<tr class="separator:ga9c0332177a691d3f4e40c5c42ea3aa52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaed7a9929c7a0b507f536d8da91322611" id="r_gaed7a9929c7a0b507f536d8da91322611"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#gaed7a9929c7a0b507f536d8da91322611">MR_VoxelsLoad_RawParameters_Set_scalarType</a> (<a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *_this, <a class="el" href="MRScalarConvert_8h.html#a1743944c8e2ea6eccba09898ecac81c1">MR_ScalarType</a> value)</td></tr>
+<tr class="separator:gaed7a9929c7a0b507f536d8da91322611"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafbe7b7f538e6bb304729847bad7b6313" id="r_gafbe7b7f538e6bb304729847bad7b6313"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRScalarConvert_8h.html#a1743944c8e2ea6eccba09898ecac81c1">MR_ScalarType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#gafbe7b7f538e6bb304729847bad7b6313">MR_VoxelsLoad_RawParameters_GetMutable_scalarType</a> (<a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *_this)</td></tr>
+<tr class="separator:gafbe7b7f538e6bb304729847bad7b6313"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad5e68f1dcee5cd6d3a71700d673a64a5" id="r_gad5e68f1dcee5cd6d3a71700d673a64a5"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#gad5e68f1dcee5cd6d3a71700d673a64a5">MR_VoxelsLoad_RawParameters_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:gad5e68f1dcee5cd6d3a71700d673a64a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6cecefbfffd032603fe658524a8742f5" id="r_ga6cecefbfffd032603fe658524a8742f5"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga6cecefbfffd032603fe658524a8742f5">MR_VoxelsLoad_RawParameters_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:ga6cecefbfffd032603fe658524a8742f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga85049d280dab49bb7660b557759e7bfc" id="r_ga85049d280dab49bb7660b557759e7bfc"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga85049d280dab49bb7660b557759e7bfc">MR_VoxelsLoad_RawParameters_ConstructFrom</a> (<a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> dimensions, <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> voxelSize, bool gridLevelSet, <a class="el" href="MRScalarConvert_8h.html#a1743944c8e2ea6eccba09898ecac81c1">MR_ScalarType</a> scalarType)</td></tr>
+<tr class="separator:ga85049d280dab49bb7660b557759e7bfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2fcb10382752c97be0f20f3599fd79b5" id="r_ga2fcb10382752c97be0f20f3599fd79b5"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga2fcb10382752c97be0f20f3599fd79b5">MR_VoxelsLoad_RawParameters_OffsetPtr</a> (const <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:ga2fcb10382752c97be0f20f3599fd79b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:ga2fcb10382752c97be0f20f3599fd79b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3ff11520972628479c4240d721a5b9b2" id="r_ga3ff11520972628479c4240d721a5b9b2"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga3ff11520972628479c4240d721a5b9b2">MR_VoxelsLoad_RawParameters_OffsetMutablePtr</a> (<a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:ga3ff11520972628479c4240d721a5b9b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:ga3ff11520972628479c4240d721a5b9b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6acaba3a839d01ef6f58192bd46179b2" id="r_ga6acaba3a839d01ef6f58192bd46179b2"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga6acaba3a839d01ef6f58192bd46179b2">MR_VoxelsLoad_RawParameters_ConstructFromAnother</a> (const <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *_other)</td></tr>
+<tr class="separator:ga6acaba3a839d01ef6f58192bd46179b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaeaf1d290581013e42dcbfcd01ed30275" id="r_gaeaf1d290581013e42dcbfcd01ed30275"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#gaeaf1d290581013e42dcbfcd01ed30275">MR_VoxelsLoad_RawParameters_Destroy</a> (const <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *_this)</td></tr>
+<tr class="memdesc:gaeaf1d290581013e42dcbfcd01ed30275"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_VoxelsLoad_RawParameters</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:gaeaf1d290581013e42dcbfcd01ed30275"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadf448b1c5623aad65147002fb6ff5a76" id="r_gadf448b1c5623aad65147002fb6ff5a76"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#gadf448b1c5623aad65147002fb6ff5a76">MR_VoxelsLoad_RawParameters_DestroyArray</a> (const <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *_this)</td></tr>
+<tr class="memdesc:gadf448b1c5623aad65147002fb6ff5a76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_VoxelsLoad_RawParameters</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:gadf448b1c5623aad65147002fb6ff5a76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga276a8bb64d939aee11ee9c81377dd99a" id="r_ga276a8bb64d939aee11ee9c81377dd99a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga276a8bb64d939aee11ee9c81377dd99a">MR_VoxelsLoad_RawParameters_AssignFromAnother</a> (<a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *_this, const <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *_other)</td></tr>
+<tr class="separator:ga276a8bb64d939aee11ee9c81377dd99a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaaf975f3060f8a5a48e23a036cc55cc92" id="r_gaaf975f3060f8a5a48e23a036cc55cc92"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__MR__VdbVolume__std__string_8h.html#a61cd90e7a5c3eb5c7524a41ee1678db1">MR_expected_MR_VdbVolume_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#gaaf975f3060f8a5a48e23a036cc55cc92">MR_VoxelsLoad_fromRaw_3_std_filesystem_path</a> (const char *file, const char *file_end, const <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *params, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="separator:gaaf975f3060f8a5a48e23a036cc55cc92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf30ce01d7a492340e1e774621e8d6362" id="r_gaf30ce01d7a492340e1e774621e8d6362"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__MR__VdbVolume__std__string_8h.html#a61cd90e7a5c3eb5c7524a41ee1678db1">MR_expected_MR_VdbVolume_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#gaf30ce01d7a492340e1e774621e8d6362">MR_VoxelsLoad_fromRaw_3_std_istream</a> (<a class="el" href="MRCtm_8h.html#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a> *in, const <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *params, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="separator:gaf30ce01d7a492340e1e774621e8d6362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabb0c9c2c9507d6238d4e89db2a35cb8b" id="r_gabb0c9c2c9507d6238d4e89db2a35cb8b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__MR__FloatGrid__std__string_8h.html#ad964a22a5f428efbf66fb45d2d17ed82">MR_expected_MR_FloatGrid_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#gabb0c9c2c9507d6238d4e89db2a35cb8b">MR_VoxelsLoad_gridFromRaw_3_std_filesystem_path</a> (const char *file, const char *file_end, const <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *params, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="separator:gabb0c9c2c9507d6238d4e89db2a35cb8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2a91f0e6b0bf04ebc46fecefd8cfbe7a" id="r_ga2a91f0e6b0bf04ebc46fecefd8cfbe7a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__MR__FloatGrid__std__string_8h.html#ad964a22a5f428efbf66fb45d2d17ed82">MR_expected_MR_FloatGrid_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga2a91f0e6b0bf04ebc46fecefd8cfbe7a">MR_VoxelsLoad_gridFromRaw_3_std_istream</a> (<a class="el" href="MRCtm_8h.html#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a> *in, const <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#af646f8f51576a586c8b409eb6b38e998">MR_VoxelsLoad_RawParameters</a> *params, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="separator:ga2a91f0e6b0bf04ebc46fecefd8cfbe7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga41b5d827b24453df587f673f2028e086" id="r_ga41b5d827b24453df587f673f2028e086"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#a633ff3caabdb019f6ddf961b8f5836be">MR_expected_MR_VoxelsLoad_RawParameters_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga41b5d827b24453df587f673f2028e086">MR_VoxelsLoad_findRawParameters</a> (<a class="el" href="MRSceneRoot_8h.html#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a> *file)</td></tr>
+<tr class="separator:ga41b5d827b24453df587f673f2028e086"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6e8a10246067c229db81778b640a81fd" id="r_ga6e8a10246067c229db81778b640a81fd"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__MR__VdbVolume__std__string_8h.html#a61cd90e7a5c3eb5c7524a41ee1678db1">MR_expected_MR_VdbVolume_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga6e8a10246067c229db81778b640a81fd">MR_VoxelsLoad_fromRaw_2</a> (const char *file, const char *file_end, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="separator:ga6e8a10246067c229db81778b640a81fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae9cf112df47b14eaf49139fa4861cca0" id="r_gae9cf112df47b14eaf49139fa4861cca0"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__MR__FloatGrid__std__string_8h.html#ad964a22a5f428efbf66fb45d2d17ed82">MR_expected_MR_FloatGrid_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#gae9cf112df47b14eaf49139fa4861cca0">MR_VoxelsLoad_gridFromRaw_2</a> (const char *file, const char *file_end, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="separator:gae9cf112df47b14eaf49139fa4861cca0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga622aa4a9ee4a490f47b4254c4920a2f8" id="r_ga622aa4a9ee4a490f47b4254c4920a2f8"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__std__vector__MR__VdbVolume__std__string_8h.html#ae3ba0e6af4325538adb54422bf66550e">MR_expected_std_vector_MR_VdbVolume_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga622aa4a9ee4a490f47b4254c4920a2f8">MR_VoxelsLoad_fromVdb</a> (const char *file, const char *file_end, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="separator:ga622aa4a9ee4a490f47b4254c4920a2f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafd59012ab707c022d5fde4eb78ece4ef" id="r_gafd59012ab707c022d5fde4eb78ece4ef"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__std__vector__MR__FloatGrid__std__string_8h.html#a2715e10954cbaa44a81ecdf891016721">MR_expected_std_vector_MR_FloatGrid_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#gafd59012ab707c022d5fde4eb78ece4ef">MR_VoxelsLoad_gridsFromVdb_std_filesystem_path</a> (const char *file, const char *file_end, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="separator:gafd59012ab707c022d5fde4eb78ece4ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8d759e4fbf5cd8e24ae236ecd953c909" id="r_ga8d759e4fbf5cd8e24ae236ecd953c909"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__std__vector__MR__FloatGrid__std__string_8h.html#a2715e10954cbaa44a81ecdf891016721">MR_expected_std_vector_MR_FloatGrid_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga8d759e4fbf5cd8e24ae236ecd953c909">MR_VoxelsLoad_gridsFromVdb_std_istream</a> (<a class="el" href="MRCtm_8h.html#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a> *in, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="separator:ga8d759e4fbf5cd8e24ae236ecd953c909"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga57532d4546c5c795d5d0d982ba95d76b" id="r_ga57532d4546c5c795d5d0d982ba95d76b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__MR__VdbVolume__std__string_8h.html#a61cd90e7a5c3eb5c7524a41ee1678db1">MR_expected_MR_VdbVolume_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga57532d4546c5c795d5d0d982ba95d76b">MR_VoxelsLoad_fromGav_std_filesystem_path</a> (const char *file, const char *file_end, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="separator:ga57532d4546c5c795d5d0d982ba95d76b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaee47609fb24bf8f15c208bd65a0cfea2" id="r_gaee47609fb24bf8f15c208bd65a0cfea2"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__MR__VdbVolume__std__string_8h.html#a61cd90e7a5c3eb5c7524a41ee1678db1">MR_expected_MR_VdbVolume_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#gaee47609fb24bf8f15c208bd65a0cfea2">MR_VoxelsLoad_fromGav_std_istream</a> (<a class="el" href="MRCtm_8h.html#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a> *in, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="separator:gaee47609fb24bf8f15c208bd65a0cfea2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga11896268c70ea93a1189e1a49ea40089" id="r_ga11896268c70ea93a1189e1a49ea40089"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__std__vector__MR__FloatGrid__std__string_8h.html#a2715e10954cbaa44a81ecdf891016721">MR_expected_std_vector_MR_FloatGrid_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga11896268c70ea93a1189e1a49ea40089">MR_VoxelsLoad_gridsFromAnySupportedFormat</a> (const char *file, const char *file_end, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="separator:ga11896268c70ea93a1189e1a49ea40089"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac51c63e42adaafa76c997bf7e57243cc" id="r_gac51c63e42adaafa76c997bf7e57243cc"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__std__vector__MR__VdbVolume__std__string_8h.html#ae3ba0e6af4325538adb54422bf66550e">MR_expected_std_vector_MR_VdbVolume_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#gac51c63e42adaafa76c997bf7e57243cc">MR_VoxelsLoad_fromAnySupportedFormat</a> (const char *file, const char *file_end, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="separator:gac51c63e42adaafa76c997bf7e57243cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa8912e897ed96dc28ba096eec2046e8a" id="r_gaa8912e897ed96dc28ba096eec2046e8a"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRSceneRoot_8h.html#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#gaa8912e897ed96dc28ba096eec2046e8a">MR_VoxelsLoad_LoadingTiffSettings_Get_dir</a> (const <a class="el" href="group__VoxelsLoadGroup.html#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *_this)</td></tr>
+<tr class="separator:gaa8912e897ed96dc28ba096eec2046e8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad266fb0a060dcc4d8dadaf99c3928267" id="r_gad266fb0a060dcc4d8dadaf99c3928267"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#gad266fb0a060dcc4d8dadaf99c3928267">MR_VoxelsLoad_LoadingTiffSettings_Set_dir</a> (<a class="el" href="group__VoxelsLoadGroup.html#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *_this, const char *value, const char *value_end)</td></tr>
+<tr class="separator:gad266fb0a060dcc4d8dadaf99c3928267"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga20be48a5eaee620097c06f457c55c9a1" id="r_ga20be48a5eaee620097c06f457c55c9a1"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRSceneRoot_8h.html#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga20be48a5eaee620097c06f457c55c9a1">MR_VoxelsLoad_LoadingTiffSettings_GetMutable_dir</a> (<a class="el" href="group__VoxelsLoadGroup.html#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *_this)</td></tr>
+<tr class="separator:ga20be48a5eaee620097c06f457c55c9a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0147a46a348f40ce96674a59aaa2b042" id="r_ga0147a46a348f40ce96674a59aaa2b042"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga0147a46a348f40ce96674a59aaa2b042">MR_VoxelsLoad_LoadingTiffSettings_Get_voxelSize</a> (const <a class="el" href="group__VoxelsLoadGroup.html#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *_this)</td></tr>
+<tr class="separator:ga0147a46a348f40ce96674a59aaa2b042"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaeff961572e1fc4390d5d7d363df57d7d" id="r_gaeff961572e1fc4390d5d7d363df57d7d"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#gaeff961572e1fc4390d5d7d363df57d7d">MR_VoxelsLoad_LoadingTiffSettings_Set_voxelSize</a> (<a class="el" href="group__VoxelsLoadGroup.html#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *_this, <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> value)</td></tr>
+<tr class="separator:gaeff961572e1fc4390d5d7d363df57d7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5da79e2e4e8a071981b719bc17ed69fd" id="r_ga5da79e2e4e8a071981b719bc17ed69fd"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga5da79e2e4e8a071981b719bc17ed69fd">MR_VoxelsLoad_LoadingTiffSettings_GetMutable_voxelSize</a> (<a class="el" href="group__VoxelsLoadGroup.html#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *_this)</td></tr>
+<tr class="separator:ga5da79e2e4e8a071981b719bc17ed69fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3a9880d183d9c1d412afeedfc1a5d535" id="r_ga3a9880d183d9c1d412afeedfc1a5d535"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="group__VoxelsLoadGroup.html#ga636d5442fee281cbfc2e4f63dec2570d">MR_VoxelsLoad_GridType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga3a9880d183d9c1d412afeedfc1a5d535">MR_VoxelsLoad_LoadingTiffSettings_Get_gridType</a> (const <a class="el" href="group__VoxelsLoadGroup.html#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *_this)</td></tr>
+<tr class="separator:ga3a9880d183d9c1d412afeedfc1a5d535"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga28b7293a8999ff7f62842b9d13aec1e9" id="r_ga28b7293a8999ff7f62842b9d13aec1e9"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga28b7293a8999ff7f62842b9d13aec1e9">MR_VoxelsLoad_LoadingTiffSettings_Set_gridType</a> (<a class="el" href="group__VoxelsLoadGroup.html#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *_this, <a class="el" href="group__VoxelsLoadGroup.html#ga636d5442fee281cbfc2e4f63dec2570d">MR_VoxelsLoad_GridType</a> value)</td></tr>
+<tr class="separator:ga28b7293a8999ff7f62842b9d13aec1e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga771732e5673994c5cb305a05051fc422" id="r_ga771732e5673994c5cb305a05051fc422"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="group__VoxelsLoadGroup.html#ga636d5442fee281cbfc2e4f63dec2570d">MR_VoxelsLoad_GridType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga771732e5673994c5cb305a05051fc422">MR_VoxelsLoad_LoadingTiffSettings_GetMutable_gridType</a> (<a class="el" href="group__VoxelsLoadGroup.html#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *_this)</td></tr>
+<tr class="separator:ga771732e5673994c5cb305a05051fc422"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6e0dc8f72313b22622e4fb5b5d749168" id="r_ga6e0dc8f72313b22622e4fb5b5d749168"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga6e0dc8f72313b22622e4fb5b5d749168">MR_VoxelsLoad_LoadingTiffSettings_Get_cb</a> (const <a class="el" href="group__VoxelsLoadGroup.html#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *_this)</td></tr>
+<tr class="separator:ga6e0dc8f72313b22622e4fb5b5d749168"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga04e4ac89ebcfbd947135caa095e07f7e" id="r_ga04e4ac89ebcfbd947135caa095e07f7e"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga04e4ac89ebcfbd947135caa095e07f7e">MR_VoxelsLoad_LoadingTiffSettings_Set_cb</a> (<a class="el" href="group__VoxelsLoadGroup.html#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *value)</td></tr>
+<tr class="separator:ga04e4ac89ebcfbd947135caa095e07f7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadf1fe2aaeca45d7e63dbd9eee463d04c" id="r_gadf1fe2aaeca45d7e63dbd9eee463d04c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#gadf1fe2aaeca45d7e63dbd9eee463d04c">MR_VoxelsLoad_LoadingTiffSettings_GetMutable_cb</a> (<a class="el" href="group__VoxelsLoadGroup.html#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *_this)</td></tr>
+<tr class="separator:gadf1fe2aaeca45d7e63dbd9eee463d04c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga131e02a16948d22dc6dc25cfebac26e0" id="r_ga131e02a16948d22dc6dc25cfebac26e0"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="group__VoxelsLoadGroup.html#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga131e02a16948d22dc6dc25cfebac26e0">MR_VoxelsLoad_LoadingTiffSettings_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:ga131e02a16948d22dc6dc25cfebac26e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8997c99acd68bb0ea17b3885d8968b0d" id="r_ga8997c99acd68bb0ea17b3885d8968b0d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="group__VoxelsLoadGroup.html#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga8997c99acd68bb0ea17b3885d8968b0d">MR_VoxelsLoad_LoadingTiffSettings_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:ga8997c99acd68bb0ea17b3885d8968b0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa8b28dc0590689ff3253f1b020e06d06" id="r_gaa8b28dc0590689ff3253f1b020e06d06"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="group__VoxelsLoadGroup.html#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#gaa8b28dc0590689ff3253f1b020e06d06">MR_VoxelsLoad_LoadingTiffSettings_ConstructFrom</a> (const char *dir, const char *dir_end, <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> voxelSize, <a class="el" href="group__VoxelsLoadGroup.html#ga636d5442fee281cbfc2e4f63dec2570d">MR_VoxelsLoad_GridType</a> gridType, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> cb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="separator:gaa8b28dc0590689ff3253f1b020e06d06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga373c3dc98c987a14b9a7f64e064a6286" id="r_ga373c3dc98c987a14b9a7f64e064a6286"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="group__VoxelsLoadGroup.html#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga373c3dc98c987a14b9a7f64e064a6286">MR_VoxelsLoad_LoadingTiffSettings_OffsetPtr</a> (const <a class="el" href="group__VoxelsLoadGroup.html#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:ga373c3dc98c987a14b9a7f64e064a6286"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:ga373c3dc98c987a14b9a7f64e064a6286"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf851854396e80a2a6ff71586bd303862" id="r_gaf851854396e80a2a6ff71586bd303862"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="group__VoxelsLoadGroup.html#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#gaf851854396e80a2a6ff71586bd303862">MR_VoxelsLoad_LoadingTiffSettings_OffsetMutablePtr</a> (<a class="el" href="group__VoxelsLoadGroup.html#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:gaf851854396e80a2a6ff71586bd303862"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:gaf851854396e80a2a6ff71586bd303862"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga270de112e16d9c71bbe683512efd0cfa" id="r_ga270de112e16d9c71bbe683512efd0cfa"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="group__VoxelsLoadGroup.html#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga270de112e16d9c71bbe683512efd0cfa">MR_VoxelsLoad_LoadingTiffSettings_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="group__VoxelsLoadGroup.html#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *_other)</td></tr>
+<tr class="separator:ga270de112e16d9c71bbe683512efd0cfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga232ccf76360eabacbd668f5cb7d6af7a" id="r_ga232ccf76360eabacbd668f5cb7d6af7a"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga232ccf76360eabacbd668f5cb7d6af7a">MR_VoxelsLoad_LoadingTiffSettings_Destroy</a> (const <a class="el" href="group__VoxelsLoadGroup.html#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *_this)</td></tr>
+<tr class="memdesc:ga232ccf76360eabacbd668f5cb7d6af7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_VoxelsLoad_LoadingTiffSettings</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ga232ccf76360eabacbd668f5cb7d6af7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7dc8b7961625eb5f5923659fb317a30b" id="r_ga7dc8b7961625eb5f5923659fb317a30b"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga7dc8b7961625eb5f5923659fb317a30b">MR_VoxelsLoad_LoadingTiffSettings_DestroyArray</a> (const <a class="el" href="group__VoxelsLoadGroup.html#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *_this)</td></tr>
+<tr class="memdesc:ga7dc8b7961625eb5f5923659fb317a30b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_VoxelsLoad_LoadingTiffSettings</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ga7dc8b7961625eb5f5923659fb317a30b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa67b2a467727a9365a09899f7ae70e8f" id="r_gaa67b2a467727a9365a09899f7ae70e8f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="group__VoxelsLoadGroup.html#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#gaa67b2a467727a9365a09899f7ae70e8f">MR_VoxelsLoad_LoadingTiffSettings_AssignFromAnother</a> (<a class="el" href="group__VoxelsLoadGroup.html#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="group__VoxelsLoadGroup.html#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *_other)</td></tr>
+<tr class="separator:gaa67b2a467727a9365a09899f7ae70e8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9a9c31128691bcc88e2fc8132dd4ef1a" id="r_ga9a9c31128691bcc88e2fc8132dd4ef1a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__MR__VdbVolume__std__string_8h.html#a61cd90e7a5c3eb5c7524a41ee1678db1">MR_expected_MR_VdbVolume_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga9a9c31128691bcc88e2fc8132dd4ef1a">MR_VoxelsLoad_loadTiffDir</a> (const <a class="el" href="group__VoxelsLoadGroup.html#gaeb55c2e7200cad314e4876ce3d2d50a9">MR_VoxelsLoad_LoadingTiffSettings</a> *settings)</td></tr>
+<tr class="separator:ga9a9c31128691bcc88e2fc8132dd4ef1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1ef86ceb605d0bffae3b67211a5598b2" id="r_ga1ef86ceb605d0bffae3b67211a5598b2"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__std__vector__std__shared__ptr__MR__ObjectVoxels__std__string_8h.html#ac9916094f7c66b0214a856e06fe3ea70">MR_expected_std_vector_std_shared_ptr_MR_ObjectVoxels_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga1ef86ceb605d0bffae3b67211a5598b2">MR_makeObjectVoxelsFromFile</a> (const char *file, const char *file_end, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> callback_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *callback)</td></tr>
+<tr class="separator:ga1ef86ceb605d0bffae3b67211a5598b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga52b39239ae5695304c1d98ff2d13b7bc" id="r_ga52b39239ae5695304c1d98ff2d13b7bc"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRE57_8h.html#afddfdf9f07abac630b268df02dbaed95">MR_expected_MR_LoadedObjects_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__VoxelsLoadGroup.html#ga52b39239ae5695304c1d98ff2d13b7bc">MR_makeObjectFromVoxelsFile</a> (const char *file, const char *file_end, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *callback)</td></tr>
+<tr class="separator:ga52b39239ae5695304c1d98ff2d13b7bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="ad964a22a5f428efbf66fb45d2d17ed82" name="ad964a22a5f428efbf66fb45d2d17ed82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad964a22a5f428efbf66fb45d2d17ed82">&#9670;&#160;</a></span>MR_expected_MR_FloatGrid_std_string</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="expected__MR__FloatGrid__std__string_8h.html#ad964a22a5f428efbf66fb45d2d17ed82">MR_expected_MR_FloatGrid_std_string</a> <a class="el" href="expected__MR__FloatGrid__std__string_8h.html#ad964a22a5f428efbf66fb45d2d17ed82">MR_expected_MR_FloatGrid_std_string</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afddfdf9f07abac630b268df02dbaed95" name="afddfdf9f07abac630b268df02dbaed95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afddfdf9f07abac630b268df02dbaed95">&#9670;&#160;</a></span>MR_expected_MR_LoadedObjects_std_string</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRE57_8h.html#afddfdf9f07abac630b268df02dbaed95">MR_expected_MR_LoadedObjects_std_string</a> <a class="el" href="MRE57_8h.html#afddfdf9f07abac630b268df02dbaed95">MR_expected_MR_LoadedObjects_std_string</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a61cd90e7a5c3eb5c7524a41ee1678db1" name="a61cd90e7a5c3eb5c7524a41ee1678db1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61cd90e7a5c3eb5c7524a41ee1678db1">&#9670;&#160;</a></span>MR_expected_MR_VdbVolume_std_string</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="expected__MR__VdbVolume__std__string_8h.html#a61cd90e7a5c3eb5c7524a41ee1678db1">MR_expected_MR_VdbVolume_std_string</a> <a class="el" href="expected__MR__VdbVolume__std__string_8h.html#a61cd90e7a5c3eb5c7524a41ee1678db1">MR_expected_MR_VdbVolume_std_string</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a633ff3caabdb019f6ddf961b8f5836be" name="a633ff3caabdb019f6ddf961b8f5836be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a633ff3caabdb019f6ddf961b8f5836be">&#9670;&#160;</a></span>MR_expected_MR_VoxelsLoad_RawParameters_std_string</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#a633ff3caabdb019f6ddf961b8f5836be">MR_expected_MR_VoxelsLoad_RawParameters_std_string</a> <a class="el" href="expected__MR__VoxelsLoad__RawParameters__std__string_8h.html#a633ff3caabdb019f6ddf961b8f5836be">MR_expected_MR_VoxelsLoad_RawParameters_std_string</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2715e10954cbaa44a81ecdf891016721" name="a2715e10954cbaa44a81ecdf891016721"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2715e10954cbaa44a81ecdf891016721">&#9670;&#160;</a></span>MR_expected_std_vector_MR_FloatGrid_std_string</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="expected__std__vector__MR__FloatGrid__std__string_8h.html#a2715e10954cbaa44a81ecdf891016721">MR_expected_std_vector_MR_FloatGrid_std_string</a> <a class="el" href="expected__std__vector__MR__FloatGrid__std__string_8h.html#a2715e10954cbaa44a81ecdf891016721">MR_expected_std_vector_MR_FloatGrid_std_string</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae3ba0e6af4325538adb54422bf66550e" name="ae3ba0e6af4325538adb54422bf66550e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3ba0e6af4325538adb54422bf66550e">&#9670;&#160;</a></span>MR_expected_std_vector_MR_VdbVolume_std_string</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="expected__std__vector__MR__VdbVolume__std__string_8h.html#ae3ba0e6af4325538adb54422bf66550e">MR_expected_std_vector_MR_VdbVolume_std_string</a> <a class="el" href="expected__std__vector__MR__VdbVolume__std__string_8h.html#ae3ba0e6af4325538adb54422bf66550e">MR_expected_std_vector_MR_VdbVolume_std_string</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac9916094f7c66b0214a856e06fe3ea70" name="ac9916094f7c66b0214a856e06fe3ea70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9916094f7c66b0214a856e06fe3ea70">&#9670;&#160;</a></span>MR_expected_std_vector_std_shared_ptr_MR_ObjectVoxels_std_string</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="expected__std__vector__std__shared__ptr__MR__ObjectVoxels__std__string_8h.html#ac9916094f7c66b0214a856e06fe3ea70">MR_expected_std_vector_std_shared_ptr_MR_ObjectVoxels_std_string</a> <a class="el" href="expected__std__vector__std__shared__ptr__MR__ObjectVoxels__std__string_8h.html#ac9916094f7c66b0214a856e06fe3ea70">MR_expected_std_vector_std_shared_ptr_MR_ObjectVoxels_std_string</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a006d61fd2048bba5b5622d42cbe72526" name="a006d61fd2048bba5b5622d42cbe72526"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a006d61fd2048bba5b5622d42cbe72526">&#9670;&#160;</a></span>MR_std_filesystem_path</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRSceneRoot_8h.html#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a> <a class="el" href="MRSceneRoot_8h.html#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adb03ce28cacfff1e499d75d512dc4a84" name="adb03ce28cacfff1e499d75d512dc4a84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb03ce28cacfff1e499d75d512dc4a84">&#9670;&#160;</a></span>MR_std_function_bool_from_float</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aef22a11476e76208a3f9a5cf2eba4c98" name="aef22a11476e76208a3f9a5cf2eba4c98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef22a11476e76208a3f9a5cf2eba4c98">&#9670;&#160;</a></span>MR_std_istream</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRCtm_8h.html#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a> <a class="el" href="MRCtm_8h.html#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_87d38852fc01aff5f853718c8d8b5cb2.html">Cbindings</a></li><li class="navelem"><a class="el" href="dir_f3347e714ce645328a0f1e84cdba4df7.html">MRCVoxels</a></li><li class="navelem"><a class="el" href="MRVoxelsLoad_8h.html">MRVoxelsLoad.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

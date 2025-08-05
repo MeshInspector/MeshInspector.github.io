@@ -1,0 +1,223 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref.h Source File</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('std__function__MR__MeshOrPoints__ProjectionResult__from__const__MR__Vector3f__ref_8h_source.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="std__function__MR__MeshOrPoints__ProjectionResult__from__const__MR__Vector3f__ref_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;<a class="code" href="common_8h.html">MRCMisc/common.h</a>&gt;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;MRCMisc/exports.h&gt;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;stddef.h&gt;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> {</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="std__function__MR__MeshOrPoints__ProjectionResult__from__const__MR__Vector3f__ref_8h.html#a2211a0e89c3f8ce767d15053527683a9">   12</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRMeshOrPoints_8h.html#a2211a0e89c3f8ce767d15053527683a9">MR_MeshOrPoints_ProjectionResult</a> <a class="code hl_typedef" href="MRMeshOrPoints_8h.html#a2211a0e89c3f8ce767d15053527683a9">MR_MeshOrPoints_ProjectionResult</a>; <span class="comment">// Defined in `#include &lt;MRCMesh/MRMeshOrPoints.h&gt;`.</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="std__function__MR__MeshOrPoints__ProjectionResult__from__const__MR__Vector3f__ref_8h.html#a6bf133eda1ec95be202b77c33412bc8e">   13</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="structMR__Vector3f.html">MR_Vector3f</a> <a class="code hl_struct" href="structMR__Vector3f.html">MR_Vector3f</a>; <span class="comment">// Defined in `#include &lt;MRCMesh/MRVector3.h&gt;`.</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="std__function__MR__MeshOrPoints__ProjectionResult__from__const__MR__Vector3f__ref_8h.html#a637be00b9f060405cd10ab8c832bdd28">   18</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRMeshOrPoints_8h.html#a637be00b9f060405cd10ab8c832bdd28">MR_std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref</a> <a class="code hl_typedef" href="MRMeshOrPoints_8h.html#a637be00b9f060405cd10ab8c832bdd28">MR_std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref</a>;</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="std__function__MR__MeshOrPoints__ProjectionResult__from__const__MR__Vector3f__ref_8h.html#ab5c0d3306eee2cc0332ae8f2fa7414a5">   22</a></span>MRC_API <a class="code hl_typedef" href="MRMeshOrPoints_8h.html#a637be00b9f060405cd10ab8c832bdd28">MR_std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref</a> *<a class="code hl_function" href="std__function__MR__MeshOrPoints__ProjectionResult__from__const__MR__Vector3f__ref_8h.html#ab5c0d3306eee2cc0332ae8f2fa7414a5">MR_std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref_DefaultConstruct</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="std__function__MR__MeshOrPoints__ProjectionResult__from__const__MR__Vector3f__ref_8h.html#ab0cf2e5b77d20aaa9c0fdc1a92b3597b">   27</a></span>MRC_API <a class="code hl_typedef" href="MRMeshOrPoints_8h.html#a637be00b9f060405cd10ab8c832bdd28">MR_std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref</a> *<a class="code hl_function" href="std__function__MR__MeshOrPoints__ProjectionResult__from__const__MR__Vector3f__ref_8h.html#ab0cf2e5b77d20aaa9c0fdc1a92b3597b">MR_std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref_DefaultConstructArray</a>(<span class="keywordtype">size_t</span> num_elems);</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="std__function__MR__MeshOrPoints__ProjectionResult__from__const__MR__Vector3f__ref_8h.html#aa6e08e912507ec4b45ac3ee2f1f06aca">   31</a></span>MRC_API <a class="code hl_typedef" href="MRMeshOrPoints_8h.html#a637be00b9f060405cd10ab8c832bdd28">MR_std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref</a> *<a class="code hl_function" href="std__function__MR__MeshOrPoints__ProjectionResult__from__const__MR__Vector3f__ref_8h.html#aa6e08e912507ec4b45ac3ee2f1f06aca">MR_std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref_ConstructFromAnother</a>(<a class="code hl_enumeration" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> other_pass_by, <a class="code hl_typedef" href="MRMeshOrPoints_8h.html#a637be00b9f060405cd10ab8c832bdd28">MR_std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref</a> *other);</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="std__function__MR__MeshOrPoints__ProjectionResult__from__const__MR__Vector3f__ref_8h.html#accf0eb040cfe580970ca55d97db8dea5">   35</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="std__function__MR__MeshOrPoints__ProjectionResult__from__const__MR__Vector3f__ref_8h.html#accf0eb040cfe580970ca55d97db8dea5">MR_std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref_AssignFromAnother</a>(<a class="code hl_typedef" href="MRMeshOrPoints_8h.html#a637be00b9f060405cd10ab8c832bdd28">MR_std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref</a> *_this, <a class="code hl_enumeration" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> other_pass_by, <a class="code hl_typedef" href="MRMeshOrPoints_8h.html#a637be00b9f060405cd10ab8c832bdd28">MR_std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref</a> *other);</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="std__function__MR__MeshOrPoints__ProjectionResult__from__const__MR__Vector3f__ref_8h.html#af61a3985362f5f5871c1c6fa46dfd6aa">   38</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="std__function__MR__MeshOrPoints__ProjectionResult__from__const__MR__Vector3f__ref_8h.html#af61a3985362f5f5871c1c6fa46dfd6aa">MR_std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref_Destroy</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRMeshOrPoints_8h.html#a637be00b9f060405cd10ab8c832bdd28">MR_std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref</a> *_this);</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="std__function__MR__MeshOrPoints__ProjectionResult__from__const__MR__Vector3f__ref_8h.html#a1eac643c094376914ae5b12b8c2221f6">   41</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="std__function__MR__MeshOrPoints__ProjectionResult__from__const__MR__Vector3f__ref_8h.html#a1eac643c094376914ae5b12b8c2221f6">MR_std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref_DestroyArray</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRMeshOrPoints_8h.html#a637be00b9f060405cd10ab8c832bdd28">MR_std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref</a> *_this);</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="std__function__MR__MeshOrPoints__ProjectionResult__from__const__MR__Vector3f__ref_8h.html#ab0a5ba7f444bcf19adecff653b4835d6">   44</a></span>MRC_API <span class="keyword">const</span> <a class="code hl_typedef" href="MRMeshOrPoints_8h.html#a637be00b9f060405cd10ab8c832bdd28">MR_std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref</a> *<a class="code hl_function" href="std__function__MR__MeshOrPoints__ProjectionResult__from__const__MR__Vector3f__ref_8h.html#ab0a5ba7f444bcf19adecff653b4835d6">MR_std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref_OffsetPtr</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRMeshOrPoints_8h.html#a637be00b9f060405cd10ab8c832bdd28">MR_std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref</a> *ptr, ptrdiff_t i);</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="std__function__MR__MeshOrPoints__ProjectionResult__from__const__MR__Vector3f__ref_8h.html#a6a3d12f7173caf165b2277f60603f83f">   47</a></span>MRC_API <a class="code hl_typedef" href="MRMeshOrPoints_8h.html#a637be00b9f060405cd10ab8c832bdd28">MR_std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref</a> *<a class="code hl_function" href="std__function__MR__MeshOrPoints__ProjectionResult__from__const__MR__Vector3f__ref_8h.html#a6a3d12f7173caf165b2277f60603f83f">MR_std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref_OffsetMutablePtr</a>(<a class="code hl_typedef" href="MRMeshOrPoints_8h.html#a637be00b9f060405cd10ab8c832bdd28">MR_std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref</a> *ptr, ptrdiff_t i);</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="std__function__MR__MeshOrPoints__ProjectionResult__from__const__MR__Vector3f__ref_8h.html#ab79d1af664587e8753e4ae13d4c5cd51">   53</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="std__function__MR__MeshOrPoints__ProjectionResult__from__const__MR__Vector3f__ref_8h.html#ab79d1af664587e8753e4ae13d4c5cd51">MR_std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref_Assign</a>(<a class="code hl_typedef" href="MRMeshOrPoints_8h.html#a637be00b9f060405cd10ab8c832bdd28">MR_std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref</a> *_this, <span class="keyword">const</span> <a class="code hl_typedef" href="MRMeshOrPoints_8h.html#a2211a0e89c3f8ce767d15053527683a9">MR_MeshOrPoints_ProjectionResult</a> *(*func)(<span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector3f.html">MR_Vector3f</a> *_1));</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="std__function__MR__MeshOrPoints__ProjectionResult__from__const__MR__Vector3f__ref_8h.html#a689687c66ec96ff2a3dcf94f58e78a1f">   65</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="std__function__MR__MeshOrPoints__ProjectionResult__from__const__MR__Vector3f__ref_8h.html#a689687c66ec96ff2a3dcf94f58e78a1f">MR_std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref_AssignWithDataPtr</a>(<a class="code hl_typedef" href="MRMeshOrPoints_8h.html#a637be00b9f060405cd10ab8c832bdd28">MR_std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref</a> *_this, <span class="keyword">const</span> <a class="code hl_typedef" href="MRMeshOrPoints_8h.html#a2211a0e89c3f8ce767d15053527683a9">MR_MeshOrPoints_ProjectionResult</a> *(*func)(<span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector3f.html">MR_Vector3f</a> *_1, <span class="keywordtype">void</span> *_userdata), <span class="keywordtype">void</span> *userdata, <span class="keywordtype">void</span> (*userdata_callback)(<span class="keywordtype">void</span> **_this_userdata, <span class="keywordtype">void</span> *_other_userdata));</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span><span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>} <span class="comment">// extern &quot;C&quot;</span></div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aMRMeshOrPoints_8h_html_a2211a0e89c3f8ce767d15053527683a9"><div class="ttname"><a href="MRMeshOrPoints_8h.html#a2211a0e89c3f8ce767d15053527683a9">MR_MeshOrPoints_ProjectionResult</a></div><div class="ttdeci">struct MR_MeshOrPoints_ProjectionResult MR_MeshOrPoints_ProjectionResult</div><div class="ttdoc">Generated from class MR::MeshOrPoints::ProjectionResult.</div><div class="ttdef"><b>Definition</b> MRMeshOrPoints.h:43</div></div>
+<div class="ttc" id="aMRMeshOrPoints_8h_html_a637be00b9f060405cd10ab8c832bdd28"><div class="ttname"><a href="MRMeshOrPoints_8h.html#a637be00b9f060405cd10ab8c832bdd28">MR_std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref</a></div><div class="ttdeci">struct MR_std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref MR_std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref</div><div class="ttdef"><b>Definition</b> MRMeshOrPoints.h:26</div></div>
+<div class="ttc" id="acommon_8h_html"><div class="ttname"><a href="common_8h.html">common.h</a></div></div>
+<div class="ttc" id="acommon_8h_html_ac983b89bddb9b22c9b416f31399f0095"><div class="ttname"><a href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></div><div class="ttdeci">MR_PassBy</div><div class="ttdef"><b>Definition</b> common.h:19</div></div>
+<div class="ttc" id="astd__function__MR__MeshOrPoints__ProjectionResult__from__const__MR__Vector3f__ref_8h_html_a1eac643c094376914ae5b12b8c2221f6"><div class="ttname"><a href="std__function__MR__MeshOrPoints__ProjectionResult__from__const__MR__Vector3f__ref_8h.html#a1eac643c094376914ae5b12b8c2221f6">MR_std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref_DestroyArray</a></div><div class="ttdeci">MRC_API void MR_std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref_DestroyArray(const MR_std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref *_this)</div><div class="ttdoc">Destroys a heap-allocated array of MR_std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vec...</div></div>
+<div class="ttc" id="astd__function__MR__MeshOrPoints__ProjectionResult__from__const__MR__Vector3f__ref_8h_html_a689687c66ec96ff2a3dcf94f58e78a1f"><div class="ttname"><a href="std__function__MR__MeshOrPoints__ProjectionResult__from__const__MR__Vector3f__ref_8h.html#a689687c66ec96ff2a3dcf94f58e78a1f">MR_std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref_AssignWithDataPtr</a></div><div class="ttdeci">MRC_API void MR_std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref_AssignWithDataPtr(MR_std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref *_this, const MR_MeshOrPoints_ProjectionResult *(*func)(const MR_Vector3f *_1, void *_userdata), void *userdata, void(*userdata_callback)(void **_this_userdata, void *_other_userdata))</div></div>
+<div class="ttc" id="astd__function__MR__MeshOrPoints__ProjectionResult__from__const__MR__Vector3f__ref_8h_html_a6a3d12f7173caf165b2277f60603f83f"><div class="ttname"><a href="std__function__MR__MeshOrPoints__ProjectionResult__from__const__MR__Vector3f__ref_8h.html#a6a3d12f7173caf165b2277f60603f83f">MR_std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref_OffsetMutablePtr</a></div><div class="ttdeci">MRC_API MR_std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref * MR_std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref_OffsetMutablePtr(MR_std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref *ptr, ptrdiff_t i)</div><div class="ttdoc">Offsets a pointer to an array element by i positions (not bytes). Use only if you're certain that the...</div></div>
+<div class="ttc" id="astd__function__MR__MeshOrPoints__ProjectionResult__from__const__MR__Vector3f__ref_8h_html_aa6e08e912507ec4b45ac3ee2f1f06aca"><div class="ttname"><a href="std__function__MR__MeshOrPoints__ProjectionResult__from__const__MR__Vector3f__ref_8h.html#aa6e08e912507ec4b45ac3ee2f1f06aca">MR_std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref_ConstructFromAnother</a></div><div class="ttdeci">MRC_API MR_std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref * MR_std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref_ConstructFromAnother(MR_PassBy other_pass_by, MR_std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref *other)</div></div>
+<div class="ttc" id="astd__function__MR__MeshOrPoints__ProjectionResult__from__const__MR__Vector3f__ref_8h_html_ab0a5ba7f444bcf19adecff653b4835d6"><div class="ttname"><a href="std__function__MR__MeshOrPoints__ProjectionResult__from__const__MR__Vector3f__ref_8h.html#ab0a5ba7f444bcf19adecff653b4835d6">MR_std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref_OffsetPtr</a></div><div class="ttdeci">MRC_API const MR_std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref * MR_std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref_OffsetPtr(const MR_std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref *ptr, ptrdiff_t i)</div><div class="ttdoc">Offsets a pointer to an array element by i positions (not bytes). Use only if you're certain that the...</div></div>
+<div class="ttc" id="astd__function__MR__MeshOrPoints__ProjectionResult__from__const__MR__Vector3f__ref_8h_html_ab0cf2e5b77d20aaa9c0fdc1a92b3597b"><div class="ttname"><a href="std__function__MR__MeshOrPoints__ProjectionResult__from__const__MR__Vector3f__ref_8h.html#ab0cf2e5b77d20aaa9c0fdc1a92b3597b">MR_std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref_DefaultConstructArray</a></div><div class="ttdeci">MRC_API MR_std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref * MR_std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref_DefaultConstructArray(size_t num_elems)</div></div>
+<div class="ttc" id="astd__function__MR__MeshOrPoints__ProjectionResult__from__const__MR__Vector3f__ref_8h_html_ab5c0d3306eee2cc0332ae8f2fa7414a5"><div class="ttname"><a href="std__function__MR__MeshOrPoints__ProjectionResult__from__const__MR__Vector3f__ref_8h.html#ab5c0d3306eee2cc0332ae8f2fa7414a5">MR_std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref_DefaultConstruct</a></div><div class="ttdeci">MRC_API MR_std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref * MR_std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref_DefaultConstruct(void)</div></div>
+<div class="ttc" id="astd__function__MR__MeshOrPoints__ProjectionResult__from__const__MR__Vector3f__ref_8h_html_ab79d1af664587e8753e4ae13d4c5cd51"><div class="ttname"><a href="std__function__MR__MeshOrPoints__ProjectionResult__from__const__MR__Vector3f__ref_8h.html#ab79d1af664587e8753e4ae13d4c5cd51">MR_std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref_Assign</a></div><div class="ttdeci">MRC_API void MR_std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref_Assign(MR_std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref *_this, const MR_MeshOrPoints_ProjectionResult *(*func)(const MR_Vector3f *_1))</div></div>
+<div class="ttc" id="astd__function__MR__MeshOrPoints__ProjectionResult__from__const__MR__Vector3f__ref_8h_html_accf0eb040cfe580970ca55d97db8dea5"><div class="ttname"><a href="std__function__MR__MeshOrPoints__ProjectionResult__from__const__MR__Vector3f__ref_8h.html#accf0eb040cfe580970ca55d97db8dea5">MR_std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref_AssignFromAnother</a></div><div class="ttdeci">MRC_API void MR_std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref_AssignFromAnother(MR_std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref *_this, MR_PassBy other_pass_by, MR_std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref *other)</div></div>
+<div class="ttc" id="astd__function__MR__MeshOrPoints__ProjectionResult__from__const__MR__Vector3f__ref_8h_html_af61a3985362f5f5871c1c6fa46dfd6aa"><div class="ttname"><a href="std__function__MR__MeshOrPoints__ProjectionResult__from__const__MR__Vector3f__ref_8h.html#af61a3985362f5f5871c1c6fa46dfd6aa">MR_std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref_Destroy</a></div><div class="ttdeci">MRC_API void MR_std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref_Destroy(const MR_std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref *_this)</div><div class="ttdoc">Destroys a heap-allocated instance of MR_std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_...</div></div>
+<div class="ttc" id="astructMR__Vector3f_html"><div class="ttname"><a href="structMR__Vector3f.html">MR_Vector3f</a></div><div class="ttdef"><b>Definition</b> MRVector3.h:55</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_87d38852fc01aff5f853718c8d8b5cb2.html">Cbindings</a></li><li class="navelem"><a class="el" href="dir_12d01ef4fa7c7ca18852dd6d7d92a624.html">MRCMisc</a></li><li class="navelem"><a class="el" href="std__function__MR__MeshOrPoints__ProjectionResult__from__const__MR__Vector3f__ref_8h.html">std_function_MR_MeshOrPoints_ProjectionResult_from_const_MR_Vector3f_ref.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

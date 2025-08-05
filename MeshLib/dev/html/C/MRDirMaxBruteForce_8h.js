@@ -1,0 +1,28 @@
+var MRDirMaxBruteForce_8h =
+[
+    [ "MR_MeshPart", "MRDirMaxBruteForce_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17", null ],
+    [ "MR_MeshVertPart", "MRDirMaxBruteForce_8h.html#a1278957cdc2df07940e90426e9a58809", null ],
+    [ "MR_MinMaxArg_float_MR_VertId", "MRDirMaxBruteForce_8h.html#a17053ed9ad2431bc5c202e9135ddb2c6", null ],
+    [ "MR_PointCloud", "MRDirMaxBruteForce_8h.html#aa319738c95f0bbde075b7ef777cf2665", null ],
+    [ "MR_Polyline2", "MRDirMaxBruteForce_8h.html#ac19d267fe4a2399b21a578c74213dfd2", null ],
+    [ "MR_Polyline3", "MRDirMaxBruteForce_8h.html#a6075b2f3b7dec92f779f4f58c28f7e1b", null ],
+    [ "MR_Vector2f", "MRDirMaxBruteForce_8h.html#a72ab0be0b71b29e9f310e7526a8cc57b", null ],
+    [ "MR_Vector3f", "MRDirMaxBruteForce_8h.html#a6bf133eda1ec95be202b77c33412bc8e", null ],
+    [ "MR_VertBitSet", "MRDirMaxBruteForce_8h.html#a3df50e76b078a1626dd994e1df803764", null ],
+    [ "MR_VertCoords", "MRDirMaxBruteForce_8h.html#a249fd9254c0c3395567807936ad32641", null ],
+    [ "MR_VertCoords2", "MRDirMaxBruteForce_8h.html#ae385080e7b7a68ff32f8d03ae2d70a7a", null ],
+    [ "MR_findDirMaxBruteForce_2_const_MR_Vector2f_ref", "MRDirMaxBruteForce_8h.html#a9198aa6b2c495f70e74aba326fdeb0d7", null ],
+    [ "MR_findDirMaxBruteForce_2_const_MR_Vector3f_ref_MR_MeshPart", "MRDirMaxBruteForce_8h.html#a62970c4a679da81e3fa97f24daeaca1f", null ],
+    [ "MR_findDirMaxBruteForce_2_const_MR_Vector3f_ref_MR_MeshVertPart", "MRDirMaxBruteForce_8h.html#a8dcd5381876b749046b4bfd60b4d767c", null ],
+    [ "MR_findDirMaxBruteForce_2_const_MR_Vector3f_ref_MR_Polyline3", "MRDirMaxBruteForce_8h.html#aab8edf2867f650886a6f67fc3dd820cb", null ],
+    [ "MR_findDirMaxBruteForce_3_const_MR_Vector2f_ref", "MRDirMaxBruteForce_8h.html#aade9d855d88b9cfe618a8fc5b0a5cf93", null ],
+    [ "MR_findDirMaxBruteForce_3_const_MR_Vector3f_ref_MR_PointCloud", "MRDirMaxBruteForce_8h.html#aa4d8a492596afad45e21b9a9a54adb0f", null ],
+    [ "MR_findDirMaxBruteForce_3_const_MR_Vector3f_ref_MR_VertCoords", "MRDirMaxBruteForce_8h.html#a0e473319d9baec41494847a7ffa4b10c", null ],
+    [ "MR_findDirMinMaxBruteForce_2_const_MR_Vector2f_ref", "MRDirMaxBruteForce_8h.html#ac4c1cd37a1a7c580eca77b355a54a371", null ],
+    [ "MR_findDirMinMaxBruteForce_2_const_MR_Vector3f_ref_MR_MeshPart", "MRDirMaxBruteForce_8h.html#a8b40b7640da6ee9dbff7b5bbd8469c36", null ],
+    [ "MR_findDirMinMaxBruteForce_2_const_MR_Vector3f_ref_MR_MeshVertPart", "MRDirMaxBruteForce_8h.html#ad249213eb36ebcfade3d0970df57aa00", null ],
+    [ "MR_findDirMinMaxBruteForce_2_const_MR_Vector3f_ref_MR_Polyline3", "MRDirMaxBruteForce_8h.html#a6cda86cd830ccd00eea6443059a4eed3", null ],
+    [ "MR_findDirMinMaxBruteForce_3_const_MR_Vector2f_ref", "MRDirMaxBruteForce_8h.html#a5ef6c262f6f4f73a18919a31c6c4b3d2", null ],
+    [ "MR_findDirMinMaxBruteForce_3_const_MR_Vector3f_ref_MR_PointCloud", "MRDirMaxBruteForce_8h.html#a5fcf323791a7b348906a0051e95e50ee", null ],
+    [ "MR_findDirMinMaxBruteForce_3_const_MR_Vector3f_ref_MR_VertCoords", "MRDirMaxBruteForce_8h.html#a66f17a8aa0b2e55f66ee2fbaea673859", null ]
+];

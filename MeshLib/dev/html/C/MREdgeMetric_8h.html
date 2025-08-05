@@ -1,0 +1,492 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: MREdgeMetric.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('MREdgeMetric_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">MREdgeMetric.h File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+</div>
+<p><a href="MREdgeMetric_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a31b172f68efca6438544d56eb86d6f40" id="r_a31b172f68efca6438544d56eb86d6f40"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a></td></tr>
+<tr class="separator:a31b172f68efca6438544d56eb86d6f40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad396cf7d4433c5ba7924776f5b379c9b" id="r_ad396cf7d4433c5ba7924776f5b379c9b"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a></td></tr>
+<tr class="separator:ad396cf7d4433c5ba7924776f5b379c9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a249fd9254c0c3395567807936ad32641" id="r_a249fd9254c0c3395567807936ad32641"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a></td></tr>
+<tr class="separator:a249fd9254c0c3395567807936ad32641"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe08d8d5c70c2a7fb9600f5a1dfd1687" id="r_abe08d8d5c70c2a7fb9600f5a1dfd1687"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a></td></tr>
+<tr class="separator:abe08d8d5c70c2a7fb9600f5a1dfd1687"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ae31d038f46a25a0bd812f72c045bccc8" id="r_ae31d038f46a25a0bd812f72c045bccc8"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae31d038f46a25a0bd812f72c045bccc8">MR_identityMetric</a> (void)</td></tr>
+<tr class="separator:ae31d038f46a25a0bd812f72c045bccc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1db9374b9ccccdb625fdf80da6ba8cdc" id="r_a1db9374b9ccccdb625fdf80da6ba8cdc"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1db9374b9ccccdb625fdf80da6ba8cdc">MR_edgeLengthMetric_1</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh)</td></tr>
+<tr class="separator:a1db9374b9ccccdb625fdf80da6ba8cdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a649e752e4952d1dffd2bef7c5e0a501b" id="r_a649e752e4952d1dffd2bef7c5e0a501b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a649e752e4952d1dffd2bef7c5e0a501b">MR_edgeLengthMetric_2</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *points)</td></tr>
+<tr class="separator:a649e752e4952d1dffd2bef7c5e0a501b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01484edb3833aa62274791bd46b8ed17" id="r_a01484edb3833aa62274791bd46b8ed17"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01484edb3833aa62274791bd46b8ed17">MR_discreteAbsMeanCurvatureMetric_1</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh)</td></tr>
+<tr class="separator:a01484edb3833aa62274791bd46b8ed17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5cb730a8d0c5a9bccf8a95c6eceeb00f" id="r_a5cb730a8d0c5a9bccf8a95c6eceeb00f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5cb730a8d0c5a9bccf8a95c6eceeb00f">MR_discreteAbsMeanCurvatureMetric_2</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *points)</td></tr>
+<tr class="separator:a5cb730a8d0c5a9bccf8a95c6eceeb00f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c9f5206546af5a29ec19c92abaccd41" id="r_a7c9f5206546af5a29ec19c92abaccd41"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c9f5206546af5a29ec19c92abaccd41">MR_discreteMinusAbsMeanCurvatureMetric_1</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh)</td></tr>
+<tr class="separator:a7c9f5206546af5a29ec19c92abaccd41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b63db3df66de44f538304b1087511a1" id="r_a7b63db3df66de44f538304b1087511a1"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b63db3df66de44f538304b1087511a1">MR_discreteMinusAbsMeanCurvatureMetric_2</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *points)</td></tr>
+<tr class="separator:a7b63db3df66de44f538304b1087511a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88d08e3351e447c1acf3fc485c50efce" id="r_a88d08e3351e447c1acf3fc485c50efce"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88d08e3351e447c1acf3fc485c50efce">MR_edgeCurvMetric_3</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const float *angleSinFactor, const float *angleSinForBoundary)</td></tr>
+<tr class="separator:a88d08e3351e447c1acf3fc485c50efce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d41aec1f1b35733b8c9b2c5fe2531cd" id="r_a8d41aec1f1b35733b8c9b2c5fe2531cd"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d41aec1f1b35733b8c9b2c5fe2531cd">MR_edgeCurvMetric_4</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *points, const float *angleSinFactor, const float *angleSinForBoundary)</td></tr>
+<tr class="separator:a8d41aec1f1b35733b8c9b2c5fe2531cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7db0f0148b6743675178f1c534091390" id="r_a7db0f0148b6743675178f1c534091390"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7db0f0148b6743675178f1c534091390">MR_edgeTableSymMetric</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, const <a class="el" href="#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> *metric)</td></tr>
+<tr class="separator:a7db0f0148b6743675178f1c534091390"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a31b172f68efca6438544d56eb86d6f40" name="a31b172f68efca6438544d56eb86d6f40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31b172f68efca6438544d56eb86d6f40">&#9670;&#160;</a></span>MR_Mesh</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad396cf7d4433c5ba7924776f5b379c9b" name="ad396cf7d4433c5ba7924776f5b379c9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad396cf7d4433c5ba7924776f5b379c9b">&#9670;&#160;</a></span>MR_MeshTopology</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abe08d8d5c70c2a7fb9600f5a1dfd1687" name="abe08d8d5c70c2a7fb9600f5a1dfd1687"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe08d8d5c70c2a7fb9600f5a1dfd1687">&#9670;&#160;</a></span>MR_std_function_float_from_MR_EdgeId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> <a class="el" href="#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a249fd9254c0c3395567807936ad32641" name="a249fd9254c0c3395567807936ad32641"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a249fd9254c0c3395567807936ad32641">&#9670;&#160;</a></span>MR_VertCoords</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a01484edb3833aa62274791bd46b8ed17" name="a01484edb3833aa62274791bd46b8ed17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01484edb3833aa62274791bd46b8ed17">&#9670;&#160;</a></span>MR_discreteAbsMeanCurvatureMetric_1()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> * MR_discreteAbsMeanCurvatureMetric_1 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns edge's absolute discrete mean curvature as a metric; the metric is minimal in the planar regions of mesh; this metric is symmetric: m(e) == m(e.sym()) Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#gae4866fbd4ec0921d6eed211cbef0e8aa">MR::discreteAbsMeanCurvatureMetric</a></code>. Parameter <code>mesh</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__function__float__from__MR__EdgeId_8h.html#a744da7234e8737effe5a396869e0604d" title="Destroys a heap-allocated instance of MR_std_function_float_from_MR_EdgeId. Does nothing if the point...">MR_std_function_float_from_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a5cb730a8d0c5a9bccf8a95c6eceeb00f" name="a5cb730a8d0c5a9bccf8a95c6eceeb00f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5cb730a8d0c5a9bccf8a95c6eceeb00f">&#9670;&#160;</a></span>MR_discreteAbsMeanCurvatureMetric_2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> * MR_discreteAbsMeanCurvatureMetric_2 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *</td>          <td class="paramname"><span class="paramname"><em>points</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#gae4866fbd4ec0921d6eed211cbef0e8aa">MR::discreteAbsMeanCurvatureMetric</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>points</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__function__float__from__MR__EdgeId_8h.html#a744da7234e8737effe5a396869e0604d" title="Destroys a heap-allocated instance of MR_std_function_float_from_MR_EdgeId. Does nothing if the point...">MR_std_function_float_from_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a7c9f5206546af5a29ec19c92abaccd41" name="a7c9f5206546af5a29ec19c92abaccd41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c9f5206546af5a29ec19c92abaccd41">&#9670;&#160;</a></span>MR_discreteMinusAbsMeanCurvatureMetric_1()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> * MR_discreteMinusAbsMeanCurvatureMetric_1 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns minus of edge's absolute discrete mean curvature as a metric; the metric is minimal in the most curved regions of mesh; this metric is symmetric: m(e) == m(e.sym()) Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#ga8e15c502056407a36c6d495799f0aa7d">MR::discreteMinusAbsMeanCurvatureMetric</a></code>. Parameter <code>mesh</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__function__float__from__MR__EdgeId_8h.html#a744da7234e8737effe5a396869e0604d" title="Destroys a heap-allocated instance of MR_std_function_float_from_MR_EdgeId. Does nothing if the point...">MR_std_function_float_from_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a7b63db3df66de44f538304b1087511a1" name="a7b63db3df66de44f538304b1087511a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b63db3df66de44f538304b1087511a1">&#9670;&#160;</a></span>MR_discreteMinusAbsMeanCurvatureMetric_2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> * MR_discreteMinusAbsMeanCurvatureMetric_2 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *</td>          <td class="paramname"><span class="paramname"><em>points</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#ga8e15c502056407a36c6d495799f0aa7d">MR::discreteMinusAbsMeanCurvatureMetric</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>points</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__function__float__from__MR__EdgeId_8h.html#a744da7234e8737effe5a396869e0604d" title="Destroys a heap-allocated instance of MR_std_function_float_from_MR_EdgeId. Does nothing if the point...">MR_std_function_float_from_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a88d08e3351e447c1acf3fc485c50efce" name="a88d08e3351e447c1acf3fc485c50efce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88d08e3351e447c1acf3fc485c50efce">&#9670;&#160;</a></span>MR_edgeCurvMetric_3()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> * MR_edgeCurvMetric_3 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float *</td>          <td class="paramname"><span class="paramname"><em>angleSinFactor</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float *</td>          <td class="paramname"><span class="paramname"><em>angleSinForBoundary</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns edge's metric that depends both on edge's length and on the angle between its left and right faces </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">angleSinFactor</td><td>multiplier before dihedral angle sine in edge metric calculation (positive to prefer concave angles, negative - convex) </td></tr>
+    <tr><td class="paramname">angleSinForBoundary</td><td>consider this dihedral angle sine for boundary edges; this metric is symmetric: m(e) == m(e.sym()) Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#ga215f966d7ad4e48210e0de178cb43a06">MR::edgeCurvMetric</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>angleSinFactor</code> has a default argument: <code>2</code>, pass a null pointer to use it. Parameter <code>angleSinForBoundary</code> has a default argument: <code>0</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__function__float__from__MR__EdgeId_8h.html#a744da7234e8737effe5a396869e0604d" title="Destroys a heap-allocated instance of MR_std_function_float_from_MR_EdgeId. Does nothing if the point...">MR_std_function_float_from_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a8d41aec1f1b35733b8c9b2c5fe2531cd" name="a8d41aec1f1b35733b8c9b2c5fe2531cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d41aec1f1b35733b8c9b2c5fe2531cd">&#9670;&#160;</a></span>MR_edgeCurvMetric_4()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> * MR_edgeCurvMetric_4 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float *</td>          <td class="paramname"><span class="paramname"><em>angleSinFactor</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float *</td>          <td class="paramname"><span class="paramname"><em>angleSinForBoundary</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#ga215f966d7ad4e48210e0de178cb43a06">MR::edgeCurvMetric</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>points</code> can not be null. Parameter <code>angleSinFactor</code> has a default argument: <code>2</code>, pass a null pointer to use it. Parameter <code>angleSinForBoundary</code> has a default argument: <code>0</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__function__float__from__MR__EdgeId_8h.html#a744da7234e8737effe5a396869e0604d" title="Destroys a heap-allocated instance of MR_std_function_float_from_MR_EdgeId. Does nothing if the point...">MR_std_function_float_from_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a1db9374b9ccccdb625fdf80da6ba8cdc" name="a1db9374b9ccccdb625fdf80da6ba8cdc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1db9374b9ccccdb625fdf80da6ba8cdc">&#9670;&#160;</a></span>MR_edgeLengthMetric_1()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> * MR_edgeLengthMetric_1 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns edge's length as a metric; this metric is symmetric: m(e) == m(e.sym()) Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#gab0c6bfd4f01e28a6c034a2195143e410">MR::edgeLengthMetric</a></code>. Parameter <code>mesh</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__function__float__from__MR__EdgeId_8h.html#a744da7234e8737effe5a396869e0604d" title="Destroys a heap-allocated instance of MR_std_function_float_from_MR_EdgeId. Does nothing if the point...">MR_std_function_float_from_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a649e752e4952d1dffd2bef7c5e0a501b" name="a649e752e4952d1dffd2bef7c5e0a501b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a649e752e4952d1dffd2bef7c5e0a501b">&#9670;&#160;</a></span>MR_edgeLengthMetric_2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> * MR_edgeLengthMetric_2 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *</td>          <td class="paramname"><span class="paramname"><em>points</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#gab0c6bfd4f01e28a6c034a2195143e410">MR::edgeLengthMetric</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>points</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__function__float__from__MR__EdgeId_8h.html#a744da7234e8737effe5a396869e0604d" title="Destroys a heap-allocated instance of MR_std_function_float_from_MR_EdgeId. Does nothing if the point...">MR_std_function_float_from_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a7db0f0148b6743675178f1c534091390" name="a7db0f0148b6743675178f1c534091390"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7db0f0148b6743675178f1c534091390">&#9670;&#160;</a></span>MR_edgeTableSymMetric()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> * MR_edgeTableSymMetric </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> *</td>          <td class="paramname"><span class="paramname"><em>metric</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>pre-computes the metric for all mesh edges to quickly return it later for any edge; input metric must be symmetric: metric(e) == metric(e.sym()) Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#ga04e5ae2dd9a34149d37b4c31364b4b68">MR::edgeTableSymMetric</a></code>. Parameter <code>topology</code> can not be null. Parameter <code>metric</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__function__float__from__MR__EdgeId_8h.html#a744da7234e8737effe5a396869e0604d" title="Destroys a heap-allocated instance of MR_std_function_float_from_MR_EdgeId. Does nothing if the point...">MR_std_function_float_from_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ae31d038f46a25a0bd812f72c045bccc8" name="ae31d038f46a25a0bd812f72c045bccc8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae31d038f46a25a0bd812f72c045bccc8">&#9670;&#160;</a></span>MR_identityMetric()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> * MR_identityMetric </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>metric returning 1 for every edge Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathGroup.html#gadd9e6c77ae3fdf22797b82342a1ee1f3">MR::identityMetric</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__function__float__from__MR__EdgeId_8h.html#a744da7234e8737effe5a396869e0604d" title="Destroys a heap-allocated instance of MR_std_function_float_from_MR_EdgeId. Does nothing if the point...">MR_std_function_float_from_MR_EdgeId_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_87d38852fc01aff5f853718c8d8b5cb2.html">Cbindings</a></li><li class="navelem"><a class="el" href="dir_cb83f9b98dc6f67356ff76bcc17f4f67.html">MRCMesh</a></li><li class="navelem"><a class="el" href="MREdgeMetric_8h.html">MREdgeMetric.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

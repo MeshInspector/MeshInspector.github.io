@@ -1,5 +1,6 @@
 var NAVTREEINDEX8 =
 {
+"MRMeshMath_8h.html#a3aa264819f866f07944440f5a92120c1":[6,0,3,0,0,1,4,213,64],
 "MRMeshMath_8h.html#a3cb53a0284adb26bcdc9278da8f476ff":[6,0,3,0,0,1,4,213,68],
 "MRMeshMath_8h.html#a3fb32b3b62d46ab4122204d35787fa88":[6,0,3,0,0,1,4,213,55],
 "MRMeshMath_8h.html#a4211e9cc9d627cf077e17c86710226ee":[6,0,3,0,0,1,4,213,33],
@@ -248,6 +249,5 @@ var NAVTREEINDEX8 =
 "MRMesh_2MRMeshBuilder_8h.html#affd71ea7a77ed4c02be34778c0923804":[6,0,3,0,0,1,4,191,4],
 "MRMesh_2MRMeshBuilder_8h_source.html":[6,0,3,0,0,1,4,191],
 "MRMesh_2MRMeshCollidePrecise_8h.html":[6,0,3,0,0,1,4,194],
-"MRMesh_2MRMeshCollidePrecise_8h_source.html":[6,0,3,0,0,1,4,194],
-"MRMesh_2MRMeshCollide_8h.html":[6,0,3,0,0,1,4,193]
+"MRMesh_2MRMeshCollidePrecise_8h_source.html":[6,0,3,0,0,1,4,194]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX20 =
 {
+"classmrmeshpy_1_1DistanceMeasurementObject_1_1PerCoordDeltas.html#a7e757ea6712504b7dab860725fc09ee8":[6,1,1,0,1,199,0,5],
 "classmrmeshpy_1_1DistanceMeasurementObject_1_1PerCoordDeltas.html#a914910912bf2cb5bc3083b11fb41d1f6":[6,1,0,0,2,199,0,6],
 "classmrmeshpy_1_1DistanceMeasurementObject_1_1PerCoordDeltas.html#a914910912bf2cb5bc3083b11fb41d1f6":[6,1,1,0,1,199,0,6],
 "classmrmeshpy_1_1DistanceMeasurementObject_1_1PerCoordDeltas.html#a926031d5792e8e3a96b574d6a4d4b03a":[6,1,0,0,2,199,0,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX20 =
 "classmrmeshpy_1_1EdgeBitSet.html#afb8f921efb75226404e1b892fc0e43c0":[6,1,1,0,1,206,20],
 "classmrmeshpy_1_1EdgeBitSet.html#afdc7c48932dd31b293cd6101e54ed333":[6,1,0,0,2,206,4],
 "classmrmeshpy_1_1EdgeBitSet.html#afdc7c48932dd31b293cd6101e54ed333":[6,1,1,0,1,206,4],
-"classmrmeshpy_1_1EdgeBitSet.html#afde3b1c767b3b0e1479d6aaecd46f476":[6,1,0,0,2,206,21],
-"classmrmeshpy_1_1EdgeBitSet.html#afde3b1c767b3b0e1479d6aaecd46f476":[6,1,1,0,1,206,21]
+"classmrmeshpy_1_1EdgeBitSet.html#afde3b1c767b3b0e1479d6aaecd46f476":[6,1,0,0,2,206,21]
 };

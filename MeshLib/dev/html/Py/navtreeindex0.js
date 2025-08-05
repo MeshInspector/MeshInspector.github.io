@@ -3,6 +3,7 @@ var NAVTREEINDEX0 =
 "../APIPage.html":[6],
 "../BasedApplication.html":[4,0,0],
 "../BasicMathTypesOverview.html":[5,2],
+"../C/APICPage.html":[6,2],
 "../Cpp/APICppPage.html":[6,0],
 "../DataModel.html":[5,4],
 "../ExampleContourTriangulation.html":[4,0,22],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f.html#a2965331dae4ae0c5996861e7491c4bd6":[6,1,1,0,1,6,0],
 "classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f.html#a31dd42217e14aa98d1d866ae45ee361b":[6,1,0,0,2,6,1],
 "classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f.html#a31dd42217e14aa98d1d866ae45ee361b":[6,1,1,0,1,6,1],
-"classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f.html#a51fdd8dd332ef592174b93cb8c447430":[6,1,0,0,2,6,9],
-"classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f.html#a51fdd8dd332ef592174b93cb8c447430":[6,1,1,0,1,6,9]
+"classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f.html#a51fdd8dd332ef592174b93cb8c447430":[6,1,0,0,2,6,9]
 };

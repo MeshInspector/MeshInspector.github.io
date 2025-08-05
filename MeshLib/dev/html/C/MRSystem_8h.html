@@ -1,0 +1,877 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: MRSystem.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('MRSystem_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">MRSystem.h File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
+</div>
+<p><a href="MRSystem_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a006d61fd2048bba5b5622d42cbe72526" id="r_a006d61fd2048bba5b5622d42cbe72526"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRSceneRoot_8h.html#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a></td></tr>
+<tr class="separator:a006d61fd2048bba5b5622d42cbe72526"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69dc6868c10c92fb8b8a255b0130d289" id="r_a69dc6868c10c92fb8b8a255b0130d289"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></td></tr>
+<tr class="separator:a69dc6868c10c92fb8b8a255b0130d289"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0abf5a90af969389df783f83762346c2" id="r_a0abf5a90af969389df783f83762346c2"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a></td></tr>
+<tr class="memdesc:a0abf5a90af969389df783f83762346c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1SystemMemory.html">MR::SystemMemory</a></code>.  <br /></td></tr>
+<tr class="separator:a0abf5a90af969389df783f83762346c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a194122b50524a35b6173d07b76c6bee2" id="r_a194122b50524a35b6173d07b76c6bee2"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a194122b50524a35b6173d07b76c6bee2">MR_SetCurrentThreadName</a> (const char *<a class="elRef" href="../Cpp/group__HistoryGroup.html#ga6b90613818f7b81547a5b0bba1d40c39">name</a>)</td></tr>
+<tr class="memdesc:a194122b50524a35b6173d07b76c6bee2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#abc117ae5bf8ce3683d73b2fc8e37cde1">MR::SetCurrentThreadName</a></code>.  <br /></td></tr>
+<tr class="separator:a194122b50524a35b6173d07b76c6bee2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cf96490566ebace32c25bdeaf337d57" id="r_a2cf96490566ebace32c25bdeaf337d57"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRSceneRoot_8h.html#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2cf96490566ebace32c25bdeaf337d57">MR_getUserConfigDir</a> (void)</td></tr>
+<tr class="separator:a2cf96490566ebace32c25bdeaf337d57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c0fa8ad45de39c222ce798912032f71" id="r_a3c0fa8ad45de39c222ce798912032f71"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRSceneRoot_8h.html#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c0fa8ad45de39c222ce798912032f71">MR_getUserConfigFilePath</a> (void)</td></tr>
+<tr class="separator:a3c0fa8ad45de39c222ce798912032f71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c335e0bb34f13011ed92f045cff2b03" id="r_a0c335e0bb34f13011ed92f045cff2b03"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRSceneRoot_8h.html#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c335e0bb34f13011ed92f045cff2b03">MR_GetTempDirectory</a> (void)</td></tr>
+<tr class="separator:a0c335e0bb34f13011ed92f045cff2b03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac25d6d94ea946d7e1df8c5e01263b651" id="r_ac25d6d94ea946d7e1df8c5e01263b651"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRSceneRoot_8h.html#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac25d6d94ea946d7e1df8c5e01263b651">MR_GetHomeDirectory</a> (void)</td></tr>
+<tr class="separator:ac25d6d94ea946d7e1df8c5e01263b651"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48ce432a0251a8fa17cbe994ad22c059" id="r_a48ce432a0251a8fa17cbe994ad22c059"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a48ce432a0251a8fa17cbe994ad22c059">MR_GetMRVersionString</a> (void)</td></tr>
+<tr class="separator:a48ce432a0251a8fa17cbe994ad22c059"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0e8ab4164a02e00b1893c2896f2b32d" id="r_aa0e8ab4164a02e00b1893c2896f2b32d"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0e8ab4164a02e00b1893c2896f2b32d">MR_OpenLink</a> (const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *url)</td></tr>
+<tr class="separator:aa0e8ab4164a02e00b1893c2896f2b32d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af029fd236b83fe541a46e91cd19ab95d" id="r_af029fd236b83fe541a46e91cd19ab95d"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af029fd236b83fe541a46e91cd19ab95d">MR_OpenDocument</a> (const char *path, const char *path_end)</td></tr>
+<tr class="separator:af029fd236b83fe541a46e91cd19ab95d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1586290577baacf2cfea38be130eb60e" id="r_a1586290577baacf2cfea38be130eb60e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1586290577baacf2cfea38be130eb60e">MR_GetCpuId</a> (void)</td></tr>
+<tr class="separator:a1586290577baacf2cfea38be130eb60e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a763282bac1d140525911aa5346e1fe25" id="r_a763282bac1d140525911aa5346e1fe25"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a763282bac1d140525911aa5346e1fe25">MR_GetDetailedOSName</a> (void)</td></tr>
+<tr class="separator:a763282bac1d140525911aa5346e1fe25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa5ff2cec02b5e4df57d3abdbc5a01d2" id="r_afa5ff2cec02b5e4df57d3abdbc5a01d2"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa5ff2cec02b5e4df57d3abdbc5a01d2">MR_getOSNoSpaces</a> (void)</td></tr>
+<tr class="separator:afa5ff2cec02b5e4df57d3abdbc5a01d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d8c37d97792056381beaf3626103760" id="r_a3d8c37d97792056381beaf3626103760"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d8c37d97792056381beaf3626103760">MR_setNewHandlerIfNeeded</a> (void)</td></tr>
+<tr class="memdesc:a3d8c37d97792056381beaf3626103760"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a76050fa0c0831ae2d21d1a20914f530d">MR::setNewHandlerIfNeeded</a></code>.  <br /></td></tr>
+<tr class="separator:a3d8c37d97792056381beaf3626103760"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf06857533c49bb6393404d4ea300537" id="r_adf06857533c49bb6393404d4ea300537"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf06857533c49bb6393404d4ea300537">MR_getCurrentStacktrace</a> (void)</td></tr>
+<tr class="separator:adf06857533c49bb6393404d4ea300537"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f6ecd03b803f0dd72e782e86b36983f" id="r_a9f6ecd03b803f0dd72e782e86b36983f"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f6ecd03b803f0dd72e782e86b36983f">MR_SystemMemory_Get_physicalTotal</a> (const <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *_this)</td></tr>
+<tr class="separator:a9f6ecd03b803f0dd72e782e86b36983f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a202e539393e82fcc682812bf7422b928" id="r_a202e539393e82fcc682812bf7422b928"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a202e539393e82fcc682812bf7422b928">MR_SystemMemory_Set_physicalTotal</a> (<a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *_this, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> value)</td></tr>
+<tr class="separator:a202e539393e82fcc682812bf7422b928"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4bdca0396d657b44e59bfdc662495969" id="r_a4bdca0396d657b44e59bfdc662495969"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4bdca0396d657b44e59bfdc662495969">MR_SystemMemory_GetMutable_physicalTotal</a> (<a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *_this)</td></tr>
+<tr class="separator:a4bdca0396d657b44e59bfdc662495969"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f2ed771a1fab6aaec0ea9b651b59f6d" id="r_a4f2ed771a1fab6aaec0ea9b651b59f6d"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f2ed771a1fab6aaec0ea9b651b59f6d">MR_SystemMemory_Get_physicalAvailable</a> (const <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *_this)</td></tr>
+<tr class="separator:a4f2ed771a1fab6aaec0ea9b651b59f6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49739f3061b0a5d6b8d2b22395e32825" id="r_a49739f3061b0a5d6b8d2b22395e32825"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49739f3061b0a5d6b8d2b22395e32825">MR_SystemMemory_Set_physicalAvailable</a> (<a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *_this, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> value)</td></tr>
+<tr class="separator:a49739f3061b0a5d6b8d2b22395e32825"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a830721f661e3b954af22650bd8bb2e" id="r_a7a830721f661e3b954af22650bd8bb2e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a830721f661e3b954af22650bd8bb2e">MR_SystemMemory_GetMutable_physicalAvailable</a> (<a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *_this)</td></tr>
+<tr class="separator:a7a830721f661e3b954af22650bd8bb2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f17b377f30210981bdbbb7e91e0bd96" id="r_a8f17b377f30210981bdbbb7e91e0bd96"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f17b377f30210981bdbbb7e91e0bd96">MR_SystemMemory_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a8f17b377f30210981bdbbb7e91e0bd96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4dff9d00dd7107720378fc2939815f8c" id="r_a4dff9d00dd7107720378fc2939815f8c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4dff9d00dd7107720378fc2939815f8c">MR_SystemMemory_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a4dff9d00dd7107720378fc2939815f8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3760303843a9a0a9045c15262c0228c3" id="r_a3760303843a9a0a9045c15262c0228c3"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3760303843a9a0a9045c15262c0228c3">MR_SystemMemory_ConstructFrom</a> (<a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> physicalTotal, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> physicalAvailable)</td></tr>
+<tr class="separator:a3760303843a9a0a9045c15262c0228c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab784844f12a8fe7d8d9812bab91ec762" id="r_ab784844f12a8fe7d8d9812bab91ec762"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab784844f12a8fe7d8d9812bab91ec762">MR_SystemMemory_OffsetPtr</a> (const <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:ab784844f12a8fe7d8d9812bab91ec762"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:ab784844f12a8fe7d8d9812bab91ec762"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd784214971391452aa30a4a8b4f0045" id="r_abd784214971391452aa30a4a8b4f0045"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd784214971391452aa30a4a8b4f0045">MR_SystemMemory_OffsetMutablePtr</a> (<a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:abd784214971391452aa30a4a8b4f0045"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:abd784214971391452aa30a4a8b4f0045"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34ff570c4c9bc0b771a6cf8f75002347" id="r_a34ff570c4c9bc0b771a6cf8f75002347"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34ff570c4c9bc0b771a6cf8f75002347">MR_SystemMemory_ConstructFromAnother</a> (const <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *_other)</td></tr>
+<tr class="separator:a34ff570c4c9bc0b771a6cf8f75002347"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ec7c967b154bc64516948e2b4c24f8f" id="r_a4ec7c967b154bc64516948e2b4c24f8f"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ec7c967b154bc64516948e2b4c24f8f">MR_SystemMemory_Destroy</a> (const <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *_this)</td></tr>
+<tr class="memdesc:a4ec7c967b154bc64516948e2b4c24f8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_SystemMemory</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a4ec7c967b154bc64516948e2b4c24f8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a178344f70409b0a8db4916244bae17de" id="r_a178344f70409b0a8db4916244bae17de"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a178344f70409b0a8db4916244bae17de">MR_SystemMemory_DestroyArray</a> (const <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *_this)</td></tr>
+<tr class="memdesc:a178344f70409b0a8db4916244bae17de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_SystemMemory</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a178344f70409b0a8db4916244bae17de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab046039cc735f33626f910489400f17a" id="r_ab046039cc735f33626f910489400f17a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab046039cc735f33626f910489400f17a">MR_SystemMemory_AssignFromAnother</a> (<a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *_this, const <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *_other)</td></tr>
+<tr class="separator:ab046039cc735f33626f910489400f17a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbdc598c7ca798b4161d5bfb2f991317" id="r_acbdc598c7ca798b4161d5bfb2f991317"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acbdc598c7ca798b4161d5bfb2f991317">MR_getSystemMemory</a> (void)</td></tr>
+<tr class="separator:acbdc598c7ca798b4161d5bfb2f991317"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9793277773c2a913813dea3a59ebbe3d" id="r_a9793277773c2a913813dea3a59ebbe3d"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9793277773c2a913813dea3a59ebbe3d">MR_setupLoggerByDefault</a> (void)</td></tr>
+<tr class="separator:a9793277773c2a913813dea3a59ebbe3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a006d61fd2048bba5b5622d42cbe72526" name="a006d61fd2048bba5b5622d42cbe72526"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a006d61fd2048bba5b5622d42cbe72526">&#9670;&#160;</a></span>MR_std_filesystem_path</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRSceneRoot_8h.html#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a> <a class="el" href="MRSceneRoot_8h.html#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a69dc6868c10c92fb8b8a255b0130d289" name="a69dc6868c10c92fb8b8a255b0130d289"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69dc6868c10c92fb8b8a255b0130d289">&#9670;&#160;</a></span>MR_std_string</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0abf5a90af969389df783f83762346c2" name="a0abf5a90af969389df783f83762346c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0abf5a90af969389df783f83762346c2">&#9670;&#160;</a></span>MR_SystemMemory</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1SystemMemory.html">MR::SystemMemory</a></code>. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a1586290577baacf2cfea38be130eb60e" name="a1586290577baacf2cfea38be130eb60e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1586290577baacf2cfea38be130eb60e">&#9670;&#160;</a></span>MR_GetCpuId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_GetCpuId </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a7b5e5990972490ea4d3803ccca1b3757">MR::GetCpuId</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__string_8h.html#a9ffa0a79c0c1ac50a81c8dfdf2fd5d91" title="Destroys a heap-allocated instance of MR_std_string. Does nothing if the pointer is null.">MR_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="adf06857533c49bb6393404d4ea300537" name="adf06857533c49bb6393404d4ea300537"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf06857533c49bb6393404d4ea300537">&#9670;&#160;</a></span>MR_getCurrentStacktrace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_getCurrentStacktrace </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns string representation of the current stacktrace Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a69dd7a0499b29eb5608d05713b8feb72">MR::getCurrentStacktrace</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__string_8h.html#a9ffa0a79c0c1ac50a81c8dfdf2fd5d91" title="Destroys a heap-allocated instance of MR_std_string. Does nothing if the pointer is null.">MR_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a763282bac1d140525911aa5346e1fe25" name="a763282bac1d140525911aa5346e1fe25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a763282bac1d140525911aa5346e1fe25">&#9670;&#160;</a></span>MR_GetDetailedOSName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_GetDetailedOSName </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a7d7ea607c1d62759b1a6d09f3b68c78f">MR::GetDetailedOSName</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__string_8h.html#a9ffa0a79c0c1ac50a81c8dfdf2fd5d91" title="Destroys a heap-allocated instance of MR_std_string. Does nothing if the pointer is null.">MR_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ac25d6d94ea946d7e1df8c5e01263b651" name="ac25d6d94ea946d7e1df8c5e01263b651"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac25d6d94ea946d7e1df8c5e01263b651">&#9670;&#160;</a></span>MR_GetHomeDirectory()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRSceneRoot_8h.html#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a> * MR_GetHomeDirectory </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a2ddb2bd9b31853c37146f070b0b472c1">MR::GetHomeDirectory</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__filesystem__path_8h.html#aa4f29eaf18ebc9631862ab888f723391" title="Destroys a heap-allocated instance of MR_std_filesystem_path. Does nothing if the pointer is null.">MR_std_filesystem_path_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a48ce432a0251a8fa17cbe994ad22c059" name="a48ce432a0251a8fa17cbe994ad22c059"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48ce432a0251a8fa17cbe994ad22c059">&#9670;&#160;</a></span>MR_GetMRVersionString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_GetMRVersionString </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#ac6f40535c1b612f6ce24e70b7ee28a36">MR::GetMRVersionString</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__string_8h.html#a9ffa0a79c0c1ac50a81c8dfdf2fd5d91" title="Destroys a heap-allocated instance of MR_std_string. Does nothing if the pointer is null.">MR_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="afa5ff2cec02b5e4df57d3abdbc5a01d2" name="afa5ff2cec02b5e4df57d3abdbc5a01d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa5ff2cec02b5e4df57d3abdbc5a01d2">&#9670;&#160;</a></span>MR_getOSNoSpaces()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_getOSNoSpaces </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a4495a70f291d11bdf905106b2a3856b5">MR::getOSNoSpaces</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__string_8h.html#a9ffa0a79c0c1ac50a81c8dfdf2fd5d91" title="Destroys a heap-allocated instance of MR_std_string. Does nothing if the pointer is null.">MR_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="acbdc598c7ca798b4161d5bfb2f991317" name="acbdc598c7ca798b4161d5bfb2f991317"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acbdc598c7ca798b4161d5bfb2f991317">&#9670;&#160;</a></span>MR_getSystemMemory()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> * MR_getSystemMemory </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>return information about memory available in the system Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a3ba2aca05f28a3dd3c05cb49fbf09b66">MR::getSystemMemory</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a4ec7c967b154bc64516948e2b4c24f8f" title="Destroys a heap-allocated instance of MR_SystemMemory. Does nothing if the pointer is null.">MR_SystemMemory_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a0c335e0bb34f13011ed92f045cff2b03" name="a0c335e0bb34f13011ed92f045cff2b03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c335e0bb34f13011ed92f045cff2b03">&#9670;&#160;</a></span>MR_GetTempDirectory()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRSceneRoot_8h.html#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a> * MR_GetTempDirectory </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a4ba1f8b8dda149d741c79f6ca5c6f2ba">MR::GetTempDirectory</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__filesystem__path_8h.html#aa4f29eaf18ebc9631862ab888f723391" title="Destroys a heap-allocated instance of MR_std_filesystem_path. Does nothing if the pointer is null.">MR_std_filesystem_path_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a2cf96490566ebace32c25bdeaf337d57" name="a2cf96490566ebace32c25bdeaf337d57"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2cf96490566ebace32c25bdeaf337d57">&#9670;&#160;</a></span>MR_getUserConfigDir()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRSceneRoot_8h.html#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a> * MR_getUserConfigDir </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#ac8ef1e5eb550d8cb502e7a5a5ac8c038">MR::getUserConfigDir</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__filesystem__path_8h.html#aa4f29eaf18ebc9631862ab888f723391" title="Destroys a heap-allocated instance of MR_std_filesystem_path. Does nothing if the pointer is null.">MR_std_filesystem_path_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a3c0fa8ad45de39c222ce798912032f71" name="a3c0fa8ad45de39c222ce798912032f71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c0fa8ad45de39c222ce798912032f71">&#9670;&#160;</a></span>MR_getUserConfigFilePath()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRSceneRoot_8h.html#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a> * MR_getUserConfigFilePath </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a77dbe991d4f1d8a2b0ffd3ed1e1320bb">MR::getUserConfigFilePath</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__filesystem__path_8h.html#aa4f29eaf18ebc9631862ab888f723391" title="Destroys a heap-allocated instance of MR_std_filesystem_path. Does nothing if the pointer is null.">MR_std_filesystem_path_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="af029fd236b83fe541a46e91cd19ab95d" name="af029fd236b83fe541a46e91cd19ab95d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af029fd236b83fe541a46e91cd19ab95d">&#9670;&#160;</a></span>MR_OpenDocument()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_OpenDocument </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>path_end</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a2d2055c8154d0075f8388ca7579fd794">MR::OpenDocument</a></code>. Parameter <code>path</code> is a UTF-8 encoded filesystem path. </p>
+
+</div>
+</div>
+<a id="aa0e8ab4164a02e00b1893c2896f2b32d" name="aa0e8ab4164a02e00b1893c2896f2b32d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0e8ab4164a02e00b1893c2896f2b32d">&#9670;&#160;</a></span>MR_OpenLink()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_OpenLink </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>url</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#aec820d50ac448217d66131a079fce39a">MR::OpenLink</a></code>. Parameter <code>url</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a194122b50524a35b6173d07b76c6bee2" name="a194122b50524a35b6173d07b76c6bee2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a194122b50524a35b6173d07b76c6bee2">&#9670;&#160;</a></span>MR_SetCurrentThreadName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_SetCurrentThreadName </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>name</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#abc117ae5bf8ce3683d73b2fc8e37cde1">MR::SetCurrentThreadName</a></code>. </p>
+
+</div>
+</div>
+<a id="a3d8c37d97792056381beaf3626103760" name="a3d8c37d97792056381beaf3626103760"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d8c37d97792056381beaf3626103760">&#9670;&#160;</a></span>MR_setNewHandlerIfNeeded()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_setNewHandlerIfNeeded </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a76050fa0c0831ae2d21d1a20914f530d">MR::setNewHandlerIfNeeded</a></code>. </p>
+
+</div>
+</div>
+<a id="a9793277773c2a913813dea3a59ebbe3d" name="a9793277773c2a913813dea3a59ebbe3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9793277773c2a913813dea3a59ebbe3d">&#9670;&#160;</a></span>MR_setupLoggerByDefault()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_setupLoggerByDefault </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Setups logger: 1) makes stdout sink 2) makes file sink (MRLog.txt) 3) redirect std streams to logger 4) print stacktrace on crash (not in wasm) log level - trace Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a6804a7415d5f018fa64bf1b533af3d4f">MR::setupLoggerByDefault</a></code>. </p>
+
+</div>
+</div>
+<a id="ab046039cc735f33626f910489400f17a" name="ab046039cc735f33626f910489400f17a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab046039cc735f33626f910489400f17a">&#9670;&#160;</a></span>MR_SystemMemory_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> * MR_SystemMemory_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1SystemMemory.html">MR::SystemMemory</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. Parameter <code>_other</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a3760303843a9a0a9045c15262c0228c3" name="a3760303843a9a0a9045c15262c0228c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3760303843a9a0a9045c15262c0228c3">&#9670;&#160;</a></span>MR_SystemMemory_ConstructFrom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> * MR_SystemMemory_ConstructFrom </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></td>          <td class="paramname"><span class="paramname"><em>physicalTotal</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></td>          <td class="paramname"><span class="paramname"><em>physicalAvailable</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1SystemMemory.html">MR::SystemMemory</a></code> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a4ec7c967b154bc64516948e2b4c24f8f" title="Destroys a heap-allocated instance of MR_SystemMemory. Does nothing if the pointer is null.">MR_SystemMemory_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a34ff570c4c9bc0b771a6cf8f75002347" name="a34ff570c4c9bc0b771a6cf8f75002347"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34ff570c4c9bc0b771a6cf8f75002347">&#9670;&#160;</a></span>MR_SystemMemory_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> * MR_SystemMemory_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1SystemMemory.html">MR::SystemMemory</a></code>. Parameter <code>_other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a4ec7c967b154bc64516948e2b4c24f8f" title="Destroys a heap-allocated instance of MR_SystemMemory. Does nothing if the pointer is null.">MR_SystemMemory_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a8f17b377f30210981bdbbb7e91e0bd96" name="a8f17b377f30210981bdbbb7e91e0bd96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f17b377f30210981bdbbb7e91e0bd96">&#9670;&#160;</a></span>MR_SystemMemory_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> * MR_SystemMemory_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a4ec7c967b154bc64516948e2b4c24f8f" title="Destroys a heap-allocated instance of MR_SystemMemory. Does nothing if the pointer is null.">MR_SystemMemory_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a4dff9d00dd7107720378fc2939815f8c" name="a4dff9d00dd7107720378fc2939815f8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4dff9d00dd7107720378fc2939815f8c">&#9670;&#160;</a></span>MR_SystemMemory_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> * MR_SystemMemory_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a178344f70409b0a8db4916244bae17de" title="Destroys a heap-allocated array of MR_SystemMemory. Does nothing if the pointer is null.">MR_SystemMemory_DestroyArray()</a></code>. Use <code><a class="el" href="#abd784214971391452aa30a4a8b4f0045" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_SystemMemory_OffsetMutablePtr()</a></code> and <code><a class="el" href="#ab784844f12a8fe7d8d9812bab91ec762" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_SystemMemory_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a4ec7c967b154bc64516948e2b4c24f8f" name="a4ec7c967b154bc64516948e2b4c24f8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ec7c967b154bc64516948e2b4c24f8f">&#9670;&#160;</a></span>MR_SystemMemory_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_SystemMemory_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_SystemMemory</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a178344f70409b0a8db4916244bae17de" name="a178344f70409b0a8db4916244bae17de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a178344f70409b0a8db4916244bae17de">&#9670;&#160;</a></span>MR_SystemMemory_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_SystemMemory_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_SystemMemory</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a4f2ed771a1fab6aaec0ea9b651b59f6d" name="a4f2ed771a1fab6aaec0ea9b651b59f6d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f2ed771a1fab6aaec0ea9b651b59f6d">&#9670;&#160;</a></span>MR_SystemMemory_Get_physicalAvailable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> * MR_SystemMemory_Get_physicalAvailable </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>available amount of physical memory in the system, in bytes (0 if no info) Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SystemMemory.html">MR::SystemMemory</a></code> named <code>physicalAvailable</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a9f6ecd03b803f0dd72e782e86b36983f" name="a9f6ecd03b803f0dd72e782e86b36983f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f6ecd03b803f0dd72e782e86b36983f">&#9670;&#160;</a></span>MR_SystemMemory_Get_physicalTotal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> * MR_SystemMemory_Get_physicalTotal </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>total amount of physical memory in the system, in bytes (0 if no info) Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SystemMemory.html">MR::SystemMemory</a></code> named <code>physicalTotal</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a7a830721f661e3b954af22650bd8bb2e" name="a7a830721f661e3b954af22650bd8bb2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a830721f661e3b954af22650bd8bb2e">&#9670;&#160;</a></span>MR_SystemMemory_GetMutable_physicalAvailable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> * MR_SystemMemory_GetMutable_physicalAvailable </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>available amount of physical memory in the system, in bytes (0 if no info) Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SystemMemory.html">MR::SystemMemory</a></code> named <code>physicalAvailable</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a4bdca0396d657b44e59bfdc662495969" name="a4bdca0396d657b44e59bfdc662495969"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4bdca0396d657b44e59bfdc662495969">&#9670;&#160;</a></span>MR_SystemMemory_GetMutable_physicalTotal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> * MR_SystemMemory_GetMutable_physicalTotal </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>total amount of physical memory in the system, in bytes (0 if no info) Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SystemMemory.html">MR::SystemMemory</a></code> named <code>physicalTotal</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="abd784214971391452aa30a4a8b4f0045" name="abd784214971391452aa30a4a8b4f0045"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd784214971391452aa30a4a8b4f0045">&#9670;&#160;</a></span>MR_SystemMemory_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> * MR_SystemMemory_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="ab784844f12a8fe7d8d9812bab91ec762" name="ab784844f12a8fe7d8d9812bab91ec762"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab784844f12a8fe7d8d9812bab91ec762">&#9670;&#160;</a></span>MR_SystemMemory_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> * MR_SystemMemory_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a49739f3061b0a5d6b8d2b22395e32825" name="a49739f3061b0a5d6b8d2b22395e32825"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49739f3061b0a5d6b8d2b22395e32825">&#9670;&#160;</a></span>MR_SystemMemory_Set_physicalAvailable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_SystemMemory_Set_physicalAvailable </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>available amount of physical memory in the system, in bytes (0 if no info) Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SystemMemory.html">MR::SystemMemory</a></code> named <code>physicalAvailable</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a202e539393e82fcc682812bf7422b928" name="a202e539393e82fcc682812bf7422b928"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a202e539393e82fcc682812bf7422b928">&#9670;&#160;</a></span>MR_SystemMemory_Set_physicalTotal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_SystemMemory_Set_physicalTotal </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>total amount of physical memory in the system, in bytes (0 if no info) Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SystemMemory.html">MR::SystemMemory</a></code> named <code>physicalTotal</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_87d38852fc01aff5f853718c8d8b5cb2.html">Cbindings</a></li><li class="navelem"><a class="el" href="dir_cb83f9b98dc6f67356ff76bcc17f4f67.html">MRCMesh</a></li><li class="navelem"><a class="el" href="MRSystem_8h.html">MRSystem.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,1234 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: Surface Path</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('group__SurfacePathSubgroup.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#enumval-members">Enumerator</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">Surface Path<div class="ingroups"><a class="elRef" href="../Cpp/group__SurfacePathGroup.html">Surface Paths</a></div></div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:ga5a353cb464a2fc9991af01d7f53aef78" id="r_ga5a353cb464a2fc9991af01d7f53aef78"><td class="memItemLeft" align="right" valign="top">typedef int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5a353cb464a2fc9991af01d7f53aef78">MR_PathError</a></td></tr>
+<tr class="separator:ga5a353cb464a2fc9991af01d7f53aef78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4893b0a050ddeb69f3eb2b02732046ab" id="r_ga4893b0a050ddeb69f3eb2b02732046ab"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ga4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a></td></tr>
+<tr class="memdesc:ga4893b0a050ddeb69f3eb2b02732046ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1ComputeSteepestDescentPathSettings.html">MR::ComputeSteepestDescentPathSettings</a></code>.  <br /></td></tr>
+<tr class="separator:ga4893b0a050ddeb69f3eb2b02732046ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9802a8314e2539b108d78be8f4b3e043" id="r_ga9802a8314e2539b108d78be8f4b3e043"><td class="memItemLeft" align="right" valign="top">typedef int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9802a8314e2539b108d78be8f4b3e043">MR_ExtremeEdgeType</a></td></tr>
+<tr class="separator:ga9802a8314e2539b108d78be8f4b3e043"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:gaf2c93aa0da8a9748d23340f32349a8b8" id="r_gaf2c93aa0da8a9748d23340f32349a8b8"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><b>PathError</b> { <a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#gaf2c93aa0da8a9748d23340f32349a8b8aad309ea76f6bf055e7b62a3dd200631f">MR::PathError::StartEndNotConnected</a>
+, <a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#gaf2c93aa0da8a9748d23340f32349a8b8a8462b58246e70e5c83e5b939a9332cb5">MR::PathError::InternalError</a>
+ }</td></tr>
+<tr class="separator:gaf2c93aa0da8a9748d23340f32349a8b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3887057b7aa95d9993b5ce57130c25a6" id="r_ga3887057b7aa95d9993b5ce57130c25a6"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><b>ExtremeEdgeType</b> { <a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#ga3887057b7aa95d9993b5ce57130c25a6ae9eeca48aa5cccacde08760c6ec9dd5a">MR::ExtremeEdgeType::Ridge</a>
+, <a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#ga3887057b7aa95d9993b5ce57130c25a6a90290d32b4deae8703b07bfcd17af5a4">MR::ExtremeEdgeType::Gorge</a>
+ }</td></tr>
+<tr class="separator:ga3887057b7aa95d9993b5ce57130c25a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaeb8e1c282570d629a6b603a94a4650d6" id="r_gaeb8e1c282570d629a6b603a94a4650d6"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#ggaeb8e1c282570d629a6b603a94a4650d6acfa2b7ebb649261d791fa2ec89ba1761">MR_PathError_StartEndNotConnected</a> = 0
+, <a class="el" href="#ggaeb8e1c282570d629a6b603a94a4650d6a2c025f79a5115e54d72850eb6a7633ab">MR_PathError_InternalError</a> = 1
+ }</td></tr>
+<tr class="separator:gaeb8e1c282570d629a6b603a94a4650d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga109bfaad92bd6d348dab484aec11edbb" id="r_ga109bfaad92bd6d348dab484aec11edbb"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#gga109bfaad92bd6d348dab484aec11edbbacec741a8ab5021accd7a8cbc20e052b4">MR_ExtremeEdgeType_Ridge</a> = 0
+, <a class="el" href="#gga109bfaad92bd6d348dab484aec11edbba15cd4c836bff03f19f6f62c39e0f3193">MR_ExtremeEdgeType_Gorge</a> = 1
+ }</td></tr>
+<tr class="separator:ga109bfaad92bd6d348dab484aec11edbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:gac84bc08e1e95706c67d413f315fcf9d7" id="r_gac84bc08e1e95706c67d413f315fcf9d7"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#gac84bc08e1e95706c67d413f315fcf9d7">MR::toString</a> (<a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#gaf2c93aa0da8a9748d23340f32349a8b8">PathError</a> error)</td></tr>
+<tr class="separator:gac84bc08e1e95706c67d413f315fcf9d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga446cf8a4654ec1a589f1ffd89762aa29" id="r_ga446cf8a4654ec1a589f1ffd89762aa29"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Cpp/MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="elRef" href="../Cpp/namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="elRef" href="../Cpp/namespaceMR.html#a7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a>, <a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#gaf2c93aa0da8a9748d23340f32349a8b8">PathError</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#ga446cf8a4654ec1a589f1ffd89762aa29">MR::computeSurfacePath</a> (const MeshPart &amp;mp, const <a class="elRef" href="../Cpp/structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;start, const <a class="elRef" href="../Cpp/structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;<a class="elRef" href="../Cpp/group__BasicGroup.html#gab900ba901f90bfe11c4580814af4fbf6">end</a>, int maxGeodesicIters=5, const VertBitSet *vertRegion=nullptr, VertScalars *outSurfaceDistances=nullptr)</td></tr>
+<tr class="separator:ga446cf8a4654ec1a589f1ffd89762aa29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8359c707ab87c6591777e5c2809c7468" id="r_ga8359c707ab87c6591777e5c2809c7468"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Cpp/MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="elRef" href="../Cpp/namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="elRef" href="../Cpp/namespaceMR.html#a7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a>, <a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#gaf2c93aa0da8a9748d23340f32349a8b8">PathError</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#ga8359c707ab87c6591777e5c2809c7468">MR::computeGeodesicPath</a> (const <a class="elRef" href="../Cpp/structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="elRef" href="../Cpp/structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;start, const <a class="elRef" href="../Cpp/structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;<a class="elRef" href="../Cpp/group__BasicGroup.html#gab900ba901f90bfe11c4580814af4fbf6">end</a>, <a class="elRef" href="../Cpp/namespaceMR.html#a0d52c069a53aab9d22c0f2c4e3f262a2">GeodesicPathApprox</a> atype=GeodesicPathApprox::FastMarching, int maxGeodesicIters=100)</td></tr>
+<tr class="separator:ga8359c707ab87c6591777e5c2809c7468"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8d44e12ec3a4b21e1ebb753c0a84b8ca" id="r_ga8d44e12ec3a4b21e1ebb753c0a84b8ca"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Cpp/MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="elRef" href="../Cpp/namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="elRef" href="../Cpp/namespaceMR.html#a7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a>, <a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#gaf2c93aa0da8a9748d23340f32349a8b8">PathError</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#ga8d44e12ec3a4b21e1ebb753c0a84b8ca">MR::computeGeodesicPathApprox</a> (const <a class="elRef" href="../Cpp/structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="elRef" href="../Cpp/structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;start, const <a class="elRef" href="../Cpp/structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;<a class="elRef" href="../Cpp/group__BasicGroup.html#gab900ba901f90bfe11c4580814af4fbf6">end</a>, <a class="elRef" href="../Cpp/namespaceMR.html#a0d52c069a53aab9d22c0f2c4e3f262a2">GeodesicPathApprox</a> atype)</td></tr>
+<tr class="separator:ga8d44e12ec3a4b21e1ebb753c0a84b8ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga52601966a3d67cfd9b26ad1e586cd6f4" id="r_ga52601966a3d67cfd9b26ad1e586cd6f4"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Cpp/MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="elRef" href="../Cpp/namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="elRef" href="../Cpp/namespaceMR.html#a7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a>, <a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#gaf2c93aa0da8a9748d23340f32349a8b8">PathError</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#ga52601966a3d67cfd9b26ad1e586cd6f4">MR::computeFastMarchingPath</a> (const MeshPart &amp;mp, const <a class="elRef" href="../Cpp/structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;start, const <a class="elRef" href="../Cpp/structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;<a class="elRef" href="../Cpp/group__BasicGroup.html#gab900ba901f90bfe11c4580814af4fbf6">end</a>, const VertBitSet *vertRegion=nullptr, VertScalars *outSurfaceDistances=nullptr)</td></tr>
+<tr class="separator:ga52601966a3d67cfd9b26ad1e586cd6f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga563ea0f701cd05e6995193631495466e" id="r_ga563ea0f701cd05e6995193631495466e"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Cpp/MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="elRef" href="../Cpp/namespaceMR.html#a7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#ga563ea0f701cd05e6995193631495466e">MR::computeSteepestDescentPath</a> (const MeshPart &amp;mp, const VertScalars &amp;field, const <a class="elRef" href="../Cpp/structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;start, const <a class="elRef" href="../Cpp/structMR_1_1ComputeSteepestDescentPathSettings.html">ComputeSteepestDescentPathSettings</a> &amp;settings={})</td></tr>
+<tr class="separator:ga563ea0f701cd05e6995193631495466e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga30a8af69c2b3595b324d9f12a008c9cb" id="r_ga30a8af69c2b3595b324d9f12a008c9cb"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Cpp/MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#ga30a8af69c2b3595b324d9f12a008c9cb">MR::computeSteepestDescentPath</a> (const MeshPart &amp;mp, const VertScalars &amp;field, const <a class="elRef" href="../Cpp/structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;start, <a class="elRef" href="../Cpp/namespaceMR.html#a7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a> *outPath, const <a class="elRef" href="../Cpp/structMR_1_1ComputeSteepestDescentPathSettings.html">ComputeSteepestDescentPathSettings</a> &amp;settings={})</td></tr>
+<tr class="separator:ga30a8af69c2b3595b324d9f12a008c9cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa46e9820d021f3412af4f1c59c14aaa2" id="r_gaa46e9820d021f3412af4f1c59c14aaa2"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Cpp/MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="elRef" href="../Cpp/namespaceMR.html#a8ffb37085bbd6060f17bcf222941ab8c">MeshEdgePoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#gaa46e9820d021f3412af4f1c59c14aaa2">MR::findSteepestDescentPoint</a> (const MeshPart &amp;mp, const VertScalars &amp;field, VertId v)</td></tr>
+<tr class="separator:gaa46e9820d021f3412af4f1c59c14aaa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga03317f13dce667de5ec4fce7626aa415" id="r_ga03317f13dce667de5ec4fce7626aa415"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Cpp/MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="elRef" href="../Cpp/namespaceMR.html#a8ffb37085bbd6060f17bcf222941ab8c">MeshEdgePoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#ga03317f13dce667de5ec4fce7626aa415">MR::findSteepestDescentPoint</a> (const MeshPart &amp;mp, const VertScalars &amp;field, const <a class="elRef" href="../Cpp/namespaceMR.html#a8ffb37085bbd6060f17bcf222941ab8c">MeshEdgePoint</a> &amp;ep)</td></tr>
+<tr class="separator:ga03317f13dce667de5ec4fce7626aa415"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga316d288d92ba2fc460dcc7d29398e084" id="r_ga316d288d92ba2fc460dcc7d29398e084"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Cpp/MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="elRef" href="../Cpp/namespaceMR.html#a8ffb37085bbd6060f17bcf222941ab8c">MeshEdgePoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#ga316d288d92ba2fc460dcc7d29398e084">MR::findSteepestDescentPoint</a> (const MeshPart &amp;mp, const VertScalars &amp;field, const <a class="elRef" href="../Cpp/structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;tp)</td></tr>
+<tr class="separator:ga316d288d92ba2fc460dcc7d29398e084"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0bd366cd8b4e0bb2f8754392be22cb12" id="r_ga0bd366cd8b4e0bb2f8754392be22cb12"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Cpp/MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> UndirectedEdgeBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#ga0bd366cd8b4e0bb2f8754392be22cb12">MR::findExtremeEdges</a> (const <a class="elRef" href="../Cpp/structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const VertScalars &amp;field, <a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#ga3887057b7aa95d9993b5ce57130c25a6">ExtremeEdgeType</a> type)</td></tr>
+<tr class="separator:ga0bd366cd8b4e0bb2f8754392be22cb12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2ea9a6428c9bbd3ec9d9f96cc66bd1d5" id="r_ga2ea9a6428c9bbd3ec9d9f96cc66bd1d5"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Cpp/MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="elRef" href="../Cpp/namespaceMR.html#af8ad9e1b05a45987a3075d43bf345d68">HashMap</a>&lt; VertId, VertId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#ga2ea9a6428c9bbd3ec9d9f96cc66bd1d5">MR::computeClosestSurfacePathTargets</a> (const <a class="elRef" href="../Cpp/structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const VertBitSet &amp;starts, const VertBitSet &amp;ends, const VertBitSet *vertRegion=nullptr, VertScalars *outSurfaceDistances=nullptr)</td></tr>
+<tr class="separator:ga2ea9a6428c9bbd3ec9d9f96cc66bd1d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaaa4dc30756e93cfc4cd2f88758193360" id="r_gaaa4dc30756e93cfc4cd2f88758193360"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Cpp/MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="elRef" href="../Cpp/namespaceMR.html#a1947baff009e7ba9b3d0754c30a458a5">SurfacePaths</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#gaaa4dc30756e93cfc4cd2f88758193360">MR::getSurfacePathsViaVertices</a> (const <a class="elRef" href="../Cpp/structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const VertBitSet &amp;vs)</td></tr>
+<tr class="separator:gaaa4dc30756e93cfc4cd2f88758193360"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacebe3b7371a72e49ddfbabc14fd008b4" id="r_gacebe3b7371a72e49ddfbabc14fd008b4"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Cpp/MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#gacebe3b7371a72e49ddfbabc14fd008b4">MR::surfacePathLength</a> (const <a class="elRef" href="../Cpp/structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="elRef" href="../Cpp/namespaceMR.html#a7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a> &amp;surfacePath)</td></tr>
+<tr class="separator:gacebe3b7371a72e49ddfbabc14fd008b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga874e90d25d0cf437f34834d739fa588c" id="r_ga874e90d25d0cf437f34834d739fa588c"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Cpp/MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="elRef" href="../Cpp/namespaceMR.html#add5a74bcec7c4de3a40927cf2956e5e1">Contour3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#ga874e90d25d0cf437f34834d739fa588c">MR::surfacePathToContour3f</a> (const <a class="elRef" href="../Cpp/structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="elRef" href="../Cpp/namespaceMR.html#a7798ef4dfda44362083b0aa66a45d6a3">SurfacePath</a> &amp;line)</td></tr>
+<tr class="separator:ga874e90d25d0cf437f34834d739fa588c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8dbc7e2393ed3d315467293b5b2ba1e2" id="r_ga8dbc7e2393ed3d315467293b5b2ba1e2"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../Cpp/MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="elRef" href="../Cpp/namespaceMR.html#ac93791b17f5bb1ff4a6a7e7f51a7abc9">Contours3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#ga8dbc7e2393ed3d315467293b5b2ba1e2">MR::surfacePathsToContours3f</a> (const <a class="elRef" href="../Cpp/structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="elRef" href="../Cpp/namespaceMR.html#a1947baff009e7ba9b3d0754c30a458a5">SurfacePaths</a> &amp;lines)</td></tr>
+<tr class="separator:ga8dbc7e2393ed3d315467293b5b2ba1e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga146d7d212330b57a702e2c13aa99f33d" id="r_ga146d7d212330b57a702e2c13aa99f33d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga146d7d212330b57a702e2c13aa99f33d">MR_toString_MR_PathError</a> (<a class="el" href="#ga5a353cb464a2fc9991af01d7f53aef78">MR_PathError</a> error)</td></tr>
+<tr class="separator:ga146d7d212330b57a702e2c13aa99f33d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac390d04db2c2d957e576df859ddd6664" id="r_gac390d04db2c2d957e576df859ddd6664"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRSurfacePath_8h.html#afca0563c952d60b725c586d6e43a81cb">MR_expected_std_vector_MR_EdgePoint_MR_PathError</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac390d04db2c2d957e576df859ddd6664">MR_computeSurfacePath</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *start, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *end, const int32_t *maxGeodesicIters, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *vertRegion, <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a> *outSurfaceDistances)</td></tr>
+<tr class="separator:gac390d04db2c2d957e576df859ddd6664"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5e9b9ba414eba706da7460c56cfa5772" id="r_ga5e9b9ba414eba706da7460c56cfa5772"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRSurfacePath_8h.html#afca0563c952d60b725c586d6e43a81cb">MR_expected_std_vector_MR_EdgePoint_MR_PathError</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5e9b9ba414eba706da7460c56cfa5772">MR_computeGeodesicPath</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *start, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *end, const <a class="el" href="MREnums_8h.html#af177c0b5e857af7a97397d447e3535b5">MR_GeodesicPathApprox</a> *atype, const int32_t *maxGeodesicIters)</td></tr>
+<tr class="separator:ga5e9b9ba414eba706da7460c56cfa5772"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa272ea660d4f95b948bd43fccfed1fa5" id="r_gaa272ea660d4f95b948bd43fccfed1fa5"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRSurfacePath_8h.html#afca0563c952d60b725c586d6e43a81cb">MR_expected_std_vector_MR_EdgePoint_MR_PathError</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa272ea660d4f95b948bd43fccfed1fa5">MR_computeGeodesicPathApprox</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *start, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *end, <a class="el" href="MREnums_8h.html#af177c0b5e857af7a97397d447e3535b5">MR_GeodesicPathApprox</a> atype)</td></tr>
+<tr class="separator:gaa272ea660d4f95b948bd43fccfed1fa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa4e76ecf741aafad8b6664a66e8fc3b6" id="r_gaa4e76ecf741aafad8b6664a66e8fc3b6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRSurfacePath_8h.html#afca0563c952d60b725c586d6e43a81cb">MR_expected_std_vector_MR_EdgePoint_MR_PathError</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa4e76ecf741aafad8b6664a66e8fc3b6">MR_computeFastMarchingPath</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *start, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *end, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *vertRegion, <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a> *outSurfaceDistances)</td></tr>
+<tr class="separator:gaa4e76ecf741aafad8b6664a66e8fc3b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabc282ee99a0bf417171ed1c64beffa56" id="r_gabc282ee99a0bf417171ed1c64beffa56"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabc282ee99a0bf417171ed1c64beffa56">MR_ComputeSteepestDescentPathSettings_Get_end</a> (const <a class="el" href="#ga4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *_this)</td></tr>
+<tr class="separator:gabc282ee99a0bf417171ed1c64beffa56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf81a9e6550e635e8e27ecaa3bcd89e68" id="r_gaf81a9e6550e635e8e27ecaa3bcd89e68"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaf81a9e6550e635e8e27ecaa3bcd89e68">MR_ComputeSteepestDescentPathSettings_Set_end</a> (<a class="el" href="#ga4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *_this, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *value)</td></tr>
+<tr class="separator:gaf81a9e6550e635e8e27ecaa3bcd89e68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga804df7aae02c25be3a71a7a390147d2f" id="r_ga804df7aae02c25be3a71a7a390147d2f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga804df7aae02c25be3a71a7a390147d2f">MR_ComputeSteepestDescentPathSettings_GetMutable_end</a> (<a class="el" href="#ga4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *_this)</td></tr>
+<tr class="separator:ga804df7aae02c25be3a71a7a390147d2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga739800ab56cb2c5a4a28525ae00b4a04" id="r_ga739800ab56cb2c5a4a28525ae00b4a04"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__VertId.html">MR_VertId</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga739800ab56cb2c5a4a28525ae00b4a04">MR_ComputeSteepestDescentPathSettings_Get_outVertexReached</a> (const <a class="el" href="#ga4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *_this)</td></tr>
+<tr class="separator:ga739800ab56cb2c5a4a28525ae00b4a04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga923eb4871715dd9fb72725badc620bbf" id="r_ga923eb4871715dd9fb72725badc620bbf"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga923eb4871715dd9fb72725badc620bbf">MR_ComputeSteepestDescentPathSettings_Set_outVertexReached</a> (<a class="el" href="#ga4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *_this, <a class="el" href="structMR__VertId.html">MR_VertId</a> *value)</td></tr>
+<tr class="separator:ga923eb4871715dd9fb72725badc620bbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5a33f49f4fe38c5e83ad6503bdc1e16f" id="r_ga5a33f49f4fe38c5e83ad6503bdc1e16f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__VertId.html">MR_VertId</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5a33f49f4fe38c5e83ad6503bdc1e16f">MR_ComputeSteepestDescentPathSettings_GetMutable_outVertexReached</a> (<a class="el" href="#ga4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *_this)</td></tr>
+<tr class="separator:ga5a33f49f4fe38c5e83ad6503bdc1e16f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac195a11d54b6722585c1f86bb0fba4e6" id="r_gac195a11d54b6722585c1f86bb0fba4e6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MREdgePoint_8h.html#a50185006f78fd01ef7f1316a047afa45">MR_EdgePoint</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac195a11d54b6722585c1f86bb0fba4e6">MR_ComputeSteepestDescentPathSettings_Get_outBdReached</a> (const <a class="el" href="#ga4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *_this)</td></tr>
+<tr class="separator:gac195a11d54b6722585c1f86bb0fba4e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8ff0ea1f355ea777366b1b8cbbac9018" id="r_ga8ff0ea1f355ea777366b1b8cbbac9018"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8ff0ea1f355ea777366b1b8cbbac9018">MR_ComputeSteepestDescentPathSettings_Set_outBdReached</a> (<a class="el" href="#ga4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *_this, <a class="el" href="MREdgePoint_8h.html#a50185006f78fd01ef7f1316a047afa45">MR_EdgePoint</a> *value)</td></tr>
+<tr class="separator:ga8ff0ea1f355ea777366b1b8cbbac9018"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae59b4ffde95d5c15cee9f4da5cad0b24" id="r_gae59b4ffde95d5c15cee9f4da5cad0b24"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MREdgePoint_8h.html#a50185006f78fd01ef7f1316a047afa45">MR_EdgePoint</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae59b4ffde95d5c15cee9f4da5cad0b24">MR_ComputeSteepestDescentPathSettings_GetMutable_outBdReached</a> (<a class="el" href="#ga4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *_this)</td></tr>
+<tr class="separator:gae59b4ffde95d5c15cee9f4da5cad0b24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaecb6aeed173c11fe44793c582c32ab61" id="r_gaecb6aeed173c11fe44793c582c32ab61"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ga4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaecb6aeed173c11fe44793c582c32ab61">MR_ComputeSteepestDescentPathSettings_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:gaecb6aeed173c11fe44793c582c32ab61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabd1ae120a816235dd4c2fdfa21c71c25" id="r_gabd1ae120a816235dd4c2fdfa21c71c25"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ga4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gabd1ae120a816235dd4c2fdfa21c71c25">MR_ComputeSteepestDescentPathSettings_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:gabd1ae120a816235dd4c2fdfa21c71c25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae45a4009da49c1961e4f2e20914361d5" id="r_gae45a4009da49c1961e4f2e20914361d5"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ga4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae45a4009da49c1961e4f2e20914361d5">MR_ComputeSteepestDescentPathSettings_ConstructFrom</a> (const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *end, <a class="el" href="structMR__VertId.html">MR_VertId</a> *outVertexReached, <a class="el" href="MREdgePoint_8h.html#a50185006f78fd01ef7f1316a047afa45">MR_EdgePoint</a> *outBdReached)</td></tr>
+<tr class="separator:gae45a4009da49c1961e4f2e20914361d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1a3051b13602b2c5c11fdf4a72b23c99" id="r_ga1a3051b13602b2c5c11fdf4a72b23c99"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#ga4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1a3051b13602b2c5c11fdf4a72b23c99">MR_ComputeSteepestDescentPathSettings_OffsetPtr</a> (const <a class="el" href="#ga4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:ga1a3051b13602b2c5c11fdf4a72b23c99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:ga1a3051b13602b2c5c11fdf4a72b23c99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga620d54c2818ac8ff72d248a3f0516b05" id="r_ga620d54c2818ac8ff72d248a3f0516b05"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ga4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga620d54c2818ac8ff72d248a3f0516b05">MR_ComputeSteepestDescentPathSettings_OffsetMutablePtr</a> (<a class="el" href="#ga4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:ga620d54c2818ac8ff72d248a3f0516b05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:ga620d54c2818ac8ff72d248a3f0516b05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga46638d5ddffaa7e1e559caa5103c8e7a" id="r_ga46638d5ddffaa7e1e559caa5103c8e7a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ga4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga46638d5ddffaa7e1e559caa5103c8e7a">MR_ComputeSteepestDescentPathSettings_ConstructFromAnother</a> (const <a class="el" href="#ga4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *_other)</td></tr>
+<tr class="separator:ga46638d5ddffaa7e1e559caa5103c8e7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0e91384fdadbc64b647bfd534b141d07" id="r_ga0e91384fdadbc64b647bfd534b141d07"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0e91384fdadbc64b647bfd534b141d07">MR_ComputeSteepestDescentPathSettings_Destroy</a> (const <a class="el" href="#ga4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *_this)</td></tr>
+<tr class="memdesc:ga0e91384fdadbc64b647bfd534b141d07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_ComputeSteepestDescentPathSettings</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ga0e91384fdadbc64b647bfd534b141d07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3277cae689101dadc1f2323e0eba1c42" id="r_ga3277cae689101dadc1f2323e0eba1c42"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3277cae689101dadc1f2323e0eba1c42">MR_ComputeSteepestDescentPathSettings_DestroyArray</a> (const <a class="el" href="#ga4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *_this)</td></tr>
+<tr class="memdesc:ga3277cae689101dadc1f2323e0eba1c42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_ComputeSteepestDescentPathSettings</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ga3277cae689101dadc1f2323e0eba1c42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad00884f71691dddd6c0385135ab6f288" id="r_gad00884f71691dddd6c0385135ab6f288"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ga4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad00884f71691dddd6c0385135ab6f288">MR_ComputeSteepestDescentPathSettings_AssignFromAnother</a> (<a class="el" href="#ga4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *_this, const <a class="el" href="#ga4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *_other)</td></tr>
+<tr class="separator:gad00884f71691dddd6c0385135ab6f288"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafae1ab35bf68d02f1542d49a9d855733" id="r_gafae1ab35bf68d02f1542d49a9d855733"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MREdgePaths_8h.html#a9138e3f58ce2b39215044d2e368587ae">MR_std_vector_MR_EdgePoint</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafae1ab35bf68d02f1542d49a9d855733">MR_computeSteepestDescentPath_4</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp, const <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a> *field, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *start, const <a class="el" href="#ga4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *settings)</td></tr>
+<tr class="separator:gafae1ab35bf68d02f1542d49a9d855733"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4f770c7f5f4e172add7b311e778c53d3" id="r_ga4f770c7f5f4e172add7b311e778c53d3"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4f770c7f5f4e172add7b311e778c53d3">MR_computeSteepestDescentPath_5</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp, const <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a> *field, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *start, <a class="el" href="MREdgePaths_8h.html#a9138e3f58ce2b39215044d2e368587ae">MR_std_vector_MR_EdgePoint</a> *outPath, const <a class="el" href="#ga4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *settings)</td></tr>
+<tr class="separator:ga4f770c7f5f4e172add7b311e778c53d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga77a3f9f8ff5ade5e45f217468c4f64ce" id="r_ga77a3f9f8ff5ade5e45f217468c4f64ce"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MREdgePoint_8h.html#a50185006f78fd01ef7f1316a047afa45">MR_EdgePoint</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga77a3f9f8ff5ade5e45f217468c4f64ce">MR_findSteepestDescentPoint_MR_VertId</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp, const <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a> *field, <a class="el" href="structMR__VertId.html">MR_VertId</a> v)</td></tr>
+<tr class="separator:ga77a3f9f8ff5ade5e45f217468c4f64ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaec1423343c0ab33c22c6900f7dbd5dd9" id="r_gaec1423343c0ab33c22c6900f7dbd5dd9"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MREdgePoint_8h.html#a50185006f78fd01ef7f1316a047afa45">MR_EdgePoint</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaec1423343c0ab33c22c6900f7dbd5dd9">MR_findSteepestDescentPoint_MR_EdgePoint</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp, const <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a> *field, const <a class="el" href="MREdgePoint_8h.html#a50185006f78fd01ef7f1316a047afa45">MR_EdgePoint</a> *ep)</td></tr>
+<tr class="separator:gaec1423343c0ab33c22c6900f7dbd5dd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae2fd32c362183487f0ae51d81373415e" id="r_gae2fd32c362183487f0ae51d81373415e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MREdgePoint_8h.html#a50185006f78fd01ef7f1316a047afa45">MR_EdgePoint</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gae2fd32c362183487f0ae51d81373415e">MR_findSteepestDescentPoint_MR_MeshTriPoint</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp, const <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a> *field, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *tp)</td></tr>
+<tr class="separator:gae2fd32c362183487f0ae51d81373415e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2b6784b6bcf611e09fc7c5a1da954395" id="r_ga2b6784b6bcf611e09fc7c5a1da954395"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2b6784b6bcf611e09fc7c5a1da954395">MR_findExtremeEdges</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a> *field, <a class="el" href="#ga9802a8314e2539b108d78be8f4b3e043">MR_ExtremeEdgeType</a> type)</td></tr>
+<tr class="separator:ga2b6784b6bcf611e09fc7c5a1da954395"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2b3860ef5a0e61bc98d1d993fed19bcb" id="r_ga2b3860ef5a0e61bc98d1d993fed19bcb"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBitSet_8h.html#a4b90f49d08ad220afcccf3e064a60cdd">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga2b3860ef5a0e61bc98d1d993fed19bcb">MR_computeClosestSurfacePathTargets</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *starts, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *ends, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *vertRegion, <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a> *outSurfaceDistances)</td></tr>
+<tr class="separator:ga2b3860ef5a0e61bc98d1d993fed19bcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga94c51f2f1d92f9251d945b0045001108" id="r_ga94c51f2f1d92f9251d945b0045001108"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRExtractIsolines_8h.html#a9eda717f5871eea7d095bcf2f34a7a98">MR_std_vector_std_vector_MR_EdgePoint</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga94c51f2f1d92f9251d945b0045001108">MR_getSurfacePathsViaVertices</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *vs)</td></tr>
+<tr class="separator:ga94c51f2f1d92f9251d945b0045001108"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga86a1971ed1f3a0ea0491c217a9fcce53" id="r_ga86a1971ed1f3a0ea0491c217a9fcce53"><td class="memItemLeft" align="right" valign="top">MRC_API float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga86a1971ed1f3a0ea0491c217a9fcce53">MR_surfacePathLength</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MREdgePaths_8h.html#a9138e3f58ce2b39215044d2e368587ae">MR_std_vector_MR_EdgePoint</a> *surfacePath)</td></tr>
+<tr class="separator:ga86a1971ed1f3a0ea0491c217a9fcce53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8565496250e83ea07dc00bbfe10d50a1" id="r_ga8565496250e83ea07dc00bbfe10d50a1"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8565496250e83ea07dc00bbfe10d50a1">MR_surfacePathToContour3f</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MREdgePaths_8h.html#a9138e3f58ce2b39215044d2e368587ae">MR_std_vector_MR_EdgePoint</a> *line)</td></tr>
+<tr class="separator:ga8565496250e83ea07dc00bbfe10d50a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac5e949720de99c0a1e8142c8f0353122" id="r_gac5e949720de99c0a1e8142c8f0353122"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRContour_8h.html#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac5e949720de99c0a1e8142c8f0353122">MR_surfacePathsToContours3f</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRExtractIsolines_8h.html#a9eda717f5871eea7d095bcf2f34a7a98">MR_std_vector_std_vector_MR_EdgePoint</a> *lines)</td></tr>
+<tr class="separator:gac5e949720de99c0a1e8142c8f0353122"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="ga4893b0a050ddeb69f3eb2b02732046ab" name="ga4893b0a050ddeb69f3eb2b02732046ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4893b0a050ddeb69f3eb2b02732046ab">&#9670;&#160;</a></span>MR_ComputeSteepestDescentPathSettings</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#ga4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> <a class="el" href="#ga4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1ComputeSteepestDescentPathSettings.html">MR::ComputeSteepestDescentPathSettings</a></code>. </p>
+
+</div>
+</div>
+<a id="ga9802a8314e2539b108d78be8f4b3e043" name="ga9802a8314e2539b108d78be8f4b3e043"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9802a8314e2539b108d78be8f4b3e043">&#9670;&#160;</a></span>MR_ExtremeEdgeType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef int32_t <a class="el" href="#ga9802a8314e2539b108d78be8f4b3e043">MR_ExtremeEdgeType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga5a353cb464a2fc9991af01d7f53aef78" name="ga5a353cb464a2fc9991af01d7f53aef78"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5a353cb464a2fc9991af01d7f53aef78">&#9670;&#160;</a></span>MR_PathError</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef int32_t <a class="el" href="#ga5a353cb464a2fc9991af01d7f53aef78">MR_PathError</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="gaeb8e1c282570d629a6b603a94a4650d6" name="gaeb8e1c282570d629a6b603a94a4650d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaeb8e1c282570d629a6b603a94a4650d6">&#9670;&#160;</a></span>anonymous enum</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">anonymous enum</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ggaeb8e1c282570d629a6b603a94a4650d6acfa2b7ebb649261d791fa2ec89ba1761" name="ggaeb8e1c282570d629a6b603a94a4650d6acfa2b7ebb649261d791fa2ec89ba1761"></a>MR_PathError_StartEndNotConnected&#160;</td><td class="fielddoc"><p>no path can be found from start to end, because they are not from the same connected component </p>
+<p>report to developers for investigation </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ggaeb8e1c282570d629a6b603a94a4650d6a2c025f79a5115e54d72850eb6a7633ab" name="ggaeb8e1c282570d629a6b603a94a4650d6a2c025f79a5115e54d72850eb6a7633ab"></a>MR_PathError_InternalError&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="ga109bfaad92bd6d348dab484aec11edbb" name="ga109bfaad92bd6d348dab484aec11edbb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga109bfaad92bd6d348dab484aec11edbb">&#9670;&#160;</a></span>anonymous enum</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">anonymous enum</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga109bfaad92bd6d348dab484aec11edbbacec741a8ab5021accd7a8cbc20e052b4" name="gga109bfaad92bd6d348dab484aec11edbbacec741a8ab5021accd7a8cbc20e052b4"></a>MR_ExtremeEdgeType_Ridge&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="gga109bfaad92bd6d348dab484aec11edbba15cd4c836bff03f19f6f62c39e0f3193" name="gga109bfaad92bd6d348dab484aec11edbba15cd4c836bff03f19f6f62c39e0f3193"></a>MR_ExtremeEdgeType_Gorge&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="ga2b3860ef5a0e61bc98d1d993fed19bcb" name="ga2b3860ef5a0e61bc98d1d993fed19bcb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2b3860ef5a0e61bc98d1d993fed19bcb">&#9670;&#160;</a></span>MR_computeClosestSurfacePathTargets()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBitSet_8h.html#a4b90f49d08ad220afcccf3e064a60cdd">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</a> * MR_computeClosestSurfacePathTargets </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>starts</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>ends</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>vertRegion</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a> *</td>          <td class="paramname"><span class="paramname"><em>outSurfaceDistances</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>for each vertex from (starts) finds the closest vertex from (ends) in geodesic sense </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">vertRegion</td><td>consider paths going in this region only Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#ga2ea9a6428c9bbd3ec9d9f96cc66bd1d5">MR::computeClosestSurfacePathTargets</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>starts</code> can not be null. Parameter <code>ends</code> can not be null. Parameter <code>vertRegion</code> defaults to a null pointer in C++. Parameter <code>outSurfaceDistances</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="phmap__flat__hash__map__MR__VertId__MR__VertId_8h.html#a661aa892993d083c261210e170f1032d" title="Destroys a heap-allocated instance of MR_phmap_flat_hash_map_MR_VertId_MR_VertId. Does nothing if the...">MR_phmap_flat_hash_map_MR_VertId_MR_VertId_Destroy()</a></code> to free it when you're done using it. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaa4e76ecf741aafad8b6664a66e8fc3b6" name="gaa4e76ecf741aafad8b6664a66e8fc3b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa4e76ecf741aafad8b6664a66e8fc3b6">&#9670;&#160;</a></span>MR_computeFastMarchingPath()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRSurfacePath_8h.html#afca0563c952d60b725c586d6e43a81cb">MR_expected_std_vector_MR_EdgePoint_MR_PathError</a> * MR_computeFastMarchingPath </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *</td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *</td>          <td class="paramname"><span class="paramname"><em>start</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *</td>          <td class="paramname"><span class="paramname"><em>end</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>vertRegion</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a> *</td>          <td class="paramname"><span class="paramname"><em>outSurfaceDistances</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>computes by Fast Marching method and returns intermediate points of approximately geodesic path from start to end, where it crosses mesh edges; the path can be limited to given region: in face-format inside mp, or in vert-format in vertRegion argument Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#ga52601966a3d67cfd9b26ad1e586cd6f4">MR::computeFastMarchingPath</a></code>. Parameter <code>mp</code> can not be null. Parameter <code>start</code> can not be null. Parameter <code>end</code> can not be null. Parameter <code>vertRegion</code> defaults to a null pointer in C++. Parameter <code>outSurfaceDistances</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__std__vector__MR__EdgePoint__MR__PathError_8h.html#a85d0636d07f1586d4cd097ac19be27c5" title="Destroys a heap-allocated instance of MR_expected_std_vector_MR_EdgePoint_MR_PathError....">MR_expected_std_vector_MR_EdgePoint_MR_PathError_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ga5e9b9ba414eba706da7460c56cfa5772" name="ga5e9b9ba414eba706da7460c56cfa5772"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5e9b9ba414eba706da7460c56cfa5772">&#9670;&#160;</a></span>MR_computeGeodesicPath()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRSurfacePath_8h.html#afca0563c952d60b725c586d6e43a81cb">MR_expected_std_vector_MR_EdgePoint_MR_PathError</a> * MR_computeGeodesicPath </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *</td>          <td class="paramname"><span class="paramname"><em>start</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *</td>          <td class="paramname"><span class="paramname"><em>end</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MREnums_8h.html#af177c0b5e857af7a97397d447e3535b5">MR_GeodesicPathApprox</a> *</td>          <td class="paramname"><span class="paramname"><em>atype</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int32_t *</td>          <td class="paramname"><span class="paramname"><em>maxGeodesicIters</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns intermediate points of the geodesic path from start to end, where it crosses mesh edges; It is the same as calling computeGeodesicPathApprox() then reducePath() Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#ga8359c707ab87c6591777e5c2809c7468">MR::computeGeodesicPath</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>start</code> can not be null. Parameter <code>end</code> can not be null. Parameter <code>atype</code> has a default argument: <code>GeodesicPathApprox::FastMarching</code>, pass a null pointer to use it. Parameter <code>maxGeodesicIters</code> has a default argument: <code>100</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__std__vector__MR__EdgePoint__MR__PathError_8h.html#a85d0636d07f1586d4cd097ac19be27c5" title="Destroys a heap-allocated instance of MR_expected_std_vector_MR_EdgePoint_MR_PathError....">MR_expected_std_vector_MR_EdgePoint_MR_PathError_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="gaa272ea660d4f95b948bd43fccfed1fa5" name="gaa272ea660d4f95b948bd43fccfed1fa5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa272ea660d4f95b948bd43fccfed1fa5">&#9670;&#160;</a></span>MR_computeGeodesicPathApprox()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRSurfacePath_8h.html#afca0563c952d60b725c586d6e43a81cb">MR_expected_std_vector_MR_EdgePoint_MR_PathError</a> * MR_computeGeodesicPathApprox </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *</td>          <td class="paramname"><span class="paramname"><em>start</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *</td>          <td class="paramname"><span class="paramname"><em>end</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MREnums_8h.html#af177c0b5e857af7a97397d447e3535b5">MR_GeodesicPathApprox</a></td>          <td class="paramname"><span class="paramname"><em>atype</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>computes by given method and returns intermediate points of approximately geodesic path from start to end, every next point is located in the same triangle with the previous point Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#ga8d44e12ec3a4b21e1ebb753c0a84b8ca">MR::computeGeodesicPathApprox</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>start</code> can not be null. Parameter <code>end</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__std__vector__MR__EdgePoint__MR__PathError_8h.html#a85d0636d07f1586d4cd097ac19be27c5" title="Destroys a heap-allocated instance of MR_expected_std_vector_MR_EdgePoint_MR_PathError....">MR_expected_std_vector_MR_EdgePoint_MR_PathError_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="gafae1ab35bf68d02f1542d49a9d855733" name="gafae1ab35bf68d02f1542d49a9d855733"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafae1ab35bf68d02f1542d49a9d855733">&#9670;&#160;</a></span>MR_computeSteepestDescentPath_4()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MREdgePaths_8h.html#a9138e3f58ce2b39215044d2e368587ae">MR_std_vector_MR_EdgePoint</a> * MR_computeSteepestDescentPath_4 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *</td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a> *</td>          <td class="paramname"><span class="paramname"><em>field</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *</td>          <td class="paramname"><span class="paramname"><em>start</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ga4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>settings</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>computes the path (edge points crossed by the path) staring in given point and moving in each triangle in minus gradient direction of given field; the path stops when it reaches a local minimum in the field or one of stop conditions in settings Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#ga563ea0f701cd05e6995193631495466e">MR::computeSteepestDescentPath</a></code>. Parameter <code>mp</code> can not be null. Parameter <code>field</code> can not be null. Parameter <code>start</code> can not be null. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__EdgePoint_8h.html#ac3f444edfe88c774ff3a1962e1137ba6" title="Destroys a heap-allocated instance of MR_std_vector_MR_EdgePoint. Does nothing if the pointer is null...">MR_std_vector_MR_EdgePoint_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ga4f770c7f5f4e172add7b311e778c53d3" name="ga4f770c7f5f4e172add7b311e778c53d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4f770c7f5f4e172add7b311e778c53d3">&#9670;&#160;</a></span>MR_computeSteepestDescentPath_5()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_computeSteepestDescentPath_5 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *</td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a> *</td>          <td class="paramname"><span class="paramname"><em>field</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *</td>          <td class="paramname"><span class="paramname"><em>start</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MREdgePaths_8h.html#a9138e3f58ce2b39215044d2e368587ae">MR_std_vector_MR_EdgePoint</a> *</td>          <td class="paramname"><span class="paramname"><em>outPath</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ga4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>settings</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>computes the path (edge points crossed by the path) staring in given point and moving in each triangle in minus gradient direction of given field, and outputs the path in</p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">outPath</td><td>if requested; the path stops when it reaches a local minimum in the field or one of stop conditions in settings Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#ga563ea0f701cd05e6995193631495466e">MR::computeSteepestDescentPath</a></code>. Parameter <code>mp</code> can not be null. Parameter <code>field</code> can not be null. Parameter <code>start</code> can not be null. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gad00884f71691dddd6c0385135ab6f288" name="gad00884f71691dddd6c0385135ab6f288"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad00884f71691dddd6c0385135ab6f288">&#9670;&#160;</a></span>MR_ComputeSteepestDescentPathSettings_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ga4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> * MR_ComputeSteepestDescentPathSettings_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ga4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ga4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1ComputeSteepestDescentPathSettings.html">MR::ComputeSteepestDescentPathSettings</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. Parameter <code>_other</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="gae45a4009da49c1961e4f2e20914361d5" name="gae45a4009da49c1961e4f2e20914361d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae45a4009da49c1961e4f2e20914361d5">&#9670;&#160;</a></span>MR_ComputeSteepestDescentPathSettings_ConstructFrom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ga4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> * MR_ComputeSteepestDescentPathSettings_ConstructFrom </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *</td>          <td class="paramname"><span class="paramname"><em>end</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__VertId.html">MR_VertId</a> *</td>          <td class="paramname"><span class="paramname"><em>outVertexReached</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MREdgePoint_8h.html#a50185006f78fd01ef7f1316a047afa45">MR_EdgePoint</a> *</td>          <td class="paramname"><span class="paramname"><em>outBdReached</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1ComputeSteepestDescentPathSettings.html">MR::ComputeSteepestDescentPathSettings</a></code> elementwise. Parameter <code>end</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ga0e91384fdadbc64b647bfd534b141d07" title="Destroys a heap-allocated instance of MR_ComputeSteepestDescentPathSettings. Does nothing if the poin...">MR_ComputeSteepestDescentPathSettings_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ga46638d5ddffaa7e1e559caa5103c8e7a" name="ga46638d5ddffaa7e1e559caa5103c8e7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga46638d5ddffaa7e1e559caa5103c8e7a">&#9670;&#160;</a></span>MR_ComputeSteepestDescentPathSettings_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ga4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> * MR_ComputeSteepestDescentPathSettings_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ga4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1ComputeSteepestDescentPathSettings.html">MR::ComputeSteepestDescentPathSettings</a></code>. Parameter <code>_other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ga0e91384fdadbc64b647bfd534b141d07" title="Destroys a heap-allocated instance of MR_ComputeSteepestDescentPathSettings. Does nothing if the poin...">MR_ComputeSteepestDescentPathSettings_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="gaecb6aeed173c11fe44793c582c32ab61" name="gaecb6aeed173c11fe44793c582c32ab61"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaecb6aeed173c11fe44793c582c32ab61">&#9670;&#160;</a></span>MR_ComputeSteepestDescentPathSettings_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ga4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> * MR_ComputeSteepestDescentPathSettings_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ga0e91384fdadbc64b647bfd534b141d07" title="Destroys a heap-allocated instance of MR_ComputeSteepestDescentPathSettings. Does nothing if the poin...">MR_ComputeSteepestDescentPathSettings_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="gabd1ae120a816235dd4c2fdfa21c71c25" name="gabd1ae120a816235dd4c2fdfa21c71c25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabd1ae120a816235dd4c2fdfa21c71c25">&#9670;&#160;</a></span>MR_ComputeSteepestDescentPathSettings_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ga4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> * MR_ComputeSteepestDescentPathSettings_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#ga3277cae689101dadc1f2323e0eba1c42" title="Destroys a heap-allocated array of MR_ComputeSteepestDescentPathSettings. Does nothing if the pointer...">MR_ComputeSteepestDescentPathSettings_DestroyArray()</a></code>. Use <code><a class="el" href="#ga620d54c2818ac8ff72d248a3f0516b05" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_ComputeSteepestDescentPathSettings_OffsetMutablePtr()</a></code> and <code><a class="el" href="#ga1a3051b13602b2c5c11fdf4a72b23c99" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_ComputeSteepestDescentPathSettings_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="ga0e91384fdadbc64b647bfd534b141d07" name="ga0e91384fdadbc64b647bfd534b141d07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0e91384fdadbc64b647bfd534b141d07">&#9670;&#160;</a></span>MR_ComputeSteepestDescentPathSettings_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_ComputeSteepestDescentPathSettings_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ga4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_ComputeSteepestDescentPathSettings</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="ga3277cae689101dadc1f2323e0eba1c42" name="ga3277cae689101dadc1f2323e0eba1c42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3277cae689101dadc1f2323e0eba1c42">&#9670;&#160;</a></span>MR_ComputeSteepestDescentPathSettings_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_ComputeSteepestDescentPathSettings_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ga4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_ComputeSteepestDescentPathSettings</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="gabc282ee99a0bf417171ed1c64beffa56" name="gabc282ee99a0bf417171ed1c64beffa56"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabc282ee99a0bf417171ed1c64beffa56">&#9670;&#160;</a></span>MR_ComputeSteepestDescentPathSettings_Get_end()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> * MR_ComputeSteepestDescentPathSettings_Get_end </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ga4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if valid, then the descent is stopped as soon as same triangle with (end) is reached Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ComputeSteepestDescentPathSettings.html">MR::ComputeSteepestDescentPathSettings</a></code> named <code>end</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="gac195a11d54b6722585c1f86bb0fba4e6" name="gac195a11d54b6722585c1f86bb0fba4e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac195a11d54b6722585c1f86bb0fba4e6">&#9670;&#160;</a></span>MR_ComputeSteepestDescentPathSettings_Get_outBdReached()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MREdgePoint_8h.html#a50185006f78fd01ef7f1316a047afa45">MR_EdgePoint</a> *const  * MR_ComputeSteepestDescentPathSettings_Get_outBdReached </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ga4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if not nullptr, then the descent is stopped as soon as any boundary point is reached, which is written in *outBdReached Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ComputeSteepestDescentPathSettings.html">MR::ComputeSteepestDescentPathSettings</a></code> named <code>outBdReached</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ga739800ab56cb2c5a4a28525ae00b4a04" name="ga739800ab56cb2c5a4a28525ae00b4a04"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga739800ab56cb2c5a4a28525ae00b4a04">&#9670;&#160;</a></span>MR_ComputeSteepestDescentPathSettings_Get_outVertexReached()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__VertId.html">MR_VertId</a> *const  * MR_ComputeSteepestDescentPathSettings_Get_outVertexReached </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ga4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if not nullptr, then the descent is stopped as soon as any vertex is reached, which is written in *outVertexReached Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ComputeSteepestDescentPathSettings.html">MR::ComputeSteepestDescentPathSettings</a></code> named <code>outVertexReached</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ga804df7aae02c25be3a71a7a390147d2f" name="ga804df7aae02c25be3a71a7a390147d2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga804df7aae02c25be3a71a7a390147d2f">&#9670;&#160;</a></span>MR_ComputeSteepestDescentPathSettings_GetMutable_end()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> * MR_ComputeSteepestDescentPathSettings_GetMutable_end </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ga4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if valid, then the descent is stopped as soon as same triangle with (end) is reached Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ComputeSteepestDescentPathSettings.html">MR::ComputeSteepestDescentPathSettings</a></code> named <code>end</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="gae59b4ffde95d5c15cee9f4da5cad0b24" name="gae59b4ffde95d5c15cee9f4da5cad0b24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae59b4ffde95d5c15cee9f4da5cad0b24">&#9670;&#160;</a></span>MR_ComputeSteepestDescentPathSettings_GetMutable_outBdReached()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MREdgePoint_8h.html#a50185006f78fd01ef7f1316a047afa45">MR_EdgePoint</a> ** MR_ComputeSteepestDescentPathSettings_GetMutable_outBdReached </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ga4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if not nullptr, then the descent is stopped as soon as any boundary point is reached, which is written in *outBdReached Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ComputeSteepestDescentPathSettings.html">MR::ComputeSteepestDescentPathSettings</a></code> named <code>outBdReached</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ga5a33f49f4fe38c5e83ad6503bdc1e16f" name="ga5a33f49f4fe38c5e83ad6503bdc1e16f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5a33f49f4fe38c5e83ad6503bdc1e16f">&#9670;&#160;</a></span>MR_ComputeSteepestDescentPathSettings_GetMutable_outVertexReached()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__VertId.html">MR_VertId</a> ** MR_ComputeSteepestDescentPathSettings_GetMutable_outVertexReached </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ga4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if not nullptr, then the descent is stopped as soon as any vertex is reached, which is written in *outVertexReached Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ComputeSteepestDescentPathSettings.html">MR::ComputeSteepestDescentPathSettings</a></code> named <code>outVertexReached</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ga620d54c2818ac8ff72d248a3f0516b05" name="ga620d54c2818ac8ff72d248a3f0516b05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga620d54c2818ac8ff72d248a3f0516b05">&#9670;&#160;</a></span>MR_ComputeSteepestDescentPathSettings_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ga4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> * MR_ComputeSteepestDescentPathSettings_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ga4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="ga1a3051b13602b2c5c11fdf4a72b23c99" name="ga1a3051b13602b2c5c11fdf4a72b23c99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1a3051b13602b2c5c11fdf4a72b23c99">&#9670;&#160;</a></span>MR_ComputeSteepestDescentPathSettings_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#ga4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> * MR_ComputeSteepestDescentPathSettings_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ga4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="gaf81a9e6550e635e8e27ecaa3bcd89e68" name="gaf81a9e6550e635e8e27ecaa3bcd89e68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf81a9e6550e635e8e27ecaa3bcd89e68">&#9670;&#160;</a></span>MR_ComputeSteepestDescentPathSettings_Set_end()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_ComputeSteepestDescentPathSettings_Set_end </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ga4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if valid, then the descent is stopped as soon as same triangle with (end) is reached Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ComputeSteepestDescentPathSettings.html">MR::ComputeSteepestDescentPathSettings</a></code> named <code>end</code>. Parameter <code>_this</code> can not be null. Parameter <code>value</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ga8ff0ea1f355ea777366b1b8cbbac9018" name="ga8ff0ea1f355ea777366b1b8cbbac9018"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8ff0ea1f355ea777366b1b8cbbac9018">&#9670;&#160;</a></span>MR_ComputeSteepestDescentPathSettings_Set_outBdReached()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_ComputeSteepestDescentPathSettings_Set_outBdReached </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ga4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MREdgePoint_8h.html#a50185006f78fd01ef7f1316a047afa45">MR_EdgePoint</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if not nullptr, then the descent is stopped as soon as any boundary point is reached, which is written in *outBdReached Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ComputeSteepestDescentPathSettings.html">MR::ComputeSteepestDescentPathSettings</a></code> named <code>outBdReached</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ga923eb4871715dd9fb72725badc620bbf" name="ga923eb4871715dd9fb72725badc620bbf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga923eb4871715dd9fb72725badc620bbf">&#9670;&#160;</a></span>MR_ComputeSteepestDescentPathSettings_Set_outVertexReached()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_ComputeSteepestDescentPathSettings_Set_outVertexReached </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ga4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__VertId.html">MR_VertId</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if not nullptr, then the descent is stopped as soon as any vertex is reached, which is written in *outVertexReached Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ComputeSteepestDescentPathSettings.html">MR::ComputeSteepestDescentPathSettings</a></code> named <code>outVertexReached</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="gac390d04db2c2d957e576df859ddd6664" name="gac390d04db2c2d957e576df859ddd6664"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac390d04db2c2d957e576df859ddd6664">&#9670;&#160;</a></span>MR_computeSurfacePath()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRSurfacePath_8h.html#afca0563c952d60b725c586d6e43a81cb">MR_expected_std_vector_MR_EdgePoint_MR_PathError</a> * MR_computeSurfacePath </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *</td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *</td>          <td class="paramname"><span class="paramname"><em>start</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *</td>          <td class="paramname"><span class="paramname"><em>end</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int32_t *</td>          <td class="paramname"><span class="paramname"><em>maxGeodesicIters</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>vertRegion</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a> *</td>          <td class="paramname"><span class="paramname"><em>outSurfaceDistances</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns intermediate points of the geodesic path from start to end, where it crosses mesh edges; the path can be limited to given region: in face-format inside mp, or in vert-format in vertRegion argument. It is the same as calling computeFastMarchingPath() then reducePath() Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#ga446cf8a4654ec1a589f1ffd89762aa29">MR::computeSurfacePath</a></code>. Parameter <code>mp</code> can not be null. Parameter <code>start</code> can not be null. Parameter <code>end</code> can not be null. Parameter <code>maxGeodesicIters</code> has a default argument: <code>5</code>, pass a null pointer to use it. Parameter <code>vertRegion</code> defaults to a null pointer in C++. Parameter <code>outSurfaceDistances</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__std__vector__MR__EdgePoint__MR__PathError_8h.html#a85d0636d07f1586d4cd097ac19be27c5" title="Destroys a heap-allocated instance of MR_expected_std_vector_MR_EdgePoint_MR_PathError....">MR_expected_std_vector_MR_EdgePoint_MR_PathError_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ga2b6784b6bcf611e09fc7c5a1da954395" name="ga2b6784b6bcf611e09fc7c5a1da954395"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2b6784b6bcf611e09fc7c5a1da954395">&#9670;&#160;</a></span>MR_findExtremeEdges()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> * MR_findExtremeEdges </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a> *</td>          <td class="paramname"><span class="paramname"><em>field</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#ga9802a8314e2539b108d78be8f4b3e043">MR_ExtremeEdgeType</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>computes all edges in the mesh, where the field not-increases both in left and right triangles Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#ga0bd366cd8b4e0bb2f8754392be22cb12">MR::findExtremeEdges</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>field</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a5f5b1d2e5d4d71fe8be1eddbe649ca16" title="Destroys a heap-allocated instance of MR_UndirectedEdgeBitSet. Does nothing if the pointer is null.">MR_UndirectedEdgeBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="gaec1423343c0ab33c22c6900f7dbd5dd9" name="gaec1423343c0ab33c22c6900f7dbd5dd9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaec1423343c0ab33c22c6900f7dbd5dd9">&#9670;&#160;</a></span>MR_findSteepestDescentPoint_MR_EdgePoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MREdgePoint_8h.html#a50185006f78fd01ef7f1316a047afa45">MR_EdgePoint</a> * MR_findSteepestDescentPoint_MR_EdgePoint </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *</td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a> *</td>          <td class="paramname"><span class="paramname"><em>field</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MREdgePoint_8h.html#a50185006f78fd01ef7f1316a047afa45">MR_EdgePoint</a> *</td>          <td class="paramname"><span class="paramname"><em>ep</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>finds the point along minus maximal gradient on the boundary of triangles around given point (the boundary of left and right edge triangles' union in case (ep) is inner edge point) Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#gaa46e9820d021f3412af4f1c59c14aaa2">MR::findSteepestDescentPoint</a></code>. Parameter <code>mp</code> can not be null. Parameter <code>field</code> can not be null. Parameter <code>ep</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MREdgePoint_8h.html#a7d78d416360e144f58e92ace5acf91b7" title="Destroys a heap-allocated instance of MR_EdgePoint. Does nothing if the pointer is null.">MR_EdgePoint_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="gae2fd32c362183487f0ae51d81373415e" name="gae2fd32c362183487f0ae51d81373415e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae2fd32c362183487f0ae51d81373415e">&#9670;&#160;</a></span>MR_findSteepestDescentPoint_MR_MeshTriPoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MREdgePoint_8h.html#a50185006f78fd01ef7f1316a047afa45">MR_EdgePoint</a> * MR_findSteepestDescentPoint_MR_MeshTriPoint </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *</td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a> *</td>          <td class="paramname"><span class="paramname"><em>field</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *</td>          <td class="paramname"><span class="paramname"><em>tp</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>finds the point along minus maximal gradient on the boundary of triangles around given point (the boundary of the triangle itself in case (tp) is inner triangle point) Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#gaa46e9820d021f3412af4f1c59c14aaa2">MR::findSteepestDescentPoint</a></code>. Parameter <code>mp</code> can not be null. Parameter <code>field</code> can not be null. Parameter <code>tp</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MREdgePoint_8h.html#a7d78d416360e144f58e92ace5acf91b7" title="Destroys a heap-allocated instance of MR_EdgePoint. Does nothing if the pointer is null.">MR_EdgePoint_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ga77a3f9f8ff5ade5e45f217468c4f64ce" name="ga77a3f9f8ff5ade5e45f217468c4f64ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga77a3f9f8ff5ade5e45f217468c4f64ce">&#9670;&#160;</a></span>MR_findSteepestDescentPoint_MR_VertId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MREdgePoint_8h.html#a50185006f78fd01ef7f1316a047afa45">MR_EdgePoint</a> * MR_findSteepestDescentPoint_MR_VertId </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *</td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a> *</td>          <td class="paramname"><span class="paramname"><em>field</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__VertId.html">MR_VertId</a></td>          <td class="paramname"><span class="paramname"><em>v</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>finds the point along minus maximal gradient on the boundary of first ring boundary around given vertex Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#gaa46e9820d021f3412af4f1c59c14aaa2">MR::findSteepestDescentPoint</a></code>. Parameter <code>mp</code> can not be null. Parameter <code>field</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MREdgePoint_8h.html#a7d78d416360e144f58e92ace5acf91b7" title="Destroys a heap-allocated instance of MR_EdgePoint. Does nothing if the pointer is null.">MR_EdgePoint_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ga94c51f2f1d92f9251d945b0045001108" name="ga94c51f2f1d92f9251d945b0045001108"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga94c51f2f1d92f9251d945b0045001108">&#9670;&#160;</a></span>MR_getSurfacePathsViaVertices()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRExtractIsolines_8h.html#a9eda717f5871eea7d095bcf2f34a7a98">MR_std_vector_std_vector_MR_EdgePoint</a> * MR_getSurfacePathsViaVertices </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>vs</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns a set of mesh lines passing via most of given vertices in auto-selected order; the lines try to avoid sharp turns in the vertices Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#gaaa4dc30756e93cfc4cd2f88758193360">MR::getSurfacePathsViaVertices</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>vs</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__std__vector__MR__EdgePoint_8h.html#abf1bd0dc298f0befe0c41071883be551" title="Destroys a heap-allocated instance of MR_std_vector_std_vector_MR_EdgePoint. Does nothing if the poin...">MR_std_vector_std_vector_MR_EdgePoint_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ga86a1971ed1f3a0ea0491c217a9fcce53" name="ga86a1971ed1f3a0ea0491c217a9fcce53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga86a1971ed1f3a0ea0491c217a9fcce53">&#9670;&#160;</a></span>MR_surfacePathLength()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API float MR_surfacePathLength </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MREdgePaths_8h.html#a9138e3f58ce2b39215044d2e368587ae">MR_std_vector_MR_EdgePoint</a> *</td>          <td class="paramname"><span class="paramname"><em>surfacePath</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>computes the length of surface path Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#gacebe3b7371a72e49ddfbabc14fd008b4">MR::surfacePathLength</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>surfacePath</code> can not be null. </p>
+
+</div>
+</div>
+<a id="gac5e949720de99c0a1e8142c8f0353122" name="gac5e949720de99c0a1e8142c8f0353122"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac5e949720de99c0a1e8142c8f0353122">&#9670;&#160;</a></span>MR_surfacePathsToContours3f()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRContour_8h.html#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> * MR_surfacePathsToContours3f </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRExtractIsolines_8h.html#a9eda717f5871eea7d095bcf2f34a7a98">MR_std_vector_std_vector_MR_EdgePoint</a> *</td>          <td class="paramname"><span class="paramname"><em>lines</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#ga8dbc7e2393ed3d315467293b5b2ba1e2">MR::surfacePathsToContours3f</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>lines</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__std__vector__MR__Vector3f_8h.html#a08f11bac5424cae534d0a451b6f8568a" title="Destroys a heap-allocated instance of MR_std_vector_std_vector_MR_Vector3f. Does nothing if the point...">MR_std_vector_std_vector_MR_Vector3f_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ga8565496250e83ea07dc00bbfe10d50a1" name="ga8565496250e83ea07dc00bbfe10d50a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8565496250e83ea07dc00bbfe10d50a1">&#9670;&#160;</a></span>MR_surfacePathToContour3f()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> * MR_surfacePathToContour3f </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MREdgePaths_8h.html#a9138e3f58ce2b39215044d2e368587ae">MR_std_vector_MR_EdgePoint</a> *</td>          <td class="paramname"><span class="paramname"><em>line</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>converts lines on mesh in 3D contours by computing coordinate of each point Generated from function <code><a class="elRef" href="../Cpp/group__SurfacePathSubgroup.html#ga874e90d25d0cf437f34834d739fa588c">MR::surfacePathToContour3f</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>line</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__Vector3f_8h.html#abab6d7c953a1806ebeb1b7e736c18d49" title="Destroys a heap-allocated instance of MR_std_vector_MR_Vector3f. Does nothing if the pointer is null.">MR_std_vector_MR_Vector3f_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ga146d7d212330b57a702e2c13aa99f33d" name="ga146d7d212330b57a702e2c13aa99f33d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga146d7d212330b57a702e2c13aa99f33d">&#9670;&#160;</a></span>MR_toString_MR_PathError()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_toString_MR_PathError </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ga5a353cb464a2fc9991af01d7f53aef78">MR_PathError</a></td>          <td class="paramname"><span class="paramname"><em>error</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#ae471951bdf73171ae96368056485fe84">MR::toString</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__string_8h.html#a9ffa0a79c0c1ac50a81c8dfdf2fd5d91" title="Destroys a heap-allocated instance of MR_std_string. Does nothing if the pointer is null.">MR_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,5 +1,6 @@
 var NAVTREEINDEX14 =
 {
+"MRSharpenMarchingCubesMesh_8h.html":[6,0,3,0,0,1,4,350],
 "MRSharpenMarchingCubesMesh_8h.html#ae0adbc499dc9ddb3d23854c708bccc3f":[6,0,3,0,0,1,4,350,1],
 "MRSharpenMarchingCubesMesh_8h_source.html":[6,0,3,0,0,1,4,350],
 "MRShortcutManager_8h.html":[6,0,3,0,0,1,11,110],
@@ -248,6 +249,5 @@ var NAVTREEINDEX14 =
 "MRTestC2_2MRExpandShrink_8h.html":[6,0,3,0,0,1,10,5],
 "MRTestC2_2MRExpandShrink_8h.html#a6fe71176bc46c348ef2ff68a130e28a6":[6,0,3,0,0,1,10,5,1],
 "MRTestC2_2MRExpandShrink_8h.html#a7024f5258d4288744e74b528847b7a6e":[6,0,3,0,0,1,10,5,0],
-"MRTestC2_2MRExpandShrink_8h_source.html":[6,0,3,0,0,1,10,5],
-"MRTestC2_2MRFixSelfIntersections_8h.html":[6,0,3,0,0,1,10,6]
+"MRTestC2_2MRExpandShrink_8h_source.html":[6,0,3,0,0,1,10,5]
 };

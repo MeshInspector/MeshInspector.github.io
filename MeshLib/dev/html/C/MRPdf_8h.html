@@ -1,0 +1,2230 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: MRPdf.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('MRPdf_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">MRPdf.h File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="MRBox_8h_source.html">MRCMesh/MRBox.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="MRColor_8h_source.html">MRCMesh/MRColor.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="MRVector2_8h_source.html">MRCMesh/MRVector2.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
+</div>
+<p><a href="MRPdf_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a69dc6868c10c92fb8b8a255b0130d289" id="r_a69dc6868c10c92fb8b8a255b0130d289"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></td></tr>
+<tr class="separator:a69dc6868c10c92fb8b8a255b0130d289"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a02eff57619c7f1f4ebe81a9aca0c4a" id="r_a3a02eff57619c7f1f4ebe81a9aca0c4a"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a3a02eff57619c7f1f4ebe81a9aca0c4a">MR_std_vector_MR_Pdf_PaletteRowStats</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a02eff57619c7f1f4ebe81a9aca0c4a">MR_std_vector_MR_Pdf_PaletteRowStats</a></td></tr>
+<tr class="separator:a3a02eff57619c7f1f4ebe81a9aca0c4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7b77ccae07737ff0cd656471d9e777e" id="r_af7b77ccae07737ff0cd656471d9e777e"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#af7b77ccae07737ff0cd656471d9e777e">MR_std_vector_std_pair_std_string_float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7b77ccae07737ff0cd656471d9e777e">MR_std_vector_std_pair_std_string_float</a></td></tr>
+<tr class="separator:af7b77ccae07737ff0cd656471d9e777e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b6be769cbbdb6045fd66a4b0b9102e7" id="r_a8b6be769cbbdb6045fd66a4b0b9102e7"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a8b6be769cbbdb6045fd66a4b0b9102e7">MR_PdfParameters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b6be769cbbdb6045fd66a4b0b9102e7">MR_PdfParameters</a></td></tr>
+<tr class="memdesc:a8b6be769cbbdb6045fd66a4b0b9102e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters of document style.  <br /></td></tr>
+<tr class="separator:a8b6be769cbbdb6045fd66a4b0b9102e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c39d182e0489d71e7a28dd6358004c2" id="r_a0c39d182e0489d71e7a28dd6358004c2"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a></td></tr>
+<tr class="memdesc:a0c39d182e0489d71e7a28dd6358004c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1Pdf.html">MR::Pdf</a></code>.  <br /></td></tr>
+<tr class="separator:a0c39d182e0489d71e7a28dd6358004c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3e94d847df6a1190efb04599edda7fa" id="r_af3e94d847df6a1190efb04599edda7fa"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#af3e94d847df6a1190efb04599edda7fa">MR_Pdf_PaletteRowStats</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3e94d847df6a1190efb04599edda7fa">MR_Pdf_PaletteRowStats</a></td></tr>
+<tr class="memdesc:af3e94d847df6a1190efb04599edda7fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1Pdf_1_1PaletteRowStats.html">MR::Pdf::PaletteRowStats</a></code>.  <br /></td></tr>
+<tr class="separator:af3e94d847df6a1190efb04599edda7fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add13760b5b87407faf414a9205c9311f" id="r_add13760b5b87407faf414a9205c9311f"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#add13760b5b87407faf414a9205c9311f">MR_Pdf_ImageParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add13760b5b87407faf414a9205c9311f">MR_Pdf_ImageParams</a></td></tr>
+<tr class="separator:add13760b5b87407faf414a9205c9311f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a4f2efd8a85375b10bc59cec896e5e7c7" id="r_a4f2efd8a85375b10bc59cec896e5e7c7"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f2efd8a85375b10bc59cec896e5e7c7">MR_PdfParameters_Get_titleSize</a> (const <a class="el" href="#a8b6be769cbbdb6045fd66a4b0b9102e7">MR_PdfParameters</a> *_this)</td></tr>
+<tr class="separator:a4f2efd8a85375b10bc59cec896e5e7c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add8004a0f2a5938b0457a64a8684b29d" id="r_add8004a0f2a5938b0457a64a8684b29d"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add8004a0f2a5938b0457a64a8684b29d">MR_PdfParameters_Set_titleSize</a> (<a class="el" href="#a8b6be769cbbdb6045fd66a4b0b9102e7">MR_PdfParameters</a> *_this, float value)</td></tr>
+<tr class="separator:add8004a0f2a5938b0457a64a8684b29d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a571bf827694fb2c337e57e288b114446" id="r_a571bf827694fb2c337e57e288b114446"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a571bf827694fb2c337e57e288b114446">MR_PdfParameters_GetMutable_titleSize</a> (<a class="el" href="#a8b6be769cbbdb6045fd66a4b0b9102e7">MR_PdfParameters</a> *_this)</td></tr>
+<tr class="separator:a571bf827694fb2c337e57e288b114446"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef6ccaa4f717644a5dc13ba86b5a172c" id="r_aef6ccaa4f717644a5dc13ba86b5a172c"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef6ccaa4f717644a5dc13ba86b5a172c">MR_PdfParameters_Get_textSize</a> (const <a class="el" href="#a8b6be769cbbdb6045fd66a4b0b9102e7">MR_PdfParameters</a> *_this)</td></tr>
+<tr class="separator:aef6ccaa4f717644a5dc13ba86b5a172c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a655c3c67cd77f25f377a1a74623a44" id="r_a7a655c3c67cd77f25f377a1a74623a44"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a655c3c67cd77f25f377a1a74623a44">MR_PdfParameters_Set_textSize</a> (<a class="el" href="#a8b6be769cbbdb6045fd66a4b0b9102e7">MR_PdfParameters</a> *_this, float value)</td></tr>
+<tr class="separator:a7a655c3c67cd77f25f377a1a74623a44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ba9b3f5484ca003cebe5620fea6dfc7" id="r_a0ba9b3f5484ca003cebe5620fea6dfc7"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ba9b3f5484ca003cebe5620fea6dfc7">MR_PdfParameters_GetMutable_textSize</a> (<a class="el" href="#a8b6be769cbbdb6045fd66a4b0b9102e7">MR_PdfParameters</a> *_this)</td></tr>
+<tr class="separator:a0ba9b3f5484ca003cebe5620fea6dfc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae03f905600aba1ccef713866ef304bac" id="r_ae03f905600aba1ccef713866ef304bac"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae03f905600aba1ccef713866ef304bac">MR_PdfParameters_Get_defaultFontName</a> (const <a class="el" href="#a8b6be769cbbdb6045fd66a4b0b9102e7">MR_PdfParameters</a> *_this)</td></tr>
+<tr class="memdesc:ae03f905600aba1ccef713866ef304bac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Font name list of available fonts: Courier (-Bold, -Oblique, -BoldOblique) Helvetica (-Bold, -Oblique, -BoldOblique) Times (-Roman, -Bold, -Italic, -BoldItalic) Symbol ZapfDingbats.  <br /></td></tr>
+<tr class="separator:ae03f905600aba1ccef713866ef304bac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a570dbd874afb80dc4b8960ae57122b7b" id="r_a570dbd874afb80dc4b8960ae57122b7b"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a570dbd874afb80dc4b8960ae57122b7b">MR_PdfParameters_Set_defaultFontName</a> (<a class="el" href="#a8b6be769cbbdb6045fd66a4b0b9102e7">MR_PdfParameters</a> *_this, const char *value, const char *value_end)</td></tr>
+<tr class="memdesc:a570dbd874afb80dc4b8960ae57122b7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Font name list of available fonts: Courier (-Bold, -Oblique, -BoldOblique) Helvetica (-Bold, -Oblique, -BoldOblique) Times (-Roman, -Bold, -Italic, -BoldItalic) Symbol ZapfDingbats.  <br /></td></tr>
+<tr class="separator:a570dbd874afb80dc4b8960ae57122b7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ebadc0a3fc5d1fb4b05eea7780fc36e" id="r_a2ebadc0a3fc5d1fb4b05eea7780fc36e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ebadc0a3fc5d1fb4b05eea7780fc36e">MR_PdfParameters_GetMutable_defaultFontName</a> (<a class="el" href="#a8b6be769cbbdb6045fd66a4b0b9102e7">MR_PdfParameters</a> *_this)</td></tr>
+<tr class="memdesc:a2ebadc0a3fc5d1fb4b05eea7780fc36e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Font name list of available fonts: Courier (-Bold, -Oblique, -BoldOblique) Helvetica (-Bold, -Oblique, -BoldOblique) Times (-Roman, -Bold, -Italic, -BoldItalic) Symbol ZapfDingbats.  <br /></td></tr>
+<tr class="separator:a2ebadc0a3fc5d1fb4b05eea7780fc36e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17cba99e869afd73453cb020dc82ff26" id="r_a17cba99e869afd73453cb020dc82ff26"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17cba99e869afd73453cb020dc82ff26">MR_PdfParameters_Get_tableFontName</a> (const <a class="el" href="#a8b6be769cbbdb6045fd66a4b0b9102e7">MR_PdfParameters</a> *_this)</td></tr>
+<tr class="separator:a17cba99e869afd73453cb020dc82ff26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab51586caee3ac21ee544a4f322594f77" id="r_ab51586caee3ac21ee544a4f322594f77"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab51586caee3ac21ee544a4f322594f77">MR_PdfParameters_Set_tableFontName</a> (<a class="el" href="#a8b6be769cbbdb6045fd66a4b0b9102e7">MR_PdfParameters</a> *_this, const char *value, const char *value_end)</td></tr>
+<tr class="separator:ab51586caee3ac21ee544a4f322594f77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f1f32094ae96ea0e007b69579733897" id="r_a4f1f32094ae96ea0e007b69579733897"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f1f32094ae96ea0e007b69579733897">MR_PdfParameters_GetMutable_tableFontName</a> (<a class="el" href="#a8b6be769cbbdb6045fd66a4b0b9102e7">MR_PdfParameters</a> *_this)</td></tr>
+<tr class="separator:a4f1f32094ae96ea0e007b69579733897"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a133bc385ecf5dec80469bd485248e09e" id="r_a133bc385ecf5dec80469bd485248e09e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a8b6be769cbbdb6045fd66a4b0b9102e7">MR_PdfParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a133bc385ecf5dec80469bd485248e09e">MR_PdfParameters_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a133bc385ecf5dec80469bd485248e09e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f6e9ee8275005b0abd50f254792f866" id="r_a5f6e9ee8275005b0abd50f254792f866"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a8b6be769cbbdb6045fd66a4b0b9102e7">MR_PdfParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f6e9ee8275005b0abd50f254792f866">MR_PdfParameters_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a5f6e9ee8275005b0abd50f254792f866"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2883bab70f72314512170823c62d9405" id="r_a2883bab70f72314512170823c62d9405"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a8b6be769cbbdb6045fd66a4b0b9102e7">MR_PdfParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2883bab70f72314512170823c62d9405">MR_PdfParameters_ConstructFrom</a> (float titleSize, float textSize, const char *defaultFontName, const char *defaultFontName_end, const char *tableFontName, const char *tableFontName_end)</td></tr>
+<tr class="separator:a2883bab70f72314512170823c62d9405"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94e77df4f8872a82d35a6265baac23d3" id="r_a94e77df4f8872a82d35a6265baac23d3"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a8b6be769cbbdb6045fd66a4b0b9102e7">MR_PdfParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94e77df4f8872a82d35a6265baac23d3">MR_PdfParameters_OffsetPtr</a> (const <a class="el" href="#a8b6be769cbbdb6045fd66a4b0b9102e7">MR_PdfParameters</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a94e77df4f8872a82d35a6265baac23d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a94e77df4f8872a82d35a6265baac23d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6e78bec3465561efb4a3a3d0326de65" id="r_af6e78bec3465561efb4a3a3d0326de65"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a8b6be769cbbdb6045fd66a4b0b9102e7">MR_PdfParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6e78bec3465561efb4a3a3d0326de65">MR_PdfParameters_OffsetMutablePtr</a> (<a class="el" href="#a8b6be769cbbdb6045fd66a4b0b9102e7">MR_PdfParameters</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:af6e78bec3465561efb4a3a3d0326de65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:af6e78bec3465561efb4a3a3d0326de65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a7ff79ca219d3523783e8b042de322e" id="r_a1a7ff79ca219d3523783e8b042de322e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a8b6be769cbbdb6045fd66a4b0b9102e7">MR_PdfParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a7ff79ca219d3523783e8b042de322e">MR_PdfParameters_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a8b6be769cbbdb6045fd66a4b0b9102e7">MR_PdfParameters</a> *_other)</td></tr>
+<tr class="separator:a1a7ff79ca219d3523783e8b042de322e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fb33ad2a6fdffadcdd13fe2fdaa1d8d" id="r_a2fb33ad2a6fdffadcdd13fe2fdaa1d8d"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2fb33ad2a6fdffadcdd13fe2fdaa1d8d">MR_PdfParameters_Destroy</a> (const <a class="el" href="#a8b6be769cbbdb6045fd66a4b0b9102e7">MR_PdfParameters</a> *_this)</td></tr>
+<tr class="memdesc:a2fb33ad2a6fdffadcdd13fe2fdaa1d8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_PdfParameters</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a2fb33ad2a6fdffadcdd13fe2fdaa1d8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af44f36e8435f275815f37facf864e9c5" id="r_af44f36e8435f275815f37facf864e9c5"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af44f36e8435f275815f37facf864e9c5">MR_PdfParameters_DestroyArray</a> (const <a class="el" href="#a8b6be769cbbdb6045fd66a4b0b9102e7">MR_PdfParameters</a> *_this)</td></tr>
+<tr class="memdesc:af44f36e8435f275815f37facf864e9c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_PdfParameters</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:af44f36e8435f275815f37facf864e9c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e86d351260aed49f629d56076bb3b86" id="r_a4e86d351260aed49f629d56076bb3b86"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a8b6be769cbbdb6045fd66a4b0b9102e7">MR_PdfParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e86d351260aed49f629d56076bb3b86">MR_PdfParameters_AssignFromAnother</a> (<a class="el" href="#a8b6be769cbbdb6045fd66a4b0b9102e7">MR_PdfParameters</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a8b6be769cbbdb6045fd66a4b0b9102e7">MR_PdfParameters</a> *_other)</td></tr>
+<tr class="separator:a4e86d351260aed49f629d56076bb3b86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae99202b6e678c45de9f611629abe264f" id="r_ae99202b6e678c45de9f611629abe264f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae99202b6e678c45de9f611629abe264f">MR_Pdf_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> other_pass_by, <a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> *other)</td></tr>
+<tr class="separator:ae99202b6e678c45de9f611629abe264f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff0c137f266c4d8ea70992396986f070" id="r_aff0c137f266c4d8ea70992396986f070"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff0c137f266c4d8ea70992396986f070">MR_Pdf_OffsetPtr</a> (const <a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:aff0c137f266c4d8ea70992396986f070"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:aff0c137f266c4d8ea70992396986f070"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a611f3f1b0b6a92d56cce3072fc830e" id="r_a3a611f3f1b0b6a92d56cce3072fc830e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a611f3f1b0b6a92d56cce3072fc830e">MR_Pdf_OffsetMutablePtr</a> (<a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a3a611f3f1b0b6a92d56cce3072fc830e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a3a611f3f1b0b6a92d56cce3072fc830e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a741d7bfd5877ae656c1407bc11286e8d" id="r_a741d7bfd5877ae656c1407bc11286e8d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a741d7bfd5877ae656c1407bc11286e8d">MR_Pdf_Construct</a> (const char *documentPath, const char *documentPath_end, const <a class="el" href="#a8b6be769cbbdb6045fd66a4b0b9102e7">MR_PdfParameters</a> *params)</td></tr>
+<tr class="separator:a741d7bfd5877ae656c1407bc11286e8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeab39b237faee6217659d7c793d8bf7e" id="r_aeab39b237faee6217659d7c793d8bf7e"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeab39b237faee6217659d7c793d8bf7e">MR_Pdf_Destroy</a> (const <a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> *_this)</td></tr>
+<tr class="memdesc:aeab39b237faee6217659d7c793d8bf7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_Pdf</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:aeab39b237faee6217659d7c793d8bf7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b6ee0be0fa5d133bc5f5b3a5e9865da" id="r_a4b6ee0be0fa5d133bc5f5b3a5e9865da"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b6ee0be0fa5d133bc5f5b3a5e9865da">MR_Pdf_DestroyArray</a> (const <a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> *_this)</td></tr>
+<tr class="memdesc:a4b6ee0be0fa5d133bc5f5b3a5e9865da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_Pdf</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a4b6ee0be0fa5d133bc5f5b3a5e9865da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e01c168480f77dc96d37c1d21deaf5e" id="r_a7e01c168480f77dc96d37c1d21deaf5e"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e01c168480f77dc96d37c1d21deaf5e">MR_Pdf_ConvertTo_bool</a> (const <a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> *_this)</td></tr>
+<tr class="separator:a7e01c168480f77dc96d37c1d21deaf5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef94a79241cdac5c9873008a8aa5797b" id="r_aef94a79241cdac5c9873008a8aa5797b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef94a79241cdac5c9873008a8aa5797b">MR_Pdf_AssignFromAnother</a> (<a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> other_pass_by, <a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> *other)</td></tr>
+<tr class="separator:aef94a79241cdac5c9873008a8aa5797b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea12a54c2026c4dfa622dc67c02e9cb8" id="r_aea12a54c2026c4dfa622dc67c02e9cb8"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea12a54c2026c4dfa622dc67c02e9cb8">MR_Pdf_addText</a> (<a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> *_this, const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *text, const bool *isTitle)</td></tr>
+<tr class="separator:aea12a54c2026c4dfa622dc67c02e9cb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af906ea2973bbcf87e7761c280831f96b" id="r_af906ea2973bbcf87e7761c280831f96b"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af906ea2973bbcf87e7761c280831f96b">MR_Pdf_addTable</a> (<a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> *_this, const <a class="el" href="#af7b77ccae07737ff0cd656471d9e777e">MR_std_vector_std_pair_std_string_float</a> *table)</td></tr>
+<tr class="separator:af906ea2973bbcf87e7761c280831f96b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae23694d9898001d786190aaf8510f832" id="r_ae23694d9898001d786190aaf8510f832"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae23694d9898001d786190aaf8510f832">MR_Pdf_addPaletteStatsTable</a> (<a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> *_this, const <a class="el" href="#a3a02eff57619c7f1f4ebe81a9aca0c4a">MR_std_vector_MR_Pdf_PaletteRowStats</a> *paletteStats)</td></tr>
+<tr class="separator:ae23694d9898001d786190aaf8510f832"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a5de75ce3838f536657ab8760f9b57e" id="r_a3a5de75ce3838f536657ab8760f9b57e"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a5de75ce3838f536657ab8760f9b57e">MR_Pdf_addImageFromFile</a> (<a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> *_this, const char *imagePath, const char *imagePath_end, const <a class="el" href="#add13760b5b87407faf414a9205c9311f">MR_Pdf_ImageParams</a> *params)</td></tr>
+<tr class="memdesc:a3a5de75ce3838f536657ab8760f9b57e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add image from file in current cursor position. If image bigger than page size, autoscale image to page size. Move cursor.  <br /></td></tr>
+<tr class="separator:a3a5de75ce3838f536657ab8760f9b57e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add669e6a600d6266d8beec43e0f3593c" id="r_add669e6a600d6266d8beec43e0f3593c"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add669e6a600d6266d8beec43e0f3593c">MR_Pdf_newPage</a> (<a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> *_this)</td></tr>
+<tr class="separator:add669e6a600d6266d8beec43e0f3593c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac86c2724f1658e5dca4b660b3f9d8fa6" id="r_ac86c2724f1658e5dca4b660b3f9d8fa6"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac86c2724f1658e5dca4b660b3f9d8fa6">MR_Pdf_close</a> (<a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> *_this)</td></tr>
+<tr class="separator:ac86c2724f1658e5dca4b660b3f9d8fa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e2b53ba87811c76c70dfb88504be197" id="r_a2e2b53ba87811c76c70dfb88504be197"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e2b53ba87811c76c70dfb88504be197">MR_Pdf_setCursorPosX</a> (<a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> *_this, float posX)</td></tr>
+<tr class="separator:a2e2b53ba87811c76c70dfb88504be197"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbc74f4175eae378305530e32a5a75ac" id="r_afbc74f4175eae378305530e32a5a75ac"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afbc74f4175eae378305530e32a5a75ac">MR_Pdf_setCursorPosY</a> (<a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> *_this, float posY)</td></tr>
+<tr class="separator:afbc74f4175eae378305530e32a5a75ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2b88328138486a1ac8e2afe5f71ff5c" id="r_ab2b88328138486a1ac8e2afe5f71ff5c"><td class="memItemLeft" align="right" valign="top">MRC_API float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab2b88328138486a1ac8e2afe5f71ff5c">MR_Pdf_getCursorPosX</a> (const <a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> *_this)</td></tr>
+<tr class="separator:ab2b88328138486a1ac8e2afe5f71ff5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd51f8172cd75398ae88eb51633a2111" id="r_acd51f8172cd75398ae88eb51633a2111"><td class="memItemLeft" align="right" valign="top">MRC_API float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd51f8172cd75398ae88eb51633a2111">MR_Pdf_getCursorPosY</a> (const <a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> *_this)</td></tr>
+<tr class="separator:acd51f8172cd75398ae88eb51633a2111"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d098a8c4fd15e3afd2f57a7cf56d519" id="r_a6d098a8c4fd15e3afd2f57a7cf56d519"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector2f.html">MR_Vector2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d098a8c4fd15e3afd2f57a7cf56d519">MR_Pdf_getPageSize</a> (const <a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> *_this)</td></tr>
+<tr class="separator:a6d098a8c4fd15e3afd2f57a7cf56d519"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56718e253b9e0063bb02d60909effebb" id="r_a56718e253b9e0063bb02d60909effebb"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Box2f.html">MR_Box2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56718e253b9e0063bb02d60909effebb">MR_Pdf_getPageWorkArea</a> (const <a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> *_this)</td></tr>
+<tr class="separator:a56718e253b9e0063bb02d60909effebb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7657d4fb833f7c2e6e0020da72b04552" id="r_a7657d4fb833f7c2e6e0020da72b04552"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__Color.html">MR_Color</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7657d4fb833f7c2e6e0020da72b04552">MR_Pdf_PaletteRowStats_Get_color</a> (const <a class="el" href="#af3e94d847df6a1190efb04599edda7fa">MR_Pdf_PaletteRowStats</a> *_this)</td></tr>
+<tr class="separator:a7657d4fb833f7c2e6e0020da72b04552"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab08c966c293227d93ccd7a250e4bf454" id="r_ab08c966c293227d93ccd7a250e4bf454"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab08c966c293227d93ccd7a250e4bf454">MR_Pdf_PaletteRowStats_Set_color</a> (<a class="el" href="#af3e94d847df6a1190efb04599edda7fa">MR_Pdf_PaletteRowStats</a> *_this, <a class="el" href="structMR__Color.html">MR_Color</a> value)</td></tr>
+<tr class="separator:ab08c966c293227d93ccd7a250e4bf454"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a8ead031e81acfe3385d39ec9ba2a63" id="r_a0a8ead031e81acfe3385d39ec9ba2a63"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a8ead031e81acfe3385d39ec9ba2a63">MR_Pdf_PaletteRowStats_GetMutable_color</a> (<a class="el" href="#af3e94d847df6a1190efb04599edda7fa">MR_Pdf_PaletteRowStats</a> *_this)</td></tr>
+<tr class="separator:a0a8ead031e81acfe3385d39ec9ba2a63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a946df4c7a8a8d88cd95727f9040b5d5a" id="r_a946df4c7a8a8d88cd95727f9040b5d5a"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a946df4c7a8a8d88cd95727f9040b5d5a">MR_Pdf_PaletteRowStats_Get_rangeMin</a> (const <a class="el" href="#af3e94d847df6a1190efb04599edda7fa">MR_Pdf_PaletteRowStats</a> *_this)</td></tr>
+<tr class="separator:a946df4c7a8a8d88cd95727f9040b5d5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10d1a3fdaeff220653d9bc644dd3361e" id="r_a10d1a3fdaeff220653d9bc644dd3361e"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10d1a3fdaeff220653d9bc644dd3361e">MR_Pdf_PaletteRowStats_Set_rangeMin</a> (<a class="el" href="#af3e94d847df6a1190efb04599edda7fa">MR_Pdf_PaletteRowStats</a> *_this, const char *value, const char *value_end)</td></tr>
+<tr class="separator:a10d1a3fdaeff220653d9bc644dd3361e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc7894901658755bac22da45264969d3" id="r_afc7894901658755bac22da45264969d3"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc7894901658755bac22da45264969d3">MR_Pdf_PaletteRowStats_GetMutable_rangeMin</a> (<a class="el" href="#af3e94d847df6a1190efb04599edda7fa">MR_Pdf_PaletteRowStats</a> *_this)</td></tr>
+<tr class="separator:afc7894901658755bac22da45264969d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add071c095fd3ba7a717e4ee9a3c2de17" id="r_add071c095fd3ba7a717e4ee9a3c2de17"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add071c095fd3ba7a717e4ee9a3c2de17">MR_Pdf_PaletteRowStats_Get_rangeMax</a> (const <a class="el" href="#af3e94d847df6a1190efb04599edda7fa">MR_Pdf_PaletteRowStats</a> *_this)</td></tr>
+<tr class="separator:add071c095fd3ba7a717e4ee9a3c2de17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52f7109be9e827e205d6346cfe3d7c66" id="r_a52f7109be9e827e205d6346cfe3d7c66"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52f7109be9e827e205d6346cfe3d7c66">MR_Pdf_PaletteRowStats_Set_rangeMax</a> (<a class="el" href="#af3e94d847df6a1190efb04599edda7fa">MR_Pdf_PaletteRowStats</a> *_this, const char *value, const char *value_end)</td></tr>
+<tr class="separator:a52f7109be9e827e205d6346cfe3d7c66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75371018a6f73316e5a247f5bcac480e" id="r_a75371018a6f73316e5a247f5bcac480e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75371018a6f73316e5a247f5bcac480e">MR_Pdf_PaletteRowStats_GetMutable_rangeMax</a> (<a class="el" href="#af3e94d847df6a1190efb04599edda7fa">MR_Pdf_PaletteRowStats</a> *_this)</td></tr>
+<tr class="separator:a75371018a6f73316e5a247f5bcac480e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f9f8497ca1e677172a4211adcb0a06e" id="r_a4f9f8497ca1e677172a4211adcb0a06e"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f9f8497ca1e677172a4211adcb0a06e">MR_Pdf_PaletteRowStats_Get_percent</a> (const <a class="el" href="#af3e94d847df6a1190efb04599edda7fa">MR_Pdf_PaletteRowStats</a> *_this)</td></tr>
+<tr class="separator:a4f9f8497ca1e677172a4211adcb0a06e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b2114357ac9071508f4e792d94bdac2" id="r_a8b2114357ac9071508f4e792d94bdac2"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b2114357ac9071508f4e792d94bdac2">MR_Pdf_PaletteRowStats_Set_percent</a> (<a class="el" href="#af3e94d847df6a1190efb04599edda7fa">MR_Pdf_PaletteRowStats</a> *_this, const char *value, const char *value_end)</td></tr>
+<tr class="separator:a8b2114357ac9071508f4e792d94bdac2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e3dff3776f0e742eb4ae3d527716d4e" id="r_a4e3dff3776f0e742eb4ae3d527716d4e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e3dff3776f0e742eb4ae3d527716d4e">MR_Pdf_PaletteRowStats_GetMutable_percent</a> (<a class="el" href="#af3e94d847df6a1190efb04599edda7fa">MR_Pdf_PaletteRowStats</a> *_this)</td></tr>
+<tr class="separator:a4e3dff3776f0e742eb4ae3d527716d4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abeddc7d4661c8d2ee200982bfc32c307" id="r_abeddc7d4661c8d2ee200982bfc32c307"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#af3e94d847df6a1190efb04599edda7fa">MR_Pdf_PaletteRowStats</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abeddc7d4661c8d2ee200982bfc32c307">MR_Pdf_PaletteRowStats_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:abeddc7d4661c8d2ee200982bfc32c307"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8407950885d0adef8cd9d7ac006a90cd" id="r_a8407950885d0adef8cd9d7ac006a90cd"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#af3e94d847df6a1190efb04599edda7fa">MR_Pdf_PaletteRowStats</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8407950885d0adef8cd9d7ac006a90cd">MR_Pdf_PaletteRowStats_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a8407950885d0adef8cd9d7ac006a90cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a909647ce85c15a24014c77fc9ebe34d8" id="r_a909647ce85c15a24014c77fc9ebe34d8"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#af3e94d847df6a1190efb04599edda7fa">MR_Pdf_PaletteRowStats</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a909647ce85c15a24014c77fc9ebe34d8">MR_Pdf_PaletteRowStats_ConstructFrom</a> (<a class="el" href="structMR__Color.html">MR_Color</a> color, const char *rangeMin, const char *rangeMin_end, const char *rangeMax, const char *rangeMax_end, const char *percent, const char *percent_end)</td></tr>
+<tr class="separator:a909647ce85c15a24014c77fc9ebe34d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad1556bf81d4bc470da10580563f7201" id="r_aad1556bf81d4bc470da10580563f7201"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#af3e94d847df6a1190efb04599edda7fa">MR_Pdf_PaletteRowStats</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad1556bf81d4bc470da10580563f7201">MR_Pdf_PaletteRowStats_OffsetPtr</a> (const <a class="el" href="#af3e94d847df6a1190efb04599edda7fa">MR_Pdf_PaletteRowStats</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:aad1556bf81d4bc470da10580563f7201"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:aad1556bf81d4bc470da10580563f7201"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa02614f91158a87e088aa2f4573169bc" id="r_aa02614f91158a87e088aa2f4573169bc"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#af3e94d847df6a1190efb04599edda7fa">MR_Pdf_PaletteRowStats</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa02614f91158a87e088aa2f4573169bc">MR_Pdf_PaletteRowStats_OffsetMutablePtr</a> (<a class="el" href="#af3e94d847df6a1190efb04599edda7fa">MR_Pdf_PaletteRowStats</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:aa02614f91158a87e088aa2f4573169bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:aa02614f91158a87e088aa2f4573169bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbf24906a88ef371a12111e7842a72a3" id="r_adbf24906a88ef371a12111e7842a72a3"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#af3e94d847df6a1190efb04599edda7fa">MR_Pdf_PaletteRowStats</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adbf24906a88ef371a12111e7842a72a3">MR_Pdf_PaletteRowStats_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#af3e94d847df6a1190efb04599edda7fa">MR_Pdf_PaletteRowStats</a> *_other)</td></tr>
+<tr class="separator:adbf24906a88ef371a12111e7842a72a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c8854a3302d83a2d8dad62435a348ba" id="r_a7c8854a3302d83a2d8dad62435a348ba"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c8854a3302d83a2d8dad62435a348ba">MR_Pdf_PaletteRowStats_Destroy</a> (const <a class="el" href="#af3e94d847df6a1190efb04599edda7fa">MR_Pdf_PaletteRowStats</a> *_this)</td></tr>
+<tr class="memdesc:a7c8854a3302d83a2d8dad62435a348ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_Pdf_PaletteRowStats</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a7c8854a3302d83a2d8dad62435a348ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47c3afd9bb009628f1c3c0aa627aef4c" id="r_a47c3afd9bb009628f1c3c0aa627aef4c"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47c3afd9bb009628f1c3c0aa627aef4c">MR_Pdf_PaletteRowStats_DestroyArray</a> (const <a class="el" href="#af3e94d847df6a1190efb04599edda7fa">MR_Pdf_PaletteRowStats</a> *_this)</td></tr>
+<tr class="memdesc:a47c3afd9bb009628f1c3c0aa627aef4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_Pdf_PaletteRowStats</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a47c3afd9bb009628f1c3c0aa627aef4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d516638378f5855d08d00cea9a8ab9c" id="r_a9d516638378f5855d08d00cea9a8ab9c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#af3e94d847df6a1190efb04599edda7fa">MR_Pdf_PaletteRowStats</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d516638378f5855d08d00cea9a8ab9c">MR_Pdf_PaletteRowStats_AssignFromAnother</a> (<a class="el" href="#af3e94d847df6a1190efb04599edda7fa">MR_Pdf_PaletteRowStats</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#af3e94d847df6a1190efb04599edda7fa">MR_Pdf_PaletteRowStats</a> *_other)</td></tr>
+<tr class="separator:a9d516638378f5855d08d00cea9a8ab9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c1bff4c08e4ebac976c775245015b55" id="r_a2c1bff4c08e4ebac976c775245015b55"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__Vector2f.html">MR_Vector2f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c1bff4c08e4ebac976c775245015b55">MR_Pdf_ImageParams_Get_size</a> (const <a class="el" href="#add13760b5b87407faf414a9205c9311f">MR_Pdf_ImageParams</a> *_this)</td></tr>
+<tr class="separator:a2c1bff4c08e4ebac976c775245015b55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6d789ae32a05e92632e76f3e5e280cb" id="r_ab6d789ae32a05e92632e76f3e5e280cb"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6d789ae32a05e92632e76f3e5e280cb">MR_Pdf_ImageParams_Set_size</a> (<a class="el" href="#add13760b5b87407faf414a9205c9311f">MR_Pdf_ImageParams</a> *_this, <a class="el" href="structMR__Vector2f.html">MR_Vector2f</a> value)</td></tr>
+<tr class="separator:ab6d789ae32a05e92632e76f3e5e280cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afea15b2e94d3440ffa0750b042270ee0" id="r_afea15b2e94d3440ffa0750b042270ee0"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector2f.html">MR_Vector2f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afea15b2e94d3440ffa0750b042270ee0">MR_Pdf_ImageParams_GetMutable_size</a> (<a class="el" href="#add13760b5b87407faf414a9205c9311f">MR_Pdf_ImageParams</a> *_this)</td></tr>
+<tr class="separator:afea15b2e94d3440ffa0750b042270ee0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e20c1a5821af4179dd20f24faaad4fd" id="r_a2e20c1a5821af4179dd20f24faaad4fd"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e20c1a5821af4179dd20f24faaad4fd">MR_Pdf_ImageParams_Get_caption</a> (const <a class="el" href="#add13760b5b87407faf414a9205c9311f">MR_Pdf_ImageParams</a> *_this)</td></tr>
+<tr class="separator:a2e20c1a5821af4179dd20f24faaad4fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd984bdde7b0a4af394a392217a8dfe3" id="r_acd984bdde7b0a4af394a392217a8dfe3"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd984bdde7b0a4af394a392217a8dfe3">MR_Pdf_ImageParams_Set_caption</a> (<a class="el" href="#add13760b5b87407faf414a9205c9311f">MR_Pdf_ImageParams</a> *_this, const char *value, const char *value_end)</td></tr>
+<tr class="separator:acd984bdde7b0a4af394a392217a8dfe3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae04222e2ef2fca80f011d38586c746fb" id="r_ae04222e2ef2fca80f011d38586c746fb"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae04222e2ef2fca80f011d38586c746fb">MR_Pdf_ImageParams_GetMutable_caption</a> (<a class="el" href="#add13760b5b87407faf414a9205c9311f">MR_Pdf_ImageParams</a> *_this)</td></tr>
+<tr class="separator:ae04222e2ef2fca80f011d38586c746fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad15586220fc5bdaf75d6dd5b21651b1f" id="r_ad15586220fc5bdaf75d6dd5b21651b1f"><td class="memItemLeft" align="right" valign="top">MRC_API const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad15586220fc5bdaf75d6dd5b21651b1f">MR_Pdf_ImageParams_Get_uniformScaleFromWidth</a> (const <a class="el" href="#add13760b5b87407faf414a9205c9311f">MR_Pdf_ImageParams</a> *_this)</td></tr>
+<tr class="separator:ad15586220fc5bdaf75d6dd5b21651b1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a637f49e7f2e08ca9c105859f286074bb" id="r_a637f49e7f2e08ca9c105859f286074bb"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a637f49e7f2e08ca9c105859f286074bb">MR_Pdf_ImageParams_Set_uniformScaleFromWidth</a> (<a class="el" href="#add13760b5b87407faf414a9205c9311f">MR_Pdf_ImageParams</a> *_this, bool value)</td></tr>
+<tr class="separator:a637f49e7f2e08ca9c105859f286074bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cc5990096989a116ee6452fca24e9ed" id="r_a3cc5990096989a116ee6452fca24e9ed"><td class="memItemLeft" align="right" valign="top">MRC_API bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3cc5990096989a116ee6452fca24e9ed">MR_Pdf_ImageParams_GetMutable_uniformScaleFromWidth</a> (<a class="el" href="#add13760b5b87407faf414a9205c9311f">MR_Pdf_ImageParams</a> *_this)</td></tr>
+<tr class="separator:a3cc5990096989a116ee6452fca24e9ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab27737a7cae023530844bb2d7bb473da" id="r_ab27737a7cae023530844bb2d7bb473da"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#add13760b5b87407faf414a9205c9311f">MR_Pdf_ImageParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab27737a7cae023530844bb2d7bb473da">MR_Pdf_ImageParams_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:ab27737a7cae023530844bb2d7bb473da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa963739f263d3e949bd3d14ac2f57091" id="r_aa963739f263d3e949bd3d14ac2f57091"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#add13760b5b87407faf414a9205c9311f">MR_Pdf_ImageParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa963739f263d3e949bd3d14ac2f57091">MR_Pdf_ImageParams_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:aa963739f263d3e949bd3d14ac2f57091"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa399296acd5050fad0e3f699ea322b80" id="r_aa399296acd5050fad0e3f699ea322b80"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#add13760b5b87407faf414a9205c9311f">MR_Pdf_ImageParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa399296acd5050fad0e3f699ea322b80">MR_Pdf_ImageParams_ConstructFrom</a> (<a class="el" href="structMR__Vector2f.html">MR_Vector2f</a> <a class="elRef" href="../Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a>, const char *caption, const char *caption_end, bool uniformScaleFromWidth)</td></tr>
+<tr class="separator:aa399296acd5050fad0e3f699ea322b80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a798b94b70edd66f0be135e117d65f3" id="r_a7a798b94b70edd66f0be135e117d65f3"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#add13760b5b87407faf414a9205c9311f">MR_Pdf_ImageParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a798b94b70edd66f0be135e117d65f3">MR_Pdf_ImageParams_OffsetPtr</a> (const <a class="el" href="#add13760b5b87407faf414a9205c9311f">MR_Pdf_ImageParams</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a7a798b94b70edd66f0be135e117d65f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a7a798b94b70edd66f0be135e117d65f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35adf3387f5576379bb2119ee85a0326" id="r_a35adf3387f5576379bb2119ee85a0326"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#add13760b5b87407faf414a9205c9311f">MR_Pdf_ImageParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a35adf3387f5576379bb2119ee85a0326">MR_Pdf_ImageParams_OffsetMutablePtr</a> (<a class="el" href="#add13760b5b87407faf414a9205c9311f">MR_Pdf_ImageParams</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a35adf3387f5576379bb2119ee85a0326"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a35adf3387f5576379bb2119ee85a0326"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72ee27c5b37748c0ef68ce4b0b06430d" id="r_a72ee27c5b37748c0ef68ce4b0b06430d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#add13760b5b87407faf414a9205c9311f">MR_Pdf_ImageParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72ee27c5b37748c0ef68ce4b0b06430d">MR_Pdf_ImageParams_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#add13760b5b87407faf414a9205c9311f">MR_Pdf_ImageParams</a> *_other)</td></tr>
+<tr class="separator:a72ee27c5b37748c0ef68ce4b0b06430d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a311e0d716095188eb2aabe996c020616" id="r_a311e0d716095188eb2aabe996c020616"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a311e0d716095188eb2aabe996c020616">MR_Pdf_ImageParams_Destroy</a> (const <a class="el" href="#add13760b5b87407faf414a9205c9311f">MR_Pdf_ImageParams</a> *_this)</td></tr>
+<tr class="memdesc:a311e0d716095188eb2aabe996c020616"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_Pdf_ImageParams</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a311e0d716095188eb2aabe996c020616"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5931206cce549128f79d3ff7199a108a" id="r_a5931206cce549128f79d3ff7199a108a"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5931206cce549128f79d3ff7199a108a">MR_Pdf_ImageParams_DestroyArray</a> (const <a class="el" href="#add13760b5b87407faf414a9205c9311f">MR_Pdf_ImageParams</a> *_this)</td></tr>
+<tr class="memdesc:a5931206cce549128f79d3ff7199a108a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_Pdf_ImageParams</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a5931206cce549128f79d3ff7199a108a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21c9573691b6a64d364b2f0540f75132" id="r_a21c9573691b6a64d364b2f0540f75132"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#add13760b5b87407faf414a9205c9311f">MR_Pdf_ImageParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21c9573691b6a64d364b2f0540f75132">MR_Pdf_ImageParams_AssignFromAnother</a> (<a class="el" href="#add13760b5b87407faf414a9205c9311f">MR_Pdf_ImageParams</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#add13760b5b87407faf414a9205c9311f">MR_Pdf_ImageParams</a> *_other)</td></tr>
+<tr class="separator:a21c9573691b6a64d364b2f0540f75132"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a0c39d182e0489d71e7a28dd6358004c2" name="a0c39d182e0489d71e7a28dd6358004c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c39d182e0489d71e7a28dd6358004c2">&#9670;&#160;</a></span>MR_Pdf</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> <a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1Pdf.html">MR::Pdf</a></code>. </p>
+<p>Class for simple creation pdf. </p>
+
+</div>
+</div>
+<a id="add13760b5b87407faf414a9205c9311f" name="add13760b5b87407faf414a9205c9311f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add13760b5b87407faf414a9205c9311f">&#9670;&#160;</a></span>MR_Pdf_ImageParams</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#add13760b5b87407faf414a9205c9311f">MR_Pdf_ImageParams</a> <a class="el" href="#add13760b5b87407faf414a9205c9311f">MR_Pdf_ImageParams</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Parameters to adding image from file Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1Pdf_1_1ImageParams.html">MR::Pdf::ImageParams</a></code>. </p>
+
+</div>
+</div>
+<a id="af3e94d847df6a1190efb04599edda7fa" name="af3e94d847df6a1190efb04599edda7fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3e94d847df6a1190efb04599edda7fa">&#9670;&#160;</a></span>MR_Pdf_PaletteRowStats</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#af3e94d847df6a1190efb04599edda7fa">MR_Pdf_PaletteRowStats</a> <a class="el" href="#af3e94d847df6a1190efb04599edda7fa">MR_Pdf_PaletteRowStats</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1Pdf_1_1PaletteRowStats.html">MR::Pdf::PaletteRowStats</a></code>. </p>
+
+</div>
+</div>
+<a id="a8b6be769cbbdb6045fd66a4b0b9102e7" name="a8b6be769cbbdb6045fd66a4b0b9102e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b6be769cbbdb6045fd66a4b0b9102e7">&#9670;&#160;</a></span>MR_PdfParameters</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a8b6be769cbbdb6045fd66a4b0b9102e7">MR_PdfParameters</a> <a class="el" href="#a8b6be769cbbdb6045fd66a4b0b9102e7">MR_PdfParameters</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Parameters of document style. </p>
+<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1PdfParameters.html">MR::PdfParameters</a></code>. </p>
+
+</div>
+</div>
+<a id="a69dc6868c10c92fb8b8a255b0130d289" name="a69dc6868c10c92fb8b8a255b0130d289"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69dc6868c10c92fb8b8a255b0130d289">&#9670;&#160;</a></span>MR_std_string</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3a02eff57619c7f1f4ebe81a9aca0c4a" name="a3a02eff57619c7f1f4ebe81a9aca0c4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a02eff57619c7f1f4ebe81a9aca0c4a">&#9670;&#160;</a></span>MR_std_vector_MR_Pdf_PaletteRowStats</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a3a02eff57619c7f1f4ebe81a9aca0c4a">MR_std_vector_MR_Pdf_PaletteRowStats</a> <a class="el" href="#a3a02eff57619c7f1f4ebe81a9aca0c4a">MR_std_vector_MR_Pdf_PaletteRowStats</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af7b77ccae07737ff0cd656471d9e777e" name="af7b77ccae07737ff0cd656471d9e777e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7b77ccae07737ff0cd656471d9e777e">&#9670;&#160;</a></span>MR_std_vector_std_pair_std_string_float</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#af7b77ccae07737ff0cd656471d9e777e">MR_std_vector_std_pair_std_string_float</a> <a class="el" href="#af7b77ccae07737ff0cd656471d9e777e">MR_std_vector_std_pair_std_string_float</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a3a5de75ce3838f536657ab8760f9b57e" name="a3a5de75ce3838f536657ab8760f9b57e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a5de75ce3838f536657ab8760f9b57e">&#9670;&#160;</a></span>MR_Pdf_addImageFromFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_Pdf_addImageFromFile </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>imagePath</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>imagePath_end</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#add13760b5b87407faf414a9205c9311f">MR_Pdf_ImageParams</a> *</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Add image from file in current cursor position. If image bigger than page size, autoscale image to page size. Move cursor. </p>
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Pdf.html">MR::Pdf</a></code> named <code>addImageFromFile</code>. Parameter <code>_this</code> can not be null. Parameter <code>imagePath</code> is a UTF-8 encoded filesystem path. Parameter <code>params</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ae23694d9898001d786190aaf8510f832" name="ae23694d9898001d786190aaf8510f832"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae23694d9898001d786190aaf8510f832">&#9670;&#160;</a></span>MR_Pdf_addPaletteStatsTable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_Pdf_addPaletteStatsTable </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a3a02eff57619c7f1f4ebe81a9aca0c4a">MR_std_vector_MR_Pdf_PaletteRowStats</a> *</td>          <td class="paramname"><span class="paramname"><em>paletteStats</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Pdf.html">MR::Pdf</a></code> named <code>addPaletteStatsTable</code>. Parameter <code>_this</code> can not be null. Parameter <code>paletteStats</code> can not be null. </p>
+
+</div>
+</div>
+<a id="af906ea2973bbcf87e7761c280831f96b" name="af906ea2973bbcf87e7761c280831f96b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af906ea2973bbcf87e7761c280831f96b">&#9670;&#160;</a></span>MR_Pdf_addTable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_Pdf_addTable </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#af7b77ccae07737ff0cd656471d9e777e">MR_std_vector_std_pair_std_string_float</a> *</td>          <td class="paramname"><span class="paramname"><em>table</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Add set of pair string - value in current cursor position. Move cursor. Box horizontal size is page width without offset. Box vertical size is automatically for text. Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Pdf.html">MR::Pdf</a></code> named <code>addTable</code>. Parameter <code>_this</code> can not be null. Parameter <code>table</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aea12a54c2026c4dfa622dc67c02e9cb8" name="aea12a54c2026c4dfa622dc67c02e9cb8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea12a54c2026c4dfa622dc67c02e9cb8">&#9670;&#160;</a></span>MR_Pdf_addText()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_Pdf_addText </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>text</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool *</td>          <td class="paramname"><span class="paramname"><em>isTitle</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Add text block in current cursor position. Move cursor. Box horizontal size is page width without offset. Box vertical size is automatically for text. horAlignment = left if isTitle - horAlignment = center, use titleFontSize Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Pdf.html">MR::Pdf</a></code> named <code>addText</code>. Parameter <code>_this</code> can not be null. Parameter <code>text</code> can not be null. Parameter <code>isTitle</code> has a default argument: <code>false</code>, pass a null pointer to use it. </p>
+
+</div>
+</div>
+<a id="aef94a79241cdac5c9873008a8aa5797b" name="aef94a79241cdac5c9873008a8aa5797b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef94a79241cdac5c9873008a8aa5797b">&#9670;&#160;</a></span>MR_Pdf_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> * MR_Pdf_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Pdf.html">MR::Pdf</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ac86c2724f1658e5dca4b660b3f9d8fa6" name="ac86c2724f1658e5dca4b660b3f9d8fa6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac86c2724f1658e5dca4b660b3f9d8fa6">&#9670;&#160;</a></span>MR_Pdf_close()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_Pdf_close </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Save and close document. After this impossible add anything in document Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Pdf.html">MR::Pdf</a></code> named <code>close</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a741d7bfd5877ae656c1407bc11286e8d" name="a741d7bfd5877ae656c1407bc11286e8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a741d7bfd5877ae656c1407bc11286e8d">&#9670;&#160;</a></span>MR_Pdf_Construct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> * MR_Pdf_Construct </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>documentPath</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>documentPath_end</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a8b6be769cbbdb6045fd66a4b0b9102e7">MR_PdfParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Ctor Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1Pdf.html">MR::Pdf</a></code>. Parameter <code>documentPath</code> is a UTF-8 encoded filesystem path. Parameter <code>params</code> has a default argument: <code><a class="elRef" href="../Cpp/structMR_1_1PdfParameters.html">MR::PdfParameters()</a></code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aeab39b237faee6217659d7c793d8bf7e" title="Destroys a heap-allocated instance of MR_Pdf. Does nothing if the pointer is null.">MR_Pdf_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ae99202b6e678c45de9f611629abe264f" name="ae99202b6e678c45de9f611629abe264f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae99202b6e678c45de9f611629abe264f">&#9670;&#160;</a></span>MR_Pdf_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> * MR_Pdf_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1Pdf.html">MR::Pdf</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#aeab39b237faee6217659d7c793d8bf7e" title="Destroys a heap-allocated instance of MR_Pdf. Does nothing if the pointer is null.">MR_Pdf_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a7e01c168480f77dc96d37c1d21deaf5e" name="a7e01c168480f77dc96d37c1d21deaf5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e01c168480f77dc96d37c1d21deaf5e">&#9670;&#160;</a></span>MR_Pdf_ConvertTo_bool()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_Pdf_ConvertTo_bool </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Checking the ability to work with a document Generated from a conversion operator of class <code><a class="elRef" href="../Cpp/classMR_1_1Pdf.html">MR::Pdf</a></code> to type <code>bool</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aeab39b237faee6217659d7c793d8bf7e" name="aeab39b237faee6217659d7c793d8bf7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeab39b237faee6217659d7c793d8bf7e">&#9670;&#160;</a></span>MR_Pdf_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_Pdf_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_Pdf</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a4b6ee0be0fa5d133bc5f5b3a5e9865da" name="a4b6ee0be0fa5d133bc5f5b3a5e9865da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b6ee0be0fa5d133bc5f5b3a5e9865da">&#9670;&#160;</a></span>MR_Pdf_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_Pdf_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_Pdf</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="ab2b88328138486a1ac8e2afe5f71ff5c" name="ab2b88328138486a1ac8e2afe5f71ff5c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2b88328138486a1ac8e2afe5f71ff5c">&#9670;&#160;</a></span>MR_Pdf_getCursorPosX()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API float MR_Pdf_getCursorPosX </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Pdf.html">MR::Pdf</a></code> named <code>getCursorPosX</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="acd51f8172cd75398ae88eb51633a2111" name="acd51f8172cd75398ae88eb51633a2111"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd51f8172cd75398ae88eb51633a2111">&#9670;&#160;</a></span>MR_Pdf_getCursorPosY()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API float MR_Pdf_getCursorPosY </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Pdf.html">MR::Pdf</a></code> named <code>getCursorPosY</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a6d098a8c4fd15e3afd2f57a7cf56d519" name="a6d098a8c4fd15e3afd2f57a7cf56d519"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d098a8c4fd15e3afd2f57a7cf56d519">&#9670;&#160;</a></span>MR_Pdf_getPageSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__Vector2f.html">MR_Vector2f</a> MR_Pdf_getPageSize </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Pdf.html">MR::Pdf</a></code> named <code>getPageSize</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a56718e253b9e0063bb02d60909effebb" name="a56718e253b9e0063bb02d60909effebb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56718e253b9e0063bb02d60909effebb">&#9670;&#160;</a></span>MR_Pdf_getPageWorkArea()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__Box2f.html">MR_Box2f</a> MR_Pdf_getPageWorkArea </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Pdf.html">MR::Pdf</a></code> named <code>getPageWorkArea</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a21c9573691b6a64d364b2f0540f75132" name="a21c9573691b6a64d364b2f0540f75132"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21c9573691b6a64d364b2f0540f75132">&#9670;&#160;</a></span>MR_Pdf_ImageParams_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#add13760b5b87407faf414a9205c9311f">MR_Pdf_ImageParams</a> * MR_Pdf_ImageParams_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#add13760b5b87407faf414a9205c9311f">MR_Pdf_ImageParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#add13760b5b87407faf414a9205c9311f">MR_Pdf_ImageParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1Pdf_1_1ImageParams.html">MR::Pdf::ImageParams</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="aa399296acd5050fad0e3f699ea322b80" name="aa399296acd5050fad0e3f699ea322b80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa399296acd5050fad0e3f699ea322b80">&#9670;&#160;</a></span>MR_Pdf_ImageParams_ConstructFrom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#add13760b5b87407faf414a9205c9311f">MR_Pdf_ImageParams</a> * MR_Pdf_ImageParams_ConstructFrom </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR__Vector2f.html">MR_Vector2f</a></td>          <td class="paramname"><span class="paramname"><em>size</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>caption</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>caption_end</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>uniformScaleFromWidth</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1Pdf_1_1ImageParams.html">MR::Pdf::ImageParams</a></code> elementwise. Parameter <code>caption</code> can not be null. If <code>caption_end</code> is null, then <code>caption</code> is assumed to be null-terminated. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a311e0d716095188eb2aabe996c020616" title="Destroys a heap-allocated instance of MR_Pdf_ImageParams. Does nothing if the pointer is null.">MR_Pdf_ImageParams_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a72ee27c5b37748c0ef68ce4b0b06430d" name="a72ee27c5b37748c0ef68ce4b0b06430d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72ee27c5b37748c0ef68ce4b0b06430d">&#9670;&#160;</a></span>MR_Pdf_ImageParams_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#add13760b5b87407faf414a9205c9311f">MR_Pdf_ImageParams</a> * MR_Pdf_ImageParams_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#add13760b5b87407faf414a9205c9311f">MR_Pdf_ImageParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1Pdf_1_1ImageParams.html">MR::Pdf::ImageParams</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a311e0d716095188eb2aabe996c020616" title="Destroys a heap-allocated instance of MR_Pdf_ImageParams. Does nothing if the pointer is null.">MR_Pdf_ImageParams_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ab27737a7cae023530844bb2d7bb473da" name="ab27737a7cae023530844bb2d7bb473da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab27737a7cae023530844bb2d7bb473da">&#9670;&#160;</a></span>MR_Pdf_ImageParams_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#add13760b5b87407faf414a9205c9311f">MR_Pdf_ImageParams</a> * MR_Pdf_ImageParams_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a311e0d716095188eb2aabe996c020616" title="Destroys a heap-allocated instance of MR_Pdf_ImageParams. Does nothing if the pointer is null.">MR_Pdf_ImageParams_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="aa963739f263d3e949bd3d14ac2f57091" name="aa963739f263d3e949bd3d14ac2f57091"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa963739f263d3e949bd3d14ac2f57091">&#9670;&#160;</a></span>MR_Pdf_ImageParams_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#add13760b5b87407faf414a9205c9311f">MR_Pdf_ImageParams</a> * MR_Pdf_ImageParams_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a5931206cce549128f79d3ff7199a108a" title="Destroys a heap-allocated array of MR_Pdf_ImageParams. Does nothing if the pointer is null.">MR_Pdf_ImageParams_DestroyArray()</a></code>. Use <code><a class="el" href="#a35adf3387f5576379bb2119ee85a0326" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_Pdf_ImageParams_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a7a798b94b70edd66f0be135e117d65f3" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_Pdf_ImageParams_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a311e0d716095188eb2aabe996c020616" name="a311e0d716095188eb2aabe996c020616"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a311e0d716095188eb2aabe996c020616">&#9670;&#160;</a></span>MR_Pdf_ImageParams_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_Pdf_ImageParams_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#add13760b5b87407faf414a9205c9311f">MR_Pdf_ImageParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_Pdf_ImageParams</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a5931206cce549128f79d3ff7199a108a" name="a5931206cce549128f79d3ff7199a108a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5931206cce549128f79d3ff7199a108a">&#9670;&#160;</a></span>MR_Pdf_ImageParams_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_Pdf_ImageParams_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#add13760b5b87407faf414a9205c9311f">MR_Pdf_ImageParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_Pdf_ImageParams</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a2e20c1a5821af4179dd20f24faaad4fd" name="a2e20c1a5821af4179dd20f24faaad4fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e20c1a5821af4179dd20f24faaad4fd">&#9670;&#160;</a></span>MR_Pdf_ImageParams_Get_caption()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_Pdf_ImageParams_Get_caption </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#add13760b5b87407faf414a9205c9311f">MR_Pdf_ImageParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>caption if not empty - add caption under marks (if exist) or image. Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1Pdf_1_1ImageParams.html">MR::Pdf::ImageParams</a></code> named <code>caption</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a2c1bff4c08e4ebac976c775245015b55" name="a2c1bff4c08e4ebac976c775245015b55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c1bff4c08e4ebac976c775245015b55">&#9670;&#160;</a></span>MR_Pdf_ImageParams_Get_size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="structMR__Vector2f.html">MR_Vector2f</a> * MR_Pdf_ImageParams_Get_size </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#add13760b5b87407faf414a9205c9311f">MR_Pdf_ImageParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>image size in page space if == {0, 0} - use image size if .x or .y &lt; 0 use the available page size from the current cursor position (caption size is also accounted for) Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1Pdf_1_1ImageParams.html">MR::Pdf::ImageParams</a></code> named <code>size</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ad15586220fc5bdaf75d6dd5b21651b1f" name="ad15586220fc5bdaf75d6dd5b21651b1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad15586220fc5bdaf75d6dd5b21651b1f">&#9670;&#160;</a></span>MR_Pdf_ImageParams_Get_uniformScaleFromWidth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const bool * MR_Pdf_ImageParams_Get_uniformScaleFromWidth </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#add13760b5b87407faf414a9205c9311f">MR_Pdf_ImageParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>set height to keep same scale as width scale Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1Pdf_1_1ImageParams.html">MR::Pdf::ImageParams</a></code> named <code>uniformScaleFromWidth</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ae04222e2ef2fca80f011d38586c746fb" name="ae04222e2ef2fca80f011d38586c746fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae04222e2ef2fca80f011d38586c746fb">&#9670;&#160;</a></span>MR_Pdf_ImageParams_GetMutable_caption()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_Pdf_ImageParams_GetMutable_caption </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#add13760b5b87407faf414a9205c9311f">MR_Pdf_ImageParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>caption if not empty - add caption under marks (if exist) or image. Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1Pdf_1_1ImageParams.html">MR::Pdf::ImageParams</a></code> named <code>caption</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="afea15b2e94d3440ffa0750b042270ee0" name="afea15b2e94d3440ffa0750b042270ee0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afea15b2e94d3440ffa0750b042270ee0">&#9670;&#160;</a></span>MR_Pdf_ImageParams_GetMutable_size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__Vector2f.html">MR_Vector2f</a> * MR_Pdf_ImageParams_GetMutable_size </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#add13760b5b87407faf414a9205c9311f">MR_Pdf_ImageParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>image size in page space if == {0, 0} - use image size if .x or .y &lt; 0 use the available page size from the current cursor position (caption size is also accounted for) Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1Pdf_1_1ImageParams.html">MR::Pdf::ImageParams</a></code> named <code>size</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a3cc5990096989a116ee6452fca24e9ed" name="a3cc5990096989a116ee6452fca24e9ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3cc5990096989a116ee6452fca24e9ed">&#9670;&#160;</a></span>MR_Pdf_ImageParams_GetMutable_uniformScaleFromWidth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool * MR_Pdf_ImageParams_GetMutable_uniformScaleFromWidth </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#add13760b5b87407faf414a9205c9311f">MR_Pdf_ImageParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>set height to keep same scale as width scale Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1Pdf_1_1ImageParams.html">MR::Pdf::ImageParams</a></code> named <code>uniformScaleFromWidth</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a35adf3387f5576379bb2119ee85a0326" name="a35adf3387f5576379bb2119ee85a0326"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35adf3387f5576379bb2119ee85a0326">&#9670;&#160;</a></span>MR_Pdf_ImageParams_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#add13760b5b87407faf414a9205c9311f">MR_Pdf_ImageParams</a> * MR_Pdf_ImageParams_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#add13760b5b87407faf414a9205c9311f">MR_Pdf_ImageParams</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a7a798b94b70edd66f0be135e117d65f3" name="a7a798b94b70edd66f0be135e117d65f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a798b94b70edd66f0be135e117d65f3">&#9670;&#160;</a></span>MR_Pdf_ImageParams_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#add13760b5b87407faf414a9205c9311f">MR_Pdf_ImageParams</a> * MR_Pdf_ImageParams_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#add13760b5b87407faf414a9205c9311f">MR_Pdf_ImageParams</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="acd984bdde7b0a4af394a392217a8dfe3" name="acd984bdde7b0a4af394a392217a8dfe3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd984bdde7b0a4af394a392217a8dfe3">&#9670;&#160;</a></span>MR_Pdf_ImageParams_Set_caption()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_Pdf_ImageParams_Set_caption </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#add13760b5b87407faf414a9205c9311f">MR_Pdf_ImageParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>value_end</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>caption if not empty - add caption under marks (if exist) or image. Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1Pdf_1_1ImageParams.html">MR::Pdf::ImageParams</a></code> named <code>caption</code>. Parameter <code>_this</code> can not be null. Parameter <code>value</code> can not be null. If <code>value_end</code> is null, then <code>value</code> is assumed to be null-terminated. </p>
+
+</div>
+</div>
+<a id="ab6d789ae32a05e92632e76f3e5e280cb" name="ab6d789ae32a05e92632e76f3e5e280cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6d789ae32a05e92632e76f3e5e280cb">&#9670;&#160;</a></span>MR_Pdf_ImageParams_Set_size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_Pdf_ImageParams_Set_size </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#add13760b5b87407faf414a9205c9311f">MR_Pdf_ImageParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__Vector2f.html">MR_Vector2f</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>image size in page space if == {0, 0} - use image size if .x or .y &lt; 0 use the available page size from the current cursor position (caption size is also accounted for) Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1Pdf_1_1ImageParams.html">MR::Pdf::ImageParams</a></code> named <code>size</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a637f49e7f2e08ca9c105859f286074bb" name="a637f49e7f2e08ca9c105859f286074bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a637f49e7f2e08ca9c105859f286074bb">&#9670;&#160;</a></span>MR_Pdf_ImageParams_Set_uniformScaleFromWidth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_Pdf_ImageParams_Set_uniformScaleFromWidth </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#add13760b5b87407faf414a9205c9311f">MR_Pdf_ImageParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>set height to keep same scale as width scale Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1Pdf_1_1ImageParams.html">MR::Pdf::ImageParams</a></code> named <code>uniformScaleFromWidth</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="add669e6a600d6266d8beec43e0f3593c" name="add669e6a600d6266d8beec43e0f3593c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add669e6a600d6266d8beec43e0f3593c">&#9670;&#160;</a></span>MR_Pdf_newPage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_Pdf_newPage </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Add new pageand move cursor on it Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Pdf.html">MR::Pdf</a></code> named <code>newPage</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a3a611f3f1b0b6a92d56cce3072fc830e" name="a3a611f3f1b0b6a92d56cce3072fc830e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a611f3f1b0b6a92d56cce3072fc830e">&#9670;&#160;</a></span>MR_Pdf_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> * MR_Pdf_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="aff0c137f266c4d8ea70992396986f070" name="aff0c137f266c4d8ea70992396986f070"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff0c137f266c4d8ea70992396986f070">&#9670;&#160;</a></span>MR_Pdf_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> * MR_Pdf_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a9d516638378f5855d08d00cea9a8ab9c" name="a9d516638378f5855d08d00cea9a8ab9c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d516638378f5855d08d00cea9a8ab9c">&#9670;&#160;</a></span>MR_Pdf_PaletteRowStats_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#af3e94d847df6a1190efb04599edda7fa">MR_Pdf_PaletteRowStats</a> * MR_Pdf_PaletteRowStats_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#af3e94d847df6a1190efb04599edda7fa">MR_Pdf_PaletteRowStats</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#af3e94d847df6a1190efb04599edda7fa">MR_Pdf_PaletteRowStats</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1Pdf_1_1PaletteRowStats.html">MR::Pdf::PaletteRowStats</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a909647ce85c15a24014c77fc9ebe34d8" name="a909647ce85c15a24014c77fc9ebe34d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a909647ce85c15a24014c77fc9ebe34d8">&#9670;&#160;</a></span>MR_Pdf_PaletteRowStats_ConstructFrom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#af3e94d847df6a1190efb04599edda7fa">MR_Pdf_PaletteRowStats</a> * MR_Pdf_PaletteRowStats_ConstructFrom </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR__Color.html">MR_Color</a></td>          <td class="paramname"><span class="paramname"><em>color</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>rangeMin</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>rangeMin_end</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>rangeMax</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>rangeMax_end</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>percent</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>percent_end</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1Pdf_1_1PaletteRowStats.html">MR::Pdf::PaletteRowStats</a></code> elementwise. Parameter <code>rangeMin</code> can not be null. If <code>rangeMin_end</code> is null, then <code>rangeMin</code> is assumed to be null-terminated. Parameter <code>rangeMax</code> can not be null. If <code>rangeMax_end</code> is null, then <code>rangeMax</code> is assumed to be null-terminated. Parameter <code>percent</code> can not be null. If <code>percent_end</code> is null, then <code>percent</code> is assumed to be null-terminated. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a7c8854a3302d83a2d8dad62435a348ba" title="Destroys a heap-allocated instance of MR_Pdf_PaletteRowStats. Does nothing if the pointer is null.">MR_Pdf_PaletteRowStats_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="adbf24906a88ef371a12111e7842a72a3" name="adbf24906a88ef371a12111e7842a72a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbf24906a88ef371a12111e7842a72a3">&#9670;&#160;</a></span>MR_Pdf_PaletteRowStats_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#af3e94d847df6a1190efb04599edda7fa">MR_Pdf_PaletteRowStats</a> * MR_Pdf_PaletteRowStats_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#af3e94d847df6a1190efb04599edda7fa">MR_Pdf_PaletteRowStats</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1Pdf_1_1PaletteRowStats.html">MR::Pdf::PaletteRowStats</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a7c8854a3302d83a2d8dad62435a348ba" title="Destroys a heap-allocated instance of MR_Pdf_PaletteRowStats. Does nothing if the pointer is null.">MR_Pdf_PaletteRowStats_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="abeddc7d4661c8d2ee200982bfc32c307" name="abeddc7d4661c8d2ee200982bfc32c307"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abeddc7d4661c8d2ee200982bfc32c307">&#9670;&#160;</a></span>MR_Pdf_PaletteRowStats_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#af3e94d847df6a1190efb04599edda7fa">MR_Pdf_PaletteRowStats</a> * MR_Pdf_PaletteRowStats_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a7c8854a3302d83a2d8dad62435a348ba" title="Destroys a heap-allocated instance of MR_Pdf_PaletteRowStats. Does nothing if the pointer is null.">MR_Pdf_PaletteRowStats_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a8407950885d0adef8cd9d7ac006a90cd" name="a8407950885d0adef8cd9d7ac006a90cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8407950885d0adef8cd9d7ac006a90cd">&#9670;&#160;</a></span>MR_Pdf_PaletteRowStats_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#af3e94d847df6a1190efb04599edda7fa">MR_Pdf_PaletteRowStats</a> * MR_Pdf_PaletteRowStats_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a47c3afd9bb009628f1c3c0aa627aef4c" title="Destroys a heap-allocated array of MR_Pdf_PaletteRowStats. Does nothing if the pointer is null.">MR_Pdf_PaletteRowStats_DestroyArray()</a></code>. Use <code><a class="el" href="#aa02614f91158a87e088aa2f4573169bc" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_Pdf_PaletteRowStats_OffsetMutablePtr()</a></code> and <code><a class="el" href="#aad1556bf81d4bc470da10580563f7201" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_Pdf_PaletteRowStats_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a7c8854a3302d83a2d8dad62435a348ba" name="a7c8854a3302d83a2d8dad62435a348ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c8854a3302d83a2d8dad62435a348ba">&#9670;&#160;</a></span>MR_Pdf_PaletteRowStats_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_Pdf_PaletteRowStats_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#af3e94d847df6a1190efb04599edda7fa">MR_Pdf_PaletteRowStats</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_Pdf_PaletteRowStats</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a47c3afd9bb009628f1c3c0aa627aef4c" name="a47c3afd9bb009628f1c3c0aa627aef4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47c3afd9bb009628f1c3c0aa627aef4c">&#9670;&#160;</a></span>MR_Pdf_PaletteRowStats_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_Pdf_PaletteRowStats_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#af3e94d847df6a1190efb04599edda7fa">MR_Pdf_PaletteRowStats</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_Pdf_PaletteRowStats</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a7657d4fb833f7c2e6e0020da72b04552" name="a7657d4fb833f7c2e6e0020da72b04552"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7657d4fb833f7c2e6e0020da72b04552">&#9670;&#160;</a></span>MR_Pdf_PaletteRowStats_Get_color()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="structMR__Color.html">MR_Color</a> * MR_Pdf_PaletteRowStats_Get_color </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#af3e94d847df6a1190efb04599edda7fa">MR_Pdf_PaletteRowStats</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1Pdf_1_1PaletteRowStats.html">MR::Pdf::PaletteRowStats</a></code> named <code>color</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a4f9f8497ca1e677172a4211adcb0a06e" name="a4f9f8497ca1e677172a4211adcb0a06e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f9f8497ca1e677172a4211adcb0a06e">&#9670;&#160;</a></span>MR_Pdf_PaletteRowStats_Get_percent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_Pdf_PaletteRowStats_Get_percent </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#af3e94d847df6a1190efb04599edda7fa">MR_Pdf_PaletteRowStats</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1Pdf_1_1PaletteRowStats.html">MR::Pdf::PaletteRowStats</a></code> named <code>percent</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="add071c095fd3ba7a717e4ee9a3c2de17" name="add071c095fd3ba7a717e4ee9a3c2de17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add071c095fd3ba7a717e4ee9a3c2de17">&#9670;&#160;</a></span>MR_Pdf_PaletteRowStats_Get_rangeMax()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_Pdf_PaletteRowStats_Get_rangeMax </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#af3e94d847df6a1190efb04599edda7fa">MR_Pdf_PaletteRowStats</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1Pdf_1_1PaletteRowStats.html">MR::Pdf::PaletteRowStats</a></code> named <code>rangeMax</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a946df4c7a8a8d88cd95727f9040b5d5a" name="a946df4c7a8a8d88cd95727f9040b5d5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a946df4c7a8a8d88cd95727f9040b5d5a">&#9670;&#160;</a></span>MR_Pdf_PaletteRowStats_Get_rangeMin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_Pdf_PaletteRowStats_Get_rangeMin </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#af3e94d847df6a1190efb04599edda7fa">MR_Pdf_PaletteRowStats</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1Pdf_1_1PaletteRowStats.html">MR::Pdf::PaletteRowStats</a></code> named <code>rangeMin</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a0a8ead031e81acfe3385d39ec9ba2a63" name="a0a8ead031e81acfe3385d39ec9ba2a63"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a8ead031e81acfe3385d39ec9ba2a63">&#9670;&#160;</a></span>MR_Pdf_PaletteRowStats_GetMutable_color()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a> * MR_Pdf_PaletteRowStats_GetMutable_color </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#af3e94d847df6a1190efb04599edda7fa">MR_Pdf_PaletteRowStats</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1Pdf_1_1PaletteRowStats.html">MR::Pdf::PaletteRowStats</a></code> named <code>color</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a4e3dff3776f0e742eb4ae3d527716d4e" name="a4e3dff3776f0e742eb4ae3d527716d4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e3dff3776f0e742eb4ae3d527716d4e">&#9670;&#160;</a></span>MR_Pdf_PaletteRowStats_GetMutable_percent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_Pdf_PaletteRowStats_GetMutable_percent </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#af3e94d847df6a1190efb04599edda7fa">MR_Pdf_PaletteRowStats</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1Pdf_1_1PaletteRowStats.html">MR::Pdf::PaletteRowStats</a></code> named <code>percent</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a75371018a6f73316e5a247f5bcac480e" name="a75371018a6f73316e5a247f5bcac480e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75371018a6f73316e5a247f5bcac480e">&#9670;&#160;</a></span>MR_Pdf_PaletteRowStats_GetMutable_rangeMax()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_Pdf_PaletteRowStats_GetMutable_rangeMax </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#af3e94d847df6a1190efb04599edda7fa">MR_Pdf_PaletteRowStats</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1Pdf_1_1PaletteRowStats.html">MR::Pdf::PaletteRowStats</a></code> named <code>rangeMax</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="afc7894901658755bac22da45264969d3" name="afc7894901658755bac22da45264969d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc7894901658755bac22da45264969d3">&#9670;&#160;</a></span>MR_Pdf_PaletteRowStats_GetMutable_rangeMin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_Pdf_PaletteRowStats_GetMutable_rangeMin </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#af3e94d847df6a1190efb04599edda7fa">MR_Pdf_PaletteRowStats</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1Pdf_1_1PaletteRowStats.html">MR::Pdf::PaletteRowStats</a></code> named <code>rangeMin</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="aa02614f91158a87e088aa2f4573169bc" name="aa02614f91158a87e088aa2f4573169bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa02614f91158a87e088aa2f4573169bc">&#9670;&#160;</a></span>MR_Pdf_PaletteRowStats_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#af3e94d847df6a1190efb04599edda7fa">MR_Pdf_PaletteRowStats</a> * MR_Pdf_PaletteRowStats_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#af3e94d847df6a1190efb04599edda7fa">MR_Pdf_PaletteRowStats</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="aad1556bf81d4bc470da10580563f7201" name="aad1556bf81d4bc470da10580563f7201"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad1556bf81d4bc470da10580563f7201">&#9670;&#160;</a></span>MR_Pdf_PaletteRowStats_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#af3e94d847df6a1190efb04599edda7fa">MR_Pdf_PaletteRowStats</a> * MR_Pdf_PaletteRowStats_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#af3e94d847df6a1190efb04599edda7fa">MR_Pdf_PaletteRowStats</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="ab08c966c293227d93ccd7a250e4bf454" name="ab08c966c293227d93ccd7a250e4bf454"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab08c966c293227d93ccd7a250e4bf454">&#9670;&#160;</a></span>MR_Pdf_PaletteRowStats_Set_color()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_Pdf_PaletteRowStats_Set_color </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#af3e94d847df6a1190efb04599edda7fa">MR_Pdf_PaletteRowStats</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__Color.html">MR_Color</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1Pdf_1_1PaletteRowStats.html">MR::Pdf::PaletteRowStats</a></code> named <code>color</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a8b2114357ac9071508f4e792d94bdac2" name="a8b2114357ac9071508f4e792d94bdac2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b2114357ac9071508f4e792d94bdac2">&#9670;&#160;</a></span>MR_Pdf_PaletteRowStats_Set_percent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_Pdf_PaletteRowStats_Set_percent </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#af3e94d847df6a1190efb04599edda7fa">MR_Pdf_PaletteRowStats</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>value_end</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1Pdf_1_1PaletteRowStats.html">MR::Pdf::PaletteRowStats</a></code> named <code>percent</code>. Parameter <code>_this</code> can not be null. Parameter <code>value</code> can not be null. If <code>value_end</code> is null, then <code>value</code> is assumed to be null-terminated. </p>
+
+</div>
+</div>
+<a id="a52f7109be9e827e205d6346cfe3d7c66" name="a52f7109be9e827e205d6346cfe3d7c66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52f7109be9e827e205d6346cfe3d7c66">&#9670;&#160;</a></span>MR_Pdf_PaletteRowStats_Set_rangeMax()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_Pdf_PaletteRowStats_Set_rangeMax </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#af3e94d847df6a1190efb04599edda7fa">MR_Pdf_PaletteRowStats</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>value_end</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1Pdf_1_1PaletteRowStats.html">MR::Pdf::PaletteRowStats</a></code> named <code>rangeMax</code>. Parameter <code>_this</code> can not be null. Parameter <code>value</code> can not be null. If <code>value_end</code> is null, then <code>value</code> is assumed to be null-terminated. </p>
+
+</div>
+</div>
+<a id="a10d1a3fdaeff220653d9bc644dd3361e" name="a10d1a3fdaeff220653d9bc644dd3361e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10d1a3fdaeff220653d9bc644dd3361e">&#9670;&#160;</a></span>MR_Pdf_PaletteRowStats_Set_rangeMin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_Pdf_PaletteRowStats_Set_rangeMin </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#af3e94d847df6a1190efb04599edda7fa">MR_Pdf_PaletteRowStats</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>value_end</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1Pdf_1_1PaletteRowStats.html">MR::Pdf::PaletteRowStats</a></code> named <code>rangeMin</code>. Parameter <code>_this</code> can not be null. Parameter <code>value</code> can not be null. If <code>value_end</code> is null, then <code>value</code> is assumed to be null-terminated. </p>
+
+</div>
+</div>
+<a id="a2e2b53ba87811c76c70dfb88504be197" name="a2e2b53ba87811c76c70dfb88504be197"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e2b53ba87811c76c70dfb88504be197">&#9670;&#160;</a></span>MR_Pdf_setCursorPosX()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_Pdf_setCursorPosX </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>posX</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Pdf.html">MR::Pdf</a></code> named <code>setCursorPosX</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="afbc74f4175eae378305530e32a5a75ac" name="afbc74f4175eae378305530e32a5a75ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afbc74f4175eae378305530e32a5a75ac">&#9670;&#160;</a></span>MR_Pdf_setCursorPosY()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_Pdf_setCursorPosY </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>posY</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Pdf.html">MR::Pdf</a></code> named <code>setCursorPosY</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a4e86d351260aed49f629d56076bb3b86" name="a4e86d351260aed49f629d56076bb3b86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e86d351260aed49f629d56076bb3b86">&#9670;&#160;</a></span>MR_PdfParameters_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a8b6be769cbbdb6045fd66a4b0b9102e7">MR_PdfParameters</a> * MR_PdfParameters_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a8b6be769cbbdb6045fd66a4b0b9102e7">MR_PdfParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a8b6be769cbbdb6045fd66a4b0b9102e7">MR_PdfParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1PdfParameters.html">MR::PdfParameters</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a2883bab70f72314512170823c62d9405" name="a2883bab70f72314512170823c62d9405"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2883bab70f72314512170823c62d9405">&#9670;&#160;</a></span>MR_PdfParameters_ConstructFrom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a8b6be769cbbdb6045fd66a4b0b9102e7">MR_PdfParameters</a> * MR_PdfParameters_ConstructFrom </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>titleSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>textSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>defaultFontName</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>defaultFontName_end</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>tableFontName</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>tableFontName_end</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1PdfParameters.html">MR::PdfParameters</a></code> elementwise. Parameter <code>defaultFontName</code> can not be null. If <code>defaultFontName_end</code> is null, then <code>defaultFontName</code> is assumed to be null-terminated. Parameter <code>tableFontName</code> can not be null. If <code>tableFontName_end</code> is null, then <code>tableFontName</code> is assumed to be null-terminated. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a2fb33ad2a6fdffadcdd13fe2fdaa1d8d" title="Destroys a heap-allocated instance of MR_PdfParameters. Does nothing if the pointer is null.">MR_PdfParameters_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a1a7ff79ca219d3523783e8b042de322e" name="a1a7ff79ca219d3523783e8b042de322e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a7ff79ca219d3523783e8b042de322e">&#9670;&#160;</a></span>MR_PdfParameters_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a8b6be769cbbdb6045fd66a4b0b9102e7">MR_PdfParameters</a> * MR_PdfParameters_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a8b6be769cbbdb6045fd66a4b0b9102e7">MR_PdfParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1PdfParameters.html">MR::PdfParameters</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a2fb33ad2a6fdffadcdd13fe2fdaa1d8d" title="Destroys a heap-allocated instance of MR_PdfParameters. Does nothing if the pointer is null.">MR_PdfParameters_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a133bc385ecf5dec80469bd485248e09e" name="a133bc385ecf5dec80469bd485248e09e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a133bc385ecf5dec80469bd485248e09e">&#9670;&#160;</a></span>MR_PdfParameters_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a8b6be769cbbdb6045fd66a4b0b9102e7">MR_PdfParameters</a> * MR_PdfParameters_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a2fb33ad2a6fdffadcdd13fe2fdaa1d8d" title="Destroys a heap-allocated instance of MR_PdfParameters. Does nothing if the pointer is null.">MR_PdfParameters_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a5f6e9ee8275005b0abd50f254792f866" name="a5f6e9ee8275005b0abd50f254792f866"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f6e9ee8275005b0abd50f254792f866">&#9670;&#160;</a></span>MR_PdfParameters_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a8b6be769cbbdb6045fd66a4b0b9102e7">MR_PdfParameters</a> * MR_PdfParameters_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#af44f36e8435f275815f37facf864e9c5" title="Destroys a heap-allocated array of MR_PdfParameters. Does nothing if the pointer is null.">MR_PdfParameters_DestroyArray()</a></code>. Use <code><a class="el" href="#af6e78bec3465561efb4a3a3d0326de65" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_PdfParameters_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a94e77df4f8872a82d35a6265baac23d3" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_PdfParameters_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a2fb33ad2a6fdffadcdd13fe2fdaa1d8d" name="a2fb33ad2a6fdffadcdd13fe2fdaa1d8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2fb33ad2a6fdffadcdd13fe2fdaa1d8d">&#9670;&#160;</a></span>MR_PdfParameters_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_PdfParameters_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a8b6be769cbbdb6045fd66a4b0b9102e7">MR_PdfParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_PdfParameters</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="af44f36e8435f275815f37facf864e9c5" name="af44f36e8435f275815f37facf864e9c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af44f36e8435f275815f37facf864e9c5">&#9670;&#160;</a></span>MR_PdfParameters_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_PdfParameters_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a8b6be769cbbdb6045fd66a4b0b9102e7">MR_PdfParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_PdfParameters</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="ae03f905600aba1ccef713866ef304bac" name="ae03f905600aba1ccef713866ef304bac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae03f905600aba1ccef713866ef304bac">&#9670;&#160;</a></span>MR_PdfParameters_Get_defaultFontName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_PdfParameters_Get_defaultFontName </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a8b6be769cbbdb6045fd66a4b0b9102e7">MR_PdfParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Font name list of available fonts: Courier (-Bold, -Oblique, -BoldOblique) Helvetica (-Bold, -Oblique, -BoldOblique) Times (-Roman, -Bold, -Italic, -BoldItalic) Symbol ZapfDingbats. </p>
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PdfParameters.html">MR::PdfParameters</a></code> named <code>defaultFontName</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a17cba99e869afd73453cb020dc82ff26" name="a17cba99e869afd73453cb020dc82ff26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17cba99e869afd73453cb020dc82ff26">&#9670;&#160;</a></span>MR_PdfParameters_Get_tableFontName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_PdfParameters_Get_tableFontName </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a8b6be769cbbdb6045fd66a4b0b9102e7">MR_PdfParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Font name for table (monospaced) Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PdfParameters.html">MR::PdfParameters</a></code> named <code>tableFontName</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="aef6ccaa4f717644a5dc13ba86b5a172c" name="aef6ccaa4f717644a5dc13ba86b5a172c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef6ccaa4f717644a5dc13ba86b5a172c">&#9670;&#160;</a></span>MR_PdfParameters_Get_textSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const float * MR_PdfParameters_Get_textSize </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a8b6be769cbbdb6045fd66a4b0b9102e7">MR_PdfParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PdfParameters.html">MR::PdfParameters</a></code> named <code>textSize</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a4f2efd8a85375b10bc59cec896e5e7c7" name="a4f2efd8a85375b10bc59cec896e5e7c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f2efd8a85375b10bc59cec896e5e7c7">&#9670;&#160;</a></span>MR_PdfParameters_Get_titleSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const float * MR_PdfParameters_Get_titleSize </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a8b6be769cbbdb6045fd66a4b0b9102e7">MR_PdfParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PdfParameters.html">MR::PdfParameters</a></code> named <code>titleSize</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a2ebadc0a3fc5d1fb4b05eea7780fc36e" name="a2ebadc0a3fc5d1fb4b05eea7780fc36e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ebadc0a3fc5d1fb4b05eea7780fc36e">&#9670;&#160;</a></span>MR_PdfParameters_GetMutable_defaultFontName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_PdfParameters_GetMutable_defaultFontName </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a8b6be769cbbdb6045fd66a4b0b9102e7">MR_PdfParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Font name list of available fonts: Courier (-Bold, -Oblique, -BoldOblique) Helvetica (-Bold, -Oblique, -BoldOblique) Times (-Roman, -Bold, -Italic, -BoldItalic) Symbol ZapfDingbats. </p>
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PdfParameters.html">MR::PdfParameters</a></code> named <code>defaultFontName</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a4f1f32094ae96ea0e007b69579733897" name="a4f1f32094ae96ea0e007b69579733897"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f1f32094ae96ea0e007b69579733897">&#9670;&#160;</a></span>MR_PdfParameters_GetMutable_tableFontName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_PdfParameters_GetMutable_tableFontName </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a8b6be769cbbdb6045fd66a4b0b9102e7">MR_PdfParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Font name for table (monospaced) Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PdfParameters.html">MR::PdfParameters</a></code> named <code>tableFontName</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a0ba9b3f5484ca003cebe5620fea6dfc7" name="a0ba9b3f5484ca003cebe5620fea6dfc7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ba9b3f5484ca003cebe5620fea6dfc7">&#9670;&#160;</a></span>MR_PdfParameters_GetMutable_textSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API float * MR_PdfParameters_GetMutable_textSize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a8b6be769cbbdb6045fd66a4b0b9102e7">MR_PdfParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PdfParameters.html">MR::PdfParameters</a></code> named <code>textSize</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a571bf827694fb2c337e57e288b114446" name="a571bf827694fb2c337e57e288b114446"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a571bf827694fb2c337e57e288b114446">&#9670;&#160;</a></span>MR_PdfParameters_GetMutable_titleSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API float * MR_PdfParameters_GetMutable_titleSize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a8b6be769cbbdb6045fd66a4b0b9102e7">MR_PdfParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PdfParameters.html">MR::PdfParameters</a></code> named <code>titleSize</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="af6e78bec3465561efb4a3a3d0326de65" name="af6e78bec3465561efb4a3a3d0326de65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6e78bec3465561efb4a3a3d0326de65">&#9670;&#160;</a></span>MR_PdfParameters_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a8b6be769cbbdb6045fd66a4b0b9102e7">MR_PdfParameters</a> * MR_PdfParameters_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a8b6be769cbbdb6045fd66a4b0b9102e7">MR_PdfParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a94e77df4f8872a82d35a6265baac23d3" name="a94e77df4f8872a82d35a6265baac23d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94e77df4f8872a82d35a6265baac23d3">&#9670;&#160;</a></span>MR_PdfParameters_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a8b6be769cbbdb6045fd66a4b0b9102e7">MR_PdfParameters</a> * MR_PdfParameters_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a8b6be769cbbdb6045fd66a4b0b9102e7">MR_PdfParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a570dbd874afb80dc4b8960ae57122b7b" name="a570dbd874afb80dc4b8960ae57122b7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a570dbd874afb80dc4b8960ae57122b7b">&#9670;&#160;</a></span>MR_PdfParameters_Set_defaultFontName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_PdfParameters_Set_defaultFontName </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a8b6be769cbbdb6045fd66a4b0b9102e7">MR_PdfParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>value_end</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Font name list of available fonts: Courier (-Bold, -Oblique, -BoldOblique) Helvetica (-Bold, -Oblique, -BoldOblique) Times (-Roman, -Bold, -Italic, -BoldItalic) Symbol ZapfDingbats. </p>
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PdfParameters.html">MR::PdfParameters</a></code> named <code>defaultFontName</code>. Parameter <code>_this</code> can not be null. Parameter <code>value</code> can not be null. If <code>value_end</code> is null, then <code>value</code> is assumed to be null-terminated. </p>
+
+</div>
+</div>
+<a id="ab51586caee3ac21ee544a4f322594f77" name="ab51586caee3ac21ee544a4f322594f77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab51586caee3ac21ee544a4f322594f77">&#9670;&#160;</a></span>MR_PdfParameters_Set_tableFontName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_PdfParameters_Set_tableFontName </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a8b6be769cbbdb6045fd66a4b0b9102e7">MR_PdfParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>value_end</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Font name for table (monospaced) Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PdfParameters.html">MR::PdfParameters</a></code> named <code>tableFontName</code>. Parameter <code>_this</code> can not be null. Parameter <code>value</code> can not be null. If <code>value_end</code> is null, then <code>value</code> is assumed to be null-terminated. </p>
+
+</div>
+</div>
+<a id="a7a655c3c67cd77f25f377a1a74623a44" name="a7a655c3c67cd77f25f377a1a74623a44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a655c3c67cd77f25f377a1a74623a44">&#9670;&#160;</a></span>MR_PdfParameters_Set_textSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_PdfParameters_Set_textSize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a8b6be769cbbdb6045fd66a4b0b9102e7">MR_PdfParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PdfParameters.html">MR::PdfParameters</a></code> named <code>textSize</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="add8004a0f2a5938b0457a64a8684b29d" name="add8004a0f2a5938b0457a64a8684b29d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add8004a0f2a5938b0457a64a8684b29d">&#9670;&#160;</a></span>MR_PdfParameters_Set_titleSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_PdfParameters_Set_titleSize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a8b6be769cbbdb6045fd66a4b0b9102e7">MR_PdfParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1PdfParameters.html">MR::PdfParameters</a></code> named <code>titleSize</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_87d38852fc01aff5f853718c8d8b5cb2.html">Cbindings</a></li><li class="navelem"><a class="el" href="dir_2a187b7bd2d774f8e922a41e531abf44.html">MRCIOExtras</a></li><li class="navelem"><a class="el" href="MRPdf_8h.html">MRPdf.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

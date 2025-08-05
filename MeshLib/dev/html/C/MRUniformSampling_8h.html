@@ -1,0 +1,847 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: MRUniformSampling.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('MRUniformSampling_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">MRUniformSampling.h File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
+</div>
+<p><a href="MRUniformSampling_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:aa319738c95f0bbde075b7ef777cf2665" id="r_aa319738c95f0bbde075b7ef777cf2665"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a></td></tr>
+<tr class="separator:aa319738c95f0bbde075b7ef777cf2665"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a249fd9254c0c3395567807936ad32641" id="r_a249fd9254c0c3395567807936ad32641"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a></td></tr>
+<tr class="separator:a249fd9254c0c3395567807936ad32641"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb03ce28cacfff1e499d75d512dc4a84" id="r_adb03ce28cacfff1e499d75d512dc4a84"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a></td></tr>
+<tr class="separator:adb03ce28cacfff1e499d75d512dc4a84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab344b30a267b068a4443e581cbbf0c82" id="r_ab344b30a267b068a4443e581cbbf0c82"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ab344b30a267b068a4443e581cbbf0c82">MR_std_optional_MR_PointCloud</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab344b30a267b068a4443e581cbbf0c82">MR_std_optional_MR_PointCloud</a></td></tr>
+<tr class="separator:ab344b30a267b068a4443e581cbbf0c82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d97f913ba505f7b3b5f786c0437a6dc" id="r_a0d97f913ba505f7b3b5f786c0437a6dc"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRCloseVertices_8h.html#a0d97f913ba505f7b3b5f786c0437a6dc">MR_std_optional_MR_VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d97f913ba505f7b3b5f786c0437a6dc">MR_std_optional_MR_VertBitSet</a></td></tr>
+<tr class="separator:a0d97f913ba505f7b3b5f786c0437a6dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae90cf75a257e0ff4ce2f453401d70317" id="r_ae90cf75a257e0ff4ce2f453401d70317"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ae90cf75a257e0ff4ce2f453401d70317">MR_UniformSamplingSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae90cf75a257e0ff4ce2f453401d70317">MR_UniformSamplingSettings</a></td></tr>
+<tr class="memdesc:ae90cf75a257e0ff4ce2f453401d70317"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1UniformSamplingSettings.html">MR::UniformSamplingSettings</a></code>.  <br /></td></tr>
+<tr class="separator:ae90cf75a257e0ff4ce2f453401d70317"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a7257306bfe31e374189ec482e0532ecf" id="r_a7257306bfe31e374189ec482e0532ecf"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7257306bfe31e374189ec482e0532ecf">MR_UniformSamplingSettings_Get_distance</a> (const <a class="el" href="#ae90cf75a257e0ff4ce2f453401d70317">MR_UniformSamplingSettings</a> *_this)</td></tr>
+<tr class="separator:a7257306bfe31e374189ec482e0532ecf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac35348fa0cca1e45b796d0c318efa49f" id="r_ac35348fa0cca1e45b796d0c318efa49f"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac35348fa0cca1e45b796d0c318efa49f">MR_UniformSamplingSettings_Set_distance</a> (<a class="el" href="#ae90cf75a257e0ff4ce2f453401d70317">MR_UniformSamplingSettings</a> *_this, float value)</td></tr>
+<tr class="separator:ac35348fa0cca1e45b796d0c318efa49f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a38307d5cb25c3c09a5a21581558b0c" id="r_a3a38307d5cb25c3c09a5a21581558b0c"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a38307d5cb25c3c09a5a21581558b0c">MR_UniformSamplingSettings_GetMutable_distance</a> (<a class="el" href="#ae90cf75a257e0ff4ce2f453401d70317">MR_UniformSamplingSettings</a> *_this)</td></tr>
+<tr class="separator:a3a38307d5cb25c3c09a5a21581558b0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afae7215c540285db4311e8e63f0d6133" id="r_afae7215c540285db4311e8e63f0d6133"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afae7215c540285db4311e8e63f0d6133">MR_UniformSamplingSettings_Get_minNormalDot</a> (const <a class="el" href="#ae90cf75a257e0ff4ce2f453401d70317">MR_UniformSamplingSettings</a> *_this)</td></tr>
+<tr class="separator:afae7215c540285db4311e8e63f0d6133"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafc81d47bb3537f1bb7e5ed582250b70" id="r_aafc81d47bb3537f1bb7e5ed582250b70"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aafc81d47bb3537f1bb7e5ed582250b70">MR_UniformSamplingSettings_Set_minNormalDot</a> (<a class="el" href="#ae90cf75a257e0ff4ce2f453401d70317">MR_UniformSamplingSettings</a> *_this, float value)</td></tr>
+<tr class="separator:aafc81d47bb3537f1bb7e5ed582250b70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0ad2aa8ca24af84f8ddcdef07abbc43" id="r_ae0ad2aa8ca24af84f8ddcdef07abbc43"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae0ad2aa8ca24af84f8ddcdef07abbc43">MR_UniformSamplingSettings_GetMutable_minNormalDot</a> (<a class="el" href="#ae90cf75a257e0ff4ce2f453401d70317">MR_UniformSamplingSettings</a> *_this)</td></tr>
+<tr class="separator:ae0ad2aa8ca24af84f8ddcdef07abbc43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69eb744530e3c2182bfa78373b587bc0" id="r_a69eb744530e3c2182bfa78373b587bc0"><td class="memItemLeft" align="right" valign="top">MRC_API const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69eb744530e3c2182bfa78373b587bc0">MR_UniformSamplingSettings_Get_lexicographicalOrder</a> (const <a class="el" href="#ae90cf75a257e0ff4ce2f453401d70317">MR_UniformSamplingSettings</a> *_this)</td></tr>
+<tr class="separator:a69eb744530e3c2182bfa78373b587bc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc9c20a3b24550c5859622d57ad3c835" id="r_adc9c20a3b24550c5859622d57ad3c835"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc9c20a3b24550c5859622d57ad3c835">MR_UniformSamplingSettings_Set_lexicographicalOrder</a> (<a class="el" href="#ae90cf75a257e0ff4ce2f453401d70317">MR_UniformSamplingSettings</a> *_this, bool value)</td></tr>
+<tr class="separator:adc9c20a3b24550c5859622d57ad3c835"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90eadfb53a3f6221d52052f0002ab82d" id="r_a90eadfb53a3f6221d52052f0002ab82d"><td class="memItemLeft" align="right" valign="top">MRC_API bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90eadfb53a3f6221d52052f0002ab82d">MR_UniformSamplingSettings_GetMutable_lexicographicalOrder</a> (<a class="el" href="#ae90cf75a257e0ff4ce2f453401d70317">MR_UniformSamplingSettings</a> *_this)</td></tr>
+<tr class="separator:a90eadfb53a3f6221d52052f0002ab82d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93ef1509de6a6dedf5bfa028418a58ab" id="r_a93ef1509de6a6dedf5bfa028418a58ab"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93ef1509de6a6dedf5bfa028418a58ab">MR_UniformSamplingSettings_Get_pNormals</a> (const <a class="el" href="#ae90cf75a257e0ff4ce2f453401d70317">MR_UniformSamplingSettings</a> *_this)</td></tr>
+<tr class="separator:a93ef1509de6a6dedf5bfa028418a58ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f882a3ddee2cfc36c3e1e7788687415" id="r_a3f882a3ddee2cfc36c3e1e7788687415"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f882a3ddee2cfc36c3e1e7788687415">MR_UniformSamplingSettings_Set_pNormals</a> (<a class="el" href="#ae90cf75a257e0ff4ce2f453401d70317">MR_UniformSamplingSettings</a> *_this, const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *value)</td></tr>
+<tr class="separator:a3f882a3ddee2cfc36c3e1e7788687415"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc78526ed3bc1d1a2c3e0c9b06cdb57d" id="r_adc78526ed3bc1d1a2c3e0c9b06cdb57d"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc78526ed3bc1d1a2c3e0c9b06cdb57d">MR_UniformSamplingSettings_GetMutable_pNormals</a> (<a class="el" href="#ae90cf75a257e0ff4ce2f453401d70317">MR_UniformSamplingSettings</a> *_this)</td></tr>
+<tr class="separator:adc78526ed3bc1d1a2c3e0c9b06cdb57d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa67b7dfd42a2ffa15b48d15468c644e5" id="r_aa67b7dfd42a2ffa15b48d15468c644e5"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa67b7dfd42a2ffa15b48d15468c644e5">MR_UniformSamplingSettings_Get_progress</a> (const <a class="el" href="#ae90cf75a257e0ff4ce2f453401d70317">MR_UniformSamplingSettings</a> *_this)</td></tr>
+<tr class="separator:aa67b7dfd42a2ffa15b48d15468c644e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e3aa47af708d51a1406186f16a347ef" id="r_a5e3aa47af708d51a1406186f16a347ef"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e3aa47af708d51a1406186f16a347ef">MR_UniformSamplingSettings_Set_progress</a> (<a class="el" href="#ae90cf75a257e0ff4ce2f453401d70317">MR_UniformSamplingSettings</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *value)</td></tr>
+<tr class="separator:a5e3aa47af708d51a1406186f16a347ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb9c17b7e51002555c8bb06429aadc37" id="r_aeb9c17b7e51002555c8bb06429aadc37"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb9c17b7e51002555c8bb06429aadc37">MR_UniformSamplingSettings_GetMutable_progress</a> (<a class="el" href="#ae90cf75a257e0ff4ce2f453401d70317">MR_UniformSamplingSettings</a> *_this)</td></tr>
+<tr class="separator:aeb9c17b7e51002555c8bb06429aadc37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c47392949acb833a4d140b95c7b9704" id="r_a4c47392949acb833a4d140b95c7b9704"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae90cf75a257e0ff4ce2f453401d70317">MR_UniformSamplingSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c47392949acb833a4d140b95c7b9704">MR_UniformSamplingSettings_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a4c47392949acb833a4d140b95c7b9704"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7371a12091d23c1f99cf54d402437efc" id="r_a7371a12091d23c1f99cf54d402437efc"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae90cf75a257e0ff4ce2f453401d70317">MR_UniformSamplingSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7371a12091d23c1f99cf54d402437efc">MR_UniformSamplingSettings_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a7371a12091d23c1f99cf54d402437efc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5601cc1d8f1bdf3d520312eaf8a46257" id="r_a5601cc1d8f1bdf3d520312eaf8a46257"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae90cf75a257e0ff4ce2f453401d70317">MR_UniformSamplingSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5601cc1d8f1bdf3d520312eaf8a46257">MR_UniformSamplingSettings_ConstructFrom</a> (float distance, float minNormalDot, bool lexicographicalOrder, const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *pNormals, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> progress_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *progress)</td></tr>
+<tr class="separator:a5601cc1d8f1bdf3d520312eaf8a46257"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa24983113df77c2929483d9e386f6196" id="r_aa24983113df77c2929483d9e386f6196"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#ae90cf75a257e0ff4ce2f453401d70317">MR_UniformSamplingSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa24983113df77c2929483d9e386f6196">MR_UniformSamplingSettings_OffsetPtr</a> (const <a class="el" href="#ae90cf75a257e0ff4ce2f453401d70317">MR_UniformSamplingSettings</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:aa24983113df77c2929483d9e386f6196"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:aa24983113df77c2929483d9e386f6196"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c8ecd734a3ea6180e7e3cb33459d686" id="r_a2c8ecd734a3ea6180e7e3cb33459d686"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae90cf75a257e0ff4ce2f453401d70317">MR_UniformSamplingSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c8ecd734a3ea6180e7e3cb33459d686">MR_UniformSamplingSettings_OffsetMutablePtr</a> (<a class="el" href="#ae90cf75a257e0ff4ce2f453401d70317">MR_UniformSamplingSettings</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a2c8ecd734a3ea6180e7e3cb33459d686"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a2c8ecd734a3ea6180e7e3cb33459d686"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5967dad191b7f04a74cf19c6f3d5f07a" id="r_a5967dad191b7f04a74cf19c6f3d5f07a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae90cf75a257e0ff4ce2f453401d70317">MR_UniformSamplingSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5967dad191b7f04a74cf19c6f3d5f07a">MR_UniformSamplingSettings_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#ae90cf75a257e0ff4ce2f453401d70317">MR_UniformSamplingSettings</a> *_other)</td></tr>
+<tr class="separator:a5967dad191b7f04a74cf19c6f3d5f07a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4f9b574647a0c9e3ade5bd00d334878" id="r_af4f9b574647a0c9e3ade5bd00d334878"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af4f9b574647a0c9e3ade5bd00d334878">MR_UniformSamplingSettings_Destroy</a> (const <a class="el" href="#ae90cf75a257e0ff4ce2f453401d70317">MR_UniformSamplingSettings</a> *_this)</td></tr>
+<tr class="memdesc:af4f9b574647a0c9e3ade5bd00d334878"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_UniformSamplingSettings</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:af4f9b574647a0c9e3ade5bd00d334878"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a490cb4f5405bced30128e6f8f69c88c6" id="r_a490cb4f5405bced30128e6f8f69c88c6"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a490cb4f5405bced30128e6f8f69c88c6">MR_UniformSamplingSettings_DestroyArray</a> (const <a class="el" href="#ae90cf75a257e0ff4ce2f453401d70317">MR_UniformSamplingSettings</a> *_this)</td></tr>
+<tr class="memdesc:a490cb4f5405bced30128e6f8f69c88c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_UniformSamplingSettings</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a490cb4f5405bced30128e6f8f69c88c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af74fa9f9a59c5092e0a5df4693512bc0" id="r_af74fa9f9a59c5092e0a5df4693512bc0"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae90cf75a257e0ff4ce2f453401d70317">MR_UniformSamplingSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af74fa9f9a59c5092e0a5df4693512bc0">MR_UniformSamplingSettings_AssignFromAnother</a> (<a class="el" href="#ae90cf75a257e0ff4ce2f453401d70317">MR_UniformSamplingSettings</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#ae90cf75a257e0ff4ce2f453401d70317">MR_UniformSamplingSettings</a> *_other)</td></tr>
+<tr class="separator:af74fa9f9a59c5092e0a5df4693512bc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0fccc62c4bcd4a71c235e0cfaee5d1f0" id="r_ga0fccc62c4bcd4a71c235e0cfaee5d1f0"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCloseVertices_8h.html#a0d97f913ba505f7b3b5f786c0437a6dc">MR_std_optional_MR_VertBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__PointCloudGroup.html#ga0fccc62c4bcd4a71c235e0cfaee5d1f0">MR_pointUniformSampling</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *pointCloud, const <a class="el" href="#ae90cf75a257e0ff4ce2f453401d70317">MR_UniformSamplingSettings</a> *settings)</td></tr>
+<tr class="separator:ga0fccc62c4bcd4a71c235e0cfaee5d1f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadc7e70a24b7e1fca4a322112076b7811" id="r_gadc7e70a24b7e1fca4a322112076b7811"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ab344b30a267b068a4443e581cbbf0c82">MR_std_optional_MR_PointCloud</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__PointCloudGroup.html#gadc7e70a24b7e1fca4a322112076b7811">MR_makeUniformSampledCloud</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *pointCloud, const <a class="el" href="#ae90cf75a257e0ff4ce2f453401d70317">MR_UniformSamplingSettings</a> *settings)</td></tr>
+<tr class="separator:gadc7e70a24b7e1fca4a322112076b7811"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="aa319738c95f0bbde075b7ef777cf2665" name="aa319738c95f0bbde075b7ef777cf2665"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa319738c95f0bbde075b7ef777cf2665">&#9670;&#160;</a></span>MR_PointCloud</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adb03ce28cacfff1e499d75d512dc4a84" name="adb03ce28cacfff1e499d75d512dc4a84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb03ce28cacfff1e499d75d512dc4a84">&#9670;&#160;</a></span>MR_std_function_bool_from_float</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab344b30a267b068a4443e581cbbf0c82" name="ab344b30a267b068a4443e581cbbf0c82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab344b30a267b068a4443e581cbbf0c82">&#9670;&#160;</a></span>MR_std_optional_MR_PointCloud</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#ab344b30a267b068a4443e581cbbf0c82">MR_std_optional_MR_PointCloud</a> <a class="el" href="#ab344b30a267b068a4443e581cbbf0c82">MR_std_optional_MR_PointCloud</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0d97f913ba505f7b3b5f786c0437a6dc" name="a0d97f913ba505f7b3b5f786c0437a6dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d97f913ba505f7b3b5f786c0437a6dc">&#9670;&#160;</a></span>MR_std_optional_MR_VertBitSet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRCloseVertices_8h.html#a0d97f913ba505f7b3b5f786c0437a6dc">MR_std_optional_MR_VertBitSet</a> <a class="el" href="MRCloseVertices_8h.html#a0d97f913ba505f7b3b5f786c0437a6dc">MR_std_optional_MR_VertBitSet</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae90cf75a257e0ff4ce2f453401d70317" name="ae90cf75a257e0ff4ce2f453401d70317"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae90cf75a257e0ff4ce2f453401d70317">&#9670;&#160;</a></span>MR_UniformSamplingSettings</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#ae90cf75a257e0ff4ce2f453401d70317">MR_UniformSamplingSettings</a> <a class="el" href="#ae90cf75a257e0ff4ce2f453401d70317">MR_UniformSamplingSettings</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1UniformSamplingSettings.html">MR::UniformSamplingSettings</a></code>. </p>
+
+</div>
+</div>
+<a id="a249fd9254c0c3395567807936ad32641" name="a249fd9254c0c3395567807936ad32641"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a249fd9254c0c3395567807936ad32641">&#9670;&#160;</a></span>MR_VertCoords</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="af74fa9f9a59c5092e0a5df4693512bc0" name="af74fa9f9a59c5092e0a5df4693512bc0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af74fa9f9a59c5092e0a5df4693512bc0">&#9670;&#160;</a></span>MR_UniformSamplingSettings_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ae90cf75a257e0ff4ce2f453401d70317">MR_UniformSamplingSettings</a> * MR_UniformSamplingSettings_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae90cf75a257e0ff4ce2f453401d70317">MR_UniformSamplingSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#ae90cf75a257e0ff4ce2f453401d70317">MR_UniformSamplingSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1UniformSamplingSettings.html">MR::UniformSamplingSettings</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a5601cc1d8f1bdf3d520312eaf8a46257" name="a5601cc1d8f1bdf3d520312eaf8a46257"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5601cc1d8f1bdf3d520312eaf8a46257">&#9670;&#160;</a></span>MR_UniformSamplingSettings_ConstructFrom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ae90cf75a257e0ff4ce2f453401d70317">MR_UniformSamplingSettings</a> * MR_UniformSamplingSettings_ConstructFrom </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>distance</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>minNormalDot</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>lexicographicalOrder</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *</td>          <td class="paramname"><span class="paramname"><em>pNormals</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>progress_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *</td>          <td class="paramname"><span class="paramname"><em>progress</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1UniformSamplingSettings.html">MR::UniformSamplingSettings</a></code> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#af4f9b574647a0c9e3ade5bd00d334878" title="Destroys a heap-allocated instance of MR_UniformSamplingSettings. Does nothing if the pointer is null...">MR_UniformSamplingSettings_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a5967dad191b7f04a74cf19c6f3d5f07a" name="a5967dad191b7f04a74cf19c6f3d5f07a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5967dad191b7f04a74cf19c6f3d5f07a">&#9670;&#160;</a></span>MR_UniformSamplingSettings_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ae90cf75a257e0ff4ce2f453401d70317">MR_UniformSamplingSettings</a> * MR_UniformSamplingSettings_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#ae90cf75a257e0ff4ce2f453401d70317">MR_UniformSamplingSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1UniformSamplingSettings.html">MR::UniformSamplingSettings</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#af4f9b574647a0c9e3ade5bd00d334878" title="Destroys a heap-allocated instance of MR_UniformSamplingSettings. Does nothing if the pointer is null...">MR_UniformSamplingSettings_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a4c47392949acb833a4d140b95c7b9704" name="a4c47392949acb833a4d140b95c7b9704"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c47392949acb833a4d140b95c7b9704">&#9670;&#160;</a></span>MR_UniformSamplingSettings_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ae90cf75a257e0ff4ce2f453401d70317">MR_UniformSamplingSettings</a> * MR_UniformSamplingSettings_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#af4f9b574647a0c9e3ade5bd00d334878" title="Destroys a heap-allocated instance of MR_UniformSamplingSettings. Does nothing if the pointer is null...">MR_UniformSamplingSettings_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a7371a12091d23c1f99cf54d402437efc" name="a7371a12091d23c1f99cf54d402437efc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7371a12091d23c1f99cf54d402437efc">&#9670;&#160;</a></span>MR_UniformSamplingSettings_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ae90cf75a257e0ff4ce2f453401d70317">MR_UniformSamplingSettings</a> * MR_UniformSamplingSettings_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a490cb4f5405bced30128e6f8f69c88c6" title="Destroys a heap-allocated array of MR_UniformSamplingSettings. Does nothing if the pointer is null.">MR_UniformSamplingSettings_DestroyArray()</a></code>. Use <code><a class="el" href="#a2c8ecd734a3ea6180e7e3cb33459d686" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_UniformSamplingSettings_OffsetMutablePtr()</a></code> and <code><a class="el" href="#aa24983113df77c2929483d9e386f6196" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_UniformSamplingSettings_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="af4f9b574647a0c9e3ade5bd00d334878" name="af4f9b574647a0c9e3ade5bd00d334878"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4f9b574647a0c9e3ade5bd00d334878">&#9670;&#160;</a></span>MR_UniformSamplingSettings_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_UniformSamplingSettings_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ae90cf75a257e0ff4ce2f453401d70317">MR_UniformSamplingSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_UniformSamplingSettings</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a490cb4f5405bced30128e6f8f69c88c6" name="a490cb4f5405bced30128e6f8f69c88c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a490cb4f5405bced30128e6f8f69c88c6">&#9670;&#160;</a></span>MR_UniformSamplingSettings_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_UniformSamplingSettings_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ae90cf75a257e0ff4ce2f453401d70317">MR_UniformSamplingSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_UniformSamplingSettings</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a7257306bfe31e374189ec482e0532ecf" name="a7257306bfe31e374189ec482e0532ecf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7257306bfe31e374189ec482e0532ecf">&#9670;&#160;</a></span>MR_UniformSamplingSettings_Get_distance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const float * MR_UniformSamplingSettings_Get_distance </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ae90cf75a257e0ff4ce2f453401d70317">MR_UniformSamplingSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>minimal distance between samples Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1UniformSamplingSettings.html">MR::UniformSamplingSettings</a></code> named <code>distance</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a69eb744530e3c2182bfa78373b587bc0" name="a69eb744530e3c2182bfa78373b587bc0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69eb744530e3c2182bfa78373b587bc0">&#9670;&#160;</a></span>MR_UniformSamplingSettings_Get_lexicographicalOrder()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const bool * MR_UniformSamplingSettings_Get_lexicographicalOrder </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ae90cf75a257e0ff4ce2f453401d70317">MR_UniformSamplingSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if true process the points in lexicographical order, which gives tighter and more uniform samples; if false process the points according to their ids, which is faster Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1UniformSamplingSettings.html">MR::UniformSamplingSettings</a></code> named <code>lexicographicalOrder</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="afae7215c540285db4311e8e63f0d6133" name="afae7215c540285db4311e8e63f0d6133"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afae7215c540285db4311e8e63f0d6133">&#9670;&#160;</a></span>MR_UniformSamplingSettings_Get_minNormalDot()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const float * MR_UniformSamplingSettings_Get_minNormalDot </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ae90cf75a257e0ff4ce2f453401d70317">MR_UniformSamplingSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if point cloud has normals then automatically decreases local distance to make sure that all points inside have absolute normal dot product not less than this value; this is to make sampling denser in the regions of high curvature; value &lt;=0 means ignore normals; value &gt;=1 means select all points (practically useless) Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1UniformSamplingSettings.html">MR::UniformSamplingSettings</a></code> named <code>minNormalDot</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a93ef1509de6a6dedf5bfa028418a58ab" name="a93ef1509de6a6dedf5bfa028418a58ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93ef1509de6a6dedf5bfa028418a58ab">&#9670;&#160;</a></span>MR_UniformSamplingSettings_Get_pNormals()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *const  * MR_UniformSamplingSettings_Get_pNormals </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ae90cf75a257e0ff4ce2f453401d70317">MR_UniformSamplingSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if not nullptr then these normals will be used during sampling instead of normals in the cloud itself Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1UniformSamplingSettings.html">MR::UniformSamplingSettings</a></code> named <code>pNormals</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="aa67b7dfd42a2ffa15b48d15468c644e5" name="aa67b7dfd42a2ffa15b48d15468c644e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa67b7dfd42a2ffa15b48d15468c644e5">&#9670;&#160;</a></span>MR_UniformSamplingSettings_Get_progress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> * MR_UniformSamplingSettings_Get_progress </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ae90cf75a257e0ff4ce2f453401d70317">MR_UniformSamplingSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>to report progress and cancel processing Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1UniformSamplingSettings.html">MR::UniformSamplingSettings</a></code> named <code>progress</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a3a38307d5cb25c3c09a5a21581558b0c" name="a3a38307d5cb25c3c09a5a21581558b0c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a38307d5cb25c3c09a5a21581558b0c">&#9670;&#160;</a></span>MR_UniformSamplingSettings_GetMutable_distance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API float * MR_UniformSamplingSettings_GetMutable_distance </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae90cf75a257e0ff4ce2f453401d70317">MR_UniformSamplingSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>minimal distance between samples Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1UniformSamplingSettings.html">MR::UniformSamplingSettings</a></code> named <code>distance</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a90eadfb53a3f6221d52052f0002ab82d" name="a90eadfb53a3f6221d52052f0002ab82d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90eadfb53a3f6221d52052f0002ab82d">&#9670;&#160;</a></span>MR_UniformSamplingSettings_GetMutable_lexicographicalOrder()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool * MR_UniformSamplingSettings_GetMutable_lexicographicalOrder </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae90cf75a257e0ff4ce2f453401d70317">MR_UniformSamplingSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if true process the points in lexicographical order, which gives tighter and more uniform samples; if false process the points according to their ids, which is faster Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1UniformSamplingSettings.html">MR::UniformSamplingSettings</a></code> named <code>lexicographicalOrder</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ae0ad2aa8ca24af84f8ddcdef07abbc43" name="ae0ad2aa8ca24af84f8ddcdef07abbc43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0ad2aa8ca24af84f8ddcdef07abbc43">&#9670;&#160;</a></span>MR_UniformSamplingSettings_GetMutable_minNormalDot()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API float * MR_UniformSamplingSettings_GetMutable_minNormalDot </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae90cf75a257e0ff4ce2f453401d70317">MR_UniformSamplingSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if point cloud has normals then automatically decreases local distance to make sure that all points inside have absolute normal dot product not less than this value; this is to make sampling denser in the regions of high curvature; value &lt;=0 means ignore normals; value &gt;=1 means select all points (practically useless) Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1UniformSamplingSettings.html">MR::UniformSamplingSettings</a></code> named <code>minNormalDot</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="adc78526ed3bc1d1a2c3e0c9b06cdb57d" name="adc78526ed3bc1d1a2c3e0c9b06cdb57d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc78526ed3bc1d1a2c3e0c9b06cdb57d">&#9670;&#160;</a></span>MR_UniformSamplingSettings_GetMutable_pNormals()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> ** MR_UniformSamplingSettings_GetMutable_pNormals </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae90cf75a257e0ff4ce2f453401d70317">MR_UniformSamplingSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if not nullptr then these normals will be used during sampling instead of normals in the cloud itself Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1UniformSamplingSettings.html">MR::UniformSamplingSettings</a></code> named <code>pNormals</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="aeb9c17b7e51002555c8bb06429aadc37" name="aeb9c17b7e51002555c8bb06429aadc37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb9c17b7e51002555c8bb06429aadc37">&#9670;&#160;</a></span>MR_UniformSamplingSettings_GetMutable_progress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> * MR_UniformSamplingSettings_GetMutable_progress </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae90cf75a257e0ff4ce2f453401d70317">MR_UniformSamplingSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>to report progress and cancel processing Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1UniformSamplingSettings.html">MR::UniformSamplingSettings</a></code> named <code>progress</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a2c8ecd734a3ea6180e7e3cb33459d686" name="a2c8ecd734a3ea6180e7e3cb33459d686"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c8ecd734a3ea6180e7e3cb33459d686">&#9670;&#160;</a></span>MR_UniformSamplingSettings_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ae90cf75a257e0ff4ce2f453401d70317">MR_UniformSamplingSettings</a> * MR_UniformSamplingSettings_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae90cf75a257e0ff4ce2f453401d70317">MR_UniformSamplingSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="aa24983113df77c2929483d9e386f6196" name="aa24983113df77c2929483d9e386f6196"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa24983113df77c2929483d9e386f6196">&#9670;&#160;</a></span>MR_UniformSamplingSettings_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#ae90cf75a257e0ff4ce2f453401d70317">MR_UniformSamplingSettings</a> * MR_UniformSamplingSettings_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ae90cf75a257e0ff4ce2f453401d70317">MR_UniformSamplingSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="ac35348fa0cca1e45b796d0c318efa49f" name="ac35348fa0cca1e45b796d0c318efa49f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac35348fa0cca1e45b796d0c318efa49f">&#9670;&#160;</a></span>MR_UniformSamplingSettings_Set_distance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_UniformSamplingSettings_Set_distance </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae90cf75a257e0ff4ce2f453401d70317">MR_UniformSamplingSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>minimal distance between samples Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1UniformSamplingSettings.html">MR::UniformSamplingSettings</a></code> named <code>distance</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="adc9c20a3b24550c5859622d57ad3c835" name="adc9c20a3b24550c5859622d57ad3c835"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc9c20a3b24550c5859622d57ad3c835">&#9670;&#160;</a></span>MR_UniformSamplingSettings_Set_lexicographicalOrder()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_UniformSamplingSettings_Set_lexicographicalOrder </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae90cf75a257e0ff4ce2f453401d70317">MR_UniformSamplingSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if true process the points in lexicographical order, which gives tighter and more uniform samples; if false process the points according to their ids, which is faster Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1UniformSamplingSettings.html">MR::UniformSamplingSettings</a></code> named <code>lexicographicalOrder</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aafc81d47bb3537f1bb7e5ed582250b70" name="aafc81d47bb3537f1bb7e5ed582250b70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aafc81d47bb3537f1bb7e5ed582250b70">&#9670;&#160;</a></span>MR_UniformSamplingSettings_Set_minNormalDot()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_UniformSamplingSettings_Set_minNormalDot </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae90cf75a257e0ff4ce2f453401d70317">MR_UniformSamplingSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if point cloud has normals then automatically decreases local distance to make sure that all points inside have absolute normal dot product not less than this value; this is to make sampling denser in the regions of high curvature; value &lt;=0 means ignore normals; value &gt;=1 means select all points (practically useless) Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1UniformSamplingSettings.html">MR::UniformSamplingSettings</a></code> named <code>minNormalDot</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a3f882a3ddee2cfc36c3e1e7788687415" name="a3f882a3ddee2cfc36c3e1e7788687415"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f882a3ddee2cfc36c3e1e7788687415">&#9670;&#160;</a></span>MR_UniformSamplingSettings_Set_pNormals()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_UniformSamplingSettings_Set_pNormals </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae90cf75a257e0ff4ce2f453401d70317">MR_UniformSamplingSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if not nullptr then these normals will be used during sampling instead of normals in the cloud itself Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1UniformSamplingSettings.html">MR::UniformSamplingSettings</a></code> named <code>pNormals</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a5e3aa47af708d51a1406186f16a347ef" name="a5e3aa47af708d51a1406186f16a347ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e3aa47af708d51a1406186f16a347ef">&#9670;&#160;</a></span>MR_UniformSamplingSettings_Set_progress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_UniformSamplingSettings_Set_progress </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae90cf75a257e0ff4ce2f453401d70317">MR_UniformSamplingSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>to report progress and cancel processing Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1UniformSamplingSettings.html">MR::UniformSamplingSettings</a></code> named <code>progress</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_87d38852fc01aff5f853718c8d8b5cb2.html">Cbindings</a></li><li class="navelem"><a class="el" href="dir_cb83f9b98dc6f67356ff76bcc17f4f67.html">MRCMesh</a></li><li class="navelem"><a class="el" href="MRUniformSampling_8h.html">MRUniformSampling.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,1001 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: MRFixSelfIntersections.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('MRFixSelfIntersections_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">MRFixSelfIntersections.h File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
+<code>#include &lt;stdint.h&gt;</code><br />
+</div>
+<p><a href="MRFixSelfIntersections_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a31b172f68efca6438544d56eb86d6f40" id="r_a31b172f68efca6438544d56eb86d6f40"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a></td></tr>
+<tr class="separator:a31b172f68efca6438544d56eb86d6f40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6aeecd4fac2aea90513510421de3f37b" id="r_a6aeecd4fac2aea90513510421de3f37b"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRContoursCut_8h.html#a6aeecd4fac2aea90513510421de3f37b">MR_expected_MR_FaceBitSet_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6aeecd4fac2aea90513510421de3f37b">MR_expected_MR_FaceBitSet_std_string</a></td></tr>
+<tr class="separator:a6aeecd4fac2aea90513510421de3f37b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a077b8debfae88f9cf2267ad2db95c006" id="r_a077b8debfae88f9cf2267ad2db95c006"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a></td></tr>
+<tr class="separator:a077b8debfae88f9cf2267ad2db95c006"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb03ce28cacfff1e499d75d512dc4a84" id="r_adb03ce28cacfff1e499d75d512dc4a84"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a></td></tr>
+<tr class="separator:adb03ce28cacfff1e499d75d512dc4a84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f6deedc955d5097e00c2842d51d3cef" id="r_a4f6deedc955d5097e00c2842d51d3cef"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a></td></tr>
+<tr class="separator:a4f6deedc955d5097e00c2842d51d3cef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2c5cd7e815d3b9071fe74c151f54ab3" id="r_ae2c5cd7e815d3b9071fe74c151f54ab3"><td class="memItemLeft" align="right" valign="top">typedef int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae2c5cd7e815d3b9071fe74c151f54ab3">MR_SelfIntersections_Settings_Method</a></td></tr>
+<tr class="memdesc:ae2c5cd7e815d3b9071fe74c151f54ab3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fix method.  <br /></td></tr>
+<tr class="separator:ae2c5cd7e815d3b9071fe74c151f54ab3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:aac34dfe6c6b73b43a4656c9dce041034" id="r_aac34dfe6c6b73b43a4656c9dce041034"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#aac34dfe6c6b73b43a4656c9dce041034ac28c438771167d2ea8dad8bc0d44d467">MR_SelfIntersections_Settings_Method_Relax</a> = 0
+, <a class="el" href="#aac34dfe6c6b73b43a4656c9dce041034ae9afb0710cc07ee7b617f9abebb8dbaa">MR_SelfIntersections_Settings_Method_CutAndFill</a> = 1
+ }</td></tr>
+<tr class="separator:aac34dfe6c6b73b43a4656c9dce041034"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ab849423006c21063b6ce2c649b08a67c" id="r_ab849423006c21063b6ce2c649b08a67c"><td class="memItemLeft" align="right" valign="top">MRC_API const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab849423006c21063b6ce2c649b08a67c">MR_SelfIntersections_Settings_Get_touchIsIntersection</a> (const <a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *_this)</td></tr>
+<tr class="separator:ab849423006c21063b6ce2c649b08a67c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1dfdc2bbae93b47a25f3d098d4d121a2" id="r_a1dfdc2bbae93b47a25f3d098d4d121a2"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1dfdc2bbae93b47a25f3d098d4d121a2">MR_SelfIntersections_Settings_Set_touchIsIntersection</a> (<a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *_this, bool value)</td></tr>
+<tr class="separator:a1dfdc2bbae93b47a25f3d098d4d121a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add28ca1aff01a5abd0bbd20838e29926" id="r_add28ca1aff01a5abd0bbd20838e29926"><td class="memItemLeft" align="right" valign="top">MRC_API bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add28ca1aff01a5abd0bbd20838e29926">MR_SelfIntersections_Settings_GetMutable_touchIsIntersection</a> (<a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *_this)</td></tr>
+<tr class="separator:add28ca1aff01a5abd0bbd20838e29926"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa39e080e957e0a9420444ad46992df69" id="r_aa39e080e957e0a9420444ad46992df69"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#ae2c5cd7e815d3b9071fe74c151f54ab3">MR_SelfIntersections_Settings_Method</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa39e080e957e0a9420444ad46992df69">MR_SelfIntersections_Settings_Get_method</a> (const <a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *_this)</td></tr>
+<tr class="separator:aa39e080e957e0a9420444ad46992df69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0eeb3eb14e60a8b10cc775595452dc8f" id="r_a0eeb3eb14e60a8b10cc775595452dc8f"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0eeb3eb14e60a8b10cc775595452dc8f">MR_SelfIntersections_Settings_Set_method</a> (<a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *_this, <a class="el" href="#ae2c5cd7e815d3b9071fe74c151f54ab3">MR_SelfIntersections_Settings_Method</a> value)</td></tr>
+<tr class="separator:a0eeb3eb14e60a8b10cc775595452dc8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a6b382d0df040aeaf369d2af21ef503" id="r_a6a6b382d0df040aeaf369d2af21ef503"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae2c5cd7e815d3b9071fe74c151f54ab3">MR_SelfIntersections_Settings_Method</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a6b382d0df040aeaf369d2af21ef503">MR_SelfIntersections_Settings_GetMutable_method</a> (<a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *_this)</td></tr>
+<tr class="separator:a6a6b382d0df040aeaf369d2af21ef503"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae776f101af02aaabf694ad0abcf6cf15" id="r_ae776f101af02aaabf694ad0abcf6cf15"><td class="memItemLeft" align="right" valign="top">MRC_API const int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae776f101af02aaabf694ad0abcf6cf15">MR_SelfIntersections_Settings_Get_relaxIterations</a> (const <a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *_this)</td></tr>
+<tr class="separator:ae776f101af02aaabf694ad0abcf6cf15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad21bb391752bd61f6131725bdedcb733" id="r_ad21bb391752bd61f6131725bdedcb733"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad21bb391752bd61f6131725bdedcb733">MR_SelfIntersections_Settings_Set_relaxIterations</a> (<a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *_this, int32_t value)</td></tr>
+<tr class="separator:ad21bb391752bd61f6131725bdedcb733"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf31c43895cce5edb12a0d1affe6035e" id="r_acf31c43895cce5edb12a0d1affe6035e"><td class="memItemLeft" align="right" valign="top">MRC_API int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf31c43895cce5edb12a0d1affe6035e">MR_SelfIntersections_Settings_GetMutable_relaxIterations</a> (<a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *_this)</td></tr>
+<tr class="separator:acf31c43895cce5edb12a0d1affe6035e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1966e64db2237a26c1abe12866db960" id="r_ae1966e64db2237a26c1abe12866db960"><td class="memItemLeft" align="right" valign="top">MRC_API const int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1966e64db2237a26c1abe12866db960">MR_SelfIntersections_Settings_Get_maxExpand</a> (const <a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *_this)</td></tr>
+<tr class="separator:ae1966e64db2237a26c1abe12866db960"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7313c299cba68ff9cedb368a082fd6e1" id="r_a7313c299cba68ff9cedb368a082fd6e1"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7313c299cba68ff9cedb368a082fd6e1">MR_SelfIntersections_Settings_Set_maxExpand</a> (<a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *_this, int32_t value)</td></tr>
+<tr class="separator:a7313c299cba68ff9cedb368a082fd6e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f547fb8246329ebbf2ab36f4f8fcbf9" id="r_a1f547fb8246329ebbf2ab36f4f8fcbf9"><td class="memItemLeft" align="right" valign="top">MRC_API int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f547fb8246329ebbf2ab36f4f8fcbf9">MR_SelfIntersections_Settings_GetMutable_maxExpand</a> (<a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *_this)</td></tr>
+<tr class="separator:a1f547fb8246329ebbf2ab36f4f8fcbf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28a7705fccad3a37fcdd2cec55f8b85f" id="r_a28a7705fccad3a37fcdd2cec55f8b85f"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28a7705fccad3a37fcdd2cec55f8b85f">MR_SelfIntersections_Settings_Get_subdivideEdgeLen</a> (const <a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *_this)</td></tr>
+<tr class="separator:a28a7705fccad3a37fcdd2cec55f8b85f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9596ec9be7c013bec0821fb939e86f29" id="r_a9596ec9be7c013bec0821fb939e86f29"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9596ec9be7c013bec0821fb939e86f29">MR_SelfIntersections_Settings_Set_subdivideEdgeLen</a> (<a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *_this, float value)</td></tr>
+<tr class="separator:a9596ec9be7c013bec0821fb939e86f29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59c3e6c01b63ccb1f57af877a0e63c37" id="r_a59c3e6c01b63ccb1f57af877a0e63c37"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59c3e6c01b63ccb1f57af877a0e63c37">MR_SelfIntersections_Settings_GetMutable_subdivideEdgeLen</a> (<a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *_this)</td></tr>
+<tr class="separator:a59c3e6c01b63ccb1f57af877a0e63c37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d642c00e67b55078ff8c94c96a9d45f" id="r_a5d642c00e67b55078ff8c94c96a9d45f"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d642c00e67b55078ff8c94c96a9d45f">MR_SelfIntersections_Settings_Get_callback</a> (const <a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *_this)</td></tr>
+<tr class="separator:a5d642c00e67b55078ff8c94c96a9d45f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b71656caeefb10d22f35f29a49d5709" id="r_a0b71656caeefb10d22f35f29a49d5709"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b71656caeefb10d22f35f29a49d5709">MR_SelfIntersections_Settings_Set_callback</a> (<a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *value)</td></tr>
+<tr class="separator:a0b71656caeefb10d22f35f29a49d5709"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d7f57762162004a82e40daac1f577b4" id="r_a1d7f57762162004a82e40daac1f577b4"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d7f57762162004a82e40daac1f577b4">MR_SelfIntersections_Settings_GetMutable_callback</a> (<a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *_this)</td></tr>
+<tr class="separator:a1d7f57762162004a82e40daac1f577b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf75195a5eb51458f2e5e228ff2dfcdb" id="r_acf75195a5eb51458f2e5e228ff2dfcdb"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf75195a5eb51458f2e5e228ff2dfcdb">MR_SelfIntersections_Settings_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:acf75195a5eb51458f2e5e228ff2dfcdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c6bd5e108b4f20a9210a938259d2e9a" id="r_a2c6bd5e108b4f20a9210a938259d2e9a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c6bd5e108b4f20a9210a938259d2e9a">MR_SelfIntersections_Settings_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a2c6bd5e108b4f20a9210a938259d2e9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a7d12855f81f8ea17d91e490f2d3f19" id="r_a9a7d12855f81f8ea17d91e490f2d3f19"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a7d12855f81f8ea17d91e490f2d3f19">MR_SelfIntersections_Settings_ConstructFrom</a> (bool touchIsIntersection, <a class="el" href="#ae2c5cd7e815d3b9071fe74c151f54ab3">MR_SelfIntersections_Settings_Method</a> method, int32_t relaxIterations, int32_t maxExpand, float subdivideEdgeLen, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> callback_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *callback)</td></tr>
+<tr class="separator:a9a7d12855f81f8ea17d91e490f2d3f19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61e6ca8cb178111fffd20851972307d7" id="r_a61e6ca8cb178111fffd20851972307d7"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a61e6ca8cb178111fffd20851972307d7">MR_SelfIntersections_Settings_OffsetPtr</a> (const <a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a61e6ca8cb178111fffd20851972307d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a61e6ca8cb178111fffd20851972307d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e80ca1d2c9d5ae9ca4824d60c407d63" id="r_a4e80ca1d2c9d5ae9ca4824d60c407d63"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e80ca1d2c9d5ae9ca4824d60c407d63">MR_SelfIntersections_Settings_OffsetMutablePtr</a> (<a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a4e80ca1d2c9d5ae9ca4824d60c407d63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a4e80ca1d2c9d5ae9ca4824d60c407d63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29510922a4c400b09e99a8de997805ac" id="r_a29510922a4c400b09e99a8de997805ac"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29510922a4c400b09e99a8de997805ac">MR_SelfIntersections_Settings_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *_other)</td></tr>
+<tr class="separator:a29510922a4c400b09e99a8de997805ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a975c9ff47f4e5b758675b1eb46af1a5f" id="r_a975c9ff47f4e5b758675b1eb46af1a5f"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a975c9ff47f4e5b758675b1eb46af1a5f">MR_SelfIntersections_Settings_Destroy</a> (const <a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *_this)</td></tr>
+<tr class="memdesc:a975c9ff47f4e5b758675b1eb46af1a5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_SelfIntersections_Settings</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a975c9ff47f4e5b758675b1eb46af1a5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a3ba1fc0dcf95bc6471810a02168d22" id="r_a2a3ba1fc0dcf95bc6471810a02168d22"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a3ba1fc0dcf95bc6471810a02168d22">MR_SelfIntersections_Settings_DestroyArray</a> (const <a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *_this)</td></tr>
+<tr class="memdesc:a2a3ba1fc0dcf95bc6471810a02168d22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_SelfIntersections_Settings</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a2a3ba1fc0dcf95bc6471810a02168d22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a127edd9f28fbcf6a4b0809dfcdde4346" id="r_a127edd9f28fbcf6a4b0809dfcdde4346"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a127edd9f28fbcf6a4b0809dfcdde4346">MR_SelfIntersections_Settings_AssignFromAnother</a> (<a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *_other)</td></tr>
+<tr class="separator:a127edd9f28fbcf6a4b0809dfcdde4346"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2d2e0fe8097c58666f9396e14a135f5" id="r_aa2d2e0fe8097c58666f9396e14a135f5"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRContoursCut_8h.html#a6aeecd4fac2aea90513510421de3f37b">MR_expected_MR_FaceBitSet_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2d2e0fe8097c58666f9396e14a135f5">MR_SelfIntersections_getFaces</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const bool *touchIsIntersection, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> cb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="separator:aa2d2e0fe8097c58666f9396e14a135f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a8392004ff0f8819b4dee45d9eee44a" id="r_a0a8392004ff0f8819b4dee45d9eee44a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a8392004ff0f8819b4dee45d9eee44a">MR_SelfIntersections_fix</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *settings)</td></tr>
+<tr class="separator:a0a8392004ff0f8819b4dee45d9eee44a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a6aeecd4fac2aea90513510421de3f37b" name="a6aeecd4fac2aea90513510421de3f37b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6aeecd4fac2aea90513510421de3f37b">&#9670;&#160;</a></span>MR_expected_MR_FaceBitSet_std_string</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRContoursCut_8h.html#a6aeecd4fac2aea90513510421de3f37b">MR_expected_MR_FaceBitSet_std_string</a> <a class="el" href="MRContoursCut_8h.html#a6aeecd4fac2aea90513510421de3f37b">MR_expected_MR_FaceBitSet_std_string</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a077b8debfae88f9cf2267ad2db95c006" name="a077b8debfae88f9cf2267ad2db95c006"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a077b8debfae88f9cf2267ad2db95c006">&#9670;&#160;</a></span>MR_expected_void_std_string</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a31b172f68efca6438544d56eb86d6f40" name="a31b172f68efca6438544d56eb86d6f40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31b172f68efca6438544d56eb86d6f40">&#9670;&#160;</a></span>MR_Mesh</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4f6deedc955d5097e00c2842d51d3cef" name="a4f6deedc955d5097e00c2842d51d3cef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f6deedc955d5097e00c2842d51d3cef">&#9670;&#160;</a></span>MR_SelfIntersections_Settings</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> <a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Setting set for mesh self-intersections fix Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1SelfIntersections_1_1Settings.html">MR::SelfIntersections::Settings</a></code>. </p>
+
+</div>
+</div>
+<a id="ae2c5cd7e815d3b9071fe74c151f54ab3" name="ae2c5cd7e815d3b9071fe74c151f54ab3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2c5cd7e815d3b9071fe74c151f54ab3">&#9670;&#160;</a></span>MR_SelfIntersections_Settings_Method</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef int32_t <a class="el" href="#ae2c5cd7e815d3b9071fe74c151f54ab3">MR_SelfIntersections_Settings_Method</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Fix method. </p>
+
+</div>
+</div>
+<a id="adb03ce28cacfff1e499d75d512dc4a84" name="adb03ce28cacfff1e499d75d512dc4a84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb03ce28cacfff1e499d75d512dc4a84">&#9670;&#160;</a></span>MR_std_function_bool_from_float</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="aac34dfe6c6b73b43a4656c9dce041034" name="aac34dfe6c6b73b43a4656c9dce041034"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac34dfe6c6b73b43a4656c9dce041034">&#9670;&#160;</a></span>anonymous enum</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">anonymous enum</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aac34dfe6c6b73b43a4656c9dce041034ac28c438771167d2ea8dad8bc0d44d467" name="aac34dfe6c6b73b43a4656c9dce041034ac28c438771167d2ea8dad8bc0d44d467"></a>MR_SelfIntersections_Settings_Method_Relax&#160;</td><td class="fielddoc"><p>Relax mesh around self-intersections. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aac34dfe6c6b73b43a4656c9dce041034ae9afb0710cc07ee7b617f9abebb8dbaa" name="aac34dfe6c6b73b43a4656c9dce041034ae9afb0710cc07ee7b617f9abebb8dbaa"></a>MR_SelfIntersections_Settings_Method_CutAndFill&#160;</td><td class="fielddoc"><p>Cut and re-fill regions around self-intersections (may fall back to <code>Relax</code>) </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a0a8392004ff0f8819b4dee45d9eee44a" name="a0a8392004ff0f8819b4dee45d9eee44a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a8392004ff0f8819b4dee45d9eee44a">&#9670;&#160;</a></span>MR_SelfIntersections_fix()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> * MR_SelfIntersections_fix </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *</td>          <td class="paramname"><span class="paramname"><em>settings</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Finds and fixes self-intersections per component: Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1SelfIntersections.html#a31221cba193e98804d912de6685cd94a">MR::SelfIntersections::fix</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>settings</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="aa2d2e0fe8097c58666f9396e14a135f5" name="aa2d2e0fe8097c58666f9396e14a135f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2d2e0fe8097c58666f9396e14a135f5">&#9670;&#160;</a></span>MR_SelfIntersections_getFaces()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRContoursCut_8h.html#a6aeecd4fac2aea90513510421de3f37b">MR_expected_MR_FaceBitSet_std_string</a> * MR_SelfIntersections_getFaces </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool *</td>          <td class="paramname"><span class="paramname"><em>touchIsIntersection</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>cb_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Find all self-intersections faces component-wise Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1SelfIntersections.html#a24ad77f8c120ef0bda1b37e38b622319">MR::SelfIntersections::getFaces</a></code>. Parameter <code>mesh</code> can not be null. Parameter <code>touchIsIntersection</code> has a default argument: <code>true</code>, pass a null pointer to use it. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__FaceBitSet__std__string_8h.html#a49f25f78be01bd3b7e077cd474bb21d5" title="Destroys a heap-allocated instance of MR_expected_MR_FaceBitSet_std_string. Does nothing if the point...">MR_expected_MR_FaceBitSet_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a127edd9f28fbcf6a4b0809dfcdde4346" name="a127edd9f28fbcf6a4b0809dfcdde4346"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a127edd9f28fbcf6a4b0809dfcdde4346">&#9670;&#160;</a></span>MR_SelfIntersections_Settings_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> * MR_SelfIntersections_Settings_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1SelfIntersections_1_1Settings.html">MR::SelfIntersections::Settings</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a9a7d12855f81f8ea17d91e490f2d3f19" name="a9a7d12855f81f8ea17d91e490f2d3f19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a7d12855f81f8ea17d91e490f2d3f19">&#9670;&#160;</a></span>MR_SelfIntersections_Settings_ConstructFrom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> * MR_SelfIntersections_Settings_ConstructFrom </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>touchIsIntersection</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#ae2c5cd7e815d3b9071fe74c151f54ab3">MR_SelfIntersections_Settings_Method</a></td>          <td class="paramname"><span class="paramname"><em>method</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>relaxIterations</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>maxExpand</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>subdivideEdgeLen</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>callback_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *</td>          <td class="paramname"><span class="paramname"><em>callback</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1SelfIntersections_1_1Settings.html">MR::SelfIntersections::Settings</a></code> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a975c9ff47f4e5b758675b1eb46af1a5f" title="Destroys a heap-allocated instance of MR_SelfIntersections_Settings. Does nothing if the pointer is n...">MR_SelfIntersections_Settings_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a29510922a4c400b09e99a8de997805ac" name="a29510922a4c400b09e99a8de997805ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29510922a4c400b09e99a8de997805ac">&#9670;&#160;</a></span>MR_SelfIntersections_Settings_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> * MR_SelfIntersections_Settings_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1SelfIntersections_1_1Settings.html">MR::SelfIntersections::Settings</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a975c9ff47f4e5b758675b1eb46af1a5f" title="Destroys a heap-allocated instance of MR_SelfIntersections_Settings. Does nothing if the pointer is n...">MR_SelfIntersections_Settings_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="acf75195a5eb51458f2e5e228ff2dfcdb" name="acf75195a5eb51458f2e5e228ff2dfcdb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf75195a5eb51458f2e5e228ff2dfcdb">&#9670;&#160;</a></span>MR_SelfIntersections_Settings_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> * MR_SelfIntersections_Settings_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a975c9ff47f4e5b758675b1eb46af1a5f" title="Destroys a heap-allocated instance of MR_SelfIntersections_Settings. Does nothing if the pointer is n...">MR_SelfIntersections_Settings_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a2c6bd5e108b4f20a9210a938259d2e9a" name="a2c6bd5e108b4f20a9210a938259d2e9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c6bd5e108b4f20a9210a938259d2e9a">&#9670;&#160;</a></span>MR_SelfIntersections_Settings_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> * MR_SelfIntersections_Settings_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a2a3ba1fc0dcf95bc6471810a02168d22" title="Destroys a heap-allocated array of MR_SelfIntersections_Settings. Does nothing if the pointer is null...">MR_SelfIntersections_Settings_DestroyArray()</a></code>. Use <code><a class="el" href="#a4e80ca1d2c9d5ae9ca4824d60c407d63" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_SelfIntersections_Settings_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a61e6ca8cb178111fffd20851972307d7" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_SelfIntersections_Settings_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a975c9ff47f4e5b758675b1eb46af1a5f" name="a975c9ff47f4e5b758675b1eb46af1a5f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a975c9ff47f4e5b758675b1eb46af1a5f">&#9670;&#160;</a></span>MR_SelfIntersections_Settings_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_SelfIntersections_Settings_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_SelfIntersections_Settings</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a2a3ba1fc0dcf95bc6471810a02168d22" name="a2a3ba1fc0dcf95bc6471810a02168d22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a3ba1fc0dcf95bc6471810a02168d22">&#9670;&#160;</a></span>MR_SelfIntersections_Settings_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_SelfIntersections_Settings_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_SelfIntersections_Settings</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a5d642c00e67b55078ff8c94c96a9d45f" name="a5d642c00e67b55078ff8c94c96a9d45f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d642c00e67b55078ff8c94c96a9d45f">&#9670;&#160;</a></span>MR_SelfIntersections_Settings_Get_callback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> * MR_SelfIntersections_Settings_Get_callback </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Callback function Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SelfIntersections_1_1Settings.html">MR::SelfIntersections::Settings</a></code> named <code>callback</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ae1966e64db2237a26c1abe12866db960" name="ae1966e64db2237a26c1abe12866db960"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1966e64db2237a26c1abe12866db960">&#9670;&#160;</a></span>MR_SelfIntersections_Settings_Get_maxExpand()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const int32_t * MR_SelfIntersections_Settings_Get_maxExpand </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Maximum expand count (edge steps from self-intersecting faces), should be &gt; 0 Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SelfIntersections_1_1Settings.html">MR::SelfIntersections::Settings</a></code> named <code>maxExpand</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="aa39e080e957e0a9420444ad46992df69" name="aa39e080e957e0a9420444ad46992df69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa39e080e957e0a9420444ad46992df69">&#9670;&#160;</a></span>MR_SelfIntersections_Settings_Get_method()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#ae2c5cd7e815d3b9071fe74c151f54ab3">MR_SelfIntersections_Settings_Method</a> * MR_SelfIntersections_Settings_Get_method </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SelfIntersections_1_1Settings.html">MR::SelfIntersections::Settings</a></code> named <code>method</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ae776f101af02aaabf694ad0abcf6cf15" name="ae776f101af02aaabf694ad0abcf6cf15"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae776f101af02aaabf694ad0abcf6cf15">&#9670;&#160;</a></span>MR_SelfIntersections_Settings_Get_relaxIterations()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const int32_t * MR_SelfIntersections_Settings_Get_relaxIterations </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Maximum relax iterations Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SelfIntersections_1_1Settings.html">MR::SelfIntersections::Settings</a></code> named <code>relaxIterations</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a28a7705fccad3a37fcdd2cec55f8b85f" name="a28a7705fccad3a37fcdd2cec55f8b85f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28a7705fccad3a37fcdd2cec55f8b85f">&#9670;&#160;</a></span>MR_SelfIntersections_Settings_Get_subdivideEdgeLen()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const float * MR_SelfIntersections_Settings_Get_subdivideEdgeLen </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Edge length for subdivision of holes covers (0.0f means auto) FLT_MAX to disable subdivision Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SelfIntersections_1_1Settings.html">MR::SelfIntersections::Settings</a></code> named <code>subdivideEdgeLen</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ab849423006c21063b6ce2c649b08a67c" name="ab849423006c21063b6ce2c649b08a67c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab849423006c21063b6ce2c649b08a67c">&#9670;&#160;</a></span>MR_SelfIntersections_Settings_Get_touchIsIntersection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const bool * MR_SelfIntersections_Settings_Get_touchIsIntersection </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>If true then count touching faces as self-intersections Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SelfIntersections_1_1Settings.html">MR::SelfIntersections::Settings</a></code> named <code>touchIsIntersection</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a1d7f57762162004a82e40daac1f577b4" name="a1d7f57762162004a82e40daac1f577b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d7f57762162004a82e40daac1f577b4">&#9670;&#160;</a></span>MR_SelfIntersections_Settings_GetMutable_callback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> * MR_SelfIntersections_Settings_GetMutable_callback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Callback function Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SelfIntersections_1_1Settings.html">MR::SelfIntersections::Settings</a></code> named <code>callback</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a1f547fb8246329ebbf2ab36f4f8fcbf9" name="a1f547fb8246329ebbf2ab36f4f8fcbf9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f547fb8246329ebbf2ab36f4f8fcbf9">&#9670;&#160;</a></span>MR_SelfIntersections_Settings_GetMutable_maxExpand()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API int32_t * MR_SelfIntersections_Settings_GetMutable_maxExpand </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Maximum expand count (edge steps from self-intersecting faces), should be &gt; 0 Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SelfIntersections_1_1Settings.html">MR::SelfIntersections::Settings</a></code> named <code>maxExpand</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a6a6b382d0df040aeaf369d2af21ef503" name="a6a6b382d0df040aeaf369d2af21ef503"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a6b382d0df040aeaf369d2af21ef503">&#9670;&#160;</a></span>MR_SelfIntersections_Settings_GetMutable_method()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ae2c5cd7e815d3b9071fe74c151f54ab3">MR_SelfIntersections_Settings_Method</a> * MR_SelfIntersections_Settings_GetMutable_method </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SelfIntersections_1_1Settings.html">MR::SelfIntersections::Settings</a></code> named <code>method</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="acf31c43895cce5edb12a0d1affe6035e" name="acf31c43895cce5edb12a0d1affe6035e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf31c43895cce5edb12a0d1affe6035e">&#9670;&#160;</a></span>MR_SelfIntersections_Settings_GetMutable_relaxIterations()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API int32_t * MR_SelfIntersections_Settings_GetMutable_relaxIterations </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Maximum relax iterations Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SelfIntersections_1_1Settings.html">MR::SelfIntersections::Settings</a></code> named <code>relaxIterations</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a59c3e6c01b63ccb1f57af877a0e63c37" name="a59c3e6c01b63ccb1f57af877a0e63c37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59c3e6c01b63ccb1f57af877a0e63c37">&#9670;&#160;</a></span>MR_SelfIntersections_Settings_GetMutable_subdivideEdgeLen()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API float * MR_SelfIntersections_Settings_GetMutable_subdivideEdgeLen </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Edge length for subdivision of holes covers (0.0f means auto) FLT_MAX to disable subdivision Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SelfIntersections_1_1Settings.html">MR::SelfIntersections::Settings</a></code> named <code>subdivideEdgeLen</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="add28ca1aff01a5abd0bbd20838e29926" name="add28ca1aff01a5abd0bbd20838e29926"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add28ca1aff01a5abd0bbd20838e29926">&#9670;&#160;</a></span>MR_SelfIntersections_Settings_GetMutable_touchIsIntersection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool * MR_SelfIntersections_Settings_GetMutable_touchIsIntersection </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>If true then count touching faces as self-intersections Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SelfIntersections_1_1Settings.html">MR::SelfIntersections::Settings</a></code> named <code>touchIsIntersection</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a4e80ca1d2c9d5ae9ca4824d60c407d63" name="a4e80ca1d2c9d5ae9ca4824d60c407d63"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e80ca1d2c9d5ae9ca4824d60c407d63">&#9670;&#160;</a></span>MR_SelfIntersections_Settings_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> * MR_SelfIntersections_Settings_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a61e6ca8cb178111fffd20851972307d7" name="a61e6ca8cb178111fffd20851972307d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61e6ca8cb178111fffd20851972307d7">&#9670;&#160;</a></span>MR_SelfIntersections_Settings_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> * MR_SelfIntersections_Settings_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a0b71656caeefb10d22f35f29a49d5709" name="a0b71656caeefb10d22f35f29a49d5709"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b71656caeefb10d22f35f29a49d5709">&#9670;&#160;</a></span>MR_SelfIntersections_Settings_Set_callback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_SelfIntersections_Settings_Set_callback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Callback function Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SelfIntersections_1_1Settings.html">MR::SelfIntersections::Settings</a></code> named <code>callback</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a7313c299cba68ff9cedb368a082fd6e1" name="a7313c299cba68ff9cedb368a082fd6e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7313c299cba68ff9cedb368a082fd6e1">&#9670;&#160;</a></span>MR_SelfIntersections_Settings_Set_maxExpand()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_SelfIntersections_Settings_Set_maxExpand </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Maximum expand count (edge steps from self-intersecting faces), should be &gt; 0 Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SelfIntersections_1_1Settings.html">MR::SelfIntersections::Settings</a></code> named <code>maxExpand</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a0eeb3eb14e60a8b10cc775595452dc8f" name="a0eeb3eb14e60a8b10cc775595452dc8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0eeb3eb14e60a8b10cc775595452dc8f">&#9670;&#160;</a></span>MR_SelfIntersections_Settings_Set_method()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_SelfIntersections_Settings_Set_method </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#ae2c5cd7e815d3b9071fe74c151f54ab3">MR_SelfIntersections_Settings_Method</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SelfIntersections_1_1Settings.html">MR::SelfIntersections::Settings</a></code> named <code>method</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ad21bb391752bd61f6131725bdedcb733" name="ad21bb391752bd61f6131725bdedcb733"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad21bb391752bd61f6131725bdedcb733">&#9670;&#160;</a></span>MR_SelfIntersections_Settings_Set_relaxIterations()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_SelfIntersections_Settings_Set_relaxIterations </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Maximum relax iterations Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SelfIntersections_1_1Settings.html">MR::SelfIntersections::Settings</a></code> named <code>relaxIterations</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a9596ec9be7c013bec0821fb939e86f29" name="a9596ec9be7c013bec0821fb939e86f29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9596ec9be7c013bec0821fb939e86f29">&#9670;&#160;</a></span>MR_SelfIntersections_Settings_Set_subdivideEdgeLen()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_SelfIntersections_Settings_Set_subdivideEdgeLen </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Edge length for subdivision of holes covers (0.0f means auto) FLT_MAX to disable subdivision Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SelfIntersections_1_1Settings.html">MR::SelfIntersections::Settings</a></code> named <code>subdivideEdgeLen</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a1dfdc2bbae93b47a25f3d098d4d121a2" name="a1dfdc2bbae93b47a25f3d098d4d121a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1dfdc2bbae93b47a25f3d098d4d121a2">&#9670;&#160;</a></span>MR_SelfIntersections_Settings_Set_touchIsIntersection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_SelfIntersections_Settings_Set_touchIsIntersection </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a4f6deedc955d5097e00c2842d51d3cef">MR_SelfIntersections_Settings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>If true then count touching faces as self-intersections Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SelfIntersections_1_1Settings.html">MR::SelfIntersections::Settings</a></code> named <code>touchIsIntersection</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_87d38852fc01aff5f853718c8d8b5cb2.html">Cbindings</a></li><li class="navelem"><a class="el" href="dir_cb83f9b98dc6f67356ff76bcc17f4f67.html">MRCMesh</a></li><li class="navelem"><a class="el" href="MRFixSelfIntersections_8h.html">MRFixSelfIntersections.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

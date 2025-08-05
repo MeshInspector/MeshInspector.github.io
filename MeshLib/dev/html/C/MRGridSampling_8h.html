@@ -1,0 +1,996 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: MRGridSampling.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('MRGridSampling_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">MRGridSampling.h File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="MRId_8h_source.html">MRCMesh/MRId.h</a>&gt;</code><br />
+<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
+</div>
+<p><a href="MRGridSampling_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR__ObjVertId.html">MR_ObjVertId</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1ObjVertId.html">MR::ObjVertId</a></code>.  <a href="structMR__ObjVertId.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a88a1df6fb138786a55241b1d77a4b0cc" id="r_a88a1df6fb138786a55241b1d77a4b0cc"><td class="memItemLeft" align="right" valign="top">typedef struct MR_AffineXf3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88a1df6fb138786a55241b1d77a4b0cc">MR_AffineXf3f</a></td></tr>
+<tr class="separator:a88a1df6fb138786a55241b1d77a4b0cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1ba30a3fa8a895c1f72e182f3e73e17" id="r_af1ba30a3fa8a895c1f72e182f3e73e17"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a></td></tr>
+<tr class="separator:af1ba30a3fa8a895c1f72e182f3e73e17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5ebecc1cdf4196d4d2ddaeeb82a0771" id="r_ac5ebecc1cdf4196d4d2ddaeeb82a0771"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRBestFit_8h.html#ac5ebecc1cdf4196d4d2ddaeeb82a0771">MR_PointCloudPart</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac5ebecc1cdf4196d4d2ddaeeb82a0771">MR_PointCloudPart</a></td></tr>
+<tr class="separator:ac5ebecc1cdf4196d4d2ddaeeb82a0771"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac02da2bc53860b2b70f391049eac5e2a" id="r_ac02da2bc53860b2b70f391049eac5e2a"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ac02da2bc53860b2b70f391049eac5e2a">MR_Vector_MR_ModelPointsData_MR_ObjId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac02da2bc53860b2b70f391049eac5e2a">MR_Vector_MR_ModelPointsData_MR_ObjId</a></td></tr>
+<tr class="separator:ac02da2bc53860b2b70f391049eac5e2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3df50e76b078a1626dd994e1df803764" id="r_a3df50e76b078a1626dd994e1df803764"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a></td></tr>
+<tr class="separator:a3df50e76b078a1626dd994e1df803764"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a249fd9254c0c3395567807936ad32641" id="r_a249fd9254c0c3395567807936ad32641"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a></td></tr>
+<tr class="separator:a249fd9254c0c3395567807936ad32641"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb03ce28cacfff1e499d75d512dc4a84" id="r_adb03ce28cacfff1e499d75d512dc4a84"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a></td></tr>
+<tr class="separator:adb03ce28cacfff1e499d75d512dc4a84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d97f913ba505f7b3b5f786c0437a6dc" id="r_a0d97f913ba505f7b3b5f786c0437a6dc"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRCloseVertices_8h.html#a0d97f913ba505f7b3b5f786c0437a6dc">MR_std_optional_MR_VertBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d97f913ba505f7b3b5f786c0437a6dc">MR_std_optional_MR_VertBitSet</a></td></tr>
+<tr class="separator:a0d97f913ba505f7b3b5f786c0437a6dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1286432b335d8b4c779dca862ef8e52" id="r_ae1286432b335d8b4c779dca862ef8e52"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ae1286432b335d8b4c779dca862ef8e52">MR_std_optional_std_vector_MR_ObjVertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1286432b335d8b4c779dca862ef8e52">MR_std_optional_std_vector_MR_ObjVertId</a></td></tr>
+<tr class="separator:ae1286432b335d8b4c779dca862ef8e52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8ceab23dca7dddaf285e74ae09d207c" id="r_ae8ceab23dca7dddaf285e74ae09d207c"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ae8ceab23dca7dddaf285e74ae09d207c">MR_ModelPointsData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae8ceab23dca7dddaf285e74ae09d207c">MR_ModelPointsData</a></td></tr>
+<tr class="separator:ae8ceab23dca7dddaf285e74ae09d207c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88b00e6d4801cafab9a50d688eeb649d" id="r_a88b00e6d4801cafab9a50d688eeb649d"><td class="memItemLeft" align="right" valign="top">typedef struct MR_ObjVertId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88b00e6d4801cafab9a50d688eeb649d">MR_ObjVertId</a></td></tr>
+<tr class="memdesc:a88b00e6d4801cafab9a50d688eeb649d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1ObjVertId.html">MR::ObjVertId</a></code>.  <br /></td></tr>
+<tr class="separator:a88b00e6d4801cafab9a50d688eeb649d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a3879ec626e3e85b712ed8443e4f85f08" id="r_a3879ec626e3e85b712ed8443e4f85f08"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCloseVertices_8h.html#a0d97f913ba505f7b3b5f786c0437a6dc">MR_std_optional_MR_VertBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3879ec626e3e85b712ed8443e4f85f08">MR_verticesGridSampling</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp, float voxelSize, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="separator:a3879ec626e3e85b712ed8443e4f85f08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a974495544a1ec874cd7b2f125451a697" id="r_a974495544a1ec874cd7b2f125451a697"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCloseVertices_8h.html#a0d97f913ba505f7b3b5f786c0437a6dc">MR_std_optional_MR_VertBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a974495544a1ec874cd7b2f125451a697">MR_pointGridSampling</a> (const <a class="el" href="MRBestFit_8h.html#ac5ebecc1cdf4196d4d2ddaeeb82a0771">MR_PointCloudPart</a> *pcp, float voxelSize, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="separator:a974495544a1ec874cd7b2f125451a697"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2975b306b91ad383d7388c3e0018074" id="r_aa2975b306b91ad383d7388c3e0018074"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2975b306b91ad383d7388c3e0018074">MR_ModelPointsData_Get_points</a> (const <a class="el" href="#ae8ceab23dca7dddaf285e74ae09d207c">MR_ModelPointsData</a> *_this)</td></tr>
+<tr class="separator:aa2975b306b91ad383d7388c3e0018074"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bc4372df3d0ccb458496f6bb1a89e63" id="r_a9bc4372df3d0ccb458496f6bb1a89e63"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9bc4372df3d0ccb458496f6bb1a89e63">MR_ModelPointsData_Set_points</a> (<a class="el" href="#ae8ceab23dca7dddaf285e74ae09d207c">MR_ModelPointsData</a> *_this, const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *value)</td></tr>
+<tr class="separator:a9bc4372df3d0ccb458496f6bb1a89e63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af542913d49e81ef7147a30e24d777758" id="r_af542913d49e81ef7147a30e24d777758"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af542913d49e81ef7147a30e24d777758">MR_ModelPointsData_GetMutable_points</a> (<a class="el" href="#ae8ceab23dca7dddaf285e74ae09d207c">MR_ModelPointsData</a> *_this)</td></tr>
+<tr class="separator:af542913d49e81ef7147a30e24d777758"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2288a246b8dae2a90518c6a860a8d0fe" id="r_a2288a246b8dae2a90518c6a860a8d0fe"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2288a246b8dae2a90518c6a860a8d0fe">MR_ModelPointsData_Get_validPoints</a> (const <a class="el" href="#ae8ceab23dca7dddaf285e74ae09d207c">MR_ModelPointsData</a> *_this)</td></tr>
+<tr class="separator:a2288a246b8dae2a90518c6a860a8d0fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e6d4c0954345385964d8cc5f52fc1fc" id="r_a8e6d4c0954345385964d8cc5f52fc1fc"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e6d4c0954345385964d8cc5f52fc1fc">MR_ModelPointsData_Set_validPoints</a> (<a class="el" href="#ae8ceab23dca7dddaf285e74ae09d207c">MR_ModelPointsData</a> *_this, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *value)</td></tr>
+<tr class="separator:a8e6d4c0954345385964d8cc5f52fc1fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38d5cf8cfe14753fcce06fb25c229b38" id="r_a38d5cf8cfe14753fcce06fb25c229b38"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38d5cf8cfe14753fcce06fb25c229b38">MR_ModelPointsData_GetMutable_validPoints</a> (<a class="el" href="#ae8ceab23dca7dddaf285e74ae09d207c">MR_ModelPointsData</a> *_this)</td></tr>
+<tr class="separator:a38d5cf8cfe14753fcce06fb25c229b38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14954ed166fe585b5facb221461a08d1" id="r_a14954ed166fe585b5facb221461a08d1"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14954ed166fe585b5facb221461a08d1">MR_ModelPointsData_Get_xf</a> (const <a class="el" href="#ae8ceab23dca7dddaf285e74ae09d207c">MR_ModelPointsData</a> *_this)</td></tr>
+<tr class="separator:a14954ed166fe585b5facb221461a08d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d6912fcf2dc44c575f4a89dc8c085c3" id="r_a6d6912fcf2dc44c575f4a89dc8c085c3"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d6912fcf2dc44c575f4a89dc8c085c3">MR_ModelPointsData_Set_xf</a> (<a class="el" href="#ae8ceab23dca7dddaf285e74ae09d207c">MR_ModelPointsData</a> *_this, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *value)</td></tr>
+<tr class="separator:a6d6912fcf2dc44c575f4a89dc8c085c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeea0fa629e1e3bd104b4d80c6578b25c" id="r_aeea0fa629e1e3bd104b4d80c6578b25c"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeea0fa629e1e3bd104b4d80c6578b25c">MR_ModelPointsData_GetMutable_xf</a> (<a class="el" href="#ae8ceab23dca7dddaf285e74ae09d207c">MR_ModelPointsData</a> *_this)</td></tr>
+<tr class="separator:aeea0fa629e1e3bd104b4d80c6578b25c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ebd3a051e1769b596ad7bc6594aed0b" id="r_a1ebd3a051e1769b596ad7bc6594aed0b"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__ObjId.html">MR_ObjId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ebd3a051e1769b596ad7bc6594aed0b">MR_ModelPointsData_Get_fakeObjId</a> (const <a class="el" href="#ae8ceab23dca7dddaf285e74ae09d207c">MR_ModelPointsData</a> *_this)</td></tr>
+<tr class="separator:a1ebd3a051e1769b596ad7bc6594aed0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd9cb6e0e4675dd9c3ea290ed75502ac" id="r_acd9cb6e0e4675dd9c3ea290ed75502ac"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd9cb6e0e4675dd9c3ea290ed75502ac">MR_ModelPointsData_Set_fakeObjId</a> (<a class="el" href="#ae8ceab23dca7dddaf285e74ae09d207c">MR_ModelPointsData</a> *_this, <a class="el" href="structMR__ObjId.html">MR_ObjId</a> value)</td></tr>
+<tr class="separator:acd9cb6e0e4675dd9c3ea290ed75502ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa9e45fd83491b1b319e9c6a7cc10fac" id="r_afa9e45fd83491b1b319e9c6a7cc10fac"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__ObjId.html">MR_ObjId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa9e45fd83491b1b319e9c6a7cc10fac">MR_ModelPointsData_GetMutable_fakeObjId</a> (<a class="el" href="#ae8ceab23dca7dddaf285e74ae09d207c">MR_ModelPointsData</a> *_this)</td></tr>
+<tr class="separator:afa9e45fd83491b1b319e9c6a7cc10fac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb45295c8d33834154d2cbedd377c761" id="r_acb45295c8d33834154d2cbedd377c761"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae8ceab23dca7dddaf285e74ae09d207c">MR_ModelPointsData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb45295c8d33834154d2cbedd377c761">MR_ModelPointsData_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:acb45295c8d33834154d2cbedd377c761"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5d01eaff3b6228230b2a272a08c71dd" id="r_af5d01eaff3b6228230b2a272a08c71dd"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae8ceab23dca7dddaf285e74ae09d207c">MR_ModelPointsData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af5d01eaff3b6228230b2a272a08c71dd">MR_ModelPointsData_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:af5d01eaff3b6228230b2a272a08c71dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa242dffb5720c5a918baed3b8b9a5164" id="r_aa242dffb5720c5a918baed3b8b9a5164"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae8ceab23dca7dddaf285e74ae09d207c">MR_ModelPointsData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa242dffb5720c5a918baed3b8b9a5164">MR_ModelPointsData_ConstructFrom</a> (const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *points, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *validPoints, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *xf, <a class="el" href="structMR__ObjId.html">MR_ObjId</a> fakeObjId)</td></tr>
+<tr class="separator:aa242dffb5720c5a918baed3b8b9a5164"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ba7cf2e15dee1d4978b451718b0a739" id="r_a5ba7cf2e15dee1d4978b451718b0a739"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#ae8ceab23dca7dddaf285e74ae09d207c">MR_ModelPointsData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ba7cf2e15dee1d4978b451718b0a739">MR_ModelPointsData_OffsetPtr</a> (const <a class="el" href="#ae8ceab23dca7dddaf285e74ae09d207c">MR_ModelPointsData</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a5ba7cf2e15dee1d4978b451718b0a739"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a5ba7cf2e15dee1d4978b451718b0a739"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2d490fecd07707eadbc5437f703ddf0" id="r_af2d490fecd07707eadbc5437f703ddf0"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae8ceab23dca7dddaf285e74ae09d207c">MR_ModelPointsData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af2d490fecd07707eadbc5437f703ddf0">MR_ModelPointsData_OffsetMutablePtr</a> (<a class="el" href="#ae8ceab23dca7dddaf285e74ae09d207c">MR_ModelPointsData</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:af2d490fecd07707eadbc5437f703ddf0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:af2d490fecd07707eadbc5437f703ddf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf54aaaf709b588fbc79f73646590be1" id="r_acf54aaaf709b588fbc79f73646590be1"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae8ceab23dca7dddaf285e74ae09d207c">MR_ModelPointsData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf54aaaf709b588fbc79f73646590be1">MR_ModelPointsData_ConstructFromAnother</a> (const <a class="el" href="#ae8ceab23dca7dddaf285e74ae09d207c">MR_ModelPointsData</a> *_other)</td></tr>
+<tr class="separator:acf54aaaf709b588fbc79f73646590be1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd366c90930efc4cff92b29b6b880a13" id="r_abd366c90930efc4cff92b29b6b880a13"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd366c90930efc4cff92b29b6b880a13">MR_ModelPointsData_Destroy</a> (const <a class="el" href="#ae8ceab23dca7dddaf285e74ae09d207c">MR_ModelPointsData</a> *_this)</td></tr>
+<tr class="memdesc:abd366c90930efc4cff92b29b6b880a13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_ModelPointsData</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:abd366c90930efc4cff92b29b6b880a13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7aa1bcade099df009b57ec477aa24123" id="r_a7aa1bcade099df009b57ec477aa24123"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7aa1bcade099df009b57ec477aa24123">MR_ModelPointsData_DestroyArray</a> (const <a class="el" href="#ae8ceab23dca7dddaf285e74ae09d207c">MR_ModelPointsData</a> *_this)</td></tr>
+<tr class="memdesc:a7aa1bcade099df009b57ec477aa24123"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_ModelPointsData</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a7aa1bcade099df009b57ec477aa24123"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e8d765baec698879692d306507b03a1" id="r_a0e8d765baec698879692d306507b03a1"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae8ceab23dca7dddaf285e74ae09d207c">MR_ModelPointsData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e8d765baec698879692d306507b03a1">MR_ModelPointsData_AssignFromAnother</a> (<a class="el" href="#ae8ceab23dca7dddaf285e74ae09d207c">MR_ModelPointsData</a> *_this, const <a class="el" href="#ae8ceab23dca7dddaf285e74ae09d207c">MR_ModelPointsData</a> *_other)</td></tr>
+<tr class="separator:a0e8d765baec698879692d306507b03a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f15ec00f1a884ccad91775a6f30457f" id="r_a6f15ec00f1a884ccad91775a6f30457f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__ObjVertId.html">MR_ObjVertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f15ec00f1a884ccad91775a6f30457f">MR_ObjVertId_DefaultConstruct</a> (void)</td></tr>
+<tr class="memdesc:a6f15ec00f1a884ccad91775a6f30457f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an empty (default-constructed) instance.  <br /></td></tr>
+<tr class="separator:a6f15ec00f1a884ccad91775a6f30457f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2acf3f0581afe41155c648c40fb715f" id="r_ae2acf3f0581afe41155c648c40fb715f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__ObjVertId.html">MR_ObjVertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae2acf3f0581afe41155c648c40fb715f">MR_ObjVertId_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:ae2acf3f0581afe41155c648c40fb715f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75e38fb96745ddd8b4d0decb15cb8ebc" id="r_a75e38fb96745ddd8b4d0decb15cb8ebc"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75e38fb96745ddd8b4d0decb15cb8ebc">MR_equal_MR_ObjVertId</a> (const <a class="el" href="structMR__ObjVertId.html">MR_ObjVertId</a> *_1, const <a class="el" href="structMR__ObjVertId.html">MR_ObjVertId</a> *_2)</td></tr>
+<tr class="separator:a75e38fb96745ddd8b4d0decb15cb8ebc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb31c2252fa17c7f21236df05f753448" id="r_afb31c2252fa17c7f21236df05f753448"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae1286432b335d8b4c779dca862ef8e52">MR_std_optional_std_vector_MR_ObjVertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afb31c2252fa17c7f21236df05f753448">MR_multiModelGridSampling</a> (const <a class="el" href="#ac02da2bc53860b2b70f391049eac5e2a">MR_Vector_MR_ModelPointsData_MR_ObjId</a> *models, float voxelSize, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="separator:afb31c2252fa17c7f21236df05f753448"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a88a1df6fb138786a55241b1d77a4b0cc" name="a88a1df6fb138786a55241b1d77a4b0cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88a1df6fb138786a55241b1d77a4b0cc">&#9670;&#160;</a></span>MR_AffineXf3f</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct MR_AffineXf3f MR_AffineXf3f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af1ba30a3fa8a895c1f72e182f3e73e17" name="af1ba30a3fa8a895c1f72e182f3e73e17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1ba30a3fa8a895c1f72e182f3e73e17">&#9670;&#160;</a></span>MR_MeshPart</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae8ceab23dca7dddaf285e74ae09d207c" name="ae8ceab23dca7dddaf285e74ae09d207c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8ceab23dca7dddaf285e74ae09d207c">&#9670;&#160;</a></span>MR_ModelPointsData</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#ae8ceab23dca7dddaf285e74ae09d207c">MR_ModelPointsData</a> <a class="el" href="#ae8ceab23dca7dddaf285e74ae09d207c">MR_ModelPointsData</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>structure to contain pointers to model data Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1ModelPointsData.html">MR::ModelPointsData</a></code>. </p>
+
+</div>
+</div>
+<a id="a88b00e6d4801cafab9a50d688eeb649d" name="a88b00e6d4801cafab9a50d688eeb649d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88b00e6d4801cafab9a50d688eeb649d">&#9670;&#160;</a></span>MR_ObjVertId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct MR_ObjVertId MR_ObjVertId</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1ObjVertId.html">MR::ObjVertId</a></code>. </p>
+
+</div>
+</div>
+<a id="ac5ebecc1cdf4196d4d2ddaeeb82a0771" name="ac5ebecc1cdf4196d4d2ddaeeb82a0771"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5ebecc1cdf4196d4d2ddaeeb82a0771">&#9670;&#160;</a></span>MR_PointCloudPart</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRBestFit_8h.html#ac5ebecc1cdf4196d4d2ddaeeb82a0771">MR_PointCloudPart</a> <a class="el" href="MRBestFit_8h.html#ac5ebecc1cdf4196d4d2ddaeeb82a0771">MR_PointCloudPart</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adb03ce28cacfff1e499d75d512dc4a84" name="adb03ce28cacfff1e499d75d512dc4a84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb03ce28cacfff1e499d75d512dc4a84">&#9670;&#160;</a></span>MR_std_function_bool_from_float</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0d97f913ba505f7b3b5f786c0437a6dc" name="a0d97f913ba505f7b3b5f786c0437a6dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d97f913ba505f7b3b5f786c0437a6dc">&#9670;&#160;</a></span>MR_std_optional_MR_VertBitSet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRCloseVertices_8h.html#a0d97f913ba505f7b3b5f786c0437a6dc">MR_std_optional_MR_VertBitSet</a> <a class="el" href="MRCloseVertices_8h.html#a0d97f913ba505f7b3b5f786c0437a6dc">MR_std_optional_MR_VertBitSet</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae1286432b335d8b4c779dca862ef8e52" name="ae1286432b335d8b4c779dca862ef8e52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1286432b335d8b4c779dca862ef8e52">&#9670;&#160;</a></span>MR_std_optional_std_vector_MR_ObjVertId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#ae1286432b335d8b4c779dca862ef8e52">MR_std_optional_std_vector_MR_ObjVertId</a> <a class="el" href="#ae1286432b335d8b4c779dca862ef8e52">MR_std_optional_std_vector_MR_ObjVertId</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac02da2bc53860b2b70f391049eac5e2a" name="ac02da2bc53860b2b70f391049eac5e2a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac02da2bc53860b2b70f391049eac5e2a">&#9670;&#160;</a></span>MR_Vector_MR_ModelPointsData_MR_ObjId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#ac02da2bc53860b2b70f391049eac5e2a">MR_Vector_MR_ModelPointsData_MR_ObjId</a> <a class="el" href="#ac02da2bc53860b2b70f391049eac5e2a">MR_Vector_MR_ModelPointsData_MR_ObjId</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3df50e76b078a1626dd994e1df803764" name="a3df50e76b078a1626dd994e1df803764"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3df50e76b078a1626dd994e1df803764">&#9670;&#160;</a></span>MR_VertBitSet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a249fd9254c0c3395567807936ad32641" name="a249fd9254c0c3395567807936ad32641"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a249fd9254c0c3395567807936ad32641">&#9670;&#160;</a></span>MR_VertCoords</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a75e38fb96745ddd8b4d0decb15cb8ebc" name="a75e38fb96745ddd8b4d0decb15cb8ebc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75e38fb96745ddd8b4d0decb15cb8ebc">&#9670;&#160;</a></span>MR_equal_MR_ObjVertId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_equal_MR_ObjVertId </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR__ObjVertId.html">MR_ObjVertId</a> *</td>          <td class="paramname"><span class="paramname"><em>_1</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__ObjVertId.html">MR_ObjVertId</a> *</td>          <td class="paramname"><span class="paramname"><em>_2</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from function <code><a class="elRef" href="../Cpp/group__BasicGroup.html#ga300a438da6440ee7d2e92933bcfa6018">MR::operator==</a></code>. Parameter <code>_1</code> can not be null. Parameter <code>_2</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a0e8d765baec698879692d306507b03a1" name="a0e8d765baec698879692d306507b03a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e8d765baec698879692d306507b03a1">&#9670;&#160;</a></span>MR_ModelPointsData_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ae8ceab23dca7dddaf285e74ae09d207c">MR_ModelPointsData</a> * MR_ModelPointsData_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae8ceab23dca7dddaf285e74ae09d207c">MR_ModelPointsData</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ae8ceab23dca7dddaf285e74ae09d207c">MR_ModelPointsData</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1ModelPointsData.html">MR::ModelPointsData</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. Parameter <code>_other</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="aa242dffb5720c5a918baed3b8b9a5164" name="aa242dffb5720c5a918baed3b8b9a5164"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa242dffb5720c5a918baed3b8b9a5164">&#9670;&#160;</a></span>MR_ModelPointsData_ConstructFrom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ae8ceab23dca7dddaf285e74ae09d207c">MR_ModelPointsData</a> * MR_ModelPointsData_ConstructFrom </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>validPoints</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *</td>          <td class="paramname"><span class="paramname"><em>xf</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__ObjId.html">MR_ObjId</a></td>          <td class="paramname"><span class="paramname"><em>fakeObjId</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1ModelPointsData.html">MR::ModelPointsData</a></code> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#abd366c90930efc4cff92b29b6b880a13" title="Destroys a heap-allocated instance of MR_ModelPointsData. Does nothing if the pointer is null.">MR_ModelPointsData_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="acf54aaaf709b588fbc79f73646590be1" name="acf54aaaf709b588fbc79f73646590be1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf54aaaf709b588fbc79f73646590be1">&#9670;&#160;</a></span>MR_ModelPointsData_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ae8ceab23dca7dddaf285e74ae09d207c">MR_ModelPointsData</a> * MR_ModelPointsData_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ae8ceab23dca7dddaf285e74ae09d207c">MR_ModelPointsData</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1ModelPointsData.html">MR::ModelPointsData</a></code>. Parameter <code>_other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#abd366c90930efc4cff92b29b6b880a13" title="Destroys a heap-allocated instance of MR_ModelPointsData. Does nothing if the pointer is null.">MR_ModelPointsData_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="acb45295c8d33834154d2cbedd377c761" name="acb45295c8d33834154d2cbedd377c761"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb45295c8d33834154d2cbedd377c761">&#9670;&#160;</a></span>MR_ModelPointsData_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ae8ceab23dca7dddaf285e74ae09d207c">MR_ModelPointsData</a> * MR_ModelPointsData_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#abd366c90930efc4cff92b29b6b880a13" title="Destroys a heap-allocated instance of MR_ModelPointsData. Does nothing if the pointer is null.">MR_ModelPointsData_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="af5d01eaff3b6228230b2a272a08c71dd" name="af5d01eaff3b6228230b2a272a08c71dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5d01eaff3b6228230b2a272a08c71dd">&#9670;&#160;</a></span>MR_ModelPointsData_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ae8ceab23dca7dddaf285e74ae09d207c">MR_ModelPointsData</a> * MR_ModelPointsData_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a7aa1bcade099df009b57ec477aa24123" title="Destroys a heap-allocated array of MR_ModelPointsData. Does nothing if the pointer is null.">MR_ModelPointsData_DestroyArray()</a></code>. Use <code><a class="el" href="#af2d490fecd07707eadbc5437f703ddf0" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_ModelPointsData_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a5ba7cf2e15dee1d4978b451718b0a739" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_ModelPointsData_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="abd366c90930efc4cff92b29b6b880a13" name="abd366c90930efc4cff92b29b6b880a13"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd366c90930efc4cff92b29b6b880a13">&#9670;&#160;</a></span>MR_ModelPointsData_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_ModelPointsData_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ae8ceab23dca7dddaf285e74ae09d207c">MR_ModelPointsData</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_ModelPointsData</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a7aa1bcade099df009b57ec477aa24123" name="a7aa1bcade099df009b57ec477aa24123"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7aa1bcade099df009b57ec477aa24123">&#9670;&#160;</a></span>MR_ModelPointsData_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_ModelPointsData_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ae8ceab23dca7dddaf285e74ae09d207c">MR_ModelPointsData</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_ModelPointsData</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a1ebd3a051e1769b596ad7bc6594aed0b" name="a1ebd3a051e1769b596ad7bc6594aed0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ebd3a051e1769b596ad7bc6594aed0b">&#9670;&#160;</a></span>MR_ModelPointsData_Get_fakeObjId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="structMR__ObjId.html">MR_ObjId</a> * MR_ModelPointsData_Get_fakeObjId </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ae8ceab23dca7dddaf285e74ae09d207c">MR_ModelPointsData</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if present this value will override ObjId in result ObjVertId Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ModelPointsData.html">MR::ModelPointsData</a></code> named <code>fakeObjId</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="aa2975b306b91ad383d7388c3e0018074" name="aa2975b306b91ad383d7388c3e0018074"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2975b306b91ad383d7388c3e0018074">&#9670;&#160;</a></span>MR_ModelPointsData_Get_points()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *const  * MR_ModelPointsData_Get_points </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ae8ceab23dca7dddaf285e74ae09d207c">MR_ModelPointsData</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>all points of model Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ModelPointsData.html">MR::ModelPointsData</a></code> named <code>points</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a2288a246b8dae2a90518c6a860a8d0fe" name="a2288a246b8dae2a90518c6a860a8d0fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2288a246b8dae2a90518c6a860a8d0fe">&#9670;&#160;</a></span>MR_ModelPointsData_Get_validPoints()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *const  * MR_ModelPointsData_Get_validPoints </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ae8ceab23dca7dddaf285e74ae09d207c">MR_ModelPointsData</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>bitset of valid points Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ModelPointsData.html">MR::ModelPointsData</a></code> named <code>validPoints</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a14954ed166fe585b5facb221461a08d1" name="a14954ed166fe585b5facb221461a08d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14954ed166fe585b5facb221461a08d1">&#9670;&#160;</a></span>MR_ModelPointsData_Get_xf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *const  * MR_ModelPointsData_Get_xf </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ae8ceab23dca7dddaf285e74ae09d207c">MR_ModelPointsData</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>model world xf Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ModelPointsData.html">MR::ModelPointsData</a></code> named <code>xf</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="afa9e45fd83491b1b319e9c6a7cc10fac" name="afa9e45fd83491b1b319e9c6a7cc10fac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa9e45fd83491b1b319e9c6a7cc10fac">&#9670;&#160;</a></span>MR_ModelPointsData_GetMutable_fakeObjId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__ObjId.html">MR_ObjId</a> * MR_ModelPointsData_GetMutable_fakeObjId </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae8ceab23dca7dddaf285e74ae09d207c">MR_ModelPointsData</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if present this value will override ObjId in result ObjVertId Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ModelPointsData.html">MR::ModelPointsData</a></code> named <code>fakeObjId</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="af542913d49e81ef7147a30e24d777758" name="af542913d49e81ef7147a30e24d777758"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af542913d49e81ef7147a30e24d777758">&#9670;&#160;</a></span>MR_ModelPointsData_GetMutable_points()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> ** MR_ModelPointsData_GetMutable_points </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae8ceab23dca7dddaf285e74ae09d207c">MR_ModelPointsData</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>all points of model Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ModelPointsData.html">MR::ModelPointsData</a></code> named <code>points</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a38d5cf8cfe14753fcce06fb25c229b38" name="a38d5cf8cfe14753fcce06fb25c229b38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38d5cf8cfe14753fcce06fb25c229b38">&#9670;&#160;</a></span>MR_ModelPointsData_GetMutable_validPoints()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> ** MR_ModelPointsData_GetMutable_validPoints </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae8ceab23dca7dddaf285e74ae09d207c">MR_ModelPointsData</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>bitset of valid points Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ModelPointsData.html">MR::ModelPointsData</a></code> named <code>validPoints</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="aeea0fa629e1e3bd104b4d80c6578b25c" name="aeea0fa629e1e3bd104b4d80c6578b25c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeea0fa629e1e3bd104b4d80c6578b25c">&#9670;&#160;</a></span>MR_ModelPointsData_GetMutable_xf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> ** MR_ModelPointsData_GetMutable_xf </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae8ceab23dca7dddaf285e74ae09d207c">MR_ModelPointsData</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>model world xf Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ModelPointsData.html">MR::ModelPointsData</a></code> named <code>xf</code>. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="af2d490fecd07707eadbc5437f703ddf0" name="af2d490fecd07707eadbc5437f703ddf0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2d490fecd07707eadbc5437f703ddf0">&#9670;&#160;</a></span>MR_ModelPointsData_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ae8ceab23dca7dddaf285e74ae09d207c">MR_ModelPointsData</a> * MR_ModelPointsData_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae8ceab23dca7dddaf285e74ae09d207c">MR_ModelPointsData</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a5ba7cf2e15dee1d4978b451718b0a739" name="a5ba7cf2e15dee1d4978b451718b0a739"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ba7cf2e15dee1d4978b451718b0a739">&#9670;&#160;</a></span>MR_ModelPointsData_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#ae8ceab23dca7dddaf285e74ae09d207c">MR_ModelPointsData</a> * MR_ModelPointsData_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ae8ceab23dca7dddaf285e74ae09d207c">MR_ModelPointsData</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="acd9cb6e0e4675dd9c3ea290ed75502ac" name="acd9cb6e0e4675dd9c3ea290ed75502ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd9cb6e0e4675dd9c3ea290ed75502ac">&#9670;&#160;</a></span>MR_ModelPointsData_Set_fakeObjId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_ModelPointsData_Set_fakeObjId </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae8ceab23dca7dddaf285e74ae09d207c">MR_ModelPointsData</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__ObjId.html">MR_ObjId</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if present this value will override ObjId in result ObjVertId Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ModelPointsData.html">MR::ModelPointsData</a></code> named <code>fakeObjId</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a9bc4372df3d0ccb458496f6bb1a89e63" name="a9bc4372df3d0ccb458496f6bb1a89e63"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9bc4372df3d0ccb458496f6bb1a89e63">&#9670;&#160;</a></span>MR_ModelPointsData_Set_points()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_ModelPointsData_Set_points </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae8ceab23dca7dddaf285e74ae09d207c">MR_ModelPointsData</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>all points of model Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ModelPointsData.html">MR::ModelPointsData</a></code> named <code>points</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a8e6d4c0954345385964d8cc5f52fc1fc" name="a8e6d4c0954345385964d8cc5f52fc1fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e6d4c0954345385964d8cc5f52fc1fc">&#9670;&#160;</a></span>MR_ModelPointsData_Set_validPoints()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_ModelPointsData_Set_validPoints </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae8ceab23dca7dddaf285e74ae09d207c">MR_ModelPointsData</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>bitset of valid points Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ModelPointsData.html">MR::ModelPointsData</a></code> named <code>validPoints</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a6d6912fcf2dc44c575f4a89dc8c085c3" name="a6d6912fcf2dc44c575f4a89dc8c085c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d6912fcf2dc44c575f4a89dc8c085c3">&#9670;&#160;</a></span>MR_ModelPointsData_Set_xf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_ModelPointsData_Set_xf </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae8ceab23dca7dddaf285e74ae09d207c">MR_ModelPointsData</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>model world xf Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ModelPointsData.html">MR::ModelPointsData</a></code> named <code>xf</code>. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="afb31c2252fa17c7f21236df05f753448" name="afb31c2252fa17c7f21236df05f753448"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb31c2252fa17c7f21236df05f753448">&#9670;&#160;</a></span>MR_multiModelGridSampling()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ae1286432b335d8b4c779dca862ef8e52">MR_std_optional_std_vector_MR_ObjVertId</a> * MR_multiModelGridSampling </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ac02da2bc53860b2b70f391049eac5e2a">MR_Vector_MR_ModelPointsData_MR_ObjId</a> *</td>          <td class="paramname"><span class="paramname"><em>models</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>voxelSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>performs sampling of several models respecting their world transformations subdivides models bounding box on voxels of approximately given size and returns at most one point per voxel; returns std::nullopt if it was terminated by the callback Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a329c2a88771e4750d1a363a45246add3">MR::multiModelGridSampling</a></code>. Parameter <code>models</code> can not be null. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__optional__std__vector__MR__ObjVertId_8h.html#ab1b262165a5ee7e8a199a0bbf216ad51" title="Destroys a heap-allocated instance of MR_std_optional_std_vector_MR_ObjVertId. Does nothing if the po...">MR_std_optional_std_vector_MR_ObjVertId_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a6f15ec00f1a884ccad91775a6f30457f" name="a6f15ec00f1a884ccad91775a6f30457f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f15ec00f1a884ccad91775a6f30457f">&#9670;&#160;</a></span>MR_ObjVertId_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__ObjVertId.html">MR_ObjVertId</a> MR_ObjVertId_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Constructs an empty (default-constructed) instance. </p>
+
+</div>
+</div>
+<a id="ae2acf3f0581afe41155c648c40fb715f" name="ae2acf3f0581afe41155c648c40fb715f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2acf3f0581afe41155c648c40fb715f">&#9670;&#160;</a></span>MR_ObjVertId_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__ObjVertId.html">MR_ObjVertId</a> * MR_ObjVertId_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code>MR_ObjVertId_DestroyArray()</code>. Use <code>MR_ObjVertId_OffsetMutablePtr()</code> and <code>MR_ObjVertId_OffsetPtr()</code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a974495544a1ec874cd7b2f125451a697" name="a974495544a1ec874cd7b2f125451a697"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a974495544a1ec874cd7b2f125451a697">&#9670;&#160;</a></span>MR_pointGridSampling()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRCloseVertices_8h.html#a0d97f913ba505f7b3b5f786c0437a6dc">MR_std_optional_MR_VertBitSet</a> * MR_pointGridSampling </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRBestFit_8h.html#ac5ebecc1cdf4196d4d2ddaeeb82a0771">MR_PointCloudPart</a> *</td>          <td class="paramname"><span class="paramname"><em>pcp</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>voxelSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>performs sampling of cloud points; subdivides point cloud bounding box on voxels of approximately given size and returns at most one point per voxel; returns std::nullopt if it was terminated by the callback Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a298468d2102ba7a9ee0eb901c723fb05">MR::pointGridSampling</a></code>. Parameter <code>pcp</code> can not be null. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__optional__MR__VertBitSet_8h.html#aeea0448637c2664eb345c32a4e4a69d2" title="Destroys a heap-allocated instance of MR_std_optional_MR_VertBitSet. Does nothing if the pointer is n...">MR_std_optional_MR_VertBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a3879ec626e3e85b712ed8443e4f85f08" name="a3879ec626e3e85b712ed8443e4f85f08"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3879ec626e3e85b712ed8443e4f85f08">&#9670;&#160;</a></span>MR_verticesGridSampling()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRCloseVertices_8h.html#a0d97f913ba505f7b3b5f786c0437a6dc">MR_std_optional_MR_VertBitSet</a> * MR_verticesGridSampling </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *</td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>voxelSize</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>performs sampling of mesh vertices; subdivides mesh bounding box on voxels of approximately given size and returns at most one vertex per voxel; returns std::nullopt if it was terminated by the callback Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a1f09dea53bc42dd20b0c49da65f93de4">MR::verticesGridSampling</a></code>. Parameter <code>mp</code> can not be null. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__optional__MR__VertBitSet_8h.html#aeea0448637c2664eb345c32a4e4a69d2" title="Destroys a heap-allocated instance of MR_std_optional_MR_VertBitSet. Does nothing if the pointer is n...">MR_std_optional_MR_VertBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_87d38852fc01aff5f853718c8d8b5cb2.html">Cbindings</a></li><li class="navelem"><a class="el" href="dir_cb83f9b98dc6f67356ff76bcc17f4f67.html">MRCMesh</a></li><li class="navelem"><a class="el" href="MRGridSampling_8h.html">MRGridSampling.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

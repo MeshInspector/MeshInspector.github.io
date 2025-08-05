@@ -1,5 +1,6 @@
 var NAVTREEINDEX63 =
 {
+"classmrmeshpy_1_1Polyline2.html#afd7e9ab9f1b3d3190020c66698524e1d":[6,1,1,0,1,674,21],
 "classmrmeshpy_1_1Polyline2ProjectionWithOffsetResult.html":[6,1,0,0,2,675],
 "classmrmeshpy_1_1Polyline2ProjectionWithOffsetResult.html":[6,1,1,0,1,675],
 "classmrmeshpy_1_1Polyline2ProjectionWithOffsetResult.html#a2f3841e8e7ebbf8a415db49e85ab0c62":[6,1,0,0,2,675,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX63 =
 "classmrmeshpy_1_1PolylineToDistanceVolumeParams.html#aac3be6e45dac26bbe93c24c7a6cbb1df":[6,1,1,0,1,685,5],
 "classmrmeshpy_1_1PolylineToDistanceVolumeParams.html#acd5dfbe9cf983ac8cc2abd6c9570f29c":[6,1,0,0,2,685,7],
 "classmrmeshpy_1_1PolylineToDistanceVolumeParams.html#acd5dfbe9cf983ac8cc2abd6c9570f29c":[6,1,1,0,1,685,7],
-"classmrmeshpy_1_1PolylineToDistanceVolumeParams.html#ad76f3214093961fc983e64b195dac2cd":[6,1,0,0,2,685,1],
-"classmrmeshpy_1_1PolylineToDistanceVolumeParams.html#ad76f3214093961fc983e64b195dac2cd":[6,1,1,0,1,685,1]
+"classmrmeshpy_1_1PolylineToDistanceVolumeParams.html#ad76f3214093961fc983e64b195dac2cd":[6,1,0,0,2,685,1]
 };

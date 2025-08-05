@@ -1,5 +1,6 @@
 var NAVTREEINDEX13 =
 {
+"classmrmeshpy_1_1ChangePointCloudNormalsAction.html#a516e058acc18049c76fe76fda7a0ebaa":[6,1,1,0,1,122,1],
 "classmrmeshpy_1_1ChangePointCloudNormalsAction.html#a7a2acfe190fedeacc8f6bb0eef3a5d8b":[6,1,0,0,2,122,2],
 "classmrmeshpy_1_1ChangePointCloudNormalsAction.html#a7a2acfe190fedeacc8f6bb0eef3a5d8b":[6,1,1,0,1,122,2],
 "classmrmeshpy_1_1ChangePointCloudNormalsAction.html#a9661e2a70b15f0781b8a343b4642a1eb":[6,1,0,0,2,122,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX13 =
 "classmrmeshpy_1_1Color.html#a67d6fe1de8978240efac628ffa3ad8bb":[6,1,1,0,1,143,8],
 "classmrmeshpy_1_1Color.html#a865f12167ce1dfe87bee7fa500f4361b":[6,1,0,0,2,143,13],
 "classmrmeshpy_1_1Color.html#a865f12167ce1dfe87bee7fa500f4361b":[6,1,1,0,1,143,13],
-"classmrmeshpy_1_1Color.html#a89c72f925c67d099769d7e87336da22d":[6,1,0,0,2,143,4],
-"classmrmeshpy_1_1Color.html#a89c72f925c67d099769d7e87336da22d":[6,1,1,0,1,143,4]
+"classmrmeshpy_1_1Color.html#a89c72f925c67d099769d7e87336da22d":[6,1,0,0,2,143,4]
 };

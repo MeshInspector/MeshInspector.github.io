@@ -1,5 +1,6 @@
 var NAVTREEINDEX46 =
 {
+"classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__SimpleVolumeMinMax.html#a14857b3ad050184a017f0e26565539ed":[6,1,1,0,1,485,7],
 "classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__SimpleVolumeMinMax.html#a1523c6688a6e1cc1481a44525fc2ab91":[6,1,0,0,2,485,1],
 "classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__SimpleVolumeMinMax.html#a1523c6688a6e1cc1481a44525fc2ab91":[6,1,1,0,1,485,1],
 "classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__SimpleVolumeMinMax.html#a38493b53ab4c036f8f981b1226eb05f9":[6,1,0,0,2,485,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX46 =
 "classmrmeshpy_1_1MeshProjectionParameters.html#ade77b7d309a3b8a5bf4dc203c319d708":[6,1,1,0,1,496,0],
 "classmrmeshpy_1_1MeshProjectionParameters.html#afbf6cf1408c58b02fa4ae62fcf692a45":[6,1,0,0,2,496,2],
 "classmrmeshpy_1_1MeshProjectionParameters.html#afbf6cf1408c58b02fa4ae62fcf692a45":[6,1,1,0,1,496,2],
-"classmrmeshpy_1_1MeshProjectionResult.html":[6,1,0,0,2,497],
-"classmrmeshpy_1_1MeshProjectionResult.html":[6,1,1,0,1,497]
+"classmrmeshpy_1_1MeshProjectionResult.html":[6,1,0,0,2,497]
 };

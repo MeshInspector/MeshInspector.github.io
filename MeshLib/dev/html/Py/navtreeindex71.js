@@ -1,5 +1,6 @@
 var NAVTREEINDEX71 =
 {
+"classmrmeshpy_1_1SetNew.html#ad80d6afffdbaa79c74cc209c84a0e857":[6,1,1,0,1,756,1],
 "classmrmeshpy_1_1SharpOffsetParameters.html":[6,1,0,0,2,758],
 "classmrmeshpy_1_1SharpOffsetParameters.html":[6,1,1,0,1,758],
 "classmrmeshpy_1_1SharpOffsetParameters.html#a42cb0620e1bbf2522a84888242cdf0f3":[6,1,0,0,2,758,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX71 =
 "classmrmeshpy_1_1SliceInfoBase.html#a0cd0c41135a316f4d59f102459c57e37":[6,1,1,0,1,772,0],
 "classmrmeshpy_1_1SliceInfoBase.html#a0f6442fad5ae3e55de6365d3d55bcbba":[6,1,0,0,2,772,1],
 "classmrmeshpy_1_1SliceInfoBase.html#a0f6442fad5ae3e55de6365d3d55bcbba":[6,1,1,0,1,772,1],
-"classmrmeshpy_1_1SliceInfoBase.html#a58acd2a99f05107e7dd7344cc5970b55":[6,1,0,0,2,772,6],
-"classmrmeshpy_1_1SliceInfoBase.html#a58acd2a99f05107e7dd7344cc5970b55":[6,1,1,0,1,772,6]
+"classmrmeshpy_1_1SliceInfoBase.html#a58acd2a99f05107e7dd7344cc5970b55":[6,1,0,0,2,772,6]
 };

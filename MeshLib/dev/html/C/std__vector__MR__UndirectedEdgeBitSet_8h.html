@@ -1,0 +1,1790 @@
+<!-- HTML header for doxygen 1.11.0-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+<meta name="robots" content="noindex"/>
+<script type="text/javascript">
+  !function () {
+    var currentHost = window.location.hostname;
+    var currentPath = window.location.pathname;
+    if (currentHost === 'meshinspector.github.io' && !currentPath.includes('/MeshLib/dev/')) {
+      var newPath = currentPath.replace('/MeshLib/html', '/documentation');
+      var newURL = 'https://meshlib.io' + newPath + window.location.search + window.location.hash;
+      window.location.replace(newURL);
+    }
+  }();
+</script>
+<script>
+  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
+  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
+  analytics.page();
+  }}();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MBPLX27B');</script>
+  <!-- End Google Tag Manager -->
+<meta name="robots" content="noindex, nofollow">
+ <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>MeshLib C Docs: std_vector_MR_UndirectedEdgeBitSet.h File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="CustomStyle.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeDarkModeToggle.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeInteractiveToc.init()
+</script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeTabs.init()
+</script>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBPLX27B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><a href="https://meshlib.io/"><img alt="Logo" src="favicon.ico"/></a></td>
+  <td id="projectalign">
+   <div id="projectname">MeshLib C Docs
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('std__vector__MR__UndirectedEdgeBitSet_8h.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">std_vector_MR_UndirectedEdgeBitSet.h File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
+</div>
+<p><a href="std__vector__MR__UndirectedEdgeBitSet_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:ac7f59a6736b29701d7e619412b6e2890" id="r_ac7f59a6736b29701d7e619412b6e2890"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a></td></tr>
+<tr class="separator:ac7f59a6736b29701d7e619412b6e2890"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4dc8885d6b62886c37f07eec1cd9ad2e" id="r_a4dc8885d6b62886c37f07eec1cd9ad2e"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a></td></tr>
+<tr class="separator:a4dc8885d6b62886c37f07eec1cd9ad2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7139b4bddfc3f9b96591219e4f5cbe1c" id="r_a7139b4bddfc3f9b96591219e4f5cbe1c"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a7139b4bddfc3f9b96591219e4f5cbe1c">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7139b4bddfc3f9b96591219e4f5cbe1c">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator</a></td></tr>
+<tr class="separator:a7139b4bddfc3f9b96591219e4f5cbe1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a257b6618d57df200c0e23acabafa5adc" id="r_a257b6618d57df200c0e23acabafa5adc"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a257b6618d57df200c0e23acabafa5adc">MR_std_vector_MR_UndirectedEdgeBitSet_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a257b6618d57df200c0e23acabafa5adc">MR_std_vector_MR_UndirectedEdgeBitSet_iterator</a></td></tr>
+<tr class="separator:a257b6618d57df200c0e23acabafa5adc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:aaac3912e422353116cf6e2e0123d7822" id="r_aaac3912e422353116cf6e2e0123d7822"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaac3912e422353116cf6e2e0123d7822">MR_std_vector_MR_UndirectedEdgeBitSet_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:aaac3912e422353116cf6e2e0123d7822"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad98eb43c5065b25704739feadb2a50a9" id="r_ad98eb43c5065b25704739feadb2a50a9"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad98eb43c5065b25704739feadb2a50a9">MR_std_vector_MR_UndirectedEdgeBitSet_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:ad98eb43c5065b25704739feadb2a50a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae316152967222ccabbe7ac1ab9830f14" id="r_ae316152967222ccabbe7ac1ab9830f14"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae316152967222ccabbe7ac1ab9830f14">MR_std_vector_MR_UndirectedEdgeBitSet_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> other_pass_by, <a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *other)</td></tr>
+<tr class="separator:ae316152967222ccabbe7ac1ab9830f14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a471cd24b9d78209823c35998154d899b" id="r_a471cd24b9d78209823c35998154d899b"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a471cd24b9d78209823c35998154d899b">MR_std_vector_MR_UndirectedEdgeBitSet_AssignFromAnother</a> (<a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> other_pass_by, <a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *other)</td></tr>
+<tr class="separator:a471cd24b9d78209823c35998154d899b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e87bd6bc73a883ab26f62e4141e2bd8" id="r_a4e87bd6bc73a883ab26f62e4141e2bd8"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e87bd6bc73a883ab26f62e4141e2bd8">MR_std_vector_MR_UndirectedEdgeBitSet_Destroy</a> (const <a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *_this)</td></tr>
+<tr class="memdesc:a4e87bd6bc73a883ab26f62e4141e2bd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_std_vector_MR_UndirectedEdgeBitSet</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a4e87bd6bc73a883ab26f62e4141e2bd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d14a8b9226ab85219e695a7be58a10c" id="r_a9d14a8b9226ab85219e695a7be58a10c"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d14a8b9226ab85219e695a7be58a10c">MR_std_vector_MR_UndirectedEdgeBitSet_DestroyArray</a> (const <a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *_this)</td></tr>
+<tr class="memdesc:a9d14a8b9226ab85219e695a7be58a10c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_std_vector_MR_UndirectedEdgeBitSet</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a9d14a8b9226ab85219e695a7be58a10c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29747afce8a07c9840b5465b2bb0a590" id="r_a29747afce8a07c9840b5465b2bb0a590"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29747afce8a07c9840b5465b2bb0a590">MR_std_vector_MR_UndirectedEdgeBitSet_OffsetPtr</a> (const <a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a29747afce8a07c9840b5465b2bb0a590"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a29747afce8a07c9840b5465b2bb0a590"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a614b76e34a5bda98c801cda6ff64e8ca" id="r_a614b76e34a5bda98c801cda6ff64e8ca"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a614b76e34a5bda98c801cda6ff64e8ca">MR_std_vector_MR_UndirectedEdgeBitSet_OffsetMutablePtr</a> (<a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a614b76e34a5bda98c801cda6ff64e8ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a614b76e34a5bda98c801cda6ff64e8ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac060e30af60b4c53d626aa53120287e2" id="r_ac060e30af60b4c53d626aa53120287e2"><td class="memItemLeft" align="right" valign="top">MRC_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac060e30af60b4c53d626aa53120287e2">MR_std_vector_MR_UndirectedEdgeBitSet_Size</a> (const <a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *_this)</td></tr>
+<tr class="separator:ac060e30af60b4c53d626aa53120287e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace642fb244060ff18beb1d5ba4a34a68" id="r_ace642fb244060ff18beb1d5ba4a34a68"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace642fb244060ff18beb1d5ba4a34a68">MR_std_vector_MR_UndirectedEdgeBitSet_IsEmpty</a> (const <a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *_this)</td></tr>
+<tr class="separator:ace642fb244060ff18beb1d5ba4a34a68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89e559b3e8183fa0bdce2847835bdc38" id="r_a89e559b3e8183fa0bdce2847835bdc38"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a89e559b3e8183fa0bdce2847835bdc38">MR_std_vector_MR_UndirectedEdgeBitSet_Resize</a> (<a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *_this, size_t new_size)</td></tr>
+<tr class="separator:a89e559b3e8183fa0bdce2847835bdc38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a212c96bf16961274c8e80e2710904433" id="r_a212c96bf16961274c8e80e2710904433"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a212c96bf16961274c8e80e2710904433">MR_std_vector_MR_UndirectedEdgeBitSet_ResizeWithDefaultValue</a> (<a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *_this, size_t new_size, const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *value)</td></tr>
+<tr class="separator:a212c96bf16961274c8e80e2710904433"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad805ad472e66ae0ffdcac8971e6b8da2" id="r_ad805ad472e66ae0ffdcac8971e6b8da2"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad805ad472e66ae0ffdcac8971e6b8da2">MR_std_vector_MR_UndirectedEdgeBitSet_Clear</a> (<a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *_this)</td></tr>
+<tr class="separator:ad805ad472e66ae0ffdcac8971e6b8da2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e50ce85c62807c849b218803c77b939" id="r_a1e50ce85c62807c849b218803c77b939"><td class="memItemLeft" align="right" valign="top">MRC_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e50ce85c62807c849b218803c77b939">MR_std_vector_MR_UndirectedEdgeBitSet_Capacity</a> (const <a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *_this)</td></tr>
+<tr class="separator:a1e50ce85c62807c849b218803c77b939"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a044565532f5b3f626d35c563dba129d7" id="r_a044565532f5b3f626d35c563dba129d7"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a044565532f5b3f626d35c563dba129d7">MR_std_vector_MR_UndirectedEdgeBitSet_Reserve</a> (<a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *_this, size_t new_capacity)</td></tr>
+<tr class="separator:a044565532f5b3f626d35c563dba129d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa849115f589e2f2192c4f87ede8be286" id="r_aa849115f589e2f2192c4f87ede8be286"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa849115f589e2f2192c4f87ede8be286">MR_std_vector_MR_UndirectedEdgeBitSet_ShrinkToFit</a> (<a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *_this)</td></tr>
+<tr class="separator:aa849115f589e2f2192c4f87ede8be286"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae843dddcf8e515d0b21c11b2f40c5e56" id="r_ae843dddcf8e515d0b21c11b2f40c5e56"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae843dddcf8e515d0b21c11b2f40c5e56">MR_std_vector_MR_UndirectedEdgeBitSet_At</a> (const <a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *_this, size_t i)</td></tr>
+<tr class="separator:ae843dddcf8e515d0b21c11b2f40c5e56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a608c404b69157efc803a52304924c7b5" id="r_a608c404b69157efc803a52304924c7b5"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a608c404b69157efc803a52304924c7b5">MR_std_vector_MR_UndirectedEdgeBitSet_MutableAt</a> (<a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *_this, size_t i)</td></tr>
+<tr class="separator:a608c404b69157efc803a52304924c7b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2014ea5353cdc7947290f91afe8ad344" id="r_a2014ea5353cdc7947290f91afe8ad344"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2014ea5353cdc7947290f91afe8ad344">MR_std_vector_MR_UndirectedEdgeBitSet_Front</a> (const <a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *_this)</td></tr>
+<tr class="separator:a2014ea5353cdc7947290f91afe8ad344"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8bf4021f9e30a4b5b900d765bec505a" id="r_ae8bf4021f9e30a4b5b900d765bec505a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae8bf4021f9e30a4b5b900d765bec505a">MR_std_vector_MR_UndirectedEdgeBitSet_MutableFront</a> (<a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *_this)</td></tr>
+<tr class="separator:ae8bf4021f9e30a4b5b900d765bec505a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d2589012bec6bc0ed318bbfe4d5a8e5" id="r_a9d2589012bec6bc0ed318bbfe4d5a8e5"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d2589012bec6bc0ed318bbfe4d5a8e5">MR_std_vector_MR_UndirectedEdgeBitSet_Back</a> (const <a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *_this)</td></tr>
+<tr class="separator:a9d2589012bec6bc0ed318bbfe4d5a8e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92026d76c15f0293b8c64284de49daa6" id="r_a92026d76c15f0293b8c64284de49daa6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a92026d76c15f0293b8c64284de49daa6">MR_std_vector_MR_UndirectedEdgeBitSet_MutableBack</a> (<a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *_this)</td></tr>
+<tr class="separator:a92026d76c15f0293b8c64284de49daa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3be908cc865d5e4fa8d731f1e0692063" id="r_a3be908cc865d5e4fa8d731f1e0692063"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3be908cc865d5e4fa8d731f1e0692063">MR_std_vector_MR_UndirectedEdgeBitSet_PushBack</a> (<a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> new_elem_pass_by, <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *new_elem)</td></tr>
+<tr class="separator:a3be908cc865d5e4fa8d731f1e0692063"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa18bb533c57583bbb33544fc7aa8c762" id="r_aa18bb533c57583bbb33544fc7aa8c762"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa18bb533c57583bbb33544fc7aa8c762">MR_std_vector_MR_UndirectedEdgeBitSet_PopBack</a> (<a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *_this)</td></tr>
+<tr class="separator:aa18bb533c57583bbb33544fc7aa8c762"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8091fdc7b086ab59277de90128051cec" id="r_a8091fdc7b086ab59277de90128051cec"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8091fdc7b086ab59277de90128051cec">MR_std_vector_MR_UndirectedEdgeBitSet_Insert</a> (<a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *_this, size_t position, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> new_elem_pass_by, <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *new_elem)</td></tr>
+<tr class="separator:a8091fdc7b086ab59277de90128051cec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a103563a39d6205f047783c5b6ce9dde1" id="r_a103563a39d6205f047783c5b6ce9dde1"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a103563a39d6205f047783c5b6ce9dde1">MR_std_vector_MR_UndirectedEdgeBitSet_Erase</a> (<a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *_this, size_t position)</td></tr>
+<tr class="separator:a103563a39d6205f047783c5b6ce9dde1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a726e5857fed756dcbf79f4204a401aee" id="r_a726e5857fed756dcbf79f4204a401aee"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a726e5857fed756dcbf79f4204a401aee">MR_std_vector_MR_UndirectedEdgeBitSet_InsertAtMutableIter</a> (<a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *_this, const <a class="el" href="#a257b6618d57df200c0e23acabafa5adc">MR_std_vector_MR_UndirectedEdgeBitSet_iterator</a> *position, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> new_elem_pass_by, <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *new_elem)</td></tr>
+<tr class="separator:a726e5857fed756dcbf79f4204a401aee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc7ac603d83147f1fb8152b14f4f9fbf" id="r_abc7ac603d83147f1fb8152b14f4f9fbf"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc7ac603d83147f1fb8152b14f4f9fbf">MR_std_vector_MR_UndirectedEdgeBitSet_EraseAtMutableIter</a> (<a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *_this, const <a class="el" href="#a257b6618d57df200c0e23acabafa5adc">MR_std_vector_MR_UndirectedEdgeBitSet_iterator</a> *position)</td></tr>
+<tr class="separator:abc7ac603d83147f1fb8152b14f4f9fbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9048a0b500e7f836e525dcfe49e21e92" id="r_a9048a0b500e7f836e525dcfe49e21e92"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9048a0b500e7f836e525dcfe49e21e92">MR_std_vector_MR_UndirectedEdgeBitSet_InsertAtIter</a> (<a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *_this, const <a class="el" href="#a7139b4bddfc3f9b96591219e4f5cbe1c">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator</a> *position, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> new_elem_pass_by, <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *new_elem)</td></tr>
+<tr class="separator:a9048a0b500e7f836e525dcfe49e21e92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59b2d622447b144f289bc1667e92f0c2" id="r_a59b2d622447b144f289bc1667e92f0c2"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59b2d622447b144f289bc1667e92f0c2">MR_std_vector_MR_UndirectedEdgeBitSet_EraseAtIter</a> (<a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *_this, const <a class="el" href="#a7139b4bddfc3f9b96591219e4f5cbe1c">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator</a> *position)</td></tr>
+<tr class="separator:a59b2d622447b144f289bc1667e92f0c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d0cc35ecbcdb5867d763e41e8d885f4" id="r_a7d0cc35ecbcdb5867d763e41e8d885f4"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a7139b4bddfc3f9b96591219e4f5cbe1c">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d0cc35ecbcdb5867d763e41e8d885f4">MR_std_vector_MR_UndirectedEdgeBitSet_Begin</a> (const <a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *_this)</td></tr>
+<tr class="separator:a7d0cc35ecbcdb5867d763e41e8d885f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af429bb9c778c31e0876ff0bc97dce144" id="r_af429bb9c778c31e0876ff0bc97dce144"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af429bb9c778c31e0876ff0bc97dce144">MR_std_vector_MR_UndirectedEdgeBitSet_IsBegin</a> (const <a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *_this, const <a class="el" href="#a7139b4bddfc3f9b96591219e4f5cbe1c">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator</a> *iter)</td></tr>
+<tr class="separator:af429bb9c778c31e0876ff0bc97dce144"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a432ff13b985f0c43f5daf21601abef74" id="r_a432ff13b985f0c43f5daf21601abef74"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a257b6618d57df200c0e23acabafa5adc">MR_std_vector_MR_UndirectedEdgeBitSet_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a432ff13b985f0c43f5daf21601abef74">MR_std_vector_MR_UndirectedEdgeBitSet_MutableBegin</a> (<a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *_this)</td></tr>
+<tr class="separator:a432ff13b985f0c43f5daf21601abef74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac712f1e78a240e3c7f4cd249625e3d73" id="r_ac712f1e78a240e3c7f4cd249625e3d73"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac712f1e78a240e3c7f4cd249625e3d73">MR_std_vector_MR_UndirectedEdgeBitSet_IsMutableBegin</a> (<a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *_this, const <a class="el" href="#a257b6618d57df200c0e23acabafa5adc">MR_std_vector_MR_UndirectedEdgeBitSet_iterator</a> *iter)</td></tr>
+<tr class="separator:ac712f1e78a240e3c7f4cd249625e3d73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49d74f8fcc99bda918dc96977d06b6ab" id="r_a49d74f8fcc99bda918dc96977d06b6ab"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a7139b4bddfc3f9b96591219e4f5cbe1c">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49d74f8fcc99bda918dc96977d06b6ab">MR_std_vector_MR_UndirectedEdgeBitSet_End</a> (const <a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *_this)</td></tr>
+<tr class="separator:a49d74f8fcc99bda918dc96977d06b6ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ab619747635c1182f1307e520f5151b" id="r_a2ab619747635c1182f1307e520f5151b"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ab619747635c1182f1307e520f5151b">MR_std_vector_MR_UndirectedEdgeBitSet_IsEnd</a> (const <a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *_this, const <a class="el" href="#a7139b4bddfc3f9b96591219e4f5cbe1c">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator</a> *iter)</td></tr>
+<tr class="separator:a2ab619747635c1182f1307e520f5151b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76784dfbdbdb1d9ac3fecded58bd9fff" id="r_a76784dfbdbdb1d9ac3fecded58bd9fff"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a257b6618d57df200c0e23acabafa5adc">MR_std_vector_MR_UndirectedEdgeBitSet_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a76784dfbdbdb1d9ac3fecded58bd9fff">MR_std_vector_MR_UndirectedEdgeBitSet_MutableEnd</a> (<a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *_this)</td></tr>
+<tr class="separator:a76784dfbdbdb1d9ac3fecded58bd9fff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1de5f4c3879b960fe5dfeccb15d21cb6" id="r_a1de5f4c3879b960fe5dfeccb15d21cb6"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1de5f4c3879b960fe5dfeccb15d21cb6">MR_std_vector_MR_UndirectedEdgeBitSet_IsMutableEnd</a> (<a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *_this, const <a class="el" href="#a257b6618d57df200c0e23acabafa5adc">MR_std_vector_MR_UndirectedEdgeBitSet_iterator</a> *iter)</td></tr>
+<tr class="separator:a1de5f4c3879b960fe5dfeccb15d21cb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2ff3f1e9c0e1e8c7b10d0c7a043e74f" id="r_ae2ff3f1e9c0e1e8c7b10d0c7a043e74f"><td class="memItemLeft" align="right" valign="top">MRC_API ptrdiff_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae2ff3f1e9c0e1e8c7b10d0c7a043e74f">MR_std_vector_MR_UndirectedEdgeBitSet_ToIndex</a> (const <a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *_this, const <a class="el" href="#a7139b4bddfc3f9b96591219e4f5cbe1c">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator</a> *iter)</td></tr>
+<tr class="separator:ae2ff3f1e9c0e1e8c7b10d0c7a043e74f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c5dc2e4974c35b6a1887037c82c7f88" id="r_a4c5dc2e4974c35b6a1887037c82c7f88"><td class="memItemLeft" align="right" valign="top">MRC_API ptrdiff_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c5dc2e4974c35b6a1887037c82c7f88">MR_std_vector_MR_UndirectedEdgeBitSet_MutableToIndex</a> (const <a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *_this, const <a class="el" href="#a257b6618d57df200c0e23acabafa5adc">MR_std_vector_MR_UndirectedEdgeBitSet_iterator</a> *iter)</td></tr>
+<tr class="separator:a4c5dc2e4974c35b6a1887037c82c7f88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71a6d217597fbf41ef161c88b02f9cd2" id="r_a71a6d217597fbf41ef161c88b02f9cd2"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a7139b4bddfc3f9b96591219e4f5cbe1c">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71a6d217597fbf41ef161c88b02f9cd2">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a71a6d217597fbf41ef161c88b02f9cd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01a7edca1db3cc711145d4e47aadefed" id="r_a01a7edca1db3cc711145d4e47aadefed"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a7139b4bddfc3f9b96591219e4f5cbe1c">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01a7edca1db3cc711145d4e47aadefed">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a01a7edca1db3cc711145d4e47aadefed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48e64e920e9ae0dfc7f34873e02295d5" id="r_a48e64e920e9ae0dfc7f34873e02295d5"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a7139b4bddfc3f9b96591219e4f5cbe1c">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a48e64e920e9ae0dfc7f34873e02295d5">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator_ConstructFromAnother</a> (const <a class="el" href="#a7139b4bddfc3f9b96591219e4f5cbe1c">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator</a> *other)</td></tr>
+<tr class="separator:a48e64e920e9ae0dfc7f34873e02295d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a606a3b7f917eb895bc4e95c6699b9f62" id="r_a606a3b7f917eb895bc4e95c6699b9f62"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a606a3b7f917eb895bc4e95c6699b9f62">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator_AssignFromAnother</a> (<a class="el" href="#a7139b4bddfc3f9b96591219e4f5cbe1c">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator</a> *_this, const <a class="el" href="#a7139b4bddfc3f9b96591219e4f5cbe1c">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator</a> *other)</td></tr>
+<tr class="separator:a606a3b7f917eb895bc4e95c6699b9f62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24f33f4307402ccb43b2af4b623d401d" id="r_a24f33f4307402ccb43b2af4b623d401d"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a24f33f4307402ccb43b2af4b623d401d">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator_Destroy</a> (const <a class="el" href="#a7139b4bddfc3f9b96591219e4f5cbe1c">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator</a> *_this)</td></tr>
+<tr class="memdesc:a24f33f4307402ccb43b2af4b623d401d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a24f33f4307402ccb43b2af4b623d401d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa206e173c114c1428d82fc996b270f32" id="r_aa206e173c114c1428d82fc996b270f32"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa206e173c114c1428d82fc996b270f32">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator_DestroyArray</a> (const <a class="el" href="#a7139b4bddfc3f9b96591219e4f5cbe1c">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator</a> *_this)</td></tr>
+<tr class="memdesc:aa206e173c114c1428d82fc996b270f32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:aa206e173c114c1428d82fc996b270f32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a886146a1e8d25de32ff2f7be4ca263dc" id="r_a886146a1e8d25de32ff2f7be4ca263dc"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a7139b4bddfc3f9b96591219e4f5cbe1c">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a886146a1e8d25de32ff2f7be4ca263dc">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator_OffsetPtr</a> (const <a class="el" href="#a7139b4bddfc3f9b96591219e4f5cbe1c">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a886146a1e8d25de32ff2f7be4ca263dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a886146a1e8d25de32ff2f7be4ca263dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03f93ce381bca6cf54d24e34567eebab" id="r_a03f93ce381bca6cf54d24e34567eebab"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a7139b4bddfc3f9b96591219e4f5cbe1c">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03f93ce381bca6cf54d24e34567eebab">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator_OffsetMutablePtr</a> (<a class="el" href="#a7139b4bddfc3f9b96591219e4f5cbe1c">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a03f93ce381bca6cf54d24e34567eebab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a03f93ce381bca6cf54d24e34567eebab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ed3b3d383592c6e6ec7a4a82e7e5328" id="r_a1ed3b3d383592c6e6ec7a4a82e7e5328"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a7139b4bddfc3f9b96591219e4f5cbe1c">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ed3b3d383592c6e6ec7a4a82e7e5328">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator_FromMutable</a> (const <a class="el" href="#a257b6618d57df200c0e23acabafa5adc">MR_std_vector_MR_UndirectedEdgeBitSet_iterator</a> *iter)</td></tr>
+<tr class="separator:a1ed3b3d383592c6e6ec7a4a82e7e5328"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a991f7e7a860ee639ed1b849d873a2380" id="r_a991f7e7a860ee639ed1b849d873a2380"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a257b6618d57df200c0e23acabafa5adc">MR_std_vector_MR_UndirectedEdgeBitSet_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a991f7e7a860ee639ed1b849d873a2380">MR_std_vector_MR_UndirectedEdgeBitSet_iterator_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a991f7e7a860ee639ed1b849d873a2380"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabbb16e96385d61e81967589c0e6ac08" id="r_aabbb16e96385d61e81967589c0e6ac08"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a257b6618d57df200c0e23acabafa5adc">MR_std_vector_MR_UndirectedEdgeBitSet_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aabbb16e96385d61e81967589c0e6ac08">MR_std_vector_MR_UndirectedEdgeBitSet_iterator_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:aabbb16e96385d61e81967589c0e6ac08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8da62a7f3a37daedfe266c47cd00a3a1" id="r_a8da62a7f3a37daedfe266c47cd00a3a1"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a257b6618d57df200c0e23acabafa5adc">MR_std_vector_MR_UndirectedEdgeBitSet_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8da62a7f3a37daedfe266c47cd00a3a1">MR_std_vector_MR_UndirectedEdgeBitSet_iterator_ConstructFromAnother</a> (const <a class="el" href="#a257b6618d57df200c0e23acabafa5adc">MR_std_vector_MR_UndirectedEdgeBitSet_iterator</a> *other)</td></tr>
+<tr class="separator:a8da62a7f3a37daedfe266c47cd00a3a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57cae72fd8ddfaea520a471400c52c42" id="r_a57cae72fd8ddfaea520a471400c52c42"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a57cae72fd8ddfaea520a471400c52c42">MR_std_vector_MR_UndirectedEdgeBitSet_iterator_AssignFromAnother</a> (<a class="el" href="#a257b6618d57df200c0e23acabafa5adc">MR_std_vector_MR_UndirectedEdgeBitSet_iterator</a> *_this, const <a class="el" href="#a257b6618d57df200c0e23acabafa5adc">MR_std_vector_MR_UndirectedEdgeBitSet_iterator</a> *other)</td></tr>
+<tr class="separator:a57cae72fd8ddfaea520a471400c52c42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a578591a5ef4bb6a7aeb8306de46b3cc7" id="r_a578591a5ef4bb6a7aeb8306de46b3cc7"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a578591a5ef4bb6a7aeb8306de46b3cc7">MR_std_vector_MR_UndirectedEdgeBitSet_iterator_Destroy</a> (const <a class="el" href="#a257b6618d57df200c0e23acabafa5adc">MR_std_vector_MR_UndirectedEdgeBitSet_iterator</a> *_this)</td></tr>
+<tr class="memdesc:a578591a5ef4bb6a7aeb8306de46b3cc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_std_vector_MR_UndirectedEdgeBitSet_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a578591a5ef4bb6a7aeb8306de46b3cc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaba51d0608af099508f54b0a374dfff8" id="r_aaba51d0608af099508f54b0a374dfff8"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaba51d0608af099508f54b0a374dfff8">MR_std_vector_MR_UndirectedEdgeBitSet_iterator_DestroyArray</a> (const <a class="el" href="#a257b6618d57df200c0e23acabafa5adc">MR_std_vector_MR_UndirectedEdgeBitSet_iterator</a> *_this)</td></tr>
+<tr class="memdesc:aaba51d0608af099508f54b0a374dfff8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_std_vector_MR_UndirectedEdgeBitSet_iterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:aaba51d0608af099508f54b0a374dfff8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5a279a9395f4aa66b35babb3eb4e802" id="r_ac5a279a9395f4aa66b35babb3eb4e802"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a257b6618d57df200c0e23acabafa5adc">MR_std_vector_MR_UndirectedEdgeBitSet_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac5a279a9395f4aa66b35babb3eb4e802">MR_std_vector_MR_UndirectedEdgeBitSet_iterator_OffsetPtr</a> (const <a class="el" href="#a257b6618d57df200c0e23acabafa5adc">MR_std_vector_MR_UndirectedEdgeBitSet_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:ac5a279a9395f4aa66b35babb3eb4e802"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:ac5a279a9395f4aa66b35babb3eb4e802"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa75b6ab027918214847231d1ef4ac4da" id="r_aa75b6ab027918214847231d1ef4ac4da"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a257b6618d57df200c0e23acabafa5adc">MR_std_vector_MR_UndirectedEdgeBitSet_iterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa75b6ab027918214847231d1ef4ac4da">MR_std_vector_MR_UndirectedEdgeBitSet_iterator_OffsetMutablePtr</a> (<a class="el" href="#a257b6618d57df200c0e23acabafa5adc">MR_std_vector_MR_UndirectedEdgeBitSet_iterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:aa75b6ab027918214847231d1ef4ac4da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:aa75b6ab027918214847231d1ef4ac4da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af506d3b2395488874028e8ed6abbc519" id="r_af506d3b2395488874028e8ed6abbc519"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af506d3b2395488874028e8ed6abbc519">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator_Deref</a> (const <a class="el" href="#a7139b4bddfc3f9b96591219e4f5cbe1c">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator</a> *_this)</td></tr>
+<tr class="separator:af506d3b2395488874028e8ed6abbc519"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca1a582e435572e75949b3eabea4bcb7" id="r_aca1a582e435572e75949b3eabea4bcb7"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aca1a582e435572e75949b3eabea4bcb7">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator_Incr</a> (<a class="el" href="#a7139b4bddfc3f9b96591219e4f5cbe1c">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator</a> *_this)</td></tr>
+<tr class="separator:aca1a582e435572e75949b3eabea4bcb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c9c2a4f67091dd1a34e078cc621cd1a" id="r_a1c9c2a4f67091dd1a34e078cc621cd1a"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c9c2a4f67091dd1a34e078cc621cd1a">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator_Decr</a> (<a class="el" href="#a7139b4bddfc3f9b96591219e4f5cbe1c">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator</a> *_this)</td></tr>
+<tr class="separator:a1c9c2a4f67091dd1a34e078cc621cd1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a050d9fb968c85c4f1861c0738f3e9982" id="r_a050d9fb968c85c4f1861c0738f3e9982"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a050d9fb968c85c4f1861c0738f3e9982">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator_OffsetBy</a> (<a class="el" href="#a7139b4bddfc3f9b96591219e4f5cbe1c">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator</a> *_this, ptrdiff_t delta)</td></tr>
+<tr class="separator:a050d9fb968c85c4f1861c0738f3e9982"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79a43ad3ac13ca1011b43baaf649421a" id="r_a79a43ad3ac13ca1011b43baaf649421a"><td class="memItemLeft" align="right" valign="top">MRC_API ptrdiff_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79a43ad3ac13ca1011b43baaf649421a">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator_Distance</a> (const <a class="el" href="#a7139b4bddfc3f9b96591219e4f5cbe1c">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator</a> *a, const <a class="el" href="#a7139b4bddfc3f9b96591219e4f5cbe1c">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator</a> *b)</td></tr>
+<tr class="separator:a79a43ad3ac13ca1011b43baaf649421a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accdb354b49131d92d8023bcbfbf2ccdd" id="r_accdb354b49131d92d8023bcbfbf2ccdd"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#accdb354b49131d92d8023bcbfbf2ccdd">MR_std_vector_MR_UndirectedEdgeBitSet_iterator_Deref</a> (const <a class="el" href="#a257b6618d57df200c0e23acabafa5adc">MR_std_vector_MR_UndirectedEdgeBitSet_iterator</a> *_this)</td></tr>
+<tr class="separator:accdb354b49131d92d8023bcbfbf2ccdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf9d6a5ad8e4a6e052193464ffebbb9e" id="r_abf9d6a5ad8e4a6e052193464ffebbb9e"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf9d6a5ad8e4a6e052193464ffebbb9e">MR_std_vector_MR_UndirectedEdgeBitSet_iterator_Incr</a> (<a class="el" href="#a257b6618d57df200c0e23acabafa5adc">MR_std_vector_MR_UndirectedEdgeBitSet_iterator</a> *_this)</td></tr>
+<tr class="separator:abf9d6a5ad8e4a6e052193464ffebbb9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46fe8b581df0135d53a5aff0325216aa" id="r_a46fe8b581df0135d53a5aff0325216aa"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46fe8b581df0135d53a5aff0325216aa">MR_std_vector_MR_UndirectedEdgeBitSet_iterator_Decr</a> (<a class="el" href="#a257b6618d57df200c0e23acabafa5adc">MR_std_vector_MR_UndirectedEdgeBitSet_iterator</a> *_this)</td></tr>
+<tr class="separator:a46fe8b581df0135d53a5aff0325216aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14423f5836dd3da339d65e29a0e30b16" id="r_a14423f5836dd3da339d65e29a0e30b16"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14423f5836dd3da339d65e29a0e30b16">MR_std_vector_MR_UndirectedEdgeBitSet_iterator_OffsetBy</a> (<a class="el" href="#a257b6618d57df200c0e23acabafa5adc">MR_std_vector_MR_UndirectedEdgeBitSet_iterator</a> *_this, ptrdiff_t delta)</td></tr>
+<tr class="separator:a14423f5836dd3da339d65e29a0e30b16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76ebead120d477609db2f87980c519c2" id="r_a76ebead120d477609db2f87980c519c2"><td class="memItemLeft" align="right" valign="top">MRC_API ptrdiff_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a76ebead120d477609db2f87980c519c2">MR_std_vector_MR_UndirectedEdgeBitSet_iterator_Distance</a> (const <a class="el" href="#a257b6618d57df200c0e23acabafa5adc">MR_std_vector_MR_UndirectedEdgeBitSet_iterator</a> *a, const <a class="el" href="#a257b6618d57df200c0e23acabafa5adc">MR_std_vector_MR_UndirectedEdgeBitSet_iterator</a> *b)</td></tr>
+<tr class="separator:a76ebead120d477609db2f87980c519c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a4dc8885d6b62886c37f07eec1cd9ad2e" name="a4dc8885d6b62886c37f07eec1cd9ad2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4dc8885d6b62886c37f07eec1cd9ad2e">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> <a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from C++ container <code>std::vector&lt;MR::UndirectedEdgeBitSet&gt;</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code>, (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="a7139b4bddfc3f9b96591219e4f5cbe1c" name="a7139b4bddfc3f9b96591219e4f5cbe1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7139b4bddfc3f9b96591219e4f5cbe1c">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a7139b4bddfc3f9b96591219e4f5cbe1c">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator</a> <a class="el" href="#a7139b4bddfc3f9b96591219e4f5cbe1c">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Read-only iterator for <code>MR_std_vector_MR_UndirectedEdgeBitSet</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code>, (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="a257b6618d57df200c0e23acabafa5adc" name="a257b6618d57df200c0e23acabafa5adc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a257b6618d57df200c0e23acabafa5adc">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_iterator</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a257b6618d57df200c0e23acabafa5adc">MR_std_vector_MR_UndirectedEdgeBitSet_iterator</a> <a class="el" href="#a257b6618d57df200c0e23acabafa5adc">MR_std_vector_MR_UndirectedEdgeBitSet_iterator</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Mutable iterator for <code>MR_std_vector_MR_UndirectedEdgeBitSet</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code>, (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+
+</div>
+</div>
+<a id="ac7f59a6736b29701d7e619412b6e2890" name="ac7f59a6736b29701d7e619412b6e2890"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7f59a6736b29701d7e619412b6e2890">&#9670;&#160;</a></span>MR_UndirectedEdgeBitSet</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a471cd24b9d78209823c35998154d899b" name="a471cd24b9d78209823c35998154d899b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a471cd24b9d78209823c35998154d899b">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_UndirectedEdgeBitSet_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ae843dddcf8e515d0b21c11b2f40c5e56" name="ae843dddcf8e515d0b21c11b2f40c5e56"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae843dddcf8e515d0b21c11b2f40c5e56">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_At()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> * MR_std_vector_MR_UndirectedEdgeBitSet_At </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The element at a specific index, read-only. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a9d2589012bec6bc0ed318bbfe4d5a8e5" name="a9d2589012bec6bc0ed318bbfe4d5a8e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d2589012bec6bc0ed318bbfe4d5a8e5">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_Back()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> * MR_std_vector_MR_UndirectedEdgeBitSet_Back </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The last element or null if empty, read-only. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a7d0cc35ecbcdb5867d763e41e8d885f4" name="a7d0cc35ecbcdb5867d763e41e8d885f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d0cc35ecbcdb5867d763e41e8d885f4">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_Begin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a7139b4bddfc3f9b96591219e4f5cbe1c">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator</a> * MR_std_vector_MR_UndirectedEdgeBitSet_Begin </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, const. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a24f33f4307402ccb43b2af4b623d401d" title="Destroys a heap-allocated instance of MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator....">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a1e50ce85c62807c849b218803c77b939" name="a1e50ce85c62807c849b218803c77b939"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e50ce85c62807c849b218803c77b939">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_Capacity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API size_t MR_std_vector_MR_UndirectedEdgeBitSet_Capacity </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The memory capacity, measued in the number of elements. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ad805ad472e66ae0ffdcac8971e6b8da2" name="ad805ad472e66ae0ffdcac8971e6b8da2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad805ad472e66ae0ffdcac8971e6b8da2">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_Clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_UndirectedEdgeBitSet_Clear </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Removes all elements from the container. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a606a3b7f917eb895bc4e95c6699b9f62" name="a606a3b7f917eb895bc4e95c6699b9f62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a606a3b7f917eb895bc4e95c6699b9f62">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a7139b4bddfc3f9b96591219e4f5cbe1c">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a7139b4bddfc3f9b96591219e4f5cbe1c">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <code>_this</code> can not be null. Parameter <code>other</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a48e64e920e9ae0dfc7f34873e02295d5" name="a48e64e920e9ae0dfc7f34873e02295d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48e64e920e9ae0dfc7f34873e02295d5">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a7139b4bddfc3f9b96591219e4f5cbe1c">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator</a> * MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a7139b4bddfc3f9b96591219e4f5cbe1c">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs a copy of another instance. The source remains alive. Parameter <code>other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a24f33f4307402ccb43b2af4b623d401d" title="Destroys a heap-allocated instance of MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator....">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a1c9c2a4f67091dd1a34e078cc621cd1a" name="a1c9c2a4f67091dd1a34e078cc621cd1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c9c2a4f67091dd1a34e078cc621cd1a">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator_Decr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator_Decr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a7139b4bddfc3f9b96591219e4f5cbe1c">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Decrements a const iterator. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a71a6d217597fbf41ef161c88b02f9cd2" name="a71a6d217597fbf41ef161c88b02f9cd2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71a6d217597fbf41ef161c88b02f9cd2">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a7139b4bddfc3f9b96591219e4f5cbe1c">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator</a> * MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a24f33f4307402ccb43b2af4b623d401d" title="Destroys a heap-allocated instance of MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator....">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a01a7edca1db3cc711145d4e47aadefed" name="a01a7edca1db3cc711145d4e47aadefed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01a7edca1db3cc711145d4e47aadefed">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a7139b4bddfc3f9b96591219e4f5cbe1c">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator</a> * MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#aa206e173c114c1428d82fc996b270f32" title="Destroys a heap-allocated array of MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator....">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator_DestroyArray()</a></code>. Use <code><a class="el" href="#a03f93ce381bca6cf54d24e34567eebab" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a886146a1e8d25de32ff2f7be4ca263dc" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="af506d3b2395488874028e8ed6abbc519" name="af506d3b2395488874028e8ed6abbc519"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af506d3b2395488874028e8ed6abbc519">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator_Deref()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> * MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator_Deref </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a7139b4bddfc3f9b96591219e4f5cbe1c">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Dereferences a const iterator. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a24f33f4307402ccb43b2af4b623d401d" name="a24f33f4307402ccb43b2af4b623d401d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24f33f4307402ccb43b2af4b623d401d">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a7139b4bddfc3f9b96591219e4f5cbe1c">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="aa206e173c114c1428d82fc996b270f32" name="aa206e173c114c1428d82fc996b270f32"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa206e173c114c1428d82fc996b270f32">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a7139b4bddfc3f9b96591219e4f5cbe1c">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a79a43ad3ac13ca1011b43baaf649421a" name="a79a43ad3ac13ca1011b43baaf649421a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79a43ad3ac13ca1011b43baaf649421a">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator_Distance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API ptrdiff_t MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator_Distance </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a7139b4bddfc3f9b96591219e4f5cbe1c">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a7139b4bddfc3f9b96591219e4f5cbe1c">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Computes the signed difference between two const iterators. Completes in constant time. Parameter <code>a</code> can not be null. Parameter <code>b</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a1ed3b3d383592c6e6ec7a4a82e7e5328" name="a1ed3b3d383592c6e6ec7a4a82e7e5328"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ed3b3d383592c6e6ec7a4a82e7e5328">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator_FromMutable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a7139b4bddfc3f9b96591219e4f5cbe1c">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator</a> * MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator_FromMutable </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a257b6618d57df200c0e23acabafa5adc">MR_std_vector_MR_UndirectedEdgeBitSet_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Makes a const iterator from a mutable one. Parameter <code>iter</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a24f33f4307402ccb43b2af4b623d401d" title="Destroys a heap-allocated instance of MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator....">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="aca1a582e435572e75949b3eabea4bcb7" name="aca1a582e435572e75949b3eabea4bcb7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca1a582e435572e75949b3eabea4bcb7">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator_Incr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator_Incr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a7139b4bddfc3f9b96591219e4f5cbe1c">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Increments a const iterator. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a050d9fb968c85c4f1861c0738f3e9982" name="a050d9fb968c85c4f1861c0738f3e9982"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a050d9fb968c85c4f1861c0738f3e9982">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator_OffsetBy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator_OffsetBy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a7139b4bddfc3f9b96591219e4f5cbe1c">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>delta</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Increments or decrements a const iterator by the specific amount. Completes in constant time. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a03f93ce381bca6cf54d24e34567eebab" name="a03f93ce381bca6cf54d24e34567eebab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03f93ce381bca6cf54d24e34567eebab">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a7139b4bddfc3f9b96591219e4f5cbe1c">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator</a> * MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a7139b4bddfc3f9b96591219e4f5cbe1c">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a886146a1e8d25de32ff2f7be4ca263dc" name="a886146a1e8d25de32ff2f7be4ca263dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a886146a1e8d25de32ff2f7be4ca263dc">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a7139b4bddfc3f9b96591219e4f5cbe1c">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator</a> * MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a7139b4bddfc3f9b96591219e4f5cbe1c">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="ae316152967222ccabbe7ac1ab9830f14" name="ae316152967222ccabbe7ac1ab9830f14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae316152967222ccabbe7ac1ab9830f14">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> * MR_std_vector_MR_UndirectedEdgeBitSet_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs a copy of another instance. The source remains alive. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a4e87bd6bc73a883ab26f62e4141e2bd8" title="Destroys a heap-allocated instance of MR_std_vector_MR_UndirectedEdgeBitSet. Does nothing if the poin...">MR_std_vector_MR_UndirectedEdgeBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="aaac3912e422353116cf6e2e0123d7822" name="aaac3912e422353116cf6e2e0123d7822"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaac3912e422353116cf6e2e0123d7822">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> * MR_std_vector_MR_UndirectedEdgeBitSet_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a4e87bd6bc73a883ab26f62e4141e2bd8" title="Destroys a heap-allocated instance of MR_std_vector_MR_UndirectedEdgeBitSet. Does nothing if the poin...">MR_std_vector_MR_UndirectedEdgeBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ad98eb43c5065b25704739feadb2a50a9" name="ad98eb43c5065b25704739feadb2a50a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad98eb43c5065b25704739feadb2a50a9">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> * MR_std_vector_MR_UndirectedEdgeBitSet_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a9d14a8b9226ab85219e695a7be58a10c" title="Destroys a heap-allocated array of MR_std_vector_MR_UndirectedEdgeBitSet. Does nothing if the pointer...">MR_std_vector_MR_UndirectedEdgeBitSet_DestroyArray()</a></code>. Use <code><a class="el" href="#a614b76e34a5bda98c801cda6ff64e8ca" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_UndirectedEdgeBitSet_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a29747afce8a07c9840b5465b2bb0a590" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_UndirectedEdgeBitSet_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a4e87bd6bc73a883ab26f62e4141e2bd8" name="a4e87bd6bc73a883ab26f62e4141e2bd8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e87bd6bc73a883ab26f62e4141e2bd8">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_UndirectedEdgeBitSet_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_std_vector_MR_UndirectedEdgeBitSet</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a9d14a8b9226ab85219e695a7be58a10c" name="a9d14a8b9226ab85219e695a7be58a10c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d14a8b9226ab85219e695a7be58a10c">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_UndirectedEdgeBitSet_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_std_vector_MR_UndirectedEdgeBitSet</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a49d74f8fcc99bda918dc96977d06b6ab" name="a49d74f8fcc99bda918dc96977d06b6ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49d74f8fcc99bda918dc96977d06b6ab">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_End()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a7139b4bddfc3f9b96591219e4f5cbe1c">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator</a> * MR_std_vector_MR_UndirectedEdgeBitSet_End </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, const. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a24f33f4307402ccb43b2af4b623d401d" title="Destroys a heap-allocated instance of MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator....">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a103563a39d6205f047783c5b6ce9dde1" name="a103563a39d6205f047783c5b6ce9dde1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a103563a39d6205f047783c5b6ce9dde1">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_Erase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_UndirectedEdgeBitSet_Erase </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>position</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Erases the element at the specified position. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a59b2d622447b144f289bc1667e92f0c2" name="a59b2d622447b144f289bc1667e92f0c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59b2d622447b144f289bc1667e92f0c2">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_EraseAtIter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_UndirectedEdgeBitSet_EraseAtIter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a7139b4bddfc3f9b96591219e4f5cbe1c">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>position</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Erases the element at the specified position. This version takes the position in form of a const iterator, that's the only difference. Parameter <code>_this</code> can not be null. Parameter <code>position</code> can not be null. </p>
+
+</div>
+</div>
+<a id="abc7ac603d83147f1fb8152b14f4f9fbf" name="abc7ac603d83147f1fb8152b14f4f9fbf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc7ac603d83147f1fb8152b14f4f9fbf">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_EraseAtMutableIter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_UndirectedEdgeBitSet_EraseAtMutableIter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a257b6618d57df200c0e23acabafa5adc">MR_std_vector_MR_UndirectedEdgeBitSet_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>position</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Erases the element at the specified position. Parameter <code>_this</code> can not be null. Parameter <code>position</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a2014ea5353cdc7947290f91afe8ad344" name="a2014ea5353cdc7947290f91afe8ad344"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2014ea5353cdc7947290f91afe8ad344">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_Front()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> * MR_std_vector_MR_UndirectedEdgeBitSet_Front </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The first element or null if empty, read-only. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a8091fdc7b086ab59277de90128051cec" name="a8091fdc7b086ab59277de90128051cec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8091fdc7b086ab59277de90128051cec">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_Insert()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_UndirectedEdgeBitSet_Insert </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>new_elem_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>new_elem</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Inserts a new element right before the specified position. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a9048a0b500e7f836e525dcfe49e21e92" name="a9048a0b500e7f836e525dcfe49e21e92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9048a0b500e7f836e525dcfe49e21e92">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_InsertAtIter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_UndirectedEdgeBitSet_InsertAtIter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a7139b4bddfc3f9b96591219e4f5cbe1c">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>new_elem_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>new_elem</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Inserts a new element right before the specified position. This version takes the position in form of a const iterator, that's the only difference. Parameter <code>_this</code> can not be null. Parameter <code>position</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a726e5857fed756dcbf79f4204a401aee" name="a726e5857fed756dcbf79f4204a401aee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a726e5857fed756dcbf79f4204a401aee">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_InsertAtMutableIter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_UndirectedEdgeBitSet_InsertAtMutableIter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a257b6618d57df200c0e23acabafa5adc">MR_std_vector_MR_UndirectedEdgeBitSet_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>new_elem_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>new_elem</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Inserts a new element right before the specified position. Parameter <code>_this</code> can not be null. Parameter <code>position</code> can not be null. </p>
+
+</div>
+</div>
+<a id="af429bb9c778c31e0876ff0bc97dce144" name="af429bb9c778c31e0876ff0bc97dce144"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af429bb9c778c31e0876ff0bc97dce144">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_IsBegin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_MR_UndirectedEdgeBitSet_IsBegin </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a7139b4bddfc3f9b96591219e4f5cbe1c">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a const iterator is the begin iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ace642fb244060ff18beb1d5ba4a34a68" name="ace642fb244060ff18beb1d5ba4a34a68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace642fb244060ff18beb1d5ba4a34a68">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_IsEmpty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_MR_UndirectedEdgeBitSet_IsEmpty </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns true if the size is zero. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a2ab619747635c1182f1307e520f5151b" name="a2ab619747635c1182f1307e520f5151b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ab619747635c1182f1307e520f5151b">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_IsEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_MR_UndirectedEdgeBitSet_IsEnd </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a7139b4bddfc3f9b96591219e4f5cbe1c">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a const iterator is the end iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ac712f1e78a240e3c7f4cd249625e3d73" name="ac712f1e78a240e3c7f4cd249625e3d73"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac712f1e78a240e3c7f4cd249625e3d73">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_IsMutableBegin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_MR_UndirectedEdgeBitSet_IsMutableBegin </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a257b6618d57df200c0e23acabafa5adc">MR_std_vector_MR_UndirectedEdgeBitSet_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a mutable iterator is the begin iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a1de5f4c3879b960fe5dfeccb15d21cb6" name="a1de5f4c3879b960fe5dfeccb15d21cb6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1de5f4c3879b960fe5dfeccb15d21cb6">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_IsMutableEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_std_vector_MR_UndirectedEdgeBitSet_IsMutableEnd </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a257b6618d57df200c0e23acabafa5adc">MR_std_vector_MR_UndirectedEdgeBitSet_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Tests whether a mutable iterator is the end iterator. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a57cae72fd8ddfaea520a471400c52c42" name="a57cae72fd8ddfaea520a471400c52c42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57cae72fd8ddfaea520a471400c52c42">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_iterator_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_UndirectedEdgeBitSet_iterator_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a257b6618d57df200c0e23acabafa5adc">MR_std_vector_MR_UndirectedEdgeBitSet_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a257b6618d57df200c0e23acabafa5adc">MR_std_vector_MR_UndirectedEdgeBitSet_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <code>_this</code> can not be null. Parameter <code>other</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a8da62a7f3a37daedfe266c47cd00a3a1" name="a8da62a7f3a37daedfe266c47cd00a3a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8da62a7f3a37daedfe266c47cd00a3a1">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_iterator_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a257b6618d57df200c0e23acabafa5adc">MR_std_vector_MR_UndirectedEdgeBitSet_iterator</a> * MR_std_vector_MR_UndirectedEdgeBitSet_iterator_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a257b6618d57df200c0e23acabafa5adc">MR_std_vector_MR_UndirectedEdgeBitSet_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs a copy of another instance. The source remains alive. Parameter <code>other</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a578591a5ef4bb6a7aeb8306de46b3cc7" title="Destroys a heap-allocated instance of MR_std_vector_MR_UndirectedEdgeBitSet_iterator....">MR_std_vector_MR_UndirectedEdgeBitSet_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a46fe8b581df0135d53a5aff0325216aa" name="a46fe8b581df0135d53a5aff0325216aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46fe8b581df0135d53a5aff0325216aa">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_iterator_Decr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_UndirectedEdgeBitSet_iterator_Decr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a257b6618d57df200c0e23acabafa5adc">MR_std_vector_MR_UndirectedEdgeBitSet_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Decrements a mutable iterator. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a991f7e7a860ee639ed1b849d873a2380" name="a991f7e7a860ee639ed1b849d873a2380"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a991f7e7a860ee639ed1b849d873a2380">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_iterator_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a257b6618d57df200c0e23acabafa5adc">MR_std_vector_MR_UndirectedEdgeBitSet_iterator</a> * MR_std_vector_MR_UndirectedEdgeBitSet_iterator_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a578591a5ef4bb6a7aeb8306de46b3cc7" title="Destroys a heap-allocated instance of MR_std_vector_MR_UndirectedEdgeBitSet_iterator....">MR_std_vector_MR_UndirectedEdgeBitSet_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="aabbb16e96385d61e81967589c0e6ac08" name="aabbb16e96385d61e81967589c0e6ac08"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aabbb16e96385d61e81967589c0e6ac08">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_iterator_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a257b6618d57df200c0e23acabafa5adc">MR_std_vector_MR_UndirectedEdgeBitSet_iterator</a> * MR_std_vector_MR_UndirectedEdgeBitSet_iterator_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#aaba51d0608af099508f54b0a374dfff8" title="Destroys a heap-allocated array of MR_std_vector_MR_UndirectedEdgeBitSet_iterator....">MR_std_vector_MR_UndirectedEdgeBitSet_iterator_DestroyArray()</a></code>. Use <code><a class="el" href="#aa75b6ab027918214847231d1ef4ac4da" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_UndirectedEdgeBitSet_iterator_OffsetMutablePtr()</a></code> and <code><a class="el" href="#ac5a279a9395f4aa66b35babb3eb4e802" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_std_vector_MR_UndirectedEdgeBitSet_iterator_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="accdb354b49131d92d8023bcbfbf2ccdd" name="accdb354b49131d92d8023bcbfbf2ccdd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#accdb354b49131d92d8023bcbfbf2ccdd">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_iterator_Deref()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> * MR_std_vector_MR_UndirectedEdgeBitSet_iterator_Deref </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a257b6618d57df200c0e23acabafa5adc">MR_std_vector_MR_UndirectedEdgeBitSet_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Dereferences a mutable iterator. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a578591a5ef4bb6a7aeb8306de46b3cc7" name="a578591a5ef4bb6a7aeb8306de46b3cc7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a578591a5ef4bb6a7aeb8306de46b3cc7">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_iterator_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_UndirectedEdgeBitSet_iterator_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a257b6618d57df200c0e23acabafa5adc">MR_std_vector_MR_UndirectedEdgeBitSet_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_std_vector_MR_UndirectedEdgeBitSet_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="aaba51d0608af099508f54b0a374dfff8" name="aaba51d0608af099508f54b0a374dfff8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaba51d0608af099508f54b0a374dfff8">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_iterator_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_UndirectedEdgeBitSet_iterator_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a257b6618d57df200c0e23acabafa5adc">MR_std_vector_MR_UndirectedEdgeBitSet_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_std_vector_MR_UndirectedEdgeBitSet_iterator</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a76ebead120d477609db2f87980c519c2" name="a76ebead120d477609db2f87980c519c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76ebead120d477609db2f87980c519c2">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_iterator_Distance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API ptrdiff_t MR_std_vector_MR_UndirectedEdgeBitSet_iterator_Distance </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a257b6618d57df200c0e23acabafa5adc">MR_std_vector_MR_UndirectedEdgeBitSet_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a257b6618d57df200c0e23acabafa5adc">MR_std_vector_MR_UndirectedEdgeBitSet_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Computes the signed difference between two mutable iterators. Completes in constant time. Parameter <code>a</code> can not be null. Parameter <code>b</code> can not be null. </p>
+
+</div>
+</div>
+<a id="abf9d6a5ad8e4a6e052193464ffebbb9e" name="abf9d6a5ad8e4a6e052193464ffebbb9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf9d6a5ad8e4a6e052193464ffebbb9e">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_iterator_Incr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_UndirectedEdgeBitSet_iterator_Incr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a257b6618d57df200c0e23acabafa5adc">MR_std_vector_MR_UndirectedEdgeBitSet_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Increments a mutable iterator. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a14423f5836dd3da339d65e29a0e30b16" name="a14423f5836dd3da339d65e29a0e30b16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14423f5836dd3da339d65e29a0e30b16">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_iterator_OffsetBy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_UndirectedEdgeBitSet_iterator_OffsetBy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a257b6618d57df200c0e23acabafa5adc">MR_std_vector_MR_UndirectedEdgeBitSet_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>delta</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Increments or decrements a mutable iterator by the specific amount. Completes in constant time. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aa75b6ab027918214847231d1ef4ac4da" name="aa75b6ab027918214847231d1ef4ac4da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa75b6ab027918214847231d1ef4ac4da">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_iterator_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a257b6618d57df200c0e23acabafa5adc">MR_std_vector_MR_UndirectedEdgeBitSet_iterator</a> * MR_std_vector_MR_UndirectedEdgeBitSet_iterator_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a257b6618d57df200c0e23acabafa5adc">MR_std_vector_MR_UndirectedEdgeBitSet_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="ac5a279a9395f4aa66b35babb3eb4e802" name="ac5a279a9395f4aa66b35babb3eb4e802"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5a279a9395f4aa66b35babb3eb4e802">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_iterator_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a257b6618d57df200c0e23acabafa5adc">MR_std_vector_MR_UndirectedEdgeBitSet_iterator</a> * MR_std_vector_MR_UndirectedEdgeBitSet_iterator_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a257b6618d57df200c0e23acabafa5adc">MR_std_vector_MR_UndirectedEdgeBitSet_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a608c404b69157efc803a52304924c7b5" name="a608c404b69157efc803a52304924c7b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a608c404b69157efc803a52304924c7b5">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_MutableAt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> * MR_std_vector_MR_UndirectedEdgeBitSet_MutableAt </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The element at a specific index, mutable. Parameter <code>_this</code> can not be null. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a92026d76c15f0293b8c64284de49daa6" name="a92026d76c15f0293b8c64284de49daa6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92026d76c15f0293b8c64284de49daa6">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_MutableBack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> * MR_std_vector_MR_UndirectedEdgeBitSet_MutableBack </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The last element or null if empty, mutable. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a432ff13b985f0c43f5daf21601abef74" name="a432ff13b985f0c43f5daf21601abef74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a432ff13b985f0c43f5daf21601abef74">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_MutableBegin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a257b6618d57df200c0e23acabafa5adc">MR_std_vector_MR_UndirectedEdgeBitSet_iterator</a> * MR_std_vector_MR_UndirectedEdgeBitSet_MutableBegin </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The begin iterator, mutable. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a578591a5ef4bb6a7aeb8306de46b3cc7" title="Destroys a heap-allocated instance of MR_std_vector_MR_UndirectedEdgeBitSet_iterator....">MR_std_vector_MR_UndirectedEdgeBitSet_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a76784dfbdbdb1d9ac3fecded58bd9fff" name="a76784dfbdbdb1d9ac3fecded58bd9fff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76784dfbdbdb1d9ac3fecded58bd9fff">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_MutableEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a257b6618d57df200c0e23acabafa5adc">MR_std_vector_MR_UndirectedEdgeBitSet_iterator</a> * MR_std_vector_MR_UndirectedEdgeBitSet_MutableEnd </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The end iterator, mutable. Parameter <code>_this</code> can not be null. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a578591a5ef4bb6a7aeb8306de46b3cc7" title="Destroys a heap-allocated instance of MR_std_vector_MR_UndirectedEdgeBitSet_iterator....">MR_std_vector_MR_UndirectedEdgeBitSet_iterator_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ae8bf4021f9e30a4b5b900d765bec505a" name="ae8bf4021f9e30a4b5b900d765bec505a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8bf4021f9e30a4b5b900d765bec505a">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_MutableFront()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> * MR_std_vector_MR_UndirectedEdgeBitSet_MutableFront </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The first element or null if empty, mutable. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a4c5dc2e4974c35b6a1887037c82c7f88" name="a4c5dc2e4974c35b6a1887037c82c7f88"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c5dc2e4974c35b6a1887037c82c7f88">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_MutableToIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API ptrdiff_t MR_std_vector_MR_UndirectedEdgeBitSet_MutableToIndex </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a257b6618d57df200c0e23acabafa5adc">MR_std_vector_MR_UndirectedEdgeBitSet_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Convert a mutable iterator to an index. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a614b76e34a5bda98c801cda6ff64e8ca" name="a614b76e34a5bda98c801cda6ff64e8ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a614b76e34a5bda98c801cda6ff64e8ca">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> * MR_std_vector_MR_UndirectedEdgeBitSet_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a29747afce8a07c9840b5465b2bb0a590" name="a29747afce8a07c9840b5465b2bb0a590"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29747afce8a07c9840b5465b2bb0a590">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> * MR_std_vector_MR_UndirectedEdgeBitSet_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="aa18bb533c57583bbb33544fc7aa8c762" name="aa18bb533c57583bbb33544fc7aa8c762"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa18bb533c57583bbb33544fc7aa8c762">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_PopBack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_UndirectedEdgeBitSet_PopBack </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Removes one element from the end. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a3be908cc865d5e4fa8d731f1e0692063" name="a3be908cc865d5e4fa8d731f1e0692063"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3be908cc865d5e4fa8d731f1e0692063">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_PushBack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_UndirectedEdgeBitSet_PushBack </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>new_elem_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>new_elem</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Inserts a new element at the end. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a044565532f5b3f626d35c563dba129d7" name="a044565532f5b3f626d35c563dba129d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a044565532f5b3f626d35c563dba129d7">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_Reserve()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_UndirectedEdgeBitSet_Reserve </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>new_capacity</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Reserves memory for a certain number of elements. Never shrinks the memory. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a89e559b3e8183fa0bdce2847835bdc38" name="a89e559b3e8183fa0bdce2847835bdc38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89e559b3e8183fa0bdce2847835bdc38">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_Resize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_UndirectedEdgeBitSet_Resize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>new_size</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Resizes the container. The new elements if any are zeroed. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="a212c96bf16961274c8e80e2710904433" name="a212c96bf16961274c8e80e2710904433"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a212c96bf16961274c8e80e2710904433">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_ResizeWithDefaultValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_UndirectedEdgeBitSet_ResizeWithDefaultValue </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>new_size</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Resizes the container. The new elements if any are set to the specified value. Parameter <code>_this</code> can not be null. Parameter <code>value</code> can not be null. </p>
+
+</div>
+</div>
+<a id="aa849115f589e2f2192c4f87ede8be286" name="aa849115f589e2f2192c4f87ede8be286"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa849115f589e2f2192c4f87ede8be286">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_ShrinkToFit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_std_vector_MR_UndirectedEdgeBitSet_ShrinkToFit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Shrinks the capacity to match the size. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ac060e30af60b4c53d626aa53120287e2" name="ac060e30af60b4c53d626aa53120287e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac060e30af60b4c53d626aa53120287e2">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_Size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API size_t MR_std_vector_MR_UndirectedEdgeBitSet_Size </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The number of elements. Parameter <code>_this</code> can not be null. </p>
+
+</div>
+</div>
+<a id="ae2ff3f1e9c0e1e8c7b10d0c7a043e74f" name="ae2ff3f1e9c0e1e8c7b10d0c7a043e74f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2ff3f1e9c0e1e8c7b10d0c7a043e74f">&#9670;&#160;</a></span>MR_std_vector_MR_UndirectedEdgeBitSet_ToIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API ptrdiff_t MR_std_vector_MR_UndirectedEdgeBitSet_ToIndex </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a7139b4bddfc3f9b96591219e4f5cbe1c">MR_std_vector_MR_UndirectedEdgeBitSet_const_iterator</a> *</td>          <td class="paramname"><span class="paramname"><em>iter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Convert a const iterator to an index. Parameter <code>_this</code> can not be null. Parameter <code>iter</code> can not be null. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.11.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_87d38852fc01aff5f853718c8d8b5cb2.html">Cbindings</a></li><li class="navelem"><a class="el" href="dir_12d01ef4fa7c7ca18852dd6d7d92a624.html">MRCMisc</a></li><li class="navelem"><a class="el" href="std__vector__MR__UndirectedEdgeBitSet_8h.html">std_vector_MR_UndirectedEdgeBitSet.h</a></li>
+    <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+  </ul>
+</div>
+</body>
+</html>

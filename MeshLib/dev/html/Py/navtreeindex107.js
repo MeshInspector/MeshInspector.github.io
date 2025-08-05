@@ -1,5 +1,6 @@
 var NAVTREEINDEX107 =
 {
+"classmrmeshpy_1_1VoxelsLoad_1_1GridType.html#abcaab721bd05bdb743a18aa3e494fa1b":[6,1,1,0,1,1144,4,5],
 "classmrmeshpy_1_1VoxelsLoad_1_1GridType.html#abd6ee7e5bd63582dd5f76339265cc676":[6,1,0,0,2,1144,4,10],
 "classmrmeshpy_1_1VoxelsLoad_1_1GridType.html#abd6ee7e5bd63582dd5f76339265cc676":[6,1,1,0,1,1144,4,10],
 "classmrmeshpy_1_1VoxelsLoad_1_1GridType.html#abeebeb5263b1be75bfee1f1bcd674f07":[6,1,0,0,2,1144,4,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX107 =
 "classmrmeshpy_1_1WeightedShell_1_1DistanceVolumeCreationParams.html":[6,1,1,0,1,1161,0],
 "classmrmeshpy_1_1WeightedShell_1_1DistanceVolumeCreationParams.html#a5f7b09b7ddef102b8299e704ffe3a527":[6,1,0,0,2,1161,0,1],
 "classmrmeshpy_1_1WeightedShell_1_1DistanceVolumeCreationParams.html#a5f7b09b7ddef102b8299e704ffe3a527":[6,1,1,0,1,1161,0,1],
-"classmrmeshpy_1_1WeightedShell_1_1DistanceVolumeCreationParams.html#a9ffa88374e7a5d9df0894817cd2996ee":[6,1,0,0,2,1161,0,0],
-"classmrmeshpy_1_1WeightedShell_1_1DistanceVolumeCreationParams.html#a9ffa88374e7a5d9df0894817cd2996ee":[6,1,1,0,1,1161,0,0]
+"classmrmeshpy_1_1WeightedShell_1_1DistanceVolumeCreationParams.html#a9ffa88374e7a5d9df0894817cd2996ee":[6,1,0,0,2,1161,0,0]
 };
