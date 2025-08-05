@@ -1,11 +1,5 @@
 var NAVTREEINDEX80 =
 {
-"structMR_1_1Graph_1_1EndVertices.html#afe146d825ed418eab8e42d1bdb2f7a43":[6,0,1,0,1,266,0,0],
-"structMR_1_1Graph_1_1EndVertices.html#afe146d825ed418eab8e42d1bdb2f7a43":[6,0,2,0,1,248,0,0],
-"structMR_1_1GridSettings.html":[6,0,1,0,1,267],
-"structMR_1_1GridSettings.html":[6,0,2,0,1,249],
-"structMR_1_1GridSettings.html#a079676e2ac1f95a1b11ecb8b7f0042aa":[6,0,1,0,1,267,2],
-"structMR_1_1GridSettings.html#a079676e2ac1f95a1b11ecb8b7f0042aa":[6,0,2,0,1,249,2],
 "structMR_1_1GridSettings.html#a46d7f5e53476c23ef05251179f3e15f0":[6,0,1,0,1,267,0],
 "structMR_1_1GridSettings.html#a46d7f5e53476c23ef05251179f3e15f0":[6,0,2,0,1,249,0],
 "structMR_1_1GridSettings.html#a46d7f5e53476c23ef05251179f3e15f0a06ce2a25e5d12c166a36f654dbea6012":[6,0,1,0,1,267,0,1],
@@ -249,5 +243,11 @@ var NAVTREEINDEX80 =
 "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a21883ccd688b28487ed257c67162946e":[6,0,2,0,1,5,4,2],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a3c33808729b011c55c757f4aec823465":[6,0,1,0,1,14,4,19],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a3c33808729b011c55c757f4aec823465":[6,0,2,0,1,5,4,19],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a3cdfa3eaf63c23dbb300d2b66cd90930":[6,0,1,0,1,14,4,11]
+"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a3cdfa3eaf63c23dbb300d2b66cd90930":[6,0,1,0,1,14,4,11],
+"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a3cdfa3eaf63c23dbb300d2b66cd90930":[6,0,2,0,1,5,4,11],
+"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a4eafe647658b794d1c77e649b424ffda":[6,0,1,0,1,14,4,16],
+"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a4eafe647658b794d1c77e649b424ffda":[6,0,2,0,1,5,4,16],
+"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a4f640dcd1790684176b42fd2521e69ff":[6,0,1,0,1,14,4,9],
+"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a4f640dcd1790684176b42fd2521e69ff":[6,0,2,0,1,5,4,9],
+"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a5f1af9cc5c63622d29e7355891087dc1":[6,0,1,0,1,14,4,5]
 };

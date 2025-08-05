@@ -2057,8 +2057,6 @@ var namespaceMR =
     [ "filterCreaseEdges", "namespaceMR.html#af323676e5a2bf779fb0700037ad648da", null ],
     [ "filterHistoryActionsVector", "namespaceMR.html#abde0e5a6e5cf5e3e9648a38740dd9804", null ],
     [ "FilterHistoryByCondition", "namespaceMR.html#af5e79c83f968cdf915fac0d9a5136768", null ],
-    [ "findAlphaShapeAllTriangles", "namespaceMR.html#a09a730190385c1e989c692d6f2e82151", null ],
-    [ "findAlphaShapeNeiTriangles", "namespaceMR.html#a23b918cea2dc73d70fa5f6defcb29da6", null ],
     [ "findAvgPointsRadius", "group__PointCloudGroup.html#ga65f914c5f869b8b554e8394912e5a7a3", null ],
     [ "findBestFreeformDeformation", "namespaceMR.html#a5257f65923756edeb18ddf7a4b1edf81", null ],
     [ "findBoxedTrisInBall", "group__AABBTreeGroup.html#ga565cdeaec23b7bd65c3776723571fac0", null ],

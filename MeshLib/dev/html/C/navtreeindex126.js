@@ -1,12 +1,5 @@
 var NAVTREEINDEX126 =
 {
-"std__shared__ptr__MR__FeatureObject_8h.html#aabbc92a18eca1bb2d470c19e42659587":[6,2,2,0,0,0,2,236,11],
-"std__shared__ptr__MR__FeatureObject_8h.html#abd4e858d64c4a423e9b07e74b6d58f0d":[6,2,2,0,0,0,2,236,1],
-"std__shared__ptr__MR__FeatureObject_8h.html#abd4f45e7de541604b57a366995cc973c":[6,2,2,0,0,0,2,236,3],
-"std__shared__ptr__MR__FeatureObject_8h.html#af9e998428f0f00ce33477a047eff620d":[6,2,2,0,0,0,2,236,7],
-"std__shared__ptr__MR__FeatureObject_8h.html#aff93746de8efe15fd5fa764838b71e9b":[6,2,2,0,0,0,2,236,0],
-"std__shared__ptr__MR__FeatureObject_8h_source.html":[6,2,2,0,0,0,2,236],
-"std__shared__ptr__MR__HistoryAction_8h.html":[6,2,2,0,0,0,2,237],
 "std__shared__ptr__MR__HistoryAction_8h.html#a0134fafbc0ebf1f22044c7c96c3b28fe":[6,2,2,0,0,0,2,237,9],
 "std__shared__ptr__MR__HistoryAction_8h.html#a177ba812f1b2c56f109691ea7a5b7a74":[6,2,2,0,0,0,2,237,10],
 "std__shared__ptr__MR__HistoryAction_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56":[6,2,2,0,0,0,2,237,0],
@@ -249,5 +242,12 @@ var NAVTREEINDEX126 =
 "std__shared__ptr__MR__Polyline3_8h.html":[6,2,2,0,0,0,2,252],
 "std__shared__ptr__MR__Polyline3_8h.html#a0082bea648153d8f48ac40a2e78b28c2":[6,2,2,0,0,0,2,252,9],
 "std__shared__ptr__MR__Polyline3_8h.html#a0b9249dfb7a0ad2e22d713c87c7c872a":[6,2,2,0,0,0,2,252,2],
-"std__shared__ptr__MR__Polyline3_8h.html#a217787ebc25c3f8f4542725895f9fa3c":[6,2,2,0,0,0,2,252,5]
+"std__shared__ptr__MR__Polyline3_8h.html#a217787ebc25c3f8f4542725895f9fa3c":[6,2,2,0,0,0,2,252,5],
+"std__shared__ptr__MR__Polyline3_8h.html#a3667315589338722d13fb1b5f70fb9a5":[6,2,2,0,0,0,2,252,7],
+"std__shared__ptr__MR__Polyline3_8h.html#a4f70d398d21fc8cdbc4cf4070b090d84":[6,2,2,0,0,0,2,252,10],
+"std__shared__ptr__MR__Polyline3_8h.html#a557b225577158f00c52b843b47729fa5":[6,2,2,0,0,0,2,252,12],
+"std__shared__ptr__MR__Polyline3_8h.html#a5e4e29073b61e70895414a0b040cdaf1":[6,2,2,0,0,0,2,252,11],
+"std__shared__ptr__MR__Polyline3_8h.html#a6075b2f3b7dec92f779f4f58c28f7e1b":[6,2,2,0,0,0,2,252,0],
+"std__shared__ptr__MR__Polyline3_8h.html#a60e38dc8f617acf9f474e5f63f584e9d":[6,2,2,0,0,0,2,252,6],
+"std__shared__ptr__MR__Polyline3_8h.html#a7fbcc9ee811f65e53e31f32d2c5484c2":[6,2,2,0,0,0,2,252,1]
 };

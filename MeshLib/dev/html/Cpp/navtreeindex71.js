@@ -1,11 +1,5 @@
 var NAVTREEINDEX71 =
 {
-"namespaceMR_1_1UI.html#a1b2f7496c5cc2c04acdc85d6ad564a63":[6,0,1,0,1,40,48],
-"namespaceMR_1_1UI.html#a2e82aeb6c8dcd97dab6e1f0e68d4fed4":[6,0,1,0,1,40,81],
-"namespaceMR_1_1UI.html#a31bf75f2c49957b473bd51d2aeb25ec8":[6,0,1,0,1,40,59],
-"namespaceMR_1_1UI.html#a321f93b24c9b7d723ce8aec45fe75374":[6,0,1,0,1,40,49],
-"namespaceMR_1_1UI.html#a336fa6393e7abeefe2f5d4e8f29d75a6":[6,0,1,0,1,40,27],
-"namespaceMR_1_1UI.html#a44947bf84615148fe9afb91d1895d231":[6,0,1,0,1,40,73],
 "namespaceMR_1_1UI.html#a4d7733f0351b6a1220f2fe89aecf9106":[6,0,1,0,1,40,63],
 "namespaceMR_1_1UI.html#a4e984c41bbd6d1102d9a05c16ad0ebb1":[6,0,1,0,1,40,29],
 "namespaceMR_1_1UI.html#a50698dfeecb0a68a2ddfc71eae08a0c7":[6,0,1,0,1,40,64],
@@ -249,5 +243,11 @@ var NAVTREEINDEX71 =
 "structImGui_1_1CustomStatePluginWindowParameters.html#aeb0498cd6f3dce0e76837aa8d02fba62":[6,0,2,0,0,0,3],
 "structImGui_1_1HistogramGridLine.html":[6,0,1,0,0,1],
 "structImGui_1_1HistogramGridLine.html":[6,0,2,0,0,1],
-"structImGui_1_1HistogramGridLine.html#a303ae09df51a9f6b11bf2d2c0b60ae25":[6,0,1,0,0,1,1]
+"structImGui_1_1HistogramGridLine.html#a303ae09df51a9f6b11bf2d2c0b60ae25":[6,0,1,0,0,1,1],
+"structImGui_1_1HistogramGridLine.html#a303ae09df51a9f6b11bf2d2c0b60ae25":[6,0,2,0,0,1,1],
+"structImGui_1_1HistogramGridLine.html#acffdb0cea13c4773abcdfaa935aa1dc5":[6,0,1,0,0,1,0],
+"structImGui_1_1HistogramGridLine.html#acffdb0cea13c4773abcdfaa935aa1dc5":[6,0,2,0,0,1,0],
+"structImGui_1_1HistogramGridLine.html#ad68d7c0ed96e587ceb3706c08dfba76d":[6,0,1,0,0,1,2],
+"structImGui_1_1HistogramGridLine.html#ad68d7c0ed96e587ceb3706c08dfba76d":[6,0,2,0,0,1,2],
+"structImGui_1_1MultiDragRes.html":[6,0,1,0,0,2]
 };

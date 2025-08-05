@@ -1532,8 +1532,6 @@ var namespacemrmeshpy =
     [ "fillPlanarHole", "namespacemrmeshpy.html#a9795eba8d644eb0390d1517c1839a633", null ],
     [ "filterCreaseEdges", "namespacemrmeshpy.html#a1a7d8442a53690e50c8d9458d1d78600", null ],
     [ "filterHistoryActionsVector", "namespacemrmeshpy.html#a5c8fe7dea25f6941b9d37d14279d0f4a", null ],
-    [ "findAlphaShapeAllTriangles", "namespacemrmeshpy.html#a6e45b235a410cabb779bbc9473f44117", null ],
-    [ "findAlphaShapeNeiTriangles", "namespacemrmeshpy.html#a2f90618d48e062641c3da6195d0b9536", null ],
     [ "findAvgPointsRadius", "namespacemrmeshpy.html#ab9d137ba468a43da22f1419fb43b780f", null ],
     [ "findBestFreeformDeformation", "namespacemrmeshpy.html#ae108b276693c2f7baa0caeef096dea7e", null ],
     [ "findBoxedTrisInBall", "namespacemrmeshpy.html#a6b468a6e115f5ce5cde3740267e5e3cb", null ],

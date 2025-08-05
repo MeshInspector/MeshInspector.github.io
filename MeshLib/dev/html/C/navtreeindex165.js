@@ -1,12 +1,5 @@
 var NAVTREEINDEX165 =
 {
-"std__vector__std__shared__ptr__const__MR__Object_8h.html#afc4545335a15c6cff047ff02ad3dc3e8":[6,2,2,0,0,0,2,383,35],
-"std__vector__std__shared__ptr__const__MR__Object_8h_source.html":[6,2,2,0,0,0,2,383],
-"std__vector__std__string_8h.html":[6,2,2,0,0,0,2,392],
-"std__vector__std__string_8h.html#a0b5fddf569b3a28674e6ac0c3f1fcc11":[6,2,2,0,0,0,2,392,5],
-"std__vector__std__string_8h.html#a0becefa3b4bd85c6fad8ced36c012c1e":[6,2,2,0,0,0,2,392,9],
-"std__vector__std__string_8h.html#a0f4007affcc4e210e69d93cfbc768d17":[6,2,2,0,0,0,2,392,69],
-"std__vector__std__string_8h.html#a10807b9eb7f9698d06314ec427f2f97d":[6,2,2,0,0,0,2,392,58],
 "std__vector__std__string_8h.html#a1b84622ce4eba6e1bbe1ba0a2ed8cd68":[6,2,2,0,0,0,2,392,51],
 "std__vector__std__string_8h.html#a23b7ef5aebc51511b6e9decfeb847b26":[6,2,2,0,0,0,2,392,53],
 "std__vector__std__string_8h.html#a27413d9e580721de341515e2e5aafba1":[6,2,2,0,0,0,2,392,35],
@@ -249,5 +242,12 @@ var NAVTREEINDEX165 =
 "std__vector__std__vector__MR__EdgePoint_8h.html#a53e3d1dd162ab0f74c18454dd5a9ecd8":[6,2,2,0,0,0,2,395,59],
 "std__vector__std__vector__MR__EdgePoint_8h.html#a5b260f0ba39beee6e2bb7464b1dcda87":[6,2,2,0,0,0,2,395,3],
 "std__vector__std__vector__MR__EdgePoint_8h.html#a690336401e28a0ea49e1033a2f01c4a6":[6,2,2,0,0,0,2,395,50],
-"std__vector__std__vector__MR__EdgePoint_8h.html#a6d5fe90cb2cc89818192859b9c2e4ed8":[6,2,2,0,0,0,2,395,8]
+"std__vector__std__vector__MR__EdgePoint_8h.html#a6d5fe90cb2cc89818192859b9c2e4ed8":[6,2,2,0,0,0,2,395,8],
+"std__vector__std__vector__MR__EdgePoint_8h.html#a6de331c011089aeb75a29e52dd0f24ab":[6,2,2,0,0,0,2,395,47],
+"std__vector__std__vector__MR__EdgePoint_8h.html#a73e804c5894091ab001c659f818bd13c":[6,2,2,0,0,0,2,395,31],
+"std__vector__std__vector__MR__EdgePoint_8h.html#a76e938edef619ac9e2bdb88ccd16306c":[6,2,2,0,0,0,2,395,26],
+"std__vector__std__vector__MR__EdgePoint_8h.html#a797b9b780e69c13c47c4ce8d49a694c7":[6,2,2,0,0,0,2,395,30],
+"std__vector__std__vector__MR__EdgePoint_8h.html#a814da460d88c1fc1fd06cb4b7bb15dbc":[6,2,2,0,0,0,2,395,40],
+"std__vector__std__vector__MR__EdgePoint_8h.html#a840c0ff8e53523df7a5ed0e4c7facf1b":[6,2,2,0,0,0,2,395,15],
+"std__vector__std__vector__MR__EdgePoint_8h.html#a877a96a27bd0c2262aa9242eda8e59b0":[6,2,2,0,0,0,2,395,6]
 };

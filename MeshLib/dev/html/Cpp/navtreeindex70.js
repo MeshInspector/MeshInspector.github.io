@@ -1,11 +1,5 @@
 var NAVTREEINDEX70 =
 {
-"namespaceMR_1_1Features_1_1Primitives.html#a955a7f843d9b5df0f393ec7699ada624":[6,0,1,0,1,6,0,3],
-"namespaceMR_1_1Features_1_1Traits.html":[6,0,1,0,1,6,1],
-"namespaceMR_1_1FixUndercuts.html":[6,0,1,0,1,7],
-"namespaceMR_1_1FixUndercuts.html#a1533cdae8a0918d9ee6e83cf92f56280":[6,0,1,0,1,7,17],
-"namespaceMR_1_1FixUndercuts.html#a1f09ee04e3c1273e01b1976dfdc385ba":[6,0,1,0,1,7,10],
-"namespaceMR_1_1FixUndercuts.html#a25cdcfeebb017e6cee1efc67f32d00ff":[6,0,1,0,1,7,12],
 "namespaceMR_1_1FixUndercuts.html#a4ce77d6cc1b654cd81c517870a1c840f":[6,0,1,0,1,7,5],
 "namespaceMR_1_1FixUndercuts.html#a6103a164b0037795960a4ecc185199cc":[6,0,1,0,1,7,14],
 "namespaceMR_1_1FixUndercuts.html#a6302d9ddaf5ffbcdafa2451367f8b8e6":[6,0,1,0,1,7,16],
@@ -249,5 +243,11 @@ var NAVTREEINDEX70 =
 "namespaceMR_1_1UI.html#a106b8bc31fb0bf822e4d25da72a41ead":[6,0,1,0,1,40,70],
 "namespaceMR_1_1UI.html#a1527cab8abd6795f21baa9abcfec2804":[6,0,1,0,1,40,44],
 "namespaceMR_1_1UI.html#a17f2b30eb00e5aa94812541ac268a30f":[6,0,1,0,1,40,76],
-"namespaceMR_1_1UI.html#a18b9183fbf887e8e6930c577d92fa409":[6,0,1,0,1,40,75]
+"namespaceMR_1_1UI.html#a18b9183fbf887e8e6930c577d92fa409":[6,0,1,0,1,40,75],
+"namespaceMR_1_1UI.html#a1b2f7496c5cc2c04acdc85d6ad564a63":[6,0,1,0,1,40,48],
+"namespaceMR_1_1UI.html#a2e82aeb6c8dcd97dab6e1f0e68d4fed4":[6,0,1,0,1,40,81],
+"namespaceMR_1_1UI.html#a31bf75f2c49957b473bd51d2aeb25ec8":[6,0,1,0,1,40,59],
+"namespaceMR_1_1UI.html#a321f93b24c9b7d723ce8aec45fe75374":[6,0,1,0,1,40,49],
+"namespaceMR_1_1UI.html#a336fa6393e7abeefe2f5d4e8f29d75a6":[6,0,1,0,1,40,27],
+"namespaceMR_1_1UI.html#a44947bf84615148fe9afb91d1895d231":[6,0,1,0,1,40,73]
 };

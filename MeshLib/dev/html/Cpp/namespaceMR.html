@@ -3134,12 +3134,6 @@ Functions</h2></td></tr>
 <tr class="memitem:ga9ae923a2855ed035b5d5f74b3162c0da"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="#ac964d34e63e2bd23c8ab1e4cea68ae71">AffineXf3</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__MathGroup.html#ga9ae923a2855ed035b5d5f74b3162c0da">lookAt</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;center, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;eye, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;up)</td></tr>
 <tr class="memdesc:ga9ae923a2855ed035b5d5f74b3162c0da"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes rigid transformation xf  <br /></td></tr>
 <tr class="separator:ga9ae923a2855ed035b5d5f74b3162c0da"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a23b918cea2dc73d70fa5f6defcb29da6" id="r_a23b918cea2dc73d70fa5f6defcb29da6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a23b918cea2dc73d70fa5f6defcb29da6">findAlphaShapeNeiTriangles</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, VertId v, float radius, Triangulation &amp;appendTris, std::vector&lt; VertId &gt; &amp;neis, bool onlyLargerVids)</td></tr>
-<tr class="memdesc:a23b918cea2dc73d70fa5f6defcb29da6"><td class="mdescLeft">&#160;</td><td class="mdescRight">if true then two other points must have larger ids (to avoid finding same triangles several times)  <br /></td></tr>
-<tr class="separator:a23b918cea2dc73d70fa5f6defcb29da6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a09a730190385c1e989c692d6f2e82151" id="r_a09a730190385c1e989c692d6f2e82151"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Triangulation&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09a730190385c1e989c692d6f2e82151">findAlphaShapeAllTriangles</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;cloud, float radius)</td></tr>
-<tr class="memdesc:a09a730190385c1e989c692d6f2e82151"><td class="mdescLeft">&#160;</td><td class="mdescRight">find all triangles of alpha-shape with negative alpha = -1/radius  <br /></td></tr>
-<tr class="separator:a09a730190385c1e989c692d6f2e82151"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abbe2dca6a39a0c9dae0abc3d1a6caac4" id="r_abbe2dca6a39a0c9dae0abc3d1a6caac4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abbe2dca6a39a0c9dae0abc3d1a6caac4">makeArrow</a> (const Vector3f &amp;base, const Vector3f &amp;vert, const float &amp;thickness=0.05f, const float &amp;coneRadius=0.1f, const float coneSize=0.2f, const int qual=32)</td></tr>
 <tr class="separator:abbe2dca6a39a0c9dae0abc3d1a6caac4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec1e78671b78ab66f38733f0ee0cc3ef" id="r_aec1e78671b78ab66f38733f0ee0cc3ef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec1e78671b78ab66f38733f0ee0cc3ef">makeBasisAxes</a> (const float &amp;<a class="el" href="#a306ff1f62992b3eb33c446913b64188a">size</a>=1.0f, const float &amp;thickness=0.05f, const float &amp;coneRadius=0.1f, const float coneSize=0.2f, const int qual=32)</td></tr>
@@ -17904,88 +17898,6 @@ template&lt;typename T &gt; </div>
 <p>Remove actions from global history (if it is enabled) that match the condition </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">deepFiltering</td><td>- filter actions into combined actions </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="a09a730190385c1e989c692d6f2e82151" name="a09a730190385c1e989c692d6f2e82151"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a09a730190385c1e989c692d6f2e82151">&#9670;&#160;</a></span>findAlphaShapeAllTriangles()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Triangulation MR::findAlphaShapeAllTriangles </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cloud</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>radius</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>find all triangles of alpha-shape with negative alpha = -1/radius </p>
-
-</div>
-</div>
-<a id="a23b918cea2dc73d70fa5f6defcb29da6" name="a23b918cea2dc73d70fa5f6defcb29da6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a23b918cea2dc73d70fa5f6defcb29da6">&#9670;&#160;</a></span>findAlphaShapeNeiTriangles()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::findAlphaShapeNeiTriangles </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>cloud</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">VertId</td>          <td class="paramname"><span class="paramname"><em>v</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>radius</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Triangulation &amp;</td>          <td class="paramname"><span class="paramname"><em>appendTris</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::vector&lt; VertId &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>neis</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>onlyLargerVids</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>if true then two other points must have larger ids (to avoid finding same triangles several times) </p>
-<p>find all triangles of alpha-shape with negative alpha = -1/radius, where each triangle contains point #v and two other points </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">appendTris</td><td>found triangles will be appended here  </td></tr>
-    <tr><td class="paramname">neis</td><td>temporary storage to avoid memory allocations, it will be filled with all neighbours within 2*radius </td></tr>
   </table>
   </dd>
 </dl>
