@@ -867,6 +867,10 @@ Functions</h2></td></tr>
 <tr class="separator:a31b96796a5d6c90a3443124a7434afd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac2003c00b261099422cf964ebd1f4583" id="r_ac2003c00b261099422cf964ebd1f4583"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2003c00b261099422cf964ebd1f4583">MR_VisualObject_setUseDefaultScenePropertiesOnDeserialization</a> (<a class="el" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a> *_this, bool useDefaultScenePropertiesOnDeserialization)</td></tr>
 <tr class="separator:ac2003c00b261099422cf964ebd1f4583"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7142a289f10d6db7595e665b86c8371e" id="r_a7142a289f10d6db7595e665b86c8371e"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7142a289f10d6db7595e665b86c8371e">MR_VisualObject_resetFrontColor</a> (<a class="el" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a> *_this)</td></tr>
+<tr class="separator:a7142a289f10d6db7595e665b86c8371e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05c010f067964d087634d4a6d887ff78" id="r_a05c010f067964d087634d4a6d887ff78"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05c010f067964d087634d4a6d887ff78">MR_VisualObject_resetColors</a> (<a class="el" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a> *_this)</td></tr>
+<tr class="separator:a05c010f067964d087634d4a6d887ff78"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8813c5dfd919c4cf8a77449c7f6b03d0" id="r_a8813c5dfd919c4cf8a77449c7f6b03d0"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ad710281a159324946638c7c13ae18853">MR_IsVisualizeMaskEnum_MR_MeshVisualizePropertyType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8813c5dfd919c4cf8a77449c7f6b03d0">MR_IsVisualizeMaskEnum_MR_MeshVisualizePropertyType_DefaultConstruct</a> (void)</td></tr>
 <tr class="separator:a8813c5dfd919c4cf8a77449c7f6b03d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54ab46a2234f6639f636df0a742403e9" id="r_a54ab46a2234f6639f636df0a742403e9"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ad710281a159324946638c7c13ae18853">MR_IsVisualizeMaskEnum_MR_MeshVisualizePropertyType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a54ab46a2234f6639f636df0a742403e9">MR_IsVisualizeMaskEnum_MR_MeshVisualizePropertyType_DefaultConstructArray</a> (size_t num_elems)</td></tr>
@@ -6543,6 +6547,24 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a05c010f067964d087634d4a6d887ff78" name="a05c010f067964d087634d4a6d887ff78"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05c010f067964d087634d4a6d887ff78">&#9670;&#160;</a></span>MR_VisualObject_resetColors()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_VisualObject_resetColors </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>reset all object colors to their default values from the current theme Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1VisualObject.html">MR::VisualObject</a></code> named <code>resetColors</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
 <a id="a2d9a68e404bcb227e2472cc4470f9cda" name="a2d9a68e404bcb227e2472cc4470f9cda"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2d9a68e404bcb227e2472cc4470f9cda">&#9670;&#160;</a></span>MR_VisualObject_resetDirty()</h2>
 
@@ -6580,6 +6602,24 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>reset dirty flags without some specific bits (useful for lazy normals update) Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1VisualObject.html">MR::VisualObject</a></code> named <code>resetDirtyExceptMask</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a7142a289f10d6db7595e665b86c8371e" name="a7142a289f10d6db7595e665b86c8371e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7142a289f10d6db7595e665b86c8371e">&#9670;&#160;</a></span>MR_VisualObject_resetFrontColor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_VisualObject_resetFrontColor </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>reset basic object colors to their default values from the current theme Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1VisualObject.html">MR::VisualObject</a></code> named <code>resetFrontColor</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>

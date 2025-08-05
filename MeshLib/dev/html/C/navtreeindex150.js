@@ -1,5 +1,17 @@
 var NAVTREEINDEX150 =
 {
+"std__vector__MR__SomeLocalTriangulations_8h.html#a68e8df2fc7d97654baae359c46d81322":[6,2,2,0,0,0,2,346,2],
+"std__vector__MR__SomeLocalTriangulations_8h.html#a6cb86217ba657310cc976a5a6c8a1b31":[6,2,2,0,0,0,2,346,21],
+"std__vector__MR__SomeLocalTriangulations_8h.html#a73cd790be35d3ad2a8cc1c0214a815f0":[6,2,2,0,0,0,2,346,12],
+"std__vector__MR__SomeLocalTriangulations_8h.html#a74d6b0a0088fc16b7682030c944221ae":[6,2,2,0,0,0,2,346,14],
+"std__vector__MR__SomeLocalTriangulations_8h.html#a756d2caa5dab115849f95f9797cc5223":[6,2,2,0,0,0,2,346,66],
+"std__vector__MR__SomeLocalTriangulations_8h.html#a79c39a917ea536822f629dbb2a3d1718":[6,2,2,0,0,0,2,346,37],
+"std__vector__MR__SomeLocalTriangulations_8h.html#a813f96c17ce0d403ea98cdacc9067020":[6,2,2,0,0,0,2,346,42],
+"std__vector__MR__SomeLocalTriangulations_8h.html#a8476aabfa538dbefabd0f6fbe9d734d2":[6,2,2,0,0,0,2,346,54],
+"std__vector__MR__SomeLocalTriangulations_8h.html#a855532b0294c533568c8f6b28e7e216b":[6,2,2,0,0,0,2,346,45],
+"std__vector__MR__SomeLocalTriangulations_8h.html#a878d6934e5f65ff8b8889f34e164fae1":[6,2,2,0,0,0,2,346,5],
+"std__vector__MR__SomeLocalTriangulations_8h.html#a8a91ec5adb4cbe8c27a661a1eaacaf56":[6,2,2,0,0,0,2,346,10],
+"std__vector__MR__SomeLocalTriangulations_8h.html#a8bcc19e2fae1cf94d4246dd9768c2e89":[6,2,2,0,0,0,2,346,4],
 "std__vector__MR__SomeLocalTriangulations_8h.html#a8e9f80992d6188e18e24834a584262a1":[6,2,2,0,0,0,2,346,50],
 "std__vector__MR__SomeLocalTriangulations_8h.html#a8f234ff7b6864d8ab64a428c5515f312":[6,2,2,0,0,0,2,346,56],
 "std__vector__MR__SomeLocalTriangulations_8h.html#a90e6153c2282167f7ef5a7b5066cd0cc":[6,2,2,0,0,0,2,346,47],
@@ -237,17 +249,5 @@ var NAVTREEINDEX150 =
 "std__vector__MR__UndirectedEdgeBitSet_8h.html#a9d14a8b9226ab85219e695a7be58a10c":[6,2,2,0,0,0,2,349,28],
 "std__vector__MR__UndirectedEdgeBitSet_8h.html#a9d2589012bec6bc0ed318bbfe4d5a8e5":[6,2,2,0,0,0,2,349,6],
 "std__vector__MR__UndirectedEdgeBitSet_8h.html#aa18bb533c57583bbb33544fc7aa8c762":[6,2,2,0,0,0,2,349,63],
-"std__vector__MR__UndirectedEdgeBitSet_8h.html#aa206e173c114c1428d82fc996b270f32":[6,2,2,0,0,0,2,349,17],
-"std__vector__MR__UndirectedEdgeBitSet_8h.html#aa75b6ab027918214847231d1ef4ac4da":[6,2,2,0,0,0,2,349,53],
-"std__vector__MR__UndirectedEdgeBitSet_8h.html#aa849115f589e2f2192c4f87ede8be286":[6,2,2,0,0,0,2,349,68],
-"std__vector__MR__UndirectedEdgeBitSet_8h.html#aaac3912e422353116cf6e2e0123d7822":[6,2,2,0,0,0,2,349,25],
-"std__vector__MR__UndirectedEdgeBitSet_8h.html#aaba51d0608af099508f54b0a374dfff8":[6,2,2,0,0,0,2,349,49],
-"std__vector__MR__UndirectedEdgeBitSet_8h.html#aabbb16e96385d61e81967589c0e6ac08":[6,2,2,0,0,0,2,349,46],
-"std__vector__MR__UndirectedEdgeBitSet_8h.html#abc7ac603d83147f1fb8152b14f4f9fbf":[6,2,2,0,0,0,2,349,32],
-"std__vector__MR__UndirectedEdgeBitSet_8h.html#abf9d6a5ad8e4a6e052193464ffebbb9e":[6,2,2,0,0,0,2,349,51],
-"std__vector__MR__UndirectedEdgeBitSet_8h.html#ac060e30af60b4c53d626aa53120287e2":[6,2,2,0,0,0,2,349,69],
-"std__vector__MR__UndirectedEdgeBitSet_8h.html#ac5a279a9395f4aa66b35babb3eb4e802":[6,2,2,0,0,0,2,349,54],
-"std__vector__MR__UndirectedEdgeBitSet_8h.html#ac712f1e78a240e3c7f4cd249625e3d73":[6,2,2,0,0,0,2,349,40],
-"std__vector__MR__UndirectedEdgeBitSet_8h.html#ac7f59a6736b29701d7e619412b6e2890":[6,2,2,0,0,0,2,349,3],
-"std__vector__MR__UndirectedEdgeBitSet_8h.html#aca1a582e435572e75949b3eabea4bcb7":[6,2,2,0,0,0,2,349,20]
+"std__vector__MR__UndirectedEdgeBitSet_8h.html#aa206e173c114c1428d82fc996b270f32":[6,2,2,0,0,0,2,349,17]
 };

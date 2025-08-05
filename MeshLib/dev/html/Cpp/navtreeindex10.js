@@ -117,9 +117,11 @@ var NAVTREEINDEX10 =
 "MRMesh_2MRSignDetectionMode_8h_source.html":[6,0,3,0,0,1,4,352],
 "MRMesh_2MRString_8h.html":[6,0,3,0,0,1,4,360],
 "MRMesh_2MRString_8h.html#a2584c6bf8d14b42355582e7b634bb1ee":[6,0,3,0,0,1,4,360,2],
+"MRMesh_2MRString_8h.html#a7739cc70dc943e30f0635c478a93ef14":[6,0,3,0,0,1,4,360,7],
+"MRMesh_2MRString_8h.html#aacd64ab3b893a3975e6dced2b5ff2722":[6,0,3,0,0,1,4,360,6],
 "MRMesh_2MRString_8h.html#aad02dff14ccec10b269b5073bb74ca63":[6,0,3,0,0,1,4,360,5],
 "MRMesh_2MRString_8h.html#afc584d61fd54ca2a86dec086736fdfd4":[6,0,3,0,0,1,4,360,3],
-"MRMesh_2MRString_8h.html#afc9f574268d072e85d31e140353743df":[6,0,3,0,0,1,4,360,6],
+"MRMesh_2MRString_8h.html#afc9f574268d072e85d31e140353743df":[6,0,3,0,0,1,4,360,8],
 "MRMesh_2MRString_8h_source.html":[6,0,3,0,0,1,4,360],
 "MRMesh_2MRTorus_8h.html":[6,0,3,0,0,1,4,380],
 "MRMesh_2MRTorus_8h.html#a04928fbb61dfb4922c926c1e5d2dce8e":[6,0,3,0,0,1,4,380,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX10 =
 "MRObjectLabel_8h.html#a359dee50af5c0aa1a77b899f0b0c177e":[6,0,3,0,0,1,8,2,2],
 "MRObjectLabel_8h.html#a69c4cff6b9a1cd95c71fc56b8dd9a983":[6,0,3,0,0,1,8,2,1],
 "MRObjectLabel_8h.html#af1439dbeb519b61d94005d8bfa52093c":[6,0,3,0,0,1,8,2,5],
-"MRObjectLabel_8h.html#af642e49e213e62cc072e2ac4c92b0c16":[6,0,3,0,0,1,8,2,4],
-"MRObjectLabel_8h_source.html":[6,0,3,0,0,1,8,2],
-"MRObjectLinesHolder_8h.html":[6,0,3,0,0,1,4,251]
+"MRObjectLabel_8h.html#af642e49e213e62cc072e2ac4c92b0c16":[6,0,3,0,0,1,8,2,4]
 };

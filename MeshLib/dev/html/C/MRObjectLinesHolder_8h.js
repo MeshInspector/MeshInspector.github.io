@@ -52,6 +52,7 @@ var MRObjectLinesHolder_8h =
     [ "MR_ObjectLinesHolder_OffsetMutablePtr", "MRObjectLinesHolder_8h.html#af22acd6f7a6e3a69afe3203f905f6a06", null ],
     [ "MR_ObjectLinesHolder_OffsetPtr", "MRObjectLinesHolder_8h.html#a8ca3270d4a508713cca8f257f8b513e5", null ],
     [ "MR_ObjectLinesHolder_polyline", "MRObjectLinesHolder_8h.html#aa0687f24b330815fd7e612262f7f6106", null ],
+    [ "MR_ObjectLinesHolder_resetFrontColor", "MRObjectLinesHolder_8h.html#a41b70fae7a1c30ff7c42e0c3149528bb", null ],
     [ "MR_ObjectLinesHolder_setDirtyFlags", "MRObjectLinesHolder_8h.html#af70510368c184722db1eb757897da657", null ],
     [ "MR_ObjectLinesHolder_setLinesColorMap", "MRObjectLinesHolder_8h.html#a80fc9cca0c156ade4104a5801b789682", null ],
     [ "MR_ObjectLinesHolder_setLineWidth", "MRObjectLinesHolder_8h.html#acb41ef565d16c95236da0d5885155808", null ],

@@ -185,6 +185,10 @@ Functions</h2></td></tr>
 <tr class="separator:ac8335e464659f316b9021b3b115f2d89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e0bde14d170a00b409d84ed2c46f8f9" id="r_a1e0bde14d170a00b409d84ed2c46f8f9"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e0bde14d170a00b409d84ed2c46f8f9">MR_replaceInplace</a> (<a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *target, const char *from, const char *from_end, const char *to, const char *to_end)</td></tr>
 <tr class="separator:a1e0bde14d170a00b409d84ed2c46f8f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a761c476b3907f0b69dd807ef0a27e0aa" id="r_a761c476b3907f0b69dd807ef0a27e0aa"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRFeatureHelpers_8h.html#a169b2cb1c4b9a267fdcd4b388a456d37">MR_std_string_view</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a761c476b3907f0b69dd807ef0a27e0aa">MR_trim</a> (const char *str, const char *str_end)</td></tr>
+<tr class="separator:a761c476b3907f0b69dd807ef0a27e0aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29d2ca719ccfa90529543fb832aa871f" id="r_a29d2ca719ccfa90529543fb832aa871f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRFeatureHelpers_8h.html#a169b2cb1c4b9a267fdcd4b388a456d37">MR_std_string_view</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29d2ca719ccfa90529543fb832aa871f">MR_trimLeft</a> (const char *str, const char *str_end)</td></tr>
+<tr class="separator:a29d2ca719ccfa90529543fb832aa871f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a95ca4120d6ab5fee907117ac3d93edce" id="r_a95ca4120d6ab5fee907117ac3d93edce"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRFeatureHelpers_8h.html#a169b2cb1c4b9a267fdcd4b388a456d37">MR_std_string_view</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95ca4120d6ab5fee907117ac3d93edce">MR_trimRight</a> (const char *str, const char *str_end)</td></tr>
 <tr class="separator:a95ca4120d6ab5fee907117ac3d93edce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -322,6 +326,50 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a761c476b3907f0b69dd807ef0a27e0aa" name="a761c476b3907f0b69dd807ef0a27e0aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a761c476b3907f0b69dd807ef0a27e0aa">&#9670;&#160;</a></span>MR_trim()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRFeatureHelpers_8h.html#a169b2cb1c4b9a267fdcd4b388a456d37">MR_std_string_view</a> * MR_trim </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>str</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>str_end</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Removes all whitespace character (detected by std::isspace) at the beginning and the end of string view Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#aacd64ab3b893a3975e6dced2b5ff2722">MR::trim</a></code>. Parameter <code>str</code> can not be null. If <code>str_end</code> is null, then <code>str</code> is assumed to be null-terminated. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__string__view_8h.html#a60263c987a5fa5a84ab719fb020cad24" title="Destroys a heap-allocated instance of MR_std_string_view. Does nothing if the pointer is null.">MR_std_string_view_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a29d2ca719ccfa90529543fb832aa871f" name="a29d2ca719ccfa90529543fb832aa871f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29d2ca719ccfa90529543fb832aa871f">&#9670;&#160;</a></span>MR_trimLeft()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRFeatureHelpers_8h.html#a169b2cb1c4b9a267fdcd4b388a456d37">MR_std_string_view</a> * MR_trimLeft </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>str</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>str_end</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Removes all whitespace character (detected by std::isspace) at the beginning of string view Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a7739cc70dc943e30f0635c478a93ef14">MR::trimLeft</a></code>. Parameter <code>str</code> can not be null. If <code>str_end</code> is null, then <code>str</code> is assumed to be null-terminated. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__string__view_8h.html#a60263c987a5fa5a84ab719fb020cad24" title="Destroys a heap-allocated instance of MR_std_string_view. Does nothing if the pointer is null.">MR_std_string_view_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>

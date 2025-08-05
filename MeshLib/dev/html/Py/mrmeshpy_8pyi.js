@@ -2412,6 +2412,8 @@ var mrmeshpy_8pyi =
     [ "triangulatePointCloud", "mrmeshpy_8pyi.html#ade0b4e377066647f73d31472c5d15e42", null ],
     [ "triCenter", "mrmeshpy_8pyi.html#ad0470590711b188b75c02f21e53f45de", null ],
     [ "TriDist", "mrmeshpy_8pyi.html#a9da1538bd786c34f4ff42d7b49348600", null ],
+    [ "trim", "mrmeshpy_8pyi.html#a8473c762b53062917711747a45ab24d5", null ],
+    [ "trimLeft", "mrmeshpy_8pyi.html#a435795059726ca9b5ac657cf26d5bad5", null ],
     [ "trimRight", "mrmeshpy_8pyi.html#a75555c0927a2a4a8a5d7880c3ef438df", null ],
     [ "trimWithPlane", "mrmeshpy_8pyi.html#a14631c96dea7202a9253cb38dead1e4f", null ],
     [ "trimWithPlane", "mrmeshpy_8pyi.html#a7ce1f5a4d99784fa5e2c7a519d8fa2ca", null ],

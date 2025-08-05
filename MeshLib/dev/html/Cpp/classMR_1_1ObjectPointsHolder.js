@@ -31,6 +31,8 @@ var classMR_1_1ObjectPointsHolder =
     [ "operator=", "classMR_1_1ObjectPointsHolder.html#a704442d942ed959e077e867fd13df5ef", null ],
     [ "pointCloud", "classMR_1_1ObjectPointsHolder.html#a1e4577ab2bb24e7600c98bc550668b06", null ],
     [ "pointCloudPart", "classMR_1_1ObjectPointsHolder.html#a8f8cc5bc215e60ae310217c6a7afbcb4", null ],
+    [ "resetColors", "classMR_1_1ObjectPointsHolder.html#af81f56db413ec388aca6754041b268d6", null ],
+    [ "resetFrontColor", "classMR_1_1ObjectPointsHolder.html#adc4c7b3bbf3bf8c149c17e31bf241b5d", null ],
     [ "savePointsFormat", "classMR_1_1ObjectPointsHolder.html#a1027d5f4b567e9cc613073b40d9394ea", null ],
     [ "selectPoints", "classMR_1_1ObjectPointsHolder.html#ab4590c20e3453fd49b62915f266c4c79", null ],
     [ "serializeFields_", "classMR_1_1ObjectPointsHolder.html#ae0b780196658ba9017ae41f3ab2dd195", null ],

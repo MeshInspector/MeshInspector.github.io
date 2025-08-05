@@ -389,6 +389,11 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a9f8a60330354b5cd43536c22bed08f3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a376cb1be36addec5afd14487533e6693" id="r_a376cb1be36addec5afd14487533e6693"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a376cb1be36addec5afd14487533e6693">hasModel</a> () const</td></tr>
 <tr class="separator:a376cb1be36addec5afd14487533e6693"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf18efa242a657680c89a3429bca6cd6" id="r_abf18efa242a657680c89a3429bca6cd6"><td class="memItemLeft" align="right" valign="top">const std::unordered_set&lt; std::string &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf18efa242a657680c89a3429bca6cd6">tags</a> () const</td></tr>
+<tr class="separator:abf18efa242a657680c89a3429bca6cd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e1977458e183307261186affab790b5" id="r_a8e1977458e183307261186affab790b5"><td class="memItemLeft" align="right" valign="top">std::unordered_set&lt; std::string &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e1977458e183307261186affab790b5">varTags</a> ()</td></tr>
+<tr class="memdesc:a8e1977458e183307261186affab790b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">provides read-write access to the tag storage  <br /></td></tr>
+<tr class="separator:a8e1977458e183307261186affab790b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc5d7c1d86bb8b8afe345a35b7c9a6bc" id="r_adc5d7c1d86bb8b8afe345a35b7c9a6bc"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc5d7c1d86bb8b8afe345a35b7c9a6bc">heapBytes</a> () const</td></tr>
 <tr class="memdesc:adc5d7c1d86bb8b8afe345a35b7c9a6bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap  <br /></td></tr>
 <tr class="separator:adc5d7c1d86bb8b8afe345a35b7c9a6bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -464,6 +469,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a7919fe84554abf5973d82255df4425a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92a390dc7570098981912529e341433d" id="r_a92a390dc7570098981912529e341433d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a92a390dc7570098981912529e341433d">needRedraw_</a> {false}</td></tr>
 <tr class="separator:a92a390dc7570098981912529e341433d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbbc30b0b916764413cc5aca7639f5d7" id="r_afbbc30b0b916764413cc5aca7639f5d7"><td class="memItemLeft" align="right" valign="top">std::unordered_set&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afbbc30b0b916764413cc5aca7639f5d7">tags_</a></td></tr>
+<tr class="separator:afbbc30b0b916764413cc5aca7639f5d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classMR_1_1ObjectChildrenHolder"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1ObjectChildrenHolder')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1ObjectChildrenHolder.html">MR::ObjectChildrenHolder</a></td></tr>
 <tr class="memitem:a79a7197e0981d1da1b59f5fa0d858f7d inherit pro_attribs_classMR_1_1ObjectChildrenHolder" id="r_a79a7197e0981d1da1b59f5fa0d858f7d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1ObjectChildrenHolder.html">ObjectChildrenHolder</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectChildrenHolder.html#a79a7197e0981d1da1b59f5fa0d858f7d">parent_</a> = nullptr</td></tr>
 <tr class="separator:a79a7197e0981d1da1b59f5fa0d858f7d inherit pro_attribs_classMR_1_1ObjectChildrenHolder"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2390,6 +2397,32 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="abf18efa242a657680c89a3429bca6cd6" name="abf18efa242a657680c89a3429bca6cd6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf18efa242a657680c89a3429bca6cd6">&#9670;&#160;</a></span>tags()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::unordered_set&lt; std::string &gt; &amp; MR::Object::tags </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>provides read-only access to the tag storage the storage is a set of unique strings </p>
+
+</div>
+</div>
 <a id="a4fcb6d60f1a306cb2d13c878cd83fa63" name="a4fcb6d60f1a306cb2d13c878cd83fa63"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4fcb6d60f1a306cb2d13c878cd83fa63">&#9670;&#160;</a></span>TypeName()</h2>
 
@@ -2439,6 +2472,33 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>Reimplemented in <a class="el" href="classMR_1_1AngleMeasurementObject.html#aaa46f9128d202f32be37d9d9db292fe6">MR::AngleMeasurementObject</a>, <a class="el" href="classMR_1_1CircleObject.html#a7dd05445d9524f457b174b86526f7917">MR::CircleObject</a>, <a class="el" href="classMR_1_1ConeObject.html#a907b47dc446af6c29603325828130005">MR::ConeObject</a>, <a class="el" href="classMR_1_1CylinderObject.html#a51bf3dd6a9699a55576c099b57d39990">MR::CylinderObject</a>, <a class="el" href="classMR_1_1DistanceMeasurementObject.html#a7d8dc7b94d1a8f6533b6de5659495a9b">MR::DistanceMeasurementObject</a>, <a class="el" href="classMR_1_1LineObject.html#afe5e0bae23cb23a4485ddd95a2cb16ca">MR::LineObject</a>, <a class="el" href="classMR_1_1ObjectDistanceMap.html#abaac591338fe97a8e55b49601c5c4367">MR::ObjectDistanceMap</a>, <a class="el" href="classMR_1_1ObjectGcode.html#ac27e546bf2d66d45930837b6dd37cd9e">MR::ObjectGcode</a>, <a class="el" href="classMR_1_1ObjectImGuiLabel.html#afb01986bd3392c39d58639ca6930d453">MR::ObjectImGuiLabel</a>, <a class="el" href="classMR_1_1ObjectLabel.html#a4c2b4d2f1feca2726294451d193259d9">MR::ObjectLabel</a>, <a class="el" href="classMR_1_1ObjectLines.html#a069fc0b9496c10738c79ed84e458c729">MR::ObjectLines</a>, <a class="el" href="classMR_1_1ObjectLinesHolder.html#a67bbdfa8042874e1a7033f78bb96be59">MR::ObjectLinesHolder</a>, <a class="el" href="classMR_1_1ObjectMesh.html#af9b93365f1a3106e6b452c197251afba">MR::ObjectMesh</a>, <a class="el" href="classMR_1_1ObjectMeshHolder.html#a8881d4cf9ed83ffbec3af1d175a0ace2">MR::ObjectMeshHolder</a>, <a class="el" href="classMR_1_1ObjectPoints.html#af389d74376fb91966716aa2ff7444a5d">MR::ObjectPoints</a>, <a class="el" href="classMR_1_1ObjectPointsHolder.html#a56ae0abc43ac144e212830cf2233d413">MR::ObjectPointsHolder</a>, <a class="el" href="classMR_1_1ObjectVoxels.html#ad263dcb8982dbf8095729fa3a3d2032e">MR::ObjectVoxels</a>, <a class="el" href="classMR_1_1PlaneObject.html#a49f838bc215720ee037d22734a7cc987">MR::PlaneObject</a>, <a class="el" href="classMR_1_1PointObject.html#af0d333f53e5214cef1fed176a67585a3">MR::PointObject</a>, <a class="el" href="classMR_1_1RadiusMeasurementObject.html#ac9d73f6782e3918bf0f9b201f13db7af">MR::RadiusMeasurementObject</a>, <a class="el" href="classMR_1_1SceneRootObject.html#a18fd1eac2059efc7aea278bf5b40b117">MR::SceneRootObject</a>, <a class="el" href="classMR_1_1SphereObject.html#a3fe2e258e75828338f7c6f90cd70b09e">MR::SphereObject</a>, and <a class="el" href="classMR_1_1VisualObject.html#a6f629cc6822b206ab9232648fa19dcb6">MR::VisualObject</a>.</p>
+
+</div>
+</div>
+<a id="a8e1977458e183307261186affab790b5" name="a8e1977458e183307261186affab790b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e1977458e183307261186affab790b5">&#9670;&#160;</a></span>varTags()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unordered_set&lt; std::string &gt; &amp; MR::Object::varTags </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>provides read-write access to the tag storage </p>
 
 </div>
 </div>
@@ -2680,6 +2740,28 @@ template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">bool MR::Object::selected_ { false }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afbbc30b0b916764413cc5aca7639f5d7" name="afbbc30b0b916764413cc5aca7639f5d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afbbc30b0b916764413cc5aca7639f5d7">&#9670;&#160;</a></span>tags_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unordered_set&lt;std::string&gt; MR::Object::tags_</td>
         </tr>
       </table>
   </td>

@@ -26,6 +26,7 @@ var classMR_1_1ObjectLinesHolder =
     [ "numUndirectedEdges", "classMR_1_1ObjectLinesHolder.html#a0652baca888594cfe0fb1c17bcb78dbb", null ],
     [ "operator=", "classMR_1_1ObjectLinesHolder.html#a399c6bd6321c060f5c6faffab0095bed", null ],
     [ "polyline", "classMR_1_1ObjectLinesHolder.html#ae0b496042ca65d7b8bdb862c9e984ff7", null ],
+    [ "resetFrontColor", "classMR_1_1ObjectLinesHolder.html#a786c333d036a4aca15856725ae4e9edf", null ],
     [ "serializeBaseFields_", "classMR_1_1ObjectLinesHolder.html#a60be494b7494766eee45cc3acb0db09d", null ],
     [ "serializeFields_", "classMR_1_1ObjectLinesHolder.html#ac53731d4425ec9404c558b238467c3fa", null ],
     [ "setAllVisualizeProperties_", "classMR_1_1ObjectLinesHolder.html#a8485f04d2b33612fd7c5f7cbfe96fb91", null ],

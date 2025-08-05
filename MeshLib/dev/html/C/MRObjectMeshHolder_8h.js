@@ -106,6 +106,8 @@ var MRObjectMeshHolder_8h =
     [ "MR_ObjectMeshHolder_numUndirectedEdges", "MRObjectMeshHolder_8h.html#a72bc7d8b22d8469170ccb231c75c5d83", null ],
     [ "MR_ObjectMeshHolder_OffsetMutablePtr", "MRObjectMeshHolder_8h.html#acf6089ffa6d729f4e6b577590fa3cf45", null ],
     [ "MR_ObjectMeshHolder_OffsetPtr", "MRObjectMeshHolder_8h.html#a2420eb3dce0d90bb739e765ecd234804", null ],
+    [ "MR_ObjectMeshHolder_resetColors", "MRObjectMeshHolder_8h.html#aa53d07eb9bd04d190ec7486f21d321b7", null ],
+    [ "MR_ObjectMeshHolder_resetFrontColor", "MRObjectMeshHolder_8h.html#ae12d93eb11dd98d621417c2df671d639", null ],
     [ "MR_ObjectMeshHolder_selectedArea", "MRObjectMeshHolder_8h.html#a780946548f319209cda199a07b34d920", null ],
     [ "MR_ObjectMeshHolder_selectEdges", "MRObjectMeshHolder_8h.html#a288ac6843d3fdcdf419a79cab98c261b", null ],
     [ "MR_ObjectMeshHolder_selectFaces", "MRObjectMeshHolder_8h.html#a04f1623d20e1454fa9aab5d3b6e6ac2a", null ],

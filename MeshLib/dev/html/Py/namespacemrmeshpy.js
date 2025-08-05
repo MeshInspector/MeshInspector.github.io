@@ -2279,6 +2279,8 @@ var namespacemrmeshpy =
     [ "triangulatePointCloud", "namespacemrmeshpy.html#ade0b4e377066647f73d31472c5d15e42", null ],
     [ "triCenter", "namespacemrmeshpy.html#ad0470590711b188b75c02f21e53f45de", null ],
     [ "TriDist", "namespacemrmeshpy.html#a9da1538bd786c34f4ff42d7b49348600", null ],
+    [ "trim", "namespacemrmeshpy.html#a8473c762b53062917711747a45ab24d5", null ],
+    [ "trimLeft", "namespacemrmeshpy.html#a435795059726ca9b5ac657cf26d5bad5", null ],
     [ "trimRight", "namespacemrmeshpy.html#a75555c0927a2a4a8a5d7880c3ef438df", null ],
     [ "trimWithPlane", "namespacemrmeshpy.html#a14631c96dea7202a9253cb38dead1e4f", null ],
     [ "trimWithPlane", "namespacemrmeshpy.html#a7ce1f5a4d99784fa5e2c7a519d8fa2ca", null ],

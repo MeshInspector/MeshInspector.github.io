@@ -4724,6 +4724,10 @@ Functions</h2></td></tr>
 <tr class="separator:a45d892d5775064219347f1dcdd966efa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade0b4e377066647f73d31472c5d15e42" id="r_ade0b4e377066647f73d31472c5d15e42"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade0b4e377066647f73d31472c5d15e42">triangulatePointCloud</a> (<a class="el" href="classmrmeshpy_1_1PointCloud.html">PointCloud</a> pointCloud, <a class="el" href="classmrmeshpy_1_1TriangulationParameters.html">TriangulationParameters</a> params='{}', <a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> progressCb='{}')</td></tr>
 <tr class="separator:ade0b4e377066647f73d31472c5d15e42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8473c762b53062917711747a45ab24d5" id="r_a8473c762b53062917711747a45ab24d5"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8473c762b53062917711747a45ab24d5">trim</a> (str str)</td></tr>
+<tr class="separator:a8473c762b53062917711747a45ab24d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a435795059726ca9b5ac657cf26d5bad5" id="r_a435795059726ca9b5ac657cf26d5bad5"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a435795059726ca9b5ac657cf26d5bad5">trimLeft</a> (str str)</td></tr>
+<tr class="separator:a435795059726ca9b5ac657cf26d5bad5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75555c0927a2a4a8a5d7880c3ef438df" id="r_a75555c0927a2a4a8a5d7880c3ef438df"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75555c0927a2a4a8a5d7880c3ef438df">trimRight</a> (str str)</td></tr>
 <tr class="separator:a75555c0927a2a4a8a5d7880c3ef438df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a14631c96dea7202a9253cb38dead1e4f" id="r_a14631c96dea7202a9253cb38dead1e4f"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14631c96dea7202a9253cb38dead1e4f">trimWithPlane</a> (<a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mesh, <a class="el" href="classmrmeshpy_1_1TrimWithPlaneParams.html">TrimWithPlaneParams</a> params, <a class="el" href="classmrmeshpy_1_1TrimOptionalOutput.html">TrimOptionalOutput</a> optOut='{}')</td></tr>
@@ -35595,6 +35599,42 @@ s and t respectively. However, if the triangles overlap, p and q
 are basically a random pair of points from the triangles, not 
 coincident points on the intersection of the triangles, as might 
 be expected.
+</pre> 
+</div>
+</div>
+<a id="a8473c762b53062917711747a45ab24d5" name="a8473c762b53062917711747a45ab24d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8473c762b53062917711747a45ab24d5">&#9670;&#160;</a></span>trim()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> str mrmeshpy.trim </td>
+          <td>(</td>
+          <td class="paramtype">str</td>          <td class="paramname"><span class="paramname"><em>str</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Removes all whitespace character (detected by std::isspace) at the beginning and the end of string view
+</pre> 
+</div>
+</div>
+<a id="a435795059726ca9b5ac657cf26d5bad5" name="a435795059726ca9b5ac657cf26d5bad5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a435795059726ca9b5ac657cf26d5bad5">&#9670;&#160;</a></span>trimLeft()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> str mrmeshpy.trimLeft </td>
+          <td>(</td>
+          <td class="paramtype">str</td>          <td class="paramname"><span class="paramname"><em>str</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Removes all whitespace character (detected by std::isspace) at the beginning of string view
 </pre> 
 </div>
 </div>

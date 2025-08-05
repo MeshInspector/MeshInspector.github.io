@@ -217,25 +217,27 @@ $(function(){initNavTree('MRObjectDistanceMap_8h_source.html',''); initResizable
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno"><a class="line" href="classMR_1_1ObjectDistanceMap.html#a116290bef3d94859f87eca9db6741761">   73</a></span>    <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keyword">virtual</span> <a class="code hl_typedef" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected&lt;std::future&lt;Expected&lt;void&gt;</a>&gt;&gt; <a class="code hl_function" href="classMR_1_1ObjectDistanceMap.html#a116290bef3d94859f87eca9db6741761">serializeModel_</a>( <span class="keyword">const</span> std::filesystem::path&amp; path ) <span class="keyword">const override</span>;</div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    std::shared_ptr&lt;DistanceMap&gt; dmap_;</div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    AffineXf3f dmap2local_;</div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span> </div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    <span class="keyword">const</span> <span class="keywordtype">char</span> * saveDistanceMapFormat_{ <span class="stringliteral">&quot;.raw&quot;</span> };</div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span> </div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>    <span class="keywordtype">bool</span> construct_(</div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>        <span class="keyword">const</span> std::shared_ptr&lt;DistanceMap&gt;&amp; dmap,</div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>        <span class="keyword">const</span> AffineXf3f&amp; dmap2local,</div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>        <span class="keywordtype">bool</span> needUpdateMesh = <span class="keyword">true</span>,</div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>        <a class="code hl_typedef" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb = {} );</div>
-<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span> </div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>    <span class="keywordtype">void</span> setDefaultColors_();</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno"><a class="line" href="classMR_1_1ObjectDistanceMap.html#af058f11fdad7fc39dca1a94ce1de3f97">   76</a></span>    <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1ObjectDistanceMap.html#af058f11fdad7fc39dca1a94ce1de3f97">resetFrontColor</a>() <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    std::shared_ptr&lt;DistanceMap&gt; dmap_;</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    AffineXf3f dmap2local_;</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span> </div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>    <span class="keyword">const</span> <span class="keywordtype">char</span> * saveDistanceMapFormat_{ <span class="stringliteral">&quot;.raw&quot;</span> };</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span> </div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>    <span class="keywordtype">bool</span> construct_(</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>        <span class="keyword">const</span> std::shared_ptr&lt;DistanceMap&gt;&amp; dmap,</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>        <span class="keyword">const</span> AffineXf3f&amp; dmap2local,</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>        <span class="keywordtype">bool</span> needUpdateMesh = <span class="keyword">true</span>,</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>        <a class="code hl_typedef" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb = {} );</div>
 <div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span> </div>
-<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>    <span class="keywordtype">void</span> setDefaultSceneProperties_();</div>
-<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>};</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>    <span class="keywordtype">void</span> setDefaultColors_();</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span> </div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>    <span class="keywordtype">void</span> setDefaultSceneProperties_();</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>};</div>
 </div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span> </div>
-<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>} <span class="comment">// namespace MR</span></div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span> </div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>} <span class="comment">// namespace MR</span></div>
 <div class="ttc" id="aMRDistanceMapParams_8h_html"><div class="ttname"><a href="MRDistanceMapParams_8h.html">MRDistanceMapParams.h</a></div></div>
 <div class="ttc" id="aMRMesh_2MRMeshFwd_8h_html"><div class="ttname"><a href="MRMesh_2MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
 <div class="ttc" id="aMRMesh_2MRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:80</div></div>
@@ -263,14 +265,15 @@ $(function(){initNavTree('MRObjectDistanceMap_8h_source.html',''); initResizable
 <div class="ttc" id="aclassMR_1_1ObjectDistanceMap_html_ad9132bb49e148a2493e2874f1bba5ae9"><div class="ttname"><a href="classMR_1_1ObjectDistanceMap.html#ad9132bb49e148a2493e2874f1bba5ae9">MR::ObjectDistanceMap::getClassNameInPlural</a></div><div class="ttdeci">std::string getClassNameInPlural() const override</div><div class="ttdoc">return human readable name of subclass in plural form</div><div class="ttdef"><b>Definition</b> MRObjectDistanceMap.h:34</div></div>
 <div class="ttc" id="aclassMR_1_1ObjectDistanceMap_html_adbc4266aebcafd1f9d5abd7a15b20797"><div class="ttname"><a href="classMR_1_1ObjectDistanceMap.html#adbc4266aebcafd1f9d5abd7a15b20797">MR::ObjectDistanceMap::TypeName</a></div><div class="ttdeci">static constexpr const char * TypeName() noexcept</div><div class="ttdef"><b>Definition</b> MRObjectDistanceMap.h:23</div></div>
 <div class="ttc" id="aclassMR_1_1ObjectDistanceMap_html_ade8b83ce35cdca5666db31364907dfb5"><div class="ttname"><a href="classMR_1_1ObjectDistanceMap.html#ade8b83ce35cdca5666db31364907dfb5">MR::ObjectDistanceMap::ObjectDistanceMap</a></div><div class="ttdeci">ObjectDistanceMap(const ObjectDistanceMap &amp;other)=default</div></div>
+<div class="ttc" id="aclassMR_1_1ObjectDistanceMap_html_af058f11fdad7fc39dca1a94ce1de3f97"><div class="ttname"><a href="classMR_1_1ObjectDistanceMap.html#af058f11fdad7fc39dca1a94ce1de3f97">MR::ObjectDistanceMap::resetFrontColor</a></div><div class="ttdeci">MRMESH_API void resetFrontColor() override</div><div class="ttdoc">reset basic object colors to their default values from the current theme</div></div>
 <div class="ttc" id="aclassMR_1_1ObjectDistanceMap_html_af82ac0d1e0daa1c8e80327325d415cde"><div class="ttname"><a href="classMR_1_1ObjectDistanceMap.html#af82ac0d1e0daa1c8e80327325d415cde">MR::ObjectDistanceMap::getClassName</a></div><div class="ttdeci">std::string getClassName() const override</div><div class="ttdoc">return human readable name of subclass</div><div class="ttdef"><b>Definition</b> MRObjectDistanceMap.h:33</div></div>
 <div class="ttc" id="aclassMR_1_1ObjectDistanceMap_html_af8d43976f085c872629b548fdd2e0e9d"><div class="ttname"><a href="classMR_1_1ObjectDistanceMap.html#af8d43976f085c872629b548fdd2e0e9d">MR::ObjectDistanceMap::applyScale</a></div><div class="ttdeci">virtual MRMESH_API void applyScale(float scaleFactor) override</div><div class="ttdoc">scale object size (all point positions)</div></div>
 <div class="ttc" id="aclassMR_1_1ObjectMeshHolder_html"><div class="ttname"><a href="classMR_1_1ObjectMeshHolder.html">MR::ObjectMeshHolder</a></div><div class="ttdef"><b>Definition</b> MRObjectMeshHolder.h:32</div></div>
-<div class="ttc" id="aclassMR_1_1Object_html"><div class="ttname"><a href="classMR_1_1Object.html">MR::Object</a></div><div class="ttdoc">named object in the data model</div><div class="ttdef"><b>Definition</b> MRObject.h:60</div></div>
+<div class="ttc" id="aclassMR_1_1Object_html"><div class="ttname"><a href="classMR_1_1Object.html">MR::Object</a></div><div class="ttdoc">named object in the data model</div><div class="ttdef"><b>Definition</b> MRObject.h:62</div></div>
 <div class="ttc" id="agroup__BasicStructuresGroup_html_ga51ff94746a41880cd06d3272b5bcf710"><div class="ttname"><a href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">MR::ProgressCallback</a></div><div class="ttdeci">std::function&lt; bool(float)&gt; ProgressCallback</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:734</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 <div class="ttc" id="anamespaceMR_html_a6d7483b6adbc485e9c9b52eb09cb7735"><div class="ttname"><a href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">MR::Expected</a></div><div class="ttdeci">tl::expected&lt; T, E &gt; Expected</div><div class="ttdef"><b>Definition</b> MRExpected.h:25</div></div>
-<div class="ttc" id="astructMR_1_1Object_1_1ProtectedStruct_html"><div class="ttname"><a href="structMR_1_1Object_1_1ProtectedStruct.html">MR::Object::ProtectedStruct</a></div><div class="ttdef"><b>Definition</b> MRObject.h:262</div></div>
+<div class="ttc" id="astructMR_1_1Object_1_1ProtectedStruct_html"><div class="ttname"><a href="structMR_1_1Object_1_1ProtectedStruct.html">MR::Object::ProtectedStruct</a></div><div class="ttdef"><b>Definition</b> MRObject.h:270</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

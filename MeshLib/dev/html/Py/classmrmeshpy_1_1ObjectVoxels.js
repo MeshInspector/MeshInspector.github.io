@@ -38,6 +38,7 @@ var classmrmeshpy_1_1ObjectVoxels =
     [ "recalculateHistogram", "classmrmeshpy_1_1ObjectVoxels.html#ac7b4bfe6d1b1aa1851433bc0869a2f63", null ],
     [ "recalculateIsoSurface", "classmrmeshpy_1_1ObjectVoxels.html#ae863dd0927e1b8b2f5401f871bd2af7e", null ],
     [ "recalculateIsoSurface", "classmrmeshpy_1_1ObjectVoxels.html#a737f8dd2bf46757c574cf276eab2f467", null ],
+    [ "resetFrontColor", "classmrmeshpy_1_1ObjectVoxels.html#adc91e90b684c0f6223e1de9a53e21652", null ],
     [ "selectVoxels", "classmrmeshpy_1_1ObjectVoxels.html#a05413873faa6dc46040440dc4e249a67", null ],
     [ "serializeFormat", "classmrmeshpy_1_1ObjectVoxels.html#aa5ad4c12a35f573b76781d382667c058", null ],
     [ "setActiveBounds", "classmrmeshpy_1_1ObjectVoxels.html#aa0d21fe40c3500260b2c73c657d871b7", null ],

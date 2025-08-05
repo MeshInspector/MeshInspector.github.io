@@ -60,6 +60,8 @@ var MRObjectPointsHolder_8h =
     [ "MR_ObjectPointsHolder_OffsetPtr", "MRObjectPointsHolder_8h.html#a58a43203f1e19e2e367c70f1d60e7d74", null ],
     [ "MR_ObjectPointsHolder_pointCloud", "MRObjectPointsHolder_8h.html#a0a4b0605a5cd10234b4f3a70d6963ddb", null ],
     [ "MR_ObjectPointsHolder_pointCloudPart", "MRObjectPointsHolder_8h.html#a032e87afdcf3958e03ae428538a4b520", null ],
+    [ "MR_ObjectPointsHolder_resetColors", "MRObjectPointsHolder_8h.html#a427a843551baffa7624447ac8f6f7a9c", null ],
+    [ "MR_ObjectPointsHolder_resetFrontColor", "MRObjectPointsHolder_8h.html#a77ad14f5227341863b989eda3b7c2f4d", null ],
     [ "MR_ObjectPointsHolder_selectPoints", "MRObjectPointsHolder_8h.html#a4e189a57452a88551dde4f46bfb457e8", null ],
     [ "MR_ObjectPointsHolder_serializeFormat", "MRObjectPointsHolder_8h.html#a6fad6374c44ed565129b91c1cfa7191c", null ],
     [ "MR_ObjectPointsHolder_setDirtyFlags", "MRObjectPointsHolder_8h.html#a08d88defa2b3be1f260f067d051f10d9", null ],

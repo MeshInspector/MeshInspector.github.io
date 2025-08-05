@@ -5,5 +5,7 @@ var MRString_8h =
     [ "MR_std_vector_std_string", "MRString_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900", null ],
     [ "MR_replace", "MRString_8h.html#ac8335e464659f316b9021b3b115f2d89", null ],
     [ "MR_replaceInplace", "MRString_8h.html#a1e0bde14d170a00b409d84ed2c46f8f9", null ],
+    [ "MR_trim", "MRString_8h.html#a761c476b3907f0b69dd807ef0a27e0aa", null ],
+    [ "MR_trimLeft", "MRString_8h.html#a29d2ca719ccfa90529543fb832aa871f", null ],
     [ "MR_trimRight", "MRString_8h.html#a95ca4120d6ab5fee907117ac3d93edce", null ]
 ];

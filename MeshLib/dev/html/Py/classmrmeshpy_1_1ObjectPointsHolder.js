@@ -22,6 +22,8 @@ var classmrmeshpy_1_1ObjectPointsHolder =
     [ "numValidPoints", "classmrmeshpy_1_1ObjectPointsHolder.html#a7ed499b29435313b0f06dd2ae5545304", null ],
     [ "pointCloud", "classmrmeshpy_1_1ObjectPointsHolder.html#aaf3826262060be74638f5b20f273c8e3", null ],
     [ "pointCloudPart", "classmrmeshpy_1_1ObjectPointsHolder.html#a3027efc64dea7569dd3e7f1062c1b575", null ],
+    [ "resetColors", "classmrmeshpy_1_1ObjectPointsHolder.html#a84437a0e674b5dac4596ae997219ed33", null ],
+    [ "resetFrontColor", "classmrmeshpy_1_1ObjectPointsHolder.html#abc7611457d22550c27df17a2882c2f48", null ],
     [ "selectPoints", "classmrmeshpy_1_1ObjectPointsHolder.html#ac7bf2ac3747207443f498dc11d9f3c85", null ],
     [ "serializeFormat", "classmrmeshpy_1_1ObjectPointsHolder.html#a1dd1183a0433a5c13baf42ce62aafdf6", null ],
     [ "setDirtyFlags", "classmrmeshpy_1_1ObjectPointsHolder.html#a21ef2275b0fdb3731afa65b42d24dbf9", null ],

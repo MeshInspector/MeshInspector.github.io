@@ -17,6 +17,7 @@ var classmrmeshpy_1_1ObjectLinesHolder =
     [ "numComponents", "classmrmeshpy_1_1ObjectLinesHolder.html#a2b1a6a7bd1e518c46da8429a841f873b", null ],
     [ "numUndirectedEdges", "classmrmeshpy_1_1ObjectLinesHolder.html#a9c8bef0028808244b470495c2c937844", null ],
     [ "polyline", "classmrmeshpy_1_1ObjectLinesHolder.html#a6ae665bceaf15ddd1db70c553f88ef8f", null ],
+    [ "resetFrontColor", "classmrmeshpy_1_1ObjectLinesHolder.html#a2b6ccbafe3df2faed6e745abad21486f", null ],
     [ "setDirtyFlags", "classmrmeshpy_1_1ObjectLinesHolder.html#ae2cf69c6b8bbc437fac219147a738433", null ],
     [ "setLinesColorMap", "classmrmeshpy_1_1ObjectLinesHolder.html#acebcd884d454d5c6138f9087f1b80387", null ],
     [ "setLineWidth", "classmrmeshpy_1_1ObjectLinesHolder.html#a4654badc49423f7a1fb0854b5ae7703f", null ],

@@ -46,6 +46,7 @@ var classMR_1_1ObjectVoxels =
     [ "recalculateHistogram", "classMR_1_1ObjectVoxels.html#af7b8b9838d50a4946c46bf66319c4ecb", null ],
     [ "recalculateIsoSurface", "classMR_1_1ObjectVoxels.html#a46adc4914b8a2574e7b26f15962e31f6", null ],
     [ "recalculateIsoSurface", "classMR_1_1ObjectVoxels.html#a0be5abb458a3b28d1c15a5709be051c3", null ],
+    [ "resetFrontColor", "classMR_1_1ObjectVoxels.html#a8d8dc2407b56398b61d81060eddd8f33", null ],
     [ "selectVoxels", "classMR_1_1ObjectVoxels.html#a4333c77a23030251df09a35b3432fdd6", null ],
     [ "serializeFields_", "classMR_1_1ObjectVoxels.html#a8d05e0dff6ba746d6758554f24bf308b", null ],
     [ "serializeFormat", "classMR_1_1ObjectVoxels.html#a1c26c30edd465ed8fa5cce096943dd41", null ],

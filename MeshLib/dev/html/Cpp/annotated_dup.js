@@ -954,6 +954,8 @@ var annotated_dup =
       [ "ViewportPointsWithColors", "structMR_1_1ViewportPointsWithColors.html", "structMR_1_1ViewportPointsWithColors" ],
       [ "ViewportProperty", "classMR_1_1ViewportProperty.html", "classMR_1_1ViewportProperty" ],
       [ "VisualObject", "classMR_1_1VisualObject.html", "classMR_1_1VisualObject" ],
+      [ "VisualObjectTag", "structMR_1_1VisualObjectTag.html", "structMR_1_1VisualObjectTag" ],
+      [ "VisualObjectTagManager", "classMR_1_1VisualObjectTagManager.html", "classMR_1_1VisualObjectTagManager" ],
       [ "VolumeIndexer", "classMR_1_1VolumeIndexer.html", "classMR_1_1VolumeIndexer" ],
       [ "VolumeSegmentationParameters", "structMR_1_1VolumeSegmentationParameters.html", "structMR_1_1VolumeSegmentationParameters" ],
       [ "VolumeSegmenter", "classMR_1_1VolumeSegmenter.html", "classMR_1_1VolumeSegmenter" ],
