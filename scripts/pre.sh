@@ -48,8 +48,11 @@ for MODULE in ${MODULES[*]}
 do
     ../MeshLib/scripts/doxygen/generate_doxygen_layout.sh $MODULE
 
+    # create backup for Doxyfile*
+    cp Doxyfile${MODULE} Doxyfile${MODULE}.bak
+
     # force Doxygen to use the custom HTML header
-    sed -e "s|HTML_HEADER\s*=.*|HTML_HEADER = html_header.html|" -i.bak Doxyfile${MODULE}
+    sed -e "s|HTML_HEADER\s*=.*|HTML_HEADER = html_header.html|" -i Doxyfile${MODULE}
     # force Doxygen to use the custom HTML footer
     sed -e "s|HTML_FOOTER\s*=.*|HTML_FOOTER = html_footer.html|" -i Doxyfile${MODULE}
     # force Doxygen to use the custom output directory
