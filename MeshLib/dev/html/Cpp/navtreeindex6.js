@@ -136,7 +136,7 @@ var NAVTREEINDEX6 =
 "MRMeshC_2MRMeshLoad_8h_source.html":[6,0,3,0,0,1,5,37],
 "MRMeshC_2MRMeshMeshDistance_8h.html":[6,0,3,0,0,1,5,39],
 "MRMeshC_2MRMeshMeshDistance_8h.html#a1d93fce0e6a3f218c3dc43bc4d8a2dd7":[6,0,3,0,0,1,5,39,1],
-"MRMeshC_2MRMeshMeshDistance_8h.html#a41434f43fa15bae5dcc078b173cf6525":[6,0,3,0,0,1,5,39,2],
+"MRMeshC_2MRMeshMeshDistance_8h.html#a7e9a0bf696f26895b0d4a3430541e9a6":[6,0,3,0,0,1,5,39,2],
 "MRMeshC_2MRMeshMeshDistance_8h_source.html":[6,0,3,0,0,1,5,39],
 "MRMeshC_2MRMeshMetrics_8h.html":[6,0,3,0,0,1,5,40],
 "MRMeshC_2MRMeshMetrics_8h.html#a039ab12cbc75ca2813c259f9724b5136":[6,0,3,0,0,1,5,40,11],
