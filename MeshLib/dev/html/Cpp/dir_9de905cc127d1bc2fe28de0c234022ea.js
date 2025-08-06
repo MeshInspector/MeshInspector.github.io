@@ -39,6 +39,7 @@ var dir_9de905cc127d1bc2fe28de0c234022ea =
     [ "MRMeshFwd.h", "MRMeshC_2MRMeshFwd_8h.html", "MRMeshC_2MRMeshFwd_8h" ],
     [ "MRMeshLoad.h", "MRMeshC_2MRMeshLoad_8h.html", "MRMeshC_2MRMeshLoad_8h" ],
     [ "MRMeshLoadObj.h", "MRMeshC_2MRMeshLoadObj_8h.html", "MRMeshC_2MRMeshLoadObj_8h" ],
+    [ "MRMeshMeshDistance.h", "MRMeshC_2MRMeshMeshDistance_8h.html", "MRMeshC_2MRMeshMeshDistance_8h" ],
     [ "MRMeshMetrics.h", "MRMeshC_2MRMeshMetrics_8h.html", "MRMeshC_2MRMeshMetrics_8h" ],
     [ "MRMeshNormals.h", "MRMeshC_2MRMeshNormals_8h.html", "MRMeshC_2MRMeshNormals_8h" ],
     [ "MRMeshOrPoints.h", "MRMeshC_2MRMeshOrPoints_8h.html", "MRMeshC_2MRMeshOrPoints_8h" ],

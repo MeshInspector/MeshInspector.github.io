@@ -809,6 +809,7 @@ var hierarchy =
     [ "MRMeshComponentsMap", "structMRMeshComponentsMap.html", null ],
     [ "MRMeshLoadNamedMesh", "structMRMeshLoadNamedMesh.html", null ],
     [ "MRMeshLoadObjLoadSettings", "structMRMeshLoadObjLoadSettings.html", null ],
+    [ "MRMeshMeshDistanceResult", "structMRMeshMeshDistanceResult.html", null ],
     [ "MRMeshNormals", "structMRMeshNormals.html", null ],
     [ "MRMeshPart", "structMRMeshPart.html", null ],
     [ "MRMeshProjectionParameters", "structMRMeshProjectionParameters.html", null ],

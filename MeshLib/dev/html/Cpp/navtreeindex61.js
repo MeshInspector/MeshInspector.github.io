@@ -1,5 +1,12 @@
 var NAVTREEINDEX61 =
 {
+"group__PointCloudGroup.html#gae7f606fab30e51e1e33343ea3df6754e":[6,0,0,12,52],
+"group__PointCloudGroup.html#gae98664b57ab2c0e64704c74c3df3d144":[6,0,0,12,19],
+"group__PointCloudGroup.html#gaef742ac7bd70fa90d91fec9025e8d375":[6,0,0,12,60],
+"group__PointCloudGroup.html#gaf75164cf8b84c9b67e6393fac752393b":[6,0,0,12,42],
+"group__PointCloudGroup.html#gaf7ef368d7cbe6f432163b430eb090b7f":[6,0,0,12,31],
+"group__PointCloudGroup.html#gaf985fc6b33ff6efd4bf53fe4e2a211fa":[6,0,0,12,20],
+"group__PointCloudGroup.html#gaf9b5e5cbe61e4c019f2b7115abb47947":[6,0,0,12,36],
 "group__PointCloudGroup.html#gafe2f37beb5f943a3d7f14bcc80a64f9c":[6,0,0,12,35],
 "group__PointCloudGroup.html#gafeb20f852d996b16a21c290b4218f0aa":[6,0,0,12,33],
 "group__PointCloudTriangulationGroup.html":[6,0,0,13],
@@ -242,12 +249,5 @@ var NAVTREEINDEX61 =
 "group__SurfacePathSubgroup.html#ga5a33f49f4fe38c5e83ad6503bdc1e16f":[6,0,0,16,3,36],
 "group__SurfacePathSubgroup.html#ga5a353cb464a2fc9991af01d7f53aef78":[6,0,0,16,3,3],
 "group__SurfacePathSubgroup.html#ga5e9b9ba414eba706da7460c56cfa5772":[6,0,0,16,3,20],
-"group__SurfacePathSubgroup.html#ga620d54c2818ac8ff72d248a3f0516b05":[6,0,0,16,3,37],
-"group__SurfacePathSubgroup.html#ga739800ab56cb2c5a4a28525ae00b4a04":[6,0,0,16,3,33],
-"group__SurfacePathSubgroup.html#ga77a3f9f8ff5ade5e45f217468c4f64ce":[6,0,0,16,3,46],
-"group__SurfacePathSubgroup.html#ga804df7aae02c25be3a71a7a390147d2f":[6,0,0,16,3,34],
-"group__SurfacePathSubgroup.html#ga8359c707ab87c6591777e5c2809c7468":[6,0,0,16,3,8],
-"group__SurfacePathSubgroup.html#ga8565496250e83ea07dc00bbfe10d50a1":[6,0,0,16,3,50],
-"group__SurfacePathSubgroup.html#ga86a1971ed1f3a0ea0491c217a9fcce53":[6,0,0,16,3,48],
-"group__SurfacePathSubgroup.html#ga874e90d25d0cf437f34834d739fa588c":[6,0,0,16,3,54]
+"group__SurfacePathSubgroup.html#ga620d54c2818ac8ff72d248a3f0516b05":[6,0,0,16,3,37]
 };

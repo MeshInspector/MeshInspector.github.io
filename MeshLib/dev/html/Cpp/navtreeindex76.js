@@ -1,5 +1,16 @@
 var NAVTREEINDEX76 =
 {
+"structMR_1_1DecimateResult.html":[6,0,0,10,1],
+"structMR_1_1DecimateSettings.html":[6,0,0,10,0],
+"structMR_1_1DeloneSettings.html":[6,0,1,0,1,170],
+"structMR_1_1DeloneSettings.html":[6,0,2,0,1,152],
+"structMR_1_1DeloneSettings.html#a0f1d4b68cf91c9aebfb8f580d7ab6610":[6,0,1,0,1,170,4],
+"structMR_1_1DeloneSettings.html#a0f1d4b68cf91c9aebfb8f580d7ab6610":[6,0,2,0,1,152,4],
+"structMR_1_1DeloneSettings.html#a2d89f7e52be83dd63ce7daed50c40c90":[6,0,1,0,1,170,1],
+"structMR_1_1DeloneSettings.html#a2d89f7e52be83dd63ce7daed50c40c90":[6,0,2,0,1,152,1],
+"structMR_1_1DeloneSettings.html#a513ebe0c472b1ac5cdfa1226d4f52e27":[6,0,1,0,1,170,3],
+"structMR_1_1DeloneSettings.html#a513ebe0c472b1ac5cdfa1226d4f52e27":[6,0,2,0,1,152,3],
+"structMR_1_1DeloneSettings.html#a59743925cda5ef4a2b87449e410897e8":[6,0,1,0,1,170,5],
 "structMR_1_1DeloneSettings.html#a59743925cda5ef4a2b87449e410897e8":[6,0,2,0,1,152,5],
 "structMR_1_1DeloneSettings.html#ac1d8b0d536be2f423ac9a2d1b2bce7d2":[6,0,1,0,1,170,0],
 "structMR_1_1DeloneSettings.html#ac1d8b0d536be2f423ac9a2d1b2bce7d2":[6,0,2,0,1,152,0],
@@ -238,16 +249,5 @@ var NAVTREEINDEX76 =
 "structMR_1_1DragListener.html":[6,0,2,0,1,180],
 "structMR_1_1DragListener.html#a0be1825501218bbfbba2eaa2f39383d2":[6,0,1,0,1,198,2],
 "structMR_1_1DragListener.html#a0be1825501218bbfbba2eaa2f39383d2":[6,0,2,0,1,180,2],
-"structMR_1_1DragListener.html#a3c8e2af0bd0db619dafdc936fec70576":[6,0,1,0,1,198,1],
-"structMR_1_1DragListener.html#a3c8e2af0bd0db619dafdc936fec70576":[6,0,2,0,1,180,1],
-"structMR_1_1DragListener.html#a3d494895fda9789af1254de71a622845":[6,0,1,0,1,198,0],
-"structMR_1_1DragListener.html#a3d494895fda9789af1254de71a622845":[6,0,2,0,1,180,0],
-"structMR_1_1DragListener.html#a77da80a462f4e2de09870ee273327df2":[6,0,1,0,1,198,3],
-"structMR_1_1DragListener.html#a77da80a462f4e2de09870ee273327df2":[6,0,2,0,1,180,3],
-"structMR_1_1DragOverListener.html":[6,0,1,0,1,199],
-"structMR_1_1DragOverListener.html":[6,0,2,0,1,181],
-"structMR_1_1DragOverListener.html#a7f9e1ce89166d0e91512e889e95a8e5d":[6,0,1,0,1,199,3],
-"structMR_1_1DragOverListener.html#a7f9e1ce89166d0e91512e889e95a8e5d":[6,0,2,0,1,181,3],
-"structMR_1_1DragOverListener.html#a96026484054dfeb0d7f893a24afce478":[6,0,1,0,1,199,0],
-"structMR_1_1DragOverListener.html#a96026484054dfeb0d7f893a24afce478":[6,0,2,0,1,181,0]
+"structMR_1_1DragListener.html#a3c8e2af0bd0db619dafdc936fec70576":[6,0,1,0,1,198,1]
 };

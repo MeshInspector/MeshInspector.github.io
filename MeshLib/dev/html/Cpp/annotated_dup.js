@@ -1016,6 +1016,7 @@ var annotated_dup =
     [ "MRMeshComponentsMap", "structMRMeshComponentsMap.html", "structMRMeshComponentsMap" ],
     [ "MRMeshLoadNamedMesh", "structMRMeshLoadNamedMesh.html", "structMRMeshLoadNamedMesh" ],
     [ "MRMeshLoadObjLoadSettings", "structMRMeshLoadObjLoadSettings.html", "structMRMeshLoadObjLoadSettings" ],
+    [ "MRMeshMeshDistanceResult", "structMRMeshMeshDistanceResult.html", "structMRMeshMeshDistanceResult" ],
     [ "MRMeshNormals", "structMRMeshNormals.html", "structMRMeshNormals" ],
     [ "MRMeshPart", "structMRMeshPart.html", "structMRMeshPart" ],
     [ "MRMeshProjectionParameters", "structMRMeshProjectionParameters.html", "structMRMeshProjectionParameters" ],

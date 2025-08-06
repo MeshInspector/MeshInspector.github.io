@@ -1,5 +1,16 @@
 var NAVTREEINDEX74 =
 {
+"structMR_1_1AncillaryPoints.html#a19619544546d28e1fe037cd4d39dfab5":[6,0,1,0,1,61,10],
+"structMR_1_1AncillaryPoints.html#a19619544546d28e1fe037cd4d39dfab5":[6,0,2,0,1,43,10],
+"structMR_1_1AncillaryPoints.html#a1ae6091149af08970f521f474ed0cb1e":[6,0,1,0,1,61,3],
+"structMR_1_1AncillaryPoints.html#a1ae6091149af08970f521f474ed0cb1e":[6,0,2,0,1,43,3],
+"structMR_1_1AncillaryPoints.html#a37e968a4fe6703e8890329ac2f83d978":[6,0,1,0,1,61,1],
+"structMR_1_1AncillaryPoints.html#a37e968a4fe6703e8890329ac2f83d978":[6,0,2,0,1,43,1],
+"structMR_1_1AncillaryPoints.html#a45db8cb79aca2bc0ac79707f498df4c8":[6,0,1,0,1,61,6],
+"structMR_1_1AncillaryPoints.html#a45db8cb79aca2bc0ac79707f498df4c8":[6,0,2,0,1,43,6],
+"structMR_1_1AncillaryPoints.html#a537fa4e2293d1858a80b7317ee1f6143":[6,0,1,0,1,61,11],
+"structMR_1_1AncillaryPoints.html#a537fa4e2293d1858a80b7317ee1f6143":[6,0,2,0,1,43,11],
+"structMR_1_1AncillaryPoints.html#a63a0097eb35e67be4a2ea6f2d5f98402":[6,0,1,0,1,61,4],
 "structMR_1_1AncillaryPoints.html#a63a0097eb35e67be4a2ea6f2d5f98402":[6,0,2,0,1,43,4],
 "structMR_1_1AncillaryPoints.html#a7bf2502c9af68ddef2828358eedb94b8":[6,0,1,0,1,61,8],
 "structMR_1_1AncillaryPoints.html#a7bf2502c9af68ddef2828358eedb94b8":[6,0,2,0,1,43,8],
@@ -238,16 +249,5 @@ var NAVTREEINDEX74 =
 "structMR_1_1Box.html#af93a3ccd5c9d9d678844e2578807089f":[6,0,0,0,2,0,26],
 "structMR_1_1BoxedLeaf.html":[6,0,0,1,2],
 "structMR_1_1BoxedLeaf.html#a0b4e56c5de1bf6b3fd5a6a6896e66d46":[6,0,0,1,2,0],
-"structMR_1_1BoxedLeaf.html#a20f98852bf25f7268e73b993bd26a8d7":[6,0,0,1,2,1],
-"structMR_1_1BoxedLeaf.html#a7e9f371791aa795b1f0c9525f37e40e5":[6,0,0,1,2,2],
-"structMR_1_1BoxedLeaf.html#a94f8ddab16da6ccb873e9ef25f7b116d":[6,0,0,1,2,3],
-"structMR_1_1CharPressedListener.html":[6,0,1,0,1,134],
-"structMR_1_1CharPressedListener.html":[6,0,2,0,1,116],
-"structMR_1_1CharPressedListener.html#a3c20edbda2e8d0fc8601a5c047e8bf87":[6,0,1,0,1,134,3],
-"structMR_1_1CharPressedListener.html#a3c20edbda2e8d0fc8601a5c047e8bf87":[6,0,2,0,1,116,3],
-"structMR_1_1CharPressedListener.html#a8a6a064feb60cce174c9984e57327c53":[6,0,1,0,1,134,1],
-"structMR_1_1CharPressedListener.html#a8a6a064feb60cce174c9984e57327c53":[6,0,2,0,1,116,1],
-"structMR_1_1CharPressedListener.html#a8fee63fd3d2285947ffd40097bcbbaf4":[6,0,1,0,1,134,2],
-"structMR_1_1CharPressedListener.html#a8fee63fd3d2285947ffd40097bcbbaf4":[6,0,2,0,1,116,2],
-"structMR_1_1CharPressedListener.html#acb23223388e965ab4405fb7f18d4fcde":[6,0,1,0,1,134,0]
+"structMR_1_1BoxedLeaf.html#a20f98852bf25f7268e73b993bd26a8d7":[6,0,0,1,2,1]
 };

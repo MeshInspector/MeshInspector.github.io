@@ -125,7 +125,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function(){initNavTree('MRMeshMeshDistance_8h_source.html',''); initResizable(true); });
+$(function(){initNavTree('MRMesh_2MRMeshMeshDistance_8h_source.html',''); initResizable(true); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -151,10 +151,10 @@ $(function(){initNavTree('MRMeshMeshDistance_8h_source.html',''); initResizable(
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">MRMeshMeshDistance.h</div></div>
+  <div class="headertitle"><div class="title">MRMesh/MRMeshMeshDistance.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="MRMeshMeshDistance_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<a href="MRMesh_2MRMeshMeshDistance_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment">// distance queries involving two meshes, please see MRMeshDistance.h for queries to one mesh only</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
@@ -202,14 +202,14 @@ $(function(){initNavTree('MRMeshMeshDistance_8h_source.html',''); initResizable(
 <div class="ttc" id="agroup__AABBTreeGroup_html_ga3672072155e3f272d13a40ccd4645d02"><div class="ttname"><a href="group__AABBTreeGroup.html#ga3672072155e3f272d13a40ccd4645d02">MR::findMaxDistanceSq</a></div><div class="ttdeci">MRMESH_API float findMaxDistanceSq(const MeshPart &amp;a, const MeshPart &amp;b, const AffineXf3f *rigidB2A=nullptr, float maxDistanceSq=FLT_MAX)</div><div class="ttdoc">returns the squared Hausdorff distance between two meshes, that is the maximum of squared distances f...</div></div>
 <div class="ttc" id="agroup__AABBTreeGroup_html_ga375d9c9dcfb1fd7d9a254a73370d71ba"><div class="ttname"><a href="group__AABBTreeGroup.html#ga375d9c9dcfb1fd7d9a254a73370d71ba">MR::findMaxDistanceSqOneWay</a></div><div class="ttdeci">MRMESH_API float findMaxDistanceSqOneWay(const MeshPart &amp;a, const MeshPart &amp;b, const AffineXf3f *rigidB2A=nullptr, float maxDistanceSq=FLT_MAX)</div><div class="ttdoc">returns the maximum of the squared distances from each B-mesh vertex to A-mesh</div></div>
 <div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
-<div class="ttc" id="astructMR_1_1MeshMeshDistanceResult_html"><div class="ttname"><a href="structMR_1_1MeshMeshDistanceResult.html">MR::MeshMeshDistanceResult</a></div><div class="ttdef"><b>Definition</b> MRMeshMeshDistance.h:16</div></div>
-<div class="ttc" id="astructMR_1_1MeshMeshDistanceResult_html_a31d5db7464e13bf1f300593e515875c9"><div class="ttname"><a href="structMR_1_1MeshMeshDistanceResult.html#a31d5db7464e13bf1f300593e515875c9">MR::MeshMeshDistanceResult::distSq</a></div><div class="ttdeci">float distSq</div><div class="ttdoc">squared distance between a and b</div><div class="ttdef"><b>Definition</b> MRMeshMeshDistance.h:20</div></div>
-<div class="ttc" id="astructMR_1_1MeshMeshDistanceResult_html_ac63fe46e0eee3773c56a65dacf2f15b4"><div class="ttname"><a href="structMR_1_1MeshMeshDistanceResult.html#ac63fe46e0eee3773c56a65dacf2f15b4">MR::MeshMeshDistanceResult::a</a></div><div class="ttdeci">PointOnFace a</div><div class="ttdoc">two closest points: from meshes A and B respectively</div><div class="ttdef"><b>Definition</b> MRMeshMeshDistance.h:18</div></div>
-<div class="ttc" id="astructMR_1_1MeshMeshDistanceResult_html_aeb2b4c0d5e120181eaa3a706a14f40f9"><div class="ttname"><a href="structMR_1_1MeshMeshDistanceResult.html#aeb2b4c0d5e120181eaa3a706a14f40f9">MR::MeshMeshDistanceResult::b</a></div><div class="ttdeci">PointOnFace b</div><div class="ttdef"><b>Definition</b> MRMeshMeshDistance.h:18</div></div>
-<div class="ttc" id="astructMR_1_1MeshMeshSignedDistanceResult_html"><div class="ttname"><a href="structMR_1_1MeshMeshSignedDistanceResult.html">MR::MeshMeshSignedDistanceResult</a></div><div class="ttdef"><b>Definition</b> MRMeshMeshDistance.h:24</div></div>
-<div class="ttc" id="astructMR_1_1MeshMeshSignedDistanceResult_html_a23af96a4b4cd53382d78f9c0356b4c09"><div class="ttname"><a href="structMR_1_1MeshMeshSignedDistanceResult.html#a23af96a4b4cd53382d78f9c0356b4c09">MR::MeshMeshSignedDistanceResult::b</a></div><div class="ttdeci">PointOnFace b</div><div class="ttdef"><b>Definition</b> MRMeshMeshDistance.h:26</div></div>
-<div class="ttc" id="astructMR_1_1MeshMeshSignedDistanceResult_html_a642ae2b2d6307510e4c0d80c5157ebbb"><div class="ttname"><a href="structMR_1_1MeshMeshSignedDistanceResult.html#a642ae2b2d6307510e4c0d80c5157ebbb">MR::MeshMeshSignedDistanceResult::a</a></div><div class="ttdeci">PointOnFace a</div><div class="ttdoc">two closest points: from meshes A and B respectively</div><div class="ttdef"><b>Definition</b> MRMeshMeshDistance.h:26</div></div>
-<div class="ttc" id="astructMR_1_1MeshMeshSignedDistanceResult_html_abe11291a5f4afd550ef7697c23ba7410"><div class="ttname"><a href="structMR_1_1MeshMeshSignedDistanceResult.html#abe11291a5f4afd550ef7697c23ba7410">MR::MeshMeshSignedDistanceResult::signedDist</a></div><div class="ttdeci">float signedDist</div><div class="ttdoc">signed distance between a and b, positive if meshes do not collide</div><div class="ttdef"><b>Definition</b> MRMeshMeshDistance.h:28</div></div>
+<div class="ttc" id="astructMR_1_1MeshMeshDistanceResult_html"><div class="ttname"><a href="structMR_1_1MeshMeshDistanceResult.html">MR::MeshMeshDistanceResult</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshMeshDistance.h:16</div></div>
+<div class="ttc" id="astructMR_1_1MeshMeshDistanceResult_html_a31d5db7464e13bf1f300593e515875c9"><div class="ttname"><a href="structMR_1_1MeshMeshDistanceResult.html#a31d5db7464e13bf1f300593e515875c9">MR::MeshMeshDistanceResult::distSq</a></div><div class="ttdeci">float distSq</div><div class="ttdoc">squared distance between a and b</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshMeshDistance.h:20</div></div>
+<div class="ttc" id="astructMR_1_1MeshMeshDistanceResult_html_ac63fe46e0eee3773c56a65dacf2f15b4"><div class="ttname"><a href="structMR_1_1MeshMeshDistanceResult.html#ac63fe46e0eee3773c56a65dacf2f15b4">MR::MeshMeshDistanceResult::a</a></div><div class="ttdeci">PointOnFace a</div><div class="ttdoc">two closest points: from meshes A and B respectively</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshMeshDistance.h:18</div></div>
+<div class="ttc" id="astructMR_1_1MeshMeshDistanceResult_html_aeb2b4c0d5e120181eaa3a706a14f40f9"><div class="ttname"><a href="structMR_1_1MeshMeshDistanceResult.html#aeb2b4c0d5e120181eaa3a706a14f40f9">MR::MeshMeshDistanceResult::b</a></div><div class="ttdeci">PointOnFace b</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshMeshDistance.h:18</div></div>
+<div class="ttc" id="astructMR_1_1MeshMeshSignedDistanceResult_html"><div class="ttname"><a href="structMR_1_1MeshMeshSignedDistanceResult.html">MR::MeshMeshSignedDistanceResult</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshMeshDistance.h:24</div></div>
+<div class="ttc" id="astructMR_1_1MeshMeshSignedDistanceResult_html_a23af96a4b4cd53382d78f9c0356b4c09"><div class="ttname"><a href="structMR_1_1MeshMeshSignedDistanceResult.html#a23af96a4b4cd53382d78f9c0356b4c09">MR::MeshMeshSignedDistanceResult::b</a></div><div class="ttdeci">PointOnFace b</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshMeshDistance.h:26</div></div>
+<div class="ttc" id="astructMR_1_1MeshMeshSignedDistanceResult_html_a642ae2b2d6307510e4c0d80c5157ebbb"><div class="ttname"><a href="structMR_1_1MeshMeshSignedDistanceResult.html#a642ae2b2d6307510e4c0d80c5157ebbb">MR::MeshMeshSignedDistanceResult::a</a></div><div class="ttdeci">PointOnFace a</div><div class="ttdoc">two closest points: from meshes A and B respectively</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshMeshDistance.h:26</div></div>
+<div class="ttc" id="astructMR_1_1MeshMeshSignedDistanceResult_html_abe11291a5f4afd550ef7697c23ba7410"><div class="ttname"><a href="structMR_1_1MeshMeshSignedDistanceResult.html#abe11291a5f4afd550ef7697c23ba7410">MR::MeshMeshSignedDistanceResult::signedDist</a></div><div class="ttdeci">float signedDist</div><div class="ttdoc">signed distance between a and b, positive if meshes do not collide</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshMeshDistance.h:28</div></div>
 <div class="ttc" id="astructMR_1_1PointOnFace_html"><div class="ttname"><a href="structMR_1_1PointOnFace.html">MR::PointOnFace</a></div><div class="ttdoc">a point located on some mesh's face</div><div class="ttdef"><b>Definition</b> MRMesh/MRPointOnFace.h:11</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -217,7 +217,7 @@ $(function(){initNavTree('MRMeshMeshDistance_8h_source.html',''); initResizable(
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><a class="el" href="MRMeshMeshDistance_8h.html">MRMeshMeshDistance.h</a></li>
+    <li class="navelem"><a class="el" href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a class="el" href="dir_4c7ccc9b91e63e9e00b4c1745f04306a.html">source</a></li><li class="navelem"><a class="el" href="dir_3b80d7f2783cad7ee402cf6b731f4ae2.html">MRMesh</a></li><li class="navelem"><a class="el" href="MRMesh_2MRMeshMeshDistance_8h.html">MRMeshMeshDistance.h</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

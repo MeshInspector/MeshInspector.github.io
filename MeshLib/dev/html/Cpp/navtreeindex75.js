@@ -1,5 +1,16 @@
 var NAVTREEINDEX75 =
 {
+"structMR_1_1BoxedLeaf.html#a7e9f371791aa795b1f0c9525f37e40e5":[6,0,0,1,2,2],
+"structMR_1_1BoxedLeaf.html#a94f8ddab16da6ccb873e9ef25f7b116d":[6,0,0,1,2,3],
+"structMR_1_1CharPressedListener.html":[6,0,1,0,1,134],
+"structMR_1_1CharPressedListener.html":[6,0,2,0,1,116],
+"structMR_1_1CharPressedListener.html#a3c20edbda2e8d0fc8601a5c047e8bf87":[6,0,1,0,1,134,3],
+"structMR_1_1CharPressedListener.html#a3c20edbda2e8d0fc8601a5c047e8bf87":[6,0,2,0,1,116,3],
+"structMR_1_1CharPressedListener.html#a8a6a064feb60cce174c9984e57327c53":[6,0,1,0,1,134,1],
+"structMR_1_1CharPressedListener.html#a8a6a064feb60cce174c9984e57327c53":[6,0,2,0,1,116,1],
+"structMR_1_1CharPressedListener.html#a8fee63fd3d2285947ffd40097bcbbaf4":[6,0,1,0,1,134,2],
+"structMR_1_1CharPressedListener.html#a8fee63fd3d2285947ffd40097bcbbaf4":[6,0,2,0,1,116,2],
+"structMR_1_1CharPressedListener.html#acb23223388e965ab4405fb7f18d4fcde":[6,0,1,0,1,134,0],
 "structMR_1_1CharPressedListener.html#acb23223388e965ab4405fb7f18d4fcde":[6,0,2,0,1,116,0],
 "structMR_1_1Chunk.html":[6,0,1,0,1,135],
 "structMR_1_1Chunk.html":[6,0,2,0,1,117],
@@ -238,16 +249,5 @@ var NAVTREEINDEX75 =
 "structMR_1_1CustomButtonParameters.html#ad01797d49f38c7175a5ca759d5064866":[6,0,2,0,1,147,1],
 "structMR_1_1CutMeshParameters.html":[6,0,0,8,3],
 "structMR_1_1CutMeshResult.html":[6,0,0,8,4],
-"structMR_1_1DecimatePolylineSettings.html":[6,0,0,10,2],
-"structMR_1_1DecimateResult.html":[6,0,0,10,1],
-"structMR_1_1DecimateSettings.html":[6,0,0,10,0],
-"structMR_1_1DeloneSettings.html":[6,0,1,0,1,170],
-"structMR_1_1DeloneSettings.html":[6,0,2,0,1,152],
-"structMR_1_1DeloneSettings.html#a0f1d4b68cf91c9aebfb8f580d7ab6610":[6,0,1,0,1,170,4],
-"structMR_1_1DeloneSettings.html#a0f1d4b68cf91c9aebfb8f580d7ab6610":[6,0,2,0,1,152,4],
-"structMR_1_1DeloneSettings.html#a2d89f7e52be83dd63ce7daed50c40c90":[6,0,1,0,1,170,1],
-"structMR_1_1DeloneSettings.html#a2d89f7e52be83dd63ce7daed50c40c90":[6,0,2,0,1,152,1],
-"structMR_1_1DeloneSettings.html#a513ebe0c472b1ac5cdfa1226d4f52e27":[6,0,1,0,1,170,3],
-"structMR_1_1DeloneSettings.html#a513ebe0c472b1ac5cdfa1226d4f52e27":[6,0,2,0,1,152,3],
-"structMR_1_1DeloneSettings.html#a59743925cda5ef4a2b87449e410897e8":[6,0,1,0,1,170,5]
+"structMR_1_1DecimatePolylineSettings.html":[6,0,0,10,2]
 };

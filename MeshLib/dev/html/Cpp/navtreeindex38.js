@@ -1,5 +1,12 @@
 var NAVTREEINDEX38 =
 {
+"classMR_1_1PriorityQueue.html#aeaf2b86418b3f772aaf5c8bc2329d8c2":[6,0,2,0,1,525,0],
+"classMR_1_1PriorityQueue.html#aebd81e426914ebd5fa07ba5e4bfa0142":[6,0,1,0,1,543,4],
+"classMR_1_1PriorityQueue.html#aebd81e426914ebd5fa07ba5e4bfa0142":[6,0,2,0,1,525,4],
+"classMR_1_1PriorityQueue.html#af82d3663565c02f63678292a87e97192":[6,0,1,0,1,543,12],
+"classMR_1_1PriorityQueue.html#af82d3663565c02f63678292a87e97192":[6,0,2,0,1,525,12],
+"classMR_1_1PythonExport.html":[6,0,1,0,1,546],
+"classMR_1_1PythonExport.html":[6,0,2,0,1,528],
 "classMR_1_1PythonExport.html#a001e362a5ed99ee391fd182df4571f9c":[6,0,1,0,1,546,1],
 "classMR_1_1PythonExport.html#a001e362a5ed99ee391fd182df4571f9c":[6,0,2,0,1,528,1],
 "classMR_1_1PythonExport.html#a1105f4987df7b1b8d9d469115a831880":[6,0,1,0,1,546,6],
@@ -242,12 +249,5 @@ var NAVTREEINDEX38 =
 "classMR_1_1RenderAngleObject.html#a27735a1d0225c060e7c06bbb288c0225":[6,0,2,0,1,550,1],
 "classMR_1_1RenderAngleObject.html#ad783673b63b5a23dcf35d0bc3ecd7a02":[6,0,1,0,1,568,0],
 "classMR_1_1RenderAngleObject.html#ad783673b63b5a23dcf35d0bc3ecd7a02":[6,0,2,0,1,550,0],
-"classMR_1_1RenderBufferRef.html":[6,0,1,0,1,569],
-"classMR_1_1RenderBufferRef.html":[6,0,2,0,1,551],
-"classMR_1_1RenderBufferRef.html#a7a999ec2f9bcbbe78e53db8df8a5adc1":[6,0,1,0,1,569,6],
-"classMR_1_1RenderBufferRef.html#a7a999ec2f9bcbbe78e53db8df8a5adc1":[6,0,2,0,1,551,6],
-"classMR_1_1RenderBufferRef.html#a83514f8c96c2dd11af082fa0aac85927":[6,0,1,0,1,569,2],
-"classMR_1_1RenderBufferRef.html#a83514f8c96c2dd11af082fa0aac85927":[6,0,2,0,1,551,2],
-"classMR_1_1RenderBufferRef.html#a9e1c48f420c1514b02967cc0d7ef9331":[6,0,1,0,1,569,0],
-"classMR_1_1RenderBufferRef.html#a9e1c48f420c1514b02967cc0d7ef9331":[6,0,2,0,1,551,0]
+"classMR_1_1RenderBufferRef.html":[6,0,1,0,1,569]
 };
