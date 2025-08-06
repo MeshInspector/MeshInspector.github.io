@@ -205,6 +205,10 @@ it is the safest approach but can converge slowly
 
   PointToPlane : select transformation that minimizes mean squared distance between a point and a plane via the other point in each pair,
 converge much faster than PointToPoint in case of many good (with not all points/normals in one plane) pairs
+This mode only works correctly if the object that points are being projected onto has normals information (is not a point clouds without normals).
+By default both objects are projected onto each other, so at least one of them must have normals, unless you change the settings
+to only project one way (using `MR::ICP::setFltSamples()` or `MR::ICP::setRefSamples()`), in which case the object being projected onto
+must have normals.
 </pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a802b99ad3d83e072276231d9c2d1b2eb" name="a802b99ad3d83e072276231d9c2d1b2eb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a802b99ad3d83e072276231d9c2d1b2eb">&#9670;&#160;</a></span>__init__()</h2>

@@ -1,5 +1,8 @@
 var NAVTREEINDEX76 =
 {
+"structMR_1_1CutMeshParameters.html":[6,0,0,8,3],
+"structMR_1_1CutMeshResult.html":[6,0,0,8,4],
+"structMR_1_1DecimatePolylineSettings.html":[6,0,0,10,2],
 "structMR_1_1DecimateResult.html":[6,0,0,10,1],
 "structMR_1_1DecimateSettings.html":[6,0,0,10,0],
 "structMR_1_1DeloneSettings.html":[6,0,1,0,1,170],
@@ -246,8 +249,5 @@ var NAVTREEINDEX76 =
 "structMR_1_1DragEntranceListener.html#ab05673b16f7ee6e082a35fa78019b8f4":[6,0,1,0,1,197,0],
 "structMR_1_1DragEntranceListener.html#ab05673b16f7ee6e082a35fa78019b8f4":[6,0,2,0,1,179,0],
 "structMR_1_1DragListener.html":[6,0,1,0,1,198],
-"structMR_1_1DragListener.html":[6,0,2,0,1,180],
-"structMR_1_1DragListener.html#a0be1825501218bbfbba2eaa2f39383d2":[6,0,1,0,1,198,2],
-"structMR_1_1DragListener.html#a0be1825501218bbfbba2eaa2f39383d2":[6,0,2,0,1,180,2],
-"structMR_1_1DragListener.html#a3c8e2af0bd0db619dafdc936fec70576":[6,0,1,0,1,198,1]
+"structMR_1_1DragListener.html":[6,0,2,0,1,180]
 };

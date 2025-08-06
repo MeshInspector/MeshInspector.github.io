@@ -17,6 +17,7 @@ var dir_a7ed903fb14ac240885b2d4fb15c4f5b =
     [ "MRMeshDecimate.h", "MRTestC2_2MRMeshDecimate_8h.html", "MRTestC2_2MRMeshDecimate_8h" ],
     [ "MRMeshExtrude.h", "MRTestC2_2MRMeshExtrude_8h.html", "MRTestC2_2MRMeshExtrude_8h" ],
     [ "MRMeshFillHole.h", "MRTestC2_2MRMeshFillHole_8h.html", "MRTestC2_2MRMeshFillHole_8h" ],
+    [ "MRMeshMeshDistance.h", "MRTestC2_2MRMeshMeshDistance_8h.html", "MRTestC2_2MRMeshMeshDistance_8h" ],
     [ "MRMeshNormals.h", "MRTestC2_2MRMeshNormals_8h.html", "MRTestC2_2MRMeshNormals_8h" ],
     [ "MRMeshOffset.h", "MRTestC2_2MRMeshOffset_8h.html", "MRTestC2_2MRMeshOffset_8h" ],
     [ "MRMeshSubdivide.h", "MRTestC2_2MRMeshSubdivide_8h.html", "MRTestC2_2MRMeshSubdivide_8h" ],

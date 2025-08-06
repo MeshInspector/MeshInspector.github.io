@@ -1,5 +1,8 @@
 var NAVTREEINDEX75 =
 {
+"structMR_1_1BoxedLeaf.html":[6,0,0,1,2],
+"structMR_1_1BoxedLeaf.html#a0b4e56c5de1bf6b3fd5a6a6896e66d46":[6,0,0,1,2,0],
+"structMR_1_1BoxedLeaf.html#a20f98852bf25f7268e73b993bd26a8d7":[6,0,0,1,2,1],
 "structMR_1_1BoxedLeaf.html#a7e9f371791aa795b1f0c9525f37e40e5":[6,0,0,1,2,2],
 "structMR_1_1BoxedLeaf.html#a94f8ddab16da6ccb873e9ef25f7b116d":[6,0,0,1,2,3],
 "structMR_1_1CharPressedListener.html":[6,0,1,0,1,134],
@@ -246,8 +249,5 @@ var NAVTREEINDEX75 =
 "structMR_1_1CustomButtonParameters.html#ac4659ddd4f1cc193ad87ef0c017e00eb":[6,0,1,0,1,165,0],
 "structMR_1_1CustomButtonParameters.html#ac4659ddd4f1cc193ad87ef0c017e00eb":[6,0,2,0,1,147,0],
 "structMR_1_1CustomButtonParameters.html#ad01797d49f38c7175a5ca759d5064866":[6,0,1,0,1,165,1],
-"structMR_1_1CustomButtonParameters.html#ad01797d49f38c7175a5ca759d5064866":[6,0,2,0,1,147,1],
-"structMR_1_1CutMeshParameters.html":[6,0,0,8,3],
-"structMR_1_1CutMeshResult.html":[6,0,0,8,4],
-"structMR_1_1DecimatePolylineSettings.html":[6,0,0,10,2]
+"structMR_1_1CustomButtonParameters.html#ad01797d49f38c7175a5ca759d5064866":[6,0,2,0,1,147,1]
 };
