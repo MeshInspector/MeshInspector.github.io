@@ -197,7 +197,6 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <pre class="fragment">gets all connected components of polyline topology
-\\ingroup ComponentsGroup
 \\note be careful, if mesh is large enough and has many components, the memory overflow will occur
 </pre> 
 </div>
@@ -229,7 +228,6 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <pre class="fragment">gets all connected components of polyline topology
-\\ingroup ComponentsGroup
 \\detail if components  number more than the maxComponentCount, they will be combined into groups of the same size 
 \\param maxComponentCount should be more then 1
 \\return pair components bitsets vector and number components in one group if components number more than maxComponentCount
@@ -264,7 +262,6 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <pre class="fragment">returns one connected component containing given undirected edge id, 
 not effective to call more than once, if several components are needed use getAllComponents
-\\ingroup ComponentsGroup
 </pre> 
 </div>
 </div>
@@ -317,7 +314,6 @@ not effective to call more than once, if several components are needed use getAl
 </table>
 </div><div class="memdoc">
 <pre class="fragment">gets union-find structure for given polyline
-\\ingroup ComponentsGroup
 </pre> 
 </div>
 </div>

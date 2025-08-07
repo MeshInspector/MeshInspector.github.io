@@ -1,5 +1,9 @@
 var MRQuadraticForm_8h =
 [
+    [ "MR_QuadraticForm2d", "MRQuadraticForm_8h.html#aa6ee999dc831de73c9dbea5a9de68cbb", null ],
+    [ "MR_QuadraticForm2f", "MRQuadraticForm_8h.html#a62b27ed4544a8c74d01fc16b658b0b91", null ],
+    [ "MR_QuadraticForm3d", "MRQuadraticForm_8h.html#a939ba05e75d5df60ea100919a965431e", null ],
+    [ "MR_QuadraticForm3f", "MRQuadraticForm_8h.html#a5b120d16168818c8c364c4818a6d2c56", null ],
     [ "MR_SymMatrix2d", "MRQuadraticForm_8h.html#af7475838db501ea587b208dcea0499cc", null ],
     [ "MR_SymMatrix2f", "MRQuadraticForm_8h.html#a13cd8cbd4d45e7cccbccacbb1336a621", null ],
     [ "MR_SymMatrix3d", "MRQuadraticForm_8h.html#a1c368f42c21a18903319f8bf1c63ef01", null ],

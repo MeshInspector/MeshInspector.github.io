@@ -5,6 +5,7 @@ var MRMeshTopology_8h =
     [ "MR_FaceBitSet", "MRMeshTopology_8h.html#aba7bc6ac732c34fd4721c543fa3445ea", null ],
     [ "MR_FaceMap", "MRMeshTopology_8h.html#ab809347fd151b45341bc9e7828673eb5", null ],
     [ "MR_GridSettings", "MRMeshTopology_8h.html#a1fed3ff99b050e83b401a1b490fe0e58", null ],
+    [ "MR_MeshTopology", "MRMeshTopology_8h.html#ad396cf7d4433c5ba7924776f5b379c9b", null ],
     [ "MR_PackMapping", "MRMeshTopology_8h.html#aff238b96282bea00a687ce310151b30d", null ],
     [ "MR_PartMapping", "MRMeshTopology_8h.html#ac262f87c0239d73aafc464289f6eb02e", null ],
     [ "MR_phmap_flat_hash_map_MR_FaceId_MR_FaceId", "MRMeshTopology_8h.html#a03edab687b909f8423dba338e60cd1e9", null ],

@@ -5,6 +5,7 @@ var MRSphereObject_8h =
     [ "MR_FeatureObjectProjectPointResult", "MRSphereObject_8h.html#af9fa34609dfd430727cb347f86a5f28f", null ],
     [ "MR_Object", "MRSphereObject_8h.html#accce9c9179cadabc541edda0fc7a2571", null ],
     [ "MR_ObjectChildrenHolder", "MRSphereObject_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc", null ],
+    [ "MR_SphereObject", "MRSphereObject_8h.html#a67f545f54ad8cf36cd415d108d463f83", null ],
     [ "MR_std_shared_ptr_MR_Object", "MRSphereObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4", null ],
     [ "MR_std_string", "MRSphereObject_8h.html#a69dc6868c10c92fb8b8a255b0130d289", null ],
     [ "MR_std_vector_MR_FeatureObjectSharedProperty", "MRSphereObject_8h.html#a2957a5feb78e9a6b527f0725f45a01a1", null ],

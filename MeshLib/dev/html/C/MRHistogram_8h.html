@@ -169,51 +169,66 @@ Typedefs</h2></td></tr>
 <tr class="separator:aa12bdb75aa07ac9931f491f5e67125aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f0d822b41437ab650418eb826969703" id="r_a4f0d822b41437ab650418eb826969703"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRHeapBytes_8h.html#a4f0d822b41437ab650418eb826969703">MR_std_vector_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f0d822b41437ab650418eb826969703">MR_std_vector_uint64_t</a></td></tr>
 <tr class="separator:a4f0d822b41437ab650418eb826969703"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e9f273dfbb0b8a846ee013219140002" id="r_a0e9f273dfbb0b8a846ee013219140002"><td class="memItemLeft" align="right" valign="top">typedef struct MR_Histogram&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MathGroup.html#a0e9f273dfbb0b8a846ee013219140002">MR_Histogram</a></td></tr>
+<tr class="memitem:a0e9f273dfbb0b8a846ee013219140002" id="r_a0e9f273dfbb0b8a846ee013219140002"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a0e9f273dfbb0b8a846ee013219140002">MR_Histogram</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e9f273dfbb0b8a846ee013219140002">MR_Histogram</a></td></tr>
 <tr class="separator:a0e9f273dfbb0b8a846ee013219140002"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a641f3dba4f55d6b1db077270ee80ded2" id="r_a641f3dba4f55d6b1db077270ee80ded2"><td class="memItemLeft" align="right" valign="top">MRC_API MR_Histogram *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a641f3dba4f55d6b1db077270ee80ded2">MR_Histogram_DefaultConstruct</a> (void)</td></tr>
+<tr class="memitem:a641f3dba4f55d6b1db077270ee80ded2" id="r_a641f3dba4f55d6b1db077270ee80ded2"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0e9f273dfbb0b8a846ee013219140002">MR_Histogram</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a641f3dba4f55d6b1db077270ee80ded2">MR_Histogram_DefaultConstruct</a> (void)</td></tr>
 <tr class="separator:a641f3dba4f55d6b1db077270ee80ded2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac82bdbee7be236225b704b1733724b41" id="r_ac82bdbee7be236225b704b1733724b41"><td class="memItemLeft" align="right" valign="top">MRC_API MR_Histogram *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac82bdbee7be236225b704b1733724b41">MR_Histogram_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="memitem:ac82bdbee7be236225b704b1733724b41" id="r_ac82bdbee7be236225b704b1733724b41"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0e9f273dfbb0b8a846ee013219140002">MR_Histogram</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac82bdbee7be236225b704b1733724b41">MR_Histogram_DefaultConstructArray</a> (size_t num_elems)</td></tr>
 <tr class="separator:ac82bdbee7be236225b704b1733724b41"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aef3835a089489fcf1eea67440e09b460" id="r_aef3835a089489fcf1eea67440e09b460"><td class="memItemLeft" align="right" valign="top">MRC_API const MR_Histogram *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef3835a089489fcf1eea67440e09b460">MR_Histogram_OffsetPtr</a> (const MR_Histogram *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:aef3835a089489fcf1eea67440e09b460" id="r_aef3835a089489fcf1eea67440e09b460"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a0e9f273dfbb0b8a846ee013219140002">MR_Histogram</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef3835a089489fcf1eea67440e09b460">MR_Histogram_OffsetPtr</a> (const <a class="el" href="#a0e9f273dfbb0b8a846ee013219140002">MR_Histogram</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:aef3835a089489fcf1eea67440e09b460"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:aef3835a089489fcf1eea67440e09b460"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a516c802f29cd7c5ef659a805835c79ea" id="r_a516c802f29cd7c5ef659a805835c79ea"><td class="memItemLeft" align="right" valign="top">MRC_API MR_Histogram *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a516c802f29cd7c5ef659a805835c79ea">MR_Histogram_OffsetMutablePtr</a> (MR_Histogram *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a516c802f29cd7c5ef659a805835c79ea" id="r_a516c802f29cd7c5ef659a805835c79ea"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0e9f273dfbb0b8a846ee013219140002">MR_Histogram</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a516c802f29cd7c5ef659a805835c79ea">MR_Histogram_OffsetMutablePtr</a> (<a class="el" href="#a0e9f273dfbb0b8a846ee013219140002">MR_Histogram</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a516c802f29cd7c5ef659a805835c79ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a516c802f29cd7c5ef659a805835c79ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7df5275987b8963db644de22ed126e7" id="r_ab7df5275987b8963db644de22ed126e7"><td class="memItemLeft" align="right" valign="top">MRC_API MR_Histogram *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7df5275987b8963db644de22ed126e7">MR_Histogram_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, MR_Histogram *_other)</td></tr>
+<tr class="memitem:ab7df5275987b8963db644de22ed126e7" id="r_ab7df5275987b8963db644de22ed126e7"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0e9f273dfbb0b8a846ee013219140002">MR_Histogram</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7df5275987b8963db644de22ed126e7">MR_Histogram_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a0e9f273dfbb0b8a846ee013219140002">MR_Histogram</a> *_other)</td></tr>
 <tr class="separator:ab7df5275987b8963db644de22ed126e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff9ba11817bfd4f941d57e6240f5b06e" id="r_aff9ba11817bfd4f941d57e6240f5b06e"><td class="memItemLeft" align="right" valign="top">MRC_API MR_Histogram *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff9ba11817bfd4f941d57e6240f5b06e">MR_Histogram_Construct</a> (float min, float max, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> <a class="elRef" href="../Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a>)</td></tr>
+<tr class="memitem:aff9ba11817bfd4f941d57e6240f5b06e" id="r_aff9ba11817bfd4f941d57e6240f5b06e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0e9f273dfbb0b8a846ee013219140002">MR_Histogram</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff9ba11817bfd4f941d57e6240f5b06e">MR_Histogram_Construct</a> (float min, float max, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> <a class="elRef" href="../Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a>)</td></tr>
 <tr class="separator:aff9ba11817bfd4f941d57e6240f5b06e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae439edbe9eb12a80e8d9a3c5b8d20d00" id="r_ae439edbe9eb12a80e8d9a3c5b8d20d00"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae439edbe9eb12a80e8d9a3c5b8d20d00">MR_Histogram_Destroy</a> (const MR_Histogram *_this)</td></tr>
+<tr class="memitem:ae439edbe9eb12a80e8d9a3c5b8d20d00" id="r_ae439edbe9eb12a80e8d9a3c5b8d20d00"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae439edbe9eb12a80e8d9a3c5b8d20d00">MR_Histogram_Destroy</a> (const <a class="el" href="#a0e9f273dfbb0b8a846ee013219140002">MR_Histogram</a> *_this)</td></tr>
 <tr class="memdesc:ae439edbe9eb12a80e8d9a3c5b8d20d00"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_Histogram</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:ae439edbe9eb12a80e8d9a3c5b8d20d00"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43105fd0cb9967446f0b7c86c63104aa" id="r_a43105fd0cb9967446f0b7c86c63104aa"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43105fd0cb9967446f0b7c86c63104aa">MR_Histogram_DestroyArray</a> (const MR_Histogram *_this)</td></tr>
+<tr class="memitem:a43105fd0cb9967446f0b7c86c63104aa" id="r_a43105fd0cb9967446f0b7c86c63104aa"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43105fd0cb9967446f0b7c86c63104aa">MR_Histogram_DestroyArray</a> (const <a class="el" href="#a0e9f273dfbb0b8a846ee013219140002">MR_Histogram</a> *_this)</td></tr>
 <tr class="memdesc:a43105fd0cb9967446f0b7c86c63104aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_Histogram</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:a43105fd0cb9967446f0b7c86c63104aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3c64996e3bb034dad4933ae3ba628db" id="r_ad3c64996e3bb034dad4933ae3ba628db"><td class="memItemLeft" align="right" valign="top">MRC_API MR_Histogram *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad3c64996e3bb034dad4933ae3ba628db">MR_Histogram_AssignFromAnother</a> (MR_Histogram *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, MR_Histogram *_other)</td></tr>
+<tr class="memitem:ad3c64996e3bb034dad4933ae3ba628db" id="r_ad3c64996e3bb034dad4933ae3ba628db"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0e9f273dfbb0b8a846ee013219140002">MR_Histogram</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad3c64996e3bb034dad4933ae3ba628db">MR_Histogram_AssignFromAnother</a> (<a class="el" href="#a0e9f273dfbb0b8a846ee013219140002">MR_Histogram</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a0e9f273dfbb0b8a846ee013219140002">MR_Histogram</a> *_other)</td></tr>
 <tr class="separator:ad3c64996e3bb034dad4933ae3ba628db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac0967efba5ea9fbcacaad0a44e00efc5" id="r_ac0967efba5ea9fbcacaad0a44e00efc5"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac0967efba5ea9fbcacaad0a44e00efc5">MR_Histogram_addSample</a> (MR_Histogram *_this, float sample, const <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> *count)</td></tr>
+<tr class="memitem:ac0967efba5ea9fbcacaad0a44e00efc5" id="r_ac0967efba5ea9fbcacaad0a44e00efc5"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac0967efba5ea9fbcacaad0a44e00efc5">MR_Histogram_addSample</a> (<a class="el" href="#a0e9f273dfbb0b8a846ee013219140002">MR_Histogram</a> *_this, float sample, const <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> *count)</td></tr>
 <tr class="separator:ac0967efba5ea9fbcacaad0a44e00efc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aefd5d0c1c0e88b20a858c6fa7d6f344f" id="r_aefd5d0c1c0e88b20a858c6fa7d6f344f"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefd5d0c1c0e88b20a858c6fa7d6f344f">MR_Histogram_addHistogram</a> (MR_Histogram *_this, const MR_Histogram *hist)</td></tr>
+<tr class="memitem:aefd5d0c1c0e88b20a858c6fa7d6f344f" id="r_aefd5d0c1c0e88b20a858c6fa7d6f344f"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefd5d0c1c0e88b20a858c6fa7d6f344f">MR_Histogram_addHistogram</a> (<a class="el" href="#a0e9f273dfbb0b8a846ee013219140002">MR_Histogram</a> *_this, const <a class="el" href="#a0e9f273dfbb0b8a846ee013219140002">MR_Histogram</a> *hist)</td></tr>
 <tr class="separator:aefd5d0c1c0e88b20a858c6fa7d6f344f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afdc343f3f35ce33cbd030ed5f58ce3ae" id="r_afdc343f3f35ce33cbd030ed5f58ce3ae"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRHeapBytes_8h.html#a4f0d822b41437ab650418eb826969703">MR_std_vector_uint64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afdc343f3f35ce33cbd030ed5f58ce3ae">MR_Histogram_getBins</a> (const MR_Histogram *_this)</td></tr>
+<tr class="memitem:afdc343f3f35ce33cbd030ed5f58ce3ae" id="r_afdc343f3f35ce33cbd030ed5f58ce3ae"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRHeapBytes_8h.html#a4f0d822b41437ab650418eb826969703">MR_std_vector_uint64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afdc343f3f35ce33cbd030ed5f58ce3ae">MR_Histogram_getBins</a> (const <a class="el" href="#a0e9f273dfbb0b8a846ee013219140002">MR_Histogram</a> *_this)</td></tr>
 <tr class="separator:afdc343f3f35ce33cbd030ed5f58ce3ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab411b8cc3ca8ecc7d0ea1196c5e87e06" id="r_ab411b8cc3ca8ecc7d0ea1196c5e87e06"><td class="memItemLeft" align="right" valign="top">MRC_API float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab411b8cc3ca8ecc7d0ea1196c5e87e06">MR_Histogram_getMin</a> (const MR_Histogram *_this)</td></tr>
+<tr class="memitem:ab411b8cc3ca8ecc7d0ea1196c5e87e06" id="r_ab411b8cc3ca8ecc7d0ea1196c5e87e06"><td class="memItemLeft" align="right" valign="top">MRC_API float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab411b8cc3ca8ecc7d0ea1196c5e87e06">MR_Histogram_getMin</a> (const <a class="el" href="#a0e9f273dfbb0b8a846ee013219140002">MR_Histogram</a> *_this)</td></tr>
 <tr class="separator:ab411b8cc3ca8ecc7d0ea1196c5e87e06"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac298871c8ab4ce01e1d57d11e0f71d55" id="r_ac298871c8ab4ce01e1d57d11e0f71d55"><td class="memItemLeft" align="right" valign="top">MRC_API float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac298871c8ab4ce01e1d57d11e0f71d55">MR_Histogram_getMax</a> (const MR_Histogram *_this)</td></tr>
+<tr class="memitem:ac298871c8ab4ce01e1d57d11e0f71d55" id="r_ac298871c8ab4ce01e1d57d11e0f71d55"><td class="memItemLeft" align="right" valign="top">MRC_API float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac298871c8ab4ce01e1d57d11e0f71d55">MR_Histogram_getMax</a> (const <a class="el" href="#a0e9f273dfbb0b8a846ee013219140002">MR_Histogram</a> *_this)</td></tr>
 <tr class="separator:ac298871c8ab4ce01e1d57d11e0f71d55"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70b52fdcfc82e34b3766fa6844dc611d" id="r_a70b52fdcfc82e34b3766fa6844dc611d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70b52fdcfc82e34b3766fa6844dc611d">MR_Histogram_getBinId</a> (const MR_Histogram *_this, float sample)</td></tr>
+<tr class="memitem:a70b52fdcfc82e34b3766fa6844dc611d" id="r_a70b52fdcfc82e34b3766fa6844dc611d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70b52fdcfc82e34b3766fa6844dc611d">MR_Histogram_getBinId</a> (const <a class="el" href="#a0e9f273dfbb0b8a846ee013219140002">MR_Histogram</a> *_this, float sample)</td></tr>
 <tr class="separator:a70b52fdcfc82e34b3766fa6844dc611d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a60ca5a2cf302a66797dc80ef6d2447b1" id="r_a60ca5a2cf302a66797dc80ef6d2447b1"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRDistanceMap_8h.html#aa12bdb75aa07ac9931f491f5e67125aa">MR_std_pair_float_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60ca5a2cf302a66797dc80ef6d2447b1">MR_Histogram_getBinMinMax</a> (const MR_Histogram *_this, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> binId)</td></tr>
+<tr class="memitem:a60ca5a2cf302a66797dc80ef6d2447b1" id="r_a60ca5a2cf302a66797dc80ef6d2447b1"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRDistanceMap_8h.html#aa12bdb75aa07ac9931f491f5e67125aa">MR_std_pair_float_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60ca5a2cf302a66797dc80ef6d2447b1">MR_Histogram_getBinMinMax</a> (const <a class="el" href="#a0e9f273dfbb0b8a846ee013219140002">MR_Histogram</a> *_this, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> binId)</td></tr>
 <tr class="separator:a60ca5a2cf302a66797dc80ef6d2447b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a6f4fc2e6bb5d409c13a140e2266932" id="r_a9a6f4fc2e6bb5d409c13a140e2266932"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a6f4fc2e6bb5d409c13a140e2266932">MR_Histogram_heapBytes</a> (const MR_Histogram *_this)</td></tr>
+<tr class="memitem:a9a6f4fc2e6bb5d409c13a140e2266932" id="r_a9a6f4fc2e6bb5d409c13a140e2266932"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a6f4fc2e6bb5d409c13a140e2266932">MR_Histogram_heapBytes</a> (const <a class="el" href="#a0e9f273dfbb0b8a846ee013219140002">MR_Histogram</a> *_this)</td></tr>
 <tr class="separator:a9a6f4fc2e6bb5d409c13a140e2266932"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
+<a id="a0e9f273dfbb0b8a846ee013219140002" name="a0e9f273dfbb0b8a846ee013219140002"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e9f273dfbb0b8a846ee013219140002">&#9670;&#160;</a></span>MR_Histogram</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a0e9f273dfbb0b8a846ee013219140002">MR_Histogram</a> <a class="el" href="#a0e9f273dfbb0b8a846ee013219140002">MR_Histogram</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Simple class for calculating histogram Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1Histogram.html">MR::Histogram</a></code>. </p>
+
+</div>
+</div>
 <a id="aa12bdb75aa07ac9931f491f5e67125aa" name="aa12bdb75aa07ac9931f491f5e67125aa"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa12bdb75aa07ac9931f491f5e67125aa">&#9670;&#160;</a></span>MR_std_pair_float_float</h2>
 
@@ -252,12 +267,12 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">MRC_API void MR_Histogram_addHistogram </td>
           <td>(</td>
-          <td class="paramtype">MR_Histogram *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+          <td class="paramtype"><a class="el" href="#a0e9f273dfbb0b8a846ee013219140002">MR_Histogram</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const MR_Histogram *</td>          <td class="paramname"><span class="paramname"><em>hist</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="#a0e9f273dfbb0b8a846ee013219140002">MR_Histogram</a> *</td>          <td class="paramname"><span class="paramname"><em>hist</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -274,7 +289,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">MRC_API void MR_Histogram_addSample </td>
           <td>(</td>
-          <td class="paramtype">MR_Histogram *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+          <td class="paramtype"><a class="el" href="#a0e9f273dfbb0b8a846ee013219140002">MR_Histogram</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -299,9 +314,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API MR_Histogram * MR_Histogram_AssignFromAnother </td>
+          <td class="memname">MRC_API <a class="el" href="#a0e9f273dfbb0b8a846ee013219140002">MR_Histogram</a> * MR_Histogram_AssignFromAnother </td>
           <td>(</td>
-          <td class="paramtype">MR_Histogram *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+          <td class="paramtype"><a class="el" href="#a0e9f273dfbb0b8a846ee013219140002">MR_Histogram</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -311,7 +326,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MR_Histogram *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="#a0e9f273dfbb0b8a846ee013219140002">MR_Histogram</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -326,7 +341,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API MR_Histogram * MR_Histogram_Construct </td>
+          <td class="memname">MRC_API <a class="el" href="#a0e9f273dfbb0b8a846ee013219140002">MR_Histogram</a> * MR_Histogram_Construct </td>
           <td>(</td>
           <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>min</em></span>, </td>
         </tr>
@@ -353,14 +368,14 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API MR_Histogram * MR_Histogram_ConstructFromAnother </td>
+          <td class="memname">MRC_API <a class="el" href="#a0e9f273dfbb0b8a846ee013219140002">MR_Histogram</a> * MR_Histogram_ConstructFromAnother </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MR_Histogram *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="#a0e9f273dfbb0b8a846ee013219140002">MR_Histogram</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -375,7 +390,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API MR_Histogram * MR_Histogram_DefaultConstruct </td>
+          <td class="memname">MRC_API <a class="el" href="#a0e9f273dfbb0b8a846ee013219140002">MR_Histogram</a> * MR_Histogram_DefaultConstruct </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -393,7 +408,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API MR_Histogram * MR_Histogram_DefaultConstructArray </td>
+          <td class="memname">MRC_API <a class="el" href="#a0e9f273dfbb0b8a846ee013219140002">MR_Histogram</a> * MR_Histogram_DefaultConstructArray </td>
           <td>(</td>
           <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
           <td></td>
@@ -413,7 +428,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">MRC_API void MR_Histogram_Destroy </td>
           <td>(</td>
-          <td class="paramtype">const MR_Histogram *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="#a0e9f273dfbb0b8a846ee013219140002">MR_Histogram</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -432,7 +447,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">MRC_API void MR_Histogram_DestroyArray </td>
           <td>(</td>
-          <td class="paramtype">const MR_Histogram *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="#a0e9f273dfbb0b8a846ee013219140002">MR_Histogram</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -451,7 +466,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">MRC_API <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> MR_Histogram_getBinId </td>
           <td>(</td>
-          <td class="paramtype">const MR_Histogram *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="#a0e9f273dfbb0b8a846ee013219140002">MR_Histogram</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -473,7 +488,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">MRC_API <a class="el" href="MRDistanceMap_8h.html#aa12bdb75aa07ac9931f491f5e67125aa">MR_std_pair_float_float</a> * MR_Histogram_getBinMinMax </td>
           <td>(</td>
-          <td class="paramtype">const MR_Histogram *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="#a0e9f273dfbb0b8a846ee013219140002">MR_Histogram</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -495,7 +510,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">MRC_API const <a class="el" href="MRHeapBytes_8h.html#a4f0d822b41437ab650418eb826969703">MR_std_vector_uint64_t</a> * MR_Histogram_getBins </td>
           <td>(</td>
-          <td class="paramtype">const MR_Histogram *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="#a0e9f273dfbb0b8a846ee013219140002">MR_Histogram</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -513,7 +528,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">MRC_API float MR_Histogram_getMax </td>
           <td>(</td>
-          <td class="paramtype">const MR_Histogram *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="#a0e9f273dfbb0b8a846ee013219140002">MR_Histogram</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -531,7 +546,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">MRC_API float MR_Histogram_getMin </td>
           <td>(</td>
-          <td class="paramtype">const MR_Histogram *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="#a0e9f273dfbb0b8a846ee013219140002">MR_Histogram</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -549,7 +564,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">MRC_API <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> MR_Histogram_heapBytes </td>
           <td>(</td>
-          <td class="paramtype">const MR_Histogram *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="#a0e9f273dfbb0b8a846ee013219140002">MR_Histogram</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -565,9 +580,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API MR_Histogram * MR_Histogram_OffsetMutablePtr </td>
+          <td class="memname">MRC_API <a class="el" href="#a0e9f273dfbb0b8a846ee013219140002">MR_Histogram</a> * MR_Histogram_OffsetMutablePtr </td>
           <td>(</td>
-          <td class="paramtype">MR_Histogram *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+          <td class="paramtype"><a class="el" href="#a0e9f273dfbb0b8a846ee013219140002">MR_Histogram</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -588,9 +603,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const MR_Histogram * MR_Histogram_OffsetPtr </td>
+          <td class="memname">MRC_API const <a class="el" href="#a0e9f273dfbb0b8a846ee013219140002">MR_Histogram</a> * MR_Histogram_OffsetPtr </td>
           <td>(</td>
-          <td class="paramtype">const MR_Histogram *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="#a0e9f273dfbb0b8a846ee013219140002">MR_Histogram</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

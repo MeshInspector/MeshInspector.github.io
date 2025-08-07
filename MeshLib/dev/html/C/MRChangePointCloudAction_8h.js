@@ -1,5 +1,8 @@
 var MRChangePointCloudAction_8h =
 [
+    [ "MR_ChangeOnePointInCloudAction", "MRChangePointCloudAction_8h.html#a1eb83c1313108b7598ca5623f32563c5", null ],
+    [ "MR_ChangePointCloudAction", "MRChangePointCloudAction_8h.html#a508d7869c6f665b19d0d28a6f8508680", null ],
+    [ "MR_ChangePointCloudPointsAction", "MRChangePointCloudAction_8h.html#aae484122f7057358e0ea8cde58912cb6", null ],
     [ "MR_HistoryAction", "MRChangePointCloudAction_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56", null ],
     [ "MR_std_shared_ptr_MR_ObjectPoints", "MRChangePointCloudAction_8h.html#a435e0aa2bd12dee2d56d7a965a666e4c", null ],
     [ "MR_std_string", "MRChangePointCloudAction_8h.html#a69dc6868c10c92fb8b8a255b0130d289", null ],

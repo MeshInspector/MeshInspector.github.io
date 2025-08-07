@@ -1,5 +1,6 @@
 var MRCombinedHistoryAction_8h =
 [
+    [ "MR_CombinedHistoryAction", "MRCombinedHistoryAction_8h.html#acc235a5ff64fb8c5ad600b5569568909", null ],
     [ "MR_HistoryAction", "MRCombinedHistoryAction_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56", null ],
     [ "MR_std_function_bool_from_const_std_shared_ptr_MR_HistoryAction_ref", "MRCombinedHistoryAction_8h.html#a3ae2a902ff1290a29d4eb83645b9ed24", null ],
     [ "MR_std_string", "MRCombinedHistoryAction_8h.html#a69dc6868c10c92fb8b8a255b0130d289", null ],

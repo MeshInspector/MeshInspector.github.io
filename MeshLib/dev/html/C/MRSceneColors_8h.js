@@ -1,7 +1,7 @@
 var MRSceneColors_8h =
 [
     [ "MR_Color", "MRSceneColors_8h.html#ab04f90c0c45a09f664d0bd8e652bc339", null ],
-    [ "MR_SceneColors", "group__BasicStructuresGroup.html#ga1f7968a2e645c273edd6641747ac0e4b", null ],
+    [ "MR_SceneColors", "MRSceneColors_8h.html#a1f7968a2e645c273edd6641747ac0e4b", null ],
     [ "MR_SceneColors_Type", "MRSceneColors_8h.html#a12def2e3e2f922d5117c6eb43c01a436", null ],
     [ "MR_SceneColors_Type", "MRSceneColors_8h.html#ac9cef54f15d866a97c8c76928c763bab", [
       [ "MR_SceneColors_Type_SelectedObjectMesh", "MRSceneColors_8h.html#ac9cef54f15d866a97c8c76928c763babafeac52b8a53c33df9b984bebf1b98dd1", null ],

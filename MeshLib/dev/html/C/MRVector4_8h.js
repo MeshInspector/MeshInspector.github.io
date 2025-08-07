@@ -1,6 +1,16 @@
 var MRVector4_8h =
 [
+    [ "MR_Vector4b", "structMR__Vector4b.html", "structMR__Vector4b" ],
+    [ "MR_Vector4i", "structMR__Vector4i.html", "structMR__Vector4i" ],
+    [ "MR_Vector4i64", "structMR__Vector4i64.html", "structMR__Vector4i64" ],
+    [ "MR_Vector4f", "structMR__Vector4f.html", "structMR__Vector4f" ],
+    [ "MR_Vector4d", "structMR__Vector4d.html", "structMR__Vector4d" ],
     [ "MR_NoInit", "MRVector4_8h.html#a14f0f26a43ddb92c3fa3c2192008224c", null ],
+    [ "MR_Vector4b", "MRVector4_8h.html#a7747feb2c6e5052007f54ea8a9a9b711", null ],
+    [ "MR_Vector4d", "MRVector4_8h.html#a11ff4085f3581bae871512903b934e34", null ],
+    [ "MR_Vector4f", "MRVector4_8h.html#a3bbb72144be216efbb91200d0fc37f10", null ],
+    [ "MR_Vector4i", "MRVector4_8h.html#aa97117fa5cf1b4951c4bf051b12e3e99", null ],
+    [ "MR_Vector4i64", "MRVector4_8h.html#a00d0450a70eaa29d8405b828fe0dbdce", null ],
     [ "MR_add_assign_MR_Vector4b", "MRVector4_8h.html#ae3b8e8db3ad581023779d2dd55512441", null ],
     [ "MR_add_assign_MR_Vector4d", "MRVector4_8h.html#a4d397e9df1c0f586faa9be3ffa6e4557", null ],
     [ "MR_add_assign_MR_Vector4f", "MRVector4_8h.html#acca4569a2b442318423e7decfbf8845f", null ],

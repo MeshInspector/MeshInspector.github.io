@@ -1,5 +1,9 @@
 var MRLine_8h =
 [
+    [ "MR_Line2d", "MRLine_8h.html#a6992d64f6703ac6d7687c699042105a2", null ],
+    [ "MR_Line2f", "MRLine_8h.html#a42f4324f3958a2b1ca19cd1728c5db67", null ],
+    [ "MR_Line3d", "MRLine_8h.html#ac137600e53e2a5c6efea3c61034a1a95", null ],
+    [ "MR_Line3f", "MRLine_8h.html#aca1d803422d4caa25c56d04a67efbc52", null ],
     [ "MR_Line2d_AssignFromAnother", "MRLine_8h.html#a1b391ba746312b88e6f526737ab2d47b", null ],
     [ "MR_Line2d_call", "MRLine_8h.html#a0f368804f0c3539bc73be82d332f305d", null ],
     [ "MR_Line2d_Construct", "MRLine_8h.html#ae3a43c60fa4cf6e19daf3bbafb4cb6a4", null ],

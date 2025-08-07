@@ -1,6 +1,6 @@
 var MRAABBTree_8h =
 [
-    [ "MR_AABBTree", "group__AABBTreeGroup.html#ga5f65578b8ae684c98e7ad038c8b419e0", null ],
+    [ "MR_AABBTree", "MRAABBTree_8h.html#a5f65578b8ae684c98e7ad038c8b419e0", null ],
     [ "MR_AABBTreeBase_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f", "MRAABBTree_8h.html#ab121f74c134e0f22cce8049e7dd0bf74", null ],
     [ "MR_Mesh", "MRAABBTree_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
     [ "MR_MeshPart", "MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17", null ],

@@ -1,6 +1,7 @@
 var MRMeshTopologyDiff_8h =
 [
     [ "MR_MeshTopology", "MRMeshTopologyDiff_8h.html#ad396cf7d4433c5ba7924776f5b379c9b", null ],
+    [ "MR_MeshTopologyDiff", "MRMeshTopologyDiff_8h.html#afb771271bd7ea4404acabe3852d2a3c4", null ],
     [ "MR_MeshTopologyDiff_any", "MRMeshTopologyDiff_8h.html#aace1b364fe475de67b0d0a87f0893f58", null ],
     [ "MR_MeshTopologyDiff_applyAndSwap", "MRMeshTopologyDiff_8h.html#ad03aafc44aaef425db48bfb2e78f8738", null ],
     [ "MR_MeshTopologyDiff_AssignFromAnother", "MRMeshTopologyDiff_8h.html#a4db84201595681a038e9c4edc3b29d2c", null ],

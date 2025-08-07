@@ -5,6 +5,7 @@ var MRObjectLabel_8h =
     [ "MR_LabelVisualizePropertyType", "MRObjectLabel_8h.html#a17c00b529e6190f578743d2f6669ddff", null ],
     [ "MR_Object", "MRObjectLabel_8h.html#accce9c9179cadabc541edda0fc7a2571", null ],
     [ "MR_ObjectChildrenHolder", "MRObjectLabel_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc", null ],
+    [ "MR_ObjectLabel", "MRObjectLabel_8h.html#a4edfc78551f61ec34b3b0e5f5173453f", null ],
     [ "MR_PositionedText", "MRObjectLabel_8h.html#a925fb33e4ae59890bdbaf8f1ea3a8775", null ],
     [ "MR_std_filesystem_path", "MRObjectLabel_8h.html#a006d61fd2048bba5b5622d42cbe72526", null ],
     [ "MR_std_shared_ptr_MR_Mesh", "MRObjectLabel_8h.html#a078d52fb855baae04a6dcdd71e46fbed", null ],

@@ -2,6 +2,8 @@ var MRMeshPart_8h =
 [
     [ "MR_FaceBitSet", "MRMeshPart_8h.html#aba7bc6ac732c34fd4721c543fa3445ea", null ],
     [ "MR_Mesh", "MRMeshPart_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
+    [ "MR_MeshPart", "MRMeshPart_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17", null ],
+    [ "MR_MeshVertPart", "MRMeshPart_8h.html#a1278957cdc2df07940e90426e9a58809", null ],
     [ "MR_VertBitSet", "MRMeshPart_8h.html#a3df50e76b078a1626dd994e1df803764", null ],
     [ "MR_MeshPart_Construct", "MRMeshPart_8h.html#aeeedbba2bfc476ada96fa53559390476", null ],
     [ "MR_MeshPart_Destroy", "MRMeshPart_8h.html#aa166b642217494c14ed7f285e1b0fe56", null ],

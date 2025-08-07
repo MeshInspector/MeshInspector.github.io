@@ -1,5 +1,6 @@
 var MRChangeObjectAction_8h =
 [
+    [ "MR_ChangeObjectAction", "MRChangeObjectAction_8h.html#ace428deca741a051d6044c38fa0c124a", null ],
     [ "MR_HistoryAction", "MRChangeObjectAction_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56", null ],
     [ "MR_std_shared_ptr_MR_Object", "MRChangeObjectAction_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4", null ],
     [ "MR_std_string", "MRChangeObjectAction_8h.html#a69dc6868c10c92fb8b8a255b0130d289", null ],

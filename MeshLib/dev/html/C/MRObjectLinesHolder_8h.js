@@ -6,6 +6,7 @@ var MRObjectLinesHolder_8h =
     [ "MR_ObjectChildrenHolder", "MRObjectLinesHolder_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc", null ],
     [ "MR_ObjectGcode", "MRObjectLinesHolder_8h.html#af23a4f0a386adc3ab051268483b937da", null ],
     [ "MR_ObjectLines", "MRObjectLinesHolder_8h.html#a6ea30e504a416bf2f8b79c3f9124e265", null ],
+    [ "MR_ObjectLinesHolder", "MRObjectLinesHolder_8h.html#af46c30b811dbea0af7a43f2bfcf2741a", null ],
     [ "MR_std_shared_ptr_const_MR_Polyline3", "MRObjectLinesHolder_8h.html#a9c9d72500dab905e67edc2678680a9ea", null ],
     [ "MR_std_shared_ptr_MR_Object", "MRObjectLinesHolder_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4", null ],
     [ "MR_std_vector_MR_ViewportMask", "MRObjectLinesHolder_8h.html#aa6b334578883a55d60d5ef67962505ba", null ],

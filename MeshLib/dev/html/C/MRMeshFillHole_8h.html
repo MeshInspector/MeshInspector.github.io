@@ -405,7 +405,7 @@ Functions</h2></td></tr>
 <tr class="separator:a54a32a59198bfc9d67c03be518a035a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a4acb7a8ccb5362c26e291ff61fcf73" id="r_a8a4acb7a8ccb5362c26e291ff61fcf73"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a4acb7a8ccb5362c26e291ff61fcf73">MR_executeHoleFillPlan</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, <a class="el" href="structMR__EdgeId.html">MR_EdgeId</a> a0, <a class="el" href="#a5a00aab77738cff176a767642f45dc93">MR_HoleFillPlan</a> *plan, <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *outNewFaces)</td></tr>
 <tr class="separator:a8a4acb7a8ccb5362c26e291ff61fcf73"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab69be78c0192bae1938bf7487cc03342" id="r_ab69be78c0192bae1938bf7487cc03342"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__VertId.html">MR_VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__FillHoleGroup.html#ab69be78c0192bae1938bf7487cc03342">MR_fillHoleTrivially</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, <a class="el" href="structMR__EdgeId.html">MR_EdgeId</a> a, <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *outNewFaces)</td></tr>
+<tr class="memitem:ab69be78c0192bae1938bf7487cc03342" id="r_ab69be78c0192bae1938bf7487cc03342"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__VertId.html">MR_VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab69be78c0192bae1938bf7487cc03342">MR_fillHoleTrivially</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, <a class="el" href="structMR__EdgeId.html">MR_EdgeId</a> a, <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *outNewFaces)</td></tr>
 <tr class="memdesc:ab69be78c0192bae1938bf7487cc03342"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triangulates face of hole in mesh trivially<br  />
 .  <br /></td></tr>
 <tr class="separator:ab69be78c0192bae1938bf7487cc03342"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1994,6 +1994,59 @@ default for <a class="elRef" href="../Cpp/group__FillHoleGroup.html#gac972786878
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="ab69be78c0192bae1938bf7487cc03342" name="ab69be78c0192bae1938bf7487cc03342"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab69be78c0192bae1938bf7487cc03342">&#9670;&#160;</a></span>MR_fillHoleTrivially()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="structMR__VertId.html">MR_VertId</a> MR_fillHoleTrivially </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__EdgeId.html">MR_EdgeId</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>outNewFaces</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Triangulates face of hole in mesh trivially<br  />
+. </p>
+<p>Fills given hole represented by one of its edges (having no valid left face)<br  />
+by creating one new vertex in the centroid of boundary vertices and connecting new vertex with all boundary vertices.</p>
+<div class="image">
+<img src="before_fill.png" alt="" width="250cm"/>
+<div class="caption">
+Before</div></div>
+ <div class="image">
+<img src="fill_triv.png" alt="" width="250cm"/>
+<div class="caption">
+After</div></div>
+<p>Next picture show, how newly generated faces can be smoothed <a class="elRef" href="../Cpp/namespaceMR.html#ae86354c05ad9fa894a5dd8c50099d7a9">MR::positionVertsSmoothly</a> <a class="elRef" href="../Cpp/group__MeshSubdivideGroup.html#ga8e8a41112544b99ef8f20e3e6b61fab7">MR::subdivideMesh</a> </p><div class="image">
+<img src="fill_triv_smooth.png" alt="" width="250cm"/>
+<div class="caption">
+Trivial fill with smooth</div></div>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mesh</td><td>mesh with hole </td></tr>
+    <tr><td class="paramname">a</td><td>EdgeId points on the face or hole to the left that will be triangulated </td></tr>
+    <tr><td class="paramname">outNewFaces</td><td>optional output newly generated faces </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>new vertex</dd></dl>
+<dl class="section see"><dt>See also</dt><dd>fillHole Generated from function <code><a class="elRef" href="../Cpp/group__FillHoleGroup.html#ga0241a36cc2b1016fd0cf66e9ae71f722">MR::fillHoleTrivially</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>outNewFaces</code> defaults to a null pointer in C++. </dd></dl>
 
 </div>
 </div>

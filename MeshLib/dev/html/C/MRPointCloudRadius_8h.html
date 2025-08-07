@@ -177,9 +177,9 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga286ac680293d05082196af71e678f4b3" id="r_ga286ac680293d05082196af71e678f4b3"><td class="memItemLeft" align="right" valign="top">MRC_API float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__PointCloudGroup.html#ga286ac680293d05082196af71e678f4b3">MR_findAvgPointsRadius</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *pointCloud, int32_t avgPoints, const int32_t *samples)</td></tr>
-<tr class="memdesc:ga286ac680293d05082196af71e678f4b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the radius of ball, so on average that ball contained avgPoints excluding the central point.  <br /></td></tr>
-<tr class="separator:ga286ac680293d05082196af71e678f4b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a286ac680293d05082196af71e678f4b3" id="r_a286ac680293d05082196af71e678f4b3"><td class="memItemLeft" align="right" valign="top">MRC_API float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a286ac680293d05082196af71e678f4b3">MR_findAvgPointsRadius</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *pointCloud, int32_t avgPoints, const int32_t *samples)</td></tr>
+<tr class="memdesc:a286ac680293d05082196af71e678f4b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the radius of ball, so on average that ball contained avgPoints excluding the central point.  <br /></td></tr>
+<tr class="separator:a286ac680293d05082196af71e678f4b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e65074de6bd19042bf14cece28d8bed" id="r_a3e65074de6bd19042bf14cece28d8bed"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e65074de6bd19042bf14cece28d8bed">MR_dilateRegion_5_const_MR_PointCloud_ref</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *pointCloud, <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *region, float dilation, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> cb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *xf)</td></tr>
 <tr class="separator:a3e65074de6bd19042bf14cece28d8bed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab6c7623ee5e13edafcbe80a5caaf8d8d" id="r_ab6c7623ee5e13edafcbe80a5caaf8d8d"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6c7623ee5e13edafcbe80a5caaf8d8d">MR_erodeRegion_5_const_MR_PointCloud_ref</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *pointCloud, <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *region, float erosion, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> cb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *xf)</td></tr>
@@ -324,6 +324,40 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>shrinks the region on given euclidian distance. returns false if callback also returns false Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a3531ebf5781cbdc7f3a5bc36fd936d5e">MR::erodeRegion</a></code>. Parameter <code>pointCloud</code> can not be null. It is a single object. Parameter <code>region</code> can not be null. It is a single object. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Parameter <code>xf</code> defaults to a null pointer in C++. </p>
+
+</div>
+</div>
+<a id="a286ac680293d05082196af71e678f4b3" name="a286ac680293d05082196af71e678f4b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a286ac680293d05082196af71e678f4b3">&#9670;&#160;</a></span>MR_findAvgPointsRadius()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API float MR_findAvgPointsRadius </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>pointCloud</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>avgPoints</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int32_t *</td>          <td class="paramname"><span class="paramname"><em>samples</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Finds the radius of ball, so on average that ball contained avgPoints excluding the central point. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">samples</td><td>the number of test points to find given number of samples in each Generated from function <code><a class="elRef" href="../Cpp/group__PointCloudGroup.html#ga65f914c5f869b8b554e8394912e5a7a3">MR::findAvgPointsRadius</a></code>. Parameter <code>pointCloud</code> can not be null. It is a single object. Parameter <code>samples</code> has a default argument: <code>1024</code>, pass a null pointer to use it. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

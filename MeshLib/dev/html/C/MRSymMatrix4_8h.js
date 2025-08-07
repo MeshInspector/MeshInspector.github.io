@@ -1,5 +1,10 @@
 var MRSymMatrix4_8h =
 [
+    [ "MR_SymMatrix4b", "MRSymMatrix4_8h.html#a39c4e928ef03df5e35709c67cf615625", null ],
+    [ "MR_SymMatrix4d", "MRSymMatrix4_8h.html#abf9d3a4e5b6599db1615ab93dd532031", null ],
+    [ "MR_SymMatrix4f", "MRSymMatrix4_8h.html#a88cdd6a3888b483383935bf825eb4873", null ],
+    [ "MR_SymMatrix4i", "MRSymMatrix4_8h.html#a0a488d5f7804d6c7e156503cc177b7cb", null ],
+    [ "MR_SymMatrix4i64", "MRSymMatrix4_8h.html#a0345757f327c1f5be7a41bf7d1544e76", null ],
     [ "MR_equal_MR_SymMatrix4b", "MRSymMatrix4_8h.html#a4328ec216ccf483a9d5dda69d523b0c9", null ],
     [ "MR_equal_MR_SymMatrix4d", "MRSymMatrix4_8h.html#a0c2fd7145e03e383472ce893e61a2dd3", null ],
     [ "MR_equal_MR_SymMatrix4f", "MRSymMatrix4_8h.html#afb012a42f5a700e456bcc47cddd6c193", null ],

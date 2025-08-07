@@ -1,7 +1,7 @@
 var MRSceneSettings_8h =
 [
     [ "MR_CNCMachineSettings", "MRSceneSettings_8h.html#a325911971cee7957b63b98e5d38aedc4", null ],
-    [ "MR_SceneSettings", "group__BasicStructuresGroup.html#ga71b8f6135364d23bd16fac524ef466a8", null ],
+    [ "MR_SceneSettings", "MRSceneSettings_8h.html#a71b8f6135364d23bd16fac524ef466a8", null ],
     [ "MR_SceneSettings_BoolType", "MRSceneSettings_8h.html#a3ac1b5459e24330ada9935553d5f2b04", null ],
     [ "MR_SceneSettings_FloatType", "MRSceneSettings_8h.html#a8f2cfda9d4ce62dfe3821cc8e0066e7b", null ],
     [ "MR_SceneSettings_ShadingMode", "MRSceneSettings_8h.html#a63c85bca2e9b6c248304e0d63f6921b6", null ],

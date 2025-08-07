@@ -1,6 +1,7 @@
 var MRCircleObject_8h =
 [
     [ "MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter", "MRCircleObject_8h.html#aac6ae55efb16dfdb6c8b7ea68ff72aae", null ],
+    [ "MR_CircleObject", "MRCircleObject_8h.html#a967eba9f410685a4d6f879dc97240a08", null ],
     [ "MR_FeatureObject", "MRCircleObject_8h.html#aff93746de8efe15fd5fa764838b71e9b", null ],
     [ "MR_FeatureObjectProjectPointResult", "MRCircleObject_8h.html#af9fa34609dfd430727cb347f86a5f28f", null ],
     [ "MR_Object", "MRCircleObject_8h.html#accce9c9179cadabc541edda0fc7a2571", null ],

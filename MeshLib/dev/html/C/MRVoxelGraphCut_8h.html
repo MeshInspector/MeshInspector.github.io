@@ -175,7 +175,7 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a957deec4d6792186d80a76e78cfe4eda" id="r_a957deec4d6792186d80a76e78cfe4eda"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__MR__VoxelBitSet__std__string_8h.html#adbc0fff30d322ff1210cc6de0d6dda12">MR_expected_MR_VoxelBitSet_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__VoxelGroup.html#a957deec4d6792186d80a76e78cfe4eda">MR_segmentVolumeByGraphCut</a> (const <a class="el" href="expected__MR__SimpleVolume__std__string_8h.html#a9eebc3ffb6c9528989e38a2930f391cf">MR_SimpleVolume</a> *densityVolume, float k, const <a class="el" href="MRBitSet_8h.html#a94b5f700f4835481dce132716ff73b05">MR_VoxelBitSet</a> *sourceSeeds, const <a class="el" href="MRBitSet_8h.html#a94b5f700f4835481dce132716ff73b05">MR_VoxelBitSet</a> *sinkSeeds, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> cb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="memitem:a957deec4d6792186d80a76e78cfe4eda" id="r_a957deec4d6792186d80a76e78cfe4eda"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__MR__VoxelBitSet__std__string_8h.html#adbc0fff30d322ff1210cc6de0d6dda12">MR_expected_MR_VoxelBitSet_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a957deec4d6792186d80a76e78cfe4eda">MR_segmentVolumeByGraphCut</a> (const <a class="el" href="expected__MR__SimpleVolume__std__string_8h.html#a9eebc3ffb6c9528989e38a2930f391cf">MR_SimpleVolume</a> *densityVolume, float k, const <a class="el" href="MRBitSet_8h.html#a94b5f700f4835481dce132716ff73b05">MR_VoxelBitSet</a> *sourceSeeds, const <a class="el" href="MRBitSet_8h.html#a94b5f700f4835481dce132716ff73b05">MR_VoxelBitSet</a> *sinkSeeds, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> cb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
 <tr class="memdesc:a957deec4d6792186d80a76e78cfe4eda"><td class="mdescLeft">&#160;</td><td class="mdescRight">Segment voxels of given volume on two sets using graph-cut, returning source set.  <br /></td></tr>
 <tr class="separator:a957deec4d6792186d80a76e78cfe4eda"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -233,6 +233,60 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a957deec4d6792186d80a76e78cfe4eda" name="a957deec4d6792186d80a76e78cfe4eda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a957deec4d6792186d80a76e78cfe4eda">&#9670;&#160;</a></span>MR_segmentVolumeByGraphCut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="expected__MR__VoxelBitSet__std__string_8h.html#adbc0fff30d322ff1210cc6de0d6dda12">MR_expected_MR_VoxelBitSet_std_string</a> * MR_segmentVolumeByGraphCut </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="expected__MR__SimpleVolume__std__string_8h.html#a9eebc3ffb6c9528989e38a2930f391cf">MR_SimpleVolume</a> *</td>          <td class="paramname"><span class="paramname"><em>densityVolume</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>k</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRBitSet_8h.html#a94b5f700f4835481dce132716ff73b05">MR_VoxelBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>sourceSeeds</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRBitSet_8h.html#a94b5f700f4835481dce132716ff73b05">MR_VoxelBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>sinkSeeds</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>cb_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Segment voxels of given volume on two sets using graph-cut, returning source set. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">k</td><td>- coefficient in the exponent of the metric affecting edge capacity:<br  />
+ increasing k you force to find a higher steps in the density on the boundary, decreasing k you ask for smoother boundary </td></tr>
+    <tr><td class="paramname">sourceSeeds</td><td>- these voxels will be included in the result </td></tr>
+    <tr><td class="paramname">sinkSeeds</td><td>- these voxels will be excluded from the result</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See also</dt><dd>VolumeSegmenter Generated from function <code><a class="elRef" href="../Cpp/group__VoxelGroup.html#gaaaebc49a422252db86351ce55dc91bef">MR::segmentVolumeByGraphCut</a></code>. Parameter <code>densityVolume</code> can not be null. It is a single object. Parameter <code>sourceSeeds</code> can not be null. It is a single object. Parameter <code>sinkSeeds</code> can not be null. It is a single object. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass <code><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095a3424515d51fce0957734bf2f3ffbbff1">MR_PassBy_DefaultArgument</a></code> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__VoxelBitSet__std__string_8h.html#a27165b2304da3fa3cc309cf11bc84659" title="Destroys a heap-allocated instance of MR_expected_MR_VoxelBitSet_std_string. Does nothing if the poin...">MR_expected_MR_VoxelBitSet_std_string_Destroy()</a></code> to free it when you're done using it. </dd></dl>
 
 </div>
 </div>

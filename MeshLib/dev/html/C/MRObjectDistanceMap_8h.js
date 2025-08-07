@@ -3,6 +3,7 @@ var MRObjectDistanceMap_8h =
     [ "MR_AffineXf3f", "MRObjectDistanceMap_8h.html#a88a1df6fb138786a55241b1d77a4b0cc", null ],
     [ "MR_Object", "MRObjectDistanceMap_8h.html#accce9c9179cadabc541edda0fc7a2571", null ],
     [ "MR_ObjectChildrenHolder", "MRObjectDistanceMap_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc", null ],
+    [ "MR_ObjectDistanceMap", "MRObjectDistanceMap_8h.html#ad6ad696793a6623bba06b95cbf9e7245", null ],
     [ "MR_ObjectMeshHolder", "MRObjectDistanceMap_8h.html#a1c5e41e50d86c1613114a6f1296f0934", null ],
     [ "MR_std_function_bool_from_float", "MRObjectDistanceMap_8h.html#adb03ce28cacfff1e499d75d512dc4a84", null ],
     [ "MR_std_shared_ptr_MR_DistanceMap", "MRObjectDistanceMap_8h.html#a3b8d674f09ca07367dd436984548c268", null ],

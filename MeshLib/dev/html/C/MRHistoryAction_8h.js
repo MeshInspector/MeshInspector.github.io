@@ -40,6 +40,7 @@ var MRHistoryAction_8h =
     [ "MR_ChangeXfAction", "MRHistoryAction_8h.html#a27c6a45ea88b9f474b21a88c88c5bb3d", null ],
     [ "MR_ChangVoxelSelectionAction", "MRHistoryAction_8h.html#a57a2ae8d8eb710bac84ccc821236200d", null ],
     [ "MR_CombinedHistoryAction", "MRHistoryAction_8h.html#acc235a5ff64fb8c5ad600b5569568909", null ],
+    [ "MR_HistoryAction", "MRHistoryAction_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56", null ],
     [ "MR_HistoryAction_Type", "MRHistoryAction_8h.html#aa6545a91fb04c0c7a224383de1b0d1dc", null ],
     [ "MR_PartialChangeMeshAction", "MRHistoryAction_8h.html#a1dfeb0a82f9c635c37b1371bb1d3f22e", null ],
     [ "MR_PartialChangeMeshPointsAction", "MRHistoryAction_8h.html#ab22704b3df03315a3c89a759b652cbdc", null ],

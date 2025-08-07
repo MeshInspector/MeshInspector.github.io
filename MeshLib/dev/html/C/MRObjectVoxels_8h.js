@@ -8,6 +8,7 @@ var MRObjectVoxels_8h =
     [ "MR_Object", "MRObjectVoxels_8h.html#accce9c9179cadabc541edda0fc7a2571", null ],
     [ "MR_ObjectChildrenHolder", "MRObjectVoxels_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc", null ],
     [ "MR_ObjectMeshHolder", "MRObjectVoxels_8h.html#a1c5e41e50d86c1613114a6f1296f0934", null ],
+    [ "MR_ObjectVoxels", "MRObjectVoxels_8h.html#a4b484d976d1077ae78acdc3b6ea174c0", null ],
     [ "MR_ObjectVoxels_VolumeRenderingParams", "MRObjectVoxels_8h.html#a24e57a3a62e88a846a5ed1147f069192", null ],
     [ "MR_ObjectVoxels_VolumeRenderingParams_AlphaType", "MRObjectVoxels_8h.html#ad5178d645cdb05027e26c6b1ce99e9da", null ],
     [ "MR_ObjectVoxels_VolumeRenderingParams_LutType", "MRObjectVoxels_8h.html#a01b90e2c18a2df76312c41fdb2b25b80", null ],

@@ -1,5 +1,7 @@
 var MRPlane3_8h =
 [
+    [ "MR_Plane3d", "MRPlane3_8h.html#a47c990e52774bc8bd9e02d71ca3a353b", null ],
+    [ "MR_Plane3f", "MRPlane3_8h.html#aa7548d3448b3b7da1ea96433fe902e9a", null ],
     [ "MR_neg_MR_Plane3d", "MRPlane3_8h.html#a23a39c97fb89286ee4e334b32a2b166f", null ],
     [ "MR_neg_MR_Plane3f", "MRPlane3_8h.html#af20a73df7c02ef3c38aebd6d345b4c39", null ],
     [ "MR_Plane3d_AssignFromAnother", "MRPlane3_8h.html#a817a8e3ab69835026b97a7241170903f", null ],

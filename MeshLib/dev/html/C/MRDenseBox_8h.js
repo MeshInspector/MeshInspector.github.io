@@ -2,6 +2,7 @@ var MRDenseBox_8h =
 [
     [ "MR_AffineXf3f", "MRDenseBox_8h.html#a88a1df6fb138786a55241b1d77a4b0cc", null ],
     [ "MR_Box3f", "MRDenseBox_8h.html#a387c2b6c194640a4dfac77733cbe3880", null ],
+    [ "MR_DenseBox", "MRDenseBox_8h.html#ae7778a16236736a19339c616bdf70a01", null ],
     [ "MR_MeshPart", "MRDenseBox_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17", null ],
     [ "MR_PointCloud", "MRDenseBox_8h.html#aa319738c95f0bbde075b7ef777cf2665", null ],
     [ "MR_Polyline3", "MRDenseBox_8h.html#a6075b2f3b7dec92f779f4f58c28f7e1b", null ],

@@ -173,7 +173,7 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a060fac87ab3afc82366468bd9cd33d72" id="r_a060fac87ab3afc82366468bd9cd33d72"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__MeshAlgorithmGroup.html#a060fac87ab3afc82366468bd9cd33d72">MR_meshToPointCloud</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const bool *saveNormals, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *verts)</td></tr>
+<tr class="memitem:a060fac87ab3afc82366468bd9cd33d72" id="r_a060fac87ab3afc82366468bd9cd33d72"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a060fac87ab3afc82366468bd9cd33d72">MR_meshToPointCloud</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const bool *saveNormals, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *verts)</td></tr>
 <tr class="separator:a060fac87ab3afc82366468bd9cd33d72"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -216,6 +216,34 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a060fac87ab3afc82366468bd9cd33d72" name="a060fac87ab3afc82366468bd9cd33d72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a060fac87ab3afc82366468bd9cd33d72">&#9670;&#160;</a></span>MR_meshToPointCloud()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> * MR_meshToPointCloud </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool *</td>          <td class="paramname"><span class="paramname"><em>saveNormals</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>verts</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Mesh to PointCloud Generated from function <code><a class="elRef" href="../Cpp/group__MeshAlgorithmGroup.html#gac05a6a40f6f3f078e9ceb0870a399516">MR::meshToPointCloud</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>saveNormals</code> has a default argument: <code>true</code>, pass a null pointer to use it. Parameter <code>verts</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRPointCloud_8h.html#ab779f06f061af58a1905e4d5b5e23e20" title="Destroys a heap-allocated instance of MR_PointCloud. Does nothing if the pointer is null.">MR_PointCloud_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>

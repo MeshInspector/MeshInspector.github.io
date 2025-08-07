@@ -4,6 +4,7 @@ var MRObjectGcode_8h =
     [ "MR_Color", "MRObjectGcode_8h.html#ab04f90c0c45a09f664d0bd8e652bc339", null ],
     [ "MR_Object", "MRObjectGcode_8h.html#accce9c9179cadabc541edda0fc7a2571", null ],
     [ "MR_ObjectChildrenHolder", "MRObjectGcode_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc", null ],
+    [ "MR_ObjectGcode", "MRObjectGcode_8h.html#af23a4f0a386adc3ab051268483b937da", null ],
     [ "MR_ObjectLinesHolder", "MRObjectGcode_8h.html#af46c30b811dbea0af7a43f2bfcf2741a", null ],
     [ "MR_std_shared_ptr_MR_Object", "MRObjectGcode_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4", null ],
     [ "MR_std_shared_ptr_std_vector_std_string", "MRObjectGcode_8h.html#affc1f7cb700cd873af5cfebd8fcd1ad2", null ],

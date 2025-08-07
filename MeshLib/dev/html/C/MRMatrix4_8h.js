@@ -1,5 +1,15 @@
 var MRMatrix4_8h =
 [
+    [ "MR_Matrix4b", "structMR__Matrix4b.html", "structMR__Matrix4b" ],
+    [ "MR_Matrix4i", "structMR__Matrix4i.html", "structMR__Matrix4i" ],
+    [ "MR_Matrix4i64", "structMR__Matrix4i64.html", "structMR__Matrix4i64" ],
+    [ "MR_Matrix4f", "structMR__Matrix4f.html", "structMR__Matrix4f" ],
+    [ "MR_Matrix4d", "structMR__Matrix4d.html", "structMR__Matrix4d" ],
+    [ "MR_Matrix4b", "MRMatrix4_8h.html#a59c0497867e5313b3d891761b35b29af", null ],
+    [ "MR_Matrix4d", "MRMatrix4_8h.html#a1d182abd167c439cff9a01c6588bb3ec", null ],
+    [ "MR_Matrix4f", "MRMatrix4_8h.html#a5e665a93bf62ee9279b5138e080a60b1", null ],
+    [ "MR_Matrix4i", "MRMatrix4_8h.html#ab21363bad8082bfbe809cb2747a42fa4", null ],
+    [ "MR_Matrix4i64", "MRMatrix4_8h.html#aff0642c069c3549bbcbffe1521c516ef", null ],
     [ "MR_add_assign_MR_Matrix4b", "MRMatrix4_8h.html#aa75d43e6e372ba7fb4fd8b31b47f672d", null ],
     [ "MR_add_assign_MR_Matrix4d", "MRMatrix4_8h.html#a14487e06f22224c974d1a4a7d6c959a6", null ],
     [ "MR_add_assign_MR_Matrix4f", "MRMatrix4_8h.html#a989315decfaf1d944a208c6cbc3610a0", null ],

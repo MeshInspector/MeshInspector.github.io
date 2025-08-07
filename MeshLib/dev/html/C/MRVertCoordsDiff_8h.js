@@ -1,6 +1,7 @@
 var MRVertCoordsDiff_8h =
 [
     [ "MR_VertCoords", "MRVertCoordsDiff_8h.html#a249fd9254c0c3395567807936ad32641", null ],
+    [ "MR_VertCoordsDiff", "MRVertCoordsDiff_8h.html#a89be697806616e0103d7d8fee56d352f", null ],
     [ "MR_VertCoordsDiff_any", "MRVertCoordsDiff_8h.html#aaed6b83866b721a455ba62a018d1de6e", null ],
     [ "MR_VertCoordsDiff_applyAndSwap", "MRVertCoordsDiff_8h.html#a1e0b08582e8fb037d0706601c4ebe753", null ],
     [ "MR_VertCoordsDiff_AssignFromAnother", "MRVertCoordsDiff_8h.html#a42373461cc0782bb8b7fd6abdfa0967e", null ],

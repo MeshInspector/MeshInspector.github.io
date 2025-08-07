@@ -1,5 +1,6 @@
 var MRBestFitQuadric_8h =
 [
+    [ "MR_QuadricApprox", "MRBestFitQuadric_8h.html#a62a89902bc47423cae1ac80aa2e32e7c", null ],
     [ "MR_Vector3d", "MRBestFitQuadric_8h.html#aa6b35c703a4572c3ccc120ee82723a66", null ],
     [ "MR_QuadricApprox_addPoint", "MRBestFitQuadric_8h.html#a8a50785af0e458592d1912c8a405f6e5", null ],
     [ "MR_QuadricApprox_AssignFromAnother", "MRBestFitQuadric_8h.html#a78de4a15da5851f46b13d93e7ada04f7", null ],

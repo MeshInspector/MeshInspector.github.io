@@ -1,5 +1,8 @@
 var MRChangeColoringActions_8h =
 [
+    [ "MR_ChangeFacesColorMapAction", "MRChangeColoringActions_8h.html#aa58fe3709044e59d1dfb8d98ebf99e87", null ],
+    [ "MR_ChangeLinesColorMapAction", "MRChangeColoringActions_8h.html#a5d3e82a1fb3901ece39b0b72e3f54800", null ],
+    [ "MR_ChangeObjectColorAction", "MRChangeColoringActions_8h.html#ac5655fa994c66e1064866af75a1c3f2b", null ],
     [ "MR_ChangeObjectColorAction_Type", "MRChangeColoringActions_8h.html#a8134e20f6944b47ad56683dc43298223", null ],
     [ "MR_FaceColors", "MRChangeColoringActions_8h.html#a88c7503c40b624a577fda0eab1faa5fa", null ],
     [ "MR_HistoryAction", "MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56", null ],

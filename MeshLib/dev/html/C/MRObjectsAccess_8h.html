@@ -153,6 +153,7 @@ $(function(){initNavTree('MRObjectsAccess_8h.html',''); initResizable(true); });
 <div class="header">
   <div class="summary">
 <a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">MRObjectsAccess.h File Reference</div></div>
 </div><!--header-->
@@ -172,26 +173,29 @@ Typedefs</h2></td></tr>
 <tr class="separator:a9e9b9c2b8a1a0540b204b1b7e6e792f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc2f4e4d04631180d278fad84fbbc6cf" id="r_acc2f4e4d04631180d278fad84fbbc6cf"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRHeapBytes_8h.html#acc2f4e4d04631180d278fad84fbbc6cf">MR_std_vector_std_shared_ptr_MR_Object</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc2f4e4d04631180d278fad84fbbc6cf">MR_std_vector_std_shared_ptr_MR_Object</a></td></tr>
 <tr class="separator:acc2f4e4d04631180d278fad84fbbc6cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d1c9e56cf76f984fa3dc92f7d63e0bc" id="r_a8d1c9e56cf76f984fa3dc92f7d63e0bc"><td class="memItemLeft" align="right" valign="top">typedef int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d1c9e56cf76f984fa3dc92f7d63e0bc">MR_ObjectSelectivityType</a></td></tr>
+<tr class="separator:a8d1c9e56cf76f984fa3dc92f7d63e0bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a653f785ed288a907dc5b4f26e4defbc5" id="r_a653f785ed288a907dc5b4f26e4defbc5"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a653f785ed288a907dc5b4f26e4defbc5">MR_objectHasSelectableChildren</a> (const <a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> *object)</td></tr>
-<tr class="separator:a653f785ed288a907dc5b4f26e4defbc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
 <tr class="memitem:aedcf2109f459315e1a7f2af73ec9b603" id="r_aedcf2109f459315e1a7f2af73ec9b603"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#aedcf2109f459315e1a7f2af73ec9b603aed5e6b9147a2f6c83541563dc5c18c7d">MR_ObjectSelectivityType_Selectable</a> = 0
 , <a class="el" href="#aedcf2109f459315e1a7f2af73ec9b603a411320681287d08ff511d1f332c94047">MR_ObjectSelectivityType_Selected</a> = 1
 , <a class="el" href="#aedcf2109f459315e1a7f2af73ec9b603a8a1f0769baaa377e2fa561b566fcd6fe">MR_ObjectSelectivityType_Any</a> = 2
  }</td></tr>
 <tr class="separator:aedcf2109f459315e1a7f2af73ec9b603"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d1c9e56cf76f984fa3dc92f7d63e0bc" id="r_a8d1c9e56cf76f984fa3dc92f7d63e0bc"><td class="memItemLeft" align="right" valign="top">typedef int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/group__DataModelGroup.html#a8d1c9e56cf76f984fa3dc92f7d63e0bc">MR_ObjectSelectivityType</a></td></tr>
-<tr class="separator:a8d1c9e56cf76f984fa3dc92f7d63e0bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a60b885f858c5212d809a9e78efa6709c" id="r_a60b885f858c5212d809a9e78efa6709c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60b885f858c5212d809a9e78efa6709c">MR_asSelectivityType</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> obj_pass_by, <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> *obj, const MR_ObjectSelectivityType *type)</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a60b885f858c5212d809a9e78efa6709c" id="r_a60b885f858c5212d809a9e78efa6709c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60b885f858c5212d809a9e78efa6709c">MR_asSelectivityType</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> obj_pass_by, <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> *obj, const <a class="el" href="#a8d1c9e56cf76f984fa3dc92f7d63e0bc">MR_ObjectSelectivityType</a> *type)</td></tr>
 <tr class="separator:a60b885f858c5212d809a9e78efa6709c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aedd2ef4c4d56fbc004e189f0e99598e6" id="r_aedd2ef4c4d56fbc004e189f0e99598e6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRHeapBytes_8h.html#acc2f4e4d04631180d278fad84fbbc6cf">MR_std_vector_std_shared_ptr_MR_Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aedd2ef4c4d56fbc004e189f0e99598e6">MR_getAllObjectsInTree</a> (<a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> *root, const MR_ObjectSelectivityType *type)</td></tr>
+<tr class="memitem:aedd2ef4c4d56fbc004e189f0e99598e6" id="r_aedd2ef4c4d56fbc004e189f0e99598e6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRHeapBytes_8h.html#acc2f4e4d04631180d278fad84fbbc6cf">MR_std_vector_std_shared_ptr_MR_Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aedd2ef4c4d56fbc004e189f0e99598e6">MR_getAllObjectsInTree</a> (<a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> *root, const <a class="el" href="#a8d1c9e56cf76f984fa3dc92f7d63e0bc">MR_ObjectSelectivityType</a> *type)</td></tr>
 <tr class="separator:aedd2ef4c4d56fbc004e189f0e99598e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b8b5c4404e57a674d6b37344f985ac3" id="r_a5b8b5c4404e57a674d6b37344f985ac3"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRHeapBytes_8h.html#acc2f4e4d04631180d278fad84fbbc6cf">MR_std_vector_std_shared_ptr_MR_Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b8b5c4404e57a674d6b37344f985ac3">MR_getTopmostVisibleObjects</a> (<a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> *root, const MR_ObjectSelectivityType *type)</td></tr>
+<tr class="memitem:a5b8b5c4404e57a674d6b37344f985ac3" id="r_a5b8b5c4404e57a674d6b37344f985ac3"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRHeapBytes_8h.html#acc2f4e4d04631180d278fad84fbbc6cf">MR_std_vector_std_shared_ptr_MR_Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b8b5c4404e57a674d6b37344f985ac3">MR_getTopmostVisibleObjects</a> (<a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> *root, const <a class="el" href="#a8d1c9e56cf76f984fa3dc92f7d63e0bc">MR_ObjectSelectivityType</a> *type)</td></tr>
 <tr class="separator:a5b8b5c4404e57a674d6b37344f985ac3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4cc2908d4e1434eaae9a31ee054c7e6" id="r_ad4cc2908d4e1434eaae9a31ee054c7e6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4cc2908d4e1434eaae9a31ee054c7e6">MR_getDepthFirstObject</a> (<a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> *root, const MR_ObjectSelectivityType *type)</td></tr>
+<tr class="memitem:ad4cc2908d4e1434eaae9a31ee054c7e6" id="r_ad4cc2908d4e1434eaae9a31ee054c7e6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4cc2908d4e1434eaae9a31ee054c7e6">MR_getDepthFirstObject</a> (<a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> *root, const <a class="el" href="#a8d1c9e56cf76f984fa3dc92f7d63e0bc">MR_ObjectSelectivityType</a> *type)</td></tr>
 <tr class="separator:ad4cc2908d4e1434eaae9a31ee054c7e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a653f785ed288a907dc5b4f26e4defbc5" id="r_a653f785ed288a907dc5b4f26e4defbc5"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a653f785ed288a907dc5b4f26e4defbc5">MR_objectHasSelectableChildren</a> (const <a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> *object)</td></tr>
+<tr class="separator:a653f785ed288a907dc5b4f26e4defbc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="accce9c9179cadabc541edda0fc7a2571" name="accce9c9179cadabc541edda0fc7a2571"></a>
@@ -202,6 +206,20 @@ Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">typedef struct <a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> <a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8d1c9e56cf76f984fa3dc92f7d63e0bc" name="a8d1c9e56cf76f984fa3dc92f7d63e0bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d1c9e56cf76f984fa3dc92f7d63e0bc">&#9670;&#160;</a></span>MR_ObjectSelectivityType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef int32_t <a class="el" href="#a8d1c9e56cf76f984fa3dc92f7d63e0bc">MR_ObjectSelectivityType</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -276,7 +294,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const MR_ObjectSelectivityType *</td>          <td class="paramname"><span class="paramname"><em>type</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="#a8d1c9e56cf76f984fa3dc92f7d63e0bc">MR_ObjectSelectivityType</a> *</td>          <td class="paramname"><span class="paramname"><em>type</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -298,7 +316,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const MR_ObjectSelectivityType *</td>          <td class="paramname"><span class="paramname"><em>type</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="#a8d1c9e56cf76f984fa3dc92f7d63e0bc">MR_ObjectSelectivityType</a> *</td>          <td class="paramname"><span class="paramname"><em>type</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -320,7 +338,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const MR_ObjectSelectivityType *</td>          <td class="paramname"><span class="paramname"><em>type</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="#a8d1c9e56cf76f984fa3dc92f7d63e0bc">MR_ObjectSelectivityType</a> *</td>          <td class="paramname"><span class="paramname"><em>type</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -342,7 +360,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const MR_ObjectSelectivityType *</td>          <td class="paramname"><span class="paramname"><em>type</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="#a8d1c9e56cf76f984fa3dc92f7d63e0bc">MR_ObjectSelectivityType</a> *</td>          <td class="paramname"><span class="paramname"><em>type</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

@@ -3,6 +3,7 @@ var MRObjectPoints_8h =
     [ "MR_Object", "MRObjectPoints_8h.html#accce9c9179cadabc541edda0fc7a2571", null ],
     [ "MR_ObjectChildrenHolder", "MRObjectPoints_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc", null ],
     [ "MR_ObjectMesh", "MRObjectPoints_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6", null ],
+    [ "MR_ObjectPoints", "MRObjectPoints_8h.html#ab1c1a63bde0febef265b95d647c94932", null ],
     [ "MR_ObjectPointsHolder", "MRObjectPoints_8h.html#aa76b4405dda2a1ef0d835d2c4ede517a", null ],
     [ "MR_std_function_bool_from_float", "MRObjectPoints_8h.html#adb03ce28cacfff1e499d75d512dc4a84", null ],
     [ "MR_std_shared_ptr_MR_Object", "MRObjectPoints_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4", null ],

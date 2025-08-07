@@ -6,5 +6,5 @@ var MRPointCloudRadius_8h =
     [ "MR_VertBitSet", "MRPointCloudRadius_8h.html#a3df50e76b078a1626dd994e1df803764", null ],
     [ "MR_dilateRegion_5_const_MR_PointCloud_ref", "MRPointCloudRadius_8h.html#a3e65074de6bd19042bf14cece28d8bed", null ],
     [ "MR_erodeRegion_5_const_MR_PointCloud_ref", "MRPointCloudRadius_8h.html#ab6c7623ee5e13edafcbe80a5caaf8d8d", null ],
-    [ "MR_findAvgPointsRadius", "group__PointCloudGroup.html#ga286ac680293d05082196af71e678f4b3", null ]
+    [ "MR_findAvgPointsRadius", "MRPointCloudRadius_8h.html#a286ac680293d05082196af71e678f4b3", null ]
 ];

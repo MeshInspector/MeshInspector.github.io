@@ -10,6 +10,7 @@ var MRPointCloudTriangulationHelpers_8h =
     [ "MR_std_vector_std_pair_double_int32_t", "MRPointCloudTriangulationHelpers_8h.html#ab80b462cc55961063f20494f49c17ccd", null ],
     [ "MR_TriangulationHelpers_FanOptimizerQueueElement", "MRPointCloudTriangulationHelpers_8h.html#acdc88e216df432e56c790679814a8275", null ],
     [ "MR_TriangulationHelpers_Settings", "MRPointCloudTriangulationHelpers_8h.html#aeb1317cea6682674bb53634c2d619ca8", null ],
+    [ "MR_TriangulationHelpers_TriangulatedFanData", "MRPointCloudTriangulationHelpers_8h.html#a969098fb61bc9c575f0a2ca401ba3f7a", null ],
     [ "MR_VertCoords", "MRPointCloudTriangulationHelpers_8h.html#a249fd9254c0c3395567807936ad32641", null ],
     [ "MR_equal_MR_TriangulationHelpers_FanOptimizerQueueElement", "MRPointCloudTriangulationHelpers_8h.html#a2efad8161ecb37280f8a44b6196cf123", null ],
     [ "MR_less_MR_TriangulationHelpers_FanOptimizerQueueElement", "MRPointCloudTriangulationHelpers_8h.html#a4c5e442997aa9a26c2ca804d16d76692", null ],
@@ -41,7 +42,11 @@ var MRPointCloudTriangulationHelpers_8h =
     [ "MR_TriangulationHelpers_FanOptimizerQueueElement_Set_prevId", "MRPointCloudTriangulationHelpers_8h.html#a0d9b0f982b167a7c4e20049ec45ffc40", null ],
     [ "MR_TriangulationHelpers_FanOptimizerQueueElement_Set_stable", "MRPointCloudTriangulationHelpers_8h.html#a672bd69c9eec7357d7e02d7f6aa1caf1", null ],
     [ "MR_TriangulationHelpers_FanOptimizerQueueElement_Set_weight", "MRPointCloudTriangulationHelpers_8h.html#a6609abad21a1bba5e08464697a5f9738", null ],
+    [ "MR_TriangulationHelpers_filterNeighbors", "MRPointCloudTriangulationHelpers_8h.html#a6de95da38b4a243539b449fe6fe1cd28", null ],
     [ "MR_TriangulationHelpers_findBoundaryPoints", "MRPointCloudTriangulationHelpers_8h.html#a9a25d7fe235bc1707e04abe5346bd8f3", null ],
+    [ "MR_TriangulationHelpers_findNeighborsInBall", "MRPointCloudTriangulationHelpers_8h.html#a2120d4fb21166aeb6ce453caa1d76dba", null ],
+    [ "MR_TriangulationHelpers_findNumNeighbors", "MRPointCloudTriangulationHelpers_8h.html#ae45d6d178010b315516294efb4eaad0d", null ],
+    [ "MR_TriangulationHelpers_isBoundaryPoint", "MRPointCloudTriangulationHelpers_8h.html#a1bd70225d6295927e4df1b417ed23903", null ],
     [ "MR_TriangulationHelpers_Settings_AssignFromAnother", "MRPointCloudTriangulationHelpers_8h.html#a2dde3869a9f67a791a87392e399d0a52", null ],
     [ "MR_TriangulationHelpers_Settings_ConstructFrom", "MRPointCloudTriangulationHelpers_8h.html#af6ee856f12fbc7627bbba735f47717ea", null ],
     [ "MR_TriangulationHelpers_Settings_ConstructFromAnother", "MRPointCloudTriangulationHelpers_8h.html#aace5477ce63696b381f2edfcb0b78c45", null ],
@@ -100,5 +105,6 @@ var MRPointCloudTriangulationHelpers_8h =
     [ "MR_TriangulationHelpers_TriangulatedFanData_Set_border", "MRPointCloudTriangulationHelpers_8h.html#a5fca74e08bf56a89297f322bb4e55bea", null ],
     [ "MR_TriangulationHelpers_TriangulatedFanData_Set_cacheAngleOrder", "MRPointCloudTriangulationHelpers_8h.html#aa985d86095803ca445a873220cfa030d", null ],
     [ "MR_TriangulationHelpers_TriangulatedFanData_Set_nearesetPoints", "MRPointCloudTriangulationHelpers_8h.html#adbe0c002f69ab086c040f633e6f9b893", null ],
-    [ "MR_TriangulationHelpers_TriangulatedFanData_Set_neighbors", "MRPointCloudTriangulationHelpers_8h.html#ad6fbfa227d391275b168a3fa4fe2b735", null ]
+    [ "MR_TriangulationHelpers_TriangulatedFanData_Set_neighbors", "MRPointCloudTriangulationHelpers_8h.html#ad6fbfa227d391275b168a3fa4fe2b735", null ],
+    [ "MR_TriangulationHelpers_updateNeighborsRadius", "MRPointCloudTriangulationHelpers_8h.html#a1a0d6d833b028029692a14ed71011545", null ]
 ];

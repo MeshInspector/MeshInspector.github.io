@@ -1,6 +1,9 @@
 var MRChangeObjectFields_8h =
 [
     [ "MR_AnyVisualizeMaskEnum", "MRChangeObjectFields_8h.html#a47309f5020d832f0d5effdd481071a1e", null ],
+    [ "MR_ChangeObjectSelectedAction", "MRChangeObjectFields_8h.html#a3c8a62a77fc87e1cfe3466ebab05e93b", null ],
+    [ "MR_ChangeObjectVisibilityAction", "MRChangeObjectFields_8h.html#a0f1ed9a0636ff98ed899be7e3b9601ad", null ],
+    [ "MR_ChangeVisualizePropertyAction", "MRChangeObjectFields_8h.html#a4afb08efd011be59bb864b94c4ebf52d", null ],
     [ "MR_HistoryAction", "MRChangeObjectFields_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56", null ],
     [ "MR_std_shared_ptr_MR_Object", "MRChangeObjectFields_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4", null ],
     [ "MR_std_shared_ptr_MR_VisualObject", "MRChangeObjectFields_8h.html#aa4b9828f4113d20d85483568f977c8ff", null ],

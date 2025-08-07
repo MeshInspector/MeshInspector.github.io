@@ -1,5 +1,6 @@
 var MRChangeSceneAction_8h =
 [
+    [ "MR_ChangeSceneAction", "MRChangeSceneAction_8h.html#abd1d7d1298b4c9ffc69f9cf663e836ac", null ],
     [ "MR_ChangeSceneAction_Type", "MRChangeSceneAction_8h.html#a44e7d87e96b5b0397f1c71637aae2e0b", null ],
     [ "MR_HistoryAction", "MRChangeSceneAction_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56", null ],
     [ "MR_std_shared_ptr_MR_Object", "MRChangeSceneAction_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4", null ],

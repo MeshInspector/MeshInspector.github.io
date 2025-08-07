@@ -1,5 +1,13 @@
 var MRAffineXf_8h =
 [
+    [ "MR_AffineXf2f", "structMR__AffineXf2f.html", "structMR__AffineXf2f" ],
+    [ "MR_AffineXf2d", "structMR__AffineXf2d.html", "structMR__AffineXf2d" ],
+    [ "MR_AffineXf3f", "structMR__AffineXf3f.html", "structMR__AffineXf3f" ],
+    [ "MR_AffineXf3d", "structMR__AffineXf3d.html", "structMR__AffineXf3d" ],
+    [ "MR_AffineXf2d", "MRAffineXf_8h.html#a61fa4f0d78b4dbdb48b390149f83592e", null ],
+    [ "MR_AffineXf2f", "MRAffineXf_8h.html#a0a0645e84146720d27b2088d9d3dc1b8", null ],
+    [ "MR_AffineXf3d", "MRAffineXf_8h.html#af1806312cd8f8c6825c10fcb27b69305", null ],
+    [ "MR_AffineXf3f", "MRAffineXf_8h.html#a88a1df6fb138786a55241b1d77a4b0cc", null ],
     [ "MR_AffineXf2d_call", "MRAffineXf_8h.html#a1ba81515e6649a673069a40940334b92", null ],
     [ "MR_AffineXf2d_Construct", "MRAffineXf_8h.html#adbbb07609802905ffec0fe92224176ab", null ],
     [ "MR_AffineXf2d_DefaultConstruct", "MRAffineXf_8h.html#af5e532959ced5b00311cd48ad0b12e7b", null ],

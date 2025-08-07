@@ -1,6 +1,7 @@
 var MRObjectsAccess_8h =
 [
     [ "MR_Object", "MRObjectsAccess_8h.html#accce9c9179cadabc541edda0fc7a2571", null ],
+    [ "MR_ObjectSelectivityType", "MRObjectsAccess_8h.html#a8d1c9e56cf76f984fa3dc92f7d63e0bc", null ],
     [ "MR_std_shared_ptr_MR_Object", "MRObjectsAccess_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4", null ],
     [ "MR_std_vector_std_shared_ptr_MR_Object", "MRObjectsAccess_8h.html#acc2f4e4d04631180d278fad84fbbc6cf", null ],
     [ "MR_asSelectivityType", "MRObjectsAccess_8h.html#a60b885f858c5212d809a9e78efa6709c", null ],

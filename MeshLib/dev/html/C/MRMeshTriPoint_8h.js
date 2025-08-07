@@ -3,6 +3,7 @@ var MRMeshTriPoint_8h =
     [ "MR_EdgePoint", "MRMeshTriPoint_8h.html#a50185006f78fd01ef7f1316a047afa45", null ],
     [ "MR_FaceBitSet", "MRMeshTriPoint_8h.html#aba7bc6ac732c34fd4721c543fa3445ea", null ],
     [ "MR_MeshTopology", "MRMeshTriPoint_8h.html#ad396cf7d4433c5ba7924776f5b379c9b", null ],
+    [ "MR_MeshTriPoint", "MRMeshTriPoint_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc", null ],
     [ "MR_NoInit", "MRMeshTriPoint_8h.html#a14f0f26a43ddb92c3fa3c2192008224c", null ],
     [ "MR_std_array_MR_WeightedVertex_3", "MRMeshTriPoint_8h.html#acee251444e864a39820436d6262c2534", null ],
     [ "MR_TriPointf", "MRMeshTriPoint_8h.html#a9b2681646fc37c10c6deec7f555be88c", null ],

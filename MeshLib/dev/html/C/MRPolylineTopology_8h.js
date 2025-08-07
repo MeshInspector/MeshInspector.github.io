@@ -3,6 +3,7 @@ var MRPolylineTopology_8h =
     [ "MR_EdgeMap", "MRPolylineTopology_8h.html#acf89b8158bff9cb2bf3196841138345f", null ],
     [ "MR_Edges", "MRPolylineTopology_8h.html#aef737119b16ccd09a84e3ea8b0a48e4b", null ],
     [ "MR_PolylineMaker", "MRPolylineTopology_8h.html#a1e0872622d33db158caeb0f6e32a385c", null ],
+    [ "MR_PolylineTopology", "MRPolylineTopology_8h.html#a02d1fe1568aa3e29e692594602ba76bd", null ],
     [ "MR_std_istream", "MRPolylineTopology_8h.html#aef22a11476e76208a3f9a5cf2eba4c98", null ],
     [ "MR_std_ostream", "MRPolylineTopology_8h.html#a933fad1748853c0c595a157b9f6527c6", null ],
     [ "MR_std_vector_MR_EdgeId", "MRPolylineTopology_8h.html#aa2cb99914308eb7429fd11738cf79483", null ],

@@ -2,6 +2,7 @@ var MRLineObject_8h =
 [
     [ "MR_FeatureObject", "MRLineObject_8h.html#aff93746de8efe15fd5fa764838b71e9b", null ],
     [ "MR_FeatureObjectProjectPointResult", "MRLineObject_8h.html#af9fa34609dfd430727cb347f86a5f28f", null ],
+    [ "MR_LineObject", "MRLineObject_8h.html#a7a2a1e79f2d7916e5b59911ffa2ce37e", null ],
     [ "MR_Object", "MRLineObject_8h.html#accce9c9179cadabc541edda0fc7a2571", null ],
     [ "MR_ObjectChildrenHolder", "MRLineObject_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc", null ],
     [ "MR_std_shared_ptr_MR_Object", "MRLineObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4", null ],

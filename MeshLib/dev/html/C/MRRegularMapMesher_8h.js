@@ -2,7 +2,7 @@ var MRRegularMapMesher_8h =
 [
     [ "MR_expected_MR_Mesh_std_string", "MRRegularMapMesher_8h.html#a0d97154d4aed695055160a4688c04a3d", null ],
     [ "MR_expected_void_std_string", "MRRegularMapMesher_8h.html#a077b8debfae88f9cf2267ad2db95c006", null ],
-    [ "MR_RegularMapMesher", "group__PointCloudGroup.html#ga237ec1c65b105489ad075dfecff282f7", null ],
+    [ "MR_RegularMapMesher", "MRRegularMapMesher_8h.html#a237ec1c65b105489ad075dfecff282f7", null ],
     [ "MR_std_shared_ptr_MR_PointCloud", "MRRegularMapMesher_8h.html#af47e1d768546a43d180d3cfe29e3e72e", null ],
     [ "MR_std_vector_float", "MRRegularMapMesher_8h.html#aba323e6d596956f5a589a525c6f6adbc", null ],
     [ "MR_RegularMapMesher_AssignFromAnother", "MRRegularMapMesher_8h.html#a2eb8ca0cb4d181761479e444557a16a4", null ],

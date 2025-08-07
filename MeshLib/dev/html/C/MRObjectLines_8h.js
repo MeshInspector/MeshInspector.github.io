@@ -2,6 +2,7 @@ var MRObjectLines_8h =
 [
     [ "MR_Object", "MRObjectLines_8h.html#accce9c9179cadabc541edda0fc7a2571", null ],
     [ "MR_ObjectChildrenHolder", "MRObjectLines_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc", null ],
+    [ "MR_ObjectLines", "MRObjectLines_8h.html#a6ea30e504a416bf2f8b79c3f9124e265", null ],
     [ "MR_ObjectLinesHolder", "MRObjectLines_8h.html#af46c30b811dbea0af7a43f2bfcf2741a", null ],
     [ "MR_std_shared_ptr_MR_Object", "MRObjectLines_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4", null ],
     [ "MR_std_shared_ptr_MR_ObjectLines", "MRObjectLines_8h.html#ae4c0039308e4be0822d33b37cd0b14c2", null ],

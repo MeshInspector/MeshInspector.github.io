@@ -2,6 +2,7 @@ var MRXfBasedCache_8h =
 [
     [ "MR_AffineXf3f", "MRXfBasedCache_8h.html#a88a1df6fb138786a55241b1d77a4b0cc", null ],
     [ "MR_std_optional_MR_Box3f", "MRXfBasedCache_8h.html#a53b3364da66b915610d4690df7793a76", null ],
+    [ "MR_XfBasedCache_MR_Box3f", "MRXfBasedCache_8h.html#afd809241b98e686da37ea296a946c1ee", null ],
     [ "MR_XfBasedCache_MR_Box3f_AssignFromAnother", "MRXfBasedCache_8h.html#a7b77ba2eae0dabaa3755646ebeacccec", null ],
     [ "MR_XfBasedCache_MR_Box3f_ConstructFromAnother", "MRXfBasedCache_8h.html#a3fb7f067e30dd08799e456cacabce24a", null ],
     [ "MR_XfBasedCache_MR_Box3f_DefaultConstruct", "MRXfBasedCache_8h.html#afe84742b8f8ae58d0675c3901f548f98", null ],

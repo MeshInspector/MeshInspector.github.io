@@ -255,8 +255,8 @@ Functions</h2></td></tr>
 <tr class="separator:a4ad89dc14697d9bfe28229f52f7f5bde"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a106b8e3df0f486f557e7f58f9d656715" id="r_a106b8e3df0f486f557e7f58f9d656715"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ade64fb100891a04fc6c88eb7da26ca9e">MR_ImproveSamplingSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a106b8e3df0f486f557e7f58f9d656715">MR_ImproveSamplingSettings_AssignFromAnother</a> (<a class="el" href="#ade64fb100891a04fc6c88eb7da26ca9e">MR_ImproveSamplingSettings</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#ade64fb100891a04fc6c88eb7da26ca9e">MR_ImproveSamplingSettings</a> *_other)</td></tr>
 <tr class="separator:a106b8e3df0f486f557e7f58f9d656715"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gacfc77a8ae9440a54e0cf3ae4ee77077d" id="r_gacfc77a8ae9440a54e0cf3ae4ee77077d"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__PointCloudGroup.html#gacfc77a8ae9440a54e0cf3ae4ee77077d">MR_improveSampling</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *cloud, <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *samples, const <a class="el" href="#ade64fb100891a04fc6c88eb7da26ca9e">MR_ImproveSamplingSettings</a> *settings)</td></tr>
-<tr class="separator:gacfc77a8ae9440a54e0cf3ae4ee77077d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfc77a8ae9440a54e0cf3ae4ee77077d" id="r_acfc77a8ae9440a54e0cf3ae4ee77077d"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acfc77a8ae9440a54e0cf3ae4ee77077d">MR_improveSampling</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *cloud, <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *samples, const <a class="el" href="#ade64fb100891a04fc6c88eb7da26ca9e">MR_ImproveSamplingSettings</a> *settings)</td></tr>
+<tr class="separator:acfc77a8ae9440a54e0cf3ae4ee77077d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="ade64fb100891a04fc6c88eb7da26ca9e" name="ade64fb100891a04fc6c88eb7da26ca9e"></a>
@@ -360,6 +360,40 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="acfc77a8ae9440a54e0cf3ae4ee77077d" name="acfc77a8ae9440a54e0cf3ae4ee77077d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acfc77a8ae9440a54e0cf3ae4ee77077d">&#9670;&#160;</a></span>MR_improveSampling()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_improveSampling </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>cloud</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *</td>          <td class="paramname"><span class="paramname"><em>samples</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ade64fb100891a04fc6c88eb7da26ca9e">MR_ImproveSamplingSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>settings</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Finds more representative sampling starting from a given one following k-means method; </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">samples</td><td>input and output selected sample points from</td></tr>
+    <tr><td class="paramname">cloud;</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>false if it was terminated by the callback Generated from function <code><a class="elRef" href="../Cpp/group__PointCloudGroup.html#gad56601e20058641f49fa277149d87e08">MR::improveSampling</a></code>. Parameter <code>cloud</code> can not be null. It is a single object. Parameter <code>samples</code> can not be null. It is a single object. Parameter <code>settings</code> can not be null. It is a single object. </dd></dl>
+
+</div>
+</div>
 <a id="a106b8e3df0f486f557e7f58f9d656715" name="a106b8e3df0f486f557e7f58f9d656715"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a106b8e3df0f486f557e7f58f9d656715">&#9670;&#160;</a></span>MR_ImproveSamplingSettings_AssignFromAnother()</h2>
 

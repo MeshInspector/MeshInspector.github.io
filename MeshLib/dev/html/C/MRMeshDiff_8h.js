@@ -1,6 +1,7 @@
 var MRMeshDiff_8h =
 [
     [ "MR_Mesh", "MRMeshDiff_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
+    [ "MR_MeshDiff", "MRMeshDiff_8h.html#afb53825f2e10cb593c116fb23f8f6626", null ],
     [ "MR_MeshDiff_any", "MRMeshDiff_8h.html#a77c7e5382ede67d1583d87c37ddbf46d", null ],
     [ "MR_MeshDiff_applyAndSwap", "MRMeshDiff_8h.html#ac63823962d3b004f57bf18e56f4bf958", null ],
     [ "MR_MeshDiff_AssignFromAnother", "MRMeshDiff_8h.html#afa2d2f020d50cc97a64fa2cd43b56b99", null ],

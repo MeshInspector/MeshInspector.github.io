@@ -1,5 +1,9 @@
 var MRSphere_8h =
 [
+    [ "MR_Sphere2d", "MRSphere_8h.html#afa1c6f9ae4fdc65a1135be69bdb908b1", null ],
+    [ "MR_Sphere2f", "MRSphere_8h.html#a1d76b7ed64d162206dfe50b01d029168", null ],
+    [ "MR_Sphere3d", "MRSphere_8h.html#acdea71651e5fc44f5d0901833dedfecd", null ],
+    [ "MR_Sphere3f", "MRSphere_8h.html#aab1b39c2998e4a21d6d10c8e06ff9013", null ],
     [ "MR_equal_MR_Sphere2d", "MRSphere_8h.html#a5b24e79d3a98f964ceeaf9d35d86a55f", null ],
     [ "MR_equal_MR_Sphere2f", "MRSphere_8h.html#af4de6f2b48673abd233119b6b4779aea", null ],
     [ "MR_equal_MR_Sphere3d", "MRSphere_8h.html#aedf63ef9a2eab35e45aba71a95120bec", null ],

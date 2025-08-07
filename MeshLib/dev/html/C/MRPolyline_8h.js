@@ -11,6 +11,8 @@ var MRPolyline_8h =
     [ "MR_Mesh", "MRPolyline_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
     [ "MR_MeshTriPoint", "MRPolyline_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc", null ],
     [ "MR_Plane3f", "MRPolyline_8h.html#aa7548d3448b3b7da1ea96433fe902e9a", null ],
+    [ "MR_Polyline2", "MRPolyline_8h.html#ac19d267fe4a2399b21a578c74213dfd2", null ],
+    [ "MR_Polyline3", "MRPolyline_8h.html#a6075b2f3b7dec92f779f4f58c28f7e1b", null ],
     [ "MR_PolylineTopology", "MRPolyline_8h.html#a02d1fe1568aa3e29e692594602ba76bd", null ],
     [ "MR_std_vector_MR_EdgeId", "MRPolyline_8h.html#aa2cb99914308eb7429fd11738cf79483", null ],
     [ "MR_std_vector_MR_EdgePoint", "MRPolyline_8h.html#a9138e3f58ce2b39215044d2e368587ae", null ],

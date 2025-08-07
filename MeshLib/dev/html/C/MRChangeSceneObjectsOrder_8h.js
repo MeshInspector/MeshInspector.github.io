@@ -1,5 +1,6 @@
 var MRChangeSceneObjectsOrder_8h =
 [
+    [ "MR_ChangeSceneObjectsOrder", "MRChangeSceneObjectsOrder_8h.html#a99dcc89e6a69ce8be6c55d1a7a9e6a91", null ],
     [ "MR_HistoryAction", "MRChangeSceneObjectsOrder_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56", null ],
     [ "MR_std_shared_ptr_MR_Object", "MRChangeSceneObjectsOrder_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4", null ],
     [ "MR_std_string", "MRChangeSceneObjectsOrder_8h.html#a69dc6868c10c92fb8b8a255b0130d289", null ],

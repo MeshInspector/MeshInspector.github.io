@@ -4,7 +4,7 @@ var MRPointCloud_8h =
     [ "MR_AffineXf3f", "MRPointCloud_8h.html#a88a1df6fb138786a55241b1d77a4b0cc", null ],
     [ "MR_CloudPartMapping", "MRPointCloud_8h.html#aaab4a354143c42cc0fd161d1c270cdf5", null ],
     [ "MR_Plane3f", "MRPointCloud_8h.html#aa7548d3448b3b7da1ea96433fe902e9a", null ],
-    [ "MR_PointCloud", "group__PointCloudGroup.html#gaa319738c95f0bbde075b7ef777cf2665", null ],
+    [ "MR_PointCloud", "MRPointCloud_8h.html#aa319738c95f0bbde075b7ef777cf2665", null ],
     [ "MR_std_vector_MR_VertId", "MRPointCloud_8h.html#a954949e1753f6a2063d09e91b23d252d", null ],
     [ "MR_VertBitSet", "MRPointCloud_8h.html#a3df50e76b078a1626dd994e1df803764", null ],
     [ "MR_VertBMap", "MRPointCloud_8h.html#aa7b9116fbd7f68728817ec9e0d331d91", null ],

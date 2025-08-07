@@ -7260,7 +7260,6 @@ the function is symmetric: angle( a, b ) == angle( b, a )
 </div><div class="memdoc">
 <pre class="fragment">\\brief Performs CSG operation on two meshes
 
-\\ingroup BooleanGroup
 Makes new mesh - result of boolean operation on mesh `A` and mesh `B`
 \\snippet cpp-examples/MeshBoolean.dox.cpp 0
 
@@ -8007,7 +8006,6 @@ computes the colors in valid target points by averaging the colors from the poin
 </div><div class="memdoc">
 <pre class="fragment"> Calculates Damerau-Levenshtein distance between to strings
  \\param outLeftRightAddition if provided return amount of insertions to the left and to the right
- \\ingroup BasicGroup
 </pre> 
 </div>
 </div>
@@ -9210,7 +9208,6 @@ the path can be limited to given region: in face-format inside mp, or in vert-fo
       </table>
 </div><div class="memdoc">
 <pre class="fragment"> \\brief Computes quadratic form at given vertex of the initial surface before decimation
- \\ingroup DecimateGroup
 </pre> 
 </div>
 </div>
@@ -9243,7 +9240,6 @@ the path can be limited to given region: in face-format inside mp, or in vert-fo
       </table>
 </div><div class="memdoc">
 <pre class="fragment"> \\brief Computes quadratic forms at every vertex of mesh part before decimation
- \\ingroup DecimateGroup
 </pre> 
 </div>
 </div>
@@ -10798,8 +10794,7 @@ newly introduced vertices on cut-contours are also converted, but we expected th
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">\\ingroup BooleanGroup
-\\brief Makes continuous contour by iso-line from mesh tri points, if first and last meshTriPoint is the same, makes closed contour
+<pre class="fragment">\\brief Makes continuous contour by iso-line from mesh tri points, if first and last meshTriPoint is the same, makes closed contour
 
 Finds shortest paths between neighbor \\p surfaceLine and build offset contour on surface for MR::cutMesh input
 \\param offset amount of offset form given point, note that absolute value is used and isoline in both direction returned
@@ -10835,8 +10830,7 @@ Finds shortest paths between neighbor \\p surfaceLine and build offset contour o
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">\\ingroup BooleanGroup
-\\brief Makes continuous contour by iso-line from mesh tri points, if first and last meshTriPoint is the same, makes closed contour
+<pre class="fragment">\\brief Makes continuous contour by iso-line from mesh tri points, if first and last meshTriPoint is the same, makes closed contour
 
 Finds shortest paths between neighbor \\p surfaceLine and build offset contour on surface for MR::cutMesh input
 \\param offsetAtPoint functor that returns amount of offset form arg point, note that absolute value is used and isoline in both direction returned
@@ -10872,8 +10866,7 @@ Finds shortest paths between neighbor \\p surfaceLine and build offset contour o
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">\\ingroup BooleanGroup
-\\brief Makes closed continuous contour by mesh tri points, note that first and last meshTriPoint should not be same
+<pre class="fragment">\\brief Makes closed continuous contour by mesh tri points, note that first and last meshTriPoint should not be same
 
 Finds shortest paths between neighbor \\p surfaceLine and build closed contour MR::cutMesh input
 \\param pivotIndices optional output indices of given surfaceLine in result OneMeshContour
@@ -10909,8 +10902,7 @@ Finds shortest paths between neighbor \\p surfaceLine and build closed contour M
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">\\ingroup BooleanGroup
-\\brief Makes continuous contour by mesh tri points, if first and last meshTriPoint is the same, makes closed contour
+<pre class="fragment">\\brief Makes continuous contour by mesh tri points, if first and last meshTriPoint is the same, makes closed contour
 
 Finds shortest paths between neighbor \\p surfaceLine and build contour MR::cutMesh input
 \\param searchSettings settings for search geo path 
@@ -10936,8 +10928,7 @@ Finds shortest paths between neighbor \\p surfaceLine and build contour MR::cutM
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">\\ingroup BooleanGroup
-\\brief Converts SurfacePaths to OneMeshContours
+<pre class="fragment">\\brief Converts SurfacePaths to OneMeshContours
 
 Creates MR::OneMeshContours object from given surface paths for MR::cutMesh input
 </pre> 
@@ -10971,8 +10962,7 @@ Creates MR::OneMeshContours object from given surface paths for MR::cutMesh inpu
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">\\ingroup BooleanGroup
-\\brief Converts SurfacePath to OneMeshContours
+<pre class="fragment">\\brief Converts SurfacePath to OneMeshContours
 
 Creates MR::OneMeshContour object from given surface path with ends for MR::cutMesh input
 `start` and surfacePath.front() should be from same face
@@ -11386,8 +11376,7 @@ note that it does not respect `obj` xf
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">\\ingroup BooleanGroup
-\\brief Cuts mesh by given contours
+<pre class="fragment">\\brief Cuts mesh by given contours
 
 This function cuts mesh making new edges paths on place of input contours
 \\param mesh Input mesh that will be cut
@@ -11559,7 +11548,6 @@ so if you cannot guarantee contours without intersections better make copy of me
       </table>
 </div><div class="memdoc">
 <pre class="fragment"> \\brief Collapse edges in the contour according to the settings
- \\ingroup DecimateGroup
 </pre> 
 </div>
 </div>
@@ -11603,7 +11591,6 @@ so if you cannot guarantee contours without intersections better make copy of me
       </table>
 </div><div class="memdoc">
 <pre class="fragment"> \\brief Collapse edges in mesh region according to the settings
- \\ingroup DecimateGroup
  \\snippet cpp-examples/MeshDecimate.dox.cpp 0
 
  \\image html decimate/decimate_before.png "Before" width = 350cm
@@ -11630,7 +11617,6 @@ so if you cannot guarantee contours without intersections better make copy of me
       </table>
 </div><div class="memdoc">
 <pre class="fragment"> \\brief Collapse edges in the polyline according to the settings
- \\ingroup DecimateGroup
 </pre> 
 </div>
 </div>
@@ -15346,7 +15332,6 @@ by adding new vertices located in given plane and 2 * number_of_hole_edge triang
 </div><div class="memdoc">
 <pre class="fragment"> \\brief Fills region located to the left from given contour, by minimizing the sum of metric over the boundary
  If the computations are terminated by \\p progress, then returns the best approximation found by the moment of termination
- \\ingroup MeshSegmentationGroup
 </pre> 
 </div>
 </div>
@@ -15380,7 +15365,6 @@ by adding new vertices located in given plane and 2 * number_of_hole_edge triang
 </div><div class="memdoc">
 <pre class="fragment"> \\brief Fills region located to the left from given contours, by minimizing the sum of metric over the boundary
  If the computations are terminated by \\p progress, then returns the best approximation found by the moment of termination
- \\ingroup MeshSegmentationGroup
 </pre> 
 </div>
 </div>
@@ -15539,7 +15523,6 @@ optionally make smooth connection with existing triangles outside the hole
       </table>
 </div><div class="memdoc">
 <pre class="fragment">\\brief Triangulates face of hole in mesh trivially\\n
-\\ingroup FillHoleGroup
 
 Fills given hole represented by one of its edges (having no valid left face)\\n
 by creating one new vertex in the centroid of boundary vertices and connecting new vertex with all boundary vertices.
@@ -15684,7 +15667,6 @@ if \\param filterBranches is true then branches shorter than \\param critLength 
 </div><div class="memdoc">
 <pre class="fragment">\\brief Finds the radius of ball, so on average that ball contained avgPoints excluding the central point
 \\param samples the number of test points to find given number of samples in each
-\\ingroup PointCloudGroup
 </pre> 
 </div>
 </div>
@@ -16344,7 +16326,6 @@ finds the point with minimal distance to given 3D location
 </div><div class="memdoc">
 <pre class="fragment">finds the vertex in the polyline having the largest projection on given direction,
 optionally uses aabb-tree inside for faster computation
-\\ingroup AABBTreeGroup
 </pre> 
 </div>
 </div>
@@ -16372,7 +16353,6 @@ optionally uses aabb-tree inside for faster computation
       </table>
 </div><div class="memdoc">
 <pre class="fragment">finds the point in the tree having the largest projection on given direction
-\\ingroup AABBTreeGroup
 </pre> 
 </div>
 </div>
@@ -16401,7 +16381,6 @@ optionally uses aabb-tree inside for faster computation
 </div><div class="memdoc">
 <pre class="fragment">finds the vertex in the mesh part having the largest projection on given direction,
 optionally uses aabb-tree inside for faster computation
-\\ingroup AABBTreeGroup
 </pre> 
 </div>
 </div>
@@ -16430,7 +16409,6 @@ optionally uses aabb-tree inside for faster computation
 </div><div class="memdoc">
 <pre class="fragment">finds the vertex in the mesh part having the largest projection on given direction,
 optionally uses aabb-tree inside for faster computation
-\\ingroup AABBTreeGroup
 </pre> 
 </div>
 </div>
@@ -16459,7 +16437,6 @@ optionally uses aabb-tree inside for faster computation
 </div><div class="memdoc">
 <pre class="fragment">finds the vertex in the mesh part having the largest projection on given direction,
 optionally uses aabb-points-tree inside for faster computation
-\\ingroup AABBTreeGroup
 </pre> 
 </div>
 </div>
@@ -16493,7 +16470,6 @@ optionally uses aabb-points-tree inside for faster computation
 </div><div class="memdoc">
 <pre class="fragment">finds the point in the cloud having the largest projection on given direction,
 optionally uses aabb-tree inside for faster computation
-\\ingroup AABBTreeGroup
 </pre> 
 </div>
 </div>
@@ -16522,7 +16498,6 @@ optionally uses aabb-tree inside for faster computation
 </div><div class="memdoc">
 <pre class="fragment">finds the vertex in the polyline having the largest projection on given direction,
 optionally uses aabb-tree inside for faster computation
-\\ingroup AABBTreeGroup
 </pre> 
 </div>
 </div>
@@ -17833,7 +17808,6 @@ then remaining faces are redistributed toward the closest seed face
 </div><div class="memdoc">
 <pre class="fragment">Finds all points in tree that are inside or on the surface of given ball until callback returns Stop;
 the ball can shrink (new ball is always within the previous one) during the search but never expand
-\\ingroup AABBTreeGroup
 \\param xf points-to-center transformation, if not specified then identity transformation is assumed
 </pre> 
 </div>
@@ -17868,7 +17842,6 @@ the ball can shrink (new ball is always within the previous one) during the sear
 </div><div class="memdoc">
 <pre class="fragment">Finds all valid vertices of the mesh that are inside or on the surface of given ball until callback returns Stop;
 the ball can shrink (new ball is always within the previous one) during the search but never expand
-\\ingroup AABBTreeGroup
 \\param xf points-to-center transformation, if not specified then identity transformation is assumed
 </pre> 
 </div>
@@ -17903,7 +17876,6 @@ the ball can shrink (new ball is always within the previous one) during the sear
 </div><div class="memdoc">
 <pre class="fragment">Finds all valid points of pointCloud that are inside or on the surface of given ball until callback returns Stop;
 the ball can shrink (new ball is always within the previous one) during the search but never expand
-\\ingroup AABBTreeGroup
 \\param xf points-to-center transformation, if not specified then identity transformation is assumed
 </pre> 
 </div>
@@ -17937,7 +17909,6 @@ the ball can shrink (new ball is always within the previous one) during the sear
       </table>
 </div><div class="memdoc">
 <pre class="fragment">Finds all points in tree that are inside or on the surface of given box
-\\ingroup AABBTreeGroup
 \\param xf points-to-center transformation, if not specified then identity transformation is assumed
 </pre> 
 </div>
@@ -17971,7 +17942,6 @@ the ball can shrink (new ball is always within the previous one) during the sear
       </table>
 </div><div class="memdoc">
 <pre class="fragment">Finds all valid vertices of the mesh that are inside or on the surface of given box
-\\ingroup AABBTreeGroup
 \\param xf points-to-center transformation, if not specified then identity transformation is assumed
 </pre> 
 </div>
@@ -18005,7 +17975,6 @@ the ball can shrink (new ball is always within the previous one) during the sear
       </table>
 </div><div class="memdoc">
 <pre class="fragment">Finds all valid points of pointCloud that are inside or on the surface of given box
-\\ingroup AABBTreeGroup
 \\param xf points-to-center transformation, if not specified then identity transformation is assumed
 </pre> 
 </div>
@@ -19417,7 +19386,6 @@ each vertex not from valid set is mapped to itself; given tree is used as is
 </div><div class="memdoc">
 <pre class="fragment"> Finds the substring in the string.
  \\return position, npos if not found
- \\ingroup BasicGroup
 </pre> 
 </div>
 </div>
@@ -20558,7 +20526,6 @@ set minimum value as the background value
 </div><div class="memdoc">
 <pre class="fragment">\\brief Returns the points of mesh boolean's result mesh
 
-\\ingroup BooleanGroup
 Returns vertices and intersection points of mesh that is result of boolean operation of mesh `A` and mesh `B`.
 Can be used as fast alternative for cases where the mesh topology can be ignored (bounding box, convex hull, etc.)
 \\param meshA Input mesh `A`
@@ -22466,7 +22433,6 @@ unlike getBoundaryVerts the vertices of mesh boundary having no incident not-reg
 </div><div class="memdoc">
 <pre class="fragment"> \\brief returns given subdivision part of all valid faces;
  parallel threads shall be able to safely modify these bits because they do not share any block with other parts
- \\ingroup DecimateGroup
 </pre> 
 </div>
 </div>
@@ -23701,7 +23667,6 @@ if the hole is planar then returned vector is orthogonal to the plane pointing o
 <pre class="fragment">Finds more representative sampling starting from a given one following k-means method;
 \\param samples input and output selected sample points from \\param cloud;
 \\return false if it was terminated by the callback
-\\ingroup PointCloudGroup
 </pre> 
 </div>
 </div>
@@ -26048,7 +26013,6 @@ if allowRotation rotate it in corners
 </div><div class="memdoc">
 <pre class="fragment">\\brief Makes consistent normals for valid points of given point cloud
 \\param avgNeighborhoodSize avg num of neighbors of each individual point
-\\ingroup PointCloudGroup
 [[deprecated( "use makeOrientedNormals(...) instead" )]]
 </pre> 
 </div>
@@ -26359,7 +26323,6 @@ if allowRotation rotate it in corners
 <pre class="fragment">\\brief Makes normals for valid points of given point cloud; directions of close points are selected to be consistent;
 \\triangs triangulation neighbours of each point, which are oriented during the call as well
 \\return nullopt if progress returned false
-\\ingroup PointCloudGroup
 </pre> 
 </div>
 </div>
@@ -26389,7 +26352,6 @@ if allowRotation rotate it in corners
 <pre class="fragment">\\brief Makes normals for valid points of given point cloud; directions of close points are selected to be consistent;
 \\param radius of neighborhood to consider
 \\return nullopt if progress returned false
-\\ingroup PointCloudGroup
 </pre> 
 </div>
 </div>
@@ -26623,7 +26585,6 @@ bridge consists of one quadrangle in general (beware that it cannot be rendered)
 </div><div class="memdoc">
 <pre class="fragment">given a mesh part and its arbitrary transformation, computes and returns
 the rigid transformation that best approximates meshXf
-\\ingroup MathGroup
 </pre> 
 </div>
 </div>
@@ -27087,7 +27048,6 @@ main application - testing fixUndercuts
 </div><div class="memdoc">
 <pre class="fragment">Composes new point cloud consisting of uniform samples of original point cloud;
 returns std::nullopt if it was terminated by the callback
-\\ingroup PointCloudGroup
 </pre> 
 </div>
 </div>
@@ -27123,7 +27083,6 @@ returns std::nullopt if it was terminated by the callback
 \\triangs triangulation neighbours of each point
 \\param orient OrientNormals::Smart here means orientation from normals of neigbour triangles
 \\return nullopt if progress returned false
-\\ingroup PointCloudGroup
 </pre> 
 </div>
 </div>
@@ -27164,7 +27123,6 @@ returns std::nullopt if it was terminated by the callback
 \\param closeVerts a buffer where for every valid point #i its neighbours are stored at indices [i*numNei; (i+1)*numNei)
 \\param orient OrientNormals::Smart here means orientation from best fit plane
 \\return nullopt if progress returned false
-\\ingroup PointCloudGroup
 </pre> 
 </div>
 </div>
@@ -27200,7 +27158,6 @@ returns std::nullopt if it was terminated by the callback
 \\param radius of neighborhood to consider
 \\param orient OrientNormals::Smart here means orientation from best fit plane
 \\return nullopt if progress returned false
-\\ingroup PointCloudGroup
 </pre> 
 </div>
 </div>
@@ -28155,7 +28112,6 @@ returns null if was canceled by progress callback
       </table>
 </div><div class="memdoc">
 <pre class="fragment">Mesh to PointCloud
-\\ingroup MeshAlgorithmGroup
 </pre> 
 </div>
 </div>
@@ -28305,7 +28261,6 @@ and the shift is written in *params.outXf
 </div><div class="memdoc">
 <pre class="fragment">Moves each vertex along its normal to the minimize (with sign, i.e. maximize the absolute value with negative sign) the derivative
 of voxels.
-\\ingroup SubvoxelMeshCorrection
 @return Vertices that were moved by the algorithm
 </pre> 
 </div>
@@ -28350,7 +28305,6 @@ of voxels.
 </div><div class="memdoc">
 <pre class="fragment">Moves each vertex along its normal to the minimize (with sign, i.e. maximize the absolute value with negative sign) the derivative
 of voxels.
-\\ingroup SubvoxelMeshCorrection
 @return Vertices that were moved by the algorithm
 </pre> 
 </div>
@@ -28395,7 +28349,6 @@ of voxels.
 </div><div class="memdoc">
 <pre class="fragment">Moves each vertex along its normal to the minimize (with sign, i.e. maximize the absolute value with negative sign) the derivative
 of voxels.
-\\ingroup SubvoxelMeshCorrection
 @return Vertices that were moved by the algorithm
 </pre> 
 </div>
@@ -28711,8 +28664,7 @@ this is the same normal as in rendering with smooth shading
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">\\}
-</pre> 
+
 </div>
 </div>
 <a id="a19850aff4be51a76b11aa5d9de761673" name="a19850aff4be51a76b11aa5d9de761673"></a>
@@ -29501,7 +29453,6 @@ uses simulation-of-simplicity to avoid "D is exactly on plane"
 Unlike simple orientNormals this method constructs local triangulations around each point
 (with most neighbours within given radius and all neighbours within 2*radius)
 and considers all triangulation neighbors and not other points from the ball around each point.
-\\ingroup PointCloudGroup
 </pre> 
 </div>
 </div>
@@ -29541,7 +29492,6 @@ and considers all triangulation neighbors and not other points from the ball aro
 <pre class="fragment">\\brief Select orientation of given normals to make directions of close points consistent;
 \\param closeVerts a buffer where for every valid point #i its neighbours are stored at indices [i*numNei; (i+1)*numNei)
 \\return false if progress returned false
-\\ingroup PointCloudGroup
 </pre> 
 </div>
 </div>
@@ -29576,7 +29526,6 @@ and considers all triangulation neighbors and not other points from the ball aro
 <pre class="fragment">\\brief Select orientation of given normals to make directions of close points consistent;
 \\param radius of neighborhood to consider
 \\return false if progress returned false
-\\ingroup PointCloudGroup
 </pre> 
 </div>
 </div>
@@ -30020,7 +29969,6 @@ and then using marching cubes algorithm to extract the surface from there
 </div><div class="memdoc">
 <pre class="fragment">Sample vertices, removing ones that are too close;
 returns std::nullopt if it was terminated by the callback
-\\ingroup PointCloudGroup
 </pre> 
 </div>
 </div>
@@ -32359,7 +32307,6 @@ but at the distance along the input line not shorter than (minStep) from their n
 </div><div class="memdoc">
 <pre class="fragment"> \\brief Removes degenerate triangles in a mesh by calling decimateMesh function with appropriate settings
  \\details consider using \\ref fixMeshDegeneracies for more complex cases
- \\ingroup DecimateGroup
  \\return true if the mesh has been changed
 
  \\sa \\ref decimateMesh
@@ -33061,7 +33008,6 @@ invalid (infinity): 0.0 (black)
 </div><div class="memdoc">
 <pre class="fragment"> \\brief Finds segment that divide mesh on source and sink (source included, sink excluded), by minimizing the sum of metric over the boundary
  If the computations are terminated by \\p progress, then returns the best approximation found by the moment of termination
- \\ingroup MeshSegmentationGroup
 </pre> 
 </div>
 </div>
@@ -33173,7 +33119,6 @@ segments ta and tb can have at most two shared points, all other points must be 
       </table>
 </div><div class="memdoc">
 <pre class="fragment"> \\brief Segment voxels of given volume on two sets using graph-cut, returning source set
- \\ingroup VoxelGroup
  \\param k - coefficient in the exponent of the metric affecting edge capacity:\\n
         increasing k you force to find a higher steps in the density on the boundary, decreasing k you ask for smoother boundary
  \\param sourceSeeds - these voxels will be included in the result
@@ -34116,7 +34061,6 @@ solution is typically oscillates back and forth so even number of iterations is 
 </div><div class="memdoc">
 <pre class="fragment"> Splits given string by delimiter.
  \\return vector of split strings
- \\ingroup BasicGroup
 </pre> 
 </div>
 </div>
@@ -34394,7 +34338,6 @@ merge the surface along corresponding edges of two contours, and deletes all ver
 \\details new triangle is added only if 
  1) aspect ratio of the new triangle is at most maxTriAspectRatio,
  2) dot product of its normal with neighbor triangles is at least minNeiNormalsDot.
-\\ingroup MeshAlgorithmGroup
 </pre> 
 </div>
 </div>
@@ -34800,7 +34743,6 @@ if there is more than one contour on face it guarantee to subdivide at least one
  The algorithm assumes that input edges can be projected on the plane orthogonal to given direction,
  then the center point of all input edges is found, and each segment of the searched loop is within infinite pie sector
  with this center and the borders passing via two sorted input edges.
- \\ingroup MeshSegmentationGroup
  
  \\param includeEdges contain all edges in arbitrary order that must be present in the returned loop, probably with reversed direction (should have at least 2 elements)
  \\param edgeMetric returned loop will minimize the sum of this metric
@@ -34840,7 +34782,6 @@ if there is more than one contour on face it guarantee to subdivide at least one
  The algorithm assumes that input vertices can be projected on the plane orthogonal to given direction,
  then the center point of all input vertices is found, and each segment of the searched loop is within infinite pie sector
  with this center and the borders passing via two sorted input vertices.
- \\ingroup MeshSegmentationGroup
  
  \\param keyVertices contain all vertices in arbitrary order that returned loop must pass (should have at least 2 elements)
  \\param edgeMetric returned loop will minimize the sum of this metric
@@ -35506,7 +35447,6 @@ otherwise copies transformed points in (buf) and returns it
 </div><div class="memdoc">
 <pre class="fragment"> \\brief Creates mesh from given point cloud according params
  Returns empty optional if was interrupted by progress bar
- \\ingroup PointCloudTriangulationGroup
     &lt;table border=0&gt;
         &lt;caption id="triangulatePointCloud_examples"&gt;&lt;/caption&gt;
         &lt;tr&gt;

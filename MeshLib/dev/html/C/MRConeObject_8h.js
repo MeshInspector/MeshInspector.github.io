@@ -1,6 +1,7 @@
 var MRConeObject_8h =
 [
     [ "MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_MR_DimensionsVisualizePropertyType_angle_MR_DimensionsVisualizePropertyType_length", "MRConeObject_8h.html#ac1385bd9e8fa466aaf34d0db0019ba79", null ],
+    [ "MR_ConeObject", "MRConeObject_8h.html#a943257aecd41a7a33ecfe2ccbf1490d2", null ],
     [ "MR_FeatureObject", "MRConeObject_8h.html#aff93746de8efe15fd5fa764838b71e9b", null ],
     [ "MR_FeatureObjectProjectPointResult", "MRConeObject_8h.html#af9fa34609dfd430727cb347f86a5f28f", null ],
     [ "MR_Object", "MRConeObject_8h.html#accce9c9179cadabc541edda0fc7a2571", null ],

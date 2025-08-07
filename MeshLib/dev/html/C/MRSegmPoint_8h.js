@@ -1,5 +1,7 @@
 var MRSegmPoint_8h =
 [
+    [ "MR_SegmPointd", "MRSegmPoint_8h.html#aa5fc94684762de00501d32e2f80a9fc5", null ],
+    [ "MR_SegmPointf", "MRSegmPoint_8h.html#a82acfe4bf120daf3ba429a5974adeafe", null ],
     [ "MR_equal_MR_SegmPointd", "MRSegmPoint_8h.html#a505b6474226dea3c41a8cc8ae9e58a48", null ],
     [ "MR_equal_MR_SegmPointd_double", "MRSegmPoint_8h.html#aa4d1ffbc19e3ce1b82bb5441fc1ef9ff", null ],
     [ "MR_equal_MR_SegmPointf", "MRSegmPoint_8h.html#a1586fd7fee7958dae7316d3bf9990b0a", null ],

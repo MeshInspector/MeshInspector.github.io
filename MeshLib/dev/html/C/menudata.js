@@ -82,7 +82,6 @@ var menudata={children:[
 {text:"C++",url:"../Cpp/APICppPage.html"},
 {text:"Python",url:"../Py/APIPyPage.html"},
 {text:"C",url:"APICPage.html",children:[
-{text:"Topics",url:"topics.html"},
 {text:"Class List",url:"annotated.html",children:[
 {text:"Class List",url:"annotated.html"},
 {text:"Class Index",url:"classes.html"},

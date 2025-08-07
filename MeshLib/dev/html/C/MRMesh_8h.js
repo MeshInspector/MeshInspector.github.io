@@ -11,6 +11,7 @@ var MRMesh_8h =
     [ "MR_FaceBitSet", "MRMesh_8h.html#aba7bc6ac732c34fd4721c543fa3445ea", null ],
     [ "MR_FaceMap", "MRMesh_8h.html#ab809347fd151b45341bc9e7828673eb5", null ],
     [ "MR_LineSegm3f", "MRMesh_8h.html#a39540ed403db4865d7d6ce134f7654c1", null ],
+    [ "MR_Mesh", "MRMesh_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
     [ "MR_MeshBuilder_BuildSettings", "MRMesh_8h.html#ad64e870545f55932379857e2c2d7eafb", null ],
     [ "MR_MeshPart", "MRMesh_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17", null ],
     [ "MR_MeshProjectionResult", "MRMesh_8h.html#a3fb763c49c691080a2aac500c768c001", null ],

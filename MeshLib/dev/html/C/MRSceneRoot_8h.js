@@ -2,6 +2,7 @@ var MRSceneRoot_8h =
 [
     [ "MR_Object", "MRSceneRoot_8h.html#accce9c9179cadabc541edda0fc7a2571", null ],
     [ "MR_ObjectChildrenHolder", "MRSceneRoot_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc", null ],
+    [ "MR_SceneRoot", "MRSceneRoot_8h.html#ab54b7348c2e5fb01019351f23b672f22", null ],
     [ "MR_SceneRootObject", "MRSceneRoot_8h.html#a885f919fff839030c6725c849e0db23a", null ],
     [ "MR_std_filesystem_path", "MRSceneRoot_8h.html#a006d61fd2048bba5b5622d42cbe72526", null ],
     [ "MR_std_shared_ptr_const_MR_SceneRootObject", "MRSceneRoot_8h.html#a331e2aeba64435c9d33bfce1ba5741de", null ],

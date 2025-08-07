@@ -5,6 +5,7 @@ var MRObjectMesh_8h =
     [ "MR_MeshIntersectionResult", "MRObjectMesh_8h.html#ac8e02ba4ec98b4ca68dfb88ed4fb6564", null ],
     [ "MR_Object", "MRObjectMesh_8h.html#accce9c9179cadabc541edda0fc7a2571", null ],
     [ "MR_ObjectChildrenHolder", "MRObjectMesh_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc", null ],
+    [ "MR_ObjectMesh", "MRObjectMesh_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6", null ],
     [ "MR_ObjectMeshHolder", "MRObjectMesh_8h.html#a1c5e41e50d86c1613114a6f1296f0934", null ],
     [ "MR_std_shared_ptr_MR_Mesh", "MRObjectMesh_8h.html#a078d52fb855baae04a6dcdd71e46fbed", null ],
     [ "MR_std_shared_ptr_MR_Object", "MRObjectMesh_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4", null ],

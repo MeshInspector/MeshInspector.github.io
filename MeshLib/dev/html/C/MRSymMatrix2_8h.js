@@ -2,6 +2,11 @@ var MRSymMatrix2_8h =
 [
     [ "MR_Matrix2d", "MRSymMatrix2_8h.html#a7ed42d4b8ab750aa5502f0b3aae480bb", null ],
     [ "MR_Matrix2f", "MRSymMatrix2_8h.html#aa7e2870abc827564c54900098cd448e2", null ],
+    [ "MR_SymMatrix2b", "MRSymMatrix2_8h.html#afb4b4cb17091b711ee0b480c62f9f5b9", null ],
+    [ "MR_SymMatrix2d", "MRSymMatrix2_8h.html#af7475838db501ea587b208dcea0499cc", null ],
+    [ "MR_SymMatrix2f", "MRSymMatrix2_8h.html#a13cd8cbd4d45e7cccbccacbb1336a621", null ],
+    [ "MR_SymMatrix2i", "MRSymMatrix2_8h.html#a6ed1918d5a6fd6b7421a1d2a4118d042", null ],
+    [ "MR_SymMatrix2i64", "MRSymMatrix2_8h.html#a7d74d4f27319b4cc833ef76140d8f452", null ],
     [ "MR_SymMatrix2b_add_assign", "MRSymMatrix2_8h.html#afbc2fd12b9aacf590461013561e237e0", null ],
     [ "MR_SymMatrix2b_AssignFromAnother", "MRSymMatrix2_8h.html#aeeb7cb659850c9b5975610d7aba11318", null ],
     [ "MR_SymMatrix2b_ConstructFromAnother", "MRSymMatrix2_8h.html#a78f630263095c04493d6ac142d7380da", null ],
