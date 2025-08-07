@@ -1,5 +1,6 @@
 var NAVTREEINDEX171 =
 {
+"structMR_1_1DecimateSettings.html#ae341a50784372571b1b5bb3e6948981e":[6,2,0,13,0,28],
 "structMR_1_1DecimateSettings.html#aebecde304889b67910dd05d032cb8d07":[6,2,0,13,0,7],
 "structMR_1_1DecimateSettings.html#aee15c4faad0020190c28ac13da3e735e":[6,2,0,13,0,27],
 "structMR_1_1DecimateSettings.html#af1fd605860fa7a20931506008f29daa9":[6,2,0,13,0,13],

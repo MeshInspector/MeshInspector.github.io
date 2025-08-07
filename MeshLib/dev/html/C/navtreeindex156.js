@@ -1,5 +1,6 @@
 var NAVTREEINDEX156 =
 {
+"std__vector__MR__VoxelBitSet_8h.html":[6,2,2,0,0,0,2,366],
 "std__vector__MR__VoxelBitSet_8h.html#a0138f2008695b4f1c5dcbcef7008bed2":[6,2,2,0,0,0,2,366,53],
 "std__vector__MR__VoxelBitSet_8h.html#a03174fe2b9bce7c1fe2c8326c5d3e490":[6,2,2,0,0,0,2,366,5],
 "std__vector__MR__VoxelBitSet_8h.html#a0397920748b794565e455e89c82cec8e":[6,2,2,0,0,0,2,366,12],
@@ -248,6 +249,5 @@ var NAVTREEINDEX156 =
 "std__vector__MR__WatershedGraph__BdInfo_8h.html#a569667c95a4e9d4d3a69fbf443462ec5":[6,2,2,0,0,0,2,369,3],
 "std__vector__MR__WatershedGraph__BdInfo_8h.html#a583fb9ab2e3c2b027af011ab25cd6bc2":[6,2,2,0,0,0,2,369,54],
 "std__vector__MR__WatershedGraph__BdInfo_8h.html#a5b17776a7a701d9a391e9c60a6c15311":[6,2,2,0,0,0,2,369,43],
-"std__vector__MR__WatershedGraph__BdInfo_8h.html#a5cc7feafcf3b254ca5f9ba94203cb979":[6,2,2,0,0,0,2,369,40],
-"std__vector__MR__WatershedGraph__BdInfo_8h.html#a5debac8929a6d411cbd8d885e3c164f1":[6,2,2,0,0,0,2,369,17]
+"std__vector__MR__WatershedGraph__BdInfo_8h.html#a5cc7feafcf3b254ca5f9ba94203cb979":[6,2,2,0,0,0,2,369,40]
 };

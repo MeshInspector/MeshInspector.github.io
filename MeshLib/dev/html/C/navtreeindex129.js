@@ -1,5 +1,6 @@
 var NAVTREEINDEX129 =
 {
+"std__variant__MR__WholeEdgeMap__phmap__flat__hash__map__MR__UndirectedEdgeId__MR__EdgeId_8h_source.html":[6,2,2,0,0,0,2,268],
 "std__variant__float__MR__Vector3f_8h.html":[6,2,2,0,0,0,2,259],
 "std__variant__float__MR__Vector3f_8h.html#a04f0216a32d6666a726144f79ff14d86":[6,2,2,0,0,0,2,259,11],
 "std__variant__float__MR__Vector3f_8h.html#a0640878b6c7d274d24cdc71b7222c9eb":[6,2,2,0,0,0,2,259,15],
@@ -248,6 +249,5 @@ var NAVTREEINDEX129 =
 "std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f_8h.html#aa6bf98e520988dbdfa43b0f3b03a4f9e":[6,2,2,0,0,0,2,277,25],
 "std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f_8h.html#aaa328ed7ae04a8d94a81673d07fac785":[6,2,2,0,0,0,2,277,4],
 "std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f_8h.html#aadea9b9e2d15ac0c104bbed8c7f2a3cb":[6,2,2,0,0,0,2,277,59],
-"std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f_8h.html#ab9dde362b04ab08fb26236d406fa4382":[6,2,2,0,0,0,2,277,58],
-"std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f_8h.html#ac7aa97bceb9803138a772a524f3e96df":[6,2,2,0,0,0,2,277,35]
+"std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f_8h.html#ab9dde362b04ab08fb26236d406fa4382":[6,2,2,0,0,0,2,277,58]
 };

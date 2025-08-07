@@ -162,15 +162,15 @@ $(function(){initNavTree('group__MeshSegmentationGroup.html',''); initResizable(
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga6411ded50ca303d4fa4228137d695d43" id="r_ga6411ded50ca303d4fa4228137d695d43"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> FaceBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6411ded50ca303d4fa4228137d695d43">MR::fillContourLeftByGraphCut</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const <a class="el" href="namespaceMR.html#a9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &amp;contour, const <a class="el" href="namespaceMR.html#a89c45ed75d3ee7e49964d4afe5a64651">EdgeMetric</a> &amp;metric)</td></tr>
-<tr class="memdesc:ga6411ded50ca303d4fa4228137d695d43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fills region located to the left from given contour, by minimizing the sum of metric over the boundary.  <br /></td></tr>
-<tr class="separator:ga6411ded50ca303d4fa4228137d695d43"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga771908317b966d8e9e45af1cc448756e" id="r_ga771908317b966d8e9e45af1cc448756e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> FaceBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga771908317b966d8e9e45af1cc448756e">MR::fillContourLeftByGraphCut</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const std::vector&lt; <a class="el" href="namespaceMR.html#a9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &gt; &amp;contours, const <a class="el" href="namespaceMR.html#a89c45ed75d3ee7e49964d4afe5a64651">EdgeMetric</a> &amp;metric)</td></tr>
-<tr class="memdesc:ga771908317b966d8e9e45af1cc448756e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fills region located to the left from given contours, by minimizing the sum of metric over the boundary.  <br /></td></tr>
-<tr class="separator:ga771908317b966d8e9e45af1cc448756e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga94134d6a12381a36151563fe8472f818" id="r_ga94134d6a12381a36151563fe8472f818"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> FaceBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga94134d6a12381a36151563fe8472f818">MR::segmentByGraphCut</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const FaceBitSet &amp;source, const FaceBitSet &amp;sink, const <a class="el" href="namespaceMR.html#a89c45ed75d3ee7e49964d4afe5a64651">EdgeMetric</a> &amp;metric)</td></tr>
-<tr class="memdesc:ga94134d6a12381a36151563fe8472f818"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds segment that divide mesh on source and sink (source included, sink excluded), by minimizing the sum of metric over the boundary.  <br /></td></tr>
-<tr class="separator:ga94134d6a12381a36151563fe8472f818"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadea0ef926186e71514bcaf05a50aa51d" id="r_gadea0ef926186e71514bcaf05a50aa51d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> FaceBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gadea0ef926186e71514bcaf05a50aa51d">MR::fillContourLeftByGraphCut</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const <a class="el" href="namespaceMR.html#a9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &amp;contour, const <a class="el" href="namespaceMR.html#a89c45ed75d3ee7e49964d4afe5a64651">EdgeMetric</a> &amp;metric, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;progress={})</td></tr>
+<tr class="memdesc:gadea0ef926186e71514bcaf05a50aa51d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fills region located to the left from given contour, by minimizing the sum of metric over the boundary If the computations are terminated by <code>progress</code>, then returns the best approximation found by the moment of termination.  <br /></td></tr>
+<tr class="separator:gadea0ef926186e71514bcaf05a50aa51d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga192299a4f8520a8867c43c89651f4304" id="r_ga192299a4f8520a8867c43c89651f4304"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> FaceBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga192299a4f8520a8867c43c89651f4304">MR::fillContourLeftByGraphCut</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const std::vector&lt; <a class="el" href="namespaceMR.html#a9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &gt; &amp;contours, const <a class="el" href="namespaceMR.html#a89c45ed75d3ee7e49964d4afe5a64651">EdgeMetric</a> &amp;metric, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;progress={})</td></tr>
+<tr class="memdesc:ga192299a4f8520a8867c43c89651f4304"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fills region located to the left from given contours, by minimizing the sum of metric over the boundary If the computations are terminated by <code>progress</code>, then returns the best approximation found by the moment of termination.  <br /></td></tr>
+<tr class="separator:ga192299a4f8520a8867c43c89651f4304"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga90e052f4d7cc9dd0c2e2d004cda6abeb" id="r_ga90e052f4d7cc9dd0c2e2d004cda6abeb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> FaceBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga90e052f4d7cc9dd0c2e2d004cda6abeb">MR::segmentByGraphCut</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const FaceBitSet &amp;source, const FaceBitSet &amp;sink, const <a class="el" href="namespaceMR.html#a89c45ed75d3ee7e49964d4afe5a64651">EdgeMetric</a> &amp;metric, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;progress={})</td></tr>
+<tr class="memdesc:ga90e052f4d7cc9dd0c2e2d004cda6abeb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds segment that divide mesh on source and sink (source included, sink excluded), by minimizing the sum of metric over the boundary If the computations are terminated by <code>progress</code>, then returns the best approximation found by the moment of termination.  <br /></td></tr>
+<tr class="separator:ga90e052f4d7cc9dd0c2e2d004cda6abeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga92dbf357e425dd6e8d7f76ab544250c5" id="r_ga92dbf357e425dd6e8d7f76ab544250c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="namespaceMR.html#a099da1b4cb4b8348ee3fed0588b01aa3">EdgeLoop</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga92dbf357e425dd6e8d7f76ab544250c5">MR::surroundingContour</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, std::vector&lt; EdgeId &gt; includeEdges, const <a class="el" href="namespaceMR.html#a89c45ed75d3ee7e49964d4afe5a64651">EdgeMetric</a> &amp;edgeMetric, const Vector3f &amp;dir)</td></tr>
 <tr class="memdesc:ga92dbf357e425dd6e8d7f76ab544250c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find the best closed edge loop passing through given edges, which minimizes the sum of given edge metric. The algorithm assumes that input edges can be projected on the plane orthogonal to given direction, then the center point of all input edges is found, and each segment of the searched loop is within infinite pie sector with this center and the borders passing via two sorted input edges.  <br /></td></tr>
 <tr class="separator:ga92dbf357e425dd6e8d7f76ab544250c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -187,7 +187,7 @@ How To</h1>
 First step to get a mesh segment by two (/three) points, is getting the contour that bounds the segment.<br  />
 To do this, you can use <a class="el" href="#ga92dbf357e425dd6e8d7f76ab544250c5">surroundingContour</a></li>
 <li>Get Segment<br  />
-For getting segment of mesh by contour(-s) use <a class="el" href="#ga6411ded50ca303d4fa4228137d695d43">fillContourLeftByGraphCut</a>.</li>
+For getting segment of mesh by contour(-s) use <a class="el" href="#gadea0ef926186e71514bcaf05a50aa51d">fillContourLeftByGraphCut</a>.</li>
 </ol>
 <a class="anchor" id="fillContourLeftByGraphCut_examples"></a>
 <table border="0">
@@ -204,8 +204,8 @@ After</div></div>
   </td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="ga6411ded50ca303d4fa4228137d695d43" name="ga6411ded50ca303d4fa4228137d695d43"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga6411ded50ca303d4fa4228137d695d43">&#9670;&#160;</a></span>fillContourLeftByGraphCut() <span class="overload">[1/2]</span></h2>
+<a id="gadea0ef926186e71514bcaf05a50aa51d" name="gadea0ef926186e71514bcaf05a50aa51d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gadea0ef926186e71514bcaf05a50aa51d">&#9670;&#160;</a></span>fillContourLeftByGraphCut() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -223,17 +223,22 @@ After</div></div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a89c45ed75d3ee7e49964d4afe5a64651">EdgeMetric</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>metric</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a89c45ed75d3ee7e49964d4afe5a64651">EdgeMetric</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>metric</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>progress</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Fills region located to the left from given contour, by minimizing the sum of metric over the boundary. </p>
+<p>Fills region located to the left from given contour, by minimizing the sum of metric over the boundary If the computations are terminated by <code>progress</code>, then returns the best approximation found by the moment of termination. </p>
 
 </div>
 </div>
-<a id="ga771908317b966d8e9e45af1cc448756e" name="ga771908317b966d8e9e45af1cc448756e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga771908317b966d8e9e45af1cc448756e">&#9670;&#160;</a></span>fillContourLeftByGraphCut() <span class="overload">[2/2]</span></h2>
+<a id="ga192299a4f8520a8867c43c89651f4304" name="ga192299a4f8520a8867c43c89651f4304"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga192299a4f8520a8867c43c89651f4304">&#9670;&#160;</a></span>fillContourLeftByGraphCut() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -251,17 +256,22 @@ After</div></div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a89c45ed75d3ee7e49964d4afe5a64651">EdgeMetric</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>metric</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a89c45ed75d3ee7e49964d4afe5a64651">EdgeMetric</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>metric</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>progress</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Fills region located to the left from given contours, by minimizing the sum of metric over the boundary. </p>
+<p>Fills region located to the left from given contours, by minimizing the sum of metric over the boundary If the computations are terminated by <code>progress</code>, then returns the best approximation found by the moment of termination. </p>
 
 </div>
 </div>
-<a id="ga94134d6a12381a36151563fe8472f818" name="ga94134d6a12381a36151563fe8472f818"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga94134d6a12381a36151563fe8472f818">&#9670;&#160;</a></span>segmentByGraphCut()</h2>
+<a id="ga90e052f4d7cc9dd0c2e2d004cda6abeb" name="ga90e052f4d7cc9dd0c2e2d004cda6abeb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga90e052f4d7cc9dd0c2e2d004cda6abeb">&#9670;&#160;</a></span>segmentByGraphCut()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -284,12 +294,17 @@ After</div></div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a89c45ed75d3ee7e49964d4afe5a64651">EdgeMetric</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>metric</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#a89c45ed75d3ee7e49964d4afe5a64651">EdgeMetric</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>metric</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>progress</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Finds segment that divide mesh on source and sink (source included, sink excluded), by minimizing the sum of metric over the boundary. </p>
+<p>Finds segment that divide mesh on source and sink (source included, sink excluded), by minimizing the sum of metric over the boundary If the computations are terminated by <code>progress</code>, then returns the best approximation found by the moment of termination. </p>
 
 </div>
 </div>

@@ -1,5 +1,6 @@
 var NAVTREEINDEX100 =
 {
+"expected__MR__ObjectLines__std__string_8h.html#a85c02b8673f78b72e2879b408d55347d":[6,2,2,0,0,0,2,15,10],
 "expected__MR__ObjectLines__std__string_8h.html#a92bd4d755e7dd49ceabbd359b26e1bf1":[6,2,2,0,0,0,2,15,12],
 "expected__MR__ObjectLines__std__string_8h.html#abb554c47cbf5a51975433b05e47b7fae":[6,2,2,0,0,0,2,15,8],
 "expected__MR__ObjectLines__std__string_8h.html#ae9cd0995046c1aaa28a4032578fe3451":[6,2,2,0,0,0,2,15,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX100 =
 "expected__MR__TriMesh__std__string_8h.html#ad0f357e7c4f3d0c8da8cac4400aacbc3":[6,2,2,0,0,0,2,28,6],
 "expected__MR__TriMesh__std__string_8h.html#af528de87d12171e4e570725decfdfd51":[6,2,2,0,0,0,2,28,13],
 "expected__MR__TriMesh__std__string_8h.html#af76a1ef28345e051dedb958cf46e13a8":[6,2,2,0,0,0,2,28,12],
-"expected__MR__TriMesh__std__string_8h_source.html":[6,2,2,0,0,0,2,28],
-"expected__MR__UndirectedEdgeBitSet__std__string_8h.html":[6,2,2,0,0,0,2,29]
+"expected__MR__TriMesh__std__string_8h_source.html":[6,2,2,0,0,0,2,28]
 };

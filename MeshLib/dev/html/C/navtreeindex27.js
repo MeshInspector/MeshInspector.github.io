@@ -200,11 +200,12 @@ var NAVTREEINDEX27 =
 "MRFewSmallest_8h.html#ae8e03535230da6354673f1026174e87e":[6,2,2,0,0,0,1,93,4],
 "MRFewSmallest_8h_source.html":[6,2,2,0,0,0,1,93],
 "MRFillContourByGraphCut_8h.html":[6,2,2,0,0,0,1,95],
-"MRFillContourByGraphCut_8h.html#aa2cb99914308eb7429fd11738cf79483":[6,2,2,0,0,0,1,95,3],
-"MRFillContourByGraphCut_8h.html#ab5de264b6065dbf84f6b3fa0f6530592":[6,2,2,0,0,0,1,95,4],
+"MRFillContourByGraphCut_8h.html#aa2cb99914308eb7429fd11738cf79483":[6,2,2,0,0,0,1,95,4],
+"MRFillContourByGraphCut_8h.html#ab5de264b6065dbf84f6b3fa0f6530592":[6,2,2,0,0,0,1,95,5],
 "MRFillContourByGraphCut_8h.html#aba7bc6ac732c34fd4721c543fa3445ea":[6,2,2,0,0,0,1,95,0],
-"MRFillContourByGraphCut_8h.html#abe08d8d5c70c2a7fb9600f5a1dfd1687":[6,2,2,0,0,0,1,95,2],
+"MRFillContourByGraphCut_8h.html#abe08d8d5c70c2a7fb9600f5a1dfd1687":[6,2,2,0,0,0,1,95,3],
 "MRFillContourByGraphCut_8h.html#ad396cf7d4433c5ba7924776f5b379c9b":[6,2,2,0,0,0,1,95,1],
+"MRFillContourByGraphCut_8h.html#adb03ce28cacfff1e499d75d512dc4a84":[6,2,2,0,0,0,1,95,2],
 "MRFillContourByGraphCut_8h_source.html":[6,2,2,0,0,0,1,95],
 "MRFillContour_8h.html":[6,2,2,0,0,0,1,94],
 "MRFillContour_8h.html#a7b0f6a976017544da34b674bbda4d275":[6,2,2,0,0,0,1,94,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX27 =
 "MRFillHoleNicely_8h.html#a67771281432dc871ebcd3d18bd7b1794":[6,2,2,0,0,0,1,97,16],
 "MRFillHoleNicely_8h.html#a67b8cdb54298cf10acb5f0174b33c25c":[6,2,2,0,0,0,1,97,30],
 "MRFillHoleNicely_8h.html#a6e29032ba5f70e6f74ee1ada98a7e6ff":[6,2,2,0,0,0,1,97,61],
-"MRFillHoleNicely_8h.html#a6f3533f96f28e85cc90af55e1119e870":[6,2,2,0,0,0,1,97,55],
-"MRFillHoleNicely_8h.html#a73cc35e9c49fbdd839e081c8b1711e14":[6,2,2,0,0,0,1,97,26]
+"MRFillHoleNicely_8h.html#a6f3533f96f28e85cc90af55e1119e870":[6,2,2,0,0,0,1,97,55]
 };

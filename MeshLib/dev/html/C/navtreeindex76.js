@@ -1,5 +1,6 @@
 var NAVTREEINDEX76 =
 {
+"MRToolPath_8h.html#a98d8015d33737d0511b675e877c3721f":[6,2,2,0,0,0,4,24,51],
 "MRToolPath_8h.html#a9af1e7a4263cfe3022d60ba8cafc9cdd":[6,2,2,0,0,0,4,24,109],
 "MRToolPath_8h.html#a9ff2c2de2473c8d345a27a7c2f24e681":[6,2,2,0,0,0,4,24,160],
 "MRToolPath_8h.html#aa05c930c7254a67d9a0bd8da8d3f6611":[6,2,2,0,0,0,4,24,101],
@@ -248,6 +249,5 @@ var NAVTREEINDEX76 =
 "MRUniformSampling_8h.html#aa319738c95f0bbde075b7ef777cf2665":[6,2,2,0,0,0,1,334,0],
 "MRUniformSampling_8h.html#aa67b7dfd42a2ffa15b48d15468c644e5":[6,2,2,0,0,0,1,334,19],
 "MRUniformSampling_8h.html#aafc81d47bb3537f1bb7e5ed582250b70":[6,2,2,0,0,0,1,334,29],
-"MRUniformSampling_8h.html#ab344b30a267b068a4443e581cbbf0c82":[6,2,2,0,0,0,1,334,2],
-"MRUniformSampling_8h.html#ac35348fa0cca1e45b796d0c318efa49f":[6,2,2,0,0,0,1,334,27]
+"MRUniformSampling_8h.html#ab344b30a267b068a4443e581cbbf0c82":[6,2,2,0,0,0,1,334,2]
 };
