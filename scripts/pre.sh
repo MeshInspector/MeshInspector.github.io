@@ -8,11 +8,14 @@ fi
 # Use "MeshLib" as default if $1 is not provided
 TARGET_DIR="${1:-MeshLib/local}"
 
+# create backup html_header.html
+cp html_header.html html_header.html.bak
+
 # Additional insertion for html_head_canonical.html if $TARGET_DIR is "MeshLib"
 if [ "$TARGET_DIR" == "MeshLib" ]; then
     sed \
         -e "/<head>/r scripts/analytics/html_head_canonical.html" \
-        -i.bak html_header.html
+        -i html_header.html
 fi
 
 # make no-index html_header.html for API parts of documentation
