@@ -9,12 +9,13 @@ FILE_PATTERNS          = *.h \
 EXCLUDE                = ../MeshLib/source/OpenCTM \
                          ../MeshLib/source/MRMesh/miniply.h \
                          ../MeshLib/source/MRMesh/MRphmap.h
+                         ../MeshLib/source/MRDotNet* \
+                         ../MeshLib/source/MRMeshC \
+                         ../MeshLib/source/MRTest*
 EXCLUDE_PATTERNS       = imgui* \
                          MRPch* \
                          exports.h \
                          resource.h
 EXCLUDE_SYMBOLS        = Json \
-                         std \
-                         PoDoFo
-EXAMPLE_PATH           = ../MeshLib/examples
+                         std
 HTML_OUTPUT            = html/Cpp

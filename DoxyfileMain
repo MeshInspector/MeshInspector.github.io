@@ -6,19 +6,9 @@ INPUT                  = ../MeshLib/doxygen \
                          ../MeshLib/examples
 FILE_PATTERNS          = *.dox \
                          *.cpp
-EXCLUDE                = ../MeshLib/source/OpenCTM \
-                         ../MeshLib/source/MRMesh/miniply.h \
-                         ../MeshLib/source/MRMesh/MRphmap.h \
-                         ../MeshLib/doxygen/APICppPage.dox \
-                         ../MeshLib/doxygen/APIPyPage.dox
-EXCLUDE_PATTERNS       = imgui* \
-                         MRPch* \
-                         exports.h \
-                         resource.h
-EXCLUDE_SYMBOLS        = Json \
-                         std \
-                         PoDoFo \
-                         MR
+EXCLUDE                = ../MeshLib/doxygen/APICppPage.dox \
+                         ../MeshLib/doxygen/APIPyPage.dox \
+                         ../MeshLib/doxygen/APICPage.dox
 EXAMPLE_PATH           = ../MeshLib/examples \
                          ../MeshLib/doxygen/common_files
 EXAMPLE_RECURSIVE      = YES

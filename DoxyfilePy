@@ -10,16 +10,6 @@ INPUT                  = ../MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi \
                          ../MeshLib/doxygen/APIPyPage.dox
 FILE_PATTERNS          = *.pyi \
                          *.dox
-EXCLUDE                = ../MeshLib/source/OpenCTM \
-                         ../MeshLib/source/MRMesh/miniply.h \
-                         ../MeshLib/source/MRMesh/MRphmap.h
-EXCLUDE_PATTERNS       = imgui* \
-                         MRPch* \
-                         exports.h \
-                         resource.h
-EXCLUDE_SYMBOLS        = Json \
-                         std \
-                         PoDoFo
-EXAMPLE_PATH           = ../MeshLib/examples
+EXCLUDE_SYMBOLS        = Json
 FILTER_PATTERNS        = .pyi=preprocessors/python.sed
 HTML_OUTPUT            = html/Py
