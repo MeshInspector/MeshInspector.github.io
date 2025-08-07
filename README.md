@@ -1,6 +1,9 @@
 # MeshInspector.github.io
 This repository is test documentary holder for https://github.com/MeshInspector/MeshLib
 
+Doxygen version 1.11 is used to generate documentation.
+The parameters not specified in the configurations correspond to the default values for this version.
+
 ## Instruction
 
 ### Prepare
@@ -15,12 +18,12 @@ git clone --recurse-submodules https://github.com/MeshInspector/MeshInspector.gi
 
 ### Build documentation
 1. Getting python stub-files (for python documentation update)
-It's not critically important for generatio and can be skipped in test (local) generation
+It's not critically important for generation and can be skipped in test (local) generation
 1.a From meshlib python package
 1.b Manual geneartion
 Use this manual https://github.com/MeshInspector/MeshLib/blob/master/scripts/mrbind/README.md
 2. Getting C bindings
-It's not critically important for generatio and can be skipped in test (local) generation
+It's not critically important for generation and can be skipped in test (local) generation
 2.a From meshlib package
 2.b Manual generation
 Same as generation python stubs, but with arguments ```TARGET=c -B --trace```
@@ -46,7 +49,10 @@ python3 -m http.server 8000
 
 ## Update used doxygen version
 Some parts of the documentation generation are sensitive to the doxygen version
-When updating the doxygen version, check these things
+When updating the doxygen version, you need to check and update the following files if necessary:
+- ./html_header.html
+- ./html_footer.html
+You can try updating them using the following instructions:
 
 1. Prepare html_header.html
 
