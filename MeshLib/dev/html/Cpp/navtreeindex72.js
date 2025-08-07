@@ -1,5 +1,9 @@
 var NAVTREEINDEX72 =
 {
+"structImGui_1_1CustomStatePluginWindowParameters.html#aba6660d67c3455cb242987a649e85162":[6,0,2,0,0,0,1],
+"structImGui_1_1CustomStatePluginWindowParameters.html#ae299a30eaa219843f278913c0d69044a":[6,0,1,0,0,0,9],
+"structImGui_1_1CustomStatePluginWindowParameters.html#ae299a30eaa219843f278913c0d69044a":[6,0,2,0,0,0,9],
+"structImGui_1_1CustomStatePluginWindowParameters.html#aeb0498cd6f3dce0e76837aa8d02fba62":[6,0,1,0,0,0,3],
 "structImGui_1_1CustomStatePluginWindowParameters.html#aeb0498cd6f3dce0e76837aa8d02fba62":[6,0,2,0,0,0,3],
 "structImGui_1_1HistogramGridLine.html":[6,0,1,0,0,1],
 "structImGui_1_1HistogramGridLine.html":[6,0,2,0,0,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX72 =
 "structMRMultipleEdge.html#a99eda1238547e9eebd584fea876c5f40":[6,0,2,0,45,1],
 "structMRMultiwayICPSamplingParameters.html":[6,0,2,0,46],
 "structMRMultiwayICPSamplingParameters.html#a6ffd4ae5961126337fd51c62cf9ac751":[6,0,2,0,46,1],
-"structMRMultiwayICPSamplingParameters.html#a9e02f0c6508adad4c5bfb7fe846c9fc0":[6,0,2,0,46,2],
-"structMRMultiwayICPSamplingParameters.html#ac6058971b579e40ddc013b125896b756":[6,0,2,0,46,3],
-"structMRMultiwayICPSamplingParameters.html#afb1ffc02db827893fcb9639724311b4b":[6,0,2,0,46,0],
-"structMRNoiseSettings.html":[6,0,2,0,47],
-"structMRNoiseSettings.html#a5f609d9abf8ca6000ba1f49b95fe372c":[6,0,2,0,47,1]
+"structMRMultiwayICPSamplingParameters.html#a9e02f0c6508adad4c5bfb7fe846c9fc0":[6,0,2,0,46,2]
 };

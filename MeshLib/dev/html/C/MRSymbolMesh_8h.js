@@ -3,7 +3,6 @@ var MRSymbolMesh_8h =
     [ "MR_AlignType", "MRSymbolMesh_8h.html#a1e277c214b29d3ad0568598d3bfee8af", null ],
     [ "MR_expected_MR_Mesh_std_string", "MRSymbolMesh_8h.html#a0d97154d4aed695055160a4688c04a3d", null ],
     [ "MR_expected_std_vector_std_vector_MR_Vector2f_std_string", "MRSymbolMesh_8h.html#afdcb1f8d5602f1f7db00a97d0b5dd528", null ],
-    [ "MR_Mesh", "MRSymbolMesh_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
     [ "MR_std_filesystem_path", "MRSymbolMesh_8h.html#a006d61fd2048bba5b5622d42cbe72526", null ],
     [ "MR_std_string", "MRSymbolMesh_8h.html#a69dc6868c10c92fb8b8a255b0130d289", null ],
     [ "MR_SymbolMeshParams", "MRSymbolMesh_8h.html#adc08a6832856be67ef1c2acff16c9f59", null ],
@@ -13,7 +12,6 @@ var MRSymbolMesh_8h =
       [ "MR_AlignType_Center", "MRSymbolMesh_8h.html#a5f3ea33c07a887155afc8586d50ad7cda0e0f2ae6f0d08db3f690825d88e7550a", null ],
       [ "MR_AlignType_Right", "MRSymbolMesh_8h.html#a5f3ea33c07a887155afc8586d50ad7cdac34bf4a2c95df2453d52bc8b06aad747", null ]
     ] ],
-    [ "MR_addBaseToPlanarMesh", "MRSymbolMesh_8h.html#ab4271c63f3f59740a5f323801f6a4d39", null ],
     [ "MR_createSymbolContours", "MRSymbolMesh_8h.html#a340b6b430d5655dbeb2ad06db6cc8000", null ],
     [ "MR_createSymbolsMesh", "MRSymbolMesh_8h.html#a8a38738ab2c8cd01c15235d0b2e01c32", null ],
     [ "MR_SymbolMeshParams_AssignFromAnother", "MRSymbolMesh_8h.html#a858c3b44a606138390f119b0c09b1cda", null ],

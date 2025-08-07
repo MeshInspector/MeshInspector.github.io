@@ -533,6 +533,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ContoursDistanceMapOptions.html">ContoursDistanceMapOptions</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ContoursMeshAlignParams.html">ContoursMeshAlignParams</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters for aligning 2d contour onto mesh surface.  <a href="structMR_1_1ContoursMeshAlignParams.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ContourToDistanceMapParams.html">ContourToDistanceMapParams</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure with parameters to generate <a class="el" href="classMR_1_1DistanceMap.html">DistanceMap</a> by Contours.  <a href="structMR_1_1ContourToDistanceMapParams.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -3134,6 +3137,11 @@ Functions</h2></td></tr>
 <tr class="memitem:ga9ae923a2855ed035b5d5f74b3162c0da"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="#ac964d34e63e2bd23c8ab1e4cea68ae71">AffineXf3</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__MathGroup.html#ga9ae923a2855ed035b5d5f74b3162c0da">lookAt</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;center, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;eye, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;up)</td></tr>
 <tr class="memdesc:ga9ae923a2855ed035b5d5f74b3162c0da"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes rigid transformation xf  <br /></td></tr>
 <tr class="separator:ga9ae923a2855ed035b5d5f74b3162c0da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d85bb6696e4f27accbd2e795fadb536" id="r_a5d85bb6696e4f27accbd2e795fadb536"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d85bb6696e4f27accbd2e795fadb536">alignContoursToMesh</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="#a8746fbb8e09652c686ff0dcf8c01804c">Contours2f</a> &amp;contours, const <a class="el" href="structMR_1_1ContoursMeshAlignParams.html">ContoursMeshAlignParams</a> &amp;params)</td></tr>
+<tr class="memdesc:a5d85bb6696e4f27accbd2e795fadb536"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates planar mesh out of given contour and aligns it to given surface.  <br /></td></tr>
+<tr class="separator:a5d85bb6696e4f27accbd2e795fadb536"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3289f6374ed80e5ac6467f5029cbc89d" id="r_a3289f6374ed80e5ac6467f5029cbc89d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3289f6374ed80e5ac6467f5029cbc89d">addBaseToPlanarMesh</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, float zOffset)</td></tr>
+<tr class="separator:a3289f6374ed80e5ac6467f5029cbc89d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abbe2dca6a39a0c9dae0abc3d1a6caac4" id="r_abbe2dca6a39a0c9dae0abc3d1a6caac4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abbe2dca6a39a0c9dae0abc3d1a6caac4">makeArrow</a> (const Vector3f &amp;base, const Vector3f &amp;vert, const float &amp;thickness=0.05f, const float &amp;coneRadius=0.1f, const float coneSize=0.2f, const int qual=32)</td></tr>
 <tr class="separator:abbe2dca6a39a0c9dae0abc3d1a6caac4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec1e78671b78ab66f38733f0ee0cc3ef" id="r_aec1e78671b78ab66f38733f0ee0cc3ef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec1e78671b78ab66f38733f0ee0cc3ef">makeBasisAxes</a> (const float &amp;<a class="el" href="#a306ff1f62992b3eb33c446913b64188a">size</a>=1.0f, const float &amp;thickness=0.05f, const float &amp;coneRadius=0.1f, const float coneSize=0.2f, const int qual=32)</td></tr>
@@ -6164,8 +6172,6 @@ same leafs are skipped and different leafs area processed with <code>processLeaf
 <tr class="separator:afe3d8a0d392d8c39709a37e08a665777"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3864227e969c9b436c4ee8357ec33d20" id="r_a3864227e969c9b436c4ee8357ec33d20"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRSymbolMeshFwd_8h.html#a390b9f66fb03f4077f495bc88a5bbe3b">MRSYMBOLMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="#a8746fbb8e09652c686ff0dcf8c01804c">Contours2f</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3864227e969c9b436c4ee8357ec33d20">createSymbolContours</a> (const <a class="el" href="structMR_1_1SymbolMeshParams.html">SymbolMeshParams</a> &amp;params)</td></tr>
 <tr class="separator:a3864227e969c9b436c4ee8357ec33d20"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad48a706eeafd1f9c4137d4cca1fd3e30" id="r_ad48a706eeafd1f9c4137d4cca1fd3e30"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRSymbolMeshFwd_8h.html#a390b9f66fb03f4077f495bc88a5bbe3b">MRSYMBOLMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad48a706eeafd1f9c4137d4cca1fd3e30">addBaseToPlanarMesh</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, float zOffset)</td></tr>
-<tr class="separator:ad48a706eeafd1f9c4137d4cca1fd3e30"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32402204da19d3e70a57443f237fb242" id="r_a32402204da19d3e70a57443f237fb242"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRSymbolMeshFwd_8h.html#a390b9f66fb03f4077f495bc88a5bbe3b">MRSYMBOLMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a32402204da19d3e70a57443f237fb242">createSymbolsMesh</a> (const <a class="el" href="structMR_1_1SymbolMeshParams.html">SymbolMeshParams</a> &amp;params)</td></tr>
 <tr class="separator:a32402204da19d3e70a57443f237fb242"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9cab0079b5bdf8b5ebb5ba774cd76b62" id="r_a9cab0079b5bdf8b5ebb5ba774cd76b62"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9cab0079b5bdf8b5ebb5ba774cd76b62">reserveKeyEvent</a> (ImGuiKey key)</td></tr>
@@ -11496,14 +11502,14 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="ad48a706eeafd1f9c4137d4cca1fd3e30" name="ad48a706eeafd1f9c4137d4cca1fd3e30"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad48a706eeafd1f9c4137d4cca1fd3e30">&#9670;&#160;</a></span>addBaseToPlanarMesh()</h2>
+<a id="a3289f6374ed80e5ac6467f5029cbc89d" name="a3289f6374ed80e5ac6467f5029cbc89d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3289f6374ed80e5ac6467f5029cbc89d">&#9670;&#160;</a></span>addBaseToPlanarMesh()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRSymbolMeshFwd_8h.html#a390b9f66fb03f4077f495bc88a5bbe3b">MRSYMBOLMESH_API</a> void MR::addBaseToPlanarMesh </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::addBaseToPlanarMesh </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
@@ -11514,6 +11520,7 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>given a planar mesh with boundary on input located in plane XY, packs and extends it along Z on zOffset (along -Z if zOffset is negative) to make a volumetric closed mesh note that this function also packs the mesh </p>
 
 </div>
 </div>
@@ -11599,6 +11606,34 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5d85bb6696e4f27accbd2e795fadb536" name="a5d85bb6696e4f27accbd2e795fadb536"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d85bb6696e4f27accbd2e795fadb536">&#9670;&#160;</a></span>alignContoursToMesh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt; MR::alignContoursToMesh </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a8746fbb8e09652c686ff0dcf8c01804c">Contours2f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>contours</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1ContoursMeshAlignParams.html">ContoursMeshAlignParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Creates planar mesh out of given contour and aligns it to given surface. </p>
 
 </div>
 </div>

@@ -169,6 +169,7 @@ var annotated_dup =
       [ "ConstantCuspParams", "classmrmeshpy_1_1ConstantCuspParams.html", "classmrmeshpy_1_1ConstantCuspParams" ],
       [ "ContoursDistanceMapOffset", "classmrmeshpy_1_1ContoursDistanceMapOffset.html", "classmrmeshpy_1_1ContoursDistanceMapOffset" ],
       [ "ContoursDistanceMapOptions", "classmrmeshpy_1_1ContoursDistanceMapOptions.html", "classmrmeshpy_1_1ContoursDistanceMapOptions" ],
+      [ "ContoursMeshAlignParams", "classmrmeshpy_1_1ContoursMeshAlignParams.html", "classmrmeshpy_1_1ContoursMeshAlignParams" ],
       [ "ContourToDistanceMapParams", "classmrmeshpy_1_1ContourToDistanceMapParams.html", "classmrmeshpy_1_1ContourToDistanceMapParams" ],
       [ "CoordinateConverters", "classmrmeshpy_1_1CoordinateConverters.html", "classmrmeshpy_1_1CoordinateConverters" ],
       [ "CoordinateConverters2", "classmrmeshpy_1_1CoordinateConverters2.html", "classmrmeshpy_1_1CoordinateConverters2" ],
