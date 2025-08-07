@@ -1,13 +1,10 @@
 #!/bin/bash
 
-# Remove temporary files
-rm html_header.html html_footer.html html_stylesheet.css
+# restore html_header.html
+[[ -f html_header.html.bak ]] && mv html_header.html.bak html_header.html
 
-MODULES=(Main Cpp Py C)
-for MODULE in ${MODULES[*]}
-do
-    # Restore Doxyfile 
-    [[ -f Doxyfile${MODULE}.bak ]] && mv Doxyfile${MODULE}.bak Doxyfile${MODULE}
-    # Restore tag file 
-    rm -f MeshLib/MeshLib${MODULE}.tag 
-done
+# remove html_header_main.html
+[[ -f html_header_main.html ]] && rm html_header_main.html
+
+# Restore DoxyfileBase
+[[ -f DoxyfileBase.bak ]] && mv DoxyfileBase.bak DoxyfileBase

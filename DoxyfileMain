@@ -26,4 +26,4 @@ FILTER_PATTERNS        = *.dox.py=preprocessors/python.sed \
                          *.dox.c=preprocessors/c.sed \
                          *.dox.cpp=preprocessors/c.sed \
                          *.dox.cs=preprocessors/c.sed
-HTML_HEADER            = html_header.html
+HTML_HEADER            = html_header_main.html

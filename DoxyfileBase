@@ -22,3 +22,5 @@ GENERATE_TREEVIEW      = YES
 USE_MATHJAX            = YES
 MATHJAX_RELPATH        = https://cdn.jsdelivr.net/npm/mathjax@2
 GENERATE_LATEX         = NO
+HTML_HEADER            = html_header.html
+HTML_FOOTER            = html_footer.html

@@ -23,4 +23,3 @@ EXCLUDE_SYMBOLS        = Json \
 EXAMPLE_PATH           = ../MeshLib/examples
 FILTER_PATTERNS        = .pyi=preprocessors/python.sed
 HTML_OUTPUT            = html/Py
-HTML_HEADER            = html_header.html
