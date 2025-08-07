@@ -738,6 +738,7 @@ var hierarchy =
     [ "mrmeshpy.ObjectMeshData", "classmrmeshpy_1_1ObjectMeshData.html", null ],
     [ "mrmeshpy.ObjectSave", "classmrmeshpy_1_1ObjectSave.html", null ],
     [ "mrmeshpy.ObjectSelectivityType", "classmrmeshpy_1_1ObjectSelectivityType.html", null ],
+    [ "mrmeshpy.ObjectTagEventDispatcher", "classmrmeshpy_1_1ObjectTagEventDispatcher.html", null ],
     [ "mrmeshpy.ObjId", "classmrmeshpy_1_1ObjId.html", [
       [ "mrmeshpy.NoDefInit_ObjId", "classmrmeshpy_1_1NoDefInit__ObjId.html", null ]
     ] ],

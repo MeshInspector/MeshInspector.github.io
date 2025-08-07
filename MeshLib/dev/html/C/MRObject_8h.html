@@ -854,8 +854,10 @@ Functions</h2></td></tr>
 <tr class="separator:ab194a0858a681424dd301107c0f7371d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a687c3877267f19bed9f196afd58f2a7d" id="r_a687c3877267f19bed9f196afd58f2a7d"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRFeatureHelpers_8h.html#aaa57d1ba166411d1c6f286286739d905">MR_std_unordered_set_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a687c3877267f19bed9f196afd58f2a7d">MR_Object_tags</a> (const <a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> *_this)</td></tr>
 <tr class="separator:a687c3877267f19bed9f196afd58f2a7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa4ca6398d328c7066f03b250279c6998" id="r_aa4ca6398d328c7066f03b250279c6998"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRFeatureHelpers_8h.html#aaa57d1ba166411d1c6f286286739d905">MR_std_unordered_set_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4ca6398d328c7066f03b250279c6998">MR_Object_varTags</a> (<a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> *_this)</td></tr>
-<tr class="separator:aa4ca6398d328c7066f03b250279c6998"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79f458b2a1163786983c96dec77086ce" id="r_a79f458b2a1163786983c96dec77086ce"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79f458b2a1163786983c96dec77086ce">MR_Object_addTag</a> (<a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> *_this, const char *tag, const char *tag_end)</td></tr>
+<tr class="separator:a79f458b2a1163786983c96dec77086ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2bc71885d74d7f30b7c86265f68bde8" id="r_ae2bc71885d74d7f30b7c86265f68bde8"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae2bc71885d74d7f30b7c86265f68bde8">MR_Object_removeTag</a> (<a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> *_this, const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *tag)</td></tr>
+<tr class="separator:ae2bc71885d74d7f30b7c86265f68bde8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a971cbea63dfa43cfba5d850f7d76a3bb" id="r_a971cbea63dfa43cfba5d850f7d76a3bb"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a971cbea63dfa43cfba5d850f7d76a3bb">MR_Object_heapBytes</a> (const <a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> *_this)</td></tr>
 <tr class="separator:a971cbea63dfa43cfba5d850f7d76a3bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -1461,6 +1463,33 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>adds given object in the recognized children before existingChild; if newChild was already among this children then moves it just before existingChild keeping the order of other children intact; returns false if newChild is nullptr, or existingChild is not a child of this Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Object.html">MR::Object</a></code> named <code>addChildBefore</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>existingChild</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a79f458b2a1163786983c96dec77086ce" name="a79f458b2a1163786983c96dec77086ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79f458b2a1163786983c96dec77086ce">&#9670;&#160;</a></span>MR_Object_addTag()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_Object_addTag </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>tag</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>tag_end</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>adds tag to the object's tag storage additionally calls ObjectTagManager::tagAddedSignal Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Object.html">MR::Object</a></code> named <code>addTag</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>tag</code> can not be null. If <code>tag_end</code> is null, then <code>tag</code> is assumed to be null-terminated. </p>
 
 </div>
 </div>
@@ -4774,6 +4803,28 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ae2bc71885d74d7f30b7c86265f68bde8" name="ae2bc71885d74d7f30b7c86265f68bde8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2bc71885d74d7f30b7c86265f68bde8">&#9670;&#160;</a></span>MR_Object_removeTag()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool MR_Object_removeTag </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>tag</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>removes tag from the object's tag storage additionally calls ObjectTagManager::tagRemovedSignal Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Object.html">MR::Object</a></code> named <code>removeTag</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>tag</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
 <a id="aea31b24e827d3bc09faea00fb371c1a0" name="aea31b24e827d3bc09faea00fb371c1a0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aea31b24e827d3bc09faea00fb371c1a0">&#9670;&#160;</a></span>MR_Object_resetRedrawFlag()</h2>
 
@@ -5718,24 +5769,6 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1Object.html">MR::Object</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectChildrenHolder.html">MR::ObjectChildrenHolder</a></code>. This version is acting on mutable pointers. </p>
-
-</div>
-</div>
-<a id="aa4ca6398d328c7066f03b250279c6998" name="aa4ca6398d328c7066f03b250279c6998"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa4ca6398d328c7066f03b250279c6998">&#9670;&#160;</a></span>MR_Object_varTags()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">MRC_API <a class="el" href="MRFeatureHelpers_8h.html#aaa57d1ba166411d1c6f286286739d905">MR_std_unordered_set_std_string</a> * MR_Object_varTags </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>provides read-write access to the tag storage Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Object.html">MR::Object</a></code> named <code>varTags</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
 
 </div>
 </div>

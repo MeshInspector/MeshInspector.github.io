@@ -1,5 +1,7 @@
 var NAVTREEINDEX27 =
 {
+"classMR_1_1IPluginUpdate.html#ab6e6e3dcf2ab382434fd967480164324":[6,0,2,0,1,287,4],
+"classMR_1_1IPluginUpdate.html#ac74a796b15f4842c135a9956d270caa3":[6,0,1,0,1,305,2],
 "classMR_1_1IPluginUpdate.html#ac74a796b15f4842c135a9956d270caa3":[6,0,2,0,1,287,2],
 "classMR_1_1IPointsProjector.html":[6,0,0,1,30],
 "classMR_1_1IPointsProjector.html#a2c0b970d9a78fe1a93045c851874c718":[6,0,0,1,30,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX27 =
 "classMR_1_1Id_3_01VoxelTag_01_4.html#acc60bd8db38d83fd7f7990dbae92e25b":[6,0,1,0,1,285,6],
 "classMR_1_1Id_3_01VoxelTag_01_4.html#acc60bd8db38d83fd7f7990dbae92e25b":[6,0,2,0,1,267,6],
 "classMR_1_1Id_3_01VoxelTag_01_4.html#acf38499c87cb5ece6ede0adcdc30508a":[6,0,1,0,1,285,13],
-"classMR_1_1Id_3_01VoxelTag_01_4.html#acf38499c87cb5ece6ede0adcdc30508a":[6,0,2,0,1,267,13],
-"classMR_1_1Id_3_01VoxelTag_01_4.html#acfd4a0f3e13840ab26b617b8373f6ed0":[6,0,1,0,1,285,11],
-"classMR_1_1Id_3_01VoxelTag_01_4.html#acfd4a0f3e13840ab26b617b8373f6ed0":[6,0,2,0,1,267,11]
+"classMR_1_1Id_3_01VoxelTag_01_4.html#acf38499c87cb5ece6ede0adcdc30508a":[6,0,2,0,1,267,13]
 };

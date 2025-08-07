@@ -591,6 +591,7 @@ var annotated_dup =
       [ "ObjectPointsHolder", "classmrmeshpy_1_1ObjectPointsHolder.html", "classmrmeshpy_1_1ObjectPointsHolder" ],
       [ "ObjectSave", "classmrmeshpy_1_1ObjectSave.html", null ],
       [ "ObjectSelectivityType", "classmrmeshpy_1_1ObjectSelectivityType.html", "classmrmeshpy_1_1ObjectSelectivityType" ],
+      [ "ObjectTagEventDispatcher", "classmrmeshpy_1_1ObjectTagEventDispatcher.html", null ],
       [ "ObjectVoxels", "classmrmeshpy_1_1ObjectVoxels.html", "classmrmeshpy_1_1ObjectVoxels" ],
       [ "ObjId", "classmrmeshpy_1_1ObjId.html", "classmrmeshpy_1_1ObjId" ],
       [ "ObjKindTraits_FeaturesObjectKind_Circle", "classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Circle.html", "classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Circle" ],

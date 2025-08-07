@@ -1,5 +1,16 @@
 var NAVTREEINDEX171 =
 {
+"structMR_1_1DecimateSettings.html#aebecde304889b67910dd05d032cb8d07":[6,2,0,13,0,7],
+"structMR_1_1DecimateSettings.html#aee15c4faad0020190c28ac13da3e735e":[6,2,0,13,0,27],
+"structMR_1_1DecimateSettings.html#af1fd605860fa7a20931506008f29daa9":[6,2,0,13,0,13],
+"structMR_1_1DecimateSettings.html#afc72ed6f7c868487d053596c86220d6f":[6,2,0,13,0,16],
+"structMR_1_1MergeVolumePartSettings.html":[6,2,0,18,4],
+"structMR_1_1MergeVolumePartSettings.html#a196c2f60b539ef9d242a51bcd49833d3":[6,2,0,18,4,3],
+"structMR_1_1MergeVolumePartSettings.html#a31e09c078de0ae4f9b5512e3b099e29b":[6,2,0,18,4,5],
+"structMR_1_1MergeVolumePartSettings.html#a46d9c425aefa56ee9d112c6cb81a1415":[6,2,0,18,4,4],
+"structMR_1_1MergeVolumePartSettings.html#a49ad4e693c6a08af856dd55e575f702f":[6,2,0,18,4,1],
+"structMR_1_1MergeVolumePartSettings.html#a4a4414df6198c1615c8f9d37c3692f87":[6,2,0,18,4,7],
+"structMR_1_1MergeVolumePartSettings.html#a577e60ec177ee1ce4be553f79fc09a89":[6,2,0,18,4,2],
 "structMR_1_1MergeVolumePartSettings.html#a58b526091c2efa7486833edd93420975":[6,2,0,18,4,0],
 "structMR_1_1MergeVolumePartSettings.html#afd642c0d879285bf9cfb4e609c2cd816":[6,2,0,18,4,6],
 "structMR_1_1VolumeToMeshByPartsSettings.html":[6,2,0,18,5],

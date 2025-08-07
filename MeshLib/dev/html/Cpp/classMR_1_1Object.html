@@ -391,9 +391,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a376cb1be36addec5afd14487533e6693"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf18efa242a657680c89a3429bca6cd6" id="r_abf18efa242a657680c89a3429bca6cd6"><td class="memItemLeft" align="right" valign="top">const std::unordered_set&lt; std::string &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf18efa242a657680c89a3429bca6cd6">tags</a> () const</td></tr>
 <tr class="separator:abf18efa242a657680c89a3429bca6cd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e1977458e183307261186affab790b5" id="r_a8e1977458e183307261186affab790b5"><td class="memItemLeft" align="right" valign="top">std::unordered_set&lt; std::string &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e1977458e183307261186affab790b5">varTags</a> ()</td></tr>
-<tr class="memdesc:a8e1977458e183307261186affab790b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">provides read-write access to the tag storage  <br /></td></tr>
-<tr class="separator:a8e1977458e183307261186affab790b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bc49d038870615cf0a59705e4796075" id="r_a1bc49d038870615cf0a59705e4796075"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1bc49d038870615cf0a59705e4796075">addTag</a> (std::string tag)</td></tr>
+<tr class="separator:a1bc49d038870615cf0a59705e4796075"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba4a6f7731fa48aa3ffcd233f5dfc451" id="r_aba4a6f7731fa48aa3ffcd233f5dfc451"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba4a6f7731fa48aa3ffcd233f5dfc451">removeTag</a> (const std::string &amp;tag)</td></tr>
+<tr class="separator:aba4a6f7731fa48aa3ffcd233f5dfc451"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc5d7c1d86bb8b8afe345a35b7c9a6bc" id="r_adc5d7c1d86bb8b8afe345a35b7c9a6bc"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc5d7c1d86bb8b8afe345a35b7c9a6bc">heapBytes</a> () const</td></tr>
 <tr class="memdesc:adc5d7c1d86bb8b8afe345a35b7c9a6bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory this object occupies on heap  <br /></td></tr>
 <tr class="separator:adc5d7c1d86bb8b8afe345a35b7c9a6bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -694,6 +695,24 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>adds given object in the recognized children before existingChild; if newChild was already among this children then moves it just before existingChild keeping the order of other children intact; returns false if newChild is nullptr, or existingChild is not a child of this </p>
+
+</div>
+</div>
+<a id="a1bc49d038870615cf0a59705e4796075" name="a1bc49d038870615cf0a59705e4796075"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1bc49d038870615cf0a59705e4796075">&#9670;&#160;</a></span>addTag()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::Object::addTag </td>
+          <td>(</td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>tag</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>adds tag to the object's tag storage additionally calls ObjectTagManager::tagAddedSignal </p>
 
 </div>
 </div>
@@ -1804,6 +1823,24 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="aba4a6f7731fa48aa3ffcd233f5dfc451" name="aba4a6f7731fa48aa3ffcd233f5dfc451"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba4a6f7731fa48aa3ffcd233f5dfc451">&#9670;&#160;</a></span>removeTag()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::Object::removeTag </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>tag</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>removes tag from the object's tag storage additionally calls ObjectTagManager::tagRemovedSignal </p>
+
+</div>
+</div>
 <a id="a9dc77f3f61430395182e8402e6e6f410" name="a9dc77f3f61430395182e8402e6e6f410"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9dc77f3f61430395182e8402e6e6f410">&#9670;&#160;</a></span>resetRedrawFlag()</h2>
 
@@ -2472,33 +2509,6 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>Reimplemented in <a class="el" href="classMR_1_1AngleMeasurementObject.html#aaa46f9128d202f32be37d9d9db292fe6">MR::AngleMeasurementObject</a>, <a class="el" href="classMR_1_1CircleObject.html#a7dd05445d9524f457b174b86526f7917">MR::CircleObject</a>, <a class="el" href="classMR_1_1ConeObject.html#a907b47dc446af6c29603325828130005">MR::ConeObject</a>, <a class="el" href="classMR_1_1CylinderObject.html#a51bf3dd6a9699a55576c099b57d39990">MR::CylinderObject</a>, <a class="el" href="classMR_1_1DistanceMeasurementObject.html#a7d8dc7b94d1a8f6533b6de5659495a9b">MR::DistanceMeasurementObject</a>, <a class="el" href="classMR_1_1LineObject.html#afe5e0bae23cb23a4485ddd95a2cb16ca">MR::LineObject</a>, <a class="el" href="classMR_1_1ObjectDistanceMap.html#abaac591338fe97a8e55b49601c5c4367">MR::ObjectDistanceMap</a>, <a class="el" href="classMR_1_1ObjectGcode.html#ac27e546bf2d66d45930837b6dd37cd9e">MR::ObjectGcode</a>, <a class="el" href="classMR_1_1ObjectImGuiLabel.html#afb01986bd3392c39d58639ca6930d453">MR::ObjectImGuiLabel</a>, <a class="el" href="classMR_1_1ObjectLabel.html#a4c2b4d2f1feca2726294451d193259d9">MR::ObjectLabel</a>, <a class="el" href="classMR_1_1ObjectLines.html#a069fc0b9496c10738c79ed84e458c729">MR::ObjectLines</a>, <a class="el" href="classMR_1_1ObjectLinesHolder.html#a67bbdfa8042874e1a7033f78bb96be59">MR::ObjectLinesHolder</a>, <a class="el" href="classMR_1_1ObjectMesh.html#af9b93365f1a3106e6b452c197251afba">MR::ObjectMesh</a>, <a class="el" href="classMR_1_1ObjectMeshHolder.html#a8881d4cf9ed83ffbec3af1d175a0ace2">MR::ObjectMeshHolder</a>, <a class="el" href="classMR_1_1ObjectPoints.html#af389d74376fb91966716aa2ff7444a5d">MR::ObjectPoints</a>, <a class="el" href="classMR_1_1ObjectPointsHolder.html#a56ae0abc43ac144e212830cf2233d413">MR::ObjectPointsHolder</a>, <a class="el" href="classMR_1_1ObjectVoxels.html#ad263dcb8982dbf8095729fa3a3d2032e">MR::ObjectVoxels</a>, <a class="el" href="classMR_1_1PlaneObject.html#a49f838bc215720ee037d22734a7cc987">MR::PlaneObject</a>, <a class="el" href="classMR_1_1PointObject.html#af0d333f53e5214cef1fed176a67585a3">MR::PointObject</a>, <a class="el" href="classMR_1_1RadiusMeasurementObject.html#ac9d73f6782e3918bf0f9b201f13db7af">MR::RadiusMeasurementObject</a>, <a class="el" href="classMR_1_1SceneRootObject.html#a18fd1eac2059efc7aea278bf5b40b117">MR::SceneRootObject</a>, <a class="el" href="classMR_1_1SphereObject.html#a3fe2e258e75828338f7c6f90cd70b09e">MR::SphereObject</a>, and <a class="el" href="classMR_1_1VisualObject.html#a6f629cc6822b206ab9232648fa19dcb6">MR::VisualObject</a>.</p>
-
-</div>
-</div>
-<a id="a8e1977458e183307261186affab790b5" name="a8e1977458e183307261186affab790b5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e1977458e183307261186affab790b5">&#9670;&#160;</a></span>varTags()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::unordered_set&lt; std::string &gt; &amp; MR::Object::varTags </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>provides read-write access to the tag storage </p>
 
 </div>
 </div>

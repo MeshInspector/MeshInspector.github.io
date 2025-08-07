@@ -224,6 +224,7 @@ var dir_cb83f9b98dc6f67356ff76bcc17f4f67 =
     [ "MRObjectPointsHolder.h", "MRObjectPointsHolder_8h.html", "MRObjectPointsHolder_8h" ],
     [ "MRObjectsAccess.h", "MRObjectsAccess_8h.html", "MRObjectsAccess_8h" ],
     [ "MRObjectSave.h", "MRObjectSave_8h.html", "MRObjectSave_8h" ],
+    [ "MRObjectTagEventDispatcher.h", "MRObjectTagEventDispatcher_8h.html", "MRObjectTagEventDispatcher_8h" ],
     [ "MROffsetContours.h", "MROffsetContours_8h.html", "MROffsetContours_8h" ],
     [ "MROffsetVerts.h", "MROffsetVerts_8h.html", "MROffsetVerts_8h" ],
     [ "MROneMeshContours.h", "MROneMeshContours_8h.html", "MROneMeshContours_8h" ],

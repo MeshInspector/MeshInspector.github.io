@@ -593,6 +593,7 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.ObjectPointsHolder", "classmrmeshpy_1_1ObjectPointsHolder.html", "classmrmeshpy_1_1ObjectPointsHolder" ],
     [ "mrmeshpy.ObjectSave", "classmrmeshpy_1_1ObjectSave.html", null ],
     [ "mrmeshpy.ObjectSelectivityType", "classmrmeshpy_1_1ObjectSelectivityType.html", "classmrmeshpy_1_1ObjectSelectivityType" ],
+    [ "mrmeshpy.ObjectTagEventDispatcher", "classmrmeshpy_1_1ObjectTagEventDispatcher.html", null ],
     [ "mrmeshpy.ObjectVoxels", "classmrmeshpy_1_1ObjectVoxels.html", "classmrmeshpy_1_1ObjectVoxels" ],
     [ "mrmeshpy.ObjectVoxels.VolumeRenderingParams", "classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams.html", "classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams" ],
     [ "mrmeshpy.ObjectVoxels.VolumeRenderingParams.AlphaType", "classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1AlphaType.html", "classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1AlphaType" ],
