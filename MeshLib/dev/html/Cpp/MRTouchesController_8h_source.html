@@ -14,12 +14,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -165,7 +159,7 @@ $(function(){initNavTree('MRTouchesController_8h_source.html',''); initResizable
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;optional&gt;</span></div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &lt;functional&gt;</span></div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">namespace </span><a class="code hl_namespaceRef" href="../namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>{</div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="comment">// class to operate with touches</span></div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="comment">// only overrides signals</span></div>
@@ -185,8 +179,8 @@ $(function(){initNavTree('MRTouchesController_8h_source.html',''); initResizable
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>        Translate = 0b001,</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>        Rotate = 0b010,</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>        Zoom = 0b100,</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>        <a class="code hl_enumvalue" href="namespaceMR.html#ab8659c12eb8fa6618f154566efce6146ab1c94ca2fbc3e78fc30069c8d0f01680">All</a> = Translate | Rotate | Zoom,</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>        Any = <a class="code hl_enumvalue" href="namespaceMR.html#ab8659c12eb8fa6618f154566efce6146ab1c94ca2fbc3e78fc30069c8d0f01680">All</a></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>        All = Translate | Rotate | Zoom,</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>        Any = All</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    };</div>
 </div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <a class="code hl_define" href="MRFlagOperators_8h.html#a9f6a28b80b13e71ba9ae42246c99ba1e">MR_MAKE_FLAG_OPERATORS_IN_CLASS</a>( ModeBit )</div>
@@ -199,7 +193,7 @@ $(function(){initNavTree('MRTouchesController_8h_source.html',''); initResizable
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onTouchMove_( <span class="keywordtype">int</span> <span class="keywordtype">id</span>, <span class="keywordtype">int</span> x, <span class="keywordtype">int</span> y ) <span class="keyword">override</span>;</div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onTouchEnd_( <span class="keywordtype">int</span> <span class="keywordtype">id</span>, <span class="keywordtype">int</span> x, <span class="keywordtype">int</span> y ) <span class="keyword">override</span>;</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <span class="keyword">struct </span><a class="code hl_enumvalue" href="namespaceMR.html#a3ccf27858d11d72a88bdbaf6e9d2b05da4059b0251f66a18cb56f544728796875">Info</a></div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <span class="keyword">struct </span>Info</div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    {</div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        <span class="keywordtype">int</span> <span class="keywordtype">id</span>{-1};</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>        Vector2f position;</div>
@@ -245,9 +239,7 @@ $(function(){initNavTree('MRTouchesController_8h_source.html',''); initResizable
 <div class="ttc" id="aclassMR_1_1TouchesController_html_aa4f3c5903b7b8dc026b21c9233c34f43"><div class="ttname"><a href="classMR_1_1TouchesController.html#aa4f3c5903b7b8dc026b21c9233c34f43">MR::TouchesController::setModeMask</a></div><div class="ttdeci">void setModeMask(ModeBit mask)</div><div class="ttdef"><b>Definition</b> MRTouchesController.h:37</div></div>
 <div class="ttc" id="aclassMR_1_1TouchesController_html_ae56f9f544af1474b71a68848efdbe18c"><div class="ttname"><a href="classMR_1_1TouchesController.html#ae56f9f544af1474b71a68848efdbe18c">MR::TouchesController::setTrasformModifierCb</a></div><div class="ttdeci">void setTrasformModifierCb(std::function&lt; void(AffineXf3f &amp;)&gt; cb)</div><div class="ttdef"><b>Definition</b> MRTouchesController.h:22</div></div>
 <div class="ttc" id="aclassMR_1_1TouchesController_html_afa01f29213896e910998623cb3c2f884"><div class="ttname"><a href="classMR_1_1TouchesController.html#afa01f29213896e910998623cb3c2f884">MR::TouchesController::ModeBit</a></div><div class="ttdeci">ModeBit</div><div class="ttdef"><b>Definition</b> MRTouchesController.h:26</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
-<div class="ttc" id="anamespaceMR_html_a3ccf27858d11d72a88bdbaf6e9d2b05da4059b0251f66a18cb56f544728796875"><div class="ttname"><a href="namespaceMR.html#a3ccf27858d11d72a88bdbaf6e9d2b05da4059b0251f66a18cb56f544728796875">MR::NotificationType::Info</a></div><div class="ttdeci">@ Info</div></div>
-<div class="ttc" id="anamespaceMR_html_ab8659c12eb8fa6618f154566efce6146ab1c94ca2fbc3e78fc30069c8d0f01680"><div class="ttname"><a href="namespaceMR.html#ab8659c12eb8fa6618f154566efce6146ab1c94ca2fbc3e78fc30069c8d0f01680">MR::OutlierTypeMask::All</a></div><div class="ttdeci">@ All</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="../namespaceMR.html">MR</a></div></div>
 <div class="ttc" id="astructMR_1_1MultiListener_html"><div class="ttname"><a href="structMR_1_1MultiListener.html">MR::MultiListener</a></div><div class="ttdef"><b>Definition</b> MRViewerEventsListener.h:29</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

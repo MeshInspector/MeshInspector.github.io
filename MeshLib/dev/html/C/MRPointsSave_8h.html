@@ -14,12 +14,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -157,7 +151,7 @@ $(function(){initNavTree('MRPointsSave_8h.html',''); initResizable(true); });
   <div class="headertitle"><div class="title">MRPointsSave.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 </div>
 <p><a href="MRPointsSave_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -176,25 +170,25 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ad707a319b4d46712e70bee4442f436ef" id="r_ad707a319b4d46712e70bee4442f436ef"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad707a319b4d46712e70bee4442f436ef">MR_PointsSave_toXyz_std_filesystem_path</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *points, const char *file, const char *file_end, const <a class="el" href="MRCtm_8h.html#a66434f88501a5c24a45cf39f9dbcadbb">MR_SaveSettings</a> *settings)</td></tr>
+<tr class="memitem:ad707a319b4d46712e70bee4442f436ef" id="r_ad707a319b4d46712e70bee4442f436ef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad707a319b4d46712e70bee4442f436ef">MR_PointsSave_toXyz_std_filesystem_path</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *points, const char *file, const char *file_end, const <a class="el" href="MRCtm_8h.html#a66434f88501a5c24a45cf39f9dbcadbb">MR_SaveSettings</a> *settings)</td></tr>
 <tr class="separator:ad707a319b4d46712e70bee4442f436ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7a9105ccc3d9e32ad02aa7fcff96642" id="r_ac7a9105ccc3d9e32ad02aa7fcff96642"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7a9105ccc3d9e32ad02aa7fcff96642">MR_PointsSave_toXyz_std_ostream</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *points, <a class="el" href="MRCtm_8h.html#a933fad1748853c0c595a157b9f6527c6">MR_std_ostream</a> *out, const <a class="el" href="MRCtm_8h.html#a66434f88501a5c24a45cf39f9dbcadbb">MR_SaveSettings</a> *settings)</td></tr>
+<tr class="memitem:ac7a9105ccc3d9e32ad02aa7fcff96642" id="r_ac7a9105ccc3d9e32ad02aa7fcff96642"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7a9105ccc3d9e32ad02aa7fcff96642">MR_PointsSave_toXyz_std_ostream</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *points, <a class="el" href="MRCtm_8h.html#a933fad1748853c0c595a157b9f6527c6">MR_std_ostream</a> *out, const <a class="el" href="MRCtm_8h.html#a66434f88501a5c24a45cf39f9dbcadbb">MR_SaveSettings</a> *settings)</td></tr>
 <tr class="separator:ac7a9105ccc3d9e32ad02aa7fcff96642"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7b65cdbf662cad2fdeff9f469a631f49" id="r_a7b65cdbf662cad2fdeff9f469a631f49"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b65cdbf662cad2fdeff9f469a631f49">MR_PointsSave_toXyzn_std_filesystem_path</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *points, const char *file, const char *file_end, const <a class="el" href="MRCtm_8h.html#a66434f88501a5c24a45cf39f9dbcadbb">MR_SaveSettings</a> *settings)</td></tr>
+<tr class="memitem:a7b65cdbf662cad2fdeff9f469a631f49" id="r_a7b65cdbf662cad2fdeff9f469a631f49"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b65cdbf662cad2fdeff9f469a631f49">MR_PointsSave_toXyzn_std_filesystem_path</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *points, const char *file, const char *file_end, const <a class="el" href="MRCtm_8h.html#a66434f88501a5c24a45cf39f9dbcadbb">MR_SaveSettings</a> *settings)</td></tr>
 <tr class="separator:a7b65cdbf662cad2fdeff9f469a631f49"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac19e22d6787c34c2afeb539ca67f6037" id="r_ac19e22d6787c34c2afeb539ca67f6037"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac19e22d6787c34c2afeb539ca67f6037">MR_PointsSave_toXyzn_std_ostream</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *points, <a class="el" href="MRCtm_8h.html#a933fad1748853c0c595a157b9f6527c6">MR_std_ostream</a> *out, const <a class="el" href="MRCtm_8h.html#a66434f88501a5c24a45cf39f9dbcadbb">MR_SaveSettings</a> *settings)</td></tr>
+<tr class="memitem:ac19e22d6787c34c2afeb539ca67f6037" id="r_ac19e22d6787c34c2afeb539ca67f6037"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac19e22d6787c34c2afeb539ca67f6037">MR_PointsSave_toXyzn_std_ostream</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *points, <a class="el" href="MRCtm_8h.html#a933fad1748853c0c595a157b9f6527c6">MR_std_ostream</a> *out, const <a class="el" href="MRCtm_8h.html#a66434f88501a5c24a45cf39f9dbcadbb">MR_SaveSettings</a> *settings)</td></tr>
 <tr class="separator:ac19e22d6787c34c2afeb539ca67f6037"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2833c489d035275a0a39a4eddc6ee107" id="r_a2833c489d035275a0a39a4eddc6ee107"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2833c489d035275a0a39a4eddc6ee107">MR_PointsSave_toAsc_std_filesystem_path</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *points, const char *file, const char *file_end, const <a class="el" href="MRCtm_8h.html#a66434f88501a5c24a45cf39f9dbcadbb">MR_SaveSettings</a> *settings)</td></tr>
+<tr class="memitem:a2833c489d035275a0a39a4eddc6ee107" id="r_a2833c489d035275a0a39a4eddc6ee107"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2833c489d035275a0a39a4eddc6ee107">MR_PointsSave_toAsc_std_filesystem_path</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *points, const char *file, const char *file_end, const <a class="el" href="MRCtm_8h.html#a66434f88501a5c24a45cf39f9dbcadbb">MR_SaveSettings</a> *settings)</td></tr>
 <tr class="separator:a2833c489d035275a0a39a4eddc6ee107"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abcfa064488e4880b146a3f779129f28b" id="r_abcfa064488e4880b146a3f779129f28b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abcfa064488e4880b146a3f779129f28b">MR_PointsSave_toAsc_std_ostream</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *points, <a class="el" href="MRCtm_8h.html#a933fad1748853c0c595a157b9f6527c6">MR_std_ostream</a> *out, const <a class="el" href="MRCtm_8h.html#a66434f88501a5c24a45cf39f9dbcadbb">MR_SaveSettings</a> *settings)</td></tr>
+<tr class="memitem:abcfa064488e4880b146a3f779129f28b" id="r_abcfa064488e4880b146a3f779129f28b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abcfa064488e4880b146a3f779129f28b">MR_PointsSave_toAsc_std_ostream</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *points, <a class="el" href="MRCtm_8h.html#a933fad1748853c0c595a157b9f6527c6">MR_std_ostream</a> *out, const <a class="el" href="MRCtm_8h.html#a66434f88501a5c24a45cf39f9dbcadbb">MR_SaveSettings</a> *settings)</td></tr>
 <tr class="separator:abcfa064488e4880b146a3f779129f28b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3dcbb61124ac6daead60a5ea578698b4" id="r_a3dcbb61124ac6daead60a5ea578698b4"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3dcbb61124ac6daead60a5ea578698b4">MR_PointsSave_toPly_std_filesystem_path</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *points, const char *file, const char *file_end, const <a class="el" href="MRCtm_8h.html#a66434f88501a5c24a45cf39f9dbcadbb">MR_SaveSettings</a> *settings)</td></tr>
+<tr class="memitem:a3dcbb61124ac6daead60a5ea578698b4" id="r_a3dcbb61124ac6daead60a5ea578698b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3dcbb61124ac6daead60a5ea578698b4">MR_PointsSave_toPly_std_filesystem_path</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *points, const char *file, const char *file_end, const <a class="el" href="MRCtm_8h.html#a66434f88501a5c24a45cf39f9dbcadbb">MR_SaveSettings</a> *settings)</td></tr>
 <tr class="separator:a3dcbb61124ac6daead60a5ea578698b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad5ad9f24ddf86a1475dba99e404a2f7e" id="r_ad5ad9f24ddf86a1475dba99e404a2f7e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5ad9f24ddf86a1475dba99e404a2f7e">MR_PointsSave_toPly_std_ostream</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *points, <a class="el" href="MRCtm_8h.html#a933fad1748853c0c595a157b9f6527c6">MR_std_ostream</a> *out, const <a class="el" href="MRCtm_8h.html#a66434f88501a5c24a45cf39f9dbcadbb">MR_SaveSettings</a> *settings)</td></tr>
+<tr class="memitem:ad5ad9f24ddf86a1475dba99e404a2f7e" id="r_ad5ad9f24ddf86a1475dba99e404a2f7e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5ad9f24ddf86a1475dba99e404a2f7e">MR_PointsSave_toPly_std_ostream</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *points, <a class="el" href="MRCtm_8h.html#a933fad1748853c0c595a157b9f6527c6">MR_std_ostream</a> *out, const <a class="el" href="MRCtm_8h.html#a66434f88501a5c24a45cf39f9dbcadbb">MR_SaveSettings</a> *settings)</td></tr>
 <tr class="separator:ad5ad9f24ddf86a1475dba99e404a2f7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad02ea69d62be4612110cdc9191874717" id="r_ad02ea69d62be4612110cdc9191874717"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad02ea69d62be4612110cdc9191874717">MR_PointsSave_toAnySupportedFormat_3</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *points, const char *file, const char *file_end, const <a class="el" href="MRCtm_8h.html#a66434f88501a5c24a45cf39f9dbcadbb">MR_SaveSettings</a> *settings)</td></tr>
+<tr class="memitem:ad02ea69d62be4612110cdc9191874717" id="r_ad02ea69d62be4612110cdc9191874717"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad02ea69d62be4612110cdc9191874717">MR_PointsSave_toAnySupportedFormat_3</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *points, const char *file, const char *file_end, const <a class="el" href="MRCtm_8h.html#a66434f88501a5c24a45cf39f9dbcadbb">MR_SaveSettings</a> *settings)</td></tr>
 <tr class="separator:ad02ea69d62be4612110cdc9191874717"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a950374ce613f50b2385bd726e9460821" id="r_a950374ce613f50b2385bd726e9460821"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a950374ce613f50b2385bd726e9460821">MR_PointsSave_toAnySupportedFormat_4</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *points, const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *extension, <a class="el" href="MRCtm_8h.html#a933fad1748853c0c595a157b9f6527c6">MR_std_ostream</a> *out, const <a class="el" href="MRCtm_8h.html#a66434f88501a5c24a45cf39f9dbcadbb">MR_SaveSettings</a> *settings)</td></tr>
+<tr class="memitem:a950374ce613f50b2385bd726e9460821" id="r_a950374ce613f50b2385bd726e9460821"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a950374ce613f50b2385bd726e9460821">MR_PointsSave_toAnySupportedFormat_4</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *points, const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *extension, <a class="el" href="MRCtm_8h.html#a933fad1748853c0c595a157b9f6527c6">MR_std_ostream</a> *out, const <a class="el" href="MRCtm_8h.html#a66434f88501a5c24a45cf39f9dbcadbb">MR_SaveSettings</a> *settings)</td></tr>
 <tr class="separator:a950374ce613f50b2385bd726e9460821"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -276,7 +270,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> * MR_PointsSave_toAnySupportedFormat_3 </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> * MR_PointsSave_toAnySupportedFormat_3 </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
         </tr>
@@ -308,7 +302,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> * MR_PointsSave_toAnySupportedFormat_4 </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> * MR_PointsSave_toAnySupportedFormat_4 </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
         </tr>
@@ -340,7 +334,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> * MR_PointsSave_toAsc_std_filesystem_path </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> * MR_PointsSave_toAsc_std_filesystem_path </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
         </tr>
@@ -372,7 +366,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> * MR_PointsSave_toAsc_std_ostream </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> * MR_PointsSave_toAsc_std_ostream </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
         </tr>
@@ -399,7 +393,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> * MR_PointsSave_toPly_std_filesystem_path </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> * MR_PointsSave_toPly_std_filesystem_path </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
         </tr>
@@ -431,7 +425,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> * MR_PointsSave_toPly_std_ostream </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> * MR_PointsSave_toPly_std_ostream </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
         </tr>
@@ -458,7 +452,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> * MR_PointsSave_toXyz_std_filesystem_path </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> * MR_PointsSave_toXyz_std_filesystem_path </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
         </tr>
@@ -490,7 +484,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> * MR_PointsSave_toXyz_std_ostream </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> * MR_PointsSave_toXyz_std_ostream </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
         </tr>
@@ -517,7 +511,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> * MR_PointsSave_toXyzn_std_filesystem_path </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> * MR_PointsSave_toXyzn_std_filesystem_path </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
         </tr>
@@ -549,7 +543,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> * MR_PointsSave_toXyzn_std_ostream </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> * MR_PointsSave_toXyzn_std_ostream </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
         </tr>

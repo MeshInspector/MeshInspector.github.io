@@ -14,12 +14,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -158,7 +152,7 @@ $(function(){initNavTree('MRPolylineSubdivide_8h.html',''); initResizable(true);
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
-<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
 <code>#include &lt;stdint.h&gt;</code><br />
@@ -185,79 +179,79 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:acb431533fd2faef60b4efdee3dfd4411" id="r_acb431533fd2faef60b4efdee3dfd4411"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb431533fd2faef60b4efdee3dfd4411">MR_PolylineSubdivideSettings_Get_maxEdgeLen</a> (const <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *_this)</td></tr>
+<tr class="memitem:acb431533fd2faef60b4efdee3dfd4411" id="r_acb431533fd2faef60b4efdee3dfd4411"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb431533fd2faef60b4efdee3dfd4411">MR_PolylineSubdivideSettings_Get_maxEdgeLen</a> (const <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *_this)</td></tr>
 <tr class="separator:acb431533fd2faef60b4efdee3dfd4411"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a614023b8a24c83dc59794f7580b19e94" id="r_a614023b8a24c83dc59794f7580b19e94"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a614023b8a24c83dc59794f7580b19e94">MR_PolylineSubdivideSettings_Set_maxEdgeLen</a> (<a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *_this, float value)</td></tr>
+<tr class="memitem:a614023b8a24c83dc59794f7580b19e94" id="r_a614023b8a24c83dc59794f7580b19e94"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a614023b8a24c83dc59794f7580b19e94">MR_PolylineSubdivideSettings_Set_maxEdgeLen</a> (<a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *_this, float value)</td></tr>
 <tr class="separator:a614023b8a24c83dc59794f7580b19e94"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae480c0a41ff5dc5f3e8bb3b199d93128" id="r_ae480c0a41ff5dc5f3e8bb3b199d93128"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae480c0a41ff5dc5f3e8bb3b199d93128">MR_PolylineSubdivideSettings_GetMutable_maxEdgeLen</a> (<a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *_this)</td></tr>
+<tr class="memitem:ae480c0a41ff5dc5f3e8bb3b199d93128" id="r_ae480c0a41ff5dc5f3e8bb3b199d93128"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae480c0a41ff5dc5f3e8bb3b199d93128">MR_PolylineSubdivideSettings_GetMutable_maxEdgeLen</a> (<a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *_this)</td></tr>
 <tr class="separator:ae480c0a41ff5dc5f3e8bb3b199d93128"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb2f0243e9b4122ca91e35d5f33528dc" id="r_aeb2f0243e9b4122ca91e35d5f33528dc"><td class="memItemLeft" align="right" valign="top">MRC_API const int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb2f0243e9b4122ca91e35d5f33528dc">MR_PolylineSubdivideSettings_Get_maxEdgeSplits</a> (const <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *_this)</td></tr>
+<tr class="memitem:aeb2f0243e9b4122ca91e35d5f33528dc" id="r_aeb2f0243e9b4122ca91e35d5f33528dc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb2f0243e9b4122ca91e35d5f33528dc">MR_PolylineSubdivideSettings_Get_maxEdgeSplits</a> (const <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *_this)</td></tr>
 <tr class="separator:aeb2f0243e9b4122ca91e35d5f33528dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8025a37cfaa644f5f0aa1586c470ddd8" id="r_a8025a37cfaa644f5f0aa1586c470ddd8"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8025a37cfaa644f5f0aa1586c470ddd8">MR_PolylineSubdivideSettings_Set_maxEdgeSplits</a> (<a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *_this, int32_t value)</td></tr>
+<tr class="memitem:a8025a37cfaa644f5f0aa1586c470ddd8" id="r_a8025a37cfaa644f5f0aa1586c470ddd8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8025a37cfaa644f5f0aa1586c470ddd8">MR_PolylineSubdivideSettings_Set_maxEdgeSplits</a> (<a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *_this, int32_t value)</td></tr>
 <tr class="separator:a8025a37cfaa644f5f0aa1586c470ddd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a42b1b85f7885c37aebb4ecd1062b6620" id="r_a42b1b85f7885c37aebb4ecd1062b6620"><td class="memItemLeft" align="right" valign="top">MRC_API int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42b1b85f7885c37aebb4ecd1062b6620">MR_PolylineSubdivideSettings_GetMutable_maxEdgeSplits</a> (<a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *_this)</td></tr>
+<tr class="memitem:a42b1b85f7885c37aebb4ecd1062b6620" id="r_a42b1b85f7885c37aebb4ecd1062b6620"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42b1b85f7885c37aebb4ecd1062b6620">MR_PolylineSubdivideSettings_GetMutable_maxEdgeSplits</a> (<a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *_this)</td></tr>
 <tr class="separator:a42b1b85f7885c37aebb4ecd1062b6620"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f92c16f2508691acbdfccf601e75d97" id="r_a0f92c16f2508691acbdfccf601e75d97"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f92c16f2508691acbdfccf601e75d97">MR_PolylineSubdivideSettings_Get_region</a> (const <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *_this)</td></tr>
+<tr class="memitem:a0f92c16f2508691acbdfccf601e75d97" id="r_a0f92c16f2508691acbdfccf601e75d97"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f92c16f2508691acbdfccf601e75d97">MR_PolylineSubdivideSettings_Get_region</a> (const <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *_this)</td></tr>
 <tr class="separator:a0f92c16f2508691acbdfccf601e75d97"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad6d0a85a1f2ae8bcc2bce031299258c9" id="r_ad6d0a85a1f2ae8bcc2bce031299258c9"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad6d0a85a1f2ae8bcc2bce031299258c9">MR_PolylineSubdivideSettings_Set_region</a> (<a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *_this, <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *value)</td></tr>
+<tr class="memitem:ad6d0a85a1f2ae8bcc2bce031299258c9" id="r_ad6d0a85a1f2ae8bcc2bce031299258c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad6d0a85a1f2ae8bcc2bce031299258c9">MR_PolylineSubdivideSettings_Set_region</a> (<a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *_this, <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *value)</td></tr>
 <tr class="separator:ad6d0a85a1f2ae8bcc2bce031299258c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f690e250101e1cc9299e6e703430fe8" id="r_a0f690e250101e1cc9299e6e703430fe8"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f690e250101e1cc9299e6e703430fe8">MR_PolylineSubdivideSettings_GetMutable_region</a> (<a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *_this)</td></tr>
+<tr class="memitem:a0f690e250101e1cc9299e6e703430fe8" id="r_a0f690e250101e1cc9299e6e703430fe8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f690e250101e1cc9299e6e703430fe8">MR_PolylineSubdivideSettings_GetMutable_region</a> (<a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *_this)</td></tr>
 <tr class="separator:a0f690e250101e1cc9299e6e703430fe8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c76ecae9eb26b8fdb43d7cced2a888e" id="r_a9c76ecae9eb26b8fdb43d7cced2a888e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c76ecae9eb26b8fdb43d7cced2a888e">MR_PolylineSubdivideSettings_Get_newVerts</a> (const <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *_this)</td></tr>
+<tr class="memitem:a9c76ecae9eb26b8fdb43d7cced2a888e" id="r_a9c76ecae9eb26b8fdb43d7cced2a888e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c76ecae9eb26b8fdb43d7cced2a888e">MR_PolylineSubdivideSettings_Get_newVerts</a> (const <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *_this)</td></tr>
 <tr class="separator:a9c76ecae9eb26b8fdb43d7cced2a888e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3bcdd9d9d27ca2f5eaee6e322392b117" id="r_a3bcdd9d9d27ca2f5eaee6e322392b117"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3bcdd9d9d27ca2f5eaee6e322392b117">MR_PolylineSubdivideSettings_Set_newVerts</a> (<a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *_this, <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *value)</td></tr>
+<tr class="memitem:a3bcdd9d9d27ca2f5eaee6e322392b117" id="r_a3bcdd9d9d27ca2f5eaee6e322392b117"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3bcdd9d9d27ca2f5eaee6e322392b117">MR_PolylineSubdivideSettings_Set_newVerts</a> (<a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *_this, <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *value)</td></tr>
 <tr class="separator:a3bcdd9d9d27ca2f5eaee6e322392b117"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b9d9333a7758f663c781dda939ea407" id="r_a3b9d9333a7758f663c781dda939ea407"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b9d9333a7758f663c781dda939ea407">MR_PolylineSubdivideSettings_GetMutable_newVerts</a> (<a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *_this)</td></tr>
+<tr class="memitem:a3b9d9333a7758f663c781dda939ea407" id="r_a3b9d9333a7758f663c781dda939ea407"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b9d9333a7758f663c781dda939ea407">MR_PolylineSubdivideSettings_GetMutable_newVerts</a> (<a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *_this)</td></tr>
 <tr class="separator:a3b9d9333a7758f663c781dda939ea407"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67d0341626209bdf6b00453359afbb4d" id="r_a67d0341626209bdf6b00453359afbb4d"><td class="memItemLeft" align="right" valign="top">MRC_API const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67d0341626209bdf6b00453359afbb4d">MR_PolylineSubdivideSettings_Get_useCurvature</a> (const <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *_this)</td></tr>
+<tr class="memitem:a67d0341626209bdf6b00453359afbb4d" id="r_a67d0341626209bdf6b00453359afbb4d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67d0341626209bdf6b00453359afbb4d">MR_PolylineSubdivideSettings_Get_useCurvature</a> (const <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *_this)</td></tr>
 <tr class="separator:a67d0341626209bdf6b00453359afbb4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab3559a03c6bb2e924d9807887bcef1d6" id="r_ab3559a03c6bb2e924d9807887bcef1d6"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3559a03c6bb2e924d9807887bcef1d6">MR_PolylineSubdivideSettings_Set_useCurvature</a> (<a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *_this, bool value)</td></tr>
+<tr class="memitem:ab3559a03c6bb2e924d9807887bcef1d6" id="r_ab3559a03c6bb2e924d9807887bcef1d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3559a03c6bb2e924d9807887bcef1d6">MR_PolylineSubdivideSettings_Set_useCurvature</a> (<a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *_this, bool value)</td></tr>
 <tr class="separator:ab3559a03c6bb2e924d9807887bcef1d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1dc1338787ae37d5af5272effcc87e43" id="r_a1dc1338787ae37d5af5272effcc87e43"><td class="memItemLeft" align="right" valign="top">MRC_API bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1dc1338787ae37d5af5272effcc87e43">MR_PolylineSubdivideSettings_GetMutable_useCurvature</a> (<a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *_this)</td></tr>
+<tr class="memitem:a1dc1338787ae37d5af5272effcc87e43" id="r_a1dc1338787ae37d5af5272effcc87e43"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1dc1338787ae37d5af5272effcc87e43">MR_PolylineSubdivideSettings_GetMutable_useCurvature</a> (<a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *_this)</td></tr>
 <tr class="separator:a1dc1338787ae37d5af5272effcc87e43"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adefa2382708e1a2ad318ae01f4dfd665" id="r_adefa2382708e1a2ad318ae01f4dfd665"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRMeshSubdivide_8h.html#ab5a1af27d17dce1b9ef76255b364508e">MR_std_function_void_from_MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adefa2382708e1a2ad318ae01f4dfd665">MR_PolylineSubdivideSettings_Get_onVertCreated</a> (const <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *_this)</td></tr>
+<tr class="memitem:adefa2382708e1a2ad318ae01f4dfd665" id="r_adefa2382708e1a2ad318ae01f4dfd665"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRMeshSubdivide_8h.html#ab5a1af27d17dce1b9ef76255b364508e">MR_std_function_void_from_MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adefa2382708e1a2ad318ae01f4dfd665">MR_PolylineSubdivideSettings_Get_onVertCreated</a> (const <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *_this)</td></tr>
 <tr class="separator:adefa2382708e1a2ad318ae01f4dfd665"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2aaa3fff21de2c1ac8e2c8ab44bff6fd" id="r_a2aaa3fff21de2c1ac8e2c8ab44bff6fd"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2aaa3fff21de2c1ac8e2c8ab44bff6fd">MR_PolylineSubdivideSettings_Set_onVertCreated</a> (<a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MRMeshSubdivide_8h.html#ab5a1af27d17dce1b9ef76255b364508e">MR_std_function_void_from_MR_VertId</a> *value)</td></tr>
+<tr class="memitem:a2aaa3fff21de2c1ac8e2c8ab44bff6fd" id="r_a2aaa3fff21de2c1ac8e2c8ab44bff6fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2aaa3fff21de2c1ac8e2c8ab44bff6fd">MR_PolylineSubdivideSettings_Set_onVertCreated</a> (<a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MRMeshSubdivide_8h.html#ab5a1af27d17dce1b9ef76255b364508e">MR_std_function_void_from_MR_VertId</a> *value)</td></tr>
 <tr class="separator:a2aaa3fff21de2c1ac8e2c8ab44bff6fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a844d89cc8058d15b74b05f741814af88" id="r_a844d89cc8058d15b74b05f741814af88"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMeshSubdivide_8h.html#ab5a1af27d17dce1b9ef76255b364508e">MR_std_function_void_from_MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a844d89cc8058d15b74b05f741814af88">MR_PolylineSubdivideSettings_GetMutable_onVertCreated</a> (<a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *_this)</td></tr>
+<tr class="memitem:a844d89cc8058d15b74b05f741814af88" id="r_a844d89cc8058d15b74b05f741814af88"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRMeshSubdivide_8h.html#ab5a1af27d17dce1b9ef76255b364508e">MR_std_function_void_from_MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a844d89cc8058d15b74b05f741814af88">MR_PolylineSubdivideSettings_GetMutable_onVertCreated</a> (<a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *_this)</td></tr>
 <tr class="separator:a844d89cc8058d15b74b05f741814af88"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd00a178c19d95f3263a1844cd8c907b" id="r_afd00a178c19d95f3263a1844cd8c907b"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRFillHoleNicely_8h.html#ad023ae65e5f5b35808a42976d62d515e">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd00a178c19d95f3263a1844cd8c907b">MR_PolylineSubdivideSettings_Get_onEdgeSplit</a> (const <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *_this)</td></tr>
+<tr class="memitem:afd00a178c19d95f3263a1844cd8c907b" id="r_afd00a178c19d95f3263a1844cd8c907b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRFillHoleNicely_8h.html#ad023ae65e5f5b35808a42976d62d515e">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd00a178c19d95f3263a1844cd8c907b">MR_PolylineSubdivideSettings_Get_onEdgeSplit</a> (const <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *_this)</td></tr>
 <tr class="separator:afd00a178c19d95f3263a1844cd8c907b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad2e020056db876ba07f87a733ba4cfb7" id="r_ad2e020056db876ba07f87a733ba4cfb7"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad2e020056db876ba07f87a733ba4cfb7">MR_PolylineSubdivideSettings_Set_onEdgeSplit</a> (<a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MRFillHoleNicely_8h.html#ad023ae65e5f5b35808a42976d62d515e">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</a> *value)</td></tr>
+<tr class="memitem:ad2e020056db876ba07f87a733ba4cfb7" id="r_ad2e020056db876ba07f87a733ba4cfb7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad2e020056db876ba07f87a733ba4cfb7">MR_PolylineSubdivideSettings_Set_onEdgeSplit</a> (<a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MRFillHoleNicely_8h.html#ad023ae65e5f5b35808a42976d62d515e">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</a> *value)</td></tr>
 <tr class="separator:ad2e020056db876ba07f87a733ba4cfb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c9b77aafc87c5276f938220b120cfef" id="r_a8c9b77aafc87c5276f938220b120cfef"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRFillHoleNicely_8h.html#ad023ae65e5f5b35808a42976d62d515e">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c9b77aafc87c5276f938220b120cfef">MR_PolylineSubdivideSettings_GetMutable_onEdgeSplit</a> (<a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *_this)</td></tr>
+<tr class="memitem:a8c9b77aafc87c5276f938220b120cfef" id="r_a8c9b77aafc87c5276f938220b120cfef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRFillHoleNicely_8h.html#ad023ae65e5f5b35808a42976d62d515e">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c9b77aafc87c5276f938220b120cfef">MR_PolylineSubdivideSettings_GetMutable_onEdgeSplit</a> (<a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *_this)</td></tr>
 <tr class="separator:a8c9b77aafc87c5276f938220b120cfef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a44aca1101ef4c2dd12bd48b9639fedae" id="r_a44aca1101ef4c2dd12bd48b9639fedae"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44aca1101ef4c2dd12bd48b9639fedae">MR_PolylineSubdivideSettings_Get_progressCallback</a> (const <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *_this)</td></tr>
+<tr class="memitem:a44aca1101ef4c2dd12bd48b9639fedae" id="r_a44aca1101ef4c2dd12bd48b9639fedae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44aca1101ef4c2dd12bd48b9639fedae">MR_PolylineSubdivideSettings_Get_progressCallback</a> (const <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *_this)</td></tr>
 <tr class="separator:a44aca1101ef4c2dd12bd48b9639fedae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a746c8742549b3982290634544673c3d9" id="r_a746c8742549b3982290634544673c3d9"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a746c8742549b3982290634544673c3d9">MR_PolylineSubdivideSettings_Set_progressCallback</a> (<a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *value)</td></tr>
+<tr class="memitem:a746c8742549b3982290634544673c3d9" id="r_a746c8742549b3982290634544673c3d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a746c8742549b3982290634544673c3d9">MR_PolylineSubdivideSettings_Set_progressCallback</a> (<a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *value)</td></tr>
 <tr class="separator:a746c8742549b3982290634544673c3d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a77d1c1496edb7e874c4ff7df88d3d067" id="r_a77d1c1496edb7e874c4ff7df88d3d067"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77d1c1496edb7e874c4ff7df88d3d067">MR_PolylineSubdivideSettings_GetMutable_progressCallback</a> (<a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *_this)</td></tr>
+<tr class="memitem:a77d1c1496edb7e874c4ff7df88d3d067" id="r_a77d1c1496edb7e874c4ff7df88d3d067"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77d1c1496edb7e874c4ff7df88d3d067">MR_PolylineSubdivideSettings_GetMutable_progressCallback</a> (<a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *_this)</td></tr>
 <tr class="separator:a77d1c1496edb7e874c4ff7df88d3d067"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad9268ee88c5ef0131180220b4cd46e72" id="r_ad9268ee88c5ef0131180220b4cd46e72"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad9268ee88c5ef0131180220b4cd46e72">MR_PolylineSubdivideSettings_DefaultConstruct</a> (void)</td></tr>
+<tr class="memitem:ad9268ee88c5ef0131180220b4cd46e72" id="r_ad9268ee88c5ef0131180220b4cd46e72"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad9268ee88c5ef0131180220b4cd46e72">MR_PolylineSubdivideSettings_DefaultConstruct</a> (void)</td></tr>
 <tr class="separator:ad9268ee88c5ef0131180220b4cd46e72"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a96c1f780d1d144992210ae2cd0c43c6c" id="r_a96c1f780d1d144992210ae2cd0c43c6c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a96c1f780d1d144992210ae2cd0c43c6c">MR_PolylineSubdivideSettings_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="memitem:a96c1f780d1d144992210ae2cd0c43c6c" id="r_a96c1f780d1d144992210ae2cd0c43c6c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a96c1f780d1d144992210ae2cd0c43c6c">MR_PolylineSubdivideSettings_DefaultConstructArray</a> (size_t num_elems)</td></tr>
 <tr class="separator:a96c1f780d1d144992210ae2cd0c43c6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a44b2ff962118f9b5bd1adb8d3d3be839" id="r_a44b2ff962118f9b5bd1adb8d3d3be839"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44b2ff962118f9b5bd1adb8d3d3be839">MR_PolylineSubdivideSettings_ConstructFrom</a> (float maxEdgeLen, int32_t maxEdgeSplits, <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *region, <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *newVerts, bool useCurvature, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> onVertCreated_pass_by, <a class="el" href="MRMeshSubdivide_8h.html#ab5a1af27d17dce1b9ef76255b364508e">MR_std_function_void_from_MR_VertId</a> *onVertCreated, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> onEdgeSplit_pass_by, <a class="el" href="MRFillHoleNicely_8h.html#ad023ae65e5f5b35808a42976d62d515e">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</a> *onEdgeSplit, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> progressCallback_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *progressCallback)</td></tr>
+<tr class="memitem:a44b2ff962118f9b5bd1adb8d3d3be839" id="r_a44b2ff962118f9b5bd1adb8d3d3be839"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44b2ff962118f9b5bd1adb8d3d3be839">MR_PolylineSubdivideSettings_ConstructFrom</a> (float maxEdgeLen, int32_t maxEdgeSplits, <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *region, <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *newVerts, bool useCurvature, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> onVertCreated_pass_by, <a class="el" href="MRMeshSubdivide_8h.html#ab5a1af27d17dce1b9ef76255b364508e">MR_std_function_void_from_MR_VertId</a> *onVertCreated, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> onEdgeSplit_pass_by, <a class="el" href="MRFillHoleNicely_8h.html#ad023ae65e5f5b35808a42976d62d515e">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</a> *onEdgeSplit, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> progressCallback_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *progressCallback)</td></tr>
 <tr class="separator:a44b2ff962118f9b5bd1adb8d3d3be839"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac5928b43dfb1abc5244a059180ef1216" id="r_ac5928b43dfb1abc5244a059180ef1216"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac5928b43dfb1abc5244a059180ef1216">MR_PolylineSubdivideSettings_OffsetPtr</a> (const <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:ac5928b43dfb1abc5244a059180ef1216" id="r_ac5928b43dfb1abc5244a059180ef1216"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac5928b43dfb1abc5244a059180ef1216">MR_PolylineSubdivideSettings_OffsetPtr</a> (const <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:ac5928b43dfb1abc5244a059180ef1216"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:ac5928b43dfb1abc5244a059180ef1216"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a12362af57857a87ac560cb7bcc0a931c" id="r_a12362af57857a87ac560cb7bcc0a931c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12362af57857a87ac560cb7bcc0a931c">MR_PolylineSubdivideSettings_OffsetMutablePtr</a> (<a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a12362af57857a87ac560cb7bcc0a931c" id="r_a12362af57857a87ac560cb7bcc0a931c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12362af57857a87ac560cb7bcc0a931c">MR_PolylineSubdivideSettings_OffsetMutablePtr</a> (<a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a12362af57857a87ac560cb7bcc0a931c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a12362af57857a87ac560cb7bcc0a931c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a663dd6360ebc544c709fd32571d5a000" id="r_a663dd6360ebc544c709fd32571d5a000"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a663dd6360ebc544c709fd32571d5a000">MR_PolylineSubdivideSettings_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *_other)</td></tr>
+<tr class="memitem:a663dd6360ebc544c709fd32571d5a000" id="r_a663dd6360ebc544c709fd32571d5a000"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a663dd6360ebc544c709fd32571d5a000">MR_PolylineSubdivideSettings_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *_other)</td></tr>
 <tr class="separator:a663dd6360ebc544c709fd32571d5a000"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7955f52731e90baa9a005f95b27ae71e" id="r_a7955f52731e90baa9a005f95b27ae71e"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7955f52731e90baa9a005f95b27ae71e">MR_PolylineSubdivideSettings_Destroy</a> (const <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *_this)</td></tr>
+<tr class="memitem:a7955f52731e90baa9a005f95b27ae71e" id="r_a7955f52731e90baa9a005f95b27ae71e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7955f52731e90baa9a005f95b27ae71e">MR_PolylineSubdivideSettings_Destroy</a> (const <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *_this)</td></tr>
 <tr class="memdesc:a7955f52731e90baa9a005f95b27ae71e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_PolylineSubdivideSettings</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:a7955f52731e90baa9a005f95b27ae71e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a27cdfe2e12a517ece3fba33a3ce66e8c" id="r_a27cdfe2e12a517ece3fba33a3ce66e8c"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a27cdfe2e12a517ece3fba33a3ce66e8c">MR_PolylineSubdivideSettings_DestroyArray</a> (const <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *_this)</td></tr>
+<tr class="memitem:a27cdfe2e12a517ece3fba33a3ce66e8c" id="r_a27cdfe2e12a517ece3fba33a3ce66e8c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a27cdfe2e12a517ece3fba33a3ce66e8c">MR_PolylineSubdivideSettings_DestroyArray</a> (const <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *_this)</td></tr>
 <tr class="memdesc:a27cdfe2e12a517ece3fba33a3ce66e8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_PolylineSubdivideSettings</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:a27cdfe2e12a517ece3fba33a3ce66e8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a16a31bfa1a60ff178fcd75bc70cd5f1f" id="r_a16a31bfa1a60ff178fcd75bc70cd5f1f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16a31bfa1a60ff178fcd75bc70cd5f1f">MR_PolylineSubdivideSettings_AssignFromAnother</a> (<a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *_other)</td></tr>
+<tr class="memitem:a16a31bfa1a60ff178fcd75bc70cd5f1f" id="r_a16a31bfa1a60ff178fcd75bc70cd5f1f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16a31bfa1a60ff178fcd75bc70cd5f1f">MR_PolylineSubdivideSettings_AssignFromAnother</a> (<a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *_other)</td></tr>
 <tr class="separator:a16a31bfa1a60ff178fcd75bc70cd5f1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ead48b476209be1bc6aaf76e604ca47" id="r_a3ead48b476209be1bc6aaf76e604ca47"><td class="memItemLeft" align="right" valign="top">MRC_API int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ead48b476209be1bc6aaf76e604ca47">MR_subdividePolyline_MR_Polyline2</a> (<a class="el" href="MRAABBTreePolyline_8h.html#ac19d267fe4a2399b21a578c74213dfd2">MR_Polyline2</a> *polyline, const <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *settings)</td></tr>
+<tr class="memitem:a3ead48b476209be1bc6aaf76e604ca47" id="r_a3ead48b476209be1bc6aaf76e604ca47"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ead48b476209be1bc6aaf76e604ca47">MR_subdividePolyline_MR_Polyline2</a> (<a class="el" href="MRAABBTreePolyline_8h.html#ac19d267fe4a2399b21a578c74213dfd2">MR_Polyline2</a> *polyline, const <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *settings)</td></tr>
 <tr class="separator:a3ead48b476209be1bc6aaf76e604ca47"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a5c6260e0062177fe2fd580dab96b36" id="r_a2a5c6260e0062177fe2fd580dab96b36"><td class="memItemLeft" align="right" valign="top">MRC_API int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a5c6260e0062177fe2fd580dab96b36">MR_subdividePolyline_MR_Polyline3</a> (<a class="el" href="MRAABBTreePolyline_8h.html#a6075b2f3b7dec92f779f4f58c28f7e1b">MR_Polyline3</a> *polyline, const <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *settings)</td></tr>
+<tr class="memitem:a2a5c6260e0062177fe2fd580dab96b36" id="r_a2a5c6260e0062177fe2fd580dab96b36"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a5c6260e0062177fe2fd580dab96b36">MR_subdividePolyline_MR_Polyline3</a> (<a class="el" href="MRAABBTreePolyline_8h.html#a6075b2f3b7dec92f779f4f58c28f7e1b">MR_Polyline3</a> *polyline, const <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *settings)</td></tr>
 <tr class="separator:a2a5c6260e0062177fe2fd580dab96b36"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -369,7 +363,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> * MR_PolylineSubdivideSettings_AssignFromAnother </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> * MR_PolylineSubdivideSettings_AssignFromAnother </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -396,7 +390,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> * MR_PolylineSubdivideSettings_ConstructFrom </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> * MR_PolylineSubdivideSettings_ConstructFrom </td>
           <td>(</td>
           <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>maxEdgeLen</em></span>, </td>
         </tr>
@@ -463,7 +457,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> * MR_PolylineSubdivideSettings_ConstructFromAnother </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> * MR_PolylineSubdivideSettings_ConstructFromAnother </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
         </tr>
@@ -485,7 +479,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> * MR_PolylineSubdivideSettings_DefaultConstruct </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> * MR_PolylineSubdivideSettings_DefaultConstruct </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -503,7 +497,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> * MR_PolylineSubdivideSettings_DefaultConstructArray </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> * MR_PolylineSubdivideSettings_DefaultConstructArray </td>
           <td>(</td>
           <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
           <td></td>
@@ -521,7 +515,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_PolylineSubdivideSettings_Destroy </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PolylineSubdivideSettings_Destroy </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -540,7 +534,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_PolylineSubdivideSettings_DestroyArray </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PolylineSubdivideSettings_DestroyArray </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -559,7 +553,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const float * MR_PolylineSubdivideSettings_Get_maxEdgeLen </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float * MR_PolylineSubdivideSettings_Get_maxEdgeLen </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -577,7 +571,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const int32_t * MR_PolylineSubdivideSettings_Get_maxEdgeSplits </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int32_t * MR_PolylineSubdivideSettings_Get_maxEdgeSplits </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -595,7 +589,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *const  * MR_PolylineSubdivideSettings_Get_newVerts </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *const  * MR_PolylineSubdivideSettings_Get_newVerts </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -613,7 +607,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="MRFillHoleNicely_8h.html#ad023ae65e5f5b35808a42976d62d515e">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</a> * MR_PolylineSubdivideSettings_Get_onEdgeSplit </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRFillHoleNicely_8h.html#ad023ae65e5f5b35808a42976d62d515e">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</a> * MR_PolylineSubdivideSettings_Get_onEdgeSplit </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -631,7 +625,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="MRMeshSubdivide_8h.html#ab5a1af27d17dce1b9ef76255b364508e">MR_std_function_void_from_MR_VertId</a> * MR_PolylineSubdivideSettings_Get_onVertCreated </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRMeshSubdivide_8h.html#ab5a1af27d17dce1b9ef76255b364508e">MR_std_function_void_from_MR_VertId</a> * MR_PolylineSubdivideSettings_Get_onVertCreated </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -649,7 +643,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> * MR_PolylineSubdivideSettings_Get_progressCallback </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> * MR_PolylineSubdivideSettings_Get_progressCallback </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -667,7 +661,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *const  * MR_PolylineSubdivideSettings_Get_region </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *const  * MR_PolylineSubdivideSettings_Get_region </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -685,7 +679,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const bool * MR_PolylineSubdivideSettings_Get_useCurvature </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool * MR_PolylineSubdivideSettings_Get_useCurvature </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -703,7 +697,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API float * MR_PolylineSubdivideSettings_GetMutable_maxEdgeLen </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float * MR_PolylineSubdivideSettings_GetMutable_maxEdgeLen </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -721,7 +715,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API int32_t * MR_PolylineSubdivideSettings_GetMutable_maxEdgeSplits </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t * MR_PolylineSubdivideSettings_GetMutable_maxEdgeSplits </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -739,7 +733,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> ** MR_PolylineSubdivideSettings_GetMutable_newVerts </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> ** MR_PolylineSubdivideSettings_GetMutable_newVerts </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -757,7 +751,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRFillHoleNicely_8h.html#ad023ae65e5f5b35808a42976d62d515e">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</a> * MR_PolylineSubdivideSettings_GetMutable_onEdgeSplit </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRFillHoleNicely_8h.html#ad023ae65e5f5b35808a42976d62d515e">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</a> * MR_PolylineSubdivideSettings_GetMutable_onEdgeSplit </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -775,7 +769,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRMeshSubdivide_8h.html#ab5a1af27d17dce1b9ef76255b364508e">MR_std_function_void_from_MR_VertId</a> * MR_PolylineSubdivideSettings_GetMutable_onVertCreated </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRMeshSubdivide_8h.html#ab5a1af27d17dce1b9ef76255b364508e">MR_std_function_void_from_MR_VertId</a> * MR_PolylineSubdivideSettings_GetMutable_onVertCreated </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -793,7 +787,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> * MR_PolylineSubdivideSettings_GetMutable_progressCallback </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> * MR_PolylineSubdivideSettings_GetMutable_progressCallback </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -811,7 +805,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> ** MR_PolylineSubdivideSettings_GetMutable_region </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> ** MR_PolylineSubdivideSettings_GetMutable_region </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -829,7 +823,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API bool * MR_PolylineSubdivideSettings_GetMutable_useCurvature </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool * MR_PolylineSubdivideSettings_GetMutable_useCurvature </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -847,7 +841,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> * MR_PolylineSubdivideSettings_OffsetMutablePtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> * MR_PolylineSubdivideSettings_OffsetMutablePtr </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -870,7 +864,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> * MR_PolylineSubdivideSettings_OffsetPtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> * MR_PolylineSubdivideSettings_OffsetPtr </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -893,7 +887,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_PolylineSubdivideSettings_Set_maxEdgeLen </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PolylineSubdivideSettings_Set_maxEdgeLen </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -915,7 +909,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_PolylineSubdivideSettings_Set_maxEdgeSplits </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PolylineSubdivideSettings_Set_maxEdgeSplits </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -937,7 +931,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_PolylineSubdivideSettings_Set_newVerts </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PolylineSubdivideSettings_Set_newVerts </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -959,7 +953,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_PolylineSubdivideSettings_Set_onEdgeSplit </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PolylineSubdivideSettings_Set_onEdgeSplit </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -986,7 +980,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_PolylineSubdivideSettings_Set_onVertCreated </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PolylineSubdivideSettings_Set_onVertCreated </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1013,7 +1007,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_PolylineSubdivideSettings_Set_progressCallback </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PolylineSubdivideSettings_Set_progressCallback </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1040,7 +1034,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_PolylineSubdivideSettings_Set_region </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PolylineSubdivideSettings_Set_region </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1062,7 +1056,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_PolylineSubdivideSettings_Set_useCurvature </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PolylineSubdivideSettings_Set_useCurvature </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a77fd6d5a1a50a80ecfcc3adba7e020ab">MR_PolylineSubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1084,7 +1078,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API int32_t MR_subdividePolyline_MR_Polyline2 </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t MR_subdividePolyline_MR_Polyline2 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRAABBTreePolyline_8h.html#ac19d267fe4a2399b21a578c74213dfd2">MR_Polyline2</a> *</td>          <td class="paramname"><span class="paramname"><em>polyline</em></span>, </td>
         </tr>
@@ -1107,7 +1101,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API int32_t MR_subdividePolyline_MR_Polyline3 </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t MR_subdividePolyline_MR_Polyline3 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRAABBTreePolyline_8h.html#a6075b2f3b7dec92f779f4f58c28f7e1b">MR_Polyline3</a> *</td>          <td class="paramname"><span class="paramname"><em>polyline</em></span>, </td>
         </tr>

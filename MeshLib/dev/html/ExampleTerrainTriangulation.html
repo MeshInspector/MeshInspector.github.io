@@ -14,12 +14,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -168,7 +162,7 @@ $(function(){initNavTree('ExampleTerrainTriangulation.html',''); initResizable(t
 <div class="line">    <span class="comment">// load points</span></div>
 <div class="line">    MR::VertColors colors;</div>
 <div class="line">    <a class="code hl_structRef" href="./Cpp/structMR_1_1PointsLoadSettings.html">MR::PointsLoadSettings</a> pls;</div>
-<div class="line">    pls.colors = &amp;colors;</div>
+<div class="line">    pls.<a class="code hl_variableRef" href="./Cpp/structMR_1_1PointsLoadSettings.html#a3f2fb1f45d3a7811958bf75b4e75ed0c">colors</a> = &amp;colors;</div>
 <div class="line">    <span class="keyword">auto</span> loadRes = <a class="code hl_functionRef" href="./Cpp/group__IOGroup.html#gab0f629849bb97f655fcf29a1b3afd9fa">MR::PointsLoad::fromAnySupportedFormat</a>( <span class="stringliteral">&quot;TerrainPoints.ply&quot;</span>, pls );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !loadRes.has_value() )</div>
 <div class="line">    {</div>
@@ -184,7 +178,7 @@ $(function(){initNavTree('ExampleTerrainTriangulation.html',''); initResizable(t
 <div class="line"> </div>
 <div class="line">    <a class="code hl_structRef" href="./Cpp/structMR_1_1SaveSettings.html">MR::SaveSettings</a> ss;</div>
 <div class="line">    <span class="keywordflow">if</span> ( loadRes-&gt;points.vec_.size() == colors.size() )</div>
-<div class="line">    ss.colors = &amp;colors;</div>
+<div class="line">    ss.<a class="code hl_variableRef" href="./Cpp/structMR_1_1SaveSettings.html#a6aa78ab8ac3342aaeb267aa07e82721a">colors</a> = &amp;colors;</div>
 <div class="line">    <span class="keyword">auto</span> saveRes = <a class="code hl_functionRef" href="./Cpp/group__MeshSaveGroup.html#ga6f98b4f73676fa32a7e3573939cb76b9">MR::MeshSave::toAnySupportedFormat</a>( *triangulationRes, <span class="stringliteral">&quot;TerrainMesh.ctm&quot;</span>, ss );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !saveRes.has_value() )</div>
 <div class="line">    {</div>
@@ -199,7 +193,9 @@ $(function(){initNavTree('ExampleTerrainTriangulation.html',''); initResizable(t
 <div class="ttc" id="agroup__MeshSaveGroup_html_ga6f98b4f73676fa32a7e3573939cb76b9"><div class="ttname"><a href="./Cpp/group__MeshSaveGroup.html#ga6f98b4f73676fa32a7e3573939cb76b9">MR::MeshSave::toAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; void &gt; toAnySupportedFormat(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</div></div>
 <div class="ttc" id="anamespaceMR_html_abebe86de5d47fc21de1ad73e06bdbc3d"><div class="ttname"><a href="./Cpp/namespaceMR.html#abebe86de5d47fc21de1ad73e06bdbc3d">MR::terrainTriangulation</a></div><div class="ttdeci">MRMESH_API Expected&lt; Mesh &gt; terrainTriangulation(std::vector&lt; Vector3f &gt; points, ProgressCallback cb={})</div></div>
 <div class="ttc" id="astructMR_1_1PointsLoadSettings_html"><div class="ttname"><a href="./Cpp/structMR_1_1PointsLoadSettings.html">MR::PointsLoadSettings</a></div></div>
+<div class="ttc" id="astructMR_1_1PointsLoadSettings_html_a3f2fb1f45d3a7811958bf75b4e75ed0c"><div class="ttname"><a href="./Cpp/structMR_1_1PointsLoadSettings.html#a3f2fb1f45d3a7811958bf75b4e75ed0c">MR::PointsLoadSettings::colors</a></div><div class="ttdeci">VertColors * colors</div></div>
 <div class="ttc" id="astructMR_1_1SaveSettings_html"><div class="ttname"><a href="./Cpp/structMR_1_1SaveSettings.html">MR::SaveSettings</a></div></div>
+<div class="ttc" id="astructMR_1_1SaveSettings_html_a6aa78ab8ac3342aaeb267aa07e82721a"><div class="ttname"><a href="./Cpp/structMR_1_1SaveSettings.html#a6aa78ab8ac3342aaeb267aa07e82721a">MR::SaveSettings::colors</a></div><div class="ttdeci">const VertColors * colors</div></div>
 </div><!-- fragment --></li>
 <li><b class="tab-title">Python</b> <div class="fragment"><div class="line"><span class="keyword">from</span> meshlib <span class="keyword">import</span> mrmeshpy <span class="keyword">as</span> mm</div>
 <div class="line"><span class="keyword">from</span> pathlib <span class="keyword">import</span> Path</div>

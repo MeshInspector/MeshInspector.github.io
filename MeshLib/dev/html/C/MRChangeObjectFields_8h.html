@@ -14,12 +14,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -159,7 +153,7 @@ $(function(){initNavTree('MRChangeObjectFields_8h.html',''); initResizable(true)
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="MRHistoryAction_8h_source.html">MRCMesh/MRHistoryAction.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
-<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
 </div>
@@ -188,104 +182,104 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:abe040be8e273675fc07c5eff6e98ee62" id="r_abe040be8e273675fc07c5eff6e98ee62"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a4afb08efd011be59bb864b94c4ebf52d">MR_ChangeVisualizePropertyAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe040be8e273675fc07c5eff6e98ee62">MR_ChangeVisualizePropertyAction_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a4afb08efd011be59bb864b94c4ebf52d">MR_ChangeVisualizePropertyAction</a> *_other)</td></tr>
+<tr class="memitem:abe040be8e273675fc07c5eff6e98ee62" id="r_abe040be8e273675fc07c5eff6e98ee62"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a4afb08efd011be59bb864b94c4ebf52d">MR_ChangeVisualizePropertyAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe040be8e273675fc07c5eff6e98ee62">MR_ChangeVisualizePropertyAction_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a4afb08efd011be59bb864b94c4ebf52d">MR_ChangeVisualizePropertyAction</a> *_other)</td></tr>
 <tr class="separator:abe040be8e273675fc07c5eff6e98ee62"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a347871267dad8f14e5be49eeafb3fe83" id="r_a347871267dad8f14e5be49eeafb3fe83"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a4afb08efd011be59bb864b94c4ebf52d">MR_ChangeVisualizePropertyAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a347871267dad8f14e5be49eeafb3fe83">MR_ChangeVisualizePropertyAction_OffsetPtr</a> (const <a class="el" href="#a4afb08efd011be59bb864b94c4ebf52d">MR_ChangeVisualizePropertyAction</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a347871267dad8f14e5be49eeafb3fe83" id="r_a347871267dad8f14e5be49eeafb3fe83"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a4afb08efd011be59bb864b94c4ebf52d">MR_ChangeVisualizePropertyAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a347871267dad8f14e5be49eeafb3fe83">MR_ChangeVisualizePropertyAction_OffsetPtr</a> (const <a class="el" href="#a4afb08efd011be59bb864b94c4ebf52d">MR_ChangeVisualizePropertyAction</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a347871267dad8f14e5be49eeafb3fe83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a347871267dad8f14e5be49eeafb3fe83"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4fa24cb3104fc61b70652de200fea700" id="r_a4fa24cb3104fc61b70652de200fea700"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a4afb08efd011be59bb864b94c4ebf52d">MR_ChangeVisualizePropertyAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4fa24cb3104fc61b70652de200fea700">MR_ChangeVisualizePropertyAction_OffsetMutablePtr</a> (<a class="el" href="#a4afb08efd011be59bb864b94c4ebf52d">MR_ChangeVisualizePropertyAction</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a4fa24cb3104fc61b70652de200fea700" id="r_a4fa24cb3104fc61b70652de200fea700"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a4afb08efd011be59bb864b94c4ebf52d">MR_ChangeVisualizePropertyAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4fa24cb3104fc61b70652de200fea700">MR_ChangeVisualizePropertyAction_OffsetMutablePtr</a> (<a class="el" href="#a4afb08efd011be59bb864b94c4ebf52d">MR_ChangeVisualizePropertyAction</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a4fa24cb3104fc61b70652de200fea700"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a4fa24cb3104fc61b70652de200fea700"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac6266fdd23f65ea5b70bf6c1bc5ceb93" id="r_ac6266fdd23f65ea5b70bf6c1bc5ceb93"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6266fdd23f65ea5b70bf6c1bc5ceb93">MR_ChangeVisualizePropertyAction_UpcastTo_MR_HistoryAction</a> (const <a class="el" href="#a4afb08efd011be59bb864b94c4ebf52d">MR_ChangeVisualizePropertyAction</a> *object)</td></tr>
+<tr class="memitem:ac6266fdd23f65ea5b70bf6c1bc5ceb93" id="r_ac6266fdd23f65ea5b70bf6c1bc5ceb93"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6266fdd23f65ea5b70bf6c1bc5ceb93">MR_ChangeVisualizePropertyAction_UpcastTo_MR_HistoryAction</a> (const <a class="el" href="#a4afb08efd011be59bb864b94c4ebf52d">MR_ChangeVisualizePropertyAction</a> *object)</td></tr>
 <tr class="separator:ac6266fdd23f65ea5b70bf6c1bc5ceb93"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a56477e3ddfafc1945b79559fcae078c1" id="r_a56477e3ddfafc1945b79559fcae078c1"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56477e3ddfafc1945b79559fcae078c1">MR_ChangeVisualizePropertyAction_MutableUpcastTo_MR_HistoryAction</a> (<a class="el" href="#a4afb08efd011be59bb864b94c4ebf52d">MR_ChangeVisualizePropertyAction</a> *object)</td></tr>
+<tr class="memitem:a56477e3ddfafc1945b79559fcae078c1" id="r_a56477e3ddfafc1945b79559fcae078c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56477e3ddfafc1945b79559fcae078c1">MR_ChangeVisualizePropertyAction_MutableUpcastTo_MR_HistoryAction</a> (<a class="el" href="#a4afb08efd011be59bb864b94c4ebf52d">MR_ChangeVisualizePropertyAction</a> *object)</td></tr>
 <tr class="memdesc:a56477e3ddfafc1945b79559fcae078c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1ChangeVisualizePropertyAction.html">MR::ChangeVisualizePropertyAction</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code>.  <br /></td></tr>
 <tr class="separator:a56477e3ddfafc1945b79559fcae078c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e286f6ed2a4466b5a2a3695dafb894c" id="r_a9e286f6ed2a4466b5a2a3695dafb894c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a4afb08efd011be59bb864b94c4ebf52d">MR_ChangeVisualizePropertyAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e286f6ed2a4466b5a2a3695dafb894c">MR_ChangeVisualizePropertyAction_Construct_3</a> (const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *<a class="elRef" href="../Cpp/group__HistoryGroup.html#ga6b90613818f7b81547a5b0bba1d40c39">name</a>, const <a class="el" href="MRChangeColoringActions_8h.html#aa4b9828f4113d20d85483568f977c8ff">MR_std_shared_ptr_MR_VisualObject</a> *obj, const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a47309f5020d832f0d5effdd481071a1e">MR_AnyVisualizeMaskEnum</a> *visualizeMaskType)</td></tr>
+<tr class="memitem:a9e286f6ed2a4466b5a2a3695dafb894c" id="r_a9e286f6ed2a4466b5a2a3695dafb894c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a4afb08efd011be59bb864b94c4ebf52d">MR_ChangeVisualizePropertyAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e286f6ed2a4466b5a2a3695dafb894c">MR_ChangeVisualizePropertyAction_Construct_3</a> (const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *<a class="elRef" href="../Cpp/group__HistoryGroup.html#ga6b90613818f7b81547a5b0bba1d40c39">name</a>, const <a class="el" href="MRChangeColoringActions_8h.html#aa4b9828f4113d20d85483568f977c8ff">MR_std_shared_ptr_MR_VisualObject</a> *obj, const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a47309f5020d832f0d5effdd481071a1e">MR_AnyVisualizeMaskEnum</a> *visualizeMaskType)</td></tr>
 <tr class="separator:a9e286f6ed2a4466b5a2a3695dafb894c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aac5ebfa06b5c5daa6e8e08485d37d1d1" id="r_aac5ebfa06b5c5daa6e8e08485d37d1d1"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a4afb08efd011be59bb864b94c4ebf52d">MR_ChangeVisualizePropertyAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac5ebfa06b5c5daa6e8e08485d37d1d1">MR_ChangeVisualizePropertyAction_Construct_4</a> (const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *<a class="elRef" href="../Cpp/group__HistoryGroup.html#ga6b90613818f7b81547a5b0bba1d40c39">name</a>, const <a class="el" href="MRChangeColoringActions_8h.html#aa4b9828f4113d20d85483568f977c8ff">MR_std_shared_ptr_MR_VisualObject</a> *obj, const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a47309f5020d832f0d5effdd481071a1e">MR_AnyVisualizeMaskEnum</a> *visualizeMaskType, const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a85b2b5f875361920283d305645987092">MR_ViewportMask</a> *newMask)</td></tr>
+<tr class="memitem:aac5ebfa06b5c5daa6e8e08485d37d1d1" id="r_aac5ebfa06b5c5daa6e8e08485d37d1d1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a4afb08efd011be59bb864b94c4ebf52d">MR_ChangeVisualizePropertyAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac5ebfa06b5c5daa6e8e08485d37d1d1">MR_ChangeVisualizePropertyAction_Construct_4</a> (const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *<a class="elRef" href="../Cpp/group__HistoryGroup.html#ga6b90613818f7b81547a5b0bba1d40c39">name</a>, const <a class="el" href="MRChangeColoringActions_8h.html#aa4b9828f4113d20d85483568f977c8ff">MR_std_shared_ptr_MR_VisualObject</a> *obj, const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a47309f5020d832f0d5effdd481071a1e">MR_AnyVisualizeMaskEnum</a> *visualizeMaskType, const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a85b2b5f875361920283d305645987092">MR_ViewportMask</a> *newMask)</td></tr>
 <tr class="separator:aac5ebfa06b5c5daa6e8e08485d37d1d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c32fe5f9ba92a508543fd3ed55947de" id="r_a7c32fe5f9ba92a508543fd3ed55947de"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c32fe5f9ba92a508543fd3ed55947de">MR_ChangeVisualizePropertyAction_Destroy</a> (const <a class="el" href="#a4afb08efd011be59bb864b94c4ebf52d">MR_ChangeVisualizePropertyAction</a> *_this)</td></tr>
+<tr class="memitem:a7c32fe5f9ba92a508543fd3ed55947de" id="r_a7c32fe5f9ba92a508543fd3ed55947de"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c32fe5f9ba92a508543fd3ed55947de">MR_ChangeVisualizePropertyAction_Destroy</a> (const <a class="el" href="#a4afb08efd011be59bb864b94c4ebf52d">MR_ChangeVisualizePropertyAction</a> *_this)</td></tr>
 <tr class="memdesc:a7c32fe5f9ba92a508543fd3ed55947de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_ChangeVisualizePropertyAction</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:a7c32fe5f9ba92a508543fd3ed55947de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a398635812fb7bcb2e404388cc54d93c0" id="r_a398635812fb7bcb2e404388cc54d93c0"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a398635812fb7bcb2e404388cc54d93c0">MR_ChangeVisualizePropertyAction_DestroyArray</a> (const <a class="el" href="#a4afb08efd011be59bb864b94c4ebf52d">MR_ChangeVisualizePropertyAction</a> *_this)</td></tr>
+<tr class="memitem:a398635812fb7bcb2e404388cc54d93c0" id="r_a398635812fb7bcb2e404388cc54d93c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a398635812fb7bcb2e404388cc54d93c0">MR_ChangeVisualizePropertyAction_DestroyArray</a> (const <a class="el" href="#a4afb08efd011be59bb864b94c4ebf52d">MR_ChangeVisualizePropertyAction</a> *_this)</td></tr>
 <tr class="memdesc:a398635812fb7bcb2e404388cc54d93c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_ChangeVisualizePropertyAction</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:a398635812fb7bcb2e404388cc54d93c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b70234ce92138b4ce91710e1e6c1f1f" id="r_a8b70234ce92138b4ce91710e1e6c1f1f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a4afb08efd011be59bb864b94c4ebf52d">MR_ChangeVisualizePropertyAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b70234ce92138b4ce91710e1e6c1f1f">MR_ChangeVisualizePropertyAction_AssignFromAnother</a> (<a class="el" href="#a4afb08efd011be59bb864b94c4ebf52d">MR_ChangeVisualizePropertyAction</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a4afb08efd011be59bb864b94c4ebf52d">MR_ChangeVisualizePropertyAction</a> *_other)</td></tr>
+<tr class="memitem:a8b70234ce92138b4ce91710e1e6c1f1f" id="r_a8b70234ce92138b4ce91710e1e6c1f1f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a4afb08efd011be59bb864b94c4ebf52d">MR_ChangeVisualizePropertyAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b70234ce92138b4ce91710e1e6c1f1f">MR_ChangeVisualizePropertyAction_AssignFromAnother</a> (<a class="el" href="#a4afb08efd011be59bb864b94c4ebf52d">MR_ChangeVisualizePropertyAction</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a4afb08efd011be59bb864b94c4ebf52d">MR_ChangeVisualizePropertyAction</a> *_other)</td></tr>
 <tr class="separator:a8b70234ce92138b4ce91710e1e6c1f1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ad25e5030ca9a1411490e535d355d75" id="r_a8ad25e5030ca9a1411490e535d355d75"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ad25e5030ca9a1411490e535d355d75">MR_ChangeVisualizePropertyAction_name</a> (const <a class="el" href="#a4afb08efd011be59bb864b94c4ebf52d">MR_ChangeVisualizePropertyAction</a> *_this)</td></tr>
+<tr class="memitem:a8ad25e5030ca9a1411490e535d355d75" id="r_a8ad25e5030ca9a1411490e535d355d75"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ad25e5030ca9a1411490e535d355d75">MR_ChangeVisualizePropertyAction_name</a> (const <a class="el" href="#a4afb08efd011be59bb864b94c4ebf52d">MR_ChangeVisualizePropertyAction</a> *_this)</td></tr>
 <tr class="separator:a8ad25e5030ca9a1411490e535d355d75"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa6d5be832c92ad3b4369d60753ae2a3a" id="r_aa6d5be832c92ad3b4369d60753ae2a3a"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6d5be832c92ad3b4369d60753ae2a3a">MR_ChangeVisualizePropertyAction_action</a> (<a class="el" href="#a4afb08efd011be59bb864b94c4ebf52d">MR_ChangeVisualizePropertyAction</a> *_this, <a class="el" href="MRHistoryAction_8h.html#aa6545a91fb04c0c7a224383de1b0d1dc">MR_HistoryAction_Type</a> _1)</td></tr>
+<tr class="memitem:aa6d5be832c92ad3b4369d60753ae2a3a" id="r_aa6d5be832c92ad3b4369d60753ae2a3a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6d5be832c92ad3b4369d60753ae2a3a">MR_ChangeVisualizePropertyAction_action</a> (<a class="el" href="#a4afb08efd011be59bb864b94c4ebf52d">MR_ChangeVisualizePropertyAction</a> *_this, <a class="el" href="MRHistoryAction_8h.html#aa6545a91fb04c0c7a224383de1b0d1dc">MR_HistoryAction_Type</a> _1)</td></tr>
 <tr class="separator:aa6d5be832c92ad3b4369d60753ae2a3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6379e8a3f0243401d8bd1ba58b8f5771" id="r_a6379e8a3f0243401d8bd1ba58b8f5771"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6379e8a3f0243401d8bd1ba58b8f5771">MR_ChangeVisualizePropertyAction_setObjectDirty</a> (const <a class="el" href="MRChangeColoringActions_8h.html#aa4b9828f4113d20d85483568f977c8ff">MR_std_shared_ptr_MR_VisualObject</a> *_1)</td></tr>
+<tr class="memitem:a6379e8a3f0243401d8bd1ba58b8f5771" id="r_a6379e8a3f0243401d8bd1ba58b8f5771"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6379e8a3f0243401d8bd1ba58b8f5771">MR_ChangeVisualizePropertyAction_setObjectDirty</a> (const <a class="el" href="MRChangeColoringActions_8h.html#aa4b9828f4113d20d85483568f977c8ff">MR_std_shared_ptr_MR_VisualObject</a> *_1)</td></tr>
 <tr class="separator:a6379e8a3f0243401d8bd1ba58b8f5771"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ab76dc216828a51f1ed817758d72a47" id="r_a6ab76dc216828a51f1ed817758d72a47"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ab76dc216828a51f1ed817758d72a47">MR_ChangeVisualizePropertyAction_heapBytes</a> (const <a class="el" href="#a4afb08efd011be59bb864b94c4ebf52d">MR_ChangeVisualizePropertyAction</a> *_this)</td></tr>
+<tr class="memitem:a6ab76dc216828a51f1ed817758d72a47" id="r_a6ab76dc216828a51f1ed817758d72a47"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ab76dc216828a51f1ed817758d72a47">MR_ChangeVisualizePropertyAction_heapBytes</a> (const <a class="el" href="#a4afb08efd011be59bb864b94c4ebf52d">MR_ChangeVisualizePropertyAction</a> *_this)</td></tr>
 <tr class="separator:a6ab76dc216828a51f1ed817758d72a47"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d4c8dacfeeaa2d9ced1c6fe8e541d67" id="r_a7d4c8dacfeeaa2d9ced1c6fe8e541d67"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a3c8a62a77fc87e1cfe3466ebab05e93b">MR_ChangeObjectSelectedAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d4c8dacfeeaa2d9ced1c6fe8e541d67">MR_ChangeObjectSelectedAction_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a3c8a62a77fc87e1cfe3466ebab05e93b">MR_ChangeObjectSelectedAction</a> *_other)</td></tr>
+<tr class="memitem:a7d4c8dacfeeaa2d9ced1c6fe8e541d67" id="r_a7d4c8dacfeeaa2d9ced1c6fe8e541d67"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a3c8a62a77fc87e1cfe3466ebab05e93b">MR_ChangeObjectSelectedAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d4c8dacfeeaa2d9ced1c6fe8e541d67">MR_ChangeObjectSelectedAction_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a3c8a62a77fc87e1cfe3466ebab05e93b">MR_ChangeObjectSelectedAction</a> *_other)</td></tr>
 <tr class="separator:a7d4c8dacfeeaa2d9ced1c6fe8e541d67"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb27b5481c07d72a4b5ed1431e7735a2" id="r_afb27b5481c07d72a4b5ed1431e7735a2"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a3c8a62a77fc87e1cfe3466ebab05e93b">MR_ChangeObjectSelectedAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afb27b5481c07d72a4b5ed1431e7735a2">MR_ChangeObjectSelectedAction_OffsetPtr</a> (const <a class="el" href="#a3c8a62a77fc87e1cfe3466ebab05e93b">MR_ChangeObjectSelectedAction</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:afb27b5481c07d72a4b5ed1431e7735a2" id="r_afb27b5481c07d72a4b5ed1431e7735a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a3c8a62a77fc87e1cfe3466ebab05e93b">MR_ChangeObjectSelectedAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afb27b5481c07d72a4b5ed1431e7735a2">MR_ChangeObjectSelectedAction_OffsetPtr</a> (const <a class="el" href="#a3c8a62a77fc87e1cfe3466ebab05e93b">MR_ChangeObjectSelectedAction</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:afb27b5481c07d72a4b5ed1431e7735a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:afb27b5481c07d72a4b5ed1431e7735a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf36e78173ef9448e00ca242373d60e2" id="r_acf36e78173ef9448e00ca242373d60e2"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a3c8a62a77fc87e1cfe3466ebab05e93b">MR_ChangeObjectSelectedAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf36e78173ef9448e00ca242373d60e2">MR_ChangeObjectSelectedAction_OffsetMutablePtr</a> (<a class="el" href="#a3c8a62a77fc87e1cfe3466ebab05e93b">MR_ChangeObjectSelectedAction</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:acf36e78173ef9448e00ca242373d60e2" id="r_acf36e78173ef9448e00ca242373d60e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a3c8a62a77fc87e1cfe3466ebab05e93b">MR_ChangeObjectSelectedAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf36e78173ef9448e00ca242373d60e2">MR_ChangeObjectSelectedAction_OffsetMutablePtr</a> (<a class="el" href="#a3c8a62a77fc87e1cfe3466ebab05e93b">MR_ChangeObjectSelectedAction</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:acf36e78173ef9448e00ca242373d60e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:acf36e78173ef9448e00ca242373d60e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a743388848d3167f7a814043a2dbb102d" id="r_a743388848d3167f7a814043a2dbb102d"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a743388848d3167f7a814043a2dbb102d">MR_ChangeObjectSelectedAction_UpcastTo_MR_HistoryAction</a> (const <a class="el" href="#a3c8a62a77fc87e1cfe3466ebab05e93b">MR_ChangeObjectSelectedAction</a> *object)</td></tr>
+<tr class="memitem:a743388848d3167f7a814043a2dbb102d" id="r_a743388848d3167f7a814043a2dbb102d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a743388848d3167f7a814043a2dbb102d">MR_ChangeObjectSelectedAction_UpcastTo_MR_HistoryAction</a> (const <a class="el" href="#a3c8a62a77fc87e1cfe3466ebab05e93b">MR_ChangeObjectSelectedAction</a> *object)</td></tr>
 <tr class="separator:a743388848d3167f7a814043a2dbb102d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab09573db8ddf8f585b5e0bb6c45834c4" id="r_ab09573db8ddf8f585b5e0bb6c45834c4"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab09573db8ddf8f585b5e0bb6c45834c4">MR_ChangeObjectSelectedAction_MutableUpcastTo_MR_HistoryAction</a> (<a class="el" href="#a3c8a62a77fc87e1cfe3466ebab05e93b">MR_ChangeObjectSelectedAction</a> *object)</td></tr>
+<tr class="memitem:ab09573db8ddf8f585b5e0bb6c45834c4" id="r_ab09573db8ddf8f585b5e0bb6c45834c4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab09573db8ddf8f585b5e0bb6c45834c4">MR_ChangeObjectSelectedAction_MutableUpcastTo_MR_HistoryAction</a> (<a class="el" href="#a3c8a62a77fc87e1cfe3466ebab05e93b">MR_ChangeObjectSelectedAction</a> *object)</td></tr>
 <tr class="memdesc:ab09573db8ddf8f585b5e0bb6c45834c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1ChangeObjectSelectedAction.html">MR::ChangeObjectSelectedAction</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code>.  <br /></td></tr>
 <tr class="separator:ab09573db8ddf8f585b5e0bb6c45834c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c41e68ae306fb97d34e460e31799cb2" id="r_a3c41e68ae306fb97d34e460e31799cb2"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a3c8a62a77fc87e1cfe3466ebab05e93b">MR_ChangeObjectSelectedAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c41e68ae306fb97d34e460e31799cb2">MR_ChangeObjectSelectedAction_Construct_2</a> (const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *<a class="elRef" href="../Cpp/group__HistoryGroup.html#ga6b90613818f7b81547a5b0bba1d40c39">name</a>, const <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> *obj)</td></tr>
+<tr class="memitem:a3c41e68ae306fb97d34e460e31799cb2" id="r_a3c41e68ae306fb97d34e460e31799cb2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a3c8a62a77fc87e1cfe3466ebab05e93b">MR_ChangeObjectSelectedAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c41e68ae306fb97d34e460e31799cb2">MR_ChangeObjectSelectedAction_Construct_2</a> (const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *<a class="elRef" href="../Cpp/group__HistoryGroup.html#ga6b90613818f7b81547a5b0bba1d40c39">name</a>, const <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> *obj)</td></tr>
 <tr class="separator:a3c41e68ae306fb97d34e460e31799cb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc65a9f7d58fb2e70af5852d284069f0" id="r_abc65a9f7d58fb2e70af5852d284069f0"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a3c8a62a77fc87e1cfe3466ebab05e93b">MR_ChangeObjectSelectedAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc65a9f7d58fb2e70af5852d284069f0">MR_ChangeObjectSelectedAction_Construct_3</a> (const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *<a class="elRef" href="../Cpp/group__HistoryGroup.html#ga6b90613818f7b81547a5b0bba1d40c39">name</a>, const <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> *obj, bool newValue)</td></tr>
+<tr class="memitem:abc65a9f7d58fb2e70af5852d284069f0" id="r_abc65a9f7d58fb2e70af5852d284069f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a3c8a62a77fc87e1cfe3466ebab05e93b">MR_ChangeObjectSelectedAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc65a9f7d58fb2e70af5852d284069f0">MR_ChangeObjectSelectedAction_Construct_3</a> (const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *<a class="elRef" href="../Cpp/group__HistoryGroup.html#ga6b90613818f7b81547a5b0bba1d40c39">name</a>, const <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> *obj, bool newValue)</td></tr>
 <tr class="separator:abc65a9f7d58fb2e70af5852d284069f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae0a81c49758cda15487630e5c2dc66a0" id="r_ae0a81c49758cda15487630e5c2dc66a0"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae0a81c49758cda15487630e5c2dc66a0">MR_ChangeObjectSelectedAction_Destroy</a> (const <a class="el" href="#a3c8a62a77fc87e1cfe3466ebab05e93b">MR_ChangeObjectSelectedAction</a> *_this)</td></tr>
+<tr class="memitem:ae0a81c49758cda15487630e5c2dc66a0" id="r_ae0a81c49758cda15487630e5c2dc66a0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae0a81c49758cda15487630e5c2dc66a0">MR_ChangeObjectSelectedAction_Destroy</a> (const <a class="el" href="#a3c8a62a77fc87e1cfe3466ebab05e93b">MR_ChangeObjectSelectedAction</a> *_this)</td></tr>
 <tr class="memdesc:ae0a81c49758cda15487630e5c2dc66a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_ChangeObjectSelectedAction</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:ae0a81c49758cda15487630e5c2dc66a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad16538bc18ae1c6dd0a54ed2b5ce24b6" id="r_ad16538bc18ae1c6dd0a54ed2b5ce24b6"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad16538bc18ae1c6dd0a54ed2b5ce24b6">MR_ChangeObjectSelectedAction_DestroyArray</a> (const <a class="el" href="#a3c8a62a77fc87e1cfe3466ebab05e93b">MR_ChangeObjectSelectedAction</a> *_this)</td></tr>
+<tr class="memitem:ad16538bc18ae1c6dd0a54ed2b5ce24b6" id="r_ad16538bc18ae1c6dd0a54ed2b5ce24b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad16538bc18ae1c6dd0a54ed2b5ce24b6">MR_ChangeObjectSelectedAction_DestroyArray</a> (const <a class="el" href="#a3c8a62a77fc87e1cfe3466ebab05e93b">MR_ChangeObjectSelectedAction</a> *_this)</td></tr>
 <tr class="memdesc:ad16538bc18ae1c6dd0a54ed2b5ce24b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_ChangeObjectSelectedAction</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:ad16538bc18ae1c6dd0a54ed2b5ce24b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a413deb79f9d56aac280e7c7800bddca1" id="r_a413deb79f9d56aac280e7c7800bddca1"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a3c8a62a77fc87e1cfe3466ebab05e93b">MR_ChangeObjectSelectedAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a413deb79f9d56aac280e7c7800bddca1">MR_ChangeObjectSelectedAction_AssignFromAnother</a> (<a class="el" href="#a3c8a62a77fc87e1cfe3466ebab05e93b">MR_ChangeObjectSelectedAction</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a3c8a62a77fc87e1cfe3466ebab05e93b">MR_ChangeObjectSelectedAction</a> *_other)</td></tr>
+<tr class="memitem:a413deb79f9d56aac280e7c7800bddca1" id="r_a413deb79f9d56aac280e7c7800bddca1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a3c8a62a77fc87e1cfe3466ebab05e93b">MR_ChangeObjectSelectedAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a413deb79f9d56aac280e7c7800bddca1">MR_ChangeObjectSelectedAction_AssignFromAnother</a> (<a class="el" href="#a3c8a62a77fc87e1cfe3466ebab05e93b">MR_ChangeObjectSelectedAction</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a3c8a62a77fc87e1cfe3466ebab05e93b">MR_ChangeObjectSelectedAction</a> *_other)</td></tr>
 <tr class="separator:a413deb79f9d56aac280e7c7800bddca1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa06411aac0c4a24697eb8d539a397064" id="r_aa06411aac0c4a24697eb8d539a397064"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa06411aac0c4a24697eb8d539a397064">MR_ChangeObjectSelectedAction_name</a> (const <a class="el" href="#a3c8a62a77fc87e1cfe3466ebab05e93b">MR_ChangeObjectSelectedAction</a> *_this)</td></tr>
+<tr class="memitem:aa06411aac0c4a24697eb8d539a397064" id="r_aa06411aac0c4a24697eb8d539a397064"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa06411aac0c4a24697eb8d539a397064">MR_ChangeObjectSelectedAction_name</a> (const <a class="el" href="#a3c8a62a77fc87e1cfe3466ebab05e93b">MR_ChangeObjectSelectedAction</a> *_this)</td></tr>
 <tr class="separator:aa06411aac0c4a24697eb8d539a397064"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a748827de720e9767611856a80d23140d" id="r_a748827de720e9767611856a80d23140d"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a748827de720e9767611856a80d23140d">MR_ChangeObjectSelectedAction_action</a> (<a class="el" href="#a3c8a62a77fc87e1cfe3466ebab05e93b">MR_ChangeObjectSelectedAction</a> *_this, <a class="el" href="MRHistoryAction_8h.html#aa6545a91fb04c0c7a224383de1b0d1dc">MR_HistoryAction_Type</a> _1)</td></tr>
+<tr class="memitem:a748827de720e9767611856a80d23140d" id="r_a748827de720e9767611856a80d23140d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a748827de720e9767611856a80d23140d">MR_ChangeObjectSelectedAction_action</a> (<a class="el" href="#a3c8a62a77fc87e1cfe3466ebab05e93b">MR_ChangeObjectSelectedAction</a> *_this, <a class="el" href="MRHistoryAction_8h.html#aa6545a91fb04c0c7a224383de1b0d1dc">MR_HistoryAction_Type</a> _1)</td></tr>
 <tr class="separator:a748827de720e9767611856a80d23140d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa149b105696850c1b904eab17fb3b8ae" id="r_aa149b105696850c1b904eab17fb3b8ae"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa149b105696850c1b904eab17fb3b8ae">MR_ChangeObjectSelectedAction_setObjectDirty</a> (const <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> *_1)</td></tr>
+<tr class="memitem:aa149b105696850c1b904eab17fb3b8ae" id="r_aa149b105696850c1b904eab17fb3b8ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa149b105696850c1b904eab17fb3b8ae">MR_ChangeObjectSelectedAction_setObjectDirty</a> (const <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> *_1)</td></tr>
 <tr class="separator:aa149b105696850c1b904eab17fb3b8ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d9c6f3711efa948f0bd0e8fde0d8b8b" id="r_a9d9c6f3711efa948f0bd0e8fde0d8b8b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d9c6f3711efa948f0bd0e8fde0d8b8b">MR_ChangeObjectSelectedAction_heapBytes</a> (const <a class="el" href="#a3c8a62a77fc87e1cfe3466ebab05e93b">MR_ChangeObjectSelectedAction</a> *_this)</td></tr>
+<tr class="memitem:a9d9c6f3711efa948f0bd0e8fde0d8b8b" id="r_a9d9c6f3711efa948f0bd0e8fde0d8b8b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d9c6f3711efa948f0bd0e8fde0d8b8b">MR_ChangeObjectSelectedAction_heapBytes</a> (const <a class="el" href="#a3c8a62a77fc87e1cfe3466ebab05e93b">MR_ChangeObjectSelectedAction</a> *_this)</td></tr>
 <tr class="separator:a9d9c6f3711efa948f0bd0e8fde0d8b8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7025ba0d07fa197396422878cf3b60bd" id="r_a7025ba0d07fa197396422878cf3b60bd"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0f1ed9a0636ff98ed899be7e3b9601ad">MR_ChangeObjectVisibilityAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7025ba0d07fa197396422878cf3b60bd">MR_ChangeObjectVisibilityAction_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a0f1ed9a0636ff98ed899be7e3b9601ad">MR_ChangeObjectVisibilityAction</a> *_other)</td></tr>
+<tr class="memitem:a7025ba0d07fa197396422878cf3b60bd" id="r_a7025ba0d07fa197396422878cf3b60bd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0f1ed9a0636ff98ed899be7e3b9601ad">MR_ChangeObjectVisibilityAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7025ba0d07fa197396422878cf3b60bd">MR_ChangeObjectVisibilityAction_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a0f1ed9a0636ff98ed899be7e3b9601ad">MR_ChangeObjectVisibilityAction</a> *_other)</td></tr>
 <tr class="separator:a7025ba0d07fa197396422878cf3b60bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a60a046d570dd4b2306d887d72c82b765" id="r_a60a046d570dd4b2306d887d72c82b765"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a0f1ed9a0636ff98ed899be7e3b9601ad">MR_ChangeObjectVisibilityAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60a046d570dd4b2306d887d72c82b765">MR_ChangeObjectVisibilityAction_OffsetPtr</a> (const <a class="el" href="#a0f1ed9a0636ff98ed899be7e3b9601ad">MR_ChangeObjectVisibilityAction</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a60a046d570dd4b2306d887d72c82b765" id="r_a60a046d570dd4b2306d887d72c82b765"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a0f1ed9a0636ff98ed899be7e3b9601ad">MR_ChangeObjectVisibilityAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60a046d570dd4b2306d887d72c82b765">MR_ChangeObjectVisibilityAction_OffsetPtr</a> (const <a class="el" href="#a0f1ed9a0636ff98ed899be7e3b9601ad">MR_ChangeObjectVisibilityAction</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a60a046d570dd4b2306d887d72c82b765"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a60a046d570dd4b2306d887d72c82b765"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4bd2a708a461fa5041cda12498073ea9" id="r_a4bd2a708a461fa5041cda12498073ea9"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0f1ed9a0636ff98ed899be7e3b9601ad">MR_ChangeObjectVisibilityAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4bd2a708a461fa5041cda12498073ea9">MR_ChangeObjectVisibilityAction_OffsetMutablePtr</a> (<a class="el" href="#a0f1ed9a0636ff98ed899be7e3b9601ad">MR_ChangeObjectVisibilityAction</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a4bd2a708a461fa5041cda12498073ea9" id="r_a4bd2a708a461fa5041cda12498073ea9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0f1ed9a0636ff98ed899be7e3b9601ad">MR_ChangeObjectVisibilityAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4bd2a708a461fa5041cda12498073ea9">MR_ChangeObjectVisibilityAction_OffsetMutablePtr</a> (<a class="el" href="#a0f1ed9a0636ff98ed899be7e3b9601ad">MR_ChangeObjectVisibilityAction</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a4bd2a708a461fa5041cda12498073ea9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a4bd2a708a461fa5041cda12498073ea9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf6ea39a67ce3d22469d3335395aedb2" id="r_acf6ea39a67ce3d22469d3335395aedb2"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf6ea39a67ce3d22469d3335395aedb2">MR_ChangeObjectVisibilityAction_UpcastTo_MR_HistoryAction</a> (const <a class="el" href="#a0f1ed9a0636ff98ed899be7e3b9601ad">MR_ChangeObjectVisibilityAction</a> *object)</td></tr>
+<tr class="memitem:acf6ea39a67ce3d22469d3335395aedb2" id="r_acf6ea39a67ce3d22469d3335395aedb2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf6ea39a67ce3d22469d3335395aedb2">MR_ChangeObjectVisibilityAction_UpcastTo_MR_HistoryAction</a> (const <a class="el" href="#a0f1ed9a0636ff98ed899be7e3b9601ad">MR_ChangeObjectVisibilityAction</a> *object)</td></tr>
 <tr class="separator:acf6ea39a67ce3d22469d3335395aedb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aebf99d91e5a8c1dafe7a76fff556d5ec" id="r_aebf99d91e5a8c1dafe7a76fff556d5ec"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aebf99d91e5a8c1dafe7a76fff556d5ec">MR_ChangeObjectVisibilityAction_MutableUpcastTo_MR_HistoryAction</a> (<a class="el" href="#a0f1ed9a0636ff98ed899be7e3b9601ad">MR_ChangeObjectVisibilityAction</a> *object)</td></tr>
+<tr class="memitem:aebf99d91e5a8c1dafe7a76fff556d5ec" id="r_aebf99d91e5a8c1dafe7a76fff556d5ec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aebf99d91e5a8c1dafe7a76fff556d5ec">MR_ChangeObjectVisibilityAction_MutableUpcastTo_MR_HistoryAction</a> (<a class="el" href="#a0f1ed9a0636ff98ed899be7e3b9601ad">MR_ChangeObjectVisibilityAction</a> *object)</td></tr>
 <tr class="memdesc:aebf99d91e5a8c1dafe7a76fff556d5ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1ChangeObjectVisibilityAction.html">MR::ChangeObjectVisibilityAction</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code>.  <br /></td></tr>
 <tr class="separator:aebf99d91e5a8c1dafe7a76fff556d5ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a08f09e7132380bd2373e16b6886c5e40" id="r_a08f09e7132380bd2373e16b6886c5e40"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0f1ed9a0636ff98ed899be7e3b9601ad">MR_ChangeObjectVisibilityAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08f09e7132380bd2373e16b6886c5e40">MR_ChangeObjectVisibilityAction_Construct_2</a> (const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *<a class="elRef" href="../Cpp/group__HistoryGroup.html#ga6b90613818f7b81547a5b0bba1d40c39">name</a>, const <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> *obj)</td></tr>
+<tr class="memitem:a08f09e7132380bd2373e16b6886c5e40" id="r_a08f09e7132380bd2373e16b6886c5e40"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0f1ed9a0636ff98ed899be7e3b9601ad">MR_ChangeObjectVisibilityAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08f09e7132380bd2373e16b6886c5e40">MR_ChangeObjectVisibilityAction_Construct_2</a> (const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *<a class="elRef" href="../Cpp/group__HistoryGroup.html#ga6b90613818f7b81547a5b0bba1d40c39">name</a>, const <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> *obj)</td></tr>
 <tr class="separator:a08f09e7132380bd2373e16b6886c5e40"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab42434cd0a603ad6201d474417260ac4" id="r_ab42434cd0a603ad6201d474417260ac4"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0f1ed9a0636ff98ed899be7e3b9601ad">MR_ChangeObjectVisibilityAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab42434cd0a603ad6201d474417260ac4">MR_ChangeObjectVisibilityAction_Construct_3</a> (const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *<a class="elRef" href="../Cpp/group__HistoryGroup.html#ga6b90613818f7b81547a5b0bba1d40c39">name</a>, const <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> *obj, const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a85b2b5f875361920283d305645987092">MR_ViewportMask</a> *newVisibilityMask)</td></tr>
+<tr class="memitem:ab42434cd0a603ad6201d474417260ac4" id="r_ab42434cd0a603ad6201d474417260ac4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0f1ed9a0636ff98ed899be7e3b9601ad">MR_ChangeObjectVisibilityAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab42434cd0a603ad6201d474417260ac4">MR_ChangeObjectVisibilityAction_Construct_3</a> (const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *<a class="elRef" href="../Cpp/group__HistoryGroup.html#ga6b90613818f7b81547a5b0bba1d40c39">name</a>, const <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> *obj, const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a85b2b5f875361920283d305645987092">MR_ViewportMask</a> *newVisibilityMask)</td></tr>
 <tr class="separator:ab42434cd0a603ad6201d474417260ac4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7baaf4c7132648ebfec9aacf6232132f" id="r_a7baaf4c7132648ebfec9aacf6232132f"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7baaf4c7132648ebfec9aacf6232132f">MR_ChangeObjectVisibilityAction_Destroy</a> (const <a class="el" href="#a0f1ed9a0636ff98ed899be7e3b9601ad">MR_ChangeObjectVisibilityAction</a> *_this)</td></tr>
+<tr class="memitem:a7baaf4c7132648ebfec9aacf6232132f" id="r_a7baaf4c7132648ebfec9aacf6232132f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7baaf4c7132648ebfec9aacf6232132f">MR_ChangeObjectVisibilityAction_Destroy</a> (const <a class="el" href="#a0f1ed9a0636ff98ed899be7e3b9601ad">MR_ChangeObjectVisibilityAction</a> *_this)</td></tr>
 <tr class="memdesc:a7baaf4c7132648ebfec9aacf6232132f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_ChangeObjectVisibilityAction</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:a7baaf4c7132648ebfec9aacf6232132f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7bf90b5caa1cba3fe77aef94e3644580" id="r_a7bf90b5caa1cba3fe77aef94e3644580"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7bf90b5caa1cba3fe77aef94e3644580">MR_ChangeObjectVisibilityAction_DestroyArray</a> (const <a class="el" href="#a0f1ed9a0636ff98ed899be7e3b9601ad">MR_ChangeObjectVisibilityAction</a> *_this)</td></tr>
+<tr class="memitem:a7bf90b5caa1cba3fe77aef94e3644580" id="r_a7bf90b5caa1cba3fe77aef94e3644580"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7bf90b5caa1cba3fe77aef94e3644580">MR_ChangeObjectVisibilityAction_DestroyArray</a> (const <a class="el" href="#a0f1ed9a0636ff98ed899be7e3b9601ad">MR_ChangeObjectVisibilityAction</a> *_this)</td></tr>
 <tr class="memdesc:a7bf90b5caa1cba3fe77aef94e3644580"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_ChangeObjectVisibilityAction</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:a7bf90b5caa1cba3fe77aef94e3644580"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a02cb726ecd7a83a934dc740c9894e053" id="r_a02cb726ecd7a83a934dc740c9894e053"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0f1ed9a0636ff98ed899be7e3b9601ad">MR_ChangeObjectVisibilityAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a02cb726ecd7a83a934dc740c9894e053">MR_ChangeObjectVisibilityAction_AssignFromAnother</a> (<a class="el" href="#a0f1ed9a0636ff98ed899be7e3b9601ad">MR_ChangeObjectVisibilityAction</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a0f1ed9a0636ff98ed899be7e3b9601ad">MR_ChangeObjectVisibilityAction</a> *_other)</td></tr>
+<tr class="memitem:a02cb726ecd7a83a934dc740c9894e053" id="r_a02cb726ecd7a83a934dc740c9894e053"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0f1ed9a0636ff98ed899be7e3b9601ad">MR_ChangeObjectVisibilityAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a02cb726ecd7a83a934dc740c9894e053">MR_ChangeObjectVisibilityAction_AssignFromAnother</a> (<a class="el" href="#a0f1ed9a0636ff98ed899be7e3b9601ad">MR_ChangeObjectVisibilityAction</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a0f1ed9a0636ff98ed899be7e3b9601ad">MR_ChangeObjectVisibilityAction</a> *_other)</td></tr>
 <tr class="separator:a02cb726ecd7a83a934dc740c9894e053"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0a65d4e77fe05dd55c9a56d05dad13c6" id="r_a0a65d4e77fe05dd55c9a56d05dad13c6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a65d4e77fe05dd55c9a56d05dad13c6">MR_ChangeObjectVisibilityAction_name</a> (const <a class="el" href="#a0f1ed9a0636ff98ed899be7e3b9601ad">MR_ChangeObjectVisibilityAction</a> *_this)</td></tr>
+<tr class="memitem:a0a65d4e77fe05dd55c9a56d05dad13c6" id="r_a0a65d4e77fe05dd55c9a56d05dad13c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a65d4e77fe05dd55c9a56d05dad13c6">MR_ChangeObjectVisibilityAction_name</a> (const <a class="el" href="#a0f1ed9a0636ff98ed899be7e3b9601ad">MR_ChangeObjectVisibilityAction</a> *_this)</td></tr>
 <tr class="separator:a0a65d4e77fe05dd55c9a56d05dad13c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad89d6c7242be43468a5740271c215942" id="r_ad89d6c7242be43468a5740271c215942"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad89d6c7242be43468a5740271c215942">MR_ChangeObjectVisibilityAction_action</a> (<a class="el" href="#a0f1ed9a0636ff98ed899be7e3b9601ad">MR_ChangeObjectVisibilityAction</a> *_this, <a class="el" href="MRHistoryAction_8h.html#aa6545a91fb04c0c7a224383de1b0d1dc">MR_HistoryAction_Type</a> _1)</td></tr>
+<tr class="memitem:ad89d6c7242be43468a5740271c215942" id="r_ad89d6c7242be43468a5740271c215942"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad89d6c7242be43468a5740271c215942">MR_ChangeObjectVisibilityAction_action</a> (<a class="el" href="#a0f1ed9a0636ff98ed899be7e3b9601ad">MR_ChangeObjectVisibilityAction</a> *_this, <a class="el" href="MRHistoryAction_8h.html#aa6545a91fb04c0c7a224383de1b0d1dc">MR_HistoryAction_Type</a> _1)</td></tr>
 <tr class="separator:ad89d6c7242be43468a5740271c215942"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a10a287939aabb54b291b6ff0e051f087" id="r_a10a287939aabb54b291b6ff0e051f087"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10a287939aabb54b291b6ff0e051f087">MR_ChangeObjectVisibilityAction_setObjectDirty</a> (const <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> *_1)</td></tr>
+<tr class="memitem:a10a287939aabb54b291b6ff0e051f087" id="r_a10a287939aabb54b291b6ff0e051f087"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10a287939aabb54b291b6ff0e051f087">MR_ChangeObjectVisibilityAction_setObjectDirty</a> (const <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> *_1)</td></tr>
 <tr class="separator:a10a287939aabb54b291b6ff0e051f087"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa1fd1b0f91ad4a0768c30fb2fda2b629" id="r_aa1fd1b0f91ad4a0768c30fb2fda2b629"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1fd1b0f91ad4a0768c30fb2fda2b629">MR_ChangeObjectVisibilityAction_heapBytes</a> (const <a class="el" href="#a0f1ed9a0636ff98ed899be7e3b9601ad">MR_ChangeObjectVisibilityAction</a> *_this)</td></tr>
+<tr class="memitem:aa1fd1b0f91ad4a0768c30fb2fda2b629" id="r_aa1fd1b0f91ad4a0768c30fb2fda2b629"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1fd1b0f91ad4a0768c30fb2fda2b629">MR_ChangeObjectVisibilityAction_heapBytes</a> (const <a class="el" href="#a0f1ed9a0636ff98ed899be7e3b9601ad">MR_ChangeObjectVisibilityAction</a> *_this)</td></tr>
 <tr class="separator:aa1fd1b0f91ad4a0768c30fb2fda2b629"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -426,7 +420,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_ChangeObjectSelectedAction_action </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_ChangeObjectSelectedAction_action </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a3c8a62a77fc87e1cfe3466ebab05e93b">MR_ChangeObjectSelectedAction</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -448,7 +442,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a3c8a62a77fc87e1cfe3466ebab05e93b">MR_ChangeObjectSelectedAction</a> * MR_ChangeObjectSelectedAction_AssignFromAnother </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a3c8a62a77fc87e1cfe3466ebab05e93b">MR_ChangeObjectSelectedAction</a> * MR_ChangeObjectSelectedAction_AssignFromAnother </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a3c8a62a77fc87e1cfe3466ebab05e93b">MR_ChangeObjectSelectedAction</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -475,7 +469,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a3c8a62a77fc87e1cfe3466ebab05e93b">MR_ChangeObjectSelectedAction</a> * MR_ChangeObjectSelectedAction_Construct_2 </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a3c8a62a77fc87e1cfe3466ebab05e93b">MR_ChangeObjectSelectedAction</a> * MR_ChangeObjectSelectedAction_Construct_2 </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
         </tr>
@@ -497,7 +491,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a3c8a62a77fc87e1cfe3466ebab05e93b">MR_ChangeObjectSelectedAction</a> * MR_ChangeObjectSelectedAction_Construct_3 </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a3c8a62a77fc87e1cfe3466ebab05e93b">MR_ChangeObjectSelectedAction</a> * MR_ChangeObjectSelectedAction_Construct_3 </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
         </tr>
@@ -524,7 +518,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a3c8a62a77fc87e1cfe3466ebab05e93b">MR_ChangeObjectSelectedAction</a> * MR_ChangeObjectSelectedAction_ConstructFromAnother </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a3c8a62a77fc87e1cfe3466ebab05e93b">MR_ChangeObjectSelectedAction</a> * MR_ChangeObjectSelectedAction_ConstructFromAnother </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
         </tr>
@@ -546,7 +540,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_ChangeObjectSelectedAction_Destroy </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_ChangeObjectSelectedAction_Destroy </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a3c8a62a77fc87e1cfe3466ebab05e93b">MR_ChangeObjectSelectedAction</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -565,7 +559,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_ChangeObjectSelectedAction_DestroyArray </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_ChangeObjectSelectedAction_DestroyArray </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a3c8a62a77fc87e1cfe3466ebab05e93b">MR_ChangeObjectSelectedAction</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -584,7 +578,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> MR_ChangeObjectSelectedAction_heapBytes </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> MR_ChangeObjectSelectedAction_heapBytes </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a3c8a62a77fc87e1cfe3466ebab05e93b">MR_ChangeObjectSelectedAction</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -602,7 +596,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a> * MR_ChangeObjectSelectedAction_MutableUpcastTo_MR_HistoryAction </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a> * MR_ChangeObjectSelectedAction_MutableUpcastTo_MR_HistoryAction </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a3c8a62a77fc87e1cfe3466ebab05e93b">MR_ChangeObjectSelectedAction</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
           <td></td>
@@ -621,7 +615,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_ChangeObjectSelectedAction_name </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_ChangeObjectSelectedAction_name </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a3c8a62a77fc87e1cfe3466ebab05e93b">MR_ChangeObjectSelectedAction</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -639,7 +633,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a3c8a62a77fc87e1cfe3466ebab05e93b">MR_ChangeObjectSelectedAction</a> * MR_ChangeObjectSelectedAction_OffsetMutablePtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a3c8a62a77fc87e1cfe3466ebab05e93b">MR_ChangeObjectSelectedAction</a> * MR_ChangeObjectSelectedAction_OffsetMutablePtr </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a3c8a62a77fc87e1cfe3466ebab05e93b">MR_ChangeObjectSelectedAction</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -662,7 +656,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="#a3c8a62a77fc87e1cfe3466ebab05e93b">MR_ChangeObjectSelectedAction</a> * MR_ChangeObjectSelectedAction_OffsetPtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a3c8a62a77fc87e1cfe3466ebab05e93b">MR_ChangeObjectSelectedAction</a> * MR_ChangeObjectSelectedAction_OffsetPtr </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a3c8a62a77fc87e1cfe3466ebab05e93b">MR_ChangeObjectSelectedAction</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -685,7 +679,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_ChangeObjectSelectedAction_setObjectDirty </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_ChangeObjectSelectedAction_setObjectDirty </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> *</td>          <td class="paramname"><span class="paramname"><em>_1</em></span></td><td>)</td>
           <td></td>
@@ -703,7 +697,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a> * MR_ChangeObjectSelectedAction_UpcastTo_MR_HistoryAction </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a> * MR_ChangeObjectSelectedAction_UpcastTo_MR_HistoryAction </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a3c8a62a77fc87e1cfe3466ebab05e93b">MR_ChangeObjectSelectedAction</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
           <td></td>
@@ -721,7 +715,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_ChangeObjectVisibilityAction_action </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_ChangeObjectVisibilityAction_action </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a0f1ed9a0636ff98ed899be7e3b9601ad">MR_ChangeObjectVisibilityAction</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -743,7 +737,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a0f1ed9a0636ff98ed899be7e3b9601ad">MR_ChangeObjectVisibilityAction</a> * MR_ChangeObjectVisibilityAction_AssignFromAnother </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0f1ed9a0636ff98ed899be7e3b9601ad">MR_ChangeObjectVisibilityAction</a> * MR_ChangeObjectVisibilityAction_AssignFromAnother </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a0f1ed9a0636ff98ed899be7e3b9601ad">MR_ChangeObjectVisibilityAction</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -770,7 +764,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a0f1ed9a0636ff98ed899be7e3b9601ad">MR_ChangeObjectVisibilityAction</a> * MR_ChangeObjectVisibilityAction_Construct_2 </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0f1ed9a0636ff98ed899be7e3b9601ad">MR_ChangeObjectVisibilityAction</a> * MR_ChangeObjectVisibilityAction_Construct_2 </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
         </tr>
@@ -792,7 +786,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a0f1ed9a0636ff98ed899be7e3b9601ad">MR_ChangeObjectVisibilityAction</a> * MR_ChangeObjectVisibilityAction_Construct_3 </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0f1ed9a0636ff98ed899be7e3b9601ad">MR_ChangeObjectVisibilityAction</a> * MR_ChangeObjectVisibilityAction_Construct_3 </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
         </tr>
@@ -819,7 +813,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a0f1ed9a0636ff98ed899be7e3b9601ad">MR_ChangeObjectVisibilityAction</a> * MR_ChangeObjectVisibilityAction_ConstructFromAnother </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0f1ed9a0636ff98ed899be7e3b9601ad">MR_ChangeObjectVisibilityAction</a> * MR_ChangeObjectVisibilityAction_ConstructFromAnother </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
         </tr>
@@ -841,7 +835,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_ChangeObjectVisibilityAction_Destroy </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_ChangeObjectVisibilityAction_Destroy </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a0f1ed9a0636ff98ed899be7e3b9601ad">MR_ChangeObjectVisibilityAction</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -860,7 +854,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_ChangeObjectVisibilityAction_DestroyArray </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_ChangeObjectVisibilityAction_DestroyArray </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a0f1ed9a0636ff98ed899be7e3b9601ad">MR_ChangeObjectVisibilityAction</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -879,7 +873,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> MR_ChangeObjectVisibilityAction_heapBytes </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> MR_ChangeObjectVisibilityAction_heapBytes </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a0f1ed9a0636ff98ed899be7e3b9601ad">MR_ChangeObjectVisibilityAction</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -897,7 +891,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a> * MR_ChangeObjectVisibilityAction_MutableUpcastTo_MR_HistoryAction </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a> * MR_ChangeObjectVisibilityAction_MutableUpcastTo_MR_HistoryAction </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a0f1ed9a0636ff98ed899be7e3b9601ad">MR_ChangeObjectVisibilityAction</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
           <td></td>
@@ -916,7 +910,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_ChangeObjectVisibilityAction_name </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_ChangeObjectVisibilityAction_name </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a0f1ed9a0636ff98ed899be7e3b9601ad">MR_ChangeObjectVisibilityAction</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -934,7 +928,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a0f1ed9a0636ff98ed899be7e3b9601ad">MR_ChangeObjectVisibilityAction</a> * MR_ChangeObjectVisibilityAction_OffsetMutablePtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0f1ed9a0636ff98ed899be7e3b9601ad">MR_ChangeObjectVisibilityAction</a> * MR_ChangeObjectVisibilityAction_OffsetMutablePtr </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a0f1ed9a0636ff98ed899be7e3b9601ad">MR_ChangeObjectVisibilityAction</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -957,7 +951,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="#a0f1ed9a0636ff98ed899be7e3b9601ad">MR_ChangeObjectVisibilityAction</a> * MR_ChangeObjectVisibilityAction_OffsetPtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a0f1ed9a0636ff98ed899be7e3b9601ad">MR_ChangeObjectVisibilityAction</a> * MR_ChangeObjectVisibilityAction_OffsetPtr </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a0f1ed9a0636ff98ed899be7e3b9601ad">MR_ChangeObjectVisibilityAction</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -980,7 +974,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_ChangeObjectVisibilityAction_setObjectDirty </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_ChangeObjectVisibilityAction_setObjectDirty </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> *</td>          <td class="paramname"><span class="paramname"><em>_1</em></span></td><td>)</td>
           <td></td>
@@ -998,7 +992,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a> * MR_ChangeObjectVisibilityAction_UpcastTo_MR_HistoryAction </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a> * MR_ChangeObjectVisibilityAction_UpcastTo_MR_HistoryAction </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a0f1ed9a0636ff98ed899be7e3b9601ad">MR_ChangeObjectVisibilityAction</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
           <td></td>
@@ -1016,7 +1010,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_ChangeVisualizePropertyAction_action </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_ChangeVisualizePropertyAction_action </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a4afb08efd011be59bb864b94c4ebf52d">MR_ChangeVisualizePropertyAction</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1038,7 +1032,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a4afb08efd011be59bb864b94c4ebf52d">MR_ChangeVisualizePropertyAction</a> * MR_ChangeVisualizePropertyAction_AssignFromAnother </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a4afb08efd011be59bb864b94c4ebf52d">MR_ChangeVisualizePropertyAction</a> * MR_ChangeVisualizePropertyAction_AssignFromAnother </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a4afb08efd011be59bb864b94c4ebf52d">MR_ChangeVisualizePropertyAction</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1065,7 +1059,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a4afb08efd011be59bb864b94c4ebf52d">MR_ChangeVisualizePropertyAction</a> * MR_ChangeVisualizePropertyAction_Construct_3 </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a4afb08efd011be59bb864b94c4ebf52d">MR_ChangeVisualizePropertyAction</a> * MR_ChangeVisualizePropertyAction_Construct_3 </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
         </tr>
@@ -1092,7 +1086,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a4afb08efd011be59bb864b94c4ebf52d">MR_ChangeVisualizePropertyAction</a> * MR_ChangeVisualizePropertyAction_Construct_4 </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a4afb08efd011be59bb864b94c4ebf52d">MR_ChangeVisualizePropertyAction</a> * MR_ChangeVisualizePropertyAction_Construct_4 </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
         </tr>
@@ -1124,7 +1118,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a4afb08efd011be59bb864b94c4ebf52d">MR_ChangeVisualizePropertyAction</a> * MR_ChangeVisualizePropertyAction_ConstructFromAnother </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a4afb08efd011be59bb864b94c4ebf52d">MR_ChangeVisualizePropertyAction</a> * MR_ChangeVisualizePropertyAction_ConstructFromAnother </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
         </tr>
@@ -1146,7 +1140,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_ChangeVisualizePropertyAction_Destroy </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_ChangeVisualizePropertyAction_Destroy </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a4afb08efd011be59bb864b94c4ebf52d">MR_ChangeVisualizePropertyAction</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1165,7 +1159,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_ChangeVisualizePropertyAction_DestroyArray </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_ChangeVisualizePropertyAction_DestroyArray </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a4afb08efd011be59bb864b94c4ebf52d">MR_ChangeVisualizePropertyAction</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1184,7 +1178,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> MR_ChangeVisualizePropertyAction_heapBytes </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> MR_ChangeVisualizePropertyAction_heapBytes </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a4afb08efd011be59bb864b94c4ebf52d">MR_ChangeVisualizePropertyAction</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1202,7 +1196,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a> * MR_ChangeVisualizePropertyAction_MutableUpcastTo_MR_HistoryAction </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a> * MR_ChangeVisualizePropertyAction_MutableUpcastTo_MR_HistoryAction </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a4afb08efd011be59bb864b94c4ebf52d">MR_ChangeVisualizePropertyAction</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
           <td></td>
@@ -1221,7 +1215,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_ChangeVisualizePropertyAction_name </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_ChangeVisualizePropertyAction_name </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a4afb08efd011be59bb864b94c4ebf52d">MR_ChangeVisualizePropertyAction</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1239,7 +1233,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a4afb08efd011be59bb864b94c4ebf52d">MR_ChangeVisualizePropertyAction</a> * MR_ChangeVisualizePropertyAction_OffsetMutablePtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a4afb08efd011be59bb864b94c4ebf52d">MR_ChangeVisualizePropertyAction</a> * MR_ChangeVisualizePropertyAction_OffsetMutablePtr </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a4afb08efd011be59bb864b94c4ebf52d">MR_ChangeVisualizePropertyAction</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -1262,7 +1256,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="#a4afb08efd011be59bb864b94c4ebf52d">MR_ChangeVisualizePropertyAction</a> * MR_ChangeVisualizePropertyAction_OffsetPtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a4afb08efd011be59bb864b94c4ebf52d">MR_ChangeVisualizePropertyAction</a> * MR_ChangeVisualizePropertyAction_OffsetPtr </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a4afb08efd011be59bb864b94c4ebf52d">MR_ChangeVisualizePropertyAction</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -1285,7 +1279,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_ChangeVisualizePropertyAction_setObjectDirty </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_ChangeVisualizePropertyAction_setObjectDirty </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRChangeColoringActions_8h.html#aa4b9828f4113d20d85483568f977c8ff">MR_std_shared_ptr_MR_VisualObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_1</em></span></td><td>)</td>
           <td></td>
@@ -1303,7 +1297,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a> * MR_ChangeVisualizePropertyAction_UpcastTo_MR_HistoryAction </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a> * MR_ChangeVisualizePropertyAction_UpcastTo_MR_HistoryAction </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a4afb08efd011be59bb864b94c4ebf52d">MR_ChangeVisualizePropertyAction</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
           <td></td>

@@ -14,12 +14,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -160,7 +154,7 @@ $(function(){initNavTree('MRChangeSceneAction_8h.html',''); initResizable(true);
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="MRHistoryAction_8h_source.html">MRCMesh/MRHistoryAction.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
-<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
 <code>#include &lt;stdint.h&gt;</code><br />
 </div>
@@ -188,34 +182,34 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a63fc1c8c830b1fd6852dfbeae5768685" id="r_a63fc1c8c830b1fd6852dfbeae5768685"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#abd1d7d1298b4c9ffc69f9cf663e836ac">MR_ChangeSceneAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a63fc1c8c830b1fd6852dfbeae5768685">MR_ChangeSceneAction_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#abd1d7d1298b4c9ffc69f9cf663e836ac">MR_ChangeSceneAction</a> *_other)</td></tr>
+<tr class="memitem:a63fc1c8c830b1fd6852dfbeae5768685" id="r_a63fc1c8c830b1fd6852dfbeae5768685"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#abd1d7d1298b4c9ffc69f9cf663e836ac">MR_ChangeSceneAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a63fc1c8c830b1fd6852dfbeae5768685">MR_ChangeSceneAction_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#abd1d7d1298b4c9ffc69f9cf663e836ac">MR_ChangeSceneAction</a> *_other)</td></tr>
 <tr class="separator:a63fc1c8c830b1fd6852dfbeae5768685"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9774030695d30e0aaa2127f91bfbcb42" id="r_a9774030695d30e0aaa2127f91bfbcb42"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#abd1d7d1298b4c9ffc69f9cf663e836ac">MR_ChangeSceneAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9774030695d30e0aaa2127f91bfbcb42">MR_ChangeSceneAction_OffsetPtr</a> (const <a class="el" href="#abd1d7d1298b4c9ffc69f9cf663e836ac">MR_ChangeSceneAction</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a9774030695d30e0aaa2127f91bfbcb42" id="r_a9774030695d30e0aaa2127f91bfbcb42"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#abd1d7d1298b4c9ffc69f9cf663e836ac">MR_ChangeSceneAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9774030695d30e0aaa2127f91bfbcb42">MR_ChangeSceneAction_OffsetPtr</a> (const <a class="el" href="#abd1d7d1298b4c9ffc69f9cf663e836ac">MR_ChangeSceneAction</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a9774030695d30e0aaa2127f91bfbcb42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a9774030695d30e0aaa2127f91bfbcb42"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ab38dfdb3d15fb18ac712d293e1c5a2" id="r_a1ab38dfdb3d15fb18ac712d293e1c5a2"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#abd1d7d1298b4c9ffc69f9cf663e836ac">MR_ChangeSceneAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ab38dfdb3d15fb18ac712d293e1c5a2">MR_ChangeSceneAction_OffsetMutablePtr</a> (<a class="el" href="#abd1d7d1298b4c9ffc69f9cf663e836ac">MR_ChangeSceneAction</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a1ab38dfdb3d15fb18ac712d293e1c5a2" id="r_a1ab38dfdb3d15fb18ac712d293e1c5a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#abd1d7d1298b4c9ffc69f9cf663e836ac">MR_ChangeSceneAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ab38dfdb3d15fb18ac712d293e1c5a2">MR_ChangeSceneAction_OffsetMutablePtr</a> (<a class="el" href="#abd1d7d1298b4c9ffc69f9cf663e836ac">MR_ChangeSceneAction</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a1ab38dfdb3d15fb18ac712d293e1c5a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a1ab38dfdb3d15fb18ac712d293e1c5a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb05e396f3ce4ae2c1b68dc1bc583259" id="r_afb05e396f3ce4ae2c1b68dc1bc583259"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afb05e396f3ce4ae2c1b68dc1bc583259">MR_ChangeSceneAction_UpcastTo_MR_HistoryAction</a> (const <a class="el" href="#abd1d7d1298b4c9ffc69f9cf663e836ac">MR_ChangeSceneAction</a> *object)</td></tr>
+<tr class="memitem:afb05e396f3ce4ae2c1b68dc1bc583259" id="r_afb05e396f3ce4ae2c1b68dc1bc583259"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afb05e396f3ce4ae2c1b68dc1bc583259">MR_ChangeSceneAction_UpcastTo_MR_HistoryAction</a> (const <a class="el" href="#abd1d7d1298b4c9ffc69f9cf663e836ac">MR_ChangeSceneAction</a> *object)</td></tr>
 <tr class="separator:afb05e396f3ce4ae2c1b68dc1bc583259"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3448c43eab16a69614d039ccf54d44e6" id="r_a3448c43eab16a69614d039ccf54d44e6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3448c43eab16a69614d039ccf54d44e6">MR_ChangeSceneAction_MutableUpcastTo_MR_HistoryAction</a> (<a class="el" href="#abd1d7d1298b4c9ffc69f9cf663e836ac">MR_ChangeSceneAction</a> *object)</td></tr>
+<tr class="memitem:a3448c43eab16a69614d039ccf54d44e6" id="r_a3448c43eab16a69614d039ccf54d44e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3448c43eab16a69614d039ccf54d44e6">MR_ChangeSceneAction_MutableUpcastTo_MR_HistoryAction</a> (<a class="el" href="#abd1d7d1298b4c9ffc69f9cf663e836ac">MR_ChangeSceneAction</a> *object)</td></tr>
 <tr class="memdesc:a3448c43eab16a69614d039ccf54d44e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1ChangeSceneAction.html">MR::ChangeSceneAction</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code>.  <br /></td></tr>
 <tr class="separator:a3448c43eab16a69614d039ccf54d44e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a03476a2ddd4b1e697018bccf2e66e363" id="r_a03476a2ddd4b1e697018bccf2e66e363"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#abd1d7d1298b4c9ffc69f9cf663e836ac">MR_ChangeSceneAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03476a2ddd4b1e697018bccf2e66e363">MR_ChangeSceneAction_Construct</a> (const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *<a class="elRef" href="../Cpp/group__HistoryGroup.html#ga6b90613818f7b81547a5b0bba1d40c39">name</a>, const <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> *obj, <a class="el" href="#a44e7d87e96b5b0397f1c71637aae2e0b">MR_ChangeSceneAction_Type</a> type)</td></tr>
+<tr class="memitem:a03476a2ddd4b1e697018bccf2e66e363" id="r_a03476a2ddd4b1e697018bccf2e66e363"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#abd1d7d1298b4c9ffc69f9cf663e836ac">MR_ChangeSceneAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03476a2ddd4b1e697018bccf2e66e363">MR_ChangeSceneAction_Construct</a> (const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *<a class="elRef" href="../Cpp/group__HistoryGroup.html#ga6b90613818f7b81547a5b0bba1d40c39">name</a>, const <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> *obj, <a class="el" href="#a44e7d87e96b5b0397f1c71637aae2e0b">MR_ChangeSceneAction_Type</a> type)</td></tr>
 <tr class="separator:a03476a2ddd4b1e697018bccf2e66e363"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adccc0db57f74e7c60053027dfd3cb34c" id="r_adccc0db57f74e7c60053027dfd3cb34c"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adccc0db57f74e7c60053027dfd3cb34c">MR_ChangeSceneAction_Destroy</a> (const <a class="el" href="#abd1d7d1298b4c9ffc69f9cf663e836ac">MR_ChangeSceneAction</a> *_this)</td></tr>
+<tr class="memitem:adccc0db57f74e7c60053027dfd3cb34c" id="r_adccc0db57f74e7c60053027dfd3cb34c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adccc0db57f74e7c60053027dfd3cb34c">MR_ChangeSceneAction_Destroy</a> (const <a class="el" href="#abd1d7d1298b4c9ffc69f9cf663e836ac">MR_ChangeSceneAction</a> *_this)</td></tr>
 <tr class="memdesc:adccc0db57f74e7c60053027dfd3cb34c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_ChangeSceneAction</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:adccc0db57f74e7c60053027dfd3cb34c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec2d5ef075f35529f5da00098291ebe3" id="r_aec2d5ef075f35529f5da00098291ebe3"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec2d5ef075f35529f5da00098291ebe3">MR_ChangeSceneAction_DestroyArray</a> (const <a class="el" href="#abd1d7d1298b4c9ffc69f9cf663e836ac">MR_ChangeSceneAction</a> *_this)</td></tr>
+<tr class="memitem:aec2d5ef075f35529f5da00098291ebe3" id="r_aec2d5ef075f35529f5da00098291ebe3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec2d5ef075f35529f5da00098291ebe3">MR_ChangeSceneAction_DestroyArray</a> (const <a class="el" href="#abd1d7d1298b4c9ffc69f9cf663e836ac">MR_ChangeSceneAction</a> *_this)</td></tr>
 <tr class="memdesc:aec2d5ef075f35529f5da00098291ebe3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_ChangeSceneAction</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:aec2d5ef075f35529f5da00098291ebe3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acac4b544f0626d8879e7161d7f133434" id="r_acac4b544f0626d8879e7161d7f133434"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#abd1d7d1298b4c9ffc69f9cf663e836ac">MR_ChangeSceneAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acac4b544f0626d8879e7161d7f133434">MR_ChangeSceneAction_AssignFromAnother</a> (<a class="el" href="#abd1d7d1298b4c9ffc69f9cf663e836ac">MR_ChangeSceneAction</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#abd1d7d1298b4c9ffc69f9cf663e836ac">MR_ChangeSceneAction</a> *_other)</td></tr>
+<tr class="memitem:acac4b544f0626d8879e7161d7f133434" id="r_acac4b544f0626d8879e7161d7f133434"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#abd1d7d1298b4c9ffc69f9cf663e836ac">MR_ChangeSceneAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acac4b544f0626d8879e7161d7f133434">MR_ChangeSceneAction_AssignFromAnother</a> (<a class="el" href="#abd1d7d1298b4c9ffc69f9cf663e836ac">MR_ChangeSceneAction</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#abd1d7d1298b4c9ffc69f9cf663e836ac">MR_ChangeSceneAction</a> *_other)</td></tr>
 <tr class="separator:acac4b544f0626d8879e7161d7f133434"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a86666f3a633ada935d54a5dc643d813d" id="r_a86666f3a633ada935d54a5dc643d813d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86666f3a633ada935d54a5dc643d813d">MR_ChangeSceneAction_name</a> (const <a class="el" href="#abd1d7d1298b4c9ffc69f9cf663e836ac">MR_ChangeSceneAction</a> *_this)</td></tr>
+<tr class="memitem:a86666f3a633ada935d54a5dc643d813d" id="r_a86666f3a633ada935d54a5dc643d813d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86666f3a633ada935d54a5dc643d813d">MR_ChangeSceneAction_name</a> (const <a class="el" href="#abd1d7d1298b4c9ffc69f9cf663e836ac">MR_ChangeSceneAction</a> *_this)</td></tr>
 <tr class="separator:a86666f3a633ada935d54a5dc643d813d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae1f71bbb2a9130c2170f33ae02a30bb3" id="r_ae1f71bbb2a9130c2170f33ae02a30bb3"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1f71bbb2a9130c2170f33ae02a30bb3">MR_ChangeSceneAction_action</a> (<a class="el" href="#abd1d7d1298b4c9ffc69f9cf663e836ac">MR_ChangeSceneAction</a> *_this, <a class="el" href="MRHistoryAction_8h.html#aa6545a91fb04c0c7a224383de1b0d1dc">MR_HistoryAction_Type</a> actionType)</td></tr>
+<tr class="memitem:ae1f71bbb2a9130c2170f33ae02a30bb3" id="r_ae1f71bbb2a9130c2170f33ae02a30bb3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1f71bbb2a9130c2170f33ae02a30bb3">MR_ChangeSceneAction_action</a> (<a class="el" href="#abd1d7d1298b4c9ffc69f9cf663e836ac">MR_ChangeSceneAction</a> *_this, <a class="el" href="MRHistoryAction_8h.html#aa6545a91fb04c0c7a224383de1b0d1dc">MR_HistoryAction_Type</a> actionType)</td></tr>
 <tr class="separator:ae1f71bbb2a9130c2170f33ae02a30bb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8eefd68335567d8602b501730caa2838" id="r_a8eefd68335567d8602b501730caa2838"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8eefd68335567d8602b501730caa2838">MR_ChangeSceneAction_heapBytes</a> (const <a class="el" href="#abd1d7d1298b4c9ffc69f9cf663e836ac">MR_ChangeSceneAction</a> *_this)</td></tr>
+<tr class="memitem:a8eefd68335567d8602b501730caa2838" id="r_a8eefd68335567d8602b501730caa2838"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8eefd68335567d8602b501730caa2838">MR_ChangeSceneAction_heapBytes</a> (const <a class="el" href="#abd1d7d1298b4c9ffc69f9cf663e836ac">MR_ChangeSceneAction</a> *_this)</td></tr>
 <tr class="separator:a8eefd68335567d8602b501730caa2838"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -317,7 +311,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_ChangeSceneAction_action </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_ChangeSceneAction_action </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#abd1d7d1298b4c9ffc69f9cf663e836ac">MR_ChangeSceneAction</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -339,7 +333,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#abd1d7d1298b4c9ffc69f9cf663e836ac">MR_ChangeSceneAction</a> * MR_ChangeSceneAction_AssignFromAnother </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#abd1d7d1298b4c9ffc69f9cf663e836ac">MR_ChangeSceneAction</a> * MR_ChangeSceneAction_AssignFromAnother </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#abd1d7d1298b4c9ffc69f9cf663e836ac">MR_ChangeSceneAction</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -366,7 +360,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#abd1d7d1298b4c9ffc69f9cf663e836ac">MR_ChangeSceneAction</a> * MR_ChangeSceneAction_Construct </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#abd1d7d1298b4c9ffc69f9cf663e836ac">MR_ChangeSceneAction</a> * MR_ChangeSceneAction_Construct </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
         </tr>
@@ -393,7 +387,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#abd1d7d1298b4c9ffc69f9cf663e836ac">MR_ChangeSceneAction</a> * MR_ChangeSceneAction_ConstructFromAnother </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#abd1d7d1298b4c9ffc69f9cf663e836ac">MR_ChangeSceneAction</a> * MR_ChangeSceneAction_ConstructFromAnother </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
         </tr>
@@ -415,7 +409,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_ChangeSceneAction_Destroy </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_ChangeSceneAction_Destroy </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#abd1d7d1298b4c9ffc69f9cf663e836ac">MR_ChangeSceneAction</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -434,7 +428,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_ChangeSceneAction_DestroyArray </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_ChangeSceneAction_DestroyArray </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#abd1d7d1298b4c9ffc69f9cf663e836ac">MR_ChangeSceneAction</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -453,7 +447,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> MR_ChangeSceneAction_heapBytes </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> MR_ChangeSceneAction_heapBytes </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#abd1d7d1298b4c9ffc69f9cf663e836ac">MR_ChangeSceneAction</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -471,7 +465,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a> * MR_ChangeSceneAction_MutableUpcastTo_MR_HistoryAction </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a> * MR_ChangeSceneAction_MutableUpcastTo_MR_HistoryAction </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#abd1d7d1298b4c9ffc69f9cf663e836ac">MR_ChangeSceneAction</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
           <td></td>
@@ -490,7 +484,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_ChangeSceneAction_name </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_ChangeSceneAction_name </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#abd1d7d1298b4c9ffc69f9cf663e836ac">MR_ChangeSceneAction</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -508,7 +502,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#abd1d7d1298b4c9ffc69f9cf663e836ac">MR_ChangeSceneAction</a> * MR_ChangeSceneAction_OffsetMutablePtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#abd1d7d1298b4c9ffc69f9cf663e836ac">MR_ChangeSceneAction</a> * MR_ChangeSceneAction_OffsetMutablePtr </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#abd1d7d1298b4c9ffc69f9cf663e836ac">MR_ChangeSceneAction</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -531,7 +525,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="#abd1d7d1298b4c9ffc69f9cf663e836ac">MR_ChangeSceneAction</a> * MR_ChangeSceneAction_OffsetPtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#abd1d7d1298b4c9ffc69f9cf663e836ac">MR_ChangeSceneAction</a> * MR_ChangeSceneAction_OffsetPtr </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#abd1d7d1298b4c9ffc69f9cf663e836ac">MR_ChangeSceneAction</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -554,7 +548,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a> * MR_ChangeSceneAction_UpcastTo_MR_HistoryAction </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a> * MR_ChangeSceneAction_UpcastTo_MR_HistoryAction </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#abd1d7d1298b4c9ffc69f9cf663e836ac">MR_ChangeSceneAction</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
           <td></td>

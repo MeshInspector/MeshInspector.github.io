@@ -14,12 +14,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -158,7 +152,7 @@ $(function(){initNavTree('MRContour_8h.html',''); initResizable(true); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="MRVector3_8h_source.html">MRCMesh/MRVector3.h</a>&gt;</code><br />
-<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 </div>
 <p><a href="MRContour_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -183,85 +177,85 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a8780a0ec01d860faae462a69b98b1696" id="r_a8780a0ec01d860faae462a69b98b1696"><td class="memItemLeft" align="right" valign="top">MRC_API float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8780a0ec01d860faae462a69b98b1696">MR_calcOrientedArea_float_float_std_vector_MR_Vector2f</a> (const <a class="el" href="#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a> *contour)</td></tr>
+<tr class="memitem:a8780a0ec01d860faae462a69b98b1696" id="r_a8780a0ec01d860faae462a69b98b1696"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8780a0ec01d860faae462a69b98b1696">MR_calcOrientedArea_float_float_std_vector_MR_Vector2f</a> (const <a class="el" href="#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a> *contour)</td></tr>
 <tr class="separator:a8780a0ec01d860faae462a69b98b1696"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e21fab93a593f7ce26d3febcb0c7fd7" id="r_a8e21fab93a593f7ce26d3febcb0c7fd7"><td class="memItemLeft" align="right" valign="top">MRC_API double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e21fab93a593f7ce26d3febcb0c7fd7">MR_calcOrientedArea_double_double_std_vector_MR_Vector2d</a> (const <a class="el" href="#af7de7b4db973d11bf60ee592f1fff70e">MR_std_vector_MR_Vector2d</a> *contour)</td></tr>
+<tr class="memitem:a8e21fab93a593f7ce26d3febcb0c7fd7" id="r_a8e21fab93a593f7ce26d3febcb0c7fd7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e21fab93a593f7ce26d3febcb0c7fd7">MR_calcOrientedArea_double_double_std_vector_MR_Vector2d</a> (const <a class="el" href="#af7de7b4db973d11bf60ee592f1fff70e">MR_std_vector_MR_Vector2d</a> *contour)</td></tr>
 <tr class="separator:a8e21fab93a593f7ce26d3febcb0c7fd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeafa317753000656a3984c5372691b35" id="r_aeafa317753000656a3984c5372691b35"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeafa317753000656a3984c5372691b35">MR_calcOrientedArea_float_float_std_vector_MR_Vector3f</a> (const <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *contour)</td></tr>
+<tr class="memitem:aeafa317753000656a3984c5372691b35" id="r_aeafa317753000656a3984c5372691b35"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeafa317753000656a3984c5372691b35">MR_calcOrientedArea_float_float_std_vector_MR_Vector3f</a> (const <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *contour)</td></tr>
 <tr class="separator:aeafa317753000656a3984c5372691b35"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac724e0880ee930d6135b777d8f488ebc" id="r_ac724e0880ee930d6135b777d8f488ebc"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac724e0880ee930d6135b777d8f488ebc">MR_calcOrientedArea_double_double_std_vector_MR_Vector3d</a> (const <a class="el" href="#a5d89d0b00a747b263e81d4999e8ed90b">MR_std_vector_MR_Vector3d</a> *contour)</td></tr>
+<tr class="memitem:ac724e0880ee930d6135b777d8f488ebc" id="r_ac724e0880ee930d6135b777d8f488ebc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac724e0880ee930d6135b777d8f488ebc">MR_calcOrientedArea_double_double_std_vector_MR_Vector3d</a> (const <a class="el" href="#a5d89d0b00a747b263e81d4999e8ed90b">MR_std_vector_MR_Vector3d</a> *contour)</td></tr>
 <tr class="separator:ac724e0880ee930d6135b777d8f488ebc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf22f8e0c01ae7431153659eb518058a" id="r_adf22f8e0c01ae7431153659eb518058a"><td class="memItemLeft" align="right" valign="top">MRC_API float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf22f8e0c01ae7431153659eb518058a">MR_calcLength_MR_Vector2f_float</a> (const <a class="el" href="#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a> *contour)</td></tr>
+<tr class="memitem:adf22f8e0c01ae7431153659eb518058a" id="r_adf22f8e0c01ae7431153659eb518058a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf22f8e0c01ae7431153659eb518058a">MR_calcLength_MR_Vector2f_float</a> (const <a class="el" href="#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a> *contour)</td></tr>
 <tr class="separator:adf22f8e0c01ae7431153659eb518058a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c745739e600bc97f0898cdb43580ece" id="r_a4c745739e600bc97f0898cdb43580ece"><td class="memItemLeft" align="right" valign="top">MRC_API double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c745739e600bc97f0898cdb43580ece">MR_calcLength_MR_Vector2d_double</a> (const <a class="el" href="#af7de7b4db973d11bf60ee592f1fff70e">MR_std_vector_MR_Vector2d</a> *contour)</td></tr>
+<tr class="memitem:a4c745739e600bc97f0898cdb43580ece" id="r_a4c745739e600bc97f0898cdb43580ece"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c745739e600bc97f0898cdb43580ece">MR_calcLength_MR_Vector2d_double</a> (const <a class="el" href="#af7de7b4db973d11bf60ee592f1fff70e">MR_std_vector_MR_Vector2d</a> *contour)</td></tr>
 <tr class="separator:a4c745739e600bc97f0898cdb43580ece"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1dc15b6d770ba7f8de23c90b226a47e5" id="r_a1dc15b6d770ba7f8de23c90b226a47e5"><td class="memItemLeft" align="right" valign="top">MRC_API float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1dc15b6d770ba7f8de23c90b226a47e5">MR_calcLength_MR_Vector3f_float</a> (const <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *contour)</td></tr>
+<tr class="memitem:a1dc15b6d770ba7f8de23c90b226a47e5" id="r_a1dc15b6d770ba7f8de23c90b226a47e5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1dc15b6d770ba7f8de23c90b226a47e5">MR_calcLength_MR_Vector3f_float</a> (const <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *contour)</td></tr>
 <tr class="separator:a1dc15b6d770ba7f8de23c90b226a47e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf4fe12924808bf401accfd06976f762" id="r_aaf4fe12924808bf401accfd06976f762"><td class="memItemLeft" align="right" valign="top">MRC_API double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf4fe12924808bf401accfd06976f762">MR_calcLength_MR_Vector3d_double</a> (const <a class="el" href="#a5d89d0b00a747b263e81d4999e8ed90b">MR_std_vector_MR_Vector3d</a> *contour)</td></tr>
+<tr class="memitem:aaf4fe12924808bf401accfd06976f762" id="r_aaf4fe12924808bf401accfd06976f762"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf4fe12924808bf401accfd06976f762">MR_calcLength_MR_Vector3d_double</a> (const <a class="el" href="#a5d89d0b00a747b263e81d4999e8ed90b">MR_std_vector_MR_Vector3d</a> *contour)</td></tr>
 <tr class="separator:aaf4fe12924808bf401accfd06976f762"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a84e22c8b9bb38e13693602be1e2f72f8" id="r_a84e22c8b9bb38e13693602be1e2f72f8"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84e22c8b9bb38e13693602be1e2f72f8">MR_convertContourTo2f_std_vector_MR_Vector2f</a> (const <a class="el" href="#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a> *from)</td></tr>
+<tr class="memitem:a84e22c8b9bb38e13693602be1e2f72f8" id="r_a84e22c8b9bb38e13693602be1e2f72f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84e22c8b9bb38e13693602be1e2f72f8">MR_convertContourTo2f_std_vector_MR_Vector2f</a> (const <a class="el" href="#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a> *from)</td></tr>
 <tr class="separator:a84e22c8b9bb38e13693602be1e2f72f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1aa567137a7c5e7968b54d0ffc18710f" id="r_a1aa567137a7c5e7968b54d0ffc18710f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1aa567137a7c5e7968b54d0ffc18710f">MR_convertContourTo2f_std_vector_MR_Vector2d</a> (const <a class="el" href="#af7de7b4db973d11bf60ee592f1fff70e">MR_std_vector_MR_Vector2d</a> *from)</td></tr>
+<tr class="memitem:a1aa567137a7c5e7968b54d0ffc18710f" id="r_a1aa567137a7c5e7968b54d0ffc18710f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1aa567137a7c5e7968b54d0ffc18710f">MR_convertContourTo2f_std_vector_MR_Vector2d</a> (const <a class="el" href="#af7de7b4db973d11bf60ee592f1fff70e">MR_std_vector_MR_Vector2d</a> *from)</td></tr>
 <tr class="separator:a1aa567137a7c5e7968b54d0ffc18710f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae1e727866e4a31b30928af7271dac2e4" id="r_ae1e727866e4a31b30928af7271dac2e4"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1e727866e4a31b30928af7271dac2e4">MR_convertContourTo2f_std_vector_MR_Vector3f</a> (const <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *from)</td></tr>
+<tr class="memitem:ae1e727866e4a31b30928af7271dac2e4" id="r_ae1e727866e4a31b30928af7271dac2e4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1e727866e4a31b30928af7271dac2e4">MR_convertContourTo2f_std_vector_MR_Vector3f</a> (const <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *from)</td></tr>
 <tr class="separator:ae1e727866e4a31b30928af7271dac2e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab818cafc1b8fef11ea55a479bdca2a55" id="r_ab818cafc1b8fef11ea55a479bdca2a55"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab818cafc1b8fef11ea55a479bdca2a55">MR_convertContourTo2f_std_vector_MR_Vector3d</a> (const <a class="el" href="#a5d89d0b00a747b263e81d4999e8ed90b">MR_std_vector_MR_Vector3d</a> *from)</td></tr>
+<tr class="memitem:ab818cafc1b8fef11ea55a479bdca2a55" id="r_ab818cafc1b8fef11ea55a479bdca2a55"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab818cafc1b8fef11ea55a479bdca2a55">MR_convertContourTo2f_std_vector_MR_Vector3d</a> (const <a class="el" href="#a5d89d0b00a747b263e81d4999e8ed90b">MR_std_vector_MR_Vector3d</a> *from)</td></tr>
 <tr class="separator:ab818cafc1b8fef11ea55a479bdca2a55"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8145ec4bed0298a2808adafe10b33493" id="r_a8145ec4bed0298a2808adafe10b33493"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8145ec4bed0298a2808adafe10b33493">MR_convertContourTo3f_std_vector_MR_Vector2f</a> (const <a class="el" href="#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a> *from)</td></tr>
+<tr class="memitem:a8145ec4bed0298a2808adafe10b33493" id="r_a8145ec4bed0298a2808adafe10b33493"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8145ec4bed0298a2808adafe10b33493">MR_convertContourTo3f_std_vector_MR_Vector2f</a> (const <a class="el" href="#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a> *from)</td></tr>
 <tr class="separator:a8145ec4bed0298a2808adafe10b33493"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5778e00a3a556624861e6855c3e62f66" id="r_a5778e00a3a556624861e6855c3e62f66"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5778e00a3a556624861e6855c3e62f66">MR_convertContourTo3f_std_vector_MR_Vector2d</a> (const <a class="el" href="#af7de7b4db973d11bf60ee592f1fff70e">MR_std_vector_MR_Vector2d</a> *from)</td></tr>
+<tr class="memitem:a5778e00a3a556624861e6855c3e62f66" id="r_a5778e00a3a556624861e6855c3e62f66"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5778e00a3a556624861e6855c3e62f66">MR_convertContourTo3f_std_vector_MR_Vector2d</a> (const <a class="el" href="#af7de7b4db973d11bf60ee592f1fff70e">MR_std_vector_MR_Vector2d</a> *from)</td></tr>
 <tr class="separator:a5778e00a3a556624861e6855c3e62f66"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a477ead64d4e21c3917260c0dc172ebe7" id="r_a477ead64d4e21c3917260c0dc172ebe7"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a477ead64d4e21c3917260c0dc172ebe7">MR_convertContourTo3f_std_vector_MR_Vector3f</a> (const <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *from)</td></tr>
+<tr class="memitem:a477ead64d4e21c3917260c0dc172ebe7" id="r_a477ead64d4e21c3917260c0dc172ebe7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a477ead64d4e21c3917260c0dc172ebe7">MR_convertContourTo3f_std_vector_MR_Vector3f</a> (const <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *from)</td></tr>
 <tr class="separator:a477ead64d4e21c3917260c0dc172ebe7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a87b2bcd87bfc86e8d5194b09fbf216b5" id="r_a87b2bcd87bfc86e8d5194b09fbf216b5"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a87b2bcd87bfc86e8d5194b09fbf216b5">MR_convertContourTo3f_std_vector_MR_Vector3d</a> (const <a class="el" href="#a5d89d0b00a747b263e81d4999e8ed90b">MR_std_vector_MR_Vector3d</a> *from)</td></tr>
+<tr class="memitem:a87b2bcd87bfc86e8d5194b09fbf216b5" id="r_a87b2bcd87bfc86e8d5194b09fbf216b5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a87b2bcd87bfc86e8d5194b09fbf216b5">MR_convertContourTo3f_std_vector_MR_Vector3d</a> (const <a class="el" href="#a5d89d0b00a747b263e81d4999e8ed90b">MR_std_vector_MR_Vector3d</a> *from)</td></tr>
 <tr class="separator:a87b2bcd87bfc86e8d5194b09fbf216b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa10d0bc71ba2207f2f55e1c318e1dee7" id="r_aa10d0bc71ba2207f2f55e1c318e1dee7"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#af7de7b4db973d11bf60ee592f1fff70e">MR_std_vector_MR_Vector2d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa10d0bc71ba2207f2f55e1c318e1dee7">MR_convertContourTo2d_std_vector_MR_Vector2f</a> (const <a class="el" href="#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a> *from)</td></tr>
+<tr class="memitem:aa10d0bc71ba2207f2f55e1c318e1dee7" id="r_aa10d0bc71ba2207f2f55e1c318e1dee7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af7de7b4db973d11bf60ee592f1fff70e">MR_std_vector_MR_Vector2d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa10d0bc71ba2207f2f55e1c318e1dee7">MR_convertContourTo2d_std_vector_MR_Vector2f</a> (const <a class="el" href="#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a> *from)</td></tr>
 <tr class="separator:aa10d0bc71ba2207f2f55e1c318e1dee7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afc14bc48b9d7dd4af220a9c468ebc7c8" id="r_afc14bc48b9d7dd4af220a9c468ebc7c8"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#af7de7b4db973d11bf60ee592f1fff70e">MR_std_vector_MR_Vector2d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc14bc48b9d7dd4af220a9c468ebc7c8">MR_convertContourTo2d_std_vector_MR_Vector2d</a> (const <a class="el" href="#af7de7b4db973d11bf60ee592f1fff70e">MR_std_vector_MR_Vector2d</a> *from)</td></tr>
+<tr class="memitem:afc14bc48b9d7dd4af220a9c468ebc7c8" id="r_afc14bc48b9d7dd4af220a9c468ebc7c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af7de7b4db973d11bf60ee592f1fff70e">MR_std_vector_MR_Vector2d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc14bc48b9d7dd4af220a9c468ebc7c8">MR_convertContourTo2d_std_vector_MR_Vector2d</a> (const <a class="el" href="#af7de7b4db973d11bf60ee592f1fff70e">MR_std_vector_MR_Vector2d</a> *from)</td></tr>
 <tr class="separator:afc14bc48b9d7dd4af220a9c468ebc7c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a20977dcc623ac6777d353b525f79fc" id="r_a5a20977dcc623ac6777d353b525f79fc"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#af7de7b4db973d11bf60ee592f1fff70e">MR_std_vector_MR_Vector2d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a20977dcc623ac6777d353b525f79fc">MR_convertContourTo2d_std_vector_MR_Vector3f</a> (const <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *from)</td></tr>
+<tr class="memitem:a5a20977dcc623ac6777d353b525f79fc" id="r_a5a20977dcc623ac6777d353b525f79fc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af7de7b4db973d11bf60ee592f1fff70e">MR_std_vector_MR_Vector2d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a20977dcc623ac6777d353b525f79fc">MR_convertContourTo2d_std_vector_MR_Vector3f</a> (const <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *from)</td></tr>
 <tr class="separator:a5a20977dcc623ac6777d353b525f79fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f25da57fb28cc5c790dc697ae20a375" id="r_a9f25da57fb28cc5c790dc697ae20a375"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#af7de7b4db973d11bf60ee592f1fff70e">MR_std_vector_MR_Vector2d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f25da57fb28cc5c790dc697ae20a375">MR_convertContourTo2d_std_vector_MR_Vector3d</a> (const <a class="el" href="#a5d89d0b00a747b263e81d4999e8ed90b">MR_std_vector_MR_Vector3d</a> *from)</td></tr>
+<tr class="memitem:a9f25da57fb28cc5c790dc697ae20a375" id="r_a9f25da57fb28cc5c790dc697ae20a375"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af7de7b4db973d11bf60ee592f1fff70e">MR_std_vector_MR_Vector2d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f25da57fb28cc5c790dc697ae20a375">MR_convertContourTo2d_std_vector_MR_Vector3d</a> (const <a class="el" href="#a5d89d0b00a747b263e81d4999e8ed90b">MR_std_vector_MR_Vector3d</a> *from)</td></tr>
 <tr class="separator:a9f25da57fb28cc5c790dc697ae20a375"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a837eb9fce0b9ea816c00c83978c8b40c" id="r_a837eb9fce0b9ea816c00c83978c8b40c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a5d89d0b00a747b263e81d4999e8ed90b">MR_std_vector_MR_Vector3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a837eb9fce0b9ea816c00c83978c8b40c">MR_convertContourTo3d_std_vector_MR_Vector2f</a> (const <a class="el" href="#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a> *from)</td></tr>
+<tr class="memitem:a837eb9fce0b9ea816c00c83978c8b40c" id="r_a837eb9fce0b9ea816c00c83978c8b40c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a5d89d0b00a747b263e81d4999e8ed90b">MR_std_vector_MR_Vector3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a837eb9fce0b9ea816c00c83978c8b40c">MR_convertContourTo3d_std_vector_MR_Vector2f</a> (const <a class="el" href="#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a> *from)</td></tr>
 <tr class="separator:a837eb9fce0b9ea816c00c83978c8b40c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a213b78791855f2fee4b8b81f46833bf7" id="r_a213b78791855f2fee4b8b81f46833bf7"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a5d89d0b00a747b263e81d4999e8ed90b">MR_std_vector_MR_Vector3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a213b78791855f2fee4b8b81f46833bf7">MR_convertContourTo3d_std_vector_MR_Vector2d</a> (const <a class="el" href="#af7de7b4db973d11bf60ee592f1fff70e">MR_std_vector_MR_Vector2d</a> *from)</td></tr>
+<tr class="memitem:a213b78791855f2fee4b8b81f46833bf7" id="r_a213b78791855f2fee4b8b81f46833bf7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a5d89d0b00a747b263e81d4999e8ed90b">MR_std_vector_MR_Vector3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a213b78791855f2fee4b8b81f46833bf7">MR_convertContourTo3d_std_vector_MR_Vector2d</a> (const <a class="el" href="#af7de7b4db973d11bf60ee592f1fff70e">MR_std_vector_MR_Vector2d</a> *from)</td></tr>
 <tr class="separator:a213b78791855f2fee4b8b81f46833bf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a34dd89b82403217a0743ce43283afe77" id="r_a34dd89b82403217a0743ce43283afe77"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a5d89d0b00a747b263e81d4999e8ed90b">MR_std_vector_MR_Vector3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34dd89b82403217a0743ce43283afe77">MR_convertContourTo3d_std_vector_MR_Vector3f</a> (const <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *from)</td></tr>
+<tr class="memitem:a34dd89b82403217a0743ce43283afe77" id="r_a34dd89b82403217a0743ce43283afe77"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a5d89d0b00a747b263e81d4999e8ed90b">MR_std_vector_MR_Vector3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34dd89b82403217a0743ce43283afe77">MR_convertContourTo3d_std_vector_MR_Vector3f</a> (const <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *from)</td></tr>
 <tr class="separator:a34dd89b82403217a0743ce43283afe77"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab4f2a13cbcf1da9a9e0ae11d79091028" id="r_ab4f2a13cbcf1da9a9e0ae11d79091028"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a5d89d0b00a747b263e81d4999e8ed90b">MR_std_vector_MR_Vector3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4f2a13cbcf1da9a9e0ae11d79091028">MR_convertContourTo3d_std_vector_MR_Vector3d</a> (const <a class="el" href="#a5d89d0b00a747b263e81d4999e8ed90b">MR_std_vector_MR_Vector3d</a> *from)</td></tr>
+<tr class="memitem:ab4f2a13cbcf1da9a9e0ae11d79091028" id="r_ab4f2a13cbcf1da9a9e0ae11d79091028"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a5d89d0b00a747b263e81d4999e8ed90b">MR_std_vector_MR_Vector3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4f2a13cbcf1da9a9e0ae11d79091028">MR_convertContourTo3d_std_vector_MR_Vector3d</a> (const <a class="el" href="#a5d89d0b00a747b263e81d4999e8ed90b">MR_std_vector_MR_Vector3d</a> *from)</td></tr>
 <tr class="separator:ab4f2a13cbcf1da9a9e0ae11d79091028"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa95e3e23cfbf3867cd27772866d876f3" id="r_aa95e3e23cfbf3867cd27772866d876f3"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa95e3e23cfbf3867cd27772866d876f3">MR_convertContoursTo2f_std_vector_std_vector_MR_Vector2f</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *from)</td></tr>
+<tr class="memitem:aa95e3e23cfbf3867cd27772866d876f3" id="r_aa95e3e23cfbf3867cd27772866d876f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa95e3e23cfbf3867cd27772866d876f3">MR_convertContoursTo2f_std_vector_std_vector_MR_Vector2f</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *from)</td></tr>
 <tr class="separator:aa95e3e23cfbf3867cd27772866d876f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae0567bd1878b61399a5194758ad80730" id="r_ae0567bd1878b61399a5194758ad80730"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae0567bd1878b61399a5194758ad80730">MR_convertContoursTo2f_std_vector_std_vector_MR_Vector2d</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#a8e55692f157422c7881b4d55c583d9df">MR_std_vector_std_vector_MR_Vector2d</a> *from)</td></tr>
+<tr class="memitem:ae0567bd1878b61399a5194758ad80730" id="r_ae0567bd1878b61399a5194758ad80730"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae0567bd1878b61399a5194758ad80730">MR_convertContoursTo2f_std_vector_std_vector_MR_Vector2d</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#a8e55692f157422c7881b4d55c583d9df">MR_std_vector_std_vector_MR_Vector2d</a> *from)</td></tr>
 <tr class="separator:ae0567bd1878b61399a5194758ad80730"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4dec4402ac3423415a48c20f93773329" id="r_a4dec4402ac3423415a48c20f93773329"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4dec4402ac3423415a48c20f93773329">MR_convertContoursTo2f_std_vector_std_vector_MR_Vector3f</a> (const <a class="el" href="#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> *from)</td></tr>
+<tr class="memitem:a4dec4402ac3423415a48c20f93773329" id="r_a4dec4402ac3423415a48c20f93773329"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4dec4402ac3423415a48c20f93773329">MR_convertContoursTo2f_std_vector_std_vector_MR_Vector3f</a> (const <a class="el" href="#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> *from)</td></tr>
 <tr class="separator:a4dec4402ac3423415a48c20f93773329"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee446244f4f001325d55241197ab0e9e" id="r_aee446244f4f001325d55241197ab0e9e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee446244f4f001325d55241197ab0e9e">MR_convertContoursTo2f_std_vector_std_vector_MR_Vector3d</a> (const <a class="el" href="#aa0c7c77418cae72106564e939421bb39">MR_std_vector_std_vector_MR_Vector3d</a> *from)</td></tr>
+<tr class="memitem:aee446244f4f001325d55241197ab0e9e" id="r_aee446244f4f001325d55241197ab0e9e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee446244f4f001325d55241197ab0e9e">MR_convertContoursTo2f_std_vector_std_vector_MR_Vector3d</a> (const <a class="el" href="#aa0c7c77418cae72106564e939421bb39">MR_std_vector_std_vector_MR_Vector3d</a> *from)</td></tr>
 <tr class="separator:aee446244f4f001325d55241197ab0e9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9230b0b900dcca27b6f135223efdf2a6" id="r_a9230b0b900dcca27b6f135223efdf2a6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9230b0b900dcca27b6f135223efdf2a6">MR_convertContoursTo3f_std_vector_std_vector_MR_Vector2f</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *from)</td></tr>
+<tr class="memitem:a9230b0b900dcca27b6f135223efdf2a6" id="r_a9230b0b900dcca27b6f135223efdf2a6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9230b0b900dcca27b6f135223efdf2a6">MR_convertContoursTo3f_std_vector_std_vector_MR_Vector2f</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *from)</td></tr>
 <tr class="separator:a9230b0b900dcca27b6f135223efdf2a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a56aeb003692e32ce14a37ece02b427c1" id="r_a56aeb003692e32ce14a37ece02b427c1"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56aeb003692e32ce14a37ece02b427c1">MR_convertContoursTo3f_std_vector_std_vector_MR_Vector2d</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#a8e55692f157422c7881b4d55c583d9df">MR_std_vector_std_vector_MR_Vector2d</a> *from)</td></tr>
+<tr class="memitem:a56aeb003692e32ce14a37ece02b427c1" id="r_a56aeb003692e32ce14a37ece02b427c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56aeb003692e32ce14a37ece02b427c1">MR_convertContoursTo3f_std_vector_std_vector_MR_Vector2d</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#a8e55692f157422c7881b4d55c583d9df">MR_std_vector_std_vector_MR_Vector2d</a> *from)</td></tr>
 <tr class="separator:a56aeb003692e32ce14a37ece02b427c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a421acf46d54d10c4a5fd56139286840f" id="r_a421acf46d54d10c4a5fd56139286840f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a421acf46d54d10c4a5fd56139286840f">MR_convertContoursTo3f_std_vector_std_vector_MR_Vector3f</a> (const <a class="el" href="#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> *from)</td></tr>
+<tr class="memitem:a421acf46d54d10c4a5fd56139286840f" id="r_a421acf46d54d10c4a5fd56139286840f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a421acf46d54d10c4a5fd56139286840f">MR_convertContoursTo3f_std_vector_std_vector_MR_Vector3f</a> (const <a class="el" href="#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> *from)</td></tr>
 <tr class="separator:a421acf46d54d10c4a5fd56139286840f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04ce595f348969d882282fda6631bb33" id="r_a04ce595f348969d882282fda6631bb33"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04ce595f348969d882282fda6631bb33">MR_convertContoursTo3f_std_vector_std_vector_MR_Vector3d</a> (const <a class="el" href="#aa0c7c77418cae72106564e939421bb39">MR_std_vector_std_vector_MR_Vector3d</a> *from)</td></tr>
+<tr class="memitem:a04ce595f348969d882282fda6631bb33" id="r_a04ce595f348969d882282fda6631bb33"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04ce595f348969d882282fda6631bb33">MR_convertContoursTo3f_std_vector_std_vector_MR_Vector3d</a> (const <a class="el" href="#aa0c7c77418cae72106564e939421bb39">MR_std_vector_std_vector_MR_Vector3d</a> *from)</td></tr>
 <tr class="separator:a04ce595f348969d882282fda6631bb33"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8aae2fe2257076be097fa7c40098f769" id="r_a8aae2fe2257076be097fa7c40098f769"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MR2DContoursTriangulation_8h.html#a8e55692f157422c7881b4d55c583d9df">MR_std_vector_std_vector_MR_Vector2d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8aae2fe2257076be097fa7c40098f769">MR_convertContoursTo2d_std_vector_std_vector_MR_Vector2f</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *from)</td></tr>
+<tr class="memitem:a8aae2fe2257076be097fa7c40098f769" id="r_a8aae2fe2257076be097fa7c40098f769"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MR2DContoursTriangulation_8h.html#a8e55692f157422c7881b4d55c583d9df">MR_std_vector_std_vector_MR_Vector2d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8aae2fe2257076be097fa7c40098f769">MR_convertContoursTo2d_std_vector_std_vector_MR_Vector2f</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *from)</td></tr>
 <tr class="separator:a8aae2fe2257076be097fa7c40098f769"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a982ce4003fbda8de1762c6ba5adb9eee" id="r_a982ce4003fbda8de1762c6ba5adb9eee"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MR2DContoursTriangulation_8h.html#a8e55692f157422c7881b4d55c583d9df">MR_std_vector_std_vector_MR_Vector2d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a982ce4003fbda8de1762c6ba5adb9eee">MR_convertContoursTo2d_std_vector_std_vector_MR_Vector2d</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#a8e55692f157422c7881b4d55c583d9df">MR_std_vector_std_vector_MR_Vector2d</a> *from)</td></tr>
+<tr class="memitem:a982ce4003fbda8de1762c6ba5adb9eee" id="r_a982ce4003fbda8de1762c6ba5adb9eee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MR2DContoursTriangulation_8h.html#a8e55692f157422c7881b4d55c583d9df">MR_std_vector_std_vector_MR_Vector2d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a982ce4003fbda8de1762c6ba5adb9eee">MR_convertContoursTo2d_std_vector_std_vector_MR_Vector2d</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#a8e55692f157422c7881b4d55c583d9df">MR_std_vector_std_vector_MR_Vector2d</a> *from)</td></tr>
 <tr class="separator:a982ce4003fbda8de1762c6ba5adb9eee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a634edbc720bbe0ce929505de0e8949d7" id="r_a634edbc720bbe0ce929505de0e8949d7"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MR2DContoursTriangulation_8h.html#a8e55692f157422c7881b4d55c583d9df">MR_std_vector_std_vector_MR_Vector2d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a634edbc720bbe0ce929505de0e8949d7">MR_convertContoursTo2d_std_vector_std_vector_MR_Vector3f</a> (const <a class="el" href="#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> *from)</td></tr>
+<tr class="memitem:a634edbc720bbe0ce929505de0e8949d7" id="r_a634edbc720bbe0ce929505de0e8949d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MR2DContoursTriangulation_8h.html#a8e55692f157422c7881b4d55c583d9df">MR_std_vector_std_vector_MR_Vector2d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a634edbc720bbe0ce929505de0e8949d7">MR_convertContoursTo2d_std_vector_std_vector_MR_Vector3f</a> (const <a class="el" href="#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> *from)</td></tr>
 <tr class="separator:a634edbc720bbe0ce929505de0e8949d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a254d57fce9801f1cec4ceeda4db1dc70" id="r_a254d57fce9801f1cec4ceeda4db1dc70"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MR2DContoursTriangulation_8h.html#a8e55692f157422c7881b4d55c583d9df">MR_std_vector_std_vector_MR_Vector2d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a254d57fce9801f1cec4ceeda4db1dc70">MR_convertContoursTo2d_std_vector_std_vector_MR_Vector3d</a> (const <a class="el" href="#aa0c7c77418cae72106564e939421bb39">MR_std_vector_std_vector_MR_Vector3d</a> *from)</td></tr>
+<tr class="memitem:a254d57fce9801f1cec4ceeda4db1dc70" id="r_a254d57fce9801f1cec4ceeda4db1dc70"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MR2DContoursTriangulation_8h.html#a8e55692f157422c7881b4d55c583d9df">MR_std_vector_std_vector_MR_Vector2d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a254d57fce9801f1cec4ceeda4db1dc70">MR_convertContoursTo2d_std_vector_std_vector_MR_Vector3d</a> (const <a class="el" href="#aa0c7c77418cae72106564e939421bb39">MR_std_vector_std_vector_MR_Vector3d</a> *from)</td></tr>
 <tr class="separator:a254d57fce9801f1cec4ceeda4db1dc70"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a78ded3bd32cac36dd3082868536eba8b" id="r_a78ded3bd32cac36dd3082868536eba8b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aa0c7c77418cae72106564e939421bb39">MR_std_vector_std_vector_MR_Vector3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78ded3bd32cac36dd3082868536eba8b">MR_convertContoursTo3d_std_vector_std_vector_MR_Vector2f</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *from)</td></tr>
+<tr class="memitem:a78ded3bd32cac36dd3082868536eba8b" id="r_a78ded3bd32cac36dd3082868536eba8b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aa0c7c77418cae72106564e939421bb39">MR_std_vector_std_vector_MR_Vector3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78ded3bd32cac36dd3082868536eba8b">MR_convertContoursTo3d_std_vector_std_vector_MR_Vector2f</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *from)</td></tr>
 <tr class="separator:a78ded3bd32cac36dd3082868536eba8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac6d92981461f22b26bf74ab71d95410d" id="r_ac6d92981461f22b26bf74ab71d95410d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aa0c7c77418cae72106564e939421bb39">MR_std_vector_std_vector_MR_Vector3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6d92981461f22b26bf74ab71d95410d">MR_convertContoursTo3d_std_vector_std_vector_MR_Vector2d</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#a8e55692f157422c7881b4d55c583d9df">MR_std_vector_std_vector_MR_Vector2d</a> *from)</td></tr>
+<tr class="memitem:ac6d92981461f22b26bf74ab71d95410d" id="r_ac6d92981461f22b26bf74ab71d95410d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aa0c7c77418cae72106564e939421bb39">MR_std_vector_std_vector_MR_Vector3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6d92981461f22b26bf74ab71d95410d">MR_convertContoursTo3d_std_vector_std_vector_MR_Vector2d</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#a8e55692f157422c7881b4d55c583d9df">MR_std_vector_std_vector_MR_Vector2d</a> *from)</td></tr>
 <tr class="separator:ac6d92981461f22b26bf74ab71d95410d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a45d08517bc5a458071fb1ebcf4f516ca" id="r_a45d08517bc5a458071fb1ebcf4f516ca"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aa0c7c77418cae72106564e939421bb39">MR_std_vector_std_vector_MR_Vector3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45d08517bc5a458071fb1ebcf4f516ca">MR_convertContoursTo3d_std_vector_std_vector_MR_Vector3f</a> (const <a class="el" href="#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> *from)</td></tr>
+<tr class="memitem:a45d08517bc5a458071fb1ebcf4f516ca" id="r_a45d08517bc5a458071fb1ebcf4f516ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aa0c7c77418cae72106564e939421bb39">MR_std_vector_std_vector_MR_Vector3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45d08517bc5a458071fb1ebcf4f516ca">MR_convertContoursTo3d_std_vector_std_vector_MR_Vector3f</a> (const <a class="el" href="#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> *from)</td></tr>
 <tr class="separator:a45d08517bc5a458071fb1ebcf4f516ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7ee6a613dba0fb8f4e1e92f3f3247c0" id="r_ac7ee6a613dba0fb8f4e1e92f3f3247c0"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aa0c7c77418cae72106564e939421bb39">MR_std_vector_std_vector_MR_Vector3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7ee6a613dba0fb8f4e1e92f3f3247c0">MR_convertContoursTo3d_std_vector_std_vector_MR_Vector3d</a> (const <a class="el" href="#aa0c7c77418cae72106564e939421bb39">MR_std_vector_std_vector_MR_Vector3d</a> *from)</td></tr>
+<tr class="memitem:ac7ee6a613dba0fb8f4e1e92f3f3247c0" id="r_ac7ee6a613dba0fb8f4e1e92f3f3247c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aa0c7c77418cae72106564e939421bb39">MR_std_vector_std_vector_MR_Vector3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7ee6a613dba0fb8f4e1e92f3f3247c0">MR_convertContoursTo3d_std_vector_std_vector_MR_Vector3d</a> (const <a class="el" href="#aa0c7c77418cae72106564e939421bb39">MR_std_vector_std_vector_MR_Vector3d</a> *from)</td></tr>
 <tr class="separator:ac7ee6a613dba0fb8f4e1e92f3f3247c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -385,7 +379,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API double MR_calcLength_MR_Vector2d_double </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> double MR_calcLength_MR_Vector2d_double </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#af7de7b4db973d11bf60ee592f1fff70e">MR_std_vector_MR_Vector2d</a> *</td>          <td class="paramname"><span class="paramname"><em>contour</em></span></td><td>)</td>
           <td></td>
@@ -408,7 +402,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API float MR_calcLength_MR_Vector2f_float </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float MR_calcLength_MR_Vector2f_float </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a> *</td>          <td class="paramname"><span class="paramname"><em>contour</em></span></td><td>)</td>
           <td></td>
@@ -431,7 +425,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API double MR_calcLength_MR_Vector3d_double </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> double MR_calcLength_MR_Vector3d_double </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a5d89d0b00a747b263e81d4999e8ed90b">MR_std_vector_MR_Vector3d</a> *</td>          <td class="paramname"><span class="paramname"><em>contour</em></span></td><td>)</td>
           <td></td>
@@ -454,7 +448,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API float MR_calcLength_MR_Vector3f_float </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float MR_calcLength_MR_Vector3f_float </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>contour</em></span></td><td>)</td>
           <td></td>
@@ -477,7 +471,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API double MR_calcOrientedArea_double_double_std_vector_MR_Vector2d </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> double MR_calcOrientedArea_double_double_std_vector_MR_Vector2d </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#af7de7b4db973d11bf60ee592f1fff70e">MR_std_vector_MR_Vector2d</a> *</td>          <td class="paramname"><span class="paramname"><em>contour</em></span></td><td>)</td>
           <td></td>
@@ -500,7 +494,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> MR_calcOrientedArea_double_double_std_vector_MR_Vector3d </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> MR_calcOrientedArea_double_double_std_vector_MR_Vector3d </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a5d89d0b00a747b263e81d4999e8ed90b">MR_std_vector_MR_Vector3d</a> *</td>          <td class="paramname"><span class="paramname"><em>contour</em></span></td><td>)</td>
           <td></td>
@@ -523,7 +517,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API float MR_calcOrientedArea_float_float_std_vector_MR_Vector2f </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float MR_calcOrientedArea_float_float_std_vector_MR_Vector2f </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a> *</td>          <td class="paramname"><span class="paramname"><em>contour</em></span></td><td>)</td>
           <td></td>
@@ -546,7 +540,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> MR_calcOrientedArea_float_float_std_vector_MR_Vector3f </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> MR_calcOrientedArea_float_float_std_vector_MR_Vector3f </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>contour</em></span></td><td>)</td>
           <td></td>
@@ -569,7 +563,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MR2DContoursTriangulation_8h.html#a8e55692f157422c7881b4d55c583d9df">MR_std_vector_std_vector_MR_Vector2d</a> * MR_convertContoursTo2d_std_vector_std_vector_MR_Vector2d </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MR2DContoursTriangulation_8h.html#a8e55692f157422c7881b4d55c583d9df">MR_std_vector_std_vector_MR_Vector2d</a> * MR_convertContoursTo2d_std_vector_std_vector_MR_Vector2d </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#a8e55692f157422c7881b4d55c583d9df">MR_std_vector_std_vector_MR_Vector2d</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
           <td></td>
@@ -587,7 +581,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MR2DContoursTriangulation_8h.html#a8e55692f157422c7881b4d55c583d9df">MR_std_vector_std_vector_MR_Vector2d</a> * MR_convertContoursTo2d_std_vector_std_vector_MR_Vector2f </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MR2DContoursTriangulation_8h.html#a8e55692f157422c7881b4d55c583d9df">MR_std_vector_std_vector_MR_Vector2d</a> * MR_convertContoursTo2d_std_vector_std_vector_MR_Vector2f </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
           <td></td>
@@ -605,7 +599,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MR2DContoursTriangulation_8h.html#a8e55692f157422c7881b4d55c583d9df">MR_std_vector_std_vector_MR_Vector2d</a> * MR_convertContoursTo2d_std_vector_std_vector_MR_Vector3d </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MR2DContoursTriangulation_8h.html#a8e55692f157422c7881b4d55c583d9df">MR_std_vector_std_vector_MR_Vector2d</a> * MR_convertContoursTo2d_std_vector_std_vector_MR_Vector3d </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#aa0c7c77418cae72106564e939421bb39">MR_std_vector_std_vector_MR_Vector3d</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
           <td></td>
@@ -623,7 +617,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MR2DContoursTriangulation_8h.html#a8e55692f157422c7881b4d55c583d9df">MR_std_vector_std_vector_MR_Vector2d</a> * MR_convertContoursTo2d_std_vector_std_vector_MR_Vector3f </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MR2DContoursTriangulation_8h.html#a8e55692f157422c7881b4d55c583d9df">MR_std_vector_std_vector_MR_Vector2d</a> * MR_convertContoursTo2d_std_vector_std_vector_MR_Vector3f </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
           <td></td>
@@ -641,7 +635,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> * MR_convertContoursTo2f_std_vector_std_vector_MR_Vector2d </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> * MR_convertContoursTo2f_std_vector_std_vector_MR_Vector2d </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#a8e55692f157422c7881b4d55c583d9df">MR_std_vector_std_vector_MR_Vector2d</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
           <td></td>
@@ -659,7 +653,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> * MR_convertContoursTo2f_std_vector_std_vector_MR_Vector2f </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> * MR_convertContoursTo2f_std_vector_std_vector_MR_Vector2f </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
           <td></td>
@@ -677,7 +671,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> * MR_convertContoursTo2f_std_vector_std_vector_MR_Vector3d </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> * MR_convertContoursTo2f_std_vector_std_vector_MR_Vector3d </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#aa0c7c77418cae72106564e939421bb39">MR_std_vector_std_vector_MR_Vector3d</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
           <td></td>
@@ -695,7 +689,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> * MR_convertContoursTo2f_std_vector_std_vector_MR_Vector3f </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> * MR_convertContoursTo2f_std_vector_std_vector_MR_Vector3f </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
           <td></td>
@@ -713,7 +707,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#aa0c7c77418cae72106564e939421bb39">MR_std_vector_std_vector_MR_Vector3d</a> * MR_convertContoursTo3d_std_vector_std_vector_MR_Vector2d </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aa0c7c77418cae72106564e939421bb39">MR_std_vector_std_vector_MR_Vector3d</a> * MR_convertContoursTo3d_std_vector_std_vector_MR_Vector2d </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#a8e55692f157422c7881b4d55c583d9df">MR_std_vector_std_vector_MR_Vector2d</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
           <td></td>
@@ -731,7 +725,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#aa0c7c77418cae72106564e939421bb39">MR_std_vector_std_vector_MR_Vector3d</a> * MR_convertContoursTo3d_std_vector_std_vector_MR_Vector2f </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aa0c7c77418cae72106564e939421bb39">MR_std_vector_std_vector_MR_Vector3d</a> * MR_convertContoursTo3d_std_vector_std_vector_MR_Vector2f </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
           <td></td>
@@ -749,7 +743,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#aa0c7c77418cae72106564e939421bb39">MR_std_vector_std_vector_MR_Vector3d</a> * MR_convertContoursTo3d_std_vector_std_vector_MR_Vector3d </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aa0c7c77418cae72106564e939421bb39">MR_std_vector_std_vector_MR_Vector3d</a> * MR_convertContoursTo3d_std_vector_std_vector_MR_Vector3d </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#aa0c7c77418cae72106564e939421bb39">MR_std_vector_std_vector_MR_Vector3d</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
           <td></td>
@@ -767,7 +761,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#aa0c7c77418cae72106564e939421bb39">MR_std_vector_std_vector_MR_Vector3d</a> * MR_convertContoursTo3d_std_vector_std_vector_MR_Vector3f </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aa0c7c77418cae72106564e939421bb39">MR_std_vector_std_vector_MR_Vector3d</a> * MR_convertContoursTo3d_std_vector_std_vector_MR_Vector3f </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
           <td></td>
@@ -785,7 +779,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> * MR_convertContoursTo3f_std_vector_std_vector_MR_Vector2d </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> * MR_convertContoursTo3f_std_vector_std_vector_MR_Vector2d </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#a8e55692f157422c7881b4d55c583d9df">MR_std_vector_std_vector_MR_Vector2d</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
           <td></td>
@@ -803,7 +797,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> * MR_convertContoursTo3f_std_vector_std_vector_MR_Vector2f </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> * MR_convertContoursTo3f_std_vector_std_vector_MR_Vector2f </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
           <td></td>
@@ -821,7 +815,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> * MR_convertContoursTo3f_std_vector_std_vector_MR_Vector3d </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> * MR_convertContoursTo3f_std_vector_std_vector_MR_Vector3d </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#aa0c7c77418cae72106564e939421bb39">MR_std_vector_std_vector_MR_Vector3d</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
           <td></td>
@@ -839,7 +833,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> * MR_convertContoursTo3f_std_vector_std_vector_MR_Vector3f </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> * MR_convertContoursTo3f_std_vector_std_vector_MR_Vector3f </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
           <td></td>
@@ -857,7 +851,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#af7de7b4db973d11bf60ee592f1fff70e">MR_std_vector_MR_Vector2d</a> * MR_convertContourTo2d_std_vector_MR_Vector2d </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af7de7b4db973d11bf60ee592f1fff70e">MR_std_vector_MR_Vector2d</a> * MR_convertContourTo2d_std_vector_MR_Vector2d </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#af7de7b4db973d11bf60ee592f1fff70e">MR_std_vector_MR_Vector2d</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
           <td></td>
@@ -875,7 +869,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#af7de7b4db973d11bf60ee592f1fff70e">MR_std_vector_MR_Vector2d</a> * MR_convertContourTo2d_std_vector_MR_Vector2f </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af7de7b4db973d11bf60ee592f1fff70e">MR_std_vector_MR_Vector2d</a> * MR_convertContourTo2d_std_vector_MR_Vector2f </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
           <td></td>
@@ -893,7 +887,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#af7de7b4db973d11bf60ee592f1fff70e">MR_std_vector_MR_Vector2d</a> * MR_convertContourTo2d_std_vector_MR_Vector3d </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af7de7b4db973d11bf60ee592f1fff70e">MR_std_vector_MR_Vector2d</a> * MR_convertContourTo2d_std_vector_MR_Vector3d </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a5d89d0b00a747b263e81d4999e8ed90b">MR_std_vector_MR_Vector3d</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
           <td></td>
@@ -911,7 +905,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#af7de7b4db973d11bf60ee592f1fff70e">MR_std_vector_MR_Vector2d</a> * MR_convertContourTo2d_std_vector_MR_Vector3f </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af7de7b4db973d11bf60ee592f1fff70e">MR_std_vector_MR_Vector2d</a> * MR_convertContourTo2d_std_vector_MR_Vector3f </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
           <td></td>
@@ -929,7 +923,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a> * MR_convertContourTo2f_std_vector_MR_Vector2d </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a> * MR_convertContourTo2f_std_vector_MR_Vector2d </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#af7de7b4db973d11bf60ee592f1fff70e">MR_std_vector_MR_Vector2d</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
           <td></td>
@@ -947,7 +941,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a> * MR_convertContourTo2f_std_vector_MR_Vector2f </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a> * MR_convertContourTo2f_std_vector_MR_Vector2f </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
           <td></td>
@@ -965,7 +959,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a> * MR_convertContourTo2f_std_vector_MR_Vector3d </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a> * MR_convertContourTo2f_std_vector_MR_Vector3d </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a5d89d0b00a747b263e81d4999e8ed90b">MR_std_vector_MR_Vector3d</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
           <td></td>
@@ -983,7 +977,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a> * MR_convertContourTo2f_std_vector_MR_Vector3f </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a> * MR_convertContourTo2f_std_vector_MR_Vector3f </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
           <td></td>
@@ -1001,7 +995,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a5d89d0b00a747b263e81d4999e8ed90b">MR_std_vector_MR_Vector3d</a> * MR_convertContourTo3d_std_vector_MR_Vector2d </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a5d89d0b00a747b263e81d4999e8ed90b">MR_std_vector_MR_Vector3d</a> * MR_convertContourTo3d_std_vector_MR_Vector2d </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#af7de7b4db973d11bf60ee592f1fff70e">MR_std_vector_MR_Vector2d</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
           <td></td>
@@ -1019,7 +1013,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a5d89d0b00a747b263e81d4999e8ed90b">MR_std_vector_MR_Vector3d</a> * MR_convertContourTo3d_std_vector_MR_Vector2f </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a5d89d0b00a747b263e81d4999e8ed90b">MR_std_vector_MR_Vector3d</a> * MR_convertContourTo3d_std_vector_MR_Vector2f </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
           <td></td>
@@ -1037,7 +1031,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a5d89d0b00a747b263e81d4999e8ed90b">MR_std_vector_MR_Vector3d</a> * MR_convertContourTo3d_std_vector_MR_Vector3d </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a5d89d0b00a747b263e81d4999e8ed90b">MR_std_vector_MR_Vector3d</a> * MR_convertContourTo3d_std_vector_MR_Vector3d </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a5d89d0b00a747b263e81d4999e8ed90b">MR_std_vector_MR_Vector3d</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
           <td></td>
@@ -1055,7 +1049,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a5d89d0b00a747b263e81d4999e8ed90b">MR_std_vector_MR_Vector3d</a> * MR_convertContourTo3d_std_vector_MR_Vector3f </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a5d89d0b00a747b263e81d4999e8ed90b">MR_std_vector_MR_Vector3d</a> * MR_convertContourTo3d_std_vector_MR_Vector3f </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
           <td></td>
@@ -1073,7 +1067,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> * MR_convertContourTo3f_std_vector_MR_Vector2d </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> * MR_convertContourTo3f_std_vector_MR_Vector2d </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#af7de7b4db973d11bf60ee592f1fff70e">MR_std_vector_MR_Vector2d</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
           <td></td>
@@ -1091,7 +1085,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> * MR_convertContourTo3f_std_vector_MR_Vector2f </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> * MR_convertContourTo3f_std_vector_MR_Vector2f </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
           <td></td>
@@ -1109,7 +1103,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> * MR_convertContourTo3f_std_vector_MR_Vector3d </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> * MR_convertContourTo3f_std_vector_MR_Vector3d </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a5d89d0b00a747b263e81d4999e8ed90b">MR_std_vector_MR_Vector3d</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
           <td></td>
@@ -1127,7 +1121,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> * MR_convertContourTo3f_std_vector_MR_Vector3f </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> * MR_convertContourTo3f_std_vector_MR_Vector3f </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>from</em></span></td><td>)</td>
           <td></td>

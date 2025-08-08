@@ -14,12 +14,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -158,7 +152,7 @@ $(function(){initNavTree('MRPointsToMeshFusion_8h.html',''); initResizable(true)
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
-<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
 </div>
 <p><a href="MRPointsToMeshFusion_8h_source.html">Go to the source code of this file.</a></p>
@@ -179,63 +173,63 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a782fb383ff70ce44d5c9f43b7aaffbc1" id="r_a782fb383ff70ce44d5c9f43b7aaffbc1"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a782fb383ff70ce44d5c9f43b7aaffbc1">MR_PointsToMeshParameters_Get_sigma</a> (const <a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *_this)</td></tr>
+<tr class="memitem:a782fb383ff70ce44d5c9f43b7aaffbc1" id="r_a782fb383ff70ce44d5c9f43b7aaffbc1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a782fb383ff70ce44d5c9f43b7aaffbc1">MR_PointsToMeshParameters_Get_sigma</a> (const <a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *_this)</td></tr>
 <tr class="separator:a782fb383ff70ce44d5c9f43b7aaffbc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a305e42a2ed9f26297d04b65f1f5cd948" id="r_a305e42a2ed9f26297d04b65f1f5cd948"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a305e42a2ed9f26297d04b65f1f5cd948">MR_PointsToMeshParameters_Set_sigma</a> (<a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *_this, float value)</td></tr>
+<tr class="memitem:a305e42a2ed9f26297d04b65f1f5cd948" id="r_a305e42a2ed9f26297d04b65f1f5cd948"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a305e42a2ed9f26297d04b65f1f5cd948">MR_PointsToMeshParameters_Set_sigma</a> (<a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *_this, float value)</td></tr>
 <tr class="separator:a305e42a2ed9f26297d04b65f1f5cd948"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab3d90184a8f52145259422fb0efd9850" id="r_ab3d90184a8f52145259422fb0efd9850"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3d90184a8f52145259422fb0efd9850">MR_PointsToMeshParameters_GetMutable_sigma</a> (<a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *_this)</td></tr>
+<tr class="memitem:ab3d90184a8f52145259422fb0efd9850" id="r_ab3d90184a8f52145259422fb0efd9850"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3d90184a8f52145259422fb0efd9850">MR_PointsToMeshParameters_GetMutable_sigma</a> (<a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *_this)</td></tr>
 <tr class="separator:ab3d90184a8f52145259422fb0efd9850"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ab8a39701d697b8f00ba1d5e75874f7" id="r_a2ab8a39701d697b8f00ba1d5e75874f7"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ab8a39701d697b8f00ba1d5e75874f7">MR_PointsToMeshParameters_Get_minWeight</a> (const <a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *_this)</td></tr>
+<tr class="memitem:a2ab8a39701d697b8f00ba1d5e75874f7" id="r_a2ab8a39701d697b8f00ba1d5e75874f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ab8a39701d697b8f00ba1d5e75874f7">MR_PointsToMeshParameters_Get_minWeight</a> (const <a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *_this)</td></tr>
 <tr class="separator:a2ab8a39701d697b8f00ba1d5e75874f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a996bea93cf5ce0e12e5efbaafe65b56c" id="r_a996bea93cf5ce0e12e5efbaafe65b56c"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a996bea93cf5ce0e12e5efbaafe65b56c">MR_PointsToMeshParameters_Set_minWeight</a> (<a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *_this, float value)</td></tr>
+<tr class="memitem:a996bea93cf5ce0e12e5efbaafe65b56c" id="r_a996bea93cf5ce0e12e5efbaafe65b56c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a996bea93cf5ce0e12e5efbaafe65b56c">MR_PointsToMeshParameters_Set_minWeight</a> (<a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *_this, float value)</td></tr>
 <tr class="separator:a996bea93cf5ce0e12e5efbaafe65b56c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c248e2f22f0e8a3b844e5b4556f1adb" id="r_a2c248e2f22f0e8a3b844e5b4556f1adb"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c248e2f22f0e8a3b844e5b4556f1adb">MR_PointsToMeshParameters_GetMutable_minWeight</a> (<a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *_this)</td></tr>
+<tr class="memitem:a2c248e2f22f0e8a3b844e5b4556f1adb" id="r_a2c248e2f22f0e8a3b844e5b4556f1adb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c248e2f22f0e8a3b844e5b4556f1adb">MR_PointsToMeshParameters_GetMutable_minWeight</a> (<a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *_this)</td></tr>
 <tr class="separator:a2c248e2f22f0e8a3b844e5b4556f1adb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a30bd875d3288b2f01e9c9fc0403b3bfb" id="r_a30bd875d3288b2f01e9c9fc0403b3bfb"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30bd875d3288b2f01e9c9fc0403b3bfb">MR_PointsToMeshParameters_Get_voxelSize</a> (const <a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *_this)</td></tr>
+<tr class="memitem:a30bd875d3288b2f01e9c9fc0403b3bfb" id="r_a30bd875d3288b2f01e9c9fc0403b3bfb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30bd875d3288b2f01e9c9fc0403b3bfb">MR_PointsToMeshParameters_Get_voxelSize</a> (const <a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *_this)</td></tr>
 <tr class="separator:a30bd875d3288b2f01e9c9fc0403b3bfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70aa6d57f226ed981c9ec2a480cd1550" id="r_a70aa6d57f226ed981c9ec2a480cd1550"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70aa6d57f226ed981c9ec2a480cd1550">MR_PointsToMeshParameters_Set_voxelSize</a> (<a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *_this, float value)</td></tr>
+<tr class="memitem:a70aa6d57f226ed981c9ec2a480cd1550" id="r_a70aa6d57f226ed981c9ec2a480cd1550"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70aa6d57f226ed981c9ec2a480cd1550">MR_PointsToMeshParameters_Set_voxelSize</a> (<a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *_this, float value)</td></tr>
 <tr class="separator:a70aa6d57f226ed981c9ec2a480cd1550"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adaf6872d4df1c547f69c39f13c3a3db8" id="r_adaf6872d4df1c547f69c39f13c3a3db8"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adaf6872d4df1c547f69c39f13c3a3db8">MR_PointsToMeshParameters_GetMutable_voxelSize</a> (<a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *_this)</td></tr>
+<tr class="memitem:adaf6872d4df1c547f69c39f13c3a3db8" id="r_adaf6872d4df1c547f69c39f13c3a3db8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adaf6872d4df1c547f69c39f13c3a3db8">MR_PointsToMeshParameters_GetMutable_voxelSize</a> (<a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *_this)</td></tr>
 <tr class="separator:adaf6872d4df1c547f69c39f13c3a3db8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeadc8e747be49572606c21d03944b66e" id="r_aeadc8e747be49572606c21d03944b66e"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeadc8e747be49572606c21d03944b66e">MR_PointsToMeshParameters_Get_ptColors</a> (const <a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *_this)</td></tr>
+<tr class="memitem:aeadc8e747be49572606c21d03944b66e" id="r_aeadc8e747be49572606c21d03944b66e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeadc8e747be49572606c21d03944b66e">MR_PointsToMeshParameters_Get_ptColors</a> (const <a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *_this)</td></tr>
 <tr class="separator:aeadc8e747be49572606c21d03944b66e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a8dcc9a88c89ff385041a5983609d86" id="r_a5a8dcc9a88c89ff385041a5983609d86"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a8dcc9a88c89ff385041a5983609d86">MR_PointsToMeshParameters_Set_ptColors</a> (<a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *_this, const <a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> *value)</td></tr>
+<tr class="memitem:a5a8dcc9a88c89ff385041a5983609d86" id="r_a5a8dcc9a88c89ff385041a5983609d86"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a8dcc9a88c89ff385041a5983609d86">MR_PointsToMeshParameters_Set_ptColors</a> (<a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *_this, const <a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> *value)</td></tr>
 <tr class="separator:a5a8dcc9a88c89ff385041a5983609d86"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab3b79a201333ea6b9ea728163c07821e" id="r_ab3b79a201333ea6b9ea728163c07821e"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3b79a201333ea6b9ea728163c07821e">MR_PointsToMeshParameters_GetMutable_ptColors</a> (<a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *_this)</td></tr>
+<tr class="memitem:ab3b79a201333ea6b9ea728163c07821e" id="r_ab3b79a201333ea6b9ea728163c07821e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3b79a201333ea6b9ea728163c07821e">MR_PointsToMeshParameters_GetMutable_ptColors</a> (<a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *_this)</td></tr>
 <tr class="separator:ab3b79a201333ea6b9ea728163c07821e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aac559e8007d69d44294fb8967700b910" id="r_aac559e8007d69d44294fb8967700b910"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac559e8007d69d44294fb8967700b910">MR_PointsToMeshParameters_Get_vColors</a> (const <a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *_this)</td></tr>
+<tr class="memitem:aac559e8007d69d44294fb8967700b910" id="r_aac559e8007d69d44294fb8967700b910"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac559e8007d69d44294fb8967700b910">MR_PointsToMeshParameters_Get_vColors</a> (const <a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *_this)</td></tr>
 <tr class="separator:aac559e8007d69d44294fb8967700b910"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a610b4d73529880adec7ca7f208d35953" id="r_a610b4d73529880adec7ca7f208d35953"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a610b4d73529880adec7ca7f208d35953">MR_PointsToMeshParameters_Set_vColors</a> (<a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *_this, <a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> *value)</td></tr>
+<tr class="memitem:a610b4d73529880adec7ca7f208d35953" id="r_a610b4d73529880adec7ca7f208d35953"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a610b4d73529880adec7ca7f208d35953">MR_PointsToMeshParameters_Set_vColors</a> (<a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *_this, <a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> *value)</td></tr>
 <tr class="separator:a610b4d73529880adec7ca7f208d35953"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae874b1dd6f445dfc947bc605133faec3" id="r_ae874b1dd6f445dfc947bc605133faec3"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae874b1dd6f445dfc947bc605133faec3">MR_PointsToMeshParameters_GetMutable_vColors</a> (<a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *_this)</td></tr>
+<tr class="memitem:ae874b1dd6f445dfc947bc605133faec3" id="r_ae874b1dd6f445dfc947bc605133faec3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae874b1dd6f445dfc947bc605133faec3">MR_PointsToMeshParameters_GetMutable_vColors</a> (<a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *_this)</td></tr>
 <tr class="separator:ae874b1dd6f445dfc947bc605133faec3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab87fad2bd74f45df94ddd9523a6430de" id="r_ab87fad2bd74f45df94ddd9523a6430de"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab87fad2bd74f45df94ddd9523a6430de">MR_PointsToMeshParameters_Get_progress</a> (const <a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *_this)</td></tr>
+<tr class="memitem:ab87fad2bd74f45df94ddd9523a6430de" id="r_ab87fad2bd74f45df94ddd9523a6430de"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab87fad2bd74f45df94ddd9523a6430de">MR_PointsToMeshParameters_Get_progress</a> (const <a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *_this)</td></tr>
 <tr class="separator:ab87fad2bd74f45df94ddd9523a6430de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1a3708d8156c455b886bbfa59024b496" id="r_a1a3708d8156c455b886bbfa59024b496"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a3708d8156c455b886bbfa59024b496">MR_PointsToMeshParameters_Set_progress</a> (<a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *value)</td></tr>
+<tr class="memitem:a1a3708d8156c455b886bbfa59024b496" id="r_a1a3708d8156c455b886bbfa59024b496"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a3708d8156c455b886bbfa59024b496">MR_PointsToMeshParameters_Set_progress</a> (<a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *value)</td></tr>
 <tr class="separator:a1a3708d8156c455b886bbfa59024b496"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a317e76002fcde4f09243b54a46c9f88d" id="r_a317e76002fcde4f09243b54a46c9f88d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a317e76002fcde4f09243b54a46c9f88d">MR_PointsToMeshParameters_GetMutable_progress</a> (<a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *_this)</td></tr>
+<tr class="memitem:a317e76002fcde4f09243b54a46c9f88d" id="r_a317e76002fcde4f09243b54a46c9f88d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a317e76002fcde4f09243b54a46c9f88d">MR_PointsToMeshParameters_GetMutable_progress</a> (<a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *_this)</td></tr>
 <tr class="separator:a317e76002fcde4f09243b54a46c9f88d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a16253cd2747a4a603593707250c885b2" id="r_a16253cd2747a4a603593707250c885b2"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16253cd2747a4a603593707250c885b2">MR_PointsToMeshParameters_DefaultConstruct</a> (void)</td></tr>
+<tr class="memitem:a16253cd2747a4a603593707250c885b2" id="r_a16253cd2747a4a603593707250c885b2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16253cd2747a4a603593707250c885b2">MR_PointsToMeshParameters_DefaultConstruct</a> (void)</td></tr>
 <tr class="separator:a16253cd2747a4a603593707250c885b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a87476bf1a126aa4bd8636a4b1e6c59b2" id="r_a87476bf1a126aa4bd8636a4b1e6c59b2"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a87476bf1a126aa4bd8636a4b1e6c59b2">MR_PointsToMeshParameters_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="memitem:a87476bf1a126aa4bd8636a4b1e6c59b2" id="r_a87476bf1a126aa4bd8636a4b1e6c59b2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a87476bf1a126aa4bd8636a4b1e6c59b2">MR_PointsToMeshParameters_DefaultConstructArray</a> (size_t num_elems)</td></tr>
 <tr class="separator:a87476bf1a126aa4bd8636a4b1e6c59b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ea08e2ef246c7f866d503e6ce45e9fa" id="r_a7ea08e2ef246c7f866d503e6ce45e9fa"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ea08e2ef246c7f866d503e6ce45e9fa">MR_PointsToMeshParameters_OffsetPtr</a> (const <a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a7ea08e2ef246c7f866d503e6ce45e9fa" id="r_a7ea08e2ef246c7f866d503e6ce45e9fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ea08e2ef246c7f866d503e6ce45e9fa">MR_PointsToMeshParameters_OffsetPtr</a> (const <a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a7ea08e2ef246c7f866d503e6ce45e9fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a7ea08e2ef246c7f866d503e6ce45e9fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af32cf3b0a6d67e7ff477a89a8a854444" id="r_af32cf3b0a6d67e7ff477a89a8a854444"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af32cf3b0a6d67e7ff477a89a8a854444">MR_PointsToMeshParameters_OffsetMutablePtr</a> (<a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:af32cf3b0a6d67e7ff477a89a8a854444" id="r_af32cf3b0a6d67e7ff477a89a8a854444"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af32cf3b0a6d67e7ff477a89a8a854444">MR_PointsToMeshParameters_OffsetMutablePtr</a> (<a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:af32cf3b0a6d67e7ff477a89a8a854444"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:af32cf3b0a6d67e7ff477a89a8a854444"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4830fa967ef96feb25e71be0148e7cdf" id="r_a4830fa967ef96feb25e71be0148e7cdf"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4830fa967ef96feb25e71be0148e7cdf">MR_PointsToMeshParameters_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *_other)</td></tr>
+<tr class="memitem:a4830fa967ef96feb25e71be0148e7cdf" id="r_a4830fa967ef96feb25e71be0148e7cdf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4830fa967ef96feb25e71be0148e7cdf">MR_PointsToMeshParameters_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *_other)</td></tr>
 <tr class="separator:a4830fa967ef96feb25e71be0148e7cdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac2e4f245d8d6d57019ca78dadd944dd4" id="r_ac2e4f245d8d6d57019ca78dadd944dd4"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2e4f245d8d6d57019ca78dadd944dd4">MR_PointsToMeshParameters_Destroy</a> (const <a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *_this)</td></tr>
+<tr class="memitem:ac2e4f245d8d6d57019ca78dadd944dd4" id="r_ac2e4f245d8d6d57019ca78dadd944dd4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2e4f245d8d6d57019ca78dadd944dd4">MR_PointsToMeshParameters_Destroy</a> (const <a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *_this)</td></tr>
 <tr class="memdesc:ac2e4f245d8d6d57019ca78dadd944dd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_PointsToMeshParameters</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:ac2e4f245d8d6d57019ca78dadd944dd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a74fe108ab7072b6d30f12d30445b8943" id="r_a74fe108ab7072b6d30f12d30445b8943"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74fe108ab7072b6d30f12d30445b8943">MR_PointsToMeshParameters_DestroyArray</a> (const <a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *_this)</td></tr>
+<tr class="memitem:a74fe108ab7072b6d30f12d30445b8943" id="r_a74fe108ab7072b6d30f12d30445b8943"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74fe108ab7072b6d30f12d30445b8943">MR_PointsToMeshParameters_DestroyArray</a> (const <a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *_this)</td></tr>
 <tr class="memdesc:a74fe108ab7072b6d30f12d30445b8943"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_PointsToMeshParameters</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:a74fe108ab7072b6d30f12d30445b8943"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add793906d9d533ce958c7abde23211a8" id="r_add793906d9d533ce958c7abde23211a8"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add793906d9d533ce958c7abde23211a8">MR_PointsToMeshParameters_AssignFromAnother</a> (<a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *_other)</td></tr>
+<tr class="memitem:add793906d9d533ce958c7abde23211a8" id="r_add793906d9d533ce958c7abde23211a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add793906d9d533ce958c7abde23211a8">MR_PointsToMeshParameters_AssignFromAnother</a> (<a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *_other)</td></tr>
 <tr class="separator:add793906d9d533ce958c7abde23211a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd4eb307824b69a55471aee7577fee54" id="r_abd4eb307824b69a55471aee7577fee54"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd4eb307824b69a55471aee7577fee54">MR_pointsToMeshFusion</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *cloud, const <a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *params)</td></tr>
+<tr class="memitem:abd4eb307824b69a55471aee7577fee54" id="r_abd4eb307824b69a55471aee7577fee54"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd4eb307824b69a55471aee7577fee54">MR_pointsToMeshFusion</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *cloud, const <a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *params)</td></tr>
 <tr class="separator:abd4eb307824b69a55471aee7577fee54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -319,7 +313,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> * MR_pointsToMeshFusion </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> * MR_pointsToMeshFusion </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>cloud</em></span>, </td>
         </tr>
@@ -341,7 +335,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> * MR_PointsToMeshParameters_AssignFromAnother </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> * MR_PointsToMeshParameters_AssignFromAnother </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -368,7 +362,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> * MR_PointsToMeshParameters_ConstructFromAnother </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> * MR_PointsToMeshParameters_ConstructFromAnother </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
         </tr>
@@ -390,7 +384,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> * MR_PointsToMeshParameters_DefaultConstruct </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> * MR_PointsToMeshParameters_DefaultConstruct </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -408,7 +402,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> * MR_PointsToMeshParameters_DefaultConstructArray </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> * MR_PointsToMeshParameters_DefaultConstructArray </td>
           <td>(</td>
           <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
           <td></td>
@@ -426,7 +420,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_PointsToMeshParameters_Destroy </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PointsToMeshParameters_Destroy </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -445,7 +439,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_PointsToMeshParameters_DestroyArray </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PointsToMeshParameters_DestroyArray </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -464,7 +458,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const float * MR_PointsToMeshParameters_Get_minWeight </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float * MR_PointsToMeshParameters_Get_minWeight </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -482,7 +476,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> * MR_PointsToMeshParameters_Get_progress </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> * MR_PointsToMeshParameters_Get_progress </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -500,7 +494,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> *const  * MR_PointsToMeshParameters_Get_ptColors </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> *const  * MR_PointsToMeshParameters_Get_ptColors </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -518,7 +512,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const float * MR_PointsToMeshParameters_Get_sigma </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float * MR_PointsToMeshParameters_Get_sigma </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -536,7 +530,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> *const  * MR_PointsToMeshParameters_Get_vColors </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> *const  * MR_PointsToMeshParameters_Get_vColors </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -554,7 +548,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const float * MR_PointsToMeshParameters_Get_voxelSize </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float * MR_PointsToMeshParameters_Get_voxelSize </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -572,7 +566,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API float * MR_PointsToMeshParameters_GetMutable_minWeight </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float * MR_PointsToMeshParameters_GetMutable_minWeight </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -590,7 +584,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> * MR_PointsToMeshParameters_GetMutable_progress </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> * MR_PointsToMeshParameters_GetMutable_progress </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -608,7 +602,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> ** MR_PointsToMeshParameters_GetMutable_ptColors </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> ** MR_PointsToMeshParameters_GetMutable_ptColors </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -626,7 +620,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API float * MR_PointsToMeshParameters_GetMutable_sigma </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float * MR_PointsToMeshParameters_GetMutable_sigma </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -644,7 +638,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> ** MR_PointsToMeshParameters_GetMutable_vColors </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> ** MR_PointsToMeshParameters_GetMutable_vColors </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -662,7 +656,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API float * MR_PointsToMeshParameters_GetMutable_voxelSize </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float * MR_PointsToMeshParameters_GetMutable_voxelSize </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -680,7 +674,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> * MR_PointsToMeshParameters_OffsetMutablePtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> * MR_PointsToMeshParameters_OffsetMutablePtr </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -703,7 +697,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> * MR_PointsToMeshParameters_OffsetPtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> * MR_PointsToMeshParameters_OffsetPtr </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -726,7 +720,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_PointsToMeshParameters_Set_minWeight </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PointsToMeshParameters_Set_minWeight </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -748,7 +742,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_PointsToMeshParameters_Set_progress </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PointsToMeshParameters_Set_progress </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -775,7 +769,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_PointsToMeshParameters_Set_ptColors </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PointsToMeshParameters_Set_ptColors </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -797,7 +791,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_PointsToMeshParameters_Set_sigma </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PointsToMeshParameters_Set_sigma </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -819,7 +813,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_PointsToMeshParameters_Set_vColors </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PointsToMeshParameters_Set_vColors </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -841,7 +835,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_PointsToMeshParameters_Set_voxelSize </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PointsToMeshParameters_Set_voxelSize </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ad87c5191463fedf3c7383ddbcb57f085">MR_PointsToMeshParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>

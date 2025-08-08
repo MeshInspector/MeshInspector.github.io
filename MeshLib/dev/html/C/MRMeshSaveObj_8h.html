@@ -14,12 +14,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -159,7 +153,7 @@ $(function(){initNavTree('MRMeshSaveObj_8h.html',''); initResizable(true); });
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="MRAffineXf_8h_source.html">MRCMesh/MRAffineXf.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
-<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
 </div>
 <p><a href="MRMeshSaveObj_8h_source.html">Go to the source code of this file.</a></p>
@@ -183,49 +177,49 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a2cf4717e845e0a5fcadb27d72177f295" id="r_a2cf4717e845e0a5fcadb27d72177f295"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2cf4717e845e0a5fcadb27d72177f295">MR_MeshSave_NamedXfMesh_Get_name</a> (const <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *_this)</td></tr>
+<tr class="memitem:a2cf4717e845e0a5fcadb27d72177f295" id="r_a2cf4717e845e0a5fcadb27d72177f295"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2cf4717e845e0a5fcadb27d72177f295">MR_MeshSave_NamedXfMesh_Get_name</a> (const <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *_this)</td></tr>
 <tr class="separator:a2cf4717e845e0a5fcadb27d72177f295"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a42b28743e4f3a1ed39275a3b3b228feb" id="r_a42b28743e4f3a1ed39275a3b3b228feb"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42b28743e4f3a1ed39275a3b3b228feb">MR_MeshSave_NamedXfMesh_Set_name</a> (<a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *_this, const char *value, const char *value_end)</td></tr>
+<tr class="memitem:a42b28743e4f3a1ed39275a3b3b228feb" id="r_a42b28743e4f3a1ed39275a3b3b228feb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42b28743e4f3a1ed39275a3b3b228feb">MR_MeshSave_NamedXfMesh_Set_name</a> (<a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *_this, const char *value, const char *value_end)</td></tr>
 <tr class="separator:a42b28743e4f3a1ed39275a3b3b228feb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a57e6a50393b86374036e300773f3b214" id="r_a57e6a50393b86374036e300773f3b214"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a57e6a50393b86374036e300773f3b214">MR_MeshSave_NamedXfMesh_GetMutable_name</a> (<a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *_this)</td></tr>
+<tr class="memitem:a57e6a50393b86374036e300773f3b214" id="r_a57e6a50393b86374036e300773f3b214"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a57e6a50393b86374036e300773f3b214">MR_MeshSave_NamedXfMesh_GetMutable_name</a> (<a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *_this)</td></tr>
 <tr class="separator:a57e6a50393b86374036e300773f3b214"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a41a7e0c5ebafdb62824328a715cd2a40" id="r_a41a7e0c5ebafdb62824328a715cd2a40"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41a7e0c5ebafdb62824328a715cd2a40">MR_MeshSave_NamedXfMesh_Get_toWorld</a> (const <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *_this)</td></tr>
+<tr class="memitem:a41a7e0c5ebafdb62824328a715cd2a40" id="r_a41a7e0c5ebafdb62824328a715cd2a40"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41a7e0c5ebafdb62824328a715cd2a40">MR_MeshSave_NamedXfMesh_Get_toWorld</a> (const <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *_this)</td></tr>
 <tr class="separator:a41a7e0c5ebafdb62824328a715cd2a40"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a34881bd91938a06025eb57b384efcc6d" id="r_a34881bd91938a06025eb57b384efcc6d"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34881bd91938a06025eb57b384efcc6d">MR_MeshSave_NamedXfMesh_Set_toWorld</a> (<a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *_this, <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> value)</td></tr>
+<tr class="memitem:a34881bd91938a06025eb57b384efcc6d" id="r_a34881bd91938a06025eb57b384efcc6d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34881bd91938a06025eb57b384efcc6d">MR_MeshSave_NamedXfMesh_Set_toWorld</a> (<a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *_this, <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> value)</td></tr>
 <tr class="separator:a34881bd91938a06025eb57b384efcc6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a98f99bb5b6129894d14e6e1652b026d9" id="r_a98f99bb5b6129894d14e6e1652b026d9"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98f99bb5b6129894d14e6e1652b026d9">MR_MeshSave_NamedXfMesh_GetMutable_toWorld</a> (<a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *_this)</td></tr>
+<tr class="memitem:a98f99bb5b6129894d14e6e1652b026d9" id="r_a98f99bb5b6129894d14e6e1652b026d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98f99bb5b6129894d14e6e1652b026d9">MR_MeshSave_NamedXfMesh_GetMutable_toWorld</a> (<a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *_this)</td></tr>
 <tr class="separator:a98f99bb5b6129894d14e6e1652b026d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4501b6947c4b7d48ab9fcd338434c1fa" id="r_a4501b6947c4b7d48ab9fcd338434c1fa"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a94b819eab550077a4081785d3b3b4dc6">MR_std_shared_ptr_const_MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4501b6947c4b7d48ab9fcd338434c1fa">MR_MeshSave_NamedXfMesh_Get_mesh</a> (const <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *_this)</td></tr>
+<tr class="memitem:a4501b6947c4b7d48ab9fcd338434c1fa" id="r_a4501b6947c4b7d48ab9fcd338434c1fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a94b819eab550077a4081785d3b3b4dc6">MR_std_shared_ptr_const_MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4501b6947c4b7d48ab9fcd338434c1fa">MR_MeshSave_NamedXfMesh_Get_mesh</a> (const <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *_this)</td></tr>
 <tr class="separator:a4501b6947c4b7d48ab9fcd338434c1fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8181d541983b23c23f0f64ec6bfd008b" id="r_a8181d541983b23c23f0f64ec6bfd008b"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8181d541983b23c23f0f64ec6bfd008b">MR_MeshSave_NamedXfMesh_Set_mesh</a> (<a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="#a94b819eab550077a4081785d3b3b4dc6">MR_std_shared_ptr_const_MR_Mesh</a> *value)</td></tr>
+<tr class="memitem:a8181d541983b23c23f0f64ec6bfd008b" id="r_a8181d541983b23c23f0f64ec6bfd008b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8181d541983b23c23f0f64ec6bfd008b">MR_MeshSave_NamedXfMesh_Set_mesh</a> (<a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="#a94b819eab550077a4081785d3b3b4dc6">MR_std_shared_ptr_const_MR_Mesh</a> *value)</td></tr>
 <tr class="separator:a8181d541983b23c23f0f64ec6bfd008b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a115e61902f5d53b7d78c856e9e9b3b3a" id="r_a115e61902f5d53b7d78c856e9e9b3b3a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a94b819eab550077a4081785d3b3b4dc6">MR_std_shared_ptr_const_MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a115e61902f5d53b7d78c856e9e9b3b3a">MR_MeshSave_NamedXfMesh_GetMutable_mesh</a> (<a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *_this)</td></tr>
+<tr class="memitem:a115e61902f5d53b7d78c856e9e9b3b3a" id="r_a115e61902f5d53b7d78c856e9e9b3b3a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a94b819eab550077a4081785d3b3b4dc6">MR_std_shared_ptr_const_MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a115e61902f5d53b7d78c856e9e9b3b3a">MR_MeshSave_NamedXfMesh_GetMutable_mesh</a> (<a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *_this)</td></tr>
 <tr class="separator:a115e61902f5d53b7d78c856e9e9b3b3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e264ec627c5f4ee959e7bd7a0e80110" id="r_a3e264ec627c5f4ee959e7bd7a0e80110"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e264ec627c5f4ee959e7bd7a0e80110">MR_MeshSave_NamedXfMesh_DefaultConstruct</a> (void)</td></tr>
+<tr class="memitem:a3e264ec627c5f4ee959e7bd7a0e80110" id="r_a3e264ec627c5f4ee959e7bd7a0e80110"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e264ec627c5f4ee959e7bd7a0e80110">MR_MeshSave_NamedXfMesh_DefaultConstruct</a> (void)</td></tr>
 <tr class="separator:a3e264ec627c5f4ee959e7bd7a0e80110"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7f49ea05ff22b94b7791ed5092938e9" id="r_ae7f49ea05ff22b94b7791ed5092938e9"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae7f49ea05ff22b94b7791ed5092938e9">MR_MeshSave_NamedXfMesh_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="memitem:ae7f49ea05ff22b94b7791ed5092938e9" id="r_ae7f49ea05ff22b94b7791ed5092938e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae7f49ea05ff22b94b7791ed5092938e9">MR_MeshSave_NamedXfMesh_DefaultConstructArray</a> (size_t num_elems)</td></tr>
 <tr class="separator:ae7f49ea05ff22b94b7791ed5092938e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac28356bfd8a49e0636dc9605119343e4" id="r_ac28356bfd8a49e0636dc9605119343e4"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac28356bfd8a49e0636dc9605119343e4">MR_MeshSave_NamedXfMesh_ConstructFrom</a> (const char *<a class="elRef" href="../Cpp/group__HistoryGroup.html#ga6b90613818f7b81547a5b0bba1d40c39">name</a>, const char *name_end, <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> toWorld, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> mesh_pass_by, <a class="el" href="#a94b819eab550077a4081785d3b3b4dc6">MR_std_shared_ptr_const_MR_Mesh</a> *mesh)</td></tr>
+<tr class="memitem:ac28356bfd8a49e0636dc9605119343e4" id="r_ac28356bfd8a49e0636dc9605119343e4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac28356bfd8a49e0636dc9605119343e4">MR_MeshSave_NamedXfMesh_ConstructFrom</a> (const char *<a class="elRef" href="../Cpp/group__HistoryGroup.html#ga6b90613818f7b81547a5b0bba1d40c39">name</a>, const char *name_end, <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> toWorld, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> mesh_pass_by, <a class="el" href="#a94b819eab550077a4081785d3b3b4dc6">MR_std_shared_ptr_const_MR_Mesh</a> *mesh)</td></tr>
 <tr class="separator:ac28356bfd8a49e0636dc9605119343e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa04c8eb8ad287a073a676d464dc369e" id="r_afa04c8eb8ad287a073a676d464dc369e"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa04c8eb8ad287a073a676d464dc369e">MR_MeshSave_NamedXfMesh_OffsetPtr</a> (const <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:afa04c8eb8ad287a073a676d464dc369e" id="r_afa04c8eb8ad287a073a676d464dc369e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa04c8eb8ad287a073a676d464dc369e">MR_MeshSave_NamedXfMesh_OffsetPtr</a> (const <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:afa04c8eb8ad287a073a676d464dc369e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:afa04c8eb8ad287a073a676d464dc369e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f422d663f5fda1c5b66e0f0449752f4" id="r_a4f422d663f5fda1c5b66e0f0449752f4"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f422d663f5fda1c5b66e0f0449752f4">MR_MeshSave_NamedXfMesh_OffsetMutablePtr</a> (<a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a4f422d663f5fda1c5b66e0f0449752f4" id="r_a4f422d663f5fda1c5b66e0f0449752f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f422d663f5fda1c5b66e0f0449752f4">MR_MeshSave_NamedXfMesh_OffsetMutablePtr</a> (<a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a4f422d663f5fda1c5b66e0f0449752f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a4f422d663f5fda1c5b66e0f0449752f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3fd981dd3f643c67963cd9348156bd7d" id="r_a3fd981dd3f643c67963cd9348156bd7d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3fd981dd3f643c67963cd9348156bd7d">MR_MeshSave_NamedXfMesh_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *_other)</td></tr>
+<tr class="memitem:a3fd981dd3f643c67963cd9348156bd7d" id="r_a3fd981dd3f643c67963cd9348156bd7d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3fd981dd3f643c67963cd9348156bd7d">MR_MeshSave_NamedXfMesh_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *_other)</td></tr>
 <tr class="separator:a3fd981dd3f643c67963cd9348156bd7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d327a05c3e0f276e7ca727a10d0af8e" id="r_a6d327a05c3e0f276e7ca727a10d0af8e"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d327a05c3e0f276e7ca727a10d0af8e">MR_MeshSave_NamedXfMesh_Destroy</a> (const <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *_this)</td></tr>
+<tr class="memitem:a6d327a05c3e0f276e7ca727a10d0af8e" id="r_a6d327a05c3e0f276e7ca727a10d0af8e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d327a05c3e0f276e7ca727a10d0af8e">MR_MeshSave_NamedXfMesh_Destroy</a> (const <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *_this)</td></tr>
 <tr class="memdesc:a6d327a05c3e0f276e7ca727a10d0af8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_MeshSave_NamedXfMesh</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:a6d327a05c3e0f276e7ca727a10d0af8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac49e702bcf848a3a4fbd5918884becf6" id="r_ac49e702bcf848a3a4fbd5918884becf6"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac49e702bcf848a3a4fbd5918884becf6">MR_MeshSave_NamedXfMesh_DestroyArray</a> (const <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *_this)</td></tr>
+<tr class="memitem:ac49e702bcf848a3a4fbd5918884becf6" id="r_ac49e702bcf848a3a4fbd5918884becf6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac49e702bcf848a3a4fbd5918884becf6">MR_MeshSave_NamedXfMesh_DestroyArray</a> (const <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *_this)</td></tr>
 <tr class="memdesc:ac49e702bcf848a3a4fbd5918884becf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_MeshSave_NamedXfMesh</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:ac49e702bcf848a3a4fbd5918884becf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7dbdf56eaf547cc00506017317b7c70f" id="r_a7dbdf56eaf547cc00506017317b7c70f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7dbdf56eaf547cc00506017317b7c70f">MR_MeshSave_NamedXfMesh_AssignFromAnother</a> (<a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *_other)</td></tr>
+<tr class="memitem:a7dbdf56eaf547cc00506017317b7c70f" id="r_a7dbdf56eaf547cc00506017317b7c70f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7dbdf56eaf547cc00506017317b7c70f">MR_MeshSave_NamedXfMesh_AssignFromAnother</a> (<a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *_other)</td></tr>
 <tr class="separator:a7dbdf56eaf547cc00506017317b7c70f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe15a9fea206c59cf47e05bf88b9b194" id="r_afe15a9fea206c59cf47e05bf88b9b194"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe15a9fea206c59cf47e05bf88b9b194">MR_MeshSave_sceneToObj_std_filesystem_path</a> (const <a class="el" href="#aa2a5b196251d59435fafcd7bf3369754">MR_std_vector_MR_MeshSave_NamedXfMesh</a> *objects, const char *file, const char *file_end, <a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> *colors)</td></tr>
+<tr class="memitem:afe15a9fea206c59cf47e05bf88b9b194" id="r_afe15a9fea206c59cf47e05bf88b9b194"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe15a9fea206c59cf47e05bf88b9b194">MR_MeshSave_sceneToObj_std_filesystem_path</a> (const <a class="el" href="#aa2a5b196251d59435fafcd7bf3369754">MR_std_vector_MR_MeshSave_NamedXfMesh</a> *objects, const char *file, const char *file_end, <a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> *colors)</td></tr>
 <tr class="separator:afe15a9fea206c59cf47e05bf88b9b194"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab3cdd7718f5e71fe4021ed8431e3ecdf" id="r_ab3cdd7718f5e71fe4021ed8431e3ecdf"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3cdd7718f5e71fe4021ed8431e3ecdf">MR_MeshSave_sceneToObj_std_ostream</a> (const <a class="el" href="#aa2a5b196251d59435fafcd7bf3369754">MR_std_vector_MR_MeshSave_NamedXfMesh</a> *objects, <a class="el" href="MRCtm_8h.html#a933fad1748853c0c595a157b9f6527c6">MR_std_ostream</a> *out, <a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> *colors)</td></tr>
+<tr class="memitem:ab3cdd7718f5e71fe4021ed8431e3ecdf" id="r_ab3cdd7718f5e71fe4021ed8431e3ecdf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3cdd7718f5e71fe4021ed8431e3ecdf">MR_MeshSave_sceneToObj_std_ostream</a> (const <a class="el" href="#aa2a5b196251d59435fafcd7bf3369754">MR_std_vector_MR_MeshSave_NamedXfMesh</a> *objects, <a class="el" href="MRCtm_8h.html#a933fad1748853c0c595a157b9f6527c6">MR_std_ostream</a> *out, <a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> *colors)</td></tr>
 <tr class="separator:ab3cdd7718f5e71fe4021ed8431e3ecdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -336,7 +330,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> * MR_MeshSave_NamedXfMesh_AssignFromAnother </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> * MR_MeshSave_NamedXfMesh_AssignFromAnother </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -363,7 +357,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> * MR_MeshSave_NamedXfMesh_ConstructFrom </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> * MR_MeshSave_NamedXfMesh_ConstructFrom </td>
           <td>(</td>
           <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
         </tr>
@@ -400,7 +394,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> * MR_MeshSave_NamedXfMesh_ConstructFromAnother </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> * MR_MeshSave_NamedXfMesh_ConstructFromAnother </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
         </tr>
@@ -422,7 +416,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> * MR_MeshSave_NamedXfMesh_DefaultConstruct </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> * MR_MeshSave_NamedXfMesh_DefaultConstruct </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -440,7 +434,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> * MR_MeshSave_NamedXfMesh_DefaultConstructArray </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> * MR_MeshSave_NamedXfMesh_DefaultConstructArray </td>
           <td>(</td>
           <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
           <td></td>
@@ -458,7 +452,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_MeshSave_NamedXfMesh_Destroy </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_MeshSave_NamedXfMesh_Destroy </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -477,7 +471,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_MeshSave_NamedXfMesh_DestroyArray </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_MeshSave_NamedXfMesh_DestroyArray </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -496,7 +490,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="#a94b819eab550077a4081785d3b3b4dc6">MR_std_shared_ptr_const_MR_Mesh</a> * MR_MeshSave_NamedXfMesh_Get_mesh </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a94b819eab550077a4081785d3b3b4dc6">MR_std_shared_ptr_const_MR_Mesh</a> * MR_MeshSave_NamedXfMesh_Get_mesh </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -514,7 +508,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_MeshSave_NamedXfMesh_Get_name </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_MeshSave_NamedXfMesh_Get_name </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -532,7 +526,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> * MR_MeshSave_NamedXfMesh_Get_toWorld </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> * MR_MeshSave_NamedXfMesh_Get_toWorld </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -550,7 +544,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a94b819eab550077a4081785d3b3b4dc6">MR_std_shared_ptr_const_MR_Mesh</a> * MR_MeshSave_NamedXfMesh_GetMutable_mesh </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a94b819eab550077a4081785d3b3b4dc6">MR_std_shared_ptr_const_MR_Mesh</a> * MR_MeshSave_NamedXfMesh_GetMutable_mesh </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -568,7 +562,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_MeshSave_NamedXfMesh_GetMutable_name </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_MeshSave_NamedXfMesh_GetMutable_name </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -586,7 +580,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> * MR_MeshSave_NamedXfMesh_GetMutable_toWorld </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> * MR_MeshSave_NamedXfMesh_GetMutable_toWorld </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -604,7 +598,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> * MR_MeshSave_NamedXfMesh_OffsetMutablePtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> * MR_MeshSave_NamedXfMesh_OffsetMutablePtr </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -627,7 +621,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> * MR_MeshSave_NamedXfMesh_OffsetPtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> * MR_MeshSave_NamedXfMesh_OffsetPtr </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -650,7 +644,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_MeshSave_NamedXfMesh_Set_mesh </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_MeshSave_NamedXfMesh_Set_mesh </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -677,7 +671,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_MeshSave_NamedXfMesh_Set_name </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_MeshSave_NamedXfMesh_Set_name </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -704,7 +698,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_MeshSave_NamedXfMesh_Set_toWorld </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_MeshSave_NamedXfMesh_Set_toWorld </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae03cad4bd459845c23e3ca76e1c55ccf">MR_MeshSave_NamedXfMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -726,7 +720,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> * MR_MeshSave_sceneToObj_std_filesystem_path </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> * MR_MeshSave_sceneToObj_std_filesystem_path </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#aa2a5b196251d59435fafcd7bf3369754">MR_std_vector_MR_MeshSave_NamedXfMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>objects</em></span>, </td>
         </tr>
@@ -758,7 +752,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> * MR_MeshSave_sceneToObj_std_ostream </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> * MR_MeshSave_sceneToObj_std_ostream </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#aa2a5b196251d59435fafcd7bf3369754">MR_std_vector_MR_MeshSave_NamedXfMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>objects</em></span>, </td>
         </tr>

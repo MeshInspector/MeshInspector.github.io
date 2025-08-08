@@ -14,12 +14,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -159,7 +153,7 @@ $(function(){initNavTree('MRObjectsAccess_8h.html',''); initResizable(true); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
-<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stdint.h&gt;</code><br />
 </div>
@@ -186,15 +180,15 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a60b885f858c5212d809a9e78efa6709c" id="r_a60b885f858c5212d809a9e78efa6709c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60b885f858c5212d809a9e78efa6709c">MR_asSelectivityType</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> obj_pass_by, <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> *obj, const <a class="el" href="#a8d1c9e56cf76f984fa3dc92f7d63e0bc">MR_ObjectSelectivityType</a> *type)</td></tr>
+<tr class="memitem:a60b885f858c5212d809a9e78efa6709c" id="r_a60b885f858c5212d809a9e78efa6709c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60b885f858c5212d809a9e78efa6709c">MR_asSelectivityType</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> obj_pass_by, <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> *obj, const <a class="el" href="#a8d1c9e56cf76f984fa3dc92f7d63e0bc">MR_ObjectSelectivityType</a> *type)</td></tr>
 <tr class="separator:a60b885f858c5212d809a9e78efa6709c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aedd2ef4c4d56fbc004e189f0e99598e6" id="r_aedd2ef4c4d56fbc004e189f0e99598e6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRHeapBytes_8h.html#acc2f4e4d04631180d278fad84fbbc6cf">MR_std_vector_std_shared_ptr_MR_Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aedd2ef4c4d56fbc004e189f0e99598e6">MR_getAllObjectsInTree</a> (<a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> *root, const <a class="el" href="#a8d1c9e56cf76f984fa3dc92f7d63e0bc">MR_ObjectSelectivityType</a> *type)</td></tr>
+<tr class="memitem:aedd2ef4c4d56fbc004e189f0e99598e6" id="r_aedd2ef4c4d56fbc004e189f0e99598e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRHeapBytes_8h.html#acc2f4e4d04631180d278fad84fbbc6cf">MR_std_vector_std_shared_ptr_MR_Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aedd2ef4c4d56fbc004e189f0e99598e6">MR_getAllObjectsInTree</a> (<a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> *root, const <a class="el" href="#a8d1c9e56cf76f984fa3dc92f7d63e0bc">MR_ObjectSelectivityType</a> *type)</td></tr>
 <tr class="separator:aedd2ef4c4d56fbc004e189f0e99598e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b8b5c4404e57a674d6b37344f985ac3" id="r_a5b8b5c4404e57a674d6b37344f985ac3"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRHeapBytes_8h.html#acc2f4e4d04631180d278fad84fbbc6cf">MR_std_vector_std_shared_ptr_MR_Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b8b5c4404e57a674d6b37344f985ac3">MR_getTopmostVisibleObjects</a> (<a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> *root, const <a class="el" href="#a8d1c9e56cf76f984fa3dc92f7d63e0bc">MR_ObjectSelectivityType</a> *type)</td></tr>
+<tr class="memitem:a5b8b5c4404e57a674d6b37344f985ac3" id="r_a5b8b5c4404e57a674d6b37344f985ac3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRHeapBytes_8h.html#acc2f4e4d04631180d278fad84fbbc6cf">MR_std_vector_std_shared_ptr_MR_Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b8b5c4404e57a674d6b37344f985ac3">MR_getTopmostVisibleObjects</a> (<a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> *root, const <a class="el" href="#a8d1c9e56cf76f984fa3dc92f7d63e0bc">MR_ObjectSelectivityType</a> *type)</td></tr>
 <tr class="separator:a5b8b5c4404e57a674d6b37344f985ac3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4cc2908d4e1434eaae9a31ee054c7e6" id="r_ad4cc2908d4e1434eaae9a31ee054c7e6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4cc2908d4e1434eaae9a31ee054c7e6">MR_getDepthFirstObject</a> (<a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> *root, const <a class="el" href="#a8d1c9e56cf76f984fa3dc92f7d63e0bc">MR_ObjectSelectivityType</a> *type)</td></tr>
+<tr class="memitem:ad4cc2908d4e1434eaae9a31ee054c7e6" id="r_ad4cc2908d4e1434eaae9a31ee054c7e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4cc2908d4e1434eaae9a31ee054c7e6">MR_getDepthFirstObject</a> (<a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> *root, const <a class="el" href="#a8d1c9e56cf76f984fa3dc92f7d63e0bc">MR_ObjectSelectivityType</a> *type)</td></tr>
 <tr class="separator:ad4cc2908d4e1434eaae9a31ee054c7e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a653f785ed288a907dc5b4f26e4defbc5" id="r_a653f785ed288a907dc5b4f26e4defbc5"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a653f785ed288a907dc5b4f26e4defbc5">MR_objectHasSelectableChildren</a> (const <a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> *object)</td></tr>
+<tr class="memitem:a653f785ed288a907dc5b4f26e4defbc5" id="r_a653f785ed288a907dc5b4f26e4defbc5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a653f785ed288a907dc5b4f26e4defbc5">MR_objectHasSelectableChildren</a> (const <a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> *object)</td></tr>
 <tr class="separator:a653f785ed288a907dc5b4f26e4defbc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -282,7 +276,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> * MR_asSelectivityType </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> * MR_asSelectivityType </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>obj_pass_by</em></span>, </td>
         </tr>
@@ -309,7 +303,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRHeapBytes_8h.html#acc2f4e4d04631180d278fad84fbbc6cf">MR_std_vector_std_shared_ptr_MR_Object</a> * MR_getAllObjectsInTree </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRHeapBytes_8h.html#acc2f4e4d04631180d278fad84fbbc6cf">MR_std_vector_std_shared_ptr_MR_Object</a> * MR_getAllObjectsInTree </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> *</td>          <td class="paramname"><span class="paramname"><em>root</em></span>, </td>
         </tr>
@@ -331,7 +325,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> * MR_getDepthFirstObject </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> * MR_getDepthFirstObject </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> *</td>          <td class="paramname"><span class="paramname"><em>root</em></span>, </td>
         </tr>
@@ -353,7 +347,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRHeapBytes_8h.html#acc2f4e4d04631180d278fad84fbbc6cf">MR_std_vector_std_shared_ptr_MR_Object</a> * MR_getTopmostVisibleObjects </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRHeapBytes_8h.html#acc2f4e4d04631180d278fad84fbbc6cf">MR_std_vector_std_shared_ptr_MR_Object</a> * MR_getTopmostVisibleObjects </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> *</td>          <td class="paramname"><span class="paramname"><em>root</em></span>, </td>
         </tr>
@@ -375,7 +369,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API bool MR_objectHasSelectableChildren </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_objectHasSelectableChildren </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
           <td></td>

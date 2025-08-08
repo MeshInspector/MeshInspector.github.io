@@ -14,12 +14,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -159,7 +153,7 @@ $(function(){initNavTree('MRInTreePathBuilder_8h.html',''); initResizable(true);
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="MRId_8h_source.html">MRCMesh/MRId.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
-<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
 </div>
 <p><a href="MRInTreePathBuilder_8h_source.html">Go to the source code of this file.</a></p>
@@ -177,23 +171,23 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ae44c803b1781e921aefc1ba8536c672f" id="r_ae44c803b1781e921aefc1ba8536c672f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a6e93071322f362e0b91110445fb894bf">MR_InTreePathBuilder</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae44c803b1781e921aefc1ba8536c672f">MR_InTreePathBuilder_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a6e93071322f362e0b91110445fb894bf">MR_InTreePathBuilder</a> *_other)</td></tr>
+<tr class="memitem:ae44c803b1781e921aefc1ba8536c672f" id="r_ae44c803b1781e921aefc1ba8536c672f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a6e93071322f362e0b91110445fb894bf">MR_InTreePathBuilder</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae44c803b1781e921aefc1ba8536c672f">MR_InTreePathBuilder_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a6e93071322f362e0b91110445fb894bf">MR_InTreePathBuilder</a> *_other)</td></tr>
 <tr class="separator:ae44c803b1781e921aefc1ba8536c672f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6c5afb14e781414bd4529c26a990bc53" id="r_a6c5afb14e781414bd4529c26a990bc53"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a6e93071322f362e0b91110445fb894bf">MR_InTreePathBuilder</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c5afb14e781414bd4529c26a990bc53">MR_InTreePathBuilder_OffsetPtr</a> (const <a class="el" href="#a6e93071322f362e0b91110445fb894bf">MR_InTreePathBuilder</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a6c5afb14e781414bd4529c26a990bc53" id="r_a6c5afb14e781414bd4529c26a990bc53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a6e93071322f362e0b91110445fb894bf">MR_InTreePathBuilder</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c5afb14e781414bd4529c26a990bc53">MR_InTreePathBuilder_OffsetPtr</a> (const <a class="el" href="#a6e93071322f362e0b91110445fb894bf">MR_InTreePathBuilder</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a6c5afb14e781414bd4529c26a990bc53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a6c5afb14e781414bd4529c26a990bc53"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a759f2e6a7445cb8dcfcc93d9fec39b03" id="r_a759f2e6a7445cb8dcfcc93d9fec39b03"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a6e93071322f362e0b91110445fb894bf">MR_InTreePathBuilder</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a759f2e6a7445cb8dcfcc93d9fec39b03">MR_InTreePathBuilder_OffsetMutablePtr</a> (<a class="el" href="#a6e93071322f362e0b91110445fb894bf">MR_InTreePathBuilder</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a759f2e6a7445cb8dcfcc93d9fec39b03" id="r_a759f2e6a7445cb8dcfcc93d9fec39b03"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a6e93071322f362e0b91110445fb894bf">MR_InTreePathBuilder</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a759f2e6a7445cb8dcfcc93d9fec39b03">MR_InTreePathBuilder_OffsetMutablePtr</a> (<a class="el" href="#a6e93071322f362e0b91110445fb894bf">MR_InTreePathBuilder</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a759f2e6a7445cb8dcfcc93d9fec39b03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a759f2e6a7445cb8dcfcc93d9fec39b03"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69905bf1e10864fa2019c804caa95c03" id="r_a69905bf1e10864fa2019c804caa95c03"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a6e93071322f362e0b91110445fb894bf">MR_InTreePathBuilder</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69905bf1e10864fa2019c804caa95c03">MR_InTreePathBuilder_Construct</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *treeEdges)</td></tr>
+<tr class="memitem:a69905bf1e10864fa2019c804caa95c03" id="r_a69905bf1e10864fa2019c804caa95c03"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a6e93071322f362e0b91110445fb894bf">MR_InTreePathBuilder</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69905bf1e10864fa2019c804caa95c03">MR_InTreePathBuilder_Construct</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *treeEdges)</td></tr>
 <tr class="separator:a69905bf1e10864fa2019c804caa95c03"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a63c5ecf80e7646cecf8c92a1e43e6138" id="r_a63c5ecf80e7646cecf8c92a1e43e6138"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a63c5ecf80e7646cecf8c92a1e43e6138">MR_InTreePathBuilder_Destroy</a> (const <a class="el" href="#a6e93071322f362e0b91110445fb894bf">MR_InTreePathBuilder</a> *_this)</td></tr>
+<tr class="memitem:a63c5ecf80e7646cecf8c92a1e43e6138" id="r_a63c5ecf80e7646cecf8c92a1e43e6138"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a63c5ecf80e7646cecf8c92a1e43e6138">MR_InTreePathBuilder_Destroy</a> (const <a class="el" href="#a6e93071322f362e0b91110445fb894bf">MR_InTreePathBuilder</a> *_this)</td></tr>
 <tr class="memdesc:a63c5ecf80e7646cecf8c92a1e43e6138"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_InTreePathBuilder</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:a63c5ecf80e7646cecf8c92a1e43e6138"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a98cbd63dc1ddae504ebd47b5f4288bc4" id="r_a98cbd63dc1ddae504ebd47b5f4288bc4"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98cbd63dc1ddae504ebd47b5f4288bc4">MR_InTreePathBuilder_DestroyArray</a> (const <a class="el" href="#a6e93071322f362e0b91110445fb894bf">MR_InTreePathBuilder</a> *_this)</td></tr>
+<tr class="memitem:a98cbd63dc1ddae504ebd47b5f4288bc4" id="r_a98cbd63dc1ddae504ebd47b5f4288bc4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98cbd63dc1ddae504ebd47b5f4288bc4">MR_InTreePathBuilder_DestroyArray</a> (const <a class="el" href="#a6e93071322f362e0b91110445fb894bf">MR_InTreePathBuilder</a> *_this)</td></tr>
 <tr class="memdesc:a98cbd63dc1ddae504ebd47b5f4288bc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_InTreePathBuilder</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:a98cbd63dc1ddae504ebd47b5f4288bc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e305376971abce6006c30a8b6aeae90" id="r_a5e305376971abce6006c30a8b6aeae90"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRContoursStitch_8h.html#aa2cb99914308eb7429fd11738cf79483">MR_std_vector_MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e305376971abce6006c30a8b6aeae90">MR_InTreePathBuilder_build</a> (const <a class="el" href="#a6e93071322f362e0b91110445fb894bf">MR_InTreePathBuilder</a> *_this, <a class="el" href="structMR__VertId.html">MR_VertId</a> start, <a class="el" href="structMR__VertId.html">MR_VertId</a> finish)</td></tr>
+<tr class="memitem:a5e305376971abce6006c30a8b6aeae90" id="r_a5e305376971abce6006c30a8b6aeae90"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRContoursStitch_8h.html#aa2cb99914308eb7429fd11738cf79483">MR_std_vector_MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e305376971abce6006c30a8b6aeae90">MR_InTreePathBuilder_build</a> (const <a class="el" href="#a6e93071322f362e0b91110445fb894bf">MR_InTreePathBuilder</a> *_this, <a class="el" href="structMR__VertId.html">MR_VertId</a> start, <a class="el" href="structMR__VertId.html">MR_VertId</a> finish)</td></tr>
 <tr class="separator:a5e305376971abce6006c30a8b6aeae90"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -262,7 +256,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRContoursStitch_8h.html#aa2cb99914308eb7429fd11738cf79483">MR_std_vector_MR_EdgeId</a> * MR_InTreePathBuilder_build </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRContoursStitch_8h.html#aa2cb99914308eb7429fd11738cf79483">MR_std_vector_MR_EdgeId</a> * MR_InTreePathBuilder_build </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a6e93071322f362e0b91110445fb894bf">MR_InTreePathBuilder</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -289,7 +283,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a6e93071322f362e0b91110445fb894bf">MR_InTreePathBuilder</a> * MR_InTreePathBuilder_Construct </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a6e93071322f362e0b91110445fb894bf">MR_InTreePathBuilder</a> * MR_InTreePathBuilder_Construct </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
         </tr>
@@ -311,7 +305,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a6e93071322f362e0b91110445fb894bf">MR_InTreePathBuilder</a> * MR_InTreePathBuilder_ConstructFromAnother </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a6e93071322f362e0b91110445fb894bf">MR_InTreePathBuilder</a> * MR_InTreePathBuilder_ConstructFromAnother </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
         </tr>
@@ -333,7 +327,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_InTreePathBuilder_Destroy </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_InTreePathBuilder_Destroy </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a6e93071322f362e0b91110445fb894bf">MR_InTreePathBuilder</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -352,7 +346,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_InTreePathBuilder_DestroyArray </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_InTreePathBuilder_DestroyArray </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a6e93071322f362e0b91110445fb894bf">MR_InTreePathBuilder</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -371,7 +365,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a6e93071322f362e0b91110445fb894bf">MR_InTreePathBuilder</a> * MR_InTreePathBuilder_OffsetMutablePtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a6e93071322f362e0b91110445fb894bf">MR_InTreePathBuilder</a> * MR_InTreePathBuilder_OffsetMutablePtr </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a6e93071322f362e0b91110445fb894bf">MR_InTreePathBuilder</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -394,7 +388,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="#a6e93071322f362e0b91110445fb894bf">MR_InTreePathBuilder</a> * MR_InTreePathBuilder_OffsetPtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a6e93071322f362e0b91110445fb894bf">MR_InTreePathBuilder</a> * MR_InTreePathBuilder_OffsetPtr </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a6e93071322f362e0b91110445fb894bf">MR_InTreePathBuilder</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>

@@ -14,12 +14,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -157,7 +151,7 @@ $(function(){initNavTree('MRBasinVolume_8h.html',''); initResizable(true); });
   <div class="headertitle"><div class="title">MRBasinVolume.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="std__array__MR__Vector3f__3_8h_source.html">MRCMisc/std_array_MR_Vector3f_3.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
@@ -175,31 +169,31 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a5961bc66452a1466905525c3028c9199" id="r_a5961bc66452a1466905525c3028c9199"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a92e9bfe09cc0215931c58d6c081a656e">MR_BasinVolumeCalculator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5961bc66452a1466905525c3028c9199">MR_BasinVolumeCalculator_DefaultConstruct</a> (void)</td></tr>
+<tr class="memitem:a5961bc66452a1466905525c3028c9199" id="r_a5961bc66452a1466905525c3028c9199"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a92e9bfe09cc0215931c58d6c081a656e">MR_BasinVolumeCalculator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5961bc66452a1466905525c3028c9199">MR_BasinVolumeCalculator_DefaultConstruct</a> (void)</td></tr>
 <tr class="separator:a5961bc66452a1466905525c3028c9199"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a06c7eb12135d02dd952cb9ce07b25a33" id="r_a06c7eb12135d02dd952cb9ce07b25a33"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a92e9bfe09cc0215931c58d6c081a656e">MR_BasinVolumeCalculator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06c7eb12135d02dd952cb9ce07b25a33">MR_BasinVolumeCalculator_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="memitem:a06c7eb12135d02dd952cb9ce07b25a33" id="r_a06c7eb12135d02dd952cb9ce07b25a33"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a92e9bfe09cc0215931c58d6c081a656e">MR_BasinVolumeCalculator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06c7eb12135d02dd952cb9ce07b25a33">MR_BasinVolumeCalculator_DefaultConstructArray</a> (size_t num_elems)</td></tr>
 <tr class="separator:a06c7eb12135d02dd952cb9ce07b25a33"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a32a0a4d14a6e80ff8ba5a1a735b6f197" id="r_a32a0a4d14a6e80ff8ba5a1a735b6f197"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a92e9bfe09cc0215931c58d6c081a656e">MR_BasinVolumeCalculator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a32a0a4d14a6e80ff8ba5a1a735b6f197">MR_BasinVolumeCalculator_OffsetPtr</a> (const <a class="el" href="#a92e9bfe09cc0215931c58d6c081a656e">MR_BasinVolumeCalculator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a32a0a4d14a6e80ff8ba5a1a735b6f197" id="r_a32a0a4d14a6e80ff8ba5a1a735b6f197"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a92e9bfe09cc0215931c58d6c081a656e">MR_BasinVolumeCalculator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a32a0a4d14a6e80ff8ba5a1a735b6f197">MR_BasinVolumeCalculator_OffsetPtr</a> (const <a class="el" href="#a92e9bfe09cc0215931c58d6c081a656e">MR_BasinVolumeCalculator</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a32a0a4d14a6e80ff8ba5a1a735b6f197"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a32a0a4d14a6e80ff8ba5a1a735b6f197"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab57124d92515568462f9a12418d0be08" id="r_ab57124d92515568462f9a12418d0be08"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a92e9bfe09cc0215931c58d6c081a656e">MR_BasinVolumeCalculator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab57124d92515568462f9a12418d0be08">MR_BasinVolumeCalculator_OffsetMutablePtr</a> (<a class="el" href="#a92e9bfe09cc0215931c58d6c081a656e">MR_BasinVolumeCalculator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:ab57124d92515568462f9a12418d0be08" id="r_ab57124d92515568462f9a12418d0be08"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a92e9bfe09cc0215931c58d6c081a656e">MR_BasinVolumeCalculator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab57124d92515568462f9a12418d0be08">MR_BasinVolumeCalculator_OffsetMutablePtr</a> (<a class="el" href="#a92e9bfe09cc0215931c58d6c081a656e">MR_BasinVolumeCalculator</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:ab57124d92515568462f9a12418d0be08"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:ab57124d92515568462f9a12418d0be08"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d3d5734145a62ac6c2c8d32f3f87a2e" id="r_a2d3d5734145a62ac6c2c8d32f3f87a2e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a92e9bfe09cc0215931c58d6c081a656e">MR_BasinVolumeCalculator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d3d5734145a62ac6c2c8d32f3f87a2e">MR_BasinVolumeCalculator_ConstructFromAnother</a> (const <a class="el" href="#a92e9bfe09cc0215931c58d6c081a656e">MR_BasinVolumeCalculator</a> *_other)</td></tr>
+<tr class="memitem:a2d3d5734145a62ac6c2c8d32f3f87a2e" id="r_a2d3d5734145a62ac6c2c8d32f3f87a2e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a92e9bfe09cc0215931c58d6c081a656e">MR_BasinVolumeCalculator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d3d5734145a62ac6c2c8d32f3f87a2e">MR_BasinVolumeCalculator_ConstructFromAnother</a> (const <a class="el" href="#a92e9bfe09cc0215931c58d6c081a656e">MR_BasinVolumeCalculator</a> *_other)</td></tr>
 <tr class="separator:a2d3d5734145a62ac6c2c8d32f3f87a2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7296967f1794b3dce942bc506bc5a67" id="r_ae7296967f1794b3dce942bc506bc5a67"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae7296967f1794b3dce942bc506bc5a67">MR_BasinVolumeCalculator_Destroy</a> (const <a class="el" href="#a92e9bfe09cc0215931c58d6c081a656e">MR_BasinVolumeCalculator</a> *_this)</td></tr>
+<tr class="memitem:ae7296967f1794b3dce942bc506bc5a67" id="r_ae7296967f1794b3dce942bc506bc5a67"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae7296967f1794b3dce942bc506bc5a67">MR_BasinVolumeCalculator_Destroy</a> (const <a class="el" href="#a92e9bfe09cc0215931c58d6c081a656e">MR_BasinVolumeCalculator</a> *_this)</td></tr>
 <tr class="memdesc:ae7296967f1794b3dce942bc506bc5a67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_BasinVolumeCalculator</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:ae7296967f1794b3dce942bc506bc5a67"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a14a9f88d6f7a3d42ecb72aa22ac64c37" id="r_a14a9f88d6f7a3d42ecb72aa22ac64c37"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14a9f88d6f7a3d42ecb72aa22ac64c37">MR_BasinVolumeCalculator_DestroyArray</a> (const <a class="el" href="#a92e9bfe09cc0215931c58d6c081a656e">MR_BasinVolumeCalculator</a> *_this)</td></tr>
+<tr class="memitem:a14a9f88d6f7a3d42ecb72aa22ac64c37" id="r_a14a9f88d6f7a3d42ecb72aa22ac64c37"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14a9f88d6f7a3d42ecb72aa22ac64c37">MR_BasinVolumeCalculator_DestroyArray</a> (const <a class="el" href="#a92e9bfe09cc0215931c58d6c081a656e">MR_BasinVolumeCalculator</a> *_this)</td></tr>
 <tr class="memdesc:a14a9f88d6f7a3d42ecb72aa22ac64c37"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_BasinVolumeCalculator</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:a14a9f88d6f7a3d42ecb72aa22ac64c37"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ce2d0ee75268c7e110145ce673c9f99" id="r_a5ce2d0ee75268c7e110145ce673c9f99"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a92e9bfe09cc0215931c58d6c081a656e">MR_BasinVolumeCalculator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ce2d0ee75268c7e110145ce673c9f99">MR_BasinVolumeCalculator_AssignFromAnother</a> (<a class="el" href="#a92e9bfe09cc0215931c58d6c081a656e">MR_BasinVolumeCalculator</a> *_this, const <a class="el" href="#a92e9bfe09cc0215931c58d6c081a656e">MR_BasinVolumeCalculator</a> *_other)</td></tr>
+<tr class="memitem:a5ce2d0ee75268c7e110145ce673c9f99" id="r_a5ce2d0ee75268c7e110145ce673c9f99"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a92e9bfe09cc0215931c58d6c081a656e">MR_BasinVolumeCalculator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ce2d0ee75268c7e110145ce673c9f99">MR_BasinVolumeCalculator_AssignFromAnother</a> (<a class="el" href="#a92e9bfe09cc0215931c58d6c081a656e">MR_BasinVolumeCalculator</a> *_this, const <a class="el" href="#a92e9bfe09cc0215931c58d6c081a656e">MR_BasinVolumeCalculator</a> *_other)</td></tr>
 <tr class="separator:a5ce2d0ee75268c7e110145ce673c9f99"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ebd6eaf592de7750deda774202b8ddb" id="r_a3ebd6eaf592de7750deda774202b8ddb"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ebd6eaf592de7750deda774202b8ddb">MR_BasinVolumeCalculator_addTerrainTri</a> (<a class="el" href="#a92e9bfe09cc0215931c58d6c081a656e">MR_BasinVolumeCalculator</a> *_this, <a class="el" href="structMR__std__array__MR__Vector3f__3.html">MR_std_array_MR_Vector3f_3</a> t, float level)</td></tr>
+<tr class="memitem:a3ebd6eaf592de7750deda774202b8ddb" id="r_a3ebd6eaf592de7750deda774202b8ddb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ebd6eaf592de7750deda774202b8ddb">MR_BasinVolumeCalculator_addTerrainTri</a> (<a class="el" href="#a92e9bfe09cc0215931c58d6c081a656e">MR_BasinVolumeCalculator</a> *_this, <a class="el" href="structMR__std__array__MR__Vector3f__3.html">MR_std_array_MR_Vector3f_3</a> t, float level)</td></tr>
 <tr class="separator:a3ebd6eaf592de7750deda774202b8ddb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6e926efbcb408086b38a7f70716be14" id="r_af6e926efbcb408086b38a7f70716be14"><td class="memItemLeft" align="right" valign="top">MRC_API double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6e926efbcb408086b38a7f70716be14">MR_BasinVolumeCalculator_getVolume</a> (const <a class="el" href="#a92e9bfe09cc0215931c58d6c081a656e">MR_BasinVolumeCalculator</a> *_this)</td></tr>
+<tr class="memitem:af6e926efbcb408086b38a7f70716be14" id="r_af6e926efbcb408086b38a7f70716be14"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6e926efbcb408086b38a7f70716be14">MR_BasinVolumeCalculator_getVolume</a> (const <a class="el" href="#a92e9bfe09cc0215931c58d6c081a656e">MR_BasinVolumeCalculator</a> *_this)</td></tr>
 <tr class="separator:af6e926efbcb408086b38a7f70716be14"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4235ab9f22905b8a47532b7527b2f12" id="r_ae4235ab9f22905b8a47532b7527b2f12"><td class="memItemLeft" align="right" valign="top">MRC_API double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4235ab9f22905b8a47532b7527b2f12">MR_computeBasinVolume</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *faces, float level)</td></tr>
+<tr class="memitem:ae4235ab9f22905b8a47532b7527b2f12" id="r_ae4235ab9f22905b8a47532b7527b2f12"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4235ab9f22905b8a47532b7527b2f12">MR_computeBasinVolume</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *faces, float level)</td></tr>
 <tr class="separator:ae4235ab9f22905b8a47532b7527b2f12"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -254,7 +248,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API bool MR_BasinVolumeCalculator_addTerrainTri </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_BasinVolumeCalculator_addTerrainTri </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a92e9bfe09cc0215931c58d6c081a656e">MR_BasinVolumeCalculator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -281,7 +275,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a92e9bfe09cc0215931c58d6c081a656e">MR_BasinVolumeCalculator</a> * MR_BasinVolumeCalculator_AssignFromAnother </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a92e9bfe09cc0215931c58d6c081a656e">MR_BasinVolumeCalculator</a> * MR_BasinVolumeCalculator_AssignFromAnother </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a92e9bfe09cc0215931c58d6c081a656e">MR_BasinVolumeCalculator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -303,7 +297,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a92e9bfe09cc0215931c58d6c081a656e">MR_BasinVolumeCalculator</a> * MR_BasinVolumeCalculator_ConstructFromAnother </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a92e9bfe09cc0215931c58d6c081a656e">MR_BasinVolumeCalculator</a> * MR_BasinVolumeCalculator_ConstructFromAnother </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a92e9bfe09cc0215931c58d6c081a656e">MR_BasinVolumeCalculator</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
           <td></td>
@@ -321,7 +315,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a92e9bfe09cc0215931c58d6c081a656e">MR_BasinVolumeCalculator</a> * MR_BasinVolumeCalculator_DefaultConstruct </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a92e9bfe09cc0215931c58d6c081a656e">MR_BasinVolumeCalculator</a> * MR_BasinVolumeCalculator_DefaultConstruct </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -339,7 +333,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a92e9bfe09cc0215931c58d6c081a656e">MR_BasinVolumeCalculator</a> * MR_BasinVolumeCalculator_DefaultConstructArray </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a92e9bfe09cc0215931c58d6c081a656e">MR_BasinVolumeCalculator</a> * MR_BasinVolumeCalculator_DefaultConstructArray </td>
           <td>(</td>
           <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
           <td></td>
@@ -357,7 +351,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_BasinVolumeCalculator_Destroy </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_BasinVolumeCalculator_Destroy </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a92e9bfe09cc0215931c58d6c081a656e">MR_BasinVolumeCalculator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -376,7 +370,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_BasinVolumeCalculator_DestroyArray </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_BasinVolumeCalculator_DestroyArray </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a92e9bfe09cc0215931c58d6c081a656e">MR_BasinVolumeCalculator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -395,7 +389,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API double MR_BasinVolumeCalculator_getVolume </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> double MR_BasinVolumeCalculator_getVolume </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a92e9bfe09cc0215931c58d6c081a656e">MR_BasinVolumeCalculator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -413,7 +407,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a92e9bfe09cc0215931c58d6c081a656e">MR_BasinVolumeCalculator</a> * MR_BasinVolumeCalculator_OffsetMutablePtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a92e9bfe09cc0215931c58d6c081a656e">MR_BasinVolumeCalculator</a> * MR_BasinVolumeCalculator_OffsetMutablePtr </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a92e9bfe09cc0215931c58d6c081a656e">MR_BasinVolumeCalculator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -436,7 +430,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="#a92e9bfe09cc0215931c58d6c081a656e">MR_BasinVolumeCalculator</a> * MR_BasinVolumeCalculator_OffsetPtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a92e9bfe09cc0215931c58d6c081a656e">MR_BasinVolumeCalculator</a> * MR_BasinVolumeCalculator_OffsetPtr </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a92e9bfe09cc0215931c58d6c081a656e">MR_BasinVolumeCalculator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -459,7 +453,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API double MR_computeBasinVolume </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> double MR_computeBasinVolume </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>

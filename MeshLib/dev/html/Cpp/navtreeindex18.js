@@ -227,13 +227,12 @@ var NAVTREEINDEX18 =
 "classMR_1_1AABBTreePoints.html#afe5c12db028de0c7152524376a92c38b":[6,0,0,1,7,4],
 "classMR_1_1AABBTreePoints.html#affd18b1fda8da3797dbcaa84425ab594":[6,0,0,1,7,7],
 "classMR_1_1AABBTreePolyline.html":[6,0,0,1,11],
-"classMR_1_1AABBTreePolyline.html#a0da0a8d855b1e2981083b1e681398a8b":[6,0,0,1,11,1],
-"classMR_1_1AABBTreePolyline.html#a52c528f5d14d69efc2f4a51166515170":[6,0,0,1,11,6],
+"classMR_1_1AABBTreePolyline.html#a48ba4e2d4bac2d864f070cfe0504e6ef":[6,0,0,1,11,5],
+"classMR_1_1AABBTreePolyline.html#a52c528f5d14d69efc2f4a51166515170":[6,0,0,1,11,4],
 "classMR_1_1AABBTreePolyline.html#a7bfaaa5a66978f3d97cd8451644bed9a":[6,0,0,1,11,0],
-"classMR_1_1AABBTreePolyline.html#a82f5feeca891be31840c7bba4a85cb1a":[6,0,0,1,11,4],
-"classMR_1_1AABBTreePolyline.html#a86c6f6500ab7a1df6e7bf30cab730bc3":[6,0,0,1,11,2],
-"classMR_1_1AABBTreePolyline.html#aaf1c13f7909dc226ed6e0a332e61ba4c":[6,0,0,1,11,3],
-"classMR_1_1AABBTreePolyline.html#ac9462890b338f7d6d0455c3137f6a48b":[6,0,0,1,11,5],
+"classMR_1_1AABBTreePolyline.html#a82f5feeca891be31840c7bba4a85cb1a":[6,0,0,1,11,2],
+"classMR_1_1AABBTreePolyline.html#aaf1c13f7909dc226ed6e0a332e61ba4c":[6,0,0,1,11,1],
+"classMR_1_1AABBTreePolyline.html#ac9462890b338f7d6d0455c3137f6a48b":[6,0,0,1,11,3],
 "classMR_1_1AddCustomThemePlugin.html":[6,0,1,0,1,52],
 "classMR_1_1AddCustomThemePlugin.html":[6,0,2,0,1,34],
 "classMR_1_1AddCustomThemePlugin.html#a2b80328f1f0ec1ad7ccce34cf2b541d8":[6,0,1,0,1,52,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX18 =
 "classMR_1_1AddVisualProperties.html#a099d73dfec242eced929d4f4705c90fd":[6,0,1,0,1,53,2],
 "classMR_1_1AddVisualProperties.html#a099d73dfec242eced929d4f4705c90fd":[6,0,2,0,1,35,2],
 "classMR_1_1AddVisualProperties.html#a534fe1b7809ccb50abd437a88b6c1412":[6,0,1,0,1,53,4],
-"classMR_1_1AddVisualProperties.html#a534fe1b7809ccb50abd437a88b6c1412":[6,0,2,0,1,35,4]
+"classMR_1_1AddVisualProperties.html#a534fe1b7809ccb50abd437a88b6c1412":[6,0,2,0,1,35,4],
+"classMR_1_1AddVisualProperties.html#a7fc99037212a4beaeec730ca98373554":[6,0,1,0,1,53,0]
 };

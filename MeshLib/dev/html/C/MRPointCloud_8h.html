@@ -14,12 +14,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -162,7 +156,7 @@ $(function(){initNavTree('MRPointCloud_8h.html',''); initResizable(true); });
 <code>#include &lt;<a class="el" href="MRMeshFwd_8h_source.html">MRCMesh/MRMeshFwd.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="MRVector3_8h_source.html">MRCMesh/MRVector3.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
-<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
 </div>
@@ -194,83 +188,83 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a99e5242c49867b367f981b73578c61b1" id="r_a99e5242c49867b367f981b73578c61b1"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a99e5242c49867b367f981b73578c61b1">MR_PointCloud_Get_points</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this)</td></tr>
+<tr class="memitem:a99e5242c49867b367f981b73578c61b1" id="r_a99e5242c49867b367f981b73578c61b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a99e5242c49867b367f981b73578c61b1">MR_PointCloud_Get_points</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this)</td></tr>
 <tr class="separator:a99e5242c49867b367f981b73578c61b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a86db9aebdbb258466243cc693f09bd33" id="r_a86db9aebdbb258466243cc693f09bd33"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86db9aebdbb258466243cc693f09bd33">MR_PointCloud_Set_points</a> (<a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *value)</td></tr>
+<tr class="memitem:a86db9aebdbb258466243cc693f09bd33" id="r_a86db9aebdbb258466243cc693f09bd33"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86db9aebdbb258466243cc693f09bd33">MR_PointCloud_Set_points</a> (<a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *value)</td></tr>
 <tr class="separator:a86db9aebdbb258466243cc693f09bd33"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade560de63153f9ae4d5c59230d12414d" id="r_ade560de63153f9ae4d5c59230d12414d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade560de63153f9ae4d5c59230d12414d">MR_PointCloud_GetMutable_points</a> (<a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this)</td></tr>
+<tr class="memitem:ade560de63153f9ae4d5c59230d12414d" id="r_ade560de63153f9ae4d5c59230d12414d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade560de63153f9ae4d5c59230d12414d">MR_PointCloud_GetMutable_points</a> (<a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this)</td></tr>
 <tr class="separator:ade560de63153f9ae4d5c59230d12414d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeda09ba6206a292c8371d110c4891a7b" id="r_aeda09ba6206a292c8371d110c4891a7b"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeda09ba6206a292c8371d110c4891a7b">MR_PointCloud_Get_normals</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this)</td></tr>
+<tr class="memitem:aeda09ba6206a292c8371d110c4891a7b" id="r_aeda09ba6206a292c8371d110c4891a7b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeda09ba6206a292c8371d110c4891a7b">MR_PointCloud_Get_normals</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this)</td></tr>
 <tr class="separator:aeda09ba6206a292c8371d110c4891a7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe63601a44cacf9a87f8154abf2d8f79" id="r_abe63601a44cacf9a87f8154abf2d8f79"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe63601a44cacf9a87f8154abf2d8f79">MR_PointCloud_Set_normals</a> (<a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *value)</td></tr>
+<tr class="memitem:abe63601a44cacf9a87f8154abf2d8f79" id="r_abe63601a44cacf9a87f8154abf2d8f79"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe63601a44cacf9a87f8154abf2d8f79">MR_PointCloud_Set_normals</a> (<a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *value)</td></tr>
 <tr class="separator:abe63601a44cacf9a87f8154abf2d8f79"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b8c99c79b4f2494b65dd44e8803277b" id="r_a9b8c99c79b4f2494b65dd44e8803277b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b8c99c79b4f2494b65dd44e8803277b">MR_PointCloud_GetMutable_normals</a> (<a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this)</td></tr>
+<tr class="memitem:a9b8c99c79b4f2494b65dd44e8803277b" id="r_a9b8c99c79b4f2494b65dd44e8803277b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b8c99c79b4f2494b65dd44e8803277b">MR_PointCloud_GetMutable_normals</a> (<a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this)</td></tr>
 <tr class="separator:a9b8c99c79b4f2494b65dd44e8803277b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6fe2683e365dac4c40d4800499d32f6a" id="r_a6fe2683e365dac4c40d4800499d32f6a"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fe2683e365dac4c40d4800499d32f6a">MR_PointCloud_Get_validPoints</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this)</td></tr>
+<tr class="memitem:a6fe2683e365dac4c40d4800499d32f6a" id="r_a6fe2683e365dac4c40d4800499d32f6a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fe2683e365dac4c40d4800499d32f6a">MR_PointCloud_Get_validPoints</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this)</td></tr>
 <tr class="separator:a6fe2683e365dac4c40d4800499d32f6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6d324093dc674581c5f06d59ac94183" id="r_af6d324093dc674581c5f06d59ac94183"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6d324093dc674581c5f06d59ac94183">MR_PointCloud_Set_validPoints</a> (<a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *value)</td></tr>
+<tr class="memitem:af6d324093dc674581c5f06d59ac94183" id="r_af6d324093dc674581c5f06d59ac94183"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6d324093dc674581c5f06d59ac94183">MR_PointCloud_Set_validPoints</a> (<a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *value)</td></tr>
 <tr class="separator:af6d324093dc674581c5f06d59ac94183"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae45f40b63dc50964200d008a4de512b0" id="r_ae45f40b63dc50964200d008a4de512b0"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae45f40b63dc50964200d008a4de512b0">MR_PointCloud_GetMutable_validPoints</a> (<a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this)</td></tr>
+<tr class="memitem:ae45f40b63dc50964200d008a4de512b0" id="r_ae45f40b63dc50964200d008a4de512b0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae45f40b63dc50964200d008a4de512b0">MR_PointCloud_GetMutable_validPoints</a> (<a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this)</td></tr>
 <tr class="separator:ae45f40b63dc50964200d008a4de512b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d04585a52a8fe0a2d41ec2b1ed09237" id="r_a2d04585a52a8fe0a2d41ec2b1ed09237"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d04585a52a8fe0a2d41ec2b1ed09237">MR_PointCloud_DefaultConstruct</a> (void)</td></tr>
+<tr class="memitem:a2d04585a52a8fe0a2d41ec2b1ed09237" id="r_a2d04585a52a8fe0a2d41ec2b1ed09237"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d04585a52a8fe0a2d41ec2b1ed09237">MR_PointCloud_DefaultConstruct</a> (void)</td></tr>
 <tr class="separator:a2d04585a52a8fe0a2d41ec2b1ed09237"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab42b368ac1743fac9fd01e5073d7304e" id="r_ab42b368ac1743fac9fd01e5073d7304e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab42b368ac1743fac9fd01e5073d7304e">MR_PointCloud_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="memitem:ab42b368ac1743fac9fd01e5073d7304e" id="r_ab42b368ac1743fac9fd01e5073d7304e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab42b368ac1743fac9fd01e5073d7304e">MR_PointCloud_DefaultConstructArray</a> (size_t num_elems)</td></tr>
 <tr class="separator:ab42b368ac1743fac9fd01e5073d7304e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9da1aebf620693b1bf26eea4da660d00" id="r_a9da1aebf620693b1bf26eea4da660d00"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9da1aebf620693b1bf26eea4da660d00">MR_PointCloud_OffsetPtr</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a9da1aebf620693b1bf26eea4da660d00" id="r_a9da1aebf620693b1bf26eea4da660d00"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9da1aebf620693b1bf26eea4da660d00">MR_PointCloud_OffsetPtr</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a9da1aebf620693b1bf26eea4da660d00"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a9da1aebf620693b1bf26eea4da660d00"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b351e894a6f13be9179b38aad7a935e" id="r_a9b351e894a6f13be9179b38aad7a935e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b351e894a6f13be9179b38aad7a935e">MR_PointCloud_OffsetMutablePtr</a> (<a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a9b351e894a6f13be9179b38aad7a935e" id="r_a9b351e894a6f13be9179b38aad7a935e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b351e894a6f13be9179b38aad7a935e">MR_PointCloud_OffsetMutablePtr</a> (<a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a9b351e894a6f13be9179b38aad7a935e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a9b351e894a6f13be9179b38aad7a935e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a73fe5632c6f7ddcdfb097ef587a9ffe7" id="r_a73fe5632c6f7ddcdfb097ef587a9ffe7"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73fe5632c6f7ddcdfb097ef587a9ffe7">MR_PointCloud_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_other)</td></tr>
+<tr class="memitem:a73fe5632c6f7ddcdfb097ef587a9ffe7" id="r_a73fe5632c6f7ddcdfb097ef587a9ffe7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73fe5632c6f7ddcdfb097ef587a9ffe7">MR_PointCloud_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_other)</td></tr>
 <tr class="separator:a73fe5632c6f7ddcdfb097ef587a9ffe7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab779f06f061af58a1905e4d5b5e23e20" id="r_ab779f06f061af58a1905e4d5b5e23e20"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab779f06f061af58a1905e4d5b5e23e20">MR_PointCloud_Destroy</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this)</td></tr>
+<tr class="memitem:ab779f06f061af58a1905e4d5b5e23e20" id="r_ab779f06f061af58a1905e4d5b5e23e20"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab779f06f061af58a1905e4d5b5e23e20">MR_PointCloud_Destroy</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this)</td></tr>
 <tr class="memdesc:ab779f06f061af58a1905e4d5b5e23e20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_PointCloud</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:ab779f06f061af58a1905e4d5b5e23e20"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf59590b6380b8c37e7116a7f0106d96" id="r_adf59590b6380b8c37e7116a7f0106d96"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf59590b6380b8c37e7116a7f0106d96">MR_PointCloud_DestroyArray</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this)</td></tr>
+<tr class="memitem:adf59590b6380b8c37e7116a7f0106d96" id="r_adf59590b6380b8c37e7116a7f0106d96"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf59590b6380b8c37e7116a7f0106d96">MR_PointCloud_DestroyArray</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this)</td></tr>
 <tr class="memdesc:adf59590b6380b8c37e7116a7f0106d96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_PointCloud</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:adf59590b6380b8c37e7116a7f0106d96"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a74d28bea871c104f8ee1916079f629d6" id="r_a74d28bea871c104f8ee1916079f629d6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74d28bea871c104f8ee1916079f629d6">MR_PointCloud_AssignFromAnother</a> (<a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_other)</td></tr>
+<tr class="memitem:a74d28bea871c104f8ee1916079f629d6" id="r_a74d28bea871c104f8ee1916079f629d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74d28bea871c104f8ee1916079f629d6">MR_PointCloud_AssignFromAnother</a> (<a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_other)</td></tr>
 <tr class="separator:a74d28bea871c104f8ee1916079f629d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a099c68beb8833a26ff36584dc0570f95" id="r_a099c68beb8833a26ff36584dc0570f95"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a099c68beb8833a26ff36584dc0570f95">MR_PointCloud_calcNumValidPoints</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this)</td></tr>
+<tr class="memitem:a099c68beb8833a26ff36584dc0570f95" id="r_a099c68beb8833a26ff36584dc0570f95"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a099c68beb8833a26ff36584dc0570f95">MR_PointCloud_calcNumValidPoints</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this)</td></tr>
 <tr class="separator:a099c68beb8833a26ff36584dc0570f95"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a42789393d25909e8ce1866d34af9094e" id="r_a42789393d25909e8ce1866d34af9094e"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42789393d25909e8ce1866d34af9094e">MR_PointCloud_hasNormals</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this)</td></tr>
+<tr class="memitem:a42789393d25909e8ce1866d34af9094e" id="r_a42789393d25909e8ce1866d34af9094e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42789393d25909e8ce1866d34af9094e">MR_PointCloud_hasNormals</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this)</td></tr>
 <tr class="separator:a42789393d25909e8ce1866d34af9094e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a60ee320be1cbd91077a2a6e2690da64c" id="r_a60ee320be1cbd91077a2a6e2690da64c"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60ee320be1cbd91077a2a6e2690da64c">MR_PointCloud_getVertIds</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *region)</td></tr>
+<tr class="memitem:a60ee320be1cbd91077a2a6e2690da64c" id="r_a60ee320be1cbd91077a2a6e2690da64c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60ee320be1cbd91077a2a6e2690da64c">MR_PointCloud_getVertIds</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *region)</td></tr>
 <tr class="separator:a60ee320be1cbd91077a2a6e2690da64c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a767fccafce3c3817c419ae13f7c1f19a" id="r_a767fccafce3c3817c419ae13f7c1f19a"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAABBTreePoints_8h.html#aaa96ed5b79deaa81e7e5e848584a7b6a">MR_AABBTreePoints</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a767fccafce3c3817c419ae13f7c1f19a">MR_PointCloud_getAABBTree</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this)</td></tr>
+<tr class="memitem:a767fccafce3c3817c419ae13f7c1f19a" id="r_a767fccafce3c3817c419ae13f7c1f19a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAABBTreePoints_8h.html#aaa96ed5b79deaa81e7e5e848584a7b6a">MR_AABBTreePoints</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a767fccafce3c3817c419ae13f7c1f19a">MR_PointCloud_getAABBTree</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this)</td></tr>
 <tr class="separator:a767fccafce3c3817c419ae13f7c1f19a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9982c76174771e7880ce0e89c98be3e" id="r_ab9982c76174771e7880ce0e89c98be3e"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAABBTreePoints_8h.html#aaa96ed5b79deaa81e7e5e848584a7b6a">MR_AABBTreePoints</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9982c76174771e7880ce0e89c98be3e">MR_PointCloud_getAABBTreeNotCreate</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this)</td></tr>
+<tr class="memitem:ab9982c76174771e7880ce0e89c98be3e" id="r_ab9982c76174771e7880ce0e89c98be3e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAABBTreePoints_8h.html#aaa96ed5b79deaa81e7e5e848584a7b6a">MR_AABBTreePoints</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9982c76174771e7880ce0e89c98be3e">MR_PointCloud_getAABBTreeNotCreate</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this)</td></tr>
 <tr class="separator:ab9982c76174771e7880ce0e89c98be3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6143c9a97d8c6752e6e5b8a3acd8de4c" id="r_a6143c9a97d8c6752e6e5b8a3acd8de4c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Box3f.html">MR_Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6143c9a97d8c6752e6e5b8a3acd8de4c">MR_PointCloud_getBoundingBox</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this)</td></tr>
+<tr class="memitem:a6143c9a97d8c6752e6e5b8a3acd8de4c" id="r_a6143c9a97d8c6752e6e5b8a3acd8de4c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Box3f.html">MR_Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6143c9a97d8c6752e6e5b8a3acd8de4c">MR_PointCloud_getBoundingBox</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this)</td></tr>
 <tr class="separator:a6143c9a97d8c6752e6e5b8a3acd8de4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a06cd202fbe59c6268bdc6de59001b676" id="r_a06cd202fbe59c6268bdc6de59001b676"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Box3f.html">MR_Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06cd202fbe59c6268bdc6de59001b676">MR_PointCloud_computeBoundingBox_1</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *toWorld)</td></tr>
+<tr class="memitem:a06cd202fbe59c6268bdc6de59001b676" id="r_a06cd202fbe59c6268bdc6de59001b676"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Box3f.html">MR_Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06cd202fbe59c6268bdc6de59001b676">MR_PointCloud_computeBoundingBox_1</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *toWorld)</td></tr>
 <tr class="separator:a06cd202fbe59c6268bdc6de59001b676"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4400a5f601b6fc74028cb07dfe837c12" id="r_a4400a5f601b6fc74028cb07dfe837c12"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Box3f.html">MR_Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4400a5f601b6fc74028cb07dfe837c12">MR_PointCloud_computeBoundingBox_2</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *region, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *toWorld)</td></tr>
+<tr class="memitem:a4400a5f601b6fc74028cb07dfe837c12" id="r_a4400a5f601b6fc74028cb07dfe837c12"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Box3f.html">MR_Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4400a5f601b6fc74028cb07dfe837c12">MR_PointCloud_computeBoundingBox_2</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *region, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *toWorld)</td></tr>
 <tr class="separator:a4400a5f601b6fc74028cb07dfe837c12"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a803db3cdd5f25029e38fb7ec9e36e211" id="r_a803db3cdd5f25029e38fb7ec9e36e211"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a803db3cdd5f25029e38fb7ec9e36e211">MR_PointCloud_findCenterFromPoints</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this)</td></tr>
+<tr class="memitem:a803db3cdd5f25029e38fb7ec9e36e211" id="r_a803db3cdd5f25029e38fb7ec9e36e211"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a803db3cdd5f25029e38fb7ec9e36e211">MR_PointCloud_findCenterFromPoints</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this)</td></tr>
 <tr class="separator:a803db3cdd5f25029e38fb7ec9e36e211"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a076033859741d0824c698cd696219217" id="r_a076033859741d0824c698cd696219217"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a076033859741d0824c698cd696219217">MR_PointCloud_findCenterFromBBox</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this)</td></tr>
+<tr class="memitem:a076033859741d0824c698cd696219217" id="r_a076033859741d0824c698cd696219217"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a076033859741d0824c698cd696219217">MR_PointCloud_findCenterFromBBox</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this)</td></tr>
 <tr class="separator:a076033859741d0824c698cd696219217"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5704eaefcfc7d1fd0c6106e00acca178" id="r_a5704eaefcfc7d1fd0c6106e00acca178"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MREdgePaths_8h.html#a954949e1753f6a2063d09e91b23d252d">MR_std_vector_MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5704eaefcfc7d1fd0c6106e00acca178">MR_PointCloud_getLexicographicalOrder</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this)</td></tr>
+<tr class="memitem:a5704eaefcfc7d1fd0c6106e00acca178" id="r_a5704eaefcfc7d1fd0c6106e00acca178"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MREdgePaths_8h.html#a954949e1753f6a2063d09e91b23d252d">MR_std_vector_MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5704eaefcfc7d1fd0c6106e00acca178">MR_PointCloud_getLexicographicalOrder</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this)</td></tr>
 <tr class="separator:a5704eaefcfc7d1fd0c6106e00acca178"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a6143b976dfb20ea4f602d9dfc7f4dd" id="r_a7a6143b976dfb20ea4f602d9dfc7f4dd"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a6143b976dfb20ea4f602d9dfc7f4dd">MR_PointCloud_addPartByMask</a> (<a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this, const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *from, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *fromVerts, const <a class="el" href="MRCloudPartMapping_8h.html#aaab4a354143c42cc0fd161d1c270cdf5">MR_CloudPartMapping</a> *outMap, const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *extNormals)</td></tr>
+<tr class="memitem:a7a6143b976dfb20ea4f602d9dfc7f4dd" id="r_a7a6143b976dfb20ea4f602d9dfc7f4dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a6143b976dfb20ea4f602d9dfc7f4dd">MR_PointCloud_addPartByMask</a> (<a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this, const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *from, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *fromVerts, const <a class="el" href="MRCloudPartMapping_8h.html#aaab4a354143c42cc0fd161d1c270cdf5">MR_CloudPartMapping</a> *outMap, const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *extNormals)</td></tr>
 <tr class="separator:a7a6143b976dfb20ea4f602d9dfc7f4dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1dd09bab96da8ce4bd71dc1b63b74ee7" id="r_a1dd09bab96da8ce4bd71dc1b63b74ee7"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__VertId.html">MR_VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1dd09bab96da8ce4bd71dc1b63b74ee7">MR_PointCloud_addPoint_1</a> (<a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *point)</td></tr>
+<tr class="memitem:a1dd09bab96da8ce4bd71dc1b63b74ee7" id="r_a1dd09bab96da8ce4bd71dc1b63b74ee7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__VertId.html">MR_VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1dd09bab96da8ce4bd71dc1b63b74ee7">MR_PointCloud_addPoint_1</a> (<a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *point)</td></tr>
 <tr class="separator:a1dd09bab96da8ce4bd71dc1b63b74ee7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adb800679b6191b66d8441e0eeaa1be37" id="r_adb800679b6191b66d8441e0eeaa1be37"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__VertId.html">MR_VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb800679b6191b66d8441e0eeaa1be37">MR_PointCloud_addPoint_2</a> (<a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *point, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *normal)</td></tr>
+<tr class="memitem:adb800679b6191b66d8441e0eeaa1be37" id="r_adb800679b6191b66d8441e0eeaa1be37"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__VertId.html">MR_VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb800679b6191b66d8441e0eeaa1be37">MR_PointCloud_addPoint_2</a> (<a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *point, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *normal)</td></tr>
 <tr class="separator:adb800679b6191b66d8441e0eeaa1be37"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a993c404109d5bdbe0cf767d79a75c3d1" id="r_a993c404109d5bdbe0cf767d79a75c3d1"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a993c404109d5bdbe0cf767d79a75c3d1">MR_PointCloud_mirror</a> (<a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this, const <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *plane)</td></tr>
+<tr class="memitem:a993c404109d5bdbe0cf767d79a75c3d1" id="r_a993c404109d5bdbe0cf767d79a75c3d1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a993c404109d5bdbe0cf767d79a75c3d1">MR_PointCloud_mirror</a> (<a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this, const <a class="el" href="MRBestFit_8h.html#aa7548d3448b3b7da1ea96433fe902e9a">MR_Plane3f</a> *plane)</td></tr>
 <tr class="separator:a993c404109d5bdbe0cf767d79a75c3d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac86e659601cb58f191a34b12170c6482" id="r_ac86e659601cb58f191a34b12170c6482"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac86e659601cb58f191a34b12170c6482">MR_PointCloud_flipOrientation</a> (<a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *region)</td></tr>
+<tr class="memitem:ac86e659601cb58f191a34b12170c6482" id="r_ac86e659601cb58f191a34b12170c6482"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac86e659601cb58f191a34b12170c6482">MR_PointCloud_flipOrientation</a> (<a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *region)</td></tr>
 <tr class="separator:ac86e659601cb58f191a34b12170c6482"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa18f716ae7fbcc90afea85bee696fb73" id="r_aa18f716ae7fbcc90afea85bee696fb73"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa18f716ae7fbcc90afea85bee696fb73">MR_PointCloud_pack_MR_VertMap_ptr</a> (<a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this, <a class="el" href="MRBitSet_8h.html#a0c1baad62a31685b2dfb5955f3fb8230">MR_VertMap</a> *outNew2Old)</td></tr>
+<tr class="memitem:aa18f716ae7fbcc90afea85bee696fb73" id="r_aa18f716ae7fbcc90afea85bee696fb73"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa18f716ae7fbcc90afea85bee696fb73">MR_PointCloud_pack_MR_VertMap_ptr</a> (<a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this, <a class="el" href="MRBitSet_8h.html#a0c1baad62a31685b2dfb5955f3fb8230">MR_VertMap</a> *outNew2Old)</td></tr>
 <tr class="separator:aa18f716ae7fbcc90afea85bee696fb73"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7e0fdbd355cee541ac739744a107c8d" id="r_ae7e0fdbd355cee541ac739744a107c8d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTreePoints_8h.html#aa7b9116fbd7f68728817ec9e0d331d91">MR_VertBMap</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae7e0fdbd355cee541ac739744a107c8d">MR_PointCloud_pack_MR_Reorder</a> (<a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this, <a class="el" href="MRMeshFwd_8h.html#a7869edbba7e774adc1c184741e30f492">MR_Reorder</a> reoder)</td></tr>
+<tr class="memitem:ae7e0fdbd355cee541ac739744a107c8d" id="r_ae7e0fdbd355cee541ac739744a107c8d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTreePoints_8h.html#aa7b9116fbd7f68728817ec9e0d331d91">MR_VertBMap</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae7e0fdbd355cee541ac739744a107c8d">MR_PointCloud_pack_MR_Reorder</a> (<a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this, <a class="el" href="MRMeshFwd_8h.html#a7869edbba7e774adc1c184741e30f492">MR_Reorder</a> reoder)</td></tr>
 <tr class="separator:ae7e0fdbd355cee541ac739744a107c8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a934e318a856f277a2d64d4f26eb226d6" id="r_a934e318a856f277a2d64d4f26eb226d6"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a934e318a856f277a2d64d4f26eb226d6">MR_PointCloud_invalidateCaches</a> (<a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this)</td></tr>
+<tr class="memitem:a934e318a856f277a2d64d4f26eb226d6" id="r_a934e318a856f277a2d64d4f26eb226d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a934e318a856f277a2d64d4f26eb226d6">MR_PointCloud_invalidateCaches</a> (<a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this)</td></tr>
 <tr class="separator:a934e318a856f277a2d64d4f26eb226d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c0296c1c685307fd59d3297d44e5a26" id="r_a5c0296c1c685307fd59d3297d44e5a26"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c0296c1c685307fd59d3297d44e5a26">MR_PointCloud_heapBytes</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this)</td></tr>
+<tr class="memitem:a5c0296c1c685307fd59d3297d44e5a26" id="r_a5c0296c1c685307fd59d3297d44e5a26"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c0296c1c685307fd59d3297d44e5a26">MR_PointCloud_heapBytes</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *_this)</td></tr>
 <tr class="separator:a5c0296c1c685307fd59d3297d44e5a26"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -424,7 +418,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_PointCloud_addPartByMask </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PointCloud_addPartByMask </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -466,7 +460,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="structMR__VertId.html">MR_VertId</a> MR_PointCloud_addPoint_1 </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__VertId.html">MR_VertId</a> MR_PointCloud_addPoint_1 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -488,7 +482,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="structMR__VertId.html">MR_VertId</a> MR_PointCloud_addPoint_2 </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__VertId.html">MR_VertId</a> MR_PointCloud_addPoint_2 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -515,7 +509,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> * MR_PointCloud_AssignFromAnother </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> * MR_PointCloud_AssignFromAnother </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -542,7 +536,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> MR_PointCloud_calcNumValidPoints </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> MR_PointCloud_calcNumValidPoints </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -560,7 +554,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="structMR__Box3f.html">MR_Box3f</a> MR_PointCloud_computeBoundingBox_1 </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Box3f.html">MR_Box3f</a> MR_PointCloud_computeBoundingBox_1 </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -582,7 +576,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="structMR__Box3f.html">MR_Box3f</a> MR_PointCloud_computeBoundingBox_2 </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Box3f.html">MR_Box3f</a> MR_PointCloud_computeBoundingBox_2 </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -609,7 +603,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> * MR_PointCloud_ConstructFromAnother </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> * MR_PointCloud_ConstructFromAnother </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
         </tr>
@@ -631,7 +625,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> * MR_PointCloud_DefaultConstruct </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> * MR_PointCloud_DefaultConstruct </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -649,7 +643,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> * MR_PointCloud_DefaultConstructArray </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> * MR_PointCloud_DefaultConstructArray </td>
           <td>(</td>
           <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
           <td></td>
@@ -667,7 +661,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_PointCloud_Destroy </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PointCloud_Destroy </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -686,7 +680,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_PointCloud_DestroyArray </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PointCloud_DestroyArray </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -705,7 +699,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> MR_PointCloud_findCenterFromBBox </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> MR_PointCloud_findCenterFromBBox </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -723,7 +717,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> MR_PointCloud_findCenterFromPoints </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> MR_PointCloud_findCenterFromPoints </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -741,7 +735,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_PointCloud_flipOrientation </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PointCloud_flipOrientation </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -763,7 +757,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> * MR_PointCloud_Get_normals </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> * MR_PointCloud_Get_normals </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -781,7 +775,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> * MR_PointCloud_Get_points </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> * MR_PointCloud_Get_points </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -799,7 +793,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> * MR_PointCloud_Get_validPoints </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> * MR_PointCloud_Get_validPoints </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -817,7 +811,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="MRAABBTreePoints_8h.html#aaa96ed5b79deaa81e7e5e848584a7b6a">MR_AABBTreePoints</a> * MR_PointCloud_getAABBTree </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAABBTreePoints_8h.html#aaa96ed5b79deaa81e7e5e848584a7b6a">MR_AABBTreePoints</a> * MR_PointCloud_getAABBTree </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -835,7 +829,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="MRAABBTreePoints_8h.html#aaa96ed5b79deaa81e7e5e848584a7b6a">MR_AABBTreePoints</a> * MR_PointCloud_getAABBTreeNotCreate </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAABBTreePoints_8h.html#aaa96ed5b79deaa81e7e5e848584a7b6a">MR_AABBTreePoints</a> * MR_PointCloud_getAABBTreeNotCreate </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -853,7 +847,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="structMR__Box3f.html">MR_Box3f</a> MR_PointCloud_getBoundingBox </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Box3f.html">MR_Box3f</a> MR_PointCloud_getBoundingBox </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -871,7 +865,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MREdgePaths_8h.html#a954949e1753f6a2063d09e91b23d252d">MR_std_vector_MR_VertId</a> * MR_PointCloud_getLexicographicalOrder </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MREdgePaths_8h.html#a954949e1753f6a2063d09e91b23d252d">MR_std_vector_MR_VertId</a> * MR_PointCloud_getLexicographicalOrder </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -889,7 +883,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> * MR_PointCloud_GetMutable_normals </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> * MR_PointCloud_GetMutable_normals </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -907,7 +901,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> * MR_PointCloud_GetMutable_points </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> * MR_PointCloud_GetMutable_points </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -925,7 +919,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> * MR_PointCloud_GetMutable_validPoints </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> * MR_PointCloud_GetMutable_validPoints </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -943,7 +937,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> * MR_PointCloud_getVertIds </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> * MR_PointCloud_getVertIds </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -965,7 +959,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API bool MR_PointCloud_hasNormals </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_PointCloud_hasNormals </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -983,7 +977,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> MR_PointCloud_heapBytes </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> MR_PointCloud_heapBytes </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1001,7 +995,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_PointCloud_invalidateCaches </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PointCloud_invalidateCaches </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1019,7 +1013,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_PointCloud_mirror </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PointCloud_mirror </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1041,7 +1035,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> * MR_PointCloud_OffsetMutablePtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> * MR_PointCloud_OffsetMutablePtr </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -1064,7 +1058,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> * MR_PointCloud_OffsetPtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> * MR_PointCloud_OffsetPtr </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -1087,7 +1081,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRAABBTreePoints_8h.html#aa7b9116fbd7f68728817ec9e0d331d91">MR_VertBMap</a> * MR_PointCloud_pack_MR_Reorder </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTreePoints_8h.html#aa7b9116fbd7f68728817ec9e0d331d91">MR_VertBMap</a> * MR_PointCloud_pack_MR_Reorder </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1109,7 +1103,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API bool MR_PointCloud_pack_MR_VertMap_ptr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_PointCloud_pack_MR_VertMap_ptr </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1131,7 +1125,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_PointCloud_Set_normals </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PointCloud_Set_normals </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1158,7 +1152,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_PointCloud_Set_points </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PointCloud_Set_points </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1185,7 +1179,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_PointCloud_Set_validPoints </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PointCloud_Set_validPoints </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>

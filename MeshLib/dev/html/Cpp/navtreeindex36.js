@@ -1,6 +1,5 @@
 var NAVTREEINDEX36 =
 {
-"classMR_1_1OpenRawVoxelsPlugin.html#af78be70f41e4878019b08c17d7d862cb":[6,0,2,0,1,451,1],
 "classMR_1_1OutliersDetector.html":[6,0,1,0,1,473],
 "classMR_1_1OutliersDetector.html":[6,0,2,0,1,455],
 "classMR_1_1OutliersDetector.html#a02666077b16515a2f9576574342f72a0":[6,0,1,0,1,473,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX36 =
 "classMR_1_1PlaneObject.html#ae6f78179efe1f53bdad9bc5711da69a5":[6,0,0,11,0,4,12],
 "classMR_1_1PlaneObject.html#aed79ae4faaaf82fb9f53e874acea158f":[6,0,0,11,0,4,25],
 "classMR_1_1PlaneObject.html#afb6fc94d7cbe98896d3b6fea3c1f4ceb":[6,0,0,11,0,4,28],
-"classMR_1_1PlaneObject.html#afdd7cf68a88b16d914629c4ea468470c":[6,0,0,11,0,4,9]
+"classMR_1_1PlaneObject.html#afdd7cf68a88b16d914629c4ea468470c":[6,0,0,11,0,4,9],
+"classMR_1_1PlaneWidget.html":[6,0,1,0,1,491]
 };

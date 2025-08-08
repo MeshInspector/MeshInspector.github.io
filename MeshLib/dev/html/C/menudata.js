@@ -125,5 +125,6 @@ var menudata={children:[
 {text:"m",url:"globals_type.html#index_m"}]},
 {text:"Enumerations",url:"globals_enum.html"},
 {text:"Enumerator",url:"globals_eval.html",children:[
-{text:"m",url:"globals_eval.html#index_m"}]}]}]}]}]},
+{text:"m",url:"globals_eval.html#index_m"}]},
+{text:"Macros",url:"globals_defs.html"}]}]}]}]},
 {text:"Third-Party Dependencies",url:"../ThirdParty.html"}]}

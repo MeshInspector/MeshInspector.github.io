@@ -14,12 +14,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -183,9 +177,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0c68875da8e1de13eb3033e6dcb33bf3" id="r_a0c68875da8e1de13eb3033e6dcb33bf3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c68875da8e1de13eb3033e6dcb33bf3">Vector</a> ()=default</td></tr>
 <tr class="memdesc:a0c68875da8e1de13eb3033e6dcb33bf3"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates empty vector  <br /></td></tr>
 <tr class="separator:a0c68875da8e1de13eb3033e6dcb33bf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a82b8f4fd65647fe41d621389b1935c6a" id="r_a82b8f4fd65647fe41d621389b1935c6a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a82b8f4fd65647fe41d621389b1935c6a">Vector</a> (size_t <a class="el" href="#a2816ffd002bac70ab04d1bd18e2c5cfd">size</a>)</td></tr>
-<tr class="memdesc:a82b8f4fd65647fe41d621389b1935c6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a vector with <code>size</code> elements with default value  <br /></td></tr>
-<tr class="separator:a82b8f4fd65647fe41d621389b1935c6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af899ea32ccf8bf49bb09d834c9d178dd" id="r_af899ea32ccf8bf49bb09d834c9d178dd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af899ea32ccf8bf49bb09d834c9d178dd">Vector</a> (size_t <a class="el" href="#a2816ffd002bac70ab04d1bd18e2c5cfd">size</a>) <a class="el" href="#a0d377a848db9d73675bc1849a0810eac">MR_REQUIRES_IF_SUPPORTED</a>(sizeof(T)&gt;0 &amp;&amp;std</td></tr>
+<tr class="memdesc:af899ea32ccf8bf49bb09d834c9d178dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a vector with <code>size</code> elements with default value  <br /></td></tr>
+<tr class="separator:af899ea32ccf8bf49bb09d834c9d178dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac68e153a1cf7d72f90f9af6be0555d6e" id="r_ac68e153a1cf7d72f90f9af6be0555d6e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac68e153a1cf7d72f90f9af6be0555d6e">Vector</a> (size_t <a class="el" href="#a2816ffd002bac70ab04d1bd18e2c5cfd">size</a>, const T &amp;val)</td></tr>
 <tr class="memdesc:ac68e153a1cf7d72f90f9af6be0555d6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a vector with <code>size</code> elements with the given value  <br /></td></tr>
 <tr class="separator:ac68e153a1cf7d72f90f9af6be0555d6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -197,53 +191,53 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a677df0d98b9a3abfc0733796f1c56c7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f77e1876cab4b371446e7913cb25121" id="r_a8f77e1876cab4b371446e7913cb25121"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f77e1876cab4b371446e7913cb25121">Vector</a> (std::initializer_list&lt; T &gt; init)</td></tr>
 <tr class="separator:a8f77e1876cab4b371446e7913cb25121"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a30a5afd270e8b522b8afc3783134a1a5" id="r_a30a5afd270e8b522b8afc3783134a1a5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30a5afd270e8b522b8afc3783134a1a5">operator==</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a> &amp;b) const</td></tr>
-<tr class="separator:a30a5afd270e8b522b8afc3783134a1a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac5c00fac45f66fdeeb2b2e78c8171be7" id="r_ac5c00fac45f66fdeeb2b2e78c8171be7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac5c00fac45f66fdeeb2b2e78c8171be7">operator!=</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a> &amp;b) const</td></tr>
-<tr class="separator:ac5c00fac45f66fdeeb2b2e78c8171be7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac23bc97fbd4484f943e6ff60af745e75" id="r_ac23bc97fbd4484f943e6ff60af745e75"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac23bc97fbd4484f943e6ff60af745e75">operator==</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a> &amp;b) const <a class="el" href="#a0d377a848db9d73675bc1849a0810eac">MR_REQUIRES_IF_SUPPORTED</a>(sizeof(T)&gt;0 &amp;&amp;std</td></tr>
+<tr class="separator:ac23bc97fbd4484f943e6ff60af745e75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e7dbbc00d422b6370dc679c663c5331" id="r_a9e7dbbc00d422b6370dc679c663c5331"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e7dbbc00d422b6370dc679c663c5331">operator!=</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a> &amp;b) const <a class="el" href="#a0d377a848db9d73675bc1849a0810eac">MR_REQUIRES_IF_SUPPORTED</a>(sizeof(T)&gt;0 &amp;&amp;std</td></tr>
+<tr class="separator:a9e7dbbc00d422b6370dc679c663c5331"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e593b171d655e35f554674f88083c76" id="r_a0e593b171d655e35f554674f88083c76"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e593b171d655e35f554674f88083c76">clear</a> ()</td></tr>
 <tr class="separator:a0e593b171d655e35f554674f88083c76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4b153c69fb7b5e1466b10723dd2f35b" id="r_ac4b153c69fb7b5e1466b10723dd2f35b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac4b153c69fb7b5e1466b10723dd2f35b">empty</a> () const</td></tr>
 <tr class="separator:ac4b153c69fb7b5e1466b10723dd2f35b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2816ffd002bac70ab04d1bd18e2c5cfd" id="r_a2816ffd002bac70ab04d1bd18e2c5cfd"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2816ffd002bac70ab04d1bd18e2c5cfd">size</a> () const</td></tr>
 <tr class="separator:a2816ffd002bac70ab04d1bd18e2c5cfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd99deedcb9bcc81fa5eb3ba36cf13d1" id="r_acd99deedcb9bcc81fa5eb3ba36cf13d1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd99deedcb9bcc81fa5eb3ba36cf13d1">resize</a> (size_t newSize)</td></tr>
-<tr class="separator:acd99deedcb9bcc81fa5eb3ba36cf13d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf40b3783f92dfcaf4a65c1a9686b386" id="r_adf40b3783f92dfcaf4a65c1a9686b386"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf40b3783f92dfcaf4a65c1a9686b386">resize</a> (size_t newSize, const T &amp;t)</td></tr>
-<tr class="separator:adf40b3783f92dfcaf4a65c1a9686b386"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a77f581e48148a907daa10f7ba1b4dbe2" id="r_a77f581e48148a907daa10f7ba1b4dbe2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77f581e48148a907daa10f7ba1b4dbe2">resizeNoInit</a> (size_t targetSize)</td></tr>
-<tr class="separator:a77f581e48148a907daa10f7ba1b4dbe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c8202f5b1a09ebf0bd5a5a3dc2936fd" id="r_a2c8202f5b1a09ebf0bd5a5a3dc2936fd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c8202f5b1a09ebf0bd5a5a3dc2936fd">resize</a> (size_t newSize) <a class="el" href="#a0d377a848db9d73675bc1849a0810eac">MR_REQUIRES_IF_SUPPORTED</a>(sizeof(T)&gt;0 &amp;&amp;std</td></tr>
+<tr class="separator:a2c8202f5b1a09ebf0bd5a5a3dc2936fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae081234bbf4fef169d61159d617cf5c6" id="r_ae081234bbf4fef169d61159d617cf5c6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae081234bbf4fef169d61159d617cf5c6">resize</a> (size_t newSize, const T &amp;t) <a class="el" href="#a0d377a848db9d73675bc1849a0810eac">MR_REQUIRES_IF_SUPPORTED</a>(sizeof(T)&gt;0 &amp;&amp;std</td></tr>
+<tr class="separator:ae081234bbf4fef169d61159d617cf5c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a23a61e0e9734a4a33ad686080db6b0" id="r_a8a23a61e0e9734a4a33ad686080db6b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a23a61e0e9734a4a33ad686080db6b0">resizeNoInit</a> (size_t targetSize) <a class="el" href="#a0d377a848db9d73675bc1849a0810eac">MR_REQUIRES_IF_SUPPORTED</a>(sizeof(T)&gt;0 &amp;&amp;std</td></tr>
+<tr class="separator:a8a23a61e0e9734a4a33ad686080db6b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a291f08448069b69e4286d064907e6fdd" id="r_a291f08448069b69e4286d064907e6fdd"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a291f08448069b69e4286d064907e6fdd">capacity</a> () const</td></tr>
 <tr class="separator:a291f08448069b69e4286d064907e6fdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74f2d276465f6183ec4068d124cbb596" id="r_a74f2d276465f6183ec4068d124cbb596"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74f2d276465f6183ec4068d124cbb596">reserve</a> (size_t <a class="el" href="#a291f08448069b69e4286d064907e6fdd">capacity</a>)</td></tr>
 <tr class="separator:a74f2d276465f6183ec4068d124cbb596"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b3429bd5756af47e08186ebef6acd7e" id="r_a8b3429bd5756af47e08186ebef6acd7e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#aaa0ee5d98cd26c7e6232195bcda2b459">const_reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b3429bd5756af47e08186ebef6acd7e">operator[]</a> (<a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> i) const</td></tr>
+<tr class="memitem:a8b3429bd5756af47e08186ebef6acd7e" id="r_a8b3429bd5756af47e08186ebef6acd7e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#aaa0ee5d98cd26c7e6232195bcda2b459">const_reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b3429bd5756af47e08186ebef6acd7e">operator[]</a> (<a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> i) const</td></tr>
 <tr class="separator:a8b3429bd5756af47e08186ebef6acd7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a03ee463d5f6122ac940a592ac9ec88" id="r_a3a03ee463d5f6122ac940a592ac9ec88"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a3e5aedaea3719bcb3fd6e41e9c9225ff">reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a03ee463d5f6122ac940a592ac9ec88">operator[]</a> (<a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> i)</td></tr>
+<tr class="memitem:a3a03ee463d5f6122ac940a592ac9ec88" id="r_a3a03ee463d5f6122ac940a592ac9ec88"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a3e5aedaea3719bcb3fd6e41e9c9225ff">reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a03ee463d5f6122ac940a592ac9ec88">operator[]</a> (<a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> i)</td></tr>
 <tr class="separator:a3a03ee463d5f6122ac940a592ac9ec88"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3464de487f7675ec46a9dbde42f9350c" id="r_a3464de487f7675ec46a9dbde42f9350c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3464de487f7675ec46a9dbde42f9350c">resizeWithReserve</a> (size_t newSize)</td></tr>
-<tr class="memdesc:a3464de487f7675ec46a9dbde42f9350c"><td class="mdescLeft">&#160;</td><td class="mdescRight">doubles reserved memory until resize(newSize) can be done without reallocation  <br /></td></tr>
-<tr class="separator:a3464de487f7675ec46a9dbde42f9350c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad801c686b116f50bcacd26b96b12774" id="r_aad801c686b116f50bcacd26b96b12774"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad801c686b116f50bcacd26b96b12774">resizeWithReserve</a> (size_t newSize, const T &amp;value)</td></tr>
-<tr class="memdesc:aad801c686b116f50bcacd26b96b12774"><td class="mdescLeft">&#160;</td><td class="mdescRight">doubles reserved memory until resize(newSize, value) can be done without reallocation  <br /></td></tr>
-<tr class="separator:aad801c686b116f50bcacd26b96b12774"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a437a50cfbe5ad619bc23e94b1a6664ea" id="r_a437a50cfbe5ad619bc23e94b1a6664ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a437a50cfbe5ad619bc23e94b1a6664ea">autoResizeSet</a> (<a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> pos, size_t len, T val)</td></tr>
-<tr class="separator:a437a50cfbe5ad619bc23e94b1a6664ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a23ebf45bd6eb2c59e3f8ac7c4aa70dad" id="r_a23ebf45bd6eb2c59e3f8ac7c4aa70dad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a23ebf45bd6eb2c59e3f8ac7c4aa70dad">autoResizeSet</a> (<a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> i, T val)</td></tr>
-<tr class="memdesc:a23ebf45bd6eb2c59e3f8ac7c4aa70dad"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the element #i to the given value, adjusting the size of the vector to include new element  <br /></td></tr>
-<tr class="separator:a23ebf45bd6eb2c59e3f8ac7c4aa70dad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad299fc3dd6b4e453a459e88fe9aadd31" id="r_ad299fc3dd6b4e453a459e88fe9aadd31"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a3e5aedaea3719bcb3fd6e41e9c9225ff">reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad299fc3dd6b4e453a459e88fe9aadd31">autoResizeAt</a> (<a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> i)</td></tr>
-<tr class="memdesc:ad299fc3dd6b4e453a459e88fe9aadd31"><td class="mdescLeft">&#160;</td><td class="mdescRight">this accessor automatically adjusts the size of the vector  <br /></td></tr>
-<tr class="separator:ad299fc3dd6b4e453a459e88fe9aadd31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a291ed0f8042c268b0aa65b87497daca1" id="r_a291ed0f8042c268b0aa65b87497daca1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a291ed0f8042c268b0aa65b87497daca1">resizeWithReserve</a> (size_t newSize) <a class="el" href="#a0d377a848db9d73675bc1849a0810eac">MR_REQUIRES_IF_SUPPORTED</a>(sizeof(T)&gt;0 &amp;&amp;std</td></tr>
+<tr class="memdesc:a291ed0f8042c268b0aa65b87497daca1"><td class="mdescLeft">&#160;</td><td class="mdescRight">doubles reserved memory until resize(newSize) can be done without reallocation  <br /></td></tr>
+<tr class="separator:a291ed0f8042c268b0aa65b87497daca1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d2ff338e3ecf6232044e755e5145fde" id="r_a8d2ff338e3ecf6232044e755e5145fde"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d2ff338e3ecf6232044e755e5145fde">resizeWithReserve</a> (size_t newSize, const T &amp;value) <a class="el" href="#a0d377a848db9d73675bc1849a0810eac">MR_REQUIRES_IF_SUPPORTED</a>(sizeof(T)&gt;0 &amp;&amp;std</td></tr>
+<tr class="memdesc:a8d2ff338e3ecf6232044e755e5145fde"><td class="mdescLeft">&#160;</td><td class="mdescRight">doubles reserved memory until resize(newSize, value) can be done without reallocation  <br /></td></tr>
+<tr class="separator:a8d2ff338e3ecf6232044e755e5145fde"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0951dea97b2041bcf0b554bf3f92408" id="r_af0951dea97b2041bcf0b554bf3f92408"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0951dea97b2041bcf0b554bf3f92408">autoResizeSet</a> (<a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> pos, size_t len, T val) <a class="el" href="#a0d377a848db9d73675bc1849a0810eac">MR_REQUIRES_IF_SUPPORTED</a>(sizeof(T)&gt;0 &amp;&amp;std</td></tr>
+<tr class="separator:af0951dea97b2041bcf0b554bf3f92408"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac42f813829d695e418e088932eacfd6c" id="r_ac42f813829d695e418e088932eacfd6c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac42f813829d695e418e088932eacfd6c">autoResizeSet</a> (<a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> i, T val) <a class="el" href="#a0d377a848db9d73675bc1849a0810eac">MR_REQUIRES_IF_SUPPORTED</a>(sizeof(T)&gt;0 &amp;&amp;std</td></tr>
+<tr class="memdesc:ac42f813829d695e418e088932eacfd6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the element #i to the given value, adjusting the size of the vector to include new element  <br /></td></tr>
+<tr class="separator:ac42f813829d695e418e088932eacfd6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34cbfbd253ebde3284a83172a4443540" id="r_a34cbfbd253ebde3284a83172a4443540"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a3e5aedaea3719bcb3fd6e41e9c9225ff">reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34cbfbd253ebde3284a83172a4443540">autoResizeAt</a> (<a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> i) <a class="el" href="#a0d377a848db9d73675bc1849a0810eac">MR_REQUIRES_IF_SUPPORTED</a>(sizeof(T)&gt;0 &amp;&amp;std</td></tr>
+<tr class="memdesc:a34cbfbd253ebde3284a83172a4443540"><td class="mdescLeft">&#160;</td><td class="mdescRight">this accessor automatically adjusts the size of the vector  <br /></td></tr>
+<tr class="separator:a34cbfbd253ebde3284a83172a4443540"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78fa1b6365aa64b3aec65883530dc735" id="r_a78fa1b6365aa64b3aec65883530dc735"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78fa1b6365aa64b3aec65883530dc735">push_back</a> (const T &amp;t)</td></tr>
 <tr class="separator:a78fa1b6365aa64b3aec65883530dc735"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc885715482436dc55e4e61a60ef05dc" id="r_afc885715482436dc55e4e61a60ef05dc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc885715482436dc55e4e61a60ef05dc">push_back</a> (T &amp;&amp;t)</td></tr>
 <tr class="separator:afc885715482436dc55e4e61a60ef05dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a06fae7c424bf43fc3c4cbbf624496400" id="r_a06fae7c424bf43fc3c4cbbf624496400"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06fae7c424bf43fc3c4cbbf624496400">pop_back</a> ()</td></tr>
 <tr class="separator:a06fae7c424bf43fc3c4cbbf624496400"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe036f3c1c401f178ceea255f88a2cda" id="r_afe036f3c1c401f178ceea255f88a2cda"><td class="memTemplParams" colspan="2">template&lt;typename... Args&gt; </td></tr>
-<tr class="memitem:afe036f3c1c401f178ceea255f88a2cda"><td class="memTemplItemLeft" align="right" valign="top">T &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#afe036f3c1c401f178ceea255f88a2cda">emplace_back</a> (Args &amp;&amp;... args)</td></tr>
-<tr class="separator:afe036f3c1c401f178ceea255f88a2cda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d377a848db9d73675bc1849a0810eac" id="r_a0d377a848db9d73675bc1849a0810eac"><td class="memTemplParams" colspan="2">template&lt;typename... Args&gt; </td></tr>
+<tr class="memitem:a0d377a848db9d73675bc1849a0810eac"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a0d377a848db9d73675bc1849a0810eac">MR_REQUIRES_IF_SUPPORTED</a> (sizeof(T)&gt;0 &amp;&amp;std::constructible_from&lt; T, Args &amp;&amp;... &gt;) T &amp;emplace_back(Args &amp;&amp;... args)</td></tr>
+<tr class="separator:a0d377a848db9d73675bc1849a0810eac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af6959f781909eba002ffffbc6fe37c1f" id="r_af6959f781909eba002ffffbc6fe37c1f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#aaa0ee5d98cd26c7e6232195bcda2b459">const_reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6959f781909eba002ffffbc6fe37c1f">front</a> () const</td></tr>
 <tr class="separator:af6959f781909eba002ffffbc6fe37c1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19509cb3f6dbf95c9f90c51a0b1c5a3c" id="r_a19509cb3f6dbf95c9f90c51a0b1c5a3c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a3e5aedaea3719bcb3fd6e41e9c9225ff">reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a19509cb3f6dbf95c9f90c51a0b1c5a3c">front</a> ()</td></tr>
@@ -252,13 +246,13 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:afe49f6b723cf6b2b08dfe4d50ddd1c53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa4bcfcbca3642d15aa0cdec1055c4472" id="r_aa4bcfcbca3642d15aa0cdec1055c4472"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a3e5aedaea3719bcb3fd6e41e9c9225ff">reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4bcfcbca3642d15aa0cdec1055c4472">back</a> ()</td></tr>
 <tr class="separator:aa4bcfcbca3642d15aa0cdec1055c4472"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a77de89f2d4e174400377d487cb85aa88" id="r_a77de89f2d4e174400377d487cb85aa88"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77de89f2d4e174400377d487cb85aa88">beginId</a> () const</td></tr>
+<tr class="memitem:a77de89f2d4e174400377d487cb85aa88" id="r_a77de89f2d4e174400377d487cb85aa88"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77de89f2d4e174400377d487cb85aa88">beginId</a> () const</td></tr>
 <tr class="memdesc:a77de89f2d4e174400377d487cb85aa88"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the identifier of the first element  <br /></td></tr>
 <tr class="separator:a77de89f2d4e174400377d487cb85aa88"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c55eb98bf2596f633ff35ce1f8fe00b" id="r_a8c55eb98bf2596f633ff35ce1f8fe00b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c55eb98bf2596f633ff35ce1f8fe00b">backId</a> () const</td></tr>
+<tr class="memitem:a8c55eb98bf2596f633ff35ce1f8fe00b" id="r_a8c55eb98bf2596f633ff35ce1f8fe00b"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c55eb98bf2596f633ff35ce1f8fe00b">backId</a> () const</td></tr>
 <tr class="memdesc:a8c55eb98bf2596f633ff35ce1f8fe00b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the identifier of the <a class="el" href="#aa4bcfcbca3642d15aa0cdec1055c4472">back()</a> element  <br /></td></tr>
 <tr class="separator:a8c55eb98bf2596f633ff35ce1f8fe00b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:affe4aad8fd23742b0de456abb1921fc0" id="r_affe4aad8fd23742b0de456abb1921fc0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#affe4aad8fd23742b0de456abb1921fc0">endId</a> () const</td></tr>
+<tr class="memitem:affe4aad8fd23742b0de456abb1921fc0" id="r_affe4aad8fd23742b0de456abb1921fc0"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#affe4aad8fd23742b0de456abb1921fc0">endId</a> () const</td></tr>
 <tr class="memdesc:affe4aad8fd23742b0de456abb1921fc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns <a class="el" href="#a8c55eb98bf2596f633ff35ce1f8fe00b" title="returns the identifier of the back() element">backId()</a> + 1  <br /></td></tr>
 <tr class="separator:affe4aad8fd23742b0de456abb1921fc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a52816f431d630dedbc20620deacb5b47" id="r_a52816f431d630dedbc20620deacb5b47"><td class="memItemLeft" align="right" valign="top">T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52816f431d630dedbc20620deacb5b47">data</a> ()</td></tr>
@@ -278,7 +272,7 @@ Public Attributes</h2></td></tr>
 <tr class="separator:ad4c1a76a727c0e52830149df75a87a0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><div class="compoundTemplParams">template&lt;typename T, typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a>&gt;<br />
+<div class="textblock"><div class="compoundTemplParams">template&lt;typename T, typename <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a>&gt;<br />
 class MR::Vector&lt; T, I &gt;</div><p>std::vector&lt;T&gt;-like container that requires specific indexing type, </p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
@@ -294,10 +288,10 @@ class MR::Vector&lt; T, I &gt;</div><p>std::vector&lt;T&gt;-like container that 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
+template&lt;typename T , typename <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::const_iterator = typename std::vector&lt;T&gt;::const_iterator</td>
+          <td class="memname">using <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::const_iterator = typename std::vector&lt;T&gt;::const_iterator</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -310,10 +304,10 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
+template&lt;typename T , typename <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::const_reference = typename std::vector&lt;T&gt;::const_reference</td>
+          <td class="memname">using <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::const_reference = typename std::vector&lt;T&gt;::const_reference</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -326,10 +320,10 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
+template&lt;typename T , typename <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::iterator = typename std::vector&lt;T&gt;::iterator</td>
+          <td class="memname">using <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::iterator = typename std::vector&lt;T&gt;::iterator</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -342,10 +336,10 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
+template&lt;typename T , typename <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::reference = typename std::vector&lt;T&gt;::reference</td>
+          <td class="memname">using <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::reference = typename std::vector&lt;T&gt;::reference</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -358,10 +352,10 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
+template&lt;typename T , typename <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::value_type = typename std::vector&lt;T&gt;::value_type</td>
+          <td class="memname">using <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::value_type = typename std::vector&lt;T&gt;::value_type</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -375,13 +369,13 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
+template&lt;typename T , typename <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::Vector </td>
+          <td class="memname"><a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::Vector </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -398,22 +392,22 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 
 </div>
 </div>
-<a id="a82b8f4fd65647fe41d621389b1935c6a" name="a82b8f4fd65647fe41d621389b1935c6a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a82b8f4fd65647fe41d621389b1935c6a">&#9670;&#160;</a></span>Vector() <span class="overload">[2/6]</span></h2>
+<a id="af899ea32ccf8bf49bb09d834c9d178dd" name="af899ea32ccf8bf49bb09d834c9d178dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af899ea32ccf8bf49bb09d834c9d178dd">&#9670;&#160;</a></span>Vector() <span class="overload">[2/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
+template&lt;typename T , typename <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::Vector </td>
+          <td class="memname"><a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::Vector </td>
           <td>(</td>
           <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>size</em></span></td><td>)</td>
-          <td></td>
+          <td> &amp;&amp;</td>
         </tr>
       </table>
   </td>
@@ -433,13 +427,13 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
+template&lt;typename T , typename <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::Vector </td>
+          <td class="memname"><a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::Vector </td>
           <td>(</td>
           <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>size</em></span>, </td>
         </tr>
@@ -466,13 +460,13 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
+template&lt;typename T , typename <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::Vector </td>
+          <td class="memname"><a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::Vector </td>
           <td>(</td>
           <td class="paramtype">std::vector&lt; T &gt; &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>vec</em></span></td><td>)</td>
           <td></td>
@@ -495,7 +489,7 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
+template&lt;typename T , typename <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
 <div class="memtemplate">
 template&lt;class InputIt &gt; </div>
 <table class="mlabels">
@@ -503,7 +497,7 @@ template&lt;class InputIt &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::Vector </td>
+          <td class="memname"><a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::Vector </td>
           <td>(</td>
           <td class="paramtype">InputIt</td>          <td class="paramname"><span class="paramname"><em>first</em></span>, </td>
         </tr>
@@ -528,13 +522,13 @@ template&lt;class InputIt &gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
+template&lt;typename T , typename <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::Vector </td>
+          <td class="memname"><a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::Vector </td>
           <td>(</td>
           <td class="paramtype">std::initializer_list&lt; T &gt;</td>          <td class="paramname"><span class="paramname"><em>init</em></span></td><td>)</td>
           <td></td>
@@ -550,22 +544,22 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ad299fc3dd6b4e453a459e88fe9aadd31" name="ad299fc3dd6b4e453a459e88fe9aadd31"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad299fc3dd6b4e453a459e88fe9aadd31">&#9670;&#160;</a></span>autoResizeAt()</h2>
+<a id="a34cbfbd253ebde3284a83172a4443540" name="a34cbfbd253ebde3284a83172a4443540"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34cbfbd253ebde3284a83172a4443540">&#9670;&#160;</a></span>autoResizeAt()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
+template&lt;typename T , typename <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#a3e5aedaea3719bcb3fd6e41e9c9225ff">reference</a> <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::autoResizeAt </td>
+          <td class="memname"><a class="el" href="#a3e5aedaea3719bcb3fd6e41e9c9225ff">reference</a> <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::autoResizeAt </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span></td><td>)</td>
-          <td></td>
+          <td class="paramtype"><a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span></td><td>)</td>
+          <td> &amp;&amp;</td>
         </tr>
       </table>
   </td>
@@ -579,26 +573,26 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 
 </div>
 </div>
-<a id="a23ebf45bd6eb2c59e3f8ac7c4aa70dad" name="a23ebf45bd6eb2c59e3f8ac7c4aa70dad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a23ebf45bd6eb2c59e3f8ac7c4aa70dad">&#9670;&#160;</a></span>autoResizeSet() <span class="overload">[1/2]</span></h2>
+<a id="ac42f813829d695e418e088932eacfd6c" name="ac42f813829d695e418e088932eacfd6c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac42f813829d695e418e088932eacfd6c">&#9670;&#160;</a></span>autoResizeSet() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
+template&lt;typename T , typename <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::autoResizeSet </td>
+          <td class="memname">void <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::autoResizeSet </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span>, </td>
+          <td class="paramtype"><a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>val</em></span>&#160;)</td>
+          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>val</em></span>&#160;) &amp;&amp;</td>
         </tr>
       </table>
   </td>
@@ -612,21 +606,21 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 
 </div>
 </div>
-<a id="a437a50cfbe5ad619bc23e94b1a6664ea" name="a437a50cfbe5ad619bc23e94b1a6664ea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a437a50cfbe5ad619bc23e94b1a6664ea">&#9670;&#160;</a></span>autoResizeSet() <span class="overload">[2/2]</span></h2>
+<a id="af0951dea97b2041bcf0b554bf3f92408" name="af0951dea97b2041bcf0b554bf3f92408"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0951dea97b2041bcf0b554bf3f92408">&#9670;&#160;</a></span>autoResizeSet() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
+template&lt;typename T , typename <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::autoResizeSet </td>
+          <td class="memname">void <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::autoResizeSet </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a></td>          <td class="paramname"><span class="paramname"><em>pos</em></span>, </td>
+          <td class="paramtype"><a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a></td>          <td class="paramname"><span class="paramname"><em>pos</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -636,7 +630,7 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>val</em></span>&#160;)</td>
+          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>val</em></span>&#160;) &amp;&amp;</td>
         </tr>
       </table>
   </td>
@@ -655,13 +649,13 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
+template&lt;typename T , typename <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#a3e5aedaea3719bcb3fd6e41e9c9225ff">reference</a> <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::back </td>
+          <td class="memname"><a class="el" href="#a3e5aedaea3719bcb3fd6e41e9c9225ff">reference</a> <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::back </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -682,13 +676,13 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
+template&lt;typename T , typename <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#aaa0ee5d98cd26c7e6232195bcda2b459">const_reference</a> <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::back </td>
+          <td class="memname"><a class="el" href="#aaa0ee5d98cd26c7e6232195bcda2b459">const_reference</a> <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::back </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -709,13 +703,13 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
+template&lt;typename T , typename <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::backId </td>
+          <td class="memname"><a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::backId </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -738,13 +732,13 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
+template&lt;typename T , typename <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::beginId </td>
+          <td class="memname"><a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::beginId </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -767,13 +761,13 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
+template&lt;typename T , typename <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::size_t <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::capacity </td>
+          <td class="memname">std::size_t <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::capacity </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -794,13 +788,13 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
+template&lt;typename T , typename <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::clear </td>
+          <td class="memname">void <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::clear </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -821,13 +815,13 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
+template&lt;typename T , typename <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">T * <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::data </td>
+          <td class="memname">T * <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::data </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -848,13 +842,13 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
+template&lt;typename T , typename <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const T * <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::data </td>
+          <td class="memname">const T * <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::data </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -869,48 +863,19 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 
 </div>
 </div>
-<a id="afe036f3c1c401f178ceea255f88a2cda" name="afe036f3c1c401f178ceea255f88a2cda"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afe036f3c1c401f178ceea255f88a2cda">&#9670;&#160;</a></span>emplace_back()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
-<div class="memtemplate">
-template&lt;typename... Args&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">T &amp; <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::emplace_back </td>
-          <td>(</td>
-          <td class="paramtype">Args &amp;&amp;...</td>          <td class="paramname"><span class="paramname"><em>args</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ac4b153c69fb7b5e1466b10723dd2f35b" name="ac4b153c69fb7b5e1466b10723dd2f35b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac4b153c69fb7b5e1466b10723dd2f35b">&#9670;&#160;</a></span>empty()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
+template&lt;typename T , typename <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::empty </td>
+          <td class="memname">bool <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::empty </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -931,13 +896,13 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
+template&lt;typename T , typename <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::endId </td>
+          <td class="memname"><a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::endId </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -960,13 +925,13 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
+template&lt;typename T , typename <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#a3e5aedaea3719bcb3fd6e41e9c9225ff">reference</a> <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::front </td>
+          <td class="memname"><a class="el" href="#a3e5aedaea3719bcb3fd6e41e9c9225ff">reference</a> <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::front </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -987,13 +952,13 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
+template&lt;typename T , typename <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#aaa0ee5d98cd26c7e6232195bcda2b459">const_reference</a> <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::front </td>
+          <td class="memname"><a class="el" href="#aaa0ee5d98cd26c7e6232195bcda2b459">const_reference</a> <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::front </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -1014,13 +979,13 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
+template&lt;typename T , typename <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">size_t <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::heapBytes </td>
+          <td class="memname">size_t <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::heapBytes </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -1037,22 +1002,55 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 
 </div>
 </div>
-<a id="ac5c00fac45f66fdeeb2b2e78c8171be7" name="ac5c00fac45f66fdeeb2b2e78c8171be7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac5c00fac45f66fdeeb2b2e78c8171be7">&#9670;&#160;</a></span>operator!=()</h2>
+<a id="a0d377a848db9d73675bc1849a0810eac" name="a0d377a848db9d73675bc1849a0810eac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d377a848db9d73675bc1849a0810eac">&#9670;&#160;</a></span>MR_REQUIRES_IF_SUPPORTED()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
+template&lt;typename T , typename <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
+<div class="memtemplate">
+template&lt;typename... Args&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::operator!= </td>
+          <td class="memname"><a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::MR_REQUIRES_IF_SUPPORTED </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span></td><td>)</td>
-          <td> const</td>
+          <td class="paramtype">sizeof(T)</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">0 &amp;&amp;std::constructible_from&lt; T, Args &amp;&amp;... &gt;</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;) &amp;&amp;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9e7dbbc00d422b6370dc679c663c5331" name="a9e7dbbc00d422b6370dc679c663c5331"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e7dbbc00d422b6370dc679c663c5331">&#9670;&#160;</a></span>operator!=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , typename <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::operator!= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; T, <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span></td><td>)</td>
+          <td> const &amp;&amp;</td>
         </tr>
       </table>
   </td>
@@ -1064,22 +1062,22 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 
 </div>
 </div>
-<a id="a30a5afd270e8b522b8afc3783134a1a5" name="a30a5afd270e8b522b8afc3783134a1a5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a30a5afd270e8b522b8afc3783134a1a5">&#9670;&#160;</a></span>operator==()</h2>
+<a id="ac23bc97fbd4484f943e6ff60af745e75" name="ac23bc97fbd4484f943e6ff60af745e75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac23bc97fbd4484f943e6ff60af745e75">&#9670;&#160;</a></span>operator==()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
+template&lt;typename T , typename <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::operator== </td>
+          <td class="memname">bool <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::operator== </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span></td><td>)</td>
-          <td> const</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; T, <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span></td><td>)</td>
+          <td> const &amp;&amp;</td>
         </tr>
       </table>
   </td>
@@ -1097,15 +1095,15 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
+template&lt;typename T , typename <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#a3e5aedaea3719bcb3fd6e41e9c9225ff">reference</a> <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::operator[] </td>
+          <td class="memname"><a class="el" href="#a3e5aedaea3719bcb3fd6e41e9c9225ff">reference</a> <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::operator[] </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span></td><td>)</td>
+          <td class="paramtype"><a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1124,15 +1122,15 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
+template&lt;typename T , typename <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#aaa0ee5d98cd26c7e6232195bcda2b459">const_reference</a> <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::operator[] </td>
+          <td class="memname"><a class="el" href="#aaa0ee5d98cd26c7e6232195bcda2b459">const_reference</a> <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::operator[] </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span></td><td>)</td>
+          <td class="paramtype"><a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -1151,13 +1149,13 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
+template&lt;typename T , typename <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::pop_back </td>
+          <td class="memname">void <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::pop_back </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -1178,13 +1176,13 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
+template&lt;typename T , typename <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::push_back </td>
+          <td class="memname">void <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::push_back </td>
           <td>(</td>
           <td class="paramtype">const T &amp;</td>          <td class="paramname"><span class="paramname"><em>t</em></span></td><td>)</td>
           <td></td>
@@ -1205,13 +1203,13 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
+template&lt;typename T , typename <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::push_back </td>
+          <td class="memname">void <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::push_back </td>
           <td>(</td>
           <td class="paramtype">T &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>t</em></span></td><td>)</td>
           <td></td>
@@ -1232,13 +1230,13 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
+template&lt;typename T , typename <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::reserve </td>
+          <td class="memname">void <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::reserve </td>
           <td>(</td>
           <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>capacity</em></span></td><td>)</td>
           <td></td>
@@ -1253,22 +1251,22 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 
 </div>
 </div>
-<a id="acd99deedcb9bcc81fa5eb3ba36cf13d1" name="acd99deedcb9bcc81fa5eb3ba36cf13d1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acd99deedcb9bcc81fa5eb3ba36cf13d1">&#9670;&#160;</a></span>resize() <span class="overload">[1/2]</span></h2>
+<a id="a2c8202f5b1a09ebf0bd5a5a3dc2936fd" name="a2c8202f5b1a09ebf0bd5a5a3dc2936fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c8202f5b1a09ebf0bd5a5a3dc2936fd">&#9670;&#160;</a></span>resize() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
+template&lt;typename T , typename <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::resize </td>
+          <td class="memname">void <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::resize </td>
           <td>(</td>
           <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>newSize</em></span></td><td>)</td>
-          <td></td>
+          <td> &amp;&amp;</td>
         </tr>
       </table>
   </td>
@@ -1280,26 +1278,26 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 
 </div>
 </div>
-<a id="adf40b3783f92dfcaf4a65c1a9686b386" name="adf40b3783f92dfcaf4a65c1a9686b386"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adf40b3783f92dfcaf4a65c1a9686b386">&#9670;&#160;</a></span>resize() <span class="overload">[2/2]</span></h2>
+<a id="ae081234bbf4fef169d61159d617cf5c6" name="ae081234bbf4fef169d61159d617cf5c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae081234bbf4fef169d61159d617cf5c6">&#9670;&#160;</a></span>resize() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
+template&lt;typename T , typename <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::resize </td>
+          <td class="memname">void <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::resize </td>
           <td>(</td>
           <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>newSize</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const T &amp;</td>          <td class="paramname"><span class="paramname"><em>t</em></span>&#160;)</td>
+          <td class="paramtype">const T &amp;</td>          <td class="paramname"><span class="paramname"><em>t</em></span>&#160;) &amp;&amp;</td>
         </tr>
       </table>
   </td>
@@ -1311,22 +1309,22 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 
 </div>
 </div>
-<a id="a77f581e48148a907daa10f7ba1b4dbe2" name="a77f581e48148a907daa10f7ba1b4dbe2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a77f581e48148a907daa10f7ba1b4dbe2">&#9670;&#160;</a></span>resizeNoInit()</h2>
+<a id="a8a23a61e0e9734a4a33ad686080db6b0" name="a8a23a61e0e9734a4a33ad686080db6b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a23a61e0e9734a4a33ad686080db6b0">&#9670;&#160;</a></span>resizeNoInit()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
+template&lt;typename T , typename <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::resizeNoInit </td>
+          <td class="memname">void <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::resizeNoInit </td>
           <td>(</td>
           <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>targetSize</em></span></td><td>)</td>
-          <td></td>
+          <td> &amp;&amp;</td>
         </tr>
       </table>
   </td>
@@ -1338,22 +1336,22 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 
 </div>
 </div>
-<a id="a3464de487f7675ec46a9dbde42f9350c" name="a3464de487f7675ec46a9dbde42f9350c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3464de487f7675ec46a9dbde42f9350c">&#9670;&#160;</a></span>resizeWithReserve() <span class="overload">[1/2]</span></h2>
+<a id="a291ed0f8042c268b0aa65b87497daca1" name="a291ed0f8042c268b0aa65b87497daca1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a291ed0f8042c268b0aa65b87497daca1">&#9670;&#160;</a></span>resizeWithReserve() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
+template&lt;typename T , typename <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::resizeWithReserve </td>
+          <td class="memname">void <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::resizeWithReserve </td>
           <td>(</td>
           <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>newSize</em></span></td><td>)</td>
-          <td></td>
+          <td> &amp;&amp;</td>
         </tr>
       </table>
   </td>
@@ -1367,26 +1365,26 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 
 </div>
 </div>
-<a id="aad801c686b116f50bcacd26b96b12774" name="aad801c686b116f50bcacd26b96b12774"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad801c686b116f50bcacd26b96b12774">&#9670;&#160;</a></span>resizeWithReserve() <span class="overload">[2/2]</span></h2>
+<a id="a8d2ff338e3ecf6232044e755e5145fde" name="a8d2ff338e3ecf6232044e755e5145fde"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d2ff338e3ecf6232044e755e5145fde">&#9670;&#160;</a></span>resizeWithReserve() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
+template&lt;typename T , typename <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::resizeWithReserve </td>
+          <td class="memname">void <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::resizeWithReserve </td>
           <td>(</td>
           <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>newSize</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const T &amp;</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+          <td class="paramtype">const T &amp;</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;) &amp;&amp;</td>
         </tr>
       </table>
   </td>
@@ -1406,13 +1404,13 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
+template&lt;typename T , typename <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::size_t <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::size </td>
+          <td class="memname">std::size_t <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::size </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -1433,15 +1431,15 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
+template&lt;typename T , typename <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::swap </td>
+          <td class="memname">void <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::swap </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; T, <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1461,10 +1459,10 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
+template&lt;typename T , typename <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;T&gt; <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="el" href="namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::vec_</td>
+          <td class="memname">std::vector&lt;T&gt; <a class="el" href="classMR_1_1Vector.html">MR::Vector</a>&lt; T, <a class="elRef" href="../namespaceMR.html#aae89e209e34f26d7ae6dcc7b5e7d2851">I</a> &gt;::vec_</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1482,7 +1480,7 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="classMR_1_1Vector.html">Vector</a></li>
+    <li class="navelem"><b>MR</b></li><li class="navelem"><a class="el" href="classMR_1_1Vector.html">Vector</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

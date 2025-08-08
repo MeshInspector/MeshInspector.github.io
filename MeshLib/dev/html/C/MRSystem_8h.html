@@ -14,12 +14,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -158,7 +152,7 @@ $(function(){initNavTree('MRSystem_8h.html',''); initResizable(true); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
-<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
 </div>
@@ -176,71 +170,71 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a194122b50524a35b6173d07b76c6bee2" id="r_a194122b50524a35b6173d07b76c6bee2"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a194122b50524a35b6173d07b76c6bee2">MR_SetCurrentThreadName</a> (const char *<a class="elRef" href="../Cpp/group__HistoryGroup.html#ga6b90613818f7b81547a5b0bba1d40c39">name</a>)</td></tr>
+<tr class="memitem:a194122b50524a35b6173d07b76c6bee2" id="r_a194122b50524a35b6173d07b76c6bee2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a194122b50524a35b6173d07b76c6bee2">MR_SetCurrentThreadName</a> (const char *<a class="elRef" href="../Cpp/group__HistoryGroup.html#ga6b90613818f7b81547a5b0bba1d40c39">name</a>)</td></tr>
 <tr class="memdesc:a194122b50524a35b6173d07b76c6bee2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#abc117ae5bf8ce3683d73b2fc8e37cde1">MR::SetCurrentThreadName</a></code>.  <br /></td></tr>
 <tr class="separator:a194122b50524a35b6173d07b76c6bee2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2cf96490566ebace32c25bdeaf337d57" id="r_a2cf96490566ebace32c25bdeaf337d57"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRSceneRoot_8h.html#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2cf96490566ebace32c25bdeaf337d57">MR_getUserConfigDir</a> (void)</td></tr>
+<tr class="memitem:a2cf96490566ebace32c25bdeaf337d57" id="r_a2cf96490566ebace32c25bdeaf337d57"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRSceneRoot_8h.html#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2cf96490566ebace32c25bdeaf337d57">MR_getUserConfigDir</a> (void)</td></tr>
 <tr class="separator:a2cf96490566ebace32c25bdeaf337d57"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c0fa8ad45de39c222ce798912032f71" id="r_a3c0fa8ad45de39c222ce798912032f71"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRSceneRoot_8h.html#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c0fa8ad45de39c222ce798912032f71">MR_getUserConfigFilePath</a> (void)</td></tr>
+<tr class="memitem:a3c0fa8ad45de39c222ce798912032f71" id="r_a3c0fa8ad45de39c222ce798912032f71"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRSceneRoot_8h.html#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c0fa8ad45de39c222ce798912032f71">MR_getUserConfigFilePath</a> (void)</td></tr>
 <tr class="separator:a3c0fa8ad45de39c222ce798912032f71"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c335e0bb34f13011ed92f045cff2b03" id="r_a0c335e0bb34f13011ed92f045cff2b03"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRSceneRoot_8h.html#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c335e0bb34f13011ed92f045cff2b03">MR_GetTempDirectory</a> (void)</td></tr>
+<tr class="memitem:a0c335e0bb34f13011ed92f045cff2b03" id="r_a0c335e0bb34f13011ed92f045cff2b03"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRSceneRoot_8h.html#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c335e0bb34f13011ed92f045cff2b03">MR_GetTempDirectory</a> (void)</td></tr>
 <tr class="separator:a0c335e0bb34f13011ed92f045cff2b03"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac25d6d94ea946d7e1df8c5e01263b651" id="r_ac25d6d94ea946d7e1df8c5e01263b651"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRSceneRoot_8h.html#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac25d6d94ea946d7e1df8c5e01263b651">MR_GetHomeDirectory</a> (void)</td></tr>
+<tr class="memitem:ac25d6d94ea946d7e1df8c5e01263b651" id="r_ac25d6d94ea946d7e1df8c5e01263b651"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRSceneRoot_8h.html#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac25d6d94ea946d7e1df8c5e01263b651">MR_GetHomeDirectory</a> (void)</td></tr>
 <tr class="separator:ac25d6d94ea946d7e1df8c5e01263b651"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a48ce432a0251a8fa17cbe994ad22c059" id="r_a48ce432a0251a8fa17cbe994ad22c059"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a48ce432a0251a8fa17cbe994ad22c059">MR_GetMRVersionString</a> (void)</td></tr>
+<tr class="memitem:a48ce432a0251a8fa17cbe994ad22c059" id="r_a48ce432a0251a8fa17cbe994ad22c059"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a48ce432a0251a8fa17cbe994ad22c059">MR_GetMRVersionString</a> (void)</td></tr>
 <tr class="separator:a48ce432a0251a8fa17cbe994ad22c059"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa0e8ab4164a02e00b1893c2896f2b32d" id="r_aa0e8ab4164a02e00b1893c2896f2b32d"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0e8ab4164a02e00b1893c2896f2b32d">MR_OpenLink</a> (const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *url)</td></tr>
+<tr class="memitem:aa0e8ab4164a02e00b1893c2896f2b32d" id="r_aa0e8ab4164a02e00b1893c2896f2b32d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0e8ab4164a02e00b1893c2896f2b32d">MR_OpenLink</a> (const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *url)</td></tr>
 <tr class="separator:aa0e8ab4164a02e00b1893c2896f2b32d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af029fd236b83fe541a46e91cd19ab95d" id="r_af029fd236b83fe541a46e91cd19ab95d"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af029fd236b83fe541a46e91cd19ab95d">MR_OpenDocument</a> (const char *path, const char *path_end)</td></tr>
+<tr class="memitem:af029fd236b83fe541a46e91cd19ab95d" id="r_af029fd236b83fe541a46e91cd19ab95d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af029fd236b83fe541a46e91cd19ab95d">MR_OpenDocument</a> (const char *path, const char *path_end)</td></tr>
 <tr class="separator:af029fd236b83fe541a46e91cd19ab95d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1586290577baacf2cfea38be130eb60e" id="r_a1586290577baacf2cfea38be130eb60e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1586290577baacf2cfea38be130eb60e">MR_GetCpuId</a> (void)</td></tr>
+<tr class="memitem:a1586290577baacf2cfea38be130eb60e" id="r_a1586290577baacf2cfea38be130eb60e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1586290577baacf2cfea38be130eb60e">MR_GetCpuId</a> (void)</td></tr>
 <tr class="separator:a1586290577baacf2cfea38be130eb60e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a763282bac1d140525911aa5346e1fe25" id="r_a763282bac1d140525911aa5346e1fe25"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a763282bac1d140525911aa5346e1fe25">MR_GetDetailedOSName</a> (void)</td></tr>
+<tr class="memitem:a763282bac1d140525911aa5346e1fe25" id="r_a763282bac1d140525911aa5346e1fe25"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a763282bac1d140525911aa5346e1fe25">MR_GetDetailedOSName</a> (void)</td></tr>
 <tr class="separator:a763282bac1d140525911aa5346e1fe25"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa5ff2cec02b5e4df57d3abdbc5a01d2" id="r_afa5ff2cec02b5e4df57d3abdbc5a01d2"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa5ff2cec02b5e4df57d3abdbc5a01d2">MR_getOSNoSpaces</a> (void)</td></tr>
+<tr class="memitem:afa5ff2cec02b5e4df57d3abdbc5a01d2" id="r_afa5ff2cec02b5e4df57d3abdbc5a01d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa5ff2cec02b5e4df57d3abdbc5a01d2">MR_getOSNoSpaces</a> (void)</td></tr>
 <tr class="separator:afa5ff2cec02b5e4df57d3abdbc5a01d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d8c37d97792056381beaf3626103760" id="r_a3d8c37d97792056381beaf3626103760"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d8c37d97792056381beaf3626103760">MR_setNewHandlerIfNeeded</a> (void)</td></tr>
+<tr class="memitem:a3d8c37d97792056381beaf3626103760" id="r_a3d8c37d97792056381beaf3626103760"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d8c37d97792056381beaf3626103760">MR_setNewHandlerIfNeeded</a> (void)</td></tr>
 <tr class="memdesc:a3d8c37d97792056381beaf3626103760"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a76050fa0c0831ae2d21d1a20914f530d">MR::setNewHandlerIfNeeded</a></code>.  <br /></td></tr>
 <tr class="separator:a3d8c37d97792056381beaf3626103760"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf06857533c49bb6393404d4ea300537" id="r_adf06857533c49bb6393404d4ea300537"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf06857533c49bb6393404d4ea300537">MR_getCurrentStacktrace</a> (void)</td></tr>
+<tr class="memitem:adf06857533c49bb6393404d4ea300537" id="r_adf06857533c49bb6393404d4ea300537"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf06857533c49bb6393404d4ea300537">MR_getCurrentStacktrace</a> (void)</td></tr>
 <tr class="separator:adf06857533c49bb6393404d4ea300537"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f6ecd03b803f0dd72e782e86b36983f" id="r_a9f6ecd03b803f0dd72e782e86b36983f"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f6ecd03b803f0dd72e782e86b36983f">MR_SystemMemory_Get_physicalTotal</a> (const <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *_this)</td></tr>
+<tr class="memitem:a9f6ecd03b803f0dd72e782e86b36983f" id="r_a9f6ecd03b803f0dd72e782e86b36983f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f6ecd03b803f0dd72e782e86b36983f">MR_SystemMemory_Get_physicalTotal</a> (const <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *_this)</td></tr>
 <tr class="separator:a9f6ecd03b803f0dd72e782e86b36983f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a202e539393e82fcc682812bf7422b928" id="r_a202e539393e82fcc682812bf7422b928"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a202e539393e82fcc682812bf7422b928">MR_SystemMemory_Set_physicalTotal</a> (<a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *_this, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> value)</td></tr>
+<tr class="memitem:a202e539393e82fcc682812bf7422b928" id="r_a202e539393e82fcc682812bf7422b928"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a202e539393e82fcc682812bf7422b928">MR_SystemMemory_Set_physicalTotal</a> (<a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *_this, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> value)</td></tr>
 <tr class="separator:a202e539393e82fcc682812bf7422b928"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4bdca0396d657b44e59bfdc662495969" id="r_a4bdca0396d657b44e59bfdc662495969"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4bdca0396d657b44e59bfdc662495969">MR_SystemMemory_GetMutable_physicalTotal</a> (<a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *_this)</td></tr>
+<tr class="memitem:a4bdca0396d657b44e59bfdc662495969" id="r_a4bdca0396d657b44e59bfdc662495969"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4bdca0396d657b44e59bfdc662495969">MR_SystemMemory_GetMutable_physicalTotal</a> (<a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *_this)</td></tr>
 <tr class="separator:a4bdca0396d657b44e59bfdc662495969"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f2ed771a1fab6aaec0ea9b651b59f6d" id="r_a4f2ed771a1fab6aaec0ea9b651b59f6d"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f2ed771a1fab6aaec0ea9b651b59f6d">MR_SystemMemory_Get_physicalAvailable</a> (const <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *_this)</td></tr>
+<tr class="memitem:a4f2ed771a1fab6aaec0ea9b651b59f6d" id="r_a4f2ed771a1fab6aaec0ea9b651b59f6d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f2ed771a1fab6aaec0ea9b651b59f6d">MR_SystemMemory_Get_physicalAvailable</a> (const <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *_this)</td></tr>
 <tr class="separator:a4f2ed771a1fab6aaec0ea9b651b59f6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49739f3061b0a5d6b8d2b22395e32825" id="r_a49739f3061b0a5d6b8d2b22395e32825"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49739f3061b0a5d6b8d2b22395e32825">MR_SystemMemory_Set_physicalAvailable</a> (<a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *_this, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> value)</td></tr>
+<tr class="memitem:a49739f3061b0a5d6b8d2b22395e32825" id="r_a49739f3061b0a5d6b8d2b22395e32825"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49739f3061b0a5d6b8d2b22395e32825">MR_SystemMemory_Set_physicalAvailable</a> (<a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *_this, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> value)</td></tr>
 <tr class="separator:a49739f3061b0a5d6b8d2b22395e32825"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a830721f661e3b954af22650bd8bb2e" id="r_a7a830721f661e3b954af22650bd8bb2e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a830721f661e3b954af22650bd8bb2e">MR_SystemMemory_GetMutable_physicalAvailable</a> (<a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *_this)</td></tr>
+<tr class="memitem:a7a830721f661e3b954af22650bd8bb2e" id="r_a7a830721f661e3b954af22650bd8bb2e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a830721f661e3b954af22650bd8bb2e">MR_SystemMemory_GetMutable_physicalAvailable</a> (<a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *_this)</td></tr>
 <tr class="separator:a7a830721f661e3b954af22650bd8bb2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f17b377f30210981bdbbb7e91e0bd96" id="r_a8f17b377f30210981bdbbb7e91e0bd96"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f17b377f30210981bdbbb7e91e0bd96">MR_SystemMemory_DefaultConstruct</a> (void)</td></tr>
+<tr class="memitem:a8f17b377f30210981bdbbb7e91e0bd96" id="r_a8f17b377f30210981bdbbb7e91e0bd96"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f17b377f30210981bdbbb7e91e0bd96">MR_SystemMemory_DefaultConstruct</a> (void)</td></tr>
 <tr class="separator:a8f17b377f30210981bdbbb7e91e0bd96"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4dff9d00dd7107720378fc2939815f8c" id="r_a4dff9d00dd7107720378fc2939815f8c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4dff9d00dd7107720378fc2939815f8c">MR_SystemMemory_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="memitem:a4dff9d00dd7107720378fc2939815f8c" id="r_a4dff9d00dd7107720378fc2939815f8c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4dff9d00dd7107720378fc2939815f8c">MR_SystemMemory_DefaultConstructArray</a> (size_t num_elems)</td></tr>
 <tr class="separator:a4dff9d00dd7107720378fc2939815f8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3760303843a9a0a9045c15262c0228c3" id="r_a3760303843a9a0a9045c15262c0228c3"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3760303843a9a0a9045c15262c0228c3">MR_SystemMemory_ConstructFrom</a> (<a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> physicalTotal, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> physicalAvailable)</td></tr>
+<tr class="memitem:a3760303843a9a0a9045c15262c0228c3" id="r_a3760303843a9a0a9045c15262c0228c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3760303843a9a0a9045c15262c0228c3">MR_SystemMemory_ConstructFrom</a> (<a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> physicalTotal, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> physicalAvailable)</td></tr>
 <tr class="separator:a3760303843a9a0a9045c15262c0228c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab784844f12a8fe7d8d9812bab91ec762" id="r_ab784844f12a8fe7d8d9812bab91ec762"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab784844f12a8fe7d8d9812bab91ec762">MR_SystemMemory_OffsetPtr</a> (const <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:ab784844f12a8fe7d8d9812bab91ec762" id="r_ab784844f12a8fe7d8d9812bab91ec762"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab784844f12a8fe7d8d9812bab91ec762">MR_SystemMemory_OffsetPtr</a> (const <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:ab784844f12a8fe7d8d9812bab91ec762"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:ab784844f12a8fe7d8d9812bab91ec762"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd784214971391452aa30a4a8b4f0045" id="r_abd784214971391452aa30a4a8b4f0045"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd784214971391452aa30a4a8b4f0045">MR_SystemMemory_OffsetMutablePtr</a> (<a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:abd784214971391452aa30a4a8b4f0045" id="r_abd784214971391452aa30a4a8b4f0045"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd784214971391452aa30a4a8b4f0045">MR_SystemMemory_OffsetMutablePtr</a> (<a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:abd784214971391452aa30a4a8b4f0045"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:abd784214971391452aa30a4a8b4f0045"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a34ff570c4c9bc0b771a6cf8f75002347" id="r_a34ff570c4c9bc0b771a6cf8f75002347"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34ff570c4c9bc0b771a6cf8f75002347">MR_SystemMemory_ConstructFromAnother</a> (const <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *_other)</td></tr>
+<tr class="memitem:a34ff570c4c9bc0b771a6cf8f75002347" id="r_a34ff570c4c9bc0b771a6cf8f75002347"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34ff570c4c9bc0b771a6cf8f75002347">MR_SystemMemory_ConstructFromAnother</a> (const <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *_other)</td></tr>
 <tr class="separator:a34ff570c4c9bc0b771a6cf8f75002347"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ec7c967b154bc64516948e2b4c24f8f" id="r_a4ec7c967b154bc64516948e2b4c24f8f"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ec7c967b154bc64516948e2b4c24f8f">MR_SystemMemory_Destroy</a> (const <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *_this)</td></tr>
+<tr class="memitem:a4ec7c967b154bc64516948e2b4c24f8f" id="r_a4ec7c967b154bc64516948e2b4c24f8f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ec7c967b154bc64516948e2b4c24f8f">MR_SystemMemory_Destroy</a> (const <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *_this)</td></tr>
 <tr class="memdesc:a4ec7c967b154bc64516948e2b4c24f8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_SystemMemory</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:a4ec7c967b154bc64516948e2b4c24f8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a178344f70409b0a8db4916244bae17de" id="r_a178344f70409b0a8db4916244bae17de"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a178344f70409b0a8db4916244bae17de">MR_SystemMemory_DestroyArray</a> (const <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *_this)</td></tr>
+<tr class="memitem:a178344f70409b0a8db4916244bae17de" id="r_a178344f70409b0a8db4916244bae17de"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a178344f70409b0a8db4916244bae17de">MR_SystemMemory_DestroyArray</a> (const <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *_this)</td></tr>
 <tr class="memdesc:a178344f70409b0a8db4916244bae17de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_SystemMemory</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:a178344f70409b0a8db4916244bae17de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab046039cc735f33626f910489400f17a" id="r_ab046039cc735f33626f910489400f17a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab046039cc735f33626f910489400f17a">MR_SystemMemory_AssignFromAnother</a> (<a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *_this, const <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *_other)</td></tr>
+<tr class="memitem:ab046039cc735f33626f910489400f17a" id="r_ab046039cc735f33626f910489400f17a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab046039cc735f33626f910489400f17a">MR_SystemMemory_AssignFromAnother</a> (<a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *_this, const <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *_other)</td></tr>
 <tr class="separator:ab046039cc735f33626f910489400f17a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acbdc598c7ca798b4161d5bfb2f991317" id="r_acbdc598c7ca798b4161d5bfb2f991317"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acbdc598c7ca798b4161d5bfb2f991317">MR_getSystemMemory</a> (void)</td></tr>
+<tr class="memitem:acbdc598c7ca798b4161d5bfb2f991317" id="r_acbdc598c7ca798b4161d5bfb2f991317"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acbdc598c7ca798b4161d5bfb2f991317">MR_getSystemMemory</a> (void)</td></tr>
 <tr class="separator:acbdc598c7ca798b4161d5bfb2f991317"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9793277773c2a913813dea3a59ebbe3d" id="r_a9793277773c2a913813dea3a59ebbe3d"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9793277773c2a913813dea3a59ebbe3d">MR_setupLoggerByDefault</a> (void)</td></tr>
+<tr class="memitem:a9793277773c2a913813dea3a59ebbe3d" id="r_a9793277773c2a913813dea3a59ebbe3d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9793277773c2a913813dea3a59ebbe3d">MR_setupLoggerByDefault</a> (void)</td></tr>
 <tr class="separator:a9793277773c2a913813dea3a59ebbe3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -296,7 +290,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_GetCpuId </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_GetCpuId </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -314,7 +308,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_getCurrentStacktrace </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_getCurrentStacktrace </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -332,7 +326,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_GetDetailedOSName </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_GetDetailedOSName </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -350,7 +344,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRSceneRoot_8h.html#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a> * MR_GetHomeDirectory </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRSceneRoot_8h.html#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a> * MR_GetHomeDirectory </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -368,7 +362,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_GetMRVersionString </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_GetMRVersionString </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -386,7 +380,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_getOSNoSpaces </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_getOSNoSpaces </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -404,7 +398,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> * MR_getSystemMemory </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> * MR_getSystemMemory </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -422,7 +416,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRSceneRoot_8h.html#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a> * MR_GetTempDirectory </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRSceneRoot_8h.html#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a> * MR_GetTempDirectory </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -440,7 +434,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRSceneRoot_8h.html#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a> * MR_getUserConfigDir </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRSceneRoot_8h.html#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a> * MR_getUserConfigDir </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -458,7 +452,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRSceneRoot_8h.html#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a> * MR_getUserConfigFilePath </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRSceneRoot_8h.html#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a> * MR_getUserConfigFilePath </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -476,7 +470,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API bool MR_OpenDocument </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_OpenDocument </td>
           <td>(</td>
           <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
         </tr>
@@ -498,7 +492,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_OpenLink </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_OpenLink </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>url</em></span></td><td>)</td>
           <td></td>
@@ -516,7 +510,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_SetCurrentThreadName </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_SetCurrentThreadName </td>
           <td>(</td>
           <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>name</em></span></td><td>)</td>
           <td></td>
@@ -535,7 +529,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_setNewHandlerIfNeeded </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_setNewHandlerIfNeeded </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -554,7 +548,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_setupLoggerByDefault </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_setupLoggerByDefault </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -572,7 +566,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> * MR_SystemMemory_AssignFromAnother </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> * MR_SystemMemory_AssignFromAnother </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -594,7 +588,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> * MR_SystemMemory_ConstructFrom </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> * MR_SystemMemory_ConstructFrom </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></td>          <td class="paramname"><span class="paramname"><em>physicalTotal</em></span>, </td>
         </tr>
@@ -616,7 +610,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> * MR_SystemMemory_ConstructFromAnother </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> * MR_SystemMemory_ConstructFromAnother </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
           <td></td>
@@ -634,7 +628,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> * MR_SystemMemory_DefaultConstruct </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> * MR_SystemMemory_DefaultConstruct </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -652,7 +646,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> * MR_SystemMemory_DefaultConstructArray </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> * MR_SystemMemory_DefaultConstructArray </td>
           <td>(</td>
           <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
           <td></td>
@@ -670,7 +664,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_SystemMemory_Destroy </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_SystemMemory_Destroy </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -689,7 +683,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_SystemMemory_DestroyArray </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_SystemMemory_DestroyArray </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -708,7 +702,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> * MR_SystemMemory_Get_physicalAvailable </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> * MR_SystemMemory_Get_physicalAvailable </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -726,7 +720,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> * MR_SystemMemory_Get_physicalTotal </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> * MR_SystemMemory_Get_physicalTotal </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -744,7 +738,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> * MR_SystemMemory_GetMutable_physicalAvailable </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> * MR_SystemMemory_GetMutable_physicalAvailable </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -762,7 +756,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> * MR_SystemMemory_GetMutable_physicalTotal </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> * MR_SystemMemory_GetMutable_physicalTotal </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -780,7 +774,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> * MR_SystemMemory_OffsetMutablePtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> * MR_SystemMemory_OffsetMutablePtr </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -803,7 +797,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> * MR_SystemMemory_OffsetPtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> * MR_SystemMemory_OffsetPtr </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -826,7 +820,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_SystemMemory_Set_physicalAvailable </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_SystemMemory_Set_physicalAvailable </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -848,7 +842,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_SystemMemory_Set_physicalTotal </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_SystemMemory_Set_physicalTotal </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a0abf5a90af969389df783f83762346c2">MR_SystemMemory</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>

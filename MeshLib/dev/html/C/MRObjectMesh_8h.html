@@ -14,12 +14,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -158,7 +152,7 @@ $(function(){initNavTree('MRObjectMesh_8h.html',''); initResizable(true); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
-<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
 <code>#include &lt;stdint.h&gt;</code><br />
@@ -198,74 +192,74 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a6407cd8254877124d1be4928e710ca41" id="r_a6407cd8254877124d1be4928e710ca41"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6407cd8254877124d1be4928e710ca41">MR_ObjectMesh_DefaultConstruct</a> (void)</td></tr>
+<tr class="memitem:a6407cd8254877124d1be4928e710ca41" id="r_a6407cd8254877124d1be4928e710ca41"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6407cd8254877124d1be4928e710ca41">MR_ObjectMesh_DefaultConstruct</a> (void)</td></tr>
 <tr class="separator:a6407cd8254877124d1be4928e710ca41"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab937e15832f963a84d234111fa4ebbb8" id="r_ab937e15832f963a84d234111fa4ebbb8"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab937e15832f963a84d234111fa4ebbb8">MR_ObjectMesh_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="memitem:ab937e15832f963a84d234111fa4ebbb8" id="r_ab937e15832f963a84d234111fa4ebbb8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab937e15832f963a84d234111fa4ebbb8">MR_ObjectMesh_DefaultConstructArray</a> (size_t num_elems)</td></tr>
 <tr class="separator:ab937e15832f963a84d234111fa4ebbb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acbc633b779811e16334d165cafa1e05b" id="r_acbc633b779811e16334d165cafa1e05b"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acbc633b779811e16334d165cafa1e05b">MR_ObjectMesh_OffsetPtr</a> (const <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:acbc633b779811e16334d165cafa1e05b" id="r_acbc633b779811e16334d165cafa1e05b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acbc633b779811e16334d165cafa1e05b">MR_ObjectMesh_OffsetPtr</a> (const <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:acbc633b779811e16334d165cafa1e05b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:acbc633b779811e16334d165cafa1e05b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad7a05c98c6dd0c356970e7a21eb23a53" id="r_ad7a05c98c6dd0c356970e7a21eb23a53"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad7a05c98c6dd0c356970e7a21eb23a53">MR_ObjectMesh_OffsetMutablePtr</a> (<a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:ad7a05c98c6dd0c356970e7a21eb23a53" id="r_ad7a05c98c6dd0c356970e7a21eb23a53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad7a05c98c6dd0c356970e7a21eb23a53">MR_ObjectMesh_OffsetMutablePtr</a> (<a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:ad7a05c98c6dd0c356970e7a21eb23a53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:ad7a05c98c6dd0c356970e7a21eb23a53"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad751a9e052cde3883380ac87ffc6e399" id="r_ad751a9e052cde3883380ac87ffc6e399"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad751a9e052cde3883380ac87ffc6e399">MR_ObjectMesh_UpcastTo_MR_Object</a> (const <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *object)</td></tr>
+<tr class="memitem:ad751a9e052cde3883380ac87ffc6e399" id="r_ad751a9e052cde3883380ac87ffc6e399"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad751a9e052cde3883380ac87ffc6e399">MR_ObjectMesh_UpcastTo_MR_Object</a> (const <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *object)</td></tr>
 <tr class="separator:ad751a9e052cde3883380ac87ffc6e399"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a0f203f7d6107fad4194f1d28a0b1f1" id="r_a3a0f203f7d6107fad4194f1d28a0b1f1"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a0f203f7d6107fad4194f1d28a0b1f1">MR_ObjectMesh_MutableUpcastTo_MR_Object</a> (<a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *object)</td></tr>
+<tr class="memitem:a3a0f203f7d6107fad4194f1d28a0b1f1" id="r_a3a0f203f7d6107fad4194f1d28a0b1f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a0f203f7d6107fad4194f1d28a0b1f1">MR_ObjectMesh_MutableUpcastTo_MR_Object</a> (<a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *object)</td></tr>
 <tr class="memdesc:a3a0f203f7d6107fad4194f1d28a0b1f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1ObjectMesh.html">MR::ObjectMesh</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1Object.html">MR::Object</a></code>.  <br /></td></tr>
 <tr class="separator:a3a0f203f7d6107fad4194f1d28a0b1f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46c6f38fec5250bc6e3a1d6eddc38171" id="r_a46c6f38fec5250bc6e3a1d6eddc38171"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46c6f38fec5250bc6e3a1d6eddc38171">MR_ObjectMesh_UpcastTo_MR_ObjectChildrenHolder</a> (const <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *object)</td></tr>
+<tr class="memitem:a46c6f38fec5250bc6e3a1d6eddc38171" id="r_a46c6f38fec5250bc6e3a1d6eddc38171"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46c6f38fec5250bc6e3a1d6eddc38171">MR_ObjectMesh_UpcastTo_MR_ObjectChildrenHolder</a> (const <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *object)</td></tr>
 <tr class="separator:a46c6f38fec5250bc6e3a1d6eddc38171"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab783bb270de9115a04fb59bcb12412ff" id="r_ab783bb270de9115a04fb59bcb12412ff"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAddVisualPropertiesMixin_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab783bb270de9115a04fb59bcb12412ff">MR_ObjectMesh_MutableUpcastTo_MR_ObjectChildrenHolder</a> (<a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *object)</td></tr>
+<tr class="memitem:ab783bb270de9115a04fb59bcb12412ff" id="r_ab783bb270de9115a04fb59bcb12412ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAddVisualPropertiesMixin_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab783bb270de9115a04fb59bcb12412ff">MR_ObjectMesh_MutableUpcastTo_MR_ObjectChildrenHolder</a> (<a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *object)</td></tr>
 <tr class="memdesc:ab783bb270de9115a04fb59bcb12412ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1ObjectMesh.html">MR::ObjectMesh</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectChildrenHolder.html">MR::ObjectChildrenHolder</a></code>.  <br /></td></tr>
 <tr class="separator:ab783bb270de9115a04fb59bcb12412ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf6a695ce9be1b88ee3a41276b4a1eda" id="r_acf6a695ce9be1b88ee3a41276b4a1eda"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRObject_8h.html#a1c5e41e50d86c1613114a6f1296f0934">MR_ObjectMeshHolder</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf6a695ce9be1b88ee3a41276b4a1eda">MR_ObjectMesh_UpcastTo_MR_ObjectMeshHolder</a> (const <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *object)</td></tr>
+<tr class="memitem:acf6a695ce9be1b88ee3a41276b4a1eda" id="r_acf6a695ce9be1b88ee3a41276b4a1eda"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRObject_8h.html#a1c5e41e50d86c1613114a6f1296f0934">MR_ObjectMeshHolder</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf6a695ce9be1b88ee3a41276b4a1eda">MR_ObjectMesh_UpcastTo_MR_ObjectMeshHolder</a> (const <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *object)</td></tr>
 <tr class="separator:acf6a695ce9be1b88ee3a41276b4a1eda"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6bc7aa32e393a1be48a84758caf5b9e8" id="r_a6bc7aa32e393a1be48a84758caf5b9e8"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRObject_8h.html#a1c5e41e50d86c1613114a6f1296f0934">MR_ObjectMeshHolder</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6bc7aa32e393a1be48a84758caf5b9e8">MR_ObjectMesh_MutableUpcastTo_MR_ObjectMeshHolder</a> (<a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *object)</td></tr>
+<tr class="memitem:a6bc7aa32e393a1be48a84758caf5b9e8" id="r_a6bc7aa32e393a1be48a84758caf5b9e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRObject_8h.html#a1c5e41e50d86c1613114a6f1296f0934">MR_ObjectMeshHolder</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6bc7aa32e393a1be48a84758caf5b9e8">MR_ObjectMesh_MutableUpcastTo_MR_ObjectMeshHolder</a> (<a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *object)</td></tr>
 <tr class="memdesc:a6bc7aa32e393a1be48a84758caf5b9e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1ObjectMesh.html">MR::ObjectMesh</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectMeshHolder.html">MR::ObjectMeshHolder</a></code>.  <br /></td></tr>
 <tr class="separator:a6bc7aa32e393a1be48a84758caf5b9e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae32a75d7e5e00b79115760acf991c125" id="r_ae32a75d7e5e00b79115760acf991c125"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae32a75d7e5e00b79115760acf991c125">MR_ObjectMesh_UpcastTo_MR_VisualObject</a> (const <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *object)</td></tr>
+<tr class="memitem:ae32a75d7e5e00b79115760acf991c125" id="r_ae32a75d7e5e00b79115760acf991c125"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae32a75d7e5e00b79115760acf991c125">MR_ObjectMesh_UpcastTo_MR_VisualObject</a> (const <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *object)</td></tr>
 <tr class="separator:ae32a75d7e5e00b79115760acf991c125"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9cac2af182c11c1b1764d297921c72c8" id="r_a9cac2af182c11c1b1764d297921c72c8"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9cac2af182c11c1b1764d297921c72c8">MR_ObjectMesh_MutableUpcastTo_MR_VisualObject</a> (<a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *object)</td></tr>
+<tr class="memitem:a9cac2af182c11c1b1764d297921c72c8" id="r_a9cac2af182c11c1b1764d297921c72c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9cac2af182c11c1b1764d297921c72c8">MR_ObjectMesh_MutableUpcastTo_MR_VisualObject</a> (<a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *object)</td></tr>
 <tr class="memdesc:a9cac2af182c11c1b1764d297921c72c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1ObjectMesh.html">MR::ObjectMesh</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1VisualObject.html">MR::VisualObject</a></code>.  <br /></td></tr>
 <tr class="separator:a9cac2af182c11c1b1764d297921c72c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e27f014188ce396021431fc345445eb" id="r_a1e27f014188ce396021431fc345445eb"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e27f014188ce396021431fc345445eb">MR_ObjectMesh_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *_other)</td></tr>
+<tr class="memitem:a1e27f014188ce396021431fc345445eb" id="r_a1e27f014188ce396021431fc345445eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e27f014188ce396021431fc345445eb">MR_ObjectMesh_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *_other)</td></tr>
 <tr class="separator:a1e27f014188ce396021431fc345445eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2dc223fb6909b54e66566326a8a51f6a" id="r_a2dc223fb6909b54e66566326a8a51f6a"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2dc223fb6909b54e66566326a8a51f6a">MR_ObjectMesh_Destroy</a> (const <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *_this)</td></tr>
+<tr class="memitem:a2dc223fb6909b54e66566326a8a51f6a" id="r_a2dc223fb6909b54e66566326a8a51f6a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2dc223fb6909b54e66566326a8a51f6a">MR_ObjectMesh_Destroy</a> (const <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *_this)</td></tr>
 <tr class="memdesc:a2dc223fb6909b54e66566326a8a51f6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_ObjectMesh</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:a2dc223fb6909b54e66566326a8a51f6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac786dc54dd63e0b20281a17e224efb7e" id="r_ac786dc54dd63e0b20281a17e224efb7e"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac786dc54dd63e0b20281a17e224efb7e">MR_ObjectMesh_DestroyArray</a> (const <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *_this)</td></tr>
+<tr class="memitem:ac786dc54dd63e0b20281a17e224efb7e" id="r_ac786dc54dd63e0b20281a17e224efb7e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac786dc54dd63e0b20281a17e224efb7e">MR_ObjectMesh_DestroyArray</a> (const <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *_this)</td></tr>
 <tr class="memdesc:ac786dc54dd63e0b20281a17e224efb7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_ObjectMesh</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:ac786dc54dd63e0b20281a17e224efb7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f69dc87c3f342a26b357d0501169e48" id="r_a7f69dc87c3f342a26b357d0501169e48"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f69dc87c3f342a26b357d0501169e48">MR_ObjectMesh_AssignFromAnother</a> (<a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *_other)</td></tr>
+<tr class="memitem:a7f69dc87c3f342a26b357d0501169e48" id="r_a7f69dc87c3f342a26b357d0501169e48"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f69dc87c3f342a26b357d0501169e48">MR_ObjectMesh_AssignFromAnother</a> (<a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *_other)</td></tr>
 <tr class="separator:a7f69dc87c3f342a26b357d0501169e48"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a772b85c659bc6f99e5ac0990882f2e2f" id="r_a772b85c659bc6f99e5ac0990882f2e2f"><td class="memItemLeft" align="right" valign="top">MRC_API const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a772b85c659bc6f99e5ac0990882f2e2f">MR_ObjectMesh_TypeName</a> (void)</td></tr>
+<tr class="memitem:a772b85c659bc6f99e5ac0990882f2e2f" id="r_a772b85c659bc6f99e5ac0990882f2e2f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a772b85c659bc6f99e5ac0990882f2e2f">MR_ObjectMesh_TypeName</a> (void)</td></tr>
 <tr class="memdesc:a772b85c659bc6f99e5ac0990882f2e2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectMesh.html">MR::ObjectMesh</a></code> named <code>TypeName</code>.  <br /></td></tr>
 <tr class="separator:a772b85c659bc6f99e5ac0990882f2e2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d96ba8043aeb5d56d8c36274ce49d10" id="r_a7d96ba8043aeb5d56d8c36274ce49d10"><td class="memItemLeft" align="right" valign="top">MRC_API const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d96ba8043aeb5d56d8c36274ce49d10">MR_ObjectMesh_typeName</a> (const <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *_this)</td></tr>
+<tr class="memitem:a7d96ba8043aeb5d56d8c36274ce49d10" id="r_a7d96ba8043aeb5d56d8c36274ce49d10"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d96ba8043aeb5d56d8c36274ce49d10">MR_ObjectMesh_typeName</a> (const <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *_this)</td></tr>
 <tr class="separator:a7d96ba8043aeb5d56d8c36274ce49d10"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae416dac57ed372be29826e52f5ab5acb" id="r_ae416dac57ed372be29826e52f5ab5acb"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRChangeMeshAction_8h.html#a078d52fb855baae04a6dcdd71e46fbed">MR_std_shared_ptr_MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae416dac57ed372be29826e52f5ab5acb">MR_ObjectMesh_varMesh</a> (<a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *_this)</td></tr>
+<tr class="memitem:ae416dac57ed372be29826e52f5ab5acb" id="r_ae416dac57ed372be29826e52f5ab5acb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRChangeMeshAction_8h.html#a078d52fb855baae04a6dcdd71e46fbed">MR_std_shared_ptr_MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae416dac57ed372be29826e52f5ab5acb">MR_ObjectMesh_varMesh</a> (<a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *_this)</td></tr>
 <tr class="separator:ae416dac57ed372be29826e52f5ab5acb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f9768d69fdde68fd943b941e9f3b49b" id="r_a0f9768d69fdde68fd943b941e9f3b49b"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f9768d69fdde68fd943b941e9f3b49b">MR_ObjectMesh_setMesh</a> (<a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> mesh_pass_by, <a class="el" href="MRChangeMeshAction_8h.html#a078d52fb855baae04a6dcdd71e46fbed">MR_std_shared_ptr_MR_Mesh</a> *mesh)</td></tr>
+<tr class="memitem:a0f9768d69fdde68fd943b941e9f3b49b" id="r_a0f9768d69fdde68fd943b941e9f3b49b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f9768d69fdde68fd943b941e9f3b49b">MR_ObjectMesh_setMesh</a> (<a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> mesh_pass_by, <a class="el" href="MRChangeMeshAction_8h.html#a078d52fb855baae04a6dcdd71e46fbed">MR_std_shared_ptr_MR_Mesh</a> *mesh)</td></tr>
 <tr class="separator:a0f9768d69fdde68fd943b941e9f3b49b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a056913db0ecbaa9a1cc33fd072867efd" id="r_a056913db0ecbaa9a1cc33fd072867efd"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRChangeMeshAction_8h.html#a078d52fb855baae04a6dcdd71e46fbed">MR_std_shared_ptr_MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a056913db0ecbaa9a1cc33fd072867efd">MR_ObjectMesh_updateMesh</a> (<a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> mesh_pass_by, <a class="el" href="MRChangeMeshAction_8h.html#a078d52fb855baae04a6dcdd71e46fbed">MR_std_shared_ptr_MR_Mesh</a> *mesh)</td></tr>
+<tr class="memitem:a056913db0ecbaa9a1cc33fd072867efd" id="r_a056913db0ecbaa9a1cc33fd072867efd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRChangeMeshAction_8h.html#a078d52fb855baae04a6dcdd71e46fbed">MR_std_shared_ptr_MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a056913db0ecbaa9a1cc33fd072867efd">MR_ObjectMesh_updateMesh</a> (<a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> mesh_pass_by, <a class="el" href="MRChangeMeshAction_8h.html#a078d52fb855baae04a6dcdd71e46fbed">MR_std_shared_ptr_MR_Mesh</a> *mesh)</td></tr>
 <tr class="separator:a056913db0ecbaa9a1cc33fd072867efd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6d1efaecd59706fd6d8d39092a28143" id="r_af6d1efaecd59706fd6d8d39092a28143"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAngleMeasurementObject_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6d1efaecd59706fd6d8d39092a28143">MR_ObjectMesh_getInfoLines</a> (const <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *_this)</td></tr>
+<tr class="memitem:af6d1efaecd59706fd6d8d39092a28143" id="r_af6d1efaecd59706fd6d8d39092a28143"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAngleMeasurementObject_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6d1efaecd59706fd6d8d39092a28143">MR_ObjectMesh_getInfoLines</a> (const <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *_this)</td></tr>
 <tr class="separator:af6d1efaecd59706fd6d8d39092a28143"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69f30fc5feb58fb88005ab3317f32d30" id="r_a69f30fc5feb58fb88005ab3317f32d30"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69f30fc5feb58fb88005ab3317f32d30">MR_ObjectMesh_getClassName</a> (const <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *_this)</td></tr>
+<tr class="memitem:a69f30fc5feb58fb88005ab3317f32d30" id="r_a69f30fc5feb58fb88005ab3317f32d30"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69f30fc5feb58fb88005ab3317f32d30">MR_ObjectMesh_getClassName</a> (const <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *_this)</td></tr>
 <tr class="separator:a69f30fc5feb58fb88005ab3317f32d30"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afcdcf3734990fd7ae774bee1295b9f62" id="r_afcdcf3734990fd7ae774bee1295b9f62"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afcdcf3734990fd7ae774bee1295b9f62">MR_ObjectMesh_getClassNameInPlural</a> (const <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *_this)</td></tr>
+<tr class="memitem:afcdcf3734990fd7ae774bee1295b9f62" id="r_afcdcf3734990fd7ae774bee1295b9f62"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afcdcf3734990fd7ae774bee1295b9f62">MR_ObjectMesh_getClassNameInPlural</a> (const <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *_this)</td></tr>
 <tr class="separator:afcdcf3734990fd7ae774bee1295b9f62"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5dce43f5943d4c7940005a8f5cf26d1d" id="r_a5dce43f5943d4c7940005a8f5cf26d1d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5dce43f5943d4c7940005a8f5cf26d1d">MR_ObjectMesh_clone</a> (const <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *_this)</td></tr>
+<tr class="memitem:a5dce43f5943d4c7940005a8f5cf26d1d" id="r_a5dce43f5943d4c7940005a8f5cf26d1d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5dce43f5943d4c7940005a8f5cf26d1d">MR_ObjectMesh_clone</a> (const <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *_this)</td></tr>
 <tr class="separator:a5dce43f5943d4c7940005a8f5cf26d1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a679fd70e9fa63009348004b730bd21ad" id="r_a679fd70e9fa63009348004b730bd21ad"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a679fd70e9fa63009348004b730bd21ad">MR_ObjectMesh_shallowClone</a> (const <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *_this)</td></tr>
+<tr class="memitem:a679fd70e9fa63009348004b730bd21ad" id="r_a679fd70e9fa63009348004b730bd21ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a679fd70e9fa63009348004b730bd21ad">MR_ObjectMesh_shallowClone</a> (const <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *_this)</td></tr>
 <tr class="separator:a679fd70e9fa63009348004b730bd21ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa47e4a9c41e623c53f18ddd81429d032" id="r_aa47e4a9c41e623c53f18ddd81429d032"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa47e4a9c41e623c53f18ddd81429d032">MR_ObjectMesh_setDirtyFlags</a> (<a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *_this, uint32_t mask, const bool *invalidateCaches)</td></tr>
+<tr class="memitem:aa47e4a9c41e623c53f18ddd81429d032" id="r_aa47e4a9c41e623c53f18ddd81429d032"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa47e4a9c41e623c53f18ddd81429d032">MR_ObjectMesh_setDirtyFlags</a> (<a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *_this, uint32_t mask, const bool *invalidateCaches)</td></tr>
 <tr class="separator:aa47e4a9c41e623c53f18ddd81429d032"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a78f946b325ce6a665728ac84c66fa8c9" id="r_a78f946b325ce6a665728ac84c66fa8c9"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMeshIntersect_8h.html#ac8e02ba4ec98b4ca68dfb88ed4fb6564">MR_MeshIntersectionResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78f946b325ce6a665728ac84c66fa8c9">MR_ObjectMesh_worldRayIntersection</a> (const <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *_this, const <a class="el" href="MRBestFit_8h.html#aca1d803422d4caa25c56d04a67efbc52">MR_Line3f</a> *worldRay, const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *region)</td></tr>
+<tr class="memitem:a78f946b325ce6a665728ac84c66fa8c9" id="r_a78f946b325ce6a665728ac84c66fa8c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRMeshIntersect_8h.html#ac8e02ba4ec98b4ca68dfb88ed4fb6564">MR_MeshIntersectionResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a78f946b325ce6a665728ac84c66fa8c9">MR_ObjectMesh_worldRayIntersection</a> (const <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *_this, const <a class="el" href="MRBestFit_8h.html#aca1d803422d4caa25c56d04a67efbc52">MR_Line3f</a> *worldRay, const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *region)</td></tr>
 <tr class="separator:a78f946b325ce6a665728ac84c66fa8c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa9c852489b4a7382650e5554d37b79fb" id="r_aa9c852489b4a7382650e5554d37b79fb"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRChangeMeshAction_8h.html#aa8d717efd3391dbe4d5fb0f04a689c1a">MR_std_shared_ptr_MR_ObjectMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa9c852489b4a7382650e5554d37b79fb">MR_merge_std_vector_std_shared_ptr_MR_ObjectMesh</a> (const <a class="el" href="#a4a64bdc6d260f63671c4a3296cca77c8">MR_std_vector_std_shared_ptr_MR_ObjectMesh</a> *objsMesh)</td></tr>
+<tr class="memitem:aa9c852489b4a7382650e5554d37b79fb" id="r_aa9c852489b4a7382650e5554d37b79fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRChangeMeshAction_8h.html#aa8d717efd3391dbe4d5fb0f04a689c1a">MR_std_shared_ptr_MR_ObjectMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa9c852489b4a7382650e5554d37b79fb">MR_merge_std_vector_std_shared_ptr_MR_ObjectMesh</a> (const <a class="el" href="#a4a64bdc6d260f63671c4a3296cca77c8">MR_std_vector_std_shared_ptr_MR_ObjectMesh</a> *objsMesh)</td></tr>
 <tr class="separator:aa9c852489b4a7382650e5554d37b79fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a95bbc561a198835bcc8a3f8c93a884bc" id="r_a95bbc561a198835bcc8a3f8c93a884bc"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRChangeMeshAction_8h.html#aa8d717efd3391dbe4d5fb0f04a689c1a">MR_std_shared_ptr_MR_ObjectMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95bbc561a198835bcc8a3f8c93a884bc">MR_cloneRegion_3</a> (const <a class="el" href="MRChangeMeshAction_8h.html#aa8d717efd3391dbe4d5fb0f04a689c1a">MR_std_shared_ptr_MR_ObjectMesh</a> *objMesh, const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *region, const bool *copyTexture)</td></tr>
+<tr class="memitem:a95bbc561a198835bcc8a3f8c93a884bc" id="r_a95bbc561a198835bcc8a3f8c93a884bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRChangeMeshAction_8h.html#aa8d717efd3391dbe4d5fb0f04a689c1a">MR_std_shared_ptr_MR_ObjectMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95bbc561a198835bcc8a3f8c93a884bc">MR_cloneRegion_3</a> (const <a class="el" href="MRChangeMeshAction_8h.html#aa8d717efd3391dbe4d5fb0f04a689c1a">MR_std_shared_ptr_MR_ObjectMesh</a> *objMesh, const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *region, const bool *copyTexture)</td></tr>
 <tr class="separator:a95bbc561a198835bcc8a3f8c93a884bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -474,7 +468,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRChangeMeshAction_8h.html#aa8d717efd3391dbe4d5fb0f04a689c1a">MR_std_shared_ptr_MR_ObjectMesh</a> * MR_cloneRegion_3 </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRChangeMeshAction_8h.html#aa8d717efd3391dbe4d5fb0f04a689c1a">MR_std_shared_ptr_MR_ObjectMesh</a> * MR_cloneRegion_3 </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRChangeMeshAction_8h.html#aa8d717efd3391dbe4d5fb0f04a689c1a">MR_std_shared_ptr_MR_ObjectMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>objMesh</em></span>, </td>
         </tr>
@@ -501,7 +495,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRChangeMeshAction_8h.html#aa8d717efd3391dbe4d5fb0f04a689c1a">MR_std_shared_ptr_MR_ObjectMesh</a> * MR_merge_std_vector_std_shared_ptr_MR_ObjectMesh </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRChangeMeshAction_8h.html#aa8d717efd3391dbe4d5fb0f04a689c1a">MR_std_shared_ptr_MR_ObjectMesh</a> * MR_merge_std_vector_std_shared_ptr_MR_ObjectMesh </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a4a64bdc6d260f63671c4a3296cca77c8">MR_std_vector_std_shared_ptr_MR_ObjectMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>objsMesh</em></span></td><td>)</td>
           <td></td>
@@ -519,7 +513,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> * MR_ObjectMesh_AssignFromAnother </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> * MR_ObjectMesh_AssignFromAnother </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -546,7 +540,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> * MR_ObjectMesh_clone </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> * MR_ObjectMesh_clone </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -564,7 +558,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> * MR_ObjectMesh_ConstructFromAnother </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> * MR_ObjectMesh_ConstructFromAnother </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
         </tr>
@@ -586,7 +580,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> * MR_ObjectMesh_DefaultConstruct </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> * MR_ObjectMesh_DefaultConstruct </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -604,7 +598,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> * MR_ObjectMesh_DefaultConstructArray </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> * MR_ObjectMesh_DefaultConstructArray </td>
           <td>(</td>
           <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
           <td></td>
@@ -622,7 +616,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_ObjectMesh_Destroy </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_ObjectMesh_Destroy </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -641,7 +635,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_ObjectMesh_DestroyArray </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_ObjectMesh_DestroyArray </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -660,7 +654,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_ObjectMesh_getClassName </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_ObjectMesh_getClassName </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -678,7 +672,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_ObjectMesh_getClassNameInPlural </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_ObjectMesh_getClassNameInPlural </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -696,7 +690,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRAngleMeasurementObject_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> * MR_ObjectMesh_getInfoLines </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAngleMeasurementObject_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> * MR_ObjectMesh_getInfoLines </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -714,7 +708,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> * MR_ObjectMesh_MutableUpcastTo_MR_Object </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> * MR_ObjectMesh_MutableUpcastTo_MR_Object </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
           <td></td>
@@ -733,7 +727,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRAddVisualPropertiesMixin_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a> * MR_ObjectMesh_MutableUpcastTo_MR_ObjectChildrenHolder </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAddVisualPropertiesMixin_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a> * MR_ObjectMesh_MutableUpcastTo_MR_ObjectChildrenHolder </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
           <td></td>
@@ -752,7 +746,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRObject_8h.html#a1c5e41e50d86c1613114a6f1296f0934">MR_ObjectMeshHolder</a> * MR_ObjectMesh_MutableUpcastTo_MR_ObjectMeshHolder </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRObject_8h.html#a1c5e41e50d86c1613114a6f1296f0934">MR_ObjectMeshHolder</a> * MR_ObjectMesh_MutableUpcastTo_MR_ObjectMeshHolder </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
           <td></td>
@@ -771,7 +765,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a> * MR_ObjectMesh_MutableUpcastTo_MR_VisualObject </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a> * MR_ObjectMesh_MutableUpcastTo_MR_VisualObject </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
           <td></td>
@@ -790,7 +784,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> * MR_ObjectMesh_OffsetMutablePtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> * MR_ObjectMesh_OffsetMutablePtr </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -813,7 +807,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> * MR_ObjectMesh_OffsetPtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> * MR_ObjectMesh_OffsetPtr </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -836,7 +830,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_ObjectMesh_setDirtyFlags </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_ObjectMesh_setDirtyFlags </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -863,7 +857,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_ObjectMesh_setMesh </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_ObjectMesh_setMesh </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -890,7 +884,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> * MR_ObjectMesh_shallowClone </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> * MR_ObjectMesh_shallowClone </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -908,7 +902,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const char * MR_ObjectMesh_TypeName </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const char * MR_ObjectMesh_TypeName </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -927,7 +921,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const char * MR_ObjectMesh_typeName </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const char * MR_ObjectMesh_typeName </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -945,7 +939,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> * MR_ObjectMesh_UpcastTo_MR_Object </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> * MR_ObjectMesh_UpcastTo_MR_Object </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
           <td></td>
@@ -963,7 +957,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a> * MR_ObjectMesh_UpcastTo_MR_ObjectChildrenHolder </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a> * MR_ObjectMesh_UpcastTo_MR_ObjectChildrenHolder </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
           <td></td>
@@ -981,7 +975,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="MRObject_8h.html#a1c5e41e50d86c1613114a6f1296f0934">MR_ObjectMeshHolder</a> * MR_ObjectMesh_UpcastTo_MR_ObjectMeshHolder </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRObject_8h.html#a1c5e41e50d86c1613114a6f1296f0934">MR_ObjectMeshHolder</a> * MR_ObjectMesh_UpcastTo_MR_ObjectMeshHolder </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
           <td></td>
@@ -999,7 +993,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a> * MR_ObjectMesh_UpcastTo_MR_VisualObject </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a> * MR_ObjectMesh_UpcastTo_MR_VisualObject </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
           <td></td>
@@ -1017,7 +1011,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRChangeMeshAction_8h.html#a078d52fb855baae04a6dcdd71e46fbed">MR_std_shared_ptr_MR_Mesh</a> * MR_ObjectMesh_updateMesh </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRChangeMeshAction_8h.html#a078d52fb855baae04a6dcdd71e46fbed">MR_std_shared_ptr_MR_Mesh</a> * MR_ObjectMesh_updateMesh </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1044,7 +1038,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="MRChangeMeshAction_8h.html#a078d52fb855baae04a6dcdd71e46fbed">MR_std_shared_ptr_MR_Mesh</a> * MR_ObjectMesh_varMesh </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRChangeMeshAction_8h.html#a078d52fb855baae04a6dcdd71e46fbed">MR_std_shared_ptr_MR_Mesh</a> * MR_ObjectMesh_varMesh </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1062,7 +1056,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRMeshIntersect_8h.html#ac8e02ba4ec98b4ca68dfb88ed4fb6564">MR_MeshIntersectionResult</a> * MR_ObjectMesh_worldRayIntersection </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRMeshIntersect_8h.html#ac8e02ba4ec98b4ca68dfb88ed4fb6564">MR_MeshIntersectionResult</a> * MR_ObjectMesh_worldRayIntersection </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>

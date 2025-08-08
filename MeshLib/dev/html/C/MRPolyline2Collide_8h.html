@@ -14,12 +14,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -157,7 +151,7 @@ $(function(){initNavTree('MRPolyline2Collide_8h.html',''); initResizable(true); 
   <div class="headertitle"><div class="title">MRPolyline2Collide.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 </div>
 <p><a href="MRPolyline2Collide_8h_source.html">Go to the source code of this file.</a></p>
@@ -179,22 +173,22 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a20ba9ec87092f11fb5f302b24d29a21c" id="r_a20ba9ec87092f11fb5f302b24d29a21c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a16dbe8a297e2f481482a3bd2ece49784">MR_std_vector_MR_EdgePointPair</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20ba9ec87092f11fb5f302b24d29a21c">MR_findCollidingEdgePairs</a> (const <a class="el" href="MRAABBTreePolyline_8h.html#ac19d267fe4a2399b21a578c74213dfd2">MR_Polyline2</a> *a, const <a class="el" href="MRAABBTreePolyline_8h.html#ac19d267fe4a2399b21a578c74213dfd2">MR_Polyline2</a> *b, const <a class="el" href="structMR__AffineXf2f.html">MR_AffineXf2f</a> *rigidB2A, const bool *firstIntersectionOnly)</td></tr>
+<tr class="memitem:a20ba9ec87092f11fb5f302b24d29a21c" id="r_a20ba9ec87092f11fb5f302b24d29a21c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a16dbe8a297e2f481482a3bd2ece49784">MR_std_vector_MR_EdgePointPair</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20ba9ec87092f11fb5f302b24d29a21c">MR_findCollidingEdgePairs</a> (const <a class="el" href="MRAABBTreePolyline_8h.html#ac19d267fe4a2399b21a578c74213dfd2">MR_Polyline2</a> *a, const <a class="el" href="MRAABBTreePolyline_8h.html#ac19d267fe4a2399b21a578c74213dfd2">MR_Polyline2</a> *b, const <a class="el" href="structMR__AffineXf2f.html">MR_AffineXf2f</a> *rigidB2A, const bool *firstIntersectionOnly)</td></tr>
 <tr class="memdesc:a20ba9ec87092f11fb5f302b24d29a21c"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all pairs of colliding edges from two 2d polylines  <br /></td></tr>
 <tr class="separator:a20ba9ec87092f11fb5f302b24d29a21c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f549f2cd1d36d5c738a6b7da7651d4b" id="r_a8f549f2cd1d36d5c738a6b7da7651d4b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a8ba1668c6e6178919f5be18a2d94cbe2">MR_std_vector_MR_UndirectedEdgeUndirectedEdge</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f549f2cd1d36d5c738a6b7da7651d4b">MR_findCollidingEdges</a> (const <a class="el" href="MRAABBTreePolyline_8h.html#ac19d267fe4a2399b21a578c74213dfd2">MR_Polyline2</a> *a, const <a class="el" href="MRAABBTreePolyline_8h.html#ac19d267fe4a2399b21a578c74213dfd2">MR_Polyline2</a> *b, const <a class="el" href="structMR__AffineXf2f.html">MR_AffineXf2f</a> *rigidB2A, const bool *firstIntersectionOnly)</td></tr>
+<tr class="memitem:a8f549f2cd1d36d5c738a6b7da7651d4b" id="r_a8f549f2cd1d36d5c738a6b7da7651d4b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a8ba1668c6e6178919f5be18a2d94cbe2">MR_std_vector_MR_UndirectedEdgeUndirectedEdge</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f549f2cd1d36d5c738a6b7da7651d4b">MR_findCollidingEdges</a> (const <a class="el" href="MRAABBTreePolyline_8h.html#ac19d267fe4a2399b21a578c74213dfd2">MR_Polyline2</a> *a, const <a class="el" href="MRAABBTreePolyline_8h.html#ac19d267fe4a2399b21a578c74213dfd2">MR_Polyline2</a> *b, const <a class="el" href="structMR__AffineXf2f.html">MR_AffineXf2f</a> *rigidB2A, const bool *firstIntersectionOnly)</td></tr>
 <tr class="memdesc:a8f549f2cd1d36d5c738a6b7da7651d4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all pairs of colliding edges from two 2d polylines  <br /></td></tr>
 <tr class="separator:a8f549f2cd1d36d5c738a6b7da7651d4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae2ed7ef488e4e9c7494a8ab1fc992195" id="r_ae2ed7ef488e4e9c7494a8ab1fc992195"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a60f9673a333a0f76aee9330f73231f88">MR_std_pair_MR_UndirectedEdgeBitSet_MR_UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae2ed7ef488e4e9c7494a8ab1fc992195">MR_findCollidingEdgesBitsets</a> (const <a class="el" href="MRAABBTreePolyline_8h.html#ac19d267fe4a2399b21a578c74213dfd2">MR_Polyline2</a> *a, const <a class="el" href="MRAABBTreePolyline_8h.html#ac19d267fe4a2399b21a578c74213dfd2">MR_Polyline2</a> *b, const <a class="el" href="structMR__AffineXf2f.html">MR_AffineXf2f</a> *rigidB2A)</td></tr>
+<tr class="memitem:ae2ed7ef488e4e9c7494a8ab1fc992195" id="r_ae2ed7ef488e4e9c7494a8ab1fc992195"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a60f9673a333a0f76aee9330f73231f88">MR_std_pair_MR_UndirectedEdgeBitSet_MR_UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae2ed7ef488e4e9c7494a8ab1fc992195">MR_findCollidingEdgesBitsets</a> (const <a class="el" href="MRAABBTreePolyline_8h.html#ac19d267fe4a2399b21a578c74213dfd2">MR_Polyline2</a> *a, const <a class="el" href="MRAABBTreePolyline_8h.html#ac19d267fe4a2399b21a578c74213dfd2">MR_Polyline2</a> *b, const <a class="el" href="structMR__AffineXf2f.html">MR_AffineXf2f</a> *rigidB2A)</td></tr>
 <tr class="memdesc:ae2ed7ef488e4e9c7494a8ab1fc992195"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds bitset per polyline with colliding edges  <br /></td></tr>
 <tr class="separator:ae2ed7ef488e4e9c7494a8ab1fc992195"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae065af9a1f90f06f5624c49e4369ac31" id="r_ae065af9a1f90f06f5624c49e4369ac31"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a16dbe8a297e2f481482a3bd2ece49784">MR_std_vector_MR_EdgePointPair</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae065af9a1f90f06f5624c49e4369ac31">MR_findSelfCollidingEdgePairs</a> (const <a class="el" href="MRAABBTreePolyline_8h.html#ac19d267fe4a2399b21a578c74213dfd2">MR_Polyline2</a> *polyline)</td></tr>
+<tr class="memitem:ae065af9a1f90f06f5624c49e4369ac31" id="r_ae065af9a1f90f06f5624c49e4369ac31"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a16dbe8a297e2f481482a3bd2ece49784">MR_std_vector_MR_EdgePointPair</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae065af9a1f90f06f5624c49e4369ac31">MR_findSelfCollidingEdgePairs</a> (const <a class="el" href="MRAABBTreePolyline_8h.html#ac19d267fe4a2399b21a578c74213dfd2">MR_Polyline2</a> *polyline)</td></tr>
 <tr class="separator:ae065af9a1f90f06f5624c49e4369ac31"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b83250ae6df33ae67aa9f220ff9eb7c" id="r_a3b83250ae6df33ae67aa9f220ff9eb7c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a8ba1668c6e6178919f5be18a2d94cbe2">MR_std_vector_MR_UndirectedEdgeUndirectedEdge</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b83250ae6df33ae67aa9f220ff9eb7c">MR_findSelfCollidingEdges</a> (const <a class="el" href="MRAABBTreePolyline_8h.html#ac19d267fe4a2399b21a578c74213dfd2">MR_Polyline2</a> *polyline)</td></tr>
+<tr class="memitem:a3b83250ae6df33ae67aa9f220ff9eb7c" id="r_a3b83250ae6df33ae67aa9f220ff9eb7c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a8ba1668c6e6178919f5be18a2d94cbe2">MR_std_vector_MR_UndirectedEdgeUndirectedEdge</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b83250ae6df33ae67aa9f220ff9eb7c">MR_findSelfCollidingEdges</a> (const <a class="el" href="MRAABBTreePolyline_8h.html#ac19d267fe4a2399b21a578c74213dfd2">MR_Polyline2</a> *polyline)</td></tr>
 <tr class="separator:a3b83250ae6df33ae67aa9f220ff9eb7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad39ab97f133d6631f771ad3cda2c0b04" id="r_ad39ab97f133d6631f771ad3cda2c0b04"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad39ab97f133d6631f771ad3cda2c0b04">MR_findSelfCollidingEdgesBS</a> (const <a class="el" href="MRAABBTreePolyline_8h.html#ac19d267fe4a2399b21a578c74213dfd2">MR_Polyline2</a> *polyline)</td></tr>
+<tr class="memitem:ad39ab97f133d6631f771ad3cda2c0b04" id="r_ad39ab97f133d6631f771ad3cda2c0b04"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad39ab97f133d6631f771ad3cda2c0b04">MR_findSelfCollidingEdgesBS</a> (const <a class="el" href="MRAABBTreePolyline_8h.html#ac19d267fe4a2399b21a578c74213dfd2">MR_Polyline2</a> *polyline)</td></tr>
 <tr class="separator:ad39ab97f133d6631f771ad3cda2c0b04"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a55873a96b499d2ba198c3f5062425466" id="r_a55873a96b499d2ba198c3f5062425466"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a55873a96b499d2ba198c3f5062425466">MR_isInside_MR_Polyline2</a> (const <a class="el" href="MRAABBTreePolyline_8h.html#ac19d267fe4a2399b21a578c74213dfd2">MR_Polyline2</a> *a, const <a class="el" href="MRAABBTreePolyline_8h.html#ac19d267fe4a2399b21a578c74213dfd2">MR_Polyline2</a> *b, const <a class="el" href="structMR__AffineXf2f.html">MR_AffineXf2f</a> *rigidB2A)</td></tr>
+<tr class="memitem:a55873a96b499d2ba198c3f5062425466" id="r_a55873a96b499d2ba198c3f5062425466"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a55873a96b499d2ba198c3f5062425466">MR_isInside_MR_Polyline2</a> (const <a class="el" href="MRAABBTreePolyline_8h.html#ac19d267fe4a2399b21a578c74213dfd2">MR_Polyline2</a> *a, const <a class="el" href="MRAABBTreePolyline_8h.html#ac19d267fe4a2399b21a578c74213dfd2">MR_Polyline2</a> *b, const <a class="el" href="structMR__AffineXf2f.html">MR_AffineXf2f</a> *rigidB2A)</td></tr>
 <tr class="memdesc:a55873a96b499d2ba198c3f5062425466"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks that arbitrary 2d polyline A is inside of closed 2d polyline B  <br /></td></tr>
 <tr class="separator:a55873a96b499d2ba198c3f5062425466"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -291,7 +285,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a16dbe8a297e2f481482a3bd2ece49784">MR_std_vector_MR_EdgePointPair</a> * MR_findCollidingEdgePairs </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a16dbe8a297e2f481482a3bd2ece49784">MR_std_vector_MR_EdgePointPair</a> * MR_findCollidingEdgePairs </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRAABBTreePolyline_8h.html#ac19d267fe4a2399b21a578c74213dfd2">MR_Polyline2</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
@@ -331,7 +325,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a8ba1668c6e6178919f5be18a2d94cbe2">MR_std_vector_MR_UndirectedEdgeUndirectedEdge</a> * MR_findCollidingEdges </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a8ba1668c6e6178919f5be18a2d94cbe2">MR_std_vector_MR_UndirectedEdgeUndirectedEdge</a> * MR_findCollidingEdges </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRAABBTreePolyline_8h.html#ac19d267fe4a2399b21a578c74213dfd2">MR_Polyline2</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
@@ -371,7 +365,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a60f9673a333a0f76aee9330f73231f88">MR_std_pair_MR_UndirectedEdgeBitSet_MR_UndirectedEdgeBitSet</a> * MR_findCollidingEdgesBitsets </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a60f9673a333a0f76aee9330f73231f88">MR_std_pair_MR_UndirectedEdgeBitSet_MR_UndirectedEdgeBitSet</a> * MR_findCollidingEdgesBitsets </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRAABBTreePolyline_8h.html#ac19d267fe4a2399b21a578c74213dfd2">MR_Polyline2</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
@@ -405,7 +399,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a16dbe8a297e2f481482a3bd2ece49784">MR_std_vector_MR_EdgePointPair</a> * MR_findSelfCollidingEdgePairs </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a16dbe8a297e2f481482a3bd2ece49784">MR_std_vector_MR_EdgePointPair</a> * MR_findSelfCollidingEdgePairs </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRAABBTreePolyline_8h.html#ac19d267fe4a2399b21a578c74213dfd2">MR_Polyline2</a> *</td>          <td class="paramname"><span class="paramname"><em>polyline</em></span></td><td>)</td>
           <td></td>
@@ -423,7 +417,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a8ba1668c6e6178919f5be18a2d94cbe2">MR_std_vector_MR_UndirectedEdgeUndirectedEdge</a> * MR_findSelfCollidingEdges </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a8ba1668c6e6178919f5be18a2d94cbe2">MR_std_vector_MR_UndirectedEdgeUndirectedEdge</a> * MR_findSelfCollidingEdges </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRAABBTreePolyline_8h.html#ac19d267fe4a2399b21a578c74213dfd2">MR_Polyline2</a> *</td>          <td class="paramname"><span class="paramname"><em>polyline</em></span></td><td>)</td>
           <td></td>
@@ -441,7 +435,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> * MR_findSelfCollidingEdgesBS </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> * MR_findSelfCollidingEdgesBS </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRAABBTreePolyline_8h.html#ac19d267fe4a2399b21a578c74213dfd2">MR_Polyline2</a> *</td>          <td class="paramname"><span class="paramname"><em>polyline</em></span></td><td>)</td>
           <td></td>
@@ -459,7 +453,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API bool MR_isInside_MR_Polyline2 </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_isInside_MR_Polyline2 </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRAABBTreePolyline_8h.html#ac19d267fe4a2399b21a578c74213dfd2">MR_Polyline2</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>

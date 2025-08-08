@@ -14,12 +14,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -157,7 +151,7 @@ $(function(){initNavTree('MRCylinder_8h.html',''); initResizable(true); });
   <div class="headertitle"><div class="title">MRCylinder.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdint.h&gt;</code><br />
 </div>
 <p><a href="MRCylinder_8h_source.html">Go to the source code of this file.</a></p>
@@ -169,15 +163,15 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a424e98de8ca05c7f5633173511e12d55" id="r_a424e98de8ca05c7f5633173511e12d55"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a424e98de8ca05c7f5633173511e12d55">MR_makeCylinder</a> (const float *radius, const float *<a class="elRef" href="../Cpp/MRObjectDimensionsEnum_8h.html#af9d495c1655d813d553030485d00fea7">length</a>, const int32_t *resolution)</td></tr>
+<tr class="memitem:a424e98de8ca05c7f5633173511e12d55" id="r_a424e98de8ca05c7f5633173511e12d55"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a424e98de8ca05c7f5633173511e12d55">MR_makeCylinder</a> (const float *radius, const float *<a class="elRef" href="../Cpp/MRObjectDimensionsEnum_8h.html#af9d495c1655d813d553030485d00fea7">length</a>, const int32_t *resolution)</td></tr>
 <tr class="separator:a424e98de8ca05c7f5633173511e12d55"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc36ddf31b02a16b462eb84bb9580c02" id="r_adc36ddf31b02a16b462eb84bb9580c02"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc36ddf31b02a16b462eb84bb9580c02">MR_makeOpenCylinder</a> (const float *radius, const float *z1, const float *z2, const int32_t *numCircleSegments)</td></tr>
+<tr class="memitem:adc36ddf31b02a16b462eb84bb9580c02" id="r_adc36ddf31b02a16b462eb84bb9580c02"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc36ddf31b02a16b462eb84bb9580c02">MR_makeOpenCylinder</a> (const float *radius, const float *z1, const float *z2, const int32_t *numCircleSegments)</td></tr>
 <tr class="separator:adc36ddf31b02a16b462eb84bb9580c02"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a18f593efc3bfb39f3341e3446ab6265b" id="r_a18f593efc3bfb39f3341e3446ab6265b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18f593efc3bfb39f3341e3446ab6265b">MR_makeOpenCone</a> (const float *radius, const float *zApex, const float *zBase, const int32_t *numCircleSegments)</td></tr>
+<tr class="memitem:a18f593efc3bfb39f3341e3446ab6265b" id="r_a18f593efc3bfb39f3341e3446ab6265b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18f593efc3bfb39f3341e3446ab6265b">MR_makeOpenCone</a> (const float *radius, const float *zApex, const float *zBase, const int32_t *numCircleSegments)</td></tr>
 <tr class="separator:a18f593efc3bfb39f3341e3446ab6265b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e9ec2850e9b812e0dad2ea787f7f7ac" id="r_a7e9ec2850e9b812e0dad2ea787f7f7ac"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e9ec2850e9b812e0dad2ea787f7f7ac">MR_makeCylinderAdvanced</a> (const float *radius0, const float *radius1, const float *start_angle, const float *arc_size, const float *<a class="elRef" href="../Cpp/MRObjectDimensionsEnum_8h.html#af9d495c1655d813d553030485d00fea7">length</a>, const int32_t *resolution)</td></tr>
+<tr class="memitem:a7e9ec2850e9b812e0dad2ea787f7f7ac" id="r_a7e9ec2850e9b812e0dad2ea787f7f7ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e9ec2850e9b812e0dad2ea787f7f7ac">MR_makeCylinderAdvanced</a> (const float *radius0, const float *radius1, const float *start_angle, const float *arc_size, const float *<a class="elRef" href="../Cpp/MRObjectDimensionsEnum_8h.html#af9d495c1655d813d553030485d00fea7">length</a>, const int32_t *resolution)</td></tr>
 <tr class="separator:a7e9ec2850e9b812e0dad2ea787f7f7ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a66cde8b95e13d45cebbe703699d7bc60" id="r_a66cde8b95e13d45cebbe703699d7bc60"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66cde8b95e13d45cebbe703699d7bc60">MR_makeCone</a> (const float *radius0, const float *<a class="elRef" href="../Cpp/MRObjectDimensionsEnum_8h.html#af9d495c1655d813d553030485d00fea7">length</a>, const int32_t *resolution)</td></tr>
+<tr class="memitem:a66cde8b95e13d45cebbe703699d7bc60" id="r_a66cde8b95e13d45cebbe703699d7bc60"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66cde8b95e13d45cebbe703699d7bc60">MR_makeCone</a> (const float *radius0, const float *<a class="elRef" href="../Cpp/MRObjectDimensionsEnum_8h.html#af9d495c1655d813d553030485d00fea7">length</a>, const int32_t *resolution)</td></tr>
 <tr class="separator:a66cde8b95e13d45cebbe703699d7bc60"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -203,7 +197,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> * MR_makeCone </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> * MR_makeCone </td>
           <td>(</td>
           <td class="paramtype">const float *</td>          <td class="paramname"><span class="paramname"><em>radius0</em></span>, </td>
         </tr>
@@ -230,7 +224,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> * MR_makeCylinder </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> * MR_makeCylinder </td>
           <td>(</td>
           <td class="paramtype">const float *</td>          <td class="paramname"><span class="paramname"><em>radius</em></span>, </td>
         </tr>
@@ -257,7 +251,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> * MR_makeCylinderAdvanced </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> * MR_makeCylinderAdvanced </td>
           <td>(</td>
           <td class="paramtype">const float *</td>          <td class="paramname"><span class="paramname"><em>radius0</em></span>, </td>
         </tr>
@@ -299,7 +293,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> * MR_makeOpenCone </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> * MR_makeOpenCone </td>
           <td>(</td>
           <td class="paramtype">const float *</td>          <td class="paramname"><span class="paramname"><em>radius</em></span>, </td>
         </tr>
@@ -331,7 +325,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> * MR_makeOpenCylinder </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> * MR_makeOpenCylinder </td>
           <td>(</td>
           <td class="paramtype">const float *</td>          <td class="paramname"><span class="paramname"><em>radius</em></span>, </td>
         </tr>

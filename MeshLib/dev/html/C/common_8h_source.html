@@ -14,12 +14,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -156,7 +150,7 @@ $(function(){initNavTree('common_8h_source.html',''); initResizable(true); });
 <div class="contents">
 <a href="common_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;MRCMisc/exports.h&gt;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;<a class="code" href="exports_8h.html">MRCMisc/exports.h</a>&gt;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;stddef.h&gt;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
@@ -182,13 +176,13 @@ $(function(){initNavTree('common_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="common_8h.html#a838e29a25f92d25810fa95aa10c742ea">   25</a></span>} <a class="code hl_enumeration" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a>;</div>
 </div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="common_8h.html#acbfbc8d4321ed31ce414a41b4a42834d">   28</a></span>MRC_API <span class="keywordtype">void</span> *<a class="code hl_function" href="common_8h.html#acbfbc8d4321ed31ce414a41b4a42834d">MR_Alloc</a>(<span class="keywordtype">size_t</span> num_bytes);</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="common_8h.html#acbfbc8d4321ed31ce414a41b4a42834d">   28</a></span><a class="code hl_define" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <span class="keywordtype">void</span> *<a class="code hl_function" href="common_8h.html#acbfbc8d4321ed31ce414a41b4a42834d">MR_Alloc</a>(<span class="keywordtype">size_t</span> num_bytes);</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="common_8h.html#ae29e12b2bd7a115e4d37315917eb5cad">   31</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="common_8h.html#ae29e12b2bd7a115e4d37315917eb5cad">MR_Free</a>(<span class="keywordtype">void</span> *ptr);</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="common_8h.html#ae29e12b2bd7a115e4d37315917eb5cad">   31</a></span><a class="code hl_define" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <span class="keywordtype">void</span> <a class="code hl_function" href="common_8h.html#ae29e12b2bd7a115e4d37315917eb5cad">MR_Free</a>(<span class="keywordtype">void</span> *ptr);</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="common_8h.html#a006934922fcbc07750b4589789c081e2">   37</a></span>MRC_API <span class="keywordtype">void</span> *<a class="code hl_function" href="common_8h.html#a006934922fcbc07750b4589789c081e2">MR_AllocArray</a>(<span class="keywordtype">size_t</span> num_bytes);</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="common_8h.html#a006934922fcbc07750b4589789c081e2">   37</a></span><a class="code hl_define" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <span class="keywordtype">void</span> *<a class="code hl_function" href="common_8h.html#a006934922fcbc07750b4589789c081e2">MR_AllocArray</a>(<span class="keywordtype">size_t</span> num_bytes);</div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="common_8h.html#a2c920e2b965b97cbea7329c7bb21cf5f">   40</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="common_8h.html#a2c920e2b965b97cbea7329c7bb21cf5f">MR_FreeArray</a>(<span class="keywordtype">void</span> *ptr);</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="common_8h.html#a2c920e2b965b97cbea7329c7bb21cf5f">   40</a></span><a class="code hl_define" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <span class="keywordtype">void</span> <a class="code hl_function" href="common_8h.html#a2c920e2b965b97cbea7329c7bb21cf5f">MR_FreeArray</a>(<span class="keywordtype">void</span> *ptr);</div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
 <div class="ttc" id="acommon_8h_html_a006934922fcbc07750b4589789c081e2"><div class="ttname"><a href="common_8h.html#a006934922fcbc07750b4589789c081e2">MR_AllocArray</a></div><div class="ttdeci">MRC_API void * MR_AllocArray(size_t num_bytes)</div></div>
 <div class="ttc" id="acommon_8h_html_a2c920e2b965b97cbea7329c7bb21cf5f"><div class="ttname"><a href="common_8h.html#a2c920e2b965b97cbea7329c7bb21cf5f">MR_FreeArray</a></div><div class="ttdeci">MRC_API void MR_FreeArray(void *ptr)</div><div class="ttdoc">Deallocates memory that was previously allocated with MR_AllocArray(). Does nothing if the pointer is...</div></div>
@@ -202,6 +196,8 @@ $(function(){initNavTree('common_8h_source.html',''); initResizable(true); });
 <div class="ttc" id="acommon_8h_html_acbfbc8d4321ed31ce414a41b4a42834d"><div class="ttname"><a href="common_8h.html#acbfbc8d4321ed31ce414a41b4a42834d">MR_Alloc</a></div><div class="ttdeci">MRC_API void * MR_Alloc(size_t num_bytes)</div><div class="ttdoc">Allocates n bytes of memory, which can then be freed using MR_Free().</div></div>
 <div class="ttc" id="acommon_8h_html_ae29e12b2bd7a115e4d37315917eb5cad"><div class="ttname"><a href="common_8h.html#ae29e12b2bd7a115e4d37315917eb5cad">MR_Free</a></div><div class="ttdeci">MRC_API void MR_Free(void *ptr)</div><div class="ttdoc">Deallocates memory that was previously allocated with MR_Alloc(). Does nothing if the pointer is null...</div></div>
 <div class="ttc" id="acommon_8h_html_aefc0b2fe2e376b1b34a189af81dc8a49"><div class="ttname"><a href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></div><div class="ttdeci">uint64_t MR_uint64_t</div><div class="ttdef"><b>Definition</b> common.h:14</div></div>
+<div class="ttc" id="aexports_8h_html"><div class="ttname"><a href="exports_8h.html">exports.h</a></div></div>
+<div class="ttc" id="aexports_8h_html_a83dd8809128f2fbd49b5c39d59179d4a"><div class="ttname"><a href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a></div><div class="ttdeci">#define MRC_API</div><div class="ttdef"><b>Definition</b> exports.h:11</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

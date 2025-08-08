@@ -14,12 +14,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -166,16 +160,16 @@ $(function(){initNavTree('BasedApplication.html',''); initResizable(true); });
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Init the viewer</span></div>
 <div class="line"> </div>
-<div class="line">    <a class="code hl_structRef" href="./Cpp/structMR_1_1LaunchParams.html">MR::Viewer::LaunchParams</a> launchParams{ .argc = argc, .argv = argv };</div>
+<div class="line">    <a class="code hl_structRef" href="./Cpp/structMR_1_1LaunchParams.html">MR::Viewer::LaunchParams</a> launchParams{ .<a class="code hl_variableRef" href="./Cpp/structMR_1_1LaunchParams.html#a25346cad277e065c937a564b8b5f003d">argc</a> = argc, .argv = argv };</div>
 <div class="line">    <a class="code hl_functionRef" href="./Cpp/classMR_1_1Viewer.html#a26632c3fff60e6f927d932d86503aa8f">MR::Viewer::parseLaunchParams</a>( launchParams );</div>
 <div class="line">    launchParams.name = <span class="stringliteral">&quot;Your app name&quot;</span>;</div>
 <div class="line"> </div>
 <div class="line">    <a class="code hl_classRef" href="./Cpp/classMR_1_1ViewerSetup.html">MR::ViewerSetup</a> viewerSetup;</div>
-<div class="line">    viewerSetup.setupBasePlugins( <a class="code hl_functionRef" href="./Cpp/classMR_1_1Viewer.html#a827107af544bf966370dc8de607ed59c">MR::Viewer::instance</a>() );</div>
-<div class="line">    viewerSetup.setupCommonModifiers( <a class="code hl_functionRef" href="./Cpp/classMR_1_1Viewer.html#a827107af544bf966370dc8de607ed59c">MR::Viewer::instance</a>() );</div>
-<div class="line">    viewerSetup.setupCommonPlugins( <a class="code hl_functionRef" href="./Cpp/classMR_1_1Viewer.html#a827107af544bf966370dc8de607ed59c">MR::Viewer::instance</a>() );</div>
-<div class="line">    viewerSetup.setupSettingsManager( <a class="code hl_functionRef" href="./Cpp/classMR_1_1Viewer.html#a827107af544bf966370dc8de607ed59c">MR::Viewer::instance</a>(), launchParams.name );</div>
-<div class="line">    viewerSetup.setupConfiguration( <a class="code hl_functionRef" href="./Cpp/classMR_1_1Viewer.html#a827107af544bf966370dc8de607ed59c">MR::Viewer::instance</a>() );</div>
+<div class="line">    viewerSetup.<a class="code hl_functionRef" href="./Cpp/classMR_1_1ViewerSetup.html#a68075c17440a99ede74249da2ff6ecd9">setupBasePlugins</a>( <a class="code hl_functionRef" href="./Cpp/classMR_1_1Viewer.html#a827107af544bf966370dc8de607ed59c">MR::Viewer::instance</a>() );</div>
+<div class="line">    viewerSetup.<a class="code hl_functionRef" href="./Cpp/classMR_1_1ViewerSetup.html#a66bb762d87286ae7b094f6a59bb96aec">setupCommonModifiers</a>( <a class="code hl_functionRef" href="./Cpp/classMR_1_1Viewer.html#a827107af544bf966370dc8de607ed59c">MR::Viewer::instance</a>() );</div>
+<div class="line">    viewerSetup.<a class="code hl_functionRef" href="./Cpp/classMR_1_1ViewerSetup.html#a04abb25fb543f1b7f29d33eed34bdb81">setupCommonPlugins</a>( <a class="code hl_functionRef" href="./Cpp/classMR_1_1Viewer.html#a827107af544bf966370dc8de607ed59c">MR::Viewer::instance</a>() );</div>
+<div class="line">    viewerSetup.<a class="code hl_functionRef" href="./Cpp/classMR_1_1ViewerSetup.html#a9ba29b362190cbfc386b59d8051f8b06">setupSettingsManager</a>( <a class="code hl_functionRef" href="./Cpp/classMR_1_1Viewer.html#a827107af544bf966370dc8de607ed59c">MR::Viewer::instance</a>(), launchParams.name );</div>
+<div class="line">    viewerSetup.<a class="code hl_functionRef" href="./Cpp/classMR_1_1ViewerSetup.html#a918f69117bd46f408fda277cad5fde2d">setupConfiguration</a>( <a class="code hl_functionRef" href="./Cpp/classMR_1_1Viewer.html#a827107af544bf966370dc8de607ed59c">MR::Viewer::instance</a>() );</div>
 <div class="line"> </div>
 <div class="line">    <span class="keywordflow">return</span> <a class="code hl_functionRef" href="./Cpp/namespaceMR.html#abf0f4c580a56e4a7e297faa1b6de7378">MR::launchDefaultViewer</a>( launchParams, viewerSetup );</div>
 <div class="line">}</div>
@@ -185,11 +179,17 @@ $(function(){initNavTree('BasedApplication.html',''); initResizable(true); });
 <div class="ttc" id="aMRSystem_8h_html"><div class="ttname"><a href="./Cpp/MRSystem_8h.html">MRSystem.h</a></div></div>
 <div class="ttc" id="aMRViewer_8h_html"><div class="ttname"><a href="./Cpp/MRViewer_8h.html">MRViewer.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1ViewerSetup_html"><div class="ttname"><a href="./Cpp/classMR_1_1ViewerSetup.html">MR::ViewerSetup</a></div></div>
+<div class="ttc" id="aclassMR_1_1ViewerSetup_html_a04abb25fb543f1b7f29d33eed34bdb81"><div class="ttname"><a href="./Cpp/classMR_1_1ViewerSetup.html#a04abb25fb543f1b7f29d33eed34bdb81">MR::ViewerSetup::setupCommonPlugins</a></div><div class="ttdeci">virtual void setupCommonPlugins(Viewer *) const</div></div>
+<div class="ttc" id="aclassMR_1_1ViewerSetup_html_a66bb762d87286ae7b094f6a59bb96aec"><div class="ttname"><a href="./Cpp/classMR_1_1ViewerSetup.html#a66bb762d87286ae7b094f6a59bb96aec">MR::ViewerSetup::setupCommonModifiers</a></div><div class="ttdeci">virtual void setupCommonModifiers(Viewer *) const</div></div>
+<div class="ttc" id="aclassMR_1_1ViewerSetup_html_a68075c17440a99ede74249da2ff6ecd9"><div class="ttname"><a href="./Cpp/classMR_1_1ViewerSetup.html#a68075c17440a99ede74249da2ff6ecd9">MR::ViewerSetup::setupBasePlugins</a></div><div class="ttdeci">virtual MRVIEWER_API void setupBasePlugins(Viewer *) const</div></div>
+<div class="ttc" id="aclassMR_1_1ViewerSetup_html_a918f69117bd46f408fda277cad5fde2d"><div class="ttname"><a href="./Cpp/classMR_1_1ViewerSetup.html#a918f69117bd46f408fda277cad5fde2d">MR::ViewerSetup::setupConfiguration</a></div><div class="ttdeci">virtual MRVIEWER_API void setupConfiguration(Viewer *viewer) const</div></div>
+<div class="ttc" id="aclassMR_1_1ViewerSetup_html_a9ba29b362190cbfc386b59d8051f8b06"><div class="ttname"><a href="./Cpp/classMR_1_1ViewerSetup.html#a9ba29b362190cbfc386b59d8051f8b06">MR::ViewerSetup::setupSettingsManager</a></div><div class="ttdeci">virtual MRVIEWER_API void setupSettingsManager(Viewer *viewer, const std::string &amp;appName) const</div></div>
 <div class="ttc" id="aclassMR_1_1Viewer_html_a26632c3fff60e6f927d932d86503aa8f"><div class="ttname"><a href="./Cpp/classMR_1_1Viewer.html#a26632c3fff60e6f927d932d86503aa8f">MR::Viewer::parseLaunchParams</a></div><div class="ttdeci">static MRVIEWER_API void parseLaunchParams(LaunchParams &amp;params)</div></div>
 <div class="ttc" id="aclassMR_1_1Viewer_html_a827107af544bf966370dc8de607ed59c"><div class="ttname"><a href="./Cpp/classMR_1_1Viewer.html#a827107af544bf966370dc8de607ed59c">MR::Viewer::instance</a></div><div class="ttdeci">static Viewer * instance()</div></div>
 <div class="ttc" id="anamespaceMR_html_a6804a7415d5f018fa64bf1b533af3d4f"><div class="ttname"><a href="./Cpp/namespaceMR.html#a6804a7415d5f018fa64bf1b533af3d4f">MR::setupLoggerByDefault</a></div><div class="ttdeci">MRMESH_API void setupLoggerByDefault()</div></div>
 <div class="ttc" id="anamespaceMR_html_abf0f4c580a56e4a7e297faa1b6de7378"><div class="ttname"><a href="./Cpp/namespaceMR.html#abf0f4c580a56e4a7e297faa1b6de7378">MR::launchDefaultViewer</a></div><div class="ttdeci">MRVIEWER_API int launchDefaultViewer(const Viewer::LaunchParams &amp;params, const ViewerSetup &amp;setup)</div></div>
 <div class="ttc" id="astructMR_1_1LaunchParams_html"><div class="ttname"><a href="./Cpp/structMR_1_1LaunchParams.html">MR::LaunchParams</a></div></div>
+<div class="ttc" id="astructMR_1_1LaunchParams_html_a25346cad277e065c937a564b8b5f003d"><div class="ttname"><a href="./Cpp/structMR_1_1LaunchParams.html#a25346cad277e065c937a564b8b5f003d">MR::LaunchParams::argc</a></div><div class="ttdeci">int argc</div></div>
 </div><!-- fragment --> Then you should make your plugins, to find how have a look at <a class="el" href="StatePluginsHelp.html">State Plugins Overview</a> page</li>
 </ul>
 </div><div class="tabbed"></div> </div></div><!-- contents -->

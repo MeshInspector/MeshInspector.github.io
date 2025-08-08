@@ -14,12 +14,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -167,13 +161,13 @@ $(function(){initNavTree('ExampleMeshFillHole.html',''); initResizable(true); })
 <div class="line">    <a class="code hl_structRef" href="./Cpp/structMR_1_1Mesh.html">MR::Mesh</a> mesh = *<a class="code hl_functionRef" href="./Cpp/group__MeshLoadGroup.html#gac9118492a6cd095ff8e563c0987fc477">MR::MeshLoad::fromAnySupportedFormat</a>( <span class="stringliteral">&quot;mesh.stl&quot;</span> );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Find single edge for each hole in mesh</span></div>
-<div class="line">    std::vector&lt;MR::EdgeId&gt; holeEdges = mesh.topology.findHoleRepresentiveEdges();</div>
+<div class="line">    std::vector&lt;MR::EdgeId&gt; holeEdges = mesh.<a class="code hl_variableRef" href="./Cpp/structMR_1_1Mesh.html#a91b13898794821d7f88845ebaa6cc1c4">topology</a>.<a class="code hl_functionRef" href="./Cpp/classMR_1_1MeshTopology.html#aa66581b4e7aad51bf8ebd1bbf43e4752">findHoleRepresentiveEdges</a>();</div>
 <div class="line"> </div>
 <div class="line">    <span class="keywordflow">for</span> ( MR::EdgeId e : holeEdges )</div>
 <div class="line">    {</div>
 <div class="line">        <span class="comment">// Setup filling parameters</span></div>
 <div class="line">        <a class="code hl_structRef" href="./Cpp/structMR_1_1FillHoleParams.html">MR::FillHoleParams</a> params;</div>
-<div class="line">        params.metric = <a class="code hl_functionRef" href="./Cpp/group__FillHoleGroup.html#ga16a9d70b647d9b9f745ab650b21a975e">MR::getUniversalMetric</a>( mesh );</div>
+<div class="line">        params.<a class="code hl_variableRef" href="./Cpp/structMR_1_1FillHoleParams.html#a6ab1c2d2eb0cbb97455c747713f2371d">metric</a> = <a class="code hl_functionRef" href="./Cpp/group__FillHoleGroup.html#ga16a9d70b647d9b9f745ab650b21a975e">MR::getUniversalMetric</a>( mesh );</div>
 <div class="line">        <span class="comment">// Fill hole represented by `e`</span></div>
 <div class="line">        <a class="code hl_functionRef" href="./Cpp/group__FillHoleGroup.html#gac972786878ec37756f5a95814b657a05">MR::fillHole</a>( mesh, e, params );</div>
 <div class="line">    }</div>
@@ -182,12 +176,15 @@ $(function(){initNavTree('ExampleMeshFillHole.html',''); initResizable(true); })
 <div class="line">    <span class="keyword">auto</span> saveRes = <a class="code hl_functionRef" href="./Cpp/group__MeshSaveGroup.html#ga6f98b4f73676fa32a7e3573939cb76b9">MR::MeshSave::toAnySupportedFormat</a>( mesh, <span class="stringliteral">&quot;filledMesh.stl&quot;</span> );</div>
 <div class="line">}</div>
 <div class="ttc" id="aLaplacianDeformation_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition</b> LaplacianDeformation.cpp:4</div></div>
+<div class="ttc" id="aclassMR_1_1MeshTopology_html_aa66581b4e7aad51bf8ebd1bbf43e4752"><div class="ttname"><a href="./Cpp/classMR_1_1MeshTopology.html#aa66581b4e7aad51bf8ebd1bbf43e4752">MR::MeshTopology::findHoleRepresentiveEdges</a></div><div class="ttdeci">MRMESH_API std::vector&lt; EdgeId &gt; findHoleRepresentiveEdges(const FaceBitSet *region=nullptr) const</div></div>
 <div class="ttc" id="agroup__FillHoleGroup_html_ga16a9d70b647d9b9f745ab650b21a975e"><div class="ttname"><a href="./Cpp/group__FillHoleGroup.html#ga16a9d70b647d9b9f745ab650b21a975e">MR::getUniversalMetric</a></div><div class="ttdeci">MRMESH_API FillHoleMetric getUniversalMetric(const Mesh &amp;mesh)</div></div>
 <div class="ttc" id="agroup__FillHoleGroup_html_gac972786878ec37756f5a95814b657a05"><div class="ttname"><a href="./Cpp/group__FillHoleGroup.html#gac972786878ec37756f5a95814b657a05">MR::fillHole</a></div><div class="ttdeci">MRMESH_API void fillHole(Mesh &amp;mesh, EdgeId a, const FillHoleParams &amp;params={})</div></div>
 <div class="ttc" id="agroup__MeshLoadGroup_html_gac9118492a6cd095ff8e563c0987fc477"><div class="ttname"><a href="./Cpp/group__MeshLoadGroup.html#gac9118492a6cd095ff8e563c0987fc477">MR::MeshLoad::fromAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; Mesh &gt; fromAnySupportedFormat(const std::filesystem::path &amp;file, const MeshLoadSettings &amp;settings={})</div></div>
 <div class="ttc" id="agroup__MeshSaveGroup_html_ga6f98b4f73676fa32a7e3573939cb76b9"><div class="ttname"><a href="./Cpp/group__MeshSaveGroup.html#ga6f98b4f73676fa32a7e3573939cb76b9">MR::MeshSave::toAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; void &gt; toAnySupportedFormat(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</div></div>
 <div class="ttc" id="astructMR_1_1FillHoleParams_html"><div class="ttname"><a href="./Cpp/structMR_1_1FillHoleParams.html">MR::FillHoleParams</a></div></div>
+<div class="ttc" id="astructMR_1_1FillHoleParams_html_a6ab1c2d2eb0cbb97455c747713f2371d"><div class="ttname"><a href="./Cpp/structMR_1_1FillHoleParams.html#a6ab1c2d2eb0cbb97455c747713f2371d">MR::FillHoleParams::metric</a></div><div class="ttdeci">FillHoleMetric metric</div></div>
 <div class="ttc" id="astructMR_1_1Mesh_html"><div class="ttname"><a href="./Cpp/structMR_1_1Mesh.html">MR::Mesh</a></div></div>
+<div class="ttc" id="astructMR_1_1Mesh_html_a91b13898794821d7f88845ebaa6cc1c4"><div class="ttname"><a href="./Cpp/structMR_1_1Mesh.html#a91b13898794821d7f88845ebaa6cc1c4">MR::Mesh::topology</a></div><div class="ttdeci">MeshTopology topology</div></div>
 </div><!-- fragment --></li>
 <li><b class="tab-title">Python</b> <div class="fragment"><div class="line"><span class="keyword">import</span> meshlib.mrmeshpy <span class="keyword">as</span> mrmeshpy</div>
 <div class="line"> </div>
@@ -285,7 +282,7 @@ $(function(){initNavTree('ExampleMeshFillHole.html',''); initResizable(true); })
 <div class="line">    <span class="keywordflow">for</span> ( <span class="keywordtype">size_t</span> i = 0; i &lt; <a class="code hl_functionRef" href="./C/std__vector__MR__EdgeId_8h.html#a287e937bc065f69df43f9deabc1ff8e4">MR_std_vector_MR_EdgeId_Size</a>( holes ); i++ )</div>
 <div class="line">    {</div>
 <div class="line">        <a class="code hl_structRef" href="./C/structMR__EdgeId.html">MR_EdgeId</a> e = *<a class="code hl_functionRef" href="./C/std__vector__MR__EdgeId_8h.html#afdad7bf8e36cb577fa43478cf8a97dc5">MR_std_vector_MR_EdgeId_At</a>( holes, i );</div>
-<div class="line">        <a class="code hl_structRef" href="./C/structMR__Vector3d.html">MR_Vector3d</a> <a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#ae53e446ff455ecd603569115d2e51d44">holeDirArea</a> = <a class="code hl_functionRef" href="./C/MRMesh_8h.html#a60550e8658c519978af36a5818d9fba4">MR_Mesh_holeDirArea</a>( mesh, e );</div>
+<div class="line">        <a class="code hl_structRef" href="./C/structMR__Vector3d.html">MR_Vector3d</a> <a class="code hl_functionRef" href="./Cpp/namespaceMR.html#a4f73b1cca987a9e5c8069e711d63330e">holeDirArea</a> = <a class="code hl_functionRef" href="./C/MRMesh_8h.html#a60550e8658c519978af36a5818d9fba4">MR_Mesh_holeDirArea</a>( mesh, e );</div>
 <div class="line">        <span class="keywordflow">if</span> ( <a class="code hl_functionRef" href="./C/MRVector3_8h.html#aa9ab6da3da289963e437ffe0db9dabbc">MR_Vector3d_lengthSq</a>( &amp;holeDirArea ) &gt;= minHoleArea*minHoleArea )</div>
 <div class="line">        {</div>
 <div class="line">            <a class="code hl_functionRef" href="./C/MRMeshFillHole_8h.html#aacb6e8956c70256df406685442c141ab">MR_fillHole</a>( mesh, e, params );</div>
@@ -351,7 +348,7 @@ $(function(){initNavTree('ExampleMeshFillHole.html',''); initResizable(true); })
 <div class="ttc" id="aexpected__MR__Mesh__std__string_8h_html_adf45ed943c3005d85a9baaa15feb26f1"><div class="ttname"><a href="./C/expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1">MR_expected_MR_Mesh_std_string_Destroy</a></div><div class="ttdeci">MRC_API void MR_expected_MR_Mesh_std_string_Destroy(const MR_expected_MR_Mesh_std_string *_this)</div></div>
 <div class="ttc" id="aexpected__void__std__string_8h_html"><div class="ttname"><a href="./C/expected__void__std__string_8h.html">expected_void_std_string.h</a></div></div>
 <div class="ttc" id="aexpected__void__std__string_8h_html_a734251d65885afdad21d65eea75e2810"><div class="ttname"><a href="./C/expected__void__std__string_8h.html#a734251d65885afdad21d65eea75e2810">MR_expected_void_std_string_GetError</a></div><div class="ttdeci">MRC_API const MR_std_string * MR_expected_void_std_string_GetError(const MR_expected_void_std_string *_this)</div></div>
-<div class="ttc" id="anamespacemrmeshpy_html_ae53e446ff455ecd603569115d2e51d44"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#ae53e446ff455ecd603569115d2e51d44">mrmeshpy::holeDirArea</a></div><div class="ttdeci">Vector3d holeDirArea(MeshTopology topology, VertCoords points, EdgeId e)</div></div>
+<div class="ttc" id="anamespaceMR_html_a4f73b1cca987a9e5c8069e711d63330e"><div class="ttname"><a href="./Cpp/namespaceMR.html#a4f73b1cca987a9e5c8069e711d63330e">MR::holeDirArea</a></div><div class="ttdeci">MRMESH_API Vector3d holeDirArea(const MeshTopology &amp;topology, const VertCoords &amp;points, EdgeId e)</div></div>
 <div class="ttc" id="astd__string_8h_html"><div class="ttname"><a href="./C/std__string_8h.html">std_string.h</a></div></div>
 <div class="ttc" id="astd__string_8h_html_ae6d1b10a4ee031ae30876d74a6894c67"><div class="ttname"><a href="./C/std__string_8h.html#ae6d1b10a4ee031ae30876d74a6894c67">MR_std_string_Data</a></div><div class="ttdeci">MRC_API const char * MR_std_string_Data(const MR_std_string *_this)</div></div>
 <div class="ttc" id="astd__vector__MR__EdgeId_8h_html"><div class="ttname"><a href="./C/std__vector__MR__EdgeId_8h.html">std_vector_MR_EdgeId.h</a></div></div>

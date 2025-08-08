@@ -14,12 +14,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -159,7 +153,7 @@ $(function(){initNavTree('MRPointCloudRelax_8h.html',''); initResizable(true); }
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="MRRelaxParams_8h_source.html">MRCMesh/MRRelaxParams.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
-<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
 </div>
@@ -180,82 +174,82 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a39741d4c5b9c9cf9bef8eeee70091e26" id="r_a39741d4c5b9c9cf9bef8eeee70091e26"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a39741d4c5b9c9cf9bef8eeee70091e26">MR_PointCloudRelaxParams_Get_neighborhoodRadius</a> (const <a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> *_this)</td></tr>
+<tr class="memitem:a39741d4c5b9c9cf9bef8eeee70091e26" id="r_a39741d4c5b9c9cf9bef8eeee70091e26"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a39741d4c5b9c9cf9bef8eeee70091e26">MR_PointCloudRelaxParams_Get_neighborhoodRadius</a> (const <a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> *_this)</td></tr>
 <tr class="separator:a39741d4c5b9c9cf9bef8eeee70091e26"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0dca687b0245fa911c9eb3194e00c5ca" id="r_a0dca687b0245fa911c9eb3194e00c5ca"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0dca687b0245fa911c9eb3194e00c5ca">MR_PointCloudRelaxParams_Set_neighborhoodRadius</a> (<a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> *_this, float value)</td></tr>
+<tr class="memitem:a0dca687b0245fa911c9eb3194e00c5ca" id="r_a0dca687b0245fa911c9eb3194e00c5ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0dca687b0245fa911c9eb3194e00c5ca">MR_PointCloudRelaxParams_Set_neighborhoodRadius</a> (<a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> *_this, float value)</td></tr>
 <tr class="separator:a0dca687b0245fa911c9eb3194e00c5ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a40583eb79fbecf1f2608e48d32527a41" id="r_a40583eb79fbecf1f2608e48d32527a41"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40583eb79fbecf1f2608e48d32527a41">MR_PointCloudRelaxParams_GetMutable_neighborhoodRadius</a> (<a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> *_this)</td></tr>
+<tr class="memitem:a40583eb79fbecf1f2608e48d32527a41" id="r_a40583eb79fbecf1f2608e48d32527a41"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40583eb79fbecf1f2608e48d32527a41">MR_PointCloudRelaxParams_GetMutable_neighborhoodRadius</a> (<a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> *_this)</td></tr>
 <tr class="separator:a40583eb79fbecf1f2608e48d32527a41"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a883d4a4ac37a2b28cecee8f56e411b89" id="r_a883d4a4ac37a2b28cecee8f56e411b89"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a883d4a4ac37a2b28cecee8f56e411b89">MR_PointCloudRelaxParams_DefaultConstruct</a> (void)</td></tr>
+<tr class="memitem:a883d4a4ac37a2b28cecee8f56e411b89" id="r_a883d4a4ac37a2b28cecee8f56e411b89"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a883d4a4ac37a2b28cecee8f56e411b89">MR_PointCloudRelaxParams_DefaultConstruct</a> (void)</td></tr>
 <tr class="separator:a883d4a4ac37a2b28cecee8f56e411b89"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac313522c3cd2e880a4a14f0bb15287d8" id="r_ac313522c3cd2e880a4a14f0bb15287d8"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac313522c3cd2e880a4a14f0bb15287d8">MR_PointCloudRelaxParams_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="memitem:ac313522c3cd2e880a4a14f0bb15287d8" id="r_ac313522c3cd2e880a4a14f0bb15287d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac313522c3cd2e880a4a14f0bb15287d8">MR_PointCloudRelaxParams_DefaultConstructArray</a> (size_t num_elems)</td></tr>
 <tr class="separator:ac313522c3cd2e880a4a14f0bb15287d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa1d9fd4a3b0d2a3a5ad61c3d64662e9c" id="r_aa1d9fd4a3b0d2a3a5ad61c3d64662e9c"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1d9fd4a3b0d2a3a5ad61c3d64662e9c">MR_PointCloudRelaxParams_OffsetPtr</a> (const <a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:aa1d9fd4a3b0d2a3a5ad61c3d64662e9c" id="r_aa1d9fd4a3b0d2a3a5ad61c3d64662e9c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1d9fd4a3b0d2a3a5ad61c3d64662e9c">MR_PointCloudRelaxParams_OffsetPtr</a> (const <a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:aa1d9fd4a3b0d2a3a5ad61c3d64662e9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:aa1d9fd4a3b0d2a3a5ad61c3d64662e9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a37cc381bb89aa9b3ac2c6a15015196d9" id="r_a37cc381bb89aa9b3ac2c6a15015196d9"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a37cc381bb89aa9b3ac2c6a15015196d9">MR_PointCloudRelaxParams_OffsetMutablePtr</a> (<a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a37cc381bb89aa9b3ac2c6a15015196d9" id="r_a37cc381bb89aa9b3ac2c6a15015196d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a37cc381bb89aa9b3ac2c6a15015196d9">MR_PointCloudRelaxParams_OffsetMutablePtr</a> (<a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a37cc381bb89aa9b3ac2c6a15015196d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a37cc381bb89aa9b3ac2c6a15015196d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9117260d4581b2cc4573ba70627f71c3" id="r_a9117260d4581b2cc4573ba70627f71c3"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9117260d4581b2cc4573ba70627f71c3">MR_PointCloudRelaxParams_UpcastTo_MR_RelaxParams</a> (const <a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> *object)</td></tr>
+<tr class="memitem:a9117260d4581b2cc4573ba70627f71c3" id="r_a9117260d4581b2cc4573ba70627f71c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9117260d4581b2cc4573ba70627f71c3">MR_PointCloudRelaxParams_UpcastTo_MR_RelaxParams</a> (const <a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> *object)</td></tr>
 <tr class="separator:a9117260d4581b2cc4573ba70627f71c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ed7c2e380d638a9865870cf06672e30" id="r_a0ed7c2e380d638a9865870cf06672e30"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ed7c2e380d638a9865870cf06672e30">MR_PointCloudRelaxParams_MutableUpcastTo_MR_RelaxParams</a> (<a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> *object)</td></tr>
+<tr class="memitem:a0ed7c2e380d638a9865870cf06672e30" id="r_a0ed7c2e380d638a9865870cf06672e30"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ed7c2e380d638a9865870cf06672e30">MR_PointCloudRelaxParams_MutableUpcastTo_MR_RelaxParams</a> (<a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> *object)</td></tr>
 <tr class="memdesc:a0ed7c2e380d638a9865870cf06672e30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upcasts an instance of <code><a class="elRef" href="../Cpp/structMR_1_1PointCloudRelaxParams.html">MR::PointCloudRelaxParams</a></code> to its base class <code><a class="elRef" href="../Cpp/structMR_1_1RelaxParams.html">MR::RelaxParams</a></code>.  <br /></td></tr>
 <tr class="separator:a0ed7c2e380d638a9865870cf06672e30"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b8361be70472a3f7c3bce696ffb5223" id="r_a9b8361be70472a3f7c3bce696ffb5223"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b8361be70472a3f7c3bce696ffb5223">MR_PointCloudRelaxParams_StaticDowncastTo_MR_PointCloudApproxRelaxParams</a> (const <a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> *object)</td></tr>
+<tr class="memitem:a9b8361be70472a3f7c3bce696ffb5223" id="r_a9b8361be70472a3f7c3bce696ffb5223"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b8361be70472a3f7c3bce696ffb5223">MR_PointCloudRelaxParams_StaticDowncastTo_MR_PointCloudApproxRelaxParams</a> (const <a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> *object)</td></tr>
 <tr class="separator:a9b8361be70472a3f7c3bce696ffb5223"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7f606fab30e51e1e33343ea3df6754e" id="r_ae7f606fab30e51e1e33343ea3df6754e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae7f606fab30e51e1e33343ea3df6754e">MR_PointCloudRelaxParams_MutableStaticDowncastTo_MR_PointCloudApproxRelaxParams</a> (<a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> *object)</td></tr>
+<tr class="memitem:ae7f606fab30e51e1e33343ea3df6754e" id="r_ae7f606fab30e51e1e33343ea3df6754e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae7f606fab30e51e1e33343ea3df6754e">MR_PointCloudRelaxParams_MutableStaticDowncastTo_MR_PointCloudApproxRelaxParams</a> (<a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> *object)</td></tr>
 <tr class="separator:ae7f606fab30e51e1e33343ea3df6754e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a54cb8c09d5839555b9e81e0a1c2416bf" id="r_a54cb8c09d5839555b9e81e0a1c2416bf"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a54cb8c09d5839555b9e81e0a1c2416bf">MR_PointCloudRelaxParams_ConstructFromAnother</a> (const <a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> *_other)</td></tr>
+<tr class="memitem:a54cb8c09d5839555b9e81e0a1c2416bf" id="r_a54cb8c09d5839555b9e81e0a1c2416bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a54cb8c09d5839555b9e81e0a1c2416bf">MR_PointCloudRelaxParams_ConstructFromAnother</a> (const <a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> *_other)</td></tr>
 <tr class="separator:a54cb8c09d5839555b9e81e0a1c2416bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8327f70871b0a5d1af999c174c4eb757" id="r_a8327f70871b0a5d1af999c174c4eb757"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8327f70871b0a5d1af999c174c4eb757">MR_PointCloudRelaxParams_Destroy</a> (const <a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> *_this)</td></tr>
+<tr class="memitem:a8327f70871b0a5d1af999c174c4eb757" id="r_a8327f70871b0a5d1af999c174c4eb757"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8327f70871b0a5d1af999c174c4eb757">MR_PointCloudRelaxParams_Destroy</a> (const <a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> *_this)</td></tr>
 <tr class="memdesc:a8327f70871b0a5d1af999c174c4eb757"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_PointCloudRelaxParams</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:a8327f70871b0a5d1af999c174c4eb757"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a44d4c8829b4427a1a97bd4e51525f3de" id="r_a44d4c8829b4427a1a97bd4e51525f3de"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44d4c8829b4427a1a97bd4e51525f3de">MR_PointCloudRelaxParams_DestroyArray</a> (const <a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> *_this)</td></tr>
+<tr class="memitem:a44d4c8829b4427a1a97bd4e51525f3de" id="r_a44d4c8829b4427a1a97bd4e51525f3de"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44d4c8829b4427a1a97bd4e51525f3de">MR_PointCloudRelaxParams_DestroyArray</a> (const <a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> *_this)</td></tr>
 <tr class="memdesc:a44d4c8829b4427a1a97bd4e51525f3de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_PointCloudRelaxParams</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:a44d4c8829b4427a1a97bd4e51525f3de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e28577b3ec9b26e2adef3effb1b105e" id="r_a9e28577b3ec9b26e2adef3effb1b105e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e28577b3ec9b26e2adef3effb1b105e">MR_PointCloudRelaxParams_AssignFromAnother</a> (<a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> *_this, const <a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> *_other)</td></tr>
+<tr class="memitem:a9e28577b3ec9b26e2adef3effb1b105e" id="r_a9e28577b3ec9b26e2adef3effb1b105e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e28577b3ec9b26e2adef3effb1b105e">MR_PointCloudRelaxParams_AssignFromAnother</a> (<a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> *_this, const <a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> *_other)</td></tr>
 <tr class="separator:a9e28577b3ec9b26e2adef3effb1b105e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aef742ac7bd70fa90d91fec9025e8d375" id="r_aef742ac7bd70fa90d91fec9025e8d375"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef742ac7bd70fa90d91fec9025e8d375">MR_relax_3_MR_PointCloud</a> (<a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *pointCloud, const <a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> *params, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> cb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="memitem:aef742ac7bd70fa90d91fec9025e8d375" id="r_aef742ac7bd70fa90d91fec9025e8d375"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef742ac7bd70fa90d91fec9025e8d375">MR_relax_3_MR_PointCloud</a> (<a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *pointCloud, const <a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> *params, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> cb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
 <tr class="separator:aef742ac7bd70fa90d91fec9025e8d375"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f73122d5fe8b71d808f59bba8bcd17a" id="r_a8f73122d5fe8b71d808f59bba8bcd17a"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f73122d5fe8b71d808f59bba8bcd17a">MR_relaxKeepVolume_3_MR_PointCloud</a> (<a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *pointCloud, const <a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> *params, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> cb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="memitem:a8f73122d5fe8b71d808f59bba8bcd17a" id="r_a8f73122d5fe8b71d808f59bba8bcd17a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f73122d5fe8b71d808f59bba8bcd17a">MR_relaxKeepVolume_3_MR_PointCloud</a> (<a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *pointCloud, const <a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> *params, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> cb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
 <tr class="separator:a8f73122d5fe8b71d808f59bba8bcd17a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe2f37beb5f943a3d7f14bcc80a64f9c" id="r_afe2f37beb5f943a3d7f14bcc80a64f9c"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRRelaxParams_8h.html#ad9afe6f617031f8762108430bbdebd3f">MR_RelaxApproxType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe2f37beb5f943a3d7f14bcc80a64f9c">MR_PointCloudApproxRelaxParams_Get_type</a> (const <a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> *_this)</td></tr>
+<tr class="memitem:afe2f37beb5f943a3d7f14bcc80a64f9c" id="r_afe2f37beb5f943a3d7f14bcc80a64f9c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRRelaxParams_8h.html#ad9afe6f617031f8762108430bbdebd3f">MR_RelaxApproxType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe2f37beb5f943a3d7f14bcc80a64f9c">MR_PointCloudApproxRelaxParams_Get_type</a> (const <a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> *_this)</td></tr>
 <tr class="separator:afe2f37beb5f943a3d7f14bcc80a64f9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0742100658434c4bd73ac3ba6f466503" id="r_a0742100658434c4bd73ac3ba6f466503"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0742100658434c4bd73ac3ba6f466503">MR_PointCloudApproxRelaxParams_Set_type</a> (<a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> *_this, <a class="el" href="MRRelaxParams_8h.html#ad9afe6f617031f8762108430bbdebd3f">MR_RelaxApproxType</a> value)</td></tr>
+<tr class="memitem:a0742100658434c4bd73ac3ba6f466503" id="r_a0742100658434c4bd73ac3ba6f466503"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0742100658434c4bd73ac3ba6f466503">MR_PointCloudApproxRelaxParams_Set_type</a> (<a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> *_this, <a class="el" href="MRRelaxParams_8h.html#ad9afe6f617031f8762108430bbdebd3f">MR_RelaxApproxType</a> value)</td></tr>
 <tr class="separator:a0742100658434c4bd73ac3ba6f466503"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af9b5e5cbe61e4c019f2b7115abb47947" id="r_af9b5e5cbe61e4c019f2b7115abb47947"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRRelaxParams_8h.html#ad9afe6f617031f8762108430bbdebd3f">MR_RelaxApproxType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9b5e5cbe61e4c019f2b7115abb47947">MR_PointCloudApproxRelaxParams_GetMutable_type</a> (<a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> *_this)</td></tr>
+<tr class="memitem:af9b5e5cbe61e4c019f2b7115abb47947" id="r_af9b5e5cbe61e4c019f2b7115abb47947"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRRelaxParams_8h.html#ad9afe6f617031f8762108430bbdebd3f">MR_RelaxApproxType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9b5e5cbe61e4c019f2b7115abb47947">MR_PointCloudApproxRelaxParams_GetMutable_type</a> (<a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> *_this)</td></tr>
 <tr class="separator:af9b5e5cbe61e4c019f2b7115abb47947"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af7ef368d7cbe6f432163b430eb090b7f" id="r_af7ef368d7cbe6f432163b430eb090b7f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7ef368d7cbe6f432163b430eb090b7f">MR_PointCloudApproxRelaxParams_DefaultConstruct</a> (void)</td></tr>
+<tr class="memitem:af7ef368d7cbe6f432163b430eb090b7f" id="r_af7ef368d7cbe6f432163b430eb090b7f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7ef368d7cbe6f432163b430eb090b7f">MR_PointCloudApproxRelaxParams_DefaultConstruct</a> (void)</td></tr>
 <tr class="separator:af7ef368d7cbe6f432163b430eb090b7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf72b82a06d86ce38e222e7a393b7b84" id="r_adf72b82a06d86ce38e222e7a393b7b84"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf72b82a06d86ce38e222e7a393b7b84">MR_PointCloudApproxRelaxParams_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="memitem:adf72b82a06d86ce38e222e7a393b7b84" id="r_adf72b82a06d86ce38e222e7a393b7b84"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf72b82a06d86ce38e222e7a393b7b84">MR_PointCloudApproxRelaxParams_DefaultConstructArray</a> (size_t num_elems)</td></tr>
 <tr class="separator:adf72b82a06d86ce38e222e7a393b7b84"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a61f27c8cf51f9f1ddcdafb930f9463e1" id="r_a61f27c8cf51f9f1ddcdafb930f9463e1"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a61f27c8cf51f9f1ddcdafb930f9463e1">MR_PointCloudApproxRelaxParams_OffsetPtr</a> (const <a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a61f27c8cf51f9f1ddcdafb930f9463e1" id="r_a61f27c8cf51f9f1ddcdafb930f9463e1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a61f27c8cf51f9f1ddcdafb930f9463e1">MR_PointCloudApproxRelaxParams_OffsetPtr</a> (const <a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a61f27c8cf51f9f1ddcdafb930f9463e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a61f27c8cf51f9f1ddcdafb930f9463e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf7308c41d21293c49f39164a7bffbdc" id="r_adf7308c41d21293c49f39164a7bffbdc"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf7308c41d21293c49f39164a7bffbdc">MR_PointCloudApproxRelaxParams_OffsetMutablePtr</a> (<a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:adf7308c41d21293c49f39164a7bffbdc" id="r_adf7308c41d21293c49f39164a7bffbdc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf7308c41d21293c49f39164a7bffbdc">MR_PointCloudApproxRelaxParams_OffsetMutablePtr</a> (<a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:adf7308c41d21293c49f39164a7bffbdc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:adf7308c41d21293c49f39164a7bffbdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af75164cf8b84c9b67e6393fac752393b" id="r_af75164cf8b84c9b67e6393fac752393b"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af75164cf8b84c9b67e6393fac752393b">MR_PointCloudApproxRelaxParams_UpcastTo_MR_PointCloudRelaxParams</a> (const <a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> *object)</td></tr>
+<tr class="memitem:af75164cf8b84c9b67e6393fac752393b" id="r_af75164cf8b84c9b67e6393fac752393b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af75164cf8b84c9b67e6393fac752393b">MR_PointCloudApproxRelaxParams_UpcastTo_MR_PointCloudRelaxParams</a> (const <a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> *object)</td></tr>
 <tr class="separator:af75164cf8b84c9b67e6393fac752393b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d6ca2ac885d349044e12b54ce278499" id="r_a2d6ca2ac885d349044e12b54ce278499"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d6ca2ac885d349044e12b54ce278499">MR_PointCloudApproxRelaxParams_MutableUpcastTo_MR_PointCloudRelaxParams</a> (<a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> *object)</td></tr>
+<tr class="memitem:a2d6ca2ac885d349044e12b54ce278499" id="r_a2d6ca2ac885d349044e12b54ce278499"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d6ca2ac885d349044e12b54ce278499">MR_PointCloudApproxRelaxParams_MutableUpcastTo_MR_PointCloudRelaxParams</a> (<a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> *object)</td></tr>
 <tr class="memdesc:a2d6ca2ac885d349044e12b54ce278499"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upcasts an instance of <code><a class="elRef" href="../Cpp/structMR_1_1PointCloudApproxRelaxParams.html">MR::PointCloudApproxRelaxParams</a></code> to its base class <code><a class="elRef" href="../Cpp/structMR_1_1PointCloudRelaxParams.html">MR::PointCloudRelaxParams</a></code>.  <br /></td></tr>
 <tr class="separator:a2d6ca2ac885d349044e12b54ce278499"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adcbc92c7d8f78695c65a4d453ade4778" id="r_adcbc92c7d8f78695c65a4d453ade4778"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adcbc92c7d8f78695c65a4d453ade4778">MR_PointCloudApproxRelaxParams_UpcastTo_MR_RelaxParams</a> (const <a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> *object)</td></tr>
+<tr class="memitem:adcbc92c7d8f78695c65a4d453ade4778" id="r_adcbc92c7d8f78695c65a4d453ade4778"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adcbc92c7d8f78695c65a4d453ade4778">MR_PointCloudApproxRelaxParams_UpcastTo_MR_RelaxParams</a> (const <a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> *object)</td></tr>
 <tr class="separator:adcbc92c7d8f78695c65a4d453ade4778"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1fed44aea8807cf705cf6703c1203a65" id="r_a1fed44aea8807cf705cf6703c1203a65"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1fed44aea8807cf705cf6703c1203a65">MR_PointCloudApproxRelaxParams_MutableUpcastTo_MR_RelaxParams</a> (<a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> *object)</td></tr>
+<tr class="memitem:a1fed44aea8807cf705cf6703c1203a65" id="r_a1fed44aea8807cf705cf6703c1203a65"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1fed44aea8807cf705cf6703c1203a65">MR_PointCloudApproxRelaxParams_MutableUpcastTo_MR_RelaxParams</a> (<a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> *object)</td></tr>
 <tr class="memdesc:a1fed44aea8807cf705cf6703c1203a65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upcasts an instance of <code><a class="elRef" href="../Cpp/structMR_1_1PointCloudApproxRelaxParams.html">MR::PointCloudApproxRelaxParams</a></code> to its base class <code><a class="elRef" href="../Cpp/structMR_1_1RelaxParams.html">MR::RelaxParams</a></code>.  <br /></td></tr>
 <tr class="separator:a1fed44aea8807cf705cf6703c1203a65"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb2f74949db9d2ad1a0461e7ad2bfbdf" id="r_abb2f74949db9d2ad1a0461e7ad2bfbdf"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abb2f74949db9d2ad1a0461e7ad2bfbdf">MR_PointCloudApproxRelaxParams_ConstructFromAnother</a> (const <a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> *_other)</td></tr>
+<tr class="memitem:abb2f74949db9d2ad1a0461e7ad2bfbdf" id="r_abb2f74949db9d2ad1a0461e7ad2bfbdf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abb2f74949db9d2ad1a0461e7ad2bfbdf">MR_PointCloudApproxRelaxParams_ConstructFromAnother</a> (const <a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> *_other)</td></tr>
 <tr class="separator:abb2f74949db9d2ad1a0461e7ad2bfbdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afeb20f852d996b16a21c290b4218f0aa" id="r_afeb20f852d996b16a21c290b4218f0aa"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afeb20f852d996b16a21c290b4218f0aa">MR_PointCloudApproxRelaxParams_Destroy</a> (const <a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> *_this)</td></tr>
+<tr class="memitem:afeb20f852d996b16a21c290b4218f0aa" id="r_afeb20f852d996b16a21c290b4218f0aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afeb20f852d996b16a21c290b4218f0aa">MR_PointCloudApproxRelaxParams_Destroy</a> (const <a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> *_this)</td></tr>
 <tr class="memdesc:afeb20f852d996b16a21c290b4218f0aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_PointCloudApproxRelaxParams</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:afeb20f852d996b16a21c290b4218f0aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50fa4ed90fa7bab39a239b32c0a2dc5e" id="r_a50fa4ed90fa7bab39a239b32c0a2dc5e"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50fa4ed90fa7bab39a239b32c0a2dc5e">MR_PointCloudApproxRelaxParams_DestroyArray</a> (const <a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> *_this)</td></tr>
+<tr class="memitem:a50fa4ed90fa7bab39a239b32c0a2dc5e" id="r_a50fa4ed90fa7bab39a239b32c0a2dc5e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50fa4ed90fa7bab39a239b32c0a2dc5e">MR_PointCloudApproxRelaxParams_DestroyArray</a> (const <a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> *_this)</td></tr>
 <tr class="memdesc:a50fa4ed90fa7bab39a239b32c0a2dc5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_PointCloudApproxRelaxParams</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:a50fa4ed90fa7bab39a239b32c0a2dc5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad489daac054fd874f4ad5ef8e16b45f1" id="r_ad489daac054fd874f4ad5ef8e16b45f1"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad489daac054fd874f4ad5ef8e16b45f1">MR_PointCloudApproxRelaxParams_AssignFromAnother</a> (<a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> *_this, const <a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> *_other)</td></tr>
+<tr class="memitem:ad489daac054fd874f4ad5ef8e16b45f1" id="r_ad489daac054fd874f4ad5ef8e16b45f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad489daac054fd874f4ad5ef8e16b45f1">MR_PointCloudApproxRelaxParams_AssignFromAnother</a> (<a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> *_this, const <a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> *_other)</td></tr>
 <tr class="separator:ad489daac054fd874f4ad5ef8e16b45f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19fa4189c34f19fa6e45560edb134663" id="r_a19fa4189c34f19fa6e45560edb134663"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a19fa4189c34f19fa6e45560edb134663">MR_relaxApprox_3_MR_PointCloud</a> (<a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *pointCloud, const <a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> *params, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> cb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="memitem:a19fa4189c34f19fa6e45560edb134663" id="r_a19fa4189c34f19fa6e45560edb134663"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a19fa4189c34f19fa6e45560edb134663">MR_relaxApprox_3_MR_PointCloud</a> (<a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *pointCloud, const <a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> *params, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> cb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
 <tr class="separator:a19fa4189c34f19fa6e45560edb134663"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -339,7 +333,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> * MR_PointCloudApproxRelaxParams_AssignFromAnother </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> * MR_PointCloudApproxRelaxParams_AssignFromAnother </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -361,7 +355,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> * MR_PointCloudApproxRelaxParams_ConstructFromAnother </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> * MR_PointCloudApproxRelaxParams_ConstructFromAnother </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
           <td></td>
@@ -379,7 +373,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> * MR_PointCloudApproxRelaxParams_DefaultConstruct </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> * MR_PointCloudApproxRelaxParams_DefaultConstruct </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -397,7 +391,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> * MR_PointCloudApproxRelaxParams_DefaultConstructArray </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> * MR_PointCloudApproxRelaxParams_DefaultConstructArray </td>
           <td>(</td>
           <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
           <td></td>
@@ -415,7 +409,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_PointCloudApproxRelaxParams_Destroy </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PointCloudApproxRelaxParams_Destroy </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -434,7 +428,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_PointCloudApproxRelaxParams_DestroyArray </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PointCloudApproxRelaxParams_DestroyArray </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -453,7 +447,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="MRRelaxParams_8h.html#ad9afe6f617031f8762108430bbdebd3f">MR_RelaxApproxType</a> * MR_PointCloudApproxRelaxParams_Get_type </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRRelaxParams_8h.html#ad9afe6f617031f8762108430bbdebd3f">MR_RelaxApproxType</a> * MR_PointCloudApproxRelaxParams_Get_type </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -471,7 +465,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRRelaxParams_8h.html#ad9afe6f617031f8762108430bbdebd3f">MR_RelaxApproxType</a> * MR_PointCloudApproxRelaxParams_GetMutable_type </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRRelaxParams_8h.html#ad9afe6f617031f8762108430bbdebd3f">MR_RelaxApproxType</a> * MR_PointCloudApproxRelaxParams_GetMutable_type </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -489,7 +483,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> * MR_PointCloudApproxRelaxParams_MutableUpcastTo_MR_PointCloudRelaxParams </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> * MR_PointCloudApproxRelaxParams_MutableUpcastTo_MR_PointCloudRelaxParams </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
           <td></td>
@@ -508,7 +502,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> * MR_PointCloudApproxRelaxParams_MutableUpcastTo_MR_RelaxParams </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> * MR_PointCloudApproxRelaxParams_MutableUpcastTo_MR_RelaxParams </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
           <td></td>
@@ -527,7 +521,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> * MR_PointCloudApproxRelaxParams_OffsetMutablePtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> * MR_PointCloudApproxRelaxParams_OffsetMutablePtr </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -550,7 +544,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> * MR_PointCloudApproxRelaxParams_OffsetPtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> * MR_PointCloudApproxRelaxParams_OffsetPtr </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -573,7 +567,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_PointCloudApproxRelaxParams_Set_type </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PointCloudApproxRelaxParams_Set_type </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -595,7 +589,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> * MR_PointCloudApproxRelaxParams_UpcastTo_MR_PointCloudRelaxParams </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> * MR_PointCloudApproxRelaxParams_UpcastTo_MR_PointCloudRelaxParams </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
           <td></td>
@@ -613,7 +607,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> * MR_PointCloudApproxRelaxParams_UpcastTo_MR_RelaxParams </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> * MR_PointCloudApproxRelaxParams_UpcastTo_MR_RelaxParams </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
           <td></td>
@@ -631,7 +625,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> * MR_PointCloudRelaxParams_AssignFromAnother </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> * MR_PointCloudRelaxParams_AssignFromAnother </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -653,7 +647,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> * MR_PointCloudRelaxParams_ConstructFromAnother </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> * MR_PointCloudRelaxParams_ConstructFromAnother </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
           <td></td>
@@ -671,7 +665,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> * MR_PointCloudRelaxParams_DefaultConstruct </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> * MR_PointCloudRelaxParams_DefaultConstruct </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -689,7 +683,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> * MR_PointCloudRelaxParams_DefaultConstructArray </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> * MR_PointCloudRelaxParams_DefaultConstructArray </td>
           <td>(</td>
           <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
           <td></td>
@@ -707,7 +701,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_PointCloudRelaxParams_Destroy </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PointCloudRelaxParams_Destroy </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -726,7 +720,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_PointCloudRelaxParams_DestroyArray </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PointCloudRelaxParams_DestroyArray </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -745,7 +739,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const float * MR_PointCloudRelaxParams_Get_neighborhoodRadius </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float * MR_PointCloudRelaxParams_Get_neighborhoodRadius </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -763,7 +757,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API float * MR_PointCloudRelaxParams_GetMutable_neighborhoodRadius </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float * MR_PointCloudRelaxParams_GetMutable_neighborhoodRadius </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -781,7 +775,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> * MR_PointCloudRelaxParams_MutableStaticDowncastTo_MR_PointCloudApproxRelaxParams </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> * MR_PointCloudRelaxParams_MutableStaticDowncastTo_MR_PointCloudApproxRelaxParams </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
           <td></td>
@@ -799,7 +793,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> * MR_PointCloudRelaxParams_MutableUpcastTo_MR_RelaxParams </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> * MR_PointCloudRelaxParams_MutableUpcastTo_MR_RelaxParams </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
           <td></td>
@@ -818,7 +812,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> * MR_PointCloudRelaxParams_OffsetMutablePtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> * MR_PointCloudRelaxParams_OffsetMutablePtr </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -841,7 +835,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> * MR_PointCloudRelaxParams_OffsetPtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> * MR_PointCloudRelaxParams_OffsetPtr </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -864,7 +858,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_PointCloudRelaxParams_Set_neighborhoodRadius </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PointCloudRelaxParams_Set_neighborhoodRadius </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -886,7 +880,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> * MR_PointCloudRelaxParams_StaticDowncastTo_MR_PointCloudApproxRelaxParams </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a576d261d78807ab4a67d7c0977066804">MR_PointCloudApproxRelaxParams</a> * MR_PointCloudRelaxParams_StaticDowncastTo_MR_PointCloudApproxRelaxParams </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
           <td></td>
@@ -904,7 +898,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> * MR_PointCloudRelaxParams_UpcastTo_MR_RelaxParams </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> * MR_PointCloudRelaxParams_UpcastTo_MR_RelaxParams </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a957799ae79eb3501ff98b4a3c3781bc0">MR_PointCloudRelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
           <td></td>
@@ -922,7 +916,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API bool MR_relax_3_MR_PointCloud </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_relax_3_MR_PointCloud </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>pointCloud</em></span>, </td>
         </tr>
@@ -954,7 +948,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API bool MR_relaxApprox_3_MR_PointCloud </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_relaxApprox_3_MR_PointCloud </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>pointCloud</em></span>, </td>
         </tr>
@@ -986,7 +980,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API bool MR_relaxKeepVolume_3_MR_PointCloud </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_relaxKeepVolume_3_MR_PointCloud </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>pointCloud</em></span>, </td>
         </tr>

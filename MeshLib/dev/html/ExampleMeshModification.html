@@ -14,12 +14,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -171,12 +165,12 @@ $(function(){initNavTree('ExampleMeshModification.html',''); initResizable(true)
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Subdivide mesh</span></div>
 <div class="line">    <a class="code hl_structRef" href="./Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a> props;</div>
-<div class="line">    props.maxDeviationAfterFlip = 0.5f;</div>
+<div class="line">    props.<a class="code hl_variableRef" href="./Cpp/structMR_1_1SubdivideSettings.html#adf497f2181525852eaeee09ce71fb476">maxDeviationAfterFlip</a> = 0.5f;</div>
 <div class="line">    <a class="code hl_functionRef" href="./Cpp/group__MeshSubdivideGroup.html#ga8e8a41112544b99ef8f20e3e6b61fab7">MR::subdivideMesh</a>( mesh, props );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Rotate mesh</span></div>
 <div class="line">    MR::AffineXf3f rotationXf = MR::AffineXf3f::linear( MR::Matrix3f::rotation( MR::Vector3f::plusZ(), MR::PI_F * 0.5f ) );</div>
-<div class="line">    mesh.transform( rotationXf );</div>
+<div class="line">    mesh.<a class="code hl_functionRef" href="./Cpp/structMR_1_1Mesh.html#a9295908f703adbacd9b9b8f900b85f7d">transform</a>( rotationXf );</div>
 <div class="line"> </div>
 <div class="line">    <span class="keywordflow">return</span> 0;</div>
 <div class="line">}</div>
@@ -186,7 +180,9 @@ $(function(){initNavTree('ExampleMeshModification.html',''); initResizable(true)
 <div class="ttc" id="agroup__MeshSubdivideGroup_html_ga8e8a41112544b99ef8f20e3e6b61fab7"><div class="ttname"><a href="./Cpp/group__MeshSubdivideGroup.html#ga8e8a41112544b99ef8f20e3e6b61fab7">MR::subdivideMesh</a></div><div class="ttdeci">MRMESH_API int subdivideMesh(Mesh &amp;mesh, const SubdivideSettings &amp;settings={})</div></div>
 <div class="ttc" id="anamespaceMR_html_a9c4abf9ec20745c55a6825637894668c"><div class="ttname"><a href="./Cpp/namespaceMR.html#a9c4abf9ec20745c55a6825637894668c">MR::makeTorus</a></div><div class="ttdeci">MRMESH_API Mesh makeTorus(float primaryRadius=1.0f, float secondaryRadius=0.1f, int primaryResolution=16, int secondaryResolution=16, std::vector&lt; Vector3f &gt; *points=nullptr)</div></div>
 <div class="ttc" id="astructMR_1_1Mesh_html"><div class="ttname"><a href="./Cpp/structMR_1_1Mesh.html">MR::Mesh</a></div></div>
+<div class="ttc" id="astructMR_1_1Mesh_html_a9295908f703adbacd9b9b8f900b85f7d"><div class="ttname"><a href="./Cpp/structMR_1_1Mesh.html#a9295908f703adbacd9b9b8f900b85f7d">MR::Mesh::transform</a></div><div class="ttdeci">MRMESH_API void transform(const AffineXf3f &amp;xf, const VertBitSet *region=nullptr)</div></div>
 <div class="ttc" id="astructMR_1_1SubdivideSettings_html"><div class="ttname"><a href="./Cpp/structMR_1_1SubdivideSettings.html">MR::SubdivideSettings</a></div></div>
+<div class="ttc" id="astructMR_1_1SubdivideSettings_html_adf497f2181525852eaeee09ce71fb476"><div class="ttname"><a href="./Cpp/structMR_1_1SubdivideSettings.html#adf497f2181525852eaeee09ce71fb476">MR::SubdivideSettings::maxDeviationAfterFlip</a></div><div class="ttdeci">float maxDeviationAfterFlip</div></div>
 </div><!-- fragment --></li>
 <li><b class="tab-title">Python</b> <div class="fragment"><div class="line"><span class="keyword">import</span> math</div>
 <div class="line"> </div>

@@ -14,12 +14,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -159,7 +153,7 @@ $(function(){initNavTree('MRMeshCollide_8h.html',''); initResizable(true); });
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="MRId_8h_source.html">MRCMesh/MRId.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
-<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 </div>
 <p><a href="MRMeshCollide_8h_source.html">Go to the source code of this file.</a></p>
@@ -189,24 +183,24 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ab422b73d45c4fe9bf3b79eb5a9cb00b3" id="r_ab422b73d45c4fe9bf3b79eb5a9cb00b3"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a43987a7ef95446878c91e59b0ef55b11">MR_std_vector_MR_FaceFace</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab422b73d45c4fe9bf3b79eb5a9cb00b3">MR_findCollidingTriangles</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *a, const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *b, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *rigidB2A, const bool *firstIntersectionOnly)</td></tr>
+<tr class="memitem:ab422b73d45c4fe9bf3b79eb5a9cb00b3" id="r_ab422b73d45c4fe9bf3b79eb5a9cb00b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a43987a7ef95446878c91e59b0ef55b11">MR_std_vector_MR_FaceFace</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab422b73d45c4fe9bf3b79eb5a9cb00b3">MR_findCollidingTriangles</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *a, const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *b, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *rigidB2A, const bool *firstIntersectionOnly)</td></tr>
 <tr class="memdesc:ab422b73d45c4fe9bf3b79eb5a9cb00b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all pairs of colliding triangles from two meshes or two mesh regions  <br /></td></tr>
 <tr class="separator:ab422b73d45c4fe9bf3b79eb5a9cb00b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7b06d1e1a64adfa8b6b48ea296e99b6" id="r_aa7b06d1e1a64adfa8b6b48ea296e99b6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a8ceedec9dcad3f944edabd2d4d228de7">MR_std_pair_MR_FaceBitSet_MR_FaceBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7b06d1e1a64adfa8b6b48ea296e99b6">MR_findCollidingTriangleBitsets</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *a, const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *b, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *rigidB2A)</td></tr>
+<tr class="memitem:aa7b06d1e1a64adfa8b6b48ea296e99b6" id="r_aa7b06d1e1a64adfa8b6b48ea296e99b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a8ceedec9dcad3f944edabd2d4d228de7">MR_std_pair_MR_FaceBitSet_MR_FaceBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7b06d1e1a64adfa8b6b48ea296e99b6">MR_findCollidingTriangleBitsets</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *a, const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *b, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *rigidB2A)</td></tr>
 <tr class="separator:aa7b06d1e1a64adfa8b6b48ea296e99b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aefa424ca584afedf141f855fcd9fa230" id="r_aefa424ca584afedf141f855fcd9fa230"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a74aaa8804e7ff506aeb3bda836914375">MR_expected_bool_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefa424ca584afedf141f855fcd9fa230">MR_findSelfCollidingTriangles_5</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp, <a class="el" href="#a43987a7ef95446878c91e59b0ef55b11">MR_std_vector_MR_FaceFace</a> *outCollidingPairs, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> cb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb, const <a class="el" href="#a241ebc5168b85254384f769ec1b1268e">MR_Face2RegionMap</a> *regionMap, const bool *touchIsIntersection)</td></tr>
+<tr class="memitem:aefa424ca584afedf141f855fcd9fa230" id="r_aefa424ca584afedf141f855fcd9fa230"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a74aaa8804e7ff506aeb3bda836914375">MR_expected_bool_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefa424ca584afedf141f855fcd9fa230">MR_findSelfCollidingTriangles_5</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp, <a class="el" href="#a43987a7ef95446878c91e59b0ef55b11">MR_std_vector_MR_FaceFace</a> *outCollidingPairs, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> cb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb, const <a class="el" href="#a241ebc5168b85254384f769ec1b1268e">MR_Face2RegionMap</a> *regionMap, const bool *touchIsIntersection)</td></tr>
 <tr class="separator:aefa424ca584afedf141f855fcd9fa230"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b90515fa812a00dd5d452f203d71f93" id="r_a8b90515fa812a00dd5d452f203d71f93"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aba9a9797e256d419b82e9ab4886546fd">MR_expected_std_vector_MR_FaceFace_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b90515fa812a00dd5d452f203d71f93">MR_findSelfCollidingTriangles_4</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> cb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb, const <a class="el" href="#a241ebc5168b85254384f769ec1b1268e">MR_Face2RegionMap</a> *regionMap, const bool *touchIsIntersection)</td></tr>
+<tr class="memitem:a8b90515fa812a00dd5d452f203d71f93" id="r_a8b90515fa812a00dd5d452f203d71f93"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aba9a9797e256d419b82e9ab4886546fd">MR_expected_std_vector_MR_FaceFace_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b90515fa812a00dd5d452f203d71f93">MR_findSelfCollidingTriangles_4</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> cb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb, const <a class="el" href="#a241ebc5168b85254384f769ec1b1268e">MR_Face2RegionMap</a> *regionMap, const bool *touchIsIntersection)</td></tr>
 <tr class="separator:a8b90515fa812a00dd5d452f203d71f93"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1bd4cde4068f4ce4618340a485a2c489" id="r_a1bd4cde4068f4ce4618340a485a2c489"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRContoursCut_8h.html#a6aeecd4fac2aea90513510421de3f37b">MR_expected_MR_FaceBitSet_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1bd4cde4068f4ce4618340a485a2c489">MR_findSelfCollidingTrianglesBS</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> cb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb, const <a class="el" href="#a241ebc5168b85254384f769ec1b1268e">MR_Face2RegionMap</a> *regionMap, const bool *touchIsIntersection)</td></tr>
+<tr class="memitem:a1bd4cde4068f4ce4618340a485a2c489" id="r_a1bd4cde4068f4ce4618340a485a2c489"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRContoursCut_8h.html#a6aeecd4fac2aea90513510421de3f37b">MR_expected_MR_FaceBitSet_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1bd4cde4068f4ce4618340a485a2c489">MR_findSelfCollidingTrianglesBS</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> cb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb, const <a class="el" href="#a241ebc5168b85254384f769ec1b1268e">MR_Face2RegionMap</a> *regionMap, const bool *touchIsIntersection)</td></tr>
 <tr class="separator:a1bd4cde4068f4ce4618340a485a2c489"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9766f52c9e9744a6666ce071a457546c" id="r_a9766f52c9e9744a6666ce071a457546c"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9766f52c9e9744a6666ce071a457546c">MR_isInside_MR_MeshPart</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *a, const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *b, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *rigidB2A)</td></tr>
+<tr class="memitem:a9766f52c9e9744a6666ce071a457546c" id="r_a9766f52c9e9744a6666ce071a457546c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9766f52c9e9744a6666ce071a457546c">MR_isInside_MR_MeshPart</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *a, const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *b, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *rigidB2A)</td></tr>
 <tr class="memdesc:a9766f52c9e9744a6666ce071a457546c"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks that arbitrary mesh part A is inside of closed mesh part B  <br /></td></tr>
 <tr class="separator:a9766f52c9e9744a6666ce071a457546c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c1aab7670608e4f81e3be519d7f0c4f" id="r_a2c1aab7670608e4f81e3be519d7f0c4f"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c1aab7670608e4f81e3be519d7f0c4f">MR_isNonIntersectingInside_3</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *a, const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *b, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *rigidB2A)</td></tr>
+<tr class="memitem:a2c1aab7670608e4f81e3be519d7f0c4f" id="r_a2c1aab7670608e4f81e3be519d7f0c4f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c1aab7670608e4f81e3be519d7f0c4f">MR_isNonIntersectingInside_3</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *a, const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *b, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *rigidB2A)</td></tr>
 <tr class="memdesc:a2c1aab7670608e4f81e3be519d7f0c4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks that arbitrary mesh part A is inside of closed mesh part B The version of <code>isInside</code> without collision check; it is user's responsibility to guarantee that the meshes don't collide  <br /></td></tr>
 <tr class="separator:a2c1aab7670608e4f81e3be519d7f0c4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf362c364519ae7b7d3f396c11f1c244" id="r_aaf362c364519ae7b7d3f396c11f1c244"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf362c364519ae7b7d3f396c11f1c244">MR_isNonIntersectingInside_4</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *a, <a class="el" href="structMR__FaceId.html">MR_FaceId</a> partFace, const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *b, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *rigidB2A)</td></tr>
+<tr class="memitem:aaf362c364519ae7b7d3f396c11f1c244" id="r_aaf362c364519ae7b7d3f396c11f1c244"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf362c364519ae7b7d3f396c11f1c244">MR_isNonIntersectingInside_4</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *a, <a class="el" href="structMR__FaceId.html">MR_FaceId</a> partFace, const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *b, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *rigidB2A)</td></tr>
 <tr class="memdesc:aaf362c364519ae7b7d3f396c11f1c244"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks that arbitrary mesh A part (whole part is represented by one face <code>partFace</code>) is inside of closed mesh part B The version of <code>isInside</code> without collision check; it is user's responsibility to guarantee that the meshes don't collide  <br /></td></tr>
 <tr class="separator:aaf362c364519ae7b7d3f396c11f1c244"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -359,7 +353,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a8ceedec9dcad3f944edabd2d4d228de7">MR_std_pair_MR_FaceBitSet_MR_FaceBitSet</a> * MR_findCollidingTriangleBitsets </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a8ceedec9dcad3f944edabd2d4d228de7">MR_std_pair_MR_FaceBitSet_MR_FaceBitSet</a> * MR_findCollidingTriangleBitsets </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
@@ -386,7 +380,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a43987a7ef95446878c91e59b0ef55b11">MR_std_vector_MR_FaceFace</a> * MR_findCollidingTriangles </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a43987a7ef95446878c91e59b0ef55b11">MR_std_vector_MR_FaceFace</a> * MR_findCollidingTriangles </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
@@ -426,7 +420,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#aba9a9797e256d419b82e9ab4886546fd">MR_expected_std_vector_MR_FaceFace_std_string</a> * MR_findSelfCollidingTriangles_4 </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aba9a9797e256d419b82e9ab4886546fd">MR_expected_std_vector_MR_FaceFace_std_string</a> * MR_findSelfCollidingTriangles_4 </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *</td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
         </tr>
@@ -463,7 +457,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a74aaa8804e7ff506aeb3bda836914375">MR_expected_bool_std_string</a> * MR_findSelfCollidingTriangles_5 </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a74aaa8804e7ff506aeb3bda836914375">MR_expected_bool_std_string</a> * MR_findSelfCollidingTriangles_5 </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *</td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
         </tr>
@@ -505,7 +499,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRContoursCut_8h.html#a6aeecd4fac2aea90513510421de3f37b">MR_expected_MR_FaceBitSet_std_string</a> * MR_findSelfCollidingTrianglesBS </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRContoursCut_8h.html#a6aeecd4fac2aea90513510421de3f37b">MR_expected_MR_FaceBitSet_std_string</a> * MR_findSelfCollidingTrianglesBS </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *</td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
         </tr>
@@ -542,7 +536,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API bool MR_isInside_MR_MeshPart </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_isInside_MR_MeshPart </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
@@ -576,7 +570,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API bool MR_isNonIntersectingInside_3 </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_isNonIntersectingInside_3 </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
@@ -610,7 +604,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API bool MR_isNonIntersectingInside_4 </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_isNonIntersectingInside_4 </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>

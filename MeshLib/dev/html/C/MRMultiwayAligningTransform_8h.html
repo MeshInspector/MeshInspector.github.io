@@ -14,12 +14,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -158,7 +152,7 @@ $(function(){initNavTree('MRMultiwayAligningTransform_8h.html',''); initResizabl
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
-<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
 <code>#include &lt;stdint.h&gt;</code><br />
 </div>
@@ -179,77 +173,77 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a52808f79da78dfb0eea61d18596c584b" id="r_a52808f79da78dfb0eea61d18596c584b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52808f79da78dfb0eea61d18596c584b">MR_MultiwayAligningTransform_DefaultConstruct</a> (void)</td></tr>
+<tr class="memitem:a52808f79da78dfb0eea61d18596c584b" id="r_a52808f79da78dfb0eea61d18596c584b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52808f79da78dfb0eea61d18596c584b">MR_MultiwayAligningTransform_DefaultConstruct</a> (void)</td></tr>
 <tr class="separator:a52808f79da78dfb0eea61d18596c584b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa2dfb464f210ad9303186c652233427f" id="r_aa2dfb464f210ad9303186c652233427f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2dfb464f210ad9303186c652233427f">MR_MultiwayAligningTransform_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="memitem:aa2dfb464f210ad9303186c652233427f" id="r_aa2dfb464f210ad9303186c652233427f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2dfb464f210ad9303186c652233427f">MR_MultiwayAligningTransform_DefaultConstructArray</a> (size_t num_elems)</td></tr>
 <tr class="separator:aa2dfb464f210ad9303186c652233427f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a465405e8d3c9a65cf41fa3c59c2c1d92" id="r_a465405e8d3c9a65cf41fa3c59c2c1d92"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a465405e8d3c9a65cf41fa3c59c2c1d92">MR_MultiwayAligningTransform_OffsetPtr</a> (const <a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a465405e8d3c9a65cf41fa3c59c2c1d92" id="r_a465405e8d3c9a65cf41fa3c59c2c1d92"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a465405e8d3c9a65cf41fa3c59c2c1d92">MR_MultiwayAligningTransform_OffsetPtr</a> (const <a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a465405e8d3c9a65cf41fa3c59c2c1d92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a465405e8d3c9a65cf41fa3c59c2c1d92"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a416b6faa8d79ad2886ea1703dc8d99" id="r_a7a416b6faa8d79ad2886ea1703dc8d99"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a416b6faa8d79ad2886ea1703dc8d99">MR_MultiwayAligningTransform_OffsetMutablePtr</a> (<a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a7a416b6faa8d79ad2886ea1703dc8d99" id="r_a7a416b6faa8d79ad2886ea1703dc8d99"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a416b6faa8d79ad2886ea1703dc8d99">MR_MultiwayAligningTransform_OffsetMutablePtr</a> (<a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a7a416b6faa8d79ad2886ea1703dc8d99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a7a416b6faa8d79ad2886ea1703dc8d99"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f805cf4fbcb145b564086e0d7d4b8a3" id="r_a7f805cf4fbcb145b564086e0d7d4b8a3"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f805cf4fbcb145b564086e0d7d4b8a3">MR_MultiwayAligningTransform_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> *_other)</td></tr>
+<tr class="memitem:a7f805cf4fbcb145b564086e0d7d4b8a3" id="r_a7f805cf4fbcb145b564086e0d7d4b8a3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f805cf4fbcb145b564086e0d7d4b8a3">MR_MultiwayAligningTransform_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> *_other)</td></tr>
 <tr class="separator:a7f805cf4fbcb145b564086e0d7d4b8a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f85a6c0cb513cee0edd3a944d9a1fc2" id="r_a7f85a6c0cb513cee0edd3a944d9a1fc2"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f85a6c0cb513cee0edd3a944d9a1fc2">MR_MultiwayAligningTransform_Construct</a> (int32_t numObjs)</td></tr>
+<tr class="memitem:a7f85a6c0cb513cee0edd3a944d9a1fc2" id="r_a7f85a6c0cb513cee0edd3a944d9a1fc2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f85a6c0cb513cee0edd3a944d9a1fc2">MR_MultiwayAligningTransform_Construct</a> (int32_t numObjs)</td></tr>
 <tr class="separator:a7f85a6c0cb513cee0edd3a944d9a1fc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a8593bbf4f4e553427048cbc8dfd934" id="r_a3a8593bbf4f4e553427048cbc8dfd934"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a8593bbf4f4e553427048cbc8dfd934">MR_MultiwayAligningTransform_Destroy</a> (const <a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> *_this)</td></tr>
+<tr class="memitem:a3a8593bbf4f4e553427048cbc8dfd934" id="r_a3a8593bbf4f4e553427048cbc8dfd934"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a8593bbf4f4e553427048cbc8dfd934">MR_MultiwayAligningTransform_Destroy</a> (const <a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> *_this)</td></tr>
 <tr class="memdesc:a3a8593bbf4f4e553427048cbc8dfd934"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_MultiwayAligningTransform</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:a3a8593bbf4f4e553427048cbc8dfd934"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a122f6d8222524246589fd90ffae4efd2" id="r_a122f6d8222524246589fd90ffae4efd2"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a122f6d8222524246589fd90ffae4efd2">MR_MultiwayAligningTransform_DestroyArray</a> (const <a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> *_this)</td></tr>
+<tr class="memitem:a122f6d8222524246589fd90ffae4efd2" id="r_a122f6d8222524246589fd90ffae4efd2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a122f6d8222524246589fd90ffae4efd2">MR_MultiwayAligningTransform_DestroyArray</a> (const <a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> *_this)</td></tr>
 <tr class="memdesc:a122f6d8222524246589fd90ffae4efd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_MultiwayAligningTransform</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:a122f6d8222524246589fd90ffae4efd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20cc4e3f1a57117a5d08bd61fc5e09b3" id="r_a20cc4e3f1a57117a5d08bd61fc5e09b3"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20cc4e3f1a57117a5d08bd61fc5e09b3">MR_MultiwayAligningTransform_AssignFromAnother</a> (<a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> *_other)</td></tr>
+<tr class="memitem:a20cc4e3f1a57117a5d08bd61fc5e09b3" id="r_a20cc4e3f1a57117a5d08bd61fc5e09b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20cc4e3f1a57117a5d08bd61fc5e09b3">MR_MultiwayAligningTransform_AssignFromAnother</a> (<a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> *_other)</td></tr>
 <tr class="separator:a20cc4e3f1a57117a5d08bd61fc5e09b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b176f16d19546f9bf9bca6541675c5b" id="r_a6b176f16d19546f9bf9bca6541675c5b"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b176f16d19546f9bf9bca6541675c5b">MR_MultiwayAligningTransform_reset</a> (<a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> *_this, int32_t numObjs)</td></tr>
+<tr class="memitem:a6b176f16d19546f9bf9bca6541675c5b" id="r_a6b176f16d19546f9bf9bca6541675c5b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b176f16d19546f9bf9bca6541675c5b">MR_MultiwayAligningTransform_reset</a> (<a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> *_this, int32_t numObjs)</td></tr>
 <tr class="separator:a6b176f16d19546f9bf9bca6541675c5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a515aacf54b98509a380fd427b1333a60" id="r_a515aacf54b98509a380fd427b1333a60"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a515aacf54b98509a380fd427b1333a60">MR_MultiwayAligningTransform_add_5_MR_Vector3d</a> (<a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> *_this, int32_t objA, const <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *pA, int32_t objB, const <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *pB, const double *w)</td></tr>
+<tr class="memitem:a515aacf54b98509a380fd427b1333a60" id="r_a515aacf54b98509a380fd427b1333a60"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a515aacf54b98509a380fd427b1333a60">MR_MultiwayAligningTransform_add_5_MR_Vector3d</a> (<a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> *_this, int32_t objA, const <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *pA, int32_t objB, const <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *pB, const double *w)</td></tr>
 <tr class="separator:a515aacf54b98509a380fd427b1333a60"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adfeb89b5312a38f002aea156c7ed1ecd" id="r_adfeb89b5312a38f002aea156c7ed1ecd"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adfeb89b5312a38f002aea156c7ed1ecd">MR_MultiwayAligningTransform_add_5_MR_Vector3f</a> (<a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> *_this, int32_t objA, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *pA, int32_t objB, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *pB, const float *w)</td></tr>
+<tr class="memitem:adfeb89b5312a38f002aea156c7ed1ecd" id="r_adfeb89b5312a38f002aea156c7ed1ecd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adfeb89b5312a38f002aea156c7ed1ecd">MR_MultiwayAligningTransform_add_5_MR_Vector3f</a> (<a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> *_this, int32_t objA, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *pA, int32_t objB, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *pB, const float *w)</td></tr>
 <tr class="separator:adfeb89b5312a38f002aea156c7ed1ecd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8eb446759365b5d8ba223eca0e8e4a1e" id="r_a8eb446759365b5d8ba223eca0e8e4a1e"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8eb446759365b5d8ba223eca0e8e4a1e">MR_MultiwayAligningTransform_add_6_MR_Vector3d</a> (<a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> *_this, int32_t objA, const <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *pA, int32_t objB, const <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *pB, const <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *n, const double *w)</td></tr>
+<tr class="memitem:a8eb446759365b5d8ba223eca0e8e4a1e" id="r_a8eb446759365b5d8ba223eca0e8e4a1e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8eb446759365b5d8ba223eca0e8e4a1e">MR_MultiwayAligningTransform_add_6_MR_Vector3d</a> (<a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> *_this, int32_t objA, const <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *pA, int32_t objB, const <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *pB, const <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *n, const double *w)</td></tr>
 <tr class="separator:a8eb446759365b5d8ba223eca0e8e4a1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a76ce900c49c8f44dca62b44ffa0bc043" id="r_a76ce900c49c8f44dca62b44ffa0bc043"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a76ce900c49c8f44dca62b44ffa0bc043">MR_MultiwayAligningTransform_add_6_MR_Vector3f</a> (<a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> *_this, int32_t objA, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *pA, int32_t objB, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *pB, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *n, const float *w)</td></tr>
+<tr class="memitem:a76ce900c49c8f44dca62b44ffa0bc043" id="r_a76ce900c49c8f44dca62b44ffa0bc043"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a76ce900c49c8f44dca62b44ffa0bc043">MR_MultiwayAligningTransform_add_6_MR_Vector3f</a> (<a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> *_this, int32_t objA, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *pA, int32_t objB, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *pB, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *n, const float *w)</td></tr>
 <tr class="separator:a76ce900c49c8f44dca62b44ffa0bc043"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a60825ddf39aadf7f088cf72330910ba5" id="r_a60825ddf39aadf7f088cf72330910ba5"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60825ddf39aadf7f088cf72330910ba5">MR_MultiwayAligningTransform_add_1</a> (<a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> *_this, const <a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> *r)</td></tr>
+<tr class="memitem:a60825ddf39aadf7f088cf72330910ba5" id="r_a60825ddf39aadf7f088cf72330910ba5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60825ddf39aadf7f088cf72330910ba5">MR_MultiwayAligningTransform_add_1</a> (<a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> *_this, const <a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> *r)</td></tr>
 <tr class="separator:a60825ddf39aadf7f088cf72330910ba5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad8092f7185e9e65c352bb599e7b270ae" id="r_ad8092f7185e9e65c352bb599e7b270ae"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aa90e81181c24311564e915e4fadc9b8a">MR_std_vector_MR_RigidXf3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8092f7185e9e65c352bb599e7b270ae">MR_MultiwayAligningTransform_solve_1</a> (const <a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> *_this, const <a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> *stab)</td></tr>
+<tr class="memitem:ad8092f7185e9e65c352bb599e7b270ae" id="r_ad8092f7185e9e65c352bb599e7b270ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aa90e81181c24311564e915e4fadc9b8a">MR_std_vector_MR_RigidXf3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8092f7185e9e65c352bb599e7b270ae">MR_MultiwayAligningTransform_solve_1</a> (const <a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> *_this, const <a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> *stab)</td></tr>
 <tr class="separator:ad8092f7185e9e65c352bb599e7b270ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a10a8e19bddad62e1379b4c8acc1efe6b" id="r_a10a8e19bddad62e1379b4c8acc1efe6b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aa90e81181c24311564e915e4fadc9b8a">MR_std_vector_MR_RigidXf3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10a8e19bddad62e1379b4c8acc1efe6b">MR_MultiwayAligningTransform_solve_0</a> (const <a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> *_this)</td></tr>
+<tr class="memitem:a10a8e19bddad62e1379b4c8acc1efe6b" id="r_a10a8e19bddad62e1379b4c8acc1efe6b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aa90e81181c24311564e915e4fadc9b8a">MR_std_vector_MR_RigidXf3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10a8e19bddad62e1379b4c8acc1efe6b">MR_MultiwayAligningTransform_solve_0</a> (const <a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> *_this)</td></tr>
 <tr class="separator:a10a8e19bddad62e1379b4c8acc1efe6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a482adf3bdb7aa686de3df46004a19b" id="r_a6a482adf3bdb7aa686de3df46004a19b"><td class="memItemLeft" align="right" valign="top">MRC_API const double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a482adf3bdb7aa686de3df46004a19b">MR_MultiwayAligningTransform_Stabilizer_Get_rot</a> (const <a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> *_this)</td></tr>
+<tr class="memitem:a6a482adf3bdb7aa686de3df46004a19b" id="r_a6a482adf3bdb7aa686de3df46004a19b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a482adf3bdb7aa686de3df46004a19b">MR_MultiwayAligningTransform_Stabilizer_Get_rot</a> (const <a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> *_this)</td></tr>
 <tr class="separator:a6a482adf3bdb7aa686de3df46004a19b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9393ddb269ecfc4fc00b3501e2a7f00c" id="r_a9393ddb269ecfc4fc00b3501e2a7f00c"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9393ddb269ecfc4fc00b3501e2a7f00c">MR_MultiwayAligningTransform_Stabilizer_Set_rot</a> (<a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> *_this, double value)</td></tr>
+<tr class="memitem:a9393ddb269ecfc4fc00b3501e2a7f00c" id="r_a9393ddb269ecfc4fc00b3501e2a7f00c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9393ddb269ecfc4fc00b3501e2a7f00c">MR_MultiwayAligningTransform_Stabilizer_Set_rot</a> (<a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> *_this, double value)</td></tr>
 <tr class="separator:a9393ddb269ecfc4fc00b3501e2a7f00c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a977fcabd360ea5d80b2e26c90410e865" id="r_a977fcabd360ea5d80b2e26c90410e865"><td class="memItemLeft" align="right" valign="top">MRC_API double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a977fcabd360ea5d80b2e26c90410e865">MR_MultiwayAligningTransform_Stabilizer_GetMutable_rot</a> (<a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> *_this)</td></tr>
+<tr class="memitem:a977fcabd360ea5d80b2e26c90410e865" id="r_a977fcabd360ea5d80b2e26c90410e865"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a977fcabd360ea5d80b2e26c90410e865">MR_MultiwayAligningTransform_Stabilizer_GetMutable_rot</a> (<a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> *_this)</td></tr>
 <tr class="separator:a977fcabd360ea5d80b2e26c90410e865"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4805a897069202a0b0ab422203d8b8a7" id="r_a4805a897069202a0b0ab422203d8b8a7"><td class="memItemLeft" align="right" valign="top">MRC_API const double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4805a897069202a0b0ab422203d8b8a7">MR_MultiwayAligningTransform_Stabilizer_Get_shift</a> (const <a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> *_this)</td></tr>
+<tr class="memitem:a4805a897069202a0b0ab422203d8b8a7" id="r_a4805a897069202a0b0ab422203d8b8a7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4805a897069202a0b0ab422203d8b8a7">MR_MultiwayAligningTransform_Stabilizer_Get_shift</a> (const <a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> *_this)</td></tr>
 <tr class="separator:a4805a897069202a0b0ab422203d8b8a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c88126490b41f115a6af3edab8769e7" id="r_a0c88126490b41f115a6af3edab8769e7"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c88126490b41f115a6af3edab8769e7">MR_MultiwayAligningTransform_Stabilizer_Set_shift</a> (<a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> *_this, double value)</td></tr>
+<tr class="memitem:a0c88126490b41f115a6af3edab8769e7" id="r_a0c88126490b41f115a6af3edab8769e7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c88126490b41f115a6af3edab8769e7">MR_MultiwayAligningTransform_Stabilizer_Set_shift</a> (<a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> *_this, double value)</td></tr>
 <tr class="separator:a0c88126490b41f115a6af3edab8769e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a60a473462f5b940404a7e2c47a1ce071" id="r_a60a473462f5b940404a7e2c47a1ce071"><td class="memItemLeft" align="right" valign="top">MRC_API double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60a473462f5b940404a7e2c47a1ce071">MR_MultiwayAligningTransform_Stabilizer_GetMutable_shift</a> (<a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> *_this)</td></tr>
+<tr class="memitem:a60a473462f5b940404a7e2c47a1ce071" id="r_a60a473462f5b940404a7e2c47a1ce071"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60a473462f5b940404a7e2c47a1ce071">MR_MultiwayAligningTransform_Stabilizer_GetMutable_shift</a> (<a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> *_this)</td></tr>
 <tr class="separator:a60a473462f5b940404a7e2c47a1ce071"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad21090c91707d4c6f01a5b19b3f8dfa2" id="r_ad21090c91707d4c6f01a5b19b3f8dfa2"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad21090c91707d4c6f01a5b19b3f8dfa2">MR_MultiwayAligningTransform_Stabilizer_DefaultConstruct</a> (void)</td></tr>
+<tr class="memitem:ad21090c91707d4c6f01a5b19b3f8dfa2" id="r_ad21090c91707d4c6f01a5b19b3f8dfa2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad21090c91707d4c6f01a5b19b3f8dfa2">MR_MultiwayAligningTransform_Stabilizer_DefaultConstruct</a> (void)</td></tr>
 <tr class="separator:ad21090c91707d4c6f01a5b19b3f8dfa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b21785be1238b4861884b71eb50f6f0" id="r_a5b21785be1238b4861884b71eb50f6f0"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b21785be1238b4861884b71eb50f6f0">MR_MultiwayAligningTransform_Stabilizer_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="memitem:a5b21785be1238b4861884b71eb50f6f0" id="r_a5b21785be1238b4861884b71eb50f6f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b21785be1238b4861884b71eb50f6f0">MR_MultiwayAligningTransform_Stabilizer_DefaultConstructArray</a> (size_t num_elems)</td></tr>
 <tr class="separator:a5b21785be1238b4861884b71eb50f6f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2afae0b871507c7fa599679fe44f0887" id="r_a2afae0b871507c7fa599679fe44f0887"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2afae0b871507c7fa599679fe44f0887">MR_MultiwayAligningTransform_Stabilizer_ConstructFrom</a> (double rot, double shift)</td></tr>
+<tr class="memitem:a2afae0b871507c7fa599679fe44f0887" id="r_a2afae0b871507c7fa599679fe44f0887"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2afae0b871507c7fa599679fe44f0887">MR_MultiwayAligningTransform_Stabilizer_ConstructFrom</a> (double rot, double shift)</td></tr>
 <tr class="separator:a2afae0b871507c7fa599679fe44f0887"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb08474ba282a249d1633f9af1249f5b" id="r_aeb08474ba282a249d1633f9af1249f5b"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb08474ba282a249d1633f9af1249f5b">MR_MultiwayAligningTransform_Stabilizer_OffsetPtr</a> (const <a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:aeb08474ba282a249d1633f9af1249f5b" id="r_aeb08474ba282a249d1633f9af1249f5b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb08474ba282a249d1633f9af1249f5b">MR_MultiwayAligningTransform_Stabilizer_OffsetPtr</a> (const <a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:aeb08474ba282a249d1633f9af1249f5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:aeb08474ba282a249d1633f9af1249f5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac6cbffef218dcfeb03f74d8eb3d39c93" id="r_ac6cbffef218dcfeb03f74d8eb3d39c93"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6cbffef218dcfeb03f74d8eb3d39c93">MR_MultiwayAligningTransform_Stabilizer_OffsetMutablePtr</a> (<a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:ac6cbffef218dcfeb03f74d8eb3d39c93" id="r_ac6cbffef218dcfeb03f74d8eb3d39c93"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6cbffef218dcfeb03f74d8eb3d39c93">MR_MultiwayAligningTransform_Stabilizer_OffsetMutablePtr</a> (<a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:ac6cbffef218dcfeb03f74d8eb3d39c93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:ac6cbffef218dcfeb03f74d8eb3d39c93"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab76cb3639e8059f28f04d3f3e10d50e9" id="r_ab76cb3639e8059f28f04d3f3e10d50e9"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab76cb3639e8059f28f04d3f3e10d50e9">MR_MultiwayAligningTransform_Stabilizer_ConstructFromAnother</a> (const <a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> *_other)</td></tr>
+<tr class="memitem:ab76cb3639e8059f28f04d3f3e10d50e9" id="r_ab76cb3639e8059f28f04d3f3e10d50e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab76cb3639e8059f28f04d3f3e10d50e9">MR_MultiwayAligningTransform_Stabilizer_ConstructFromAnother</a> (const <a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> *_other)</td></tr>
 <tr class="separator:ab76cb3639e8059f28f04d3f3e10d50e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9ebf3e9474f72d5aeab9be097c45fdb" id="r_ab9ebf3e9474f72d5aeab9be097c45fdb"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9ebf3e9474f72d5aeab9be097c45fdb">MR_MultiwayAligningTransform_Stabilizer_Destroy</a> (const <a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> *_this)</td></tr>
+<tr class="memitem:ab9ebf3e9474f72d5aeab9be097c45fdb" id="r_ab9ebf3e9474f72d5aeab9be097c45fdb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9ebf3e9474f72d5aeab9be097c45fdb">MR_MultiwayAligningTransform_Stabilizer_Destroy</a> (const <a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> *_this)</td></tr>
 <tr class="memdesc:ab9ebf3e9474f72d5aeab9be097c45fdb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_MultiwayAligningTransform_Stabilizer</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:ab9ebf3e9474f72d5aeab9be097c45fdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd58dcd5932e32a176ec77c1c81e2b99" id="r_afd58dcd5932e32a176ec77c1c81e2b99"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd58dcd5932e32a176ec77c1c81e2b99">MR_MultiwayAligningTransform_Stabilizer_DestroyArray</a> (const <a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> *_this)</td></tr>
+<tr class="memitem:afd58dcd5932e32a176ec77c1c81e2b99" id="r_afd58dcd5932e32a176ec77c1c81e2b99"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd58dcd5932e32a176ec77c1c81e2b99">MR_MultiwayAligningTransform_Stabilizer_DestroyArray</a> (const <a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> *_this)</td></tr>
 <tr class="memdesc:afd58dcd5932e32a176ec77c1c81e2b99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_MultiwayAligningTransform_Stabilizer</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:afd58dcd5932e32a176ec77c1c81e2b99"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a052a3477d845269928a28731402b0d1a" id="r_a052a3477d845269928a28731402b0d1a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a052a3477d845269928a28731402b0d1a">MR_MultiwayAligningTransform_Stabilizer_AssignFromAnother</a> (<a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> *_this, const <a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> *_other)</td></tr>
+<tr class="memitem:a052a3477d845269928a28731402b0d1a" id="r_a052a3477d845269928a28731402b0d1a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a052a3477d845269928a28731402b0d1a">MR_MultiwayAligningTransform_Stabilizer_AssignFromAnother</a> (<a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> *_this, const <a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> *_other)</td></tr>
 <tr class="separator:a052a3477d845269928a28731402b0d1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -333,7 +327,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_MultiwayAligningTransform_add_1 </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_MultiwayAligningTransform_add_1 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -355,7 +349,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_MultiwayAligningTransform_add_5_MR_Vector3d </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_MultiwayAligningTransform_add_5_MR_Vector3d </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -397,7 +391,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_MultiwayAligningTransform_add_5_MR_Vector3f </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_MultiwayAligningTransform_add_5_MR_Vector3f </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -439,7 +433,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_MultiwayAligningTransform_add_6_MR_Vector3d </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_MultiwayAligningTransform_add_6_MR_Vector3d </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -486,7 +480,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_MultiwayAligningTransform_add_6_MR_Vector3f </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_MultiwayAligningTransform_add_6_MR_Vector3f </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -533,7 +527,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> * MR_MultiwayAligningTransform_AssignFromAnother </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> * MR_MultiwayAligningTransform_AssignFromAnother </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -560,7 +554,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> * MR_MultiwayAligningTransform_Construct </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> * MR_MultiwayAligningTransform_Construct </td>
           <td>(</td>
           <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>numObjs</em></span></td><td>)</td>
           <td></td>
@@ -578,7 +572,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> * MR_MultiwayAligningTransform_ConstructFromAnother </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> * MR_MultiwayAligningTransform_ConstructFromAnother </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
         </tr>
@@ -600,7 +594,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> * MR_MultiwayAligningTransform_DefaultConstruct </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> * MR_MultiwayAligningTransform_DefaultConstruct </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -618,7 +612,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> * MR_MultiwayAligningTransform_DefaultConstructArray </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> * MR_MultiwayAligningTransform_DefaultConstructArray </td>
           <td>(</td>
           <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
           <td></td>
@@ -636,7 +630,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_MultiwayAligningTransform_Destroy </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_MultiwayAligningTransform_Destroy </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -655,7 +649,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_MultiwayAligningTransform_DestroyArray </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_MultiwayAligningTransform_DestroyArray </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -674,7 +668,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> * MR_MultiwayAligningTransform_OffsetMutablePtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> * MR_MultiwayAligningTransform_OffsetMutablePtr </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -697,7 +691,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> * MR_MultiwayAligningTransform_OffsetPtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> * MR_MultiwayAligningTransform_OffsetPtr </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -720,7 +714,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_MultiwayAligningTransform_reset </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_MultiwayAligningTransform_reset </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -742,7 +736,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#aa90e81181c24311564e915e4fadc9b8a">MR_std_vector_MR_RigidXf3d</a> * MR_MultiwayAligningTransform_solve_0 </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aa90e81181c24311564e915e4fadc9b8a">MR_std_vector_MR_RigidXf3d</a> * MR_MultiwayAligningTransform_solve_0 </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -760,7 +754,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#aa90e81181c24311564e915e4fadc9b8a">MR_std_vector_MR_RigidXf3d</a> * MR_MultiwayAligningTransform_solve_1 </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aa90e81181c24311564e915e4fadc9b8a">MR_std_vector_MR_RigidXf3d</a> * MR_MultiwayAligningTransform_solve_1 </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ae4788ca705054c89fcae182f4556c0ed">MR_MultiwayAligningTransform</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -782,7 +776,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> * MR_MultiwayAligningTransform_Stabilizer_AssignFromAnother </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> * MR_MultiwayAligningTransform_Stabilizer_AssignFromAnother </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -804,7 +798,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> * MR_MultiwayAligningTransform_Stabilizer_ConstructFrom </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> * MR_MultiwayAligningTransform_Stabilizer_ConstructFrom </td>
           <td>(</td>
           <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>rot</em></span>, </td>
         </tr>
@@ -826,7 +820,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> * MR_MultiwayAligningTransform_Stabilizer_ConstructFromAnother </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> * MR_MultiwayAligningTransform_Stabilizer_ConstructFromAnother </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
           <td></td>
@@ -844,7 +838,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> * MR_MultiwayAligningTransform_Stabilizer_DefaultConstruct </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> * MR_MultiwayAligningTransform_Stabilizer_DefaultConstruct </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -862,7 +856,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> * MR_MultiwayAligningTransform_Stabilizer_DefaultConstructArray </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> * MR_MultiwayAligningTransform_Stabilizer_DefaultConstructArray </td>
           <td>(</td>
           <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
           <td></td>
@@ -880,7 +874,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_MultiwayAligningTransform_Stabilizer_Destroy </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_MultiwayAligningTransform_Stabilizer_Destroy </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -899,7 +893,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_MultiwayAligningTransform_Stabilizer_DestroyArray </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_MultiwayAligningTransform_Stabilizer_DestroyArray </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -918,7 +912,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const double * MR_MultiwayAligningTransform_Stabilizer_Get_rot </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const double * MR_MultiwayAligningTransform_Stabilizer_Get_rot </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -936,7 +930,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const double * MR_MultiwayAligningTransform_Stabilizer_Get_shift </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const double * MR_MultiwayAligningTransform_Stabilizer_Get_shift </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -954,7 +948,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API double * MR_MultiwayAligningTransform_Stabilizer_GetMutable_rot </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> double * MR_MultiwayAligningTransform_Stabilizer_GetMutable_rot </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -972,7 +966,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API double * MR_MultiwayAligningTransform_Stabilizer_GetMutable_shift </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> double * MR_MultiwayAligningTransform_Stabilizer_GetMutable_shift </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -990,7 +984,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> * MR_MultiwayAligningTransform_Stabilizer_OffsetMutablePtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> * MR_MultiwayAligningTransform_Stabilizer_OffsetMutablePtr </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -1013,7 +1007,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> * MR_MultiwayAligningTransform_Stabilizer_OffsetPtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> * MR_MultiwayAligningTransform_Stabilizer_OffsetPtr </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -1036,7 +1030,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_MultiwayAligningTransform_Stabilizer_Set_rot </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_MultiwayAligningTransform_Stabilizer_Set_rot </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1058,7 +1052,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_MultiwayAligningTransform_Stabilizer_Set_shift </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_MultiwayAligningTransform_Stabilizer_Set_shift </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a0b07f164f45d823b1fdf19542501783e">MR_MultiwayAligningTransform_Stabilizer</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>

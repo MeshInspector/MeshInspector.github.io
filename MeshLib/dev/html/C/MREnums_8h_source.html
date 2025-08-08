@@ -14,12 +14,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -156,7 +150,7 @@ $(function(){initNavTree('MREnums_8h_source.html',''); initResizable(true); });
 <div class="contents">
 <a href="MREnums_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;MRCMisc/exports.h&gt;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;<a class="code" href="exports_8h.html">MRCMisc/exports.h</a>&gt;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;stdbool.h&gt;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;stdint.h&gt;</span></div>
@@ -232,7 +226,7 @@ $(function(){initNavTree('MREnums_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno"><a class="line" href="MREnums_8h.html#aaf8fd5f0e57d456151c951e0f3715fc4ae19688f05c2c07bb26c795ab9b3a50df">   98</a></span>    <a class="code hl_enumvalue" href="MREnums_8h.html#aaf8fd5f0e57d456151c951e0f3715fc4ae19688f05c2c07bb26c795ab9b3a50df">MR_GeodesicPathApprox_FastMarching</a> = 2,</div>
 <div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>};</div>
 <div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span> </div>
-<div class="line"><a id="l00103" name="l00103"></a><span class="lineno"><a class="line" href="MREnums_8h.html#acfee7417484e1556a3b3e21d5d290e26">  103</a></span>MRC_API <span class="keyword">const</span> <span class="keywordtype">char</span> *<a class="code hl_function" href="MREnums_8h.html#acfee7417484e1556a3b3e21d5d290e26">MR_asString_MR_ColoringType</a>(<a class="code hl_typedef" href="MREnums_8h.html#a41d00a69f9b75e753f009d89e9967d4d">MR_ColoringType</a> ct);</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno"><a class="line" href="MREnums_8h.html#acfee7417484e1556a3b3e21d5d290e26">  103</a></span><a class="code hl_define" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <span class="keyword">const</span> <span class="keywordtype">char</span> *<a class="code hl_function" href="MREnums_8h.html#acfee7417484e1556a3b3e21d5d290e26">MR_asString_MR_ColoringType</a>(<a class="code hl_typedef" href="MREnums_8h.html#a41d00a69f9b75e753f009d89e9967d4d">MR_ColoringType</a> ct);</div>
 <div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span> </div>
 <div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span><span class="preprocessor">#ifdef __cplusplus</span></div>
 <div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>} <span class="comment">// extern &quot;C&quot;</span></div>
@@ -269,6 +263,8 @@ $(function(){initNavTree('MREnums_8h_source.html',''); initResizable(true); });
 <div class="ttc" id="aMREnums_8h_html_af9bdc3014f3d54c426b6d2df10de4960a0249a411bf2394e3efbbad25a602079c"><div class="ttname"><a href="MREnums_8h.html#af9bdc3014f3d54c426b6d2df10de4960a0249a411bf2394e3efbbad25a602079c">MR_OrientNormals_AwayFromOrigin</a></div><div class="ttdeci">@ MR_OrientNormals_AwayFromOrigin</div><div class="ttdef"><b>Definition</b> MREnums.h:46</div></div>
 <div class="ttc" id="aMREnums_8h_html_af9bdc3014f3d54c426b6d2df10de4960a895fc9daf6c5031555850f1c3c3cac4c"><div class="ttname"><a href="MREnums_8h.html#af9bdc3014f3d54c426b6d2df10de4960a895fc9daf6c5031555850f1c3c3cac4c">MR_OrientNormals_TowardOrigin</a></div><div class="ttdeci">@ MR_OrientNormals_TowardOrigin</div><div class="ttdef"><b>Definition</b> MREnums.h:45</div></div>
 <div class="ttc" id="aMREnums_8h_html_af9bdc3014f3d54c426b6d2df10de4960ad38dbb20ad31f3b7610abce74844df12"><div class="ttname"><a href="MREnums_8h.html#af9bdc3014f3d54c426b6d2df10de4960ad38dbb20ad31f3b7610abce74844df12">MR_OrientNormals_Smart</a></div><div class="ttdeci">@ MR_OrientNormals_Smart</div><div class="ttdef"><b>Definition</b> MREnums.h:47</div></div>
+<div class="ttc" id="aexports_8h_html"><div class="ttname"><a href="exports_8h.html">exports.h</a></div></div>
+<div class="ttc" id="aexports_8h_html_a83dd8809128f2fbd49b5c39d59179d4a"><div class="ttname"><a href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a></div><div class="ttdeci">#define MRC_API</div><div class="ttdef"><b>Definition</b> exports.h:11</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

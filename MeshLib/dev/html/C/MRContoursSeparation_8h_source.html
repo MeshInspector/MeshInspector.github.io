@@ -14,12 +14,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -156,7 +150,7 @@ $(function(){initNavTree('MRContoursSeparation_8h_source.html',''); initResizabl
 <div class="contents">
 <a href="MRContoursSeparation_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;MRCMisc/exports.h&gt;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;<a class="code" href="exports_8h.html">MRCMisc/exports.h</a>&gt;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#ifdef __cplusplus</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> {</div>
@@ -172,7 +166,7 @@ $(function(){initNavTree('MRContoursSeparation_8h_source.html',''); initResizabl
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="comment">// faces that are intersected by contour does not belong to any component.</span></div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="comment">// Calls callback for each MeshEdgePoint in contour respecting order, </span></div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="comment">// ignoring MeshTriPoints (if projection of input point lay inside face)</span></div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="MRContoursSeparation_8h.html#a7555e7ec82c919ccfc9b01248ed443ab">   25</a></span>MRC_API <a class="code hl_typedef" href="MRContoursSeparation_8h.html#a0169cde57dbd417b44427c47cd152645">MR_std_vector_MR_FaceBitSet</a> *<a class="code hl_function" href="MRContoursSeparation_8h.html#a7555e7ec82c919ccfc9b01248ed443ab">MR_separateClosedContour</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, <span class="keyword">const</span> <a class="code hl_typedef" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *contour, <span class="keyword">const</span> <a class="code hl_typedef" href="MRContoursSeparation_8h.html#ae6fd297b6e23234dee98f0d6e1d014fd">MR_std_function_void_from_const_MR_EdgePoint_ref</a> *cb);</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="MRContoursSeparation_8h.html#a7555e7ec82c919ccfc9b01248ed443ab">   25</a></span><a class="code hl_define" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="code hl_typedef" href="MRContoursSeparation_8h.html#a0169cde57dbd417b44427c47cd152645">MR_std_vector_MR_FaceBitSet</a> *<a class="code hl_function" href="MRContoursSeparation_8h.html#a7555e7ec82c919ccfc9b01248ed443ab">MR_separateClosedContour</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, <span class="keyword">const</span> <a class="code hl_typedef" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *contour, <span class="keyword">const</span> <a class="code hl_typedef" href="MRContoursSeparation_8h.html#ae6fd297b6e23234dee98f0d6e1d014fd">MR_std_function_void_from_const_MR_EdgePoint_ref</a> *cb);</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">#ifdef __cplusplus</span></div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>} <span class="comment">// extern &quot;C&quot;</span></div>
@@ -182,6 +176,8 @@ $(function(){initNavTree('MRContoursSeparation_8h_source.html',''); initResizabl
 <div class="ttc" id="aMRContoursSeparation_8h_html_a7555e7ec82c919ccfc9b01248ed443ab"><div class="ttname"><a href="MRContoursSeparation_8h.html#a7555e7ec82c919ccfc9b01248ed443ab">MR_separateClosedContour</a></div><div class="ttdeci">MRC_API MR_std_vector_MR_FaceBitSet * MR_separateClosedContour(const MR_Mesh *mesh, const MR_std_vector_MR_Vector3f *contour, const MR_std_function_void_from_const_MR_EdgePoint_ref *cb)</div></div>
 <div class="ttc" id="aMRContoursSeparation_8h_html_ae6fd297b6e23234dee98f0d6e1d014fd"><div class="ttname"><a href="MRContoursSeparation_8h.html#ae6fd297b6e23234dee98f0d6e1d014fd">MR_std_function_void_from_const_MR_EdgePoint_ref</a></div><div class="ttdeci">struct MR_std_function_void_from_const_MR_EdgePoint_ref MR_std_function_void_from_const_MR_EdgePoint_ref</div><div class="ttdef"><b>Definition</b> MRContoursSeparation.h:10</div></div>
 <div class="ttc" id="aMRCtm_8h_html_a31b172f68efca6438544d56eb86d6f40"><div class="ttname"><a href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a></div><div class="ttdeci">struct MR_Mesh MR_Mesh</div><div class="ttdef"><b>Definition</b> MRCtm.h:13</div></div>
+<div class="ttc" id="aexports_8h_html"><div class="ttname"><a href="exports_8h.html">exports.h</a></div></div>
+<div class="ttc" id="aexports_8h_html_a83dd8809128f2fbd49b5c39d59179d4a"><div class="ttname"><a href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a></div><div class="ttdeci">#define MRC_API</div><div class="ttdef"><b>Definition</b> exports.h:11</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

@@ -14,12 +14,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -158,7 +152,7 @@ $(function(){initNavTree('MRTriMesh_8h.html',''); initResizable(true); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
-<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
 </div>
 <p><a href="MRTriMesh_8h_source.html">Go to the source code of this file.</a></p>
@@ -174,39 +168,39 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:acc84307eccc8990f5081235b12d46da2" id="r_acc84307eccc8990f5081235b12d46da2"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRIdentifyVertices_8h.html#a33f2cead15f3bf37534d3678feb4af22">MR_Triangulation</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc84307eccc8990f5081235b12d46da2">MR_TriMesh_Get_tris</a> (const <a class="el" href="MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> *_this)</td></tr>
+<tr class="memitem:acc84307eccc8990f5081235b12d46da2" id="r_acc84307eccc8990f5081235b12d46da2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRIdentifyVertices_8h.html#a33f2cead15f3bf37534d3678feb4af22">MR_Triangulation</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc84307eccc8990f5081235b12d46da2">MR_TriMesh_Get_tris</a> (const <a class="el" href="MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> *_this)</td></tr>
 <tr class="separator:acc84307eccc8990f5081235b12d46da2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb5fbf5c54225134f6a5a57863d1f932" id="r_aeb5fbf5c54225134f6a5a57863d1f932"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb5fbf5c54225134f6a5a57863d1f932">MR_TriMesh_Set_tris</a> (<a class="el" href="MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MRIdentifyVertices_8h.html#a33f2cead15f3bf37534d3678feb4af22">MR_Triangulation</a> *value)</td></tr>
+<tr class="memitem:aeb5fbf5c54225134f6a5a57863d1f932" id="r_aeb5fbf5c54225134f6a5a57863d1f932"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb5fbf5c54225134f6a5a57863d1f932">MR_TriMesh_Set_tris</a> (<a class="el" href="MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MRIdentifyVertices_8h.html#a33f2cead15f3bf37534d3678feb4af22">MR_Triangulation</a> *value)</td></tr>
 <tr class="separator:aeb5fbf5c54225134f6a5a57863d1f932"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab25c9dac772deb86d74cb26a303d16d8" id="r_ab25c9dac772deb86d74cb26a303d16d8"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRIdentifyVertices_8h.html#a33f2cead15f3bf37534d3678feb4af22">MR_Triangulation</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab25c9dac772deb86d74cb26a303d16d8">MR_TriMesh_GetMutable_tris</a> (<a class="el" href="MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> *_this)</td></tr>
+<tr class="memitem:ab25c9dac772deb86d74cb26a303d16d8" id="r_ab25c9dac772deb86d74cb26a303d16d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRIdentifyVertices_8h.html#a33f2cead15f3bf37534d3678feb4af22">MR_Triangulation</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab25c9dac772deb86d74cb26a303d16d8">MR_TriMesh_GetMutable_tris</a> (<a class="el" href="MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> *_this)</td></tr>
 <tr class="separator:ab25c9dac772deb86d74cb26a303d16d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf3d4baf9ff1fbe403a32d5a071d1305" id="r_acf3d4baf9ff1fbe403a32d5a071d1305"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf3d4baf9ff1fbe403a32d5a071d1305">MR_TriMesh_Get_points</a> (const <a class="el" href="MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> *_this)</td></tr>
+<tr class="memitem:acf3d4baf9ff1fbe403a32d5a071d1305" id="r_acf3d4baf9ff1fbe403a32d5a071d1305"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf3d4baf9ff1fbe403a32d5a071d1305">MR_TriMesh_Get_points</a> (const <a class="el" href="MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> *_this)</td></tr>
 <tr class="separator:acf3d4baf9ff1fbe403a32d5a071d1305"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af24b435f44314b6b00f2da9e270d9a04" id="r_af24b435f44314b6b00f2da9e270d9a04"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af24b435f44314b6b00f2da9e270d9a04">MR_TriMesh_Set_points</a> (<a class="el" href="MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *value)</td></tr>
+<tr class="memitem:af24b435f44314b6b00f2da9e270d9a04" id="r_af24b435f44314b6b00f2da9e270d9a04"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af24b435f44314b6b00f2da9e270d9a04">MR_TriMesh_Set_points</a> (<a class="el" href="MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *value)</td></tr>
 <tr class="separator:af24b435f44314b6b00f2da9e270d9a04"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ce069d16c4aad0f41d61447b8260d8a" id="r_a8ce069d16c4aad0f41d61447b8260d8a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ce069d16c4aad0f41d61447b8260d8a">MR_TriMesh_GetMutable_points</a> (<a class="el" href="MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> *_this)</td></tr>
+<tr class="memitem:a8ce069d16c4aad0f41d61447b8260d8a" id="r_a8ce069d16c4aad0f41d61447b8260d8a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ce069d16c4aad0f41d61447b8260d8a">MR_TriMesh_GetMutable_points</a> (<a class="el" href="MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> *_this)</td></tr>
 <tr class="separator:a8ce069d16c4aad0f41d61447b8260d8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d0b7e0dfc8345f5118a72a2ae9aa47a" id="r_a8d0b7e0dfc8345f5118a72a2ae9aa47a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d0b7e0dfc8345f5118a72a2ae9aa47a">MR_TriMesh_DefaultConstruct</a> (void)</td></tr>
+<tr class="memitem:a8d0b7e0dfc8345f5118a72a2ae9aa47a" id="r_a8d0b7e0dfc8345f5118a72a2ae9aa47a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d0b7e0dfc8345f5118a72a2ae9aa47a">MR_TriMesh_DefaultConstruct</a> (void)</td></tr>
 <tr class="separator:a8d0b7e0dfc8345f5118a72a2ae9aa47a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5468a7253647f438d8ca6a89ad34bf19" id="r_a5468a7253647f438d8ca6a89ad34bf19"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5468a7253647f438d8ca6a89ad34bf19">MR_TriMesh_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="memitem:a5468a7253647f438d8ca6a89ad34bf19" id="r_a5468a7253647f438d8ca6a89ad34bf19"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5468a7253647f438d8ca6a89ad34bf19">MR_TriMesh_DefaultConstructArray</a> (size_t num_elems)</td></tr>
 <tr class="separator:a5468a7253647f438d8ca6a89ad34bf19"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac38b40ec16a66c2a7ef4d31c04413a3b" id="r_ac38b40ec16a66c2a7ef4d31c04413a3b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac38b40ec16a66c2a7ef4d31c04413a3b">MR_TriMesh_ConstructFrom</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> tris_pass_by, <a class="el" href="MRIdentifyVertices_8h.html#a33f2cead15f3bf37534d3678feb4af22">MR_Triangulation</a> *tris, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> points_pass_by, <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *points)</td></tr>
+<tr class="memitem:ac38b40ec16a66c2a7ef4d31c04413a3b" id="r_ac38b40ec16a66c2a7ef4d31c04413a3b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac38b40ec16a66c2a7ef4d31c04413a3b">MR_TriMesh_ConstructFrom</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> tris_pass_by, <a class="el" href="MRIdentifyVertices_8h.html#a33f2cead15f3bf37534d3678feb4af22">MR_Triangulation</a> *tris, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> points_pass_by, <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *points)</td></tr>
 <tr class="separator:ac38b40ec16a66c2a7ef4d31c04413a3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ca2fb1b53d0a2b73ac17af588b4f377" id="r_a0ca2fb1b53d0a2b73ac17af588b4f377"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ca2fb1b53d0a2b73ac17af588b4f377">MR_TriMesh_OffsetPtr</a> (const <a class="el" href="MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a0ca2fb1b53d0a2b73ac17af588b4f377" id="r_a0ca2fb1b53d0a2b73ac17af588b4f377"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ca2fb1b53d0a2b73ac17af588b4f377">MR_TriMesh_OffsetPtr</a> (const <a class="el" href="MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a0ca2fb1b53d0a2b73ac17af588b4f377"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a0ca2fb1b53d0a2b73ac17af588b4f377"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3523c87ac7d60c331f7d362993d00262" id="r_a3523c87ac7d60c331f7d362993d00262"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3523c87ac7d60c331f7d362993d00262">MR_TriMesh_OffsetMutablePtr</a> (<a class="el" href="MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a3523c87ac7d60c331f7d362993d00262" id="r_a3523c87ac7d60c331f7d362993d00262"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3523c87ac7d60c331f7d362993d00262">MR_TriMesh_OffsetMutablePtr</a> (<a class="el" href="MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a3523c87ac7d60c331f7d362993d00262"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a3523c87ac7d60c331f7d362993d00262"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a091baa8258ab10c9c7753618ec811488" id="r_a091baa8258ab10c9c7753618ec811488"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a091baa8258ab10c9c7753618ec811488">MR_TriMesh_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> *_other)</td></tr>
+<tr class="memitem:a091baa8258ab10c9c7753618ec811488" id="r_a091baa8258ab10c9c7753618ec811488"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a091baa8258ab10c9c7753618ec811488">MR_TriMesh_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> *_other)</td></tr>
 <tr class="separator:a091baa8258ab10c9c7753618ec811488"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a18aaf0a91c2e19d066de7e6dd70be78e" id="r_a18aaf0a91c2e19d066de7e6dd70be78e"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18aaf0a91c2e19d066de7e6dd70be78e">MR_TriMesh_Destroy</a> (const <a class="el" href="MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> *_this)</td></tr>
+<tr class="memitem:a18aaf0a91c2e19d066de7e6dd70be78e" id="r_a18aaf0a91c2e19d066de7e6dd70be78e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18aaf0a91c2e19d066de7e6dd70be78e">MR_TriMesh_Destroy</a> (const <a class="el" href="MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> *_this)</td></tr>
 <tr class="memdesc:a18aaf0a91c2e19d066de7e6dd70be78e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_TriMesh</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:a18aaf0a91c2e19d066de7e6dd70be78e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab026b83e53387c9b27e4508b5cc5428d" id="r_ab026b83e53387c9b27e4508b5cc5428d"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab026b83e53387c9b27e4508b5cc5428d">MR_TriMesh_DestroyArray</a> (const <a class="el" href="MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> *_this)</td></tr>
+<tr class="memitem:ab026b83e53387c9b27e4508b5cc5428d" id="r_ab026b83e53387c9b27e4508b5cc5428d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab026b83e53387c9b27e4508b5cc5428d">MR_TriMesh_DestroyArray</a> (const <a class="el" href="MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> *_this)</td></tr>
 <tr class="memdesc:ab026b83e53387c9b27e4508b5cc5428d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_TriMesh</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:ab026b83e53387c9b27e4508b5cc5428d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aed065bf8680186990084059c32fc506c" id="r_aed065bf8680186990084059c32fc506c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed065bf8680186990084059c32fc506c">MR_TriMesh_AssignFromAnother</a> (<a class="el" href="MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> *_other)</td></tr>
+<tr class="memitem:aed065bf8680186990084059c32fc506c" id="r_aed065bf8680186990084059c32fc506c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed065bf8680186990084059c32fc506c">MR_TriMesh_AssignFromAnother</a> (<a class="el" href="MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> *_other)</td></tr>
 <tr class="separator:aed065bf8680186990084059c32fc506c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -261,7 +255,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> * MR_TriMesh_AssignFromAnother </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> * MR_TriMesh_AssignFromAnother </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -288,7 +282,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> * MR_TriMesh_ConstructFrom </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> * MR_TriMesh_ConstructFrom </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>tris_pass_by</em></span>, </td>
         </tr>
@@ -320,7 +314,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> * MR_TriMesh_ConstructFromAnother </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> * MR_TriMesh_ConstructFromAnother </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
         </tr>
@@ -342,7 +336,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> * MR_TriMesh_DefaultConstruct </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> * MR_TriMesh_DefaultConstruct </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -360,7 +354,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> * MR_TriMesh_DefaultConstructArray </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> * MR_TriMesh_DefaultConstructArray </td>
           <td>(</td>
           <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
           <td></td>
@@ -378,7 +372,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_TriMesh_Destroy </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_TriMesh_Destroy </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -397,7 +391,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_TriMesh_DestroyArray </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_TriMesh_DestroyArray </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -416,7 +410,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> * MR_TriMesh_Get_points </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> * MR_TriMesh_Get_points </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -434,7 +428,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="MRIdentifyVertices_8h.html#a33f2cead15f3bf37534d3678feb4af22">MR_Triangulation</a> * MR_TriMesh_Get_tris </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRIdentifyVertices_8h.html#a33f2cead15f3bf37534d3678feb4af22">MR_Triangulation</a> * MR_TriMesh_Get_tris </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -452,7 +446,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> * MR_TriMesh_GetMutable_points </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> * MR_TriMesh_GetMutable_points </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -470,7 +464,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRIdentifyVertices_8h.html#a33f2cead15f3bf37534d3678feb4af22">MR_Triangulation</a> * MR_TriMesh_GetMutable_tris </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRIdentifyVertices_8h.html#a33f2cead15f3bf37534d3678feb4af22">MR_Triangulation</a> * MR_TriMesh_GetMutable_tris </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -488,7 +482,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> * MR_TriMesh_OffsetMutablePtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> * MR_TriMesh_OffsetMutablePtr </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -511,7 +505,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> * MR_TriMesh_OffsetPtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> * MR_TriMesh_OffsetPtr </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -534,7 +528,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_TriMesh_Set_points </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_TriMesh_Set_points </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -561,7 +555,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_TriMesh_Set_tris </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_TriMesh_Set_tris </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRMesh_8h.html#ab606653bb9578226f3ddd4aba7a46645">MR_TriMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>

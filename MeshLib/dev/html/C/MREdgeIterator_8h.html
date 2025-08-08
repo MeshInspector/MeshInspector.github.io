@@ -14,12 +14,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -158,7 +152,7 @@ $(function(){initNavTree('MREdgeIterator_8h.html',''); initResizable(true); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="MRId_8h_source.html">MRCMesh/MRId.h</a>&gt;</code><br />
-<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
 </div>
@@ -176,37 +170,37 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a4cc05a4ffd9a6da69db127749901e91e" id="r_a4cc05a4ffd9a6da69db127749901e91e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4cc05a4ffd9a6da69db127749901e91e">MR_UndirectedEdgeIterator_DefaultConstruct</a> (void)</td></tr>
+<tr class="memitem:a4cc05a4ffd9a6da69db127749901e91e" id="r_a4cc05a4ffd9a6da69db127749901e91e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4cc05a4ffd9a6da69db127749901e91e">MR_UndirectedEdgeIterator_DefaultConstruct</a> (void)</td></tr>
 <tr class="separator:a4cc05a4ffd9a6da69db127749901e91e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ed2dce2734956b45a3f80d1957cf6b4" id="r_a6ed2dce2734956b45a3f80d1957cf6b4"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ed2dce2734956b45a3f80d1957cf6b4">MR_UndirectedEdgeIterator_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="memitem:a6ed2dce2734956b45a3f80d1957cf6b4" id="r_a6ed2dce2734956b45a3f80d1957cf6b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ed2dce2734956b45a3f80d1957cf6b4">MR_UndirectedEdgeIterator_DefaultConstructArray</a> (size_t num_elems)</td></tr>
 <tr class="separator:a6ed2dce2734956b45a3f80d1957cf6b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9286eb76c1dbddde2e3f90ad72371d13" id="r_a9286eb76c1dbddde2e3f90ad72371d13"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9286eb76c1dbddde2e3f90ad72371d13">MR_UndirectedEdgeIterator_OffsetPtr</a> (const <a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a9286eb76c1dbddde2e3f90ad72371d13" id="r_a9286eb76c1dbddde2e3f90ad72371d13"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9286eb76c1dbddde2e3f90ad72371d13">MR_UndirectedEdgeIterator_OffsetPtr</a> (const <a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a9286eb76c1dbddde2e3f90ad72371d13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a9286eb76c1dbddde2e3f90ad72371d13"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c7b47d9d2043ece6a8372c763d3a8f0" id="r_a5c7b47d9d2043ece6a8372c763d3a8f0"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c7b47d9d2043ece6a8372c763d3a8f0">MR_UndirectedEdgeIterator_OffsetMutablePtr</a> (<a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a5c7b47d9d2043ece6a8372c763d3a8f0" id="r_a5c7b47d9d2043ece6a8372c763d3a8f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c7b47d9d2043ece6a8372c763d3a8f0">MR_UndirectedEdgeIterator_OffsetMutablePtr</a> (<a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a5c7b47d9d2043ece6a8372c763d3a8f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a5c7b47d9d2043ece6a8372c763d3a8f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ae0cbd1e66122973db56f9e0e2cc91f" id="r_a8ae0cbd1e66122973db56f9e0e2cc91f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ae0cbd1e66122973db56f9e0e2cc91f">MR_UndirectedEdgeIterator_ConstructFromAnother</a> (const <a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> *_other)</td></tr>
+<tr class="memitem:a8ae0cbd1e66122973db56f9e0e2cc91f" id="r_a8ae0cbd1e66122973db56f9e0e2cc91f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ae0cbd1e66122973db56f9e0e2cc91f">MR_UndirectedEdgeIterator_ConstructFromAnother</a> (const <a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> *_other)</td></tr>
 <tr class="separator:a8ae0cbd1e66122973db56f9e0e2cc91f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd1c94dce892f8a094741fb07bbc459e" id="r_afd1c94dce892f8a094741fb07bbc459e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd1c94dce892f8a094741fb07bbc459e">MR_UndirectedEdgeIterator_Construct</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology)</td></tr>
+<tr class="memitem:afd1c94dce892f8a094741fb07bbc459e" id="r_afd1c94dce892f8a094741fb07bbc459e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd1c94dce892f8a094741fb07bbc459e">MR_UndirectedEdgeIterator_Construct</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology)</td></tr>
 <tr class="separator:afd1c94dce892f8a094741fb07bbc459e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e7a71be55f318531fdaeaa9f5d98c51" id="r_a2e7a71be55f318531fdaeaa9f5d98c51"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e7a71be55f318531fdaeaa9f5d98c51">MR_UndirectedEdgeIterator_Destroy</a> (const <a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> *_this)</td></tr>
+<tr class="memitem:a2e7a71be55f318531fdaeaa9f5d98c51" id="r_a2e7a71be55f318531fdaeaa9f5d98c51"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e7a71be55f318531fdaeaa9f5d98c51">MR_UndirectedEdgeIterator_Destroy</a> (const <a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> *_this)</td></tr>
 <tr class="memdesc:a2e7a71be55f318531fdaeaa9f5d98c51"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_UndirectedEdgeIterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:a2e7a71be55f318531fdaeaa9f5d98c51"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af7583dbd8a88c583a511f8eeb562a4d9" id="r_af7583dbd8a88c583a511f8eeb562a4d9"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7583dbd8a88c583a511f8eeb562a4d9">MR_UndirectedEdgeIterator_DestroyArray</a> (const <a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> *_this)</td></tr>
+<tr class="memitem:af7583dbd8a88c583a511f8eeb562a4d9" id="r_af7583dbd8a88c583a511f8eeb562a4d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7583dbd8a88c583a511f8eeb562a4d9">MR_UndirectedEdgeIterator_DestroyArray</a> (const <a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> *_this)</td></tr>
 <tr class="memdesc:af7583dbd8a88c583a511f8eeb562a4d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_UndirectedEdgeIterator</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:af7583dbd8a88c583a511f8eeb562a4d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace609aaa290f7a4581a4926bdf233092" id="r_ace609aaa290f7a4581a4926bdf233092"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace609aaa290f7a4581a4926bdf233092">MR_UndirectedEdgeIterator_AssignFromAnother</a> (<a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> *_this, const <a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> *_other)</td></tr>
+<tr class="memitem:ace609aaa290f7a4581a4926bdf233092" id="r_ace609aaa290f7a4581a4926bdf233092"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace609aaa290f7a4581a4926bdf233092">MR_UndirectedEdgeIterator_AssignFromAnother</a> (<a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> *_this, const <a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> *_other)</td></tr>
 <tr class="separator:ace609aaa290f7a4581a4926bdf233092"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aefdca821e0490a18251c939642ec61f9" id="r_aefdca821e0490a18251c939642ec61f9"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefdca821e0490a18251c939642ec61f9">MR_incr_MR_UndirectedEdgeIterator</a> (<a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> *_this)</td></tr>
+<tr class="memitem:aefdca821e0490a18251c939642ec61f9" id="r_aefdca821e0490a18251c939642ec61f9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefdca821e0490a18251c939642ec61f9">MR_incr_MR_UndirectedEdgeIterator</a> (<a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> *_this)</td></tr>
 <tr class="separator:aefdca821e0490a18251c939642ec61f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa4e667a9d2b5d9af31adcceb0732626b" id="r_aa4e667a9d2b5d9af31adcceb0732626b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__UndirectedEdgeId.html">MR_UndirectedEdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4e667a9d2b5d9af31adcceb0732626b">MR_deref_MR_UndirectedEdgeIterator</a> (const <a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> *_this)</td></tr>
+<tr class="memitem:aa4e667a9d2b5d9af31adcceb0732626b" id="r_aa4e667a9d2b5d9af31adcceb0732626b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__UndirectedEdgeId.html">MR_UndirectedEdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4e667a9d2b5d9af31adcceb0732626b">MR_deref_MR_UndirectedEdgeIterator</a> (const <a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> *_this)</td></tr>
 <tr class="separator:aa4e667a9d2b5d9af31adcceb0732626b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a326f00595942206f50b03b11ae4fa707" id="r_a326f00595942206f50b03b11ae4fa707"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a326f00595942206f50b03b11ae4fa707">MR_equal_MR_UndirectedEdgeIterator</a> (const <a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> *a, const <a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> *b)</td></tr>
+<tr class="memitem:a326f00595942206f50b03b11ae4fa707" id="r_a326f00595942206f50b03b11ae4fa707"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a326f00595942206f50b03b11ae4fa707">MR_equal_MR_UndirectedEdgeIterator</a> (const <a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> *a, const <a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> *b)</td></tr>
 <tr class="separator:a326f00595942206f50b03b11ae4fa707"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a08d7ddadf6123cd015ce1a3dad42b676" id="r_a08d7ddadf6123cd015ce1a3dad42b676"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08d7ddadf6123cd015ce1a3dad42b676">MR_not_equal_MR_UndirectedEdgeIterator</a> (const <a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> *a, const <a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> *b)</td></tr>
+<tr class="memitem:a08d7ddadf6123cd015ce1a3dad42b676" id="r_a08d7ddadf6123cd015ce1a3dad42b676"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08d7ddadf6123cd015ce1a3dad42b676">MR_not_equal_MR_UndirectedEdgeIterator</a> (const <a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> *a, const <a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> *b)</td></tr>
 <tr class="separator:a08d7ddadf6123cd015ce1a3dad42b676"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe9a108ed04bdd1f08944d8ab6d1566a" id="r_afe9a108ed04bdd1f08944d8ab6d1566a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ab3c03ef8c769a0f3606febe178369fc6">MR_IteratorRange_MR_UndirectedEdgeIterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe9a108ed04bdd1f08944d8ab6d1566a">MR_undirectedEdges_MR_MeshTopology</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology)</td></tr>
+<tr class="memitem:afe9a108ed04bdd1f08944d8ab6d1566a" id="r_afe9a108ed04bdd1f08944d8ab6d1566a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ab3c03ef8c769a0f3606febe178369fc6">MR_IteratorRange_MR_UndirectedEdgeIterator</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe9a108ed04bdd1f08944d8ab6d1566a">MR_undirectedEdges_MR_MeshTopology</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology)</td></tr>
 <tr class="separator:afe9a108ed04bdd1f08944d8ab6d1566a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -262,7 +256,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="structMR__UndirectedEdgeId.html">MR_UndirectedEdgeId</a> MR_deref_MR_UndirectedEdgeIterator </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__UndirectedEdgeId.html">MR_UndirectedEdgeId</a> MR_deref_MR_UndirectedEdgeIterator </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -280,7 +274,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API bool MR_equal_MR_UndirectedEdgeIterator </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_equal_MR_UndirectedEdgeIterator </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
@@ -302,7 +296,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> * MR_incr_MR_UndirectedEdgeIterator </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> * MR_incr_MR_UndirectedEdgeIterator </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -320,7 +314,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API bool MR_not_equal_MR_UndirectedEdgeIterator </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_not_equal_MR_UndirectedEdgeIterator </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
@@ -342,7 +336,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> * MR_UndirectedEdgeIterator_AssignFromAnother </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> * MR_UndirectedEdgeIterator_AssignFromAnother </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -364,7 +358,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> * MR_UndirectedEdgeIterator_Construct </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> * MR_UndirectedEdgeIterator_Construct </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span></td><td>)</td>
           <td></td>
@@ -382,7 +376,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> * MR_UndirectedEdgeIterator_ConstructFromAnother </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> * MR_UndirectedEdgeIterator_ConstructFromAnother </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
           <td></td>
@@ -400,7 +394,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> * MR_UndirectedEdgeIterator_DefaultConstruct </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> * MR_UndirectedEdgeIterator_DefaultConstruct </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -418,7 +412,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> * MR_UndirectedEdgeIterator_DefaultConstructArray </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> * MR_UndirectedEdgeIterator_DefaultConstructArray </td>
           <td>(</td>
           <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
           <td></td>
@@ -436,7 +430,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_UndirectedEdgeIterator_Destroy </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_UndirectedEdgeIterator_Destroy </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -455,7 +449,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_UndirectedEdgeIterator_DestroyArray </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_UndirectedEdgeIterator_DestroyArray </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -474,7 +468,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> * MR_UndirectedEdgeIterator_OffsetMutablePtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> * MR_UndirectedEdgeIterator_OffsetMutablePtr </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -497,7 +491,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> * MR_UndirectedEdgeIterator_OffsetPtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> * MR_UndirectedEdgeIterator_OffsetPtr </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#adc8078d2c099930a4e1cfd69ad02cad5">MR_UndirectedEdgeIterator</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -520,7 +514,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#ab3c03ef8c769a0f3606febe178369fc6">MR_IteratorRange_MR_UndirectedEdgeIterator</a> * MR_undirectedEdges_MR_MeshTopology </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ab3c03ef8c769a0f3606febe178369fc6">MR_IteratorRange_MR_UndirectedEdgeIterator</a> * MR_undirectedEdges_MR_MeshTopology </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span></td><td>)</td>
           <td></td>

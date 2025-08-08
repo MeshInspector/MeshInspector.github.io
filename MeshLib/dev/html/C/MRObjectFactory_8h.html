@@ -14,12 +14,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -157,7 +151,7 @@ $(function(){initNavTree('MRObjectFactory_8h.html',''); initResizable(true); });
   <div class="headertitle"><div class="title">MRObjectFactory.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
 </div>
 <p><a href="MRObjectFactory_8h_source.html">Go to the source code of this file.</a></p>
@@ -174,18 +168,18 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aafdc7e21d52c3b3a12212b4015778427" id="r_aafdc7e21d52c3b3a12212b4015778427"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aafdc7e21d52c3b3a12212b4015778427">MR_createObject</a> (const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *className)</td></tr>
+<tr class="memitem:aafdc7e21d52c3b3a12212b4015778427" id="r_aafdc7e21d52c3b3a12212b4015778427"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aafdc7e21d52c3b3a12212b4015778427">MR_createObject</a> (const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *className)</td></tr>
 <tr class="separator:aafdc7e21d52c3b3a12212b4015778427"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c4145a1574b48b1f2133a7af31b6708" id="r_a9c4145a1574b48b1f2133a7af31b6708"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c4145a1574b48b1f2133a7af31b6708">MR_ObjectFactoryBase_Destroy</a> (const <a class="el" href="#aed43ae60404f72510660ec501e399d39">MR_ObjectFactoryBase</a> *_this)</td></tr>
+<tr class="memitem:a9c4145a1574b48b1f2133a7af31b6708" id="r_a9c4145a1574b48b1f2133a7af31b6708"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c4145a1574b48b1f2133a7af31b6708">MR_ObjectFactoryBase_Destroy</a> (const <a class="el" href="#aed43ae60404f72510660ec501e399d39">MR_ObjectFactoryBase</a> *_this)</td></tr>
 <tr class="memdesc:a9c4145a1574b48b1f2133a7af31b6708"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_ObjectFactoryBase</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:a9c4145a1574b48b1f2133a7af31b6708"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2007029f22c618284778aa8b6de64009" id="r_a2007029f22c618284778aa8b6de64009"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2007029f22c618284778aa8b6de64009">MR_ObjectFactoryBase_DestroyArray</a> (const <a class="el" href="#aed43ae60404f72510660ec501e399d39">MR_ObjectFactoryBase</a> *_this)</td></tr>
+<tr class="memitem:a2007029f22c618284778aa8b6de64009" id="r_a2007029f22c618284778aa8b6de64009"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2007029f22c618284778aa8b6de64009">MR_ObjectFactoryBase_DestroyArray</a> (const <a class="el" href="#aed43ae60404f72510660ec501e399d39">MR_ObjectFactoryBase</a> *_this)</td></tr>
 <tr class="memdesc:a2007029f22c618284778aa8b6de64009"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_ObjectFactoryBase</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:a2007029f22c618284778aa8b6de64009"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a38215dfc2f51321e3c2d3177fd3d0093" id="r_a38215dfc2f51321e3c2d3177fd3d0093"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#aed43ae60404f72510660ec501e399d39">MR_ObjectFactoryBase</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38215dfc2f51321e3c2d3177fd3d0093">MR_ObjectFactoryBase_OffsetPtr</a> (const <a class="el" href="#aed43ae60404f72510660ec501e399d39">MR_ObjectFactoryBase</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a38215dfc2f51321e3c2d3177fd3d0093" id="r_a38215dfc2f51321e3c2d3177fd3d0093"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#aed43ae60404f72510660ec501e399d39">MR_ObjectFactoryBase</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38215dfc2f51321e3c2d3177fd3d0093">MR_ObjectFactoryBase_OffsetPtr</a> (const <a class="el" href="#aed43ae60404f72510660ec501e399d39">MR_ObjectFactoryBase</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a38215dfc2f51321e3c2d3177fd3d0093"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a38215dfc2f51321e3c2d3177fd3d0093"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a684543d7bccdeda581823935baa5416e" id="r_a684543d7bccdeda581823935baa5416e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aed43ae60404f72510660ec501e399d39">MR_ObjectFactoryBase</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a684543d7bccdeda581823935baa5416e">MR_ObjectFactoryBase_OffsetMutablePtr</a> (<a class="el" href="#aed43ae60404f72510660ec501e399d39">MR_ObjectFactoryBase</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a684543d7bccdeda581823935baa5416e" id="r_a684543d7bccdeda581823935baa5416e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aed43ae60404f72510660ec501e399d39">MR_ObjectFactoryBase</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a684543d7bccdeda581823935baa5416e">MR_ObjectFactoryBase_OffsetMutablePtr</a> (<a class="el" href="#aed43ae60404f72510660ec501e399d39">MR_ObjectFactoryBase</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a684543d7bccdeda581823935baa5416e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a684543d7bccdeda581823935baa5416e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -242,7 +236,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> * MR_createObject </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> * MR_createObject </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>className</em></span></td><td>)</td>
           <td></td>
@@ -260,7 +254,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_ObjectFactoryBase_Destroy </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_ObjectFactoryBase_Destroy </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#aed43ae60404f72510660ec501e399d39">MR_ObjectFactoryBase</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -279,7 +273,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_ObjectFactoryBase_DestroyArray </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_ObjectFactoryBase_DestroyArray </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#aed43ae60404f72510660ec501e399d39">MR_ObjectFactoryBase</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -298,7 +292,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#aed43ae60404f72510660ec501e399d39">MR_ObjectFactoryBase</a> * MR_ObjectFactoryBase_OffsetMutablePtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aed43ae60404f72510660ec501e399d39">MR_ObjectFactoryBase</a> * MR_ObjectFactoryBase_OffsetMutablePtr </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#aed43ae60404f72510660ec501e399d39">MR_ObjectFactoryBase</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -321,7 +315,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="#aed43ae60404f72510660ec501e399d39">MR_ObjectFactoryBase</a> * MR_ObjectFactoryBase_OffsetPtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#aed43ae60404f72510660ec501e399d39">MR_ObjectFactoryBase</a> * MR_ObjectFactoryBase_OffsetPtr </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#aed43ae60404f72510660ec501e399d39">MR_ObjectFactoryBase</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>

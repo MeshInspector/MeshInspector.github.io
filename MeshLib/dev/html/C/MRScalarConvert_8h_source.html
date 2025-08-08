@@ -14,12 +14,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -157,7 +151,7 @@ $(function(){initNavTree('MRScalarConvert_8h_source.html',''); initResizable(tru
 <a href="MRScalarConvert_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;<a class="code" href="common_8h.html">MRCMisc/common.h</a>&gt;</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;MRCMisc/exports.h&gt;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;<a class="code" href="exports_8h.html">MRCMisc/exports.h</a>&gt;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;stdint.h&gt;</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
@@ -186,7 +180,7 @@ $(function(){initNavTree('MRScalarConvert_8h_source.html',''); initResizable(tru
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="MRScalarConvert_8h.html#a634f9f55e799f3052a34590f08100017a146dae2c7d8e0f2a98e627bfcc45b6e9">   32</a></span>    <a class="code hl_enumvalue" href="MRScalarConvert_8h.html#a634f9f55e799f3052a34590f08100017a146dae2c7d8e0f2a98e627bfcc45b6e9">MR_ScalarType_Count</a> = 12,</div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>};</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="MRScalarConvert_8h.html#a931091eb25db1a9612f4fb628f56fe07">   41</a></span>MRC_API <a class="code hl_typedef" href="std__function__float__from__const__char__ptr_8h.html#a6513aac0d66c11e07fefbd0c297f54cf">MR_std_function_float_from_const_char_ptr</a> *<a class="code hl_function" href="MRScalarConvert_8h.html#a931091eb25db1a9612f4fb628f56fe07">MR_getTypeConverter</a>(<a class="code hl_typedef" href="MRScalarConvert_8h.html#a1743944c8e2ea6eccba09898ecac81c1">MR_ScalarType</a> scalarType, <a class="code hl_typedef" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> range, <a class="code hl_typedef" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> min);</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="MRScalarConvert_8h.html#a931091eb25db1a9612f4fb628f56fe07">   41</a></span><a class="code hl_define" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="code hl_typedef" href="std__function__float__from__const__char__ptr_8h.html#a6513aac0d66c11e07fefbd0c297f54cf">MR_std_function_float_from_const_char_ptr</a> *<a class="code hl_function" href="MRScalarConvert_8h.html#a931091eb25db1a9612f4fb628f56fe07">MR_getTypeConverter</a>(<a class="code hl_typedef" href="MRScalarConvert_8h.html#a1743944c8e2ea6eccba09898ecac81c1">MR_ScalarType</a> scalarType, <a class="code hl_typedef" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> range, <a class="code hl_typedef" href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a> min);</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="preprocessor">#ifdef __cplusplus</span></div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>} <span class="comment">// extern &quot;C&quot;</span></div>
@@ -209,6 +203,8 @@ $(function(){initNavTree('MRScalarConvert_8h_source.html',''); initResizable(tru
 <div class="ttc" id="acommon_8h_html"><div class="ttname"><a href="common_8h.html">common.h</a></div></div>
 <div class="ttc" id="acommon_8h_html_a54b381d2daa23833ed35cb97e4948ea0"><div class="ttname"><a href="common_8h.html#a54b381d2daa23833ed35cb97e4948ea0">MR_int64_t</a></div><div class="ttdeci">int64_t MR_int64_t</div><div class="ttdef"><b>Definition</b> common.h:13</div></div>
 <div class="ttc" id="acommon_8h_html_aefc0b2fe2e376b1b34a189af81dc8a49"><div class="ttname"><a href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></div><div class="ttdeci">uint64_t MR_uint64_t</div><div class="ttdef"><b>Definition</b> common.h:14</div></div>
+<div class="ttc" id="aexports_8h_html"><div class="ttname"><a href="exports_8h.html">exports.h</a></div></div>
+<div class="ttc" id="aexports_8h_html_a83dd8809128f2fbd49b5c39d59179d4a"><div class="ttname"><a href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a></div><div class="ttdeci">#define MRC_API</div><div class="ttdef"><b>Definition</b> exports.h:11</div></div>
 <div class="ttc" id="astd__function__float__from__const__char__ptr_8h_html_a6513aac0d66c11e07fefbd0c297f54cf"><div class="ttname"><a href="std__function__float__from__const__char__ptr_8h.html#a6513aac0d66c11e07fefbd0c297f54cf">MR_std_function_float_from_const_char_ptr</a></div><div class="ttdeci">struct MR_std_function_float_from_const_char_ptr MR_std_function_float_from_const_char_ptr</div><div class="ttdef"><b>Definition</b> std_function_float_from_const_char_ptr.h:15</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

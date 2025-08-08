@@ -14,12 +14,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -158,7 +152,7 @@ $(function(){initNavTree('MRString_8h.html',''); initResizable(true); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
-<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stdint.h&gt;</code><br />
 </div>
@@ -175,21 +169,21 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a8eb19766a0ece131fdb1f2b6fd79dd8d" id="r_a8eb19766a0ece131fdb1f2b6fd79dd8d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8eb19766a0ece131fdb1f2b6fd79dd8d">MR_findSubstringCaseInsensitive</a> (const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *string, const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *substring)</td></tr>
+<tr class="memitem:a8eb19766a0ece131fdb1f2b6fd79dd8d" id="r_a8eb19766a0ece131fdb1f2b6fd79dd8d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8eb19766a0ece131fdb1f2b6fd79dd8d">MR_findSubstringCaseInsensitive</a> (const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *string, const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *substring)</td></tr>
 <tr class="separator:a8eb19766a0ece131fdb1f2b6fd79dd8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a413f6acfc925a5322ba31fff4c8f7d1c" id="r_a413f6acfc925a5322ba31fff4c8f7d1c"><td class="memItemLeft" align="right" valign="top">MRC_API int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a413f6acfc925a5322ba31fff4c8f7d1c">MR_calcDamerauLevenshteinDistance</a> (const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *stringA, const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *stringB, const bool *caseSensitive, int32_t *outLeftRightAddition)</td></tr>
+<tr class="memitem:a413f6acfc925a5322ba31fff4c8f7d1c" id="r_a413f6acfc925a5322ba31fff4c8f7d1c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a413f6acfc925a5322ba31fff4c8f7d1c">MR_calcDamerauLevenshteinDistance</a> (const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *stringA, const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *stringB, const bool *caseSensitive, int32_t *outLeftRightAddition)</td></tr>
 <tr class="separator:a413f6acfc925a5322ba31fff4c8f7d1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04420a5039828092861e5e439652aefa" id="r_a04420a5039828092861e5e439652aefa"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAngleMeasurementObject_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04420a5039828092861e5e439652aefa">MR_split</a> (const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *string, const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *delimiter)</td></tr>
+<tr class="memitem:a04420a5039828092861e5e439652aefa" id="r_a04420a5039828092861e5e439652aefa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAngleMeasurementObject_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04420a5039828092861e5e439652aefa">MR_split</a> (const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *string, const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *delimiter)</td></tr>
 <tr class="separator:a04420a5039828092861e5e439652aefa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac8335e464659f316b9021b3b115f2d89" id="r_ac8335e464659f316b9021b3b115f2d89"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac8335e464659f316b9021b3b115f2d89">MR_replace</a> (const char *target, const char *target_end, const char *from, const char *from_end, const char *to, const char *to_end)</td></tr>
+<tr class="memitem:ac8335e464659f316b9021b3b115f2d89" id="r_ac8335e464659f316b9021b3b115f2d89"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac8335e464659f316b9021b3b115f2d89">MR_replace</a> (const char *target, const char *target_end, const char *from, const char *from_end, const char *to, const char *to_end)</td></tr>
 <tr class="separator:ac8335e464659f316b9021b3b115f2d89"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e0bde14d170a00b409d84ed2c46f8f9" id="r_a1e0bde14d170a00b409d84ed2c46f8f9"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e0bde14d170a00b409d84ed2c46f8f9">MR_replaceInplace</a> (<a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *target, const char *from, const char *from_end, const char *to, const char *to_end)</td></tr>
+<tr class="memitem:a1e0bde14d170a00b409d84ed2c46f8f9" id="r_a1e0bde14d170a00b409d84ed2c46f8f9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e0bde14d170a00b409d84ed2c46f8f9">MR_replaceInplace</a> (<a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *target, const char *from, const char *from_end, const char *to, const char *to_end)</td></tr>
 <tr class="separator:a1e0bde14d170a00b409d84ed2c46f8f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a761c476b3907f0b69dd807ef0a27e0aa" id="r_a761c476b3907f0b69dd807ef0a27e0aa"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRFeatureHelpers_8h.html#a169b2cb1c4b9a267fdcd4b388a456d37">MR_std_string_view</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a761c476b3907f0b69dd807ef0a27e0aa">MR_trim</a> (const char *str, const char *str_end)</td></tr>
+<tr class="memitem:a761c476b3907f0b69dd807ef0a27e0aa" id="r_a761c476b3907f0b69dd807ef0a27e0aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRFeatureHelpers_8h.html#a169b2cb1c4b9a267fdcd4b388a456d37">MR_std_string_view</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a761c476b3907f0b69dd807ef0a27e0aa">MR_trim</a> (const char *str, const char *str_end)</td></tr>
 <tr class="separator:a761c476b3907f0b69dd807ef0a27e0aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a29d2ca719ccfa90529543fb832aa871f" id="r_a29d2ca719ccfa90529543fb832aa871f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRFeatureHelpers_8h.html#a169b2cb1c4b9a267fdcd4b388a456d37">MR_std_string_view</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29d2ca719ccfa90529543fb832aa871f">MR_trimLeft</a> (const char *str, const char *str_end)</td></tr>
+<tr class="memitem:a29d2ca719ccfa90529543fb832aa871f" id="r_a29d2ca719ccfa90529543fb832aa871f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRFeatureHelpers_8h.html#a169b2cb1c4b9a267fdcd4b388a456d37">MR_std_string_view</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29d2ca719ccfa90529543fb832aa871f">MR_trimLeft</a> (const char *str, const char *str_end)</td></tr>
 <tr class="separator:a29d2ca719ccfa90529543fb832aa871f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a95ca4120d6ab5fee907117ac3d93edce" id="r_a95ca4120d6ab5fee907117ac3d93edce"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRFeatureHelpers_8h.html#a169b2cb1c4b9a267fdcd4b388a456d37">MR_std_string_view</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95ca4120d6ab5fee907117ac3d93edce">MR_trimRight</a> (const char *str, const char *str_end)</td></tr>
+<tr class="memitem:a95ca4120d6ab5fee907117ac3d93edce" id="r_a95ca4120d6ab5fee907117ac3d93edce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRFeatureHelpers_8h.html#a169b2cb1c4b9a267fdcd4b388a456d37">MR_std_string_view</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95ca4120d6ab5fee907117ac3d93edce">MR_trimRight</a> (const char *str, const char *str_end)</td></tr>
 <tr class="separator:a95ca4120d6ab5fee907117ac3d93edce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -243,7 +237,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API int32_t MR_calcDamerauLevenshteinDistance </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t MR_calcDamerauLevenshteinDistance </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>stringA</em></span>, </td>
         </tr>
@@ -280,7 +274,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> MR_findSubstringCaseInsensitive </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> MR_findSubstringCaseInsensitive </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>string</em></span>, </td>
         </tr>
@@ -302,7 +296,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_replace </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_replace </td>
           <td>(</td>
           <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>target</em></span>, </td>
         </tr>
@@ -351,7 +345,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_replaceInplace </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_replaceInplace </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>target</em></span>, </td>
         </tr>
@@ -395,7 +389,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRAngleMeasurementObject_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> * MR_split </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAngleMeasurementObject_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> * MR_split </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>string</em></span>, </td>
         </tr>
@@ -417,7 +411,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRFeatureHelpers_8h.html#a169b2cb1c4b9a267fdcd4b388a456d37">MR_std_string_view</a> * MR_trim </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRFeatureHelpers_8h.html#a169b2cb1c4b9a267fdcd4b388a456d37">MR_std_string_view</a> * MR_trim </td>
           <td>(</td>
           <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>str</em></span>, </td>
         </tr>
@@ -439,7 +433,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRFeatureHelpers_8h.html#a169b2cb1c4b9a267fdcd4b388a456d37">MR_std_string_view</a> * MR_trimLeft </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRFeatureHelpers_8h.html#a169b2cb1c4b9a267fdcd4b388a456d37">MR_std_string_view</a> * MR_trimLeft </td>
           <td>(</td>
           <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>str</em></span>, </td>
         </tr>
@@ -461,7 +455,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRFeatureHelpers_8h.html#a169b2cb1c4b9a267fdcd4b388a456d37">MR_std_string_view</a> * MR_trimRight </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRFeatureHelpers_8h.html#a169b2cb1c4b9a267fdcd4b388a456d37">MR_std_string_view</a> * MR_trimRight </td>
           <td>(</td>
           <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>str</em></span>, </td>
         </tr>

@@ -14,12 +14,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -160,7 +154,7 @@ $(function(){initNavTree('MRSurfacePath_8h.html',''); initResizable(true); });
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="MREnums_8h_source.html">MRCMesh/MREnums.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="MRId_8h_source.html">MRCMesh/MRId.h</a>&gt;</code><br />
-<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
 <code>#include &lt;stdint.h&gt;</code><br />
 </div>
@@ -217,77 +211,77 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a146d7d212330b57a702e2c13aa99f33d" id="r_a146d7d212330b57a702e2c13aa99f33d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a146d7d212330b57a702e2c13aa99f33d">MR_toString_MR_PathError</a> (<a class="el" href="#a5a353cb464a2fc9991af01d7f53aef78">MR_PathError</a> error)</td></tr>
+<tr class="memitem:a146d7d212330b57a702e2c13aa99f33d" id="r_a146d7d212330b57a702e2c13aa99f33d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a146d7d212330b57a702e2c13aa99f33d">MR_toString_MR_PathError</a> (<a class="el" href="#a5a353cb464a2fc9991af01d7f53aef78">MR_PathError</a> error)</td></tr>
 <tr class="separator:a146d7d212330b57a702e2c13aa99f33d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac390d04db2c2d957e576df859ddd6664" id="r_ac390d04db2c2d957e576df859ddd6664"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#afca0563c952d60b725c586d6e43a81cb">MR_expected_std_vector_MR_EdgePoint_MR_PathError</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac390d04db2c2d957e576df859ddd6664">MR_computeSurfacePath</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *start, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *end, const int32_t *maxGeodesicIters, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *vertRegion, <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a> *outSurfaceDistances)</td></tr>
+<tr class="memitem:ac390d04db2c2d957e576df859ddd6664" id="r_ac390d04db2c2d957e576df859ddd6664"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#afca0563c952d60b725c586d6e43a81cb">MR_expected_std_vector_MR_EdgePoint_MR_PathError</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac390d04db2c2d957e576df859ddd6664">MR_computeSurfacePath</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *start, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *end, const int32_t *maxGeodesicIters, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *vertRegion, <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a> *outSurfaceDistances)</td></tr>
 <tr class="separator:ac390d04db2c2d957e576df859ddd6664"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e9b9ba414eba706da7460c56cfa5772" id="r_a5e9b9ba414eba706da7460c56cfa5772"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#afca0563c952d60b725c586d6e43a81cb">MR_expected_std_vector_MR_EdgePoint_MR_PathError</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e9b9ba414eba706da7460c56cfa5772">MR_computeGeodesicPath</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *start, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *end, const <a class="el" href="MREnums_8h.html#af177c0b5e857af7a97397d447e3535b5">MR_GeodesicPathApprox</a> *atype, const int32_t *maxGeodesicIters)</td></tr>
+<tr class="memitem:a5e9b9ba414eba706da7460c56cfa5772" id="r_a5e9b9ba414eba706da7460c56cfa5772"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#afca0563c952d60b725c586d6e43a81cb">MR_expected_std_vector_MR_EdgePoint_MR_PathError</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e9b9ba414eba706da7460c56cfa5772">MR_computeGeodesicPath</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *start, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *end, const <a class="el" href="MREnums_8h.html#af177c0b5e857af7a97397d447e3535b5">MR_GeodesicPathApprox</a> *atype, const int32_t *maxGeodesicIters)</td></tr>
 <tr class="separator:a5e9b9ba414eba706da7460c56cfa5772"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa272ea660d4f95b948bd43fccfed1fa5" id="r_aa272ea660d4f95b948bd43fccfed1fa5"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#afca0563c952d60b725c586d6e43a81cb">MR_expected_std_vector_MR_EdgePoint_MR_PathError</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa272ea660d4f95b948bd43fccfed1fa5">MR_computeGeodesicPathApprox</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *start, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *end, <a class="el" href="MREnums_8h.html#af177c0b5e857af7a97397d447e3535b5">MR_GeodesicPathApprox</a> atype)</td></tr>
+<tr class="memitem:aa272ea660d4f95b948bd43fccfed1fa5" id="r_aa272ea660d4f95b948bd43fccfed1fa5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#afca0563c952d60b725c586d6e43a81cb">MR_expected_std_vector_MR_EdgePoint_MR_PathError</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa272ea660d4f95b948bd43fccfed1fa5">MR_computeGeodesicPathApprox</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *start, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *end, <a class="el" href="MREnums_8h.html#af177c0b5e857af7a97397d447e3535b5">MR_GeodesicPathApprox</a> atype)</td></tr>
 <tr class="separator:aa272ea660d4f95b948bd43fccfed1fa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa4e76ecf741aafad8b6664a66e8fc3b6" id="r_aa4e76ecf741aafad8b6664a66e8fc3b6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#afca0563c952d60b725c586d6e43a81cb">MR_expected_std_vector_MR_EdgePoint_MR_PathError</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4e76ecf741aafad8b6664a66e8fc3b6">MR_computeFastMarchingPath</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *start, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *end, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *vertRegion, <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a> *outSurfaceDistances)</td></tr>
+<tr class="memitem:aa4e76ecf741aafad8b6664a66e8fc3b6" id="r_aa4e76ecf741aafad8b6664a66e8fc3b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#afca0563c952d60b725c586d6e43a81cb">MR_expected_std_vector_MR_EdgePoint_MR_PathError</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4e76ecf741aafad8b6664a66e8fc3b6">MR_computeFastMarchingPath</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *start, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *end, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *vertRegion, <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a> *outSurfaceDistances)</td></tr>
 <tr class="separator:aa4e76ecf741aafad8b6664a66e8fc3b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc282ee99a0bf417171ed1c64beffa56" id="r_abc282ee99a0bf417171ed1c64beffa56"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc282ee99a0bf417171ed1c64beffa56">MR_ComputeSteepestDescentPathSettings_Get_end</a> (const <a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *_this)</td></tr>
+<tr class="memitem:abc282ee99a0bf417171ed1c64beffa56" id="r_abc282ee99a0bf417171ed1c64beffa56"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc282ee99a0bf417171ed1c64beffa56">MR_ComputeSteepestDescentPathSettings_Get_end</a> (const <a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *_this)</td></tr>
 <tr class="separator:abc282ee99a0bf417171ed1c64beffa56"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af81a9e6550e635e8e27ecaa3bcd89e68" id="r_af81a9e6550e635e8e27ecaa3bcd89e68"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af81a9e6550e635e8e27ecaa3bcd89e68">MR_ComputeSteepestDescentPathSettings_Set_end</a> (<a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *_this, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *value)</td></tr>
+<tr class="memitem:af81a9e6550e635e8e27ecaa3bcd89e68" id="r_af81a9e6550e635e8e27ecaa3bcd89e68"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af81a9e6550e635e8e27ecaa3bcd89e68">MR_ComputeSteepestDescentPathSettings_Set_end</a> (<a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *_this, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *value)</td></tr>
 <tr class="separator:af81a9e6550e635e8e27ecaa3bcd89e68"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a804df7aae02c25be3a71a7a390147d2f" id="r_a804df7aae02c25be3a71a7a390147d2f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a804df7aae02c25be3a71a7a390147d2f">MR_ComputeSteepestDescentPathSettings_GetMutable_end</a> (<a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *_this)</td></tr>
+<tr class="memitem:a804df7aae02c25be3a71a7a390147d2f" id="r_a804df7aae02c25be3a71a7a390147d2f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a804df7aae02c25be3a71a7a390147d2f">MR_ComputeSteepestDescentPathSettings_GetMutable_end</a> (<a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *_this)</td></tr>
 <tr class="separator:a804df7aae02c25be3a71a7a390147d2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a739800ab56cb2c5a4a28525ae00b4a04" id="r_a739800ab56cb2c5a4a28525ae00b4a04"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__VertId.html">MR_VertId</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a739800ab56cb2c5a4a28525ae00b4a04">MR_ComputeSteepestDescentPathSettings_Get_outVertexReached</a> (const <a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *_this)</td></tr>
+<tr class="memitem:a739800ab56cb2c5a4a28525ae00b4a04" id="r_a739800ab56cb2c5a4a28525ae00b4a04"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__VertId.html">MR_VertId</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a739800ab56cb2c5a4a28525ae00b4a04">MR_ComputeSteepestDescentPathSettings_Get_outVertexReached</a> (const <a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *_this)</td></tr>
 <tr class="separator:a739800ab56cb2c5a4a28525ae00b4a04"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a923eb4871715dd9fb72725badc620bbf" id="r_a923eb4871715dd9fb72725badc620bbf"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a923eb4871715dd9fb72725badc620bbf">MR_ComputeSteepestDescentPathSettings_Set_outVertexReached</a> (<a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *_this, <a class="el" href="structMR__VertId.html">MR_VertId</a> *value)</td></tr>
+<tr class="memitem:a923eb4871715dd9fb72725badc620bbf" id="r_a923eb4871715dd9fb72725badc620bbf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a923eb4871715dd9fb72725badc620bbf">MR_ComputeSteepestDescentPathSettings_Set_outVertexReached</a> (<a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *_this, <a class="el" href="structMR__VertId.html">MR_VertId</a> *value)</td></tr>
 <tr class="separator:a923eb4871715dd9fb72725badc620bbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a33f49f4fe38c5e83ad6503bdc1e16f" id="r_a5a33f49f4fe38c5e83ad6503bdc1e16f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__VertId.html">MR_VertId</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a33f49f4fe38c5e83ad6503bdc1e16f">MR_ComputeSteepestDescentPathSettings_GetMutable_outVertexReached</a> (<a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *_this)</td></tr>
+<tr class="memitem:a5a33f49f4fe38c5e83ad6503bdc1e16f" id="r_a5a33f49f4fe38c5e83ad6503bdc1e16f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__VertId.html">MR_VertId</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a33f49f4fe38c5e83ad6503bdc1e16f">MR_ComputeSteepestDescentPathSettings_GetMutable_outVertexReached</a> (<a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *_this)</td></tr>
 <tr class="separator:a5a33f49f4fe38c5e83ad6503bdc1e16f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac195a11d54b6722585c1f86bb0fba4e6" id="r_ac195a11d54b6722585c1f86bb0fba4e6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MREdgePoint_8h.html#a50185006f78fd01ef7f1316a047afa45">MR_EdgePoint</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac195a11d54b6722585c1f86bb0fba4e6">MR_ComputeSteepestDescentPathSettings_Get_outBdReached</a> (const <a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *_this)</td></tr>
+<tr class="memitem:ac195a11d54b6722585c1f86bb0fba4e6" id="r_ac195a11d54b6722585c1f86bb0fba4e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MREdgePoint_8h.html#a50185006f78fd01ef7f1316a047afa45">MR_EdgePoint</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac195a11d54b6722585c1f86bb0fba4e6">MR_ComputeSteepestDescentPathSettings_Get_outBdReached</a> (const <a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *_this)</td></tr>
 <tr class="separator:ac195a11d54b6722585c1f86bb0fba4e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ff0ea1f355ea777366b1b8cbbac9018" id="r_a8ff0ea1f355ea777366b1b8cbbac9018"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ff0ea1f355ea777366b1b8cbbac9018">MR_ComputeSteepestDescentPathSettings_Set_outBdReached</a> (<a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *_this, <a class="el" href="MREdgePoint_8h.html#a50185006f78fd01ef7f1316a047afa45">MR_EdgePoint</a> *value)</td></tr>
+<tr class="memitem:a8ff0ea1f355ea777366b1b8cbbac9018" id="r_a8ff0ea1f355ea777366b1b8cbbac9018"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ff0ea1f355ea777366b1b8cbbac9018">MR_ComputeSteepestDescentPathSettings_Set_outBdReached</a> (<a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *_this, <a class="el" href="MREdgePoint_8h.html#a50185006f78fd01ef7f1316a047afa45">MR_EdgePoint</a> *value)</td></tr>
 <tr class="separator:a8ff0ea1f355ea777366b1b8cbbac9018"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae59b4ffde95d5c15cee9f4da5cad0b24" id="r_ae59b4ffde95d5c15cee9f4da5cad0b24"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MREdgePoint_8h.html#a50185006f78fd01ef7f1316a047afa45">MR_EdgePoint</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae59b4ffde95d5c15cee9f4da5cad0b24">MR_ComputeSteepestDescentPathSettings_GetMutable_outBdReached</a> (<a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *_this)</td></tr>
+<tr class="memitem:ae59b4ffde95d5c15cee9f4da5cad0b24" id="r_ae59b4ffde95d5c15cee9f4da5cad0b24"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MREdgePoint_8h.html#a50185006f78fd01ef7f1316a047afa45">MR_EdgePoint</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae59b4ffde95d5c15cee9f4da5cad0b24">MR_ComputeSteepestDescentPathSettings_GetMutable_outBdReached</a> (<a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *_this)</td></tr>
 <tr class="separator:ae59b4ffde95d5c15cee9f4da5cad0b24"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aecb6aeed173c11fe44793c582c32ab61" id="r_aecb6aeed173c11fe44793c582c32ab61"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aecb6aeed173c11fe44793c582c32ab61">MR_ComputeSteepestDescentPathSettings_DefaultConstruct</a> (void)</td></tr>
+<tr class="memitem:aecb6aeed173c11fe44793c582c32ab61" id="r_aecb6aeed173c11fe44793c582c32ab61"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aecb6aeed173c11fe44793c582c32ab61">MR_ComputeSteepestDescentPathSettings_DefaultConstruct</a> (void)</td></tr>
 <tr class="separator:aecb6aeed173c11fe44793c582c32ab61"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd1ae120a816235dd4c2fdfa21c71c25" id="r_abd1ae120a816235dd4c2fdfa21c71c25"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd1ae120a816235dd4c2fdfa21c71c25">MR_ComputeSteepestDescentPathSettings_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="memitem:abd1ae120a816235dd4c2fdfa21c71c25" id="r_abd1ae120a816235dd4c2fdfa21c71c25"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd1ae120a816235dd4c2fdfa21c71c25">MR_ComputeSteepestDescentPathSettings_DefaultConstructArray</a> (size_t num_elems)</td></tr>
 <tr class="separator:abd1ae120a816235dd4c2fdfa21c71c25"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae45a4009da49c1961e4f2e20914361d5" id="r_ae45a4009da49c1961e4f2e20914361d5"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae45a4009da49c1961e4f2e20914361d5">MR_ComputeSteepestDescentPathSettings_ConstructFrom</a> (const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *end, <a class="el" href="structMR__VertId.html">MR_VertId</a> *outVertexReached, <a class="el" href="MREdgePoint_8h.html#a50185006f78fd01ef7f1316a047afa45">MR_EdgePoint</a> *outBdReached)</td></tr>
+<tr class="memitem:ae45a4009da49c1961e4f2e20914361d5" id="r_ae45a4009da49c1961e4f2e20914361d5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae45a4009da49c1961e4f2e20914361d5">MR_ComputeSteepestDescentPathSettings_ConstructFrom</a> (const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *end, <a class="el" href="structMR__VertId.html">MR_VertId</a> *outVertexReached, <a class="el" href="MREdgePoint_8h.html#a50185006f78fd01ef7f1316a047afa45">MR_EdgePoint</a> *outBdReached)</td></tr>
 <tr class="separator:ae45a4009da49c1961e4f2e20914361d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1a3051b13602b2c5c11fdf4a72b23c99" id="r_a1a3051b13602b2c5c11fdf4a72b23c99"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a3051b13602b2c5c11fdf4a72b23c99">MR_ComputeSteepestDescentPathSettings_OffsetPtr</a> (const <a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a1a3051b13602b2c5c11fdf4a72b23c99" id="r_a1a3051b13602b2c5c11fdf4a72b23c99"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a3051b13602b2c5c11fdf4a72b23c99">MR_ComputeSteepestDescentPathSettings_OffsetPtr</a> (const <a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a1a3051b13602b2c5c11fdf4a72b23c99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a1a3051b13602b2c5c11fdf4a72b23c99"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a620d54c2818ac8ff72d248a3f0516b05" id="r_a620d54c2818ac8ff72d248a3f0516b05"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a620d54c2818ac8ff72d248a3f0516b05">MR_ComputeSteepestDescentPathSettings_OffsetMutablePtr</a> (<a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a620d54c2818ac8ff72d248a3f0516b05" id="r_a620d54c2818ac8ff72d248a3f0516b05"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a620d54c2818ac8ff72d248a3f0516b05">MR_ComputeSteepestDescentPathSettings_OffsetMutablePtr</a> (<a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a620d54c2818ac8ff72d248a3f0516b05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a620d54c2818ac8ff72d248a3f0516b05"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46638d5ddffaa7e1e559caa5103c8e7a" id="r_a46638d5ddffaa7e1e559caa5103c8e7a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46638d5ddffaa7e1e559caa5103c8e7a">MR_ComputeSteepestDescentPathSettings_ConstructFromAnother</a> (const <a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *_other)</td></tr>
+<tr class="memitem:a46638d5ddffaa7e1e559caa5103c8e7a" id="r_a46638d5ddffaa7e1e559caa5103c8e7a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46638d5ddffaa7e1e559caa5103c8e7a">MR_ComputeSteepestDescentPathSettings_ConstructFromAnother</a> (const <a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *_other)</td></tr>
 <tr class="separator:a46638d5ddffaa7e1e559caa5103c8e7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e91384fdadbc64b647bfd534b141d07" id="r_a0e91384fdadbc64b647bfd534b141d07"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e91384fdadbc64b647bfd534b141d07">MR_ComputeSteepestDescentPathSettings_Destroy</a> (const <a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *_this)</td></tr>
+<tr class="memitem:a0e91384fdadbc64b647bfd534b141d07" id="r_a0e91384fdadbc64b647bfd534b141d07"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e91384fdadbc64b647bfd534b141d07">MR_ComputeSteepestDescentPathSettings_Destroy</a> (const <a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *_this)</td></tr>
 <tr class="memdesc:a0e91384fdadbc64b647bfd534b141d07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_ComputeSteepestDescentPathSettings</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:a0e91384fdadbc64b647bfd534b141d07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3277cae689101dadc1f2323e0eba1c42" id="r_a3277cae689101dadc1f2323e0eba1c42"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3277cae689101dadc1f2323e0eba1c42">MR_ComputeSteepestDescentPathSettings_DestroyArray</a> (const <a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *_this)</td></tr>
+<tr class="memitem:a3277cae689101dadc1f2323e0eba1c42" id="r_a3277cae689101dadc1f2323e0eba1c42"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3277cae689101dadc1f2323e0eba1c42">MR_ComputeSteepestDescentPathSettings_DestroyArray</a> (const <a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *_this)</td></tr>
 <tr class="memdesc:a3277cae689101dadc1f2323e0eba1c42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_ComputeSteepestDescentPathSettings</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:a3277cae689101dadc1f2323e0eba1c42"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad00884f71691dddd6c0385135ab6f288" id="r_ad00884f71691dddd6c0385135ab6f288"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad00884f71691dddd6c0385135ab6f288">MR_ComputeSteepestDescentPathSettings_AssignFromAnother</a> (<a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *_this, const <a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *_other)</td></tr>
+<tr class="memitem:ad00884f71691dddd6c0385135ab6f288" id="r_ad00884f71691dddd6c0385135ab6f288"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad00884f71691dddd6c0385135ab6f288">MR_ComputeSteepestDescentPathSettings_AssignFromAnother</a> (<a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *_this, const <a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *_other)</td></tr>
 <tr class="separator:ad00884f71691dddd6c0385135ab6f288"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afae1ab35bf68d02f1542d49a9d855733" id="r_afae1ab35bf68d02f1542d49a9d855733"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MREdgePaths_8h.html#a9138e3f58ce2b39215044d2e368587ae">MR_std_vector_MR_EdgePoint</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afae1ab35bf68d02f1542d49a9d855733">MR_computeSteepestDescentPath_4</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp, const <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a> *field, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *start, const <a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *settings)</td></tr>
+<tr class="memitem:afae1ab35bf68d02f1542d49a9d855733" id="r_afae1ab35bf68d02f1542d49a9d855733"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MREdgePaths_8h.html#a9138e3f58ce2b39215044d2e368587ae">MR_std_vector_MR_EdgePoint</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afae1ab35bf68d02f1542d49a9d855733">MR_computeSteepestDescentPath_4</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp, const <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a> *field, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *start, const <a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *settings)</td></tr>
 <tr class="separator:afae1ab35bf68d02f1542d49a9d855733"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f770c7f5f4e172add7b311e778c53d3" id="r_a4f770c7f5f4e172add7b311e778c53d3"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f770c7f5f4e172add7b311e778c53d3">MR_computeSteepestDescentPath_5</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp, const <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a> *field, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *start, <a class="el" href="MREdgePaths_8h.html#a9138e3f58ce2b39215044d2e368587ae">MR_std_vector_MR_EdgePoint</a> *outPath, const <a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *settings)</td></tr>
+<tr class="memitem:a4f770c7f5f4e172add7b311e778c53d3" id="r_a4f770c7f5f4e172add7b311e778c53d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f770c7f5f4e172add7b311e778c53d3">MR_computeSteepestDescentPath_5</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp, const <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a> *field, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *start, <a class="el" href="MREdgePaths_8h.html#a9138e3f58ce2b39215044d2e368587ae">MR_std_vector_MR_EdgePoint</a> *outPath, const <a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *settings)</td></tr>
 <tr class="separator:a4f770c7f5f4e172add7b311e778c53d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a77a3f9f8ff5ade5e45f217468c4f64ce" id="r_a77a3f9f8ff5ade5e45f217468c4f64ce"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MREdgePoint_8h.html#a50185006f78fd01ef7f1316a047afa45">MR_EdgePoint</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77a3f9f8ff5ade5e45f217468c4f64ce">MR_findSteepestDescentPoint_MR_VertId</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp, const <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a> *field, <a class="el" href="structMR__VertId.html">MR_VertId</a> v)</td></tr>
+<tr class="memitem:a77a3f9f8ff5ade5e45f217468c4f64ce" id="r_a77a3f9f8ff5ade5e45f217468c4f64ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MREdgePoint_8h.html#a50185006f78fd01ef7f1316a047afa45">MR_EdgePoint</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77a3f9f8ff5ade5e45f217468c4f64ce">MR_findSteepestDescentPoint_MR_VertId</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp, const <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a> *field, <a class="el" href="structMR__VertId.html">MR_VertId</a> v)</td></tr>
 <tr class="separator:a77a3f9f8ff5ade5e45f217468c4f64ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec1423343c0ab33c22c6900f7dbd5dd9" id="r_aec1423343c0ab33c22c6900f7dbd5dd9"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MREdgePoint_8h.html#a50185006f78fd01ef7f1316a047afa45">MR_EdgePoint</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec1423343c0ab33c22c6900f7dbd5dd9">MR_findSteepestDescentPoint_MR_EdgePoint</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp, const <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a> *field, const <a class="el" href="MREdgePoint_8h.html#a50185006f78fd01ef7f1316a047afa45">MR_EdgePoint</a> *ep)</td></tr>
+<tr class="memitem:aec1423343c0ab33c22c6900f7dbd5dd9" id="r_aec1423343c0ab33c22c6900f7dbd5dd9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MREdgePoint_8h.html#a50185006f78fd01ef7f1316a047afa45">MR_EdgePoint</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec1423343c0ab33c22c6900f7dbd5dd9">MR_findSteepestDescentPoint_MR_EdgePoint</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp, const <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a> *field, const <a class="el" href="MREdgePoint_8h.html#a50185006f78fd01ef7f1316a047afa45">MR_EdgePoint</a> *ep)</td></tr>
 <tr class="separator:aec1423343c0ab33c22c6900f7dbd5dd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae2fd32c362183487f0ae51d81373415e" id="r_ae2fd32c362183487f0ae51d81373415e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MREdgePoint_8h.html#a50185006f78fd01ef7f1316a047afa45">MR_EdgePoint</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae2fd32c362183487f0ae51d81373415e">MR_findSteepestDescentPoint_MR_MeshTriPoint</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp, const <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a> *field, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *tp)</td></tr>
+<tr class="memitem:ae2fd32c362183487f0ae51d81373415e" id="r_ae2fd32c362183487f0ae51d81373415e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MREdgePoint_8h.html#a50185006f78fd01ef7f1316a047afa45">MR_EdgePoint</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae2fd32c362183487f0ae51d81373415e">MR_findSteepestDescentPoint_MR_MeshTriPoint</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp, const <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a> *field, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *tp)</td></tr>
 <tr class="separator:ae2fd32c362183487f0ae51d81373415e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b6784b6bcf611e09fc7c5a1da954395" id="r_a2b6784b6bcf611e09fc7c5a1da954395"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b6784b6bcf611e09fc7c5a1da954395">MR_findExtremeEdges</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a> *field, <a class="el" href="#a9802a8314e2539b108d78be8f4b3e043">MR_ExtremeEdgeType</a> type)</td></tr>
+<tr class="memitem:a2b6784b6bcf611e09fc7c5a1da954395" id="r_a2b6784b6bcf611e09fc7c5a1da954395"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b6784b6bcf611e09fc7c5a1da954395">MR_findExtremeEdges</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a> *field, <a class="el" href="#a9802a8314e2539b108d78be8f4b3e043">MR_ExtremeEdgeType</a> type)</td></tr>
 <tr class="separator:a2b6784b6bcf611e09fc7c5a1da954395"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b3860ef5a0e61bc98d1d993fed19bcb" id="r_a2b3860ef5a0e61bc98d1d993fed19bcb"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBitSet_8h.html#a4b90f49d08ad220afcccf3e064a60cdd">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b3860ef5a0e61bc98d1d993fed19bcb">MR_computeClosestSurfacePathTargets</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *starts, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *ends, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *vertRegion, <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a> *outSurfaceDistances)</td></tr>
+<tr class="memitem:a2b3860ef5a0e61bc98d1d993fed19bcb" id="r_a2b3860ef5a0e61bc98d1d993fed19bcb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBitSet_8h.html#a4b90f49d08ad220afcccf3e064a60cdd">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b3860ef5a0e61bc98d1d993fed19bcb">MR_computeClosestSurfacePathTargets</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *starts, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *ends, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *vertRegion, <a class="el" href="MRAggregateFlow_8h.html#a6e4bb5e8943c9b1f5d438198404d0bd4">MR_VertScalars</a> *outSurfaceDistances)</td></tr>
 <tr class="separator:a2b3860ef5a0e61bc98d1d993fed19bcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94c51f2f1d92f9251d945b0045001108" id="r_a94c51f2f1d92f9251d945b0045001108"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRExtractIsolines_8h.html#a9eda717f5871eea7d095bcf2f34a7a98">MR_std_vector_std_vector_MR_EdgePoint</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94c51f2f1d92f9251d945b0045001108">MR_getSurfacePathsViaVertices</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *vs)</td></tr>
+<tr class="memitem:a94c51f2f1d92f9251d945b0045001108" id="r_a94c51f2f1d92f9251d945b0045001108"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRExtractIsolines_8h.html#a9eda717f5871eea7d095bcf2f34a7a98">MR_std_vector_std_vector_MR_EdgePoint</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94c51f2f1d92f9251d945b0045001108">MR_getSurfacePathsViaVertices</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *vs)</td></tr>
 <tr class="separator:a94c51f2f1d92f9251d945b0045001108"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a86a1971ed1f3a0ea0491c217a9fcce53" id="r_a86a1971ed1f3a0ea0491c217a9fcce53"><td class="memItemLeft" align="right" valign="top">MRC_API float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86a1971ed1f3a0ea0491c217a9fcce53">MR_surfacePathLength</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MREdgePaths_8h.html#a9138e3f58ce2b39215044d2e368587ae">MR_std_vector_MR_EdgePoint</a> *surfacePath)</td></tr>
+<tr class="memitem:a86a1971ed1f3a0ea0491c217a9fcce53" id="r_a86a1971ed1f3a0ea0491c217a9fcce53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86a1971ed1f3a0ea0491c217a9fcce53">MR_surfacePathLength</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MREdgePaths_8h.html#a9138e3f58ce2b39215044d2e368587ae">MR_std_vector_MR_EdgePoint</a> *surfacePath)</td></tr>
 <tr class="separator:a86a1971ed1f3a0ea0491c217a9fcce53"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8565496250e83ea07dc00bbfe10d50a1" id="r_a8565496250e83ea07dc00bbfe10d50a1"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8565496250e83ea07dc00bbfe10d50a1">MR_surfacePathToContour3f</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MREdgePaths_8h.html#a9138e3f58ce2b39215044d2e368587ae">MR_std_vector_MR_EdgePoint</a> *line)</td></tr>
+<tr class="memitem:a8565496250e83ea07dc00bbfe10d50a1" id="r_a8565496250e83ea07dc00bbfe10d50a1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8565496250e83ea07dc00bbfe10d50a1">MR_surfacePathToContour3f</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MREdgePaths_8h.html#a9138e3f58ce2b39215044d2e368587ae">MR_std_vector_MR_EdgePoint</a> *line)</td></tr>
 <tr class="separator:a8565496250e83ea07dc00bbfe10d50a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac5e949720de99c0a1e8142c8f0353122" id="r_ac5e949720de99c0a1e8142c8f0353122"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRContour_8h.html#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac5e949720de99c0a1e8142c8f0353122">MR_surfacePathsToContours3f</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRExtractIsolines_8h.html#a9eda717f5871eea7d095bcf2f34a7a98">MR_std_vector_std_vector_MR_EdgePoint</a> *lines)</td></tr>
+<tr class="memitem:ac5e949720de99c0a1e8142c8f0353122" id="r_ac5e949720de99c0a1e8142c8f0353122"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRContour_8h.html#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac5e949720de99c0a1e8142c8f0353122">MR_surfacePathsToContours3f</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRExtractIsolines_8h.html#a9eda717f5871eea7d095bcf2f34a7a98">MR_std_vector_std_vector_MR_EdgePoint</a> *lines)</td></tr>
 <tr class="separator:ac5e949720de99c0a1e8142c8f0353122"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -578,7 +572,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRBitSet_8h.html#a4b90f49d08ad220afcccf3e064a60cdd">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</a> * MR_computeClosestSurfacePathTargets </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBitSet_8h.html#a4b90f49d08ad220afcccf3e064a60cdd">MR_phmap_flat_hash_map_MR_VertId_MR_VertId</a> * MR_computeClosestSurfacePathTargets </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
@@ -620,7 +614,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#afca0563c952d60b725c586d6e43a81cb">MR_expected_std_vector_MR_EdgePoint_MR_PathError</a> * MR_computeFastMarchingPath </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#afca0563c952d60b725c586d6e43a81cb">MR_expected_std_vector_MR_EdgePoint_MR_PathError</a> * MR_computeFastMarchingPath </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *</td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
         </tr>
@@ -657,7 +651,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#afca0563c952d60b725c586d6e43a81cb">MR_expected_std_vector_MR_EdgePoint_MR_PathError</a> * MR_computeGeodesicPath </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#afca0563c952d60b725c586d6e43a81cb">MR_expected_std_vector_MR_EdgePoint_MR_PathError</a> * MR_computeGeodesicPath </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
@@ -694,7 +688,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#afca0563c952d60b725c586d6e43a81cb">MR_expected_std_vector_MR_EdgePoint_MR_PathError</a> * MR_computeGeodesicPathApprox </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#afca0563c952d60b725c586d6e43a81cb">MR_expected_std_vector_MR_EdgePoint_MR_PathError</a> * MR_computeGeodesicPathApprox </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
@@ -726,7 +720,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MREdgePaths_8h.html#a9138e3f58ce2b39215044d2e368587ae">MR_std_vector_MR_EdgePoint</a> * MR_computeSteepestDescentPath_4 </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MREdgePaths_8h.html#a9138e3f58ce2b39215044d2e368587ae">MR_std_vector_MR_EdgePoint</a> * MR_computeSteepestDescentPath_4 </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *</td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
         </tr>
@@ -758,7 +752,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_computeSteepestDescentPath_5 </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_computeSteepestDescentPath_5 </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *</td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
         </tr>
@@ -800,7 +794,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> * MR_ComputeSteepestDescentPathSettings_AssignFromAnother </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> * MR_ComputeSteepestDescentPathSettings_AssignFromAnother </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -822,7 +816,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> * MR_ComputeSteepestDescentPathSettings_ConstructFrom </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> * MR_ComputeSteepestDescentPathSettings_ConstructFrom </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *</td>          <td class="paramname"><span class="paramname"><em>end</em></span>, </td>
         </tr>
@@ -849,7 +843,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> * MR_ComputeSteepestDescentPathSettings_ConstructFromAnother </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> * MR_ComputeSteepestDescentPathSettings_ConstructFromAnother </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
           <td></td>
@@ -867,7 +861,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> * MR_ComputeSteepestDescentPathSettings_DefaultConstruct </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> * MR_ComputeSteepestDescentPathSettings_DefaultConstruct </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -885,7 +879,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> * MR_ComputeSteepestDescentPathSettings_DefaultConstructArray </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> * MR_ComputeSteepestDescentPathSettings_DefaultConstructArray </td>
           <td>(</td>
           <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
           <td></td>
@@ -903,7 +897,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_ComputeSteepestDescentPathSettings_Destroy </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_ComputeSteepestDescentPathSettings_Destroy </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -922,7 +916,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_ComputeSteepestDescentPathSettings_DestroyArray </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_ComputeSteepestDescentPathSettings_DestroyArray </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -941,7 +935,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> * MR_ComputeSteepestDescentPathSettings_Get_end </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> * MR_ComputeSteepestDescentPathSettings_Get_end </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -959,7 +953,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MREdgePoint_8h.html#a50185006f78fd01ef7f1316a047afa45">MR_EdgePoint</a> *const  * MR_ComputeSteepestDescentPathSettings_Get_outBdReached </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MREdgePoint_8h.html#a50185006f78fd01ef7f1316a047afa45">MR_EdgePoint</a> *const  * MR_ComputeSteepestDescentPathSettings_Get_outBdReached </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -977,7 +971,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="structMR__VertId.html">MR_VertId</a> *const  * MR_ComputeSteepestDescentPathSettings_Get_outVertexReached </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__VertId.html">MR_VertId</a> *const  * MR_ComputeSteepestDescentPathSettings_Get_outVertexReached </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -995,7 +989,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> * MR_ComputeSteepestDescentPathSettings_GetMutable_end </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> * MR_ComputeSteepestDescentPathSettings_GetMutable_end </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1013,7 +1007,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MREdgePoint_8h.html#a50185006f78fd01ef7f1316a047afa45">MR_EdgePoint</a> ** MR_ComputeSteepestDescentPathSettings_GetMutable_outBdReached </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MREdgePoint_8h.html#a50185006f78fd01ef7f1316a047afa45">MR_EdgePoint</a> ** MR_ComputeSteepestDescentPathSettings_GetMutable_outBdReached </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1031,7 +1025,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="structMR__VertId.html">MR_VertId</a> ** MR_ComputeSteepestDescentPathSettings_GetMutable_outVertexReached </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__VertId.html">MR_VertId</a> ** MR_ComputeSteepestDescentPathSettings_GetMutable_outVertexReached </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1049,7 +1043,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> * MR_ComputeSteepestDescentPathSettings_OffsetMutablePtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> * MR_ComputeSteepestDescentPathSettings_OffsetMutablePtr </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -1072,7 +1066,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> * MR_ComputeSteepestDescentPathSettings_OffsetPtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> * MR_ComputeSteepestDescentPathSettings_OffsetPtr </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -1095,7 +1089,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_ComputeSteepestDescentPathSettings_Set_end </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_ComputeSteepestDescentPathSettings_Set_end </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1117,7 +1111,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_ComputeSteepestDescentPathSettings_Set_outBdReached </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_ComputeSteepestDescentPathSettings_Set_outBdReached </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1139,7 +1133,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_ComputeSteepestDescentPathSettings_Set_outVertexReached </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_ComputeSteepestDescentPathSettings_Set_outVertexReached </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a4893b0a050ddeb69f3eb2b02732046ab">MR_ComputeSteepestDescentPathSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1161,7 +1155,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#afca0563c952d60b725c586d6e43a81cb">MR_expected_std_vector_MR_EdgePoint_MR_PathError</a> * MR_computeSurfacePath </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#afca0563c952d60b725c586d6e43a81cb">MR_expected_std_vector_MR_EdgePoint_MR_PathError</a> * MR_computeSurfacePath </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *</td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
         </tr>
@@ -1203,7 +1197,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> * MR_findExtremeEdges </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> * MR_findExtremeEdges </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
@@ -1230,7 +1224,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MREdgePoint_8h.html#a50185006f78fd01ef7f1316a047afa45">MR_EdgePoint</a> * MR_findSteepestDescentPoint_MR_EdgePoint </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MREdgePoint_8h.html#a50185006f78fd01ef7f1316a047afa45">MR_EdgePoint</a> * MR_findSteepestDescentPoint_MR_EdgePoint </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *</td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
         </tr>
@@ -1257,7 +1251,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MREdgePoint_8h.html#a50185006f78fd01ef7f1316a047afa45">MR_EdgePoint</a> * MR_findSteepestDescentPoint_MR_MeshTriPoint </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MREdgePoint_8h.html#a50185006f78fd01ef7f1316a047afa45">MR_EdgePoint</a> * MR_findSteepestDescentPoint_MR_MeshTriPoint </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *</td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
         </tr>
@@ -1284,7 +1278,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MREdgePoint_8h.html#a50185006f78fd01ef7f1316a047afa45">MR_EdgePoint</a> * MR_findSteepestDescentPoint_MR_VertId </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MREdgePoint_8h.html#a50185006f78fd01ef7f1316a047afa45">MR_EdgePoint</a> * MR_findSteepestDescentPoint_MR_VertId </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *</td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
         </tr>
@@ -1311,7 +1305,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRExtractIsolines_8h.html#a9eda717f5871eea7d095bcf2f34a7a98">MR_std_vector_std_vector_MR_EdgePoint</a> * MR_getSurfacePathsViaVertices </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRExtractIsolines_8h.html#a9eda717f5871eea7d095bcf2f34a7a98">MR_std_vector_std_vector_MR_EdgePoint</a> * MR_getSurfacePathsViaVertices </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
@@ -1333,7 +1327,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API float MR_surfacePathLength </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float MR_surfacePathLength </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
@@ -1355,7 +1349,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRContour_8h.html#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> * MR_surfacePathsToContours3f </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRContour_8h.html#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> * MR_surfacePathsToContours3f </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
@@ -1377,7 +1371,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> * MR_surfacePathToContour3f </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> * MR_surfacePathToContour3f </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
@@ -1399,7 +1393,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_toString_MR_PathError </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_toString_MR_PathError </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a5a353cb464a2fc9991af01d7f53aef78">MR_PathError</a></td>          <td class="paramname"><span class="paramname"><em>error</em></span></td><td>)</td>
           <td></td>

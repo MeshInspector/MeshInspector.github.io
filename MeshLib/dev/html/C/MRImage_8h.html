@@ -14,12 +14,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -161,7 +155,7 @@ $(function(){initNavTree('MRImage_8h.html',''); initResizable(true); });
 <code>#include &lt;<a class="el" href="MRMeshFwd_8h_source.html">MRCMesh/MRMeshFwd.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="MRVector2_8h_source.html">MRCMesh/MRVector2.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
-<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
 </div>
 <p><a href="MRImage_8h_source.html">Go to the source code of this file.</a></p>
@@ -179,55 +173,55 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a2f7e3c9c8aa214084ddedcec297f44e4" id="r_a2f7e3c9c8aa214084ddedcec297f44e4"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f7e3c9c8aa214084ddedcec297f44e4">MR_Image_Get_pixels</a> (const <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *_this)</td></tr>
+<tr class="memitem:a2f7e3c9c8aa214084ddedcec297f44e4" id="r_a2f7e3c9c8aa214084ddedcec297f44e4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f7e3c9c8aa214084ddedcec297f44e4">MR_Image_Get_pixels</a> (const <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *_this)</td></tr>
 <tr class="separator:a2f7e3c9c8aa214084ddedcec297f44e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab0b663b054c5bad0647b49577f23831" id="r_aab0b663b054c5bad0647b49577f23831"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab0b663b054c5bad0647b49577f23831">MR_Image_Set_pixels</a> (<a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *value)</td></tr>
+<tr class="memitem:aab0b663b054c5bad0647b49577f23831" id="r_aab0b663b054c5bad0647b49577f23831"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab0b663b054c5bad0647b49577f23831">MR_Image_Set_pixels</a> (<a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *value)</td></tr>
 <tr class="separator:aab0b663b054c5bad0647b49577f23831"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ef4bd4bf41f7cb390651fe9a7340129" id="r_a4ef4bd4bf41f7cb390651fe9a7340129"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ef4bd4bf41f7cb390651fe9a7340129">MR_Image_GetMutable_pixels</a> (<a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *_this)</td></tr>
+<tr class="memitem:a4ef4bd4bf41f7cb390651fe9a7340129" id="r_a4ef4bd4bf41f7cb390651fe9a7340129"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ef4bd4bf41f7cb390651fe9a7340129">MR_Image_GetMutable_pixels</a> (<a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *_this)</td></tr>
 <tr class="separator:a4ef4bd4bf41f7cb390651fe9a7340129"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d92fea94ed3bebea0ba4ab197aaa056" id="r_a6d92fea94ed3bebea0ba4ab197aaa056"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__Vector2i.html">MR_Vector2i</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d92fea94ed3bebea0ba4ab197aaa056">MR_Image_Get_resolution</a> (const <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *_this)</td></tr>
+<tr class="memitem:a6d92fea94ed3bebea0ba4ab197aaa056" id="r_a6d92fea94ed3bebea0ba4ab197aaa056"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Vector2i.html">MR_Vector2i</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d92fea94ed3bebea0ba4ab197aaa056">MR_Image_Get_resolution</a> (const <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *_this)</td></tr>
 <tr class="separator:a6d92fea94ed3bebea0ba4ab197aaa056"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a2216249cbf183851ef39b9b997b197" id="r_a2a2216249cbf183851ef39b9b997b197"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a2216249cbf183851ef39b9b997b197">MR_Image_Set_resolution</a> (<a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *_this, <a class="el" href="structMR__Vector2i.html">MR_Vector2i</a> value)</td></tr>
+<tr class="memitem:a2a2216249cbf183851ef39b9b997b197" id="r_a2a2216249cbf183851ef39b9b997b197"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a2216249cbf183851ef39b9b997b197">MR_Image_Set_resolution</a> (<a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *_this, <a class="el" href="structMR__Vector2i.html">MR_Vector2i</a> value)</td></tr>
 <tr class="separator:a2a2216249cbf183851ef39b9b997b197"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75711e974dcf262b4608ad5d4cd2fb92" id="r_a75711e974dcf262b4608ad5d4cd2fb92"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector2i.html">MR_Vector2i</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75711e974dcf262b4608ad5d4cd2fb92">MR_Image_GetMutable_resolution</a> (<a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *_this)</td></tr>
+<tr class="memitem:a75711e974dcf262b4608ad5d4cd2fb92" id="r_a75711e974dcf262b4608ad5d4cd2fb92"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector2i.html">MR_Vector2i</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75711e974dcf262b4608ad5d4cd2fb92">MR_Image_GetMutable_resolution</a> (<a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *_this)</td></tr>
 <tr class="separator:a75711e974dcf262b4608ad5d4cd2fb92"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a112857ca9e8f876ce6a7390e0b470aab" id="r_a112857ca9e8f876ce6a7390e0b470aab"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a112857ca9e8f876ce6a7390e0b470aab">MR_Image_DefaultConstruct</a> (void)</td></tr>
+<tr class="memitem:a112857ca9e8f876ce6a7390e0b470aab" id="r_a112857ca9e8f876ce6a7390e0b470aab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a112857ca9e8f876ce6a7390e0b470aab">MR_Image_DefaultConstruct</a> (void)</td></tr>
 <tr class="separator:a112857ca9e8f876ce6a7390e0b470aab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c3b851824991516e72cb9c058bcf248" id="r_a1c3b851824991516e72cb9c058bcf248"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c3b851824991516e72cb9c058bcf248">MR_Image_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="memitem:a1c3b851824991516e72cb9c058bcf248" id="r_a1c3b851824991516e72cb9c058bcf248"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c3b851824991516e72cb9c058bcf248">MR_Image_DefaultConstructArray</a> (size_t num_elems)</td></tr>
 <tr class="separator:a1c3b851824991516e72cb9c058bcf248"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab3bda65b0aa331029bb21c950f7b599a" id="r_ab3bda65b0aa331029bb21c950f7b599a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3bda65b0aa331029bb21c950f7b599a">MR_Image_ConstructFrom</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> pixels_pass_by, <a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *pixels, <a class="el" href="structMR__Vector2i.html">MR_Vector2i</a> resolution)</td></tr>
+<tr class="memitem:ab3bda65b0aa331029bb21c950f7b599a" id="r_ab3bda65b0aa331029bb21c950f7b599a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3bda65b0aa331029bb21c950f7b599a">MR_Image_ConstructFrom</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> pixels_pass_by, <a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *pixels, <a class="el" href="structMR__Vector2i.html">MR_Vector2i</a> resolution)</td></tr>
 <tr class="separator:ab3bda65b0aa331029bb21c950f7b599a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad3a990af3c8ec94e29327c04ab1ff42" id="r_aad3a990af3c8ec94e29327c04ab1ff42"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad3a990af3c8ec94e29327c04ab1ff42">MR_Image_OffsetPtr</a> (const <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:aad3a990af3c8ec94e29327c04ab1ff42" id="r_aad3a990af3c8ec94e29327c04ab1ff42"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad3a990af3c8ec94e29327c04ab1ff42">MR_Image_OffsetPtr</a> (const <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:aad3a990af3c8ec94e29327c04ab1ff42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:aad3a990af3c8ec94e29327c04ab1ff42"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a42d15b02110616d02ed7126496958811" id="r_a42d15b02110616d02ed7126496958811"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42d15b02110616d02ed7126496958811">MR_Image_OffsetMutablePtr</a> (<a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a42d15b02110616d02ed7126496958811" id="r_a42d15b02110616d02ed7126496958811"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42d15b02110616d02ed7126496958811">MR_Image_OffsetMutablePtr</a> (<a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a42d15b02110616d02ed7126496958811"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a42d15b02110616d02ed7126496958811"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7e37e48309538f5a08f55a58b10b7b7" id="r_ac7e37e48309538f5a08f55a58b10b7b7"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7e37e48309538f5a08f55a58b10b7b7">MR_Image_StaticDowncastTo_MR_MeshTexture</a> (const <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *object)</td></tr>
+<tr class="memitem:ac7e37e48309538f5a08f55a58b10b7b7" id="r_ac7e37e48309538f5a08f55a58b10b7b7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7e37e48309538f5a08f55a58b10b7b7">MR_Image_StaticDowncastTo_MR_MeshTexture</a> (const <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *object)</td></tr>
 <tr class="separator:ac7e37e48309538f5a08f55a58b10b7b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a18e69eef0660b9813ab4432d46360360" id="r_a18e69eef0660b9813ab4432d46360360"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18e69eef0660b9813ab4432d46360360">MR_Image_MutableStaticDowncastTo_MR_MeshTexture</a> (<a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *object)</td></tr>
+<tr class="memitem:a18e69eef0660b9813ab4432d46360360" id="r_a18e69eef0660b9813ab4432d46360360"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18e69eef0660b9813ab4432d46360360">MR_Image_MutableStaticDowncastTo_MR_MeshTexture</a> (<a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *object)</td></tr>
 <tr class="separator:a18e69eef0660b9813ab4432d46360360"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9496854229bd53207610ad5c61bf5f63" id="r_a9496854229bd53207610ad5c61bf5f63"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9496854229bd53207610ad5c61bf5f63">MR_Image_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *_other)</td></tr>
+<tr class="memitem:a9496854229bd53207610ad5c61bf5f63" id="r_a9496854229bd53207610ad5c61bf5f63"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9496854229bd53207610ad5c61bf5f63">MR_Image_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *_other)</td></tr>
 <tr class="separator:a9496854229bd53207610ad5c61bf5f63"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af06c9ac84a3ec96391104e08e3bd494b" id="r_af06c9ac84a3ec96391104e08e3bd494b"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af06c9ac84a3ec96391104e08e3bd494b">MR_Image_Destroy</a> (const <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *_this)</td></tr>
+<tr class="memitem:af06c9ac84a3ec96391104e08e3bd494b" id="r_af06c9ac84a3ec96391104e08e3bd494b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af06c9ac84a3ec96391104e08e3bd494b">MR_Image_Destroy</a> (const <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *_this)</td></tr>
 <tr class="memdesc:af06c9ac84a3ec96391104e08e3bd494b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_Image</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:af06c9ac84a3ec96391104e08e3bd494b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa2332fd249fb8a02392e99e886a028ec" id="r_aa2332fd249fb8a02392e99e886a028ec"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2332fd249fb8a02392e99e886a028ec">MR_Image_DestroyArray</a> (const <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *_this)</td></tr>
+<tr class="memitem:aa2332fd249fb8a02392e99e886a028ec" id="r_aa2332fd249fb8a02392e99e886a028ec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2332fd249fb8a02392e99e886a028ec">MR_Image_DestroyArray</a> (const <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *_this)</td></tr>
 <tr class="memdesc:aa2332fd249fb8a02392e99e886a028ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_Image</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:aa2332fd249fb8a02392e99e886a028ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac4dd8da545948df33e49b0dc8b8a4fd9" id="r_ac4dd8da545948df33e49b0dc8b8a4fd9"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac4dd8da545948df33e49b0dc8b8a4fd9">MR_Image_AssignFromAnother</a> (<a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *_other)</td></tr>
+<tr class="memitem:ac4dd8da545948df33e49b0dc8b8a4fd9" id="r_ac4dd8da545948df33e49b0dc8b8a4fd9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac4dd8da545948df33e49b0dc8b8a4fd9">MR_Image_AssignFromAnother</a> (<a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *_other)</td></tr>
 <tr class="separator:ac4dd8da545948df33e49b0dc8b8a4fd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af7595a58916ccdda81ede608270c79ce" id="r_af7595a58916ccdda81ede608270c79ce"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7595a58916ccdda81ede608270c79ce">MR_Image_index</a> (<a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *_this, const <a class="el" href="structMR__Vector2i.html">MR_Vector2i</a> *p)</td></tr>
+<tr class="memitem:af7595a58916ccdda81ede608270c79ce" id="r_af7595a58916ccdda81ede608270c79ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7595a58916ccdda81ede608270c79ce">MR_Image_index</a> (<a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *_this, const <a class="el" href="structMR__Vector2i.html">MR_Vector2i</a> *p)</td></tr>
 <tr class="separator:af7595a58916ccdda81ede608270c79ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:addb9bd87b7a4131e401244106d0e563f" id="r_addb9bd87b7a4131e401244106d0e563f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#addb9bd87b7a4131e401244106d0e563f">MR_Image_index_const</a> (const <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *_this, const <a class="el" href="structMR__Vector2i.html">MR_Vector2i</a> *p)</td></tr>
+<tr class="memitem:addb9bd87b7a4131e401244106d0e563f" id="r_addb9bd87b7a4131e401244106d0e563f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#addb9bd87b7a4131e401244106d0e563f">MR_Image_index_const</a> (const <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *_this, const <a class="el" href="structMR__Vector2i.html">MR_Vector2i</a> *p)</td></tr>
 <tr class="separator:addb9bd87b7a4131e401244106d0e563f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c508c6dbb51580a2e62da16e57e6926" id="r_a2c508c6dbb51580a2e62da16e57e6926"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c508c6dbb51580a2e62da16e57e6926">MR_Image_heapBytes</a> (const <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *_this)</td></tr>
+<tr class="memitem:a2c508c6dbb51580a2e62da16e57e6926" id="r_a2c508c6dbb51580a2e62da16e57e6926"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c508c6dbb51580a2e62da16e57e6926">MR_Image_heapBytes</a> (const <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *_this)</td></tr>
 <tr class="separator:a2c508c6dbb51580a2e62da16e57e6926"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e41534cd3c8a213f9dc9f9c2758164a" id="r_a7e41534cd3c8a213f9dc9f9c2758164a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e41534cd3c8a213f9dc9f9c2758164a">MR_Image_sampleDiscrete</a> (const <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *_this, const <a class="el" href="structMR__Vector2f.html">MR_Vector2f</a> *pos)</td></tr>
+<tr class="memitem:a7e41534cd3c8a213f9dc9f9c2758164a" id="r_a7e41534cd3c8a213f9dc9f9c2758164a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e41534cd3c8a213f9dc9f9c2758164a">MR_Image_sampleDiscrete</a> (const <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *_this, const <a class="el" href="structMR__Vector2f.html">MR_Vector2f</a> *pos)</td></tr>
 <tr class="separator:a7e41534cd3c8a213f9dc9f9c2758164a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a871f6b2f34062be182e991458ba72092" id="r_a871f6b2f34062be182e991458ba72092"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a871f6b2f34062be182e991458ba72092">MR_Image_sampleBilinear</a> (const <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *_this, const <a class="el" href="structMR__Vector2f.html">MR_Vector2f</a> *pos)</td></tr>
+<tr class="memitem:a871f6b2f34062be182e991458ba72092" id="r_a871f6b2f34062be182e991458ba72092"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a871f6b2f34062be182e991458ba72092">MR_Image_sampleBilinear</a> (const <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *_this, const <a class="el" href="structMR__Vector2f.html">MR_Vector2f</a> *pos)</td></tr>
 <tr class="separator:a871f6b2f34062be182e991458ba72092"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac6087b62b884a48aa7610e1538005f57" id="r_ac6087b62b884a48aa7610e1538005f57"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6087b62b884a48aa7610e1538005f57">MR_Image_sample</a> (const <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *_this, <a class="el" href="MRMeshFwd_8h.html#ad40ec431ff5ffd94858933622543ddd9">MR_FilterType</a> filter, const <a class="el" href="structMR__Vector2f.html">MR_Vector2f</a> *pos)</td></tr>
+<tr class="memitem:ac6087b62b884a48aa7610e1538005f57" id="r_ac6087b62b884a48aa7610e1538005f57"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6087b62b884a48aa7610e1538005f57">MR_Image_sample</a> (const <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *_this, <a class="el" href="MRMeshFwd_8h.html#ad40ec431ff5ffd94858933622543ddd9">MR_FilterType</a> filter, const <a class="el" href="structMR__Vector2f.html">MR_Vector2f</a> *pos)</td></tr>
 <tr class="separator:ac6087b62b884a48aa7610e1538005f57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -296,7 +290,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> * MR_Image_AssignFromAnother </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> * MR_Image_AssignFromAnother </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -323,7 +317,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> * MR_Image_ConstructFrom </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> * MR_Image_ConstructFrom </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>pixels_pass_by</em></span>, </td>
         </tr>
@@ -350,7 +344,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> * MR_Image_ConstructFromAnother </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> * MR_Image_ConstructFromAnother </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
         </tr>
@@ -372,7 +366,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> * MR_Image_DefaultConstruct </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> * MR_Image_DefaultConstruct </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -390,7 +384,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> * MR_Image_DefaultConstructArray </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> * MR_Image_DefaultConstructArray </td>
           <td>(</td>
           <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
           <td></td>
@@ -408,7 +402,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_Image_Destroy </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_Image_Destroy </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -427,7 +421,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_Image_DestroyArray </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_Image_DestroyArray </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -446,7 +440,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> * MR_Image_Get_pixels </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> * MR_Image_Get_pixels </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -464,7 +458,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="structMR__Vector2i.html">MR_Vector2i</a> * MR_Image_Get_resolution </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Vector2i.html">MR_Vector2i</a> * MR_Image_Get_resolution </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -482,7 +476,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> * MR_Image_GetMutable_pixels </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRHeapBytes_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> * MR_Image_GetMutable_pixels </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -500,7 +494,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="structMR__Vector2i.html">MR_Vector2i</a> * MR_Image_GetMutable_resolution </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector2i.html">MR_Vector2i</a> * MR_Image_GetMutable_resolution </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -518,7 +512,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> MR_Image_heapBytes </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> MR_Image_heapBytes </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -536,7 +530,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a> * MR_Image_index </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a> * MR_Image_index </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -558,7 +552,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a> MR_Image_index_const </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a> MR_Image_index_const </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -580,7 +574,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> * MR_Image_MutableStaticDowncastTo_MR_MeshTexture </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> * MR_Image_MutableStaticDowncastTo_MR_MeshTexture </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
           <td></td>
@@ -598,7 +592,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> * MR_Image_OffsetMutablePtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> * MR_Image_OffsetMutablePtr </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -621,7 +615,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> * MR_Image_OffsetPtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> * MR_Image_OffsetPtr </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -644,7 +638,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a> MR_Image_sample </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a> MR_Image_sample </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -671,7 +665,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a> MR_Image_sampleBilinear </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a> MR_Image_sampleBilinear </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -693,7 +687,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a> MR_Image_sampleDiscrete </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a> MR_Image_sampleDiscrete </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -715,7 +709,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_Image_Set_pixels </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_Image_Set_pixels </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -742,7 +736,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_Image_Set_resolution </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_Image_Set_resolution </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -764,7 +758,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> * MR_Image_StaticDowncastTo_MR_MeshTexture </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> * MR_Image_StaticDowncastTo_MR_MeshTexture </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
           <td></td>

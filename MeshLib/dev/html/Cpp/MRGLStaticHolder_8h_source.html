@@ -14,12 +14,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -159,7 +153,7 @@ $(function(){initNavTree('MRGLStaticHolder_8h_source.html',''); initResizable(tr
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRLog_8h.html">MRMesh/MRLog.h</a>&quot;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;array&gt;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">namespace </span><a class="code hl_namespaceRef" href="../namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>{</div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="comment">// This class holds all shaders that are used in the program</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="comment">// creates shader on access if it is needed</span></div>
@@ -200,7 +194,7 @@ $(function(){initNavTree('MRGLStaticHolder_8h_source.html',''); initResizable(tr
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748a0b127ccf018299560090f1f8804bd676">   43</a></span>        <a class="code hl_enumvalue" href="classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748a0b127ccf018299560090f1f8804bd676">Volume</a>,</div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748aa694e960e5a16235a6b954cd634c87ce">   44</a></span>        <a class="code hl_enumvalue" href="classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748aa694e960e5a16235a6b954cd634c87ce">VolumePicker</a>,</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        <a class="code hl_enumvalue" href="namespaceMR.html#a05195fdcf0d1d90b73a5d24b11150005ae93f994f01c537c4e2f7d8528c3eb5e9">Count</a></div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        Count</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="classMR_1_1GLStaticHolder.html#a00a040d6d7d04967fe9f892d8cb76748a25ed7f59a7647bce0c99b37006a616b3">   46</a></span>    };</div>
 </div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
@@ -261,8 +255,7 @@ $(function(){initNavTree('MRGLStaticHolder_8h_source.html',''); initResizable(tr
 <div class="ttc" id="aclassMR_1_1GLStaticHolder_html_ada665fd573c08a25baa0a66d6e69a9f8"><div class="ttname"><a href="classMR_1_1GLStaticHolder.html#ada665fd573c08a25baa0a66d6e69a9f8">MR::GLStaticHolder::freeAllShaders</a></div><div class="ttdeci">static MRVIEWER_API void freeAllShaders()</div></div>
 <div class="ttc" id="aclassMR_1_1GLStaticHolder_html_aec292ddb5c9a8585fba9bf8b4d89cca9"><div class="ttname"><a href="classMR_1_1GLStaticHolder.html#aec292ddb5c9a8585fba9bf8b4d89cca9">MR::GLStaticHolder::getShaderId</a></div><div class="ttdeci">static MRVIEWER_API GLuint getShaderId(ShaderType type)</div></div>
 <div class="ttc" id="aclassMR_1_1RenderObjectBuffer_html"><div class="ttname"><a href="classMR_1_1RenderObjectBuffer.html">MR::RenderObjectBuffer</a></div><div class="ttdef"><b>Definition</b> MRRenderHelpers.h:64</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
-<div class="ttc" id="anamespaceMR_html_a05195fdcf0d1d90b73a5d24b11150005ae93f994f01c537c4e2f7d8528c3eb5e9"><div class="ttname"><a href="namespaceMR.html#a05195fdcf0d1d90b73a5d24b11150005ae93f994f01c537c4e2f7d8528c3eb5e9">MR::Axis::Count</a></div><div class="ttdeci">@ Count</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="../namespaceMR.html">MR</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

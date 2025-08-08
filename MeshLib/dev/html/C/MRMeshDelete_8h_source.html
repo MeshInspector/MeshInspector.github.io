@@ -14,12 +14,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -156,7 +150,7 @@ $(function(){initNavTree('MRMeshDelete_8h_source.html',''); initResizable(true);
 <div class="contents">
 <a href="MRMeshDelete_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;MRCMisc/exports.h&gt;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;<a class="code" href="exports_8h.html">MRCMisc/exports.h</a>&gt;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#ifdef __cplusplus</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> {</div>
@@ -166,9 +160,9 @@ $(function(){initNavTree('MRMeshDelete_8h_source.html',''); initResizable(true);
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="MRMeshDelete_8h.html#a6bf133eda1ec95be202b77c33412bc8e">   10</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="structMR__Vector3f.html">MR_Vector3f</a> <a class="code hl_struct" href="structMR__Vector3f.html">MR_Vector3f</a>; <span class="comment">// Defined in `#include &lt;MRCMesh/MRVector3.h&gt;`.</span></div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="MRMeshDelete_8h.html#aa83c8faa03d648c2b877744b20966346">   17</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRMeshDelete_8h.html#aa83c8faa03d648c2b877744b20966346">MR_deleteTargetFaces_MR_Vector3f</a>(<a class="code hl_typedef" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *obj, <span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector3f.html">MR_Vector3f</a> *targetCenter);</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="MRMeshDelete_8h.html#aa83c8faa03d648c2b877744b20966346">   17</a></span><a class="code hl_define" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <span class="keywordtype">void</span> <a class="code hl_function" href="MRMeshDelete_8h.html#aa83c8faa03d648c2b877744b20966346">MR_deleteTargetFaces_MR_Vector3f</a>(<a class="code hl_typedef" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *obj, <span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector3f.html">MR_Vector3f</a> *targetCenter);</div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="MRMeshDelete_8h.html#a72df7ee0063785df0546d40cb68141fb">   22</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRMeshDelete_8h.html#a72df7ee0063785df0546d40cb68141fb">MR_deleteTargetFaces_MR_Mesh</a>(<a class="code hl_typedef" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *obj, <span class="keyword">const</span> <a class="code hl_typedef" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *target);</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="MRMeshDelete_8h.html#a72df7ee0063785df0546d40cb68141fb">   22</a></span><a class="code hl_define" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <span class="keywordtype">void</span> <a class="code hl_function" href="MRMeshDelete_8h.html#a72df7ee0063785df0546d40cb68141fb">MR_deleteTargetFaces_MR_Mesh</a>(<a class="code hl_typedef" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *obj, <span class="keyword">const</span> <a class="code hl_typedef" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *target);</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="preprocessor">#ifdef __cplusplus</span></div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>} <span class="comment">// extern &quot;C&quot;</span></div>
@@ -176,6 +170,8 @@ $(function(){initNavTree('MRMeshDelete_8h_source.html',''); initResizable(true);
 <div class="ttc" id="aMRCtm_8h_html_a31b172f68efca6438544d56eb86d6f40"><div class="ttname"><a href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a></div><div class="ttdeci">struct MR_Mesh MR_Mesh</div><div class="ttdef"><b>Definition</b> MRCtm.h:13</div></div>
 <div class="ttc" id="aMRMeshDelete_8h_html_a72df7ee0063785df0546d40cb68141fb"><div class="ttname"><a href="MRMeshDelete_8h.html#a72df7ee0063785df0546d40cb68141fb">MR_deleteTargetFaces_MR_Mesh</a></div><div class="ttdeci">MRC_API void MR_deleteTargetFaces_MR_Mesh(MR_Mesh *obj, const MR_Mesh *target)</div></div>
 <div class="ttc" id="aMRMeshDelete_8h_html_aa83c8faa03d648c2b877744b20966346"><div class="ttname"><a href="MRMeshDelete_8h.html#aa83c8faa03d648c2b877744b20966346">MR_deleteTargetFaces_MR_Vector3f</a></div><div class="ttdeci">MRC_API void MR_deleteTargetFaces_MR_Vector3f(MR_Mesh *obj, const MR_Vector3f *targetCenter)</div></div>
+<div class="ttc" id="aexports_8h_html"><div class="ttname"><a href="exports_8h.html">exports.h</a></div></div>
+<div class="ttc" id="aexports_8h_html_a83dd8809128f2fbd49b5c39d59179d4a"><div class="ttname"><a href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a></div><div class="ttdeci">#define MRC_API</div><div class="ttdef"><b>Definition</b> exports.h:11</div></div>
 <div class="ttc" id="astructMR__Vector3f_html"><div class="ttname"><a href="structMR__Vector3f.html">MR_Vector3f</a></div><div class="ttdef"><b>Definition</b> MRVector3.h:51</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

@@ -14,12 +14,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -159,7 +153,7 @@ $(function(){initNavTree('MRPolylineComponents_8h.html',''); initResizable(true)
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="MRId_8h_source.html">MRCMesh/MRId.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
-<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdint.h&gt;</code><br />
 </div>
 <p><a href="MRPolylineComponents_8h_source.html">Go to the source code of this file.</a></p>
@@ -179,15 +173,15 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ab7aebc5565c5c5651f359d4f88353d32" id="r_ab7aebc5565c5c5651f359d4f88353d32"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7aebc5565c5c5651f359d4f88353d32">MR_PolylineComponents_getNumComponents</a> (const <a class="el" href="MREdgePoint_8h.html#a02d1fe1568aa3e29e692594602ba76bd">MR_PolylineTopology</a> *topology)</td></tr>
+<tr class="memitem:ab7aebc5565c5c5651f359d4f88353d32" id="r_ab7aebc5565c5c5651f359d4f88353d32"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7aebc5565c5c5651f359d4f88353d32">MR_PolylineComponents_getNumComponents</a> (const <a class="el" href="MREdgePoint_8h.html#a02d1fe1568aa3e29e692594602ba76bd">MR_PolylineTopology</a> *topology)</td></tr>
 <tr class="separator:ab7aebc5565c5c5651f359d4f88353d32"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a71c65b3d8a9877f368a5b8e0ffd954b1" id="r_a71c65b3d8a9877f368a5b8e0ffd954b1"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71c65b3d8a9877f368a5b8e0ffd954b1">MR_PolylineComponents_getComponent</a> (const <a class="el" href="MREdgePoint_8h.html#a02d1fe1568aa3e29e692594602ba76bd">MR_PolylineTopology</a> *topology, <a class="el" href="structMR__UndirectedEdgeId.html">MR_UndirectedEdgeId</a> id)</td></tr>
+<tr class="memitem:a71c65b3d8a9877f368a5b8e0ffd954b1" id="r_a71c65b3d8a9877f368a5b8e0ffd954b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71c65b3d8a9877f368a5b8e0ffd954b1">MR_PolylineComponents_getComponent</a> (const <a class="el" href="MREdgePoint_8h.html#a02d1fe1568aa3e29e692594602ba76bd">MR_PolylineTopology</a> *topology, <a class="el" href="structMR__UndirectedEdgeId.html">MR_UndirectedEdgeId</a> id)</td></tr>
 <tr class="separator:a71c65b3d8a9877f368a5b8e0ffd954b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a593b6767c2a25b151672012fccdbd3ac" id="r_a593b6767c2a25b151672012fccdbd3ac"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a593b6767c2a25b151672012fccdbd3ac">MR_PolylineComponents_getAllComponents_1</a> (const <a class="el" href="MREdgePoint_8h.html#a02d1fe1568aa3e29e692594602ba76bd">MR_PolylineTopology</a> *topology)</td></tr>
+<tr class="memitem:a593b6767c2a25b151672012fccdbd3ac" id="r_a593b6767c2a25b151672012fccdbd3ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a593b6767c2a25b151672012fccdbd3ac">MR_PolylineComponents_getAllComponents_1</a> (const <a class="el" href="MREdgePoint_8h.html#a02d1fe1568aa3e29e692594602ba76bd">MR_PolylineTopology</a> *topology)</td></tr>
 <tr class="separator:a593b6767c2a25b151672012fccdbd3ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f635f75ac58bb2968ef9c17fd07f838" id="r_a7f635f75ac58bb2968ef9c17fd07f838"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a655ece20fcac26eb1383b3eb0e3b6ed9">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int32_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f635f75ac58bb2968ef9c17fd07f838">MR_PolylineComponents_getAllComponents_2</a> (const <a class="el" href="MREdgePoint_8h.html#a02d1fe1568aa3e29e692594602ba76bd">MR_PolylineTopology</a> *topology, int32_t maxComponentCount)</td></tr>
+<tr class="memitem:a7f635f75ac58bb2968ef9c17fd07f838" id="r_a7f635f75ac58bb2968ef9c17fd07f838"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a655ece20fcac26eb1383b3eb0e3b6ed9">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int32_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f635f75ac58bb2968ef9c17fd07f838">MR_PolylineComponents_getAllComponents_2</a> (const <a class="el" href="MREdgePoint_8h.html#a02d1fe1568aa3e29e692594602ba76bd">MR_PolylineTopology</a> *topology, int32_t maxComponentCount)</td></tr>
 <tr class="separator:a7f635f75ac58bb2968ef9c17fd07f838"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a59e9a38ea898e08f2d879d72d4fbd68d" id="r_a59e9a38ea898e08f2d879d72d4fbd68d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMeshComponents_8h.html#ab2619d00f0e1fd789b05b95f2364062d">MR_UnionFind_MR_UndirectedEdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59e9a38ea898e08f2d879d72d4fbd68d">MR_PolylineComponents_getUnionFindStructure</a> (const <a class="el" href="MREdgePoint_8h.html#a02d1fe1568aa3e29e692594602ba76bd">MR_PolylineTopology</a> *topology)</td></tr>
+<tr class="memitem:a59e9a38ea898e08f2d879d72d4fbd68d" id="r_a59e9a38ea898e08f2d879d72d4fbd68d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRMeshComponents_8h.html#ab2619d00f0e1fd789b05b95f2364062d">MR_UnionFind_MR_UndirectedEdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59e9a38ea898e08f2d879d72d4fbd68d">MR_PolylineComponents_getUnionFindStructure</a> (const <a class="el" href="MREdgePoint_8h.html#a02d1fe1568aa3e29e692594602ba76bd">MR_PolylineTopology</a> *topology)</td></tr>
 <tr class="separator:a59e9a38ea898e08f2d879d72d4fbd68d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -269,7 +263,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> * MR_PolylineComponents_getAllComponents_1 </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> * MR_PolylineComponents_getAllComponents_1 </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MREdgePoint_8h.html#a02d1fe1568aa3e29e692594602ba76bd">MR_PolylineTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span></td><td>)</td>
           <td></td>
@@ -287,7 +281,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a655ece20fcac26eb1383b3eb0e3b6ed9">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int32_t</a> * MR_PolylineComponents_getAllComponents_2 </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a655ece20fcac26eb1383b3eb0e3b6ed9">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int32_t</a> * MR_PolylineComponents_getAllComponents_2 </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MREdgePoint_8h.html#a02d1fe1568aa3e29e692594602ba76bd">MR_PolylineTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
         </tr>
@@ -315,7 +309,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> * MR_PolylineComponents_getComponent </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> * MR_PolylineComponents_getComponent </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MREdgePoint_8h.html#a02d1fe1568aa3e29e692594602ba76bd">MR_PolylineTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
         </tr>
@@ -337,7 +331,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> MR_PolylineComponents_getNumComponents </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> MR_PolylineComponents_getNumComponents </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MREdgePoint_8h.html#a02d1fe1568aa3e29e692594602ba76bd">MR_PolylineTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span></td><td>)</td>
           <td></td>
@@ -355,7 +349,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRMeshComponents_8h.html#ab2619d00f0e1fd789b05b95f2364062d">MR_UnionFind_MR_UndirectedEdgeId</a> * MR_PolylineComponents_getUnionFindStructure </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRMeshComponents_8h.html#ab2619d00f0e1fd789b05b95f2364062d">MR_UnionFind_MR_UndirectedEdgeId</a> * MR_PolylineComponents_getUnionFindStructure </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MREdgePoint_8h.html#a02d1fe1568aa3e29e692594602ba76bd">MR_PolylineTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span></td><td>)</td>
           <td></td>

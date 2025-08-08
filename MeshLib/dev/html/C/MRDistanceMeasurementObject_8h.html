@@ -14,12 +14,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -160,7 +154,7 @@ $(function(){initNavTree('MRDistanceMeasurementObject_8h.html',''); initResizabl
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="MRVector3_8h_source.html">MRCMesh/MRVector3.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
-<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
 <code>#include &lt;stdint.h&gt;</code><br />
@@ -198,82 +192,82 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a7b84b8e9ad11627cf53aa8b0e09c01ed" id="r_a7b84b8e9ad11627cf53aa8b0e09c01ed"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b84b8e9ad11627cf53aa8b0e09c01ed">MR_DistanceMeasurementObject_DefaultConstruct</a> (void)</td></tr>
+<tr class="memitem:a7b84b8e9ad11627cf53aa8b0e09c01ed" id="r_a7b84b8e9ad11627cf53aa8b0e09c01ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b84b8e9ad11627cf53aa8b0e09c01ed">MR_DistanceMeasurementObject_DefaultConstruct</a> (void)</td></tr>
 <tr class="separator:a7b84b8e9ad11627cf53aa8b0e09c01ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5709686613503105d4cdec32c543373a" id="r_a5709686613503105d4cdec32c543373a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5709686613503105d4cdec32c543373a">MR_DistanceMeasurementObject_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="memitem:a5709686613503105d4cdec32c543373a" id="r_a5709686613503105d4cdec32c543373a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5709686613503105d4cdec32c543373a">MR_DistanceMeasurementObject_DefaultConstructArray</a> (size_t num_elems)</td></tr>
 <tr class="separator:a5709686613503105d4cdec32c543373a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae093dc71216b722ac5488dcca31ba565" id="r_ae093dc71216b722ac5488dcca31ba565"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae093dc71216b722ac5488dcca31ba565">MR_DistanceMeasurementObject_OffsetPtr</a> (const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:ae093dc71216b722ac5488dcca31ba565" id="r_ae093dc71216b722ac5488dcca31ba565"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae093dc71216b722ac5488dcca31ba565">MR_DistanceMeasurementObject_OffsetPtr</a> (const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:ae093dc71216b722ac5488dcca31ba565"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:ae093dc71216b722ac5488dcca31ba565"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8cc2fa943456a5d2b43b94918b6c171a" id="r_a8cc2fa943456a5d2b43b94918b6c171a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8cc2fa943456a5d2b43b94918b6c171a">MR_DistanceMeasurementObject_OffsetMutablePtr</a> (<a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a8cc2fa943456a5d2b43b94918b6c171a" id="r_a8cc2fa943456a5d2b43b94918b6c171a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8cc2fa943456a5d2b43b94918b6c171a">MR_DistanceMeasurementObject_OffsetMutablePtr</a> (<a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a8cc2fa943456a5d2b43b94918b6c171a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a8cc2fa943456a5d2b43b94918b6c171a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0306824115e3677edb345c7417a7eba8" id="r_a0306824115e3677edb345c7417a7eba8"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAngleMeasurementObject_8h.html#af3835b44b6f41035bcc3f994b4711cc1">MR_MeasurementObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0306824115e3677edb345c7417a7eba8">MR_DistanceMeasurementObject_UpcastTo_MR_MeasurementObject</a> (const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *object)</td></tr>
+<tr class="memitem:a0306824115e3677edb345c7417a7eba8" id="r_a0306824115e3677edb345c7417a7eba8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAngleMeasurementObject_8h.html#af3835b44b6f41035bcc3f994b4711cc1">MR_MeasurementObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0306824115e3677edb345c7417a7eba8">MR_DistanceMeasurementObject_UpcastTo_MR_MeasurementObject</a> (const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *object)</td></tr>
 <tr class="separator:a0306824115e3677edb345c7417a7eba8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a61845da5f059f51fa11aaac1ffdff1ac" id="r_a61845da5f059f51fa11aaac1ffdff1ac"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAngleMeasurementObject_8h.html#af3835b44b6f41035bcc3f994b4711cc1">MR_MeasurementObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a61845da5f059f51fa11aaac1ffdff1ac">MR_DistanceMeasurementObject_MutableUpcastTo_MR_MeasurementObject</a> (<a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *object)</td></tr>
+<tr class="memitem:a61845da5f059f51fa11aaac1ffdff1ac" id="r_a61845da5f059f51fa11aaac1ffdff1ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAngleMeasurementObject_8h.html#af3835b44b6f41035bcc3f994b4711cc1">MR_MeasurementObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a61845da5f059f51fa11aaac1ffdff1ac">MR_DistanceMeasurementObject_MutableUpcastTo_MR_MeasurementObject</a> (<a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *object)</td></tr>
 <tr class="memdesc:a61845da5f059f51fa11aaac1ffdff1ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMeasurementObject.html">MR::DistanceMeasurementObject</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1MeasurementObject.html">MR::MeasurementObject</a></code>.  <br /></td></tr>
 <tr class="separator:a61845da5f059f51fa11aaac1ffdff1ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b133858cecdf474519fc5a002b42cac" id="r_a2b133858cecdf474519fc5a002b42cac"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b133858cecdf474519fc5a002b42cac">MR_DistanceMeasurementObject_UpcastTo_MR_Object</a> (const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *object)</td></tr>
+<tr class="memitem:a2b133858cecdf474519fc5a002b42cac" id="r_a2b133858cecdf474519fc5a002b42cac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b133858cecdf474519fc5a002b42cac">MR_DistanceMeasurementObject_UpcastTo_MR_Object</a> (const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *object)</td></tr>
 <tr class="separator:a2b133858cecdf474519fc5a002b42cac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1bb9b832ebc5745b1cd2da3a7f43ca71" id="r_a1bb9b832ebc5745b1cd2da3a7f43ca71"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1bb9b832ebc5745b1cd2da3a7f43ca71">MR_DistanceMeasurementObject_MutableUpcastTo_MR_Object</a> (<a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *object)</td></tr>
+<tr class="memitem:a1bb9b832ebc5745b1cd2da3a7f43ca71" id="r_a1bb9b832ebc5745b1cd2da3a7f43ca71"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1bb9b832ebc5745b1cd2da3a7f43ca71">MR_DistanceMeasurementObject_MutableUpcastTo_MR_Object</a> (<a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *object)</td></tr>
 <tr class="memdesc:a1bb9b832ebc5745b1cd2da3a7f43ca71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMeasurementObject.html">MR::DistanceMeasurementObject</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1Object.html">MR::Object</a></code>.  <br /></td></tr>
 <tr class="separator:a1bb9b832ebc5745b1cd2da3a7f43ca71"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ddd560a0a38ebe9a8f8c998d66c8cc2" id="r_a2ddd560a0a38ebe9a8f8c998d66c8cc2"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ddd560a0a38ebe9a8f8c998d66c8cc2">MR_DistanceMeasurementObject_UpcastTo_MR_ObjectChildrenHolder</a> (const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *object)</td></tr>
+<tr class="memitem:a2ddd560a0a38ebe9a8f8c998d66c8cc2" id="r_a2ddd560a0a38ebe9a8f8c998d66c8cc2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ddd560a0a38ebe9a8f8c998d66c8cc2">MR_DistanceMeasurementObject_UpcastTo_MR_ObjectChildrenHolder</a> (const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *object)</td></tr>
 <tr class="separator:a2ddd560a0a38ebe9a8f8c998d66c8cc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b6d321d7dcb4376c3a166c8f0e97463" id="r_a6b6d321d7dcb4376c3a166c8f0e97463"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAddVisualPropertiesMixin_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b6d321d7dcb4376c3a166c8f0e97463">MR_DistanceMeasurementObject_MutableUpcastTo_MR_ObjectChildrenHolder</a> (<a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *object)</td></tr>
+<tr class="memitem:a6b6d321d7dcb4376c3a166c8f0e97463" id="r_a6b6d321d7dcb4376c3a166c8f0e97463"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAddVisualPropertiesMixin_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b6d321d7dcb4376c3a166c8f0e97463">MR_DistanceMeasurementObject_MutableUpcastTo_MR_ObjectChildrenHolder</a> (<a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *object)</td></tr>
 <tr class="memdesc:a6b6d321d7dcb4376c3a166c8f0e97463"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMeasurementObject.html">MR::DistanceMeasurementObject</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectChildrenHolder.html">MR::ObjectChildrenHolder</a></code>.  <br /></td></tr>
 <tr class="separator:a6b6d321d7dcb4376c3a166c8f0e97463"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a710440ffc1847f8c4779a1a1843fa191" id="r_a710440ffc1847f8c4779a1a1843fa191"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a710440ffc1847f8c4779a1a1843fa191">MR_DistanceMeasurementObject_UpcastTo_MR_VisualObject</a> (const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *object)</td></tr>
+<tr class="memitem:a710440ffc1847f8c4779a1a1843fa191" id="r_a710440ffc1847f8c4779a1a1843fa191"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a710440ffc1847f8c4779a1a1843fa191">MR_DistanceMeasurementObject_UpcastTo_MR_VisualObject</a> (const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *object)</td></tr>
 <tr class="separator:a710440ffc1847f8c4779a1a1843fa191"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a716e2926f476bae62ce400884f7c7a86" id="r_a716e2926f476bae62ce400884f7c7a86"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a716e2926f476bae62ce400884f7c7a86">MR_DistanceMeasurementObject_MutableUpcastTo_MR_VisualObject</a> (<a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *object)</td></tr>
+<tr class="memitem:a716e2926f476bae62ce400884f7c7a86" id="r_a716e2926f476bae62ce400884f7c7a86"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a716e2926f476bae62ce400884f7c7a86">MR_DistanceMeasurementObject_MutableUpcastTo_MR_VisualObject</a> (<a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *object)</td></tr>
 <tr class="memdesc:a716e2926f476bae62ce400884f7c7a86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMeasurementObject.html">MR::DistanceMeasurementObject</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1VisualObject.html">MR::VisualObject</a></code>.  <br /></td></tr>
 <tr class="separator:a716e2926f476bae62ce400884f7c7a86"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a418c61dfdf0b341f8f9d61e81ab0a3" id="r_a6a418c61dfdf0b341f8f9d61e81ab0a3"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a418c61dfdf0b341f8f9d61e81ab0a3">MR_DistanceMeasurementObject_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_other)</td></tr>
+<tr class="memitem:a6a418c61dfdf0b341f8f9d61e81ab0a3" id="r_a6a418c61dfdf0b341f8f9d61e81ab0a3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a418c61dfdf0b341f8f9d61e81ab0a3">MR_DistanceMeasurementObject_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_other)</td></tr>
 <tr class="separator:a6a418c61dfdf0b341f8f9d61e81ab0a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ede48adcc39a749324d2751ea76678f" id="r_a7ede48adcc39a749324d2751ea76678f"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ede48adcc39a749324d2751ea76678f">MR_DistanceMeasurementObject_Destroy</a> (const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this)</td></tr>
+<tr class="memitem:a7ede48adcc39a749324d2751ea76678f" id="r_a7ede48adcc39a749324d2751ea76678f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ede48adcc39a749324d2751ea76678f">MR_DistanceMeasurementObject_Destroy</a> (const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this)</td></tr>
 <tr class="memdesc:a7ede48adcc39a749324d2751ea76678f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_DistanceMeasurementObject</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:a7ede48adcc39a749324d2751ea76678f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ece1095933c5711551de556c915a9ee" id="r_a7ece1095933c5711551de556c915a9ee"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ece1095933c5711551de556c915a9ee">MR_DistanceMeasurementObject_DestroyArray</a> (const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this)</td></tr>
+<tr class="memitem:a7ece1095933c5711551de556c915a9ee" id="r_a7ece1095933c5711551de556c915a9ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ece1095933c5711551de556c915a9ee">MR_DistanceMeasurementObject_DestroyArray</a> (const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this)</td></tr>
 <tr class="memdesc:a7ece1095933c5711551de556c915a9ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_DistanceMeasurementObject</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:a7ece1095933c5711551de556c915a9ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace23cb7d6be40c2b2d6b1099683fcaed" id="r_ace23cb7d6be40c2b2d6b1099683fcaed"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace23cb7d6be40c2b2d6b1099683fcaed">MR_DistanceMeasurementObject_AssignFromAnother</a> (<a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_other)</td></tr>
+<tr class="memitem:ace23cb7d6be40c2b2d6b1099683fcaed" id="r_ace23cb7d6be40c2b2d6b1099683fcaed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace23cb7d6be40c2b2d6b1099683fcaed">MR_DistanceMeasurementObject_AssignFromAnother</a> (<a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_other)</td></tr>
 <tr class="separator:ace23cb7d6be40c2b2d6b1099683fcaed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f2f50e8b84709b604d6aaa445a9653f" id="r_a2f2f50e8b84709b604d6aaa445a9653f"><td class="memItemLeft" align="right" valign="top">MRC_API const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f2f50e8b84709b604d6aaa445a9653f">MR_DistanceMeasurementObject_TypeName</a> (void)</td></tr>
+<tr class="memitem:a2f2f50e8b84709b604d6aaa445a9653f" id="r_a2f2f50e8b84709b604d6aaa445a9653f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f2f50e8b84709b604d6aaa445a9653f">MR_DistanceMeasurementObject_TypeName</a> (void)</td></tr>
 <tr class="memdesc:a2f2f50e8b84709b604d6aaa445a9653f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1DistanceMeasurementObject.html">MR::DistanceMeasurementObject</a></code> named <code>TypeName</code>.  <br /></td></tr>
 <tr class="separator:a2f2f50e8b84709b604d6aaa445a9653f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af8c8c437bb7e23463c0f9bac81886736" id="r_af8c8c437bb7e23463c0f9bac81886736"><td class="memItemLeft" align="right" valign="top">MRC_API const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af8c8c437bb7e23463c0f9bac81886736">MR_DistanceMeasurementObject_typeName</a> (const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this)</td></tr>
+<tr class="memitem:af8c8c437bb7e23463c0f9bac81886736" id="r_af8c8c437bb7e23463c0f9bac81886736"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af8c8c437bb7e23463c0f9bac81886736">MR_DistanceMeasurementObject_typeName</a> (const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this)</td></tr>
 <tr class="separator:af8c8c437bb7e23463c0f9bac81886736"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a453bbf8f2fd861705a1f4ff43ff44c5b" id="r_a453bbf8f2fd861705a1f4ff43ff44c5b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a453bbf8f2fd861705a1f4ff43ff44c5b">MR_DistanceMeasurementObject_getClassName</a> (const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this)</td></tr>
+<tr class="memitem:a453bbf8f2fd861705a1f4ff43ff44c5b" id="r_a453bbf8f2fd861705a1f4ff43ff44c5b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a453bbf8f2fd861705a1f4ff43ff44c5b">MR_DistanceMeasurementObject_getClassName</a> (const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this)</td></tr>
 <tr class="separator:a453bbf8f2fd861705a1f4ff43ff44c5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7dffdb51627fe63b021709e5f5bfa960" id="r_a7dffdb51627fe63b021709e5f5bfa960"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7dffdb51627fe63b021709e5f5bfa960">MR_DistanceMeasurementObject_getClassNameInPlural</a> (const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this)</td></tr>
+<tr class="memitem:a7dffdb51627fe63b021709e5f5bfa960" id="r_a7dffdb51627fe63b021709e5f5bfa960"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7dffdb51627fe63b021709e5f5bfa960">MR_DistanceMeasurementObject_getClassNameInPlural</a> (const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this)</td></tr>
 <tr class="separator:a7dffdb51627fe63b021709e5f5bfa960"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6af8656ba8538bffa154e89bccfd9fec" id="r_a6af8656ba8538bffa154e89bccfd9fec"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6af8656ba8538bffa154e89bccfd9fec">MR_DistanceMeasurementObject_clone</a> (const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this)</td></tr>
+<tr class="memitem:a6af8656ba8538bffa154e89bccfd9fec" id="r_a6af8656ba8538bffa154e89bccfd9fec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6af8656ba8538bffa154e89bccfd9fec">MR_DistanceMeasurementObject_clone</a> (const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this)</td></tr>
 <tr class="separator:a6af8656ba8538bffa154e89bccfd9fec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acddb7fcb59c979285c2e74f7ff8dd359" id="r_acddb7fcb59c979285c2e74f7ff8dd359"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acddb7fcb59c979285c2e74f7ff8dd359">MR_DistanceMeasurementObject_shallowClone</a> (const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this)</td></tr>
+<tr class="memitem:acddb7fcb59c979285c2e74f7ff8dd359" id="r_acddb7fcb59c979285c2e74f7ff8dd359"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acddb7fcb59c979285c2e74f7ff8dd359">MR_DistanceMeasurementObject_shallowClone</a> (const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this)</td></tr>
 <tr class="separator:acddb7fcb59c979285c2e74f7ff8dd359"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1e42a385889ebe29857f3fc9590fc8d" id="r_ad1e42a385889ebe29857f3fc9590fc8d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1e42a385889ebe29857f3fc9590fc8d">MR_DistanceMeasurementObject_getWorldPoint</a> (const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this)</td></tr>
+<tr class="memitem:ad1e42a385889ebe29857f3fc9590fc8d" id="r_ad1e42a385889ebe29857f3fc9590fc8d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1e42a385889ebe29857f3fc9590fc8d">MR_DistanceMeasurementObject_getWorldPoint</a> (const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this)</td></tr>
 <tr class="separator:ad1e42a385889ebe29857f3fc9590fc8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a473394f785b46c91707de1eb1574989e" id="r_a473394f785b46c91707de1eb1574989e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a473394f785b46c91707de1eb1574989e">MR_DistanceMeasurementObject_getLocalPoint</a> (const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this)</td></tr>
+<tr class="memitem:a473394f785b46c91707de1eb1574989e" id="r_a473394f785b46c91707de1eb1574989e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a473394f785b46c91707de1eb1574989e">MR_DistanceMeasurementObject_getLocalPoint</a> (const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this)</td></tr>
 <tr class="separator:a473394f785b46c91707de1eb1574989e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6c5ce565f7be79752f5e8fe5ccb9c0f3" id="r_a6c5ce565f7be79752f5e8fe5ccb9c0f3"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c5ce565f7be79752f5e8fe5ccb9c0f3">MR_DistanceMeasurementObject_getWorldDelta</a> (const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this)</td></tr>
+<tr class="memitem:a6c5ce565f7be79752f5e8fe5ccb9c0f3" id="r_a6c5ce565f7be79752f5e8fe5ccb9c0f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c5ce565f7be79752f5e8fe5ccb9c0f3">MR_DistanceMeasurementObject_getWorldDelta</a> (const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this)</td></tr>
 <tr class="separator:a6c5ce565f7be79752f5e8fe5ccb9c0f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe06f2d337eeb80c83e244a2080bfdf3" id="r_afe06f2d337eeb80c83e244a2080bfdf3"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe06f2d337eeb80c83e244a2080bfdf3">MR_DistanceMeasurementObject_getLocalDelta</a> (const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this)</td></tr>
+<tr class="memitem:afe06f2d337eeb80c83e244a2080bfdf3" id="r_afe06f2d337eeb80c83e244a2080bfdf3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe06f2d337eeb80c83e244a2080bfdf3">MR_DistanceMeasurementObject_getLocalDelta</a> (const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this)</td></tr>
 <tr class="separator:afe06f2d337eeb80c83e244a2080bfdf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd5857783405d58f3d298722c400865c" id="r_acd5857783405d58f3d298722c400865c"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd5857783405d58f3d298722c400865c">MR_DistanceMeasurementObject_setLocalPoint</a> (<a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *point)</td></tr>
+<tr class="memitem:acd5857783405d58f3d298722c400865c" id="r_acd5857783405d58f3d298722c400865c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd5857783405d58f3d298722c400865c">MR_DistanceMeasurementObject_setLocalPoint</a> (<a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *point)</td></tr>
 <tr class="separator:acd5857783405d58f3d298722c400865c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b1646d81d58217037d9630ee04930c1" id="r_a4b1646d81d58217037d9630ee04930c1"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b1646d81d58217037d9630ee04930c1">MR_DistanceMeasurementObject_setLocalDelta</a> (<a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *delta)</td></tr>
+<tr class="memitem:a4b1646d81d58217037d9630ee04930c1" id="r_a4b1646d81d58217037d9630ee04930c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b1646d81d58217037d9630ee04930c1">MR_DistanceMeasurementObject_setLocalDelta</a> (<a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *delta)</td></tr>
 <tr class="separator:a4b1646d81d58217037d9630ee04930c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aafcc414c37842caf42820436226d81bf" id="r_aafcc414c37842caf42820436226d81bf"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aafcc414c37842caf42820436226d81bf">MR_DistanceMeasurementObject_getDrawAsNegative</a> (const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this)</td></tr>
+<tr class="memitem:aafcc414c37842caf42820436226d81bf" id="r_aafcc414c37842caf42820436226d81bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aafcc414c37842caf42820436226d81bf">MR_DistanceMeasurementObject_getDrawAsNegative</a> (const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this)</td></tr>
 <tr class="separator:aafcc414c37842caf42820436226d81bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6146678f51e3e5b98df2f6fe8e76db30" id="r_a6146678f51e3e5b98df2f6fe8e76db30"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6146678f51e3e5b98df2f6fe8e76db30">MR_DistanceMeasurementObject_setDrawAsNegative</a> (<a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this, bool value)</td></tr>
+<tr class="memitem:a6146678f51e3e5b98df2f6fe8e76db30" id="r_a6146678f51e3e5b98df2f6fe8e76db30"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6146678f51e3e5b98df2f6fe8e76db30">MR_DistanceMeasurementObject_setDrawAsNegative</a> (<a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this, bool value)</td></tr>
 <tr class="separator:a6146678f51e3e5b98df2f6fe8e76db30"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04d19c42e0c192b8aa7c6d44568aa8f0" id="r_a04d19c42e0c192b8aa7c6d44568aa8f0"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a8cf12bd80528e71e9c38396316841a62">MR_DistanceMeasurementObject_PerCoordDeltas</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04d19c42e0c192b8aa7c6d44568aa8f0">MR_DistanceMeasurementObject_getPerCoordDeltasMode</a> (const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this)</td></tr>
+<tr class="memitem:a04d19c42e0c192b8aa7c6d44568aa8f0" id="r_a04d19c42e0c192b8aa7c6d44568aa8f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a8cf12bd80528e71e9c38396316841a62">MR_DistanceMeasurementObject_PerCoordDeltas</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04d19c42e0c192b8aa7c6d44568aa8f0">MR_DistanceMeasurementObject_getPerCoordDeltasMode</a> (const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this)</td></tr>
 <tr class="separator:a04d19c42e0c192b8aa7c6d44568aa8f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f6df29c5a03bc602befe43a5d3c579a" id="r_a5f6df29c5a03bc602befe43a5d3c579a"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f6df29c5a03bc602befe43a5d3c579a">MR_DistanceMeasurementObject_setPerCoordDeltasMode</a> (<a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this, <a class="el" href="#a8cf12bd80528e71e9c38396316841a62">MR_DistanceMeasurementObject_PerCoordDeltas</a> mode)</td></tr>
+<tr class="memitem:a5f6df29c5a03bc602befe43a5d3c579a" id="r_a5f6df29c5a03bc602befe43a5d3c579a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f6df29c5a03bc602befe43a5d3c579a">MR_DistanceMeasurementObject_setPerCoordDeltasMode</a> (<a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this, <a class="el" href="#a8cf12bd80528e71e9c38396316841a62">MR_DistanceMeasurementObject_PerCoordDeltas</a> mode)</td></tr>
 <tr class="separator:a5f6df29c5a03bc602befe43a5d3c579a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:accd2b73ecb5a61dd96c70c18bf1e61f0" id="r_accd2b73ecb5a61dd96c70c18bf1e61f0"><td class="memItemLeft" align="right" valign="top">MRC_API float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#accd2b73ecb5a61dd96c70c18bf1e61f0">MR_DistanceMeasurementObject_computeDistance</a> (const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this)</td></tr>
+<tr class="memitem:accd2b73ecb5a61dd96c70c18bf1e61f0" id="r_accd2b73ecb5a61dd96c70c18bf1e61f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#accd2b73ecb5a61dd96c70c18bf1e61f0">MR_DistanceMeasurementObject_computeDistance</a> (const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this)</td></tr>
 <tr class="separator:accd2b73ecb5a61dd96c70c18bf1e61f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ecfd3cff7d883fc79b3472913f207e6" id="r_a1ecfd3cff7d883fc79b3472913f207e6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAngleMeasurementObject_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ecfd3cff7d883fc79b3472913f207e6">MR_DistanceMeasurementObject_getInfoLines</a> (const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this)</td></tr>
+<tr class="memitem:a1ecfd3cff7d883fc79b3472913f207e6" id="r_a1ecfd3cff7d883fc79b3472913f207e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAngleMeasurementObject_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ecfd3cff7d883fc79b3472913f207e6">MR_DistanceMeasurementObject_getInfoLines</a> (const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this)</td></tr>
 <tr class="separator:a1ecfd3cff7d883fc79b3472913f207e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -432,7 +426,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> * MR_DistanceMeasurementObject_AssignFromAnother </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> * MR_DistanceMeasurementObject_AssignFromAnother </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -459,7 +453,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> * MR_DistanceMeasurementObject_clone </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> * MR_DistanceMeasurementObject_clone </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -477,7 +471,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API float MR_DistanceMeasurementObject_computeDistance </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float MR_DistanceMeasurementObject_computeDistance </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -495,7 +489,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> * MR_DistanceMeasurementObject_ConstructFromAnother </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> * MR_DistanceMeasurementObject_ConstructFromAnother </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
         </tr>
@@ -517,7 +511,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> * MR_DistanceMeasurementObject_DefaultConstruct </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> * MR_DistanceMeasurementObject_DefaultConstruct </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -535,7 +529,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> * MR_DistanceMeasurementObject_DefaultConstructArray </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> * MR_DistanceMeasurementObject_DefaultConstructArray </td>
           <td>(</td>
           <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
           <td></td>
@@ -553,7 +547,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_DistanceMeasurementObject_Destroy </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_DistanceMeasurementObject_Destroy </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -572,7 +566,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_DistanceMeasurementObject_DestroyArray </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_DistanceMeasurementObject_DestroyArray </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -591,7 +585,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_DistanceMeasurementObject_getClassName </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_DistanceMeasurementObject_getClassName </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -609,7 +603,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_DistanceMeasurementObject_getClassNameInPlural </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_DistanceMeasurementObject_getClassNameInPlural </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -627,7 +621,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API bool MR_DistanceMeasurementObject_getDrawAsNegative </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_DistanceMeasurementObject_getDrawAsNegative </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -645,7 +639,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRAngleMeasurementObject_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> * MR_DistanceMeasurementObject_getInfoLines </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAngleMeasurementObject_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> * MR_DistanceMeasurementObject_getInfoLines </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -663,7 +657,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> MR_DistanceMeasurementObject_getLocalDelta </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> MR_DistanceMeasurementObject_getLocalDelta </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -681,7 +675,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> MR_DistanceMeasurementObject_getLocalPoint </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> MR_DistanceMeasurementObject_getLocalPoint </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -699,7 +693,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a8cf12bd80528e71e9c38396316841a62">MR_DistanceMeasurementObject_PerCoordDeltas</a> MR_DistanceMeasurementObject_getPerCoordDeltasMode </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a8cf12bd80528e71e9c38396316841a62">MR_DistanceMeasurementObject_PerCoordDeltas</a> MR_DistanceMeasurementObject_getPerCoordDeltasMode </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -717,7 +711,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> MR_DistanceMeasurementObject_getWorldDelta </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> MR_DistanceMeasurementObject_getWorldDelta </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -735,7 +729,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> MR_DistanceMeasurementObject_getWorldPoint </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> MR_DistanceMeasurementObject_getWorldPoint </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -753,7 +747,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRAngleMeasurementObject_8h.html#af3835b44b6f41035bcc3f994b4711cc1">MR_MeasurementObject</a> * MR_DistanceMeasurementObject_MutableUpcastTo_MR_MeasurementObject </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAngleMeasurementObject_8h.html#af3835b44b6f41035bcc3f994b4711cc1">MR_MeasurementObject</a> * MR_DistanceMeasurementObject_MutableUpcastTo_MR_MeasurementObject </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
           <td></td>
@@ -772,7 +766,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> * MR_DistanceMeasurementObject_MutableUpcastTo_MR_Object </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> * MR_DistanceMeasurementObject_MutableUpcastTo_MR_Object </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
           <td></td>
@@ -791,7 +785,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRAddVisualPropertiesMixin_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a> * MR_DistanceMeasurementObject_MutableUpcastTo_MR_ObjectChildrenHolder </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAddVisualPropertiesMixin_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a> * MR_DistanceMeasurementObject_MutableUpcastTo_MR_ObjectChildrenHolder </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
           <td></td>
@@ -810,7 +804,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a> * MR_DistanceMeasurementObject_MutableUpcastTo_MR_VisualObject </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a> * MR_DistanceMeasurementObject_MutableUpcastTo_MR_VisualObject </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
           <td></td>
@@ -829,7 +823,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> * MR_DistanceMeasurementObject_OffsetMutablePtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> * MR_DistanceMeasurementObject_OffsetMutablePtr </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -852,7 +846,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> * MR_DistanceMeasurementObject_OffsetPtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> * MR_DistanceMeasurementObject_OffsetPtr </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -875,7 +869,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_DistanceMeasurementObject_setDrawAsNegative </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_DistanceMeasurementObject_setDrawAsNegative </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -897,7 +891,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_DistanceMeasurementObject_setLocalDelta </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_DistanceMeasurementObject_setLocalDelta </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -919,7 +913,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_DistanceMeasurementObject_setLocalPoint </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_DistanceMeasurementObject_setLocalPoint </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -941,7 +935,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_DistanceMeasurementObject_setPerCoordDeltasMode </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_DistanceMeasurementObject_setPerCoordDeltasMode </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -963,7 +957,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> * MR_DistanceMeasurementObject_shallowClone </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> * MR_DistanceMeasurementObject_shallowClone </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -981,7 +975,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const char * MR_DistanceMeasurementObject_TypeName </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const char * MR_DistanceMeasurementObject_TypeName </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -1000,7 +994,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const char * MR_DistanceMeasurementObject_typeName </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const char * MR_DistanceMeasurementObject_typeName </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1018,7 +1012,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="MRAngleMeasurementObject_8h.html#af3835b44b6f41035bcc3f994b4711cc1">MR_MeasurementObject</a> * MR_DistanceMeasurementObject_UpcastTo_MR_MeasurementObject </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAngleMeasurementObject_8h.html#af3835b44b6f41035bcc3f994b4711cc1">MR_MeasurementObject</a> * MR_DistanceMeasurementObject_UpcastTo_MR_MeasurementObject </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
           <td></td>
@@ -1036,7 +1030,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> * MR_DistanceMeasurementObject_UpcastTo_MR_Object </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> * MR_DistanceMeasurementObject_UpcastTo_MR_Object </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
           <td></td>
@@ -1054,7 +1048,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a> * MR_DistanceMeasurementObject_UpcastTo_MR_ObjectChildrenHolder </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a> * MR_DistanceMeasurementObject_UpcastTo_MR_ObjectChildrenHolder </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
           <td></td>
@@ -1072,7 +1066,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a> * MR_DistanceMeasurementObject_UpcastTo_MR_VisualObject </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a> * MR_DistanceMeasurementObject_UpcastTo_MR_VisualObject </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
           <td></td>

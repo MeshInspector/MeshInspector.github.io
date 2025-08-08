@@ -14,12 +14,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -157,7 +151,7 @@ $(function(){initNavTree('MRSurfaceLineOffset_8h.html',''); initResizable(true);
   <div class="headertitle"><div class="title">MRSurfaceLineOffset.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 </div>
 <p><a href="MRSurfaceLineOffset_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -174,10 +168,10 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:af6c62eb6d9c7cf09e8dc5ee36e66f4d8" id="r_af6c62eb6d9c7cf09e8dc5ee36e66f4d8"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a273eed4f5cadfa1bedd14695f02a2709">MR_expected_std_vector_std_vector_MR_Vector3f_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6c62eb6d9c7cf09e8dc5ee36e66f4d8">MR_offsetSurfaceLine_float</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAggregateFlow_8h.html#a087d1afcc55aadc6e828d844329c9727">MR_std_vector_MR_MeshTriPoint</a> *surfaceLine, float offset)</td></tr>
+<tr class="memitem:af6c62eb6d9c7cf09e8dc5ee36e66f4d8" id="r_af6c62eb6d9c7cf09e8dc5ee36e66f4d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a273eed4f5cadfa1bedd14695f02a2709">MR_expected_std_vector_std_vector_MR_Vector3f_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6c62eb6d9c7cf09e8dc5ee36e66f4d8">MR_offsetSurfaceLine_float</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAggregateFlow_8h.html#a087d1afcc55aadc6e828d844329c9727">MR_std_vector_MR_MeshTriPoint</a> *surfaceLine, float offset)</td></tr>
 <tr class="memdesc:af6c62eb6d9c7cf09e8dc5ee36e66f4d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns contours in <code>mesh</code> space that are offset from <code>surfaceLine</code> on <code>offset</code> amount in all directions.  <br /></td></tr>
 <tr class="separator:af6c62eb6d9c7cf09e8dc5ee36e66f4d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a88c5b2b9d8ef0a5c3c80d05230893033" id="r_a88c5b2b9d8ef0a5c3c80d05230893033"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a273eed4f5cadfa1bedd14695f02a2709">MR_expected_std_vector_std_vector_MR_Vector3f_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88c5b2b9d8ef0a5c3c80d05230893033">MR_offsetSurfaceLine_std_function_float_func_from_int32_t</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAggregateFlow_8h.html#a087d1afcc55aadc6e828d844329c9727">MR_std_vector_MR_MeshTriPoint</a> *surfaceLine, const <a class="el" href="MRContoursCut_8h.html#a6377e4343d87a90ac0bb8191522a2c9c">MR_std_function_float_from_int32_t</a> *offsetAtPoint)</td></tr>
+<tr class="memitem:a88c5b2b9d8ef0a5c3c80d05230893033" id="r_a88c5b2b9d8ef0a5c3c80d05230893033"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a273eed4f5cadfa1bedd14695f02a2709">MR_expected_std_vector_std_vector_MR_Vector3f_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88c5b2b9d8ef0a5c3c80d05230893033">MR_offsetSurfaceLine_std_function_float_func_from_int32_t</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAggregateFlow_8h.html#a087d1afcc55aadc6e828d844329c9727">MR_std_vector_MR_MeshTriPoint</a> *surfaceLine, const <a class="el" href="MRContoursCut_8h.html#a6377e4343d87a90ac0bb8191522a2c9c">MR_std_function_float_from_int32_t</a> *offsetAtPoint)</td></tr>
 <tr class="memdesc:a88c5b2b9d8ef0a5c3c80d05230893033"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns contours in <code>mesh</code> space that are offset from <code>surfaceLine</code> on <code>offsetAtPoint</code> amount in all directions.  <br /></td></tr>
 <tr class="separator:a88c5b2b9d8ef0a5c3c80d05230893033"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -246,7 +240,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a273eed4f5cadfa1bedd14695f02a2709">MR_expected_std_vector_std_vector_MR_Vector3f_std_string</a> * MR_offsetSurfaceLine_float </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a273eed4f5cadfa1bedd14695f02a2709">MR_expected_std_vector_std_vector_MR_Vector3f_std_string</a> * MR_offsetSurfaceLine_float </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
@@ -284,7 +278,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a273eed4f5cadfa1bedd14695f02a2709">MR_expected_std_vector_std_vector_MR_Vector3f_std_string</a> * MR_offsetSurfaceLine_std_function_float_func_from_int32_t </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a273eed4f5cadfa1bedd14695f02a2709">MR_expected_std_vector_std_vector_MR_Vector3f_std_string</a> * MR_offsetSurfaceLine_std_function_float_func_from_int32_t </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>

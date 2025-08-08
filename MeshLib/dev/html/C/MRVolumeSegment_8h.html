@@ -14,12 +14,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -159,7 +153,7 @@ $(function(){initNavTree('MRVolumeSegment_8h.html',''); initResizable(true); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
-<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
 <code>#include &lt;stdint.h&gt;</code><br />
 </div>
@@ -206,85 +200,85 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:acca188df475d138634d4f969f4020737" id="r_acca188df475d138634d4f969f4020737"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acca188df475d138634d4f969f4020737">MR_meshFromVoxelsMask</a> (const <a class="el" href="MRBox_8h.html#a3d8aa59058b2516d2c9b34241f2c0441">MR_VdbVolume</a> *volume, const <a class="el" href="MRBitSet_8h.html#a94b5f700f4835481dce132716ff73b05">MR_VoxelBitSet</a> *mask)</td></tr>
+<tr class="memitem:acca188df475d138634d4f969f4020737" id="r_acca188df475d138634d4f969f4020737"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acca188df475d138634d4f969f4020737">MR_meshFromVoxelsMask</a> (const <a class="el" href="MRBox_8h.html#a3d8aa59058b2516d2c9b34241f2c0441">MR_VdbVolume</a> *volume, const <a class="el" href="MRBitSet_8h.html#a94b5f700f4835481dce132716ff73b05">MR_VoxelBitSet</a> *mask)</td></tr>
 <tr class="memdesc:acca188df475d138634d4f969f4020737"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates mesh from voxels mask.  <br /></td></tr>
 <tr class="separator:acca188df475d138634d4f969f4020737"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a422b9e2094e958206f448f18ffd806cf" id="r_a422b9e2094e958206f448f18ffd806cf"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a422b9e2094e958206f448f18ffd806cf">MR_VolumeSegmentationParameters_Get_buildPathExponentModifier</a> (const <a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> *_this)</td></tr>
+<tr class="memitem:a422b9e2094e958206f448f18ffd806cf" id="r_a422b9e2094e958206f448f18ffd806cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a422b9e2094e958206f448f18ffd806cf">MR_VolumeSegmentationParameters_Get_buildPathExponentModifier</a> (const <a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> *_this)</td></tr>
 <tr class="separator:a422b9e2094e958206f448f18ffd806cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a496839f87345f1065f05fc0c68f20993" id="r_a496839f87345f1065f05fc0c68f20993"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a496839f87345f1065f05fc0c68f20993">MR_VolumeSegmentationParameters_Set_buildPathExponentModifier</a> (<a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> *_this, float value)</td></tr>
+<tr class="memitem:a496839f87345f1065f05fc0c68f20993" id="r_a496839f87345f1065f05fc0c68f20993"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a496839f87345f1065f05fc0c68f20993">MR_VolumeSegmentationParameters_Set_buildPathExponentModifier</a> (<a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> *_this, float value)</td></tr>
 <tr class="separator:a496839f87345f1065f05fc0c68f20993"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a37d3fe27d5343e3a7f23cafdcf04bdc9" id="r_a37d3fe27d5343e3a7f23cafdcf04bdc9"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a37d3fe27d5343e3a7f23cafdcf04bdc9">MR_VolumeSegmentationParameters_GetMutable_buildPathExponentModifier</a> (<a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> *_this)</td></tr>
+<tr class="memitem:a37d3fe27d5343e3a7f23cafdcf04bdc9" id="r_a37d3fe27d5343e3a7f23cafdcf04bdc9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a37d3fe27d5343e3a7f23cafdcf04bdc9">MR_VolumeSegmentationParameters_GetMutable_buildPathExponentModifier</a> (<a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> *_this)</td></tr>
 <tr class="separator:a37d3fe27d5343e3a7f23cafdcf04bdc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aebe633caad36b65cb19c1667723be78c" id="r_aebe633caad36b65cb19c1667723be78c"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aebe633caad36b65cb19c1667723be78c">MR_VolumeSegmentationParameters_Get_segmentationExponentModifier</a> (const <a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> *_this)</td></tr>
+<tr class="memitem:aebe633caad36b65cb19c1667723be78c" id="r_aebe633caad36b65cb19c1667723be78c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aebe633caad36b65cb19c1667723be78c">MR_VolumeSegmentationParameters_Get_segmentationExponentModifier</a> (const <a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> *_this)</td></tr>
 <tr class="separator:aebe633caad36b65cb19c1667723be78c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa539792b167d064c2b50df03059fef49" id="r_aa539792b167d064c2b50df03059fef49"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa539792b167d064c2b50df03059fef49">MR_VolumeSegmentationParameters_Set_segmentationExponentModifier</a> (<a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> *_this, float value)</td></tr>
+<tr class="memitem:aa539792b167d064c2b50df03059fef49" id="r_aa539792b167d064c2b50df03059fef49"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa539792b167d064c2b50df03059fef49">MR_VolumeSegmentationParameters_Set_segmentationExponentModifier</a> (<a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> *_this, float value)</td></tr>
 <tr class="separator:aa539792b167d064c2b50df03059fef49"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a700a07f40e7a5afb5fd49a3b65e75519" id="r_a700a07f40e7a5afb5fd49a3b65e75519"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a700a07f40e7a5afb5fd49a3b65e75519">MR_VolumeSegmentationParameters_GetMutable_segmentationExponentModifier</a> (<a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> *_this)</td></tr>
+<tr class="memitem:a700a07f40e7a5afb5fd49a3b65e75519" id="r_a700a07f40e7a5afb5fd49a3b65e75519"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a700a07f40e7a5afb5fd49a3b65e75519">MR_VolumeSegmentationParameters_GetMutable_segmentationExponentModifier</a> (<a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> *_this)</td></tr>
 <tr class="separator:a700a07f40e7a5afb5fd49a3b65e75519"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac430d037445b9d96b5e70b8388908a53" id="r_ac430d037445b9d96b5e70b8388908a53"><td class="memItemLeft" align="right" valign="top">MRC_API const int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac430d037445b9d96b5e70b8388908a53">MR_VolumeSegmentationParameters_Get_voxelsExpansion</a> (const <a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> *_this)</td></tr>
+<tr class="memitem:ac430d037445b9d96b5e70b8388908a53" id="r_ac430d037445b9d96b5e70b8388908a53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac430d037445b9d96b5e70b8388908a53">MR_VolumeSegmentationParameters_Get_voxelsExpansion</a> (const <a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> *_this)</td></tr>
 <tr class="separator:ac430d037445b9d96b5e70b8388908a53"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d4694c2765b5530d20849dc7e1d900b" id="r_a7d4694c2765b5530d20849dc7e1d900b"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d4694c2765b5530d20849dc7e1d900b">MR_VolumeSegmentationParameters_Set_voxelsExpansion</a> (<a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> *_this, int32_t value)</td></tr>
+<tr class="memitem:a7d4694c2765b5530d20849dc7e1d900b" id="r_a7d4694c2765b5530d20849dc7e1d900b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d4694c2765b5530d20849dc7e1d900b">MR_VolumeSegmentationParameters_Set_voxelsExpansion</a> (<a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> *_this, int32_t value)</td></tr>
 <tr class="separator:a7d4694c2765b5530d20849dc7e1d900b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ce96a7abea4364360952a24c2d8f5b9" id="r_a0ce96a7abea4364360952a24c2d8f5b9"><td class="memItemLeft" align="right" valign="top">MRC_API int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ce96a7abea4364360952a24c2d8f5b9">MR_VolumeSegmentationParameters_GetMutable_voxelsExpansion</a> (<a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> *_this)</td></tr>
+<tr class="memitem:a0ce96a7abea4364360952a24c2d8f5b9" id="r_a0ce96a7abea4364360952a24c2d8f5b9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ce96a7abea4364360952a24c2d8f5b9">MR_VolumeSegmentationParameters_GetMutable_voxelsExpansion</a> (<a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> *_this)</td></tr>
 <tr class="separator:a0ce96a7abea4364360952a24c2d8f5b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab8a2cbe5a8b40c314a38234145ab6b5f" id="r_ab8a2cbe5a8b40c314a38234145ab6b5f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8a2cbe5a8b40c314a38234145ab6b5f">MR_VolumeSegmentationParameters_DefaultConstruct</a> (void)</td></tr>
+<tr class="memitem:ab8a2cbe5a8b40c314a38234145ab6b5f" id="r_ab8a2cbe5a8b40c314a38234145ab6b5f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8a2cbe5a8b40c314a38234145ab6b5f">MR_VolumeSegmentationParameters_DefaultConstruct</a> (void)</td></tr>
 <tr class="separator:ab8a2cbe5a8b40c314a38234145ab6b5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a765a42c8b39e31259afe1d0f163b9818" id="r_a765a42c8b39e31259afe1d0f163b9818"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a765a42c8b39e31259afe1d0f163b9818">MR_VolumeSegmentationParameters_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="memitem:a765a42c8b39e31259afe1d0f163b9818" id="r_a765a42c8b39e31259afe1d0f163b9818"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a765a42c8b39e31259afe1d0f163b9818">MR_VolumeSegmentationParameters_DefaultConstructArray</a> (size_t num_elems)</td></tr>
 <tr class="separator:a765a42c8b39e31259afe1d0f163b9818"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a28c45de3ccf5152b7c9120a542f81c30" id="r_a28c45de3ccf5152b7c9120a542f81c30"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28c45de3ccf5152b7c9120a542f81c30">MR_VolumeSegmentationParameters_ConstructFrom</a> (float buildPathExponentModifier, float segmentationExponentModifier, int32_t voxelsExpansion)</td></tr>
+<tr class="memitem:a28c45de3ccf5152b7c9120a542f81c30" id="r_a28c45de3ccf5152b7c9120a542f81c30"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28c45de3ccf5152b7c9120a542f81c30">MR_VolumeSegmentationParameters_ConstructFrom</a> (float buildPathExponentModifier, float segmentationExponentModifier, int32_t voxelsExpansion)</td></tr>
 <tr class="separator:a28c45de3ccf5152b7c9120a542f81c30"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a816ab50a457628423ecaa9542ffc8919" id="r_a816ab50a457628423ecaa9542ffc8919"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a816ab50a457628423ecaa9542ffc8919">MR_VolumeSegmentationParameters_OffsetPtr</a> (const <a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a816ab50a457628423ecaa9542ffc8919" id="r_a816ab50a457628423ecaa9542ffc8919"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a816ab50a457628423ecaa9542ffc8919">MR_VolumeSegmentationParameters_OffsetPtr</a> (const <a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a816ab50a457628423ecaa9542ffc8919"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a816ab50a457628423ecaa9542ffc8919"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a199344a9e8620eef705213ef9d9d4c38" id="r_a199344a9e8620eef705213ef9d9d4c38"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a199344a9e8620eef705213ef9d9d4c38">MR_VolumeSegmentationParameters_OffsetMutablePtr</a> (<a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a199344a9e8620eef705213ef9d9d4c38" id="r_a199344a9e8620eef705213ef9d9d4c38"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a199344a9e8620eef705213ef9d9d4c38">MR_VolumeSegmentationParameters_OffsetMutablePtr</a> (<a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a199344a9e8620eef705213ef9d9d4c38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a199344a9e8620eef705213ef9d9d4c38"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90980b792da3946fb9306c745c3dc08e" id="r_a90980b792da3946fb9306c745c3dc08e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90980b792da3946fb9306c745c3dc08e">MR_VolumeSegmentationParameters_ConstructFromAnother</a> (const <a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> *_other)</td></tr>
+<tr class="memitem:a90980b792da3946fb9306c745c3dc08e" id="r_a90980b792da3946fb9306c745c3dc08e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90980b792da3946fb9306c745c3dc08e">MR_VolumeSegmentationParameters_ConstructFromAnother</a> (const <a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> *_other)</td></tr>
 <tr class="separator:a90980b792da3946fb9306c745c3dc08e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adab0e4ae4ccbc0a2d4838dda6d1ecec2" id="r_adab0e4ae4ccbc0a2d4838dda6d1ecec2"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adab0e4ae4ccbc0a2d4838dda6d1ecec2">MR_VolumeSegmentationParameters_Destroy</a> (const <a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> *_this)</td></tr>
+<tr class="memitem:adab0e4ae4ccbc0a2d4838dda6d1ecec2" id="r_adab0e4ae4ccbc0a2d4838dda6d1ecec2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adab0e4ae4ccbc0a2d4838dda6d1ecec2">MR_VolumeSegmentationParameters_Destroy</a> (const <a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> *_this)</td></tr>
 <tr class="memdesc:adab0e4ae4ccbc0a2d4838dda6d1ecec2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_VolumeSegmentationParameters</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:adab0e4ae4ccbc0a2d4838dda6d1ecec2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9fce94501c837fd145a9aa7935bd9e1f" id="r_a9fce94501c837fd145a9aa7935bd9e1f"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9fce94501c837fd145a9aa7935bd9e1f">MR_VolumeSegmentationParameters_DestroyArray</a> (const <a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> *_this)</td></tr>
+<tr class="memitem:a9fce94501c837fd145a9aa7935bd9e1f" id="r_a9fce94501c837fd145a9aa7935bd9e1f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9fce94501c837fd145a9aa7935bd9e1f">MR_VolumeSegmentationParameters_DestroyArray</a> (const <a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> *_this)</td></tr>
 <tr class="memdesc:a9fce94501c837fd145a9aa7935bd9e1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_VolumeSegmentationParameters</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:a9fce94501c837fd145a9aa7935bd9e1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0a8c27fe048518d09db63cf536676219" id="r_a0a8c27fe048518d09db63cf536676219"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a8c27fe048518d09db63cf536676219">MR_VolumeSegmentationParameters_AssignFromAnother</a> (<a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> *_this, const <a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> *_other)</td></tr>
+<tr class="memitem:a0a8c27fe048518d09db63cf536676219" id="r_a0a8c27fe048518d09db63cf536676219"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a8c27fe048518d09db63cf536676219">MR_VolumeSegmentationParameters_AssignFromAnother</a> (<a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> *_this, const <a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> *_other)</td></tr>
 <tr class="separator:a0a8c27fe048518d09db63cf536676219"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab384c7e62518030b967b84c0ed1b6db6" id="r_ab384c7e62518030b967b84c0ed1b6db6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab384c7e62518030b967b84c0ed1b6db6">MR_segmentVolume</a> (const <a class="el" href="MRBox_8h.html#a3d8aa59058b2516d2c9b34241f2c0441">MR_VdbVolume</a> *volume, const <a class="el" href="std__vector__std__pair__MR__Vector3f__MR__Vector3f_8h.html#aa2a44878522bc2a9ca50db378bfa329b">MR_std_vector_std_pair_MR_Vector3f_MR_Vector3f</a> *pairs, const <a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> *params)</td></tr>
+<tr class="memitem:ab384c7e62518030b967b84c0ed1b6db6" id="r_ab384c7e62518030b967b84c0ed1b6db6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab384c7e62518030b967b84c0ed1b6db6">MR_segmentVolume</a> (const <a class="el" href="MRBox_8h.html#a3d8aa59058b2516d2c9b34241f2c0441">MR_VdbVolume</a> *volume, const <a class="el" href="std__vector__std__pair__MR__Vector3f__MR__Vector3f_8h.html#aa2a44878522bc2a9ca50db378bfa329b">MR_std_vector_std_pair_MR_Vector3f_MR_Vector3f</a> *pairs, const <a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> *params)</td></tr>
 <tr class="memdesc:ab384c7e62518030b967b84c0ed1b6db6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simple segment volume.  <br /></td></tr>
 <tr class="separator:ab384c7e62518030b967b84c0ed1b6db6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afeb5988ad114ce2167280ec6fc822672" id="r_afeb5988ad114ce2167280ec6fc822672"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a44dacd5572f893e267413ac24c8daf81">MR_VolumeSegmenter</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afeb5988ad114ce2167280ec6fc822672">MR_VolumeSegmenter_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a44dacd5572f893e267413ac24c8daf81">MR_VolumeSegmenter</a> *_other)</td></tr>
+<tr class="memitem:afeb5988ad114ce2167280ec6fc822672" id="r_afeb5988ad114ce2167280ec6fc822672"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a44dacd5572f893e267413ac24c8daf81">MR_VolumeSegmenter</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afeb5988ad114ce2167280ec6fc822672">MR_VolumeSegmenter_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a44dacd5572f893e267413ac24c8daf81">MR_VolumeSegmenter</a> *_other)</td></tr>
 <tr class="separator:afeb5988ad114ce2167280ec6fc822672"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2811bd34efc6b21bac10eff9e0f12e6a" id="r_a2811bd34efc6b21bac10eff9e0f12e6a"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a44dacd5572f893e267413ac24c8daf81">MR_VolumeSegmenter</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2811bd34efc6b21bac10eff9e0f12e6a">MR_VolumeSegmenter_OffsetPtr</a> (const <a class="el" href="#a44dacd5572f893e267413ac24c8daf81">MR_VolumeSegmenter</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a2811bd34efc6b21bac10eff9e0f12e6a" id="r_a2811bd34efc6b21bac10eff9e0f12e6a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a44dacd5572f893e267413ac24c8daf81">MR_VolumeSegmenter</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2811bd34efc6b21bac10eff9e0f12e6a">MR_VolumeSegmenter_OffsetPtr</a> (const <a class="el" href="#a44dacd5572f893e267413ac24c8daf81">MR_VolumeSegmenter</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a2811bd34efc6b21bac10eff9e0f12e6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a2811bd34efc6b21bac10eff9e0f12e6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae1896869aa88205f1faa7aba5cc8fb86" id="r_ae1896869aa88205f1faa7aba5cc8fb86"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a44dacd5572f893e267413ac24c8daf81">MR_VolumeSegmenter</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1896869aa88205f1faa7aba5cc8fb86">MR_VolumeSegmenter_OffsetMutablePtr</a> (<a class="el" href="#a44dacd5572f893e267413ac24c8daf81">MR_VolumeSegmenter</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:ae1896869aa88205f1faa7aba5cc8fb86" id="r_ae1896869aa88205f1faa7aba5cc8fb86"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a44dacd5572f893e267413ac24c8daf81">MR_VolumeSegmenter</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1896869aa88205f1faa7aba5cc8fb86">MR_VolumeSegmenter_OffsetMutablePtr</a> (<a class="el" href="#a44dacd5572f893e267413ac24c8daf81">MR_VolumeSegmenter</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:ae1896869aa88205f1faa7aba5cc8fb86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:ae1896869aa88205f1faa7aba5cc8fb86"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd79ce999d59ea96391d757346a4d467" id="r_afd79ce999d59ea96391d757346a4d467"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a44dacd5572f893e267413ac24c8daf81">MR_VolumeSegmenter</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd79ce999d59ea96391d757346a4d467">MR_VolumeSegmenter_Construct</a> (const <a class="el" href="MRBox_8h.html#a3d8aa59058b2516d2c9b34241f2c0441">MR_VdbVolume</a> *volume)</td></tr>
+<tr class="memitem:afd79ce999d59ea96391d757346a4d467" id="r_afd79ce999d59ea96391d757346a4d467"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a44dacd5572f893e267413ac24c8daf81">MR_VolumeSegmenter</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd79ce999d59ea96391d757346a4d467">MR_VolumeSegmenter_Construct</a> (const <a class="el" href="MRBox_8h.html#a3d8aa59058b2516d2c9b34241f2c0441">MR_VdbVolume</a> *volume)</td></tr>
 <tr class="separator:afd79ce999d59ea96391d757346a4d467"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c87ff99d1b14ea8a13a5ab9d63ecf1b" id="r_a7c87ff99d1b14ea8a13a5ab9d63ecf1b"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c87ff99d1b14ea8a13a5ab9d63ecf1b">MR_VolumeSegmenter_Destroy</a> (const <a class="el" href="#a44dacd5572f893e267413ac24c8daf81">MR_VolumeSegmenter</a> *_this)</td></tr>
+<tr class="memitem:a7c87ff99d1b14ea8a13a5ab9d63ecf1b" id="r_a7c87ff99d1b14ea8a13a5ab9d63ecf1b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c87ff99d1b14ea8a13a5ab9d63ecf1b">MR_VolumeSegmenter_Destroy</a> (const <a class="el" href="#a44dacd5572f893e267413ac24c8daf81">MR_VolumeSegmenter</a> *_this)</td></tr>
 <tr class="memdesc:a7c87ff99d1b14ea8a13a5ab9d63ecf1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_VolumeSegmenter</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:a7c87ff99d1b14ea8a13a5ab9d63ecf1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ed3af39691146a39e170a554a044c75" id="r_a3ed3af39691146a39e170a554a044c75"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ed3af39691146a39e170a554a044c75">MR_VolumeSegmenter_DestroyArray</a> (const <a class="el" href="#a44dacd5572f893e267413ac24c8daf81">MR_VolumeSegmenter</a> *_this)</td></tr>
+<tr class="memitem:a3ed3af39691146a39e170a554a044c75" id="r_a3ed3af39691146a39e170a554a044c75"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ed3af39691146a39e170a554a044c75">MR_VolumeSegmenter_DestroyArray</a> (const <a class="el" href="#a44dacd5572f893e267413ac24c8daf81">MR_VolumeSegmenter</a> *_this)</td></tr>
 <tr class="memdesc:a3ed3af39691146a39e170a554a044c75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_VolumeSegmenter</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:a3ed3af39691146a39e170a554a044c75"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab45a55e16f09ad6da710a64d3eb9ef23" id="r_ab45a55e16f09ad6da710a64d3eb9ef23"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab45a55e16f09ad6da710a64d3eb9ef23">MR_VolumeSegmenter_addPathSeeds</a> (<a class="el" href="#a44dacd5572f893e267413ac24c8daf81">MR_VolumeSegmenter</a> *_this, const <a class="el" href="#a1bf861487a99eefce3b177f0edded8a4">MR_VoxelMetricParameters</a> *metricParameters, <a class="el" href="#aac9f0e02a3fca44ef300b6f4139c7cc0">MR_VolumeSegmenter_SeedType</a> seedType, const float *exponentModifier)</td></tr>
+<tr class="memitem:ab45a55e16f09ad6da710a64d3eb9ef23" id="r_ab45a55e16f09ad6da710a64d3eb9ef23"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab45a55e16f09ad6da710a64d3eb9ef23">MR_VolumeSegmenter_addPathSeeds</a> (<a class="el" href="#a44dacd5572f893e267413ac24c8daf81">MR_VolumeSegmenter</a> *_this, const <a class="el" href="#a1bf861487a99eefce3b177f0edded8a4">MR_VoxelMetricParameters</a> *metricParameters, <a class="el" href="#aac9f0e02a3fca44ef300b6f4139c7cc0">MR_VolumeSegmenter_SeedType</a> seedType, const float *exponentModifier)</td></tr>
 <tr class="separator:ab45a55e16f09ad6da710a64d3eb9ef23"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af87a262dea1e463358243143f2c8d79e" id="r_af87a262dea1e463358243143f2c8d79e"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af87a262dea1e463358243143f2c8d79e">MR_VolumeSegmenter_setSeeds</a> (<a class="el" href="#a44dacd5572f893e267413ac24c8daf81">MR_VolumeSegmenter</a> *_this, const <a class="el" href="std__vector__MR__Vector3i_8h.html#a7f44233acc15e6606c18834b06a1629d">MR_std_vector_MR_Vector3i</a> *seeds, <a class="el" href="#aac9f0e02a3fca44ef300b6f4139c7cc0">MR_VolumeSegmenter_SeedType</a> seedType)</td></tr>
+<tr class="memitem:af87a262dea1e463358243143f2c8d79e" id="r_af87a262dea1e463358243143f2c8d79e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af87a262dea1e463358243143f2c8d79e">MR_VolumeSegmenter_setSeeds</a> (<a class="el" href="#a44dacd5572f893e267413ac24c8daf81">MR_VolumeSegmenter</a> *_this, const <a class="el" href="std__vector__MR__Vector3i_8h.html#a7f44233acc15e6606c18834b06a1629d">MR_std_vector_MR_Vector3i</a> *seeds, <a class="el" href="#aac9f0e02a3fca44ef300b6f4139c7cc0">MR_VolumeSegmenter_SeedType</a> seedType)</td></tr>
 <tr class="separator:af87a262dea1e463358243143f2c8d79e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a86dc25a5c16700a77929733ebcf6ca2c" id="r_a86dc25a5c16700a77929733ebcf6ca2c"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86dc25a5c16700a77929733ebcf6ca2c">MR_VolumeSegmenter_addSeeds</a> (<a class="el" href="#a44dacd5572f893e267413ac24c8daf81">MR_VolumeSegmenter</a> *_this, const <a class="el" href="std__vector__MR__Vector3i_8h.html#a7f44233acc15e6606c18834b06a1629d">MR_std_vector_MR_Vector3i</a> *seeds, <a class="el" href="#aac9f0e02a3fca44ef300b6f4139c7cc0">MR_VolumeSegmenter_SeedType</a> seedType)</td></tr>
+<tr class="memitem:a86dc25a5c16700a77929733ebcf6ca2c" id="r_a86dc25a5c16700a77929733ebcf6ca2c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86dc25a5c16700a77929733ebcf6ca2c">MR_VolumeSegmenter_addSeeds</a> (<a class="el" href="#a44dacd5572f893e267413ac24c8daf81">MR_VolumeSegmenter</a> *_this, const <a class="el" href="std__vector__MR__Vector3i_8h.html#a7f44233acc15e6606c18834b06a1629d">MR_std_vector_MR_Vector3i</a> *seeds, <a class="el" href="#aac9f0e02a3fca44ef300b6f4139c7cc0">MR_VolumeSegmenter_SeedType</a> seedType)</td></tr>
 <tr class="separator:a86dc25a5c16700a77929733ebcf6ca2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af84d6627c6d6fcfa7cd76f4c31becc80" id="r_af84d6627c6d6fcfa7cd76f4c31becc80"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="std__vector__MR__Vector3i_8h.html#a7f44233acc15e6606c18834b06a1629d">MR_std_vector_MR_Vector3i</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af84d6627c6d6fcfa7cd76f4c31becc80">MR_VolumeSegmenter_getSeeds</a> (const <a class="el" href="#a44dacd5572f893e267413ac24c8daf81">MR_VolumeSegmenter</a> *_this, <a class="el" href="#aac9f0e02a3fca44ef300b6f4139c7cc0">MR_VolumeSegmenter_SeedType</a> seedType)</td></tr>
+<tr class="memitem:af84d6627c6d6fcfa7cd76f4c31becc80" id="r_af84d6627c6d6fcfa7cd76f4c31becc80"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="std__vector__MR__Vector3i_8h.html#a7f44233acc15e6606c18834b06a1629d">MR_std_vector_MR_Vector3i</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af84d6627c6d6fcfa7cd76f4c31becc80">MR_VolumeSegmenter_getSeeds</a> (const <a class="el" href="#a44dacd5572f893e267413ac24c8daf81">MR_VolumeSegmenter</a> *_this, <a class="el" href="#aac9f0e02a3fca44ef300b6f4139c7cc0">MR_VolumeSegmenter_SeedType</a> seedType)</td></tr>
 <tr class="separator:af84d6627c6d6fcfa7cd76f4c31becc80"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1cbeac76d9086b29e7688190dc02a3bf" id="r_a1cbeac76d9086b29e7688190dc02a3bf"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__MR__VoxelBitSet__std__string_8h.html#adbc0fff30d322ff1210cc6de0d6dda12">MR_expected_MR_VoxelBitSet_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1cbeac76d9086b29e7688190dc02a3bf">MR_VolumeSegmenter_segmentVolume</a> (<a class="el" href="#a44dacd5572f893e267413ac24c8daf81">MR_VolumeSegmenter</a> *_this, const float *segmentationExponentModifier, const int32_t *voxelsExpansion, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> cb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="memitem:a1cbeac76d9086b29e7688190dc02a3bf" id="r_a1cbeac76d9086b29e7688190dc02a3bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="expected__MR__VoxelBitSet__std__string_8h.html#adbc0fff30d322ff1210cc6de0d6dda12">MR_expected_MR_VoxelBitSet_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1cbeac76d9086b29e7688190dc02a3bf">MR_VolumeSegmenter_segmentVolume</a> (<a class="el" href="#a44dacd5572f893e267413ac24c8daf81">MR_VolumeSegmenter</a> *_this, const float *segmentationExponentModifier, const int32_t *voxelsExpansion, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> cb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
 <tr class="separator:a1cbeac76d9086b29e7688190dc02a3bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a81d1a1bd8336960d4715ce8c6855313c" id="r_a81d1a1bd8336960d4715ce8c6855313c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a81d1a1bd8336960d4715ce8c6855313c">MR_VolumeSegmenter_createMeshFromSegmentation</a> (const <a class="el" href="#a44dacd5572f893e267413ac24c8daf81">MR_VolumeSegmenter</a> *_this, const <a class="el" href="MRBitSet_8h.html#a94b5f700f4835481dce132716ff73b05">MR_VoxelBitSet</a> *segmentation)</td></tr>
+<tr class="memitem:a81d1a1bd8336960d4715ce8c6855313c" id="r_a81d1a1bd8336960d4715ce8c6855313c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a81d1a1bd8336960d4715ce8c6855313c">MR_VolumeSegmenter_createMeshFromSegmentation</a> (const <a class="el" href="#a44dacd5572f893e267413ac24c8daf81">MR_VolumeSegmenter</a> *_this, const <a class="el" href="MRBitSet_8h.html#a94b5f700f4835481dce132716ff73b05">MR_VoxelBitSet</a> *segmentation)</td></tr>
 <tr class="separator:a81d1a1bd8336960d4715ce8c6855313c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af27a18d8ee8508a680db55135eec329a" id="r_af27a18d8ee8508a680db55135eec329a"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af27a18d8ee8508a680db55135eec329a">MR_VolumeSegmenter_getVolumePartDimensions</a> (const <a class="el" href="#a44dacd5572f893e267413ac24c8daf81">MR_VolumeSegmenter</a> *_this)</td></tr>
+<tr class="memitem:af27a18d8ee8508a680db55135eec329a" id="r_af27a18d8ee8508a680db55135eec329a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af27a18d8ee8508a680db55135eec329a">MR_VolumeSegmenter_getVolumePartDimensions</a> (const <a class="el" href="#a44dacd5572f893e267413ac24c8daf81">MR_VolumeSegmenter</a> *_this)</td></tr>
 <tr class="separator:af27a18d8ee8508a680db55135eec329a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5698d4f6a220c8495f2cad381270a058" id="r_a5698d4f6a220c8495f2cad381270a058"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5698d4f6a220c8495f2cad381270a058">MR_VolumeSegmenter_getMinVoxel</a> (const <a class="el" href="#a44dacd5572f893e267413ac24c8daf81">MR_VolumeSegmenter</a> *_this)</td></tr>
+<tr class="memitem:a5698d4f6a220c8495f2cad381270a058" id="r_a5698d4f6a220c8495f2cad381270a058"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5698d4f6a220c8495f2cad381270a058">MR_VolumeSegmenter_getMinVoxel</a> (const <a class="el" href="#a44dacd5572f893e267413ac24c8daf81">MR_VolumeSegmenter</a> *_this)</td></tr>
 <tr class="separator:a5698d4f6a220c8495f2cad381270a058"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada0335bbc4f787215da06ef4b68eb94c" id="r_ada0335bbc4f787215da06ef4b68eb94c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="expected__std__vector__MR__Mesh__std__string_8h.html#a2704ecc047fdd30fa88d824c247edcde">MR_expected_std_vector_MR_Mesh_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada0335bbc4f787215da06ef4b68eb94c">MR_segmentVoxelMaskToInstances</a> (const <a class="el" href="MRBox_8h.html#a3d8aa59058b2516d2c9b34241f2c0441">MR_VdbVolume</a> *mask, const <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> *minSize, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> cb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="memitem:ada0335bbc4f787215da06ef4b68eb94c" id="r_ada0335bbc4f787215da06ef4b68eb94c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="expected__std__vector__MR__Mesh__std__string_8h.html#a2704ecc047fdd30fa88d824c247edcde">MR_expected_std_vector_MR_Mesh_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada0335bbc4f787215da06ef4b68eb94c">MR_segmentVoxelMaskToInstances</a> (const <a class="el" href="MRBox_8h.html#a3d8aa59058b2516d2c9b34241f2c0441">MR_VdbVolume</a> *mask, const <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> *minSize, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> cb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
 <tr class="separator:ada0335bbc4f787215da06ef4b68eb94c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -522,7 +516,7 @@ After</div></div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> * MR_meshFromVoxelsMask </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> * MR_meshFromVoxelsMask </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRBox_8h.html#a3d8aa59058b2516d2c9b34241f2c0441">MR_VdbVolume</a> *</td>          <td class="paramname"><span class="paramname"><em>volume</em></span>, </td>
         </tr>
@@ -551,7 +545,7 @@ After</div></div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> * MR_segmentVolume </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> * MR_segmentVolume </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRBox_8h.html#a3d8aa59058b2516d2c9b34241f2c0441">MR_VdbVolume</a> *</td>          <td class="paramname"><span class="paramname"><em>volume</em></span>, </td>
         </tr>
@@ -588,7 +582,7 @@ After</div></div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="expected__std__vector__MR__Mesh__std__string_8h.html#a2704ecc047fdd30fa88d824c247edcde">MR_expected_std_vector_MR_Mesh_std_string</a> * MR_segmentVoxelMaskToInstances </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="expected__std__vector__MR__Mesh__std__string_8h.html#a2704ecc047fdd30fa88d824c247edcde">MR_expected_std_vector_MR_Mesh_std_string</a> * MR_segmentVoxelMaskToInstances </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRBox_8h.html#a3d8aa59058b2516d2c9b34241f2c0441">MR_VdbVolume</a> *</td>          <td class="paramname"><span class="paramname"><em>mask</em></span>, </td>
         </tr>
@@ -625,7 +619,7 @@ After</div></div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> * MR_VolumeSegmentationParameters_AssignFromAnother </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> * MR_VolumeSegmentationParameters_AssignFromAnother </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -647,7 +641,7 @@ After</div></div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> * MR_VolumeSegmentationParameters_ConstructFrom </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> * MR_VolumeSegmentationParameters_ConstructFrom </td>
           <td>(</td>
           <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>buildPathExponentModifier</em></span>, </td>
         </tr>
@@ -674,7 +668,7 @@ After</div></div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> * MR_VolumeSegmentationParameters_ConstructFromAnother </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> * MR_VolumeSegmentationParameters_ConstructFromAnother </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
           <td></td>
@@ -692,7 +686,7 @@ After</div></div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> * MR_VolumeSegmentationParameters_DefaultConstruct </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> * MR_VolumeSegmentationParameters_DefaultConstruct </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -710,7 +704,7 @@ After</div></div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> * MR_VolumeSegmentationParameters_DefaultConstructArray </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> * MR_VolumeSegmentationParameters_DefaultConstructArray </td>
           <td>(</td>
           <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
           <td></td>
@@ -728,7 +722,7 @@ After</div></div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_VolumeSegmentationParameters_Destroy </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_VolumeSegmentationParameters_Destroy </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -747,7 +741,7 @@ After</div></div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_VolumeSegmentationParameters_DestroyArray </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_VolumeSegmentationParameters_DestroyArray </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -766,7 +760,7 @@ After</div></div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const float * MR_VolumeSegmentationParameters_Get_buildPathExponentModifier </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float * MR_VolumeSegmentationParameters_Get_buildPathExponentModifier </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -784,7 +778,7 @@ After</div></div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const float * MR_VolumeSegmentationParameters_Get_segmentationExponentModifier </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float * MR_VolumeSegmentationParameters_Get_segmentationExponentModifier </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -802,7 +796,7 @@ After</div></div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const int32_t * MR_VolumeSegmentationParameters_Get_voxelsExpansion </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int32_t * MR_VolumeSegmentationParameters_Get_voxelsExpansion </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -820,7 +814,7 @@ After</div></div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API float * MR_VolumeSegmentationParameters_GetMutable_buildPathExponentModifier </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float * MR_VolumeSegmentationParameters_GetMutable_buildPathExponentModifier </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -838,7 +832,7 @@ After</div></div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API float * MR_VolumeSegmentationParameters_GetMutable_segmentationExponentModifier </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float * MR_VolumeSegmentationParameters_GetMutable_segmentationExponentModifier </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -856,7 +850,7 @@ After</div></div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API int32_t * MR_VolumeSegmentationParameters_GetMutable_voxelsExpansion </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t * MR_VolumeSegmentationParameters_GetMutable_voxelsExpansion </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -874,7 +868,7 @@ After</div></div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> * MR_VolumeSegmentationParameters_OffsetMutablePtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> * MR_VolumeSegmentationParameters_OffsetMutablePtr </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -897,7 +891,7 @@ After</div></div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> * MR_VolumeSegmentationParameters_OffsetPtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> * MR_VolumeSegmentationParameters_OffsetPtr </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -920,7 +914,7 @@ After</div></div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_VolumeSegmentationParameters_Set_buildPathExponentModifier </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_VolumeSegmentationParameters_Set_buildPathExponentModifier </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -942,7 +936,7 @@ After</div></div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_VolumeSegmentationParameters_Set_segmentationExponentModifier </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_VolumeSegmentationParameters_Set_segmentationExponentModifier </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -964,7 +958,7 @@ After</div></div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_VolumeSegmentationParameters_Set_voxelsExpansion </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_VolumeSegmentationParameters_Set_voxelsExpansion </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a7121a8ffcb5592f4d56354b69b5ff914">MR_VolumeSegmentationParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -986,7 +980,7 @@ After</div></div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_VolumeSegmenter_addPathSeeds </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_VolumeSegmenter_addPathSeeds </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a44dacd5572f893e267413ac24c8daf81">MR_VolumeSegmenter</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1018,7 +1012,7 @@ After</div></div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_VolumeSegmenter_addSeeds </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_VolumeSegmenter_addSeeds </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a44dacd5572f893e267413ac24c8daf81">MR_VolumeSegmenter</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1045,7 +1039,7 @@ After</div></div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a44dacd5572f893e267413ac24c8daf81">MR_VolumeSegmenter</a> * MR_VolumeSegmenter_Construct </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a44dacd5572f893e267413ac24c8daf81">MR_VolumeSegmenter</a> * MR_VolumeSegmenter_Construct </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRBox_8h.html#a3d8aa59058b2516d2c9b34241f2c0441">MR_VdbVolume</a> *</td>          <td class="paramname"><span class="paramname"><em>volume</em></span></td><td>)</td>
           <td></td>
@@ -1063,7 +1057,7 @@ After</div></div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a44dacd5572f893e267413ac24c8daf81">MR_VolumeSegmenter</a> * MR_VolumeSegmenter_ConstructFromAnother </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a44dacd5572f893e267413ac24c8daf81">MR_VolumeSegmenter</a> * MR_VolumeSegmenter_ConstructFromAnother </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
         </tr>
@@ -1085,7 +1079,7 @@ After</div></div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> * MR_VolumeSegmenter_createMeshFromSegmentation </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> * MR_VolumeSegmenter_createMeshFromSegmentation </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a44dacd5572f893e267413ac24c8daf81">MR_VolumeSegmenter</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1107,7 +1101,7 @@ After</div></div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_VolumeSegmenter_Destroy </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_VolumeSegmenter_Destroy </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a44dacd5572f893e267413ac24c8daf81">MR_VolumeSegmenter</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1126,7 +1120,7 @@ After</div></div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_VolumeSegmenter_DestroyArray </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_VolumeSegmenter_DestroyArray </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a44dacd5572f893e267413ac24c8daf81">MR_VolumeSegmenter</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1145,7 +1139,7 @@ After</div></div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> * MR_VolumeSegmenter_getMinVoxel </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> * MR_VolumeSegmenter_getMinVoxel </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a44dacd5572f893e267413ac24c8daf81">MR_VolumeSegmenter</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1163,7 +1157,7 @@ After</div></div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="std__vector__MR__Vector3i_8h.html#a7f44233acc15e6606c18834b06a1629d">MR_std_vector_MR_Vector3i</a> * MR_VolumeSegmenter_getSeeds </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="std__vector__MR__Vector3i_8h.html#a7f44233acc15e6606c18834b06a1629d">MR_std_vector_MR_Vector3i</a> * MR_VolumeSegmenter_getSeeds </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a44dacd5572f893e267413ac24c8daf81">MR_VolumeSegmenter</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1185,7 +1179,7 @@ After</div></div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> * MR_VolumeSegmenter_getVolumePartDimensions </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> * MR_VolumeSegmenter_getVolumePartDimensions </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a44dacd5572f893e267413ac24c8daf81">MR_VolumeSegmenter</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1203,7 +1197,7 @@ After</div></div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a44dacd5572f893e267413ac24c8daf81">MR_VolumeSegmenter</a> * MR_VolumeSegmenter_OffsetMutablePtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a44dacd5572f893e267413ac24c8daf81">MR_VolumeSegmenter</a> * MR_VolumeSegmenter_OffsetMutablePtr </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a44dacd5572f893e267413ac24c8daf81">MR_VolumeSegmenter</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -1226,7 +1220,7 @@ After</div></div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="#a44dacd5572f893e267413ac24c8daf81">MR_VolumeSegmenter</a> * MR_VolumeSegmenter_OffsetPtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a44dacd5572f893e267413ac24c8daf81">MR_VolumeSegmenter</a> * MR_VolumeSegmenter_OffsetPtr </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a44dacd5572f893e267413ac24c8daf81">MR_VolumeSegmenter</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -1249,7 +1243,7 @@ After</div></div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="expected__MR__VoxelBitSet__std__string_8h.html#adbc0fff30d322ff1210cc6de0d6dda12">MR_expected_MR_VoxelBitSet_std_string</a> * MR_VolumeSegmenter_segmentVolume </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="expected__MR__VoxelBitSet__std__string_8h.html#adbc0fff30d322ff1210cc6de0d6dda12">MR_expected_MR_VoxelBitSet_std_string</a> * MR_VolumeSegmenter_segmentVolume </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a44dacd5572f893e267413ac24c8daf81">MR_VolumeSegmenter</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1286,7 +1280,7 @@ After</div></div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_VolumeSegmenter_setSeeds </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_VolumeSegmenter_setSeeds </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a44dacd5572f893e267413ac24c8daf81">MR_VolumeSegmenter</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>

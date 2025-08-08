@@ -14,12 +14,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -158,7 +152,7 @@ $(function(){initNavTree('MRMeshSubdivide_8h.html',''); initResizable(true); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
-<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
 <code>#include &lt;stdint.h&gt;</code><br />
@@ -197,143 +191,143 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a11c9c18ee30ee7ab41b01be885f77474" id="r_a11c9c18ee30ee7ab41b01be885f77474"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11c9c18ee30ee7ab41b01be885f77474">MR_SubdivideSettings_Get_maxEdgeLen</a> (const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
+<tr class="memitem:a11c9c18ee30ee7ab41b01be885f77474" id="r_a11c9c18ee30ee7ab41b01be885f77474"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11c9c18ee30ee7ab41b01be885f77474">MR_SubdivideSettings_Get_maxEdgeLen</a> (const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
 <tr class="separator:a11c9c18ee30ee7ab41b01be885f77474"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aacdd417deca05a5c1fb3cf91695397eb" id="r_aacdd417deca05a5c1fb3cf91695397eb"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aacdd417deca05a5c1fb3cf91695397eb">MR_SubdivideSettings_Set_maxEdgeLen</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this, float value)</td></tr>
+<tr class="memitem:aacdd417deca05a5c1fb3cf91695397eb" id="r_aacdd417deca05a5c1fb3cf91695397eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aacdd417deca05a5c1fb3cf91695397eb">MR_SubdivideSettings_Set_maxEdgeLen</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this, float value)</td></tr>
 <tr class="separator:aacdd417deca05a5c1fb3cf91695397eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad0c5d1bca7325c9c24c522032ba4cb10" id="r_ad0c5d1bca7325c9c24c522032ba4cb10"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad0c5d1bca7325c9c24c522032ba4cb10">MR_SubdivideSettings_GetMutable_maxEdgeLen</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
+<tr class="memitem:ad0c5d1bca7325c9c24c522032ba4cb10" id="r_ad0c5d1bca7325c9c24c522032ba4cb10"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad0c5d1bca7325c9c24c522032ba4cb10">MR_SubdivideSettings_GetMutable_maxEdgeLen</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
 <tr class="separator:ad0c5d1bca7325c9c24c522032ba4cb10"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aed08583d38e4f4464a1b8dafd540247a" id="r_aed08583d38e4f4464a1b8dafd540247a"><td class="memItemLeft" align="right" valign="top">MRC_API const int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed08583d38e4f4464a1b8dafd540247a">MR_SubdivideSettings_Get_maxEdgeSplits</a> (const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
+<tr class="memitem:aed08583d38e4f4464a1b8dafd540247a" id="r_aed08583d38e4f4464a1b8dafd540247a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed08583d38e4f4464a1b8dafd540247a">MR_SubdivideSettings_Get_maxEdgeSplits</a> (const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
 <tr class="separator:aed08583d38e4f4464a1b8dafd540247a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a870c559f7172cbc50ac2d53478fdaffb" id="r_a870c559f7172cbc50ac2d53478fdaffb"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a870c559f7172cbc50ac2d53478fdaffb">MR_SubdivideSettings_Set_maxEdgeSplits</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this, int32_t value)</td></tr>
+<tr class="memitem:a870c559f7172cbc50ac2d53478fdaffb" id="r_a870c559f7172cbc50ac2d53478fdaffb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a870c559f7172cbc50ac2d53478fdaffb">MR_SubdivideSettings_Set_maxEdgeSplits</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this, int32_t value)</td></tr>
 <tr class="separator:a870c559f7172cbc50ac2d53478fdaffb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a33b682c270425d4ee0a1eca508b45621" id="r_a33b682c270425d4ee0a1eca508b45621"><td class="memItemLeft" align="right" valign="top">MRC_API int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33b682c270425d4ee0a1eca508b45621">MR_SubdivideSettings_GetMutable_maxEdgeSplits</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
+<tr class="memitem:a33b682c270425d4ee0a1eca508b45621" id="r_a33b682c270425d4ee0a1eca508b45621"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33b682c270425d4ee0a1eca508b45621">MR_SubdivideSettings_GetMutable_maxEdgeSplits</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
 <tr class="separator:a33b682c270425d4ee0a1eca508b45621"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d085399b1add6b88e7bd7c10190f38d" id="r_a8d085399b1add6b88e7bd7c10190f38d"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d085399b1add6b88e7bd7c10190f38d">MR_SubdivideSettings_Get_maxDeviationAfterFlip</a> (const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
+<tr class="memitem:a8d085399b1add6b88e7bd7c10190f38d" id="r_a8d085399b1add6b88e7bd7c10190f38d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d085399b1add6b88e7bd7c10190f38d">MR_SubdivideSettings_Get_maxDeviationAfterFlip</a> (const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
 <tr class="separator:a8d085399b1add6b88e7bd7c10190f38d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05ecd6ab3b6b1378987afc4176c169fd" id="r_a05ecd6ab3b6b1378987afc4176c169fd"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05ecd6ab3b6b1378987afc4176c169fd">MR_SubdivideSettings_Set_maxDeviationAfterFlip</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this, float value)</td></tr>
+<tr class="memitem:a05ecd6ab3b6b1378987afc4176c169fd" id="r_a05ecd6ab3b6b1378987afc4176c169fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05ecd6ab3b6b1378987afc4176c169fd">MR_SubdivideSettings_Set_maxDeviationAfterFlip</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this, float value)</td></tr>
 <tr class="separator:a05ecd6ab3b6b1378987afc4176c169fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad013bd48b6990e565a2012b7e2748b01" id="r_ad013bd48b6990e565a2012b7e2748b01"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad013bd48b6990e565a2012b7e2748b01">MR_SubdivideSettings_GetMutable_maxDeviationAfterFlip</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
+<tr class="memitem:ad013bd48b6990e565a2012b7e2748b01" id="r_ad013bd48b6990e565a2012b7e2748b01"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad013bd48b6990e565a2012b7e2748b01">MR_SubdivideSettings_GetMutable_maxDeviationAfterFlip</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
 <tr class="separator:ad013bd48b6990e565a2012b7e2748b01"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c7696e18729cc0864d2862e39073278" id="r_a0c7696e18729cc0864d2862e39073278"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c7696e18729cc0864d2862e39073278">MR_SubdivideSettings_Get_maxAngleChangeAfterFlip</a> (const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
+<tr class="memitem:a0c7696e18729cc0864d2862e39073278" id="r_a0c7696e18729cc0864d2862e39073278"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c7696e18729cc0864d2862e39073278">MR_SubdivideSettings_Get_maxAngleChangeAfterFlip</a> (const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
 <tr class="separator:a0c7696e18729cc0864d2862e39073278"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe9334c19ef40e06e582bcfe375ceb1a" id="r_afe9334c19ef40e06e582bcfe375ceb1a"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe9334c19ef40e06e582bcfe375ceb1a">MR_SubdivideSettings_Set_maxAngleChangeAfterFlip</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this, float value)</td></tr>
+<tr class="memitem:afe9334c19ef40e06e582bcfe375ceb1a" id="r_afe9334c19ef40e06e582bcfe375ceb1a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe9334c19ef40e06e582bcfe375ceb1a">MR_SubdivideSettings_Set_maxAngleChangeAfterFlip</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this, float value)</td></tr>
 <tr class="separator:afe9334c19ef40e06e582bcfe375ceb1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7cf6e6bef2e9922b83b8dee0a67a350" id="r_ab7cf6e6bef2e9922b83b8dee0a67a350"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7cf6e6bef2e9922b83b8dee0a67a350">MR_SubdivideSettings_GetMutable_maxAngleChangeAfterFlip</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
+<tr class="memitem:ab7cf6e6bef2e9922b83b8dee0a67a350" id="r_ab7cf6e6bef2e9922b83b8dee0a67a350"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7cf6e6bef2e9922b83b8dee0a67a350">MR_SubdivideSettings_GetMutable_maxAngleChangeAfterFlip</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
 <tr class="separator:ab7cf6e6bef2e9922b83b8dee0a67a350"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25e9847d6dad1185a9bb8804693aa9f7" id="r_a25e9847d6dad1185a9bb8804693aa9f7"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25e9847d6dad1185a9bb8804693aa9f7">MR_SubdivideSettings_Get_criticalAspectRatioFlip</a> (const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
+<tr class="memitem:a25e9847d6dad1185a9bb8804693aa9f7" id="r_a25e9847d6dad1185a9bb8804693aa9f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25e9847d6dad1185a9bb8804693aa9f7">MR_SubdivideSettings_Get_criticalAspectRatioFlip</a> (const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
 <tr class="separator:a25e9847d6dad1185a9bb8804693aa9f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac1bba0b985e75954778d9264ce07f470" id="r_ac1bba0b985e75954778d9264ce07f470"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac1bba0b985e75954778d9264ce07f470">MR_SubdivideSettings_Set_criticalAspectRatioFlip</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this, float value)</td></tr>
+<tr class="memitem:ac1bba0b985e75954778d9264ce07f470" id="r_ac1bba0b985e75954778d9264ce07f470"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac1bba0b985e75954778d9264ce07f470">MR_SubdivideSettings_Set_criticalAspectRatioFlip</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this, float value)</td></tr>
 <tr class="separator:ac1bba0b985e75954778d9264ce07f470"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adaea8233c3c6c11fc71cf85c7818cab8" id="r_adaea8233c3c6c11fc71cf85c7818cab8"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adaea8233c3c6c11fc71cf85c7818cab8">MR_SubdivideSettings_GetMutable_criticalAspectRatioFlip</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
+<tr class="memitem:adaea8233c3c6c11fc71cf85c7818cab8" id="r_adaea8233c3c6c11fc71cf85c7818cab8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adaea8233c3c6c11fc71cf85c7818cab8">MR_SubdivideSettings_GetMutable_criticalAspectRatioFlip</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
 <tr class="separator:adaea8233c3c6c11fc71cf85c7818cab8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a948916282a0ec0bf2dff86919628ef2d" id="r_a948916282a0ec0bf2dff86919628ef2d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a948916282a0ec0bf2dff86919628ef2d">MR_SubdivideSettings_Get_region</a> (const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
+<tr class="memitem:a948916282a0ec0bf2dff86919628ef2d" id="r_a948916282a0ec0bf2dff86919628ef2d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a948916282a0ec0bf2dff86919628ef2d">MR_SubdivideSettings_Get_region</a> (const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
 <tr class="separator:a948916282a0ec0bf2dff86919628ef2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab67e8b7c6b861c30c64671720eb101de" id="r_ab67e8b7c6b861c30c64671720eb101de"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab67e8b7c6b861c30c64671720eb101de">MR_SubdivideSettings_Set_region</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this, <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *value)</td></tr>
+<tr class="memitem:ab67e8b7c6b861c30c64671720eb101de" id="r_ab67e8b7c6b861c30c64671720eb101de"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab67e8b7c6b861c30c64671720eb101de">MR_SubdivideSettings_Set_region</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this, <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *value)</td></tr>
 <tr class="separator:ab67e8b7c6b861c30c64671720eb101de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a63014675678d5d29709138c3e41c8e65" id="r_a63014675678d5d29709138c3e41c8e65"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a63014675678d5d29709138c3e41c8e65">MR_SubdivideSettings_GetMutable_region</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
+<tr class="memitem:a63014675678d5d29709138c3e41c8e65" id="r_a63014675678d5d29709138c3e41c8e65"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a63014675678d5d29709138c3e41c8e65">MR_SubdivideSettings_GetMutable_region</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
 <tr class="separator:a63014675678d5d29709138c3e41c8e65"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b59f64b14ad28d3723245784cfa35f1" id="r_a3b59f64b14ad28d3723245784cfa35f1"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b59f64b14ad28d3723245784cfa35f1">MR_SubdivideSettings_Get_notFlippable</a> (const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
+<tr class="memitem:a3b59f64b14ad28d3723245784cfa35f1" id="r_a3b59f64b14ad28d3723245784cfa35f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b59f64b14ad28d3723245784cfa35f1">MR_SubdivideSettings_Get_notFlippable</a> (const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
 <tr class="separator:a3b59f64b14ad28d3723245784cfa35f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa4fd93c8c6f7d7202abc2b461d28d4cc" id="r_aa4fd93c8c6f7d7202abc2b461d28d4cc"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4fd93c8c6f7d7202abc2b461d28d4cc">MR_SubdivideSettings_Set_notFlippable</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this, <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *value)</td></tr>
+<tr class="memitem:aa4fd93c8c6f7d7202abc2b461d28d4cc" id="r_aa4fd93c8c6f7d7202abc2b461d28d4cc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4fd93c8c6f7d7202abc2b461d28d4cc">MR_SubdivideSettings_Set_notFlippable</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this, <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *value)</td></tr>
 <tr class="separator:aa4fd93c8c6f7d7202abc2b461d28d4cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa4a8b5b1b83e3877b5c76d14810ab80f" id="r_aa4a8b5b1b83e3877b5c76d14810ab80f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4a8b5b1b83e3877b5c76d14810ab80f">MR_SubdivideSettings_GetMutable_notFlippable</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
+<tr class="memitem:aa4a8b5b1b83e3877b5c76d14810ab80f" id="r_aa4a8b5b1b83e3877b5c76d14810ab80f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4a8b5b1b83e3877b5c76d14810ab80f">MR_SubdivideSettings_GetMutable_notFlippable</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
 <tr class="separator:aa4a8b5b1b83e3877b5c76d14810ab80f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a12ebeea40373bc67e5f2f9919b4c7dd4" id="r_a12ebeea40373bc67e5f2f9919b4c7dd4"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12ebeea40373bc67e5f2f9919b4c7dd4">MR_SubdivideSettings_Get_newVerts</a> (const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
+<tr class="memitem:a12ebeea40373bc67e5f2f9919b4c7dd4" id="r_a12ebeea40373bc67e5f2f9919b4c7dd4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12ebeea40373bc67e5f2f9919b4c7dd4">MR_SubdivideSettings_Get_newVerts</a> (const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
 <tr class="separator:a12ebeea40373bc67e5f2f9919b4c7dd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7b5a53e96f00b13f6bd092e110d0f37d" id="r_a7b5a53e96f00b13f6bd092e110d0f37d"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b5a53e96f00b13f6bd092e110d0f37d">MR_SubdivideSettings_Set_newVerts</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this, <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *value)</td></tr>
+<tr class="memitem:a7b5a53e96f00b13f6bd092e110d0f37d" id="r_a7b5a53e96f00b13f6bd092e110d0f37d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b5a53e96f00b13f6bd092e110d0f37d">MR_SubdivideSettings_Set_newVerts</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this, <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *value)</td></tr>
 <tr class="separator:a7b5a53e96f00b13f6bd092e110d0f37d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae72b69a82f70bc466b17e7dafa8f37c7" id="r_ae72b69a82f70bc466b17e7dafa8f37c7"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae72b69a82f70bc466b17e7dafa8f37c7">MR_SubdivideSettings_GetMutable_newVerts</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
+<tr class="memitem:ae72b69a82f70bc466b17e7dafa8f37c7" id="r_ae72b69a82f70bc466b17e7dafa8f37c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae72b69a82f70bc466b17e7dafa8f37c7">MR_SubdivideSettings_GetMutable_newVerts</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
 <tr class="separator:ae72b69a82f70bc466b17e7dafa8f37c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7a2158ec373d8c41368b80f386439f3" id="r_aa7a2158ec373d8c41368b80f386439f3"><td class="memItemLeft" align="right" valign="top">MRC_API const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7a2158ec373d8c41368b80f386439f3">MR_SubdivideSettings_Get_subdivideBorder</a> (const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
+<tr class="memitem:aa7a2158ec373d8c41368b80f386439f3" id="r_aa7a2158ec373d8c41368b80f386439f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7a2158ec373d8c41368b80f386439f3">MR_SubdivideSettings_Get_subdivideBorder</a> (const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
 <tr class="separator:aa7a2158ec373d8c41368b80f386439f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a480ac68fedad0db3232bdf51c563c50f" id="r_a480ac68fedad0db3232bdf51c563c50f"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a480ac68fedad0db3232bdf51c563c50f">MR_SubdivideSettings_Set_subdivideBorder</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this, bool value)</td></tr>
+<tr class="memitem:a480ac68fedad0db3232bdf51c563c50f" id="r_a480ac68fedad0db3232bdf51c563c50f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a480ac68fedad0db3232bdf51c563c50f">MR_SubdivideSettings_Set_subdivideBorder</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this, bool value)</td></tr>
 <tr class="separator:a480ac68fedad0db3232bdf51c563c50f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab135e78c10b2acd539519341c4ae4b06" id="r_ab135e78c10b2acd539519341c4ae4b06"><td class="memItemLeft" align="right" valign="top">MRC_API bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab135e78c10b2acd539519341c4ae4b06">MR_SubdivideSettings_GetMutable_subdivideBorder</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
+<tr class="memitem:ab135e78c10b2acd539519341c4ae4b06" id="r_ab135e78c10b2acd539519341c4ae4b06"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab135e78c10b2acd539519341c4ae4b06">MR_SubdivideSettings_GetMutable_subdivideBorder</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
 <tr class="separator:ab135e78c10b2acd539519341c4ae4b06"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a149ef258844b08a0e937e59d4b6063cb" id="r_a149ef258844b08a0e937e59d4b6063cb"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a149ef258844b08a0e937e59d4b6063cb">MR_SubdivideSettings_Get_maxTriAspectRatio</a> (const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
+<tr class="memitem:a149ef258844b08a0e937e59d4b6063cb" id="r_a149ef258844b08a0e937e59d4b6063cb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a149ef258844b08a0e937e59d4b6063cb">MR_SubdivideSettings_Get_maxTriAspectRatio</a> (const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
 <tr class="separator:a149ef258844b08a0e937e59d4b6063cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f2fecd10b3f2b09fc0c7cc7062a95a7" id="r_a8f2fecd10b3f2b09fc0c7cc7062a95a7"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f2fecd10b3f2b09fc0c7cc7062a95a7">MR_SubdivideSettings_Set_maxTriAspectRatio</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this, float value)</td></tr>
+<tr class="memitem:a8f2fecd10b3f2b09fc0c7cc7062a95a7" id="r_a8f2fecd10b3f2b09fc0c7cc7062a95a7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f2fecd10b3f2b09fc0c7cc7062a95a7">MR_SubdivideSettings_Set_maxTriAspectRatio</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this, float value)</td></tr>
 <tr class="separator:a8f2fecd10b3f2b09fc0c7cc7062a95a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0cac369e424c7e25bfd8d5ed73e4443c" id="r_a0cac369e424c7e25bfd8d5ed73e4443c"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0cac369e424c7e25bfd8d5ed73e4443c">MR_SubdivideSettings_GetMutable_maxTriAspectRatio</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
+<tr class="memitem:a0cac369e424c7e25bfd8d5ed73e4443c" id="r_a0cac369e424c7e25bfd8d5ed73e4443c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0cac369e424c7e25bfd8d5ed73e4443c">MR_SubdivideSettings_GetMutable_maxTriAspectRatio</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
 <tr class="separator:a0cac369e424c7e25bfd8d5ed73e4443c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3812191d9d63a43f15bbfca8b94c16b" id="r_ad3812191d9d63a43f15bbfca8b94c16b"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad3812191d9d63a43f15bbfca8b94c16b">MR_SubdivideSettings_Get_maxSplittableTriAspectRatio</a> (const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
+<tr class="memitem:ad3812191d9d63a43f15bbfca8b94c16b" id="r_ad3812191d9d63a43f15bbfca8b94c16b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad3812191d9d63a43f15bbfca8b94c16b">MR_SubdivideSettings_Get_maxSplittableTriAspectRatio</a> (const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
 <tr class="separator:ad3812191d9d63a43f15bbfca8b94c16b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab55112045a42f4acce0b44b79c8086c1" id="r_ab55112045a42f4acce0b44b79c8086c1"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab55112045a42f4acce0b44b79c8086c1">MR_SubdivideSettings_Set_maxSplittableTriAspectRatio</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this, float value)</td></tr>
+<tr class="memitem:ab55112045a42f4acce0b44b79c8086c1" id="r_ab55112045a42f4acce0b44b79c8086c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab55112045a42f4acce0b44b79c8086c1">MR_SubdivideSettings_Set_maxSplittableTriAspectRatio</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this, float value)</td></tr>
 <tr class="separator:ab55112045a42f4acce0b44b79c8086c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf250e6b03f6c566afe629ffc5f6d993" id="r_acf250e6b03f6c566afe629ffc5f6d993"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf250e6b03f6c566afe629ffc5f6d993">MR_SubdivideSettings_GetMutable_maxSplittableTriAspectRatio</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
+<tr class="memitem:acf250e6b03f6c566afe629ffc5f6d993" id="r_acf250e6b03f6c566afe629ffc5f6d993"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf250e6b03f6c566afe629ffc5f6d993">MR_SubdivideSettings_GetMutable_maxSplittableTriAspectRatio</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
 <tr class="separator:acf250e6b03f6c566afe629ffc5f6d993"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a87cc92a6d36ddbc0fbc1b74a93e63f0d" id="r_a87cc92a6d36ddbc0fbc1b74a93e63f0d"><td class="memItemLeft" align="right" valign="top">MRC_API const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a87cc92a6d36ddbc0fbc1b74a93e63f0d">MR_SubdivideSettings_Get_smoothMode</a> (const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
+<tr class="memitem:a87cc92a6d36ddbc0fbc1b74a93e63f0d" id="r_a87cc92a6d36ddbc0fbc1b74a93e63f0d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a87cc92a6d36ddbc0fbc1b74a93e63f0d">MR_SubdivideSettings_Get_smoothMode</a> (const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
 <tr class="separator:a87cc92a6d36ddbc0fbc1b74a93e63f0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a437aa9c0754b4a9da9eff5a7d4990375" id="r_a437aa9c0754b4a9da9eff5a7d4990375"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a437aa9c0754b4a9da9eff5a7d4990375">MR_SubdivideSettings_Set_smoothMode</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this, bool value)</td></tr>
+<tr class="memitem:a437aa9c0754b4a9da9eff5a7d4990375" id="r_a437aa9c0754b4a9da9eff5a7d4990375"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a437aa9c0754b4a9da9eff5a7d4990375">MR_SubdivideSettings_Set_smoothMode</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this, bool value)</td></tr>
 <tr class="separator:a437aa9c0754b4a9da9eff5a7d4990375"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc71037792b7b47475144ef42e6e40a6" id="r_acc71037792b7b47475144ef42e6e40a6"><td class="memItemLeft" align="right" valign="top">MRC_API bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc71037792b7b47475144ef42e6e40a6">MR_SubdivideSettings_GetMutable_smoothMode</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
+<tr class="memitem:acc71037792b7b47475144ef42e6e40a6" id="r_acc71037792b7b47475144ef42e6e40a6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc71037792b7b47475144ef42e6e40a6">MR_SubdivideSettings_GetMutable_smoothMode</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
 <tr class="separator:acc71037792b7b47475144ef42e6e40a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f3aeae43f65573f67938ca9d3f576f7" id="r_a5f3aeae43f65573f67938ca9d3f576f7"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f3aeae43f65573f67938ca9d3f576f7">MR_SubdivideSettings_Get_minSharpDihedralAngle</a> (const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
+<tr class="memitem:a5f3aeae43f65573f67938ca9d3f576f7" id="r_a5f3aeae43f65573f67938ca9d3f576f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f3aeae43f65573f67938ca9d3f576f7">MR_SubdivideSettings_Get_minSharpDihedralAngle</a> (const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
 <tr class="separator:a5f3aeae43f65573f67938ca9d3f576f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a486053ce94e742ca6bf83c15a3292dbc" id="r_a486053ce94e742ca6bf83c15a3292dbc"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a486053ce94e742ca6bf83c15a3292dbc">MR_SubdivideSettings_Set_minSharpDihedralAngle</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this, float value)</td></tr>
+<tr class="memitem:a486053ce94e742ca6bf83c15a3292dbc" id="r_a486053ce94e742ca6bf83c15a3292dbc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a486053ce94e742ca6bf83c15a3292dbc">MR_SubdivideSettings_Set_minSharpDihedralAngle</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this, float value)</td></tr>
 <tr class="separator:a486053ce94e742ca6bf83c15a3292dbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc4de527ce0c1ed4f3ef1bfab0f33f7a" id="r_adc4de527ce0c1ed4f3ef1bfab0f33f7a"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc4de527ce0c1ed4f3ef1bfab0f33f7a">MR_SubdivideSettings_GetMutable_minSharpDihedralAngle</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
+<tr class="memitem:adc4de527ce0c1ed4f3ef1bfab0f33f7a" id="r_adc4de527ce0c1ed4f3ef1bfab0f33f7a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc4de527ce0c1ed4f3ef1bfab0f33f7a">MR_SubdivideSettings_GetMutable_minSharpDihedralAngle</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
 <tr class="separator:adc4de527ce0c1ed4f3ef1bfab0f33f7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af84261d27347c672b6aaa4da40100c71" id="r_af84261d27347c672b6aaa4da40100c71"><td class="memItemLeft" align="right" valign="top">MRC_API const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af84261d27347c672b6aaa4da40100c71">MR_SubdivideSettings_Get_projectOnOriginalMesh</a> (const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
+<tr class="memitem:af84261d27347c672b6aaa4da40100c71" id="r_af84261d27347c672b6aaa4da40100c71"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af84261d27347c672b6aaa4da40100c71">MR_SubdivideSettings_Get_projectOnOriginalMesh</a> (const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
 <tr class="separator:af84261d27347c672b6aaa4da40100c71"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab4f1c321707d95d05c9a1691349799a5" id="r_ab4f1c321707d95d05c9a1691349799a5"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4f1c321707d95d05c9a1691349799a5">MR_SubdivideSettings_Set_projectOnOriginalMesh</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this, bool value)</td></tr>
+<tr class="memitem:ab4f1c321707d95d05c9a1691349799a5" id="r_ab4f1c321707d95d05c9a1691349799a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4f1c321707d95d05c9a1691349799a5">MR_SubdivideSettings_Set_projectOnOriginalMesh</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this, bool value)</td></tr>
 <tr class="separator:ab4f1c321707d95d05c9a1691349799a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad75a2cdd5147c5e79a9812d7ddc93f13" id="r_ad75a2cdd5147c5e79a9812d7ddc93f13"><td class="memItemLeft" align="right" valign="top">MRC_API bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad75a2cdd5147c5e79a9812d7ddc93f13">MR_SubdivideSettings_GetMutable_projectOnOriginalMesh</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
+<tr class="memitem:ad75a2cdd5147c5e79a9812d7ddc93f13" id="r_ad75a2cdd5147c5e79a9812d7ddc93f13"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad75a2cdd5147c5e79a9812d7ddc93f13">MR_SubdivideSettings_GetMutable_projectOnOriginalMesh</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
 <tr class="separator:ad75a2cdd5147c5e79a9812d7ddc93f13"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00e1050af1fc9c3c4dbf485634efe21f" id="r_a00e1050af1fc9c3c4dbf485634efe21f"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRFillHoleNicely_8h.html#a5406af15a4ce0b3061cd59f056e30578">MR_std_function_bool_from_MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a00e1050af1fc9c3c4dbf485634efe21f">MR_SubdivideSettings_Get_beforeEdgeSplit</a> (const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
+<tr class="memitem:a00e1050af1fc9c3c4dbf485634efe21f" id="r_a00e1050af1fc9c3c4dbf485634efe21f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRFillHoleNicely_8h.html#a5406af15a4ce0b3061cd59f056e30578">MR_std_function_bool_from_MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a00e1050af1fc9c3c4dbf485634efe21f">MR_SubdivideSettings_Get_beforeEdgeSplit</a> (const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
 <tr class="separator:a00e1050af1fc9c3c4dbf485634efe21f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd39073350a385e7280dd4a506713880" id="r_acd39073350a385e7280dd4a506713880"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd39073350a385e7280dd4a506713880">MR_SubdivideSettings_Set_beforeEdgeSplit</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MRFillHoleNicely_8h.html#a5406af15a4ce0b3061cd59f056e30578">MR_std_function_bool_from_MR_EdgeId</a> *value)</td></tr>
+<tr class="memitem:acd39073350a385e7280dd4a506713880" id="r_acd39073350a385e7280dd4a506713880"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd39073350a385e7280dd4a506713880">MR_SubdivideSettings_Set_beforeEdgeSplit</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MRFillHoleNicely_8h.html#a5406af15a4ce0b3061cd59f056e30578">MR_std_function_bool_from_MR_EdgeId</a> *value)</td></tr>
 <tr class="separator:acd39073350a385e7280dd4a506713880"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac61270a89ab483d6700661f1b0d1ef42" id="r_ac61270a89ab483d6700661f1b0d1ef42"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRFillHoleNicely_8h.html#a5406af15a4ce0b3061cd59f056e30578">MR_std_function_bool_from_MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac61270a89ab483d6700661f1b0d1ef42">MR_SubdivideSettings_GetMutable_beforeEdgeSplit</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
+<tr class="memitem:ac61270a89ab483d6700661f1b0d1ef42" id="r_ac61270a89ab483d6700661f1b0d1ef42"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRFillHoleNicely_8h.html#a5406af15a4ce0b3061cd59f056e30578">MR_std_function_bool_from_MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac61270a89ab483d6700661f1b0d1ef42">MR_SubdivideSettings_GetMutable_beforeEdgeSplit</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
 <tr class="separator:ac61270a89ab483d6700661f1b0d1ef42"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d78b50841c3dbaba9996c144c86f7c0" id="r_a9d78b50841c3dbaba9996c144c86f7c0"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#ab5a1af27d17dce1b9ef76255b364508e">MR_std_function_void_from_MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d78b50841c3dbaba9996c144c86f7c0">MR_SubdivideSettings_Get_onVertCreated</a> (const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
+<tr class="memitem:a9d78b50841c3dbaba9996c144c86f7c0" id="r_a9d78b50841c3dbaba9996c144c86f7c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ab5a1af27d17dce1b9ef76255b364508e">MR_std_function_void_from_MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d78b50841c3dbaba9996c144c86f7c0">MR_SubdivideSettings_Get_onVertCreated</a> (const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
 <tr class="separator:a9d78b50841c3dbaba9996c144c86f7c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6df94e47029fce6598a84bc1ce009d69" id="r_a6df94e47029fce6598a84bc1ce009d69"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6df94e47029fce6598a84bc1ce009d69">MR_SubdivideSettings_Set_onVertCreated</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="#ab5a1af27d17dce1b9ef76255b364508e">MR_std_function_void_from_MR_VertId</a> *value)</td></tr>
+<tr class="memitem:a6df94e47029fce6598a84bc1ce009d69" id="r_a6df94e47029fce6598a84bc1ce009d69"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6df94e47029fce6598a84bc1ce009d69">MR_SubdivideSettings_Set_onVertCreated</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="#ab5a1af27d17dce1b9ef76255b364508e">MR_std_function_void_from_MR_VertId</a> *value)</td></tr>
 <tr class="separator:a6df94e47029fce6598a84bc1ce009d69"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0d0cdf655551c31dab121867b05f0d8" id="r_ab0d0cdf655551c31dab121867b05f0d8"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ab5a1af27d17dce1b9ef76255b364508e">MR_std_function_void_from_MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0d0cdf655551c31dab121867b05f0d8">MR_SubdivideSettings_GetMutable_onVertCreated</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
+<tr class="memitem:ab0d0cdf655551c31dab121867b05f0d8" id="r_ab0d0cdf655551c31dab121867b05f0d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ab5a1af27d17dce1b9ef76255b364508e">MR_std_function_void_from_MR_VertId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0d0cdf655551c31dab121867b05f0d8">MR_SubdivideSettings_GetMutable_onVertCreated</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
 <tr class="separator:ab0d0cdf655551c31dab121867b05f0d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab6bc34c148c263968cce271dd4b73f55" id="r_ab6bc34c148c263968cce271dd4b73f55"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRFillHoleNicely_8h.html#ad023ae65e5f5b35808a42976d62d515e">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6bc34c148c263968cce271dd4b73f55">MR_SubdivideSettings_Get_onEdgeSplit</a> (const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
+<tr class="memitem:ab6bc34c148c263968cce271dd4b73f55" id="r_ab6bc34c148c263968cce271dd4b73f55"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRFillHoleNicely_8h.html#ad023ae65e5f5b35808a42976d62d515e">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6bc34c148c263968cce271dd4b73f55">MR_SubdivideSettings_Get_onEdgeSplit</a> (const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
 <tr class="separator:ab6bc34c148c263968cce271dd4b73f55"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a854e03c87b0a4d4d42e4d02ed24b31e3" id="r_a854e03c87b0a4d4d42e4d02ed24b31e3"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a854e03c87b0a4d4d42e4d02ed24b31e3">MR_SubdivideSettings_Set_onEdgeSplit</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MRFillHoleNicely_8h.html#ad023ae65e5f5b35808a42976d62d515e">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</a> *value)</td></tr>
+<tr class="memitem:a854e03c87b0a4d4d42e4d02ed24b31e3" id="r_a854e03c87b0a4d4d42e4d02ed24b31e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a854e03c87b0a4d4d42e4d02ed24b31e3">MR_SubdivideSettings_Set_onEdgeSplit</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MRFillHoleNicely_8h.html#ad023ae65e5f5b35808a42976d62d515e">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</a> *value)</td></tr>
 <tr class="separator:a854e03c87b0a4d4d42e4d02ed24b31e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a44873c9f9ee54879b0dfe4dc7e367230" id="r_a44873c9f9ee54879b0dfe4dc7e367230"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRFillHoleNicely_8h.html#ad023ae65e5f5b35808a42976d62d515e">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44873c9f9ee54879b0dfe4dc7e367230">MR_SubdivideSettings_GetMutable_onEdgeSplit</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
+<tr class="memitem:a44873c9f9ee54879b0dfe4dc7e367230" id="r_a44873c9f9ee54879b0dfe4dc7e367230"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRFillHoleNicely_8h.html#ad023ae65e5f5b35808a42976d62d515e">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44873c9f9ee54879b0dfe4dc7e367230">MR_SubdivideSettings_GetMutable_onEdgeSplit</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
 <tr class="separator:a44873c9f9ee54879b0dfe4dc7e367230"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e90c501033b7abf76ae4ea6aa3b6d0b" id="r_a7e90c501033b7abf76ae4ea6aa3b6d0b"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e90c501033b7abf76ae4ea6aa3b6d0b">MR_SubdivideSettings_Get_progressCallback</a> (const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
+<tr class="memitem:a7e90c501033b7abf76ae4ea6aa3b6d0b" id="r_a7e90c501033b7abf76ae4ea6aa3b6d0b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e90c501033b7abf76ae4ea6aa3b6d0b">MR_SubdivideSettings_Get_progressCallback</a> (const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
 <tr class="separator:a7e90c501033b7abf76ae4ea6aa3b6d0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad7ee73670848f1ebb4c118473ac26ea7" id="r_ad7ee73670848f1ebb4c118473ac26ea7"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad7ee73670848f1ebb4c118473ac26ea7">MR_SubdivideSettings_Set_progressCallback</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *value)</td></tr>
+<tr class="memitem:ad7ee73670848f1ebb4c118473ac26ea7" id="r_ad7ee73670848f1ebb4c118473ac26ea7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad7ee73670848f1ebb4c118473ac26ea7">MR_SubdivideSettings_Set_progressCallback</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *value)</td></tr>
 <tr class="separator:ad7ee73670848f1ebb4c118473ac26ea7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e34efdd70683dcbb0cdcea94f184306" id="r_a2e34efdd70683dcbb0cdcea94f184306"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e34efdd70683dcbb0cdcea94f184306">MR_SubdivideSettings_GetMutable_progressCallback</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
+<tr class="memitem:a2e34efdd70683dcbb0cdcea94f184306" id="r_a2e34efdd70683dcbb0cdcea94f184306"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e34efdd70683dcbb0cdcea94f184306">MR_SubdivideSettings_GetMutable_progressCallback</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
 <tr class="separator:a2e34efdd70683dcbb0cdcea94f184306"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a268b38eeac9b3f07910d2f93b995e963" id="r_a268b38eeac9b3f07910d2f93b995e963"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a268b38eeac9b3f07910d2f93b995e963">MR_SubdivideSettings_DefaultConstruct</a> (void)</td></tr>
+<tr class="memitem:a268b38eeac9b3f07910d2f93b995e963" id="r_a268b38eeac9b3f07910d2f93b995e963"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a268b38eeac9b3f07910d2f93b995e963">MR_SubdivideSettings_DefaultConstruct</a> (void)</td></tr>
 <tr class="separator:a268b38eeac9b3f07910d2f93b995e963"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3bbf36e4fe6125db820bba0c24d28298" id="r_a3bbf36e4fe6125db820bba0c24d28298"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3bbf36e4fe6125db820bba0c24d28298">MR_SubdivideSettings_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="memitem:a3bbf36e4fe6125db820bba0c24d28298" id="r_a3bbf36e4fe6125db820bba0c24d28298"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3bbf36e4fe6125db820bba0c24d28298">MR_SubdivideSettings_DefaultConstructArray</a> (size_t num_elems)</td></tr>
 <tr class="separator:a3bbf36e4fe6125db820bba0c24d28298"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac23841694bbfe0abe47967f2b2eb7e9c" id="r_ac23841694bbfe0abe47967f2b2eb7e9c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac23841694bbfe0abe47967f2b2eb7e9c">MR_SubdivideSettings_ConstructFrom</a> (float maxEdgeLen, int32_t maxEdgeSplits, float maxDeviationAfterFlip, float maxAngleChangeAfterFlip, float criticalAspectRatioFlip, <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *region, <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *notFlippable, <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *newVerts, bool subdivideBorder, float maxTriAspectRatio, float maxSplittableTriAspectRatio, bool smoothMode, float minSharpDihedralAngle, bool projectOnOriginalMesh, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> beforeEdgeSplit_pass_by, <a class="el" href="MRFillHoleNicely_8h.html#a5406af15a4ce0b3061cd59f056e30578">MR_std_function_bool_from_MR_EdgeId</a> *beforeEdgeSplit, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> onVertCreated_pass_by, <a class="el" href="#ab5a1af27d17dce1b9ef76255b364508e">MR_std_function_void_from_MR_VertId</a> *onVertCreated, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> onEdgeSplit_pass_by, <a class="el" href="MRFillHoleNicely_8h.html#ad023ae65e5f5b35808a42976d62d515e">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</a> *onEdgeSplit, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> progressCallback_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *progressCallback)</td></tr>
+<tr class="memitem:ac23841694bbfe0abe47967f2b2eb7e9c" id="r_ac23841694bbfe0abe47967f2b2eb7e9c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac23841694bbfe0abe47967f2b2eb7e9c">MR_SubdivideSettings_ConstructFrom</a> (float maxEdgeLen, int32_t maxEdgeSplits, float maxDeviationAfterFlip, float maxAngleChangeAfterFlip, float criticalAspectRatioFlip, <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *region, <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *notFlippable, <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *newVerts, bool subdivideBorder, float maxTriAspectRatio, float maxSplittableTriAspectRatio, bool smoothMode, float minSharpDihedralAngle, bool projectOnOriginalMesh, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> beforeEdgeSplit_pass_by, <a class="el" href="MRFillHoleNicely_8h.html#a5406af15a4ce0b3061cd59f056e30578">MR_std_function_bool_from_MR_EdgeId</a> *beforeEdgeSplit, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> onVertCreated_pass_by, <a class="el" href="#ab5a1af27d17dce1b9ef76255b364508e">MR_std_function_void_from_MR_VertId</a> *onVertCreated, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> onEdgeSplit_pass_by, <a class="el" href="MRFillHoleNicely_8h.html#ad023ae65e5f5b35808a42976d62d515e">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</a> *onEdgeSplit, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> progressCallback_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *progressCallback)</td></tr>
 <tr class="separator:ac23841694bbfe0abe47967f2b2eb7e9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b4f7e7b0f0ed46d93013ec6bd0360de" id="r_a6b4f7e7b0f0ed46d93013ec6bd0360de"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b4f7e7b0f0ed46d93013ec6bd0360de">MR_SubdivideSettings_OffsetPtr</a> (const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a6b4f7e7b0f0ed46d93013ec6bd0360de" id="r_a6b4f7e7b0f0ed46d93013ec6bd0360de"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b4f7e7b0f0ed46d93013ec6bd0360de">MR_SubdivideSettings_OffsetPtr</a> (const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a6b4f7e7b0f0ed46d93013ec6bd0360de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a6b4f7e7b0f0ed46d93013ec6bd0360de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f6a9f1c14a318cf5070b1d2f8975fa8" id="r_a4f6a9f1c14a318cf5070b1d2f8975fa8"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f6a9f1c14a318cf5070b1d2f8975fa8">MR_SubdivideSettings_OffsetMutablePtr</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a4f6a9f1c14a318cf5070b1d2f8975fa8" id="r_a4f6a9f1c14a318cf5070b1d2f8975fa8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f6a9f1c14a318cf5070b1d2f8975fa8">MR_SubdivideSettings_OffsetMutablePtr</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a4f6a9f1c14a318cf5070b1d2f8975fa8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a4f6a9f1c14a318cf5070b1d2f8975fa8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8911145e55d57f9446b4bb88a7ea78c5" id="r_a8911145e55d57f9446b4bb88a7ea78c5"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8911145e55d57f9446b4bb88a7ea78c5">MR_SubdivideSettings_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_other)</td></tr>
+<tr class="memitem:a8911145e55d57f9446b4bb88a7ea78c5" id="r_a8911145e55d57f9446b4bb88a7ea78c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8911145e55d57f9446b4bb88a7ea78c5">MR_SubdivideSettings_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_other)</td></tr>
 <tr class="separator:a8911145e55d57f9446b4bb88a7ea78c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab08b059d0114547dd8304e23fc1f2913" id="r_ab08b059d0114547dd8304e23fc1f2913"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab08b059d0114547dd8304e23fc1f2913">MR_SubdivideSettings_Destroy</a> (const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
+<tr class="memitem:ab08b059d0114547dd8304e23fc1f2913" id="r_ab08b059d0114547dd8304e23fc1f2913"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab08b059d0114547dd8304e23fc1f2913">MR_SubdivideSettings_Destroy</a> (const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
 <tr class="memdesc:ab08b059d0114547dd8304e23fc1f2913"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_SubdivideSettings</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:ab08b059d0114547dd8304e23fc1f2913"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a475af3036cdd87e98e0f9f432a5920" id="r_a5a475af3036cdd87e98e0f9f432a5920"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a475af3036cdd87e98e0f9f432a5920">MR_SubdivideSettings_DestroyArray</a> (const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
+<tr class="memitem:a5a475af3036cdd87e98e0f9f432a5920" id="r_a5a475af3036cdd87e98e0f9f432a5920"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a475af3036cdd87e98e0f9f432a5920">MR_SubdivideSettings_DestroyArray</a> (const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this)</td></tr>
 <tr class="memdesc:a5a475af3036cdd87e98e0f9f432a5920"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_SubdivideSettings</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:a5a475af3036cdd87e98e0f9f432a5920"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8314e5fabc9281feb55e57e71de8dd0c" id="r_a8314e5fabc9281feb55e57e71de8dd0c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8314e5fabc9281feb55e57e71de8dd0c">MR_SubdivideSettings_AssignFromAnother</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_other)</td></tr>
+<tr class="memitem:a8314e5fabc9281feb55e57e71de8dd0c" id="r_a8314e5fabc9281feb55e57e71de8dd0c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8314e5fabc9281feb55e57e71de8dd0c">MR_SubdivideSettings_AssignFromAnother</a> (<a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *_other)</td></tr>
 <tr class="separator:a8314e5fabc9281feb55e57e71de8dd0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7852ba8fdae3bb84f36fd58a8d690736" id="r_a7852ba8fdae3bb84f36fd58a8d690736"><td class="memItemLeft" align="right" valign="top">MRC_API int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7852ba8fdae3bb84f36fd58a8d690736">MR_subdivideMesh_MR_Mesh</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *settings)</td></tr>
+<tr class="memitem:a7852ba8fdae3bb84f36fd58a8d690736" id="r_a7852ba8fdae3bb84f36fd58a8d690736"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7852ba8fdae3bb84f36fd58a8d690736">MR_subdivideMesh_MR_Mesh</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *settings)</td></tr>
 <tr class="separator:a7852ba8fdae3bb84f36fd58a8d690736"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04c6bb22ab0bdaa39657dc979c36a26a" id="r_a04c6bb22ab0bdaa39657dc979c36a26a"><td class="memItemLeft" align="right" valign="top">MRC_API int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04c6bb22ab0bdaa39657dc979c36a26a">MR_subdivideMesh_MR_ObjectMeshData</a> (<a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *data, const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *settings)</td></tr>
+<tr class="memitem:a04c6bb22ab0bdaa39657dc979c36a26a" id="r_a04c6bb22ab0bdaa39657dc979c36a26a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04c6bb22ab0bdaa39657dc979c36a26a">MR_subdivideMesh_MR_ObjectMeshData</a> (<a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *data, const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *settings)</td></tr>
 <tr class="separator:a04c6bb22ab0bdaa39657dc979c36a26a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a654dcfe291da6bc8c58b4ede74be4789" id="r_a654dcfe291da6bc8c58b4ede74be4789"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a654dcfe291da6bc8c58b4ede74be4789">MR_copySubdividePackMesh</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp, float voxelSize, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="memitem:a654dcfe291da6bc8c58b4ede74be4789" id="r_a654dcfe291da6bc8c58b4ede74be4789"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a654dcfe291da6bc8c58b4ede74be4789">MR_copySubdividePackMesh</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp, float voxelSize, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
 <tr class="separator:a654dcfe291da6bc8c58b4ede74be4789"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a845731bb02a1c8cd68589622d8b6ecd4" id="r_a845731bb02a1c8cd68589622d8b6ecd4"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a845731bb02a1c8cd68589622d8b6ecd4">MR_makeSubdividedObjectMeshData</a> (const <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *obj, const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *settings)</td></tr>
+<tr class="memitem:a845731bb02a1c8cd68589622d8b6ecd4" id="r_a845731bb02a1c8cd68589622d8b6ecd4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a845731bb02a1c8cd68589622d8b6ecd4">MR_makeSubdividedObjectMeshData</a> (const <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *obj, const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *settings)</td></tr>
 <tr class="separator:a845731bb02a1c8cd68589622d8b6ecd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -529,7 +523,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> * MR_copySubdividePackMesh </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> * MR_copySubdividePackMesh </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *</td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
         </tr>
@@ -556,7 +550,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> * MR_makeSubdividedObjectMeshData </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> * MR_makeSubdividedObjectMeshData </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRMeshBooleanFacade_8h.html#a56cfc66ab2739e1be0c5e38e4bfe6da6">MR_ObjectMesh</a> *</td>          <td class="paramname"><span class="paramname"><em>obj</em></span>, </td>
         </tr>
@@ -578,7 +572,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API int32_t MR_subdivideMesh_MR_Mesh </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t MR_subdivideMesh_MR_Mesh </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
@@ -601,7 +595,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API int32_t MR_subdivideMesh_MR_ObjectMeshData </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t MR_subdivideMesh_MR_ObjectMeshData </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *</td>          <td class="paramname"><span class="paramname"><em>data</em></span>, </td>
         </tr>
@@ -623,7 +617,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> * MR_SubdivideSettings_AssignFromAnother </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> * MR_SubdivideSettings_AssignFromAnother </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -650,7 +644,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> * MR_SubdivideSettings_ConstructFrom </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> * MR_SubdivideSettings_ConstructFrom </td>
           <td>(</td>
           <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>maxEdgeLen</em></span>, </td>
         </tr>
@@ -772,7 +766,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> * MR_SubdivideSettings_ConstructFromAnother </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> * MR_SubdivideSettings_ConstructFromAnother </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
         </tr>
@@ -794,7 +788,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> * MR_SubdivideSettings_DefaultConstruct </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> * MR_SubdivideSettings_DefaultConstruct </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -812,7 +806,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> * MR_SubdivideSettings_DefaultConstructArray </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> * MR_SubdivideSettings_DefaultConstructArray </td>
           <td>(</td>
           <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
           <td></td>
@@ -830,7 +824,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_SubdivideSettings_Destroy </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_SubdivideSettings_Destroy </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -849,7 +843,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_SubdivideSettings_DestroyArray </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_SubdivideSettings_DestroyArray </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -868,7 +862,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="MRFillHoleNicely_8h.html#a5406af15a4ce0b3061cd59f056e30578">MR_std_function_bool_from_MR_EdgeId</a> * MR_SubdivideSettings_Get_beforeEdgeSplit </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRFillHoleNicely_8h.html#a5406af15a4ce0b3061cd59f056e30578">MR_std_function_bool_from_MR_EdgeId</a> * MR_SubdivideSettings_Get_beforeEdgeSplit </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -886,7 +880,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const float * MR_SubdivideSettings_Get_criticalAspectRatioFlip </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float * MR_SubdivideSettings_Get_criticalAspectRatioFlip </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -904,7 +898,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const float * MR_SubdivideSettings_Get_maxAngleChangeAfterFlip </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float * MR_SubdivideSettings_Get_maxAngleChangeAfterFlip </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -922,7 +916,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const float * MR_SubdivideSettings_Get_maxDeviationAfterFlip </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float * MR_SubdivideSettings_Get_maxDeviationAfterFlip </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -940,7 +934,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const float * MR_SubdivideSettings_Get_maxEdgeLen </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float * MR_SubdivideSettings_Get_maxEdgeLen </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -958,7 +952,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const int32_t * MR_SubdivideSettings_Get_maxEdgeSplits </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int32_t * MR_SubdivideSettings_Get_maxEdgeSplits </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -976,7 +970,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const float * MR_SubdivideSettings_Get_maxSplittableTriAspectRatio </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float * MR_SubdivideSettings_Get_maxSplittableTriAspectRatio </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -994,7 +988,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const float * MR_SubdivideSettings_Get_maxTriAspectRatio </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float * MR_SubdivideSettings_Get_maxTriAspectRatio </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1012,7 +1006,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const float * MR_SubdivideSettings_Get_minSharpDihedralAngle </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float * MR_SubdivideSettings_Get_minSharpDihedralAngle </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1030,7 +1024,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *const  * MR_SubdivideSettings_Get_newVerts </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *const  * MR_SubdivideSettings_Get_newVerts </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1048,7 +1042,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *const  * MR_SubdivideSettings_Get_notFlippable </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *const  * MR_SubdivideSettings_Get_notFlippable </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1066,7 +1060,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="MRFillHoleNicely_8h.html#ad023ae65e5f5b35808a42976d62d515e">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</a> * MR_SubdivideSettings_Get_onEdgeSplit </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRFillHoleNicely_8h.html#ad023ae65e5f5b35808a42976d62d515e">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</a> * MR_SubdivideSettings_Get_onEdgeSplit </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1084,7 +1078,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="#ab5a1af27d17dce1b9ef76255b364508e">MR_std_function_void_from_MR_VertId</a> * MR_SubdivideSettings_Get_onVertCreated </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ab5a1af27d17dce1b9ef76255b364508e">MR_std_function_void_from_MR_VertId</a> * MR_SubdivideSettings_Get_onVertCreated </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1102,7 +1096,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> * MR_SubdivideSettings_Get_progressCallback </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> * MR_SubdivideSettings_Get_progressCallback </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1120,7 +1114,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const bool * MR_SubdivideSettings_Get_projectOnOriginalMesh </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool * MR_SubdivideSettings_Get_projectOnOriginalMesh </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1138,7 +1132,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *const  * MR_SubdivideSettings_Get_region </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *const  * MR_SubdivideSettings_Get_region </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1156,7 +1150,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const bool * MR_SubdivideSettings_Get_smoothMode </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool * MR_SubdivideSettings_Get_smoothMode </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1174,7 +1168,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const bool * MR_SubdivideSettings_Get_subdivideBorder </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool * MR_SubdivideSettings_Get_subdivideBorder </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1193,7 +1187,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRFillHoleNicely_8h.html#a5406af15a4ce0b3061cd59f056e30578">MR_std_function_bool_from_MR_EdgeId</a> * MR_SubdivideSettings_GetMutable_beforeEdgeSplit </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRFillHoleNicely_8h.html#a5406af15a4ce0b3061cd59f056e30578">MR_std_function_bool_from_MR_EdgeId</a> * MR_SubdivideSettings_GetMutable_beforeEdgeSplit </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1211,7 +1205,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API float * MR_SubdivideSettings_GetMutable_criticalAspectRatioFlip </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float * MR_SubdivideSettings_GetMutable_criticalAspectRatioFlip </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1229,7 +1223,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API float * MR_SubdivideSettings_GetMutable_maxAngleChangeAfterFlip </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float * MR_SubdivideSettings_GetMutable_maxAngleChangeAfterFlip </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1247,7 +1241,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API float * MR_SubdivideSettings_GetMutable_maxDeviationAfterFlip </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float * MR_SubdivideSettings_GetMutable_maxDeviationAfterFlip </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1265,7 +1259,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API float * MR_SubdivideSettings_GetMutable_maxEdgeLen </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float * MR_SubdivideSettings_GetMutable_maxEdgeLen </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1283,7 +1277,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API int32_t * MR_SubdivideSettings_GetMutable_maxEdgeSplits </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t * MR_SubdivideSettings_GetMutable_maxEdgeSplits </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1301,7 +1295,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API float * MR_SubdivideSettings_GetMutable_maxSplittableTriAspectRatio </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float * MR_SubdivideSettings_GetMutable_maxSplittableTriAspectRatio </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1319,7 +1313,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API float * MR_SubdivideSettings_GetMutable_maxTriAspectRatio </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float * MR_SubdivideSettings_GetMutable_maxTriAspectRatio </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1337,7 +1331,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API float * MR_SubdivideSettings_GetMutable_minSharpDihedralAngle </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float * MR_SubdivideSettings_GetMutable_minSharpDihedralAngle </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1355,7 +1349,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> ** MR_SubdivideSettings_GetMutable_newVerts </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> ** MR_SubdivideSettings_GetMutable_newVerts </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1373,7 +1367,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> ** MR_SubdivideSettings_GetMutable_notFlippable </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> ** MR_SubdivideSettings_GetMutable_notFlippable </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1391,7 +1385,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRFillHoleNicely_8h.html#ad023ae65e5f5b35808a42976d62d515e">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</a> * MR_SubdivideSettings_GetMutable_onEdgeSplit </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRFillHoleNicely_8h.html#ad023ae65e5f5b35808a42976d62d515e">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</a> * MR_SubdivideSettings_GetMutable_onEdgeSplit </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1409,7 +1403,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#ab5a1af27d17dce1b9ef76255b364508e">MR_std_function_void_from_MR_VertId</a> * MR_SubdivideSettings_GetMutable_onVertCreated </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ab5a1af27d17dce1b9ef76255b364508e">MR_std_function_void_from_MR_VertId</a> * MR_SubdivideSettings_GetMutable_onVertCreated </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1427,7 +1421,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> * MR_SubdivideSettings_GetMutable_progressCallback </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> * MR_SubdivideSettings_GetMutable_progressCallback </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1445,7 +1439,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API bool * MR_SubdivideSettings_GetMutable_projectOnOriginalMesh </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool * MR_SubdivideSettings_GetMutable_projectOnOriginalMesh </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1463,7 +1457,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> ** MR_SubdivideSettings_GetMutable_region </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> ** MR_SubdivideSettings_GetMutable_region </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1481,7 +1475,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API bool * MR_SubdivideSettings_GetMutable_smoothMode </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool * MR_SubdivideSettings_GetMutable_smoothMode </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1499,7 +1493,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API bool * MR_SubdivideSettings_GetMutable_subdivideBorder </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool * MR_SubdivideSettings_GetMutable_subdivideBorder </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1518,7 +1512,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> * MR_SubdivideSettings_OffsetMutablePtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> * MR_SubdivideSettings_OffsetMutablePtr </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -1541,7 +1535,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> * MR_SubdivideSettings_OffsetPtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> * MR_SubdivideSettings_OffsetPtr </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -1564,7 +1558,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_SubdivideSettings_Set_beforeEdgeSplit </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_SubdivideSettings_Set_beforeEdgeSplit </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1591,7 +1585,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_SubdivideSettings_Set_criticalAspectRatioFlip </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_SubdivideSettings_Set_criticalAspectRatioFlip </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1613,7 +1607,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_SubdivideSettings_Set_maxAngleChangeAfterFlip </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_SubdivideSettings_Set_maxAngleChangeAfterFlip </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1635,7 +1629,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_SubdivideSettings_Set_maxDeviationAfterFlip </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_SubdivideSettings_Set_maxDeviationAfterFlip </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1657,7 +1651,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_SubdivideSettings_Set_maxEdgeLen </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_SubdivideSettings_Set_maxEdgeLen </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1679,7 +1673,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_SubdivideSettings_Set_maxEdgeSplits </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_SubdivideSettings_Set_maxEdgeSplits </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1701,7 +1695,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_SubdivideSettings_Set_maxSplittableTriAspectRatio </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_SubdivideSettings_Set_maxSplittableTriAspectRatio </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1723,7 +1717,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_SubdivideSettings_Set_maxTriAspectRatio </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_SubdivideSettings_Set_maxTriAspectRatio </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1745,7 +1739,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_SubdivideSettings_Set_minSharpDihedralAngle </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_SubdivideSettings_Set_minSharpDihedralAngle </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1767,7 +1761,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_SubdivideSettings_Set_newVerts </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_SubdivideSettings_Set_newVerts </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1789,7 +1783,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_SubdivideSettings_Set_notFlippable </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_SubdivideSettings_Set_notFlippable </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1811,7 +1805,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_SubdivideSettings_Set_onEdgeSplit </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_SubdivideSettings_Set_onEdgeSplit </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1838,7 +1832,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_SubdivideSettings_Set_onVertCreated </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_SubdivideSettings_Set_onVertCreated </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1865,7 +1859,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_SubdivideSettings_Set_progressCallback </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_SubdivideSettings_Set_progressCallback </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1892,7 +1886,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_SubdivideSettings_Set_projectOnOriginalMesh </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_SubdivideSettings_Set_projectOnOriginalMesh </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1914,7 +1908,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_SubdivideSettings_Set_region </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_SubdivideSettings_Set_region </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1936,7 +1930,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_SubdivideSettings_Set_smoothMode </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_SubdivideSettings_Set_smoothMode </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1958,7 +1952,7 @@ use <a class="elRef" href="../Cpp/namespaceMR.html#a14819584da09eac6df2cab459ab8
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_SubdivideSettings_Set_subdivideBorder </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_SubdivideSettings_Set_subdivideBorder </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#af97cd28a6761a7b1feeb63a7f167f8fa">MR_SubdivideSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>

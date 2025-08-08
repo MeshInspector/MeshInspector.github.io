@@ -14,12 +14,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -156,7 +150,7 @@ $(function(){initNavTree('MRFilterCreaseEdges_8h_source.html',''); initResizable
 <div class="contents">
 <a href="MRFilterCreaseEdges_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;MRCMisc/exports.h&gt;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;<a class="code" href="exports_8h.html">MRCMisc/exports.h</a>&gt;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;stdbool.h&gt;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
@@ -168,7 +162,7 @@ $(function(){initNavTree('MRFilterCreaseEdges_8h_source.html',''); initResizable
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="MRFilterCreaseEdges_8h.html#ac7f59a6736b29701d7e619412b6e2890">   12</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_typedef" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> <a class="code hl_typedef" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a>; <span class="comment">// Defined in `#include &lt;MRCMesh/MRBitSet.h&gt;`.</span></div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="MRFilterCreaseEdges_8h.html#a462faaaad36bd4b689f91601d2c35ddd">   23</a></span>MRC_API <span class="keywordtype">void</span> <a class="code hl_function" href="MRFilterCreaseEdges_8h.html#a462faaaad36bd4b689f91601d2c35ddd">MR_filterCreaseEdges</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, <a class="code hl_typedef" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *creaseEdges, <span class="keywordtype">float</span> critLength, <span class="keyword">const</span> <span class="keywordtype">bool</span> *filterComponents, <span class="keyword">const</span> <span class="keywordtype">bool</span> *filterBranches);</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="MRFilterCreaseEdges_8h.html#a462faaaad36bd4b689f91601d2c35ddd">   23</a></span><a class="code hl_define" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <span class="keywordtype">void</span> <a class="code hl_function" href="MRFilterCreaseEdges_8h.html#a462faaaad36bd4b689f91601d2c35ddd">MR_filterCreaseEdges</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, <a class="code hl_typedef" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *creaseEdges, <span class="keywordtype">float</span> critLength, <span class="keyword">const</span> <span class="keywordtype">bool</span> *filterComponents, <span class="keyword">const</span> <span class="keywordtype">bool</span> *filterBranches);</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="preprocessor">#ifdef __cplusplus</span></div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>} <span class="comment">// extern &quot;C&quot;</span></div>
@@ -176,6 +170,8 @@ $(function(){initNavTree('MRFilterCreaseEdges_8h_source.html',''); initResizable
 <div class="ttc" id="aMRAABBTreeBase_8h_html_ac7f59a6736b29701d7e619412b6e2890"><div class="ttname"><a href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a></div><div class="ttdeci">struct MR_UndirectedEdgeBitSet MR_UndirectedEdgeBitSet</div><div class="ttdef"><b>Definition</b> MRAABBTreeBase.h:29</div></div>
 <div class="ttc" id="aMRCtm_8h_html_a31b172f68efca6438544d56eb86d6f40"><div class="ttname"><a href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a></div><div class="ttdeci">struct MR_Mesh MR_Mesh</div><div class="ttdef"><b>Definition</b> MRCtm.h:13</div></div>
 <div class="ttc" id="aMRFilterCreaseEdges_8h_html_a462faaaad36bd4b689f91601d2c35ddd"><div class="ttname"><a href="MRFilterCreaseEdges_8h.html#a462faaaad36bd4b689f91601d2c35ddd">MR_filterCreaseEdges</a></div><div class="ttdeci">MRC_API void MR_filterCreaseEdges(const MR_Mesh *mesh, MR_UndirectedEdgeBitSet *creaseEdges, float critLength, const bool *filterComponents, const bool *filterBranches)</div></div>
+<div class="ttc" id="aexports_8h_html"><div class="ttname"><a href="exports_8h.html">exports.h</a></div></div>
+<div class="ttc" id="aexports_8h_html_a83dd8809128f2fbd49b5c39d59179d4a"><div class="ttname"><a href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a></div><div class="ttdeci">#define MRC_API</div><div class="ttdef"><b>Definition</b> exports.h:11</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

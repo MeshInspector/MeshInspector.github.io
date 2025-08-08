@@ -14,12 +14,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -156,7 +150,7 @@ $(function(){initNavTree('MRSignDetectionMode_8h_source.html',''); initResizable
 <div class="contents">
 <a href="MRSignDetectionMode_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;MRCMisc/exports.h&gt;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;<a class="code" href="exports_8h.html">MRCMisc/exports.h</a>&gt;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;stdint.h&gt;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
@@ -183,7 +177,7 @@ $(function(){initNavTree('MRSignDetectionMode_8h_source.html',''); initResizable
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="MRSignDetectionMode_8h.html#a9e93d8eae633734dfeb29e24a1f3a7c0ade831408e3d4d44037958e2995f5c8be">   39</a></span>    <a class="code hl_enumvalue" href="MRSignDetectionMode_8h.html#a9e93d8eae633734dfeb29e24a1f3a7c0ade831408e3d4d44037958e2995f5c8be">MR_SignDetectionModeShort_ProjectionNormal</a> = 2,</div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>};</div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="MRSignDetectionMode_8h.html#a8bab0f090f5563fc8869d6c2242b3ce2">   44</a></span>MRC_API <span class="keyword">const</span> <span class="keywordtype">char</span> *<a class="code hl_function" href="MRSignDetectionMode_8h.html#a8bab0f090f5563fc8869d6c2242b3ce2">MR_asString_MR_SignDetectionMode</a>(<a class="code hl_typedef" href="MRSignDetectionMode_8h.html#a0edc773fdcc3ae9b1db46fef6e47f9af">MR_SignDetectionMode</a> m);</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="MRSignDetectionMode_8h.html#a8bab0f090f5563fc8869d6c2242b3ce2">   44</a></span><a class="code hl_define" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <span class="keyword">const</span> <span class="keywordtype">char</span> *<a class="code hl_function" href="MRSignDetectionMode_8h.html#a8bab0f090f5563fc8869d6c2242b3ce2">MR_asString_MR_SignDetectionMode</a>(<a class="code hl_typedef" href="MRSignDetectionMode_8h.html#a0edc773fdcc3ae9b1db46fef6e47f9af">MR_SignDetectionMode</a> m);</div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="preprocessor">#ifdef __cplusplus</span></div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>} <span class="comment">// extern &quot;C&quot;</span></div>
@@ -199,6 +193,8 @@ $(function(){initNavTree('MRSignDetectionMode_8h_source.html',''); initResizable
 <div class="ttc" id="aMRSignDetectionMode_8h_html_ade9ca5088d171ad20b4c237f1c2d6260a7f2d79698464d85d61eef3259fe78bea"><div class="ttname"><a href="MRSignDetectionMode_8h.html#ade9ca5088d171ad20b4c237f1c2d6260a7f2d79698464d85d61eef3259fe78bea">MR_SignDetectionMode_HoleWindingRule</a></div><div class="ttdeci">@ MR_SignDetectionMode_HoleWindingRule</div><div class="ttdef"><b>Definition</b> MRSignDetectionMode.h:27</div></div>
 <div class="ttc" id="aMRSignDetectionMode_8h_html_ade9ca5088d171ad20b4c237f1c2d6260ab5ab8141c9894c69d2d6de5775f32897"><div class="ttname"><a href="MRSignDetectionMode_8h.html#ade9ca5088d171ad20b4c237f1c2d6260ab5ab8141c9894c69d2d6de5775f32897">MR_SignDetectionMode_WindingRule</a></div><div class="ttdeci">@ MR_SignDetectionMode_WindingRule</div><div class="ttdef"><b>Definition</b> MRSignDetectionMode.h:24</div></div>
 <div class="ttc" id="aMRSignDetectionMode_8h_html_ade9ca5088d171ad20b4c237f1c2d6260abf87fdf5ca035202bb103aca9393b8d1"><div class="ttname"><a href="MRSignDetectionMode_8h.html#ade9ca5088d171ad20b4c237f1c2d6260abf87fdf5ca035202bb103aca9393b8d1">MR_SignDetectionMode_Unsigned</a></div><div class="ttdeci">@ MR_SignDetectionMode_Unsigned</div><div class="ttdoc">unsigned distance, useful for bidirectional Shell offset</div><div class="ttdef"><b>Definition</b> MRSignDetectionMode.h:17</div></div>
+<div class="ttc" id="aexports_8h_html"><div class="ttname"><a href="exports_8h.html">exports.h</a></div></div>
+<div class="ttc" id="aexports_8h_html_a83dd8809128f2fbd49b5c39d59179d4a"><div class="ttname"><a href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a></div><div class="ttdeci">#define MRC_API</div><div class="ttdef"><b>Definition</b> exports.h:11</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

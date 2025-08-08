@@ -14,12 +14,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -159,7 +153,7 @@ $(function(){initNavTree('MRFreeFormDeformer_8h.html',''); initResizable(true); 
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="MRVector3_8h_source.html">MRCMesh/MRVector3.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
-<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
 <code>#include &lt;stdint.h&gt;</code><br />
 </div>
@@ -191,77 +185,77 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a40975b9b1263398874ccc800d1daac0b" id="r_a40975b9b1263398874ccc800d1daac0b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40975b9b1263398874ccc800d1daac0b">MR_FreeFormDeformer_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a> *_other)</td></tr>
+<tr class="memitem:a40975b9b1263398874ccc800d1daac0b" id="r_a40975b9b1263398874ccc800d1daac0b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40975b9b1263398874ccc800d1daac0b">MR_FreeFormDeformer_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a> *_other)</td></tr>
 <tr class="separator:a40975b9b1263398874ccc800d1daac0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a32ab0f5424227ba1919f9365e7f9c884" id="r_a32ab0f5424227ba1919f9365e7f9c884"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a32ab0f5424227ba1919f9365e7f9c884">MR_FreeFormDeformer_OffsetPtr</a> (const <a class="el" href="#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a32ab0f5424227ba1919f9365e7f9c884" id="r_a32ab0f5424227ba1919f9365e7f9c884"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a32ab0f5424227ba1919f9365e7f9c884">MR_FreeFormDeformer_OffsetPtr</a> (const <a class="el" href="#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a32ab0f5424227ba1919f9365e7f9c884"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a32ab0f5424227ba1919f9365e7f9c884"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c05b030903a06afe0c69520d4df4b11" id="r_a4c05b030903a06afe0c69520d4df4b11"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c05b030903a06afe0c69520d4df4b11">MR_FreeFormDeformer_OffsetMutablePtr</a> (<a class="el" href="#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a4c05b030903a06afe0c69520d4df4b11" id="r_a4c05b030903a06afe0c69520d4df4b11"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c05b030903a06afe0c69520d4df4b11">MR_FreeFormDeformer_OffsetMutablePtr</a> (<a class="el" href="#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a4c05b030903a06afe0c69520d4df4b11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a4c05b030903a06afe0c69520d4df4b11"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d83f3b94ad42c183266d0949831c7b6" id="r_a0d83f3b94ad42c183266d0949831c7b6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d83f3b94ad42c183266d0949831c7b6">MR_FreeFormDeformer_Construct_MR_VertCoords</a> (<a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *coords, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *valid)</td></tr>
+<tr class="memitem:a0d83f3b94ad42c183266d0949831c7b6" id="r_a0d83f3b94ad42c183266d0949831c7b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d83f3b94ad42c183266d0949831c7b6">MR_FreeFormDeformer_Construct_MR_VertCoords</a> (<a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *coords, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *valid)</td></tr>
 <tr class="separator:a0d83f3b94ad42c183266d0949831c7b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aedfbefb4e5950d753a636a728c4149ab" id="r_aedfbefb4e5950d753a636a728c4149ab"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aedfbefb4e5950d753a636a728c4149ab">MR_FreeFormDeformer_Construct_MR_Mesh</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *region)</td></tr>
+<tr class="memitem:aedfbefb4e5950d753a636a728c4149ab" id="r_aedfbefb4e5950d753a636a728c4149ab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aedfbefb4e5950d753a636a728c4149ab">MR_FreeFormDeformer_Construct_MR_Mesh</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *region)</td></tr>
 <tr class="separator:aedfbefb4e5950d753a636a728c4149ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a96b615d161c3cf4c9b107da5e8db679e" id="r_a96b615d161c3cf4c9b107da5e8db679e"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a96b615d161c3cf4c9b107da5e8db679e">MR_FreeFormDeformer_Destroy</a> (const <a class="el" href="#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a> *_this)</td></tr>
+<tr class="memitem:a96b615d161c3cf4c9b107da5e8db679e" id="r_a96b615d161c3cf4c9b107da5e8db679e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a96b615d161c3cf4c9b107da5e8db679e">MR_FreeFormDeformer_Destroy</a> (const <a class="el" href="#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a> *_this)</td></tr>
 <tr class="memdesc:a96b615d161c3cf4c9b107da5e8db679e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_FreeFormDeformer</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:a96b615d161c3cf4c9b107da5e8db679e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a544b62ef86d6f60d0151bf3123bd92e2" id="r_a544b62ef86d6f60d0151bf3123bd92e2"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a544b62ef86d6f60d0151bf3123bd92e2">MR_FreeFormDeformer_DestroyArray</a> (const <a class="el" href="#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a> *_this)</td></tr>
+<tr class="memitem:a544b62ef86d6f60d0151bf3123bd92e2" id="r_a544b62ef86d6f60d0151bf3123bd92e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a544b62ef86d6f60d0151bf3123bd92e2">MR_FreeFormDeformer_DestroyArray</a> (const <a class="el" href="#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a> *_this)</td></tr>
 <tr class="memdesc:a544b62ef86d6f60d0151bf3123bd92e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_FreeFormDeformer</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:a544b62ef86d6f60d0151bf3123bd92e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a20dce6e022b0dcc92b4dafa3c9f64a" id="r_a2a20dce6e022b0dcc92b4dafa3c9f64a"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a20dce6e022b0dcc92b4dafa3c9f64a">MR_FreeFormDeformer_init</a> (<a class="el" href="#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a> *_this, const <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> *resolution, const <a class="el" href="structMR__Box3f.html">MR_Box3f</a> *initialBox)</td></tr>
+<tr class="memitem:a2a20dce6e022b0dcc92b4dafa3c9f64a" id="r_a2a20dce6e022b0dcc92b4dafa3c9f64a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a20dce6e022b0dcc92b4dafa3c9f64a">MR_FreeFormDeformer_init</a> (<a class="el" href="#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a> *_this, const <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> *resolution, const <a class="el" href="structMR__Box3f.html">MR_Box3f</a> *initialBox)</td></tr>
 <tr class="separator:a2a20dce6e022b0dcc92b4dafa3c9f64a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a386588c351fc75656e7bd387a9071239" id="r_a386588c351fc75656e7bd387a9071239"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a386588c351fc75656e7bd387a9071239">MR_FreeFormDeformer_setRefGridPointPosition</a> (<a class="el" href="#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a> *_this, const <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> *coordOfPointInGrid, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *newPos)</td></tr>
+<tr class="memitem:a386588c351fc75656e7bd387a9071239" id="r_a386588c351fc75656e7bd387a9071239"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a386588c351fc75656e7bd387a9071239">MR_FreeFormDeformer_setRefGridPointPosition</a> (<a class="el" href="#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a> *_this, const <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> *coordOfPointInGrid, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *newPos)</td></tr>
 <tr class="separator:a386588c351fc75656e7bd387a9071239"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc0a456cd6fe414991e4279121d1ebc1" id="r_abc0a456cd6fe414991e4279121d1ebc1"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc0a456cd6fe414991e4279121d1ebc1">MR_FreeFormDeformer_getRefGridPointPosition</a> (const <a class="el" href="#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a> *_this, const <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> *coordOfPointInGrid)</td></tr>
+<tr class="memitem:abc0a456cd6fe414991e4279121d1ebc1" id="r_abc0a456cd6fe414991e4279121d1ebc1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc0a456cd6fe414991e4279121d1ebc1">MR_FreeFormDeformer_getRefGridPointPosition</a> (const <a class="el" href="#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a> *_this, const <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> *coordOfPointInGrid)</td></tr>
 <tr class="separator:abc0a456cd6fe414991e4279121d1ebc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a1fc3d64255a69db4474c9a6e50db30" id="r_a4a1fc3d64255a69db4474c9a6e50db30"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a1fc3d64255a69db4474c9a6e50db30">MR_FreeFormDeformer_apply</a> (const <a class="el" href="#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a> *_this)</td></tr>
+<tr class="memitem:a4a1fc3d64255a69db4474c9a6e50db30" id="r_a4a1fc3d64255a69db4474c9a6e50db30"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a1fc3d64255a69db4474c9a6e50db30">MR_FreeFormDeformer_apply</a> (const <a class="el" href="#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a> *_this)</td></tr>
 <tr class="separator:a4a1fc3d64255a69db4474c9a6e50db30"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a54aa15c15051fd9429646c07185f2a8b" id="r_a54aa15c15051fd9429646c07185f2a8b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a54aa15c15051fd9429646c07185f2a8b">MR_FreeFormDeformer_applySinglePoint</a> (const <a class="el" href="#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a> *_this, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *point)</td></tr>
+<tr class="memitem:a54aa15c15051fd9429646c07185f2a8b" id="r_a54aa15c15051fd9429646c07185f2a8b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a54aa15c15051fd9429646c07185f2a8b">MR_FreeFormDeformer_applySinglePoint</a> (const <a class="el" href="#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a> *_this, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *point)</td></tr>
 <tr class="separator:a54aa15c15051fd9429646c07185f2a8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1d00480f38e21cce6a74299f3e8cc31" id="r_ad1d00480f38e21cce6a74299f3e8cc31"><td class="memItemLeft" align="right" valign="top">MRC_API int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1d00480f38e21cce6a74299f3e8cc31">MR_FreeFormDeformer_getIndex</a> (const <a class="el" href="#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a> *_this, const <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> *coordOfPointInGrid)</td></tr>
+<tr class="memitem:ad1d00480f38e21cce6a74299f3e8cc31" id="r_ad1d00480f38e21cce6a74299f3e8cc31"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1d00480f38e21cce6a74299f3e8cc31">MR_FreeFormDeformer_getIndex</a> (const <a class="el" href="#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a> *_this, const <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> *coordOfPointInGrid)</td></tr>
 <tr class="separator:ad1d00480f38e21cce6a74299f3e8cc31"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af15a5690c42a4aae09f3a4a514898c26" id="r_af15a5690c42a4aae09f3a4a514898c26"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af15a5690c42a4aae09f3a4a514898c26">MR_FreeFormDeformer_getCoord</a> (const <a class="el" href="#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a> *_this, int32_t index)</td></tr>
+<tr class="memitem:af15a5690c42a4aae09f3a4a514898c26" id="r_af15a5690c42a4aae09f3a4a514898c26"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af15a5690c42a4aae09f3a4a514898c26">MR_FreeFormDeformer_getCoord</a> (const <a class="el" href="#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a> *_this, int32_t index)</td></tr>
 <tr class="separator:af15a5690c42a4aae09f3a4a514898c26"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a154ac39e43c97d3e84e9b14eedfc7790" id="r_a154ac39e43c97d3e84e9b14eedfc7790"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a154ac39e43c97d3e84e9b14eedfc7790">MR_FreeFormDeformer_getAllRefGridPositions</a> (const <a class="el" href="#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a> *_this)</td></tr>
+<tr class="memitem:a154ac39e43c97d3e84e9b14eedfc7790" id="r_a154ac39e43c97d3e84e9b14eedfc7790"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a154ac39e43c97d3e84e9b14eedfc7790">MR_FreeFormDeformer_getAllRefGridPositions</a> (const <a class="el" href="#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a> *_this)</td></tr>
 <tr class="separator:a154ac39e43c97d3e84e9b14eedfc7790"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a509e56c149d1b64c1c55e28c78f7a688" id="r_a509e56c149d1b64c1c55e28c78f7a688"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a509e56c149d1b64c1c55e28c78f7a688">MR_FreeFormDeformer_setAllRefGridPositions</a> (<a class="el" href="#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a> *_this, const <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *refPoints)</td></tr>
+<tr class="memitem:a509e56c149d1b64c1c55e28c78f7a688" id="r_a509e56c149d1b64c1c55e28c78f7a688"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a509e56c149d1b64c1c55e28c78f7a688">MR_FreeFormDeformer_setAllRefGridPositions</a> (<a class="el" href="#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a> *_this, const <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *refPoints)</td></tr>
 <tr class="separator:a509e56c149d1b64c1c55e28c78f7a688"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:accc289f34f7388b9f8250dc5b679dff4" id="r_accc289f34f7388b9f8250dc5b679dff4"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#accc289f34f7388b9f8250dc5b679dff4">MR_FreeFormDeformer_getResolution</a> (const <a class="el" href="#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a> *_this)</td></tr>
+<tr class="memitem:accc289f34f7388b9f8250dc5b679dff4" id="r_accc289f34f7388b9f8250dc5b679dff4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#accc289f34f7388b9f8250dc5b679dff4">MR_FreeFormDeformer_getResolution</a> (const <a class="el" href="#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a> *_this)</td></tr>
 <tr class="separator:accc289f34f7388b9f8250dc5b679dff4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a538e89e3b457d5d8c0a2a3ceea58add7" id="r_a538e89e3b457d5d8c0a2a3ceea58add7"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a5c88398ba3d1cfa5f2c61556c5e0316e">MR_FreeFormBestFit</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a538e89e3b457d5d8c0a2a3ceea58add7">MR_FreeFormBestFit_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a5c88398ba3d1cfa5f2c61556c5e0316e">MR_FreeFormBestFit</a> *_other)</td></tr>
+<tr class="memitem:a538e89e3b457d5d8c0a2a3ceea58add7" id="r_a538e89e3b457d5d8c0a2a3ceea58add7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a5c88398ba3d1cfa5f2c61556c5e0316e">MR_FreeFormBestFit</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a538e89e3b457d5d8c0a2a3ceea58add7">MR_FreeFormBestFit_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a5c88398ba3d1cfa5f2c61556c5e0316e">MR_FreeFormBestFit</a> *_other)</td></tr>
 <tr class="separator:a538e89e3b457d5d8c0a2a3ceea58add7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a063531584c45635d19b0538c060bf9c1" id="r_a063531584c45635d19b0538c060bf9c1"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a5c88398ba3d1cfa5f2c61556c5e0316e">MR_FreeFormBestFit</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a063531584c45635d19b0538c060bf9c1">MR_FreeFormBestFit_OffsetPtr</a> (const <a class="el" href="#a5c88398ba3d1cfa5f2c61556c5e0316e">MR_FreeFormBestFit</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a063531584c45635d19b0538c060bf9c1" id="r_a063531584c45635d19b0538c060bf9c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a5c88398ba3d1cfa5f2c61556c5e0316e">MR_FreeFormBestFit</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a063531584c45635d19b0538c060bf9c1">MR_FreeFormBestFit_OffsetPtr</a> (const <a class="el" href="#a5c88398ba3d1cfa5f2c61556c5e0316e">MR_FreeFormBestFit</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a063531584c45635d19b0538c060bf9c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a063531584c45635d19b0538c060bf9c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75a60deb90e27f8ddb5120c2141662fe" id="r_a75a60deb90e27f8ddb5120c2141662fe"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a5c88398ba3d1cfa5f2c61556c5e0316e">MR_FreeFormBestFit</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75a60deb90e27f8ddb5120c2141662fe">MR_FreeFormBestFit_OffsetMutablePtr</a> (<a class="el" href="#a5c88398ba3d1cfa5f2c61556c5e0316e">MR_FreeFormBestFit</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a75a60deb90e27f8ddb5120c2141662fe" id="r_a75a60deb90e27f8ddb5120c2141662fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a5c88398ba3d1cfa5f2c61556c5e0316e">MR_FreeFormBestFit</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75a60deb90e27f8ddb5120c2141662fe">MR_FreeFormBestFit_OffsetMutablePtr</a> (<a class="el" href="#a5c88398ba3d1cfa5f2c61556c5e0316e">MR_FreeFormBestFit</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a75a60deb90e27f8ddb5120c2141662fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a75a60deb90e27f8ddb5120c2141662fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee0ea69c330d92620c5815324dfe1f3a" id="r_aee0ea69c330d92620c5815324dfe1f3a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a5c88398ba3d1cfa5f2c61556c5e0316e">MR_FreeFormBestFit</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee0ea69c330d92620c5815324dfe1f3a">MR_FreeFormBestFit_Construct</a> (const <a class="el" href="structMR__Box3d.html">MR_Box3d</a> *box, const <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> *resolution)</td></tr>
+<tr class="memitem:aee0ea69c330d92620c5815324dfe1f3a" id="r_aee0ea69c330d92620c5815324dfe1f3a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a5c88398ba3d1cfa5f2c61556c5e0316e">MR_FreeFormBestFit</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee0ea69c330d92620c5815324dfe1f3a">MR_FreeFormBestFit_Construct</a> (const <a class="el" href="structMR__Box3d.html">MR_Box3d</a> *box, const <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> *resolution)</td></tr>
 <tr class="separator:aee0ea69c330d92620c5815324dfe1f3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6914372bfa2c457ac31cedfda810968a" id="r_a6914372bfa2c457ac31cedfda810968a"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6914372bfa2c457ac31cedfda810968a">MR_FreeFormBestFit_Destroy</a> (const <a class="el" href="#a5c88398ba3d1cfa5f2c61556c5e0316e">MR_FreeFormBestFit</a> *_this)</td></tr>
+<tr class="memitem:a6914372bfa2c457ac31cedfda810968a" id="r_a6914372bfa2c457ac31cedfda810968a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6914372bfa2c457ac31cedfda810968a">MR_FreeFormBestFit_Destroy</a> (const <a class="el" href="#a5c88398ba3d1cfa5f2c61556c5e0316e">MR_FreeFormBestFit</a> *_this)</td></tr>
 <tr class="memdesc:a6914372bfa2c457ac31cedfda810968a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_FreeFormBestFit</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:a6914372bfa2c457ac31cedfda810968a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd6c07c32cf974357446aa37f0e9cb3b" id="r_acd6c07c32cf974357446aa37f0e9cb3b"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd6c07c32cf974357446aa37f0e9cb3b">MR_FreeFormBestFit_DestroyArray</a> (const <a class="el" href="#a5c88398ba3d1cfa5f2c61556c5e0316e">MR_FreeFormBestFit</a> *_this)</td></tr>
+<tr class="memitem:acd6c07c32cf974357446aa37f0e9cb3b" id="r_acd6c07c32cf974357446aa37f0e9cb3b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd6c07c32cf974357446aa37f0e9cb3b">MR_FreeFormBestFit_DestroyArray</a> (const <a class="el" href="#a5c88398ba3d1cfa5f2c61556c5e0316e">MR_FreeFormBestFit</a> *_this)</td></tr>
 <tr class="memdesc:acd6c07c32cf974357446aa37f0e9cb3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_FreeFormBestFit</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:acd6c07c32cf974357446aa37f0e9cb3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0e109ff42e8bfb545e2d2d54fdaec4c" id="r_ab0e109ff42e8bfb545e2d2d54fdaec4c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a5c88398ba3d1cfa5f2c61556c5e0316e">MR_FreeFormBestFit</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0e109ff42e8bfb545e2d2d54fdaec4c">MR_FreeFormBestFit_AssignFromAnother</a> (<a class="el" href="#a5c88398ba3d1cfa5f2c61556c5e0316e">MR_FreeFormBestFit</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a5c88398ba3d1cfa5f2c61556c5e0316e">MR_FreeFormBestFit</a> *_other)</td></tr>
+<tr class="memitem:ab0e109ff42e8bfb545e2d2d54fdaec4c" id="r_ab0e109ff42e8bfb545e2d2d54fdaec4c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a5c88398ba3d1cfa5f2c61556c5e0316e">MR_FreeFormBestFit</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0e109ff42e8bfb545e2d2d54fdaec4c">MR_FreeFormBestFit_AssignFromAnother</a> (<a class="el" href="#a5c88398ba3d1cfa5f2c61556c5e0316e">MR_FreeFormBestFit</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a5c88398ba3d1cfa5f2c61556c5e0316e">MR_FreeFormBestFit</a> *_other)</td></tr>
 <tr class="separator:ab0e109ff42e8bfb545e2d2d54fdaec4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4d002de271c2c94c6289b302f3da5870" id="r_a4d002de271c2c94c6289b302f3da5870"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d002de271c2c94c6289b302f3da5870">MR_FreeFormBestFit_addPair_MR_Vector3d</a> (<a class="el" href="#a5c88398ba3d1cfa5f2c61556c5e0316e">MR_FreeFormBestFit</a> *_this, const <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *src, const <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *tgt, const double *w)</td></tr>
+<tr class="memitem:a4d002de271c2c94c6289b302f3da5870" id="r_a4d002de271c2c94c6289b302f3da5870"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d002de271c2c94c6289b302f3da5870">MR_FreeFormBestFit_addPair_MR_Vector3d</a> (<a class="el" href="#a5c88398ba3d1cfa5f2c61556c5e0316e">MR_FreeFormBestFit</a> *_this, const <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *src, const <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *tgt, const double *w)</td></tr>
 <tr class="separator:a4d002de271c2c94c6289b302f3da5870"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a03bb679b403f4b9f5a1a0afc7f8effea" id="r_a03bb679b403f4b9f5a1a0afc7f8effea"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03bb679b403f4b9f5a1a0afc7f8effea">MR_FreeFormBestFit_addPair_MR_Vector3f</a> (<a class="el" href="#a5c88398ba3d1cfa5f2c61556c5e0316e">MR_FreeFormBestFit</a> *_this, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *src, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *tgt, const float *w)</td></tr>
+<tr class="memitem:a03bb679b403f4b9f5a1a0afc7f8effea" id="r_a03bb679b403f4b9f5a1a0afc7f8effea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03bb679b403f4b9f5a1a0afc7f8effea">MR_FreeFormBestFit_addPair_MR_Vector3f</a> (<a class="el" href="#a5c88398ba3d1cfa5f2c61556c5e0316e">MR_FreeFormBestFit</a> *_this, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *src, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *tgt, const float *w)</td></tr>
 <tr class="separator:a03bb679b403f4b9f5a1a0afc7f8effea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab3c93a34efa46136dafe293ba790ef72" id="r_ab3c93a34efa46136dafe293ba790ef72"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3c93a34efa46136dafe293ba790ef72">MR_FreeFormBestFit_addOther</a> (<a class="el" href="#a5c88398ba3d1cfa5f2c61556c5e0316e">MR_FreeFormBestFit</a> *_this, const <a class="el" href="#a5c88398ba3d1cfa5f2c61556c5e0316e">MR_FreeFormBestFit</a> *other)</td></tr>
+<tr class="memitem:ab3c93a34efa46136dafe293ba790ef72" id="r_ab3c93a34efa46136dafe293ba790ef72"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3c93a34efa46136dafe293ba790ef72">MR_FreeFormBestFit_addOther</a> (<a class="el" href="#a5c88398ba3d1cfa5f2c61556c5e0316e">MR_FreeFormBestFit</a> *_this, const <a class="el" href="#a5c88398ba3d1cfa5f2c61556c5e0316e">MR_FreeFormBestFit</a> *other)</td></tr>
 <tr class="separator:ab3c93a34efa46136dafe293ba790ef72"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c94ac2ff570bc639863c78fccef87e9" id="r_a5c94ac2ff570bc639863c78fccef87e9"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c94ac2ff570bc639863c78fccef87e9">MR_FreeFormBestFit_setStabilizer</a> (<a class="el" href="#a5c88398ba3d1cfa5f2c61556c5e0316e">MR_FreeFormBestFit</a> *_this, double stabilizer)</td></tr>
+<tr class="memitem:a5c94ac2ff570bc639863c78fccef87e9" id="r_a5c94ac2ff570bc639863c78fccef87e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c94ac2ff570bc639863c78fccef87e9">MR_FreeFormBestFit_setStabilizer</a> (<a class="el" href="#a5c88398ba3d1cfa5f2c61556c5e0316e">MR_FreeFormBestFit</a> *_this, double stabilizer)</td></tr>
 <tr class="separator:a5c94ac2ff570bc639863c78fccef87e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f0e7ad4cb39b14ec8c982ca7814d39b" id="r_a4f0e7ad4cb39b14ec8c982ca7814d39b"><td class="memItemLeft" align="right" valign="top">MRC_API double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f0e7ad4cb39b14ec8c982ca7814d39b">MR_FreeFormBestFit_getStabilizer</a> (const <a class="el" href="#a5c88398ba3d1cfa5f2c61556c5e0316e">MR_FreeFormBestFit</a> *_this)</td></tr>
+<tr class="memitem:a4f0e7ad4cb39b14ec8c982ca7814d39b" id="r_a4f0e7ad4cb39b14ec8c982ca7814d39b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f0e7ad4cb39b14ec8c982ca7814d39b">MR_FreeFormBestFit_getStabilizer</a> (const <a class="el" href="#a5c88398ba3d1cfa5f2c61556c5e0316e">MR_FreeFormBestFit</a> *_this)</td></tr>
 <tr class="separator:a4f0e7ad4cb39b14ec8c982ca7814d39b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abf54f4825b9f1e8f6949e331af029b72" id="r_abf54f4825b9f1e8f6949e331af029b72"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf54f4825b9f1e8f6949e331af029b72">MR_FreeFormBestFit_findBestDeformationReferenceGrid</a> (<a class="el" href="#a5c88398ba3d1cfa5f2c61556c5e0316e">MR_FreeFormBestFit</a> *_this)</td></tr>
+<tr class="memitem:abf54f4825b9f1e8f6949e331af029b72" id="r_abf54f4825b9f1e8f6949e331af029b72"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf54f4825b9f1e8f6949e331af029b72">MR_FreeFormBestFit_findBestDeformationReferenceGrid</a> (<a class="el" href="#a5c88398ba3d1cfa5f2c61556c5e0316e">MR_FreeFormBestFit</a> *_this)</td></tr>
 <tr class="separator:abf54f4825b9f1e8f6949e331af029b72"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adb7d7882e44a09d1878e8442cc584987" id="r_adb7d7882e44a09d1878e8442cc584987"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb7d7882e44a09d1878e8442cc584987">MR_makeFreeFormOriginGrid</a> (const <a class="el" href="structMR__Box3f.html">MR_Box3f</a> *box, const <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> *resolution)</td></tr>
+<tr class="memitem:adb7d7882e44a09d1878e8442cc584987" id="r_adb7d7882e44a09d1878e8442cc584987"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb7d7882e44a09d1878e8442cc584987">MR_makeFreeFormOriginGrid</a> (const <a class="el" href="structMR__Box3f.html">MR_Box3f</a> *box, const <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> *resolution)</td></tr>
 <tr class="separator:adb7d7882e44a09d1878e8442cc584987"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae405dcd2bc3c73c8880d8bee79e07c0d" id="r_ae405dcd2bc3c73c8880d8bee79e07c0d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae405dcd2bc3c73c8880d8bee79e07c0d">MR_findBestFreeformDeformation</a> (const <a class="el" href="structMR__Box3f.html">MR_Box3f</a> *box, const <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *source, const <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *target, const <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> *resolution, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *samplesToBox)</td></tr>
+<tr class="memitem:ae405dcd2bc3c73c8880d8bee79e07c0d" id="r_ae405dcd2bc3c73c8880d8bee79e07c0d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae405dcd2bc3c73c8880d8bee79e07c0d">MR_findBestFreeformDeformation</a> (const <a class="el" href="structMR__Box3f.html">MR_Box3f</a> *box, const <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *source, const <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *target, const <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> *resolution, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *samplesToBox)</td></tr>
 <tr class="separator:ae405dcd2bc3c73c8880d8bee79e07c0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -335,29 +329,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Class for deforming mesh using Bernstein interpolation. </p>
-<div class="fragment"><div class="line">    <span class="comment">// Construct deformer on mesh vertices</span></div>
-<div class="line">    <a class="code hl_classRef" href="../Cpp/classMR_1_1FreeFormDeformer.html">MR::FreeFormDeformer</a> ffDeformer( mesh-&gt;points, mesh-&gt;topology.getValidVerts() );</div>
-<div class="line"> </div>
-<div class="line">    <span class="comment">// Compute mesh bounding box</span></div>
-<div class="line">    <span class="keyword">const</span> <span class="keyword">auto</span> box = mesh-&gt;computeBoundingBox();</div>
-<div class="line"> </div>
-<div class="line">    <span class="comment">// Init deformer with 3x3 grid on mesh box</span></div>
-<div class="line">    ffDeformer.init( MR::Vector3i::diagonal( 3 ), box );</div>
-<div class="line"> </div>
-<div class="line">    <span class="comment">// Move some control points of the grid to the center</span></div>
-<div class="line">    ffDeformer.setRefGridPointPosition( { 1, 1, 0 }, box.center() );</div>
-<div class="line">    ffDeformer.setRefGridPointPosition( { 1, 1, 2 }, box.center() );</div>
-<div class="line">    ffDeformer.setRefGridPointPosition( { 0, 1, 1 }, box.center() );</div>
-<div class="line">    ffDeformer.setRefGridPointPosition( { 2, 1, 1 }, box.center() );</div>
-<div class="line">    ffDeformer.setRefGridPointPosition( { 1, 0, 1 }, box.center() );</div>
-<div class="line">    ffDeformer.setRefGridPointPosition( { 1, 2, 1 }, box.center() );</div>
-<div class="line"> </div>
-<div class="line">    <span class="comment">// Apply the deformation to the mesh vertices</span></div>
-<div class="line">    ffDeformer.apply();</div>
-<div class="line"> </div>
-<div class="line">    <span class="comment">// Invalidate the mesh because of external vertex changes</span></div>
-<div class="line">    mesh-&gt;invalidateCaches();</div>
-</div><!-- fragment --><p> Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1FreeFormDeformer.html">MR::FreeFormDeformer</a></code>. </p>
+<div class="fragment"></div><!-- fragment --><p> Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1FreeFormDeformer.html">MR::FreeFormDeformer</a></code>. </p>
 
 </div>
 </div>
@@ -439,7 +411,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> * MR_findBestFreeformDeformation </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> * MR_findBestFreeformDeformation </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR__Box3f.html">MR_Box3f</a> *</td>          <td class="paramname"><span class="paramname"><em>box</em></span>, </td>
         </tr>
@@ -476,7 +448,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_FreeFormBestFit_addOther </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_FreeFormBestFit_addOther </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a5c88398ba3d1cfa5f2c61556c5e0316e">MR_FreeFormBestFit</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -498,7 +470,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_FreeFormBestFit_addPair_MR_Vector3d </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_FreeFormBestFit_addPair_MR_Vector3d </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a5c88398ba3d1cfa5f2c61556c5e0316e">MR_FreeFormBestFit</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -530,7 +502,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_FreeFormBestFit_addPair_MR_Vector3f </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_FreeFormBestFit_addPair_MR_Vector3f </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a5c88398ba3d1cfa5f2c61556c5e0316e">MR_FreeFormBestFit</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -562,7 +534,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a5c88398ba3d1cfa5f2c61556c5e0316e">MR_FreeFormBestFit</a> * MR_FreeFormBestFit_AssignFromAnother </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a5c88398ba3d1cfa5f2c61556c5e0316e">MR_FreeFormBestFit</a> * MR_FreeFormBestFit_AssignFromAnother </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a5c88398ba3d1cfa5f2c61556c5e0316e">MR_FreeFormBestFit</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -589,7 +561,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a5c88398ba3d1cfa5f2c61556c5e0316e">MR_FreeFormBestFit</a> * MR_FreeFormBestFit_Construct </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a5c88398ba3d1cfa5f2c61556c5e0316e">MR_FreeFormBestFit</a> * MR_FreeFormBestFit_Construct </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR__Box3d.html">MR_Box3d</a> *</td>          <td class="paramname"><span class="paramname"><em>box</em></span>, </td>
         </tr>
@@ -611,7 +583,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a5c88398ba3d1cfa5f2c61556c5e0316e">MR_FreeFormBestFit</a> * MR_FreeFormBestFit_ConstructFromAnother </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a5c88398ba3d1cfa5f2c61556c5e0316e">MR_FreeFormBestFit</a> * MR_FreeFormBestFit_ConstructFromAnother </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
         </tr>
@@ -633,7 +605,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_FreeFormBestFit_Destroy </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_FreeFormBestFit_Destroy </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a5c88398ba3d1cfa5f2c61556c5e0316e">MR_FreeFormBestFit</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -652,7 +624,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_FreeFormBestFit_DestroyArray </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_FreeFormBestFit_DestroyArray </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a5c88398ba3d1cfa5f2c61556c5e0316e">MR_FreeFormBestFit</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -671,7 +643,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> * MR_FreeFormBestFit_findBestDeformationReferenceGrid </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> * MR_FreeFormBestFit_findBestDeformationReferenceGrid </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a5c88398ba3d1cfa5f2c61556c5e0316e">MR_FreeFormBestFit</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -689,7 +661,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API double MR_FreeFormBestFit_getStabilizer </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> double MR_FreeFormBestFit_getStabilizer </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a5c88398ba3d1cfa5f2c61556c5e0316e">MR_FreeFormBestFit</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -707,7 +679,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a5c88398ba3d1cfa5f2c61556c5e0316e">MR_FreeFormBestFit</a> * MR_FreeFormBestFit_OffsetMutablePtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a5c88398ba3d1cfa5f2c61556c5e0316e">MR_FreeFormBestFit</a> * MR_FreeFormBestFit_OffsetMutablePtr </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a5c88398ba3d1cfa5f2c61556c5e0316e">MR_FreeFormBestFit</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -730,7 +702,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="#a5c88398ba3d1cfa5f2c61556c5e0316e">MR_FreeFormBestFit</a> * MR_FreeFormBestFit_OffsetPtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a5c88398ba3d1cfa5f2c61556c5e0316e">MR_FreeFormBestFit</a> * MR_FreeFormBestFit_OffsetPtr </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a5c88398ba3d1cfa5f2c61556c5e0316e">MR_FreeFormBestFit</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -753,7 +725,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_FreeFormBestFit_setStabilizer </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_FreeFormBestFit_setStabilizer </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a5c88398ba3d1cfa5f2c61556c5e0316e">MR_FreeFormBestFit</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -775,7 +747,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_FreeFormDeformer_apply </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_FreeFormDeformer_apply </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -793,7 +765,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> MR_FreeFormDeformer_applySinglePoint </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> MR_FreeFormDeformer_applySinglePoint </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -815,7 +787,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a> * MR_FreeFormDeformer_Construct_MR_Mesh </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a> * MR_FreeFormDeformer_Construct_MR_Mesh </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
@@ -837,7 +809,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a> * MR_FreeFormDeformer_Construct_MR_VertCoords </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a> * MR_FreeFormDeformer_Construct_MR_VertCoords </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *</td>          <td class="paramname"><span class="paramname"><em>coords</em></span>, </td>
         </tr>
@@ -859,7 +831,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a> * MR_FreeFormDeformer_ConstructFromAnother </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a> * MR_FreeFormDeformer_ConstructFromAnother </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
         </tr>
@@ -881,7 +853,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_FreeFormDeformer_Destroy </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_FreeFormDeformer_Destroy </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -900,7 +872,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_FreeFormDeformer_DestroyArray </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_FreeFormDeformer_DestroyArray </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -919,7 +891,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> * MR_FreeFormDeformer_getAllRefGridPositions </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> * MR_FreeFormDeformer_getAllRefGridPositions </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -937,7 +909,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> MR_FreeFormDeformer_getCoord </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> MR_FreeFormDeformer_getCoord </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -959,7 +931,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API int32_t MR_FreeFormDeformer_getIndex </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t MR_FreeFormDeformer_getIndex </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -981,7 +953,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> * MR_FreeFormDeformer_getRefGridPointPosition </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> * MR_FreeFormDeformer_getRefGridPointPosition </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1003,7 +975,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> * MR_FreeFormDeformer_getResolution </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> * MR_FreeFormDeformer_getResolution </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1021,7 +993,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_FreeFormDeformer_init </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_FreeFormDeformer_init </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1048,7 +1020,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a> * MR_FreeFormDeformer_OffsetMutablePtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a> * MR_FreeFormDeformer_OffsetMutablePtr </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -1071,7 +1043,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a> * MR_FreeFormDeformer_OffsetPtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a> * MR_FreeFormDeformer_OffsetPtr </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -1094,7 +1066,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_FreeFormDeformer_setAllRefGridPositions </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_FreeFormDeformer_setAllRefGridPositions </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1116,7 +1088,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_FreeFormDeformer_setRefGridPointPosition </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_FreeFormDeformer_setRefGridPointPosition </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1143,7 +1115,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> * MR_makeFreeFormOriginGrid </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> * MR_makeFreeFormOriginGrid </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR__Box3f.html">MR_Box3f</a> *</td>          <td class="paramname"><span class="paramname"><em>box</em></span>, </td>
         </tr>

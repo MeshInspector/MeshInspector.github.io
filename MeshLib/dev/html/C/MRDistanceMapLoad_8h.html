@@ -14,12 +14,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -157,7 +151,7 @@ $(function(){initNavTree('MRDistanceMapLoad_8h.html',''); initResizable(true); }
   <div class="headertitle"><div class="title">MRDistanceMapLoad.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 </div>
 <p><a href="MRDistanceMapLoad_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -170,14 +164,14 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a3964ef33d91884faea0cf5da72bd7002" id="r_a3964ef33d91884faea0cf5da72bd7002"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRDistanceMap_8h.html#a52efa08117d1b3edf97d282ba7127323">MR_expected_MR_DistanceMap_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3964ef33d91884faea0cf5da72bd7002">MR_DistanceMapLoad_fromRaw</a> (const char *path, const char *path_end, const <a class="el" href="#acb7982850a6576e45e73598937682264">MR_DistanceMapLoadSettings</a> *settings)</td></tr>
+<tr class="memitem:a3964ef33d91884faea0cf5da72bd7002" id="r_a3964ef33d91884faea0cf5da72bd7002"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRDistanceMap_8h.html#a52efa08117d1b3edf97d282ba7127323">MR_expected_MR_DistanceMap_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3964ef33d91884faea0cf5da72bd7002">MR_DistanceMapLoad_fromRaw</a> (const char *path, const char *path_end, const <a class="el" href="#acb7982850a6576e45e73598937682264">MR_DistanceMapLoadSettings</a> *settings)</td></tr>
 <tr class="memdesc:a3964ef33d91884faea0cf5da72bd7002"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load DistanceMap from binary file Format: 2 integer - DistanceMap.resX &amp; DistanceMap.resY [resX * resY] float - matrix of values.  <br /></td></tr>
 <tr class="separator:a3964ef33d91884faea0cf5da72bd7002"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c7a3df80a03289b48950025bfbf4173" id="r_a5c7a3df80a03289b48950025bfbf4173"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRDistanceMap_8h.html#a52efa08117d1b3edf97d282ba7127323">MR_expected_MR_DistanceMap_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c7a3df80a03289b48950025bfbf4173">MR_DistanceMapLoad_fromMrDistanceMap</a> (const char *path, const char *path_end, const <a class="el" href="#acb7982850a6576e45e73598937682264">MR_DistanceMapLoadSettings</a> *settings)</td></tr>
+<tr class="memitem:a5c7a3df80a03289b48950025bfbf4173" id="r_a5c7a3df80a03289b48950025bfbf4173"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRDistanceMap_8h.html#a52efa08117d1b3edf97d282ba7127323">MR_expected_MR_DistanceMap_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c7a3df80a03289b48950025bfbf4173">MR_DistanceMapLoad_fromMrDistanceMap</a> (const char *path, const char *path_end, const <a class="el" href="#acb7982850a6576e45e73598937682264">MR_DistanceMapLoadSettings</a> *settings)</td></tr>
 <tr class="separator:a5c7a3df80a03289b48950025bfbf4173"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a427596c8432d09d2751f6b6529c8e6c1" id="r_a427596c8432d09d2751f6b6529c8e6c1"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRDistanceMap_8h.html#a52efa08117d1b3edf97d282ba7127323">MR_expected_MR_DistanceMap_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a427596c8432d09d2751f6b6529c8e6c1">MR_DistanceMapLoad_fromTiff</a> (const char *path, const char *path_end, const <a class="el" href="#acb7982850a6576e45e73598937682264">MR_DistanceMapLoadSettings</a> *settings)</td></tr>
+<tr class="memitem:a427596c8432d09d2751f6b6529c8e6c1" id="r_a427596c8432d09d2751f6b6529c8e6c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRDistanceMap_8h.html#a52efa08117d1b3edf97d282ba7127323">MR_expected_MR_DistanceMap_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a427596c8432d09d2751f6b6529c8e6c1">MR_DistanceMapLoad_fromTiff</a> (const char *path, const char *path_end, const <a class="el" href="#acb7982850a6576e45e73598937682264">MR_DistanceMapLoadSettings</a> *settings)</td></tr>
 <tr class="separator:a427596c8432d09d2751f6b6529c8e6c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ecb20fb90665d926ac512aecb82e478" id="r_a4ecb20fb90665d926ac512aecb82e478"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRDistanceMap_8h.html#a52efa08117d1b3edf97d282ba7127323">MR_expected_MR_DistanceMap_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ecb20fb90665d926ac512aecb82e478">MR_DistanceMapLoad_fromAnySupportedFormat</a> (const char *path, const char *path_end, const <a class="el" href="#acb7982850a6576e45e73598937682264">MR_DistanceMapLoadSettings</a> *settings)</td></tr>
+<tr class="memitem:a4ecb20fb90665d926ac512aecb82e478" id="r_a4ecb20fb90665d926ac512aecb82e478"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRDistanceMap_8h.html#a52efa08117d1b3edf97d282ba7127323">MR_expected_MR_DistanceMap_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ecb20fb90665d926ac512aecb82e478">MR_DistanceMapLoad_fromAnySupportedFormat</a> (const char *path, const char *path_end, const <a class="el" href="#acb7982850a6576e45e73598937682264">MR_DistanceMapLoadSettings</a> *settings)</td></tr>
 <tr class="separator:a4ecb20fb90665d926ac512aecb82e478"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -217,7 +211,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRDistanceMap_8h.html#a52efa08117d1b3edf97d282ba7127323">MR_expected_MR_DistanceMap_std_string</a> * MR_DistanceMapLoad_fromAnySupportedFormat </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRDistanceMap_8h.html#a52efa08117d1b3edf97d282ba7127323">MR_expected_MR_DistanceMap_std_string</a> * MR_DistanceMapLoad_fromAnySupportedFormat </td>
           <td>(</td>
           <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
         </tr>
@@ -244,7 +238,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRDistanceMap_8h.html#a52efa08117d1b3edf97d282ba7127323">MR_expected_MR_DistanceMap_std_string</a> * MR_DistanceMapLoad_fromMrDistanceMap </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRDistanceMap_8h.html#a52efa08117d1b3edf97d282ba7127323">MR_expected_MR_DistanceMap_std_string</a> * MR_DistanceMapLoad_fromMrDistanceMap </td>
           <td>(</td>
           <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
         </tr>
@@ -271,7 +265,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRDistanceMap_8h.html#a52efa08117d1b3edf97d282ba7127323">MR_expected_MR_DistanceMap_std_string</a> * MR_DistanceMapLoad_fromRaw </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRDistanceMap_8h.html#a52efa08117d1b3edf97d282ba7127323">MR_expected_MR_DistanceMap_std_string</a> * MR_DistanceMapLoad_fromRaw </td>
           <td>(</td>
           <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
         </tr>
@@ -300,7 +294,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRDistanceMap_8h.html#a52efa08117d1b3edf97d282ba7127323">MR_expected_MR_DistanceMap_std_string</a> * MR_DistanceMapLoad_fromTiff </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRDistanceMap_8h.html#a52efa08117d1b3edf97d282ba7127323">MR_expected_MR_DistanceMap_std_string</a> * MR_DistanceMapLoad_fromTiff </td>
           <td>(</td>
           <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
         </tr>

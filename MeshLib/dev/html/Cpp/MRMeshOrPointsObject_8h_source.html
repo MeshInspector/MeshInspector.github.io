@@ -14,12 +14,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -158,7 +152,7 @@ $(function(){initNavTree('MRMeshOrPointsObject_8h_source.html',''); initResizabl
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_2MRMeshFwd_8h.html">MRMeshFwd.h</a>&quot;</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;variant&gt;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="keyword">namespace </span><a class="code hl_namespaceRef" href="../namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span>{</div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
 <div class="foldopen" id="foldopen00010" data-start="{" data-end="};">
@@ -179,7 +173,7 @@ $(function(){initNavTree('MRMeshOrPointsObject_8h_source.html',''); initResizabl
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="classMR_1_1MeshOrPointsObject.html#abcbc6506c74c783ee36216d1ce536bed">   30</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1MeshOrPointsObject.html#abcbc6506c74c783ee36216d1ce536bed">reset</a>() { <a class="code hl_function" href="classMR_1_1MeshOrPointsObject.html#a0505cbf8b2c451d7d7f6f9c0f61da8e2">set</a>( std::shared_ptr&lt;ObjectMesh&gt;{} ); }</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="classMR_1_1MeshOrPointsObject.html#ad5721ae1649791db63412d697972ad67">   31</a></span>    <span class="keyword">const</span> std::shared_ptr&lt;VisualObject&gt;&amp; <a class="code hl_function" href="classMR_1_1MeshOrPointsObject.html#ad5721ae1649791db63412d697972ad67">operator-&gt;</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> visualObject_; }</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="classMR_1_1MeshOrPointsObject.html#a85885b5e86610e53fe93aea07accd2b7">   32</a></span>    <span class="keyword">const</span> std::shared_ptr&lt;VisualObject&gt;&amp; <a class="code hl_function" href="classMR_1_1MeshOrPointsObject.html#a85885b5e86610e53fe93aea07accd2b7">get</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> visualObject_; }</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="classMR_1_1MeshOrPointsObject.html#adfeb28e41ada77721a8b726e820733aa">   33</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="classMR_1_1MeshOrPointsObject.html#adfeb28e41ada77721a8b726e820733aa">operator==</a>( std::shared_ptr&lt;VisualObject&gt; <a class="code hl_enumvalue" href="namespaceMR.html#a24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf">other</a> )<span class="keyword"> const </span>{ <span class="keywordflow">return</span> visualObject_ == <a class="code hl_enumvalue" href="namespaceMR.html#a24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf">other</a>; }</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="classMR_1_1MeshOrPointsObject.html#adfeb28e41ada77721a8b726e820733aa">   33</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="classMR_1_1MeshOrPointsObject.html#adfeb28e41ada77721a8b726e820733aa">operator==</a>( std::shared_ptr&lt;VisualObject&gt; other )<span class="keyword"> const </span>{ <span class="keywordflow">return</span> visualObject_ == other; }</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="classMR_1_1MeshOrPointsObject.html#acfaf7828131d41c6e9e01fc4618ff5b4">   36</a></span>    <a class="code hl_define" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="code hl_class" href="classMR_1_1MeshOrPoints.html">MeshOrPoints</a> <a class="code hl_function" href="classMR_1_1MeshOrPointsObject.html#acfaf7828131d41c6e9e01fc4618ff5b4">meshOrPoints</a>() <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="keyword">private</span>:</div>
@@ -208,8 +202,7 @@ $(function(){initNavTree('MRMeshOrPointsObject_8h_source.html',''); initResizabl
 <div class="ttc" id="aclassMR_1_1MeshOrPoints_html"><div class="ttname"><a href="classMR_1_1MeshOrPoints.html">MR::MeshOrPoints</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshOrPoints.h:18</div></div>
 <div class="ttc" id="aclassMR_1_1ObjectMesh_html"><div class="ttname"><a href="classMR_1_1ObjectMesh.html">MR::ObjectMesh</a></div><div class="ttdef"><b>Definition</b> MRObjectMesh.h:11</div></div>
 <div class="ttc" id="aclassMR_1_1ObjectPoints_html"><div class="ttname"><a href="classMR_1_1ObjectPoints.html">MR::ObjectPoints</a></div><div class="ttdef"><b>Definition</b> MRObjectPoints.h:11</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
-<div class="ttc" id="anamespaceMR_html_a24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf"><div class="ttname"><a href="namespaceMR.html#a24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf">MR::FeaturePropertyKind::other</a></div><div class="ttdeci">@ other</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="../namespaceMR.html">MR</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

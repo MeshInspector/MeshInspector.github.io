@@ -14,12 +14,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -159,7 +153,7 @@ $(function(){initNavTree('MRUniteManyMeshes_8h.html',''); initResizable(true); }
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
-<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
 <code>#include &lt;stdint.h&gt;</code><br />
@@ -192,83 +186,83 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a815aeec03d41ba8646fcbdac6c9a7bb9" id="r_a815aeec03d41ba8646fcbdac6c9a7bb9"><td class="memItemLeft" align="right" valign="top">MRC_API const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a815aeec03d41ba8646fcbdac6c9a7bb9">MR_UniteManyMeshesParams_Get_useRandomShifts</a> (const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
+<tr class="memitem:a815aeec03d41ba8646fcbdac6c9a7bb9" id="r_a815aeec03d41ba8646fcbdac6c9a7bb9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a815aeec03d41ba8646fcbdac6c9a7bb9">MR_UniteManyMeshesParams_Get_useRandomShifts</a> (const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
 <tr class="separator:a815aeec03d41ba8646fcbdac6c9a7bb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a811f8a6529787d033b5897f8bd4995f9" id="r_a811f8a6529787d033b5897f8bd4995f9"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a811f8a6529787d033b5897f8bd4995f9">MR_UniteManyMeshesParams_Set_useRandomShifts</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this, bool value)</td></tr>
+<tr class="memitem:a811f8a6529787d033b5897f8bd4995f9" id="r_a811f8a6529787d033b5897f8bd4995f9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a811f8a6529787d033b5897f8bd4995f9">MR_UniteManyMeshesParams_Set_useRandomShifts</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this, bool value)</td></tr>
 <tr class="separator:a811f8a6529787d033b5897f8bd4995f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a202072a113d7b995762e70912bc88b60" id="r_a202072a113d7b995762e70912bc88b60"><td class="memItemLeft" align="right" valign="top">MRC_API bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a202072a113d7b995762e70912bc88b60">MR_UniteManyMeshesParams_GetMutable_useRandomShifts</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
+<tr class="memitem:a202072a113d7b995762e70912bc88b60" id="r_a202072a113d7b995762e70912bc88b60"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a202072a113d7b995762e70912bc88b60">MR_UniteManyMeshesParams_GetMutable_useRandomShifts</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
 <tr class="separator:a202072a113d7b995762e70912bc88b60"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abaf33831a6cce06066386248fcebe754" id="r_abaf33831a6cce06066386248fcebe754"><td class="memItemLeft" align="right" valign="top">MRC_API const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abaf33831a6cce06066386248fcebe754">MR_UniteManyMeshesParams_Get_fixDegenerations</a> (const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
+<tr class="memitem:abaf33831a6cce06066386248fcebe754" id="r_abaf33831a6cce06066386248fcebe754"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abaf33831a6cce06066386248fcebe754">MR_UniteManyMeshesParams_Get_fixDegenerations</a> (const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
 <tr class="separator:abaf33831a6cce06066386248fcebe754"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6c4a9a452fac99be5f360a11fca89d96" id="r_a6c4a9a452fac99be5f360a11fca89d96"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c4a9a452fac99be5f360a11fca89d96">MR_UniteManyMeshesParams_Set_fixDegenerations</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this, bool value)</td></tr>
+<tr class="memitem:a6c4a9a452fac99be5f360a11fca89d96" id="r_a6c4a9a452fac99be5f360a11fca89d96"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c4a9a452fac99be5f360a11fca89d96">MR_UniteManyMeshesParams_Set_fixDegenerations</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this, bool value)</td></tr>
 <tr class="separator:a6c4a9a452fac99be5f360a11fca89d96"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1504abd5af5b5a33f63671af7a788996" id="r_a1504abd5af5b5a33f63671af7a788996"><td class="memItemLeft" align="right" valign="top">MRC_API bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1504abd5af5b5a33f63671af7a788996">MR_UniteManyMeshesParams_GetMutable_fixDegenerations</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
+<tr class="memitem:a1504abd5af5b5a33f63671af7a788996" id="r_a1504abd5af5b5a33f63671af7a788996"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1504abd5af5b5a33f63671af7a788996">MR_UniteManyMeshesParams_GetMutable_fixDegenerations</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
 <tr class="separator:a1504abd5af5b5a33f63671af7a788996"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0617a974f50a8dc4b23565863e781a2c" id="r_a0617a974f50a8dc4b23565863e781a2c"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0617a974f50a8dc4b23565863e781a2c">MR_UniteManyMeshesParams_Get_maxAllowedError</a> (const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
+<tr class="memitem:a0617a974f50a8dc4b23565863e781a2c" id="r_a0617a974f50a8dc4b23565863e781a2c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0617a974f50a8dc4b23565863e781a2c">MR_UniteManyMeshesParams_Get_maxAllowedError</a> (const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
 <tr class="separator:a0617a974f50a8dc4b23565863e781a2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaffbbf139f639e5dd671ab65d7cb37d4" id="r_aaffbbf139f639e5dd671ab65d7cb37d4"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaffbbf139f639e5dd671ab65d7cb37d4">MR_UniteManyMeshesParams_Set_maxAllowedError</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this, float value)</td></tr>
+<tr class="memitem:aaffbbf139f639e5dd671ab65d7cb37d4" id="r_aaffbbf139f639e5dd671ab65d7cb37d4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaffbbf139f639e5dd671ab65d7cb37d4">MR_UniteManyMeshesParams_Set_maxAllowedError</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this, float value)</td></tr>
 <tr class="separator:aaffbbf139f639e5dd671ab65d7cb37d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9168d43d84ac114dcdf6bf405b0c9232" id="r_a9168d43d84ac114dcdf6bf405b0c9232"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9168d43d84ac114dcdf6bf405b0c9232">MR_UniteManyMeshesParams_GetMutable_maxAllowedError</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
+<tr class="memitem:a9168d43d84ac114dcdf6bf405b0c9232" id="r_a9168d43d84ac114dcdf6bf405b0c9232"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9168d43d84ac114dcdf6bf405b0c9232">MR_UniteManyMeshesParams_GetMutable_maxAllowedError</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
 <tr class="separator:a9168d43d84ac114dcdf6bf405b0c9232"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43c5748c8daea1c6a57a040a4742842d" id="r_a43c5748c8daea1c6a57a040a4742842d"><td class="memItemLeft" align="right" valign="top">MRC_API const uint32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43c5748c8daea1c6a57a040a4742842d">MR_UniteManyMeshesParams_Get_randomShiftsSeed</a> (const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
+<tr class="memitem:a43c5748c8daea1c6a57a040a4742842d" id="r_a43c5748c8daea1c6a57a040a4742842d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const uint32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43c5748c8daea1c6a57a040a4742842d">MR_UniteManyMeshesParams_Get_randomShiftsSeed</a> (const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
 <tr class="separator:a43c5748c8daea1c6a57a040a4742842d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3056d3f5d5596c05f94f54d6a297f5b1" id="r_a3056d3f5d5596c05f94f54d6a297f5b1"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3056d3f5d5596c05f94f54d6a297f5b1">MR_UniteManyMeshesParams_Set_randomShiftsSeed</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this, uint32_t value)</td></tr>
+<tr class="memitem:a3056d3f5d5596c05f94f54d6a297f5b1" id="r_a3056d3f5d5596c05f94f54d6a297f5b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3056d3f5d5596c05f94f54d6a297f5b1">MR_UniteManyMeshesParams_Set_randomShiftsSeed</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this, uint32_t value)</td></tr>
 <tr class="separator:a3056d3f5d5596c05f94f54d6a297f5b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9cd81de979cc8efebbe64a15e2a517f2" id="r_a9cd81de979cc8efebbe64a15e2a517f2"><td class="memItemLeft" align="right" valign="top">MRC_API uint32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9cd81de979cc8efebbe64a15e2a517f2">MR_UniteManyMeshesParams_GetMutable_randomShiftsSeed</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
+<tr class="memitem:a9cd81de979cc8efebbe64a15e2a517f2" id="r_a9cd81de979cc8efebbe64a15e2a517f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> uint32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9cd81de979cc8efebbe64a15e2a517f2">MR_UniteManyMeshesParams_GetMutable_randomShiftsSeed</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
 <tr class="separator:a9cd81de979cc8efebbe64a15e2a517f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af72e4f9ed5825f5341a675e70e72bc45" id="r_af72e4f9ed5825f5341a675e70e72bc45"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af72e4f9ed5825f5341a675e70e72bc45">MR_UniteManyMeshesParams_Get_newFaces</a> (const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
+<tr class="memitem:af72e4f9ed5825f5341a675e70e72bc45" id="r_af72e4f9ed5825f5341a675e70e72bc45"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af72e4f9ed5825f5341a675e70e72bc45">MR_UniteManyMeshesParams_Get_newFaces</a> (const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
 <tr class="separator:af72e4f9ed5825f5341a675e70e72bc45"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afbcc59689b65300b513db258ed8cddbc" id="r_afbcc59689b65300b513db258ed8cddbc"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afbcc59689b65300b513db258ed8cddbc">MR_UniteManyMeshesParams_Set_newFaces</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this, <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *value)</td></tr>
+<tr class="memitem:afbcc59689b65300b513db258ed8cddbc" id="r_afbcc59689b65300b513db258ed8cddbc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afbcc59689b65300b513db258ed8cddbc">MR_UniteManyMeshesParams_Set_newFaces</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this, <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *value)</td></tr>
 <tr class="separator:afbcc59689b65300b513db258ed8cddbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90512e36c0f8188183949f30d298d6be" id="r_a90512e36c0f8188183949f30d298d6be"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90512e36c0f8188183949f30d298d6be">MR_UniteManyMeshesParams_GetMutable_newFaces</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
+<tr class="memitem:a90512e36c0f8188183949f30d298d6be" id="r_a90512e36c0f8188183949f30d298d6be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90512e36c0f8188183949f30d298d6be">MR_UniteManyMeshesParams_GetMutable_newFaces</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
 <tr class="separator:a90512e36c0f8188183949f30d298d6be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade5e7a8333f3b493b6ecd5e0de810bea" id="r_ade5e7a8333f3b493b6ecd5e0de810bea"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#acfde5ee8f62ba3de783e8f63282a683f">MR_NestedComponenetsMode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade5e7a8333f3b493b6ecd5e0de810bea">MR_UniteManyMeshesParams_Get_nestedComponentsMode</a> (const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
+<tr class="memitem:ade5e7a8333f3b493b6ecd5e0de810bea" id="r_ade5e7a8333f3b493b6ecd5e0de810bea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#acfde5ee8f62ba3de783e8f63282a683f">MR_NestedComponenetsMode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade5e7a8333f3b493b6ecd5e0de810bea">MR_UniteManyMeshesParams_Get_nestedComponentsMode</a> (const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
 <tr class="separator:ade5e7a8333f3b493b6ecd5e0de810bea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a765535345779f67b4492757b3d613d57" id="r_a765535345779f67b4492757b3d613d57"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a765535345779f67b4492757b3d613d57">MR_UniteManyMeshesParams_Set_nestedComponentsMode</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this, <a class="el" href="#acfde5ee8f62ba3de783e8f63282a683f">MR_NestedComponenetsMode</a> value)</td></tr>
+<tr class="memitem:a765535345779f67b4492757b3d613d57" id="r_a765535345779f67b4492757b3d613d57"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a765535345779f67b4492757b3d613d57">MR_UniteManyMeshesParams_Set_nestedComponentsMode</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this, <a class="el" href="#acfde5ee8f62ba3de783e8f63282a683f">MR_NestedComponenetsMode</a> value)</td></tr>
 <tr class="separator:a765535345779f67b4492757b3d613d57"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9918bbfb181a8c73974a959291c4743" id="r_ab9918bbfb181a8c73974a959291c4743"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#acfde5ee8f62ba3de783e8f63282a683f">MR_NestedComponenetsMode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9918bbfb181a8c73974a959291c4743">MR_UniteManyMeshesParams_GetMutable_nestedComponentsMode</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
+<tr class="memitem:ab9918bbfb181a8c73974a959291c4743" id="r_ab9918bbfb181a8c73974a959291c4743"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#acfde5ee8f62ba3de783e8f63282a683f">MR_NestedComponenetsMode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9918bbfb181a8c73974a959291c4743">MR_UniteManyMeshesParams_GetMutable_nestedComponentsMode</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
 <tr class="separator:ab9918bbfb181a8c73974a959291c4743"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f205153ad98413752624545ea12622c" id="r_a4f205153ad98413752624545ea12622c"><td class="memItemLeft" align="right" valign="top">MRC_API const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f205153ad98413752624545ea12622c">MR_UniteManyMeshesParams_Get_mergeOnFail</a> (const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
+<tr class="memitem:a4f205153ad98413752624545ea12622c" id="r_a4f205153ad98413752624545ea12622c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f205153ad98413752624545ea12622c">MR_UniteManyMeshesParams_Get_mergeOnFail</a> (const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
 <tr class="separator:a4f205153ad98413752624545ea12622c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a83a923a10580b9a067b3125e4007bdcd" id="r_a83a923a10580b9a067b3125e4007bdcd"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a83a923a10580b9a067b3125e4007bdcd">MR_UniteManyMeshesParams_Set_mergeOnFail</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this, bool value)</td></tr>
+<tr class="memitem:a83a923a10580b9a067b3125e4007bdcd" id="r_a83a923a10580b9a067b3125e4007bdcd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a83a923a10580b9a067b3125e4007bdcd">MR_UniteManyMeshesParams_Set_mergeOnFail</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this, bool value)</td></tr>
 <tr class="separator:a83a923a10580b9a067b3125e4007bdcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a56184079cfc91b2ef085c1163385634e" id="r_a56184079cfc91b2ef085c1163385634e"><td class="memItemLeft" align="right" valign="top">MRC_API bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56184079cfc91b2ef085c1163385634e">MR_UniteManyMeshesParams_GetMutable_mergeOnFail</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
+<tr class="memitem:a56184079cfc91b2ef085c1163385634e" id="r_a56184079cfc91b2ef085c1163385634e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56184079cfc91b2ef085c1163385634e">MR_UniteManyMeshesParams_GetMutable_mergeOnFail</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
 <tr class="separator:a56184079cfc91b2ef085c1163385634e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f5c25f2651505ece1869a5f256987ec" id="r_a7f5c25f2651505ece1869a5f256987ec"><td class="memItemLeft" align="right" valign="top">MRC_API const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f5c25f2651505ece1869a5f256987ec">MR_UniteManyMeshesParams_Get_forceCut</a> (const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
+<tr class="memitem:a7f5c25f2651505ece1869a5f256987ec" id="r_a7f5c25f2651505ece1869a5f256987ec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f5c25f2651505ece1869a5f256987ec">MR_UniteManyMeshesParams_Get_forceCut</a> (const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
 <tr class="separator:a7f5c25f2651505ece1869a5f256987ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b4a1d176cfc6acee41c4dd6291fc068" id="r_a1b4a1d176cfc6acee41c4dd6291fc068"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b4a1d176cfc6acee41c4dd6291fc068">MR_UniteManyMeshesParams_Set_forceCut</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this, bool value)</td></tr>
+<tr class="memitem:a1b4a1d176cfc6acee41c4dd6291fc068" id="r_a1b4a1d176cfc6acee41c4dd6291fc068"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b4a1d176cfc6acee41c4dd6291fc068">MR_UniteManyMeshesParams_Set_forceCut</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this, bool value)</td></tr>
 <tr class="separator:a1b4a1d176cfc6acee41c4dd6291fc068"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a582895e6bacbdc68c33fadd71312aa05" id="r_a582895e6bacbdc68c33fadd71312aa05"><td class="memItemLeft" align="right" valign="top">MRC_API bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a582895e6bacbdc68c33fadd71312aa05">MR_UniteManyMeshesParams_GetMutable_forceCut</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
+<tr class="memitem:a582895e6bacbdc68c33fadd71312aa05" id="r_a582895e6bacbdc68c33fadd71312aa05"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a582895e6bacbdc68c33fadd71312aa05">MR_UniteManyMeshesParams_GetMutable_forceCut</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
 <tr class="separator:a582895e6bacbdc68c33fadd71312aa05"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a17a85aa62b4e0013af638f2d511effe1" id="r_a17a85aa62b4e0013af638f2d511effe1"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17a85aa62b4e0013af638f2d511effe1">MR_UniteManyMeshesParams_Get_progressCb</a> (const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
+<tr class="memitem:a17a85aa62b4e0013af638f2d511effe1" id="r_a17a85aa62b4e0013af638f2d511effe1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17a85aa62b4e0013af638f2d511effe1">MR_UniteManyMeshesParams_Get_progressCb</a> (const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
 <tr class="separator:a17a85aa62b4e0013af638f2d511effe1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9014cb316d4a994f59f7ea04e1257248" id="r_a9014cb316d4a994f59f7ea04e1257248"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9014cb316d4a994f59f7ea04e1257248">MR_UniteManyMeshesParams_Set_progressCb</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *value)</td></tr>
+<tr class="memitem:a9014cb316d4a994f59f7ea04e1257248" id="r_a9014cb316d4a994f59f7ea04e1257248"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9014cb316d4a994f59f7ea04e1257248">MR_UniteManyMeshesParams_Set_progressCb</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *value)</td></tr>
 <tr class="separator:a9014cb316d4a994f59f7ea04e1257248"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a93c8e78713f0a6edbe3badbeaa4ae39c" id="r_a93c8e78713f0a6edbe3badbeaa4ae39c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93c8e78713f0a6edbe3badbeaa4ae39c">MR_UniteManyMeshesParams_GetMutable_progressCb</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
+<tr class="memitem:a93c8e78713f0a6edbe3badbeaa4ae39c" id="r_a93c8e78713f0a6edbe3badbeaa4ae39c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93c8e78713f0a6edbe3badbeaa4ae39c">MR_UniteManyMeshesParams_GetMutable_progressCb</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
 <tr class="separator:a93c8e78713f0a6edbe3badbeaa4ae39c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea25dd860532caabb4545140e67c3773" id="r_aea25dd860532caabb4545140e67c3773"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea25dd860532caabb4545140e67c3773">MR_UniteManyMeshesParams_DefaultConstruct</a> (void)</td></tr>
+<tr class="memitem:aea25dd860532caabb4545140e67c3773" id="r_aea25dd860532caabb4545140e67c3773"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea25dd860532caabb4545140e67c3773">MR_UniteManyMeshesParams_DefaultConstruct</a> (void)</td></tr>
 <tr class="separator:aea25dd860532caabb4545140e67c3773"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a973f757a98dc45a29df0ea202982411d" id="r_a973f757a98dc45a29df0ea202982411d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a973f757a98dc45a29df0ea202982411d">MR_UniteManyMeshesParams_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="memitem:a973f757a98dc45a29df0ea202982411d" id="r_a973f757a98dc45a29df0ea202982411d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a973f757a98dc45a29df0ea202982411d">MR_UniteManyMeshesParams_DefaultConstructArray</a> (size_t num_elems)</td></tr>
 <tr class="separator:a973f757a98dc45a29df0ea202982411d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa460daf111c9e7b7054c663656e01c1" id="r_afa460daf111c9e7b7054c663656e01c1"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa460daf111c9e7b7054c663656e01c1">MR_UniteManyMeshesParams_ConstructFrom</a> (bool useRandomShifts, bool fixDegenerations, float maxAllowedError, uint32_t randomShiftsSeed, <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *newFaces, <a class="el" href="#acfde5ee8f62ba3de783e8f63282a683f">MR_NestedComponenetsMode</a> nestedComponentsMode, bool mergeOnFail, bool forceCut, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> progressCb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *progressCb)</td></tr>
+<tr class="memitem:afa460daf111c9e7b7054c663656e01c1" id="r_afa460daf111c9e7b7054c663656e01c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa460daf111c9e7b7054c663656e01c1">MR_UniteManyMeshesParams_ConstructFrom</a> (bool useRandomShifts, bool fixDegenerations, float maxAllowedError, uint32_t randomShiftsSeed, <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *newFaces, <a class="el" href="#acfde5ee8f62ba3de783e8f63282a683f">MR_NestedComponenetsMode</a> nestedComponentsMode, bool mergeOnFail, bool forceCut, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> progressCb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *progressCb)</td></tr>
 <tr class="separator:afa460daf111c9e7b7054c663656e01c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a963ca5e79de4f0122e2ec63db134d238" id="r_a963ca5e79de4f0122e2ec63db134d238"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a963ca5e79de4f0122e2ec63db134d238">MR_UniteManyMeshesParams_OffsetPtr</a> (const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a963ca5e79de4f0122e2ec63db134d238" id="r_a963ca5e79de4f0122e2ec63db134d238"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a963ca5e79de4f0122e2ec63db134d238">MR_UniteManyMeshesParams_OffsetPtr</a> (const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a963ca5e79de4f0122e2ec63db134d238"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a963ca5e79de4f0122e2ec63db134d238"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c7233bf8812cb4af5412dcd22e6ac60" id="r_a2c7233bf8812cb4af5412dcd22e6ac60"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c7233bf8812cb4af5412dcd22e6ac60">MR_UniteManyMeshesParams_OffsetMutablePtr</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a2c7233bf8812cb4af5412dcd22e6ac60" id="r_a2c7233bf8812cb4af5412dcd22e6ac60"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c7233bf8812cb4af5412dcd22e6ac60">MR_UniteManyMeshesParams_OffsetMutablePtr</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a2c7233bf8812cb4af5412dcd22e6ac60"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a2c7233bf8812cb4af5412dcd22e6ac60"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4824c6fc906c8bbb0901aefd1cabceb0" id="r_a4824c6fc906c8bbb0901aefd1cabceb0"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4824c6fc906c8bbb0901aefd1cabceb0">MR_UniteManyMeshesParams_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_other)</td></tr>
+<tr class="memitem:a4824c6fc906c8bbb0901aefd1cabceb0" id="r_a4824c6fc906c8bbb0901aefd1cabceb0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4824c6fc906c8bbb0901aefd1cabceb0">MR_UniteManyMeshesParams_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_other)</td></tr>
 <tr class="separator:a4824c6fc906c8bbb0901aefd1cabceb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3cb7000f5f540aa30fe619684227153" id="r_ad3cb7000f5f540aa30fe619684227153"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad3cb7000f5f540aa30fe619684227153">MR_UniteManyMeshesParams_Destroy</a> (const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
+<tr class="memitem:ad3cb7000f5f540aa30fe619684227153" id="r_ad3cb7000f5f540aa30fe619684227153"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad3cb7000f5f540aa30fe619684227153">MR_UniteManyMeshesParams_Destroy</a> (const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
 <tr class="memdesc:ad3cb7000f5f540aa30fe619684227153"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_UniteManyMeshesParams</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:ad3cb7000f5f540aa30fe619684227153"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea6a2768acab3a6cf00c4f5b9af6e20d" id="r_aea6a2768acab3a6cf00c4f5b9af6e20d"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea6a2768acab3a6cf00c4f5b9af6e20d">MR_UniteManyMeshesParams_DestroyArray</a> (const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
+<tr class="memitem:aea6a2768acab3a6cf00c4f5b9af6e20d" id="r_aea6a2768acab3a6cf00c4f5b9af6e20d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea6a2768acab3a6cf00c4f5b9af6e20d">MR_UniteManyMeshesParams_DestroyArray</a> (const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this)</td></tr>
 <tr class="memdesc:aea6a2768acab3a6cf00c4f5b9af6e20d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_UniteManyMeshesParams</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:aea6a2768acab3a6cf00c4f5b9af6e20d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b9cc39c7987242ef812466516187831" id="r_a2b9cc39c7987242ef812466516187831"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b9cc39c7987242ef812466516187831">MR_UniteManyMeshesParams_AssignFromAnother</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_other)</td></tr>
+<tr class="memitem:a2b9cc39c7987242ef812466516187831" id="r_a2b9cc39c7987242ef812466516187831"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b9cc39c7987242ef812466516187831">MR_UniteManyMeshesParams_AssignFromAnother</a> (<a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *_other)</td></tr>
 <tr class="separator:a2b9cc39c7987242ef812466516187831"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea757129ffa2722d3062c2f234acf0fe" id="r_aea757129ffa2722d3062c2f234acf0fe"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea757129ffa2722d3062c2f234acf0fe">MR_uniteManyMeshes</a> (const <a class="el" href="#ae7193edfceac57cfb2d1d3b5b68a90b8">MR_std_vector_const_MR_Mesh_ptr</a> *meshes, const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *params)</td></tr>
+<tr class="memitem:aea757129ffa2722d3062c2f234acf0fe" id="r_aea757129ffa2722d3062c2f234acf0fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea757129ffa2722d3062c2f234acf0fe">MR_uniteManyMeshes</a> (const <a class="el" href="#ae7193edfceac57cfb2d1d3b5b68a90b8">MR_std_vector_const_MR_Mesh_ptr</a> *meshes, const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *params)</td></tr>
 <tr class="separator:aea757129ffa2722d3062c2f234acf0fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -390,7 +384,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> * MR_uniteManyMeshes </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> * MR_uniteManyMeshes </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ae7193edfceac57cfb2d1d3b5b68a90b8">MR_std_vector_const_MR_Mesh_ptr</a> *</td>          <td class="paramname"><span class="paramname"><em>meshes</em></span>, </td>
         </tr>
@@ -412,7 +406,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> * MR_UniteManyMeshesParams_AssignFromAnother </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> * MR_UniteManyMeshesParams_AssignFromAnother </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -439,7 +433,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> * MR_UniteManyMeshesParams_ConstructFrom </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> * MR_UniteManyMeshesParams_ConstructFrom </td>
           <td>(</td>
           <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>useRandomShifts</em></span>, </td>
         </tr>
@@ -501,7 +495,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> * MR_UniteManyMeshesParams_ConstructFromAnother </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> * MR_UniteManyMeshesParams_ConstructFromAnother </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
         </tr>
@@ -523,7 +517,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> * MR_UniteManyMeshesParams_DefaultConstruct </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> * MR_UniteManyMeshesParams_DefaultConstruct </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -541,7 +535,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> * MR_UniteManyMeshesParams_DefaultConstructArray </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> * MR_UniteManyMeshesParams_DefaultConstructArray </td>
           <td>(</td>
           <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
           <td></td>
@@ -559,7 +553,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_UniteManyMeshesParams_Destroy </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_UniteManyMeshesParams_Destroy </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -578,7 +572,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_UniteManyMeshesParams_DestroyArray </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_UniteManyMeshesParams_DestroyArray </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -597,7 +591,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const bool * MR_UniteManyMeshesParams_Get_fixDegenerations </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool * MR_UniteManyMeshesParams_Get_fixDegenerations </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -615,7 +609,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const bool * MR_UniteManyMeshesParams_Get_forceCut </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool * MR_UniteManyMeshesParams_Get_forceCut </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -633,7 +627,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const float * MR_UniteManyMeshesParams_Get_maxAllowedError </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float * MR_UniteManyMeshesParams_Get_maxAllowedError </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -651,7 +645,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const bool * MR_UniteManyMeshesParams_Get_mergeOnFail </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool * MR_UniteManyMeshesParams_Get_mergeOnFail </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -669,7 +663,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="#acfde5ee8f62ba3de783e8f63282a683f">MR_NestedComponenetsMode</a> * MR_UniteManyMeshesParams_Get_nestedComponentsMode </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#acfde5ee8f62ba3de783e8f63282a683f">MR_NestedComponenetsMode</a> * MR_UniteManyMeshesParams_Get_nestedComponentsMode </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -687,7 +681,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *const  * MR_UniteManyMeshesParams_Get_newFaces </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *const  * MR_UniteManyMeshesParams_Get_newFaces </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -705,7 +699,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> * MR_UniteManyMeshesParams_Get_progressCb </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> * MR_UniteManyMeshesParams_Get_progressCb </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -723,7 +717,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const uint32_t * MR_UniteManyMeshesParams_Get_randomShiftsSeed </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const uint32_t * MR_UniteManyMeshesParams_Get_randomShiftsSeed </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -741,7 +735,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const bool * MR_UniteManyMeshesParams_Get_useRandomShifts </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool * MR_UniteManyMeshesParams_Get_useRandomShifts </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -759,7 +753,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API bool * MR_UniteManyMeshesParams_GetMutable_fixDegenerations </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool * MR_UniteManyMeshesParams_GetMutable_fixDegenerations </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -777,7 +771,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API bool * MR_UniteManyMeshesParams_GetMutable_forceCut </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool * MR_UniteManyMeshesParams_GetMutable_forceCut </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -795,7 +789,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API float * MR_UniteManyMeshesParams_GetMutable_maxAllowedError </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float * MR_UniteManyMeshesParams_GetMutable_maxAllowedError </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -813,7 +807,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API bool * MR_UniteManyMeshesParams_GetMutable_mergeOnFail </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool * MR_UniteManyMeshesParams_GetMutable_mergeOnFail </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -831,7 +825,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#acfde5ee8f62ba3de783e8f63282a683f">MR_NestedComponenetsMode</a> * MR_UniteManyMeshesParams_GetMutable_nestedComponentsMode </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#acfde5ee8f62ba3de783e8f63282a683f">MR_NestedComponenetsMode</a> * MR_UniteManyMeshesParams_GetMutable_nestedComponentsMode </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -849,7 +843,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> ** MR_UniteManyMeshesParams_GetMutable_newFaces </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> ** MR_UniteManyMeshesParams_GetMutable_newFaces </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -867,7 +861,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> * MR_UniteManyMeshesParams_GetMutable_progressCb </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> * MR_UniteManyMeshesParams_GetMutable_progressCb </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -885,7 +879,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API uint32_t * MR_UniteManyMeshesParams_GetMutable_randomShiftsSeed </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> uint32_t * MR_UniteManyMeshesParams_GetMutable_randomShiftsSeed </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -903,7 +897,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API bool * MR_UniteManyMeshesParams_GetMutable_useRandomShifts </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool * MR_UniteManyMeshesParams_GetMutable_useRandomShifts </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -921,7 +915,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> * MR_UniteManyMeshesParams_OffsetMutablePtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> * MR_UniteManyMeshesParams_OffsetMutablePtr </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -944,7 +938,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> * MR_UniteManyMeshesParams_OffsetPtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> * MR_UniteManyMeshesParams_OffsetPtr </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -967,7 +961,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_UniteManyMeshesParams_Set_fixDegenerations </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_UniteManyMeshesParams_Set_fixDegenerations </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -989,7 +983,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_UniteManyMeshesParams_Set_forceCut </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_UniteManyMeshesParams_Set_forceCut </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1011,7 +1005,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_UniteManyMeshesParams_Set_maxAllowedError </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_UniteManyMeshesParams_Set_maxAllowedError </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1033,7 +1027,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_UniteManyMeshesParams_Set_mergeOnFail </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_UniteManyMeshesParams_Set_mergeOnFail </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1055,7 +1049,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_UniteManyMeshesParams_Set_nestedComponentsMode </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_UniteManyMeshesParams_Set_nestedComponentsMode </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1077,7 +1071,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_UniteManyMeshesParams_Set_newFaces </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_UniteManyMeshesParams_Set_newFaces </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1099,7 +1093,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_UniteManyMeshesParams_Set_progressCb </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_UniteManyMeshesParams_Set_progressCb </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1126,7 +1120,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_UniteManyMeshesParams_Set_randomShiftsSeed </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_UniteManyMeshesParams_Set_randomShiftsSeed </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1148,7 +1142,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_UniteManyMeshesParams_Set_useRandomShifts </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_UniteManyMeshesParams_Set_useRandomShifts </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a768fbaa1a635c9393fdb3628694b9f61">MR_UniteManyMeshesParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>

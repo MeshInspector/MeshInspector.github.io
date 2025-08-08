@@ -14,12 +14,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -185,9 +179,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a5be41c92ebfbb340e9651f0efd210fcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aed36bec4a9d093011a85c99f21ced5f3" id="r_aed36bec4a9d093011a85c99f21ced5f3"><td class="memItemLeft" align="right" valign="top">constexpr V&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed36bec4a9d093011a85c99f21ced5f3">linearOnly</a> (const V &amp;x) const noexcept</td></tr>
 <tr class="separator:aed36bec4a9d093011a85c99f21ced5f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa858f1158ee32c91e5e1c76b2c03910e" id="r_aa858f1158ee32c91e5e1c76b2c03910e"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="structMR_1_1AffineXf.html">AffineXf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa858f1158ee32c91e5e1c76b2c03910e">inverse</a> () const noexcept</td></tr>
-<tr class="memdesc:aa858f1158ee32c91e5e1c76b2c03910e"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes inverse transformation  <br /></td></tr>
-<tr class="separator:aa858f1158ee32c91e5e1c76b2c03910e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -210,8 +201,9 @@ Public Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="friends" name="friends"></a>
 Friends</h2></td></tr>
-<tr class="memitem:af89fd7ea192a6532169e2880f9c945f3" id="r_af89fd7ea192a6532169e2880f9c945f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1AffineXf.html">AffineXf</a>&lt; V &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af89fd7ea192a6532169e2880f9c945f3">operator*</a> (const <a class="el" href="structMR_1_1AffineXf.html">AffineXf</a>&lt; V &gt; &amp;u, const <a class="el" href="structMR_1_1AffineXf.html">AffineXf</a>&lt; V &gt; &amp;v)</td></tr>
-<tr class="separator:af89fd7ea192a6532169e2880f9c945f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e644a181cac1fa700946f98a47b8595" id="r_a0e644a181cac1fa700946f98a47b8595"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="structMR_1_1AffineXf.html">AffineXf</a> inverse() const noexcept <a class="el" href="group__BasicGroup.html#ga6092fad6de6a4d75d57e992d1d373994">MR_REQUIRES_IF_SUPPORTED</a>(!std friend <a class="el" href="structMR_1_1AffineXf.html">AffineXf</a>&lt; V &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e644a181cac1fa700946f98a47b8595">operator*</a> (const <a class="el" href="structMR_1_1AffineXf.html">AffineXf</a>&lt; V &gt; &amp;u, const <a class="el" href="structMR_1_1AffineXf.html">AffineXf</a>&lt; V &gt; &amp;v)</td></tr>
+<tr class="memdesc:a0e644a181cac1fa700946f98a47b8595"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes inverse transformation  <br /></td></tr>
+<tr class="separator:a0e644a181cac1fa700946f98a47b8595"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55d01857e172a9cbf746957013009926" id="r_a55d01857e172a9cbf746957013009926"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a55d01857e172a9cbf746957013009926">operator==</a> (const <a class="el" href="structMR_1_1AffineXf.html">AffineXf</a>&lt; V &gt; &amp;a, const <a class="el" href="structMR_1_1AffineXf.html">AffineXf</a>&lt; V &gt; &amp;<a class="el" href="#abc589d85e328480de8c5972558bd7b3c">b</a>)</td></tr>
 <tr class="separator:a55d01857e172a9cbf746957013009926"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a186afe85bf17b3cb6a52b55f5af080bc" id="r_a186afe85bf17b3cb6a52b55f5af080bc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a186afe85bf17b3cb6a52b55f5af080bc">operator!=</a> (const <a class="el" href="structMR_1_1AffineXf.html">AffineXf</a>&lt; V &gt; &amp;a, const <a class="el" href="structMR_1_1AffineXf.html">AffineXf</a>&lt; V &gt; &amp;<a class="el" href="#abc589d85e328480de8c5972558bd7b3c">b</a>)</td></tr>
@@ -342,35 +334,6 @@ template&lt;typename U &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="aa858f1158ee32c91e5e1c76b2c03910e" name="aa858f1158ee32c91e5e1c76b2c03910e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa858f1158ee32c91e5e1c76b2c03910e">&#9670;&#160;</a></span>inverse()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename V &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structMR_1_1AffineXf.html">AffineXf</a> <a class="el" href="structMR_1_1AffineXf.html">MR::AffineXf</a>&lt; V &gt;::inverse </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span><span class="mlabel">constexpr</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>computes inverse transformation </p>
-
-</div>
-</div>
 <a id="a28ed741d0efefc5b6087bc89a5b6cd85" name="a28ed741d0efefc5b6087bc89a5b6cd85"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a28ed741d0efefc5b6087bc89a5b6cd85">&#9670;&#160;</a></span>linear()</h2>
 
@@ -551,8 +514,8 @@ template&lt;typename V &gt; </div>
 
 </div>
 </div>
-<a id="af89fd7ea192a6532169e2880f9c945f3" name="af89fd7ea192a6532169e2880f9c945f3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af89fd7ea192a6532169e2880f9c945f3">&#9670;&#160;</a></span>operator*</h2>
+<a id="a0e644a181cac1fa700946f98a47b8595" name="a0e644a181cac1fa700946f98a47b8595"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e644a181cac1fa700946f98a47b8595">&#9670;&#160;</a></span>operator*</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -563,7 +526,7 @@ template&lt;typename V &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structMR_1_1AffineXf.html">AffineXf</a>&lt; V &gt; operator* </td>
+          <td class="memname"><a class="el" href="structMR_1_1AffineXf.html">AffineXf</a> inverse() const noexcept <a class="el" href="group__BasicGroup.html#ga6092fad6de6a4d75d57e992d1d373994">MR_REQUIRES_IF_SUPPORTED</a>(!std friend <a class="el" href="structMR_1_1AffineXf.html">AffineXf</a>&lt; V &gt; operator* </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1AffineXf.html">AffineXf</a>&lt; V &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>u</em></span>, </td>
         </tr>
@@ -579,6 +542,8 @@ template&lt;typename V &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>computes inverse transformation </p>
 <p>composition of two transformations: \( y = (u * v) ( x ) = u( v( x ) ) = ( u.A * ( v.A * x + v.b ) + u.b ) = ( u.A * v.A ) * x + ( u.A * v.b + u.b ) \) </p>
 
 </div>
@@ -656,7 +621,7 @@ template&lt;typename V &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="structMR_1_1AffineXf.html">AffineXf</a></li>
+    <li class="navelem"><b>MR</b></li><li class="navelem"><a class="el" href="structMR_1_1AffineXf.html">AffineXf</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

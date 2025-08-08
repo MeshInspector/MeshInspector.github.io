@@ -14,12 +14,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -159,7 +153,7 @@ $(function(){initNavTree('MRColor_8h.html',''); initResizable(true); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="MRVector4_8h_source.html">MRCMesh/MRVector4.h</a>&gt;</code><br />
-<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
 <code>#include &lt;stdint.h&gt;</code><br />
@@ -182,100 +176,100 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a1f82a176047a9b9b59d3798af28e5493" id="r_a1f82a176047a9b9b59d3798af28e5493"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f82a176047a9b9b59d3798af28e5493">MR_Color_DefaultConstruct</a> (void)</td></tr>
+<tr class="memitem:a1f82a176047a9b9b59d3798af28e5493" id="r_a1f82a176047a9b9b59d3798af28e5493"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f82a176047a9b9b59d3798af28e5493">MR_Color_DefaultConstruct</a> (void)</td></tr>
 <tr class="memdesc:a1f82a176047a9b9b59d3798af28e5493"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an empty (default-constructed) instance.  <br /></td></tr>
 <tr class="separator:a1f82a176047a9b9b59d3798af28e5493"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6cb833bab82da01ea7bc2534cb9ce02" id="r_af6cb833bab82da01ea7bc2534cb9ce02"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6cb833bab82da01ea7bc2534cb9ce02">MR_Color_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="memitem:af6cb833bab82da01ea7bc2534cb9ce02" id="r_af6cb833bab82da01ea7bc2534cb9ce02"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6cb833bab82da01ea7bc2534cb9ce02">MR_Color_DefaultConstructArray</a> (size_t num_elems)</td></tr>
 <tr class="separator:af6cb833bab82da01ea7bc2534cb9ce02"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a221552db50796450f4e0e01ab89604fe" id="r_a221552db50796450f4e0e01ab89604fe"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a221552db50796450f4e0e01ab89604fe">MR_Color_Construct_1</a> (const <a class="el" href="MRBox_8h.html#a14f0f26a43ddb92c3fa3c2192008224c">MR_NoInit</a> *_1)</td></tr>
+<tr class="memitem:a221552db50796450f4e0e01ab89604fe" id="r_a221552db50796450f4e0e01ab89604fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a221552db50796450f4e0e01ab89604fe">MR_Color_Construct_1</a> (const <a class="el" href="MRBox_8h.html#a14f0f26a43ddb92c3fa3c2192008224c">MR_NoInit</a> *_1)</td></tr>
 <tr class="separator:a221552db50796450f4e0e01ab89604fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f8464963bfa711fd9cc94c219284456" id="r_a6f8464963bfa711fd9cc94c219284456"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f8464963bfa711fd9cc94c219284456">MR_Color_Construct_4_int32_t</a> (int32_t r, int32_t g, int32_t b, int32_t a)</td></tr>
+<tr class="memitem:a6f8464963bfa711fd9cc94c219284456" id="r_a6f8464963bfa711fd9cc94c219284456"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f8464963bfa711fd9cc94c219284456">MR_Color_Construct_4_int32_t</a> (int32_t r, int32_t g, int32_t b, int32_t a)</td></tr>
 <tr class="memdesc:a6f8464963bfa711fd9cc94c219284456"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1Color.html">MR::Color</a></code>.  <br /></td></tr>
 <tr class="separator:a6f8464963bfa711fd9cc94c219284456"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a55ae27f792073c50e25037e2b7a44174" id="r_a55ae27f792073c50e25037e2b7a44174"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a55ae27f792073c50e25037e2b7a44174">MR_Color_Construct_3_int32_t</a> (int32_t r, int32_t g, int32_t b)</td></tr>
+<tr class="memitem:a55ae27f792073c50e25037e2b7a44174" id="r_a55ae27f792073c50e25037e2b7a44174"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a55ae27f792073c50e25037e2b7a44174">MR_Color_Construct_3_int32_t</a> (int32_t r, int32_t g, int32_t b)</td></tr>
 <tr class="memdesc:a55ae27f792073c50e25037e2b7a44174"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1Color.html">MR::Color</a></code>.  <br /></td></tr>
 <tr class="separator:a55ae27f792073c50e25037e2b7a44174"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43bd95305a889d743298c6bbc201889e" id="r_a43bd95305a889d743298c6bbc201889e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43bd95305a889d743298c6bbc201889e">MR_Color_Construct_4_float</a> (float r, float g, float b, float a)</td></tr>
+<tr class="memitem:a43bd95305a889d743298c6bbc201889e" id="r_a43bd95305a889d743298c6bbc201889e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43bd95305a889d743298c6bbc201889e">MR_Color_Construct_4_float</a> (float r, float g, float b, float a)</td></tr>
 <tr class="memdesc:a43bd95305a889d743298c6bbc201889e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1Color.html">MR::Color</a></code>.  <br /></td></tr>
 <tr class="separator:a43bd95305a889d743298c6bbc201889e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add30f2c9ba9b4041b731fc091c5e8e45" id="r_add30f2c9ba9b4041b731fc091c5e8e45"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add30f2c9ba9b4041b731fc091c5e8e45">MR_Color_Construct_3_float</a> (float r, float g, float b)</td></tr>
+<tr class="memitem:add30f2c9ba9b4041b731fc091c5e8e45" id="r_add30f2c9ba9b4041b731fc091c5e8e45"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add30f2c9ba9b4041b731fc091c5e8e45">MR_Color_Construct_3_float</a> (float r, float g, float b)</td></tr>
 <tr class="memdesc:add30f2c9ba9b4041b731fc091c5e8e45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1Color.html">MR::Color</a></code>.  <br /></td></tr>
 <tr class="separator:add30f2c9ba9b4041b731fc091c5e8e45"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9feb7f26b798f0e060764b5310714429" id="r_a9feb7f26b798f0e060764b5310714429"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9feb7f26b798f0e060764b5310714429">MR_Color_Construct_int32_t</a> (const <a class="el" href="structMR__Vector4i.html">MR_Vector4i</a> *vec)</td></tr>
+<tr class="memitem:a9feb7f26b798f0e060764b5310714429" id="r_a9feb7f26b798f0e060764b5310714429"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9feb7f26b798f0e060764b5310714429">MR_Color_Construct_int32_t</a> (const <a class="el" href="structMR__Vector4i.html">MR_Vector4i</a> *vec)</td></tr>
 <tr class="separator:a9feb7f26b798f0e060764b5310714429"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af8abb3d4210ef9f96be532110a25db89" id="r_af8abb3d4210ef9f96be532110a25db89"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af8abb3d4210ef9f96be532110a25db89">MR_Color_Construct_float</a> (const <a class="el" href="structMR__Vector4f.html">MR_Vector4f</a> *vec)</td></tr>
+<tr class="memitem:af8abb3d4210ef9f96be532110a25db89" id="r_af8abb3d4210ef9f96be532110a25db89"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af8abb3d4210ef9f96be532110a25db89">MR_Color_Construct_float</a> (const <a class="el" href="structMR__Vector4f.html">MR_Vector4f</a> *vec)</td></tr>
 <tr class="separator:af8abb3d4210ef9f96be532110a25db89"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ef106230e42377718e5039685152b19" id="r_a9ef106230e42377718e5039685152b19"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector4i.html">MR_Vector4i</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ef106230e42377718e5039685152b19">MR_Color_ConvertTo_MR_Vector4i</a> (const <a class="el" href="structMR__Color.html">MR_Color</a> *_this)</td></tr>
+<tr class="memitem:a9ef106230e42377718e5039685152b19" id="r_a9ef106230e42377718e5039685152b19"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector4i.html">MR_Vector4i</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ef106230e42377718e5039685152b19">MR_Color_ConvertTo_MR_Vector4i</a> (const <a class="el" href="structMR__Color.html">MR_Color</a> *_this)</td></tr>
 <tr class="separator:a9ef106230e42377718e5039685152b19"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf074603b7588b71a26e64f72b9d22ae" id="r_adf074603b7588b71a26e64f72b9d22ae"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector4f.html">MR_Vector4f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf074603b7588b71a26e64f72b9d22ae">MR_Color_ConvertTo_MR_Vector4f</a> (const <a class="el" href="structMR__Color.html">MR_Color</a> *_this)</td></tr>
+<tr class="memitem:adf074603b7588b71a26e64f72b9d22ae" id="r_adf074603b7588b71a26e64f72b9d22ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector4f.html">MR_Vector4f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf074603b7588b71a26e64f72b9d22ae">MR_Color_ConvertTo_MR_Vector4f</a> (const <a class="el" href="structMR__Color.html">MR_Color</a> *_this)</td></tr>
 <tr class="separator:adf074603b7588b71a26e64f72b9d22ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf350435297abf77219c49f4c86d2391" id="r_acf350435297abf77219c49f4c86d2391"><td class="memItemLeft" align="right" valign="top">MRC_API uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf350435297abf77219c49f4c86d2391">MR_Color_getUInt32</a> (const <a class="el" href="structMR__Color.html">MR_Color</a> *_this)</td></tr>
+<tr class="memitem:acf350435297abf77219c49f4c86d2391" id="r_acf350435297abf77219c49f4c86d2391"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf350435297abf77219c49f4c86d2391">MR_Color_getUInt32</a> (const <a class="el" href="structMR__Color.html">MR_Color</a> *_this)</td></tr>
 <tr class="separator:acf350435297abf77219c49f4c86d2391"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab339ba2b0b12f9c3d2873e2f5b70f02b" id="r_ab339ba2b0b12f9c3d2873e2f5b70f02b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab339ba2b0b12f9c3d2873e2f5b70f02b">MR_Color_white</a> (void)</td></tr>
+<tr class="memitem:ab339ba2b0b12f9c3d2873e2f5b70f02b" id="r_ab339ba2b0b12f9c3d2873e2f5b70f02b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab339ba2b0b12f9c3d2873e2f5b70f02b">MR_Color_white</a> (void)</td></tr>
 <tr class="memdesc:ab339ba2b0b12f9c3d2873e2f5b70f02b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1Color.html">MR::Color</a></code> named <code>white</code>.  <br /></td></tr>
 <tr class="separator:ab339ba2b0b12f9c3d2873e2f5b70f02b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a180de96347535e58dc5f8c8684168fab" id="r_a180de96347535e58dc5f8c8684168fab"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a180de96347535e58dc5f8c8684168fab">MR_Color_black</a> (void)</td></tr>
+<tr class="memitem:a180de96347535e58dc5f8c8684168fab" id="r_a180de96347535e58dc5f8c8684168fab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a180de96347535e58dc5f8c8684168fab">MR_Color_black</a> (void)</td></tr>
 <tr class="memdesc:a180de96347535e58dc5f8c8684168fab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1Color.html">MR::Color</a></code> named <code>black</code>.  <br /></td></tr>
 <tr class="separator:a180de96347535e58dc5f8c8684168fab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c650360a2922da3a6c55d0f9dc22e42" id="r_a0c650360a2922da3a6c55d0f9dc22e42"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c650360a2922da3a6c55d0f9dc22e42">MR_Color_gray</a> (void)</td></tr>
+<tr class="memitem:a0c650360a2922da3a6c55d0f9dc22e42" id="r_a0c650360a2922da3a6c55d0f9dc22e42"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c650360a2922da3a6c55d0f9dc22e42">MR_Color_gray</a> (void)</td></tr>
 <tr class="memdesc:a0c650360a2922da3a6c55d0f9dc22e42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1Color.html">MR::Color</a></code> named <code>gray</code>.  <br /></td></tr>
 <tr class="separator:a0c650360a2922da3a6c55d0f9dc22e42"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a51da2cd85ff0320545d0d5333fdcd8ad" id="r_a51da2cd85ff0320545d0d5333fdcd8ad"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51da2cd85ff0320545d0d5333fdcd8ad">MR_Color_red</a> (void)</td></tr>
+<tr class="memitem:a51da2cd85ff0320545d0d5333fdcd8ad" id="r_a51da2cd85ff0320545d0d5333fdcd8ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51da2cd85ff0320545d0d5333fdcd8ad">MR_Color_red</a> (void)</td></tr>
 <tr class="memdesc:a51da2cd85ff0320545d0d5333fdcd8ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1Color.html">MR::Color</a></code> named <code>red</code>.  <br /></td></tr>
 <tr class="separator:a51da2cd85ff0320545d0d5333fdcd8ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35ce1565a6c985fd2c898bafe7bd8f2c" id="r_a35ce1565a6c985fd2c898bafe7bd8f2c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a35ce1565a6c985fd2c898bafe7bd8f2c">MR_Color_green</a> (void)</td></tr>
+<tr class="memitem:a35ce1565a6c985fd2c898bafe7bd8f2c" id="r_a35ce1565a6c985fd2c898bafe7bd8f2c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a35ce1565a6c985fd2c898bafe7bd8f2c">MR_Color_green</a> (void)</td></tr>
 <tr class="memdesc:a35ce1565a6c985fd2c898bafe7bd8f2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1Color.html">MR::Color</a></code> named <code>green</code>.  <br /></td></tr>
 <tr class="separator:a35ce1565a6c985fd2c898bafe7bd8f2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a12f79b2043de66bd4752685919499d1d" id="r_a12f79b2043de66bd4752685919499d1d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12f79b2043de66bd4752685919499d1d">MR_Color_blue</a> (void)</td></tr>
+<tr class="memitem:a12f79b2043de66bd4752685919499d1d" id="r_a12f79b2043de66bd4752685919499d1d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12f79b2043de66bd4752685919499d1d">MR_Color_blue</a> (void)</td></tr>
 <tr class="memdesc:a12f79b2043de66bd4752685919499d1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1Color.html">MR::Color</a></code> named <code>blue</code>.  <br /></td></tr>
 <tr class="separator:a12f79b2043de66bd4752685919499d1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4f89b246e704429f63f8fa2534114f2" id="r_ad4f89b246e704429f63f8fa2534114f2"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4f89b246e704429f63f8fa2534114f2">MR_Color_yellow</a> (void)</td></tr>
+<tr class="memitem:ad4f89b246e704429f63f8fa2534114f2" id="r_ad4f89b246e704429f63f8fa2534114f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4f89b246e704429f63f8fa2534114f2">MR_Color_yellow</a> (void)</td></tr>
 <tr class="memdesc:ad4f89b246e704429f63f8fa2534114f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1Color.html">MR::Color</a></code> named <code>yellow</code>.  <br /></td></tr>
 <tr class="separator:ad4f89b246e704429f63f8fa2534114f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc4c26f4eefd7b011a44b0276e174a62" id="r_abc4c26f4eefd7b011a44b0276e174a62"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc4c26f4eefd7b011a44b0276e174a62">MR_Color_brown</a> (void)</td></tr>
+<tr class="memitem:abc4c26f4eefd7b011a44b0276e174a62" id="r_abc4c26f4eefd7b011a44b0276e174a62"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc4c26f4eefd7b011a44b0276e174a62">MR_Color_brown</a> (void)</td></tr>
 <tr class="memdesc:abc4c26f4eefd7b011a44b0276e174a62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1Color.html">MR::Color</a></code> named <code>brown</code>.  <br /></td></tr>
 <tr class="separator:abc4c26f4eefd7b011a44b0276e174a62"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaecba41c4592fc7b068efbc53a7953b1" id="r_aaecba41c4592fc7b068efbc53a7953b1"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaecba41c4592fc7b068efbc53a7953b1">MR_Color_purple</a> (void)</td></tr>
+<tr class="memitem:aaecba41c4592fc7b068efbc53a7953b1" id="r_aaecba41c4592fc7b068efbc53a7953b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaecba41c4592fc7b068efbc53a7953b1">MR_Color_purple</a> (void)</td></tr>
 <tr class="memdesc:aaecba41c4592fc7b068efbc53a7953b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1Color.html">MR::Color</a></code> named <code>purple</code>.  <br /></td></tr>
 <tr class="separator:aaecba41c4592fc7b068efbc53a7953b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adeee9a8cba50150bc7adc6a4dce63291" id="r_adeee9a8cba50150bc7adc6a4dce63291"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adeee9a8cba50150bc7adc6a4dce63291">MR_Color_transparent</a> (void)</td></tr>
+<tr class="memitem:adeee9a8cba50150bc7adc6a4dce63291" id="r_adeee9a8cba50150bc7adc6a4dce63291"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adeee9a8cba50150bc7adc6a4dce63291">MR_Color_transparent</a> (void)</td></tr>
 <tr class="memdesc:adeee9a8cba50150bc7adc6a4dce63291"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1Color.html">MR::Color</a></code> named <code>transparent</code>.  <br /></td></tr>
 <tr class="separator:adeee9a8cba50150bc7adc6a4dce63291"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4b5979e9df4f1f3583442189560d0e0" id="r_ae4b5979e9df4f1f3583442189560d0e0"><td class="memItemLeft" align="right" valign="top">MRC_API uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4b5979e9df4f1f3583442189560d0e0">MR_Color_valToUint8_int32_t</a> (int32_t val)</td></tr>
+<tr class="memitem:ae4b5979e9df4f1f3583442189560d0e0" id="r_ae4b5979e9df4f1f3583442189560d0e0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4b5979e9df4f1f3583442189560d0e0">MR_Color_valToUint8_int32_t</a> (int32_t val)</td></tr>
 <tr class="memdesc:ae4b5979e9df4f1f3583442189560d0e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1Color.html">MR::Color</a></code> named <code>valToUint8&lt;int32_t&gt;</code>.  <br /></td></tr>
 <tr class="separator:ae4b5979e9df4f1f3583442189560d0e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c32bcaea05acf7047ede56ea015405d" id="r_a0c32bcaea05acf7047ede56ea015405d"><td class="memItemLeft" align="right" valign="top">MRC_API uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c32bcaea05acf7047ede56ea015405d">MR_Color_valToUint8_float</a> (float val)</td></tr>
+<tr class="memitem:a0c32bcaea05acf7047ede56ea015405d" id="r_a0c32bcaea05acf7047ede56ea015405d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c32bcaea05acf7047ede56ea015405d">MR_Color_valToUint8_float</a> (float val)</td></tr>
 <tr class="memdesc:a0c32bcaea05acf7047ede56ea015405d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1Color.html">MR::Color</a></code> named <code>valToUint8&lt;float&gt;</code>.  <br /></td></tr>
 <tr class="separator:a0c32bcaea05acf7047ede56ea015405d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a7f10b5da30b3da8fc3bb38a12efc91" id="r_a2a7f10b5da30b3da8fc3bb38a12efc91"><td class="memItemLeft" align="right" valign="top">MRC_API const uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a7f10b5da30b3da8fc3bb38a12efc91">MR_Color_index_const</a> (const <a class="el" href="structMR__Color.html">MR_Color</a> *_this, int32_t e)</td></tr>
+<tr class="memitem:a2a7f10b5da30b3da8fc3bb38a12efc91" id="r_a2a7f10b5da30b3da8fc3bb38a12efc91"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a7f10b5da30b3da8fc3bb38a12efc91">MR_Color_index_const</a> (const <a class="el" href="structMR__Color.html">MR_Color</a> *_this, int32_t e)</td></tr>
 <tr class="separator:a2a7f10b5da30b3da8fc3bb38a12efc91"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2b2eaed40cb7c9e6411cd6048969673" id="r_af2b2eaed40cb7c9e6411cd6048969673"><td class="memItemLeft" align="right" valign="top">MRC_API uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af2b2eaed40cb7c9e6411cd6048969673">MR_Color_index</a> (<a class="el" href="structMR__Color.html">MR_Color</a> *_this, int32_t e)</td></tr>
+<tr class="memitem:af2b2eaed40cb7c9e6411cd6048969673" id="r_af2b2eaed40cb7c9e6411cd6048969673"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af2b2eaed40cb7c9e6411cd6048969673">MR_Color_index</a> (<a class="el" href="structMR__Color.html">MR_Color</a> *_this, int32_t e)</td></tr>
 <tr class="separator:af2b2eaed40cb7c9e6411cd6048969673"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a09b683dd5087f2b9733375af18156d03" id="r_a09b683dd5087f2b9733375af18156d03"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09b683dd5087f2b9733375af18156d03">MR_Color_add_assign</a> (<a class="el" href="structMR__Color.html">MR_Color</a> *_this, const <a class="el" href="structMR__Color.html">MR_Color</a> *other)</td></tr>
+<tr class="memitem:a09b683dd5087f2b9733375af18156d03" id="r_a09b683dd5087f2b9733375af18156d03"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09b683dd5087f2b9733375af18156d03">MR_Color_add_assign</a> (<a class="el" href="structMR__Color.html">MR_Color</a> *_this, const <a class="el" href="structMR__Color.html">MR_Color</a> *other)</td></tr>
 <tr class="separator:a09b683dd5087f2b9733375af18156d03"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad999086ae71284c733381e291945d4e3" id="r_ad999086ae71284c733381e291945d4e3"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad999086ae71284c733381e291945d4e3">MR_Color_sub_assign</a> (<a class="el" href="structMR__Color.html">MR_Color</a> *_this, const <a class="el" href="structMR__Color.html">MR_Color</a> *other)</td></tr>
+<tr class="memitem:ad999086ae71284c733381e291945d4e3" id="r_ad999086ae71284c733381e291945d4e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad999086ae71284c733381e291945d4e3">MR_Color_sub_assign</a> (<a class="el" href="structMR__Color.html">MR_Color</a> *_this, const <a class="el" href="structMR__Color.html">MR_Color</a> *other)</td></tr>
 <tr class="separator:ad999086ae71284c733381e291945d4e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a52fefc63badbf4ff8f084e9a77d2d614" id="r_a52fefc63badbf4ff8f084e9a77d2d614"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52fefc63badbf4ff8f084e9a77d2d614">MR_Color_mul_assign</a> (<a class="el" href="structMR__Color.html">MR_Color</a> *_this, float m)</td></tr>
+<tr class="memitem:a52fefc63badbf4ff8f084e9a77d2d614" id="r_a52fefc63badbf4ff8f084e9a77d2d614"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52fefc63badbf4ff8f084e9a77d2d614">MR_Color_mul_assign</a> (<a class="el" href="structMR__Color.html">MR_Color</a> *_this, float m)</td></tr>
 <tr class="separator:a52fefc63badbf4ff8f084e9a77d2d614"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abfff30425ec07c996c57ae3d31adec85" id="r_abfff30425ec07c996c57ae3d31adec85"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abfff30425ec07c996c57ae3d31adec85">MR_Color_div_assign</a> (<a class="el" href="structMR__Color.html">MR_Color</a> *_this, float m)</td></tr>
+<tr class="memitem:abfff30425ec07c996c57ae3d31adec85" id="r_abfff30425ec07c996c57ae3d31adec85"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abfff30425ec07c996c57ae3d31adec85">MR_Color_div_assign</a> (<a class="el" href="structMR__Color.html">MR_Color</a> *_this, float m)</td></tr>
 <tr class="separator:abfff30425ec07c996c57ae3d31adec85"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d3627298f071cfaee654b5977089645" id="r_a7d3627298f071cfaee654b5977089645"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d3627298f071cfaee654b5977089645">MR_Color_scaledAlpha</a> (const <a class="el" href="structMR__Color.html">MR_Color</a> *_this, float m)</td></tr>
+<tr class="memitem:a7d3627298f071cfaee654b5977089645" id="r_a7d3627298f071cfaee654b5977089645"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d3627298f071cfaee654b5977089645">MR_Color_scaledAlpha</a> (const <a class="el" href="structMR__Color.html">MR_Color</a> *_this, float m)</td></tr>
 <tr class="separator:a7d3627298f071cfaee654b5977089645"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeaabef7358072522a188043eb3ade318" id="r_aeaabef7358072522a188043eb3ade318"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeaabef7358072522a188043eb3ade318">MR_equal_MR_Color</a> (const <a class="el" href="structMR__Color.html">MR_Color</a> *a, const <a class="el" href="structMR__Color.html">MR_Color</a> *b)</td></tr>
+<tr class="memitem:aeaabef7358072522a188043eb3ade318" id="r_aeaabef7358072522a188043eb3ade318"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeaabef7358072522a188043eb3ade318">MR_equal_MR_Color</a> (const <a class="el" href="structMR__Color.html">MR_Color</a> *a, const <a class="el" href="structMR__Color.html">MR_Color</a> *b)</td></tr>
 <tr class="separator:aeaabef7358072522a188043eb3ade318"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9de8af2d9a9b115fd91e5f0f70f791fe" id="r_a9de8af2d9a9b115fd91e5f0f70f791fe"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9de8af2d9a9b115fd91e5f0f70f791fe">MR_not_equal_MR_Color</a> (const <a class="el" href="structMR__Color.html">MR_Color</a> *a, const <a class="el" href="structMR__Color.html">MR_Color</a> *b)</td></tr>
+<tr class="memitem:a9de8af2d9a9b115fd91e5f0f70f791fe" id="r_a9de8af2d9a9b115fd91e5f0f70f791fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9de8af2d9a9b115fd91e5f0f70f791fe">MR_not_equal_MR_Color</a> (const <a class="el" href="structMR__Color.html">MR_Color</a> *a, const <a class="el" href="structMR__Color.html">MR_Color</a> *b)</td></tr>
 <tr class="separator:a9de8af2d9a9b115fd91e5f0f70f791fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0c5ede8e1e01d7d3e09c64342e269e3" id="r_ab0c5ede8e1e01d7d3e09c64342e269e3"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0c5ede8e1e01d7d3e09c64342e269e3">MR_add_MR_Color</a> (const <a class="el" href="structMR__Color.html">MR_Color</a> *a, const <a class="el" href="structMR__Color.html">MR_Color</a> *b)</td></tr>
+<tr class="memitem:ab0c5ede8e1e01d7d3e09c64342e269e3" id="r_ab0c5ede8e1e01d7d3e09c64342e269e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0c5ede8e1e01d7d3e09c64342e269e3">MR_add_MR_Color</a> (const <a class="el" href="structMR__Color.html">MR_Color</a> *a, const <a class="el" href="structMR__Color.html">MR_Color</a> *b)</td></tr>
 <tr class="separator:ab0c5ede8e1e01d7d3e09c64342e269e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a03c01b7a212eabecb4671ad0e9f5cd6c" id="r_a03c01b7a212eabecb4671ad0e9f5cd6c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03c01b7a212eabecb4671ad0e9f5cd6c">MR_sub_MR_Color</a> (const <a class="el" href="structMR__Color.html">MR_Color</a> *a, const <a class="el" href="structMR__Color.html">MR_Color</a> *b)</td></tr>
+<tr class="memitem:a03c01b7a212eabecb4671ad0e9f5cd6c" id="r_a03c01b7a212eabecb4671ad0e9f5cd6c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03c01b7a212eabecb4671ad0e9f5cd6c">MR_sub_MR_Color</a> (const <a class="el" href="structMR__Color.html">MR_Color</a> *a, const <a class="el" href="structMR__Color.html">MR_Color</a> *b)</td></tr>
 <tr class="separator:a03c01b7a212eabecb4671ad0e9f5cd6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c14b29f94c5b22c4765febe10c0887a" id="r_a0c14b29f94c5b22c4765febe10c0887a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c14b29f94c5b22c4765febe10c0887a">MR_mul_float_MR_Color</a> (float a, const <a class="el" href="structMR__Color.html">MR_Color</a> *b)</td></tr>
+<tr class="memitem:a0c14b29f94c5b22c4765febe10c0887a" id="r_a0c14b29f94c5b22c4765febe10c0887a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c14b29f94c5b22c4765febe10c0887a">MR_mul_float_MR_Color</a> (float a, const <a class="el" href="structMR__Color.html">MR_Color</a> *b)</td></tr>
 <tr class="separator:a0c14b29f94c5b22c4765febe10c0887a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad8c2b8223953ae3aee128f33c1db685f" id="r_ad8c2b8223953ae3aee128f33c1db685f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8c2b8223953ae3aee128f33c1db685f">MR_mul_MR_Color_float</a> (const <a class="el" href="structMR__Color.html">MR_Color</a> *b, float a)</td></tr>
+<tr class="memitem:ad8c2b8223953ae3aee128f33c1db685f" id="r_ad8c2b8223953ae3aee128f33c1db685f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8c2b8223953ae3aee128f33c1db685f">MR_mul_MR_Color_float</a> (const <a class="el" href="structMR__Color.html">MR_Color</a> *b, float a)</td></tr>
 <tr class="separator:ad8c2b8223953ae3aee128f33c1db685f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85fee9e6a73751a62f8c8ecfeaf8ae27" id="r_a85fee9e6a73751a62f8c8ecfeaf8ae27"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a85fee9e6a73751a62f8c8ecfeaf8ae27">MR_div_MR_Color_float</a> (const <a class="el" href="structMR__Color.html">MR_Color</a> *b, float a)</td></tr>
+<tr class="memitem:a85fee9e6a73751a62f8c8ecfeaf8ae27" id="r_a85fee9e6a73751a62f8c8ecfeaf8ae27"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a85fee9e6a73751a62f8c8ecfeaf8ae27">MR_div_MR_Color_float</a> (const <a class="el" href="structMR__Color.html">MR_Color</a> *b, float a)</td></tr>
 <tr class="separator:a85fee9e6a73751a62f8c8ecfeaf8ae27"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d6645320c5c7c4c9d86eb851a0e9791" id="r_a2d6645320c5c7c4c9d86eb851a0e9791"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d6645320c5c7c4c9d86eb851a0e9791">MR_blend</a> (const <a class="el" href="structMR__Color.html">MR_Color</a> *front, const <a class="el" href="structMR__Color.html">MR_Color</a> *back)</td></tr>
+<tr class="memitem:a2d6645320c5c7c4c9d86eb851a0e9791" id="r_a2d6645320c5c7c4c9d86eb851a0e9791"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d6645320c5c7c4c9d86eb851a0e9791">MR_blend</a> (const <a class="el" href="structMR__Color.html">MR_Color</a> *front, const <a class="el" href="structMR__Color.html">MR_Color</a> *back)</td></tr>
 <tr class="separator:a2d6645320c5c7c4c9d86eb851a0e9791"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -317,7 +311,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a> MR_add_MR_Color </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a> MR_add_MR_Color </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR__Color.html">MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
@@ -339,7 +333,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a> MR_blend </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a> MR_blend </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR__Color.html">MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>front</em></span>, </td>
         </tr>
@@ -361,7 +355,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a> * MR_Color_add_assign </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a> * MR_Color_add_assign </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structMR__Color.html">MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -383,7 +377,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a> MR_Color_black </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a> MR_Color_black </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -402,7 +396,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a> MR_Color_blue </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a> MR_Color_blue </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -421,7 +415,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a> MR_Color_brown </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a> MR_Color_brown </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -440,7 +434,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a> MR_Color_Construct_1 </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a> MR_Color_Construct_1 </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRBox_8h.html#a14f0f26a43ddb92c3fa3c2192008224c">MR_NoInit</a> *</td>          <td class="paramname"><span class="paramname"><em>_1</em></span></td><td>)</td>
           <td></td>
@@ -458,7 +452,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a> MR_Color_Construct_3_float </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a> MR_Color_Construct_3_float </td>
           <td>(</td>
           <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>r</em></span>, </td>
         </tr>
@@ -486,7 +480,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a> MR_Color_Construct_3_int32_t </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a> MR_Color_Construct_3_int32_t </td>
           <td>(</td>
           <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>r</em></span>, </td>
         </tr>
@@ -514,7 +508,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a> MR_Color_Construct_4_float </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a> MR_Color_Construct_4_float </td>
           <td>(</td>
           <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>r</em></span>, </td>
         </tr>
@@ -547,7 +541,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a> MR_Color_Construct_4_int32_t </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a> MR_Color_Construct_4_int32_t </td>
           <td>(</td>
           <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>r</em></span>, </td>
         </tr>
@@ -580,7 +574,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a> MR_Color_Construct_float </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a> MR_Color_Construct_float </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR__Vector4f.html">MR_Vector4f</a> *</td>          <td class="paramname"><span class="paramname"><em>vec</em></span></td><td>)</td>
           <td></td>
@@ -598,7 +592,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a> MR_Color_Construct_int32_t </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a> MR_Color_Construct_int32_t </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR__Vector4i.html">MR_Vector4i</a> *</td>          <td class="paramname"><span class="paramname"><em>vec</em></span></td><td>)</td>
           <td></td>
@@ -616,7 +610,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="structMR__Vector4f.html">MR_Vector4f</a> MR_Color_ConvertTo_MR_Vector4f </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector4f.html">MR_Vector4f</a> MR_Color_ConvertTo_MR_Vector4f </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR__Color.html">MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -634,7 +628,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="structMR__Vector4i.html">MR_Vector4i</a> MR_Color_ConvertTo_MR_Vector4i </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector4i.html">MR_Vector4i</a> MR_Color_ConvertTo_MR_Vector4i </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR__Color.html">MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -652,7 +646,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a> MR_Color_DefaultConstruct </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a> MR_Color_DefaultConstruct </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -671,7 +665,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a> * MR_Color_DefaultConstructArray </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a> * MR_Color_DefaultConstructArray </td>
           <td>(</td>
           <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
           <td></td>
@@ -689,7 +683,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a> * MR_Color_div_assign </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a> * MR_Color_div_assign </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structMR__Color.html">MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -711,7 +705,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API uint32_t MR_Color_getUInt32 </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> uint32_t MR_Color_getUInt32 </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR__Color.html">MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -729,7 +723,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a> MR_Color_gray </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a> MR_Color_gray </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -748,7 +742,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a> MR_Color_green </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a> MR_Color_green </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -767,7 +761,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API uint8_t * MR_Color_index </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> uint8_t * MR_Color_index </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structMR__Color.html">MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -789,7 +783,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const uint8_t * MR_Color_index_const </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const uint8_t * MR_Color_index_const </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR__Color.html">MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -811,7 +805,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a> * MR_Color_mul_assign </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a> * MR_Color_mul_assign </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structMR__Color.html">MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -833,7 +827,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a> MR_Color_purple </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a> MR_Color_purple </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -852,7 +846,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a> MR_Color_red </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a> MR_Color_red </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -871,7 +865,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a> MR_Color_scaledAlpha </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a> MR_Color_scaledAlpha </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR__Color.html">MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -893,7 +887,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a> * MR_Color_sub_assign </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a> * MR_Color_sub_assign </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structMR__Color.html">MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -915,7 +909,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a> MR_Color_transparent </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a> MR_Color_transparent </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -934,7 +928,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API uint8_t MR_Color_valToUint8_float </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> uint8_t MR_Color_valToUint8_float </td>
           <td>(</td>
           <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>val</em></span></td><td>)</td>
           <td></td>
@@ -953,7 +947,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API uint8_t MR_Color_valToUint8_int32_t </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> uint8_t MR_Color_valToUint8_int32_t </td>
           <td>(</td>
           <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>val</em></span></td><td>)</td>
           <td></td>
@@ -972,7 +966,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a> MR_Color_white </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a> MR_Color_white </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -991,7 +985,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a> MR_Color_yellow </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a> MR_Color_yellow </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -1010,7 +1004,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a> MR_div_MR_Color_float </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a> MR_div_MR_Color_float </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR__Color.html">MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
         </tr>
@@ -1032,7 +1026,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API bool MR_equal_MR_Color </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_equal_MR_Color </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR__Color.html">MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
@@ -1054,7 +1048,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a> MR_mul_float_MR_Color </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a> MR_mul_float_MR_Color </td>
           <td>(</td>
           <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
@@ -1076,7 +1070,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a> MR_mul_MR_Color_float </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a> MR_mul_MR_Color_float </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR__Color.html">MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
         </tr>
@@ -1098,7 +1092,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API bool MR_not_equal_MR_Color </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_not_equal_MR_Color </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR__Color.html">MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
@@ -1120,7 +1114,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="structMR__Color.html">MR_Color</a> MR_sub_MR_Color </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Color.html">MR_Color</a> MR_sub_MR_Color </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR__Color.html">MR_Color</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>

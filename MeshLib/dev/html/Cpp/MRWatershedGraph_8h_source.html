@@ -14,12 +14,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -160,7 +154,7 @@ $(function(){initNavTree('MRWatershedGraph_8h_source.html',''); initResizable(tr
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;cassert&gt;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;cfloat&gt;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">namespace </span><a class="code hl_namespaceRef" href="../namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>{</div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
 <div class="foldopen" id="foldopen00011" data-start="{" data-end="};">
@@ -330,7 +324,7 @@ $(function(){initNavTree('MRWatershedGraph_8h_source.html',''); initResizable(tr
 <div class="ttc" id="aclassMR_1_1WatershedGraph_html_ae6bda4b2c59aa5d9d7dad25244ecc7cd"><div class="ttname"><a href="classMR_1_1WatershedGraph.html#ae6bda4b2c59aa5d9d7dad25244ecc7cd">MR::WatershedGraph::getAllBasinFaces</a></div><div class="ttdeci">MRMESH_API Vector&lt; FaceBitSet, Graph::VertId &gt; getAllBasinFaces(bool joinOverflowBasins=false) const</div></div>
 <div class="ttc" id="aclassMR_1_1WatershedGraph_html_ae7ff9c7e88d770363e0d26f7e60e0db4"><div class="ttname"><a href="classMR_1_1WatershedGraph.html#ae7ff9c7e88d770363e0d26f7e60e0db4">MR::WatershedGraph::getRootBasin</a></div><div class="ttdeci">MRMESH_API Graph::VertId getRootBasin(Graph::VertId v) const</div><div class="ttdoc">for valid basin returns self id; for invalid basin returns the id of basin it was merged in</div></div>
 <div class="ttc" id="aclassMR_1_1WatershedGraph_html_aef299dd01113f7319f2969d20c2115a5"><div class="ttname"><a href="classMR_1_1WatershedGraph.html#aef299dd01113f7319f2969d20c2115a5">MR::WatershedGraph::getHeightAt</a></div><div class="ttdeci">MRMESH_API float getHeightAt(VertId v) const</div><div class="ttdoc">returns height at given vertex or FLT_MAX if the vertex is invalid</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="../namespaceMR.html">MR</a></div></div>
 <div class="ttc" id="astructMR_1_1Mesh_html"><div class="ttname"><a href="structMR_1_1Mesh.html">MR::Mesh</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRMesh.h:23</div></div>
 <div class="ttc" id="astructMR_1_1WatershedGraph_1_1BasinInfo_html"><div class="ttname"><a href="structMR_1_1WatershedGraph_1_1BasinInfo.html">MR::WatershedGraph::BasinInfo</a></div><div class="ttdoc">associated with each vertex in graph</div><div class="ttdef"><b>Definition</b> MRWatershedGraph.h:16</div></div>
 <div class="ttc" id="astructMR_1_1WatershedGraph_1_1BasinInfo_html_a01068990cefec48cd1195061d70f5b9a"><div class="ttname"><a href="structMR_1_1WatershedGraph_1_1BasinInfo.html#a01068990cefec48cd1195061d70f5b9a">MR::WatershedGraph::BasinInfo::lowestBdLevel</a></div><div class="ttdeci">float lowestBdLevel</div><div class="ttdoc">lowest position on the boundary of the basin</div><div class="ttdef"><b>Definition</b> MRWatershedGraph.h:20</div></div>

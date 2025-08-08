@@ -14,12 +14,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -157,7 +151,7 @@ $(function(){initNavTree('MRPointsInBall_8h.html',''); initResizable(true); });
   <div class="headertitle"><div class="title">MRPointsInBall.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 </div>
 <p><a href="MRPointsInBall_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -178,11 +172,11 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a9b76502bb765116bf11dab1c64dc671d" id="r_a9b76502bb765116bf11dab1c64dc671d"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b76502bb765116bf11dab1c64dc671d">MR_findPointsInBall_MR_PointCloud</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *pointCloud, const <a class="el" href="MRBall_8h.html#a7cb056b4e1f70f86be4b0196968a0a98">MR_Ball3f</a> *ball, const <a class="el" href="#abcc37ba85e761dfb3c7641155f0ae7ab">MR_std_function_MR_Processing_from_const_MR_PointsProjectionResult_ref_const_MR_Vector3f_ref_MR_Ball3f_ref</a> *foundCallback, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *xf)</td></tr>
+<tr class="memitem:a9b76502bb765116bf11dab1c64dc671d" id="r_a9b76502bb765116bf11dab1c64dc671d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b76502bb765116bf11dab1c64dc671d">MR_findPointsInBall_MR_PointCloud</a> (const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *pointCloud, const <a class="el" href="MRBall_8h.html#a7cb056b4e1f70f86be4b0196968a0a98">MR_Ball3f</a> *ball, const <a class="el" href="#abcc37ba85e761dfb3c7641155f0ae7ab">MR_std_function_MR_Processing_from_const_MR_PointsProjectionResult_ref_const_MR_Vector3f_ref_MR_Ball3f_ref</a> *foundCallback, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *xf)</td></tr>
 <tr class="separator:a9b76502bb765116bf11dab1c64dc671d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a756193bd20686e65e8e87597a53b5063" id="r_a756193bd20686e65e8e87597a53b5063"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a756193bd20686e65e8e87597a53b5063">MR_findPointsInBall_MR_Mesh</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRBall_8h.html#a7cb056b4e1f70f86be4b0196968a0a98">MR_Ball3f</a> *ball, const <a class="el" href="#abcc37ba85e761dfb3c7641155f0ae7ab">MR_std_function_MR_Processing_from_const_MR_PointsProjectionResult_ref_const_MR_Vector3f_ref_MR_Ball3f_ref</a> *foundCallback, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *xf)</td></tr>
+<tr class="memitem:a756193bd20686e65e8e87597a53b5063" id="r_a756193bd20686e65e8e87597a53b5063"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a756193bd20686e65e8e87597a53b5063">MR_findPointsInBall_MR_Mesh</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRBall_8h.html#a7cb056b4e1f70f86be4b0196968a0a98">MR_Ball3f</a> *ball, const <a class="el" href="#abcc37ba85e761dfb3c7641155f0ae7ab">MR_std_function_MR_Processing_from_const_MR_PointsProjectionResult_ref_const_MR_Vector3f_ref_MR_Ball3f_ref</a> *foundCallback, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *xf)</td></tr>
 <tr class="separator:a756193bd20686e65e8e87597a53b5063"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad17d0a4282ef4a0f42fa6c1827a44dc" id="r_aad17d0a4282ef4a0f42fa6c1827a44dc"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad17d0a4282ef4a0f42fa6c1827a44dc">MR_findPointsInBall_MR_AABBTreePoints</a> (const <a class="el" href="MRAABBTreePoints_8h.html#aaa96ed5b79deaa81e7e5e848584a7b6a">MR_AABBTreePoints</a> *tree, const <a class="el" href="MRBall_8h.html#a7cb056b4e1f70f86be4b0196968a0a98">MR_Ball3f</a> *ball, const <a class="el" href="#abcc37ba85e761dfb3c7641155f0ae7ab">MR_std_function_MR_Processing_from_const_MR_PointsProjectionResult_ref_const_MR_Vector3f_ref_MR_Ball3f_ref</a> *foundCallback, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *xf)</td></tr>
+<tr class="memitem:aad17d0a4282ef4a0f42fa6c1827a44dc" id="r_aad17d0a4282ef4a0f42fa6c1827a44dc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad17d0a4282ef4a0f42fa6c1827a44dc">MR_findPointsInBall_MR_AABBTreePoints</a> (const <a class="el" href="MRAABBTreePoints_8h.html#aaa96ed5b79deaa81e7e5e848584a7b6a">MR_AABBTreePoints</a> *tree, const <a class="el" href="MRBall_8h.html#a7cb056b4e1f70f86be4b0196968a0a98">MR_Ball3f</a> *ball, const <a class="el" href="#abcc37ba85e761dfb3c7641155f0ae7ab">MR_std_function_MR_Processing_from_const_MR_PointsProjectionResult_ref_const_MR_Vector3f_ref_MR_Ball3f_ref</a> *foundCallback, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *xf)</td></tr>
 <tr class="separator:aad17d0a4282ef4a0f42fa6c1827a44dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -278,7 +272,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_findPointsInBall_MR_AABBTreePoints </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_findPointsInBall_MR_AABBTreePoints </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRAABBTreePoints_8h.html#aaa96ed5b79deaa81e7e5e848584a7b6a">MR_AABBTreePoints</a> *</td>          <td class="paramname"><span class="paramname"><em>tree</em></span>, </td>
         </tr>
@@ -315,7 +309,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_findPointsInBall_MR_Mesh </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_findPointsInBall_MR_Mesh </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
@@ -352,7 +346,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_findPointsInBall_MR_PointCloud </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_findPointsInBall_MR_PointCloud </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCtm_8h.html#aa319738c95f0bbde075b7ef777cf2665">MR_PointCloud</a> *</td>          <td class="paramname"><span class="paramname"><em>pointCloud</em></span>, </td>
         </tr>

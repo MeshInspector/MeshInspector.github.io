@@ -14,12 +14,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -159,7 +153,7 @@ $(function(){initNavTree('MROffsetContours_8h.html',''); initResizable(true); })
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
-<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
 <code>#include &lt;stdint.h&gt;</code><br />
@@ -216,203 +210,203 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a457d9080e6c5ff3b7d7259ae67d3deff" id="r_a457d9080e6c5ff3b7d7259ae67d3deff"><td class="memItemLeft" align="right" valign="top">MRC_API const int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a457d9080e6c5ff3b7d7259ae67d3deff">MR_OffsetContourIndex_Get_contourId</a> (const <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *_this)</td></tr>
+<tr class="memitem:a457d9080e6c5ff3b7d7259ae67d3deff" id="r_a457d9080e6c5ff3b7d7259ae67d3deff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a457d9080e6c5ff3b7d7259ae67d3deff">MR_OffsetContourIndex_Get_contourId</a> (const <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *_this)</td></tr>
 <tr class="separator:a457d9080e6c5ff3b7d7259ae67d3deff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ecad54d1177ac4e3b6d713da8088f0b" id="r_a4ecad54d1177ac4e3b6d713da8088f0b"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ecad54d1177ac4e3b6d713da8088f0b">MR_OffsetContourIndex_Set_contourId</a> (<a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *_this, int32_t value)</td></tr>
+<tr class="memitem:a4ecad54d1177ac4e3b6d713da8088f0b" id="r_a4ecad54d1177ac4e3b6d713da8088f0b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ecad54d1177ac4e3b6d713da8088f0b">MR_OffsetContourIndex_Set_contourId</a> (<a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *_this, int32_t value)</td></tr>
 <tr class="separator:a4ecad54d1177ac4e3b6d713da8088f0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a51d5146728ae9b7be413b1390fe69d2a" id="r_a51d5146728ae9b7be413b1390fe69d2a"><td class="memItemLeft" align="right" valign="top">MRC_API int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51d5146728ae9b7be413b1390fe69d2a">MR_OffsetContourIndex_GetMutable_contourId</a> (<a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *_this)</td></tr>
+<tr class="memitem:a51d5146728ae9b7be413b1390fe69d2a" id="r_a51d5146728ae9b7be413b1390fe69d2a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51d5146728ae9b7be413b1390fe69d2a">MR_OffsetContourIndex_GetMutable_contourId</a> (<a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *_this)</td></tr>
 <tr class="separator:a51d5146728ae9b7be413b1390fe69d2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a268ac1cc9461b3613be619b9e0bb5eb1" id="r_a268ac1cc9461b3613be619b9e0bb5eb1"><td class="memItemLeft" align="right" valign="top">MRC_API const int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a268ac1cc9461b3613be619b9e0bb5eb1">MR_OffsetContourIndex_Get_vertId</a> (const <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *_this)</td></tr>
+<tr class="memitem:a268ac1cc9461b3613be619b9e0bb5eb1" id="r_a268ac1cc9461b3613be619b9e0bb5eb1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a268ac1cc9461b3613be619b9e0bb5eb1">MR_OffsetContourIndex_Get_vertId</a> (const <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *_this)</td></tr>
 <tr class="separator:a268ac1cc9461b3613be619b9e0bb5eb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c3393800ff62316e55b33a4d1283732" id="r_a7c3393800ff62316e55b33a4d1283732"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c3393800ff62316e55b33a4d1283732">MR_OffsetContourIndex_Set_vertId</a> (<a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *_this, int32_t value)</td></tr>
+<tr class="memitem:a7c3393800ff62316e55b33a4d1283732" id="r_a7c3393800ff62316e55b33a4d1283732"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c3393800ff62316e55b33a4d1283732">MR_OffsetContourIndex_Set_vertId</a> (<a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *_this, int32_t value)</td></tr>
 <tr class="separator:a7c3393800ff62316e55b33a4d1283732"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae53415cc3a0d30516981612669a28aac" id="r_ae53415cc3a0d30516981612669a28aac"><td class="memItemLeft" align="right" valign="top">MRC_API int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae53415cc3a0d30516981612669a28aac">MR_OffsetContourIndex_GetMutable_vertId</a> (<a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *_this)</td></tr>
+<tr class="memitem:ae53415cc3a0d30516981612669a28aac" id="r_ae53415cc3a0d30516981612669a28aac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae53415cc3a0d30516981612669a28aac">MR_OffsetContourIndex_GetMutable_vertId</a> (<a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *_this)</td></tr>
 <tr class="separator:ae53415cc3a0d30516981612669a28aac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae288a0be1d5b254459afcbfe9615fbd4" id="r_ae288a0be1d5b254459afcbfe9615fbd4"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae288a0be1d5b254459afcbfe9615fbd4">MR_OffsetContourIndex_DefaultConstruct</a> (void)</td></tr>
+<tr class="memitem:ae288a0be1d5b254459afcbfe9615fbd4" id="r_ae288a0be1d5b254459afcbfe9615fbd4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae288a0be1d5b254459afcbfe9615fbd4">MR_OffsetContourIndex_DefaultConstruct</a> (void)</td></tr>
 <tr class="separator:ae288a0be1d5b254459afcbfe9615fbd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a426a97c35aa23afde992c72b04217947" id="r_a426a97c35aa23afde992c72b04217947"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a426a97c35aa23afde992c72b04217947">MR_OffsetContourIndex_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="memitem:a426a97c35aa23afde992c72b04217947" id="r_a426a97c35aa23afde992c72b04217947"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a426a97c35aa23afde992c72b04217947">MR_OffsetContourIndex_DefaultConstructArray</a> (size_t num_elems)</td></tr>
 <tr class="separator:a426a97c35aa23afde992c72b04217947"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b0f1c61ca6f302209dcb31238c4b791" id="r_a4b0f1c61ca6f302209dcb31238c4b791"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b0f1c61ca6f302209dcb31238c4b791">MR_OffsetContourIndex_ConstructFrom</a> (int32_t contourId, int32_t vertId)</td></tr>
+<tr class="memitem:a4b0f1c61ca6f302209dcb31238c4b791" id="r_a4b0f1c61ca6f302209dcb31238c4b791"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b0f1c61ca6f302209dcb31238c4b791">MR_OffsetContourIndex_ConstructFrom</a> (int32_t contourId, int32_t vertId)</td></tr>
 <tr class="separator:a4b0f1c61ca6f302209dcb31238c4b791"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa423b7a440dccba010dd05858246f205" id="r_aa423b7a440dccba010dd05858246f205"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa423b7a440dccba010dd05858246f205">MR_OffsetContourIndex_OffsetPtr</a> (const <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:aa423b7a440dccba010dd05858246f205" id="r_aa423b7a440dccba010dd05858246f205"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa423b7a440dccba010dd05858246f205">MR_OffsetContourIndex_OffsetPtr</a> (const <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:aa423b7a440dccba010dd05858246f205"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:aa423b7a440dccba010dd05858246f205"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5b3937282f4876ccdd89d2762fe531d" id="r_af5b3937282f4876ccdd89d2762fe531d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af5b3937282f4876ccdd89d2762fe531d">MR_OffsetContourIndex_OffsetMutablePtr</a> (<a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:af5b3937282f4876ccdd89d2762fe531d" id="r_af5b3937282f4876ccdd89d2762fe531d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af5b3937282f4876ccdd89d2762fe531d">MR_OffsetContourIndex_OffsetMutablePtr</a> (<a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:af5b3937282f4876ccdd89d2762fe531d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:af5b3937282f4876ccdd89d2762fe531d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c8b4993a2c5b1a9940203a4e51519c4" id="r_a5c8b4993a2c5b1a9940203a4e51519c4"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c8b4993a2c5b1a9940203a4e51519c4">MR_OffsetContourIndex_ConstructFromAnother</a> (const <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *_other)</td></tr>
+<tr class="memitem:a5c8b4993a2c5b1a9940203a4e51519c4" id="r_a5c8b4993a2c5b1a9940203a4e51519c4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c8b4993a2c5b1a9940203a4e51519c4">MR_OffsetContourIndex_ConstructFromAnother</a> (const <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *_other)</td></tr>
 <tr class="separator:a5c8b4993a2c5b1a9940203a4e51519c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e9a36c4ec6670e7f43b0cd986e86033" id="r_a5e9a36c4ec6670e7f43b0cd986e86033"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e9a36c4ec6670e7f43b0cd986e86033">MR_OffsetContourIndex_Destroy</a> (const <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *_this)</td></tr>
+<tr class="memitem:a5e9a36c4ec6670e7f43b0cd986e86033" id="r_a5e9a36c4ec6670e7f43b0cd986e86033"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e9a36c4ec6670e7f43b0cd986e86033">MR_OffsetContourIndex_Destroy</a> (const <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *_this)</td></tr>
 <tr class="memdesc:a5e9a36c4ec6670e7f43b0cd986e86033"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_OffsetContourIndex</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:a5e9a36c4ec6670e7f43b0cd986e86033"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acbd3eab2a2998ce8e89582f6761c17f3" id="r_acbd3eab2a2998ce8e89582f6761c17f3"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acbd3eab2a2998ce8e89582f6761c17f3">MR_OffsetContourIndex_DestroyArray</a> (const <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *_this)</td></tr>
+<tr class="memitem:acbd3eab2a2998ce8e89582f6761c17f3" id="r_acbd3eab2a2998ce8e89582f6761c17f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acbd3eab2a2998ce8e89582f6761c17f3">MR_OffsetContourIndex_DestroyArray</a> (const <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *_this)</td></tr>
 <tr class="memdesc:acbd3eab2a2998ce8e89582f6761c17f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_OffsetContourIndex</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:acbd3eab2a2998ce8e89582f6761c17f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe7ac9ef84bfa5e8c765a1c1ab11e061" id="r_afe7ac9ef84bfa5e8c765a1c1ab11e061"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe7ac9ef84bfa5e8c765a1c1ab11e061">MR_OffsetContourIndex_AssignFromAnother</a> (<a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *_this, const <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *_other)</td></tr>
+<tr class="memitem:afe7ac9ef84bfa5e8c765a1c1ab11e061" id="r_afe7ac9ef84bfa5e8c765a1c1ab11e061"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe7ac9ef84bfa5e8c765a1c1ab11e061">MR_OffsetContourIndex_AssignFromAnother</a> (<a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *_this, const <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *_other)</td></tr>
 <tr class="separator:afe7ac9ef84bfa5e8c765a1c1ab11e061"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a54abd2b5dd4ea3b5128835ec7fd9b89a" id="r_a54abd2b5dd4ea3b5128835ec7fd9b89a"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a54abd2b5dd4ea3b5128835ec7fd9b89a">MR_OffsetContourIndex_valid</a> (const <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *_this)</td></tr>
+<tr class="memitem:a54abd2b5dd4ea3b5128835ec7fd9b89a" id="r_a54abd2b5dd4ea3b5128835ec7fd9b89a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a54abd2b5dd4ea3b5128835ec7fd9b89a">MR_OffsetContourIndex_valid</a> (const <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *_this)</td></tr>
 <tr class="separator:a54abd2b5dd4ea3b5128835ec7fd9b89a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c99f2de7d7d5dca6463f2621e08433e" id="r_a0c99f2de7d7d5dca6463f2621e08433e"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c99f2de7d7d5dca6463f2621e08433e">MR_OffsetContoursOrigins_Get_lOrg</a> (const <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *_this)</td></tr>
+<tr class="memitem:a0c99f2de7d7d5dca6463f2621e08433e" id="r_a0c99f2de7d7d5dca6463f2621e08433e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c99f2de7d7d5dca6463f2621e08433e">MR_OffsetContoursOrigins_Get_lOrg</a> (const <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *_this)</td></tr>
 <tr class="separator:a0c99f2de7d7d5dca6463f2621e08433e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1d37342f7423afeba2176d5cc84be4f2" id="r_a1d37342f7423afeba2176d5cc84be4f2"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d37342f7423afeba2176d5cc84be4f2">MR_OffsetContoursOrigins_Set_lOrg</a> (<a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *_this, const <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *value)</td></tr>
+<tr class="memitem:a1d37342f7423afeba2176d5cc84be4f2" id="r_a1d37342f7423afeba2176d5cc84be4f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d37342f7423afeba2176d5cc84be4f2">MR_OffsetContoursOrigins_Set_lOrg</a> (<a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *_this, const <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *value)</td></tr>
 <tr class="separator:a1d37342f7423afeba2176d5cc84be4f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aac4057654d41c8f716106fd0f1866c19" id="r_aac4057654d41c8f716106fd0f1866c19"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac4057654d41c8f716106fd0f1866c19">MR_OffsetContoursOrigins_GetMutable_lOrg</a> (<a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *_this)</td></tr>
+<tr class="memitem:aac4057654d41c8f716106fd0f1866c19" id="r_aac4057654d41c8f716106fd0f1866c19"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac4057654d41c8f716106fd0f1866c19">MR_OffsetContoursOrigins_GetMutable_lOrg</a> (<a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *_this)</td></tr>
 <tr class="separator:aac4057654d41c8f716106fd0f1866c19"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab10a5da4b3b45a8927daf8e320269dc" id="r_aab10a5da4b3b45a8927daf8e320269dc"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab10a5da4b3b45a8927daf8e320269dc">MR_OffsetContoursOrigins_Get_lDest</a> (const <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *_this)</td></tr>
+<tr class="memitem:aab10a5da4b3b45a8927daf8e320269dc" id="r_aab10a5da4b3b45a8927daf8e320269dc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab10a5da4b3b45a8927daf8e320269dc">MR_OffsetContoursOrigins_Get_lDest</a> (const <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *_this)</td></tr>
 <tr class="separator:aab10a5da4b3b45a8927daf8e320269dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a621de154692a9775207493b632740c57" id="r_a621de154692a9775207493b632740c57"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a621de154692a9775207493b632740c57">MR_OffsetContoursOrigins_Set_lDest</a> (<a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *_this, const <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *value)</td></tr>
+<tr class="memitem:a621de154692a9775207493b632740c57" id="r_a621de154692a9775207493b632740c57"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a621de154692a9775207493b632740c57">MR_OffsetContoursOrigins_Set_lDest</a> (<a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *_this, const <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *value)</td></tr>
 <tr class="separator:a621de154692a9775207493b632740c57"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9046f06e82a359134e4c01591f3ab7c8" id="r_a9046f06e82a359134e4c01591f3ab7c8"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9046f06e82a359134e4c01591f3ab7c8">MR_OffsetContoursOrigins_GetMutable_lDest</a> (<a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *_this)</td></tr>
+<tr class="memitem:a9046f06e82a359134e4c01591f3ab7c8" id="r_a9046f06e82a359134e4c01591f3ab7c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9046f06e82a359134e4c01591f3ab7c8">MR_OffsetContoursOrigins_GetMutable_lDest</a> (<a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *_this)</td></tr>
 <tr class="separator:a9046f06e82a359134e4c01591f3ab7c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa81d9ae78c514e11c5a6785f95ef3de2" id="r_aa81d9ae78c514e11c5a6785f95ef3de2"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa81d9ae78c514e11c5a6785f95ef3de2">MR_OffsetContoursOrigins_Get_uOrg</a> (const <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *_this)</td></tr>
+<tr class="memitem:aa81d9ae78c514e11c5a6785f95ef3de2" id="r_aa81d9ae78c514e11c5a6785f95ef3de2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa81d9ae78c514e11c5a6785f95ef3de2">MR_OffsetContoursOrigins_Get_uOrg</a> (const <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *_this)</td></tr>
 <tr class="separator:aa81d9ae78c514e11c5a6785f95ef3de2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7832693fbea9437c135161db4d5f50ae" id="r_a7832693fbea9437c135161db4d5f50ae"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7832693fbea9437c135161db4d5f50ae">MR_OffsetContoursOrigins_Set_uOrg</a> (<a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *_this, const <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *value)</td></tr>
+<tr class="memitem:a7832693fbea9437c135161db4d5f50ae" id="r_a7832693fbea9437c135161db4d5f50ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7832693fbea9437c135161db4d5f50ae">MR_OffsetContoursOrigins_Set_uOrg</a> (<a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *_this, const <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *value)</td></tr>
 <tr class="separator:a7832693fbea9437c135161db4d5f50ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac95ab465902aca85e1c84337779fe96b" id="r_ac95ab465902aca85e1c84337779fe96b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac95ab465902aca85e1c84337779fe96b">MR_OffsetContoursOrigins_GetMutable_uOrg</a> (<a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *_this)</td></tr>
+<tr class="memitem:ac95ab465902aca85e1c84337779fe96b" id="r_ac95ab465902aca85e1c84337779fe96b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac95ab465902aca85e1c84337779fe96b">MR_OffsetContoursOrigins_GetMutable_uOrg</a> (<a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *_this)</td></tr>
 <tr class="separator:ac95ab465902aca85e1c84337779fe96b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a08612ab1a7833d7a508ad5509359d0ca" id="r_a08612ab1a7833d7a508ad5509359d0ca"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08612ab1a7833d7a508ad5509359d0ca">MR_OffsetContoursOrigins_Get_uDest</a> (const <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *_this)</td></tr>
+<tr class="memitem:a08612ab1a7833d7a508ad5509359d0ca" id="r_a08612ab1a7833d7a508ad5509359d0ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08612ab1a7833d7a508ad5509359d0ca">MR_OffsetContoursOrigins_Get_uDest</a> (const <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *_this)</td></tr>
 <tr class="separator:a08612ab1a7833d7a508ad5509359d0ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a121bd2c2f8434036caaa72b23a53a86f" id="r_a121bd2c2f8434036caaa72b23a53a86f"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a121bd2c2f8434036caaa72b23a53a86f">MR_OffsetContoursOrigins_Set_uDest</a> (<a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *_this, const <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *value)</td></tr>
+<tr class="memitem:a121bd2c2f8434036caaa72b23a53a86f" id="r_a121bd2c2f8434036caaa72b23a53a86f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a121bd2c2f8434036caaa72b23a53a86f">MR_OffsetContoursOrigins_Set_uDest</a> (<a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *_this, const <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *value)</td></tr>
 <tr class="separator:a121bd2c2f8434036caaa72b23a53a86f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d8b25e9215cdd90785033ce35a0bf30" id="r_a7d8b25e9215cdd90785033ce35a0bf30"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d8b25e9215cdd90785033ce35a0bf30">MR_OffsetContoursOrigins_GetMutable_uDest</a> (<a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *_this)</td></tr>
+<tr class="memitem:a7d8b25e9215cdd90785033ce35a0bf30" id="r_a7d8b25e9215cdd90785033ce35a0bf30"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d8b25e9215cdd90785033ce35a0bf30">MR_OffsetContoursOrigins_GetMutable_uDest</a> (<a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *_this)</td></tr>
 <tr class="separator:a7d8b25e9215cdd90785033ce35a0bf30"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a09db0f9e13672fdc950c3dbb9caf97e5" id="r_a09db0f9e13672fdc950c3dbb9caf97e5"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09db0f9e13672fdc950c3dbb9caf97e5">MR_OffsetContoursOrigins_Get_lRatio</a> (const <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *_this)</td></tr>
+<tr class="memitem:a09db0f9e13672fdc950c3dbb9caf97e5" id="r_a09db0f9e13672fdc950c3dbb9caf97e5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09db0f9e13672fdc950c3dbb9caf97e5">MR_OffsetContoursOrigins_Get_lRatio</a> (const <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *_this)</td></tr>
 <tr class="separator:a09db0f9e13672fdc950c3dbb9caf97e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a51dfc1a26ccaa8da7586b17fcc6c2723" id="r_a51dfc1a26ccaa8da7586b17fcc6c2723"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51dfc1a26ccaa8da7586b17fcc6c2723">MR_OffsetContoursOrigins_Set_lRatio</a> (<a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *_this, float value)</td></tr>
+<tr class="memitem:a51dfc1a26ccaa8da7586b17fcc6c2723" id="r_a51dfc1a26ccaa8da7586b17fcc6c2723"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51dfc1a26ccaa8da7586b17fcc6c2723">MR_OffsetContoursOrigins_Set_lRatio</a> (<a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *_this, float value)</td></tr>
 <tr class="separator:a51dfc1a26ccaa8da7586b17fcc6c2723"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e62a3bd06fdb0bd7078e8555546689f" id="r_a7e62a3bd06fdb0bd7078e8555546689f"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e62a3bd06fdb0bd7078e8555546689f">MR_OffsetContoursOrigins_GetMutable_lRatio</a> (<a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *_this)</td></tr>
+<tr class="memitem:a7e62a3bd06fdb0bd7078e8555546689f" id="r_a7e62a3bd06fdb0bd7078e8555546689f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e62a3bd06fdb0bd7078e8555546689f">MR_OffsetContoursOrigins_GetMutable_lRatio</a> (<a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *_this)</td></tr>
 <tr class="separator:a7e62a3bd06fdb0bd7078e8555546689f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a38a271bde1f9ec8889e1d57057c74308" id="r_a38a271bde1f9ec8889e1d57057c74308"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38a271bde1f9ec8889e1d57057c74308">MR_OffsetContoursOrigins_Get_uRatio</a> (const <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *_this)</td></tr>
+<tr class="memitem:a38a271bde1f9ec8889e1d57057c74308" id="r_a38a271bde1f9ec8889e1d57057c74308"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38a271bde1f9ec8889e1d57057c74308">MR_OffsetContoursOrigins_Get_uRatio</a> (const <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *_this)</td></tr>
 <tr class="separator:a38a271bde1f9ec8889e1d57057c74308"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f03493de599b9205bafb73b7ee103f8" id="r_a9f03493de599b9205bafb73b7ee103f8"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f03493de599b9205bafb73b7ee103f8">MR_OffsetContoursOrigins_Set_uRatio</a> (<a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *_this, float value)</td></tr>
+<tr class="memitem:a9f03493de599b9205bafb73b7ee103f8" id="r_a9f03493de599b9205bafb73b7ee103f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f03493de599b9205bafb73b7ee103f8">MR_OffsetContoursOrigins_Set_uRatio</a> (<a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *_this, float value)</td></tr>
 <tr class="separator:a9f03493de599b9205bafb73b7ee103f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2fd0e81b641499cb9d1c86d0d09dcd24" id="r_a2fd0e81b641499cb9d1c86d0d09dcd24"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2fd0e81b641499cb9d1c86d0d09dcd24">MR_OffsetContoursOrigins_GetMutable_uRatio</a> (<a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *_this)</td></tr>
+<tr class="memitem:a2fd0e81b641499cb9d1c86d0d09dcd24" id="r_a2fd0e81b641499cb9d1c86d0d09dcd24"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2fd0e81b641499cb9d1c86d0d09dcd24">MR_OffsetContoursOrigins_GetMutable_uRatio</a> (<a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *_this)</td></tr>
 <tr class="separator:a2fd0e81b641499cb9d1c86d0d09dcd24"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25b86d8fa7a562945806f3c0bb9d5f65" id="r_a25b86d8fa7a562945806f3c0bb9d5f65"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25b86d8fa7a562945806f3c0bb9d5f65">MR_OffsetContoursOrigins_DefaultConstruct</a> (void)</td></tr>
+<tr class="memitem:a25b86d8fa7a562945806f3c0bb9d5f65" id="r_a25b86d8fa7a562945806f3c0bb9d5f65"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25b86d8fa7a562945806f3c0bb9d5f65">MR_OffsetContoursOrigins_DefaultConstruct</a> (void)</td></tr>
 <tr class="separator:a25b86d8fa7a562945806f3c0bb9d5f65"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af28f2cd65103a456d49283ed83a5854a" id="r_af28f2cd65103a456d49283ed83a5854a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af28f2cd65103a456d49283ed83a5854a">MR_OffsetContoursOrigins_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="memitem:af28f2cd65103a456d49283ed83a5854a" id="r_af28f2cd65103a456d49283ed83a5854a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af28f2cd65103a456d49283ed83a5854a">MR_OffsetContoursOrigins_DefaultConstructArray</a> (size_t num_elems)</td></tr>
 <tr class="separator:af28f2cd65103a456d49283ed83a5854a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a41121af40788ecaee4e5c7751d4a5a40" id="r_a41121af40788ecaee4e5c7751d4a5a40"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41121af40788ecaee4e5c7751d4a5a40">MR_OffsetContoursOrigins_ConstructFrom</a> (const <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *lOrg, const <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *lDest, const <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *uOrg, const <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *uDest, float lRatio, float uRatio)</td></tr>
+<tr class="memitem:a41121af40788ecaee4e5c7751d4a5a40" id="r_a41121af40788ecaee4e5c7751d4a5a40"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41121af40788ecaee4e5c7751d4a5a40">MR_OffsetContoursOrigins_ConstructFrom</a> (const <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *lOrg, const <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *lDest, const <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *uOrg, const <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *uDest, float lRatio, float uRatio)</td></tr>
 <tr class="separator:a41121af40788ecaee4e5c7751d4a5a40"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a213938ca29157ff9139efdcd976a4aa5" id="r_a213938ca29157ff9139efdcd976a4aa5"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a213938ca29157ff9139efdcd976a4aa5">MR_OffsetContoursOrigins_OffsetPtr</a> (const <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a213938ca29157ff9139efdcd976a4aa5" id="r_a213938ca29157ff9139efdcd976a4aa5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a213938ca29157ff9139efdcd976a4aa5">MR_OffsetContoursOrigins_OffsetPtr</a> (const <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a213938ca29157ff9139efdcd976a4aa5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a213938ca29157ff9139efdcd976a4aa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4fc0f9349132e16354dc370dba4f30ab" id="r_a4fc0f9349132e16354dc370dba4f30ab"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4fc0f9349132e16354dc370dba4f30ab">MR_OffsetContoursOrigins_OffsetMutablePtr</a> (<a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a4fc0f9349132e16354dc370dba4f30ab" id="r_a4fc0f9349132e16354dc370dba4f30ab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4fc0f9349132e16354dc370dba4f30ab">MR_OffsetContoursOrigins_OffsetMutablePtr</a> (<a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a4fc0f9349132e16354dc370dba4f30ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a4fc0f9349132e16354dc370dba4f30ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25dffd6571c83fb20f8798ecba1faa4e" id="r_a25dffd6571c83fb20f8798ecba1faa4e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25dffd6571c83fb20f8798ecba1faa4e">MR_OffsetContoursOrigins_ConstructFromAnother</a> (const <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *_other)</td></tr>
+<tr class="memitem:a25dffd6571c83fb20f8798ecba1faa4e" id="r_a25dffd6571c83fb20f8798ecba1faa4e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25dffd6571c83fb20f8798ecba1faa4e">MR_OffsetContoursOrigins_ConstructFromAnother</a> (const <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *_other)</td></tr>
 <tr class="separator:a25dffd6571c83fb20f8798ecba1faa4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf62d28981b8cbbd0c87a92e56eab0ba" id="r_acf62d28981b8cbbd0c87a92e56eab0ba"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf62d28981b8cbbd0c87a92e56eab0ba">MR_OffsetContoursOrigins_Destroy</a> (const <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *_this)</td></tr>
+<tr class="memitem:acf62d28981b8cbbd0c87a92e56eab0ba" id="r_acf62d28981b8cbbd0c87a92e56eab0ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf62d28981b8cbbd0c87a92e56eab0ba">MR_OffsetContoursOrigins_Destroy</a> (const <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *_this)</td></tr>
 <tr class="memdesc:acf62d28981b8cbbd0c87a92e56eab0ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_OffsetContoursOrigins</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:acf62d28981b8cbbd0c87a92e56eab0ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a93ad89d19873b4a9f740df3c5c29223b" id="r_a93ad89d19873b4a9f740df3c5c29223b"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93ad89d19873b4a9f740df3c5c29223b">MR_OffsetContoursOrigins_DestroyArray</a> (const <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *_this)</td></tr>
+<tr class="memitem:a93ad89d19873b4a9f740df3c5c29223b" id="r_a93ad89d19873b4a9f740df3c5c29223b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93ad89d19873b4a9f740df3c5c29223b">MR_OffsetContoursOrigins_DestroyArray</a> (const <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *_this)</td></tr>
 <tr class="memdesc:a93ad89d19873b4a9f740df3c5c29223b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_OffsetContoursOrigins</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:a93ad89d19873b4a9f740df3c5c29223b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab5f8b24489ea7b1f8bed344da0dc8e31" id="r_ab5f8b24489ea7b1f8bed344da0dc8e31"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5f8b24489ea7b1f8bed344da0dc8e31">MR_OffsetContoursOrigins_AssignFromAnother</a> (<a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *_this, const <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *_other)</td></tr>
+<tr class="memitem:ab5f8b24489ea7b1f8bed344da0dc8e31" id="r_ab5f8b24489ea7b1f8bed344da0dc8e31"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5f8b24489ea7b1f8bed344da0dc8e31">MR_OffsetContoursOrigins_AssignFromAnother</a> (<a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *_this, const <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *_other)</td></tr>
 <tr class="separator:ab5f8b24489ea7b1f8bed344da0dc8e31"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a410d8953fd4b4a92f4314ac7cb9a3d4b" id="r_a410d8953fd4b4a92f4314ac7cb9a3d4b"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a410d8953fd4b4a92f4314ac7cb9a3d4b">MR_OffsetContoursOrigins_valid</a> (const <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *_this)</td></tr>
+<tr class="memitem:a410d8953fd4b4a92f4314ac7cb9a3d4b" id="r_a410d8953fd4b4a92f4314ac7cb9a3d4b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a410d8953fd4b4a92f4314ac7cb9a3d4b">MR_OffsetContoursOrigins_valid</a> (const <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *_this)</td></tr>
 <tr class="separator:a410d8953fd4b4a92f4314ac7cb9a3d4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abff02a554cbf7b7bfb870716b2faebe9" id="r_abff02a554cbf7b7bfb870716b2faebe9"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abff02a554cbf7b7bfb870716b2faebe9">MR_OffsetContoursOrigins_isIntersection</a> (const <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *_this)</td></tr>
+<tr class="memitem:abff02a554cbf7b7bfb870716b2faebe9" id="r_abff02a554cbf7b7bfb870716b2faebe9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abff02a554cbf7b7bfb870716b2faebe9">MR_OffsetContoursOrigins_isIntersection</a> (const <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *_this)</td></tr>
 <tr class="separator:abff02a554cbf7b7bfb870716b2faebe9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7082c79d316b4b305c6cc616fef63fed" id="r_a7082c79d316b4b305c6cc616fef63fed"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a3eb5230396ab87113088e091f8e39c61">MR_OffsetContoursParams_Type</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7082c79d316b4b305c6cc616fef63fed">MR_OffsetContoursParams_Get_type</a> (const <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *_this)</td></tr>
+<tr class="memitem:a7082c79d316b4b305c6cc616fef63fed" id="r_a7082c79d316b4b305c6cc616fef63fed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a3eb5230396ab87113088e091f8e39c61">MR_OffsetContoursParams_Type</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7082c79d316b4b305c6cc616fef63fed">MR_OffsetContoursParams_Get_type</a> (const <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *_this)</td></tr>
 <tr class="separator:a7082c79d316b4b305c6cc616fef63fed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae1a854be21f8456f66e92a1306ca9d7" id="r_aae1a854be21f8456f66e92a1306ca9d7"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae1a854be21f8456f66e92a1306ca9d7">MR_OffsetContoursParams_Set_type</a> (<a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *_this, <a class="el" href="#a3eb5230396ab87113088e091f8e39c61">MR_OffsetContoursParams_Type</a> value)</td></tr>
+<tr class="memitem:aae1a854be21f8456f66e92a1306ca9d7" id="r_aae1a854be21f8456f66e92a1306ca9d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae1a854be21f8456f66e92a1306ca9d7">MR_OffsetContoursParams_Set_type</a> (<a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *_this, <a class="el" href="#a3eb5230396ab87113088e091f8e39c61">MR_OffsetContoursParams_Type</a> value)</td></tr>
 <tr class="separator:aae1a854be21f8456f66e92a1306ca9d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a902632fe4eb1aec52a53c7726b9e675e" id="r_a902632fe4eb1aec52a53c7726b9e675e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a3eb5230396ab87113088e091f8e39c61">MR_OffsetContoursParams_Type</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a902632fe4eb1aec52a53c7726b9e675e">MR_OffsetContoursParams_GetMutable_type</a> (<a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *_this)</td></tr>
+<tr class="memitem:a902632fe4eb1aec52a53c7726b9e675e" id="r_a902632fe4eb1aec52a53c7726b9e675e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a3eb5230396ab87113088e091f8e39c61">MR_OffsetContoursParams_Type</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a902632fe4eb1aec52a53c7726b9e675e">MR_OffsetContoursParams_GetMutable_type</a> (<a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *_this)</td></tr>
 <tr class="separator:a902632fe4eb1aec52a53c7726b9e675e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac090a378881dc00f6c5ecf85ecdb832c" id="r_ac090a378881dc00f6c5ecf85ecdb832c"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a150f773b6be7b50b691b20815434ae77">MR_OffsetContoursParams_EndType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac090a378881dc00f6c5ecf85ecdb832c">MR_OffsetContoursParams_Get_endType</a> (const <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *_this)</td></tr>
+<tr class="memitem:ac090a378881dc00f6c5ecf85ecdb832c" id="r_ac090a378881dc00f6c5ecf85ecdb832c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a150f773b6be7b50b691b20815434ae77">MR_OffsetContoursParams_EndType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac090a378881dc00f6c5ecf85ecdb832c">MR_OffsetContoursParams_Get_endType</a> (const <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *_this)</td></tr>
 <tr class="separator:ac090a378881dc00f6c5ecf85ecdb832c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa1e242be176ad53cb02ef0a975b9d593" id="r_aa1e242be176ad53cb02ef0a975b9d593"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1e242be176ad53cb02ef0a975b9d593">MR_OffsetContoursParams_Set_endType</a> (<a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *_this, <a class="el" href="#a150f773b6be7b50b691b20815434ae77">MR_OffsetContoursParams_EndType</a> value)</td></tr>
+<tr class="memitem:aa1e242be176ad53cb02ef0a975b9d593" id="r_aa1e242be176ad53cb02ef0a975b9d593"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1e242be176ad53cb02ef0a975b9d593">MR_OffsetContoursParams_Set_endType</a> (<a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *_this, <a class="el" href="#a150f773b6be7b50b691b20815434ae77">MR_OffsetContoursParams_EndType</a> value)</td></tr>
 <tr class="separator:aa1e242be176ad53cb02ef0a975b9d593"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a65331cd6be475850afd9ed51ba4671d4" id="r_a65331cd6be475850afd9ed51ba4671d4"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a150f773b6be7b50b691b20815434ae77">MR_OffsetContoursParams_EndType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65331cd6be475850afd9ed51ba4671d4">MR_OffsetContoursParams_GetMutable_endType</a> (<a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *_this)</td></tr>
+<tr class="memitem:a65331cd6be475850afd9ed51ba4671d4" id="r_a65331cd6be475850afd9ed51ba4671d4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a150f773b6be7b50b691b20815434ae77">MR_OffsetContoursParams_EndType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65331cd6be475850afd9ed51ba4671d4">MR_OffsetContoursParams_GetMutable_endType</a> (<a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *_this)</td></tr>
 <tr class="separator:a65331cd6be475850afd9ed51ba4671d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a505dc6ad999a7fbcf918aeacb9dcd966" id="r_a505dc6ad999a7fbcf918aeacb9dcd966"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a95f1fdc5a69e9e5c5125640937bac855">MR_OffsetContoursParams_CornerType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a505dc6ad999a7fbcf918aeacb9dcd966">MR_OffsetContoursParams_Get_cornerType</a> (const <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *_this)</td></tr>
+<tr class="memitem:a505dc6ad999a7fbcf918aeacb9dcd966" id="r_a505dc6ad999a7fbcf918aeacb9dcd966"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a95f1fdc5a69e9e5c5125640937bac855">MR_OffsetContoursParams_CornerType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a505dc6ad999a7fbcf918aeacb9dcd966">MR_OffsetContoursParams_Get_cornerType</a> (const <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *_this)</td></tr>
 <tr class="separator:a505dc6ad999a7fbcf918aeacb9dcd966"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adfecd390368393926741e7c01281d5b2" id="r_adfecd390368393926741e7c01281d5b2"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adfecd390368393926741e7c01281d5b2">MR_OffsetContoursParams_Set_cornerType</a> (<a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *_this, <a class="el" href="#a95f1fdc5a69e9e5c5125640937bac855">MR_OffsetContoursParams_CornerType</a> value)</td></tr>
+<tr class="memitem:adfecd390368393926741e7c01281d5b2" id="r_adfecd390368393926741e7c01281d5b2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adfecd390368393926741e7c01281d5b2">MR_OffsetContoursParams_Set_cornerType</a> (<a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *_this, <a class="el" href="#a95f1fdc5a69e9e5c5125640937bac855">MR_OffsetContoursParams_CornerType</a> value)</td></tr>
 <tr class="separator:adfecd390368393926741e7c01281d5b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ae7cb80704ae0a14f0cf58a3b49b5f3" id="r_a7ae7cb80704ae0a14f0cf58a3b49b5f3"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a95f1fdc5a69e9e5c5125640937bac855">MR_OffsetContoursParams_CornerType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ae7cb80704ae0a14f0cf58a3b49b5f3">MR_OffsetContoursParams_GetMutable_cornerType</a> (<a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *_this)</td></tr>
+<tr class="memitem:a7ae7cb80704ae0a14f0cf58a3b49b5f3" id="r_a7ae7cb80704ae0a14f0cf58a3b49b5f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a95f1fdc5a69e9e5c5125640937bac855">MR_OffsetContoursParams_CornerType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ae7cb80704ae0a14f0cf58a3b49b5f3">MR_OffsetContoursParams_GetMutable_cornerType</a> (<a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *_this)</td></tr>
 <tr class="separator:a7ae7cb80704ae0a14f0cf58a3b49b5f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae5dbc2e0373bfd834fcdd78633de61bd" id="r_ae5dbc2e0373bfd834fcdd78633de61bd"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5dbc2e0373bfd834fcdd78633de61bd">MR_OffsetContoursParams_Get_minAnglePrecision</a> (const <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *_this)</td></tr>
+<tr class="memitem:ae5dbc2e0373bfd834fcdd78633de61bd" id="r_ae5dbc2e0373bfd834fcdd78633de61bd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5dbc2e0373bfd834fcdd78633de61bd">MR_OffsetContoursParams_Get_minAnglePrecision</a> (const <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *_this)</td></tr>
 <tr class="separator:ae5dbc2e0373bfd834fcdd78633de61bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3892adb4a431a2b2aec044aaeea66db2" id="r_a3892adb4a431a2b2aec044aaeea66db2"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3892adb4a431a2b2aec044aaeea66db2">MR_OffsetContoursParams_Set_minAnglePrecision</a> (<a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *_this, float value)</td></tr>
+<tr class="memitem:a3892adb4a431a2b2aec044aaeea66db2" id="r_a3892adb4a431a2b2aec044aaeea66db2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3892adb4a431a2b2aec044aaeea66db2">MR_OffsetContoursParams_Set_minAnglePrecision</a> (<a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *_this, float value)</td></tr>
 <tr class="separator:a3892adb4a431a2b2aec044aaeea66db2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a86419f32115bfc73c60d204597429041" id="r_a86419f32115bfc73c60d204597429041"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86419f32115bfc73c60d204597429041">MR_OffsetContoursParams_GetMutable_minAnglePrecision</a> (<a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *_this)</td></tr>
+<tr class="memitem:a86419f32115bfc73c60d204597429041" id="r_a86419f32115bfc73c60d204597429041"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86419f32115bfc73c60d204597429041">MR_OffsetContoursParams_GetMutable_minAnglePrecision</a> (<a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *_this)</td></tr>
 <tr class="separator:a86419f32115bfc73c60d204597429041"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a42fa88dd5791dc26e8fb50c440fb447e" id="r_a42fa88dd5791dc26e8fb50c440fb447e"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42fa88dd5791dc26e8fb50c440fb447e">MR_OffsetContoursParams_Get_maxSharpAngle</a> (const <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *_this)</td></tr>
+<tr class="memitem:a42fa88dd5791dc26e8fb50c440fb447e" id="r_a42fa88dd5791dc26e8fb50c440fb447e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42fa88dd5791dc26e8fb50c440fb447e">MR_OffsetContoursParams_Get_maxSharpAngle</a> (const <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *_this)</td></tr>
 <tr class="separator:a42fa88dd5791dc26e8fb50c440fb447e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af25916f6a2737dda00b1ee9ee9724fa0" id="r_af25916f6a2737dda00b1ee9ee9724fa0"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af25916f6a2737dda00b1ee9ee9724fa0">MR_OffsetContoursParams_Set_maxSharpAngle</a> (<a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *_this, float value)</td></tr>
+<tr class="memitem:af25916f6a2737dda00b1ee9ee9724fa0" id="r_af25916f6a2737dda00b1ee9ee9724fa0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af25916f6a2737dda00b1ee9ee9724fa0">MR_OffsetContoursParams_Set_maxSharpAngle</a> (<a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *_this, float value)</td></tr>
 <tr class="separator:af25916f6a2737dda00b1ee9ee9724fa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a51fde3679cec092116af65b31d90ff1f" id="r_a51fde3679cec092116af65b31d90ff1f"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51fde3679cec092116af65b31d90ff1f">MR_OffsetContoursParams_GetMutable_maxSharpAngle</a> (<a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *_this)</td></tr>
+<tr class="memitem:a51fde3679cec092116af65b31d90ff1f" id="r_a51fde3679cec092116af65b31d90ff1f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51fde3679cec092116af65b31d90ff1f">MR_OffsetContoursParams_GetMutable_maxSharpAngle</a> (<a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *_this)</td></tr>
 <tr class="separator:a51fde3679cec092116af65b31d90ff1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aed8bcf7d737bae32404bc2b83500479a" id="r_aed8bcf7d737bae32404bc2b83500479a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a15a1ba7470e401dd2f31209c36f94b49">MR_std_vector_std_vector_MR_OffsetContoursOrigins</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed8bcf7d737bae32404bc2b83500479a">MR_OffsetContoursParams_Get_indicesMap</a> (const <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *_this)</td></tr>
+<tr class="memitem:aed8bcf7d737bae32404bc2b83500479a" id="r_aed8bcf7d737bae32404bc2b83500479a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a15a1ba7470e401dd2f31209c36f94b49">MR_std_vector_std_vector_MR_OffsetContoursOrigins</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed8bcf7d737bae32404bc2b83500479a">MR_OffsetContoursParams_Get_indicesMap</a> (const <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *_this)</td></tr>
 <tr class="separator:aed8bcf7d737bae32404bc2b83500479a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f7a75e055396f50e78379ef45aae3f1" id="r_a5f7a75e055396f50e78379ef45aae3f1"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f7a75e055396f50e78379ef45aae3f1">MR_OffsetContoursParams_Set_indicesMap</a> (<a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *_this, <a class="el" href="#a15a1ba7470e401dd2f31209c36f94b49">MR_std_vector_std_vector_MR_OffsetContoursOrigins</a> *value)</td></tr>
+<tr class="memitem:a5f7a75e055396f50e78379ef45aae3f1" id="r_a5f7a75e055396f50e78379ef45aae3f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f7a75e055396f50e78379ef45aae3f1">MR_OffsetContoursParams_Set_indicesMap</a> (<a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *_this, <a class="el" href="#a15a1ba7470e401dd2f31209c36f94b49">MR_std_vector_std_vector_MR_OffsetContoursOrigins</a> *value)</td></tr>
 <tr class="separator:a5f7a75e055396f50e78379ef45aae3f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee09c84c1af0171d3b3fc7347183fd6a" id="r_aee09c84c1af0171d3b3fc7347183fd6a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a15a1ba7470e401dd2f31209c36f94b49">MR_std_vector_std_vector_MR_OffsetContoursOrigins</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee09c84c1af0171d3b3fc7347183fd6a">MR_OffsetContoursParams_GetMutable_indicesMap</a> (<a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *_this)</td></tr>
+<tr class="memitem:aee09c84c1af0171d3b3fc7347183fd6a" id="r_aee09c84c1af0171d3b3fc7347183fd6a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a15a1ba7470e401dd2f31209c36f94b49">MR_std_vector_std_vector_MR_OffsetContoursOrigins</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee09c84c1af0171d3b3fc7347183fd6a">MR_OffsetContoursParams_GetMutable_indicesMap</a> (<a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *_this)</td></tr>
 <tr class="separator:aee09c84c1af0171d3b3fc7347183fd6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a93147bc2131be6b53b3f1439fe0dab02" id="r_a93147bc2131be6b53b3f1439fe0dab02"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93147bc2131be6b53b3f1439fe0dab02">MR_OffsetContoursParams_DefaultConstruct</a> (void)</td></tr>
+<tr class="memitem:a93147bc2131be6b53b3f1439fe0dab02" id="r_a93147bc2131be6b53b3f1439fe0dab02"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93147bc2131be6b53b3f1439fe0dab02">MR_OffsetContoursParams_DefaultConstruct</a> (void)</td></tr>
 <tr class="separator:a93147bc2131be6b53b3f1439fe0dab02"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c90ea09abe93e9e5478eef8c192aa94" id="r_a3c90ea09abe93e9e5478eef8c192aa94"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c90ea09abe93e9e5478eef8c192aa94">MR_OffsetContoursParams_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="memitem:a3c90ea09abe93e9e5478eef8c192aa94" id="r_a3c90ea09abe93e9e5478eef8c192aa94"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c90ea09abe93e9e5478eef8c192aa94">MR_OffsetContoursParams_DefaultConstructArray</a> (size_t num_elems)</td></tr>
 <tr class="separator:a3c90ea09abe93e9e5478eef8c192aa94"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a021ead857318d1ebf41e958133225ceb" id="r_a021ead857318d1ebf41e958133225ceb"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a021ead857318d1ebf41e958133225ceb">MR_OffsetContoursParams_ConstructFrom</a> (<a class="el" href="#a3eb5230396ab87113088e091f8e39c61">MR_OffsetContoursParams_Type</a> type, <a class="el" href="#a150f773b6be7b50b691b20815434ae77">MR_OffsetContoursParams_EndType</a> endType, <a class="el" href="#a95f1fdc5a69e9e5c5125640937bac855">MR_OffsetContoursParams_CornerType</a> cornerType, float minAnglePrecision, float maxSharpAngle, <a class="el" href="#a15a1ba7470e401dd2f31209c36f94b49">MR_std_vector_std_vector_MR_OffsetContoursOrigins</a> *indicesMap)</td></tr>
+<tr class="memitem:a021ead857318d1ebf41e958133225ceb" id="r_a021ead857318d1ebf41e958133225ceb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a021ead857318d1ebf41e958133225ceb">MR_OffsetContoursParams_ConstructFrom</a> (<a class="el" href="#a3eb5230396ab87113088e091f8e39c61">MR_OffsetContoursParams_Type</a> type, <a class="el" href="#a150f773b6be7b50b691b20815434ae77">MR_OffsetContoursParams_EndType</a> endType, <a class="el" href="#a95f1fdc5a69e9e5c5125640937bac855">MR_OffsetContoursParams_CornerType</a> cornerType, float minAnglePrecision, float maxSharpAngle, <a class="el" href="#a15a1ba7470e401dd2f31209c36f94b49">MR_std_vector_std_vector_MR_OffsetContoursOrigins</a> *indicesMap)</td></tr>
 <tr class="separator:a021ead857318d1ebf41e958133225ceb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0123fedbdab9068a9d1d0a600d0fa1be" id="r_a0123fedbdab9068a9d1d0a600d0fa1be"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0123fedbdab9068a9d1d0a600d0fa1be">MR_OffsetContoursParams_OffsetPtr</a> (const <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a0123fedbdab9068a9d1d0a600d0fa1be" id="r_a0123fedbdab9068a9d1d0a600d0fa1be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0123fedbdab9068a9d1d0a600d0fa1be">MR_OffsetContoursParams_OffsetPtr</a> (const <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a0123fedbdab9068a9d1d0a600d0fa1be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a0123fedbdab9068a9d1d0a600d0fa1be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa1e2f6489015589cf0c539f6d16edb8d" id="r_aa1e2f6489015589cf0c539f6d16edb8d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1e2f6489015589cf0c539f6d16edb8d">MR_OffsetContoursParams_OffsetMutablePtr</a> (<a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:aa1e2f6489015589cf0c539f6d16edb8d" id="r_aa1e2f6489015589cf0c539f6d16edb8d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1e2f6489015589cf0c539f6d16edb8d">MR_OffsetContoursParams_OffsetMutablePtr</a> (<a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:aa1e2f6489015589cf0c539f6d16edb8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:aa1e2f6489015589cf0c539f6d16edb8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75c75c20556dc24f8c0a9825f2c0398e" id="r_a75c75c20556dc24f8c0a9825f2c0398e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75c75c20556dc24f8c0a9825f2c0398e">MR_OffsetContoursParams_ConstructFromAnother</a> (const <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *_other)</td></tr>
+<tr class="memitem:a75c75c20556dc24f8c0a9825f2c0398e" id="r_a75c75c20556dc24f8c0a9825f2c0398e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75c75c20556dc24f8c0a9825f2c0398e">MR_OffsetContoursParams_ConstructFromAnother</a> (const <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *_other)</td></tr>
 <tr class="separator:a75c75c20556dc24f8c0a9825f2c0398e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5bef008512c33a9335d7beb25d148e82" id="r_a5bef008512c33a9335d7beb25d148e82"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5bef008512c33a9335d7beb25d148e82">MR_OffsetContoursParams_Destroy</a> (const <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *_this)</td></tr>
+<tr class="memitem:a5bef008512c33a9335d7beb25d148e82" id="r_a5bef008512c33a9335d7beb25d148e82"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5bef008512c33a9335d7beb25d148e82">MR_OffsetContoursParams_Destroy</a> (const <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *_this)</td></tr>
 <tr class="memdesc:a5bef008512c33a9335d7beb25d148e82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_OffsetContoursParams</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:a5bef008512c33a9335d7beb25d148e82"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a47e1e04cf80eae4de99a4a0f58da7f0a" id="r_a47e1e04cf80eae4de99a4a0f58da7f0a"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47e1e04cf80eae4de99a4a0f58da7f0a">MR_OffsetContoursParams_DestroyArray</a> (const <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *_this)</td></tr>
+<tr class="memitem:a47e1e04cf80eae4de99a4a0f58da7f0a" id="r_a47e1e04cf80eae4de99a4a0f58da7f0a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47e1e04cf80eae4de99a4a0f58da7f0a">MR_OffsetContoursParams_DestroyArray</a> (const <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *_this)</td></tr>
 <tr class="memdesc:a47e1e04cf80eae4de99a4a0f58da7f0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_OffsetContoursParams</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:a47e1e04cf80eae4de99a4a0f58da7f0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6fbc5d4cd2a7e1982a5812d5ac368807" id="r_a6fbc5d4cd2a7e1982a5812d5ac368807"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fbc5d4cd2a7e1982a5812d5ac368807">MR_OffsetContoursParams_AssignFromAnother</a> (<a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *_this, const <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *_other)</td></tr>
+<tr class="memitem:a6fbc5d4cd2a7e1982a5812d5ac368807" id="r_a6fbc5d4cd2a7e1982a5812d5ac368807"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fbc5d4cd2a7e1982a5812d5ac368807">MR_OffsetContoursParams_AssignFromAnother</a> (<a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *_this, const <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *_other)</td></tr>
 <tr class="separator:a6fbc5d4cd2a7e1982a5812d5ac368807"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac55e3ee26500303149da82f1851fc1a1" id="r_ac55e3ee26500303149da82f1851fc1a1"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac55e3ee26500303149da82f1851fc1a1">MR_offsetContours_3_float</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *contours, float offset, const <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *params)</td></tr>
+<tr class="memitem:ac55e3ee26500303149da82f1851fc1a1" id="r_ac55e3ee26500303149da82f1851fc1a1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac55e3ee26500303149da82f1851fc1a1">MR_offsetContours_3_float</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *contours, float offset, const <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *params)</td></tr>
 <tr class="separator:ac55e3ee26500303149da82f1851fc1a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a47de319153e5715f33f013b74b9f24d8" id="r_a47de319153e5715f33f013b74b9f24d8"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47de319153e5715f33f013b74b9f24d8">MR_offsetContours_3_std_function_float_func_from_int32_t_int32_t</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *contours, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> offset_pass_by, <a class="el" href="#ad3a9097662560d9c05ca6c9c518f95cd">MR_std_function_float_from_int32_t_int32_t</a> *offset, const <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *params)</td></tr>
+<tr class="memitem:a47de319153e5715f33f013b74b9f24d8" id="r_a47de319153e5715f33f013b74b9f24d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47de319153e5715f33f013b74b9f24d8">MR_offsetContours_3_std_function_float_func_from_int32_t_int32_t</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *contours, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> offset_pass_by, <a class="el" href="#ad3a9097662560d9c05ca6c9c518f95cd">MR_std_function_float_from_int32_t_int32_t</a> *offset, const <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *params)</td></tr>
 <tr class="separator:a47de319153e5715f33f013b74b9f24d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a6d92570ad19150df53b70020903b4b" id="r_a8a6d92570ad19150df53b70020903b4b"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a86c80f9482459f931628d471a8a33238">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a6d92570ad19150df53b70020903b4b">MR_OffsetContoursRestoreZParams_Get_zCallback</a> (const <a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> *_this)</td></tr>
+<tr class="memitem:a8a6d92570ad19150df53b70020903b4b" id="r_a8a6d92570ad19150df53b70020903b4b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a86c80f9482459f931628d471a8a33238">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a6d92570ad19150df53b70020903b4b">MR_OffsetContoursRestoreZParams_Get_zCallback</a> (const <a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> *_this)</td></tr>
 <tr class="separator:a8a6d92570ad19150df53b70020903b4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4d8e9708d8c66f7db10f3582dbbef5fb" id="r_a4d8e9708d8c66f7db10f3582dbbef5fb"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d8e9708d8c66f7db10f3582dbbef5fb">MR_OffsetContoursRestoreZParams_Set_zCallback</a> (<a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="#a86c80f9482459f931628d471a8a33238">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref</a> *value)</td></tr>
+<tr class="memitem:a4d8e9708d8c66f7db10f3582dbbef5fb" id="r_a4d8e9708d8c66f7db10f3582dbbef5fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d8e9708d8c66f7db10f3582dbbef5fb">MR_OffsetContoursRestoreZParams_Set_zCallback</a> (<a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="#a86c80f9482459f931628d471a8a33238">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref</a> *value)</td></tr>
 <tr class="separator:a4d8e9708d8c66f7db10f3582dbbef5fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7db8635404deaf6ce41983c577ad6f0d" id="r_a7db8635404deaf6ce41983c577ad6f0d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a86c80f9482459f931628d471a8a33238">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7db8635404deaf6ce41983c577ad6f0d">MR_OffsetContoursRestoreZParams_GetMutable_zCallback</a> (<a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> *_this)</td></tr>
+<tr class="memitem:a7db8635404deaf6ce41983c577ad6f0d" id="r_a7db8635404deaf6ce41983c577ad6f0d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a86c80f9482459f931628d471a8a33238">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7db8635404deaf6ce41983c577ad6f0d">MR_OffsetContoursRestoreZParams_GetMutable_zCallback</a> (<a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> *_this)</td></tr>
 <tr class="separator:a7db8635404deaf6ce41983c577ad6f0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae84b9d91ab70f4d1248ffab4a91f76d2" id="r_ae84b9d91ab70f4d1248ffab4a91f76d2"><td class="memItemLeft" align="right" valign="top">MRC_API const int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae84b9d91ab70f4d1248ffab4a91f76d2">MR_OffsetContoursRestoreZParams_Get_relaxIterations</a> (const <a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> *_this)</td></tr>
+<tr class="memitem:ae84b9d91ab70f4d1248ffab4a91f76d2" id="r_ae84b9d91ab70f4d1248ffab4a91f76d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae84b9d91ab70f4d1248ffab4a91f76d2">MR_OffsetContoursRestoreZParams_Get_relaxIterations</a> (const <a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> *_this)</td></tr>
 <tr class="separator:ae84b9d91ab70f4d1248ffab4a91f76d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac21a7822023a657d96a7236acfe1145c" id="r_ac21a7822023a657d96a7236acfe1145c"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac21a7822023a657d96a7236acfe1145c">MR_OffsetContoursRestoreZParams_Set_relaxIterations</a> (<a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> *_this, int32_t value)</td></tr>
+<tr class="memitem:ac21a7822023a657d96a7236acfe1145c" id="r_ac21a7822023a657d96a7236acfe1145c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac21a7822023a657d96a7236acfe1145c">MR_OffsetContoursRestoreZParams_Set_relaxIterations</a> (<a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> *_this, int32_t value)</td></tr>
 <tr class="separator:ac21a7822023a657d96a7236acfe1145c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa789b6933bdf06f895058e024675be14" id="r_aa789b6933bdf06f895058e024675be14"><td class="memItemLeft" align="right" valign="top">MRC_API int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa789b6933bdf06f895058e024675be14">MR_OffsetContoursRestoreZParams_GetMutable_relaxIterations</a> (<a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> *_this)</td></tr>
+<tr class="memitem:aa789b6933bdf06f895058e024675be14" id="r_aa789b6933bdf06f895058e024675be14"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa789b6933bdf06f895058e024675be14">MR_OffsetContoursRestoreZParams_GetMutable_relaxIterations</a> (<a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> *_this)</td></tr>
 <tr class="separator:aa789b6933bdf06f895058e024675be14"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c9685066c1fa5283c6caef5a8e625d5" id="r_a9c9685066c1fa5283c6caef5a8e625d5"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c9685066c1fa5283c6caef5a8e625d5">MR_OffsetContoursRestoreZParams_DefaultConstruct</a> (void)</td></tr>
+<tr class="memitem:a9c9685066c1fa5283c6caef5a8e625d5" id="r_a9c9685066c1fa5283c6caef5a8e625d5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c9685066c1fa5283c6caef5a8e625d5">MR_OffsetContoursRestoreZParams_DefaultConstruct</a> (void)</td></tr>
 <tr class="separator:a9c9685066c1fa5283c6caef5a8e625d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8edf6f14f076e3d10f1bf05b36b9e400" id="r_a8edf6f14f076e3d10f1bf05b36b9e400"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8edf6f14f076e3d10f1bf05b36b9e400">MR_OffsetContoursRestoreZParams_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="memitem:a8edf6f14f076e3d10f1bf05b36b9e400" id="r_a8edf6f14f076e3d10f1bf05b36b9e400"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8edf6f14f076e3d10f1bf05b36b9e400">MR_OffsetContoursRestoreZParams_DefaultConstructArray</a> (size_t num_elems)</td></tr>
 <tr class="separator:a8edf6f14f076e3d10f1bf05b36b9e400"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0eff8e5bb5945bd81f46f523f9ab32f7" id="r_a0eff8e5bb5945bd81f46f523f9ab32f7"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0eff8e5bb5945bd81f46f523f9ab32f7">MR_OffsetContoursRestoreZParams_ConstructFrom</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> zCallback_pass_by, <a class="el" href="#a86c80f9482459f931628d471a8a33238">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref</a> *zCallback, int32_t relaxIterations)</td></tr>
+<tr class="memitem:a0eff8e5bb5945bd81f46f523f9ab32f7" id="r_a0eff8e5bb5945bd81f46f523f9ab32f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0eff8e5bb5945bd81f46f523f9ab32f7">MR_OffsetContoursRestoreZParams_ConstructFrom</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> zCallback_pass_by, <a class="el" href="#a86c80f9482459f931628d471a8a33238">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref</a> *zCallback, int32_t relaxIterations)</td></tr>
 <tr class="separator:a0eff8e5bb5945bd81f46f523f9ab32f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ad7fffbfed9f2deabe65f82d60a6049" id="r_a6ad7fffbfed9f2deabe65f82d60a6049"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ad7fffbfed9f2deabe65f82d60a6049">MR_OffsetContoursRestoreZParams_OffsetPtr</a> (const <a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a6ad7fffbfed9f2deabe65f82d60a6049" id="r_a6ad7fffbfed9f2deabe65f82d60a6049"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ad7fffbfed9f2deabe65f82d60a6049">MR_OffsetContoursRestoreZParams_OffsetPtr</a> (const <a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a6ad7fffbfed9f2deabe65f82d60a6049"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a6ad7fffbfed9f2deabe65f82d60a6049"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9226e0a31ed041db64a0bb805fcd7df7" id="r_a9226e0a31ed041db64a0bb805fcd7df7"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9226e0a31ed041db64a0bb805fcd7df7">MR_OffsetContoursRestoreZParams_OffsetMutablePtr</a> (<a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a9226e0a31ed041db64a0bb805fcd7df7" id="r_a9226e0a31ed041db64a0bb805fcd7df7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9226e0a31ed041db64a0bb805fcd7df7">MR_OffsetContoursRestoreZParams_OffsetMutablePtr</a> (<a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a9226e0a31ed041db64a0bb805fcd7df7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:a9226e0a31ed041db64a0bb805fcd7df7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a59f34abcf7fb9031cc0ef39afc55a6ff" id="r_a59f34abcf7fb9031cc0ef39afc55a6ff"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59f34abcf7fb9031cc0ef39afc55a6ff">MR_OffsetContoursRestoreZParams_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> *_other)</td></tr>
+<tr class="memitem:a59f34abcf7fb9031cc0ef39afc55a6ff" id="r_a59f34abcf7fb9031cc0ef39afc55a6ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59f34abcf7fb9031cc0ef39afc55a6ff">MR_OffsetContoursRestoreZParams_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> *_other)</td></tr>
 <tr class="separator:a59f34abcf7fb9031cc0ef39afc55a6ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c5cf2138c02576f11a71bf52538a20f" id="r_a4c5cf2138c02576f11a71bf52538a20f"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c5cf2138c02576f11a71bf52538a20f">MR_OffsetContoursRestoreZParams_Destroy</a> (const <a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> *_this)</td></tr>
+<tr class="memitem:a4c5cf2138c02576f11a71bf52538a20f" id="r_a4c5cf2138c02576f11a71bf52538a20f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c5cf2138c02576f11a71bf52538a20f">MR_OffsetContoursRestoreZParams_Destroy</a> (const <a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> *_this)</td></tr>
 <tr class="memdesc:a4c5cf2138c02576f11a71bf52538a20f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_OffsetContoursRestoreZParams</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:a4c5cf2138c02576f11a71bf52538a20f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ee9860ba42f0e4e60f1122bc7ded5ba" id="r_a3ee9860ba42f0e4e60f1122bc7ded5ba"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ee9860ba42f0e4e60f1122bc7ded5ba">MR_OffsetContoursRestoreZParams_DestroyArray</a> (const <a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> *_this)</td></tr>
+<tr class="memitem:a3ee9860ba42f0e4e60f1122bc7ded5ba" id="r_a3ee9860ba42f0e4e60f1122bc7ded5ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ee9860ba42f0e4e60f1122bc7ded5ba">MR_OffsetContoursRestoreZParams_DestroyArray</a> (const <a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> *_this)</td></tr>
 <tr class="memdesc:a3ee9860ba42f0e4e60f1122bc7ded5ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_OffsetContoursRestoreZParams</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:a3ee9860ba42f0e4e60f1122bc7ded5ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ccb884a8dd4579e82490bfef72392c9" id="r_a4ccb884a8dd4579e82490bfef72392c9"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ccb884a8dd4579e82490bfef72392c9">MR_OffsetContoursRestoreZParams_AssignFromAnother</a> (<a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> *_other)</td></tr>
+<tr class="memitem:a4ccb884a8dd4579e82490bfef72392c9" id="r_a4ccb884a8dd4579e82490bfef72392c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ccb884a8dd4579e82490bfef72392c9">MR_OffsetContoursRestoreZParams_AssignFromAnother</a> (<a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> *_other)</td></tr>
 <tr class="separator:a4ccb884a8dd4579e82490bfef72392c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad8a302fbb6e97b82bd32c45957afe619" id="r_ad8a302fbb6e97b82bd32c45957afe619"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRContour_8h.html#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8a302fbb6e97b82bd32c45957afe619">MR_offsetContours_4_float</a> (const <a class="el" href="MRContour_8h.html#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> *contours, float offset, const <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *params, const <a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> *zParmas)</td></tr>
+<tr class="memitem:ad8a302fbb6e97b82bd32c45957afe619" id="r_ad8a302fbb6e97b82bd32c45957afe619"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRContour_8h.html#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8a302fbb6e97b82bd32c45957afe619">MR_offsetContours_4_float</a> (const <a class="el" href="MRContour_8h.html#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> *contours, float offset, const <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *params, const <a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> *zParmas)</td></tr>
 <tr class="separator:ad8a302fbb6e97b82bd32c45957afe619"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afc5ea8a2dc28794fb9b7e6b9f17737ff" id="r_afc5ea8a2dc28794fb9b7e6b9f17737ff"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRContour_8h.html#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc5ea8a2dc28794fb9b7e6b9f17737ff">MR_offsetContours_4_std_function_float_func_from_int32_t_int32_t</a> (const <a class="el" href="MRContour_8h.html#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> *contours, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> offset_pass_by, <a class="el" href="#ad3a9097662560d9c05ca6c9c518f95cd">MR_std_function_float_from_int32_t_int32_t</a> *offset, const <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *params, const <a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> *zParmas)</td></tr>
+<tr class="memitem:afc5ea8a2dc28794fb9b7e6b9f17737ff" id="r_afc5ea8a2dc28794fb9b7e6b9f17737ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRContour_8h.html#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc5ea8a2dc28794fb9b7e6b9f17737ff">MR_offsetContours_4_std_function_float_func_from_int32_t_int32_t</a> (const <a class="el" href="MRContour_8h.html#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> *contours, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> offset_pass_by, <a class="el" href="#ad3a9097662560d9c05ca6c9c518f95cd">MR_std_function_float_from_int32_t_int32_t</a> *offset, const <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *params, const <a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> *zParmas)</td></tr>
 <tr class="separator:afc5ea8a2dc28794fb9b7e6b9f17737ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -666,7 +660,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> * MR_OffsetContourIndex_AssignFromAnother </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> * MR_OffsetContourIndex_AssignFromAnother </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -688,7 +682,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> * MR_OffsetContourIndex_ConstructFrom </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> * MR_OffsetContourIndex_ConstructFrom </td>
           <td>(</td>
           <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>contourId</em></span>, </td>
         </tr>
@@ -710,7 +704,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> * MR_OffsetContourIndex_ConstructFromAnother </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> * MR_OffsetContourIndex_ConstructFromAnother </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
           <td></td>
@@ -728,7 +722,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> * MR_OffsetContourIndex_DefaultConstruct </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> * MR_OffsetContourIndex_DefaultConstruct </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -746,7 +740,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> * MR_OffsetContourIndex_DefaultConstructArray </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> * MR_OffsetContourIndex_DefaultConstructArray </td>
           <td>(</td>
           <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
           <td></td>
@@ -764,7 +758,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_OffsetContourIndex_Destroy </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_OffsetContourIndex_Destroy </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -783,7 +777,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_OffsetContourIndex_DestroyArray </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_OffsetContourIndex_DestroyArray </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -802,7 +796,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const int32_t * MR_OffsetContourIndex_Get_contourId </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int32_t * MR_OffsetContourIndex_Get_contourId </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -820,7 +814,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const int32_t * MR_OffsetContourIndex_Get_vertId </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int32_t * MR_OffsetContourIndex_Get_vertId </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -838,7 +832,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API int32_t * MR_OffsetContourIndex_GetMutable_contourId </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t * MR_OffsetContourIndex_GetMutable_contourId </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -856,7 +850,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API int32_t * MR_OffsetContourIndex_GetMutable_vertId </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t * MR_OffsetContourIndex_GetMutable_vertId </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -874,7 +868,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> * MR_OffsetContourIndex_OffsetMutablePtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> * MR_OffsetContourIndex_OffsetMutablePtr </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -897,7 +891,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> * MR_OffsetContourIndex_OffsetPtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> * MR_OffsetContourIndex_OffsetPtr </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -920,7 +914,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_OffsetContourIndex_Set_contourId </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_OffsetContourIndex_Set_contourId </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -942,7 +936,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_OffsetContourIndex_Set_vertId </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_OffsetContourIndex_Set_vertId </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -964,7 +958,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API bool MR_OffsetContourIndex_valid </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_OffsetContourIndex_valid </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -982,7 +976,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> * MR_offsetContours_3_float </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> * MR_offsetContours_3_float </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *</td>          <td class="paramname"><span class="paramname"><em>contours</em></span>, </td>
         </tr>
@@ -1009,7 +1003,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> * MR_offsetContours_3_std_function_float_func_from_int32_t_int32_t </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> * MR_offsetContours_3_std_function_float_func_from_int32_t_int32_t </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#a603c36c96311a8cb693f3e5500963e17">MR_std_vector_std_vector_MR_Vector2f</a> *</td>          <td class="paramname"><span class="paramname"><em>contours</em></span>, </td>
         </tr>
@@ -1041,7 +1035,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRContour_8h.html#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> * MR_offsetContours_4_float </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRContour_8h.html#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> * MR_offsetContours_4_float </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRContour_8h.html#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>contours</em></span>, </td>
         </tr>
@@ -1073,7 +1067,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRContour_8h.html#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> * MR_offsetContours_4_std_function_float_func_from_int32_t_int32_t </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRContour_8h.html#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> * MR_offsetContours_4_std_function_float_func_from_int32_t_int32_t </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRContour_8h.html#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>contours</em></span>, </td>
         </tr>
@@ -1110,7 +1104,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> * MR_OffsetContoursOrigins_AssignFromAnother </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> * MR_OffsetContoursOrigins_AssignFromAnother </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1132,7 +1126,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> * MR_OffsetContoursOrigins_ConstructFrom </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> * MR_OffsetContoursOrigins_ConstructFrom </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> *</td>          <td class="paramname"><span class="paramname"><em>lOrg</em></span>, </td>
         </tr>
@@ -1174,7 +1168,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> * MR_OffsetContoursOrigins_ConstructFromAnother </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> * MR_OffsetContoursOrigins_ConstructFromAnother </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
           <td></td>
@@ -1192,7 +1186,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> * MR_OffsetContoursOrigins_DefaultConstruct </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> * MR_OffsetContoursOrigins_DefaultConstruct </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -1210,7 +1204,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> * MR_OffsetContoursOrigins_DefaultConstructArray </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> * MR_OffsetContoursOrigins_DefaultConstructArray </td>
           <td>(</td>
           <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
           <td></td>
@@ -1228,7 +1222,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_OffsetContoursOrigins_Destroy </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_OffsetContoursOrigins_Destroy </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1247,7 +1241,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_OffsetContoursOrigins_DestroyArray </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_OffsetContoursOrigins_DestroyArray </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1266,7 +1260,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> * MR_OffsetContoursOrigins_Get_lDest </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> * MR_OffsetContoursOrigins_Get_lDest </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1284,7 +1278,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> * MR_OffsetContoursOrigins_Get_lOrg </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> * MR_OffsetContoursOrigins_Get_lOrg </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1302,7 +1296,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const float * MR_OffsetContoursOrigins_Get_lRatio </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float * MR_OffsetContoursOrigins_Get_lRatio </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1320,7 +1314,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> * MR_OffsetContoursOrigins_Get_uDest </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> * MR_OffsetContoursOrigins_Get_uDest </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1338,7 +1332,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> * MR_OffsetContoursOrigins_Get_uOrg </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> * MR_OffsetContoursOrigins_Get_uOrg </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1356,7 +1350,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const float * MR_OffsetContoursOrigins_Get_uRatio </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float * MR_OffsetContoursOrigins_Get_uRatio </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1374,7 +1368,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> * MR_OffsetContoursOrigins_GetMutable_lDest </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> * MR_OffsetContoursOrigins_GetMutable_lDest </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1392,7 +1386,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> * MR_OffsetContoursOrigins_GetMutable_lOrg </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> * MR_OffsetContoursOrigins_GetMutable_lOrg </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1410,7 +1404,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API float * MR_OffsetContoursOrigins_GetMutable_lRatio </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float * MR_OffsetContoursOrigins_GetMutable_lRatio </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1428,7 +1422,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> * MR_OffsetContoursOrigins_GetMutable_uDest </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> * MR_OffsetContoursOrigins_GetMutable_uDest </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1446,7 +1440,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> * MR_OffsetContoursOrigins_GetMutable_uOrg </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af0d56146c25bd40be465408cfe9fc8e3">MR_OffsetContourIndex</a> * MR_OffsetContoursOrigins_GetMutable_uOrg </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1464,7 +1458,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API float * MR_OffsetContoursOrigins_GetMutable_uRatio </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float * MR_OffsetContoursOrigins_GetMutable_uRatio </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1482,7 +1476,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API bool MR_OffsetContoursOrigins_isIntersection </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_OffsetContoursOrigins_isIntersection </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1500,7 +1494,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> * MR_OffsetContoursOrigins_OffsetMutablePtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> * MR_OffsetContoursOrigins_OffsetMutablePtr </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -1523,7 +1517,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> * MR_OffsetContoursOrigins_OffsetPtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> * MR_OffsetContoursOrigins_OffsetPtr </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -1546,7 +1540,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_OffsetContoursOrigins_Set_lDest </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_OffsetContoursOrigins_Set_lDest </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1568,7 +1562,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_OffsetContoursOrigins_Set_lOrg </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_OffsetContoursOrigins_Set_lOrg </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1590,7 +1584,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_OffsetContoursOrigins_Set_lRatio </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_OffsetContoursOrigins_Set_lRatio </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1612,7 +1606,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_OffsetContoursOrigins_Set_uDest </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_OffsetContoursOrigins_Set_uDest </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1634,7 +1628,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_OffsetContoursOrigins_Set_uOrg </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_OffsetContoursOrigins_Set_uOrg </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1656,7 +1650,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_OffsetContoursOrigins_Set_uRatio </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_OffsetContoursOrigins_Set_uRatio </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1678,7 +1672,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API bool MR_OffsetContoursOrigins_valid </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_OffsetContoursOrigins_valid </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a09a242786b2ab0acb3cd7b488fe42d7b">MR_OffsetContoursOrigins</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1696,7 +1690,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> * MR_OffsetContoursParams_AssignFromAnother </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> * MR_OffsetContoursParams_AssignFromAnother </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1718,7 +1712,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> * MR_OffsetContoursParams_ConstructFrom </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> * MR_OffsetContoursParams_ConstructFrom </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a3eb5230396ab87113088e091f8e39c61">MR_OffsetContoursParams_Type</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span>, </td>
         </tr>
@@ -1760,7 +1754,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> * MR_OffsetContoursParams_ConstructFromAnother </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> * MR_OffsetContoursParams_ConstructFromAnother </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
           <td></td>
@@ -1778,7 +1772,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> * MR_OffsetContoursParams_DefaultConstruct </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> * MR_OffsetContoursParams_DefaultConstruct </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -1796,7 +1790,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> * MR_OffsetContoursParams_DefaultConstructArray </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> * MR_OffsetContoursParams_DefaultConstructArray </td>
           <td>(</td>
           <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
           <td></td>
@@ -1814,7 +1808,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_OffsetContoursParams_Destroy </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_OffsetContoursParams_Destroy </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1833,7 +1827,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_OffsetContoursParams_DestroyArray </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_OffsetContoursParams_DestroyArray </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1852,7 +1846,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="#a95f1fdc5a69e9e5c5125640937bac855">MR_OffsetContoursParams_CornerType</a> * MR_OffsetContoursParams_Get_cornerType </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a95f1fdc5a69e9e5c5125640937bac855">MR_OffsetContoursParams_CornerType</a> * MR_OffsetContoursParams_Get_cornerType </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1870,7 +1864,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="#a150f773b6be7b50b691b20815434ae77">MR_OffsetContoursParams_EndType</a> * MR_OffsetContoursParams_Get_endType </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a150f773b6be7b50b691b20815434ae77">MR_OffsetContoursParams_EndType</a> * MR_OffsetContoursParams_Get_endType </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1888,7 +1882,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a15a1ba7470e401dd2f31209c36f94b49">MR_std_vector_std_vector_MR_OffsetContoursOrigins</a> *const  * MR_OffsetContoursParams_Get_indicesMap </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a15a1ba7470e401dd2f31209c36f94b49">MR_std_vector_std_vector_MR_OffsetContoursOrigins</a> *const  * MR_OffsetContoursParams_Get_indicesMap </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1906,7 +1900,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const float * MR_OffsetContoursParams_Get_maxSharpAngle </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float * MR_OffsetContoursParams_Get_maxSharpAngle </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1924,7 +1918,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const float * MR_OffsetContoursParams_Get_minAnglePrecision </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float * MR_OffsetContoursParams_Get_minAnglePrecision </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1942,7 +1936,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="#a3eb5230396ab87113088e091f8e39c61">MR_OffsetContoursParams_Type</a> * MR_OffsetContoursParams_Get_type </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a3eb5230396ab87113088e091f8e39c61">MR_OffsetContoursParams_Type</a> * MR_OffsetContoursParams_Get_type </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1960,7 +1954,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a95f1fdc5a69e9e5c5125640937bac855">MR_OffsetContoursParams_CornerType</a> * MR_OffsetContoursParams_GetMutable_cornerType </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a95f1fdc5a69e9e5c5125640937bac855">MR_OffsetContoursParams_CornerType</a> * MR_OffsetContoursParams_GetMutable_cornerType </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1978,7 +1972,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a150f773b6be7b50b691b20815434ae77">MR_OffsetContoursParams_EndType</a> * MR_OffsetContoursParams_GetMutable_endType </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a150f773b6be7b50b691b20815434ae77">MR_OffsetContoursParams_EndType</a> * MR_OffsetContoursParams_GetMutable_endType </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1996,7 +1990,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a15a1ba7470e401dd2f31209c36f94b49">MR_std_vector_std_vector_MR_OffsetContoursOrigins</a> ** MR_OffsetContoursParams_GetMutable_indicesMap </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a15a1ba7470e401dd2f31209c36f94b49">MR_std_vector_std_vector_MR_OffsetContoursOrigins</a> ** MR_OffsetContoursParams_GetMutable_indicesMap </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -2014,7 +2008,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API float * MR_OffsetContoursParams_GetMutable_maxSharpAngle </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float * MR_OffsetContoursParams_GetMutable_maxSharpAngle </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -2032,7 +2026,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API float * MR_OffsetContoursParams_GetMutable_minAnglePrecision </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float * MR_OffsetContoursParams_GetMutable_minAnglePrecision </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -2050,7 +2044,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a3eb5230396ab87113088e091f8e39c61">MR_OffsetContoursParams_Type</a> * MR_OffsetContoursParams_GetMutable_type </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a3eb5230396ab87113088e091f8e39c61">MR_OffsetContoursParams_Type</a> * MR_OffsetContoursParams_GetMutable_type </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -2068,7 +2062,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> * MR_OffsetContoursParams_OffsetMutablePtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> * MR_OffsetContoursParams_OffsetMutablePtr </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -2091,7 +2085,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> * MR_OffsetContoursParams_OffsetPtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> * MR_OffsetContoursParams_OffsetPtr </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -2114,7 +2108,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_OffsetContoursParams_Set_cornerType </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_OffsetContoursParams_Set_cornerType </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -2136,7 +2130,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_OffsetContoursParams_Set_endType </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_OffsetContoursParams_Set_endType </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -2158,7 +2152,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_OffsetContoursParams_Set_indicesMap </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_OffsetContoursParams_Set_indicesMap </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -2180,7 +2174,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_OffsetContoursParams_Set_maxSharpAngle </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_OffsetContoursParams_Set_maxSharpAngle </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -2202,7 +2196,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_OffsetContoursParams_Set_minAnglePrecision </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_OffsetContoursParams_Set_minAnglePrecision </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -2224,7 +2218,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_OffsetContoursParams_Set_type </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_OffsetContoursParams_Set_type </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#acbd306d4e06b2eca7fa8393b47225e7e">MR_OffsetContoursParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -2246,7 +2240,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> * MR_OffsetContoursRestoreZParams_AssignFromAnother </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> * MR_OffsetContoursRestoreZParams_AssignFromAnother </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -2273,7 +2267,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> * MR_OffsetContoursRestoreZParams_ConstructFrom </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> * MR_OffsetContoursRestoreZParams_ConstructFrom </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>zCallback_pass_by</em></span>, </td>
         </tr>
@@ -2300,7 +2294,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> * MR_OffsetContoursRestoreZParams_ConstructFromAnother </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> * MR_OffsetContoursRestoreZParams_ConstructFromAnother </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
         </tr>
@@ -2322,7 +2316,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> * MR_OffsetContoursRestoreZParams_DefaultConstruct </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> * MR_OffsetContoursRestoreZParams_DefaultConstruct </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -2340,7 +2334,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> * MR_OffsetContoursRestoreZParams_DefaultConstructArray </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> * MR_OffsetContoursRestoreZParams_DefaultConstructArray </td>
           <td>(</td>
           <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
           <td></td>
@@ -2358,7 +2352,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_OffsetContoursRestoreZParams_Destroy </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_OffsetContoursRestoreZParams_Destroy </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -2377,7 +2371,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_OffsetContoursRestoreZParams_DestroyArray </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_OffsetContoursRestoreZParams_DestroyArray </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -2396,7 +2390,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const int32_t * MR_OffsetContoursRestoreZParams_Get_relaxIterations </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int32_t * MR_OffsetContoursRestoreZParams_Get_relaxIterations </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -2414,7 +2408,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="#a86c80f9482459f931628d471a8a33238">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref</a> * MR_OffsetContoursRestoreZParams_Get_zCallback </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a86c80f9482459f931628d471a8a33238">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref</a> * MR_OffsetContoursRestoreZParams_Get_zCallback </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -2432,7 +2426,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API int32_t * MR_OffsetContoursRestoreZParams_GetMutable_relaxIterations </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t * MR_OffsetContoursRestoreZParams_GetMutable_relaxIterations </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -2450,7 +2444,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a86c80f9482459f931628d471a8a33238">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref</a> * MR_OffsetContoursRestoreZParams_GetMutable_zCallback </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a86c80f9482459f931628d471a8a33238">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref</a> * MR_OffsetContoursRestoreZParams_GetMutable_zCallback </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -2468,7 +2462,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> * MR_OffsetContoursRestoreZParams_OffsetMutablePtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> * MR_OffsetContoursRestoreZParams_OffsetMutablePtr </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -2491,7 +2485,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> * MR_OffsetContoursRestoreZParams_OffsetPtr </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> * MR_OffsetContoursRestoreZParams_OffsetPtr </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -2514,7 +2508,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_OffsetContoursRestoreZParams_Set_relaxIterations </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_OffsetContoursRestoreZParams_Set_relaxIterations </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -2536,7 +2530,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_OffsetContoursRestoreZParams_Set_zCallback </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_OffsetContoursRestoreZParams_Set_zCallback </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a1846759e37daae0ee16fe75b36321a9f">MR_OffsetContoursRestoreZParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>

@@ -14,12 +14,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -156,7 +150,7 @@ $(function(){initNavTree('MRComputeVolume_8h_source.html',''); initResizable(tru
 <div class="contents">
 <a href="MRComputeVolume_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;MRCMisc/exports.h&gt;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;<a class="code" href="exports_8h.html">MRCMisc/exports.h</a>&gt;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#ifdef __cplusplus</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> {</div>
@@ -170,12 +164,14 @@ $(function(){initNavTree('MRComputeVolume_8h_source.html',''); initResizable(tru
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="comment">// Computes summary volume of given meshes converting it to voxels of given size</span></div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="comment">// note that each mesh should have closed topology</span></div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="comment">// speed and precision depends on voxelSize (smaller voxel - faster, less precise; bigger voxel - slower, more precise)</span></div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="MRComputeVolume_8h.html#ab0687d61c6bef1c0a5006cb06b4e9c06">   21</a></span>MRC_API <span class="keywordtype">float</span> <a class="code hl_function" href="MRComputeVolume_8h.html#ab0687d61c6bef1c0a5006cb06b4e9c06">MR_voxelizeAndComputeVolume</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="std__vector__std__shared__ptr__MR__Mesh_8h.html#a2d2c8c958ee3e49667a0e45e2f5ab91e">MR_std_vector_std_shared_ptr_MR_Mesh</a> *meshes, <span class="keyword">const</span> <a class="code hl_struct" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *xf, <span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector3f.html">MR_Vector3f</a> *voxelSize);</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="MRComputeVolume_8h.html#ab0687d61c6bef1c0a5006cb06b4e9c06">   21</a></span><a class="code hl_define" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <span class="keywordtype">float</span> <a class="code hl_function" href="MRComputeVolume_8h.html#ab0687d61c6bef1c0a5006cb06b4e9c06">MR_voxelizeAndComputeVolume</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="std__vector__std__shared__ptr__MR__Mesh_8h.html#a2d2c8c958ee3e49667a0e45e2f5ab91e">MR_std_vector_std_shared_ptr_MR_Mesh</a> *meshes, <span class="keyword">const</span> <a class="code hl_struct" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *xf, <span class="keyword">const</span> <a class="code hl_struct" href="structMR__Vector3f.html">MR_Vector3f</a> *voxelSize);</div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="preprocessor">#ifdef __cplusplus</span></div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>} <span class="comment">// extern &quot;C&quot;</span></div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aMRComputeVolume_8h_html_ab0687d61c6bef1c0a5006cb06b4e9c06"><div class="ttname"><a href="MRComputeVolume_8h.html#ab0687d61c6bef1c0a5006cb06b4e9c06">MR_voxelizeAndComputeVolume</a></div><div class="ttdeci">MRC_API float MR_voxelizeAndComputeVolume(const MR_std_vector_std_shared_ptr_MR_Mesh *meshes, const MR_AffineXf3f *xf, const MR_Vector3f *voxelSize)</div></div>
+<div class="ttc" id="aexports_8h_html"><div class="ttname"><a href="exports_8h.html">exports.h</a></div></div>
+<div class="ttc" id="aexports_8h_html_a83dd8809128f2fbd49b5c39d59179d4a"><div class="ttname"><a href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a></div><div class="ttdeci">#define MRC_API</div><div class="ttdef"><b>Definition</b> exports.h:11</div></div>
 <div class="ttc" id="astd__vector__std__shared__ptr__MR__Mesh_8h_html_a2d2c8c958ee3e49667a0e45e2f5ab91e"><div class="ttname"><a href="std__vector__std__shared__ptr__MR__Mesh_8h.html#a2d2c8c958ee3e49667a0e45e2f5ab91e">MR_std_vector_std_shared_ptr_MR_Mesh</a></div><div class="ttdeci">struct MR_std_vector_std_shared_ptr_MR_Mesh MR_std_vector_std_shared_ptr_MR_Mesh</div><div class="ttdef"><b>Definition</b> std_vector_std_shared_ptr_MR_Mesh.h:18</div></div>
 <div class="ttc" id="astructMR__AffineXf3f_html"><div class="ttname"><a href="structMR__AffineXf3f.html">MR_AffineXf3f</a></div><div class="ttdef"><b>Definition</b> MRAffineXf.h:36</div></div>
 <div class="ttc" id="astructMR__Vector3f_html"><div class="ttname"><a href="structMR__Vector3f.html">MR_Vector3f</a></div><div class="ttdef"><b>Definition</b> MRVector3.h:51</div></div>

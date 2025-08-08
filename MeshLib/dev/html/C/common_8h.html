@@ -14,12 +14,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -158,7 +152,7 @@ $(function(){initNavTree('common_8h.html',''); initResizable(true); });
   <div class="headertitle"><div class="title">common.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
 <code>#include &lt;stdint.h&gt;</code><br />
 </div>
@@ -188,15 +182,15 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:acbfbc8d4321ed31ce414a41b4a42834d" id="r_acbfbc8d4321ed31ce414a41b4a42834d"><td class="memItemLeft" align="right" valign="top">MRC_API void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acbfbc8d4321ed31ce414a41b4a42834d">MR_Alloc</a> (size_t num_bytes)</td></tr>
+<tr class="memitem:acbfbc8d4321ed31ce414a41b4a42834d" id="r_acbfbc8d4321ed31ce414a41b4a42834d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acbfbc8d4321ed31ce414a41b4a42834d">MR_Alloc</a> (size_t num_bytes)</td></tr>
 <tr class="memdesc:acbfbc8d4321ed31ce414a41b4a42834d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocates <code>n</code> bytes of memory, which can then be freed using <code><a class="el" href="#ae29e12b2bd7a115e4d37315917eb5cad" title="Deallocates memory that was previously allocated with MR_Alloc(). Does nothing if the pointer is null...">MR_Free()</a></code>.  <br /></td></tr>
 <tr class="separator:acbfbc8d4321ed31ce414a41b4a42834d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae29e12b2bd7a115e4d37315917eb5cad" id="r_ae29e12b2bd7a115e4d37315917eb5cad"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae29e12b2bd7a115e4d37315917eb5cad">MR_Free</a> (void *ptr)</td></tr>
+<tr class="memitem:ae29e12b2bd7a115e4d37315917eb5cad" id="r_ae29e12b2bd7a115e4d37315917eb5cad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae29e12b2bd7a115e4d37315917eb5cad">MR_Free</a> (void *ptr)</td></tr>
 <tr class="memdesc:ae29e12b2bd7a115e4d37315917eb5cad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deallocates memory that was previously allocated with <code><a class="el" href="#acbfbc8d4321ed31ce414a41b4a42834d" title="Allocates n bytes of memory, which can then be freed using MR_Free().">MR_Alloc()</a></code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:ae29e12b2bd7a115e4d37315917eb5cad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a006934922fcbc07750b4589789c081e2" id="r_a006934922fcbc07750b4589789c081e2"><td class="memItemLeft" align="right" valign="top">MRC_API void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a006934922fcbc07750b4589789c081e2">MR_AllocArray</a> (size_t num_bytes)</td></tr>
+<tr class="memitem:a006934922fcbc07750b4589789c081e2" id="r_a006934922fcbc07750b4589789c081e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a006934922fcbc07750b4589789c081e2">MR_AllocArray</a> (size_t num_bytes)</td></tr>
 <tr class="separator:a006934922fcbc07750b4589789c081e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c920e2b965b97cbea7329c7bb21cf5f" id="r_a2c920e2b965b97cbea7329c7bb21cf5f"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c920e2b965b97cbea7329c7bb21cf5f">MR_FreeArray</a> (void *ptr)</td></tr>
+<tr class="memitem:a2c920e2b965b97cbea7329c7bb21cf5f" id="r_a2c920e2b965b97cbea7329c7bb21cf5f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c920e2b965b97cbea7329c7bb21cf5f">MR_FreeArray</a> (void *ptr)</td></tr>
 <tr class="memdesc:a2c920e2b965b97cbea7329c7bb21cf5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deallocates memory that was previously allocated with <code><a class="el" href="#a006934922fcbc07750b4589789c081e2">MR_AllocArray()</a></code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:a2c920e2b965b97cbea7329c7bb21cf5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -273,7 +267,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void * MR_Alloc </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void * MR_Alloc </td>
           <td>(</td>
           <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_bytes</em></span></td><td>)</td>
           <td></td>
@@ -292,7 +286,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void * MR_AllocArray </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void * MR_AllocArray </td>
           <td>(</td>
           <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_bytes</em></span></td><td>)</td>
           <td></td>
@@ -310,7 +304,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_Free </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_Free </td>
           <td>(</td>
           <td class="paramtype">void *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span></td><td>)</td>
           <td></td>
@@ -329,7 +323,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_FreeArray </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_FreeArray </td>
           <td>(</td>
           <td class="paramtype">void *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span></td><td>)</td>
           <td></td>

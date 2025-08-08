@@ -14,12 +14,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -156,7 +150,7 @@ $(function(){initNavTree('MRObjectDimensionsEnum_8h_source.html',''); initResiza
 <div class="contents">
 <a href="MRObjectDimensionsEnum_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;MRCMisc/exports.h&gt;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;<a class="code" href="exports_8h.html">MRCMisc/exports.h</a>&gt;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;stdint.h&gt;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
@@ -177,7 +171,7 @@ $(function(){initNavTree('MRObjectDimensionsEnum_8h_source.html',''); initResiza
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="MRObjectDimensionsEnum_8h.html#af715e26dfffd1f8de1c18449e2770cffaed9b8770ff8e8c4ae7cb6ae1557f5777">   21</a></span>    <a class="code hl_enumvalue" href="MRObjectDimensionsEnum_8h.html#af715e26dfffd1f8de1c18449e2770cffaed9b8770ff8e8c4ae7cb6ae1557f5777">MR_DimensionsVisualizePropertyType__count</a> = 3,</div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>};</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="MRObjectDimensionsEnum_8h.html#abf694433ae057870f77980d7ce71b519">   26</a></span>MRC_API <a class="code hl_typedef" href="MRFeatureHelpers_8h.html#a169b2cb1c4b9a267fdcd4b388a456d37">MR_std_string_view</a> *<a class="code hl_function" href="MRObjectDimensionsEnum_8h.html#abf694433ae057870f77980d7ce71b519">MR_toString_MR_DimensionsVisualizePropertyType</a>(<a class="code hl_typedef" href="MRObjectDimensionsEnum_8h.html#a921b7d3b1a2849e9a17526c0ed51b26d">MR_DimensionsVisualizePropertyType</a> value);</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="MRObjectDimensionsEnum_8h.html#abf694433ae057870f77980d7ce71b519">   26</a></span><a class="code hl_define" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="code hl_typedef" href="MRFeatureHelpers_8h.html#a169b2cb1c4b9a267fdcd4b388a456d37">MR_std_string_view</a> *<a class="code hl_function" href="MRObjectDimensionsEnum_8h.html#abf694433ae057870f77980d7ce71b519">MR_toString_MR_DimensionsVisualizePropertyType</a>(<a class="code hl_typedef" href="MRObjectDimensionsEnum_8h.html#a921b7d3b1a2849e9a17526c0ed51b26d">MR_DimensionsVisualizePropertyType</a> value);</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="preprocessor">#ifdef __cplusplus</span></div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>} <span class="comment">// extern &quot;C&quot;</span></div>
@@ -189,6 +183,8 @@ $(function(){initNavTree('MRObjectDimensionsEnum_8h_source.html',''); initResiza
 <div class="ttc" id="aMRObjectDimensionsEnum_8h_html_af715e26dfffd1f8de1c18449e2770cffa3a0b8f2268a326a4af2916cb705d7bf1"><div class="ttname"><a href="MRObjectDimensionsEnum_8h.html#af715e26dfffd1f8de1c18449e2770cffa3a0b8f2268a326a4af2916cb705d7bf1">MR_DimensionsVisualizePropertyType_angle</a></div><div class="ttdeci">@ MR_DimensionsVisualizePropertyType_angle</div><div class="ttdef"><b>Definition</b> MRObjectDimensionsEnum.h:19</div></div>
 <div class="ttc" id="aMRObjectDimensionsEnum_8h_html_af715e26dfffd1f8de1c18449e2770cffa408c8f8962bbaf8d3229289defd3acf2"><div class="ttname"><a href="MRObjectDimensionsEnum_8h.html#af715e26dfffd1f8de1c18449e2770cffa408c8f8962bbaf8d3229289defd3acf2">MR_DimensionsVisualizePropertyType_length</a></div><div class="ttdeci">@ MR_DimensionsVisualizePropertyType_length</div><div class="ttdef"><b>Definition</b> MRObjectDimensionsEnum.h:20</div></div>
 <div class="ttc" id="aMRObjectDimensionsEnum_8h_html_af715e26dfffd1f8de1c18449e2770cffaed9b8770ff8e8c4ae7cb6ae1557f5777"><div class="ttname"><a href="MRObjectDimensionsEnum_8h.html#af715e26dfffd1f8de1c18449e2770cffaed9b8770ff8e8c4ae7cb6ae1557f5777">MR_DimensionsVisualizePropertyType__count</a></div><div class="ttdeci">@ MR_DimensionsVisualizePropertyType__count</div><div class="ttdef"><b>Definition</b> MRObjectDimensionsEnum.h:21</div></div>
+<div class="ttc" id="aexports_8h_html"><div class="ttname"><a href="exports_8h.html">exports.h</a></div></div>
+<div class="ttc" id="aexports_8h_html_a83dd8809128f2fbd49b5c39d59179d4a"><div class="ttname"><a href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a></div><div class="ttdeci">#define MRC_API</div><div class="ttdef"><b>Definition</b> exports.h:11</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

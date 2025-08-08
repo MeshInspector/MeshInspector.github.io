@@ -14,12 +14,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -156,7 +150,7 @@ $(function(){initNavTree('MRVoxelFilter_8h_source.html',''); initResizable(true)
 <div class="contents">
 <a href="MRVoxelFilter_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;MRCMisc/exports.h&gt;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;<a class="code" href="exports_8h.html">MRCMisc/exports.h</a>&gt;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;stdint.h&gt;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
@@ -175,7 +169,7 @@ $(function(){initNavTree('MRVoxelFilter_8h_source.html',''); initResizable(true)
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="MRVoxelFilter_8h.html#aad393aa3e173d7f081ab4bbc6ba5027dae6ea9404c42c5fa75f72fdd0fa331c61">   19</a></span>    <a class="code hl_enumvalue" href="MRVoxelFilter_8h.html#aad393aa3e173d7f081ab4bbc6ba5027dae6ea9404c42c5fa75f72fdd0fa331c61">MR_VoxelFilterType_Gaussian</a> = 2,</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>};</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="MRVoxelFilter_8h.html#adf030758379bf013dad33ec9e73530aa">   28</a></span>MRC_API <a class="code hl_typedef" href="MRBox_8h.html#a3d8aa59058b2516d2c9b34241f2c0441">MR_VdbVolume</a> *<a class="code hl_function" href="MRVoxelFilter_8h.html#adf030758379bf013dad33ec9e73530aa">MR_voxelFilter</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRBox_8h.html#a3d8aa59058b2516d2c9b34241f2c0441">MR_VdbVolume</a> *volume, <a class="code hl_typedef" href="MRVoxelFilter_8h.html#af1f9b72638744700297e24b79a228cca">MR_VoxelFilterType</a> type, int32_t width);</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="MRVoxelFilter_8h.html#adf030758379bf013dad33ec9e73530aa">   28</a></span><a class="code hl_define" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="code hl_typedef" href="MRBox_8h.html#a3d8aa59058b2516d2c9b34241f2c0441">MR_VdbVolume</a> *<a class="code hl_function" href="MRVoxelFilter_8h.html#adf030758379bf013dad33ec9e73530aa">MR_voxelFilter</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="MRBox_8h.html#a3d8aa59058b2516d2c9b34241f2c0441">MR_VdbVolume</a> *volume, <a class="code hl_typedef" href="MRVoxelFilter_8h.html#af1f9b72638744700297e24b79a228cca">MR_VoxelFilterType</a> type, int32_t width);</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="preprocessor">#ifdef __cplusplus</span></div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>} <span class="comment">// extern &quot;C&quot;</span></div>
@@ -186,6 +180,8 @@ $(function(){initNavTree('MRVoxelFilter_8h_source.html',''); initResizable(true)
 <div class="ttc" id="aMRVoxelFilter_8h_html_aad393aa3e173d7f081ab4bbc6ba5027dafad98fadd79e10d56637f634782ae52d"><div class="ttname"><a href="MRVoxelFilter_8h.html#aad393aa3e173d7f081ab4bbc6ba5027dafad98fadd79e10d56637f634782ae52d">MR_VoxelFilterType_Median</a></div><div class="ttdeci">@ MR_VoxelFilterType_Median</div><div class="ttdef"><b>Definition</b> MRVoxelFilter.h:17</div></div>
 <div class="ttc" id="aMRVoxelFilter_8h_html_adf030758379bf013dad33ec9e73530aa"><div class="ttname"><a href="MRVoxelFilter_8h.html#adf030758379bf013dad33ec9e73530aa">MR_voxelFilter</a></div><div class="ttdeci">MRC_API MR_VdbVolume * MR_voxelFilter(const MR_VdbVolume *volume, MR_VoxelFilterType type, int32_t width)</div></div>
 <div class="ttc" id="aMRVoxelFilter_8h_html_af1f9b72638744700297e24b79a228cca"><div class="ttname"><a href="MRVoxelFilter_8h.html#af1f9b72638744700297e24b79a228cca">MR_VoxelFilterType</a></div><div class="ttdeci">int32_t MR_VoxelFilterType</div><div class="ttdef"><b>Definition</b> MRVoxelFilter.h:14</div></div>
+<div class="ttc" id="aexports_8h_html"><div class="ttname"><a href="exports_8h.html">exports.h</a></div></div>
+<div class="ttc" id="aexports_8h_html_a83dd8809128f2fbd49b5c39d59179d4a"><div class="ttname"><a href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a></div><div class="ttdeci">#define MRC_API</div><div class="ttdef"><b>Definition</b> exports.h:11</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->
