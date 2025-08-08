@@ -150,18 +150,48 @@ $(function(){initNavTree('MeshLibCSetupGuide.html',''); initResizable(true); });
 <div class="contents">
 <div class="textblock"><h1><a class="anchor" id="autotoc_md40"></a>
 Setting Up MeshLib for C Development</h1>
-<p>While MeshLib is a C++ library, we provide automatically generated C bindings for most of our C++ API.</p>
-<p>The C bindings are included in the <a class="el" href="MeshLibCppSetupGuide.html">binary releases</a>, which is the recommended method of installing them. But they can also be generated locally (see <a href="https://github.com/MeshInspector/MeshLib/blob/master/scripts/mrbind/README-generating.md">build instructions</a>).</p>
-<p>Follow the links above to either install prebuilt MeshLib or compile it yourself. As a result, you should get C headers (in the directory called <code>MRCMesh</code> and several other <code>MRC...</code> directories), and a compiled library named <code>MeshLibC2</code> (<code>MeshLibC2.dll</code> on Windows, <code>libMeshLibC2.so</code> on Linux, etc).</p>
-<p>The headers are self-contained and don't depend on the rest of the MeshLib headers. The library links against <code>MRMesh</code> and some of our other libraries.</p>
-<p>If you're consuming the C bindings from <a class="el" href="MeshLibCmakeSetupGuide.html">MeshLib CMake Setup Guide</a> CMake, use: </p><div class="fragment"><div class="line">target_link_libraries(your_project_name PUBLIC MeshLib::MeshLibC2)</div>
-</div><!-- fragment --><p> Otherwise, link against the <code>MeshLibC2</code> library manually.</p>
 <h2><a class="anchor" id="autotoc_md41"></a>
-Deprecated older C bindings</h2>
-<p>What is documented above (<code>MeshLibC2</code>) is the second version of our C bindings. Currently we also provide the first version, which is deprecated.</p>
+Using binary releases</h2>
+<p>The recommended way of using the C API is from the binary releases of MeshLib. Download them as explained in the <a class="el" href="MeshLibCppSetupGuide.html">installation instructions for C++</a>.</p>
+<p>The release archives include the C headers (in the directory called <code>MRCMesh</code> and several other <code>MRC...</code> directories), and a compiled library named <code>MeshLibC2</code> (<code>MeshLibC2.dll</code> on Windows, <code>libMeshLibC2.so</code> on Linux, etc). This library links against our C++ libraries (<code>MRMesh</code> and others) and provides C wrappers for them.</p>
+<p>If you're consuming the C API from <a class="el" href="MeshLibCmakeSetupGuide.html">MeshLib CMake Setup Guide</a> CMake, add the following to your <code>CMakeLists.txt</code>: </p><div class="fragment"><div class="line">target_link_libraries(your_project_name PUBLIC MeshLib::MeshLibC2)</div>
+</div><!-- fragment --><p> Otherwise, link against the <code>MeshLibC2</code> library manually.</p>
+<h2><a class="anchor" id="autotoc_md42"></a>
+Compiling the C bindings locally</h2>
+<p>The alternative to using the binary releases is to compile the C bindings locally.</p>
+<p>The source code of the C bindings is generated, and as such isn't included in the repository.</p>
+<p>The build process for C is almost exactly the same as that for C++, with the additional step of generating the C bindings first.</p>
+<ol type="1">
+<li>Install the prerequisites as explained in the <a class="el" href="MeshLibCppSetupGuide.html">installation guide for C++</a>.</li>
+<li><p class="startli">Install the prerequisites for the generator by running <code>scripts/mrbind/install_deps_&lt;platform&gt;</code>.</p>
+<p class="startli">If not using Windows, it must be ran as root.</p>
+<p class="startli">Do note that this script may install some packages into your system, such as a specific version of LLVM on Linux, or MSYS2 on Windows (a separate installation at <code>C:\msys64_meshlib_mrbind</code>).</p>
+<p class="startli">Note that MSYS2 is used on Windows for the generator, despite the rest of MeshLib being compiled with MSVC. We don't support compiling MeshLib itself in MSYS2.</p>
+</li>
+<li>Build the generator by running <code>scripts/mrbind/install_mrbind_&lt;platform&gt;</code>.</li>
+<li><p class="startli">Run the generator.</p>
+<p class="startli"><b>On Linux:</b> <code>make -f scripts/mrbind/generate.mk -B --trace</code></p>
+<p class="startli"><b>On Windows:</b> <code>scripts\mrbind\generate_win.bat -B --trace</code> from the VS developer command prompt (use the <code>x64 Native</code> prompt).</p>
+<p class="startli">This is equivalent to running the command we use on Linux in the MSYS2 shell.</p>
+<p class="startli"><b>On MacOS:</b></p>
+<p class="startli">The script <code>install_deps_macos.sh</code> that you can previously has installed GNU Make in <code>brew</code>. Add Make to the PATH using:</p>
+<p class="startli">On Arm Macs: <code>export PATH="/opt/homebrew/opt/make/libexec/gnubin:$PATH"</code> On x86 Macs: <code>export PATH="/usr/local/opt/make/libexec/gnubin:$PATH"</code></p>
+<p class="startli">Ensure that <code>make --version</code> is <code>4.x</code> and not older.</p>
+<p class="startli">Then run the same command as on Linux: <code>make -f scripts/mrbind/generate.mk -B --trace</code></p>
+<p class="startli">On success, the C headers and sources will be generated at <code>source/MeshLibC2/include</code> and <code>source/MeshLibC2/src</code> respectively.</p>
+</li>
+<li><p class="startli">Compile MeshLib.</p>
+<p class="startli">Compiling the C bindings is only supported using CMake, not MSBuild.</p>
+<p class="startli">Follow the steps for C++ outlined <a href="/ref MeshLibCmakeSetupGuide">here</a>, and additionally pass <code>-DMESHLIB_BUILD_GENERATED_C_BINDINGS=ON</code> to CMake.</p>
+<p class="startli">If you run <code>cmake --install ...</code> now, the C headers and libraries will be installed alongside the C++ ones.</p>
+</li>
+</ol>
+<h2><a class="anchor" id="autotoc_md43"></a>
+Deprecated older version of the C bindings</h2>
+<p>What is documented above (<code>MeshLibC2</code>) is the second version of our C API. Currently we also provide the first version, which is deprecated.</p>
 <p>The first version was written manually, and as such doesn't cover as much of our API as the second version, which is generated automatically.</p>
-<p>The new bindings install headers to a directory named <code>MRCMesh</code> and some other <code>MRC...</code> directories. The old bindings install headers to <code>MRMeshC</code>.</p>
-<p>The new bindings are compiled to a library named <code>MeshLibC2</code>, and the old ones are compiled to <code>MRMeshC</code>. </p>
+<p>The headers of the new bindings are installed to a directory named <code>MRCMesh</code> and some other <code>MRC...</code> directories, while for the old bindings they are installed to <code>MRMeshC</code>.</p>
+<p>The new bindings are compiled to a library named <code>MeshLibC2</code>, while the old ones are compiled to <code>MRMeshC</code>. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
