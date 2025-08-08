@@ -1371,7 +1371,6 @@ var searchData=
   ['concat_2eh_3',['Concat.h',['.././Cpp/Concat_8h.html',1,'']]],
   ['contourtriangulation_2edox_2ecpp_4',['ContourTriangulation.dox.cpp',['../ContourTriangulation_8dox_8cpp.html',1,'']]],
   ['cppsetupguide_2edox_5',['CppSetupGuide.dox',['../CppSetupGuide_8dox.html',1,'']]],
-  ['csetupguide_2edox_6',['CSetupGuide.dox',['../CSetupGuide_8dox.html',1,'']]],
-  ['csharpsetupguide_2edox_7',['CSharpSetupGuide.dox',['../CSharpSetupGuide_8dox.html',1,'']]],
-  ['cudaoffset_2edox_8',['CudaOffset.dox',['../CudaOffset_8dox.html',1,'']]],
+  ['csharpsetupguide_2edox_6',['CSharpSetupGuide.dox',['../CSharpSetupGuide_8dox.html',1,'']]],
+  ['cudaoffset_2edox_7',['CudaOffset.dox',['../CudaOffset_8dox.html',1,'']]],
 ];

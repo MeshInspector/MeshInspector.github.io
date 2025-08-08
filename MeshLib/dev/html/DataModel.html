@@ -155,7 +155,7 @@ $(function(){initNavTree('DataModel.html',''); initResizable(true); });
   ObjectMesh     ObjectPoints
       /
 JawScan, Tooth, ...
-</pre> <h2><a class="anchor" id="autotoc_md50"></a>
+</pre> <h2><a class="anchor" id="autotoc_md48"></a>
 Scene</h2>
 <p>Scene in MeshLib consists of a tree of object with one root, and all others objects are children or some grandchildren of scene root. Each object has its own name (e.g. Upper Jaw), transform, visibility, selected and ancillary flags. Ancillary objects are not shown in <a class="elRef" href="./Cpp/namespaceMR_1_1UI.html">UI</a> list but rendered in 3D and cannot be selected. For example, a scene can look like: </p><pre class="fragment">                Root
                  |
@@ -167,7 +167,7 @@ Scene</h2>
         /      \
     Jaw Scan   Tooth UL1 ...
 </pre><p> Objects inherit parameters from scene parent, for example transform and visibility. So all children are hidden if their parent is hidden irrespective of their own visibility field. And each object transform is the transform from local object space into parent's space. So if parent is moved, all objects are moved with it.</p>
-<h2><a class="anchor" id="autotoc_md51"></a>
+<h2><a class="anchor" id="autotoc_md49"></a>
 Serialization</h2>
 <p>To serialize object tree one needs to call </p><div class="fragment"><div class="line"><span class="comment">// saves object subtree in given scene file (zip/mru)</span></div>
 <div class="line"><span class="comment">// format specification:</span></div>
@@ -188,7 +188,7 @@ Serialization</h2>
 <div class="line"><span class="comment">// loading is controlled with Object::deserializeModel_ and Object::deserializeFields_</span></div>
 <div class="line"><a class="code hl_defineRef" href="./Cpp/MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> tl::expected&lt;Object, std::string&gt; <a class="code hl_functionRef" href="./Cpp/group__DataModelGroup.html#ga5058cc4a63ce3a27970db1903d9c221d">deserializeObjectTree</a>(<span class="keyword">const</span> std::filesystem::path&amp; path);</div>
 <div class="ttc" id="agroup__DataModelGroup_html_ga5058cc4a63ce3a27970db1903d9c221d"><div class="ttname"><a href="./Cpp/group__DataModelGroup.html#ga5058cc4a63ce3a27970db1903d9c221d">MR::deserializeObjectTree</a></div><div class="ttdeci">MRMESH_API Expected&lt; LoadedObject &gt; deserializeObjectTree(const std::filesystem::path &amp;path, const FolderCallback &amp;postDecompress={}, const ProgressCallback &amp;progressCb={})</div></div>
-</div><!-- fragment --><h2><a class="anchor" id="autotoc_md52"></a>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md50"></a>
 Inheritance</h2>
 <p>To create your own object type you need to make class derived from one of base class:</p><ol type="1">
 <li>If you need object with mesh and some extra methods and fields you should derive from <a class="elRef" href="./Cpp/classMR_1_1ObjectMesh.html">ObjectMesh</a></li>
