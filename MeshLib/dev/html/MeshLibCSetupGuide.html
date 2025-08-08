@@ -152,14 +152,14 @@ $(function(){initNavTree('MeshLibCSetupGuide.html',''); initResizable(true); });
 Setting Up MeshLib for C Development</h1>
 <dl class="section note"><dt>Note</dt><dd>Two versions of the C API currently coexist:</dd>
 <dd>
-* v2 (the recommended default) — the library is called <code>MeshLibC2</code>, and the headers are in <code>MRC*</code> directories.</dd>
+- v2 (the recommended default) — the library is called <code>MeshLibC2</code>, and the headers are in the the <code>MRC*</code> directories.</dd>
 <dd>
-* v1 (deprecated) — the library is called <code>MRMeshC</code>, and the headers are in the <code>MRMeshC</code> directory. This version only exposes a small part of MeshLib. The support for v1 will be dropped by the end of 2025.</dd></dl>
+- v1 (deprecated) — the library is called <code>MRMeshC</code>, and the headers are in the <code>MRMeshC</code> directory. This version only exposes a small part of MeshLib. The support for v1 will be dropped by the end of 2025.</dd></dl>
 <h2><a class="anchor" id="autotoc_md41"></a>
 Using binary releases</h2>
-<p>The recommended way of using the C API is from the binary releases of MeshLib. Download them as explained in the <a class="el" href="MeshLibCppSetupGuide.html">installation instructions for C++</a>.</p>
+<p>The recommended way of using the C API is using the binary releases of MeshLib. Download them as explained in the <a class="el" href="MeshLibCppSetupGuide.html">installation instructions for C++</a>.</p>
 <p>The release archives include the C headers (in the directory called <code>MRCMesh</code> and several other <code>MRC...</code> directories), and a compiled library named <code>MeshLibC2</code> (<code>MeshLibC2.dll</code> on Windows, <code>libMeshLibC2.so</code> on Linux, etc). This library links against our C++ libraries (<code>MRMesh</code> and others) and provides C wrappers for them.</p>
-<p>If you're consuming the C API from <a class="el" href="MeshLibCmakeSetupGuide.html">MeshLib CMake Setup Guide</a> CMake, add the following to your <code>CMakeLists.txt</code>: </p><div class="fragment"><div class="line">target_link_libraries(your_project_name PUBLIC MeshLib::MeshLibC2)</div>
+<p>If you're consuming the C API from <a class="el" href="MeshLibCmakeSetupGuide.html">CMake</a>, add the following to your <code>CMakeLists.txt</code>: </p><div class="fragment"><div class="line">target_link_libraries(your_project_name PUBLIC MeshLib::MeshLibC2)</div>
 </div><!-- fragment --><p> Otherwise, link against the <code>MeshLibC2</code> library manually.</p>
 <h2><a class="anchor" id="autotoc_md42"></a>
 Compiling the C bindings locally</h2>
