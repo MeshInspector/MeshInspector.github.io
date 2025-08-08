@@ -14,31 +14,49 @@ if [ $? -ne 0 ]; then
     exit 1
 fi
 
-#create output directory
+# create output directory
 mkdir -p ${TARGET_DIR}/html
-#clear output directory
+# clear output directory
 rm -rf ${TARGET_DIR}/html/*
 
 MODULES=(Main Cpp Py C)
-#generate tag files
+# generate tag files
 for MODULE in ${MODULES[*]}
 do
-    sed -e "s|GENERATE_TAGFILE\s*=.*|GENERATE_TAGFILE = MeshLib/MeshLib${MODULE}.tag|" -i Doxyfile${MODULE}
-    doxygen ./Doxyfile${MODULE} 1 >> log_tag.txt
-    sed -e "s|GENERATE_TAGFILE\s*=.*|GENERATE_TAGFILE =|" -i Doxyfile${MODULE}
+    cp Doxyfile${MODULE} Doxyfile${MODULE}Tag
+    echo "GENERATE_TAGFILE = MeshLib/MeshLib${MODULE}.tag" >> Doxyfile${MODULE}Tag
+    doxygen ./Doxyfile${MODULE}Tag 1 >> log_tag.txt
+    rm Doxyfile${MODULE}Tag
 done
 rm -rf ${TARGET_DIR}/html/*
 
-#final generation of documentation
-sed -e "s|TAGFILES\s*=.*|TAGFILES = MeshLib/MeshLibPy.tag=./Py MeshLib/MeshLibCpp.tag=./Cpp MeshLib/MeshLibC.tag=./C|" -i DoxyfileMain
-doxygen ./DoxyfileMain 1 >> log.txt
-sed -e 's|<\!-- No Index Part -->|<meta name=\"robots\" content=\"noindex, nofollow\">|' -i html_header.html
-sed -e "s|TAGFILES\s*=.*|TAGFILES = MeshLib/MeshLibMain.tag=../ MeshLib/MeshLibCpp.tag=../Cpp MeshLib/MeshLibC.tag=../C|" -i DoxyfilePy
-doxygen ./DoxyfilePy 1 >> log.txt
-sed -e "s|TAGFILES\s*=.*|TAGFILES = MeshLib/MeshLibMain.tag=../ MeshLib/MeshLibPy.tag=../Py MeshLib/MeshLibC.tag=../C|" -i DoxyfileCpp
-doxygen ./DoxyfileCpp 1 >> log.txt
-sed -e "s|TAGFILES\s*=.*|TAGFILES = MeshLib/MeshLibMain.tag=../ MeshLib/MeshLibCpp.tag=../Cpp MeshLib/MeshLibPy.tag=../Py|" -i DoxyfileC
-doxygen ./DoxyfileC 1 >> log.txt
+# final generation of documentation
+for MODULE in ${MODULES[*]}
+do
+    cp Doxyfile${MODULE} Doxyfile${MODULE}Tag
+    DIR=".."
+    if [ "$MODULE" = "Main" ]; then
+        DIR="."
+    fi
+    for MODULE_2 in ${MODULES[*]}
+    do
+        if [ "$MODULE" = "$MODULE_2" ]; then
+            continue
+        elif [ "$MODULE_2" = "Main" ]; then
+            echo "TAGFILES += MeshLib/MeshLib${MODULE_2}.tag=../" >> Doxyfile${MODULE}Tag
+        else
+            echo "TAGFILES += MeshLib/MeshLib${MODULE_2}.tag=${DIR}/${MODULE_2}/" >> Doxyfile${MODULE}Tag
+        fi
+    done
+    doxygen ./Doxyfile${MODULE}Tag 1 >> log.txt    
+    rm Doxyfile${MODULE}Tag
+done
+
+# remove tag files
+for MODULE in ${MODULES[*]}
+do
+    rm -f MeshLib/MeshLib${MODULE}.tag
+done
 
 ./scripts/update_search.sh "$TARGET_DIR"
 ./scripts/restore_files.sh

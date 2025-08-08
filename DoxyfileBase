@@ -1,0 +1,26 @@
+PROJECT_LOGO           = favicon.ico
+OUTPUT_DIRECTORY       = MeshLib
+FULL_PATH_NAMES        = NO
+TOC_INCLUDE_HEADINGS   = 5
+EXTRACT_ALL            = YES
+CASE_SENSE_NAMES       = YES
+WARN_IF_UNDOCUMENTED   = NO
+WARN_IF_INCOMPLETE_DOC = NO
+RECURSIVE              = YES
+IMAGE_PATH             = img/
+HTML_EXTRA_STYLESHEET  = ../MeshLib/doxygen/CustomStyle.css \
+                         ./doxygen-awesome-css/doxygen-awesome.css \
+                         ./doxygen-awesome-css/doxygen-awesome-sidebar-only.css \
+                         ./doxygen-awesome-css/doxygen-awesome-sidebar-only-darkmode-toggle.css
+HTML_EXTRA_FILES       = ./doxygen-awesome-css/doxygen-awesome-darkmode-toggle.js \
+                         ./doxygen-awesome-css/doxygen-awesome-paragraph-link.js \
+                         ./doxygen-awesome-css/doxygen-awesome-interactive-toc.js \
+                         ./doxygen-awesome-css/doxygen-awesome-tabs.js
+HTML_COLORSTYLE        = LIGHT
+HTML_DYNAMIC_SECTIONS  = YES
+GENERATE_TREEVIEW      = YES
+USE_MATHJAX            = YES
+MATHJAX_RELPATH        = https://cdn.jsdelivr.net/npm/mathjax@2
+GENERATE_LATEX         = NO
+HTML_HEADER            = html_header.html
+HTML_FOOTER            = html_footer.html
