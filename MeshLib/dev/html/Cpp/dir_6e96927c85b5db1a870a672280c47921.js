@@ -102,6 +102,7 @@ var dir_6e96927c85b5db1a870a672280c47921 =
     [ "MRSceneCache.h", "MRSceneCache_8h.html", "MRSceneCache_8h" ],
     [ "MRSceneObjectsListDrawer.h", "MRSceneObjectsListDrawer_8h.html", "MRSceneObjectsListDrawer_8h" ],
     [ "MRSceneOperations.h", "MRSceneOperations_8h.html", "MRSceneOperations_8h" ],
+    [ "MRSceneReorder.h", "MRSceneReorder_8h.html", "MRSceneReorder_8h" ],
     [ "MRSceneSelectionChange.h", "MRSceneSelectionChange_8h.html", "MRSceneSelectionChange_8h" ],
     [ "MRSceneStateCheck.h", "MRSceneStateCheck_8h.html", "MRSceneStateCheck_8h" ],
     [ "MRSceneTextureGL.h", "MRSceneTextureGL_8h.html", "MRSceneTextureGL_8h" ],
@@ -156,6 +157,5 @@ var dir_6e96927c85b5db1a870a672280c47921 =
     [ "MRVisualObjectTag.h", "MRVisualObjectTag_8h.html", "MRVisualObjectTag_8h" ],
     [ "MRVisualSubfeatures.h", "MRVisualSubfeatures_8h.html", "MRVisualSubfeatures_8h" ],
     [ "MRVolumeShader.h", "MRVolumeShader_8h.html", "MRVolumeShader_8h" ],
-    [ "MRWebRequest.h", "MRWebRequest_8h.html", "MRWebRequest_8h" ],
-    [ "SceneReorder.h", "SceneReorder_8h.html", "SceneReorder_8h" ]
+    [ "MRWebRequest.h", "MRWebRequest_8h.html", "MRWebRequest_8h" ]
 ];
