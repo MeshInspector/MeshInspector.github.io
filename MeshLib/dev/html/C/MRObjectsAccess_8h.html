@@ -186,6 +186,8 @@ Functions</h2></td></tr>
 <tr class="separator:aedd2ef4c4d56fbc004e189f0e99598e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b8b5c4404e57a674d6b37344f985ac3" id="r_a5b8b5c4404e57a674d6b37344f985ac3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRHeapBytes_8h.html#acc2f4e4d04631180d278fad84fbbc6cf">MR_std_vector_std_shared_ptr_MR_Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b8b5c4404e57a674d6b37344f985ac3">MR_getTopmostVisibleObjects</a> (<a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> *root, const <a class="el" href="#a8d1c9e56cf76f984fa3dc92f7d63e0bc">MR_ObjectSelectivityType</a> *type)</td></tr>
 <tr class="separator:a5b8b5c4404e57a674d6b37344f985ac3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae04bfc2590369804bdb38615f71f3e43" id="r_ae04bfc2590369804bdb38615f71f3e43"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRHeapBytes_8h.html#acc2f4e4d04631180d278fad84fbbc6cf">MR_std_vector_std_shared_ptr_MR_Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae04bfc2590369804bdb38615f71f3e43">MR_getTopmostObjects</a> (<a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> *root, const <a class="el" href="#a8d1c9e56cf76f984fa3dc92f7d63e0bc">MR_ObjectSelectivityType</a> *type, const bool *visibilityCheck)</td></tr>
+<tr class="separator:ae04bfc2590369804bdb38615f71f3e43"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad4cc2908d4e1434eaae9a31ee054c7e6" id="r_ad4cc2908d4e1434eaae9a31ee054c7e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4cc2908d4e1434eaae9a31ee054c7e6">MR_getDepthFirstObject</a> (<a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> *root, const <a class="el" href="#a8d1c9e56cf76f984fa3dc92f7d63e0bc">MR_ObjectSelectivityType</a> *type)</td></tr>
 <tr class="separator:ad4cc2908d4e1434eaae9a31ee054c7e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a653f785ed288a907dc5b4f26e4defbc5" id="r_a653f785ed288a907dc5b4f26e4defbc5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a653f785ed288a907dc5b4f26e4defbc5">MR_objectHasSelectableChildren</a> (const <a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> *object)</td></tr>
@@ -337,6 +339,33 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>return first object of given type in depth-first traverse order excluding root Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#afa3e42d954c50c383af5c20a059e34d2">MR::getDepthFirstObject</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1Object.html">MR::Object</a>&gt;</code>. Parameter <code>type</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__shared__ptr__MR__Object_8h.html#ac4d53a470c9103f8ebd58aa32856108e" title="Destroys a heap-allocated instance of MR_std_shared_ptr_MR_Object. Does nothing if the pointer is nul...">MR_std_shared_ptr_MR_Object_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ae04bfc2590369804bdb38615f71f3e43" name="ae04bfc2590369804bdb38615f71f3e43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae04bfc2590369804bdb38615f71f3e43">&#9670;&#160;</a></span>MR_getTopmostObjects()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRHeapBytes_8h.html#acc2f4e4d04631180d278fad84fbbc6cf">MR_std_vector_std_shared_ptr_MR_Object</a> * MR_getTopmostObjects </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRGltf_8h.html#accce9c9179cadabc541edda0fc7a2571">MR_Object</a> *</td>          <td class="paramname"><span class="paramname"><em>root</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a8d1c9e56cf76f984fa3dc92f7d63e0bc">MR_ObjectSelectivityType</a> *</td>          <td class="paramname"><span class="paramname"><em>type</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool *</td>          <td class="paramname"><span class="paramname"><em>visibilityCheck</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns all topmost objects of given type (if an object is returned, its children are not) excluding root Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#acc9b485a213ffb2eef8b1f8736275915">MR::getTopmostObjects</a>&lt;<a class="elRef" href="../Cpp/classMR_1_1Object.html">MR::Object</a>&gt;</code>. Parameter <code>type</code> is a single object. Parameter <code>type</code> has a default argument: <code>ObjectSelectivityType::Selectable</code>, pass a null pointer to use it. Parameter <code>visibilityCheck</code> has a default argument: <code>false</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__std__shared__ptr__MR__Object_8h.html#a983b62aedeaffd24d599c66c1e83f710" title="Destroys a heap-allocated instance of MR_std_vector_std_shared_ptr_MR_Object. Does nothing if the poi...">MR_std_vector_std_shared_ptr_MR_Object_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>

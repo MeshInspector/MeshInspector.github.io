@@ -1,5 +1,11 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1ConeFittingFunctor.html#a5ce1dbf9d17f2aa05b508ef6df6e7151":[6,0,2,0,1,133,5],
+"structMR_1_1ConeFittingFunctor.html#a75f4a1b12abfd495f279861dbfe344c6":[6,0,1,0,1,151,6],
+"structMR_1_1ConeFittingFunctor.html#a75f4a1b12abfd495f279861dbfe344c6":[6,0,2,0,1,133,6],
+"structMR_1_1ConeFittingFunctor.html#a8dd8ae0c1112caf1a8fcd5fca885de56":[6,0,1,0,1,151,7],
+"structMR_1_1ConeFittingFunctor.html#a8dd8ae0c1112caf1a8fcd5fca885de56":[6,0,2,0,1,133,7],
+"structMR_1_1ConeFittingFunctor.html#ab4532230e1c01c5aa993bb6427bcc60a":[6,0,1,0,1,151,9],
 "structMR_1_1ConeFittingFunctor.html#ab4532230e1c01c5aa993bb6427bcc60a":[6,0,2,0,1,133,9],
 "structMR_1_1ConeFittingFunctor.html#ab7852ba7e80ebd7f4f5dcc9d8d7c318d":[6,0,1,0,1,151,4],
 "structMR_1_1ConeFittingFunctor.html#ab7852ba7e80ebd7f4f5dcc9d8d7c318d":[6,0,2,0,1,133,4],
@@ -243,11 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1DistanceFromWeightedPointsParams.html#a1eaf010a7c663adafe798fdd9007fe6c":[6,0,2,0,1,167,3],
 "structMR_1_1DistanceFromWeightedPointsParams.html#a2167c5cb63bc5340893e5ba8381e5de4":[6,0,1,0,1,185,1],
 "structMR_1_1DistanceFromWeightedPointsParams.html#a2167c5cb63bc5340893e5ba8381e5de4":[6,0,2,0,1,167,1],
-"structMR_1_1DistanceFromWeightedPointsParams.html#a443641ce50f2d662bdd033199017d2c2":[6,0,1,0,1,185,0],
-"structMR_1_1DistanceFromWeightedPointsParams.html#a443641ce50f2d662bdd033199017d2c2":[6,0,2,0,1,167,0],
-"structMR_1_1DistanceFromWeightedPointsParams.html#ad08ccac9ccc26dcee3fa49c052003500":[6,0,1,0,1,185,2],
-"structMR_1_1DistanceFromWeightedPointsParams.html#ad08ccac9ccc26dcee3fa49c052003500":[6,0,2,0,1,167,2],
-"structMR_1_1DistanceMapLoadSettings.html":[6,0,0,5,6],
-"structMR_1_1DistanceMapLoadSettings.html#a4329716168946bea274736a95808880e":[6,0,0,5,6,0],
-"structMR_1_1DistanceMapLoadSettings.html#ac98a6aecff7b146c598462c9c382a18f":[6,0,0,5,6,1]
+"structMR_1_1DistanceFromWeightedPointsParams.html#a443641ce50f2d662bdd033199017d2c2":[6,0,1,0,1,185,0]
 };

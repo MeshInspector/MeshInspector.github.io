@@ -185,6 +185,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1UI_1_1SaveChangesPopupSettings.html">SaveChangesPopupSettings</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1UI_1_1SeparatorParams.html">SeparatorParams</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters for drawing custom separator.  <a href="structMR_1_1UI_1_1SeparatorParams.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1UI_1_1WindowRectAllocator.html">WindowRectAllocator</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -347,6 +350,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a872e637e1fc6bb7aa391dc842b565ed0" id="r_a872e637e1fc6bb7aa391dc842b565ed0"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a872e637e1fc6bb7aa391dc842b565ed0">setTooltipIfHovered</a> (const std::string &amp;text, float scaling)</td></tr>
 <tr class="memdesc:a872e637e1fc6bb7aa391dc842b565ed0"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw tooltip only if current item is hovered  <br /></td></tr>
 <tr class="separator:a872e637e1fc6bb7aa391dc842b565ed0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e264402fc5ed218260df4a079a0ec11" id="r_a1e264402fc5ed218260df4a079a0ec11"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e264402fc5ed218260df4a079a0ec11">separator</a> (float scaling, const <a class="el" href="structMR_1_1UI_1_1SeparatorParams.html">SeparatorParams</a> &amp;params)</td></tr>
+<tr class="memdesc:a1e264402fc5ed218260df4a079a0ec11"><td class="mdescLeft">&#160;</td><td class="mdescRight">separator line with customizations  <br /></td></tr>
+<tr class="separator:a1e264402fc5ed218260df4a079a0ec11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17f2b30eb00e5aa94812541ac268a30f" id="r_a17f2b30eb00e5aa94812541ac268a30f"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17f2b30eb00e5aa94812541ac268a30f">separator</a> (float scaling, const std::string &amp;text=&quot;&quot;, int issueCount=-1)</td></tr>
 <tr class="separator:a17f2b30eb00e5aa94812541ac268a30f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a18b9183fbf887e8e6930c577d92fa409" id="r_a18b9183fbf887e8e6930c577d92fa409"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18b9183fbf887e8e6930c577d92fa409">separator</a> (float scaling, const std::string &amp;text, const ImVec4 &amp;color, const std::string &amp;issueCount)</td></tr>
@@ -2212,7 +2218,7 @@ template&lt;UnitEnum E, detail::VectorOrScalar T&gt; </div>
 </div>
 </div>
 <a id="a44947bf84615148fe9afb91d1895d231" name="a44947bf84615148fe9afb91d1895d231"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a44947bf84615148fe9afb91d1895d231">&#9670;&#160;</a></span>separator() <span class="overload">[1/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a44947bf84615148fe9afb91d1895d231">&#9670;&#160;</a></span>separator() <span class="overload">[1/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2242,8 +2248,31 @@ template&lt;UnitEnum E, detail::VectorOrScalar T&gt; </div>
 
 </div>
 </div>
+<a id="a1e264402fc5ed218260df4a079a0ec11" name="a1e264402fc5ed218260df4a079a0ec11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e264402fc5ed218260df4a079a0ec11">&#9670;&#160;</a></span>separator() <span class="overload">[2/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API void MR::UI::separator </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>scaling</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1UI_1_1SeparatorParams.html">SeparatorParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>separator line with customizations </p>
+
+</div>
+</div>
 <a id="a63e011139a97a30e31e34d070e0f0e11" name="a63e011139a97a30e31e34d070e0f0e11"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a63e011139a97a30e31e34d070e0f0e11">&#9670;&#160;</a></span>separator() <span class="overload">[2/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a63e011139a97a30e31e34d070e0f0e11">&#9670;&#160;</a></span>separator() <span class="overload">[3/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2274,7 +2303,7 @@ template&lt;UnitEnum E, detail::VectorOrScalar T&gt; </div>
 </div>
 </div>
 <a id="a18b9183fbf887e8e6930c577d92fa409" name="a18b9183fbf887e8e6930c577d92fa409"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a18b9183fbf887e8e6930c577d92fa409">&#9670;&#160;</a></span>separator() <span class="overload">[3/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a18b9183fbf887e8e6930c577d92fa409">&#9670;&#160;</a></span>separator() <span class="overload">[4/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2305,7 +2334,7 @@ template&lt;UnitEnum E, detail::VectorOrScalar T&gt; </div>
 </div>
 </div>
 <a id="a17f2b30eb00e5aa94812541ac268a30f" name="a17f2b30eb00e5aa94812541ac268a30f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a17f2b30eb00e5aa94812541ac268a30f">&#9670;&#160;</a></span>separator() <span class="overload">[4/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a17f2b30eb00e5aa94812541ac268a30f">&#9670;&#160;</a></span>separator() <span class="overload">[5/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

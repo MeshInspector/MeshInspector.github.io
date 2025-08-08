@@ -1130,6 +1130,7 @@ var hierarchy =
     [ "MR::SegmentSegmentIntersectResult", "structMR_1_1SegmentSegmentIntersectResult.html", null ],
     [ "MR::SegmPoint< T >", "structMR_1_1SegmPoint.html", null ],
     [ "MR::SeparationPointStorage", "classMR_1_1SeparationPointStorage.html", null ],
+    [ "MR::UI::SeparatorParams", "structMR_1_1UI_1_1SeparatorParams.html", null ],
     [ "MR::SetBitIteratorT< T >", "classMR_1_1SetBitIteratorT.html", null ],
     [ "MR::SetNew", "structMR_1_1SetNew.html", null ],
     [ "MR::GlTexture::Settings", "structMR_1_1GlTexture_1_1Settings.html", null ],

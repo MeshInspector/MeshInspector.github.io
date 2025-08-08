@@ -5,6 +5,8 @@ var MRObjectsAccess_8h =
     [ "getAllObjectsInTree", "MRObjectsAccess_8h.html#a60db6fdac099905987b703a7fffe4746", null ],
     [ "getDepthFirstObject", "MRObjectsAccess_8h.html#a2ff9113ffb18df4c828b1e222c0ba236", null ],
     [ "getDepthFirstObject", "MRObjectsAccess_8h.html#afa3e42d954c50c383af5c20a059e34d2", null ],
+    [ "getTopmostObjects", "MRObjectsAccess_8h.html#a89eaebb12e7fa96ec37a3b982eb9cbe7", null ],
+    [ "getTopmostObjects", "MRObjectsAccess_8h.html#acc9b485a213ffb2eef8b1f8736275915", null ],
     [ "getTopmostVisibleObjects", "MRObjectsAccess_8h.html#a1bbf155b27ef19dd7f54b2e9a534f397", null ],
     [ "getTopmostVisibleObjects", "MRObjectsAccess_8h.html#a7afd4c6187926b10b71f8631961165a0", null ],
     [ "objectHasSelectableChildren", "MRObjectsAccess_8h.html#a8e83df3805927f1f6c006f596809d97a", null ],

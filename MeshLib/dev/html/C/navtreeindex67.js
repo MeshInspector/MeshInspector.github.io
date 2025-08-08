@@ -1,5 +1,6 @@
 var NAVTREEINDEX67 =
 {
+"MRPointObject_8h.html#afbcae48d7f662887e00fa2ba870a6d0e":[6,2,1,0,0,0,1,247,31],
 "MRPointObject_8h.html#aff93746de8efe15fd5fa764838b71e9b":[6,2,1,0,0,0,1,247,0],
 "MRPointObject_8h_source.html":[6,2,1,0,0,0,1,247],
 "MRPointOnFace_8h.html":[6,2,1,0,0,0,1,248],
@@ -248,6 +249,5 @@ var NAVTREEINDEX67 =
 "MRPointsProject_8h.html#abec7d3f0f19c055f3b593bad628f6097":[6,2,1,0,0,0,1,255,25],
 "MRPointsProject_8h.html#ac2fd154651c04c678c524f6248f992f0":[6,2,1,0,0,0,1,255,41],
 "MRPointsProject_8h.html#ac5ebecc1cdf4196d4d2ddaeeb82a0771":[6,2,1,0,0,0,1,255,9],
-"MRPointsProject_8h.html#ac72c214b018ab5320946450d5aa03797":[6,2,1,0,0,0,1,255,28],
-"MRPointsProject_8h.html#acb32ad301fda87cda235f254e37b4be1":[6,2,1,0,0,0,1,255,48]
+"MRPointsProject_8h.html#ac72c214b018ab5320946450d5aa03797":[6,2,1,0,0,0,1,255,28]
 };

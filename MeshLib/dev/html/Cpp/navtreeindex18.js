@@ -1,5 +1,8 @@
 var NAVTREEINDEX18 =
 {
+"MRVisualSubfeatures_8h_source.html":[6,0,3,0,0,1,11,155],
+"MRVolumeIndexer_8h.html":[6,0,3,0,0,1,4,409],
+"MRVolumeIndexer_8h_source.html":[6,0,3,0,0,1,4,409],
 "MRVolumeInterpolation_8h.html":[6,0,3,0,0,1,12,31],
 "MRVolumeInterpolation_8h.html#aca1f6e889fadd4d30603c3cffcf9a930":[6,0,3,0,0,1,12,31,1],
 "MRVolumeInterpolation_8h_source.html":[6,0,3,0,0,1,12,31],
@@ -246,8 +249,5 @@ var NAVTREEINDEX18 =
 "classMR_1_1AddVisualProperties.html":[6,0,1,0,1,53],
 "classMR_1_1AddVisualProperties.html":[6,0,2,0,1,35],
 "classMR_1_1AddVisualProperties.html#a06796f32f035d58e6a320f35f1845cf1":[6,0,1,0,1,53,3],
-"classMR_1_1AddVisualProperties.html#a06796f32f035d58e6a320f35f1845cf1":[6,0,2,0,1,35,3],
-"classMR_1_1AddVisualProperties.html#a099d73dfec242eced929d4f4705c90fd":[6,0,1,0,1,53,2],
-"classMR_1_1AddVisualProperties.html#a099d73dfec242eced929d4f4705c90fd":[6,0,2,0,1,35,2],
-"classMR_1_1AddVisualProperties.html#a534fe1b7809ccb50abd437a88b6c1412":[6,0,1,0,1,53,4]
+"classMR_1_1AddVisualProperties.html#a06796f32f035d58e6a320f35f1845cf1":[6,0,2,0,1,35,3]
 };

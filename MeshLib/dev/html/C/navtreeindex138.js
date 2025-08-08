@@ -1,5 +1,6 @@
 var NAVTREEINDEX138 =
 {
+"std__vector__MR__Line3Mesh__float_8h.html#a171ac6e7730dd7ddcef0f18fe246d306":[6,2,1,0,0,0,2,317,44],
 "std__vector__MR__Line3Mesh__float_8h.html#a19f78e17d3cafd818a8043f4033ee1c1":[6,2,1,0,0,0,2,317,61],
 "std__vector__MR__Line3Mesh__float_8h.html#a1b53d51084536e852b22b7143acde171":[6,2,1,0,0,0,2,317,30],
 "std__vector__MR__Line3Mesh__float_8h.html#a1c0d0cba42a139376a8f4bc195f10eed":[6,2,1,0,0,0,2,317,42],
@@ -248,6 +249,5 @@ var NAVTREEINDEX138 =
 "std__vector__MR__MeshBuilder__VertDuplication_8h.html#a87c48362ac72b11c5aeb910c230c1a66":[6,2,1,0,0,0,2,321,24],
 "std__vector__MR__MeshBuilder__VertDuplication_8h.html#a908190d5706a348344593c41505c4cbc":[6,2,1,0,0,0,2,321,10],
 "std__vector__MR__MeshBuilder__VertDuplication_8h.html#a9134d7041278ac359d3d999dd909c898":[6,2,1,0,0,0,2,321,54],
-"std__vector__MR__MeshBuilder__VertDuplication_8h.html#a94c065acfafdefdce1c5759e4f417ddf":[6,2,1,0,0,0,2,321,69],
-"std__vector__MR__MeshBuilder__VertDuplication_8h.html#a9901cb42f5b5f67d35e1c0840795c6b9":[6,2,1,0,0,0,2,321,62]
+"std__vector__MR__MeshBuilder__VertDuplication_8h.html#a94c065acfafdefdce1c5759e4f417ddf":[6,2,1,0,0,0,2,321,69]
 };

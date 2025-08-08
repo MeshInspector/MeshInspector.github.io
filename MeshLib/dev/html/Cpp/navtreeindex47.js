@@ -1,5 +1,8 @@
 var NAVTREEINDEX47 =
 {
+"classMR_1_1TransformControls.html#a1810cd6d6011cc4ce0cb10bc2aa2519b":[6,0,2,0,1,710,6],
+"classMR_1_1TransformControls.html#a3a7df5875b5301404b9e5d70f327b3ae":[6,0,1,0,1,728,8],
+"classMR_1_1TransformControls.html#a3a7df5875b5301404b9e5d70f327b3ae":[6,0,2,0,1,710,8],
 "classMR_1_1TransformControls.html#a40e18d7c493840cc01d3164d427a66bb":[6,0,1,0,1,728,2],
 "classMR_1_1TransformControls.html#a40e18d7c493840cc01d3164d427a66bb":[6,0,2,0,1,710,2],
 "classMR_1_1TransformControls.html#a6e2a9b27f44bb930e9a41be1f8fd7a06":[6,0,1,0,1,728,1],
@@ -88,12 +91,12 @@ var NAVTREEINDEX47 =
 "classMR_1_1UI_1_1RectAllocator.html#a82d78572d266d3a2f29eadf99dd00f9e":[6,0,2,0,1,23,9,2],
 "classMR_1_1UI_1_1RectAllocator.html#ae453c167334b49a2d08f4bffa76c0fe2":[6,0,1,0,1,40,10,3],
 "classMR_1_1UI_1_1RectAllocator.html#ae453c167334b49a2d08f4bffa76c0fe2":[6,0,2,0,1,23,9,3],
-"classMR_1_1UI_1_1WindowRectAllocator.html":[6,0,1,0,1,40,12],
-"classMR_1_1UI_1_1WindowRectAllocator.html":[6,0,2,0,1,23,11],
-"classMR_1_1UI_1_1WindowRectAllocator.html#a38bb8cbe2433b411b130857219fc3be4":[6,0,1,0,1,40,12,1],
-"classMR_1_1UI_1_1WindowRectAllocator.html#a38bb8cbe2433b411b130857219fc3be4":[6,0,2,0,1,23,11,1],
-"classMR_1_1UI_1_1WindowRectAllocator.html#ae4aa3ae308165ceab5cad3ae36dd1131":[6,0,1,0,1,40,12,0],
-"classMR_1_1UI_1_1WindowRectAllocator.html#ae4aa3ae308165ceab5cad3ae36dd1131":[6,0,2,0,1,23,11,0],
+"classMR_1_1UI_1_1WindowRectAllocator.html":[6,0,1,0,1,40,13],
+"classMR_1_1UI_1_1WindowRectAllocator.html":[6,0,2,0,1,23,12],
+"classMR_1_1UI_1_1WindowRectAllocator.html#a38bb8cbe2433b411b130857219fc3be4":[6,0,1,0,1,40,13,1],
+"classMR_1_1UI_1_1WindowRectAllocator.html#a38bb8cbe2433b411b130857219fc3be4":[6,0,2,0,1,23,12,1],
+"classMR_1_1UI_1_1WindowRectAllocator.html#ae4aa3ae308165ceab5cad3ae36dd1131":[6,0,1,0,1,40,13,0],
+"classMR_1_1UI_1_1WindowRectAllocator.html#ae4aa3ae308165ceab5cad3ae36dd1131":[6,0,2,0,1,23,12,0],
 "classMR_1_1UndirectedEdgeIterator.html":[6,0,1,0,1,743],
 "classMR_1_1UndirectedEdgeIterator.html":[6,0,2,0,1,725],
 "classMR_1_1UndirectedEdgeIterator.html#a14b6e326990c49dd287dac693682485e":[6,0,1,0,1,743,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX47 =
 "classMR_1_1Viewer.html#a1664fe6806ea8c61b2e41b536c6f504c":[6,0,2,0,1,752,211],
 "classMR_1_1Viewer.html#a1747b85f1a561ad143a87af606bf91ac":[6,0,1,0,1,770,159],
 "classMR_1_1Viewer.html#a1747b85f1a561ad143a87af606bf91ac":[6,0,2,0,1,752,159],
-"classMR_1_1Viewer.html#a189e303426332fa5073bbe325ff96089":[6,0,1,0,1,770,196],
-"classMR_1_1Viewer.html#a189e303426332fa5073bbe325ff96089":[6,0,2,0,1,752,196],
-"classMR_1_1Viewer.html#a18abf114bf07ccfd54aa99d51c2986f6":[6,0,1,0,1,770,94],
-"classMR_1_1Viewer.html#a18abf114bf07ccfd54aa99d51c2986f6":[6,0,2,0,1,752,94]
+"classMR_1_1Viewer.html#a189e303426332fa5073bbe325ff96089":[6,0,1,0,1,770,196]
 };

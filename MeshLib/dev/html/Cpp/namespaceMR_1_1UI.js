@@ -12,6 +12,7 @@ var namespaceMR_1_1UI =
     [ "RadioButtonOrModifierState", "structMR_1_1UI_1_1RadioButtonOrModifierState.html", "structMR_1_1UI_1_1RadioButtonOrModifierState" ],
     [ "RectAllocator", "classMR_1_1UI_1_1RectAllocator.html", "classMR_1_1UI_1_1RectAllocator" ],
     [ "SaveChangesPopupSettings", "structMR_1_1UI_1_1SaveChangesPopupSettings.html", "structMR_1_1UI_1_1SaveChangesPopupSettings" ],
+    [ "SeparatorParams", "structMR_1_1UI_1_1SeparatorParams.html", "structMR_1_1UI_1_1SeparatorParams" ],
     [ "WindowRectAllocator", "classMR_1_1UI_1_1WindowRectAllocator.html", "classMR_1_1UI_1_1WindowRectAllocator" ],
     [ "TextureType", "namespaceMR_1_1UI.html#a0a816a5d6ff63a4668d7a9b26bb0aaf6", [
       [ "Mono", "namespaceMR_1_1UI.html#a0a816a5d6ff63a4668d7a9b26bb0aaf6a5d9b47bd3b65072e0d5daf55f01da086", null ],
@@ -82,6 +83,7 @@ var namespaceMR_1_1UI =
     [ "readOnlyValue", "namespaceMR_1_1UI.html#aa1fd1e704f1ff98b82cc4c98e452f57a", null ],
     [ "saveChangesPopup", "namespaceMR_1_1UI.html#af1937d08c3cb699681eeb7fd4dde005e", null ],
     [ "separator", "namespaceMR_1_1UI.html#a44947bf84615148fe9afb91d1895d231", null ],
+    [ "separator", "namespaceMR_1_1UI.html#a1e264402fc5ed218260df4a079a0ec11", null ],
     [ "separator", "namespaceMR_1_1UI.html#a63e011139a97a30e31e34d070e0f0e11", null ],
     [ "separator", "namespaceMR_1_1UI.html#a18b9183fbf887e8e6930c577d92fa409", null ],
     [ "separator", "namespaceMR_1_1UI.html#a17f2b30eb00e5aa94812541ac268a30f", null ],

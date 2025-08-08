@@ -1,5 +1,7 @@
 var NAVTREEINDEX14 =
 {
+"MRSetupViewer_8h.html":[6,0,3,0,0,1,11,108],
+"MRSetupViewer_8h_source.html":[6,0,3,0,0,1,11,108],
 "MRShaderBlocks_8h.html":[6,0,3,0,0,1,11,109],
 "MRShaderBlocks_8h.html#a3b2bfcc4be2f05b79166ea0772ffb262":[6,0,3,0,0,1,11,109,6],
 "MRShaderBlocks_8h.html#a5404571bb440331ecfd841ff6e8741cc":[6,0,3,0,0,1,11,109,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX14 =
 "MRTestC2_2MRBitSet_8h_source.html":[6,0,3,0,0,1,10,2],
 "MRTestC2_2MRBox_8h.html":[6,0,3,0,0,1,10,3],
 "MRTestC2_2MRBox_8h.html#a0236d0d91ace9819ca86264df0938e92":[6,0,3,0,0,1,10,3,0],
-"MRTestC2_2MRBox_8h.html#a2c67e5bf2f6f910c590bc4f0c1cf2bca":[6,0,3,0,0,1,10,3,1],
-"MRTestC2_2MRBox_8h.html#a97120db9256ee5ba81ba29bd043e5c9d":[6,0,3,0,0,1,10,3,3],
-"MRTestC2_2MRBox_8h.html#aa147e497e46bef9b7925657ce0557672":[6,0,3,0,0,1,10,3,2]
+"MRTestC2_2MRBox_8h.html#a2c67e5bf2f6f910c590bc4f0c1cf2bca":[6,0,3,0,0,1,10,3,1]
 };
