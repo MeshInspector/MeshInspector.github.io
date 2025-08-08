@@ -59,7 +59,7 @@ var menudata={children:[
 {text:"Points to Mesh",url:"ExamplePointsToMesh.html"},
 {text:"Contour Triangulation",url:"ExampleContourTriangulation.html"},
 {text:"Terrain Triangulation",url:"ExampleTerrainTriangulation.html"},
-{text:"Fusion",url:"@ref ExampleFusion"},
+{text:"Fusion",url:"ExampleFusion.html"},
 {text:"Text to Mesh",url:"ExampleMeshFromText.html"}]},
 {text:"Python Specific Samples",url:"Examples.html#PythonSpecificExamples",children:[
 {text:"Viewer",url:"ExampleViewer.html"},

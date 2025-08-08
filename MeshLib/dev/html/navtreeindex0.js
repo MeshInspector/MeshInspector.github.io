@@ -1,6 +1,5 @@
 var NAVTREEINDEX0 =
 {
-"@ref ExampleFusion":[4,0,24],
 "APIPage.html":[6],
 "BasedApplication.html":[4,0,0],
 "BasicMathTypesOverview.html":[5,2],
@@ -11,6 +10,7 @@ var NAVTREEINDEX0 =
 "ExampleCudaOffset.html":[4,1,4],
 "ExampleDicomFiles.html":[4,1,5],
 "ExampleFreeForm.html":[4,0,17],
+"ExampleFusion.html":[4,0,24],
 "ExampleGlobalRegistration.html":[4,0,14],
 "ExampleLaplacian.html":[4,0,18],
 "ExampleMeshBoolean.html":[4,0,4],
