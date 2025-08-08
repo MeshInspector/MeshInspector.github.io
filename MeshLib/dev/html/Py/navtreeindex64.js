@@ -1,5 +1,6 @@
 var NAVTREEINDEX64 =
 {
+"classmrmeshpy_1_1PolylineSubdivideSettings.html#a28eb7a84285b8ebe39d67368a0d3ac4f":[6,1,0,0,2,686,2],
 "classmrmeshpy_1_1PolylineSubdivideSettings.html#a28eb7a84285b8ebe39d67368a0d3ac4f":[6,1,1,0,1,686,2],
 "classmrmeshpy_1_1PolylineSubdivideSettings.html#a2ad28af449203592f53f90b369f4a5e3":[6,1,0,0,2,686,4],
 "classmrmeshpy_1_1PolylineSubdivideSettings.html#a2ad28af449203592f53f90b369f4a5e3":[6,1,1,0,1,686,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX64 =
 "classmrmeshpy_1_1Polynomial__double__2.html#ad2179b3befbbc8e10973533905494e10":[6,1,0,0,2,695,5],
 "classmrmeshpy_1_1Polynomial__double__2.html#ad2179b3befbbc8e10973533905494e10":[6,1,1,0,1,695,5],
 "classmrmeshpy_1_1Polynomial__double__2.html#ae0e6537b33c90e44f4c9d129f27aedc9":[6,1,0,0,2,695,3],
-"classmrmeshpy_1_1Polynomial__double__2.html#ae0e6537b33c90e44f4c9d129f27aedc9":[6,1,1,0,1,695,3],
-"classmrmeshpy_1_1Polynomial__double__3.html":[6,1,0,0,2,696]
+"classmrmeshpy_1_1Polynomial__double__2.html#ae0e6537b33c90e44f4c9d129f27aedc9":[6,1,1,0,1,695,3]
 };

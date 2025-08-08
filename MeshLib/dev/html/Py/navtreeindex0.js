@@ -47,8 +47,9 @@ var NAVTREEINDEX0 =
 "../HowtoAddPluginOverview.html":[5,8],
 "../InstallationGuide.html":[1],
 "../License.html":[2],
-"../MeshLibCSharpSetupGuide.html":[1,2],
-"../MeshLibCmakeSetupGuide.html":[1,3],
+"../MeshLibCSetupGuide.html":[1,2],
+"../MeshLibCSharpSetupGuide.html":[1,3],
+"../MeshLibCmakeSetupGuide.html":[1,4],
 "../MeshLibCppSetupGuide.html":[1,1],
 "../MeshLibPythonSetupGuide.html":[1,0],
 "../MeshStructureOverview.html":[5,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f.html#a2965331dae4ae0c5996861e7491c4bd6":[6,1,0,0,2,6,0],
 "classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f.html#a2965331dae4ae0c5996861e7491c4bd6":[6,1,1,0,1,6,0],
 "classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f.html#a31dd42217e14aa98d1d866ae45ee361b":[6,1,0,0,2,6,1],
-"classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f.html#a31dd42217e14aa98d1d866ae45ee361b":[6,1,1,0,1,6,1],
-"classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f.html#a51fdd8dd332ef592174b93cb8c447430":[6,1,0,0,2,6,9]
+"classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f.html#a31dd42217e14aa98d1d866ae45ee361b":[6,1,1,0,1,6,1]
 };

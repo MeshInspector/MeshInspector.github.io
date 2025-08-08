@@ -1,5 +1,6 @@
 var NAVTREEINDEX106 =
 {
+"classmrmeshpy_1_1VolumeToMeshByPartsSettings.html#a609a22a93d6fb9b651da39d1afec2cab":[6,1,0,0,2,1140,1],
 "classmrmeshpy_1_1VolumeToMeshByPartsSettings.html#a609a22a93d6fb9b651da39d1afec2cab":[6,1,1,0,1,1140,1],
 "classmrmeshpy_1_1VolumeToMeshByPartsSettings.html#a66bfb472e994c2ca72ae9f888ada1c36":[6,1,0,0,2,1140,4],
 "classmrmeshpy_1_1VolumeToMeshByPartsSettings.html#a66bfb472e994c2ca72ae9f888ada1c36":[6,1,1,0,1,1140,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX106 =
 "classmrmeshpy_1_1VoxelsLoad_1_1DicomStatus.html#ae42049220fc248e009ff948788047f5e":[6,1,0,0,2,1146,0,3],
 "classmrmeshpy_1_1VoxelsLoad_1_1DicomStatus.html#ae42049220fc248e009ff948788047f5e":[6,1,1,0,1,1146,0,3],
 "classmrmeshpy_1_1VoxelsLoad_1_1DicomStatus.html#afb361dbe0db20ca954e2ad88b789dba5":[6,1,0,0,2,1146,0,2],
-"classmrmeshpy_1_1VoxelsLoad_1_1DicomStatus.html#afb361dbe0db20ca954e2ad88b789dba5":[6,1,1,0,1,1146,0,2],
-"classmrmeshpy_1_1VoxelsLoad_1_1DicomStatusEnum.html":[6,1,0,0,2,1146,1]
+"classmrmeshpy_1_1VoxelsLoad_1_1DicomStatus.html#afb361dbe0db20ca954e2ad88b789dba5":[6,1,1,0,1,1146,0,2]
 };

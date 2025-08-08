@@ -1,5 +1,6 @@
 var NAVTREEINDEX35 =
 {
+"classmrmeshpy_1_1ImproveSamplingSettings.html#a99d9026176300dbac0c73cc19eade0e5":[6,1,0,0,2,384,11],
 "classmrmeshpy_1_1ImproveSamplingSettings.html#a99d9026176300dbac0c73cc19eade0e5":[6,1,1,0,1,384,11],
 "classmrmeshpy_1_1ImproveSamplingSettings.html#ac0b391eb579b8f557b721b1a4cb96672":[6,1,0,0,2,384,14],
 "classmrmeshpy_1_1ImproveSamplingSettings.html#ac0b391eb579b8f557b721b1a4cb96672":[6,1,1,0,1,384,14],
@@ -248,6 +249,5 @@ var NAVTREEINDEX35 =
 "classmrmeshpy_1_1IsVisualizeMaskEnum__MeshVisualizePropertyType.html":[6,1,0,0,2,405],
 "classmrmeshpy_1_1IsVisualizeMaskEnum__MeshVisualizePropertyType.html":[6,1,1,0,1,405],
 "classmrmeshpy_1_1IsVisualizeMaskEnum__MeshVisualizePropertyType.html#a6da7679e50241fdf2306b9ae12ba5042":[6,1,0,0,2,405,2],
-"classmrmeshpy_1_1IsVisualizeMaskEnum__MeshVisualizePropertyType.html#a6da7679e50241fdf2306b9ae12ba5042":[6,1,1,0,1,405,2],
-"classmrmeshpy_1_1IsVisualizeMaskEnum__MeshVisualizePropertyType.html#af24c1a5b85a0af2ee7a7dccb66d15a35":[6,1,0,0,2,405,0]
+"classmrmeshpy_1_1IsVisualizeMaskEnum__MeshVisualizePropertyType.html#a6da7679e50241fdf2306b9ae12ba5042":[6,1,1,0,1,405,2]
 };

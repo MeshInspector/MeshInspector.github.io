@@ -1,5 +1,6 @@
 var NAVTREEINDEX2 =
 {
+"classmrmeshpy_1_1AABBTreeTraits__UndirectedEdgeTag__Box3f.html":[6,1,0,0,2,15],
 "classmrmeshpy_1_1AABBTreeTraits__UndirectedEdgeTag__Box3f.html":[6,1,1,0,1,15],
 "classmrmeshpy_1_1AABBTreeTraits__UndirectedEdgeTag__Box3f.html#a3a3bdaf940f405654d85d64c18eb02a6":[6,1,0,0,2,15,0],
 "classmrmeshpy_1_1AABBTreeTraits__UndirectedEdgeTag__Box3f.html#a3a3bdaf940f405654d85d64c18eb02a6":[6,1,0,0,2,15,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX2 =
 "classmrmeshpy_1_1Axis.html#a042b2af8721fd47ff5b7b817d0a2e7f0":[6,1,0,0,2,29,7],
 "classmrmeshpy_1_1Axis.html#a042b2af8721fd47ff5b7b817d0a2e7f0":[6,1,1,0,1,29,7],
 "classmrmeshpy_1_1Axis.html#a04d41b5d44e629462c433be7a0a1707f":[6,1,0,0,2,29,1],
-"classmrmeshpy_1_1Axis.html#a04d41b5d44e629462c433be7a0a1707f":[6,1,1,0,1,29,1],
-"classmrmeshpy_1_1Axis.html#a75b3ef7d148053c8c89997467392a449":[6,1,0,0,2,29,3]
+"classmrmeshpy_1_1Axis.html#a04d41b5d44e629462c433be7a0a1707f":[6,1,1,0,1,29,1]
 };

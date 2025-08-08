@@ -1,5 +1,6 @@
 var NAVTREEINDEX57 =
 {
+"group__SurfacePathGroup.html#ga2038b7a7017941618db261ca22524c0a":[6,0,0,16,44],
 "group__SurfacePathGroup.html#ga215f966d7ad4e48210e0de178cb43a06":[6,0,0,16,33],
 "group__SurfacePathGroup.html#ga2182b04a7c6e0750621fd0d7de0685f2":[6,0,0,16,37],
 "group__SurfacePathGroup.html#ga283702fa364a20f79eb79fa8d12043b1":[6,0,0,16,42],
@@ -248,6 +249,5 @@ var NAVTREEINDEX57 =
 "namespaceImGui.html#ad271bb43979f12d68480619505b2900f":[6,0,1,0,0,24],
 "namespaceImGui.html#ad58fef2244057ff2ad7eb1877f3b813a":[6,0,1,0,0,9],
 "namespaceImGui.html#aed7e188bef741b7dadcd0903a2453748":[6,0,1,0,0,17],
-"namespaceImGui.html#af082cf53c058ecd0adf21f0115b11121":[6,0,1,0,0,34],
-"namespaceImGui.html#af6cde4f0c7ce90fbd8f1e25123620cca":[6,0,1,0,0,13]
+"namespaceImGui.html#af082cf53c058ecd0adf21f0115b11121":[6,0,1,0,0,34]
 };

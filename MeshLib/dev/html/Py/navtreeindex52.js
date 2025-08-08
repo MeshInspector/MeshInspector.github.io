@@ -1,5 +1,6 @@
 var NAVTREEINDEX52 =
 {
+"classmrmeshpy_1_1NodeBitSet.html#a801078d61d667a4b1ee4f860510b5547":[6,1,0,0,2,547,43],
 "classmrmeshpy_1_1NodeBitSet.html#a801078d61d667a4b1ee4f860510b5547":[6,1,1,0,1,547,43],
 "classmrmeshpy_1_1NodeBitSet.html#a8294b12ee8219946554540bd0e66034b":[6,1,0,0,2,547,8],
 "classmrmeshpy_1_1NodeBitSet.html#a8294b12ee8219946554540bd0e66034b":[6,1,1,0,1,547,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX52 =
 "classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Cylinder.html":[6,1,0,0,2,589],
 "classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Cylinder.html":[6,1,1,0,1,589],
 "classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Cylinder.html#a7ec87be1af24c5c8d0f45ebf959f41b0":[6,1,0,0,2,589,0],
-"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Cylinder.html#a7ec87be1af24c5c8d0f45ebf959f41b0":[6,1,0,0,2,589,1],
-"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Cylinder.html#a7ec87be1af24c5c8d0f45ebf959f41b0":[6,1,1,0,1,589,0]
+"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Cylinder.html#a7ec87be1af24c5c8d0f45ebf959f41b0":[6,1,0,0,2,589,1]
 };

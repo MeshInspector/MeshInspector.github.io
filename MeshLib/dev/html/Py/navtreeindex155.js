@@ -1,5 +1,6 @@
 var NAVTREEINDEX155 =
 {
+"classmrviewerpy_1_1ViewportFitDataParams.html#a2e4caf0ac4c8c6422d0d727a200926a2":[6,1,0,0,3,13,2],
 "classmrviewerpy_1_1ViewportFitDataParams.html#a2e4caf0ac4c8c6422d0d727a200926a2":[6,1,1,0,2,13,2],
 "classmrviewerpy_1_1ViewportFitDataParams.html#a5c0367c0bbceec4622e8b6c43b24a27a":[6,1,0,0,3,13,3],
 "classmrviewerpy_1_1ViewportFitDataParams.html#a5c0367c0bbceec4622e8b6c43b24a27a":[6,1,1,0,2,13,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX155 =
 "mrmeshpy_8pyi.html#a0bcd6b2097265d6ae819b2aff530645f":[6,1,2,0,0,1,0,0,0,2,2292],
 "mrmeshpy_8pyi.html#a0c219fe9c41d5ca70027011d7967513d":[6,1,2,0,0,1,0,0,0,2,1749],
 "mrmeshpy_8pyi.html#a0c4871761e135e717eed28eec25e4616":[6,1,2,0,0,1,0,0,0,2,2743],
-"mrmeshpy_8pyi.html#a0c5969d14f5411daa31fa79f04bedfe1":[6,1,2,0,0,1,0,0,0,2,2460],
-"mrmeshpy_8pyi.html#a0cc1871935a592a63141299a8d35fb06":[6,1,2,0,0,1,0,0,0,2,2513]
+"mrmeshpy_8pyi.html#a0c5969d14f5411daa31fa79f04bedfe1":[6,1,2,0,0,1,0,0,0,2,2460]
 };

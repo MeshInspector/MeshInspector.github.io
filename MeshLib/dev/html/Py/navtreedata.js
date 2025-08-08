@@ -29,6 +29,7 @@ var NAVTREE =
     [ "Getting Started", "../InstallationGuide.html", [
       [ "Python", "../MeshLibPythonSetupGuide.html", null ],
       [ "C++", "../MeshLibCppSetupGuide.html", null ],
+      [ "C++", "../MeshLibCSetupGuide.html", null ],
       [ "C#", "../MeshLibCSharpSetupGuide.html", null ],
       [ "CMake", "../MeshLibCmakeSetupGuide.html", null ]
     ] ],
@@ -274,21 +275,21 @@ var NAVTREEINDEX =
 "classmrmeshpy_1_1std__vector__tl__expected__VoxelsLoad__DicomVolumeT__VoxelsVolumeMinMax__FloatGrid__std__string.html#a78b2fc02bf6b35694b0f4a069ba416e1",
 "classmrmeshpy_1_1std__vector__unsigned__short.html#a7d81e58010d588ea1833a8d4b900cdc8",
 "classmrviewerpy_1_1ViewportFitDataParams.html#a2e4caf0ac4c8c6422d0d727a200926a2",
-"mrmeshpy_8pyi.html#a0cd374d795bbd92f7e9e4893ade6d4a5",
-"mrmeshpy_8pyi.html#a34f738bcb81b360c95f3e2045f27fcf5",
-"mrmeshpy_8pyi.html#a54eacd2d974e1877b9e6e880f65af859",
-"mrmeshpy_8pyi.html#a7ddbbd85fe960e9532bd3fdc63f2acca",
-"mrmeshpy_8pyi.html#aa47a40179c81da92f431ee52d205d2fe",
-"mrmeshpy_8pyi.html#ac7b11d09daac6de5f15e09a945db4546",
-"mrmeshpy_8pyi.html#aed471b9915d38a0226daa40527246e9d",
-"namespacemrmeshnumpy.html#a1c3d6c72018281ed51f66dc03c8da6bf",
-"namespacemrmeshpy.html#a2752bae8de03f5a653f98d3ac1f33567",
-"namespacemrmeshpy.html#a490e9ab58a911e706b7c647776e08b11",
-"namespacemrmeshpy.html#a6d9220676ec36c381921b44ca315e3ba",
-"namespacemrmeshpy.html#a9742c799c64faa670a927175c04a8473",
-"namespacemrmeshpy.html#abb011c513d00397b76f862f40faf9ac5",
-"namespacemrmeshpy.html#ade70f20ade3b161b3c46d41738f386f2",
-"namespacemrviewerpy.html#af16d9c1a524170c3557b83e96344062f"
+"mrmeshpy_8pyi.html#a0cc1871935a592a63141299a8d35fb06",
+"mrmeshpy_8pyi.html#a34f0f588e619abeb4817ed8207298848",
+"mrmeshpy_8pyi.html#a54c11b4d095fe4cfe6bb56b6bddf33cd",
+"mrmeshpy_8pyi.html#a7d77e9af0eadf1a275565ac56fe3567d",
+"mrmeshpy_8pyi.html#aa463127c357a375bde7a0d435e935e8d",
+"mrmeshpy_8pyi.html#ac71c2b246b7a94f813c25373c94e846a",
+"mrmeshpy_8pyi.html#aed4238d3e69d398207987854a321523d",
+"namespacemrmeshnumpy.html#a17cf7f7527475e90734b1c6033d7b439",
+"namespacemrmeshpy.html#a26efdefc8eb83aff5dff436e800f7a24",
+"namespacemrmeshpy.html#a48fff83bf94982fc456260620b803b77",
+"namespacemrmeshpy.html#a6d919836b64e76daefd6cc8b837676d0",
+"namespacemrmeshpy.html#a973c862cf98df876fbba567860985e2f",
+"namespacemrmeshpy.html#aba8a59e8721d6ab8c38f64db8b8869e2",
+"namespacemrmeshpy.html#ade0b4e377066647f73d31472c5d15e42",
+"namespacemrviewerpy.html#ad965015c4901e460f6bd40a4b2f70f8d"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

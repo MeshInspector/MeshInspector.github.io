@@ -1,5 +1,6 @@
 var NAVTREEINDEX86 =
 {
+"classmrmeshpy_1_1Vector4f.html#a88e26254c7d071ae8fdf6ce95b3938e2":[6,1,0,0,2,1062,13],
 "classmrmeshpy_1_1Vector4f.html#a88e26254c7d071ae8fdf6ce95b3938e2":[6,1,1,0,1,1062,13],
 "classmrmeshpy_1_1Vector4f.html#a9383881cc91a869b511891ffb83f4d8d":[6,1,0,0,2,1062,14],
 "classmrmeshpy_1_1Vector4f.html#a9383881cc91a869b511891ffb83f4d8d":[6,1,1,0,1,1062,14],
@@ -248,6 +249,5 @@ var NAVTREEINDEX86 =
 "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#a93bae5fb42ec3a5af3751ecbab87fb21":[6,1,0,0,2,1066,30],
 "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#a93bae5fb42ec3a5af3751ecbab87fb21":[6,1,1,0,1,1066,30],
 "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#a9966620c3619079c80a11a01cd11cc13":[6,1,0,0,2,1066,0],
-"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#a9966620c3619079c80a11a01cd11cc13":[6,1,1,0,1,1066,0],
-"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#aa2286c2b817f815e273f7fd373385a65":[6,1,0,0,2,1066,31]
+"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#a9966620c3619079c80a11a01cd11cc13":[6,1,1,0,1,1066,0]
 };

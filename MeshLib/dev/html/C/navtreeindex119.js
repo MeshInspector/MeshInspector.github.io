@@ -1,5 +1,6 @@
 var NAVTREEINDEX119 =
 {
+"std__function__void__from__MR__Mesh__ref__float__float_8h.html":[6,2,1,0,0,0,2,168],
 "std__function__void__from__MR__Mesh__ref__float__float_8h.html#a08765b5a38ee6c4f952cbee4b41ce308":[6,2,1,0,0,0,2,168,8],
 "std__function__void__from__MR__Mesh__ref__float__float_8h.html#a1a37ff7197bb7f17612184c583003837":[6,2,1,0,0,0,2,168,2],
 "std__function__void__from__MR__Mesh__ref__float__float_8h.html#a31b172f68efca6438544d56eb86d6f40":[6,2,1,0,0,0,2,168,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX119 =
 "std__function__void__from__int32__t_8h_source.html":[6,2,1,0,0,0,2,160],
 "std__optional__MR__AllLocalTriangulations_8h.html":[6,2,1,0,0,0,2,180],
 "std__optional__MR__AllLocalTriangulations_8h.html#a07206f863a7930f17413a0d2e2ad518a":[6,2,1,0,0,0,2,180,1],
-"std__optional__MR__AllLocalTriangulations_8h.html#a22c9b08fff7330d0e732983bcbac6fa9":[6,2,1,0,0,0,2,180,13],
-"std__optional__MR__AllLocalTriangulations_8h.html#a238f32953c4d691e5ac6b311e95d50ee":[6,2,1,0,0,0,2,180,5]
+"std__optional__MR__AllLocalTriangulations_8h.html#a22c9b08fff7330d0e732983bcbac6fa9":[6,2,1,0,0,0,2,180,13]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX82 =
 {
+"structMR_1_1Palette_1_1Histogram.html#a08df7b7f0ce414687a2567650845e3cd":[6,0,1,0,1,477,0,8],
 "structMR_1_1Palette_1_1Histogram.html#a08df7b7f0ce414687a2567650845e3cd":[6,0,2,0,1,459,0,8],
 "structMR_1_1Palette_1_1Histogram.html#a128e8a8f91a31e93eaff086cc91b1d5e":[6,0,1,0,1,477,0,7],
 "structMR_1_1Palette_1_1Histogram.html#a128e8a8f91a31e93eaff086cc91b1d5e":[6,0,2,0,1,459,0,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX82 =
 "structMR_1_1PlyLoadParams.html#ad25eed18572d645b917be81829d73a71":[6,0,2,0,1,480,6],
 "structMR_1_1PlyLoadParams.html#ae8303df7b41e4693e1bc02050bc121ca":[6,0,1,0,1,498,2],
 "structMR_1_1PlyLoadParams.html#ae8303df7b41e4693e1bc02050bc121ca":[6,0,2,0,1,480,2],
-"structMR_1_1PlyLoadParams.html#af97e597d26a385d02c839501ae01a201":[6,0,1,0,1,498,0],
-"structMR_1_1PlyLoadParams.html#af97e597d26a385d02c839501ae01a201":[6,0,2,0,1,480,0]
+"structMR_1_1PlyLoadParams.html#af97e597d26a385d02c839501ae01a201":[6,0,1,0,1,498,0]
 };

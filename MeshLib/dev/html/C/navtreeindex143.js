@@ -1,5 +1,6 @@
 var NAVTREEINDEX143 =
 {
+"std__vector__MR__OffsetContoursOrigins_8h.html#a0f849d14ab7929f503ef4ebf7f32492b":[6,2,1,0,0,0,2,334,63],
 "std__vector__MR__OffsetContoursOrigins_8h.html#a101107d6a17ad238c24722835abf9a78":[6,2,1,0,0,0,2,334,43],
 "std__vector__MR__OffsetContoursOrigins_8h.html#a115569ab8b635ad4f336f09b29d7f0d2":[6,2,1,0,0,0,2,334,30],
 "std__vector__MR__OffsetContoursOrigins_8h.html#a1385cdcc8cb340fbc5149f4ee8db2c57":[6,2,1,0,0,0,2,334,11],
@@ -248,6 +249,5 @@ var NAVTREEINDEX143 =
 "std__vector__MR__Pdf__PaletteRowStats_8h.html#a67f117ff57240c2b5dbe5cf6aa516c56":[6,2,1,0,0,0,2,337,5],
 "std__vector__MR__Pdf__PaletteRowStats_8h.html#a6a69f2b506d95d471b4c2aac27e02ca7":[6,2,1,0,0,0,2,337,69],
 "std__vector__MR__Pdf__PaletteRowStats_8h.html#a75c54390119d6b5fa16af2295787d86f":[6,2,1,0,0,0,2,337,9],
-"std__vector__MR__Pdf__PaletteRowStats_8h.html#a7826673f4891945ae2f772a5aa9e91f3":[6,2,1,0,0,0,2,337,63],
-"std__vector__MR__Pdf__PaletteRowStats_8h.html#a7c5d69dd2f211502c0dd5b1f87726616":[6,2,1,0,0,0,2,337,61]
+"std__vector__MR__Pdf__PaletteRowStats_8h.html#a7826673f4891945ae2f772a5aa9e91f3":[6,2,1,0,0,0,2,337,63]
 };

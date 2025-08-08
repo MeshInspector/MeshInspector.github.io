@@ -46,8 +46,9 @@ var NAVTREEINDEX0 =
 "../HowtoAddPluginOverview.html":[5,8],
 "../InstallationGuide.html":[1],
 "../License.html":[2],
-"../MeshLibCSharpSetupGuide.html":[1,2],
-"../MeshLibCmakeSetupGuide.html":[1,3],
+"../MeshLibCSetupGuide.html":[1,2],
+"../MeshLibCSharpSetupGuide.html":[1,3],
+"../MeshLibCmakeSetupGuide.html":[1,4],
 "../MeshLibCppSetupGuide.html":[1,1],
 "../MeshLibPythonSetupGuide.html":[1,0],
 "../MeshStructureOverview.html":[5,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "MRAABBTreeBase_8h.html#ab8ab85105e33c89ad87612eed235c7d2":[6,2,1,0,0,0,1,2,4],
 "MRAABBTreeBase_8h.html#ab9fcbb5b8711152a24a59e1d55156ece":[6,2,1,0,0,0,1,2,11],
 "MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea":[6,2,1,0,0,0,1,2,13],
-"MRAABBTreeBase_8h.html#abfb1c0f3bc7cc55111264ddcfb384283":[6,2,1,0,0,0,1,2,50],
-"MRAABBTreeBase_8h.html#ac154a9f16c11665de8850ba5477bbb30":[6,2,1,0,0,0,1,2,61]
+"MRAABBTreeBase_8h.html#abfb1c0f3bc7cc55111264ddcfb384283":[6,2,1,0,0,0,1,2,50]
 };

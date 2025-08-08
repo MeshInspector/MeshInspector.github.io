@@ -1,5 +1,6 @@
 var NAVTREEINDEX71 =
 {
+"structMR_1_1DistanceMapSaveSettings.html":[6,0,0,5,7],
 "structMR_1_1DistanceMapSaveSettings.html#a9f997144e49ed33ed02e13c2f32edbf0":[6,0,0,5,7,1],
 "structMR_1_1DistanceMapSaveSettings.html#aec3a1ee780a0e876728e2fcfab35daa2":[6,0,0,5,7,0],
 "structMR_1_1DistanceMapToWorld.html":[6,0,0,5,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX71 =
 "structMR_1_1EdgePoint.html#acea7869523473243ff95a916aa64a7d6":[6,0,2,0,1,190,14],
 "structMR_1_1EdgePoint.html#aeadc3f42a8934c969baee0104a2b7de3":[6,0,1,0,1,208,15],
 "structMR_1_1EdgePoint.html#aeadc3f42a8934c969baee0104a2b7de3":[6,0,2,0,1,190,15],
-"structMR_1_1EdgePointPair.html":[6,0,1,0,1,209],
-"structMR_1_1EdgePointPair.html":[6,0,2,0,1,191]
+"structMR_1_1EdgePointPair.html":[6,0,1,0,1,209]
 };

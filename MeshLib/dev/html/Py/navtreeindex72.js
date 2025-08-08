@@ -1,5 +1,6 @@
 var NAVTREEINDEX72 =
 {
+"classmrmeshpy_1_1SimpleVolumeMinMax.html":[6,1,0,0,2,769],
 "classmrmeshpy_1_1SimpleVolumeMinMax.html":[6,1,1,0,1,769],
 "classmrmeshpy_1_1SimpleVolumeMinMax.html#a8ac2acb89a66892a0c43d5b58d41d149":[6,1,0,0,2,769,1],
 "classmrmeshpy_1_1SimpleVolumeMinMax.html#a8ac2acb89a66892a0c43d5b58d41d149":[6,1,1,0,1,769,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX72 =
 "classmrmeshpy_1_1SplineSettings.html#abf999f6eff157034e01fdaeea97ac6e3":[6,1,0,0,2,785,9],
 "classmrmeshpy_1_1SplineSettings.html#abf999f6eff157034e01fdaeea97ac6e3":[6,1,1,0,1,785,9],
 "classmrmeshpy_1_1SplineSettings.html#adb7a9379b779951afedf7af8a36b25a2":[6,1,0,0,2,785,0],
-"classmrmeshpy_1_1SplineSettings.html#adb7a9379b779951afedf7af8a36b25a2":[6,1,1,0,1,785,0],
-"classmrmeshpy_1_1SplineSettings.html#ae578f145c50ce31fca81dc64e286bad5":[6,1,0,0,2,785,5]
+"classmrmeshpy_1_1SplineSettings.html#adb7a9379b779951afedf7af8a36b25a2":[6,1,1,0,1,785,0]
 };

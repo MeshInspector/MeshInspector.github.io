@@ -1,5 +1,6 @@
 var NAVTREEINDEX119 =
 {
+"classmrmeshpy_1_1std__optional__double.html#ac16c77886d3c7754aa9d13843e723965":[6,1,0,0,2,812,5],
 "classmrmeshpy_1_1std__optional__double.html#ac16c77886d3c7754aa9d13843e723965":[6,1,1,0,1,812,5],
 "classmrmeshpy_1_1std__optional__double.html#ac1e5c5e4869233c06d0ab3c865dadb9d":[6,1,0,0,2,812,0],
 "classmrmeshpy_1_1std__optional__double.html#ac1e5c5e4869233c06d0ab3c865dadb9d":[6,1,1,0,1,812,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX119 =
 "classmrmeshpy_1_1std__variant__float__Vector3__float.html#ac749defe05998eff07e119bade16df01":[6,1,0,0,2,819,2],
 "classmrmeshpy_1_1std__variant__float__Vector3__float.html#ac749defe05998eff07e119bade16df01":[6,1,1,0,1,819,2],
 "classmrmeshpy_1_1std__variant__float__Vector3__float.html#aec4ed14c1461ea28a44509221a843010":[6,1,0,0,2,819,3],
-"classmrmeshpy_1_1std__variant__float__Vector3__float.html#aec4ed14c1461ea28a44509221a843010":[6,1,1,0,1,819,3],
-"classmrmeshpy_1_1std__variant__std__monostate__MeshTriPoint__EdgePoint__Id__VertTag.html":[6,1,0,0,2,824]
+"classmrmeshpy_1_1std__variant__float__Vector3__float.html#aec4ed14c1461ea28a44509221a843010":[6,1,1,0,1,819,3]
 };

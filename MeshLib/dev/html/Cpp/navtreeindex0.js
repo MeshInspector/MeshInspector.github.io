@@ -46,8 +46,9 @@ var NAVTREEINDEX0 =
 "../HowtoAddPluginOverview.html":[5,8],
 "../InstallationGuide.html":[1],
 "../License.html":[2],
-"../MeshLibCSharpSetupGuide.html":[1,2],
-"../MeshLibCmakeSetupGuide.html":[1,3],
+"../MeshLibCSetupGuide.html":[1,2],
+"../MeshLibCSharpSetupGuide.html":[1,3],
+"../MeshLibCmakeSetupGuide.html":[1,4],
 "../MeshLibCppSetupGuide.html":[1,1],
 "../MeshLibPythonSetupGuide.html":[1,0],
 "../MeshStructureOverview.html":[5,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "MRBitSetParallelFor_8h_source.html":[6,0,3,0,0,1,4,30],
 "MRBoolean_8h.html":[6,0,3,0,0,1,12,1],
 "MRBoolean_8h_source.html":[6,0,3,0,0,1,12,1],
-"MRBuffer_8h.html":[6,0,3,0,0,1,4,33],
-"MRBuffer_8h.html#a3bd81207bb5dccdfe9533eae31414e16":[6,0,3,0,0,1,4,33,6]
+"MRBuffer_8h.html":[6,0,3,0,0,1,4,33]
 };
