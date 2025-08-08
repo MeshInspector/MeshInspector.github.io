@@ -1,5 +1,7 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1ConeFittingFunctor.html#ab7852ba7e80ebd7f4f5dcc9d8d7c318d":[6,0,1,0,1,151,4],
+"structMR_1_1ConeFittingFunctor.html#ab7852ba7e80ebd7f4f5dcc9d8d7c318d":[6,0,2,0,1,133,4],
 "structMR_1_1ConeFittingFunctor.html#ac2e6bb7e397f17483383aef3880628d3":[6,0,1,0,1,151,1],
 "structMR_1_1ConeFittingFunctor.html#ac2e6bb7e397f17483383aef3880628d3":[6,0,2,0,1,133,1],
 "structMR_1_1ConeFittingFunctor.html#ad11690cdf0c6a6de76d2859de79fa518":[6,0,1,0,1,151,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1DistanceMapLoadSettings.html":[6,0,0,5,6],
 "structMR_1_1DistanceMapLoadSettings.html#a4329716168946bea274736a95808880e":[6,0,0,5,6,0],
 "structMR_1_1DistanceMapLoadSettings.html#ac98a6aecff7b146c598462c9c382a18f":[6,0,0,5,6,1],
-"structMR_1_1DistanceMapSaveSettings.html":[6,0,0,5,7],
-"structMR_1_1DistanceMapSaveSettings.html#a9f997144e49ed33ed02e13c2f32edbf0":[6,0,0,5,7,1],
-"structMR_1_1DistanceMapSaveSettings.html#aec3a1ee780a0e876728e2fcfab35daa2":[6,0,0,5,7,0]
+"structMR_1_1DistanceMapSaveSettings.html":[6,0,0,5,7]
 };

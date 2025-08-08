@@ -157,14 +157,16 @@ $(function(){initNavTree('structMR_1_1SceneReorder.html',''); initResizable(true
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:ad02567fbc39d8a94b4870c8b0f55a01a" id="r_ad02567fbc39d8a94b4870c8b0f55a01a"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classMR_1_1Object.html">Object</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad02567fbc39d8a94b4870c8b0f55a01a">who</a></td></tr>
-<tr class="memdesc:ad02567fbc39d8a94b4870c8b0f55a01a"><td class="mdescLeft">&#160;</td><td class="mdescRight">object that will be moved  <br /></td></tr>
+<tr class="memdesc:ad02567fbc39d8a94b4870c8b0f55a01a"><td class="mdescLeft">&#160;</td><td class="mdescRight">objects that will be moved  <br /></td></tr>
 <tr class="separator:ad02567fbc39d8a94b4870c8b0f55a01a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abacbb4958924f1ae24622120a956b43f" id="r_abacbb4958924f1ae24622120a956b43f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Object.html">Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abacbb4958924f1ae24622120a956b43f">to</a> { nullptr }</td></tr>
-<tr class="memdesc:abacbb4958924f1ae24622120a956b43f"><td class="mdescLeft">&#160;</td><td class="mdescRight">address object  <br /></td></tr>
+<tr class="memdesc:abacbb4958924f1ae24622120a956b43f"><td class="mdescLeft">&#160;</td><td class="mdescRight">target object  <br /></td></tr>
 <tr class="separator:abacbb4958924f1ae24622120a956b43f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab39a433324beece46d83541e3d195aa1" id="r_ab39a433324beece46d83541e3d195aa1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab39a433324beece46d83541e3d195aa1">before</a> { false }</td></tr>
-<tr class="memdesc:ab39a433324beece46d83541e3d195aa1"><td class="mdescLeft">&#160;</td><td class="mdescRight">if false "who" will be attached to "to" as last child, otherwise "who" will be attached to "to"'s parent as child before "to"  <br /></td></tr>
 <tr class="separator:ab39a433324beece46d83541e3d195aa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c8fd0f37268e8e1bf9729aff0c21300" id="r_a1c8fd0f37268e8e1bf9729aff0c21300"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c8fd0f37268e8e1bf9729aff0c21300">historyName</a> { &quot;Reorder Scene&quot; }</td></tr>
+<tr class="memdesc:a1c8fd0f37268e8e1bf9729aff0c21300"><td class="mdescLeft">&#160;</td><td class="mdescRight">the name of added undo history scope  <br /></td></tr>
+<tr class="separator:a1c8fd0f37268e8e1bf9729aff0c21300"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="ab39a433324beece46d83541e3d195aa1" name="ab39a433324beece46d83541e3d195aa1"></a>
@@ -178,8 +180,23 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>if false, each "who" will be attached to "to" as last child, if true, each "who" will be attached to "to"'s parent as a child before "to" </p>
 
-<p>if false "who" will be attached to "to" as last child, otherwise "who" will be attached to "to"'s parent as child before "to" </p>
+</div>
+</div>
+<a id="a1c8fd0f37268e8e1bf9729aff0c21300" name="a1c8fd0f37268e8e1bf9729aff0c21300"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c8fd0f37268e8e1bf9729aff0c21300">&#9670;&#160;</a></span>historyName</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string MR::SceneReorder::historyName { &quot;Reorder Scene&quot; }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>the name of added undo history scope </p>
 
 </div>
 </div>
@@ -195,7 +212,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>address object </p>
+<p>target object </p>
 
 </div>
 </div>
@@ -211,7 +228,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>object that will be moved </p>
+<p>objects that will be moved </p>
 
 </div>
 </div>

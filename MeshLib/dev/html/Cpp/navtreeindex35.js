@@ -1,5 +1,6 @@
 var NAVTREEINDEX35 =
 {
+"classMR_1_1ObjectPointsHolder.html#a63b094a393073c94e180aece5eeb0729":[6,0,1,0,1,445,62],
 "classMR_1_1ObjectPointsHolder.html#a63b094a393073c94e180aece5eeb0729":[6,0,2,0,1,427,62],
 "classMR_1_1ObjectPointsHolder.html#a655ebcd931a3422a41e25e3080f708d5":[6,0,1,0,1,445,14],
 "classMR_1_1ObjectPointsHolder.html#a655ebcd931a3422a41e25e3080f708d5":[6,0,2,0,1,427,14],
@@ -248,6 +249,5 @@ var NAVTREEINDEX35 =
 "classMR_1_1OpenRawVoxelsPlugin.html":[6,0,2,0,1,451],
 "classMR_1_1OpenRawVoxelsPlugin.html#a579c7536deedc6bdbd3cb924c92b968e":[6,0,1,0,1,469,0],
 "classMR_1_1OpenRawVoxelsPlugin.html#a579c7536deedc6bdbd3cb924c92b968e":[6,0,2,0,1,451,0],
-"classMR_1_1OpenRawVoxelsPlugin.html#af78be70f41e4878019b08c17d7d862cb":[6,0,1,0,1,469,1],
-"classMR_1_1OpenRawVoxelsPlugin.html#af78be70f41e4878019b08c17d7d862cb":[6,0,2,0,1,451,1]
+"classMR_1_1OpenRawVoxelsPlugin.html#af78be70f41e4878019b08c17d7d862cb":[6,0,1,0,1,469,1]
 };

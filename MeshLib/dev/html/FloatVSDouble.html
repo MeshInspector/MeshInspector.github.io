@@ -149,53 +149,53 @@ $(function(){initNavTree('FloatVSDouble.html',''); initResizable(true); });
 </div><!--header-->
 <div class="contents">
 <div class="toc"><h3>Table of Contents</h3>
-<ul><li class="level1"><a href="#autotoc_md71">Float vs Double: A Design Choice for Precision and Performance in C++</a><ul><li class="level2"><a href="#autotoc_md72">Precision vs. Performance: Key Considerations</a><ul><li class="level3"><a href="#autotoc_md73">Precision</a></li>
-<li class="level3"><a href="#autotoc_md74">Performance and Memory</a><ul><li class="level4"><a href="#autotoc_md75">Processing Speed:</a></li>
-<li class="level4"><a href="#autotoc_md76">Memory Consumption:</a></li>
+<ul><li class="level1"><a href="#autotoc_md69">Float vs Double: A Design Choice for Precision and Performance in C++</a><ul><li class="level2"><a href="#autotoc_md70">Precision vs. Performance: Key Considerations</a><ul><li class="level3"><a href="#autotoc_md71">Precision</a></li>
+<li class="level3"><a href="#autotoc_md72">Performance and Memory</a><ul><li class="level4"><a href="#autotoc_md73">Processing Speed:</a></li>
+<li class="level4"><a href="#autotoc_md74">Memory Consumption:</a></li>
 </ul>
 </li>
-<li class="level3"><a href="#autotoc_md77">Algorithm Compatibility</a></li>
+<li class="level3"><a href="#autotoc_md75">Algorithm Compatibility</a></li>
 </ul>
 </li>
-<li class="level2"><a href="#autotoc_md78">Design Philosophy in MeshLib</a></li>
-<li class="level2"><a href="#autotoc_md79">Case Studies: Applications in Practice</a><ul><li class="level3"><a href="#autotoc_md80">Mesh Simplification (Decimation)</a></li>
-<li class="level3"><a href="#autotoc_md81">Geopositioned Terrain Data</a></li>
-<li class="level3"><a href="#autotoc_md82">Boolean operations on meshes: union, intersection, difference.</a></li>
+<li class="level2"><a href="#autotoc_md76">Design Philosophy in MeshLib</a></li>
+<li class="level2"><a href="#autotoc_md77">Case Studies: Applications in Practice</a><ul><li class="level3"><a href="#autotoc_md78">Mesh Simplification (Decimation)</a></li>
+<li class="level3"><a href="#autotoc_md79">Geopositioned Terrain Data</a></li>
+<li class="level3"><a href="#autotoc_md80">Boolean operations on meshes: union, intersection, difference.</a></li>
 </ul>
 </li>
-<li class="level2"><a href="#autotoc_md83">Conclusion</a></li>
+<li class="level2"><a href="#autotoc_md81">Conclusion</a></li>
 </ul>
 </li>
 </ul>
 </div>
-<div class="textblock"><h1><a class="anchor" id="autotoc_md71"></a>
+<div class="textblock"><h1><a class="anchor" id="autotoc_md69"></a>
 Float vs Double: A Design Choice for Precision and Performance in C++</h1>
 <p>In computational geometry and graphics, the decision to use single-precision (float, 32-bit) or double-precision (double, 64-bit) data types can significantly impact the performance, memory usage, and precision of your application. In C++, these types are critical for representing point coordinates in structures like clouds, lines, or meshes. This article examines the trade-offs between float and double and explains the design rationale in the context of the MeshLib library.</p>
-<h2><a class="anchor" id="autotoc_md72"></a>
+<h2><a class="anchor" id="autotoc_md70"></a>
 Precision vs. Performance: Key Considerations</h2>
-<h3><a class="anchor" id="autotoc_md73"></a>
+<h3><a class="anchor" id="autotoc_md71"></a>
 Precision</h3>
 <ul>
 <li>double provides approximately <b>15 significant decimal digits</b>, compared to float, which offers <b>7 significant decimal digits</b>.</li>
 <li>This enhanced precision is vital in scenarios requiring high accuracy, such as solving large systems of linear equations or representing geospatial data.</li>
 </ul>
-<h3><a class="anchor" id="autotoc_md74"></a>
+<h3><a class="anchor" id="autotoc_md72"></a>
 Performance and Memory</h3>
-<h4><a class="anchor" id="autotoc_md75"></a>
+<h4><a class="anchor" id="autotoc_md73"></a>
 Processing Speed:</h4>
 <ul>
 <li>While the CPU handles double-precision arithmetic at a modest slowdown (e.g., 10-50% slower than single-precision), the GPU impact is far greater. On CUDA-enabled GPUs, double-precision arithmetic can be <b>orders of magnitude slower</b> or even unsupported on certain hardware.</li>
 <li><b>Memory Bandwidth:</b> Doubles take <b>twice as long</b> to transfer between the processor and memory compared to floats, reducing the likelihood of cache hits and further slowing computation.</li>
 </ul>
-<h4><a class="anchor" id="autotoc_md76"></a>
+<h4><a class="anchor" id="autotoc_md74"></a>
 Memory Consumption:</h4>
 <ul>
 <li>Doubles consume <b>twice the memory</b> of floats, which is particularly significant in memory-constrained environments such as <b>32-bit WebAssembly applications</b> or <b>high-performance GPUs with limited memory</b>.</li>
 </ul>
-<h3><a class="anchor" id="autotoc_md77"></a>
+<h3><a class="anchor" id="autotoc_md75"></a>
 Algorithm Compatibility</h3>
 <p>Algorithms written for float can often be straightforwardly adapted to double. However, converting double-precision algorithms to single-precision may lead to precision errors, particularly in computations with accumulated rounding errors or high dynamic range requirements.</p>
-<h2><a class="anchor" id="autotoc_md78"></a>
+<h2><a class="anchor" id="autotoc_md76"></a>
 Design Philosophy in MeshLib</h2>
 <p>The design of MeshLib aims to balance precision and performance, leveraging the strengths of both float and double where they are most appropriate:</p>
 <ol type="1">
@@ -220,9 +220,9 @@ Design Philosophy in MeshLib</h2>
 </ul>
 </li>
 </ol>
-<h2><a class="anchor" id="autotoc_md79"></a>
+<h2><a class="anchor" id="autotoc_md77"></a>
 Case Studies: Applications in Practice</h2>
-<h3><a class="anchor" id="autotoc_md80"></a>
+<h3><a class="anchor" id="autotoc_md78"></a>
 Mesh Simplification (Decimation)</h3>
 <ul>
 <li>Testing revealed that double-precision versions of simplification algorithms are:<ul>
@@ -233,7 +233,7 @@ Mesh Simplification (Decimation)</h3>
 </li>
 <li><b>Conclusion:</b> Floats are the clear choice for this application, prioritizing speed and memory efficiency.</li>
 </ul>
-<h3><a class="anchor" id="autotoc_md81"></a>
+<h3><a class="anchor" id="autotoc_md79"></a>
 Geopositioned Terrain Data</h3>
 <ul>
 <li>Terrain meshes and point clouds often use absolute geo-coordinates, which share up to <b>5 significant digits</b> among points. This exceeds the precision limit of floats.</li>
@@ -244,10 +244,10 @@ Geopositioned Terrain Data</h3>
 </li>
 <li>This approach maintains compatibility with floats while preserving accuracy.</li>
 </ul>
-<h3><a class="anchor" id="autotoc_md82"></a>
+<h3><a class="anchor" id="autotoc_md80"></a>
 Boolean operations on meshes: union, intersection, difference.</h3>
 <p>These operations in their core depend on fundamental predicates like Triangle-Segment intersection. And although the computation of the predicates can be inaccurate in float-arithmetic (e. g. return “intersection” when there is none) due to rounding errors, the computation in <b>double-arithmetic just reduces the probability of inaccuracies</b>, but it does not eliminate them at all. And if input to Boolean operations is degenerate like exactly coinciding triangles, both float and double computations will have the same issues. That is why <b>MeshLib utilizes intermediate conversion of point coordinates into integers</b>, and performs evaluation of predicates in integer numbers as well, <b>where no inaccuracies are possible</b>. On top of that, <b>Simulation-of-Simplicity (SoS)</b> approach is utilized to avoid numerous corner-cases, otherwise extremely hard to tackle correctly. </p><dl class="section note"><dt>Note</dt><dd>In the example of a triangle and a segment, SoS ensures that they can either intersect or not-intersect, but never just touch one another.</dd></dl>
-<h2><a class="anchor" id="autotoc_md83"></a>
+<h2><a class="anchor" id="autotoc_md81"></a>
 Conclusion</h2>
 <p>The decision between float and double depends on the specific requirements of the application. While double excels in scenarios demanding high precision, float often provides better performance, lower memory usage, and easier compatibility with platforms like CUDA and WASM.</p>
 <p>MeshLib adopts a balanced strategy:</p><ul>
