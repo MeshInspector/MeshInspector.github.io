@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['spdlog_0',['spdlog',['.././Cpp/namespacespdlog.html',1,'']]],
+  ['spdlog_3a_3asinks_1',['sinks',['.././Cpp/namespacespdlog_1_1sinks.html',1,'spdlog']]],
   ['imgui_0',['ImGui',['.././Cpp/namespaceImGui.html',1,'']]],
   ['mr_0',['MR',['.././Cpp/namespaceMR.html',1,'']]],
   ['mr_3a_3aasyncobjectload_1',['AsyncObjectLoad',['.././Cpp/namespaceMR_1_1AsyncObjectLoad.html',1,'MR']]],
@@ -137,6 +139,4 @@ var searchData=
   ['mrmeshpy_3a_3awatershedgraph_133',['WatershedGraph',['.././Py/classmrmeshpy_1_1WatershedGraph_1_1BasinInfo.html',1,'mrmeshpy']]],
   ['mrmeshpy_3a_3aweightedshell_134',['WeightedShell',['.././Py/classmrmeshpy_1_1WeightedShell_1_1DistanceVolumeCreationParams.html',1,'mrmeshpy']]],
   ['mrviewerpy_135',['mrviewerpy',['.././Py/namespacemrviewerpy.html',1,'']]],
-  ['spdlog_0',['spdlog',['.././Cpp/namespacespdlog.html',1,'']]],
-  ['spdlog_3a_3asinks_1',['sinks',['.././Cpp/namespacespdlog_1_1sinks.html',1,'spdlog']]],
 ];
