@@ -109,7 +109,6 @@ var classMR_1_1Viewer =
     [ "isSceneTextureBound", "classMR_1_1Viewer.html#aeb78cc316a414e397c55a35a9e0fa39d", null ],
     [ "isSceneTextureEnabled", "classMR_1_1Viewer.html#af9288bd86d5b22fdacb06b171e7b440c", null ],
     [ "isSupportedFormat", "classMR_1_1Viewer.html#ae569c352cb211766d2e095c78b668853", null ],
-    [ "joystickUpdateConnected", "classMR_1_1Viewer.html#a76cf67a7300f775b7852b4749e7da446", null ],
     [ "keyDown", "classMR_1_1Viewer.html#abfbfee4369c2e3f34fa8bbf6a45bbf40", null ],
     [ "keyPressed", "classMR_1_1Viewer.html#af92279fc5e74c77e2acc4cad81ac4db5", null ],
     [ "keyRepeat", "classMR_1_1Viewer.html#a18abf114bf07ccfd54aa99d51c2986f6", null ],

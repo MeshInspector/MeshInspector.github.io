@@ -118,7 +118,6 @@ var dir_6e96927c85b5db1a870a672280c47921 =
     [ "MRSpaceMouseHandler.h", "MRSpaceMouseHandler_8h.html", "MRSpaceMouseHandler_8h" ],
     [ "MRSpaceMouseHandler3dxMacDriver.h", "MRSpaceMouseHandler3dxMacDriver_8h.html", null ],
     [ "MRSpaceMouseHandlerHidapi.h", "MRSpaceMouseHandlerHidapi_8h.html", "MRSpaceMouseHandlerHidapi_8h" ],
-    [ "MRSpaceMouseHandlerWindows.h", "MRSpaceMouseHandlerWindows_8h.html", null ],
     [ "MRSpaceMouseParameters.h", "MRSpaceMouseParameters_8h.html", "MRSpaceMouseParameters_8h" ],
     [ "MRSplashWindow.h", "MRSplashWindow_8h.html", "MRSplashWindow_8h" ],
     [ "MRStatePlugin.h", "MRStatePlugin_8h.html", "MRStatePlugin_8h" ],
