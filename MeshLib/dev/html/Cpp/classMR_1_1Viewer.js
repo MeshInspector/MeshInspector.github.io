@@ -99,6 +99,7 @@ var classMR_1_1Viewer =
     [ "hasScaledFramebuffer", "classMR_1_1Viewer.html#a01b60caf23e036ab2d107862a55beffa", null ],
     [ "incrementForceRedrawFrames", "classMR_1_1Viewer.html#a790440df3478329e0d2f47f2a8f6462d", null ],
     [ "incrementThisFrameGLPrimitivesCount", "classMR_1_1Viewer.html#aa9e4f61cb952eb939ba8a95d97b5d961", null ],
+    [ "initSpaceMouseHandler", "classMR_1_1Viewer.html#aebf2cb865d789166174af6ef9a67d295", null ],
     [ "interruptWindowClose", "classMR_1_1Viewer.html#af2b6e2aad9eb5d9f49145edf383690f7", null ],
     [ "isAlphaSortAvailable", "classMR_1_1Viewer.html#a0cd6649b2287a6bfeb70136744689060", null ],
     [ "isAlphaSortEnabled", "classMR_1_1Viewer.html#a734edab571108af641cc046a7fae2b88", null ],

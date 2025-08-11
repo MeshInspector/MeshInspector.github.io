@@ -172,9 +172,8 @@ $(function(){initNavTree('classMR_1_1SpaceMouseHandler.html',''); initResizable(
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ae552842183fceec422514e422d1f0d73" id="r_ae552842183fceec422514e422d1f0d73"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae552842183fceec422514e422d1f0d73">~SpaceMouseHandler</a> ()=default</td></tr>
 <tr class="separator:ae552842183fceec422514e422d1f0d73"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c2a0f9ed6b49950d604726d8ff4b31e" id="r_a5c2a0f9ed6b49950d604726d8ff4b31e"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5c2a0f9ed6b49950d604726d8ff4b31e">initialize</a> ()=0</td></tr>
-<tr class="memdesc:a5c2a0f9ed6b49950d604726d8ff4b31e"><td class="mdescLeft">&#160;</td><td class="mdescRight">initialize device  <br /></td></tr>
-<tr class="separator:a5c2a0f9ed6b49950d604726d8ff4b31e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa16a3f50c595a2adfa16a0062dbea2a5" id="r_aa16a3f50c595a2adfa16a0062dbea2a5"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa16a3f50c595a2adfa16a0062dbea2a5">initialize</a> (std::function&lt; void(const std::string &amp;)&gt; deviceSignal={})=0</td></tr>
+<tr class="separator:aa16a3f50c595a2adfa16a0062dbea2a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a630d5cbabb8c95d6234cefa16fe25ac4" id="r_a630d5cbabb8c95d6234cefa16fe25ac4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a630d5cbabb8c95d6234cefa16fe25ac4">handle</a> ()=0</td></tr>
 <tr class="memdesc:a630d5cbabb8c95d6234cefa16fe25ac4"><td class="mdescLeft">&#160;</td><td class="mdescRight">handle device state and call <a class="el" href="classMR_1_1Viewer.html">Viewer</a> signals  <br /></td></tr>
 <tr class="separator:a630d5cbabb8c95d6234cefa16fe25ac4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -237,8 +236,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a5c2a0f9ed6b49950d604726d8ff4b31e" name="a5c2a0f9ed6b49950d604726d8ff4b31e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5c2a0f9ed6b49950d604726d8ff4b31e">&#9670;&#160;</a></span>initialize()</h2>
+<a id="aa16a3f50c595a2adfa16a0062dbea2a5" name="aa16a3f50c595a2adfa16a0062dbea2a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa16a3f50c595a2adfa16a0062dbea2a5">&#9670;&#160;</a></span>initialize()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -249,7 +248,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">virtual bool MR::SpaceMouseHandler::initialize </td>
           <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype">std::function&lt; void(const std::string &amp;)&gt;</td>          <td class="paramname"><span class="paramname"><em>deviceSignal</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -259,10 +258,14 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>initialize device </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">deviceSignal</td><td>every device-related event will be sent here: find, connect, disconnect </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p>initialize device </p>
-
-<p>Implemented in <a class="el" href="classMR_1_1SpaceMouseHandlerHidapi.html#adf220c93efe5a91704da349086edcf46">MR::SpaceMouseHandlerHidapi</a>.</p>
+<p>Implemented in <a class="el" href="classMR_1_1SpaceMouseHandlerHidapi.html#afd46f7a6766658893e08a5f80973bc0b">MR::SpaceMouseHandlerHidapi</a>.</p>
 
 </div>
 </div>

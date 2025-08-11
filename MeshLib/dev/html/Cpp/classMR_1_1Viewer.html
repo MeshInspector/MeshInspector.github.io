@@ -504,6 +504,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9e7838b6c40f9f7bbdb03fbc9b53a857" id="r_a9e7838b6c40f9f7bbdb03fbc9b53a857"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e7838b6c40f9f7bbdb03fbc9b53a857">setSortDroppedFiles</a> (bool value)</td></tr>
 <tr class="memdesc:a9e7838b6c40f9f7bbdb03fbc9b53a857"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets whether to sort the filenames received from Drag&amp;Drop in lexicographical order before adding them in scene  <br /></td></tr>
 <tr class="separator:a9e7838b6c40f9f7bbdb03fbc9b53a857"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebf2cb865d789166174af6ef9a67d295" id="r_aebf2cb865d789166174af6ef9a67d295"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aebf2cb865d789166174af6ef9a67d295">initSpaceMouseHandler</a> (std::function&lt; void(const std::string &amp;)&gt; deviceSignal={})</td></tr>
+<tr class="separator:aebf2cb865d789166174af6ef9a67d295"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -2222,6 +2224,29 @@ template&lt;typename PluginType &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="aebf2cb865d789166174af6ef9a67d295" name="aebf2cb865d789166174af6ef9a67d295"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebf2cb865d789166174af6ef9a67d295">&#9670;&#160;</a></span>initSpaceMouseHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API void MR::Viewer::initSpaceMouseHandler </td>
+          <td>(</td>
+          <td class="paramtype">std::function&lt; void(const std::string &amp;)&gt;</td>          <td class="paramname"><span class="paramname"><em>deviceSignal</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>(re)initializes the handler of SpaceMouse events </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">deviceSignal</td><td>every device-related event will be sent here: find, connect, disconnect </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
