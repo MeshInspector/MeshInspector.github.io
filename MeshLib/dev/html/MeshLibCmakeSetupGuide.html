@@ -187,6 +187,8 @@ Link the MeshLib Libraries</h3>
 <p>Specify which MeshLib libraries to link with your project: </p><div class="fragment"><div class="line">target_link_libraries(your_project_name PUBLIC MeshLib::MRMesh)</div>
 <div class="line"># if you want to use viewer libraries</div>
 <div class="line">target_link_libraries(your_project_name PUBLIC MeshLib::MRMesh MeshLib::MRViewer)</div>
+</div><!-- fragment --><p>Or if you use the C API, instead link <code>MeshLib::MeshLibC2</code>:</p>
+<div class="fragment"><div class="line">target_link_libraries(your_project_name PUBLIC MeshLib::MeshLibC2)</div>
 </div><!-- fragment --><h3><a class="anchor" id="autotoc_md22"></a>
 Find Third-Party Dependencies</h3>
 <p>MeshLib have extended functionality that may have additional dependencies that need to be linked. Check the example <code>CMakeLists.txt</code> provided in the <a href="https://github.com/MeshInspector/MeshLib/blob/master/examples/cpp-examples/CMakeLists.txt">examples directory</a> to see how to add required dependencies:</p>
