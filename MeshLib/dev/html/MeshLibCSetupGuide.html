@@ -154,7 +154,7 @@ $(function(){initNavTree('MeshLibCSetupGuide.html',''); initResizable(true); });
 <li class="level3"><a href="#autotoc_md44">macOS</a></li>
 </ul>
 </li>
-<li class="level2"><a href="#autotoc_md45">Compiling the C bindings locally</a></li>
+<li class="level2"><a href="#autotoc_md45">Try MeshLib with C Examples</a></li>
 </ul>
 </li>
 </ul>
@@ -165,13 +165,14 @@ Setting Up MeshLib for C Development</h1>
 <dd>
 - v2 (the recommended default) — the library is called <code>MeshLibC2</code>, and the headers are in the the <code>MRC*</code> directories.</dd>
 <dd>
-- v1 (deprecated) — the library is called <code>MRMeshC</code>, and the headers are in the <code>MRMeshC</code> directory. This version only exposes a small part of MeshLib. The support for v1 will be dropped by the end of 2025.</dd></dl>
-<p>Currently, the only supported way of using the C API is via the binary releases of MeshLib. The installation process is <a class="el" href="MeshLibCppSetupGuide.html">same as for C++</a>, and is also explained below.</p>
-<p>The release archives include the C headers (in the directory called <code>MRCMesh</code> and several other <code>MRC...</code> directories), and a compiled library named <code>MeshLibC2</code> (<code>MeshLibC2.dll</code> on Windows, <code>libMeshLibC2.so</code> on Linux, etc). This library links against our C++ libraries (<code>MRMesh</code> and others) and provides C wrappers for them.</p>
-<p>If you're consuming the C API from <a class="el" href="MeshLibCmakeSetupGuide.html">CMake</a>, add the following to your <code>CMakeLists.txt</code>: </p><div class="fragment"><div class="line">target_link_libraries(your_project_name PUBLIC MeshLib::MeshLibC2)</div>
-</div><!-- fragment --><p> Otherwise, link against the <code>MeshLibC2</code> library manually.</p>
+- v1 (deprecated) — the library is called <code>MRMeshC</code>, and the headers are in the <code>MRMeshC</code> directory. This version only exposes a small part of MeshLib. The support for v1 will be dropped by the end of 2025. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>Currently, the only supported way of using the C API is via the binary releases of MeshLib.</dd>
+<dd>
+Starting with the next release, you will be able to compile the C bindings directly from the source code. </dd></dl>
 <h2><a class="anchor" id="autotoc_md41"></a>
 Installing binary releases of MeshLib</h2>
+<p>The installation process is <a class="el" href="MeshLibCppSetupGuide.html">same as for C++</a>, and is also explained below.</p>
+<p>The release archives include the C headers (in the directory called <code>MRCMesh</code> and several other <code>MRC...</code> directories), and a compiled library named <code>MeshLibC2</code> (<code>MeshLibC2.dll</code> on Windows, <code>libMeshLibC2.so</code> on Linux, etc). This library links against our C++ libraries (<code>MRMesh</code> and others) and provides C wrappers for them.</p>
 <h3><a class="anchor" id="autotoc_md42"></a>
 Windows</h3>
 <ol type="1">
@@ -215,10 +216,10 @@ Linux (Ubuntu/Fedora)</h3>
 </div><!-- fragment --></li>
 </ul>
 </li>
-<li><b>Open MeshViewer</b> <br  />
- To verify that everything is fine you can run MeshViewer application: <div class="fragment"><div class="line">MeshViewer</div>
+<li><a class="el" href="MeshLibCmakeSetupGuide.html"><b>Integrate Using CMake</b></a> <br  />
+ Add the following to your <code>CMakeLists.txt</code>: <div class="fragment"><div class="line">target_link_libraries(your_project_name PUBLIC MeshLib::MeshLibC2)</div>
+<div class="line">`</div>
 </div><!-- fragment --></li>
-<li><a class="el" href="MeshLibCmakeSetupGuide.html"><b>Integrate Using CMake</b></a></li>
 </ol>
 <h3><a class="anchor" id="autotoc_md44"></a>
 macOS</h3>
@@ -232,12 +233,15 @@ macOS</h3>
 </div><!-- fragment --></li>
 </ul>
 </li>
-<li><b>Integrate Using CMake</b> <br  />
- Examples of integration with CMake can be found in the <a href="https://github.com/MeshInspector/MeshLib/blob/master/examples/cpp-examples/CMakeLists.txt">examples directory</a> on GitHub.</li>
+<li><a class="el" href="MeshLibCmakeSetupGuide.html"><b>Integrate Using CMake</b></a> <br  />
+ Add the following to your <code>CMakeLists.txt</code>: <div class="fragment"><div class="line">target_link_libraries(your_project_name PUBLIC MeshLib::MeshLibC2)</div>
+<div class="line">`</div>
+</div><!-- fragment --></li>
 </ol>
 <h2><a class="anchor" id="autotoc_md45"></a>
-Compiling the C bindings locally</h2>
-<p>Compiling the C bindings from source is currently not supported. Since their source code is generated, it's not present in the MeshLib repository. </p>
+Try MeshLib with C Examples</h2>
+<p>MeshLib provides a <a class="el" href="Examples.html">collection of C code samples</a> to help you get started quickly with common mesh processing tasks.</p>
+<p>We suggest running one of them to confirm that the installation was performed correctly, for example the <a class="el" href="ExampleMeshLoadSave.html">Load and Save Meshes</a> sample. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
