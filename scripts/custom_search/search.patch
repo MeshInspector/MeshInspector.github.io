@@ -1,5 +1,5 @@
---- ./scripts/custom_search/search.js_origin	2025-08-12 17:05:28.930049334 +0300
-+++ ./scripts/custom_search/_search.js	2025-08-12 17:01:05.258965617 +0300
+--- ./search.js	2025-08-12 17:05:28.930049334 +0300
++++ ./search.js	2025-08-12 17:01:05.258965617 +0300
 @@ -256,18 +256,8 @@
      // strip leading whitespace
      const searchValue = this.DOMSearchField().value.replace(/^ +/, "");
