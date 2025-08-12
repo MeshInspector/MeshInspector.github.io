@@ -229,6 +229,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aeb59ad7cf15a98df6bbebc30207192ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a10adcfbaa8c04e4fbb97920b8a7bd60a" id="r_a10adcfbaa8c04e4fbb97920b8a7bd60a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10adcfbaa8c04e4fbb97920b8a7bd60a">heapBytes</a> (self)</td></tr>
 <tr class="separator:a10adcfbaa8c04e4fbb97920b8a7bd60a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2be8e340e3ee4b2e1fc14c24833d2a99" id="r_a2be8e340e3ee4b2e1fc14c24833d2a99"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2be8e340e3ee4b2e1fc14c24833d2a99">is_subset_of</a> (self, <a class="el" href="classmrmeshpy_1_1BitSet.html">BitSet</a> a)</td></tr>
+<tr class="separator:a2be8e340e3ee4b2e1fc14c24833d2a99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad25bdd5a49f4648994cef1ae56864c3f" id="r_ad25bdd5a49f4648994cef1ae56864c3f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad25bdd5a49f4648994cef1ae56864c3f">nthSetBit</a> (self, int n)</td></tr>
 <tr class="separator:ad25bdd5a49f4648994cef1ae56864c3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a204e188214d1fd66553951c4a6c9888b" id="r_a204e188214d1fd66553951c4a6c9888b"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a204e188214d1fd66553951c4a6c9888b">pop_back</a> (self)</td></tr>
@@ -277,7 +279,8 @@ Static Public Member Functions</h2></td></tr>
 <div class="textblock"><pre class="fragment">Generated from:  MR::BitSet
 Aliases:  TypedBitSet_Id_VoxelTag_base, TypedBitSet_Id_ICPElemtTag.base, TypedBitSet_RegionId_base, TypedBitSet_PixelId_base, TypedBitSet_GraphEdgeId_base, TypedBitSet_VertId_base, TypedBitSet_GraphVertId_base, TypedBitSet_FaceId_base, TypedBitSet_Id_EdgeTag_base, TypedBitSet_NodeId_base, TypedBitSet_ObjId_base, TypedBitSet_TextureId_base, TypedBitSet_UndirectedEdgeId_base
 
-container of bits
+std::vector&lt;bool&gt; like container  (random-access, size_t - index type, bool - value type)
+with all bits after size() considered off during testing
 </pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aec2d31c5842b18f1ef3a2e3e1de0ddf3" name="aec2d31c5842b18f1ef3a2e3e1de0ddf3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aec2d31c5842b18f1ef3a2e3e1de0ddf3">&#9670;&#160;</a></span>__init__() <span class="overload">[1/3]</span></h2>
@@ -903,6 +906,30 @@ container of bits
 </div><div class="memdoc">
 <pre class="fragment">returns the amount of memory this object occupies on heap
 </pre> 
+</div>
+</div>
+<a id="a2be8e340e3ee4b2e1fc14c24833d2a99" name="a2be8e340e3ee4b2e1fc14c24833d2a99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2be8e340e3ee4b2e1fc14c24833d2a99">&#9670;&#160;</a></span>is_subset_of()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool mrmeshpy.BitSet.is_subset_of </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1BitSet.html">BitSet</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns true if, for every bit that is set in this bitset, the corresponding bit in bitset a is also set. Otherwise this function returns false.
+</pre> 
+<p>Reimplemented in <a class="el" href="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#aa6bcdd1c671eda3271ba9445cafb4346">mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmrmeshpy_1_1EdgeBitSet.html#af18d089eec2ad1d214fba1b526c34ee0">mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html#a60b667616829f078187d290eaab1dc6e">mrmeshpy.FaceBitSet</a>, <a class="el" href="classmrmeshpy_1_1GraphEdgeBitSet.html#a4b37819366e4c3ab65824621c4a42586">mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html#a2c7deb1da06e051622b50ddcc392a3a9">mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmrmeshpy_1_1NodeBitSet.html#aeba03a6d9efe27936e771daaa3385352">mrmeshpy.NodeBitSet</a>, <a class="el" href="classmrmeshpy_1_1ObjBitSet.html#aa948074baf15ea630a11eaf5be305dc7">mrmeshpy.ObjBitSet</a>, <a class="el" href="classmrmeshpy_1_1PixelBitSet.html#a24f4a9a782e907e21f11eac0e443b6c3">mrmeshpy.PixelBitSet</a>, <a class="el" href="classmrmeshpy_1_1RegionBitSet.html#a073e500b5dd574982e909a3cd93e0c83">mrmeshpy.RegionBitSet</a>, <a class="el" href="classmrmeshpy_1_1TextureBitSet.html#a990726a1ac1e9b03de824784c3f5afa2">mrmeshpy.TextureBitSet</a>, <a class="el" href="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag.html#a2b0d54dcffaceded209743dce407c57d">mrmeshpy.TypedBitSet_Id_ICPElemtTag</a>, <a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html#a05c7256465c9b710d85004528f3e1f5a">mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmrmeshpy_1_1VertBitSet.html#a38bc9eaf27d3493ec525b62f183f85a3">mrmeshpy.VertBitSet</a>, and <a class="el" href="classmrmeshpy_1_1VoxelBitSet.html#a6b5a68d538548712878dcc05c735f60d">mrmeshpy.VoxelBitSet</a>.</p>
+
 </div>
 </div>
 <a id="ad25bdd5a49f4648994cef1ae56864c3f" name="ad25bdd5a49f4648994cef1ae56864c3f"></a>

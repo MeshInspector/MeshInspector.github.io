@@ -31,7 +31,6 @@ var classmrmeshpy_1_1VoxelBitSet =
     [ "getMapping", "classmrmeshpy_1_1VoxelBitSet.html#a1e77208f52a7fcc05796496b73340c37", null ],
     [ "getMapping", "classmrmeshpy_1_1VoxelBitSet.html#aee0157cfbd5a8e52e3a681abfb9f7f91", null ],
     [ "intersects", "classmrmeshpy_1_1VoxelBitSet.html#a4c8aebbf55fb9eb02c2ed478c6816c2e", null ],
-    [ "is_proper_subset_of", "classmrmeshpy_1_1VoxelBitSet.html#ad0813b5854c8e5e2ad638f9236a701fb", null ],
     [ "is_subset_of", "classmrmeshpy_1_1VoxelBitSet.html#a6b5a68d538548712878dcc05c735f60d", null ],
     [ "nthSetBit", "classmrmeshpy_1_1VoxelBitSet.html#a89aec88ef8919b163dacf3dac240b54d", null ],
     [ "reset", "classmrmeshpy_1_1VoxelBitSet.html#ab9e60ab26d1faca1f633d3dee318aab4", null ],

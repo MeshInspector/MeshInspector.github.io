@@ -1,13 +1,5 @@
 var NAVTREEINDEX50 =
 {
-"classmrmeshpy_1_1MoveType.html#ad52edbe78ea170598dd6a69d65196e01":[6,1,0,0,2,520,9],
-"classmrmeshpy_1_1MoveType.html#ad52edbe78ea170598dd6a69d65196e01":[6,1,1,0,1,520,9],
-"classmrmeshpy_1_1MoveType.html#ae14814b339deebe98bb8c3f931214465":[6,1,0,0,2,520,3],
-"classmrmeshpy_1_1MoveType.html#ae14814b339deebe98bb8c3f931214465":[6,1,1,0,1,520,3],
-"classmrmeshpy_1_1MoveType.html#aec85152045a84a660e0c11e8a85a1cdc":[6,1,0,0,2,520,11],
-"classmrmeshpy_1_1MoveType.html#aec85152045a84a660e0c11e8a85a1cdc":[6,1,1,0,1,520,11],
-"classmrmeshpy_1_1MoveType.html#af74b9fa283a8db1e48f520916c8a5f68":[6,1,0,0,2,520,5],
-"classmrmeshpy_1_1MoveType.html#af74b9fa283a8db1e48f520916c8a5f68":[6,1,1,0,1,520,5],
 "classmrmeshpy_1_1MoveType.html#af8b5f4970d4e5db4ddb9879022dda5a4":[6,1,0,0,2,520,1],
 "classmrmeshpy_1_1MoveType.html#af8b5f4970d4e5db4ddb9879022dda5a4":[6,1,1,0,1,520,1],
 "classmrmeshpy_1_1MoveType.html#afa6809e301c50c5d9d78bfa76324018a":[6,1,0,0,2,520,6],
@@ -249,5 +241,13 @@ var NAVTREEINDEX50 =
 "classmrmeshpy_1_1NewEdgesMap.html#a7d563c8646ac6495f850481cd50f5150":[6,1,0,0,2,529,1],
 "classmrmeshpy_1_1NewEdgesMap.html#a7d563c8646ac6495f850481cd50f5150":[6,1,1,0,1,529,1],
 "classmrmeshpy_1_1NewEdgesMap.html#a95716ec9a2d6e3143c3d56e5bdf9a81e":[6,1,0,0,2,529,3],
-"classmrmeshpy_1_1NewEdgesMap.html#a95716ec9a2d6e3143c3d56e5bdf9a81e":[6,1,1,0,1,529,3]
+"classmrmeshpy_1_1NewEdgesMap.html#a95716ec9a2d6e3143c3d56e5bdf9a81e":[6,1,1,0,1,529,3],
+"classmrmeshpy_1_1NewEdgesMap.html#ab0628778ccfd7a641ad2d2a2c5cc6471":[6,1,0,0,2,529,2],
+"classmrmeshpy_1_1NewEdgesMap.html#ab0628778ccfd7a641ad2d2a2c5cc6471":[6,1,1,0,1,529,2],
+"classmrmeshpy_1_1NewEdgesMap.html#aca55a27bf600694a290e85ca3e2a3274":[6,1,0,0,2,529,5],
+"classmrmeshpy_1_1NewEdgesMap.html#aca55a27bf600694a290e85ca3e2a3274":[6,1,1,0,1,529,5],
+"classmrmeshpy_1_1NextEdgeSameLeft.html":[6,1,0,0,2,530],
+"classmrmeshpy_1_1NextEdgeSameLeft.html":[6,1,1,0,1,530],
+"classmrmeshpy_1_1NextEdgeSameLeft.html#a4a4fb9ea9be3541a9e50b29057efa53a":[6,1,0,0,2,530,0],
+"classmrmeshpy_1_1NextEdgeSameLeft.html#a4a4fb9ea9be3541a9e50b29057efa53a":[6,1,1,0,1,530,0]
 };

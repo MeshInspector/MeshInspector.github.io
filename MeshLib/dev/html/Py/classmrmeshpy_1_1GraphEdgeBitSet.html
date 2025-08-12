@@ -228,8 +228,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a71895041f014a328541c883d476b69c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a84bd9b4d677aca3f4e720b871ab894d3" id="r_a84bd9b4d677aca3f4e720b871ab894d3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84bd9b4d677aca3f4e720b871ab894d3">intersects</a> (self, <a class="el" href="classmrmeshpy_1_1GraphEdgeBitSet.html">GraphEdgeBitSet</a> a)</td></tr>
 <tr class="separator:a84bd9b4d677aca3f4e720b871ab894d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4cd783b07eea2a0f30e59b3e74eb6dba" id="r_a4cd783b07eea2a0f30e59b3e74eb6dba"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4cd783b07eea2a0f30e59b3e74eb6dba">is_proper_subset_of</a> (self, <a class="el" href="classmrmeshpy_1_1GraphEdgeBitSet.html">GraphEdgeBitSet</a> a)</td></tr>
-<tr class="separator:a4cd783b07eea2a0f30e59b3e74eb6dba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b37819366e4c3ab65824621c4a42586" id="r_a4b37819366e4c3ab65824621c4a42586"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b37819366e4c3ab65824621c4a42586">is_subset_of</a> (self, <a class="el" href="classmrmeshpy_1_1GraphEdgeBitSet.html">GraphEdgeBitSet</a> a)</td></tr>
 <tr class="separator:a4b37819366e4c3ab65824621c4a42586"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abcbe2fadfd69e22a335927a3d44f9112" id="r_abcbe2fadfd69e22a335927a3d44f9112"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1GraphEdgeId.html">GraphEdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abcbe2fadfd69e22a335927a3d44f9112">nthSetBit</a> (self, int n)</td></tr>
@@ -289,7 +287,8 @@ Static Public Member Functions</h2></td></tr>
 <div class="textblock"><pre class="fragment">Generated from:  MR::GraphEdgeBitSet
 Aliases:  Graph.EdgeBitSet
 
-container of bits representing specific indices (faces, verts or edges)
+Vector&lt;bool, I&gt; like container (random-access, I - index type, bool - value type)
+with all bits after size() considered off during testing
 </pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a5d07da3efb823706bc1159d37e5e791e" name="a5d07da3efb823706bc1159d37e5e791e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5d07da3efb823706bc1159d37e5e791e">&#9670;&#160;</a></span>__init__() <span class="overload">[1/4]</span></h2>
@@ -1057,28 +1056,6 @@ container of bits representing specific indices (faces, verts or edges)
 </pre> 
 </div>
 </div>
-<a id="a4cd783b07eea2a0f30e59b3e74eb6dba" name="a4cd783b07eea2a0f30e59b3e74eb6dba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4cd783b07eea2a0f30e59b3e74eb6dba">&#9670;&#160;</a></span>is_proper_subset_of()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> bool mrmeshpy.GraphEdgeBitSet.is_proper_subset_of </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1GraphEdgeBitSet.html">GraphEdgeBitSet</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment">returns true if, for every bit that is set in this bitset, the corresponding bit in bitset a is also set and if this-&gt;count() &lt; a.count(). Otherwise this function returns false.
-</pre> 
-</div>
-</div>
 <a id="a4b37819366e4c3ab65824621c4a42586" name="a4b37819366e4c3ab65824621c4a42586"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4b37819366e4c3ab65824621c4a42586">&#9670;&#160;</a></span>is_subset_of()</h2>
 
@@ -1099,6 +1076,8 @@ container of bits representing specific indices (faces, verts or edges)
 </div><div class="memdoc">
 <pre class="fragment">returns true if, for every bit that is set in this bitset, the corresponding bit in bitset a is also set. Otherwise this function returns false.
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1BitSet.html#a2be8e340e3ee4b2e1fc14c24833d2a99">mrmeshpy.BitSet</a>.</p>
+
 </div>
 </div>
 <a id="abcbe2fadfd69e22a335927a3d44f9112" name="abcbe2fadfd69e22a335927a3d44f9112"></a>

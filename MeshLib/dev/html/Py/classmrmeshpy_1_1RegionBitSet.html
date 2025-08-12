@@ -228,8 +228,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a3df5e67545023ea40b3761cd3e6465a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a07dcb7b6a37fba61f1afca6ce0d199e1" id="r_a07dcb7b6a37fba61f1afca6ce0d199e1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a07dcb7b6a37fba61f1afca6ce0d199e1">intersects</a> (self, <a class="el" href="classmrmeshpy_1_1RegionBitSet.html">RegionBitSet</a> a)</td></tr>
 <tr class="separator:a07dcb7b6a37fba61f1afca6ce0d199e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a057a966139f4077c36947410fdf20b59" id="r_a057a966139f4077c36947410fdf20b59"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a057a966139f4077c36947410fdf20b59">is_proper_subset_of</a> (self, <a class="el" href="classmrmeshpy_1_1RegionBitSet.html">RegionBitSet</a> a)</td></tr>
-<tr class="separator:a057a966139f4077c36947410fdf20b59"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a073e500b5dd574982e909a3cd93e0c83" id="r_a073e500b5dd574982e909a3cd93e0c83"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a073e500b5dd574982e909a3cd93e0c83">is_subset_of</a> (self, <a class="el" href="classmrmeshpy_1_1RegionBitSet.html">RegionBitSet</a> a)</td></tr>
 <tr class="separator:a073e500b5dd574982e909a3cd93e0c83"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a34ba92a868db9a7f984be8a559a9fc17" id="r_a34ba92a868db9a7f984be8a559a9fc17"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1RegionId.html">RegionId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34ba92a868db9a7f984be8a559a9fc17">nthSetBit</a> (self, int n)</td></tr>
@@ -288,7 +286,8 @@ Static Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><pre class="fragment">Generated from:  MR::RegionBitSet
 
-container of bits representing specific indices (faces, verts or edges)
+Vector&lt;bool, I&gt; like container (random-access, I - index type, bool - value type)
+with all bits after size() considered off during testing
 </pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a234ae192f36f5ca340d2b60cd44866b3" name="a234ae192f36f5ca340d2b60cd44866b3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a234ae192f36f5ca340d2b60cd44866b3">&#9670;&#160;</a></span>__init__() <span class="overload">[1/4]</span></h2>
@@ -1056,28 +1055,6 @@ container of bits representing specific indices (faces, verts or edges)
 </pre> 
 </div>
 </div>
-<a id="a057a966139f4077c36947410fdf20b59" name="a057a966139f4077c36947410fdf20b59"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a057a966139f4077c36947410fdf20b59">&#9670;&#160;</a></span>is_proper_subset_of()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> bool mrmeshpy.RegionBitSet.is_proper_subset_of </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1RegionBitSet.html">RegionBitSet</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment">returns true if, for every bit that is set in this bitset, the corresponding bit in bitset a is also set and if this-&gt;count() &lt; a.count(). Otherwise this function returns false.
-</pre> 
-</div>
-</div>
 <a id="a073e500b5dd574982e909a3cd93e0c83" name="a073e500b5dd574982e909a3cd93e0c83"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a073e500b5dd574982e909a3cd93e0c83">&#9670;&#160;</a></span>is_subset_of()</h2>
 
@@ -1098,6 +1075,8 @@ container of bits representing specific indices (faces, verts or edges)
 </div><div class="memdoc">
 <pre class="fragment">returns true if, for every bit that is set in this bitset, the corresponding bit in bitset a is also set. Otherwise this function returns false.
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1BitSet.html#a2be8e340e3ee4b2e1fc14c24833d2a99">mrmeshpy.BitSet</a>.</p>
+
 </div>
 </div>
 <a id="a34ba92a868db9a7f984be8a559a9fc17" name="a34ba92a868db9a7f984be8a559a9fc17"></a>

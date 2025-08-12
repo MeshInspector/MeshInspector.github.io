@@ -16,6 +16,8 @@ var classMR_1_1BitSet =
     [ "flip", "classMR_1_1BitSet.html#af5fff3291406197a18b73907ba6d0ad0", null ],
     [ "flip", "classMR_1_1BitSet.html#a93e21fb90c6e66305939698ba328dfb4", null ],
     [ "heapBytes", "classMR_1_1BitSet.html#ae5007749dadb7430dc9dedb73114f9a6", null ],
+    [ "is_proper_subset_of", "classMR_1_1BitSet.html#a46e381a4bfd0105477e1e7bf9355253d", null ],
+    [ "is_subset_of", "classMR_1_1BitSet.html#ad205d27f45977c18c7f10c77650523aa", null ],
     [ "nthSetBit", "classMR_1_1BitSet.html#a274cea4a76458910a418ec9e8e3e3edf", null ],
     [ "operator&=", "classMR_1_1BitSet.html#af4367d27b2897443f41bc359deeab256", null ],
     [ "operator-=", "classMR_1_1BitSet.html#a2b67ad8030f22aa236b64a04fb2459dc", null ],

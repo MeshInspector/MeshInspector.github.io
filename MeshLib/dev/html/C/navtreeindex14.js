@@ -1,17 +1,5 @@
 var NAVTREEINDEX14 =
 {
-"MRBuffer_8h.html#abeef0e8d657ffbe97ed782aec448f8e9":[6,2,1,0,0,0,1,27,225],
-"MRBuffer_8h.html#abfc7f7d40889233afe2af023ce214f6d":[6,2,1,0,0,0,1,27,831],
-"MRBuffer_8h.html#ac00c9cd9635b7a4570cd92fe1b11af02":[6,2,1,0,0,0,1,27,757],
-"MRBuffer_8h.html#ac158ba2296f24a35280b647601ac827e":[6,2,1,0,0,0,1,27,4],
-"MRBuffer_8h.html#ac19c35ece52fb80cfac62ee08c9f148d":[6,2,1,0,0,0,1,27,454],
-"MRBuffer_8h.html#ac1a12da286cf6629fa50f8acb1a2dc93":[6,2,1,0,0,0,1,27,668],
-"MRBuffer_8h.html#ac1b08199790d1f6883fcf061ebc59521":[6,2,1,0,0,0,1,27,754],
-"MRBuffer_8h.html#ac1c5ac22c1b58d258f8bc32d40122951":[6,2,1,0,0,0,1,27,722],
-"MRBuffer_8h.html#ac1cef076636ebaec7f52f536534d6064":[6,2,1,0,0,0,1,27,819],
-"MRBuffer_8h.html#ac1f5fa6ab6ab034453153e8e715ed683":[6,2,1,0,0,0,1,27,579],
-"MRBuffer_8h.html#ac22b632a8cb00d287dbd067dc9e03ffb":[6,2,1,0,0,0,1,27,621],
-"MRBuffer_8h.html#ac27804b3c7bc4dc714a73fd60fb3c1e4":[6,2,1,0,0,0,1,27,351],
 "MRBuffer_8h.html#ac2d6d00409b15cc74f5d461bdda69254":[6,2,1,0,0,0,1,27,778],
 "MRBuffer_8h.html#ac3a8d1b4eaa3983c13e7e7d48fa2bb8c":[6,2,1,0,0,0,1,27,506],
 "MRBuffer_8h.html#ac3b408307603e915fb9df60a6981b582":[6,2,1,0,0,0,1,27,0],
@@ -249,5 +237,17 @@ var NAVTREEINDEX14 =
 "MRCNCMachineSettings_8h.html#a3508abf4448bbdbeabcb28fe3fee5329":[6,2,1,0,0,0,1,48,11],
 "MRCNCMachineSettings_8h.html#a39222f7cde24558ae20257c7486241e8":[6,2,1,0,0,0,1,48,3],
 "MRCNCMachineSettings_8h.html#a3b0383112f73fcc239341ddafbb4d3ed":[6,2,1,0,0,0,1,48,6],
-"MRCNCMachineSettings_8h.html#a4f54b86596f0bc4a88bc05e815375a43":[6,2,1,0,0,0,1,48,15]
+"MRCNCMachineSettings_8h.html#a4f54b86596f0bc4a88bc05e815375a43":[6,2,1,0,0,0,1,48,15],
+"MRCNCMachineSettings_8h.html#a50b6d473c5d52659af5c012f4721bb4c":[6,2,1,0,0,0,1,48,23],
+"MRCNCMachineSettings_8h.html#a5a8e3ad9f974e2ae669c0c75ea8b65d6":[6,2,1,0,0,0,1,48,20],
+"MRCNCMachineSettings_8h.html#a6ad20d393144b5135fc9ee0097fa41a2":[6,2,1,0,0,0,1,48,7],
+"MRCNCMachineSettings_8h.html#a6bf133eda1ec95be202b77c33412bc8e":[6,2,1,0,0,0,1,48,4],
+"MRCNCMachineSettings_8h.html#a6fe667e8a270e9f01e38544faa5b148c":[6,2,1,0,0,0,1,48,13],
+"MRCNCMachineSettings_8h.html#a86ba2ec3a874980ece7e1a7fc9e7502f":[6,2,1,0,0,0,1,48,1],
+"MRCNCMachineSettings_8h.html#a8958492f4377352a629cdd478465daab":[6,2,1,0,0,0,1,48,24],
+"MRCNCMachineSettings_8h.html#a8f3a5d38f368c90e000fd30f25907812":[6,2,1,0,0,0,1,48,19],
+"MRCNCMachineSettings_8h.html#aa7c9f35f996c1c9289fbe3dac40af316":[6,2,1,0,0,0,1,48,16],
+"MRCNCMachineSettings_8h.html#aa9bd91452515f76a68711991d16fe8c4":[6,2,1,0,0,0,1,48,14],
+"MRCNCMachineSettings_8h.html#ab6e1f3adede2862500a7c3a23ada1854":[6,2,1,0,0,0,1,48,5],
+"MRCNCMachineSettings_8h.html#abb045b1a093bc1ff3a2b14859e0b4dea":[6,2,1,0,0,0,1,48,22]
 };

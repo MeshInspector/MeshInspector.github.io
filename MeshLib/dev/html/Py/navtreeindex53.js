@@ -1,17 +1,5 @@
 var NAVTREEINDEX53 =
 {
-"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Cylinder.html#a7ec87be1af24c5c8d0f45ebf959f41b0":[6,1,1,0,1,589,0],
-"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Cylinder.html#a7ec87be1af24c5c8d0f45ebf959f41b0":[6,1,1,0,1,589,1],
-"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Line.html":[6,1,0,0,2,590],
-"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Line.html":[6,1,1,0,1,590],
-"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Line.html#ab41336f3835dd6057579c41dc84ab953":[6,1,0,0,2,590,0],
-"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Line.html#ab41336f3835dd6057579c41dc84ab953":[6,1,0,0,2,590,1],
-"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Line.html#ab41336f3835dd6057579c41dc84ab953":[6,1,1,0,1,590,0],
-"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Line.html#ab41336f3835dd6057579c41dc84ab953":[6,1,1,0,1,590,1],
-"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Plane.html":[6,1,0,0,2,591],
-"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Plane.html":[6,1,1,0,1,591],
-"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Plane.html#a33488a70e3b6eed474e41896e862a7fc":[6,1,0,0,2,591,0],
-"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Plane.html#a33488a70e3b6eed474e41896e862a7fc":[6,1,0,0,2,591,1],
 "classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Plane.html#a33488a70e3b6eed474e41896e862a7fc":[6,1,1,0,1,591,0],
 "classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Plane.html#a33488a70e3b6eed474e41896e862a7fc":[6,1,1,0,1,591,1],
 "classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Point.html":[6,1,0,0,2,592],
@@ -249,5 +237,17 @@ var NAVTREEINDEX53 =
 "classmrmeshpy_1_1ObjectChildrenHolder.html#aa1020074c1326a825c86467a0580791d":[6,1,0,0,2,570,1],
 "classmrmeshpy_1_1ObjectChildrenHolder.html#aa1020074c1326a825c86467a0580791d":[6,1,1,0,1,570,1],
 "classmrmeshpy_1_1ObjectChildrenHolder.html#ab156f05a236a7ac85bc140f3e80f4298":[6,1,0,0,2,570,2],
-"classmrmeshpy_1_1ObjectChildrenHolder.html#ab156f05a236a7ac85bc140f3e80f4298":[6,1,1,0,1,570,2]
+"classmrmeshpy_1_1ObjectChildrenHolder.html#ab156f05a236a7ac85bc140f3e80f4298":[6,1,1,0,1,570,2],
+"classmrmeshpy_1_1ObjectDistanceMap.html":[6,1,0,0,2,571],
+"classmrmeshpy_1_1ObjectDistanceMap.html":[6,1,1,0,1,571],
+"classmrmeshpy_1_1ObjectDistanceMap.html#a0672d0c1744aaaac7b221309c053fa43":[6,1,0,0,2,571,9],
+"classmrmeshpy_1_1ObjectDistanceMap.html#a0672d0c1744aaaac7b221309c053fa43":[6,1,1,0,1,571,9],
+"classmrmeshpy_1_1ObjectDistanceMap.html#a1d7c1b9a3a166fde6b983b93affb6942":[6,1,0,0,2,571,3],
+"classmrmeshpy_1_1ObjectDistanceMap.html#a1d7c1b9a3a166fde6b983b93affb6942":[6,1,1,0,1,571,3],
+"classmrmeshpy_1_1ObjectDistanceMap.html#a23e7e645c58a1aca7809974369b1a84a":[6,1,0,0,2,571,1],
+"classmrmeshpy_1_1ObjectDistanceMap.html#a23e7e645c58a1aca7809974369b1a84a":[6,1,1,0,1,571,1],
+"classmrmeshpy_1_1ObjectDistanceMap.html#a270bf3bb4e1d5ebe595bc72c4b192aa3":[6,1,0,0,2,571,13],
+"classmrmeshpy_1_1ObjectDistanceMap.html#a270bf3bb4e1d5ebe595bc72c4b192aa3":[6,1,1,0,1,571,13],
+"classmrmeshpy_1_1ObjectDistanceMap.html#a34bbc4995ca2e7a029ce01df0773d583":[6,1,0,0,2,571,2],
+"classmrmeshpy_1_1ObjectDistanceMap.html#a34bbc4995ca2e7a029ce01df0773d583":[6,1,1,0,1,571,2]
 };

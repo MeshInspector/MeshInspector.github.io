@@ -24,7 +24,6 @@ var classMR_1_1TypedBitSet =
     [ "getMapping", "classMR_1_1TypedBitSet.html#ae0cd24595367501d92c1d903b48d8719", null ],
     [ "getMapping", "classMR_1_1TypedBitSet.html#a7ab244a21047a6b23fc054fc563885ea", null ],
     [ "intersects", "classMR_1_1TypedBitSet.html#a05915b74cec96003f0e381fe2472ac6b", null ],
-    [ "is_proper_subset_of", "classMR_1_1TypedBitSet.html#ab83450f1f7741aeaae04faefc8f3e7fa", null ],
     [ "is_subset_of", "classMR_1_1TypedBitSet.html#a52925d5095533a7b638c2cdef31f594a", null ],
     [ "nthSetBit", "classMR_1_1TypedBitSet.html#af128e7c662fdfb16768d3f19de265794", null ],
     [ "operator&=", "classMR_1_1TypedBitSet.html#ab43aca8f2218844ae11fb2395bdabc9d", null ],

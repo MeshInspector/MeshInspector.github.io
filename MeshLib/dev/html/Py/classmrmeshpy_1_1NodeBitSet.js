@@ -31,7 +31,6 @@ var classmrmeshpy_1_1NodeBitSet =
     [ "getMapping", "classmrmeshpy_1_1NodeBitSet.html#a0089c2673fffd7550660ba80653ba415", null ],
     [ "getMapping", "classmrmeshpy_1_1NodeBitSet.html#a0e025beff109f2ea893af5a9752241f8", null ],
     [ "intersects", "classmrmeshpy_1_1NodeBitSet.html#ab82246c0fa72889ff4ec773864055c2c", null ],
-    [ "is_proper_subset_of", "classmrmeshpy_1_1NodeBitSet.html#a4c848729adfebd9d55a1997e93359f89", null ],
     [ "is_subset_of", "classmrmeshpy_1_1NodeBitSet.html#aeba03a6d9efe27936e771daaa3385352", null ],
     [ "nthSetBit", "classmrmeshpy_1_1NodeBitSet.html#a56d68b63a4499b05cc68a4311047fcc2", null ],
     [ "reset", "classmrmeshpy_1_1NodeBitSet.html#a847521295063d60ca2080946f59cb526", null ],

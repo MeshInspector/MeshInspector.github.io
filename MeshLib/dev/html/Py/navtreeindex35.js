@@ -1,13 +1,5 @@
 var NAVTREEINDEX35 =
 {
-"classmrmeshpy_1_1ImproveSamplingSettings.html#a99d9026176300dbac0c73cc19eade0e5":[6,1,0,0,2,384,11],
-"classmrmeshpy_1_1ImproveSamplingSettings.html#a99d9026176300dbac0c73cc19eade0e5":[6,1,1,0,1,384,11],
-"classmrmeshpy_1_1ImproveSamplingSettings.html#ac0b391eb579b8f557b721b1a4cb96672":[6,1,0,0,2,384,14],
-"classmrmeshpy_1_1ImproveSamplingSettings.html#ac0b391eb579b8f557b721b1a4cb96672":[6,1,1,0,1,384,14],
-"classmrmeshpy_1_1ImproveSamplingSettings.html#ad2cf7bf3d7240fc0a87c4a3e1a1106ec":[6,1,0,0,2,384,16],
-"classmrmeshpy_1_1ImproveSamplingSettings.html#ad2cf7bf3d7240fc0a87c4a3e1a1106ec":[6,1,1,0,1,384,16],
-"classmrmeshpy_1_1ImproveSamplingSettings.html#afc8e3a0c5b18a966b060ffeb0b2f8ced":[6,1,0,0,2,384,0],
-"classmrmeshpy_1_1ImproveSamplingSettings.html#afc8e3a0c5b18a966b060ffeb0b2f8ced":[6,1,1,0,1,384,0],
 "classmrmeshpy_1_1InSphere.html":[6,1,0,0,2,386],
 "classmrmeshpy_1_1InSphere.html":[6,1,1,0,1,386],
 "classmrmeshpy_1_1InSphere.html#a0396f17c689c3c7a26e5f95af0e1e473":[6,1,0,0,2,386,0],
@@ -249,5 +241,13 @@ var NAVTREEINDEX35 =
 "classmrmeshpy_1_1IsVisualizeMaskEnum__MeshVisualizePropertyType.html":[6,1,0,0,2,405],
 "classmrmeshpy_1_1IsVisualizeMaskEnum__MeshVisualizePropertyType.html":[6,1,1,0,1,405],
 "classmrmeshpy_1_1IsVisualizeMaskEnum__MeshVisualizePropertyType.html#a6da7679e50241fdf2306b9ae12ba5042":[6,1,0,0,2,405,2],
-"classmrmeshpy_1_1IsVisualizeMaskEnum__MeshVisualizePropertyType.html#a6da7679e50241fdf2306b9ae12ba5042":[6,1,1,0,1,405,2]
+"classmrmeshpy_1_1IsVisualizeMaskEnum__MeshVisualizePropertyType.html#a6da7679e50241fdf2306b9ae12ba5042":[6,1,1,0,1,405,2],
+"classmrmeshpy_1_1IsVisualizeMaskEnum__MeshVisualizePropertyType.html#af24c1a5b85a0af2ee7a7dccb66d15a35":[6,1,0,0,2,405,0],
+"classmrmeshpy_1_1IsVisualizeMaskEnum__MeshVisualizePropertyType.html#af24c1a5b85a0af2ee7a7dccb66d15a35":[6,1,0,0,2,405,1],
+"classmrmeshpy_1_1IsVisualizeMaskEnum__MeshVisualizePropertyType.html#af24c1a5b85a0af2ee7a7dccb66d15a35":[6,1,1,0,1,405,0],
+"classmrmeshpy_1_1IsVisualizeMaskEnum__MeshVisualizePropertyType.html#af24c1a5b85a0af2ee7a7dccb66d15a35":[6,1,1,0,1,405,1],
+"classmrmeshpy_1_1IsVisualizeMaskEnum__PointsVisualizePropertyType.html":[6,1,0,0,2,406],
+"classmrmeshpy_1_1IsVisualizeMaskEnum__PointsVisualizePropertyType.html":[6,1,1,0,1,406],
+"classmrmeshpy_1_1IsVisualizeMaskEnum__PointsVisualizePropertyType.html#a2ec7d7b5e3b2e843a2878593a6a60c11":[6,1,0,0,2,406,2],
+"classmrmeshpy_1_1IsVisualizeMaskEnum__PointsVisualizePropertyType.html#a2ec7d7b5e3b2e843a2878593a6a60c11":[6,1,1,0,1,406,2]
 };

@@ -31,7 +31,6 @@ var classmrmeshpy_1_1PixelBitSet =
     [ "getMapping", "classmrmeshpy_1_1PixelBitSet.html#a0bc623b11caef7f964bee3676e239fa3", null ],
     [ "getMapping", "classmrmeshpy_1_1PixelBitSet.html#a6cc03e0d590648ecabebe3de22f9bd12", null ],
     [ "intersects", "classmrmeshpy_1_1PixelBitSet.html#a52ab623a5d126cb25290252bc6c1929a", null ],
-    [ "is_proper_subset_of", "classmrmeshpy_1_1PixelBitSet.html#ac2546eab75fb39cdc134ee966ec36a51", null ],
     [ "is_subset_of", "classmrmeshpy_1_1PixelBitSet.html#a24f4a9a782e907e21f11eac0e443b6c3", null ],
     [ "nthSetBit", "classmrmeshpy_1_1PixelBitSet.html#aad357505e8a328a0834df693c45c8543", null ],
     [ "reset", "classmrmeshpy_1_1PixelBitSet.html#a452b38ba923c92c64021c567081a9cc1", null ],

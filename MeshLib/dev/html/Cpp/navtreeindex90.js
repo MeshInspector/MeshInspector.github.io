@@ -1,5 +1,6 @@
 var NAVTREEINDEX90 =
 {
+"structMR_1_1UI_1_1ButtonCustomizationParams.html#a44e7a1e13298276ebd757d7e318111a0":[6,0,1,0,1,40,2,0],
 "structMR_1_1UI_1_1ButtonCustomizationParams.html#a44e7a1e13298276ebd757d7e318111a0":[6,0,2,0,1,23,1,0],
 "structMR_1_1UI_1_1ButtonCustomizationParams.html#a4f1e3048ba6230a8535ee31a43944921":[6,0,1,0,1,40,2,4],
 "structMR_1_1UI_1_1ButtonCustomizationParams.html#a4f1e3048ba6230a8535ee31a43944921":[6,0,2,0,1,23,1,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX90 =
 "structMR_1_1UnitToStringParams.html#a7154a0976d68f4cf955516bbd1e8c3db":[6,0,1,0,1,753,2],
 "structMR_1_1UnitToStringParams.html#a7154a0976d68f4cf955516bbd1e8c3db":[6,0,2,0,1,735,2],
 "structMR_1_1UnitToStringParams.html#a8d8034b7086f9f2abcfdbbcfbc6c8f80":[6,0,1,0,1,753,10],
-"structMR_1_1UnitToStringParams.html#a8d8034b7086f9f2abcfdbbcfbc6c8f80":[6,0,2,0,1,735,10],
-"structMR_1_1UnitToStringParams.html#a946e3167ad791810a532295b6ac6ef8c":[6,0,1,0,1,753,13]
+"structMR_1_1UnitToStringParams.html#a8d8034b7086f9f2abcfdbbcfbc6c8f80":[6,0,2,0,1,735,10]
 };

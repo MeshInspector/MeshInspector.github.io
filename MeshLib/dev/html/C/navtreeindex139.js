@@ -1,17 +1,5 @@
 var NAVTREEINDEX139 =
 {
-"std__vector__MR__MeshBuilder__VertDuplication_8h.html#aa2f80ba8ca549ef6e5650bfde64737ec":[6,2,1,0,0,0,2,321,41],
-"std__vector__MR__MeshBuilder__VertDuplication_8h.html#aa61bfda65043e2267176ec93cc3a62e4":[6,2,1,0,0,0,2,321,55],
-"std__vector__MR__MeshBuilder__VertDuplication_8h.html#aa8cc30a33b4579bf8071f49019e460ab":[6,2,1,0,0,0,2,321,16],
-"std__vector__MR__MeshBuilder__VertDuplication_8h.html#aa90d1ca2c577067c1afbc640f8f87a52":[6,2,1,0,0,0,2,321,12],
-"std__vector__MR__MeshBuilder__VertDuplication_8h.html#aaae22858d88d736c98761ea6c48887aa":[6,2,1,0,0,0,2,321,45],
-"std__vector__MR__MeshBuilder__VertDuplication_8h.html#aab82c0e323755a1e29530a8d75cd86b0":[6,2,1,0,0,0,2,321,34],
-"std__vector__MR__MeshBuilder__VertDuplication_8h.html#aad6724b767173e24705208ab5854e974":[6,2,1,0,0,0,2,321,36],
-"std__vector__MR__MeshBuilder__VertDuplication_8h.html#ab51b6063e939f1593ec223aeff7e5f16":[6,2,1,0,0,0,2,321,28],
-"std__vector__MR__MeshBuilder__VertDuplication_8h.html#ab58db55527a3a018906638b7ec992a12":[6,2,1,0,0,0,2,321,26],
-"std__vector__MR__MeshBuilder__VertDuplication_8h.html#ab619b1416c4a1a445690eb8e9c3eb5a6":[6,2,1,0,0,0,2,321,70],
-"std__vector__MR__MeshBuilder__VertDuplication_8h.html#ab780b62e62ccdce241af83351166b943":[6,2,1,0,0,0,2,321,22],
-"std__vector__MR__MeshBuilder__VertDuplication_8h.html#ac3af400cfc4d115960b0beeba03ad998":[6,2,1,0,0,0,2,321,43],
 "std__vector__MR__MeshBuilder__VertDuplication_8h.html#ac3e3039ac6f6a6d9a105e92ca444eb7b":[6,2,1,0,0,0,2,321,19],
 "std__vector__MR__MeshBuilder__VertDuplication_8h.html#ac67e744f7a68077f537e76c474ef77d9":[6,2,1,0,0,0,2,321,37],
 "std__vector__MR__MeshBuilder__VertDuplication_8h.html#ac9dd768ad7d913ee40a85714c3f8a634":[6,2,1,0,0,0,2,321,50],
@@ -249,5 +237,17 @@ var NAVTREEINDEX139 =
 "std__vector__MR__MeshLoad__NamedMesh_8h.html#af86a967493efdf4b7ad34770398d92e8":[6,2,1,0,0,0,2,324,40],
 "std__vector__MR__MeshLoad__NamedMesh_8h.html#afc8aab2aa4ae86b35dd83a550b444033":[6,2,1,0,0,0,2,324,11],
 "std__vector__MR__MeshLoad__NamedMesh_8h.html#afee4dfe9f36a394acf920c0f788f3c42":[6,2,1,0,0,0,2,324,56],
-"std__vector__MR__MeshLoad__NamedMesh_8h_source.html":[6,2,1,0,0,0,2,324]
+"std__vector__MR__MeshLoad__NamedMesh_8h_source.html":[6,2,1,0,0,0,2,324],
+"std__vector__MR__MeshOrPointsXf_8h.html":[6,2,1,0,0,0,2,325],
+"std__vector__MR__MeshOrPointsXf_8h.html#a026a4f3d60320c6b1479efa9214c404b":[6,2,1,0,0,0,2,325,34],
+"std__vector__MR__MeshOrPointsXf_8h.html#a0337b2be3ec00f542561ea4fb2dde507":[6,2,1,0,0,0,2,325,23],
+"std__vector__MR__MeshOrPointsXf_8h.html#a050225d455e264688a60ff73a9278bf8":[6,2,1,0,0,0,2,325,11],
+"std__vector__MR__MeshOrPointsXf_8h.html#a070be8b79e635051d13e6399a7b42b8b":[6,2,1,0,0,0,2,325,39],
+"std__vector__MR__MeshOrPointsXf_8h.html#a0ae9065de0663fb304e4e96ca093019d":[6,2,1,0,0,0,2,325,8],
+"std__vector__MR__MeshOrPointsXf_8h.html#a0be188b9f9d03ec5064693bbbbd83eaf":[6,2,1,0,0,0,2,325,27],
+"std__vector__MR__MeshOrPointsXf_8h.html#a0e1e3bf0dd899164c9011ceade0ed751":[6,2,1,0,0,0,2,325,37],
+"std__vector__MR__MeshOrPointsXf_8h.html#a126aae382b77a8c71a9968dea6b8f20f":[6,2,1,0,0,0,2,325,45],
+"std__vector__MR__MeshOrPointsXf_8h.html#a1d25d204fbf0f0d68a4659d90d45a031":[6,2,1,0,0,0,2,325,47],
+"std__vector__MR__MeshOrPointsXf_8h.html#a1eecfe1c34f1cc8b5a87ece364f73f29":[6,2,1,0,0,0,2,325,58],
+"std__vector__MR__MeshOrPointsXf_8h.html#a201158cfd0a1ddd3d90cbe28a1b7870a":[6,2,1,0,0,0,2,325,10]
 };

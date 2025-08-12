@@ -1,17 +1,5 @@
 var NAVTREEINDEX83 =
 {
-"MRTripleFaceIntersections_8h.html#a798362089d0501c6329d6b9722930fa5":[6,2,1,0,0,0,1,331,14],
-"MRTripleFaceIntersections_8h.html#a7e5a88eedd9ef3b6fd3441100a36f8ed":[6,2,1,0,0,0,1,331,21],
-"MRTripleFaceIntersections_8h.html#a7f2191cf88a47a18b81c157cf3c7bbbc":[6,2,1,0,0,0,1,331,4],
-"MRTripleFaceIntersections_8h.html#a88495b969429a239c8e204531710ffe5":[6,2,1,0,0,0,1,331,18],
-"MRTripleFaceIntersections_8h.html#a8b579aa1ea8ed3b38d4244d32d0f664c":[6,2,1,0,0,0,1,331,9],
-"MRTripleFaceIntersections_8h.html#a8b8c7208d9e1a5c65912977a7995c9c3":[6,2,1,0,0,0,1,331,16],
-"MRTripleFaceIntersections_8h.html#a9106a7bf787ea59867d0b118bed5aac4":[6,2,1,0,0,0,1,331,12],
-"MRTripleFaceIntersections_8h.html#aa31bf7a51d259e8d37f9b1ffc113763a":[6,2,1,0,0,0,1,331,17],
-"MRTripleFaceIntersections_8h.html#ab48ef760c2671fd11ca83216d1b17ff8":[6,2,1,0,0,0,1,331,3],
-"MRTripleFaceIntersections_8h.html#ab701fdf4a6dcc8a901142674dbbfbc04":[6,2,1,0,0,0,1,331,7],
-"MRTripleFaceIntersections_8h.html#abd79e78e95147ae5cbfc323abad5c758":[6,2,1,0,0,0,1,331,2],
-"MRTripleFaceIntersections_8h.html#ad396cf7d4433c5ba7924776f5b379c9b":[6,2,1,0,0,0,1,331,1],
 "MRTripleFaceIntersections_8h.html#ae1731ae1bf2680e66a33544c32e56091":[6,2,1,0,0,0,1,331,13],
 "MRTripleFaceIntersections_8h_source.html":[6,2,1,0,0,0,1,331],
 "MRTunnelDetector_8h.html":[6,2,1,0,0,0,1,333],
@@ -249,5 +237,17 @@ var NAVTREEINDEX83 =
 "MRUnorientedTriangle_8h.html#a2ba35a57297946739b295026d61cbb37":[6,2,1,0,0,0,1,339,7],
 "MRUnorientedTriangle_8h.html#a2cdd56f9005d43ce0bbf5ec4357ea0e2":[6,2,1,0,0,0,1,339,17],
 "MRUnorientedTriangle_8h.html#a31e44df4ed6582a8049a7cac8ee69a75":[6,2,1,0,0,0,1,339,12],
-"MRUnorientedTriangle_8h.html#a32976cbe6235bd1b49a93cafa3095110":[6,2,1,0,0,0,1,339,6]
+"MRUnorientedTriangle_8h.html#a32976cbe6235bd1b49a93cafa3095110":[6,2,1,0,0,0,1,339,6],
+"MRUnorientedTriangle_8h.html#a64d49e7ba2575275fe304bab6f095f9d":[6,2,1,0,0,0,1,339,0],
+"MRUnorientedTriangle_8h.html#a68722fa57caa2e32168fb7af496595fe":[6,2,1,0,0,0,1,339,16],
+"MRUnorientedTriangle_8h.html#a70959cf48fd72ee34af799fe34ca3765":[6,2,1,0,0,0,1,339,10],
+"MRUnorientedTriangle_8h.html#a71801f991d662d46273414e0551d92cf":[6,2,1,0,0,0,1,339,2],
+"MRUnorientedTriangle_8h.html#aa444fc4dfebb79d2f006309ecda49efa":[6,2,1,0,0,0,1,339,5],
+"MRUnorientedTriangle_8h.html#aa5ec7eb59f586f40bc5944e284379e1d":[6,2,1,0,0,0,1,339,4],
+"MRUnorientedTriangle_8h.html#aaa12a3a29005cedbc1f2f6aa5cab2119":[6,2,1,0,0,0,1,339,15],
+"MRUnorientedTriangle_8h.html#aac92566ba7db9f068c7228cd036bd9a6":[6,2,1,0,0,0,1,339,11],
+"MRUnorientedTriangle_8h.html#aaf5479349a6e173ce56d85aa3c432674":[6,2,1,0,0,0,1,339,8],
+"MRUnorientedTriangle_8h.html#ab0a3e57a58b252b55b6c65fa16597876":[6,2,1,0,0,0,1,339,13],
+"MRUnorientedTriangle_8h.html#ac77b02a8c83ca9f4b2d0472ee006b21e":[6,2,1,0,0,0,1,339,14],
+"MRUnorientedTriangle_8h.html#ad782ee101f136d647eed2a41e55f6430":[6,2,1,0,0,0,1,339,9]
 };

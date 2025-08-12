@@ -31,7 +31,6 @@ var classmrmeshpy_1_1RegionBitSet =
     [ "getMapping", "classmrmeshpy_1_1RegionBitSet.html#a6b6bd2f5cdc5144eabfe138253e267e7", null ],
     [ "getMapping", "classmrmeshpy_1_1RegionBitSet.html#a8055182a404c3ad1a83f003475116f82", null ],
     [ "intersects", "classmrmeshpy_1_1RegionBitSet.html#a07dcb7b6a37fba61f1afca6ce0d199e1", null ],
-    [ "is_proper_subset_of", "classmrmeshpy_1_1RegionBitSet.html#a057a966139f4077c36947410fdf20b59", null ],
     [ "is_subset_of", "classmrmeshpy_1_1RegionBitSet.html#a073e500b5dd574982e909a3cd93e0c83", null ],
     [ "nthSetBit", "classmrmeshpy_1_1RegionBitSet.html#a34ba92a868db9a7f984be8a559a9fc17", null ],
     [ "reset", "classmrmeshpy_1_1RegionBitSet.html#a1e9b2e2f1797d700874509f4ebace46e", null ],

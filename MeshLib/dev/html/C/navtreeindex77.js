@@ -1,17 +1,5 @@
 var NAVTREEINDEX77 =
 {
-"MRSphereObject_8h.html#a67f545f54ad8cf36cd415d108d463f83":[6,2,1,0,0,0,1,308,5],
-"MRSphereObject_8h.html#a69dc6868c10c92fb8b8a255b0130d289":[6,2,1,0,0,0,1,308,7],
-"MRSphereObject_8h.html#a71e9a0efbad518f8d3571c27b429efcd":[6,2,1,0,0,0,1,308,19],
-"MRSphereObject_8h.html#a748e4529197ee1b5f663e07bbbf0fd53":[6,2,1,0,0,0,1,308,34],
-"MRSphereObject_8h.html#a7535a73f1b0f1cc0e8ecc9fc3e174457":[6,2,1,0,0,0,1,308,27],
-"MRSphereObject_8h.html#a86db4d594ec46efc829d2ddd041c7e39":[6,2,1,0,0,0,1,308,13],
-"MRSphereObject_8h.html#a9de4534da67fd247daf85583208d041e":[6,2,1,0,0,0,1,308,12],
-"MRSphereObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4":[6,2,1,0,0,0,1,308,6],
-"MRSphereObject_8h.html#aa217dd5a5604d925d697b84720f7314f":[6,2,1,0,0,0,1,308,28],
-"MRSphereObject_8h.html#aa872d4b202fbd6f02287a547555329ec":[6,2,1,0,0,0,1,308,20],
-"MRSphereObject_8h.html#aa8c409c9ee66d23237a92892417e9abe":[6,2,1,0,0,0,1,308,36],
-"MRSphereObject_8h.html#aa992b7abf974704ed24a57c492a2fd58":[6,2,1,0,0,0,1,308,16],
 "MRSphereObject_8h.html#aab112a45555416b720c74a908c6c2d18":[6,2,1,0,0,0,1,308,32],
 "MRSphereObject_8h.html#aaba6eda6a8863c59b3a413b8e90a3088":[6,2,1,0,0,0,1,308,39],
 "MRSphereObject_8h.html#aac6ae55efb16dfdb6c8b7ea68ff72aae":[6,2,1,0,0,0,1,308,0],
@@ -249,5 +237,17 @@ var NAVTREEINDEX77 =
 "MRSurfaceDistance_8h.html#ae608d193970b2c92c351593c86ca1075":[6,2,1,0,0,0,1,314,2],
 "MRSurfaceDistance_8h_source.html":[6,2,1,0,0,0,1,314],
 "MRSurfaceLineOffset_8h.html":[6,2,1,0,0,0,1,316],
-"MRSurfaceLineOffset_8h.html#a087d1afcc55aadc6e828d844329c9727":[6,2,1,0,0,0,1,316,3]
+"MRSurfaceLineOffset_8h.html#a087d1afcc55aadc6e828d844329c9727":[6,2,1,0,0,0,1,316,3],
+"MRSurfaceLineOffset_8h.html#a273eed4f5cadfa1bedd14695f02a2709":[6,2,1,0,0,0,1,316,0],
+"MRSurfaceLineOffset_8h.html#a31b172f68efca6438544d56eb86d6f40":[6,2,1,0,0,0,1,316,1],
+"MRSurfaceLineOffset_8h.html#a6377e4343d87a90ac0bb8191522a2c9c":[6,2,1,0,0,0,1,316,2],
+"MRSurfaceLineOffset_8h.html#a88c5b2b9d8ef0a5c3c80d05230893033":[6,2,1,0,0,0,1,316,5],
+"MRSurfaceLineOffset_8h.html#af6c62eb6d9c7cf09e8dc5ee36e66f4d8":[6,2,1,0,0,0,1,316,4],
+"MRSurfaceLineOffset_8h_source.html":[6,2,1,0,0,0,1,316],
+"MRSurfacePath_8h.html":[6,2,1,0,0,0,1,317],
+"MRSurfacePath_8h.html#a0e91384fdadbc64b647bfd534b141d07":[6,2,1,0,0,0,1,317,28],
+"MRSurfacePath_8h.html#a146d7d212330b57a702e2c13aa99f33d":[6,2,1,0,0,0,1,317,50],
+"MRSurfacePath_8h.html#a1a3051b13602b2c5c11fdf4a72b23c99":[6,2,1,0,0,0,1,317,37],
+"MRSurfacePath_8h.html#a2b3860ef5a0e61bc98d1d993fed19bcb":[6,2,1,0,0,0,1,317,17],
+"MRSurfacePath_8h.html#a2b6784b6bcf611e09fc7c5a1da954395":[6,2,1,0,0,0,1,317,42]
 };

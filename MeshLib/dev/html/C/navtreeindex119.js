@@ -1,17 +1,5 @@
 var NAVTREEINDEX119 =
 {
-"std__function__void__from__MR__Mesh__ref__float__float_8h.html#a340fd787c9cb2262bde6a9c1a6db13f3":[6,2,1,0,0,0,2,168,11],
-"std__function__void__from__MR__Mesh__ref__float__float_8h.html#a4fc7e9174085ceeb94b93e618a1a9349":[6,2,1,0,0,0,2,168,6],
-"std__function__void__from__MR__Mesh__ref__float__float_8h.html#a56eec1fe386322780e69254c9f201e4b":[6,2,1,0,0,0,2,168,5],
-"std__function__void__from__MR__Mesh__ref__float__float_8h.html#a6622419069902d48e8a268e7e6826285":[6,2,1,0,0,0,2,168,10],
-"std__function__void__from__MR__Mesh__ref__float__float_8h.html#ab3955429925136008c4cf12497066877":[6,2,1,0,0,0,2,168,1],
-"std__function__void__from__MR__Mesh__ref__float__float_8h.html#acc1fba83e5bfdb56e2840138473f4f1c":[6,2,1,0,0,0,2,168,3],
-"std__function__void__from__MR__Mesh__ref__float__float_8h.html#adef30b873dd5ed2dd793aa08a0cdb4da":[6,2,1,0,0,0,2,168,7],
-"std__function__void__from__MR__Mesh__ref__float__float_8h.html#aebd06dc0ed8444220ab95886e1e8b4f0":[6,2,1,0,0,0,2,168,4],
-"std__function__void__from__MR__Mesh__ref__float__float_8h_source.html":[6,2,1,0,0,0,2,168],
-"std__function__void__from__MR__ObjId__MR__MeshOrPoints__ProjectionResult_8h.html":[6,2,1,0,0,0,2,169],
-"std__function__void__from__MR__ObjId__MR__MeshOrPoints__ProjectionResult_8h.html#a2211a0e89c3f8ce767d15053527683a9":[6,2,1,0,0,0,2,169,0],
-"std__function__void__from__MR__ObjId__MR__MeshOrPoints__ProjectionResult_8h.html#a22578465ee06b42bfe235bfc1c73e354":[6,2,1,0,0,0,2,169,4],
 "std__function__void__from__MR__ObjId__MR__MeshOrPoints__ProjectionResult_8h.html#a3c54eb5a0fef3d7e387ffef93e1df62c":[6,2,1,0,0,0,2,169,9],
 "std__function__void__from__MR__ObjId__MR__MeshOrPoints__ProjectionResult_8h.html#a41efa692afc6719d9b2d239945ad420c":[6,2,1,0,0,0,2,169,5],
 "std__function__void__from__MR__ObjId__MR__MeshOrPoints__ProjectionResult_8h.html#a45dee0e0b49787b1fcdb1c4a64a692a9":[6,2,1,0,0,0,2,169,3],
@@ -249,5 +237,17 @@ var NAVTREEINDEX119 =
 "std__optional__MR__AllLocalTriangulations_8h.html#a4122cc7a4fefb0782738431f1a0baadf":[6,2,1,0,0,0,2,180,6],
 "std__optional__MR__AllLocalTriangulations_8h.html#a41d4f7f98192a9d26fbd6187652a7fa8":[6,2,1,0,0,0,2,180,3],
 "std__optional__MR__AllLocalTriangulations_8h.html#a50d399e828241a4a446965395837c1aa":[6,2,1,0,0,0,2,180,11],
-"std__optional__MR__AllLocalTriangulations_8h.html#a5c6658c2037edc70390f177c880a9094":[6,2,1,0,0,0,2,180,2]
+"std__optional__MR__AllLocalTriangulations_8h.html#a5c6658c2037edc70390f177c880a9094":[6,2,1,0,0,0,2,180,2],
+"std__optional__MR__AllLocalTriangulations_8h.html#a8655cee9cf8bdac376553d14f2574f34":[6,2,1,0,0,0,2,180,8],
+"std__optional__MR__AllLocalTriangulations_8h.html#aa22af46c651d6c6134e53b6f6626503b":[6,2,1,0,0,0,2,180,7],
+"std__optional__MR__AllLocalTriangulations_8h.html#aa8ad733e73010c27e50140102f4a8613":[6,2,1,0,0,0,2,180,4],
+"std__optional__MR__AllLocalTriangulations_8h.html#ab1142c5a17c57fa7bf45cfcaafc2a447":[6,2,1,0,0,0,2,180,10],
+"std__optional__MR__AllLocalTriangulations_8h.html#ad11fe80af37aaf1cd4ef49b822c5ceaf":[6,2,1,0,0,0,2,180,12],
+"std__optional__MR__AllLocalTriangulations_8h.html#af25118fdddd16671c9108d79597a08d6":[6,2,1,0,0,0,2,180,9],
+"std__optional__MR__AllLocalTriangulations_8h.html#af3305840a3b0b98761ca0684499fe801":[6,2,1,0,0,0,2,180,0],
+"std__optional__MR__AllLocalTriangulations_8h_source.html":[6,2,1,0,0,0,2,180],
+"std__optional__MR__Box1f_8h.html":[6,2,1,0,0,0,2,181],
+"std__optional__MR__Box1f_8h.html#a055b57f1ee62be2306e418786a7756d0":[6,2,1,0,0,0,2,181,0],
+"std__optional__MR__Box1f_8h.html#a1060651c536e9285705145ae84d0d96f":[6,2,1,0,0,0,2,181,9],
+"std__optional__MR__Box1f_8h.html#a397480e8cc58544a6e03fa20683fa0bc":[6,2,1,0,0,0,2,181,7]
 };

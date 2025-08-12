@@ -171,13 +171,11 @@ Namespaces</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1BitSet.html">MR::BitSet</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">container of bits  <a href="classMR_1_1BitSet.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1TypedBitSet.html">MR::TypedBitSet&lt; I &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">container of bits representing specific indices (faces, verts or edges)  <a href="classMR_1_1TypedBitSet.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1SetBitIteratorT.html">MR::SetBitIteratorT&lt; T &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">iterator to enumerate all indices with set bits in <a class="el" href="classMR_1_1BitSet.html" title="container of bits">BitSet</a> class or its derivatives  <a href="classMR_1_1SetBitIteratorT.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">iterator to enumerate all indices with set bits in <a class="el" href="classMR_1_1BitSet.html">BitSet</a> class or its derivatives  <a href="classMR_1_1SetBitIteratorT.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1IdRange.html">MR::IdRange&lt; Id &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">range of indices [beg, end)  <a href="structMR_1_1IdRange.html#details">More...</a><br /></td></tr>
@@ -214,7 +212,7 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:gacfd51356fbcb71948b1ef3f058ac75c7" id="r_gacfd51356fbcb71948b1ef3f058ac75c7"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gacfd51356fbcb71948b1ef3f058ac75c7">MR::heapBytes</a> (const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;bs)</td></tr>
-<tr class="memdesc:gacfd51356fbcb71948b1ef3f058ac75c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory given <a class="el" href="classMR_1_1BitSet.html" title="container of bits">BitSet</a> occupies on heap  <br /></td></tr>
+<tr class="memdesc:gacfd51356fbcb71948b1ef3f058ac75c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of memory given <a class="el" href="classMR_1_1BitSet.html">BitSet</a> occupies on heap  <br /></td></tr>
 <tr class="separator:gacfd51356fbcb71948b1ef3f058ac75c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga300a438da6440ee7d2e92933bcfa6018" id="r_ga300a438da6440ee7d2e92933bcfa6018"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga300a438da6440ee7d2e92933bcfa6018">MR::operator==</a> (const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;a, const <a class="el" href="classMR_1_1BitSet.html">BitSet</a> &amp;b)</td></tr>
 <tr class="memdesc:ga300a438da6440ee7d2e92933bcfa6018"><td class="mdescLeft">&#160;</td><td class="mdescRight">compare that two bit sets have the same set bits (they can be equal even if sizes are distinct but last bits are off)  <br /></td></tr>
@@ -593,7 +591,7 @@ template&lt;typename BS , typename F , typename ... Cb&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>executes given function f for every <em>set</em> bit in <a class="el" href="structMR_1_1IdRange.html" title="range of indices [beg, end)">IdRange</a> or <a class="el" href="classMR_1_1BitSet.html" title="container of bits">BitSet</a> (bs) in parallel threads; it is guaranteed that every individual block in bit-set is processed by one thread only; optional parameters after f: ProgressCallback cb, size_t reportProgressEveryBit = 1024 for periodic progress report </p><dl class="section return"><dt>Returns</dt><dd>false if terminated by callback </dd></dl>
+<p>executes given function f for every <em>set</em> bit in <a class="el" href="structMR_1_1IdRange.html" title="range of indices [beg, end)">IdRange</a> or <a class="el" href="classMR_1_1BitSet.html">BitSet</a> (bs) in parallel threads; it is guaranteed that every individual block in bit-set is processed by one thread only; optional parameters after f: ProgressCallback cb, size_t reportProgressEveryBit = 1024 for periodic progress report </p><dl class="section return"><dt>Returns</dt><dd>false if terminated by callback </dd></dl>
 
 </div>
 </div>
@@ -635,7 +633,7 @@ template&lt;typename BS , typename L , typename F , typename ... Cb&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>executes given function f for every <em>set</em> bit in bs <a class="el" href="structMR_1_1IdRange.html" title="range of indices [beg, end)">IdRange</a> or <a class="el" href="classMR_1_1BitSet.html" title="container of bits">BitSet</a> (bs) parallel threads, passing e.local() (evaluated once for each sub-range) as the second argument to f; it is guaranteed that every individual block in bit-set is processed by one thread only; optional parameters after f: ProgressCallback cb, size_t reportProgressEveryBit = 1024 for periodic progress report </p><dl class="section return"><dt>Returns</dt><dd>false if terminated by callback </dd></dl>
+<p>executes given function f for every <em>set</em> bit in bs <a class="el" href="structMR_1_1IdRange.html" title="range of indices [beg, end)">IdRange</a> or <a class="el" href="classMR_1_1BitSet.html">BitSet</a> (bs) parallel threads, passing e.local() (evaluated once for each sub-range) as the second argument to f; it is guaranteed that every individual block in bit-set is processed by one thread only; optional parameters after f: ProgressCallback cb, size_t reportProgressEveryBit = 1024 for periodic progress report </p><dl class="section return"><dt>Returns</dt><dd>false if terminated by callback </dd></dl>
 
 </div>
 </div>
@@ -672,7 +670,7 @@ template&lt;typename BS , typename F , typename ... Cb&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>executes given function f for each index in <a class="el" href="structMR_1_1IdRange.html" title="range of indices [beg, end)">IdRange</a> or <a class="el" href="classMR_1_1BitSet.html" title="container of bits">BitSet</a> (bs) in parallel threads; it is guaranteed that every individual block in <a class="el" href="classMR_1_1BitSet.html" title="container of bits">BitSet</a> is processed by one thread only; optional parameters after f: ProgressCallback cb, size_t reportProgressEveryBit = 1024 for periodic progress report </p><dl class="section return"><dt>Returns</dt><dd>false if terminated by callback </dd></dl>
+<p>executes given function f for each index in <a class="el" href="structMR_1_1IdRange.html" title="range of indices [beg, end)">IdRange</a> or <a class="el" href="classMR_1_1BitSet.html">BitSet</a> (bs) in parallel threads; it is guaranteed that every individual block in <a class="el" href="classMR_1_1BitSet.html">BitSet</a> is processed by one thread only; optional parameters after f: ProgressCallback cb, size_t reportProgressEveryBit = 1024 for periodic progress report </p><dl class="section return"><dt>Returns</dt><dd>false if terminated by callback </dd></dl>
 
 </div>
 </div>
@@ -714,7 +712,7 @@ template&lt;typename BS , typename L , typename F , typename ... Cb&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>executes given function f for each index in <a class="el" href="structMR_1_1IdRange.html" title="range of indices [beg, end)">IdRange</a> or <a class="el" href="classMR_1_1BitSet.html" title="container of bits">BitSet</a> (bs) in parallel threads passing e.local() (evaluated once for each sub-range) as the second argument to f; it is guaranteed that every individual block in <a class="el" href="classMR_1_1BitSet.html" title="container of bits">BitSet</a> is processed by one thread only; optional parameters after f: ProgressCallback cb, size_t reportProgressEveryBit = 1024 for periodic progress report </p><dl class="section return"><dt>Returns</dt><dd>false if terminated by callback </dd></dl>
+<p>executes given function f for each index in <a class="el" href="structMR_1_1IdRange.html" title="range of indices [beg, end)">IdRange</a> or <a class="el" href="classMR_1_1BitSet.html">BitSet</a> (bs) in parallel threads passing e.local() (evaluated once for each sub-range) as the second argument to f; it is guaranteed that every individual block in <a class="el" href="classMR_1_1BitSet.html">BitSet</a> is processed by one thread only; optional parameters after f: ProgressCallback cb, size_t reportProgressEveryBit = 1024 for periodic progress report </p><dl class="section return"><dt>Returns</dt><dd>false if terminated by callback </dd></dl>
 
 </div>
 </div>
@@ -783,7 +781,7 @@ template&lt;typename BS , typename L , typename ... F&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>executes given function f( bit, subBitRange, tls ) for each bit in <a class="el" href="structMR_1_1IdRange.html" title="range of indices [beg, end)">IdRange</a> or <a class="el" href="classMR_1_1BitSet.html" title="container of bits">BitSet</a> (bs) in parallel threads, where subBitRange are the bits that will be processed by the same thread, tls=e.local() (evaluated once for each subBitRange); it is guaranteed that every individual block in bit-set is processed by one thread only; optional parameters after f: ProgressCallback cb, size_t reportProgressEveryBit = 1024 for periodic progress report </p><dl class="section return"><dt>Returns</dt><dd>false if terminated by callback </dd></dl>
+<p>executes given function f( bit, subBitRange, tls ) for each bit in <a class="el" href="structMR_1_1IdRange.html" title="range of indices [beg, end)">IdRange</a> or <a class="el" href="classMR_1_1BitSet.html">BitSet</a> (bs) in parallel threads, where subBitRange are the bits that will be processed by the same thread, tls=e.local() (evaluated once for each subBitRange); it is guaranteed that every individual block in bit-set is processed by one thread only; optional parameters after f: ProgressCallback cb, size_t reportProgressEveryBit = 1024 for periodic progress report </p><dl class="section return"><dt>Returns</dt><dd>false if terminated by callback </dd></dl>
 
 </div>
 </div>
@@ -1240,7 +1238,7 @@ template&lt;typename T , typename <a class="elRef" href="../namespaceMR.html#aae
 </table>
 </div><div class="memdoc">
 
-<p>returns the amount of memory given <a class="el" href="classMR_1_1BitSet.html" title="container of bits">BitSet</a> occupies on heap </p>
+<p>returns the amount of memory given <a class="el" href="classMR_1_1BitSet.html">BitSet</a> occupies on heap </p>
 
 </div>
 </div>

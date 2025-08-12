@@ -1,17 +1,5 @@
 var NAVTREEINDEX168 =
 {
-"std__vector__uint8__t_8h.html#ad97d16264d0bd050f27f8b4dce0fa995":[6,2,1,0,0,0,2,411,22],
-"std__vector__uint8__t_8h.html#adf51cf9abe3e295ed8c4849479b8d7e9":[6,2,1,0,0,0,2,411,54],
-"std__vector__uint8__t_8h.html#adfafe2d96f967ad2aba5b8f10ba56ede":[6,2,1,0,0,0,2,411,33],
-"std__vector__uint8__t_8h.html#adfdf7479f414810185d64913d6dfd15d":[6,2,1,0,0,0,2,411,42],
-"std__vector__uint8__t_8h.html#ae388cee882c144503cfaf4489b7289f4":[6,2,1,0,0,0,2,411,9],
-"std__vector__uint8__t_8h.html#af17b60211434d69c3c89789da3c4c572":[6,2,1,0,0,0,2,411,3],
-"std__vector__uint8__t_8h.html#afd6a495ad46eed13f0f11bd69fcd7119":[6,2,1,0,0,0,2,411,27],
-"std__vector__uint8__t_8h.html#affd6d021f9c4bbca39af97ac3f8373e1":[6,2,1,0,0,0,2,411,51],
-"std__vector__uint8__t_8h_source.html":[6,2,1,0,0,0,2,411],
-"structMR__AffineXf2d.html":[6,2,0,0,0],
-"structMR__AffineXf2d.html#a0acc68a4affe70ccd8e72d213aad30e0":[6,2,0,0,0,1],
-"structMR__AffineXf2d.html#a3e061e6c1dcc9acf8f45987b46f9b6f6":[6,2,0,0,0,0],
 "structMR__AffineXf2f.html":[6,2,0,0,1],
 "structMR__AffineXf2f.html#a3cfd4b41ae73512694193b79ea04cd9c":[6,2,0,0,1,1],
 "structMR__AffineXf2f.html#ab0c21f127fe9753e2dd5547cbe7d2fdd":[6,2,0,0,1,0],

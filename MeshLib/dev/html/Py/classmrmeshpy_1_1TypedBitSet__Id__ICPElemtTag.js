@@ -31,7 +31,6 @@ var classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag =
     [ "getMapping", "classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag.html#a4e1c3ff37653282424c6de60521931b5", null ],
     [ "getMapping", "classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag.html#a756dcd259d56fe1ea3d9ebae3cbc3ab8", null ],
     [ "intersects", "classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag.html#aeb407dd49988a3d3609cd8b1ada60828", null ],
-    [ "is_proper_subset_of", "classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag.html#ae4ca145ba92c93cea7d9448efac2eda8", null ],
     [ "is_subset_of", "classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag.html#a2b0d54dcffaceded209743dce407c57d", null ],
     [ "nthSetBit", "classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag.html#a8eb496ff91c9e8a00426375ace7eb94e", null ],
     [ "reset", "classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag.html#ab22db1e6b36563636149cd503595d505", null ],

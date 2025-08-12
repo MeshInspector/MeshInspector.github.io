@@ -25,6 +25,7 @@ var classmrmeshpy_1_1BitSet =
     [ "flip", "classmrmeshpy_1_1BitSet.html#aa21f9794df710b7916cb4a61465c926f", null ],
     [ "flip", "classmrmeshpy_1_1BitSet.html#aa40c92a91b8d1c7040d794c24ad648f2", null ],
     [ "heapBytes", "classmrmeshpy_1_1BitSet.html#a10adcfbaa8c04e4fbb97920b8a7bd60a", null ],
+    [ "is_subset_of", "classmrmeshpy_1_1BitSet.html#a2be8e340e3ee4b2e1fc14c24833d2a99", null ],
     [ "nthSetBit", "classmrmeshpy_1_1BitSet.html#ad25bdd5a49f4648994cef1ae56864c3f", null ],
     [ "pop_back", "classmrmeshpy_1_1BitSet.html#a204e188214d1fd66553951c4a6c9888b", null ],
     [ "push_back", "classmrmeshpy_1_1BitSet.html#af4d5474ec92367e79783e43f3eb28603", null ],

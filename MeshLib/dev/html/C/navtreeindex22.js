@@ -1,17 +1,5 @@
 var NAVTREEINDEX22 =
 {
-"MRDipole_8h.html#a59f8084ab85236d0ab8ceb27f22147a4":[6,2,1,0,0,0,1,65,18],
-"MRDipole_8h.html#a5e93bbf992538ef7f4e3ebd610bfceda":[6,2,1,0,0,0,1,65,27],
-"MRDipole_8h.html#a5f65578b8ae684c98e7ad038c8b419e0":[6,2,1,0,0,0,1,65,0],
-"MRDipole_8h.html#a6c7f5d560f1b49e869ca706148358d3d":[6,2,1,0,0,0,1,65,4],
-"MRDipole_8h.html#a900dedcf84d67a6917b2c26e324d3868":[6,2,1,0,0,0,1,65,16],
-"MRDipole_8h.html#a9857445c2cd4d77855fdc9c328309ff4":[6,2,1,0,0,0,1,65,25],
-"MRDipole_8h.html#aac99cd41af2fc2de753b943541568fef":[6,2,1,0,0,0,1,65,24],
-"MRDipole_8h.html#ac35c47b11b139dcc31d60ce475b21654":[6,2,1,0,0,0,1,65,14],
-"MRDipole_8h.html#ac56cab8c30f6e380a1d05f594e5472a4":[6,2,1,0,0,0,1,65,26],
-"MRDipole_8h.html#ad0e3c794a9fe39dc6679188813a89ec8":[6,2,1,0,0,0,1,65,28],
-"MRDipole_8h.html#ad6bf06ee5bc2328c08b817277b91ede7":[6,2,1,0,0,0,1,65,21],
-"MRDipole_8h.html#ad95c8c93489da85e4ce767b0b6f399d2":[6,2,1,0,0,0,1,65,13],
 "MRDipole_8h.html#adb7bbd0d64085b82ad6cff97298653ff":[6,2,1,0,0,0,1,65,7],
 "MRDipole_8h.html#add515aa9e729e65b9c1eed6631531f3a":[6,2,1,0,0,0,1,65,5],
 "MRDipole_8h.html#adebbab52bc74e9a32c37974fef158c2c":[6,2,1,0,0,0,1,65,17],
@@ -249,5 +237,17 @@ var NAVTREEINDEX22 =
 "MRDistanceMap_8h.html#a31e91490f73cadc2ac8f673479aa7674":[6,2,1,0,0,0,1,68,21],
 "MRDistanceMap_8h.html#a352d8195bd6cfd31ba5d01a3cc6c2c64":[6,2,1,0,0,0,1,68,119],
 "MRDistanceMap_8h.html#a35e53a92dc79522b33e566dc265f7ef1":[6,2,1,0,0,0,1,68,20],
-"MRDistanceMap_8h.html#a35f22ae0a2f3ac4e5762afd3df349a77":[6,2,1,0,0,0,1,68,38]
+"MRDistanceMap_8h.html#a35f22ae0a2f3ac4e5762afd3df349a77":[6,2,1,0,0,0,1,68,38],
+"MRDistanceMap_8h.html#a3858452ad05fe31eed3fac8955e9bd97":[6,2,1,0,0,0,1,68,25],
+"MRDistanceMap_8h.html#a3a867f4c39cacbc0d905822e6c7bb116":[6,2,1,0,0,0,1,68,100],
+"MRDistanceMap_8h.html#a3bb7d13d10fae744af64d23d059a995e":[6,2,1,0,0,0,1,68,92],
+"MRDistanceMap_8h.html#a3c87b96d075be77ac8cf9621e583684e":[6,2,1,0,0,0,1,68,87],
+"MRDistanceMap_8h.html#a3ec6971093f4951557742774e70bee7c":[6,2,1,0,0,0,1,68,106],
+"MRDistanceMap_8h.html#a3f46d296d519b102f34c85f166e7f5d3":[6,2,1,0,0,0,1,68,79],
+"MRDistanceMap_8h.html#a444098411e6ded2ec3ae574acb690978":[6,2,1,0,0,0,1,68,97],
+"MRDistanceMap_8h.html#a4617980b320ff06823fd000f9347f95f":[6,2,1,0,0,0,1,68,83],
+"MRDistanceMap_8h.html#a48ca148de32555c1b5123d2cce0a5070":[6,2,1,0,0,0,1,68,85],
+"MRDistanceMap_8h.html#a495e662e64406a7a8c1099f997ff4921":[6,2,1,0,0,0,1,68,33],
+"MRDistanceMap_8h.html#a4ba956ab86bd003d0950519b103eff66":[6,2,1,0,0,0,1,68,27],
+"MRDistanceMap_8h.html#a4dc86c9832105b8e3ee0992cb8885a9a":[6,2,1,0,0,0,1,68,118]
 };

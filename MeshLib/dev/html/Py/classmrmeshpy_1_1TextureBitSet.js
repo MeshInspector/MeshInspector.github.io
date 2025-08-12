@@ -31,7 +31,6 @@ var classmrmeshpy_1_1TextureBitSet =
     [ "getMapping", "classmrmeshpy_1_1TextureBitSet.html#a8a97c0795ff1c65a6ede2a8d6b1ac31d", null ],
     [ "getMapping", "classmrmeshpy_1_1TextureBitSet.html#a433e68781317128861352427daa207c0", null ],
     [ "intersects", "classmrmeshpy_1_1TextureBitSet.html#af44b693e531b0c5f121697aa0430fe81", null ],
-    [ "is_proper_subset_of", "classmrmeshpy_1_1TextureBitSet.html#a2cbc2c80b48c15518294defb960ec491", null ],
     [ "is_subset_of", "classmrmeshpy_1_1TextureBitSet.html#a990726a1ac1e9b03de824784c3f5afa2", null ],
     [ "nthSetBit", "classmrmeshpy_1_1TextureBitSet.html#ac84d2dab038b85454efab1df371e2761", null ],
     [ "reset", "classmrmeshpy_1_1TextureBitSet.html#a1f69f227e20b60bb4b4e68f0f9aa522c", null ],

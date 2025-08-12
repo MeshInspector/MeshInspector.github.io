@@ -1,13 +1,5 @@
 var NAVTREEINDEX47 =
 {
-"classmrmeshpy_1_1MeshPointAndDistance.html#ad01cf22daf1b8c294bbd0af4109d2fa2":[6,1,0,0,2,496,4],
-"classmrmeshpy_1_1MeshPointAndDistance.html#ad01cf22daf1b8c294bbd0af4109d2fa2":[6,1,1,0,1,496,4],
-"classmrmeshpy_1_1MeshPointAndDistance.html#ad60a180703aeee3febf551f5a3e34b7b":[6,1,0,0,2,496,9],
-"classmrmeshpy_1_1MeshPointAndDistance.html#ad60a180703aeee3febf551f5a3e34b7b":[6,1,1,0,1,496,9],
-"classmrmeshpy_1_1MeshPointAndDistance.html#ad917ad98099fc755be051d6224321c0e":[6,1,0,0,2,496,1],
-"classmrmeshpy_1_1MeshPointAndDistance.html#ad917ad98099fc755be051d6224321c0e":[6,1,1,0,1,496,1],
-"classmrmeshpy_1_1MeshPointAndDistance.html#adb15d190e637de831f5c365a674d1d20":[6,1,0,0,2,496,5],
-"classmrmeshpy_1_1MeshPointAndDistance.html#adb15d190e637de831f5c365a674d1d20":[6,1,1,0,1,496,5],
 "classmrmeshpy_1_1MeshProjectionParameters.html":[6,1,0,0,2,497],
 "classmrmeshpy_1_1MeshProjectionParameters.html":[6,1,1,0,1,497],
 "classmrmeshpy_1_1MeshProjectionParameters.html#a017dbe99230c468f07f327980de2efcc":[6,1,0,0,2,497,6],
@@ -249,5 +241,13 @@ var NAVTREEINDEX47 =
 "classmrmeshpy_1_1MeshToVolumeParams_1_1Type.html#ac6fe12736580bdfd0bdb130fdb0238ba":[6,1,0,0,2,508,0,2],
 "classmrmeshpy_1_1MeshToVolumeParams_1_1Type.html#ac6fe12736580bdfd0bdb130fdb0238ba":[6,1,1,0,1,508,0,2],
 "classmrmeshpy_1_1MeshToVolumeParams_1_1Type.html#aeba480f3b7d38b77f0149ca28c65e045":[6,1,0,0,2,508,0,8],
-"classmrmeshpy_1_1MeshToVolumeParams_1_1Type.html#aeba480f3b7d38b77f0149ca28c65e045":[6,1,1,0,1,508,0,8]
+"classmrmeshpy_1_1MeshToVolumeParams_1_1Type.html#aeba480f3b7d38b77f0149ca28c65e045":[6,1,1,0,1,508,0,8],
+"classmrmeshpy_1_1MeshTopology.html":[6,1,0,0,2,506],
+"classmrmeshpy_1_1MeshTopology.html":[6,1,1,0,1,506],
+"classmrmeshpy_1_1MeshTopology.html#a006e94b489c3b7b15e30a911f1d6b5b3":[6,1,0,0,2,506,22],
+"classmrmeshpy_1_1MeshTopology.html#a006e94b489c3b7b15e30a911f1d6b5b3":[6,1,1,0,1,506,22],
+"classmrmeshpy_1_1MeshTopology.html#a011a195b154483412487708166805673":[6,1,0,0,2,506,70],
+"classmrmeshpy_1_1MeshTopology.html#a011a195b154483412487708166805673":[6,1,1,0,1,506,70],
+"classmrmeshpy_1_1MeshTopology.html#a0175b4a0a305ed4f0e9a830bc1c82d36":[6,1,0,0,2,506,12],
+"classmrmeshpy_1_1MeshTopology.html#a0175b4a0a305ed4f0e9a830bc1c82d36":[6,1,1,0,1,506,12]
 };

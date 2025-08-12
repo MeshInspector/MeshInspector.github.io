@@ -31,7 +31,6 @@ var classmrmeshpy_1_1GraphVertBitSet =
     [ "getMapping", "classmrmeshpy_1_1GraphVertBitSet.html#a5c3871a65d3da2b2920dc499923feb05", null ],
     [ "getMapping", "classmrmeshpy_1_1GraphVertBitSet.html#a523acc86619193559facb6e47e4b6103", null ],
     [ "intersects", "classmrmeshpy_1_1GraphVertBitSet.html#a08791cac9afc384e0ccbeb2e15d14c9d", null ],
-    [ "is_proper_subset_of", "classmrmeshpy_1_1GraphVertBitSet.html#aac8beb5cd61eda374c8553d36e3d3297", null ],
     [ "is_subset_of", "classmrmeshpy_1_1GraphVertBitSet.html#a2c7deb1da06e051622b50ddcc392a3a9", null ],
     [ "nthSetBit", "classmrmeshpy_1_1GraphVertBitSet.html#ac14c371028f639bedc6ba2f4692d6f2b", null ],
     [ "reset", "classmrmeshpy_1_1GraphVertBitSet.html#a1d237f734362530906bb32b8dadd5424", null ],

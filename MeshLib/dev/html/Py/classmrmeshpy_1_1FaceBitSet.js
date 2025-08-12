@@ -32,7 +32,6 @@ var classmrmeshpy_1_1FaceBitSet =
     [ "getMapping", "classmrmeshpy_1_1FaceBitSet.html#aba076e1627b6d46a92dc40aa26996e8a", null ],
     [ "getMapping", "classmrmeshpy_1_1FaceBitSet.html#a84843e4532e94e773190a035c5a13396", null ],
     [ "intersects", "classmrmeshpy_1_1FaceBitSet.html#a7d03062daa7bf2044de6e9bc5f1e978e", null ],
-    [ "is_proper_subset_of", "classmrmeshpy_1_1FaceBitSet.html#ad8840baafcd9c0e416775ad34bf6848e", null ],
     [ "is_subset_of", "classmrmeshpy_1_1FaceBitSet.html#a60b667616829f078187d290eaab1dc6e", null ],
     [ "nthSetBit", "classmrmeshpy_1_1FaceBitSet.html#ac575961be449c8ece85d395acab6321a", null ],
     [ "reset", "classmrmeshpy_1_1FaceBitSet.html#abfc3326d731f4f194321d3eb2925a027", null ],

@@ -31,7 +31,6 @@ var classmrmeshpy_1_1UndirectedEdgeBitSet =
     [ "getMapping", "classmrmeshpy_1_1UndirectedEdgeBitSet.html#a8b83c32ea1e1a23201a13bd98e87e603", null ],
     [ "getMapping", "classmrmeshpy_1_1UndirectedEdgeBitSet.html#a3628ffe9c5b4a832b2789490cb7586f6", null ],
     [ "intersects", "classmrmeshpy_1_1UndirectedEdgeBitSet.html#a683fdd6be9d4bf7b7917bfea77d81b83", null ],
-    [ "is_proper_subset_of", "classmrmeshpy_1_1UndirectedEdgeBitSet.html#a55384d61ef155f9731fd53a83acb148d", null ],
     [ "is_subset_of", "classmrmeshpy_1_1UndirectedEdgeBitSet.html#a05c7256465c9b710d85004528f3e1f5a", null ],
     [ "nthSetBit", "classmrmeshpy_1_1UndirectedEdgeBitSet.html#aecac9cccff05bca9628645a8b5856209", null ],
     [ "reset", "classmrmeshpy_1_1UndirectedEdgeBitSet.html#ae25df2a74aac5f31af965af76365672f", null ],

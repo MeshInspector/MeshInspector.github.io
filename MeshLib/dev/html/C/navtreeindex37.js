@@ -1,17 +1,5 @@
 var NAVTREEINDEX37 =
 {
-"MRIntersectionPrecomputes_8h.html#a7d4e4acbfbef0089cceaec2c9500ce98":[6,2,1,0,0,0,1,123,41],
-"MRIntersectionPrecomputes_8h.html#a818cc11191b8410d313826122849ca55":[6,2,1,0,0,0,1,123,45],
-"MRIntersectionPrecomputes_8h.html#a81da50b789d1ce1ba737e7b00a92eb3a":[6,2,1,0,0,0,1,123,33],
-"MRIntersectionPrecomputes_8h.html#a87d83329d62d5328563c6e5b3bac7144":[6,2,1,0,0,0,1,123,1],
-"MRIntersectionPrecomputes_8h.html#a91cf94d6fe123e87c9a466c8db186108":[6,2,1,0,0,0,1,123,18],
-"MRIntersectionPrecomputes_8h.html#a925ce905c769a0eb79259690f8baf8b4":[6,2,1,0,0,0,1,123,48],
-"MRIntersectionPrecomputes_8h.html#a92ba03e0cd2dcd5e83560eb9aa5eeb2e":[6,2,1,0,0,0,1,123,53],
-"MRIntersectionPrecomputes_8h.html#a93a6f87fc15ee0ee010c47370f89bf18":[6,2,1,0,0,0,1,123,64],
-"MRIntersectionPrecomputes_8h.html#a95f0211bdec6b3c3fd4997813a9a26d7":[6,2,1,0,0,0,1,123,47],
-"MRIntersectionPrecomputes_8h.html#a9967a26be9c5378a8c93cdd1edff69ea":[6,2,1,0,0,0,1,123,26],
-"MRIntersectionPrecomputes_8h.html#aa13981ab5d74d712830b842eaa0dfaa8":[6,2,1,0,0,0,1,123,37],
-"MRIntersectionPrecomputes_8h.html#aa15a09c836a4e34a1ec86a671f5b5466":[6,2,1,0,0,0,1,123,55],
 "MRIntersectionPrecomputes_8h.html#aa232376b9781642f1a6041ef413a6347":[6,2,1,0,0,0,1,123,0],
 "MRIntersectionPrecomputes_8h.html#aac48bb6912f8e6c85abd2d9b46e5f36f":[6,2,1,0,0,0,1,123,5],
 "MRIntersectionPrecomputes_8h.html#aadb1431a01cfacba68bf4ba039320160":[6,2,1,0,0,0,1,123,16],
@@ -249,5 +237,17 @@ var NAVTREEINDEX37 =
 "MRLineSegm_8h.html#a44070725c31665257f8057b49e96c59d":[6,2,1,0,0,0,1,136,10],
 "MRLineSegm_8h.html#a44e317d6d6c09d3ba50aad149560d76e":[6,2,1,0,0,0,1,136,12],
 "MRLineSegm_8h.html#a478c07ec2d93d908d4fc31d91aa30dc3":[6,2,1,0,0,0,1,136,53],
-"MRLineSegm_8h.html#a4793b81e0084f776353197158035962d":[6,2,1,0,0,0,1,136,62]
+"MRLineSegm_8h.html#a4793b81e0084f776353197158035962d":[6,2,1,0,0,0,1,136,62],
+"MRLineSegm_8h.html#a49e9fc7c6003e46fb0435a1cda957175":[6,2,1,0,0,0,1,136,77],
+"MRLineSegm_8h.html#a4c3d6206fe8b3a4e5573a0d8fcc08e32":[6,2,1,0,0,0,1,136,76],
+"MRLineSegm_8h.html#a5054765788f414d6001cf45e3038c0e8":[6,2,1,0,0,0,1,136,57],
+"MRLineSegm_8h.html#a54b093c2bdbb7db3533553134363ca02":[6,2,1,0,0,0,1,136,66],
+"MRLineSegm_8h.html#a570744a9b29068aef42cce1cac5a3744":[6,2,1,0,0,0,1,136,25],
+"MRLineSegm_8h.html#a57c2b6b455ab08daef11843bac0505aa":[6,2,1,0,0,0,1,136,31],
+"MRLineSegm_8h.html#a5c6142ce46280f970caa8d614f181006":[6,2,1,0,0,0,1,136,41],
+"MRLineSegm_8h.html#a5fa96542c224970e60ccdc555e787189":[6,2,1,0,0,0,1,136,72],
+"MRLineSegm_8h.html#a60891f4695a347497ba5ff832faaf3dd":[6,2,1,0,0,0,1,136,47],
+"MRLineSegm_8h.html#a66f1766e85c4ef2f82f68d236155f21a":[6,2,1,0,0,0,1,136,71],
+"MRLineSegm_8h.html#a6b63c82c1c9c92e05e0c5f97054c9142":[6,2,1,0,0,0,1,136,60],
+"MRLineSegm_8h.html#a6e1c64d7e8f03367f1875a6cda0eeb2b":[6,2,1,0,0,0,1,136,79]
 };
