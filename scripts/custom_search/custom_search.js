@@ -1,22 +1,24 @@
 var weightsMap;
-const cThresholdDistance = 0.5;
 
 // calculates the weight of the match between two strings
 function calcWeight( itemStr, searchStr )
 {
-    return itemStr.includes( searchStr ) ? 1 : 0;
+  return itemStr.indexOf( searchStr );
 }
 
 // calculates the weights of matching the search query for all the elements
 function createItemWeights( searchStr )
 {
-  weightsMap = new Array( searchData.length );
+  weightsMap = new Array();
+  mismatchCount = 0;
   for ( var i = 0; i < searchData.length; i++ )
   {
     var itemName = searchData[i][0];
-    weightsMap[i] = [calcWeight( itemName, searchStr ), i];
+    let weight = calcWeight( itemName, searchStr );
+    if ( weight >= 0 )
+      weightsMap.push( [weight, i] );
   }
-  weightsMap.sort( (a, b) => b[0] - a[0] );
+  weightsMap.sort( (a, b) => a[0] - b[0] );
 }
 
 // creates the necessary html elements for a single entry from the index (searchData)
@@ -107,8 +109,6 @@ function createCustomSearchResults( searchStr, resultsPath )
   for ( ; i < weightsMap.length; i++ )
   {
     const weightItem = weightsMap[i];
-    if ( weightItem[0] < cThresholdDistance )
-      break;
     addResult( results, weightItem[1], resultsPath );
   }
   return i;
