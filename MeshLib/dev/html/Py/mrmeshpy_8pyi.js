@@ -2446,7 +2446,6 @@ var mrmeshpy_8pyi =
     [ "vdbVolumeToSimpleVolume", "mrmeshpy_8pyi.html#a0ba6ae1d2173a8253d9e3b82288b566d", null ],
     [ "vdbVolumeToSimpleVolumeNorm", "mrmeshpy_8pyi.html#a5bde546eae6d904ff97860194a9baacc", null ],
     [ "vdbVolumeToSimpleVolumeU16", "mrmeshpy_8pyi.html#a44a3fea4fa3c150159eaf5092762cafc", null ],
-    [ "vertexAttributeGradient", "mrmeshpy_8pyi.html#a2b7117b4e24238571e35ca34b51c556e", null ],
     [ "vertexPosEqualNeiAreas", "mrmeshpy_8pyi.html#a7906f2bd333a6ac75a4f934a5e8887ab", null ],
     [ "vertexPosEqualNeiAreas", "mrmeshpy_8pyi.html#a66bbea20b0ac5e22c49c4d661ca04ae6", null ],
     [ "verticesGridSampling", "mrmeshpy_8pyi.html#a5cb4d1dc4767838653b45ac58752bb3f", null ],

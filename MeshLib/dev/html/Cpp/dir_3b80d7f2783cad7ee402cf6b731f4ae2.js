@@ -405,7 +405,6 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRVector4.h", "MRVector4_8h.html", null ],
     [ "MRVectorTraits.h", "MRMesh_2MRVectorTraits_8h.html", "MRMesh_2MRVectorTraits_8h" ],
     [ "MRVertCoordsDiff.h", "MRVertCoordsDiff_8h.html", null ],
-    [ "MRVertexAttributeGradient.h", "MRVertexAttributeGradient_8h.html", "MRVertexAttributeGradient_8h" ],
     [ "MRViewportId.h", "MRViewportId_8h.html", "MRViewportId_8h" ],
     [ "MRViewportProperty.h", "MRViewportProperty_8h.html", null ],
     [ "MRVisualObject.h", "MRVisualObject_8h.html", "MRVisualObject_8h" ],

@@ -1,11 +1,5 @@
 var NAVTREEINDEX128 =
 {
-"std__vector__MR__AABBTreePoints__Point_8h.html#a19772fc2b3e284405f19decbb039e58c":[6,2,1,0,0,0,2,283,27],
-"std__vector__MR__AABBTreePoints__Point_8h.html#a1b5ff8187af94dcf876734140c4e329f":[6,2,1,0,0,0,2,283,62],
-"std__vector__MR__AABBTreePoints__Point_8h.html#a1bf4ed687f93b0f9f6739b58b35eb526":[6,2,1,0,0,0,2,283,34],
-"std__vector__MR__AABBTreePoints__Point_8h.html#a2de670067a35f73b18b2c629702cb1ad":[6,2,1,0,0,0,2,283,33],
-"std__vector__MR__AABBTreePoints__Point_8h.html#a2de6b86af4f5e2afc2c0062cc24f17cb":[6,2,1,0,0,0,2,283,6],
-"std__vector__MR__AABBTreePoints__Point_8h.html#a31cc38cc4853d8dad86ac54ac9b77cec":[6,2,1,0,0,0,2,283,13],
 "std__vector__MR__AABBTreePoints__Point_8h.html#a35543cc2809049a437330ef3195d5fad":[6,2,1,0,0,0,2,283,22],
 "std__vector__MR__AABBTreePoints__Point_8h.html#a35afbb8275962b580becb6356b98d645":[6,2,1,0,0,0,2,283,24],
 "std__vector__MR__AABBTreePoints__Point_8h.html#a3950df6c3da02e8ba6afc8df8c39d333":[6,2,1,0,0,0,2,283,70],
@@ -249,5 +243,11 @@ var NAVTREEINDEX128 =
 "std__vector__MR__Color_8h.html#a648f9a32fd22e88ffb069e267bccf582":[6,2,1,0,0,0,2,286,63],
 "std__vector__MR__Color_8h.html#a67e11775ed837a0135764524804e1348":[6,2,1,0,0,0,2,286,46],
 "std__vector__MR__Color_8h.html#a6810e525a0e9eb15913ba4a285b9a530":[6,2,1,0,0,0,2,286,68],
-"std__vector__MR__Color_8h.html#a6982878cf42cf5633ea1942f3258ee2f":[6,2,1,0,0,0,2,286,16]
+"std__vector__MR__Color_8h.html#a6982878cf42cf5633ea1942f3258ee2f":[6,2,1,0,0,0,2,286,16],
+"std__vector__MR__Color_8h.html#a6a106a1bb1580a2883bad477fd95b95c":[6,2,1,0,0,0,2,286,34],
+"std__vector__MR__Color_8h.html#a6a3fd4ce1873e8fa84fc9b899ea37e1d":[6,2,1,0,0,0,2,286,52],
+"std__vector__MR__Color_8h.html#a6fd0ff3b425d4feff3bd9aae6ce87578":[6,2,1,0,0,0,2,286,21],
+"std__vector__MR__Color_8h.html#a70ea75437db2155e94d7af830719949b":[6,2,1,0,0,0,2,286,11],
+"std__vector__MR__Color_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51":[6,2,1,0,0,0,2,286,0],
+"std__vector__MR__Color_8h.html#a7888786628ef0f82f5e93e540bb26acb":[6,2,1,0,0,0,2,286,9]
 };

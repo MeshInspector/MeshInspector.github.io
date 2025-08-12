@@ -1,9 +1,5 @@
 var NAVTREEINDEX170 =
 {
-"namespacemrviewerpy.html#a5c2b587a3767681f8880428674f8b83a":[6,1,0,0,3,38],
-"namespacemrviewerpy.html#a5f9f0ec39ac8505d43e588a49ac7f067":[6,1,0,0,3,31],
-"namespacemrviewerpy.html#a6bfe9b7df9f135d662c86bfb1f6007d4":[6,1,0,0,3,44],
-"namespacemrviewerpy.html#a6e1523262cde30ddff0938cd65944f15":[6,1,0,0,3,28],
 "namespacemrviewerpy.html#a82dc2137c01c694015b04820623346d4":[6,1,0,0,3,30],
 "namespacemrviewerpy.html#a8be26b5f21b4c456d590c4f801f56896":[6,1,0,0,3,47],
 "namespacemrviewerpy.html#a8c82d4060b0c8375e5605c4d035dbf93":[6,1,0,0,3,37],

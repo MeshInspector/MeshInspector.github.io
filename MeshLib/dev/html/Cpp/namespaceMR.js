@@ -3160,7 +3160,6 @@ var namespaceMR =
     [ "vdbVolumeToSimpleVolume", "../namespaceMR.html#a0d8e39754438588fbde8b091279db752", null ],
     [ "vdbVolumeToSimpleVolumeNorm", "../namespaceMR.html#a7c6e921b59b28810967128b1e54c4a51", null ],
     [ "vdbVolumeToSimpleVolumeU16", "../namespaceMR.html#a2d250c00f768edc4ac0ae283ac571ba4", null ],
-    [ "vertexAttributeGradient", "../namespaceMR.html#a293cd8e2736e78af90cf61be0eb867e6", null ],
     [ "vertexPosEqualNeiAreas", "group__MeshRelaxGroup.html#gaba816e24c8bb07c99f1d084e59d0ec48", null ],
     [ "vertexPosEqualNeiAreas", "group__MeshRelaxGroup.html#ga183937de64babe0d41509706eb2be41d", null ],
     [ "verticesGridSampling", "../namespaceMR.html#a1f09dea53bc42dd20b0c49da65f93de4", null ],

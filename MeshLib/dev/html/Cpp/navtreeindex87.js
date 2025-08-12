@@ -1,9 +1,5 @@
 var NAVTREEINDEX87 =
 {
-"structMR_1_1ShellVertexInfo.html":[6,0,2,0,1,640],
-"structMR_1_1ShellVertexInfo.html#a2a6da8b3af021f4593c78e7b6717f573":[6,0,1,0,1,658,1],
-"structMR_1_1ShellVertexInfo.html#a2a6da8b3af021f4593c78e7b6717f573":[6,0,2,0,1,640,1],
-"structMR_1_1ShellVertexInfo.html#a4ad2a701c8676bd3a94338e7564f1a3c":[6,0,1,0,1,658,3],
 "structMR_1_1ShellVertexInfo.html#a4ad2a701c8676bd3a94338e7564f1a3c":[6,0,2,0,1,640,3],
 "structMR_1_1ShellVertexInfo.html#a6a812bb14fc2863c4b0f30cc834ddd55":[6,0,1,0,1,658,2],
 "structMR_1_1ShellVertexInfo.html#a6a812bb14fc2863c4b0f30cc834ddd55":[6,0,2,0,1,640,2],
@@ -249,5 +245,9 @@ var NAVTREEINDEX87 =
 "structMR_1_1SymMatrix2.html#a298176c6fdc19f53dcf4b4c5e9624b01":[6,0,0,0,7,4,16],
 "structMR_1_1SymMatrix2.html#a3f9de72646e2a2bbf46b9eb3a2691fc2":[6,0,0,0,7,4,17],
 "structMR_1_1SymMatrix2.html#a4ec338b96049194a96390245466b6a46":[6,0,0,0,7,4,5],
-"structMR_1_1SymMatrix2.html#a55a77d7f0bbf6b2221a68f1b76439079":[6,0,0,0,7,4,7]
+"structMR_1_1SymMatrix2.html#a55a77d7f0bbf6b2221a68f1b76439079":[6,0,0,0,7,4,7],
+"structMR_1_1SymMatrix2.html#a670c0b0b5468ad0685c66438e965bb2a":[6,0,0,0,7,4,14],
+"structMR_1_1SymMatrix2.html#a7023f18d2ffbf60a3eb3b4cd2fe1ce18":[6,0,0,0,7,4,13],
+"structMR_1_1SymMatrix2.html#a794820de02de93d89f45517747122e36":[6,0,0,0,7,4,12],
+"structMR_1_1SymMatrix2.html#a841408afb3b039fd491f2c3078d9ad99":[6,0,0,0,7,4,10]
 };

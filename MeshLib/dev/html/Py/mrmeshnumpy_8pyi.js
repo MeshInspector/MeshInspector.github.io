@@ -6,7 +6,6 @@ var mrmeshnumpy_8pyi =
     [ "getNumpy3Darray", "mrmeshnumpy_8pyi.html#a30039e3551018d198a5a42bd480744cd", null ],
     [ "getNumpyBitSet", "mrmeshnumpy_8pyi.html#a99acb9582fb6b8f20b4c8352a9943d6b", null ],
     [ "getNumpyCurvature", "mrmeshnumpy_8pyi.html#a4ff4013d8f081b6e4ad1c3c9a4631fa2", null ],
-    [ "getNumpyCurvatureGradient", "mrmeshnumpy_8pyi.html#ab5ffb171635288c7762548db55cdd9b0", null ],
     [ "getNumpyFaces", "mrmeshnumpy_8pyi.html#a6c6a7732d2ef76e8fbcb88033a0b80ec", null ],
     [ "getNumpyGaussianCurvature", "mrmeshnumpy_8pyi.html#a112c46ee48d636b11e53698db53119e3", null ],
     [ "getNumpyMeanCurvature", "mrmeshnumpy_8pyi.html#a0fb0ed1e250c69e589c8cc7f710a82e7", null ],

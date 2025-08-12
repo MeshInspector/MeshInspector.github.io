@@ -1,9 +1,5 @@
 var NAVTREEINDEX64 =
 {
-"namespaceMR.html#af4556fd56cc32c8b7e8e343664cba8ad":[6,0,1,0,1,1183],
-"namespaceMR.html#af4a1dbdb9aedd7fadc599adb576b16da":[6,0,1,0,1,1870],
-"namespaceMR.html#af4cc0a870f29d514b767b1038b980a59":[6,0,1,0,1,1145],
-"namespaceMR.html#af512834da94a52f6e752e99c3b362215":[6,0,1,0,1,1970],
 "namespaceMR.html#af51a8b056e1c23645f2fa60cbff920c4":[6,0,1,0,1,1881],
 "namespaceMR.html#af5b0ec84ea59f10e217ab60af8c3fa08":[6,0,1,0,1,1148],
 "namespaceMR.html#af5e79c83f968cdf915fac0d9a5136768":[6,0,1,0,1,1517],
@@ -22,7 +18,7 @@ var NAVTREEINDEX64 =
 "namespaceMR.html#af79e59969dc38af8f99d87b8d80385f2":[6,0,1,0,1,1012],
 "namespaceMR.html#af7bd0e42ef0d3a181e0af57d15d8bf0a":[6,0,1,0,1,969],
 "namespaceMR.html#af7f57e0dbd18617d893d00b618f9cb07":[6,0,1,0,1,1479],
-"namespaceMR.html#af83fca934e3cfaee4d5a825d215a698c":[6,0,1,0,1,2712],
+"namespaceMR.html#af83fca934e3cfaee4d5a825d215a698c":[6,0,1,0,1,2711],
 "namespaceMR.html#af848b7a93acc5e03bfea1f8bcc3ffdb7":[6,0,1,0,1,1309],
 "namespaceMR.html#af864b9246bf8c972ba65a4ef698384f9":[6,0,1,0,1,2080],
 "namespaceMR.html#af8ad9e1b05a45987a3075d43bf345d68":[6,0,1,0,1,887],
@@ -32,7 +28,7 @@ var NAVTREEINDEX64 =
 "namespaceMR.html#af95a05a5035d21be2ce1964b8337f638":[6,0,1,0,1,1628],
 "namespaceMR.html#af9a5c1118c2c4b0cda030dff8d11ce03":[6,0,1,0,1,2190],
 "namespaceMR.html#afa3e42d954c50c383af5c20a059e34d2":[6,0,1,0,1,1745],
-"namespaceMR.html#afa8211ed28ab87c4d0055c34f65e8e2f":[6,0,1,0,1,2711],
+"namespaceMR.html#afa8211ed28ab87c4d0055c34f65e8e2f":[6,0,1,0,1,2710],
 "namespaceMR.html#afac751f311b648116a3a4afcd06a10c7":[6,0,1,0,1,2386],
 "namespaceMR.html#afadfa7c61c73e9a699449d9a2828496d":[6,0,1,0,1,1779],
 "namespaceMR.html#afaef792167a46a382648ec08d36b74e0":[6,0,1,0,1,996],
@@ -48,7 +44,7 @@ var NAVTREEINDEX64 =
 "namespaceMR.html#afd0255930f486d88a3adb40805670ded":[6,0,1,0,1,1336],
 "namespaceMR.html#afd74f9f75fe9d97b4aa208e3fa498301":[6,0,1,0,1,1578],
 "namespaceMR.html#afe3d8a0d392d8c39709a37e08a665777":[6,0,1,0,1,1099],
-"namespaceMR.html#afe49e137af70c8aaef17a39366b4bd32":[6,0,1,0,1,2682],
+"namespaceMR.html#afe49e137af70c8aaef17a39366b4bd32":[6,0,1,0,1,2681],
 "namespaceMR.html#afe997bf38614449b2ab18c04b6da671d":[6,0,1,0,1,1525],
 "namespaceMR.html#afea1c6e74e1a6a4ed14dc7fcf09b24df":[6,0,1,0,1,2055],
 "namespaceMR.html#afebaea1321bcf85ccd6401870196c3fd":[6,0,1,0,1,1200],
@@ -249,5 +245,9 @@ var NAVTREEINDEX64 =
 "namespaceMR_1_1PlanarTriangulation.html":[6,0,1,0,1,25],
 "namespaceMR_1_1PlanarTriangulation.html#a0515df1bf2b2920651b9617e6b1493f9":[6,0,1,0,1,25,6],
 "namespaceMR_1_1PlanarTriangulation.html#a0793fac040a2dcffcf616e963ebcfe7e":[6,0,1,0,1,25,12],
-"namespaceMR_1_1PlanarTriangulation.html#a15dafb65753964c596e32bd173142aba":[6,0,1,0,1,25,4]
+"namespaceMR_1_1PlanarTriangulation.html#a15dafb65753964c596e32bd173142aba":[6,0,1,0,1,25,4],
+"namespaceMR_1_1PlanarTriangulation.html#a1e7584c601fc9192683046e5f769c068":[6,0,1,0,1,25,11],
+"namespaceMR_1_1PlanarTriangulation.html#a2861b59a4ea1236fc77b874053b4245a":[6,0,1,0,1,25,5],
+"namespaceMR_1_1PlanarTriangulation.html#a31ee3df5527e56120039ae242d069783":[6,0,1,0,1,25,16],
+"namespaceMR_1_1PlanarTriangulation.html#a3638a79ba38f8621fd9eb80783cb14be":[6,0,1,0,1,25,9]
 };

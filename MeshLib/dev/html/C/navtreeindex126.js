@@ -1,11 +1,5 @@
 var NAVTREEINDEX126 =
 {
-"std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitives__Plane_8h.html#a9069243c4242692251b352f0bde963e6":[6,2,1,0,0,0,2,266,13],
-"std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitives__Plane_8h.html#a9b9de9689168aabd530cb86aa172f3b1":[6,2,1,0,0,0,2,266,7],
-"std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitives__Plane_8h.html#a9d8e47f41f1a72d81eae50dc8db9ae3d":[6,2,1,0,0,0,2,266,3],
-"std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitives__Plane_8h.html#aa81762d05b8c61b18dfc9ed00210a07c":[6,2,1,0,0,0,2,266,4],
-"std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitives__Plane_8h.html#aab1b39c2998e4a21d6d10c8e06ff9013":[6,2,1,0,0,0,2,266,2],
-"std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitives__Plane_8h.html#aaeef1631c8938161ea65d7e32957f574":[6,2,1,0,0,0,2,266,15],
 "std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitives__Plane_8h.html#ab5fcbd5e5851661483b1e7394f1db102":[6,2,1,0,0,0,2,266,10],
 "std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitives__Plane_8h.html#ab670b4377f4bdf0c3a9a9bb63daf9ec7":[6,2,1,0,0,0,2,266,24],
 "std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitives__Plane_8h.html#ac8f5e2366ace2bdbb2aaf697ccdd4234":[6,2,1,0,0,0,2,266,20],
@@ -249,5 +243,11 @@ var NAVTREEINDEX126 =
 "std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box2f_8h.html#abe84f59daf50754defd4b9a8fe29ae18":[6,2,1,0,0,0,2,279,38],
 "std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box2f_8h.html#ac1139e4e7281295809bac773bea68f03":[6,2,1,0,0,0,2,279,24],
 "std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box2f_8h.html#ac1533789309ca0a72f21bdceadc8b09c":[6,2,1,0,0,0,2,279,64],
-"std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box2f_8h.html#ac2b30af0f56df67d91218327922abb1e":[6,2,1,0,0,0,2,279,37]
+"std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box2f_8h.html#ac2b30af0f56df67d91218327922abb1e":[6,2,1,0,0,0,2,279,37],
+"std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box2f_8h.html#ac4962ba19de19acbf522bcf752b4029b":[6,2,1,0,0,0,2,279,60],
+"std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box2f_8h.html#ac814b7481ce0a14adb6712faa59309cd":[6,2,1,0,0,0,2,279,50],
+"std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box2f_8h.html#acf1aeb8a30793b387457c167835ec9de":[6,2,1,0,0,0,2,279,29],
+"std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box2f_8h.html#ad1de7cdf281c82cfe992babdc969f363":[6,2,1,0,0,0,2,279,33],
+"std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box2f_8h.html#ad22de606f5ee98b4413183575f222f0e":[6,2,1,0,0,0,2,279,8],
+"std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box2f_8h.html#ad63424c90e92e8d16c78fee08134d7cf":[6,2,1,0,0,0,2,279,66]
 };
