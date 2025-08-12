@@ -4,20 +4,8 @@ var group__VoxelGroup =
     [ "Subvoxel Mesh Correction", "group__SubvoxelMeshCorrection.html", "group__SubvoxelMeshCorrection" ],
     [ "Volume (Voxel) Segmentation", "group__VolumeSegmentationGroup.html", "group__VolumeSegmentationGroup" ],
     [ "Voxel Path", "group__VoxelPathGroup.html", "group__VoxelPathGroup" ],
-    [ "MR::MergeVolumePartSettings", "structMR_1_1MergeVolumePartSettings.html", [
-      [ "PostCutCallback", "structMR_1_1MergeVolumePartSettings.html#a58b526091c2efa7486833edd93420975", null ],
-      [ "PostMergeCallback", "structMR_1_1MergeVolumePartSettings.html#a49ad4e693c6a08af856dd55e575f702f", null ],
-      [ "PreCutCallback", "structMR_1_1MergeVolumePartSettings.html#a577e60ec177ee1ce4be553f79fc09a89", null ],
-      [ "mapping", "structMR_1_1MergeVolumePartSettings.html#a196c2f60b539ef9d242a51bcd49833d3", null ],
-      [ "origin", "structMR_1_1MergeVolumePartSettings.html#a46d9c425aefa56ee9d112c6cb81a1415", null ],
-      [ "postCut", "structMR_1_1MergeVolumePartSettings.html#a31e09c078de0ae4f9b5512e3b099e29b", null ],
-      [ "postMerge", "structMR_1_1MergeVolumePartSettings.html#afd642c0d879285bf9cfb4e609c2cd816", null ],
-      [ "preCut", "structMR_1_1MergeVolumePartSettings.html#a4a4414df6198c1615c8f9d37c3692f87", null ]
-    ] ],
-    [ "MR::VolumeToMeshByPartsSettings", "structMR_1_1VolumeToMeshByPartsSettings.html", [
-      [ "maxVolumePartMemoryUsage", "structMR_1_1VolumeToMeshByPartsSettings.html#addf979a4cc4d34fb2f506e84d1a9cf7a", null ],
-      [ "stripeOverlap", "structMR_1_1VolumeToMeshByPartsSettings.html#a49895c0e58dfde0834b03dcc99e6279c", null ]
-    ] ],
+    [ "MR::MergeVolumePartSettings", "../C/structMR_1_1MergeVolumePartSettings.html", null ],
+    [ "MR::VolumeToMeshByPartsSettings", "../C/structMR_1_1VolumeToMeshByPartsSettings.html", null ],
     [ "MR::VolumeIndexer::areNeigbors", "group__VoxelGroup.html#ga991a1f3d21cb03e21402be655ba7c06c", null ],
     [ "MR::VolumeIndexer::areNeigbors", "group__VoxelGroup.html#gad83baf7155c4c4be0ffa42c4de418e6b", null ],
     [ "MR::VolumeIndexer::dims", "group__VoxelGroup.html#ga242530ea0c7771c807c769bcb292f37f", null ],

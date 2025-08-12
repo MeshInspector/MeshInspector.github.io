@@ -255,15 +255,15 @@ $(function(){initNavTree('ExampleMeshICP.html',''); initResizable(true); });
 <div class="ttc" id="anamespacemrmeshpy_html_a0f6b2b16672621f1c75bbd082c1ca388"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#a0f6b2b16672621f1c75bbd082c1ca388">mrmeshpy::saveMesh</a></div><div class="ttdeci">None saveMesh(Mesh mesh, os.PathLike|str|bytes file, SaveSettings settings='{}')</div></div>
 <div class="ttc" id="anamespacemrmeshpy_html_ac870d6fee4e3b3e3dcf73bc12a21d0f5"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#ac870d6fee4e3b3e3dcf73bc12a21d0f5">mrmeshpy::loadMesh</a></div><div class="ttdeci">Mesh loadMesh(os.PathLike|str|bytes file, MeshLoadSettings settings='{}')</div></div>
 </div><!-- fragment --></li>
-<li><b class="tab-title">C</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRICP.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMesh.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMeshLoad.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMeshOrPoints.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMeshSave.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRString.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRCMisc/expected_MR_Mesh_std_string.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRCMisc/expected_void_std_string.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRCMisc/std_string.h&gt;</span></div>
+<li><b class="tab-title">C</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/MRICP_8h.html">MRCMesh/MRICP.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/MRMesh_8h.html">MRCMesh/MRMesh.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/MRMeshLoad_8h.html">MRCMesh/MRMeshLoad.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/MRMeshOrPoints_8h.html">MRCMesh/MRMeshOrPoints.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/MRMeshSave_8h.html">MRCMesh/MRMeshSave.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/MRString_8h.html">MRCMesh/MRString.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/expected__MR__Mesh__std__string_8h.html">MRCMisc/expected_MR_Mesh_std_string.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/expected__void__std__string_8h.html">MRCMisc/expected_void_std_string.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/std__string_8h.html">MRCMisc/std_string.h</a>&gt;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;stdlib.h&gt;</span></div>
@@ -275,76 +275,129 @@ $(function(){initNavTree('ExampleMeshICP.html',''); initResizable(true); });
 <div class="line">    <span class="comment">// Load meshes:</span></div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// First mesh, which will be moved.</span></div>
-<div class="line">    MR_expected_MR_Mesh_std_string* meshFloatingEx = MR_MeshLoad_fromAnySupportedFormat_2( <span class="stringliteral">&quot;meshA.stl&quot;</span>, NULL, NULL );</div>
-<div class="line">    MR_Mesh* meshFloating = MR_expected_MR_Mesh_std_string_GetMutableValue( meshFloatingEx );</div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a>* meshFloatingEx = <a class="code hl_functionRef" href="./C/MRMeshLoad_8h.html#aefab6e45c641a8da45d4d9b0b28217d3">MR_MeshLoad_fromAnySupportedFormat_2</a>( <span class="stringliteral">&quot;meshA.stl&quot;</span>, NULL, NULL );</div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a>* meshFloating = <a class="code hl_functionRef" href="./C/expected__MR__Mesh__std__string_8h.html#a099fbb9e0fc70d161a966f38eff8fa03">MR_expected_MR_Mesh_std_string_GetMutableValue</a>( meshFloatingEx );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !meshFloating )</div>
 <div class="line">    {</div>
-<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to load mesh A: %s\n&quot;</span>, MR_std_string_Data( MR_expected_MR_Mesh_std_string_GetError( meshFloatingEx ) ) );</div>
+<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to load mesh A: %s\n&quot;</span>, <a class="code hl_functionRef" href="./C/std__string_8h.html#ae6d1b10a4ee031ae30876d74a6894c67">MR_std_string_Data</a>( <a class="code hl_functionRef" href="./C/expected__MR__Mesh__std__string_8h.html#a8dc957718cb4d5be7e2557eed5b1dc1e">MR_expected_MR_Mesh_std_string_GetError</a>( meshFloatingEx ) ) );</div>
 <div class="line">        <span class="keywordflow">goto</span> fail_mesh_loading_a;</div>
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Second mesh, static.</span></div>
-<div class="line">    MR_expected_MR_Mesh_std_string* meshReferenceEx = MR_MeshLoad_fromAnySupportedFormat_2( <span class="stringliteral">&quot;meshB.stl&quot;</span>, NULL, NULL );</div>
-<div class="line">    MR_Mesh* meshReference = MR_expected_MR_Mesh_std_string_GetMutableValue( meshReferenceEx );</div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a>* meshReferenceEx = <a class="code hl_functionRef" href="./C/MRMeshLoad_8h.html#aefab6e45c641a8da45d4d9b0b28217d3">MR_MeshLoad_fromAnySupportedFormat_2</a>( <span class="stringliteral">&quot;meshB.stl&quot;</span>, NULL, NULL );</div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a>* meshReference = <a class="code hl_functionRef" href="./C/expected__MR__Mesh__std__string_8h.html#a099fbb9e0fc70d161a966f38eff8fa03">MR_expected_MR_Mesh_std_string_GetMutableValue</a>( meshReferenceEx );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !meshReference )</div>
 <div class="line">    {</div>
-<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to load mesh B: %s\n&quot;</span>, MR_std_string_Data( MR_expected_MR_Mesh_std_string_GetError( meshReferenceEx ) ) );</div>
+<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to load mesh B: %s\n&quot;</span>, <a class="code hl_functionRef" href="./C/std__string_8h.html#ae6d1b10a4ee031ae30876d74a6894c67">MR_std_string_Data</a>( <a class="code hl_functionRef" href="./C/expected__MR__Mesh__std__string_8h.html#a8dc957718cb4d5be7e2557eed5b1dc1e">MR_expected_MR_Mesh_std_string_GetError</a>( meshReferenceEx ) ) );</div>
 <div class="line">        <span class="keywordflow">goto</span> fail_mesh_loading_b;</div>
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Prepare ICP parameters</span></div>
-<div class="line">    MR_Box3f bbox = MR_Mesh_computeBoundingBox_1( meshReference, NULL );</div>
-<div class="line">    <span class="keywordtype">float</span> diagonal = MR_Box3f_diagonal( &amp;bbox );</div>
+<div class="line">    <a class="code hl_structRef" href="./C/structMR__Box3f.html">MR_Box3f</a> bbox = <a class="code hl_functionRef" href="./C/MRMesh_8h.html#a1f50aada1135245acc33337c846e3b12">MR_Mesh_computeBoundingBox_1</a>( meshReference, NULL );</div>
+<div class="line">    <span class="keywordtype">float</span> diagonal = <a class="code hl_functionRef" href="./C/MRBox_8h.html#a09b9e77072670aa42a43c6a581960600">MR_Box3f_diagonal</a>( &amp;bbox );</div>
 <div class="line">    <span class="keywordtype">float</span> icpSamplingVoxelSize = diagonal * 0.01f; <span class="comment">// To sample points from object</span></div>
-<div class="line">    MR_ICPProperties* icpParams = MR_ICPProperties_DefaultConstruct();</div>
-<div class="line">    MR_ICPProperties_Set_distThresholdSq( icpParams, diagonal * diagonal * 0.01f ); <span class="comment">// Use points pairs with maximum distance specified</span></div>
-<div class="line">    MR_ICPProperties_Set_exitVal( icpParams, diagonal * 0.003f ); <span class="comment">// Stop when distance reached</span></div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRICP_8h.html#af4db36c3c358c10eb3421215dfaf0cab">MR_ICPProperties</a>* icpParams = <a class="code hl_functionRef" href="./C/MRICP_8h.html#a6ed25c78714027fdfe0fff972837bd7e">MR_ICPProperties_DefaultConstruct</a>();</div>
+<div class="line">    <a class="code hl_functionRef" href="./C/MRICP_8h.html#a02e32a5064ec7f76a8a36d8466d918e0">MR_ICPProperties_Set_distThresholdSq</a>( icpParams, diagonal * diagonal * 0.01f ); <span class="comment">// Use points pairs with maximum distance specified</span></div>
+<div class="line">    <a class="code hl_functionRef" href="./C/MRICP_8h.html#a4907572c1ff70ab99e977e6ca796bf30">MR_ICPProperties_Set_exitVal</a>( icpParams, diagonal * 0.003f ); <span class="comment">// Stop when distance reached</span></div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Calculate transformation</span></div>
-<div class="line">    MR_MeshOrPoints* fltMop = MR_MeshOrPoints_Construct_MR_Mesh( meshFloating );</div>
-<div class="line">    MR_MeshOrPoints* refMop = MR_MeshOrPoints_Construct_MR_Mesh( meshFloating );</div>
-<div class="line">    MR_MeshOrPointsXf* flt = MR_MeshOrPointsXf_ConstructFrom( fltMop, MR_AffineXf3f_DefaultConstruct() );</div>
-<div class="line">    MR_MeshOrPointsXf* ref = MR_MeshOrPointsXf_ConstructFrom( refMop, MR_AffineXf3f_DefaultConstruct() );</div>
-<div class="line">    MR_MeshOrPoints_Destroy( fltMop );</div>
-<div class="line">    MR_MeshOrPoints_Destroy( refMop );</div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRAABBTreeObjects_8h.html#aef2e5b60c55f275988c9749f64cd52ac">MR_MeshOrPoints</a>* fltMop = <a class="code hl_functionRef" href="./C/MRMeshOrPoints_8h.html#ac4a7bc9f2a2033b2a64d7b1f80dcb6dd">MR_MeshOrPoints_Construct_MR_Mesh</a>( meshFloating );</div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRAABBTreeObjects_8h.html#aef2e5b60c55f275988c9749f64cd52ac">MR_MeshOrPoints</a>* refMop = <a class="code hl_functionRef" href="./C/MRMeshOrPoints_8h.html#ac4a7bc9f2a2033b2a64d7b1f80dcb6dd">MR_MeshOrPoints_Construct_MR_Mesh</a>( meshFloating );</div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRICP_8h.html#ad03951b131de611b1d9afcdace15f61d">MR_MeshOrPointsXf</a>* flt = <a class="code hl_functionRef" href="./C/MRMeshOrPoints_8h.html#a9d5b0bfc4c6315fb0f1b2def4fb0aeaf">MR_MeshOrPointsXf_ConstructFrom</a>( fltMop, <a class="code hl_functionRef" href="./C/MRAffineXf_8h.html#a07d55a4344a3f6ceddfca2e988a23a2e">MR_AffineXf3f_DefaultConstruct</a>() );</div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRICP_8h.html#ad03951b131de611b1d9afcdace15f61d">MR_MeshOrPointsXf</a>* ref = <a class="code hl_functionRef" href="./C/MRMeshOrPoints_8h.html#a9d5b0bfc4c6315fb0f1b2def4fb0aeaf">MR_MeshOrPointsXf_ConstructFrom</a>( refMop, <a class="code hl_functionRef" href="./C/MRAffineXf_8h.html#a07d55a4344a3f6ceddfca2e988a23a2e">MR_AffineXf3f_DefaultConstruct</a>() );</div>
+<div class="line">    <a class="code hl_functionRef" href="./C/MRMeshOrPoints_8h.html#a0f4fe4c88a5d9d3d9c84ee7bf41ac064">MR_MeshOrPoints_Destroy</a>( fltMop );</div>
+<div class="line">    <a class="code hl_functionRef" href="./C/MRMeshOrPoints_8h.html#a0f4fe4c88a5d9d3d9c84ee7bf41ac064">MR_MeshOrPoints_Destroy</a>( refMop );</div>
 <div class="line"> </div>
-<div class="line">    MR_ICP* icp = MR_ICP_Construct_3( flt, ref, icpSamplingVoxelSize );</div>
-<div class="line">    MR_ICP_setParams( icp, icpParams );</div>
-<div class="line">    MR_ICPProperties_Destroy( icpParams );</div>
-<div class="line">    MR_AffineXf3f xf = MR_ICP_calculateTransformation( icp );</div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRICP_8h.html#a68b13ed89b0d944050c3eac8f0caea9b">MR_ICP</a>* icp = <a class="code hl_functionRef" href="./C/MRICP_8h.html#a79626d9b3ae7d9a0aaedcfc4b42b3aa4">MR_ICP_Construct_3</a>( flt, ref, icpSamplingVoxelSize );</div>
+<div class="line">    <a class="code hl_functionRef" href="./C/MRICP_8h.html#a98111ae21bbda7c454f3ca9c001a59a9">MR_ICP_setParams</a>( icp, icpParams );</div>
+<div class="line">    <a class="code hl_functionRef" href="./C/MRICP_8h.html#a854de83f80e5371d1980dc47c136410d">MR_ICPProperties_Destroy</a>( icpParams );</div>
+<div class="line">    <a class="code hl_structRef" href="./C/structMR__AffineXf3f.html">MR_AffineXf3f</a> xf = <a class="code hl_functionRef" href="./C/MRICP_8h.html#a9cd10312ad72efcd82754cf809aee98f">MR_ICP_calculateTransformation</a>( icp );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Transform floating mesh</span></div>
-<div class="line">    MR_Mesh_transform( meshFloating, &amp;xf, NULL );</div>
+<div class="line">    <a class="code hl_functionRef" href="./C/MRMesh_8h.html#a0946724aa4818c028be83125b2858446">MR_Mesh_transform</a>( meshFloating, &amp;xf, NULL );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Output information string</span></div>
-<div class="line">    MR_std_string* info = MR_ICP_getStatusInfo( icp );</div>
-<div class="line">    printf( <span class="stringliteral">&quot;%s\n&quot;</span>, MR_std_string_Data( info ) );</div>
-<div class="line">    MR_std_string_Destroy( info );</div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a>* info = <a class="code hl_functionRef" href="./C/MRICP_8h.html#a55ad10f8eb289adcefcb6165b3884536">MR_ICP_getStatusInfo</a>( icp );</div>
+<div class="line">    printf( <span class="stringliteral">&quot;%s\n&quot;</span>, <a class="code hl_functionRef" href="./C/std__string_8h.html#ae6d1b10a4ee031ae30876d74a6894c67">MR_std_string_Data</a>( info ) );</div>
+<div class="line">    <a class="code hl_functionRef" href="./C/std__string_8h.html#a9ffa0a79c0c1ac50a81c8dfdf2fd5d91">MR_std_string_Destroy</a>( info );</div>
 <div class="line"> </div>
-<div class="line">    printf(<span class="stringliteral">&quot;Final transform:\n%f %f %f %f\n%f %f %f %f\n%f %f %f %f\n&quot;</span>, xf.A.x.x, xf.A.x.y, xf.A.x.z, xf.b.x, xf.A.y.x, xf.A.y.y, xf.A.y.z, xf.b.y, xf.A.z.x, xf.A.z.y, xf.A.z.z, xf.b.z);</div>
+<div class="line">    printf(<span class="stringliteral">&quot;Final transform:\n%f %f %f %f\n%f %f %f %f\n%f %f %f %f\n&quot;</span>, xf.<a class="code hl_variableRef" href="./C/structMR__AffineXf3f.html#afcd74593efcd9f1896128240647693d1">A</a>.<a class="code hl_variableRef" href="./C/structMR__Matrix3f.html#ac198a606b5c85eae5e24fb6b08cc6733">x</a>.<a class="code hl_variableRef" href="./C/structMR__Vector3f.html#af231b1ad1b20023178270820302149f8">x</a>, xf.<a class="code hl_variableRef" href="./C/structMR__AffineXf3f.html#afcd74593efcd9f1896128240647693d1">A</a>.<a class="code hl_variableRef" href="./C/structMR__Matrix3f.html#ac198a606b5c85eae5e24fb6b08cc6733">x</a>.<a class="code hl_variableRef" href="./C/structMR__Vector3f.html#a5f584c2e5be61ab8aed41ce71b3a3e2b">y</a>, xf.<a class="code hl_variableRef" href="./C/structMR__AffineXf3f.html#afcd74593efcd9f1896128240647693d1">A</a>.<a class="code hl_variableRef" href="./C/structMR__Matrix3f.html#ac198a606b5c85eae5e24fb6b08cc6733">x</a>.<a class="code hl_variableRef" href="./C/structMR__Vector3f.html#aedff33e4e489dffa8c472fa107b222ed">z</a>, xf.<a class="code hl_variableRef" href="./C/structMR__AffineXf3f.html#a2f521516c72b15c8483099fb5e4c4ff4">b</a>.<a class="code hl_variableRef" href="./C/structMR__Vector3f.html#af231b1ad1b20023178270820302149f8">x</a>, xf.<a class="code hl_variableRef" href="./C/structMR__AffineXf3f.html#afcd74593efcd9f1896128240647693d1">A</a>.<a class="code hl_variableRef" href="./C/structMR__Matrix3f.html#ac7f4c09c6a421f755d0bbbab80105221">y</a>.<a class="code hl_variableRef" href="./C/structMR__Vector3f.html#af231b1ad1b20023178270820302149f8">x</a>, xf.<a class="code hl_variableRef" href="./C/structMR__AffineXf3f.html#afcd74593efcd9f1896128240647693d1">A</a>.<a class="code hl_variableRef" href="./C/structMR__Matrix3f.html#ac7f4c09c6a421f755d0bbbab80105221">y</a>.<a class="code hl_variableRef" href="./C/structMR__Vector3f.html#a5f584c2e5be61ab8aed41ce71b3a3e2b">y</a>, xf.<a class="code hl_variableRef" href="./C/structMR__AffineXf3f.html#afcd74593efcd9f1896128240647693d1">A</a>.<a class="code hl_variableRef" href="./C/structMR__Matrix3f.html#ac7f4c09c6a421f755d0bbbab80105221">y</a>.<a class="code hl_variableRef" href="./C/structMR__Vector3f.html#aedff33e4e489dffa8c472fa107b222ed">z</a>, xf.<a class="code hl_variableRef" href="./C/structMR__AffineXf3f.html#a2f521516c72b15c8483099fb5e4c4ff4">b</a>.<a class="code hl_variableRef" href="./C/structMR__Vector3f.html#a5f584c2e5be61ab8aed41ce71b3a3e2b">y</a>, xf.<a class="code hl_variableRef" href="./C/structMR__AffineXf3f.html#afcd74593efcd9f1896128240647693d1">A</a>.<a class="code hl_variableRef" href="./C/structMR__Matrix3f.html#a635431345b51ad630487265e5061fcca">z</a>.<a class="code hl_variableRef" href="./C/structMR__Vector3f.html#af231b1ad1b20023178270820302149f8">x</a>, xf.<a class="code hl_variableRef" href="./C/structMR__AffineXf3f.html#afcd74593efcd9f1896128240647693d1">A</a>.<a class="code hl_variableRef" href="./C/structMR__Matrix3f.html#a635431345b51ad630487265e5061fcca">z</a>.<a class="code hl_variableRef" href="./C/structMR__Vector3f.html#a5f584c2e5be61ab8aed41ce71b3a3e2b">y</a>, xf.<a class="code hl_variableRef" href="./C/structMR__AffineXf3f.html#afcd74593efcd9f1896128240647693d1">A</a>.<a class="code hl_variableRef" href="./C/structMR__Matrix3f.html#a635431345b51ad630487265e5061fcca">z</a>.<a class="code hl_variableRef" href="./C/structMR__Vector3f.html#aedff33e4e489dffa8c472fa107b222ed">z</a>, xf.<a class="code hl_variableRef" href="./C/structMR__AffineXf3f.html#a2f521516c72b15c8483099fb5e4c4ff4">b</a>.<a class="code hl_variableRef" href="./C/structMR__Vector3f.html#aedff33e4e489dffa8c472fa107b222ed">z</a>);</div>
 <div class="line"> </div>
-<div class="line">    MR_ICP_Destroy( icp );</div>
-<div class="line">    MR_MeshOrPointsXf_Destroy( flt );</div>
-<div class="line">    MR_MeshOrPointsXf_Destroy( ref );</div>
+<div class="line">    <a class="code hl_functionRef" href="./C/MRICP_8h.html#a719d54e4c8831382cf5738706fb26310">MR_ICP_Destroy</a>( icp );</div>
+<div class="line">    <a class="code hl_functionRef" href="./C/MRMeshOrPoints_8h.html#af49a1e3d76cdf0a15c4be70c3ac954b7">MR_MeshOrPointsXf_Destroy</a>( flt );</div>
+<div class="line">    <a class="code hl_functionRef" href="./C/MRMeshOrPoints_8h.html#af49a1e3d76cdf0a15c4be70c3ac954b7">MR_MeshOrPointsXf_Destroy</a>( ref );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Save result</span></div>
-<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat_3( meshFloating, <span class="stringliteral">&quot;meshA_icp.stl&quot;</span>, NULL, NULL);</div>
-<div class="line">    <span class="keywordflow">if</span> ( MR_expected_void_std_string_GetError( saveEx ) )</div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a>* saveEx = <a class="code hl_functionRef" href="./C/MRMeshSave_8h.html#a82c411e8ebdadfc3cd47a800f2385591">MR_MeshSave_toAnySupportedFormat_3</a>( meshFloating, <span class="stringliteral">&quot;meshA_icp.stl&quot;</span>, NULL, NULL);</div>
+<div class="line">    <span class="keywordflow">if</span> ( <a class="code hl_functionRef" href="./C/expected__void__std__string_8h.html#a734251d65885afdad21d65eea75e2810">MR_expected_void_std_string_GetError</a>( saveEx ) )</div>
 <div class="line">    {</div>
-<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to save mesh: %s\n&quot;</span>, MR_std_string_Data( MR_expected_void_std_string_GetError( saveEx ) ) );</div>
+<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to save mesh: %s\n&quot;</span>, <a class="code hl_functionRef" href="./C/std__string_8h.html#ae6d1b10a4ee031ae30876d74a6894c67">MR_std_string_Data</a>( <a class="code hl_functionRef" href="./C/expected__void__std__string_8h.html#a734251d65885afdad21d65eea75e2810">MR_expected_void_std_string_GetError</a>( saveEx ) ) );</div>
 <div class="line">        <span class="keywordflow">goto</span> fail_save;</div>
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    rc = EXIT_SUCCESS;</div>
 <div class="line"> </div>
 <div class="line">fail_save:</div>
-<div class="line">    MR_expected_void_std_string_Destroy( saveEx );</div>
+<div class="line">    <a class="code hl_functionRef" href="./C/expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9">MR_expected_void_std_string_Destroy</a>( saveEx );</div>
 <div class="line">fail_mesh_loading_b:</div>
-<div class="line">    MR_expected_MR_Mesh_std_string_Destroy( meshReferenceEx );</div>
+<div class="line">    <a class="code hl_functionRef" href="./C/expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1">MR_expected_MR_Mesh_std_string_Destroy</a>( meshReferenceEx );</div>
 <div class="line">fail_mesh_loading_a:</div>
-<div class="line">    MR_expected_MR_Mesh_std_string_Destroy( meshFloatingEx );</div>
+<div class="line">    <a class="code hl_functionRef" href="./C/expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1">MR_expected_MR_Mesh_std_string_Destroy</a>( meshFloatingEx );</div>
 <div class="line">    <span class="keywordflow">return</span> rc;</div>
 <div class="line">}</div>
+<div class="ttc" id="aMRAABBTreeObjects_8h_html_aef2e5b60c55f275988c9749f64cd52ac"><div class="ttname"><a href="./C/MRAABBTreeObjects_8h.html#aef2e5b60c55f275988c9749f64cd52ac">MR_MeshOrPoints</a></div><div class="ttdeci">struct MR_MeshOrPoints MR_MeshOrPoints</div></div>
+<div class="ttc" id="aMRAffineXf_8h_html_a07d55a4344a3f6ceddfca2e988a23a2e"><div class="ttname"><a href="./C/MRAffineXf_8h.html#a07d55a4344a3f6ceddfca2e988a23a2e">MR_AffineXf3f_DefaultConstruct</a></div><div class="ttdeci">MRC_API MR_AffineXf3f MR_AffineXf3f_DefaultConstruct(void)</div></div>
+<div class="ttc" id="aMRBox_8h_html_a09b9e77072670aa42a43c6a581960600"><div class="ttname"><a href="./C/MRBox_8h.html#a09b9e77072670aa42a43c6a581960600">MR_Box3f_diagonal</a></div><div class="ttdeci">MRC_API float MR_Box3f_diagonal(const MR_Box3f *_this)</div></div>
+<div class="ttc" id="aMRCtm_8h_html_a077b8debfae88f9cf2267ad2db95c006"><div class="ttname"><a href="./C/MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a></div><div class="ttdeci">struct MR_expected_void_std_string MR_expected_void_std_string</div></div>
+<div class="ttc" id="aMRCtm_8h_html_a0d97154d4aed695055160a4688c04a3d"><div class="ttname"><a href="./C/MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a></div><div class="ttdeci">struct MR_expected_MR_Mesh_std_string MR_expected_MR_Mesh_std_string</div></div>
+<div class="ttc" id="aMRCtm_8h_html_a31b172f68efca6438544d56eb86d6f40"><div class="ttname"><a href="./C/MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a></div><div class="ttdeci">struct MR_Mesh MR_Mesh</div></div>
+<div class="ttc" id="aMRE57_8h_html_a69dc6868c10c92fb8b8a255b0130d289"><div class="ttname"><a href="./C/MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></div><div class="ttdeci">struct MR_std_string MR_std_string</div></div>
+<div class="ttc" id="aMRICP_8h_html"><div class="ttname"><a href="./C/MRICP_8h.html">MRICP.h</a></div></div>
+<div class="ttc" id="aMRICP_8h_html_a02e32a5064ec7f76a8a36d8466d918e0"><div class="ttname"><a href="./C/MRICP_8h.html#a02e32a5064ec7f76a8a36d8466d918e0">MR_ICPProperties_Set_distThresholdSq</a></div><div class="ttdeci">MRC_API void MR_ICPProperties_Set_distThresholdSq(MR_ICPProperties *_this, float value)</div></div>
+<div class="ttc" id="aMRICP_8h_html_a4907572c1ff70ab99e977e6ca796bf30"><div class="ttname"><a href="./C/MRICP_8h.html#a4907572c1ff70ab99e977e6ca796bf30">MR_ICPProperties_Set_exitVal</a></div><div class="ttdeci">MRC_API void MR_ICPProperties_Set_exitVal(MR_ICPProperties *_this, float value)</div></div>
+<div class="ttc" id="aMRICP_8h_html_a55ad10f8eb289adcefcb6165b3884536"><div class="ttname"><a href="./C/MRICP_8h.html#a55ad10f8eb289adcefcb6165b3884536">MR_ICP_getStatusInfo</a></div><div class="ttdeci">MRC_API MR_std_string * MR_ICP_getStatusInfo(const MR_ICP *_this)</div></div>
+<div class="ttc" id="aMRICP_8h_html_a68b13ed89b0d944050c3eac8f0caea9b"><div class="ttname"><a href="./C/MRICP_8h.html#a68b13ed89b0d944050c3eac8f0caea9b">MR_ICP</a></div><div class="ttdeci">struct MR_ICP MR_ICP</div></div>
+<div class="ttc" id="aMRICP_8h_html_a6ed25c78714027fdfe0fff972837bd7e"><div class="ttname"><a href="./C/MRICP_8h.html#a6ed25c78714027fdfe0fff972837bd7e">MR_ICPProperties_DefaultConstruct</a></div><div class="ttdeci">MRC_API MR_ICPProperties * MR_ICPProperties_DefaultConstruct(void)</div></div>
+<div class="ttc" id="aMRICP_8h_html_a719d54e4c8831382cf5738706fb26310"><div class="ttname"><a href="./C/MRICP_8h.html#a719d54e4c8831382cf5738706fb26310">MR_ICP_Destroy</a></div><div class="ttdeci">MRC_API void MR_ICP_Destroy(const MR_ICP *_this)</div></div>
+<div class="ttc" id="aMRICP_8h_html_a79626d9b3ae7d9a0aaedcfc4b42b3aa4"><div class="ttname"><a href="./C/MRICP_8h.html#a79626d9b3ae7d9a0aaedcfc4b42b3aa4">MR_ICP_Construct_3</a></div><div class="ttdeci">MRC_API MR_ICP * MR_ICP_Construct_3(const MR_MeshOrPointsXf *flt, const MR_MeshOrPointsXf *ref, float samplingVoxelSize)</div></div>
+<div class="ttc" id="aMRICP_8h_html_a854de83f80e5371d1980dc47c136410d"><div class="ttname"><a href="./C/MRICP_8h.html#a854de83f80e5371d1980dc47c136410d">MR_ICPProperties_Destroy</a></div><div class="ttdeci">MRC_API void MR_ICPProperties_Destroy(const MR_ICPProperties *_this)</div></div>
+<div class="ttc" id="aMRICP_8h_html_a98111ae21bbda7c454f3ca9c001a59a9"><div class="ttname"><a href="./C/MRICP_8h.html#a98111ae21bbda7c454f3ca9c001a59a9">MR_ICP_setParams</a></div><div class="ttdeci">MRC_API void MR_ICP_setParams(MR_ICP *_this, const MR_ICPProperties *prop)</div></div>
+<div class="ttc" id="aMRICP_8h_html_a9cd10312ad72efcd82754cf809aee98f"><div class="ttname"><a href="./C/MRICP_8h.html#a9cd10312ad72efcd82754cf809aee98f">MR_ICP_calculateTransformation</a></div><div class="ttdeci">MRC_API MR_AffineXf3f MR_ICP_calculateTransformation(MR_ICP *_this)</div></div>
+<div class="ttc" id="aMRICP_8h_html_ad03951b131de611b1d9afcdace15f61d"><div class="ttname"><a href="./C/MRICP_8h.html#ad03951b131de611b1d9afcdace15f61d">MR_MeshOrPointsXf</a></div><div class="ttdeci">struct MR_MeshOrPointsXf MR_MeshOrPointsXf</div></div>
+<div class="ttc" id="aMRICP_8h_html_af4db36c3c358c10eb3421215dfaf0cab"><div class="ttname"><a href="./C/MRICP_8h.html#af4db36c3c358c10eb3421215dfaf0cab">MR_ICPProperties</a></div><div class="ttdeci">struct MR_ICPProperties MR_ICPProperties</div></div>
+<div class="ttc" id="aMRMeshLoad_8h_html"><div class="ttname"><a href="./C/MRMeshLoad_8h.html">MRMeshLoad.h</a></div></div>
+<div class="ttc" id="aMRMeshLoad_8h_html_aefab6e45c641a8da45d4d9b0b28217d3"><div class="ttname"><a href="./C/MRMeshLoad_8h.html#aefab6e45c641a8da45d4d9b0b28217d3">MR_MeshLoad_fromAnySupportedFormat_2</a></div><div class="ttdeci">MRC_API MR_expected_MR_Mesh_std_string * MR_MeshLoad_fromAnySupportedFormat_2(const char *file, const char *file_end, const MR_MeshLoadSettings *settings)</div></div>
+<div class="ttc" id="aMRMeshOrPoints_8h_html"><div class="ttname"><a href="./C/MRMeshOrPoints_8h.html">MRMeshOrPoints.h</a></div></div>
+<div class="ttc" id="aMRMeshOrPoints_8h_html_a0f4fe4c88a5d9d3d9c84ee7bf41ac064"><div class="ttname"><a href="./C/MRMeshOrPoints_8h.html#a0f4fe4c88a5d9d3d9c84ee7bf41ac064">MR_MeshOrPoints_Destroy</a></div><div class="ttdeci">MRC_API void MR_MeshOrPoints_Destroy(const MR_MeshOrPoints *_this)</div></div>
+<div class="ttc" id="aMRMeshOrPoints_8h_html_a9d5b0bfc4c6315fb0f1b2def4fb0aeaf"><div class="ttname"><a href="./C/MRMeshOrPoints_8h.html#a9d5b0bfc4c6315fb0f1b2def4fb0aeaf">MR_MeshOrPointsXf_ConstructFrom</a></div><div class="ttdeci">MRC_API MR_MeshOrPointsXf * MR_MeshOrPointsXf_ConstructFrom(const MR_MeshOrPoints *obj, MR_AffineXf3f xf)</div></div>
+<div class="ttc" id="aMRMeshOrPoints_8h_html_ac4a7bc9f2a2033b2a64d7b1f80dcb6dd"><div class="ttname"><a href="./C/MRMeshOrPoints_8h.html#ac4a7bc9f2a2033b2a64d7b1f80dcb6dd">MR_MeshOrPoints_Construct_MR_Mesh</a></div><div class="ttdeci">MRC_API MR_MeshOrPoints * MR_MeshOrPoints_Construct_MR_Mesh(const MR_Mesh *mesh)</div></div>
+<div class="ttc" id="aMRMeshOrPoints_8h_html_af49a1e3d76cdf0a15c4be70c3ac954b7"><div class="ttname"><a href="./C/MRMeshOrPoints_8h.html#af49a1e3d76cdf0a15c4be70c3ac954b7">MR_MeshOrPointsXf_Destroy</a></div><div class="ttdeci">MRC_API void MR_MeshOrPointsXf_Destroy(const MR_MeshOrPointsXf *_this)</div></div>
+<div class="ttc" id="aMRMeshSave_8h_html"><div class="ttname"><a href="./C/MRMeshSave_8h.html">MRMeshSave.h</a></div></div>
+<div class="ttc" id="aMRMeshSave_8h_html_a82c411e8ebdadfc3cd47a800f2385591"><div class="ttname"><a href="./C/MRMeshSave_8h.html#a82c411e8ebdadfc3cd47a800f2385591">MR_MeshSave_toAnySupportedFormat_3</a></div><div class="ttdeci">MRC_API MR_expected_void_std_string * MR_MeshSave_toAnySupportedFormat_3(const MR_Mesh *mesh, const char *file, const char *file_end, const MR_SaveSettings *settings)</div></div>
+<div class="ttc" id="aMRMesh_8h_html"><div class="ttname"><a href="./C/MRMesh_8h.html">MRMesh.h</a></div></div>
+<div class="ttc" id="aMRMesh_8h_html_a0946724aa4818c028be83125b2858446"><div class="ttname"><a href="./C/MRMesh_8h.html#a0946724aa4818c028be83125b2858446">MR_Mesh_transform</a></div><div class="ttdeci">MRC_API void MR_Mesh_transform(MR_Mesh *_this, const MR_AffineXf3f *xf, const MR_VertBitSet *region)</div></div>
+<div class="ttc" id="aMRMesh_8h_html_a1f50aada1135245acc33337c846e3b12"><div class="ttname"><a href="./C/MRMesh_8h.html#a1f50aada1135245acc33337c846e3b12">MR_Mesh_computeBoundingBox_1</a></div><div class="ttdeci">MRC_API MR_Box3f MR_Mesh_computeBoundingBox_1(const MR_Mesh *_this, const MR_AffineXf3f *toWorld)</div></div>
+<div class="ttc" id="aMRString_8h_html"><div class="ttname"><a href="./C/MRString_8h.html">MRString.h</a></div></div>
+<div class="ttc" id="aexpected__MR__Mesh__std__string_8h_html"><div class="ttname"><a href="./C/expected__MR__Mesh__std__string_8h.html">expected_MR_Mesh_std_string.h</a></div></div>
+<div class="ttc" id="aexpected__MR__Mesh__std__string_8h_html_a099fbb9e0fc70d161a966f38eff8fa03"><div class="ttname"><a href="./C/expected__MR__Mesh__std__string_8h.html#a099fbb9e0fc70d161a966f38eff8fa03">MR_expected_MR_Mesh_std_string_GetMutableValue</a></div><div class="ttdeci">MRC_API MR_Mesh * MR_expected_MR_Mesh_std_string_GetMutableValue(MR_expected_MR_Mesh_std_string *_this)</div></div>
+<div class="ttc" id="aexpected__MR__Mesh__std__string_8h_html_a8dc957718cb4d5be7e2557eed5b1dc1e"><div class="ttname"><a href="./C/expected__MR__Mesh__std__string_8h.html#a8dc957718cb4d5be7e2557eed5b1dc1e">MR_expected_MR_Mesh_std_string_GetError</a></div><div class="ttdeci">MRC_API const MR_std_string * MR_expected_MR_Mesh_std_string_GetError(const MR_expected_MR_Mesh_std_string *_this)</div></div>
+<div class="ttc" id="aexpected__MR__Mesh__std__string_8h_html_adf45ed943c3005d85a9baaa15feb26f1"><div class="ttname"><a href="./C/expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1">MR_expected_MR_Mesh_std_string_Destroy</a></div><div class="ttdeci">MRC_API void MR_expected_MR_Mesh_std_string_Destroy(const MR_expected_MR_Mesh_std_string *_this)</div></div>
+<div class="ttc" id="aexpected__void__std__string_8h_html"><div class="ttname"><a href="./C/expected__void__std__string_8h.html">expected_void_std_string.h</a></div></div>
+<div class="ttc" id="aexpected__void__std__string_8h_html_a734251d65885afdad21d65eea75e2810"><div class="ttname"><a href="./C/expected__void__std__string_8h.html#a734251d65885afdad21d65eea75e2810">MR_expected_void_std_string_GetError</a></div><div class="ttdeci">MRC_API const MR_std_string * MR_expected_void_std_string_GetError(const MR_expected_void_std_string *_this)</div></div>
+<div class="ttc" id="aexpected__void__std__string_8h_html_a9638e07d2c5281b4bf574c618ab6f2e9"><div class="ttname"><a href="./C/expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9">MR_expected_void_std_string_Destroy</a></div><div class="ttdeci">MRC_API void MR_expected_void_std_string_Destroy(const MR_expected_void_std_string *_this)</div></div>
+<div class="ttc" id="astd__string_8h_html"><div class="ttname"><a href="./C/std__string_8h.html">std_string.h</a></div></div>
+<div class="ttc" id="astd__string_8h_html_a9ffa0a79c0c1ac50a81c8dfdf2fd5d91"><div class="ttname"><a href="./C/std__string_8h.html#a9ffa0a79c0c1ac50a81c8dfdf2fd5d91">MR_std_string_Destroy</a></div><div class="ttdeci">MRC_API void MR_std_string_Destroy(const MR_std_string *_this)</div></div>
+<div class="ttc" id="astd__string_8h_html_ae6d1b10a4ee031ae30876d74a6894c67"><div class="ttname"><a href="./C/std__string_8h.html#ae6d1b10a4ee031ae30876d74a6894c67">MR_std_string_Data</a></div><div class="ttdeci">MRC_API const char * MR_std_string_Data(const MR_std_string *_this)</div></div>
+<div class="ttc" id="astructMR__AffineXf3f_html"><div class="ttname"><a href="./C/structMR__AffineXf3f.html">MR_AffineXf3f</a></div></div>
+<div class="ttc" id="astructMR__AffineXf3f_html_a2f521516c72b15c8483099fb5e4c4ff4"><div class="ttname"><a href="./C/structMR__AffineXf3f.html#a2f521516c72b15c8483099fb5e4c4ff4">MR_AffineXf3f::b</a></div><div class="ttdeci">MR_Vector3f b</div></div>
+<div class="ttc" id="astructMR__AffineXf3f_html_afcd74593efcd9f1896128240647693d1"><div class="ttname"><a href="./C/structMR__AffineXf3f.html#afcd74593efcd9f1896128240647693d1">MR_AffineXf3f::A</a></div><div class="ttdeci">MR_Matrix3f A</div></div>
+<div class="ttc" id="astructMR__Box3f_html"><div class="ttname"><a href="./C/structMR__Box3f.html">MR_Box3f</a></div></div>
+<div class="ttc" id="astructMR__Matrix3f_html_a635431345b51ad630487265e5061fcca"><div class="ttname"><a href="./C/structMR__Matrix3f.html#a635431345b51ad630487265e5061fcca">MR_Matrix3f::z</a></div><div class="ttdeci">MR_Vector3f z</div></div>
+<div class="ttc" id="astructMR__Matrix3f_html_ac198a606b5c85eae5e24fb6b08cc6733"><div class="ttname"><a href="./C/structMR__Matrix3f.html#ac198a606b5c85eae5e24fb6b08cc6733">MR_Matrix3f::x</a></div><div class="ttdeci">MR_Vector3f x</div></div>
+<div class="ttc" id="astructMR__Matrix3f_html_ac7f4c09c6a421f755d0bbbab80105221"><div class="ttname"><a href="./C/structMR__Matrix3f.html#ac7f4c09c6a421f755d0bbbab80105221">MR_Matrix3f::y</a></div><div class="ttdeci">MR_Vector3f y</div></div>
+<div class="ttc" id="astructMR__Vector3f_html_a5f584c2e5be61ab8aed41ce71b3a3e2b"><div class="ttname"><a href="./C/structMR__Vector3f.html#a5f584c2e5be61ab8aed41ce71b3a3e2b">MR_Vector3f::y</a></div><div class="ttdeci">float y</div></div>
+<div class="ttc" id="astructMR__Vector3f_html_aedff33e4e489dffa8c472fa107b222ed"><div class="ttname"><a href="./C/structMR__Vector3f.html#aedff33e4e489dffa8c472fa107b222ed">MR_Vector3f::z</a></div><div class="ttdeci">float z</div></div>
+<div class="ttc" id="astructMR__Vector3f_html_af231b1ad1b20023178270820302149f8"><div class="ttname"><a href="./C/structMR__Vector3f.html#af231b1ad1b20023178270820302149f8">MR_Vector3f::x</a></div><div class="ttdeci">float x</div></div>
 </div><!-- fragment --></li>
 <li><b class="tab-title">C#</b> <div class="fragment"><div class="line"><span class="keyword">using </span>System.Reflection;</div>
 <div class="line"><span class="keyword">using </span>static <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.DotNet;</div>

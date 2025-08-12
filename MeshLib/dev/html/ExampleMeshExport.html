@@ -178,12 +178,12 @@ $(function(){initNavTree('ExampleMeshExport.html',''); initResizable(true); });
 <div class="ttc" id="astructMR_1_1Mesh_html_a9c8ead50efe2f8a111848b488f0a6aca"><div class="ttname"><a href="./Cpp/structMR_1_1Mesh.html#a9c8ead50efe2f8a111848b488f0a6aca">MR::Mesh::points</a></div><div class="ttdeci">VertCoords points</div></div>
 </div><!-- fragment --></li>
 <li><b class="tab-title">Python</b> See a more relevant example <a class="el" href="ExampleNumpy.html">Numpy support</a></li>
-<li><b class="tab-title">C</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRCube.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMesh.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMeshTopology.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRString.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRVector.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRVector3.h&gt;</span></div>
+<li><b class="tab-title">C</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/MRCube_8h.html">MRCMesh/MRCube.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/MRMesh_8h.html">MRCMesh/MRMesh.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/MRMeshTopology_8h.html">MRCMesh/MRMeshTopology.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/MRString_8h.html">MRCMesh/MRString.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/MRVector_8h.html">MRCMesh/MRVector.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/MRVector3_8h.html">MRCMesh/MRVector3.h</a>&gt;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;stdlib.h&gt;</span></div>
@@ -191,41 +191,62 @@ $(function(){initNavTree('ExampleMeshExport.html',''); initResizable(true); });
 <div class="line"> </div>
 <div class="line"><span class="keywordtype">int</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>( <span class="keywordtype">void</span> )</div>
 <div class="line">{</div>
-<div class="line">    <span class="keyword">const</span> MR_Vector3f <a class="code hl_functionRef" href="./Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a> = MR_Vector3f_diagonal( 1.f );</div>
-<div class="line">    <span class="keyword">const</span> MR_Vector3f base = MR_Vector3f_diagonal( -0.5f );</div>
+<div class="line">    <span class="keyword">const</span> <a class="code hl_structRef" href="./C/structMR__Vector3f.html">MR_Vector3f</a> <a class="code hl_functionRef" href="./Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a> = <a class="code hl_functionRef" href="./C/MRVector3_8h.html#aadd5d699d8a8ef0087a5e0e476e127fc">MR_Vector3f_diagonal</a>( 1.f );</div>
+<div class="line">    <span class="keyword">const</span> <a class="code hl_structRef" href="./C/structMR__Vector3f.html">MR_Vector3f</a> base = <a class="code hl_functionRef" href="./C/MRVector3_8h.html#aadd5d699d8a8ef0087a5e0e476e127fc">MR_Vector3f_diagonal</a>( -0.5f );</div>
 <div class="line"> </div>
-<div class="line">    MR_Mesh* mesh = MR_makeCube( &amp;<a class="code hl_functionRef" href="./Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a>, &amp;base );</div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a>* mesh = <a class="code hl_functionRef" href="./C/MRCube_8h.html#afa15c5fbdece3d94ef2fe26f2d5112af">MR_makeCube</a>( &amp;<a class="code hl_functionRef" href="./Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a>, &amp;base );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// extract vertices</span></div>
-<div class="line">    <span class="keyword">const</span> MR_Vector3f* vertices = MR_VertCoords_data_const( MR_Mesh_Get_points( mesh ) );</div>
-<div class="line">    <span class="keywordtype">size_t</span> verticesNum = MR_VertCoords_size( MR_Mesh_Get_points( mesh ) );</div>
+<div class="line">    <span class="keyword">const</span> <a class="code hl_structRef" href="./C/structMR__Vector3f.html">MR_Vector3f</a>* vertices = <a class="code hl_functionRef" href="./C/MRVector_8h.html#ac9e1111f7a4d68cfa09b73ea9b5384b5">MR_VertCoords_data_const</a>( <a class="code hl_functionRef" href="./C/MRMesh_8h.html#a761c97b0a5355c535d2a0d2284172cf7">MR_Mesh_Get_points</a>( mesh ) );</div>
+<div class="line">    <span class="keywordtype">size_t</span> verticesNum = <a class="code hl_functionRef" href="./C/MRVector_8h.html#aa5c6fb42f3dc93b5daee662ef028a1e9">MR_VertCoords_size</a>( <a class="code hl_functionRef" href="./C/MRMesh_8h.html#a761c97b0a5355c535d2a0d2284172cf7">MR_Mesh_Get_points</a>( mesh ) );</div>
 <div class="line">    <span class="comment">// you can access coordinates via struct fields...</span></div>
 <div class="line">    printf( <span class="stringliteral">&quot;Vertex coordinates:\n&quot;</span> );</div>
 <div class="line">    <span class="keywordflow">for</span> ( <span class="keywordtype">size_t</span> i = 0; i &lt; verticesNum; ++i )</div>
 <div class="line">        printf( <span class="stringliteral">&quot;  vertex %d:  % f; % f; % f\n&quot;</span>, (<span class="keywordtype">int</span>)i, vertices[i].x, vertices[i].y, vertices[i].z );</div>
 <div class="line">    <span class="comment">// ...or cast them to a row-major float array</span></div>
 <div class="line">    <span class="keywordtype">float</span>* vertexData = malloc( <span class="keyword">sizeof</span>( <span class="keywordtype">float</span> ) * 3 * verticesNum );</div>
-<div class="line">    memcpy( vertexData, vertices, <span class="keyword">sizeof</span>( MR_Vector3f ) * verticesNum );</div>
+<div class="line">    memcpy( vertexData, vertices, <span class="keyword">sizeof</span>( <a class="code hl_structRef" href="./C/structMR__Vector3f.html">MR_Vector3f</a> ) * verticesNum );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// extract faces</span></div>
-<div class="line">    MR_Triangulation* t = MR_MeshTopology_getTriangulation( MR_Mesh_Get_topology( mesh ) );</div>
-<div class="line">    <span class="keyword">const</span> MR_std_array_MR_VertId_3 *faces = MR_Triangulation_data_const( t );</div>
-<div class="line">    <span class="keywordtype">size_t</span> facesNum = MR_Triangulation_size( t );</div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRIdentifyVertices_8h.html#a33f2cead15f3bf37534d3678feb4af22">MR_Triangulation</a>* t = <a class="code hl_functionRef" href="./C/MRMeshTopology_8h.html#a73d163898fff3a9677b56151e186df53">MR_MeshTopology_getTriangulation</a>( <a class="code hl_functionRef" href="./C/MRMesh_8h.html#a9b14debb3b7b0ebd19d7cbd8ba217aa7">MR_Mesh_Get_topology</a>( mesh ) );</div>
+<div class="line">    <span class="keyword">const</span> <a class="code hl_structRef" href="./C/structMR__std__array__MR__VertId__3.html">MR_std_array_MR_VertId_3</a> *faces = <a class="code hl_functionRef" href="./C/MRVector_8h.html#a14c1277722b38e9a1dcb5656b57b23fe">MR_Triangulation_data_const</a>( t );</div>
+<div class="line">    <span class="keywordtype">size_t</span> facesNum = <a class="code hl_functionRef" href="./C/MRVector_8h.html#ab5faabe57a8f5618fcf291239ff01787">MR_Triangulation_size</a>( t );</div>
 <div class="line">    <span class="comment">// faces are stored as vertex id triples...</span></div>
 <div class="line">    printf( <span class="stringliteral">&quot;Face vertex IDs:\n&quot;</span> );</div>
 <div class="line">    <span class="keywordflow">for</span> ( <span class="keywordtype">size_t</span> i = 0; i &lt; verticesNum; ++i )</div>
 <div class="line">        printf( <span class="stringliteral">&quot;  face %d:  %d, %d, %d\n&quot;</span>, (<span class="keywordtype">int</span>)i, faces[i].elems[0].id_, faces[i].elems[1].id_, faces[i].elems[2].id_ );</div>
 <div class="line">    <span class="comment">// ...and can also be cast to an integer array</span></div>
 <div class="line">    <span class="keywordtype">int</span>* faceData = malloc( <span class="keyword">sizeof</span>( <span class="keywordtype">int</span> ) * 3 * facesNum );</div>
-<div class="line">    memcpy( faceData, faces, <span class="keyword">sizeof</span>( MR_std_array_MR_VertId_3 ) * facesNum );</div>
+<div class="line">    memcpy( faceData, faces, <span class="keyword">sizeof</span>( <a class="code hl_structRef" href="./C/structMR__std__array__MR__VertId__3.html">MR_std_array_MR_VertId_3</a> ) * facesNum );</div>
 <div class="line"> </div>
-<div class="line">    MR_Triangulation_Destroy( t );</div>
-<div class="line">    MR_Mesh_Destroy( mesh );</div>
+<div class="line">    <a class="code hl_functionRef" href="./C/MRVector_8h.html#a06c924beb0ba47c9c1935f25f75f1937">MR_Triangulation_Destroy</a>( t );</div>
+<div class="line">    <a class="code hl_functionRef" href="./C/MRMesh_8h.html#a0fdcb7b4857a7f6b0fa52a17112cace6">MR_Mesh_Destroy</a>( mesh );</div>
 <div class="line">    free( vertexData );</div>
 <div class="line">    free( faceData );</div>
 <div class="line">    <span class="keywordflow">return</span> EXIT_SUCCESS;</div>
 <div class="line">}</div>
+<div class="ttc" id="aMRCtm_8h_html_a31b172f68efca6438544d56eb86d6f40"><div class="ttname"><a href="./C/MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a></div><div class="ttdeci">struct MR_Mesh MR_Mesh</div></div>
+<div class="ttc" id="aMRCube_8h_html"><div class="ttname"><a href="./C/MRCube_8h.html">MRCube.h</a></div></div>
+<div class="ttc" id="aMRCube_8h_html_afa15c5fbdece3d94ef2fe26f2d5112af"><div class="ttname"><a href="./C/MRCube_8h.html#afa15c5fbdece3d94ef2fe26f2d5112af">MR_makeCube</a></div><div class="ttdeci">MRC_API MR_Mesh * MR_makeCube(const MR_Vector3f *size, const MR_Vector3f *base)</div></div>
+<div class="ttc" id="aMRIdentifyVertices_8h_html_a33f2cead15f3bf37534d3678feb4af22"><div class="ttname"><a href="./C/MRIdentifyVertices_8h.html#a33f2cead15f3bf37534d3678feb4af22">MR_Triangulation</a></div><div class="ttdeci">struct MR_Triangulation MR_Triangulation</div></div>
+<div class="ttc" id="aMRMeshTopology_8h_html"><div class="ttname"><a href="./C/MRMeshTopology_8h.html">MRMeshTopology.h</a></div></div>
+<div class="ttc" id="aMRMeshTopology_8h_html_a73d163898fff3a9677b56151e186df53"><div class="ttname"><a href="./C/MRMeshTopology_8h.html#a73d163898fff3a9677b56151e186df53">MR_MeshTopology_getTriangulation</a></div><div class="ttdeci">MRC_API MR_Triangulation * MR_MeshTopology_getTriangulation(const MR_MeshTopology *_this)</div></div>
+<div class="ttc" id="aMRMesh_8h_html"><div class="ttname"><a href="./C/MRMesh_8h.html">MRMesh.h</a></div></div>
+<div class="ttc" id="aMRMesh_8h_html_a0fdcb7b4857a7f6b0fa52a17112cace6"><div class="ttname"><a href="./C/MRMesh_8h.html#a0fdcb7b4857a7f6b0fa52a17112cace6">MR_Mesh_Destroy</a></div><div class="ttdeci">MRC_API void MR_Mesh_Destroy(const MR_Mesh *_this)</div></div>
+<div class="ttc" id="aMRMesh_8h_html_a761c97b0a5355c535d2a0d2284172cf7"><div class="ttname"><a href="./C/MRMesh_8h.html#a761c97b0a5355c535d2a0d2284172cf7">MR_Mesh_Get_points</a></div><div class="ttdeci">MRC_API const MR_VertCoords * MR_Mesh_Get_points(const MR_Mesh *_this)</div></div>
+<div class="ttc" id="aMRMesh_8h_html_a9b14debb3b7b0ebd19d7cbd8ba217aa7"><div class="ttname"><a href="./C/MRMesh_8h.html#a9b14debb3b7b0ebd19d7cbd8ba217aa7">MR_Mesh_Get_topology</a></div><div class="ttdeci">MRC_API const MR_MeshTopology * MR_Mesh_Get_topology(const MR_Mesh *_this)</div></div>
+<div class="ttc" id="aMRString_8h_html"><div class="ttname"><a href="./C/MRString_8h.html">MRString.h</a></div></div>
+<div class="ttc" id="aMRVector3_8h_html"><div class="ttname"><a href="./C/MRVector3_8h.html">MRVector3.h</a></div></div>
+<div class="ttc" id="aMRVector3_8h_html_aadd5d699d8a8ef0087a5e0e476e127fc"><div class="ttname"><a href="./C/MRVector3_8h.html#aadd5d699d8a8ef0087a5e0e476e127fc">MR_Vector3f_diagonal</a></div><div class="ttdeci">MRC_API MR_Vector3f MR_Vector3f_diagonal(float a)</div></div>
+<div class="ttc" id="aMRVector_8h_html"><div class="ttname"><a href="./C/MRVector_8h.html">MRVector.h</a></div></div>
+<div class="ttc" id="aMRVector_8h_html_a06c924beb0ba47c9c1935f25f75f1937"><div class="ttname"><a href="./C/MRVector_8h.html#a06c924beb0ba47c9c1935f25f75f1937">MR_Triangulation_Destroy</a></div><div class="ttdeci">MRC_API void MR_Triangulation_Destroy(const MR_Triangulation *_this)</div></div>
+<div class="ttc" id="aMRVector_8h_html_a14c1277722b38e9a1dcb5656b57b23fe"><div class="ttname"><a href="./C/MRVector_8h.html#a14c1277722b38e9a1dcb5656b57b23fe">MR_Triangulation_data_const</a></div><div class="ttdeci">MRC_API const MR_std_array_MR_VertId_3 * MR_Triangulation_data_const(const MR_Triangulation *_this)</div></div>
+<div class="ttc" id="aMRVector_8h_html_aa5c6fb42f3dc93b5daee662ef028a1e9"><div class="ttname"><a href="./C/MRVector_8h.html#aa5c6fb42f3dc93b5daee662ef028a1e9">MR_VertCoords_size</a></div><div class="ttdeci">MRC_API MR_uint64_t MR_VertCoords_size(const MR_VertCoords *_this)</div></div>
+<div class="ttc" id="aMRVector_8h_html_ab5faabe57a8f5618fcf291239ff01787"><div class="ttname"><a href="./C/MRVector_8h.html#ab5faabe57a8f5618fcf291239ff01787">MR_Triangulation_size</a></div><div class="ttdeci">MRC_API MR_uint64_t MR_Triangulation_size(const MR_Triangulation *_this)</div></div>
+<div class="ttc" id="aMRVector_8h_html_ac9e1111f7a4d68cfa09b73ea9b5384b5"><div class="ttname"><a href="./C/MRVector_8h.html#ac9e1111f7a4d68cfa09b73ea9b5384b5">MR_VertCoords_data_const</a></div><div class="ttdeci">MRC_API const MR_Vector3f * MR_VertCoords_data_const(const MR_VertCoords *_this)</div></div>
 <div class="ttc" id="agroup__VoxelGroup_html_ga1a728fc2d1e7dd47e0f137af620f6985"><div class="ttname"><a href="./Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a></div><div class="ttdeci">size_t size() const</div></div>
+<div class="ttc" id="astructMR__Vector3f_html"><div class="ttname"><a href="./C/structMR__Vector3f.html">MR_Vector3f</a></div></div>
+<div class="ttc" id="astructMR__std__array__MR__VertId__3_html"><div class="ttname"><a href="./C/structMR__std__array__MR__VertId__3.html">MR_std_array_MR_VertId_3</a></div></div>
 </div><!-- fragment --></li>
 <li><b class="tab-title">C#</b> <div class="fragment"><div class="line"><span class="keyword">using </span>static <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.DotNet;</div>
 <div class="line"> </div>
