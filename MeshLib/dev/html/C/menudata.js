@@ -82,50 +82,5 @@ var menudata={children:[
 {text:"API",url:"../APIPage.html",children:[
 {text:"C++",url:"../Cpp/APICppPage.html"},
 {text:"Python",url:"../Py/APIPyPage.html"},
-{text:"C",url:"APICPage.html",children:[
-{text:"Class List",url:"annotated.html",children:[
-{text:"Class List",url:"annotated.html"},
-{text:"Class Index",url:"classes.html"},
-{text:"Class Members",url:"functions.html",children:[
-{text:"All",url:"functions.html",children:[
-{text:"a",url:"functions.html#index_a"},
-{text:"b",url:"functions.html#index_b"},
-{text:"e",url:"functions.html#index_e"},
-{text:"g",url:"functions.html#index_g"},
-{text:"i",url:"functions.html#index_i"},
-{text:"m",url:"functions.html#index_m"},
-{text:"o",url:"functions.html#index_o"},
-{text:"r",url:"functions.html#index_r"},
-{text:"v",url:"functions.html#index_v"},
-{text:"w",url:"functions.html#index_w"},
-{text:"x",url:"functions.html#index_x"},
-{text:"y",url:"functions.html#index_y"},
-{text:"z",url:"functions.html#index_z"}]},
-{text:"Variables",url:"functions_vars.html",children:[
-{text:"a",url:"functions_vars.html#index_a"},
-{text:"b",url:"functions_vars.html#index_b"},
-{text:"e",url:"functions_vars.html#index_e"},
-{text:"g",url:"functions_vars.html#index_g"},
-{text:"i",url:"functions_vars.html#index_i"},
-{text:"m",url:"functions_vars.html#index_m"},
-{text:"o",url:"functions_vars.html#index_o"},
-{text:"r",url:"functions_vars.html#index_r"},
-{text:"v",url:"functions_vars.html#index_v"},
-{text:"w",url:"functions_vars.html#index_w"},
-{text:"x",url:"functions_vars.html#index_x"},
-{text:"y",url:"functions_vars.html#index_y"},
-{text:"z",url:"functions_vars.html#index_z"}]}]}]},
-{text:"File List",url:"files.html",children:[
-{text:"File List",url:"files.html"},
-{text:"File Members",url:"globals.html",children:[
-{text:"All",url:"globals.html",children:[
-{text:"m",url:"globals.html#index_m"}]},
-{text:"Functions",url:"globals_func.html",children:[
-{text:"m",url:"globals_func.html#index_m"}]},
-{text:"Typedefs",url:"globals_type.html",children:[
-{text:"m",url:"globals_type.html#index_m"}]},
-{text:"Enumerations",url:"globals_enum.html"},
-{text:"Enumerator",url:"globals_eval.html",children:[
-{text:"m",url:"globals_eval.html#index_m"}]},
-{text:"Macros",url:"globals_defs.html"}]}]}]}]},
+{text:"C",url:"APICPage.html"}]},
 {text:"Third-Party Dependencies",url:"../ThirdParty.html"}]}

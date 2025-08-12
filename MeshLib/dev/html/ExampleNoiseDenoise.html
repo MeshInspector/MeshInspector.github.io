@@ -229,14 +229,14 @@ $(function(){initNavTree('ExampleNoiseDenoise.html',''); initResizable(true); })
 <div class="line"><span class="comment"># Save denoised mesh</span></div>
 <div class="line">mm.saveMesh(mesh,<span class="stringliteral">&quot;denoised_mesh.stl&quot;</span>)</div>
 </div><!-- fragment --></li>
-<li><b class="tab-title">C</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/MRAddNoise_8h.html">MRCMesh/MRAddNoise.h</a>&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/MRMesh_8h.html">MRCMesh/MRMesh.h</a>&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/MRMeshLoad_8h.html">MRCMesh/MRMeshLoad.h</a>&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/MRMeshSave_8h.html">MRCMesh/MRMeshSave.h</a>&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/MRNormalDenoising_8h.html">MRCMesh/MRNormalDenoising.h</a>&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/expected__MR__Mesh__std__string_8h.html">MRCMisc/expected_MR_Mesh_std_string.h</a>&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/expected__void__std__string_8h.html">MRCMisc/expected_void_std_string.h</a>&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/std__string_8h.html">MRCMisc/std_string.h</a>&gt;</span></div>
+<li><b class="tab-title">C</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRAddNoise.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMesh.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMeshLoad.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMeshSave.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRNormalDenoising.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRCMisc/expected_MR_Mesh_std_string.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRCMisc/expected_void_std_string.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRCMisc/std_string.h&gt;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;stdlib.h&gt;</span></div>
@@ -246,90 +246,61 @@ $(function(){initNavTree('ExampleNoiseDenoise.html',''); initResizable(true); })
 <div class="line">    <span class="keywordtype">int</span> rc = EXIT_FAILURE;</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Load mesh</span></div>
-<div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a>* meshEx = <a class="code hl_functionRef" href="./C/MRMeshLoad_8h.html#aefab6e45c641a8da45d4d9b0b28217d3">MR_MeshLoad_fromAnySupportedFormat_2</a>( <span class="stringliteral">&quot;mesh.stl&quot;</span>, NULL, NULL );</div>
-<div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a>* mesh = <a class="code hl_functionRef" href="./C/expected__MR__Mesh__std__string_8h.html#a099fbb9e0fc70d161a966f38eff8fa03">MR_expected_MR_Mesh_std_string_GetMutableValue</a>( meshEx );</div>
+<div class="line">    MR_expected_MR_Mesh_std_string* meshEx = MR_MeshLoad_fromAnySupportedFormat_2( <span class="stringliteral">&quot;mesh.stl&quot;</span>, NULL, NULL );</div>
+<div class="line">    MR_Mesh* mesh = MR_expected_MR_Mesh_std_string_GetMutableValue( meshEx );</div>
 <div class="line">    <span class="keywordflow">if</span> ( !mesh )</div>
 <div class="line">    {</div>
-<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to load mesh: %s\n&quot;</span>, <a class="code hl_functionRef" href="./C/std__string_8h.html#ae6d1b10a4ee031ae30876d74a6894c67">MR_std_string_Data</a>( <a class="code hl_functionRef" href="./C/expected__MR__Mesh__std__string_8h.html#a8dc957718cb4d5be7e2557eed5b1dc1e">MR_expected_MR_Mesh_std_string_GetError</a>( meshEx ) ) );</div>
+<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to load mesh: %s\n&quot;</span>, MR_std_string_Data( MR_expected_MR_Mesh_std_string_GetError( meshEx ) ) );</div>
 <div class="line">        <span class="keywordflow">goto</span> fail_load;</div>
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Add noise to the mesh</span></div>
-<div class="line">    <a class="code hl_structRef" href="./C/structMR__Box3f.html">MR_Box3f</a> box = <a class="code hl_functionRef" href="./C/MRMesh_8h.html#a1f50aada1135245acc33337c846e3b12">MR_Mesh_computeBoundingBox_1</a>( mesh, NULL );</div>
-<div class="line">    <a class="code hl_typedefRef" href="./C/MRAddNoise_8h.html#a75aa4d81b0df957fad37c7a2096b92c7">MR_NoiseSettings</a>* noiseSettings = <a class="code hl_functionRef" href="./C/MRAddNoise_8h.html#a1b6df507815b5c251a34f0b3c5c57093">MR_NoiseSettings_DefaultConstruct</a>();</div>
-<div class="line">    <a class="code hl_functionRef" href="./C/MRAddNoise_8h.html#adfee086b104c93ac4ec15714cdc75589">MR_NoiseSettings_Set_sigma</a>( noiseSettings, <a class="code hl_functionRef" href="./C/MRBox_8h.html#a09b9e77072670aa42a43c6a581960600">MR_Box3f_diagonal</a>( &amp;box ) * 0.0001f );</div>
-<div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a>* noiseEx = <a class="code hl_functionRef" href="./C/MRAddNoise_8h.html#ae01649fe201c10e39954cef86fd68018">MR_addNoise_MR_Mesh</a>( mesh, NULL, noiseSettings );</div>
-<div class="line">    <a class="code hl_functionRef" href="./C/MRAddNoise_8h.html#a1e3ea801c9d94d6478247c6392e0cbd3">MR_NoiseSettings_Destroy</a>( noiseSettings );</div>
+<div class="line">    MR_Box3f box = MR_Mesh_computeBoundingBox_1( mesh, NULL );</div>
+<div class="line">    MR_NoiseSettings* noiseSettings = MR_NoiseSettings_DefaultConstruct();</div>
+<div class="line">    MR_NoiseSettings_Set_sigma( noiseSettings, MR_Box3f_diagonal( &amp;box ) * 0.0001f );</div>
+<div class="line">    MR_expected_void_std_string* noiseEx = MR_addNoise_MR_Mesh( mesh, NULL, noiseSettings );</div>
+<div class="line">    MR_NoiseSettings_Destroy( noiseSettings );</div>
 <div class="line"> </div>
 <div class="line">    <span class="keywordflow">if</span> ( !noiseEx )</div>
 <div class="line">    {</div>
-<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to add noise: %s\n&quot;</span>, <a class="code hl_functionRef" href="./C/std__string_8h.html#ae6d1b10a4ee031ae30876d74a6894c67">MR_std_string_Data</a>( <a class="code hl_functionRef" href="./C/expected__void__std__string_8h.html#a734251d65885afdad21d65eea75e2810">MR_expected_void_std_string_GetError</a>( noiseEx ) ) );</div>
+<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to add noise: %s\n&quot;</span>, MR_std_string_Data( MR_expected_void_std_string_GetError( noiseEx ) ) );</div>
 <div class="line">        <span class="keywordflow">goto</span> fail_noise;</div>
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Invalidate the mesh because of the external vertex changes</span></div>
-<div class="line">    <a class="code hl_functionRef" href="./C/MRMesh_8h.html#abbcff8f64e166a1e41cf870176a76330">MR_Mesh_invalidateCaches</a>( mesh, NULL );</div>
+<div class="line">    MR_Mesh_invalidateCaches( mesh, NULL );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Save the noised mesh</span></div>
-<div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a>* saveEx = <a class="code hl_functionRef" href="./C/MRMeshSave_8h.html#a82c411e8ebdadfc3cd47a800f2385591">MR_MeshSave_toAnySupportedFormat_3</a>( mesh, <span class="stringliteral">&quot;mesh_noised.stl&quot;</span>, NULL, NULL);</div>
-<div class="line">    <span class="keywordflow">if</span> ( <a class="code hl_functionRef" href="./C/expected__void__std__string_8h.html#a734251d65885afdad21d65eea75e2810">MR_expected_void_std_string_GetError</a>( saveEx ) )</div>
+<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat_3( mesh, <span class="stringliteral">&quot;mesh_noised.stl&quot;</span>, NULL, NULL);</div>
+<div class="line">    <span class="keywordflow">if</span> ( MR_expected_void_std_string_GetError( saveEx ) )</div>
 <div class="line">    {</div>
-<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to save mesh: %s\n&quot;</span>, <a class="code hl_functionRef" href="./C/std__string_8h.html#ae6d1b10a4ee031ae30876d74a6894c67">MR_std_string_Data</a>( <a class="code hl_functionRef" href="./C/expected__void__std__string_8h.html#a734251d65885afdad21d65eea75e2810">MR_expected_void_std_string_GetError</a>( saveEx ) ) );</div>
+<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to save mesh: %s\n&quot;</span>, MR_std_string_Data( MR_expected_void_std_string_GetError( saveEx ) ) );</div>
 <div class="line">        <span class="keywordflow">goto</span> fail_save;</div>
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Denoise the mesh with sharpening for sharp edges</span></div>
 <div class="line">    <span class="comment">// see the article &quot;Mesh Denoising via a Novel Mumford-Shah Framework&quot;</span></div>
-<div class="line">    <a class="code hl_functionRef" href="./C/MRNormalDenoising_8h.html#a80f30fcf6fad5ba51f05dccdd1c56d0a">MR_meshDenoiseViaNormals</a>( mesh, NULL );</div>
+<div class="line">    MR_meshDenoiseViaNormals( mesh, NULL );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Save the denoised mesh</span></div>
-<div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a>* saveEx2 = <a class="code hl_functionRef" href="./C/MRMeshSave_8h.html#a82c411e8ebdadfc3cd47a800f2385591">MR_MeshSave_toAnySupportedFormat_3</a>( mesh, <span class="stringliteral">&quot;mesh_denoised.stl&quot;</span>, NULL, NULL);</div>
-<div class="line">    <span class="keywordflow">if</span> ( <a class="code hl_functionRef" href="./C/expected__void__std__string_8h.html#a734251d65885afdad21d65eea75e2810">MR_expected_void_std_string_GetError</a>( saveEx2 ) )</div>
+<div class="line">    MR_expected_void_std_string* saveEx2 = MR_MeshSave_toAnySupportedFormat_3( mesh, <span class="stringliteral">&quot;mesh_denoised.stl&quot;</span>, NULL, NULL);</div>
+<div class="line">    <span class="keywordflow">if</span> ( MR_expected_void_std_string_GetError( saveEx2 ) )</div>
 <div class="line">    {</div>
-<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to save mesh: %s\n&quot;</span>, <a class="code hl_functionRef" href="./C/std__string_8h.html#ae6d1b10a4ee031ae30876d74a6894c67">MR_std_string_Data</a>( <a class="code hl_functionRef" href="./C/expected__void__std__string_8h.html#a734251d65885afdad21d65eea75e2810">MR_expected_void_std_string_GetError</a>( saveEx2 ) ) );</div>
+<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to save mesh: %s\n&quot;</span>, MR_std_string_Data( MR_expected_void_std_string_GetError( saveEx2 ) ) );</div>
 <div class="line">        <span class="keywordflow">goto</span> fail_save2;</div>
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    rc = EXIT_SUCCESS;</div>
 <div class="line">fail_save2:</div>
-<div class="line">    <a class="code hl_functionRef" href="./C/expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9">MR_expected_void_std_string_Destroy</a>( saveEx2 );</div>
+<div class="line">    MR_expected_void_std_string_Destroy( saveEx2 );</div>
 <div class="line">fail_save:</div>
-<div class="line">    <a class="code hl_functionRef" href="./C/expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9">MR_expected_void_std_string_Destroy</a>( saveEx );</div>
+<div class="line">    MR_expected_void_std_string_Destroy( saveEx );</div>
 <div class="line">fail_noise:</div>
-<div class="line">    <a class="code hl_functionRef" href="./C/expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9">MR_expected_void_std_string_Destroy</a>( noiseEx );</div>
+<div class="line">    MR_expected_void_std_string_Destroy( noiseEx );</div>
 <div class="line">fail_load:</div>
-<div class="line">    <a class="code hl_functionRef" href="./C/expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1">MR_expected_MR_Mesh_std_string_Destroy</a>( meshEx );</div>
+<div class="line">    MR_expected_MR_Mesh_std_string_Destroy( meshEx );</div>
 <div class="line">    <span class="keywordflow">return</span> rc;</div>
 <div class="line">}</div>
-<div class="ttc" id="aMRAddNoise_8h_html"><div class="ttname"><a href="./C/MRAddNoise_8h.html">MRAddNoise.h</a></div></div>
-<div class="ttc" id="aMRAddNoise_8h_html_a1b6df507815b5c251a34f0b3c5c57093"><div class="ttname"><a href="./C/MRAddNoise_8h.html#a1b6df507815b5c251a34f0b3c5c57093">MR_NoiseSettings_DefaultConstruct</a></div><div class="ttdeci">MRC_API MR_NoiseSettings * MR_NoiseSettings_DefaultConstruct(void)</div></div>
-<div class="ttc" id="aMRAddNoise_8h_html_a1e3ea801c9d94d6478247c6392e0cbd3"><div class="ttname"><a href="./C/MRAddNoise_8h.html#a1e3ea801c9d94d6478247c6392e0cbd3">MR_NoiseSettings_Destroy</a></div><div class="ttdeci">MRC_API void MR_NoiseSettings_Destroy(const MR_NoiseSettings *_this)</div></div>
-<div class="ttc" id="aMRAddNoise_8h_html_a75aa4d81b0df957fad37c7a2096b92c7"><div class="ttname"><a href="./C/MRAddNoise_8h.html#a75aa4d81b0df957fad37c7a2096b92c7">MR_NoiseSettings</a></div><div class="ttdeci">struct MR_NoiseSettings MR_NoiseSettings</div></div>
-<div class="ttc" id="aMRAddNoise_8h_html_adfee086b104c93ac4ec15714cdc75589"><div class="ttname"><a href="./C/MRAddNoise_8h.html#adfee086b104c93ac4ec15714cdc75589">MR_NoiseSettings_Set_sigma</a></div><div class="ttdeci">MRC_API void MR_NoiseSettings_Set_sigma(MR_NoiseSettings *_this, float value)</div></div>
-<div class="ttc" id="aMRAddNoise_8h_html_ae01649fe201c10e39954cef86fd68018"><div class="ttname"><a href="./C/MRAddNoise_8h.html#ae01649fe201c10e39954cef86fd68018">MR_addNoise_MR_Mesh</a></div><div class="ttdeci">MRC_API MR_expected_void_std_string * MR_addNoise_MR_Mesh(MR_Mesh *mesh, const MR_VertBitSet *region, const MR_NoiseSettings *settings)</div></div>
-<div class="ttc" id="aMRBox_8h_html_a09b9e77072670aa42a43c6a581960600"><div class="ttname"><a href="./C/MRBox_8h.html#a09b9e77072670aa42a43c6a581960600">MR_Box3f_diagonal</a></div><div class="ttdeci">MRC_API float MR_Box3f_diagonal(const MR_Box3f *_this)</div></div>
-<div class="ttc" id="aMRCtm_8h_html_a077b8debfae88f9cf2267ad2db95c006"><div class="ttname"><a href="./C/MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a></div><div class="ttdeci">struct MR_expected_void_std_string MR_expected_void_std_string</div></div>
-<div class="ttc" id="aMRCtm_8h_html_a0d97154d4aed695055160a4688c04a3d"><div class="ttname"><a href="./C/MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a></div><div class="ttdeci">struct MR_expected_MR_Mesh_std_string MR_expected_MR_Mesh_std_string</div></div>
-<div class="ttc" id="aMRCtm_8h_html_a31b172f68efca6438544d56eb86d6f40"><div class="ttname"><a href="./C/MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a></div><div class="ttdeci">struct MR_Mesh MR_Mesh</div></div>
-<div class="ttc" id="aMRMeshLoad_8h_html"><div class="ttname"><a href="./C/MRMeshLoad_8h.html">MRMeshLoad.h</a></div></div>
-<div class="ttc" id="aMRMeshLoad_8h_html_aefab6e45c641a8da45d4d9b0b28217d3"><div class="ttname"><a href="./C/MRMeshLoad_8h.html#aefab6e45c641a8da45d4d9b0b28217d3">MR_MeshLoad_fromAnySupportedFormat_2</a></div><div class="ttdeci">MRC_API MR_expected_MR_Mesh_std_string * MR_MeshLoad_fromAnySupportedFormat_2(const char *file, const char *file_end, const MR_MeshLoadSettings *settings)</div></div>
-<div class="ttc" id="aMRMeshSave_8h_html"><div class="ttname"><a href="./C/MRMeshSave_8h.html">MRMeshSave.h</a></div></div>
-<div class="ttc" id="aMRMeshSave_8h_html_a82c411e8ebdadfc3cd47a800f2385591"><div class="ttname"><a href="./C/MRMeshSave_8h.html#a82c411e8ebdadfc3cd47a800f2385591">MR_MeshSave_toAnySupportedFormat_3</a></div><div class="ttdeci">MRC_API MR_expected_void_std_string * MR_MeshSave_toAnySupportedFormat_3(const MR_Mesh *mesh, const char *file, const char *file_end, const MR_SaveSettings *settings)</div></div>
-<div class="ttc" id="aMRMesh_8h_html"><div class="ttname"><a href="./C/MRMesh_8h.html">MRMesh.h</a></div></div>
-<div class="ttc" id="aMRMesh_8h_html_a1f50aada1135245acc33337c846e3b12"><div class="ttname"><a href="./C/MRMesh_8h.html#a1f50aada1135245acc33337c846e3b12">MR_Mesh_computeBoundingBox_1</a></div><div class="ttdeci">MRC_API MR_Box3f MR_Mesh_computeBoundingBox_1(const MR_Mesh *_this, const MR_AffineXf3f *toWorld)</div></div>
-<div class="ttc" id="aMRMesh_8h_html_abbcff8f64e166a1e41cf870176a76330"><div class="ttname"><a href="./C/MRMesh_8h.html#abbcff8f64e166a1e41cf870176a76330">MR_Mesh_invalidateCaches</a></div><div class="ttdeci">MRC_API void MR_Mesh_invalidateCaches(MR_Mesh *_this, const bool *pointsChanged)</div></div>
-<div class="ttc" id="aMRNormalDenoising_8h_html"><div class="ttname"><a href="./C/MRNormalDenoising_8h.html">MRNormalDenoising.h</a></div></div>
-<div class="ttc" id="aMRNormalDenoising_8h_html_a80f30fcf6fad5ba51f05dccdd1c56d0a"><div class="ttname"><a href="./C/MRNormalDenoising_8h.html#a80f30fcf6fad5ba51f05dccdd1c56d0a">MR_meshDenoiseViaNormals</a></div><div class="ttdeci">MRC_API MR_expected_void_std_string * MR_meshDenoiseViaNormals(MR_Mesh *mesh, const MR_DenoiseViaNormalsSettings *settings)</div></div>
-<div class="ttc" id="aexpected__MR__Mesh__std__string_8h_html"><div class="ttname"><a href="./C/expected__MR__Mesh__std__string_8h.html">expected_MR_Mesh_std_string.h</a></div></div>
-<div class="ttc" id="aexpected__MR__Mesh__std__string_8h_html_a099fbb9e0fc70d161a966f38eff8fa03"><div class="ttname"><a href="./C/expected__MR__Mesh__std__string_8h.html#a099fbb9e0fc70d161a966f38eff8fa03">MR_expected_MR_Mesh_std_string_GetMutableValue</a></div><div class="ttdeci">MRC_API MR_Mesh * MR_expected_MR_Mesh_std_string_GetMutableValue(MR_expected_MR_Mesh_std_string *_this)</div></div>
-<div class="ttc" id="aexpected__MR__Mesh__std__string_8h_html_a8dc957718cb4d5be7e2557eed5b1dc1e"><div class="ttname"><a href="./C/expected__MR__Mesh__std__string_8h.html#a8dc957718cb4d5be7e2557eed5b1dc1e">MR_expected_MR_Mesh_std_string_GetError</a></div><div class="ttdeci">MRC_API const MR_std_string * MR_expected_MR_Mesh_std_string_GetError(const MR_expected_MR_Mesh_std_string *_this)</div></div>
-<div class="ttc" id="aexpected__MR__Mesh__std__string_8h_html_adf45ed943c3005d85a9baaa15feb26f1"><div class="ttname"><a href="./C/expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1">MR_expected_MR_Mesh_std_string_Destroy</a></div><div class="ttdeci">MRC_API void MR_expected_MR_Mesh_std_string_Destroy(const MR_expected_MR_Mesh_std_string *_this)</div></div>
-<div class="ttc" id="aexpected__void__std__string_8h_html"><div class="ttname"><a href="./C/expected__void__std__string_8h.html">expected_void_std_string.h</a></div></div>
-<div class="ttc" id="aexpected__void__std__string_8h_html_a734251d65885afdad21d65eea75e2810"><div class="ttname"><a href="./C/expected__void__std__string_8h.html#a734251d65885afdad21d65eea75e2810">MR_expected_void_std_string_GetError</a></div><div class="ttdeci">MRC_API const MR_std_string * MR_expected_void_std_string_GetError(const MR_expected_void_std_string *_this)</div></div>
-<div class="ttc" id="aexpected__void__std__string_8h_html_a9638e07d2c5281b4bf574c618ab6f2e9"><div class="ttname"><a href="./C/expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9">MR_expected_void_std_string_Destroy</a></div><div class="ttdeci">MRC_API void MR_expected_void_std_string_Destroy(const MR_expected_void_std_string *_this)</div></div>
-<div class="ttc" id="astd__string_8h_html"><div class="ttname"><a href="./C/std__string_8h.html">std_string.h</a></div></div>
-<div class="ttc" id="astd__string_8h_html_ae6d1b10a4ee031ae30876d74a6894c67"><div class="ttname"><a href="./C/std__string_8h.html#ae6d1b10a4ee031ae30876d74a6894c67">MR_std_string_Data</a></div><div class="ttdeci">MRC_API const char * MR_std_string_Data(const MR_std_string *_this)</div></div>
-<div class="ttc" id="astructMR__Box3f_html"><div class="ttname"><a href="./C/structMR__Box3f.html">MR_Box3f</a></div></div>
 </div><!-- fragment --></li>
 </ul>
 </div><div class="tabbed"></div> </div></div><!-- contents -->

@@ -279,6 +279,9 @@ function SearchBox(name, resultsPath, extension) {
         createResults(searchValue, resultsPath);
         document.getElementById("NoMatches").style.display="none";
       }
+      document.getElementById("Searching").style.display="none";
+      if ( document.getElementById("SRResults").childNodes.length == 0 )
+        document.getElementById("NoMatches").style.display="block";
 
       if (domPopupSearchResultsWindow.style.display!='block') {
         domSearchClose.style.display = 'inline-block';

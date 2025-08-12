@@ -1,6 +1,6 @@
 var MRPolylineDecimate_8h =
 [
-    [ "MR::DecimatePolylineResult", "../C/structMR_1_1DecimatePolylineResult.html", null ],
+    [ "MR::DecimatePolylineResult", "structMR_1_1DecimatePolylineResult.html", "structMR_1_1DecimatePolylineResult" ],
     [ "DecimatePolylineSettings2", "MRPolylineDecimate_8h.html#a6e7bbd2938192cd9a3d3616faa293ed9", null ],
     [ "DecimatePolylineSettings3", "MRPolylineDecimate_8h.html#a123fe754e35b341ca5ffe226b5eecc9a", null ],
     [ "decimateContour", "MRPolylineDecimate_8h.html#gac12c761d9044619a794badf63900a599", null ],

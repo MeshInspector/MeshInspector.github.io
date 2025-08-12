@@ -234,12 +234,12 @@ $(function(){initNavTree('ExampleFreeForm.html',''); initResizable(true); });
 <div class="line"><span class="comment"># Save deformed mesh</span></div>
 <div class="line">mm.saveMesh(mesh,<span class="stringliteral">&quot;deformed_mesh.stl&quot;</span>)</div>
 </div><!-- fragment --></li>
-<li><b class="tab-title">C</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/MRFreeFormDeformer_8h.html">MRCMesh/MRFreeFormDeformer.h</a>&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/MRMesh_8h.html">MRCMesh/MRMesh.h</a>&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/MRMeshLoad_8h.html">MRCMesh/MRMeshLoad.h</a>&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/MRMeshSave_8h.html">MRCMesh/MRMeshSave.h</a>&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/expected__MR__Mesh__std__string_8h.html">MRCMisc/expected_MR_Mesh_std_string.h</a>&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/std__string_8h.html">MRCMisc/std_string.h</a>&gt;</span></div>
+<li><b class="tab-title">C</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRFreeFormDeformer.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMesh.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMeshLoad.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMeshSave.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRCMisc/expected_MR_Mesh_std_string.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRCMisc/std_string.h&gt;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;stdlib.h&gt;</span></div>
@@ -247,29 +247,29 @@ $(function(){initNavTree('ExampleFreeForm.html',''); initResizable(true); });
 <div class="line"><span class="keywordtype">int</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>( <span class="keywordtype">void</span> )</div>
 <div class="line">{</div>
 <div class="line">    <span class="comment">// Load mesh</span></div>
-<div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a>* meshEx = <a class="code hl_functionRef" href="./C/MRMeshLoad_8h.html#aefab6e45c641a8da45d4d9b0b28217d3">MR_MeshLoad_fromAnySupportedFormat_2</a>( <span class="stringliteral">&quot;mesh.stl&quot;</span>, NULL, NULL );</div>
-<div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a>* mesh = <a class="code hl_functionRef" href="./C/expected__MR__Mesh__std__string_8h.html#a099fbb9e0fc70d161a966f38eff8fa03">MR_expected_MR_Mesh_std_string_GetMutableValue</a>( meshEx );</div>
+<div class="line">    MR_expected_MR_Mesh_std_string* meshEx = MR_MeshLoad_fromAnySupportedFormat_2( <span class="stringliteral">&quot;mesh.stl&quot;</span>, NULL, NULL );</div>
+<div class="line">    MR_Mesh* mesh = MR_expected_MR_Mesh_std_string_GetMutableValue( meshEx );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Handle failure to load mesh</span></div>
 <div class="line">    <span class="keywordflow">if</span> ( !mesh )</div>
 <div class="line">    {</div>
-<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to load mesh: %s\n&quot;</span>, <a class="code hl_functionRef" href="./C/std__string_8h.html#ae6d1b10a4ee031ae30876d74a6894c67">MR_std_string_Data</a>( <a class="code hl_functionRef" href="./C/expected__MR__Mesh__std__string_8h.html#a8dc957718cb4d5be7e2557eed5b1dc1e">MR_expected_MR_Mesh_std_string_GetError</a>( meshEx ) ) );</div>
-<div class="line">        <a class="code hl_functionRef" href="./C/expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1">MR_expected_MR_Mesh_std_string_Destroy</a>( meshEx );</div>
+<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to load mesh: %s\n&quot;</span>, MR_std_string_Data( MR_expected_MR_Mesh_std_string_GetError( meshEx ) ) );</div>
+<div class="line">        MR_expected_MR_Mesh_std_string_Destroy( meshEx );</div>
 <div class="line">        <span class="keywordflow">return</span> 1;</div>
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Compute mesh bounding box</span></div>
-<div class="line">    <a class="code hl_structRef" href="./C/structMR__Box3f.html">MR_Box3f</a> box = <a class="code hl_functionRef" href="./C/MRMesh_8h.html#a1f50aada1135245acc33337c846e3b12">MR_Mesh_computeBoundingBox_1</a>( mesh, NULL );</div>
+<div class="line">    MR_Box3f box = MR_Mesh_computeBoundingBox_1( mesh, NULL );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Construct deformer on mesh vertices</span></div>
-<div class="line">    <a class="code hl_typedefRef" href="./C/MRFreeFormDeformer_8h.html#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a>* ffDeformer = <a class="code hl_functionRef" href="./C/MRFreeFormDeformer_8h.html#aedfbefb4e5950d753a636a728c4149ab">MR_FreeFormDeformer_Construct_MR_Mesh</a>( mesh, NULL );</div>
+<div class="line">    MR_FreeFormDeformer* ffDeformer = MR_FreeFormDeformer_Construct_MR_Mesh( mesh, NULL );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Init deformer with 3x3 grid on mesh box</span></div>
-<div class="line">    <a class="code hl_structRef" href="./C/structMR__Vector3i.html">MR_Vector3i</a> resolution = <a class="code hl_functionRef" href="./C/MRVector3_8h.html#a75f0a71f203e49bd4d0e1dfc0576d0bb">MR_Vector3i_diagonal</a>( 3 );</div>
-<div class="line">    <a class="code hl_functionRef" href="./C/MRFreeFormDeformer_8h.html#a2a20dce6e022b0dcc92b4dafa3c9f64a">MR_FreeFormDeformer_init</a>( ffDeformer, &amp;resolution, &amp;box );</div>
+<div class="line">    MR_Vector3i resolution = MR_Vector3i_diagonal( 3 );</div>
+<div class="line">    MR_FreeFormDeformer_init( ffDeformer, &amp;resolution, &amp;box );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Move some control points of the grid to the center</span></div>
-<div class="line">    <a class="code hl_structRef" href="./C/structMR__Vector3i.html">MR_Vector3i</a> controlPoints[] = {</div>
+<div class="line">    MR_Vector3i controlPoints[] = {</div>
 <div class="line">        { 1, 1, 0 },</div>
 <div class="line">        { 1, 1, 2 },</div>
 <div class="line">        { 0, 1, 1 },</div>
@@ -277,50 +277,23 @@ $(function(){initNavTree('ExampleFreeForm.html',''); initResizable(true); });
 <div class="line">        { 1, 0, 1 },</div>
 <div class="line">        { 1, 2, 1 },</div>
 <div class="line">    };</div>
-<div class="line">    <a class="code hl_structRef" href="./C/structMR__Vector3f.html">MR_Vector3f</a> center = <a class="code hl_functionRef" href="./C/MRBox_8h.html#a6be85af9b72ade6b1db4c71b8a4575ed">MR_Box3f_center</a>( &amp;box );</div>
+<div class="line">    MR_Vector3f center = MR_Box3f_center( &amp;box );</div>
 <div class="line">    <span class="keywordflow">for</span> ( <span class="keywordtype">int</span> i = 0; i &lt; 6; ++i )</div>
-<div class="line">        <a class="code hl_functionRef" href="./C/MRFreeFormDeformer_8h.html#a386588c351fc75656e7bd387a9071239">MR_FreeFormDeformer_setRefGridPointPosition</a>( ffDeformer, &amp;controlPoints[i], &amp;center );</div>
+<div class="line">        MR_FreeFormDeformer_setRefGridPointPosition( ffDeformer, &amp;controlPoints[i], &amp;center );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Apply the deformation to the mesh vertices</span></div>
-<div class="line">    <a class="code hl_functionRef" href="./C/MRFreeFormDeformer_8h.html#a4a1fc3d64255a69db4474c9a6e50db30">MR_FreeFormDeformer_apply</a>( ffDeformer );</div>
+<div class="line">    MR_FreeFormDeformer_apply( ffDeformer );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Invalidate the mesh because of external vertex changes</span></div>
-<div class="line">    <a class="code hl_functionRef" href="./C/MRMesh_8h.html#abbcff8f64e166a1e41cf870176a76330">MR_Mesh_invalidateCaches</a>( mesh, NULL );</div>
+<div class="line">    MR_Mesh_invalidateCaches( mesh, NULL );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Save deformed mesh</span></div>
-<div class="line">    <a class="code hl_functionRef" href="./C/MRMeshSave_8h.html#a82c411e8ebdadfc3cd47a800f2385591">MR_MeshSave_toAnySupportedFormat_3</a>( mesh, <span class="stringliteral">&quot;deformed_mesh.stl&quot;</span>, NULL, NULL );</div>
+<div class="line">    MR_MeshSave_toAnySupportedFormat_3( mesh, <span class="stringliteral">&quot;deformed_mesh.stl&quot;</span>, NULL, NULL );</div>
 <div class="line"> </div>
-<div class="line">    <a class="code hl_functionRef" href="./C/MRFreeFormDeformer_8h.html#a96b615d161c3cf4c9b107da5e8db679e">MR_FreeFormDeformer_Destroy</a>( ffDeformer );</div>
-<div class="line">    <a class="code hl_functionRef" href="./C/expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1">MR_expected_MR_Mesh_std_string_Destroy</a>( meshEx );</div>
+<div class="line">    MR_FreeFormDeformer_Destroy( ffDeformer );</div>
+<div class="line">    MR_expected_MR_Mesh_std_string_Destroy( meshEx );</div>
 <div class="line">    <span class="keywordflow">return</span> EXIT_SUCCESS;</div>
 <div class="line">}</div>
-<div class="ttc" id="aMRBox_8h_html_a6be85af9b72ade6b1db4c71b8a4575ed"><div class="ttname"><a href="./C/MRBox_8h.html#a6be85af9b72ade6b1db4c71b8a4575ed">MR_Box3f_center</a></div><div class="ttdeci">MRC_API MR_Vector3f MR_Box3f_center(const MR_Box3f *_this)</div></div>
-<div class="ttc" id="aMRCtm_8h_html_a0d97154d4aed695055160a4688c04a3d"><div class="ttname"><a href="./C/MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a></div><div class="ttdeci">struct MR_expected_MR_Mesh_std_string MR_expected_MR_Mesh_std_string</div></div>
-<div class="ttc" id="aMRCtm_8h_html_a31b172f68efca6438544d56eb86d6f40"><div class="ttname"><a href="./C/MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a></div><div class="ttdeci">struct MR_Mesh MR_Mesh</div></div>
-<div class="ttc" id="aMRFreeFormDeformer_8h_html"><div class="ttname"><a href="./C/MRFreeFormDeformer_8h.html">MRFreeFormDeformer.h</a></div></div>
-<div class="ttc" id="aMRFreeFormDeformer_8h_html_a1273be31bdf185e5805957f56e83c49c"><div class="ttname"><a href="./C/MRFreeFormDeformer_8h.html#a1273be31bdf185e5805957f56e83c49c">MR_FreeFormDeformer</a></div><div class="ttdeci">struct MR_FreeFormDeformer MR_FreeFormDeformer</div></div>
-<div class="ttc" id="aMRFreeFormDeformer_8h_html_a2a20dce6e022b0dcc92b4dafa3c9f64a"><div class="ttname"><a href="./C/MRFreeFormDeformer_8h.html#a2a20dce6e022b0dcc92b4dafa3c9f64a">MR_FreeFormDeformer_init</a></div><div class="ttdeci">MRC_API void MR_FreeFormDeformer_init(MR_FreeFormDeformer *_this, const MR_Vector3i *resolution, const MR_Box3f *initialBox)</div></div>
-<div class="ttc" id="aMRFreeFormDeformer_8h_html_a386588c351fc75656e7bd387a9071239"><div class="ttname"><a href="./C/MRFreeFormDeformer_8h.html#a386588c351fc75656e7bd387a9071239">MR_FreeFormDeformer_setRefGridPointPosition</a></div><div class="ttdeci">MRC_API void MR_FreeFormDeformer_setRefGridPointPosition(MR_FreeFormDeformer *_this, const MR_Vector3i *coordOfPointInGrid, const MR_Vector3f *newPos)</div></div>
-<div class="ttc" id="aMRFreeFormDeformer_8h_html_a4a1fc3d64255a69db4474c9a6e50db30"><div class="ttname"><a href="./C/MRFreeFormDeformer_8h.html#a4a1fc3d64255a69db4474c9a6e50db30">MR_FreeFormDeformer_apply</a></div><div class="ttdeci">MRC_API void MR_FreeFormDeformer_apply(const MR_FreeFormDeformer *_this)</div></div>
-<div class="ttc" id="aMRFreeFormDeformer_8h_html_a96b615d161c3cf4c9b107da5e8db679e"><div class="ttname"><a href="./C/MRFreeFormDeformer_8h.html#a96b615d161c3cf4c9b107da5e8db679e">MR_FreeFormDeformer_Destroy</a></div><div class="ttdeci">MRC_API void MR_FreeFormDeformer_Destroy(const MR_FreeFormDeformer *_this)</div></div>
-<div class="ttc" id="aMRFreeFormDeformer_8h_html_aedfbefb4e5950d753a636a728c4149ab"><div class="ttname"><a href="./C/MRFreeFormDeformer_8h.html#aedfbefb4e5950d753a636a728c4149ab">MR_FreeFormDeformer_Construct_MR_Mesh</a></div><div class="ttdeci">MRC_API MR_FreeFormDeformer * MR_FreeFormDeformer_Construct_MR_Mesh(MR_Mesh *mesh, const MR_VertBitSet *region)</div></div>
-<div class="ttc" id="aMRMeshLoad_8h_html"><div class="ttname"><a href="./C/MRMeshLoad_8h.html">MRMeshLoad.h</a></div></div>
-<div class="ttc" id="aMRMeshLoad_8h_html_aefab6e45c641a8da45d4d9b0b28217d3"><div class="ttname"><a href="./C/MRMeshLoad_8h.html#aefab6e45c641a8da45d4d9b0b28217d3">MR_MeshLoad_fromAnySupportedFormat_2</a></div><div class="ttdeci">MRC_API MR_expected_MR_Mesh_std_string * MR_MeshLoad_fromAnySupportedFormat_2(const char *file, const char *file_end, const MR_MeshLoadSettings *settings)</div></div>
-<div class="ttc" id="aMRMeshSave_8h_html"><div class="ttname"><a href="./C/MRMeshSave_8h.html">MRMeshSave.h</a></div></div>
-<div class="ttc" id="aMRMeshSave_8h_html_a82c411e8ebdadfc3cd47a800f2385591"><div class="ttname"><a href="./C/MRMeshSave_8h.html#a82c411e8ebdadfc3cd47a800f2385591">MR_MeshSave_toAnySupportedFormat_3</a></div><div class="ttdeci">MRC_API MR_expected_void_std_string * MR_MeshSave_toAnySupportedFormat_3(const MR_Mesh *mesh, const char *file, const char *file_end, const MR_SaveSettings *settings)</div></div>
-<div class="ttc" id="aMRMesh_8h_html"><div class="ttname"><a href="./C/MRMesh_8h.html">MRMesh.h</a></div></div>
-<div class="ttc" id="aMRMesh_8h_html_a1f50aada1135245acc33337c846e3b12"><div class="ttname"><a href="./C/MRMesh_8h.html#a1f50aada1135245acc33337c846e3b12">MR_Mesh_computeBoundingBox_1</a></div><div class="ttdeci">MRC_API MR_Box3f MR_Mesh_computeBoundingBox_1(const MR_Mesh *_this, const MR_AffineXf3f *toWorld)</div></div>
-<div class="ttc" id="aMRMesh_8h_html_abbcff8f64e166a1e41cf870176a76330"><div class="ttname"><a href="./C/MRMesh_8h.html#abbcff8f64e166a1e41cf870176a76330">MR_Mesh_invalidateCaches</a></div><div class="ttdeci">MRC_API void MR_Mesh_invalidateCaches(MR_Mesh *_this, const bool *pointsChanged)</div></div>
-<div class="ttc" id="aMRVector3_8h_html_a75f0a71f203e49bd4d0e1dfc0576d0bb"><div class="ttname"><a href="./C/MRVector3_8h.html#a75f0a71f203e49bd4d0e1dfc0576d0bb">MR_Vector3i_diagonal</a></div><div class="ttdeci">MRC_API MR_Vector3i MR_Vector3i_diagonal(int32_t a)</div></div>
-<div class="ttc" id="aexpected__MR__Mesh__std__string_8h_html"><div class="ttname"><a href="./C/expected__MR__Mesh__std__string_8h.html">expected_MR_Mesh_std_string.h</a></div></div>
-<div class="ttc" id="aexpected__MR__Mesh__std__string_8h_html_a099fbb9e0fc70d161a966f38eff8fa03"><div class="ttname"><a href="./C/expected__MR__Mesh__std__string_8h.html#a099fbb9e0fc70d161a966f38eff8fa03">MR_expected_MR_Mesh_std_string_GetMutableValue</a></div><div class="ttdeci">MRC_API MR_Mesh * MR_expected_MR_Mesh_std_string_GetMutableValue(MR_expected_MR_Mesh_std_string *_this)</div></div>
-<div class="ttc" id="aexpected__MR__Mesh__std__string_8h_html_a8dc957718cb4d5be7e2557eed5b1dc1e"><div class="ttname"><a href="./C/expected__MR__Mesh__std__string_8h.html#a8dc957718cb4d5be7e2557eed5b1dc1e">MR_expected_MR_Mesh_std_string_GetError</a></div><div class="ttdeci">MRC_API const MR_std_string * MR_expected_MR_Mesh_std_string_GetError(const MR_expected_MR_Mesh_std_string *_this)</div></div>
-<div class="ttc" id="aexpected__MR__Mesh__std__string_8h_html_adf45ed943c3005d85a9baaa15feb26f1"><div class="ttname"><a href="./C/expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1">MR_expected_MR_Mesh_std_string_Destroy</a></div><div class="ttdeci">MRC_API void MR_expected_MR_Mesh_std_string_Destroy(const MR_expected_MR_Mesh_std_string *_this)</div></div>
-<div class="ttc" id="astd__string_8h_html"><div class="ttname"><a href="./C/std__string_8h.html">std_string.h</a></div></div>
-<div class="ttc" id="astd__string_8h_html_ae6d1b10a4ee031ae30876d74a6894c67"><div class="ttname"><a href="./C/std__string_8h.html#ae6d1b10a4ee031ae30876d74a6894c67">MR_std_string_Data</a></div><div class="ttdeci">MRC_API const char * MR_std_string_Data(const MR_std_string *_this)</div></div>
-<div class="ttc" id="astructMR__Box3f_html"><div class="ttname"><a href="./C/structMR__Box3f.html">MR_Box3f</a></div></div>
-<div class="ttc" id="astructMR__Vector3f_html"><div class="ttname"><a href="./C/structMR__Vector3f.html">MR_Vector3f</a></div></div>
-<div class="ttc" id="astructMR__Vector3i_html"><div class="ttname"><a href="./C/structMR__Vector3i.html">MR_Vector3i</a></div></div>
 </div><!-- fragment --></li>
 <li><b class="tab-title">C#</b> <div class="fragment"><div class="line"><span class="keyword">using </span>static <a class="code hl_namespaceRef" href="./Cpp/namespaceMR.html">MR</a>.DotNet;</div>
 <div class="line"> </div>
