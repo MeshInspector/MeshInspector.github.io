@@ -109,8 +109,6 @@ function createCustomSearchResults( searchStr, resultsPath )
   for ( ; i < weightsMap.length; i++ )
   {
     const weightItem = weightsMap[i];
-    if ( weightItem[0] === undefined )
-      break;
     addResult( results, weightItem[1], resultsPath );
   }
   return i;
