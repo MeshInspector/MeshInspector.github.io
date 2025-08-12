@@ -27,8 +27,8 @@ var menudata={children:[
 {text:"Getting Started",url:"InstallationGuide.html",children:[
 {text:"Python",url:"MeshLibPythonSetupGuide.html"},
 {text:"C++",url:"MeshLibCppSetupGuide.html"},
-{text:"C",url:"MeshLibCSetupGuide.html"},
 {text:"C#",url:"MeshLibCSharpSetupGuide.html"},
+{text:"C",url:"MeshLibCSetupGuide.html"},
 {text:"CMake",url:"MeshLibCmakeSetupGuide.html"}]},
 {text:"License",url:"License.html"},
 {text:"Tutorials",url:"Tutorials.html",children:[

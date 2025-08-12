@@ -148,6 +148,17 @@ $(function(){initNavTree('MeshLibCSetupGuide.html',''); initResizable(true); });
   <div class="headertitle"><div class="title">MeshLib C Setup Guide</div></div>
 </div><!--header-->
 <div class="contents">
+<div class="toc"><h3>Table of Contents</h3>
+<ul><li class="level1"><a href="#autotoc_md40">Setting Up MeshLib for C Development</a><ul><li class="level2"><a href="#autotoc_md41">Installing binary releases of MeshLib</a><ul><li class="level3"><a href="#autotoc_md42">Windows</a></li>
+<li class="level3"><a href="#autotoc_md43">Linux (Ubuntu/Fedora)</a></li>
+<li class="level3"><a href="#autotoc_md44">macOS</a></li>
+</ul>
+</li>
+<li class="level2"><a href="#autotoc_md45">Compiling the C bindings locally</a></li>
+</ul>
+</li>
+</ul>
+</div>
 <div class="textblock"><h1><a class="anchor" id="autotoc_md40"></a>
 Setting Up MeshLib for C Development</h1>
 <dl class="section note"><dt>Note</dt><dd>Two versions of the C API currently coexist:</dd>
@@ -155,12 +166,77 @@ Setting Up MeshLib for C Development</h1>
 - v2 (the recommended default) — the library is called <code>MeshLibC2</code>, and the headers are in the the <code>MRC*</code> directories.</dd>
 <dd>
 - v1 (deprecated) — the library is called <code>MRMeshC</code>, and the headers are in the <code>MRMeshC</code> directory. This version only exposes a small part of MeshLib. The support for v1 will be dropped by the end of 2025.</dd></dl>
-<p>The recommended way of using the C API is using the binary releases of MeshLib. Download them as explained in the <a class="el" href="MeshLibCppSetupGuide.html">installation instructions for C++</a>.</p>
+<p>Currently, the only supported way of using the C API is via the binary releases of MeshLib. The installation process is <a class="el" href="MeshLibCppSetupGuide.html">same as for C++</a>, and is also explained below.</p>
 <p>The release archives include the C headers (in the directory called <code>MRCMesh</code> and several other <code>MRC...</code> directories), and a compiled library named <code>MeshLibC2</code> (<code>MeshLibC2.dll</code> on Windows, <code>libMeshLibC2.so</code> on Linux, etc). This library links against our C++ libraries (<code>MRMesh</code> and others) and provides C wrappers for them.</p>
 <p>If you're consuming the C API from <a class="el" href="MeshLibCmakeSetupGuide.html">CMake</a>, add the following to your <code>CMakeLists.txt</code>: </p><div class="fragment"><div class="line">target_link_libraries(your_project_name PUBLIC MeshLib::MeshLibC2)</div>
 </div><!-- fragment --><p> Otherwise, link against the <code>MeshLibC2</code> library manually.</p>
-<h3><a class="anchor" id="autotoc_md41"></a>
-Compiling the C bindings locally</h3>
+<h2><a class="anchor" id="autotoc_md41"></a>
+Installing binary releases of MeshLib</h2>
+<h3><a class="anchor" id="autotoc_md42"></a>
+Windows</h3>
+<ol type="1">
+<li><b>Download and Extract the Built Version</b><ul>
+<li>Visit the <a href="https://github.com/MeshInspector/MeshLib/releases">MeshLib GitHub Releases</a>.</li>
+<li>Download the latest <b>Windows built version archive</b> (E.g. MeshLibDist_v3.0.0.40.zip).</li>
+<li>Extract it to a directory, e.g., <code>C:\meshlib-built\</code>. <br  />
+ <b>Directory Structure After Extraction</b> <div class="fragment"><div class="line">install/</div>
+<div class="line">  ├── include/       # Header files</div>
+<div class="line">  ├── lib/           # Static and shared libraries</div>
+<div class="line">  ├── app/           # Executables</div>
+<div class="line">example_plugin/      # example solution for creating MeshLib/MeshInspector plugins</div>
+</div><!-- fragment --></li>
+</ul>
+</li>
+<li><b>Configure and integrate with Visual Studio</b><ul>
+<li><b>C/C++ → General → Additional Include Directories</b>: <br  />
+ Add: <code>C:\meshlib-built\install\include</code></li>
+<li><b>C/C++ → All Options → Additional Options</b>: <br  />
+ Add: <code>/bigobj /utf8</code></li>
+<li><b>Linker → Input → Additional Dependencies</b>: <br  />
+ Add: <code>C:\meshlib-built\install\lib\$(Configuration)\*.lib</code></li>
+<li><b>Copy DLLs</b>: <br  />
+ Copy all <code>.dll</code> files from: <code>C:\meshlib-built\install\app\$(Configuration)</code> to your project’s output directory: <code>$(TargetDir)</code> <div class="fragment"><div class="line">xcopy C:\meshlib-built\install\app\$(Configuration)\*.dll $(TargetDir)</div>
+</div><!-- fragment --></li>
+</ul>
+</li>
+</ol>
+<h3><a class="anchor" id="autotoc_md43"></a>
+Linux (Ubuntu/Fedora)</h3>
+<ol type="1">
+<li><b>Download and Extract the Built Version</b><ul>
+<li>Visit the <a href="https://github.com/MeshInspector/MeshLib/releases">MeshLib GitHub Releases</a>.</li>
+<li>Download the latest Linux built version</li>
+</ul>
+</li>
+<li>Install Linux Build<ul>
+<li><b>For Ubuntu</b>: <div class="fragment"><div class="line">sudo apt install ./meshlib-build-version-example.deb</div>
+</div><!-- fragment --></li>
+<li><b>For Fedora</b>: <div class="fragment"><div class="line">sudo rpm -i ./meshlib-build-version-example.rpm</div>
+</div><!-- fragment --></li>
+</ul>
+</li>
+<li><b>Open MeshViewer</b> <br  />
+ To verify that everything is fine you can run MeshViewer application: <div class="fragment"><div class="line">MeshViewer</div>
+</div><!-- fragment --></li>
+<li><a class="el" href="MeshLibCmakeSetupGuide.html"><b>Integrate Using CMake</b></a></li>
+</ol>
+<h3><a class="anchor" id="autotoc_md44"></a>
+macOS</h3>
+<ol type="1">
+<li><b>Download the Built Version</b> <br  />
+ Visit the <a href="https://github.com/MeshInspector/MeshLib/releases">MeshLib GitHub Releases</a> and download the latest macOS built version.</li>
+<li><b>Install Using macOS Installer</b><ul>
+<li>Double-click the <code>.pkg</code> file included in the downloaded package, and follow the instructions to complete the installation.</li>
+<li><b>Install Dependencies via Homebrew</b> <br  />
+ Open Terminal and run the following command: <div class="fragment"><div class="line">xargs brew install &lt; /opt/meshlib/requirements/macos.txt</div>
+</div><!-- fragment --></li>
+</ul>
+</li>
+<li><b>Integrate Using CMake</b> <br  />
+ Examples of integration with CMake can be found in the <a href="https://github.com/MeshInspector/MeshLib/blob/master/examples/cpp-examples/CMakeLists.txt">examples directory</a> on GitHub.</li>
+</ol>
+<h2><a class="anchor" id="autotoc_md45"></a>
+Compiling the C bindings locally</h2>
 <p>Compiling the C bindings from source is currently not supported. Since their source code is generated, it's not present in the MeshLib repository. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
