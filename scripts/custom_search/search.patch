@@ -1,5 +1,5 @@
---- ./search.js	2025-08-12 17:05:28.930049334 +0300
-+++ ./search.js	2025-08-12 17:01:05.258965617 +0300
+--- ./tmp/search.js	2025-08-12 16:42:47.236201053 +0300
++++ ./scripts/custom_search/search.js	2025-08-12 17:50:02.875137908 +0300
 @@ -256,18 +256,8 @@
      // strip leading whitespace
      const searchValue = this.DOMSearchField().value.replace(/^ +/, "");
@@ -20,7 +20,7 @@
  
      const loadJS = function(url, impl, loc) {
        const scriptTag = document.createElement('script');
-@@ -286,14 +276,13 @@
+@@ -286,15 +276,12 @@
      const handleResults = function() {
        document.getElementById("Loading").style.display="none";
        if (typeof searchData !== 'undefined') {
@@ -33,14 +33,14 @@
 -        searchResults.Search(searchValue);
 -      } else { // no file with search results => force empty search results
 -        searchResults.Search('====');
+-      }
++      document.getElementById("Searching").style.display="none";
 +      if ( document.getElementById("SRResults").childNodes.length == 0 )
-+      {
-+        document.getElementById("Searching").style.display="none";
 +        document.getElementById("NoMatches").style.display="block";
-       }
  
        if (domPopupSearchResultsWindow.style.display!='block') {
-@@ -347,24 +336,24 @@
+         domSearchClose.style.display = 'inline-block';
+@@ -347,24 +334,24 @@
  
  // -----------------------------------------------------------------------
  
@@ -81,7 +81,7 @@
  
    // The number of matches from the last run of <Search()>.
    this.lastMatchCount = 0;
-@@ -594,70 +583,8 @@
+@@ -594,70 +581,8 @@
    }
  }
  
