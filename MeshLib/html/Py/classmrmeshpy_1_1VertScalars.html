@@ -15,12 +15,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -266,8 +260,7 @@ Static Protected Attributes</h2></td></tr>
 
  \\brief std::vector&lt;T&gt;-like container that requires specific indexing type,
  \\tparam T type of stored elements
- \\tparam I type of index (shall be convertible to size_t)
- \\ingroup BasicGroup</pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+ \\tparam I type of index (shall be convertible to size_t)</pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="abecfea0cfbbf564bf65098c801cf29bf" name="abecfea0cfbbf564bf65098c801cf29bf"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abecfea0cfbbf564bf65098c801cf29bf">&#9670;&#160;</a></span>__init__() <span class="overload">[1/5]</span></h2>
 
@@ -311,7 +304,8 @@ Static Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<pre class="fragment">creates empty vector
+</pre> 
 </div>
 </div>
 <a id="a9245b58d48507cb0df23b8faf7d65c40" name="a9245b58d48507cb0df23b8faf7d65c40"></a>
@@ -332,7 +326,8 @@ Static Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<pre class="fragment">creates a vector with \\p size elements with default value
+</pre> 
 </div>
 </div>
 <a id="af0f1125d2492fa6f5f7aa33034130392" name="af0f1125d2492fa6f5f7aa33034130392"></a>
@@ -358,7 +353,8 @@ Static Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<pre class="fragment">creates a vector with \\p size elements with the given value
+</pre> 
 </div>
 </div>
 <a id="a3fb70dbf97bd523f36882f7d07fd5758" name="a3fb70dbf97bd523f36882f7d07fd5758"></a>
@@ -379,7 +375,8 @@ Static Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<pre class="fragment">moves data from the given std::vector&lt;T&gt;
+</pre> 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -555,7 +552,8 @@ Static Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<pre class="fragment">sets the element #i to the given value, adjusting the size of the vector to include new element
+</pre> 
 </div>
 </div>
 <a id="a327ef51f9c67844a6e56fa5d21019d77" name="a327ef51f9c67844a6e56fa5d21019d77"></a>
@@ -586,7 +584,8 @@ Static Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">sets elements [pos, pos+len) to given value, adjusting the size of the vector to include new elements
+<pre class="fragment">sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements;
+the elements in between old size and \\p pos are also set to \\p val (for faster implementation)
 </pre> 
 </div>
 </div>
@@ -1062,7 +1061,7 @@ Static Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">doubles reserved memory until resize(newSize) can be done without reallocation
+<pre class="fragment">doubles reserved memory until resize(newSize, value) can be done without reallocation
 </pre> 
 </div>
 </div>

@@ -16,6 +16,7 @@ var structMR_1_1ToolPathParams =
     [ "sectionStep", "structMR_1_1ToolPathParams.html#a26778592370a3e672866fb0486b2d7c9", null ],
     [ "startContours", "structMR_1_1ToolPathParams.html#a58e0e695e11b0b6bd4c0ce7ecd0b0889", null ],
     [ "startVertices", "structMR_1_1ToolPathParams.html#adf1fc52d9134c621ba9630531ee2c99d", null ],
+    [ "toolpathExpansion", "structMR_1_1ToolPathParams.html#a0d4192d981068245917713cf59362f80", null ],
     [ "voxelSize", "structMR_1_1ToolPathParams.html#a785fe1445fcc56a97f20cf9daf8356e9", null ],
     [ "xf", "structMR_1_1ToolPathParams.html#af3436d805511bd0d9d2382154e99f492", null ]
 ];

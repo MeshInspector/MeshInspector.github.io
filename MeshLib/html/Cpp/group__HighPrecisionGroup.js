@@ -1,11 +1,11 @@
 var group__HighPrecisionGroup =
 [
-    [ "MR::HighHighPrecisionInt", "group__HighPrecisionGroup.html#gac2eff02a96007c9c46a935c68abdde21", null ],
-    [ "MR::HighPrecisionInt", "group__HighPrecisionGroup.html#ga7972aa1a25bcfa69347cd04ffc919722", null ],
-    [ "MR::Matrix3hp", "group__HighPrecisionGroup.html#ga0922e5b4a25a3ad2c71f656da459b58c", null ],
-    [ "MR::Matrix4hp", "group__HighPrecisionGroup.html#ga0b51da12ec169920c600eef21e61b2ef", null ],
-    [ "MR::Vector2hp", "group__HighPrecisionGroup.html#ga45d8c623f248026fa1e207e1e742b070", null ],
-    [ "MR::Vector3hhp", "group__HighPrecisionGroup.html#gaf88114dbe36ad34a981584d74fccf040", null ],
-    [ "MR::Vector3hp", "group__HighPrecisionGroup.html#ga93ff5b42be6a4dda9d599acede538a24", null ],
-    [ "MR::Vector4hp", "group__HighPrecisionGroup.html#ga3c9be5ef811d30e290a852a487132ff5", null ]
+    [ "MR::Int128", "group__HighPrecisionGroup.html#gaeb20f5b66b3c7532bcdb24bd415bd130", null ],
+    [ "MR::Int256", "group__HighPrecisionGroup.html#ga62843f076a5d1ed019b89472396d5b37", null ],
+    [ "MR::Vector2i128", "group__HighPrecisionGroup.html#ga564f83b9c74fcac72243ca5b5ca0b366", null ],
+    [ "MR::Vector2i128fast", "group__HighPrecisionGroup.html#ga6cc6a39f0d719c385249f1a861f2f603", null ],
+    [ "MR::Vector2i256", "group__HighPrecisionGroup.html#ga5e9d2be2ad9f46eff16c846e4c195057", null ],
+    [ "MR::Vector3i128", "group__HighPrecisionGroup.html#ga63880082d353e6f29c0da82c436c2f17", null ],
+    [ "MR::Vector3i128fast", "group__HighPrecisionGroup.html#gae17811dbb1f4d3ba17f955bab2dab90d", null ],
+    [ "MR::Vector3i256", "group__HighPrecisionGroup.html#ga6290db8f78d4998addb556921ff349ef", null ]
 ];

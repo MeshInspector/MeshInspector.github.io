@@ -15,12 +15,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -161,7 +155,7 @@ $(function(){initNavTree('MRCalcDims_8h_source.html',''); initResizable(true); }
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;<a class="code" href="MRMesh_2MRVector3_8h.html">MRMesh/MRVector3.h</a>&gt;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;<a class="code" href="MRMesh_2MRBox_8h.html">MRMesh/MRBox.h</a>&gt;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">namespace </span><a class="code hl_namespaceRef" href="../namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>{</div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
 <div class="foldopen" id="foldopen00011" data-start="{" data-end="};">
@@ -173,7 +167,7 @@ $(function(){initNavTree('MRCalcDims_8h_source.html',''); initResizable(true); }
 </div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
 <div class="foldopen" id="foldopen00018" data-start="{" data-end="}">
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="namespaceMR.html#af1eec874d8d4e923bb36851ae2456eff">   18</a></span><span class="keyword">inline</span> <a class="code hl_struct" href="structMR_1_1OriginAndDimensions.html">OriginAndDimensions</a> <a class="code hl_function" href="namespaceMR.html#af1eec874d8d4e923bb36851ae2456eff">calcOriginAndDimensions</a>( <span class="keyword">const</span> Box3f &amp; box, <span class="keywordtype">float</span> voxelSize )</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="lineRef" href="../namespaceMR.html#af1eec874d8d4e923bb36851ae2456eff">   18</a></span><span class="keyword">inline</span> <a class="code hl_struct" href="structMR_1_1OriginAndDimensions.html">OriginAndDimensions</a> <a class="code hl_functionRef" href="../namespaceMR.html#af1eec874d8d4e923bb36851ae2456eff">calcOriginAndDimensions</a>( <span class="keyword">const</span> Box3f &amp; box, <span class="keywordtype">float</span> voxelSize )</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>{</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    <span class="keyword">const</span> <span class="keyword">auto</span> expansion = Vector3f::diagonal( 2 * voxelSize );</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    <span class="keyword">const</span> <span class="keyword">auto</span> origin = box.min - expansion;</div>
@@ -190,8 +184,8 @@ $(function(){initNavTree('MRCalcDims_8h_source.html',''); initResizable(true); }
 <div class="ttc" id="aMRMesh_2MRBox_8h_html"><div class="ttname"><a href="MRMesh_2MRBox_8h.html">MRBox.h</a></div></div>
 <div class="ttc" id="aMRMesh_2MRVector3_8h_html"><div class="ttname"><a href="MRMesh_2MRVector3_8h.html">MRVector3.h</a></div></div>
 <div class="ttc" id="aMRVoxels_2MRVoxelsFwd_8h_html"><div class="ttname"><a href="MRVoxels_2MRVoxelsFwd_8h.html">MRVoxelsFwd.h</a></div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
-<div class="ttc" id="anamespaceMR_html_af1eec874d8d4e923bb36851ae2456eff"><div class="ttname"><a href="namespaceMR.html#af1eec874d8d4e923bb36851ae2456eff">MR::calcOriginAndDimensions</a></div><div class="ttdeci">OriginAndDimensions calcOriginAndDimensions(const Box3f &amp;box, float voxelSize)</div><div class="ttdoc">computes origin and dimensions of voxel-grid to cover given 3D box with given spacing (voxelSize)</div><div class="ttdef"><b>Definition</b> MRCalcDims.h:18</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="../namespaceMR.html">MR</a></div></div>
+<div class="ttc" id="anamespaceMR_html_af1eec874d8d4e923bb36851ae2456eff"><div class="ttname"><a href="../namespaceMR.html#af1eec874d8d4e923bb36851ae2456eff">MR::calcOriginAndDimensions</a></div><div class="ttdeci">OriginAndDimensions calcOriginAndDimensions(const Box3f &amp;box, float voxelSize)</div><div class="ttdoc">computes origin and dimensions of voxel-grid to cover given 3D box with given spacing (voxelSize)</div><div class="ttdef"><b>Definition</b> MRCalcDims.h:18</div></div>
 <div class="ttc" id="astructMR_1_1OriginAndDimensions_html"><div class="ttname"><a href="structMR_1_1OriginAndDimensions.html">MR::OriginAndDimensions</a></div><div class="ttdoc">shift of zero voxel in 3D space and dimensions of voxel-grid</div><div class="ttdef"><b>Definition</b> MRCalcDims.h:12</div></div>
 <div class="ttc" id="astructMR_1_1OriginAndDimensions_html_a3249421064f723e9274d910acde0cc34"><div class="ttname"><a href="structMR_1_1OriginAndDimensions.html#a3249421064f723e9274d910acde0cc34">MR::OriginAndDimensions::origin</a></div><div class="ttdeci">Vector3f origin</div><div class="ttdef"><b>Definition</b> MRCalcDims.h:13</div></div>
 <div class="ttc" id="astructMR_1_1OriginAndDimensions_html_a47a625c37bc5587c8811c698a4720f0e"><div class="ttname"><a href="structMR_1_1OriginAndDimensions.html#a47a625c37bc5587c8811c698a4720f0e">MR::OriginAndDimensions::dimensions</a></div><div class="ttdeci">Vector3i dimensions</div><div class="ttdef"><b>Definition</b> MRCalcDims.h:14</div></div>

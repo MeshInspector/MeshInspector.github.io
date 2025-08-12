@@ -15,12 +15,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -169,6 +163,8 @@ Structure has some options to control mrFillHole.
 Public Attributes</h2></td></tr>
 <tr class="memitem:ad9a62fbf15487b1e3b40f08affb75286" id="r_ad9a62fbf15487b1e3b40f08affb75286"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structMRFillHoleMetric.html">MRFillHoleMetric</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad9a62fbf15487b1e3b40f08affb75286">metric</a></td></tr>
 <tr class="separator:ad9a62fbf15487b1e3b40f08affb75286"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b7ad0efd3b32056261fa5bc624e97d1" id="r_a0b7ad0efd3b32056261fa5bc624e97d1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b7ad0efd3b32056261fa5bc624e97d1">smoothBd</a></td></tr>
+<tr class="separator:a0b7ad0efd3b32056261fa5bc624e97d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd5e444fda2adcc30b7ff392177db86c" id="r_abd5e444fda2adcc30b7ff392177db86c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshC_2MRMeshFwd_8h.html#a87ea817dc8204ed7e311d55fd9252cfc">MRFaceBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd5e444fda2adcc30b7ff392177db86c">outNewFaces</a></td></tr>
 <tr class="memdesc:abd5e444fda2adcc30b7ff392177db86c"><td class="mdescLeft">&#160;</td><td class="mdescRight">If not nullptr accumulate new faces.  <br /></td></tr>
 <tr class="separator:abd5e444fda2adcc30b7ff392177db86c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -265,6 +261,21 @@ default for mrFillHole: mrGetCircumscribedFillMetric<br  />
 </div><div class="memdoc">
 
 <p>If not nullptr accumulate new faces. </p>
+
+</div>
+</div>
+<a id="a0b7ad0efd3b32056261fa5bc624e97d1" name="a0b7ad0efd3b32056261fa5bc624e97d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b7ad0efd3b32056261fa5bc624e97d1">&#9670;&#160;</a></span>smoothBd</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MRFillHoleParams::smoothBd</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>If true, hole filling will minimize the sum of metrics including boundary edges, where one triangle was present before hole filling, and another is added during hole filling. This makes boundary edges same smooth as inner edges of the patch. If false, edge metric will not be applied to boundary edges, and the patch tends to make a sharper turn there. </p>
 
 </div>
 </div>

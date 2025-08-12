@@ -32,6 +32,7 @@ var classMR_1_1Viewport =
     [ "drawPoints", "classMR_1_1Viewport.html#ad9165dc8844420f9c4824b6acc0e4038", null ],
     [ "drawTris", "classMR_1_1Viewport.html#a7573cf7e3dde8d3414fdc0b1c15f88bf", null ],
     [ "drawTris", "classMR_1_1Viewport.html#a75b7ef9770b635d037f0a8730b3858f3", null ],
+    [ "findCameraLookingFaces", "classMR_1_1Viewport.html#a97fad8eacc6d5437d8216e90a5dd23b2", null ],
     [ "findObjectsInRect", "classMR_1_1Viewport.html#ae8d2d1ebf05bdfac6a830fc7ccb9c76c", null ],
     [ "findVisibleFaces", "classMR_1_1Viewport.html#a92197d0812be326f98d5480f8235b4de", null ],
     [ "fitBox", "classMR_1_1Viewport.html#a6ac594d0dfd749cdb836fe216d2f63a9", null ],

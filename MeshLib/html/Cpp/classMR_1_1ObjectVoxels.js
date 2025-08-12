@@ -2,6 +2,7 @@ var classMR_1_1ObjectVoxels =
 [
     [ "VolumeRenderingParams", "structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html", "structMR_1_1ObjectVoxels_1_1VolumeRenderingParams" ],
     [ "IsoSurfaceChangedSignal", "classMR_1_1ObjectVoxels.html#a3ace9713c9d0e39585ccb708a7cadf94", null ],
+    [ "VoxelsChangedSignal", "classMR_1_1ObjectVoxels.html#aa9aa51e7f23f9431829b49ad6530c439", null ],
     [ "ObjectVoxels", "classMR_1_1ObjectVoxels.html#a78c40f61f0dd24dcb84cfbbe901ddfd5", null ],
     [ "ObjectVoxels", "classMR_1_1ObjectVoxels.html#a86927a7f3ce177f9394efc66a87d95bc", null ],
     [ "~ObjectVoxels", "classMR_1_1ObjectVoxels.html#a205cdfb1f95b74b571b884147dc2581f", null ],
@@ -45,6 +46,7 @@ var classMR_1_1ObjectVoxels =
     [ "recalculateHistogram", "classMR_1_1ObjectVoxels.html#af7b8b9838d50a4946c46bf66319c4ecb", null ],
     [ "recalculateIsoSurface", "classMR_1_1ObjectVoxels.html#a46adc4914b8a2574e7b26f15962e31f6", null ],
     [ "recalculateIsoSurface", "classMR_1_1ObjectVoxels.html#a0be5abb458a3b28d1c15a5709be051c3", null ],
+    [ "resetFrontColor", "classMR_1_1ObjectVoxels.html#a8d8dc2407b56398b61d81060eddd8f33", null ],
     [ "selectVoxels", "classMR_1_1ObjectVoxels.html#a4333c77a23030251df09a35b3432fdd6", null ],
     [ "serializeFields_", "classMR_1_1ObjectVoxels.html#a8d05e0dff6ba746d6758554f24bf308b", null ],
     [ "serializeFormat", "classMR_1_1ObjectVoxels.html#a1c26c30edd465ed8fa5cce096943dd41", null ],
@@ -73,5 +75,6 @@ var classMR_1_1ObjectVoxels =
     [ "isoSurfaceChangedSignal", "classMR_1_1ObjectVoxels.html#a3933529459eee6bf988f3b9814a52818", null ],
     [ "selectedVoxels_", "classMR_1_1ObjectVoxels.html#ac93a94170b78edb3958c03c152eddf69", null ],
     [ "volumeRenderActiveVoxels_", "classMR_1_1ObjectVoxels.html#a47d5f0c15484962e0f95372d8f8916ae", null ],
-    [ "volumeRendering_", "classMR_1_1ObjectVoxels.html#add6ed6dadad3ee60701ec86b112535c2", null ]
+    [ "volumeRendering_", "classMR_1_1ObjectVoxels.html#add6ed6dadad3ee60701ec86b112535c2", null ],
+    [ "voxelsChangedSignal", "classMR_1_1ObjectVoxels.html#af9f3bf968d1e9084c912f67cf8fcdaec", null ]
 ];

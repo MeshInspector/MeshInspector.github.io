@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/ExampleContourTriangulation.html" />
-<meta name="robots" content="noindex"/>
+
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -14,12 +14,6 @@
       window.location.replace(newURL);
     }
   }();
-</script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
 </script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -211,68 +205,6 @@ $(function(){initNavTree('ExampleContourTriangulation.html',''); initResizable(t
 <div class="line">logo_mesh = mm.PlanarTriangulation.triangulateContours(pl2.contours()) <span class="comment"># triangulate isolines</span></div>
 <div class="line"> </div>
 <div class="line">mm.saveMesh(logo_mesh, <span class="stringliteral">&quot;LogoMesh.ctm&quot;</span>)</div>
-</div><!-- fragment --></li>
-</ul>
-</div><div class="tabbed"></div><p>Example of Fusion.</p>
-<div class="tabbed"></div><div class="tabbed"><ul>
-<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMesh/MRPointsLoad.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRPointCloud.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &quot;MRMesh/MRBox.h&quot;</span></div>
-<div class="line"><span class="preprocessor">#include &quot;<a class="codeRef" href="./Cpp/MRPointCloudRadius_8h.html">MRMesh/MRPointCloudRadius.h</a>&quot;</span></div>
-<div class="line"><span class="preprocessor">#include &quot;<a class="codeRef" href="./Cpp/MRPointsToMeshFusion_8h.html">MRVoxels/MRPointsToMeshFusion.h</a>&quot;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMeshSave.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMesh/MRMesh.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;iostream&gt;</span></div>
-<div class="line"> </div>
-<div class="line"><span class="keywordtype">int</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>()</div>
-<div class="line">{</div>
-<div class="line">    <span class="comment">// load points</span></div>
-<div class="line">    <span class="keyword">auto</span> loadRes = <a class="code hl_functionRef" href="./Cpp/group__IOGroup.html#gab0f629849bb97f655fcf29a1b3afd9fa">MR::PointsLoad::fromAnySupportedFormat</a>( <span class="stringliteral">&quot;Points.ply&quot;</span> );</div>
-<div class="line">    <span class="keywordflow">if</span> ( !loadRes.has_value() )</div>
-<div class="line">    {</div>
-<div class="line">        std::cerr &lt;&lt; loadRes.error() &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
-<div class="line">        <span class="keywordflow">return</span> 1; <span class="comment">// error while loading file</span></div>
-<div class="line">    }</div>
-<div class="line"> </div>
-<div class="line">    <a class="code hl_structRef" href="./Cpp/structMR_1_1PointsToMeshParameters.html">MR::PointsToMeshParameters</a> params;</div>
-<div class="line">    params.voxelSize = loadRes-&gt;computeBoundingBox().diagonal() * 1e-2f;</div>
-<div class="line">    params.sigma = std::max( params.voxelSize, <a class="code hl_functionRef" href="./Cpp/group__PointCloudGroup.html#ga65f914c5f869b8b554e8394912e5a7a3">MR::findAvgPointsRadius</a>( *loadRes, 50 ) );</div>
-<div class="line">    params.minWeight = 1.0f;</div>
-<div class="line"> </div>
-<div class="line">    <span class="keyword">auto</span> fusionRes = <a class="code hl_functionRef" href="./Cpp/namespaceMR.html#abbc1adfce73c26127f80973b21afcbf4">MR::pointsToMeshFusion</a>( *loadRes, params );</div>
-<div class="line">    <span class="keywordflow">if</span> ( !fusionRes.has_value() )</div>
-<div class="line">    {</div>
-<div class="line">        std::cerr &lt;&lt; fusionRes.error() &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
-<div class="line">        <span class="keywordflow">return</span> 1; <span class="comment">// error while saving file</span></div>
-<div class="line">    }</div>
-<div class="line"> </div>
-<div class="line">    <span class="keyword">auto</span> saveRes = <a class="code hl_functionRef" href="./Cpp/group__MeshSaveGroup.html#ga6f98b4f73676fa32a7e3573939cb76b9">MR::MeshSave::toAnySupportedFormat</a>( *fusionRes, <span class="stringliteral">&quot;Mesh.ctm&quot;</span> );</div>
-<div class="line">    <span class="keywordflow">if</span> ( !saveRes.has_value() )</div>
-<div class="line">    {</div>
-<div class="line">        std::cerr &lt;&lt; saveRes.error() &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
-<div class="line">        <span class="keywordflow">return</span> 1; <span class="comment">// error while saving file</span></div>
-<div class="line">    }</div>
-<div class="line">    <span class="keywordflow">return</span> 0;</div>
-<div class="line">}</div>
-<div class="ttc" id="aMRPointCloudRadius_8h_html"><div class="ttname"><a href="./Cpp/MRPointCloudRadius_8h.html">MRPointCloudRadius.h</a></div></div>
-<div class="ttc" id="aMRPointsToMeshFusion_8h_html"><div class="ttname"><a href="./Cpp/MRPointsToMeshFusion_8h.html">MRPointsToMeshFusion.h</a></div></div>
-<div class="ttc" id="agroup__IOGroup_html_gab0f629849bb97f655fcf29a1b3afd9fa"><div class="ttname"><a href="./Cpp/group__IOGroup.html#gab0f629849bb97f655fcf29a1b3afd9fa">MR::PointsLoad::fromAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; PointCloud &gt; fromAnySupportedFormat(const std::filesystem::path &amp;file, const PointsLoadSettings &amp;settings={})</div></div>
-<div class="ttc" id="agroup__PointCloudGroup_html_ga65f914c5f869b8b554e8394912e5a7a3"><div class="ttname"><a href="./Cpp/group__PointCloudGroup.html#ga65f914c5f869b8b554e8394912e5a7a3">MR::findAvgPointsRadius</a></div><div class="ttdeci">MRMESH_API float findAvgPointsRadius(const PointCloud &amp;pointCloud, int avgPoints, int samples=1024)</div></div>
-<div class="ttc" id="anamespaceMR_html_abbc1adfce73c26127f80973b21afcbf4"><div class="ttname"><a href="./Cpp/namespaceMR.html#abbc1adfce73c26127f80973b21afcbf4">MR::pointsToMeshFusion</a></div><div class="ttdeci">MRVOXELS_API Expected&lt; Mesh &gt; pointsToMeshFusion(const PointCloud &amp;cloud, const PointsToMeshParameters &amp;params)</div></div>
-<div class="ttc" id="astructMR_1_1PointsToMeshParameters_html"><div class="ttname"><a href="./Cpp/structMR_1_1PointsToMeshParameters.html">MR::PointsToMeshParameters</a></div></div>
-</div><!-- fragment --></li>
-<li><b class="tab-title">Python</b> <div class="fragment"><div class="line"><span class="keyword">from</span> meshlib <span class="keyword">import</span> mrmeshpy <span class="keyword">as</span> mm</div>
-<div class="line"> </div>
-<div class="line">points = mm.loadPoints(<span class="stringliteral">&quot;Points.ply&quot;</span>)</div>
-<div class="line"> </div>
-<div class="line">params = mm.PointsToMeshParameters()</div>
-<div class="line">params.voxelSize = points.computeBoundingBox().diagonal()*1e-2</div>
-<div class="line">params.sigma = max(params.voxelSize,mm.findAvgPointsRadius(points,50))</div>
-<div class="line">params.minWeight = 1</div>
-<div class="line"> </div>
-<div class="line">mesh = mm.pointsToMeshFusion(points,params)</div>
-<div class="line"> </div>
-<div class="line">mm.saveMesh(mesh,<span class="stringliteral">&quot;Mesh.ctm&quot;</span>)</div>
 </div><!-- fragment --></li>
 </ul>
 </div><div class="tabbed"></div> </div></div><!-- contents -->

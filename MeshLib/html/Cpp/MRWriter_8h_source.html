@@ -15,12 +15,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -157,7 +151,7 @@ $(function(){initNavTree('MRWriter_8h_source.html',''); initResizable(true); });
 <div class="contents">
 <a href="MRWriter_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="keyword">namespace </span><a class="code hl_namespaceRef" href="../namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span>{</div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="comment">// the purpose of this struct is to invalidate object cache in its destructor</span></div>
@@ -174,7 +168,7 @@ $(function(){initNavTree('MRWriter_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="MRWriter_8h.html#a76ba7d688be2473881f1f42c2f685060">   15</a></span><span class="preprocessor">#define MR_WRITER( obj ) MR::Writer _writer( obj );</span></div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>} <span class="comment">//namespace MR</span></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="../namespaceMR.html">MR</a></div></div>
 <div class="ttc" id="astructMR_1_1Writer_html"><div class="ttname"><a href="structMR_1_1Writer.html">MR::Writer</a></div><div class="ttdef"><b>Definition</b> MRWriter.h:9</div></div>
 <div class="ttc" id="astructMR_1_1Writer_html_a1ff0e2daeb475fb1edc47380d8255f59"><div class="ttname"><a href="structMR_1_1Writer.html#a1ff0e2daeb475fb1edc47380d8255f59">MR::Writer::obj</a></div><div class="ttdeci">T &amp; obj</div><div class="ttdef"><b>Definition</b> MRWriter.h:10</div></div>
 <div class="ttc" id="astructMR_1_1Writer_html_aa459ed75918dac0dd5c9055f24c156f6"><div class="ttname"><a href="structMR_1_1Writer.html#aa459ed75918dac0dd5c9055f24c156f6">MR::Writer::~Writer</a></div><div class="ttdeci">~Writer()</div><div class="ttdef"><b>Definition</b> MRWriter.h:12</div></div>

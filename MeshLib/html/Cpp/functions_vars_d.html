@@ -15,12 +15,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -165,6 +159,7 @@ $(function(){initNavTree('functions_vars_d.html',''); initResizable(true); });
 <li>decorationFormatString&#160;:&#160;<a class="el" href="structMR_1_1UnitToStringParams.html#a7154a0976d68f4cf955516bbd1e8c3db">MR::UnitToStringParams&lt; E &gt;</a></li>
 <li>decorationsColor_&#160;:&#160;<a class="el" href="classMR_1_1FeatureObject.html#a1c8e2cd4e02b32ce6329d8a44ab727c6">MR::FeatureObject</a></li>
 <li>DefaultColors&#160;:&#160;<a class="el" href="classMR_1_1Palette.html#aaa660bef4a51b8a0247fa7eafccfcfba">MR::Palette</a></li>
+<li>defaultFontName&#160;:&#160;<a class="el" href="structMR_1_1PdfParameters.html#ae42d68e485dee9fafd3e37a24efc9f7d">MR::PdfParameters</a></li>
 <li>defaultNotificationLifeTimeSeconds&#160;:&#160;<a class="el" href="classMR_1_1RibbonNotifier.html#ab63838c73f526f97b5d11fd8d3c7237d">MR::RibbonNotifier</a></li>
 <li>defaultQuickAccessList&#160;:&#160;<a class="el" href="structMR_1_1RibbonSchema.html#a2001ba5c144da0024d60ad381cb6fc5b">MR::RibbonSchema</a></li>
 <li>degree&#160;:&#160;<a class="el" href="structMR_1_1MoveMeshToVoxelMaxDerivSettings.html#ad4bdf9eb1e55187c89fd477134219680">MR::MoveMeshToVoxelMaxDerivSettings</a></li>
@@ -180,6 +175,7 @@ $(function(){initNavTree('functions_vars_d.html',''); initResizable(true); });
 <li>dialogIsCollapsed_&#160;:&#160;<a class="el" href="classMR_1_1StateBasePlugin.html#a55b362aee5989fe359aadd33c9be78b4">MR::StateBasePlugin</a></li>
 <li>dialogIsOpen_&#160;:&#160;<a class="el" href="classMR_1_1StateBasePlugin.html#a1d97f71a0f325fbe29b0bbec3e564204">MR::StateBasePlugin</a></li>
 <li>dialogPositionFixed&#160;:&#160;<a class="el" href="structMR_1_1RibbonMenu_1_1DialogItemPtr.html#a81cacb5c7aa2d35d0b873c9a48145777">MR::RibbonMenu::DialogItemPtr</a></li>
+<li>diameter&#160;:&#160;<a class="el" href="structMR_1_1EndMillTool.html#ad8f4a7587862e0863fa16e3bc9763cda">MR::EndMillTool</a></li>
 <li>diffuseColor&#160;:&#160;<a class="el" href="group__MeshLoadObjGroup.html#ga24c0d1fb11f0d559f180bff7fc3fc188">MR::MeshLoad::NamedMesh</a></li>
 <li>dim&#160;:&#160;<a class="el" href="structMR_1_1GridSettings.html#a079676e2ac1f95a1b11ecb8b7f0042aa">MR::GridSettings</a></li>
 <li>dimensions&#160;:&#160;<a class="el" href="structMR_1_1DistanceVolumeParams.html#ade7c79fd5b25f3a928fa747f8e6d61d2">MR::DistanceVolumeParams</a>, <a class="el" href="structMR_1_1OriginAndDimensions.html#a47a625c37bc5587c8811c698a4720f0e">MR::OriginAndDimensions</a>, <a class="el" href="structMR_1_1VoxelsLoad_1_1RawParameters.html#ab1db96ec60477ec788bfe5aeb3596da2">MR::VoxelsLoad::RawParameters</a></li>
@@ -201,7 +197,7 @@ $(function(){initNavTree('functions_vars_d.html',''); initResizable(true); });
 <li>distanceLimit&#160;:&#160;<a class="el" href="structMR_1_1RefineParameters.html#a486a6518c80e8dcbf53b70b8870eaa6f">MR::RefineParameters</a></li>
 <li>distanceMapResolution&#160;:&#160;<a class="el" href="structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html#a865b6dc16827bcf5024f2e675a74e8e0">MR::FixUndercuts::DistMapImproveDirectionParameters</a></li>
 <li>distanceMapToWorld&#160;:&#160;<a class="el" href="structMR_1_1DistanceMapLoadSettings.html#a4329716168946bea274736a95808880e">MR::DistanceMapLoadSettings</a></li>
-<li>distSq&#160;:&#160;<a class="el" href="structMR_1_1ICPPairData.html#afe05b997a712f074a3053f11dab0a7eb">MR::ICPPairData</a>, <a class="el" href="structMR_1_1MeshMeshDistanceResult.html#a31d5db7464e13bf1f300593e515875c9">MR::MeshMeshDistanceResult</a>, <a class="el" href="structMR_1_1MeshOrPoints_1_1ProjectionResult.html#ab04e26fe4503fb08898aaeccad548f71">MR::MeshOrPoints::ProjectionResult</a>, <a class="el" href="structMR_1_1MeshProjectionResult.html#a685a3370c122d23e376f36b0ebb9fa29">MR::MeshProjectionResult</a>, <a class="el" href="structMR_1_1PointsProjectionResult.html#a3b974a4c082686d4963d597b5533c340">MR::PointsProjectionResult</a>, <a class="el" href="structMR_1_1PolylineProjectionResult.html#a81f4cd1607e7835a737edcf9011740d8">MR::PolylineProjectionResult&lt; V &gt;</a>, <a class="el" href="structMRICPPairData.html#a378a97d5205f2e9f3da4234898bce466">MRICPPairData</a>, <a class="el" href="structMRMeshProjectionResult.html#afcfe8d54bd9348a46319d15bd7094f9a">MRMeshProjectionResult</a></li>
+<li>distSq&#160;:&#160;<a class="el" href="structMR_1_1ICPPairData.html#afe05b997a712f074a3053f11dab0a7eb">MR::ICPPairData</a>, <a class="el" href="structMR_1_1MeshMeshDistanceResult.html#a31d5db7464e13bf1f300593e515875c9">MR::MeshMeshDistanceResult</a>, <a class="el" href="structMR_1_1MeshOrPoints_1_1ProjectionResult.html#ab04e26fe4503fb08898aaeccad548f71">MR::MeshOrPoints::ProjectionResult</a>, <a class="el" href="structMR_1_1MeshProjectionResult.html#a685a3370c122d23e376f36b0ebb9fa29">MR::MeshProjectionResult</a>, <a class="el" href="structMR_1_1PointsProjectionResult.html#a3b974a4c082686d4963d597b5533c340">MR::PointsProjectionResult</a>, <a class="el" href="structMR_1_1PolylineProjectionResult.html#a81f4cd1607e7835a737edcf9011740d8">MR::PolylineProjectionResult&lt; V &gt;</a>, <a class="el" href="structMRICPPairData.html#a378a97d5205f2e9f3da4234898bce466">MRICPPairData</a>, <a class="el" href="structMRMeshMeshDistanceResult.html#a79fe294fc035918e458c861100dfdaa4">MRMeshMeshDistanceResult</a>, <a class="el" href="structMRMeshProjectionResult.html#afcfe8d54bd9348a46319d15bd7094f9a">MRMeshProjectionResult</a></li>
 <li>distThresholdSq&#160;:&#160;<a class="el" href="structMR_1_1ICPProperties.html#a43460c0d16c0f302226c8e09b6b98811">MR::ICPProperties</a>, <a class="el" href="structMRICPProperties.html#af8056cb5ec97a0e2fb709ac76fc146de">MRICPProperties</a></li>
 <li>doIntersect&#160;:&#160;<a class="el" href="structMR_1_1SegmentSegmentIntersectResult.html#ad55a194e9fc76257f3bb95f35d4495c5">MR::SegmentSegmentIntersectResult</a>, <a class="el" href="structMR_1_1TriangleSegmentIntersectResult.html#a8676a2019b59ed30aa2204aef62a8ff8">MR::TriangleSegmentIntersectResult</a></li>
 <li>dontSaveText&#160;:&#160;<a class="el" href="structMR_1_1UI_1_1SaveChangesPopupSettings.html#a1ddd1fee272b8d5ab0de85e419cc5c9c">MR::UI::SaveChangesPopupSettings</a></li>
@@ -209,6 +205,8 @@ $(function(){initNavTree('functions_vars_d.html',''); initResizable(true); });
 <li>dontShowAgain&#160;:&#160;<a class="el" href="structMR_1_1ModalDialogSettings.html#a6f27fa29dcdfba807ff60ced88467e51">MR::ModalDialogSettings</a></li>
 <li>dragDropSignal&#160;:&#160;<a class="el" href="classMR_1_1Viewer.html#ab2c82473f02c741b3be29cb4ff10daa0">MR::Viewer</a></li>
 <li>dragEndSignal&#160;:&#160;<a class="el" href="classMR_1_1Viewer.html#a56a065b32c494e3d533b08a24249d20e">MR::Viewer</a></li>
+<li>dragEntranceSignal&#160;:&#160;<a class="el" href="classMR_1_1Viewer.html#aaa117ecace91fc61f51a84d24a8edc37">MR::Viewer</a></li>
+<li>dragOverSignal&#160;:&#160;<a class="el" href="classMR_1_1Viewer.html#ac3b7a1662525ac670c4a3f976ac4b822">MR::Viewer</a></li>
 <li>dragSignal&#160;:&#160;<a class="el" href="classMR_1_1Viewer.html#ae61b533e58da105143ce2e702dadc789">MR::Viewer</a></li>
 <li>dragStartSignal&#160;:&#160;<a class="el" href="classMR_1_1Viewer.html#a1caa04e761486984969a78f76685f938">MR::Viewer</a></li>
 <li>drawAsDiameter&#160;:&#160;<a class="el" href="structMR_1_1RenderDimensions_1_1RadiusParams.html#a1161a2acb579467fd9f2bf7bd0bb2961">MR::RenderDimensions::RadiusParams</a></li>

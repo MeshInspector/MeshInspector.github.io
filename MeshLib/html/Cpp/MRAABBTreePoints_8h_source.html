@@ -15,12 +15,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -162,7 +156,7 @@ $(function(){initNavTree('MRAABBTreePoints_8h_source.html',''); initResizable(tr
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_2MRVector_8h.html">MRVector.h</a>&quot;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_2MRVector3_8h.html">MRVector3.h</a>&quot;</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">namespace </span><a class="code hl_namespaceRef" href="../namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>{</div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
@@ -225,11 +219,20 @@ $(function(){initNavTree('MRAABBTreePoints_8h_source.html',''); initResizable(tr
 <div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>};</div>
 </div>
 <div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span> </div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span> </div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>} <span class="comment">// namespace MR</span></div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span><span class="comment">// returns the number of nodes in the binary tree with given number of points</span></div>
+<div class="foldopen" id="foldopen00088" data-start="{" data-end="}">
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno"><a class="line" href="group__AABBTreeGroup.html#ga47032a5f420080191bd8d3600c3c24ef">   88</a></span>inline <span class="keywordtype">int</span> <a class="code hl_function" href="group__AABBTreeGroup.html#ga47032a5f420080191bd8d3600c3c24ef">getNumNodesPoints</a>( <span class="keywordtype">int</span> numPoints )</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>{</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>    assert( numPoints &gt; 0 );</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>    <span class="keywordflow">return</span> 2 * ( ( numPoints + <a class="code hl_variable" href="classMR_1_1AABBTreePoints.html#a797d5bcdfaacbc53e37b10ddac496527">AABBTreePoints::MaxNumPointsInLeaf</a> - 1 ) / <a class="code hl_variable" href="classMR_1_1AABBTreePoints.html#a797d5bcdfaacbc53e37b10ddac496527">AABBTreePoints::MaxNumPointsInLeaf</a> ) - 1;</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>}</div>
+</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span> </div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span> </div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>} <span class="comment">// namespace MR</span></div>
 <div class="ttc" id="aMRMesh_2MRBox_8h_html"><div class="ttname"><a href="MRMesh_2MRBox_8h.html">MRBox.h</a></div></div>
 <div class="ttc" id="aMRMesh_2MRId_8h_html"><div class="ttname"><a href="MRMesh_2MRId_8h.html">MRId.h</a></div></div>
-<div class="ttc" id="aMRMesh_2MRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:79</div></div>
+<div class="ttc" id="aMRMesh_2MRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:80</div></div>
 <div class="ttc" id="aMRMesh_2MRVector3_8h_html"><div class="ttname"><a href="MRMesh_2MRVector3_8h.html">MRVector3.h</a></div></div>
 <div class="ttc" id="aMRMesh_2MRVector_8h_html"><div class="ttname"><a href="MRMesh_2MRVector_8h.html">MRVector.h</a></div></div>
 <div class="ttc" id="aclassMR_1_1AABBTreePoints_html"><div class="ttname"><a href="classMR_1_1AABBTreePoints.html">MR::AABBTreePoints</a></div><div class="ttdoc">bounding volume hierarchy for point cloud structure</div><div class="ttdef"><b>Definition</b> MRAABBTreePoints.h:16</div></div>
@@ -252,8 +255,9 @@ $(function(){initNavTree('MRAABBTreePoints_8h_source.html',''); initResizable(tr
 <div class="ttc" id="aclassMR_1_1SharedThreadSafeOwner_html"><div class="ttname"><a href="classMR_1_1SharedThreadSafeOwner.html">MR::SharedThreadSafeOwner</a></div><div class="ttdef"><b>Definition</b> MRSharedThreadSafeOwner.h:19</div></div>
 <div class="ttc" id="aclassMR_1_1UniqueThreadSafeOwner_html"><div class="ttname"><a href="classMR_1_1UniqueThreadSafeOwner.html">MR::UniqueThreadSafeOwner</a></div><div class="ttdef"><b>Definition</b> MRUniqueThreadSafeOwner.h:18</div></div>
 <div class="ttc" id="aclassMR_1_1Vector_html"><div class="ttname"><a href="classMR_1_1Vector.html">MR::Vector&lt; Node, NodeId &gt;</a></div></div>
-<div class="ttc" id="aclassMR_1_1Vector_html_ac4b153c69fb7b5e1466b10723dd2f35b"><div class="ttname"><a href="classMR_1_1Vector.html#ac4b153c69fb7b5e1466b10723dd2f35b">MR::Vector::empty</a></div><div class="ttdeci">bool empty() const</div><div class="ttdef"><b>Definition</b> MRMesh/MRVector.h:39</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="aclassMR_1_1Vector_html_ac4b153c69fb7b5e1466b10723dd2f35b"><div class="ttname"><a href="classMR_1_1Vector.html#ac4b153c69fb7b5e1466b10723dd2f35b">MR::Vector::empty</a></div><div class="ttdeci">bool empty() const</div><div class="ttdef"><b>Definition</b> MRMesh/MRVector.h:49</div></div>
+<div class="ttc" id="agroup__AABBTreeGroup_html_ga47032a5f420080191bd8d3600c3c24ef"><div class="ttname"><a href="group__AABBTreeGroup.html#ga47032a5f420080191bd8d3600c3c24ef">MR::getNumNodesPoints</a></div><div class="ttdeci">int getNumNodesPoints(int numPoints)</div><div class="ttdef"><b>Definition</b> MRAABBTreePoints.h:88</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="../namespaceMR.html">MR</a></div></div>
 <div class="ttc" id="astructMR_1_1AABBTreePoints_1_1Node_html"><div class="ttname"><a href="structMR_1_1AABBTreePoints_1_1Node.html">MR::AABBTreePoints::Node</a></div><div class="ttdef"><b>Definition</b> MRAABBTreePoints.h:19</div></div>
 <div class="ttc" id="astructMR_1_1AABBTreePoints_1_1Node_html_a0951e423adb41a83132b36c18125f02b"><div class="ttname"><a href="structMR_1_1AABBTreePoints_1_1Node.html#a0951e423adb41a83132b36c18125f02b">MR::AABBTreePoints::Node::setLeafPointRange</a></div><div class="ttdeci">void setLeafPointRange(int first, int last)</div><div class="ttdoc">sets [first,last) to this node (leaf)</div><div class="ttdef"><b>Definition</b> MRAABBTreePoints.h:28</div></div>
 <div class="ttc" id="astructMR_1_1AABBTreePoints_1_1Node_html_a2153d4fd7d12b27618511103c9080df3"><div class="ttname"><a href="structMR_1_1AABBTreePoints_1_1Node.html#a2153d4fd7d12b27618511103c9080df3">MR::AABBTreePoints::Node::box</a></div><div class="ttdeci">Box3f box</div><div class="ttdoc">bounding box of whole subtree</div><div class="ttdef"><b>Definition</b> MRAABBTreePoints.h:20</div></div>
@@ -264,8 +268,8 @@ $(function(){initNavTree('MRAABBTreePoints_8h_source.html',''); initResizable(tr
 <div class="ttc" id="astructMR_1_1AABBTreePoints_1_1Point_html"><div class="ttname"><a href="structMR_1_1AABBTreePoints_1_1Point.html">MR::AABBTreePoints::Point</a></div><div class="ttdef"><b>Definition</b> MRAABBTreePoints.h:39</div></div>
 <div class="ttc" id="astructMR_1_1AABBTreePoints_1_1Point_html_a14a9b34e597a6b504acd6c3ee97e12be"><div class="ttname"><a href="structMR_1_1AABBTreePoints_1_1Point.html#a14a9b34e597a6b504acd6c3ee97e12be">MR::AABBTreePoints::Point::coord</a></div><div class="ttdeci">Vector3f coord</div><div class="ttdef"><b>Definition</b> MRAABBTreePoints.h:40</div></div>
 <div class="ttc" id="astructMR_1_1AABBTreePoints_1_1Point_html_a75824d74d5ccd55a0440bf75f7d19077"><div class="ttname"><a href="structMR_1_1AABBTreePoints_1_1Point.html#a75824d74d5ccd55a0440bf75f7d19077">MR::AABBTreePoints::Point::id</a></div><div class="ttdeci">VertId id</div><div class="ttdef"><b>Definition</b> MRAABBTreePoints.h:41</div></div>
-<div class="ttc" id="astructMR_1_1Mesh_html"><div class="ttname"><a href="structMR_1_1Mesh.html">MR::Mesh</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRMesh.h:22</div></div>
-<div class="ttc" id="astructMR_1_1PointCloud_html"><div class="ttname"><a href="structMR_1_1PointCloud.html">MR::PointCloud</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRPointCloud.h:16</div></div>
+<div class="ttc" id="astructMR_1_1Mesh_html"><div class="ttname"><a href="structMR_1_1Mesh.html">MR::Mesh</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRMesh.h:23</div></div>
+<div class="ttc" id="astructMR_1_1PointCloud_html"><div class="ttname"><a href="structMR_1_1PointCloud.html">MR::PointCloud</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRPointCloud.h:17</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

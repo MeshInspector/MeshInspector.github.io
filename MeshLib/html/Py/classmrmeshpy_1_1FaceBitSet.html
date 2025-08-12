@@ -15,12 +15,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -237,8 +231,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a84843e4532e94e773190a035c5a13396"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d03062daa7bf2044de6e9bc5f1e978e" id="r_a7d03062daa7bf2044de6e9bc5f1e978e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d03062daa7bf2044de6e9bc5f1e978e">intersects</a> (self, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> a)</td></tr>
 <tr class="separator:a7d03062daa7bf2044de6e9bc5f1e978e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad8840baafcd9c0e416775ad34bf6848e" id="r_ad8840baafcd9c0e416775ad34bf6848e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8840baafcd9c0e416775ad34bf6848e">is_proper_subset_of</a> (self, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> a)</td></tr>
-<tr class="separator:ad8840baafcd9c0e416775ad34bf6848e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a60b667616829f078187d290eaab1dc6e" id="r_a60b667616829f078187d290eaab1dc6e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60b667616829f078187d290eaab1dc6e">is_subset_of</a> (self, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> a)</td></tr>
 <tr class="separator:a60b667616829f078187d290eaab1dc6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac575961be449c8ece85d395acab6321a" id="r_ac575961be449c8ece85d395acab6321a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac575961be449c8ece85d395acab6321a">nthSetBit</a> (self, int n)</td></tr>
@@ -251,8 +243,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:abfc3326d731f4f194321d3eb2925a027"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af85d10b6069037cb96e66cf56c70bdc1" id="r_af85d10b6069037cb96e66cf56c70bdc1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af85d10b6069037cb96e66cf56c70bdc1">set</a> (self, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> n, int len, bool val)</td></tr>
 <tr class="separator:af85d10b6069037cb96e66cf56c70bdc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade03c562c17dc60dc6603e6619a65093" id="r_ade03c562c17dc60dc6603e6619a65093"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade03c562c17dc60dc6603e6619a65093">set</a> (self, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> n, bool val=True)</td></tr>
-<tr class="separator:ade03c562c17dc60dc6603e6619a65093"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66ca1e6ef5ebd1139abfcc8cb1829415" id="r_a66ca1e6ef5ebd1139abfcc8cb1829415"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66ca1e6ef5ebd1139abfcc8cb1829415">set</a> (self, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> n, bool val)</td></tr>
+<tr class="separator:a66ca1e6ef5ebd1139abfcc8cb1829415"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31d3e4221363689e370baf60ee30ccaf" id="r_a31d3e4221363689e370baf60ee30ccaf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a31d3e4221363689e370baf60ee30ccaf">set</a> (self, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> n)</td></tr>
+<tr class="separator:a31d3e4221363689e370baf60ee30ccaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a828b46b245108270612ce3bbba72c15b" id="r_a828b46b245108270612ce3bbba72c15b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a828b46b245108270612ce3bbba72c15b">set</a> (self)</td></tr>
 <tr class="separator:a828b46b245108270612ce3bbba72c15b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61bb6bfbf712dedb3c703642ed2b5669" id="r_a61bb6bfbf712dedb3c703642ed2b5669"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a61bb6bfbf712dedb3c703642ed2b5669">subtract</a> (self, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> b, int bShiftInBlocks)</td></tr>
@@ -292,9 +286,10 @@ Static Public Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><pre class="fragment">Generated from:  MR::FaceBitSet
-Aliases:  Vector_FaceBitSet_GraphVertId.value_type, Vector_FaceBitSet_GraphVertId.const_reference, AABBTreeBase_AABBTreeTraits_FaceTag_Box3f.LeafBitSet, ColorMapAggregator_FaceTag_ElementBitSet, Vector_FaceBitSet_GraphVertId.reference
+Aliases:  Vector_FaceBitSet_GraphVertId.reference, ColorMapAggregator_FaceTag_ElementBitSet, AABBTreeBase_AABBTreeTraits_FaceTag_Box3f.LeafBitSet, Vector_FaceBitSet_GraphVertId.value_type, Vector_FaceBitSet_GraphVertId.const_reference
 
-container of bits representing specific indices (faces, verts or edges)
+Vector&lt;bool, I&gt; like container (random-access, I - index type, bool - value type)
+with all bits after size() considered off during testing
 </pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ad3558f0cd80c685f9c13d466780eb5e2" name="ad3558f0cd80c685f9c13d466780eb5e2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad3558f0cd80c685f9c13d466780eb5e2">&#9670;&#160;</a></span>__init__() <span class="overload">[1/4]</span></h2>
@@ -1086,28 +1081,6 @@ container of bits representing specific indices (faces, verts or edges)
 </pre> 
 </div>
 </div>
-<a id="ad8840baafcd9c0e416775ad34bf6848e" name="ad8840baafcd9c0e416775ad34bf6848e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad8840baafcd9c0e416775ad34bf6848e">&#9670;&#160;</a></span>is_proper_subset_of()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> bool mrmeshpy.FaceBitSet.is_proper_subset_of </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment">returns true if, for every bit that is set in this bitset, the corresponding bit in bitset a is also set and if this-&gt;count() &lt; a.count(). Otherwise this function returns false.
-</pre> 
-</div>
-</div>
 <a id="a60b667616829f078187d290eaab1dc6e" name="a60b667616829f078187d290eaab1dc6e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a60b667616829f078187d290eaab1dc6e">&#9670;&#160;</a></span>is_subset_of()</h2>
 
@@ -1128,6 +1101,8 @@ container of bits representing specific indices (faces, verts or edges)
 </div><div class="memdoc">
 <pre class="fragment">returns true if, for every bit that is set in this bitset, the corresponding bit in bitset a is also set. Otherwise this function returns false.
 </pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1BitSet.html#a2be8e340e3ee4b2e1fc14c24833d2a99">mrmeshpy.BitSet</a>.</p>
+
 </div>
 </div>
 <a id="ac575961be449c8ece85d395acab6321a" name="ac575961be449c8ece85d395acab6321a"></a>
@@ -1287,7 +1262,7 @@ container of bits representing specific indices (faces, verts or edges)
 </div>
 </div>
 <a id="a828b46b245108270612ce3bbba72c15b" name="a828b46b245108270612ce3bbba72c15b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a828b46b245108270612ce3bbba72c15b">&#9670;&#160;</a></span>set() <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a828b46b245108270612ce3bbba72c15b">&#9670;&#160;</a></span>set() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1305,8 +1280,31 @@ container of bits representing specific indices (faces, verts or edges)
 
 </div>
 </div>
-<a id="ade03c562c17dc60dc6603e6619a65093" name="ade03c562c17dc60dc6603e6619a65093"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ade03c562c17dc60dc6603e6619a65093">&#9670;&#160;</a></span>set() <span class="overload">[2/3]</span></h2>
+<a id="a31d3e4221363689e370baf60ee30ccaf" name="a31d3e4221363689e370baf60ee30ccaf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31d3e4221363689e370baf60ee30ccaf">&#9670;&#160;</a></span>set() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1FaceBitSet.html">FaceBitSet</a> mrmeshpy.FaceBitSet.set </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1BitSet.html#a0f413602e83efc97d701b2c004092fdf">mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="a66ca1e6ef5ebd1139abfcc8cb1829415" name="a66ca1e6ef5ebd1139abfcc8cb1829415"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66ca1e6ef5ebd1139abfcc8cb1829415">&#9670;&#160;</a></span>set() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1324,7 +1322,7 @@ container of bits representing specific indices (faces, verts or edges)
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool </td>          <td class="paramname"><span class="paramname"><em>val</em></span><span class="paramdefsep"> = </span><span class="paramdefval">True</span>&#160;)</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>val</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1334,7 +1332,7 @@ container of bits representing specific indices (faces, verts or edges)
 </div>
 </div>
 <a id="af85d10b6069037cb96e66cf56c70bdc1" name="af85d10b6069037cb96e66cf56c70bdc1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af85d10b6069037cb96e66cf56c70bdc1">&#9670;&#160;</a></span>set() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af85d10b6069037cb96e66cf56c70bdc1">&#9670;&#160;</a></span>set() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

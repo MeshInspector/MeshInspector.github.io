@@ -15,12 +15,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -164,7 +158,7 @@ $(function(){initNavTree('MRPlane3_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;concepts&gt;</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">namespace </span><a class="code hl_namespaceRef" href="../namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>{</div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
@@ -213,7 +207,7 @@ $(function(){initNavTree('MRPlane3_8h_source.html',''); initResizable(true); });
 <div class="foldopen" id="foldopen00065" data-start="{" data-end="}">
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="structMR_1_1Plane3.html#a38c8491b1563ae8fbbfe5666645cecc5">   65</a></span>[[nodiscard]] <span class="keyword">inline</span> <a class="code hl_struct" href="structMR_1_1Plane3.html">Plane3&lt;T&gt;</a> <a class="code hl_function" href="structMR_1_1Plane3.html#a38c8491b1563ae8fbbfe5666645cecc5">transformed</a>( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1Plane3.html">Plane3&lt;T&gt;</a> &amp; plane, <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1AffineXf.html">AffineXf3&lt;T&gt;</a> &amp; xf )</div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>{</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    <span class="keywordflow">return</span> invTransformed( plane, xf.<a class="code hl_function" href="structMR_1_1AffineXf.html#aa858f1158ee32c91e5e1c76b2c03910e">inverse</a>() );</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    <span class="keywordflow">return</span> invTransformed( plane, xf.inverse() );</div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>}</div>
 </div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
@@ -224,7 +218,7 @@ $(function(){initNavTree('MRPlane3_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>}</div>
 <div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span> </div>
 <div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>[[nodiscard]] <span class="keyword">inline</span> <span class="keywordtype">bool</span> <a class="code hl_function" href="group__BasicGroup.html#gab319e9903036ea1e42a0138273dfbd9e">operator != </a>( <span class="keyword">const</span> Plane3&lt;T&gt; &amp; a, <span class="keyword">const</span> Plane3&lt;T&gt; &amp; b )</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>[[nodiscard]] <span class="keyword">inline</span> <span class="keywordtype">bool</span> <a class="code hl_functionRef" href="../namespaceMR.html#a5534d2437ed57cabae82ae75a441b224">operator != </a>( <span class="keyword">const</span> Plane3&lt;T&gt; &amp; a, <span class="keyword">const</span> Plane3&lt;T&gt; &amp; b )</div>
 <div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>{</div>
 <div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    <span class="keywordflow">return</span> !( a == b );</div>
 <div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>}</div>
@@ -235,12 +229,11 @@ $(function(){initNavTree('MRPlane3_8h_source.html',''); initResizable(true); });
 <div class="ttc" id="aMRMesh_2MRVector3_8h_html"><div class="ttname"><a href="MRMesh_2MRVector3_8h.html">MRVector3.h</a></div></div>
 <div class="ttc" id="aMRMesh_2MRVectorTraits_8h_html"><div class="ttname"><a href="MRMesh_2MRVectorTraits_8h.html">MRVectorTraits.h</a></div></div>
 <div class="ttc" id="agroup__BasicGroup_html_ga300a438da6440ee7d2e92933bcfa6018"><div class="ttname"><a href="group__BasicGroup.html#ga300a438da6440ee7d2e92933bcfa6018">MR::operator==</a></div><div class="ttdeci">MRMESH_API bool operator==(const BitSet &amp;a, const BitSet &amp;b)</div><div class="ttdoc">compare that two bit sets have the same set bits (they can be equal even if sizes are distinct but la...</div></div>
-<div class="ttc" id="agroup__BasicGroup_html_gab319e9903036ea1e42a0138273dfbd9e"><div class="ttname"><a href="group__BasicGroup.html#gab319e9903036ea1e42a0138273dfbd9e">MR::operator!=</a></div><div class="ttdeci">MR_BIND_IGNORE bool operator!=(const SetBitIteratorT&lt; T &gt; &amp;a, const SetBitIteratorT&lt; T &gt; &amp;b)</div><div class="ttdef"><b>Definition</b> MRMesh/MRBitSet.h:303</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
-<div class="ttc" id="astructMR_1_1AffineXf_html"><div class="ttname"><a href="structMR_1_1AffineXf.html">MR::AffineXf</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRAffineXf.h:14</div></div>
-<div class="ttc" id="astructMR_1_1AffineXf_html_aa858f1158ee32c91e5e1c76b2c03910e"><div class="ttname"><a href="structMR_1_1AffineXf.html#aa858f1158ee32c91e5e1c76b2c03910e">MR::AffineXf::inverse</a></div><div class="ttdeci">constexpr AffineXf inverse() const noexcept</div><div class="ttdoc">computes inverse transformation</div></div>
-<div class="ttc" id="astructMR_1_1AffineXf_html_abc589d85e328480de8c5972558bd7b3c"><div class="ttname"><a href="structMR_1_1AffineXf.html#abc589d85e328480de8c5972558bd7b3c">MR::AffineXf::b</a></div><div class="ttdeci">V b</div><div class="ttdef"><b>Definition</b> MRMesh/MRAffineXf.h:19</div></div>
-<div class="ttc" id="astructMR_1_1AffineXf_html_ac50d0dfa0b11a916ac644165073713ca"><div class="ttname"><a href="structMR_1_1AffineXf.html#ac50d0dfa0b11a916ac644165073713ca">MR::AffineXf::A</a></div><div class="ttdeci">M A</div><div class="ttdef"><b>Definition</b> MRMesh/MRAffineXf.h:18</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="../namespaceMR.html">MR</a></div></div>
+<div class="ttc" id="anamespaceMR_html_a5534d2437ed57cabae82ae75a441b224"><div class="ttname"><a href="../namespaceMR.html#a5534d2437ed57cabae82ae75a441b224">MR::operator!=</a></div><div class="ttdeci">bool operator!=(const Color &amp;a, const Color &amp;b)</div><div class="ttdef"><b>Definition</b> MRMesh/MRColor.h:101</div></div>
+<div class="ttc" id="astructMR_1_1AffineXf_html"><div class="ttname"><a href="structMR_1_1AffineXf.html">MR::AffineXf</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRAffineXf.h:21</div></div>
+<div class="ttc" id="astructMR_1_1AffineXf_html_abc589d85e328480de8c5972558bd7b3c"><div class="ttname"><a href="structMR_1_1AffineXf.html#abc589d85e328480de8c5972558bd7b3c">MR::AffineXf::b</a></div><div class="ttdeci">V b</div><div class="ttdef"><b>Definition</b> MRMesh/MRAffineXf.h:26</div></div>
+<div class="ttc" id="astructMR_1_1AffineXf_html_ac50d0dfa0b11a916ac644165073713ca"><div class="ttname"><a href="structMR_1_1AffineXf.html#ac50d0dfa0b11a916ac644165073713ca">MR::AffineXf::A</a></div><div class="ttdeci">M A</div><div class="ttdef"><b>Definition</b> MRMesh/MRAffineXf.h:25</div></div>
 <div class="ttc" id="astructMR_1_1Plane3_html"><div class="ttname"><a href="structMR_1_1Plane3.html">MR::Plane3</a></div><div class="ttdef"><b>Definition</b> MRPlane3.h:17</div></div>
 <div class="ttc" id="astructMR_1_1Plane3_html_a29f7ab9c3671dc6904b3a79d854445ad"><div class="ttname"><a href="structMR_1_1Plane3.html#a29f7ab9c3671dc6904b3a79d854445ad">MR::Plane3::Plane3</a></div><div class="ttdeci">constexpr Plane3() noexcept=default</div></div>
 <div class="ttc" id="astructMR_1_1Plane3_html_a383135f606af5200e0386204ae1eecf3"><div class="ttname"><a href="structMR_1_1Plane3.html#a383135f606af5200e0386204ae1eecf3">MR::Plane3::normalized</a></div><div class="ttdeci">Plane3 normalized() const</div><div class="ttdoc">returns same plane represented with unit n-vector</div><div class="ttdef"><b>Definition</b> MRPlane3.h:35</div></div>
@@ -254,7 +247,7 @@ $(function(){initNavTree('MRPlane3_8h_source.html',''); initResizable(true); });
 <div class="ttc" id="astructMR_1_1Plane3_html_ab78bbcb21e57f07de12885121b3e2177"><div class="ttname"><a href="structMR_1_1Plane3.html#ab78bbcb21e57f07de12885121b3e2177">MR::Plane3::invTransformed</a></div><div class="ttdeci">Plane3&lt; T &gt; invTransformed(const Plane3&lt; T &gt; &amp;pl, const AffineXf3&lt; T &gt; &amp;ixf)</div><div class="ttdef"><b>Definition</b> MRPlane3.h:55</div></div>
 <div class="ttc" id="astructMR_1_1Plane3_html_ad931841bd9391994b3b9a9669c546b86"><div class="ttname"><a href="structMR_1_1Plane3.html#ad931841bd9391994b3b9a9669c546b86">MR::Plane3::operator-</a></div><div class="ttdeci">Plane3 operator-() const</div><div class="ttdoc">returns same plane represented with flipped direction of n-vector</div><div class="ttdef"><b>Definition</b> MRPlane3.h:31</div></div>
 <div class="ttc" id="astructMR_1_1Plane3_html_adc61a99fd27dc36f7b0c520abb625106"><div class="ttname"><a href="structMR_1_1Plane3.html#adc61a99fd27dc36f7b0c520abb625106">MR::Plane3::fromDirAndPt</a></div><div class="ttdeci">static constexpr Plane3 fromDirAndPt(const Vector3&lt; T &gt; &amp;n, const Vector3&lt; T &gt; &amp;p)</div><div class="ttdef"><b>Definition</b> MRPlane3.h:25</div></div>
-<div class="ttc" id="astructMR_1_1Vector3_html"><div class="ttname"><a href="structMR_1_1Vector3.html">MR::Vector3</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRVector3.h:26</div></div>
+<div class="ttc" id="astructMR_1_1Vector3_html"><div class="ttname"><a href="structMR_1_1Vector3.html">MR::Vector3</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRVector3.h:28</div></div>
 <div class="ttc" id="astructMR_1_1VectorTraits_html"><div class="ttname"><a href="structMR_1_1VectorTraits.html">MR::VectorTraits</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRVectorTraits.h:15</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

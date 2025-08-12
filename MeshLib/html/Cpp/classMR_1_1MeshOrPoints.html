@@ -15,12 +15,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -175,18 +169,20 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:af9cbf91d93d22bcc4e487a573b2b8067" id="r_af9cbf91d93d22bcc4e487a573b2b8067"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9cbf91d93d22bcc4e487a573b2b8067">MeshOrPoints</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
-<tr class="separator:af9cbf91d93d22bcc4e487a573b2b8067"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b19905136ab6d31a445cc3884ab0c1e" id="r_a4b19905136ab6d31a445cc3884ab0c1e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b19905136ab6d31a445cc3884ab0c1e">MeshOrPoints</a> (const MeshPart &amp;mp)</td></tr>
 <tr class="separator:a4b19905136ab6d31a445cc3884ab0c1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ef5bfca52ac8e1892322d7cf4585b5b" id="r_a1ef5bfca52ac8e1892322d7cf4585b5b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ef5bfca52ac8e1892322d7cf4585b5b">MeshOrPoints</a> (const <a class="el" href="structMR_1_1PointCloudPart.html">PointCloudPart</a> &amp;pcp)</td></tr>
+<tr class="separator:a1ef5bfca52ac8e1892322d7cf4585b5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9cbf91d93d22bcc4e487a573b2b8067" id="r_af9cbf91d93d22bcc4e487a573b2b8067"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9cbf91d93d22bcc4e487a573b2b8067">MeshOrPoints</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh)</td></tr>
+<tr class="separator:af9cbf91d93d22bcc4e487a573b2b8067"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe1af15504d425b2e6633291ccae6828" id="r_abe1af15504d425b2e6633291ccae6828"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe1af15504d425b2e6633291ccae6828">MeshOrPoints</a> (const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> &amp;pc)</td></tr>
 <tr class="separator:abe1af15504d425b2e6633291ccae6828"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a058b67c8a42bd8837a6bbe4be06bd4cf" id="r_a058b67c8a42bd8837a6bbe4be06bd4cf"><td class="memItemLeft" align="right" valign="top">const MeshPart *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a058b67c8a42bd8837a6bbe4be06bd4cf">asMeshPart</a> () const</td></tr>
 <tr class="memdesc:a058b67c8a42bd8837a6bbe4be06bd4cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">if this object holds a mesh part then returns pointer on it, otherwise returns nullptr  <br /></td></tr>
 <tr class="separator:a058b67c8a42bd8837a6bbe4be06bd4cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8169033d56790de959d2fbb3bbf15da0" id="r_a8169033d56790de959d2fbb3bbf15da0"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8169033d56790de959d2fbb3bbf15da0">asPointCloud</a> () const</td></tr>
-<tr class="memdesc:a8169033d56790de959d2fbb3bbf15da0"><td class="mdescLeft">&#160;</td><td class="mdescRight">if this object holds a point cloud then returns pointer on it, otherwise returns nullptr  <br /></td></tr>
-<tr class="separator:a8169033d56790de959d2fbb3bbf15da0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a309a7ce32b89e73177a05d07a93d3103" id="r_a309a7ce32b89e73177a05d07a93d3103"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structMR_1_1PointCloudPart.html">PointCloudPart</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a309a7ce32b89e73177a05d07a93d3103">asPointCloudPart</a> () const</td></tr>
+<tr class="memdesc:a309a7ce32b89e73177a05d07a93d3103"><td class="mdescLeft">&#160;</td><td class="mdescRight">if this object holds a point cloud part then returns pointer on it, otherwise returns nullptr  <br /></td></tr>
+<tr class="separator:a309a7ce32b89e73177a05d07a93d3103"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a735838d295350004f02283f8429fa620" id="r_a735838d295350004f02283f8429fa620"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Box3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a735838d295350004f02283f8429fa620">getObjBoundingBox</a> () const</td></tr>
 <tr class="separator:a735838d295350004f02283f8429fa620"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec797ad241ba4410f73274ba5e52c51e" id="r_aec797ad241ba4410f73274ba5e52c51e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec797ad241ba4410f73274ba5e52c51e">cacheAABBTree</a> () const</td></tr>
@@ -234,33 +230,8 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="af9cbf91d93d22bcc4e487a573b2b8067" name="af9cbf91d93d22bcc4e487a573b2b8067"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af9cbf91d93d22bcc4e487a573b2b8067">&#9670;&#160;</a></span>MeshOrPoints() <span class="overload">[1/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">MR::MeshOrPoints::MeshOrPoints </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a4b19905136ab6d31a445cc3884ab0c1e" name="a4b19905136ab6d31a445cc3884ab0c1e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4b19905136ab6d31a445cc3884ab0c1e">&#9670;&#160;</a></span>MeshOrPoints() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b19905136ab6d31a445cc3884ab0c1e">&#9670;&#160;</a></span>MeshOrPoints() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -284,8 +255,58 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a1ef5bfca52ac8e1892322d7cf4585b5b" name="a1ef5bfca52ac8e1892322d7cf4585b5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ef5bfca52ac8e1892322d7cf4585b5b">&#9670;&#160;</a></span>MeshOrPoints() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::MeshOrPoints::MeshOrPoints </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1PointCloudPart.html">PointCloudPart</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>pcp</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af9cbf91d93d22bcc4e487a573b2b8067" name="af9cbf91d93d22bcc4e487a573b2b8067"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9cbf91d93d22bcc4e487a573b2b8067">&#9670;&#160;</a></span>MeshOrPoints() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::MeshOrPoints::MeshOrPoints </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="abe1af15504d425b2e6633291ccae6828" name="abe1af15504d425b2e6633291ccae6828"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abe1af15504d425b2e6633291ccae6828">&#9670;&#160;</a></span>MeshOrPoints() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abe1af15504d425b2e6633291ccae6828">&#9670;&#160;</a></span>MeshOrPoints() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -360,8 +381,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a8169033d56790de959d2fbb3bbf15da0" name="a8169033d56790de959d2fbb3bbf15da0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8169033d56790de959d2fbb3bbf15da0">&#9670;&#160;</a></span>asPointCloud()</h2>
+<a id="a309a7ce32b89e73177a05d07a93d3103" name="a309a7ce32b89e73177a05d07a93d3103"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a309a7ce32b89e73177a05d07a93d3103">&#9670;&#160;</a></span>asPointCloudPart()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -370,7 +391,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a> * MR::MeshOrPoints::asPointCloud </td>
+          <td class="memname">const <a class="el" href="structMR_1_1PointCloudPart.html">PointCloudPart</a> * MR::MeshOrPoints::asPointCloudPart </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -383,7 +404,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>if this object holds a point cloud then returns pointer on it, otherwise returns nullptr </p>
+<p>if this object holds a point cloud part then returns pointer on it, otherwise returns nullptr </p>
 
 </div>
 </div>
@@ -480,7 +501,7 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>returns a function that updates projection (closest) points on this, the update takes place only if res.distSq on input is more than squared distance to the closest point </p>
+<p>returns a function that updates previously known projection (closest) points on this, the update takes place only if newly found closest point is closer to p than sqrt(res.distSq) given on input </p>
 
 </div>
 </div>
@@ -667,7 +688,7 @@ Public Member Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="classMR_1_1MeshOrPoints.html">MeshOrPoints</a></li>
+    <li class="navelem"><b>MR</b></li><li class="navelem"><a class="el" href="classMR_1_1MeshOrPoints.html">MeshOrPoints</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

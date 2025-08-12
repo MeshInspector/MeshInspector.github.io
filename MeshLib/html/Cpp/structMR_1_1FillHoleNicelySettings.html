@@ -15,12 +15,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -169,6 +163,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a62e34964b014489a6f1d3f2e324759ff" id="r_a62e34964b014489a6f1d3f2e324759ff"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a62e34964b014489a6f1d3f2e324759ff">triangulateOnly</a> = false</td></tr>
 <tr class="memdesc:a62e34964b014489a6f1d3f2e324759ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">If false then additional vertices are created inside the patch for best mesh quality.  <br /></td></tr>
 <tr class="separator:a62e34964b014489a6f1d3f2e324759ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95c1f4256940d339c8ee702d270fff49" id="r_a95c1f4256940d339c8ee702d270fff49"><td class="memItemLeft" align="right" valign="top">UndirectedEdgeBitSet *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95c1f4256940d339c8ee702d270fff49">notFlippable</a> = nullptr</td></tr>
+<tr class="memdesc:a95c1f4256940d339c8ee702d270fff49"><td class="mdescLeft">&#160;</td><td class="mdescRight">in triangulateOnly = false mode, edges specified by this bit-set will never be flipped, but they can be split so it is updated during the operation  <br /></td></tr>
+<tr class="separator:a95c1f4256940d339c8ee702d270fff49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adebcc27b0bdbb4fa55baa8eae16a0dfb" id="r_adebcc27b0bdbb4fa55baa8eae16a0dfb"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adebcc27b0bdbb4fa55baa8eae16a0dfb">maxEdgeLen</a> = 0</td></tr>
 <tr class="memdesc:adebcc27b0bdbb4fa55baa8eae16a0dfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subdivision is stopped when all edges inside or on the boundary of the region are not longer than this value.  <br /></td></tr>
 <tr class="separator:adebcc27b0bdbb4fa55baa8eae16a0dfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -190,10 +187,10 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a29116e24393106e531f26abb886019b2" id="r_a29116e24393106e531f26abb886019b2"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(EdgeId e1, EdgeId e)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29116e24393106e531f26abb886019b2">onEdgeSplit</a></td></tr>
 <tr class="memdesc:a29116e24393106e531f26abb886019b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">(If this is set) this function is called in subdivision each time edge (e) is split into (e1-&gt;e), but before the ring is made Delone  <br /></td></tr>
 <tr class="separator:a29116e24393106e531f26abb886019b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a033b24c89dfe82d1d7ebadc8b24f1a79" id="r_a033b24c89dfe82d1d7ebadc8b24f1a79"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#a5ac9f08cd2ef48394fa1c77a8ebdd6c8">EdgeWeights</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a033b24c89dfe82d1d7ebadc8b24f1a79">edgeWeights</a> = <a class="el" href="namespaceMR.html#a5ac9f08cd2ef48394fa1c77a8ebdd6c8af2ccdc14df1f860d7b09661c47cc15c9">EdgeWeights::Cotan</a></td></tr>
+<tr class="memitem:a033b24c89dfe82d1d7ebadc8b24f1a79" id="r_a033b24c89dfe82d1d7ebadc8b24f1a79"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../namespaceMR.html#a5ac9f08cd2ef48394fa1c77a8ebdd6c8">EdgeWeights</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a033b24c89dfe82d1d7ebadc8b24f1a79">edgeWeights</a> = EdgeWeights::Cotan</td></tr>
 <tr class="memdesc:a033b24c89dfe82d1d7ebadc8b24f1a79"><td class="mdescLeft">&#160;</td><td class="mdescRight">edge weighting scheme for smoothCurvature mode  <br /></td></tr>
 <tr class="separator:a033b24c89dfe82d1d7ebadc8b24f1a79"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa1d0f57cc8f6d2bb9413ae1e315e3ce6" id="r_aa1d0f57cc8f6d2bb9413ae1e315e3ce6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR.html#ada281bbc8bccd66b01be1b6d2b99e3cd">VertexMass</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1d0f57cc8f6d2bb9413ae1e315e3ce6">vmass</a> = <a class="el" href="namespaceMR.html#ada281bbc8bccd66b01be1b6d2b99e3cda19c562a36aeb455d09534f93b4f5236f">VertexMass::Unit</a></td></tr>
+<tr class="memitem:aa1d0f57cc8f6d2bb9413ae1e315e3ce6" id="r_aa1d0f57cc8f6d2bb9413ae1e315e3ce6"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../namespaceMR.html#ada281bbc8bccd66b01be1b6d2b99e3cd">VertexMass</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1d0f57cc8f6d2bb9413ae1e315e3ce6">vmass</a> = VertexMass::Unit</td></tr>
 <tr class="memdesc:aa1d0f57cc8f6d2bb9413ae1e315e3ce6"><td class="mdescLeft">&#160;</td><td class="mdescRight">vertex mass scheme for smoothCurvature mode  <br /></td></tr>
 <tr class="separator:aa1d0f57cc8f6d2bb9413ae1e315e3ce6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e1fac34058b267d696714994b158ce2" id="r_a8e1fac34058b267d696714994b158ce2"><td class="memItemLeft" align="right" valign="top">VertUVCoords *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e1fac34058b267d696714994b158ce2">uvCoords</a> = {}</td></tr>
@@ -246,7 +243,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespaceMR.html#a5ac9f08cd2ef48394fa1c77a8ebdd6c8">EdgeWeights</a> MR::FillHoleNicelySettings::edgeWeights = <a class="el" href="namespaceMR.html#a5ac9f08cd2ef48394fa1c77a8ebdd6c8af2ccdc14df1f860d7b09661c47cc15c9">EdgeWeights::Cotan</a></td>
+          <td class="memname"><a class="elRef" href="../namespaceMR.html#a5ac9f08cd2ef48394fa1c77a8ebdd6c8">EdgeWeights</a> MR::FillHoleNicelySettings::edgeWeights = EdgeWeights::Cotan</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -332,6 +329,22 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Additionally smooth 3 layers of vertices near hole boundary both inside and outside of the hole. </p>
+
+</div>
+</div>
+<a id="a95c1f4256940d339c8ee702d270fff49" name="a95c1f4256940d339c8ee702d270fff49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95c1f4256940d339c8ee702d270fff49">&#9670;&#160;</a></span>notFlippable</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">UndirectedEdgeBitSet* MR::FillHoleNicelySettings::notFlippable = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>in triangulateOnly = false mode, edges specified by this bit-set will never be flipped, but they can be split so it is updated during the operation </p>
 
 </div>
 </div>
@@ -422,7 +435,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespaceMR.html#ada281bbc8bccd66b01be1b6d2b99e3cd">VertexMass</a> MR::FillHoleNicelySettings::vmass = <a class="el" href="namespaceMR.html#ada281bbc8bccd66b01be1b6d2b99e3cda19c562a36aeb455d09534f93b4f5236f">VertexMass::Unit</a></td>
+          <td class="memname"><a class="elRef" href="../namespaceMR.html#ada281bbc8bccd66b01be1b6d2b99e3cd">VertexMass</a> MR::FillHoleNicelySettings::vmass = VertexMass::Unit</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -440,7 +453,7 @@ Public Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="structMR_1_1FillHoleNicelySettings.html">FillHoleNicelySettings</a></li>
+    <li class="navelem"><b>MR</b></li><li class="navelem"><a class="el" href="structMR_1_1FillHoleNicelySettings.html">FillHoleNicelySettings</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

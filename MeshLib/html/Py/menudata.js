@@ -29,6 +29,7 @@ var menudata={children:[
 {text:"Python",url:"../MeshLibPythonSetupGuide.html"},
 {text:"C++",url:"../MeshLibCppSetupGuide.html"},
 {text:"C#",url:"../MeshLibCSharpSetupGuide.html"},
+{text:"C",url:"../MeshLibCSetupGuide.html"},
 {text:"CMake",url:"../MeshLibCmakeSetupGuide.html"}]},
 {text:"License",url:"../License.html"},
 {text:"Tutorials",url:"../Tutorials.html",children:[
@@ -144,6 +145,7 @@ var menudata={children:[
 {text:"i",url:"namespacemembers_vars_i.html#index_i"},
 {text:"l",url:"namespacemembers_vars_l.html#index_l"},
 {text:"m",url:"namespacemembers_vars_m.html#index_m"},
+{text:"n",url:"namespacemembers_vars_n.html#index_n"},
 {text:"o",url:"namespacemembers_vars_o.html#index_o"},
 {text:"p",url:"namespacemembers_vars_p.html#index_p"},
 {text:"q",url:"namespacemembers_vars_q.html#index_q"},
@@ -239,5 +241,6 @@ var menudata={children:[
 {text:"y",url:"functions_vars_y.html#index_y"},
 {text:"z",url:"functions_vars_z.html#index_z"}]}]}]},
 {text:"File List",url:"files.html",children:[
-{text:"File List",url:"files.html"}]}]}]},
-{text:"Thirdparty List",url:"../ThirdParty.html"}]}
+{text:"File List",url:"files.html"}]}]},
+{text:"C",url:"../C/APICPage.html"}]},
+{text:"Third-Party Dependencies",url:"../ThirdParty.html"}]}

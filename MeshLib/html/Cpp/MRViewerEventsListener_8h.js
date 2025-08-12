@@ -19,6 +19,8 @@ var MRViewerEventsListener_8h =
     [ "MR::DrawListener", "structMR_1_1DrawListener.html", "structMR_1_1DrawListener" ],
     [ "MR::PostDrawListener", "structMR_1_1PostDrawListener.html", "structMR_1_1PostDrawListener" ],
     [ "MR::DragDropListener", "structMR_1_1DragDropListener.html", "structMR_1_1DragDropListener" ],
+    [ "MR::DragEntranceListener", "structMR_1_1DragEntranceListener.html", "structMR_1_1DragEntranceListener" ],
+    [ "MR::DragOverListener", "structMR_1_1DragOverListener.html", "structMR_1_1DragOverListener" ],
     [ "MR::PostResizeListener", "structMR_1_1PostResizeListener.html", "structMR_1_1PostResizeListener" ],
     [ "MR::InterruptCloseListener", "structMR_1_1InterruptCloseListener.html", "structMR_1_1InterruptCloseListener" ],
     [ "MR::PostRescaleListener", "structMR_1_1PostRescaleListener.html", "structMR_1_1PostRescaleListener" ],

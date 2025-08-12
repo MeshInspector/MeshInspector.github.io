@@ -12,5 +12,6 @@ var MRVoxels_2MRFloatGrid_8h =
     [ "resampled", "MRVoxels_2MRFloatGrid_8h.html#ga1ca037d5840cb55f43edc7af7164ee53", null ],
     [ "setLevelSetType", "MRVoxels_2MRFloatGrid_8h.html#ga87e6e60c5605c5450f4bd815128674c9", null ],
     [ "setValue", "MRVoxels_2MRFloatGrid_8h.html#ga28830151316f69a9dfd4e1fa94ccf465", null ],
-    [ "setValue", "MRVoxels_2MRFloatGrid_8h.html#gac5781724903abd08d021ac04b898a862", null ]
+    [ "setValue", "MRVoxels_2MRFloatGrid_8h.html#gac5781724903abd08d021ac04b898a862", null ],
+    [ "OpenVdbFloatGrid", "MRVoxels_2MRFloatGrid_8h.html#gaaa4989f3d8e88d20b6cbebc9f51db434", null ]
 ];

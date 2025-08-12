@@ -17,15 +17,16 @@ var dir_ae78f784ae402f48d875196e46319a59 =
     [ "MRMeshDecimate.h", "MRTestC_2MRMeshDecimate_8h.html", "MRTestC_2MRMeshDecimate_8h" ],
     [ "MRMeshExtrude.h", "MRTestC_2MRMeshExtrude_8h.html", "MRTestC_2MRMeshExtrude_8h" ],
     [ "MRMeshFillHole.h", "MRTestC_2MRMeshFillHole_8h.html", "MRTestC_2MRMeshFillHole_8h" ],
+    [ "MRMeshMeshDistance.h", "MRTestC_2MRMeshMeshDistance_8h.html", "MRTestC_2MRMeshMeshDistance_8h" ],
     [ "MRMeshNormals.h", "MRTestC_2MRMeshNormals_8h.html", "MRTestC_2MRMeshNormals_8h" ],
-    [ "MRMeshOffset.h", "MRMeshOffset_8h.html", "MRMeshOffset_8h" ],
+    [ "MRMeshOffset.h", "MRTestC_2MRMeshOffset_8h.html", "MRTestC_2MRMeshOffset_8h" ],
     [ "MRMeshSubdivide.h", "MRTestC_2MRMeshSubdivide_8h.html", "MRTestC_2MRMeshSubdivide_8h" ],
     [ "MRMeshTopology.h", "MRTestC_2MRMeshTopology_8h.html", "MRTestC_2MRMeshTopology_8h" ],
     [ "MRPointCloud.h", "MRTestC_2MRPointCloud_8h.html", "MRTestC_2MRPointCloud_8h" ],
     [ "MRPointsToMeshProjector.h", "MRTestC_2MRPointsToMeshProjector_8h.html", "MRTestC_2MRPointsToMeshProjector_8h" ],
     [ "MRVDBConversions.h", "MRTestC_2MRVDBConversions_8h.html", "MRTestC_2MRVDBConversions_8h" ],
     [ "MRVector3.h", "MRTestC_2MRVector3_8h.html", "MRTestC_2MRVector3_8h" ],
-    [ "SimpleObjects.h", "SimpleObjects_8h.html", "SimpleObjects_8h" ],
-    [ "TestFunctions.h", "TestFunctions_8h.html", "TestFunctions_8h" ],
-    [ "TestMacros.h", "TestMacros_8h.html", "TestMacros_8h" ]
+    [ "SimpleObjects.h", "MRTestC_2SimpleObjects_8h.html", "MRTestC_2SimpleObjects_8h" ],
+    [ "TestFunctions.h", "MRTestC_2TestFunctions_8h.html", "MRTestC_2TestFunctions_8h" ],
+    [ "TestMacros.h", "MRTestC_2TestMacros_8h.html", "MRTestC_2TestMacros_8h" ]
 ];

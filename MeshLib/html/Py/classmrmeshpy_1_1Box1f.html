@@ -15,12 +15,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -212,6 +206,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a7283df57be977f134adb481d7e8a84d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50339c692786556b205362c1205a662a" id="r_a50339c692786556b205362c1205a662a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50339c692786556b205362c1205a662a">getDistanceSq</a> (self, float pt)</td></tr>
 <tr class="separator:a50339c692786556b205362c1205a662a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e7a4da4ec942d658ad86340cf2bd277" id="r_a0e7a4da4ec942d658ad86340cf2bd277"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e7a4da4ec942d658ad86340cf2bd277">getProjection</a> (self, float pt)</td></tr>
+<tr class="separator:a0e7a4da4ec942d658ad86340cf2bd277"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab298d77a0a3da9263656410741d090ee" id="r_ab298d77a0a3da9263656410741d090ee"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab298d77a0a3da9263656410741d090ee">include</a> (self, float pt)</td></tr>
 <tr class="separator:ab298d77a0a3da9263656410741d090ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a82fa695cb393cbfd2e3645dd337f8028" id="r_a82fa695cb393cbfd2e3645dd337f8028"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a82fa695cb393cbfd2e3645dd337f8028">include</a> (self, <a class="el" href="classmrmeshpy_1_1Box1f.html">Box1f</a> b)</td></tr>
@@ -233,8 +229,6 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a9e7ec85839de79a1928c01ebf0f28844" id="r_a9e7ec85839de79a1928c01ebf0f28844"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e7ec85839de79a1928c01ebf0f28844">__init__</a> (*args, **kwargs)</td></tr>
-<tr class="separator:a9e7ec85839de79a1928c01ebf0f28844"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e7ec85839de79a1928c01ebf0f28844" id="r_a9e7ec85839de79a1928c01ebf0f28844"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e7ec85839de79a1928c01ebf0f28844">__init__</a> (*args, **kwargs)</td></tr>
 <tr class="separator:a9e7ec85839de79a1928c01ebf0f28844"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e7ec85839de79a1928c01ebf0f28844" id="r_a9e7ec85839de79a1928c01ebf0f28844"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e7ec85839de79a1928c01ebf0f28844">__init__</a> (*args, **kwargs)</td></tr>
@@ -269,7 +263,7 @@ Aliases:  MinMaxf
 Box given by its min- and max- corners
 </pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a9e7ec85839de79a1928c01ebf0f28844" name="a9e7ec85839de79a1928c01ebf0f28844"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9e7ec85839de79a1928c01ebf0f28844">&#9670;&#160;</a></span>__init__() <span class="overload">[1/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e7ec85839de79a1928c01ebf0f28844">&#9670;&#160;</a></span>__init__() <span class="overload">[1/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -300,39 +294,7 @@ Box given by its min- and max- corners
 </div>
 </div>
 <a id="a9e7ec85839de79a1928c01ebf0f28844" name="a9e7ec85839de79a1928c01ebf0f28844"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9e7ec85839de79a1928c01ebf0f28844">&#9670;&#160;</a></span>__init__() <span class="overload">[2/6]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"> None mrmeshpy.Box1f.__init__ </td>
-          <td>(</td>
-          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<pre class="fragment">skip initialization of min/max
-</pre> 
-<p>Reimplemented in <a class="el" href="classmrmeshpy_1_1SimpleVolumeMinMax.html#abfc09fbc871e3f89385a9e55f90b50d5">mrmeshpy.SimpleVolumeMinMax</a>, <a class="el" href="classmrmeshpy_1_1SimpleVolumeMinMax.html#ab6e7e76f12bdafe45c385f02ab5438fd">mrmeshpy.SimpleVolumeMinMax</a>, <a class="el" href="classmrmeshpy_1_1VdbVolume.html#a15b63141b47fa6d9caebdc3a58f199ad">mrmeshpy.VdbVolume</a>, and <a class="el" href="classmrmeshpy_1_1VdbVolume.html#ae874d6557de145e82c93b1d63e720f41">mrmeshpy.VdbVolume</a>.</p>
-
-</div>
-</div>
-<a id="a9e7ec85839de79a1928c01ebf0f28844" name="a9e7ec85839de79a1928c01ebf0f28844"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9e7ec85839de79a1928c01ebf0f28844">&#9670;&#160;</a></span>__init__() <span class="overload">[3/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e7ec85839de79a1928c01ebf0f28844">&#9670;&#160;</a></span>__init__() <span class="overload">[2/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -363,7 +325,7 @@ Box given by its min- and max- corners
 </div>
 </div>
 <a id="acb13314a542c666044147152badabdc6" name="acb13314a542c666044147152badabdc6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acb13314a542c666044147152badabdc6">&#9670;&#160;</a></span>__init__() <span class="overload">[4/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#acb13314a542c666044147152badabdc6">&#9670;&#160;</a></span>__init__() <span class="overload">[3/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -383,7 +345,7 @@ Box given by its min- and max- corners
 </div>
 </div>
 <a id="a43a69f82b50a238e618649d3740da6da" name="a43a69f82b50a238e618649d3740da6da"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a43a69f82b50a238e618649d3740da6da">&#9670;&#160;</a></span>__init__() <span class="overload">[5/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a43a69f82b50a238e618649d3740da6da">&#9670;&#160;</a></span>__init__() <span class="overload">[4/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -411,7 +373,7 @@ Box given by its min- and max- corners
 </div>
 </div>
 <a id="a78da7753874fa1dd9a11506baa77a51d" name="a78da7753874fa1dd9a11506baa77a51d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a78da7753874fa1dd9a11506baa77a51d">&#9670;&#160;</a></span>__init__() <span class="overload">[6/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a78da7753874fa1dd9a11506baa77a51d">&#9670;&#160;</a></span>__init__() <span class="overload">[5/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -645,8 +607,8 @@ Box given by its min- and max- corners
       </table>
 </div><div class="memdoc">
 <pre class="fragment">returns the corner of this box as specified by given bool-vector:
-1 element in (c) means take min's coordinate,
-0 element in (c) means take max's coordinate
+0 element in (c) means take min's coordinate,
+1 element in (c) means take max's coordinate
 </pre> 
 </div>
 </div>
@@ -838,6 +800,29 @@ finds the box's corner for which d is maximal
 </div><div class="memdoc">
 <pre class="fragment">considering all planes with given normal and arbitrary shift: dot(n,x) = d
 finds the box's corner for which d is minimal
+</pre> 
+</div>
+</div>
+<a id="a0e7a4da4ec942d658ad86340cf2bd277" name="a0e7a4da4ec942d658ad86340cf2bd277"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e7a4da4ec942d658ad86340cf2bd277">&#9670;&#160;</a></span>getProjection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> float mrmeshpy.Box1f.getProjection </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>pt</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">returns the closest point on the box to the given point
+for points outside the box this is equivalent to getBoxClosestPointTo
 </pre> 
 </div>
 </div>

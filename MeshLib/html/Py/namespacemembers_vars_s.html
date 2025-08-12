@@ -15,12 +15,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -169,9 +163,12 @@ $(function(){initNavTree('namespacemembers_vars_s.html',''); initResizable(true)
 <li>std_array_Vector3d_3&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#aa3f28cb84c3db3a5d1f10c85261958ee">mrmeshpy</a></li>
 <li>std_array_Vector3f_3&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#ae61105e1c099bb231a5c44c5e7765c0a">mrmeshpy</a></li>
 <li>std_array_Vector3i_3&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a4f6795165790734bf0a7525f85027106">mrmeshpy</a></li>
+<li>std_array_VertId_2&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#aa48a7b643447d491452c82b1bee1f6a8">mrmeshpy</a></li>
 <li>std_array_VertId_3&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#aa6da4f17ef9d7e4b8d1c3c37db4ba102">mrmeshpy</a></li>
 <li>std_optional_Box1f&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a3c9f51911703961e475488e8930b27e0">mrmeshpy</a></li>
 <li>std_optional_Box3f&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a4c64a31d97ce364315614893e9940a57">mrmeshpy</a></li>
+<li>std_optional_Edges&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a0e3bacf88e3903b10cea1b07a9337809">mrmeshpy</a></li>
+<li>std_optional_Triangulation&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a515f346910c2d13b4db9837d309e91d8">mrmeshpy</a></li>
 <li>std_optional_Vector2f&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#aeabfaf8c966a6a139b65759f65859206">mrmeshpy</a></li>
 <li>std_optional_Vector3f&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a93025067828d22123b542c055ffc8ae2">mrmeshpy</a></li>
 <li>std_shared_ptr_ChangeActiveBoxAction_Obj&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a8e1f623d377c892c50d228068079cd42">mrmeshpy</a></li>
@@ -193,7 +190,6 @@ $(function(){initNavTree('namespacemembers_vars_s.html',''); initResizable(true)
 <li>std_shared_ptr_ObjectMeshHolder&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a97e1b9eba97419ba203f29058c66b47d">mrmeshpy</a></li>
 <li>std_shared_ptr_ObjectPoints&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a3f9743c0ba3e4432091430f4b0b31239">mrmeshpy</a></li>
 <li>std_shared_ptr_ObjectVoxels&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#aacb1ecb4f23842b29e52f5aba87f8d7a">mrmeshpy</a></li>
-<li>std_shared_ptr_OpenVdbFloatGrid&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#ad40fb4e890a631d9565fcc357ecfb21c">mrmeshpy</a></li>
 <li>std_shared_ptr_PointCloud&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a23ac485867cb5e42536a5da7f3564ddf">mrmeshpy</a></li>
 <li>std_shared_ptr_Polyline3&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a56c83dcdd5adc49aa3d969ccb985dea4">mrmeshpy</a></li>
 <li>std_shared_ptr_std_vector_std_string&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#ad93b4a024d5ddb8ee3ae17e933e6c239">mrmeshpy</a></li>
@@ -201,15 +197,17 @@ $(function(){initNavTree('namespacemembers_vars_s.html',''); initResizable(true)
 <li>std_unique_ptr_NoDefInit_Id_EdgeTag_pointer&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a36829f1039d38bffb07dcab14172da04">mrmeshpy</a></li>
 <li>std_unique_ptr_NoDefInit_Id_ICPElemtTag_pointer&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#ae436958af1321d6cdb8ee9cb5b33b880">mrmeshpy</a></li>
 <li>std_unique_ptr_NoDefInit_Id_VoxelTag_pointer&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a052423f06fe821307193db656f3de882">mrmeshpy</a></li>
-<li>std_variant_EdgeMap_phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#acc5e8f83df1a74b0f140d88467ebd157">mrmeshpy</a></li>
-<li>std_variant_FaceId_Id_EdgeTag_VertId&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#aa9d692aa68ebb4e6816f8094c3e187e1">mrmeshpy</a></li>
+<li>std_variant_EdgeMap_phmap_flat_hash_map_EdgeId_EdgeId&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a1674908f0ccc51c3e4cdcf41bba084b3">mrmeshpy</a></li>
+<li>std_variant_FaceId_EdgeId_VertId&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a3132510da125a28fcabdf4832c0092ff">mrmeshpy</a></li>
 <li>std_variant_FaceMap_phmap_flat_hash_map_FaceId_FaceId&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#abc3ddd2515a1141dbf835352aa028ba9">mrmeshpy</a></li>
 <li>std_variant_float_Vector3f&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a82ba35f71a2aab60237199d0240f5a31">mrmeshpy</a></li>
+<li>std_variant_Polynomial_double_0_Polynomial_double_1_Polynomial_double_2_Polynomial_double_3_Polynomial_double_4_Polynomial_double_5_Polynomial_double_6&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a8b8362b22591b9167f8550bd46df1926">mrmeshpy</a></li>
+<li>std_variant_Polynomial_float_0_Polynomial_float_1_Polynomial_float_2_Polynomial_float_3_Polynomial_float_4_Polynomial_float_5_Polynomial_float_6&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a83e544fc98a7de5e61f4275f6aa202a4">mrmeshpy</a></li>
 <li>std_variant_Sphere3f_Features_Primitives_ConeSegment_Features_Primitives_Plane&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#aafffd1db0a22325ab27806db71eb2b5c">mrmeshpy</a></li>
 <li>std_variant_std_monostate_MeshTriPoint_EdgePoint_VertId&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#aea6a51117013863333d79a2bcad40930">mrmeshpy</a></li>
 <li>std_variant_UndirectedEdgeMap_phmap_flat_hash_map_UndirectedEdgeId_UndirectedEdgeId&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a8039f349dd91df5057618f083caf0a2d">mrmeshpy</a></li>
 <li>std_variant_VertMap_phmap_flat_hash_map_VertId_VertId&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a92269dfaed87153fb186f39a5f357936">mrmeshpy</a></li>
-<li>std_variant_WholeEdgeMap_phmap_flat_hash_map_UndirectedEdgeId_Id_EdgeTag&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#ac0571ab83829311e2580362e43ac1524">mrmeshpy</a></li>
+<li>std_variant_WholeEdgeMap_phmap_flat_hash_map_UndirectedEdgeId_EdgeId&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a8a6b21026995569824dba85d8410d7ef">mrmeshpy</a></li>
 <li>std_vector_AABBTreeNode_AABBTreeTraits_FaceTag_Box3f&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a7cc88f2b15fb744719a95c94a7309637">mrmeshpy</a></li>
 <li>std_vector_AABBTreeNode_AABBTreeTraits_UndirectedEdgeTag_Box2f&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a710a5644186a54d647e1a327b79be140">mrmeshpy</a></li>
 <li>std_vector_AABBTreeNode_AABBTreeTraits_UndirectedEdgeTag_Box3f&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a5f4bec78b942f67e03dcc2311602599d">mrmeshpy</a></li>
@@ -284,13 +282,17 @@ $(function(){initNavTree('namespacemembers_vars_s.html',''); initResizable(true)
 <li>std_vector_RegionId&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#af19d5091313c1f66ed40c8145f032193">mrmeshpy</a></li>
 <li>std_vector_RigidXf3d&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a9cb5ed63b70dcd66a0050fadb86813e4">mrmeshpy</a></li>
 <li>std_vector_size_t&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#aa930811cb01e1e375dc43eba8179d336">mrmeshpy</a></li>
+<li>std_vector_std_array_std_filesystem_path_4&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a2d468bab21bf6401979bfc600e9f364f">mrmeshpy</a></li>
 <li>std_vector_std_array_Vector3f_3&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a94c66774f30576cf42943451573af3a6">mrmeshpy</a></li>
+<li>std_vector_std_array_VertId_2&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a39d50d94703822d549f43e067e555219">mrmeshpy</a></li>
 <li>std_vector_std_array_VertId_3&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a0aaea46b67c00371fa90f277d093ca1c">mrmeshpy</a></li>
+<li>std_vector_std_pair_EdgeId_EdgeId&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a60be01d4fab127257a1660d97f553213">mrmeshpy</a></li>
 <li>std_vector_std_pair_size_t_size_t&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a2d9c722d1fcc8301ef242cc2b1f91cd3">mrmeshpy</a></li>
 <li>std_vector_std_pair_Vector3f_Vector3f&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#ae791d39c9ac9d918104c6c9010dccee6">mrmeshpy</a></li>
 <li>std_vector_std_pair_VertId_VertId&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#ac5dac13d81ad317625f070e7c4b9a502">mrmeshpy</a></li>
 <li>std_vector_std_shared_ptr_const_Object&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a6653103c5ab62735eae9e7dc7ee0ff16">mrmeshpy</a></li>
 <li>std_vector_std_variant_Sphere3f_Features_Primitives_ConeSegment_Features_Primitives_Plane&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a26efdefc8eb83aff5dff436e800f7a24">mrmeshpy</a></li>
+<li>std_vector_std_vector_EdgeId&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#ac06a5c39e4a57f26382428a7c7bc696b">mrmeshpy</a></li>
 <li>std_vector_std_vector_EdgePoint_const_reference&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a558b1cdd4176b5993f3aeeee840f5600">mrmeshpy</a></li>
 <li>std_vector_std_vector_EdgePoint_reference&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a3742ec0229a46768fa26741eb9d40ca6">mrmeshpy</a></li>
 <li>std_vector_std_vector_EdgePoint_value_type&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a09183933273c7c0fd3fb5eb94e7ae74e">mrmeshpy</a></li>
@@ -330,6 +332,7 @@ $(function(){initNavTree('namespacemembers_vars_s.html',''); initResizable(true)
 <li>std_vector_VertBitSet&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a9b95b447d1a05d4a9b215dcd2810e418">mrmeshpy</a></li>
 <li>std_vector_VertId&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a4ecd2a55097eb79dd7cade993c569635">mrmeshpy</a></li>
 <li>std_vector_VoxelBitSet&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a22c70d7caec898071432f5960aaaa5bb">mrmeshpy</a></li>
+<li>std_vector_VoxelId&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a40edf0b7f654b5b7f370db9e3f7587ee">mrmeshpy</a></li>
 <li>std_vector_WatershedGraph_BasinInfo_const_reference&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#aa61e27d2611c5c5d0a07db9c0bc6913b">mrmeshpy</a></li>
 <li>std_vector_WatershedGraph_BasinInfo_reference&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#af04a2bec222ef96a094ab427bb7410c0">mrmeshpy</a></li>
 <li>std_vector_WatershedGraph_BasinInfo_value_type&#160;:&#160;<a class="el" href="namespacemrmeshpy.html#a63b9fc939ac9678c195b54200c048ef5">mrmeshpy</a></li>

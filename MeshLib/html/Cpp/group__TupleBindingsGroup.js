@@ -1,4 +1,4 @@
 var group__TupleBindingsGroup =
 [
-    [ "MR", "namespaceMR.html", null ]
+    [ "MR", "../namespaceMR.html", null ]
 ];

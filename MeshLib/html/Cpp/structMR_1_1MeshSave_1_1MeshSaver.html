@@ -15,12 +15,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -164,11 +158,29 @@ $(function(){initNavTree('structMR_1_1MeshSave_1_1MeshSaver.html',''); initResiz
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a4951d53470a1d6ced4ee918e8836c3fc" id="r_a4951d53470a1d6ced4ee918e8836c3fc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR_1_1MeshSave.html#a44ae097f41a9722d0110ffb971ba7ce0">MeshFileSaver</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4951d53470a1d6ced4ee918e8836c3fc">fileSave</a> { nullptr }</td></tr>
+<tr class="memdesc:a4951d53470a1d6ced4ee918e8836c3fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">saver in a file given by its path  <br /></td></tr>
 <tr class="separator:a4951d53470a1d6ced4ee918e8836c3fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42c3b3942648bbdf04a63ea09d084621" id="r_a42c3b3942648bbdf04a63ea09d084621"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMR_1_1MeshSave.html#a7e16b086c414a0768e241ea5f21ca9b6">MeshStreamSaver</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42c3b3942648bbdf04a63ea09d084621">streamSave</a> { nullptr }</td></tr>
+<tr class="memdesc:a42c3b3942648bbdf04a63ea09d084621"><td class="mdescLeft">&#160;</td><td class="mdescRight">saver in a std::ostream  <br /></td></tr>
 <tr class="separator:a42c3b3942648bbdf04a63ea09d084621"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88e501ec164cae8c6cfe40f5fa7438cc" id="r_a88e501ec164cae8c6cfe40f5fa7438cc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1MeshSave_1_1MeshSaverCapabilities.html">MeshSaverCapabilities</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88e501ec164cae8c6cfe40f5fa7438cc">capabilities</a></td></tr>
+<tr class="separator:a88e501ec164cae8c6cfe40f5fa7438cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a88e501ec164cae8c6cfe40f5fa7438cc" name="a88e501ec164cae8c6cfe40f5fa7438cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88e501ec164cae8c6cfe40f5fa7438cc">&#9670;&#160;</a></span>capabilities</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1MeshSave_1_1MeshSaverCapabilities.html">MeshSaverCapabilities</a> MR::MeshSave::MeshSaver::capabilities</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a4951d53470a1d6ced4ee918e8836c3fc" name="a4951d53470a1d6ced4ee918e8836c3fc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4951d53470a1d6ced4ee918e8836c3fc">&#9670;&#160;</a></span>fileSave</h2>
 
@@ -180,6 +192,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>saver in a file given by its path </p>
 
 </div>
 </div>
@@ -195,6 +209,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>saver in a std::ostream </p>
+
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
@@ -206,7 +222,7 @@ Public Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="namespaceMR_1_1MeshSave.html">MeshSave</a></li><li class="navelem"><a class="el" href="structMR_1_1MeshSave_1_1MeshSaver.html">MeshSaver</a></li>
+    <li class="navelem"><b>MR</b></li><li class="navelem"><a class="el" href="namespaceMR_1_1MeshSave.html">MeshSave</a></li><li class="navelem"><a class="el" href="structMR_1_1MeshSave_1_1MeshSaver.html">MeshSaver</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

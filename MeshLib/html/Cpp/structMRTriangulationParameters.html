@@ -15,12 +15,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -172,8 +166,7 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ae637332b7b838628fa4fa13815c7969b" id="r_ae637332b7b838628fa4fa13815c7969b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae637332b7b838628fa4fa13815c7969b">radius</a></td></tr>
 <tr class="separator:ae637332b7b838628fa4fa13815c7969b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f0f0757bc404b943df9ed727c9aae53" id="r_a8f0f0757bc404b943df9ed727c9aae53"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f0f0757bc404b943df9ed727c9aae53">critAngle</a></td></tr>
-<tr class="memdesc:a8f0f0757bc404b943df9ed727c9aae53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Critical angle of triangles in local triangulation (angle between triangles in fan should be less then this value) <br  />
-  <br /></td></tr>
+<tr class="memdesc:a8f0f0757bc404b943df9ed727c9aae53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Critical angle of triangles in local triangulation (angle between triangles in fan should be less then this value)  <br /></td></tr>
 <tr class="separator:a8f0f0757bc404b943df9ed727c9aae53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adcecb6684fdeabcff491432e48f452a5" id="r_adcecb6684fdeabcff491432e48f452a5"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adcecb6684fdeabcff491432e48f452a5">boundaryAngle</a></td></tr>
 <tr class="memdesc:adcecb6684fdeabcff491432e48f452a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">the vertex is considered as boundary if its neighbor ring has angle more than this value  <br /></td></tr>
@@ -235,8 +228,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Critical angle of triangles in local triangulation (angle between triangles in fan should be less then this value) <br  />
- </p>
+<p>Critical angle of triangles in local triangulation (angle between triangles in fan should be less then this value) </p>
 
 </div>
 </div>
@@ -270,8 +262,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>The number of nearest neighbor points to use for building of local triangulation. </p>
-<dl class="section note"><dt>Note</dt><dd>Too small value can make not optimal triangulation and additional holes Too big value increases difficulty of optimization and decreases performance <br  />
- </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>Too small value can make not optimal triangulation and additional holes Too big value increases difficulty of optimization and decreases performance </dd></dl>
 
 </div>
 </div>

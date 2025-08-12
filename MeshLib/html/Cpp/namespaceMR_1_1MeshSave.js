@@ -2,6 +2,7 @@ var namespaceMR_1_1MeshSave =
 [
     [ "CtmSaveOptions", "structMR_1_1MeshSave_1_1CtmSaveOptions.html", "structMR_1_1MeshSave_1_1CtmSaveOptions" ],
     [ "MeshSaver", "structMR_1_1MeshSave_1_1MeshSaver.html", "structMR_1_1MeshSave_1_1MeshSaver" ],
+    [ "MeshSaverCapabilities", "structMR_1_1MeshSave_1_1MeshSaverCapabilities.html", "structMR_1_1MeshSave_1_1MeshSaverCapabilities" ],
     [ "NamedXfMesh", "structMR_1_1MeshSave_1_1NamedXfMesh.html", "structMR_1_1MeshSave_1_1NamedXfMesh" ],
     [ "MeshFileSaver", "namespaceMR_1_1MeshSave.html#a44ae097f41a9722d0110ffb971ba7ce0", null ],
     [ "MeshStreamSaver", "namespaceMR_1_1MeshSave.html#a7e16b086c414a0768e241ea5f21ca9b6", null ],

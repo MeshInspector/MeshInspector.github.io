@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/ExampleDicomFiles.html" />
-<meta name="robots" content="noindex"/>
+
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -14,12 +14,6 @@
       window.location.replace(newURL);
     }
   }();
-</script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
 </script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -163,7 +157,7 @@ $(function(){initNavTree('ExampleDicomFiles.html',''); initResizable(true); });
 <div class="line"><span class="comment"># Folder can contain subfolders - each will be loaded separately</span></div>
 <div class="line">dicom_folder = <span class="stringliteral">&#39;path/to/folder&#39;</span></div>
 <div class="line"><span class="comment"># Load dicom objects from folder and its subfolders</span></div>
-<div class="line">dicoms = <a class="code hl_functionRef" href="./Py/classmrmeshpy_1_1VoxelsLoad.html#acff5645fff746542dd437580fc1e5ba5">mrmeshpy.VoxelsLoad.loadDicomsFolderTreeAsVdb</a>(dicom_folder)</div>
+<div class="line">dicoms = <a class="code hl_functionRef" href="./Py/classmrmeshpy_1_1VoxelsLoad.html#ab660a4c3a4a4553d99365b4053b4b5c9">mrmeshpy.VoxelsLoad.loadDicomsFolderTreeAsVdb</a>(dicom_folder)</div>
 <div class="line"><span class="comment"># Result contains list of multiple objects, each object is a separate dicom volume, that correspond to each folder</span></div>
 <div class="line"><span class="comment"># Getting the first one here</span></div>
 <div class="line">dicom = dicoms[0]</div>
@@ -174,7 +168,7 @@ $(function(){initNavTree('ExampleDicomFiles.html',''); initResizable(true); });
 <div class="line"><span class="keywordflow">else</span>:</div>
 <div class="line">    <span class="comment"># print error if loading process failed</span></div>
 <div class="line">    print(dicom.error())</div>
-<div class="ttc" id="aclassmrmeshpy_1_1VoxelsLoad_html_acff5645fff746542dd437580fc1e5ba5"><div class="ttname"><a href="./Py/classmrmeshpy_1_1VoxelsLoad.html#acff5645fff746542dd437580fc1e5ba5">mrmeshpy::VoxelsLoad::loadDicomsFolderTreeAsVdb</a></div><div class="ttdeci">std_vector_tl_expected_VoxelsLoad_DicomVolumeT_VoxelsVolumeMinMax_std_shared_ptr_OpenVdbFloatGrid_std_string loadDicomsFolderTreeAsVdb(os.PathLike|str|bytes path, int maxNumThreads=4, func_bool_from_float cb='{}')</div></div>
+<div class="ttc" id="aclassmrmeshpy_1_1VoxelsLoad_html_ab660a4c3a4a4553d99365b4053b4b5c9"><div class="ttname"><a href="./Py/classmrmeshpy_1_1VoxelsLoad.html#ab660a4c3a4a4553d99365b4053b4b5c9">mrmeshpy::VoxelsLoad::loadDicomsFolderTreeAsVdb</a></div><div class="ttdeci">std_vector_tl_expected_VoxelsLoad_DicomVolumeT_VoxelsVolumeMinMax_FloatGrid_std_string loadDicomsFolderTreeAsVdb(os.PathLike|str|bytes path, int maxNumThreads=4, func_bool_from_float cb='{}')</div></div>
 </div><!-- fragment --></li>
 </ul>
 </div><div class="tabbed"></div> </div></div><!-- contents -->

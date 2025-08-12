@@ -15,12 +15,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -173,6 +167,10 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a0ca0670974915aeb55015af1dc53a387"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43d946c4537278061a497ef3163658ee" id="r_a43d946c4537278061a497ef3163658ee"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43d946c4537278061a497ef3163658ee">toMrLines</a> (<a class="el" href="classmrmeshpy_1_1Polyline3.html">Polyline3</a> polyline, typing.Any out, <a class="el" href="classmrmeshpy_1_1SaveSettings.html">SaveSettings</a> settings='{}')</td></tr>
 <tr class="separator:a43d946c4537278061a497ef3163658ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30bdcdd0cb0acf886cb525d4baaa8e2c" id="r_a30bdcdd0cb0acf886cb525d4baaa8e2c"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30bdcdd0cb0acf886cb525d4baaa8e2c">toPly</a> (<a class="el" href="classmrmeshpy_1_1Polyline3.html">Polyline3</a> polyline, os.PathLike|str|bytes file, <a class="el" href="classmrmeshpy_1_1SaveSettings.html">SaveSettings</a> settings='{}')</td></tr>
+<tr class="separator:a30bdcdd0cb0acf886cb525d4baaa8e2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c9a350b8de4d5290c5e9bbe54fdead3" id="r_a9c9a350b8de4d5290c5e9bbe54fdead3"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c9a350b8de4d5290c5e9bbe54fdead3">toPly</a> (<a class="el" href="classmrmeshpy_1_1Polyline3.html">Polyline3</a> polyline, typing.Any out, <a class="el" href="classmrmeshpy_1_1SaveSettings.html">SaveSettings</a> settings='{}')</td></tr>
+<tr class="separator:a9c9a350b8de4d5290c5e9bbe54fdead3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6446ec7823e3a0865c34cd71ab8c28f1" id="r_a6446ec7823e3a0865c34cd71ab8c28f1"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6446ec7823e3a0865c34cd71ab8c28f1">toPts</a> (<a class="el" href="classmrmeshpy_1_1Polyline3.html">Polyline3</a> polyline, os.PathLike|str|bytes file, <a class="el" href="classmrmeshpy_1_1SaveSettings.html">SaveSettings</a> settings='{}')</td></tr>
 <tr class="separator:a6446ec7823e3a0865c34cd71ab8c28f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a10b229312ee329a766595faacfc632ad" id="r_a10b229312ee329a766595faacfc632ad"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10b229312ee329a766595faacfc632ad">toPts</a> (<a class="el" href="classmrmeshpy_1_1Polyline3.html">Polyline3</a> polyline, typing.Any out, <a class="el" href="classmrmeshpy_1_1SaveSettings.html">SaveSettings</a> settings='{}')</td></tr>
@@ -288,7 +286,7 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <pre class="fragment">saves in .dxf file;
-SaveSettings::saveValidOnly = false is ignored
+SaveSettings::onlyValidPoints = false is ignored
 </pre> 
 </div>
 </div>
@@ -358,7 +356,7 @@ SaveSettings::saveValidOnly = false is ignored
 </table>
 </div><div class="memdoc">
 <pre class="fragment">saves in .mrlines file;
-SaveSettings::saveValidOnly = true is ignored
+SaveSettings::onlyValidPoints = true is ignored
 </pre> 
 </div>
 </div>
@@ -373,6 +371,75 @@ SaveSettings::saveValidOnly = true is ignored
       <table class="memname">
         <tr>
           <td class="memname"> None mrmeshpy.LinesSave.toMrLines </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Polyline3.html">Polyline3</a></td>          <td class="paramname"><span class="paramname"><em>polyline</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">typing.Any</td>          <td class="paramname"><span class="paramname"><em>out</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1SaveSettings.html">SaveSettings</a> </td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'{}'</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a30bdcdd0cb0acf886cb525d4baaa8e2c" name="a30bdcdd0cb0acf886cb525d4baaa8e2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30bdcdd0cb0acf886cb525d4baaa8e2c">&#9670;&#160;</a></span>toPly() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.LinesSave.toPly </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Polyline3.html">Polyline3</a></td>          <td class="paramname"><span class="paramname"><em>polyline</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">os.PathLike | str | bytes</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1SaveSettings.html">SaveSettings</a> </td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'{}'</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<pre class="fragment">saves in .ply file
+</pre> 
+</div>
+</div>
+<a id="a9c9a350b8de4d5290c5e9bbe54fdead3" name="a9c9a350b8de4d5290c5e9bbe54fdead3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c9a350b8de4d5290c5e9bbe54fdead3">&#9670;&#160;</a></span>toPly() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.LinesSave.toPly </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classmrmeshpy_1_1Polyline3.html">Polyline3</a></td>          <td class="paramname"><span class="paramname"><em>polyline</em></span>, </td>
         </tr>
@@ -428,7 +495,7 @@ SaveSettings::saveValidOnly = true is ignored
 </table>
 </div><div class="memdoc">
 <pre class="fragment">saves in .pts file;
-SaveSettings::saveValidOnly = false is ignored
+SaveSettings::onlyValidPoints = false is ignored
 </pre> 
 </div>
 </div>

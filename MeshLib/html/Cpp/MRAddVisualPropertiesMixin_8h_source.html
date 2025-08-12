@@ -15,12 +15,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -159,7 +153,7 @@ $(function(){initNavTree('MRAddVisualPropertiesMixin_8h_source.html',''); initRe
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRVisualObject_8h.html">MRMesh/MRVisualObject.h</a>&quot;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="keyword">namespace </span><a class="code hl_namespaceRef" href="../namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span>{</div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="comment">// Inherits from a datamodel object, adding some visual property masks to it.</span></div>
@@ -234,10 +228,10 @@ $(function(){initNavTree('MRAddVisualPropertiesMixin_8h_source.html',''); initRe
 <div class="ttc" id="aclassMR_1_1AddVisualProperties_html_aa7ce9ce8b54a5a131d54334b7ed26fb1"><div class="ttname"><a href="classMR_1_1AddVisualProperties.html#aa7ce9ce8b54a5a131d54334b7ed26fb1">MR::AddVisualProperties::getVisualizePropertyMask</a></div><div class="ttdeci">const ViewportMask &amp; getVisualizePropertyMask(AnyVisualizeMaskEnum type) const override</div><div class="ttdef"><b>Definition</b> MRAddVisualPropertiesMixin.h:31</div></div>
 <div class="ttc" id="aclassMR_1_1AnyVisualizeMaskEnum_html"><div class="ttname"><a href="classMR_1_1AnyVisualizeMaskEnum.html">MR::AnyVisualizeMaskEnum</a></div><div class="ttdef"><b>Definition</b> MRVisualObject.h:57</div></div>
 <div class="ttc" id="aclassMR_1_1AnyVisualizeMaskEnum_html_ad6bb8706f3ee4d236f7d26ca5e4432dd"><div class="ttname"><a href="classMR_1_1AnyVisualizeMaskEnum.html#ad6bb8706f3ee4d236f7d26ca5e4432dd">MR::AnyVisualizeMaskEnum::tryGet</a></div><div class="ttdeci">std::optional&lt; T &gt; tryGet() const</div><div class="ttdef"><b>Definition</b> MRVisualObject.h:66</div></div>
-<div class="ttc" id="aclassMR_1_1ViewportMask_html"><div class="ttname"><a href="classMR_1_1ViewportMask.html">MR::ViewportMask</a></div><div class="ttdoc">stores mask of viewport unique identifiers</div><div class="ttdef"><b>Definition</b> MRViewportId.h:38</div></div>
-<div class="ttc" id="aclassMR_1_1ViewportMask_html_a46b7527f0e3a3394b41be2515c171747"><div class="ttname"><a href="classMR_1_1ViewportMask.html#a46b7527f0e3a3394b41be2515c171747">MR::ViewportMask::all</a></div><div class="ttdeci">static ViewportMask all()</div><div class="ttdoc">mask meaning all or any viewports</div><div class="ttdef"><b>Definition</b> MRViewportId.h:45</div></div>
+<div class="ttc" id="aclassMR_1_1ViewportMask_html"><div class="ttname"><a href="classMR_1_1ViewportMask.html">MR::ViewportMask</a></div><div class="ttdoc">stores mask of viewport unique identifiers</div><div class="ttdef"><b>Definition</b> MRViewportId.h:42</div></div>
+<div class="ttc" id="aclassMR_1_1ViewportMask_html_a46b7527f0e3a3394b41be2515c171747"><div class="ttname"><a href="classMR_1_1ViewportMask.html#a46b7527f0e3a3394b41be2515c171747">MR::ViewportMask::all</a></div><div class="ttdeci">static ViewportMask all()</div><div class="ttdoc">mask meaning all or any viewports</div><div class="ttdef"><b>Definition</b> MRViewportId.h:49</div></div>
 <div class="ttc" id="agroup__VisualObjectGroup_html_ga1f6aeed936aa967b17cba0997d30ff7f"><div class="ttname"><a href="group__VisualObjectGroup.html#ga1f6aeed936aa967b17cba0997d30ff7f">MR::AllVisualizeProperties</a></div><div class="ttdeci">std::vector&lt; ViewportMask &gt; AllVisualizeProperties</div><div class="ttdef"><b>Definition</b> MRVisualObject.h:75</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="../namespaceMR.html">MR</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

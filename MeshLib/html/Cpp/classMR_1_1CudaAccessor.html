@@ -15,12 +15,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -179,9 +173,9 @@ Public Types</h2></td></tr>
 <tr class="memitem:aed0df442f81500a1fcba3ff380f44190" id="r_aed0df442f81500a1fcba3ff380f44190"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed0df442f81500a1fcba3ff380f44190">CudaPointsProjectorConstructor</a> = std::function&lt;std::unique_ptr&lt;<a class="el" href="classMR_1_1IPointsProjector.html">IPointsProjector</a>&gt;()&gt;</td></tr>
 <tr class="memdesc:aed0df442f81500a1fcba3ff380f44190"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns specific implementation of <a class="el" href="classMR_1_1IPointsProjector.html" title="abstract class for computing the closest points of point clouds">IPointsProjector</a> interface projects on GPU.  <br /></td></tr>
 <tr class="separator:aed0df442f81500a1fcba3ff380f44190"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7acccf65074e9ea99f88143c0ba0816a" id="r_a7acccf65074e9ea99f88143c0ba0816a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7acccf65074e9ea99f88143c0ba0816a">CudaPointsToDistanceVolumeCallback</a> = std::function&lt;<a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;SimpleVolumeMinMax&gt;( const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a>&amp; cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">PointsToDistanceVolumeParams</a>&amp; params )&gt;</td></tr>
+<tr class="memitem:a7acccf65074e9ea99f88143c0ba0816a" id="r_a7acccf65074e9ea99f88143c0ba0816a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7acccf65074e9ea99f88143c0ba0816a">CudaPointsToDistanceVolumeCallback</a> = std::function&lt;<a class="elRef" href="../namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;SimpleVolumeMinMax&gt;( const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a>&amp; cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">PointsToDistanceVolumeParams</a>&amp; params )&gt;</td></tr>
 <tr class="separator:a7acccf65074e9ea99f88143c0ba0816a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab4da14893aa8c8e22579f15c1bb64991" id="r_ab4da14893aa8c8e22579f15c1bb64991"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4da14893aa8c8e22579f15c1bb64991">CudaPointsToDistanceVolumeByPartsCallback</a> = std::function&lt;<a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;void&gt;( const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a>&amp; cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">PointsToDistanceVolumeParams</a>&amp; params, std::function&lt;<a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;void&gt; ( const SimpleVolumeMinMax&amp; <a class="el" href="namespaceMR.html#a83e40508b3f05b594da19748c1da2d05">volume</a>, int zOffset )&gt; addPart, int layerOverlap )&gt;</td></tr>
+<tr class="memitem:ab4da14893aa8c8e22579f15c1bb64991" id="r_ab4da14893aa8c8e22579f15c1bb64991"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4da14893aa8c8e22579f15c1bb64991">CudaPointsToDistanceVolumeByPartsCallback</a> = std::function&lt;<a class="elRef" href="../namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;void&gt;( const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a>&amp; cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">PointsToDistanceVolumeParams</a>&amp; params, std::function&lt;<a class="elRef" href="../namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;void&gt; ( const SimpleVolumeMinMax&amp; <a class="elRef" href="../namespaceMR.html#a83e40508b3f05b594da19748c1da2d05">volume</a>, int zOffset )&gt; addPart, int layerOverlap )&gt;</td></tr>
 <tr class="separator:ab4da14893aa8c8e22579f15c1bb64991"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
@@ -310,7 +304,7 @@ Static Public Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#ab4da14893aa8c8e22579f15c1bb64991">MR::CudaAccessor::CudaPointsToDistanceVolumeByPartsCallback</a> = std::function&lt;<a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;void&gt;( const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a>&amp; cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">PointsToDistanceVolumeParams</a>&amp; params, std::function&lt;<a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;void&gt; ( const SimpleVolumeMinMax&amp; <a class="el" href="namespaceMR.html#a83e40508b3f05b594da19748c1da2d05">volume</a>, int zOffset )&gt; addPart, int layerOverlap )&gt;</td>
+          <td class="memname">using <a class="el" href="#ab4da14893aa8c8e22579f15c1bb64991">MR::CudaAccessor::CudaPointsToDistanceVolumeByPartsCallback</a> = std::function&lt;<a class="elRef" href="../namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;void&gt;( const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a>&amp; cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">PointsToDistanceVolumeParams</a>&amp; params, std::function&lt;<a class="elRef" href="../namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;void&gt; ( const SimpleVolumeMinMax&amp; <a class="elRef" href="../namespaceMR.html#a83e40508b3f05b594da19748c1da2d05">volume</a>, int zOffset )&gt; addPart, int layerOverlap )&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -324,7 +318,7 @@ Static Public Member Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#a7acccf65074e9ea99f88143c0ba0816a">MR::CudaAccessor::CudaPointsToDistanceVolumeCallback</a> = std::function&lt;<a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;SimpleVolumeMinMax&gt;( const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a>&amp; cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">PointsToDistanceVolumeParams</a>&amp; params )&gt;</td>
+          <td class="memname">using <a class="el" href="#a7acccf65074e9ea99f88143c0ba0816a">MR::CudaAccessor::CudaPointsToDistanceVolumeCallback</a> = std::function&lt;<a class="elRef" href="../namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt;SimpleVolumeMinMax&gt;( const <a class="el" href="structMR_1_1PointCloud.html">PointCloud</a>&amp; cloud, const <a class="el" href="structMR_1_1PointsToDistanceVolumeParams.html">PointsToDistanceVolumeParams</a>&amp; params )&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -990,7 +984,7 @@ Static Public Member Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="classMR_1_1CudaAccessor.html">CudaAccessor</a></li>
+    <li class="navelem"><b>MR</b></li><li class="navelem"><a class="el" href="classMR_1_1CudaAccessor.html">CudaAccessor</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 <link rel="canonical" href="https://meshlib.io/documentation/ExampleSignedDistance.html" />
-<meta name="robots" content="noindex"/>
+
 <script type="text/javascript">
   !function () {
     var currentHost = window.location.hostname;
@@ -14,12 +14,6 @@
       window.location.replace(newURL);
     }
   }();
-</script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
 </script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -163,10 +157,10 @@ $(function(){initNavTree('ExampleSignedDistance.html',''); initResizable(true); 
 <div class="line">mesh1 = <a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#ac870d6fee4e3b3e3dcf73bc12a21d0f5">mrmeshpy.loadMesh</a>(<span class="stringliteral">&quot;mesh1.ctm&quot;</span>)</div>
 <div class="line">mesh2 = <a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#ac870d6fee4e3b3e3dcf73bc12a21d0f5">mrmeshpy.loadMesh</a>(<span class="stringliteral">&quot;mesh2.ctm&quot;</span>)</div>
 <div class="line"> </div>
-<div class="line">a = <a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#ac17119f1019eb6496df180be2499488c">mrmeshpy.findSignedDistance</a>(mesh1, mesh2)</div>
+<div class="line">a = <a class="code hl_functionRef" href="./Py/namespacemrmeshpy.html#af33dbc50174e05a5a33ad67b4176f4c6">mrmeshpy.findSignedDistance</a>(mesh1, mesh2)</div>
 <div class="line">print(f<span class="stringliteral">&quot;Signed distance between meshes is {a.signedDist}&quot;</span>)</div>
-<div class="ttc" id="anamespacemrmeshpy_html_ac17119f1019eb6496df180be2499488c"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#ac17119f1019eb6496df180be2499488c">mrmeshpy::findSignedDistance</a></div><div class="ttdeci">MeshMeshSignedDistanceResult findSignedDistance(MeshPart a, MeshPart b, AffineXf3f rigidB2A=None, float upDistLimitSq=3.4028234663852886e+38)</div></div>
 <div class="ttc" id="anamespacemrmeshpy_html_ac870d6fee4e3b3e3dcf73bc12a21d0f5"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#ac870d6fee4e3b3e3dcf73bc12a21d0f5">mrmeshpy::loadMesh</a></div><div class="ttdeci">Mesh loadMesh(os.PathLike|str|bytes file, MeshLoadSettings settings='{}')</div></div>
+<div class="ttc" id="anamespacemrmeshpy_html_af33dbc50174e05a5a33ad67b4176f4c6"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#af33dbc50174e05a5a33ad67b4176f4c6">mrmeshpy::findSignedDistance</a></div><div class="ttdeci">SignedDistanceToMeshResult findSignedDistance(Vector3f pt, MeshPart mp, float upDistLimitSq=3.4028234663852886e+38, float loDistLimitSq=0)</div></div>
 </div><!-- fragment --></li>
 </ul>
 </div><div class="tabbed"></div> </div></div><!-- contents -->

@@ -30,6 +30,7 @@ var NAVTREE =
       [ "Python", "MeshLibPythonSetupGuide.html", null ],
       [ "C++", "MeshLibCppSetupGuide.html", null ],
       [ "C#", "MeshLibCSharpSetupGuide.html", null ],
+      [ "C", "MeshLibCSetupGuide.html", null ],
       [ "CMake", "MeshLibCmakeSetupGuide.html", null ]
     ] ],
     [ "License", "License.html", null ],
@@ -62,7 +63,7 @@ var NAVTREE =
         [ "Points to Mesh", "ExamplePointsToMesh.html", null ],
         [ "Contour Triangulation", "ExampleContourTriangulation.html", null ],
         [ "Terrain Triangulation", "ExampleTerrainTriangulation.html", null ],
-        [ "Fusion", "@ref ExampleFusion", null ],
+        [ "Fusion", "ExampleFusion.html", null ],
         [ "Text to Mesh", "ExampleMeshFromText.html", null ]
       ] ],
       [ "Python Specific Samples", "Examples.html#PythonSpecificExamples", [
@@ -87,15 +88,16 @@ var NAVTREE =
     ] ],
     [ "API", "APIPage.html", [
       [ "C++", "Cpp/APICppPage.html", null ],
-      [ "Python", "Py/APIPyPage.html", null ]
+      [ "Python", "Py/APIPyPage.html", null ],
+      [ "C", "C/APICPage.html", null ]
     ] ],
-    [ "Thirdparty List", "ThirdParty.html", null ]
+    [ "Third-Party Dependencies", "ThirdParty.html", null ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"@ref ExampleFusion"
+"APIPage.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

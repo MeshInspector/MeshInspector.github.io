@@ -18,6 +18,7 @@ var classMR_1_1SurfaceManipulationWidget =
     [ "abortEdit_", "classMR_1_1SurfaceManipulationWidget.html#add0ddfdc3b43ddc99dec3be877b7a919", null ],
     [ "appendMeshChangeHistory_", "classMR_1_1SurfaceManipulationWidget.html#a01b688fc30d608be61aa23e4cba46c6a", null ],
     [ "changeSurface_", "classMR_1_1SurfaceManipulationWidget.html#a5e617c68f73988a733f41d84e9f780ec", null ],
+    [ "checkModifiers_", "classMR_1_1SurfaceManipulationWidget.html#a6e1f9dd3fd90ff7bee82f9a283a538a9", null ],
     [ "clearData_", "classMR_1_1SurfaceManipulationWidget.html#a2f27b490ad008b35fb24b4fb9d4ae8da", null ],
     [ "compressChangePointsAction_", "classMR_1_1SurfaceManipulationWidget.html#ad1d907cbe938c1010826d617b7b662e8", null ],
     [ "createLastStableObjMesh_", "classMR_1_1SurfaceManipulationWidget.html#a1ec79535e6a70009906b9e2f0008cb22", null ],

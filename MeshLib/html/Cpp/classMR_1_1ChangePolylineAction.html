@@ -15,12 +15,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -192,6 +186,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0e79a47922ed59fc36b1a8e44df24fa4" id="r_a0e79a47922ed59fc36b1a8e44df24fa4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e79a47922ed59fc36b1a8e44df24fa4">ChangePolylineAction</a> (std::string <a class="el" href="#a3d8479b53f1823d464d18ee027faec56">name</a>, const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectLines.html">ObjectLines</a> &gt; &amp;obj)</td></tr>
 <tr class="memdesc:a0e79a47922ed59fc36b1a8e44df24fa4"><td class="mdescLeft">&#160;</td><td class="mdescRight">use this constructor to remember object's polyline before making any changes in it  <br /></td></tr>
 <tr class="separator:a0e79a47922ed59fc36b1a8e44df24fa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adafafb09d06cb25a970476fdb3169be0" id="r_adafafb09d06cb25a970476fdb3169be0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adafafb09d06cb25a970476fdb3169be0">ChangePolylineAction</a> (std::string <a class="el" href="#a3d8479b53f1823d464d18ee027faec56">name</a>, const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectLines.html">ObjectLines</a> &gt; &amp;obj, std::shared_ptr&lt; Polyline3 &gt; newPolyline)</td></tr>
+<tr class="memdesc:adafafb09d06cb25a970476fdb3169be0"><td class="mdescLeft">&#160;</td><td class="mdescRight">use this constructor to remember object's polyline and immediately set new polyline  <br /></td></tr>
+<tr class="separator:adafafb09d06cb25a970476fdb3169be0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d8479b53f1823d464d18ee027faec56" id="r_a3d8479b53f1823d464d18ee027faec56"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d8479b53f1823d464d18ee027faec56">name</a> () const override</td></tr>
 <tr class="separator:a3d8479b53f1823d464d18ee027faec56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa4ff323c3b6e6f7a7fdeeefbc5142f98" id="r_aa4ff323c3b6e6f7a7fdeeefbc5142f98"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4ff323c3b6e6f7a7fdeeefbc5142f98">action</a> (<a class="el" href="classMR_1_1HistoryAction.html#ac16eb31dd26d35cfc18bac8a05983aa7">HistoryAction::Type</a>) override</td></tr>
@@ -228,7 +225,7 @@ Static Public Member Functions</h2></td></tr>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a0e79a47922ed59fc36b1a8e44df24fa4" name="a0e79a47922ed59fc36b1a8e44df24fa4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0e79a47922ed59fc36b1a8e44df24fa4">&#9670;&#160;</a></span>ChangePolylineAction()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e79a47922ed59fc36b1a8e44df24fa4">&#9670;&#160;</a></span>ChangePolylineAction() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -255,6 +252,42 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>use this constructor to remember object's polyline before making any changes in it </p>
+
+</div>
+</div>
+<a id="adafafb09d06cb25a970476fdb3169be0" name="adafafb09d06cb25a970476fdb3169be0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adafafb09d06cb25a970476fdb3169be0">&#9670;&#160;</a></span>ChangePolylineAction() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR::ChangePolylineAction::ChangePolylineAction </td>
+          <td>(</td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectLines.html">ObjectLines</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>obj</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::shared_ptr&lt; Polyline3 &gt;</td>          <td class="paramname"><span class="paramname"><em>newPolyline</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>use this constructor to remember object's polyline and immediately set new polyline </p>
 
 </div>
 </div>
@@ -378,7 +411,7 @@ Static Public Member Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="classMR_1_1ChangePolylineAction.html">ChangePolylineAction</a></li>
+    <li class="navelem"><b>MR</b></li><li class="navelem"><a class="el" href="classMR_1_1ChangePolylineAction.html">ChangePolylineAction</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

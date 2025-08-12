@@ -10,6 +10,7 @@ var structMR_1_1PickPointManager_1_1Params =
     [ "onPointMoveFinish", "structMR_1_1PickPointManager_1_1Params.html#a239dfe513b8ad0546f097fe848b07926", null ],
     [ "onPointMoveStart", "structMR_1_1PickPointManager_1_1Params.html#aecc58a961497595f91a31e0ba17b453b", null ],
     [ "onPointRemove", "structMR_1_1PickPointManager_1_1Params.html#a29da52a2e4e00f22aa0e7206a5ca2819", null ],
+    [ "onUpdatePoints", "structMR_1_1PickPointManager_1_1Params.html#a4d89fd746c820c22a3e17e271a20f609", null ],
     [ "ordinaryPointColor", "structMR_1_1PickPointManager_1_1Params.html#a102e46b3888698c0b6f7dd2903516f25", null ],
     [ "pickPredicate", "structMR_1_1PickPointManager_1_1Params.html#acca15c3df6d4a2c610e3ecd95dbb1c71", null ],
     [ "startDraggingJustAddedPoint", "structMR_1_1PickPointManager_1_1Params.html#af54f28c00b155e235b24194892d305e2", null ],

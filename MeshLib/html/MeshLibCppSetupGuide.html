@@ -15,12 +15,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -289,11 +283,11 @@ Installing the local build</h4>
 <li>Optionally, <a href="https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html">install AWS CLI v2</a> to speed up the process before using the MeshLib Installation Script. Restart your terminal after installation.</li>
 </ul>
 </li>
-<li><b>Install MeshLib Third-Party Dependencies</b><ul>
+<li><b>Install MeshLib <a class="el" href="ThirdParty.html">Third-Party Dependencies</a></b><ul>
 <li>Execute the following commands to run the MeshLib third-party installation script: <div class="fragment"><div class="line">cd vcpkg</div>
 <div class="line">..\MeshLib\thirdparty\install.bat</div>
 </div><!-- fragment --></li>
-<li>This script automates the installation of necessary third-party dependencies.</li>
+<li>This script automates the installation of necessary <a class="el" href="ThirdParty.html">Third-Party Dependencies</a>.</li>
 </ul>
 </li>
 <li><b>Build and Run Visual Studio Solution</b><ul>
@@ -354,7 +348,7 @@ Installing the local build</h4>
 <li><b>Clone the MeshLib Repository</b>: <div class="fragment"><div class="line">git clone --recurse-submodules https://github.com/MeshInspector/MeshLib.git</div>
 <div class="line">cd MeshLib</div>
 </div><!-- fragment --></li>
-<li><b>Install/Build Dependencies and Compile</b>: <div class="fragment"><div class="line">./scripts/build_thirdparty.sh  # Do not select emscripten in the corresponding question</div>
+<li><b>Install/Build <a class="el" href="ThirdParty.html">Dependencies</a> and Compile</b>: <div class="fragment"><div class="line">./scripts/build_thirdparty.sh  # Do not select emscripten in the corresponding question</div>
 <div class="line">./scripts/build_source.sh      # Do not select emscripten in the corresponding question</div>
 </div><!-- fragment --></li>
 <li><b>Create and Install Package</b>: <br  />
@@ -421,7 +415,7 @@ Installing the local build</h4>
 <li><b>Clone the MeshLib Repository</b>: <div class="fragment"><div class="line">git clone --recurse-submodules https://github.com/MeshInspector/MeshLib.git</div>
 <div class="line">cd MeshLib</div>
 </div><!-- fragment --></li>
-<li><b>Install/Build Dependencies and Compile</b>: <div class="fragment"><div class="line">./scripts/build_thirdparty.sh</div>
+<li><b>Install/Build <a class="el" href="ThirdParty.html">Dependencies</a> and Compile</b>: <div class="fragment"><div class="line">./scripts/build_thirdparty.sh</div>
 <div class="line">./scripts/build_source.sh</div>
 </div><!-- fragment --></li>
 <li><b>Run example</b> We suggest starting with the <a class="el" href="ExampleMeshLoadSave.html"><b>mesh loading and saving example</b></a>, which demonstrates how to work with mesh files programmatically.</li>
@@ -472,7 +466,7 @@ Compile locally</h3>
 <ul>
 <li>Navigate to the MeshLib directory: <div class="fragment"><div class="line">cd ~/MeshLib</div>
 </div><!-- fragment --></li>
-<li>Run the script to build third-party dependencies. When prompted, select <b>Emscripten</b> as the build target:<ul>
+<li>Run the script to build <a class="el" href="ThirdParty.html">Third-Party Dependencies</a>. When prompted, select <b>Emscripten</b> as the build target:<ul>
 <li>Choose <code>y</code> for multithreaded, <code>s</code> for single-threaded, or <code>n</code> for a standard Linux build. <div class="fragment"><div class="line">./scripts/build_thirdparty.sh</div>
 </div><!-- fragment --></li>
 </ul>

@@ -1,7 +1,7 @@
 var classmrmeshpy_1_1FillHoleNicelySettings =
 [
     [ "__init__", "classmrmeshpy_1_1FillHoleNicelySettings.html#ae6ea8ac79fa3e78fc50502640af68e2a", null ],
-    [ "__init__", "classmrmeshpy_1_1FillHoleNicelySettings.html#a44e73fd80cfc0365ca4e4edfe5820e90", null ],
+    [ "__init__", "classmrmeshpy_1_1FillHoleNicelySettings.html#a016577d35718910b91bbcd8974fe2141", null ],
     [ "beforeEdgeSplit", "classmrmeshpy_1_1FillHoleNicelySettings.html#a50ccd6545e4fb0876ea176d9ef42a5eb", null ],
     [ "beforeEdgeSplit", "classmrmeshpy_1_1FillHoleNicelySettings.html#a163fee0fdff0c18290cae488bb309f83", null ],
     [ "colorMap", "classmrmeshpy_1_1FillHoleNicelySettings.html#a15568bc243eb26da530f3b659b07cf94", null ],
@@ -18,6 +18,8 @@ var classmrmeshpy_1_1FillHoleNicelySettings =
     [ "maxEdgeSplits", "classmrmeshpy_1_1FillHoleNicelySettings.html#af36ac1e88ae1ea680850f7ceaba917ba", null ],
     [ "naturalSmooth", "classmrmeshpy_1_1FillHoleNicelySettings.html#a4f9790015b39b79102c9bf84b5053a85", null ],
     [ "naturalSmooth", "classmrmeshpy_1_1FillHoleNicelySettings.html#aea1a068e3151e72af656da23eb5c5b75", null ],
+    [ "notFlippable", "classmrmeshpy_1_1FillHoleNicelySettings.html#a3658377f7baee53a78f1d28c0bd0575c", null ],
+    [ "notFlippable", "classmrmeshpy_1_1FillHoleNicelySettings.html#a412b42492a937c923e09060b9df1e6c3", null ],
     [ "onEdgeSplit", "classmrmeshpy_1_1FillHoleNicelySettings.html#a333dc620d66a4b111aa4b5303db118f3", null ],
     [ "onEdgeSplit", "classmrmeshpy_1_1FillHoleNicelySettings.html#a84f1d76e26ae5f45c57c734d5119bfa8", null ],
     [ "smoothCurvature", "classmrmeshpy_1_1FillHoleNicelySettings.html#a72e52ea4b95f57b6395f38dbf4ab3e52", null ],

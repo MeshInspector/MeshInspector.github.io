@@ -15,12 +15,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -155,12 +149,13 @@ $(function(){initNavTree('classMR_1_1SetBitIteratorT.html',''); initResizable(tr
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#friends">Friends</a> &#124;
 <a href="classMR_1_1SetBitIteratorT-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR::SetBitIteratorT&lt; T &gt; Class Template Reference<div class="ingroups"><a class="el" href="group__BasicGroup.html">Basic elements overview</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>iterator to enumerate all indices with set bits in <a class="el" href="classMR_1_1BitSet.html" title="container of bits">BitSet</a> class or its derivatives  
+<p>iterator to enumerate all indices with set bits in <a class="el" href="classMR_1_1BitSet.html">BitSet</a> class or its derivatives  
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="MRMesh_2MRBitSet_8h_source.html">MRBitSet.h</a>&gt;</code></p>
@@ -197,10 +192,15 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4462188d7adb7134739834723a0e405e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa231d32ed4abe7e732adfff36d5e267b" id="r_aa231d32ed4abe7e732adfff36d5e267b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a680dec55a3b2c4c1c9bf339ab88fe367">reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa231d32ed4abe7e732adfff36d5e267b">operator*</a> () const</td></tr>
 <tr class="separator:aa231d32ed4abe7e732adfff36d5e267b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="friends" name="friends"></a>
+Friends</h2></td></tr>
+<tr class="memitem:afae6d6e117aafc177ad2feb727a277ea" id="r_afae6d6e117aafc177ad2feb727a277ea"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afae6d6e117aafc177ad2feb727a277ea">operator==</a> (const <a class="el" href="classMR_1_1SetBitIteratorT.html">SetBitIteratorT</a>&lt; T &gt; &amp;a, const <a class="el" href="classMR_1_1SetBitIteratorT.html">SetBitIteratorT</a>&lt; T &gt; &amp;b)</td></tr>
+<tr class="separator:afae6d6e117aafc177ad2feb727a277ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;typename T&gt;<br />
-class MR::SetBitIteratorT&lt; T &gt;</div><p>iterator to enumerate all indices with set bits in <a class="el" href="classMR_1_1BitSet.html" title="container of bits">BitSet</a> class or its derivatives </p>
+class MR::SetBitIteratorT&lt; T &gt;</div><p>iterator to enumerate all indices with set bits in <a class="el" href="classMR_1_1BitSet.html">BitSet</a> class or its derivatives </p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="af520ca8fde7b2302d963bb596a4e326b" name="af520ca8fde7b2302d963bb596a4e326b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af520ca8fde7b2302d963bb596a4e326b">&#9670;&#160;</a></span>difference_type</h2>
@@ -468,6 +468,38 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<h2 class="groupheader">Friends And Related Symbol Documentation</h2>
+<a id="afae6d6e117aafc177ad2feb727a277ea" name="afae6d6e117aafc177ad2feb727a277ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afae6d6e117aafc177ad2feb727a277ea">&#9670;&#160;</a></span>operator==</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool operator== </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1SetBitIteratorT.html">SetBitIteratorT</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1SetBitIteratorT.html">SetBitIteratorT</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="MRMesh_2MRBitSet_8h_source.html">MRMesh/MRBitSet.h</a></li>
 </ul>
@@ -477,7 +509,7 @@ template&lt;typename T &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="classMR_1_1SetBitIteratorT.html">SetBitIteratorT</a></li>
+    <li class="navelem"><b>MR</b></li><li class="navelem"><a class="el" href="classMR_1_1SetBitIteratorT.html">SetBitIteratorT</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

@@ -11,7 +11,7 @@ var MROneMeshContours_8h =
     [ "convertSurfacePathsToMeshContours", "MROneMeshContours_8h.html#ga9d5cd0e3c54003e08c1884a7895b3e74", null ],
     [ "convertSurfacePathWithEndsToMeshContour", "MROneMeshContours_8h.html#ga4415eacd7a732188919def7411ee0245", null ],
     [ "extractMeshContours", "MROneMeshContours_8h.html#a4484992ff522ddc03cd8234b7b7be226", null ],
-    [ "getOneMeshIntersectionContours", "MROneMeshContours_8h.html#ab5a3ac5264af88cd5b608edc0bed6976", null ],
+    [ "getOneMeshIntersectionContours", "MROneMeshContours_8h.html#ae38923b09ce82880669f4d008f0ee4d2", null ],
     [ "getOneMeshSelfIntersectionContours", "MROneMeshContours_8h.html#ae875a7151ea2bd715ce90d183884bb1b", null ],
     [ "subdivideLoneContours", "MROneMeshContours_8h.html#a4123fa411b7305bb9172a398b8cc3c51", null ]
 ];

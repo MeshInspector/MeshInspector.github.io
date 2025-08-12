@@ -1,6 +1,6 @@
 var MRFillContourByGraphCut_8h =
 [
-    [ "fillContourLeftByGraphCut", "MRFillContourByGraphCut_8h.html#ga6411ded50ca303d4fa4228137d695d43", null ],
-    [ "fillContourLeftByGraphCut", "MRFillContourByGraphCut_8h.html#ga771908317b966d8e9e45af1cc448756e", null ],
-    [ "segmentByGraphCut", "MRFillContourByGraphCut_8h.html#ga94134d6a12381a36151563fe8472f818", null ]
+    [ "fillContourLeftByGraphCut", "MRFillContourByGraphCut_8h.html#gadea0ef926186e71514bcaf05a50aa51d", null ],
+    [ "fillContourLeftByGraphCut", "MRFillContourByGraphCut_8h.html#ga192299a4f8520a8867c43c89651f4304", null ],
+    [ "segmentByGraphCut", "MRFillContourByGraphCut_8h.html#ga90e052f4d7cc9dd0c2e2d004cda6abeb", null ]
 ];

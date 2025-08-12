@@ -15,12 +15,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -211,7 +205,7 @@ Functions</h2></td></tr>
 <tr class="memitem:ga826414470e5289e2dfba2496f06d98ae" id="r_ga826414470e5289e2dfba2496f06d98ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga826414470e5289e2dfba2496f06d98ae">MR::fillHoles</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const std::vector&lt; EdgeId &gt; &amp;as, const <a class="el" href="structMR_1_1FillHoleParams.html">FillHoleParams</a> &amp;params={})</td></tr>
 <tr class="memdesc:ga826414470e5289e2dfba2496f06d98ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">fill all holes given by their representative edges in  <br /></td></tr>
 <tr class="separator:ga826414470e5289e2dfba2496f06d98ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7b7b07510d4a7d74b02ef6890db04a9d" id="r_ga7b7b07510d4a7d74b02ef6890db04a9d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7b7b07510d4a7d74b02ef6890db04a9d">MR::isHoleBd</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const <a class="el" href="namespaceMR.html#a099da1b4cb4b8348ee3fed0588b01aa3">EdgeLoop</a> &amp;loop)</td></tr>
+<tr class="memitem:ga7b7b07510d4a7d74b02ef6890db04a9d" id="r_ga7b7b07510d4a7d74b02ef6890db04a9d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7b7b07510d4a7d74b02ef6890db04a9d">MR::isHoleBd</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, const <a class="elRef" href="../namespaceMR.html#a099da1b4cb4b8348ee3fed0588b01aa3">EdgeLoop</a> &amp;loop)</td></tr>
 <tr class="separator:ga7b7b07510d4a7d74b02ef6890db04a9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaa3256109cd439a9801f179661c65c7e6" id="r_gaa3256109cd439a9801f179661c65c7e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1HoleFillPlan.html">HoleFillPlan</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa3256109cd439a9801f179661c65c7e6">MR::getHoleFillPlan</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, EdgeId e, const <a class="el" href="structMR_1_1FillHoleParams.html">FillHoleParams</a> &amp;params={})</td></tr>
 <tr class="separator:gaa3256109cd439a9801f179661c65c7e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -434,20 +428,11 @@ Before</div></div>
 <img src="stitch.png" alt="" width="250cm"/>
 <div class="caption">
 After</div></div>
-<p>Next picture show, how newly generated faces can be smoothed <a class="el" href="namespaceMR.html#ae86354c05ad9fa894a5dd8c50099d7a9">MR::positionVertsSmoothly</a> <a class="el" href="group__MeshSubdivideGroup.html#ga8e8a41112544b99ef8f20e3e6b61fab7">MR::subdivideMesh</a> </p><div class="image">
+<p>Next picture show, how newly generated faces can be smoothed <a class="elRef" href="../namespaceMR.html#ae86354c05ad9fa894a5dd8c50099d7a9">MR::positionVertsSmoothly</a> <a class="el" href="group__MeshSubdivideGroup.html#ga8e8a41112544b99ef8f20e3e6b61fab7">MR::subdivideMesh</a> </p><div class="image">
 <img src="stitch_smooth.png" alt="" width="250cm"/>
 <div class="caption">
 Stitch with smooth</div></div>
-<div class="fragment"><div class="line">    <span class="comment">// Find holes (expect that there are exactly 2 holes)</span></div>
-<div class="line">    std::vector&lt;MR::EdgeId&gt; edges = mesh.<a class="code hl_variable" href="structMR_1_1Mesh.html#a91b13898794821d7f88845ebaa6cc1c4">topology</a>.<a class="code hl_function" href="classMR_1_1MeshTopology.html#aa66581b4e7aad51bf8ebd1bbf43e4752">findHoleRepresentiveEdges</a>();</div>
-<div class="line">    <span class="keywordflow">if</span> ( edges.size() != 2 )</div>
-<div class="line">        <span class="keywordflow">return</span> 1;</div>
-<div class="line"> </div>
-<div class="line">    <span class="comment">// Connect two holes</span></div>
-<div class="line">    <a class="code hl_struct" href="structMR_1_1StitchHolesParams.html">MR::StitchHolesParams</a> params;</div>
-<div class="line">    params.<a class="code hl_variable" href="structMR_1_1StitchHolesParams.html#ac806ee8caa2479cc244851eaac1e7020">metric</a> = <a class="code hl_function" href="#ga16a9d70b647d9b9f745ab650b21a975e">MR::getUniversalMetric</a>( mesh );</div>
-<div class="line">    <a class="code hl_function" href="#gaa096c69aa6c5cf97a783e92aa3a70157">MR::buildCylinderBetweenTwoHoles</a>( mesh, edges.front(), edges.back(), params );</div>
-</div><!-- fragment --><dl class="params"><dt>Parameters</dt><dd>
+<div class="fragment"></div><!-- fragment --><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">mesh</td><td>mesh with hole </td></tr>
     <tr><td class="paramname">a</td><td>EdgeId which represents 1st hole (should not have valid left FaceId) </td></tr>
@@ -651,7 +636,7 @@ Before</div></div>
 <img src="fill.png" alt="" width="250cm"/>
 <div class="caption">
 After</div></div>
-<p>Next picture show, how newly generated faces can be smoothed <a class="el" href="namespaceMR.html#ae86354c05ad9fa894a5dd8c50099d7a9">MR::positionVertsSmoothly</a> <a class="el" href="group__MeshSubdivideGroup.html#ga8e8a41112544b99ef8f20e3e6b61fab7">MR::subdivideMesh</a> </p><div class="image">
+<p>Next picture show, how newly generated faces can be smoothed <a class="elRef" href="../namespaceMR.html#ae86354c05ad9fa894a5dd8c50099d7a9">MR::positionVertsSmoothly</a> <a class="el" href="group__MeshSubdivideGroup.html#ga8e8a41112544b99ef8f20e3e6b61fab7">MR::subdivideMesh</a> </p><div class="image">
 <img src="fill_smooth.png" alt="" width="250cm"/>
 <div class="caption">
 Fill with smooth</div></div>
@@ -741,7 +726,7 @@ Before</div></div>
 <img src="fill_triv.png" alt="" width="250cm"/>
 <div class="caption">
 After</div></div>
-<p>Next picture show, how newly generated faces can be smoothed <a class="el" href="namespaceMR.html#ae86354c05ad9fa894a5dd8c50099d7a9">MR::positionVertsSmoothly</a> <a class="el" href="group__MeshSubdivideGroup.html#ga8e8a41112544b99ef8f20e3e6b61fab7">MR::subdivideMesh</a> </p><div class="image">
+<p>Next picture show, how newly generated faces can be smoothed <a class="elRef" href="../namespaceMR.html#ae86354c05ad9fa894a5dd8c50099d7a9">MR::positionVertsSmoothly</a> <a class="el" href="group__MeshSubdivideGroup.html#ga8e8a41112544b99ef8f20e3e6b61fab7">MR::subdivideMesh</a> </p><div class="image">
 <img src="fill_triv_smooth.png" alt="" width="250cm"/>
 <div class="caption">
 Trivial fill with smooth</div></div>
@@ -1099,7 +1084,7 @@ Simple metric minimizing edge length </p>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>This metric minimizes the maximal dihedral angle between the faces in the triangulation and on its boundary, and it avoids creating too degenerate triangles; for planar holes it is the same as getCircumscribedMetric </p>
+<p>This metric consists of two parts 1) for each triangle: it is the circumcircle diameter, this avoids the appearance of degenerate triangles; 2) for each edge: square root of double total area of triangles to its left and right times the factor depending extensionally on absolute dihedral angle between left and right triangles, this makes visually triangulated surface as smooth as possible. For planar holes it is the same as getCircumscribedMetric. </p>
 
 </div>
 </div>
@@ -1143,7 +1128,7 @@ All new faces should be parallel to given direction </p>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a099da1b4cb4b8348ee3fed0588b01aa3">EdgeLoop</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>loop</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="elRef" href="../namespaceMR.html#a099da1b4cb4b8348ee3fed0588b01aa3">EdgeLoop</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>loop</em></span>&#160;)</td>
         </tr>
       </table>
   </td>

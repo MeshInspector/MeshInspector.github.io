@@ -15,12 +15,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -166,10 +160,10 @@ $(function(){initNavTree('structMRSaveSettings.html',''); initResizable(true); }
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a47c3805a57d7062446bc12172eb77943" id="r_a47c3805a57d7062446bc12172eb77943"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47c3805a57d7062446bc12172eb77943">saveValidOnly</a></td></tr>
-<tr class="separator:a47c3805a57d7062446bc12172eb77943"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4df1627285e1943e46ed5844acd7acf8" id="r_a4df1627285e1943e46ed5844acd7acf8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4df1627285e1943e46ed5844acd7acf8">rearrangeTriangles</a></td></tr>
-<tr class="separator:a4df1627285e1943e46ed5844acd7acf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40940a32066a3028433059783509250d" id="r_a40940a32066a3028433059783509250d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40940a32066a3028433059783509250d">onlyValidPoints</a></td></tr>
+<tr class="separator:a40940a32066a3028433059783509250d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b5228506d4dfed3dba5069b28b2a57b" id="r_a4b5228506d4dfed3dba5069b28b2a57b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b5228506d4dfed3dba5069b28b2a57b">packPrimitives</a></td></tr>
+<tr class="separator:a4b5228506d4dfed3dba5069b28b2a57b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab91ad76d039a96d79720bce0772eb46b" id="r_ab91ad76d039a96d79720bce0772eb46b"><td class="memItemLeft" align="right" valign="top">const MRVertColors *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab91ad76d039a96d79720bce0772eb46b">colors</a></td></tr>
 <tr class="memdesc:ab91ad76d039a96d79720bce0772eb46b"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional per-vertex color to save with the geometry  <br /></td></tr>
 <tr class="separator:ab91ad76d039a96d79720bce0772eb46b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -196,6 +190,36 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a40940a32066a3028433059783509250d" name="a40940a32066a3028433059783509250d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40940a32066a3028433059783509250d">&#9670;&#160;</a></span>onlyValidPoints</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MRSaveSettings::onlyValidPoints</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>true - save valid points/vertices only (pack them); false - save all points/vertices preserving their indices </p>
+
+</div>
+</div>
+<a id="a4b5228506d4dfed3dba5069b28b2a57b" name="a4b5228506d4dfed3dba5069b28b2a57b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b5228506d4dfed3dba5069b28b2a57b">&#9670;&#160;</a></span>packPrimitives</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MRSaveSettings::packPrimitives</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if it is turned on, then higher compression ratios are reached but the order of primitives (triangles in meshes or edges in polylines) is changed; currently this flag affects the saving in .ctm and .ply formats only </p>
+
+</div>
+</div>
 <a id="a9c114be117bb46a789028e6f1f814201" name="a9c114be117bb46a789028e6f1f814201"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9c114be117bb46a789028e6f1f814201">&#9670;&#160;</a></span>progress</h2>
 
@@ -209,36 +233,6 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>to report save progress and cancel saving if user desires </p>
-
-</div>
-</div>
-<a id="a4df1627285e1943e46ed5844acd7acf8" name="a4df1627285e1943e46ed5844acd7acf8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4df1627285e1943e46ed5844acd7acf8">&#9670;&#160;</a></span>rearrangeTriangles</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool MRSaveSettings::rearrangeTriangles</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>if it is turned on, then higher compression ratios are reached but the order of triangles is changed; currently affects .ctm format only </p>
-
-</div>
-</div>
-<a id="a47c3805a57d7062446bc12172eb77943" name="a47c3805a57d7062446bc12172eb77943"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a47c3805a57d7062446bc12172eb77943">&#9670;&#160;</a></span>saveValidOnly</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool MRSaveSettings::saveValidOnly</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>true - save valid points/vertices only (pack them); false - save all points/vertices preserving their indices </p>
 
 </div>
 </div>

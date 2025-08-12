@@ -15,12 +15,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -166,7 +160,7 @@ $(function(){initNavTree('ExampleTriangulation.html',''); initResizable(true); }
 <div class="line">{</div>
 <div class="line">    <span class="comment">// Generate point cloud</span></div>
 <div class="line">    <a class="code hl_structRef" href="./Cpp/structMR_1_1PointCloud.html">MR::PointCloud</a> pc;</div>
-<div class="line">    pc.points.reserve( 10000 );</div>
+<div class="line">    pc.<a class="code hl_variableRef" href="./Cpp/structMR_1_1PointCloud.html#a0da05bf74b7157037f314c884ab018b4">points</a>.reserve( 10000 );</div>
 <div class="line">    <span class="keywordflow">for</span> ( <span class="keyword">auto</span> i = 0; i &lt; 100; ++i )</div>
 <div class="line">    {</div>
 <div class="line">        <span class="keyword">const</span> <span class="keyword">auto</span> u = MR::PI2_F * float( i ) / ( 100.f - 1.f );</div>
@@ -174,7 +168,7 @@ $(function(){initNavTree('ExampleTriangulation.html',''); initResizable(true); }
 <div class="line">        {</div>
 <div class="line">            <span class="keyword">const</span> <span class="keyword">auto</span> v = MR::PI_F * float( j ) / ( 100.f - 1.f );</div>
 <div class="line"> </div>
-<div class="line">            pc.points.emplace_back(</div>
+<div class="line">            pc.<a class="code hl_variableRef" href="./Cpp/structMR_1_1PointCloud.html#a0da05bf74b7157037f314c884ab018b4">points</a>.emplace_back(</div>
 <div class="line">                std::cos( u ) * std::sin( v ),</div>
 <div class="line">                std::sin( u ) * std::sin( v ),</div>
 <div class="line">                std::cos( v )</div>
@@ -186,8 +180,8 @@ $(function(){initNavTree('ExampleTriangulation.html',''); initResizable(true); }
 <div class="line">        .distance = 1e-3f,</div>
 <div class="line">    } );</div>
 <div class="line">    assert( vs );</div>
-<div class="line">    pc.validPoints = std::move( *vs );</div>
-<div class="line">    pc.invalidateCaches();</div>
+<div class="line">    pc.<a class="code hl_variableRef" href="./Cpp/structMR_1_1PointCloud.html#a99cd2bd3f8fa8482032603f382ab9a03">validPoints</a> = std::move( *vs );</div>
+<div class="line">    pc.<a class="code hl_functionRef" href="./Cpp/structMR_1_1PointCloud.html#ab7c257206a284f22b8e2484b87436069">invalidateCaches</a>();</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Triangulate it</span></div>
 <div class="line">    <span class="keyword">auto</span> triangulated = <a class="code hl_functionRef" href="./Cpp/group__PointCloudTriangulationGroup.html#ga9d337ad4ab25ed0b9ad75512670ca1df">MR::triangulatePointCloud</a>( pc );</div>
@@ -204,6 +198,9 @@ $(function(){initNavTree('ExampleTriangulation.html',''); initResizable(true); }
 <div class="ttc" id="anamespaceMR_html_a346ad7a38921d6822ceffafc1eba769d"><div class="ttname"><a href="./Cpp/namespaceMR.html#a346ad7a38921d6822ceffafc1eba769d">MR::suggestVoxelSize</a></div><div class="ttdeci">MRVOXELS_API float suggestVoxelSize(const MeshPart &amp;mp, float approxNumVoxels)</div></div>
 <div class="ttc" id="anamespaceMR_html_aa8cff093ce429503e9b5c0e33d5b9080"><div class="ttname"><a href="./Cpp/namespaceMR.html#aa8cff093ce429503e9b5c0e33d5b9080">MR::offsetMesh</a></div><div class="ttdeci">MRVOXELS_API Expected&lt; Mesh &gt; offsetMesh(const MeshPart &amp;mp, float offset, const OffsetParameters &amp;params={})</div></div>
 <div class="ttc" id="astructMR_1_1PointCloud_html"><div class="ttname"><a href="./Cpp/structMR_1_1PointCloud.html">MR::PointCloud</a></div></div>
+<div class="ttc" id="astructMR_1_1PointCloud_html_a0da05bf74b7157037f314c884ab018b4"><div class="ttname"><a href="./Cpp/structMR_1_1PointCloud.html#a0da05bf74b7157037f314c884ab018b4">MR::PointCloud::points</a></div><div class="ttdeci">VertCoords points</div></div>
+<div class="ttc" id="astructMR_1_1PointCloud_html_a99cd2bd3f8fa8482032603f382ab9a03"><div class="ttname"><a href="./Cpp/structMR_1_1PointCloud.html#a99cd2bd3f8fa8482032603f382ab9a03">MR::PointCloud::validPoints</a></div><div class="ttdeci">VertBitSet validPoints</div></div>
+<div class="ttc" id="astructMR_1_1PointCloud_html_ab7c257206a284f22b8e2484b87436069"><div class="ttname"><a href="./Cpp/structMR_1_1PointCloud.html#ab7c257206a284f22b8e2484b87436069">MR::PointCloud::invalidateCaches</a></div><div class="ttdeci">void invalidateCaches()</div></div>
 </div><!-- fragment --></li>
 <li><b class="tab-title">Python API v2</b> <div class="fragment"><div class="line"><span class="keyword">from</span> meshlib <span class="keyword">import</span> mrmeshpy <span class="keyword">as</span> mm</div>
 <div class="line"><span class="keyword">from</span> meshlib <span class="keyword">import</span> mrmeshnumpy <span class="keyword">as</span> mn</div>
@@ -256,77 +253,110 @@ $(function(){initNavTree('ExampleTriangulation.html',''); initResizable(true); }
 <div class="line">offsetParams.voxelSize = mm.suggestVoxelSize( triangulated_pc, 5e6 )</div>
 <div class="line">triangulated_pc = mm.offsetMesh(triangulated_pc, 0.0, params=offsetParams)</div>
 </div><!-- fragment --></li>
-<li><b class="tab-title">C</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMeshC/MRBitSet.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMeshC/MRMesh.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMeshC/MROffset.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMeshC/MRPointCloud.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMeshC/MRPointCloudTriangulation.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMeshC/MRUniformSampling.h&gt;</span></div>
+<li><b class="tab-title">C</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &quot;MRCMesh/MRMeshSave.h&quot;</span></div>
+<div class="line"><span class="preprocessor">#include &quot;MRCMisc/expected_MR_Mesh_std_string.h&quot;</span></div>
+<div class="line"><span class="preprocessor">#include &quot;MRCMisc/expected_void_std_string.h&quot;</span></div>
+<div class="line"><span class="preprocessor">#include &quot;MRCMisc/std_string.h&quot;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRBitSet.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMesh.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMeshPart.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRPointCloud.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRPointCloudTriangulation.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRUniformSampling.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRVector.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRCMisc/std_optional_MR_Mesh.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRCMisc/std_optional_MR_VertBitSet.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRCVoxels/MROffset.h&gt;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="preprocessor">#include &lt;math.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
 <div class="line"> </div>
-<div class="line"><span class="keywordtype">int</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>( <span class="keywordtype">int</span> argc, <span class="keywordtype">char</span>* argv[] )</div>
+<div class="line"><span class="preprocessor">#define PI 3.14159265358979323846</span></div>
+<div class="line"> </div>
+<div class="line"><span class="keywordtype">int</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>( <span class="keywordtype">void</span> )</div>
 <div class="line">{</div>
 <div class="line">    <span class="comment">// Generate point cloud</span></div>
-<div class="line">    <a class="code hl_structRef" href="./Cpp/structMRVector3f.html">MRVector3f</a> points[10000];</div>
+<div class="line">    MR_VertCoords* points = MR_VertCoords_Construct_1_uint64_t( 10000 );</div>
 <div class="line">    <span class="keywordflow">for</span> ( <span class="keywordtype">int</span> i = 0; i &lt; 100; ++i )</div>
 <div class="line">    {</div>
-<div class="line">        <span class="keywordtype">float</span> u = <a class="code hl_defineRef" href="./Cpp/MROpenVDB_8h.html#a958e4508ed28ee5cc04249144312c15f">M_PI_2</a> * (float)i / ( 100.f - 1.f );</div>
+<div class="line">        <span class="keywordtype">float</span> u = PI*2 * (float)i / ( 100.f - 1.f );</div>
 <div class="line">        <span class="keywordflow">for</span> ( <span class="keywordtype">int</span> j = 0; j &lt; 100; ++j )</div>
 <div class="line">        {</div>
-<div class="line">            <span class="keywordtype">float</span> v = <a class="code hl_defineRef" href="./Cpp/MROpenVDB_8h.html#ae71449b1cc6e6250b91f539153a7a0d3">M_PI</a> * (float)j / ( 100.f - 1.f );</div>
+<div class="line">            <span class="keywordtype">float</span> v = PI * (float)j / ( 100.f - 1.f );</div>
 <div class="line"> </div>
-<div class="line">            points[i * 100 + j] = (<a class="code hl_structRef" href="./Cpp/structMRVector3f.html">MRVector3f</a>){</div>
+<div class="line">            *MR_VertCoords_index( points, (MR_VertId){ i * 100 + j } ) = (MR_Vector3f){</div>
 <div class="line">                cos( u ) * sin( v ),</div>
 <div class="line">                sin( u ) * sin( v ),</div>
 <div class="line">                cos( v )</div>
 <div class="line">            };</div>
 <div class="line">        }</div>
 <div class="line">    }</div>
-<div class="line">    <a class="code hl_typedefRef" href="./Cpp/MRMeshC_2MRMeshFwd_8h.html#a19ede8e7737a01e7448209c82c517753">MRPointCloud</a>* pc = <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MRPointCloud_8h.html#a88b4aa69ad48bdea4d15724f942e7ff5">mrPointCloudFromPoints</a>( points, 10000 );</div>
-<div class="line">    <span class="comment">// Remove duplicate points</span></div>
-<div class="line">    <a class="code hl_structRef" href="./Cpp/structMRUniformSamplingSettings.html">MRUniformSamplingSettings</a> samplingSettings = <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MRUniformSampling_8h.html#adfe2a1b6c570423b94641bc178f99194">mrUniformSamplingSettingsNew</a>();</div>
-<div class="line">    samplingSettings.<a class="code hl_variableRef" href="./Cpp/structMRUniformSamplingSettings.html#afea94f2de617154b2959a6ba91d5fea2">distance</a> = 1e-3f;</div>
-<div class="line">    <a class="code hl_typedefRef" href="./Cpp/MRMeshC_2MRMeshFwd_8h.html#a46d18b867dd2cbd31dd009e01658ba44">MRVertBitSet</a>* vs = <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MRUniformSampling_8h.html#afafb45dac922ac87abc678e89d72d905">mrPointUniformSampling</a>( pc, &amp;samplingSettings );</div>
-<div class="line">    <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MRPointCloud_8h.html#ad9ae4db89a6e2914ef2a0a65779e6333">mrPointCloudSetValidPoints</a>( pc, vs );</div>
-<div class="line">    <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MRPointCloud_8h.html#a1745591a6e74b8f237a044ca41503bba">mrPointCloudInvalidateCaches</a>( pc );</div>
+<div class="line">    MR_PointCloud* pc = MR_PointCloud_DefaultConstruct();</div>
+<div class="line">    MR_PointCloud_Set_points( pc, MR_PassBy_Move, points );</div>
+<div class="line">    <span class="comment">// Fill the bitset of valid points in `pc` to all ones.</span></div>
+<div class="line">    MR_BitSet_resize( MR_VertBitSet_MutableUpcastTo_MR_BitSet( MR_PointCloud_GetMutable_validPoints( pc ) ), 10000, &amp;(<span class="keywordtype">bool</span>){<span class="keyword">true</span>} );</div>
+<div class="line">    MR_VertCoords_Destroy( points );</div>
 <div class="line"> </div>
-<div class="line">    <span class="comment">// Triangulate it</span></div>
-<div class="line">    <a class="code hl_typedefRef" href="./Cpp/MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a>* triangulated = <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MRPointCloudTriangulation_8h.html#a25a82b128648f3868ef306e8f17697a6">mrTriangulatePointCloud</a>( pc, NULL );</div>
+<div class="line">    <span class="comment">// Remove duplicate points</span></div>
+<div class="line">    MR_UniformSamplingSettings* samplingSettings = MR_UniformSamplingSettings_DefaultConstruct();</div>
+<div class="line">    MR_UniformSamplingSettings_Set_distance( samplingSettings, 1e-3f );</div>
+<div class="line">    MR_std_optional_MR_VertBitSet* vs = MR_pointUniformSampling( pc, samplingSettings );</div>
+<div class="line">    MR_UniformSamplingSettings_Destroy( samplingSettings );</div>
+<div class="line"> </div>
+<div class="line">    <span class="keywordflow">if</span> ( !vs )</div>
+<div class="line">    {</div>
+<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Removing duplicate points failed\n&quot;</span> );</div>
+<div class="line">        MR_std_optional_MR_VertBitSet_Destroy( vs );</div>
+<div class="line">        <span class="keywordflow">return</span> 1;</div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">    MR_PointCloud_Set_validPoints( pc, MR_PassBy_Move, MR_std_optional_MR_VertBitSet_MutableValue( vs ) );</div>
+<div class="line">    MR_std_optional_MR_VertBitSet_Destroy( vs );</div>
+<div class="line"> </div>
+<div class="line">    MR_PointCloud_invalidateCaches( pc );</div>
+<div class="line"> </div>
+<div class="line">    <span class="comment">// Triangulate the point cloud</span></div>
+<div class="line">    MR_std_optional_MR_Mesh* triangulatedOpt = MR_triangulatePointCloud( pc, NULL, MR_PassBy_DefaultArgument, NULL );</div>
+<div class="line">    MR_PointCloud_Destroy( pc );</div>
+<div class="line"> </div>
+<div class="line">    MR_Mesh* triangulated = MR_std_optional_MR_Mesh_MutableValue( triangulatedOpt );</div>
+<div class="line">    <span class="keywordflow">if</span> ( !triangulated )</div>
+<div class="line">    {</div>
+<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Triangulation failed\n&quot;</span> );</div>
+<div class="line">        MR_std_optional_MR_Mesh_Destroy( triangulatedOpt );</div>
+<div class="line">        <span class="keywordflow">return</span> 1;</div>
+<div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Fix possible issues</span></div>
-<div class="line">    <a class="code hl_structRef" href="./Cpp/structMROffsetParameters.html">MROffsetParameters</a> offsetParams = <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MROffset_8h.html#ab0bcbdc61697a510f5fe0bc636ac7a93">mrOffsetParametersNew</a>();</div>
-<div class="line">    offsetParams.<a class="code hl_variableRef" href="./Cpp/structMROffsetParameters.html#a101abd04d5b2643285510c4fa363b679">voxelSize</a> = <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MROffset_8h.html#ad4c72f42f42761ee3fd77af2372ab83b">mrSuggestVoxelSize</a>( (<a class="code hl_structRef" href="./Cpp/structMRMeshPart.html">MRMeshPart</a>){ triangulated, NULL }, 5e+6f );</div>
-<div class="line">    <a class="code hl_typedefRef" href="./Cpp/MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a>* mesh = <a class="code hl_functionRef" href="./Cpp/MRMeshC_8h.html#ab0ecf41a93470d8d200a994dbe88332a">mrOffsetMesh</a>( (<a class="code hl_structRef" href="./Cpp/structMRMeshPart.html">MRMeshPart</a>){ triangulated, NULL }, 0.f, &amp;offsetParams, NULL );</div>
+<div class="line">    MR_OffsetParameters* offsetParams = MR_OffsetParameters_DefaultConstruct();</div>
+<div class="line">    MR_MeshPart* mp = MR_MeshPart_Construct( triangulated, NULL );</div>
+<div class="line">    MR_BaseShellParameters_Set_voxelSize( MR_OffsetParameters_MutableUpcastTo_MR_BaseShellParameters( offsetParams ), MR_suggestVoxelSize( mp, 5e+4f ) );</div>
+<div class="line">    MR_expected_MR_Mesh_std_string *meshEx = MR_offsetMesh( mp, 0.f, offsetParams );</div>
+<div class="line">    MR_MeshPart_Destroy( mp );</div>
+<div class="line">    MR_std_optional_MR_Mesh_Destroy( triangulatedOpt );</div>
 <div class="line"> </div>
-<div class="line">    <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MRMesh_8h.html#ae5d22b5eec3af73293e031ea6346310d">mrMeshFree</a>( mesh );</div>
-<div class="line">    <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MRMesh_8h.html#ae5d22b5eec3af73293e031ea6346310d">mrMeshFree</a>( triangulated );</div>
-<div class="line">    <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MRBitSet_8h.html#a8edd3bbe85ba162bd70a7bd90ae63fd5">mrVertBitSetFree</a>( vs );</div>
-<div class="line">    <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MRPointCloud_8h.html#aaf0e7a0bb881a2b870dbd3612347864c">mrPointCloudFree</a>( pc );</div>
+<div class="line">    MR_Mesh* mesh = MR_expected_MR_Mesh_std_string_GetMutableValue( meshEx );</div>
+<div class="line">    <span class="keywordflow">if</span> ( !mesh )</div>
+<div class="line">    {</div>
+<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Offset failed: %s\n&quot;</span>, MR_std_string_Data( MR_expected_MR_Mesh_std_string_GetError( meshEx ) ) );</div>
+<div class="line">        MR_expected_MR_Mesh_std_string_Destroy( meshEx );</div>
+<div class="line">        <span class="keywordflow">return</span> 1;</div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">    <span class="comment">// Save the result</span></div>
+<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat_3( mesh, <span class="stringliteral">&quot;result.stl&quot;</span>, NULL, NULL);</div>
+<div class="line">    MR_expected_MR_Mesh_std_string_Destroy( meshEx );</div>
+<div class="line"> </div>
+<div class="line">    <span class="keywordflow">if</span> ( MR_expected_void_std_string_GetError( saveEx ) )</div>
+<div class="line">    {</div>
+<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to save mesh: %s\n&quot;</span>, MR_std_string_Data( MR_expected_void_std_string_GetError( saveEx ) ) );</div>
+<div class="line">        MR_expected_void_std_string_Destroy( saveEx );</div>
+<div class="line">        <span class="keywordflow">return</span> 1;</div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">    MR_expected_void_std_string_Destroy( saveEx );</div>
+<div class="line">    <span class="keywordflow">return</span> 0;</div>
 <div class="line">}</div>
-<div class="ttc" id="aMRMeshC_2MRBitSet_8h_html_a8edd3bbe85ba162bd70a7bd90ae63fd5"><div class="ttname"><a href="./Cpp/MRMeshC_2MRBitSet_8h.html#a8edd3bbe85ba162bd70a7bd90ae63fd5">mrVertBitSetFree</a></div><div class="ttdeci">MRMESHC_API void mrVertBitSetFree(MRVertBitSet *vbs)</div></div>
-<div class="ttc" id="aMRMeshC_2MRMeshFwd_8h_html_a19ede8e7737a01e7448209c82c517753"><div class="ttname"><a href="./Cpp/MRMeshC_2MRMeshFwd_8h.html#a19ede8e7737a01e7448209c82c517753">MRPointCloud</a></div><div class="ttdeci">struct MRPointCloud MRPointCloud</div></div>
-<div class="ttc" id="aMRMeshC_2MRMeshFwd_8h_html_a46d18b867dd2cbd31dd009e01658ba44"><div class="ttname"><a href="./Cpp/MRMeshC_2MRMeshFwd_8h.html#a46d18b867dd2cbd31dd009e01658ba44">MRVertBitSet</a></div><div class="ttdeci">struct MRVertBitSet MRVertBitSet</div></div>
-<div class="ttc" id="aMRMeshC_2MRMeshFwd_8h_html_a7b372c6d0fd65239f731902623e752c5"><div class="ttname"><a href="./Cpp/MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a></div><div class="ttdeci">struct MRMesh MRMesh</div></div>
-<div class="ttc" id="aMRMeshC_2MRMesh_8h_html_ae5d22b5eec3af73293e031ea6346310d"><div class="ttname"><a href="./Cpp/MRMeshC_2MRMesh_8h.html#ae5d22b5eec3af73293e031ea6346310d">mrMeshFree</a></div><div class="ttdeci">MRMESHC_API void mrMeshFree(MRMesh *mesh)</div></div>
-<div class="ttc" id="aMRMeshC_2MROffset_8h_html_ab0bcbdc61697a510f5fe0bc636ac7a93"><div class="ttname"><a href="./Cpp/MRMeshC_2MROffset_8h.html#ab0bcbdc61697a510f5fe0bc636ac7a93">mrOffsetParametersNew</a></div><div class="ttdeci">MRMESHC_API MROffsetParameters mrOffsetParametersNew(void)</div></div>
-<div class="ttc" id="aMRMeshC_2MROffset_8h_html_ad4c72f42f42761ee3fd77af2372ab83b"><div class="ttname"><a href="./Cpp/MRMeshC_2MROffset_8h.html#ad4c72f42f42761ee3fd77af2372ab83b">mrSuggestVoxelSize</a></div><div class="ttdeci">MRMESHC_API float mrSuggestVoxelSize(MRMeshPart mp, float approxNumVoxels)</div></div>
-<div class="ttc" id="aMRMeshC_2MRPointCloudTriangulation_8h_html_a25a82b128648f3868ef306e8f17697a6"><div class="ttname"><a href="./Cpp/MRMeshC_2MRPointCloudTriangulation_8h.html#a25a82b128648f3868ef306e8f17697a6">mrTriangulatePointCloud</a></div><div class="ttdeci">MRMESHC_API MRMesh * mrTriangulatePointCloud(const MRPointCloud *pointCloud, const MRTriangulationParameters *params)</div></div>
-<div class="ttc" id="aMRMeshC_2MRPointCloud_8h_html_a1745591a6e74b8f237a044ca41503bba"><div class="ttname"><a href="./Cpp/MRMeshC_2MRPointCloud_8h.html#a1745591a6e74b8f237a044ca41503bba">mrPointCloudInvalidateCaches</a></div><div class="ttdeci">MRMESHC_API void mrPointCloudInvalidateCaches(MRPointCloud *pc)</div></div>
-<div class="ttc" id="aMRMeshC_2MRPointCloud_8h_html_a88b4aa69ad48bdea4d15724f942e7ff5"><div class="ttname"><a href="./Cpp/MRMeshC_2MRPointCloud_8h.html#a88b4aa69ad48bdea4d15724f942e7ff5">mrPointCloudFromPoints</a></div><div class="ttdeci">MRMESHC_API MRPointCloud * mrPointCloudFromPoints(const MRVector3f *points, size_t pointsNum)</div></div>
-<div class="ttc" id="aMRMeshC_2MRPointCloud_8h_html_aaf0e7a0bb881a2b870dbd3612347864c"><div class="ttname"><a href="./Cpp/MRMeshC_2MRPointCloud_8h.html#aaf0e7a0bb881a2b870dbd3612347864c">mrPointCloudFree</a></div><div class="ttdeci">MRMESHC_API void mrPointCloudFree(MRPointCloud *pc)</div></div>
-<div class="ttc" id="aMRMeshC_2MRPointCloud_8h_html_ad9ae4db89a6e2914ef2a0a65779e6333"><div class="ttname"><a href="./Cpp/MRMeshC_2MRPointCloud_8h.html#ad9ae4db89a6e2914ef2a0a65779e6333">mrPointCloudSetValidPoints</a></div><div class="ttdeci">MRMESHC_API void mrPointCloudSetValidPoints(MRPointCloud *pc, const MRVertBitSet *validPoints)</div></div>
-<div class="ttc" id="aMRMeshC_2MRUniformSampling_8h_html_adfe2a1b6c570423b94641bc178f99194"><div class="ttname"><a href="./Cpp/MRMeshC_2MRUniformSampling_8h.html#adfe2a1b6c570423b94641bc178f99194">mrUniformSamplingSettingsNew</a></div><div class="ttdeci">MRMESHC_API MRUniformSamplingSettings mrUniformSamplingSettingsNew(void)</div></div>
-<div class="ttc" id="aMRMeshC_2MRUniformSampling_8h_html_afafb45dac922ac87abc678e89d72d905"><div class="ttname"><a href="./Cpp/MRMeshC_2MRUniformSampling_8h.html#afafb45dac922ac87abc678e89d72d905">mrPointUniformSampling</a></div><div class="ttdeci">MRMESHC_API MRVertBitSet * mrPointUniformSampling(const MRPointCloud *pointCloud, const MRUniformSamplingSettings *settings)</div></div>
-<div class="ttc" id="aMRMeshC_8h_html_ab0ecf41a93470d8d200a994dbe88332a"><div class="ttname"><a href="./Cpp/MRMeshC_8h.html#ab0ecf41a93470d8d200a994dbe88332a">mrOffsetMesh</a></div><div class="ttdeci">MRMESHC_API MRMesh * mrOffsetMesh(MRMeshPart mp, float offset, const MROffsetParameters *params, MRString **errorString)</div></div>
-<div class="ttc" id="aMROpenVDB_8h_html_a958e4508ed28ee5cc04249144312c15f"><div class="ttname"><a href="./Cpp/MROpenVDB_8h.html#a958e4508ed28ee5cc04249144312c15f">M_PI_2</a></div><div class="ttdeci">#define M_PI_2</div></div>
-<div class="ttc" id="aMROpenVDB_8h_html_ae71449b1cc6e6250b91f539153a7a0d3"><div class="ttname"><a href="./Cpp/MROpenVDB_8h.html#ae71449b1cc6e6250b91f539153a7a0d3">M_PI</a></div><div class="ttdeci">#define M_PI</div></div>
-<div class="ttc" id="astructMRMeshPart_html"><div class="ttname"><a href="./Cpp/structMRMeshPart.html">MRMeshPart</a></div></div>
-<div class="ttc" id="astructMROffsetParameters_html"><div class="ttname"><a href="./Cpp/structMROffsetParameters.html">MROffsetParameters</a></div></div>
-<div class="ttc" id="astructMROffsetParameters_html_a101abd04d5b2643285510c4fa363b679"><div class="ttname"><a href="./Cpp/structMROffsetParameters.html#a101abd04d5b2643285510c4fa363b679">MROffsetParameters::voxelSize</a></div><div class="ttdeci">float voxelSize</div></div>
-<div class="ttc" id="astructMRUniformSamplingSettings_html"><div class="ttname"><a href="./Cpp/structMRUniformSamplingSettings.html">MRUniformSamplingSettings</a></div></div>
-<div class="ttc" id="astructMRUniformSamplingSettings_html_afea94f2de617154b2959a6ba91d5fea2"><div class="ttname"><a href="./Cpp/structMRUniformSamplingSettings.html#afea94f2de617154b2959a6ba91d5fea2">MRUniformSamplingSettings::distance</a></div><div class="ttdeci">float distance</div></div>
-<div class="ttc" id="astructMRVector3f_html"><div class="ttname"><a href="./Cpp/structMRVector3f.html">MRVector3f</a></div></div>
 </div><!-- fragment --></li>
 </ul>
 </div><div class="tabbed"></div> </div></div><!-- contents -->

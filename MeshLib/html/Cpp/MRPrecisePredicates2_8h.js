@@ -16,5 +16,7 @@ var MRPrecisePredicates2_8h =
     [ "inCircle", "MRPrecisePredicates2_8h.html#a084e4f0b1325cc3f6db691c8f4a79afb", null ],
     [ "orientParaboloid3d", "MRPrecisePredicates2_8h.html#a6626f7c315e4aae48380b5c214af0e42", null ],
     [ "orientParaboloid3d", "MRPrecisePredicates2_8h.html#a565f119f21a7b73c4af0da283afb6c30", null ],
-    [ "smaller", "MRPrecisePredicates2_8h.html#ab32707ab055efa8d14815955fdfbcadd", null ]
+    [ "segmentIntersectionOrder", "MRPrecisePredicates2_8h.html#a60a0c2f417f93c5b7146c1ea63680d02", null ],
+    [ "smaller", "MRPrecisePredicates2_8h.html#ab32707ab055efa8d14815955fdfbcadd", null ],
+    [ "smaller2", "MRPrecisePredicates2_8h.html#a9a7e0ce0f1abfc4c495e78fa9b09057e", null ]
 ];

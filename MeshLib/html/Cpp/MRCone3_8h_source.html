@@ -15,12 +15,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -158,7 +152,7 @@ $(function(){initNavTree('MRCone3_8h_source.html',''); initResizable(true); });
 <a href="MRCone3_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &quot;<a class="code" href="MRLine3_8h.html">MRLine3.h</a>&quot;</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="keyword">namespace </span><a class="code hl_namespaceRef" href="../namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span>{</div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="comment">// Base class for cone parameterization</span></div>
@@ -238,25 +232,25 @@ $(function(){initNavTree('MRCone3_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>        <span class="keyword">const</span> T coneAngle = <a class="code hl_variable" href="classMR_1_1Cone3.html#a17cbe4ac01d2a5bacfd1909eeccb9488">angle</a>;</div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>        <span class="comment">// Calculate vector X as the difference between the point and the center of the cone</span></div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>        <span class="keyword">auto</span> <a class="code hl_enumvalue" href="namespaceMR.html#a05195fdcf0d1d90b73a5d24b11150005a02129bb861061d1a052c592e2dc6b383">X</a> = point - <a class="code hl_function" href="classMR_1_1Cone3.html#a9d99981f78f15a799d2d967ef61952e9">center</a>;</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>        <span class="keyword">auto</span> X = point - <a class="code hl_function" href="classMR_1_1Cone3.html#a9d99981f78f15a799d2d967ef61952e9">center</a>;</div>
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>        <span class="comment">// Calculate the angle between vectors n (cone main axis)  and X (center normalyzed source point)</span></div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>        T angleX = std::atan2( cross( n, <a class="code hl_enumvalue" href="namespaceMR.html#a05195fdcf0d1d90b73a5d24b11150005a02129bb861061d1a052c592e2dc6b383">X</a> ).<a class="code hl_variable" href="MRObjectDimensionsEnum_8h.html#af9d495c1655d813d553030485d00fea7">length</a>(), dot( n, <a class="code hl_enumvalue" href="namespaceMR.html#a05195fdcf0d1d90b73a5d24b11150005a02129bb861061d1a052c592e2dc6b383">X</a> ) );</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>        T angleX = std::atan2( cross( n, X ).<a class="code hl_variable" href="MRObjectDimensionsEnum_8h.html#af9d495c1655d813d553030485d00fea7">length</a>(), dot( n, X ) );</div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>        <span class="comment">// This means the projection will fall on the apex of the cone.</span></div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>        <span class="keywordflow">if</span> ( coneAngle + PI_F / 2.0 &lt; angleX )</div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>            <span class="keywordflow">return</span>  <a class="code hl_function" href="classMR_1_1Cone3.html#a9d99981f78f15a799d2d967ef61952e9">center</a>;</div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
 <div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>        <span class="comment">// Project vector X onto the cone main axis</span></div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>        <span class="keyword">auto</span> K = n * MR::dot( <a class="code hl_enumvalue" href="namespaceMR.html#a05195fdcf0d1d90b73a5d24b11150005a02129bb861061d1a052c592e2dc6b383">X</a>, n );</div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>        <span class="keyword">auto</span> XK = ( <a class="code hl_enumvalue" href="namespaceMR.html#a05195fdcf0d1d90b73a5d24b11150005a02129bb861061d1a052c592e2dc6b383">X</a> - K );</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>        <span class="keyword">auto</span> K = n * MR::dot( X, n );</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>        <span class="keyword">auto</span> XK = ( X - K );</div>
 <div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span> </div>
 <div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>        <span class="comment">// We find the point of intersection of the vector XK with the surface of the cone </span></div>
 <div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>        <span class="comment">// and find a guide ventor along the surface of the cone to the projection point</span></div>
 <div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>        <span class="keyword">auto</span> D = K + XK.normalized() * ( K.length() * std::tan( coneAngle ) );</div>
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>        <span class="keyword">auto</span> normD = D.normalized();</div>
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>        <span class="comment">// Calculate the projected point on the conical surface</span></div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>        <span class="keywordflow">return</span> normD * dot( normD, <a class="code hl_enumvalue" href="namespaceMR.html#a05195fdcf0d1d90b73a5d24b11150005a02129bb861061d1a052c592e2dc6b383">X</a> ) + <a class="code hl_function" href="classMR_1_1Cone3.html#a9d99981f78f15a799d2d967ef61952e9">center</a>;</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>        <span class="keywordflow">return</span> normD * dot( normD, X ) + <a class="code hl_function" href="classMR_1_1Cone3.html#a9d99981f78f15a799d2d967ef61952e9">center</a>;</div>
 <div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>    }</div>
 </div>
 <div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span> </div>
@@ -286,10 +280,9 @@ $(function(){initNavTree('MRCone3_8h_source.html',''); initResizable(true); });
 <div class="ttc" id="aclassMR_1_1Cone3_html_aaac517326bd964d483c9f408a07f10c6"><div class="ttname"><a href="classMR_1_1Cone3.html#aaac517326bd964d483c9f408a07f10c6">MR::Cone3::direction</a></div><div class="ttdeci">Vector3&lt; T &gt; &amp; direction(void)</div><div class="ttdef"><b>Definition</b> MRCone3.h:38</div></div>
 <div class="ttc" id="aclassMR_1_1Cone3_html_ac3882ccfb731b365aa800f7fd49c51ef"><div class="ttname"><a href="classMR_1_1Cone3.html#ac3882ccfb731b365aa800f7fd49c51ef">MR::Cone3::apex</a></div><div class="ttdeci">const Vector3&lt; T &gt; &amp; apex(void) const</div><div class="ttdef"><b>Definition</b> MRCone3.h:53</div></div>
 <div class="ttc" id="aclassMR_1_1Cone3_html_ac88828ed52ec42c8758c744ff1fdaf20"><div class="ttname"><a href="classMR_1_1Cone3.html#ac88828ed52ec42c8758c744ff1fdaf20">MR::Cone3::projectPoint</a></div><div class="ttdeci">Vector3&lt; T &gt; projectPoint(const Vector3&lt; T &gt; &amp;point) const</div><div class="ttdef"><b>Definition</b> MRCone3.h:58</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
-<div class="ttc" id="anamespaceMR_html_a05195fdcf0d1d90b73a5d24b11150005a02129bb861061d1a052c592e2dc6b383"><div class="ttname"><a href="namespaceMR.html#a05195fdcf0d1d90b73a5d24b11150005a02129bb861061d1a052c592e2dc6b383">MR::Axis::X</a></div><div class="ttdeci">@ X</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="../namespaceMR.html">MR</a></div></div>
 <div class="ttc" id="astructMR_1_1Line_html"><div class="ttname"><a href="structMR_1_1Line.html">MR::Line</a></div><div class="ttdef"><b>Definition</b> MRLine.h:12</div></div>
-<div class="ttc" id="astructMR_1_1Vector3_html"><div class="ttname"><a href="structMR_1_1Vector3.html">MR::Vector3</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRVector3.h:26</div></div>
+<div class="ttc" id="astructMR_1_1Vector3_html"><div class="ttname"><a href="structMR_1_1Vector3.html">MR::Vector3</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRVector3.h:28</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

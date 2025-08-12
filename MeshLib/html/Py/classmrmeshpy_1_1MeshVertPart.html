@@ -15,12 +15,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -162,10 +156,10 @@ $(function(){initNavTree('classmrmeshpy_1_1MeshVertPart.html',''); initResizable
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a58ec29b1289ae3a79d30bfd593db8b05" id="r_a58ec29b1289ae3a79d30bfd593db8b05"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58ec29b1289ae3a79d30bfd593db8b05">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> m, <a class="el" href="classmrmeshpy_1_1VertBitSet.html">VertBitSet</a> bs=None)</td></tr>
-<tr class="separator:a58ec29b1289ae3a79d30bfd593db8b05"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a690b992781d994919e427bcafbe7983c" id="r_a690b992781d994919e427bcafbe7983c"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a690b992781d994919e427bcafbe7983c">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1MeshVertPart.html">MeshVertPart</a> other)</td></tr>
 <tr class="separator:a690b992781d994919e427bcafbe7983c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58ec29b1289ae3a79d30bfd593db8b05" id="r_a58ec29b1289ae3a79d30bfd593db8b05"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58ec29b1289ae3a79d30bfd593db8b05">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> m, <a class="el" href="classmrmeshpy_1_1VertBitSet.html">VertBitSet</a> bs=None)</td></tr>
+<tr class="separator:a58ec29b1289ae3a79d30bfd593db8b05"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae81f7e3ccc1322b3b37f0716597a3c09" id="r_ae81f7e3ccc1322b3b37f0716597a3c09"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1MeshVertPart.html">MeshVertPart</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae81f7e3ccc1322b3b37f0716597a3c09">operator</a> (self, <a class="el" href="classmrmeshpy_1_1MeshVertPart.html">MeshVertPart</a> other)</td></tr>
 <tr class="separator:ae81f7e3ccc1322b3b37f0716597a3c09"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6a69061fd77b0c7d13699957738d370" id="r_aa6a69061fd77b0c7d13699957738d370"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6a69061fd77b0c7d13699957738d370">mesh</a> (self)</td></tr>
@@ -186,10 +180,31 @@ Static Protected Attributes</h2></td></tr>
 <div class="textblock"><pre class="fragment">Generated from:  MR::MeshVertPart
 
 stores reference on whole mesh (if region is nullptr) or on its part (if region pointer is valid)
-\\ingroup MeshAlgorithmGroup
 </pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a690b992781d994919e427bcafbe7983c" name="a690b992781d994919e427bcafbe7983c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a690b992781d994919e427bcafbe7983c">&#9670;&#160;</a></span>__init__() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.MeshVertPart.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1MeshVertPart.html">MeshVertPart</a></td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Make this assignable. A better idea would be to rewrite the class to not use references, but doing this instead preserves API compatibility.
+</pre> 
+</div>
+</div>
 <a id="a58ec29b1289ae3a79d30bfd593db8b05" name="a58ec29b1289ae3a79d30bfd593db8b05"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a58ec29b1289ae3a79d30bfd593db8b05">&#9670;&#160;</a></span>__init__() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a58ec29b1289ae3a79d30bfd593db8b05">&#9670;&#160;</a></span>__init__() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -212,28 +227,6 @@ stores reference on whole mesh (if region is nullptr) or on its part (if region 
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="a690b992781d994919e427bcafbe7983c" name="a690b992781d994919e427bcafbe7983c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a690b992781d994919e427bcafbe7983c">&#9670;&#160;</a></span>__init__() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> None mrmeshpy.MeshVertPart.__init__ </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1MeshVertPart.html">MeshVertPart</a></td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment">Make this assignable. A better idea would be to rewrite the class to not use references, but doing this instead preserves API compatibility.
-</pre> 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>

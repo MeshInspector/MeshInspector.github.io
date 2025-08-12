@@ -15,12 +15,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -182,9 +176,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9a83e20de940378f00e19b33ac4375d7" id="r_a9a83e20de940378f00e19b33ac4375d7"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a83e20de940378f00e19b33ac4375d7">Matrix4</a> (const <a class="el" href="structMR_1_1Matrix3.html">Matrix3</a>&lt; T &gt; &amp;r, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;t)</td></tr>
 <tr class="memdesc:a9a83e20de940378f00e19b33ac4375d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">construct from rotation matrix and translation vector  <br /></td></tr>
 <tr class="separator:a9a83e20de940378f00e19b33ac4375d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0556b8d62feb10af95f534b07a112f76" id="r_a0556b8d62feb10af95f534b07a112f76"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="MRMacros_8h.html#aa4077bf89cb8ad6b60d3d1d989cc5361">MR_SAME_TYPE_TEMPLATE_PARAM</a>(T, TT) &gt; </td></tr>
-<tr class="memitem:a0556b8d62feb10af95f534b07a112f76"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a0556b8d62feb10af95f534b07a112f76">Matrix4</a> (const <a class="el" href="namespaceMR.html#ac964d34e63e2bd23c8ab1e4cea68ae71">AffineXf3</a>&lt; TT &gt; &amp;xf)</td></tr>
-<tr class="separator:a0556b8d62feb10af95f534b07a112f76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa742a4871b2f7f749de9e6c98cc7e59c" id="r_aa742a4871b2f7f749de9e6c98cc7e59c"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="MRMacros_8h.html#aa4077bf89cb8ad6b60d3d1d989cc5361">MR_SAME_TYPE_TEMPLATE_PARAM</a>(T, TT) &gt; </td></tr>
+<tr class="memitem:aa742a4871b2f7f749de9e6c98cc7e59c"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#aa742a4871b2f7f749de9e6c98cc7e59c">Matrix4</a> (const <a class="elRef" href="../namespaceMR.html#ac964d34e63e2bd23c8ab1e4cea68ae71">AffineXf3</a>&lt; TT &gt; &amp;xf) <a class="el" href="group__BasicGroup.html#ga6092fad6de6a4d75d57e992d1d373994">MR_REQUIRES_IF_SUPPORTED</a>(std</td></tr>
+<tr class="separator:aa742a4871b2f7f749de9e6c98cc7e59c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac6452ee6d44d0ef12ed6ea165680f171" id="r_ac6452ee6d44d0ef12ed6ea165680f171"><td class="memTemplParams" colspan="2">template&lt;typename U &gt; </td></tr>
 <tr class="memitem:ac6452ee6d44d0ef12ed6ea165680f171"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ac6452ee6d44d0ef12ed6ea165680f171">Matrix4</a> (const <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; U &gt; &amp;m)</td></tr>
 <tr class="separator:ac6452ee6d44d0ef12ed6ea165680f171"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -215,12 +209,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9cfc9d9ade4367b39f5eec17c75bdd5d" id="r_a9cfc9d9ade4367b39f5eec17c75bdd5d"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9cfc9d9ade4367b39f5eec17c75bdd5d">det</a> () const noexcept</td></tr>
 <tr class="memdesc:a9cfc9d9ade4367b39f5eec17c75bdd5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes determinant of the matrix  <br /></td></tr>
 <tr class="separator:a9cfc9d9ade4367b39f5eec17c75bdd5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7db341476ea39c09db9484ee3516d8a" id="r_ae7db341476ea39c09db9484ee3516d8a"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae7db341476ea39c09db9484ee3516d8a">inverse</a> () const noexcept</td></tr>
-<tr class="memdesc:ae7db341476ea39c09db9484ee3516d8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes inverse matrix  <br /></td></tr>
-<tr class="separator:ae7db341476ea39c09db9484ee3516d8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa3ccb709598578bbc7108e8ec0e686a9" id="r_aa3ccb709598578bbc7108e8ec0e686a9"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3ccb709598578bbc7108e8ec0e686a9">transposed</a> () const noexcept</td></tr>
-<tr class="memdesc:aa3ccb709598578bbc7108e8ec0e686a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes transposed matrix  <br /></td></tr>
-<tr class="separator:aa3ccb709598578bbc7108e8ec0e686a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa78aad5791ae63a5f0fafc08c742cc69" id="r_aa78aad5791ae63a5f0fafc08c742cc69"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; inverse() const noexcept <a class="el" href="group__BasicGroup.html#ga6092fad6de6a4d75d57e992d1d373994">MR_REQUIRES_IF_SUPPORTED</a>(!std constexpr <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa78aad5791ae63a5f0fafc08c742cc69">transposed</a> () const noexcept</td></tr>
+<tr class="memdesc:aa78aad5791ae63a5f0fafc08c742cc69"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes inverse matrix  <br /></td></tr>
+<tr class="separator:aa78aad5791ae63a5f0fafc08c742cc69"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94060d7e07f5c48155555c0bac0194d9" id="r_a94060d7e07f5c48155555c0bac0194d9"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="structMR_1_1Matrix3.html">Matrix3</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94060d7e07f5c48155555c0bac0194d9">getRotation</a> () const noexcept</td></tr>
 <tr class="separator:a94060d7e07f5c48155555c0bac0194d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a2bc593ced399beb03969db94ba63af" id="r_a8a2bc593ced399beb03969db94ba63af"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a2bc593ced399beb03969db94ba63af">setRotation</a> (const <a class="el" href="structMR_1_1Matrix3.html">Matrix3</a>&lt; T &gt; &amp;rot) noexcept</td></tr>
@@ -233,11 +224,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a2968fcaeb275c69d69adefdaec46f32c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae14dd0c11d00774b57b26477176eaf75" id="r_ae14dd0c11d00774b57b26477176eaf75"><td class="memItemLeft" align="right" valign="top">constexpr const T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae14dd0c11d00774b57b26477176eaf75">data</a> () const</td></tr>
 <tr class="separator:ae14dd0c11d00774b57b26477176eaf75"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a832ac6c0d108e032f9aebad8fb9bfa3c" id="r_a832ac6c0d108e032f9aebad8fb9bfa3c"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="MRMacros_8h.html#aa4077bf89cb8ad6b60d3d1d989cc5361">MR_SAME_TYPE_TEMPLATE_PARAM</a>(T, TT) &gt; </td></tr>
-<tr class="memitem:a832ac6c0d108e032f9aebad8fb9bfa3c"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a832ac6c0d108e032f9aebad8fb9bfa3c">operator AffineXf3&lt; TT &gt;</a> () const</td></tr>
-<tr class="separator:a832ac6c0d108e032f9aebad8fb9bfa3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac9ab092bcc4039bc1dfc88b1037dee99" id="r_ac9ab092bcc4039bc1dfc88b1037dee99"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac9ab092bcc4039bc1dfc88b1037dee99">operator()</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;b) const</td></tr>
-<tr class="separator:ac9ab092bcc4039bc1dfc88b1037dee99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a519d159e9aebbd2a58ed6b78ae96cb4f" id="r_a519d159e9aebbd2a58ed6b78ae96cb4f"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="MRMacros_8h.html#aa4077bf89cb8ad6b60d3d1d989cc5361">MR_SAME_TYPE_TEMPLATE_PARAM</a>(T, TT) &gt; </td></tr>
+<tr class="memitem:a519d159e9aebbd2a58ed6b78ae96cb4f"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a519d159e9aebbd2a58ed6b78ae96cb4f">operator AffineXf3&lt; TT &gt;</a> () const <a class="el" href="group__BasicGroup.html#ga6092fad6de6a4d75d57e992d1d373994">MR_REQUIRES_IF_SUPPORTED</a>(std</td></tr>
+<tr class="separator:a519d159e9aebbd2a58ed6b78ae96cb4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -263,8 +252,8 @@ Public Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="friends" name="friends"></a>
 Friends</h2></td></tr>
-<tr class="memitem:ae657a1e89e13302d7d15a7d02d90a08e" id="r_ae657a1e89e13302d7d15a7d02d90a08e"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae657a1e89e13302d7d15a7d02d90a08e">operator==</a> (const <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;b)</td></tr>
-<tr class="separator:ae657a1e89e13302d7d15a7d02d90a08e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25d9e2ebb1b000582d5943ea7f68732d" id="r_a25d9e2ebb1b000582d5943ea7f68732d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; operator()(const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;b) const <a class="el" href="group__BasicGroup.html#ga6092fad6de6a4d75d57e992d1d373994">MR_REQUIRES_IF_SUPPORTED</a>(!std friend constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25d9e2ebb1b000582d5943ea7f68732d">operator==</a> (const <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;b)</td></tr>
+<tr class="separator:a25d9e2ebb1b000582d5943ea7f68732d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0edef98e052801b43845aaa81aba98b3" id="r_a0edef98e052801b43845aaa81aba98b3"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0edef98e052801b43845aaa81aba98b3">operator!=</a> (const <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;b)</td></tr>
 <tr class="separator:a0edef98e052801b43845aaa81aba98b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc74a392ea4462c9a83060005de3b963" id="r_abc74a392ea4462c9a83060005de3b963"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc74a392ea4462c9a83060005de3b963">operator+</a> (const <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;b) -&gt; <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; decltype(std::declval&lt; T &gt;()+std::declval&lt; T &gt;())&gt;</td></tr>
@@ -446,8 +435,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a0556b8d62feb10af95f534b07a112f76" name="a0556b8d62feb10af95f534b07a112f76"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0556b8d62feb10af95f534b07a112f76">&#9670;&#160;</a></span>Matrix4() <span class="overload">[4/5]</span></h2>
+<a id="aa742a4871b2f7f749de9e6c98cc7e59c" name="aa742a4871b2f7f749de9e6c98cc7e59c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa742a4871b2f7f749de9e6c98cc7e59c">&#9670;&#160;</a></span>Matrix4() <span class="overload">[4/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -462,7 +451,7 @@ template&lt;<a class="el" href="MRMacros_8h.html#aa4077bf89cb8ad6b60d3d1d989cc53
         <tr>
           <td class="memname"><a class="el" href="structMR_1_1Matrix4.html">MR::Matrix4</a>&lt; T &gt;::Matrix4 </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#ac964d34e63e2bd23c8ab1e4cea68ae71">AffineXf3</a>&lt; TT &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>xf</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="elRef" href="../namespaceMR.html#ac964d34e63e2bd23c8ab1e4cea68ae71">AffineXf3</a>&lt; TT &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>xf</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -698,35 +687,6 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="ae7db341476ea39c09db9484ee3516d8a" name="ae7db341476ea39c09db9484ee3516d8a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae7db341476ea39c09db9484ee3516d8a">&#9670;&#160;</a></span>inverse()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; <a class="el" href="structMR_1_1Matrix4.html">MR::Matrix4</a>&lt; T &gt;::inverse </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">constexpr</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>computes inverse matrix </p>
-
-</div>
-</div>
 <a id="aa462857af46ce91cb171db91608a48ab" name="aa462857af46ce91cb171db91608a48ab"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa462857af46ce91cb171db91608a48ab">&#9670;&#160;</a></span>norm()</h2>
 
@@ -783,8 +743,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a832ac6c0d108e032f9aebad8fb9bfa3c" name="a832ac6c0d108e032f9aebad8fb9bfa3c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a832ac6c0d108e032f9aebad8fb9bfa3c">&#9670;&#160;</a></span>operator AffineXf3&lt; TT &gt;()</h2>
+<a id="a519d159e9aebbd2a58ed6b78ae96cb4f" name="a519d159e9aebbd2a58ed6b78ae96cb4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a519d159e9aebbd2a58ed6b78ae96cb4f">&#9670;&#160;</a></span>operator AffineXf3&lt; TT &gt;()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -797,7 +757,7 @@ template&lt;<a class="el" href="MRMacros_8h.html#aa4077bf89cb8ad6b60d3d1d989cc53
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structMR_1_1Matrix4.html">MR::Matrix4</a>&lt; T &gt;::operator <a class="el" href="namespaceMR.html#ac964d34e63e2bd23c8ab1e4cea68ae71">AffineXf3</a>&lt; TT &gt; </td>
+          <td class="memname"><a class="el" href="structMR_1_1Matrix4.html">MR::Matrix4</a>&lt; T &gt;::operator <a class="elRef" href="../namespaceMR.html#ac964d34e63e2bd23c8ab1e4cea68ae71">AffineXf3</a>&lt; TT &gt; </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -812,28 +772,8 @@ template&lt;<a class="el" href="MRMacros_8h.html#aa4077bf89cb8ad6b60d3d1d989cc53
 
 </div>
 </div>
-<a id="ac9ab092bcc4039bc1dfc88b1037dee99" name="ac9ab092bcc4039bc1dfc88b1037dee99"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac9ab092bcc4039bc1dfc88b1037dee99">&#9670;&#160;</a></span>operator()() <span class="overload">[1/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; <a class="el" href="structMR_1_1Matrix4.html">MR::Matrix4</a>&lt; T &gt;::operator() </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>converts 3d-vector b in 4d-vector (b,1), multiplies matrix on it, and assuming the result is in homogeneous coordinates returns it as 3d-vector </p>
-
-</div>
-</div>
 <a id="a6c21d25d2c8666791acd9807e6625422" name="a6c21d25d2c8666791acd9807e6625422"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6c21d25d2c8666791acd9807e6625422">&#9670;&#160;</a></span>operator()() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c21d25d2c8666791acd9807e6625422">&#9670;&#160;</a></span>operator()() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -866,7 +806,7 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <a id="a02514ec882b0d3be5745825463ffff40" name="a02514ec882b0d3be5745825463ffff40"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a02514ec882b0d3be5745825463ffff40">&#9670;&#160;</a></span>operator()() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a02514ec882b0d3be5745825463ffff40">&#9670;&#160;</a></span>operator()() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1097,8 +1037,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="aa3ccb709598578bbc7108e8ec0e686a9" name="aa3ccb709598578bbc7108e8ec0e686a9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa3ccb709598578bbc7108e8ec0e686a9">&#9670;&#160;</a></span>transposed()</h2>
+<a id="aa78aad5791ae63a5f0fafc08c742cc69" name="aa78aad5791ae63a5f0fafc08c742cc69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa78aad5791ae63a5f0fafc08c742cc69">&#9670;&#160;</a></span>transposed()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1109,7 +1049,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; <a class="el" href="structMR_1_1Matrix4.html">MR::Matrix4</a>&lt; T &gt;::transposed </td>
+          <td class="memname"><a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; inverse() const noexcept <a class="el" href="group__BasicGroup.html#ga6092fad6de6a4d75d57e992d1d373994">MR_REQUIRES_IF_SUPPORTED</a>(!std constexpr <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; <a class="el" href="structMR_1_1Matrix4.html">MR::Matrix4</a>&lt; T &gt;::transposed </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -1122,6 +1062,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>computes inverse matrix </p>
 <p>computes transposed matrix </p>
 
 </div>
@@ -1567,8 +1508,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="ae657a1e89e13302d7d15a7d02d90a08e" name="ae657a1e89e13302d7d15a7d02d90a08e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae657a1e89e13302d7d15a7d02d90a08e">&#9670;&#160;</a></span>operator==</h2>
+<a id="a25d9e2ebb1b000582d5943ea7f68732d" name="a25d9e2ebb1b000582d5943ea7f68732d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25d9e2ebb1b000582d5943ea7f68732d">&#9670;&#160;</a></span>operator==</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1579,7 +1520,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool operator== </td>
+          <td class="memname"><a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; operator()(const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;b) const <a class="el" href="group__BasicGroup.html#ga6092fad6de6a4d75d57e992d1d373994">MR_REQUIRES_IF_SUPPORTED</a>(!std friend constexpr bool operator== </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1Matrix4.html">Matrix4</a>&lt; T &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
@@ -1595,6 +1536,7 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>converts 3d-vector b in 4d-vector (b,1), multiplies matrix on it, and assuming the result is in homogeneous coordinates returns it as 3d-vector </p>
 
 </div>
 </div>
@@ -1707,7 +1649,7 @@ template&lt;typename T &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="structMR_1_1Matrix4.html">Matrix4</a></li>
+    <li class="navelem"><b>MR</b></li><li class="navelem"><a class="el" href="structMR_1_1Matrix4.html">Matrix4</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

@@ -15,12 +15,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -155,8 +149,8 @@ $(function(){initNavTree('InstallationGuide.html',''); initResizable(true); });
   <div class="headertitle"><div class="title">Getting Started with MeshLib SDK</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>MeshLib is a powerful, open-source 3D geometry library designed for developers across multiple platforms and programming languages. Whether you're working in C++, Python, or C#, MeshLib offers robust tools for creating, manipulating, and analyzing 3D data, e.g. meshes, voxels, point clouds. This guide will help you get started with setting up MeshLib for your preferred development environment.</p>
-<h2><a class="anchor" id="autotoc_md82"></a>
+<div class="textblock"><p>MeshLib is a powerful, open-source 3D geometry library designed for developers across multiple platforms and programming languages. Whether you're working in C++, Python, C#, or C, MeshLib offers robust tools for creating, manipulating, and analyzing 3D data, e.g. meshes, voxels, point clouds. This guide will help you get started with setting up MeshLib for your preferred development environment.</p>
+<h2><a class="anchor" id="autotoc_md88"></a>
 Choose Your Setup Guide</h2>
 <ol type="1">
 <li><a class="el" href="MeshLibPythonSetupGuide.html"><b>MeshLib</b> <b>Python</b> <b>Setup</b> <b>Guide</b> </a><br  />
@@ -165,6 +159,8 @@ Choose Your Setup Guide</h2>
  Learn how to install and configure MeshLib for C++ development on Windows, Linux, and macOS. This guide covers prerequisites, dependency management, and building the library from source.</li>
 <li><a class="el" href="MeshLibCSharpSetupGuide.html"><b>MeshLib</b> <b>C#</b> <b>Setup</b> <b>Guide</b> </a><br  />
  This guide provides instructions for integrating MeshLib into C# projects using NuGet or manual distribution. It covers installation on Windows, macOS, and Linux, with detailed steps for Visual Studio users.</li>
+<li><a class="el" href="MeshLibCSetupGuide.html"><b>MeshLib</b> <b>C</b> <b>Setup</b> <b>Guide</b> </a><br  />
+ Learn how to install and configure MeshLib for C development on Windows, Linux, and macOS.</li>
 <li><a class="el" href="MeshLibCmakeSetupGuide.html"><b>MeshLib</b> <b>CMake</b> <b>Setup</b> <b>Guide</b> </a><br  />
  Simple way of integrating MeshLib to your project via CMake.</li>
 </ol>

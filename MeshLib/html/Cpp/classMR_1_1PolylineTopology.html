@@ -15,12 +15,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -175,20 +169,31 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a45f9c4c6c22c11a8dc7eae9eefc3e265" id="r_a45f9c4c6c22c11a8dc7eae9eefc3e265"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> EdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45f9c4c6c22c11a8dc7eae9eefc3e265">makeEdge</a> ()</td></tr>
 <tr class="memdesc:a45f9c4c6c22c11a8dc7eae9eefc3e265"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates an edge not associated with any vertex  <br /></td></tr>
 <tr class="separator:a45f9c4c6c22c11a8dc7eae9eefc3e265"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5005a1cdb9c4df70f91b51b0813ecd68" id="r_a5005a1cdb9c4df70f91b51b0813ecd68"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> EdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5005a1cdb9c4df70f91b51b0813ecd68">makeEdge</a> (VertId a, VertId b)</td></tr>
-<tr class="separator:a5005a1cdb9c4df70f91b51b0813ecd68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4543a9f8d087efb6b31004efd75ca825" id="r_a4543a9f8d087efb6b31004efd75ca825"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> EdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4543a9f8d087efb6b31004efd75ca825">makeEdge</a> (VertId a, VertId b, EdgeId e={})</td></tr>
+<tr class="separator:a4543a9f8d087efb6b31004efd75ca825"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1373fb92a0666b9654be8a4930bf66c3" id="r_a1373fb92a0666b9654be8a4930bf66c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1373fb92a0666b9654be8a4930bf66c3">makeEdges</a> (const <a class="el" href="MRObjectMeshHolder_8h.html#a29d14b75d26970bc256e90bf11c3f0e5">Edges</a> &amp;edges)</td></tr>
+<tr class="separator:a1373fb92a0666b9654be8a4930bf66c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a9412a90e63fc7a356cd7098e1f8ad6" id="r_a0a9412a90e63fc7a356cd7098e1f8ad6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a9412a90e63fc7a356cd7098e1f8ad6">isLoneEdge</a> (EdgeId a) const</td></tr>
 <tr class="memdesc:a0a9412a90e63fc7a356cd7098e1f8ad6"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks whether the edge is disconnected from all other edges and disassociated from all vertices (as if after makeEdge)  <br /></td></tr>
 <tr class="separator:a0a9412a90e63fc7a356cd7098e1f8ad6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a546f277b57be687222c6443838e254d4" id="r_a546f277b57be687222c6443838e254d4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> EdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a546f277b57be687222c6443838e254d4">lastNotLoneEdge</a> () const</td></tr>
-<tr class="memdesc:a546f277b57be687222c6443838e254d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns last not lone edge id, or invalid id if no such edge exists  <br /></td></tr>
-<tr class="separator:a546f277b57be687222c6443838e254d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8438991d4426ef42af59252baf922b54" id="r_a8438991d4426ef42af59252baf922b54"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> UndirectedEdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8438991d4426ef42af59252baf922b54">lastNotLoneUndirectedEdge</a> () const</td></tr>
+<tr class="memdesc:a8438991d4426ef42af59252baf922b54"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns last not lone undirected edge id, or invalid id if no such edge exists  <br /></td></tr>
+<tr class="separator:a8438991d4426ef42af59252baf922b54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33c3aacafb6ce19a620996cd32878639" id="r_a33c3aacafb6ce19a620996cd32878639"><td class="memItemLeft" align="right" valign="top">EdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33c3aacafb6ce19a620996cd32878639">lastNotLoneEdge</a> () const</td></tr>
+<tr class="memdesc:a33c3aacafb6ce19a620996cd32878639"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns last not lone edge id, or invalid id if no such edge exists  <br /></td></tr>
+<tr class="separator:a33c3aacafb6ce19a620996cd32878639"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7308421016a4a943460946176b524bc8" id="r_a7308421016a4a943460946176b524bc8"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7308421016a4a943460946176b524bc8">edgeSize</a> () const</td></tr>
 <tr class="memdesc:a7308421016a4a943460946176b524bc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number of half-edge records including lone ones  <br /></td></tr>
 <tr class="separator:a7308421016a4a943460946176b524bc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0ebbe561720059f815c339a5a2d7607" id="r_ac0ebbe561720059f815c339a5a2d7607"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac0ebbe561720059f815c339a5a2d7607">edgeCapacity</a> () const</td></tr>
+<tr class="memdesc:ac0ebbe561720059f815c339a5a2d7607"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number of allocated edge records  <br /></td></tr>
+<tr class="separator:ac0ebbe561720059f815c339a5a2d7607"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a061dd907ada10af2d8ed533c49f4b0ab" id="r_a061dd907ada10af2d8ed533c49f4b0ab"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a061dd907ada10af2d8ed533c49f4b0ab">undirectedEdgeSize</a> () const</td></tr>
 <tr class="memdesc:a061dd907ada10af2d8ed533c49f4b0ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number of undirected edges (pairs of half-edges) including lone ones  <br /></td></tr>
 <tr class="separator:a061dd907ada10af2d8ed533c49f4b0ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af60df47c2413fe61618210b292dde6c0" id="r_af60df47c2413fe61618210b292dde6c0"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af60df47c2413fe61618210b292dde6c0">undirectedEdgeCapacity</a> () const</td></tr>
+<tr class="memdesc:af60df47c2413fe61618210b292dde6c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number of allocated undirected edges (pairs of half-edges)  <br /></td></tr>
+<tr class="separator:af60df47c2413fe61618210b292dde6c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a300d2568ddd2b3174c3fb76468f8b508" id="r_a300d2568ddd2b3174c3fb76468f8b508"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a300d2568ddd2b3174c3fb76468f8b508">computeNotLoneUndirectedEdges</a> () const</td></tr>
 <tr class="memdesc:a300d2568ddd2b3174c3fb76468f8b508"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the number of not-lone (valid) undirected edges  <br /></td></tr>
 <tr class="separator:a300d2568ddd2b3174c3fb76468f8b508"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -268,7 +273,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a545252ec8468378f5bc6f71e18ccaad9" id="r_a545252ec8468378f5bc6f71e18ccaad9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> EdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a545252ec8468378f5bc6f71e18ccaad9">findEdge</a> (VertId o, VertId d) const</td></tr>
 <tr class="memdesc:a545252ec8468378f5bc6f71e18ccaad9"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds and returns edge from o to d in the mesh; returns invalid edge otherwise  <br /></td></tr>
 <tr class="separator:a545252ec8468378f5bc6f71e18ccaad9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab361c486e12e092c48559ed3d5a079db" id="r_ab361c486e12e092c48559ed3d5a079db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab361c486e12e092c48559ed3d5a079db">getPathVertices</a> (const <a class="el" href="namespaceMR.html#a9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &amp;path) const</td></tr>
+<tr class="memitem:ab361c486e12e092c48559ed3d5a079db" id="r_ab361c486e12e092c48559ed3d5a079db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertBitSet&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab361c486e12e092c48559ed3d5a079db">getPathVertices</a> (const <a class="elRef" href="../namespaceMR.html#a9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &amp;path) const</td></tr>
 <tr class="memdesc:ab361c486e12e092c48559ed3d5a079db"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns all vertices incident to path edges  <br /></td></tr>
 <tr class="separator:ab361c486e12e092c48559ed3d5a079db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30f450b48cac26ab210e6fadc7f413f1" id="r_a30f450b48cac26ab210e6fadc7f413f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> EdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30f450b48cac26ab210e6fadc7f413f1">splitEdge</a> (EdgeId e)</td></tr>
@@ -283,9 +288,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6c67e7b3c6e1ae6967dc7b66a6c5ab6d" id="r_a6c67e7b3c6e1ae6967dc7b66a6c5ab6d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c67e7b3c6e1ae6967dc7b66a6c5ab6d">pack</a> (VertMap *outVmap=nullptr, WholeEdgeMap *outEmap=nullptr)</td></tr>
 <tr class="separator:a6c67e7b3c6e1ae6967dc7b66a6c5ab6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afeacaa2685ac05679afb0b6675a1ff4b" id="r_afeacaa2685ac05679afb0b6675a1ff4b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afeacaa2685ac05679afb0b6675a1ff4b">write</a> (std::ostream &amp;s) const</td></tr>
-<tr class="memdesc:afeacaa2685ac05679afb0b6675a1ff4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves and loads in binary stream  <br /></td></tr>
+<tr class="memdesc:afeacaa2685ac05679afb0b6675a1ff4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves this in binary stream  <br /></td></tr>
 <tr class="separator:afeacaa2685ac05679afb0b6675a1ff4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a642a8c374781bd45adb78ea77dc31bf0" id="r_a642a8c374781bd45adb78ea77dc31bf0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a642a8c374781bd45adb78ea77dc31bf0">read</a> (std::istream &amp;s)</td></tr>
+<tr class="memdesc:a642a8c374781bd45adb78ea77dc31bf0"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads this from binary stream  <br /></td></tr>
 <tr class="separator:a642a8c374781bd45adb78ea77dc31bf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af1878c347e52b88e1e86d50a9f38264b" id="r_af1878c347e52b88e1e86d50a9f38264b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1878c347e52b88e1e86d50a9f38264b">operator==</a> (const <a class="el" href="classMR_1_1PolylineTopology.html">PolylineTopology</a> &amp;b) const</td></tr>
 <tr class="memdesc:af1878c347e52b88e1e86d50a9f38264b"><td class="mdescLeft">&#160;</td><td class="mdescRight">comparison via edges (all other members are considered as not important caches)  <br /></td></tr>
@@ -622,6 +628,33 @@ template&lt;typename T , typename F &gt; </div>
 
 </div>
 </div>
+<a id="ac0ebbe561720059f815c339a5a2d7607" name="ac0ebbe561720059f815c339a5a2d7607"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0ebbe561720059f815c339a5a2d7607">&#9670;&#160;</a></span>edgeCapacity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t MR::PolylineTopology::edgeCapacity </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns the number of allocated edge records </p>
+
+</div>
+</div>
 <a id="a838e6a01b85575bf999c154f00ba9a90" name="a838e6a01b85575bf999c154f00ba9a90"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a838e6a01b85575bf999c154f00ba9a90">&#9670;&#160;</a></span>edgePerVertex()</h2>
 
@@ -819,7 +852,7 @@ template&lt;typename T , typename F &gt; </div>
         <tr>
           <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> VertBitSet MR::PolylineTopology::getPathVertices </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>path</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="elRef" href="../namespaceMR.html#a9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>path</em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -1077,8 +1110,8 @@ template&lt;typename T , typename F &gt; </div>
 
 </div>
 </div>
-<a id="a546f277b57be687222c6443838e254d4" name="a546f277b57be687222c6443838e254d4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a546f277b57be687222c6443838e254d4">&#9670;&#160;</a></span>lastNotLoneEdge()</h2>
+<a id="a33c3aacafb6ce19a620996cd32878639" name="a33c3aacafb6ce19a620996cd32878639"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33c3aacafb6ce19a620996cd32878639">&#9670;&#160;</a></span>lastNotLoneEdge()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1087,7 +1120,34 @@ template&lt;typename T , typename F &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> EdgeId MR::PolylineTopology::lastNotLoneEdge </td>
+          <td class="memname">EdgeId MR::PolylineTopology::lastNotLoneEdge </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns last not lone edge id, or invalid id if no such edge exists </p>
+
+</div>
+</div>
+<a id="a8438991d4426ef42af59252baf922b54" name="a8438991d4426ef42af59252baf922b54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8438991d4426ef42af59252baf922b54">&#9670;&#160;</a></span>lastNotLoneUndirectedEdge()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> UndirectedEdgeId MR::PolylineTopology::lastNotLoneUndirectedEdge </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -1100,7 +1160,7 @@ template&lt;typename T , typename F &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>returns last not lone edge id, or invalid id if no such edge exists </p>
+<p>returns last not lone undirected edge id, or invalid id if no such edge exists </p>
 
 </div>
 </div>
@@ -1158,8 +1218,8 @@ template&lt;typename T , typename F &gt; </div>
 
 </div>
 </div>
-<a id="a5005a1cdb9c4df70f91b51b0813ecd68" name="a5005a1cdb9c4df70f91b51b0813ecd68"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5005a1cdb9c4df70f91b51b0813ecd68">&#9670;&#160;</a></span>makeEdge() <span class="overload">[2/2]</span></h2>
+<a id="a4543a9f8d087efb6b31004efd75ca825" name="a4543a9f8d087efb6b31004efd75ca825"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4543a9f8d087efb6b31004efd75ca825">&#9670;&#160;</a></span>makeEdge() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1172,12 +1232,40 @@ template&lt;typename T , typename F &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">VertId</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+          <td class="paramtype">VertId</td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">EdgeId</td>          <td class="paramname"><span class="paramname"><em>e</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>makes an edge from vertex a to b (both must be within reserved capacity for vertices)</p>
-<p>if a==b, either a or b already has 2 incident edges, then makeEdge(a,b) does nothing and returns invalid edge </p>
+<p>makes an edge connecting vertices a and b </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">e</td><td>if valid then the function does not make new edge, but connects the vertices using given one (and returns it)</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>if 1) any of the vertices is invalid or not within the <a class="el" href="#a9574f81615523ac5fe203e1648765942" title="returns the number of vertex records including invalid ones">vertSize()</a>, 2) or a==b, 3) or either a or b already has 2 incident edges, 4) given edge e is not lone or not within the <a class="el" href="#a7308421016a4a943460946176b524bc8" title="returns the number of half-edge records including lone ones">edgeSize()</a> then makeEdge(a,b) does nothing and returns invalid edge </p>
+
+</div>
+</div>
+<a id="a1373fb92a0666b9654be8a4930bf66c3" name="a1373fb92a0666b9654be8a4930bf66c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1373fb92a0666b9654be8a4930bf66c3">&#9670;&#160;</a></span>makeEdges()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> int MR::PolylineTopology::makeEdges </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRObjectMeshHolder_8h.html#a29d14b75d26970bc256e90bf11c3f0e5">Edges</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>edges</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>for every given edge[ue] calls makeEdge( edge[ue][0], edge[ue][1], ue ), making new edges so that edges.size() &lt;= <a class="el" href="#a061dd907ada10af2d8ed533c49f4b0ab" title="returns the number of undirected edges (pairs of half-edges) including lone ones">undirectedEdgeSize()</a> at the end </p><dl class="section return"><dt>Returns</dt><dd>the total number of edges created </dd></dl>
 
 </div>
 </div>
@@ -1378,6 +1466,8 @@ template&lt;typename T , typename F &gt; </div>
       </table>
 </div><div class="memdoc">
 
+<p>loads this from binary stream </p>
+
 </div>
 </div>
 <a id="a3ea5840c83dc66df34991a904b767843" name="a3ea5840c83dc66df34991a904b767843"></a>
@@ -1443,6 +1533,33 @@ template&lt;typename T , typename F &gt; </div>
       </table>
 </div><div class="memdoc">
 <p>split given edge on two parts: dest(returned-edge) = org(e) - newly created vertex, org(returned-edge) = org(e-before-split), dest(e) = dest(e-before-split) </p>
+
+</div>
+</div>
+<a id="af60df47c2413fe61618210b292dde6c0" name="af60df47c2413fe61618210b292dde6c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af60df47c2413fe61618210b292dde6c0">&#9670;&#160;</a></span>undirectedEdgeCapacity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t MR::PolylineTopology::undirectedEdgeCapacity </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns the number of allocated undirected edges (pairs of half-edges) </p>
 
 </div>
 </div>
@@ -1607,7 +1724,7 @@ template&lt;typename T , typename F &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>saves and loads in binary stream </p>
+<p>saves this in binary stream </p>
 
 </div>
 </div>
@@ -1620,7 +1737,7 @@ template&lt;typename T , typename F &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="classMR_1_1PolylineTopology.html">PolylineTopology</a></li>
+    <li class="navelem"><b>MR</b></li><li class="navelem"><a class="el" href="classMR_1_1PolylineTopology.html">PolylineTopology</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

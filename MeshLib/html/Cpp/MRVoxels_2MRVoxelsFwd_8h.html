@@ -15,12 +15,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -156,8 +150,7 @@ $(function(){initNavTree('MRVoxels_2MRVoxelsFwd_8h.html',''); initResizable(true
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#define-members">Macros</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">MRVoxelsFwd.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -168,7 +161,7 @@ $(function(){initNavTree('MRVoxels_2MRVoxelsFwd_8h.html',''); initResizable(true
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../namespaceMR.html">MR</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
@@ -180,23 +173,16 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a4b6d3fd83a0b2acf2d6e9bfc41f5ee82" id="r_a4b6d3fd83a0b2acf2d6e9bfc41f5ee82"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">MR::FloatGrid</a> = std::shared_ptr&lt;<a class="el" href="structMR_1_1OpenVdbFloatGrid.html">OpenVdbFloatGrid</a>&gt;</td></tr>
-<tr class="separator:a4b6d3fd83a0b2acf2d6e9bfc41f5ee82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ada46b69d3d2ace0362d693aafcee7f0f" id="r_ada46b69d3d2ace0362d693aafcee7f0f"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ada46b69d3d2ace0362d693aafcee7f0f"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ada46b69d3d2ace0362d693aafcee7f0f">MR::VoxelValueGetter</a> = std::function&lt;T ( const Vector3i&amp; )&gt;</td></tr>
+<tr class="memitem:ada46b69d3d2ace0362d693aafcee7f0f"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="elRef" href="../namespaceMR.html#ada46b69d3d2ace0362d693aafcee7f0f">MR::VoxelValueGetter</a> = std::function&lt;T ( const Vector3i&amp; )&gt;</td></tr>
 <tr class="separator:ada46b69d3d2ace0362d693aafcee7f0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a04f90d4d00275d6691f3ef9a52bdfde2" id="r_a04f90d4d00275d6691f3ef9a52bdfde2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a04f90d4d00275d6691f3ef9a52bdfde2">MR::MR_CANONICAL_TYPEDEFS</a> ((template&lt; typename T &gt; struct), <a class="el" href="#a9f036b05518b862a538b52711d41d242">MRVOXELS_CLASS</a> <a class="el" href="structMR_1_1VoxelsVolumeMinMax.html">VoxelsVolumeMinMax</a>,(SimpleVolumeMinMax, <a class="el" href="structMR_1_1VoxelsVolumeMinMax.html">VoxelsVolumeMinMax</a>&lt; <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; float, VoxelId &gt; &gt;)(SimpleVolumeMinMaxU16, <a class="el" href="structMR_1_1VoxelsVolumeMinMax.html">VoxelsVolumeMinMax</a>&lt; <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; uint16_t, VoxelId &gt; &gt;)(VdbVolume, <a class="el" href="structMR_1_1VoxelsVolumeMinMax.html">VoxelsVolumeMinMax</a>&lt; <a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &gt;)) using VdbVolumes</td></tr>
+<tr class="memitem:a04f90d4d00275d6691f3ef9a52bdfde2" id="r_a04f90d4d00275d6691f3ef9a52bdfde2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../namespaceMR.html#a04f90d4d00275d6691f3ef9a52bdfde2">MR::MR_CANONICAL_TYPEDEFS</a> ((template&lt; typename T &gt; struct), <a class="el" href="#a9f036b05518b862a538b52711d41d242">MRVOXELS_CLASS</a> <a class="el" href="structMR_1_1VoxelsVolumeMinMax.html">VoxelsVolumeMinMax</a>,(SimpleVolumeMinMax, <a class="el" href="structMR_1_1VoxelsVolumeMinMax.html">VoxelsVolumeMinMax</a>&lt; <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; float, VoxelId &gt; &gt;)(SimpleVolumeMinMaxU16, <a class="el" href="structMR_1_1VoxelsVolumeMinMax.html">VoxelsVolumeMinMax</a>&lt; <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; uint16_t, VoxelId &gt; &gt;)(VdbVolume, <a class="el" href="structMR_1_1VoxelsVolumeMinMax.html">VoxelsVolumeMinMax</a>&lt; <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &gt;)) using VdbVolumes</td></tr>
 <tr class="separator:a04f90d4d00275d6691f3ef9a52bdfde2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6bf8c7c95e994a67ab4fc68e543b62ab" id="r_a6bf8c7c95e994a67ab4fc68e543b62ab"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a6bf8c7c95e994a67ab4fc68e543b62ab">MR::MR_CANONICAL_TYPEDEFS</a> ((template&lt; typename T &gt; struct), <a class="el" href="#a9f036b05518b862a538b52711d41d242">MRVOXELS_CLASS</a> <a class="el" href="structMR_1_1VoxelsVolume.html">VoxelsVolume</a>,(FunctionVolume, <a class="el" href="structMR_1_1VoxelsVolume.html">VoxelsVolume</a>&lt; <a class="el" href="namespaceMR.html#ada46b69d3d2ace0362d693aafcee7f0f">VoxelValueGetter</a>&lt; float &gt; &gt;)(FunctionVolumeU8, <a class="el" href="structMR_1_1VoxelsVolume.html">VoxelsVolume</a>&lt; <a class="el" href="namespaceMR.html#ada46b69d3d2ace0362d693aafcee7f0f">VoxelValueGetter</a>&lt; uint8_t &gt; &gt;)(SimpleVolume, <a class="el" href="structMR_1_1VoxelsVolume.html">VoxelsVolume</a>&lt; <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; float, VoxelId &gt; &gt;)(SimpleVolumeU16, <a class="el" href="structMR_1_1VoxelsVolume.html">VoxelsVolume</a>&lt; <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; uint16_t, VoxelId &gt; &gt;)(SimpleBinaryVolume, <a class="el" href="structMR_1_1VoxelsVolume.html">VoxelsVolume</a>&lt; VoxelBitSet &gt;)) namespace VoxelsLoad</td></tr>
+<tr class="memitem:a6bf8c7c95e994a67ab4fc68e543b62ab" id="r_a6bf8c7c95e994a67ab4fc68e543b62ab"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../namespaceMR.html#a6bf8c7c95e994a67ab4fc68e543b62ab">MR::MR_CANONICAL_TYPEDEFS</a> ((template&lt; typename T &gt; struct), <a class="el" href="#a9f036b05518b862a538b52711d41d242">MRVOXELS_CLASS</a> <a class="el" href="structMR_1_1VoxelsVolume.html">VoxelsVolume</a>,(FunctionVolume, <a class="el" href="structMR_1_1VoxelsVolume.html">VoxelsVolume</a>&lt; <a class="elRef" href="../namespaceMR.html#ada46b69d3d2ace0362d693aafcee7f0f">VoxelValueGetter</a>&lt; float &gt; &gt;)(FunctionVolumeU8, <a class="el" href="structMR_1_1VoxelsVolume.html">VoxelsVolume</a>&lt; <a class="elRef" href="../namespaceMR.html#ada46b69d3d2ace0362d693aafcee7f0f">VoxelValueGetter</a>&lt; uint8_t &gt; &gt;)(SimpleVolume, <a class="el" href="structMR_1_1VoxelsVolume.html">VoxelsVolume</a>&lt; <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; float, VoxelId &gt; &gt;)(SimpleVolumeU16, <a class="el" href="structMR_1_1VoxelsVolume.html">VoxelsVolume</a>&lt; <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; uint16_t, VoxelId &gt; &gt;)(SimpleBinaryVolume, <a class="el" href="structMR_1_1VoxelsVolume.html">VoxelsVolume</a>&lt; VoxelBitSet &gt;)) namespace VoxelsLoad</td></tr>
 <tr class="separator:a6bf8c7c95e994a67ab4fc68e543b62ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:aaa4989f3d8e88d20b6cbebc9f51db434" id="r_aaa4989f3d8e88d20b6cbebc9f51db434"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="#a9f036b05518b862a538b52711d41d242">MRVOXELS_CLASS</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aaa4989f3d8e88d20b6cbebc9f51db434">MR::OpenVdbFloatGrid</a></td></tr>
-<tr class="separator:aaa4989f3d8e88d20b6cbebc9f51db434"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a5a563214874b42adf9d3bbba08988cad" name="a5a563214874b42adf9d3bbba08988cad"></a>

@@ -15,12 +15,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -164,7 +158,7 @@ $(function(){initNavTree('MRIntersectionPrecomputes_8h_source.html',''); initRes
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;xmmintrin.h&gt;</span> <span class="comment">//SSE instructions</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">namespace </span><a class="code hl_namespaceRef" href="../namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>{</div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
@@ -301,7 +295,7 @@ $(function(){initNavTree('MRIntersectionPrecomputes_8h_source.html',''); initRes
 <div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span><span class="keyword">struct </span>IntersectionPrecomputes&lt;float&gt;</div>
 <div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span>{</div>
 <div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span>    <span class="comment">// {1.f / dir}</span></div>
-<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span>    MR_BIND_IGNORE __m128 <a class="code hl_variable" href="group__AABBTreeGroup.html#ga5e3f58e5a000086f4df8523da65c9b4f">invDir</a>;</div>
+<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span>    <a class="code hl_typedefRef" href="../namespaceMR.html#ac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> __m128 <a class="code hl_variable" href="group__AABBTreeGroup.html#ga5e3f58e5a000086f4df8523da65c9b4f">invDir</a>;</div>
 <div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span>    <span class="comment">// [0]max, [1]next, [2]next-next</span></div>
 <div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span>    <span class="comment">// f.e. {1,2,-3} =&gt; {2,1,0}</span></div>
 <div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="group__AABBTreeGroup.html#gaffa5bcb7a516c4dda421ace86e2597c2">maxDimIdxZ</a> = 2;</div>
@@ -310,7 +304,7 @@ $(function(){initNavTree('MRIntersectionPrecomputes_8h_source.html',''); initRes
 <div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span> </div>
 <div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span>    <span class="keywordtype">float</span> <a class="code hl_variable" href="group__AABBTreeGroup.html#ga21465bc7d67177777744f39ac171940c">Sx</a>, <a class="code hl_variable" href="group__AABBTreeGroup.html#gaf95502c89221bba3187782d4ed18199b">Sy</a>, <a class="code hl_variable" href="group__AABBTreeGroup.html#ga6159c869b0afc38ccf26091c1681194a">Sz</a>;</div>
 <div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span>    <a class="code hl_function" href="group__AABBTreeGroup.html#ga9984ed4cff38cd012243e835f02e0e92">IntersectionPrecomputes</a>() = <span class="keywordflow">default</span>;</div>
-<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span>    <a class="code hl_function" href="group__AABBTreeGroup.html#ga9984ed4cff38cd012243e835f02e0e92">IntersectionPrecomputes</a>( <span class="keyword">const</span> <a class="code hl_variable" href="namespaceMR.html#ac878ba63f3f91f5ab032a38cd3a2c206">Vector3&lt;float&gt;</a>&amp; dir )</div>
+<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span>    <a class="code hl_function" href="group__AABBTreeGroup.html#ga9984ed4cff38cd012243e835f02e0e92">IntersectionPrecomputes</a>( <span class="keyword">const</span> Vector3&lt;float&gt;&amp; dir )</div>
 <div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span>    {</div>
 <div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span>        <a class="code hl_function" href="group__AABBTreeGroup.html#ga7fcb33a674ea8b57ac858e40d42e26e3">findMaxVectorDim</a>( <a class="code hl_variable" href="group__AABBTreeGroup.html#ga59240ce19dcf5b27221a347b22086fcb">idxX</a>, <a class="code hl_variable" href="group__AABBTreeGroup.html#ga1e89bb11cf7c4693e1c8839963994a08">idxY</a>, <a class="code hl_variable" href="group__AABBTreeGroup.html#gaffa5bcb7a516c4dda421ace86e2597c2">maxDimIdxZ</a>, dir );</div>
 <div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span> </div>
@@ -344,12 +338,12 @@ $(function(){initNavTree('MRIntersectionPrecomputes_8h_source.html',''); initRes
 <div class="ttc" id="agroup__AABBTreeGroup_html_gac2a5a2178c875139ca3e402c1a46324c"><div class="ttname"><a href="group__AABBTreeGroup.html#gac2a5a2178c875139ca3e402c1a46324c">MR::IntersectionPrecomputes::IntersectionPrecomputes</a></div><div class="ttdeci">IntersectionPrecomputes(const Vector3&lt; T &gt; &amp;dir)</div><div class="ttdef"><b>Definition</b> MRIntersectionPrecomputes.h:132</div></div>
 <div class="ttc" id="agroup__AABBTreeGroup_html_gaf95502c89221bba3187782d4ed18199b"><div class="ttname"><a href="group__AABBTreeGroup.html#gaf95502c89221bba3187782d4ed18199b">MR::IntersectionPrecomputes::Sy</a></div><div class="ttdeci">T Sy</div><div class="ttdef"><b>Definition</b> MRIntersectionPrecomputes.h:130</div></div>
 <div class="ttc" id="agroup__AABBTreeGroup_html_gaffa5bcb7a516c4dda421ace86e2597c2"><div class="ttname"><a href="group__AABBTreeGroup.html#gaffa5bcb7a516c4dda421ace86e2597c2">MR::IntersectionPrecomputes::maxDimIdxZ</a></div><div class="ttdeci">int maxDimIdxZ</div><div class="ttdef"><b>Definition</b> MRIntersectionPrecomputes.h:122</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
-<div class="ttc" id="anamespaceMR_html_ac878ba63f3f91f5ab032a38cd3a2c206"><div class="ttname"><a href="namespaceMR.html#ac878ba63f3f91f5ab032a38cd3a2c206">MR::Vector3</a></div><div class="ttdeci">MRMESH_CLASS Vector3</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:177</div></div>
-<div class="ttc" id="astructMR_1_1Vector3_html"><div class="ttname"><a href="structMR_1_1Vector3.html">MR::Vector3</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRVector3.h:26</div></div>
-<div class="ttc" id="astructMR_1_1Vector3_html_a3d6f56ed3c525a928116d6c095997c5c"><div class="ttname"><a href="structMR_1_1Vector3.html#a3d6f56ed3c525a928116d6c095997c5c">MR::Vector3::x</a></div><div class="ttdeci">T x</div><div class="ttdef"><b>Definition</b> MRMesh/MRVector3.h:32</div></div>
-<div class="ttc" id="astructMR_1_1Vector3_html_a4cbb29e67931176028f57f29b2bd6953"><div class="ttname"><a href="structMR_1_1Vector3.html#a4cbb29e67931176028f57f29b2bd6953">MR::Vector3::y</a></div><div class="ttdeci">T y</div><div class="ttdef"><b>Definition</b> MRMesh/MRVector3.h:32</div></div>
-<div class="ttc" id="astructMR_1_1Vector3_html_ae596ea6de55c00124d84150eadecd455"><div class="ttname"><a href="structMR_1_1Vector3.html#ae596ea6de55c00124d84150eadecd455">MR::Vector3::z</a></div><div class="ttdeci">T z</div><div class="ttdef"><b>Definition</b> MRMesh/MRVector3.h:32</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="../namespaceMR.html">MR</a></div></div>
+<div class="ttc" id="anamespaceMR_html_ac8d05498d66775361b0d0d2996604348"><div class="ttname"><a href="../namespaceMR.html#ac8d05498d66775361b0d0d2996604348">MR::MR_BIND_IGNORE</a></div><div class="ttdeci">std::array&lt; Vector3f, 3 &gt; MR_BIND_IGNORE</div><div class="ttdef"><b>Definition</b> MRMeshBuilderTypes.h:10</div></div>
+<div class="ttc" id="astructMR_1_1Vector3_html"><div class="ttname"><a href="structMR_1_1Vector3.html">MR::Vector3</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRVector3.h:28</div></div>
+<div class="ttc" id="astructMR_1_1Vector3_html_a3d6f56ed3c525a928116d6c095997c5c"><div class="ttname"><a href="structMR_1_1Vector3.html#a3d6f56ed3c525a928116d6c095997c5c">MR::Vector3::x</a></div><div class="ttdeci">T x</div><div class="ttdef"><b>Definition</b> MRMesh/MRVector3.h:34</div></div>
+<div class="ttc" id="astructMR_1_1Vector3_html_a4cbb29e67931176028f57f29b2bd6953"><div class="ttname"><a href="structMR_1_1Vector3.html#a4cbb29e67931176028f57f29b2bd6953">MR::Vector3::y</a></div><div class="ttdeci">T y</div><div class="ttdef"><b>Definition</b> MRMesh/MRVector3.h:34</div></div>
+<div class="ttc" id="astructMR_1_1Vector3_html_ae596ea6de55c00124d84150eadecd455"><div class="ttname"><a href="structMR_1_1Vector3.html#ae596ea6de55c00124d84150eadecd455">MR::Vector3::z</a></div><div class="ttdeci">T z</div><div class="ttdef"><b>Definition</b> MRMesh/MRVector3.h:34</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

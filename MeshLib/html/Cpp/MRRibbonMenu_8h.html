@@ -15,12 +15,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -155,7 +149,6 @@ $(function(){initNavTree('MRRibbonMenu_8h.html',''); initResizable(true); });
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">MRRibbonMenu.h File Reference</div></div>
 </div><!--header-->
@@ -167,6 +160,7 @@ $(function(){initNavTree('MRRibbonMenu_8h.html',''); initResizable(true); });
 <code>#include &quot;<a class="el" href="MRRibbonButtonDrawer_8h_source.html">MRRibbonButtonDrawer.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRAsyncTimer_8h_source.html">MRAsyncTimer.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRRibbonSchema_8h_source.html">MRRibbonSchema.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRRibbonMenuUIConfig_8h_source.html">MRRibbonMenuUIConfig.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRSignal_8h_source.html">MRMesh/MRSignal.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRRibbonNotification_8h_source.html">MRRibbonNotification.h</a>&quot;</code><br />
 <code>#include &lt;type_traits&gt;</code><br />
@@ -176,8 +170,6 @@ $(function(){initNavTree('MRRibbonMenu_8h.html',''); initResizable(true); });
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1RibbonMenuUIConfig.html">MR::RibbonMenuUIConfig</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RibbonMenu.html">MR::RibbonMenu</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1RibbonMenu_1_1DrawGroupConfig.html">MR::RibbonMenu::DrawGroupConfig</a></td></tr>
@@ -187,20 +179,12 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../namespaceMR.html">MR</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:a22296ecc4055b81ffe5ec6f0a8ad79d7" id="r_a22296ecc4055b81ffe5ec6f0a8ad79d7"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a22296ecc4055b81ffe5ec6f0a8ad79d7">MR::RibbonTopPanelLayoutMode</a> { <a class="el" href="namespaceMR.html#a22296ecc4055b81ffe5ec6f0a8ad79d7a6adf97f83acf6453d4a6a4b1070f3754">MR::None</a>
-, <a class="el" href="namespaceMR.html#a22296ecc4055b81ffe5ec6f0a8ad79d7aacb400c35a93a397ad5d54a1aa3b117d">MR::RibbonNoTabs</a>
-, <a class="el" href="namespaceMR.html#a22296ecc4055b81ffe5ec6f0a8ad79d7a9a8369bcaa71173baa02f88bbf53b8fc">MR::RibbonWithTabs</a>
- }</td></tr>
-<tr class="separator:a22296ecc4055b81ffe5ec6f0a8ad79d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a8943649eb4ec189757d628d6b1f9779f" id="r_a8943649eb4ec189757d628d6b1f9779f"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a8943649eb4ec189757d628d6b1f9779f">MR::pushNotification</a> (const <a class="el" href="structMR_1_1RibbonNotification.html">RibbonNotification</a> &amp;notification)</td></tr>
+<tr class="memitem:a8943649eb4ec189757d628d6b1f9779f" id="r_a8943649eb4ec189757d628d6b1f9779f"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../namespaceMR.html#a8943649eb4ec189757d628d6b1f9779f">MR::pushNotification</a> (const <a class="el" href="structMR_1_1RibbonNotification.html">RibbonNotification</a> &amp;notification)</td></tr>
 <tr class="separator:a8943649eb4ec189757d628d6b1f9779f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->

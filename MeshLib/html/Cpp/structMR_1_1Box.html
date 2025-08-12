@@ -15,12 +15,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -167,6 +161,17 @@ $(function(){initNavTree('structMR_1_1Box.html',''); initResizable(true); });
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="MRMesh_2MRBox_8h_source.html">MRBox.h</a>&gt;</code></p>
+<div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for MR::Box&lt; V &gt;:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+ <div class="center">
+  <img src="structMR_1_1Box.png" usemap="#MR::Box_3C_20V_20_3E_map" alt=""/>
+  <map id="MR::Box_3C_20V_20_3E_map" name="MR::Box_3C_20V_20_3E_map">
+<area href="structMR_1_1VoxelsVolumeMinMax.html" alt="MR::VoxelsVolumeMinMax&lt; T &gt;" shape="rect" coords="0,56,193,80"/>
+  </map>
+</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
@@ -245,6 +250,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a25efa79c9a3710f2c59fac06fb39ad12"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6fa5434776a3bb7b53014edc67295ec8" id="r_a6fa5434776a3bb7b53014edc67295ec8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a1425948e6f0f9ef6de04c45be07f81fd">T</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fa5434776a3bb7b53014edc67295ec8">getDistanceSq</a> (const V &amp;pt) const</td></tr>
 <tr class="separator:a6fa5434776a3bb7b53014edc67295ec8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36a72e5786051efa6c3fa7512b00c6c3" id="r_a36a72e5786051efa6c3fa7512b00c6c3"><td class="memItemLeft" align="right" valign="top">V&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a36a72e5786051efa6c3fa7512b00c6c3">getProjection</a> (const V &amp;pt) const</td></tr>
+<tr class="separator:a36a72e5786051efa6c3fa7512b00c6c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f06adfa8006bd6000537a4d96e4f66e" id="r_a3f06adfa8006bd6000537a4d96e4f66e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1Box.html">Box</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f06adfa8006bd6000537a4d96e4f66e">expanded</a> (const V &amp;expansion) const</td></tr>
 <tr class="memdesc:a3f06adfa8006bd6000537a4d96e4f66e"><td class="mdescLeft">&#160;</td><td class="mdescRight">decreases min and increased max on given value  <br /></td></tr>
 <tr class="separator:a3f06adfa8006bd6000537a4d96e4f66e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -607,7 +614,7 @@ template&lt;typename V &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>returns the corner of this box as specified by given bool-vector: 1 element in (c) means take min's coordinate, 0 element in (c) means take max's coordinate </p>
+<p>returns the corner of this box as specified by given bool-vector: 0 element in (c) means take min's coordinate, 1 element in (c) means take max's coordinate </p>
 
 </div>
 </div>
@@ -838,6 +845,34 @@ template&lt;typename V &gt; </div>
 </table>
 </div><div class="memdoc">
 <p>considering all planes with given normal and arbitrary shift: dot(n,x) = d finds the box's corner for which d is minimal </p>
+
+</div>
+</div>
+<a id="a36a72e5786051efa6c3fa7512b00c6c3" name="a36a72e5786051efa6c3fa7512b00c6c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36a72e5786051efa6c3fa7512b00c6c3">&#9670;&#160;</a></span>getProjection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename V &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">V <a class="el" href="structMR_1_1Box.html">MR::Box</a>&lt; V &gt;::getProjection </td>
+          <td>(</td>
+          <td class="paramtype">const V &amp;</td>          <td class="paramname"><span class="paramname"><em>pt</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>returns the closest point on the box to the given point for points outside the box this is equivalent to getBoxClosestPointTo </p>
 
 </div>
 </div>
@@ -1276,7 +1311,7 @@ template&lt;typename V &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="structMR_1_1Box.html">Box</a></li>
+    <li class="navelem"><b>MR</b></li><li class="navelem"><a class="el" href="structMR_1_1Box.html">Box</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

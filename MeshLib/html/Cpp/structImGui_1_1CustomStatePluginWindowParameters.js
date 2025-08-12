@@ -4,6 +4,7 @@ var structImGui_1_1CustomStatePluginWindowParameters =
     [ "changedSize", "structImGui_1_1CustomStatePluginWindowParameters.html#aba6660d67c3455cb242987a649e85162", null ],
     [ "closeWithEscape", "structImGui_1_1CustomStatePluginWindowParameters.html#a8869d27559f2cc20b992776b28c8af03", null ],
     [ "collapsed", "structImGui_1_1CustomStatePluginWindowParameters.html#aeb0498cd6f3dce0e76837aa8d02fba62", null ],
+    [ "customHeaderFn", "structImGui_1_1CustomStatePluginWindowParameters.html#a22df65426ef651326ea22792fd010bd1", null ],
     [ "flags", "structImGui_1_1CustomStatePluginWindowParameters.html#a5754729068dbf7969cf941f3c84abfe4", null ],
     [ "height", "structImGui_1_1CustomStatePluginWindowParameters.html#a1f70e63acc39d4e06bd02168e934b9d0", null ],
     [ "helpBtnFn", "structImGui_1_1CustomStatePluginWindowParameters.html#a03c3bb1a741563a7f133d3da8f2b6d98", null ],

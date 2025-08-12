@@ -15,12 +15,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -155,7 +149,8 @@ $(function(){initNavTree('group__BasicStructuresGroup.html',''); initResizable(t
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">Basic Structures</div></div>
 </div><!--header-->
 <div class="contents">
@@ -173,6 +168,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1SceneSettings.html">MR::SceneSettings</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1FloatGrid.html">MR::FloatGrid</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">wrapper class that helps mrbind to avoid excess <a class="el" href="MRVDBFloatGrid_8h.html">MRVDBFloatGrid.h</a> includes  <a href="classMR_1_1FloatGrid.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1OpenVdbFloatGrid.html">MR::OpenVdbFloatGrid</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">this class just hides very complex type of typedef openvdb::FloatGrid  <a href="structMR_1_1OpenVdbFloatGrid.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -184,57 +182,62 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga0f1e6296451691269fc538aad8088557" id="r_ga0f1e6296451691269fc538aad8088557"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0f1e6296451691269fc538aad8088557">MR::heapBytes</a> (const <a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;grid)</td></tr>
+<tr class="memitem:ga0f1e6296451691269fc538aad8088557" id="r_ga0f1e6296451691269fc538aad8088557"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga0f1e6296451691269fc538aad8088557">MR::heapBytes</a> (const <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &amp;grid)</td></tr>
 <tr class="memdesc:ga0f1e6296451691269fc538aad8088557"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the amount of heap memory occupied by grid  <br /></td></tr>
 <tr class="separator:ga0f1e6296451691269fc538aad8088557"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1ca037d5840cb55f43edc7af7164ee53" id="r_ga1ca037d5840cb55f43edc7af7164ee53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1ca037d5840cb55f43edc7af7164ee53">MR::resampled</a> (const <a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;grid, float voxelScale, <a class="el" href="#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
+<tr class="memitem:ga1ca037d5840cb55f43edc7af7164ee53" id="r_ga1ca037d5840cb55f43edc7af7164ee53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga1ca037d5840cb55f43edc7af7164ee53">MR::resampled</a> (const <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &amp;grid, float voxelScale, <a class="el" href="#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
 <tr class="memdesc:ga1ca037d5840cb55f43edc7af7164ee53"><td class="mdescLeft">&#160;</td><td class="mdescRight">resample this grid to fit voxelScale  <br /></td></tr>
 <tr class="separator:ga1ca037d5840cb55f43edc7af7164ee53"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7d757a1fbd48e0e4c6268f3637ba631c" id="r_ga7d757a1fbd48e0e4c6268f3637ba631c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7d757a1fbd48e0e4c6268f3637ba631c">MR::resampled</a> (const <a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;grid, const Vector3f &amp;voxelScale, <a class="el" href="#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
+<tr class="memitem:ga7d757a1fbd48e0e4c6268f3637ba631c" id="r_ga7d757a1fbd48e0e4c6268f3637ba631c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7d757a1fbd48e0e4c6268f3637ba631c">MR::resampled</a> (const <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &amp;grid, const Vector3f &amp;voxelScale, <a class="el" href="#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
 <tr class="memdesc:ga7d757a1fbd48e0e4c6268f3637ba631c"><td class="mdescLeft">&#160;</td><td class="mdescRight">resample this grid to fit voxelScale  <br /></td></tr>
 <tr class="separator:ga7d757a1fbd48e0e4c6268f3637ba631c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaaa65eb4d7a6f3cf6b9682a32de1e0915" id="r_gaaa65eb4d7a6f3cf6b9682a32de1e0915"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaaa65eb4d7a6f3cf6b9682a32de1e0915">MR::cropped</a> (const <a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;grid, const Box3i &amp;box, <a class="el" href="#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
+<tr class="memitem:gaaa65eb4d7a6f3cf6b9682a32de1e0915" id="r_gaaa65eb4d7a6f3cf6b9682a32de1e0915"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaaa65eb4d7a6f3cf6b9682a32de1e0915">MR::cropped</a> (const <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &amp;grid, const Box3i &amp;box, <a class="el" href="#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
 <tr class="memdesc:gaaa65eb4d7a6f3cf6b9682a32de1e0915"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns cropped grid  <br /></td></tr>
 <tr class="separator:gaaa65eb4d7a6f3cf6b9682a32de1e0915"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5124238a8f9f74cadab3bc8dcc4438e6" id="r_ga5124238a8f9f74cadab3bc8dcc4438e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5124238a8f9f74cadab3bc8dcc4438e6">MR::gaussianFilter</a> (<a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;grid, int <a class="el" href="group__BoxGroup.html#ga03ccb991cf0d9c433fd5a054a5d026af">width</a>, int iters, <a class="el" href="#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
+<tr class="memitem:ga5124238a8f9f74cadab3bc8dcc4438e6" id="r_ga5124238a8f9f74cadab3bc8dcc4438e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga5124238a8f9f74cadab3bc8dcc4438e6">MR::gaussianFilter</a> (<a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &amp;grid, int <a class="el" href="group__BoxGroup.html#ga03ccb991cf0d9c433fd5a054a5d026af">width</a>, int iters, <a class="el" href="#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
 <tr class="memdesc:ga5124238a8f9f74cadab3bc8dcc4438e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns grid with gaussian filter applied  <br /></td></tr>
 <tr class="separator:ga5124238a8f9f74cadab3bc8dcc4438e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gafc2d64e9f6eb7deafd50ee83fd764989" id="r_gafc2d64e9f6eb7deafd50ee83fd764989"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafc2d64e9f6eb7deafd50ee83fd764989">MR::gaussianFiltered</a> (const <a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;grid, int <a class="el" href="group__BoxGroup.html#ga03ccb991cf0d9c433fd5a054a5d026af">width</a>, int iters, <a class="el" href="#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
+<tr class="memitem:gafc2d64e9f6eb7deafd50ee83fd764989" id="r_gafc2d64e9f6eb7deafd50ee83fd764989"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafc2d64e9f6eb7deafd50ee83fd764989">MR::gaussianFiltered</a> (const <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &amp;grid, int <a class="el" href="group__BoxGroup.html#ga03ccb991cf0d9c433fd5a054a5d026af">width</a>, int iters, <a class="el" href="#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
 <tr class="separator:gafc2d64e9f6eb7deafd50ee83fd764989"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4de97d8976ba9d3103b0d84d94214861" id="r_ga4de97d8976ba9d3103b0d84d94214861"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4de97d8976ba9d3103b0d84d94214861">MR::getValue</a> (const <a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;grid, const Vector3i &amp;p)</td></tr>
+<tr class="memitem:ga4de97d8976ba9d3103b0d84d94214861" id="r_ga4de97d8976ba9d3103b0d84d94214861"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4de97d8976ba9d3103b0d84d94214861">MR::getValue</a> (const <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &amp;grid, const Vector3i &amp;p)</td></tr>
 <tr class="memdesc:ga4de97d8976ba9d3103b0d84d94214861"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the value at given voxel  <br /></td></tr>
 <tr class="separator:ga4de97d8976ba9d3103b0d84d94214861"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga28830151316f69a9dfd4e1fa94ccf465" id="r_ga28830151316f69a9dfd4e1fa94ccf465"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga28830151316f69a9dfd4e1fa94ccf465">MR::setValue</a> (<a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;grid, const Vector3i &amp;p, float value)</td></tr>
+<tr class="memitem:ga28830151316f69a9dfd4e1fa94ccf465" id="r_ga28830151316f69a9dfd4e1fa94ccf465"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga28830151316f69a9dfd4e1fa94ccf465">MR::setValue</a> (<a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &amp;grid, const Vector3i &amp;p, float value)</td></tr>
 <tr class="separator:ga28830151316f69a9dfd4e1fa94ccf465"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac5781724903abd08d021ac04b898a862" id="r_gac5781724903abd08d021ac04b898a862"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac5781724903abd08d021ac04b898a862">MR::setValue</a> (<a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;grid, const VoxelBitSet &amp;region, float value)</td></tr>
+<tr class="memitem:gac5781724903abd08d021ac04b898a862" id="r_gac5781724903abd08d021ac04b898a862"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gac5781724903abd08d021ac04b898a862">MR::setValue</a> (<a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &amp;grid, const VoxelBitSet &amp;region, float value)</td></tr>
 <tr class="separator:gac5781724903abd08d021ac04b898a862"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga87e6e60c5605c5450f4bd815128674c9" id="r_ga87e6e60c5605c5450f4bd815128674c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga87e6e60c5605c5450f4bd815128674c9">MR::setLevelSetType</a> (<a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;grid)</td></tr>
+<tr class="memitem:ga87e6e60c5605c5450f4bd815128674c9" id="r_ga87e6e60c5605c5450f4bd815128674c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga87e6e60c5605c5450f4bd815128674c9">MR::setLevelSetType</a> (<a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &amp;grid)</td></tr>
 <tr class="memdesc:ga87e6e60c5605c5450f4bd815128674c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets type of this grid as LEVEL SET (for normal flipping)  <br /></td></tr>
 <tr class="separator:ga87e6e60c5605c5450f4bd815128674c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa47a1ff80bfc2c9f180c4983cf67bdfc" id="r_gaa47a1ff80bfc2c9f180c4983cf67bdfc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa47a1ff80bfc2c9f180c4983cf67bdfc">MR::operator+=</a> (<a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;a, const <a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;b)</td></tr>
+<tr class="memitem:gaa47a1ff80bfc2c9f180c4983cf67bdfc" id="r_gaa47a1ff80bfc2c9f180c4983cf67bdfc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaa47a1ff80bfc2c9f180c4983cf67bdfc">MR::operator+=</a> (<a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &amp;a, const <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &amp;b)</td></tr>
 <tr class="separator:gaa47a1ff80bfc2c9f180c4983cf67bdfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga51db44b0c21307d6fcfccd9616c037f2" id="r_ga51db44b0c21307d6fcfccd9616c037f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga51db44b0c21307d6fcfccd9616c037f2">MR::operator-=</a> (<a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;a, const <a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;b)</td></tr>
+<tr class="memitem:ga51db44b0c21307d6fcfccd9616c037f2" id="r_ga51db44b0c21307d6fcfccd9616c037f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga51db44b0c21307d6fcfccd9616c037f2">MR::operator-=</a> (<a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &amp;a, const <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &amp;b)</td></tr>
 <tr class="separator:ga51db44b0c21307d6fcfccd9616c037f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga245aead53191a5ec52138336c54c109c" id="r_ga245aead53191a5ec52138336c54c109c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga245aead53191a5ec52138336c54c109c">MR::operator*=</a> (<a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;a, const <a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;b)</td></tr>
+<tr class="memitem:ga245aead53191a5ec52138336c54c109c" id="r_ga245aead53191a5ec52138336c54c109c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga245aead53191a5ec52138336c54c109c">MR::operator*=</a> (<a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &amp;a, const <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &amp;b)</td></tr>
 <tr class="separator:ga245aead53191a5ec52138336c54c109c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga12f92e71b639968eb7a4ffb4cbe51291" id="r_ga12f92e71b639968eb7a4ffb4cbe51291"><td class="memItemLeft" align="right" valign="top">MR_BIND_IGNORE openvdb::FloatGrid &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga12f92e71b639968eb7a4ffb4cbe51291">MR::ovdb</a> (<a class="el" href="structMR_1_1OpenVdbFloatGrid.html">OpenVdbFloatGrid</a> &amp;v)</td></tr>
+<tr class="memitem:ga12f92e71b639968eb7a4ffb4cbe51291" id="r_ga12f92e71b639968eb7a4ffb4cbe51291"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../namespaceMR.html#ac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> openvdb::FloatGrid &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga12f92e71b639968eb7a4ffb4cbe51291">MR::ovdb</a> (<a class="el" href="structMR_1_1OpenVdbFloatGrid.html">OpenVdbFloatGrid</a> &amp;v)</td></tr>
 <tr class="separator:ga12f92e71b639968eb7a4ffb4cbe51291"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7c6031335bfc2515993437f951485ad1" id="r_ga7c6031335bfc2515993437f951485ad1"><td class="memItemLeft" align="right" valign="top">MR_BIND_IGNORE const openvdb::FloatGrid &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7c6031335bfc2515993437f951485ad1">MR::ovdb</a> (const <a class="el" href="structMR_1_1OpenVdbFloatGrid.html">OpenVdbFloatGrid</a> &amp;v)</td></tr>
+<tr class="memitem:ga7c6031335bfc2515993437f951485ad1" id="r_ga7c6031335bfc2515993437f951485ad1"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../namespaceMR.html#ac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> const openvdb::FloatGrid &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga7c6031335bfc2515993437f951485ad1">MR::ovdb</a> (const <a class="el" href="structMR_1_1OpenVdbFloatGrid.html">OpenVdbFloatGrid</a> &amp;v)</td></tr>
 <tr class="separator:ga7c6031335bfc2515993437f951485ad1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga008386feb5f7364043e76dc51b8a0a9d" id="r_ga008386feb5f7364043e76dc51b8a0a9d"><td class="memItemLeft" align="right" valign="top">MR_BIND_IGNORE <a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga008386feb5f7364043e76dc51b8a0a9d">MR::MakeFloatGrid</a> (const <a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;)=delete</td></tr>
+<tr class="memitem:ga008386feb5f7364043e76dc51b8a0a9d" id="r_ga008386feb5f7364043e76dc51b8a0a9d"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../namespaceMR.html#ac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga008386feb5f7364043e76dc51b8a0a9d">MR::MakeFloatGrid</a> (const <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &amp;)=delete</td></tr>
 <tr class="memdesc:ga008386feb5f7364043e76dc51b8a0a9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">prohibit unnecessary conversion  <br /></td></tr>
 <tr class="separator:ga008386feb5f7364043e76dc51b8a0a9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga00a487924b8ec452f4a8b75891d68fc3" id="r_ga00a487924b8ec452f4a8b75891d68fc3"><td class="memItemLeft" align="right" valign="top">MR_BIND_IGNORE <a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga00a487924b8ec452f4a8b75891d68fc3">MR::MakeFloatGrid</a> (openvdb::FloatGrid::Ptr &amp;&amp;p)</td></tr>
-<tr class="memdesc:ga00a487924b8ec452f4a8b75891d68fc3"><td class="mdescLeft">&#160;</td><td class="mdescRight">makes <a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">MR::FloatGrid</a> shared pointer taking the contents of the input pointer  <br /></td></tr>
+<tr class="memitem:ga00a487924b8ec452f4a8b75891d68fc3" id="r_ga00a487924b8ec452f4a8b75891d68fc3"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../namespaceMR.html#ac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga00a487924b8ec452f4a8b75891d68fc3">MR::MakeFloatGrid</a> (openvdb::FloatGrid::Ptr &amp;&amp;p)</td></tr>
+<tr class="memdesc:ga00a487924b8ec452f4a8b75891d68fc3"><td class="mdescLeft">&#160;</td><td class="mdescRight">makes <a class="el" href="classMR_1_1FloatGrid.html" title="wrapper class that helps mrbind to avoid excess MRVDBFloatGrid.h includes">MR::FloatGrid</a> shared pointer taking the contents of the input pointer  <br /></td></tr>
 <tr class="separator:ga00a487924b8ec452f4a8b75891d68fc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga218b14201bd57ed729188c171faf44b4" id="r_ga218b14201bd57ed729188c171faf44b4"><td class="memItemLeft" align="right" valign="top">MR_BIND_IGNORE Vector3i&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga218b14201bd57ed729188c171faf44b4">MR::fromVdb</a> (const openvdb::Coord &amp;v)</td></tr>
+<tr class="memitem:ga218b14201bd57ed729188c171faf44b4" id="r_ga218b14201bd57ed729188c171faf44b4"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../namespaceMR.html#ac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> Vector3i&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga218b14201bd57ed729188c171faf44b4">MR::fromVdb</a> (const openvdb::Coord &amp;v)</td></tr>
 <tr class="separator:ga218b14201bd57ed729188c171faf44b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab75a6a1d7c95c635ac4101c7a3d25eab" id="r_gab75a6a1d7c95c635ac4101c7a3d25eab"><td class="memItemLeft" align="right" valign="top">MR_BIND_IGNORE openvdb::Coord&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab75a6a1d7c95c635ac4101c7a3d25eab">MR::toVdb</a> (const Vector3i &amp;v)</td></tr>
+<tr class="memitem:gab75a6a1d7c95c635ac4101c7a3d25eab" id="r_gab75a6a1d7c95c635ac4101c7a3d25eab"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../namespaceMR.html#ac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> openvdb::Coord&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gab75a6a1d7c95c635ac4101c7a3d25eab">MR::toVdb</a> (const Vector3i &amp;v)</td></tr>
 <tr class="separator:gab75a6a1d7c95c635ac4101c7a3d25eab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gafaceca609bb25c112d03e61621d7df0c" id="r_gafaceca609bb25c112d03e61621d7df0c"><td class="memItemLeft" align="right" valign="top">MR_BIND_IGNORE openvdb::CoordBBox&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafaceca609bb25c112d03e61621d7df0c">MR::toVdbBox</a> (const Box3i &amp;box)</td></tr>
+<tr class="memitem:gafaceca609bb25c112d03e61621d7df0c" id="r_gafaceca609bb25c112d03e61621d7df0c"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../namespaceMR.html#ac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> openvdb::CoordBBox&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gafaceca609bb25c112d03e61621d7df0c">MR::toVdbBox</a> (const Box3i &amp;box)</td></tr>
 <tr class="separator:gafaceca609bb25c112d03e61621d7df0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4638fcf62c2a9d1394b8d69425b9f993" id="r_ga4638fcf62c2a9d1394b8d69425b9f993"><td class="memItemLeft" align="right" valign="top">MR_BIND_IGNORE openvdb::CoordBBox&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4638fcf62c2a9d1394b8d69425b9f993">MR::toVdbBox</a> (const Vector3i &amp;dims)</td></tr>
+<tr class="memitem:ga4638fcf62c2a9d1394b8d69425b9f993" id="r_ga4638fcf62c2a9d1394b8d69425b9f993"><td class="memItemLeft" align="right" valign="top"><a class="elRef" href="../namespaceMR.html#ac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> openvdb::CoordBBox&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4638fcf62c2a9d1394b8d69425b9f993">MR::toVdbBox</a> (const Vector3i &amp;dims)</td></tr>
 <tr class="separator:ga4638fcf62c2a9d1394b8d69425b9f993"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:gaaa4989f3d8e88d20b6cbebc9f51db434" id="r_gaaa4989f3d8e88d20b6cbebc9f51db434"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a9f036b05518b862a538b52711d41d242">MRVOXELS_CLASS</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaaa4989f3d8e88d20b6cbebc9f51db434">MR::OpenVdbFloatGrid</a></td></tr>
+<tr class="separator:gaaa4989f3d8e88d20b6cbebc9f51db434"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>This chapter represents documentation about basic structures elements. </p>
@@ -262,9 +265,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> MR::cropped </td>
+          <td class="memname"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> MR::cropped </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>grid</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>grid</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -293,7 +296,7 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">MR_BIND_IGNORE Vector3i MR::fromVdb </td>
+          <td class="memname"><a class="elRef" href="../namespaceMR.html#ac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> Vector3i MR::fromVdb </td>
           <td>(</td>
           <td class="paramtype">const openvdb::Coord &amp;</td>          <td class="paramname"><span class="paramname"><em>v</em></span></td><td>)</td>
           <td></td>
@@ -317,7 +320,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> void MR::gaussianFilter </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>grid</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>grid</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -348,9 +351,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> MR::gaussianFiltered </td>
+          <td class="memname"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> MR::gaussianFiltered </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>grid</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>grid</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -384,7 +387,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> float MR::getValue </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>grid</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>grid</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -415,7 +418,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> size_t MR::heapBytes </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>grid</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>grid</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -440,9 +443,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">MR_BIND_IGNORE <a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> MR::MakeFloatGrid </td>
+          <td class="memname"><a class="elRef" href="../namespaceMR.html#ac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> MR::MakeFloatGrid </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -467,7 +470,7 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">MR_BIND_IGNORE <a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> MR::MakeFloatGrid </td>
+          <td class="memname"><a class="elRef" href="../namespaceMR.html#ac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> MR::MakeFloatGrid </td>
           <td>(</td>
           <td class="paramtype">openvdb::FloatGrid::Ptr &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>p</em></span></td><td>)</td>
           <td></td>
@@ -480,7 +483,7 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>makes <a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">MR::FloatGrid</a> shared pointer taking the contents of the input pointer </p>
+<p>makes <a class="el" href="classMR_1_1FloatGrid.html" title="wrapper class that helps mrbind to avoid excess MRVDBFloatGrid.h includes">MR::FloatGrid</a> shared pointer taking the contents of the input pointer </p>
 
 </div>
 </div>
@@ -491,14 +494,14 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> MR::operator*= </td>
+          <td class="memname"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> MR::operator*= </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -512,14 +515,14 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> MR::operator+= </td>
+          <td class="memname"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> MR::operator+= </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -533,14 +536,14 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> MR::operator-= </td>
+          <td class="memname"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> MR::operator-= </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -557,7 +560,7 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">MR_BIND_IGNORE const openvdb::FloatGrid &amp; MR::ovdb </td>
+          <td class="memname"><a class="elRef" href="../namespaceMR.html#ac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> const openvdb::FloatGrid &amp; MR::ovdb </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR_1_1OpenVdbFloatGrid.html">OpenVdbFloatGrid</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>v</em></span></td><td>)</td>
           <td></td>
@@ -582,7 +585,7 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">MR_BIND_IGNORE openvdb::FloatGrid &amp; MR::ovdb </td>
+          <td class="memname"><a class="elRef" href="../namespaceMR.html#ac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> openvdb::FloatGrid &amp; MR::ovdb </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structMR_1_1OpenVdbFloatGrid.html">OpenVdbFloatGrid</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>v</em></span></td><td>)</td>
           <td></td>
@@ -604,9 +607,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> MR::resampled </td>
+          <td class="memname"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> MR::resampled </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>grid</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>grid</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -632,9 +635,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> MR::resampled </td>
+          <td class="memname"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> MR::resampled </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>grid</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>grid</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -662,7 +665,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> void MR::setLevelSetType </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>grid</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>grid</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -681,7 +684,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> void MR::setValue </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>grid</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>grid</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -708,7 +711,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> void MR::setValue </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceMR.html#a4b6d3fd83a0b2acf2d6e9bfc41f5ee82">FloatGrid</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>grid</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classMR_1_1FloatGrid.html">FloatGrid</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>grid</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -736,7 +739,7 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">MR_BIND_IGNORE openvdb::Coord MR::toVdb </td>
+          <td class="memname"><a class="elRef" href="../namespaceMR.html#ac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> openvdb::Coord MR::toVdb </td>
           <td>(</td>
           <td class="paramtype">const Vector3i &amp;</td>          <td class="paramname"><span class="paramname"><em>v</em></span></td><td>)</td>
           <td></td>
@@ -761,7 +764,7 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">MR_BIND_IGNORE openvdb::CoordBBox MR::toVdbBox </td>
+          <td class="memname"><a class="elRef" href="../namespaceMR.html#ac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> openvdb::CoordBBox MR::toVdbBox </td>
           <td>(</td>
           <td class="paramtype">const Box3i &amp;</td>          <td class="paramname"><span class="paramname"><em>box</em></span></td><td>)</td>
           <td></td>
@@ -786,7 +789,7 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">MR_BIND_IGNORE openvdb::CoordBBox MR::toVdbBox </td>
+          <td class="memname"><a class="elRef" href="../namespaceMR.html#ac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> openvdb::CoordBBox MR::toVdbBox </td>
           <td>(</td>
           <td class="paramtype">const Vector3i &amp;</td>          <td class="paramname"><span class="paramname"><em>dims</em></span></td><td>)</td>
           <td></td>
@@ -797,6 +800,21 @@ Functions</h2></td></tr>
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="gaaa4989f3d8e88d20b6cbebc9f51db434" name="gaaa4989f3d8e88d20b6cbebc9f51db434"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaaa4989f3d8e88d20b6cbebc9f51db434">&#9670;&#160;</a></span>OpenVdbFloatGrid</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct <a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a9f036b05518b862a538b52711d41d242">MRVOXELS_CLASS</a> MR::OpenVdbFloatGrid</td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>

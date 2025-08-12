@@ -15,12 +15,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -219,7 +213,7 @@ Static Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-static-attribs" name="pro-static-attribs"></a>
 Static Protected Attributes</h2></td></tr>
-<tr class="memitem:affc8b312fb71ade17ff086cf2dc6f8eb" id="r_affc8b312fb71ade17ff086cf2dc6f8eb"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#affc8b312fb71ade17ff086cf2dc6f8eb">_offsetof_adjustCollapse</a> = 104</td></tr>
+<tr class="memitem:affc8b312fb71ade17ff086cf2dc6f8eb" id="r_affc8b312fb71ade17ff086cf2dc6f8eb"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#affc8b312fb71ade17ff086cf2dc6f8eb">_offsetof_adjustCollapse</a> = 72</td></tr>
 <tr class="separator:affc8b312fb71ade17ff086cf2dc6f8eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a31b705c1761f0800abd9bed38ca6c9e9" id="r_a31b705c1761f0800abd9bed38ca6c9e9"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a31b705c1761f0800abd9bed38ca6c9e9">_offsetof_maxDeletedVertices</a> = 16</td></tr>
 <tr class="separator:a31b705c1761f0800abd9bed38ca6c9e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -237,7 +231,7 @@ Static Protected Attributes</h2></td></tr>
 <tr class="separator:a85589e3cf54ebb9201650deef7bdce37"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add43cce996806bef6d8312425618cf19" id="r_add43cce996806bef6d8312425618cf19"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add43cce996806bef6d8312425618cf19">_offsetof_touchBdVertices</a> = 32</td></tr>
 <tr class="separator:add43cce996806bef6d8312425618cf19"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6ced5a03db8cda66c48bc50cfa480f3" id="r_ae6ced5a03db8cda66c48bc50cfa480f3"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6ced5a03db8cda66c48bc50cfa480f3">_offsetof_vertForms</a> = 168</td></tr>
+<tr class="memitem:ae6ced5a03db8cda66c48bc50cfa480f3" id="r_ae6ced5a03db8cda66c48bc50cfa480f3"><td class="memItemLeft" align="right" valign="top">typing&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6ced5a03db8cda66c48bc50cfa480f3">_offsetof_vertForms</a> = 104</td></tr>
 <tr class="separator:ae6ced5a03db8cda66c48bc50cfa480f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -247,7 +241,6 @@ Aliases:  DecimatePolylineSettings3
 
  \\struct MR::DecimatePolylineSettings
  \\brief Parameters structure for MR::decimatePolyline
- \\ingroup DecimateGroup
 
  \\sa \\ref decimatePolyline</pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a7c09fd5b5c38638bd60a7d8ff71e01cd" name="a7c09fd5b5c38638bd60a7d8ff71e01cd"></a>
@@ -839,7 +832,7 @@ if touchBdVertices is false then boundary vertices are strictly fixed
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">typing mrmeshpy.DecimatePolylineSettings_Vector3f._offsetof_adjustCollapse = 104</td>
+          <td class="memname">typing mrmeshpy.DecimatePolylineSettings_Vector3f._offsetof_adjustCollapse = 72</td>
         </tr>
       </table>
   </td>
@@ -1037,7 +1030,7 @@ if touchBdVertices is false then boundary vertices are strictly fixed
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">typing mrmeshpy.DecimatePolylineSettings_Vector3f._offsetof_vertForms = 168</td>
+          <td class="memname">typing mrmeshpy.DecimatePolylineSettings_Vector3f._offsetof_vertForms = 104</td>
         </tr>
       </table>
   </td>

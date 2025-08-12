@@ -15,12 +15,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -168,7 +162,7 @@ $(function(){initNavTree('classMR_1_1SpaceMouseHandlerHidapi.html',''); initResi
  <div class="center">
   <img src="classMR_1_1SpaceMouseHandlerHidapi.png" usemap="#MR::SpaceMouseHandlerHidapi_map" alt=""/>
   <map id="MR::SpaceMouseHandlerHidapi_map" name="MR::SpaceMouseHandlerHidapi_map">
-<area href="classMR_1_1SpaceMouseHandler.html" title="class to handle spacemouse" alt="MR::SpaceMouseHandler" shape="rect" coords="0,112,192,136"/>
+<area href="classMR_1_1SpaceMouseHandler.html" title="base class for handler of spacemouse devices" alt="MR::SpaceMouseHandler" shape="rect" coords="0,112,192,136"/>
 <area href="structMR_1_1PostFocusListener.html" title="class to subscribe on PostFocusSingal" alt="MR::PostFocusListener" shape="rect" coords="202,112,394,136"/>
 <area href="structMR_1_1ConnectionHolder.html" alt="MR::ConnectionHolder" shape="rect" coords="202,56,394,80"/>
 <area href="structMR_1_1IConnectable.html" alt="MR::IConnectable" shape="rect" coords="202,0,394,24"/>
@@ -181,9 +175,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aa060a98d28e698b6d9e07b326f7c076a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af7ffed7a44b21d7f048c46f34264e551" id="r_af7ffed7a44b21d7f048c46f34264e551"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7ffed7a44b21d7f048c46f34264e551">~SpaceMouseHandlerHidapi</a> () override</td></tr>
 <tr class="separator:af7ffed7a44b21d7f048c46f34264e551"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf220c93efe5a91704da349086edcf46" id="r_adf220c93efe5a91704da349086edcf46"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf220c93efe5a91704da349086edcf46">initialize</a> () override</td></tr>
-<tr class="memdesc:adf220c93efe5a91704da349086edcf46"><td class="mdescLeft">&#160;</td><td class="mdescRight">initialize device  <br /></td></tr>
-<tr class="separator:adf220c93efe5a91704da349086edcf46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd46f7a6766658893e08a5f80973bc0b" id="r_afd46f7a6766658893e08a5f80973bc0b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd46f7a6766658893e08a5f80973bc0b">initialize</a> (std::function&lt; void(const std::string &amp;)&gt; deviceSignal) override</td></tr>
+<tr class="separator:afd46f7a6766658893e08a5f80973bc0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae76882db7c2042147f95e35d15b93371" id="r_ae76882db7c2042147f95e35d15b93371"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae76882db7c2042147f95e35d15b93371">handle</a> () override</td></tr>
 <tr class="memdesc:ae76882db7c2042147f95e35d15b93371"><td class="mdescLeft">&#160;</td><td class="mdescRight">handle device state and call <a class="el" href="classMR_1_1Viewer.html">Viewer</a> signals  <br /></td></tr>
 <tr class="separator:ae76882db7c2042147f95e35d15b93371"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -194,9 +187,6 @@ Public Member Functions</h2></td></tr>
 <tr class="inherit_header pub_methods_classMR_1_1SpaceMouseHandler"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classMR_1_1SpaceMouseHandler')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classMR_1_1SpaceMouseHandler.html">MR::SpaceMouseHandler</a></td></tr>
 <tr class="memitem:ae552842183fceec422514e422d1f0d73 inherit pub_methods_classMR_1_1SpaceMouseHandler" id="r_ae552842183fceec422514e422d1f0d73"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1SpaceMouseHandler.html#ae552842183fceec422514e422d1f0d73">~SpaceMouseHandler</a> ()=default</td></tr>
 <tr class="separator:ae552842183fceec422514e422d1f0d73 inherit pub_methods_classMR_1_1SpaceMouseHandler"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0fb38b595b3fad2af3d19817e2f77297 inherit pub_methods_classMR_1_1SpaceMouseHandler" id="r_a0fb38b595b3fad2af3d19817e2f77297"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1SpaceMouseHandler.html#a0fb38b595b3fad2af3d19817e2f77297">updateConnected</a> (int, int)</td></tr>
-<tr class="memdesc:a0fb38b595b3fad2af3d19817e2f77297 inherit pub_methods_classMR_1_1SpaceMouseHandler"><td class="mdescLeft">&#160;</td><td class="mdescRight">update after connect / disconnect devices  <br /></td></tr>
-<tr class="separator:a0fb38b595b3fad2af3d19817e2f77297 inherit pub_methods_classMR_1_1SpaceMouseHandler"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_structMR_1_1PostFocusListener"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_structMR_1_1PostFocusListener')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="structMR_1_1PostFocusListener.html">MR::PostFocusListener</a></td></tr>
 <tr class="memitem:ac6da51dc62db3e216930fa626bd53dd3 inherit pub_methods_structMR_1_1PostFocusListener" id="r_ac6da51dc62db3e216930fa626bd53dd3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1PostFocusListener.html#ac6da51dc62db3e216930fa626bd53dd3">MR_ADD_CTOR_DELETE_MOVE</a> (<a class="el" href="structMR_1_1PostFocusListener.html">PostFocusListener</a>)</td></tr>
 <tr class="separator:ac6da51dc62db3e216930fa626bd53dd3 inherit pub_methods_structMR_1_1PostFocusListener"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -309,8 +299,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="adf220c93efe5a91704da349086edcf46" name="adf220c93efe5a91704da349086edcf46"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adf220c93efe5a91704da349086edcf46">&#9670;&#160;</a></span>initialize()</h2>
+<a id="afd46f7a6766658893e08a5f80973bc0b" name="afd46f7a6766658893e08a5f80973bc0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd46f7a6766658893e08a5f80973bc0b">&#9670;&#160;</a></span>initialize()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -321,7 +311,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">bool MR::SpaceMouseHandlerHidapi::initialize </td>
           <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype">std::function&lt; void(const std::string &amp;)&gt;</td>          <td class="paramname"><span class="paramname"><em>deviceSignal</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -331,10 +321,14 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>initialize device </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">deviceSignal</td><td>every device-related event will be sent here: find, connect, disconnect </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p>initialize device </p>
-
-<p>Implements <a class="el" href="classMR_1_1SpaceMouseHandler.html#a5c2a0f9ed6b49950d604726d8ff4b31e">MR::SpaceMouseHandler</a>.</p>
+<p>Implements <a class="el" href="classMR_1_1SpaceMouseHandler.html#aa16a3f50c595a2adfa16a0062dbea2a5">MR::SpaceMouseHandler</a>.</p>
 
 </div>
 </div>
@@ -372,7 +366,7 @@ Additional Inherited Members</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="classMR_1_1SpaceMouseHandlerHidapi.html">SpaceMouseHandlerHidapi</a></li>
+    <li class="navelem"><b>MR</b></li><li class="navelem"><a class="el" href="classMR_1_1SpaceMouseHandlerHidapi.html">SpaceMouseHandlerHidapi</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

@@ -15,12 +15,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -163,12 +157,10 @@ $(function(){initNavTree('classmrmeshpy_1_1FaceFace.html',''); initResizable(tru
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a3602e37919588efbbc37f8469d0d47b4" id="r_a3602e37919588efbbc37f8469d0d47b4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3602e37919588efbbc37f8469d0d47b4">__eq__</a> (self, <a class="el" href="classmrmeshpy_1_1FaceFace.html">FaceFace</a> rhs)</td></tr>
-<tr class="separator:a3602e37919588efbbc37f8469d0d47b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adb3c92402ce3ca0b2e39322afcb28780" id="r_adb3c92402ce3ca0b2e39322afcb28780"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb3c92402ce3ca0b2e39322afcb28780">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> a, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> b)</td></tr>
-<tr class="separator:adb3c92402ce3ca0b2e39322afcb28780"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0cbed3dec9aa8f415b636d9a1601f369" id="r_a0cbed3dec9aa8f415b636d9a1601f369"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0cbed3dec9aa8f415b636d9a1601f369">__init__</a> (self)</td></tr>
 <tr class="separator:a0cbed3dec9aa8f415b636d9a1601f369"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb3c92402ce3ca0b2e39322afcb28780" id="r_adb3c92402ce3ca0b2e39322afcb28780"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb3c92402ce3ca0b2e39322afcb28780">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> a, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> b)</td></tr>
+<tr class="separator:adb3c92402ce3ca0b2e39322afcb28780"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -189,8 +181,7 @@ Static Protected Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><pre class="fragment">Generated from:  MR::FaceFace
 
-\\addtogroup AABBTreeGroup
-\\{
+a pair of faces
 </pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a128f299304ee50bb12457adb5a0df8c3" name="a128f299304ee50bb12457adb5a0df8c3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a128f299304ee50bb12457adb5a0df8c3">&#9670;&#160;</a></span>__init__() <span class="overload">[1/3]</span></h2>
@@ -221,8 +212,25 @@ Static Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a0cbed3dec9aa8f415b636d9a1601f369" name="a0cbed3dec9aa8f415b636d9a1601f369"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0cbed3dec9aa8f415b636d9a1601f369">&#9670;&#160;</a></span>__init__() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.FaceFace.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="adb3c92402ce3ca0b2e39322afcb28780" name="adb3c92402ce3ca0b2e39322afcb28780"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adb3c92402ce3ca0b2e39322afcb28780">&#9670;&#160;</a></span>__init__() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#adb3c92402ce3ca0b2e39322afcb28780">&#9670;&#160;</a></span>__init__() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -247,45 +255,7 @@ Static Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a0cbed3dec9aa8f415b636d9a1601f369" name="a0cbed3dec9aa8f415b636d9a1601f369"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0cbed3dec9aa8f415b636d9a1601f369">&#9670;&#160;</a></span>__init__() <span class="overload">[3/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> None mrmeshpy.FaceFace.__init__ </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a3602e37919588efbbc37f8469d0d47b4" name="a3602e37919588efbbc37f8469d0d47b4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3602e37919588efbbc37f8469d0d47b4">&#9670;&#160;</a></span>__eq__()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> bool mrmeshpy.FaceFace.__eq__ </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1FaceFace.html">FaceFace</a></td>          <td class="paramname"><span class="paramname"><em>rhs</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a41629cd85b064868ca524d29a01df55e" name="a41629cd85b064868ca524d29a01df55e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a41629cd85b064868ca524d29a01df55e">&#9670;&#160;</a></span>operator() <span class="overload">[1/2]</span></h2>
 

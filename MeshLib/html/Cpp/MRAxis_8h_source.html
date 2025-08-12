@@ -15,12 +15,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -157,24 +151,20 @@ $(function(){initNavTree('MRAxis_8h_source.html',''); initResizable(true); });
 <div class="contents">
 <a href="MRAxis_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="keyword">namespace </span><a class="code hl_namespaceRef" href="../namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span>{</div>
 <div class="foldopen" id="foldopen00005" data-start="{" data-end="};">
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno"><a class="line" href="namespaceMR.html#a05195fdcf0d1d90b73a5d24b11150005">    5</a></span> <span class="keyword">enum class</span> <a class="code hl_enumeration" href="namespaceMR.html#a05195fdcf0d1d90b73a5d24b11150005">Axis</a></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno"><a class="lineRef" href="../namespaceMR.html#a05195fdcf0d1d90b73a5d24b11150005">    5</a></span> <span class="keyword">enum class</span> <a class="code hl_enumerationRef" href="../namespaceMR.html#a05195fdcf0d1d90b73a5d24b11150005">Axis</a></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> {</div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>     <a class="code hl_enumvalue" href="namespaceMR.html#a05195fdcf0d1d90b73a5d24b11150005a02129bb861061d1a052c592e2dc6b383">X</a>,</div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>     <a class="code hl_enumvalue" href="namespaceMR.html#a05195fdcf0d1d90b73a5d24b11150005a57cec4137b614c87cb4e24a3d003a3e0">Y</a>,</div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>     <a class="code hl_enumvalue" href="namespaceMR.html#a05195fdcf0d1d90b73a5d24b11150005a21c2e59531c8710156d34a3c30ac81d5">Z</a>,</div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>     <a class="code hl_enumvalue" href="namespaceMR.html#a05195fdcf0d1d90b73a5d24b11150005ae93f994f01c537c4e2f7d8528c3eb5e9">Count</a></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>     X,</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>     Y,</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>     Z,</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>     Count</div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> };</div>
 </div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>}</div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
-<div class="ttc" id="anamespaceMR_html_a05195fdcf0d1d90b73a5d24b11150005"><div class="ttname"><a href="namespaceMR.html#a05195fdcf0d1d90b73a5d24b11150005">MR::Axis</a></div><div class="ttdeci">Axis</div><div class="ttdef"><b>Definition</b> MRAxis.h:6</div></div>
-<div class="ttc" id="anamespaceMR_html_a05195fdcf0d1d90b73a5d24b11150005a02129bb861061d1a052c592e2dc6b383"><div class="ttname"><a href="namespaceMR.html#a05195fdcf0d1d90b73a5d24b11150005a02129bb861061d1a052c592e2dc6b383">MR::Axis::X</a></div><div class="ttdeci">@ X</div></div>
-<div class="ttc" id="anamespaceMR_html_a05195fdcf0d1d90b73a5d24b11150005a21c2e59531c8710156d34a3c30ac81d5"><div class="ttname"><a href="namespaceMR.html#a05195fdcf0d1d90b73a5d24b11150005a21c2e59531c8710156d34a3c30ac81d5">MR::Axis::Z</a></div><div class="ttdeci">@ Z</div></div>
-<div class="ttc" id="anamespaceMR_html_a05195fdcf0d1d90b73a5d24b11150005a57cec4137b614c87cb4e24a3d003a3e0"><div class="ttname"><a href="namespaceMR.html#a05195fdcf0d1d90b73a5d24b11150005a57cec4137b614c87cb4e24a3d003a3e0">MR::Axis::Y</a></div><div class="ttdeci">@ Y</div></div>
-<div class="ttc" id="anamespaceMR_html_a05195fdcf0d1d90b73a5d24b11150005ae93f994f01c537c4e2f7d8528c3eb5e9"><div class="ttname"><a href="namespaceMR.html#a05195fdcf0d1d90b73a5d24b11150005ae93f994f01c537c4e2f7d8528c3eb5e9">MR::Axis::Count</a></div><div class="ttdeci">@ Count</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="../namespaceMR.html">MR</a></div></div>
+<div class="ttc" id="anamespaceMR_html_a05195fdcf0d1d90b73a5d24b11150005"><div class="ttname"><a href="../namespaceMR.html#a05195fdcf0d1d90b73a5d24b11150005">MR::Axis</a></div><div class="ttdeci">Axis</div><div class="ttdef"><b>Definition</b> MRAxis.h:6</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

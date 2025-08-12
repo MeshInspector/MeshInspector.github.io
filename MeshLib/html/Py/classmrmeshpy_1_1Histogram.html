@@ -15,12 +15,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -174,8 +168,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad2b830128b8e35d6cf0fb83ae5313693"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a509b7a73931d8409afe37b0adafa34" id="r_a1a509b7a73931d8409afe37b0adafa34"><td class="memItemLeft" align="right" valign="top">tuple[float, float]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a509b7a73931d8409afe37b0adafa34">getBinMinMax</a> (self, int binId)</td></tr>
 <tr class="separator:a1a509b7a73931d8409afe37b0adafa34"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e575fd5cc0b154dec8c6aebffb6ea9f" id="r_a8e575fd5cc0b154dec8c6aebffb6ea9f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1std__vector__unsigned__long__long.html">std_vector_unsigned_long_long</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e575fd5cc0b154dec8c6aebffb6ea9f">getBins</a> (self)</td></tr>
-<tr class="separator:a8e575fd5cc0b154dec8c6aebffb6ea9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50711bf6ce8e8e1d0f414110e3f9c1da" id="r_a50711bf6ce8e8e1d0f414110e3f9c1da"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1std__vector__unsigned__long.html">std_vector_unsigned_long</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50711bf6ce8e8e1d0f414110e3f9c1da">getBins</a> (self)</td></tr>
+<tr class="separator:a50711bf6ce8e8e1d0f414110e3f9c1da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6db9e1d50d28710ed52773003233e5e5" id="r_a6db9e1d50d28710ed52773003233e5e5"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6db9e1d50d28710ed52773003233e5e5">getMax</a> (self)</td></tr>
 <tr class="separator:a6db9e1d50d28710ed52773003233e5e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa470779c9b2de60bd31a7e22eb63295e" id="r_aa470779c9b2de60bd31a7e22eb63295e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa470779c9b2de60bd31a7e22eb63295e">getMin</a> (self)</td></tr>
@@ -196,7 +190,6 @@ Static Public Member Functions</h2></td></tr>
 <div class="textblock"><pre class="fragment">Generated from:  MR::Histogram
 
 Simple class for calculating histogram
-\\ingroup MathGroup
 </pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a9fd29e584ec905bc7e829602b1bff6da" name="a9fd29e584ec905bc7e829602b1bff6da"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9fd29e584ec905bc7e829602b1bff6da">&#9670;&#160;</a></span>__init__() <span class="overload">[1/3]</span></h2>
@@ -370,14 +363,14 @@ Simple class for calculating histogram
 </pre> 
 </div>
 </div>
-<a id="a8e575fd5cc0b154dec8c6aebffb6ea9f" name="a8e575fd5cc0b154dec8c6aebffb6ea9f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e575fd5cc0b154dec8c6aebffb6ea9f">&#9670;&#160;</a></span>getBins()</h2>
+<a id="a50711bf6ce8e8e1d0f414110e3f9c1da" name="a50711bf6ce8e8e1d0f414110e3f9c1da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50711bf6ce8e8e1d0f414110e3f9c1da">&#9670;&#160;</a></span>getBins()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1std__vector__unsigned__long__long.html">std_vector_unsigned_long_long</a> mrmeshpy.Histogram.getBins </td>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1std__vector__unsigned__long.html">std_vector_unsigned_long</a> mrmeshpy.Histogram.getBins </td>
           <td>(</td>
           <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
           <td></td>

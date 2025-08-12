@@ -1,4 +1,4 @@
 var group__StreamOperatorsGroup =
 [
-    [ "MR", "namespaceMR.html", null ]
+    [ "MR", "../namespaceMR.html", null ]
 ];

@@ -18,6 +18,7 @@ var classMR_1_1ObjectDistanceMap =
     [ "hasModel", "classMR_1_1ObjectDistanceMap.html#a8ad6dff58820964d2e9399707ebe2f91", null ],
     [ "heapBytes", "classMR_1_1ObjectDistanceMap.html#a9788925d8f072383a35145d4b13cbb92", null ],
     [ "operator=", "classMR_1_1ObjectDistanceMap.html#adf86e3267eaf731978a882003b39b9b6", null ],
+    [ "resetFrontColor", "classMR_1_1ObjectDistanceMap.html#af058f11fdad7fc39dca1a94ce1de3f97", null ],
     [ "serializeFields_", "classMR_1_1ObjectDistanceMap.html#a1d68e848504ae3e593e550c51d0b1ddb", null ],
     [ "serializeModel_", "classMR_1_1ObjectDistanceMap.html#a116290bef3d94859f87eca9db6741761", null ],
     [ "setDistanceMap", "classMR_1_1ObjectDistanceMap.html#ad4a907748558704e47f71b6529c7f915", null ],

@@ -15,12 +15,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -158,7 +152,7 @@ $(function(){initNavTree('MRSelectObjectByClick_8h_source.html',''); initResizab
 <a href="MRSelectObjectByClick_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &quot;<a class="code" href="MRStatePlugin_8h.html">MRViewer/MRStatePlugin.h</a>&quot;</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="keyword">namespace </span><a class="code hl_namespaceRef" href="../namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span>{</div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">class </span>Object;</div>
@@ -179,8 +173,8 @@ $(function(){initNavTree('MRSelectObjectByClick_8h_source.html',''); initResizab
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="classMR_1_1SelectObjectByClick.html#a2a30b5e16efad50fc9ee0f3a38a87296">   22</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1SelectObjectByClick.html#a2a30b5e16efad50fc9ee0f3a38a87296">drawDialog</a>( <span class="keywordtype">float</span>, ImGuiContext* ) <span class="keyword">override</span>;</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onMouseDown_( <a class="code hl_enumeration" href="namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62d">MouseButton</a> button, <span class="keywordtype">int</span> modifiers ) <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onMouseUp_( <a class="code hl_enumeration" href="namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62d">MouseButton</a> button, <span class="keywordtype">int</span> modifiers ) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onMouseDown_( <a class="code hl_enumerationRef" href="../namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62d">MouseButton</a> button, <span class="keywordtype">int</span> modifiers ) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onMouseUp_( <a class="code hl_enumerationRef" href="../namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62d">MouseButton</a> button, <span class="keywordtype">int</span> modifiers ) <span class="keyword">override</span>;</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> onMouseMove_( <span class="keywordtype">int</span> x, <span class="keywordtype">int</span> y ) <span class="keyword">override</span>;</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <span class="keywordtype">void</span> select_( <span class="keywordtype">bool</span> up );</div>
@@ -198,8 +192,8 @@ $(function(){initNavTree('MRSelectObjectByClick_8h_source.html',''); initResizab
 <div class="ttc" id="aclassMR_1_1SelectObjectByClick_html_a4e224981a48ecad3ccd0f3644cfeecd5"><div class="ttname"><a href="classMR_1_1SelectObjectByClick.html#a4e224981a48ecad3ccd0f3644cfeecd5">MR::SelectObjectByClick::blocking</a></div><div class="ttdeci">virtual bool blocking() const override</div><div class="ttdef"><b>Definition</b> MRSelectObjectByClick.h:20</div></div>
 <div class="ttc" id="aclassMR_1_1SelectObjectByClick_html_af233d2ee48f41e6835cdf6896f6c9676"><div class="ttname"><a href="classMR_1_1SelectObjectByClick.html#af233d2ee48f41e6835cdf6896f6c9676">MR::SelectObjectByClick::SelectObjectByClick</a></div><div class="ttdeci">SelectObjectByClick()</div></div>
 <div class="ttc" id="aclassMR_1_1StateListenerPlugin_html"><div class="ttname"><a href="classMR_1_1StateListenerPlugin.html">MR::StateListenerPlugin</a></div><div class="ttdef"><b>Definition</b> MRViewerFwd.h:64</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
-<div class="ttc" id="anamespaceMR_html_a13f98b7840e7298925ef1770b7cdb62d"><div class="ttname"><a href="namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62d">MR::MouseButton</a></div><div class="ttdeci">MouseButton</div><div class="ttdef"><b>Definition</b> MRMouse.h:9</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="../namespaceMR.html">MR</a></div></div>
+<div class="ttc" id="anamespaceMR_html_a13f98b7840e7298925ef1770b7cdb62d"><div class="ttname"><a href="../namespaceMR.html#a13f98b7840e7298925ef1770b7cdb62d">MR::MouseButton</a></div><div class="ttdeci">MouseButton</div><div class="ttdef"><b>Definition</b> MRMouse.h:9</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

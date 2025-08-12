@@ -4,6 +4,7 @@ var classMR_1_1PickPointManager =
     [ "Params", "structMR_1_1PickPointManager_1_1Params.html", "structMR_1_1PickPointManager_1_1Params" ],
     [ "WidgetHistoryAction", "structMR_1_1PickPointManager_1_1WidgetHistoryAction.html", null ],
     [ "AllowCallBack", "classMR_1_1PickPointManager.html#adffaab931d52fa647870ad0274b3166f", null ],
+    [ "ChangeObjectCallBack", "classMR_1_1PickPointManager.html#aec9df5b70f6f58958c686105f526a1a5", null ],
     [ "FullState", "classMR_1_1PickPointManager.html#a126f436cbe4bfa2339652d428159ad0b", null ],
     [ "PickerPointCallBack", "classMR_1_1PickPointManager.html#af5dd9ce5eda38d70eb2e0c789aa3e06c", null ],
     [ "SurfaceContour", "classMR_1_1PickPointManager.html#a66fec48ba08655d3ee9486f9b4e2c3f0", null ],

@@ -15,12 +15,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -168,7 +162,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a8dbc0ef21f19e8eec7a0a52fe032e950"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a1d2127760db16291d96e629a8ad068" id="r_a8a1d2127760db16291d96e629a8ad068"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a1d2127760db16291d96e629a8ad068">find</a> (self, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> a)</td></tr>
 <tr class="separator:a8a1d2127760db16291d96e629a8ad068"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a2c6d7eaa32c8ba00b8883bcb4cf52e" id="r_a8a2c6d7eaa32c8ba00b8883bcb4cf52e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a2c6d7eaa32c8ba00b8883bcb4cf52e">findUpdateRange</a> (self, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> a, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> <a class="el" href="namespacemrmeshpy.html#a4e3d2cd2d4641ce362d66185b1adff97">begin</a>, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> <a class="el" href="namespacemrmeshpy.html#ad2dabc0b6caa86d6f8b767a776130c8b">end</a>)</td></tr>
+<tr class="memitem:a8a2c6d7eaa32c8ba00b8883bcb4cf52e" id="r_a8a2c6d7eaa32c8ba00b8883bcb4cf52e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8a2c6d7eaa32c8ba00b8883bcb4cf52e">findUpdateRange</a> (self, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> a, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> <a class="el" href="namespacemrmeshpy.html#a4e3d2cd2d4641ce362d66185b1adff97">begin</a>, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> <a class="el" href="namespacemrmeshpy.html#a535ebd3ea136c4fea9bd36ce5c75cb0e">end</a>)</td></tr>
 <tr class="separator:a8a2c6d7eaa32c8ba00b8883bcb4cf52e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac68c893f98b4c76a91a5b57d41f04649" id="r_ac68c893f98b4c76a91a5b57d41f04649"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac68c893f98b4c76a91a5b57d41f04649">isRoot</a> (self, <a class="el" href="classmrmeshpy_1_1FaceId.html">FaceId</a> a)</td></tr>
 <tr class="separator:ac68c893f98b4c76a91a5b57d41f04649"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -207,7 +201,6 @@ Static Public Member Functions</h2></td></tr>
 2) checking whether two elements pertain to the same set,
 3) finding representative element (root) of each set by any set's element
 \\tparam I is the identifier of a set's element, e.g. FaceId
-\\ingroup BasicGroup
 </pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aa9e027b7cda8a0dcfd5af3fc28aa87b1" name="aa9e027b7cda8a0dcfd5af3fc28aa87b1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa9e027b7cda8a0dcfd5af3fc28aa87b1">&#9670;&#160;</a></span>__init__() <span class="overload">[1/3]</span></h2>

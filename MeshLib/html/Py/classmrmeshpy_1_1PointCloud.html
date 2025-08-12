@@ -15,12 +15,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -175,6 +169,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a9b8a38f17ed5a58b8cfb0517e8ecae4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab19d39d0e1c178b3c4ef540b9a1ba065" id="r_ab19d39d0e1c178b3c4ef540b9a1ba065"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Box3f.html">Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab19d39d0e1c178b3c4ef540b9a1ba065">computeBoundingBox</a> (self, <a class="el" href="classmrmeshpy_1_1AffineXf3f.html">AffineXf3f</a> toWorld=None)</td></tr>
 <tr class="separator:ab19d39d0e1c178b3c4ef540b9a1ba065"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8115f7b60fa86f55541a95e1ff9807f4" id="r_a8115f7b60fa86f55541a95e1ff9807f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Box3f.html">Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8115f7b60fa86f55541a95e1ff9807f4">computeBoundingBox</a> (self, <a class="el" href="classmrmeshpy_1_1VertBitSet.html">VertBitSet</a> region, <a class="el" href="classmrmeshpy_1_1AffineXf3f.html">AffineXf3f</a> toWorld=None)</td></tr>
+<tr class="separator:a8115f7b60fa86f55541a95e1ff9807f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c18479617ee5940f39f8d9b3d08ac29" id="r_a8c18479617ee5940f39f8d9b3d08ac29"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8c18479617ee5940f39f8d9b3d08ac29">findCenterFromBBox</a> (self)</td></tr>
 <tr class="separator:a8c18479617ee5940f39f8d9b3d08ac29"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17a1809f318bc64f9fe02d2b36993d9f" id="r_a17a1809f318bc64f9fe02d2b36993d9f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17a1809f318bc64f9fe02d2b36993d9f">findCenterFromPoints</a> (self)</td></tr>
@@ -237,8 +233,6 @@ Static Protected Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><pre class="fragment">Generated from:  MR::PointCloud
 Aliases:  std_shared_ptr_const_PointCloud, std_shared_ptr_PointCloud
-
-\\ingroup PointCloudGroup
 </pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a4a58ea76bcf4a51bfcb1fce9bbb90ee0" name="a4a58ea76bcf4a51bfcb1fce9bbb90ee0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4a58ea76bcf4a51bfcb1fce9bbb90ee0">&#9670;&#160;</a></span>__init__() <span class="overload">[1/2]</span></h2>
@@ -394,7 +388,7 @@ if this obj have normals and from obj has not it then don't do anything
 </div>
 </div>
 <a id="ab19d39d0e1c178b3c4ef540b9a1ba065" name="ab19d39d0e1c178b3c4ef540b9a1ba065"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab19d39d0e1c178b3c4ef540b9a1ba065">&#9670;&#160;</a></span>computeBoundingBox()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab19d39d0e1c178b3c4ef540b9a1ba065">&#9670;&#160;</a></span>computeBoundingBox() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -412,6 +406,34 @@ if this obj have normals and from obj has not it then don't do anything
       </table>
 </div><div class="memdoc">
 <pre class="fragment">passes through all valid points and finds the minimal bounding box containing all of them;
+if toWorld transformation is given then returns minimal bounding box in world space
+</pre> 
+</div>
+</div>
+<a id="a8115f7b60fa86f55541a95e1ff9807f4" name="a8115f7b60fa86f55541a95e1ff9807f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8115f7b60fa86f55541a95e1ff9807f4">&#9670;&#160;</a></span>computeBoundingBox() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1Box3f.html">Box3f</a> mrmeshpy.PointCloud.computeBoundingBox </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1VertBitSet.html">VertBitSet</a></td>          <td class="paramname"><span class="paramname"><em>region</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1AffineXf3f.html">AffineXf3f</a> </td>          <td class="paramname"><span class="paramname"><em>toWorld</em></span><span class="paramdefsep"> = </span><span class="paramdefval">None</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">passes through all given vertices (or all valid vertices if region == null) and finds the minimal bounding box containing all of them
 if toWorld transformation is given then returns minimal bounding box in world space
 </pre> 
 </div>

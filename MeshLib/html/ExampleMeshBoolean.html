@@ -15,12 +15,6 @@
     }
   }();
 </script>
-<script>
-  !function(){var i="analytics",analytics=window[i]=window[i]||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){if(window[i].initialized)return window[i][e].apply(window[i],arguments);var n=Array.prototype.slice.call(arguments);if(["track","screen","alias","group","page","identify"].indexOf(e)>-1){var c=document.querySelector("link[rel='canonical']");n.push({__t:"bpc",c:c&&c.getAttribute("href")||void 0,p:location.pathname,u:location.href,s:location.search,t:document.title,r:document.referrer})}n.unshift(e);analytics.push(n);return analytics}};for(var n=0;n<analytics.methods.length;n++){var key=analytics.methods[n];analytics[key]=analytics.factory(key)}analytics.load=function(key,n){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.setAttribute("data-global-segment-analytics-key",i);t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r);analytics._loadOptions=n};analytics._writeKey="Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx";;analytics.SNIPPET_VERSION="5.2.0";
-  analytics.load("Fi7y6F1GgFvTTomYo8zvETBoGHkDDxGx");
-  analytics.page();
-  }}();
-</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -172,12 +166,12 @@ $(function(){initNavTree('ExampleMeshBoolean.html',''); initResizable(true); });
 <div class="line">    <span class="comment">// create second sphere by cloning the first sphere and moving it in X direction</span></div>
 <div class="line">    <a class="code hl_structRef" href="./Cpp/structMR_1_1Mesh.html">MR::Mesh</a> sphere2 = sphere1;</div>
 <div class="line">    MR::AffineXf3f xf = MR::AffineXf3f::translation( MR::Vector3f( 0.7f, 0.0f, 0.0f ) );</div>
-<div class="line">    sphere2.transform( xf );</div>
+<div class="line">    sphere2.<a class="code hl_functionRef" href="./Cpp/structMR_1_1Mesh.html#a9295908f703adbacd9b9b8f900b85f7d">transform</a>( xf );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// perform boolean operation</span></div>
-<div class="line">    <a class="code hl_structRef" href="./Cpp/structMR_1_1BooleanResult.html">MR::BooleanResult</a> result = <a class="code hl_functionRef" href="./Cpp/group__BooleanGroup.html#ga5dc229b89588f1a3416aca4910e460d9">MR::boolean</a>( sphere1, sphere2, MR::BooleanOperation::Intersection );</div>
-<div class="line">    <span class="keywordflow">if</span> ( !result.valid() )</div>
-<div class="line">        std::cerr &lt;&lt; result.errorString &lt;&lt; std::endl;</div>
+<div class="line">    <a class="code hl_structRef" href="./Cpp/structMR_1_1BooleanResult.html">MR::BooleanResult</a> result = <a class="code hl_functionRef" href="./Cpp/group__BooleanGroup.html#ga5dc229b89588f1a3416aca4910e460d9">MR::boolean</a>( sphere1, sphere2, <a class="code hl_enumvalueRef" href="./Cpp/group__BooleanGroup.html#ga9e84a8cc429efdf5cc108ca1c6aaccbdaa06d31c2ee920b4d53e8c9c06d90ba24">MR::BooleanOperation::Intersection</a> );</div>
+<div class="line">    <span class="keywordflow">if</span> ( !result.<a class="code hl_functionRef" href="./Cpp/structMR_1_1BooleanResult.html#a48ebd7d576c05349da5aab0f92e0d289">valid</a>() )</div>
+<div class="line">        std::cerr &lt;&lt; result.<a class="code hl_variableRef" href="./Cpp/structMR_1_1BooleanResult.html#a78e59aeca9497a9c74d7512157fcf5df">errorString</a> &lt;&lt; std::endl;</div>
 <div class="line"> </div>
 <div class="line">    <a class="code hl_structRef" href="./Cpp/structMR_1_1Mesh.html">MR::Mesh</a> resultMesh = *result;</div>
 <div class="line"> </div>
@@ -193,10 +187,14 @@ $(function(){initNavTree('ExampleMeshBoolean.html',''); initResizable(true); });
 <div class="ttc" id="aLaplacianDeformation_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition</b> LaplacianDeformation.cpp:4</div></div>
 <div class="ttc" id="aMRUVSphere_8h_html"><div class="ttname"><a href="./Cpp/MRUVSphere_8h.html">MRUVSphere.h</a></div></div>
 <div class="ttc" id="agroup__BooleanGroup_html_ga5dc229b89588f1a3416aca4910e460d9"><div class="ttname"><a href="./Cpp/group__BooleanGroup.html#ga5dc229b89588f1a3416aca4910e460d9">MR::boolean</a></div><div class="ttdeci">MRMESH_API BooleanResult boolean(const Mesh &amp;meshA, const Mesh &amp;meshB, BooleanOperation operation, const AffineXf3f *rigidB2A, BooleanResultMapper *mapper=nullptr, ProgressCallback cb={})</div></div>
+<div class="ttc" id="agroup__BooleanGroup_html_ga9e84a8cc429efdf5cc108ca1c6aaccbdaa06d31c2ee920b4d53e8c9c06d90ba24"><div class="ttname"><a href="./Cpp/group__BooleanGroup.html#ga9e84a8cc429efdf5cc108ca1c6aaccbdaa06d31c2ee920b4d53e8c9c06d90ba24">MR::BooleanOperation::Intersection</a></div><div class="ttdeci">@ Intersection</div></div>
 <div class="ttc" id="agroup__MeshSaveGroup_html_ga6f98b4f73676fa32a7e3573939cb76b9"><div class="ttname"><a href="./Cpp/group__MeshSaveGroup.html#ga6f98b4f73676fa32a7e3573939cb76b9">MR::MeshSave::toAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; void &gt; toAnySupportedFormat(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</div></div>
 <div class="ttc" id="anamespaceMR_html_a669b6772939a2427c2564e7a4a66b25e"><div class="ttname"><a href="./Cpp/namespaceMR.html#a669b6772939a2427c2564e7a4a66b25e">MR::makeUVSphere</a></div><div class="ttdeci">MRMESH_API Mesh makeUVSphere(float radius=1.0, int horisontalResolution=16, int verticalResolution=16)</div></div>
 <div class="ttc" id="astructMR_1_1BooleanResult_html"><div class="ttname"><a href="./Cpp/structMR_1_1BooleanResult.html">MR::BooleanResult</a></div></div>
+<div class="ttc" id="astructMR_1_1BooleanResult_html_a48ebd7d576c05349da5aab0f92e0d289"><div class="ttname"><a href="./Cpp/structMR_1_1BooleanResult.html#a48ebd7d576c05349da5aab0f92e0d289">MR::BooleanResult::valid</a></div><div class="ttdeci">bool valid() const</div></div>
+<div class="ttc" id="astructMR_1_1BooleanResult_html_a78e59aeca9497a9c74d7512157fcf5df"><div class="ttname"><a href="./Cpp/structMR_1_1BooleanResult.html#a78e59aeca9497a9c74d7512157fcf5df">MR::BooleanResult::errorString</a></div><div class="ttdeci">std::string errorString</div></div>
 <div class="ttc" id="astructMR_1_1Mesh_html"><div class="ttname"><a href="./Cpp/structMR_1_1Mesh.html">MR::Mesh</a></div></div>
+<div class="ttc" id="astructMR_1_1Mesh_html_a9295908f703adbacd9b9b8f900b85f7d"><div class="ttname"><a href="./Cpp/structMR_1_1Mesh.html#a9295908f703adbacd9b9b8f900b85f7d">MR::Mesh::transform</a></div><div class="ttdeci">MRMESH_API void transform(const AffineXf3f &amp;xf, const VertBitSet *region=nullptr)</div></div>
 </div><!-- fragment --> Source meshes <div class="image">
 <img src="boolean_before.png" alt=""/>
 </div>
@@ -234,94 +232,59 @@ $(function(){initNavTree('ExampleMeshBoolean.html',''); initResizable(true); });
 <img src="boolean_after.png" alt=""/>
 </div>
 </li>
-<li><b class="tab-title">C</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRMeshC/MRMesh.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMeshC/MRMakeSphereMesh.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMeshC/MRVector3.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMeshC/MRAffineXf.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMeshC/MRMeshBoolean.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMeshC/MRMeshSave.h&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;MRMeshC/MRString.h&gt;</span></div>
+<li><b class="tab-title">C</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRAffineXf.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMakeSphereMesh.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMesh.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMeshBoolean.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRMeshSave.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRCMesh/MRVector3.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRCMisc/expected_void_std_string.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;MRCMisc/std_string.h&gt;</span></div>
 <div class="line"> </div>
 <div class="line"><span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;stdlib.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;string.h&gt;</span></div>
 <div class="line"> </div>
-<div class="line"><span class="keywordtype">int</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>( <span class="keywordtype">int</span> argc, <span class="keywordtype">char</span>* argv[] )</div>
+<div class="line"><span class="keywordtype">int</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>( <span class="keywordtype">void</span> )</div>
 <div class="line">{</div>
 <div class="line">    <span class="keywordtype">int</span> rc = EXIT_FAILURE;</div>
 <div class="line"> </div>
-<div class="line">    <span class="comment">// error messages will be stored here</span></div>
-<div class="line">    <a class="code hl_typedefRef" href="./Cpp/MRMeshC_2MRMeshFwd_8h.html#a89b45a4728b7f2a3281d78d9164162fe">MRString</a>* errorString = NULL;</div>
+<div class="line">    <span class="comment">// First, create a unit sphere.</span></div>
+<div class="line">    <span class="keywordtype">float</span> radius = 1.f; <span class="comment">// Set radius for the test</span></div>
+<div class="line">    int32_t horizontalResolution = 64; <span class="comment">// Increase horizontal resolution</span></div>
+<div class="line">    int32_t verticalResolution = 64; <span class="comment">// Increase vertical resolution</span></div>
 <div class="line"> </div>
-<div class="line">    <span class="comment">// create first sphere with radius of 1 unit</span></div>
-<div class="line">    <a class="code hl_structRef" href="./Cpp/structMRMakeUVSphereParameters.html">MRMakeUVSphereParameters</a> makeParams = <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MRMakeSphereMesh_8h.html#aa5376c56e30df5e92308fc374ce57228">mrMakeUvSphereParametersNew</a>();</div>
-<div class="line">    makeParams.<a class="code hl_variableRef" href="./Cpp/structMRMakeUVSphereParameters.html#aedc7390bb236cdc9cf5301bbe25ece8e">radius</a> = 1.f;</div>
-<div class="line">    makeParams.<a class="code hl_variableRef" href="./Cpp/structMRMakeUVSphereParameters.html#ad8c1e08a0f485ea2145d4e2125289750">horizontalResolution</a> = 64;</div>
-<div class="line">    makeParams.<a class="code hl_variableRef" href="./Cpp/structMRMakeUVSphereParameters.html#af470017e8fbca8a02433a21aea67d8c1">verticalResolution</a> = 64;</div>
-<div class="line">    <a class="code hl_typedefRef" href="./Cpp/MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a>* sphere1 = <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MRMakeSphereMesh_8h.html#aff3a5d40e4c9735457f46bb94fd6fefa">mrMakeUVSphere</a>( &amp;makeParams );</div>
+<div class="line">    MR_Mesh* sphere1 = MR_makeUVSphere( &amp;radius, &amp;horizontalResolution, &amp;verticalResolution );</div>
 <div class="line"> </div>
-<div class="line">    <span class="comment">// create second sphere by cloning the first sphere and moving it in X direction</span></div>
-<div class="line">    <a class="code hl_typedefRef" href="./Cpp/MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a>* sphere2 = <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MRMesh_8h.html#ada39c7dfb3c3d6beb27986f974e4c4e1">mrMeshCopy</a>( sphere1 );</div>
-<div class="line">    <a class="code hl_structRef" href="./Cpp/structMRVector3f.html">MRVector3f</a> xfTranslation = <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MRVector3_8h.html#a1249240b3dcb10a7610731a0823dff7f">mrVector3fDiagonal</a>( 0.f );</div>
-<div class="line">    xfTranslation.<a class="code hl_variableRef" href="./Cpp/structMRVector3f.html#a5c5342e25c41c46694167c41774234bd">x</a> = 0.7f;</div>
-<div class="line">    <a class="code hl_structRef" href="./Cpp/structMRAffineXf3f.html">MRAffineXf3f</a> xf = <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MRAffineXf_8h.html#a36b023b84b7dc8b710576376dd40971b">mrAffineXf3fTranslation</a>( &amp;xfTranslation );</div>
-<div class="line">    <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MRMesh_8h.html#ab817f01631ab1235393478f3e2f18cbb">mrMeshTransform</a>( sphere2, &amp;xf, NULL );</div>
+<div class="line">    <span class="comment">// Create a copy of this sphere and offset it.</span></div>
+<div class="line">    MR_Mesh* sphere2 = MR_Mesh_ConstructFromAnother( MR_PassBy_Copy, sphere1 );</div>
+<div class="line">    MR_Vector3f xfTranslation = {.x = 0.7f};</div>
+<div class="line">    MR_AffineXf3f xf = MR_AffineXf3f_translation( &amp;xfTranslation );</div>
+<div class="line">    MR_Mesh_transform( sphere2, &amp;xf, NULL );</div>
 <div class="line"> </div>
-<div class="line">    <span class="comment">// perform the boolean operation</span></div>
-<div class="line">    <a class="code hl_structRef" href="./Cpp/structMRBooleanParameters.html">MRBooleanParameters</a> params = <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MRMeshBoolean_8h.html#a0ae14a8082684553cf1e53fb60437e75">mrBooleanParametersNew</a>();</div>
-<div class="line">    <a class="code hl_structRef" href="./Cpp/structMRBooleanResult.html">MRBooleanResult</a> result = <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MRMeshBoolean_8h.html#a34bb9172acddff9e00b20578f75d592c">mrBoolean</a>( sphere1, sphere2, MRBooleanOperationIntersection, &amp;params );</div>
-<div class="line">    <span class="keywordflow">if</span> ( result.<a class="code hl_variableRef" href="./Cpp/structMRBooleanResult.html#a096f8590e0be80474811d8100e7cb9a7">errorString</a> )</div>
+<div class="line">    <span class="comment">// Perform the boolean operation.</span></div>
+<div class="line">    MR_BooleanResult* result = MR_boolean_4_const_MR_Mesh_ref( sphere1, sphere2, MR_BooleanOperation_Intersection, NULL );</div>
+<div class="line">    <span class="keywordflow">if</span> ( !MR_BooleanResult_valid( result ) )</div>
 <div class="line">    {</div>
-<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to perform boolean: %s&quot;</span>, <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MRString_8h.html#a76ec6c7635ff332a9e166e4e5d3ba3c6">mrStringData</a>( result.<a class="code hl_variableRef" href="./Cpp/structMRBooleanResult.html#a096f8590e0be80474811d8100e7cb9a7">errorString</a> ) );</div>
-<div class="line">        <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MRString_8h.html#a6c06174923fa27502a2633fd5791047d">mrStringFree</a>( errorString );</div>
-<div class="line">        <span class="keywordflow">goto</span> out;</div>
+<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to perform boolean: %s\n&quot;</span>, MR_std_string_Data( MR_BooleanResult_Get_errorString( result ) ) );</div>
+<div class="line">        <span class="keywordflow">goto</span> fail;</div>
 <div class="line">    }</div>
 <div class="line"> </div>
-<div class="line">    <span class="comment">// save result to STL file</span></div>
-<div class="line">    <a class="code hl_structRef" href="./Cpp/structMRSaveSettings.html">MRSaveSettings</a> saveSettings = <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MRSaveSettings_8h.html#a756130ec0ffb3b0c1dde997339d1d39e">mrSaveSettingsNew</a>();</div>
-<div class="line">    <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MRMeshSave_8h.html#a71b21c5fc445077f0a812d5b3991dd0b">mrMeshSaveToAnySupportedFormat</a>( result.<a class="code hl_variableRef" href="./Cpp/structMRBooleanResult.html#af66d647101fbc678dd856c52b5b77418">mesh</a>, <span class="stringliteral">&quot;out_boolean.stl&quot;</span>, &amp;saveSettings, &amp;errorString );</div>
-<div class="line">    <span class="keywordflow">if</span> ( errorString )</div>
+<div class="line">    <span class="comment">// Save result to an STL file.</span></div>
+<div class="line">    MR_expected_void_std_string* saveEx = MR_MeshSave_toAnySupportedFormat_3( MR_BooleanResult_Get_mesh( result ), <span class="stringliteral">&quot;out_boolean.stl&quot;</span>, NULL, NULL);</div>
+<div class="line">    <span class="keywordflow">if</span> ( MR_expected_void_std_string_GetError( saveEx ) )</div>
 <div class="line">    {</div>
-<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to save result: %s&quot;</span>, <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MRString_8h.html#a76ec6c7635ff332a9e166e4e5d3ba3c6">mrStringData</a>( errorString ) );</div>
-<div class="line">        <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MRString_8h.html#a6c06174923fa27502a2633fd5791047d">mrStringFree</a>( errorString );</div>
-<div class="line">        <span class="keywordflow">goto</span> out_result;</div>
+<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to save mesh: %s\n&quot;</span>, MR_std_string_Data( MR_expected_void_std_string_GetError( saveEx ) ) );</div>
+<div class="line">        <span class="keywordflow">goto</span> fail;</div>
 <div class="line">    }</div>
 <div class="line"> </div>
 <div class="line">    rc = EXIT_SUCCESS;</div>
-<div class="line">out_result:</div>
-<div class="line">    <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MRMesh_8h.html#ae5d22b5eec3af73293e031ea6346310d">mrMeshFree</a>( result.<a class="code hl_variableRef" href="./Cpp/structMRBooleanResult.html#af66d647101fbc678dd856c52b5b77418">mesh</a> );</div>
-<div class="line">out:</div>
-<div class="line">    <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MRMesh_8h.html#ae5d22b5eec3af73293e031ea6346310d">mrMeshFree</a>( sphere2 );</div>
-<div class="line">    <a class="code hl_functionRef" href="./Cpp/MRMeshC_2MRMesh_8h.html#ae5d22b5eec3af73293e031ea6346310d">mrMeshFree</a>( sphere1 );</div>
+<div class="line">fail:</div>
+<div class="line">    MR_BooleanResult_Destroy( result );</div>
+<div class="line">    MR_Mesh_Destroy( sphere2 );</div>
+<div class="line">    MR_Mesh_Destroy( sphere1 );</div>
 <div class="line">    <span class="keywordflow">return</span> rc;</div>
 <div class="line">}</div>
-<div class="ttc" id="aMRMeshC_2MRAffineXf_8h_html_a36b023b84b7dc8b710576376dd40971b"><div class="ttname"><a href="./Cpp/MRMeshC_2MRAffineXf_8h.html#a36b023b84b7dc8b710576376dd40971b">mrAffineXf3fTranslation</a></div><div class="ttdeci">MRMESHC_API MRAffineXf3f mrAffineXf3fTranslation(const MRVector3f *b)</div></div>
-<div class="ttc" id="aMRMeshC_2MRMakeSphereMesh_8h_html_aa5376c56e30df5e92308fc374ce57228"><div class="ttname"><a href="./Cpp/MRMeshC_2MRMakeSphereMesh_8h.html#aa5376c56e30df5e92308fc374ce57228">mrMakeUvSphereParametersNew</a></div><div class="ttdeci">MRMESHC_API MRMakeUVSphereParameters mrMakeUvSphereParametersNew(void)</div></div>
-<div class="ttc" id="aMRMeshC_2MRMakeSphereMesh_8h_html_aff3a5d40e4c9735457f46bb94fd6fefa"><div class="ttname"><a href="./Cpp/MRMeshC_2MRMakeSphereMesh_8h.html#aff3a5d40e4c9735457f46bb94fd6fefa">mrMakeUVSphere</a></div><div class="ttdeci">MRMESHC_API MRMesh * mrMakeUVSphere(const MRMakeUVSphereParameters *params)</div></div>
-<div class="ttc" id="aMRMeshC_2MRMeshBoolean_8h_html_a0ae14a8082684553cf1e53fb60437e75"><div class="ttname"><a href="./Cpp/MRMeshC_2MRMeshBoolean_8h.html#a0ae14a8082684553cf1e53fb60437e75">mrBooleanParametersNew</a></div><div class="ttdeci">MRMESHC_API MRBooleanParameters mrBooleanParametersNew(void)</div></div>
-<div class="ttc" id="aMRMeshC_2MRMeshBoolean_8h_html_a34bb9172acddff9e00b20578f75d592c"><div class="ttname"><a href="./Cpp/MRMeshC_2MRMeshBoolean_8h.html#a34bb9172acddff9e00b20578f75d592c">mrBoolean</a></div><div class="ttdeci">MRMESHC_API MRBooleanResult mrBoolean(const MRMesh *meshA, const MRMesh *meshB, MRBooleanOperation operation, const MRBooleanParameters *params)</div></div>
-<div class="ttc" id="aMRMeshC_2MRMeshFwd_8h_html_a7b372c6d0fd65239f731902623e752c5"><div class="ttname"><a href="./Cpp/MRMeshC_2MRMeshFwd_8h.html#a7b372c6d0fd65239f731902623e752c5">MRMesh</a></div><div class="ttdeci">struct MRMesh MRMesh</div></div>
-<div class="ttc" id="aMRMeshC_2MRMeshFwd_8h_html_a89b45a4728b7f2a3281d78d9164162fe"><div class="ttname"><a href="./Cpp/MRMeshC_2MRMeshFwd_8h.html#a89b45a4728b7f2a3281d78d9164162fe">MRString</a></div><div class="ttdeci">typedefMR_EXTERN_C_BEGIN struct MRString MRString</div></div>
-<div class="ttc" id="aMRMeshC_2MRMeshSave_8h_html_a71b21c5fc445077f0a812d5b3991dd0b"><div class="ttname"><a href="./Cpp/MRMeshC_2MRMeshSave_8h.html#a71b21c5fc445077f0a812d5b3991dd0b">mrMeshSaveToAnySupportedFormat</a></div><div class="ttdeci">MR_EXTERN_C_BEGIN MRMESHC_API void mrMeshSaveToAnySupportedFormat(const MRMesh *mesh, const char *file, const MRSaveSettings *settings, MRString **errorStr)</div></div>
-<div class="ttc" id="aMRMeshC_2MRMesh_8h_html_ab817f01631ab1235393478f3e2f18cbb"><div class="ttname"><a href="./Cpp/MRMeshC_2MRMesh_8h.html#ab817f01631ab1235393478f3e2f18cbb">mrMeshTransform</a></div><div class="ttdeci">MRMESHC_API void mrMeshTransform(MRMesh *mesh, const MRAffineXf3f *xf, const MRVertBitSet *region)</div></div>
-<div class="ttc" id="aMRMeshC_2MRMesh_8h_html_ada39c7dfb3c3d6beb27986f974e4c4e1"><div class="ttname"><a href="./Cpp/MRMeshC_2MRMesh_8h.html#ada39c7dfb3c3d6beb27986f974e4c4e1">mrMeshCopy</a></div><div class="ttdeci">MR_EXTERN_C_BEGIN MRMESHC_API MRMesh * mrMeshCopy(const MRMesh *mesh)</div></div>
-<div class="ttc" id="aMRMeshC_2MRMesh_8h_html_ae5d22b5eec3af73293e031ea6346310d"><div class="ttname"><a href="./Cpp/MRMeshC_2MRMesh_8h.html#ae5d22b5eec3af73293e031ea6346310d">mrMeshFree</a></div><div class="ttdeci">MRMESHC_API void mrMeshFree(MRMesh *mesh)</div></div>
-<div class="ttc" id="aMRMeshC_2MRSaveSettings_8h_html_a756130ec0ffb3b0c1dde997339d1d39e"><div class="ttname"><a href="./Cpp/MRMeshC_2MRSaveSettings_8h.html#a756130ec0ffb3b0c1dde997339d1d39e">mrSaveSettingsNew</a></div><div class="ttdeci">MRMESHC_API MRSaveSettings mrSaveSettingsNew(void)</div></div>
-<div class="ttc" id="aMRMeshC_2MRString_8h_html_a6c06174923fa27502a2633fd5791047d"><div class="ttname"><a href="./Cpp/MRMeshC_2MRString_8h.html#a6c06174923fa27502a2633fd5791047d">mrStringFree</a></div><div class="ttdeci">MRMESHC_API void mrStringFree(MRString *str)</div></div>
-<div class="ttc" id="aMRMeshC_2MRString_8h_html_a76ec6c7635ff332a9e166e4e5d3ba3c6"><div class="ttname"><a href="./Cpp/MRMeshC_2MRString_8h.html#a76ec6c7635ff332a9e166e4e5d3ba3c6">mrStringData</a></div><div class="ttdeci">MR_EXTERN_C_BEGIN MRMESHC_API const char * mrStringData(const MRString *str)</div></div>
-<div class="ttc" id="aMRMeshC_2MRVector3_8h_html_a1249240b3dcb10a7610731a0823dff7f"><div class="ttname"><a href="./Cpp/MRMeshC_2MRVector3_8h.html#a1249240b3dcb10a7610731a0823dff7f">mrVector3fDiagonal</a></div><div class="ttdeci">MRMESHC_API MRVector3f mrVector3fDiagonal(float a)</div></div>
-<div class="ttc" id="astructMRAffineXf3f_html"><div class="ttname"><a href="./Cpp/structMRAffineXf3f.html">MRAffineXf3f</a></div></div>
-<div class="ttc" id="astructMRBooleanParameters_html"><div class="ttname"><a href="./Cpp/structMRBooleanParameters.html">MRBooleanParameters</a></div></div>
-<div class="ttc" id="astructMRBooleanResult_html"><div class="ttname"><a href="./Cpp/structMRBooleanResult.html">MRBooleanResult</a></div></div>
-<div class="ttc" id="astructMRBooleanResult_html_a096f8590e0be80474811d8100e7cb9a7"><div class="ttname"><a href="./Cpp/structMRBooleanResult.html#a096f8590e0be80474811d8100e7cb9a7">MRBooleanResult::errorString</a></div><div class="ttdeci">MRString * errorString</div></div>
-<div class="ttc" id="astructMRBooleanResult_html_af66d647101fbc678dd856c52b5b77418"><div class="ttname"><a href="./Cpp/structMRBooleanResult.html#af66d647101fbc678dd856c52b5b77418">MRBooleanResult::mesh</a></div><div class="ttdeci">MRMesh * mesh</div></div>
-<div class="ttc" id="astructMRMakeUVSphereParameters_html"><div class="ttname"><a href="./Cpp/structMRMakeUVSphereParameters.html">MRMakeUVSphereParameters</a></div></div>
-<div class="ttc" id="astructMRMakeUVSphereParameters_html_ad8c1e08a0f485ea2145d4e2125289750"><div class="ttname"><a href="./Cpp/structMRMakeUVSphereParameters.html#ad8c1e08a0f485ea2145d4e2125289750">MRMakeUVSphereParameters::horizontalResolution</a></div><div class="ttdeci">int horizontalResolution</div></div>
-<div class="ttc" id="astructMRMakeUVSphereParameters_html_aedc7390bb236cdc9cf5301bbe25ece8e"><div class="ttname"><a href="./Cpp/structMRMakeUVSphereParameters.html#aedc7390bb236cdc9cf5301bbe25ece8e">MRMakeUVSphereParameters::radius</a></div><div class="ttdeci">float radius</div></div>
-<div class="ttc" id="astructMRMakeUVSphereParameters_html_af470017e8fbca8a02433a21aea67d8c1"><div class="ttname"><a href="./Cpp/structMRMakeUVSphereParameters.html#af470017e8fbca8a02433a21aea67d8c1">MRMakeUVSphereParameters::verticalResolution</a></div><div class="ttdeci">int verticalResolution</div></div>
-<div class="ttc" id="astructMRSaveSettings_html"><div class="ttname"><a href="./Cpp/structMRSaveSettings.html">MRSaveSettings</a></div></div>
-<div class="ttc" id="astructMRVector3f_html"><div class="ttname"><a href="./Cpp/structMRVector3f.html">MRVector3f</a></div></div>
-<div class="ttc" id="astructMRVector3f_html_a5c5342e25c41c46694167c41774234bd"><div class="ttname"><a href="./Cpp/structMRVector3f.html#a5c5342e25c41c46694167c41774234bd">MRVector3f::x</a></div><div class="ttdeci">float x</div></div>
 </div><!-- fragment --> Source meshes <div class="image">
 <img src="boolean_before.png" alt=""/>
 </div>

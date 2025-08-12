@@ -22,6 +22,7 @@ var MRVisualObject_8h =
       [ "DIRTY_BORDER_LINES", "MRVisualObject_8h.html#gga03255e831f4895337e7cf27d64e51269a4d37651692aaecc731860a4e8c4df169", null ],
       [ "DIRTY_EDGES_SELECTION", "MRVisualObject_8h.html#gga03255e831f4895337e7cf27d64e51269a38d6a5c484bf483e7d19d0e88b575a5f", null ],
       [ "DIRTY_CACHES", "MRVisualObject_8h.html#gga03255e831f4895337e7cf27d64e51269a7930beec8f8d317d708811012219855a", null ],
+      [ "DIRTY_VOLUME", "MRVisualObject_8h.html#gga03255e831f4895337e7cf27d64e51269a6c7eea869dc164adaaa93aa744a519f2", null ],
       [ "DIRTY_ALL", "MRVisualObject_8h.html#gga03255e831f4895337e7cf27d64e51269a5f0ff2832e18692b2704a662acfc6b2a", null ]
     ] ],
     [ "_count", "MRVisualObject_8h.html#a69c4cff6b9a1cd95c71fc56b8dd9a983", null ],

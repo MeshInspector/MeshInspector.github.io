@@ -28,6 +28,7 @@ var menudata={children:[
 {text:"Python",url:"MeshLibPythonSetupGuide.html"},
 {text:"C++",url:"MeshLibCppSetupGuide.html"},
 {text:"C#",url:"MeshLibCSharpSetupGuide.html"},
+{text:"C",url:"MeshLibCSetupGuide.html"},
 {text:"CMake",url:"MeshLibCmakeSetupGuide.html"}]},
 {text:"License",url:"License.html"},
 {text:"Tutorials",url:"Tutorials.html",children:[
@@ -58,7 +59,7 @@ var menudata={children:[
 {text:"Points to Mesh",url:"ExamplePointsToMesh.html"},
 {text:"Contour Triangulation",url:"ExampleContourTriangulation.html"},
 {text:"Terrain Triangulation",url:"ExampleTerrainTriangulation.html"},
-{text:"Fusion",url:"@ref ExampleFusion"},
+{text:"Fusion",url:"ExampleFusion.html"},
 {text:"Text to Mesh",url:"ExampleMeshFromText.html"}]},
 {text:"Python Specific Samples",url:"Examples.html#PythonSpecificExamples",children:[
 {text:"Viewer",url:"ExampleViewer.html"},
@@ -79,5 +80,6 @@ var menudata={children:[
 {text:"How to Add Plugin",url:"HowtoAddPluginOverview.html"}]},
 {text:"API",url:"APIPage.html",children:[
 {text:"C++",url:"Cpp/APICppPage.html"},
-{text:"Python",url:"Py/APIPyPage.html"}]},
-{text:"Thirdparty List",url:"ThirdParty.html"}]}
+{text:"Python",url:"Py/APIPyPage.html"},
+{text:"C",url:"C/APICPage.html"}]},
+{text:"Third-Party Dependencies",url:"ThirdParty.html"}]}
