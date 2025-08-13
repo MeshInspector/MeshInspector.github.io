@@ -146,19 +146,27 @@ $(function(){initNavTree('namespaceMR_1_1TPMS.html',''); initResizable(true); })
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">MR::TPMS Namespace Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1TPMS_1_1MeshParams.html">MeshParams</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1TPMS_1_1VolumeParams.html">VolumeParams</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
 <tr class="memitem:a7f52cff025a2d5a90a587e79b2d54fd6" id="r_a7f52cff025a2d5a90a587e79b2d54fd6"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f52cff025a2d5a90a587e79b2d54fd6">Type</a> : int { <br />
 &#160;&#160;<a class="el" href="#a7f52cff025a2d5a90a587e79b2d54fd6ac5a9b2c32efbe37da8a1e10009be8b77">SchwartzP</a>
-, <a class="el" href="#a7f52cff025a2d5a90a587e79b2d54fd6a176c45a898d7d2902128d73b789e3a1a">DoubleSchwartzP</a>
-, <a class="el" href="#a7f52cff025a2d5a90a587e79b2d54fd6a8286f0e22fe27ea039d6ad34bcca79f2">Gyroid</a>
+, <a class="el" href="#a7f52cff025a2d5a90a587e79b2d54fd6a33d268fa4f51c6af6e70dc55335e76aa">ThickSchwartzP</a>
 , <a class="el" href="#a7f52cff025a2d5a90a587e79b2d54fd6a5ac1f3e35d09d52b4e556936581cef44">DoubleGyroid</a>
+, <a class="el" href="#a7f52cff025a2d5a90a587e79b2d54fd6a9e3f153bc66d4e5028f2843a44894038">ThickGyroid</a>
 , <br />
 &#160;&#160;<a class="el" href="#a7f52cff025a2d5a90a587e79b2d54fd6ae93f994f01c537c4e2f7d8528c3eb5e9">Count</a>
 <br />
@@ -169,15 +177,22 @@ Enumerations</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a6a8e9579f3d57a625a6dc67812354b41" id="r_a6a8e9579f3d57a625a6dc67812354b41"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a8e9579f3d57a625a6dc67812354b41">getTypeNames</a> ()</td></tr>
+<tr class="memdesc:a6a8e9579f3d57a625a6dc67812354b41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the names for each type of filling.  <br /></td></tr>
 <tr class="separator:a6a8e9579f3d57a625a6dc67812354b41"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4afea78518d43b5e7e4a10af164039f9" id="r_a4afea78518d43b5e7e4a10af164039f9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> FunctionVolume&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4afea78518d43b5e7e4a10af164039f9">buildVolume</a> (<a class="el" href="#a7f52cff025a2d5a90a587e79b2d54fd6">Type</a> type, const Vector3f &amp;<a class="el" href="namespaceMR.html#a306ff1f62992b3eb33c446913b64188a">size</a>, float frequency, float resolution)</td></tr>
-<tr class="separator:a4afea78518d43b5e7e4a10af164039f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1cc6400872bb5bb0cfa19bc6ad6ff63a" id="r_a1cc6400872bb5bb0cfa19bc6ad6ff63a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1cc6400872bb5bb0cfa19bc6ad6ff63a">build</a> (<a class="el" href="#a7f52cff025a2d5a90a587e79b2d54fd6">Type</a> type, const Vector3f &amp;<a class="el" href="namespaceMR.html#a306ff1f62992b3eb33c446913b64188a">size</a>, float frequency, float resolution, float iso, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
-<tr class="memdesc:a1cc6400872bb5bb0cfa19bc6ad6ff63a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs <a class="el" href="namespaceMR_1_1TPMS.html">TPMS</a> level-set and then convert it to mesh.  <br /></td></tr>
-<tr class="separator:a1cc6400872bb5bb0cfa19bc6ad6ff63a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af47fb4311bccbc35779a4c9b23bb8baa" id="r_af47fb4311bccbc35779a4c9b23bb8baa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af47fb4311bccbc35779a4c9b23bb8baa">fill</a> (<a class="el" href="#a7f52cff025a2d5a90a587e79b2d54fd6">Type</a> type, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, float frequency, float resolution, float iso, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
-<tr class="memdesc:af47fb4311bccbc35779a4c9b23bb8baa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs TPMS-filling for the given <code>mesh</code>.  <br /></td></tr>
-<tr class="separator:af47fb4311bccbc35779a4c9b23bb8baa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a769123d5bf43df98ed26b671196d90f3" id="r_a769123d5bf43df98ed26b671196d90f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a769123d5bf43df98ed26b671196d90f3">getTypeTooltips</a> ()</td></tr>
+<tr class="memdesc:a769123d5bf43df98ed26b671196d90f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the tooltips for each type of filling.  <br /></td></tr>
+<tr class="separator:a769123d5bf43df98ed26b671196d90f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15aca9c35917148c496da989abd148c3" id="r_a15aca9c35917148c496da989abd148c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a15aca9c35917148c496da989abd148c3">isThick</a> (<a class="el" href="#a7f52cff025a2d5a90a587e79b2d54fd6">Type</a> type)</td></tr>
+<tr class="memdesc:a15aca9c35917148c496da989abd148c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the <code>type</code> is thick.  <br /></td></tr>
+<tr class="separator:a15aca9c35917148c496da989abd148c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7454f561468a973d0a9d0b81745749a0" id="r_a7454f561468a973d0a9d0b81745749a0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> FunctionVolume&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7454f561468a973d0a9d0b81745749a0">buildVolume</a> (const Vector3f &amp;<a class="el" href="namespaceMR.html#a306ff1f62992b3eb33c446913b64188a">size</a>, const <a class="el" href="structMR_1_1TPMS_1_1VolumeParams.html">VolumeParams</a> &amp;params)</td></tr>
+<tr class="separator:a7454f561468a973d0a9d0b81745749a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc7971ea0afe9b9e37474d65bc01675a" id="r_adc7971ea0afe9b9e37474d65bc01675a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc7971ea0afe9b9e37474d65bc01675a">build</a> (const Vector3f &amp;<a class="el" href="namespaceMR.html#a306ff1f62992b3eb33c446913b64188a">size</a>, const <a class="el" href="structMR_1_1TPMS_1_1MeshParams.html">MeshParams</a> &amp;params, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
+<tr class="memdesc:adc7971ea0afe9b9e37474d65bc01675a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs <a class="el" href="namespaceMR_1_1TPMS.html">TPMS</a> level-set and then convert it to mesh.  <br /></td></tr>
+<tr class="separator:adc7971ea0afe9b9e37474d65bc01675a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2e146fc15e42f8ef94e5242ed0661a5" id="r_ab2e146fc15e42f8ef94e5242ed0661a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab2e146fc15e42f8ef94e5242ed0661a5">fill</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1TPMS_1_1MeshParams.html">MeshParams</a> &amp;params, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> cb={})</td></tr>
+<tr class="memdesc:ab2e146fc15e42f8ef94e5242ed0661a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs TPMS-filling for the given <code>mesh</code>.  <br /></td></tr>
+<tr class="separator:ab2e146fc15e42f8ef94e5242ed0661a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a77521675bbf890f6d37fb6f4f756e5f6" id="r_a77521675bbf890f6d37fb6f4f756e5f6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77521675bbf890f6d37fb6f4f756e5f6">getNumberOfVoxels</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, float frequency, float resolution)</td></tr>
 <tr class="memdesc:a77521675bbf890f6d37fb6f4f756e5f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns number of voxels that would be used to perform fillWithTPMS.  <br /></td></tr>
 <tr class="separator:a77521675bbf890f6d37fb6f4f756e5f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -188,6 +203,9 @@ Functions</h2></td></tr>
 <tr class="separator:a70cd74b3671fb50d35daf4539f51f1c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a01135db1c1d19d595f32c0eaa33042ef" id="r_a01135db1c1d19d595f32c0eaa33042ef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01135db1c1d19d595f32c0eaa33042ef">estimateDensity</a> (<a class="el" href="#a7f52cff025a2d5a90a587e79b2d54fd6">Type</a> type, float targetIso)</td></tr>
 <tr class="separator:a01135db1c1d19d595f32c0eaa33042ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0304c6f2d04b68929e3346be55f0b954" id="r_a0304c6f2d04b68929e3346be55f0b954"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0304c6f2d04b68929e3346be55f0b954">getMinimalResolution</a> (<a class="el" href="#a7f52cff025a2d5a90a587e79b2d54fd6">Type</a> type, float iso)</td></tr>
+<tr class="memdesc:a0304c6f2d04b68929e3346be55f0b954"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns minimal reasonable resolution for given parameters.  <br /></td></tr>
+<tr class="separator:a0304c6f2d04b68929e3346be55f0b954"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
 <a id="a7f52cff025a2d5a90a587e79b2d54fd6" name="a7f52cff025a2d5a90a587e79b2d54fd6"></a>
@@ -213,17 +231,17 @@ Functions</h2></td></tr>
 <p>Supported types of <a class="el" href="namespaceMR_1_1TPMS.html">TPMS</a> (Triply Periodic Minimal Surfaces) </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a7f52cff025a2d5a90a587e79b2d54fd6ac5a9b2c32efbe37da8a1e10009be8b77" name="a7f52cff025a2d5a90a587e79b2d54fd6ac5a9b2c32efbe37da8a1e10009be8b77"></a>SchwartzP&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a7f52cff025a2d5a90a587e79b2d54fd6a176c45a898d7d2902128d73b789e3a1a" name="a7f52cff025a2d5a90a587e79b2d54fd6a176c45a898d7d2902128d73b789e3a1a"></a>DoubleSchwartzP&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a7f52cff025a2d5a90a587e79b2d54fd6a8286f0e22fe27ea039d6ad34bcca79f2" name="a7f52cff025a2d5a90a587e79b2d54fd6a8286f0e22fe27ea039d6ad34bcca79f2"></a>Gyroid&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7f52cff025a2d5a90a587e79b2d54fd6a33d268fa4f51c6af6e70dc55335e76aa" name="a7f52cff025a2d5a90a587e79b2d54fd6a33d268fa4f51c6af6e70dc55335e76aa"></a>ThickSchwartzP&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a7f52cff025a2d5a90a587e79b2d54fd6a5ac1f3e35d09d52b4e556936581cef44" name="a7f52cff025a2d5a90a587e79b2d54fd6a5ac1f3e35d09d52b4e556936581cef44"></a>DoubleGyroid&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7f52cff025a2d5a90a587e79b2d54fd6a9e3f153bc66d4e5028f2843a44894038" name="a7f52cff025a2d5a90a587e79b2d54fd6a9e3f153bc66d4e5028f2843a44894038"></a>ThickGyroid&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a7f52cff025a2d5a90a587e79b2d54fd6ae93f994f01c537c4e2f7d8528c3eb5e9" name="a7f52cff025a2d5a90a587e79b2d54fd6ae93f994f01c537c4e2f7d8528c3eb5e9"></a>Count&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a1cc6400872bb5bb0cfa19bc6ad6ff63a" name="a1cc6400872bb5bb0cfa19bc6ad6ff63a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1cc6400872bb5bb0cfa19bc6ad6ff63a">&#9670;&#160;</a></span>build()</h2>
+<a id="adc7971ea0afe9b9e37474d65bc01675a" name="adc7971ea0afe9b9e37474d65bc01675a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc7971ea0afe9b9e37474d65bc01675a">&#9670;&#160;</a></span>build()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -231,27 +249,12 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt; MR::TPMS::build </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#a7f52cff025a2d5a90a587e79b2d54fd6">Type</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype">const Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>size</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>frequency</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>resolution</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>iso</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1TPMS_1_1MeshParams.html">MeshParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -265,8 +268,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a4afea78518d43b5e7e4a10af164039f9" name="a4afea78518d43b5e7e4a10af164039f9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4afea78518d43b5e7e4a10af164039f9">&#9670;&#160;</a></span>buildVolume()</h2>
+<a id="a7454f561468a973d0a9d0b81745749a0" name="a7454f561468a973d0a9d0b81745749a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7454f561468a973d0a9d0b81745749a0">&#9670;&#160;</a></span>buildVolume()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -274,31 +277,18 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> FunctionVolume MR::TPMS::buildVolume </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#a7f52cff025a2d5a90a587e79b2d54fd6">Type</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype">const Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>size</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>frequency</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>resolution</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1TPMS_1_1VolumeParams.html">VolumeParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <p>Construct <a class="el" href="namespaceMR_1_1TPMS.html">TPMS</a> using implicit function (<a href="https://www.researchgate.net/publication/350658078_Computational_method_and_program_for_generating_a_porous_scaffold_based_on_implicit_surfaces">https://www.researchgate.net/publication/350658078_Computational_method_and_program_for_generating_a_porous_scaffold_based_on_implicit_surfaces</a>) </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">type</td><td>Type of the surface </td></tr>
     <tr><td class="paramname">size</td><td>Size of the cube with the surface </td></tr>
-    <tr><td class="paramname">frequency</td><td>Frequency of oscillations (determines size of the "cells" in the "grid") </td></tr>
-    <tr><td class="paramname">resolution</td><td>Ratio <code>n / T</code>, between the number of voxels and period of oscillations </td></tr>
   </table>
   </dd>
 </dl>
@@ -362,8 +352,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="af47fb4311bccbc35779a4c9b23bb8baa" name="af47fb4311bccbc35779a4c9b23bb8baa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af47fb4311bccbc35779a4c9b23bb8baa">&#9670;&#160;</a></span>fill()</h2>
+<a id="ab2e146fc15e42f8ef94e5242ed0661a5" name="ab2e146fc15e42f8ef94e5242ed0661a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2e146fc15e42f8ef94e5242ed0661a5">&#9670;&#160;</a></span>fill()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -371,27 +361,12 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt; MR::TPMS::fill </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#a7f52cff025a2d5a90a587e79b2d54fd6">Type</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>frequency</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>resolution</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>iso</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1TPMS_1_1MeshParams.html">MeshParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -402,6 +377,29 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Constructs TPMS-filling for the given <code>mesh</code>. </p>
+
+</div>
+</div>
+<a id="a0304c6f2d04b68929e3346be55f0b954" name="a0304c6f2d04b68929e3346be55f0b954"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0304c6f2d04b68929e3346be55f0b954">&#9670;&#160;</a></span>getMinimalResolution()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> float MR::TPMS::getMinimalResolution </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a7f52cff025a2d5a90a587e79b2d54fd6">Type</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>iso</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns minimal reasonable resolution for given parameters. </p>
 
 </div>
 </div>
@@ -475,6 +473,46 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Returns the names for each type of filling. </p>
+
+</div>
+</div>
+<a id="a769123d5bf43df98ed26b671196d90f3" name="a769123d5bf43df98ed26b671196d90f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a769123d5bf43df98ed26b671196d90f3">&#9670;&#160;</a></span>getTypeTooltips()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> std::vector&lt; std::string &gt; MR::TPMS::getTypeTooltips </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the tooltips for each type of filling. </p>
+
+</div>
+</div>
+<a id="a15aca9c35917148c496da989abd148c3" name="a15aca9c35917148c496da989abd148c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15aca9c35917148c496da989abd148c3">&#9670;&#160;</a></span>isThick()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> bool MR::TPMS::isThick </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a7f52cff025a2d5a90a587e79b2d54fd6">Type</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns true if the <code>type</code> is thick. </p>
 
 </div>
 </div>

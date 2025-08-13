@@ -1,5 +1,11 @@
 var NAVTREEINDEX67 =
 {
+"structMRFixMeshDegeneraciesParams.html#aa6266c86363ad791c003dd8682501fe7":[6,0,2,0,21,4],
+"structMRFixMeshDegeneraciesParams.html#aab8419165d77fece4440efdd74f09b37":[6,0,2,0,21,1],
+"structMRFixMeshDegeneraciesParams.html#af09e4d46078be1c8804457082d26decc":[6,0,2,0,21,0],
+"structMRFixSelfIntersectionsSettings.html":[6,0,2,0,22],
+"structMRFixSelfIntersectionsSettings.html#a10d079012643bec4ff262ed7a0fb0e51":[6,0,2,0,22,2],
+"structMRFixSelfIntersectionsSettings.html#a3759204dcbe62c85df4b2ed358d868c2":[6,0,2,0,22,1],
 "structMRFixSelfIntersectionsSettings.html#a5f96d7bc0610d893310cc07949f55640":[6,0,2,0,22,4],
 "structMRFixSelfIntersectionsSettings.html#a72aaf76d217fda806ced95a09344bcd1":[6,0,2,0,22,3],
 "structMRFixSelfIntersectionsSettings.html#a9eabd5534d3638bdf13a009200ffe2eb":[6,0,2,0,22,5],
@@ -243,11 +249,5 @@ var NAVTREEINDEX67 =
 "structMRVdbVolume.html#acaaf03df5a446178a6ea460c9a6a725d":[6,0,2,0,69,2],
 "structMRVdbVolume.html#adf293267a1855743bf3dcdae13763c5f":[6,0,2,0,69,1],
 "structMRVector3f.html":[6,0,2,0,70],
-"structMRVector3f.html#a1260be6a768a144d8d0ef0a3dac3dd4a":[6,0,2,0,70,1],
-"structMRVector3f.html#a5c5342e25c41c46694167c41774234bd":[6,0,2,0,70,0],
-"structMRVector3f.html#a9fbd6e9840c8d988a628ec3519c05a0c":[6,0,2,0,70,2],
-"structMRVector3i.html":[6,0,2,0,71],
-"structMRVector3i.html#a4ea0c126c47204db82499a13ec248f4b":[6,0,2,0,71,2],
-"structMRVector3i.html#ab1a14f9aeee6b3d84ca6c4853100e6fd":[6,0,2,0,71,1],
-"structMRVector3i.html#acdce7eca65ea16ba75e1cecba23ebb60":[6,0,2,0,71,0]
+"structMRVector3f.html#a1260be6a768a144d8d0ef0a3dac3dd4a":[6,0,2,0,70,1]
 };

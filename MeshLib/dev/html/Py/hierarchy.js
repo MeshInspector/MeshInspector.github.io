@@ -1364,6 +1364,9 @@ var hierarchy =
     [ "mrmeshpy.ViewportProperty_XfBasedCache_Box3f", "classmrmeshpy_1_1ViewportProperty__XfBasedCache__Box3f.html", null ],
     [ "mrmeshpy.VisualizeMaskType", "classmrmeshpy_1_1VisualizeMaskType.html", null ],
     [ "mrmeshpy.VolumeIndexer", "classmrmeshpy_1_1VolumeIndexer.html", null ],
+    [ "mrmeshpy.TPMS.VolumeParams", "classmrmeshpy_1_1TPMS_1_1VolumeParams.html", [
+      [ "mrmeshpy.TPMS.MeshParams", "classmrmeshpy_1_1TPMS_1_1MeshParams.html", null ]
+    ] ],
     [ "mrmeshpy.ObjectVoxels.VolumeRenderingParams", "classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams.html", null ],
     [ "mrmeshpy.VolumeSegmentationParameters", "classmrmeshpy_1_1VolumeSegmentationParameters.html", null ],
     [ "mrmeshpy.VolumeSegmenter", "classmrmeshpy_1_1VolumeSegmenter.html", null ],

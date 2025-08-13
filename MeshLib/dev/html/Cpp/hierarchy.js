@@ -153,6 +153,8 @@ var hierarchy =
     [ "MR::BooleanInternalParameters", "structMR_1_1BooleanInternalParameters.html", null ],
     [ "MR::BooleanParameters", "structMR_1_1BooleanParameters.html", null ],
     [ "MR::BooleanPreCutResult", "structMR_1_1BooleanPreCutResult.html", null ],
+    [ "MR::BooleanResult", "structMR_1_1BooleanResult.html", null ],
+    [ "MR::BooleanResultMapper", "structMR_1_1BooleanResultMapper.html", null ],
     [ "MR::BooleanResultPoints", "structMR_1_1BooleanResultPoints.html", null ],
     [ "MR::BoundarySelectionWidget::BoundarySelectionWidgetParams", "structMR_1_1BoundarySelectionWidget_1_1BoundarySelectionWidgetParams.html", null ],
     [ "MR::UI::TestEngine::detail::BoundedValue< T >", "structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html", null ],
@@ -278,8 +280,14 @@ var hierarchy =
     [ "MR::ImGuiMeasurementIndicators::CurveParams", "structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html", null ],
     [ "MR::CustomButtonParameters", "structMR_1_1CustomButtonParameters.html", null ],
     [ "ImGui::CustomStatePluginWindowParameters", "structImGui_1_1CustomStatePluginWindowParameters.html", null ],
+    [ "MR::CutMeshParameters", "structMR_1_1CutMeshParameters.html", null ],
+    [ "MR::CutMeshResult", "structMR_1_1CutMeshResult.html", null ],
     [ "MR::Cylinder3< T >", "classMR_1_1Cylinder3.html", null ],
     [ "MR::Cylinder3Approximation< T >", "classMR_1_1Cylinder3Approximation.html", null ],
+    [ "MR::DecimatePolylineResult", "structMR_1_1DecimatePolylineResult.html", null ],
+    [ "MR::DecimatePolylineSettings< V >", "structMR_1_1DecimatePolylineSettings.html", null ],
+    [ "MR::DecimateResult", "structMR_1_1DecimateResult.html", null ],
+    [ "MR::DecimateSettings", "structMR_1_1DecimateSettings.html", null ],
     [ "MR::DeloneSettings", "structMR_1_1DeloneSettings.html", null ],
     [ "MR::DenoiseViaNormalsSettings", "structMR_1_1DenoiseViaNormalsSettings.html", null ],
     [ "MR::DenseBox", "structMR_1_1DenseBox.html", null ],
@@ -362,7 +370,9 @@ var hierarchy =
       [ "MR::FileDialog::Parameters", "structMR_1_1FileDialog_1_1Parameters.html", null ]
     ] ],
     [ "MR::FillHoleItem", "structMR_1_1FillHoleItem.html", null ],
+    [ "MR::FillHoleMetric", "structMR_1_1FillHoleMetric.html", null ],
     [ "MR::FillHoleNicelySettings", "structMR_1_1FillHoleNicelySettings.html", null ],
+    [ "MR::FillHoleParams", "structMR_1_1FillHoleParams.html", null ],
     [ "MR::FindDisorientationParams", "structMR_1_1FindDisorientationParams.html", null ],
     [ "MR::UI::RectAllocator::FindFreeRectResult", "structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html", null ],
     [ "MR::FindInnerShellSettings", "structMR_1_1FindInnerShellSettings.html", null ],
@@ -730,6 +740,7 @@ var hierarchy =
     [ "MR::Features::MeasureResult", "structMR_1_1Features_1_1MeasureResult.html", null ],
     [ "MR::MenuItemCaptionSize", "structMR_1_1MenuItemCaptionSize.html", null ],
     [ "MR::MenuItemInfo", "structMR_1_1MenuItemInfo.html", null ],
+    [ "MR::MergeVolumePartSettings", "structMR_1_1MergeVolumePartSettings.html", null ],
     [ "MR::Mesh", "structMR_1_1Mesh.html", null ],
     [ "MR::MeshAttributes", "structMR_1_1MeshAttributes.html", null ],
     [ "MR::MeshAttributesToUpdate", "structMR_1_1MeshAttributesToUpdate.html", null ],
@@ -1183,6 +1194,7 @@ var hierarchy =
     [ "MR::SplineSettings", "structMR_1_1SplineSettings.html", null ],
     [ "MR::Src2TgtMaps", "classMR_1_1Src2TgtMaps.html", null ],
     [ "MR::MultiwayAligningTransform::Stabilizer", "structMR_1_1MultiwayAligningTransform_1_1Stabilizer.html", null ],
+    [ "MR::StitchHolesParams", "structMR_1_1StitchHolesParams.html", null ],
     [ "MR::StopOnTrueCombiner", "structMR_1_1StopOnTrueCombiner.html", null ],
     [ "std::streambuf", null, [
       [ "MR::LoggingStreambuf", "classMR_1_1LoggingStreambuf.html", null ]
@@ -1371,9 +1383,13 @@ var hierarchy =
     [ "MR::VisualObjectTagManager", "classMR_1_1VisualObjectTagManager.html", null ],
     [ "MR::TransformControls::VisualParams", "structMR_1_1TransformControls_1_1VisualParams.html", null ],
     [ "MR::VolumeIndexer", "classMR_1_1VolumeIndexer.html", null ],
+    [ "MR::TPMS::VolumeParams", "structMR_1_1TPMS_1_1VolumeParams.html", [
+      [ "MR::TPMS::MeshParams", "structMR_1_1TPMS_1_1MeshParams.html", null ]
+    ] ],
     [ "MR::ObjectVoxels::VolumeRenderingParams", "structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html", null ],
     [ "MR::VolumeSegmentationParameters", "structMR_1_1VolumeSegmentationParameters.html", null ],
     [ "MR::VolumeSegmenter", "classMR_1_1VolumeSegmenter.html", null ],
+    [ "MR::VolumeToMeshByPartsSettings", "structMR_1_1VolumeToMeshByPartsSettings.html", null ],
     [ "MR::VoxelLocation", "structMR_1_1VoxelLocation.html", null ],
     [ "MR::VoxelMetricParameters", "structMR_1_1VoxelMetricParameters.html", null ],
     [ "MR::VoxelsVolume< T >", "structMR_1_1VoxelsVolume.html", [
