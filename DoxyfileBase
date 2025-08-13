@@ -24,3 +24,5 @@ MATHJAX_RELPATH        = https://cdn.jsdelivr.net/npm/mathjax@2
 GENERATE_LATEX         = NO
 HTML_HEADER            = html_header.html
 HTML_FOOTER            = html_footer.html
+# MR - need to fix https://meshlib.io/documentation/Cpp/namespaceMR.html 404
+EXCLUDE_SYMBOLS        = Json std MR

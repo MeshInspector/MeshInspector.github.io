@@ -10,6 +10,5 @@ INPUT                  = ../MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi \
                          ../MeshLib/doxygen/APIPyPage.dox
 FILE_PATTERNS          = *.pyi \
                          *.dox
-EXCLUDE_SYMBOLS        = Json
 FILTER_PATTERNS        = .pyi=preprocessors/python.sed
 HTML_OUTPUT            = html/Py

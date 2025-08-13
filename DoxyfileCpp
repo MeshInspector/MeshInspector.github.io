@@ -16,6 +16,5 @@ EXCLUDE_PATTERNS       = imgui* \
                          MRPch* \
                          exports.h \
                          resource.h
-EXCLUDE_SYMBOLS        = Json \
-                         std
+EXCLUDE_SYMBOLS        = Json std
 HTML_OUTPUT            = html/Cpp

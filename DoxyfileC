@@ -6,6 +6,4 @@ INPUT                  = ../MeshLib/Cbindings/ \
                          ../MeshLib/doxygen/APICPage.dox
 FILE_PATTERNS          = *.h \
                          *.dox
-EXCLUDE_SYMBOLS        = Json \
-                         std
 HTML_OUTPUT            = html/C
