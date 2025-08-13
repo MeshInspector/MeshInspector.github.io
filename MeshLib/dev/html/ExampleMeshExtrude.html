@@ -181,16 +181,16 @@ $(function(){initNavTree('ExampleMeshExtrude.html',''); initResizable(true); });
 <div class="line">    <a class="code hl_functionRef" href="./Cpp/namespaceMR.html#a22f39580f90cbdb1bd5c77bd7b922251">MR::makeDegenerateBandAroundRegion</a>( mesh, facesToExtrude );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Find vertices that will be moved</span></div>
-<div class="line">    <span class="keyword">auto</span> vertsForMove = <a class="code hl_functionRef" href="./Cpp/namespaceMR.html#a42bfb820a74ca491a32df3c3c86c8053">MR::getIncidentVerts</a>( mesh.<a class="code hl_variableRef" href="./Cpp/structMR_1_1Mesh.html#a91b13898794821d7f88845ebaa6cc1c4">topology</a>, facesToExtrude );</div>
+<div class="line">    <span class="keyword">auto</span> vertsForMove = <a class="code hl_functionRef" href="./Cpp/namespaceMR.html#a42bfb820a74ca491a32df3c3c86c8053">MR::getIncidentVerts</a>( mesh.topology, facesToExtrude );</div>
 <div class="line"> </div>
 <div class="line">    <a class="code hl_functionRef" href="./Cpp/group__BasicGroup.html#ga6f038e999890735ffdb5f8119eb5650e">MR::BitSetParallelFor</a>( vertsForMove, [&amp;] ( MR::VertId v )</div>
 <div class="line">    {</div>
 <div class="line">        <span class="comment">// Move each vertex</span></div>
-<div class="line">        mesh.<a class="code hl_variableRef" href="./Cpp/structMR_1_1Mesh.html#a9c8ead50efe2f8a111848b488f0a6aca">points</a>[v] += MR::Vector3f::plusZ();</div>
+<div class="line">        mesh.points[v] += MR::Vector3f::plusZ();</div>
 <div class="line">    } );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Invalidate internal caches after manual changing</span></div>
-<div class="line">    mesh.<a class="code hl_functionRef" href="./Cpp/structMR_1_1Mesh.html#ac4cfa4d1a1f01bbcf883f4e96079e505">invalidateCaches</a>();</div>
+<div class="line">    mesh.invalidateCaches();</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Save mesh</span></div>
 <div class="line">    <span class="keywordflow">if</span> ( <span class="keyword">auto</span> saveRes = <a class="code hl_functionRef" href="./Cpp/group__MeshSaveGroup.html#ga6f98b4f73676fa32a7e3573939cb76b9">MR::MeshSave::toAnySupportedFormat</a>( mesh, <span class="stringliteral">&quot;extrudedMesh.stl&quot;</span> ); !saveRes )</div>
@@ -207,9 +207,6 @@ $(function(){initNavTree('ExampleMeshExtrude.html',''); initResizable(true); });
 <div class="ttc" id="anamespaceMR_html_a22f39580f90cbdb1bd5c77bd7b922251"><div class="ttname"><a href="./Cpp/namespaceMR.html#a22f39580f90cbdb1bd5c77bd7b922251">MR::makeDegenerateBandAroundRegion</a></div><div class="ttdeci">MRMESH_API void makeDegenerateBandAroundRegion(Mesh &amp;mesh, const FaceBitSet &amp;region, const MakeDegenerateBandAroundRegionParams &amp;params={})</div></div>
 <div class="ttc" id="anamespaceMR_html_a42bfb820a74ca491a32df3c3c86c8053"><div class="ttname"><a href="./Cpp/namespaceMR.html#a42bfb820a74ca491a32df3c3c86c8053">MR::getIncidentVerts</a></div><div class="ttdeci">MRMESH_API VertBitSet getIncidentVerts(const MeshTopology &amp;topology, const FaceBitSet &amp;faces)</div></div>
 <div class="ttc" id="astructMR_1_1Mesh_html"><div class="ttname"><a href="./Cpp/structMR_1_1Mesh.html">MR::Mesh</a></div></div>
-<div class="ttc" id="astructMR_1_1Mesh_html_a91b13898794821d7f88845ebaa6cc1c4"><div class="ttname"><a href="./Cpp/structMR_1_1Mesh.html#a91b13898794821d7f88845ebaa6cc1c4">MR::Mesh::topology</a></div><div class="ttdeci">MeshTopology topology</div></div>
-<div class="ttc" id="astructMR_1_1Mesh_html_a9c8ead50efe2f8a111848b488f0a6aca"><div class="ttname"><a href="./Cpp/structMR_1_1Mesh.html#a9c8ead50efe2f8a111848b488f0a6aca">MR::Mesh::points</a></div><div class="ttdeci">VertCoords points</div></div>
-<div class="ttc" id="astructMR_1_1Mesh_html_ac4cfa4d1a1f01bbcf883f4e96079e505"><div class="ttname"><a href="./Cpp/structMR_1_1Mesh.html#ac4cfa4d1a1f01bbcf883f4e96079e505">MR::Mesh::invalidateCaches</a></div><div class="ttdeci">MRMESH_API void invalidateCaches(bool pointsChanged=true)</div></div>
 </div><!-- fragment --></li>
 <li><b class="tab-title">Python</b> <div class="fragment"><div class="line"><span class="keyword">import</span> meshlib.mrmeshpy <span class="keyword">as</span> mrmeshpy</div>
 <div class="line"> </div>

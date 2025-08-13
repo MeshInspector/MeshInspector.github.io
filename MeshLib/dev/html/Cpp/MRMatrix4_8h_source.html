@@ -154,7 +154,7 @@ $(function(){initNavTree('MRMatrix4_8h_source.html',''); initResizable(true); })
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;limits&gt;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;cassert&gt;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">namespace </span><a class="code hl_namespaceRef" href="../namespaceMR.html">MR</a></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>{</div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#ifdef _MSC_VER</span></div>
@@ -233,7 +233,7 @@ $(function(){initNavTree('MRMatrix4_8h_source.html',''); initResizable(true); })
 <div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span> </div>
 <div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>    <span class="keyword">template</span> &lt;MR_SAME_TYPE_TEMPLATE_PARAM(T, TT)&gt;</div>
 <div class="foldopen" id="foldopen00095" data-start="{" data-end="}">
-<div class="line"><a id="l00095" name="l00095"></a><span class="lineno"><a class="line" href="structMR_1_1Matrix4.html#a519d159e9aebbd2a58ed6b78ae96cb4f">   95</a></span>    <span class="keyword">operator</span> <a class="code hl_typedefRef" href="../namespaceMR.html#ac964d34e63e2bd23c8ab1e4cea68ae71">AffineXf3&lt;TT&gt;</a>() const <a class="code hl_define" href="MRMacros_8h.html#adb4b71f9ebce86e54868bd967010ebbb">MR_REQUIRES_IF_SUPPORTED</a>( std::floating_point&lt;T&gt; )</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno"><a class="line" href="structMR_1_1Matrix4.html#a519d159e9aebbd2a58ed6b78ae96cb4f">   95</a></span>    <span class="keyword">operator</span> <a class="code hl_typedef" href="namespaceMR.html#ac964d34e63e2bd23c8ab1e4cea68ae71">AffineXf3&lt;TT&gt;</a>() const <a class="code hl_define" href="MRMacros_8h.html#adb4b71f9ebce86e54868bd967010ebbb">MR_REQUIRES_IF_SUPPORTED</a>( std::floating_point&lt;T&gt; )</div>
 <div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>    {</div>
 <div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>        assert( std::abs( <a class="code hl_variable" href="structMR_1_1Matrix4.html#a9e0640aaf9b368a204fd42127c9e93e3">w</a>.x )     &lt; std::numeric_limits&lt;T&gt;::epsilon() * 1000 );</div>
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>        assert( std::abs( <a class="code hl_variable" href="structMR_1_1Matrix4.html#a9e0640aaf9b368a204fd42127c9e93e3">w</a>.y )     &lt; std::numeric_limits&lt;T&gt;::epsilon() * 1000 );</div>
@@ -539,8 +539,8 @@ $(function(){initNavTree('MRMatrix4_8h_source.html',''); initResizable(true); })
 <div class="line"><a id="l00393" name="l00393"></a><span class="lineno">  393</span>} <span class="comment">// namespace MR</span></div>
 <div class="ttc" id="aMRMacros_8h_html_adb4b71f9ebce86e54868bd967010ebbb"><div class="ttname"><a href="MRMacros_8h.html#adb4b71f9ebce86e54868bd967010ebbb">MR_REQUIRES_IF_SUPPORTED</a></div><div class="ttdeci">#define MR_REQUIRES_IF_SUPPORTED(...)</div><div class="ttdef"><b>Definition</b> MRMacros.h:31</div></div>
 <div class="ttc" id="aMRVector4_8h_html"><div class="ttname"><a href="MRVector4_8h.html">MRVector4.h</a></div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="../namespaceMR.html">MR</a></div></div>
-<div class="ttc" id="anamespaceMR_html_ac964d34e63e2bd23c8ab1e4cea68ae71"><div class="ttname"><a href="../namespaceMR.html#ac964d34e63e2bd23c8ab1e4cea68ae71">MR::AffineXf3</a></div><div class="ttdeci">AffineXf&lt; Vector3&lt; T &gt; &gt; AffineXf3</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:306</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="anamespaceMR_html_ac964d34e63e2bd23c8ab1e4cea68ae71"><div class="ttname"><a href="namespaceMR.html#ac964d34e63e2bd23c8ab1e4cea68ae71">MR::AffineXf3</a></div><div class="ttdeci">AffineXf&lt; Vector3&lt; T &gt; &gt; AffineXf3</div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshFwd.h:306</div></div>
 <div class="ttc" id="astructMR_1_1AffineXf_html"><div class="ttname"><a href="structMR_1_1AffineXf.html">MR::AffineXf</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRAffineXf.h:21</div></div>
 <div class="ttc" id="astructMR_1_1AffineXf_html_abc589d85e328480de8c5972558bd7b3c"><div class="ttname"><a href="structMR_1_1AffineXf.html#abc589d85e328480de8c5972558bd7b3c">MR::AffineXf::b</a></div><div class="ttdeci">V b</div><div class="ttdef"><b>Definition</b> MRMesh/MRAffineXf.h:26</div></div>
 <div class="ttc" id="astructMR_1_1AffineXf_html_ac50d0dfa0b11a916ac644165073713ca"><div class="ttname"><a href="structMR_1_1AffineXf.html#ac50d0dfa0b11a916ac644165073713ca">MR::AffineXf::A</a></div><div class="ttdeci">M A</div><div class="ttdef"><b>Definition</b> MRMesh/MRAffineXf.h:25</div></div>

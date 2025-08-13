@@ -173,16 +173,16 @@ $(function(){initNavTree('classMR_1_1IFastWindingNumber.html',''); initResizable
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aefefcab706e99f050565aa3492015547" id="r_aefefcab706e99f050565aa3492015547"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefefcab706e99f050565aa3492015547">~IFastWindingNumber</a> ()=default</td></tr>
 <tr class="separator:aefefcab706e99f050565aa3492015547"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a44bf69fbb5b7c37e5a0ff132a6137581" id="r_a44bf69fbb5b7c37e5a0ff132a6137581"><td class="memItemLeft" align="right" valign="top">virtual <a class="elRef" href="../namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44bf69fbb5b7c37e5a0ff132a6137581">calcFromVector</a> (std::vector&lt; float &gt; &amp;res, const std::vector&lt; Vector3f &gt; &amp;points, float beta, FaceId skipFace={}, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})=0</td></tr>
+<tr class="memitem:a44bf69fbb5b7c37e5a0ff132a6137581" id="r_a44bf69fbb5b7c37e5a0ff132a6137581"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44bf69fbb5b7c37e5a0ff132a6137581">calcFromVector</a> (std::vector&lt; float &gt; &amp;res, const std::vector&lt; Vector3f &gt; &amp;points, float beta, FaceId skipFace={}, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})=0</td></tr>
 <tr class="memdesc:a44bf69fbb5b7c37e5a0ff132a6137581"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates winding numbers in the points from given vector  <br /></td></tr>
 <tr class="separator:a44bf69fbb5b7c37e5a0ff132a6137581"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a9a27eb86c9d023a286bcf963c03cb3" id="r_a9a9a27eb86c9d023a286bcf963c03cb3"><td class="memItemLeft" align="right" valign="top">virtual <a class="elRef" href="../namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a9a27eb86c9d023a286bcf963c03cb3">calcSelfIntersections</a> (FaceBitSet &amp;res, float beta, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})=0</td></tr>
+<tr class="memitem:a9a9a27eb86c9d023a286bcf963c03cb3" id="r_a9a9a27eb86c9d023a286bcf963c03cb3"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a9a27eb86c9d023a286bcf963c03cb3">calcSelfIntersections</a> (FaceBitSet &amp;res, float beta, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})=0</td></tr>
 <tr class="memdesc:a9a9a27eb86c9d023a286bcf963c03cb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates winding numbers for all centers of mesh's triangles. if winding number is less than 0 or greater then 1, that face is marked as self-intersected  <br /></td></tr>
 <tr class="separator:a9a9a27eb86c9d023a286bcf963c03cb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a368a1a0534476d08756358a07bcce617" id="r_a368a1a0534476d08756358a07bcce617"><td class="memItemLeft" align="right" valign="top">virtual <a class="elRef" href="../namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a368a1a0534476d08756358a07bcce617">calcFromGrid</a> (std::vector&lt; float &gt; &amp;res, const Vector3i &amp;dims, const AffineXf3f &amp;gridToMeshXf, float beta, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})=0</td></tr>
+<tr class="memitem:a368a1a0534476d08756358a07bcce617" id="r_a368a1a0534476d08756358a07bcce617"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a368a1a0534476d08756358a07bcce617">calcFromGrid</a> (std::vector&lt; float &gt; &amp;res, const Vector3i &amp;dims, const AffineXf3f &amp;gridToMeshXf, float beta, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})=0</td></tr>
 <tr class="memdesc:a368a1a0534476d08756358a07bcce617"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates winding numbers in each point from a three-dimensional grid  <br /></td></tr>
 <tr class="separator:a368a1a0534476d08756358a07bcce617"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb59990afd6d9382244508e9e250972d" id="r_aeb59990afd6d9382244508e9e250972d"><td class="memItemLeft" align="right" valign="top">virtual <a class="elRef" href="../namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb59990afd6d9382244508e9e250972d">calcFromGridWithDistances</a> (std::vector&lt; float &gt; &amp;res, const Vector3i &amp;dims, const AffineXf3f &amp;gridToMeshXf, const <a class="el" href="structMR_1_1DistanceToMeshOptions.html">DistanceToMeshOptions</a> &amp;options, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb)=0</td></tr>
+<tr class="memitem:aeb59990afd6d9382244508e9e250972d" id="r_aeb59990afd6d9382244508e9e250972d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb59990afd6d9382244508e9e250972d">calcFromGridWithDistances</a> (std::vector&lt; float &gt; &amp;res, const Vector3i &amp;dims, const AffineXf3f &amp;gridToMeshXf, const <a class="el" href="structMR_1_1DistanceToMeshOptions.html">DistanceToMeshOptions</a> &amp;options, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb)=0</td></tr>
 <tr class="memdesc:aeb59990afd6d9382244508e9e250972d"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates distances with the sign obtained from generalized winding number in each point from a three-dimensional grid; if sqr(res) &lt; minDistSq or sqr(res) &gt;= maxDistSq, then NaN is returned for such point  <br /></td></tr>
 <tr class="separator:aeb59990afd6d9382244508e9e250972d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -225,7 +225,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="elRef" href="../namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::IFastWindingNumber::calcFromGrid </td>
+          <td class="memname">virtual <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::IFastWindingNumber::calcFromGrid </td>
           <td>(</td>
           <td class="paramtype">std::vector&lt; float &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>res</em></span>, </td>
         </tr>
@@ -282,7 +282,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="elRef" href="../namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::IFastWindingNumber::calcFromGridWithDistances </td>
+          <td class="memname">virtual <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::IFastWindingNumber::calcFromGridWithDistances </td>
           <td>(</td>
           <td class="paramtype">std::vector&lt; float &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>res</em></span>, </td>
         </tr>
@@ -337,7 +337,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="elRef" href="../namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::IFastWindingNumber::calcFromVector </td>
+          <td class="memname">virtual <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::IFastWindingNumber::calcFromVector </td>
           <td>(</td>
           <td class="paramtype">std::vector&lt; float &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>res</em></span>, </td>
         </tr>
@@ -394,7 +394,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="elRef" href="../namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::IFastWindingNumber::calcSelfIntersections </td>
+          <td class="memname">virtual <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::IFastWindingNumber::calcSelfIntersections </td>
           <td>(</td>
           <td class="paramtype">FaceBitSet &amp;</td>          <td class="paramname"><span class="paramname"><em>res</em></span>, </td>
         </tr>
@@ -438,7 +438,7 @@ Public Member Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>MR</b></li><li class="navelem"><a class="el" href="classMR_1_1IFastWindingNumber.html">IFastWindingNumber</a></li>
+    <li class="navelem"><a class="el" href="namespaceMR.html">MR</a></li><li class="navelem"><a class="el" href="classMR_1_1IFastWindingNumber.html">IFastWindingNumber</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>
