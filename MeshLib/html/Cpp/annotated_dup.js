@@ -5,7 +5,7 @@ var annotated_dup =
       [ "HistogramGridLine", "structImGui_1_1HistogramGridLine.html", "structImGui_1_1HistogramGridLine" ],
       [ "MultiDragRes", "structImGui_1_1MultiDragRes.html", "structImGui_1_1MultiDragRes" ]
     ] ],
-    [ "MR", null, [
+    [ "MR", "namespaceMR.html", [
       [ "Cuda", "namespaceMR_1_1Cuda.html", [
         [ "FastWindingNumber", "classMR_1_1Cuda_1_1FastWindingNumber.html", "classMR_1_1Cuda_1_1FastWindingNumber" ],
         [ "PointsProjector", "classMR_1_1Cuda_1_1PointsProjector.html", "classMR_1_1Cuda_1_1PointsProjector" ],
@@ -17,7 +17,6 @@ var annotated_dup =
         [ "Units", "namespaceMR_1_1detail_1_1Units.html", [
           [ "Empty", "structMR_1_1detail_1_1Units_1_1Empty.html", null ]
         ] ],
-        [ "FileDialogParameters", "structMR_1_1detail_1_1FileDialogParameters.html", "structMR_1_1detail_1_1FileDialogParameters" ],
         [ "FuncCallHelper", "classMR_1_1detail_1_1FuncCallHelper.html", "classMR_1_1detail_1_1FuncCallHelper" ],
         [ "MakeScopeGuard", "structMR_1_1detail_1_1MakeScopeGuard.html", "structMR_1_1detail_1_1MakeScopeGuard" ],
         [ "ScopeGuard", "classMR_1_1detail_1_1ScopeGuard.html", "classMR_1_1detail_1_1ScopeGuard" ]
@@ -42,6 +41,9 @@ var annotated_dup =
         ] ],
         [ "MeasureResult", "structMR_1_1Features_1_1MeasureResult.html", "structMR_1_1Features_1_1MeasureResult" ],
         [ "SubfeatureInfo", "structMR_1_1Features_1_1SubfeatureInfo.html", "structMR_1_1Features_1_1SubfeatureInfo" ]
+      ] ],
+      [ "FileDialog", "namespaceMR_1_1FileDialog.html", [
+        [ "Parameters", "structMR_1_1FileDialog_1_1Parameters.html", "structMR_1_1FileDialog_1_1Parameters" ]
       ] ],
       [ "FixUndercuts", "namespaceMR_1_1FixUndercuts.html", [
         [ "DistMapImproveDirectionParameters", "structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html", "structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters" ],

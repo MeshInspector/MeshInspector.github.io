@@ -1,7 +1,5 @@
 var NAVTREEINDEX15 =
 {
-"MRTestC2_2MRBox_8h_source.html":[6,0,3,0,0,1,10,3],
-"MRTestC2_2MRColor_8h.html":[6,0,3,0,0,1,10,4],
 "MRTestC2_2MRColor_8h.html#a4c85209b833182acfd31ea75d9efa2f2":[6,0,3,0,0,1,10,4,2],
 "MRTestC2_2MRColor_8h.html#a6cf525d352cebc486e9070ae6668a896":[6,0,3,0,0,1,10,4,0],
 "MRTestC2_2MRColor_8h.html#a740ee317ba28daf22a52ff96cd7a5e63":[6,0,3,0,0,1,10,4,1],
@@ -249,5 +247,7 @@ var NAVTREEINDEX15 =
 "MRTestC_2MRMesh_8h.html#a619064914aa7a810e5ae52c83654070a":[6,0,3,0,0,1,9,8,0],
 "MRTestC_2MRMesh_8h.html#a9c77f46b443219c5e0d2323748cd03f5":[6,0,3,0,0,1,9,8,3],
 "MRTestC_2MRMesh_8h.html#aa32df8d7dac117bcecc4cbded80d715c":[6,0,3,0,0,1,9,8,1],
-"MRTestC_2MRMesh_8h_source.html":[6,0,3,0,0,1,9,8]
+"MRTestC_2MRMesh_8h_source.html":[6,0,3,0,0,1,9,8],
+"MRTestC_2MRPointCloud_8h.html":[6,0,3,0,0,1,9,22],
+"MRTestC_2MRPointCloud_8h.html#a9a1fdc9a44a06a833fe43a2ba3bd083c":[6,0,3,0,0,1,9,22,0]
 };

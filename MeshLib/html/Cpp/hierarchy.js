@@ -367,7 +367,7 @@ var hierarchy =
     [ "MR::FileDialogSignals", "structMR_1_1FileDialogSignals.html", null ],
     [ "MR::FileLoadOptions", "structMR_1_1FileLoadOptions.html", null ],
     [ "MR::FileParameters", "structMR_1_1FileParameters.html", [
-      [ "MR::detail::FileDialogParameters", "structMR_1_1detail_1_1FileDialogParameters.html", null ]
+      [ "MR::FileDialog::Parameters", "structMR_1_1FileDialog_1_1Parameters.html", null ]
     ] ],
     [ "MR::FillHoleItem", "structMR_1_1FillHoleItem.html", null ],
     [ "MR::FillHoleMetric", "structMR_1_1FillHoleMetric.html", null ],
