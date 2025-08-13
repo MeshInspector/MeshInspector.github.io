@@ -9,10 +9,6 @@ FILE_PATTERNS          = *.dox \
 EXCLUDE                = ../MeshLib/doxygen/APICppPage.dox \
                          ../MeshLib/doxygen/APIPyPage.dox \
                          ../MeshLib/doxygen/APICPage.dox
-# MR - need to fix https://meshlib.io/documentation/Cpp/namespaceMR.html 404
-EXCLUDE_SYMBOLS        = Json \
-                         std \
-                         MR
 EXAMPLE_PATH           = ../MeshLib/examples \
                          ../MeshLib/doxygen/common_files
 EXAMPLE_RECURSIVE      = YES
