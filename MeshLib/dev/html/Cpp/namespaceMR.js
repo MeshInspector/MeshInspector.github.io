@@ -37,6 +37,7 @@ var namespaceMR =
       [ "toRAW", "group__DistanceMapSaveGroup.html#ga0f15a32dee6cb3b525a2038b95956484", null ]
     ] ],
     [ "Features", "namespaceMR_1_1Features.html", "namespaceMR_1_1Features" ],
+    [ "FileDialog", "namespaceMR_1_1FileDialog.html", "namespaceMR_1_1FileDialog" ],
     [ "FixUndercuts", "namespaceMR_1_1FixUndercuts.html", "namespaceMR_1_1FixUndercuts" ],
     [ "FloatGridComponents", "namespaceMR_1_1FloatGridComponents.html", [
       [ "getAllComponents", "group__ComponentsGroup.html#gaf8cb6a4fb4e8de9236165ad0636b9ade", null ]

@@ -2,6 +2,8 @@ var MRFileDialog_8h =
 [
     [ "MR::FileDialogSignals", "structMR_1_1FileDialogSignals.html", "structMR_1_1FileDialogSignals" ],
     [ "MR::FileParameters", "structMR_1_1FileParameters.html", "structMR_1_1FileParameters" ],
+    [ "MR::FileDialog::Parameters", "structMR_1_1FileDialog_1_1Parameters.html", "structMR_1_1FileDialog_1_1Parameters" ],
+    [ "getLastUsedDir", "MRFileDialog_8h.html#a248125cac77c6f77434ba3bb583e81e6", null ],
     [ "openFileDialog", "MRFileDialog_8h.html#a0a4bcce4daa4d3b3423c31dff3a881bb", null ],
     [ "openFileDialogAsync", "MRFileDialog_8h.html#a5cb1fd46b50301553853ea480cee32b3", null ],
     [ "openFilesDialog", "MRFileDialog_8h.html#a9fc3a0fb211326213beb41fb1ecd8d71", null ],
@@ -10,5 +12,6 @@ var MRFileDialog_8h =
     [ "openFolderDialogAsync", "MRFileDialog_8h.html#a964135dd0f9cc9740de117f85b0e793d", null ],
     [ "openFoldersDialog", "MRFileDialog_8h.html#a0d9e3b8996c4a924319accda1afc4afe", null ],
     [ "saveFileDialog", "MRFileDialog_8h.html#a5840a11e5e60139f9bbbf678072379e2", null ],
-    [ "saveFileDialogAsync", "MRFileDialog_8h.html#aa9296b50297d1b2d93a8f2f08c495eef", null ]
+    [ "saveFileDialogAsync", "MRFileDialog_8h.html#aa9296b50297d1b2d93a8f2f08c495eef", null ],
+    [ "setLastUsedDir", "MRFileDialog_8h.html#a6df5d2ea1db6a7b00a9ed783f8ff4627", null ]
 ];
