@@ -1,7 +1,5 @@
 var NAVTREEINDEX22 =
 {
-"classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a6ba1b2ee8410d3d91bbdf59590579fff":[6,0,2,0,1,130,1,52],
-"classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a766f7faeb0a4d7a594238c300876813a":[6,0,1,0,1,147,1,14],
 "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a766f7faeb0a4d7a594238c300876813a":[6,0,2,0,1,130,1,14],
 "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a76851ceee06bccd61e3f181d29dac532":[6,0,1,0,1,147,1,21],
 "classMR_1_1ColorTheme.html#aeb576da7973c6ccabb036634b3d878b0a76851ceee06bccd61e3f181d29dac532":[6,0,2,0,1,130,1,21],
@@ -249,5 +247,7 @@ var NAVTREEINDEX22 =
 "classMR_1_1Cuda_1_1PointsProjector.html#ae5f97af32e2a2a8898a3063117312160":[6,0,1,0,1,2,1,2],
 "classMR_1_1Cuda_1_1PointsProjector.html#ae5f97af32e2a2a8898a3063117312160":[6,0,2,0,1,0,1,2],
 "classMR_1_1Cuda_1_1PointsToMeshProjector.html":[6,0,1,0,1,2,2],
-"classMR_1_1Cuda_1_1PointsToMeshProjector.html":[6,0,2,0,1,0,2]
+"classMR_1_1Cuda_1_1PointsToMeshProjector.html":[6,0,2,0,1,0,2],
+"classMR_1_1Cuda_1_1PointsToMeshProjector.html#a01151649b364309dda94e8170e3e10f3":[6,0,1,0,1,2,2,2],
+"classMR_1_1Cuda_1_1PointsToMeshProjector.html#a01151649b364309dda94e8170e3e10f3":[6,0,2,0,1,0,2,2]
 };

@@ -1369,7 +1369,6 @@ var hierarchy =
     [ "MR::ViewerTitle", "classMR_1_1ViewerTitle.html", null ],
     [ "MR::Viewport", "classMR_1_1Viewport.html", null ],
     [ "MR::ViewportGL", "classMR_1_1ViewportGL.html", null ],
-    [ "MR::ViewportGlobalBasis", "classMR_1_1ViewportGlobalBasis.html", null ],
     [ "MR::ViewportId", "classMR_1_1ViewportId.html", null ],
     [ "MR::ViewportIterator", "classMR_1_1ViewportIterator.html", null ],
     [ "MR::ViewportMask", "classMR_1_1ViewportMask.html", null ],
