@@ -1,5 +1,7 @@
 var NAVTREEINDEX120 =
 {
+"std__function__void__from__const__MR__Vector3f__ref__MR__MeshOrPoints__ProjectionResult__ref__MR__ObjId__r____f9dd_8h.html#aed048f56f8feb86878d26d0129248b19":[6,2,1,0,0,0,2,157,8],
+"std__function__void__from__const__MR__Vector3f__ref__MR__MeshOrPoints__ProjectionResult__ref__MR__ObjId__r____f9dd_8h.html#af34e902c79e5e3662b6066a428220257":[6,2,1,0,0,0,2,157,2],
 "std__function__void__from__const__MR__Vector3f__ref__MR__MeshOrPoints__ProjectionResult__ref__MR__ObjId__r____f9dd_8h_source.html":[6,2,1,0,0,0,2,157],
 "std__function__void__from__const__std__filesystem__path__ref_8h.html":[6,2,1,0,0,0,2,158],
 "std__function__void__from__const__std__filesystem__path__ref_8h.html#a006d61fd2048bba5b5622d42cbe72526":[6,2,1,0,0,0,2,158,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX120 =
 "std__optional__MR__SignedDistanceToMeshResult_8h.html":[6,2,1,0,0,0,2,193],
 "std__optional__MR__SignedDistanceToMeshResult_8h.html#a161d8e449886927b2605d802e650e616":[6,2,1,0,0,0,2,193,6],
 "std__optional__MR__SignedDistanceToMeshResult_8h.html#a31751180fa24dc5f4eacbc3737c93080":[6,2,1,0,0,0,2,193,2],
-"std__optional__MR__SignedDistanceToMeshResult_8h.html#a320207ac83c80a29f7b964a5dddec623":[6,2,1,0,0,0,2,193,4],
-"std__optional__MR__SignedDistanceToMeshResult_8h.html#a36bed5bf8f7d2034ad860f9c4f037e7b":[6,2,1,0,0,0,2,193,1],
-"std__optional__MR__SignedDistanceToMeshResult_8h.html#a38aa9985aaa2d8d1ef8a41ac7f1a0c5c":[6,2,1,0,0,0,2,193,9]
+"std__optional__MR__SignedDistanceToMeshResult_8h.html#a320207ac83c80a29f7b964a5dddec623":[6,2,1,0,0,0,2,193,4]
 };

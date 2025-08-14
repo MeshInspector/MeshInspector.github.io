@@ -1426,7 +1426,7 @@ var searchData=
   ['geomid_8',['geomId',['.././Cpp/structMR_1_1ViewportGL_1_1BasePickResult.html#ab3a28df9902a6bfa722c359efdd91d44',1,'MR::ViewportGL::BasePickResult']]],
   ['getter_9',['getter',['.././Cpp/structMR_1_1FeatureObjectSharedProperty.html#a6180b92925783a60e6236c09f9967409',1,'MR::FeatureObjectSharedProperty']]],
   ['globalalpha_5f_10',['globalAlpha_',['.././Cpp/classMR_1_1VisualObject.html#a96232055c664463cca20dda327b1c30f',1,'MR::VisualObject']]],
-  ['globalbasisaxes_11',['globalBasisAxes',['.././Cpp/classMR_1_1Viewer.html#aa485ba9282a8656276ea195d33c25259',1,'MR::Viewer']]],
+  ['globalbasis_11',['globalBasis',['.././Cpp/classMR_1_1Viewer.html#a8e8017221bc14ddf989b5065726236ed',1,'MR::Viewer']]],
   ['glpickradius_12',['glPickRadius',['.././Cpp/classMR_1_1Viewer.html#a240a033f91b3eb0250fa706cd2f2feb1',1,'MR::Viewer']]],
   ['good_13',['Good',['.././Py/classmrmeshpy_1_1CutMeshParameters_1_1ForceFill.html#a7b9a0fa807f9666ac3eaf3f2652af613',1,'mrmeshpy::CutMeshParameters::ForceFill']]],
   ['gorge_14',['Gorge',['.././Py/classmrmeshpy_1_1ExtremeEdgeType.html#ac70dcf3c5289455ee8188bc2790600d6',1,'mrmeshpy::ExtremeEdgeType']]],

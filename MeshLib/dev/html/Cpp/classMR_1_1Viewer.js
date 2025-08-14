@@ -194,7 +194,7 @@ var classMR_1_1Viewer =
     [ "experimentalFeatures", "classMR_1_1Viewer.html#a79903d8243abfd135d4c770623022ef3", null ],
     [ "forceRedrawMinimumIncrementAfterEvents", "classMR_1_1Viewer.html#af6ad84943b0d9f49dbd4b22e3129216d", null ],
     [ "framebufferSize", "classMR_1_1Viewer.html#abcae9cdb5ec2a2c07ab8bad1508bd3d8", null ],
-    [ "globalBasisAxes", "classMR_1_1Viewer.html#aa485ba9282a8656276ea195d33c25259", null ],
+    [ "globalBasis", "classMR_1_1Viewer.html#a8e8017221bc14ddf989b5065726236ed", null ],
     [ "glPickRadius", "classMR_1_1Viewer.html#a240a033f91b3eb0250fa706cd2f2feb1", null ],
     [ "interruptCloseSignal", "classMR_1_1Viewer.html#a3422160febbc395d966e7a4fcfc5207f", null ],
     [ "isAnimating", "classMR_1_1Viewer.html#a7ccea0f47c749b27fc3a4ab8dc91026c", null ],
