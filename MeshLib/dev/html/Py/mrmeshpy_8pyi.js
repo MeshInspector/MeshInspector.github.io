@@ -133,6 +133,7 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.ChangeObjectVisibilityAction", "classmrmeshpy_1_1ChangeObjectVisibilityAction.html", "classmrmeshpy_1_1ChangeObjectVisibilityAction" ],
     [ "mrmeshpy.ChangeOneNormalInCloudAction", "classmrmeshpy_1_1ChangeOneNormalInCloudAction.html", "classmrmeshpy_1_1ChangeOneNormalInCloudAction" ],
     [ "mrmeshpy.ChangeOnePointInCloudAction", "classmrmeshpy_1_1ChangeOnePointInCloudAction.html", "classmrmeshpy_1_1ChangeOnePointInCloudAction" ],
+    [ "mrmeshpy.ChangeOnePointInPolylineAction", "classmrmeshpy_1_1ChangeOnePointInPolylineAction.html", "classmrmeshpy_1_1ChangeOnePointInPolylineAction" ],
     [ "mrmeshpy.ChangePointCloudAction", "classmrmeshpy_1_1ChangePointCloudAction.html", "classmrmeshpy_1_1ChangePointCloudAction" ],
     [ "mrmeshpy.ChangePointCloudNormalsAction", "classmrmeshpy_1_1ChangePointCloudNormalsAction.html", "classmrmeshpy_1_1ChangePointCloudNormalsAction" ],
     [ "mrmeshpy.ChangePointCloudPointsAction", "classmrmeshpy_1_1ChangePointCloudPointsAction.html", "classmrmeshpy_1_1ChangePointCloudPointsAction" ],

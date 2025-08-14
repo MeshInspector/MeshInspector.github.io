@@ -1,5 +1,12 @@
 var NAVTREEINDEX67 =
 {
+"structMRFindProjectionParameters.html#ac4fce539ae23cabef0a8cece3731cf74":[6,0,2,0,20,0],
+"structMRFixMeshDegeneraciesParams.html":[6,0,2,0,21],
+"structMRFixMeshDegeneraciesParams.html#a1ec8f555bb7f5bec08da56e0a13cadab":[6,0,2,0,21,2],
+"structMRFixMeshDegeneraciesParams.html#a25771fdf3ed98793f7b01ffd05d2823e":[6,0,2,0,21,5],
+"structMRFixMeshDegeneraciesParams.html#a43e9bfd950faa09ebd5ad405d4851678":[6,0,2,0,21,6],
+"structMRFixMeshDegeneraciesParams.html#a4f27ee78591d8af798d6f11a38bb7c8c":[6,0,2,0,21,7],
+"structMRFixMeshDegeneraciesParams.html#a6ae51556ecb7da197778471e3a10a0c2":[6,0,2,0,21,3],
 "structMRFixMeshDegeneraciesParams.html#aa6266c86363ad791c003dd8682501fe7":[6,0,2,0,21,4],
 "structMRFixMeshDegeneraciesParams.html#aab8419165d77fece4440efdd74f09b37":[6,0,2,0,21,1],
 "structMRFixMeshDegeneraciesParams.html#af09e4d46078be1c8804457082d26decc":[6,0,2,0,21,0],
@@ -242,12 +249,5 @@ var NAVTREEINDEX67 =
 "structMRVarEdgeTri.html":[6,0,2,0,68],
 "structMRVarEdgeTri.html#a401e59856a99802ba3c5c2729c4f2262":[6,0,2,0,68,0],
 "structMRVarEdgeTri.html#a5d4f1ad2e69531960239b7ce730c2a10":[6,0,2,0,68,1],
-"structMRVdbVolume.html":[6,0,2,0,69],
-"structMRVdbVolume.html#a1c5d0db6fc80b1b97e80c6374f2b8304":[6,0,2,0,69,3],
-"structMRVdbVolume.html#a848a2c12538a61e630304e97a1392252":[6,0,2,0,69,0],
-"structMRVdbVolume.html#ab1c95170370b963a8c22399c950ea3ab":[6,0,2,0,69,4],
-"structMRVdbVolume.html#acaaf03df5a446178a6ea460c9a6a725d":[6,0,2,0,69,2],
-"structMRVdbVolume.html#adf293267a1855743bf3dcdae13763c5f":[6,0,2,0,69,1],
-"structMRVector3f.html":[6,0,2,0,70],
-"structMRVector3f.html#a1260be6a768a144d8d0ef0a3dac3dd4a":[6,0,2,0,70,1]
+"structMRVdbVolume.html":[6,0,2,0,69]
 };

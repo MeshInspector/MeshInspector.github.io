@@ -448,6 +448,7 @@ var hierarchy =
       [ "MR::ChangeObjectVisibilityAction", "classMR_1_1ChangeObjectVisibilityAction.html", null ],
       [ "MR::ChangeOneNormalInCloudAction", "classMR_1_1ChangeOneNormalInCloudAction.html", null ],
       [ "MR::ChangeOnePointInCloudAction", "classMR_1_1ChangeOnePointInCloudAction.html", null ],
+      [ "MR::ChangeOnePointInPolylineAction", "classMR_1_1ChangeOnePointInPolylineAction.html", null ],
       [ "MR::ChangePointCloudAction", "classMR_1_1ChangePointCloudAction.html", null ],
       [ "MR::ChangePointCloudNormalsAction", "classMR_1_1ChangePointCloudNormalsAction.html", null ],
       [ "MR::ChangePointCloudPointsAction", "classMR_1_1ChangePointCloudPointsAction.html", null ],

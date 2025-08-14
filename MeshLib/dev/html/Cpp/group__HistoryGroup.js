@@ -191,6 +191,14 @@ var group__HistoryGroup =
       [ "heapBytes", "classMR_1_1ChangePolylineTopologyAction.html#a200b7e85b19209b3dec9b96249b9fbef", null ],
       [ "name", "classMR_1_1ChangePolylineTopologyAction.html#a30e1c62f488885411792ad5acc75da7b", null ]
     ] ],
+    [ "MR::ChangeOnePointInPolylineAction", "classMR_1_1ChangeOnePointInPolylineAction.html", [
+      [ "Obj", "classMR_1_1ChangeOnePointInPolylineAction.html#aef7c7a81af0f8a8b89d020602c31298d", null ],
+      [ "ChangeOnePointInPolylineAction", "classMR_1_1ChangeOnePointInPolylineAction.html#ad3c95f6ed93a9497f7a959a770ecc788", null ],
+      [ "ChangeOnePointInPolylineAction", "classMR_1_1ChangeOnePointInPolylineAction.html#a85c6de61b6597e042e5aef9c02ecf52b", null ],
+      [ "action", "classMR_1_1ChangeOnePointInPolylineAction.html#a38ca71433b431c0f9253e2140cea35ef", null ],
+      [ "heapBytes", "classMR_1_1ChangeOnePointInPolylineAction.html#a6fa396d1c46311032a718c9eaf3f34bc", null ],
+      [ "name", "classMR_1_1ChangeOnePointInPolylineAction.html#a60545394635e0a3adb2be644e7bdafee", null ]
+    ] ],
     [ "MR::ChangeScaleAction", "classMR_1_1ChangeScaleAction.html", [
       [ "ChangeScaleAction", "classMR_1_1ChangeScaleAction.html#a7ed6dd43bb4742c5a423190cdb2b8075", null ],
       [ "action", "classMR_1_1ChangeScaleAction.html#a5b30db2db48c27d37a14849a1b6b0dca", null ],

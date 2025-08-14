@@ -128,6 +128,7 @@ var annotated_dup =
       [ "ChangeObjectVisibilityAction", "classmrmeshpy_1_1ChangeObjectVisibilityAction.html", "classmrmeshpy_1_1ChangeObjectVisibilityAction" ],
       [ "ChangeOneNormalInCloudAction", "classmrmeshpy_1_1ChangeOneNormalInCloudAction.html", "classmrmeshpy_1_1ChangeOneNormalInCloudAction" ],
       [ "ChangeOnePointInCloudAction", "classmrmeshpy_1_1ChangeOnePointInCloudAction.html", "classmrmeshpy_1_1ChangeOnePointInCloudAction" ],
+      [ "ChangeOnePointInPolylineAction", "classmrmeshpy_1_1ChangeOnePointInPolylineAction.html", "classmrmeshpy_1_1ChangeOnePointInPolylineAction" ],
       [ "ChangePointCloudAction", "classmrmeshpy_1_1ChangePointCloudAction.html", "classmrmeshpy_1_1ChangePointCloudAction" ],
       [ "ChangePointCloudNormalsAction", "classmrmeshpy_1_1ChangePointCloudNormalsAction.html", "classmrmeshpy_1_1ChangePointCloudNormalsAction" ],
       [ "ChangePointCloudPointsAction", "classmrmeshpy_1_1ChangePointCloudPointsAction.html", "classmrmeshpy_1_1ChangePointCloudPointsAction" ],

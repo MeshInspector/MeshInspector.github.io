@@ -152,6 +152,7 @@ $(function(){initNavTree('MRChangePolylineAction_8h.html',''); initResizable(tru
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="MRHistoryAction_8h_source.html">MRCMesh/MRHistoryAction.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="MRId_8h_source.html">MRCMesh/MRId.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
@@ -162,6 +163,8 @@ $(function(){initNavTree('MRChangePolylineAction_8h.html',''); initResizable(tru
 Typedefs</h2></td></tr>
 <tr class="memitem:a26fdcccc5668d7a10acc1e27c11d1e56" id="r_a26fdcccc5668d7a10acc1e27c11d1e56"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a></td></tr>
 <tr class="separator:a26fdcccc5668d7a10acc1e27c11d1e56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bf133eda1ec95be202b77c33412bc8e" id="r_a6bf133eda1ec95be202b77c33412bc8e"><td class="memItemLeft" align="right" valign="top">typedef struct MR_Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6bf133eda1ec95be202b77c33412bc8e">MR_Vector3f</a></td></tr>
+<tr class="separator:a6bf133eda1ec95be202b77c33412bc8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae4c0039308e4be0822d33b37cd0b14c2" id="r_ae4c0039308e4be0822d33b37cd0b14c2"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ae4c0039308e4be0822d33b37cd0b14c2">MR_std_shared_ptr_MR_ObjectLines</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4c0039308e4be0822d33b37cd0b14c2">MR_std_shared_ptr_MR_ObjectLines</a></td></tr>
 <tr class="separator:ae4c0039308e4be0822d33b37cd0b14c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7fbcc9ee811f65e53e31f32d2c5484c2" id="r_a7fbcc9ee811f65e53e31f32d2c5484c2"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a7fbcc9ee811f65e53e31f32d2c5484c2">MR_std_shared_ptr_MR_Polyline3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7fbcc9ee811f65e53e31f32d2c5484c2">MR_std_shared_ptr_MR_Polyline3</a></td></tr>
@@ -174,6 +177,8 @@ Typedefs</h2></td></tr>
 <tr class="separator:ac44b86276dcad1cbecec74465cb6ad84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b1a6a755da99974fc919f1251f3ac8a" id="r_a4b1a6a755da99974fc919f1251f3ac8a"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a4b1a6a755da99974fc919f1251f3ac8a">MR_ChangePolylineTopologyAction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b1a6a755da99974fc919f1251f3ac8a">MR_ChangePolylineTopologyAction</a></td></tr>
 <tr class="separator:a4b1a6a755da99974fc919f1251f3ac8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff5307960a8c87337da88bb8be88c198" id="r_aff5307960a8c87337da88bb8be88c198"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#aff5307960a8c87337da88bb8be88c198">MR_ChangeOnePointInPolylineAction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff5307960a8c87337da88bb8be88c198">MR_ChangeOnePointInPolylineAction</a></td></tr>
+<tr class="separator:aff5307960a8c87337da88bb8be88c198"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -272,8 +277,56 @@ Functions</h2></td></tr>
 <tr class="separator:a01d56653ad3dee4bdd56f9f5a0b1af59"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad491e35f24d77ab37a82ef1460e2ea43" id="r_ad491e35f24d77ab37a82ef1460e2ea43"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad491e35f24d77ab37a82ef1460e2ea43">MR_ChangePolylineTopologyAction_heapBytes</a> (const <a class="el" href="#a4b1a6a755da99974fc919f1251f3ac8a">MR_ChangePolylineTopologyAction</a> *_this)</td></tr>
 <tr class="separator:ad491e35f24d77ab37a82ef1460e2ea43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afab0f3038112a51562e68402132308b5" id="r_afab0f3038112a51562e68402132308b5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aff5307960a8c87337da88bb8be88c198">MR_ChangeOnePointInPolylineAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afab0f3038112a51562e68402132308b5">MR_ChangeOnePointInPolylineAction_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#aff5307960a8c87337da88bb8be88c198">MR_ChangeOnePointInPolylineAction</a> *_other)</td></tr>
+<tr class="separator:afab0f3038112a51562e68402132308b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c8aacdd18239ee12df4a5ff7fff9fa6" id="r_a2c8aacdd18239ee12df4a5ff7fff9fa6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#aff5307960a8c87337da88bb8be88c198">MR_ChangeOnePointInPolylineAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c8aacdd18239ee12df4a5ff7fff9fa6">MR_ChangeOnePointInPolylineAction_OffsetPtr</a> (const <a class="el" href="#aff5307960a8c87337da88bb8be88c198">MR_ChangeOnePointInPolylineAction</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a2c8aacdd18239ee12df4a5ff7fff9fa6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a2c8aacdd18239ee12df4a5ff7fff9fa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fefacb256dbaba58ac7f4d13c1b3037" id="r_a0fefacb256dbaba58ac7f4d13c1b3037"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aff5307960a8c87337da88bb8be88c198">MR_ChangeOnePointInPolylineAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0fefacb256dbaba58ac7f4d13c1b3037">MR_ChangeOnePointInPolylineAction_OffsetMutablePtr</a> (<a class="el" href="#aff5307960a8c87337da88bb8be88c198">MR_ChangeOnePointInPolylineAction</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a0fefacb256dbaba58ac7f4d13c1b3037"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a0fefacb256dbaba58ac7f4d13c1b3037"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac77dc6bf1eb4e9ad8d3ec52d2bf2b7f3" id="r_ac77dc6bf1eb4e9ad8d3ec52d2bf2b7f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac77dc6bf1eb4e9ad8d3ec52d2bf2b7f3">MR_ChangeOnePointInPolylineAction_UpcastTo_MR_HistoryAction</a> (const <a class="el" href="#aff5307960a8c87337da88bb8be88c198">MR_ChangeOnePointInPolylineAction</a> *object)</td></tr>
+<tr class="separator:ac77dc6bf1eb4e9ad8d3ec52d2bf2b7f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97010deed843396d3f5962f83718b780" id="r_a97010deed843396d3f5962f83718b780"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97010deed843396d3f5962f83718b780">MR_ChangeOnePointInPolylineAction_MutableUpcastTo_MR_HistoryAction</a> (<a class="el" href="#aff5307960a8c87337da88bb8be88c198">MR_ChangeOnePointInPolylineAction</a> *object)</td></tr>
+<tr class="memdesc:a97010deed843396d3f5962f83718b780"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1ChangeOnePointInPolylineAction.html">MR::ChangeOnePointInPolylineAction</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code>.  <br /></td></tr>
+<tr class="separator:a97010deed843396d3f5962f83718b780"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f2afc42ccbe36d436cca914073d0f74" id="r_a1f2afc42ccbe36d436cca914073d0f74"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aff5307960a8c87337da88bb8be88c198">MR_ChangeOnePointInPolylineAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f2afc42ccbe36d436cca914073d0f74">MR_ChangeOnePointInPolylineAction_Construct_3</a> (const char *<a class="elRef" href="../Cpp/group__HistoryGroup.html#ga6b90613818f7b81547a5b0bba1d40c39">name</a>, const char *name_end, const <a class="el" href="#ae4c0039308e4be0822d33b37cd0b14c2">MR_std_shared_ptr_MR_ObjectLines</a> *obj, <a class="el" href="structMR__VertId.html">MR_VertId</a> pointId)</td></tr>
+<tr class="separator:a1f2afc42ccbe36d436cca914073d0f74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a907f373f8fe6547dc86c1be91b80b542" id="r_a907f373f8fe6547dc86c1be91b80b542"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aff5307960a8c87337da88bb8be88c198">MR_ChangeOnePointInPolylineAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a907f373f8fe6547dc86c1be91b80b542">MR_ChangeOnePointInPolylineAction_Construct_4</a> (const char *<a class="elRef" href="../Cpp/group__HistoryGroup.html#ga6b90613818f7b81547a5b0bba1d40c39">name</a>, const char *name_end, const <a class="el" href="#ae4c0039308e4be0822d33b37cd0b14c2">MR_std_shared_ptr_MR_ObjectLines</a> *obj, <a class="el" href="structMR__VertId.html">MR_VertId</a> pointId, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *newCoords)</td></tr>
+<tr class="separator:a907f373f8fe6547dc86c1be91b80b542"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac46a46469ec9f7079be8aae948fe67ff" id="r_ac46a46469ec9f7079be8aae948fe67ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac46a46469ec9f7079be8aae948fe67ff">MR_ChangeOnePointInPolylineAction_Destroy</a> (const <a class="el" href="#aff5307960a8c87337da88bb8be88c198">MR_ChangeOnePointInPolylineAction</a> *_this)</td></tr>
+<tr class="memdesc:ac46a46469ec9f7079be8aae948fe67ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_ChangeOnePointInPolylineAction</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ac46a46469ec9f7079be8aae948fe67ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4f96041200fcaec4960003b4eada251" id="r_aa4f96041200fcaec4960003b4eada251"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4f96041200fcaec4960003b4eada251">MR_ChangeOnePointInPolylineAction_DestroyArray</a> (const <a class="el" href="#aff5307960a8c87337da88bb8be88c198">MR_ChangeOnePointInPolylineAction</a> *_this)</td></tr>
+<tr class="memdesc:aa4f96041200fcaec4960003b4eada251"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_ChangeOnePointInPolylineAction</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:aa4f96041200fcaec4960003b4eada251"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69051d102b7be472613d0a7cc2a84f17" id="r_a69051d102b7be472613d0a7cc2a84f17"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aff5307960a8c87337da88bb8be88c198">MR_ChangeOnePointInPolylineAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69051d102b7be472613d0a7cc2a84f17">MR_ChangeOnePointInPolylineAction_AssignFromAnother</a> (<a class="el" href="#aff5307960a8c87337da88bb8be88c198">MR_ChangeOnePointInPolylineAction</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#aff5307960a8c87337da88bb8be88c198">MR_ChangeOnePointInPolylineAction</a> *_other)</td></tr>
+<tr class="separator:a69051d102b7be472613d0a7cc2a84f17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2154d64858ac6fc56dce43ab2fad31d8" id="r_a2154d64858ac6fc56dce43ab2fad31d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2154d64858ac6fc56dce43ab2fad31d8">MR_ChangeOnePointInPolylineAction_name</a> (const <a class="el" href="#aff5307960a8c87337da88bb8be88c198">MR_ChangeOnePointInPolylineAction</a> *_this)</td></tr>
+<tr class="separator:a2154d64858ac6fc56dce43ab2fad31d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4ad0a0b5b5edbde8c6a025be818d0db" id="r_ac4ad0a0b5b5edbde8c6a025be818d0db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac4ad0a0b5b5edbde8c6a025be818d0db">MR_ChangeOnePointInPolylineAction_action</a> (<a class="el" href="#aff5307960a8c87337da88bb8be88c198">MR_ChangeOnePointInPolylineAction</a> *_this, <a class="el" href="MRHistoryAction_8h.html#aa6545a91fb04c0c7a224383de1b0d1dc">MR_HistoryAction_Type</a> _1)</td></tr>
+<tr class="separator:ac4ad0a0b5b5edbde8c6a025be818d0db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac547073e7466063667a6cde3b5232957" id="r_ac547073e7466063667a6cde3b5232957"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac547073e7466063667a6cde3b5232957">MR_ChangeOnePointInPolylineAction_setObjectDirty</a> (const <a class="el" href="#ae4c0039308e4be0822d33b37cd0b14c2">MR_std_shared_ptr_MR_ObjectLines</a> *obj)</td></tr>
+<tr class="separator:ac547073e7466063667a6cde3b5232957"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71260c5fd2bdbcdca56508dac0e388aa" id="r_a71260c5fd2bdbcdca56508dac0e388aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71260c5fd2bdbcdca56508dac0e388aa">MR_ChangeOnePointInPolylineAction_heapBytes</a> (const <a class="el" href="#aff5307960a8c87337da88bb8be88c198">MR_ChangeOnePointInPolylineAction</a> *_this)</td></tr>
+<tr class="separator:a71260c5fd2bdbcdca56508dac0e388aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
+<a id="aff5307960a8c87337da88bb8be88c198" name="aff5307960a8c87337da88bb8be88c198"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff5307960a8c87337da88bb8be88c198">&#9670;&#160;</a></span>MR_ChangeOnePointInPolylineAction</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#aff5307960a8c87337da88bb8be88c198">MR_ChangeOnePointInPolylineAction</a> <a class="el" href="#aff5307960a8c87337da88bb8be88c198">MR_ChangeOnePointInPolylineAction</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Undo action that modifies one point's coordinates inside ObjectPolyline Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeOnePointInPolylineAction.html">MR::ChangeOnePointInPolylineAction</a></code>. Base classes: Direct: (non-virtual) <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code> </p>
+
+</div>
+</div>
 <a id="a6d994a09b1de861a40216b52abea27f4" name="a6d994a09b1de861a40216b52abea27f4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6d994a09b1de861a40216b52abea27f4">&#9670;&#160;</a></span>MR_ChangePolylineAction</h2>
 
@@ -375,7 +428,336 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a6bf133eda1ec95be202b77c33412bc8e" name="a6bf133eda1ec95be202b77c33412bc8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bf133eda1ec95be202b77c33412bc8e">&#9670;&#160;</a></span>MR_Vector3f</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct MR_Vector3f MR_Vector3f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="ac4ad0a0b5b5edbde8c6a025be818d0db" name="ac4ad0a0b5b5edbde8c6a025be818d0db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4ad0a0b5b5edbde8c6a025be818d0db">&#9670;&#160;</a></span>MR_ChangeOnePointInPolylineAction_action()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_ChangeOnePointInPolylineAction_action </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aff5307960a8c87337da88bb8be88c198">MR_ChangeOnePointInPolylineAction</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRHistoryAction_8h.html#aa6545a91fb04c0c7a224383de1b0d1dc">MR_HistoryAction_Type</a></td>          <td class="paramname"><span class="paramname"><em>_1</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeOnePointInPolylineAction.html">MR::ChangeOnePointInPolylineAction</a></code> named <code>action</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a69051d102b7be472613d0a7cc2a84f17" name="a69051d102b7be472613d0a7cc2a84f17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69051d102b7be472613d0a7cc2a84f17">&#9670;&#160;</a></span>MR_ChangeOnePointInPolylineAction_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aff5307960a8c87337da88bb8be88c198">MR_ChangeOnePointInPolylineAction</a> * MR_ChangeOnePointInPolylineAction_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aff5307960a8c87337da88bb8be88c198">MR_ChangeOnePointInPolylineAction</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#aff5307960a8c87337da88bb8be88c198">MR_ChangeOnePointInPolylineAction</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeOnePointInPolylineAction.html">MR::ChangeOnePointInPolylineAction</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a1f2afc42ccbe36d436cca914073d0f74" name="a1f2afc42ccbe36d436cca914073d0f74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f2afc42ccbe36d436cca914073d0f74">&#9670;&#160;</a></span>MR_ChangeOnePointInPolylineAction_Construct_3()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aff5307960a8c87337da88bb8be88c198">MR_ChangeOnePointInPolylineAction</a> * MR_ChangeOnePointInPolylineAction_Construct_3 </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>name_end</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ae4c0039308e4be0822d33b37cd0b14c2">MR_std_shared_ptr_MR_ObjectLines</a> *</td>          <td class="paramname"><span class="paramname"><em>obj</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__VertId.html">MR_VertId</a></td>          <td class="paramname"><span class="paramname"><em>pointId</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>use this constructor to remember point's coordinates before making any changes in it Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeOnePointInPolylineAction.html">MR::ChangeOnePointInPolylineAction</a></code>. Parameter <code>name</code> can not be null. If <code>name_end</code> is null, then <code>name</code> is assumed to be null-terminated. Parameter <code>obj</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ac46a46469ec9f7079be8aae948fe67ff" title="Destroys a heap-allocated instance of MR_ChangeOnePointInPolylineAction. Does nothing if the pointer ...">MR_ChangeOnePointInPolylineAction_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a907f373f8fe6547dc86c1be91b80b542" name="a907f373f8fe6547dc86c1be91b80b542"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a907f373f8fe6547dc86c1be91b80b542">&#9670;&#160;</a></span>MR_ChangeOnePointInPolylineAction_Construct_4()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aff5307960a8c87337da88bb8be88c198">MR_ChangeOnePointInPolylineAction</a> * MR_ChangeOnePointInPolylineAction_Construct_4 </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>name</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>name_end</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#ae4c0039308e4be0822d33b37cd0b14c2">MR_std_shared_ptr_MR_ObjectLines</a> *</td>          <td class="paramname"><span class="paramname"><em>obj</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__VertId.html">MR_VertId</a></td>          <td class="paramname"><span class="paramname"><em>pointId</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>newCoords</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>use this constructor to remember point's coordinates and immediate set new coordinates Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeOnePointInPolylineAction.html">MR::ChangeOnePointInPolylineAction</a></code>. Parameter <code>name</code> can not be null. If <code>name_end</code> is null, then <code>name</code> is assumed to be null-terminated. Parameter <code>obj</code> can not be null. It is a single object. Parameter <code>newCoords</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ac46a46469ec9f7079be8aae948fe67ff" title="Destroys a heap-allocated instance of MR_ChangeOnePointInPolylineAction. Does nothing if the pointer ...">MR_ChangeOnePointInPolylineAction_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="afab0f3038112a51562e68402132308b5" name="afab0f3038112a51562e68402132308b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afab0f3038112a51562e68402132308b5">&#9670;&#160;</a></span>MR_ChangeOnePointInPolylineAction_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aff5307960a8c87337da88bb8be88c198">MR_ChangeOnePointInPolylineAction</a> * MR_ChangeOnePointInPolylineAction_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#aff5307960a8c87337da88bb8be88c198">MR_ChangeOnePointInPolylineAction</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeOnePointInPolylineAction.html">MR::ChangeOnePointInPolylineAction</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ac46a46469ec9f7079be8aae948fe67ff" title="Destroys a heap-allocated instance of MR_ChangeOnePointInPolylineAction. Does nothing if the pointer ...">MR_ChangeOnePointInPolylineAction_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ac46a46469ec9f7079be8aae948fe67ff" name="ac46a46469ec9f7079be8aae948fe67ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac46a46469ec9f7079be8aae948fe67ff">&#9670;&#160;</a></span>MR_ChangeOnePointInPolylineAction_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_ChangeOnePointInPolylineAction_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aff5307960a8c87337da88bb8be88c198">MR_ChangeOnePointInPolylineAction</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_ChangeOnePointInPolylineAction</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="aa4f96041200fcaec4960003b4eada251" name="aa4f96041200fcaec4960003b4eada251"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4f96041200fcaec4960003b4eada251">&#9670;&#160;</a></span>MR_ChangeOnePointInPolylineAction_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_ChangeOnePointInPolylineAction_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aff5307960a8c87337da88bb8be88c198">MR_ChangeOnePointInPolylineAction</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_ChangeOnePointInPolylineAction</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a71260c5fd2bdbcdca56508dac0e388aa" name="a71260c5fd2bdbcdca56508dac0e388aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71260c5fd2bdbcdca56508dac0e388aa">&#9670;&#160;</a></span>MR_ChangeOnePointInPolylineAction_heapBytes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> MR_ChangeOnePointInPolylineAction_heapBytes </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aff5307960a8c87337da88bb8be88c198">MR_ChangeOnePointInPolylineAction</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeOnePointInPolylineAction.html">MR::ChangeOnePointInPolylineAction</a></code> named <code>heapBytes</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a97010deed843396d3f5962f83718b780" name="a97010deed843396d3f5962f83718b780"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97010deed843396d3f5962f83718b780">&#9670;&#160;</a></span>MR_ChangeOnePointInPolylineAction_MutableUpcastTo_MR_HistoryAction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a> * MR_ChangeOnePointInPolylineAction_MutableUpcastTo_MR_HistoryAction </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aff5307960a8c87337da88bb8be88c198">MR_ChangeOnePointInPolylineAction</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1ChangeOnePointInPolylineAction.html">MR::ChangeOnePointInPolylineAction</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code>. </p>
+
+</div>
+</div>
+<a id="a2154d64858ac6fc56dce43ab2fad31d8" name="a2154d64858ac6fc56dce43ab2fad31d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2154d64858ac6fc56dce43ab2fad31d8">&#9670;&#160;</a></span>MR_ChangeOnePointInPolylineAction_name()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_ChangeOnePointInPolylineAction_name </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aff5307960a8c87337da88bb8be88c198">MR_ChangeOnePointInPolylineAction</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeOnePointInPolylineAction.html">MR::ChangeOnePointInPolylineAction</a></code> named <code>name</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__string_8h.html#a9ffa0a79c0c1ac50a81c8dfdf2fd5d91" title="Destroys a heap-allocated instance of MR_std_string. Does nothing if the pointer is null.">MR_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a0fefacb256dbaba58ac7f4d13c1b3037" name="a0fefacb256dbaba58ac7f4d13c1b3037"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fefacb256dbaba58ac7f4d13c1b3037">&#9670;&#160;</a></span>MR_ChangeOnePointInPolylineAction_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aff5307960a8c87337da88bb8be88c198">MR_ChangeOnePointInPolylineAction</a> * MR_ChangeOnePointInPolylineAction_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aff5307960a8c87337da88bb8be88c198">MR_ChangeOnePointInPolylineAction</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a2c8aacdd18239ee12df4a5ff7fff9fa6" name="a2c8aacdd18239ee12df4a5ff7fff9fa6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c8aacdd18239ee12df4a5ff7fff9fa6">&#9670;&#160;</a></span>MR_ChangeOnePointInPolylineAction_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#aff5307960a8c87337da88bb8be88c198">MR_ChangeOnePointInPolylineAction</a> * MR_ChangeOnePointInPolylineAction_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aff5307960a8c87337da88bb8be88c198">MR_ChangeOnePointInPolylineAction</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="ac547073e7466063667a6cde3b5232957" name="ac547073e7466063667a6cde3b5232957"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac547073e7466063667a6cde3b5232957">&#9670;&#160;</a></span>MR_ChangeOnePointInPolylineAction_setObjectDirty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_ChangeOnePointInPolylineAction_setObjectDirty </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ae4c0039308e4be0822d33b37cd0b14c2">MR_std_shared_ptr_MR_ObjectLines</a> *</td>          <td class="paramname"><span class="paramname"><em>obj</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1ChangeOnePointInPolylineAction.html">MR::ChangeOnePointInPolylineAction</a></code> named <code>setObjectDirty</code>. Parameter <code>obj</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="ac77dc6bf1eb4e9ad8d3ec52d2bf2b7f3" name="ac77dc6bf1eb4e9ad8d3ec52d2bf2b7f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac77dc6bf1eb4e9ad8d3ec52d2bf2b7f3">&#9670;&#160;</a></span>MR_ChangeOnePointInPolylineAction_UpcastTo_MR_HistoryAction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56">MR_HistoryAction</a> * MR_ChangeOnePointInPolylineAction_UpcastTo_MR_HistoryAction </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aff5307960a8c87337da88bb8be88c198">MR_ChangeOnePointInPolylineAction</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1ChangeOnePointInPolylineAction.html">MR::ChangeOnePointInPolylineAction</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1HistoryAction.html">MR::HistoryAction</a></code>. This version is acting on mutable pointers. </p>
+
+</div>
+</div>
 <a id="a4f7c2778c1acdc77e4196f6b9e6d5520" name="a4f7c2778c1acdc77e4196f6b9e6d5520"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4f7c2778c1acdc77e4196f6b9e6d5520">&#9670;&#160;</a></span>MR_ChangePolylineAction_action()</h2>
 
