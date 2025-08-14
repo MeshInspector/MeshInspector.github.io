@@ -969,6 +969,7 @@ var annotated_dup =
       [ "ViewerTitle", "classMR_1_1ViewerTitle.html", "classMR_1_1ViewerTitle" ],
       [ "Viewport", "classMR_1_1Viewport.html", "classMR_1_1Viewport" ],
       [ "ViewportGL", "classMR_1_1ViewportGL.html", "classMR_1_1ViewportGL" ],
+      [ "ViewportGlobalBasis", "classMR_1_1ViewportGlobalBasis.html", "classMR_1_1ViewportGlobalBasis" ],
       [ "ViewportId", "classMR_1_1ViewportId.html", "classMR_1_1ViewportId" ],
       [ "ViewportIterator", "classMR_1_1ViewportIterator.html", "classMR_1_1ViewportIterator" ],
       [ "ViewportMask", "classMR_1_1ViewportMask.html", "classMR_1_1ViewportMask" ],
