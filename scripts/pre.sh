@@ -11,16 +11,10 @@ TARGET_DIR="${1:-MeshLib/local}"
 # create backup html_header.html
 cp html_header.html html_header.html.bak
 
-# Additional insertion for html_head_canonical.html if $TARGET_DIR is "MeshLib"
+# Add canonical link only for main distribution
 if [ "$TARGET_DIR" == "MeshLib" ]; then
-    sed \
-        -e "/<head>/r scripts/analytics/html_head_canonical.html" \
-        -i html_header.html
+    sed -e 's|<\!-- Canonical Link -->|<link rel=\"canonical\" href="" />|' -i html_header.html
 fi
-
-# make no-index html_header.html for API parts of documentation
-cp html_header.html html_header_main.html
-sed -e 's|<\!-- No Index Part -->|<meta name=\"robots\" content=\"noindex, nofollow\">|' -i html_header.html
 
 if [ ! -f ../MeshLib/scripts/doxygen/generate_doxygen_layout.sh ]; then
     echo "[ERROR] Can not found script to generate doxygen layout files"

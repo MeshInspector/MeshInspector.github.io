@@ -16,7 +16,7 @@ remove_noindex() {
   relative_path="${file_path#$HTML_DIR/}"
 
   # Use sed to remove noindex tag
-  sed -i -E "s|<meta name=\"robots\" content=\"noindex\"/>||" "$file_path"
+  sed -i -E "s|<meta name=\"googlebot\" content=\"noindex, follow\">||" "$file_path"
   echo "Removed noindex tag from: $file_path"
 }
 
