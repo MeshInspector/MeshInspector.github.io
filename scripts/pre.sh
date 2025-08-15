@@ -11,9 +11,14 @@ TARGET_DIR="${1:-MeshLib/local}"
 # create backup html_header.html
 cp html_header.html html_header.html.bak
 
-# Add canonical link only for main distribution
 if [ "$TARGET_DIR" == "MeshLib" ]; then
+    # Add canonical link only for main distribution
     sed -e 's|<\!-- Canonical Link -->|<link rel=\"canonical\" href="" />|' -i html_header.html
+    # Add googlebot noindex for main distribution
+    sed -e 's|<\!-- No Index Meta -->|<meta name=\"googlebot\" content=\"noindex, follow\">|' -i html_header.html
+else
+    # Add complete noindex for dev distribution
+    sed -e 's|<\!-- No Index Meta -->|<meta name=\"robots\" content=\"noindex, nofollow\">|' -i html_header.html
 fi
 
 if [ ! -f ../MeshLib/scripts/doxygen/generate_doxygen_layout.sh ]; then
