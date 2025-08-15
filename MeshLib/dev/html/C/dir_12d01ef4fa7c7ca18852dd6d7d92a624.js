@@ -230,6 +230,7 @@ var dir_12d01ef4fa7c7ca18852dd6d7d92a624 =
     [ "std_pair_std_vector_MR_UndirectedEdgeBitSet_int32_t.h", "std__pair__std__vector__MR__UndirectedEdgeBitSet__int32__t_8h.html", "std__pair__std__vector__MR__UndirectedEdgeBitSet__int32__t_8h" ],
     [ "std_pair_std_vector_MR_VertBitSet_int32_t.h", "std__pair__std__vector__MR__VertBitSet__int32__t_8h.html", "std__pair__std__vector__MR__VertBitSet__int32__t_8h" ],
     [ "std_pair_uint64_t_uint64_t.h", "std__pair__uint64__t__uint64__t_8h.html", "std__pair__uint64__t__uint64__t_8h" ],
+    [ "std_set_std_string.h", "std__set__std__string_8h.html", "std__set__std__string_8h" ],
     [ "std_shared_ptr_const_MR_Mesh.h", "std__shared__ptr__const__MR__Mesh_8h.html", "std__shared__ptr__const__MR__Mesh_8h" ],
     [ "std_shared_ptr_const_MR_Object.h", "std__shared__ptr__const__MR__Object_8h.html", "std__shared__ptr__const__MR__Object_8h" ],
     [ "std_shared_ptr_const_MR_PointCloud.h", "std__shared__ptr__const__MR__PointCloud_8h.html", "std__shared__ptr__const__MR__PointCloud_8h" ],

@@ -1,5 +1,13 @@
 var NAVTREEINDEX69 =
 {
+"structMR_1_1BaseTiffParameters.html#a29407caa933d6665768b37358d7733e0a88183b946cc5f0e8c96b2e66e1c74a7e":[6,0,2,0,1,55,1,0],
+"structMR_1_1BaseTiffParameters.html#a29407caa933d6665768b37358d7733e0a889574aebacda6bfd3e534e2b49b8028":[6,0,1,0,1,72,1,2],
+"structMR_1_1BaseTiffParameters.html#a29407caa933d6665768b37358d7733e0a889574aebacda6bfd3e534e2b49b8028":[6,0,2,0,1,55,1,2],
+"structMR_1_1BaseTiffParameters.html#a29407caa933d6665768b37358d7733e0aea3495a278957dc58165e48a8945469f":[6,0,1,0,1,72,1,3],
+"structMR_1_1BaseTiffParameters.html#a29407caa933d6665768b37358d7733e0aea3495a278957dc58165e48a8945469f":[6,0,2,0,1,55,1,3],
+"structMR_1_1BaseTiffParameters.html#a29407caa933d6665768b37358d7733e0af60357a8d17e45793298323f1b372a74":[6,0,1,0,1,72,1,1],
+"structMR_1_1BaseTiffParameters.html#a29407caa933d6665768b37358d7733e0af60357a8d17e45793298323f1b372a74":[6,0,2,0,1,55,1,1],
+"structMR_1_1BaseTiffParameters.html#a3ff0d181f2553f8714d635e264f383c7":[6,0,1,0,1,72,3],
 "structMR_1_1BaseTiffParameters.html#a3ff0d181f2553f8714d635e264f383c7":[6,0,2,0,1,55,3],
 "structMR_1_1BaseTiffParameters.html#a5a3058ad1eccd44efa6030c506332e44":[6,0,1,0,1,72,5],
 "structMR_1_1BaseTiffParameters.html#a5a3058ad1eccd44efa6030c506332e44":[6,0,2,0,1,55,5],
@@ -241,13 +249,5 @@ var NAVTREEINDEX69 =
 "structMR_1_1CloudPartMapping.html":[6,0,2,0,1,125],
 "structMR_1_1CloudPartMapping.html#a067263261bdd0276850b5722ebbdb8f1":[6,0,1,0,1,142,1],
 "structMR_1_1CloudPartMapping.html#a067263261bdd0276850b5722ebbdb8f1":[6,0,2,0,1,125,1],
-"structMR_1_1CloudPartMapping.html#a58a157b8e17755eba5fbff6ad4e90483":[6,0,1,0,1,142,0],
-"structMR_1_1CloudPartMapping.html#a58a157b8e17755eba5fbff6ad4e90483":[6,0,2,0,1,125,0],
-"structMR_1_1CmpOld.html":[6,0,0,4,37],
-"structMR_1_1Color.html":[6,0,1,0,1,145],
-"structMR_1_1Color.html":[6,0,2,0,1,128],
-"structMR_1_1Color.html#a21c5ef511dcf3b636ce3f8a5fd699874":[6,0,1,0,1,145,17],
-"structMR_1_1Color.html#a21c5ef511dcf3b636ce3f8a5fd699874":[6,0,2,0,1,128,17],
-"structMR_1_1Color.html#a2879fe1d429706d60bf61dba5073b28d":[6,0,1,0,1,145,6],
-"structMR_1_1Color.html#a2879fe1d429706d60bf61dba5073b28d":[6,0,2,0,1,128,6]
+"structMR_1_1CloudPartMapping.html#a58a157b8e17755eba5fbff6ad4e90483":[6,0,1,0,1,142,0]
 };

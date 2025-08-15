@@ -1143,6 +1143,7 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.std_optional_Vector_std_array_Id_VertTag_2ul_Id_UndirectedEdgeTag", "classmrmeshpy_1_1std__optional__Vector__std__array__Id__VertTag__2ul__Id__UndirectedEdgeTag.html", "classmrmeshpy_1_1std__optional__Vector__std__array__Id__VertTag__2ul__Id__UndirectedEdgeTag" ],
     [ "mrmeshpy.std_optional_Vector_std_array_Id_VertTag_3ul_Id_FaceTag", "classmrmeshpy_1_1std__optional__Vector__std__array__Id__VertTag__3ul__Id__FaceTag.html", "classmrmeshpy_1_1std__optional__Vector__std__array__Id__VertTag__3ul__Id__FaceTag" ],
     [ "mrmeshpy.std_optional_double", "classmrmeshpy_1_1std__optional__double.html", "classmrmeshpy_1_1std__optional__double" ],
+    [ "mrmeshpy.std_set_std_string", "classmrmeshpy_1_1std__set__std__string.html", "classmrmeshpy_1_1std__set__std__string" ],
     [ "mrmeshpy.std_string_output", "classmrmeshpy_1_1std__string__output.html", "classmrmeshpy_1_1std__string__output" ],
     [ "mrmeshpy.std_unordered_set_std_string", "classmrmeshpy_1_1std__unordered__set__std__string.html", "classmrmeshpy_1_1std__unordered__set__std__string" ],
     [ "mrmeshpy.std_variant_Id_FaceTag_Id_EdgeTag_Id_VertTag", "classmrmeshpy_1_1std__variant__Id__FaceTag__Id__EdgeTag__Id__VertTag.html", "classmrmeshpy_1_1std__variant__Id__FaceTag__Id__EdgeTag__Id__VertTag" ],

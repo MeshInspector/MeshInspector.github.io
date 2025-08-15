@@ -1,5 +1,13 @@
 var NAVTREEINDEX74 =
 {
+"structMR_1_1FileDialogSignals.html#ae5d54be77bfb8a87ce567e148a75c449":[6,0,1,0,1,239,1],
+"structMR_1_1FileDialogSignals.html#ae5d54be77bfb8a87ce567e148a75c449":[6,0,2,0,1,222,1],
+"structMR_1_1FileDialogSignals.html#af2edd6d3969959890c9d36abe0e8cfdf":[6,0,1,0,1,239,0],
+"structMR_1_1FileDialogSignals.html#af2edd6d3969959890c9d36abe0e8cfdf":[6,0,2,0,1,222,0],
+"structMR_1_1FileDialogSignals.html#afa35a6c193fd7c7c877407d10c4e4ebf":[6,0,1,0,1,239,3],
+"structMR_1_1FileDialogSignals.html#afa35a6c193fd7c7c877407d10c4e4ebf":[6,0,2,0,1,222,3],
+"structMR_1_1FileDialog_1_1Parameters.html":[6,0,1,0,1,7,0],
+"structMR_1_1FileDialog_1_1Parameters.html":[6,0,2,0,1,3,0],
 "structMR_1_1FileDialog_1_1Parameters.html#a3b16808165abc1930db418e488d58225":[6,0,1,0,1,7,0,1],
 "structMR_1_1FileDialog_1_1Parameters.html#a3b16808165abc1930db418e488d58225":[6,0,2,0,1,3,0,1],
 "structMR_1_1FileDialog_1_1Parameters.html#a5957d3b8f636e18b3629def114de4b46":[6,0,1,0,1,7,0,2],
@@ -241,13 +249,5 @@ var NAVTREEINDEX74 =
 "structMR_1_1GcodeProcessor_1_1BaseAction.html#a9270868b501d221ffbe92fc1d7c8916e":[6,0,2,0,1,252,0,1],
 "structMR_1_1GcodeProcessor_1_1Command.html":[6,0,1,0,1,269,1],
 "structMR_1_1GcodeProcessor_1_1Command.html":[6,0,2,0,1,252,1],
-"structMR_1_1GcodeProcessor_1_1Command.html#a7465c37851c2a57ce372444cc1a0aeb9":[6,0,1,0,1,269,1,1],
-"structMR_1_1GcodeProcessor_1_1Command.html#a7465c37851c2a57ce372444cc1a0aeb9":[6,0,2,0,1,252,1,1],
-"structMR_1_1GcodeProcessor_1_1Command.html#ae3896dcb88dae275220940ab26d6d42f":[6,0,1,0,1,269,1,0],
-"structMR_1_1GcodeProcessor_1_1Command.html#ae3896dcb88dae275220940ab26d6d42f":[6,0,2,0,1,252,1,0],
-"structMR_1_1GcodeProcessor_1_1MoveAction.html":[6,0,1,0,1,269,2],
-"structMR_1_1GcodeProcessor_1_1MoveAction.html":[6,0,2,0,1,252,2],
-"structMR_1_1GcodeProcessor_1_1MoveAction.html#a084a7529a3f6202733cdf15bef0d70df":[6,0,1,0,1,269,2,3],
-"structMR_1_1GcodeProcessor_1_1MoveAction.html#a084a7529a3f6202733cdf15bef0d70df":[6,0,2,0,1,252,2,3],
-"structMR_1_1GcodeProcessor_1_1MoveAction.html#a31e8f3ca925b988d46df24c5b5bf8ddd":[6,0,1,0,1,269,2,4]
+"structMR_1_1GcodeProcessor_1_1Command.html#a7465c37851c2a57ce372444cc1a0aeb9":[6,0,1,0,1,269,1,1]
 };

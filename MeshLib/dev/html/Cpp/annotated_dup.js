@@ -802,6 +802,7 @@ var annotated_dup =
       [ "RibbonSchema", "structMR_1_1RibbonSchema.html", "structMR_1_1RibbonSchema" ],
       [ "RibbonSchemaHolder", "classMR_1_1RibbonSchemaHolder.html", "classMR_1_1RibbonSchemaHolder" ],
       [ "RibbonSchemaLoader", "classMR_1_1RibbonSchemaLoader.html", "classMR_1_1RibbonSchemaLoader" ],
+      [ "RibbonSchemaLoadListener", "classMR_1_1RibbonSchemaLoadListener.html", "classMR_1_1RibbonSchemaLoadListener" ],
       [ "RibbonTab", "structMR_1_1RibbonTab.html", "structMR_1_1RibbonTab" ],
       [ "RigidScaleXf3", "structMR_1_1RigidScaleXf3.html", "structMR_1_1RigidScaleXf3" ],
       [ "RigidXf3", "structMR_1_1RigidXf3.html", "structMR_1_1RigidXf3" ],

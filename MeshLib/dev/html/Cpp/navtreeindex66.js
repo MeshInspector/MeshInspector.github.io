@@ -1,5 +1,13 @@
 var NAVTREEINDEX66 =
 {
+"namespaceMR_1_1UI_1_1TestEngine_1_1detail.html#ab897ec83d6544cb895ed73a8330cfe6e":[6,0,1,0,1,41,1,0,2],
+"namespaceMR_1_1UI_1_1TestEngine_1_1detail.html#ac2f7518d44c7eb65bc5d01a679aa92b1":[6,0,1,0,1,41,1,0,3],
+"namespaceMR_1_1UI_1_1TestEngine_1_1detail.html#ac882563b64f6642213d1e878402bc2a4":[6,0,1,0,1,41,1,0,6],
+"namespaceMR_1_1UI_1_1TestEngine_1_1detail.html#aea3a5234b7dda295afcf90ff4f467aae":[6,0,1,0,1,41,1,0,5],
+"namespaceMR_1_1UI_1_1detail.html":[6,0,1,0,1,41,0],
+"namespaceMR_1_1UI_1_1detail.html#a0b9ea313e9b93469005d3c375b2b9652":[6,0,1,0,1,41,0,6],
+"namespaceMR_1_1UI_1_1detail.html#a797ee2107c897bf2d084fede574e062b":[6,0,1,0,1,41,0,5],
+"namespaceMR_1_1UI_1_1detail.html#a94d9e7cba8a9ce853aeee7b29b563391":[6,0,1,0,1,41,0,4],
 "namespaceMR_1_1UI_1_1detail.html#ab56fe865a416552aa6f504ce57514ae3":[6,0,1,0,1,41,0,7],
 "namespaceMR_1_1UnitSettings.html":[6,0,1,0,1,42],
 "namespaceMR_1_1UnitSettings.html#a0325434bfffb878393212fbdbca5aa8e":[6,0,1,0,1,42,3],
@@ -241,13 +249,5 @@ var NAVTREEINDEX66 =
 "structMRDenoiseViaNormalsSettings.html#a7adbffbe48f999ba44ccc2d6e50d3090":[6,0,2,0,13,6],
 "structMRDenoiseViaNormalsSettings.html#a9c96228a47b139c7c8fecc74f52faeb2":[6,0,2,0,13,3],
 "structMRDenoiseViaNormalsSettings.html#aa8029cf336446f8f1f98f5a2cdb204c2":[6,0,2,0,13,4],
-"structMRDenoiseViaNormalsSettings.html#aaa38eb468fbd9a754234a600955f1321":[6,0,2,0,13,1],
-"structMRDenoiseViaNormalsSettings.html#aaee3a82832c6630dfada412199c0d02a":[6,0,2,0,13,9],
-"structMRDenoiseViaNormalsSettings.html#ab55840e2cfced4070fe664eb48980d68":[6,0,2,0,13,8],
-"structMRDenoiseViaNormalsSettings.html#ab65afa93830d3c7d4dd35df82c51676e":[6,0,2,0,13,7],
-"structMRDenoiseViaNormalsSettings.html#ac0d85d042699db621a101a94cf8f060f":[6,0,2,0,13,2],
-"structMREdgeId.html":[6,0,2,0,14],
-"structMREdgeId.html#a2b0c5ae69db1e5c437d4994afb6b3288":[6,0,2,0,14,0],
-"structMREdgeTri.html":[6,0,2,0,15],
-"structMREdgeTri.html#a2c680614c8efa233c724f7ee465103ea":[6,0,2,0,15,0]
+"structMRDenoiseViaNormalsSettings.html#aaa38eb468fbd9a754234a600955f1321":[6,0,2,0,13,1]
 };

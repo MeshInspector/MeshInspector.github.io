@@ -1111,6 +1111,7 @@ var hierarchy =
     [ "MR::RibbonSchema", "structMR_1_1RibbonSchema.html", null ],
     [ "MR::RibbonSchemaHolder", "classMR_1_1RibbonSchemaHolder.html", null ],
     [ "MR::RibbonSchemaLoader", "classMR_1_1RibbonSchemaLoader.html", null ],
+    [ "MR::RibbonSchemaLoadListener", "classMR_1_1RibbonSchemaLoadListener.html", null ],
     [ "MR::RibbonTab", "structMR_1_1RibbonTab.html", null ],
     [ "MR::RigidScaleXf3< T >", "structMR_1_1RigidScaleXf3.html", null ],
     [ "MR::RigidXf3< T >", "structMR_1_1RigidXf3.html", null ],

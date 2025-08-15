@@ -1,5 +1,13 @@
 var NAVTREEINDEX75 =
 {
+"structMR_1_1GcodeProcessor_1_1Command.html#a7465c37851c2a57ce372444cc1a0aeb9":[6,0,2,0,1,252,1,1],
+"structMR_1_1GcodeProcessor_1_1Command.html#ae3896dcb88dae275220940ab26d6d42f":[6,0,1,0,1,269,1,0],
+"structMR_1_1GcodeProcessor_1_1Command.html#ae3896dcb88dae275220940ab26d6d42f":[6,0,2,0,1,252,1,0],
+"structMR_1_1GcodeProcessor_1_1MoveAction.html":[6,0,1,0,1,269,2],
+"structMR_1_1GcodeProcessor_1_1MoveAction.html":[6,0,2,0,1,252,2],
+"structMR_1_1GcodeProcessor_1_1MoveAction.html#a084a7529a3f6202733cdf15bef0d70df":[6,0,1,0,1,269,2,3],
+"structMR_1_1GcodeProcessor_1_1MoveAction.html#a084a7529a3f6202733cdf15bef0d70df":[6,0,2,0,1,252,2,3],
+"structMR_1_1GcodeProcessor_1_1MoveAction.html#a31e8f3ca925b988d46df24c5b5bf8ddd":[6,0,1,0,1,269,2,4],
 "structMR_1_1GcodeProcessor_1_1MoveAction.html#a31e8f3ca925b988d46df24c5b5bf8ddd":[6,0,2,0,1,252,2,4],
 "structMR_1_1GcodeProcessor_1_1MoveAction.html#a3d704b08012c57fec93ba58808ee3421":[6,0,1,0,1,269,2,5],
 "structMR_1_1GcodeProcessor_1_1MoveAction.html#a3d704b08012c57fec93ba58808ee3421":[6,0,2,0,1,252,2,5],
@@ -241,13 +249,5 @@ var NAVTREEINDEX75 =
 "structMR_1_1ImGuiMath_1_1detail_1_1VecSize_3_01ImVec4_01_4.html":[6,0,1,0,1,14,0,7],
 "structMR_1_1ImGuiMath_1_1detail_1_1VecSize_3_01ImVec4_01_4.html":[6,0,2,0,1,5,0,7],
 "structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html":[6,0,1,0,1,15,0],
-"structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html":[6,0,2,0,1,6,0],
-"structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html#a70593a72a82e65c0669e7eeaea91274e":[6,0,1,0,1,15,0,0],
-"structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html#a70593a72a82e65c0669e7eeaea91274e":[6,0,2,0,1,6,0,0],
-"structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html#aa3013a0de4fe197926b96f4683065a23":[6,0,1,0,1,15,0,2],
-"structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html#aa3013a0de4fe197926b96f4683065a23":[6,0,2,0,1,6,0,2],
-"structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html#abac2cff41f1bc2c17f07184162976b9f":[6,0,1,0,1,15,0,1],
-"structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html#abac2cff41f1bc2c17f07184162976b9f":[6,0,2,0,1,6,0,1],
-"structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html":[6,0,1,0,1,15,1],
-"structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html":[6,0,2,0,1,6,1]
+"structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html":[6,0,2,0,1,6,0]
 };

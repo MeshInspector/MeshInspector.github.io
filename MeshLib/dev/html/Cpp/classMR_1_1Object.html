@@ -383,8 +383,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a9f8a60330354b5cd43536c22bed08f3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a376cb1be36addec5afd14487533e6693" id="r_a376cb1be36addec5afd14487533e6693"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a376cb1be36addec5afd14487533e6693">hasModel</a> () const</td></tr>
 <tr class="separator:a376cb1be36addec5afd14487533e6693"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abf18efa242a657680c89a3429bca6cd6" id="r_abf18efa242a657680c89a3429bca6cd6"><td class="memItemLeft" align="right" valign="top">const std::unordered_set&lt; std::string &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf18efa242a657680c89a3429bca6cd6">tags</a> () const</td></tr>
-<tr class="separator:abf18efa242a657680c89a3429bca6cd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf2e87d7dd67d22799d82a35ddecc7b3" id="r_abf2e87d7dd67d22799d82a35ddecc7b3"><td class="memItemLeft" align="right" valign="top">const std::set&lt; std::string &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf2e87d7dd67d22799d82a35ddecc7b3">tags</a> () const</td></tr>
+<tr class="separator:abf2e87d7dd67d22799d82a35ddecc7b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1bc49d038870615cf0a59705e4796075" id="r_a1bc49d038870615cf0a59705e4796075"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1bc49d038870615cf0a59705e4796075">addTag</a> (std::string tag)</td></tr>
 <tr class="separator:a1bc49d038870615cf0a59705e4796075"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba4a6f7731fa48aa3ffcd233f5dfc451" id="r_aba4a6f7731fa48aa3ffcd233f5dfc451"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba4a6f7731fa48aa3ffcd233f5dfc451">removeTag</a> (const std::string &amp;tag)</td></tr>
@@ -464,8 +464,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a7919fe84554abf5973d82255df4425a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92a390dc7570098981912529e341433d" id="r_a92a390dc7570098981912529e341433d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a92a390dc7570098981912529e341433d">needRedraw_</a> {false}</td></tr>
 <tr class="separator:a92a390dc7570098981912529e341433d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afbbc30b0b916764413cc5aca7639f5d7" id="r_afbbc30b0b916764413cc5aca7639f5d7"><td class="memItemLeft" align="right" valign="top">std::unordered_set&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afbbc30b0b916764413cc5aca7639f5d7">tags_</a></td></tr>
-<tr class="separator:afbbc30b0b916764413cc5aca7639f5d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf2154dc69866e93f47d7207cdb4abf4" id="r_abf2154dc69866e93f47d7207cdb4abf4"><td class="memItemLeft" align="right" valign="top">std::set&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf2154dc69866e93f47d7207cdb4abf4">tags_</a></td></tr>
+<tr class="separator:abf2154dc69866e93f47d7207cdb4abf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classMR_1_1ObjectChildrenHolder"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1ObjectChildrenHolder')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1ObjectChildrenHolder.html">MR::ObjectChildrenHolder</a></td></tr>
 <tr class="memitem:a79a7197e0981d1da1b59f5fa0d858f7d inherit pro_attribs_classMR_1_1ObjectChildrenHolder" id="r_a79a7197e0981d1da1b59f5fa0d858f7d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1ObjectChildrenHolder.html">ObjectChildrenHolder</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectChildrenHolder.html#a79a7197e0981d1da1b59f5fa0d858f7d">parent_</a> = nullptr</td></tr>
 <tr class="separator:a79a7197e0981d1da1b59f5fa0d858f7d inherit pro_attribs_classMR_1_1ObjectChildrenHolder"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -706,7 +706,7 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>adds tag to the object's tag storage additionally calls ObjectTagManager::tagAddedSignal </p>
+<p>adds tag to the object's tag storage additionally calls ObjectTagManager::tagAddedSignal NOTE: tags starting with a dot are considered as service ones and might be hidden from <a class="el" href="namespaceMR_1_1UI.html">UI</a> </p>
 
 </div>
 </div>
@@ -2428,8 +2428,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="abf18efa242a657680c89a3429bca6cd6" name="abf18efa242a657680c89a3429bca6cd6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abf18efa242a657680c89a3429bca6cd6">&#9670;&#160;</a></span>tags()</h2>
+<a id="abf2e87d7dd67d22799d82a35ddecc7b3" name="abf2e87d7dd67d22799d82a35ddecc7b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf2e87d7dd67d22799d82a35ddecc7b3">&#9670;&#160;</a></span>tags()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2438,7 +2438,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const std::unordered_set&lt; std::string &gt; &amp; MR::Object::tags </td>
+          <td class="memname">const std::set&lt; std::string &gt; &amp; MR::Object::tags </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -2755,8 +2755,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="afbbc30b0b916764413cc5aca7639f5d7" name="afbbc30b0b916764413cc5aca7639f5d7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afbbc30b0b916764413cc5aca7639f5d7">&#9670;&#160;</a></span>tags_</h2>
+<a id="abf2154dc69866e93f47d7207cdb4abf4" name="abf2154dc69866e93f47d7207cdb4abf4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf2154dc69866e93f47d7207cdb4abf4">&#9670;&#160;</a></span>tags_</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2765,7 +2765,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::unordered_set&lt;std::string&gt; MR::Object::tags_</td>
+          <td class="memname">std::set&lt;std::string&gt; MR::Object::tags_</td>
         </tr>
       </table>
   </td>

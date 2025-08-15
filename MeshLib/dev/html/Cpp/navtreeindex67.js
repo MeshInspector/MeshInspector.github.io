@@ -1,5 +1,13 @@
 var NAVTREEINDEX67 =
 {
+"structMRDenoiseViaNormalsSettings.html#aaee3a82832c6630dfada412199c0d02a":[6,0,2,0,13,9],
+"structMRDenoiseViaNormalsSettings.html#ab55840e2cfced4070fe664eb48980d68":[6,0,2,0,13,8],
+"structMRDenoiseViaNormalsSettings.html#ab65afa93830d3c7d4dd35df82c51676e":[6,0,2,0,13,7],
+"structMRDenoiseViaNormalsSettings.html#ac0d85d042699db621a101a94cf8f060f":[6,0,2,0,13,2],
+"structMREdgeId.html":[6,0,2,0,14],
+"structMREdgeId.html#a2b0c5ae69db1e5c437d4994afb6b3288":[6,0,2,0,14,0],
+"structMREdgeTri.html":[6,0,2,0,15],
+"structMREdgeTri.html#a2c680614c8efa233c724f7ee465103ea":[6,0,2,0,15,0],
 "structMREdgeTri.html#aa8868c7aa994636a3b2feb7ce4bff9b9":[6,0,2,0,15,1],
 "structMRFaceId.html":[6,0,2,0,16],
 "structMRFaceId.html#a204eb026775902b1b2437f81f085f6f9":[6,0,2,0,16,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX67 =
 "structMRSubdivideSettings.html":[6,0,2,0,63],
 "structMRSubdivideSettings.html#a1d755eca0a3bcc58f0847f35da897684":[6,0,2,0,63,0],
 "structMRSubdivideSettings.html#a1e281a5d1635b3cf548aede48e82214a":[6,0,2,0,63,8],
-"structMRSubdivideSettings.html#a1e9d3add86da268d281c43554fa22c2a":[6,0,2,0,63,14],
-"structMRSubdivideSettings.html#a27a31d53f64821543bd5fb21cd4fab9d":[6,0,2,0,63,9],
-"structMRSubdivideSettings.html#a33ce3b63ebb60313037ea626982cee63":[6,0,2,0,63,1],
-"structMRSubdivideSettings.html#a40d6f0e5fc04584858699368ab9804bc":[6,0,2,0,63,13],
-"structMRSubdivideSettings.html#a4837999f61cc60e7cf30f052dc28f1dd":[6,0,2,0,63,7],
-"structMRSubdivideSettings.html#a5110fcc51f181788ac84bfb5d55c73c2":[6,0,2,0,63,11],
-"structMRSubdivideSettings.html#a55ed7d642c787d8957d3a9497ba51087":[6,0,2,0,63,5],
-"structMRSubdivideSettings.html#a6017bb445dacb13666341b551c1a7e96":[6,0,2,0,63,6],
-"structMRSubdivideSettings.html#a8cd07252f9a939e4ae38e6eeba987e76":[6,0,2,0,63,4]
+"structMRSubdivideSettings.html#a1e9d3add86da268d281c43554fa22c2a":[6,0,2,0,63,14]
 };

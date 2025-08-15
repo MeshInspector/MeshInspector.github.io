@@ -818,6 +818,7 @@ var namespacemrmeshpy =
     [ "std_optional_Vector3_float", "classmrmeshpy_1_1std__optional__Vector3__float.html", "classmrmeshpy_1_1std__optional__Vector3__float" ],
     [ "std_optional_Vector_std_array_Id_VertTag_2ul_Id_UndirectedEdgeTag", "classmrmeshpy_1_1std__optional__Vector__std__array__Id__VertTag__2ul__Id__UndirectedEdgeTag.html", "classmrmeshpy_1_1std__optional__Vector__std__array__Id__VertTag__2ul__Id__UndirectedEdgeTag" ],
     [ "std_optional_Vector_std_array_Id_VertTag_3ul_Id_FaceTag", "classmrmeshpy_1_1std__optional__Vector__std__array__Id__VertTag__3ul__Id__FaceTag.html", "classmrmeshpy_1_1std__optional__Vector__std__array__Id__VertTag__3ul__Id__FaceTag" ],
+    [ "std_set_std_string", "classmrmeshpy_1_1std__set__std__string.html", "classmrmeshpy_1_1std__set__std__string" ],
     [ "std_string_output", "classmrmeshpy_1_1std__string__output.html", "classmrmeshpy_1_1std__string__output" ],
     [ "std_unordered_set_std_string", "classmrmeshpy_1_1std__unordered__set__std__string.html", "classmrmeshpy_1_1std__unordered__set__std__string" ],
     [ "std_variant_float_Vector3_float", "classmrmeshpy_1_1std__variant__float__Vector3__float.html", "classmrmeshpy_1_1std__variant__float__Vector3__float" ],

@@ -1,5 +1,13 @@
 var NAVTREEINDEX82 =
 {
+"structMR_1_1ObjTreeTraits.html#a5517b355b3a51538470f957d6a23bff1":[6,0,2,0,1,453,2],
+"structMR_1_1ObjTreeTraits.html#a7208b3ed4cbf6a7db7c03785856d5131":[6,0,1,0,1,470,1],
+"structMR_1_1ObjTreeTraits.html#a7208b3ed4cbf6a7db7c03785856d5131":[6,0,2,0,1,453,1],
+"structMR_1_1ObjTreeTraits.html#ae8c8c6d7c93de2cba91378f547c50a8e":[6,0,1,0,1,470,0],
+"structMR_1_1ObjTreeTraits.html#ae8c8c6d7c93de2cba91378f547c50a8e":[6,0,2,0,1,453,0],
+"structMR_1_1ObjVertId.html":[6,0,1,0,1,471],
+"structMR_1_1ObjVertId.html":[6,0,2,0,1,454],
+"structMR_1_1ObjVertId.html#a4fe9249435e74452c6a1f2a06d40de31":[6,0,1,0,1,471,1],
 "structMR_1_1ObjVertId.html#a4fe9249435e74452c6a1f2a06d40de31":[6,0,2,0,1,454,1],
 "structMR_1_1ObjVertId.html#a921cb8e7f87d9fc04f442a3b02ed5806":[6,0,1,0,1,471,2],
 "structMR_1_1ObjVertId.html#a921cb8e7f87d9fc04f442a3b02ed5806":[6,0,2,0,1,454,2],
@@ -241,13 +249,5 @@ var NAVTREEINDEX82 =
 "structMR_1_1Parabola.html#aa24552a8fee4499ec38064ef05db41ac":[6,0,1,0,1,492,1],
 "structMR_1_1Parabola.html#aa24552a8fee4499ec38064ef05db41ac":[6,0,2,0,1,475,1],
 "structMR_1_1ParallelProgressReporter_1_1PerTaskReporter.html":[6,0,1,0,1,493,0],
-"structMR_1_1ParallelProgressReporter_1_1PerTaskReporter.html":[6,0,2,0,1,476,0],
-"structMR_1_1ParallelProgressReporter_1_1PerTaskReporter.html#a8a3bbfef3276f1831b2a645909a93a94":[6,0,1,0,1,493,0,2],
-"structMR_1_1ParallelProgressReporter_1_1PerTaskReporter.html#a8a3bbfef3276f1831b2a645909a93a94":[6,0,2,0,1,476,0,2],
-"structMR_1_1ParallelProgressReporter_1_1PerTaskReporter.html#af373a60a30b69ecccf117ed007327929":[6,0,1,0,1,493,0,0],
-"structMR_1_1ParallelProgressReporter_1_1PerTaskReporter.html#af373a60a30b69ecccf117ed007327929":[6,0,2,0,1,476,0,0],
-"structMR_1_1ParallelProgressReporter_1_1PerTaskReporter.html#af7f58457a6816a15728067d8fb9ae549":[6,0,1,0,1,493,0,1],
-"structMR_1_1ParallelProgressReporter_1_1PerTaskReporter.html#af7f58457a6816a15728067d8fb9ae549":[6,0,2,0,1,476,0,1],
-"structMR_1_1ParallelProgressReporter_1_1TaskInfo.html":[6,0,1,0,1,493,1],
-"structMR_1_1ParallelProgressReporter_1_1TaskInfo.html":[6,0,2,0,1,476,1]
+"structMR_1_1ParallelProgressReporter_1_1PerTaskReporter.html":[6,0,2,0,1,476,0]
 };

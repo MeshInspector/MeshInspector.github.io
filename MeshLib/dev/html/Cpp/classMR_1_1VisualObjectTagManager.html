@@ -163,27 +163,24 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:acc1fbe4ee1dee7064b9d1bac1569dd66" id="r_acc1fbe4ee1dee7064b9d1bac1569dd66"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API <a class="el" href="classMR_1_1VisualObjectTagManager.html">VisualObjectTagManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc1fbe4ee1dee7064b9d1bac1569dd66">instance</a> ()</td></tr>
 <tr class="memdesc:acc1fbe4ee1dee7064b9d1bac1569dd66"><td class="mdescLeft">&#160;</td><td class="mdescRight">get access to the global instance  <br /></td></tr>
 <tr class="separator:acc1fbe4ee1dee7064b9d1bac1569dd66"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aefce77b95b4d6f29c6f348e1706a0357" id="r_aefce77b95b4d6f29c6f348e1706a0357"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API const std::unordered_map&lt; std::string, <a class="el" href="structMR_1_1VisualObjectTag.html">VisualObjectTag</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefce77b95b4d6f29c6f348e1706a0357">storage</a> ()</td></tr>
-<tr class="memdesc:aefce77b95b4d6f29c6f348e1706a0357"><td class="mdescLeft">&#160;</td><td class="mdescRight">get read-only access to the visual object tags' storage  <br /></td></tr>
-<tr class="separator:aefce77b95b4d6f29c6f348e1706a0357"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f03eb6c0d9d46a5eac886d0955eb017" id="r_a1f03eb6c0d9d46a5eac886d0955eb017"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f03eb6c0d9d46a5eac886d0955eb017">registerTag</a> (<a class="el" href="structMR_1_1VisualObjectTag.html">VisualObjectTag</a> tag)</td></tr>
-<tr class="memdesc:a1f03eb6c0d9d46a5eac886d0955eb017"><td class="mdescLeft">&#160;</td><td class="mdescRight">add visual object tag  <br /></td></tr>
-<tr class="separator:a1f03eb6c0d9d46a5eac886d0955eb017"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a081edde2a9ddd793876f3b15d02eb07a" id="r_a081edde2a9ddd793876f3b15d02eb07a"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a081edde2a9ddd793876f3b15d02eb07a">registerTag</a> (std::string id, <a class="el" href="structMR_1_1VisualObjectTag.html">VisualObjectTag</a> tag)</td></tr>
-<tr class="memdesc:a081edde2a9ddd793876f3b15d02eb07a"><td class="mdescLeft">&#160;</td><td class="mdescRight">add visual object tag with custom id  <br /></td></tr>
-<tr class="separator:a081edde2a9ddd793876f3b15d02eb07a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd7504fa154b30b1cd6da7bf320474cb" id="r_acd7504fa154b30b1cd6da7bf320474cb"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd7504fa154b30b1cd6da7bf320474cb">updateTag</a> (const std::string &amp;visTagId, <a class="el" href="structMR_1_1VisualObjectTag.html">VisualObjectTag</a> tag)</td></tr>
-<tr class="memdesc:acd7504fa154b30b1cd6da7bf320474cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">update visual object tag; linked objects are NOT updated automatically  <br /></td></tr>
-<tr class="separator:acd7504fa154b30b1cd6da7bf320474cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac9ea8fbe8c0906a3bb2712b4f4b9b8f3" id="r_ac9ea8fbe8c0906a3bb2712b4f4b9b8f3"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac9ea8fbe8c0906a3bb2712b4f4b9b8f3">unregisterTag</a> (const std::string &amp;visTagId)</td></tr>
-<tr class="memdesc:ac9ea8fbe8c0906a3bb2712b4f4b9b8f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">remove visual object tag; linked objects are NOT updated automatically  <br /></td></tr>
-<tr class="separator:ac9ea8fbe8c0906a3bb2712b4f4b9b8f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6956803e82215be7fe3a5a248920a1ed" id="r_a6956803e82215be7fe3a5a248920a1ed"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6956803e82215be7fe3a5a248920a1ed">getAllObjectsWithTag</a> (<a class="el" href="classMR_1_1Object.html">Object</a> *root, const std::string &amp;visTagId, const ObjectSelectivityType &amp;type=ObjectSelectivityType::Selectable)</td></tr>
-<tr class="memdesc:a6956803e82215be7fe3a5a248920a1ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">find all object in given object tree with the visual object tag  <br /></td></tr>
-<tr class="separator:a6956803e82215be7fe3a5a248920a1ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd62b30e39589f6595fefe6c5fe32e14" id="r_abd62b30e39589f6595fefe6c5fe32e14"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd62b30e39589f6595fefe6c5fe32e14">update</a> (<a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &amp;visObj, const std::string &amp;visTagId)</td></tr>
-<tr class="memdesc:abd62b30e39589f6595fefe6c5fe32e14"><td class="mdescLeft">&#160;</td><td class="mdescRight">update visual object properties according to whether given object has the visual object tag or not  <br /></td></tr>
-<tr class="separator:abd62b30e39589f6595fefe6c5fe32e14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f69634ddb326faeffe67952e15e67e4" id="r_a9f69634ddb326faeffe67952e15e67e4"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API const std::map&lt; std::string, <a class="el" href="structMR_1_1VisualObjectTag.html">VisualObjectTag</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f69634ddb326faeffe67952e15e67e4">tags</a> ()</td></tr>
+<tr class="memdesc:a9f69634ddb326faeffe67952e15e67e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">get read-only access to the visual object tags' storage  <br /></td></tr>
+<tr class="separator:a9f69634ddb326faeffe67952e15e67e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae17781f3480401df2d0f12b90816be27" id="r_ae17781f3480401df2d0f12b90816be27"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae17781f3480401df2d0f12b90816be27">registerTag</a> (std::string tag, <a class="el" href="structMR_1_1VisualObjectTag.html">VisualObjectTag</a> visTag)</td></tr>
+<tr class="memdesc:ae17781f3480401df2d0f12b90816be27"><td class="mdescLeft">&#160;</td><td class="mdescRight">add visual object tag  <br /></td></tr>
+<tr class="separator:ae17781f3480401df2d0f12b90816be27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2b3c766f95d02b57e4a529fecdae7cd" id="r_ac2b3c766f95d02b57e4a529fecdae7cd"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2b3c766f95d02b57e4a529fecdae7cd">updateTag</a> (const std::string &amp;tag, <a class="el" href="structMR_1_1VisualObjectTag.html">VisualObjectTag</a> visTag)</td></tr>
+<tr class="memdesc:ac2b3c766f95d02b57e4a529fecdae7cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">update visual object tag; linked objects are NOT updated automatically  <br /></td></tr>
+<tr class="separator:ac2b3c766f95d02b57e4a529fecdae7cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2d4ea3df24507fdc138c0186b48e6cd" id="r_aa2d4ea3df24507fdc138c0186b48e6cd"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2d4ea3df24507fdc138c0186b48e6cd">unregisterTag</a> (const std::string &amp;tag)</td></tr>
+<tr class="memdesc:aa2d4ea3df24507fdc138c0186b48e6cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">remove visual object tag; linked objects are NOT updated automatically  <br /></td></tr>
+<tr class="separator:aa2d4ea3df24507fdc138c0186b48e6cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea004b378789ba0a88c63d1854d82f82" id="r_aea004b378789ba0a88c63d1854d82f82"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea004b378789ba0a88c63d1854d82f82">getAllObjectsWithTag</a> (<a class="el" href="classMR_1_1Object.html">Object</a> *root, const std::string &amp;tag, const ObjectSelectivityType &amp;type=ObjectSelectivityType::Selectable)</td></tr>
+<tr class="memdesc:aea004b378789ba0a88c63d1854d82f82"><td class="mdescLeft">&#160;</td><td class="mdescRight">find all object in given object tree with the visual object tag  <br /></td></tr>
+<tr class="separator:aea004b378789ba0a88c63d1854d82f82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec8c30ef080775365eeebc279fdc39da" id="r_aec8c30ef080775365eeebc279fdc39da"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec8c30ef080775365eeebc279fdc39da">update</a> (<a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &amp;visObj, const std::string &amp;tag)</td></tr>
+<tr class="memdesc:aec8c30ef080775365eeebc279fdc39da"><td class="mdescLeft">&#160;</td><td class="mdescRight">update visual object properties according to whether given object has the visual object tag or not  <br /></td></tr>
+<tr class="separator:aec8c30ef080775365eeebc279fdc39da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="friends" name="friends"></a>
 Friends</h2></td></tr>
@@ -193,8 +190,8 @@ Friends</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>class for storing and changing visual object properties based on the object tags </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a6956803e82215be7fe3a5a248920a1ed" name="a6956803e82215be7fe3a5a248920a1ed"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6956803e82215be7fe3a5a248920a1ed">&#9670;&#160;</a></span>getAllObjectsWithTag()</h2>
+<a id="aea004b378789ba0a88c63d1854d82f82" name="aea004b378789ba0a88c63d1854d82f82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea004b378789ba0a88c63d1854d82f82">&#9670;&#160;</a></span>getAllObjectsWithTag()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -210,7 +207,7 @@ Friends</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>visTagId</em></span>, </td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>tag</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -256,8 +253,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a081edde2a9ddd793876f3b15d02eb07a" name="a081edde2a9ddd793876f3b15d02eb07a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a081edde2a9ddd793876f3b15d02eb07a">&#9670;&#160;</a></span>registerTag() <span class="overload">[1/2]</span></h2>
+<a id="ae17781f3480401df2d0f12b90816be27" name="ae17781f3480401df2d0f12b90816be27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae17781f3480401df2d0f12b90816be27">&#9670;&#160;</a></span>registerTag()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -268,39 +265,12 @@ Friends</h2></td></tr>
         <tr>
           <td class="memname">static MRVIEWER_API void MR::VisualObjectTagManager::registerTag </td>
           <td>(</td>
-          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>id</em></span>, </td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>tag</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structMR_1_1VisualObjectTag.html">VisualObjectTag</a></td>          <td class="paramname"><span class="paramname"><em>tag</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>add visual object tag with custom id </p>
-
-</div>
-</div>
-<a id="a1f03eb6c0d9d46a5eac886d0955eb017" name="a1f03eb6c0d9d46a5eac886d0955eb017"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1f03eb6c0d9d46a5eac886d0955eb017">&#9670;&#160;</a></span>registerTag() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static MRVIEWER_API std::string MR::VisualObjectTagManager::registerTag </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structMR_1_1VisualObjectTag.html">VisualObjectTag</a></td>          <td class="paramname"><span class="paramname"><em>tag</em></span></td><td>)</td>
-          <td></td>
+          <td class="paramtype"><a class="el" href="structMR_1_1VisualObjectTag.html">VisualObjectTag</a></td>          <td class="paramname"><span class="paramname"><em>visTag</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -314,8 +284,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="aefce77b95b4d6f29c6f348e1706a0357" name="aefce77b95b4d6f29c6f348e1706a0357"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aefce77b95b4d6f29c6f348e1706a0357">&#9670;&#160;</a></span>storage()</h2>
+<a id="a9f69634ddb326faeffe67952e15e67e4" name="a9f69634ddb326faeffe67952e15e67e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f69634ddb326faeffe67952e15e67e4">&#9670;&#160;</a></span>tags()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -324,7 +294,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static MRVIEWER_API const std::unordered_map&lt; std::string, <a class="el" href="structMR_1_1VisualObjectTag.html">VisualObjectTag</a> &gt; &amp; MR::VisualObjectTagManager::storage </td>
+          <td class="memname">static MRVIEWER_API const std::map&lt; std::string, <a class="el" href="structMR_1_1VisualObjectTag.html">VisualObjectTag</a> &gt; &amp; MR::VisualObjectTagManager::tags </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -341,8 +311,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="ac9ea8fbe8c0906a3bb2712b4f4b9b8f3" name="ac9ea8fbe8c0906a3bb2712b4f4b9b8f3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac9ea8fbe8c0906a3bb2712b4f4b9b8f3">&#9670;&#160;</a></span>unregisterTag()</h2>
+<a id="aa2d4ea3df24507fdc138c0186b48e6cd" name="aa2d4ea3df24507fdc138c0186b48e6cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2d4ea3df24507fdc138c0186b48e6cd">&#9670;&#160;</a></span>unregisterTag()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -353,7 +323,7 @@ Friends</h2></td></tr>
         <tr>
           <td class="memname">static MRVIEWER_API void MR::VisualObjectTagManager::unregisterTag </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>visTagId</em></span></td><td>)</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>tag</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -368,8 +338,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="abd62b30e39589f6595fefe6c5fe32e14" name="abd62b30e39589f6595fefe6c5fe32e14"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abd62b30e39589f6595fefe6c5fe32e14">&#9670;&#160;</a></span>update()</h2>
+<a id="aec8c30ef080775365eeebc279fdc39da" name="aec8c30ef080775365eeebc279fdc39da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec8c30ef080775365eeebc279fdc39da">&#9670;&#160;</a></span>update()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -385,7 +355,7 @@ Friends</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>visTagId</em></span>&#160;)</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>tag</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -399,8 +369,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="acd7504fa154b30b1cd6da7bf320474cb" name="acd7504fa154b30b1cd6da7bf320474cb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acd7504fa154b30b1cd6da7bf320474cb">&#9670;&#160;</a></span>updateTag()</h2>
+<a id="ac2b3c766f95d02b57e4a529fecdae7cd" name="ac2b3c766f95d02b57e4a529fecdae7cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2b3c766f95d02b57e4a529fecdae7cd">&#9670;&#160;</a></span>updateTag()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -411,12 +381,12 @@ Friends</h2></td></tr>
         <tr>
           <td class="memname">static MRVIEWER_API void MR::VisualObjectTagManager::updateTag </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>visTagId</em></span>, </td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>tag</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structMR_1_1VisualObjectTag.html">VisualObjectTag</a></td>          <td class="paramname"><span class="paramname"><em>tag</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1VisualObjectTag.html">VisualObjectTag</a></td>          <td class="paramname"><span class="paramname"><em>visTag</em></span>&#160;)</td>
         </tr>
       </table>
   </td>

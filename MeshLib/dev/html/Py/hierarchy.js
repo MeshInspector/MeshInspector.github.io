@@ -1008,6 +1008,7 @@ var hierarchy =
     [ "mrmeshpy.std_optional_Vector3_float", "classmrmeshpy_1_1std__optional__Vector3__float.html", null ],
     [ "mrmeshpy.std_optional_Vector_std_array_Id_VertTag_2ul_Id_UndirectedEdgeTag", "classmrmeshpy_1_1std__optional__Vector__std__array__Id__VertTag__2ul__Id__UndirectedEdgeTag.html", null ],
     [ "mrmeshpy.std_optional_Vector_std_array_Id_VertTag_3ul_Id_FaceTag", "classmrmeshpy_1_1std__optional__Vector__std__array__Id__VertTag__3ul__Id__FaceTag.html", null ],
+    [ "mrmeshpy.std_set_std_string", "classmrmeshpy_1_1std__set__std__string.html", null ],
     [ "mrmeshpy.std_string_output", "classmrmeshpy_1_1std__string__output.html", null ],
     [ "mrmeshpy.std_unordered_set_std_string", "classmrmeshpy_1_1std__unordered__set__std__string.html", null ],
     [ "mrmeshpy.std_variant_float_Vector3_float", "classmrmeshpy_1_1std__variant__float__Vector3__float.html", null ],
