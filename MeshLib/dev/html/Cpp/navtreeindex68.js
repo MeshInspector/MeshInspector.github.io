@@ -1,5 +1,7 @@
 var NAVTREEINDEX68 =
 {
+"structMRStitchHolesParams.html#ab1a3eda7adaffbeaa8f8a7da237d2888":[6,0,2,0,62,1],
+"structMRStitchHolesParams.html#af2802077c43ff3c07a29080f2a908ade":[6,0,2,0,62,0],
 "structMRSubdivideSettings.html":[6,0,2,0,63],
 "structMRSubdivideSettings.html#a1d755eca0a3bcc58f0847f35da897684":[6,0,2,0,63,0],
 "structMRSubdivideSettings.html#a1e281a5d1635b3cf548aede48e82214a":[6,0,2,0,63,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1BaseShellParameters.html":[6,0,2,0,1,54],
 "structMR_1_1BaseShellParameters.html#a0496e82daf37476561be7bd450c6fb48":[6,0,1,0,1,71,1],
 "structMR_1_1BaseShellParameters.html#a0496e82daf37476561be7bd450c6fb48":[6,0,2,0,1,54,1],
-"structMR_1_1BaseShellParameters.html#a21a919475b5c9882d80ab9a26dd60d50":[6,0,1,0,1,71,0],
-"structMR_1_1BaseShellParameters.html#a21a919475b5c9882d80ab9a26dd60d50":[6,0,2,0,1,54,0],
-"structMR_1_1BaseTiffParameters.html":[6,0,1,0,1,72]
+"structMR_1_1BaseShellParameters.html#a21a919475b5c9882d80ab9a26dd60d50":[6,0,1,0,1,71,0]
 };

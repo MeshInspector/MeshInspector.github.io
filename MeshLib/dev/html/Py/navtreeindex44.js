@@ -1,5 +1,9 @@
 var NAVTREEINDEX44 =
 {
+"classmrmeshpy_1_1Mesh.html#adcf820e7b2e8ef220b2f6c7971ba9564":[6,1,0,0,2,472,83],
+"classmrmeshpy_1_1Mesh.html#adcf820e7b2e8ef220b2f6c7971ba9564":[6,1,1,0,1,472,83],
+"classmrmeshpy_1_1Mesh.html#add382515fa0b54b00aacd0752e9e79e9":[6,1,0,0,2,472,96],
+"classmrmeshpy_1_1Mesh.html#add382515fa0b54b00aacd0752e9e79e9":[6,1,1,0,1,472,96],
 "classmrmeshpy_1_1Mesh.html#ade17dc33edfebedaf90a082c1d568b9b":[6,1,0,0,2,472,88],
 "classmrmeshpy_1_1Mesh.html#ade17dc33edfebedaf90a082c1d568b9b":[6,1,1,0,1,472,88],
 "classmrmeshpy_1_1Mesh.html#ade45ed7d511e639f56310f10fc6cacad":[6,1,0,0,2,472,50],
@@ -245,9 +249,5 @@ var NAVTREEINDEX44 =
 "classmrmeshpy_1_1MeshEqualizeTriAreasParams.html#a9adb0d3a0077aa2e7e8144890529c327":[6,1,0,0,2,478,1],
 "classmrmeshpy_1_1MeshEqualizeTriAreasParams.html#a9adb0d3a0077aa2e7e8144890529c327":[6,1,1,0,1,478,1],
 "classmrmeshpy_1_1MeshEqualizeTriAreasParams.html#acc711fca02b9ab75b26f6b792a5729ce":[6,1,0,0,2,478,0],
-"classmrmeshpy_1_1MeshEqualizeTriAreasParams.html#acc711fca02b9ab75b26f6b792a5729ce":[6,1,1,0,1,478,0],
-"classmrmeshpy_1_1MeshIntersectionResult.html":[6,1,0,0,2,479],
-"classmrmeshpy_1_1MeshIntersectionResult.html":[6,1,1,0,1,479],
-"classmrmeshpy_1_1MeshIntersectionResult.html#a4b9ec9c21101fd50b44a5f6c5f4f8ce5":[6,1,0,0,2,479,0],
-"classmrmeshpy_1_1MeshIntersectionResult.html#a4b9ec9c21101fd50b44a5f6c5f4f8ce5":[6,1,1,0,1,479,0]
+"classmrmeshpy_1_1MeshEqualizeTriAreasParams.html#acc711fca02b9ab75b26f6b792a5729ce":[6,1,1,0,1,478,0]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX86 =
 {
+"classmrmeshpy_1_1Vector4f.html#a626a00bc906c179168513f48880dbdfa":[6,1,0,0,2,1064,9],
+"classmrmeshpy_1_1Vector4f.html#a626a00bc906c179168513f48880dbdfa":[6,1,1,0,1,1064,9],
+"classmrmeshpy_1_1Vector4f.html#a63682ff0543ffee3d93ba1a21f6f4172":[6,1,0,0,2,1064,22],
+"classmrmeshpy_1_1Vector4f.html#a63682ff0543ffee3d93ba1a21f6f4172":[6,1,1,0,1,1064,22],
 "classmrmeshpy_1_1Vector4f.html#a68baacc0865a6771f676ecd615f09eb1":[6,1,0,0,2,1064,8],
 "classmrmeshpy_1_1Vector4f.html#a68baacc0865a6771f676ecd615f09eb1":[6,1,1,0,1,1064,8],
 "classmrmeshpy_1_1Vector4f.html#a74838782a31feb091471635d747fd057":[6,1,0,0,2,1064,16],
@@ -245,9 +249,5 @@ var NAVTREEINDEX86 =
 "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#a5fae76f525849918c2dab7e8aa9af518":[6,1,0,0,2,1068,20],
 "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#a5fae76f525849918c2dab7e8aa9af518":[6,1,1,0,1,1068,20],
 "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#a69ae364594942fdbe7e35ecbaf9459fe":[6,1,0,0,2,1068,13],
-"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#a69ae364594942fdbe7e35ecbaf9459fe":[6,1,1,0,1,1068,13],
-"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#a6a76c1e39e54d499346868b01f0242ed":[6,1,0,0,2,1068,15],
-"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#a6a76c1e39e54d499346868b01f0242ed":[6,1,1,0,1,1068,15],
-"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#a6d08eb8671b42eed7058c08c700bc57f":[6,1,0,0,2,1068,33],
-"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#a6d08eb8671b42eed7058c08c700bc57f":[6,1,1,0,1,1068,33]
+"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#a69ae364594942fdbe7e35ecbaf9459fe":[6,1,1,0,1,1068,13]
 };

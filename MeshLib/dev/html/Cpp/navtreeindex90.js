@@ -1,5 +1,7 @@
 var NAVTREEINDEX90 =
 {
+"structMR_1_1TouchpadSwipeGestureUpdateListener.html#a56753f530eab33ccb8f1c7c34ec618fa":[6,0,2,0,1,721,2],
+"structMR_1_1TouchpadSwipeGestureUpdateListener.html#a699126c1c4c296d0dcfd76964121d306":[6,0,1,0,1,738,1],
 "structMR_1_1TouchpadSwipeGestureUpdateListener.html#a699126c1c4c296d0dcfd76964121d306":[6,0,2,0,1,721,1],
 "structMR_1_1TouchpadSwipeGestureUpdateListener.html#aef526e0582b51edc407c765caedd0b9b":[6,0,1,0,1,738,3],
 "structMR_1_1TouchpadSwipeGestureUpdateListener.html#aef526e0582b51edc407c765caedd0b9b":[6,0,2,0,1,721,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX90 =
 "structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html#a1c7efed40362c244fe3448ccb9b4f5b8":[6,0,2,0,1,25,6,0,1],
 "structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html#a3294cc10df7525536273d925395bb8f4":[6,0,1,0,1,41,7,0,3],
 "structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html#a3294cc10df7525536273d925395bb8f4":[6,0,2,0,1,25,6,0,3],
-"structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html#a57d48656778b010132308d6f1b17dda3":[6,0,1,0,1,41,7,0,2],
-"structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html#a57d48656778b010132308d6f1b17dda3":[6,0,2,0,1,25,6,0,2],
-"structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html#a669ea51c367ab807beb54423bc2717f6":[6,0,1,0,1,41,7,0,5]
+"structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html#a57d48656778b010132308d6f1b17dda3":[6,0,1,0,1,41,7,0,2]
 };

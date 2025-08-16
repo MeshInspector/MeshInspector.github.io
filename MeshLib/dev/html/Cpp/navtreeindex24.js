@@ -1,5 +1,7 @@
 var NAVTREEINDEX24 =
 {
+"classMR_1_1DistanceMeasurementObject.html#a90bd3418e0c8c76fbbe3aa70314be2a8":[6,0,2,0,1,183,2],
+"classMR_1_1DistanceMeasurementObject.html#a99ecc95eccd9b0fab3c76911ea1006a0":[6,0,1,0,1,200,25],
 "classMR_1_1DistanceMeasurementObject.html#a99ecc95eccd9b0fab3c76911ea1006a0":[6,0,2,0,1,183,25],
 "classMR_1_1DistanceMeasurementObject.html#a9a8a81a10d8c7ed1ebe420b47124abc6":[6,0,1,0,1,200,3],
 "classMR_1_1DistanceMeasurementObject.html#a9a8a81a10d8c7ed1ebe420b47124abc6":[6,0,2,0,1,183,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX24 =
 "classMR_1_1FitSelectedObjectsMenuItem.html#a65ea98bf6c4002164f246e5d1d92f92d":[6,0,1,0,1,255,1],
 "classMR_1_1FitSelectedObjectsMenuItem.html#a65ea98bf6c4002164f246e5d1d92f92d":[6,0,2,0,1,238,1],
 "classMR_1_1FitSelectedObjectsMenuItem.html#a71ffd5f13c26669d5f0e862ff583cc9c":[6,0,1,0,1,255,2],
-"classMR_1_1FitSelectedObjectsMenuItem.html#a71ffd5f13c26669d5f0e862ff583cc9c":[6,0,2,0,1,238,2],
-"classMR_1_1FitSelectedPrimitivesMenuItem.html":[6,0,1,0,1,256],
-"classMR_1_1FitSelectedPrimitivesMenuItem.html":[6,0,2,0,1,239]
+"classMR_1_1FitSelectedObjectsMenuItem.html#a71ffd5f13c26669d5f0e862ff583cc9c":[6,0,2,0,1,238,2]
 };

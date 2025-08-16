@@ -1,5 +1,7 @@
 var NAVTREEINDEX58 =
 {
+"hierarchy.html":[6,0,2,2],
+"index.html":[],
 "namespaceImGui.html":[6,0,1,0,0],
 "namespaceImGui.html#a01e8908c9ff42e3510168251a97f1d48":[6,0,1,0,0,8],
 "namespaceImGui.html#a023d8107acf5b52a1594c2b935b824f0":[6,0,1,0,0,10],
@@ -247,7 +249,5 @@ var NAVTREEINDEX58 =
 "namespaceMR.html#a1c0d3c449b52a98c85522a1aa06c1e88":[6,0,1,0,1,2430],
 "namespaceMR.html#a1c14c4b422f53d6aed87261063ce34fb":[6,0,1,0,1,2198],
 "namespaceMR.html#a1c3671ae104a3e05c4c521d25a4bab13":[6,0,1,0,1,983],
-"namespaceMR.html#a1c44091df961c1b7e52608031f3b99aa":[6,0,1,0,1,2480],
-"namespaceMR.html#a1c61cae79ab814b6057ebadc1ad60114":[6,0,1,0,1,2156],
-"namespaceMR.html#a1cb547836ab1506cf81cab06b24a9532":[6,0,1,0,1,2719]
+"namespaceMR.html#a1c44091df961c1b7e52608031f3b99aa":[6,0,1,0,1,2480]
 };

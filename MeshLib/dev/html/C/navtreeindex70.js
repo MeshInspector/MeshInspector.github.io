@@ -1,5 +1,7 @@
 var NAVTREEINDEX70 =
 {
+"MRPolylineProject_8h.html#ab8ba7d6240861de2a0d5b004c613edd4":[6,2,1,0,0,0,1,266,20],
+"MRPolylineProject_8h.html#ab8d0e1d93470abf08f6f6fb31f137f76":[6,2,1,0,0,0,1,266,70],
 "MRPolylineProject_8h.html#ab9fcbb5b8711152a24a59e1d55156ece":[6,2,1,0,0,0,1,266,0],
 "MRPolylineProject_8h.html#abbb01ffa356e16c22be37b2adad974c2":[6,2,1,0,0,0,1,266,52],
 "MRPolylineProject_8h.html#abc74ee716cff3a7b2cb76778d729f734":[6,2,1,0,0,0,1,266,38],
@@ -247,7 +249,5 @@ var NAVTREEINDEX70 =
 "MRPolylineTrimWithPlane_8h.html#a78be57502859beda9defa990e3087df7":[6,2,1,0,0,0,1,269,25],
 "MRPolylineTrimWithPlane_8h.html#a7a3e178d74f18bc37f1ed2a9d831bb00":[6,2,1,0,0,0,1,269,35],
 "MRPolylineTrimWithPlane_8h.html#a832c7d56d0cfbf0825c77b2dd0da6941":[6,2,1,0,0,0,1,269,17],
-"MRPolylineTrimWithPlane_8h.html#a85bb3849b86cf276a5593910dc0bcac7":[6,2,1,0,0,0,1,269,14],
-"MRPolylineTrimWithPlane_8h.html#a86d5c9580806e786cfff978639b191d5":[6,2,1,0,0,0,1,269,23],
-"MRPolylineTrimWithPlane_8h.html#a9534e1878d18f64ef0e0c7b0594ae503":[6,2,1,0,0,0,1,269,18]
+"MRPolylineTrimWithPlane_8h.html#a85bb3849b86cf276a5593910dc0bcac7":[6,2,1,0,0,0,1,269,14]
 };

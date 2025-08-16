@@ -1,5 +1,7 @@
 var NAVTREEINDEX86 =
 {
+"structMR_1_1RelaxParams.html#a7f58a3b0b7e5c09209f53edd90b4371a":[6,0,1,0,1,581,1],
+"structMR_1_1RelaxParams.html#a7f58a3b0b7e5c09209f53edd90b4371a":[6,0,2,0,1,564,1],
 "structMR_1_1RelaxParams.html#abeb08d7e70411cf9ef2826c0f058b909":[6,0,1,0,1,581,5],
 "structMR_1_1RelaxParams.html#abeb08d7e70411cf9ef2826c0f058b909":[6,0,2,0,1,564,5],
 "structMR_1_1RelaxParams.html#ae2779bd159120c7d84c4d2e13186af7e":[6,0,1,0,1,581,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX86 =
 "structMR_1_1RigidScaleXf3.html#adcb2be531582327cfde07191af6837c8":[6,0,1,0,1,628,6],
 "structMR_1_1RigidScaleXf3.html#adcb2be531582327cfde07191af6837c8":[6,0,2,0,1,611,6],
 "structMR_1_1RigidXf3.html":[6,0,1,0,1,629],
-"structMR_1_1RigidXf3.html":[6,0,2,0,1,612],
-"structMR_1_1RigidXf3.html#a1c18eb2cefaafa045ec3e26dc9948f71":[6,0,1,0,1,629,7],
-"structMR_1_1RigidXf3.html#a1c18eb2cefaafa045ec3e26dc9948f71":[6,0,2,0,1,612,7]
+"structMR_1_1RigidXf3.html":[6,0,2,0,1,612]
 };

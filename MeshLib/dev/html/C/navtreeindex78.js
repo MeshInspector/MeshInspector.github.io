@@ -1,5 +1,7 @@
 var NAVTREEINDEX78 =
 {
+"MRSubfeatures_8h.html#af02ee38df887308b7c41fb18e2cbc06d":[6,2,1,0,0,0,1,313,20],
+"MRSubfeatures_8h_source.html":[6,2,1,0,0,0,1,313],
 "MRSurfaceDistanceBuilder_8h.html":[6,2,1,0,0,0,1,315],
 "MRSurfaceDistanceBuilder_8h.html#a0ec70674d6412513e8008d61c284c453":[6,2,1,0,0,0,1,315,19],
 "MRSurfaceDistanceBuilder_8h.html#a1d0a59dcbf14d2c46eb7f09430511c2f":[6,2,1,0,0,0,1,315,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX78 =
 "MRSymMatrix2_8h.html#ac9f9ca17a9de854f925ae2f104ffd7b2":[6,2,1,0,0,0,1,319,75],
 "MRSymMatrix2_8h.html#aca59488e2118eef596f30f25159162a3":[6,2,1,0,0,0,1,319,28],
 "MRSymMatrix2_8h.html#aca9293b9b722e454d9eecaecc19d1960":[6,2,1,0,0,0,1,319,108],
-"MRSymMatrix2_8h.html#acd53e8565fcfd205e23a1d1ce63df719":[6,2,1,0,0,0,1,319,42],
-"MRSymMatrix2_8h.html#ace8166975e82778c319273520d00a467":[6,2,1,0,0,0,1,319,99],
-"MRSymMatrix2_8h.html#acfd9cc1ee66632d91eab05bf62ba11ed":[6,2,1,0,0,0,1,319,53]
+"MRSymMatrix2_8h.html#acd53e8565fcfd205e23a1d1ce63df719":[6,2,1,0,0,0,1,319,42]
 };
