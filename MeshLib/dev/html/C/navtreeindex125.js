@@ -1,5 +1,6 @@
 var NAVTREEINDEX125 =
 {
+"std__shared__ptr__MR__SceneRootObject_8h_source.html":[6,2,1,0,0,0,2,256],
 "std__shared__ptr__MR__VisualObject_8h.html":[6,2,1,0,0,0,2,257],
 "std__shared__ptr__MR__VisualObject_8h.html#a058cd60c8461419303efcb54b286eb27":[6,2,1,0,0,0,2,257,12],
 "std__shared__ptr__MR__VisualObject_8h.html#a2437fc19592b1264236660cf8392a10e":[6,2,1,0,0,0,2,257,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX125 =
 "std__variant__MR__FaceMap__phmap__flat__hash__map__MR__FaceId__MR__FaceId_8h.html#ae9b67c4c547cca9db1a0b48839fc996c":[6,2,1,0,0,0,2,265,5],
 "std__variant__MR__FaceMap__phmap__flat__hash__map__MR__FaceId__MR__FaceId_8h_source.html":[6,2,1,0,0,0,2,265],
 "std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h.html":[6,2,1,0,0,0,2,266],
-"std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h.html#a05dbbe62785a0355fcc5399722eba964":[6,2,1,0,0,0,2,266,6],
-"std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h.html#a0698a1dab93036f1ce759195ffa47702":[6,2,1,0,0,0,2,266,0]
+"std__variant__MR__Polynomial__double__0__MR__Polynomial__double__1__MR__Polynomial__double__2__MR__Polynomi____dfcd_8h.html#a05dbbe62785a0355fcc5399722eba964":[6,2,1,0,0,0,2,266,6]
 };

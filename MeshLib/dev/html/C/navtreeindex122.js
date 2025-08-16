@@ -1,5 +1,6 @@
 var NAVTREEINDEX122 =
 {
+"std__optional__std__vector__MR__SomeLocalTriangulations_8h.html#af5a6121e3cb5169ce803451b3ecd6812":[6,2,1,0,0,0,2,206,3],
 "std__optional__std__vector__MR__SomeLocalTriangulations_8h.html#afdc31f7f68f5f81095aae6e16a8d412c":[6,2,1,0,0,0,2,206,4],
 "std__optional__std__vector__MR__SomeLocalTriangulations_8h_source.html":[6,2,1,0,0,0,2,206],
 "std__pair__MR__DistanceMap__MR__DistanceMap_8h.html":[6,2,1,0,0,0,2,212],
@@ -248,6 +249,5 @@ var NAVTREEINDEX122 =
 "std__pair__bool__int32__t_8h.html#ae281a385a78d481f71075f5f591d8ffd":[6,2,1,0,0,0,2,207,9],
 "std__pair__bool__int32__t_8h.html#af1cde3f79014b13f3105b1c11f7adbba":[6,2,1,0,0,0,2,207,7],
 "std__pair__bool__int32__t_8h_source.html":[6,2,1,0,0,0,2,207],
-"std__pair__double__int32__t_8h.html":[6,2,1,0,0,0,2,208],
-"std__pair__double__int32__t_8h.html#a0227b2420a36afe724c2bc880ac8d99c":[6,2,1,0,0,0,2,208,10]
+"std__pair__double__int32__t_8h.html":[6,2,1,0,0,0,2,208]
 };

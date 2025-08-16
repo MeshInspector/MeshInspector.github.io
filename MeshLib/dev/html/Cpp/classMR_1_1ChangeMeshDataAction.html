@@ -182,9 +182,9 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ae7189fb8c8e3d8c3521cb0b8781a1e19" id="r_ae7189fb8c8e3d8c3521cb0b8781a1e19"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae7189fb8c8e3d8c3521cb0b8781a1e19">ChangeMeshDataAction</a> (std::string <a class="el" href="#a17a6297c30967ea93e6bfc131ae8911c">name</a>, const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &gt; &amp;<a class="el" href="#a302de90b9b9c06b36225e604a21caee4">obj</a>)</td></tr>
-<tr class="memdesc:ae7189fb8c8e3d8c3521cb0b8781a1e19"><td class="mdescLeft">&#160;</td><td class="mdescRight">use this constructor to remember object's data before making any changes in it  <br /></td></tr>
-<tr class="separator:ae7189fb8c8e3d8c3521cb0b8781a1e19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a802c34ae621a5ebc85ae77caef5d7112" id="r_a802c34ae621a5ebc85ae77caef5d7112"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a802c34ae621a5ebc85ae77caef5d7112">ChangeMeshDataAction</a> (std::string <a class="el" href="#a17a6297c30967ea93e6bfc131ae8911c">name</a>, const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &gt; &amp;<a class="el" href="#a302de90b9b9c06b36225e604a21caee4">obj</a>, bool cloneMesh)</td></tr>
+<tr class="memdesc:a802c34ae621a5ebc85ae77caef5d7112"><td class="mdescLeft">&#160;</td><td class="mdescRight">use this constructor to remember object's data before making any changes in it  <br /></td></tr>
+<tr class="separator:a802c34ae621a5ebc85ae77caef5d7112"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adde79f1c602a61f0a33b7b9a02c6200f" id="r_adde79f1c602a61f0a33b7b9a02c6200f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adde79f1c602a61f0a33b7b9a02c6200f">ChangeMeshDataAction</a> (std::string <a class="el" href="#a17a6297c30967ea93e6bfc131ae8911c">name</a>, const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &gt; &amp;<a class="el" href="#a302de90b9b9c06b36225e604a21caee4">obj</a>, <a class="el" href="structMR_1_1ObjectMeshData.html">ObjectMeshData</a> &amp;&amp;newData)</td></tr>
 <tr class="memdesc:adde79f1c602a61f0a33b7b9a02c6200f"><td class="mdescLeft">&#160;</td><td class="mdescRight">use this constructor to remember object's data and immediately set new data  <br /></td></tr>
 <tr class="separator:adde79f1c602a61f0a33b7b9a02c6200f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -227,8 +227,8 @@ Static Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ae7189fb8c8e3d8c3521cb0b8781a1e19" name="ae7189fb8c8e3d8c3521cb0b8781a1e19"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae7189fb8c8e3d8c3521cb0b8781a1e19">&#9670;&#160;</a></span>ChangeMeshDataAction() <span class="overload">[1/2]</span></h2>
+<a id="a802c34ae621a5ebc85ae77caef5d7112" name="a802c34ae621a5ebc85ae77caef5d7112"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a802c34ae621a5ebc85ae77caef5d7112">&#9670;&#160;</a></span>ChangeMeshDataAction() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -244,7 +244,12 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>obj</em></span>&#160;)</td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>obj</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>cloneMesh</em></span>&#160;)</td>
         </tr>
       </table>
   </td>

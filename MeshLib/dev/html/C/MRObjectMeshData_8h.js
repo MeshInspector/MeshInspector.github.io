@@ -9,6 +9,7 @@ var MRObjectMeshData_8h =
     [ "MR_VertColors", "MRObjectMeshData_8h.html#a20dc7d636220f61a60c7ae92b8caa768", null ],
     [ "MR_VertCoords2", "MRObjectMeshData_8h.html#ae385080e7b7a68ff32f8d03ae2d70a7a", null ],
     [ "MR_ObjectMeshData_AssignFromAnother", "MRObjectMeshData_8h.html#a05a5a4c9ffc455dd423d8b7d5439e9e7", null ],
+    [ "MR_ObjectMeshData_clone", "MRObjectMeshData_8h.html#a8943c22786649cddb96b2224047d149c", null ],
     [ "MR_ObjectMeshData_ConstructFrom", "MRObjectMeshData_8h.html#adcf75877e2e33e4b70223d3d348a6cd5", null ],
     [ "MR_ObjectMeshData_ConstructFromAnother", "MRObjectMeshData_8h.html#af6899765563d48e65519013f75f94b64", null ],
     [ "MR_ObjectMeshData_DefaultConstruct", "MRObjectMeshData_8h.html#a93b944969d88a16f285f0b8d0e54fb50", null ],

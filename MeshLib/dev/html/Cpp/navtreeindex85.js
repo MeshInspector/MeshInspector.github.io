@@ -1,5 +1,7 @@
 var NAVTREEINDEX85 =
 {
+"structMR_1_1Polynomial.html#a3cc5be84c9490736e6839f7d4f54e839":[6,0,2,0,1,529,5],
+"structMR_1_1Polynomial.html#a6420dd28fcfe1d9d94da2689048ed849":[6,0,1,0,1,546,2],
 "structMR_1_1Polynomial.html#a6420dd28fcfe1d9d94da2689048ed849":[6,0,2,0,1,529,2],
 "structMR_1_1Polynomial.html#a647fa3efb019e9541f3faabd5316bbe3":[6,0,1,0,1,546,3],
 "structMR_1_1Polynomial.html#a647fa3efb019e9541f3faabd5316bbe3":[6,0,2,0,1,529,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX85 =
 "structMR_1_1RefineParameters.html#ac994e7450108ddf9d7a3e4a5973de92e":[6,0,1,0,1,578,2],
 "structMR_1_1RefineParameters.html#ac994e7450108ddf9d7a3e4a5973de92e":[6,0,2,0,1,561,2],
 "structMR_1_1RelaxParams.html":[6,0,1,0,1,581],
-"structMR_1_1RelaxParams.html":[6,0,2,0,1,564],
-"structMR_1_1RelaxParams.html#a47663082758ba9a1d7d9942c1d2550fc":[6,0,1,0,1,581,0],
-"structMR_1_1RelaxParams.html#a47663082758ba9a1d7d9942c1d2550fc":[6,0,2,0,1,564,0]
+"structMR_1_1RelaxParams.html":[6,0,2,0,1,564]
 };

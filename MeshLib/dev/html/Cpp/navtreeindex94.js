@@ -1,5 +1,7 @@
 var NAVTREEINDEX94 =
 {
+"structMR_1_1Writer.html#abf4ee009f08992fff0aadc8ee8e79daa":[6,0,1,0,1,827,0],
+"structMR_1_1Writer.html#abf4ee009f08992fff0aadc8ee8e79daa":[6,0,2,0,1,810,0],
 "structMR_1_1ZeroOnMove.html":[6,0,1,0,1,829],
 "structMR_1_1ZeroOnMove.html":[6,0,2,0,1,812],
 "structMR_1_1ZeroOnMove.html#a1eb512d1aea6742b0d8392f71ce425a2":[6,0,1,0,1,829,2],

@@ -248,6 +248,8 @@ Functions</h2></td></tr>
 <tr class="separator:aa413cd52b23f9ff1237e806f6492fc54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05a5a4c9ffc455dd423d8b7d5439e9e7" id="r_a05a5a4c9ffc455dd423d8b7d5439e9e7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05a5a4c9ffc455dd423d8b7d5439e9e7">MR_ObjectMeshData_AssignFromAnother</a> (<a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *_other)</td></tr>
 <tr class="separator:a05a5a4c9ffc455dd423d8b7d5439e9e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8943c22786649cddb96b2224047d149c" id="r_a8943c22786649cddb96b2224047d149c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8943c22786649cddb96b2224047d149c">MR_ObjectMeshData_clone</a> (const <a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *_this)</td></tr>
+<tr class="separator:a8943c22786649cddb96b2224047d149c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a98b5cfed72c9bb32efde09cadca82749" id="r_a98b5cfed72c9bb32efde09cadca82749"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98b5cfed72c9bb32efde09cadca82749">MR_ObjectMeshData_heapBytes</a> (const <a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *_this)</td></tr>
 <tr class="separator:a98b5cfed72c9bb32efde09cadca82749"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -390,6 +392,24 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1ObjectMeshData.html">MR::ObjectMeshData</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a8943c22786649cddb96b2224047d149c" name="a8943c22786649cddb96b2224047d149c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8943c22786649cddb96b2224047d149c">&#9670;&#160;</a></span>MR_ObjectMeshData_clone()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> * MR_ObjectMeshData_clone </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRChangeMeshDataAction_8h.html#a6ee8e1ef0afd5da11563b6ecbb94f63e">MR_ObjectMeshData</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns copy of this object with mesh cloned Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1ObjectMeshData.html">MR::ObjectMeshData</a></code> named <code>clone</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a4523b0dda565e986784306c96bfb6b27" title="Destroys a heap-allocated instance of MR_ObjectMeshData. Does nothing if the pointer is null.">MR_ObjectMeshData_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>

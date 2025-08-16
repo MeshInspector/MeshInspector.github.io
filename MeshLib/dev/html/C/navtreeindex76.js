@@ -1,5 +1,6 @@
 var NAVTREEINDEX76 =
 {
+"MRSceneColors_8h.html#ac9cef54f15d866a97c8c76928c763baba2f0884847a9603f9606ff5a7ffdd95ae":[6,2,1,0,0,0,1,296,3,23],
 "MRSceneColors_8h.html#ac9cef54f15d866a97c8c76928c763baba35299f6fae81fb179af651a74ba547c9":[6,2,1,0,0,0,1,296,3,18],
 "MRSceneColors_8h.html#ac9cef54f15d866a97c8c76928c763baba3c24f2c71b3d44758ed2fa39ebba5c3f":[6,2,1,0,0,0,1,296,3,2],
 "MRSceneColors_8h.html#ac9cef54f15d866a97c8c76928c763baba41d61600028d9fd64da2bad8e86ff709":[6,2,1,0,0,0,1,296,3,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX76 =
 "MRSharpenMarchingCubesMesh_8h.html#ab7f011022ee3ba9481a58224d8d05181":[6,2,1,0,0,0,1,303,29],
 "MRSharpenMarchingCubesMesh_8h.html#aba860393166e80cba10b8786a88bc89f":[6,2,1,0,0,0,1,303,12],
 "MRSharpenMarchingCubesMesh_8h.html#abcb083740befce324bfa579df104c1b8":[6,2,1,0,0,0,1,303,27],
-"MRSharpenMarchingCubesMesh_8h.html#ac7f59a6736b29701d7e619412b6e2890":[6,2,1,0,0,0,1,303,3],
-"MRSharpenMarchingCubesMesh_8h.html#adaa09f9c21d01505bf64fc62553649ce":[6,2,1,0,0,0,1,303,35]
+"MRSharpenMarchingCubesMesh_8h.html#ac7f59a6736b29701d7e619412b6e2890":[6,2,1,0,0,0,1,303,3]
 };
