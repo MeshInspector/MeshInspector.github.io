@@ -1,5 +1,9 @@
 var NAVTREEINDEX82 =
 {
+"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Sphere_01_4.html#af790be1acb4e05aaea55fd8ac0a82a65":[6,0,2,0,1,452,0],
+"structMR_1_1ObjTreeTraits.html":[6,0,1,0,1,470],
+"structMR_1_1ObjTreeTraits.html":[6,0,2,0,1,453],
+"structMR_1_1ObjTreeTraits.html#a5517b355b3a51538470f957d6a23bff1":[6,0,1,0,1,470,2],
 "structMR_1_1ObjTreeTraits.html#a5517b355b3a51538470f957d6a23bff1":[6,0,2,0,1,453,2],
 "structMR_1_1ObjTreeTraits.html#a7208b3ed4cbf6a7db7c03785856d5131":[6,0,1,0,1,470,1],
 "structMR_1_1ObjTreeTraits.html#a7208b3ed4cbf6a7db7c03785856d5131":[6,0,2,0,1,453,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX82 =
 "structMR_1_1Parabola.html#a87d6da7f3dba1aa3504784c26b407da3":[6,0,1,0,1,492,8],
 "structMR_1_1Parabola.html#a87d6da7f3dba1aa3504784c26b407da3":[6,0,2,0,1,475,8],
 "structMR_1_1Parabola.html#a9753dfacf3e0613b37e554a7f4b63f8a":[6,0,1,0,1,492,7],
-"structMR_1_1Parabola.html#a9753dfacf3e0613b37e554a7f4b63f8a":[6,0,2,0,1,475,7],
-"structMR_1_1Parabola.html#aa24552a8fee4499ec38064ef05db41ac":[6,0,1,0,1,492,1],
-"structMR_1_1Parabola.html#aa24552a8fee4499ec38064ef05db41ac":[6,0,2,0,1,475,1],
-"structMR_1_1ParallelProgressReporter_1_1PerTaskReporter.html":[6,0,1,0,1,493,0],
-"structMR_1_1ParallelProgressReporter_1_1PerTaskReporter.html":[6,0,2,0,1,476,0]
+"structMR_1_1Parabola.html#a9753dfacf3e0613b37e554a7f4b63f8a":[6,0,2,0,1,475,7]
 };

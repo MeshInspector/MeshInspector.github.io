@@ -1,5 +1,9 @@
 var NAVTREEINDEX81 =
 {
+"structMR_1_1ModelRenderParams.html#a76981d8dfd223e433ca3203cf1ebb4a3":[6,0,2,0,1,392,0],
+"structMR_1_1MouseClickListener.html":[6,0,1,0,1,410],
+"structMR_1_1MouseClickListener.html":[6,0,2,0,1,393],
+"structMR_1_1MouseClickListener.html#a4b1da3b9a028bfb17bba77a7f01f5adb":[6,0,1,0,1,410,2],
 "structMR_1_1MouseClickListener.html#a4b1da3b9a028bfb17bba77a7f01f5adb":[6,0,2,0,1,393,2],
 "structMR_1_1MouseClickListener.html#a69a367cc3c52ae54f5e24ae6a0f168dc":[6,0,1,0,1,410,0],
 "structMR_1_1MouseClickListener.html#a69a367cc3c52ae54f5e24ae6a0f168dc":[6,0,2,0,1,393,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX81 =
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Point_01_4.html#a7c6810eee2e81dd56d902c959a18d117":[6,0,2,0,1,451,0],
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Sphere_01_4.html":[6,0,1,0,1,469],
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Sphere_01_4.html":[6,0,2,0,1,452],
-"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Sphere_01_4.html#af790be1acb4e05aaea55fd8ac0a82a65":[6,0,1,0,1,469,0],
-"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Sphere_01_4.html#af790be1acb4e05aaea55fd8ac0a82a65":[6,0,2,0,1,452,0],
-"structMR_1_1ObjTreeTraits.html":[6,0,1,0,1,470],
-"structMR_1_1ObjTreeTraits.html":[6,0,2,0,1,453],
-"structMR_1_1ObjTreeTraits.html#a5517b355b3a51538470f957d6a23bff1":[6,0,1,0,1,470,2]
+"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Sphere_01_4.html#af790be1acb4e05aaea55fd8ac0a82a65":[6,0,1,0,1,469,0]
 };

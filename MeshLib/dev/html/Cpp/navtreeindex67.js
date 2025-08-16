@@ -1,5 +1,9 @@
 var NAVTREEINDEX67 =
 {
+"structMRDenoiseViaNormalsSettings.html#a7adbffbe48f999ba44ccc2d6e50d3090":[6,0,2,0,13,6],
+"structMRDenoiseViaNormalsSettings.html#a9c96228a47b139c7c8fecc74f52faeb2":[6,0,2,0,13,3],
+"structMRDenoiseViaNormalsSettings.html#aa8029cf336446f8f1f98f5a2cdb204c2":[6,0,2,0,13,4],
+"structMRDenoiseViaNormalsSettings.html#aaa38eb468fbd9a754234a600955f1321":[6,0,2,0,13,1],
 "structMRDenoiseViaNormalsSettings.html#aaee3a82832c6630dfada412199c0d02a":[6,0,2,0,13,9],
 "structMRDenoiseViaNormalsSettings.html#ab55840e2cfced4070fe664eb48980d68":[6,0,2,0,13,8],
 "structMRDenoiseViaNormalsSettings.html#ab65afa93830d3c7d4dd35df82c51676e":[6,0,2,0,13,7],
@@ -245,9 +249,5 @@ var NAVTREEINDEX67 =
 "structMRSphereParams.html#a5f59105f7d8815267e7e295ce861e739":[6,0,2,0,61,0],
 "structMRStitchHolesParams.html":[6,0,2,0,62],
 "structMRStitchHolesParams.html#ab1a3eda7adaffbeaa8f8a7da237d2888":[6,0,2,0,62,1],
-"structMRStitchHolesParams.html#af2802077c43ff3c07a29080f2a908ade":[6,0,2,0,62,0],
-"structMRSubdivideSettings.html":[6,0,2,0,63],
-"structMRSubdivideSettings.html#a1d755eca0a3bcc58f0847f35da897684":[6,0,2,0,63,0],
-"structMRSubdivideSettings.html#a1e281a5d1635b3cf548aede48e82214a":[6,0,2,0,63,8],
-"structMRSubdivideSettings.html#a1e9d3add86da268d281c43554fa22c2a":[6,0,2,0,63,14]
+"structMRStitchHolesParams.html#af2802077c43ff3c07a29080f2a908ade":[6,0,2,0,62,0]
 };

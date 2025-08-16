@@ -1,5 +1,9 @@
 var NAVTREEINDEX75 =
 {
+"structMR_1_1GcodeProcessor_1_1BaseAction.html#a9270868b501d221ffbe92fc1d7c8916e":[6,0,2,0,1,252,0,1],
+"structMR_1_1GcodeProcessor_1_1Command.html":[6,0,1,0,1,269,1],
+"structMR_1_1GcodeProcessor_1_1Command.html":[6,0,2,0,1,252,1],
+"structMR_1_1GcodeProcessor_1_1Command.html#a7465c37851c2a57ce372444cc1a0aeb9":[6,0,1,0,1,269,1,1],
 "structMR_1_1GcodeProcessor_1_1Command.html#a7465c37851c2a57ce372444cc1a0aeb9":[6,0,2,0,1,252,1,1],
 "structMR_1_1GcodeProcessor_1_1Command.html#ae3896dcb88dae275220940ab26d6d42f":[6,0,1,0,1,269,1,0],
 "structMR_1_1GcodeProcessor_1_1Command.html#ae3896dcb88dae275220940ab26d6d42f":[6,0,2,0,1,252,1,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX75 =
 "structMR_1_1ImGuiMath_1_1detail_1_1VecSize.html":[6,0,1,0,1,14,0,5],
 "structMR_1_1ImGuiMath_1_1detail_1_1VecSize.html":[6,0,2,0,1,5,0,5],
 "structMR_1_1ImGuiMath_1_1detail_1_1VecSize_3_01ImVec2_01_4.html":[6,0,1,0,1,14,0,6],
-"structMR_1_1ImGuiMath_1_1detail_1_1VecSize_3_01ImVec2_01_4.html":[6,0,2,0,1,5,0,6],
-"structMR_1_1ImGuiMath_1_1detail_1_1VecSize_3_01ImVec4_01_4.html":[6,0,1,0,1,14,0,7],
-"structMR_1_1ImGuiMath_1_1detail_1_1VecSize_3_01ImVec4_01_4.html":[6,0,2,0,1,5,0,7],
-"structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html":[6,0,1,0,1,15,0],
-"structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html":[6,0,2,0,1,6,0]
+"structMR_1_1ImGuiMath_1_1detail_1_1VecSize_3_01ImVec2_01_4.html":[6,0,2,0,1,5,0,6]
 };

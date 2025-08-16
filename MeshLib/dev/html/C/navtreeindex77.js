@@ -1,5 +1,10 @@
 var NAVTREEINDEX77 =
 {
+"MRSharpenMarchingCubesMesh_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17":[6,2,1,0,0,0,1,303,1],
+"MRSharpenMarchingCubesMesh_8h.html#af40b3c33ac54262801bbd882e686bcba":[6,2,1,0,0,0,1,303,21],
+"MRSharpenMarchingCubesMesh_8h.html#af816b1f84f9f326a46515876615f7ca0":[6,2,1,0,0,0,1,303,18],
+"MRSharpenMarchingCubesMesh_8h.html#af9ff70d6f8b36eaad7b1b407e5b8956e":[6,2,1,0,0,0,1,303,23],
+"MRSharpenMarchingCubesMesh_8h_source.html":[6,2,1,0,0,0,1,303],
 "MRSignDetectionMode_8h.html":[6,2,1,0,0,0,1,304],
 "MRSignDetectionMode_8h.html#a0edc773fdcc3ae9b1db46fef6e47f9af":[6,2,1,0,0,0,1,304,0],
 "MRSignDetectionMode_8h.html#a72267b400fd34f68348b1d13b36e9cc4":[6,2,1,0,0,0,1,304,1],
@@ -244,10 +249,5 @@ var NAVTREEINDEX77 =
 "MRSubfeatures_8h.html#aead1805af95601b5b14f3e40afd8ce05":[6,2,1,0,0,0,1,313,14],
 "MRSubfeatures_8h.html#aeb2472172c06023be0b7f657a164a3e0":[6,2,1,0,0,0,1,313,22],
 "MRSubfeatures_8h.html#af02ee38df887308b7c41fb18e2cbc06d":[6,2,1,0,0,0,1,313,20],
-"MRSubfeatures_8h_source.html":[6,2,1,0,0,0,1,313],
-"MRSurfaceDistanceBuilder_8h.html":[6,2,1,0,0,0,1,315],
-"MRSurfaceDistanceBuilder_8h.html#a0ec70674d6412513e8008d61c284c453":[6,2,1,0,0,0,1,315,19],
-"MRSurfaceDistanceBuilder_8h.html#a1d0a59dcbf14d2c46eb7f09430511c2f":[6,2,1,0,0,0,1,315,3],
-"MRSurfaceDistanceBuilder_8h.html#a22fb39b5cdf9c24469e46b5037c37fd4":[6,2,1,0,0,0,1,315,25],
-"MRSurfaceDistanceBuilder_8h.html#a2f145ce2b4622eff463121dc35d67ea7":[6,2,1,0,0,0,1,315,36]
+"MRSubfeatures_8h_source.html":[6,2,1,0,0,0,1,313]
 };

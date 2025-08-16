@@ -1,5 +1,9 @@
 var NAVTREEINDEX83 =
 {
+"structMR_1_1Parabola.html#aa24552a8fee4499ec38064ef05db41ac":[6,0,1,0,1,492,1],
+"structMR_1_1Parabola.html#aa24552a8fee4499ec38064ef05db41ac":[6,0,2,0,1,475,1],
+"structMR_1_1ParallelProgressReporter_1_1PerTaskReporter.html":[6,0,1,0,1,493,0],
+"structMR_1_1ParallelProgressReporter_1_1PerTaskReporter.html":[6,0,2,0,1,476,0],
 "structMR_1_1ParallelProgressReporter_1_1PerTaskReporter.html#a8a3bbfef3276f1831b2a645909a93a94":[6,0,1,0,1,493,0,2],
 "structMR_1_1ParallelProgressReporter_1_1PerTaskReporter.html#a8a3bbfef3276f1831b2a645909a93a94":[6,0,2,0,1,476,0,2],
 "structMR_1_1ParallelProgressReporter_1_1PerTaskReporter.html#af373a60a30b69ecccf117ed007327929":[6,0,1,0,1,493,0,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX83 =
 "structMR_1_1PointInAllSpaces.html#a0faf89a2289bed4bb23a92601e2a6cd9":[6,0,2,0,1,501,4],
 "structMR_1_1PointInAllSpaces.html#a137079597c74de0d73863a07b3a88f12":[6,0,1,0,1,518,7],
 "structMR_1_1PointInAllSpaces.html#a137079597c74de0d73863a07b3a88f12":[6,0,2,0,1,501,7],
-"structMR_1_1PointInAllSpaces.html#a1cba71d0b9b3f78aff8c080d214b074f":[6,0,1,0,1,518,0],
-"structMR_1_1PointInAllSpaces.html#a1cba71d0b9b3f78aff8c080d214b074f":[6,0,2,0,1,501,0],
-"structMR_1_1PointInAllSpaces.html#a5512321f2684ad8e986186697b2ccc51":[6,0,1,0,1,518,6],
-"structMR_1_1PointInAllSpaces.html#a5512321f2684ad8e986186697b2ccc51":[6,0,2,0,1,501,6],
-"structMR_1_1PointInAllSpaces.html#a836698583352b520081e97d4d91b40d2":[6,0,1,0,1,518,5]
+"structMR_1_1PointInAllSpaces.html#a1cba71d0b9b3f78aff8c080d214b074f":[6,0,1,0,1,518,0]
 };

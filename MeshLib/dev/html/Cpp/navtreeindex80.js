@@ -1,5 +1,9 @@
 var NAVTREEINDEX80 =
 {
+"structMR_1_1MeshProjectionParameters.html#a1c122d1dc6393cbf06a33b2b7d33ef8e":[6,0,2,0,1,371,0],
+"structMR_1_1MeshProjectionParameters.html#a758389fe44297258e47fdd1ef104916b":[6,0,1,0,1,388,1],
+"structMR_1_1MeshProjectionParameters.html#a758389fe44297258e47fdd1ef104916b":[6,0,2,0,1,371,1],
+"structMR_1_1MeshProjectionParameters.html#a7ce5f16c30935b50d1c953fc917000dc":[6,0,1,0,1,388,3],
 "structMR_1_1MeshProjectionParameters.html#a7ce5f16c30935b50d1c953fc917000dc":[6,0,2,0,1,371,3],
 "structMR_1_1MeshProjectionParameters.html#a93e080458c496f555a43b92f40f7e547":[6,0,1,0,1,388,2],
 "structMR_1_1MeshProjectionParameters.html#a93e080458c496f555a43b92f40f7e547":[6,0,2,0,1,371,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX80 =
 "structMR_1_1ModelRenderParams.html#a272deea0e519d1ef5efaaf5d3da84b88":[6,0,2,0,1,392,3],
 "structMR_1_1ModelRenderParams.html#a7055e460ef562d8825891c62abcd7f2e":[6,0,1,0,1,409,2],
 "structMR_1_1ModelRenderParams.html#a7055e460ef562d8825891c62abcd7f2e":[6,0,2,0,1,392,2],
-"structMR_1_1ModelRenderParams.html#a76981d8dfd223e433ca3203cf1ebb4a3":[6,0,1,0,1,409,0],
-"structMR_1_1ModelRenderParams.html#a76981d8dfd223e433ca3203cf1ebb4a3":[6,0,2,0,1,392,0],
-"structMR_1_1MouseClickListener.html":[6,0,1,0,1,410],
-"structMR_1_1MouseClickListener.html":[6,0,2,0,1,393],
-"structMR_1_1MouseClickListener.html#a4b1da3b9a028bfb17bba77a7f01f5adb":[6,0,1,0,1,410,2]
+"structMR_1_1ModelRenderParams.html#a76981d8dfd223e433ca3203cf1ebb4a3":[6,0,1,0,1,409,0]
 };
