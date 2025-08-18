@@ -1,5 +1,11 @@
 var NAVTREEINDEX68 =
 {
+"structMRSaveSettings.html#a9c114be117bb46a789028e6f1f814201":[6,0,2,0,60,3],
+"structMRSaveSettings.html#ab91ad76d039a96d79720bce0772eb46b":[6,0,2,0,60,0],
+"structMRSphereParams.html":[6,0,2,0,61],
+"structMRSphereParams.html#a4439c01e0e27173543a6da34336b2024":[6,0,2,0,61,1],
+"structMRSphereParams.html#a5f59105f7d8815267e7e295ce861e739":[6,0,2,0,61,0],
+"structMRStitchHolesParams.html":[6,0,2,0,62],
 "structMRStitchHolesParams.html#ab1a3eda7adaffbeaa8f8a7da237d2888":[6,0,2,0,62,1],
 "structMRStitchHolesParams.html#af2802077c43ff3c07a29080f2a908ade":[6,0,2,0,62,0],
 "structMRSubdivideSettings.html":[6,0,2,0,63],
@@ -243,11 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1BaseRenderParams.html#aabb1d7dfa544bd6cb1d98a79a8d036a9":[6,0,2,0,1,53,2],
 "structMR_1_1BaseRenderParams.html#ab108063540156c1b73540c07c48e6d01":[6,0,1,0,1,70,0],
 "structMR_1_1BaseRenderParams.html#ab108063540156c1b73540c07c48e6d01":[6,0,2,0,1,53,0],
-"structMR_1_1BaseRenderParams.html#adf952473500110be7f693c5d725f6fde":[6,0,1,0,1,70,3],
-"structMR_1_1BaseRenderParams.html#adf952473500110be7f693c5d725f6fde":[6,0,2,0,1,53,3],
-"structMR_1_1BaseShellParameters.html":[6,0,1,0,1,71],
-"structMR_1_1BaseShellParameters.html":[6,0,2,0,1,54],
-"structMR_1_1BaseShellParameters.html#a0496e82daf37476561be7bd450c6fb48":[6,0,1,0,1,71,1],
-"structMR_1_1BaseShellParameters.html#a0496e82daf37476561be7bd450c6fb48":[6,0,2,0,1,54,1],
-"structMR_1_1BaseShellParameters.html#a21a919475b5c9882d80ab9a26dd60d50":[6,0,1,0,1,71,0]
+"structMR_1_1BaseRenderParams.html#adf952473500110be7f693c5d725f6fde":[6,0,1,0,1,70,3]
 };

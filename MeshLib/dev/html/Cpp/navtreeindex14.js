@@ -1,5 +1,8 @@
 var NAVTREEINDEX14 =
 {
+"MRSeparationPoint_8h.html#a280c060609c3f9f4b19b026220db29feae93f994f01c537c4e2f7d8528c3eb5e9":[6,0,3,0,0,1,4,348,4,3],
+"MRSeparationPoint_8h.html#a9818c25296630cb432dbe0d4e068734d":[6,0,3,0,0,1,4,348,3],
+"MRSeparationPoint_8h.html#abe4fc717ac175a150ec372e71e5d0ba1":[6,0,3,0,0,1,4,348,2],
 "MRSeparationPoint_8h_source.html":[6,0,3,0,0,1,4,348],
 "MRSerializer_8h.html":[6,0,3,0,0,1,4,349],
 "MRSerializer_8h_source.html":[6,0,3,0,0,1,4,349],
@@ -246,8 +249,5 @@ var NAVTREEINDEX14 =
 "MRTestC2_2MRAffineXf_8h.html#af14f27e971025d36cb34254a3fb570a0":[6,0,3,0,0,1,10,1,1],
 "MRTestC2_2MRAffineXf_8h_source.html":[6,0,3,0,0,1,10,1],
 "MRTestC2_2MRBitSet_8h.html":[6,0,3,0,0,1,10,2],
-"MRTestC2_2MRBitSet_8h.html#af179eb8d5293c389d6c39fa71812f0b2":[6,0,3,0,0,1,10,2,0],
-"MRTestC2_2MRBitSet_8h_source.html":[6,0,3,0,0,1,10,2],
-"MRTestC2_2MRBox_8h.html":[6,0,3,0,0,1,10,3],
-"MRTestC2_2MRBox_8h.html#a0236d0d91ace9819ca86264df0938e92":[6,0,3,0,0,1,10,3,0]
+"MRTestC2_2MRBitSet_8h.html#af179eb8d5293c389d6c39fa71812f0b2":[6,0,3,0,0,1,10,2,0]
 };

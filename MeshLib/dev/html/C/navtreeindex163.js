@@ -1,5 +1,10 @@
 var NAVTREEINDEX163 =
 {
+"std__vector__std__shared__ptr__MR__Object_8h.html#a411c2838198ab17efc6c85d7f34ea38e":[6,2,1,0,0,0,2,392,50],
+"std__vector__std__shared__ptr__MR__Object_8h.html#a42d721236d4fa8508a45337f26190829":[6,2,1,0,0,0,2,392,35],
+"std__vector__std__shared__ptr__MR__Object_8h.html#a5d67bc2d2074b3ec3fa5f8c1f159ae2d":[6,2,1,0,0,0,2,392,39],
+"std__vector__std__shared__ptr__MR__Object_8h.html#a6d7c2ce1fc0491526345e74bd0729c95":[6,2,1,0,0,0,2,392,51],
+"std__vector__std__shared__ptr__MR__Object_8h.html#a75d33b745d9fb49108866998081cf39a":[6,2,1,0,0,0,2,392,65],
 "std__vector__std__shared__ptr__MR__Object_8h.html#a77a7054ce29947b031418b4d6b6d5fc9":[6,2,1,0,0,0,2,392,15],
 "std__vector__std__shared__ptr__MR__Object_8h.html#a77c6a1a90a7fdba3bd6e29335177a113":[6,2,1,0,0,0,2,392,32],
 "std__vector__std__shared__ptr__MR__Object_8h.html#a7d13a95477845d1f06b6c098aedfa3d0":[6,2,1,0,0,0,2,392,9],
@@ -244,10 +249,5 @@ var NAVTREEINDEX163 =
 "std__vector__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitives____cdd2_8h.html#a88cb5c6f39b76267435a12a978633933":[6,2,1,0,0,0,2,398,25],
 "std__vector__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitives____cdd2_8h.html#a8e26eaaf813e9cb0e1f0e11b6af42198":[6,2,1,0,0,0,2,398,41],
 "std__vector__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitives____cdd2_8h.html#a969de02f35067f7bb18963cfd6d736d8":[6,2,1,0,0,0,2,398,36],
-"std__vector__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitives____cdd2_8h.html#a9d8e47f41f1a72d81eae50dc8db9ae3d":[6,2,1,0,0,0,2,398,0],
-"std__vector__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitives____cdd2_8h.html#a9dca23495709eb683bb07c62958abc55":[6,2,1,0,0,0,2,398,51],
-"std__vector__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitives____cdd2_8h.html#aa3a0b23ecf7ee414dab90f301af19d67":[6,2,1,0,0,0,2,398,54],
-"std__vector__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitives____cdd2_8h.html#aaddca3859f8c53355a35f88ae98309ca":[6,2,1,0,0,0,2,398,31],
-"std__vector__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitives____cdd2_8h.html#aaeea960541bb805a4c94db97cac71b92":[6,2,1,0,0,0,2,398,26],
-"std__vector__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitives____cdd2_8h.html#ab78bf5b4aa18ca51323d113c29f2537c":[6,2,1,0,0,0,2,398,43]
+"std__vector__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitives____cdd2_8h.html#a9d8e47f41f1a72d81eae50dc8db9ae3d":[6,2,1,0,0,0,2,398,0]
 };

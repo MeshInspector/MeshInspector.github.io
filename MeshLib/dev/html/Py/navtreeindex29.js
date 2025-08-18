@@ -1,5 +1,7 @@
 var NAVTREEINDEX29 =
 {
+"classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode.html":[6,1,0,0,2,258,0],
+"classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode.html":[6,1,1,0,1,258,0],
 "classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode.html#a15ae5d57f84e748999963cf07103f855":[6,1,0,0,2,258,0,8],
 "classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode.html#a15ae5d57f84e748999963cf07103f855":[6,1,1,0,1,258,0,8],
 "classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode.html#a257abed4098dfafbe461661ab0b522a8":[6,1,0,0,2,258,0,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX29 =
 "classmrmeshpy_1_1FixMeshDegeneraciesParams.html#a647122eed90fc2317a989d13e54e2579":[6,1,0,0,2,267,14],
 "classmrmeshpy_1_1FixMeshDegeneraciesParams.html#a647122eed90fc2317a989d13e54e2579":[6,1,1,0,1,267,14],
 "classmrmeshpy_1_1FixMeshDegeneraciesParams.html#a75ee8102258be97086e96f5fb3031ae4":[6,1,0,0,2,267,6],
-"classmrmeshpy_1_1FixMeshDegeneraciesParams.html#a75ee8102258be97086e96f5fb3031ae4":[6,1,1,0,1,267,6],
-"classmrmeshpy_1_1FixMeshDegeneraciesParams.html#ad541d9f4dee2a4c7a2b11ac5f4ea2c8a":[6,1,0,0,2,267,4],
-"classmrmeshpy_1_1FixMeshDegeneraciesParams.html#ad541d9f4dee2a4c7a2b11ac5f4ea2c8a":[6,1,1,0,1,267,4]
+"classmrmeshpy_1_1FixMeshDegeneraciesParams.html#a75ee8102258be97086e96f5fb3031ae4":[6,1,1,0,1,267,6]
 };

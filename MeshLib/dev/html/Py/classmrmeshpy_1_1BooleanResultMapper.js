@@ -7,6 +7,7 @@ var classmrmeshpy_1_1BooleanResultMapper =
     [ "getMaps", "classmrmeshpy_1_1BooleanResultMapper.html#ab60e169572a408e4f0808aa22f713da7", null ],
     [ "map", "classmrmeshpy_1_1BooleanResultMapper.html#a413f091d16bb9b41059c977368802928", null ],
     [ "map", "classmrmeshpy_1_1BooleanResultMapper.html#a85c54607925a403a57379533d0035427", null ],
+    [ "map", "classmrmeshpy_1_1BooleanResultMapper.html#a7e7be14161a2a76c6da4c092ebdf8a0d", null ],
     [ "map", "classmrmeshpy_1_1BooleanResultMapper.html#a200a9f083b12b224673ffe24d638d866", null ],
     [ "newFaces", "classmrmeshpy_1_1BooleanResultMapper.html#ac57dad95088541d21d6685d6fd9962d6", null ]
 ];

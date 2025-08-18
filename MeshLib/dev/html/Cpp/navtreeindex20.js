@@ -1,5 +1,8 @@
 var NAVTREEINDEX20 =
 {
+"classMR_1_1Buffer.html#ae59d432ebfdf2ba3aa9e626357dcc0a3":[6,0,0,3,6,0],
+"classMR_1_1Buffer.html#af6b75ad9972a297c57f5ac949f0062ef":[6,0,0,3,6,9],
+"classMR_1_1Buffer.html#afa13cb6ef3db757db3c9c7e75957e061":[6,0,0,3,6,2],
 "classMR_1_1Buffer.html#afcf3d90225b34639d9eb1017164d7c18":[6,0,0,3,6,6],
 "classMR_1_1CNCMachineSettings.html":[6,0,1,0,1,144],
 "classMR_1_1CNCMachineSettings.html":[6,0,2,0,1,127],
@@ -246,8 +249,5 @@ var NAVTREEINDEX20 =
 "classMR_1_1ChangeObjectVisibilityAction.html#aeb43acff9643bd750856214f6f50b39d":[6,0,0,4,15,5],
 "classMR_1_1ChangeOneNormalInCloudAction.html":[6,0,0,4,20],
 "classMR_1_1ChangeOneNormalInCloudAction.html#a56b040ed71f05bfbf64a540bf3b4bf3d":[6,0,0,4,20,1],
-"classMR_1_1ChangeOneNormalInCloudAction.html#a67594b68431eb196ebfb45604cedbdb9":[6,0,0,4,20,4],
-"classMR_1_1ChangeOneNormalInCloudAction.html#aa2642a2de919be105852f8ea69084eac":[6,0,0,4,20,2],
-"classMR_1_1ChangeOneNormalInCloudAction.html#aa922f462c2baab3f1699371f60ca1059":[6,0,0,4,20,5],
-"classMR_1_1ChangeOneNormalInCloudAction.html#aafd6fc62e7b35ee903d98899500b8dc9":[6,0,0,4,20,3]
+"classMR_1_1ChangeOneNormalInCloudAction.html#a67594b68431eb196ebfb45604cedbdb9":[6,0,0,4,20,4]
 };

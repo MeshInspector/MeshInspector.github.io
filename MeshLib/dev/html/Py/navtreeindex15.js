@@ -1,5 +1,7 @@
 var NAVTREEINDEX15 =
 {
+"classmrmeshpy_1_1ComputeSteepestDescentPathSettings.html#aca0e8361a5b32795273def3162c14f6f":[6,1,0,0,2,154,5],
+"classmrmeshpy_1_1ComputeSteepestDescentPathSettings.html#aca0e8361a5b32795273def3162c14f6f":[6,1,1,0,1,154,5],
 "classmrmeshpy_1_1ComputeSteepestDescentPathSettings.html#ae57bfe1b1be2a4ef84e188f8c2fe3126":[6,1,0,0,2,154,1],
 "classmrmeshpy_1_1ComputeSteepestDescentPathSettings.html#ae57bfe1b1be2a4ef84e188f8c2fe3126":[6,1,1,0,1,154,1],
 "classmrmeshpy_1_1ComputeSteepestDescentPathSettings.html#afb4b948fc949df7a070bca1e7e392f0c":[6,1,0,0,2,154,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX15 =
 "classmrmeshpy_1_1ContoursDistanceMapOptions_1_1SignedDetectionMethod.html#a1e9bc96fbd05f8b24ad07dfac5fa017c":[6,1,0,0,2,162,0,8],
 "classmrmeshpy_1_1ContoursDistanceMapOptions_1_1SignedDetectionMethod.html#a1e9bc96fbd05f8b24ad07dfac5fa017c":[6,1,1,0,1,162,0,8],
 "classmrmeshpy_1_1ContoursDistanceMapOptions_1_1SignedDetectionMethod.html#a21123e1fe09083ae07652935037089a6":[6,1,0,0,2,162,0,4],
-"classmrmeshpy_1_1ContoursDistanceMapOptions_1_1SignedDetectionMethod.html#a21123e1fe09083ae07652935037089a6":[6,1,1,0,1,162,0,4],
-"classmrmeshpy_1_1ContoursDistanceMapOptions_1_1SignedDetectionMethod.html#a3a79cbf42729890ef23418a39b45fa20":[6,1,0,0,2,162,0,5],
-"classmrmeshpy_1_1ContoursDistanceMapOptions_1_1SignedDetectionMethod.html#a3a79cbf42729890ef23418a39b45fa20":[6,1,1,0,1,162,0,5]
+"classmrmeshpy_1_1ContoursDistanceMapOptions_1_1SignedDetectionMethod.html#a21123e1fe09083ae07652935037089a6":[6,1,1,0,1,162,0,4]
 };

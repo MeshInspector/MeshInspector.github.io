@@ -1,5 +1,10 @@
 var NAVTREEINDEX169 =
 {
+"structMR__ObjId.html#a779a7b9acbf01c649a7162be4f9b9860":[6,2,0,0,37,0],
+"structMR__ObjVertId.html":[6,2,0,0,38],
+"structMR__ObjVertId.html#a5194402ad6a70672d7753e5afd7a4fcb":[6,2,0,0,38,1],
+"structMR__ObjVertId.html#a6de37a93e460841b4edc20c46b5435c0":[6,2,0,0,38,0],
+"structMR__PixelId.html":[6,2,0,0,39],
 "structMR__PixelId.html#ab6a08b6da568d3842dfa4af5d266b5c2":[6,2,0,0,39,0],
 "structMR__RegionId.html":[6,2,0,0,40],
 "structMR__RegionId.html#a91416a53da3dcfa9d0b4a1e9f7411185":[6,2,0,0,40,0],

@@ -1,5 +1,7 @@
 var NAVTREEINDEX11 =
 {
+"classmrmeshpy_1_1Buffer__VertId__VertId.html#a22b64d1d38c60996957291a05b0b7cf4":[6,1,0,0,2,94,4],
+"classmrmeshpy_1_1Buffer__VertId__VertId.html#a22b64d1d38c60996957291a05b0b7cf4":[6,1,1,0,1,94,4],
 "classmrmeshpy_1_1Buffer__VertId__VertId.html#a2497dc30788b01213e275884742994cd":[6,1,0,0,2,94,10],
 "classmrmeshpy_1_1Buffer__VertId__VertId.html#a2497dc30788b01213e275884742994cd":[6,1,0,0,2,94,11],
 "classmrmeshpy_1_1Buffer__VertId__VertId.html#a2497dc30788b01213e275884742994cd":[6,1,1,0,1,94,10],
@@ -247,7 +249,5 @@ var NAVTREEINDEX11 =
 "classmrmeshpy_1_1ChangeDualMarchingCubesAction.html":[6,1,0,0,2,99],
 "classmrmeshpy_1_1ChangeDualMarchingCubesAction.html":[6,1,1,0,1,99],
 "classmrmeshpy_1_1ChangeDualMarchingCubesAction.html#a2e0555e589709401de514f3ec9165564":[6,1,0,0,2,99,3],
-"classmrmeshpy_1_1ChangeDualMarchingCubesAction.html#a2e0555e589709401de514f3ec9165564":[6,1,1,0,1,99,3],
-"classmrmeshpy_1_1ChangeDualMarchingCubesAction.html#ab253cc2b06e5221d8452070c2d6a296f":[6,1,0,0,2,99,2],
-"classmrmeshpy_1_1ChangeDualMarchingCubesAction.html#ab253cc2b06e5221d8452070c2d6a296f":[6,1,1,0,1,99,2]
+"classmrmeshpy_1_1ChangeDualMarchingCubesAction.html#a2e0555e589709401de514f3ec9165564":[6,1,1,0,1,99,3]
 };

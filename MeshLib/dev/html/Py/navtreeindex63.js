@@ -1,5 +1,7 @@
 var NAVTREEINDEX63 =
 {
+"classmrmeshpy_1_1Polyline2.html#a45bac95ea57cfea4ec20fdc196e7a033":[6,1,0,0,2,677,14],
+"classmrmeshpy_1_1Polyline2.html#a45bac95ea57cfea4ec20fdc196e7a033":[6,1,1,0,1,677,14],
 "classmrmeshpy_1_1Polyline2.html#a4629257392d7d3b677febc3d5b59e53a":[6,1,0,0,2,677,33],
 "classmrmeshpy_1_1Polyline2.html#a4629257392d7d3b677febc3d5b59e53a":[6,1,1,0,1,677,33],
 "classmrmeshpy_1_1Polyline2.html#a477da321fa40a87930e0fa0a7359fa88":[6,1,0,0,2,677,22],
@@ -247,7 +249,5 @@ var NAVTREEINDEX63 =
 "classmrmeshpy_1_1PolylineProjectionWithOffsetResult3.html#ad7510ccb813a8fef985a7c92b6327063":[6,1,0,0,2,686,7],
 "classmrmeshpy_1_1PolylineProjectionWithOffsetResult3.html#ad7510ccb813a8fef985a7c92b6327063":[6,1,1,0,1,686,7],
 "classmrmeshpy_1_1PolylineProjectionWithOffsetResult3.html#adec640398f0bfed803032e8d70183c7b":[6,1,0,0,2,686,0],
-"classmrmeshpy_1_1PolylineProjectionWithOffsetResult3.html#adec640398f0bfed803032e8d70183c7b":[6,1,1,0,1,686,0],
-"classmrmeshpy_1_1PolylineSubdivideSettings.html":[6,1,0,0,2,687],
-"classmrmeshpy_1_1PolylineSubdivideSettings.html":[6,1,1,0,1,687]
+"classmrmeshpy_1_1PolylineProjectionWithOffsetResult3.html#adec640398f0bfed803032e8d70183c7b":[6,1,1,0,1,686,0]
 };

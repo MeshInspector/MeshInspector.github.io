@@ -1,5 +1,12 @@
 var NAVTREEINDEX84 =
 {
+"structMR_1_1PointCloudPart.html#adb49365fb60e376e6302ffa62d2b534a":[6,0,1,0,1,516,4],
+"structMR_1_1PointCloudPart.html#adb49365fb60e376e6302ffa62d2b534a":[6,0,2,0,1,499,4],
+"structMR_1_1PointCloudRelaxParams.html":[6,0,0,12,1],
+"structMR_1_1PointCloudRelaxParams.html#ab8de6ecb0effc2fb5ae7f053955d6caf":[6,0,0,12,1,0],
+"structMR_1_1PointInAllSpaces.html":[6,0,1,0,1,518],
+"structMR_1_1PointInAllSpaces.html":[6,0,2,0,1,501],
+"structMR_1_1PointInAllSpaces.html#a0faf89a2289bed4bb23a92601e2a6cd9":[6,0,1,0,1,518,4],
 "structMR_1_1PointInAllSpaces.html#a0faf89a2289bed4bb23a92601e2a6cd9":[6,0,2,0,1,501,4],
 "structMR_1_1PointInAllSpaces.html#a137079597c74de0d73863a07b3a88f12":[6,0,1,0,1,518,7],
 "structMR_1_1PointInAllSpaces.html#a137079597c74de0d73863a07b3a88f12":[6,0,2,0,1,501,7],
@@ -242,12 +249,5 @@ var NAVTREEINDEX84 =
 "structMR_1_1PolylineToVolumeParams.html#a000c468f653f412dd5e5110354c49d7b":[6,0,2,0,1,524,0],
 "structMR_1_1PolylineToVolumeParams.html#a1daa9529865ff9fa75f4e718e54fbd75":[6,0,1,0,1,541,1],
 "structMR_1_1PolylineToVolumeParams.html#a1daa9529865ff9fa75f4e718e54fbd75":[6,0,2,0,1,524,1],
-"structMR_1_1PolylineTraits.html":[6,0,0,1,8],
-"structMR_1_1PolylineTraits_3_01Vector2f_01_4.html":[6,0,0,1,9],
-"structMR_1_1PolylineTraits_3_01Vector2f_01_4.html#a71afe05c4c71237b7ac0e7b925f8d57d":[6,0,0,1,9,0],
-"structMR_1_1PolylineTraits_3_01Vector3f_01_4.html":[6,0,0,1,10],
-"structMR_1_1PolylineTraits_3_01Vector3f_01_4.html#a84bad48f4d3dae8d75fb1280ea03b42b":[6,0,0,1,10,0],
-"structMR_1_1Polynomial.html":[6,0,1,0,1,546],
-"structMR_1_1Polynomial.html":[6,0,2,0,1,529],
-"structMR_1_1Polynomial.html#a3cc5be84c9490736e6839f7d4f54e839":[6,0,1,0,1,546,5]
+"structMR_1_1PolylineTraits.html":[6,0,0,1,8]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX35 =
 {
+"classmrmeshpy_1_1ImproveSamplingSettings.html#a6e12c40bebcafea335a27911279b4fc6":[6,1,0,0,2,385,9],
+"classmrmeshpy_1_1ImproveSamplingSettings.html#a6e12c40bebcafea335a27911279b4fc6":[6,1,1,0,1,385,9],
 "classmrmeshpy_1_1ImproveSamplingSettings.html#a71e528676124b23964739633b6d387a7":[6,1,0,0,2,385,1],
 "classmrmeshpy_1_1ImproveSamplingSettings.html#a71e528676124b23964739633b6d387a7":[6,1,1,0,1,385,1],
 "classmrmeshpy_1_1ImproveSamplingSettings.html#a8a2058127117d08bcd634aeb240fdecc":[6,1,0,0,2,385,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX35 =
 "classmrmeshpy_1_1IsVisualizeMaskEnum__LinesVisualizePropertyType.html":[6,1,0,0,2,405],
 "classmrmeshpy_1_1IsVisualizeMaskEnum__LinesVisualizePropertyType.html":[6,1,1,0,1,405],
 "classmrmeshpy_1_1IsVisualizeMaskEnum__LinesVisualizePropertyType.html#a898b20f9c38983d113b535663ae87856":[6,1,0,0,2,405,2],
-"classmrmeshpy_1_1IsVisualizeMaskEnum__LinesVisualizePropertyType.html#a898b20f9c38983d113b535663ae87856":[6,1,1,0,1,405,2],
-"classmrmeshpy_1_1IsVisualizeMaskEnum__LinesVisualizePropertyType.html#ac6a4e0c87f6941c80150ba78a63aab5d":[6,1,0,0,2,405,0],
-"classmrmeshpy_1_1IsVisualizeMaskEnum__LinesVisualizePropertyType.html#ac6a4e0c87f6941c80150ba78a63aab5d":[6,1,0,0,2,405,1]
+"classmrmeshpy_1_1IsVisualizeMaskEnum__LinesVisualizePropertyType.html#a898b20f9c38983d113b535663ae87856":[6,1,1,0,1,405,2]
 };
