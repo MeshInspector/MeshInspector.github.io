@@ -1,5 +1,7 @@
 var NAVTREEINDEX41 =
 {
+"classMR_1_1ResetSceneMenuItem.html#af16f8c683f827d933c164d15c68c3ecb":[6,0,2,0,1,580,2],
+"classMR_1_1RestoringStreamsSink.html":[6,0,0,3,10],
 "classMR_1_1RestoringStreamsSink.html#a618c5f626a98c04e3f583577f1a0be03":[6,0,0,3,10,1],
 "classMR_1_1RestoringStreamsSink.html#aa423a8c6a70592f7e1b45b5f3255c5c7":[6,0,0,3,10,0],
 "classMR_1_1RibbonButtonDrawer.html":[6,0,1,0,1,600],
@@ -247,7 +249,5 @@ var NAVTREEINDEX41 =
 "classMR_1_1RibbonMenu.html#ad83984d816bde0619ef416625513f3e8":[6,0,1,0,1,604,79],
 "classMR_1_1RibbonMenu.html#ad83984d816bde0619ef416625513f3e8":[6,0,2,0,1,587,79],
 "classMR_1_1RibbonMenu.html#ad91246c3334e9c7beaf92098272f9e4b":[6,0,1,0,1,604,24],
-"classMR_1_1RibbonMenu.html#ad91246c3334e9c7beaf92098272f9e4b":[6,0,2,0,1,587,24],
-"classMR_1_1RibbonMenu.html#ae0840c947fea974de909fbaee8e7829e":[6,0,1,0,1,604,44],
-"classMR_1_1RibbonMenu.html#ae0840c947fea974de909fbaee8e7829e":[6,0,2,0,1,587,44]
+"classMR_1_1RibbonMenu.html#ad91246c3334e9c7beaf92098272f9e4b":[6,0,2,0,1,587,24]
 };

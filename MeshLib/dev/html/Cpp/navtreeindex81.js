@@ -1,5 +1,7 @@
 var NAVTREEINDEX81 =
 {
+"structMR_1_1ModalDialogSettings.html#aff877b60069cbba358ec18108751d01b":[6,0,1,0,1,406,6],
+"structMR_1_1ModalDialogSettings.html#aff877b60069cbba358ec18108751d01b":[6,0,2,0,1,389,6],
 "structMR_1_1ModelBaseRenderParams.html":[6,0,1,0,1,407],
 "structMR_1_1ModelBaseRenderParams.html":[6,0,2,0,1,390],
 "structMR_1_1ModelBaseRenderParams.html#a28337d3d5f8f9cc1db7812bca629ce40":[6,0,1,0,1,407,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX81 =
 "structMR_1_1NumSum.html#adab70c85e9a40a08c221e2a031274326":[6,0,1,0,1,443,3],
 "structMR_1_1NumSum.html#adab70c85e9a40a08c221e2a031274326":[6,0,2,0,1,426,3],
 "structMR_1_1NumSum.html#afd716f4242e9554e7900e18a890be1fa":[6,0,1,0,1,443,2],
-"structMR_1_1NumSum.html#afd716f4242e9554e7900e18a890be1fa":[6,0,2,0,1,426,2],
-"structMR_1_1ObjKindTraits.html":[6,0,1,0,1,462],
-"structMR_1_1ObjKindTraits.html":[6,0,2,0,1,445]
+"structMR_1_1NumSum.html#afd716f4242e9554e7900e18a890be1fa":[6,0,2,0,1,426,2]
 };
