@@ -1116,6 +1116,7 @@ var hierarchy =
     [ "MR::RigidScaleXf3< T >", "structMR_1_1RigidScaleXf3.html", null ],
     [ "MR::RigidXf3< T >", "structMR_1_1RigidXf3.html", null ],
     [ "MR::UI::SaveChangesPopupSettings", "structMR_1_1UI_1_1SaveChangesPopupSettings.html", null ],
+    [ "ImGui::SavedWindowPosParams", "structImGui_1_1SavedWindowPosParams.html", null ],
     [ "MR::SaveObjectSettings", "structMR_1_1SaveObjectSettings.html", null ],
     [ "MR::SaveSettings", "structMR_1_1SaveSettings.html", [
       [ "MR::MeshSave::CtmSaveOptions", "structMR_1_1MeshSave_1_1CtmSaveOptions.html", null ],

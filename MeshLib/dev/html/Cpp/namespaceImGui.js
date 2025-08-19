@@ -3,6 +3,7 @@ var namespaceImGui =
     [ "CustomStatePluginWindowParameters", "structImGui_1_1CustomStatePluginWindowParameters.html", "structImGui_1_1CustomStatePluginWindowParameters" ],
     [ "HistogramGridLine", "structImGui_1_1HistogramGridLine.html", "structImGui_1_1HistogramGridLine" ],
     [ "MultiDragRes", "structImGui_1_1MultiDragRes.html", "structImGui_1_1MultiDragRes" ],
+    [ "SavedWindowPosParams", "structImGui_1_1SavedWindowPosParams.html", "structImGui_1_1SavedWindowPosParams" ],
     [ "PaletteChanges", "namespaceImGui.html#a27ee05a9e60f4c26c369f0331134f682", [
       [ "None", "namespaceImGui.html#a27ee05a9e60f4c26c369f0331134f682a6adf97f83acf6453d4a6a4b1070f3754", null ],
       [ "Reset", "namespaceImGui.html#a27ee05a9e60f4c26c369f0331134f682a526d688f37a86d3c3f27d0c5016eb71d", null ],
@@ -16,6 +17,7 @@ var namespaceImGui =
     ] ],
     [ "BeginCustomStatePlugin", "namespaceImGui.html#a8686baf36ce377f9e5cd6aea4b1d4005", null ],
     [ "BeginModalNoAnimation", "namespaceImGui.html#a959274b0c45550ab3c50db7f9fbb2628", null ],
+    [ "BeginSavedWindowPos", "namespaceImGui.html#ab9191609cc8db0202abe18e31641a55b", null ],
     [ "BeginStatePlugin", "namespaceImGui.html#a23ae6006298ef80c1e04a1ea1b49dabf", null ],
     [ "Checkbox", "namespaceImGui.html#a01e8908c9ff42e3510168251a97f1d48", null ],
     [ "Combo", "namespaceImGui.html#ad58fef2244057ff2ad7eb1877f3b813a", null ],
@@ -40,10 +42,14 @@ var namespaceImGui =
     [ "InputText", "namespaceImGui.html#a392168d28bc4973532ead37f8061121e", null ],
     [ "Link", "namespaceImGui.html#aabb908deed7006b50c7ad6ec124126a7", null ],
     [ "ListBox", "namespaceImGui.html#a378834d8803566841b144ddf878ef623", null ],
+    [ "LoadSavedWindowPos", "namespaceImGui.html#aba3aedd4bc21e49dc028ea838c0a2146", null ],
+    [ "LoadSavedWindowPos", "namespaceImGui.html#abc9641ecb8b0feb32e48a68aa785e864", null ],
     [ "ModalBigTitle", "namespaceImGui.html#a5e04ca06524f269a621e6ca35c63d70a", null ],
     [ "ModalExitButton", "namespaceImGui.html#a39a8802226377b3d155788257f848b1a", null ],
     [ "Palette", "namespaceImGui.html#a57a1654a1953301d7dca389a0dba5215", null ],
     [ "Plane", "namespaceImGui.html#af082cf53c058ecd0adf21f0115b11121", null ],
     [ "PlotCustomHistogram", "namespaceImGui.html#aab9ea83bb6bf2bc7f7bb8d0c582bd9a9", null ],
+    [ "SaveWindowPosition", "namespaceImGui.html#a5cc3e778e75f9ee629a7ae99f8472c6f", null ],
+    [ "SaveWindowPosition", "namespaceImGui.html#a083d798cae08523bfb8851595088a61b", null ],
     [ "Spinner", "namespaceImGui.html#a2965953a64a756c9e40bf0c620028b06", null ]
 ];

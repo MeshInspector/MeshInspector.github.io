@@ -3,6 +3,7 @@ var ImGuiHelpers_8h =
     [ "ImGui::MultiDragRes", "structImGui_1_1MultiDragRes.html", "structImGui_1_1MultiDragRes" ],
     [ "ImGui::HistogramGridLine", "structImGui_1_1HistogramGridLine.html", "structImGui_1_1HistogramGridLine" ],
     [ "ImGui::CustomStatePluginWindowParameters", "structImGui_1_1CustomStatePluginWindowParameters.html", "structImGui_1_1CustomStatePluginWindowParameters" ],
+    [ "ImGui::SavedWindowPosParams", "structImGui_1_1SavedWindowPosParams.html", "structImGui_1_1SavedWindowPosParams" ],
     [ "PaletteChanges", "ImGuiHelpers_8h.html#a27ee05a9e60f4c26c369f0331134f682", [
       [ "None", "ImGuiHelpers_8h.html#a27ee05a9e60f4c26c369f0331134f682a6adf97f83acf6453d4a6a4b1070f3754", null ],
       [ "Reset", "ImGuiHelpers_8h.html#a27ee05a9e60f4c26c369f0331134f682a526d688f37a86d3c3f27d0c5016eb71d", null ],
@@ -16,6 +17,7 @@ var ImGuiHelpers_8h =
     ] ],
     [ "BeginCustomStatePlugin", "ImGuiHelpers_8h.html#a8686baf36ce377f9e5cd6aea4b1d4005", null ],
     [ "BeginModalNoAnimation", "ImGuiHelpers_8h.html#a959274b0c45550ab3c50db7f9fbb2628", null ],
+    [ "BeginSavedWindowPos", "ImGuiHelpers_8h.html#ab9191609cc8db0202abe18e31641a55b", null ],
     [ "BeginStatePlugin", "ImGuiHelpers_8h.html#a23ae6006298ef80c1e04a1ea1b49dabf", null ],
     [ "Checkbox", "ImGuiHelpers_8h.html#a01e8908c9ff42e3510168251a97f1d48", null ],
     [ "Combo", "ImGuiHelpers_8h.html#ad58fef2244057ff2ad7eb1877f3b813a", null ],
@@ -40,10 +42,14 @@ var ImGuiHelpers_8h =
     [ "InputText", "ImGuiHelpers_8h.html#a392168d28bc4973532ead37f8061121e", null ],
     [ "Link", "ImGuiHelpers_8h.html#aabb908deed7006b50c7ad6ec124126a7", null ],
     [ "ListBox", "ImGuiHelpers_8h.html#a378834d8803566841b144ddf878ef623", null ],
+    [ "LoadSavedWindowPos", "ImGuiHelpers_8h.html#aba3aedd4bc21e49dc028ea838c0a2146", null ],
+    [ "LoadSavedWindowPos", "ImGuiHelpers_8h.html#abc9641ecb8b0feb32e48a68aa785e864", null ],
     [ "ModalBigTitle", "ImGuiHelpers_8h.html#a5e04ca06524f269a621e6ca35c63d70a", null ],
     [ "ModalExitButton", "ImGuiHelpers_8h.html#a39a8802226377b3d155788257f848b1a", null ],
     [ "Palette", "ImGuiHelpers_8h.html#a57a1654a1953301d7dca389a0dba5215", null ],
     [ "Plane", "ImGuiHelpers_8h.html#af082cf53c058ecd0adf21f0115b11121", null ],
     [ "PlotCustomHistogram", "ImGuiHelpers_8h.html#aab9ea83bb6bf2bc7f7bb8d0c582bd9a9", null ],
+    [ "SaveWindowPosition", "ImGuiHelpers_8h.html#a5cc3e778e75f9ee629a7ae99f8472c6f", null ],
+    [ "SaveWindowPosition", "ImGuiHelpers_8h.html#a083d798cae08523bfb8851595088a61b", null ],
     [ "Spinner", "ImGuiHelpers_8h.html#a2965953a64a756c9e40bf0c620028b06", null ]
 ];

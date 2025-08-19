@@ -3,7 +3,8 @@ var annotated_dup =
     [ "ImGui", "namespaceImGui.html", [
       [ "CustomStatePluginWindowParameters", "structImGui_1_1CustomStatePluginWindowParameters.html", "structImGui_1_1CustomStatePluginWindowParameters" ],
       [ "HistogramGridLine", "structImGui_1_1HistogramGridLine.html", "structImGui_1_1HistogramGridLine" ],
-      [ "MultiDragRes", "structImGui_1_1MultiDragRes.html", "structImGui_1_1MultiDragRes" ]
+      [ "MultiDragRes", "structImGui_1_1MultiDragRes.html", "structImGui_1_1MultiDragRes" ],
+      [ "SavedWindowPosParams", "structImGui_1_1SavedWindowPosParams.html", "structImGui_1_1SavedWindowPosParams" ]
     ] ],
     [ "MR", "namespaceMR.html", [
       [ "Cuda", "namespaceMR_1_1Cuda.html", [
