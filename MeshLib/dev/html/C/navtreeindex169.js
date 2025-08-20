@@ -1,5 +1,8 @@
 var NAVTREEINDEX169 =
 {
+"structMR__NodeId.html":[6,2,0,0,36],
+"structMR__NodeId.html#a3c8b3bb3e5bbce16f1955b512d78c388":[6,2,0,0,36,0],
+"structMR__ObjId.html":[6,2,0,0,37],
 "structMR__ObjId.html#a779a7b9acbf01c649a7162be4f9b9860":[6,2,0,0,37,0],
 "structMR__ObjVertId.html":[6,2,0,0,38],
 "structMR__ObjVertId.html#a5194402ad6a70672d7753e5afd7a4fcb":[6,2,0,0,38,1],

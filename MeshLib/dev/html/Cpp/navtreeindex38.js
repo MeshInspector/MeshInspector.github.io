@@ -1,5 +1,7 @@
 var NAVTREEINDEX38 =
 {
+"classMR_1_1PolylineUndirectedEdgeIterator.html#a00b9bc17163f0618fd55aa774580ed91":[6,0,0,14,1,5],
+"classMR_1_1PolylineUndirectedEdgeIterator.html#a96c120505ea08821c57b4ed64dee6cda":[6,0,0,14,1,2],
 "classMR_1_1PolylineUndirectedEdgeIterator.html#aa10debad27ce2b86f238db3d967a2c22":[6,0,0,14,1,6],
 "classMR_1_1PolylineUndirectedEdgeIterator.html#ab5a25215895e3294bb18f87556136edc":[6,0,0,14,1,0],
 "classMR_1_1PolylineUndirectedEdgeIterator.html#ac7b41ca64df520fa1cceaefa6adf9cde":[6,0,0,14,1,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX38 =
 "classMR_1_1RangeProgress.html#aa39d9c285d46ac3ce70aea92db6f9bf2":[6,0,2,0,1,554,0],
 "classMR_1_1RangeProgress.html#aa39d9c285d46ac3ce70aea92db6f9bf2a63ef76e0056281d3d3b501b7bbf98129":[6,0,1,0,1,571,0,0],
 "classMR_1_1RangeProgress.html#aa39d9c285d46ac3ce70aea92db6f9bf2a63ef76e0056281d3d3b501b7bbf98129":[6,0,2,0,1,554,0,0],
-"classMR_1_1RangeProgress.html#aa39d9c285d46ac3ce70aea92db6f9bf2aa67f2c9d056f29b94521c17b838b9756":[6,0,1,0,1,571,0,1],
-"classMR_1_1RangeProgress.html#aa39d9c285d46ac3ce70aea92db6f9bf2aa67f2c9d056f29b94521c17b838b9756":[6,0,2,0,1,554,0,1],
-"classMR_1_1RangeProgress.html#aa3ba5b5d4dddbf923bc92f56310c747b":[6,0,1,0,1,571,1]
+"classMR_1_1RangeProgress.html#aa39d9c285d46ac3ce70aea92db6f9bf2aa67f2c9d056f29b94521c17b838b9756":[6,0,1,0,1,571,0,1]
 };

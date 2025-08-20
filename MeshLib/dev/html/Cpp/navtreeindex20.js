@@ -1,5 +1,7 @@
 var NAVTREEINDEX20 =
 {
+"classMR_1_1Buffer.html#a9db6d53dd2501eb585f56eb189af4340":[6,0,0,3,6,17],
+"classMR_1_1Buffer.html#aa0e2029752634265e64418bec35cd18e":[6,0,0,3,6,3],
 "classMR_1_1Buffer.html#ab1bc4a40918912e001d6da1bf1595d36":[6,0,0,3,6,18],
 "classMR_1_1Buffer.html#abfa0b936734c36dff600039214adb66f":[6,0,0,3,6,14],
 "classMR_1_1Buffer.html#ac20d3e206804590699b1e944ebe0bb1d":[6,0,0,3,6,16],
@@ -247,7 +249,5 @@ var NAVTREEINDEX20 =
 "classMR_1_1ChangeObjectSelectedAction.html#ae709358ae5d269b3ef15942ba7ccea30":[6,0,0,4,14,5],
 "classMR_1_1ChangeObjectVisibilityAction.html":[6,0,0,4,15],
 "classMR_1_1ChangeObjectVisibilityAction.html#a037473fbea41f9ad41ed74351f148e01":[6,0,0,4,15,4],
-"classMR_1_1ChangeObjectVisibilityAction.html#a4227858b5c82b2cf9ad2aec611a17f65":[6,0,0,4,15,2],
-"classMR_1_1ChangeObjectVisibilityAction.html#a479356824a42fb710dc8fd412c4b34b7":[6,0,0,4,15,1],
-"classMR_1_1ChangeObjectVisibilityAction.html#aa3f6bc9f32a9afa29f3f632c1c8a6e5d":[6,0,0,4,15,0]
+"classMR_1_1ChangeObjectVisibilityAction.html#a4227858b5c82b2cf9ad2aec611a17f65":[6,0,0,4,15,2]
 };

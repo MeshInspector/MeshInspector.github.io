@@ -275,6 +275,7 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRParallelProgressReporter.h", "MRParallelProgressReporter_8h.html", "MRParallelProgressReporter_8h" ],
     [ "MRPartialChangeMeshAction.h", "MRPartialChangeMeshAction_8h.html", "MRPartialChangeMeshAction_8h" ],
     [ "MRPartMapping.h", "MRPartMapping_8h.html", "MRPartMapping_8h" ],
+    [ "MRPartMappingAdapters.h", "MRPartMappingAdapters_8h.html", "MRPartMappingAdapters_8h" ],
     [ "MRPlane3.h", "MRPlane3_8h.html", null ],
     [ "MRPlaneObject.h", "MRPlaneObject_8h.html", null ],
     [ "MRPly.h", "MRPly_8h.html", "MRPly_8h" ],
