@@ -31,6 +31,8 @@ var NAVTREEINDEX39 =
 "classMR_1_1RegisterRenderObjectConstructor.html":[6,0,2,0,1,562],
 "classMR_1_1RegisterRenderObjectConstructor.html#a68b36d5a17409d933e14092222e0ff3e":[6,0,1,0,1,579,0],
 "classMR_1_1RegisterRenderObjectConstructor.html#a68b36d5a17409d933e14092222e0ff3e":[6,0,2,0,1,562,0],
+"classMR_1_1RegisterRenderObjectConstructor.html#a7680dbd1b8cb8d02d09cce6fc8fb0200":[6,0,1,0,1,579,1],
+"classMR_1_1RegisterRenderObjectConstructor.html#a7680dbd1b8cb8d02d09cce6fc8fb0200":[6,0,2,0,1,562,1],
 "classMR_1_1RegularMapMesher.html":[6,0,0,12,3],
 "classMR_1_1RegularMapMesher.html#a351acfb608cafb88929a69ba41f63bfa":[6,0,0,12,3,1],
 "classMR_1_1RegularMapMesher.html#a48f6cd19965602a3fb9f4669c22e3c14":[6,0,0,12,3,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX39 =
 "classMR_1_1RenderMeshObject.html#a09391b9b6f5e18abac3559ba0fa60dba":[6,0,2,0,1,572,23],
 "classMR_1_1RenderMeshObject.html#a09963fce25ed38f25ca706ab8d5cfb26":[6,0,1,0,1,589,24],
 "classMR_1_1RenderMeshObject.html#a09963fce25ed38f25ca706ab8d5cfb26":[6,0,2,0,1,572,24],
-"classMR_1_1RenderMeshObject.html#a0b296b577bfee513d40bc073e4609f55":[6,0,1,0,1,589,17],
-"classMR_1_1RenderMeshObject.html#a0b296b577bfee513d40bc073e4609f55":[6,0,2,0,1,572,17],
-"classMR_1_1RenderMeshObject.html#a0c5f65d0f55c35a44e6f210b7e3d5144":[6,0,1,0,1,589,62]
+"classMR_1_1RenderMeshObject.html#a0b296b577bfee513d40bc073e4609f55":[6,0,1,0,1,589,17]
 };

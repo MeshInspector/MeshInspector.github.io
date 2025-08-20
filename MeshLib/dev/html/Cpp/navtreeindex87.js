@@ -1,5 +1,7 @@
 var NAVTREEINDEX87 =
 {
+"structMR_1_1RibbonTab.html":[6,0,2,0,1,610],
+"structMR_1_1RibbonTab.html#a49c89a14fe5caa50d3bdb2faf511dcc0":[6,0,1,0,1,627,0],
 "structMR_1_1RibbonTab.html#a49c89a14fe5caa50d3bdb2faf511dcc0":[6,0,2,0,1,610,0],
 "structMR_1_1RibbonTab.html#a4ad8c190219bcd156fa5b9748ffb679c":[6,0,1,0,1,627,2],
 "structMR_1_1RibbonTab.html#a4ad8c190219bcd156fa5b9748ffb679c":[6,0,2,0,1,610,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX87 =
 "structMR_1_1ShortcutManager_1_1ShortcutCommand.html#ac999d8643aea2ec7e9ddc3a4adc4daf6":[6,0,1,0,1,675,0,1],
 "structMR_1_1ShortcutManager_1_1ShortcutCommand.html#ac999d8643aea2ec7e9ddc3a4adc4daf6":[6,0,2,0,1,658,0,1],
 "structMR_1_1ShortcutManager_1_1ShortcutCommand.html#acf2e272c865f0181e677f9a0cce89ec5":[6,0,1,0,1,675,0,3],
-"structMR_1_1ShortcutManager_1_1ShortcutCommand.html#acf2e272c865f0181e677f9a0cce89ec5":[6,0,2,0,1,658,0,3],
-"structMR_1_1Signal.html":[6,0,1,0,1,676],
-"structMR_1_1Signal.html":[6,0,2,0,1,659]
+"structMR_1_1ShortcutManager_1_1ShortcutCommand.html#acf2e272c865f0181e677f9a0cce89ec5":[6,0,2,0,1,658,0,3]
 };
