@@ -2274,7 +2274,7 @@ var namespacemrmeshpy =
     [ "systemToUtf8", "namespacemrmeshpy.html#a6de6d3ce836315f4b494599bb6d007ad", null ],
     [ "teethMaskToDirectionVolume", "namespacemrmeshpy.html#ac0dbcb544e1742f6945e7ef2935e14cb", null ],
     [ "terrainTriangulation", "namespacemrmeshpy.html#a1b75be43b190ebe7026f6592255533bd", null ],
-    [ "thickenMesh", "namespacemrmeshpy.html#a229183c23cf9c49fb2d6e41a4f32f09b", null ],
+    [ "thickenMesh", "namespacemrmeshpy.html#ae5b9c369b881b6ce8d93e252b27e2609", null ],
     [ "toEdgePoint", "namespacemrmeshpy.html#a0dee57382a647cca6ecd9e589a121dae", null ],
     [ "toLower", "namespacemrmeshpy.html#ac6a389eef7f27bbe7f7b993fbcd3a323", null ],
     [ "topologyFromTriangles", "namespacemrmeshpy.html#af22ea1c7cf6281147b2d9739fda81282", null ],

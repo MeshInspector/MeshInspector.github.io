@@ -13,5 +13,5 @@ var MRVoxels_2MROffset_8h =
     [ "offsetPolyline", "MRVoxels_2MROffset_8h.html#aa6f9ce8f2f7a4b39c759f54fbfede167", null ],
     [ "sharpOffsetMesh", "MRVoxels_2MROffset_8h.html#ac1a0e7e32c8d591b83f66462ad4f89ef", null ],
     [ "suggestVoxelSize", "MRVoxels_2MROffset_8h.html#a346ad7a38921d6822ceffafc1eba769d", null ],
-    [ "thickenMesh", "MRVoxels_2MROffset_8h.html#a4786362a7faf5309ddb05c773cf3b513", null ]
+    [ "thickenMesh", "MRVoxels_2MROffset_8h.html#a966b3824bea42f802c68817d2edfde70", null ]
 ];

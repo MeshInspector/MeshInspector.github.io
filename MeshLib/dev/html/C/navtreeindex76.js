@@ -1,5 +1,6 @@
 var NAVTREEINDEX76 =
 {
+"MRSceneColors_8h.html#a12def2e3e2f922d5117c6eb43c01a436":[6,2,1,0,0,0,1,297,2],
 "MRSceneColors_8h.html#a1f7968a2e645c273edd6641747ac0e4b":[6,2,1,0,0,0,1,297,1],
 "MRSceneColors_8h.html#a1f8169c6101c9d9b3dfa6c872cbc3433":[6,2,1,0,0,0,1,297,8],
 "MRSceneColors_8h.html#ab04f90c0c45a09f664d0bd8e652bc339":[6,2,1,0,0,0,1,297,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX76 =
 "MRSharpenMarchingCubesMesh_8h.html#a564b210fb0ee1cb3ee68e28afd1821a1":[6,2,1,0,0,0,1,304,26],
 "MRSharpenMarchingCubesMesh_8h.html#a587d90e4a3835925acab6105abdbb1d8":[6,2,1,0,0,0,1,304,28],
 "MRSharpenMarchingCubesMesh_8h.html#a5a8d2a73fc05f10760d990cc7e09cc62":[6,2,1,0,0,0,1,304,7],
-"MRSharpenMarchingCubesMesh_8h.html#a5bab6a360b7a3d325fa4b4179c339f83":[6,2,1,0,0,0,1,304,31],
-"MRSharpenMarchingCubesMesh_8h.html#a5bd327ee7391a535f8edfa72383581bd":[6,2,1,0,0,0,1,304,15]
+"MRSharpenMarchingCubesMesh_8h.html#a5bab6a360b7a3d325fa4b4179c339f83":[6,2,1,0,0,0,1,304,31]
 };

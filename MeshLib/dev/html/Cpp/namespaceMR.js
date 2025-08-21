@@ -3083,7 +3083,7 @@ var namespaceMR =
     [ "tanSqOfHalfAngle", "namespaceMR.html#a58d651ce07dc2f9fd98bdf7366183861", null ],
     [ "teethMaskToDirectionVolume", "namespaceMR.html#a60b64c60400c783d65cff22715afab1e", null ],
     [ "terrainTriangulation", "namespaceMR.html#abebe86de5d47fc21de1ad73e06bdbc3d", null ],
-    [ "thickenMesh", "namespaceMR.html#a4786362a7faf5309ddb05c773cf3b513", null ],
+    [ "thickenMesh", "namespaceMR.html#a966b3824bea42f802c68817d2edfde70", null ],
     [ "throwExceptionFromExpected", "namespaceMR.html#a396596cb5cea6d2f8fec7b7838ae2bc5", null ],
     [ "to2dim", "group__ConversionBetween2and3dimGroup.html#ga4a844799c3d17d7ef03c8fbd4e8546b6", null ],
     [ "to2dim", "group__ConversionBetween2and3dimGroup.html#ga56b942afa415c4adc6496cd94d888892", null ],

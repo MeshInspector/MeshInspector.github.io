@@ -7,6 +7,7 @@ var MROffset_8h =
     [ "MR_Mesh", "MROffset_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
     [ "MR_MeshPart", "MROffset_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17", null ],
     [ "MR_OffsetParameters", "MROffset_8h.html#acd1a7a3eb89381717117c9cfb62c5daa", null ],
+    [ "MR_PartMapping", "MROffset_8h.html#ac262f87c0239d73aafc464289f6eb02e", null ],
     [ "MR_Polyline3", "MROffset_8h.html#a6075b2f3b7dec92f779f4f58c28f7e1b", null ],
     [ "MR_SharpOffsetParameters", "MROffset_8h.html#a56b0cdc24e952876de98b1ebb9f85a7a", null ],
     [ "MR_std_function_bool_from_float", "MROffset_8h.html#adb03ce28cacfff1e499d75d512dc4a84", null ],
@@ -121,5 +122,5 @@ var MROffset_8h =
     [ "MR_SharpOffsetParameters_UpcastTo_MR_BaseShellParameters", "MROffset_8h.html#ace47a8ebf23c5e79ecaf45807f6af8fd", null ],
     [ "MR_SharpOffsetParameters_UpcastTo_MR_OffsetParameters", "MROffset_8h.html#ad9ec857cd7ac3a2d3da521696b8369db", null ],
     [ "MR_suggestVoxelSize", "MROffset_8h.html#a94e675d289bd141d1d07a642cc1d8597", null ],
-    [ "MR_thickenMesh", "MROffset_8h.html#ac3efd2d8702d14fcaff8297525dda607", null ]
+    [ "MR_thickenMesh", "MROffset_8h.html#a7764fe666c13c4cf37b70d58a449115e", null ]
 ];

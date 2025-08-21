@@ -4708,8 +4708,8 @@ Functions</h2></td></tr>
 <tr class="separator:ac0dbcb544e1742f6945e7ef2935e14cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b75be43b190ebe7026f6592255533bd" id="r_a1b75be43b190ebe7026f6592255533bd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b75be43b190ebe7026f6592255533bd">terrainTriangulation</a> (<a class="el" href="classmrmeshpy_1_1std__vector__Vector3__float.html">std_vector_Vector3_float</a> points, <a class="el" href="classmrmeshpy_1_1func__bool__from__float.html">func_bool_from_float</a> cb='{}')</td></tr>
 <tr class="separator:a1b75be43b190ebe7026f6592255533bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a229183c23cf9c49fb2d6e41a4f32f09b" id="r_a229183c23cf9c49fb2d6e41a4f32f09b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a229183c23cf9c49fb2d6e41a4f32f09b">thickenMesh</a> (<a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mesh, float offset, <a class="el" href="classmrmeshpy_1_1GeneralOffsetParameters.html">GeneralOffsetParameters</a> params='{}')</td></tr>
-<tr class="separator:a229183c23cf9c49fb2d6e41a4f32f09b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5b9c369b881b6ce8d93e252b27e2609" id="r_ae5b9c369b881b6ce8d93e252b27e2609"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5b9c369b881b6ce8d93e252b27e2609">thickenMesh</a> (<a class="el" href="classmrmeshpy_1_1Mesh.html">Mesh</a> mesh, float offset, <a class="el" href="classmrmeshpy_1_1GeneralOffsetParameters.html">GeneralOffsetParameters</a> params='{}', <a class="el" href="classmrmeshpy_1_1PartMapping.html">PartMapping</a> map='{}')</td></tr>
+<tr class="separator:ae5b9c369b881b6ce8d93e252b27e2609"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0dee57382a647cca6ecd9e589a121dae" id="r_a0dee57382a647cca6ecd9e589a121dae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1EdgePoint.html">EdgePoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0dee57382a647cca6ecd9e589a121dae">toEdgePoint</a> (<a class="el" href="classmrmeshpy_1_1MeshTopology.html">MeshTopology</a> topology, <a class="el" href="classmrmeshpy_1_1VertCoords.html">VertCoords</a> points, <a class="el" href="classmrmeshpy_1_1EdgeId.html">EdgeId</a> e, <a class="el" href="classmrmeshpy_1_1Vector3f.html">Vector3f</a> p)</td></tr>
 <tr class="separator:a0dee57382a647cca6ecd9e589a121dae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac6a389eef7f27bbe7f7b993fbcd3a323" id="r_ac6a389eef7f27bbe7f7b993fbcd3a323"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6a389eef7f27bbe7f7b993fbcd3a323">toLower</a> (str str)</td></tr>
@@ -35274,8 +35274,8 @@ points will be changed inside this function take argument by value
 </pre> 
 </div>
 </div>
-<a id="a229183c23cf9c49fb2d6e41a4f32f09b" name="a229183c23cf9c49fb2d6e41a4f32f09b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a229183c23cf9c49fb2d6e41a4f32f09b">&#9670;&#160;</a></span>thickenMesh()</h2>
+<a id="ae5b9c369b881b6ce8d93e252b27e2609" name="ae5b9c369b881b6ce8d93e252b27e2609"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5b9c369b881b6ce8d93e252b27e2609">&#9670;&#160;</a></span>thickenMesh()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -35293,7 +35293,12 @@ points will be changed inside this function take argument by value
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1GeneralOffsetParameters.html">GeneralOffsetParameters</a> </td>          <td class="paramname"><span class="paramname"><em>params</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'{}'</span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1GeneralOffsetParameters.html">GeneralOffsetParameters</a> </td>          <td class="paramname"><span class="paramname"><em>params</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'{}'</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1PartMapping.html">PartMapping</a> </td>          <td class="paramname"><span class="paramname"><em>map</em></span><span class="paramdefsep"> = </span><span class="paramdefval">'{}'</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
