@@ -1,5 +1,8 @@
 var NAVTREEINDEX59 =
 {
+"MRObjectLoad_8h.html#af9bf8f86b995bbeeb44e9afb0077b5f3":[6,2,1,0,0,0,1,216,18],
+"MRObjectLoad_8h.html#afddfdf9f07abac630b268df02dbaed95":[6,2,1,0,0,0,1,216,0],
+"MRObjectLoad_8h_source.html":[6,2,1,0,0,0,1,216],
 "MRObjectMeshData_8h.html":[6,2,1,0,0,0,1,218],
 "MRObjectMeshData_8h.html#a05a5a4c9ffc455dd423d8b7d5439e9e7":[6,2,1,0,0,0,1,218,8],
 "MRObjectMeshData_8h.html#a05b6c935bac635548cf59740d73065bf":[6,2,1,0,0,0,1,218,34],
@@ -246,8 +249,5 @@ var NAVTREEINDEX59 =
 "MRObjectMesh_8h.html#ae416dac57ed372be29826e52f5ab5acb":[6,2,1,0,0,0,1,217,42],
 "MRObjectMesh_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc":[6,2,1,0,0,0,1,217,4],
 "MRObjectMesh_8h.html#af6d1efaecd59706fd6d8d39092a28143":[6,2,1,0,0,0,1,217,25],
-"MRObjectMesh_8h.html#afcdcf3734990fd7ae774bee1295b9f62":[6,2,1,0,0,0,1,217,24],
-"MRObjectMesh_8h_source.html":[6,2,1,0,0,0,1,217],
-"MRObjectPointsHolder_8h.html":[6,2,1,0,0,0,1,221],
-"MRObjectPointsHolder_8h.html#a032e87afdcf3958e03ae428538a4b520":[6,2,1,0,0,0,1,221,59]
+"MRObjectMesh_8h.html#afcdcf3734990fd7ae774bee1295b9f62":[6,2,1,0,0,0,1,217,24]
 };

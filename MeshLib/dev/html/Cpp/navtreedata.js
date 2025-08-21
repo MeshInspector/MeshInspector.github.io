@@ -218,19 +218,19 @@ var NAVTREEINDEX =
 "structMR_1_1Mesh.html#a540a6eef456f6c54c214766fc0a7c3fb",
 "structMR_1_1MeshPoint.html#aada8def241781f58cfc3cfe595c86622",
 "structMR_1_1ModalDialogSettings.html#af4bb1e08280d27647734c03a24b716e5",
-"structMR_1_1NumSum.html#afd716f4242e9554e7900e18a890be1fa",
-"structMR_1_1Palette_1_1Label.html#abbf2f53809f0072d2e09bde212cc58d7",
-"structMR_1_1PointCloud.html#a99cd2bd3f8fa8482032603f382ab9a03",
-"structMR_1_1PolylineSubdivideSettings.html#abaf36082a394e79118a87b09054964e3",
-"structMR_1_1RebuildMeshSettings.html#a6e10f1d5847ddc2cb5de056bf3031453",
-"structMR_1_1RibbonTab.html",
-"structMR_1_1Signal.html",
-"structMR_1_1SymMatrix3.html#abbcd8728baa9b50327af2ffcb090bc0a",
-"structMR_1_1TouchpadRotateGestureUpdateListener.html#a24ed3f7e2ae56c6df5adc3606fb0ec7e",
-"structMR_1_1UI_1_1ButtonCustomizationParams.html#aa05d1e76244fb6b4afc1122ad02e1d5e",
-"structMR_1_1UnitToStringParams.html#ae183c6cb52762dc16f91e61c2be6df24",
-"structMR_1_1ViewportPointsWithColors.html",
-"structMR_1_1WeightedShell_1_1ParametersMetric.html"
+"structMR_1_1NumSum.html#adab70c85e9a40a08c221e2a031274326",
+"structMR_1_1Palette_1_1Label.html#a9fb9db8edb847b9fa9b2d46e2f216bdb",
+"structMR_1_1PointCloud.html#a78808a7ef1e8232c61b442f9ea9bc9c8",
+"structMR_1_1PolylineSubdivideSettings.html#a90d24e3763062fee365e69daf9f74b23",
+"structMR_1_1RebuildMeshSettings.html#a277cd0e4fca4f06fd90dd9977ec8a418",
+"structMR_1_1RibbonSchemaHolder_1_1SearchResultWeight.html#af3c9cd76985b22daa5dc4df743a27f18",
+"structMR_1_1ShortcutManager_1_1ShortcutCommand.html#acf2e272c865f0181e677f9a0cce89ec5",
+"structMR_1_1SymMatrix3.html#aac8fe52f2316a4d0bc9fe09739a230ef",
+"structMR_1_1TouchpadRotateGestureUpdateListener.html#a1543608250b47eb5f6a2545ff3cb0d5a",
+"structMR_1_1UI_1_1ButtonCustomizationParams.html#a95c7d0696bf82bdb91773e3df15adce1",
+"structMR_1_1UnitToStringParams.html#ac1da9d705a2210ae748df1e41d865a2a",
+"structMR_1_1ViewportGL_1_1ScaledPickRes.html#a224b86e0fc476df4cd60410f71f7d516",
+"structMR_1_1WeightedShell_1_1ParametersBase.html#af8d85417b99b631e7f2c01ba2d039443"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

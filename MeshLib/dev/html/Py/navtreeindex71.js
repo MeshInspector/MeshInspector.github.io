@@ -1,5 +1,9 @@
 var NAVTREEINDEX71 =
 {
+"classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method.html#a193e71a988ce298ff8788c96a331e49f":[6,1,0,0,2,757,0,0,11],
+"classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method.html#a193e71a988ce298ff8788c96a331e49f":[6,1,1,0,1,757,0,0,11],
+"classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method.html#a2f12abc71c2a545cfdead0a77765dfad":[6,1,0,0,2,757,0,0,6],
+"classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method.html#a2f12abc71c2a545cfdead0a77765dfad":[6,1,1,0,1,757,0,0,6],
 "classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method.html#a456e16c544dfc022de1ef0106c877b0a":[6,1,0,0,2,757,0,0,2],
 "classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method.html#a456e16c544dfc022de1ef0106c877b0a":[6,1,1,0,1,757,0,0,2],
 "classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method.html#a4b23915cdf9584387989a394d9acde25":[6,1,0,0,2,757,0,0,7],
@@ -245,9 +249,5 @@ var NAVTREEINDEX71 =
 "classmrmeshpy_1_1SimpleBinaryVolume.html#ac83c8905f73b6731239faddea95bd29e":[6,1,0,0,2,768,1],
 "classmrmeshpy_1_1SimpleBinaryVolume.html#ac83c8905f73b6731239faddea95bd29e":[6,1,1,0,1,768,1],
 "classmrmeshpy_1_1SimpleVolume.html":[6,1,0,0,2,769],
-"classmrmeshpy_1_1SimpleVolume.html":[6,1,1,0,1,769],
-"classmrmeshpy_1_1SimpleVolume.html#a1f47b445e4ff93ac407ac03ec5ae5aa8":[6,1,0,0,2,769,2],
-"classmrmeshpy_1_1SimpleVolume.html#a1f47b445e4ff93ac407ac03ec5ae5aa8":[6,1,1,0,1,769,2],
-"classmrmeshpy_1_1SimpleVolume.html#acb71af013e1365c6d6279527b50cad2d":[6,1,0,0,2,769,0],
-"classmrmeshpy_1_1SimpleVolume.html#acb71af013e1365c6d6279527b50cad2d":[6,1,1,0,1,769,0]
+"classmrmeshpy_1_1SimpleVolume.html":[6,1,1,0,1,769]
 };

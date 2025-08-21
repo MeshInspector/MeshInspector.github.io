@@ -1,5 +1,9 @@
 var NAVTREEINDEX70 =
 {
+"classmrmeshpy_1_1SceneColors_1_1Type.html#a1ce0fa367b31afc0254e7049bd346e3f":[6,1,0,0,2,748,0,10],
+"classmrmeshpy_1_1SceneColors_1_1Type.html#a1ce0fa367b31afc0254e7049bd346e3f":[6,1,1,0,1,748,0,10],
+"classmrmeshpy_1_1SceneColors_1_1Type.html#a367db3da7a44078cbfb2c432f2b06957":[6,1,0,0,2,748,0,6],
+"classmrmeshpy_1_1SceneColors_1_1Type.html#a367db3da7a44078cbfb2c432f2b06957":[6,1,1,0,1,748,0,6],
 "classmrmeshpy_1_1SceneColors_1_1Type.html#a40f27cbd0c8c33c2b5f0eb9c42b09656":[6,1,0,0,2,748,0,8],
 "classmrmeshpy_1_1SceneColors_1_1Type.html#a40f27cbd0c8c33c2b5f0eb9c42b09656":[6,1,1,0,1,748,0,8],
 "classmrmeshpy_1_1SceneColors_1_1Type.html#a459b2c084883f07bc510ad23ff55776c":[6,1,0,0,2,748,0,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX70 =
 "classmrmeshpy_1_1SelfIntersections_1_1Settings.html#ad9b7b2f93aeb6aa1a14b872e7142317b":[6,1,0,0,2,757,0,10],
 "classmrmeshpy_1_1SelfIntersections_1_1Settings.html#ad9b7b2f93aeb6aa1a14b872e7142317b":[6,1,1,0,1,757,0,10],
 "classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method.html":[6,1,0,0,2,757,0,0],
-"classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method.html":[6,1,1,0,1,757,0,0],
-"classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method.html#a193e71a988ce298ff8788c96a331e49f":[6,1,0,0,2,757,0,0,11],
-"classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method.html#a193e71a988ce298ff8788c96a331e49f":[6,1,1,0,1,757,0,0,11],
-"classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method.html#a2f12abc71c2a545cfdead0a77765dfad":[6,1,0,0,2,757,0,0,6],
-"classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method.html#a2f12abc71c2a545cfdead0a77765dfad":[6,1,1,0,1,757,0,0,6]
+"classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method.html":[6,1,1,0,1,757,0,0]
 };

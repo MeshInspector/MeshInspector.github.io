@@ -1,5 +1,9 @@
 var NAVTREEINDEX86 =
 {
+"classmrmeshpy_1_1Vector4f.html#a31073aaf32b93795c66b66b59d68e26c":[6,1,0,0,2,1064,10],
+"classmrmeshpy_1_1Vector4f.html#a31073aaf32b93795c66b66b59d68e26c":[6,1,1,0,1,1064,10],
+"classmrmeshpy_1_1Vector4f.html#a38a2c48f43a1448160a26c3a9e6f0c2a":[6,1,0,0,2,1064,25],
+"classmrmeshpy_1_1Vector4f.html#a38a2c48f43a1448160a26c3a9e6f0c2a":[6,1,1,0,1,1064,25],
 "classmrmeshpy_1_1Vector4f.html#a3fa59eb5ff4afe827a6485c43ca36f34":[6,1,0,0,2,1064,11],
 "classmrmeshpy_1_1Vector4f.html#a3fa59eb5ff4afe827a6485c43ca36f34":[6,1,1,0,1,1064,11],
 "classmrmeshpy_1_1Vector4f.html#a403f7a7833474cc040a15c7b00b10406":[6,1,0,0,2,1064,19],
@@ -245,9 +249,5 @@ var NAVTREEINDEX86 =
 "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#a488b126a14da617ac977a075bdd14ec4":[6,1,0,0,2,1068,25],
 "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#a488b126a14da617ac977a075bdd14ec4":[6,1,1,0,1,1068,25],
 "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#a4e87f8f8de714c5aaaf582dbc4dba015":[6,1,0,0,2,1068,24],
-"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#a4e87f8f8de714c5aaaf582dbc4dba015":[6,1,1,0,1,1068,24],
-"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#a553602e3c16f76775039f0d0599f68e2":[6,1,0,0,2,1068,7],
-"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#a553602e3c16f76775039f0d0599f68e2":[6,1,1,0,1,1068,7],
-"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#a5c568f38b7f9108159bf4dfe1fd7624f":[6,1,0,0,2,1068,9],
-"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#a5c568f38b7f9108159bf4dfe1fd7624f":[6,1,1,0,1,1068,9]
+"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#a4e87f8f8de714c5aaaf582dbc4dba015":[6,1,1,0,1,1068,24]
 };
