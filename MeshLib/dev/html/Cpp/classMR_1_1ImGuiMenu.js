@@ -2,6 +2,7 @@ var classMR_1_1ImGuiMenu =
 [
     [ "LabelParams", "structMR_1_1ImGuiMenu_1_1LabelParams.html", "structMR_1_1ImGuiMenu_1_1LabelParams" ],
     [ "PluginsCache", "structMR_1_1ImGuiMenu_1_1PluginsCache.html", "structMR_1_1ImGuiMenu_1_1PluginsCache" ],
+    [ "SelectionInformationStyle", "structMR_1_1ImGuiMenu_1_1SelectionInformationStyle.html", "structMR_1_1ImGuiMenu_1_1SelectionInformationStyle" ],
     [ "UiRenderManagerImpl", "classMR_1_1ImGuiMenu_1_1UiRenderManagerImpl.html", "classMR_1_1ImGuiMenu_1_1UiRenderManagerImpl" ],
     [ "DrawSceneUiSignal", "classMR_1_1ImGuiMenu.html#a2f2b40e4dafea90e3ea284ebf7e9b128", null ],
     [ "NameTagClickSignal", "classMR_1_1ImGuiMenu.html#a108b6e7b1762c1e145d04713a3badf63", null ],
@@ -43,6 +44,7 @@ var classMR_1_1ImGuiMenu =
     [ "drawAdvancedOptions", "classMR_1_1ImGuiMenu.html#a223a369cd0143ab0fd5e6d5577641ab4", null ],
     [ "drawCollapsingHeader_", "classMR_1_1ImGuiMenu.html#ad7c9e77d4351091f9ed719f00a3d294b", null ],
     [ "drawCollapsingHeaderTransform_", "classMR_1_1ImGuiMenu.html#a4d7a22f188b50d351cefdec8196a9dce", null ],
+    [ "drawCustomSelectionInformation_", "classMR_1_1ImGuiMenu.html#a60feeb812f9b38fdb42b0e3aa55b44f3", null ],
     [ "drawDrawOptionsCheckboxes", "classMR_1_1ImGuiMenu.html#a9af6848400197f4024584b77d9a9dc55", null ],
     [ "drawDrawOptionsColors", "classMR_1_1ImGuiMenu.html#ae222c9e1c96773c161341f616707e6ce", null ],
     [ "drawFeaturePropertiesEditor_", "classMR_1_1ImGuiMenu.html#a6454c87e178e7cc91a395fb2ce4b3c10", null ],

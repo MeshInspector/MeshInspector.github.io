@@ -181,6 +181,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ImGuiMenu_1_1PluginsCache.html">PluginsCache</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ImGuiMenu_1_1SelectionInformationStyle.html">SelectionInformationStyle</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">style constants used for the information panel  <a href="structMR_1_1ImGuiMenu_1_1SelectionInformationStyle.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ImGuiMenu_1_1UiRenderManagerImpl.html">UiRenderManagerImpl</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -418,6 +421,9 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a99d49a0c86f16f2e917e71c81efe4187"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6454c87e178e7cc91a395fb2ce4b3c10" id="r_a6454c87e178e7cc91a395fb2ce4b3c10"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6454c87e178e7cc91a395fb2ce4b3c10">drawFeaturePropertiesEditor_</a> (const std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &amp;object)</td></tr>
 <tr class="separator:a6454c87e178e7cc91a395fb2ce4b3c10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60feeb812f9b38fdb42b0e3aa55b44f3" id="r_a60feeb812f9b38fdb42b0e3aa55b44f3"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60feeb812f9b38fdb42b0e3aa55b44f3">drawCustomSelectionInformation_</a> (const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt; &amp;selected, const <a class="el" href="structMR_1_1ImGuiMenu_1_1SelectionInformationStyle.html">SelectionInformationStyle</a> &amp;style)</td></tr>
+<tr class="memdesc:a60feeb812f9b38fdb42b0e3aa55b44f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw additional selection information (e.g. for custom objects)  <br /></td></tr>
+<tr class="separator:a60feeb812f9b38fdb42b0e3aa55b44f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d69c77712f963358e34a99c4eb27b8a" id="r_a7d69c77712f963358e34a99c4eb27b8a"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d69c77712f963358e34a99c4eb27b8a">draw_custom_selection_properties</a> (const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt; &amp;selected)</td></tr>
 <tr class="separator:a7d69c77712f963358e34a99c4eb27b8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a318c4a57bcb4a30a7620d3c954668c5a" id="r_a318c4a57bcb4a30a7620d3c954668c5a"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a318c4a57bcb4a30a7620d3c954668c5a">drawTransform_</a> ()</td></tr>
@@ -1225,6 +1231,37 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented in <a class="el" href="classMR_1_1RibbonMenu.html#a5edd9fcd5ab9a62bbfda2489c6205c9e">MR::RibbonMenu</a>.</p>
+
+</div>
+</div>
+<a id="a60feeb812f9b38fdb42b0e3aa55b44f3" name="a60feeb812f9b38fdb42b0e3aa55b44f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60feeb812f9b38fdb42b0e3aa55b44f3">&#9670;&#160;</a></span>drawCustomSelectionInformation_()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual MRVIEWER_API void MR::ImGuiMenu::drawCustomSelectionInformation_ </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>selected</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1ImGuiMenu_1_1SelectionInformationStyle.html">SelectionInformationStyle</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>style</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>draw additional selection information (e.g. for custom objects) </p>
 
 </div>
 </div>
