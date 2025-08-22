@@ -1,5 +1,6 @@
 var NAVTREEINDEX121 =
 {
+"std__optional__MR__ObjectMeshData_8h_source.html":[6,2,1,0,0,0,2,191],
 "std__optional__MR__PointCloud_8h.html":[6,2,1,0,0,0,2,192],
 "std__optional__MR__PointCloud_8h.html#a1b66f38f8e2420db0c0a2962e06a083e":[6,2,1,0,0,0,2,192,12],
 "std__optional__MR__PointCloud_8h.html#a1cf179f228f21f0039b9b236f0f8c9e8":[6,2,1,0,0,0,2,192,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX121 =
 "std__optional__std__vector__MR__ObjVertId_8h.html#ad9c66d676d9496218ea43bfed38195f2":[6,2,1,0,0,0,2,205,4],
 "std__optional__std__vector__MR__ObjVertId_8h.html#ae1286432b335d8b4c779dca862ef8e52":[6,2,1,0,0,0,2,205,0],
 "std__optional__std__vector__MR__ObjVertId_8h.html#aecfb6a88cf971f5c2106b53182a5ff91":[6,2,1,0,0,0,2,205,11],
-"std__optional__std__vector__MR__ObjVertId_8h_source.html":[6,2,1,0,0,0,2,205],
-"std__optional__std__vector__MR__SomeLocalTriangulations_8h.html":[6,2,1,0,0,0,2,206]
+"std__optional__std__vector__MR__ObjVertId_8h_source.html":[6,2,1,0,0,0,2,205]
 };
