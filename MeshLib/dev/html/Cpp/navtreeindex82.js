@@ -1,5 +1,7 @@
 var NAVTREEINDEX82 =
 {
+"structMR_1_1NotificationTags.html#afb89f8ecc2e2d580f7447ab6d7fb0bf7a351655346b7a902dc9812da4f857c1da":[6,0,1,0,1,441,0,1],
+"structMR_1_1NotificationTags.html#afb89f8ecc2e2d580f7447ab6d7fb0bf7a351655346b7a902dc9812da4f857c1da":[6,0,2,0,1,424,0,1],
 "structMR_1_1NotificationTags.html#afb89f8ecc2e2d580f7447ab6d7fb0bf7a37ebb939ed2ca98edb5c1fd1bd3ca502":[6,0,1,0,1,441,0,2],
 "structMR_1_1NotificationTags.html#afb89f8ecc2e2d580f7447ab6d7fb0bf7a37ebb939ed2ca98edb5c1fd1bd3ca502":[6,0,2,0,1,424,0,2],
 "structMR_1_1NotificationTags.html#afb89f8ecc2e2d580f7447ab6d7fb0bf7a4425e9774bb85a89fd5f3ef9868071a3":[6,0,1,0,1,441,0,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX82 =
 "structMR_1_1Palette_1_1Histogram.html#a08df7b7f0ce414687a2567650845e3cd":[6,0,2,0,1,473,0,8],
 "structMR_1_1Palette_1_1Histogram.html#a128e8a8f91a31e93eaff086cc91b1d5e":[6,0,1,0,1,490,0,7],
 "structMR_1_1Palette_1_1Histogram.html#a128e8a8f91a31e93eaff086cc91b1d5e":[6,0,2,0,1,473,0,7],
-"structMR_1_1Palette_1_1Histogram.html#a190a94ded9e85cddd2dd031f98afa88a":[6,0,1,0,1,490,0,5],
-"structMR_1_1Palette_1_1Histogram.html#a190a94ded9e85cddd2dd031f98afa88a":[6,0,2,0,1,473,0,5],
-"structMR_1_1Palette_1_1Histogram.html#a2ee7c9871e923c7fd2bb48c6701ae38f":[6,0,1,0,1,490,0,3]
+"structMR_1_1Palette_1_1Histogram.html#a190a94ded9e85cddd2dd031f98afa88a":[6,0,1,0,1,490,0,5]
 };

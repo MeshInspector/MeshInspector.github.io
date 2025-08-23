@@ -1,5 +1,7 @@
 var NAVTREEINDEX77 =
 {
+"structMR_1_1IntersectionPrecomputes2.html#a4570f366fea168e1a0346c51fe5108c8":[6,0,0,1,16,2],
+"structMR_1_1IntersectionPrecomputes2.html#a48da57b1568b50155d61042128d457de":[6,0,0,1,16,7],
 "structMR_1_1IntersectionPrecomputes2.html#a5f4ae33fcf963d2ccab283fcadff212b":[6,0,0,1,16,1],
 "structMR_1_1IntersectionPrecomputes2.html#a5f59c134b3ba556dea499973669c2f5f":[6,0,0,1,16,6],
 "structMR_1_1IntersectionPrecomputes2.html#a802abc712cfba3867b04a4f8a9ba4f60":[6,0,0,1,16,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX77 =
 "structMR_1_1MapOrHashMap.html#ac2b84418d93cdedba84fe87ce2595e2e":[6,0,1,0,1,354,0],
 "structMR_1_1MapOrHashMap.html#ac2b84418d93cdedba84fe87ce2595e2e":[6,0,2,0,1,337,0],
 "structMR_1_1MapOrHashMap.html#ac7cc040fc165f15635860672b4c426d7":[6,0,1,0,1,354,10],
-"structMR_1_1MapOrHashMap.html#ac7cc040fc165f15635860672b4c426d7":[6,0,2,0,1,337,10],
-"structMR_1_1MarchingCubesParams.html":[6,0,1,0,1,356],
-"structMR_1_1MarchingCubesParams.html":[6,0,2,0,1,339]
+"structMR_1_1MapOrHashMap.html#ac7cc040fc165f15635860672b4c426d7":[6,0,2,0,1,337,10]
 };

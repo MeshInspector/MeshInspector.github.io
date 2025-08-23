@@ -1,5 +1,7 @@
 var NAVTREEINDEX73 =
 {
+"structMR_1_1EmbeddedStructureParameters.html#a4c436c958ad19cd19e927c74c26329f5":[6,0,2,0,1,206,3],
+"structMR_1_1EmbeddedStructureParameters.html#aa4c80584b3d08189de287de06a281f18":[6,0,1,0,1,223,6],
 "structMR_1_1EmbeddedStructureParameters.html#aa4c80584b3d08189de287de06a281f18":[6,0,2,0,1,206,6],
 "structMR_1_1EmbeddedStructureParameters.html#aa7558ae5f2adc54f37b0610cb406b7a3":[6,0,1,0,1,223,1],
 "structMR_1_1EmbeddedStructureParameters.html#aa7558ae5f2adc54f37b0610cb406b7a3":[6,0,2,0,1,206,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX73 =
 "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1ConeSegment_01_4.html":[6,0,2,0,1,2,1,3],
 "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1ConeSegment_01_4.html#a182d33e799ffdd3e42408fedd13b3720":[6,0,1,0,1,6,1,3,0],
 "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1ConeSegment_01_4.html#a182d33e799ffdd3e42408fedd13b3720":[6,0,2,0,1,2,1,3,0],
-"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Plane_01_4.html":[6,0,1,0,1,6,1,4],
-"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Plane_01_4.html":[6,0,2,0,1,2,1,4],
-"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Plane_01_4.html#a21d958650e567c81e194e8d73d8b2107":[6,0,1,0,1,6,1,4,0]
+"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Plane_01_4.html":[6,0,1,0,1,6,1,4]
 };

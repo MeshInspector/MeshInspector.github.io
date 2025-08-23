@@ -1,5 +1,7 @@
 var NAVTREEINDEX76 =
 {
+"structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html#a49e819d8fd52f135a5f61dcf9bdd1159":[6,0,2,0,1,5,1,2],
+"structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html#a7fe49ac9fca25ec3a2b2ea42bd5084c1":[6,0,1,0,1,14,1,6],
 "structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html#a7fe49ac9fca25ec3a2b2ea42bd5084c1":[6,0,2,0,1,5,1,6],
 "structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html#aa8ef4870c84aaafe8b7bfa68fcc35c36":[6,0,1,0,1,14,1,8],
 "structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html#aa8ef4870c84aaafe8b7bfa68fcc35c36":[6,0,2,0,1,5,1,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX76 =
 "structMR_1_1InterruptCloseListener.html#af380fa89eb3a2d038f3c24cd2d703ec6":[6,0,1,0,1,311,2],
 "structMR_1_1InterruptCloseListener.html#af380fa89eb3a2d038f3c24cd2d703ec6":[6,0,2,0,1,294,2],
 "structMR_1_1IntersectionPrecomputes.html":[6,0,0,1,15],
-"structMR_1_1IntersectionPrecomputes2.html":[6,0,0,1,16],
-"structMR_1_1IntersectionPrecomputes2.html#a4570f366fea168e1a0346c51fe5108c8":[6,0,0,1,16,2],
-"structMR_1_1IntersectionPrecomputes2.html#a48da57b1568b50155d61042128d457de":[6,0,0,1,16,7]
+"structMR_1_1IntersectionPrecomputes2.html":[6,0,0,1,16]
 };
