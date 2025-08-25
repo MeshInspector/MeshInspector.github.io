@@ -407,9 +407,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a357b7f0de8d573b2e8bc9b04ed3adc56" id="r_a357b7f0de8d573b2e8bc9b04ed3adc56"><td class="memItemLeft" align="right" valign="top">Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a357b7f0de8d573b2e8bc9b04ed3adc56">getRotationPivot</a> () const</td></tr>
 <tr class="memdesc:a357b7f0de8d573b2e8bc9b04ed3adc56"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns current rotation pivot in world space, which should appear static on a screen during rotation by the user  <br /></td></tr>
 <tr class="separator:a357b7f0de8d573b2e8bc9b04ed3adc56"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9abdc22c8db02b25912cde4a9c0c7eb5" id="r_a9abdc22c8db02b25912cde4a9c0c7eb5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9abdc22c8db02b25912cde4a9c0c7eb5">setRotationPivot</a> (const Vector3f &amp;point)</td></tr>
-<tr class="memdesc:a9abdc22c8db02b25912cde4a9c0c7eb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets current rotation pivot in world space, which should appear static on a screen during rotation by the user  <br /></td></tr>
-<tr class="separator:a9abdc22c8db02b25912cde4a9c0c7eb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a782d90e6f95f86f9b73e603aaca615af" id="r_a782d90e6f95f86f9b73e603aaca615af"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a782d90e6f95f86f9b73e603aaca615af">resetStaticRotationPivot</a> (const std::optional&lt; Vector3f &gt; &amp;pivot=std::nullopt)</td></tr>
+<tr class="separator:a782d90e6f95f86f9b73e603aaca615af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -2180,6 +2179,24 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a782d90e6f95f86f9b73e603aaca615af" name="a782d90e6f95f86f9b73e603aaca615af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a782d90e6f95f86f9b73e603aaca615af">&#9670;&#160;</a></span>resetStaticRotationPivot()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API void MR::Viewport::resetStaticRotationPivot </td>
+          <td>(</td>
+          <td class="paramtype">const std::optional&lt; Vector3f &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>pivot</em></span><span class="paramdefsep"> = </span><span class="paramdefval">std::nullopt</span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>sets world point to be used as rotation pivot in static mode this should appear static on a screen during rotation by the user if nullopt - scene box center is used please note that this point should be set <em>before rotation starts</em> </p>
+
+</div>
+</div>
 <a id="af9e6c144fff12c1d75af0be0b6ed5650" name="af9e6c144fff12c1d75af0be0b6ed5650"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af9e6c144fff12c1d75af0be0b6ed5650">&#9670;&#160;</a></span>rotationCenterMode()</h2>
 
@@ -2419,33 +2436,6 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="a9abdc22c8db02b25912cde4a9c0c7eb5" name="a9abdc22c8db02b25912cde4a9c0c7eb5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9abdc22c8db02b25912cde4a9c0c7eb5">&#9670;&#160;</a></span>setRotationPivot()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MR::Viewport::setRotationPivot </td>
-          <td>(</td>
-          <td class="paramtype">const Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>point</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>sets current rotation pivot in world space, which should appear static on a screen during rotation by the user </p>
 
 </div>
 </div>
