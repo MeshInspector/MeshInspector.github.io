@@ -216,6 +216,7 @@ var classMR_1_1Viewer =
     [ "postResizeSignal", "classMR_1_1Viewer.html#a07e273d6252afe70606479ed9fb35cd2", null ],
     [ "preDrawPostViewportSignal", "classMR_1_1Viewer.html#a189e303426332fa5073bbe325ff96089", null ],
     [ "preDrawSignal", "classMR_1_1Viewer.html#a8d5250e84d2551d0a55d55851ed8904f", null ],
+    [ "preSetupViewSignal", "classMR_1_1Viewer.html#a0db27b3460f6949ee1f812fffc015e14", null ],
     [ "resetSettingsFunction", "classMR_1_1Viewer.html#a5f253d7832f1e50f3936039860a48f25", null ],
     [ "rotationSphere", "classMR_1_1Viewer.html#a4c175c5eee2d6f8367e9fcfe26eee6a5", null ],
     [ "scrollForce", "classMR_1_1Viewer.html#afee4d5b20b5586b703af20535b8a191d", null ],

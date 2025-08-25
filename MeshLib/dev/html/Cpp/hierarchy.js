@@ -512,6 +512,7 @@ var hierarchy =
         [ "MR::PreDrawListener", "structMR_1_1PreDrawListener.html", [
           [ "MR::AncillaryImGuiLabel", "classMR_1_1AncillaryImGuiLabel.html", null ]
         ] ],
+        [ "MR::PreSetupViewListener", "structMR_1_1PreSetupViewListener.html", null ],
         [ "MR::SpaceMouseDownListener", "structMR_1_1SpaceMouseDownListener.html", null ],
         [ "MR::SpaceMouseMoveListener", "structMR_1_1SpaceMouseMoveListener.html", null ],
         [ "MR::SpaceMouseUpListener", "structMR_1_1SpaceMouseUpListener.html", null ],
