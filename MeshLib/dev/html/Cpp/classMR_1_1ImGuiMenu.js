@@ -30,7 +30,6 @@ var classMR_1_1ImGuiMenu =
     [ "draw_custom_window", "classMR_1_1ImGuiMenu.html#a0d7ed7302aaadf4457e4e0e381bfaedf", null ],
     [ "draw_helpers", "classMR_1_1ImGuiMenu.html#a06b63d6e0f840a978d53ab48129df966", null ],
     [ "draw_history_block_", "classMR_1_1ImGuiMenu.html#a994e1597495c02cbf901fa1581710a62", null ],
-    [ "draw_labels", "classMR_1_1ImGuiMenu.html#a2ea86b2c687799e1fa4fe4ca51fca1c0", null ],
     [ "draw_labels_window", "classMR_1_1ImGuiMenu.html#a0e5fbe43cf10672413ba99ee734efbf6", null ],
     [ "draw_menu", "classMR_1_1ImGuiMenu.html#a0e6e81174d86126a578915516a77134a", null ],
     [ "draw_mr_menu", "classMR_1_1ImGuiMenu.html#a58029e27fbcf48315dd01f559d2c7d73", null ],
