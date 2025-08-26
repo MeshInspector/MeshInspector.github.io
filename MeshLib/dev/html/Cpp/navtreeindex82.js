@@ -1,5 +1,7 @@
 var NAVTREEINDEX82 =
 {
+"structMR_1_1NoiseSettings.html#a81d588d7442ccd8974d74cb6dbaca36d":[6,0,2,0,1,421,1],
+"structMR_1_1NotificationTags.html":[6,0,1,0,1,441],
 "structMR_1_1NotificationTags.html":[6,0,2,0,1,424],
 "structMR_1_1NotificationTags.html#afb89f8ecc2e2d580f7447ab6d7fb0bf7":[6,0,1,0,1,441,0],
 "structMR_1_1NotificationTags.html#afb89f8ecc2e2d580f7447ab6d7fb0bf7":[6,0,2,0,1,424,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX82 =
 "structMR_1_1PackMapping.html#a3080324e4d0c9556be1e426c7a87ff79":[6,0,1,0,1,489,2],
 "structMR_1_1PackMapping.html#a3080324e4d0c9556be1e426c7a87ff79":[6,0,2,0,1,472,2],
 "structMR_1_1PackMapping.html#a53564598fd272bd72bf4ea9a97a2340a":[6,0,1,0,1,489,1],
-"structMR_1_1PackMapping.html#a53564598fd272bd72bf4ea9a97a2340a":[6,0,2,0,1,472,1],
-"structMR_1_1Palette_1_1Histogram.html":[6,0,1,0,1,490,0],
-"structMR_1_1Palette_1_1Histogram.html":[6,0,2,0,1,473,0]
+"structMR_1_1PackMapping.html#a53564598fd272bd72bf4ea9a97a2340a":[6,0,2,0,1,472,1]
 };

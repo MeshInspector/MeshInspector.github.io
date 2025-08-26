@@ -1,5 +1,7 @@
 var NAVTREEINDEX64 =
 {
+"namespaceMR.html#ae6a703f529a05e3f2fa59d68fd266627":[6,0,1,0,1,2450],
+"namespaceMR.html#ae6b021b9aa296238fa47d7443aa5c680":[6,0,1,0,1,1284],
 "namespaceMR.html#ae6f8c0d05b25de07d0d245e6a0387f57":[6,0,1,0,1,975],
 "namespaceMR.html#ae719e21c5b523b6f877ceee126fedb6e":[6,0,1,0,1,1581],
 "namespaceMR.html#ae7cf10a1862176d00de13d2fa27371b9":[6,0,1,0,1,2648],
@@ -247,7 +249,5 @@ var NAVTREEINDEX64 =
 "namespaceMR_1_1ImGuiMath.html#ac034e81727be0de1a1b7d5c5835a7283":[6,0,1,0,1,14,15],
 "namespaceMR_1_1ImGuiMath.html#ae3d880600a263c7ca9020c136c89220f":[6,0,1,0,1,14,18],
 "namespaceMR_1_1ImGuiMath.html#aec12d0bc0e82f7b60da894cd08419255":[6,0,1,0,1,14,10],
-"namespaceMR_1_1ImGuiMath_1_1detail.html":[6,0,1,0,1,14,0],
-"namespaceMR_1_1ImGuiMeasurementIndicators.html":[6,0,1,0,1,15],
-"namespaceMR_1_1ImGuiMeasurementIndicators.html#a332cd23bae44470d3c2076a7d5a5d0ef":[6,0,1,0,1,15,15]
+"namespaceMR_1_1ImGuiMath_1_1detail.html":[6,0,1,0,1,14,0]
 };

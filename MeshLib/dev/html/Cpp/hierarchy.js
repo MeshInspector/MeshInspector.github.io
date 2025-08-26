@@ -39,12 +39,14 @@ var hierarchy =
       [ "MR::FitDataParams", "structMR_1_1FitDataParams.html", null ]
     ] ],
     [ "BaseObjectType", null, [
-      [ "MR::RenderFeatures::detail::WrappedModelSubobjectPart< false, BaseObjectType >", "classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart.html", [
-        [ "MR::RenderFeatures::WrappedModelSubobject< false, BaseObjectType >", "classMR_1_1RenderFeatures_1_1WrappedModelSubobject_3_01false_00_01BaseObjectType_01_4.html", null ]
-      ] ],
       [ "MR::AddVisualProperties< BaseObjectType, Properties >", "classMR_1_1AddVisualProperties.html", null ],
       [ "MR::RenderFeatures::detail::WrappedModelSubobjectPart< IsPrimary, BaseObjectType >", "classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart.html", [
-        [ "MR::RenderFeatures::WrappedModelSubobject< IsPrimary, BaseObjectType >", "classMR_1_1RenderFeatures_1_1WrappedModelSubobject.html", null ]
+        [ "MR::RenderFeatures::detail::WrappedModelSubobjectBase< false, BaseObjectType >", "classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectBase.html", [
+          [ "MR::RenderFeatures::WrappedModelSubobject< false, BaseObjectType >", "classMR_1_1RenderFeatures_1_1WrappedModelSubobject_3_01false_00_01BaseObjectType_01_4.html", null ]
+        ] ],
+        [ "MR::RenderFeatures::detail::WrappedModelSubobjectBase< IsPrimary, BaseObjectType >", "classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectBase.html", [
+          [ "MR::RenderFeatures::WrappedModelSubobject< IsPrimary, BaseObjectType >", "classMR_1_1RenderFeatures_1_1WrappedModelSubobject.html", null ]
+        ] ]
       ] ]
     ] ],
     [ "MR::PlanarTriangulation::BaseOutlineParameters", "structMR_1_1PlanarTriangulation_1_1BaseOutlineParameters.html", null ],
@@ -115,19 +117,25 @@ var hierarchy =
     ] ],
     [ "MR::RenderWrapObject::detail::BasicWrapperTargetUntyped", "classMR_1_1RenderWrapObject_1_1detail_1_1BasicWrapperTargetUntyped.html", [
       [ "MR::RenderWrapObject::BasicWrapperTarget< FeatureObject >", "classMR_1_1RenderWrapObject_1_1BasicWrapperTarget.html", [
-        [ "MR::RenderFeatures::WrappedModelSubobject< IsPrimary, ObjectLines >", "classMR_1_1RenderFeatures_1_1WrappedModelSubobject.html", null ],
-        [ "MR::RenderFeatures::WrappedModelSubobject< IsPrimary, ObjectMesh >", "classMR_1_1RenderFeatures_1_1WrappedModelSubobject.html", null ],
-        [ "MR::RenderFeatures::WrappedModelSubobject< IsPrimary, ObjectPoints >", "classMR_1_1RenderFeatures_1_1WrappedModelSubobject.html", null ],
-        [ "MR::RenderFeatures::WrappedModelSubobject< IsPrimary, BaseObjectType >", "classMR_1_1RenderFeatures_1_1WrappedModelSubobject.html", null ],
-        [ "MR::RenderFeatures::WrappedModelSubobject< false, BaseObjectType >", "classMR_1_1RenderFeatures_1_1WrappedModelSubobject_3_01false_00_01BaseObjectType_01_4.html", null ],
-        [ "MR::RenderFeatures::detail::WrappedModelSubobjectPart< IsPrimary, ObjectLines >", "classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart_3_01IsPrimary_00_01ObjectLines_01_4.html", [
+        [ "MR::RenderFeatures::detail::WrappedModelSubobjectBase< IsPrimary, ObjectLines >", "classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectBase.html", [
           [ "MR::RenderFeatures::WrappedModelSubobject< IsPrimary, ObjectLines >", "classMR_1_1RenderFeatures_1_1WrappedModelSubobject.html", null ]
         ] ],
-        [ "MR::RenderFeatures::detail::WrappedModelSubobjectPart< IsPrimary, ObjectMesh >", "classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart_3_01IsPrimary_00_01ObjectMesh_01_4.html", [
+        [ "MR::RenderFeatures::detail::WrappedModelSubobjectBase< IsPrimary, ObjectMesh >", "classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectBase.html", [
           [ "MR::RenderFeatures::WrappedModelSubobject< IsPrimary, ObjectMesh >", "classMR_1_1RenderFeatures_1_1WrappedModelSubobject.html", null ]
         ] ],
-        [ "MR::RenderFeatures::detail::WrappedModelSubobjectPart< IsPrimary, ObjectPoints >", "classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart_3_01IsPrimary_00_01ObjectPoints_01_4.html", [
+        [ "MR::RenderFeatures::detail::WrappedModelSubobjectBase< IsPrimary, ObjectPoints >", "classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectBase.html", [
           [ "MR::RenderFeatures::WrappedModelSubobject< IsPrimary, ObjectPoints >", "classMR_1_1RenderFeatures_1_1WrappedModelSubobject.html", null ]
+        ] ],
+        [ "MR::RenderFeatures::detail::WrappedModelSubobjectBase< false, BaseObjectType >", "classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectBase.html", null ],
+        [ "MR::RenderFeatures::detail::WrappedModelSubobjectBase< IsPrimary, BaseObjectType >", "classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectBase.html", null ],
+        [ "MR::RenderFeatures::detail::WrappedModelSubobjectPart< IsPrimary, ObjectLines >", "classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart_3_01IsPrimary_00_01ObjectLines_01_4.html", [
+          [ "MR::RenderFeatures::detail::WrappedModelSubobjectBase< IsPrimary, ObjectLines >", "classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectBase.html", null ]
+        ] ],
+        [ "MR::RenderFeatures::detail::WrappedModelSubobjectPart< IsPrimary, ObjectMesh >", "classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart_3_01IsPrimary_00_01ObjectMesh_01_4.html", [
+          [ "MR::RenderFeatures::detail::WrappedModelSubobjectBase< IsPrimary, ObjectMesh >", "classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectBase.html", null ]
+        ] ],
+        [ "MR::RenderFeatures::detail::WrappedModelSubobjectPart< IsPrimary, ObjectPoints >", "classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart_3_01IsPrimary_00_01ObjectPoints_01_4.html", [
+          [ "MR::RenderFeatures::detail::WrappedModelSubobjectBase< IsPrimary, ObjectPoints >", "classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectBase.html", null ]
         ] ]
       ] ],
       [ "MR::RenderWrapObject::BasicWrapperTarget< ObjectType >", "classMR_1_1RenderWrapObject_1_1BasicWrapperTarget.html", null ]

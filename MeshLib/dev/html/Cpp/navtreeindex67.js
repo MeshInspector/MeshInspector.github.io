@@ -1,5 +1,7 @@
 var NAVTREEINDEX67 =
 {
+"structMRBox3i.html":[6,0,2,0,8],
+"structMRBox3i.html#a1adbe125bcb4e62f38b1a78d9aca7fac":[6,0,2,0,8,1],
 "structMRBox3i.html#a922200412625e7bbc2de30d2c1764984":[6,0,2,0,8,0],
 "structMRColor.html":[6,0,2,0,9],
 "structMRColor.html#a619f04ba5a882494f1459c0d2e2d3dc8":[6,0,2,0,9,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX67 =
 "structMRPointPair.html#a85030f1c32b6fa41b3cb99f84864951a":[6,0,2,0,54,1],
 "structMRPointPair.html#aaf071fe8e6ec54c8e173d7c49c968b10":[6,0,2,0,54,3],
 "structMRPointPair.html#ade96451aa57e9f26439ea7333910d37a":[6,0,2,0,54,2],
-"structMRPointsLoadSettings.html":[6,0,2,0,55],
-"structMRPointsLoadSettings.html#a05bb87b383496b50cfc792ea6c48c5ad":[6,0,2,0,55,2],
-"structMRPointsLoadSettings.html#a96aa5cea42db28d879ed0982662b6aad":[6,0,2,0,55,0]
+"structMRPointsLoadSettings.html":[6,0,2,0,55]
 };
