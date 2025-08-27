@@ -1,5 +1,9 @@
 var NAVTREEINDEX83 =
 {
+"structMR_1_1Palette_1_1Histogram.html#a4ec5f5fcd46cb8b19af095df3dc1ccab":[6,0,1,0,1,490,0,1],
+"structMR_1_1Palette_1_1Histogram.html#a4ec5f5fcd46cb8b19af095df3dc1ccab":[6,0,2,0,1,473,0,1],
+"structMR_1_1Palette_1_1Histogram.html#a6e3c009773c149a58a02092c806b1a6c":[6,0,1,0,1,490,0,6],
+"structMR_1_1Palette_1_1Histogram.html#a6e3c009773c149a58a02092c806b1a6c":[6,0,2,0,1,473,0,6],
 "structMR_1_1Palette_1_1Histogram.html#a793944d569fa38df4744dcfc8350a36e":[6,0,1,0,1,490,0,4],
 "structMR_1_1Palette_1_1Histogram.html#a793944d569fa38df4744dcfc8350a36e":[6,0,2,0,1,473,0,4],
 "structMR_1_1Palette_1_1Histogram.html#ace309833ecb054209354a3d4ccacdd00":[6,0,1,0,1,490,0,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX83 =
 "structMR_1_1PointAndDistance.html#a30b687a3ae4e9a8f1e2faf636e415f5c":[6,0,2,0,1,496,1],
 "structMR_1_1PointAndDistance.html#a95a6c6e03ea27af92edfb720b51eb6cc":[6,0,1,0,1,513,2],
 "structMR_1_1PointAndDistance.html#a95a6c6e03ea27af92edfb720b51eb6cc":[6,0,2,0,1,496,2],
-"structMR_1_1PointAndDistance.html#ad69e7a0cb1644a718347e10e06baf900":[6,0,1,0,1,513,3],
-"structMR_1_1PointAndDistance.html#ad69e7a0cb1644a718347e10e06baf900":[6,0,2,0,1,496,3],
-"structMR_1_1PointCloud.html":[6,0,0,12,0],
-"structMR_1_1PointCloud.html#a0da05bf74b7157037f314c884ab018b4":[6,0,0,12,0,21],
-"structMR_1_1PointCloud.html#a25842b53d739f9841d97e66dd8221d59":[6,0,0,12,0,15]
+"structMR_1_1PointAndDistance.html#ad69e7a0cb1644a718347e10e06baf900":[6,0,1,0,1,513,3]
 };
