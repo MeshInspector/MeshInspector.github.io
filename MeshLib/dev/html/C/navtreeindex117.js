@@ -1,5 +1,9 @@
 var NAVTREEINDEX117 =
 {
+"std__function__MR__Vector3f__from__const__MR__Vector3f__ref__const__MR__Vector3f__ref__float__float__float_8h.html":[6,2,1,0,0,0,2,147],
+"std__function__MR__Vector3f__from__const__MR__Vector3f__ref__const__MR__Vector3f__ref__float__float__float_8h.html#a151dcb942a257116e12d587250d9f8c0":[6,2,1,0,0,0,2,147,6],
+"std__function__MR__Vector3f__from__const__MR__Vector3f__ref__const__MR__Vector3f__ref__float__float__float_8h.html#a1d165da1970c31b5a446eee0f042ca11":[6,2,1,0,0,0,2,147,9],
+"std__function__MR__Vector3f__from__const__MR__Vector3f__ref__const__MR__Vector3f__ref__float__float__float_8h.html#a2480fed666059668e12eb319eeb73d7b":[6,2,1,0,0,0,2,147,10],
 "std__function__MR__Vector3f__from__const__MR__Vector3f__ref__const__MR__Vector3f__ref__float__float__float_8h.html#a2e22b69274aca7e8306ef9ff9034a985":[6,2,1,0,0,0,2,147,7],
 "std__function__MR__Vector3f__from__const__MR__Vector3f__ref__const__MR__Vector3f__ref__float__float__float_8h.html#a32607a04d470ca77b97babcddec4d40a":[6,2,1,0,0,0,2,147,2],
 "std__function__MR__Vector3f__from__const__MR__Vector3f__ref__const__MR__Vector3f__ref__float__float__float_8h.html#a3595e6d7fc4599f3d62ac5ee6f8555b7":[6,2,1,0,0,0,2,147,5],
@@ -245,9 +249,5 @@ var NAVTREEINDEX117 =
 "std__function__const__MR__FaceBitSet__ptr__from__uint64__t_8h.html#a8a2da294f6ac4f1aaa38a56e9620331f":[6,2,1,0,0,0,2,117,9],
 "std__function__const__MR__FaceBitSet__ptr__from__uint64__t_8h.html#a9a3222ef45f2bbecb9b4f84f6fe85efb":[6,2,1,0,0,0,2,117,7],
 "std__function__const__MR__FaceBitSet__ptr__from__uint64__t_8h.html#aba7bc6ac732c34fd4721c543fa3445ea":[6,2,1,0,0,0,2,117,0],
-"std__function__const__MR__FaceBitSet__ptr__from__uint64__t_8h_source.html":[6,2,1,0,0,0,2,117],
-"std__function__double__from__MR__VertId__MR__VertId__MR__VertId_8h.html":[6,2,1,0,0,0,2,120],
-"std__function__double__from__MR__VertId__MR__VertId__MR__VertId_8h.html#a00cb2b5dd2294f82018357340511505b":[6,2,1,0,0,0,2,120,8],
-"std__function__double__from__MR__VertId__MR__VertId__MR__VertId_8h.html#a19265180307c0101b1ce7db9505d4e61":[6,2,1,0,0,0,2,120,4],
-"std__function__double__from__MR__VertId__MR__VertId__MR__VertId_8h.html#a19715c94c9dd182ccd45bd4f4f57b2a9":[6,2,1,0,0,0,2,120,2]
+"std__function__const__MR__FaceBitSet__ptr__from__uint64__t_8h_source.html":[6,2,1,0,0,0,2,117]
 };

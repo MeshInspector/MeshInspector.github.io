@@ -1,5 +1,11 @@
 var NAVTREEINDEX64 =
 {
+"namespaceMR.html#ae5dcb820660464b7454985abd2094832":[6,0,1,0,1,1753],
+"namespaceMR.html#ae5e9489254b51988519548546f68914a":[6,0,1,0,1,2005],
+"namespaceMR.html#ae62d8b1a2722dd8c71578f1b4bdcee07":[6,0,1,0,1,2279],
+"namespaceMR.html#ae6305342b0ad612816558b312b777ea4":[6,0,1,0,1,2305],
+"namespaceMR.html#ae673894ad1701c00dadb8c9cf7d71b3d":[6,0,1,0,1,859],
+"namespaceMR.html#ae679240dc1c3cb46bbffe4002f1f48e5":[6,0,1,0,1,1028],
 "namespaceMR.html#ae67e358aa67b3bec22536c544a8ed160":[6,0,1,0,1,2640],
 "namespaceMR.html#ae69d6d886eeae936d8c70e983d245cd5":[6,0,1,0,1,2028],
 "namespaceMR.html#ae6a703f529a05e3f2fa59d68fd266627":[6,0,1,0,1,2453],
@@ -243,11 +249,5 @@ var NAVTREEINDEX64 =
 "namespaceMR_1_1ImGuiMath.html#a5536e17f9eef79e57335bbfaa24bcc2a":[6,0,1,0,1,14,8],
 "namespaceMR_1_1ImGuiMath.html#a5dd8586dafaa70c20f2e723116368027":[6,0,1,0,1,14,19],
 "namespaceMR_1_1ImGuiMath.html#a688fbf496bac1ba949b29be3ec9a96c4":[6,0,1,0,1,14,6],
-"namespaceMR_1_1ImGuiMath.html#a6d0e200395e627b407b89164f6c4b13e":[6,0,1,0,1,14,11],
-"namespaceMR_1_1ImGuiMath.html#a7a4714344a7e4547c8fd858658c8a54a":[6,0,1,0,1,14,7],
-"namespaceMR_1_1ImGuiMath.html#a9413dca0b69204cedfb3f5a93add745a":[6,0,1,0,1,14,4],
-"namespaceMR_1_1ImGuiMath.html#a9b787db1b3551a333f5fae1addb214bd":[6,0,1,0,1,14,13],
-"namespaceMR_1_1ImGuiMath.html#ab2120d83ad46fc54b4a21db479448c46":[6,0,1,0,1,14,9],
-"namespaceMR_1_1ImGuiMath.html#ac034e81727be0de1a1b7d5c5835a7283":[6,0,1,0,1,14,15],
-"namespaceMR_1_1ImGuiMath.html#ae3d880600a263c7ca9020c136c89220f":[6,0,1,0,1,14,18]
+"namespaceMR_1_1ImGuiMath.html#a6d0e200395e627b407b89164f6c4b13e":[6,0,1,0,1,14,11]
 };

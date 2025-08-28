@@ -3,6 +3,8 @@ var classmrmeshpy_1_1FeatureObject =
     [ "getAllSharedProperties", "classmrmeshpy_1_1FeatureObject.html#a23676bb9fe5cb1841b3b3aba602cd2d5", null ],
     [ "getAllVisualizeProperties", "classmrmeshpy_1_1FeatureObject.html#a840b68101f6eb43e4abae6222e049566", null ],
     [ "getBasePoint", "classmrmeshpy_1_1FeatureObject.html#a28d87db192f46cd657a79eecb1a250e2", null ],
+    [ "getClassName", "classmrmeshpy_1_1FeatureObject.html#a8440a929c1f4263931cb2122c29fd646", null ],
+    [ "getClassNameInPlural", "classmrmeshpy_1_1FeatureObject.html#a8e925c3368aa2104740ec81b0b975fc1", null ],
     [ "getDecorationsColor", "classmrmeshpy_1_1FeatureObject.html#a339770517b5a0058c3cb5c12463822d4", null ],
     [ "getDecorationsColorForAllViewports", "classmrmeshpy_1_1FeatureObject.html#a6920eada96b5b1f2f7084dbfd8d65fa0", null ],
     [ "getLineWidth", "classmrmeshpy_1_1FeatureObject.html#a71bfd44645b5b2938d50aaeba643f6ec", null ],
@@ -30,5 +32,6 @@ var classmrmeshpy_1_1FeatureObject =
     [ "setSubfeatureLineWidth", "classmrmeshpy_1_1FeatureObject.html#a40a4acaefd1752b0e9359ab3876e97e4", null ],
     [ "setSubfeaturePointSize", "classmrmeshpy_1_1FeatureObject.html#a537928713294647267cf4d68345087b4", null ],
     [ "setXf", "classmrmeshpy_1_1FeatureObject.html#a1a6780eafb533347e001bbd950b19e17", null ],
-    [ "supportsVisualizeProperty", "classmrmeshpy_1_1FeatureObject.html#a1d424208c478b75ec64eccd64a0d78d6", null ]
+    [ "supportsVisualizeProperty", "classmrmeshpy_1_1FeatureObject.html#a1d424208c478b75ec64eccd64a0d78d6", null ],
+    [ "typeName", "classmrmeshpy_1_1FeatureObject.html#aef685fbdedc360b4ad4d91fc16242463", null ]
 ];

@@ -1,5 +1,11 @@
 var NAVTREEINDEX72 =
 {
+"classmrmeshpy_1_1SignedDistanceToMeshResult.html#ad72f610ee751928beb96bd52ab77df93":[6,1,0,0,2,768,6],
+"classmrmeshpy_1_1SignedDistanceToMeshResult.html#ad72f610ee751928beb96bd52ab77df93":[6,1,1,0,1,768,6],
+"classmrmeshpy_1_1SignedDistanceToMeshResult.html#af429639f8893d5ceb22164b32677c80c":[6,1,0,0,2,768,1],
+"classmrmeshpy_1_1SignedDistanceToMeshResult.html#af429639f8893d5ceb22164b32677c80c":[6,1,1,0,1,768,1],
+"classmrmeshpy_1_1SimpleBinaryVolume.html":[6,1,0,0,2,769],
+"classmrmeshpy_1_1SimpleBinaryVolume.html":[6,1,1,0,1,769],
 "classmrmeshpy_1_1SimpleBinaryVolume.html#a5e2bfe9deb94ff6cec0c13ec3429c540":[6,1,0,0,2,769,2],
 "classmrmeshpy_1_1SimpleBinaryVolume.html#a5e2bfe9deb94ff6cec0c13ec3429c540":[6,1,1,0,1,769,2],
 "classmrmeshpy_1_1SimpleBinaryVolume.html#a84462727c2d3ff9bb114d491f8dc8b63":[6,1,0,0,2,769,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX72 =
 "classmrmeshpy_1_1SplineSettings.html":[6,1,0,0,2,787],
 "classmrmeshpy_1_1SplineSettings.html":[6,1,1,0,1,787],
 "classmrmeshpy_1_1SplineSettings.html#a0954a0ddebdc1f1f133480857200b49f":[6,1,0,0,2,787,2],
-"classmrmeshpy_1_1SplineSettings.html#a0954a0ddebdc1f1f133480857200b49f":[6,1,1,0,1,787,2],
-"classmrmeshpy_1_1SplineSettings.html#a0b6d744096f0a07b74c0569e280544d7":[6,1,0,0,2,787,3],
-"classmrmeshpy_1_1SplineSettings.html#a0b6d744096f0a07b74c0569e280544d7":[6,1,1,0,1,787,3],
-"classmrmeshpy_1_1SplineSettings.html#a37236c33f50538b23a8fe0abf0febce1":[6,1,0,0,2,787,1],
-"classmrmeshpy_1_1SplineSettings.html#a37236c33f50538b23a8fe0abf0febce1":[6,1,1,0,1,787,1],
-"classmrmeshpy_1_1SplineSettings.html#a68e5823573d3176bedcb74f82de7b874":[6,1,0,0,2,787,7],
-"classmrmeshpy_1_1SplineSettings.html#a68e5823573d3176bedcb74f82de7b874":[6,1,1,0,1,787,7]
+"classmrmeshpy_1_1SplineSettings.html#a0954a0ddebdc1f1f133480857200b49f":[6,1,1,0,1,787,2]
 };

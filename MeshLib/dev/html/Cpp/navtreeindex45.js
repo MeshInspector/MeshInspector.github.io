@@ -1,5 +1,11 @@
 var NAVTREEINDEX45 =
 {
+"classMR_1_1SphereObject.html#a5a281f4cd06f74f10aadc4874cd4cef5":[6,0,0,11,0,6,1],
+"classMR_1_1SphereObject.html#a61b3b53e478f087679a2177013f202a7":[6,0,0,11,0,6,2],
+"classMR_1_1SphereObject.html#a6526999666312eb4878184209c5f4284":[6,0,0,11,0,6,6],
+"classMR_1_1SphereObject.html#a6855908d00df90d26fda3844b6a422df":[6,0,0,11,0,6,13],
+"classMR_1_1SphereObject.html#a6c0aeca2da2dadcdb0d53868a712fd4a":[6,0,0,11,0,6,16],
+"classMR_1_1SphereObject.html#a763e668b75bc85716242eb33adb6f5c8":[6,0,0,11,0,6,8],
 "classMR_1_1SphereObject.html#aad300c4270da25b21556235725b4b8c3":[6,0,0,11,0,6,14],
 "classMR_1_1SphereObject.html#ab073c7dd40fc01a69a3484338c65f9e0":[6,0,0,11,0,6,20],
 "classMR_1_1SphereObject.html#ab747a95226189b8c1e074510daa0bc78":[6,0,0,11,0,6,18],
@@ -243,11 +249,5 @@ var NAVTREEINDEX45 =
 "classMR_1_1SurfaceManipulationWidget.html#aaf2bf24fbfd2017b8037ed9cab3df93caec211f7c20af43e742bf2570c3cb84f9":[6,0,1,0,1,707,2,0],
 "classMR_1_1SurfaceManipulationWidget.html#aaf2bf24fbfd2017b8037ed9cab3df93caec211f7c20af43e742bf2570c3cb84f9":[6,0,2,0,1,690,2,0],
 "classMR_1_1SurfaceManipulationWidget.html#aaf2bf24fbfd2017b8037ed9cab3df93caf2901a893d204f609b9d6d6b11a481b4":[6,0,1,0,1,707,2,2],
-"classMR_1_1SurfaceManipulationWidget.html#aaf2bf24fbfd2017b8037ed9cab3df93caf2901a893d204f609b9d6d6b11a481b4":[6,0,2,0,1,690,2,2],
-"classMR_1_1SurfaceManipulationWidget.html#ab29aa143377b68d247fab12b0da55a6a":[6,0,1,0,1,707,51],
-"classMR_1_1SurfaceManipulationWidget.html#ab29aa143377b68d247fab12b0da55a6a":[6,0,2,0,1,690,51],
-"classMR_1_1SurfaceManipulationWidget.html#ab48b92dfb4eab8bf8e44861c6b4d3751":[6,0,1,0,1,707,71],
-"classMR_1_1SurfaceManipulationWidget.html#ab48b92dfb4eab8bf8e44861c6b4d3751":[6,0,2,0,1,690,71],
-"classMR_1_1SurfaceManipulationWidget.html#ab7e117d491cc1bbee8e7a16a851943c8":[6,0,1,0,1,707,24],
-"classMR_1_1SurfaceManipulationWidget.html#ab7e117d491cc1bbee8e7a16a851943c8":[6,0,2,0,1,690,24]
+"classMR_1_1SurfaceManipulationWidget.html#aaf2bf24fbfd2017b8037ed9cab3df93caf2901a893d204f609b9d6d6b11a481b4":[6,0,2,0,1,690,2,2]
 };

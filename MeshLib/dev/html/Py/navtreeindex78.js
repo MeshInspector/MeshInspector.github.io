@@ -1,5 +1,11 @@
 var NAVTREEINDEX78 =
 {
+"classmrmeshpy_1_1TexturePerFace.html#ae9004af7c7d209bfd341c05a245f568b":[6,1,0,0,2,1008,37],
+"classmrmeshpy_1_1TexturePerFace.html#ae9004af7c7d209bfd341c05a245f568b":[6,1,1,0,1,1008,37],
+"classmrmeshpy_1_1TexturePerFace.html#ae9dc9d79b12b18ea918260dcc681dbac":[6,1,0,0,2,1008,18],
+"classmrmeshpy_1_1TexturePerFace.html#ae9dc9d79b12b18ea918260dcc681dbac":[6,1,1,0,1,1008,18],
+"classmrmeshpy_1_1TexturePerFace.html#af3ee1cfcd9bb42e5414af6c2218f6030":[6,1,0,0,2,1008,11],
+"classmrmeshpy_1_1TexturePerFace.html#af3ee1cfcd9bb42e5414af6c2218f6030":[6,1,1,0,1,1008,11],
 "classmrmeshpy_1_1TexturePerFace.html#afa6642efef1e6702f76fc9a66a814665":[6,1,0,0,2,1008,26],
 "classmrmeshpy_1_1TexturePerFace.html#afa6642efef1e6702f76fc9a66a814665":[6,1,1,0,1,1008,26],
 "classmrmeshpy_1_1TexturePerFace.html#affa86a2076173751d9204c9822251c34":[6,1,0,0,2,1008,9],
@@ -243,11 +249,5 @@ var NAVTREEINDEX78 =
 "classmrmeshpy_1_1Triangulation.html#a0658cf7372b2710ac06d22e11966b10d":[6,1,0,0,2,1017,2],
 "classmrmeshpy_1_1Triangulation.html#a0658cf7372b2710ac06d22e11966b10d":[6,1,1,0,1,1017,2],
 "classmrmeshpy_1_1Triangulation.html#a0a08e4006ce95cac612f3729dce9d08c":[6,1,0,0,2,1017,1],
-"classmrmeshpy_1_1Triangulation.html#a0a08e4006ce95cac612f3729dce9d08c":[6,1,1,0,1,1017,1],
-"classmrmeshpy_1_1Triangulation.html#a122af967d382a95e5eaf702b740af358":[6,1,0,0,2,1017,0],
-"classmrmeshpy_1_1Triangulation.html#a122af967d382a95e5eaf702b740af358":[6,1,1,0,1,1017,0],
-"classmrmeshpy_1_1Triangulation.html#a14e7423ffe04d7ddfd3da5115146a9f9":[6,1,0,0,2,1017,35],
-"classmrmeshpy_1_1Triangulation.html#a14e7423ffe04d7ddfd3da5115146a9f9":[6,1,1,0,1,1017,35],
-"classmrmeshpy_1_1Triangulation.html#a18db844c0e14e74acef5f11aedcfec10":[6,1,0,0,2,1017,3],
-"classmrmeshpy_1_1Triangulation.html#a18db844c0e14e74acef5f11aedcfec10":[6,1,1,0,1,1017,3]
+"classmrmeshpy_1_1Triangulation.html#a0a08e4006ce95cac612f3729dce9d08c":[6,1,1,0,1,1017,1]
 };

@@ -1,5 +1,11 @@
 var NAVTREEINDEX96 =
 {
+"classmrmeshpy_1_1Vector__VertId__EdgeId.html#af2eed646440da36c6d13814a4f16b715":[6,1,0,0,2,1110,1],
+"classmrmeshpy_1_1Vector__VertId__EdgeId.html#af2eed646440da36c6d13814a4f16b715":[6,1,1,0,1,1110,1],
+"classmrmeshpy_1_1Vector__VertId__EdgeId.html#af2f9feb375f1722a1e6f230043fd4b40":[6,1,0,0,2,1110,33],
+"classmrmeshpy_1_1Vector__VertId__EdgeId.html#af2f9feb375f1722a1e6f230043fd4b40":[6,1,1,0,1,1110,33],
+"classmrmeshpy_1_1Vector__VertId__EdgeId.html#af2ffebc733093e80ab65bd8fc0d46e0d":[6,1,0,0,2,1110,13],
+"classmrmeshpy_1_1Vector__VertId__EdgeId.html#af2ffebc733093e80ab65bd8fc0d46e0d":[6,1,0,0,2,1110,14],
 "classmrmeshpy_1_1Vector__VertId__EdgeId.html#af2ffebc733093e80ab65bd8fc0d46e0d":[6,1,1,0,1,1110,13],
 "classmrmeshpy_1_1Vector__VertId__EdgeId.html#af2ffebc733093e80ab65bd8fc0d46e0d":[6,1,1,0,1,1110,14],
 "classmrmeshpy_1_1Vector__VertId__EdgeId.html#afb64eed63a1af60db07375efb756e5ef":[6,1,0,0,2,1110,35],
@@ -243,11 +249,5 @@ var NAVTREEINDEX96 =
 "classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId.html#aef75badd4cf6b2e244f73a14d66f9a02":[6,1,0,0,2,1113,30],
 "classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId.html#aef75badd4cf6b2e244f73a14d66f9a02":[6,1,1,0,1,1113,30],
 "classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId.html#afee0244de7d0bd0d39f89fcd66054ed8":[6,1,0,0,2,1113,25],
-"classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId.html#afee0244de7d0bd0d39f89fcd66054ed8":[6,1,1,0,1,1113,25],
-"classmrmeshpy_1_1Vector__WatershedGraph__BdInfo__GraphEdgeId.html":[6,1,0,0,2,1114],
-"classmrmeshpy_1_1Vector__WatershedGraph__BdInfo__GraphEdgeId.html":[6,1,1,0,1,1114],
-"classmrmeshpy_1_1Vector__WatershedGraph__BdInfo__GraphEdgeId.html#a0207f72c6ba03311415eb2ed23373a56":[6,1,0,0,2,1114,26],
-"classmrmeshpy_1_1Vector__WatershedGraph__BdInfo__GraphEdgeId.html#a0207f72c6ba03311415eb2ed23373a56":[6,1,0,0,2,1114,27],
-"classmrmeshpy_1_1Vector__WatershedGraph__BdInfo__GraphEdgeId.html#a0207f72c6ba03311415eb2ed23373a56":[6,1,1,0,1,1114,26],
-"classmrmeshpy_1_1Vector__WatershedGraph__BdInfo__GraphEdgeId.html#a0207f72c6ba03311415eb2ed23373a56":[6,1,1,0,1,1114,27]
+"classmrmeshpy_1_1Vector__WatershedGraph__BasinInfo__GraphVertId.html#afee0244de7d0bd0d39f89fcd66054ed8":[6,1,1,0,1,1113,25]
 };

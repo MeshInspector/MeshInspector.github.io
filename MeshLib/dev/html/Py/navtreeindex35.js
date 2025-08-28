@@ -1,5 +1,11 @@
 var NAVTREEINDEX35 =
 {
+"classmrmeshpy_1_1ImproveSamplingSettings.html#a34f8b17be6f5ee82a9516c61befa9c60":[6,1,0,0,2,386,12],
+"classmrmeshpy_1_1ImproveSamplingSettings.html#a34f8b17be6f5ee82a9516c61befa9c60":[6,1,1,0,1,386,12],
+"classmrmeshpy_1_1ImproveSamplingSettings.html#a471a6e493245c2e394412e61d2859e5f":[6,1,0,0,2,386,8],
+"classmrmeshpy_1_1ImproveSamplingSettings.html#a471a6e493245c2e394412e61d2859e5f":[6,1,1,0,1,386,8],
+"classmrmeshpy_1_1ImproveSamplingSettings.html#a4cf91221062c5888f8d154fd47a1ce41":[6,1,0,0,2,386,7],
+"classmrmeshpy_1_1ImproveSamplingSettings.html#a4cf91221062c5888f8d154fd47a1ce41":[6,1,1,0,1,386,7],
 "classmrmeshpy_1_1ImproveSamplingSettings.html#a6e12c40bebcafea335a27911279b4fc6":[6,1,0,0,2,386,9],
 "classmrmeshpy_1_1ImproveSamplingSettings.html#a6e12c40bebcafea335a27911279b4fc6":[6,1,1,0,1,386,9],
 "classmrmeshpy_1_1ImproveSamplingSettings.html#a71e528676124b23964739633b6d387a7":[6,1,0,0,2,386,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX35 =
 "classmrmeshpy_1_1IsVisualizeMaskEnum__LabelVisualizePropertyType.html#a18b437d3fa667fab729bcc53f0490c8d":[6,1,0,0,2,405,2],
 "classmrmeshpy_1_1IsVisualizeMaskEnum__LabelVisualizePropertyType.html#a18b437d3fa667fab729bcc53f0490c8d":[6,1,1,0,1,405,2],
 "classmrmeshpy_1_1IsVisualizeMaskEnum__LabelVisualizePropertyType.html#aa886a97c253a1dde7a4e09687f6b429b":[6,1,0,0,2,405,0],
-"classmrmeshpy_1_1IsVisualizeMaskEnum__LabelVisualizePropertyType.html#aa886a97c253a1dde7a4e09687f6b429b":[6,1,0,0,2,405,1],
-"classmrmeshpy_1_1IsVisualizeMaskEnum__LabelVisualizePropertyType.html#aa886a97c253a1dde7a4e09687f6b429b":[6,1,1,0,1,405,0],
-"classmrmeshpy_1_1IsVisualizeMaskEnum__LabelVisualizePropertyType.html#aa886a97c253a1dde7a4e09687f6b429b":[6,1,1,0,1,405,1],
-"classmrmeshpy_1_1IsVisualizeMaskEnum__LinesVisualizePropertyType.html":[6,1,0,0,2,406],
-"classmrmeshpy_1_1IsVisualizeMaskEnum__LinesVisualizePropertyType.html":[6,1,1,0,1,406],
-"classmrmeshpy_1_1IsVisualizeMaskEnum__LinesVisualizePropertyType.html#a898b20f9c38983d113b535663ae87856":[6,1,0,0,2,406,2],
-"classmrmeshpy_1_1IsVisualizeMaskEnum__LinesVisualizePropertyType.html#a898b20f9c38983d113b535663ae87856":[6,1,1,0,1,406,2]
+"classmrmeshpy_1_1IsVisualizeMaskEnum__LabelVisualizePropertyType.html#aa886a97c253a1dde7a4e09687f6b429b":[6,1,0,0,2,405,1]
 };

@@ -1,5 +1,11 @@
 var NAVTREEINDEX71 =
 {
+"classmrmeshpy_1_1SelfIntersections_1_1Settings.html#a775cb0297a9ad809b7d124be656d195f":[6,1,0,0,2,758,0,8],
+"classmrmeshpy_1_1SelfIntersections_1_1Settings.html#a775cb0297a9ad809b7d124be656d195f":[6,1,1,0,1,758,0,8],
+"classmrmeshpy_1_1SelfIntersections_1_1Settings.html#a7f59e857791e7b2e978f86d3313c4106":[6,1,0,0,2,758,0,3],
+"classmrmeshpy_1_1SelfIntersections_1_1Settings.html#a7f59e857791e7b2e978f86d3313c4106":[6,1,1,0,1,758,0,3],
+"classmrmeshpy_1_1SelfIntersections_1_1Settings.html#a8f3dc7c12f4279c0be5c4b7e6da46d3b":[6,1,0,0,2,758,0,4],
+"classmrmeshpy_1_1SelfIntersections_1_1Settings.html#a8f3dc7c12f4279c0be5c4b7e6da46d3b":[6,1,1,0,1,758,0,4],
 "classmrmeshpy_1_1SelfIntersections_1_1Settings.html#aaa985ecd891f26687647b5a9efc6d45a":[6,1,0,0,2,758,0,1],
 "classmrmeshpy_1_1SelfIntersections_1_1Settings.html#aaa985ecd891f26687647b5a9efc6d45a":[6,1,1,0,1,758,0,1],
 "classmrmeshpy_1_1SelfIntersections_1_1Settings.html#ac0d663f108a4665ae9bd2927cd35abe2":[6,1,0,0,2,758,0,11],
@@ -243,11 +249,5 @@ var NAVTREEINDEX71 =
 "classmrmeshpy_1_1SignedDistanceToMeshResult.html#a7e42a3ed9cdaf451b18c9f81a931a8fe":[6,1,0,0,2,768,0],
 "classmrmeshpy_1_1SignedDistanceToMeshResult.html#a7e42a3ed9cdaf451b18c9f81a931a8fe":[6,1,1,0,1,768,0],
 "classmrmeshpy_1_1SignedDistanceToMeshResult.html#aa06488ebc404dfdfaf815acf5a5a238e":[6,1,0,0,2,768,3],
-"classmrmeshpy_1_1SignedDistanceToMeshResult.html#aa06488ebc404dfdfaf815acf5a5a238e":[6,1,1,0,1,768,3],
-"classmrmeshpy_1_1SignedDistanceToMeshResult.html#ad72f610ee751928beb96bd52ab77df93":[6,1,0,0,2,768,6],
-"classmrmeshpy_1_1SignedDistanceToMeshResult.html#ad72f610ee751928beb96bd52ab77df93":[6,1,1,0,1,768,6],
-"classmrmeshpy_1_1SignedDistanceToMeshResult.html#af429639f8893d5ceb22164b32677c80c":[6,1,0,0,2,768,1],
-"classmrmeshpy_1_1SignedDistanceToMeshResult.html#af429639f8893d5ceb22164b32677c80c":[6,1,1,0,1,768,1],
-"classmrmeshpy_1_1SimpleBinaryVolume.html":[6,1,0,0,2,769],
-"classmrmeshpy_1_1SimpleBinaryVolume.html":[6,1,1,0,1,769]
+"classmrmeshpy_1_1SignedDistanceToMeshResult.html#aa06488ebc404dfdfaf815acf5a5a238e":[6,1,1,0,1,768,3]
 };

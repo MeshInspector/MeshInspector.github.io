@@ -1,5 +1,11 @@
 var NAVTREEINDEX82 =
 {
+"structMR_1_1NewEdgesMap.html#a1d44ed6247b64a9007baa4bbbf2903aa":[6,0,0,8,2,0],
+"structMR_1_1NewEdgesMap.html#a3af4a8bfbe6579dc273d0b9f368f77aa":[6,0,0,8,2,1],
+"structMR_1_1NoCtor.html":[6,0,1,0,1,432],
+"structMR_1_1NoCtor.html":[6,0,2,0,1,415],
+"structMR_1_1NoCtor_3_01T_01_4.html":[6,0,1,0,1,433],
+"structMR_1_1NoCtor_3_01T_01_4.html":[6,0,2,0,1,416],
 "structMR_1_1NoCtor_3_01T_01_4.html#a5ad36941cb49b13cf04d17446b102370":[6,0,1,0,1,433,0],
 "structMR_1_1NoCtor_3_01T_01_4.html#a5ad36941cb49b13cf04d17446b102370":[6,0,2,0,1,416,0],
 "structMR_1_1NoCtor_3_01T_01_4.html#a9043c90869c007f7262a6c843c881219":[6,0,1,0,1,433,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX82 =
 "structMR_1_1OpenVdbFloatGrid.html#a15a4c9bbd3ab390705854e71ea808687":[6,0,0,18,5,0],
 "structMR_1_1OpenVdbFloatGrid.html#adb689224a478708a8f7813b0f13ba5a8":[6,0,0,18,5,2],
 "structMR_1_1OriginAndDimensions.html":[6,0,1,0,1,484],
-"structMR_1_1OriginAndDimensions.html":[6,0,2,0,1,467],
-"structMR_1_1OriginAndDimensions.html#a3249421064f723e9274d910acde0cc34":[6,0,1,0,1,484,1],
-"structMR_1_1OriginAndDimensions.html#a3249421064f723e9274d910acde0cc34":[6,0,2,0,1,467,1],
-"structMR_1_1OriginAndDimensions.html#a47a625c37bc5587c8811c698a4720f0e":[6,0,1,0,1,484,0],
-"structMR_1_1OriginAndDimensions.html#a47a625c37bc5587c8811c698a4720f0e":[6,0,2,0,1,467,0],
-"structMR_1_1OutlierParams.html":[6,0,1,0,1,485],
-"structMR_1_1OutlierParams.html":[6,0,2,0,1,468]
+"structMR_1_1OriginAndDimensions.html":[6,0,2,0,1,467]
 };

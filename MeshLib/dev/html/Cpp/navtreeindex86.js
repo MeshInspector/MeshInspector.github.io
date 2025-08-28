@@ -1,5 +1,11 @@
 var NAVTREEINDEX86 =
 {
+"structMR_1_1Quaternion.html#a22a3efafffa70cc53f2d16561d172864":[6,0,0,0,21,1],
+"structMR_1_1Quaternion.html#a238423391f644b566ecdb0f0623998b5":[6,0,0,0,21,10],
+"structMR_1_1Quaternion.html#a24a478c9463275d440061899c3630a32":[6,0,0,0,21,20],
+"structMR_1_1Quaternion.html#a30209c5b86e5874a13aef73306c7c037":[6,0,0,0,21,24],
+"structMR_1_1Quaternion.html#a3026768bf8bbbabf23568fd3087d14ab":[6,0,0,0,21,2],
+"structMR_1_1Quaternion.html#a3408cac17b0213d5213b299ad98f12c3":[6,0,0,0,21,29],
 "structMR_1_1Quaternion.html#a425f39c2e989a446889597e5692a0416":[6,0,0,0,21,23],
 "structMR_1_1Quaternion.html#a4c3f74509e12b10d84316ce54058bd05":[6,0,0,0,21,7],
 "structMR_1_1Quaternion.html#a4c85af29d33ee04d5ca4473e7b840510":[6,0,0,0,21,4],
@@ -243,11 +249,5 @@ var NAVTREEINDEX86 =
 "structMR_1_1RibbonMenu_1_1DrawGroupConfig.html#a2c5115679d5b077be3479e377e7951b1":[6,0,1,0,1,605,1,2],
 "structMR_1_1RibbonMenu_1_1DrawGroupConfig.html#a2c5115679d5b077be3479e377e7951b1":[6,0,2,0,1,588,1,2],
 "structMR_1_1RibbonMenu_1_1DrawGroupConfig.html#acb4f5276bb05eca21c715df15a42b6e5":[6,0,1,0,1,605,1,0],
-"structMR_1_1RibbonMenu_1_1DrawGroupConfig.html#acb4f5276bb05eca21c715df15a42b6e5":[6,0,2,0,1,588,1,0],
-"structMR_1_1RibbonNotification.html":[6,0,1,0,1,612],
-"structMR_1_1RibbonNotification.html":[6,0,2,0,1,595],
-"structMR_1_1RibbonNotification.html#a156a1963010372c4c838def5344897ab":[6,0,1,0,1,612,2],
-"structMR_1_1RibbonNotification.html#a156a1963010372c4c838def5344897ab":[6,0,2,0,1,595,2],
-"structMR_1_1RibbonNotification.html#a2074bc13c9424073e04d319984ae6d49":[6,0,1,0,1,612,6],
-"structMR_1_1RibbonNotification.html#a2074bc13c9424073e04d319984ae6d49":[6,0,2,0,1,595,6]
+"structMR_1_1RibbonMenu_1_1DrawGroupConfig.html#acb4f5276bb05eca21c715df15a42b6e5":[6,0,2,0,1,588,1,0]
 };

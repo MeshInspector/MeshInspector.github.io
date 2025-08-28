@@ -1,5 +1,11 @@
 var NAVTREEINDEX81 =
 {
+"structMR_1_1Meta_1_1SharedPtrTraits.html#a47fdaa7dfd2dfb549cbc8209d27ec617":[6,0,2,0,1,13,0,0],
+"structMR_1_1MetricToAStarPenalty.html":[6,0,1,0,1,402],
+"structMR_1_1MetricToAStarPenalty.html":[6,0,2,0,1,385],
+"structMR_1_1MetricToAStarPenalty.html#a1abb85a715d1e270fa171a12e30b3b33":[6,0,1,0,1,402,2],
+"structMR_1_1MetricToAStarPenalty.html#a1abb85a715d1e270fa171a12e30b3b33":[6,0,2,0,1,385,2],
+"structMR_1_1MetricToAStarPenalty.html#adcfa3f6e76c7ebd915a9859d2105ab57":[6,0,1,0,1,402,0],
 "structMR_1_1MetricToAStarPenalty.html#adcfa3f6e76c7ebd915a9859d2105ab57":[6,0,2,0,1,385,0],
 "structMR_1_1MetricToAStarPenalty.html#ae78d929b06e35477653b8824ffed2383":[6,0,1,0,1,402,1],
 "structMR_1_1MetricToAStarPenalty.html#ae78d929b06e35477653b8824ffed2383":[6,0,2,0,1,385,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX81 =
 "structMR_1_1NameTagClickListener.html#a4c87ad9f9d5bde9a4037d25bdc190cba":[6,0,2,0,1,411,1],
 "structMR_1_1NameTagClickListener.html#aa3cab6f28416e27d7628154e93009e31":[6,0,1,0,1,428,2],
 "structMR_1_1NameTagClickListener.html#aa3cab6f28416e27d7628154e93009e31":[6,0,2,0,1,411,2],
-"structMR_1_1NewEdgesMap.html":[6,0,0,8,2],
-"structMR_1_1NewEdgesMap.html#a1d44ed6247b64a9007baa4bbbf2903aa":[6,0,0,8,2,0],
-"structMR_1_1NewEdgesMap.html#a3af4a8bfbe6579dc273d0b9f368f77aa":[6,0,0,8,2,1],
-"structMR_1_1NoCtor.html":[6,0,1,0,1,432],
-"structMR_1_1NoCtor.html":[6,0,2,0,1,415],
-"structMR_1_1NoCtor_3_01T_01_4.html":[6,0,1,0,1,433],
-"structMR_1_1NoCtor_3_01T_01_4.html":[6,0,2,0,1,416]
+"structMR_1_1NewEdgesMap.html":[6,0,0,8,2]
 };
