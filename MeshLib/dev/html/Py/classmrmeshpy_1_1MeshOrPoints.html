@@ -181,8 +181,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a65f79befd8d5a83cf0e32fbe192a28fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acbf7325b97c7cd9bf3bf44dd7ac5ab59" id="r_acbf7325b97c7cd9bf3bf44dd7ac5ab59"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Box3f.html">Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acbf7325b97c7cd9bf3bf44dd7ac5ab59">getObjBoundingBox</a> (self)</td></tr>
 <tr class="separator:acbf7325b97c7cd9bf3bf44dd7ac5ab59"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe76d4857d76bf5d01faff3a416e9a67" id="r_afe76d4857d76bf5d01faff3a416e9a67"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1func__void__from__Vector3__float__MeshOrPoints__ProjectionResult.html">func_void_from_Vector3_float_MeshOrPoints_ProjectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe76d4857d76bf5d01faff3a416e9a67">limitedProjector</a> (self)</td></tr>
-<tr class="separator:afe76d4857d76bf5d01faff3a416e9a67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c7139d440aa8b1b2690c2a1018604f7" id="r_a9c7139d440aa8b1b2690c2a1018604f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1func__bool__from__Vector3__float__MeshOrPoints__ProjectionResult.html">func_bool_from_Vector3_float_MeshOrPoints_ProjectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c7139d440aa8b1b2690c2a1018604f7">limitedProjector</a> (self)</td></tr>
+<tr class="separator:a9c7139d440aa8b1b2690c2a1018604f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f558985c38686323258a9a170a4475d" id="r_a6f558985c38686323258a9a170a4475d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1func__Vector3__float__from__Id__VertTag.html">func_Vector3_float_from_Id_VertTag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f558985c38686323258a9a170a4475d">normals</a> (self)</td></tr>
 <tr class="separator:a6f558985c38686323258a9a170a4475d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32fdab3bb62afa29832325596ba3ea00" id="r_a32fdab3bb62afa29832325596ba3ea00"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1VertCoords.html">VertCoords</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a32fdab3bb62afa29832325596ba3ea00">points</a> (self)</td></tr>
@@ -449,14 +449,14 @@ implemented via obj.getAABBTree()
 </pre> 
 </div>
 </div>
-<a id="afe76d4857d76bf5d01faff3a416e9a67" name="afe76d4857d76bf5d01faff3a416e9a67"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afe76d4857d76bf5d01faff3a416e9a67">&#9670;&#160;</a></span>limitedProjector()</h2>
+<a id="a9c7139d440aa8b1b2690c2a1018604f7" name="a9c7139d440aa8b1b2690c2a1018604f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c7139d440aa8b1b2690c2a1018604f7">&#9670;&#160;</a></span>limitedProjector()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"> <a class="el" href="classmrmeshpy_1_1func__void__from__Vector3__float__MeshOrPoints__ProjectionResult.html">func_void_from_Vector3_float_MeshOrPoints_ProjectionResult</a> mrmeshpy.MeshOrPoints.limitedProjector </td>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1func__bool__from__Vector3__float__MeshOrPoints__ProjectionResult.html">func_bool_from_Vector3_float_MeshOrPoints_ProjectionResult</a> mrmeshpy.MeshOrPoints.limitedProjector </td>
           <td>(</td>
           <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
           <td></td>
@@ -465,6 +465,7 @@ implemented via obj.getAABBTree()
 </div><div class="memdoc">
 <pre class="fragment">returns a function that updates previously known projection (closest) points on this,
 the update takes place only if newly found closest point is closer to p than sqrt(res.distSq) given on input
+The function returns true if the update has taken place.
 </pre> 
 </div>
 </div>

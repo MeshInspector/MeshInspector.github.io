@@ -1,5 +1,8 @@
 var NAVTREEINDEX11 =
 {
+"MRObjectDimensionsEnum_8h.html#ae471951bdf73171ae96368056485fe84":[6,0,3,0,0,1,4,246,1],
+"MRObjectDimensionsEnum_8h.html#af9d495c1655d813d553030485d00fea7":[6,0,3,0,0,1,4,246,5],
+"MRObjectDimensionsEnum_8h_source.html":[6,0,3,0,0,1,4,246],
 "MRObjectDistanceMap_8h.html":[6,0,3,0,0,1,4,247],
 "MRObjectDistanceMap_8h_source.html":[6,0,3,0,0,1,4,247],
 "MRObjectFactory_8h.html":[6,0,3,0,0,1,4,248],
@@ -246,8 +249,5 @@ var NAVTREEINDEX11 =
 "MRPointCloudTriangulationHelpers_8h_source.html":[6,0,3,0,0,1,4,287],
 "MRPointInAllSpaces_8h.html":[6,0,3,0,0,1,11,61],
 "MRPointInAllSpaces_8h_source.html":[6,0,3,0,0,1,11,61],
-"MRPointObject_8h.html":[6,0,3,0,0,1,4,288],
-"MRPointObject_8h_source.html":[6,0,3,0,0,1,4,288],
-"MRPointOnObject_8h.html":[6,0,3,0,0,1,4,290],
-"MRPointOnObject_8h.html#a2c92af53121d8650918b145970fcfda0":[6,0,3,0,0,1,4,290,2]
+"MRPointObject_8h.html":[6,0,3,0,0,1,4,288]
 };

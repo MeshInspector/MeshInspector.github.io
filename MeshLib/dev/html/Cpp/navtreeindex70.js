@@ -1,5 +1,11 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1CharPressedListener.html#a3c20edbda2e8d0fc8601a5c047e8bf87":[6,0,2,0,1,121,3],
+"structMR_1_1CharPressedListener.html#a8a6a064feb60cce174c9984e57327c53":[6,0,1,0,1,138,1],
+"structMR_1_1CharPressedListener.html#a8a6a064feb60cce174c9984e57327c53":[6,0,2,0,1,121,1],
+"structMR_1_1CharPressedListener.html#a8fee63fd3d2285947ffd40097bcbbaf4":[6,0,1,0,1,138,2],
+"structMR_1_1CharPressedListener.html#a8fee63fd3d2285947ffd40097bcbbaf4":[6,0,2,0,1,121,2],
+"structMR_1_1CharPressedListener.html#acb23223388e965ab4405fb7f18d4fcde":[6,0,1,0,1,138,0],
 "structMR_1_1CharPressedListener.html#acb23223388e965ab4405fb7f18d4fcde":[6,0,2,0,1,121,0],
 "structMR_1_1Chunk.html":[6,0,1,0,1,139],
 "structMR_1_1Chunk.html":[6,0,2,0,1,122],
@@ -243,11 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1CursorEntranceListener.html#abd94cdf4627914e91f8f24f1aef2cb54":[6,0,1,0,1,169,0],
 "structMR_1_1CursorEntranceListener.html#abd94cdf4627914e91f8f24f1aef2cb54":[6,0,2,0,1,152,0],
 "structMR_1_1CursorEntranceListener.html#adab2592cc61c2b1c1c6cf9edd031f71b":[6,0,1,0,1,169,2],
-"structMR_1_1CursorEntranceListener.html#adab2592cc61c2b1c1c6cf9edd031f71b":[6,0,2,0,1,152,2],
-"structMR_1_1CustomButtonParameters.html":[6,0,1,0,1,170],
-"structMR_1_1CustomButtonParameters.html":[6,0,2,0,1,153],
-"structMR_1_1CustomButtonParameters.html#ac4659ddd4f1cc193ad87ef0c017e00eb":[6,0,1,0,1,170,0],
-"structMR_1_1CustomButtonParameters.html#ac4659ddd4f1cc193ad87ef0c017e00eb":[6,0,2,0,1,153,0],
-"structMR_1_1CustomButtonParameters.html#ad01797d49f38c7175a5ca759d5064866":[6,0,1,0,1,170,1],
-"structMR_1_1CustomButtonParameters.html#ad01797d49f38c7175a5ca759d5064866":[6,0,2,0,1,153,1]
+"structMR_1_1CursorEntranceListener.html#adab2592cc61c2b1c1c6cf9edd031f71b":[6,0,2,0,1,152,2]
 };

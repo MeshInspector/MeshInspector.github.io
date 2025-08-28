@@ -1,5 +1,8 @@
 var NAVTREEINDEX18 =
 {
+"MRVisualObjectTag_8h_source.html":[6,0,3,0,0,1,11,153],
+"MRVisualObject_8h.html":[6,0,3,0,0,1,4,408],
+"MRVisualObject_8h.html#a36b2743bd075571aef0402d06dbe8c9d":[6,0,3,0,0,1,4,408,5],
 "MRVisualObject_8h.html#a53d6f8ccb0015ea020228de41cfd2162":[6,0,3,0,0,1,4,408,7],
 "MRVisualObject_8h.html#a69c4cff6b9a1cd95c71fc56b8dd9a983":[6,0,3,0,0,1,4,408,2],
 "MRVisualObject_8h.html#a86e5e23fe8af282d3772b2968223d2bb":[6,0,3,0,0,1,4,408,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX18 =
 "classMR_1_1AABBTreePolyline.html#a82f5feeca891be31840c7bba4a85cb1a":[6,0,0,1,11,2],
 "classMR_1_1AABBTreePolyline.html#aaf1c13f7909dc226ed6e0a332e61ba4c":[6,0,0,1,11,1],
 "classMR_1_1AABBTreePolyline.html#ac9462890b338f7d6d0455c3137f6a48b":[6,0,0,1,11,3],
-"classMR_1_1AddCustomThemePlugin.html":[6,0,1,0,1,53],
-"classMR_1_1AddCustomThemePlugin.html":[6,0,2,0,1,36],
-"classMR_1_1AddCustomThemePlugin.html#a2b80328f1f0ec1ad7ccce34cf2b541d8":[6,0,1,0,1,53,0],
-"classMR_1_1AddCustomThemePlugin.html#a2b80328f1f0ec1ad7ccce34cf2b541d8":[6,0,2,0,1,36,0]
+"classMR_1_1AddCustomThemePlugin.html":[6,0,1,0,1,53]
 };

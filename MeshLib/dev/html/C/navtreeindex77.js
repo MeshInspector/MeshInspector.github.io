@@ -1,5 +1,14 @@
 var NAVTREEINDEX77 =
 {
+"MRSharpenMarchingCubesMesh_8h.html#a31b172f68efca6438544d56eb86d6f40":[6,2,1,0,0,0,1,304,0],
+"MRSharpenMarchingCubesMesh_8h.html#a31e793795ef80083cc00aaf1ef4fa454":[6,2,1,0,0,0,1,304,17],
+"MRSharpenMarchingCubesMesh_8h.html#a3dd6061a43458bffe23d899bf5e96cd3":[6,2,1,0,0,0,1,304,30],
+"MRSharpenMarchingCubesMesh_8h.html#a444f506eb364ebc9bc475def833c7e2b":[6,2,1,0,0,0,1,304,10],
+"MRSharpenMarchingCubesMesh_8h.html#a49a2aba7e0bb39b07e4e6842a73e44ea":[6,2,1,0,0,0,1,304,9],
+"MRSharpenMarchingCubesMesh_8h.html#a534a4787d194bbe8e73d5150972c8a32":[6,2,1,0,0,0,1,304,16],
+"MRSharpenMarchingCubesMesh_8h.html#a564b210fb0ee1cb3ee68e28afd1821a1":[6,2,1,0,0,0,1,304,26],
+"MRSharpenMarchingCubesMesh_8h.html#a587d90e4a3835925acab6105abdbb1d8":[6,2,1,0,0,0,1,304,28],
+"MRSharpenMarchingCubesMesh_8h.html#a5a8d2a73fc05f10760d990cc7e09cc62":[6,2,1,0,0,0,1,304,7],
 "MRSharpenMarchingCubesMesh_8h.html#a5bab6a360b7a3d325fa4b4179c339f83":[6,2,1,0,0,0,1,304,31],
 "MRSharpenMarchingCubesMesh_8h.html#a5bd327ee7391a535f8edfa72383581bd":[6,2,1,0,0,0,1,304,15],
 "MRSharpenMarchingCubesMesh_8h.html#a782fe5d8f28da80e703df06548a4e28b":[6,2,1,0,0,0,1,304,25],
@@ -240,14 +249,5 @@ var NAVTREEINDEX77 =
 "MRString_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900":[6,2,1,0,0,0,1,312,2],
 "MRString_8h.html#ac8335e464659f316b9021b3b115f2d89":[6,2,1,0,0,0,1,312,5],
 "MRString_8h_source.html":[6,2,1,0,0,0,1,312],
-"MRSubfeatures_8h.html":[6,2,1,0,0,0,1,314],
-"MRSubfeatures_8h.html#a01055044fba586776566623d2a752db9":[6,2,1,0,0,0,1,314,7],
-"MRSubfeatures_8h.html#a08564bb17c2e1d44e5c271f0b686f3c2":[6,2,1,0,0,0,1,314,5],
-"MRSubfeatures_8h.html#a0f22b223b5dbea9f37f67afd6811ae3c":[6,2,1,0,0,0,1,314,23],
-"MRSubfeatures_8h.html#a13fa94dc41b14e131eda184bdd244ccd":[6,2,1,0,0,0,1,314,1],
-"MRSubfeatures_8h.html#a169b2cb1c4b9a267fdcd4b388a456d37":[6,2,1,0,0,0,1,314,3],
-"MRSubfeatures_8h.html#a1c12ebb79f8774c4a1e3272892ca4c72":[6,2,1,0,0,0,1,314,11],
-"MRSubfeatures_8h.html#a29aec8ccdd3918902f8232ceda46433e":[6,2,1,0,0,0,1,314,18],
-"MRSubfeatures_8h.html#a3c614eae817e026ba9a7f28245af0e94":[6,2,1,0,0,0,1,314,10],
-"MRSubfeatures_8h.html#a418cf08d19c95aefa1536198c0fafa66":[6,2,1,0,0,0,1,314,19]
+"MRSubfeatures_8h.html":[6,2,1,0,0,0,1,314]
 };

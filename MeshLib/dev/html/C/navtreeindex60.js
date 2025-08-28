@@ -1,5 +1,14 @@
 var NAVTREEINDEX60 =
 {
+"MRObjectMesh_8h.html#accce9c9179cadabc541edda0fc7a2571":[6,2,1,0,0,0,1,217,3],
+"MRObjectMesh_8h.html#acf6a695ce9be1b88ee3a41276b4a1eda":[6,2,1,0,0,0,1,217,39],
+"MRObjectMesh_8h.html#ad751a9e052cde3883380ac87ffc6e399":[6,2,1,0,0,0,1,217,37],
+"MRObjectMesh_8h.html#ad7a05c98c6dd0c356970e7a21eb23a53":[6,2,1,0,0,0,1,217,30],
+"MRObjectMesh_8h.html#ae32a75d7e5e00b79115760acf991c125":[6,2,1,0,0,0,1,217,40],
+"MRObjectMesh_8h.html#ae416dac57ed372be29826e52f5ab5acb":[6,2,1,0,0,0,1,217,42],
+"MRObjectMesh_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc":[6,2,1,0,0,0,1,217,4],
+"MRObjectMesh_8h.html#af6d1efaecd59706fd6d8d39092a28143":[6,2,1,0,0,0,1,217,25],
+"MRObjectMesh_8h.html#afcdcf3734990fd7ae774bee1295b9f62":[6,2,1,0,0,0,1,217,24],
 "MRObjectMesh_8h_source.html":[6,2,1,0,0,0,1,217],
 "MRObjectPointsHolder_8h.html":[6,2,1,0,0,0,1,221],
 "MRObjectPointsHolder_8h.html#a032e87afdcf3958e03ae428538a4b520":[6,2,1,0,0,0,1,221,59],
@@ -240,14 +249,5 @@ var NAVTREEINDEX60 =
 "MRObjectVoxels_8h.html#aef38c2356795f5ec9c47c717985eda63":[6,2,1,0,0,0,4,14,0],
 "MRObjectVoxels_8h.html#af7ea855ac419f239c2499023478617a4":[6,2,1,0,0,0,4,14,17],
 "MRObjectVoxels_8h.html#af8ddf4cef031fe8934582c9f1a54e080":[6,2,1,0,0,0,4,14,79],
-"MRObjectVoxels_8h.html#af9704195e33212789cc81a12edb71cf2":[6,2,1,0,0,0,4,14,73],
-"MRObjectVoxels_8h_source.html":[6,2,1,0,0,0,4,14],
-"MRObject_8h.html":[6,2,1,0,0,0,1,209],
-"MRObject_8h.html#a004001c9669b7a8fe9f18f8c0a030be9":[6,2,1,0,0,0,1,209,179],
-"MRObject_8h.html#a00d6ea647c42bcf0174b08cb4322e73a":[6,2,1,0,0,0,1,209,308],
-"MRObject_8h.html#a01e7c260afa54426440fd3f81b13e76e":[6,2,1,0,0,0,1,209,6],
-"MRObject_8h.html#a04007953f6a8348f3bba64da051c231f":[6,2,1,0,0,0,1,209,118],
-"MRObject_8h.html#a045d6d0ec3a97e4f105a6d74d5e72f64":[6,2,1,0,0,0,1,209,253],
-"MRObject_8h.html#a057cc37aec22a52e17f04b94365eca6f":[6,2,1,0,0,0,1,209,72],
-"MRObject_8h.html#a067ff7688b577830c4b7e10272fccdaa":[6,2,1,0,0,0,1,209,142]
+"MRObjectVoxels_8h.html#af9704195e33212789cc81a12edb71cf2":[6,2,1,0,0,0,4,14,73]
 };

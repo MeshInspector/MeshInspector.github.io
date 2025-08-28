@@ -163,8 +163,8 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:ac587906713a870b8bb50c2b06375a28c" id="r_ac587906713a870b8bb50c2b06375a28c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac587906713a870b8bb50c2b06375a28c">LimitedProjectorFunc</a> = std::function&lt;void( const Vector3f&amp; p, <a class="el" href="structMR_1_1MeshOrPoints_1_1ProjectionResult.html">ProjectionResult</a>&amp; res )&gt;</td></tr>
-<tr class="separator:ac587906713a870b8bb50c2b06375a28c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a57020e6aaf506fbbd6c3ce60c21412" id="r_a0a57020e6aaf506fbbd6c3ce60c21412"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a57020e6aaf506fbbd6c3ce60c21412">LimitedProjectorFunc</a> = std::function&lt;bool( const Vector3f&amp; p, <a class="el" href="structMR_1_1MeshOrPoints_1_1ProjectionResult.html">ProjectionResult</a>&amp; res )&gt;</td></tr>
+<tr class="separator:a0a57020e6aaf506fbbd6c3ce60c21412"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -208,20 +208,20 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0281d9d51c1ee7b1b2dbd57c5e97414c" id="r_a0281d9d51c1ee7b1b2dbd57c5e97414c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::function&lt; <a class="el" href="structMR_1_1MeshOrPoints_1_1ProjectionResult.html">ProjectionResult</a>(const Vector3f &amp;)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0281d9d51c1ee7b1b2dbd57c5e97414c">projector</a> () const</td></tr>
 <tr class="memdesc:a0281d9d51c1ee7b1b2dbd57c5e97414c"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a function that finds projection (closest) points on this: Vector3f-&gt;<a class="el" href="structMR_1_1MeshOrPoints_1_1ProjectionResult.html">ProjectionResult</a>  <br /></td></tr>
 <tr class="separator:a0281d9d51c1ee7b1b2dbd57c5e97414c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adbd1b394a6735a416ceeb13ef4ac86eb" id="r_adbd1b394a6735a416ceeb13ef4ac86eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#ac587906713a870b8bb50c2b06375a28c">LimitedProjectorFunc</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adbd1b394a6735a416ceeb13ef4ac86eb">limitedProjector</a> () const</td></tr>
+<tr class="memitem:adbd1b394a6735a416ceeb13ef4ac86eb" id="r_adbd1b394a6735a416ceeb13ef4ac86eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a0a57020e6aaf506fbbd6c3ce60c21412">LimitedProjectorFunc</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adbd1b394a6735a416ceeb13ef4ac86eb">limitedProjector</a> () const</td></tr>
 <tr class="separator:adbd1b394a6735a416ceeb13ef4ac86eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This class can hold either mesh part or point cloud. It is used for generic algorithms operating with either of them </p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="ac587906713a870b8bb50c2b06375a28c" name="ac587906713a870b8bb50c2b06375a28c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac587906713a870b8bb50c2b06375a28c">&#9670;&#160;</a></span>LimitedProjectorFunc</h2>
+<a id="a0a57020e6aaf506fbbd6c3ce60c21412" name="a0a57020e6aaf506fbbd6c3ce60c21412"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a57020e6aaf506fbbd6c3ce60c21412">&#9670;&#160;</a></span>LimitedProjectorFunc</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#ac587906713a870b8bb50c2b06375a28c">MR::MeshOrPoints::LimitedProjectorFunc</a> = std::function&lt;void( const Vector3f&amp; p, <a class="el" href="structMR_1_1MeshOrPoints_1_1ProjectionResult.html">ProjectionResult</a>&amp; res )&gt;</td>
+          <td class="memname">using <a class="el" href="#a0a57020e6aaf506fbbd6c3ce60c21412">MR::MeshOrPoints::LimitedProjectorFunc</a> = std::function&lt;bool( const Vector3f&amp; p, <a class="el" href="structMR_1_1MeshOrPoints_1_1ProjectionResult.html">ProjectionResult</a>&amp; res )&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -488,7 +488,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#ac587906713a870b8bb50c2b06375a28c">LimitedProjectorFunc</a> MR::MeshOrPoints::limitedProjector </td>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a0a57020e6aaf506fbbd6c3ce60c21412">LimitedProjectorFunc</a> MR::MeshOrPoints::limitedProjector </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -500,7 +500,7 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>returns a function that updates previously known projection (closest) points on this, the update takes place only if newly found closest point is closer to p than sqrt(res.distSq) given on input </p>
+<p>returns a function that updates previously known projection (closest) points on this, the update takes place only if newly found closest point is closer to p than sqrt(res.distSq) given on input The function returns true if the update has taken place. </p>
 
 </div>
 </div>

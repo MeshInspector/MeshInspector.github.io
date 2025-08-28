@@ -1,5 +1,8 @@
 var NAVTREEINDEX24 =
 {
+"classMR_1_1DistanceMeasurementObject.html#a41bf252d3d2bb76c6f777b48395ec2b5":[6,0,1,0,1,200,7],
+"classMR_1_1DistanceMeasurementObject.html#a41bf252d3d2bb76c6f777b48395ec2b5":[6,0,2,0,1,183,7],
+"classMR_1_1DistanceMeasurementObject.html#a4b85850429f2fd60b65f311298b99c47":[6,0,1,0,1,200,6],
 "classMR_1_1DistanceMeasurementObject.html#a4b85850429f2fd60b65f311298b99c47":[6,0,2,0,1,183,6],
 "classMR_1_1DistanceMeasurementObject.html#a5fa3455ad516872987f4c9195c8cb8be":[6,0,1,0,1,200,1],
 "classMR_1_1DistanceMeasurementObject.html#a5fa3455ad516872987f4c9195c8cb8be":[6,0,2,0,1,183,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX24 =
 "classMR_1_1File.html#addeda448870bf1838a2e6d53d2629d36":[6,0,2,0,1,221,3],
 "classMR_1_1File.html#ae5ad252a0ab97ff1ee3a263e11199315":[6,0,1,0,1,238,0],
 "classMR_1_1File.html#ae5ad252a0ab97ff1ee3a263e11199315":[6,0,2,0,1,221,0],
-"classMR_1_1File.html#afa9f220f484070486fb77824fd5ec1e5":[6,0,1,0,1,238,2],
-"classMR_1_1File.html#afa9f220f484070486fb77824fd5ec1e5":[6,0,2,0,1,221,2],
-"classMR_1_1FitDataMenuItem.html":[6,0,1,0,1,253],
-"classMR_1_1FitDataMenuItem.html":[6,0,2,0,1,236]
+"classMR_1_1File.html#afa9f220f484070486fb77824fd5ec1e5":[6,0,1,0,1,238,2]
 };

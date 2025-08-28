@@ -1,5 +1,8 @@
 var NAVTREEINDEX14 =
 {
+"MRSelectScreenLasso_8h.html#a42e8e573c0aec9b5d59ac648be980eff":[6,0,3,0,0,1,11,106,1],
+"MRSelectScreenLasso_8h.html#a5296205b5f80eb5b87c334ab98121aff":[6,0,3,0,0,1,11,106,4],
+"MRSelectScreenLasso_8h.html#a576eea4c4f274e1c943476be2be2394e":[6,0,3,0,0,1,11,106,0],
 "MRSelectScreenLasso_8h.html#a7dbec46cb811f57b258ac04ea3fcf64a":[6,0,3,0,0,1,11,106,2],
 "MRSelectScreenLasso_8h_source.html":[6,0,3,0,0,1,11,106],
 "MRSeparationPoint_8h.html":[6,0,3,0,0,1,4,349],
@@ -246,8 +249,5 @@ var NAVTREEINDEX14 =
 "MRTerrainTriangulation_8h.html#abebe86de5d47fc21de1ad73e06bdbc3d":[6,0,3,0,0,1,4,377,0],
 "MRTerrainTriangulation_8h_source.html":[6,0,3,0,0,1,4,377],
 "MRTestC2_2MRAddNoise_8h.html":[6,0,3,0,0,1,10,0],
-"MRTestC2_2MRAddNoise_8h.html#adfd4599283c4059894ac0ad1f7cdb230":[6,0,3,0,0,1,10,0,0],
-"MRTestC2_2MRAddNoise_8h_source.html":[6,0,3,0,0,1,10,0],
-"MRTestC2_2MRAffineXf_8h.html":[6,0,3,0,0,1,10,1],
-"MRTestC2_2MRAffineXf_8h.html#a614b133f738cb410ec105658ef6e6a3b":[6,0,3,0,0,1,10,1,4]
+"MRTestC2_2MRAddNoise_8h.html#adfd4599283c4059894ac0ad1f7cdb230":[6,0,3,0,0,1,10,0,0]
 };

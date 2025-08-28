@@ -4803,12 +4803,19 @@ Functions</h2></td></tr>
 <tr class="separator:ga9d74c5dbc254d3fdb328a8ac37ba7529"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaadd26fa2561ab2ec3b62b2dea079161c" id="r_gaadd26fa2561ab2ec3b62b2dea079161c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="group__MeshNormalsGroup.html#ga59217bfc441b57736e20fa4c8b136c1f">TriangleCornerNormals</a>, FaceId &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__MeshNormalsGroup.html#gaadd26fa2561ab2ec3b62b2dea079161c">computePerCornerNormals</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const UndirectedEdgeBitSet *creases)</td></tr>
 <tr class="separator:gaadd26fa2561ab2ec3b62b2dea079161c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a93bfc22a3a1dd8301de63173a82454a0" id="r_a93bfc22a3a1dd8301de63173a82454a0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; <a class="el" href="classMR_1_1MeshOrPoints.html">MeshOrPoints</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93bfc22a3a1dd8301de63173a82454a0">getMeshOrPoints</a> (const <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> *obj)</td></tr>
-<tr class="memdesc:a93bfc22a3a1dd8301de63173a82454a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs <a class="el" href="classMR_1_1MeshOrPoints.html">MeshOrPoints</a> from <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> or <a class="el" href="classMR_1_1ObjectPoints.html">ObjectPoints</a>, otherwise returns nullopt  <br /></td></tr>
-<tr class="separator:a93bfc22a3a1dd8301de63173a82454a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33f6251b6b8c5fe220e1516c1e30e299" id="r_a33f6251b6b8c5fe220e1516c1e30e299"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; <a class="el" href="classMR_1_1MeshOrPoints.html">MeshOrPoints</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33f6251b6b8c5fe220e1516c1e30e299">getMeshOrPoints</a> (const <a class="el" href="classMR_1_1Object.html">Object</a> *obj)</td></tr>
+<tr class="memdesc:a33f6251b6b8c5fe220e1516c1e30e299"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs <a class="el" href="classMR_1_1MeshOrPoints.html">MeshOrPoints</a> from <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> or <a class="el" href="classMR_1_1ObjectPoints.html">ObjectPoints</a>, otherwise returns nullopt  <br /></td></tr>
+<tr class="separator:a33f6251b6b8c5fe220e1516c1e30e299"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3d0eb81fb97a59d1246c331bb37416c" id="r_ad3d0eb81fb97a59d1246c331bb37416c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; <a class="el" href="structMR_1_1MeshOrPointsXf.html">MeshOrPointsXf</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad3d0eb81fb97a59d1246c331bb37416c">getMeshOrPointsXf</a> (const <a class="el" href="classMR_1_1Object.html">Object</a> *obj)</td></tr>
+<tr class="separator:ad3d0eb81fb97a59d1246c331bb37416c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a04b00a5eae1214cc2a21d439db0e9c94" id="r_a04b00a5eae1214cc2a21d439db0e9c94"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04b00a5eae1214cc2a21d439db0e9c94">projectOnAll</a> (const Vector3f &amp;pt, const <a class="el" href="classMR_1_1AABBTreeObjects.html">AABBTreeObjects</a> &amp;tree, float upDistLimitSq, const <a class="el" href="#a51c5c9bdf012ab12e360b5e161bb378e">ProjectOnAllCallback</a> &amp;callback, ObjId skipObjId={})</td></tr>
 <tr class="memdesc:a04b00a5eae1214cc2a21d439db0e9c94"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds closest point on every object within given distance  <br /></td></tr>
 <tr class="separator:a04b00a5eae1214cc2a21d439db0e9c94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1cee1396ff421f318ed16ffb3a40bcb3" id="r_a1cee1396ff421f318ed16ffb3a40bcb3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1MeshOrPoints_1_1ProjectionResult.html">MeshOrPoints::ProjectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1cee1396ff421f318ed16ffb3a40bcb3">projectWorldPointOntoObject</a> (const Vector3f &amp;p, const <a class="el" href="classMR_1_1Object.html">Object</a> &amp;obj)</td></tr>
+<tr class="memdesc:a1cee1396ff421f318ed16ffb3a40bcb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Projects a point onto an object, in world space. Returns <code>.valid() == false</code> if this object type isn't projectable onto.  <br /></td></tr>
+<tr class="separator:a1cee1396ff421f318ed16ffb3a40bcb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5420ee2a31ac6b94a7fdd87bd57f93c4" id="r_a5420ee2a31ac6b94a7fdd87bd57f93c4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1MeshOrPoints_1_1ProjectionResult.html">MeshOrPoints::ProjectionResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5420ee2a31ac6b94a7fdd87bd57f93c4">projectWorldPointOntoObjectsRecursive</a> (const Vector3f &amp;p, const <a class="el" href="classMR_1_1Object.html">Object</a> *root=nullptr, std::function&lt; bool(const <a class="el" href="classMR_1_1Object.html">Object</a> &amp;)&gt; projectPred=nullptr, std::function&lt; bool(const <a class="el" href="classMR_1_1Object.html">Object</a> &amp;)&gt; recursePred=nullptr)</td></tr>
+<tr class="separator:a5420ee2a31ac6b94a7fdd87bd57f93c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5a23c27bb3bb838f31c354a2569981f" id="r_ae5a23c27bb3bb838f31c354a2569981f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::vector&lt; FaceBitSet &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5a23c27bb3bb838f31c354a2569981f">findOverhangs</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1FindOverhangsSettings.html">FindOverhangsSettings</a> &amp;settings)</td></tr>
 <tr class="memdesc:ae5a23c27bb3bb838f31c354a2569981f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find face regions that might create overhangs.  <br /></td></tr>
 <tr class="separator:ae5a23c27bb3bb838f31c354a2569981f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -23442,8 +23449,8 @@ template&lt;typename V &gt; </div>
 
 </div>
 </div>
-<a id="a93bfc22a3a1dd8301de63173a82454a0" name="a93bfc22a3a1dd8301de63173a82454a0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a93bfc22a3a1dd8301de63173a82454a0">&#9670;&#160;</a></span>getMeshOrPoints()</h2>
+<a id="a33f6251b6b8c5fe220e1516c1e30e299" name="a33f6251b6b8c5fe220e1516c1e30e299"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33f6251b6b8c5fe220e1516c1e30e299">&#9670;&#160;</a></span>getMeshOrPoints()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -23454,7 +23461,7 @@ template&lt;typename V &gt; </div>
         <tr>
           <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; <a class="el" href="classMR_1_1MeshOrPoints.html">MeshOrPoints</a> &gt; MR::getMeshOrPoints </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> *</td>          <td class="paramname"><span class="paramname"><em>obj</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1Object.html">Object</a> *</td>          <td class="paramname"><span class="paramname"><em>obj</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -23466,6 +23473,31 @@ template&lt;typename V &gt; </div>
 </div><div class="memdoc">
 
 <p>constructs <a class="el" href="classMR_1_1MeshOrPoints.html">MeshOrPoints</a> from <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> or <a class="el" href="classMR_1_1ObjectPoints.html">ObjectPoints</a>, otherwise returns nullopt </p>
+
+</div>
+</div>
+<a id="ad3d0eb81fb97a59d1246c331bb37416c" name="ad3d0eb81fb97a59d1246c331bb37416c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3d0eb81fb97a59d1246c331bb37416c">&#9670;&#160;</a></span>getMeshOrPointsXf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; <a class="el" href="structMR_1_1MeshOrPointsXf.html">MeshOrPointsXf</a> &gt; MR::getMeshOrPointsXf </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1Object.html">Object</a> *</td>          <td class="paramname"><span class="paramname"><em>obj</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -34719,6 +34751,77 @@ template&lt;typename F &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1cee1396ff421f318ed16ffb3a40bcb3" name="a1cee1396ff421f318ed16ffb3a40bcb3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1cee1396ff421f318ed16ffb3a40bcb3">&#9670;&#160;</a></span>projectWorldPointOntoObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1MeshOrPoints_1_1ProjectionResult.html">MeshOrPoints::ProjectionResult</a> MR::projectWorldPointOntoObject </td>
+          <td>(</td>
+          <td class="paramtype">const Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>p</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1Object.html">Object</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>obj</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Projects a point onto an object, in world space. Returns <code>.valid() == false</code> if this object type isn't projectable onto. </p>
+
+</div>
+</div>
+<a id="a5420ee2a31ac6b94a7fdd87bd57f93c4" name="a5420ee2a31ac6b94a7fdd87bd57f93c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5420ee2a31ac6b94a7fdd87bd57f93c4">&#9670;&#160;</a></span>projectWorldPointOntoObjectsRecursive()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1MeshOrPoints_1_1ProjectionResult.html">MeshOrPoints::ProjectionResult</a> MR::projectWorldPointOntoObjectsRecursive </td>
+          <td>(</td>
+          <td class="paramtype">const Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>p</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1Object.html">Object</a> *</td>          <td class="paramname"><span class="paramname"><em>root</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::function&lt; bool(const <a class="el" href="classMR_1_1Object.html">Object</a> &amp;)&gt;</td>          <td class="paramname"><span class="paramname"><em>projectPred</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::function&lt; bool(const <a class="el" href="classMR_1_1Object.html">Object</a> &amp;)&gt;</td>          <td class="paramname"><span class="paramname"><em>recursePred</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Recursively visits the objects and projects the point on each one. Returns the closest projection. If <code>root</code> is null, the scene root is used. Not passing <code><a class="el" href="classMR_1_1SceneRoot.html#a26c9bd358e7e5e76b3f4e08bfc3eea4f">SceneRoot::get()</a></code> directly to avoid including that header. If <code>projectPred</code> is specified and false, will not project onto this object. If <code>recursePred</code> is specified and false, will not visit the children of this object. </p>
 
 </div>
 </div>

@@ -11,7 +11,7 @@ var classmrmeshpy_1_1MeshOrPoints =
     [ "cacheAABBTree", "classmrmeshpy_1_1MeshOrPoints.html#a1cc2765cb15b3e22987797c0a6b19e42", null ],
     [ "computeBoundingBox", "classmrmeshpy_1_1MeshOrPoints.html#a65f79befd8d5a83cf0e32fbe192a28fc", null ],
     [ "getObjBoundingBox", "classmrmeshpy_1_1MeshOrPoints.html#acbf7325b97c7cd9bf3bf44dd7ac5ab59", null ],
-    [ "limitedProjector", "classmrmeshpy_1_1MeshOrPoints.html#afe76d4857d76bf5d01faff3a416e9a67", null ],
+    [ "limitedProjector", "classmrmeshpy_1_1MeshOrPoints.html#a9c7139d440aa8b1b2690c2a1018604f7", null ],
     [ "normals", "classmrmeshpy_1_1MeshOrPoints.html#a6f558985c38686323258a9a170a4475d", null ],
     [ "points", "classmrmeshpy_1_1MeshOrPoints.html#a32fdab3bb62afa29832325596ba3ea00", null ],
     [ "pointsGridSampling", "classmrmeshpy_1_1MeshOrPoints.html#ad0edfc28be50624e66c349250be3241b", null ],
