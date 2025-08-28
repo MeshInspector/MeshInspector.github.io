@@ -1,5 +1,15 @@
 var NAVTREEINDEX76 =
 {
+"structMR_1_1IPointPairs.html#a995abf137ecf1f8e0771844779cc9405":[6,0,1,0,1,318,2],
+"structMR_1_1IPointPairs.html#a995abf137ecf1f8e0771844779cc9405":[6,0,2,0,1,301,2],
+"structMR_1_1IPointPairs.html#ab45a73b14fac3dc080a3e99e4070de26":[6,0,1,0,1,318,5],
+"structMR_1_1IPointPairs.html#ab45a73b14fac3dc080a3e99e4070de26":[6,0,2,0,1,301,5],
+"structMR_1_1IPointPairs.html#ab838ce7cceeb506514a4124c9587f032":[6,0,1,0,1,318,9],
+"structMR_1_1IPointPairs.html#ab838ce7cceeb506514a4124c9587f032":[6,0,2,0,1,301,9],
+"structMR_1_1IPointPairs.html#abb689ad7795aaeb7236800bec89a0cab":[6,0,1,0,1,318,4],
+"structMR_1_1IPointPairs.html#abb689ad7795aaeb7236800bec89a0cab":[6,0,2,0,1,301,4],
+"structMR_1_1IPointPairs.html#adbe70eca8faa13ce9fa22e4f15cb2d5a":[6,0,1,0,1,318,0],
+"structMR_1_1IPointPairs.html#adbe70eca8faa13ce9fa22e4f15cb2d5a":[6,0,2,0,1,301,0],
 "structMR_1_1IPointPairs.html#ae584abe0ef15be5d6f3fc244f176751b":[6,0,1,0,1,318,3],
 "structMR_1_1IPointPairs.html#ae584abe0ef15be5d6f3fc244f176751b":[6,0,2,0,1,301,3],
 "structMR_1_1IPointPairs.html#afcac114c6d43447ea0cae96eb9270de8":[6,0,1,0,1,318,7],
@@ -239,15 +249,5 @@ var NAVTREEINDEX76 =
 "structMR_1_1ImproveSamplingSettings.html#aed21697c5aa69b1ad84771a17fb97ea5":[6,0,2,0,1,289,5],
 "structMR_1_1InSphere.html":[6,0,1,0,1,309],
 "structMR_1_1InSphere.html":[6,0,2,0,1,292],
-"structMR_1_1InSphere.html#a55fffe1bc5347e4a6ea79bc6e3479c1f":[6,0,1,0,1,309,2],
-"structMR_1_1InSphere.html#a55fffe1bc5347e4a6ea79bc6e3479c1f":[6,0,2,0,1,292,2],
-"structMR_1_1InSphere.html#a9305d6a23336a3bf9ef33323fccc83d2":[6,0,1,0,1,309,1],
-"structMR_1_1InSphere.html#a9305d6a23336a3bf9ef33323fccc83d2":[6,0,2,0,1,292,1],
-"structMR_1_1InSphere.html#ad8f2efb34f2d4b1e4b866ad31694dd50":[6,0,1,0,1,309,0],
-"structMR_1_1InSphere.html#ad8f2efb34f2d4b1e4b866ad31694dd50":[6,0,2,0,1,292,0],
-"structMR_1_1InSphereSearchSettings.html":[6,0,1,0,1,310],
-"structMR_1_1InSphereSearchSettings.html":[6,0,2,0,1,293],
-"structMR_1_1InSphereSearchSettings.html#a11df62ec99464c382a22fd4b2be79d72":[6,0,1,0,1,310,0],
-"structMR_1_1InSphereSearchSettings.html#a11df62ec99464c382a22fd4b2be79d72":[6,0,2,0,1,293,0],
-"structMR_1_1InSphereSearchSettings.html#a1de8bbe0d4cdab4fc7b43e8797368154":[6,0,1,0,1,310,1]
+"structMR_1_1InSphere.html#a55fffe1bc5347e4a6ea79bc6e3479c1f":[6,0,1,0,1,309,2]
 };

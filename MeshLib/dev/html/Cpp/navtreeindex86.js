@@ -1,5 +1,15 @@
 var NAVTREEINDEX86 =
 {
+"structMR_1_1QuadraticForm.html#ab0c3bc061463b886469241c7c3b17cd2":[6,0,0,0,20,7],
+"structMR_1_1QuadraticForm.html#abd84de324207ec889e01f594968dd8a1":[6,0,0,0,20,5],
+"structMR_1_1QuadraticForm.html#adea6aa750372ae79cb7d305a5f939f50":[6,0,0,0,20,0],
+"structMR_1_1QuadraticForm.html#ae2db52d249d73990155ac0aee19ecdf7":[6,0,0,0,20,9],
+"structMR_1_1QuadraticForm.html#afacdc7d86d21e277ea2c254a90c29b61":[6,0,0,0,20,6],
+"structMR_1_1Quaternion.html":[6,0,0,0,21],
+"structMR_1_1Quaternion.html#a0267d5aee3f765c24fb3f40ad811f9b4":[6,0,0,0,21,22],
+"structMR_1_1Quaternion.html#a1265e8d1076efd17d1c3b70cb310480e":[6,0,0,0,21,5],
+"structMR_1_1Quaternion.html#a14d0a626cbd31413d550eea26b9e3303":[6,0,0,0,21,30],
+"structMR_1_1Quaternion.html#a2200fc8f1ce0aa43f8fa4b4eb01786e7":[6,0,0,0,21,11],
 "structMR_1_1Quaternion.html#a22a3efafffa70cc53f2d16561d172864":[6,0,0,0,21,1],
 "structMR_1_1Quaternion.html#a238423391f644b566ecdb0f0623998b5":[6,0,0,0,21,10],
 "structMR_1_1Quaternion.html#a24a478c9463275d440061899c3630a32":[6,0,0,0,21,20],
@@ -239,15 +249,5 @@ var NAVTREEINDEX86 =
 "structMR_1_1RibbonMenu_1_1DialogItemPtr.html":[6,0,1,0,1,605,0],
 "structMR_1_1RibbonMenu_1_1DialogItemPtr.html":[6,0,2,0,1,588,0],
 "structMR_1_1RibbonMenu_1_1DialogItemPtr.html#a81cacb5c7aa2d35d0b873c9a48145777":[6,0,1,0,1,605,0,0],
-"structMR_1_1RibbonMenu_1_1DialogItemPtr.html#a81cacb5c7aa2d35d0b873c9a48145777":[6,0,2,0,1,588,0,0],
-"structMR_1_1RibbonMenu_1_1DialogItemPtr.html#aeb25a7d0ddadeeeda6f7ca36d711642b":[6,0,1,0,1,605,0,1],
-"structMR_1_1RibbonMenu_1_1DialogItemPtr.html#aeb25a7d0ddadeeeda6f7ca36d711642b":[6,0,2,0,1,588,0,1],
-"structMR_1_1RibbonMenu_1_1DrawGroupConfig.html":[6,0,1,0,1,605,1],
-"structMR_1_1RibbonMenu_1_1DrawGroupConfig.html":[6,0,2,0,1,588,1],
-"structMR_1_1RibbonMenu_1_1DrawGroupConfig.html#a0b1bb44ee2f0cfdbab7b516b3ce2a6f8":[6,0,1,0,1,605,1,1],
-"structMR_1_1RibbonMenu_1_1DrawGroupConfig.html#a0b1bb44ee2f0cfdbab7b516b3ce2a6f8":[6,0,2,0,1,588,1,1],
-"structMR_1_1RibbonMenu_1_1DrawGroupConfig.html#a2c5115679d5b077be3479e377e7951b1":[6,0,1,0,1,605,1,2],
-"structMR_1_1RibbonMenu_1_1DrawGroupConfig.html#a2c5115679d5b077be3479e377e7951b1":[6,0,2,0,1,588,1,2],
-"structMR_1_1RibbonMenu_1_1DrawGroupConfig.html#acb4f5276bb05eca21c715df15a42b6e5":[6,0,1,0,1,605,1,0],
-"structMR_1_1RibbonMenu_1_1DrawGroupConfig.html#acb4f5276bb05eca21c715df15a42b6e5":[6,0,2,0,1,588,1,0]
+"structMR_1_1RibbonMenu_1_1DialogItemPtr.html#a81cacb5c7aa2d35d0b873c9a48145777":[6,0,2,0,1,588,0,0]
 };

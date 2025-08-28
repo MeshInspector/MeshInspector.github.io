@@ -7,6 +7,7 @@ var namespaceMR_1_1UI =
     [ "CachedTextSize", "structMR_1_1UI_1_1CachedTextSize.html", "structMR_1_1UI_1_1CachedTextSize" ],
     [ "CheckboxOrModifierState", "structMR_1_1UI_1_1CheckboxOrModifierState.html", "structMR_1_1UI_1_1CheckboxOrModifierState" ],
     [ "LabelRectAllocator", "classMR_1_1UI_1_1LabelRectAllocator.html", "classMR_1_1UI_1_1LabelRectAllocator" ],
+    [ "LineAntialiasingDisabler", "classMR_1_1UI_1_1LineAntialiasingDisabler.html", "classMR_1_1UI_1_1LineAntialiasingDisabler" ],
     [ "NonOverlappingLabelTask", "classMR_1_1UI_1_1NonOverlappingLabelTask.html", "classMR_1_1UI_1_1NonOverlappingLabelTask" ],
     [ "PlotAxis", "structMR_1_1UI_1_1PlotAxis.html", "structMR_1_1UI_1_1PlotAxis" ],
     [ "RadioButtonOrModifierState", "structMR_1_1UI_1_1RadioButtonOrModifierState.html", "structMR_1_1UI_1_1RadioButtonOrModifierState" ],

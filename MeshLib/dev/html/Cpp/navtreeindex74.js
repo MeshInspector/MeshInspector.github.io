@@ -1,5 +1,15 @@
 var NAVTREEINDEX74 =
 {
+"structMR_1_1Features_1_1Primitives_1_1Plane.html#aaef9e3698f1254ac0f28afb12046695d":[6,0,1,0,1,6,0,1,4],
+"structMR_1_1Features_1_1Primitives_1_1Plane.html#aaef9e3698f1254ac0f28afb12046695d":[6,0,2,0,1,2,0,1,4],
+"structMR_1_1Features_1_1SubfeatureInfo.html":[6,0,1,0,1,6,3],
+"structMR_1_1Features_1_1SubfeatureInfo.html":[6,0,2,0,1,2,3],
+"structMR_1_1Features_1_1SubfeatureInfo.html#a257610a5ab6c4efc5a75b08c06e5402a":[6,0,1,0,1,6,3,0],
+"structMR_1_1Features_1_1SubfeatureInfo.html#a257610a5ab6c4efc5a75b08c06e5402a":[6,0,2,0,1,2,3,0],
+"structMR_1_1Features_1_1SubfeatureInfo.html#a541784a82382634e352793d6981d3214":[6,0,1,0,1,6,3,2],
+"structMR_1_1Features_1_1SubfeatureInfo.html#a541784a82382634e352793d6981d3214":[6,0,2,0,1,2,3,2],
+"structMR_1_1Features_1_1SubfeatureInfo.html#ae56a2191502d5ecf2fee0d83939a5013":[6,0,1,0,1,6,3,1],
+"structMR_1_1Features_1_1SubfeatureInfo.html#ae56a2191502d5ecf2fee0d83939a5013":[6,0,2,0,1,2,3,1],
 "structMR_1_1Features_1_1Traits_1_1Binary.html":[6,0,1,0,1,6,1,0],
 "structMR_1_1Features_1_1Traits_1_1Binary.html":[6,0,2,0,1,2,1,0],
 "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1ConeSegment_00_01Primitives_1_1ConeSegment_01_4.html":[6,0,1,0,1,6,1,1],
@@ -239,15 +249,5 @@ var NAVTREEINDEX74 =
 "structMR_1_1FixUndercuts_1_1FindParams.html#ae2c7f6104befccb90b1d399429ba991a":[6,0,2,0,1,4,1,0],
 "structMR_1_1FixUndercuts_1_1FixParams.html":[6,0,1,0,1,8,2],
 "structMR_1_1FixUndercuts_1_1FixParams.html":[6,0,2,0,1,4,2],
-"structMR_1_1FixUndercuts_1_1FixParams.html#a0b82b3ed40ea6b099489b664630a2e27":[6,0,1,0,1,8,2,0],
-"structMR_1_1FixUndercuts_1_1FixParams.html#a0b82b3ed40ea6b099489b664630a2e27":[6,0,2,0,1,4,2,0],
-"structMR_1_1FixUndercuts_1_1FixParams.html#a563ee145e303eb2d0a3cd31b71ca7344":[6,0,1,0,1,8,2,1],
-"structMR_1_1FixUndercuts_1_1FixParams.html#a563ee145e303eb2d0a3cd31b71ca7344":[6,0,2,0,1,4,2,1],
-"structMR_1_1FixUndercuts_1_1FixParams.html#a6d4290fa46807217ffa96e93f832b506":[6,0,1,0,1,8,2,5],
-"structMR_1_1FixUndercuts_1_1FixParams.html#a6d4290fa46807217ffa96e93f832b506":[6,0,2,0,1,4,2,5],
-"structMR_1_1FixUndercuts_1_1FixParams.html#a86fb3b02eb0f9d3df9cdeb8e1b66ca22":[6,0,1,0,1,8,2,4],
-"structMR_1_1FixUndercuts_1_1FixParams.html#a86fb3b02eb0f9d3df9cdeb8e1b66ca22":[6,0,2,0,1,4,2,4],
-"structMR_1_1FixUndercuts_1_1FixParams.html#afe6f6f22b57da33fbbf890e866b20af0":[6,0,1,0,1,8,2,2],
-"structMR_1_1FixUndercuts_1_1FixParams.html#afe6f6f22b57da33fbbf890e866b20af0":[6,0,2,0,1,4,2,2],
-"structMR_1_1FixUndercuts_1_1FixParams.html#aff2c0877c0a9eac16128d033db2d2860":[6,0,1,0,1,8,2,3]
+"structMR_1_1FixUndercuts_1_1FixParams.html#a0b82b3ed40ea6b099489b664630a2e27":[6,0,1,0,1,8,2,0]
 };

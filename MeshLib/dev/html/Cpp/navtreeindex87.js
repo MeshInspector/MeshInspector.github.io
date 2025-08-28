@@ -1,5 +1,15 @@
 var NAVTREEINDEX87 =
 {
+"structMR_1_1RibbonMenu_1_1DialogItemPtr.html#aeb25a7d0ddadeeeda6f7ca36d711642b":[6,0,1,0,1,605,0,1],
+"structMR_1_1RibbonMenu_1_1DialogItemPtr.html#aeb25a7d0ddadeeeda6f7ca36d711642b":[6,0,2,0,1,588,0,1],
+"structMR_1_1RibbonMenu_1_1DrawGroupConfig.html":[6,0,1,0,1,605,1],
+"structMR_1_1RibbonMenu_1_1DrawGroupConfig.html":[6,0,2,0,1,588,1],
+"structMR_1_1RibbonMenu_1_1DrawGroupConfig.html#a0b1bb44ee2f0cfdbab7b516b3ce2a6f8":[6,0,1,0,1,605,1,1],
+"structMR_1_1RibbonMenu_1_1DrawGroupConfig.html#a0b1bb44ee2f0cfdbab7b516b3ce2a6f8":[6,0,2,0,1,588,1,1],
+"structMR_1_1RibbonMenu_1_1DrawGroupConfig.html#a2c5115679d5b077be3479e377e7951b1":[6,0,1,0,1,605,1,2],
+"structMR_1_1RibbonMenu_1_1DrawGroupConfig.html#a2c5115679d5b077be3479e377e7951b1":[6,0,2,0,1,588,1,2],
+"structMR_1_1RibbonMenu_1_1DrawGroupConfig.html#acb4f5276bb05eca21c715df15a42b6e5":[6,0,1,0,1,605,1,0],
+"structMR_1_1RibbonMenu_1_1DrawGroupConfig.html#acb4f5276bb05eca21c715df15a42b6e5":[6,0,2,0,1,588,1,0],
 "structMR_1_1RibbonNotification.html":[6,0,1,0,1,612],
 "structMR_1_1RibbonNotification.html":[6,0,2,0,1,595],
 "structMR_1_1RibbonNotification.html#a156a1963010372c4c838def5344897ab":[6,0,1,0,1,612,2],
@@ -239,15 +249,5 @@ var NAVTREEINDEX87 =
 "structMR_1_1SelfIntersections_1_1Settings.html#ae5606c4ebbd1f6f3acf27a76862219b0":[6,0,1,0,1,37,0,6],
 "structMR_1_1SelfIntersections_1_1Settings.html#ae5606c4ebbd1f6f3acf27a76862219b0":[6,0,2,0,1,22,0,6],
 "structMR_1_1SelfIntersections_1_1Settings.html#aface1dd6cc60f50dd76186b73d130994":[6,0,1,0,1,37,0,3],
-"structMR_1_1SelfIntersections_1_1Settings.html#aface1dd6cc60f50dd76186b73d130994":[6,0,2,0,1,22,0,3],
-"structMR_1_1SeparationPointStorage_1_1Block.html":[6,0,1,0,1,663,0],
-"structMR_1_1SeparationPointStorage_1_1Block.html":[6,0,2,0,1,646,0],
-"structMR_1_1SeparationPointStorage_1_1Block.html#a171fe956486e01cdfdddedaedd905ca4":[6,0,1,0,1,663,0,4],
-"structMR_1_1SeparationPointStorage_1_1Block.html#a171fe956486e01cdfdddedaedd905ca4":[6,0,2,0,1,646,0,4],
-"structMR_1_1SeparationPointStorage_1_1Block.html#a2ef8d933c08326819afd1d2681a5446c":[6,0,1,0,1,663,0,0],
-"structMR_1_1SeparationPointStorage_1_1Block.html#a2ef8d933c08326819afd1d2681a5446c":[6,0,2,0,1,646,0,0],
-"structMR_1_1SeparationPointStorage_1_1Block.html#a3bb9eb5b60d6dcb38389506da2cb6a0e":[6,0,1,0,1,663,0,2],
-"structMR_1_1SeparationPointStorage_1_1Block.html#a3bb9eb5b60d6dcb38389506da2cb6a0e":[6,0,2,0,1,646,0,2],
-"structMR_1_1SeparationPointStorage_1_1Block.html#a58df13a2b6e26ec0a73b3883451f7c27":[6,0,1,0,1,663,0,1],
-"structMR_1_1SeparationPointStorage_1_1Block.html#a58df13a2b6e26ec0a73b3883451f7c27":[6,0,2,0,1,646,0,1]
+"structMR_1_1SelfIntersections_1_1Settings.html#aface1dd6cc60f50dd76186b73d130994":[6,0,2,0,1,22,0,3]
 };

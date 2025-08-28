@@ -718,6 +718,7 @@ var hierarchy =
     [ "MR::Line< V >", "structMR_1_1Line.html", null ],
     [ "MR::Line3Mesh< T >", "structMR_1_1Line3Mesh.html", null ],
     [ "MR::Line< T >", "structMR_1_1Line.html", null ],
+    [ "MR::UI::LineAntialiasingDisabler", "classMR_1_1UI_1_1LineAntialiasingDisabler.html", null ],
     [ "MR::ImGuiMeasurementIndicators::LineCap", "structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html", null ],
     [ "MR::LineInterpolationParams", "structMR_1_1LineInterpolationParams.html", null ],
     [ "MR::ImGuiMeasurementIndicators::LineParams", "structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html", null ],

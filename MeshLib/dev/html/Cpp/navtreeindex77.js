@@ -1,5 +1,15 @@
 var NAVTREEINDEX77 =
 {
+"structMR_1_1InSphere.html#a55fffe1bc5347e4a6ea79bc6e3479c1f":[6,0,2,0,1,292,2],
+"structMR_1_1InSphere.html#a9305d6a23336a3bf9ef33323fccc83d2":[6,0,1,0,1,309,1],
+"structMR_1_1InSphere.html#a9305d6a23336a3bf9ef33323fccc83d2":[6,0,2,0,1,292,1],
+"structMR_1_1InSphere.html#ad8f2efb34f2d4b1e4b866ad31694dd50":[6,0,1,0,1,309,0],
+"structMR_1_1InSphere.html#ad8f2efb34f2d4b1e4b866ad31694dd50":[6,0,2,0,1,292,0],
+"structMR_1_1InSphereSearchSettings.html":[6,0,1,0,1,310],
+"structMR_1_1InSphereSearchSettings.html":[6,0,2,0,1,293],
+"structMR_1_1InSphereSearchSettings.html#a11df62ec99464c382a22fd4b2be79d72":[6,0,1,0,1,310,0],
+"structMR_1_1InSphereSearchSettings.html#a11df62ec99464c382a22fd4b2be79d72":[6,0,2,0,1,293,0],
+"structMR_1_1InSphereSearchSettings.html#a1de8bbe0d4cdab4fc7b43e8797368154":[6,0,1,0,1,310,1],
 "structMR_1_1InSphereSearchSettings.html#a1de8bbe0d4cdab4fc7b43e8797368154":[6,0,2,0,1,293,1],
 "structMR_1_1InSphereSearchSettings.html#a4cada7cafcfc301fc90315554648f1cd":[6,0,1,0,1,310,4],
 "structMR_1_1InSphereSearchSettings.html#a4cada7cafcfc301fc90315554648f1cd":[6,0,2,0,1,293,4],
@@ -239,15 +249,5 @@ var NAVTREEINDEX77 =
 "structMR_1_1MakeDegenerateBandAroundRegionParams.html#a9a43bd53420bdfcd8981d9dc16830775":[6,0,2,0,1,335,2],
 "structMR_1_1MakeDegenerateBandAroundRegionParams.html#afc2056d17547f3244b2627054ffe02bf":[6,0,1,0,1,352,0],
 "structMR_1_1MakeDegenerateBandAroundRegionParams.html#afc2056d17547f3244b2627054ffe02bf":[6,0,2,0,1,335,0],
-"structMR_1_1MakeSignedByWindingNumberSettings.html":[6,0,1,0,1,353],
-"structMR_1_1MakeSignedByWindingNumberSettings.html":[6,0,2,0,1,336],
-"structMR_1_1MakeSignedByWindingNumberSettings.html#a3a33c885904d5b4053c358046cb72e88":[6,0,1,0,1,353,2],
-"structMR_1_1MakeSignedByWindingNumberSettings.html#a3a33c885904d5b4053c358046cb72e88":[6,0,2,0,1,336,2],
-"structMR_1_1MakeSignedByWindingNumberSettings.html#a76fda89f388f379a843c11dfccabb73f":[6,0,1,0,1,353,4],
-"structMR_1_1MakeSignedByWindingNumberSettings.html#a76fda89f388f379a843c11dfccabb73f":[6,0,2,0,1,336,4],
-"structMR_1_1MakeSignedByWindingNumberSettings.html#a94b1baa91b7a7f5cc08e84e5505680c2":[6,0,1,0,1,353,0],
-"structMR_1_1MakeSignedByWindingNumberSettings.html#a94b1baa91b7a7f5cc08e84e5505680c2":[6,0,2,0,1,336,0],
-"structMR_1_1MakeSignedByWindingNumberSettings.html#a9b227c497a7784f70a4f48631fe8a1f4":[6,0,1,0,1,353,3],
-"structMR_1_1MakeSignedByWindingNumberSettings.html#a9b227c497a7784f70a4f48631fe8a1f4":[6,0,2,0,1,336,3],
-"structMR_1_1MakeSignedByWindingNumberSettings.html#ab01c8a645415c29410190fe405773c8a":[6,0,1,0,1,353,1]
+"structMR_1_1MakeSignedByWindingNumberSettings.html":[6,0,1,0,1,353]
 };

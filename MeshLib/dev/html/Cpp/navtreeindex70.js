@@ -1,5 +1,15 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1Box.html#ad7f75d672fee1cd837085bd09be3c66e":[6,0,0,0,2,0,10],
+"structMR_1_1Box.html#ada11cc33b5ba6f38f12211e1ae500598":[6,0,0,0,2,0,11],
+"structMR_1_1Box.html#adcbce4d705b1bf09dd04c5023fe58ec3":[6,0,0,0,2,0,22],
+"structMR_1_1Box.html#add72022e19ae28da8dec0a61eae00e35":[6,0,0,0,2,0,8],
+"structMR_1_1Box.html#ae8181cac57d5ff92d32bfa86bdc5caf3":[6,0,0,0,2,0,30],
+"structMR_1_1Box.html#af6d43e68039fbfc977b3d70beb1f30c8":[6,0,0,0,2,0,6],
+"structMR_1_1Box.html#af6d43e68039fbfc977b3d70beb1f30c8":[6,0,0,0,2,0,7],
+"structMR_1_1Box.html#af93a3ccd5c9d9d678844e2578807089f":[6,0,0,0,2,0,26],
+"structMR_1_1BoxedLeaf.html":[6,0,0,1,2],
+"structMR_1_1BoxedLeaf.html#a0b4e56c5de1bf6b3fd5a6a6896e66d46":[6,0,0,1,2,0],
 "structMR_1_1BoxedLeaf.html#a20f98852bf25f7268e73b993bd26a8d7":[6,0,0,1,2,1],
 "structMR_1_1BoxedLeaf.html#a7e9f371791aa795b1f0c9525f37e40e5":[6,0,0,1,2,2],
 "structMR_1_1BoxedLeaf.html#a94f8ddab16da6ccb873e9ef25f7b116d":[6,0,0,1,2,3],
@@ -239,15 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1CubicBezierCurve.html":[6,0,1,0,1,167],
 "structMR_1_1CubicBezierCurve.html":[6,0,2,0,1,150],
 "structMR_1_1CubicBezierCurve.html#a253c4a44671e701720f11bb8c0078f06":[6,0,1,0,1,167,3],
-"structMR_1_1CubicBezierCurve.html#a253c4a44671e701720f11bb8c0078f06":[6,0,2,0,1,150,3],
-"structMR_1_1CubicBezierCurve.html#a6b83dc1d69f50bd387ec3bf5392c92c2":[6,0,1,0,1,167,0],
-"structMR_1_1CubicBezierCurve.html#a6b83dc1d69f50bd387ec3bf5392c92c2":[6,0,2,0,1,150,0],
-"structMR_1_1CubicBezierCurve.html#a808273a91fc951f1b82faa9424e6451e":[6,0,1,0,1,167,2],
-"structMR_1_1CubicBezierCurve.html#a808273a91fc951f1b82faa9424e6451e":[6,0,2,0,1,150,2],
-"structMR_1_1CubicBezierCurve.html#a9a0577357dd243e6ec6075e03d6dcf8b":[6,0,1,0,1,167,1],
-"structMR_1_1CubicBezierCurve.html#a9a0577357dd243e6ec6075e03d6dcf8b":[6,0,2,0,1,150,1],
-"structMR_1_1CursorEntranceListener.html":[6,0,1,0,1,169],
-"structMR_1_1CursorEntranceListener.html":[6,0,2,0,1,152],
-"structMR_1_1CursorEntranceListener.html#a2d5c27d95f9984ab5220e7c158d41841":[6,0,1,0,1,169,1],
-"structMR_1_1CursorEntranceListener.html#a2d5c27d95f9984ab5220e7c158d41841":[6,0,2,0,1,152,1]
+"structMR_1_1CubicBezierCurve.html#a253c4a44671e701720f11bb8c0078f06":[6,0,2,0,1,150,3]
 };

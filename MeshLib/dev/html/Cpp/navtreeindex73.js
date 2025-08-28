@@ -1,5 +1,15 @@
 var NAVTREEINDEX73 =
 {
+"structMR_1_1EdgeSegment.html#ac984995bf16ae26205209c4da35c2f63":[6,0,2,0,1,203,9],
+"structMR_1_1EdgeSegment.html#adbe97beb7bc790ab2d46f0863a5bbacf":[6,0,1,0,1,220,0],
+"structMR_1_1EdgeSegment.html#adbe97beb7bc790ab2d46f0863a5bbacf":[6,0,2,0,1,203,0],
+"structMR_1_1EdgeSegment.html#aea79b437b030390db5737ed448df376c":[6,0,1,0,1,220,3],
+"structMR_1_1EdgeSegment.html#aea79b437b030390db5737ed448df376c":[6,0,2,0,1,203,3],
+"structMR_1_1EdgeTri.html":[6,0,0,1,17],
+"structMR_1_1EdgeTri.html#a45de5d714a586bda433f476169bb81ef":[6,0,0,1,17,1],
+"structMR_1_1EdgeTri.html#a75d3cbfc185bb135fa0ecacfa0eea64e":[6,0,0,1,17,2],
+"structMR_1_1EdgeTri.html#abc6f03d4ca7344789c80a99a10605739":[6,0,0,1,17,0],
+"structMR_1_1EdgeTri.html#ad73baa8260912b59b30536da0cb50318":[6,0,0,1,17,3],
 "structMR_1_1EmbeddedPython_1_1Config.html":[6,0,1,0,1,222,0],
 "structMR_1_1EmbeddedPython_1_1Config.html":[6,0,2,0,1,205,0],
 "structMR_1_1EmbeddedPython_1_1Config.html#a172af80d129ecab54d4c310e812523a5":[6,0,1,0,1,222,0,1],
@@ -239,15 +249,5 @@ var NAVTREEINDEX73 =
 "structMR_1_1Features_1_1Primitives_1_1Plane.html#a7e5d4af61b0fcde8d7631027f240b57a":[6,0,1,0,1,6,0,1,1],
 "structMR_1_1Features_1_1Primitives_1_1Plane.html#a7e5d4af61b0fcde8d7631027f240b57a":[6,0,2,0,1,2,0,1,1],
 "structMR_1_1Features_1_1Primitives_1_1Plane.html#a8ad7586da649f116dbeefd965f5ff897":[6,0,1,0,1,6,0,1,2],
-"structMR_1_1Features_1_1Primitives_1_1Plane.html#a8ad7586da649f116dbeefd965f5ff897":[6,0,2,0,1,2,0,1,2],
-"structMR_1_1Features_1_1Primitives_1_1Plane.html#aaef9e3698f1254ac0f28afb12046695d":[6,0,1,0,1,6,0,1,4],
-"structMR_1_1Features_1_1Primitives_1_1Plane.html#aaef9e3698f1254ac0f28afb12046695d":[6,0,2,0,1,2,0,1,4],
-"structMR_1_1Features_1_1SubfeatureInfo.html":[6,0,1,0,1,6,3],
-"structMR_1_1Features_1_1SubfeatureInfo.html":[6,0,2,0,1,2,3],
-"structMR_1_1Features_1_1SubfeatureInfo.html#a257610a5ab6c4efc5a75b08c06e5402a":[6,0,1,0,1,6,3,0],
-"structMR_1_1Features_1_1SubfeatureInfo.html#a257610a5ab6c4efc5a75b08c06e5402a":[6,0,2,0,1,2,3,0],
-"structMR_1_1Features_1_1SubfeatureInfo.html#a541784a82382634e352793d6981d3214":[6,0,1,0,1,6,3,2],
-"structMR_1_1Features_1_1SubfeatureInfo.html#a541784a82382634e352793d6981d3214":[6,0,2,0,1,2,3,2],
-"structMR_1_1Features_1_1SubfeatureInfo.html#ae56a2191502d5ecf2fee0d83939a5013":[6,0,1,0,1,6,3,1],
-"structMR_1_1Features_1_1SubfeatureInfo.html#ae56a2191502d5ecf2fee0d83939a5013":[6,0,2,0,1,2,3,1]
+"structMR_1_1Features_1_1Primitives_1_1Plane.html#a8ad7586da649f116dbeefd965f5ff897":[6,0,2,0,1,2,0,1,2]
 };

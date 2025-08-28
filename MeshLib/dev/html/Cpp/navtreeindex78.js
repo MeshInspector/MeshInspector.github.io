@@ -1,5 +1,15 @@
 var NAVTREEINDEX78 =
 {
+"structMR_1_1MakeSignedByWindingNumberSettings.html":[6,0,2,0,1,336],
+"structMR_1_1MakeSignedByWindingNumberSettings.html#a3a33c885904d5b4053c358046cb72e88":[6,0,1,0,1,353,2],
+"structMR_1_1MakeSignedByWindingNumberSettings.html#a3a33c885904d5b4053c358046cb72e88":[6,0,2,0,1,336,2],
+"structMR_1_1MakeSignedByWindingNumberSettings.html#a76fda89f388f379a843c11dfccabb73f":[6,0,1,0,1,353,4],
+"structMR_1_1MakeSignedByWindingNumberSettings.html#a76fda89f388f379a843c11dfccabb73f":[6,0,2,0,1,336,4],
+"structMR_1_1MakeSignedByWindingNumberSettings.html#a94b1baa91b7a7f5cc08e84e5505680c2":[6,0,1,0,1,353,0],
+"structMR_1_1MakeSignedByWindingNumberSettings.html#a94b1baa91b7a7f5cc08e84e5505680c2":[6,0,2,0,1,336,0],
+"structMR_1_1MakeSignedByWindingNumberSettings.html#a9b227c497a7784f70a4f48631fe8a1f4":[6,0,1,0,1,353,3],
+"structMR_1_1MakeSignedByWindingNumberSettings.html#a9b227c497a7784f70a4f48631fe8a1f4":[6,0,2,0,1,336,3],
+"structMR_1_1MakeSignedByWindingNumberSettings.html#ab01c8a645415c29410190fe405773c8a":[6,0,1,0,1,353,1],
 "structMR_1_1MakeSignedByWindingNumberSettings.html#ab01c8a645415c29410190fe405773c8a":[6,0,2,0,1,336,1],
 "structMR_1_1MapOrHashMap.html":[6,0,1,0,1,354],
 "structMR_1_1MapOrHashMap.html":[6,0,2,0,1,337],
@@ -239,15 +249,5 @@ var NAVTREEINDEX78 =
 "structMR_1_1MenuItemInfo.html":[6,0,2,0,1,350],
 "structMR_1_1MenuItemInfo.html#a1a97de0241883ed6ff2ee906e70519b4":[6,0,1,0,1,367,0],
 "structMR_1_1MenuItemInfo.html#a1a97de0241883ed6ff2ee906e70519b4":[6,0,2,0,1,350,0],
-"structMR_1_1MenuItemInfo.html#a4a18cee73e324a82d8e83c0849ee1c16":[6,0,1,0,1,367,2],
-"structMR_1_1MenuItemInfo.html#a4a18cee73e324a82d8e83c0849ee1c16":[6,0,2,0,1,350,2],
-"structMR_1_1MenuItemInfo.html#a7ae92cc9abaa72fdd49fb11994a79ecb":[6,0,1,0,1,367,3],
-"structMR_1_1MenuItemInfo.html#a7ae92cc9abaa72fdd49fb11994a79ecb":[6,0,2,0,1,350,3],
-"structMR_1_1MenuItemInfo.html#a926a6449190c31f77c5b88b8c236958e":[6,0,1,0,1,367,4],
-"structMR_1_1MenuItemInfo.html#a926a6449190c31f77c5b88b8c236958e":[6,0,2,0,1,350,4],
-"structMR_1_1MenuItemInfo.html#a9a40f27aa0f9195b23043223e671187f":[6,0,1,0,1,367,5],
-"structMR_1_1MenuItemInfo.html#a9a40f27aa0f9195b23043223e671187f":[6,0,2,0,1,350,5],
-"structMR_1_1MenuItemInfo.html#ae677c83b3387bfadf5f8bdd53f77ab9f":[6,0,1,0,1,367,1],
-"structMR_1_1MenuItemInfo.html#ae677c83b3387bfadf5f8bdd53f77ab9f":[6,0,2,0,1,350,1],
-"structMR_1_1MergeVolumePartSettings.html":[6,0,0,17,4]
+"structMR_1_1MenuItemInfo.html#a4a18cee73e324a82d8e83c0849ee1c16":[6,0,1,0,1,367,2]
 };

@@ -1,5 +1,15 @@
 var NAVTREEINDEX82 =
 {
+"structMR_1_1NameTagClickListener.html":[6,0,2,0,1,411],
+"structMR_1_1NameTagClickListener.html#a241455464a68ef410af14f445c6dad6b":[6,0,1,0,1,428,3],
+"structMR_1_1NameTagClickListener.html#a241455464a68ef410af14f445c6dad6b":[6,0,2,0,1,411,3],
+"structMR_1_1NameTagClickListener.html#a4a8c57e5f08a369097b9f8d66a0cb097":[6,0,1,0,1,428,0],
+"structMR_1_1NameTagClickListener.html#a4a8c57e5f08a369097b9f8d66a0cb097":[6,0,2,0,1,411,0],
+"structMR_1_1NameTagClickListener.html#a4c87ad9f9d5bde9a4037d25bdc190cba":[6,0,1,0,1,428,1],
+"structMR_1_1NameTagClickListener.html#a4c87ad9f9d5bde9a4037d25bdc190cba":[6,0,2,0,1,411,1],
+"structMR_1_1NameTagClickListener.html#aa3cab6f28416e27d7628154e93009e31":[6,0,1,0,1,428,2],
+"structMR_1_1NameTagClickListener.html#aa3cab6f28416e27d7628154e93009e31":[6,0,2,0,1,411,2],
+"structMR_1_1NewEdgesMap.html":[6,0,0,8,2],
 "structMR_1_1NewEdgesMap.html#a1d44ed6247b64a9007baa4bbbf2903aa":[6,0,0,8,2,0],
 "structMR_1_1NewEdgesMap.html#a3af4a8bfbe6579dc273d0b9f368f77aa":[6,0,0,8,2,1],
 "structMR_1_1NoCtor.html":[6,0,1,0,1,432],
@@ -239,15 +249,5 @@ var NAVTREEINDEX82 =
 "structMR_1_1OneMeshContour.html#ae2a61041d982700ef3d887aedc03a320":[6,0,1,0,1,477,0],
 "structMR_1_1OneMeshContour.html#ae2a61041d982700ef3d887aedc03a320":[6,0,2,0,1,460,0],
 "structMR_1_1OneMeshIntersection.html":[6,0,1,0,1,478],
-"structMR_1_1OneMeshIntersection.html":[6,0,2,0,1,461],
-"structMR_1_1OneMeshIntersection.html#ab42f0bd750d88e66c17bce92a1fe733d":[6,0,1,0,1,478,1],
-"structMR_1_1OneMeshIntersection.html#ab42f0bd750d88e66c17bce92a1fe733d":[6,0,2,0,1,461,1],
-"structMR_1_1OneMeshIntersection.html#ab8b3439c1559deb1b278b9d5c8c2c14d":[6,0,1,0,1,478,0],
-"structMR_1_1OneMeshIntersection.html#ab8b3439c1559deb1b278b9d5c8c2c14d":[6,0,2,0,1,461,0],
-"structMR_1_1OpenVdbFloatGrid.html":[6,0,0,18,5],
-"structMR_1_1OpenVdbFloatGrid.html#a0773dceddd3bc098112050126cf99f3c":[6,0,0,18,5,1],
-"structMR_1_1OpenVdbFloatGrid.html#a15a4c9bbd3ab390705854e71ea808687":[6,0,0,18,5,0],
-"structMR_1_1OpenVdbFloatGrid.html#adb689224a478708a8f7813b0f13ba5a8":[6,0,0,18,5,2],
-"structMR_1_1OriginAndDimensions.html":[6,0,1,0,1,484],
-"structMR_1_1OriginAndDimensions.html":[6,0,2,0,1,467]
+"structMR_1_1OneMeshIntersection.html":[6,0,2,0,1,461]
 };
