@@ -3,6 +3,7 @@ var ImGuiMenu_8h =
     [ "MR::ImGuiMenu", "classMR_1_1ImGuiMenu.html", "classMR_1_1ImGuiMenu" ],
     [ "MR::ImGuiMenu::LabelParams", "structMR_1_1ImGuiMenu_1_1LabelParams.html", "structMR_1_1ImGuiMenu_1_1LabelParams" ],
     [ "MR::ImGuiMenu::PluginsCache", "structMR_1_1ImGuiMenu_1_1PluginsCache.html", "structMR_1_1ImGuiMenu_1_1PluginsCache" ],
+    [ "MR::ImGuiMenu::TagEditorState", "structMR_1_1ImGuiMenu_1_1TagEditorState.html", "structMR_1_1ImGuiMenu_1_1TagEditorState" ],
     [ "MR::ImGuiMenu::SelectionInformationStyle", "structMR_1_1ImGuiMenu_1_1SelectionInformationStyle.html", "structMR_1_1ImGuiMenu_1_1SelectionInformationStyle" ],
     [ "MR::ImGuiMenu::UiRenderManagerImpl", "classMR_1_1ImGuiMenu_1_1UiRenderManagerImpl.html", "classMR_1_1ImGuiMenu_1_1UiRenderManagerImpl" ],
     [ "SelectedTypesMask", "ImGuiMenu_8h.html#a08fcff6c599b446c2e39ef49b4f62fc0", [

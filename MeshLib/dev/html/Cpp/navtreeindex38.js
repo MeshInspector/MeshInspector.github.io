@@ -1,5 +1,13 @@
 var NAVTREEINDEX38 =
 {
+"classMR_1_1PolylineTopology.html#acd964eb898eab563867d4b84cc4af69d":[6,0,0,14,2,1],
+"classMR_1_1PolylineTopology.html#adc8d16b6b6bf938f6dbe4f96fc768825":[6,0,0,14,2,8],
+"classMR_1_1PolylineTopology.html#ae17cec60bbb52533d23d162f050ed1f8":[6,0,0,14,2,27],
+"classMR_1_1PolylineTopology.html#ae20a806936450b9f38d28938a2721f47":[6,0,0,14,2,24],
+"classMR_1_1PolylineTopology.html#aee474c1238238690bc19c125fa62b857":[6,0,0,14,2,39],
+"classMR_1_1PolylineTopology.html#af1878c347e52b88e1e86d50a9f38264b":[6,0,0,14,2,40],
+"classMR_1_1PolylineTopology.html#af5cc7998d7a0f82562b74552b26163f4":[6,0,0,14,2,52],
+"classMR_1_1PolylineTopology.html#af60df47c2413fe61618210b292dde6c0":[6,0,0,14,2,47],
 "classMR_1_1PolylineTopology.html#afeacaa2685ac05679afb0b6675a1ff4b":[6,0,0,14,2,54],
 "classMR_1_1PolylineUndirectedEdgeIterator.html":[6,0,0,14,1],
 "classMR_1_1PolylineUndirectedEdgeIterator.html#a00b9bc17163f0618fd55aa774580ed91":[6,0,0,14,1,5],
@@ -241,13 +249,5 @@ var NAVTREEINDEX38 =
 "classMR_1_1RangeProcessorSingle.html#aaf47bdf40d75c45e729131d8e83d105c":[6,0,2,0,1,554,10],
 "classMR_1_1RangeProcessorSingle.html#ad6099e8aa9329dd7b246301cc97f161b":[6,0,1,0,1,571,13],
 "classMR_1_1RangeProcessorSingle.html#ad6099e8aa9329dd7b246301cc97f161b":[6,0,2,0,1,554,13],
-"classMR_1_1RangeProgress.html":[6,0,1,0,1,572],
-"classMR_1_1RangeProgress.html":[6,0,2,0,1,555],
-"classMR_1_1RangeProgress.html#a991fa7ee78ee9b1a15c198de60ee6c99":[6,0,1,0,1,572,3],
-"classMR_1_1RangeProgress.html#a991fa7ee78ee9b1a15c198de60ee6c99":[6,0,2,0,1,555,3],
-"classMR_1_1RangeProgress.html#a9c5219708895771c264ae1e50fca117e":[6,0,1,0,1,572,2],
-"classMR_1_1RangeProgress.html#a9c5219708895771c264ae1e50fca117e":[6,0,2,0,1,555,2],
-"classMR_1_1RangeProgress.html#aa39d9c285d46ac3ce70aea92db6f9bf2":[6,0,1,0,1,572,0],
-"classMR_1_1RangeProgress.html#aa39d9c285d46ac3ce70aea92db6f9bf2":[6,0,2,0,1,555,0],
-"classMR_1_1RangeProgress.html#aa39d9c285d46ac3ce70aea92db6f9bf2a63ef76e0056281d3d3b501b7bbf98129":[6,0,1,0,1,572,0,0]
+"classMR_1_1RangeProgress.html":[6,0,1,0,1,572]
 };

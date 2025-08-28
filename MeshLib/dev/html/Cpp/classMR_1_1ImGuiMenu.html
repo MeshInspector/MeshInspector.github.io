@@ -184,6 +184,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ImGuiMenu_1_1SelectionInformationStyle.html">SelectionInformationStyle</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">style constants used for the information panel  <a href="structMR_1_1ImGuiMenu_1_1SelectionInformationStyle.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ImGuiMenu_1_1TagEditorState.html">TagEditorState</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ImGuiMenu_1_1UiRenderManagerImpl.html">UiRenderManagerImpl</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -424,6 +426,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a60feeb812f9b38fdb42b0e3aa55b44f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d69c77712f963358e34a99c4eb27b8a" id="r_a7d69c77712f963358e34a99c4eb27b8a"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d69c77712f963358e34a99c4eb27b8a">draw_custom_selection_properties</a> (const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt; &amp;selected)</td></tr>
 <tr class="separator:a7d69c77712f963358e34a99c4eb27b8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afed24b2b7d12b79cf3afca265419a8be" id="r_afed24b2b7d12b79cf3afca265419a8be"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afed24b2b7d12b79cf3afca265419a8be">drawTagInformation_</a> (const std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &amp;object, const <a class="el" href="structMR_1_1ImGuiMenu_1_1SelectionInformationStyle.html">SelectionInformationStyle</a> &amp;style)</td></tr>
+<tr class="separator:afed24b2b7d12b79cf3afca265419a8be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a318c4a57bcb4a30a7620d3c954668c5a" id="r_a318c4a57bcb4a30a7620d3c954668c5a"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a318c4a57bcb4a30a7620d3c954668c5a">drawTransform_</a> ()</td></tr>
 <tr class="separator:a318c4a57bcb4a30a7620d3c954668c5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac40c4ccc20532c621364545dc961f65a" id="r_ac40c4ccc20532c621364545dc961f65a"><td class="memItemLeft" align="right" valign="top">virtual MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac40c4ccc20532c621364545dc961f65a">drawTransformContextMenu_</a> (const std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &amp;)</td></tr>
@@ -517,6 +521,12 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a9603f5d80ca9f918df4d86d0a40a94ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6afa105ae1f7116d82db1d5068aef0ef" id="r_a6afa105ae1f7116d82db1d5068aef0ef"><td class="memItemLeft" align="right" valign="top">AffineXf3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6afa105ae1f7116d82db1d5068aef0ef">editedFeatureObjectOldXf_</a></td></tr>
 <tr class="separator:a6afa105ae1f7116d82db1d5068aef0ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa4ddd1abc45868c85e00d51ff1bee16" id="r_afa4ddd1abc45868c85e00d51ff1bee16"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1ImGuiMenu_1_1TagEditorState.html">TagEditorState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa4ddd1abc45868c85e00d51ff1bee16">tagEditorState_</a></td></tr>
+<tr class="separator:afa4ddd1abc45868c85e00d51ff1bee16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0b38f50d2a1f161806e3cdca4a7846c" id="r_af0b38f50d2a1f161806e3cdca4a7846c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0b38f50d2a1f161806e3cdca4a7846c">showEditTag_</a> = false</td></tr>
+<tr class="separator:af0b38f50d2a1f161806e3cdca4a7846c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a642eba300ae802eed145b8f3df8eb9c5" id="r_a642eba300ae802eed145b8f3df8eb9c5"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a642eba300ae802eed145b8f3df8eb9c5">tagNewName_</a></td></tr>
+<tr class="separator:a642eba300ae802eed145b8f3df8eb9c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a70e1b99ed1657729d0a89c8c8bd00e59" id="r_a70e1b99ed1657729d0a89c8c8bd00e59"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70e1b99ed1657729d0a89c8c8bd00e59">capturedMouse_</a> { false }</td></tr>
 <tr class="separator:a70e1b99ed1657729d0a89c8c8bd00e59"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac676c6482bdbd381c6a69ec47774f8eb" id="r_ac676c6482bdbd381c6a69ec47774f8eb"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classMR_1_1ImGuiMenu_1_1UiRenderManagerImpl.html">UiRenderManagerImpl</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac676c6482bdbd381c6a69ec47774f8eb">uiRenderManager_</a></td></tr>
@@ -1417,6 +1427,35 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented in <a class="el" href="classMR_1_1RibbonMenu.html#a361cde7981902393e0db66ef54bf937e">MR::RibbonMenu</a>.</p>
+
+</div>
+</div>
+<a id="afed24b2b7d12b79cf3afca265419a8be" name="afed24b2b7d12b79cf3afca265419a8be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afed24b2b7d12b79cf3afca265419a8be">&#9670;&#160;</a></span>drawTagInformation_()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API void MR::ImGuiMenu::drawTagInformation_ </td>
+          <td>(</td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>object</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1ImGuiMenu_1_1SelectionInformationStyle.html">SelectionInformationStyle</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>style</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -3756,6 +3795,28 @@ template&lt;typename ObjType &gt; </div>
 
 </div>
 </div>
+<a id="af0b38f50d2a1f161806e3cdca4a7846c" name="af0b38f50d2a1f161806e3cdca4a7846c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0b38f50d2a1f161806e3cdca4a7846c">&#9670;&#160;</a></span>showEditTag_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::ImGuiMenu::showEditTag_ = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a9d77cd28320ae4333fc7e5b9c5a4d38b" name="a9d77cd28320ae4333fc7e5b9c5a4d38b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9d77cd28320ae4333fc7e5b9c5a4d38b">&#9670;&#160;</a></span>showInfoModal_</h2>
 
@@ -3899,6 +3960,50 @@ template&lt;typename ObjType &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">std::string MR::ImGuiMenu::storedModalMessage_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afa4ddd1abc45868c85e00d51ff1bee16" name="afa4ddd1abc45868c85e00d51ff1bee16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa4ddd1abc45868c85e00d51ff1bee16">&#9670;&#160;</a></span>tagEditorState_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structMR_1_1ImGuiMenu_1_1TagEditorState.html">TagEditorState</a> MR::ImGuiMenu::tagEditorState_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a642eba300ae802eed145b8f3df8eb9c5" name="a642eba300ae802eed145b8f3df8eb9c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a642eba300ae802eed145b8f3df8eb9c5">&#9670;&#160;</a></span>tagNewName_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string MR::ImGuiMenu::tagNewName_</td>
         </tr>
       </table>
   </td>

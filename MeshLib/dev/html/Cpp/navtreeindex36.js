@@ -1,5 +1,13 @@
 var NAVTREEINDEX36 =
 {
+"classMR_1_1ObjectVoxels.html#af7fd2489b0d231cb123d39993536de2b":[6,0,0,11,14,56],
+"classMR_1_1ObjectVoxels.html#af9f3bf968d1e9084c912f67cf8fcdaec":[6,0,0,11,14,76],
+"classMR_1_1ObjectVoxels.html#afbad2a43279c25456d0ae5f6ad86f37e":[6,0,0,11,14,60],
+"classMR_1_1ObjectVoxels.html#afcc452d7af81256782737daa253d27f8":[6,0,0,11,14,9],
+"classMR_1_1ObjectVoxels.html#aff1133d23968e690753672eb833bc4e7":[6,0,0,11,14,35],
+"classMR_1_1ObjectVoxels.html#aff8794b9bd15a75ebc129b43162e181d":[6,0,0,11,14,13],
+"classMR_1_1OpenDICOMsMenuItem.html":[6,0,1,0,1,479],
+"classMR_1_1OpenDICOMsMenuItem.html":[6,0,2,0,1,462],
 "classMR_1_1OpenDICOMsMenuItem.html#a552788c299eeab9cb93cef6a1454e287":[6,0,1,0,1,479,1],
 "classMR_1_1OpenDICOMsMenuItem.html#a552788c299eeab9cb93cef6a1454e287":[6,0,2,0,1,462,1],
 "classMR_1_1OpenDICOMsMenuItem.html#afff7b73e7857e5eff442b9c8fea806ad":[6,0,1,0,1,479,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX36 =
 "classMR_1_1PlaneAccumulator.html":[6,0,1,0,1,502],
 "classMR_1_1PlaneAccumulator.html":[6,0,2,0,1,485],
 "classMR_1_1PlaneAccumulator.html#a0255552e85ddcbc57932a70e4eabbb28":[6,0,1,0,1,502,3],
-"classMR_1_1PlaneAccumulator.html#a0255552e85ddcbc57932a70e4eabbb28":[6,0,2,0,1,485,3],
-"classMR_1_1PlaneAccumulator.html#a561b80488532ac9db2b78daf77f60124":[6,0,1,0,1,502,0],
-"classMR_1_1PlaneAccumulator.html#a561b80488532ac9db2b78daf77f60124":[6,0,2,0,1,485,0],
-"classMR_1_1PlaneAccumulator.html#adffaaa076fb1e9216cb89f89f2ee3af6":[6,0,1,0,1,502,1],
-"classMR_1_1PlaneAccumulator.html#adffaaa076fb1e9216cb89f89f2ee3af6":[6,0,2,0,1,485,1],
-"classMR_1_1PlaneAccumulator.html#af8c3f7e07324810201d7e42c25d77fb3":[6,0,1,0,1,502,2],
-"classMR_1_1PlaneAccumulator.html#af8c3f7e07324810201d7e42c25d77fb3":[6,0,2,0,1,485,2],
-"classMR_1_1PlaneObject.html":[6,0,0,11,0,4],
-"classMR_1_1PlaneObject.html#a01ec4ec6b670f8520a31ad573c52cc03":[6,0,0,11,0,4,14]
+"classMR_1_1PlaneAccumulator.html#a0255552e85ddcbc57932a70e4eabbb28":[6,0,2,0,1,485,3]
 };

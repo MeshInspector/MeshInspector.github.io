@@ -1,5 +1,13 @@
 var NAVTREEINDEX42 =
 {
+"classMR_1_1RibbonMenu.html#accfa4d95ab6fdfea5313e29cf32417bd":[6,0,1,0,1,605,47],
+"classMR_1_1RibbonMenu.html#accfa4d95ab6fdfea5313e29cf32417bd":[6,0,2,0,1,588,47],
+"classMR_1_1RibbonMenu.html#acf628a7bb9081d2c4b3d3405e96e85b4":[6,0,1,0,1,605,81],
+"classMR_1_1RibbonMenu.html#acf628a7bb9081d2c4b3d3405e96e85b4":[6,0,2,0,1,588,81],
+"classMR_1_1RibbonMenu.html#ad03e656d4344c5a4266fa1ae56827d6c":[6,0,1,0,1,605,3],
+"classMR_1_1RibbonMenu.html#ad03e656d4344c5a4266fa1ae56827d6c":[6,0,2,0,1,588,3],
+"classMR_1_1RibbonMenu.html#ad0d582e1904c2ad88eee5f4bfe814f83":[6,0,1,0,1,605,2],
+"classMR_1_1RibbonMenu.html#ad0d582e1904c2ad88eee5f4bfe814f83":[6,0,2,0,1,588,2],
 "classMR_1_1RibbonMenu.html#ad3c1eb063654b601259d343d6644e863":[6,0,1,0,1,605,60],
 "classMR_1_1RibbonMenu.html#ad3c1eb063654b601259d343d6644e863":[6,0,2,0,1,588,60],
 "classMR_1_1RibbonMenu.html#ad82ab93f4af68b34ec97b98cd8298597":[6,0,1,0,1,605,20],
@@ -241,13 +249,5 @@ var NAVTREEINDEX42 =
 "classMR_1_1RibbonSchemaLoader.html#ad9dde65427b1793ba6f4fa13663a5ec5":[6,0,1,0,1,626,3],
 "classMR_1_1RibbonSchemaLoader.html#ad9dde65427b1793ba6f4fa13663a5ec5":[6,0,2,0,1,609,3],
 "classMR_1_1RibbonSchemaLoader.html#ae18febd5f891538a94cd80c617a2c7f0":[6,0,1,0,1,626,6],
-"classMR_1_1RibbonSchemaLoader.html#ae18febd5f891538a94cd80c617a2c7f0":[6,0,2,0,1,609,6],
-"classMR_1_1RibbonSchemaLoader.html#ae9f61f9ad1a6e1cfbcdb30e93799a046":[6,0,1,0,1,626,0],
-"classMR_1_1RibbonSchemaLoader.html#ae9f61f9ad1a6e1cfbcdb30e93799a046":[6,0,2,0,1,609,0],
-"classMR_1_1RingIterator.html":[6,0,1,0,1,631],
-"classMR_1_1RingIterator.html":[6,0,2,0,1,614],
-"classMR_1_1RingIterator.html#a2ecba1d3bf80da5ada6460e97e3cc5f5":[6,0,1,0,1,631,6],
-"classMR_1_1RingIterator.html#a2ecba1d3bf80da5ada6460e97e3cc5f5":[6,0,2,0,1,614,6],
-"classMR_1_1RingIterator.html#a32bbf998350ceb82ee238640a29ad585":[6,0,1,0,1,631,1],
-"classMR_1_1RingIterator.html#a32bbf998350ceb82ee238640a29ad585":[6,0,2,0,1,614,1]
+"classMR_1_1RibbonSchemaLoader.html#ae18febd5f891538a94cd80c617a2c7f0":[6,0,2,0,1,609,6]
 };

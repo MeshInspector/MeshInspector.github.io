@@ -1,5 +1,13 @@
 var NAVTREEINDEX47 =
 {
+"classMR_1_1TouchesController.html#afa01f29213896e910998623cb3c2f884adeccbe4e9083c3b5f7cd2632722765bb":[6,0,1,0,1,730,0,0],
+"classMR_1_1TouchesController.html#afa01f29213896e910998623cb3c2f884adeccbe4e9083c3b5f7cd2632722765bb":[6,0,2,0,1,713,0,0],
+"classMR_1_1TouchesController.html#afa01f29213896e910998623cb3c2f884aed36a1ef76a59ee3f15180e0441188ad":[6,0,1,0,1,730,0,4],
+"classMR_1_1TouchesController.html#afa01f29213896e910998623cb3c2f884aed36a1ef76a59ee3f15180e0441188ad":[6,0,2,0,1,713,0,4],
+"classMR_1_1TouchpadController.html":[6,0,1,0,1,732],
+"classMR_1_1TouchpadController.html":[6,0,2,0,1,715],
+"classMR_1_1TouchpadController.html#a121e3e4c7338e5a23e70168c51c0063d":[6,0,1,0,1,732,1],
+"classMR_1_1TouchpadController.html#a121e3e4c7338e5a23e70168c51c0063d":[6,0,2,0,1,715,1],
 "classMR_1_1TouchpadController.html#a292836207ea4150fceeb391f08d81325":[6,0,1,0,1,732,4],
 "classMR_1_1TouchpadController.html#a292836207ea4150fceeb391f08d81325":[6,0,2,0,1,715,4],
 "classMR_1_1TouchpadController.html#a7f99ad050f7c266930af4bf9ffc13c37":[6,0,1,0,1,732,2],
@@ -241,13 +249,5 @@ var NAVTREEINDEX47 =
 "classMR_1_1VertRenumber.html#a1804a1dca0466765918892c65d9436f0":[6,0,2,0,1,768,3],
 "classMR_1_1VertRenumber.html#a4180132d13f552ef422f73a2ad0c6bdc":[6,0,1,0,1,785,1],
 "classMR_1_1VertRenumber.html#a4180132d13f552ef422f73a2ad0c6bdc":[6,0,2,0,1,768,1],
-"classMR_1_1VertRenumber.html#a5ee74de7f5fdfc7a5230e3326b122644":[6,0,1,0,1,785,2],
-"classMR_1_1VertRenumber.html#a5ee74de7f5fdfc7a5230e3326b122644":[6,0,2,0,1,768,2],
-"classMR_1_1Viewer.html":[6,0,1,0,1,786],
-"classMR_1_1Viewer.html":[6,0,2,0,1,769],
-"classMR_1_1Viewer.html#a005ec95118bcf872af734950909d0a9b":[6,0,1,0,1,786,19],
-"classMR_1_1Viewer.html#a005ec95118bcf872af734950909d0a9b":[6,0,2,0,1,769,19],
-"classMR_1_1Viewer.html#a01b60caf23e036ab2d107862a55beffa":[6,0,1,0,1,786,78],
-"classMR_1_1Viewer.html#a01b60caf23e036ab2d107862a55beffa":[6,0,2,0,1,769,78],
-"classMR_1_1Viewer.html#a01c76d68cd7eda7aa58d1e04f5ba1604":[6,0,1,0,1,786,125]
+"classMR_1_1VertRenumber.html#a5ee74de7f5fdfc7a5230e3326b122644":[6,0,1,0,1,785,2]
 };

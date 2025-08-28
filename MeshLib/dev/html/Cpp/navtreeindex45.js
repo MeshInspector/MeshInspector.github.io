@@ -1,5 +1,13 @@
 var NAVTREEINDEX45 =
 {
+"classMR_1_1SphereObject.html#abe849f3566bfb24aa76698ffb6060b74":[6,0,0,11,0,6,3],
+"classMR_1_1SphereObject.html#acce34bc20a869d63c5301aec1204533e":[6,0,0,11,0,6,7],
+"classMR_1_1SphereObject.html#ace4163b1d52950147e9fac4b263d2005":[6,0,0,11,0,6,15],
+"classMR_1_1SphereObject.html#ad89beb551d65c4ca91fd94a8595ab7c2":[6,0,0,11,0,6,9],
+"classMR_1_1SphereObject.html#ad99bcf65ca008b2ce0ff6c2df4adf74f":[6,0,0,11,0,6,0],
+"classMR_1_1SphereObject.html#ae8924769b4847b515a97481b5ac24215":[6,0,0,11,0,6,19],
+"classMR_1_1SphereObject.html#af04d3d5d57a38da6df94e3c775c5ecec":[6,0,0,11,0,6,11],
+"classMR_1_1SphereObject.html#afc914c440e4c94f219e3d213905b1edb":[6,0,0,11,0,6,12],
 "classMR_1_1SplashWindow.html":[6,0,1,0,1,698],
 "classMR_1_1SplashWindow.html":[6,0,2,0,1,681],
 "classMR_1_1SplashWindow.html#a017a42c7599e421ba51d913f9c9c0a5c":[6,0,1,0,1,698,2],
@@ -241,13 +249,5 @@ var NAVTREEINDEX45 =
 "classMR_1_1SurfaceManipulationWidget.html#ab7e117d491cc1bbee8e7a16a851943c8":[6,0,2,0,1,690,24],
 "classMR_1_1SurfaceManipulationWidget.html#abf2e20a55a28b2f567d2c8197674fd9d":[6,0,1,0,1,707,39],
 "classMR_1_1SurfaceManipulationWidget.html#abf2e20a55a28b2f567d2c8197674fd9d":[6,0,2,0,1,690,39],
-"classMR_1_1SurfaceManipulationWidget.html#ac630e539a99b5bafb846ed70cae75f35":[6,0,1,0,1,707,26],
-"classMR_1_1SurfaceManipulationWidget.html#ac630e539a99b5bafb846ed70cae75f35":[6,0,2,0,1,690,26],
-"classMR_1_1SurfaceManipulationWidget.html#ac635419fd9d47ae6f1f285cec8699a52":[6,0,1,0,1,707,14],
-"classMR_1_1SurfaceManipulationWidget.html#ac635419fd9d47ae6f1f285cec8699a52":[6,0,2,0,1,690,14],
-"classMR_1_1SurfaceManipulationWidget.html#ac6d7a49981ff378d5f791c4ec36bc73b":[6,0,1,0,1,707,70],
-"classMR_1_1SurfaceManipulationWidget.html#ac6d7a49981ff378d5f791c4ec36bc73b":[6,0,2,0,1,690,70],
-"classMR_1_1SurfaceManipulationWidget.html#ac7a2498fe16f6962cd02e3789909ab03":[6,0,1,0,1,707,82],
-"classMR_1_1SurfaceManipulationWidget.html#ac7a2498fe16f6962cd02e3789909ab03":[6,0,2,0,1,690,82],
-"classMR_1_1SurfaceManipulationWidget.html#ac926b09e4e210e422759de45d1bf1524":[6,0,1,0,1,707,43]
+"classMR_1_1SurfaceManipulationWidget.html#ac630e539a99b5bafb846ed70cae75f35":[6,0,1,0,1,707,26]
 };

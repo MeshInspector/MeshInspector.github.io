@@ -1240,6 +1240,7 @@ var hierarchy =
     [ "T", null, [
       [ "MR::NoDefInit< T >", "structMR_1_1NoDefInit.html", null ]
     ] ],
+    [ "MR::ImGuiMenu::TagEditorState", "structMR_1_1ImGuiMenu_1_1TagEditorState.html", null ],
     [ "MR::ParallelProgressReporter::TaskInfo", "structMR_1_1ParallelProgressReporter_1_1TaskInfo.html", null ],
     [ "MR::TbbTaskArenaAndGroup", "structMR_1_1TbbTaskArenaAndGroup.html", null ],
     [ "MR::TbbThreadMutex", "classMR_1_1TbbThreadMutex.html", null ],

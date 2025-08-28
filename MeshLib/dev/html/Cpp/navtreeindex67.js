@@ -1,5 +1,13 @@
 var NAVTREEINDEX67 =
 {
+"structMRColor.html#a619f04ba5a882494f1459c0d2e2d3dc8":[6,0,2,0,9,1],
+"structMRColor.html#aa27732a3e7c83ab0d14378adcf74404a":[6,0,2,0,9,3],
+"structMRColor.html#ac405549bae4177f0a1b6cb68b08392f0":[6,0,2,0,9,0],
+"structMRColor.html#aff02d9a407c87aec4e8814e559f9f0dd":[6,0,2,0,9,2],
+"structMRCoordinateConverters.html":[6,0,2,0,10],
+"structMRCoordinateConverters.html#a045ac7e849ea18d3cb66c7f0b40c6cd6":[6,0,2,0,10,0],
+"structMRCoordinateConverters.html#a56607e99af907574f8b2318d7a4adf44":[6,0,2,0,10,1],
+"structMRDecimateResult.html":[6,0,2,0,11],
 "structMRDecimateResult.html#a3b75dcba6fdc6c60935add7ed5ffad09":[6,0,2,0,11,3],
 "structMRDecimateResult.html#a3c065962d7b37882d764de946b664201":[6,0,2,0,11,1],
 "structMRDecimateResult.html#a55c9f57cd3723046a5c7113b5fb0da2b":[6,0,2,0,11,2],
@@ -241,13 +249,5 @@ var NAVTREEINDEX67 =
 "structMRPointsLoadSettings.html#a05bb87b383496b50cfc792ea6c48c5ad":[6,0,2,0,55,2],
 "structMRPointsLoadSettings.html#a96aa5cea42db28d879ed0982662b6aad":[6,0,2,0,55,0],
 "structMRPointsLoadSettings.html#aa213763c3d2e989e1fd32ed9d1c3a342":[6,0,2,0,55,1],
-"structMRRegionId.html":[6,0,2,0,56],
-"structMRRegionId.html#ad9f715f69453d6412635543673366cd0":[6,0,2,0,56,0],
-"structMRRelaxParams.html":[6,0,2,0,57],
-"structMRRelaxParams.html#a544fe366775e3dabfb86a83f7f7c8911":[6,0,2,0,57,3],
-"structMRRelaxParams.html#a971cde2ee06090007854ed72f340262c":[6,0,2,0,57,0],
-"structMRRelaxParams.html#ab7123951867b1faf2ba67e7c60b2950f":[6,0,2,0,57,4],
-"structMRRelaxParams.html#ad1e83a9511a31c4412a48c8d865fd50a":[6,0,2,0,57,2],
-"structMRRelaxParams.html#af3a1a637d046e2e3c41ca9cb10048e53":[6,0,2,0,57,1],
-"structMRRemeshSettings.html":[6,0,2,0,58]
+"structMRRegionId.html":[6,0,2,0,56]
 };
