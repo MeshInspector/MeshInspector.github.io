@@ -1,5 +1,13 @@
 var NAVTREEINDEX95 =
 {
+"structMR_1_1WeightedShell_1_1ParametersRegions_1_1Region.html":[6,0,1,0,1,45,3,0],
+"structMR_1_1WeightedShell_1_1ParametersRegions_1_1Region.html":[6,0,2,0,1,28,3,0],
+"structMR_1_1WeightedShell_1_1ParametersRegions_1_1Region.html#a01352ebbd0c15c42cc60d529877ff26c":[6,0,1,0,1,45,3,0,0],
+"structMR_1_1WeightedShell_1_1ParametersRegions_1_1Region.html#a01352ebbd0c15c42cc60d529877ff26c":[6,0,2,0,1,28,3,0,0],
+"structMR_1_1WeightedShell_1_1ParametersRegions_1_1Region.html#aa47efdcf86ee2cbcfefc52e1781b2c61":[6,0,1,0,1,45,3,0,1],
+"structMR_1_1WeightedShell_1_1ParametersRegions_1_1Region.html#aa47efdcf86ee2cbcfefc52e1781b2c61":[6,0,2,0,1,28,3,0,1],
+"structMR_1_1WeightedVertex.html":[6,0,1,0,1,828],
+"structMR_1_1WeightedVertex.html":[6,0,2,0,1,811],
 "structMR_1_1WeightedVertex.html#a1208b58be6e320fd52f5e5a18d6c5760":[6,0,1,0,1,828,1],
 "structMR_1_1WeightedVertex.html#a1208b58be6e320fd52f5e5a18d6c5760":[6,0,2,0,1,811,1],
 "structMR_1_1WeightedVertex.html#a2f8953ff5552fb2b6756a483ef480790":[6,0,1,0,1,828,0],

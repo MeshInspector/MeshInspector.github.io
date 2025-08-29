@@ -1,5 +1,13 @@
 var NAVTREEINDEX91 =
 {
+"structMR_1_1TouchpadSwipeGestureBeginListener.html#acf7c6b3a2731668f250b72f7c7b3e25c":[6,0,2,0,1,721,3],
+"structMR_1_1TouchpadSwipeGestureEndListener.html":[6,0,1,0,1,739],
+"structMR_1_1TouchpadSwipeGestureEndListener.html":[6,0,2,0,1,722],
+"structMR_1_1TouchpadSwipeGestureEndListener.html#a4119298e5a70c93a5b96b388ef0bda83":[6,0,1,0,1,739,3],
+"structMR_1_1TouchpadSwipeGestureEndListener.html#a4119298e5a70c93a5b96b388ef0bda83":[6,0,2,0,1,722,3],
+"structMR_1_1TouchpadSwipeGestureEndListener.html#a44e18078a4ed4790289f1c9b1be276e9":[6,0,1,0,1,739,1],
+"structMR_1_1TouchpadSwipeGestureEndListener.html#a44e18078a4ed4790289f1c9b1be276e9":[6,0,2,0,1,722,1],
+"structMR_1_1TouchpadSwipeGestureEndListener.html#ab4dd4cb2861d87a165c29539ada3aeda":[6,0,1,0,1,739,2],
 "structMR_1_1TouchpadSwipeGestureEndListener.html#ab4dd4cb2861d87a165c29539ada3aeda":[6,0,2,0,1,722,2],
 "structMR_1_1TouchpadSwipeGestureEndListener.html#ab51fd57e66a91ac6f90d166e8da77c1c":[6,0,1,0,1,739,0],
 "structMR_1_1TouchpadSwipeGestureEndListener.html#ab51fd57e66a91ac6f90d166e8da77c1c":[6,0,2,0,1,722,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX91 =
 "structMR_1_1UI_1_1ButtonIconCustomizationParams.html#ae70b40fe67c4360ea6328d4d514217ea":[6,0,2,0,1,25,2,0],
 "structMR_1_1UI_1_1CachedTextSize.html":[6,0,1,0,1,41,4],
 "structMR_1_1UI_1_1CachedTextSize.html":[6,0,2,0,1,25,3],
-"structMR_1_1UI_1_1CachedTextSize.html#ad31fcee8885480c212111d933cfa10d6":[6,0,1,0,1,41,4,0],
-"structMR_1_1UI_1_1CachedTextSize.html#ad31fcee8885480c212111d933cfa10d6":[6,0,2,0,1,25,3,0],
-"structMR_1_1UI_1_1CheckboxOrModifierState.html":[6,0,1,0,1,41,5],
-"structMR_1_1UI_1_1CheckboxOrModifierState.html":[6,0,2,0,1,25,4],
-"structMR_1_1UI_1_1CheckboxOrModifierState.html#a17db618bc34c02a2da1a620fbc1734f4":[6,0,1,0,1,41,5,0],
-"structMR_1_1UI_1_1CheckboxOrModifierState.html#a17db618bc34c02a2da1a620fbc1734f4":[6,0,2,0,1,25,4,0],
-"structMR_1_1UI_1_1CheckboxOrModifierState.html#a1b7f056835dfa614cc9907ac8d467d87":[6,0,1,0,1,41,5,2],
-"structMR_1_1UI_1_1CheckboxOrModifierState.html#a1b7f056835dfa614cc9907ac8d467d87":[6,0,2,0,1,25,4,2],
-"structMR_1_1UI_1_1CheckboxOrModifierState.html#adcb5d1f8f18006ba9caee1cf22f7c04a":[6,0,1,0,1,41,5,1]
+"structMR_1_1UI_1_1CachedTextSize.html#ad31fcee8885480c212111d933cfa10d6":[6,0,1,0,1,41,4,0]
 };
