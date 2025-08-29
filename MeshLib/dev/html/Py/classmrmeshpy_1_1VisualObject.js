@@ -1,14 +1,14 @@
 var classmrmeshpy_1_1VisualObject =
 [
     [ "__init__", "classmrmeshpy_1_1VisualObject.html#a3aa4d51e5d881a8faec9b51637da6364", null ],
+    [ "className", "classmrmeshpy_1_1VisualObject.html#a6c501c1b9481a182be58e284667177d2", null ],
+    [ "classNameInPlural", "classmrmeshpy_1_1VisualObject.html#a79a6c850c880283962836f4f7c7775ca", null ],
     [ "clone", "classmrmeshpy_1_1VisualObject.html#a1aeb8f658d1ec828372eb5f234f696fd", null ],
     [ "getAllVisualizeProperties", "classmrmeshpy_1_1VisualObject.html#a99a68c12bda4b4c07f5ba725b2b2af59", null ],
     [ "getAmbientStrength", "classmrmeshpy_1_1VisualObject.html#a82c638c112056461424bfc09c23925b7", null ],
     [ "getBackColor", "classmrmeshpy_1_1VisualObject.html#ae52231ec5177a10f568e957c8ad4d671", null ],
     [ "getBackColorsForAllViewports", "classmrmeshpy_1_1VisualObject.html#a9c50e24643b786be0271ce69b3390c9c", null ],
     [ "getBoundingBox", "classmrmeshpy_1_1VisualObject.html#a7f787f2b93a34cfb4d2d1744e2177271", null ],
-    [ "getClassName", "classmrmeshpy_1_1VisualObject.html#ae02cc04db9034c21e7b707ddeb335114", null ],
-    [ "getClassNameInPlural", "classmrmeshpy_1_1VisualObject.html#ac93868b05bd4133b812381d686c527d6", null ],
     [ "getColoringType", "classmrmeshpy_1_1VisualObject.html#af2701866ba9629c598b8d6c83056f4f3", null ],
     [ "getDirtyFlags", "classmrmeshpy_1_1VisualObject.html#a4b9ead8b38c035c872a132c5cb24bf5d", null ],
     [ "getFrontColor", "classmrmeshpy_1_1VisualObject.html#a51881787ab04577da4acce749b1d747e", null ],

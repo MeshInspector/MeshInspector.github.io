@@ -185,14 +185,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:afa02a2926481fdba8023d277e998fb15"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a51bf3dd6a9699a55576c099b57d39990" id="r_a51bf3dd6a9699a55576c099b57d39990"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51bf3dd6a9699a55576c099b57d39990">typeName</a> () const override</td></tr>
 <tr class="separator:a51bf3dd6a9699a55576c099b57d39990"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7849ae40e1bbec939b323878b4c5697a" id="r_a7849ae40e1bbec939b323878b4c5697a"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7849ae40e1bbec939b323878b4c5697a">className</a> () const override</td></tr>
+<tr class="separator:a7849ae40e1bbec939b323878b4c5697a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3e5d192041a079d62a7e67b0e9eaa52" id="r_ae3e5d192041a079d62a7e67b0e9eaa52"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae3e5d192041a079d62a7e67b0e9eaa52">classNameInPlural</a> () const override</td></tr>
+<tr class="separator:ae3e5d192041a079d62a7e67b0e9eaa52"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec2cbe841851792590c1651eab44b5f7" id="r_aec2cbe841851792590c1651eab44b5f7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec2cbe841851792590c1651eab44b5f7">CylinderObject</a> (<a class="el" href="structMR_1_1Object_1_1ProtectedStruct.html">ProtectedStruct</a>, const <a class="el" href="classMR_1_1CylinderObject.html">CylinderObject</a> &amp;obj)</td></tr>
 <tr class="separator:aec2cbe841851792590c1651eab44b5f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b0373b6db441f45abd56d8c49db803d" id="r_a4b0373b6db441f45abd56d8c49db803d"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b0373b6db441f45abd56d8c49db803d">getClassName</a> () const override</td></tr>
-<tr class="memdesc:a4b0373b6db441f45abd56d8c49db803d"><td class="mdescLeft">&#160;</td><td class="mdescRight">return human readable name of subclass  <br /></td></tr>
-<tr class="separator:a4b0373b6db441f45abd56d8c49db803d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2abeecaeb97c0f800d02b0f6b41886e4" id="r_a2abeecaeb97c0f800d02b0f6b41886e4"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2abeecaeb97c0f800d02b0f6b41886e4">getClassNameInPlural</a> () const override</td></tr>
-<tr class="memdesc:a2abeecaeb97c0f800d02b0f6b41886e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">return human readable name of subclass in plural form  <br /></td></tr>
-<tr class="separator:a2abeecaeb97c0f800d02b0f6b41886e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9be1f18971d98b7c6b59e4b442661d86" id="r_a9be1f18971d98b7c6b59e4b442661d86"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9be1f18971d98b7c6b59e4b442661d86">clone</a> () const override</td></tr>
 <tr class="separator:a9be1f18971d98b7c6b59e4b442661d86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a71326e9cd25df824ffbf9fe8fb545508" id="r_a71326e9cd25df824ffbf9fe8fb545508"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71326e9cd25df824ffbf9fe8fb545508">shallowClone</a> () const override</td></tr>
@@ -309,12 +307,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad5bb82fa6b6b0ea77f0137b975c802f6 inherit pub_methods_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32d2019eae016848083a25a159b3b058 inherit pub_methods_classMR_1_1VisualObject" id="r_a32d2019eae016848083a25a159b3b058"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#a32d2019eae016848083a25a159b3b058">~VisualObject</a> ()=default</td></tr>
 <tr class="separator:a32d2019eae016848083a25a159b3b058 inherit pub_methods_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac09e696332a3dce001e8dc010c45a70b inherit pub_methods_classMR_1_1VisualObject" id="r_ac09e696332a3dce001e8dc010c45a70b"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#ac09e696332a3dce001e8dc010c45a70b">getClassName</a> () const override</td></tr>
-<tr class="memdesc:ac09e696332a3dce001e8dc010c45a70b inherit pub_methods_classMR_1_1VisualObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">return human readable name of subclass  <br /></td></tr>
-<tr class="separator:ac09e696332a3dce001e8dc010c45a70b inherit pub_methods_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6584432cb9ca39aabe802844cc1ffb82 inherit pub_methods_classMR_1_1VisualObject" id="r_a6584432cb9ca39aabe802844cc1ffb82"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#a6584432cb9ca39aabe802844cc1ffb82">getClassNameInPlural</a> () const override</td></tr>
-<tr class="memdesc:a6584432cb9ca39aabe802844cc1ffb82 inherit pub_methods_classMR_1_1VisualObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">return human readable name of subclass in plural form  <br /></td></tr>
-<tr class="separator:a6584432cb9ca39aabe802844cc1ffb82 inherit pub_methods_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2bbb1d0c58312e6cec629c558dec4eb8 inherit pub_methods_classMR_1_1VisualObject" id="r_a2bbb1d0c58312e6cec629c558dec4eb8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#a2bbb1d0c58312e6cec629c558dec4eb8">setVisualizeProperty</a> (bool value, <a class="el" href="classMR_1_1AnyVisualizeMaskEnum.html">AnyVisualizeMaskEnum</a> type, <a class="el" href="classMR_1_1ViewportMask.html">ViewportMask</a> viewportMask)</td></tr>
 <tr class="memdesc:a2bbb1d0c58312e6cec629c558dec4eb8 inherit pub_methods_classMR_1_1VisualObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">set visual property in all viewports specified by the mask  <br /></td></tr>
 <tr class="separator:a2bbb1d0c58312e6cec629c558dec4eb8 inherit pub_methods_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -634,15 +626,33 @@ Public Member Functions</h2></td></tr>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a812b3d3fd915ad774fa16b2aad1bf189" id="r_a812b3d3fd915ad774fa16b2aad1bf189"><td class="memItemLeft" align="right" valign="top">static constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a812b3d3fd915ad774fa16b2aad1bf189">TypeName</a> () noexcept</td></tr>
 <tr class="separator:a812b3d3fd915ad774fa16b2aad1bf189"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16fc806152a209cc20f514de0d4747e7" id="r_a16fc806152a209cc20f514de0d4747e7"><td class="memItemLeft" align="right" valign="top">static constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16fc806152a209cc20f514de0d4747e7">ClassName</a> () noexcept</td></tr>
+<tr class="separator:a16fc806152a209cc20f514de0d4747e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89491422784c6d0bb2deaa21ea60766c" id="r_a89491422784c6d0bb2deaa21ea60766c"><td class="memItemLeft" align="right" valign="top">static constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a89491422784c6d0bb2deaa21ea60766c">ClassNameInPlural</a> () noexcept</td></tr>
+<tr class="separator:a89491422784c6d0bb2deaa21ea60766c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_static_methods_classMR_1_1FeatureObject"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_methods_classMR_1_1FeatureObject')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="classMR_1_1FeatureObject.html">MR::FeatureObject</a></td></tr>
 <tr class="memitem:a9dfdab82ab3c1185ae080bb146354ee0 inherit pub_static_methods_classMR_1_1FeatureObject" id="r_a9dfdab82ab3c1185ae080bb146354ee0"><td class="memItemLeft" align="right" valign="top">static constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1FeatureObject.html#a9dfdab82ab3c1185ae080bb146354ee0">TypeName</a> () noexcept</td></tr>
 <tr class="separator:a9dfdab82ab3c1185ae080bb146354ee0 inherit pub_static_methods_classMR_1_1FeatureObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a1aad1a31f79b7666e9eee34663ee5e inherit pub_static_methods_classMR_1_1FeatureObject" id="r_a0a1aad1a31f79b7666e9eee34663ee5e"><td class="memItemLeft" align="right" valign="top">static constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1FeatureObject.html#a0a1aad1a31f79b7666e9eee34663ee5e">ClassName</a> () noexcept</td></tr>
+<tr class="separator:a0a1aad1a31f79b7666e9eee34663ee5e inherit pub_static_methods_classMR_1_1FeatureObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92d5e3951c8014712b76e7232f60dcf4 inherit pub_static_methods_classMR_1_1FeatureObject" id="r_a92d5e3951c8014712b76e7232f60dcf4"><td class="memItemLeft" align="right" valign="top">static constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1FeatureObject.html#a92d5e3951c8014712b76e7232f60dcf4">ClassNameInPlural</a> () noexcept</td></tr>
+<tr class="separator:a92d5e3951c8014712b76e7232f60dcf4 inherit pub_static_methods_classMR_1_1FeatureObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_static_methods_classMR_1_1VisualObject"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_methods_classMR_1_1VisualObject')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="classMR_1_1VisualObject.html">MR::VisualObject</a></td></tr>
 <tr class="memitem:a47fc6fc8bb712992f51cd50e363a7fc4 inherit pub_static_methods_classMR_1_1VisualObject" id="r_a47fc6fc8bb712992f51cd50e363a7fc4"><td class="memItemLeft" align="right" valign="top">static constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#a47fc6fc8bb712992f51cd50e363a7fc4">TypeName</a> () noexcept</td></tr>
 <tr class="separator:a47fc6fc8bb712992f51cd50e363a7fc4 inherit pub_static_methods_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1995ae6d4e462dfca9c5b76b367ec582 inherit pub_static_methods_classMR_1_1VisualObject" id="r_a1995ae6d4e462dfca9c5b76b367ec582"><td class="memItemLeft" align="right" valign="top">static constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#a1995ae6d4e462dfca9c5b76b367ec582">ClassName</a> () noexcept</td></tr>
+<tr class="separator:a1995ae6d4e462dfca9c5b76b367ec582 inherit pub_static_methods_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10f6630a795b8988f09b8c403a29df47 inherit pub_static_methods_classMR_1_1VisualObject" id="r_a10f6630a795b8988f09b8c403a29df47"><td class="memItemLeft" align="right" valign="top">static constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VisualObject.html#a10f6630a795b8988f09b8c403a29df47">ClassNameInPlural</a> () noexcept</td></tr>
+<tr class="separator:a10f6630a795b8988f09b8c403a29df47 inherit pub_static_methods_classMR_1_1VisualObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_static_methods_classMR_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_methods_classMR_1_1Object')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="classMR_1_1Object.html">MR::Object</a></td></tr>
 <tr class="memitem:a4fcb6d60f1a306cb2d13c878cd83fa63 inherit pub_static_methods_classMR_1_1Object" id="r_a4fcb6d60f1a306cb2d13c878cd83fa63"><td class="memItemLeft" align="right" valign="top">static constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a4fcb6d60f1a306cb2d13c878cd83fa63">TypeName</a> () noexcept</td></tr>
 <tr class="separator:a4fcb6d60f1a306cb2d13c878cd83fa63 inherit pub_static_methods_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae78e751867f7615b84dfdcfa648a545 inherit pub_static_methods_classMR_1_1Object" id="r_aae78e751867f7615b84dfdcfa648a545"><td class="memItemLeft" align="right" valign="top">static constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#aae78e751867f7615b84dfdcfa648a545">ClassName</a> () noexcept</td></tr>
+<tr class="memdesc:aae78e751867f7615b84dfdcfa648a545 inherit pub_static_methods_classMR_1_1Object"><td class="mdescLeft">&#160;</td><td class="mdescRight">return human readable name of subclass  <br /></td></tr>
+<tr class="separator:aae78e751867f7615b84dfdcfa648a545 inherit pub_static_methods_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fdabafb26292532ae5ff60709747f90 inherit pub_static_methods_classMR_1_1Object" id="r_a1fdabafb26292532ae5ff60709747f90"><td class="memItemLeft" align="right" valign="top">static constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a1fdabafb26292532ae5ff60709747f90">ClassNameInPlural</a> () noexcept</td></tr>
+<tr class="memdesc:a1fdabafb26292532ae5ff60709747f90 inherit pub_static_methods_classMR_1_1Object"><td class="mdescLeft">&#160;</td><td class="mdescRight">return human readable name of subclass in plural form  <br /></td></tr>
+<tr class="separator:a1fdabafb26292532ae5ff60709747f90 inherit pub_static_methods_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -920,6 +930,110 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a16fc806152a209cc20f514de0d4747e7" name="a16fc806152a209cc20f514de0d4747e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16fc806152a209cc20f514de0d4747e7">&#9670;&#160;</a></span>ClassName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static constexpr const char * MR::CylinderObject::ClassName </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7849ae40e1bbec939b323878b4c5697a" name="a7849ae40e1bbec939b323878b4c5697a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7849ae40e1bbec939b323878b4c5697a">&#9670;&#160;</a></span>className()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::string MR::CylinderObject::className </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classMR_1_1FeatureObject.html#a9d50ec94a6a058376bf8e02827f5121c">MR::FeatureObject</a>.</p>
+
+</div>
+</div>
+<a id="a89491422784c6d0bb2deaa21ea60766c" name="a89491422784c6d0bb2deaa21ea60766c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89491422784c6d0bb2deaa21ea60766c">&#9670;&#160;</a></span>ClassNameInPlural()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static constexpr const char * MR::CylinderObject::ClassNameInPlural </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae3e5d192041a079d62a7e67b0e9eaa52" name="ae3e5d192041a079d62a7e67b0e9eaa52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3e5d192041a079d62a7e67b0e9eaa52">&#9670;&#160;</a></span>classNameInPlural()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::string MR::CylinderObject::classNameInPlural </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classMR_1_1FeatureObject.html#a873cf4c43be4dfcce9768ae68ad3ae44">MR::FeatureObject</a>.</p>
+
+</div>
+</div>
 <a id="a9be1f18971d98b7c6b59e4b442661d86" name="a9be1f18971d98b7c6b59e4b442661d86"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9be1f18971d98b7c6b59e4b442661d86">&#9670;&#160;</a></span>clone()</h2>
 
@@ -1053,64 +1167,6 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>calculates center from xf </p>
-
-</div>
-</div>
-<a id="a4b0373b6db441f45abd56d8c49db803d" name="a4b0373b6db441f45abd56d8c49db803d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4b0373b6db441f45abd56d8c49db803d">&#9670;&#160;</a></span>getClassName()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string MR::CylinderObject::getClassName </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>return human readable name of subclass </p>
-
-<p>Reimplemented from <a class="el" href="classMR_1_1FeatureObject.html#a8051080409df88c3003d681ac09c636d">MR::FeatureObject</a>.</p>
-
-</div>
-</div>
-<a id="a2abeecaeb97c0f800d02b0f6b41886e4" name="a2abeecaeb97c0f800d02b0f6b41886e4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2abeecaeb97c0f800d02b0f6b41886e4">&#9670;&#160;</a></span>getClassNameInPlural()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string MR::CylinderObject::getClassNameInPlural </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>return human readable name of subclass in plural form </p>
-
-<p>Reimplemented from <a class="el" href="classMR_1_1FeatureObject.html#a182a5ad51b424049e24278767e2512b1">MR::FeatureObject</a>.</p>
 
 </div>
 </div>

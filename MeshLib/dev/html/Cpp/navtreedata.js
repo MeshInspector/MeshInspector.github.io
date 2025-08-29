@@ -174,7 +174,7 @@ var NAVTREEINDEX =
 "classMR_1_1ObjectMeshHolder.html#ae634350a83cd46f84c090de62f38861d",
 "classMR_1_1ObjectTransformWidget_1_1ChangeXfAction.html#a0afac4f4b06cfb2f11fe773ecb84a131",
 "classMR_1_1Pdf.html#a261bf8bbc1276a8db04b94833e6d4f72",
-"classMR_1_1PointObject.html#abd93c3847c57f54eb014c6742abe50b8",
+"classMR_1_1PointObject.html#ab448b50f4d5f7e6e83479ce7652393b3",
 "classMR_1_1RadiusMeasurementObject.html#afccf6fe9560dab8bface087cf76efc94",
 "classMR_1_1RenderFeatures_1_1RenderPlaneNormalComponent.html#a0b2fbdd12c14ae1cc48b2f16430d75f2",
 "classMR_1_1RenderNameObject.html#a3ed964722c0b453ff9abc718690625bc",

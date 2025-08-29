@@ -2,9 +2,9 @@ var classmrmeshpy_1_1ObjectPoints =
 [
     [ "__init__", "classmrmeshpy_1_1ObjectPoints.html#a7723030d0f3da83fdd9f9f3deb67472d", null ],
     [ "__init__", "classmrmeshpy_1_1ObjectPoints.html#a1b8a3423ebe5c2c2bfe68309b0180d64", null ],
+    [ "className", "classmrmeshpy_1_1ObjectPoints.html#aa541cb0ec3835b6b9f275bedfee1f6fa", null ],
+    [ "classNameInPlural", "classmrmeshpy_1_1ObjectPoints.html#abaa72dcdff8aa2b06e48be6e78ac3595", null ],
     [ "clone", "classmrmeshpy_1_1ObjectPoints.html#a8a2bbd6705202af2e96e68811bad6874", null ],
-    [ "getClassName", "classmrmeshpy_1_1ObjectPoints.html#a7a774ed42bbef90a7f9d1a4edc60e065", null ],
-    [ "getClassNameInPlural", "classmrmeshpy_1_1ObjectPoints.html#a05c0a4f6ec9f39003a2389ff3eca04e3", null ],
     [ "getInfoLines", "classmrmeshpy_1_1ObjectPoints.html#a415f54e82942029e197c986b7602a5d3", null ],
     [ "setDirtyFlags", "classmrmeshpy_1_1ObjectPoints.html#a7ded99536476852364195ca8da634c86", null ],
     [ "setPointCloud", "classmrmeshpy_1_1ObjectPoints.html#ab9a9accd26baec9f1879494e6db5cb07", null ],

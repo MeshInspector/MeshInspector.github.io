@@ -206,12 +206,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a32d2019eae016848083a25a159b3b058"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f629cc6822b206ab9232648fa19dcb6" id="r_a6f629cc6822b206ab9232648fa19dcb6"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f629cc6822b206ab9232648fa19dcb6">typeName</a> () const override</td></tr>
 <tr class="separator:a6f629cc6822b206ab9232648fa19dcb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac09e696332a3dce001e8dc010c45a70b" id="r_ac09e696332a3dce001e8dc010c45a70b"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac09e696332a3dce001e8dc010c45a70b">getClassName</a> () const override</td></tr>
-<tr class="memdesc:ac09e696332a3dce001e8dc010c45a70b"><td class="mdescLeft">&#160;</td><td class="mdescRight">return human readable name of subclass  <br /></td></tr>
-<tr class="separator:ac09e696332a3dce001e8dc010c45a70b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6584432cb9ca39aabe802844cc1ffb82" id="r_a6584432cb9ca39aabe802844cc1ffb82"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6584432cb9ca39aabe802844cc1ffb82">getClassNameInPlural</a> () const override</td></tr>
-<tr class="memdesc:a6584432cb9ca39aabe802844cc1ffb82"><td class="mdescLeft">&#160;</td><td class="mdescRight">return human readable name of subclass in plural form  <br /></td></tr>
-<tr class="separator:a6584432cb9ca39aabe802844cc1ffb82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a9efcd8828d774516f5cd4960359d08" id="r_a4a9efcd8828d774516f5cd4960359d08"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a9efcd8828d774516f5cd4960359d08">className</a> () const override</td></tr>
+<tr class="separator:a4a9efcd8828d774516f5cd4960359d08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a470477a43cc2e761f791623ee732e4b7" id="r_a470477a43cc2e761f791623ee732e4b7"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a470477a43cc2e761f791623ee732e4b7">classNameInPlural</a> () const override</td></tr>
+<tr class="separator:a470477a43cc2e761f791623ee732e4b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17a87c846a1caa768c3043ee50bbd966" id="r_a17a87c846a1caa768c3043ee50bbd966"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17a87c846a1caa768c3043ee50bbd966">supportsVisualizeProperty</a> (<a class="el" href="classMR_1_1AnyVisualizeMaskEnum.html">AnyVisualizeMaskEnum</a> type) const</td></tr>
 <tr class="memdesc:a17a87c846a1caa768c3043ee50bbd966"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this class supports the property <code>type</code>. Otherwise passing it to the functions below is illegal.  <br /></td></tr>
 <tr class="separator:a17a87c846a1caa768c3043ee50bbd966"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -549,9 +547,19 @@ Public Member Functions</h2></td></tr>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a47fc6fc8bb712992f51cd50e363a7fc4" id="r_a47fc6fc8bb712992f51cd50e363a7fc4"><td class="memItemLeft" align="right" valign="top">static constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47fc6fc8bb712992f51cd50e363a7fc4">TypeName</a> () noexcept</td></tr>
 <tr class="separator:a47fc6fc8bb712992f51cd50e363a7fc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1995ae6d4e462dfca9c5b76b367ec582" id="r_a1995ae6d4e462dfca9c5b76b367ec582"><td class="memItemLeft" align="right" valign="top">static constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1995ae6d4e462dfca9c5b76b367ec582">ClassName</a> () noexcept</td></tr>
+<tr class="separator:a1995ae6d4e462dfca9c5b76b367ec582"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10f6630a795b8988f09b8c403a29df47" id="r_a10f6630a795b8988f09b8c403a29df47"><td class="memItemLeft" align="right" valign="top">static constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10f6630a795b8988f09b8c403a29df47">ClassNameInPlural</a> () noexcept</td></tr>
+<tr class="separator:a10f6630a795b8988f09b8c403a29df47"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_static_methods_classMR_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_methods_classMR_1_1Object')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="classMR_1_1Object.html">MR::Object</a></td></tr>
 <tr class="memitem:a4fcb6d60f1a306cb2d13c878cd83fa63 inherit pub_static_methods_classMR_1_1Object" id="r_a4fcb6d60f1a306cb2d13c878cd83fa63"><td class="memItemLeft" align="right" valign="top">static constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a4fcb6d60f1a306cb2d13c878cd83fa63">TypeName</a> () noexcept</td></tr>
 <tr class="separator:a4fcb6d60f1a306cb2d13c878cd83fa63 inherit pub_static_methods_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae78e751867f7615b84dfdcfa648a545 inherit pub_static_methods_classMR_1_1Object" id="r_aae78e751867f7615b84dfdcfa648a545"><td class="memItemLeft" align="right" valign="top">static constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#aae78e751867f7615b84dfdcfa648a545">ClassName</a> () noexcept</td></tr>
+<tr class="memdesc:aae78e751867f7615b84dfdcfa648a545 inherit pub_static_methods_classMR_1_1Object"><td class="mdescLeft">&#160;</td><td class="mdescRight">return human readable name of subclass  <br /></td></tr>
+<tr class="separator:aae78e751867f7615b84dfdcfa648a545 inherit pub_static_methods_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fdabafb26292532ae5ff60709747f90 inherit pub_static_methods_classMR_1_1Object" id="r_a1fdabafb26292532ae5ff60709747f90"><td class="memItemLeft" align="right" valign="top">static constexpr const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a1fdabafb26292532ae5ff60709747f90">ClassNameInPlural</a> () noexcept</td></tr>
+<tr class="memdesc:a1fdabafb26292532ae5ff60709747f90 inherit pub_static_methods_classMR_1_1Object"><td class="mdescLeft">&#160;</td><td class="mdescRight">return human readable name of subclass in plural form  <br /></td></tr>
+<tr class="separator:a1fdabafb26292532ae5ff60709747f90 inherit pub_static_methods_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -824,6 +832,114 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a1995ae6d4e462dfca9c5b76b367ec582" name="a1995ae6d4e462dfca9c5b76b367ec582"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1995ae6d4e462dfca9c5b76b367ec582">&#9670;&#160;</a></span>ClassName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static constexpr const char * MR::VisualObject::ClassName </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4a9efcd8828d774516f5cd4960359d08" name="a4a9efcd8828d774516f5cd4960359d08"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a9efcd8828d774516f5cd4960359d08">&#9670;&#160;</a></span>className()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::string MR::VisualObject::className </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classMR_1_1Object.html#affbcbbc7f5e086e26cdb5f7689557c74">MR::Object</a>.</p>
+
+<p>Reimplemented in <a class="el" href="classMR_1_1AngleMeasurementObject.html#a11b4563811e536745042eac6cc7d7de3">MR::AngleMeasurementObject</a>, <a class="el" href="classMR_1_1CircleObject.html#a991beec8b2a8e873d3c1325a07e90050">MR::CircleObject</a>, <a class="el" href="classMR_1_1ConeObject.html#a3cfa63d59fc70663772e67762abdd3a0">MR::ConeObject</a>, <a class="el" href="classMR_1_1CylinderObject.html#a7849ae40e1bbec939b323878b4c5697a">MR::CylinderObject</a>, <a class="el" href="classMR_1_1DistanceMeasurementObject.html#ad60ffe08ad7aac2a0118f9d755246849">MR::DistanceMeasurementObject</a>, <a class="el" href="classMR_1_1FeatureObject.html#a9d50ec94a6a058376bf8e02827f5121c">MR::FeatureObject</a>, <a class="el" href="classMR_1_1LineObject.html#a44ca95a2452204b8e1b876b5ec08bac6">MR::LineObject</a>, <a class="el" href="classMR_1_1ObjectDistanceMap.html#a3cb769b52ae53c4d9b790bc6b166b643">MR::ObjectDistanceMap</a>, <a class="el" href="classMR_1_1ObjectGcode.html#a4a6ad740cebafaf34b828c8090a86c7c">MR::ObjectGcode</a>, <a class="el" href="classMR_1_1ObjectLines.html#ab6d75bcbb8337be4911605be69fe113c">MR::ObjectLines</a>, <a class="el" href="classMR_1_1ObjectMesh.html#af4ac00d283a32148cf782022212b9aab">MR::ObjectMesh</a>, <a class="el" href="classMR_1_1ObjectPoints.html#a4252b0e95bda212a786f5d4cd32f9d35">MR::ObjectPoints</a>, <a class="el" href="classMR_1_1ObjectVoxels.html#aa0402c3a95f58c263dacb32b997a95aa">MR::ObjectVoxels</a>, <a class="el" href="classMR_1_1PlaneObject.html#a98b7c1739d2de8f0ac5e63dda69aa51a">MR::PlaneObject</a>, <a class="el" href="classMR_1_1PointObject.html#a909db6f8e5efa3ddf0efa68e104ca751">MR::PointObject</a>, <a class="el" href="classMR_1_1RadiusMeasurementObject.html#a97570825bfd28f5a3f4d579a34f813c8">MR::RadiusMeasurementObject</a>, and <a class="el" href="classMR_1_1SphereObject.html#ad57d28fe2b4725637d8d33cf7e113f18">MR::SphereObject</a>.</p>
+
+</div>
+</div>
+<a id="a10f6630a795b8988f09b8c403a29df47" name="a10f6630a795b8988f09b8c403a29df47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10f6630a795b8988f09b8c403a29df47">&#9670;&#160;</a></span>ClassNameInPlural()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static constexpr const char * MR::VisualObject::ClassNameInPlural </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">constexpr</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a470477a43cc2e761f791623ee732e4b7" name="a470477a43cc2e761f791623ee732e4b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a470477a43cc2e761f791623ee732e4b7">&#9670;&#160;</a></span>classNameInPlural()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::string MR::VisualObject::classNameInPlural </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classMR_1_1Object.html#a6f75a192e0d9f2bdfecdac79b4a15ae1">MR::Object</a>.</p>
+
+<p>Reimplemented in <a class="el" href="classMR_1_1AngleMeasurementObject.html#ad2c4dd04439768c43bf48e9cc47ad5d7">MR::AngleMeasurementObject</a>, <a class="el" href="classMR_1_1CircleObject.html#aa13f61ce686ebbd95f164568642be551">MR::CircleObject</a>, <a class="el" href="classMR_1_1ConeObject.html#aa4c317887a4c55672bcca1fa1534b2b7">MR::ConeObject</a>, <a class="el" href="classMR_1_1CylinderObject.html#ae3e5d192041a079d62a7e67b0e9eaa52">MR::CylinderObject</a>, <a class="el" href="classMR_1_1DistanceMeasurementObject.html#a3fbff93178a6d5f281d512fbd3ba5d10">MR::DistanceMeasurementObject</a>, <a class="el" href="classMR_1_1FeatureObject.html#a873cf4c43be4dfcce9768ae68ad3ae44">MR::FeatureObject</a>, <a class="el" href="classMR_1_1LineObject.html#aabcbd98619f36f8d3a704ec1cd0c52ab">MR::LineObject</a>, <a class="el" href="classMR_1_1ObjectDistanceMap.html#ad91ecebfe7dcca6c86c62b4fa63c68fc">MR::ObjectDistanceMap</a>, <a class="el" href="classMR_1_1ObjectGcode.html#aa197c20d302f82144a0d78fe07fb9f0c">MR::ObjectGcode</a>, <a class="el" href="classMR_1_1ObjectLines.html#a7f81cb2ef99bce186ed664ce7b4a219b">MR::ObjectLines</a>, <a class="el" href="classMR_1_1ObjectMesh.html#a34dcbce4338ca82addb8e7a6fc88d1e6">MR::ObjectMesh</a>, <a class="el" href="classMR_1_1ObjectPoints.html#a7158fa0a7fc019003efd19130a838f58">MR::ObjectPoints</a>, <a class="el" href="classMR_1_1ObjectVoxels.html#a07a8d2c3383e05788beb2de69718b514">MR::ObjectVoxels</a>, <a class="el" href="classMR_1_1PlaneObject.html#abb12c84edcc027ddd9f16410a1440744">MR::PlaneObject</a>, <a class="el" href="classMR_1_1PointObject.html#a3a456c548afa275a1449d71e800dc5e2">MR::PointObject</a>, <a class="el" href="classMR_1_1RadiusMeasurementObject.html#a5378128a8a4fb296172cb5d2ed65bd48">MR::RadiusMeasurementObject</a>, and <a class="el" href="classMR_1_1SphereObject.html#a097e487aba59a6996fc2b21658af0fd2">MR::SphereObject</a>.</p>
+
+</div>
+</div>
 <a id="a2abf3d3c767a16a584ad513af643feca" name="a2abf3d3c767a16a584ad513af643feca"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2abf3d3c767a16a584ad513af643feca">&#9670;&#160;</a></span>clone()</h2>
 
@@ -1056,64 +1172,6 @@ template&lt;AnyVisualizeMaskEnumType T&gt; </div>
 </div><div class="memdoc">
 
 <p>returns cached bounding box of this object in local coordinates </p>
-
-</div>
-</div>
-<a id="ac09e696332a3dce001e8dc010c45a70b" name="ac09e696332a3dce001e8dc010c45a70b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac09e696332a3dce001e8dc010c45a70b">&#9670;&#160;</a></span>getClassName()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string MR::VisualObject::getClassName </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>return human readable name of subclass </p>
-
-<p>Reimplemented from <a class="el" href="classMR_1_1Object.html#ad21ab63debcbf8deb1102471a42fd619">MR::Object</a>.</p>
-
-</div>
-</div>
-<a id="a6584432cb9ca39aabe802844cc1ffb82" name="a6584432cb9ca39aabe802844cc1ffb82"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6584432cb9ca39aabe802844cc1ffb82">&#9670;&#160;</a></span>getClassNameInPlural()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string MR::VisualObject::getClassNameInPlural </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>return human readable name of subclass in plural form </p>
-
-<p>Reimplemented from <a class="el" href="classMR_1_1Object.html#a1dc719b00e50dce56c15759d35168b4f">MR::Object</a>.</p>
 
 </div>
 </div>

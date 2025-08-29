@@ -1,12 +1,12 @@
 var classMR_1_1FeatureObject =
 [
     [ "FeatureObject", "classMR_1_1FeatureObject.html#a537fbe1f37e55b900de3e7427c41e7b4", null ],
+    [ "className", "classMR_1_1FeatureObject.html#a9d50ec94a6a058376bf8e02827f5121c", null ],
+    [ "classNameInPlural", "classMR_1_1FeatureObject.html#a873cf4c43be4dfcce9768ae68ad3ae44", null ],
     [ "deserializeFields_", "classMR_1_1FeatureObject.html#aee2648d2f24f218b7c2cbcd1b48ae0f2", null ],
     [ "getAllSharedProperties", "classMR_1_1FeatureObject.html#a67f4c8131f16d91de68c6ac590d31fa4", null ],
     [ "getAllVisualizeProperties", "classMR_1_1FeatureObject.html#a023edd409ca58f579708564c89b70ac4", null ],
     [ "getBasePoint", "classMR_1_1FeatureObject.html#a9156046dada7ff2cd440abcec27fa98b", null ],
-    [ "getClassName", "classMR_1_1FeatureObject.html#a8051080409df88c3003d681ac09c636d", null ],
-    [ "getClassNameInPlural", "classMR_1_1FeatureObject.html#a182a5ad51b424049e24278767e2512b1", null ],
     [ "getDecorationsColor", "classMR_1_1FeatureObject.html#afa41398b2369e2bbe90b107c3de0bbe6", null ],
     [ "getDecorationsColorForAllViewports", "classMR_1_1FeatureObject.html#a38e30bc9c390d73d9e302ef1e6f6238f", null ],
     [ "getLineWidth", "classMR_1_1FeatureObject.html#a40c1b4ffd8d3aba7fe5898caa6130b74", null ],

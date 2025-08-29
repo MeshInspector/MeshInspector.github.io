@@ -2,10 +2,10 @@ var classmrmeshpy_1_1ObjectGcode =
 [
     [ "__init__", "classmrmeshpy_1_1ObjectGcode.html#aeeee8765f9cedaf64cb20f3385a745d3", null ],
     [ "actionList", "classmrmeshpy_1_1ObjectGcode.html#a5132a88c51189570c41d37e2d6526f8c", null ],
+    [ "className", "classmrmeshpy_1_1ObjectGcode.html#a1a3257d0cef8a8dd7859cbefcd03cf5a", null ],
+    [ "classNameInPlural", "classmrmeshpy_1_1ObjectGcode.html#a8c22af6955cd46354fb8e65f58569619", null ],
     [ "clone", "classmrmeshpy_1_1ObjectGcode.html#a69d90eb39a7c8f555722df8156f69463", null ],
     [ "gcodeSource", "classmrmeshpy_1_1ObjectGcode.html#ad64a9d61989c7c82fb8e106e0d3917f9", null ],
-    [ "getClassName", "classmrmeshpy_1_1ObjectGcode.html#a2f7657ac9051a5e9f91005e73061e14b", null ],
-    [ "getClassNameInPlural", "classmrmeshpy_1_1ObjectGcode.html#a16189e1bd553b6d96e0dbfe34b912d21", null ],
     [ "getCNCMachineSettings", "classmrmeshpy_1_1ObjectGcode.html#af4398fac392c089fc989062c1234e25d", null ],
     [ "getIdleColor", "classmrmeshpy_1_1ObjectGcode.html#a0e63b729febadb43f1e13d59174f80d3", null ],
     [ "getInfoLines", "classmrmeshpy_1_1ObjectGcode.html#a7ea09ad84cdca61d84505611b67484aa", null ],

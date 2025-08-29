@@ -2,11 +2,11 @@ var classmrmeshpy_1_1DistanceMeasurementObject =
 [
     [ "DistanceMode", "classmrmeshpy_1_1DistanceMeasurementObject_1_1DistanceMode.html", "classmrmeshpy_1_1DistanceMeasurementObject_1_1DistanceMode" ],
     [ "__init__", "classmrmeshpy_1_1DistanceMeasurementObject.html#ad39016caf2db5099aa1f469a6d3c3c39", null ],
+    [ "className", "classmrmeshpy_1_1DistanceMeasurementObject.html#afbc5a5cee57fe29a38e4539dbc2e09ae", null ],
+    [ "classNameInPlural", "classmrmeshpy_1_1DistanceMeasurementObject.html#a340518798b1921d0d1e8b6f9de553317", null ],
     [ "clone", "classmrmeshpy_1_1DistanceMeasurementObject.html#af34f9bc6a9200561e8f68cddd725835c", null ],
     [ "compareProperty", "classmrmeshpy_1_1DistanceMeasurementObject.html#ac19cd0b188c1102701eebf1a19f3754a", null ],
     [ "computeDistance", "classmrmeshpy_1_1DistanceMeasurementObject.html#accbd47e4d43f7c83b6660407e216f061", null ],
-    [ "getClassName", "classmrmeshpy_1_1DistanceMeasurementObject.html#a470309e910d88a26eeb3289a6be7d646", null ],
-    [ "getClassNameInPlural", "classmrmeshpy_1_1DistanceMeasurementObject.html#a0f92be20a88d82a7b385c00417bd92b4", null ],
     [ "getComparablePropertyName", "classmrmeshpy_1_1DistanceMeasurementObject.html#aa27b089776bfb619ffe43a2d4b29bf9b", null ],
     [ "getComparisonReferenceValue", "classmrmeshpy_1_1DistanceMeasurementObject.html#a6eae6b8e4cf5fcb5fbe7a11c8b60b325", null ],
     [ "getComparisonTolerences", "classmrmeshpy_1_1DistanceMeasurementObject.html#afdf211a03abf74a12e62b3d708be2741", null ],
