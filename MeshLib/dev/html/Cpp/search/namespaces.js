@@ -87,7 +87,7 @@ var searchData=
   ['mrmeshpy_3a_3aobjectvoxels_3a_3avolumerenderingparams_81',['VolumeRenderingParams',['../../Py/classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1AlphaType.html',1,'mrmeshpy::ObjectVoxels']]],
   ['mrmeshpy_3a_3aoffsetcontoursparams_82',['OffsetContoursParams',['../../Py/classmrmeshpy_1_1OffsetContoursParams_1_1CornerType.html',1,'mrmeshpy']]],
   ['mrmeshpy_3a_3aparallel_83',['Parallel',['../../Py/classmrmeshpy_1_1Parallel_1_1CallSimply.html',1,'mrmeshpy']]],
-  ['mrmeshpy_3a_3apdf_84',['Pdf',['../../Py/classmrmeshpy_1_1Pdf_1_1ImageParams.html',1,'mrmeshpy']]],
+  ['mrmeshpy_3a_3apdf_84',['Pdf',['../../Py/classmrmeshpy_1_1Pdf_1_1Cell.html',1,'mrmeshpy']]],
   ['mrmeshpy_3a_3aplanartriangulation_85',['PlanarTriangulation',['../../Py/classmrmeshpy_1_1PlanarTriangulation_1_1BaseOutlineParameters.html',1,'mrmeshpy']]],
   ['mrmeshpy_3a_3apointsload_86',['PointsLoad',['../../Py/classmrmeshpy_1_1PointsLoad_1_1E57LoadSettings.html',1,'mrmeshpy']]],
   ['mrmeshpy_3a_3apointssave_87',['PointsSave',['../../Py/classmrmeshpy_1_1PointsSave_1_1CtmSavePointsOptions.html',1,'mrmeshpy']]],

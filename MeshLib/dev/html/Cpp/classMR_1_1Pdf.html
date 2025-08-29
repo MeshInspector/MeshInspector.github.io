@@ -147,6 +147,7 @@ $(function(){initNavTree('classMR_1_1Pdf.html',''); initResizable(true); });
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="classMR_1_1Pdf-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR::Pdf Class Reference</div></div>
@@ -157,11 +158,22 @@ $(function(){initNavTree('classMR_1_1Pdf.html',''); initResizable(true); });
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Pdf_1_1Cell.html">Cell</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Pdf_1_1CellCustomParams.html">CellCustomParams</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Pdf_1_1EmptyCell.html">EmptyCell</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Pdf_1_1ImageParams.html">ImageParams</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters to adding image from file.  <a href="structMR_1_1Pdf_1_1ImageParams.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Pdf_1_1PaletteRowStats.html">PaletteRowStats</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a6e33eadc4d9e3e7f394dae468da894c5" id="r_a6e33eadc4d9e3e7f394dae468da894c5"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e33eadc4d9e3e7f394dae468da894c5">TableCustomRule</a> = std::function&lt;<a class="el" href="structMR_1_1Pdf_1_1CellCustomParams.html">CellCustomParams</a>( int row, int column, const std::string&amp; cellValueText)&gt;</td></tr>
+<tr class="separator:a6e33eadc4d9e3e7f394dae468da894c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -205,10 +217,39 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1dd5556a4f0d253153c5fe0bd80ceab3" id="r_a1dd5556a4f0d253153c5fe0bd80ceab3"><td class="memItemLeft" align="right" valign="top">MRIOEXTRAS_API&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1dd5556a4f0d253153c5fe0bd80ceab3">operator bool</a> () const</td></tr>
 <tr class="memdesc:a1dd5556a4f0d253153c5fe0bd80ceab3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checking the ability to work with a document.  <br /></td></tr>
 <tr class="separator:a1dd5556a4f0d253153c5fe0bd80ceab3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a261bf8bbc1276a8db04b94833e6d4f72" id="r_a261bf8bbc1276a8db04b94833e6d4f72"><td class="memItemLeft" align="right" valign="top">MRIOEXTRAS_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a261bf8bbc1276a8db04b94833e6d4f72">newTable</a> (int columnCount)</td></tr>
+<tr class="separator:a261bf8bbc1276a8db04b94833e6d4f72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac86cc8971f93f1f4b2aef2eace885b2b" id="r_ac86cc8971f93f1f4b2aef2eace885b2b"><td class="memItemLeft" align="right" valign="top">MRIOEXTRAS_API <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac86cc8971f93f1f4b2aef2eace885b2b">setTableColumnWidths</a> (const std::vector&lt; float &gt; &amp;widths)</td></tr>
+<tr class="separator:ac86cc8971f93f1f4b2aef2eace885b2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afaf69d5e8800ddef0ab9968082cc1da8" id="r_afaf69d5e8800ddef0ab9968082cc1da8"><td class="memItemLeft" align="right" valign="top">MRIOEXTRAS_API <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afaf69d5e8800ddef0ab9968082cc1da8">addTableTitles</a> (const std::vector&lt; std::string &gt; &amp;titles)</td></tr>
+<tr class="separator:afaf69d5e8800ddef0ab9968082cc1da8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46f8ba492e1e579c5577c40304761698" id="r_a46f8ba492e1e579c5577c40304761698"><td class="memItemLeft" align="right" valign="top">MRIOEXTRAS_API <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46f8ba492e1e579c5577c40304761698">setColumnValuesFormat</a> (const std::vector&lt; std::string &gt; &amp;formats)</td></tr>
+<tr class="separator:a46f8ba492e1e579c5577c40304761698"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab32723b16f57913d8b0edd654da12d4a" id="r_ab32723b16f57913d8b0edd654da12d4a"><td class="memItemLeft" align="right" valign="top">MRIOEXTRAS_API <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab32723b16f57913d8b0edd654da12d4a">addRow</a> (const std::vector&lt; <a class="el" href="structMR_1_1Pdf_1_1Cell.html">Cell</a> &gt; &amp;cells)</td></tr>
+<tr class="separator:ab32723b16f57913d8b0edd654da12d4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1c742e73c20c57c86e24c5cb37a9b6e" id="r_ad1c742e73c20c57c86e24c5cb37a9b6e"><td class="memItemLeft" align="right" valign="top">MRIOEXTRAS_API float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1c742e73c20c57c86e24c5cb37a9b6e">getTableTextWidth</a> (const std::string &amp;text)</td></tr>
+<tr class="separator:ad1c742e73c20c57c86e24c5cb37a9b6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a390764a2cd1ac5662384be6f8151a476" id="r_a390764a2cd1ac5662384be6f8151a476"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a390764a2cd1ac5662384be6f8151a476">setTableCustomRule</a> (<a class="el" href="#a6e33eadc4d9e3e7f394dae468da894c5">TableCustomRule</a> rule)</td></tr>
+<tr class="separator:a390764a2cd1ac5662384be6f8151a476"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class for simple creation pdf. </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="a6e33eadc4d9e3e7f394dae468da894c5" name="a6e33eadc4d9e3e7f394dae468da894c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e33eadc4d9e3e7f394dae468da894c5">&#9670;&#160;</a></span>TableCustomRule</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#a6e33eadc4d9e3e7f394dae468da894c5">MR::Pdf::TableCustomRule</a> = std::function&lt;<a class="el" href="structMR_1_1Pdf_1_1CellCustomParams.html">CellCustomParams</a>( int row, int column, const std::string&amp; cellValueText)&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a9f0c7ef105e92a128194a9adfc92d221" name="a9f0c7ef105e92a128194a9adfc92d221"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9f0c7ef105e92a128194a9adfc92d221">&#9670;&#160;</a></span>Pdf() <span class="overload">[1/2]</span></h2>
 
@@ -313,6 +354,23 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ab32723b16f57913d8b0edd654da12d4a" name="ab32723b16f57913d8b0edd654da12d4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab32723b16f57913d8b0edd654da12d4a">&#9670;&#160;</a></span>addRow()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRIOEXTRAS_API <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::Pdf::addRow </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="structMR_1_1Pdf_1_1Cell.html">Cell</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>cells</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="abeba0e412b8eb52c6291c259c2433368" name="abeba0e412b8eb52c6291c259c2433368"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abeba0e412b8eb52c6291c259c2433368">&#9670;&#160;</a></span>addTable()</h2>
 
@@ -328,6 +386,23 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Add set of pair string - value in current cursor position. Move cursor. <a class="el" href="structMR_1_1Box.html" title="Box given by its min- and max- corners.">Box</a> horizontal size is page width without offset. <a class="el" href="structMR_1_1Box.html" title="Box given by its min- and max- corners.">Box</a> vertical size is automatically for text. </p>
+
+</div>
+</div>
+<a id="afaf69d5e8800ddef0ab9968082cc1da8" name="afaf69d5e8800ddef0ab9968082cc1da8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afaf69d5e8800ddef0ab9968082cc1da8">&#9670;&#160;</a></span>addTableTitles()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRIOEXTRAS_API <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::Pdf::addTableTitles </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; std::string &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>titles</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -437,6 +512,23 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ad1c742e73c20c57c86e24c5cb37a9b6e" name="ad1c742e73c20c57c86e24c5cb37a9b6e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1c742e73c20c57c86e24c5cb37a9b6e">&#9670;&#160;</a></span>getTableTextWidth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRIOEXTRAS_API float MR::Pdf::getTableTextWidth </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>text</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a6b4f163cd54edddf7ed416f248944a41" name="a6b4f163cd54edddf7ed416f248944a41"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6b4f163cd54edddf7ed416f248944a41">&#9670;&#160;</a></span>newPage()</h2>
 
@@ -453,6 +545,23 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Add new pageand move cursor on it. </p>
+
+</div>
+</div>
+<a id="a261bf8bbc1276a8db04b94833e6d4f72" name="a261bf8bbc1276a8db04b94833e6d4f72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a261bf8bbc1276a8db04b94833e6d4f72">&#9670;&#160;</a></span>newTable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRIOEXTRAS_API void MR::Pdf::newTable </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>columnCount</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -519,6 +628,23 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a46f8ba492e1e579c5577c40304761698" name="a46f8ba492e1e579c5577c40304761698"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46f8ba492e1e579c5577c40304761698">&#9670;&#160;</a></span>setColumnValuesFormat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRIOEXTRAS_API <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::Pdf::setColumnValuesFormat </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; std::string &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>formats</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a2d50ce4fd99aacbb45dbd1c55bcaef48" name="a2d50ce4fd99aacbb45dbd1c55bcaef48"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2d50ce4fd99aacbb45dbd1c55bcaef48">&#9670;&#160;</a></span>setCursorPosX()</h2>
 
@@ -557,6 +683,48 @@ Public Member Functions</h2></td></tr>
           <td class="memname">void MR::Pdf::setCursorPosY </td>
           <td>(</td>
           <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>posY</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac86cc8971f93f1f4b2aef2eace885b2b" name="ac86cc8971f93f1f4b2aef2eace885b2b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac86cc8971f93f1f4b2aef2eace885b2b">&#9670;&#160;</a></span>setTableColumnWidths()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRIOEXTRAS_API <a class="el" href="namespaceMR.html#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::Pdf::setTableColumnWidths </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; float &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>widths</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a390764a2cd1ac5662384be6f8151a476" name="a390764a2cd1ac5662384be6f8151a476"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a390764a2cd1ac5662384be6f8151a476">&#9670;&#160;</a></span>setTableCustomRule()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::Pdf::setTableCustomRule </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a6e33eadc4d9e3e7f394dae468da894c5">TableCustomRule</a></td>          <td class="paramname"><span class="paramname"><em>rule</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>

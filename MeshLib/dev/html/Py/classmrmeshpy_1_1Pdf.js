@@ -1,5 +1,8 @@
 var classmrmeshpy_1_1Pdf =
 [
+    [ "Cell", "classmrmeshpy_1_1Pdf_1_1Cell.html", "classmrmeshpy_1_1Pdf_1_1Cell" ],
+    [ "CellCustomParams", "classmrmeshpy_1_1Pdf_1_1CellCustomParams.html", "classmrmeshpy_1_1Pdf_1_1CellCustomParams" ],
+    [ "EmptyCell", "classmrmeshpy_1_1Pdf_1_1EmptyCell.html", "classmrmeshpy_1_1Pdf_1_1EmptyCell" ],
     [ "ImageParams", "classmrmeshpy_1_1Pdf_1_1ImageParams.html", "classmrmeshpy_1_1Pdf_1_1ImageParams" ],
     [ "PaletteRowStats", "classmrmeshpy_1_1Pdf_1_1PaletteRowStats.html", "classmrmeshpy_1_1Pdf_1_1PaletteRowStats" ],
     [ "__init__", "classmrmeshpy_1_1Pdf.html#a9d71ed873d4849d4890d6ee5f6777674", null ],
@@ -7,14 +10,21 @@ var classmrmeshpy_1_1Pdf =
     [ "__repr__", "classmrmeshpy_1_1Pdf.html#ad3a53512d47466724d34d6a124805d61", null ],
     [ "addImageFromFile", "classmrmeshpy_1_1Pdf.html#a878ae81b78f655d6150c3080945fc5ef", null ],
     [ "addPaletteStatsTable", "classmrmeshpy_1_1Pdf.html#af06934f050b86f2171a900f35534092a", null ],
+    [ "addRow", "classmrmeshpy_1_1Pdf.html#a83277819becefd776265a99eeb6f3305", null ],
     [ "addTable", "classmrmeshpy_1_1Pdf.html#ae991a90a1adc58ad36df8c9d51d6d469", null ],
+    [ "addTableTitles", "classmrmeshpy_1_1Pdf.html#aefa32a7d51604f5033595dc7666e96c7", null ],
     [ "addText", "classmrmeshpy_1_1Pdf.html#a305ba9004bc385fc5d8e5c9cd8761773", null ],
     [ "getCursorPosX", "classmrmeshpy_1_1Pdf.html#a51465290b9fc58b363ca969c939ca83a", null ],
     [ "getCursorPosY", "classmrmeshpy_1_1Pdf.html#af7fa552ce73f3de10f238365873fd942", null ],
     [ "getPageSize", "classmrmeshpy_1_1Pdf.html#a3b999a1026f0e80c32bbcf4ff128093b", null ],
     [ "getPageWorkArea", "classmrmeshpy_1_1Pdf.html#ae719a32aab205480e494f2db0e3df787", null ],
+    [ "getTableTextWidth", "classmrmeshpy_1_1Pdf.html#a32193b69a57d65e2b49c6dca29031215", null ],
     [ "newPage", "classmrmeshpy_1_1Pdf.html#ad43822f498e4e7227ab64215a09bcb1f", null ],
+    [ "newTable", "classmrmeshpy_1_1Pdf.html#a2593c706281ffff41d51b845d46309f1", null ],
     [ "saveToFile", "classmrmeshpy_1_1Pdf.html#aefa553251b3108a9f252c82fe7e5421c", null ],
+    [ "setColumnValuesFormat", "classmrmeshpy_1_1Pdf.html#afc026fdbf0e82b49ad18e189378e2777", null ],
     [ "setCursorPosX", "classmrmeshpy_1_1Pdf.html#a686eeef34847933b5a1b10ff61bea26e", null ],
-    [ "setCursorPosY", "classmrmeshpy_1_1Pdf.html#acd02be45110227755d4aadb62b54792b", null ]
+    [ "setCursorPosY", "classmrmeshpy_1_1Pdf.html#acd02be45110227755d4aadb62b54792b", null ],
+    [ "setTableColumnWidths", "classmrmeshpy_1_1Pdf.html#a24ffc751976a1bcf9d5041e022b7e3f9", null ],
+    [ "setTableCustomRule", "classmrmeshpy_1_1Pdf.html#aaa28e810e52fb78dd6718a5f70e04cd0", null ]
 ];
