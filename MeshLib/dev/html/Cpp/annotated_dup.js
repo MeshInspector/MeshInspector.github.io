@@ -74,7 +74,9 @@ var annotated_dup =
         [ "LineParams", "structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html", "structMR_1_1ImGuiMeasurementIndicators_1_1LineParams" ],
         [ "Params", "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html", "structMR_1_1ImGuiMeasurementIndicators_1_1Params" ],
         [ "PreparedCurve", "structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve.html", "structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve" ],
-        [ "StringWithIcon", "structMR_1_1ImGuiMeasurementIndicators_1_1StringWithIcon.html", "structMR_1_1ImGuiMeasurementIndicators_1_1StringWithIcon" ]
+        [ "Text", "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html", "structMR_1_1ImGuiMeasurementIndicators_1_1Text" ],
+        [ "TextColor", "structMR_1_1ImGuiMeasurementIndicators_1_1TextColor.html", "structMR_1_1ImGuiMeasurementIndicators_1_1TextColor" ],
+        [ "TextFont", "structMR_1_1ImGuiMeasurementIndicators_1_1TextFont.html", "structMR_1_1ImGuiMeasurementIndicators_1_1TextFont" ]
       ] ],
       [ "LinesLoad", "namespaceMR_1_1LinesLoad.html", [
         [ "LinesLoader", "structMR_1_1LinesLoad_1_1LinesLoader.html", "structMR_1_1LinesLoad_1_1LinesLoader" ]
@@ -625,6 +627,7 @@ var annotated_dup =
       [ "NumSum", "structMR_1_1NumSum.html", "structMR_1_1NumSum" ],
       [ "Object", "classMR_1_1Object.html", "classMR_1_1Object" ],
       [ "ObjectChildrenHolder", "classMR_1_1ObjectChildrenHolder.html", "classMR_1_1ObjectChildrenHolder" ],
+      [ "ObjectComparableWithReference", "classMR_1_1ObjectComparableWithReference.html", "classMR_1_1ObjectComparableWithReference" ],
       [ "ObjectDistanceMap", "classMR_1_1ObjectDistanceMap.html", "classMR_1_1ObjectDistanceMap" ],
       [ "ObjectFactory", "classMR_1_1ObjectFactory.html", "classMR_1_1ObjectFactory" ],
       [ "ObjectFactoryBase", "classMR_1_1ObjectFactoryBase.html", "classMR_1_1ObjectFactoryBase" ],

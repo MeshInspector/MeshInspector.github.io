@@ -95,6 +95,8 @@ var MRFeatures_8h =
     [ "MR_Features_MeasureResult_Distance_DefaultConstructArray", "MRFeatures_8h.html#a9801beb908b169079ea8fa96ae8c759c", null ],
     [ "MR_Features_MeasureResult_Distance_Destroy", "MRFeatures_8h.html#a75c77c4104bfed5d168afce9d09bd9b7", null ],
     [ "MR_Features_MeasureResult_Distance_DestroyArray", "MRFeatures_8h.html#aa54d3bbdf035bfb4cacbca0ad08b7edd", null ],
+    [ "MR_Features_MeasureResult_Distance_distanceAlongAxis", "MRFeatures_8h.html#a564f50dc26bb3c33b0625d80e55e3f13", null ],
+    [ "MR_Features_MeasureResult_Distance_distanceAlongAxisAbs", "MRFeatures_8h.html#a0b53ccd727057cd0286d049c652f83e9", null ],
     [ "MR_Features_MeasureResult_Distance_Get_closestPointA", "MRFeatures_8h.html#a0204e4f52618e689a0fbd22d4f7bed4e", null ],
     [ "MR_Features_MeasureResult_Distance_Get_closestPointB", "MRFeatures_8h.html#ab7033e058eb68cbaf70c6e5c2af247e1", null ],
     [ "MR_Features_MeasureResult_Distance_Get_distance", "MRFeatures_8h.html#a35180952ab498e8aab78ef5bb3ee1aa6", null ],

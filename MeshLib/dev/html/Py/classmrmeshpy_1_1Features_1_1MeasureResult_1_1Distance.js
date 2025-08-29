@@ -4,5 +4,7 @@ var classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance =
     [ "__repr__", "classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance.html#a21180c5aec2130a8a816275f883b7ac6", null ],
     [ "closestPointFor", "classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance.html#a58cff51c9202b6ae7c6e4227b7b40036", null ],
     [ "distance", "classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance.html#ae6d992741122cc18a475e6b707992883", null ],
-    [ "distance", "classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance.html#ad9f66589e7ae5a340390d98b1f8d48d5", null ]
+    [ "distance", "classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance.html#ad9f66589e7ae5a340390d98b1f8d48d5", null ],
+    [ "distanceAlongAxis", "classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance.html#a6d156650ea67454fb435ca14683ea5d8", null ],
+    [ "distanceAlongAxisAbs", "classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance.html#ac9998974a776f3b71967adee7614ae84", null ]
 ];

@@ -204,6 +204,7 @@ var hierarchy =
     [ "MR::GcodeProcessor::Command", "structMR_1_1GcodeProcessor_1_1Command.html", null ],
     [ "MR::CommandLoop", "classMR_1_1CommandLoop.html", null ],
     [ "MR::ImGuiMath::detail::CommonVecSize< T, P... >", "structMR_1_1ImGuiMath_1_1detail_1_1CommonVecSize_3_01T_00_01P_8_8_8_01_4.html", null ],
+    [ "MR::ObjectComparableWithReference::ComparisonTolerance", "structMR_1_1ObjectComparableWithReference_1_1ComparisonTolerance.html", null ],
     [ "MR::CompensateRadiusParams", "structMR_1_1CompensateRadiusParams.html", null ],
     [ "MR::ComputeSteepestDescentPathSettings", "structMR_1_1ComputeSteepestDescentPathSettings.html", null ],
     [ "MR::Cone3< T >", "classMR_1_1Cone3.html", null ],
@@ -344,6 +345,7 @@ var hierarchy =
     [ "MR::EdgePointPair", "structMR_1_1EdgePointPair.html", null ],
     [ "MR::EdgeSegment", "structMR_1_1EdgeSegment.html", null ],
     [ "MR::EdgeTri", "structMR_1_1EdgeTri.html", null ],
+    [ "MR::ImGuiMeasurementIndicators::Text::Elem", "structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem.html", null ],
     [ "MR::Heap< T, I, P >::Element", "structMR_1_1Heap_1_1Element.html", null ],
     [ "MR::EmbeddedPython", "classMR_1_1EmbeddedPython.html", null ],
     [ "MR::EmbeddedStructureParameters", "structMR_1_1EmbeddedStructureParameters.html", null ],
@@ -715,6 +717,7 @@ var hierarchy =
     [ "MR::MeshComponents::LargeByAreaComponentsSettings", "structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html", null ],
     [ "MR::LaunchParams", "structMR_1_1LaunchParams.html", null ],
     [ "MR::RenderDimensions::LengthParams", "structMR_1_1RenderDimensions_1_1LengthParams.html", null ],
+    [ "MR::ImGuiMeasurementIndicators::Text::Line", "structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Line.html", null ],
     [ "MR::Line< V >", "structMR_1_1Line.html", null ],
     [ "MR::Line3Mesh< T >", "structMR_1_1Line3Mesh.html", null ],
     [ "MR::Line< T >", "structMR_1_1Line.html", null ],
@@ -945,6 +948,9 @@ var hierarchy =
           ] ]
         ] ]
       ] ]
+    ] ],
+    [ "MR::ObjectComparableWithReference", "classMR_1_1ObjectComparableWithReference.html", [
+      [ "MR::DistanceMeasurementObject", "classMR_1_1DistanceMeasurementObject.html", null ]
     ] ],
     [ "MR::ObjectFactoryBase", "classMR_1_1ObjectFactoryBase.html", [
       [ "MR::ObjectFactory< T >", "classMR_1_1ObjectFactory.html", null ]
@@ -1213,7 +1219,6 @@ var hierarchy =
     [ "std::streambuf", null, [
       [ "MR::LoggingStreambuf", "classMR_1_1LoggingStreambuf.html", null ]
     ] ],
-    [ "MR::ImGuiMeasurementIndicators::StringWithIcon", "structMR_1_1ImGuiMeasurementIndicators_1_1StringWithIcon.html", null ],
     [ "MR::SubdivideSettings", "structMR_1_1SubdivideSettings.html", null ],
     [ "MR::Features::SubfeatureInfo", "structMR_1_1Features_1_1SubfeatureInfo.html", null ],
     [ "MR::RenderWrapObject::detail::SubobjectStorage< ObjectType >", "structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage.html", [
@@ -1247,8 +1252,12 @@ var hierarchy =
     [ "MR::TbbThreadMutex", "classMR_1_1TbbThreadMutex.html", null ],
     [ "MR::TeethMaskToDirectionVolumeConvertor", "classMR_1_1TeethMaskToDirectionVolumeConvertor.html", null ],
     [ "MR::TerminalVertex", "structMR_1_1TerminalVertex.html", null ],
+    [ "MR::ImGuiMeasurementIndicators::Text", "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html", null ],
+    [ "MR::ImGuiMeasurementIndicators::TextColor", "structMR_1_1ImGuiMeasurementIndicators_1_1TextColor.html", null ],
+    [ "MR::ImGuiMeasurementIndicators::TextFont", "structMR_1_1ImGuiMeasurementIndicators_1_1TextFont.html", null ],
     [ "MR::Tgt2SrcMaps", "classMR_1_1Tgt2SrcMaps.html", null ],
     [ "MR::Timer", "classMR_1_1Timer.html", null ],
+    [ "MR::RenderDimensions::LengthParams::Tolerance", "structMR_1_1RenderDimensions_1_1LengthParams_1_1Tolerance.html", null ],
     [ "MR::Toolbar", "classMR_1_1Toolbar.html", null ],
     [ "MR::ToolPathParams", "structMR_1_1ToolPathParams.html", [
       [ "MR::ConstantCuspParams", "structMR_1_1ConstantCuspParams.html", null ]

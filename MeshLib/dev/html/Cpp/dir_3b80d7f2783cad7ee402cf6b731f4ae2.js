@@ -246,6 +246,7 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRNormalDenoising.h", "MRMesh_2MRNormalDenoising_8h.html", "MRMesh_2MRNormalDenoising_8h" ],
     [ "MRNormalsToPoints.h", "MRNormalsToPoints_8h.html", "MRNormalsToPoints_8h" ],
     [ "MRObject.h", "MRObject_8h.html", "MRObject_8h" ],
+    [ "MRObjectComparableWithReference.h", "MRObjectComparableWithReference_8h.html", "MRObjectComparableWithReference_8h" ],
     [ "MRObjectDimensionsEnum.h", "MRObjectDimensionsEnum_8h.html", "MRObjectDimensionsEnum_8h" ],
     [ "MRObjectDistanceMap.h", "MRObjectDistanceMap_8h.html", null ],
     [ "MRObjectFactory.h", "MRObjectFactory_8h.html", "MRObjectFactory_8h" ],

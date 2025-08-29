@@ -167,7 +167,11 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve.html">PreparedCurve</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1StringWithIcon.html">StringWithIcon</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1Text.html">Text</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1TextColor.html">TextColor</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1TextFont.html">TextFont</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
@@ -177,10 +181,9 @@ Enumerations</h2></td></tr>
 , <a class="el" href="#ab3d1526afb0782fa9501df90cb1b2898af6cb3e816496528d4187db53bc66567f">both</a> = main | outline
  }</td></tr>
 <tr class="separator:ab3d1526afb0782fa9501df90cb1b2898"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a516ec43eeeb87482edc172f968bb73de" id="r_a516ec43eeeb87482edc172f968bb73de"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a516ec43eeeb87482edc172f968bb73de">StringIcon</a> { <a class="el" href="#a516ec43eeeb87482edc172f968bb73dea334c4a4c42fdb79d7ebc3e73b517e6f8">none</a>
-, <a class="el" href="#a516ec43eeeb87482edc172f968bb73dea35f16dc084a53860f5cb3962107d5378">diameter</a>
+<tr class="memitem:ada21c38059140ab54d2c729c198e39f4" id="r_ada21c38059140ab54d2c729c198e39f4"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada21c38059140ab54d2c729c198e39f4">TextIcon</a> { <a class="el" href="#ada21c38059140ab54d2c729c198e39f4a35f16dc084a53860f5cb3962107d5378">diameter</a>
  }</td></tr>
-<tr class="separator:a516ec43eeeb87482edc172f968bb73de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:ada21c38059140ab54d2c729c198e39f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf160e58360dc1e2c715f0b72dba162d" id="r_aaf160e58360dc1e2c715f0b72dba162d"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf160e58360dc1e2c715f0b72dba162d">LineFlags</a> { <a class="el" href="#aaf160e58360dc1e2c715f0b72dba162da06a224da9e61bee19ec9eef88b95f934">narrow</a> = 1 &lt;&lt; 0
 , <a class="el" href="#aaf160e58360dc1e2c715f0b72dba162da5c4562eb35560ecfac0098dbf8cb3a74">noBackwardArrowTipOffset</a> = 1 &lt;&lt; 1
  }</td></tr>
@@ -190,14 +193,14 @@ Enumerations</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a41f4d6d002c7cff807425bbcb80c5edd" id="r_a41f4d6d002c7cff807425bbcb80c5edd"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41f4d6d002c7cff807425bbcb80c5edd">point</a> (<a class="el" href="#ab3d1526afb0782fa9501df90cb1b2898">Element</a> elem, float menuScaling, const <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1Params.html">Params</a> &amp;params, ImVec2 point)</td></tr>
 <tr class="separator:a41f4d6d002c7cff807425bbcb80c5edd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a332cd23bae44470d3c2076a7d5a5d0ef" id="r_a332cd23bae44470d3c2076a7d5a5d0ef"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a332cd23bae44470d3c2076a7d5a5d0ef">text</a> (<a class="el" href="#ab3d1526afb0782fa9501df90cb1b2898">Element</a> elem, float menuScaling, const <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1Params.html">Params</a> &amp;params, ImVec2 pos, <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1StringWithIcon.html">StringWithIcon</a> string, ImVec2 push={}, ImVec2 pivot={ 0.5f, 0.5f })</td></tr>
-<tr class="separator:a332cd23bae44470d3c2076a7d5a5d0ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3679b03b28c5edb458b526d13cf222d0" id="r_a3679b03b28c5edb458b526d13cf222d0"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3679b03b28c5edb458b526d13cf222d0">text</a> (<a class="el" href="#ab3d1526afb0782fa9501df90cb1b2898">Element</a> elem, float menuScaling, const <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1Params.html">Params</a> &amp;params, ImVec2 pos, const <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1Text.html">Text</a> &amp;text, ImVec2 push={}, ImVec2 pivot={ 0.5f, 0.5f })</td></tr>
+<tr class="separator:a3679b03b28c5edb458b526d13cf222d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a660e781c3399b37449e24305cf8bbdc4" id="r_a660e781c3399b37449e24305cf8bbdc4"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a660e781c3399b37449e24305cf8bbdc4">arrowTriangle</a> (<a class="el" href="#ab3d1526afb0782fa9501df90cb1b2898">Element</a> elem, float menuScaling, const <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1Params.html">Params</a> &amp;params, ImVec2 <a class="el" href="#a41f4d6d002c7cff807425bbcb80c5edd">point</a>, ImVec2 dir)</td></tr>
 <tr class="separator:a660e781c3399b37449e24305cf8bbdc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6029334be476b361570837d6592b4272" id="r_a6029334be476b361570837d6592b4272"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6029334be476b361570837d6592b4272">line</a> (<a class="el" href="#ab3d1526afb0782fa9501df90cb1b2898">Element</a> elem, float menuScaling, const <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1Params.html">Params</a> &amp;params, ImVec2 a, ImVec2 b, const <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html">LineParams</a> &amp;lineParams={})</td></tr>
 <tr class="separator:a6029334be476b361570837d6592b4272"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac2552860465fff80ce74a099710e84c6" id="r_ac2552860465fff80ce74a099710e84c6"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2552860465fff80ce74a099710e84c6">distance</a> (<a class="el" href="#ab3d1526afb0782fa9501df90cb1b2898">Element</a> elem, float menuScaling, const <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1Params.html">Params</a> &amp;params, ImVec2 a, ImVec2 b, <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1StringWithIcon.html">StringWithIcon</a> string, const <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html">DistanceParams</a> &amp;distanceParams={})</td></tr>
-<tr class="separator:ac2552860465fff80ce74a099710e84c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a3e5131d0fe59437835a460ca2dfcc5" id="r_a0a3e5131d0fe59437835a460ca2dfcc5"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a3e5131d0fe59437835a460ca2dfcc5">distance</a> (<a class="el" href="#ab3d1526afb0782fa9501df90cb1b2898">Element</a> elem, float menuScaling, const <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1Params.html">Params</a> &amp;params, ImVec2 a, ImVec2 b, const <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1Text.html">Text</a> &amp;<a class="el" href="#a3679b03b28c5edb458b526d13cf222d0">text</a>, const <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html">DistanceParams</a> &amp;distanceParams={})</td></tr>
+<tr class="separator:a0a3e5131d0fe59437835a460ca2dfcc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8511657c2ed1cc63ff209a6ede1c0f9" id="r_aa8511657c2ed1cc63ff209a6ede1c0f9"><td class="memTemplParams" colspan="2">template&lt;typename A , typename B , typename F , typename G , typename H  = std::nullptr_t&gt; </td></tr>
 <tr class="memitem:aa8511657c2ed1cc63ff209a6ede1c0f9"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve.html">PreparedCurve</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#aa8511657c2ed1cc63ff209a6ede1c0f9">prepareCurve</a> (const <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html">CurveParams</a> &amp;curveParams, std::vector&lt; ImVec2 &gt; &amp;pointBuffer, const A &amp;stateA, const B &amp;stateB, F &amp;&amp;stateToPoint, G &amp;&amp;bisectState, H &amp;&amp;onInsertPoint=nullptr)</td></tr>
 <tr class="separator:aa8511657c2ed1cc63ff209a6ede1c0f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -256,8 +259,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a516ec43eeeb87482edc172f968bb73de" name="a516ec43eeeb87482edc172f968bb73de"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a516ec43eeeb87482edc172f968bb73de">&#9670;&#160;</a></span>StringIcon</h2>
+<a id="ada21c38059140ab54d2c729c198e39f4" name="ada21c38059140ab54d2c729c198e39f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada21c38059140ab54d2c729c198e39f4">&#9670;&#160;</a></span>TextIcon</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -266,7 +269,7 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">enum class <a class="el" href="#a516ec43eeeb87482edc172f968bb73de">MR::ImGuiMeasurementIndicators::StringIcon</a></td>
+          <td class="memname">enum class <a class="el" href="#ada21c38059140ab54d2c729c198e39f4">MR::ImGuiMeasurementIndicators::TextIcon</a></td>
         </tr>
       </table>
   </td>
@@ -276,8 +279,7 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a516ec43eeeb87482edc172f968bb73dea334c4a4c42fdb79d7ebc3e73b517e6f8" name="a516ec43eeeb87482edc172f968bb73dea334c4a4c42fdb79d7ebc3e73b517e6f8"></a>none&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a516ec43eeeb87482edc172f968bb73dea35f16dc084a53860f5cb3962107d5378" name="a516ec43eeeb87482edc172f968bb73dea35f16dc084a53860f5cb3962107d5378"></a>diameter&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ada21c38059140ab54d2c729c198e39f4a35f16dc084a53860f5cb3962107d5378" name="ada21c38059140ab54d2c729c198e39f4a35f16dc084a53860f5cb3962107d5378"></a>diameter&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -319,8 +321,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ac2552860465fff80ce74a099710e84c6" name="ac2552860465fff80ce74a099710e84c6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac2552860465fff80ce74a099710e84c6">&#9670;&#160;</a></span>distance()</h2>
+<a id="a0a3e5131d0fe59437835a460ca2dfcc5" name="a0a3e5131d0fe59437835a460ca2dfcc5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a3e5131d0fe59437835a460ca2dfcc5">&#9670;&#160;</a></span>distance()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -353,7 +355,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1StringWithIcon.html">StringWithIcon</a></td>          <td class="paramname"><span class="paramname"><em>string</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1Text.html">Text</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>text</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -493,8 +495,8 @@ template&lt;typename A , typename B , typename F , typename G , typename H  = st
 
 </div>
 </div>
-<a id="a332cd23bae44470d3c2076a7d5a5d0ef" name="a332cd23bae44470d3c2076a7d5a5d0ef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a332cd23bae44470d3c2076a7d5a5d0ef">&#9670;&#160;</a></span>text()</h2>
+<a id="a3679b03b28c5edb458b526d13cf222d0" name="a3679b03b28c5edb458b526d13cf222d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3679b03b28c5edb458b526d13cf222d0">&#9670;&#160;</a></span>text()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -522,7 +524,7 @@ template&lt;typename A , typename B , typename F , typename G , typename H  = st
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1StringWithIcon.html">StringWithIcon</a></td>          <td class="paramname"><span class="paramname"><em>string</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1Text.html">Text</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>text</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

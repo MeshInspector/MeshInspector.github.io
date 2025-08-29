@@ -210,6 +210,7 @@ var dir_cb83f9b98dc6f67356ff76bcc17f4f67 =
     [ "MRNormalDenoising.h", "MRNormalDenoising_8h.html", "MRNormalDenoising_8h" ],
     [ "MRNormalsToPoints.h", "MRNormalsToPoints_8h.html", "MRNormalsToPoints_8h" ],
     [ "MRObject.h", "MRObject_8h.html", "MRObject_8h" ],
+    [ "MRObjectComparableWithReference.h", "MRObjectComparableWithReference_8h.html", "MRObjectComparableWithReference_8h" ],
     [ "MRObjectDimensionsEnum.h", "MRObjectDimensionsEnum_8h.html", "MRObjectDimensionsEnum_8h" ],
     [ "MRObjectDistanceMap.h", "MRObjectDistanceMap_8h.html", "MRObjectDistanceMap_8h" ],
     [ "MRObjectFactory.h", "MRObjectFactory_8h.html", "MRObjectFactory_8h" ],

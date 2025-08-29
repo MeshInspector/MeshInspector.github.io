@@ -1,7 +1,11 @@
 var MRImGuiMeasurementIndicators_8h =
 [
     [ "MR::ImGuiMeasurementIndicators::Params", "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html", "structMR_1_1ImGuiMeasurementIndicators_1_1Params" ],
-    [ "MR::ImGuiMeasurementIndicators::StringWithIcon", "structMR_1_1ImGuiMeasurementIndicators_1_1StringWithIcon.html", "structMR_1_1ImGuiMeasurementIndicators_1_1StringWithIcon" ],
+    [ "MR::ImGuiMeasurementIndicators::TextColor", "structMR_1_1ImGuiMeasurementIndicators_1_1TextColor.html", "structMR_1_1ImGuiMeasurementIndicators_1_1TextColor" ],
+    [ "MR::ImGuiMeasurementIndicators::TextFont", "structMR_1_1ImGuiMeasurementIndicators_1_1TextFont.html", "structMR_1_1ImGuiMeasurementIndicators_1_1TextFont" ],
+    [ "MR::ImGuiMeasurementIndicators::Text", "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html", "structMR_1_1ImGuiMeasurementIndicators_1_1Text" ],
+    [ "MR::ImGuiMeasurementIndicators::Text::Elem", "structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem.html", "structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem" ],
+    [ "MR::ImGuiMeasurementIndicators::Text::Line", "structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Line.html", "structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Line" ],
     [ "MR::ImGuiMeasurementIndicators::LineCap", "structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html", "structMR_1_1ImGuiMeasurementIndicators_1_1LineCap" ],
     [ "MR::ImGuiMeasurementIndicators::LineParams", "structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html", "structMR_1_1ImGuiMeasurementIndicators_1_1LineParams" ],
     [ "MR::ImGuiMeasurementIndicators::DistanceParams", "structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html", "structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams" ],
@@ -16,14 +20,13 @@ var MRImGuiMeasurementIndicators_8h =
       [ "narrow", "MRImGuiMeasurementIndicators_8h.html#aaf160e58360dc1e2c715f0b72dba162da06a224da9e61bee19ec9eef88b95f934", null ],
       [ "noBackwardArrowTipOffset", "MRImGuiMeasurementIndicators_8h.html#aaf160e58360dc1e2c715f0b72dba162da5c4562eb35560ecfac0098dbf8cb3a74", null ]
     ] ],
-    [ "StringIcon", "MRImGuiMeasurementIndicators_8h.html#a516ec43eeeb87482edc172f968bb73de", [
-      [ "none", "MRImGuiMeasurementIndicators_8h.html#a516ec43eeeb87482edc172f968bb73dea334c4a4c42fdb79d7ebc3e73b517e6f8", null ],
-      [ "diameter", "MRImGuiMeasurementIndicators_8h.html#a516ec43eeeb87482edc172f968bb73dea35f16dc084a53860f5cb3962107d5378", null ]
+    [ "TextIcon", "MRImGuiMeasurementIndicators_8h.html#ada21c38059140ab54d2c729c198e39f4", [
+      [ "diameter", "MRImGuiMeasurementIndicators_8h.html#ada21c38059140ab54d2c729c198e39f4a35f16dc084a53860f5cb3962107d5378", null ]
     ] ],
     [ "arrowTriangle", "MRImGuiMeasurementIndicators_8h.html#a660e781c3399b37449e24305cf8bbdc4", null ],
-    [ "distance", "MRImGuiMeasurementIndicators_8h.html#ac2552860465fff80ce74a099710e84c6", null ],
+    [ "distance", "MRImGuiMeasurementIndicators_8h.html#a0a3e5131d0fe59437835a460ca2dfcc5", null ],
     [ "line", "MRImGuiMeasurementIndicators_8h.html#a6029334be476b361570837d6592b4272", null ],
     [ "point", "MRImGuiMeasurementIndicators_8h.html#a41f4d6d002c7cff807425bbcb80c5edd", null ],
     [ "prepareCurve", "MRImGuiMeasurementIndicators_8h.html#aa8511657c2ed1cc63ff209a6ede1c0f9", null ],
-    [ "text", "MRImGuiMeasurementIndicators_8h.html#a332cd23bae44470d3c2076a7d5a5d0ef", null ]
+    [ "text", "MRImGuiMeasurementIndicators_8h.html#a3679b03b28c5edb458b526d13cf222d0", null ]
 ];

@@ -1180,6 +1180,8 @@ Structure has some options to control <a class="el" href="group__FillHoleGroup.h
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectChildrenHolder.html">ObjectChildrenHolder</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectComparableWithReference.html">ObjectComparableWithReference</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectDistanceMap.html">ObjectDistanceMap</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectFactory.html">ObjectFactory</a></td></tr>
@@ -3024,6 +3026,11 @@ Enumerations</h2></td></tr>
 , <a class="el" href="#aa6b11352e59ca716da2c9d8bf2371424ad69186af02738a9b3ced1bc5b652ba55">_count</a>
  }</td></tr>
 <tr class="separator:aa6b11352e59ca716da2c9d8bf2371424"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa591847657e546eba90e70acf2185c02" id="r_aa591847657e546eba90e70acf2185c02"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa591847657e546eba90e70acf2185c02">ZeroMode</a> { <a class="el" href="#aa591847657e546eba90e70acf2185c02ace48e9164dfd613f28dec7b3a9985e07">asIs</a>
+, <a class="el" href="#aa591847657e546eba90e70acf2185c02a0d0700a75fcdc18a3509f8197b41c699">alwaysPositive</a>
+, <a class="el" href="#aa591847657e546eba90e70acf2185c02a1f09e9a69b8a8b71082256a691afc64c">alwaysNegative</a>
+ }</td></tr>
+<tr class="separator:aa591847657e546eba90e70acf2185c02"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b6b94f5ad3595b510d6842ee045d493" id="r_a3b6b94f5ad3595b510d6842ee045d493"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b6b94f5ad3595b510d6842ee045d493">SideRegions</a> { <a class="el" href="#a3b6b94f5ad3595b510d6842ee045d493ae6553022651896cb21658b100e851cdd">CCWArrow</a> = 26
 , <a class="el" href="#a3b6b94f5ad3595b510d6842ee045d493ac9dec87e1252f2726ee58eac2c380518">CWArrow</a> = 27
  }</td></tr>
@@ -11510,6 +11517,33 @@ template&lt;typename T &gt; </div>
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a0e519d6a7c053c5d86dac33ecd0fa00ca7020426cfb0a204051be4b3053d2acc8" name="a0e519d6a7c053c5d86dac33ecd0fa00ca7020426cfb0a204051be4b3053d2acc8"></a>Repeat&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a0e519d6a7c053c5d86dac33ecd0fa00ca2403def5083f02105e7802b3b315681e" name="a0e519d6a7c053c5d86dac33ecd0fa00ca2403def5083f02105e7802b3b315681e"></a>Mirror&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a0e519d6a7c053c5d86dac33ecd0fa00ca08825280e3f8137556325061ba67ff8c" name="a0e519d6a7c053c5d86dac33ecd0fa00ca08825280e3f8137556325061ba67ff8c"></a>Clamp&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="aa591847657e546eba90e70acf2185c02" name="aa591847657e546eba90e70acf2185c02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa591847657e546eba90e70acf2185c02">&#9670;&#160;</a></span>ZeroMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="#aa591847657e546eba90e70acf2185c02">MR::ZeroMode</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aa591847657e546eba90e70acf2185c02ace48e9164dfd613f28dec7b3a9985e07" name="aa591847657e546eba90e70acf2185c02ace48e9164dfd613f28dec7b3a9985e07"></a>asIs&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa591847657e546eba90e70acf2185c02a0d0700a75fcdc18a3509f8197b41c699" name="aa591847657e546eba90e70acf2185c02a0d0700a75fcdc18a3509f8197b41c699"></a>alwaysPositive&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa591847657e546eba90e70acf2185c02a1f09e9a69b8a8b71082256a691afc64c" name="aa591847657e546eba90e70acf2185c02a1f09e9a69b8a8b71082256a691afc64c"></a>alwaysNegative&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>

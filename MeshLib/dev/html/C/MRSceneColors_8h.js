@@ -16,6 +16,8 @@ var MRSceneColors_8h =
       [ "MR_SceneColors_Type_UnselectedObjectDistanceMap", "MRSceneColors_8h.html#ac9cef54f15d866a97c8c76928c763baba6ed278bd381cce6f6876a0035d229f6f", null ],
       [ "MR_SceneColors_Type_BackFaces", "MRSceneColors_8h.html#ac9cef54f15d866a97c8c76928c763baba41d61600028d9fd64da2bad8e86ff709", null ],
       [ "MR_SceneColors_Type_Labels", "MRSceneColors_8h.html#ac9cef54f15d866a97c8c76928c763baba0a4a4e7cef50c6eb57be5c74653974b4", null ],
+      [ "MR_SceneColors_Type_LabelsGood", "MRSceneColors_8h.html#ac9cef54f15d866a97c8c76928c763babad0a34def7123adb521293794f9bbfe57", null ],
+      [ "MR_SceneColors_Type_LabelsBad", "MRSceneColors_8h.html#ac9cef54f15d866a97c8c76928c763babaf6320d91193d2c876937ee14feb65646", null ],
       [ "MR_SceneColors_Type_Edges", "MRSceneColors_8h.html#ac9cef54f15d866a97c8c76928c763baba6d554fb25748422044c98d18fc4f4d17", null ],
       [ "MR_SceneColors_Type_Points", "MRSceneColors_8h.html#ac9cef54f15d866a97c8c76928c763baba4daf609aa7bb97738d46a6d936e72fcf", null ],
       [ "MR_SceneColors_Type_SelectedFaces", "MRSceneColors_8h.html#ac9cef54f15d866a97c8c76928c763baba8dff86cd6f66ebaa64b4d2bcaa0b1001", null ],

@@ -5,5 +5,6 @@ var MRRenderDimensions_8h =
     [ "MR::RenderDimensions::AngleParams", "structMR_1_1RenderDimensions_1_1AngleParams.html", "structMR_1_1RenderDimensions_1_1AngleParams" ],
     [ "MR::RenderDimensions::AngleTask", "classMR_1_1RenderDimensions_1_1AngleTask.html", "classMR_1_1RenderDimensions_1_1AngleTask" ],
     [ "MR::RenderDimensions::LengthParams", "structMR_1_1RenderDimensions_1_1LengthParams.html", "structMR_1_1RenderDimensions_1_1LengthParams" ],
+    [ "MR::RenderDimensions::LengthParams::Tolerance", "structMR_1_1RenderDimensions_1_1LengthParams_1_1Tolerance.html", "structMR_1_1RenderDimensions_1_1LengthParams_1_1Tolerance" ],
     [ "MR::RenderDimensions::LengthTask", "classMR_1_1RenderDimensions_1_1LengthTask.html", "classMR_1_1RenderDimensions_1_1LengthTask" ]
 ];

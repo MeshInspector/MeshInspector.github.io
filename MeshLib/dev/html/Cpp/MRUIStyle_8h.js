@@ -63,6 +63,7 @@ var MRUIStyle_8h =
     [ "getTexture", "MRUIStyle_8h.html#a0d337a1adf7e16aaa08b683a6b65e886", null ],
     [ "highlightWindowArea", "MRUIStyle_8h.html#a0e2d922d2332948836f35b41d188e912", null ],
     [ "init", "MRUIStyle_8h.html#a986e400ed59dea0ae3e54284d9b8d110", null ],
+    [ "input", "MRUIStyle_8h.html#abbed04ca5643f08d7b41e56fec98ee8b", null ],
     [ "inputText", "MRUIStyle_8h.html#af81d056e2ca2afaceec0e67e12ed9afb", null ],
     [ "inputTextCentered", "MRUIStyle_8h.html#afc1009af05439b78707e8372d21f9a87", null ],
     [ "inputTextCenteredReadOnly", "MRUIStyle_8h.html#a5e2ab9c1b7ae397ac4ef58403551d17c", null ],

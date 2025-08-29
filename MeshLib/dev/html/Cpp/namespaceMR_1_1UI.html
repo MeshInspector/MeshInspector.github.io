@@ -331,6 +331,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a1527cab8abd6795f21baa9abcfec2804" id="r_a1527cab8abd6795f21baa9abcfec2804"><td class="memTemplParams" colspan="2">template&lt;UnitEnum E, detail::VectorOrScalar T, detail::ValidDragSpeedForTargetType&lt; T &gt; SpeedType = float, detail::ValidBoundForTargetType&lt; T &gt; U = typename VectorTraits&lt;T&gt;::BaseType&gt; </td></tr>
 <tr class="memitem:a1527cab8abd6795f21baa9abcfec2804"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a1527cab8abd6795f21baa9abcfec2804">drag</a> (const char *label, T &amp;v, SpeedType vSpeed=<a class="el" href="namespaceMR_1_1UI_1_1detail.html#a797ee2107c897bf2d084fede574e062b">detail::getDefaultDragSpeed</a>&lt; E, SpeedType &gt;(), const U &amp;vMin=std::numeric_limits&lt; U &gt;::lowest(), const U &amp;vMax=std::numeric_limits&lt; U &gt;::max(), <a class="el" href="structMR_1_1UnitToStringParams.html">UnitToStringParams</a>&lt; E &gt; unitParams={}, ImGuiSliderFlags flags=<a class="el" href="#a7ce97f5be533c3522d66cb2fbfaf250f">defaultSliderFlags</a>, const U &amp;step=<a class="el" href="namespaceMR_1_1UI_1_1detail.html#a0b9ea313e9b93469005d3c375b2b9652">detail::getDefaultStep</a>&lt; E, U, T &gt;(false), const U &amp;stepFast=<a class="el" href="namespaceMR_1_1UI_1_1detail.html#a0b9ea313e9b93469005d3c375b2b9652">detail::getDefaultStep</a>&lt; E, U, T &gt;(true))</td></tr>
 <tr class="separator:a1527cab8abd6795f21baa9abcfec2804"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbed04ca5643f08d7b41e56fec98ee8b" id="r_abbed04ca5643f08d7b41e56fec98ee8b"><td class="memTemplParams" colspan="2">template&lt;UnitEnum E, detail::VectorOrScalar T, detail::ValidBoundForTargetType&lt; T &gt; U = typename VectorTraits&lt;T&gt;::BaseType&gt; </td></tr>
+<tr class="memitem:abbed04ca5643f08d7b41e56fec98ee8b"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#abbed04ca5643f08d7b41e56fec98ee8b">input</a> (const char *label, T &amp;v, const U &amp;vMin=std::numeric_limits&lt; U &gt;::lowest(), const U &amp;vMax=std::numeric_limits&lt; U &gt;::max(), <a class="el" href="structMR_1_1UnitToStringParams.html">UnitToStringParams</a>&lt; E &gt; unitParams={}, ImGuiSliderFlags flags=<a class="el" href="#a7ce97f5be533c3522d66cb2fbfaf250f">defaultSliderFlags</a>)</td></tr>
+<tr class="separator:abbed04ca5643f08d7b41e56fec98ee8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1fd1e704f1ff98b82cc4c98e452f57a" id="r_aa1fd1e704f1ff98b82cc4c98e452f57a"><td class="memTemplParams" colspan="2">template&lt;UnitEnum E, detail::VectorOrScalar T&gt; </td></tr>
 <tr class="memitem:aa1fd1e704f1ff98b82cc4c98e452f57a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#aa1fd1e704f1ff98b82cc4c98e452f57a">readOnlyValue</a> (const char *label, const T &amp;v, std::optional&lt; ImVec4 &gt; textColor={}, <a class="el" href="structMR_1_1UnitToStringParams.html">UnitToStringParams</a>&lt; E &gt; unitParams={}, std::optional&lt; ImVec4 &gt; labelColor={})</td></tr>
 <tr class="separator:aa1fd1e704f1ff98b82cc4c98e452f57a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1583,6 +1586,49 @@ template&lt;UnitEnum E, detail::VectorOrScalar T, detail::ValidDragSpeedForTarge
 </div><div class="memdoc">
 
 <p>init internal parameters </p>
+
+</div>
+</div>
+<a id="abbed04ca5643f08d7b41e56fec98ee8b" name="abbed04ca5643f08d7b41e56fec98ee8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abbed04ca5643f08d7b41e56fec98ee8b">&#9670;&#160;</a></span>input()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;UnitEnum E, detail::VectorOrScalar T, detail::ValidBoundForTargetType&lt; T &gt; U = typename VectorTraits&lt;T&gt;::BaseType&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::UI::input </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>label</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T &amp;</td>          <td class="paramname"><span class="paramname"><em>v</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const U &amp;</td>          <td class="paramname"><span class="paramname"><em>vMin</em></span><span class="paramdefsep"> = </span><span class="paramdefval">std::numeric_limits&lt;&#160;U&#160;&gt;::lowest()</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const U &amp;</td>          <td class="paramname"><span class="paramname"><em>vMax</em></span><span class="paramdefsep"> = </span><span class="paramdefval">std::numeric_limits&lt;&#160;U&#160;&gt;::max()</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR_1_1UnitToStringParams.html">UnitToStringParams</a>&lt; E &gt;</td>          <td class="paramname"><span class="paramname"><em>unitParams</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ImGuiSliderFlags</td>          <td class="paramname"><span class="paramname"><em>flags</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="#a7ce97f5be533c3522d66cb2fbfaf250f">defaultSliderFlags</a></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>

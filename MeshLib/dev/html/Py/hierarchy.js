@@ -169,6 +169,7 @@ var hierarchy =
     [ "mrmeshpy.ColorMapAggregator_VertTag_AggregateMode", "classmrmeshpy_1_1ColorMapAggregator__VertTag__AggregateMode.html", null ],
     [ "mrmeshpy.ColorMapAggregator_VertTag_PartialColorMap", "classmrmeshpy_1_1ColorMapAggregator__VertTag__PartialColorMap.html", null ],
     [ "mrmeshpy.GcodeProcessor.Command", "classmrmeshpy_1_1GcodeProcessor_1_1Command.html", null ],
+    [ "mrmeshpy.ObjectComparableWithReference.ComparisonTolerance", "classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonTolerance.html", null ],
     [ "mrmeshpy.CompensateRadiusParams", "classmrmeshpy_1_1CompensateRadiusParams.html", null ],
     [ "mrmeshpy.ComputeSteepestDescentPathSettings", "classmrmeshpy_1_1ComputeSteepestDescentPathSettings.html", null ],
     [ "mrmeshpy.Cone3ApproximationParams", "classmrmeshpy_1_1Cone3ApproximationParams.html", null ],
@@ -221,6 +222,7 @@ var hierarchy =
     [ "mrmeshpy.DistanceMapSave", "classmrmeshpy_1_1DistanceMapSave.html", null ],
     [ "mrmeshpy.DistanceMapSaveSettings", "classmrmeshpy_1_1DistanceMapSaveSettings.html", null ],
     [ "mrmeshpy.DistanceMapToWorld", "classmrmeshpy_1_1DistanceMapToWorld.html", null ],
+    [ "mrmeshpy.DistanceMeasurementObject.DistanceMode", "classmrmeshpy_1_1DistanceMeasurementObject_1_1DistanceMode.html", null ],
     [ "mrmeshpy.DistanceToMeshOptions", "classmrmeshpy_1_1DistanceToMeshOptions.html", [
       [ "mrmeshpy.SignedDistanceToMeshOptions", "classmrmeshpy_1_1SignedDistanceToMeshOptions.html", null ]
     ] ],
@@ -736,6 +738,9 @@ var hierarchy =
         ] ]
       ] ]
     ] ],
+    [ "mrmeshpy.ObjectComparableWithReference", "classmrmeshpy_1_1ObjectComparableWithReference.html", [
+      [ "mrmeshpy.DistanceMeasurementObject", "classmrmeshpy_1_1DistanceMeasurementObject.html", null ]
+    ] ],
     [ "mrmeshpy.ObjectFactoryBase", "classmrmeshpy_1_1ObjectFactoryBase.html", null ],
     [ "mrmeshpy.ObjectMeshData", "classmrmeshpy_1_1ObjectMeshData.html", null ],
     [ "mrmeshpy.ObjectSave", "classmrmeshpy_1_1ObjectSave.html", null ],
@@ -788,7 +793,6 @@ var hierarchy =
     [ "mrmeshpy.PathError", "classmrmeshpy_1_1PathError.html", null ],
     [ "mrmeshpy.Pdf", "classmrmeshpy_1_1Pdf.html", null ],
     [ "mrmeshpy.PdfParameters", "classmrmeshpy_1_1PdfParameters.html", null ],
-    [ "mrmeshpy.DistanceMeasurementObject.PerCoordDeltas", "classmrmeshpy_1_1DistanceMeasurementObject_1_1PerCoordDeltas.html", null ],
     [ "mrmeshpy.phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag", "classmrmeshpy_1_1phmap__flat__hash__map__Id__EdgeTag__Id__EdgeTag.html", null ],
     [ "mrmeshpy.phmap_flat_hash_map_Id_FaceTag_Id_FaceTag", "classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag.html", null ],
     [ "mrmeshpy.phmap_flat_hash_map_Id_GraphEdgeTag_Id_GraphEdgeTag", "classmrmeshpy_1_1phmap__flat__hash__map__Id__GraphEdgeTag__Id__GraphEdgeTag.html", null ],

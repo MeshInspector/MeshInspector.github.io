@@ -195,7 +195,8 @@ var menudata={children:[
 {text:"t",url:"namespacemembers_enum.html#index_t"},
 {text:"u",url:"namespacemembers_enum.html#index_u"},
 {text:"v",url:"namespacemembers_enum.html#index_v"},
-{text:"w",url:"namespacemembers_enum.html#index_w"}]},
+{text:"w",url:"namespacemembers_enum.html#index_w"},
+{text:"z",url:"namespacemembers_enum.html#index_z"}]},
 {text:"Enumerator",url:"namespacemembers_eval.html",children:[
 {text:"c",url:"namespacemembers_eval.html#index_c"},
 {text:"d",url:"namespacemembers_eval.html#index_d"},

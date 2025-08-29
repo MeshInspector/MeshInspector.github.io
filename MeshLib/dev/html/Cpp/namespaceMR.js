@@ -565,6 +565,7 @@ var namespaceMR =
     [ "NumSum", "structMR_1_1NumSum.html", "structMR_1_1NumSum" ],
     [ "Object", "classMR_1_1Object.html", "classMR_1_1Object" ],
     [ "ObjectChildrenHolder", "classMR_1_1ObjectChildrenHolder.html", "classMR_1_1ObjectChildrenHolder" ],
+    [ "ObjectComparableWithReference", "classMR_1_1ObjectComparableWithReference.html", "classMR_1_1ObjectComparableWithReference" ],
     [ "ObjectDistanceMap", "classMR_1_1ObjectDistanceMap.html", "classMR_1_1ObjectDistanceMap" ],
     [ "ObjectFactory", "classMR_1_1ObjectFactory.html", "classMR_1_1ObjectFactory" ],
     [ "ObjectFactoryBase", "classMR_1_1ObjectFactoryBase.html", "classMR_1_1ObjectFactoryBase" ],
@@ -1630,6 +1631,11 @@ var namespaceMR =
       [ "Repeat", "namespaceMR.html#a0e519d6a7c053c5d86dac33ecd0fa00ca7020426cfb0a204051be4b3053d2acc8", null ],
       [ "Mirror", "namespaceMR.html#a0e519d6a7c053c5d86dac33ecd0fa00ca2403def5083f02105e7802b3b315681e", null ],
       [ "Clamp", "namespaceMR.html#a0e519d6a7c053c5d86dac33ecd0fa00ca08825280e3f8137556325061ba67ff8c", null ]
+    ] ],
+    [ "ZeroMode", "namespaceMR.html#aa591847657e546eba90e70acf2185c02", [
+      [ "asIs", "namespaceMR.html#aa591847657e546eba90e70acf2185c02ace48e9164dfd613f28dec7b3a9985e07", null ],
+      [ "alwaysPositive", "namespaceMR.html#aa591847657e546eba90e70acf2185c02a0d0700a75fcdc18a3509f8197b41c699", null ],
+      [ "alwaysNegative", "namespaceMR.html#aa591847657e546eba90e70acf2185c02a1f09e9a69b8a8b71082256a691afc64c", null ]
     ] ],
     [ "AABBTreePolyline< Vector2f >", "namespaceMR.html#a14ff904b44efe8d73deea9652e3f2713", null ],
     [ "accumulateFaceCenters", "group__BestFitGroup.html#ga9bca49efd608d5a3ee129ae497696532", null ],
