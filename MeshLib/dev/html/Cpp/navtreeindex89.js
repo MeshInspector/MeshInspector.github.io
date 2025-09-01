@@ -1,5 +1,13 @@
 var NAVTREEINDEX89 =
 {
+"structMR_1_1SharpenMarchingCubesMeshSettings.html#ac280940d9748f10a71a06ffc496d1802":[6,0,2,0,1,655,3],
+"structMR_1_1SharpenMarchingCubesMeshSettings.html#ae4ce9fb1814dbc707ab3e200a9263aa0":[6,0,1,0,1,672,0],
+"structMR_1_1SharpenMarchingCubesMeshSettings.html#ae4ce9fb1814dbc707ab3e200a9263aa0":[6,0,2,0,1,655,0],
+"structMR_1_1SharpenMarchingCubesMeshSettings.html#af4be55d183168262e37ed2b1e5aabec5":[6,0,1,0,1,672,1],
+"structMR_1_1SharpenMarchingCubesMeshSettings.html#af4be55d183168262e37ed2b1e5aabec5":[6,0,2,0,1,655,1],
+"structMR_1_1SharpenMarchingCubesMeshSettings.html#af9c1800c89388d5779e40bbc270b5e16":[6,0,1,0,1,672,6],
+"structMR_1_1SharpenMarchingCubesMeshSettings.html#af9c1800c89388d5779e40bbc270b5e16":[6,0,2,0,1,655,6],
+"structMR_1_1ShellVertexInfo.html":[6,0,1,0,1,674],
 "structMR_1_1ShellVertexInfo.html":[6,0,2,0,1,657],
 "structMR_1_1ShellVertexInfo.html#a2a6da8b3af021f4593c78e7b6717f573":[6,0,1,0,1,674,1],
 "structMR_1_1ShellVertexInfo.html#a2a6da8b3af021f4593c78e7b6717f573":[6,0,2,0,1,657,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX89 =
 "structMR_1_1SurfacePointWidget_1_1Parameters.html#ae7f3be408f91d5f62dedd067168968b1":[6,0,2,0,1,692,0,1],
 "structMR_1_1SurfacePointWidget_1_1Parameters.html#aef0e9963d176c1ff1684083ddecd4fbe":[6,0,1,0,1,709,0,6],
 "structMR_1_1SurfacePointWidget_1_1Parameters.html#aef0e9963d176c1ff1684083ddecd4fbe":[6,0,2,0,1,692,0,6],
-"structMR_1_1SurfacePointWidget_1_1Parameters.html#afd51ac7c79f68590c9471e56a8e29890":[6,0,1,0,1,709,0,3],
-"structMR_1_1SurfacePointWidget_1_1Parameters.html#afd51ac7c79f68590c9471e56a8e29890":[6,0,2,0,1,692,0,3],
-"structMR_1_1SymMatrix2.html":[6,0,0,0,7,4],
-"structMR_1_1SymMatrix2.html#a00825772702cbd97018eca7af85866ad":[6,0,0,0,7,4,9],
-"structMR_1_1SymMatrix2.html#a0d7b116cb57858e0b068a33b81aed7a7":[6,0,0,0,7,4,1],
-"structMR_1_1SymMatrix2.html#a175876ca220ae2820662151e1024e232":[6,0,0,0,7,4,4],
-"structMR_1_1SymMatrix2.html#a2508bdc607f557d33ec49ff959cf1a3d":[6,0,0,0,7,4,0],
-"structMR_1_1SymMatrix2.html#a261caca745c8a5998fe4599fd9031b43":[6,0,0,0,7,4,11],
-"structMR_1_1SymMatrix2.html#a298176c6fdc19f53dcf4b4c5e9624b01":[6,0,0,0,7,4,16]
+"structMR_1_1SurfacePointWidget_1_1Parameters.html#afd51ac7c79f68590c9471e56a8e29890":[6,0,1,0,1,709,0,3]
 };

@@ -1,5 +1,13 @@
 var NAVTREEINDEX82 =
 {
+"structMR_1_1ModelPointsData.html#aac320ceb1458d74eac62997c8d5d85d2":[6,0,2,0,1,391,3],
+"structMR_1_1ModelPointsData.html#ab1ca6825ddb7fe9e1937c74d1bed6625":[6,0,1,0,1,408,0],
+"structMR_1_1ModelPointsData.html#ab1ca6825ddb7fe9e1937c74d1bed6625":[6,0,2,0,1,391,0],
+"structMR_1_1ModelRenderParams.html":[6,0,1,0,1,409],
+"structMR_1_1ModelRenderParams.html":[6,0,2,0,1,392],
+"structMR_1_1ModelRenderParams.html#a0e29cb9eb425bcc241a394492f68ca08":[6,0,1,0,1,409,1],
+"structMR_1_1ModelRenderParams.html#a0e29cb9eb425bcc241a394492f68ca08":[6,0,2,0,1,392,1],
+"structMR_1_1ModelRenderParams.html#a272deea0e519d1ef5efaaf5d3da84b88":[6,0,1,0,1,409,3],
 "structMR_1_1ModelRenderParams.html#a272deea0e519d1ef5efaaf5d3da84b88":[6,0,2,0,1,392,3],
 "structMR_1_1ModelRenderParams.html#a7055e460ef562d8825891c62abcd7f2e":[6,0,1,0,1,409,2],
 "structMR_1_1ModelRenderParams.html#a7055e460ef562d8825891c62abcd7f2e":[6,0,2,0,1,392,2],
@@ -241,13 +249,5 @@ var NAVTREEINDEX82 =
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Cylinder_01_4.html":[6,0,2,0,1,449],
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Cylinder_01_4.html#aae1ec7a21db6e2c624a1e93117a86ec5":[6,0,1,0,1,466,0],
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Cylinder_01_4.html#aae1ec7a21db6e2c624a1e93117a86ec5":[6,0,2,0,1,449,0],
-"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Line_01_4.html":[6,0,1,0,1,467],
-"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Line_01_4.html":[6,0,2,0,1,450],
-"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Line_01_4.html#ae118fa6ed40ec5fb3e1ce843d0591f6b":[6,0,1,0,1,467,0],
-"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Line_01_4.html#ae118fa6ed40ec5fb3e1ce843d0591f6b":[6,0,2,0,1,450,0],
-"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Plane_01_4.html":[6,0,1,0,1,468],
-"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Plane_01_4.html":[6,0,2,0,1,451],
-"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Plane_01_4.html#a6cce32400bcbe22e29d7873410a975f9":[6,0,1,0,1,468,0],
-"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Plane_01_4.html#a6cce32400bcbe22e29d7873410a975f9":[6,0,2,0,1,451,0],
-"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Point_01_4.html":[6,0,1,0,1,469]
+"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Line_01_4.html":[6,0,1,0,1,467]
 };

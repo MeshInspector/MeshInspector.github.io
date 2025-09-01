@@ -1,5 +1,13 @@
 var NAVTREEINDEX72 =
 {
+"structMR_1_1Dipole.html#ae70faa532d5372a7fa0e32336cc6df35":[6,0,2,0,1,170,3],
+"structMR_1_1DirectionWidget_1_1Arrow.html":[6,0,1,0,1,188,0],
+"structMR_1_1DirectionWidget_1_1Arrow.html":[6,0,2,0,1,171,0],
+"structMR_1_1DirectionWidget_1_1Arrow.html#a0ecb81851105a8eb427a1f270b7659a2":[6,0,1,0,1,188,0,1],
+"structMR_1_1DirectionWidget_1_1Arrow.html#a0ecb81851105a8eb427a1f270b7659a2":[6,0,2,0,1,171,0,1],
+"structMR_1_1DirectionWidget_1_1Arrow.html#a2f55bff335dea2ab2a6b581fe070bef4":[6,0,1,0,1,188,0,0],
+"structMR_1_1DirectionWidget_1_1Arrow.html#a2f55bff335dea2ab2a6b581fe070bef4":[6,0,2,0,1,171,0,0],
+"structMR_1_1DirectionWidget_1_1Arrow.html#ad87c52072ac6532b21210fb8f8f48921":[6,0,1,0,1,188,0,2],
 "structMR_1_1DirectionWidget_1_1Arrow.html#ad87c52072ac6532b21210fb8f8f48921":[6,0,2,0,1,171,0,2],
 "structMR_1_1Directory.html":[6,0,1,0,1,189],
 "structMR_1_1Directory.html":[6,0,2,0,1,172],
@@ -241,13 +249,5 @@ var NAVTREEINDEX72 =
 "structMR_1_1DrawListener.html#a791aa3eda92161dc667525a1a0c826a5":[6,0,2,0,1,196,1],
 "structMR_1_1DrawListener.html#a7f0756161b116bd4ae469e07a9f4a1ad":[6,0,1,0,1,213,3],
 "structMR_1_1DrawListener.html#a7f0756161b116bd4ae469e07a9f4a1ad":[6,0,2,0,1,196,3],
-"structMR_1_1DrawListener.html#aa7183e8714f5972181ef86c1f9dc6f47":[6,0,1,0,1,213,0],
-"structMR_1_1DrawListener.html#aa7183e8714f5972181ef86c1f9dc6f47":[6,0,2,0,1,196,0],
-"structMR_1_1DrawSceneUiListener.html":[6,0,1,0,1,214],
-"structMR_1_1DrawSceneUiListener.html":[6,0,2,0,1,197],
-"structMR_1_1DrawSceneUiListener.html#a21b6be228fd7e4c30fd147113a60f200":[6,0,1,0,1,214,3],
-"structMR_1_1DrawSceneUiListener.html#a21b6be228fd7e4c30fd147113a60f200":[6,0,2,0,1,197,3],
-"structMR_1_1DrawSceneUiListener.html#a9ad4165746d1511ad8941854df82f3bd":[6,0,1,0,1,214,2],
-"structMR_1_1DrawSceneUiListener.html#a9ad4165746d1511ad8941854df82f3bd":[6,0,2,0,1,197,2],
-"structMR_1_1DrawSceneUiListener.html#aad0c51cef6318ea0951678fa501a7266":[6,0,1,0,1,214,0]
+"structMR_1_1DrawListener.html#aa7183e8714f5972181ef86c1f9dc6f47":[6,0,1,0,1,213,0]
 };

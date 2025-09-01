@@ -1,5 +1,13 @@
 var NAVTREEINDEX71 =
 {
+"structMR_1_1ConeFittingFunctor.html#a369f95839764bbea9a5f5db04ec360ae":[6,0,1,0,1,155,0],
+"structMR_1_1ConeFittingFunctor.html#a369f95839764bbea9a5f5db04ec360ae":[6,0,2,0,1,138,0],
+"structMR_1_1ConeFittingFunctor.html#a5ce1dbf9d17f2aa05b508ef6df6e7151":[6,0,1,0,1,155,5],
+"structMR_1_1ConeFittingFunctor.html#a5ce1dbf9d17f2aa05b508ef6df6e7151":[6,0,2,0,1,138,5],
+"structMR_1_1ConeFittingFunctor.html#a75f4a1b12abfd495f279861dbfe344c6":[6,0,1,0,1,155,6],
+"structMR_1_1ConeFittingFunctor.html#a75f4a1b12abfd495f279861dbfe344c6":[6,0,2,0,1,138,6],
+"structMR_1_1ConeFittingFunctor.html#a8dd8ae0c1112caf1a8fcd5fca885de56":[6,0,1,0,1,155,7],
+"structMR_1_1ConeFittingFunctor.html#a8dd8ae0c1112caf1a8fcd5fca885de56":[6,0,2,0,1,138,7],
 "structMR_1_1ConeFittingFunctor.html#ab4532230e1c01c5aa993bb6427bcc60a":[6,0,1,0,1,155,9],
 "structMR_1_1ConeFittingFunctor.html#ab4532230e1c01c5aa993bb6427bcc60a":[6,0,2,0,1,138,9],
 "structMR_1_1ConeFittingFunctor.html#ab7852ba7e80ebd7f4f5dcc9d8d7c318d":[6,0,1,0,1,155,4],
@@ -241,13 +249,5 @@ var NAVTREEINDEX71 =
 "structMR_1_1Dipole.html#a94e65877ccc74f50e4cf0028f9ae95ae":[6,0,2,0,1,170,0],
 "structMR_1_1Dipole.html#aae5226baaa9fd2fef60b3940f4d0951f":[6,0,1,0,1,187,1],
 "structMR_1_1Dipole.html#aae5226baaa9fd2fef60b3940f4d0951f":[6,0,2,0,1,170,1],
-"structMR_1_1Dipole.html#ae70faa532d5372a7fa0e32336cc6df35":[6,0,1,0,1,187,3],
-"structMR_1_1Dipole.html#ae70faa532d5372a7fa0e32336cc6df35":[6,0,2,0,1,170,3],
-"structMR_1_1DirectionWidget_1_1Arrow.html":[6,0,1,0,1,188,0],
-"structMR_1_1DirectionWidget_1_1Arrow.html":[6,0,2,0,1,171,0],
-"structMR_1_1DirectionWidget_1_1Arrow.html#a0ecb81851105a8eb427a1f270b7659a2":[6,0,1,0,1,188,0,1],
-"structMR_1_1DirectionWidget_1_1Arrow.html#a0ecb81851105a8eb427a1f270b7659a2":[6,0,2,0,1,171,0,1],
-"structMR_1_1DirectionWidget_1_1Arrow.html#a2f55bff335dea2ab2a6b581fe070bef4":[6,0,1,0,1,188,0,0],
-"structMR_1_1DirectionWidget_1_1Arrow.html#a2f55bff335dea2ab2a6b581fe070bef4":[6,0,2,0,1,171,0,0],
-"structMR_1_1DirectionWidget_1_1Arrow.html#ad87c52072ac6532b21210fb8f8f48921":[6,0,1,0,1,188,0,2]
+"structMR_1_1Dipole.html#ae70faa532d5372a7fa0e32336cc6df35":[6,0,1,0,1,187,3]
 };

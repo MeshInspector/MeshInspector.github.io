@@ -1,5 +1,13 @@
 var NAVTREEINDEX88 =
 {
+"structMR_1_1RibbonSchema.html#a5773b44f78b9e6a2610bf2260a1891bd":[6,0,1,0,1,625,9],
+"structMR_1_1RibbonSchema.html#a5773b44f78b9e6a2610bf2260a1891bd":[6,0,2,0,1,608,9],
+"structMR_1_1RibbonSchema.html#aa723570687ac4d1ccc83d6a5305e69dd":[6,0,1,0,1,625,1],
+"structMR_1_1RibbonSchema.html#aa723570687ac4d1ccc83d6a5305e69dd":[6,0,2,0,1,608,1],
+"structMR_1_1RibbonSchema.html#ab33aec85ce2ca0672bc4605ba54e2fe1":[6,0,1,0,1,625,6],
+"structMR_1_1RibbonSchema.html#ab33aec85ce2ca0672bc4605ba54e2fe1":[6,0,2,0,1,608,6],
+"structMR_1_1RibbonSchema.html#aff336be3c724c96b01194c689d9bdac9":[6,0,1,0,1,625,5],
+"structMR_1_1RibbonSchema.html#aff336be3c724c96b01194c689d9bdac9":[6,0,2,0,1,608,5],
 "structMR_1_1RibbonSchemaHolder_1_1SearchParams.html":[6,0,1,0,1,626,0],
 "structMR_1_1RibbonSchemaHolder_1_1SearchParams.html":[6,0,2,0,1,609,0],
 "structMR_1_1RibbonSchemaHolder_1_1SearchParams.html#a6b6c1c5a1a26b8a37295e7e5a2e1d97c":[6,0,1,0,1,626,0,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX88 =
 "structMR_1_1SharpenMarchingCubesMeshSettings.html#a82657a9b8d3b11b57c5853baaf8ff42a":[6,0,2,0,1,655,2],
 "structMR_1_1SharpenMarchingCubesMeshSettings.html#aad69635a569d93af09b5d7d1b6c24a7c":[6,0,1,0,1,672,4],
 "structMR_1_1SharpenMarchingCubesMeshSettings.html#aad69635a569d93af09b5d7d1b6c24a7c":[6,0,2,0,1,655,4],
-"structMR_1_1SharpenMarchingCubesMeshSettings.html#ac280940d9748f10a71a06ffc496d1802":[6,0,1,0,1,672,3],
-"structMR_1_1SharpenMarchingCubesMeshSettings.html#ac280940d9748f10a71a06ffc496d1802":[6,0,2,0,1,655,3],
-"structMR_1_1SharpenMarchingCubesMeshSettings.html#ae4ce9fb1814dbc707ab3e200a9263aa0":[6,0,1,0,1,672,0],
-"structMR_1_1SharpenMarchingCubesMeshSettings.html#ae4ce9fb1814dbc707ab3e200a9263aa0":[6,0,2,0,1,655,0],
-"structMR_1_1SharpenMarchingCubesMeshSettings.html#af4be55d183168262e37ed2b1e5aabec5":[6,0,1,0,1,672,1],
-"structMR_1_1SharpenMarchingCubesMeshSettings.html#af4be55d183168262e37ed2b1e5aabec5":[6,0,2,0,1,655,1],
-"structMR_1_1SharpenMarchingCubesMeshSettings.html#af9c1800c89388d5779e40bbc270b5e16":[6,0,1,0,1,672,6],
-"structMR_1_1SharpenMarchingCubesMeshSettings.html#af9c1800c89388d5779e40bbc270b5e16":[6,0,2,0,1,655,6],
-"structMR_1_1ShellVertexInfo.html":[6,0,1,0,1,674]
+"structMR_1_1SharpenMarchingCubesMeshSettings.html#ac280940d9748f10a71a06ffc496d1802":[6,0,1,0,1,672,3]
 };

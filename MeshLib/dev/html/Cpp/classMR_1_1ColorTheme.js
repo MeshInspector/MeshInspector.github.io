@@ -74,6 +74,9 @@ var classMR_1_1ColorTheme =
     [ "ViewportColorsType", "classMR_1_1ColorTheme.html#a91b6b928ca7f490fdd396c347347bcdc", [
       [ "Background", "classMR_1_1ColorTheme.html#a91b6b928ca7f490fdd396c347347bcdcaa9ded1e5ce5d75814730bb4caaf49419", null ],
       [ "Borders", "classMR_1_1ColorTheme.html#a91b6b928ca7f490fdd396c347347bcdcae313502ef38a56454f3e9de57f384476", null ],
+      [ "AxisX", "classMR_1_1ColorTheme.html#a91b6b928ca7f490fdd396c347347bcdca38b0844100a915cd3c87159b391161b9", null ],
+      [ "AxisY", "classMR_1_1ColorTheme.html#a91b6b928ca7f490fdd396c347347bcdcab30a50c686982b3b209cf1234f4247cd", null ],
+      [ "AxisZ", "classMR_1_1ColorTheme.html#a91b6b928ca7f490fdd396c347347bcdcadd1071c1aa89157c2386d3303413218f", null ],
       [ "Count", "classMR_1_1ColorTheme.html#a91b6b928ca7f490fdd396c347347bcdcae93f994f01c537c4e2f7d8528c3eb5e9", null ]
     ] ]
 ];

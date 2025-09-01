@@ -1,5 +1,13 @@
 var NAVTREEINDEX68 =
 {
+"structMRMakeCylinderAdvancedParameters.html#a0a2bbfeff4fd96db2794c19bb68db9d1":[6,0,2,0,28,4],
+"structMRMakeCylinderAdvancedParameters.html#a11e439c476c5588f13f203c6c44ac55d":[6,0,2,0,28,1],
+"structMRMakeCylinderAdvancedParameters.html#a7f8a322e1238830f9e1cf8ac1468f7f4":[6,0,2,0,28,0],
+"structMRMakeCylinderAdvancedParameters.html#a954f28f8586e56201fc5d37f1865a5f2":[6,0,2,0,28,3],
+"structMRMakeCylinderAdvancedParameters.html#ac0e345476c72ba97cd7601033b431fa2":[6,0,2,0,28,5],
+"structMRMakeCylinderAdvancedParameters.html#adb9dcc5a855e991275135241242c5ed9":[6,0,2,0,28,2],
+"structMRMakeTorusParameters.html":[6,0,2,0,29],
+"structMRMakeTorusParameters.html#a17f0a3976680bd5bf51a72024eeb1427":[6,0,2,0,29,0],
 "structMRMakeTorusParameters.html#a8d8c9a815bce9cd179486391928d019c":[6,0,2,0,29,2],
 "structMRMakeTorusParameters.html#ac7122dd9e2fdf5085a86d09c22f0d6a2":[6,0,2,0,29,3],
 "structMRMakeTorusParameters.html#af4b7950cf44e13e3a179354f293fc935":[6,0,2,0,29,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX68 =
 "structMR_1_1AllLocalTriangulations.html":[6,0,1,0,1,56],
 "structMR_1_1AllLocalTriangulations.html":[6,0,2,0,1,39],
 "structMR_1_1AllLocalTriangulations.html#a37b85e8c82a4f3cc21ee54015ba67cbb":[6,0,1,0,1,56,1],
-"structMR_1_1AllLocalTriangulations.html#a37b85e8c82a4f3cc21ee54015ba67cbb":[6,0,2,0,1,39,1],
-"structMR_1_1AllLocalTriangulations.html#a63033f3b2a1d4be33d6fc4e3d709a2cf":[6,0,1,0,1,56,0],
-"structMR_1_1AllLocalTriangulations.html#a63033f3b2a1d4be33d6fc4e3d709a2cf":[6,0,2,0,1,39,0],
-"structMR_1_1AncillaryLabel.html":[6,0,1,0,1,59],
-"structMR_1_1AncillaryLabel.html":[6,0,2,0,1,42],
-"structMR_1_1AncillaryLabel.html#a070a922323be7efce55dd8c8690ea31f":[6,0,1,0,1,59,5],
-"structMR_1_1AncillaryLabel.html#a070a922323be7efce55dd8c8690ea31f":[6,0,2,0,1,42,5],
-"structMR_1_1AncillaryLabel.html#a16025faba8e564c0ffa83a7e2f72bf40":[6,0,1,0,1,59,6],
-"structMR_1_1AncillaryLabel.html#a16025faba8e564c0ffa83a7e2f72bf40":[6,0,2,0,1,42,6]
+"structMR_1_1AllLocalTriangulations.html#a37b85e8c82a4f3cc21ee54015ba67cbb":[6,0,2,0,1,39,1]
 };

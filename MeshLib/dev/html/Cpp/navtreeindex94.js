@@ -1,5 +1,13 @@
 var NAVTREEINDEX94 =
 {
+"structMR_1_1VectorTraits_3_01Vector4_3_01T_01_4_01_4.html#a0182044b0d0e90bd265ddd66d56c87be":[6,0,1,0,1,782,0],
+"structMR_1_1VectorTraits_3_01Vector4_3_01T_01_4_01_4.html#a0182044b0d0e90bd265ddd66d56c87be":[6,0,2,0,1,765,0],
+"structMR_1_1VectorTraits_3_01Vector4_3_01T_01_4_01_4.html#a851975d6696d5dd1f84296e6f1420c48":[6,0,1,0,1,782,1],
+"structMR_1_1VectorTraits_3_01Vector4_3_01T_01_4_01_4.html#a851975d6696d5dd1f84296e6f1420c48":[6,0,2,0,1,765,1],
+"structMR_1_1VertDistance.html":[6,0,0,16,2,0],
+"structMR_1_1VertDistance.html#a6a8273bff57db797404893811ae3f24a":[6,0,0,16,2,0,2],
+"structMR_1_1VertDistance.html#a7e288480095c91d543447305bb312076":[6,0,0,16,2,0,1],
+"structMR_1_1VertDistance.html#ab32da452523a0d3cd61407d73b038145":[6,0,0,16,2,0,3],
 "structMR_1_1VertDistance.html#ae19ef1f7b79abb8e541d35f8cb12a614":[6,0,0,16,2,0,0],
 "structMR_1_1VertPathInfo.html":[6,0,0,16,5],
 "structMR_1_1VertPathInfo.html#a2530c5bd3051baea96398e09ade9e59e":[6,0,0,16,5,2],
@@ -241,13 +249,5 @@ var NAVTREEINDEX94 =
 "structMR_1_1WatershedGraph_1_1BasinInfo.html#ad87c8f736d8d1dea1c3085b690ddbab3":[6,0,2,0,1,809,0,13],
 "structMR_1_1WatershedGraph_1_1BasinInfo.html#adf005a578ca2b6fe35277c7ea358737e":[6,0,1,0,1,826,0,2],
 "structMR_1_1WatershedGraph_1_1BasinInfo.html#adf005a578ca2b6fe35277c7ea358737e":[6,0,2,0,1,809,0,2],
-"structMR_1_1WatershedGraph_1_1BasinInfo.html#af87b0b720148b1f8a07ced0557424191":[6,0,1,0,1,826,0,8],
-"structMR_1_1WatershedGraph_1_1BasinInfo.html#af87b0b720148b1f8a07ced0557424191":[6,0,2,0,1,809,0,8],
-"structMR_1_1WatershedGraph_1_1BdInfo.html":[6,0,1,0,1,826,1],
-"structMR_1_1WatershedGraph_1_1BdInfo.html":[6,0,2,0,1,809,1],
-"structMR_1_1WatershedGraph_1_1BdInfo.html#a1cef595f818149e8ab3c459988194aac":[6,0,1,0,1,826,1,0],
-"structMR_1_1WatershedGraph_1_1BdInfo.html#a1cef595f818149e8ab3c459988194aac":[6,0,2,0,1,809,1,0],
-"structMR_1_1WatershedGraph_1_1OverflowPoint.html":[6,0,1,0,1,826,2],
-"structMR_1_1WatershedGraph_1_1OverflowPoint.html":[6,0,2,0,1,809,2],
-"structMR_1_1WatershedGraph_1_1OverflowPoint.html#a4058c6bc93b43ba32fc92f1f336b7619":[6,0,1,0,1,826,2,1]
+"structMR_1_1WatershedGraph_1_1BasinInfo.html#af87b0b720148b1f8a07ced0557424191":[6,0,1,0,1,826,0,8]
 };

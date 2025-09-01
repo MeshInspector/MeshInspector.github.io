@@ -1,5 +1,13 @@
 var NAVTREEINDEX76 =
 {
+"structMR_1_1GridSettings.html#af447c539472e1a0723a984179f282685ab75fcdd2d72d9e000beab48622402d93":[6,0,2,0,1,263,1,0],
+"structMR_1_1GridToMeshSettings.html":[6,0,1,0,1,281],
+"structMR_1_1GridToMeshSettings.html":[6,0,2,0,1,264],
+"structMR_1_1GridToMeshSettings.html#a1b0ad87a91cd5605d3c6c9df23882b43":[6,0,1,0,1,281,5],
+"structMR_1_1GridToMeshSettings.html#a1b0ad87a91cd5605d3c6c9df23882b43":[6,0,2,0,1,264,5],
+"structMR_1_1GridToMeshSettings.html#a36f6e01a1f97935440b97e4c1bd3bf12":[6,0,1,0,1,281,0],
+"structMR_1_1GridToMeshSettings.html#a36f6e01a1f97935440b97e4c1bd3bf12":[6,0,2,0,1,264,0],
+"structMR_1_1GridToMeshSettings.html#a60ec5481dc2216c33c10205f17221fba":[6,0,1,0,1,281,4],
 "structMR_1_1GridToMeshSettings.html#a60ec5481dc2216c33c10205f17221fba":[6,0,2,0,1,264,4],
 "structMR_1_1GridToMeshSettings.html#aa2ad751beafe72cd366b5c37d41f6983":[6,0,1,0,1,281,3],
 "structMR_1_1GridToMeshSettings.html#aa2ad751beafe72cd366b5c37d41f6983":[6,0,2,0,1,264,3],
@@ -241,13 +249,5 @@ var NAVTREEINDEX76 =
 "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#ac3054d46cfaedba6b0a499eb9384d17a":[6,0,1,0,1,15,4,12],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#ac3054d46cfaedba6b0a499eb9384d17a":[6,0,2,0,1,6,4,12],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#af0499c1167b1f999c50abcda597a5133":[6,0,1,0,1,15,4,8],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#af0499c1167b1f999c50abcda597a5133":[6,0,2,0,1,6,4,8],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#af359c4c5fd8028e39166af8ee8b23736":[6,0,1,0,1,15,4,15],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#af359c4c5fd8028e39166af8ee8b23736":[6,0,2,0,1,6,4,15],
-"structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve.html":[6,0,1,0,1,15,5],
-"structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve.html":[6,0,2,0,1,6,5],
-"structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve.html#a3816885bcfec02afae90a2eb378332a9":[6,0,1,0,1,15,5,1],
-"structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve.html#a3816885bcfec02afae90a2eb378332a9":[6,0,2,0,1,6,5,1],
-"structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve.html#a82c49f908474da383b54cab422513525":[6,0,1,0,1,15,5,2],
-"structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve.html#a82c49f908474da383b54cab422513525":[6,0,2,0,1,6,5,2]
+"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#af0499c1167b1f999c50abcda597a5133":[6,0,2,0,1,6,4,8]
 };

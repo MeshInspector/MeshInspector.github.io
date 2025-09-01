@@ -1,5 +1,13 @@
 var NAVTREEINDEX84 =
 {
+"structMR_1_1Palette_1_1Parameters.html#a9a1c14b8de7d2c34b832c70062d489b9":[6,0,1,0,1,491,2,3],
+"structMR_1_1Palette_1_1Parameters.html#a9a1c14b8de7d2c34b832c70062d489b9":[6,0,2,0,1,474,2,3],
+"structMR_1_1Palette_1_1Parameters.html#ae9f6c64d1d00c242d6863b39c8a466fe":[6,0,1,0,1,491,2,2],
+"structMR_1_1Palette_1_1Parameters.html#ae9f6c64d1d00c242d6863b39c8a466fe":[6,0,2,0,1,474,2,2],
+"structMR_1_1Parabola.html":[6,0,1,0,1,493],
+"structMR_1_1Parabola.html":[6,0,2,0,1,476],
+"structMR_1_1Parabola.html#a0cdfe97a6580c1aaa9b873a6320f0793":[6,0,1,0,1,493,0],
+"structMR_1_1Parabola.html#a0cdfe97a6580c1aaa9b873a6320f0793":[6,0,2,0,1,476,0],
 "structMR_1_1Parabola.html#a3244e04984e6a61cd9243af2af6e178d":[6,0,1,0,1,493,4],
 "structMR_1_1Parabola.html#a3244e04984e6a61cd9243af2af6e178d":[6,0,2,0,1,476,4],
 "structMR_1_1Parabola.html#a34d2109107ef4c428253a8755305114b":[6,0,1,0,1,493,6],
@@ -241,13 +249,5 @@ var NAVTREEINDEX84 =
 "structMR_1_1PointAndDistance.html#a30b687a3ae4e9a8f1e2faf636e415f5c":[6,0,2,0,1,497,1],
 "structMR_1_1PointAndDistance.html#a95a6c6e03ea27af92edfb720b51eb6cc":[6,0,1,0,1,514,2],
 "structMR_1_1PointAndDistance.html#a95a6c6e03ea27af92edfb720b51eb6cc":[6,0,2,0,1,497,2],
-"structMR_1_1PointAndDistance.html#ad69e7a0cb1644a718347e10e06baf900":[6,0,1,0,1,514,3],
-"structMR_1_1PointAndDistance.html#ad69e7a0cb1644a718347e10e06baf900":[6,0,2,0,1,497,3],
-"structMR_1_1PointCloud.html":[6,0,0,12,0],
-"structMR_1_1PointCloud.html#a0da05bf74b7157037f314c884ab018b4":[6,0,0,12,0,21],
-"structMR_1_1PointCloud.html#a25842b53d739f9841d97e66dd8221d59":[6,0,0,12,0,15],
-"structMR_1_1PointCloud.html#a25c1039968a5dc3a24591ac5b74148ad":[6,0,0,12,0,20],
-"structMR_1_1PointCloud.html#a28846bc1f86b18053ff605bd9cdffc26":[6,0,0,12,0,11],
-"structMR_1_1PointCloud.html#a2d87e2ca54a218f3beda5e403db122be":[6,0,0,12,0,8],
-"structMR_1_1PointCloud.html#a319f02ae48a72ea0f874efa137764365":[6,0,0,12,0,0]
+"structMR_1_1PointAndDistance.html#ad69e7a0cb1644a718347e10e06baf900":[6,0,1,0,1,514,3]
 };

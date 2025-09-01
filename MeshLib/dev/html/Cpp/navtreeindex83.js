@@ -1,5 +1,13 @@
 var NAVTREEINDEX83 =
 {
+"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Line_01_4.html":[6,0,2,0,1,450],
+"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Line_01_4.html#ae118fa6ed40ec5fb3e1ce843d0591f6b":[6,0,1,0,1,467,0],
+"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Line_01_4.html#ae118fa6ed40ec5fb3e1ce843d0591f6b":[6,0,2,0,1,450,0],
+"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Plane_01_4.html":[6,0,1,0,1,468],
+"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Plane_01_4.html":[6,0,2,0,1,451],
+"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Plane_01_4.html#a6cce32400bcbe22e29d7873410a975f9":[6,0,1,0,1,468,0],
+"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Plane_01_4.html#a6cce32400bcbe22e29d7873410a975f9":[6,0,2,0,1,451,0],
+"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Point_01_4.html":[6,0,1,0,1,469],
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Point_01_4.html":[6,0,2,0,1,452],
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Point_01_4.html#a7c6810eee2e81dd56d902c959a18d117":[6,0,1,0,1,469,0],
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Point_01_4.html#a7c6810eee2e81dd56d902c959a18d117":[6,0,2,0,1,452,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX83 =
 "structMR_1_1Palette_1_1Parameters.html#a10918a054375c316bd8e2fcb0685a726":[6,0,1,0,1,491,2,0],
 "structMR_1_1Palette_1_1Parameters.html#a10918a054375c316bd8e2fcb0685a726":[6,0,2,0,1,474,2,0],
 "structMR_1_1Palette_1_1Parameters.html#a25a6807ebee10dcb03a9e00733288113":[6,0,1,0,1,491,2,1],
-"structMR_1_1Palette_1_1Parameters.html#a25a6807ebee10dcb03a9e00733288113":[6,0,2,0,1,474,2,1],
-"structMR_1_1Palette_1_1Parameters.html#a9a1c14b8de7d2c34b832c70062d489b9":[6,0,1,0,1,491,2,3],
-"structMR_1_1Palette_1_1Parameters.html#a9a1c14b8de7d2c34b832c70062d489b9":[6,0,2,0,1,474,2,3],
-"structMR_1_1Palette_1_1Parameters.html#ae9f6c64d1d00c242d6863b39c8a466fe":[6,0,1,0,1,491,2,2],
-"structMR_1_1Palette_1_1Parameters.html#ae9f6c64d1d00c242d6863b39c8a466fe":[6,0,2,0,1,474,2,2],
-"structMR_1_1Parabola.html":[6,0,1,0,1,493],
-"structMR_1_1Parabola.html":[6,0,2,0,1,476],
-"structMR_1_1Parabola.html#a0cdfe97a6580c1aaa9b873a6320f0793":[6,0,1,0,1,493,0],
-"structMR_1_1Parabola.html#a0cdfe97a6580c1aaa9b873a6320f0793":[6,0,2,0,1,476,0]
+"structMR_1_1Palette_1_1Parameters.html#a25a6807ebee10dcb03a9e00733288113":[6,0,2,0,1,474,2,1]
 };

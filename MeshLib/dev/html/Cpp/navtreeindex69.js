@@ -1,5 +1,13 @@
 var NAVTREEINDEX69 =
 {
+"structMR_1_1AllLocalTriangulations.html#a63033f3b2a1d4be33d6fc4e3d709a2cf":[6,0,1,0,1,56,0],
+"structMR_1_1AllLocalTriangulations.html#a63033f3b2a1d4be33d6fc4e3d709a2cf":[6,0,2,0,1,39,0],
+"structMR_1_1AncillaryLabel.html":[6,0,1,0,1,59],
+"structMR_1_1AncillaryLabel.html":[6,0,2,0,1,42],
+"structMR_1_1AncillaryLabel.html#a070a922323be7efce55dd8c8690ea31f":[6,0,1,0,1,59,5],
+"structMR_1_1AncillaryLabel.html#a070a922323be7efce55dd8c8690ea31f":[6,0,2,0,1,42,5],
+"structMR_1_1AncillaryLabel.html#a16025faba8e564c0ffa83a7e2f72bf40":[6,0,1,0,1,59,6],
+"structMR_1_1AncillaryLabel.html#a16025faba8e564c0ffa83a7e2f72bf40":[6,0,2,0,1,42,6],
 "structMR_1_1AncillaryLabel.html#a239c63d2e67790f3d6e1338de1f351ac":[6,0,1,0,1,59,1],
 "structMR_1_1AncillaryLabel.html#a239c63d2e67790f3d6e1338de1f351ac":[6,0,2,0,1,42,1],
 "structMR_1_1AncillaryLabel.html#a4ad01ecea78683580f97a7bc98dee31b":[6,0,1,0,1,59,11],
@@ -241,13 +249,5 @@ var NAVTREEINDEX69 =
 "structMR_1_1BooleanParameters.html#a3c9ab9ed36085974e0aedcdba8ee7b0c":[6,0,1,0,1,82,6],
 "structMR_1_1BooleanParameters.html#a3c9ab9ed36085974e0aedcdba8ee7b0c":[6,0,2,0,1,65,6],
 "structMR_1_1BooleanParameters.html#a3e10d01aa0e3e192325518ba6d1ea24c":[6,0,1,0,1,82,0],
-"structMR_1_1BooleanParameters.html#a3e10d01aa0e3e192325518ba6d1ea24c":[6,0,2,0,1,65,0],
-"structMR_1_1BooleanParameters.html#a4502c74eb11e7d2d08ea54e0fa153ac1":[6,0,1,0,1,82,1],
-"structMR_1_1BooleanParameters.html#a4502c74eb11e7d2d08ea54e0fa153ac1":[6,0,2,0,1,65,1],
-"structMR_1_1BooleanParameters.html#a4617bb49dfbad4a7fda08bd0c7a9fe2e":[6,0,1,0,1,82,3],
-"structMR_1_1BooleanParameters.html#a4617bb49dfbad4a7fda08bd0c7a9fe2e":[6,0,2,0,1,65,3],
-"structMR_1_1BooleanParameters.html#a4e9fd686cd57658f583e243451c94393":[6,0,1,0,1,82,4],
-"structMR_1_1BooleanParameters.html#a4e9fd686cd57658f583e243451c94393":[6,0,2,0,1,65,4],
-"structMR_1_1BooleanParameters.html#aa7d29b950e89579308197da903b43d92":[6,0,1,0,1,82,7],
-"structMR_1_1BooleanParameters.html#aa7d29b950e89579308197da903b43d92":[6,0,2,0,1,65,7]
+"structMR_1_1BooleanParameters.html#a3e10d01aa0e3e192325518ba6d1ea24c":[6,0,2,0,1,65,0]
 };

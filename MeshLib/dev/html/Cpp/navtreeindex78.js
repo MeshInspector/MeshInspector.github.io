@@ -1,5 +1,13 @@
 var NAVTREEINDEX78 =
 {
+"structMR_1_1KeyRepeatListener.html#a0f51c4b0274522776a58519e64f392d3":[6,0,1,0,1,336,3],
+"structMR_1_1KeyRepeatListener.html#a0f51c4b0274522776a58519e64f392d3":[6,0,2,0,1,319,3],
+"structMR_1_1KeyRepeatListener.html#a1bfee0fb1068a663eb38183d57bafa23":[6,0,1,0,1,336,1],
+"structMR_1_1KeyRepeatListener.html#a1bfee0fb1068a663eb38183d57bafa23":[6,0,2,0,1,319,1],
+"structMR_1_1KeyRepeatListener.html#a6be3688ad96048847339a48e9af501ca":[6,0,1,0,1,336,2],
+"structMR_1_1KeyRepeatListener.html#a6be3688ad96048847339a48e9af501ca":[6,0,2,0,1,319,2],
+"structMR_1_1KeyRepeatListener.html#afd65fe47b0dc9436298e754ae7033eba":[6,0,1,0,1,336,0],
+"structMR_1_1KeyRepeatListener.html#afd65fe47b0dc9436298e754ae7033eba":[6,0,2,0,1,319,0],
 "structMR_1_1KeyUpListener.html":[6,0,1,0,1,337],
 "structMR_1_1KeyUpListener.html":[6,0,2,0,1,320],
 "structMR_1_1KeyUpListener.html#a07cd66972e7837c59e9d7e0db46c988b":[6,0,1,0,1,337,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX78 =
 "structMR_1_1MarkedVoxelSlice_1_1Parameters.html":[6,0,2,0,1,341,1],
 "structMR_1_1MarkedVoxelSlice_1_1Parameters.html#a40042bd3d06dc6fbad5b2ffa07f34a32":[6,0,1,0,1,358,1,1],
 "structMR_1_1MarkedVoxelSlice_1_1Parameters.html#a40042bd3d06dc6fbad5b2ffa07f34a32":[6,0,2,0,1,341,1,1],
-"structMR_1_1MarkedVoxelSlice_1_1Parameters.html#a457b6335d7f051cf9ad4ff3d0d6514a5":[6,0,1,0,1,358,1,5],
-"structMR_1_1MarkedVoxelSlice_1_1Parameters.html#a457b6335d7f051cf9ad4ff3d0d6514a5":[6,0,2,0,1,341,1,5],
-"structMR_1_1MarkedVoxelSlice_1_1Parameters.html#a791fa5f984772241f082f10270b11f8f":[6,0,1,0,1,358,1,4],
-"structMR_1_1MarkedVoxelSlice_1_1Parameters.html#a791fa5f984772241f082f10270b11f8f":[6,0,2,0,1,341,1,4],
-"structMR_1_1MarkedVoxelSlice_1_1Parameters.html#a835e91b9fdac74516e50eb00d5a582f0":[6,0,1,0,1,358,1,2],
-"structMR_1_1MarkedVoxelSlice_1_1Parameters.html#a835e91b9fdac74516e50eb00d5a582f0":[6,0,2,0,1,341,1,2],
-"structMR_1_1MarkedVoxelSlice_1_1Parameters.html#a93fbaf0d7a2c10d26661c66f178f5ddf":[6,0,1,0,1,358,1,0],
-"structMR_1_1MarkedVoxelSlice_1_1Parameters.html#a93fbaf0d7a2c10d26661c66f178f5ddf":[6,0,2,0,1,341,1,0],
-"structMR_1_1MarkedVoxelSlice_1_1Parameters.html#aa1adf8bb92d44c2f71e211d90450d693":[6,0,1,0,1,358,1,8]
+"structMR_1_1MarkedVoxelSlice_1_1Parameters.html#a457b6335d7f051cf9ad4ff3d0d6514a5":[6,0,1,0,1,358,1,5]
 };

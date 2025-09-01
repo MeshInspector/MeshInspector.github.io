@@ -171,12 +171,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a723a077281d985e67b4601e9028f1b70" id="r_a723a077281d985e67b4601e9028f1b70"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a723a077281d985e67b4601e9028f1b70">setAxesProps</a> (float <a class="el" href="MRObjectDimensionsEnum_8h.html#af9d495c1655d813d553030485d00fea7">length</a>, float <a class="el" href="group__BoxGroup.html#ga03ccb991cf0d9c433fd5a054a5d026af">width</a>, <a class="el" href="classMR_1_1ViewportId.html">ViewportId</a> id={})</td></tr>
 <tr class="memdesc:a723a077281d985e67b4601e9028f1b70"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets length and width for all axes.  <br /></td></tr>
 <tr class="separator:a723a077281d985e67b4601e9028f1b70"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0cddd7aa83eb98ad34ace620709cb268" id="r_a0cddd7aa83eb98ad34ace620709cb268"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0cddd7aa83eb98ad34ace620709cb268">setColors</a> (const <a class="el" href="structMR_1_1Color.html">Color</a> &amp;xColor, const <a class="el" href="structMR_1_1Color.html">Color</a> &amp;yColor, const <a class="el" href="structMR_1_1Color.html">Color</a> &amp;zColor)</td></tr>
-<tr class="memdesc:a0cddd7aa83eb98ad34ace620709cb268"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets colors for each axis of this object.  <br /></td></tr>
-<tr class="separator:a0cddd7aa83eb98ad34ace620709cb268"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a659538104ebdb29e626cf32a420f3b34" id="r_a659538104ebdb29e626cf32a420f3b34"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a659538104ebdb29e626cf32a420f3b34">visualChildren</a> () const</td></tr>
-<tr class="memdesc:a659538104ebdb29e626cf32a420f3b34"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simple accessor to visual children (useful for pickers or box calculations)  <br /></td></tr>
-<tr class="separator:a659538104ebdb29e626cf32a420f3b34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12801d2dd751246f5c16ee22920506b4" id="r_a12801d2dd751246f5c16ee22920506b4"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12801d2dd751246f5c16ee22920506b4">setColors</a> (const <a class="el" href="structMR_1_1Color.html">Color</a> &amp;xColor, const <a class="el" href="structMR_1_1Color.html">Color</a> &amp;yColor, const <a class="el" href="structMR_1_1Color.html">Color</a> &amp;zColor, const <a class="el" href="structMR_1_1Color.html">Color</a> &amp;labelColors)</td></tr>
+<tr class="memdesc:a12801d2dd751246f5c16ee22920506b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets colors for each axis of this object.  <br /></td></tr>
+<tr class="separator:a12801d2dd751246f5c16ee22920506b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0140bc479277971c9a74e3e593e46b7b" id="r_a0140bc479277971c9a74e3e593e46b7b"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0140bc479277971c9a74e3e593e46b7b">axesChildren</a> () const</td></tr>
+<tr class="memdesc:a0140bc479277971c9a74e3e593e46b7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simple accessor to visual children (useful for pickers or box calculations)  <br /></td></tr>
+<tr class="separator:a0140bc479277971c9a74e3e593e46b7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf12d6fa6b9ede282e79114ae3acf9ee" id="r_adf12d6fa6b9ede282e79114ae3acf9ee"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf12d6fa6b9ede282e79114ae3acf9ee">getRedrawFlag</a> (<a class="el" href="classMR_1_1ViewportMask.html">ViewportMask</a> vpMask) const</td></tr>
 <tr class="memdesc:adf12d6fa6b9ede282e79114ae3acf9ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if any of its children requires redraw  <br /></td></tr>
 <tr class="separator:adf12d6fa6b9ede282e79114ae3acf9ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -192,6 +192,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a50928a929ec603bfd12c73f36b3ce840" id="r_a50928a929ec603bfd12c73f36b3ce840"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50928a929ec603bfd12c73f36b3ce840">isVisible</a> (<a class="el" href="classMR_1_1ViewportMask.html">ViewportMask</a> vpMask=<a class="el" href="classMR_1_1ViewportMask.html#a002460583d469f70652956e197aa4ecf">ViewportMask::any</a>()) const</td></tr>
 <tr class="memdesc:a50928a929ec603bfd12c73f36b3ce840"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if object is present and visible  <br /></td></tr>
 <tr class="separator:a50928a929ec603bfd12c73f36b3ce840"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab35195663b7a52e332795bb058fdf6fc" id="r_ab35195663b7a52e332795bb058fdf6fc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab35195663b7a52e332795bb058fdf6fc">resetConnections</a> ()</td></tr>
+<tr class="memdesc:ab35195663b7a52e332795bb058fdf6fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">clears connections of this structure (by default it changes colors on theme change and change font size on rescale)  <br /></td></tr>
+<tr class="separator:ab35195663b7a52e332795bb058fdf6fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class to unify Global Basis control. </p>
@@ -216,6 +219,25 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a0140bc479277971c9a74e3e593e46b7b" name="a0140bc479277971c9a74e3e593e46b7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0140bc479277971c9a74e3e593e46b7b">&#9670;&#160;</a></span>axesChildren()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &gt; &amp; MR::ViewportGlobalBasis::axesChildren </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Simple accessor to visual children (useful for pickers or box calculations) </p>
+
+</div>
+</div>
 <a id="aa325da7b15c71b8d867ac78ea2d512c5" name="aa325da7b15c71b8d867ac78ea2d512c5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa325da7b15c71b8d867ac78ea2d512c5">&#9670;&#160;</a></span>draw()</h2>
 
@@ -319,6 +341,33 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ab35195663b7a52e332795bb058fdf6fc" name="ab35195663b7a52e332795bb058fdf6fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab35195663b7a52e332795bb058fdf6fc">&#9670;&#160;</a></span>resetConnections()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::ViewportGlobalBasis::resetConnections </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>clears connections of this structure (by default it changes colors on theme change and change font size on rescale) </p>
+
+</div>
+</div>
 <a id="a3b01edb8a3a01ffa828ed5037b9bdd97" name="a3b01edb8a3a01ffa828ed5037b9bdd97"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3b01edb8a3a01ffa828ed5037b9bdd97">&#9670;&#160;</a></span>resetRedrawFlag()</h2>
 
@@ -366,8 +415,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a0cddd7aa83eb98ad34ace620709cb268" name="a0cddd7aa83eb98ad34ace620709cb268"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0cddd7aa83eb98ad34ace620709cb268">&#9670;&#160;</a></span>setColors()</h2>
+<a id="a12801d2dd751246f5c16ee22920506b4" name="a12801d2dd751246f5c16ee22920506b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12801d2dd751246f5c16ee22920506b4">&#9670;&#160;</a></span>setColors()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -385,7 +434,12 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1Color.html">Color</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>zColor</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Color.html">Color</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>zColor</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Color.html">Color</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>labelColors</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -414,25 +468,6 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Set visibility for all children objects. </p>
-
-</div>
-</div>
-<a id="a659538104ebdb29e626cf32a420f3b34" name="a659538104ebdb29e626cf32a420f3b34"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a659538104ebdb29e626cf32a420f3b34">&#9670;&#160;</a></span>visualChildren()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">MRVIEWER_API const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &gt; &amp; MR::ViewportGlobalBasis::visualChildren </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Simple accessor to visual children (useful for pickers or box calculations) </p>
 
 </div>
 </div>

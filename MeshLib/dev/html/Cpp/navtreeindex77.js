@@ -1,5 +1,13 @@
 var NAVTREEINDEX77 =
 {
+"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#af359c4c5fd8028e39166af8ee8b23736":[6,0,1,0,1,15,4,15],
+"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#af359c4c5fd8028e39166af8ee8b23736":[6,0,2,0,1,6,4,15],
+"structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve.html":[6,0,1,0,1,15,5],
+"structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve.html":[6,0,2,0,1,6,5],
+"structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve.html#a3816885bcfec02afae90a2eb378332a9":[6,0,1,0,1,15,5,1],
+"structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve.html#a3816885bcfec02afae90a2eb378332a9":[6,0,2,0,1,6,5,1],
+"structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve.html#a82c49f908474da383b54cab422513525":[6,0,1,0,1,15,5,2],
+"structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve.html#a82c49f908474da383b54cab422513525":[6,0,2,0,1,6,5,2],
 "structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve.html#adc882bf59a1455b3ac5391416ed0c55b":[6,0,1,0,1,15,5,3],
 "structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve.html#adc882bf59a1455b3ac5391416ed0c55b":[6,0,2,0,1,6,5,3],
 "structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve.html#af8b700f89714d976e55426b9ae9a67b9":[6,0,1,0,1,15,5,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX77 =
 "structMR_1_1KeyDownListener.html#af86a1cfaae2446a6124adbf0d57fcd22":[6,0,1,0,1,335,2],
 "structMR_1_1KeyDownListener.html#af86a1cfaae2446a6124adbf0d57fcd22":[6,0,2,0,1,318,2],
 "structMR_1_1KeyRepeatListener.html":[6,0,1,0,1,336],
-"structMR_1_1KeyRepeatListener.html":[6,0,2,0,1,319],
-"structMR_1_1KeyRepeatListener.html#a0f51c4b0274522776a58519e64f392d3":[6,0,1,0,1,336,3],
-"structMR_1_1KeyRepeatListener.html#a0f51c4b0274522776a58519e64f392d3":[6,0,2,0,1,319,3],
-"structMR_1_1KeyRepeatListener.html#a1bfee0fb1068a663eb38183d57bafa23":[6,0,1,0,1,336,1],
-"structMR_1_1KeyRepeatListener.html#a1bfee0fb1068a663eb38183d57bafa23":[6,0,2,0,1,319,1],
-"structMR_1_1KeyRepeatListener.html#a6be3688ad96048847339a48e9af501ca":[6,0,1,0,1,336,2],
-"structMR_1_1KeyRepeatListener.html#a6be3688ad96048847339a48e9af501ca":[6,0,2,0,1,319,2],
-"structMR_1_1KeyRepeatListener.html#afd65fe47b0dc9436298e754ae7033eba":[6,0,1,0,1,336,0],
-"structMR_1_1KeyRepeatListener.html#afd65fe47b0dc9436298e754ae7033eba":[6,0,2,0,1,319,0]
+"structMR_1_1KeyRepeatListener.html":[6,0,2,0,1,319]
 };
