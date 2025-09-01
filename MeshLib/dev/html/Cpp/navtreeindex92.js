@@ -1,5 +1,6 @@
 var NAVTREEINDEX92 =
 {
+"structMR_1_1TrivialMetricToPenalty.html":[6,0,1,0,1,755],
 "structMR_1_1TrivialMetricToPenalty.html":[6,0,2,0,1,738],
 "structMR_1_1TrivialMetricToPenalty.html#ac520c15e54c74fc25c2c0d3a0bdd18a6":[6,0,1,0,1,755,0],
 "structMR_1_1TrivialMetricToPenalty.html#ac520c15e54c74fc25c2c0d3a0bdd18a6":[6,0,2,0,1,738,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX92 =
 "structMR_1_1UnitInfo.html":[6,0,1,0,1,769],
 "structMR_1_1UnitInfo.html":[6,0,2,0,1,752],
 "structMR_1_1UnitInfo.html#a51e42890c307d870cd98616e9336cc4f":[6,0,1,0,1,769,2],
-"structMR_1_1UnitInfo.html#a51e42890c307d870cd98616e9336cc4f":[6,0,2,0,1,752,2],
-"structMR_1_1UnitInfo.html#a531dd608ed4d751acebfe96a4ce966ef":[6,0,1,0,1,769,1]
+"structMR_1_1UnitInfo.html#a51e42890c307d870cd98616e9336cc4f":[6,0,2,0,1,752,2]
 };

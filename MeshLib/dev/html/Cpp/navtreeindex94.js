@@ -1,5 +1,6 @@
 var NAVTREEINDEX94 =
 {
+"structMR_1_1VertDistance.html#ae19ef1f7b79abb8e541d35f8cb12a614":[6,0,0,16,2,0,0],
 "structMR_1_1VertPathInfo.html":[6,0,0,16,5],
 "structMR_1_1VertPathInfo.html#a2530c5bd3051baea96398e09ade9e59e":[6,0,0,16,5,2],
 "structMR_1_1VertPathInfo.html#a7a3153da84d3b829b564f595cd7d7a7e":[6,0,0,16,5,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX94 =
 "structMR_1_1WatershedGraph_1_1BdInfo.html#a1cef595f818149e8ab3c459988194aac":[6,0,2,0,1,809,1,0],
 "structMR_1_1WatershedGraph_1_1OverflowPoint.html":[6,0,1,0,1,826,2],
 "structMR_1_1WatershedGraph_1_1OverflowPoint.html":[6,0,2,0,1,809,2],
-"structMR_1_1WatershedGraph_1_1OverflowPoint.html#a4058c6bc93b43ba32fc92f1f336b7619":[6,0,1,0,1,826,2,1],
-"structMR_1_1WatershedGraph_1_1OverflowPoint.html#a4058c6bc93b43ba32fc92f1f336b7619":[6,0,2,0,1,809,2,1]
+"structMR_1_1WatershedGraph_1_1OverflowPoint.html#a4058c6bc93b43ba32fc92f1f336b7619":[6,0,1,0,1,826,2,1]
 };
