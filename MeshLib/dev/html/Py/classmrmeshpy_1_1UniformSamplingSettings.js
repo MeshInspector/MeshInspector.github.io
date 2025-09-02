@@ -1,6 +1,7 @@
 var classmrmeshpy_1_1UniformSamplingSettings =
 [
     [ "__init__", "classmrmeshpy_1_1UniformSamplingSettings.html#aa03dc8eb800c97a2bcbd69a1d2c8a8a7", null ],
+    [ "__init__", "classmrmeshpy_1_1UniformSamplingSettings.html#aae2232b588499a6b1891206b3509a4ac", null ],
     [ "__init__", "classmrmeshpy_1_1UniformSamplingSettings.html#a014cacc388325791df951302ce8747e2", null ],
     [ "distance", "classmrmeshpy_1_1UniformSamplingSettings.html#ade6b6811f1592b85cb1facad976585f5", null ],
     [ "distance", "classmrmeshpy_1_1UniformSamplingSettings.html#a5f450a54cfe259bc7d69298eaf8e71ec", null ],

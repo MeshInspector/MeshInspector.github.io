@@ -1,6 +1,7 @@
 var classmrmeshpy_1_1GraphEdgeId =
 [
     [ "__init__", "classmrmeshpy_1_1GraphEdgeId.html#abbdd80dc4cf846412a382cee4ca5cbc0", null ],
+    [ "__init__", "classmrmeshpy_1_1GraphEdgeId.html#ad608342ca7962e14e673b04ec2d40a9b", null ],
     [ "__bool__", "classmrmeshpy_1_1GraphEdgeId.html#a2f9ed215165657f28269411bc88bddb1", null ],
     [ "__eq__", "classmrmeshpy_1_1GraphEdgeId.html#af40b521b9f97f1f5b20079b25f7d2209", null ],
     [ "__iadd__", "classmrmeshpy_1_1GraphEdgeId.html#a60e2536c1d5f55fcf0b95ae79e8d2603", null ],

@@ -4,6 +4,7 @@ var classmrmeshpy_1_1Vector__PixelId__PixelId =
     [ "__init__", "classmrmeshpy_1_1Vector__PixelId__PixelId.html#a324d62fd54e883a10279d122827f9394", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__PixelId__PixelId.html#a3310d2e2349acf69ef2e92e0921a6e63", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__PixelId__PixelId.html#aef94f0aaa0b76f6a6a7ad19838e5be2a", null ],
+    [ "__init__", "classmrmeshpy_1_1Vector__PixelId__PixelId.html#aada7a6b0d27027e18a8963f71cd7588f", null ],
     [ "__eq__", "classmrmeshpy_1_1Vector__PixelId__PixelId.html#a66d14b0de3ae145948857ae0e8d0d444", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vector__PixelId__PixelId.html#ad4554d667f049eca7a73147c975d5934", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vector__PixelId__PixelId.html#ad4554d667f049eca7a73147c975d5934", null ],

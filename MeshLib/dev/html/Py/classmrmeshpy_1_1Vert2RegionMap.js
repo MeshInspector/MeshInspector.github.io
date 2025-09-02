@@ -4,6 +4,7 @@ var classmrmeshpy_1_1Vert2RegionMap =
     [ "__init__", "classmrmeshpy_1_1Vert2RegionMap.html#a54e0eb9c30e999322bf1d2ab8a6725a4", null ],
     [ "__init__", "classmrmeshpy_1_1Vert2RegionMap.html#a87ead53c1addf731547f929fe077dd88", null ],
     [ "__init__", "classmrmeshpy_1_1Vert2RegionMap.html#a206c0749c09c452ccbf23134c40ad834", null ],
+    [ "__init__", "classmrmeshpy_1_1Vert2RegionMap.html#a502fba08b55d2b4117b38eb3c446642f", null ],
     [ "__eq__", "classmrmeshpy_1_1Vert2RegionMap.html#a85c0accdfd71bd340899f4d3e5820653", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vert2RegionMap.html#ac5cac6b32fb92c74b6c8b88f51b0d3d1", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vert2RegionMap.html#ac5cac6b32fb92c74b6c8b88f51b0d3d1", null ],

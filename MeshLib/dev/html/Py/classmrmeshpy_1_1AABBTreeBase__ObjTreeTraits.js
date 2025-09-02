@@ -1,6 +1,7 @@
 var classmrmeshpy_1_1AABBTreeBase__ObjTreeTraits =
 [
     [ "__init__", "classmrmeshpy_1_1AABBTreeBase__ObjTreeTraits.html#a36574444d81b5dbc5cd099cd4fcc167e", null ],
+    [ "__init__", "classmrmeshpy_1_1AABBTreeBase__ObjTreeTraits.html#a6e725a8282ade5c0399cc7d82eaf2f21", null ],
     [ "__getitem__", "classmrmeshpy_1_1AABBTreeBase__ObjTreeTraits.html#abf870342fbbb255bbfbef43bcc1a2a4b", null ],
     [ "getBoundingBox", "classmrmeshpy_1_1AABBTreeBase__ObjTreeTraits.html#a77d515843cbd6cf8f0562e127e557e9a", null ],
     [ "getLeafOrder", "classmrmeshpy_1_1AABBTreeBase__ObjTreeTraits.html#ad1f14d615c584220f9a7173cbf69ee26", null ],

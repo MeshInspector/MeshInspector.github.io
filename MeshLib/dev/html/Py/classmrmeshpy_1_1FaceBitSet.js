@@ -3,6 +3,7 @@ var classmrmeshpy_1_1FaceBitSet =
     [ "__init__", "classmrmeshpy_1_1FaceBitSet.html#a6f5f1fa4bdad810423d1a95586f40a65", null ],
     [ "__init__", "classmrmeshpy_1_1FaceBitSet.html#ad588e9f51d281a05ce61e8c3e3e9f5d9", null ],
     [ "__init__", "classmrmeshpy_1_1FaceBitSet.html#ad588e9f51d281a05ce61e8c3e3e9f5d9", null ],
+    [ "__init__", "classmrmeshpy_1_1FaceBitSet.html#a63b2afcce37aeab792d47351386d6e41", null ],
     [ "__and__", "classmrmeshpy_1_1FaceBitSet.html#a9185d70e452093505fdaea723f0f14a2", null ],
     [ "__eq__", "classmrmeshpy_1_1FaceBitSet.html#a9cb1e47c66d2a21cc3730d24bd6f2386", null ],
     [ "__getitem__", "classmrmeshpy_1_1FaceBitSet.html#a0859b9b94ac989c2b0ee64f909717d93", null ],

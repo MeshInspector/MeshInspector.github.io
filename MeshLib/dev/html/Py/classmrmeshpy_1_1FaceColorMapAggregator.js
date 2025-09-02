@@ -1,6 +1,7 @@
 var classmrmeshpy_1_1FaceColorMapAggregator =
 [
     [ "__init__", "classmrmeshpy_1_1FaceColorMapAggregator.html#a5b304faaa7ba4049dee3a177a1a169a4", null ],
+    [ "__init__", "classmrmeshpy_1_1FaceColorMapAggregator.html#ac018c1f11eebdbeee799ee132a7e6cb7", null ],
     [ "aggregate", "classmrmeshpy_1_1FaceColorMapAggregator.html#a9fe284506fd494e02d6f1d6bcca2713e", null ],
     [ "erase", "classmrmeshpy_1_1FaceColorMapAggregator.html#a807487f56a48218bd859f414376ae6d3", null ],
     [ "getColorMapNumber", "classmrmeshpy_1_1FaceColorMapAggregator.html#a132c0b50884a992a3d5a81d770bfd48f", null ],

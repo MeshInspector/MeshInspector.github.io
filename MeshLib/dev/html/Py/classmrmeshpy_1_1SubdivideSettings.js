@@ -1,6 +1,7 @@
 var classmrmeshpy_1_1SubdivideSettings =
 [
     [ "__init__", "classmrmeshpy_1_1SubdivideSettings.html#a116a49624c84131bb1311078dd875e8e", null ],
+    [ "__init__", "classmrmeshpy_1_1SubdivideSettings.html#a0bdec7f52e1b3067e2b5858957b2d1d3", null ],
     [ "__init__", "classmrmeshpy_1_1SubdivideSettings.html#a77c98bd5c0a5254d471c2c71bcb50426", null ],
     [ "beforeEdgeSplit", "classmrmeshpy_1_1SubdivideSettings.html#a05e725e668c0d998e738738fe206b573", null ],
     [ "beforeEdgeSplit", "classmrmeshpy_1_1SubdivideSettings.html#a27c28eb041431a83070e2babba9f2d24", null ],

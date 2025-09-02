@@ -1,6 +1,7 @@
 var classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId =
 [
     [ "__init__", "classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId.html#ac7f1941dc78480846cb0a3758e9a0449", null ],
+    [ "__init__", "classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId.html#ac668136a3886d4386e8475bf2c404721", null ],
     [ "__init__", "classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId.html#a63ba0655e42cd16b4ebb2fc91608250d", null ],
     [ "clear", "classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId.html#ad7804c29a0acfcfa732efff6a15c52c0", null ],
     [ "getHashMap", "classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId.html#a54cd752e79f6e585afebc458b495738e", null ],

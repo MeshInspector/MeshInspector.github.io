@@ -1,6 +1,7 @@
 var classmrmeshpy_1_1ModelPointsData =
 [
     [ "__init__", "classmrmeshpy_1_1ModelPointsData.html#aa408cb6d98af314d89dbb10cf0686f6d", null ],
+    [ "__init__", "classmrmeshpy_1_1ModelPointsData.html#adff43ba8c762549f569c6bd024150438", null ],
     [ "__init__", "classmrmeshpy_1_1ModelPointsData.html#ae73d3548f61a7e5f567c6668e9fb24b0", null ],
     [ "fakeObjId", "classmrmeshpy_1_1ModelPointsData.html#a58ba55ebecbb69cf8e30846c2279cc86", null ],
     [ "fakeObjId", "classmrmeshpy_1_1ModelPointsData.html#a53aea249235cb3683709942631ea79fd", null ],

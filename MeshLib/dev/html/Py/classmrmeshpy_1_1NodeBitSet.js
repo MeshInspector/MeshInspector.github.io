@@ -3,6 +3,7 @@ var classmrmeshpy_1_1NodeBitSet =
     [ "__init__", "classmrmeshpy_1_1NodeBitSet.html#a2cf61ff0d1e8905251c7d15eca1a5496", null ],
     [ "__init__", "classmrmeshpy_1_1NodeBitSet.html#a6ccdd2a9f9dcb301a30515b4ec57a80a", null ],
     [ "__init__", "classmrmeshpy_1_1NodeBitSet.html#a6ccdd2a9f9dcb301a30515b4ec57a80a", null ],
+    [ "__init__", "classmrmeshpy_1_1NodeBitSet.html#a7ce62035deadd745ba3d19f773df5c38", null ],
     [ "__and__", "classmrmeshpy_1_1NodeBitSet.html#a634516e24ab14258ba7a672a26f837f1", null ],
     [ "__getitem__", "classmrmeshpy_1_1NodeBitSet.html#acbc72a38eb3db38b420515eddfd1d88d", null ],
     [ "__iand__", "classmrmeshpy_1_1NodeBitSet.html#a172addb2db1fbc630b7c5aa9636341d2", null ],

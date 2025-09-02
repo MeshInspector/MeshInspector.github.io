@@ -1,6 +1,7 @@
 var classmrmeshpy_1_1TriangulationParameters =
 [
     [ "__init__", "classmrmeshpy_1_1TriangulationParameters.html#ad08d8276b35d17bd863d0795b40b0379", null ],
+    [ "__init__", "classmrmeshpy_1_1TriangulationParameters.html#a256d204c76f19b95504089c8f8c84efc", null ],
     [ "__init__", "classmrmeshpy_1_1TriangulationParameters.html#a2fbf15f62e32428ed397f38a7690ab3a", null ],
     [ "automaticRadiusIncrease", "classmrmeshpy_1_1TriangulationParameters.html#aea23d88ebae21d164056e37d057ce103", null ],
     [ "automaticRadiusIncrease", "classmrmeshpy_1_1TriangulationParameters.html#aedd0399a45316cf403cd061b2cbdd47c", null ],

@@ -1,6 +1,7 @@
 var classmrmeshpy_1_1DecimatePolylineSettings__Vector2f =
 [
     [ "__init__", "classmrmeshpy_1_1DecimatePolylineSettings__Vector2f.html#a28a5ce24522db4d9031f249049965eeb", null ],
+    [ "__init__", "classmrmeshpy_1_1DecimatePolylineSettings__Vector2f.html#a4ae15ac6d0178473015f6b78ba401f80", null ],
     [ "__init__", "classmrmeshpy_1_1DecimatePolylineSettings__Vector2f.html#afaa8ff7873248e3e37ce558f7e49d17d", null ],
     [ "adjustCollapse", "classmrmeshpy_1_1DecimatePolylineSettings__Vector2f.html#a4960e60e61a42703e1359e661f6f6475", null ],
     [ "adjustCollapse", "classmrmeshpy_1_1DecimatePolylineSettings__Vector2f.html#ac901b862ac13e7da49c883887ba1205e", null ],

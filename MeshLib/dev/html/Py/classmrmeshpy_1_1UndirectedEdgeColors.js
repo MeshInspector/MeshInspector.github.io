@@ -4,6 +4,7 @@ var classmrmeshpy_1_1UndirectedEdgeColors =
     [ "__init__", "classmrmeshpy_1_1UndirectedEdgeColors.html#ae86ec3023c1c61239cbc00a4c1fc4808", null ],
     [ "__init__", "classmrmeshpy_1_1UndirectedEdgeColors.html#a673d8adb42a4f29e7316b80f55a964ea", null ],
     [ "__init__", "classmrmeshpy_1_1UndirectedEdgeColors.html#ad4cbc2fcbf7e302f2b97bdeef876b16e", null ],
+    [ "__init__", "classmrmeshpy_1_1UndirectedEdgeColors.html#a6a28641a5d27baecacb61e3abe852029", null ],
     [ "__eq__", "classmrmeshpy_1_1UndirectedEdgeColors.html#a2d238d03b675ef9f1296991a4f5c77fa", null ],
     [ "__getitem__", "classmrmeshpy_1_1UndirectedEdgeColors.html#a66b4e195d1f69c1cfb05473b8c473a2b", null ],
     [ "__getitem__", "classmrmeshpy_1_1UndirectedEdgeColors.html#a66b4e195d1f69c1cfb05473b8c473a2b", null ],

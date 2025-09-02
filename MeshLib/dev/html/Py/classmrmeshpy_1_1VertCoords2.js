@@ -4,6 +4,7 @@ var classmrmeshpy_1_1VertCoords2 =
     [ "__init__", "classmrmeshpy_1_1VertCoords2.html#a0a112e3d9191911ec5c906d07241eb55", null ],
     [ "__init__", "classmrmeshpy_1_1VertCoords2.html#a328d947c45d4270a2d0ba37ac4d584b7", null ],
     [ "__init__", "classmrmeshpy_1_1VertCoords2.html#a99ace2aaf9d64d99f7a6118c47dbdd98", null ],
+    [ "__init__", "classmrmeshpy_1_1VertCoords2.html#abfa10af737dd8455f73e27c7099e3842", null ],
     [ "__eq__", "classmrmeshpy_1_1VertCoords2.html#abd528042c0121baa9cbed971f031a83c", null ],
     [ "__getitem__", "classmrmeshpy_1_1VertCoords2.html#ad4ac7b4558500514d75cd8cad0155e96", null ],
     [ "__getitem__", "classmrmeshpy_1_1VertCoords2.html#ad4ac7b4558500514d75cd8cad0155e96", null ],

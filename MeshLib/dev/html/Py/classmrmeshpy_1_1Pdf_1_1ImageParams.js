@@ -1,6 +1,7 @@
 var classmrmeshpy_1_1Pdf_1_1ImageParams =
 [
     [ "__init__", "classmrmeshpy_1_1Pdf_1_1ImageParams.html#a56275e88890cd33f4bb3672d858f23f2", null ],
+    [ "__init__", "classmrmeshpy_1_1Pdf_1_1ImageParams.html#a7ad6ac982a4e859fea3e7347a2bd3d88", null ],
     [ "__init__", "classmrmeshpy_1_1Pdf_1_1ImageParams.html#a873aec4686982cd0919dafdacb0f388f", null ],
     [ "caption", "classmrmeshpy_1_1Pdf_1_1ImageParams.html#a4ebaa676843f35bec3856ca700e1437b", null ],
     [ "caption", "classmrmeshpy_1_1Pdf_1_1ImageParams.html#af403a0ae5f71ff4c1a55ec280759c401", null ],

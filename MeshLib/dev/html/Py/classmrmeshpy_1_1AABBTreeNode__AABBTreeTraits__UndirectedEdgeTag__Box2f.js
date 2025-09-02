@@ -1,6 +1,7 @@
 var classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f =
 [
     [ "__init__", "classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f.html#a2965331dae4ae0c5996861e7491c4bd6", null ],
+    [ "__init__", "classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f.html#a30208ce31f1a0ceb9a93fd6d3b1e70f7", null ],
     [ "__init__", "classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f.html#a31dd42217e14aa98d1d866ae45ee361b", null ],
     [ "box", "classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f.html#a53b4adbd23df71a3ffba830a233069b1", null ],
     [ "box", "classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f.html#ae96c0d8fb712985937afe85d4cf94a27", null ],

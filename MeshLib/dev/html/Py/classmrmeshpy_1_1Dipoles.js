@@ -4,6 +4,7 @@ var classmrmeshpy_1_1Dipoles =
     [ "__init__", "classmrmeshpy_1_1Dipoles.html#adc96c8f7835e4eeaf44fdb3f15d51431", null ],
     [ "__init__", "classmrmeshpy_1_1Dipoles.html#ac93b4fd60bd4c14dc12d0fe73155592c", null ],
     [ "__init__", "classmrmeshpy_1_1Dipoles.html#a53c72e6a822452d223515bda0f56a1b9", null ],
+    [ "__init__", "classmrmeshpy_1_1Dipoles.html#a6ee1fc3c7a16292de829ed16c27a5de7", null ],
     [ "__getitem__", "classmrmeshpy_1_1Dipoles.html#adb9d20c0bddb6f1227ccc44848a0014e", null ],
     [ "__getitem__", "classmrmeshpy_1_1Dipoles.html#adb9d20c0bddb6f1227ccc44848a0014e", null ],
     [ "__iter__", "classmrmeshpy_1_1Dipoles.html#ab98b28641206dc09aad099c073a85b8c", null ],

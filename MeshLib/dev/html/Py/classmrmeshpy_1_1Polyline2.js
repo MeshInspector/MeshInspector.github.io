@@ -4,6 +4,7 @@ var classmrmeshpy_1_1Polyline2 =
     [ "__init__", "classmrmeshpy_1_1Polyline2.html#a5e2dd68024b3232f7f3e753fdd3b1ca8", null ],
     [ "__init__", "classmrmeshpy_1_1Polyline2.html#a73c8b8c8310e124dbb61ae9b8a52e373", null ],
     [ "__init__", "classmrmeshpy_1_1Polyline2.html#afb37419efc075cb740e77dcda5b55022", null ],
+    [ "__init__", "classmrmeshpy_1_1Polyline2.html#a01b9c524aa90034938a760a70fd6668e", null ],
     [ "addFromEdgePath", "classmrmeshpy_1_1Polyline2.html#a82b3e884be25038b53be8b32886d106f", null ],
     [ "addFromGeneralSurfacePath", "classmrmeshpy_1_1Polyline2.html#a8d651513dde60d20a8486db1ac23bd48", null ],
     [ "addFromPoints", "classmrmeshpy_1_1Polyline2.html#a26bafb899eb3057e33a745826ef0c552", null ],

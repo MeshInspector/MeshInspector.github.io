@@ -1,6 +1,7 @@
 var classmrmeshpy_1_1SpacingSettings =
 [
     [ "__init__", "classmrmeshpy_1_1SpacingSettings.html#aee91994ed5bd26df4b2b3c027e0f6367", null ],
+    [ "__init__", "classmrmeshpy_1_1SpacingSettings.html#a5b8f3278c5dc3b5fe9d56db87c702bf7", null ],
     [ "__init__", "classmrmeshpy_1_1SpacingSettings.html#a1331a6fbb1b0171b7728a9bbc374346d", null ],
     [ "dist", "classmrmeshpy_1_1SpacingSettings.html#a7f91996b915db47791855472b0b56e1d", null ],
     [ "dist", "classmrmeshpy_1_1SpacingSettings.html#a1ec6eb60499330cc0438a38b42bb6bb5", null ],

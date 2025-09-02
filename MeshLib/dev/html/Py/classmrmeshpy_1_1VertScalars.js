@@ -4,6 +4,7 @@ var classmrmeshpy_1_1VertScalars =
     [ "__init__", "classmrmeshpy_1_1VertScalars.html#a9245b58d48507cb0df23b8faf7d65c40", null ],
     [ "__init__", "classmrmeshpy_1_1VertScalars.html#af0f1125d2492fa6f5f7aa33034130392", null ],
     [ "__init__", "classmrmeshpy_1_1VertScalars.html#a3fb70dbf97bd523f36882f7d07fd5758", null ],
+    [ "__init__", "classmrmeshpy_1_1VertScalars.html#a9830781beb42498aab2715c2b4aad223", null ],
     [ "__eq__", "classmrmeshpy_1_1VertScalars.html#ae87ab6503f4660a8b3509b05a69b366e", null ],
     [ "__getitem__", "classmrmeshpy_1_1VertScalars.html#aa084f4bd2ce3f51e29e4f20864b66b82", null ],
     [ "__getitem__", "classmrmeshpy_1_1VertScalars.html#aa084f4bd2ce3f51e29e4f20864b66b82", null ],

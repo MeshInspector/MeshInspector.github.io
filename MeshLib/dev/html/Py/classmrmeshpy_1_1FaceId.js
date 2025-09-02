@@ -4,6 +4,7 @@ var classmrmeshpy_1_1FaceId =
     [ "__init__", "classmrmeshpy_1_1FaceId.html#ace37e718c74a0c724371f3b1f5cea9c7", null ],
     [ "__init__", "classmrmeshpy_1_1FaceId.html#ace37e718c74a0c724371f3b1f5cea9c7", null ],
     [ "__init__", "classmrmeshpy_1_1FaceId.html#ace37e718c74a0c724371f3b1f5cea9c7", null ],
+    [ "__init__", "classmrmeshpy_1_1FaceId.html#a03775ebf90db4306117bf57c4a19e2c7", null ],
     [ "__bool__", "classmrmeshpy_1_1FaceId.html#a824f814c21bbaab9b386faef6fbd8bcc", null ],
     [ "__eq__", "classmrmeshpy_1_1FaceId.html#a1505c3a2c65e6828f70d65d42879cc50", null ],
     [ "__iadd__", "classmrmeshpy_1_1FaceId.html#a9c8f76fe8b6a40dc3600994569e4d613", null ],

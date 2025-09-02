@@ -2,6 +2,7 @@ var classmrmeshpy_1_1RigidScaleXf3d =
 [
     [ "__init__", "classmrmeshpy_1_1RigidScaleXf3d.html#ad07d4d7eaf7ce8ef367541e552405a07", null ],
     [ "__init__", "classmrmeshpy_1_1RigidScaleXf3d.html#a78d228fe96ac459946373627dcd92064", null ],
+    [ "__init__", "classmrmeshpy_1_1RigidScaleXf3d.html#a6366a3dc255e29ba5e01d8d164023466", null ],
     [ "a", "classmrmeshpy_1_1RigidScaleXf3d.html#a723a687d2a9bf8e0c9fa80e12a976155", null ],
     [ "a", "classmrmeshpy_1_1RigidScaleXf3d.html#ab0787027db778e553b61cb091fa5f6bb", null ],
     [ "b", "classmrmeshpy_1_1RigidScaleXf3d.html#a65bc13eda28c1145a545c856d4b219c4", null ],

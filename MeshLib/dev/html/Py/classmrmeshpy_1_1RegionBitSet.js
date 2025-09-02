@@ -3,6 +3,7 @@ var classmrmeshpy_1_1RegionBitSet =
     [ "__init__", "classmrmeshpy_1_1RegionBitSet.html#a859c6a6b1edf5d2245373d455cdee147", null ],
     [ "__init__", "classmrmeshpy_1_1RegionBitSet.html#a3ccc448813e1f64fcf1e64cbf03eace3", null ],
     [ "__init__", "classmrmeshpy_1_1RegionBitSet.html#a3ccc448813e1f64fcf1e64cbf03eace3", null ],
+    [ "__init__", "classmrmeshpy_1_1RegionBitSet.html#a904c4f7896e71a3ada36ff5b9ccb5cd3", null ],
     [ "__and__", "classmrmeshpy_1_1RegionBitSet.html#ac643a5826f25c6ecaa6f6be3150cbff3", null ],
     [ "__getitem__", "classmrmeshpy_1_1RegionBitSet.html#adde407913076c7b8ff9fd6aacaf7460f", null ],
     [ "__iand__", "classmrmeshpy_1_1RegionBitSet.html#a6b7c4a98a4dc61239836f3b103d7d856", null ],

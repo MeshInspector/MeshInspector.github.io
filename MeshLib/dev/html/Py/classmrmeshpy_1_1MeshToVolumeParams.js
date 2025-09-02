@@ -2,6 +2,7 @@ var classmrmeshpy_1_1MeshToVolumeParams =
 [
     [ "Type", "classmrmeshpy_1_1MeshToVolumeParams_1_1Type.html", "classmrmeshpy_1_1MeshToVolumeParams_1_1Type" ],
     [ "__init__", "classmrmeshpy_1_1MeshToVolumeParams.html#a7ca4942f1ee084b02036d67a6e6f44a6", null ],
+    [ "__init__", "classmrmeshpy_1_1MeshToVolumeParams.html#af702cd5d5539cf3c875a17800726bf8f", null ],
     [ "__init__", "classmrmeshpy_1_1MeshToVolumeParams.html#a7ba9619d642d82b964d302655f833ca8", null ],
     [ "outXf", "classmrmeshpy_1_1MeshToVolumeParams.html#ada8b77dab1156694e44696314ed0692c", null ],
     [ "outXf", "classmrmeshpy_1_1MeshToVolumeParams.html#a475038547542ce94a4b369a081ce647c", null ],

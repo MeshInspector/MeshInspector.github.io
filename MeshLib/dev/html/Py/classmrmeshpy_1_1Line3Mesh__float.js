@@ -1,6 +1,7 @@
 var classmrmeshpy_1_1Line3Mesh__float =
 [
     [ "__init__", "classmrmeshpy_1_1Line3Mesh__float.html#a2df1ec25f5f1e725fecfe5f27baaaf12", null ],
+    [ "__init__", "classmrmeshpy_1_1Line3Mesh__float.html#ab1677aa4039834570ddd5c5a5fdb292d", null ],
     [ "__init__", "classmrmeshpy_1_1Line3Mesh__float.html#a117fc3105bbf6ef529e2998acbeb6a34", null ],
     [ "line", "classmrmeshpy_1_1Line3Mesh__float.html#a92a75cc85455ccafe0cf93c46c68abd6", null ],
     [ "line", "classmrmeshpy_1_1Line3Mesh__float.html#a4108d4222eaaaa74639d33cb1377cc39", null ],

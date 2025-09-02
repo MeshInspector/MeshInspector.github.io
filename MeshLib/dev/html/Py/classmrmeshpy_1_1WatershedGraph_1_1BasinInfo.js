@@ -1,6 +1,7 @@
 var classmrmeshpy_1_1WatershedGraph_1_1BasinInfo =
 [
     [ "__init__", "classmrmeshpy_1_1WatershedGraph_1_1BasinInfo.html#a4f89deed3f32c459e3d5119dee58d735", null ],
+    [ "__init__", "classmrmeshpy_1_1WatershedGraph_1_1BasinInfo.html#a5c710a7e9236919bbdd8615e4bbfb9c4", null ],
     [ "accVolume", "classmrmeshpy_1_1WatershedGraph_1_1BasinInfo.html#a2a0d05c443046f9aa1fc1b4ce878de72", null ],
     [ "accVolume", "classmrmeshpy_1_1WatershedGraph_1_1BasinInfo.html#a0ae98cf252baade1a490387287b93775", null ],
     [ "amountTillOverflow", "classmrmeshpy_1_1WatershedGraph_1_1BasinInfo.html#a12330ad639d0dcefa5c9562d9184d558", null ],

@@ -1,6 +1,7 @@
 var classmrmeshpy_1_1TextMeshAlignParams =
 [
     [ "__init__", "classmrmeshpy_1_1TextMeshAlignParams.html#a253a6c2d4ea3ebc89386085636d36ce1", null ],
+    [ "__init__", "classmrmeshpy_1_1TextMeshAlignParams.html#af0f4e1878c008b30662c59a442e7f9d2", null ],
     [ "direction", "classmrmeshpy_1_1TextMeshAlignParams.html#a0143426333f9af60f5d1a57c6a9f0379", null ],
     [ "direction", "classmrmeshpy_1_1TextMeshAlignParams.html#aa0030498ff70f2bc9fd55d95d9884d1e", null ],
     [ "fontBasedSizeCalc", "classmrmeshpy_1_1TextMeshAlignParams.html#ad1bab2cd95900d11713a0ef6c9c3a77a", null ],

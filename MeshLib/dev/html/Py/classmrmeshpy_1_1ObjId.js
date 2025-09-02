@@ -1,6 +1,7 @@
 var classmrmeshpy_1_1ObjId =
 [
     [ "__init__", "classmrmeshpy_1_1ObjId.html#a72f6687bd23052f6fa806eb44f880505", null ],
+    [ "__init__", "classmrmeshpy_1_1ObjId.html#a60512512ce2d9a52411520395bd54206", null ],
     [ "__bool__", "classmrmeshpy_1_1ObjId.html#a06d26e7578cfe4fa19469e73728558da", null ],
     [ "__eq__", "classmrmeshpy_1_1ObjId.html#ae4228a60e8c6bc322ceb707b9606dff3", null ],
     [ "__iadd__", "classmrmeshpy_1_1ObjId.html#a39ee6c26af0c90e88a316f2a4013a3a2", null ],

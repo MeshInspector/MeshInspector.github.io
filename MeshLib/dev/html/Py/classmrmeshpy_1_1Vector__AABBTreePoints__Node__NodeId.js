@@ -4,6 +4,7 @@ var classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId =
     [ "__init__", "classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId.html#a0639c00196a7f6b2a474dd5889e6f0d1", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId.html#a9a3279455eb4968c92a802a7ba842d04", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId.html#a66b3559e5b1cf81fcb268de98bec81f1", null ],
+    [ "__init__", "classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId.html#a409901b90b46ea7c2f8ba556bed37167", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId.html#a6ec828fabf09462fde90214fa9716079", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId.html#a6ec828fabf09462fde90214fa9716079", null ],
     [ "__iter__", "classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId.html#a172cd7c2a715d4c6756bedaad9b936f2", null ],

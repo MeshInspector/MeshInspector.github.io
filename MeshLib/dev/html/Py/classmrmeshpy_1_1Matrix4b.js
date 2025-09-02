@@ -3,6 +3,7 @@ var classmrmeshpy_1_1Matrix4b =
     [ "__init__", "classmrmeshpy_1_1Matrix4b.html#ab1197f699861fa05b58140c7272604ac", null ],
     [ "__init__", "classmrmeshpy_1_1Matrix4b.html#ab9995e5df583e73d23f1b38fb6b78918", null ],
     [ "__init__", "classmrmeshpy_1_1Matrix4b.html#a7d588a2345efb932324ce9dbc929a02e", null ],
+    [ "__init__", "classmrmeshpy_1_1Matrix4b.html#a9f505f67da6fb2dc18aba4af79253cd5", null ],
     [ "__add__", "classmrmeshpy_1_1Matrix4b.html#a30d4b0cf3da5c3c16e8c57055b474bf5", null ],
     [ "__call__", "classmrmeshpy_1_1Matrix4b.html#a9b6f1a2c1cb519115dd9bc96a3a9b802", null ],
     [ "__call__", "classmrmeshpy_1_1Matrix4b.html#a9b6f1a2c1cb519115dd9bc96a3a9b802", null ],

@@ -4,6 +4,7 @@ var classmrmeshpy_1_1Vector__FanRecord__VertId =
     [ "__init__", "classmrmeshpy_1_1Vector__FanRecord__VertId.html#a651a8982c53454edebb33f9cb78bd819", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__FanRecord__VertId.html#aa7cfcf43cff83ffa5ebc8605675cd056", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__FanRecord__VertId.html#affb6d944bab749864986485b0b3253b8", null ],
+    [ "__init__", "classmrmeshpy_1_1Vector__FanRecord__VertId.html#aca63369e2b956ef3704b4ded42692cf5", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vector__FanRecord__VertId.html#ae77607f98cd6286fc76fd32e5731fecf", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vector__FanRecord__VertId.html#ae77607f98cd6286fc76fd32e5731fecf", null ],
     [ "__iter__", "classmrmeshpy_1_1Vector__FanRecord__VertId.html#a3b3ec56d4dec1bb58280ab348e5aa324", null ],

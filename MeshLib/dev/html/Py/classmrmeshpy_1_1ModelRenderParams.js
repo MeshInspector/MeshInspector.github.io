@@ -1,5 +1,6 @@
 var classmrmeshpy_1_1ModelRenderParams =
 [
+    [ "__init__", "classmrmeshpy_1_1ModelRenderParams.html#aaf30e04f51f3ccc4ce105d68db95719f", null ],
     [ "allowAlphaSort", "classmrmeshpy_1_1ModelRenderParams.html#a3ba206d45b0aaf6acfce9a70b6b69233", null ],
     [ "allowAlphaSort", "classmrmeshpy_1_1ModelRenderParams.html#a647ec9fac87df6f8ac7dee4efcd5049f", null ],
     [ "lightPos", "classmrmeshpy_1_1ModelRenderParams.html#a5927943d9f72232b33f047fdb93d3e26", null ],

@@ -1,6 +1,7 @@
 var classmrmeshpy_1_1SymMatrix2d =
 [
     [ "__init__", "classmrmeshpy_1_1SymMatrix2d.html#ae31f3af24031a2ccddff06348afdf702", null ],
+    [ "__init__", "classmrmeshpy_1_1SymMatrix2d.html#a8d904eae017b3b3faf30a170d80bead6", null ],
     [ "__iadd__", "classmrmeshpy_1_1SymMatrix2d.html#aa8506330eb3b82c53e6a780c2301edf9", null ],
     [ "__imatmul__", "classmrmeshpy_1_1SymMatrix2d.html#aca151e3e557956763939adedd2a216df", null ],
     [ "__isub__", "classmrmeshpy_1_1SymMatrix2d.html#a5095307fddeee70cc7f3945ee3bf5060", null ],

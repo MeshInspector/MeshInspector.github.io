@@ -1,6 +1,7 @@
 var classmrmeshpy_1_1MeshProjectionResult =
 [
     [ "__init__", "classmrmeshpy_1_1MeshProjectionResult.html#ab7b9a0614b40db4cb1ee528a45d478d9", null ],
+    [ "__init__", "classmrmeshpy_1_1MeshProjectionResult.html#a99f50739d2211af3b802bd86eccf1fa1", null ],
     [ "__init__", "classmrmeshpy_1_1MeshProjectionResult.html#a61b6db1a3381d0610db1017656c7ccb0", null ],
     [ "__bool__", "classmrmeshpy_1_1MeshProjectionResult.html#a0afee11ed2fe3995d215996032082fcb", null ],
     [ "distSq", "classmrmeshpy_1_1MeshProjectionResult.html#afed50cbee5974f6426e003787573b5c5", null ],

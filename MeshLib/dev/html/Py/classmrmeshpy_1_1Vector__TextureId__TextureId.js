@@ -4,6 +4,7 @@ var classmrmeshpy_1_1Vector__TextureId__TextureId =
     [ "__init__", "classmrmeshpy_1_1Vector__TextureId__TextureId.html#aa158bd506562b3569f1b806e39049a6d", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__TextureId__TextureId.html#a6a87c1b196dbf84b2c3b68b96611a9b1", null ],
     [ "__init__", "classmrmeshpy_1_1Vector__TextureId__TextureId.html#a7c27d7c1025a2a63236e30f6131df8fc", null ],
+    [ "__init__", "classmrmeshpy_1_1Vector__TextureId__TextureId.html#ae62fcd5307c6692734e472f90b4e3265", null ],
     [ "__eq__", "classmrmeshpy_1_1Vector__TextureId__TextureId.html#ac3d4fa35196f3c716b47193cff9fe17b", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vector__TextureId__TextureId.html#a306fd4f217585d87cde28e1a94fc71cf", null ],
     [ "__getitem__", "classmrmeshpy_1_1Vector__TextureId__TextureId.html#a306fd4f217585d87cde28e1a94fc71cf", null ],

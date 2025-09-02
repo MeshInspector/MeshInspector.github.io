@@ -1,6 +1,7 @@
 var classmrmeshpy_1_1SceneLoad_1_1SceneLoadResult =
 [
     [ "__init__", "classmrmeshpy_1_1SceneLoad_1_1SceneLoadResult.html#a2cfa4094c22fb9101d340ed3d742f5c6", null ],
+    [ "__init__", "classmrmeshpy_1_1SceneLoad_1_1SceneLoadResult.html#aaf414757331b8051ba5358fe2f45c1ad", null ],
     [ "__init__", "classmrmeshpy_1_1SceneLoad_1_1SceneLoadResult.html#a5cfe39b8f273cc78ae11c06a5bfbbfdf", null ],
     [ "errorSummary", "classmrmeshpy_1_1SceneLoad_1_1SceneLoadResult.html#a9e04a4f100b601ecfbaadd84045a8aa4", null ],
     [ "errorSummary", "classmrmeshpy_1_1SceneLoad_1_1SceneLoadResult.html#a63a7d1bcc8468825c610d6a29eaf475f", null ],

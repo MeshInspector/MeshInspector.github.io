@@ -2,6 +2,7 @@ var classmrmeshpy_1_1Line3d =
 [
     [ "__init__", "classmrmeshpy_1_1Line3d.html#ab3be08ff96df256b8c7f026ce56ff118", null ],
     [ "__init__", "classmrmeshpy_1_1Line3d.html#ad04120f553461f2f477756df6af8d917", null ],
+    [ "__init__", "classmrmeshpy_1_1Line3d.html#a7f237d20c1aa373e1e138890597fe2e3", null ],
     [ "__call__", "classmrmeshpy_1_1Line3d.html#ab2737a02b21bfe6cf0719e3aa67dcc55", null ],
     [ "__neg__", "classmrmeshpy_1_1Line3d.html#a8655a8ace33ca8e60f11dc86e9ca478c", null ],
     [ "__pos__", "classmrmeshpy_1_1Line3d.html#a1996ed1a6377589128d4fdc564213ac4", null ],
