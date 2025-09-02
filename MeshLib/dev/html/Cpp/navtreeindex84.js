@@ -1,5 +1,9 @@
 var NAVTREEINDEX84 =
 {
+"structMR_1_1Palette_1_1Parameters.html#a10918a054375c316bd8e2fcb0685a726":[6,0,1,0,1,491,2,0],
+"structMR_1_1Palette_1_1Parameters.html#a10918a054375c316bd8e2fcb0685a726":[6,0,2,0,1,474,2,0],
+"structMR_1_1Palette_1_1Parameters.html#a25a6807ebee10dcb03a9e00733288113":[6,0,1,0,1,491,2,1],
+"structMR_1_1Palette_1_1Parameters.html#a25a6807ebee10dcb03a9e00733288113":[6,0,2,0,1,474,2,1],
 "structMR_1_1Palette_1_1Parameters.html#a9a1c14b8de7d2c34b832c70062d489b9":[6,0,1,0,1,491,2,3],
 "structMR_1_1Palette_1_1Parameters.html#a9a1c14b8de7d2c34b832c70062d489b9":[6,0,2,0,1,474,2,3],
 "structMR_1_1Palette_1_1Parameters.html#ae9f6c64d1d00c242d6863b39c8a466fe":[6,0,1,0,1,491,2,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX84 =
 "structMR_1_1PointAndDistance.html":[6,0,2,0,1,497],
 "structMR_1_1PointAndDistance.html#a22d2548f25c23157315955c70584d502":[6,0,1,0,1,514,0],
 "structMR_1_1PointAndDistance.html#a22d2548f25c23157315955c70584d502":[6,0,2,0,1,497,0],
-"structMR_1_1PointAndDistance.html#a30b687a3ae4e9a8f1e2faf636e415f5c":[6,0,1,0,1,514,1],
-"structMR_1_1PointAndDistance.html#a30b687a3ae4e9a8f1e2faf636e415f5c":[6,0,2,0,1,497,1],
-"structMR_1_1PointAndDistance.html#a95a6c6e03ea27af92edfb720b51eb6cc":[6,0,1,0,1,514,2],
-"structMR_1_1PointAndDistance.html#a95a6c6e03ea27af92edfb720b51eb6cc":[6,0,2,0,1,497,2],
-"structMR_1_1PointAndDistance.html#ad69e7a0cb1644a718347e10e06baf900":[6,0,1,0,1,514,3]
+"structMR_1_1PointAndDistance.html#a30b687a3ae4e9a8f1e2faf636e415f5c":[6,0,1,0,1,514,1]
 };

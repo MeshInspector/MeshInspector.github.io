@@ -1,5 +1,9 @@
 var NAVTREEINDEX71 =
 {
+"structMR_1_1ConeFittingFunctor.html":[6,0,1,0,1,155],
+"structMR_1_1ConeFittingFunctor.html":[6,0,2,0,1,138],
+"structMR_1_1ConeFittingFunctor.html#a2a2b7bdfec9781f51f20b12d1e1547aa":[6,0,1,0,1,155,8],
+"structMR_1_1ConeFittingFunctor.html#a2a2b7bdfec9781f51f20b12d1e1547aa":[6,0,2,0,1,138,8],
 "structMR_1_1ConeFittingFunctor.html#a369f95839764bbea9a5f5db04ec360ae":[6,0,1,0,1,155,0],
 "structMR_1_1ConeFittingFunctor.html#a369f95839764bbea9a5f5db04ec360ae":[6,0,2,0,1,138,0],
 "structMR_1_1ConeFittingFunctor.html#a5ce1dbf9d17f2aa05b508ef6df6e7151":[6,0,1,0,1,155,5],
@@ -245,9 +249,5 @@ var NAVTREEINDEX71 =
 "structMR_1_1Dipole.html#a778dc3bfc3f81905b9e4922c640bb584":[6,0,2,0,1,170,4],
 "structMR_1_1Dipole.html#a804c3991b7713194228966805194c66a":[6,0,1,0,1,187,2],
 "structMR_1_1Dipole.html#a804c3991b7713194228966805194c66a":[6,0,2,0,1,170,2],
-"structMR_1_1Dipole.html#a94e65877ccc74f50e4cf0028f9ae95ae":[6,0,1,0,1,187,0],
-"structMR_1_1Dipole.html#a94e65877ccc74f50e4cf0028f9ae95ae":[6,0,2,0,1,170,0],
-"structMR_1_1Dipole.html#aae5226baaa9fd2fef60b3940f4d0951f":[6,0,1,0,1,187,1],
-"structMR_1_1Dipole.html#aae5226baaa9fd2fef60b3940f4d0951f":[6,0,2,0,1,170,1],
-"structMR_1_1Dipole.html#ae70faa532d5372a7fa0e32336cc6df35":[6,0,1,0,1,187,3]
+"structMR_1_1Dipole.html#a94e65877ccc74f50e4cf0028f9ae95ae":[6,0,1,0,1,187,0]
 };

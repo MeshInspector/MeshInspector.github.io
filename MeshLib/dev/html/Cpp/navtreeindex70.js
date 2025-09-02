@@ -1,5 +1,9 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1BooleanParameters.html#a3c9ab9ed36085974e0aedcdba8ee7b0c":[6,0,1,0,1,82,6],
+"structMR_1_1BooleanParameters.html#a3c9ab9ed36085974e0aedcdba8ee7b0c":[6,0,2,0,1,65,6],
+"structMR_1_1BooleanParameters.html#a3e10d01aa0e3e192325518ba6d1ea24c":[6,0,1,0,1,82,0],
+"structMR_1_1BooleanParameters.html#a3e10d01aa0e3e192325518ba6d1ea24c":[6,0,2,0,1,65,0],
 "structMR_1_1BooleanParameters.html#a4502c74eb11e7d2d08ea54e0fa153ac1":[6,0,1,0,1,82,1],
 "structMR_1_1BooleanParameters.html#a4502c74eb11e7d2d08ea54e0fa153ac1":[6,0,2,0,1,65,1],
 "structMR_1_1BooleanParameters.html#a4617bb49dfbad4a7fda08bd0c7a9fe2e":[6,0,1,0,1,82,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1Cone3ApproximationParams.html#a6c4848e08b47fefbf24a221b15e00329":[6,0,1,0,1,154,3],
 "structMR_1_1Cone3ApproximationParams.html#a6c4848e08b47fefbf24a221b15e00329":[6,0,2,0,1,137,3],
 "structMR_1_1Cone3ApproximationParams.html#a78abf2b4f9d3845ec382b09ec2c865d3":[6,0,1,0,1,154,0],
-"structMR_1_1Cone3ApproximationParams.html#a78abf2b4f9d3845ec382b09ec2c865d3":[6,0,2,0,1,137,0],
-"structMR_1_1ConeFittingFunctor.html":[6,0,1,0,1,155],
-"structMR_1_1ConeFittingFunctor.html":[6,0,2,0,1,138],
-"structMR_1_1ConeFittingFunctor.html#a2a2b7bdfec9781f51f20b12d1e1547aa":[6,0,1,0,1,155,8],
-"structMR_1_1ConeFittingFunctor.html#a2a2b7bdfec9781f51f20b12d1e1547aa":[6,0,2,0,1,138,8]
+"structMR_1_1Cone3ApproximationParams.html#a78abf2b4f9d3845ec382b09ec2c865d3":[6,0,2,0,1,137,0]
 };

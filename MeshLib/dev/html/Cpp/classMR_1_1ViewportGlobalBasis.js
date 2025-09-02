@@ -6,10 +6,12 @@ var classMR_1_1ViewportGlobalBasis =
     [ "getAxesLength", "classMR_1_1ViewportGlobalBasis.html#a012d99e5cb1934ed13aacf0f817cdc47", null ],
     [ "getAxesWidth", "classMR_1_1ViewportGlobalBasis.html#a8540b2156a68f3e965fa3a7d51e704fd", null ],
     [ "getRedrawFlag", "classMR_1_1ViewportGlobalBasis.html#adf12d6fa6b9ede282e79114ae3acf9ee", null ],
+    [ "isGridVisible", "classMR_1_1ViewportGlobalBasis.html#a9c1b6f23bb29b917c74a3b9010d96122", null ],
     [ "isVisible", "classMR_1_1ViewportGlobalBasis.html#a50928a929ec603bfd12c73f36b3ce840", null ],
     [ "resetConnections", "classMR_1_1ViewportGlobalBasis.html#ab35195663b7a52e332795bb058fdf6fc", null ],
     [ "resetRedrawFlag", "classMR_1_1ViewportGlobalBasis.html#a3b01edb8a3a01ffa828ed5037b9bdd97", null ],
     [ "setAxesProps", "classMR_1_1ViewportGlobalBasis.html#a723a077281d985e67b4601e9028f1b70", null ],
     [ "setColors", "classMR_1_1ViewportGlobalBasis.html#a12801d2dd751246f5c16ee22920506b4", null ],
+    [ "setGridVisible", "classMR_1_1ViewportGlobalBasis.html#a39820f93544132d70dd40721d02f71ee", null ],
     [ "setVisible", "classMR_1_1ViewportGlobalBasis.html#ae86e6c17c2312646c28ccc581fe97280", null ]
 ];
