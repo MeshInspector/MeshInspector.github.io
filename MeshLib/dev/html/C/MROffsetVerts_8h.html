@@ -151,8 +151,7 @@ $(function(){initNavTree('MROffsetVerts_8h.html',''); initResizable(true); });
   <div class="headertitle"><div class="title">MROffsetVerts.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 </div>
 <p><a href="MROffsetVerts_8h_source.html">Go to the source code of this file.</a></p>
@@ -168,8 +167,10 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a676ea50c188930511c4e30121cf64640" id="r_a676ea50c188930511c4e30121cf64640"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a676ea50c188930511c4e30121cf64640">MR_offsetVerts</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRClosestWeightedPoint_8h.html#ac83010bf4ae4af15d0e13d005e33fce1">MR_std_function_float_from_MR_VertId</a> *offset, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> cb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
-<tr class="separator:a676ea50c188930511c4e30121cf64640"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a131e1cc155d1cfaa54fcaf2c4f0d589b" id="r_a131e1cc155d1cfaa54fcaf2c4f0d589b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a131e1cc155d1cfaa54fcaf2c4f0d589b">MR_offsetVerts</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRClosestWeightedPoint_8h.html#ac83010bf4ae4af15d0e13d005e33fce1">MR_std_function_float_from_MR_VertId</a> *offset, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="separator:a131e1cc155d1cfaa54fcaf2c4f0d589b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace2e6dba6fc2e8306d796cf27d38a5b8" id="r_ace2e6dba6fc2e8306d796cf27d38a5b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace2e6dba6fc2e8306d796cf27d38a5b8">MR_makeThickMesh</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *m, float halfWidth)</td></tr>
+<tr class="separator:ace2e6dba6fc2e8306d796cf27d38a5b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="a31b172f68efca6438544d56eb86d6f40" name="a31b172f68efca6438544d56eb86d6f40"></a>
@@ -215,8 +216,30 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a676ea50c188930511c4e30121cf64640" name="a676ea50c188930511c4e30121cf64640"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a676ea50c188930511c4e30121cf64640">&#9670;&#160;</a></span>MR_offsetVerts()</h2>
+<a id="ace2e6dba6fc2e8306d796cf27d38a5b8" name="ace2e6dba6fc2e8306d796cf27d38a5b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace2e6dba6fc2e8306d796cf27d38a5b8">&#9670;&#160;</a></span>MR_makeThickMesh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> * MR_makeThickMesh </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>m</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>halfWidth</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>given a mesh <code>m</code>, representing a surface, creates new closed mesh by cloning mirrored mesh, and shifting original part and cloned part in different direction on <code>halfWidth</code> each, if original mesh was open then stitches corresponding boundaries of two parts Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#aab74f6dd4c38dea94bc304b93fa123ba">MR::makeThickMesh</a></code>. Parameter <code>m</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRMesh_8h.html#a0fdcb7b4857a7f6b0fa52a17112cace6" title="Destroys a heap-allocated instance of MR_Mesh. Does nothing if the pointer is null.">MR_Mesh_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a131e1cc155d1cfaa54fcaf2c4f0d589b" name="a131e1cc155d1cfaa54fcaf2c4f0d589b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a131e1cc155d1cfaa54fcaf2c4f0d589b">&#9670;&#160;</a></span>MR_offsetVerts()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -234,16 +257,11 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>cb_pass_by</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *</td>          <td class="paramname"><span class="paramname"><em>cb</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Modifies <code>mesh</code> shifting each vertex by the corresponding <code>offset</code> </p><dl class="section return"><dt>Returns</dt><dd>false if cancelled. Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#ab7bf2bfc696e656e6f8336cb2401d725">MR::offsetVerts</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>offset</code> can not be null. It is a single object. </dd></dl>
+<p>Modifies <code>mesh</code> shifting each vertex along its pseudonormal by the corresponding <code>offset</code> </p><dl class="section return"><dt>Returns</dt><dd>false if cancelled. Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#ab541c8fc31d1c7ee3daa4d9f935ffc33">MR::offsetVerts</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>offset</code> can not be null. It is a single object. Parameter <code>cb</code> is a single object. Parameter <code>cb</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </dd></dl>
 
 </div>
 </div>

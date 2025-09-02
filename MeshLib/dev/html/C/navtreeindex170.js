@@ -1,5 +1,6 @@
 var NAVTREEINDEX170 =
 {
+"structMR__Box1d.html#a7e42b4155a63d410cc9610b9987a2da7":[6,2,0,0,4,1],
 "structMR__Box1d.html#ac025e345cad888dcc82109a70438504a":[6,2,0,0,4,0],
 "structMR__Box1f.html":[6,2,0,0,5],
 "structMR__Box1f.html#a58c03bb727a8139931fd9b6e9ef64912":[6,2,0,0,5,1],

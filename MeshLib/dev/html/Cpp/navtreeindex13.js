@@ -1,5 +1,6 @@
 var NAVTREEINDEX13 =
 {
+"MRRenderGLHelpers_8h.html#a96c0afdf384671d181d6111113d5bf35":[6,0,3,0,0,1,11,70,8],
 "MRRenderGLHelpers_8h.html#ac18f4f5a762acd94219012ec5d66db13":[6,0,3,0,0,1,11,70,11],
 "MRRenderGLHelpers_8h_source.html":[6,0,3,0,0,1,11,70],
 "MRRenderHelpers_8h.html":[6,0,3,0,0,1,11,71],
@@ -248,6 +249,5 @@ var NAVTREEINDEX13 =
 "MRSelectCurvaturePreference_8h.html#ae6a703f529a05e3f2fa59d68fd266627":[6,0,3,0,0,1,11,105,1],
 "MRSelectCurvaturePreference_8h_source.html":[6,0,3,0,0,1,11,105],
 "MRSelectObjectByClick_8h.html":[6,0,3,0,0,1,0,1,0],
-"MRSelectObjectByClick_8h_source.html":[6,0,3,0,0,1,0,1,0],
-"MRSelectScreenLasso_8h.html":[6,0,3,0,0,1,11,106]
+"MRSelectObjectByClick_8h_source.html":[6,0,3,0,0,1,0,1,0]
 };

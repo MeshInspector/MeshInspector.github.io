@@ -1,5 +1,6 @@
 var NAVTREEINDEX38 =
 {
+"classMR_1_1PointObject.html#a2073cb832f307501a3efea77d5f2f461":[6,0,0,11,0,5,17],
 "classMR_1_1PointObject.html#a3a456c548afa275a1449d71e800dc5e2":[6,0,0,11,0,5,6],
 "classMR_1_1PointObject.html#a3a5e23a960b340fbbebd773dffc94b36":[6,0,0,11,0,5,10],
 "classMR_1_1PointObject.html#a909db6f8e5efa3ddf0efa68e104ca751":[6,0,0,11,0,5,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX38 =
 "classMR_1_1RadiusMeasurementObject.html#abb52ce1741bbea13111e16aae84dbde5":[6,0,2,0,1,552,7],
 "classMR_1_1RadiusMeasurementObject.html#abf829a28a78153a2114e13a36a46f092":[6,0,1,0,1,569,6],
 "classMR_1_1RadiusMeasurementObject.html#abf829a28a78153a2114e13a36a46f092":[6,0,2,0,1,552,6],
-"classMR_1_1RadiusMeasurementObject.html#ac21964aa2c3fa5b24daf6659c6abe091":[6,0,1,0,1,569,8],
-"classMR_1_1RadiusMeasurementObject.html#ac21964aa2c3fa5b24daf6659c6abe091":[6,0,2,0,1,552,8]
+"classMR_1_1RadiusMeasurementObject.html#ac21964aa2c3fa5b24daf6659c6abe091":[6,0,1,0,1,569,8]
 };

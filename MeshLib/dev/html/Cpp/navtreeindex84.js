@@ -1,5 +1,7 @@
 var NAVTREEINDEX84 =
 {
+"structMR_1_1Palette_1_1Parameters.html":[6,0,1,0,1,491,2],
+"structMR_1_1Palette_1_1Parameters.html":[6,0,2,0,1,474,2],
 "structMR_1_1Palette_1_1Parameters.html#a10918a054375c316bd8e2fcb0685a726":[6,0,1,0,1,491,2,0],
 "structMR_1_1Palette_1_1Parameters.html#a10918a054375c316bd8e2fcb0685a726":[6,0,2,0,1,474,2,0],
 "structMR_1_1Palette_1_1Parameters.html#a25a6807ebee10dcb03a9e00733288113":[6,0,1,0,1,491,2,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX84 =
 "structMR_1_1PlyLoadParams.html#af97e597d26a385d02c839501ae01a201":[6,0,2,0,1,495,0],
 "structMR_1_1PointAndDistance.html":[6,0,1,0,1,514],
 "structMR_1_1PointAndDistance.html":[6,0,2,0,1,497],
-"structMR_1_1PointAndDistance.html#a22d2548f25c23157315955c70584d502":[6,0,1,0,1,514,0],
-"structMR_1_1PointAndDistance.html#a22d2548f25c23157315955c70584d502":[6,0,2,0,1,497,0],
-"structMR_1_1PointAndDistance.html#a30b687a3ae4e9a8f1e2faf636e415f5c":[6,0,1,0,1,514,1]
+"structMR_1_1PointAndDistance.html#a22d2548f25c23157315955c70584d502":[6,0,1,0,1,514,0]
 };
