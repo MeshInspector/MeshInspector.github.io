@@ -1,5 +1,6 @@
 var NAVTREEINDEX24 =
 {
+"MRDistanceVolumeParams_8h.html#a870978544e6e2f6b606e387c8723786c":[6,2,1,0,0,0,4,6,16],
 "MRDistanceVolumeParams_8h.html#a88d9dcd1faf49ab2347100e58fdc2b24":[6,2,1,0,0,0,4,6,6],
 "MRDistanceVolumeParams_8h.html#a92a9ee365f2739d6de0b174584b558b9":[6,2,1,0,0,0,4,6,23],
 "MRDistanceVolumeParams_8h.html#aabbfea38b9bf6f5159753abcc681efd3":[6,2,1,0,0,0,4,6,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX24 =
 "MREdgePathsBuilder_8h.html#acc9e6485e9790d5fe33ca1fb24b89d7d":[6,2,1,0,0,0,1,78,59],
 "MREdgePathsBuilder_8h.html#ace4bdbe11312b8c4eeb3b5e57fb2e36b":[6,2,1,0,0,0,1,78,72],
 "MREdgePathsBuilder_8h.html#acf65f8d129379826dc8e5ad5ec6449e8":[6,2,1,0,0,0,1,78,40],
-"MREdgePathsBuilder_8h.html#acf73f0c6059f75ff6cab2e8555dc4646":[6,2,1,0,0,0,1,78,115],
-"MREdgePathsBuilder_8h.html#ad070d1b15740e28b1dc47ac2fa4974b7":[6,2,1,0,0,0,1,78,109]
+"MREdgePathsBuilder_8h.html#acf73f0c6059f75ff6cab2e8555dc4646":[6,2,1,0,0,0,1,78,115]
 };

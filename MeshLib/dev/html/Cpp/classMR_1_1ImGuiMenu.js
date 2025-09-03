@@ -44,6 +44,7 @@ var classMR_1_1ImGuiMenu =
     [ "drawAdvancedOptions", "classMR_1_1ImGuiMenu.html#a223a369cd0143ab0fd5e6d5577641ab4", null ],
     [ "drawCollapsingHeader_", "classMR_1_1ImGuiMenu.html#ad7c9e77d4351091f9ed719f00a3d294b", null ],
     [ "drawCollapsingHeaderTransform_", "classMR_1_1ImGuiMenu.html#a4d7a22f188b50d351cefdec8196a9dce", null ],
+    [ "drawComparablePropertiesEditor_", "classMR_1_1ImGuiMenu.html#af76f6326506b7340794051ec1fa60782", null ],
     [ "drawCustomSelectionInformation_", "classMR_1_1ImGuiMenu.html#a60feeb812f9b38fdb42b0e3aa55b44f3", null ],
     [ "drawDrawOptionsCheckboxes", "classMR_1_1ImGuiMenu.html#a9af6848400197f4024584b77d9a9dc55", null ],
     [ "drawDrawOptionsColors", "classMR_1_1ImGuiMenu.html#ae222c9e1c96773c161341f616707e6ce", null ],

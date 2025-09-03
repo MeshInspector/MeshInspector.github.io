@@ -155,6 +155,7 @@ $(function(){initNavTree('MRPointObject_8h.html',''); initResizable(true); });
 <code>#include &lt;<a class="el" href="MRViewportId_8h_source.html">MRCMesh/MRViewportId.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
 </div>
 <p><a href="MRPointObject_8h_source.html">Go to the source code of this file.</a></p>
@@ -169,12 +170,26 @@ Typedefs</h2></td></tr>
 <tr class="separator:accce9c9179cadabc541edda0fc7a2571"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aecafdb5edbdb31eb13fbab762e3c39bc" id="r_aecafdb5edbdb31eb13fbab762e3c39bc"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAddVisualPropertiesMixin_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a></td></tr>
 <tr class="separator:aecafdb5edbdb31eb13fbab762e3c39bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac0f72690d55f7690795efb3b57df7cf" id="r_aac0f72690d55f7690795efb3b57df7cf"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRDistanceMeasurementObject_8h.html#aac0f72690d55f7690795efb3b57df7cf">MR_ObjectComparableWithReference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac0f72690d55f7690795efb3b57df7cf">MR_ObjectComparableWithReference</a></td></tr>
+<tr class="separator:aac0f72690d55f7690795efb3b57df7cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2078183aee736bfebb1bb874807d75d" id="r_ab2078183aee736bfebb1bb874807d75d"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRDistanceMeasurementObject_8h.html#ab2078183aee736bfebb1bb874807d75d">MR_ObjectComparableWithReference_ComparisonReferenceValue</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab2078183aee736bfebb1bb874807d75d">MR_ObjectComparableWithReference_ComparisonReferenceValue</a></td></tr>
+<tr class="separator:ab2078183aee736bfebb1bb874807d75d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadd5f2632221b9bf806db1fcddbf58fa" id="r_aadd5f2632221b9bf806db1fcddbf58fa"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRDistanceMeasurementObject_8h.html#aadd5f2632221b9bf806db1fcddbf58fa">MR_ObjectComparableWithReference_ComparisonTolerance</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aadd5f2632221b9bf806db1fcddbf58fa">MR_ObjectComparableWithReference_ComparisonTolerance</a></td></tr>
+<tr class="separator:aadd5f2632221b9bf806db1fcddbf58fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a36f3696eda81d7005927ebc5fdf17e14" id="r_a36f3696eda81d7005927ebc5fdf17e14"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a></td></tr>
 <tr class="separator:a36f3696eda81d7005927ebc5fdf17e14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80d9dd1ef50d7c3b70695bdf73404526" id="r_a80d9dd1ef50d7c3b70695bdf73404526"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRDistanceMeasurementObject_8h.html#a80d9dd1ef50d7c3b70695bdf73404526">MR_std_optional_MR_ObjectComparableWithReference_ComparableProperty</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a80d9dd1ef50d7c3b70695bdf73404526">MR_std_optional_MR_ObjectComparableWithReference_ComparableProperty</a></td></tr>
+<tr class="separator:a80d9dd1ef50d7c3b70695bdf73404526"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e4615b108b22d42920cafb89a85540b" id="r_a8e4615b108b22d42920cafb89a85540b"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRDistanceMeasurementObject_8h.html#a8e4615b108b22d42920cafb89a85540b">MR_std_optional_MR_ObjectComparableWithReference_ComparisonTolerance</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e4615b108b22d42920cafb89a85540b">MR_std_optional_MR_ObjectComparableWithReference_ComparisonTolerance</a></td></tr>
+<tr class="separator:a8e4615b108b22d42920cafb89a85540b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e9b9c2b8a1a0540b204b1b7e6e792f4" id="r_a9e9b9c2b8a1a0540b204b1b7e6e792f4"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a></td></tr>
 <tr class="separator:a9e9b9c2b8a1a0540b204b1b7e6e792f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69dc6868c10c92fb8b8a255b0130d289" id="r_a69dc6868c10c92fb8b8a255b0130d289"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></td></tr>
 <tr class="separator:a69dc6868c10c92fb8b8a255b0130d289"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a169b2cb1c4b9a267fdcd4b388a456d37" id="r_a169b2cb1c4b9a267fdcd4b388a456d37"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRDistanceMeasurementObject_8h.html#a169b2cb1c4b9a267fdcd4b388a456d37">MR_std_string_view</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a169b2cb1c4b9a267fdcd4b388a456d37">MR_std_string_view</a></td></tr>
+<tr class="separator:a169b2cb1c4b9a267fdcd4b388a456d37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3d91d0213ab95de48f9478fac0d21e0" id="r_af3d91d0213ab95de48f9478fac0d21e0"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRDistanceMeasurementObject_8h.html#af3d91d0213ab95de48f9478fac0d21e0">MR_std_variant_float_MR_Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3d91d0213ab95de48f9478fac0d21e0">MR_std_variant_float_MR_Vector3f</a></td></tr>
+<tr class="separator:af3d91d0213ab95de48f9478fac0d21e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2957a5feb78e9a6b527f0725f45a01a1" id="r_a2957a5feb78e9a6b527f0725f45a01a1"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRCircleObject_8h.html#a2957a5feb78e9a6b527f0725f45a01a1">MR_std_vector_MR_FeatureObjectSharedProperty</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2957a5feb78e9a6b527f0725f45a01a1">MR_std_vector_MR_FeatureObjectSharedProperty</a></td></tr>
 <tr class="separator:a2957a5feb78e9a6b527f0725f45a01a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aefed148a09a0ae55edbd22814638b462" id="r_aefed148a09a0ae55edbd22814638b462"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a></td></tr>
@@ -209,6 +224,11 @@ Functions</h2></td></tr>
 <tr class="memitem:a540286737c84f29e92253bb1a956b41a" id="r_a540286737c84f29e92253bb1a956b41a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAddVisualPropertiesMixin_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc">MR_ObjectChildrenHolder</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a540286737c84f29e92253bb1a956b41a">MR_PointObject_MutableUpcastTo_MR_ObjectChildrenHolder</a> (<a class="el" href="MRFeatureObject_8h.html#a6150a41bd1abc312778a78a3543c0f54">MR_PointObject</a> *object)</td></tr>
 <tr class="memdesc:a540286737c84f29e92253bb1a956b41a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1PointObject.html">MR::PointObject</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectChildrenHolder.html">MR::ObjectChildrenHolder</a></code>.  <br /></td></tr>
 <tr class="separator:a540286737c84f29e92253bb1a956b41a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9ef453061d39fe363bc464bf6a823e7" id="r_ac9ef453061d39fe363bc464bf6a823e7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRDistanceMeasurementObject_8h.html#aac0f72690d55f7690795efb3b57df7cf">MR_ObjectComparableWithReference</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac9ef453061d39fe363bc464bf6a823e7">MR_PointObject_UpcastTo_MR_ObjectComparableWithReference</a> (const <a class="el" href="MRFeatureObject_8h.html#a6150a41bd1abc312778a78a3543c0f54">MR_PointObject</a> *object)</td></tr>
+<tr class="separator:ac9ef453061d39fe363bc464bf6a823e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a442c6d8bee5a9fc0701bdbb95f2d4dbe" id="r_a442c6d8bee5a9fc0701bdbb95f2d4dbe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRDistanceMeasurementObject_8h.html#aac0f72690d55f7690795efb3b57df7cf">MR_ObjectComparableWithReference</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a442c6d8bee5a9fc0701bdbb95f2d4dbe">MR_PointObject_MutableUpcastTo_MR_ObjectComparableWithReference</a> (<a class="el" href="MRFeatureObject_8h.html#a6150a41bd1abc312778a78a3543c0f54">MR_PointObject</a> *object)</td></tr>
+<tr class="memdesc:a442c6d8bee5a9fc0701bdbb95f2d4dbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1PointObject.html">MR::PointObject</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectComparableWithReference.html">MR::ObjectComparableWithReference</a></code>.  <br /></td></tr>
+<tr class="separator:a442c6d8bee5a9fc0701bdbb95f2d4dbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad3db368bfdcc7d637b94da67d0410024" id="r_ad3db368bfdcc7d637b94da67d0410024"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad3db368bfdcc7d637b94da67d0410024">MR_PointObject_UpcastTo_MR_VisualObject</a> (const <a class="el" href="MRFeatureObject_8h.html#a6150a41bd1abc312778a78a3543c0f54">MR_PointObject</a> *object)</td></tr>
 <tr class="separator:ad3db368bfdcc7d637b94da67d0410024"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a22bae99c2ff4a21cd4edbbeda6aaa4eb" id="r_a22bae99c2ff4a21cd4edbbeda6aaa4eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a36f3696eda81d7005927ebc5fdf17e14">MR_VisualObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a22bae99c2ff4a21cd4edbbeda6aaa4eb">MR_PointObject_MutableUpcastTo_MR_VisualObject</a> (<a class="el" href="MRFeatureObject_8h.html#a6150a41bd1abc312778a78a3543c0f54">MR_PointObject</a> *object)</td></tr>
@@ -253,6 +273,30 @@ Functions</h2></td></tr>
 <tr class="separator:a22678d75ff9affa5121bf79b33e82312"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abbaa6965495333def6087cbd322eae1c" id="r_abbaa6965495333def6087cbd322eae1c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCircleObject_8h.html#af9fa34609dfd430727cb347f86a5f28f">MR_FeatureObjectProjectPointResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abbaa6965495333def6087cbd322eae1c">MR_PointObject_projectPoint</a> (const <a class="el" href="MRFeatureObject_8h.html#a6150a41bd1abc312778a78a3543c0f54">MR_PointObject</a> *_this, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *_1, const <a class="el" href="structMR__ViewportId.html">MR_ViewportId</a> *id)</td></tr>
 <tr class="separator:abbaa6965495333def6087cbd322eae1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa14dc7249e359dcf3edf8c6cd89c8ee1" id="r_aa14dc7249e359dcf3edf8c6cd89c8ee1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa14dc7249e359dcf3edf8c6cd89c8ee1">MR_PointObject_numComparableProperties</a> (const <a class="el" href="MRFeatureObject_8h.html#a6150a41bd1abc312778a78a3543c0f54">MR_PointObject</a> *_this)</td></tr>
+<tr class="separator:aa14dc7249e359dcf3edf8c6cd89c8ee1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa189e0796aade96d220ba6d0ca43ec7f" id="r_aa189e0796aade96d220ba6d0ca43ec7f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRDistanceMeasurementObject_8h.html#a169b2cb1c4b9a267fdcd4b388a456d37">MR_std_string_view</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa189e0796aade96d220ba6d0ca43ec7f">MR_PointObject_getComparablePropertyName</a> (const <a class="el" href="MRFeatureObject_8h.html#a6150a41bd1abc312778a78a3543c0f54">MR_PointObject</a> *_this, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> i)</td></tr>
+<tr class="separator:aa189e0796aade96d220ba6d0ca43ec7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25a2a4658b6fed82597219a55e753a3b" id="r_a25a2a4658b6fed82597219a55e753a3b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRDistanceMeasurementObject_8h.html#a80d9dd1ef50d7c3b70695bdf73404526">MR_std_optional_MR_ObjectComparableWithReference_ComparableProperty</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25a2a4658b6fed82597219a55e753a3b">MR_PointObject_computeComparableProperty</a> (const <a class="el" href="MRFeatureObject_8h.html#a6150a41bd1abc312778a78a3543c0f54">MR_PointObject</a> *_this, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> i)</td></tr>
+<tr class="separator:a25a2a4658b6fed82597219a55e753a3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47115c9beab034290548fef4919b8c32" id="r_a47115c9beab034290548fef4919b8c32"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRDistanceMeasurementObject_8h.html#a8e4615b108b22d42920cafb89a85540b">MR_std_optional_MR_ObjectComparableWithReference_ComparisonTolerance</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47115c9beab034290548fef4919b8c32">MR_PointObject_getComparisonTolerence</a> (const <a class="el" href="MRFeatureObject_8h.html#a6150a41bd1abc312778a78a3543c0f54">MR_PointObject</a> *_this, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> i)</td></tr>
+<tr class="separator:a47115c9beab034290548fef4919b8c32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa13613d274444c07387c31eacc3c11da" id="r_aa13613d274444c07387c31eacc3c11da"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa13613d274444c07387c31eacc3c11da">MR_PointObject_setComparisonTolerance</a> (<a class="el" href="MRFeatureObject_8h.html#a6150a41bd1abc312778a78a3543c0f54">MR_PointObject</a> *_this, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> i, const <a class="el" href="MRDistanceMeasurementObject_8h.html#aadd5f2632221b9bf806db1fcddbf58fa">MR_ObjectComparableWithReference_ComparisonTolerance</a> *newTolerance)</td></tr>
+<tr class="separator:aa13613d274444c07387c31eacc3c11da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae330786b6a3dfc1668522e64c7dafdf" id="r_aae330786b6a3dfc1668522e64c7dafdf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae330786b6a3dfc1668522e64c7dafdf">MR_PointObject_comparisonToleranceIsAlwaysOnlyPositive</a> (const <a class="el" href="MRFeatureObject_8h.html#a6150a41bd1abc312778a78a3543c0f54">MR_PointObject</a> *_this, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> i)</td></tr>
+<tr class="separator:aae330786b6a3dfc1668522e64c7dafdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a033be92a270c561994861368de3cf05b" id="r_a033be92a270c561994861368de3cf05b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a033be92a270c561994861368de3cf05b">MR_PointObject_comparisonToleranceMakesSenseNow</a> (const <a class="el" href="MRFeatureObject_8h.html#a6150a41bd1abc312778a78a3543c0f54">MR_PointObject</a> *_this, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> i)</td></tr>
+<tr class="separator:a033be92a270c561994861368de3cf05b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a3d40a07fd0c1f21730322982ec87b3" id="r_a4a3d40a07fd0c1f21730322982ec87b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a3d40a07fd0c1f21730322982ec87b3">MR_PointObject_numComparisonReferenceValues</a> (const <a class="el" href="MRFeatureObject_8h.html#a6150a41bd1abc312778a78a3543c0f54">MR_PointObject</a> *_this)</td></tr>
+<tr class="separator:a4a3d40a07fd0c1f21730322982ec87b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49d1a9b73dbf4f9c343014209608443c" id="r_a49d1a9b73dbf4f9c343014209608443c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRDistanceMeasurementObject_8h.html#a169b2cb1c4b9a267fdcd4b388a456d37">MR_std_string_view</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49d1a9b73dbf4f9c343014209608443c">MR_PointObject_getComparisonReferenceValueName</a> (const <a class="el" href="MRFeatureObject_8h.html#a6150a41bd1abc312778a78a3543c0f54">MR_PointObject</a> *_this, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> i)</td></tr>
+<tr class="separator:a49d1a9b73dbf4f9c343014209608443c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7736fe6b67effe593d991bd4745afceb" id="r_a7736fe6b67effe593d991bd4745afceb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRDistanceMeasurementObject_8h.html#ab2078183aee736bfebb1bb874807d75d">MR_ObjectComparableWithReference_ComparisonReferenceValue</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7736fe6b67effe593d991bd4745afceb">MR_PointObject_getComparisonReferenceValue</a> (const <a class="el" href="MRFeatureObject_8h.html#a6150a41bd1abc312778a78a3543c0f54">MR_PointObject</a> *_this, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> i)</td></tr>
+<tr class="separator:a7736fe6b67effe593d991bd4745afceb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4153e56210b6c2884403cf166e35f4af" id="r_a4153e56210b6c2884403cf166e35f4af"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4153e56210b6c2884403cf166e35f4af">MR_PointObject_setComparisonReferenceValue</a> (<a class="el" href="MRFeatureObject_8h.html#a6150a41bd1abc312778a78a3543c0f54">MR_PointObject</a> *_this, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> i, const <a class="el" href="MRDistanceMeasurementObject_8h.html#af3d91d0213ab95de48f9478fac0d21e0">MR_std_variant_float_MR_Vector3f</a> *value)</td></tr>
+<tr class="separator:a4153e56210b6c2884403cf166e35f4af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17f31b5b15b315d13f71fa7d30beec2b" id="r_a17f31b5b15b315d13f71fa7d30beec2b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17f31b5b15b315d13f71fa7d30beec2b">MR_PointObject_comparisonReferenceValueMakesSenseNow</a> (const <a class="el" href="MRFeatureObject_8h.html#a6150a41bd1abc312778a78a3543c0f54">MR_PointObject</a> *_this, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> i)</td></tr>
+<tr class="separator:a17f31b5b15b315d13f71fa7d30beec2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="aff93746de8efe15fd5fa764838b71e9b" name="aff93746de8efe15fd5fa764838b71e9b"></a>
@@ -311,6 +355,48 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="aac0f72690d55f7690795efb3b57df7cf" name="aac0f72690d55f7690795efb3b57df7cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac0f72690d55f7690795efb3b57df7cf">&#9670;&#160;</a></span>MR_ObjectComparableWithReference</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRDistanceMeasurementObject_8h.html#aac0f72690d55f7690795efb3b57df7cf">MR_ObjectComparableWithReference</a> <a class="el" href="MRDistanceMeasurementObject_8h.html#aac0f72690d55f7690795efb3b57df7cf">MR_ObjectComparableWithReference</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab2078183aee736bfebb1bb874807d75d" name="ab2078183aee736bfebb1bb874807d75d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2078183aee736bfebb1bb874807d75d">&#9670;&#160;</a></span>MR_ObjectComparableWithReference_ComparisonReferenceValue</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRDistanceMeasurementObject_8h.html#ab2078183aee736bfebb1bb874807d75d">MR_ObjectComparableWithReference_ComparisonReferenceValue</a> <a class="el" href="MRDistanceMeasurementObject_8h.html#ab2078183aee736bfebb1bb874807d75d">MR_ObjectComparableWithReference_ComparisonReferenceValue</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aadd5f2632221b9bf806db1fcddbf58fa" name="aadd5f2632221b9bf806db1fcddbf58fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aadd5f2632221b9bf806db1fcddbf58fa">&#9670;&#160;</a></span>MR_ObjectComparableWithReference_ComparisonTolerance</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRDistanceMeasurementObject_8h.html#aadd5f2632221b9bf806db1fcddbf58fa">MR_ObjectComparableWithReference_ComparisonTolerance</a> <a class="el" href="MRDistanceMeasurementObject_8h.html#aadd5f2632221b9bf806db1fcddbf58fa">MR_ObjectComparableWithReference_ComparisonTolerance</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a6150a41bd1abc312778a78a3543c0f54" name="a6150a41bd1abc312778a78a3543c0f54"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6150a41bd1abc312778a78a3543c0f54">&#9670;&#160;</a></span>MR_PointObject</h2>
 
@@ -322,7 +408,35 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Object to show point feature Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1PointObject.html">MR::PointObject</a></code>. Base classes: Direct: (non-virtual) <code><a class="elRef" href="../Cpp/classMR_1_1FeatureObject.html">MR::FeatureObject</a></code> Indirect: (non-virtual) <code><a class="elRef" href="../Cpp/classMR_1_1Object.html">MR::Object</a></code> <code><a class="elRef" href="../Cpp/classMR_1_1ObjectChildrenHolder.html">MR::ObjectChildrenHolder</a></code> <code><a class="elRef" href="../Cpp/classMR_1_1VisualObject.html">MR::VisualObject</a></code> </p>
+<p>Object to show point feature Generated from class <code><a class="elRef" href="../Cpp/classMR_1_1PointObject.html">MR::PointObject</a></code>. Base classes: Direct: (non-virtual) <code><a class="elRef" href="../Cpp/classMR_1_1FeatureObject.html">MR::FeatureObject</a></code> <code><a class="elRef" href="../Cpp/classMR_1_1ObjectComparableWithReference.html">MR::ObjectComparableWithReference</a></code> Indirect: (non-virtual) <code><a class="elRef" href="../Cpp/classMR_1_1Object.html">MR::Object</a></code> <code><a class="elRef" href="../Cpp/classMR_1_1ObjectChildrenHolder.html">MR::ObjectChildrenHolder</a></code> <code><a class="elRef" href="../Cpp/classMR_1_1VisualObject.html">MR::VisualObject</a></code> </p>
+
+</div>
+</div>
+<a id="a80d9dd1ef50d7c3b70695bdf73404526" name="a80d9dd1ef50d7c3b70695bdf73404526"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80d9dd1ef50d7c3b70695bdf73404526">&#9670;&#160;</a></span>MR_std_optional_MR_ObjectComparableWithReference_ComparableProperty</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRDistanceMeasurementObject_8h.html#a80d9dd1ef50d7c3b70695bdf73404526">MR_std_optional_MR_ObjectComparableWithReference_ComparableProperty</a> <a class="el" href="MRDistanceMeasurementObject_8h.html#a80d9dd1ef50d7c3b70695bdf73404526">MR_std_optional_MR_ObjectComparableWithReference_ComparableProperty</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8e4615b108b22d42920cafb89a85540b" name="a8e4615b108b22d42920cafb89a85540b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e4615b108b22d42920cafb89a85540b">&#9670;&#160;</a></span>MR_std_optional_MR_ObjectComparableWithReference_ComparisonTolerance</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRDistanceMeasurementObject_8h.html#a8e4615b108b22d42920cafb89a85540b">MR_std_optional_MR_ObjectComparableWithReference_ComparisonTolerance</a> <a class="el" href="MRDistanceMeasurementObject_8h.html#a8e4615b108b22d42920cafb89a85540b">MR_std_optional_MR_ObjectComparableWithReference_ComparisonTolerance</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -348,6 +462,34 @@ Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">typedef struct <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a169b2cb1c4b9a267fdcd4b388a456d37" name="a169b2cb1c4b9a267fdcd4b388a456d37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a169b2cb1c4b9a267fdcd4b388a456d37">&#9670;&#160;</a></span>MR_std_string_view</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRDistanceMeasurementObject_8h.html#a169b2cb1c4b9a267fdcd4b388a456d37">MR_std_string_view</a> <a class="el" href="MRDistanceMeasurementObject_8h.html#a169b2cb1c4b9a267fdcd4b388a456d37">MR_std_string_view</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af3d91d0213ab95de48f9478fac0d21e0" name="af3d91d0213ab95de48f9478fac0d21e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3d91d0213ab95de48f9478fac0d21e0">&#9670;&#160;</a></span>MR_std_variant_float_MR_Vector3f</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRDistanceMeasurementObject_8h.html#af3d91d0213ab95de48f9478fac0d21e0">MR_std_variant_float_MR_Vector3f</a> <a class="el" href="MRDistanceMeasurementObject_8h.html#af3d91d0213ab95de48f9478fac0d21e0">MR_std_variant_float_MR_Vector3f</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -516,6 +658,94 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a17f31b5b15b315d13f71fa7d30beec2b" name="a17f31b5b15b315d13f71fa7d30beec2b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17f31b5b15b315d13f71fa7d30beec2b">&#9670;&#160;</a></span>MR_PointObject_comparisonReferenceValueMakesSenseNow()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_PointObject_comparisonReferenceValueMakesSenseNow </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRFeatureObject_8h.html#a6150a41bd1abc312778a78a3543c0f54">MR_PointObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PointObject.html">MR::PointObject</a></code> named <code>comparisonReferenceValueMakesSenseNow</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="aae330786b6a3dfc1668522e64c7dafdf" name="aae330786b6a3dfc1668522e64c7dafdf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae330786b6a3dfc1668522e64c7dafdf">&#9670;&#160;</a></span>MR_PointObject_comparisonToleranceIsAlwaysOnlyPositive()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_PointObject_comparisonToleranceIsAlwaysOnlyPositive </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRFeatureObject_8h.html#a6150a41bd1abc312778a78a3543c0f54">MR_PointObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PointObject.html">MR::PointObject</a></code> named <code>comparisonToleranceIsAlwaysOnlyPositive</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a033be92a270c561994861368de3cf05b" name="a033be92a270c561994861368de3cf05b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a033be92a270c561994861368de3cf05b">&#9670;&#160;</a></span>MR_PointObject_comparisonToleranceMakesSenseNow()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_PointObject_comparisonToleranceMakesSenseNow </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRFeatureObject_8h.html#a6150a41bd1abc312778a78a3543c0f54">MR_PointObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PointObject.html">MR::PointObject</a></code> named <code>comparisonToleranceMakesSenseNow</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a25a2a4658b6fed82597219a55e753a3b" name="a25a2a4658b6fed82597219a55e753a3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25a2a4658b6fed82597219a55e753a3b">&#9670;&#160;</a></span>MR_PointObject_computeComparableProperty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRDistanceMeasurementObject_8h.html#a80d9dd1ef50d7c3b70695bdf73404526">MR_std_optional_MR_ObjectComparableWithReference_ComparableProperty</a> * MR_PointObject_computeComparableProperty </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRFeatureObject_8h.html#a6150a41bd1abc312778a78a3543c0f54">MR_PointObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PointObject.html">MR::PointObject</a></code> named <code>computeComparableProperty</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__optional__MR__ObjectComparableWithReference__ComparableProperty_8h.html#acb43a16ff92a2b399678a5e3fcf502ec" title="Destroys a heap-allocated instance of MR_std_optional_MR_ObjectComparableWithReference_ComparableProp...">MR_std_optional_MR_ObjectComparableWithReference_ComparableProperty_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
 <a id="ae7aaa463d41783d5d0cd085727416d92" name="ae7aaa463d41783d5d0cd085727416d92"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae7aaa463d41783d5d0cd085727416d92">&#9670;&#160;</a></span>MR_PointObject_Construct()</h2>
 
@@ -648,6 +878,94 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="aa189e0796aade96d220ba6d0ca43ec7f" name="aa189e0796aade96d220ba6d0ca43ec7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa189e0796aade96d220ba6d0ca43ec7f">&#9670;&#160;</a></span>MR_PointObject_getComparablePropertyName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRDistanceMeasurementObject_8h.html#a169b2cb1c4b9a267fdcd4b388a456d37">MR_std_string_view</a> * MR_PointObject_getComparablePropertyName </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRFeatureObject_8h.html#a6150a41bd1abc312778a78a3543c0f54">MR_PointObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PointObject.html">MR::PointObject</a></code> named <code>getComparablePropertyName</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__string__view_8h.html#a60263c987a5fa5a84ab719fb020cad24" title="Destroys a heap-allocated instance of MR_std_string_view. Does nothing if the pointer is null.">MR_std_string_view_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a7736fe6b67effe593d991bd4745afceb" name="a7736fe6b67effe593d991bd4745afceb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7736fe6b67effe593d991bd4745afceb">&#9670;&#160;</a></span>MR_PointObject_getComparisonReferenceValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRDistanceMeasurementObject_8h.html#ab2078183aee736bfebb1bb874807d75d">MR_ObjectComparableWithReference_ComparisonReferenceValue</a> * MR_PointObject_getComparisonReferenceValue </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRFeatureObject_8h.html#a6150a41bd1abc312778a78a3543c0f54">MR_PointObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PointObject.html">MR::PointObject</a></code> named <code>getComparisonReferenceValue</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRObjectComparableWithReference_8h.html#a89b78775247b545aa83fb498fb03d926" title="Destroys a heap-allocated instance of MR_ObjectComparableWithReference_ComparisonReferenceValue....">MR_ObjectComparableWithReference_ComparisonReferenceValue_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a49d1a9b73dbf4f9c343014209608443c" name="a49d1a9b73dbf4f9c343014209608443c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49d1a9b73dbf4f9c343014209608443c">&#9670;&#160;</a></span>MR_PointObject_getComparisonReferenceValueName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRDistanceMeasurementObject_8h.html#a169b2cb1c4b9a267fdcd4b388a456d37">MR_std_string_view</a> * MR_PointObject_getComparisonReferenceValueName </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRFeatureObject_8h.html#a6150a41bd1abc312778a78a3543c0f54">MR_PointObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PointObject.html">MR::PointObject</a></code> named <code>getComparisonReferenceValueName</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__string__view_8h.html#a60263c987a5fa5a84ab719fb020cad24" title="Destroys a heap-allocated instance of MR_std_string_view. Does nothing if the pointer is null.">MR_std_string_view_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a47115c9beab034290548fef4919b8c32" name="a47115c9beab034290548fef4919b8c32"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47115c9beab034290548fef4919b8c32">&#9670;&#160;</a></span>MR_PointObject_getComparisonTolerence()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRDistanceMeasurementObject_8h.html#a8e4615b108b22d42920cafb89a85540b">MR_std_optional_MR_ObjectComparableWithReference_ComparisonTolerance</a> * MR_PointObject_getComparisonTolerence </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRFeatureObject_8h.html#a6150a41bd1abc312778a78a3543c0f54">MR_PointObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PointObject.html">MR::PointObject</a></code> named <code>getComparisonTolerence</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__optional__MR__ObjectComparableWithReference__ComparisonTolerance_8h.html#afa7307ff0b59940de04bde75242e8e56" title="Destroys a heap-allocated instance of MR_std_optional_MR_ObjectComparableWithReference_ComparisonTole...">MR_std_optional_MR_ObjectComparableWithReference_ComparisonTolerance_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
 <a id="a674240c171f5873bb142d1e350470570" name="a674240c171f5873bb142d1e350470570"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a674240c171f5873bb142d1e350470570">&#9670;&#160;</a></span>MR_PointObject_getPoint()</h2>
 
@@ -727,6 +1045,25 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a442c6d8bee5a9fc0701bdbb95f2d4dbe" name="a442c6d8bee5a9fc0701bdbb95f2d4dbe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a442c6d8bee5a9fc0701bdbb95f2d4dbe">&#9670;&#160;</a></span>MR_PointObject_MutableUpcastTo_MR_ObjectComparableWithReference()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRDistanceMeasurementObject_8h.html#aac0f72690d55f7690795efb3b57df7cf">MR_ObjectComparableWithReference</a> * MR_PointObject_MutableUpcastTo_MR_ObjectComparableWithReference </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRFeatureObject_8h.html#a6150a41bd1abc312778a78a3543c0f54">MR_PointObject</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1PointObject.html">MR::PointObject</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectComparableWithReference.html">MR::ObjectComparableWithReference</a></code>. </p>
+
+</div>
+</div>
 <a id="a22bae99c2ff4a21cd4edbbeda6aaa4eb" name="a22bae99c2ff4a21cd4edbbeda6aaa4eb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a22bae99c2ff4a21cd4edbbeda6aaa4eb">&#9670;&#160;</a></span>MR_PointObject_MutableUpcastTo_MR_VisualObject()</h2>
 
@@ -743,6 +1080,42 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1PointObject.html">MR::PointObject</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1VisualObject.html">MR::VisualObject</a></code>. </p>
+
+</div>
+</div>
+<a id="aa14dc7249e359dcf3edf8c6cd89c8ee1" name="aa14dc7249e359dcf3edf8c6cd89c8ee1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa14dc7249e359dcf3edf8c6cd89c8ee1">&#9670;&#160;</a></span>MR_PointObject_numComparableProperties()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> MR_PointObject_numComparableProperties </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRFeatureObject_8h.html#a6150a41bd1abc312778a78a3543c0f54">MR_PointObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PointObject.html">MR::PointObject</a></code> named <code>numComparableProperties</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a4a3d40a07fd0c1f21730322982ec87b3" name="a4a3d40a07fd0c1f21730322982ec87b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a3d40a07fd0c1f21730322982ec87b3">&#9670;&#160;</a></span>MR_PointObject_numComparisonReferenceValues()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> MR_PointObject_numComparisonReferenceValues </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRFeatureObject_8h.html#a6150a41bd1abc312778a78a3543c0f54">MR_PointObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PointObject.html">MR::PointObject</a></code> named <code>numComparisonReferenceValues</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -816,6 +1189,60 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PointObject.html">MR::PointObject</a></code> named <code>projectPoint</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_1</code> can not be null. It is a single object. Parameter <code>id</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRFeatureObject_8h.html#ae02b3d30126653a9d878acbc68fd4e44" title="Destroys a heap-allocated instance of MR_FeatureObjectProjectPointResult. Does nothing if the pointer...">MR_FeatureObjectProjectPointResult_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a4153e56210b6c2884403cf166e35f4af" name="a4153e56210b6c2884403cf166e35f4af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4153e56210b6c2884403cf166e35f4af">&#9670;&#160;</a></span>MR_PointObject_setComparisonReferenceValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PointObject_setComparisonReferenceValue </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRFeatureObject_8h.html#a6150a41bd1abc312778a78a3543c0f54">MR_PointObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRDistanceMeasurementObject_8h.html#af3d91d0213ab95de48f9478fac0d21e0">MR_std_variant_float_MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PointObject.html">MR::PointObject</a></code> named <code>setComparisonReferenceValue</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>value</code> is a single object. Parameter <code>value</code> is optional. To keep it empty, pass a null pointer. </p>
+
+</div>
+</div>
+<a id="aa13613d274444c07387c31eacc3c11da" name="aa13613d274444c07387c31eacc3c11da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa13613d274444c07387c31eacc3c11da">&#9670;&#160;</a></span>MR_PointObject_setComparisonTolerance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PointObject_setComparisonTolerance </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRFeatureObject_8h.html#a6150a41bd1abc312778a78a3543c0f54">MR_PointObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></td>          <td class="paramname"><span class="paramname"><em>i</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRDistanceMeasurementObject_8h.html#aadd5f2632221b9bf806db1fcddbf58fa">MR_ObjectComparableWithReference_ComparisonTolerance</a> *</td>          <td class="paramname"><span class="paramname"><em>newTolerance</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PointObject.html">MR::PointObject</a></code> named <code>setComparisonTolerance</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>newTolerance</code> is a single object. Parameter <code>newTolerance</code> is optional. To keep it empty, pass a null pointer. </p>
 
 </div>
 </div>
@@ -952,6 +1379,24 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1PointObject.html">MR::PointObject</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectChildrenHolder.html">MR::ObjectChildrenHolder</a></code>. This version is acting on mutable pointers. </p>
+
+</div>
+</div>
+<a id="ac9ef453061d39fe363bc464bf6a823e7" name="ac9ef453061d39fe363bc464bf6a823e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9ef453061d39fe363bc464bf6a823e7">&#9670;&#160;</a></span>MR_PointObject_UpcastTo_MR_ObjectComparableWithReference()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRDistanceMeasurementObject_8h.html#aac0f72690d55f7690795efb3b57df7cf">MR_ObjectComparableWithReference</a> * MR_PointObject_UpcastTo_MR_ObjectComparableWithReference </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRFeatureObject_8h.html#a6150a41bd1abc312778a78a3543c0f54">MR_PointObject</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Upcasts an instance of <code><a class="elRef" href="../Cpp/classMR_1_1PointObject.html">MR::PointObject</a></code> to its base class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectComparableWithReference.html">MR::ObjectComparableWithReference</a></code>. This version is acting on mutable pointers. </p>
 
 </div>
 </div>

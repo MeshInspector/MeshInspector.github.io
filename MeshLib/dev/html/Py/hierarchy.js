@@ -171,6 +171,8 @@ var hierarchy =
     [ "mrmeshpy.ColorMapAggregator_VertTag_AggregateMode", "classmrmeshpy_1_1ColorMapAggregator__VertTag__AggregateMode.html", null ],
     [ "mrmeshpy.ColorMapAggregator_VertTag_PartialColorMap", "classmrmeshpy_1_1ColorMapAggregator__VertTag__PartialColorMap.html", null ],
     [ "mrmeshpy.GcodeProcessor.Command", "classmrmeshpy_1_1GcodeProcessor_1_1Command.html", null ],
+    [ "mrmeshpy.ObjectComparableWithReference.ComparableProperty", "classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparableProperty.html", null ],
+    [ "mrmeshpy.ObjectComparableWithReference.ComparisonReferenceValue", "classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue.html", null ],
     [ "mrmeshpy.ObjectComparableWithReference.ComparisonTolerance", "classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonTolerance.html", null ],
     [ "mrmeshpy.CompensateRadiusParams", "classmrmeshpy_1_1CompensateRadiusParams.html", null ],
     [ "mrmeshpy.ComputeSteepestDescentPathSettings", "classmrmeshpy_1_1ComputeSteepestDescentPathSettings.html", null ],
@@ -743,7 +745,8 @@ var hierarchy =
       ] ]
     ] ],
     [ "mrmeshpy.ObjectComparableWithReference", "classmrmeshpy_1_1ObjectComparableWithReference.html", [
-      [ "mrmeshpy.DistanceMeasurementObject", "classmrmeshpy_1_1DistanceMeasurementObject.html", null ]
+      [ "mrmeshpy.DistanceMeasurementObject", "classmrmeshpy_1_1DistanceMeasurementObject.html", null ],
+      [ "mrmeshpy.PointObject", "classmrmeshpy_1_1PointObject.html", null ]
     ] ],
     [ "mrmeshpy.ObjectFactoryBase", "classmrmeshpy_1_1ObjectFactoryBase.html", null ],
     [ "mrmeshpy.ObjectMeshData", "classmrmeshpy_1_1ObjectMeshData.html", null ],
@@ -1014,7 +1017,10 @@ var hierarchy =
     [ "mrmeshpy.std_optional_Box_Vector3_float", "classmrmeshpy_1_1std__optional__Box__Vector3__float.html", null ],
     [ "mrmeshpy.std_optional_Color", "classmrmeshpy_1_1std__optional__Color.html", null ],
     [ "mrmeshpy.std_optional_double", "classmrmeshpy_1_1std__optional__double.html", null ],
+    [ "mrmeshpy.std_optional_float", "classmrmeshpy_1_1std__optional__float.html", null ],
+    [ "mrmeshpy.std_optional_ObjectComparableWithReference_ComparisonTolerance", "classmrmeshpy_1_1std__optional__ObjectComparableWithReference__ComparisonTolerance.html", null ],
     [ "mrmeshpy.std_optional_std_string", "classmrmeshpy_1_1std__optional__std__string.html", null ],
+    [ "mrmeshpy.std_optional_std_variant_float_Vector3_float", "classmrmeshpy_1_1std__optional__std__variant__float__Vector3__float.html", null ],
     [ "mrmeshpy.std_optional_Vector2_float", "classmrmeshpy_1_1std__optional__Vector2__float.html", null ],
     [ "mrmeshpy.std_optional_Vector3_float", "classmrmeshpy_1_1std__optional__Vector3__float.html", null ],
     [ "mrmeshpy.std_optional_Vector_std_array_Id_VertTag_2ul_Id_UndirectedEdgeTag", "classmrmeshpy_1_1std__optional__Vector__std__array__Id__VertTag__2ul__Id__UndirectedEdgeTag.html", null ],

@@ -1,15 +1,18 @@
 var classmrmeshpy_1_1ObjectComparableWithReference =
 [
+    [ "ComparableProperty", "classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparableProperty.html", "classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparableProperty" ],
+    [ "ComparisonReferenceValue", "classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue.html", "classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue" ],
     [ "ComparisonTolerance", "classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonTolerance.html", "classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonTolerance" ],
-    [ "compareProperty", "classmrmeshpy_1_1ObjectComparableWithReference.html#a0931851db206f5d326a261314a077bfa", null ],
+    [ "comparisonReferenceValueMakesSenseNow", "classmrmeshpy_1_1ObjectComparableWithReference.html#adcdcc360efb54941166119f2c73e54bd", null ],
+    [ "comparisonToleranceIsAlwaysOnlyPositive", "classmrmeshpy_1_1ObjectComparableWithReference.html#a9a693f13fd7c752a7daed86225899a5f", null ],
+    [ "comparisonToleranceMakesSenseNow", "classmrmeshpy_1_1ObjectComparableWithReference.html#ada64b9e9a37e87ee5c621a4fc80a0d27", null ],
+    [ "computeComparableProperty", "classmrmeshpy_1_1ObjectComparableWithReference.html#a449cb6f1b760e736ce355c53f23b312e", null ],
     [ "getComparablePropertyName", "classmrmeshpy_1_1ObjectComparableWithReference.html#a94fe811c22ab8aa980dbebd48b4de4e0", null ],
-    [ "getComparisonReferenceValue", "classmrmeshpy_1_1ObjectComparableWithReference.html#a029d196213989bf0789bb1bde2744397", null ],
-    [ "getComparisonTolerences", "classmrmeshpy_1_1ObjectComparableWithReference.html#a7031d4243a9b3d31474eef3feda7aeab", null ],
-    [ "hasComparisonReferenceValues", "classmrmeshpy_1_1ObjectComparableWithReference.html#acf4711458128feb5e90a55fd3eda80cf", null ],
-    [ "hasComparisonTolerances", "classmrmeshpy_1_1ObjectComparableWithReference.html#a1efcdb04b48ba8f683faf0b7ee5e1561", null ],
+    [ "getComparisonReferenceValue", "classmrmeshpy_1_1ObjectComparableWithReference.html#a1ec3f866f2d40e2210b362875b63f0af", null ],
+    [ "getComparisonReferenceValueName", "classmrmeshpy_1_1ObjectComparableWithReference.html#a46aa797b7e6526af86e7398d59518d4d", null ],
+    [ "getComparisonTolerence", "classmrmeshpy_1_1ObjectComparableWithReference.html#a6d0dd1c5733292e7a823b22d5caaf9a3", null ],
     [ "numComparableProperties", "classmrmeshpy_1_1ObjectComparableWithReference.html#a91bbbf28972f451f9a6453e53662dc50", null ],
-    [ "resetComparisonReferenceValues", "classmrmeshpy_1_1ObjectComparableWithReference.html#ab20bb853d89b8ec8cd083655855db268", null ],
-    [ "resetComparisonTolerances", "classmrmeshpy_1_1ObjectComparableWithReference.html#abe3e12df80ae60fed351026122039ce2", null ],
-    [ "setComparisonReferenceValue", "classmrmeshpy_1_1ObjectComparableWithReference.html#aba95247811b80a8ebb228b248f4c3fda", null ],
-    [ "setComparisonTolerance", "classmrmeshpy_1_1ObjectComparableWithReference.html#a1568bcb7cc14b16ebec5a393189aad9b", null ]
+    [ "numComparisonReferenceValues", "classmrmeshpy_1_1ObjectComparableWithReference.html#a0095fef2bf196a155da6270e100367c1", null ],
+    [ "setComparisonReferenceValue", "classmrmeshpy_1_1ObjectComparableWithReference.html#a45a4e8483c68d3235a3bdd8ea05f11a7", null ],
+    [ "setComparisonTolerance", "classmrmeshpy_1_1ObjectComparableWithReference.html#abc9240a99ba821dd077b5f35a6065176", null ]
 ];

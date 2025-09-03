@@ -206,6 +206,8 @@ var hierarchy =
     [ "MR::GcodeProcessor::Command", "structMR_1_1GcodeProcessor_1_1Command.html", null ],
     [ "MR::CommandLoop", "classMR_1_1CommandLoop.html", null ],
     [ "MR::ImGuiMath::detail::CommonVecSize< T, P... >", "structMR_1_1ImGuiMath_1_1detail_1_1CommonVecSize_3_01T_00_01P_8_8_8_01_4.html", null ],
+    [ "MR::ObjectComparableWithReference::ComparableProperty", "structMR_1_1ObjectComparableWithReference_1_1ComparableProperty.html", null ],
+    [ "MR::ObjectComparableWithReference::ComparisonReferenceValue", "structMR_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue.html", null ],
     [ "MR::ObjectComparableWithReference::ComparisonTolerance", "structMR_1_1ObjectComparableWithReference_1_1ComparisonTolerance.html", null ],
     [ "MR::CompensateRadiusParams", "structMR_1_1CompensateRadiusParams.html", null ],
     [ "MR::ComputeSteepestDescentPathSettings", "structMR_1_1ComputeSteepestDescentPathSettings.html", null ],
@@ -953,7 +955,8 @@ var hierarchy =
       ] ]
     ] ],
     [ "MR::ObjectComparableWithReference", "classMR_1_1ObjectComparableWithReference.html", [
-      [ "MR::DistanceMeasurementObject", "classMR_1_1DistanceMeasurementObject.html", null ]
+      [ "MR::DistanceMeasurementObject", "classMR_1_1DistanceMeasurementObject.html", null ],
+      [ "MR::PointObject", "classMR_1_1PointObject.html", null ]
     ] ],
     [ "MR::ObjectFactoryBase", "classMR_1_1ObjectFactoryBase.html", [
       [ "MR::ObjectFactory< T >", "classMR_1_1ObjectFactory.html", null ]

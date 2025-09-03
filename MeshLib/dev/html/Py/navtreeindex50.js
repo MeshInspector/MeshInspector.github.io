@@ -1,9 +1,5 @@
 var NAVTREEINDEX50 =
 {
-"classmrmeshpy_1_1MeshPoint.html#ad2baf2d57ca7331db3538b7c2adb1304":[6,1,0,0,2,498,7],
-"classmrmeshpy_1_1MeshPoint.html#ad2baf2d57ca7331db3538b7c2adb1304":[6,1,1,0,1,498,7],
-"classmrmeshpy_1_1MeshPointAndDistance.html":[6,1,0,0,2,499],
-"classmrmeshpy_1_1MeshPointAndDistance.html":[6,1,1,0,1,499],
 "classmrmeshpy_1_1MeshPointAndDistance.html#a094f182b38045b628be7db6d09d760ab":[6,1,0,0,2,499,7],
 "classmrmeshpy_1_1MeshPointAndDistance.html#a094f182b38045b628be7db6d09d760ab":[6,1,1,0,1,499,7],
 "classmrmeshpy_1_1MeshPointAndDistance.html#a0df7f1a824816b770aeb56e73efa0d39":[6,1,0,0,2,499,12],
@@ -249,5 +245,9 @@ var NAVTREEINDEX50 =
 "classmrmeshpy_1_1MeshToDistanceMapParams.html#af73b8b9fff9b6c3d0693c7c1bf34dd2f":[6,1,0,0,2,507,22],
 "classmrmeshpy_1_1MeshToDistanceMapParams.html#af73b8b9fff9b6c3d0693c7c1bf34dd2f":[6,1,1,0,1,507,22],
 "classmrmeshpy_1_1MeshToDistanceVolumeParams.html":[6,1,0,0,2,508],
-"classmrmeshpy_1_1MeshToDistanceVolumeParams.html":[6,1,1,0,1,508]
+"classmrmeshpy_1_1MeshToDistanceVolumeParams.html":[6,1,1,0,1,508],
+"classmrmeshpy_1_1MeshToDistanceVolumeParams.html#a2b495313145891db0fa61e3e9ceda21e":[6,1,0,0,2,508,0],
+"classmrmeshpy_1_1MeshToDistanceVolumeParams.html#a2b495313145891db0fa61e3e9ceda21e":[6,1,1,0,1,508,0],
+"classmrmeshpy_1_1MeshToDistanceVolumeParams.html#ac399c1d5ba267821f56da7581b228c4c":[6,1,0,0,2,508,2],
+"classmrmeshpy_1_1MeshToDistanceVolumeParams.html#ac399c1d5ba267821f56da7581b228c4c":[6,1,1,0,1,508,2]
 };

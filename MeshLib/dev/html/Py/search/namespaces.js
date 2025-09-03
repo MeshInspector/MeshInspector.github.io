@@ -43,7 +43,7 @@ var searchData=
   ['mr_3a_3ameta_37',['Meta',['../../Cpp/namespaceMR_1_1Meta.html',1,'MR']]],
   ['mr_3a_3amousecontroller_38',['MouseController',['../../Cpp/structMR_1_1MouseController_1_1MouseControlKey.html',1,'MR']]],
   ['mr_3a_3anormalstopoints_39',['NormalsToPoints',['../../Cpp/classMR_1_1NormalsToPoints_1_1ISolver.html',1,'MR']]],
-  ['mr_3a_3aobjectcomparablewithreference_40',['ObjectComparableWithReference',['../../Cpp/structMR_1_1ObjectComparableWithReference_1_1ComparisonTolerance.html',1,'MR']]],
+  ['mr_3a_3aobjectcomparablewithreference_40',['ObjectComparableWithReference',['../../Cpp/structMR_1_1ObjectComparableWithReference_1_1ComparableProperty.html',1,'MR']]],
   ['mr_3a_3aobjectload_41',['ObjectLoad',['../../Cpp/namespaceMR_1_1ObjectLoad.html',1,'MR']]],
   ['mr_3a_3aobjectsave_42',['ObjectSave',['../../Cpp/namespaceMR_1_1ObjectSave.html',1,'MR']]],
   ['mr_3a_3aobjecttransformwidget_43',['ObjectTransformWidget',['../../Cpp/classMR_1_1ObjectTransformWidget_1_1ChangeXfAction.html',1,'MR']]],

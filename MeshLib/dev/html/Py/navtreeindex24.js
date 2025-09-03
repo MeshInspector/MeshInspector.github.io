@@ -1,9 +1,5 @@
 var NAVTREEINDEX24 =
 {
-"classmrmeshpy_1_1EdgePointPair.html#a517971c035e0dbd90b285b06c6eac6c7":[6,1,0,0,2,218,3],
-"classmrmeshpy_1_1EdgePointPair.html#a517971c035e0dbd90b285b06c6eac6c7":[6,1,1,0,1,218,3],
-"classmrmeshpy_1_1EdgePointPair.html#a59895a38bd404356f4453268ea3f185c":[6,1,0,0,2,218,0],
-"classmrmeshpy_1_1EdgePointPair.html#a59895a38bd404356f4453268ea3f185c":[6,1,1,0,1,218,0],
 "classmrmeshpy_1_1EdgePointPair.html#a778c0202f92af81bf2c6d561062f4abe":[6,1,0,0,2,218,2],
 "classmrmeshpy_1_1EdgePointPair.html#a778c0202f92af81bf2c6d561062f4abe":[6,1,1,0,1,218,2],
 "classmrmeshpy_1_1EdgeScalars.html":[6,1,0,0,2,220],
@@ -249,5 +245,9 @@ var NAVTREEINDEX24 =
 "classmrmeshpy_1_1EmbeddedStructureParameters.html#a2ecd67698db1a6e1b08b56deee2e749f":[6,1,0,0,2,224,12],
 "classmrmeshpy_1_1EmbeddedStructureParameters.html#a2ecd67698db1a6e1b08b56deee2e749f":[6,1,1,0,1,224,12],
 "classmrmeshpy_1_1EmbeddedStructureParameters.html#a38b91e78bf6501fd0daed2647a85f12f":[6,1,0,0,2,224,1],
-"classmrmeshpy_1_1EmbeddedStructureParameters.html#a38b91e78bf6501fd0daed2647a85f12f":[6,1,1,0,1,224,1]
+"classmrmeshpy_1_1EmbeddedStructureParameters.html#a38b91e78bf6501fd0daed2647a85f12f":[6,1,1,0,1,224,1],
+"classmrmeshpy_1_1EmbeddedStructureParameters.html#a515ed108cec297495d6d56d3d320cf7b":[6,1,0,0,2,224,8],
+"classmrmeshpy_1_1EmbeddedStructureParameters.html#a515ed108cec297495d6d56d3d320cf7b":[6,1,1,0,1,224,8],
+"classmrmeshpy_1_1EmbeddedStructureParameters.html#a5c322381bd5c03ba780d7bed2ab0b70b":[6,1,0,0,2,224,11],
+"classmrmeshpy_1_1EmbeddedStructureParameters.html#a5c322381bd5c03ba780d7bed2ab0b70b":[6,1,1,0,1,224,11]
 };

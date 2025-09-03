@@ -194,6 +194,8 @@ var dir_12d01ef4fa7c7ca18852dd6d7d92a624 =
     [ "std_optional_MR_Mesh.h", "std__optional__MR__Mesh_8h.html", "std__optional__MR__Mesh_8h" ],
     [ "std_optional_MR_MeshOrPoints.h", "std__optional__MR__MeshOrPoints_8h.html", "std__optional__MR__MeshOrPoints_8h" ],
     [ "std_optional_MR_MeshOrPointsXf.h", "std__optional__MR__MeshOrPointsXf_8h.html", "std__optional__MR__MeshOrPointsXf_8h" ],
+    [ "std_optional_MR_ObjectComparableWithReference_ComparableProperty.h", "std__optional__MR__ObjectComparableWithReference__ComparableProperty_8h.html", "std__optional__MR__ObjectComparableWithReference__ComparableProperty_8h" ],
+    [ "std_optional_MR_ObjectComparableWithReference_ComparisonTolerance.h", "std__optional__MR__ObjectComparableWithReference__ComparisonTolerance_8h.html", "std__optional__MR__ObjectComparableWithReference__ComparisonTolerance_8h" ],
     [ "std_optional_MR_ObjectMeshData.h", "std__optional__MR__ObjectMeshData_8h.html", "std__optional__MR__ObjectMeshData_8h" ],
     [ "std_optional_MR_PointCloud.h", "std__optional__MR__PointCloud_8h.html", "std__optional__MR__PointCloud_8h" ],
     [ "std_optional_MR_PolylineIntersectionResult2.h", "std__optional__MR__PolylineIntersectionResult2_8h.html", "std__optional__MR__PolylineIntersectionResult2_8h" ],

@@ -82,7 +82,7 @@ var searchData=
   ['mrmeshpy_3a_3ameshsave_76',['MeshSave',['../../Py/classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions.html',1,'mrmeshpy']]],
   ['mrmeshpy_3a_3amultiwayicpsamplingparameters_77',['MultiwayICPSamplingParameters',['../../Py/classmrmeshpy_1_1MultiwayICPSamplingParameters_1_1CascadeMode.html',1,'mrmeshpy']]],
   ['mrmeshpy_3a_3anormalstopoints_78',['NormalsToPoints',['../../Py/classmrmeshpy_1_1NormalsToPoints_1_1ISolver.html',1,'mrmeshpy']]],
-  ['mrmeshpy_3a_3aobjectcomparablewithreference_79',['ObjectComparableWithReference',['../../Py/classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonTolerance.html',1,'mrmeshpy']]],
+  ['mrmeshpy_3a_3aobjectcomparablewithreference_79',['ObjectComparableWithReference',['../../Py/classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparableProperty.html',1,'mrmeshpy']]],
   ['mrmeshpy_3a_3aobjectvoxels_80',['ObjectVoxels',['../../Py/classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1AlphaType.html',1,'mrmeshpy']]],
   ['mrmeshpy_3a_3aobjectvoxels_3a_3avolumerenderingparams_81',['VolumeRenderingParams',['../../Py/classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams_1_1AlphaType.html',1,'mrmeshpy::ObjectVoxels']]],
   ['mrmeshpy_3a_3aoffsetcontoursparams_82',['OffsetContoursParams',['../../Py/classmrmeshpy_1_1OffsetContoursParams_1_1CornerType.html',1,'mrmeshpy']]],

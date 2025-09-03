@@ -1,7 +1,5 @@
 var NAVTREEINDEX30 =
 {
-"classMR_1_1Laplacian.html#abde407cebf38b19019235ca25c82309e":[6,0,2,0,1,322,6],
-"classMR_1_1Laplacian.html#afdf4e4b8b9500077dbd7d806dfc74f54":[6,0,1,0,1,339,4],
 "classMR_1_1Laplacian.html#afdf4e4b8b9500077dbd7d806dfc74f54":[6,0,2,0,1,322,4],
 "classMR_1_1LineObject.html":[6,0,0,11,0,3],
 "classMR_1_1LineObject.html#a0ac3b92e0ee10db29a7928525ac7acae":[6,0,0,11,0,3,12],
@@ -249,5 +247,7 @@ var NAVTREEINDEX30 =
 "classMR_1_1MeshOrPointsObject.html#af56c4211ae251d9b95a7c29819faf571":[6,0,1,0,1,384,3],
 "classMR_1_1MeshOrPointsObject.html#af56c4211ae251d9b95a7c29819faf571":[6,0,2,0,1,367,3],
 "classMR_1_1MeshOrPointsObject.html#afb102f7701f621951520af1a0b248d95":[6,0,1,0,1,384,5],
-"classMR_1_1MeshOrPointsObject.html#afb102f7701f621951520af1a0b248d95":[6,0,2,0,1,367,5]
+"classMR_1_1MeshOrPointsObject.html#afb102f7701f621951520af1a0b248d95":[6,0,2,0,1,367,5],
+"classMR_1_1MeshTopology.html":[6,0,0,7,2],
+"classMR_1_1MeshTopology.html#a003b769e8bf22c99726d375fc83867bc":[6,0,0,7,2,59]
 };

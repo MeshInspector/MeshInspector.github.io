@@ -1,9 +1,5 @@
 var NAVTREEINDEX35 =
 {
-"classmrmeshpy_1_1GridSettings_1_1TriType.html#af27a5c149bb0614c64172ef7a94c988d":[6,1,0,0,2,365,1,4],
-"classmrmeshpy_1_1GridSettings_1_1TriType.html#af27a5c149bb0614c64172ef7a94c988d":[6,1,1,0,1,365,1,4],
-"classmrmeshpy_1_1GridToMeshSettings.html":[6,1,0,0,2,366],
-"classmrmeshpy_1_1GridToMeshSettings.html":[6,1,1,0,1,366],
 "classmrmeshpy_1_1GridToMeshSettings.html#a122fa0eccbb01097c71d40b5d07ca869":[6,1,0,0,2,366,11],
 "classmrmeshpy_1_1GridToMeshSettings.html#a122fa0eccbb01097c71d40b5d07ca869":[6,1,1,0,1,366,11],
 "classmrmeshpy_1_1GridToMeshSettings.html#a1ec815949c9b4bb602ba53682e2a3cc9":[6,1,0,0,2,366,4],
@@ -249,5 +245,9 @@ var NAVTREEINDEX35 =
 "classmrmeshpy_1_1ICPMethod.html#a05bceab9be673a53a992082c8f9d1958":[6,1,0,0,2,375,5],
 "classmrmeshpy_1_1ICPMethod.html#a05bceab9be673a53a992082c8f9d1958":[6,1,1,0,1,375,5],
 "classmrmeshpy_1_1ICPMethod.html#a11def047018a8f9a391b5911f354317e":[6,1,0,0,2,375,8],
-"classmrmeshpy_1_1ICPMethod.html#a11def047018a8f9a391b5911f354317e":[6,1,1,0,1,375,8]
+"classmrmeshpy_1_1ICPMethod.html#a11def047018a8f9a391b5911f354317e":[6,1,1,0,1,375,8],
+"classmrmeshpy_1_1ICPMethod.html#a3b0e44b1dd7538d263a9f23385700218":[6,1,0,0,2,375,4],
+"classmrmeshpy_1_1ICPMethod.html#a3b0e44b1dd7538d263a9f23385700218":[6,1,1,0,1,375,4],
+"classmrmeshpy_1_1ICPMethod.html#a802b99ad3d83e072276231d9c2d1b2eb":[6,1,0,0,2,375,0],
+"classmrmeshpy_1_1ICPMethod.html#a802b99ad3d83e072276231d9c2d1b2eb":[6,1,1,0,1,375,0]
 };
