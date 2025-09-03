@@ -1,5 +1,7 @@
 var NAVTREEINDEX84 =
 {
+"structMR_1_1Palette_1_1Label.html#a9fb9db8edb847b9fa9b2d46e2f216bdb":[6,0,2,0,1,474,1,1],
+"structMR_1_1Palette_1_1Label.html#abbf2f53809f0072d2e09bde212cc58d7":[6,0,1,0,1,491,1,0],
 "structMR_1_1Palette_1_1Label.html#abbf2f53809f0072d2e09bde212cc58d7":[6,0,2,0,1,474,1,0],
 "structMR_1_1Palette_1_1Label.html#ae0d781a22905f1df26b03b698576c19f":[6,0,1,0,1,491,1,3],
 "structMR_1_1Palette_1_1Label.html#ae0d781a22905f1df26b03b698576c19f":[6,0,2,0,1,474,1,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX84 =
 "structMR_1_1PlyLoadParams.html#ab60b055cffae98b1ce1a1a4466cfe633":[6,0,1,0,1,512,5],
 "structMR_1_1PlyLoadParams.html#ab60b055cffae98b1ce1a1a4466cfe633":[6,0,2,0,1,495,5],
 "structMR_1_1PlyLoadParams.html#ad25eed18572d645b917be81829d73a71":[6,0,1,0,1,512,6],
-"structMR_1_1PlyLoadParams.html#ad25eed18572d645b917be81829d73a71":[6,0,2,0,1,495,6],
-"structMR_1_1PlyLoadParams.html#ae8303df7b41e4693e1bc02050bc121ca":[6,0,1,0,1,512,2],
-"structMR_1_1PlyLoadParams.html#ae8303df7b41e4693e1bc02050bc121ca":[6,0,2,0,1,495,2]
+"structMR_1_1PlyLoadParams.html#ad25eed18572d645b917be81829d73a71":[6,0,2,0,1,495,6]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX33 =
 {
+"classMR_1_1ObjectDistanceMap.html#a926ef79a1ea86d98b42dafc6eb5b112b":[6,0,0,11,5,3],
 "classMR_1_1ObjectDistanceMap.html#a9788925d8f072383a35145d4b13cbb92":[6,0,0,11,5,16],
 "classMR_1_1ObjectDistanceMap.html#abaac591338fe97a8e55b49601c5c4367":[6,0,0,11,5,24],
 "classMR_1_1ObjectDistanceMap.html#ad4a907748558704e47f71b6529c7f915":[6,0,0,11,5,21],
@@ -248,6 +249,5 @@ var NAVTREEINDEX33 =
 "classMR_1_1ObjectMesh.html#afa285a6b158e8de1c2babdcfff5de44b":[6,0,0,11,9,4],
 "classMR_1_1ObjectMeshHolder.html":[6,0,1,0,1,457],
 "classMR_1_1ObjectMeshHolder.html":[6,0,2,0,1,440],
-"classMR_1_1ObjectMeshHolder.html#a00b7332057379b5380b52ad91a88ed4e":[6,0,1,0,1,457,143],
-"classMR_1_1ObjectMeshHolder.html#a00b7332057379b5380b52ad91a88ed4e":[6,0,2,0,1,440,143]
+"classMR_1_1ObjectMeshHolder.html#a00b7332057379b5380b52ad91a88ed4e":[6,0,1,0,1,457,143]
 };

@@ -721,6 +721,7 @@ var annotated_dup =
       [ "PolynomialWrapper_double", "classmrmeshpy_1_1PolynomialWrapper__double.html", "classmrmeshpy_1_1PolynomialWrapper__double" ],
       [ "PolynomialWrapper_float", "classmrmeshpy_1_1PolynomialWrapper__float.html", "classmrmeshpy_1_1PolynomialWrapper__float" ],
       [ "PositionedText", "classmrmeshpy_1_1PositionedText.html", "classmrmeshpy_1_1PositionedText" ],
+      [ "PositionVertsSmoothlyParams", "classmrmeshpy_1_1PositionVertsSmoothlyParams.html", "classmrmeshpy_1_1PositionVertsSmoothlyParams" ],
       [ "PrecipitationSimulator", "classmrmeshpy_1_1PrecipitationSimulator.html", "classmrmeshpy_1_1PrecipitationSimulator" ],
       [ "PreciseVertCoord", "classmrmeshpy_1_1PreciseVertCoord.html", "classmrmeshpy_1_1PreciseVertCoord" ],
       [ "PreciseVertCoords", "classmrmeshpy_1_1PreciseVertCoords.html", "classmrmeshpy_1_1PreciseVertCoords" ],

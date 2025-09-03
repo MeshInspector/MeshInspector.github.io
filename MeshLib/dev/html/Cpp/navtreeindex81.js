@@ -1,5 +1,7 @@
 var NAVTREEINDEX81 =
 {
+"structMR_1_1MeshPointAndDistance.html":[6,0,1,0,1,387],
+"structMR_1_1MeshPointAndDistance.html":[6,0,2,0,1,370],
 "structMR_1_1MeshPointAndDistance.html#a1a758547372340f32380f76222e7c0b0":[6,0,1,0,1,387,8],
 "structMR_1_1MeshPointAndDistance.html#a1a758547372340f32380f76222e7c0b0":[6,0,2,0,1,370,8],
 "structMR_1_1MeshPointAndDistance.html#a3c13570c2b1fc9561e7b69f49e4a2096":[6,0,1,0,1,387,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX81 =
 "structMR_1_1ModalDialogSettings.html#aff877b60069cbba358ec18108751d01b":[6,0,1,0,1,406,6],
 "structMR_1_1ModalDialogSettings.html#aff877b60069cbba358ec18108751d01b":[6,0,2,0,1,389,6],
 "structMR_1_1ModelBaseRenderParams.html":[6,0,1,0,1,407],
-"structMR_1_1ModelBaseRenderParams.html":[6,0,2,0,1,390],
-"structMR_1_1ModelBaseRenderParams.html#a28337d3d5f8f9cc1db7812bca629ce40":[6,0,1,0,1,407,2],
-"structMR_1_1ModelBaseRenderParams.html#a28337d3d5f8f9cc1db7812bca629ce40":[6,0,2,0,1,390,2]
+"structMR_1_1ModelBaseRenderParams.html":[6,0,2,0,1,390]
 };

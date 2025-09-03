@@ -877,6 +877,7 @@ var hierarchy =
     [ "mrmeshpy.PolynomialWrapper_double", "classmrmeshpy_1_1PolynomialWrapper__double.html", null ],
     [ "mrmeshpy.PolynomialWrapper_float", "classmrmeshpy_1_1PolynomialWrapper__float.html", null ],
     [ "mrmeshpy.PositionedText", "classmrmeshpy_1_1PositionedText.html", null ],
+    [ "mrmeshpy.PositionVertsSmoothlyParams", "classmrmeshpy_1_1PositionVertsSmoothlyParams.html", null ],
     [ "mrmeshpy.PrecipitationSimulator", "classmrmeshpy_1_1PrecipitationSimulator.html", null ],
     [ "mrmeshpy.PreciseVertCoord", "classmrmeshpy_1_1PreciseVertCoord.html", null ],
     [ "mrmeshpy.PreciseVertCoords", "classmrmeshpy_1_1PreciseVertCoords.html", null ],

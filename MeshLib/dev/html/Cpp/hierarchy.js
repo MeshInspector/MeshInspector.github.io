@@ -1053,6 +1053,7 @@ var hierarchy =
     [ "MR::Polynomial< T, degree >", "structMR_1_1Polynomial.html", null ],
     [ "MR::PolynomialWrapper< T >", "structMR_1_1PolynomialWrapper.html", null ],
     [ "MR::PositionedText", "structMR_1_1PositionedText.html", null ],
+    [ "MR::PositionVertsSmoothlyParams", "structMR_1_1PositionVertsSmoothlyParams.html", null ],
     [ "MR::PrecipitationSimulator", "classMR_1_1PrecipitationSimulator.html", null ],
     [ "MR::PreciseVertCoord", "structMR_1_1PreciseVertCoord.html", null ],
     [ "MR::PreciseVertCoords", "structMR_1_1PreciseVertCoords.html", null ],
@@ -1364,6 +1365,7 @@ var hierarchy =
     [ "MR::Vector< T, VoxelId >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< TextureId, FaceId >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< V, VertId >", "classMR_1_1Vector.html", null ],
+    [ "MR::Vector< Vector3f, VertId >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< VertId, VertId >", "classMR_1_1Vector.html", null ],
     [ "MR::Vector< VoxelId, FaceId >", "classMR_1_1Vector.html", null ],
     [ "vector_wrapper_base< T >", "structvector__wrapper__base.html", [

@@ -731,6 +731,7 @@ var annotated_dup =
       [ "Polynomial", "structMR_1_1Polynomial.html", "structMR_1_1Polynomial" ],
       [ "PolynomialWrapper", "structMR_1_1PolynomialWrapper.html", "structMR_1_1PolynomialWrapper" ],
       [ "PositionedText", "structMR_1_1PositionedText.html", "structMR_1_1PositionedText" ],
+      [ "PositionVertsSmoothlyParams", "structMR_1_1PositionVertsSmoothlyParams.html", "structMR_1_1PositionVertsSmoothlyParams" ],
       [ "PostDrawListener", "structMR_1_1PostDrawListener.html", "structMR_1_1PostDrawListener" ],
       [ "PostFocusListener", "structMR_1_1PostFocusListener.html", "structMR_1_1PostFocusListener" ],
       [ "PostRescaleListener", "structMR_1_1PostRescaleListener.html", "structMR_1_1PostRescaleListener" ],
