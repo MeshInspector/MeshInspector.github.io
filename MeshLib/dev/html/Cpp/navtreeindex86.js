@@ -1,5 +1,7 @@
 var NAVTREEINDEX86 =
 {
+"structMR_1_1PolylineMaker.html#a6b10efd85c33f60e8896d7ce1971364f":[6,0,1,0,1,535,1],
+"structMR_1_1PolylineMaker.html#a6b10efd85c33f60e8896d7ce1971364f":[6,0,2,0,1,518,1],
 "structMR_1_1PolylineMaker.html#a8235ea5e1d4e4a8485abb6d0d548fbba":[6,0,1,0,1,535,5],
 "structMR_1_1PolylineMaker.html#a8235ea5e1d4e4a8485abb6d0d548fbba":[6,0,2,0,1,518,5],
 "structMR_1_1PolylineMaker.html#a8c386bea061f3eab0448adbfa67dceb0":[6,0,1,0,1,535,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX86 =
 "structMR_1_1RangeSize.html":[6,0,1,0,1,574],
 "structMR_1_1RangeSize.html":[6,0,2,0,1,557],
 "structMR_1_1RangeSize.html#a5dde8b6f1f684eac4b8bf2c2bc72386e":[6,0,1,0,1,574,0],
-"structMR_1_1RangeSize.html#a5dde8b6f1f684eac4b8bf2c2bc72386e":[6,0,2,0,1,557,0],
-"structMR_1_1RangeSize.html#a8d9671c602785383a783dc97504805ec":[6,0,1,0,1,574,1],
-"structMR_1_1RangeSize.html#a8d9671c602785383a783dc97504805ec":[6,0,2,0,1,557,1]
+"structMR_1_1RangeSize.html#a5dde8b6f1f684eac4b8bf2c2bc72386e":[6,0,2,0,1,557,0]
 };

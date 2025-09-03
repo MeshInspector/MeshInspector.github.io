@@ -1,5 +1,6 @@
 var NAVTREEINDEX10 =
 {
+"MRMesh_2MRMeshOrPoints_8h.html#a33f6251b6b8c5fe220e1516c1e30e299":[6,0,3,0,0,1,4,217,4],
 "MRMesh_2MRMeshOrPoints_8h.html#a51c5c9bdf012ab12e360b5e161bb378e":[6,0,3,0,0,1,4,217,3],
 "MRMesh_2MRMeshOrPoints_8h.html#a5420ee2a31ac6b94a7fdd87bd57f93c4":[6,0,3,0,0,1,4,217,8],
 "MRMesh_2MRMeshOrPoints_8h.html#ad3d0eb81fb97a59d1246c331bb37416c":[6,0,3,0,0,1,4,217,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX10 =
 "MRObjectComparableWithReference_8h.html":[6,0,3,0,0,1,4,246],
 "MRObjectComparableWithReference_8h_source.html":[6,0,3,0,0,1,4,246],
 "MRObjectDimensionsEnum_8h.html":[6,0,3,0,0,1,4,247],
-"MRObjectDimensionsEnum_8h.html#a45937af38b4f2f3950e1922a75ff7ab1":[6,0,3,0,0,1,4,247,3],
-"MRObjectDimensionsEnum_8h.html#a69c4cff6b9a1cd95c71fc56b8dd9a983":[6,0,3,0,0,1,4,247,2]
+"MRObjectDimensionsEnum_8h.html#a45937af38b4f2f3950e1922a75ff7ab1":[6,0,3,0,0,1,4,247,3]
 };

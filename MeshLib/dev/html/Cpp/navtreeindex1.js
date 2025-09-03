@@ -1,5 +1,6 @@
 var NAVTREEINDEX1 =
 {
+"MRBitSetParallelFor_8h.html#a8f2ddae24bfbab61698167d301e96307":[6,0,3,0,0,1,4,30,8],
 "MRBitSetParallelFor_8h.html#ac886c0876beae880356ab560e584b63e":[6,0,3,0,0,1,4,30,7],
 "MRBitSetParallelFor_8h_source.html":[6,0,3,0,0,1,4,30],
 "MRBoolean_8h.html":[6,0,3,0,0,1,12,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX1 =
 "MRDicom_8h.html#a4877b5ea79a241234ef88b527edc08e6":[6,0,3,0,0,1,12,6,2],
 "MRDicom_8h.html#a4877b5ea79a241234ef88b527edc08e6a4bbb8f967da6d1a610596d7257179c2b":[6,0,3,0,0,1,12,6,2,1],
 "MRDicom_8h.html#a4877b5ea79a241234ef88b527edc08e6aa60852f204ed8028c1c58808b746d115":[6,0,3,0,0,1,12,6,2,0],
-"MRDicom_8h.html#a4877b5ea79a241234ef88b527edc08e6ab4080bdf74febf04d578ff105cce9d3f":[6,0,3,0,0,1,12,6,2,2],
-"MRDicom_8h.html#a502a6fc0f3621c800b6569b6e56e99fa":[6,0,3,0,0,1,12,6,10]
+"MRDicom_8h.html#a4877b5ea79a241234ef88b527edc08e6ab4080bdf74febf04d578ff105cce9d3f":[6,0,3,0,0,1,12,6,2,2]
 };

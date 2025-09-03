@@ -275,6 +275,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a22263f205e7e3988ff6be4e152a963a6" id="r_a22263f205e7e3988ff6be4e152a963a6"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a22263f205e7e3988ff6be4e152a963a6">getExpSpeed</a> (float val, float frac=0.01f, float min=1e-5f)</td></tr>
 <tr class="memdesc:a22263f205e7e3988ff6be4e152a963a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">get exponential speed for this value  <br /></td></tr>
 <tr class="separator:a22263f205e7e3988ff6be4e152a963a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcf2f35edd39ac820b77b169fce7c33e" id="r_adcf2f35edd39ac820b77b169fce7c33e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adcf2f35edd39ac820b77b169fce7c33e">getLuminance</a> (const ImVec4 &amp;col)</td></tr>
+<tr class="memdesc:adcf2f35edd39ac820b77b169fce7c33e"><td class="mdescLeft">&#160;</td><td class="mdescRight">A crude conversion to grayscale. Good enough for our purposes.  <br /></td></tr>
+<tr class="separator:adcf2f35edd39ac820b77b169fce7c33e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
 <a id="a27ee05a9e60f4c26c369f0331134f682" name="a27ee05a9e60f4c26c369f0331134f682"></a>
@@ -999,6 +1002,33 @@ template&lt;typename Getter , typename Setter &gt; </div>
 </div><div class="memdoc">
 
 <p>get image coordinates under cursor considering Y-direction flipping </p>
+
+</div>
+</div>
+<a id="adcf2f35edd39ac820b77b169fce7c33e" name="adcf2f35edd39ac820b77b169fce7c33e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adcf2f35edd39ac820b77b169fce7c33e">&#9670;&#160;</a></span>getLuminance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float ImGui::getLuminance </td>
+          <td>(</td>
+          <td class="paramtype">const ImVec4 &amp;</td>          <td class="paramname"><span class="paramname"><em>col</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>A crude conversion to grayscale. Good enough for our purposes. </p>
 
 </div>
 </div>

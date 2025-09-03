@@ -34,6 +34,7 @@ var namespaceImGui =
     [ "GetDownPosition", "namespaceImGui.html#a6dfe914b3199c96486e9fc7b82138777", null ],
     [ "getExpSpeed", "namespaceImGui.html#a22263f205e7e3988ff6be4e152a963a6", null ],
     [ "GetImagePointerCoord", "namespaceImGui.html#a1fb7653d1377ce1f2dd7a8f9d1057615", null ],
+    [ "getLuminance", "namespaceImGui.html#adcf2f35edd39ac820b77b169fce7c33e", null ],
     [ "GetTitleBarHeght", "namespaceImGui.html#a660b386cc39248222a1d8dd3eec60024", null ],
     [ "Image", "namespaceImGui.html#ad271bb43979f12d68480619505b2900f", null ],
     [ "Image", "namespaceImGui.html#a35ab4450ec9a2caa24b029e5c5c11ecb", null ],

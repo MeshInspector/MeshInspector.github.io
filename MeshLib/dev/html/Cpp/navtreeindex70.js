@@ -1,5 +1,7 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1BindVertexAttribArraySettings.html#ae5e71ac65ba00245ac2ee44f35f33168":[6,0,2,0,1,61,4],
+"structMR_1_1BooleanInternalParameters.html":[6,0,0,8,1],
 "structMR_1_1BooleanInternalParameters.html#a2733395f91f3ed00b0e61ccae13ce37d":[6,0,0,8,1,1],
 "structMR_1_1BooleanInternalParameters.html#a3d8d32104f837c9064678f6e0cbc420c":[6,0,0,8,1,0],
 "structMR_1_1BooleanInternalParameters.html#a9564c4edb40ecc90fa59bfc7a9342bc5":[6,0,0,8,1,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1ComputeSteepestDescentPathSettings.html#adb7629a9e4ce0c21efc00fd5f1b3932f":[6,0,0,16,3,0,2],
 "structMR_1_1Cone3ApproximationParams.html":[6,0,1,0,1,154],
 "structMR_1_1Cone3ApproximationParams.html":[6,0,2,0,1,137],
-"structMR_1_1Cone3ApproximationParams.html#a0c389ccce5e8616195da9e724505f8c2":[6,0,1,0,1,154,2],
-"structMR_1_1Cone3ApproximationParams.html#a0c389ccce5e8616195da9e724505f8c2":[6,0,2,0,1,137,2],
-"structMR_1_1Cone3ApproximationParams.html#a5b47cd0b4ce1e73f079a35fdc80d2850":[6,0,1,0,1,154,1]
+"structMR_1_1Cone3ApproximationParams.html#a0c389ccce5e8616195da9e724505f8c2":[6,0,1,0,1,154,2]
 };

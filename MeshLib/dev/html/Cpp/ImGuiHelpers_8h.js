@@ -34,6 +34,7 @@ var ImGuiHelpers_8h =
     [ "GetDownPosition", "ImGuiHelpers_8h.html#a6dfe914b3199c96486e9fc7b82138777", null ],
     [ "getExpSpeed", "ImGuiHelpers_8h.html#a22263f205e7e3988ff6be4e152a963a6", null ],
     [ "GetImagePointerCoord", "ImGuiHelpers_8h.html#a1fb7653d1377ce1f2dd7a8f9d1057615", null ],
+    [ "getLuminance", "ImGuiHelpers_8h.html#adcf2f35edd39ac820b77b169fce7c33e", null ],
     [ "GetTitleBarHeght", "ImGuiHelpers_8h.html#a660b386cc39248222a1d8dd3eec60024", null ],
     [ "Image", "ImGuiHelpers_8h.html#ad271bb43979f12d68480619505b2900f", null ],
     [ "Image", "ImGuiHelpers_8h.html#a35ab4450ec9a2caa24b029e5c5c11ecb", null ],

@@ -53,7 +53,7 @@ var classMR_1_1ImGuiMenu =
     [ "drawRemoveButton", "classMR_1_1ImGuiMenu.html#a84850cbba56bfddc430ce99e51b91b71", null ],
     [ "drawSelectionInformation_", "classMR_1_1ImGuiMenu.html#a99d49a0c86f16f2e917e71c81efe4187", null ],
     [ "drawShortcutsWindow_", "classMR_1_1ImGuiMenu.html#a1a2ff7496cd88b62087cf3adef33dee1", null ],
-    [ "drawTagInformation_", "classMR_1_1ImGuiMenu.html#a98f1fe682d8dcd129cac7b6ac6ba3677", null ],
+    [ "drawTagInformation_", "classMR_1_1ImGuiMenu.html#a0df92b241b5b7ddcc8f855ed329f2eeb", null ],
     [ "drawTransform_", "classMR_1_1ImGuiMenu.html#a318c4a57bcb4a30a7620d3c954668c5a", null ],
     [ "drawTransformContextMenu_", "classMR_1_1ImGuiMenu.html#ac40c4ccc20532c621364545dc961f65a", null ],
     [ "enableSavedDialogPositions", "classMR_1_1ImGuiMenu.html#aa2d17638d5eae8d84052a441927c8e2e", null ],

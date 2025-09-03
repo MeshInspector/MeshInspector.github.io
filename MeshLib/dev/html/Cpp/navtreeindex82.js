@@ -1,5 +1,7 @@
 var NAVTREEINDEX82 =
 {
+"structMR_1_1ModelBaseRenderParams.html#a4c79d51067cd63730f681f5aa2c4ad67":[6,0,1,0,1,407,1],
+"structMR_1_1ModelBaseRenderParams.html#a4c79d51067cd63730f681f5aa2c4ad67":[6,0,2,0,1,390,1],
 "structMR_1_1ModelBaseRenderParams.html#a62b1dc3636e8859d7b4f46b53d1e02c8":[6,0,1,0,1,407,0],
 "structMR_1_1ModelBaseRenderParams.html#a62b1dc3636e8859d7b4f46b53d1e02c8":[6,0,2,0,1,390,0],
 "structMR_1_1ModelPointsData.html":[6,0,1,0,1,408],
@@ -247,7 +249,5 @@ var NAVTREEINDEX82 =
 "structMR_1_1ObjKindTraits.html":[6,0,1,0,1,463],
 "structMR_1_1ObjKindTraits.html":[6,0,2,0,1,446],
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Circle_01_4.html":[6,0,1,0,1,464],
-"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Circle_01_4.html":[6,0,2,0,1,447],
-"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Circle_01_4.html#a8c3def19c3370adb07aa8f4dc2dac79a":[6,0,1,0,1,464,0],
-"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Circle_01_4.html#a8c3def19c3370adb07aa8f4dc2dac79a":[6,0,2,0,1,447,0]
+"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Circle_01_4.html":[6,0,2,0,1,447]
 };
