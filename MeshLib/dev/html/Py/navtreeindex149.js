@@ -1,5 +1,7 @@
 var NAVTREEINDEX149 =
 {
+"classmrmeshpy_1_1std__vector__ViewportMask.html#af9bc3ecb14e369e2b805bd457047d1dc":[6,1,0,0,2,981,3],
+"classmrmeshpy_1_1std__vector__ViewportMask.html#af9bc3ecb14e369e2b805bd457047d1dc":[6,1,1,0,1,981,3],
 "classmrmeshpy_1_1std__vector__VoxelsVolumeMinMax__FloatGrid.html":[6,1,0,0,2,982],
 "classmrmeshpy_1_1std__vector__VoxelsVolumeMinMax__FloatGrid.html":[6,1,1,0,1,982],
 "classmrmeshpy_1_1std__vector__VoxelsVolumeMinMax__FloatGrid.html#a19075fbe67bff6c3f189008692f73df4":[6,1,0,0,2,982,27],
@@ -247,7 +249,5 @@ var NAVTREEINDEX149 =
 "classmrmeshpy_1_1std__vector__WeightedShell__ParametersRegions__Region.html#a836eee04678956415390f65d780c8b00":[6,1,0,0,2,986,19],
 "classmrmeshpy_1_1std__vector__WeightedShell__ParametersRegions__Region.html#a836eee04678956415390f65d780c8b00":[6,1,1,0,1,986,19],
 "classmrmeshpy_1_1std__vector__WeightedShell__ParametersRegions__Region.html#a85728877a2df2fb2bef87b99d6583e37":[6,1,0,0,2,986,7],
-"classmrmeshpy_1_1std__vector__WeightedShell__ParametersRegions__Region.html#a85728877a2df2fb2bef87b99d6583e37":[6,1,1,0,1,986,7],
-"classmrmeshpy_1_1std__vector__WeightedShell__ParametersRegions__Region.html#a8b2b5a606db9ac5bb40fa54a0c70f5d2":[6,1,0,0,2,986,17],
-"classmrmeshpy_1_1std__vector__WeightedShell__ParametersRegions__Region.html#a8b2b5a606db9ac5bb40fa54a0c70f5d2":[6,1,1,0,1,986,17]
+"classmrmeshpy_1_1std__vector__WeightedShell__ParametersRegions__Region.html#a85728877a2df2fb2bef87b99d6583e37":[6,1,1,0,1,986,7]
 };

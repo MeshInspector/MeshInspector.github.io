@@ -1,5 +1,7 @@
 var NAVTREEINDEX14 =
 {
+"MRSelectObjectByClick_8h.html":[6,0,3,0,0,1,0,1,0],
+"MRSelectObjectByClick_8h_source.html":[6,0,3,0,0,1,0,1,0],
 "MRSelectScreenLasso_8h.html":[6,0,3,0,0,1,11,106],
 "MRSelectScreenLasso_8h.html#a29b6abcd794dd6dfbb8d197b6d944685":[6,0,3,0,0,1,11,106,3],
 "MRSelectScreenLasso_8h.html#a42e8e573c0aec9b5d59ac648be980eff":[6,0,3,0,0,1,11,106,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX14 =
 "MRTeethMaskToDirectionVolume_8h.html":[6,0,3,0,0,1,12,26],
 "MRTeethMaskToDirectionVolume_8h.html#a60b64c60400c783d65cff22715afab1e":[6,0,3,0,0,1,12,26,3],
 "MRTeethMaskToDirectionVolume_8h_source.html":[6,0,3,0,0,1,12,26],
-"MRTerrainTriangulation_8h.html":[6,0,3,0,0,1,4,378],
-"MRTerrainTriangulation_8h.html#abebe86de5d47fc21de1ad73e06bdbc3d":[6,0,3,0,0,1,4,378,0],
-"MRTerrainTriangulation_8h_source.html":[6,0,3,0,0,1,4,378]
+"MRTerrainTriangulation_8h.html":[6,0,3,0,0,1,4,378]
 };

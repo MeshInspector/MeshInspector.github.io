@@ -26,6 +26,7 @@ var classmrmeshpy_1_1Object =
     [ "heapBytes", "classmrmeshpy_1_1Object.html#a62b16119e3432b9c35158f35ca3f1523", null ],
     [ "isAncestor", "classmrmeshpy_1_1Object.html#a33d0fafc2423205d5a3ba75eae112655", null ],
     [ "isAncillary", "classmrmeshpy_1_1Object.html#a5a2cb58be1a7e062e9c502295eb6ce23", null ],
+    [ "isGlobalAncillary", "classmrmeshpy_1_1Object.html#afcc5164e9ca381ad398640ab2729fa59", null ],
     [ "isLocked", "classmrmeshpy_1_1Object.html#adb58092748e5b61228ff7ed23b9c0d6f", null ],
     [ "isParentLocked", "classmrmeshpy_1_1Object.html#aad4248d019ab25e15e9f40f726c1f3d3", null ],
     [ "isSelected", "classmrmeshpy_1_1Object.html#add3395c8e6e84a9d82d622557fb6939f", null ],

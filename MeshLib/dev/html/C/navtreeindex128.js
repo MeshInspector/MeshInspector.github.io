@@ -1,5 +1,6 @@
 var NAVTREEINDEX128 =
 {
+"std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h.html":[6,2,1,0,0,0,2,277],
 "std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h.html#a0fb58aa2d55a1be244699a08f3bbb6e4":[6,2,1,0,0,0,2,277,12],
 "std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h.html#a2f1f3ca7506a9a53e8ae642b0fd2b4aa":[6,2,1,0,0,0,2,277,10],
 "std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h.html#a309d345fc1589fab75044dc6bca333a3":[6,2,1,0,0,0,2,277,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX128 =
 "std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f_8h.html#afe42f1d5df2ecdb4e7dfab3ccfa50970":[6,2,1,0,0,0,2,287,43],
 "std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__UndirectedEdgeTag__MR__Box3f_8h_source.html":[6,2,1,0,0,0,2,287],
 "std__vector__MR__AABBTreeNode__MR__ObjTreeTraits_8h.html":[6,2,1,0,0,0,2,288],
-"std__vector__MR__AABBTreeNode__MR__ObjTreeTraits_8h.html#a00e680146bf987c1d6279570ff277e7b":[6,2,1,0,0,0,2,288,52],
-"std__vector__MR__AABBTreeNode__MR__ObjTreeTraits_8h.html#a05c31f74ee643440aa4972ee2531e05f":[6,2,1,0,0,0,2,288,69]
+"std__vector__MR__AABBTreeNode__MR__ObjTreeTraits_8h.html#a00e680146bf987c1d6279570ff277e7b":[6,2,1,0,0,0,2,288,52]
 };

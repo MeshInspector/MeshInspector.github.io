@@ -1,5 +1,7 @@
 var NAVTREEINDEX58 =
 {
+"classmrmeshpy_1_1ObjectDistanceMap.html#a9e1e2eab4b34336646077a31fb904bb2":[6,1,0,0,2,575,15],
+"classmrmeshpy_1_1ObjectDistanceMap.html#a9e1e2eab4b34336646077a31fb904bb2":[6,1,1,0,1,575,15],
 "classmrmeshpy_1_1ObjectDistanceMap.html#aa11c35477076924c1d3101a45d78019c":[6,1,0,0,2,575,0],
 "classmrmeshpy_1_1ObjectDistanceMap.html#aa11c35477076924c1d3101a45d78019c":[6,1,1,0,1,575,0],
 "classmrmeshpy_1_1ObjectDistanceMap.html#aa78bc3f595345d38d39c99d3ea968cd4":[6,1,0,0,2,575,12],
@@ -247,7 +249,5 @@ var NAVTREEINDEX58 =
 "classmrmeshpy_1_1ObjectMesh.html#acc666f41f06a7e1c289a22ed5fc97e5a":[6,1,0,0,2,581,7],
 "classmrmeshpy_1_1ObjectMesh.html#acc666f41f06a7e1c289a22ed5fc97e5a":[6,1,1,0,1,581,7],
 "classmrmeshpy_1_1ObjectMesh.html#adc56c57b9eb3aff553e4b128a812afca":[6,1,0,0,2,581,4],
-"classmrmeshpy_1_1ObjectMesh.html#adc56c57b9eb3aff553e4b128a812afca":[6,1,1,0,1,581,4],
-"classmrmeshpy_1_1ObjectMeshData.html":[6,1,0,0,2,582],
-"classmrmeshpy_1_1ObjectMeshData.html":[6,1,1,0,1,582]
+"classmrmeshpy_1_1ObjectMesh.html#adc56c57b9eb3aff553e4b128a812afca":[6,1,1,0,1,581,4]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX116 =
 {
+"classmrmeshpy_1_1double__output.html":[6,1,0,0,2,206],
+"classmrmeshpy_1_1double__output.html":[6,1,1,0,1,206],
 "classmrmeshpy_1_1double__output.html#a231b598ad3d88f85f75c77ca23711197":[6,1,0,0,2,206,0],
 "classmrmeshpy_1_1double__output.html#a231b598ad3d88f85f75c77ca23711197":[6,1,1,0,1,206,0],
 "classmrmeshpy_1_1double__output.html#a61e705f67a58bfbd44a199ca94d1bcb1":[6,1,0,0,2,206,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX116 =
 "classmrmeshpy_1_1func__Processing__from__PointsProjectionResult__Vector3__float__Ball__Vector3__float.html#aba257af4230008e51c9c4eccffc6bbfd":[6,1,0,0,2,313,5],
 "classmrmeshpy_1_1func__Processing__from__PointsProjectionResult__Vector3__float__Ball__Vector3__float.html#aba257af4230008e51c9c4eccffc6bbfd":[6,1,1,0,1,313,5],
 "classmrmeshpy_1_1func__Processing__from__PointsProjectionResult__Vector3__float__Ball__Vector3__float.html#adc66c7999c8068a85ce5a4890fa86572":[6,1,0,0,2,313,2],
-"classmrmeshpy_1_1func__Processing__from__PointsProjectionResult__Vector3__float__Ball__Vector3__float.html#adc66c7999c8068a85ce5a4890fa86572":[6,1,1,0,1,313,2],
-"classmrmeshpy_1_1func__TypedBitSet__Id__FaceTag__const__from__unsigned__long.html":[6,1,0,0,2,318],
-"classmrmeshpy_1_1func__TypedBitSet__Id__FaceTag__const__from__unsigned__long.html":[6,1,1,0,1,318]
+"classmrmeshpy_1_1func__Processing__from__PointsProjectionResult__Vector3__float__Ball__Vector3__float.html#adc66c7999c8068a85ce5a4890fa86572":[6,1,1,0,1,313,2]
 };

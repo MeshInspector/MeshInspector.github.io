@@ -2061,7 +2061,7 @@ var namespacemrmeshpy =
     [ "normal", "namespacemrmeshpy.html#a9a590feff09468a6f7ab1415d52286c0", null ],
     [ "normal", "namespacemrmeshpy.html#afaae63f33f7553bd277aabe9f722957a", null ],
     [ "normal", "namespacemrmeshpy.html#adb811c315e61f2c6b878e34455163990", null ],
-    [ "objectHasSelectableChildren", "namespacemrmeshpy.html#a1081d1e3cd4fa89a5d816a8f9e28fdee", null ],
+    [ "objectHasSelectableChildren", "namespacemrmeshpy.html#ad7b73301b33e31b9ccc07cf298398ede", null ],
     [ "objectSave", "namespacemrmeshpy.html#a19850aff4be51a76b11aa5d9de761673", null ],
     [ "offsetContours", "namespacemrmeshpy.html#a14217edc73b0be737eab8ee5b988df0c", null ],
     [ "offsetContours", "namespacemrmeshpy.html#a41c36a13c22e72b6eb773e0fca29e19c", null ],

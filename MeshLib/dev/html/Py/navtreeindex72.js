@@ -1,5 +1,7 @@
 var NAVTREEINDEX72 =
 {
+"classmrmeshpy_1_1Quaternionf.html#af8c6d4ea2195b3a440c6dc8ba0137514":[6,1,0,0,2,728,0],
+"classmrmeshpy_1_1Quaternionf.html#af8c6d4ea2195b3a440c6dc8ba0137514":[6,1,1,0,1,728,0],
 "classmrmeshpy_1_1RadiusMeasurementObject.html":[6,1,0,0,2,729],
 "classmrmeshpy_1_1RadiusMeasurementObject.html":[6,1,1,0,1,729],
 "classmrmeshpy_1_1RadiusMeasurementObject.html#a081513917fb41062285958c17b385213":[6,1,0,0,2,729,18],
@@ -247,7 +249,5 @@ var NAVTREEINDEX72 =
 "classmrmeshpy_1_1RegionBitSet.html#a7d2d593d0edbbc43971d25aa44668a90":[6,1,0,0,2,734,16],
 "classmrmeshpy_1_1RegionBitSet.html#a7d2d593d0edbbc43971d25aa44668a90":[6,1,1,0,1,734,16],
 "classmrmeshpy_1_1RegionBitSet.html#a8055182a404c3ad1a83f003475116f82":[6,1,0,0,2,734,30],
-"classmrmeshpy_1_1RegionBitSet.html#a8055182a404c3ad1a83f003475116f82":[6,1,1,0,1,734,30],
-"classmrmeshpy_1_1RegionBitSet.html#a859c6a6b1edf5d2245373d455cdee147":[6,1,0,0,2,734,0],
-"classmrmeshpy_1_1RegionBitSet.html#a859c6a6b1edf5d2245373d455cdee147":[6,1,1,0,1,734,0]
+"classmrmeshpy_1_1RegionBitSet.html#a8055182a404c3ad1a83f003475116f82":[6,1,1,0,1,734,30]
 };

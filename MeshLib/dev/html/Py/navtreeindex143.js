@@ -1,5 +1,7 @@
 var NAVTREEINDEX143 =
 {
+"classmrmeshpy_1_1std__vector__PointsLoad__NamedCloud.html#ae454630ffd39584a411258a161e0adba":[6,1,0,0,2,911,10],
+"classmrmeshpy_1_1std__vector__PointsLoad__NamedCloud.html#ae454630ffd39584a411258a161e0adba":[6,1,1,0,1,911,10],
 "classmrmeshpy_1_1std__vector__PointsProjectionResult.html":[6,1,0,0,2,912],
 "classmrmeshpy_1_1std__vector__PointsProjectionResult.html":[6,1,1,0,1,912],
 "classmrmeshpy_1_1std__vector__PointsProjectionResult.html#a055ee60216f6cbda963b990726fe11cc":[6,1,0,0,2,912,20],
@@ -247,7 +249,5 @@ var NAVTREEINDEX143 =
 "classmrmeshpy_1_1std__vector__RigidXf3__double.html#ab24b641e1aafe25dbc2f4445ae8f5e9b":[6,1,0,0,2,916,10],
 "classmrmeshpy_1_1std__vector__RigidXf3__double.html#ab24b641e1aafe25dbc2f4445ae8f5e9b":[6,1,1,0,1,916,10],
 "classmrmeshpy_1_1std__vector__RigidXf3__double.html#abaf20edaf985b19e4332d67524fcb10d":[6,1,0,0,2,916,19],
-"classmrmeshpy_1_1std__vector__RigidXf3__double.html#abaf20edaf985b19e4332d67524fcb10d":[6,1,1,0,1,916,19],
-"classmrmeshpy_1_1std__vector__RigidXf3__double.html#acde1688924d80bb60d44a7af45796e38":[6,1,0,0,2,916,16],
-"classmrmeshpy_1_1std__vector__RigidXf3__double.html#acde1688924d80bb60d44a7af45796e38":[6,1,1,0,1,916,16]
+"classmrmeshpy_1_1std__vector__RigidXf3__double.html#abaf20edaf985b19e4332d67524fcb10d":[6,1,1,0,1,916,19]
 };

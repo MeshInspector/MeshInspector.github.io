@@ -1,5 +1,7 @@
 var NAVTREEINDEX13 =
 {
+"MRRenderGLHelpers_8h.html#a44858c7093ecce05e414dad5e83ea270":[6,0,3,0,0,1,11,70,9],
+"MRRenderGLHelpers_8h.html#a6931409b16a2665d35204990c62611b3":[6,0,3,0,0,1,11,70,10],
 "MRRenderGLHelpers_8h.html#a96c0afdf384671d181d6111113d5bf35":[6,0,3,0,0,1,11,70,8],
 "MRRenderGLHelpers_8h.html#ac18f4f5a762acd94219012ec5d66db13":[6,0,3,0,0,1,11,70,11],
 "MRRenderGLHelpers_8h_source.html":[6,0,3,0,0,1,11,70],
@@ -247,7 +249,5 @@ var NAVTREEINDEX13 =
 "MRSelectCurvaturePreference_8h.html#ad7e1f7039c3adef672abd4150bc4786ca766cae017fab4bcc1d1e83fbb9af87c3":[6,0,3,0,0,1,11,105,0,1],
 "MRSelectCurvaturePreference_8h.html#ad7e1f7039c3adef672abd4150bc4786ca81cda646477dd0d1137c68b398ca755c":[6,0,3,0,0,1,11,105,0,0],
 "MRSelectCurvaturePreference_8h.html#ae6a703f529a05e3f2fa59d68fd266627":[6,0,3,0,0,1,11,105,1],
-"MRSelectCurvaturePreference_8h_source.html":[6,0,3,0,0,1,11,105],
-"MRSelectObjectByClick_8h.html":[6,0,3,0,0,1,0,1,0],
-"MRSelectObjectByClick_8h_source.html":[6,0,3,0,0,1,0,1,0]
+"MRSelectCurvaturePreference_8h_source.html":[6,0,3,0,0,1,11,105]
 };

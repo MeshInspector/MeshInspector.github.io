@@ -128,6 +128,7 @@ var MRObject_8h =
     [ "MR_Object_heapBytes", "MRObject_8h.html#a971cbea63dfa43cfba5d850f7d76a3bb", null ],
     [ "MR_Object_isAncestor", "MRObject_8h.html#a252b77e85153f0666c51e5a5a7ad6e96", null ],
     [ "MR_Object_isAncillary", "MRObject_8h.html#a3c2ea6cde1c434210530ceb63f6b0e44", null ],
+    [ "MR_Object_isGlobalAncillary", "MRObject_8h.html#ab97eac133a5391012469685624279031", null ],
     [ "MR_Object_isLocked", "MRObject_8h.html#a78a81fc076cde5350941db7dd9942209", null ],
     [ "MR_Object_isParentLocked", "MRObject_8h.html#ad0e2f2a4b5f7f349b868690b6521b1fd", null ],
     [ "MR_Object_isSelected", "MRObject_8h.html#acab1ad2ac3cdd9f72d2b48014dcc8eb4", null ],

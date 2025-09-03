@@ -1,5 +1,7 @@
 var NAVTREEINDEX77 =
 {
+"classmrmeshpy_1_1SignedDistanceToMeshResult.html":[6,1,0,0,2,770],
+"classmrmeshpy_1_1SignedDistanceToMeshResult.html":[6,1,1,0,1,770],
 "classmrmeshpy_1_1SignedDistanceToMeshResult.html#a00fda33881fb64890d314f21754d9399":[6,1,0,0,2,770,3],
 "classmrmeshpy_1_1SignedDistanceToMeshResult.html#a00fda33881fb64890d314f21754d9399":[6,1,1,0,1,770,3],
 "classmrmeshpy_1_1SignedDistanceToMeshResult.html#a0a11179146060717697064b82c40c3a0":[6,1,0,0,2,770,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX77 =
 "classmrmeshpy_1_1Sphere3f.html#a6c29dd8030787f99192b60f2826cde6e":[6,1,0,0,2,786,4],
 "classmrmeshpy_1_1Sphere3f.html#a6c29dd8030787f99192b60f2826cde6e":[6,1,1,0,1,786,4],
 "classmrmeshpy_1_1Sphere3f.html#a7dc9619a5274657352ca57f86aaaee2a":[6,1,0,0,2,786,1],
-"classmrmeshpy_1_1Sphere3f.html#a7dc9619a5274657352ca57f86aaaee2a":[6,1,1,0,1,786,1],
-"classmrmeshpy_1_1Sphere3f.html#a9908dc9c7543620afaad3f0da1b6ce39":[6,1,0,0,2,786,0],
-"classmrmeshpy_1_1Sphere3f.html#a9908dc9c7543620afaad3f0da1b6ce39":[6,1,1,0,1,786,0]
+"classmrmeshpy_1_1Sphere3f.html#a7dc9619a5274657352ca57f86aaaee2a":[6,1,1,0,1,786,1]
 };

@@ -42,6 +42,7 @@ var classMR_1_1Object =
     [ "heapBytes", "classMR_1_1Object.html#adc5d7c1d86bb8b8afe345a35b7c9a6bc", null ],
     [ "isAncestor", "classMR_1_1Object.html#a7c970b0fa099d812c04978d33c4b624e", null ],
     [ "isAncillary", "classMR_1_1Object.html#a3dcf68a5faec85e8e753e34ab77eb1b9", null ],
+    [ "isGlobalAncillary", "classMR_1_1Object.html#a6590355f391c69c4c0594b51397d4579", null ],
     [ "isLocked", "classMR_1_1Object.html#ad7f9426f9adc37a95648822d1566db77", null ],
     [ "isParentLocked", "classMR_1_1Object.html#ae6f5f78500e8c1342b7f4d7d98b03928", null ],
     [ "isSelected", "classMR_1_1Object.html#a3f649834561a9f246e1d840a0f3080c8", null ],

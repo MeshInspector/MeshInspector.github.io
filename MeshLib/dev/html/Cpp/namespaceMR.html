@@ -4979,8 +4979,8 @@ Functions</h2></td></tr>
 <tr class="separator:afef5d869778f6e470421c5e70529110c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe89e68bb42ac37f29751da1b4f600eb" id="r_abe89e68bb42ac37f29751da1b4f600eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe89e68bb42ac37f29751da1b4f600eb">setDefaultSerializePointsFormat</a> (std::string newFormat)</td></tr>
 <tr class="separator:abe89e68bb42ac37f29751da1b4f600eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e83df3805927f1f6c006f596809d97a" id="r_a8e83df3805927f1f6c006f596809d97a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e83df3805927f1f6c006f596809d97a">objectHasSelectableChildren</a> (const <a class="el" href="classMR_1_1Object.html">MR::Object</a> &amp;object)</td></tr>
-<tr class="separator:a8e83df3805927f1f6c006f596809d97a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7974cb0413a1baab9b74f14a1d14f410" id="r_a7974cb0413a1baab9b74f14a1d14f410"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7974cb0413a1baab9b74f14a1d14f410">objectHasSelectableChildren</a> (const <a class="el" href="classMR_1_1Object.html">MR::Object</a> &amp;object, bool recurse=false)</td></tr>
+<tr class="separator:a7974cb0413a1baab9b74f14a1d14f410"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa5186cb23f32bc2d4c503ccec9da5319" id="r_aa5186cb23f32bc2d4c503ccec9da5319"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa5186cb23f32bc2d4c503ccec9da5319">serializeObjectTree</a> (const <a class="el" href="classMR_1_1Object.html">Object</a> &amp;object, const std::filesystem::path &amp;path, <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> progress, <a class="el" href="#a3f12c695d99ddb646e5d824fa7257413">FolderCallback</a> preCompress)</td></tr>
 <tr class="memdesc:aa5186cb23f32bc2d4c503ccec9da5319"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves object subtree in given scene file (zip/mru)  <br /></td></tr>
 <tr class="separator:aa5186cb23f32bc2d4c503ccec9da5319"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -30724,8 +30724,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a8e83df3805927f1f6c006f596809d97a" name="a8e83df3805927f1f6c006f596809d97a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e83df3805927f1f6c006f596809d97a">&#9670;&#160;</a></span>objectHasSelectableChildren()</h2>
+<a id="a7974cb0413a1baab9b74f14a1d14f410" name="a7974cb0413a1baab9b74f14a1d14f410"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7974cb0413a1baab9b74f14a1d14f410">&#9670;&#160;</a></span>objectHasSelectableChildren()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -30736,8 +30736,12 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="memname">bool MR::objectHasSelectableChildren </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1Object.html">MR::Object</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1Object.html">MR::Object</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>object</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>recurse</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -30746,6 +30750,12 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>returns whether the object has selectable children </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">recurse</td><td>- if true, look up for selectable children at any depth </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
