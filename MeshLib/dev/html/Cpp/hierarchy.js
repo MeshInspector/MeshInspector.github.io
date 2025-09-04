@@ -1263,6 +1263,7 @@ var hierarchy =
     [ "MR::ImGuiMeasurementIndicators::TextColor", "structMR_1_1ImGuiMeasurementIndicators_1_1TextColor.html", null ],
     [ "MR::ImGuiMeasurementIndicators::TextFont", "structMR_1_1ImGuiMeasurementIndicators_1_1TextFont.html", null ],
     [ "MR::Tgt2SrcMaps", "classMR_1_1Tgt2SrcMaps.html", null ],
+    [ "MR::ThickenParams", "structMR_1_1ThickenParams.html", null ],
     [ "MR::Timer", "classMR_1_1Timer.html", null ],
     [ "MR::RenderDimensions::LengthParams::Tolerance", "structMR_1_1RenderDimensions_1_1LengthParams_1_1Tolerance.html", null ],
     [ "MR::Toolbar", "classMR_1_1Toolbar.html", null ],

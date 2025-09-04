@@ -905,6 +905,7 @@ var annotated_dup =
       [ "TerminalVertex", "structMR_1_1TerminalVertex.html", "structMR_1_1TerminalVertex" ],
       [ "TextMeshAlignParams", "structMR_1_1TextMeshAlignParams.html", "structMR_1_1TextMeshAlignParams" ],
       [ "Tgt2SrcMaps", "classMR_1_1Tgt2SrcMaps.html", "classMR_1_1Tgt2SrcMaps" ],
+      [ "ThickenParams", "structMR_1_1ThickenParams.html", "structMR_1_1ThickenParams" ],
       [ "ThreadRootTimeRecord", "structMR_1_1ThreadRootTimeRecord.html", "structMR_1_1ThreadRootTimeRecord" ],
       [ "TiffParameters", "structMR_1_1TiffParameters.html", "structMR_1_1TiffParameters" ],
       [ "Timer", "classMR_1_1Timer.html", "classMR_1_1Timer" ],

@@ -1798,6 +1798,8 @@ Structure has some options to control <a class="el" href="group__FillHoleGroup.h
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Tgt2SrcMaps.html">Tgt2SrcMaps</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">use this adapter to call functions expecting <a class="el" href="structMR_1_1PartMapping.html" title="mapping among elements of source mesh, from which a part is taken, and target mesh">PartMapping</a> parameter to receive tgt2src dense maps  <a href="classMR_1_1Tgt2SrcMaps.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ThickenParams.html">ThickenParams</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ThreadRootTimeRecord.html">ThreadRootTimeRecord</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1TiffParameters.html">TiffParameters</a></td></tr>
@@ -5002,8 +5004,8 @@ Functions</h2></td></tr>
 <tr class="separator:aade58963fb6a70bd69db550185bd5af7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab541c8fc31d1c7ee3daa4d9f935ffc33" id="r_ab541c8fc31d1c7ee3daa4d9f935ffc33"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab541c8fc31d1c7ee3daa4d9f935ffc33">offsetVerts</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="#a036c60a88f141a437ffed0bc572fce6d">VertMetric</a> &amp;offset, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;cb={})</td></tr>
 <tr class="separator:ab541c8fc31d1c7ee3daa4d9f935ffc33"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab74f6dd4c38dea94bc304b93fa123ba" id="r_aab74f6dd4c38dea94bc304b93fa123ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab74f6dd4c38dea94bc304b93fa123ba">makeThickMesh</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;m, float halfWidth)</td></tr>
-<tr class="separator:aab74f6dd4c38dea94bc304b93fa123ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a676dff9eff2ba59b0e881d73f18900fe" id="r_a676dff9eff2ba59b0e881d73f18900fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a676dff9eff2ba59b0e881d73f18900fe">makeThickMesh</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;m, const <a class="el" href="structMR_1_1ThickenParams.html">ThickenParams</a> &amp;params)</td></tr>
+<tr class="separator:a676dff9eff2ba59b0e881d73f18900fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4123fa411b7305bb9172a398b8cc3c51" id="r_a4123fa411b7305bb9172a398b8cc3c51"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4123fa411b7305bb9172a398b8cc3c51">subdivideLoneContours</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="group__BooleanGroup.html#ga9ecf19b8a704c505e8026abe7e64e38a">OneMeshContours</a> &amp;contours, <a class="el" href="#a93482f559c684be16c718d5acd291d3e">FaceHashMap</a> *new2oldMap=nullptr)</td></tr>
 <tr class="separator:a4123fa411b7305bb9172a398b8cc3c51"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae38923b09ce82880669f4d008f0ee4d2" id="r_ae38923b09ce82880669f4d008f0ee4d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae38923b09ce82880669f4d008f0ee4d2">getOneMeshIntersectionContours</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;meshA, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;meshB, const <a class="el" href="#a9f26ad2470dbd62255be7fc1cab2b503">ContinuousContours</a> &amp;contours, <a class="el" href="group__BooleanGroup.html#ga9ecf19b8a704c505e8026abe7e64e38a">OneMeshContours</a> *outA, <a class="el" href="group__BooleanGroup.html#ga9ecf19b8a704c505e8026abe7e64e38a">OneMeshContours</a> *outB, const <a class="el" href="structMR_1_1CoordinateConverters.html">CoordinateConverters</a> &amp;converters, const AffineXf3f *rigidB2A=nullptr, <a class="el" href="#a4c444df98a6ef4e28be3eaab462d38a1">Contours3f</a> *outPtsA=nullptr, bool addSelfyTerminalVerts=false)</td></tr>
@@ -27902,8 +27904,8 @@ template&lt;typename RenderObjType &gt; </div>
 
 </div>
 </div>
-<a id="aab74f6dd4c38dea94bc304b93fa123ba" name="aab74f6dd4c38dea94bc304b93fa123ba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aab74f6dd4c38dea94bc304b93fa123ba">&#9670;&#160;</a></span>makeThickMesh()</h2>
+<a id="a676dff9eff2ba59b0e881d73f18900fe" name="a676dff9eff2ba59b0e881d73f18900fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a676dff9eff2ba59b0e881d73f18900fe">&#9670;&#160;</a></span>makeThickMesh()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -27916,11 +27918,11 @@ template&lt;typename RenderObjType &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>halfWidth</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1ThickenParams.html">ThickenParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>given a mesh <code>m</code>, representing a surface, creates new closed mesh by cloning mirrored mesh, and shifting original part and cloned part in different direction on <code>halfWidth</code> each, if original mesh was open then stitches corresponding boundaries of two parts </p>
+<p>given a mesh <code>m</code>, representing a surface, creates new closed mesh by cloning mirrored mesh, and shifting original part and cloned part in different directions according to <code>params</code>, if original mesh was open then stitches corresponding boundaries of two parts </p>
 
 </div>
 </div>

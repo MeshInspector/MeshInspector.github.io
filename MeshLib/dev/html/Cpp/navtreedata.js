@@ -198,8 +198,8 @@ var NAVTREEINDEX =
 "namespaceMR.html#a0644533afbeab941be3a4178a8feb4fe",
 "namespaceMR.html#a27ab0aa461b99e7829305e508180f40c",
 "namespaceMR.html#a58525252a9ee9abb57d352127584531fa68be4837f6c739877233e527a996dd00",
-"namespaceMR.html#a81f6f33a8bc09d719c3ccbc1141aea10",
-"namespaceMR.html#aa967680d27bd6d7fc8a2c64f856ec1aa",
+"namespaceMR.html#a81804b582b588b4a894660b307a92cc2",
+"namespaceMR.html#aa946ebaaa62a242f328d53fab37011d0",
 "namespaceMR.html#acc1d104ed2e275977cf878d68073c9b2",
 "namespaceMR.html#af91e57bae7626f4e18c5bc1726ab2581",
 "namespaceMR_1_1PointsLoad.html#ad5e9f8e6672cc948a2e5206a91b2b261",
@@ -227,11 +227,11 @@ var NAVTREEINDEX =
 "structMR_1_1RibbonMenuUIConfig.html#ad18443e86e7f3e8dee09d47d835657d6",
 "structMR_1_1SelfIntersections_1_1Settings.html#a89959b4882d33598d9220db080145bc5a1d46b2d08baa4710a1c2e888868287f7",
 "structMR_1_1SubdivideSettings.html#a55b830f7823b4a74b6891945bafa12a5",
-"structMR_1_1ToolPathParams.html#aa71afd75559878444cd6f66becaed0c4",
-"structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#ae5bad17915c09a1143471d69b34a3436",
-"structMR_1_1UI_1_1TestEngine_1_1detail_1_1BoundedValue.html#a6d87be1e6ad27cb40fc167743a714714",
-"structMR_1_1Vector4.html#a40d27756dd3dd012e19e847137c16532",
-"structMR_1_1VoxelsLoad_1_1RawParameters.html#ab1db96ec60477ec788bfe5aeb3596da2"
+"structMR_1_1ToolPathParams.html#a58e0e695e11b0b6bd4c0ce7ecd0b0889",
+"structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#a5c3e6b9bc3389cb66a4ecf6adb3f6091",
+"structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_3_01T_01_4.html#a75052a15d9676e842bbd866aa32fa037",
+"structMR_1_1Vector4.html#a2430707dabdc5933eb1c27e622a73c04",
+"structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html#a39c8477a2a590bcaef5179d861b7f1de"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

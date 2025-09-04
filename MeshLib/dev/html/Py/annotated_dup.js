@@ -1026,6 +1026,7 @@ var annotated_dup =
       [ "TextureId", "classmrmeshpy_1_1TextureId.html", "classmrmeshpy_1_1TextureId" ],
       [ "TexturePerFace", "classmrmeshpy_1_1TexturePerFace.html", "classmrmeshpy_1_1TexturePerFace" ],
       [ "Tgt2SrcMaps", "classmrmeshpy_1_1Tgt2SrcMaps.html", "classmrmeshpy_1_1Tgt2SrcMaps" ],
+      [ "ThickenParams", "classmrmeshpy_1_1ThickenParams.html", "classmrmeshpy_1_1ThickenParams" ],
       [ "TiffParameters", "classmrmeshpy_1_1TiffParameters.html", "classmrmeshpy_1_1TiffParameters" ],
       [ "ToolPathParams", "classmrmeshpy_1_1ToolPathParams.html", "classmrmeshpy_1_1ToolPathParams" ],
       [ "ToolPathResult", "classmrmeshpy_1_1ToolPathResult.html", "classmrmeshpy_1_1ToolPathResult" ],
