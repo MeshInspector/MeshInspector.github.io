@@ -221,17 +221,17 @@ var NAVTREEINDEX =
 "structMR_1_1MinMaxArg.html#aecc5a502b2649c84a49a95f5429ba1cd",
 "structMR_1_1NotificationTags.html#afb89f8ecc2e2d580f7447ab6d7fb0bf7a4425e9774bb85a89fd5f3ef9868071a3",
 "structMR_1_1PackMapping.html",
-"structMR_1_1PlanarTriangulation_1_1IntersectionsMap.html#a9e57510cc8b745dcfbbf6e04c6fba846",
-"structMR_1_1Polyline.html#a850c5acb1d7b21b7652c8b44f7e53965",
-"structMR_1_1QuadraticForm.html#aa22182ab842edbfd36369edae2063b3c",
-"structMR_1_1RibbonMenuUIConfig.html#ad18443e86e7f3e8dee09d47d835657d6",
-"structMR_1_1SelfIntersections_1_1Settings.html#a89959b4882d33598d9220db080145bc5a1d46b2d08baa4710a1c2e888868287f7",
-"structMR_1_1SubdivideSettings.html#a55b830f7823b4a74b6891945bafa12a5",
-"structMR_1_1ToolPathParams.html#a58e0e695e11b0b6bd4c0ce7ecd0b0889",
-"structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#a5c3e6b9bc3389cb66a4ecf6adb3f6091",
-"structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_3_01T_01_4.html#a75052a15d9676e842bbd866aa32fa037",
-"structMR_1_1Vector4.html#a2430707dabdc5933eb1c27e622a73c04",
-"structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html#a39c8477a2a590bcaef5179d861b7f1de"
+"structMR_1_1PickPointManager_1_1Params.html#af54f28c00b155e235b24194892d305e2",
+"structMR_1_1PointsToMeshParameters.html#a3b8a586729f91eac7c41aea0f4e22e06",
+"structMR_1_1ProgressInterrupter.html",
+"structMR_1_1RibbonConfig.html",
+"structMR_1_1SegmEndColors.html",
+"structMR_1_1SphereParams.html",
+"structMR_1_1TiffParameters.html#a7e4daa97486cdcdbe24a7e3a607ae1ab",
+"structMR_1_1TriMesh.html#a1063845cc2871f7dcae178304213db81",
+"structMR_1_1UI_1_1TestEngine_1_1Entry.html#af1c045de66225bb1643e95fe69e9c370",
+"structMR_1_1Vector3.html#a8d2060921c3ecd7d080f93c50e1bec51",
+"structMR_1_1VoxelTraits_3_01VoxelBitSet_01_4.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
