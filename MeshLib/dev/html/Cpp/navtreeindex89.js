@@ -1,5 +1,6 @@
 var NAVTREEINDEX89 =
 {
+"structMR_1_1SegmEndColors.html":[6,0,1,0,1,661],
 "structMR_1_1SegmEndColors.html":[6,0,2,0,1,644],
 "structMR_1_1SegmEndColors.html#a074d144106e966fd84ea6ac76b9a172b":[6,0,1,0,1,661,0],
 "structMR_1_1SegmEndColors.html#a074d144106e966fd84ea6ac76b9a172b":[6,0,2,0,1,644,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX89 =
 "structMR_1_1Sphere.html#ab3dcbfdadbd1e9018e22a979ea25c6f9":[6,0,0,0,23,0],
 "structMR_1_1Sphere.html#ac6fe7dcb9fbe192141cde72e7f9a3551":[6,0,0,0,23,5],
 "structMR_1_1Sphere.html#ac761a3c59ab76b111bb301d71558d5a7":[6,0,0,0,23,8],
-"structMR_1_1Sphere.html#ac91793706fe6273028dbecc98e540b1b":[6,0,0,0,23,9],
-"structMR_1_1Sphere.html#add65b61b54645bbb73e26a98f44d9c12":[6,0,0,0,23,2]
+"structMR_1_1Sphere.html#ac91793706fe6273028dbecc98e540b1b":[6,0,0,0,23,9]
 };

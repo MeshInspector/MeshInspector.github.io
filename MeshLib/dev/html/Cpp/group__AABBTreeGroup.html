@@ -754,9 +754,9 @@ template&lt;typename V &gt; </div>
 </div><div class="memdoc">
 <p>this callback is invoked for every triangle in range, where </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">p</td><td>closest point on original triangle </td></tr>
+    <tr><td class="paramname">p</td><td>closest point on original triangle (if distSq == 0 then it is random point on original triangle, see TriDist comment) </td></tr>
     <tr><td class="paramname">f</td><td>triangle id in question </td></tr>
-    <tr><td class="paramname">q</td><td>closest point on f-triangle </td></tr>
+    <tr><td class="paramname">q</td><td>closest point on f-triangle (if distSq == 0 then it is random point on f-triangle, see TriDist comment) </td></tr>
     <tr><td class="paramname">distSq</td><td>squared distance in between p and q </td></tr>
   </table>
   </dd>

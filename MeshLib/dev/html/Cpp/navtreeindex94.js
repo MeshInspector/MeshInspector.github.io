@@ -1,5 +1,6 @@
 var NAVTREEINDEX94 =
 {
+"structMR_1_1Vector3.html#a8b863a75d888921eb316d0faf64e45b7":[6,0,0,0,12,1,9],
 "structMR_1_1Vector3.html#a8d2060921c3ecd7d080f93c50e1bec51":[6,0,0,0,12,1,4],
 "structMR_1_1Vector3.html#a8ecb748650561c957b8b73afd24288cb":[6,0,0,0,12,1,2],
 "structMR_1_1Vector3.html#a91b0398c10d527ac2433b92451a3dfb8":[6,0,0,0,12,1,12],
@@ -248,6 +249,5 @@ var NAVTREEINDEX94 =
 "structMR_1_1VoxelTraits_3_01Vector_3_01T_00_01VoxelId_01_4_01_4.html":[6,0,1,0,1,825],
 "structMR_1_1VoxelTraits_3_01Vector_3_01T_00_01VoxelId_01_4_01_4.html":[6,0,2,0,1,808],
 "structMR_1_1VoxelTraits_3_01Vector_3_01T_00_01VoxelId_01_4_01_4.html#a7341252fb0ef6adbe45ec631f515ed7e":[6,0,1,0,1,825,0],
-"structMR_1_1VoxelTraits_3_01Vector_3_01T_00_01VoxelId_01_4_01_4.html#a7341252fb0ef6adbe45ec631f515ed7e":[6,0,2,0,1,808,0],
-"structMR_1_1VoxelTraits_3_01VoxelBitSet_01_4.html":[6,0,1,0,1,826]
+"structMR_1_1VoxelTraits_3_01Vector_3_01T_00_01VoxelId_01_4_01_4.html#a7341252fb0ef6adbe45ec631f515ed7e":[6,0,2,0,1,808,0]
 };

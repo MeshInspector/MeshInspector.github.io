@@ -2210,6 +2210,7 @@ var namespaceMR =
     [ "findTriangleSectionsByXYPlane", "namespaceMR.html#adbf7de5ff23bc53757bf54ee9d85acfa", null ],
     [ "findTriangleSegmentIntersection", "group__TriangleIntersectionGroup.html#gabd389cf6a5e3a2723def05e2d19fac73", null ],
     [ "findTriangleSegmentIntersectionPrecise", "namespaceMR.html#a6f4d593d1b9ff1f262a583bf72f384f8", null ],
+    [ "findTriangleTriangleIntersection", "group__TriangleIntersectionGroup.html#ga07dcacdb0aa89291cef5c6fa101029a0", null ],
     [ "findTriExitPos", "namespaceMR.html#a50ad07fcc0f878c660e360bb5e342d0a", null ],
     [ "findTripleFaceIntersections", "namespaceMR.html#a968e503140f4eea930b1c7c63a2777e1", null ],
     [ "findTrisInBall", "group__AABBTreeGroup.html#ga354aa28c5105859923d024949d724b5f", null ],

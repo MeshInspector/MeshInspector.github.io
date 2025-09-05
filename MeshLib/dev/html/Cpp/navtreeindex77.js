@@ -1,5 +1,6 @@
 var NAVTREEINDEX77 =
 {
+"structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a1de83d675e9cc8f326bca68a76eb52c3":[6,0,2,0,1,6,4,1],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a21883ccd688b28487ed257c67162946e":[6,0,1,0,1,15,4,2],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a21883ccd688b28487ed257c67162946e":[6,0,2,0,1,6,4,2],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html#a3c33808729b011c55c757f4aec823465":[6,0,1,0,1,15,4,19],
@@ -248,6 +249,5 @@ var NAVTREEINDEX77 =
 "structMR_1_1IntrinsicDeloneSettings.html":[6,0,0,9,1,0],
 "structMR_1_1IntrinsicDeloneSettings.html#a5985046a04f74cccc9f62e82968a5671":[6,0,0,9,1,0,2],
 "structMR_1_1IntrinsicDeloneSettings.html#a5fe9566d6f97f752f0d434d75a04ea53":[6,0,0,9,1,0,1],
-"structMR_1_1IntrinsicDeloneSettings.html#a826d54dbfadee964e4e8d815e3aeda22":[6,0,0,9,1,0,0],
-"structMR_1_1IntrinsicDeloneSettings.html#a8fed3ef49b5eeb2b4c7df0c84bbfad79":[6,0,0,9,1,0,3]
+"structMR_1_1IntrinsicDeloneSettings.html#a826d54dbfadee964e4e8d815e3aeda22":[6,0,0,9,1,0,0]
 };

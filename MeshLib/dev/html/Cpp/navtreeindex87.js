@@ -1,5 +1,6 @@
 var NAVTREEINDEX87 =
 {
+"structMR_1_1PreciseVertCoords2.html#a6ffb69d89938c4fc7d7cf12857c89f25":[6,0,2,0,1,541,0],
 "structMR_1_1ProgressInterrupter.html":[6,0,1,0,1,562],
 "structMR_1_1ProgressInterrupter.html":[6,0,2,0,1,545],
 "structMR_1_1ProgressInterrupter.html#a448f23c735ae1b223b8b928ff4a2deb3":[6,0,1,0,1,562,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX87 =
 "structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html":[6,0,2,0,1,586,0],
 "structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html#a4a178e6ea3323a12fdb7394b7f89cd71":[6,0,1,0,1,603,0,1],
 "structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html#a4a178e6ea3323a12fdb7394b7f89cd71":[6,0,2,0,1,586,0,1],
-"structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html#a9048532b67f8ae6a79ec42cf2a196ddf":[6,0,1,0,1,603,0,0],
-"structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html#a9048532b67f8ae6a79ec42cf2a196ddf":[6,0,2,0,1,586,0,0]
+"structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html#a9048532b67f8ae6a79ec42cf2a196ddf":[6,0,1,0,1,603,0,0]
 };

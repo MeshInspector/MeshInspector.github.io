@@ -11,6 +11,7 @@ var group__TriangleIntersectionGroup =
     [ "MR::doTrianglesIntersect", "group__TriangleIntersectionGroup.html#ga356b1104c8bddd98afba39fcbe5ee803", null ],
     [ "MR::doTrianglesIntersectExt", "group__TriangleIntersectionGroup.html#gad2f32d1f571dde6434e36df0a4357290", null ],
     [ "MR::findTriangleSegmentIntersection", "group__TriangleIntersectionGroup.html#gabd389cf6a5e3a2723def05e2d19fac73", null ],
+    [ "MR::findTriangleTriangleIntersection", "group__TriangleIntersectionGroup.html#ga07dcacdb0aa89291cef5c6fa101029a0", null ],
     [ "MR::isPointInPlane", "group__TriangleIntersectionGroup.html#ga12874ed96dd226c86c9f430e0845eae8", null ],
     [ "MR::isPointInTriangle", "group__TriangleIntersectionGroup.html#ga746d797c724c3644c060dec600b7a05a", null ],
     [ "MR::rayTriangleIntersect", "group__TriangleIntersectionGroup.html#ga00441b942b256034993915378272cc37", null ],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX90 =
 {
+"structMR_1_1Sphere.html#add65b61b54645bbb73e26a98f44d9c12":[6,0,0,0,23,2],
 "structMR_1_1SphereParams.html":[6,0,1,0,1,699],
 "structMR_1_1SphereParams.html":[6,0,2,0,1,682],
 "structMR_1_1SphereParams.html#a6e99b625718037bc438cd04e6865ac95":[6,0,1,0,1,699,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX90 =
 "structMR_1_1TiffParameters.html":[6,0,2,0,1,709],
 "structMR_1_1TiffParameters.html#a0f390427adc09ea9947004b14be21cf0":[6,0,1,0,1,726,4],
 "structMR_1_1TiffParameters.html#a0f390427adc09ea9947004b14be21cf0":[6,0,2,0,1,709,4],
-"structMR_1_1TiffParameters.html#a67cf9b6f020900773f185c934f3ade7c":[6,0,1,0,1,726,0],
-"structMR_1_1TiffParameters.html#a67cf9b6f020900773f185c934f3ade7c":[6,0,2,0,1,709,0]
+"structMR_1_1TiffParameters.html#a67cf9b6f020900773f185c934f3ade7c":[6,0,1,0,1,726,0]
 };

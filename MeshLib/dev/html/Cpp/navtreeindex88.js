@@ -1,5 +1,6 @@
 var NAVTREEINDEX88 =
 {
+"structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html#a9048532b67f8ae6a79ec42cf2a196ddf":[6,0,2,0,1,586,0,0],
 "structMR_1_1RibbonConfig.html":[6,0,1,0,1,604],
 "structMR_1_1RibbonConfig.html":[6,0,2,0,1,587],
 "structMR_1_1RibbonConfig.html#a5002834cd308d2eeda7cc7f532840f8a":[6,0,1,0,1,604,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX88 =
 "structMR_1_1SearchPathSettings.html#a73e36cb0460a39c6bf496d2038aced39":[6,0,1,0,1,660,0],
 "structMR_1_1SearchPathSettings.html#a73e36cb0460a39c6bf496d2038aced39":[6,0,2,0,1,643,0],
 "structMR_1_1SearchPathSettings.html#aa176e79c6812cb52b0c1dabdaa2e61c3":[6,0,1,0,1,660,1],
-"structMR_1_1SearchPathSettings.html#aa176e79c6812cb52b0c1dabdaa2e61c3":[6,0,2,0,1,643,1],
-"structMR_1_1SegmEndColors.html":[6,0,1,0,1,661]
+"structMR_1_1SearchPathSettings.html#aa176e79c6812cb52b0c1dabdaa2e61c3":[6,0,2,0,1,643,1]
 };

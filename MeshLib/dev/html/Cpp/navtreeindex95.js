@@ -1,5 +1,6 @@
 var NAVTREEINDEX95 =
 {
+"structMR_1_1VoxelTraits_3_01VoxelBitSet_01_4.html":[6,0,1,0,1,826],
 "structMR_1_1VoxelTraits_3_01VoxelBitSet_01_4.html":[6,0,2,0,1,809],
 "structMR_1_1VoxelTraits_3_01VoxelBitSet_01_4.html#a42a0fdf34759e79614a0d42502ed844d":[6,0,1,0,1,826,0],
 "structMR_1_1VoxelTraits_3_01VoxelBitSet_01_4.html#a42a0fdf34759e79614a0d42502ed844d":[6,0,2,0,1,809,0],
