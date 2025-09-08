@@ -5,7 +5,6 @@ var classmrmeshpy_1_1DistanceMeasurementObject =
     [ "className", "classmrmeshpy_1_1DistanceMeasurementObject.html#afbc5a5cee57fe29a38e4539dbc2e09ae", null ],
     [ "classNameInPlural", "classmrmeshpy_1_1DistanceMeasurementObject.html#a340518798b1921d0d1e8b6f9de553317", null ],
     [ "clone", "classmrmeshpy_1_1DistanceMeasurementObject.html#af34f9bc6a9200561e8f68cddd725835c", null ],
-    [ "comparisonToleranceMakesSenseNow", "classmrmeshpy_1_1DistanceMeasurementObject.html#a9dd64ccfeb0f1002cdec57d4f288e7e8", null ],
     [ "computeComparableProperty", "classmrmeshpy_1_1DistanceMeasurementObject.html#a6dcb181c1b89d289851ba83a78f1dfe8", null ],
     [ "computeDistance", "classmrmeshpy_1_1DistanceMeasurementObject.html#accbd47e4d43f7c83b6660407e216f061", null ],
     [ "getComparablePropertyName", "classmrmeshpy_1_1DistanceMeasurementObject.html#aa27b089776bfb619ffe43a2d4b29bf9b", null ],

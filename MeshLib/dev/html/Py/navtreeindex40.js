@@ -1,7 +1,5 @@
 var NAVTREEINDEX40 =
 {
-"classmrmeshpy_1_1LinesLoadSettings.html#afbb5adb5913e5b13963bd03fda6a22e0":[6,1,0,0,2,431,2],
-"classmrmeshpy_1_1LinesLoadSettings.html#afbb5adb5913e5b13963bd03fda6a22e0":[6,1,1,0,1,431,2],
 "classmrmeshpy_1_1LinesSave.html":[6,1,0,0,2,432],
 "classmrmeshpy_1_1LinesSave.html":[6,1,1,0,1,432],
 "classmrmeshpy_1_1LinesVisualizePropertyType.html":[6,1,0,0,2,433],
@@ -249,5 +247,7 @@ var NAVTREEINDEX40 =
 "classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId.html#a7836c0db21f92b3cbb91ee08fd9c1d6d":[6,1,0,0,2,445,10],
 "classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId.html#a7836c0db21f92b3cbb91ee08fd9c1d6d":[6,1,1,0,1,445,10],
 "classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId.html#a822e0dbea9d5614fb9dab4f00d95ca4a":[6,1,0,0,2,445,13],
-"classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId.html#a822e0dbea9d5614fb9dab4f00d95ca4a":[6,1,1,0,1,445,13]
+"classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId.html#a822e0dbea9d5614fb9dab4f00d95ca4a":[6,1,1,0,1,445,13],
+"classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId.html#a87f8ee29a1b02706429560b58204e9e4":[6,1,0,0,2,445,6],
+"classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId.html#a87f8ee29a1b02706429560b58204e9e4":[6,1,0,0,2,445,7]
 };

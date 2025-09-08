@@ -1,13 +1,5 @@
 var NAVTREEINDEX66 =
 {
-"namespaceMR_1_1PlanarTriangulation.html#a3638a79ba38f8621fd9eb80783cb14be":[6,0,1,0,1,26,9],
-"namespaceMR_1_1PlanarTriangulation.html#a3a4d8b0d7301b69cd93de010d000bbcc":[6,0,1,0,1,26,14],
-"namespaceMR_1_1PlanarTriangulation.html#a41b088a697624ae295c7b3a7b137bca9":[6,0,1,0,1,26,8],
-"namespaceMR_1_1PlanarTriangulation.html#a41b088a697624ae295c7b3a7b137bca9a3289297424e01eda5b788c083bbf3147":[6,0,1,0,1,26,8,1],
-"namespaceMR_1_1PlanarTriangulation.html#a41b088a697624ae295c7b3a7b137bca9a3d0365a27a39c0af183445fc4d932a8a":[6,0,1,0,1,26,8,0],
-"namespaceMR_1_1PlanarTriangulation.html#a41b088a697624ae295c7b3a7b137bca9affb9356ff2b7da85c75c92fa7ea03b8b":[6,0,1,0,1,26,8,2],
-"namespaceMR_1_1PlanarTriangulation.html#a4ea76a89e8c8fb95eb68d7497122271b":[6,0,1,0,1,26,7],
-"namespaceMR_1_1PlanarTriangulation.html#a83cb3ae007112f97a7019d02c16c2201":[6,0,1,0,1,26,13],
 "namespaceMR_1_1PlanarTriangulation.html#aaae55b5f79adbd80cfe0f6f147069953":[6,0,1,0,1,26,10],
 "namespaceMR_1_1PlanarTriangulation.html#ad078fde77ddac53c2c051b56888617e1":[6,0,1,0,1,26,17],
 "namespaceMR_1_1PlanarTriangulation.html#adeb4ce509fc66338b9d870c64aefde19":[6,0,1,0,1,26,15],
@@ -249,5 +241,13 @@ var NAVTREEINDEX66 =
 "namespaceMR_1_1VoxelsLoad.html#a80f9d3c0df6c7033f2ea958de6f8a1d1":[6,0,1,0,1,43,29],
 "namespaceMR_1_1VoxelsLoad.html#a97daff0d663d2d21303f92b32c475f1d":[6,0,1,0,1,43,25],
 "namespaceMR_1_1VoxelsLoad.html#a9edb1f3f1374143d0d7b53bc7afefeb6":[6,0,1,0,1,43,26],
-"namespaceMR_1_1VoxelsLoad.html#ab74657867c56c855737e8a2dbc5eb1b1":[6,0,1,0,1,43,27]
+"namespaceMR_1_1VoxelsLoad.html#ab74657867c56c855737e8a2dbc5eb1b1":[6,0,1,0,1,43,27],
+"namespaceMR_1_1VoxelsLoad.html#ac95950f875729ac15c011d99d4624d96":[6,0,1,0,1,43,4],
+"namespaceMR_1_1VoxelsLoad.html#acba52d9e4446ab4729498866d500d5c9":[6,0,1,0,1,43,23],
+"namespaceMR_1_1VoxelsLoad.html#ad79032cc6ef1a0e389097a70c1000de3":[6,0,1,0,1,43,31],
+"namespaceMR_1_1VoxelsLoad.html#adbcdf154c89bce3f54684092bcc3f76e":[6,0,1,0,1,43,24],
+"namespaceMR_1_1VoxelsLoad.html#adf1cf75d42be383bb66a5e1f952b2cd1":[6,0,1,0,1,43,30],
+"namespaceMR_1_1VoxelsSave.html":[6,0,1,0,1,44],
+"namespaceMR_1_1VoxelsSave.html#a06de9ebb71a997d3eec5251dc2a1c1e8":[6,0,1,0,1,44,11],
+"namespaceMR_1_1VoxelsSave.html#a0f83445b39c9bf24c4f50d6fe1f4cfe8":[6,0,1,0,1,44,12]
 };

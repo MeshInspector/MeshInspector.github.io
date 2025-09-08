@@ -1,11 +1,5 @@
 var NAVTREEINDEX60 =
 {
-"classmrmeshpy_1_1ObjectPoints.html#aa541cb0ec3835b6b9f275bedfee1f6fa":[6,1,0,0,2,584,2],
-"classmrmeshpy_1_1ObjectPoints.html#aa541cb0ec3835b6b9f275bedfee1f6fa":[6,1,1,0,1,584,2],
-"classmrmeshpy_1_1ObjectPoints.html#ab9a9accd26baec9f1879494e6db5cb07":[6,1,0,0,2,584,7],
-"classmrmeshpy_1_1ObjectPoints.html#ab9a9accd26baec9f1879494e6db5cb07":[6,1,1,0,1,584,7],
-"classmrmeshpy_1_1ObjectPoints.html#abaa72dcdff8aa2b06e48be6e78ac3595":[6,1,0,0,2,584,3],
-"classmrmeshpy_1_1ObjectPoints.html#abaa72dcdff8aa2b06e48be6e78ac3595":[6,1,1,0,1,584,3],
 "classmrmeshpy_1_1ObjectPoints.html#aca0e567da7793cca38cf5869e0d24762":[6,1,0,0,2,584,11],
 "classmrmeshpy_1_1ObjectPoints.html#aca0e567da7793cca38cf5869e0d24762":[6,1,1,0,1,584,11],
 "classmrmeshpy_1_1ObjectPointsHolder.html":[6,1,0,0,2,585],
@@ -249,5 +243,11 @@ var NAVTREEINDEX60 =
 "classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams.html#a40bfed2ce7243a53dd40c3b719f3d6bb":[6,1,0,0,2,589,0,3],
 "classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams.html#a40bfed2ce7243a53dd40c3b719f3d6bb":[6,1,1,0,1,589,0,3],
 "classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams.html#a6a1e521e43e7ef8afb64ec5587452dd3":[6,1,0,0,2,589,0,10],
-"classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams.html#a6a1e521e43e7ef8afb64ec5587452dd3":[6,1,1,0,1,589,0,10]
+"classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams.html#a6a1e521e43e7ef8afb64ec5587452dd3":[6,1,1,0,1,589,0,10],
+"classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams.html#a84d219c0f39f03271739ef930d53a7da":[6,1,0,0,2,589,0,5],
+"classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams.html#a84d219c0f39f03271739ef930d53a7da":[6,1,1,0,1,589,0,5],
+"classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams.html#a87dcfe1c29f80ebb0a88d59acec26c71":[6,1,0,0,2,589,0,12],
+"classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams.html#a87dcfe1c29f80ebb0a88d59acec26c71":[6,1,1,0,1,589,0,12],
+"classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams.html#a929f2653756d4c2eb6c6fdf8a986fb49":[6,1,0,0,2,589,0,11],
+"classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams.html#a929f2653756d4c2eb6c6fdf8a986fb49":[6,1,1,0,1,589,0,11]
 };

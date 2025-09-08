@@ -1,13 +1,5 @@
 var NAVTREEINDEX72 =
 {
-"structMR_1_1DeloneSettings.html#ac1d8b0d536be2f423ac9a2d1b2bce7d2":[6,0,2,0,1,164,0],
-"structMR_1_1DeloneSettings.html#acc54a4a2c29214632bccda65b6e0cba0":[6,0,1,0,1,181,2],
-"structMR_1_1DeloneSettings.html#acc54a4a2c29214632bccda65b6e0cba0":[6,0,2,0,1,164,2],
-"structMR_1_1DenoiseViaNormalsSettings.html":[6,0,1,0,1,183],
-"structMR_1_1DenoiseViaNormalsSettings.html":[6,0,2,0,1,166],
-"structMR_1_1DenoiseViaNormalsSettings.html#a0020d91ac083f2d70a466e4f209e12b9":[6,0,1,0,1,183,7],
-"structMR_1_1DenoiseViaNormalsSettings.html#a0020d91ac083f2d70a466e4f209e12b9":[6,0,2,0,1,166,7],
-"structMR_1_1DenoiseViaNormalsSettings.html#a63ddf357508ffd766addcbe0684a1619":[6,0,1,0,1,183,1],
 "structMR_1_1DenoiseViaNormalsSettings.html#a63ddf357508ffd766addcbe0684a1619":[6,0,2,0,1,166,1],
 "structMR_1_1DenoiseViaNormalsSettings.html#a6852271fa1efbc4da52e0fb5b851810f":[6,0,1,0,1,183,4],
 "structMR_1_1DenoiseViaNormalsSettings.html#a6852271fa1efbc4da52e0fb5b851810f":[6,0,2,0,1,166,4],
@@ -249,5 +241,13 @@ var NAVTREEINDEX72 =
 "structMR_1_1DragOverListener.html#a96026484054dfeb0d7f893a24afce478":[6,0,1,0,1,210,0],
 "structMR_1_1DragOverListener.html#a96026484054dfeb0d7f893a24afce478":[6,0,2,0,1,193,0],
 "structMR_1_1DragOverListener.html#a98e3455e802d1cdfb96e0e86f2aca1d4":[6,0,1,0,1,210,1],
-"structMR_1_1DragOverListener.html#a98e3455e802d1cdfb96e0e86f2aca1d4":[6,0,2,0,1,193,1]
+"structMR_1_1DragOverListener.html#a98e3455e802d1cdfb96e0e86f2aca1d4":[6,0,2,0,1,193,1],
+"structMR_1_1DragOverListener.html#ab96d070253ee14052fef6fed55f03993":[6,0,1,0,1,210,2],
+"structMR_1_1DragOverListener.html#ab96d070253ee14052fef6fed55f03993":[6,0,2,0,1,193,2],
+"structMR_1_1DragStartListener.html":[6,0,1,0,1,211],
+"structMR_1_1DragStartListener.html":[6,0,2,0,1,194],
+"structMR_1_1DragStartListener.html#a0e1547956da2a8144aa7d7e9a5d2a699":[6,0,1,0,1,211,0],
+"structMR_1_1DragStartListener.html#a0e1547956da2a8144aa7d7e9a5d2a699":[6,0,2,0,1,194,0],
+"structMR_1_1DragStartListener.html#a98c332040cb92fd08b5cad7223f9f97e":[6,0,1,0,1,211,1],
+"structMR_1_1DragStartListener.html#a98c332040cb92fd08b5cad7223f9f97e":[6,0,2,0,1,194,1]
 };

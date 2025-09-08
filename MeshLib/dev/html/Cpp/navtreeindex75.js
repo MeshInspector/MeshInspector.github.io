@@ -1,13 +1,5 @@
 var NAVTREEINDEX75 =
 {
-"structMR_1_1FileParameters.html":[6,0,2,0,1,225],
-"structMR_1_1FileParameters.html#a136b19b9c9c5b93c2788ccacc848e219":[6,0,1,0,1,242,1],
-"structMR_1_1FileParameters.html#a136b19b9c9c5b93c2788ccacc848e219":[6,0,2,0,1,225,1],
-"structMR_1_1FileParameters.html#a4712ec5afb78d48f6b26fd4813a720e7":[6,0,1,0,1,242,0],
-"structMR_1_1FileParameters.html#a4712ec5afb78d48f6b26fd4813a720e7":[6,0,2,0,1,225,0],
-"structMR_1_1FileParameters.html#af94f67fb7131833e77aa1c32e60f68d1":[6,0,1,0,1,242,2],
-"structMR_1_1FileParameters.html#af94f67fb7131833e77aa1c32e60f68d1":[6,0,2,0,1,225,2],
-"structMR_1_1FillHoleItem.html":[6,0,0,9,3,2],
 "structMR_1_1FillHoleItem.html#a56124e5a79e5cbe2b1b617d2e142aaa1":[6,0,0,9,3,2,1],
 "structMR_1_1FillHoleItem.html#a93e897d7d608458643fa5ba8a08d2ea2":[6,0,0,9,3,2,0],
 "structMR_1_1FillHoleMetric.html":[6,0,0,9,3,5],
@@ -249,5 +241,13 @@ var NAVTREEINDEX75 =
 "structMR_1_1GeneralOffsetParameters.html#a32b4506f0ab7b7a76f0e3b1ce34a94d1":[6,0,1,0,1,273,1],
 "structMR_1_1GeneralOffsetParameters.html#a32b4506f0ab7b7a76f0e3b1ce34a94d1":[6,0,2,0,1,256,1],
 "structMR_1_1GeneralOffsetParameters.html#abc2615fd96d188bbdb1407d0cc0e5c84":[6,0,1,0,1,273,0],
-"structMR_1_1GeneralOffsetParameters.html#abc2615fd96d188bbdb1407d0cc0e5c84":[6,0,2,0,1,256,0]
+"structMR_1_1GeneralOffsetParameters.html#abc2615fd96d188bbdb1407d0cc0e5c84":[6,0,2,0,1,256,0],
+"structMR_1_1GlTexture_1_1Settings.html":[6,0,1,0,1,276,0],
+"structMR_1_1GlTexture_1_1Settings.html":[6,0,2,0,1,259,0],
+"structMR_1_1GlTexture_1_1Settings.html#a3943dc4f528bc49722114379614e4c2e":[6,0,1,0,1,276,0,0],
+"structMR_1_1GlTexture_1_1Settings.html#a3943dc4f528bc49722114379614e4c2e":[6,0,2,0,1,259,0,0],
+"structMR_1_1GlTexture_1_1Settings.html#a3b834f386d4f814d5f03b43e229d4adb":[6,0,1,0,1,276,0,3],
+"structMR_1_1GlTexture_1_1Settings.html#a3b834f386d4f814d5f03b43e229d4adb":[6,0,2,0,1,259,0,3],
+"structMR_1_1GlTexture_1_1Settings.html#a43504dbf4a7fab179ae9e99940385273":[6,0,1,0,1,276,0,2],
+"structMR_1_1GlTexture_1_1Settings.html#a43504dbf4a7fab179ae9e99940385273":[6,0,2,0,1,259,0,2]
 };

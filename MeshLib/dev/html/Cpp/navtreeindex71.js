@@ -1,13 +1,5 @@
 var NAVTREEINDEX71 =
 {
-"structMR_1_1Color.html#ad69a83b856320cef2a9d1f2ef968dbfd":[6,0,2,0,1,128,18],
-"structMR_1_1Color.html#ade02ccd5f38dd6cf3dbadde1ab4a860f":[6,0,1,0,1,145,1],
-"structMR_1_1Color.html#ade02ccd5f38dd6cf3dbadde1ab4a860f":[6,0,2,0,1,128,1],
-"structMR_1_1Color.html#ae3c0f9cd94d092309159eff33f604df2":[6,0,1,0,1,145,4],
-"structMR_1_1Color.html#ae3c0f9cd94d092309159eff33f604df2":[6,0,2,0,1,128,4],
-"structMR_1_1Color.html#aeb10dfddd28274eab02133fe4bfb2f61":[6,0,1,0,1,145,7],
-"structMR_1_1Color.html#aeb10dfddd28274eab02133fe4bfb2f61":[6,0,2,0,1,128,7],
-"structMR_1_1Color.html#aec1e7daf3ecd5715157f118516cf17c7":[6,0,1,0,1,145,10],
 "structMR_1_1Color.html#aec1e7daf3ecd5715157f118516cf17c7":[6,0,2,0,1,128,10],
 "structMR_1_1Color.html#af2931e15274d970116abc0ded3b1a63d":[6,0,1,0,1,145,3],
 "structMR_1_1Color.html#af2931e15274d970116abc0ded3b1a63d":[6,0,2,0,1,128,3],
@@ -249,5 +241,13 @@ var NAVTREEINDEX71 =
 "structMR_1_1DeloneSettings.html#a513ebe0c472b1ac5cdfa1226d4f52e27":[6,0,2,0,1,164,3],
 "structMR_1_1DeloneSettings.html#a59743925cda5ef4a2b87449e410897e8":[6,0,1,0,1,181,5],
 "structMR_1_1DeloneSettings.html#a59743925cda5ef4a2b87449e410897e8":[6,0,2,0,1,164,5],
-"structMR_1_1DeloneSettings.html#ac1d8b0d536be2f423ac9a2d1b2bce7d2":[6,0,1,0,1,181,0]
+"structMR_1_1DeloneSettings.html#ac1d8b0d536be2f423ac9a2d1b2bce7d2":[6,0,1,0,1,181,0],
+"structMR_1_1DeloneSettings.html#ac1d8b0d536be2f423ac9a2d1b2bce7d2":[6,0,2,0,1,164,0],
+"structMR_1_1DeloneSettings.html#acc54a4a2c29214632bccda65b6e0cba0":[6,0,1,0,1,181,2],
+"structMR_1_1DeloneSettings.html#acc54a4a2c29214632bccda65b6e0cba0":[6,0,2,0,1,164,2],
+"structMR_1_1DenoiseViaNormalsSettings.html":[6,0,1,0,1,183],
+"structMR_1_1DenoiseViaNormalsSettings.html":[6,0,2,0,1,166],
+"structMR_1_1DenoiseViaNormalsSettings.html#a0020d91ac083f2d70a466e4f209e12b9":[6,0,1,0,1,183,7],
+"structMR_1_1DenoiseViaNormalsSettings.html#a0020d91ac083f2d70a466e4f209e12b9":[6,0,2,0,1,166,7],
+"structMR_1_1DenoiseViaNormalsSettings.html#a63ddf357508ffd766addcbe0684a1619":[6,0,1,0,1,183,1]
 };

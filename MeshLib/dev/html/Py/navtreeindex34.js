@@ -1,7 +1,5 @@
 var NAVTREEINDEX34 =
 {
-"classmrmeshpy_1_1GraphEdgeBitSet.html#ad0d399349909eb6b2cd7209aad90bf0e":[6,1,0,0,2,361,19],
-"classmrmeshpy_1_1GraphEdgeBitSet.html#ad0d399349909eb6b2cd7209aad90bf0e":[6,1,1,0,1,361,19],
 "classmrmeshpy_1_1GraphEdgeBitSet.html#ad6107e9e27855d31e1cf542e149118f4":[6,1,0,0,2,361,3],
 "classmrmeshpy_1_1GraphEdgeBitSet.html#ad6107e9e27855d31e1cf542e149118f4":[6,1,1,0,1,361,3],
 "classmrmeshpy_1_1GraphEdgeBitSet.html#ad8d3bd8085cf1e047f460e25f92257a7":[6,1,0,0,2,361,35],
@@ -249,5 +247,7 @@ var NAVTREEINDEX34 =
 "classmrmeshpy_1_1GridSettings_1_1TriType.html#af27a5c149bb0614c64172ef7a94c988d":[6,1,0,0,2,365,1,4],
 "classmrmeshpy_1_1GridSettings_1_1TriType.html#af27a5c149bb0614c64172ef7a94c988d":[6,1,1,0,1,365,1,4],
 "classmrmeshpy_1_1GridToMeshSettings.html":[6,1,0,0,2,366],
-"classmrmeshpy_1_1GridToMeshSettings.html":[6,1,1,0,1,366]
+"classmrmeshpy_1_1GridToMeshSettings.html":[6,1,1,0,1,366],
+"classmrmeshpy_1_1GridToMeshSettings.html#a122fa0eccbb01097c71d40b5d07ca869":[6,1,0,0,2,366,11],
+"classmrmeshpy_1_1GridToMeshSettings.html#a122fa0eccbb01097c71d40b5d07ca869":[6,1,1,0,1,366,11]
 };

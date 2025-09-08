@@ -1,15 +1,5 @@
 var NAVTREEINDEX113 =
 {
-"classmrmeshpy_1_1VolumeSegmenter_1_1SeedType.html#a4fb6f3cacba723a6a5360dd98ccde000":[6,1,0,0,2,1153,0,10],
-"classmrmeshpy_1_1VolumeSegmenter_1_1SeedType.html#a4fb6f3cacba723a6a5360dd98ccde000":[6,1,1,0,1,1153,0,10],
-"classmrmeshpy_1_1VolumeSegmenter_1_1SeedType.html#a6af6f157d75e5f1aeb7e26ace4fb9458":[6,1,0,0,2,1153,0,9],
-"classmrmeshpy_1_1VolumeSegmenter_1_1SeedType.html#a6af6f157d75e5f1aeb7e26ace4fb9458":[6,1,1,0,1,1153,0,9],
-"classmrmeshpy_1_1VolumeSegmenter_1_1SeedType.html#a6f594fc179804fa03a7044b66f09799f":[6,1,0,0,2,1153,0,4],
-"classmrmeshpy_1_1VolumeSegmenter_1_1SeedType.html#a6f594fc179804fa03a7044b66f09799f":[6,1,1,0,1,1153,0,4],
-"classmrmeshpy_1_1VolumeSegmenter_1_1SeedType.html#a72f102c6299a7fd24c34c151bc03e09b":[6,1,0,0,2,1153,0,3],
-"classmrmeshpy_1_1VolumeSegmenter_1_1SeedType.html#a72f102c6299a7fd24c34c151bc03e09b":[6,1,1,0,1,1153,0,3],
-"classmrmeshpy_1_1VolumeSegmenter_1_1SeedType.html#aaa7de7addf94cf6d1172abbc44905bca":[6,1,0,0,2,1153,0,5],
-"classmrmeshpy_1_1VolumeSegmenter_1_1SeedType.html#aaa7de7addf94cf6d1172abbc44905bca":[6,1,1,0,1,1153,0,5],
 "classmrmeshpy_1_1VolumeSegmenter_1_1SeedType.html#acb8ba26972efd680464a5181a8435ce1":[6,1,0,0,2,1153,0,0],
 "classmrmeshpy_1_1VolumeSegmenter_1_1SeedType.html#acb8ba26972efd680464a5181a8435ce1":[6,1,1,0,1,1153,0,0],
 "classmrmeshpy_1_1VolumeSegmenter_1_1SeedType.html#ad30e2631ceed8fd28d5cd778796e1f52":[6,1,0,0,2,1153,0,11],
@@ -249,5 +239,15 @@ var NAVTREEINDEX113 =
 "classmrmeshpy_1_1VoxelTraits__Vector__float__VoxelId.html#af1f8007092aef3093cdb96ce95dec250":[6,1,0,0,2,1173,0],
 "classmrmeshpy_1_1VoxelTraits__Vector__float__VoxelId.html#af1f8007092aef3093cdb96ce95dec250":[6,1,0,0,2,1173,2],
 "classmrmeshpy_1_1VoxelTraits__Vector__float__VoxelId.html#af1f8007092aef3093cdb96ce95dec250":[6,1,1,0,1,1173,0],
-"classmrmeshpy_1_1VoxelTraits__Vector__float__VoxelId.html#af1f8007092aef3093cdb96ce95dec250":[6,1,1,0,1,1173,2]
+"classmrmeshpy_1_1VoxelTraits__Vector__float__VoxelId.html#af1f8007092aef3093cdb96ce95dec250":[6,1,1,0,1,1173,2],
+"classmrmeshpy_1_1VoxelTraits__Vector__unsigned__short__VoxelId.html":[6,1,0,0,2,1174],
+"classmrmeshpy_1_1VoxelTraits__Vector__unsigned__short__VoxelId.html":[6,1,1,0,1,1174],
+"classmrmeshpy_1_1VoxelTraits__Vector__unsigned__short__VoxelId.html#a29de32a6c42b71aa95f2a6d2ca4ca4e9":[6,1,0,0,2,1174,1],
+"classmrmeshpy_1_1VoxelTraits__Vector__unsigned__short__VoxelId.html#a29de32a6c42b71aa95f2a6d2ca4ca4e9":[6,1,1,0,1,1174,1],
+"classmrmeshpy_1_1VoxelTraits__Vector__unsigned__short__VoxelId.html#a690f3c23aeabb8eb55061c4ecd3a81da":[6,1,0,0,2,1174,0],
+"classmrmeshpy_1_1VoxelTraits__Vector__unsigned__short__VoxelId.html#a690f3c23aeabb8eb55061c4ecd3a81da":[6,1,0,0,2,1174,2],
+"classmrmeshpy_1_1VoxelTraits__Vector__unsigned__short__VoxelId.html#a690f3c23aeabb8eb55061c4ecd3a81da":[6,1,1,0,1,1174,0],
+"classmrmeshpy_1_1VoxelTraits__Vector__unsigned__short__VoxelId.html#a690f3c23aeabb8eb55061c4ecd3a81da":[6,1,1,0,1,1174,2],
+"classmrmeshpy_1_1VoxelTraits__VoxelBitSet.html":[6,1,0,0,2,1175],
+"classmrmeshpy_1_1VoxelTraits__VoxelBitSet.html":[6,1,1,0,1,1175]
 };

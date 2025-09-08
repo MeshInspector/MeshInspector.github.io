@@ -1,7 +1,5 @@
 var NAVTREEINDEX30 =
 {
-"classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Sphere3f__Sphere3f.html#a6ff9dd7f218467f0c7aa705b12909167":[6,1,0,0,2,251,3,5,3],
-"classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Sphere3f__Sphere3f.html#a6ff9dd7f218467f0c7aa705b12909167":[6,1,1,0,1,251,3,5,3],
 "classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Sphere3f__Sphere3f.html#afef75ba5520612a81388fdbb17f1fa21":[6,1,0,0,2,251,3,5,1],
 "classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Sphere3f__Sphere3f.html#afef75ba5520612a81388fdbb17f1fa21":[6,1,1,0,1,251,3,5,1],
 "classmrmeshpy_1_1Features_1_1Traits_1_1Unary__Features__Primitives__ConeSegment.html":[6,1,0,0,2,251,3,6],
@@ -249,5 +247,7 @@ var NAVTREEINDEX30 =
 "classmrmeshpy_1_1FilterType.html#afc582bba5e28563ac00664a7a08a871d":[6,1,0,0,2,259,3],
 "classmrmeshpy_1_1FilterType.html#afc582bba5e28563ac00664a7a08a871d":[6,1,1,0,1,259,3],
 "classmrmeshpy_1_1FilterType.html#aff58d67c24d81be46204316954496e0c":[6,1,0,0,2,259,8],
-"classmrmeshpy_1_1FilterType.html#aff58d67c24d81be46204316954496e0c":[6,1,1,0,1,259,8]
+"classmrmeshpy_1_1FilterType.html#aff58d67c24d81be46204316954496e0c":[6,1,1,0,1,259,8],
+"classmrmeshpy_1_1FindDisorientationParams.html":[6,1,0,0,2,260],
+"classmrmeshpy_1_1FindDisorientationParams.html":[6,1,1,0,1,260]
 };

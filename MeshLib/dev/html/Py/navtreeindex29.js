@@ -1,7 +1,5 @@
 var NAVTREEINDEX29 =
 {
-"classmrmeshpy_1_1Features_1_1MeasureResult.html#a4f6d74fc302d7852c474514e6f3cbf75":[6,1,0,0,2,251,0,4],
-"classmrmeshpy_1_1Features_1_1MeasureResult.html#a4f6d74fc302d7852c474514e6f3cbf75":[6,1,1,0,1,251,0,4],
 "classmrmeshpy_1_1Features_1_1MeasureResult.html#a52d7ae1abc7c0826266b52a0e592cd02":[6,1,0,0,2,251,0,10],
 "classmrmeshpy_1_1Features_1_1MeasureResult.html#a52d7ae1abc7c0826266b52a0e592cd02":[6,1,1,0,1,251,0,10],
 "classmrmeshpy_1_1Features_1_1MeasureResult.html#a52dc7100c8a349797d8151ae3ef34b06":[6,1,0,0,2,251,0,6],
@@ -249,5 +247,7 @@ var NAVTREEINDEX29 =
 "classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Sphere3f__Sphere3f.html#a4bfb5ac144a88f6d80962f39cf212cd8":[6,1,0,0,2,251,3,5,0],
 "classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Sphere3f__Sphere3f.html#a4bfb5ac144a88f6d80962f39cf212cd8":[6,1,0,0,2,251,3,5,2],
 "classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Sphere3f__Sphere3f.html#a4bfb5ac144a88f6d80962f39cf212cd8":[6,1,1,0,1,251,3,5,0],
-"classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Sphere3f__Sphere3f.html#a4bfb5ac144a88f6d80962f39cf212cd8":[6,1,1,0,1,251,3,5,2]
+"classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Sphere3f__Sphere3f.html#a4bfb5ac144a88f6d80962f39cf212cd8":[6,1,1,0,1,251,3,5,2],
+"classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Sphere3f__Sphere3f.html#a6ff9dd7f218467f0c7aa705b12909167":[6,1,0,0,2,251,3,5,3],
+"classmrmeshpy_1_1Features_1_1Traits_1_1Binary__Sphere3f__Sphere3f.html#a6ff9dd7f218467f0c7aa705b12909167":[6,1,1,0,1,251,3,5,3]
 };

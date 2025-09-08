@@ -1,15 +1,5 @@
 var NAVTREEINDEX68 =
 {
-"classmrmeshpy_1_1Polyline2.html#ae41a8431fbebaf52229ae5996ff3ae5f":[6,1,0,0,2,680,14],
-"classmrmeshpy_1_1Polyline2.html#ae41a8431fbebaf52229ae5996ff3ae5f":[6,1,1,0,1,680,14],
-"classmrmeshpy_1_1Polyline2.html#ae64d607f4c7ced29cebbe131fca04c7c":[6,1,0,0,2,680,0],
-"classmrmeshpy_1_1Polyline2.html#ae64d607f4c7ced29cebbe131fca04c7c":[6,1,1,0,1,680,0],
-"classmrmeshpy_1_1Polyline2.html#afb37419efc075cb740e77dcda5b55022":[6,1,0,0,2,680,3],
-"classmrmeshpy_1_1Polyline2.html#afb37419efc075cb740e77dcda5b55022":[6,1,1,0,1,680,3],
-"classmrmeshpy_1_1Polyline2.html#afd7e9ab9f1b3d3190020c66698524e1d":[6,1,0,0,2,680,22],
-"classmrmeshpy_1_1Polyline2.html#afd7e9ab9f1b3d3190020c66698524e1d":[6,1,1,0,1,680,22],
-"classmrmeshpy_1_1Polyline2ProjectionWithOffsetResult.html":[6,1,0,0,2,681],
-"classmrmeshpy_1_1Polyline2ProjectionWithOffsetResult.html":[6,1,1,0,1,681],
 "classmrmeshpy_1_1Polyline2ProjectionWithOffsetResult.html#a2f3841e8e7ebbf8a415db49e85ab0c62":[6,1,0,0,2,681,7],
 "classmrmeshpy_1_1Polyline2ProjectionWithOffsetResult.html#a2f3841e8e7ebbf8a415db49e85ab0c62":[6,1,1,0,1,681,7],
 "classmrmeshpy_1_1Polyline2ProjectionWithOffsetResult.html#a38c07db511e41953811b46a1067a3381":[6,1,0,0,2,681,3],
@@ -249,5 +239,15 @@ var NAVTREEINDEX68 =
 "classmrmeshpy_1_1PolylineSubdivideSettings.html#a82fdc678e5527882194618385687812c":[6,1,0,0,2,690,0],
 "classmrmeshpy_1_1PolylineSubdivideSettings.html#a82fdc678e5527882194618385687812c":[6,1,1,0,1,690,0],
 "classmrmeshpy_1_1PolylineSubdivideSettings.html#a955282a93e28d2c75aaca5468d0d4aa2":[6,1,0,0,2,690,13],
-"classmrmeshpy_1_1PolylineSubdivideSettings.html#a955282a93e28d2c75aaca5468d0d4aa2":[6,1,1,0,1,690,13]
+"classmrmeshpy_1_1PolylineSubdivideSettings.html#a955282a93e28d2c75aaca5468d0d4aa2":[6,1,1,0,1,690,13],
+"classmrmeshpy_1_1PolylineSubdivideSettings.html#a97b559714d080e65b870dcc840eac56f":[6,1,0,0,2,690,11],
+"classmrmeshpy_1_1PolylineSubdivideSettings.html#a97b559714d080e65b870dcc840eac56f":[6,1,1,0,1,690,11],
+"classmrmeshpy_1_1PolylineSubdivideSettings.html#aa5dd76daaf44c8e09e043a31883cd00c":[6,1,0,0,2,690,10],
+"classmrmeshpy_1_1PolylineSubdivideSettings.html#aa5dd76daaf44c8e09e043a31883cd00c":[6,1,1,0,1,690,10],
+"classmrmeshpy_1_1PolylineSubdivideSettings.html#ab1f56e6072bc45c5b778a81ca5c6d318":[6,1,0,0,2,690,7],
+"classmrmeshpy_1_1PolylineSubdivideSettings.html#ab1f56e6072bc45c5b778a81ca5c6d318":[6,1,1,0,1,690,7],
+"classmrmeshpy_1_1PolylineSubdivideSettings.html#aed099f29be5db5ec1b190d5d1a362e72":[6,1,0,0,2,690,4],
+"classmrmeshpy_1_1PolylineSubdivideSettings.html#aed099f29be5db5ec1b190d5d1a362e72":[6,1,1,0,1,690,4],
+"classmrmeshpy_1_1PolylineToDistanceVolumeParams.html":[6,1,0,0,2,691],
+"classmrmeshpy_1_1PolylineToDistanceVolumeParams.html":[6,1,1,0,1,691]
 };

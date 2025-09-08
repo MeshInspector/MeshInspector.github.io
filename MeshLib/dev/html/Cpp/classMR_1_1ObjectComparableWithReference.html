@@ -202,8 +202,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a7df2402af378c17572454d7492ba7eec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac27662b0d2266f41b4dfab6844dba1e4" id="r_ac27662b0d2266f41b4dfab6844dba1e4"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac27662b0d2266f41b4dfab6844dba1e4">comparisonToleranceIsAlwaysOnlyPositive</a> (std::size_t i) const</td></tr>
 <tr class="separator:ac27662b0d2266f41b4dfab6844dba1e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e8d4d58c0fcf305c54e01b55bd41e2f" id="r_a1e8d4d58c0fcf305c54e01b55bd41e2f"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e8d4d58c0fcf305c54e01b55bd41e2f">comparisonToleranceMakesSenseNow</a> (std::size_t i) const</td></tr>
-<tr class="separator:a1e8d4d58c0fcf305c54e01b55bd41e2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e386df110c9d0fa3c799cf002cbc845" id="r_a7e386df110c9d0fa3c799cf002cbc845"><td class="memItemLeft" align="right" valign="top">virtual std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e386df110c9d0fa3c799cf002cbc845">numComparisonReferenceValues</a> () const</td></tr>
 <tr class="separator:a7e386df110c9d0fa3c799cf002cbc845"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac3f2255c124f60526c36eb2cc32be9f9" id="r_ac3f2255c124f60526c36eb2cc32be9f9"><td class="memItemLeft" align="right" valign="top">virtual std::string_view&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac3f2255c124f60526c36eb2cc32be9f9">getComparisonReferenceValueName</a> (std::size_t i) const =0</td></tr>
@@ -212,8 +210,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a0fe95bc93503759817b9966ccebc4b0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb98cc0c1aa80731b206a983e8e79b0a" id="r_acb98cc0c1aa80731b206a983e8e79b0a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb98cc0c1aa80731b206a983e8e79b0a">setComparisonReferenceValue</a> (std::size_t i, std::optional&lt; <a class="el" href="structMR_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue.html#ab6bd7006ecd86f31248360a557a17d09">ComparisonReferenceValue::Var</a> &gt; value)=0</td></tr>
 <tr class="separator:acb98cc0c1aa80731b206a983e8e79b0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa884f71a2aa4dbc174e6bc9e349e82bb" id="r_aa884f71a2aa4dbc174e6bc9e349e82bb"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa884f71a2aa4dbc174e6bc9e349e82bb">comparisonReferenceValueMakesSenseNow</a> (std::size_t i) const</td></tr>
-<tr class="separator:aa884f71a2aa4dbc174e6bc9e349e82bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a83e6e08749efd393e0a34bdf6804bc2e" name="a83e6e08749efd393e0a34bdf6804bc2e"></a>
@@ -317,33 +313,6 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="aa884f71a2aa4dbc174e6bc9e349e82bb" name="aa884f71a2aa4dbc174e6bc9e349e82bb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa884f71a2aa4dbc174e6bc9e349e82bb">&#9670;&#160;</a></span>comparisonReferenceValueMakesSenseNow()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual bool MR::ObjectComparableWithReference::comparisonReferenceValueMakesSenseNow </td>
-          <td>(</td>
-          <td class="paramtype">std::size_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Reimplemented in <a class="el" href="classMR_1_1PointObject.html#a393e0e791a5ecc42c5f8c355bd1d0890">MR::PointObject</a>.</p>
-
-</div>
-</div>
 <a id="ac27662b0d2266f41b4dfab6844dba1e4" name="ac27662b0d2266f41b4dfab6844dba1e4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac27662b0d2266f41b4dfab6844dba1e4">&#9670;&#160;</a></span>comparisonToleranceIsAlwaysOnlyPositive()</h2>
 
@@ -368,33 +337,6 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented in <a class="el" href="classMR_1_1PointObject.html#af78f04f7a5e05b3ff66195466cb70380">MR::PointObject</a>.</p>
-
-</div>
-</div>
-<a id="a1e8d4d58c0fcf305c54e01b55bd41e2f" name="a1e8d4d58c0fcf305c54e01b55bd41e2f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1e8d4d58c0fcf305c54e01b55bd41e2f">&#9670;&#160;</a></span>comparisonToleranceMakesSenseNow()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual bool MR::ObjectComparableWithReference::comparisonToleranceMakesSenseNow </td>
-          <td>(</td>
-          <td class="paramtype">std::size_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Reimplemented in <a class="el" href="classMR_1_1DistanceMeasurementObject.html#ae6335683810744864459d3f2785e1f81">MR::DistanceMeasurementObject</a>, and <a class="el" href="classMR_1_1PointObject.html#a414bb8b6ca2e1f7ab7183b3c40fc9c45">MR::PointObject</a>.</p>
 
 </div>
 </div>

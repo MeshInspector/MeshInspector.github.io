@@ -1,15 +1,5 @@
 var NAVTREEINDEX78 =
 {
-"classmrmeshpy_1_1SortIntersectionsData.html#a48c53990c5786ce6f72adee753690fbe":[6,1,0,0,2,782,3],
-"classmrmeshpy_1_1SortIntersectionsData.html#a48c53990c5786ce6f72adee753690fbe":[6,1,1,0,1,782,3],
-"classmrmeshpy_1_1SpacingSettings.html":[6,1,0,0,2,783],
-"classmrmeshpy_1_1SpacingSettings.html":[6,1,1,0,1,783],
-"classmrmeshpy_1_1SpacingSettings.html#a01e8b385d40babc54a739d168d5254d1":[6,1,0,0,2,783,9],
-"classmrmeshpy_1_1SpacingSettings.html#a01e8b385d40babc54a739d168d5254d1":[6,1,1,0,1,783,9],
-"classmrmeshpy_1_1SpacingSettings.html#a1331a6fbb1b0171b7728a9bbc374346d":[6,1,0,0,2,783,2],
-"classmrmeshpy_1_1SpacingSettings.html#a1331a6fbb1b0171b7728a9bbc374346d":[6,1,1,0,1,783,2],
-"classmrmeshpy_1_1SpacingSettings.html#a1ec6eb60499330cc0438a38b42bb6bb5":[6,1,0,0,2,783,4],
-"classmrmeshpy_1_1SpacingSettings.html#a1ec6eb60499330cc0438a38b42bb6bb5":[6,1,1,0,1,783,4],
 "classmrmeshpy_1_1SpacingSettings.html#a26b2f75bf716a233767585bd638fef05":[6,1,0,0,2,783,12],
 "classmrmeshpy_1_1SpacingSettings.html#a26b2f75bf716a233767585bd638fef05":[6,1,1,0,1,783,12],
 "classmrmeshpy_1_1SpacingSettings.html#a5b8f3278c5dc3b5fe9d56db87c702bf7":[6,1,0,0,2,783,1],
@@ -249,5 +239,15 @@ var NAVTREEINDEX78 =
 "classmrmeshpy_1_1SubdivideSettings.html#a9bab85172669eb6c4a51bc21f2d7c4ac":[6,1,0,0,2,993,34],
 "classmrmeshpy_1_1SubdivideSettings.html#a9bab85172669eb6c4a51bc21f2d7c4ac":[6,1,1,0,1,993,34],
 "classmrmeshpy_1_1SubdivideSettings.html#aa208223b43f5f18cc52ef0f409266162":[6,1,0,0,2,993,13],
-"classmrmeshpy_1_1SubdivideSettings.html#aa208223b43f5f18cc52ef0f409266162":[6,1,1,0,1,993,13]
+"classmrmeshpy_1_1SubdivideSettings.html#aa208223b43f5f18cc52ef0f409266162":[6,1,1,0,1,993,13],
+"classmrmeshpy_1_1SubdivideSettings.html#aa20f4a509dd15ee7d3509a4c010ff22d":[6,1,0,0,2,993,20],
+"classmrmeshpy_1_1SubdivideSettings.html#aa20f4a509dd15ee7d3509a4c010ff22d":[6,1,1,0,1,993,20],
+"classmrmeshpy_1_1SubdivideSettings.html#aae9ee78b0ced1e8887628f6feabaa90f":[6,1,0,0,2,993,38],
+"classmrmeshpy_1_1SubdivideSettings.html#aae9ee78b0ced1e8887628f6feabaa90f":[6,1,1,0,1,993,38],
+"classmrmeshpy_1_1SubdivideSettings.html#ab63e1ee4ddc64937a0796bbdb9429304":[6,1,0,0,2,993,32],
+"classmrmeshpy_1_1SubdivideSettings.html#ab63e1ee4ddc64937a0796bbdb9429304":[6,1,1,0,1,993,32],
+"classmrmeshpy_1_1SubdivideSettings.html#ab74d731d838e42f0873c60e512c245fe":[6,1,0,0,2,993,26],
+"classmrmeshpy_1_1SubdivideSettings.html#ab74d731d838e42f0873c60e512c245fe":[6,1,1,0,1,993,26],
+"classmrmeshpy_1_1SubdivideSettings.html#ac6ae09ef9a297e1713bdf82f486456a7":[6,1,0,0,2,993,30],
+"classmrmeshpy_1_1SubdivideSettings.html#ac6ae09ef9a297e1713bdf82f486456a7":[6,1,1,0,1,993,30]
 };

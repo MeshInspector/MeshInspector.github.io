@@ -180,12 +180,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:afaaa56497276ff82239961b011559352"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ddb1111f89bf74a9a7188c6eca0f690" id="r_a9ddb1111f89bf74a9a7188c6eca0f690"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1Object.html">Object</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ddb1111f89bf74a9a7188c6eca0f690">clone</a> (self)</td></tr>
 <tr class="separator:a9ddb1111f89bf74a9a7188c6eca0f690"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab475f1fabc552ba43a7093c5e7102f3d" id="r_ab475f1fabc552ba43a7093c5e7102f3d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab475f1fabc552ba43a7093c5e7102f3d">comparisonReferenceValueMakesSenseNow</a> (self, int i)</td></tr>
-<tr class="separator:ab475f1fabc552ba43a7093c5e7102f3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c56eb3b981adc8f5879c029c2f1ac33" id="r_a3c56eb3b981adc8f5879c029c2f1ac33"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c56eb3b981adc8f5879c029c2f1ac33">comparisonToleranceIsAlwaysOnlyPositive</a> (self, int i)</td></tr>
 <tr class="separator:a3c56eb3b981adc8f5879c029c2f1ac33"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19302379e1aab6453f1c328027cc99ab" id="r_a19302379e1aab6453f1c328027cc99ab"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a19302379e1aab6453f1c328027cc99ab">comparisonToleranceMakesSenseNow</a> (self, int i)</td></tr>
-<tr class="separator:a19302379e1aab6453f1c328027cc99ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a655a2d3117f922f1cba845d41fbaa585" id="r_a655a2d3117f922f1cba845d41fbaa585"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparableProperty.html">ObjectComparableWithReference.ComparableProperty</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a655a2d3117f922f1cba845d41fbaa585">computeComparableProperty</a> (self, int i)</td></tr>
 <tr class="separator:a655a2d3117f922f1cba845d41fbaa585"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5f5d75a726d67e7cf7e56ec25bb5bcd" id="r_af5f5d75a726d67e7cf7e56ec25bb5bcd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty.html">std_vector_FeatureObjectSharedProperty</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af5f5d75a726d67e7cf7e56ec25bb5bcd">getAllSharedProperties</a> (self)</td></tr>
@@ -666,32 +662,6 @@ making new object the owner of all copied resources
 
 </div>
 </div>
-<a id="ab475f1fabc552ba43a7093c5e7102f3d" name="ab475f1fabc552ba43a7093c5e7102f3d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab475f1fabc552ba43a7093c5e7102f3d">&#9670;&#160;</a></span>comparisonReferenceValueMakesSenseNow()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> bool mrmeshpy.PointObject.comparisonReferenceValueMakesSenseNow </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment">If false, you shouldn't offer the user to set this reference value now, to indicate that they should set other properties first.
-The other setters should be written to automatically reset the reference values when it becomes false for them.
-`i` goes up to `numComparisonReferenceValues()`, exclusive.
-</pre> 
-<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ObjectComparableWithReference.html#adcdcc360efb54941166119f2c73e54bd">mrmeshpy.ObjectComparableWithReference</a>.</p>
-
-</div>
-</div>
 <a id="a3c56eb3b981adc8f5879c029c2f1ac33" name="a3c56eb3b981adc8f5879c029c2f1ac33"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3c56eb3b981adc8f5879c029c2f1ac33">&#9670;&#160;</a></span>comparisonToleranceIsAlwaysOnlyPositive()</h2>
 
@@ -714,32 +684,6 @@ The other setters should be written to automatically reset the reference values 
 `i` goes up to `numComparableProperties()`, exclusive.
 </pre> 
 <p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ObjectComparableWithReference.html#a9a693f13fd7c752a7daed86225899a5f">mrmeshpy.ObjectComparableWithReference</a>.</p>
-
-</div>
-</div>
-<a id="a19302379e1aab6453f1c328027cc99ab" name="a19302379e1aab6453f1c328027cc99ab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a19302379e1aab6453f1c328027cc99ab">&#9670;&#160;</a></span>comparisonToleranceMakesSenseNow()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> bool mrmeshpy.PointObject.comparisonToleranceMakesSenseNow </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment">If false, you shouldn't offer the user to set this tolerance now, to indicate that they should set other properties first.
-The other setters should be written to automatically reset the tolerances when it becomes false for them.
-`i` goes up to `numComparableProperties()`, exclusive.
-</pre> 
-<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1ObjectComparableWithReference.html#ada64b9e9a37e87ee5c621a4fc80a0d27">mrmeshpy.ObjectComparableWithReference</a>.</p>
 
 </div>
 </div>

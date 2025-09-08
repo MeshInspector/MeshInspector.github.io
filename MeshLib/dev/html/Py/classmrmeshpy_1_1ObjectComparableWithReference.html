@@ -177,12 +177,8 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:adcdcc360efb54941166119f2c73e54bd" id="r_adcdcc360efb54941166119f2c73e54bd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adcdcc360efb54941166119f2c73e54bd">comparisonReferenceValueMakesSenseNow</a> (self, int i)</td></tr>
-<tr class="separator:adcdcc360efb54941166119f2c73e54bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a693f13fd7c752a7daed86225899a5f" id="r_a9a693f13fd7c752a7daed86225899a5f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a693f13fd7c752a7daed86225899a5f">comparisonToleranceIsAlwaysOnlyPositive</a> (self, int i)</td></tr>
 <tr class="separator:a9a693f13fd7c752a7daed86225899a5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada64b9e9a37e87ee5c621a4fc80a0d27" id="r_ada64b9e9a37e87ee5c621a4fc80a0d27"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada64b9e9a37e87ee5c621a4fc80a0d27">comparisonToleranceMakesSenseNow</a> (self, int i)</td></tr>
-<tr class="separator:ada64b9e9a37e87ee5c621a4fc80a0d27"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a449cb6f1b760e736ce355c53f23b312e" id="r_a449cb6f1b760e736ce355c53f23b312e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparableProperty.html">ObjectComparableWithReference.ComparableProperty</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a449cb6f1b760e736ce355c53f23b312e">computeComparableProperty</a> (self, int i)</td></tr>
 <tr class="separator:a449cb6f1b760e736ce355c53f23b312e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94fe811c22ab8aa980dbebd48b4de4e0" id="r_a94fe811c22ab8aa980dbebd48b4de4e0"><td class="memItemLeft" align="right" valign="top">str&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94fe811c22ab8aa980dbebd48b4de4e0">getComparablePropertyName</a> (self, int i)</td></tr>
@@ -212,32 +208,6 @@ Static Public Member Functions</h2></td></tr>
 
 A base class for a data-model object that is a feature/measurement that can be compared between two models.
 </pre> </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="adcdcc360efb54941166119f2c73e54bd" name="adcdcc360efb54941166119f2c73e54bd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adcdcc360efb54941166119f2c73e54bd">&#9670;&#160;</a></span>comparisonReferenceValueMakesSenseNow()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> bool mrmeshpy.ObjectComparableWithReference.comparisonReferenceValueMakesSenseNow </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment">If false, you shouldn't offer the user to set this reference value now, to indicate that they should set other properties first.
-The other setters should be written to automatically reset the reference values when it becomes false for them.
-`i` goes up to `numComparisonReferenceValues()`, exclusive.
-</pre> 
-<p>Reimplemented in <a class="el" href="classmrmeshpy_1_1PointObject.html#ab475f1fabc552ba43a7093c5e7102f3d">mrmeshpy.PointObject</a>.</p>
-
-</div>
-</div>
 <a id="a9a693f13fd7c752a7daed86225899a5f" name="a9a693f13fd7c752a7daed86225899a5f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9a693f13fd7c752a7daed86225899a5f">&#9670;&#160;</a></span>comparisonToleranceIsAlwaysOnlyPositive()</h2>
 
@@ -260,32 +230,6 @@ The other setters should be written to automatically reset the reference values 
 `i` goes up to `numComparableProperties()`, exclusive.
 </pre> 
 <p>Reimplemented in <a class="el" href="classmrmeshpy_1_1PointObject.html#a3c56eb3b981adc8f5879c029c2f1ac33">mrmeshpy.PointObject</a>.</p>
-
-</div>
-</div>
-<a id="ada64b9e9a37e87ee5c621a4fc80a0d27" name="ada64b9e9a37e87ee5c621a4fc80a0d27"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ada64b9e9a37e87ee5c621a4fc80a0d27">&#9670;&#160;</a></span>comparisonToleranceMakesSenseNow()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"> bool mrmeshpy.ObjectComparableWithReference.comparisonToleranceMakesSenseNow </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment">If false, you shouldn't offer the user to set this tolerance now, to indicate that they should set other properties first.
-The other setters should be written to automatically reset the tolerances when it becomes false for them.
-`i` goes up to `numComparableProperties()`, exclusive.
-</pre> 
-<p>Reimplemented in <a class="el" href="classmrmeshpy_1_1DistanceMeasurementObject.html#a9dd64ccfeb0f1002cdec57d4f288e7e8">mrmeshpy.DistanceMeasurementObject</a>, and <a class="el" href="classmrmeshpy_1_1PointObject.html#a19302379e1aab6453f1c328027cc99ab">mrmeshpy.PointObject</a>.</p>
 
 </div>
 </div>

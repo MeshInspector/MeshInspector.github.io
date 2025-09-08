@@ -1,13 +1,5 @@
 var NAVTREEINDEX46 =
 {
-"classMR_1_1SurfaceDistanceBuilder.html#a370f90033c096568d58a18d399102064":[6,0,0,16,2,1,4],
-"classMR_1_1SurfaceDistanceBuilder.html#a66781dd9ecf7009c090fffa4c7d0e6f7":[6,0,0,16,2,1,6],
-"classMR_1_1SurfaceDistanceBuilder.html#a9b1547c200aedacf976a12ff582e729a":[6,0,0,16,2,1,8],
-"classMR_1_1SurfaceDistanceBuilder.html#aa5c104e6de91cb67a4df448454913a0d":[6,0,0,16,2,1,9],
-"classMR_1_1SurfaceDistanceBuilder.html#ac10dab2b68dd9de618eeb1ce16471e23":[6,0,0,16,2,1,5],
-"classMR_1_1SurfaceDistanceBuilder.html#ae5aba85dbb1efdefdea87c31c4c4a624":[6,0,0,16,2,1,1],
-"classMR_1_1SurfaceDistanceBuilder.html#af3d50b55a0c2af75bdba0d4eb7dc2e34":[6,0,0,16,2,1,0],
-"classMR_1_1SurfaceManipulationWidget.html":[6,0,1,0,1,711],
 "classMR_1_1SurfaceManipulationWidget.html":[6,0,2,0,1,694],
 "classMR_1_1SurfaceManipulationWidget.html#a01b688fc30d608be61aa23e4cba46c6a":[6,0,1,0,1,711,6],
 "classMR_1_1SurfaceManipulationWidget.html#a01b688fc30d608be61aa23e4cba46c6a":[6,0,2,0,1,694,6],
@@ -249,5 +241,13 @@ var NAVTREEINDEX46 =
 "classMR_1_1SurfacePointWidget.html#ad925d10fc0ebaadb952aaa7dd07dc0f2":[6,0,2,0,1,695,1],
 "classMR_1_1SurfacePointWidget.html#ad925d10fc0ebaadb952aaa7dd07dc0f2a484afb8d54ec549700b1fe96417519a9":[6,0,1,0,1,712,1,2],
 "classMR_1_1SurfacePointWidget.html#ad925d10fc0ebaadb952aaa7dd07dc0f2a484afb8d54ec549700b1fe96417519a9":[6,0,2,0,1,695,1,2],
-"classMR_1_1SurfacePointWidget.html#ad925d10fc0ebaadb952aaa7dd07dc0f2a4f93ea0836ba76b6f9b81e3eee53a3af":[6,0,1,0,1,712,1,0]
+"classMR_1_1SurfacePointWidget.html#ad925d10fc0ebaadb952aaa7dd07dc0f2a4f93ea0836ba76b6f9b81e3eee53a3af":[6,0,1,0,1,712,1,0],
+"classMR_1_1SurfacePointWidget.html#ad925d10fc0ebaadb952aaa7dd07dc0f2a4f93ea0836ba76b6f9b81e3eee53a3af":[6,0,2,0,1,695,1,0],
+"classMR_1_1SurfacePointWidget.html#ad925d10fc0ebaadb952aaa7dd07dc0f2a7a1c786bd1f2756b569ebd4ec85278ff":[6,0,1,0,1,712,1,1],
+"classMR_1_1SurfacePointWidget.html#ad925d10fc0ebaadb952aaa7dd07dc0f2a7a1c786bd1f2756b569ebd4ec85278ff":[6,0,2,0,1,695,1,1],
+"classMR_1_1SurfacePointWidget.html#ad925d10fc0ebaadb952aaa7dd07dc0f2ac0398cfb50d9b356a115e26cca2d4e09":[6,0,1,0,1,712,1,3],
+"classMR_1_1SurfacePointWidget.html#ad925d10fc0ebaadb952aaa7dd07dc0f2ac0398cfb50d9b356a115e26cca2d4e09":[6,0,2,0,1,695,1,3],
+"classMR_1_1SurfacePointWidget.html#ad925d10fc0ebaadb952aaa7dd07dc0f2add552244171cc5216a36a33f506602d8":[6,0,1,0,1,712,1,4],
+"classMR_1_1SurfacePointWidget.html#ad925d10fc0ebaadb952aaa7dd07dc0f2add552244171cc5216a36a33f506602d8":[6,0,2,0,1,695,1,4],
+"classMR_1_1SurfacePointWidget.html#adbc7a66606acd915861c47e2c89b347e":[6,0,1,0,1,712,15]
 };

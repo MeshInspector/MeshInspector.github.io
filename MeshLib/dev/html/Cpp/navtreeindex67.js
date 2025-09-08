@@ -1,13 +1,5 @@
 var NAVTREEINDEX67 =
 {
-"namespaceMR_1_1VoxelsLoad.html#ac95950f875729ac15c011d99d4624d96":[6,0,1,0,1,43,4],
-"namespaceMR_1_1VoxelsLoad.html#acba52d9e4446ab4729498866d500d5c9":[6,0,1,0,1,43,23],
-"namespaceMR_1_1VoxelsLoad.html#ad79032cc6ef1a0e389097a70c1000de3":[6,0,1,0,1,43,31],
-"namespaceMR_1_1VoxelsLoad.html#adbcdf154c89bce3f54684092bcc3f76e":[6,0,1,0,1,43,24],
-"namespaceMR_1_1VoxelsLoad.html#adf1cf75d42be383bb66a5e1f952b2cd1":[6,0,1,0,1,43,30],
-"namespaceMR_1_1VoxelsSave.html":[6,0,1,0,1,44],
-"namespaceMR_1_1VoxelsSave.html#a06de9ebb71a997d3eec5251dc2a1c1e8":[6,0,1,0,1,44,11],
-"namespaceMR_1_1VoxelsSave.html#a0f83445b39c9bf24c4f50d6fe1f4cfe8":[6,0,1,0,1,44,12],
 "namespaceMR_1_1VoxelsSave.html#a5289196c605171ac3410bbe845a26176":[6,0,1,0,1,44,1],
 "namespaceMR_1_1VoxelsSave.html#a8b7a3d30f9b81594b08a8a90828dd8e6":[6,0,1,0,1,44,10],
 "namespaceMR_1_1WeightedShell.html":[6,0,1,0,1,45],
@@ -249,5 +241,13 @@ var NAVTREEINDEX67 =
 "structMRFindProjectionParameters.html#a450cde41003d929b141e82cea1f233da":[6,0,2,0,20,2],
 "structMRFindProjectionParameters.html#a4ec582ee2a2711933884e6b771f2e681":[6,0,2,0,20,1],
 "structMRFindProjectionParameters.html#ac4fce539ae23cabef0a8cece3731cf74":[6,0,2,0,20,0],
-"structMRFixMeshDegeneraciesParams.html":[6,0,2,0,21]
+"structMRFixMeshDegeneraciesParams.html":[6,0,2,0,21],
+"structMRFixMeshDegeneraciesParams.html#a1ec8f555bb7f5bec08da56e0a13cadab":[6,0,2,0,21,2],
+"structMRFixMeshDegeneraciesParams.html#a25771fdf3ed98793f7b01ffd05d2823e":[6,0,2,0,21,5],
+"structMRFixMeshDegeneraciesParams.html#a43e9bfd950faa09ebd5ad405d4851678":[6,0,2,0,21,6],
+"structMRFixMeshDegeneraciesParams.html#a4f27ee78591d8af798d6f11a38bb7c8c":[6,0,2,0,21,7],
+"structMRFixMeshDegeneraciesParams.html#a6ae51556ecb7da197778471e3a10a0c2":[6,0,2,0,21,3],
+"structMRFixMeshDegeneraciesParams.html#aa6266c86363ad791c003dd8682501fe7":[6,0,2,0,21,4],
+"structMRFixMeshDegeneraciesParams.html#aab8419165d77fece4440efdd74f09b37":[6,0,2,0,21,1],
+"structMRFixMeshDegeneraciesParams.html#af09e4d46078be1c8804457082d26decc":[6,0,2,0,21,0]
 };

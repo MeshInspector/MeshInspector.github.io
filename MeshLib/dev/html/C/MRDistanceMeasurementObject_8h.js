@@ -22,7 +22,6 @@ var MRDistanceMeasurementObject_8h =
     [ "MR_DistanceMeasurementObject_ClassNameInPlural", "MRDistanceMeasurementObject_8h.html#ae03c986c022e23d31818e3c24e1738fe", null ],
     [ "MR_DistanceMeasurementObject_classNameInPlural", "MRDistanceMeasurementObject_8h.html#a26117f43b3dbb8ec8c3162d3cf3419ef", null ],
     [ "MR_DistanceMeasurementObject_clone", "MRDistanceMeasurementObject_8h.html#a6af8656ba8538bffa154e89bccfd9fec", null ],
-    [ "MR_DistanceMeasurementObject_comparisonToleranceMakesSenseNow", "MRDistanceMeasurementObject_8h.html#a6e5ac3bdcf21465c3f669ee6d26a5105", null ],
     [ "MR_DistanceMeasurementObject_computeComparableProperty", "MRDistanceMeasurementObject_8h.html#af63b08c28a546cf8c35f7e4b5d3f2bf1", null ],
     [ "MR_DistanceMeasurementObject_computeDistance", "MRDistanceMeasurementObject_8h.html#accd2b73ecb5a61dd96c70c18bf1e61f0", null ],
     [ "MR_DistanceMeasurementObject_ConstructFromAnother", "MRDistanceMeasurementObject_8h.html#a6a418c61dfdf0b341f8f9d61e81ab0a3", null ],

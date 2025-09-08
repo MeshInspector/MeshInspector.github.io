@@ -1,7 +1,5 @@
 var NAVTREEINDEX49 =
 {
-"classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__FunctionVolume.html#a171fc001d2d4d2870e067fe53e6cfef0":[6,1,0,0,2,488,15],
-"classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__FunctionVolume.html#a171fc001d2d4d2870e067fe53e6cfef0":[6,1,1,0,1,488,15],
 "classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__FunctionVolume.html#a1dabe512d5e44bda3d49a2e13df1665a":[6,1,0,0,2,488,8],
 "classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__FunctionVolume.html#a1dabe512d5e44bda3d49a2e13df1665a":[6,1,1,0,1,488,8],
 "classmrmeshpy_1_1MeshOnVoxelsT__const__Mesh__FunctionVolume.html#a2ee355a002831952850b7109a31622f8":[6,1,0,0,2,488,4],
@@ -249,5 +247,7 @@ var NAVTREEINDEX49 =
 "classmrmeshpy_1_1MeshPoint.html#ad2baf2d57ca7331db3538b7c2adb1304":[6,1,0,0,2,498,7],
 "classmrmeshpy_1_1MeshPoint.html#ad2baf2d57ca7331db3538b7c2adb1304":[6,1,1,0,1,498,7],
 "classmrmeshpy_1_1MeshPointAndDistance.html":[6,1,0,0,2,499],
-"classmrmeshpy_1_1MeshPointAndDistance.html":[6,1,1,0,1,499]
+"classmrmeshpy_1_1MeshPointAndDistance.html":[6,1,1,0,1,499],
+"classmrmeshpy_1_1MeshPointAndDistance.html#a094f182b38045b628be7db6d09d760ab":[6,1,0,0,2,499,7],
+"classmrmeshpy_1_1MeshPointAndDistance.html#a094f182b38045b628be7db6d09d760ab":[6,1,1,0,1,499,7]
 };

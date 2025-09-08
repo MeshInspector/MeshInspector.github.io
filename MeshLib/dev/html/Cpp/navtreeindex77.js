@@ -1,13 +1,5 @@
 var NAVTREEINDEX77 =
 {
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html":[6,0,2,0,1,6,3],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html#a13bf25d17b0cd12e3c276a80d170fa5b":[6,0,1,0,1,15,3,0],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html#a13bf25d17b0cd12e3c276a80d170fa5b":[6,0,2,0,1,6,3,0],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html#a74a08203e21476972026d8eb8fcb0914":[6,0,1,0,1,15,3,2],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html#a74a08203e21476972026d8eb8fcb0914":[6,0,2,0,1,6,3,2],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html#adc065c4e3c818063a10bda461010f5e1":[6,0,1,0,1,15,3,3],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html#adc065c4e3c818063a10bda461010f5e1":[6,0,2,0,1,6,3,3],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html#ae5a6e80b6daf5b70eef380922553c871":[6,0,1,0,1,15,3,1],
 "structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html#ae5a6e80b6daf5b70eef380922553c871":[6,0,2,0,1,6,3,1],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html":[6,0,1,0,1,15,4],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html":[6,0,2,0,1,6,4],
@@ -249,5 +241,13 @@ var NAVTREEINDEX77 =
 "structMR_1_1InterruptCloseListener.html":[6,0,1,0,1,312],
 "structMR_1_1InterruptCloseListener.html":[6,0,2,0,1,295],
 "structMR_1_1InterruptCloseListener.html#a93d20fb33a5fdc587397d3cbd079d6c7":[6,0,1,0,1,312,1],
-"structMR_1_1InterruptCloseListener.html#a93d20fb33a5fdc587397d3cbd079d6c7":[6,0,2,0,1,295,1]
+"structMR_1_1InterruptCloseListener.html#a93d20fb33a5fdc587397d3cbd079d6c7":[6,0,2,0,1,295,1],
+"structMR_1_1InterruptCloseListener.html#a9b215bb36d1f025f2b907911acc49542":[6,0,1,0,1,312,0],
+"structMR_1_1InterruptCloseListener.html#a9b215bb36d1f025f2b907911acc49542":[6,0,2,0,1,295,0],
+"structMR_1_1InterruptCloseListener.html#a9cd1676a4e7cfec815de633788a28894":[6,0,1,0,1,312,3],
+"structMR_1_1InterruptCloseListener.html#a9cd1676a4e7cfec815de633788a28894":[6,0,2,0,1,295,3],
+"structMR_1_1InterruptCloseListener.html#af380fa89eb3a2d038f3c24cd2d703ec6":[6,0,1,0,1,312,2],
+"structMR_1_1InterruptCloseListener.html#af380fa89eb3a2d038f3c24cd2d703ec6":[6,0,2,0,1,295,2],
+"structMR_1_1IntersectionPrecomputes.html":[6,0,0,1,15],
+"structMR_1_1IntersectionPrecomputes2.html":[6,0,0,1,16]
 };

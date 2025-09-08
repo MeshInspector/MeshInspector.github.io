@@ -1,10 +1,5 @@
 var NAVTREEINDEX116 =
 {
-"phmap__flat__hash__map__MR__VoxelId__MR__VoxelId_8h.html#adc19187359ca703f69c0f6202b66437c":[6,2,1,0,0,0,2,83,32],
-"phmap__flat__hash__map__MR__VoxelId__MR__VoxelId_8h.html#ae0e584578d919549beb2fd87a1fc72e0":[6,2,1,0,0,0,2,83,25],
-"phmap__flat__hash__map__MR__VoxelId__MR__VoxelId_8h.html#ae6d439a0ec785ee520ff79aba82ce17d":[6,2,1,0,0,0,2,83,27],
-"phmap__flat__hash__map__MR__VoxelId__MR__VoxelId_8h.html#ae99d43657423f17b67a80a5900f7ee4f":[6,2,1,0,0,0,2,83,23],
-"phmap__flat__hash__map__MR__VoxelId__MR__VoxelId_8h.html#af340dfa30c8a817b1d4616632db7361a":[6,2,1,0,0,0,2,83,47],
 "phmap__flat__hash__map__MR__VoxelId__MR__VoxelId_8h.html#afbdb91985be2ae7a708c5057eb220975":[6,2,1,0,0,0,2,83,37],
 "phmap__flat__hash__map__MR__VoxelId__MR__VoxelId_8h_source.html":[6,2,1,0,0,0,2,83],
 "phmap__flat__hash__map__int32__t__MR__Box3i__phmap__Hash__int32__t_8h.html":[6,2,1,0,0,0,2,65],
@@ -249,5 +244,10 @@ var NAVTREEINDEX116 =
 "std__array__MR__Vector3f__3_8h.html#aaa28ccd81fc18dfe14395ff51c90b31e":[6,2,1,0,0,0,2,98,1],
 "std__array__MR__Vector3f__3_8h_source.html":[6,2,1,0,0,0,2,98],
 "std__array__MR__VertId__2_8h.html":[6,2,1,0,0,0,2,99],
-"std__array__MR__VertId__2_8h.html#a7c58971fa72495cca7fb4cbcf9e6c101":[6,2,1,0,0,0,2,99,1]
+"std__array__MR__VertId__2_8h.html#a7c58971fa72495cca7fb4cbcf9e6c101":[6,2,1,0,0,0,2,99,1],
+"std__array__MR__VertId__2_8h_source.html":[6,2,1,0,0,0,2,99],
+"std__array__MR__VertId__3_8h.html":[6,2,1,0,0,0,2,100],
+"std__array__MR__VertId__3_8h.html#a93a0c4d7b47d7dae609a79a31bf54018":[6,2,1,0,0,0,2,100,1],
+"std__array__MR__VertId__3_8h_source.html":[6,2,1,0,0,0,2,100],
+"std__array__MR__WeightedVertex__3_8h.html":[6,2,1,0,0,0,2,101]
 };

@@ -1,15 +1,5 @@
 var NAVTREEINDEX77 =
 {
-"classmrmeshpy_1_1ShellVertexInfo.html#ac1a3a24d7ee08d4bf91ebcf422b0b7f3":[6,1,0,0,2,766,5],
-"classmrmeshpy_1_1ShellVertexInfo.html#ac1a3a24d7ee08d4bf91ebcf422b0b7f3":[6,1,1,0,1,766,5],
-"classmrmeshpy_1_1ShellVertexInfo.html#aca43c354a8cde25e1419d1119e499573":[6,1,0,0,2,766,4],
-"classmrmeshpy_1_1ShellVertexInfo.html#aca43c354a8cde25e1419d1119e499573":[6,1,1,0,1,766,4],
-"classmrmeshpy_1_1Side.html":[6,1,0,0,2,767],
-"classmrmeshpy_1_1Side.html":[6,1,1,0,1,767],
-"classmrmeshpy_1_1Side.html#a015df08455b7c213838491f671f687ea":[6,1,0,0,2,767,2],
-"classmrmeshpy_1_1Side.html#a015df08455b7c213838491f671f687ea":[6,1,1,0,1,767,2],
-"classmrmeshpy_1_1Side.html#a25077d3be91bb803ab9a781c77f52162":[6,1,0,0,2,767,11],
-"classmrmeshpy_1_1Side.html#a25077d3be91bb803ab9a781c77f52162":[6,1,1,0,1,767,11],
 "classmrmeshpy_1_1Side.html#a2a8a07c1c5c8abf52eae8161eabbd202":[6,1,0,0,2,767,6],
 "classmrmeshpy_1_1Side.html#a2a8a07c1c5c8abf52eae8161eabbd202":[6,1,1,0,1,767,6],
 "classmrmeshpy_1_1Side.html#a2cc9a9623fc69bba6d0ae7d104385f70":[6,1,0,0,2,767,8],
@@ -249,5 +239,15 @@ var NAVTREEINDEX77 =
 "classmrmeshpy_1_1SortIntersectionsData.html#a18437a5ecdc30c01f0f1d4321c57805a":[6,1,0,0,2,782,0],
 "classmrmeshpy_1_1SortIntersectionsData.html#a18437a5ecdc30c01f0f1d4321c57805a":[6,1,1,0,1,782,0],
 "classmrmeshpy_1_1SortIntersectionsData.html#a48a1479e8a919ac300f959a10c3f4d04":[6,1,0,0,2,782,1],
-"classmrmeshpy_1_1SortIntersectionsData.html#a48a1479e8a919ac300f959a10c3f4d04":[6,1,1,0,1,782,1]
+"classmrmeshpy_1_1SortIntersectionsData.html#a48a1479e8a919ac300f959a10c3f4d04":[6,1,1,0,1,782,1],
+"classmrmeshpy_1_1SortIntersectionsData.html#a48c53990c5786ce6f72adee753690fbe":[6,1,0,0,2,782,3],
+"classmrmeshpy_1_1SortIntersectionsData.html#a48c53990c5786ce6f72adee753690fbe":[6,1,1,0,1,782,3],
+"classmrmeshpy_1_1SpacingSettings.html":[6,1,0,0,2,783],
+"classmrmeshpy_1_1SpacingSettings.html":[6,1,1,0,1,783],
+"classmrmeshpy_1_1SpacingSettings.html#a01e8b385d40babc54a739d168d5254d1":[6,1,0,0,2,783,9],
+"classmrmeshpy_1_1SpacingSettings.html#a01e8b385d40babc54a739d168d5254d1":[6,1,1,0,1,783,9],
+"classmrmeshpy_1_1SpacingSettings.html#a1331a6fbb1b0171b7728a9bbc374346d":[6,1,0,0,2,783,2],
+"classmrmeshpy_1_1SpacingSettings.html#a1331a6fbb1b0171b7728a9bbc374346d":[6,1,1,0,1,783,2],
+"classmrmeshpy_1_1SpacingSettings.html#a1ec6eb60499330cc0438a38b42bb6bb5":[6,1,0,0,2,783,4],
+"classmrmeshpy_1_1SpacingSettings.html#a1ec6eb60499330cc0438a38b42bb6bb5":[6,1,1,0,1,783,4]
 };

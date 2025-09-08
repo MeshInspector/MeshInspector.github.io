@@ -1,7 +1,5 @@
 var NAVTREEINDEX32 =
 {
-"classmrmeshpy_1_1FixMeshDegeneraciesParams_1_1Mode.html#ae71767c7669c5bca8eabb4547940a3bb":[6,1,0,0,2,267,0,7],
-"classmrmeshpy_1_1FixMeshDegeneraciesParams_1_1Mode.html#ae71767c7669c5bca8eabb4547940a3bb":[6,1,1,0,1,267,0,7],
 "classmrmeshpy_1_1FixUndercuts.html":[6,1,0,0,2,268],
 "classmrmeshpy_1_1FixUndercuts.html":[6,1,1,0,1,268],
 "classmrmeshpy_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html":[6,1,0,0,2,268,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX32 =
 "classmrmeshpy_1_1FunctionVolumeU8.html#af3f0e47e648731c15d80b4175b5ece10":[6,1,0,0,2,354,2],
 "classmrmeshpy_1_1FunctionVolumeU8.html#af3f0e47e648731c15d80b4175b5ece10":[6,1,1,0,1,354,2],
 "classmrmeshpy_1_1GCommand.html":[6,1,0,0,2,357],
-"classmrmeshpy_1_1GCommand.html":[6,1,1,0,1,357]
+"classmrmeshpy_1_1GCommand.html":[6,1,1,0,1,357],
+"classmrmeshpy_1_1GCommand.html#a0051af513eeedbf466b8a26082298fe5":[6,1,0,0,2,357,2],
+"classmrmeshpy_1_1GCommand.html#a0051af513eeedbf466b8a26082298fe5":[6,1,1,0,1,357,2]
 };

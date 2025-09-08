@@ -1,7 +1,5 @@
 var NAVTREEINDEX31 =
 {
-"classmrmeshpy_1_1FindDisorientationParams.html":[6,1,0,0,2,260],
-"classmrmeshpy_1_1FindDisorientationParams.html":[6,1,1,0,1,260],
 "classmrmeshpy_1_1FindDisorientationParams.html#a1fb83b92dadfdddf1c8127433be89472":[6,1,0,0,2,260,3],
 "classmrmeshpy_1_1FindDisorientationParams.html#a1fb83b92dadfdddf1c8127433be89472":[6,1,1,0,1,260,3],
 "classmrmeshpy_1_1FindDisorientationParams.html#a2c0d7b0d2febe64cbf945f13030aed61":[6,1,0,0,2,260,5],
@@ -249,5 +247,7 @@ var NAVTREEINDEX31 =
 "classmrmeshpy_1_1FixMeshDegeneraciesParams_1_1Mode.html#ad7db0deec344e3ef9d724849634fc84f":[6,1,0,0,2,267,0,11],
 "classmrmeshpy_1_1FixMeshDegeneraciesParams_1_1Mode.html#ad7db0deec344e3ef9d724849634fc84f":[6,1,1,0,1,267,0,11],
 "classmrmeshpy_1_1FixMeshDegeneraciesParams_1_1Mode.html#ade5a103c469fb5a8abcb1dbf638b8983":[6,1,0,0,2,267,0,2],
-"classmrmeshpy_1_1FixMeshDegeneraciesParams_1_1Mode.html#ade5a103c469fb5a8abcb1dbf638b8983":[6,1,1,0,1,267,0,2]
+"classmrmeshpy_1_1FixMeshDegeneraciesParams_1_1Mode.html#ade5a103c469fb5a8abcb1dbf638b8983":[6,1,1,0,1,267,0,2],
+"classmrmeshpy_1_1FixMeshDegeneraciesParams_1_1Mode.html#ae71767c7669c5bca8eabb4547940a3bb":[6,1,0,0,2,267,0,7],
+"classmrmeshpy_1_1FixMeshDegeneraciesParams_1_1Mode.html#ae71767c7669c5bca8eabb4547940a3bb":[6,1,1,0,1,267,0,7]
 };

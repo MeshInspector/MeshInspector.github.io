@@ -15,7 +15,6 @@ var classMR_1_1DistanceMeasurementObject =
     [ "className", "classMR_1_1DistanceMeasurementObject.html#ad60ffe08ad7aac2a0118f9d755246849", null ],
     [ "classNameInPlural", "classMR_1_1DistanceMeasurementObject.html#a3fbff93178a6d5f281d512fbd3ba5d10", null ],
     [ "clone", "classMR_1_1DistanceMeasurementObject.html#abc8e75e2c032185a15f15d542b20a9e0", null ],
-    [ "comparisonToleranceMakesSenseNow", "classMR_1_1DistanceMeasurementObject.html#ae6335683810744864459d3f2785e1f81", null ],
     [ "computeComparableProperty", "classMR_1_1DistanceMeasurementObject.html#abc63171541c58c5add4c351e2b3b6408", null ],
     [ "computeDistance", "classMR_1_1DistanceMeasurementObject.html#a4b85850429f2fd60b65f311298b99c47", null ],
     [ "deserializeFields_", "classMR_1_1DistanceMeasurementObject.html#a41bf252d3d2bb76c6f777b48395ec2b5", null ],

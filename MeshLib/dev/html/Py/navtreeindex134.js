@@ -1,15 +1,5 @@
 var NAVTREEINDEX134 =
 {
-"classmrmeshpy_1_1std__vector__Heap__float__Id__GraphVertTag__std__greater__float__Element.html#a349bc0cc9b7e3f995298431eb60e6d18":[6,1,0,0,2,872,21],
-"classmrmeshpy_1_1std__vector__Heap__float__Id__GraphVertTag__std__greater__float__Element.html#a349bc0cc9b7e3f995298431eb60e6d18":[6,1,1,0,1,872,21],
-"classmrmeshpy_1_1std__vector__Heap__float__Id__GraphVertTag__std__greater__float__Element.html#a34f9f665af33dba49bc0d46ef029eb24":[6,1,0,0,2,872,3],
-"classmrmeshpy_1_1std__vector__Heap__float__Id__GraphVertTag__std__greater__float__Element.html#a34f9f665af33dba49bc0d46ef029eb24":[6,1,1,0,1,872,3],
-"classmrmeshpy_1_1std__vector__Heap__float__Id__GraphVertTag__std__greater__float__Element.html#a3924a5c8746e14910c60bafada8d7e87":[6,1,0,0,2,872,15],
-"classmrmeshpy_1_1std__vector__Heap__float__Id__GraphVertTag__std__greater__float__Element.html#a3924a5c8746e14910c60bafada8d7e87":[6,1,1,0,1,872,15],
-"classmrmeshpy_1_1std__vector__Heap__float__Id__GraphVertTag__std__greater__float__Element.html#a7084f6e0c54ddd6ddad36f71c6b09558":[6,1,0,0,2,872,7],
-"classmrmeshpy_1_1std__vector__Heap__float__Id__GraphVertTag__std__greater__float__Element.html#a7084f6e0c54ddd6ddad36f71c6b09558":[6,1,1,0,1,872,7],
-"classmrmeshpy_1_1std__vector__Heap__float__Id__GraphVertTag__std__greater__float__Element.html#a73cecbb2a4d0669e7681f4c325e6b8c5":[6,1,0,0,2,872,1],
-"classmrmeshpy_1_1std__vector__Heap__float__Id__GraphVertTag__std__greater__float__Element.html#a73cecbb2a4d0669e7681f4c325e6b8c5":[6,1,1,0,1,872,1],
 "classmrmeshpy_1_1std__vector__Heap__float__Id__GraphVertTag__std__greater__float__Element.html#a763bbc7cb2b046511f06ff5f26c1565e":[6,1,0,0,2,872,18],
 "classmrmeshpy_1_1std__vector__Heap__float__Id__GraphVertTag__std__greater__float__Element.html#a763bbc7cb2b046511f06ff5f26c1565e":[6,1,1,0,1,872,18],
 "classmrmeshpy_1_1std__vector__Heap__float__Id__GraphVertTag__std__greater__float__Element.html#a7a4f12485a5ca86f932d963881b10829":[6,1,0,0,2,872,23],
@@ -249,5 +239,15 @@ var NAVTREEINDEX134 =
 "classmrmeshpy_1_1std__vector__IOFilter.html#aa50aaecc88cf500aaaf50aa126f4ac30":[6,1,0,0,2,890,8],
 "classmrmeshpy_1_1std__vector__IOFilter.html#aa50aaecc88cf500aaaf50aa126f4ac30":[6,1,1,0,1,890,8],
 "classmrmeshpy_1_1std__vector__IOFilter.html#aabd78aaa350cb93b9cb0056e460b1109":[6,1,0,0,2,890,20],
-"classmrmeshpy_1_1std__vector__IOFilter.html#aabd78aaa350cb93b9cb0056e460b1109":[6,1,1,0,1,890,20]
+"classmrmeshpy_1_1std__vector__IOFilter.html#aabd78aaa350cb93b9cb0056e460b1109":[6,1,1,0,1,890,20],
+"classmrmeshpy_1_1std__vector__IOFilter.html#ab1b9470fded1dadeb3637651053cca2c":[6,1,0,0,2,890,9],
+"classmrmeshpy_1_1std__vector__IOFilter.html#ab1b9470fded1dadeb3637651053cca2c":[6,1,1,0,1,890,9],
+"classmrmeshpy_1_1std__vector__IOFilter.html#abb91c2e35106e970db5dc94177d8b870":[6,1,0,0,2,890,26],
+"classmrmeshpy_1_1std__vector__IOFilter.html#abb91c2e35106e970db5dc94177d8b870":[6,1,1,0,1,890,26],
+"classmrmeshpy_1_1std__vector__IOFilter.html#ad25fc770fe4efd6d1be6ebb73174fb50":[6,1,0,0,2,890,19],
+"classmrmeshpy_1_1std__vector__IOFilter.html#ad25fc770fe4efd6d1be6ebb73174fb50":[6,1,1,0,1,890,19],
+"classmrmeshpy_1_1std__vector__IOFilter.html#af2d99684c8ec6e121f28850f2f92ceec":[6,1,0,0,2,890,12],
+"classmrmeshpy_1_1std__vector__IOFilter.html#af2d99684c8ec6e121f28850f2f92ceec":[6,1,1,0,1,890,12],
+"classmrmeshpy_1_1std__vector__Id__EdgeTag.html":[6,1,0,0,2,876],
+"classmrmeshpy_1_1std__vector__Id__EdgeTag.html":[6,1,1,0,1,876]
 };

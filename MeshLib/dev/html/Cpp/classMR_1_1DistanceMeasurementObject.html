@@ -244,8 +244,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a717142f37bd7e78b5da9949a99cccc40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a326ff10ac65ad253dc898ffbfba8df33" id="r_a326ff10ac65ad253dc898ffbfba8df33"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a326ff10ac65ad253dc898ffbfba8df33">setComparisonTolerance</a> (std::size_t i, std::optional&lt; <a class="el" href="structMR_1_1ObjectComparableWithReference_1_1ComparisonTolerance.html">ComparisonTolerance</a> &gt; newTolerance) override</td></tr>
 <tr class="separator:a326ff10ac65ad253dc898ffbfba8df33"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6335683810744864459d3f2785e1f81" id="r_ae6335683810744864459d3f2785e1f81"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6335683810744864459d3f2785e1f81">comparisonToleranceMakesSenseNow</a> (std::size_t i) const override</td></tr>
-<tr class="separator:ae6335683810744864459d3f2785e1f81"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a47b1a0904e24cb42a3d81ae21519999d" id="r_a47b1a0904e24cb42a3d81ae21519999d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::string_view&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47b1a0904e24cb42a3d81ae21519999d">getComparisonReferenceValueName</a> (std::size_t i) const override</td></tr>
 <tr class="separator:a47b1a0904e24cb42a3d81ae21519999d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9da66cd334330f620109abc9ab2a2f61" id="r_a9da66cd334330f620109abc9ab2a2f61"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue.html">ComparisonReferenceValue</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9da66cd334330f620109abc9ab2a2f61">getComparisonReferenceValue</a> (std::size_t i) const override</td></tr>
@@ -606,8 +604,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ac27662b0d2266f41b4dfab6844dba1e4 inherit pub_methods_classMR_1_1ObjectComparableWithReference"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e386df110c9d0fa3c799cf002cbc845 inherit pub_methods_classMR_1_1ObjectComparableWithReference" id="r_a7e386df110c9d0fa3c799cf002cbc845"><td class="memItemLeft" align="right" valign="top">virtual std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectComparableWithReference.html#a7e386df110c9d0fa3c799cf002cbc845">numComparisonReferenceValues</a> () const</td></tr>
 <tr class="separator:a7e386df110c9d0fa3c799cf002cbc845 inherit pub_methods_classMR_1_1ObjectComparableWithReference"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa884f71a2aa4dbc174e6bc9e349e82bb inherit pub_methods_classMR_1_1ObjectComparableWithReference" id="r_aa884f71a2aa4dbc174e6bc9e349e82bb"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectComparableWithReference.html#aa884f71a2aa4dbc174e6bc9e349e82bb">comparisonReferenceValueMakesSenseNow</a> (std::size_t i) const</td></tr>
-<tr class="separator:aa884f71a2aa4dbc174e6bc9e349e82bb inherit pub_methods_classMR_1_1ObjectComparableWithReference"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -1020,33 +1016,6 @@ Additional Inherited Members</h2></td></tr>
 <p>clones this object only, without its children, making new object the owner of all copied resources </p>
 
 <p>Reimplemented from <a class="el" href="classMR_1_1VisualObject.html#a2abf3d3c767a16a584ad513af643feca">MR::VisualObject</a>.</p>
-
-</div>
-</div>
-<a id="ae6335683810744864459d3f2785e1f81" name="ae6335683810744864459d3f2785e1f81"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae6335683810744864459d3f2785e1f81">&#9670;&#160;</a></span>comparisonToleranceMakesSenseNow()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::DistanceMeasurementObject::comparisonToleranceMakesSenseNow </td>
-          <td>(</td>
-          <td class="paramtype">std::size_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Reimplemented from <a class="el" href="classMR_1_1ObjectComparableWithReference.html#a1e8d4d58c0fcf305c54e01b55bd41e2f">MR::ObjectComparableWithReference</a>.</p>
 
 </div>
 </div>

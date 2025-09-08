@@ -1,7 +1,5 @@
 var NAVTREEINDEX56 =
 {
-"classmrmeshpy_1_1NormalsToPoints.html#a59e22bab38049a601d973ab18b59bb64":[6,1,0,0,2,569,2],
-"classmrmeshpy_1_1NormalsToPoints.html#a59e22bab38049a601d973ab18b59bb64":[6,1,1,0,1,569,2],
 "classmrmeshpy_1_1NormalsToPoints.html#a61600269735bb24204f539b990d57ac4":[6,1,0,0,2,569,3],
 "classmrmeshpy_1_1NormalsToPoints.html#a61600269735bb24204f539b990d57ac4":[6,1,1,0,1,569,3],
 "classmrmeshpy_1_1NormalsToPoints.html#accb19720cbd7efc8e98858aee14c2c9a":[6,1,0,0,2,569,1],
@@ -249,5 +247,7 @@ var NAVTREEINDEX56 =
 "classmrmeshpy_1_1ObjMap.html#a85d99bfcdc4d2bea1e1ca6ac8cb75374":[6,1,0,0,2,598,19],
 "classmrmeshpy_1_1ObjMap.html#a85d99bfcdc4d2bea1e1ca6ac8cb75374":[6,1,1,0,1,598,19],
 "classmrmeshpy_1_1ObjMap.html#a894e8c9940a9ef050339f846ca45f624":[6,1,0,0,2,598,22],
-"classmrmeshpy_1_1ObjMap.html#a894e8c9940a9ef050339f846ca45f624":[6,1,1,0,1,598,22]
+"classmrmeshpy_1_1ObjMap.html#a894e8c9940a9ef050339f846ca45f624":[6,1,1,0,1,598,22],
+"classmrmeshpy_1_1ObjMap.html#a9663e8b2e40bc26ccc6983da35b46203":[6,1,0,0,2,598,17],
+"classmrmeshpy_1_1ObjMap.html#a9663e8b2e40bc26ccc6983da35b46203":[6,1,1,0,1,598,17]
 };

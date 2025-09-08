@@ -1,15 +1,5 @@
 var NAVTREEINDEX101 =
 {
-"classmrmeshpy_1_1Vector__TextureId__TextureId.html#ae9e8a893863ee52a0fd5e75cf512ab5f":[6,1,0,0,2,1114,18],
-"classmrmeshpy_1_1Vector__TextureId__TextureId.html#ae9e8a893863ee52a0fd5e75cf512ab5f":[6,1,1,0,1,1114,18],
-"classmrmeshpy_1_1Vector__TextureId__TextureId.html#aeb7f6062bdf1dcd9c3271a51bd2dc990":[6,1,0,0,2,1114,34],
-"classmrmeshpy_1_1Vector__TextureId__TextureId.html#aeb7f6062bdf1dcd9c3271a51bd2dc990":[6,1,1,0,1,1114,34],
-"classmrmeshpy_1_1Vector__TextureId__TextureId.html#afa4951f6e27b3b14ea76f1a1311782c6":[6,1,0,0,2,1114,20],
-"classmrmeshpy_1_1Vector__TextureId__TextureId.html#afa4951f6e27b3b14ea76f1a1311782c6":[6,1,0,0,2,1114,21],
-"classmrmeshpy_1_1Vector__TextureId__TextureId.html#afa4951f6e27b3b14ea76f1a1311782c6":[6,1,1,0,1,1114,20],
-"classmrmeshpy_1_1Vector__TextureId__TextureId.html#afa4951f6e27b3b14ea76f1a1311782c6":[6,1,1,0,1,1114,21],
-"classmrmeshpy_1_1Vector__TextureId__TextureId.html#afd0deb548ccd5228110b88039abb1f35":[6,1,0,0,2,1114,10],
-"classmrmeshpy_1_1Vector__TextureId__TextureId.html#afd0deb548ccd5228110b88039abb1f35":[6,1,1,0,1,1114,10],
 "classmrmeshpy_1_1Vector__Vector__ICPGroupPairs__Id__ICPElemtTag__Id__ICPElemtTag.html":[6,1,0,0,2,1117],
 "classmrmeshpy_1_1Vector__Vector__ICPGroupPairs__Id__ICPElemtTag__Id__ICPElemtTag.html":[6,1,1,0,1,1117],
 "classmrmeshpy_1_1Vector__Vector__ICPGroupPairs__Id__ICPElemtTag__Id__ICPElemtTag.html#a0e24297b98e79671bca44b6604f2781d":[6,1,0,0,2,1117,33],
@@ -249,5 +239,15 @@ var NAVTREEINDEX101 =
 "classmrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__int.html#afbfd82790591d0264a0a07141e4342c9":[6,1,0,0,2,1118,8],
 "classmrmeshpy_1_1Vector__Vector__std__vector__ObjVertId__Id__ICPElemtTag__int.html#afbfd82790591d0264a0a07141e4342c9":[6,1,1,0,1,1118,8],
 "classmrmeshpy_1_1Vector__VertBitSet__ObjId.html":[6,1,0,0,2,1120],
-"classmrmeshpy_1_1Vector__VertBitSet__ObjId.html":[6,1,1,0,1,1120]
+"classmrmeshpy_1_1Vector__VertBitSet__ObjId.html":[6,1,1,0,1,1120],
+"classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#a052a327a733d5382cf22cb76dbf34a82":[6,1,0,0,2,1120,27],
+"classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#a052a327a733d5382cf22cb76dbf34a82":[6,1,1,0,1,1120,27],
+"classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#a21b774511f0e903487e34c247d0dc8d6":[6,1,0,0,2,1120,32],
+"classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#a21b774511f0e903487e34c247d0dc8d6":[6,1,1,0,1,1120,32],
+"classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#a222236af9d86115efec7279d45700835":[6,1,0,0,2,1120,20],
+"classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#a222236af9d86115efec7279d45700835":[6,1,0,0,2,1120,21],
+"classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#a222236af9d86115efec7279d45700835":[6,1,1,0,1,1120,20],
+"classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#a222236af9d86115efec7279d45700835":[6,1,1,0,1,1120,21],
+"classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#a22bc98f8177019445a9044066f0b6060":[6,1,0,0,2,1120,24],
+"classmrmeshpy_1_1Vector__VertBitSet__ObjId.html#a22bc98f8177019445a9044066f0b6060":[6,1,1,0,1,1120,24]
 };

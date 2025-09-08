@@ -1,15 +1,5 @@
 var NAVTREEINDEX128 =
 {
-"classmrmeshpy_1_1std__variant__std__monostate__MeshTriPoint__EdgePoint__Id__VertTag.html":[6,1,0,0,2,836],
-"classmrmeshpy_1_1std__variant__std__monostate__MeshTriPoint__EdgePoint__Id__VertTag.html":[6,1,1,0,1,836],
-"classmrmeshpy_1_1std__variant__std__monostate__MeshTriPoint__EdgePoint__Id__VertTag.html#a04b7ac55c171883894bd959226de581e":[6,1,0,0,2,836,10],
-"classmrmeshpy_1_1std__variant__std__monostate__MeshTriPoint__EdgePoint__Id__VertTag.html#a04b7ac55c171883894bd959226de581e":[6,1,1,0,1,836,10],
-"classmrmeshpy_1_1std__variant__std__monostate__MeshTriPoint__EdgePoint__Id__VertTag.html#a1b4e66d84ea4db2428feb7f20f49999c":[6,1,0,0,2,836,3],
-"classmrmeshpy_1_1std__variant__std__monostate__MeshTriPoint__EdgePoint__Id__VertTag.html#a1b4e66d84ea4db2428feb7f20f49999c":[6,1,1,0,1,836,3],
-"classmrmeshpy_1_1std__variant__std__monostate__MeshTriPoint__EdgePoint__Id__VertTag.html#a2f20d33377f0addb4514a8ed8a9610d6":[6,1,0,0,2,836,7],
-"classmrmeshpy_1_1std__variant__std__monostate__MeshTriPoint__EdgePoint__Id__VertTag.html#a2f20d33377f0addb4514a8ed8a9610d6":[6,1,1,0,1,836,7],
-"classmrmeshpy_1_1std__variant__std__monostate__MeshTriPoint__EdgePoint__Id__VertTag.html#a36948f2042cde89eeb990caf6073a01a":[6,1,0,0,2,836,6],
-"classmrmeshpy_1_1std__variant__std__monostate__MeshTriPoint__EdgePoint__Id__VertTag.html#a36948f2042cde89eeb990caf6073a01a":[6,1,1,0,1,836,6],
 "classmrmeshpy_1_1std__variant__std__monostate__MeshTriPoint__EdgePoint__Id__VertTag.html#a6cb503166ab2e5edc183a6768a6b384a":[6,1,0,0,2,836,4],
 "classmrmeshpy_1_1std__variant__std__monostate__MeshTriPoint__EdgePoint__Id__VertTag.html#a6cb503166ab2e5edc183a6768a6b384a":[6,1,1,0,1,836,4],
 "classmrmeshpy_1_1std__variant__std__monostate__MeshTriPoint__EdgePoint__Id__VertTag.html#a716d0758287d05964ff58b3290baba6a":[6,1,0,0,2,836,9],
@@ -249,5 +239,15 @@ var NAVTREEINDEX128 =
 "classmrmeshpy_1_1std__vector__AABBTreePoints__Node.html#a6299342ed2eeb87673097aab1352fb1f":[6,1,0,0,2,846,13],
 "classmrmeshpy_1_1std__vector__AABBTreePoints__Node.html#a6299342ed2eeb87673097aab1352fb1f":[6,1,1,0,1,846,13],
 "classmrmeshpy_1_1std__vector__AABBTreePoints__Node.html#a63810b5a0855f97a2f2020cd2c37bad0":[6,1,0,0,2,846,4],
-"classmrmeshpy_1_1std__vector__AABBTreePoints__Node.html#a63810b5a0855f97a2f2020cd2c37bad0":[6,1,1,0,1,846,4]
+"classmrmeshpy_1_1std__vector__AABBTreePoints__Node.html#a63810b5a0855f97a2f2020cd2c37bad0":[6,1,1,0,1,846,4],
+"classmrmeshpy_1_1std__vector__AABBTreePoints__Node.html#a8896a336523ba3ed5fb9087ff20d5663":[6,1,0,0,2,846,5],
+"classmrmeshpy_1_1std__vector__AABBTreePoints__Node.html#a8896a336523ba3ed5fb9087ff20d5663":[6,1,1,0,1,846,5],
+"classmrmeshpy_1_1std__vector__AABBTreePoints__Node.html#aacedd3e0c36ba96785d913433edd44da":[6,1,0,0,2,846,8],
+"classmrmeshpy_1_1std__vector__AABBTreePoints__Node.html#aacedd3e0c36ba96785d913433edd44da":[6,1,1,0,1,846,8],
+"classmrmeshpy_1_1std__vector__AABBTreePoints__Node.html#abf4c4e97319e556d3acf5b1e350f1167":[6,1,0,0,2,846,21],
+"classmrmeshpy_1_1std__vector__AABBTreePoints__Node.html#abf4c4e97319e556d3acf5b1e350f1167":[6,1,1,0,1,846,21],
+"classmrmeshpy_1_1std__vector__AABBTreePoints__Node.html#ac06b9d9bdf254addcc5146defcff749b":[6,1,0,0,2,846,14],
+"classmrmeshpy_1_1std__vector__AABBTreePoints__Node.html#ac06b9d9bdf254addcc5146defcff749b":[6,1,1,0,1,846,14],
+"classmrmeshpy_1_1std__vector__AABBTreePoints__Node.html#ac0a9ffe9225cf9fbdb2f6562d9dc7785":[6,1,0,0,2,846,3],
+"classmrmeshpy_1_1std__vector__AABBTreePoints__Node.html#ac0a9ffe9225cf9fbdb2f6562d9dc7785":[6,1,1,0,1,846,3]
 };
