@@ -1,5 +1,12 @@
 var NAVTREEINDEX92 =
 {
+"structMR_1_1TransformControls_1_1VisualParams.html#ac5bfae9a55e1ae115c09b2b2364ca037aae36acbd4827ec18afa3444e42216935":[6,0,1,0,1,749,0,0,0],
+"structMR_1_1TransformControls_1_1VisualParams.html#ac5bfae9a55e1ae115c09b2b2364ca037aae36acbd4827ec18afa3444e42216935":[6,0,2,0,1,732,0,0,0],
+"structMR_1_1TransformControls_1_1VisualParams.html#ac5bfae9a55e1ae115c09b2b2364ca037ac3d2f5d37334dc978fd8b17fc77408a1":[6,0,1,0,1,749,0,0,1],
+"structMR_1_1TransformControls_1_1VisualParams.html#ac5bfae9a55e1ae115c09b2b2364ca037ac3d2f5d37334dc978fd8b17fc77408a1":[6,0,2,0,1,732,0,0,1],
+"structMR_1_1TransformControls_1_1VisualParams.html#acd8740b7982dd1a382270b6374aee8b8":[6,0,1,0,1,749,0,3],
+"structMR_1_1TransformControls_1_1VisualParams.html#acd8740b7982dd1a382270b6374aee8b8":[6,0,2,0,1,732,0,3],
+"structMR_1_1TransformControls_1_1VisualParams.html#ae43b3a461c666eefa1a0f948bd1b4070":[6,0,1,0,1,749,0,4],
 "structMR_1_1TransformControls_1_1VisualParams.html#ae43b3a461c666eefa1a0f948bd1b4070":[6,0,2,0,1,732,0,4],
 "structMR_1_1TransformVdbVolumeResult.html":[6,0,1,0,1,751],
 "structMR_1_1TransformVdbVolumeResult.html":[6,0,2,0,1,734],
@@ -242,12 +249,5 @@ var NAVTREEINDEX92 =
 "structMR_1_1UI_1_1SaveChangesPopupSettings.html#a970fa69e216b42f681e9af3c57aee477":[6,0,1,0,1,41,12,2],
 "structMR_1_1UI_1_1SaveChangesPopupSettings.html#a970fa69e216b42f681e9af3c57aee477":[6,0,2,0,1,25,11,2],
 "structMR_1_1UI_1_1SaveChangesPopupSettings.html#abf35d4bb097cddcc6c3ecb5bb79c1398":[6,0,1,0,1,41,12,0],
-"structMR_1_1UI_1_1SaveChangesPopupSettings.html#abf35d4bb097cddcc6c3ecb5bb79c1398":[6,0,2,0,1,25,11,0],
-"structMR_1_1UI_1_1SaveChangesPopupSettings.html#ad890dd1aa255baed72ae0c64e0006c66":[6,0,1,0,1,41,12,4],
-"structMR_1_1UI_1_1SaveChangesPopupSettings.html#ad890dd1aa255baed72ae0c64e0006c66":[6,0,2,0,1,25,11,4],
-"structMR_1_1UI_1_1SaveChangesPopupSettings.html#afe88334f75c2605ce27940f67c1a5448":[6,0,1,0,1,41,12,6],
-"structMR_1_1UI_1_1SaveChangesPopupSettings.html#afe88334f75c2605ce27940f67c1a5448":[6,0,2,0,1,25,11,6],
-"structMR_1_1UI_1_1SeparatorParams.html":[6,0,1,0,1,41,13],
-"structMR_1_1UI_1_1SeparatorParams.html":[6,0,2,0,1,25,12],
-"structMR_1_1UI_1_1SeparatorParams.html#a45d774a2f55193f4952b880261aaa082":[6,0,1,0,1,41,13,4]
+"structMR_1_1UI_1_1SaveChangesPopupSettings.html#abf35d4bb097cddcc6c3ecb5bb79c1398":[6,0,2,0,1,25,11,0]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX85 =
 {
+"structMR_1_1PickPointManager_1_1Params.html#a53a190ae905fd433a574393eca3095af":[6,0,2,0,1,485,1,16],
+"structMR_1_1PickPointManager_1_1Params.html#a5d35a20b9e47119564dff212d893abb7":[6,0,1,0,1,502,1,14],
+"structMR_1_1PickPointManager_1_1Params.html#a5d35a20b9e47119564dff212d893abb7":[6,0,2,0,1,485,1,14],
+"structMR_1_1PickPointManager_1_1Params.html#a5fea1d890a42ca21cec4e297bf2ae7ed":[6,0,1,0,1,502,1,15],
 "structMR_1_1PickPointManager_1_1Params.html#a5fea1d890a42ca21cec4e297bf2ae7ed":[6,0,2,0,1,485,1,15],
 "structMR_1_1PickPointManager_1_1Params.html#a648a0ae70816ba38a53eb3e858578152":[6,0,1,0,1,502,1,5],
 "structMR_1_1PickPointManager_1_1Params.html#a648a0ae70816ba38a53eb3e858578152":[6,0,2,0,1,485,1,5],
@@ -245,9 +249,5 @@ var NAVTREEINDEX85 =
 "structMR_1_1PointsSave_1_1CtmSavePointsOptions.html#a93bcbf8ddd9c5a89210bf3cf9f8acbef":[6,0,1,0,1,29,0,1],
 "structMR_1_1PointsSave_1_1CtmSavePointsOptions.html#a93bcbf8ddd9c5a89210bf3cf9f8acbef":[6,0,2,0,1,17,0,1],
 "structMR_1_1PointsSave_1_1PointsSaver.html":[6,0,1,0,1,29,1],
-"structMR_1_1PointsSave_1_1PointsSaver.html":[6,0,2,0,1,17,1],
-"structMR_1_1PointsSave_1_1PointsSaver.html#a38cf916ae7e979cab3b2565c5a8e07fd":[6,0,1,0,1,29,1,0],
-"structMR_1_1PointsSave_1_1PointsSaver.html#a38cf916ae7e979cab3b2565c5a8e07fd":[6,0,2,0,1,17,1,0],
-"structMR_1_1PointsSave_1_1PointsSaver.html#a9b76a81c6623b8ff71c897adad0e14d3":[6,0,1,0,1,29,1,1],
-"structMR_1_1PointsSave_1_1PointsSaver.html#a9b76a81c6623b8ff71c897adad0e14d3":[6,0,2,0,1,17,1,1]
+"structMR_1_1PointsSave_1_1PointsSaver.html":[6,0,2,0,1,17,1]
 };

@@ -1,5 +1,8 @@
 var NAVTREEINDEX128 =
 {
+"std__variant__MR__Polynomial__float__0__MR__Polynomial__float__1__MR__Polynomial__float__2__MR__Polynomial______4993_8h.html#af358037e2ceb9b83cc866976ee14ee17":[6,2,1,0,0,0,2,275,14],
+"std__variant__MR__Polynomial__float__0__MR__Polynomial__float__1__MR__Polynomial__float__2__MR__Polynomial______4993_8h.html#af3a707221003454652fe6df0412a942b":[6,2,1,0,0,0,2,275,10],
+"std__variant__MR__Polynomial__float__0__MR__Polynomial__float__1__MR__Polynomial__float__2__MR__Polynomial______4993_8h.html#af80bb541cfbf45fbae52103a7124402a":[6,2,1,0,0,0,2,275,40],
 "std__variant__MR__Polynomial__float__0__MR__Polynomial__float__1__MR__Polynomial__float__2__MR__Polynomial______4993_8h.html#af9405e99dc7f935836f87f8785138544":[6,2,1,0,0,0,2,275,43],
 "std__variant__MR__Polynomial__float__0__MR__Polynomial__float__1__MR__Polynomial__float__2__MR__Polynomial______4993_8h.html#afccaaee85e87e8e99ac37e2f2c97bb6c":[6,2,1,0,0,0,2,275,0],
 "std__variant__MR__Polynomial__float__0__MR__Polynomial__float__1__MR__Polynomial__float__2__MR__Polynomial______4993_8h.html#afdcff056f7260e84bd89560e38aff785":[6,2,1,0,0,0,2,275,35],
@@ -246,8 +249,5 @@ var NAVTREEINDEX128 =
 "std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__FaceTag__MR__Box3f_8h.html#ae890810500955262430c61af80cbd9b8":[6,2,1,0,0,0,2,288,28],
 "std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__FaceTag__MR__Box3f_8h.html#aeba6d70c0e96d3761e4054bb5e4a9805":[6,2,1,0,0,0,2,288,17],
 "std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__FaceTag__MR__Box3f_8h.html#aeca364a54e83c82541bbd28f99f8fb61":[6,2,1,0,0,0,2,288,55],
-"std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__FaceTag__MR__Box3f_8h.html#aeeb63c46b77154793e037097ac285a16":[6,2,1,0,0,0,2,288,35],
-"std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__FaceTag__MR__Box3f_8h.html#af59ff59c25b40f2d4156c700f220a9e4":[6,2,1,0,0,0,2,288,4],
-"std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__FaceTag__MR__Box3f_8h.html#af6bf597750e3f6315deb7d151f892bd2":[6,2,1,0,0,0,2,288,30],
-"std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__FaceTag__MR__Box3f_8h.html#af81e15cbb9c18a578bb5295c936b0246":[6,2,1,0,0,0,2,288,66]
+"std__vector__MR__AABBTreeNode__MR__AABBTreeTraits__MR__FaceTag__MR__Box3f_8h.html#aeeb63c46b77154793e037097ac285a16":[6,2,1,0,0,0,2,288,35]
 };

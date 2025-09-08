@@ -30,6 +30,9 @@ var MRSceneColors_8h =
       [ "MR_SceneColors_Type_UnselectedFeatureDecorations", "MRSceneColors_8h.html#ac9cef54f15d866a97c8c76928c763baba2cd002ee37f7b443b1c73c60ca5db8cb", null ],
       [ "MR_SceneColors_Type_SelectedMeasurements", "MRSceneColors_8h.html#ac9cef54f15d866a97c8c76928c763baba45babb49a6e24a9765ed8ed8ce6c0346", null ],
       [ "MR_SceneColors_Type_UnselectedMeasurements", "MRSceneColors_8h.html#ac9cef54f15d866a97c8c76928c763baba2f0884847a9603f9606ff5a7ffdd95ae", null ],
+      [ "MR_SceneColors_Type_UnselectedMeasurementsX", "MRSceneColors_8h.html#ac9cef54f15d866a97c8c76928c763babaa34e1a27c0174bd5e6b3370e3506cd72", null ],
+      [ "MR_SceneColors_Type_UnselectedMeasurementsY", "MRSceneColors_8h.html#ac9cef54f15d866a97c8c76928c763baba250abd32429f07674d1361251d761c23", null ],
+      [ "MR_SceneColors_Type_UnselectedMeasurementsZ", "MRSceneColors_8h.html#ac9cef54f15d866a97c8c76928c763baba88fd3ee7cfd479bc145d5a868438a918", null ],
       [ "MR_SceneColors_Type_SelectedTemporaryMeasurements", "MRSceneColors_8h.html#ac9cef54f15d866a97c8c76928c763baba489889d4af97e2704ed6a0618855ff78", null ],
       [ "MR_SceneColors_Type_UnselectedTemporaryMeasurements", "MRSceneColors_8h.html#ac9cef54f15d866a97c8c76928c763baba5a87d6cd26182d0a7529a4bc659bfd1b", null ],
       [ "MR_SceneColors_Type_Count", "MRSceneColors_8h.html#ac9cef54f15d866a97c8c76928c763babadc15826e12bef994356ac497642a90e0", null ]

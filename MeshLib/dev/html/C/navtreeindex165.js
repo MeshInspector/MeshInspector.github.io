@@ -1,5 +1,8 @@
 var NAVTREEINDEX165 =
 {
+"std__vector__std__shared__ptr__MR__Object_8h.html#a09b074ff60a9d19775ebb38b904ad768":[6,2,1,0,0,0,2,401,68],
+"std__vector__std__shared__ptr__MR__Object_8h.html#a0af8d366275d7634b32cb6ef7f9639cf":[6,2,1,0,0,0,2,401,70],
+"std__vector__std__shared__ptr__MR__Object_8h.html#a1e37f9fce5ec3bef2b5ae06fe3e66295":[6,2,1,0,0,0,2,401,21],
 "std__vector__std__shared__ptr__MR__Object_8h.html#a20a957a92401ff1f36f5604c69c2a7ad":[6,2,1,0,0,0,2,401,26],
 "std__vector__std__shared__ptr__MR__Object_8h.html#a2111e883fbab82ca0f4f476cd439bf5a":[6,2,1,0,0,0,2,401,8],
 "std__vector__std__shared__ptr__MR__Object_8h.html#a221b46a17d6b30888bee89a64e579e2a":[6,2,1,0,0,0,2,401,40],
@@ -246,8 +249,5 @@ var NAVTREEINDEX165 =
 "std__vector__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitives____cdd2_8h.html#a3b7d1cffb8ec5efa8a17d22576dde2b8":[6,2,1,0,0,0,2,407,4],
 "std__vector__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitives____cdd2_8h.html#a5307c85e0230c68953d5948a7e674ce7":[6,2,1,0,0,0,2,407,64],
 "std__vector__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitives____cdd2_8h.html#a54189c0540cff89f6cf4a781c9d8524a":[6,2,1,0,0,0,2,407,40],
-"std__vector__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitives____cdd2_8h.html#a5ba88e482bc290f473aacd272691664a":[6,2,1,0,0,0,2,407,38],
-"std__vector__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitives____cdd2_8h.html#a5c7d9601e24a59b6ccc618a2d9f9863f":[6,2,1,0,0,0,2,407,29],
-"std__vector__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitives____cdd2_8h.html#a609a802161754241bf9c74bc2da6c4fe":[6,2,1,0,0,0,2,407,45],
-"std__vector__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitives____cdd2_8h.html#a675558f8c38abbb2af7ea37ac67e1e21":[6,2,1,0,0,0,2,407,44]
+"std__vector__std__variant__MR__Sphere3f__MR__Features__Primitives__ConeSegment__MR__Features__Primitives____cdd2_8h.html#a5ba88e482bc290f473aacd272691664a":[6,2,1,0,0,0,2,407,38]
 };
