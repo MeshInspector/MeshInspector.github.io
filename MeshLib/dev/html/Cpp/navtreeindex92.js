@@ -1,5 +1,7 @@
 var NAVTREEINDEX92 =
 {
+"structMR_1_1TransformControls_1_1VisualParams.html#ae43b3a461c666eefa1a0f948bd1b4070":[6,0,2,0,1,732,0,4],
+"structMR_1_1TransformVdbVolumeResult.html":[6,0,1,0,1,751],
 "structMR_1_1TransformVdbVolumeResult.html":[6,0,2,0,1,734],
 "structMR_1_1TransformVdbVolumeResult.html#a6c5d7382162228efb8cb4fb6f8aed424":[6,0,1,0,1,751,0],
 "structMR_1_1TransformVdbVolumeResult.html#a6c5d7382162228efb8cb4fb6f8aed424":[6,0,2,0,1,734,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX92 =
 "structMR_1_1UI_1_1SaveChangesPopupSettings.html#afe88334f75c2605ce27940f67c1a5448":[6,0,2,0,1,25,11,6],
 "structMR_1_1UI_1_1SeparatorParams.html":[6,0,1,0,1,41,13],
 "structMR_1_1UI_1_1SeparatorParams.html":[6,0,2,0,1,25,12],
-"structMR_1_1UI_1_1SeparatorParams.html#a45d774a2f55193f4952b880261aaa082":[6,0,1,0,1,41,13,4],
-"structMR_1_1UI_1_1SeparatorParams.html#a45d774a2f55193f4952b880261aaa082":[6,0,2,0,1,25,12,4],
-"structMR_1_1UI_1_1SeparatorParams.html#a4be657806c20486d8379ad50e45e543d":[6,0,1,0,1,41,13,5]
+"structMR_1_1UI_1_1SeparatorParams.html#a45d774a2f55193f4952b880261aaa082":[6,0,1,0,1,41,13,4]
 };

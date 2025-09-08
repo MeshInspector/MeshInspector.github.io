@@ -3,6 +3,7 @@ var structMR_1_1ImGuiMeasurementIndicators_1_1Text =
     [ "Elem", "structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem.html", "structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem" ],
     [ "Line", "structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Line.html", "structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Line" ],
     [ "ElemVar", "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#ae831e755d5fa4e114cf8d2eaef532bdc", null ],
+    [ "FontFunc", "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#a19713757d96affcc0689ef1f2e484915", null ],
     [ "Text", "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#a58f5f1024004e4faebc6f17c3c1ef67f", null ],
     [ "Text", "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#abe015e8f2eefbaf7c0afec0d91912ec8", null ],
     [ "Text", "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#a629379b7e42a90a23d538c774cd11c2b", null ],

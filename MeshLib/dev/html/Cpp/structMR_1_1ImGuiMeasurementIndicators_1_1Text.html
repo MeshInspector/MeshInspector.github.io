@@ -149,6 +149,7 @@ $(function(){initNavTree('structMR_1_1ImGuiMeasurementIndicators_1_1Text.html','
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="structMR_1_1ImGuiMeasurementIndicators_1_1Text-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR::ImGuiMeasurementIndicators::Text Struct Reference</div></div>
@@ -168,6 +169,8 @@ Classes</h2></td></tr>
 Public Types</h2></td></tr>
 <tr class="memitem:ae831e755d5fa4e114cf8d2eaef532bdc" id="r_ae831e755d5fa4e114cf8d2eaef532bdc"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae831e755d5fa4e114cf8d2eaef532bdc">ElemVar</a> = std::variant&lt;std::string, <a class="el" href="namespaceMR_1_1ImGuiMeasurementIndicators.html#ada21c38059140ab54d2c729c198e39f4">TextIcon</a>, <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1TextColor.html">TextColor</a>, <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1TextFont.html">TextFont</a>&gt;</td></tr>
 <tr class="separator:ae831e755d5fa4e114cf8d2eaef532bdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19713757d96affcc0689ef1f2e484915" id="r_a19713757d96affcc0689ef1f2e484915"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a19713757d96affcc0689ef1f2e484915">FontFunc</a> = std::function&lt;ImFont* ()&gt;</td></tr>
+<tr class="separator:a19713757d96affcc0689ef1f2e484915"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -194,6 +197,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aee162d90e4af3d3177e2e2cf54ba3984" id="r_aee162d90e4af3d3177e2e2cf54ba3984"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee162d90e4af3d3177e2e2cf54ba3984">draw</a> (ImDrawList &amp;list, float menuScaling, ImVec2 pos, const <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1TextColor.html">TextColor</a> &amp;defaultTextColor={}) const</td></tr>
 <tr class="separator:aee162d90e4af3d3177e2e2cf54ba3984"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:ae4cadaf3ea1172a0c335e927b4e6951c" id="r_ae4cadaf3ea1172a0c335e927b4e6951c"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API const <a class="el" href="#a19713757d96affcc0689ef1f2e484915">FontFunc</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4cadaf3ea1172a0c335e927b4e6951c">getStaticDefaultFontFunc</a> ()</td></tr>
+<tr class="separator:ae4cadaf3ea1172a0c335e927b4e6951c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9520cc4aa1cb7fd1b95f885bedd6ce9" id="r_aa9520cc4aa1cb7fd1b95f885bedd6ce9"><td class="memItemLeft" align="right" valign="top">static MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa9520cc4aa1cb7fd1b95f885bedd6ce9">setStaticDefaultFontFunc</a> (<a class="el" href="#a19713757d96affcc0689ef1f2e484915">FontFunc</a> func)</td></tr>
+<tr class="separator:aa9520cc4aa1cb7fd1b95f885bedd6ce9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a99ca3155588713524843ad362ebdf8c4" id="r_a99ca3155588713524843ad362ebdf8c4"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Line.html">Line</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a99ca3155588713524843ad362ebdf8c4">lines</a></td></tr>
@@ -202,7 +212,7 @@ Public Attributes</h2></td></tr>
 <tr class="separator:aa7fcd623acda48ca1c6a59341f2fdaae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af8b5e638410d87130b72445eb3a009cd" id="r_af8b5e638410d87130b72445eb3a009cd"><td class="memItemLeft" align="right" valign="top">ImVec2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af8b5e638410d87130b72445eb3a009cd">align</a></td></tr>
 <tr class="separator:af8b5e638410d87130b72445eb3a009cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ec5f2b6143c640d58dd13e2321ba575" id="r_a6ec5f2b6143c640d58dd13e2321ba575"><td class="memItemLeft" align="right" valign="top">ImFont *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ec5f2b6143c640d58dd13e2321ba575">defaultFont</a> = nullptr</td></tr>
+<tr class="memitem:a6ec5f2b6143c640d58dd13e2321ba575" id="r_a6ec5f2b6143c640d58dd13e2321ba575"><td class="memItemLeft" align="right" valign="top">ImFont *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ec5f2b6143c640d58dd13e2321ba575">defaultFont</a> = <a class="el" href="#ae4cadaf3ea1172a0c335e927b4e6951c">getStaticDefaultFontFunc</a>()()</td></tr>
 <tr class="separator:a6ec5f2b6143c640d58dd13e2321ba575"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ada8abd512f2564b6e933ba4332bdce0c" id="r_ada8abd512f2564b6e933ba4332bdce0c"><td class="memItemLeft" align="right" valign="top">ImVec2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada8abd512f2564b6e933ba4332bdce0c">computedSize</a></td></tr>
 <tr class="separator:ada8abd512f2564b6e933ba4332bdce0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -218,6 +228,20 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="#ae831e755d5fa4e114cf8d2eaef532bdc">MR::ImGuiMeasurementIndicators::Text::ElemVar</a> = std::variant&lt;std::string, <a class="el" href="namespaceMR_1_1ImGuiMeasurementIndicators.html#ada21c38059140ab54d2c729c198e39f4">TextIcon</a>, <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1TextColor.html">TextColor</a>, <a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1TextFont.html">TextFont</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a19713757d96affcc0689ef1f2e484915" name="a19713757d96affcc0689ef1f2e484915"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19713757d96affcc0689ef1f2e484915">&#9670;&#160;</a></span>FontFunc</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#a19713757d96affcc0689ef1f2e484915">MR::ImGuiMeasurementIndicators::Text::FontFunc</a> = std::function&lt;ImFont* ()&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -449,6 +473,31 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ae4cadaf3ea1172a0c335e927b4e6951c" name="ae4cadaf3ea1172a0c335e927b4e6951c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4cadaf3ea1172a0c335e927b4e6951c">&#9670;&#160;</a></span>getStaticDefaultFontFunc()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static MRVIEWER_API const <a class="el" href="#a19713757d96affcc0689ef1f2e484915">FontFunc</a> &amp; MR::ImGuiMeasurementIndicators::Text::getStaticDefaultFontFunc </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="acc827ec3aa0ec6711b73aaca7693bc19" name="acc827ec3aa0ec6711b73aaca7693bc19"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acc827ec3aa0ec6711b73aaca7693bc19">&#9670;&#160;</a></span>isEmpty()</h2>
 
@@ -468,6 +517,31 @@ Public Attributes</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa9520cc4aa1cb7fd1b95f885bedd6ce9" name="aa9520cc4aa1cb7fd1b95f885bedd6ce9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9520cc4aa1cb7fd1b95f885bedd6ce9">&#9670;&#160;</a></span>setStaticDefaultFontFunc()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static MRVIEWER_API void MR::ImGuiMeasurementIndicators::Text::setStaticDefaultFontFunc </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a19713757d96affcc0689ef1f2e484915">FontFunc</a></td>          <td class="paramname"><span class="paramname"><em>func</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -535,7 +609,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">ImFont* MR::ImGuiMeasurementIndicators::Text::defaultFont = nullptr</td>
+          <td class="memname">ImFont* MR::ImGuiMeasurementIndicators::Text::defaultFont = <a class="el" href="#ae4cadaf3ea1172a0c335e927b4e6951c">getStaticDefaultFontFunc</a>()()</td>
         </tr>
       </table>
 </div><div class="memdoc">
