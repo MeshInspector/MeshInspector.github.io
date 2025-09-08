@@ -1,5 +1,7 @@
 var NAVTREEINDEX20 =
 {
+"classMR_1_1BoundarySelectionWidget.html#aa147beb2b8588b8ca21b92d556f7de36":[6,0,1,0,1,87,13],
+"classMR_1_1BoundarySelectionWidget.html#aa147beb2b8588b8ca21b92d556f7de36":[6,0,2,0,1,70,13],
 "classMR_1_1BoundarySelectionWidget.html#ab4f86167c1457d09cd461a0d8a7f4ce1":[6,0,1,0,1,87,4],
 "classMR_1_1BoundarySelectionWidget.html#ab4f86167c1457d09cd461a0d8a7f4ce1":[6,0,2,0,1,70,4],
 "classMR_1_1BoundarySelectionWidget.html#af810f64718c8240669bf5db4a5fa8bb1":[6,0,1,0,1,87,14],
@@ -247,7 +249,5 @@ var NAVTREEINDEX20 =
 "classMR_1_1ChangeObjectAction.html#a74d98addc33191161e4cf6b9adaa55f2":[6,0,0,4,12,2],
 "classMR_1_1ChangeObjectAction.html#abae57c93f1aaa324cd73f0dd5a678718":[6,0,0,4,12,1],
 "classMR_1_1ChangeObjectColorAction.html":[6,0,0,4,0],
-"classMR_1_1ChangeObjectColorAction.html#a0a70aa0463c05950aea6686ecc817d30":[6,0,0,4,0,2],
-"classMR_1_1ChangeObjectColorAction.html#a5474abe2fe0d35caaf558c71cb6847d3":[6,0,0,4,0,0],
-"classMR_1_1ChangeObjectColorAction.html#a8b2119cba575337b8ff6ef6ed838ddad":[6,0,0,4,0,4]
+"classMR_1_1ChangeObjectColorAction.html#a0a70aa0463c05950aea6686ecc817d30":[6,0,0,4,0,2]
 };

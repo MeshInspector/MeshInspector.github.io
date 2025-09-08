@@ -1,5 +1,7 @@
 var NAVTREEINDEX10 =
 {
+"MRMesh_2MRMeshOrPoints_8h.html#a04b00a5eae1214cc2a21d439db0e9c94":[6,0,3,0,0,1,4,217,6],
+"MRMesh_2MRMeshOrPoints_8h.html#a1cee1396ff421f318ed16ffb3a40bcb3":[6,0,3,0,0,1,4,217,7],
 "MRMesh_2MRMeshOrPoints_8h.html#a33f6251b6b8c5fe220e1516c1e30e299":[6,0,3,0,0,1,4,217,4],
 "MRMesh_2MRMeshOrPoints_8h.html#a51c5c9bdf012ab12e360b5e161bb378e":[6,0,3,0,0,1,4,217,3],
 "MRMesh_2MRMeshOrPoints_8h.html#a5420ee2a31ac6b94a7fdd87bd57f93c4":[6,0,3,0,0,1,4,217,8],
@@ -223,8 +225,8 @@ var NAVTREEINDEX10 =
 "MRMoveMeshToVoxelMaxDeriv_8h_source.html":[6,0,3,0,0,1,12,14],
 "MRMoveObjectByMouseImpl_8h.html":[6,0,3,0,0,1,11,49],
 "MRMoveObjectByMouseImpl_8h_source.html":[6,0,3,0,0,1,11,49],
-"MRMoveObjectByMouse_8h.html":[6,0,3,0,0,1,0,0,1],
-"MRMoveObjectByMouse_8h_source.html":[6,0,3,0,0,1,0,0,1],
+"MRMoveObjectByMouse_8h.html":[6,0,3,0,0,1,0,0,2],
+"MRMoveObjectByMouse_8h_source.html":[6,0,3,0,0,1,0,0,2],
 "MRMovementBuildBody_8h.html":[6,0,3,0,0,1,4,238],
 "MRMovementBuildBody_8h.html#abbe08d25a222aedee5d0ac48491e4d05":[6,0,3,0,0,1,4,238,1],
 "MRMovementBuildBody_8h_source.html":[6,0,3,0,0,1,4,238],
@@ -247,7 +249,5 @@ var NAVTREEINDEX10 =
 "MRNotificationType_8h.html#a3ccf27858d11d72a88bdbaf6e9d2b05dae93f994f01c537c4e2f7d8528c3eb5e9":[6,0,3,0,0,1,11,51,0,4],
 "MRNotificationType_8h_source.html":[6,0,3,0,0,1,11,51],
 "MRObjectComparableWithReference_8h.html":[6,0,3,0,0,1,4,246],
-"MRObjectComparableWithReference_8h_source.html":[6,0,3,0,0,1,4,246],
-"MRObjectDimensionsEnum_8h.html":[6,0,3,0,0,1,4,247],
-"MRObjectDimensionsEnum_8h.html#a45937af38b4f2f3950e1922a75ff7ab1":[6,0,3,0,0,1,4,247,3]
+"MRObjectComparableWithReference_8h_source.html":[6,0,3,0,0,1,4,246]
 };

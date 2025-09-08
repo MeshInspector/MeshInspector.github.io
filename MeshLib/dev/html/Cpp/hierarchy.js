@@ -674,6 +674,7 @@ var hierarchy =
       [ "MR::RibbonMenuItem", "classMR_1_1RibbonMenuItem.html", [
         [ "MR::CaptureScreenshotToClipBoardMenuItem", "classMR_1_1CaptureScreenshotToClipBoardMenuItem.html", null ],
         [ "MR::CaptureUIScreenshotMenuItem", "classMR_1_1CaptureUIScreenshotMenuItem.html", null ],
+        [ "MR::DrawViewportWidgetsItem", "classMR_1_1DrawViewportWidgetsItem.html", null ],
         [ "MR::FitDataMenuItem", "classMR_1_1FitDataMenuItem.html", null ],
         [ "MR::FitSelectedObjectsMenuItem", "classMR_1_1FitSelectedObjectsMenuItem.html", null ],
         [ "MR::FitSelectedPrimitivesMenuItem", "classMR_1_1FitSelectedPrimitivesMenuItem.html", null ],
@@ -1067,6 +1068,7 @@ var hierarchy =
     [ "MR::ProjectAttributeParams", "structMR_1_1ProjectAttributeParams.html", null ],
     [ "MR::MeshOrPoints::ProjectionResult", "structMR_1_1MeshOrPoints_1_1ProjectionResult.html", null ],
     [ "MR::Object::ProtectedStruct", "structMR_1_1Object_1_1ProtectedStruct.html", null ],
+    [ "MR::ProvidesViewportWidget", "classMR_1_1ProvidesViewportWidget.html", null ],
     [ "MR::PythonExport", "classMR_1_1PythonExport.html", null ],
     [ "MR::PythonFunctionAdder", "structMR_1_1PythonFunctionAdder.html", null ],
     [ "PythonStreamRedirector< T >", "classPythonStreamRedirector.html", null ],
@@ -1413,6 +1415,7 @@ var hierarchy =
     [ "MR::ViewportProperty< MR::Color >", "classMR_1_1ViewportProperty.html", null ],
     [ "MR::ViewportProperty< MR::XfBasedCache< Box3f > >", "classMR_1_1ViewportProperty.html", null ],
     [ "MR::ViewportProperty< uint8_t >", "classMR_1_1ViewportProperty.html", null ],
+    [ "MR::ProvidesViewportWidget::ViewportWidgetInterface", "structMR_1_1ProvidesViewportWidget_1_1ViewportWidgetInterface.html", null ],
     [ "MR::VisualObjectTag", "structMR_1_1VisualObjectTag.html", null ],
     [ "MR::VisualObjectTagManager", "classMR_1_1VisualObjectTagManager.html", null ],
     [ "MR::TransformControls::VisualParams", "structMR_1_1TransformControls_1_1VisualParams.html", null ],
