@@ -24,6 +24,7 @@ var classMR_1_1SurfacePointWidget =
     [ "reset", "classMR_1_1SurfacePointWidget.html#adbc7a66606acd915861c47e2c89b347e", null ],
     [ "setAutoHover", "classMR_1_1SurfacePointWidget.html#af0454cbea26d720ec55e0e993b62d01b", null ],
     [ "setBaseColor", "classMR_1_1SurfacePointWidget.html#a67378b4ec7b94d338fe63c5d977dd35b", null ],
+    [ "setCanMoveCallback", "classMR_1_1SurfacePointWidget.html#a4b563c703bd7a9f082fd8808411d85de", null ],
     [ "setCurrentPosition", "classMR_1_1SurfacePointWidget.html#a1636e12784d40c8c0e9fd238fa08b998", null ],
     [ "setCurrentPosition", "classMR_1_1SurfacePointWidget.html#a1e2d9f33aba5dcb3e0d9c0dd6ea00e59", null ],
     [ "setEndMoveCallback", "classMR_1_1SurfacePointWidget.html#a13db908e8da8c97e871385cef92ef43d", null ],
@@ -31,7 +32,7 @@ var classMR_1_1SurfacePointWidget =
     [ "setOnMoveCallback", "classMR_1_1SurfacePointWidget.html#a074b1ad08082a7ae08f4ca175e22a4de", null ],
     [ "setParameters", "classMR_1_1SurfacePointWidget.html#a7490f0d419228b077322177f164a2552", null ],
     [ "setStartMoveCallback", "classMR_1_1SurfacePointWidget.html#acf861cead782987809b2abb5be8d1c62", null ],
-    [ "startDragging", "classMR_1_1SurfacePointWidget.html#a8ad9783712fb3b856b5f4c466bebebb2", null ],
+    [ "startDragging", "classMR_1_1SurfacePointWidget.html#a891c52a3ce97b26f444d271f1943378a", null ],
     [ "swapCurrentPosition", "classMR_1_1SurfacePointWidget.html#a2035a5c0ceddd1f622ce5574dd8c12dc", null ],
     [ "toVector3f", "classMR_1_1SurfacePointWidget.html#ad67cc10d46142d987a91f3e113c348c4", null ],
     [ "updateParameters", "classMR_1_1SurfacePointWidget.html#a8d61ebacdd506518179659bb8b8c449b", null ]

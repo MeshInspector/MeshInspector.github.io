@@ -1,5 +1,9 @@
 var NAVTREEINDEX88 =
 {
+"structMR_1_1RenderDimensions_1_1RadiusParams.html#a209f752c72abb3b57f493fdde9dfe41e":[6,0,2,0,1,18,4,5],
+"structMR_1_1RenderDimensions_1_1RadiusParams.html#a6b8dbcb732f8c02e1c86373dbaf198ce":[6,0,1,0,1,32,4,4],
+"structMR_1_1RenderDimensions_1_1RadiusParams.html#a6b8dbcb732f8c02e1c86373dbaf198ce":[6,0,2,0,1,18,4,4],
+"structMR_1_1RenderDimensions_1_1RadiusParams.html#abdf65391e79f7573aa94c2fc65ab7c26":[6,0,1,0,1,32,4,3],
 "structMR_1_1RenderDimensions_1_1RadiusParams.html#abdf65391e79f7573aa94c2fc65ab7c26":[6,0,2,0,1,18,4,3],
 "structMR_1_1RenderDimensions_1_1RadiusParams.html#acbc9da122212ec41904e71d4e3002cc9":[6,0,1,0,1,32,4,0],
 "structMR_1_1RenderDimensions_1_1RadiusParams.html#acbc9da122212ec41904e71d4e3002cc9":[6,0,2,0,1,18,4,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX88 =
 "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aaa3d1106c4606956fa8bf8f24f9db1486":[6,0,0,18,2,0,15],
 "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aab77a9984caf569880644435a85b17f0b":[6,0,0,18,2,0,11],
 "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aac0df0200072fe04b4bdc85cc051c800f":[6,0,0,18,2,0,17],
-"structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aad2861ea5be4d6def67d2bf7855296343":[6,0,0,18,2,0,9],
-"structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aae4f723429576e2b535e52168ac94eda2":[6,0,0,18,2,0,28],
-"structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aaeb82699de3b3185559737804c6043809":[6,0,0,18,2,0,12],
-"structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aaf0e894d9fdff84113b5dd6c028335cce":[6,0,0,18,2,0,18],
-"structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aaf7bd459ca67b79ebf307b377bf7a4f55":[6,0,0,18,2,0,19]
+"structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aad2861ea5be4d6def67d2bf7855296343":[6,0,0,18,2,0,9]
 };

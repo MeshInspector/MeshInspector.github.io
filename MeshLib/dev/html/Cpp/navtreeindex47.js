@@ -1,5 +1,7 @@
 var NAVTREEINDEX47 =
 {
+"classMR_1_1SurfacePointWidget.html#ad925d10fc0ebaadb952aaa7dd07dc0f2add552244171cc5216a36a33f506602d8":[6,0,2,0,1,695,1,4],
+"classMR_1_1SurfacePointWidget.html#adbc7a66606acd915861c47e2c89b347e":[6,0,1,0,1,712,15],
 "classMR_1_1SurfacePointWidget.html#adbc7a66606acd915861c47e2c89b347e":[6,0,2,0,1,695,15],
 "classMR_1_1SurfacePointWidget.html#adf37cc4ca96ed9fd71cd2578f8a46f07":[6,0,1,0,1,712,10],
 "classMR_1_1SurfacePointWidget.html#adf37cc4ca96ed9fd71cd2578f8a46f07":[6,0,2,0,1,695,10],
@@ -247,7 +249,5 @@ var NAVTREEINDEX47 =
 "classMR_1_1TypedBitSet.html#af128e7c662fdfb16768d3f19de265794":[6,0,0,3,3,25],
 "classMR_1_1TypedBitSet.html#af68ef102b7a101a12239b7dcaaad7bf9":[6,0,0,3,3,40],
 "classMR_1_1TypedBitSet.html#af731611c94c36dd23e44c15f8d81127b":[6,0,0,3,3,14],
-"classMR_1_1UI_1_1LabelRectAllocator.html":[6,0,1,0,1,41,6],
-"classMR_1_1UI_1_1LabelRectAllocator.html":[6,0,2,0,1,25,5],
-"classMR_1_1UI_1_1LabelRectAllocator.html#a3b90eb278b5e53756c88dc2464876ed0":[6,0,1,0,1,41,6,0]
+"classMR_1_1UI_1_1LabelRectAllocator.html":[6,0,1,0,1,41,6]
 };
