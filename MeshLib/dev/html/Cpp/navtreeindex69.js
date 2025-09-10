@@ -1,5 +1,11 @@
 var NAVTREEINDEX69 =
 {
+"structMRUniformSamplingSettings.html#a3661faaaac79fa783e93507d114aeea6":[6,0,2,0,67,2],
+"structMRUniformSamplingSettings.html#adf1fd2bf0258a6c592623791f771562d":[6,0,2,0,67,1],
+"structMRUniformSamplingSettings.html#af53ccb0037059b7785056e7d882f9c33":[6,0,2,0,67,3],
+"structMRUniformSamplingSettings.html#afea94f2de617154b2959a6ba91d5fea2":[6,0,2,0,67,0],
+"structMRVarEdgeTri.html":[6,0,2,0,68],
+"structMRVarEdgeTri.html#a401e59856a99802ba3c5c2729c4f2262":[6,0,2,0,68,0],
 "structMRVarEdgeTri.html#a5d4f1ad2e69531960239b7ce730c2a10":[6,0,2,0,68,1],
 "structMRVdbVolume.html":[6,0,2,0,69],
 "structMRVdbVolume.html#a1c5d0db6fc80b1b97e80c6374f2b8304":[6,0,2,0,69,3],
@@ -243,11 +249,5 @@ var NAVTREEINDEX69 =
 "structMR_1_1BaseTiffParameters.html#aaf63d045d0a43afd72404a7a0d4f862fafa28cf323a8d44edbf80f68165f4f75b":[6,0,2,0,1,55,0,1],
 "structMR_1_1BaseTiffParameters.html#accde4306e1b219c38e5ff1880b053701":[6,0,1,0,1,72,4],
 "structMR_1_1BaseTiffParameters.html#accde4306e1b219c38e5ff1880b053701":[6,0,2,0,1,55,4],
-"structMR_1_1BaseTiffParameters.html#adc1dce84dde29a56c33ce9d8fd1e0d8d":[6,0,1,0,1,72,6],
-"structMR_1_1BaseTiffParameters.html#adc1dce84dde29a56c33ce9d8fd1e0d8d":[6,0,2,0,1,55,6],
-"structMR_1_1BasicUiRenderTask.html":[6,0,1,0,1,73],
-"structMR_1_1BasicUiRenderTask.html":[6,0,2,0,1,56],
-"structMR_1_1BasicUiRenderTask.html#a09fdc1e47a7a92974a945bfcc98be400":[6,0,1,0,1,73,3],
-"structMR_1_1BasicUiRenderTask.html#a09fdc1e47a7a92974a945bfcc98be400":[6,0,2,0,1,56,3],
-"structMR_1_1BasicUiRenderTask.html#a0e70a7984fb642613e50942b4f53c724":[6,0,1,0,1,73,9]
+"structMR_1_1BaseTiffParameters.html#adc1dce84dde29a56c33ce9d8fd1e0d8d":[6,0,1,0,1,72,6]
 };

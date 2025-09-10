@@ -1,5 +1,8 @@
 var NAVTREEINDEX48 =
 {
+"classMR_1_1TypedBitSet.html#ac30c3f40695dfa267b8d26108b22f7f2":[6,0,0,3,3,10],
+"classMR_1_1TypedBitSet.html#ac518899e0d130c7defa17020e6531157":[6,0,0,3,3,32],
+"classMR_1_1TypedBitSet.html#acb1f6a8f6fc880f058586b91e7a28f0f":[6,0,0,3,3,5],
 "classMR_1_1TypedBitSet.html#acea394abbd9a933a8c30dcff23618a19":[6,0,0,3,3,2],
 "classMR_1_1TypedBitSet.html#ad17fe6fa8abe77f9c8278efc75c45378":[6,0,0,3,3,36],
 "classMR_1_1TypedBitSet.html#ad9dd330c61eb1ba1e9d9de2595f7553e":[6,0,0,3,3,39],
@@ -246,8 +249,5 @@ var NAVTREEINDEX48 =
 "classMR_1_1Viewer.html#a2b4fb1e2f21f33e213858ab579eb8620":[6,0,1,0,1,791,225],
 "classMR_1_1Viewer.html#a2b4fb1e2f21f33e213858ab579eb8620":[6,0,2,0,1,774,225],
 "classMR_1_1Viewer.html#a2f8bda46d1cd218cc450c9b0f076f2b0":[6,0,1,0,1,791,26],
-"classMR_1_1Viewer.html#a2f8bda46d1cd218cc450c9b0f076f2b0":[6,0,2,0,1,774,26],
-"classMR_1_1Viewer.html#a2f8bda46d1cd218cc450c9b0f076f2b0a0f8baa14654b1f6ef00fed708c7f198a":[6,0,1,0,1,791,26,5],
-"classMR_1_1Viewer.html#a2f8bda46d1cd218cc450c9b0f076f2b0a0f8baa14654b1f6ef00fed708c7f198a":[6,0,2,0,1,774,26,5],
-"classMR_1_1Viewer.html#a2f8bda46d1cd218cc450c9b0f076f2b0a4a18f6017ff7015424784e907c933572":[6,0,1,0,1,791,26,6]
+"classMR_1_1Viewer.html#a2f8bda46d1cd218cc450c9b0f076f2b0":[6,0,2,0,1,774,26]
 };

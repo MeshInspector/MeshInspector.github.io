@@ -60,6 +60,7 @@ var MRUIStyle_8h =
     [ "genericSlider", "MRUIStyle_8h.html#a94d9e7cba8a9ce853aeee7b29b563391", null ],
     [ "getDefaultDragSpeed", "MRUIStyle_8h.html#a797ee2107c897bf2d084fede574e062b", null ],
     [ "getDefaultStep", "MRUIStyle_8h.html#a0b9ea313e9b93469005d3c375b2b9652", null ],
+    [ "getImGuiModPrimaryCtrl", "MRUIStyle_8h.html#ad5f5d8b8b0e1a7192c658352c6b0a4a2", null ],
     [ "getTexture", "MRUIStyle_8h.html#a0d337a1adf7e16aaa08b683a6b65e886", null ],
     [ "highlightWindowArea", "MRUIStyle_8h.html#a0e2d922d2332948836f35b41d188e912", null ],
     [ "init", "MRUIStyle_8h.html#a986e400ed59dea0ae3e54284d9b8d110", null ],

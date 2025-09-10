@@ -62,6 +62,7 @@ var namespaceMR_1_1UI =
     [ "endTabItem", "namespaceMR_1_1UI.html#a321f93b24c9b7d723ce8aec45fe75374", null ],
     [ "getDefaultLabelRectAllocator", "namespaceMR_1_1UI.html#a8782e9cded23844b3ae2138d6287b99c", null ],
     [ "getDefaultWindowRectAllocator", "namespaceMR_1_1UI.html#a5caf1537f165f3557d3f718bfb47a032", null ],
+    [ "getImGuiModPrimaryCtrl", "namespaceMR_1_1UI.html#ad5f5d8b8b0e1a7192c658352c6b0a4a2", null ],
     [ "getTexture", "namespaceMR_1_1UI.html#a0d337a1adf7e16aaa08b683a6b65e886", null ],
     [ "highlightWindowArea", "namespaceMR_1_1UI.html#a0e2d922d2332948836f35b41d188e912", null ],
     [ "init", "namespaceMR_1_1UI.html#a986e400ed59dea0ae3e54284d9b8d110", null ],

@@ -1,5 +1,11 @@
 var NAVTREEINDEX76 =
 {
+"structMR_1_1GcodeProcessor_1_1MoveAction.html#a9c37820f22dbbb3c0a9fc9b01369abbc":[6,0,1,0,1,270,2,1],
+"structMR_1_1GcodeProcessor_1_1MoveAction.html#a9c37820f22dbbb3c0a9fc9b01369abbc":[6,0,2,0,1,253,2,1],
+"structMR_1_1GcodeProcessor_1_1MoveAction.html#afb16d620b32465be3a1f27d50c1640d3":[6,0,1,0,1,270,2,2],
+"structMR_1_1GcodeProcessor_1_1MoveAction.html#afb16d620b32465be3a1f27d50c1640d3":[6,0,2,0,1,253,2,2],
+"structMR_1_1GeneralOffsetParameters.html":[6,0,1,0,1,273],
+"structMR_1_1GeneralOffsetParameters.html":[6,0,2,0,1,256],
 "structMR_1_1GeneralOffsetParameters.html#a32b4506f0ab7b7a76f0e3b1ce34a94d1":[6,0,1,0,1,273,1],
 "structMR_1_1GeneralOffsetParameters.html#a32b4506f0ab7b7a76f0e3b1ce34a94d1":[6,0,2,0,1,256,1],
 "structMR_1_1GeneralOffsetParameters.html#abc2615fd96d188bbdb1407d0cc0e5c84":[6,0,1,0,1,273,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX76 =
 "structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html#a3d5c40490eaf4234be2239ce7055eae5":[6,0,2,0,1,6,1,0],
 "structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html":[6,0,1,0,1,15,2],
 "structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html":[6,0,2,0,1,6,2],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html#a84786fdc043bbc9a3dbcd7613739a8a9":[6,0,1,0,1,15,2,1],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html#a84786fdc043bbc9a3dbcd7613739a8a9":[6,0,2,0,1,6,2,1],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html#aea63e8c86e90a9f540bdce73fd2def7a":[6,0,1,0,1,15,2,2],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html#aea63e8c86e90a9f540bdce73fd2def7a":[6,0,2,0,1,6,2,2],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html#afa94b8b95a6f04c1fd875ef2fa4850ae":[6,0,1,0,1,15,2,0],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html#afa94b8b95a6f04c1fd875ef2fa4850ae":[6,0,2,0,1,6,2,0],
-"structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html#afa94b8b95a6f04c1fd875ef2fa4850aea334c4a4c42fdb79d7ebc3e73b517e6f8":[6,0,1,0,1,15,2,0,0]
+"structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html#a84786fdc043bbc9a3dbcd7613739a8a9":[6,0,1,0,1,15,2,1]
 };

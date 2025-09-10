@@ -1,5 +1,7 @@
 var NAVTREEINDEX14 =
 {
+"MRSelectCurvaturePreference_8h.html#ad7e1f7039c3adef672abd4150bc4786c":[6,0,3,0,0,1,11,105,0],
+"MRSelectCurvaturePreference_8h.html#ad7e1f7039c3adef672abd4150bc4786ca1cb290ed5917afdbf2532bb2bf6f0192":[6,0,3,0,0,1,11,105,0,2],
 "MRSelectCurvaturePreference_8h.html#ad7e1f7039c3adef672abd4150bc4786ca766cae017fab4bcc1d1e83fbb9af87c3":[6,0,3,0,0,1,11,105,0,1],
 "MRSelectCurvaturePreference_8h.html#ad7e1f7039c3adef672abd4150bc4786ca81cda646477dd0d1137c68b398ca755c":[6,0,3,0,0,1,11,105,0,0],
 "MRSelectCurvaturePreference_8h.html#ae6a703f529a05e3f2fa59d68fd266627":[6,0,3,0,0,1,11,105,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX14 =
 "MRSystem_8h.html#aec820d50ac448217d66131a079fce39a":[6,0,3,0,0,1,4,374,17],
 "MRSystem_8h_source.html":[6,0,3,0,0,1,4,374],
 "MRTbbTaskArenaAndGroup_8h.html":[6,0,3,0,0,1,4,376],
-"MRTbbTaskArenaAndGroup_8h_source.html":[6,0,3,0,0,1,4,376],
-"MRTbbThreadMutex_8h.html":[6,0,3,0,0,1,4,377],
-"MRTbbThreadMutex_8h_source.html":[6,0,3,0,0,1,4,377]
+"MRTbbTaskArenaAndGroup_8h_source.html":[6,0,3,0,0,1,4,376]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX5 =
 {
+"MRMeshC_2MRAffineXf_8h.html#a5d2d1be24a2592c0863aa64a34503f30":[6,0,3,0,0,1,5,2,3],
+"MRMeshC_2MRAffineXf_8h.html#a921ebfccf9e023067e8095b7121b5f82":[6,0,3,0,0,1,5,2,1],
 "MRMeshC_2MRAffineXf_8h_source.html":[6,0,3,0,0,1,5,2],
 "MRMeshC_2MRBitSet_8h.html":[6,0,3,0,0,1,5,3],
 "MRMeshC_2MRBitSet_8h.html#a00806cfa09cc691e53a3015019195164":[6,0,3,0,0,1,5,3,14],
@@ -247,7 +249,5 @@ var NAVTREEINDEX5 =
 "MRMeshC_2MRIntersectionContour_8h.html#acb1797a1b6cbdbb4936b6a1140409938":[6,0,3,0,0,1,5,20,0],
 "MRMeshC_2MRIntersectionContour_8h.html#acc8becd254f473f981d1b4db46c0ecbc":[6,0,3,0,0,1,5,20,2],
 "MRMeshC_2MRIntersectionContour_8h_source.html":[6,0,3,0,0,1,5,20],
-"MRMeshC_2MRLaplacian_8h.html":[6,0,3,0,0,1,5,22],
-"MRMeshC_2MRLaplacian_8h.html#a1df7a1de2effd8b82046bec87316d8fb":[6,0,3,0,0,1,5,22,2],
-"MRMeshC_2MRLaplacian_8h.html#a1df7a1de2effd8b82046bec87316d8fbac020ded84ddeccf5b7672d6f8f83b28d":[6,0,3,0,0,1,5,22,2,1]
+"MRMeshC_2MRLaplacian_8h.html":[6,0,3,0,0,1,5,22]
 };

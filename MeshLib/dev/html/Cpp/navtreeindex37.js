@@ -1,5 +1,8 @@
 var NAVTREEINDEX37 =
 {
+"classMR_1_1PartialChangeMeshPointsAction.html#aa9ae6ebb348f154542056d5d1aa82fdd":[6,0,0,4,40,2],
+"classMR_1_1PartialChangeMeshPointsAction.html#abc03fa024908d0b25fe39b99a886a7ee":[6,0,0,4,40,1],
+"classMR_1_1PartialChangeMeshTopologyAction.html":[6,0,0,4,41],
 "classMR_1_1PartialChangeMeshTopologyAction.html#a106d313b24a6ed0b2cc1f7f65bdf2674":[6,0,0,4,41,1],
 "classMR_1_1PartialChangeMeshTopologyAction.html#a401938742b88492ed12d3e7509eed8bc":[6,0,0,4,41,0],
 "classMR_1_1PartialChangeMeshTopologyAction.html#a61706f60c84d69b27d3acf9fdc0673ef":[6,0,0,4,41,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX37 =
 "classMR_1_1PluginUpdateOr.html#ad916bd3dde1ec66ce4c87b223517fc00":[6,0,2,0,1,495,1],
 "classMR_1_1PluginUpdateOr.html#ae8df8724ca459a77b0b3d07ebfbd0f21":[6,0,1,0,1,512,3],
 "classMR_1_1PluginUpdateOr.html#ae8df8724ca459a77b0b3d07ebfbd0f21":[6,0,2,0,1,495,3],
-"classMR_1_1PointAccumulator.html":[6,0,0,0,1,0],
-"classMR_1_1PointAccumulator.html#a13bcaab870ceaab70ec6b3b7d4470185":[6,0,0,0,1,0,1],
-"classMR_1_1PointAccumulator.html#a15a8cf1a4ee07c5e665631a49d310b88":[6,0,0,0,1,0,8],
-"classMR_1_1PointAccumulator.html#a2101603a476d7949c907898b3513fc27":[6,0,0,0,1,0,10]
+"classMR_1_1PointAccumulator.html":[6,0,0,0,1,0]
 };

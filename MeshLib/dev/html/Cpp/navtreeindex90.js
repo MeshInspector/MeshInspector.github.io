@@ -1,5 +1,11 @@
 var NAVTREEINDEX90 =
 {
+"structMR_1_1SortIntersectionsData.html#a3e022423fc25738632598f90c2caf5b1":[6,0,2,0,1,672,0],
+"structMR_1_1SortIntersectionsData.html#a4799d62c8691f94b44fc3c7f3a77bbe4":[6,0,1,0,1,689,1],
+"structMR_1_1SortIntersectionsData.html#a4799d62c8691f94b44fc3c7f3a77bbe4":[6,0,2,0,1,672,1],
+"structMR_1_1SortIntersectionsData.html#a4ffc178d247321fb6150846084fd616a":[6,0,1,0,1,689,3],
+"structMR_1_1SortIntersectionsData.html#a4ffc178d247321fb6150846084fd616a":[6,0,2,0,1,672,3],
+"structMR_1_1SortIntersectionsData.html#a64cd77d679e163bbff985d79336ae2c4":[6,0,1,0,1,689,2],
 "structMR_1_1SortIntersectionsData.html#a64cd77d679e163bbff985d79336ae2c4":[6,0,2,0,1,672,2],
 "structMR_1_1SortIntersectionsData.html#ac190f44f37a1e2b9ece5d869fe02015d":[6,0,1,0,1,689,4],
 "structMR_1_1SortIntersectionsData.html#ac190f44f37a1e2b9ece5d869fe02015d":[6,0,2,0,1,672,4],
@@ -243,11 +249,5 @@ var NAVTREEINDEX90 =
 "structMR_1_1TPMS_1_1MeshParams.html#a5a6fb2eca831e58fb15d74aad5b733d2":[6,0,2,0,1,23,0,0],
 "structMR_1_1TPMS_1_1MeshParams.html#ad13e973b07518eb054cdc8d1052ba389":[6,0,1,0,1,39,0,1],
 "structMR_1_1TPMS_1_1MeshParams.html#ad13e973b07518eb054cdc8d1052ba389":[6,0,2,0,1,23,0,1],
-"structMR_1_1TPMS_1_1VolumeParams.html":[6,0,1,0,1,39,1],
-"structMR_1_1TPMS_1_1VolumeParams.html":[6,0,2,0,1,23,1],
-"structMR_1_1TPMS_1_1VolumeParams.html#a49aabfa467de33562652429066d4df35":[6,0,1,0,1,39,1,0],
-"structMR_1_1TPMS_1_1VolumeParams.html#a49aabfa467de33562652429066d4df35":[6,0,2,0,1,23,1,0],
-"structMR_1_1TPMS_1_1VolumeParams.html#a8c2bf79a9c8945464e8dca5b1e7b382c":[6,0,1,0,1,39,1,1],
-"structMR_1_1TPMS_1_1VolumeParams.html#a8c2bf79a9c8945464e8dca5b1e7b382c":[6,0,2,0,1,23,1,1],
-"structMR_1_1TPMS_1_1VolumeParams.html#ae002af01a491f038f9390b9434ae3ac7":[6,0,1,0,1,39,1,2]
+"structMR_1_1TPMS_1_1VolumeParams.html":[6,0,1,0,1,39,1]
 };

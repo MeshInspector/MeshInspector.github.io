@@ -1,5 +1,7 @@
 var NAVTREEINDEX9 =
 {
+"MRMesh_2MRMeshBuilder_8h.html#a338de61ac0a911470d50fe0f14af05d5":[6,0,3,0,0,1,4,191,3],
+"MRMesh_2MRMeshBuilder_8h.html#a66c0589162941f3fb069c0c629d26137":[6,0,3,0,0,1,4,191,5],
 "MRMesh_2MRMeshBuilder_8h.html#a787b6d63581b071cba69cde55f211cdf":[6,0,3,0,0,1,4,191,8],
 "MRMesh_2MRMeshBuilder_8h.html#aa308a697fa44ab178932733fdab79f16":[6,0,3,0,0,1,4,191,10],
 "MRMesh_2MRMeshBuilder_8h.html#aa50e77069b62348920b62f3484a265a3":[6,0,3,0,0,1,4,191,11],
@@ -247,7 +249,5 @@ var NAVTREEINDEX9 =
 "MRMesh_2MRMeshMeshDistance_8h_source.html":[6,0,3,0,0,1,4,214],
 "MRMesh_2MRMeshMetrics_8h.html":[6,0,3,0,0,1,4,215],
 "MRMesh_2MRMeshMetrics_8h_source.html":[6,0,3,0,0,1,4,215],
-"MRMesh_2MRMeshNormals_8h.html":[6,0,3,0,0,1,4,216],
-"MRMesh_2MRMeshNormals_8h_source.html":[6,0,3,0,0,1,4,216],
-"MRMesh_2MRMeshOrPoints_8h.html":[6,0,3,0,0,1,4,217]
+"MRMesh_2MRMeshNormals_8h.html":[6,0,3,0,0,1,4,216]
 };
