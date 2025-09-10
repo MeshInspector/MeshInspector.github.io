@@ -1,5 +1,13 @@
 var NAVTREEINDEX72 =
 {
+"structMR_1_1DecimatePolylineSettings.html#ad58496f8458d8d5a517ba34926cb0c61":[6,0,0,10,2,0],
+"structMR_1_1DecimatePolylineSettings.html#adce38a07b8b04db0fe998e792e4a6e34":[6,0,0,10,2,6],
+"structMR_1_1DecimatePolylineSettings.html#ae829d8045ed74bf373bd86f2d835151a":[6,0,0,10,2,5],
+"structMR_1_1DecimatePolylineSettings.html#af5825891f4645db66db82c3b6aa2cffe":[6,0,0,10,2,8],
+"structMR_1_1DecimateResult.html":[6,0,0,10,1],
+"structMR_1_1DecimateResult.html#a0150f587c1f6e81b22cf7cf1194daedd":[6,0,0,10,1,3],
+"structMR_1_1DecimateResult.html#a2c8b594ad2bac0e25760edeab9f76623":[6,0,0,10,1,2],
+"structMR_1_1DecimateResult.html#a4080c2ae3d9e15c04989c161cacb96d8":[6,0,0,10,1,1],
 "structMR_1_1DecimateResult.html#a957fcc3b175a446e3a20f7299cd9a1b6":[6,0,0,10,1,0],
 "structMR_1_1DecimateSettings.html":[6,0,0,10,0],
 "structMR_1_1DecimateSettings.html#a0731477e770d3880ed47726b66c43479":[6,0,0,10,0,15],
@@ -241,13 +249,5 @@ var NAVTREEINDEX72 =
 "structMR_1_1DoubleOffsetSettings.html#a7338b38b26ada80c399b32ba147f7ac1":[6,0,1,0,1,206,4],
 "structMR_1_1DoubleOffsetSettings.html#a7338b38b26ada80c399b32ba147f7ac1":[6,0,2,0,1,189,4],
 "structMR_1_1DoubleOffsetSettings.html#aa5cfa224b05a400e1911699259e1b549":[6,0,1,0,1,206,0],
-"structMR_1_1DoubleOffsetSettings.html#aa5cfa224b05a400e1911699259e1b549":[6,0,2,0,1,189,0],
-"structMR_1_1DoubleOffsetSettings.html#ab41301545b4f7cbc6d8c531442b1965c":[6,0,1,0,1,206,2],
-"structMR_1_1DoubleOffsetSettings.html#ab41301545b4f7cbc6d8c531442b1965c":[6,0,2,0,1,189,2],
-"structMR_1_1DoubleOffsetSettings.html#aee042c47f37e1c7b083569430a185ce3":[6,0,1,0,1,206,6],
-"structMR_1_1DoubleOffsetSettings.html#aee042c47f37e1c7b083569430a185ce3":[6,0,2,0,1,189,6],
-"structMR_1_1DragDropListener.html":[6,0,1,0,1,207],
-"structMR_1_1DragDropListener.html":[6,0,2,0,1,190],
-"structMR_1_1DragDropListener.html#a14335ad47979c8d5059dc9c8bb2af252":[6,0,1,0,1,207,2],
-"structMR_1_1DragDropListener.html#a14335ad47979c8d5059dc9c8bb2af252":[6,0,2,0,1,190,2]
+"structMR_1_1DoubleOffsetSettings.html#aa5cfa224b05a400e1911699259e1b549":[6,0,2,0,1,189,0]
 };

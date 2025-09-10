@@ -1,5 +1,13 @@
 var NAVTREEINDEX74 =
 {
+"structMR_1_1EndMillCutter.html#ab507809dfb8f5d7c74c8629fbb94d518a7081aaaca6f0bb0d1f920ba52c6c287c":[6,0,2,0,1,209,0,2],
+"structMR_1_1EndMillCutter.html#ab507809dfb8f5d7c74c8629fbb94d518a745e3db6a7ffd50e1a72b39482f0882d":[6,0,1,0,1,226,0,0],
+"structMR_1_1EndMillCutter.html#ab507809dfb8f5d7c74c8629fbb94d518a745e3db6a7ffd50e1a72b39482f0882d":[6,0,2,0,1,209,0,0],
+"structMR_1_1EndMillCutter.html#ab507809dfb8f5d7c74c8629fbb94d518ae837b737dc29d88107296d9f4aca6b29":[6,0,1,0,1,226,0,3],
+"structMR_1_1EndMillCutter.html#ab507809dfb8f5d7c74c8629fbb94d518ae837b737dc29d88107296d9f4aca6b29":[6,0,2,0,1,209,0,3],
+"structMR_1_1EndMillCutter.html#ab507809dfb8f5d7c74c8629fbb94d518ae93f994f01c537c4e2f7d8528c3eb5e9":[6,0,1,0,1,226,0,4],
+"structMR_1_1EndMillCutter.html#ab507809dfb8f5d7c74c8629fbb94d518ae93f994f01c537c4e2f7d8528c3eb5e9":[6,0,2,0,1,209,0,4],
+"structMR_1_1EndMillCutter.html#ac48d5c8fc78e3aaa89d3614f193fbfd7":[6,0,1,0,1,226,3],
 "structMR_1_1EndMillCutter.html#ac48d5c8fc78e3aaa89d3614f193fbfd7":[6,0,2,0,1,209,3],
 "structMR_1_1EndMillTool.html":[6,0,1,0,1,227],
 "structMR_1_1EndMillTool.html":[6,0,2,0,1,210],
@@ -241,13 +249,5 @@ var NAVTREEINDEX74 =
 "structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1ConeSegment_01_4.html":[6,0,2,0,1,2,1,8],
 "structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1ConeSegment_01_4.html#a5c925dcac2e6ec9e5b0423871da7b408":[6,0,1,0,1,6,1,8,0],
 "structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1ConeSegment_01_4.html#a5c925dcac2e6ec9e5b0423871da7b408":[6,0,2,0,1,2,1,8,0],
-"structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Plane_01_4.html":[6,0,1,0,1,6,1,9],
-"structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Plane_01_4.html":[6,0,2,0,1,2,1,9],
-"structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Plane_01_4.html#ad9c9fcc3b4b9a008d957235987cea8a5":[6,0,1,0,1,6,1,9,0],
-"structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Plane_01_4.html#ad9c9fcc3b4b9a008d957235987cea8a5":[6,0,2,0,1,2,1,9,0],
-"structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Sphere_01_4.html":[6,0,1,0,1,6,1,10],
-"structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Sphere_01_4.html":[6,0,2,0,1,2,1,10],
-"structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Sphere_01_4.html#a79f0e6f0a85464a7427e82777f24552d":[6,0,1,0,1,6,1,10,0],
-"structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Sphere_01_4.html#a79f0e6f0a85464a7427e82777f24552d":[6,0,2,0,1,2,1,10,0],
-"structMR_1_1FileDialogSignals.html":[6,0,1,0,1,241]
+"structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Plane_01_4.html":[6,0,1,0,1,6,1,9]
 };

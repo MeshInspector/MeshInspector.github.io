@@ -1,5 +1,13 @@
 var NAVTREEINDEX73 =
 {
+"structMR_1_1DoubleOffsetSettings.html#ab41301545b4f7cbc6d8c531442b1965c":[6,0,1,0,1,206,2],
+"structMR_1_1DoubleOffsetSettings.html#ab41301545b4f7cbc6d8c531442b1965c":[6,0,2,0,1,189,2],
+"structMR_1_1DoubleOffsetSettings.html#aee042c47f37e1c7b083569430a185ce3":[6,0,1,0,1,206,6],
+"structMR_1_1DoubleOffsetSettings.html#aee042c47f37e1c7b083569430a185ce3":[6,0,2,0,1,189,6],
+"structMR_1_1DragDropListener.html":[6,0,1,0,1,207],
+"structMR_1_1DragDropListener.html":[6,0,2,0,1,190],
+"structMR_1_1DragDropListener.html#a14335ad47979c8d5059dc9c8bb2af252":[6,0,1,0,1,207,2],
+"structMR_1_1DragDropListener.html#a14335ad47979c8d5059dc9c8bb2af252":[6,0,2,0,1,190,2],
 "structMR_1_1DragDropListener.html#a1dd00f41eb2b8a645f37166e8f2efd3b":[6,0,1,0,1,207,1],
 "structMR_1_1DragDropListener.html#a1dd00f41eb2b8a645f37166e8f2efd3b":[6,0,2,0,1,190,1],
 "structMR_1_1DragDropListener.html#a73c49f92cdcdaab7c5112daea50c40e7":[6,0,1,0,1,207,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX73 =
 "structMR_1_1EndMillCutter.html#ab507809dfb8f5d7c74c8629fbb94d518":[6,0,2,0,1,209,0],
 "structMR_1_1EndMillCutter.html#ab507809dfb8f5d7c74c8629fbb94d518a353df421c4fc976e2637061d7a83f601":[6,0,1,0,1,226,0,1],
 "structMR_1_1EndMillCutter.html#ab507809dfb8f5d7c74c8629fbb94d518a353df421c4fc976e2637061d7a83f601":[6,0,2,0,1,209,0,1],
-"structMR_1_1EndMillCutter.html#ab507809dfb8f5d7c74c8629fbb94d518a7081aaaca6f0bb0d1f920ba52c6c287c":[6,0,1,0,1,226,0,2],
-"structMR_1_1EndMillCutter.html#ab507809dfb8f5d7c74c8629fbb94d518a7081aaaca6f0bb0d1f920ba52c6c287c":[6,0,2,0,1,209,0,2],
-"structMR_1_1EndMillCutter.html#ab507809dfb8f5d7c74c8629fbb94d518a745e3db6a7ffd50e1a72b39482f0882d":[6,0,1,0,1,226,0,0],
-"structMR_1_1EndMillCutter.html#ab507809dfb8f5d7c74c8629fbb94d518a745e3db6a7ffd50e1a72b39482f0882d":[6,0,2,0,1,209,0,0],
-"structMR_1_1EndMillCutter.html#ab507809dfb8f5d7c74c8629fbb94d518ae837b737dc29d88107296d9f4aca6b29":[6,0,1,0,1,226,0,3],
-"structMR_1_1EndMillCutter.html#ab507809dfb8f5d7c74c8629fbb94d518ae837b737dc29d88107296d9f4aca6b29":[6,0,2,0,1,209,0,3],
-"structMR_1_1EndMillCutter.html#ab507809dfb8f5d7c74c8629fbb94d518ae93f994f01c537c4e2f7d8528c3eb5e9":[6,0,1,0,1,226,0,4],
-"structMR_1_1EndMillCutter.html#ab507809dfb8f5d7c74c8629fbb94d518ae93f994f01c537c4e2f7d8528c3eb5e9":[6,0,2,0,1,209,0,4],
-"structMR_1_1EndMillCutter.html#ac48d5c8fc78e3aaa89d3614f193fbfd7":[6,0,1,0,1,226,3]
+"structMR_1_1EndMillCutter.html#ab507809dfb8f5d7c74c8629fbb94d518a7081aaaca6f0bb0d1f920ba52c6c287c":[6,0,1,0,1,226,0,2]
 };

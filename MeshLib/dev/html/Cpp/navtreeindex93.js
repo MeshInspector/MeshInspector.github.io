@@ -1,5 +1,13 @@
 var NAVTREEINDEX93 =
 {
+"structMR_1_1TriangulationHelpers_1_1Settings.html#a97127b609f58b4ac11085781558f55f6":[6,0,1,0,1,40,1,8],
+"structMR_1_1TriangulationHelpers_1_1Settings.html#a97127b609f58b4ac11085781558f55f6":[6,0,2,0,1,24,1,8],
+"structMR_1_1TriangulationHelpers_1_1Settings.html#abe33d444027e0033891d8d9d75e52e1f":[6,0,1,0,1,40,1,9],
+"structMR_1_1TriangulationHelpers_1_1Settings.html#abe33d444027e0033891d8d9d75e52e1f":[6,0,2,0,1,24,1,9],
+"structMR_1_1TriangulationHelpers_1_1Settings.html#ad5edcde965a734c44ce7cb176b8784c2":[6,0,1,0,1,40,1,0],
+"structMR_1_1TriangulationHelpers_1_1Settings.html#ad5edcde965a734c44ce7cb176b8784c2":[6,0,2,0,1,24,1,0],
+"structMR_1_1TriangulationHelpers_1_1Settings.html#adaecbf29331f6b90ae2a11acaa0c153a":[6,0,1,0,1,40,1,4],
+"structMR_1_1TriangulationHelpers_1_1Settings.html#adaecbf29331f6b90ae2a11acaa0c153a":[6,0,2,0,1,24,1,4],
 "structMR_1_1TriangulationHelpers_1_1Settings.html#aeadcc460fdb58725f5fd22d6457ea9b2":[6,0,1,0,1,40,1,7],
 "structMR_1_1TriangulationHelpers_1_1Settings.html#aeadcc460fdb58725f5fd22d6457ea9b2":[6,0,2,0,1,24,1,7],
 "structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html":[6,0,0,13,0,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX93 =
 "structMR_1_1UiRenderManager.html#ac9aa7414b4e8a3089cf4ac6c7d413fb2":[6,0,1,0,1,763,2],
 "structMR_1_1UiRenderManager.html#ac9aa7414b4e8a3089cf4ac6c7d413fb2":[6,0,2,0,1,746,2],
 "structMR_1_1UiRenderManager.html#ae586ca77f767a1b38c45269b184c7118":[6,0,1,0,1,763,4],
-"structMR_1_1UiRenderManager.html#ae586ca77f767a1b38c45269b184c7118":[6,0,2,0,1,746,4],
-"structMR_1_1UiRenderManager.html#af9cfebf3c57b3c9b6283d7de32fc4adc":[6,0,1,0,1,763,3],
-"structMR_1_1UiRenderManager.html#af9cfebf3c57b3c9b6283d7de32fc4adc":[6,0,2,0,1,746,3],
-"structMR_1_1UiRenderParams.html":[6,0,1,0,1,764],
-"structMR_1_1UiRenderParams.html":[6,0,2,0,1,747],
-"structMR_1_1UiRenderParams.html#a5f69c0eb3c0590c0bd49dbcdddbc0eca":[6,0,1,0,1,764,2],
-"structMR_1_1UiRenderParams.html#a5f69c0eb3c0590c0bd49dbcdddbc0eca":[6,0,2,0,1,747,2],
-"structMR_1_1UiRenderParams.html#a7db0595bba979c4028be5875ef3e067d":[6,0,1,0,1,764,0],
-"structMR_1_1UiRenderParams.html#a7db0595bba979c4028be5875ef3e067d":[6,0,2,0,1,747,0]
+"structMR_1_1UiRenderManager.html#ae586ca77f767a1b38c45269b184c7118":[6,0,2,0,1,746,4]
 };

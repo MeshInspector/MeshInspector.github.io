@@ -1,5 +1,13 @@
 var NAVTREEINDEX91 =
 {
+"structMR_1_1SurfaceManipulationWidget_1_1Settings.html#a39181874053a773d7db01166de8a0c7b":[6,0,2,0,1,695,0,2],
+"structMR_1_1SurfaceManipulationWidget_1_1Settings.html#ab14405334e68a28589b518f7764d2176":[6,0,1,0,1,712,0,1],
+"structMR_1_1SurfaceManipulationWidget_1_1Settings.html#ab14405334e68a28589b518f7764d2176":[6,0,2,0,1,695,0,1],
+"structMR_1_1SurfaceManipulationWidget_1_1Settings.html#ab3d9e28df35121c177e6e2eead86a43a":[6,0,1,0,1,712,0,4],
+"structMR_1_1SurfaceManipulationWidget_1_1Settings.html#ab3d9e28df35121c177e6e2eead86a43a":[6,0,2,0,1,695,0,4],
+"structMR_1_1SurfaceManipulationWidget_1_1Settings.html#ac91503b98cd4530afb0bafe21f09b924":[6,0,1,0,1,712,0,5],
+"structMR_1_1SurfaceManipulationWidget_1_1Settings.html#ac91503b98cd4530afb0bafe21f09b924":[6,0,2,0,1,695,0,5],
+"structMR_1_1SurfacePointWidget_1_1Parameters.html":[6,0,1,0,1,713,0],
 "structMR_1_1SurfacePointWidget_1_1Parameters.html":[6,0,2,0,1,696,0],
 "structMR_1_1SurfacePointWidget_1_1Parameters.html#a38a5a4681452f28c8f94a4b8f3bf7685":[6,0,1,0,1,713,0,5],
 "structMR_1_1SurfacePointWidget_1_1Parameters.html#a38a5a4681452f28c8f94a4b8f3bf7685":[6,0,2,0,1,696,0,5],
@@ -241,13 +249,5 @@ var NAVTREEINDEX91 =
 "structMR_1_1ToolPathResult.html":[6,0,1,0,1,734],
 "structMR_1_1ToolPathResult.html":[6,0,2,0,1,717],
 "structMR_1_1ToolPathResult.html#a327bcaceb046cef6859ddc1293a47e35":[6,0,1,0,1,734,0],
-"structMR_1_1ToolPathResult.html#a327bcaceb046cef6859ddc1293a47e35":[6,0,2,0,1,717,0],
-"structMR_1_1ToolPathResult.html#a98b818ec1b422fbe35f5efd57ff37a44":[6,0,1,0,1,734,2],
-"structMR_1_1ToolPathResult.html#a98b818ec1b422fbe35f5efd57ff37a44":[6,0,2,0,1,717,2],
-"structMR_1_1ToolPathResult.html#ae495a5fc24540b7eaf1210872ac5fb3e":[6,0,1,0,1,734,1],
-"structMR_1_1ToolPathResult.html#ae495a5fc24540b7eaf1210872ac5fb3e":[6,0,2,0,1,717,1],
-"structMR_1_1TouchEndListener.html":[6,0,1,0,1,735],
-"structMR_1_1TouchEndListener.html":[6,0,2,0,1,718],
-"structMR_1_1TouchEndListener.html#a33e255754fd26beb29b6401dbe1867e2":[6,0,1,0,1,735,3],
-"structMR_1_1TouchEndListener.html#a33e255754fd26beb29b6401dbe1867e2":[6,0,2,0,1,718,3]
+"structMR_1_1ToolPathResult.html#a327bcaceb046cef6859ddc1293a47e35":[6,0,2,0,1,717,0]
 };
