@@ -1,5 +1,15 @@
 var NAVTREEINDEX78 =
 {
+"structMR_1_1InflateSettings.html#a0e7308020ddff9486f3d7673bb03a4b5":[6,0,1,0,1,308,2],
+"structMR_1_1InflateSettings.html#a0e7308020ddff9486f3d7673bb03a4b5":[6,0,2,0,1,291,2],
+"structMR_1_1InflateSettings.html#a2b56de5e320c04500550d57d852fbb7b":[6,0,1,0,1,308,3],
+"structMR_1_1InflateSettings.html#a2b56de5e320c04500550d57d852fbb7b":[6,0,2,0,1,291,3],
+"structMR_1_1InflateSettings.html#a81342d048666014aff4d0999d92c9d50":[6,0,1,0,1,308,1],
+"structMR_1_1InflateSettings.html#a81342d048666014aff4d0999d92c9d50":[6,0,2,0,1,291,1],
+"structMR_1_1InterruptCloseListener.html":[6,0,1,0,1,312],
+"structMR_1_1InterruptCloseListener.html":[6,0,2,0,1,295],
+"structMR_1_1InterruptCloseListener.html#a93d20fb33a5fdc587397d3cbd079d6c7":[6,0,1,0,1,312,1],
+"structMR_1_1InterruptCloseListener.html#a93d20fb33a5fdc587397d3cbd079d6c7":[6,0,2,0,1,295,1],
 "structMR_1_1InterruptCloseListener.html#a9b215bb36d1f025f2b907911acc49542":[6,0,1,0,1,312,0],
 "structMR_1_1InterruptCloseListener.html#a9b215bb36d1f025f2b907911acc49542":[6,0,2,0,1,295,0],
 "structMR_1_1InterruptCloseListener.html#a9cd1676a4e7cfec815de633788a28894":[6,0,1,0,1,312,3],
@@ -239,15 +249,5 @@ var NAVTREEINDEX78 =
 "structMR_1_1MapOrHashMap.html#a2aded678aafca023ae711c2dcad233e5":[6,0,1,0,1,355,5],
 "structMR_1_1MapOrHashMap.html#a2aded678aafca023ae711c2dcad233e5":[6,0,2,0,1,338,5],
 "structMR_1_1MapOrHashMap.html#a3bc5077bb60649a52a86a2736ff6a57e":[6,0,1,0,1,355,4],
-"structMR_1_1MapOrHashMap.html#a3bc5077bb60649a52a86a2736ff6a57e":[6,0,2,0,1,338,4],
-"structMR_1_1MapOrHashMap.html#a6d4eb8a403de0495a024d7afa51cbd6c":[6,0,1,0,1,355,8],
-"structMR_1_1MapOrHashMap.html#a6d4eb8a403de0495a024d7afa51cbd6c":[6,0,2,0,1,338,8],
-"structMR_1_1MapOrHashMap.html#a77ede25bfe03db7b0c3a5176323e042a":[6,0,1,0,1,355,11],
-"structMR_1_1MapOrHashMap.html#a77ede25bfe03db7b0c3a5176323e042a":[6,0,2,0,1,338,11],
-"structMR_1_1MapOrHashMap.html#a7a15020a8ce32845565aeffab264051d":[6,0,1,0,1,355,9],
-"structMR_1_1MapOrHashMap.html#a7a15020a8ce32845565aeffab264051d":[6,0,2,0,1,338,9],
-"structMR_1_1MapOrHashMap.html#a9027fa8effc674e94506993cc5c1ee2e":[6,0,1,0,1,355,7],
-"structMR_1_1MapOrHashMap.html#a9027fa8effc674e94506993cc5c1ee2e":[6,0,2,0,1,338,7],
-"structMR_1_1MapOrHashMap.html#a99f74cd2edd6dab050ffad6466cdf191":[6,0,1,0,1,355,3],
-"structMR_1_1MapOrHashMap.html#a99f74cd2edd6dab050ffad6466cdf191":[6,0,2,0,1,338,3]
+"structMR_1_1MapOrHashMap.html#a3bc5077bb60649a52a86a2736ff6a57e":[6,0,2,0,1,338,4]
 };

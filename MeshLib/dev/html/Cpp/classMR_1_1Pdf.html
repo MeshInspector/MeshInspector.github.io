@@ -172,6 +172,11 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
+<tr class="memitem:a01f53b3d9e1d43e6470addb360f2e893" id="r_a01f53b3d9e1d43e6470addb360f2e893"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01f53b3d9e1d43e6470addb360f2e893">AlignmentHorizontal</a> { <a class="el" href="#a01f53b3d9e1d43e6470addb360f2e893a945d5e233cf7d6240f6b783b36a374ff">Left</a>
+, <a class="el" href="#a01f53b3d9e1d43e6470addb360f2e893a4f1f6016fc9f3f2353c0cc7c67b292bd">Center</a>
+, <a class="el" href="#a01f53b3d9e1d43e6470addb360f2e893a92b09c7c48c520c3c55e497875da437c">Right</a>
+ }</td></tr>
+<tr class="separator:a01f53b3d9e1d43e6470addb360f2e893"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e33eadc4d9e3e7f394dae468da894c5" id="r_a6e33eadc4d9e3e7f394dae468da894c5"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e33eadc4d9e3e7f394dae468da894c5">TableCustomRule</a> = std::function&lt;<a class="el" href="structMR_1_1Pdf_1_1CellCustomParams.html">CellCustomParams</a>( int row, int column, const std::string&amp; cellValueText)&gt;</td></tr>
 <tr class="separator:a6e33eadc4d9e3e7f394dae468da894c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -185,7 +190,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1daea35a2c1a89104e601e2698703aa3" id="r_a1daea35a2c1a89104e601e2698703aa3"><td class="memItemLeft" align="right" valign="top">MRIOEXTRAS_API <a class="el" href="classMR_1_1Pdf.html">Pdf</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1daea35a2c1a89104e601e2698703aa3">operator=</a> (<a class="el" href="classMR_1_1Pdf.html">Pdf</a> <a class="el" href="namespaceMR.html#a24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf">other</a>) noexcept</td></tr>
 <tr class="separator:a1daea35a2c1a89104e601e2698703aa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6fd1a7d1d29456ea75c56e4266869b6" id="r_ae6fd1a7d1d29456ea75c56e4266869b6"><td class="memItemLeft" align="right" valign="top">MRIOEXTRAS_API&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6fd1a7d1d29456ea75c56e4266869b6">~Pdf</a> ()</td></tr>
-<tr class="memdesc:ae6fd1a7d1d29456ea75c56e4266869b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dtor. Automatically do close.  <br /></td></tr>
+<tr class="memdesc:ae6fd1a7d1d29456ea75c56e4266869b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dtor.  <br /></td></tr>
 <tr class="separator:ae6fd1a7d1d29456ea75c56e4266869b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a291a56e9861b5beebfbdc37e96ed0a18" id="r_a291a56e9861b5beebfbdc37e96ed0a18"><td class="memItemLeft" align="right" valign="top">MRIOEXTRAS_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a291a56e9861b5beebfbdc37e96ed0a18">addText</a> (const std::string &amp;text, bool isTitle=false)</td></tr>
 <tr class="separator:a291a56e9861b5beebfbdc37e96ed0a18"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -199,6 +204,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6b4f163cd54edddf7ed416f248944a41" id="r_a6b4f163cd54edddf7ed416f248944a41"><td class="memItemLeft" align="right" valign="top">MRIOEXTRAS_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b4f163cd54edddf7ed416f248944a41">newPage</a> ()</td></tr>
 <tr class="memdesc:a6b4f163cd54edddf7ed416f248944a41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add new pageand move cursor on it.  <br /></td></tr>
 <tr class="separator:a6b4f163cd54edddf7ed416f248944a41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8f3b5dc8632f9d2f88485100f9295aa" id="r_ae8f3b5dc8632f9d2f88485100f9295aa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae8f3b5dc8632f9d2f88485100f9295aa">setNewPageAction</a> (std::function&lt; void(<a class="el" href="classMR_1_1Pdf.html">Pdf</a> &amp;)&gt; action)</td></tr>
+<tr class="memdesc:ae8f3b5dc8632f9d2f88485100f9295aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">set function to customize new page after creation  <br /></td></tr>
+<tr class="separator:ae8f3b5dc8632f9d2f88485100f9295aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc9ed95ae6e1716fd51587b19efa6e06" id="r_abc9ed95ae6e1716fd51587b19efa6e06"><td class="memItemLeft" align="right" valign="top">MRIOEXTRAS_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc9ed95ae6e1716fd51587b19efa6e06">saveToFile</a> (const std::filesystem::path &amp;documentPath)</td></tr>
 <tr class="memdesc:abc9ed95ae6e1716fd51587b19efa6e06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save document to file.  <br /></td></tr>
 <tr class="separator:abc9ed95ae6e1716fd51587b19efa6e06"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -246,6 +254,34 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a01f53b3d9e1d43e6470addb360f2e893" name="a01f53b3d9e1d43e6470addb360f2e893"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01f53b3d9e1d43e6470addb360f2e893">&#9670;&#160;</a></span>AlignmentHorizontal</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="#a01f53b3d9e1d43e6470addb360f2e893">MR::Pdf::AlignmentHorizontal</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a01f53b3d9e1d43e6470addb360f2e893a945d5e233cf7d6240f6b783b36a374ff" name="a01f53b3d9e1d43e6470addb360f2e893a945d5e233cf7d6240f6b783b36a374ff"></a>Left&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a01f53b3d9e1d43e6470addb360f2e893a4f1f6016fc9f3f2353c0cc7c67b292bd" name="a01f53b3d9e1d43e6470addb360f2e893a4f1f6016fc9f3f2353c0cc7c67b292bd"></a>Center&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a01f53b3d9e1d43e6470addb360f2e893a92b09c7c48c520c3c55e497875da437c" name="a01f53b3d9e1d43e6470addb360f2e893a92b09c7c48c520c3c55e497875da437c"></a>Right&#160;</td><td class="fielddoc"></td></tr>
+</table>
 
 </div>
 </div>
@@ -309,7 +345,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Dtor. Automatically do close. </p>
+<p>Dtor. </p>
 
 </div>
 </div>
@@ -692,6 +728,33 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae8f3b5dc8632f9d2f88485100f9295aa" name="ae8f3b5dc8632f9d2f88485100f9295aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8f3b5dc8632f9d2f88485100f9295aa">&#9670;&#160;</a></span>setNewPageAction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR::Pdf::setNewPageAction </td>
+          <td>(</td>
+          <td class="paramtype">std::function&lt; void(<a class="el" href="classMR_1_1Pdf.html">Pdf</a> &amp;)&gt;</td>          <td class="paramname"><span class="paramname"><em>action</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>set function to customize new page after creation </p>
 
 </div>
 </div>

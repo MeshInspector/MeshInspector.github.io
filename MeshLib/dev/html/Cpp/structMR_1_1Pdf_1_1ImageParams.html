@@ -146,6 +146,7 @@ $(function(){initNavTree('structMR_1_1Pdf_1_1ImageParams.html',''); initResizabl
 
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="structMR_1_1Pdf_1_1ImageParams-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR::Pdf::ImageParams Struct Reference</div></div>
@@ -157,6 +158,20 @@ $(function(){initNavTree('structMR_1_1Pdf_1_1ImageParams.html',''); initResizabl
 
 <p><code>#include &lt;<a class="el" href="MRPdf_8h_source.html">MRPdf.h</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:ac62f55dffb41437f678f5417604d361f" id="r_ac62f55dffb41437f678f5417604d361f"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac62f55dffb41437f678f5417604d361f">UniformScale</a> { <a class="el" href="#ac62f55dffb41437f678f5417604d361fa6adf97f83acf6453d4a6a4b1070f3754">None</a>
+, <a class="el" href="#ac62f55dffb41437f678f5417604d361fae82836abadfb4090798de99270897263">FromWidth</a>
+, <a class="el" href="#ac62f55dffb41437f678f5417604d361fa729fb415472b2cb38cf56f33a887f406">FromHeight</a>
+ }</td></tr>
+<tr class="memdesc:ac62f55dffb41437f678f5417604d361f"><td class="mdescLeft">&#160;</td><td class="mdescRight">set height to keep same scale as width scale  <a href="#ac62f55dffb41437f678f5417604d361f">More...</a><br /></td></tr>
+<tr class="separator:ac62f55dffb41437f678f5417604d361f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accc7bf1ce246f1fbd6e61ebc148608da" id="r_accc7bf1ce246f1fbd6e61ebc148608da"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#accc7bf1ce246f1fbd6e61ebc148608da">AlignmentVertical</a> { <a class="el" href="#accc7bf1ce246f1fbd6e61ebc148608daaa4ffdcf0dc1f31b9acaf295d75b51d00">Top</a>
+, <a class="el" href="#accc7bf1ce246f1fbd6e61ebc148608daa4f1f6016fc9f3f2353c0cc7c67b292bd">Center</a>
+, <a class="el" href="#accc7bf1ce246f1fbd6e61ebc148608daa2ad9d63b69c4a10a5cc9cad923133bc4">Bottom</a>
+ }</td></tr>
+<tr class="separator:accc7bf1ce246f1fbd6e61ebc148608da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a5fa291c3e88b0bf52170920882cf86af" id="r_a5fa291c3e88b0bf52170920882cf86af"><td class="memItemLeft" align="right" valign="top">Vector2f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5fa291c3e88b0bf52170920882cf86af">size</a></td></tr>
@@ -164,13 +179,101 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a014a28da293c9397a11d389e7e6659f0" id="r_a014a28da293c9397a11d389e7e6659f0"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a014a28da293c9397a11d389e7e6659f0">caption</a></td></tr>
 <tr class="memdesc:a014a28da293c9397a11d389e7e6659f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">caption if not empty - add caption under marks (if exist) or image.  <br /></td></tr>
 <tr class="separator:a014a28da293c9397a11d389e7e6659f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7989a43bca51c55d5781de9715239128" id="r_a7989a43bca51c55d5781de9715239128"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7989a43bca51c55d5781de9715239128">uniformScaleFromWidth</a> = false</td></tr>
-<tr class="memdesc:a7989a43bca51c55d5781de9715239128"><td class="mdescLeft">&#160;</td><td class="mdescRight">set height to keep same scale as width scale  <br /></td></tr>
-<tr class="separator:a7989a43bca51c55d5781de9715239128"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e2b7315c96386e1c4bf6ac6358ebd12" id="r_a2e2b7315c96386e1c4bf6ac6358ebd12"><td class="memItemLeft" align="right" valign="top">enum <a class="el" href="#ac62f55dffb41437f678f5417604d361f">MR::Pdf::ImageParams::UniformScale</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e2b7315c96386e1c4bf6ac6358ebd12">uniformScale</a> = <a class="el" href="#ac62f55dffb41437f678f5417604d361fa6adf97f83acf6453d4a6a4b1070f3754">UniformScale::None</a></td></tr>
+<tr class="separator:a2e2b7315c96386e1c4bf6ac6358ebd12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4539cd7cb0d2e7178a1c788e1ce4c43b" id="r_a4539cd7cb0d2e7178a1c788e1ce4c43b"><td class="memItemLeft" align="right" valign="top">enum <a class="el" href="#accc7bf1ce246f1fbd6e61ebc148608da">MR::Pdf::ImageParams::AlignmentVertical</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4539cd7cb0d2e7178a1c788e1ce4c43b">alignmentVertical</a> = <a class="el" href="#accc7bf1ce246f1fbd6e61ebc148608daaa4ffdcf0dc1f31b9acaf295d75b51d00">AlignmentVertical::Top</a></td></tr>
+<tr class="separator:a4539cd7cb0d2e7178a1c788e1ce4c43b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a843c1626b5d850e2a8fef83bc77b097e" id="r_a843c1626b5d850e2a8fef83bc77b097e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Pdf.html#a01f53b3d9e1d43e6470addb360f2e893">AlignmentHorizontal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a843c1626b5d850e2a8fef83bc77b097e">alignmentHorizontal</a> = <a class="el" href="classMR_1_1Pdf.html#a01f53b3d9e1d43e6470addb360f2e893a945d5e233cf7d6240f6b783b36a374ff">AlignmentHorizontal::Left</a></td></tr>
+<tr class="separator:a843c1626b5d850e2a8fef83bc77b097e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Parameters to adding image from file. </p>
-</div><h2 class="groupheader">Member Data Documentation</h2>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="accc7bf1ce246f1fbd6e61ebc148608da" name="accc7bf1ce246f1fbd6e61ebc148608da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#accc7bf1ce246f1fbd6e61ebc148608da">&#9670;&#160;</a></span>AlignmentVertical</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="#accc7bf1ce246f1fbd6e61ebc148608da">MR::Pdf::ImageParams::AlignmentVertical</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="accc7bf1ce246f1fbd6e61ebc148608daaa4ffdcf0dc1f31b9acaf295d75b51d00" name="accc7bf1ce246f1fbd6e61ebc148608daaa4ffdcf0dc1f31b9acaf295d75b51d00"></a>Top&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="accc7bf1ce246f1fbd6e61ebc148608daa4f1f6016fc9f3f2353c0cc7c67b292bd" name="accc7bf1ce246f1fbd6e61ebc148608daa4f1f6016fc9f3f2353c0cc7c67b292bd"></a>Center&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="accc7bf1ce246f1fbd6e61ebc148608daa2ad9d63b69c4a10a5cc9cad923133bc4" name="accc7bf1ce246f1fbd6e61ebc148608daa2ad9d63b69c4a10a5cc9cad923133bc4"></a>Bottom&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="ac62f55dffb41437f678f5417604d361f" name="ac62f55dffb41437f678f5417604d361f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac62f55dffb41437f678f5417604d361f">&#9670;&#160;</a></span>UniformScale</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="#ac62f55dffb41437f678f5417604d361f">MR::Pdf::ImageParams::UniformScale</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>set height to keep same scale as width scale </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ac62f55dffb41437f678f5417604d361fa6adf97f83acf6453d4a6a4b1070f3754" name="ac62f55dffb41437f678f5417604d361fa6adf97f83acf6453d4a6a4b1070f3754"></a>None&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac62f55dffb41437f678f5417604d361fae82836abadfb4090798de99270897263" name="ac62f55dffb41437f678f5417604d361fae82836abadfb4090798de99270897263"></a>FromWidth&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac62f55dffb41437f678f5417604d361fa729fb415472b2cb38cf56f33a887f406" name="ac62f55dffb41437f678f5417604d361fa729fb415472b2cb38cf56f33a887f406"></a>FromHeight&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a843c1626b5d850e2a8fef83bc77b097e" name="a843c1626b5d850e2a8fef83bc77b097e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a843c1626b5d850e2a8fef83bc77b097e">&#9670;&#160;</a></span>alignmentHorizontal</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1Pdf.html#a01f53b3d9e1d43e6470addb360f2e893">AlignmentHorizontal</a> MR::Pdf::ImageParams::alignmentHorizontal = <a class="el" href="classMR_1_1Pdf.html#a01f53b3d9e1d43e6470addb360f2e893a945d5e233cf7d6240f6b783b36a374ff">AlignmentHorizontal::Left</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4539cd7cb0d2e7178a1c788e1ce4c43b" name="a4539cd7cb0d2e7178a1c788e1ce4c43b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4539cd7cb0d2e7178a1c788e1ce4c43b">&#9670;&#160;</a></span>alignmentVertical</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#accc7bf1ce246f1fbd6e61ebc148608da">MR::Pdf::ImageParams::AlignmentVertical</a> MR::Pdf::ImageParams::alignmentVertical = <a class="el" href="#accc7bf1ce246f1fbd6e61ebc148608daaa4ffdcf0dc1f31b9acaf295d75b51d00">AlignmentVertical::Top</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a014a28da293c9397a11d389e7e6659f0" name="a014a28da293c9397a11d389e7e6659f0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a014a28da293c9397a11d389e7e6659f0">&#9670;&#160;</a></span>caption</h2>
 
@@ -202,19 +305,17 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a7989a43bca51c55d5781de9715239128" name="a7989a43bca51c55d5781de9715239128"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7989a43bca51c55d5781de9715239128">&#9670;&#160;</a></span>uniformScaleFromWidth</h2>
+<a id="a2e2b7315c96386e1c4bf6ac6358ebd12" name="a2e2b7315c96386e1c4bf6ac6358ebd12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e2b7315c96386e1c4bf6ac6358ebd12">&#9670;&#160;</a></span>uniformScale</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool MR::Pdf::ImageParams::uniformScaleFromWidth = false</td>
+          <td class="memname">enum <a class="el" href="#ac62f55dffb41437f678f5417604d361f">MR::Pdf::ImageParams::UniformScale</a> MR::Pdf::ImageParams::uniformScale = <a class="el" href="#ac62f55dffb41437f678f5417604d361fa6adf97f83acf6453d4a6a4b1070f3754">UniformScale::None</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>set height to keep same scale as width scale </p>
 
 </div>
 </div>

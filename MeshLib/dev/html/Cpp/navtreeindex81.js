@@ -1,5 +1,15 @@
 var NAVTREEINDEX81 =
 {
+"structMR_1_1MeshMeshConverter.html#ae0b30e21de516b46a8786250e234e4bd":[6,0,2,0,1,361,1],
+"structMR_1_1MeshMeshDistanceResult.html":[6,0,0,1,23],
+"structMR_1_1MeshMeshDistanceResult.html#a31d5db7464e13bf1f300593e515875c9":[6,0,0,1,23,2],
+"structMR_1_1MeshMeshDistanceResult.html#ac63fe46e0eee3773c56a65dacf2f15b4":[6,0,0,1,23,0],
+"structMR_1_1MeshMeshDistanceResult.html#aeb2b4c0d5e120181eaa3a706a14f40f9":[6,0,0,1,23,1],
+"structMR_1_1MeshMeshSignedDistanceResult.html":[6,0,0,1,24],
+"structMR_1_1MeshMeshSignedDistanceResult.html#a23af96a4b4cd53382d78f9c0356b4c09":[6,0,0,1,24,1],
+"structMR_1_1MeshMeshSignedDistanceResult.html#a642ae2b2d6307510e4c0d80c5157ebbb":[6,0,0,1,24,0],
+"structMR_1_1MeshMeshSignedDistanceResult.html#abe11291a5f4afd550ef7697c23ba7410":[6,0,0,1,24,2],
+"structMR_1_1MeshNormals.html":[6,0,0,9,5,0],
 "structMR_1_1MeshNormals.html#a856a95674a96dae6b54c40f374500bb5":[6,0,0,9,5,0,0],
 "structMR_1_1MeshNormals.html#a9a227c6a8fb08eab31f2c5f3a8b86a27":[6,0,0,9,5,0,1],
 "structMR_1_1MeshOrPointsXf.html":[6,0,1,0,1,386],
@@ -239,15 +249,5 @@ var NAVTREEINDEX81 =
 "structMR_1_1MetricToAStarPenalty.html#ae78d929b06e35477653b8824ffed2383":[6,0,1,0,1,403,1],
 "structMR_1_1MetricToAStarPenalty.html#ae78d929b06e35477653b8824ffed2383":[6,0,2,0,1,386,1],
 "structMR_1_1MinArg.html":[6,0,1,0,1,404],
-"structMR_1_1MinArg.html":[6,0,2,0,1,387],
-"structMR_1_1MinArg.html#a390b27154863521ab2f36edc39b42011":[6,0,1,0,1,404,0],
-"structMR_1_1MinArg.html#a390b27154863521ab2f36edc39b42011":[6,0,2,0,1,387,0],
-"structMR_1_1MinArg.html#a539cbb55f4a4e7957683ce73c06d5f59":[6,0,1,0,1,404,5],
-"structMR_1_1MinArg.html#a539cbb55f4a4e7957683ce73c06d5f59":[6,0,2,0,1,387,5],
-"structMR_1_1MinArg.html#a731dfaa5ec4094892a6629e4f9c91128":[6,0,1,0,1,404,1],
-"structMR_1_1MinArg.html#a731dfaa5ec4094892a6629e4f9c91128":[6,0,2,0,1,387,1],
-"structMR_1_1MinArg.html#a90ff34f715406ed3ab55e23094cb6141":[6,0,1,0,1,404,2],
-"structMR_1_1MinArg.html#a90ff34f715406ed3ab55e23094cb6141":[6,0,2,0,1,387,2],
-"structMR_1_1MinArg.html#a98309147e2dce0ddfc1339a81e3fb55d":[6,0,1,0,1,404,4],
-"structMR_1_1MinArg.html#a98309147e2dce0ddfc1339a81e3fb55d":[6,0,2,0,1,387,4]
+"structMR_1_1MinArg.html":[6,0,2,0,1,387]
 };

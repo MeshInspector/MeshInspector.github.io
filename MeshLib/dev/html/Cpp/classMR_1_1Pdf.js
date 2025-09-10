@@ -6,6 +6,11 @@ var classMR_1_1Pdf =
     [ "ImageParams", "structMR_1_1Pdf_1_1ImageParams.html", "structMR_1_1Pdf_1_1ImageParams" ],
     [ "PaletteRowStats", "structMR_1_1Pdf_1_1PaletteRowStats.html", "structMR_1_1Pdf_1_1PaletteRowStats" ],
     [ "TableCustomRule", "classMR_1_1Pdf.html#a6e33eadc4d9e3e7f394dae468da894c5", null ],
+    [ "AlignmentHorizontal", "classMR_1_1Pdf.html#a01f53b3d9e1d43e6470addb360f2e893", [
+      [ "Left", "classMR_1_1Pdf.html#a01f53b3d9e1d43e6470addb360f2e893a945d5e233cf7d6240f6b783b36a374ff", null ],
+      [ "Center", "classMR_1_1Pdf.html#a01f53b3d9e1d43e6470addb360f2e893a4f1f6016fc9f3f2353c0cc7c67b292bd", null ],
+      [ "Right", "classMR_1_1Pdf.html#a01f53b3d9e1d43e6470addb360f2e893a92b09c7c48c520c3c55e497875da437c", null ]
+    ] ],
     [ "Pdf", "classMR_1_1Pdf.html#a9f0c7ef105e92a128194a9adfc92d221", null ],
     [ "Pdf", "classMR_1_1Pdf.html#aee0d3ee8980ff7e8cfd1d6e28aee30a0", null ],
     [ "~Pdf", "classMR_1_1Pdf.html#ae6fd1a7d1d29456ea75c56e4266869b6", null ],
@@ -28,6 +33,7 @@ var classMR_1_1Pdf =
     [ "setColumnValuesFormat", "classMR_1_1Pdf.html#a46f8ba492e1e579c5577c40304761698", null ],
     [ "setCursorPosX", "classMR_1_1Pdf.html#a2d50ce4fd99aacbb45dbd1c55bcaef48", null ],
     [ "setCursorPosY", "classMR_1_1Pdf.html#abf4d77cea93bab673b2b6cf427789622", null ],
+    [ "setNewPageAction", "classMR_1_1Pdf.html#ae8f3b5dc8632f9d2f88485100f9295aa", null ],
     [ "setTableColumnWidths", "classMR_1_1Pdf.html#ac86cc8971f93f1f4b2aef2eace885b2b", null ],
     [ "setTableCustomRule", "classMR_1_1Pdf.html#a390764a2cd1ac5662384be6f8151a476", null ]
 ];

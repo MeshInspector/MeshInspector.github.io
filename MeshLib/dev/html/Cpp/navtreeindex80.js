@@ -1,5 +1,15 @@
 var NAVTREEINDEX80 =
 {
+"structMR_1_1Mesh.html#a0362095ba2aeef52de9f42ffa78756a0":[6,0,0,7,1,98],
+"structMR_1_1Mesh.html#a03632276528ce953490a2111a5280c7c":[6,0,0,7,1,12],
+"structMR_1_1Mesh.html#a08b8517dc08f3f1509ff3a0deb390e82":[6,0,0,7,1,35],
+"structMR_1_1Mesh.html#a08c67e01e6197aebd5f2407cc1571c89":[6,0,0,7,1,69],
+"structMR_1_1Mesh.html#a08e825f78e748198301ee280cbb88b9c":[6,0,0,7,1,58],
+"structMR_1_1Mesh.html#a091677e4ef6993ac15490326ebcc1c78":[6,0,0,7,1,20],
+"structMR_1_1Mesh.html#a097d63092885e790e360319635cf3b86":[6,0,0,7,1,17],
+"structMR_1_1Mesh.html#a0ddf4af17627f59df39990e32ea87c04":[6,0,0,7,1,15],
+"structMR_1_1Mesh.html#a0e4c897582e70d319407854dae664a39":[6,0,0,7,1,27],
+"structMR_1_1Mesh.html#a0fdc9e5969b065b761018ff5cb0a43a5":[6,0,0,7,1,75],
 "structMR_1_1Mesh.html#a12917935a6261c2bbffbcc979a91abde":[6,0,0,7,1,100],
 "structMR_1_1Mesh.html#a129593cd8a305c93e60d945df893d20a":[6,0,0,7,1,81],
 "structMR_1_1Mesh.html#a15fe46302ae352c7822987de4ab6d9e3":[6,0,0,7,1,29],
@@ -239,15 +249,5 @@ var NAVTREEINDEX80 =
 "structMR_1_1MeshMeshConverter.html#a9bd956d7adf45e7f09fe6105d37a84cb":[6,0,2,0,1,361,2],
 "structMR_1_1MeshMeshConverter.html#abd3cf3ce0157d556dc8e8dec4228137d":[6,0,1,0,1,378,0],
 "structMR_1_1MeshMeshConverter.html#abd3cf3ce0157d556dc8e8dec4228137d":[6,0,2,0,1,361,0],
-"structMR_1_1MeshMeshConverter.html#ae0b30e21de516b46a8786250e234e4bd":[6,0,1,0,1,378,1],
-"structMR_1_1MeshMeshConverter.html#ae0b30e21de516b46a8786250e234e4bd":[6,0,2,0,1,361,1],
-"structMR_1_1MeshMeshDistanceResult.html":[6,0,0,1,23],
-"structMR_1_1MeshMeshDistanceResult.html#a31d5db7464e13bf1f300593e515875c9":[6,0,0,1,23,2],
-"structMR_1_1MeshMeshDistanceResult.html#ac63fe46e0eee3773c56a65dacf2f15b4":[6,0,0,1,23,0],
-"structMR_1_1MeshMeshDistanceResult.html#aeb2b4c0d5e120181eaa3a706a14f40f9":[6,0,0,1,23,1],
-"structMR_1_1MeshMeshSignedDistanceResult.html":[6,0,0,1,24],
-"structMR_1_1MeshMeshSignedDistanceResult.html#a23af96a4b4cd53382d78f9c0356b4c09":[6,0,0,1,24,1],
-"structMR_1_1MeshMeshSignedDistanceResult.html#a642ae2b2d6307510e4c0d80c5157ebbb":[6,0,0,1,24,0],
-"structMR_1_1MeshMeshSignedDistanceResult.html#abe11291a5f4afd550ef7697c23ba7410":[6,0,0,1,24,2],
-"structMR_1_1MeshNormals.html":[6,0,0,9,5,0]
+"structMR_1_1MeshMeshConverter.html#ae0b30e21de516b46a8786250e234e4bd":[6,0,1,0,1,378,1]
 };

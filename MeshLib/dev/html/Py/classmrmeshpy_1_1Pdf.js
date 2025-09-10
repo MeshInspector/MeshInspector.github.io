@@ -1,5 +1,6 @@
 var classmrmeshpy_1_1Pdf =
 [
+    [ "AlignmentHorizontal", "classmrmeshpy_1_1Pdf_1_1AlignmentHorizontal.html", "classmrmeshpy_1_1Pdf_1_1AlignmentHorizontal" ],
     [ "Cell", "classmrmeshpy_1_1Pdf_1_1Cell.html", "classmrmeshpy_1_1Pdf_1_1Cell" ],
     [ "CellCustomParams", "classmrmeshpy_1_1Pdf_1_1CellCustomParams.html", "classmrmeshpy_1_1Pdf_1_1CellCustomParams" ],
     [ "EmptyCell", "classmrmeshpy_1_1Pdf_1_1EmptyCell.html", "classmrmeshpy_1_1Pdf_1_1EmptyCell" ],
@@ -25,6 +26,7 @@ var classmrmeshpy_1_1Pdf =
     [ "setColumnValuesFormat", "classmrmeshpy_1_1Pdf.html#afc026fdbf0e82b49ad18e189378e2777", null ],
     [ "setCursorPosX", "classmrmeshpy_1_1Pdf.html#a686eeef34847933b5a1b10ff61bea26e", null ],
     [ "setCursorPosY", "classmrmeshpy_1_1Pdf.html#acd02be45110227755d4aadb62b54792b", null ],
+    [ "setNewPageAction", "classmrmeshpy_1_1Pdf.html#aac1426ad439b29e5fdbb6799c4cd05ba", null ],
     [ "setTableColumnWidths", "classmrmeshpy_1_1Pdf.html#a24ffc751976a1bcf9d5041e022b7e3f9", null ],
     [ "setTableCustomRule", "classmrmeshpy_1_1Pdf.html#aaa28e810e52fb78dd6718a5f70e04cd0", null ]
 ];
