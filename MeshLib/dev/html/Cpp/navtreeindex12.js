@@ -247,7 +247,7 @@ var NAVTREEINDEX12 =
 "MRRegularGridMesh_8h_source.html":[6,0,3,0,0,1,4,334],
 "MRRegularMapMesher_8h.html":[6,0,3,0,0,1,4,335],
 "MRRegularMapMesher_8h_source.html":[6,0,3,0,0,1,4,335],
-"MRRenderDefaultObjects_8h.html":[6,0,3,0,0,1,11,67],
-"MRRenderDefaultObjects_8h.html#aa5d866485e96941a542d624ba6cc6f4b":[6,0,3,0,0,1,11,67,1],
-"MRRenderDefaultObjects_8h_source.html":[6,0,3,0,0,1,11,67]
+"MRRenderClickableRect_8h.html":[6,0,3,0,0,1,11,67],
+"MRRenderClickableRect_8h_source.html":[6,0,3,0,0,1,11,67],
+"MRRenderDefaultObjects_8h.html":[6,0,3,0,0,1,11,68]
 };

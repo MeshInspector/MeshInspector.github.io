@@ -70,13 +70,18 @@ var annotated_dup =
       [ "ImGuiMeasurementIndicators", "namespaceMR_1_1ImGuiMeasurementIndicators.html", [
         [ "CurveParams", "structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html", "structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams" ],
         [ "DistanceParams", "structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html", "structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams" ],
+        [ "DistanceResult", "structMR_1_1ImGuiMeasurementIndicators_1_1DistanceResult.html", "structMR_1_1ImGuiMeasurementIndicators_1_1DistanceResult" ],
         [ "LineCap", "structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html", "structMR_1_1ImGuiMeasurementIndicators_1_1LineCap" ],
         [ "LineParams", "structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html", "structMR_1_1ImGuiMeasurementIndicators_1_1LineParams" ],
+        [ "LineResult", "structMR_1_1ImGuiMeasurementIndicators_1_1LineResult.html", "structMR_1_1ImGuiMeasurementIndicators_1_1LineResult" ],
         [ "Params", "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html", "structMR_1_1ImGuiMeasurementIndicators_1_1Params" ],
         [ "PreparedCurve", "structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve.html", "structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve" ],
+        [ "Stipple", "structMR_1_1ImGuiMeasurementIndicators_1_1Stipple.html", "structMR_1_1ImGuiMeasurementIndicators_1_1Stipple" ],
         [ "Text", "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html", "structMR_1_1ImGuiMeasurementIndicators_1_1Text" ],
         [ "TextColor", "structMR_1_1ImGuiMeasurementIndicators_1_1TextColor.html", "structMR_1_1ImGuiMeasurementIndicators_1_1TextColor" ],
-        [ "TextFont", "structMR_1_1ImGuiMeasurementIndicators_1_1TextFont.html", "structMR_1_1ImGuiMeasurementIndicators_1_1TextFont" ]
+        [ "TextFont", "structMR_1_1ImGuiMeasurementIndicators_1_1TextFont.html", "structMR_1_1ImGuiMeasurementIndicators_1_1TextFont" ],
+        [ "TextParams", "structMR_1_1ImGuiMeasurementIndicators_1_1TextParams.html", "structMR_1_1ImGuiMeasurementIndicators_1_1TextParams" ],
+        [ "TextResult", "structMR_1_1ImGuiMeasurementIndicators_1_1TextResult.html", "structMR_1_1ImGuiMeasurementIndicators_1_1TextResult" ]
       ] ],
       [ "LinesLoad", "namespaceMR_1_1LinesLoad.html", [
         [ "LinesLoader", "structMR_1_1LinesLoad_1_1LinesLoader.html", "structMR_1_1LinesLoad_1_1LinesLoader" ]
@@ -136,6 +141,7 @@ var annotated_dup =
       [ "RenderDimensions", "namespaceMR_1_1RenderDimensions.html", [
         [ "AngleParams", "structMR_1_1RenderDimensions_1_1AngleParams.html", "structMR_1_1RenderDimensions_1_1AngleParams" ],
         [ "AngleTask", "classMR_1_1RenderDimensions_1_1AngleTask.html", "classMR_1_1RenderDimensions_1_1AngleTask" ],
+        [ "CommonParams", "structMR_1_1RenderDimensions_1_1CommonParams.html", "structMR_1_1RenderDimensions_1_1CommonParams" ],
         [ "LengthParams", "structMR_1_1RenderDimensions_1_1LengthParams.html", "structMR_1_1RenderDimensions_1_1LengthParams" ],
         [ "LengthTask", "classMR_1_1RenderDimensions_1_1LengthTask.html", "classMR_1_1RenderDimensions_1_1LengthTask" ],
         [ "RadiusParams", "structMR_1_1RenderDimensions_1_1RadiusParams.html", "structMR_1_1RenderDimensions_1_1RadiusParams" ],
@@ -254,6 +260,7 @@ var annotated_dup =
       [ "BaseRenderParams", "structMR_1_1BaseRenderParams.html", "structMR_1_1BaseRenderParams" ],
       [ "BaseShellParameters", "structMR_1_1BaseShellParameters.html", "structMR_1_1BaseShellParameters" ],
       [ "BaseTiffParameters", "structMR_1_1BaseTiffParameters.html", "structMR_1_1BaseTiffParameters" ],
+      [ "BasicClickableRectUiRenderTask", "classMR_1_1BasicClickableRectUiRenderTask.html", "classMR_1_1BasicClickableRectUiRenderTask" ],
       [ "BasicUiRenderTask", "structMR_1_1BasicUiRenderTask.html", "structMR_1_1BasicUiRenderTask" ],
       [ "BasinVolumeCalculator", "classMR_1_1BasinVolumeCalculator.html", "classMR_1_1BasinVolumeCalculator" ],
       [ "BestFitParabola", "classMR_1_1BestFitParabola.html", "classMR_1_1BestFitParabola" ],

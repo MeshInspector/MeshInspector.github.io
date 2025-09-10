@@ -192,6 +192,7 @@ var namespaceMR =
     [ "BaseRenderParams", "structMR_1_1BaseRenderParams.html", "structMR_1_1BaseRenderParams" ],
     [ "BaseShellParameters", "structMR_1_1BaseShellParameters.html", "structMR_1_1BaseShellParameters" ],
     [ "BaseTiffParameters", "structMR_1_1BaseTiffParameters.html", "structMR_1_1BaseTiffParameters" ],
+    [ "BasicClickableRectUiRenderTask", "classMR_1_1BasicClickableRectUiRenderTask.html", "classMR_1_1BasicClickableRectUiRenderTask" ],
     [ "BasicUiRenderTask", "structMR_1_1BasicUiRenderTask.html", "structMR_1_1BasicUiRenderTask" ],
     [ "BasinVolumeCalculator", "classMR_1_1BasinVolumeCalculator.html", "classMR_1_1BasinVolumeCalculator" ],
     [ "BestFitParabola", "classMR_1_1BestFitParabola.html", "classMR_1_1BestFitParabola" ],

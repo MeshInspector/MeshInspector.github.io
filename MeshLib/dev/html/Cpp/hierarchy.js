@@ -103,9 +103,11 @@ var hierarchy =
       [ "MR::Features::MeasureResult::Distance", "structMR_1_1Features_1_1MeasureResult_1_1Distance.html", null ]
     ] ],
     [ "MR::BasicUiRenderTask", "structMR_1_1BasicUiRenderTask.html", [
-      [ "MR::RenderDimensions::AngleTask", "classMR_1_1RenderDimensions_1_1AngleTask.html", null ],
-      [ "MR::RenderDimensions::LengthTask", "classMR_1_1RenderDimensions_1_1LengthTask.html", null ],
-      [ "MR::RenderDimensions::RadiusTask", "classMR_1_1RenderDimensions_1_1RadiusTask.html", null ],
+      [ "MR::BasicClickableRectUiRenderTask", "classMR_1_1BasicClickableRectUiRenderTask.html", [
+        [ "MR::RenderDimensions::AngleTask", "classMR_1_1RenderDimensions_1_1AngleTask.html", null ],
+        [ "MR::RenderDimensions::LengthTask", "classMR_1_1RenderDimensions_1_1LengthTask.html", null ],
+        [ "MR::RenderDimensions::RadiusTask", "classMR_1_1RenderDimensions_1_1RadiusTask.html", null ]
+      ] ],
       [ "MR::UI::NonOverlappingLabelTask", "classMR_1_1UI_1_1NonOverlappingLabelTask.html", null ]
     ] ],
     [ "MR::ImGuiMath::BasicVectorCompareHelper< Derived, A, All >", "structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper.html", null ],
@@ -205,6 +207,7 @@ var hierarchy =
     [ "MR::ColorTheme", "classMR_1_1ColorTheme.html", null ],
     [ "MR::GcodeProcessor::Command", "structMR_1_1GcodeProcessor_1_1Command.html", null ],
     [ "MR::CommandLoop", "classMR_1_1CommandLoop.html", null ],
+    [ "MR::RenderDimensions::CommonParams", "structMR_1_1RenderDimensions_1_1CommonParams.html", null ],
     [ "MR::ImGuiMath::detail::CommonVecSize< T, P... >", "structMR_1_1ImGuiMath_1_1detail_1_1CommonVecSize_3_01T_00_01P_8_8_8_01_4.html", null ],
     [ "MR::ObjectComparableWithReference::ComparableProperty", "structMR_1_1ObjectComparableWithReference_1_1ComparableProperty.html", null ],
     [ "MR::ObjectComparableWithReference::ComparisonReferenceValue", "structMR_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue.html", null ],
@@ -322,6 +325,7 @@ var hierarchy =
     [ "MR::DistanceMapSaveSettings", "structMR_1_1DistanceMapSaveSettings.html", null ],
     [ "MR::DistanceMapToWorld", "structMR_1_1DistanceMapToWorld.html", null ],
     [ "MR::ImGuiMeasurementIndicators::DistanceParams", "structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html", null ],
+    [ "MR::ImGuiMeasurementIndicators::DistanceResult", "structMR_1_1ImGuiMeasurementIndicators_1_1DistanceResult.html", null ],
     [ "MR::DistanceToMeshOptions", "structMR_1_1DistanceToMeshOptions.html", [
       [ "MR::SignedDistanceToMeshOptions", "structMR_1_1SignedDistanceToMeshOptions.html", null ]
     ] ],
@@ -334,6 +338,7 @@ var hierarchy =
     [ "MR::DoubleOffsetSettings", "structMR_1_1DoubleOffsetSettings.html", null ],
     [ "MR::DrawButtonParams", "structMR_1_1DrawButtonParams.html", null ],
     [ "MR::RibbonMenu::DrawGroupConfig", "structMR_1_1RibbonMenu_1_1DrawGroupConfig.html", null ],
+    [ "MR::ImGuiMeasurementIndicators::Text::DrawResult", "structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1DrawResult.html", null ],
     [ "boost::dynamic_bitset", null, [
       [ "MR::BitSet", "classMR_1_1BitSet.html", [
         [ "MR::TypedBitSet< I >", "classMR_1_1TypedBitSet.html", null ]
@@ -731,6 +736,7 @@ var hierarchy =
     [ "MR::ImGuiMeasurementIndicators::LineCap", "structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html", null ],
     [ "MR::LineInterpolationParams", "structMR_1_1LineInterpolationParams.html", null ],
     [ "MR::ImGuiMeasurementIndicators::LineParams", "structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html", null ],
+    [ "MR::ImGuiMeasurementIndicators::LineResult", "structMR_1_1ImGuiMeasurementIndicators_1_1LineResult.html", null ],
     [ "MR::LineSegm< V >", "structMR_1_1LineSegm.html", null ],
     [ "MR::LinesLoad::LinesLoader", "structMR_1_1LinesLoad_1_1LinesLoader.html", null ],
     [ "MR::LinesLoadSettings", "structMR_1_1LinesLoadSettings.html", null ],
@@ -1166,6 +1172,7 @@ var hierarchy =
     [ "MR::RibbonSchemaHolder::SearchResult", "structMR_1_1RibbonSchemaHolder_1_1SearchResult.html", null ],
     [ "MR::RibbonSchemaHolder::SearchResultWeight", "structMR_1_1RibbonSchemaHolder_1_1SearchResultWeight.html", null ],
     [ "MR::SegmEndColors", "structMR_1_1SegmEndColors.html", null ],
+    [ "MR::ImGuiMeasurementIndicators::Stipple::Segment", "structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1_1Segment.html", null ],
     [ "MR::SegmentSegmentIntersectResult", "structMR_1_1SegmentSegmentIntersectResult.html", null ],
     [ "MR::SegmPoint< T >", "structMR_1_1SegmPoint.html", null ],
     [ "MR::ImGuiMenu::SelectionInformationStyle", "structMR_1_1ImGuiMenu_1_1SelectionInformationStyle.html", null ],
@@ -1223,6 +1230,7 @@ var hierarchy =
     [ "MR::SplineSettings", "structMR_1_1SplineSettings.html", null ],
     [ "MR::Src2TgtMaps", "classMR_1_1Src2TgtMaps.html", null ],
     [ "MR::MultiwayAligningTransform::Stabilizer", "structMR_1_1MultiwayAligningTransform_1_1Stabilizer.html", null ],
+    [ "MR::ImGuiMeasurementIndicators::Stipple", "structMR_1_1ImGuiMeasurementIndicators_1_1Stipple.html", null ],
     [ "MR::StitchHolesParams", "structMR_1_1StitchHolesParams.html", null ],
     [ "MR::StopOnTrueCombiner", "structMR_1_1StopOnTrueCombiner.html", null ],
     [ "std::streambuf", null, [
@@ -1264,6 +1272,8 @@ var hierarchy =
     [ "MR::ImGuiMeasurementIndicators::Text", "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html", null ],
     [ "MR::ImGuiMeasurementIndicators::TextColor", "structMR_1_1ImGuiMeasurementIndicators_1_1TextColor.html", null ],
     [ "MR::ImGuiMeasurementIndicators::TextFont", "structMR_1_1ImGuiMeasurementIndicators_1_1TextFont.html", null ],
+    [ "MR::ImGuiMeasurementIndicators::TextParams", "structMR_1_1ImGuiMeasurementIndicators_1_1TextParams.html", null ],
+    [ "MR::ImGuiMeasurementIndicators::TextResult", "structMR_1_1ImGuiMeasurementIndicators_1_1TextResult.html", null ],
     [ "MR::Tgt2SrcMaps", "classMR_1_1Tgt2SrcMaps.html", null ],
     [ "MR::ThickenParams", "structMR_1_1ThickenParams.html", null ],
     [ "MR::Timer", "classMR_1_1Timer.html", null ],

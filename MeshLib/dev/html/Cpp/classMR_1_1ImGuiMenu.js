@@ -102,6 +102,7 @@ var classMR_1_1ImGuiMenu =
     [ "showModalMessage", "classMR_1_1ImGuiMenu.html#a2a048091853e02ff674893add9adf7e3", null ],
     [ "shutdown", "classMR_1_1ImGuiMenu.html#ae8ea9f87c7bb3f33454eacc1a708eae8", null ],
     [ "simulateNameTagClick", "classMR_1_1ImGuiMenu.html#a95c82c0734872d0f3d937e4653c60574", null ],
+    [ "simulateNameTagClickWithKeyboardModifiers", "classMR_1_1ImGuiMenu.html#aa3b2a929f13cffa8c834e72a56c9dc94", null ],
     [ "spaceMouseDown_", "classMR_1_1ImGuiMenu.html#a4060b3a583e77e5b681d7fb9ecc49846", null ],
     [ "spaceMouseMove_", "classMR_1_1ImGuiMenu.html#ad16e3a9ef41b44123e96565a98582cda", null ],
     [ "startFrame", "classMR_1_1ImGuiMenu.html#a917a445993fd54f9097b63dd7377c691", null ],

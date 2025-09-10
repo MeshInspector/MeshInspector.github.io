@@ -1,5 +1,6 @@
 var structMR_1_1ImGuiMeasurementIndicators_1_1Text =
 [
+    [ "DrawResult", "structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1DrawResult.html", "structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1DrawResult" ],
     [ "Elem", "structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem.html", "structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem" ],
     [ "Line", "structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Line.html", "structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Line" ],
     [ "ElemVar", "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#ae831e755d5fa4e114cf8d2eaef532bdc", null ],
@@ -12,7 +13,7 @@ var structMR_1_1ImGuiMeasurementIndicators_1_1Text =
     [ "addElem", "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#a2336292a36c4f80334c9d987104aa00a", null ],
     [ "addLine", "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#a9f1e9dff1758efb4b2feb981f5c49862", null ],
     [ "addText", "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#a16a77f943f36900d87a81cd083b8b160", null ],
-    [ "draw", "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#aee162d90e4af3d3177e2e2cf54ba3984", null ],
+    [ "draw", "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#ad54ac7ab4af0e8c378e82de35d873b40", null ],
     [ "isEmpty", "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#acc827ec3aa0ec6711b73aaca7693bc19", null ],
     [ "update", "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#a8aa43d24ada469bdbb77f5444b4e6f64", null ],
     [ "align", "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#af8b5e638410d87130b72445eb3a009cd", null ],

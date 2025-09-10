@@ -71,6 +71,7 @@ var classMR_1_1Viewer =
     [ "getFPS", "classMR_1_1Viewer.html#a903a5dd99309117aa93d95c04b20d5bf", null ],
     [ "getGlobalHistoryStore", "classMR_1_1Viewer.html#a447c125eeac88a0873b6416d0c4d5772", null ],
     [ "getHoveredViewportId", "classMR_1_1Viewer.html#a0e5111171595097dcb08f6e009450d7f", null ],
+    [ "getHoveredViewportIdOrInvalid", "classMR_1_1Viewer.html#ad15c52527b406547153c2ee9ab5b9854", null ],
     [ "getLastFrameGLPrimitivesCount", "classMR_1_1Viewer.html#ace616c44d943ccb4671a9c5180090bbf", null ],
     [ "getLaunchParams", "classMR_1_1Viewer.html#a5e6446f42d0774a003b0af5832154822", null ],
     [ "getMenuPlugin", "classMR_1_1Viewer.html#a1ea0d4cf159f1ff54b6b1e8819180c9b", null ],

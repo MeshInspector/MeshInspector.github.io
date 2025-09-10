@@ -2,13 +2,18 @@ var namespaceMR_1_1ImGuiMeasurementIndicators =
 [
     [ "CurveParams", "structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html", "structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams" ],
     [ "DistanceParams", "structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html", "structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams" ],
+    [ "DistanceResult", "structMR_1_1ImGuiMeasurementIndicators_1_1DistanceResult.html", "structMR_1_1ImGuiMeasurementIndicators_1_1DistanceResult" ],
     [ "LineCap", "structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html", "structMR_1_1ImGuiMeasurementIndicators_1_1LineCap" ],
     [ "LineParams", "structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html", "structMR_1_1ImGuiMeasurementIndicators_1_1LineParams" ],
+    [ "LineResult", "structMR_1_1ImGuiMeasurementIndicators_1_1LineResult.html", "structMR_1_1ImGuiMeasurementIndicators_1_1LineResult" ],
     [ "Params", "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html", "structMR_1_1ImGuiMeasurementIndicators_1_1Params" ],
     [ "PreparedCurve", "structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve.html", "structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve" ],
+    [ "Stipple", "structMR_1_1ImGuiMeasurementIndicators_1_1Stipple.html", "structMR_1_1ImGuiMeasurementIndicators_1_1Stipple" ],
     [ "Text", "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html", "structMR_1_1ImGuiMeasurementIndicators_1_1Text" ],
     [ "TextColor", "structMR_1_1ImGuiMeasurementIndicators_1_1TextColor.html", "structMR_1_1ImGuiMeasurementIndicators_1_1TextColor" ],
     [ "TextFont", "structMR_1_1ImGuiMeasurementIndicators_1_1TextFont.html", "structMR_1_1ImGuiMeasurementIndicators_1_1TextFont" ],
+    [ "TextParams", "structMR_1_1ImGuiMeasurementIndicators_1_1TextParams.html", "structMR_1_1ImGuiMeasurementIndicators_1_1TextParams" ],
+    [ "TextResult", "structMR_1_1ImGuiMeasurementIndicators_1_1TextResult.html", "structMR_1_1ImGuiMeasurementIndicators_1_1TextResult" ],
     [ "Element", "namespaceMR_1_1ImGuiMeasurementIndicators.html#ab3d1526afb0782fa9501df90cb1b2898", [
       [ "main", "namespaceMR_1_1ImGuiMeasurementIndicators.html#ab3d1526afb0782fa9501df90cb1b2898afad58de7366495db4650cfefac2fcd61", null ],
       [ "outline", "namespaceMR_1_1ImGuiMeasurementIndicators.html#ab3d1526afb0782fa9501df90cb1b2898a1a18f19535b3b1edd5de7f535141f476", null ],
@@ -22,9 +27,9 @@ var namespaceMR_1_1ImGuiMeasurementIndicators =
       [ "diameter", "namespaceMR_1_1ImGuiMeasurementIndicators.html#ada21c38059140ab54d2c729c198e39f4a35f16dc084a53860f5cb3962107d5378", null ]
     ] ],
     [ "arrowTriangle", "namespaceMR_1_1ImGuiMeasurementIndicators.html#a660e781c3399b37449e24305cf8bbdc4", null ],
-    [ "distance", "namespaceMR_1_1ImGuiMeasurementIndicators.html#a0a3e5131d0fe59437835a460ca2dfcc5", null ],
-    [ "line", "namespaceMR_1_1ImGuiMeasurementIndicators.html#a6029334be476b361570837d6592b4272", null ],
+    [ "distance", "namespaceMR_1_1ImGuiMeasurementIndicators.html#a1a7e62c5850ea868f114dc9e958dcb4c", null ],
+    [ "line", "namespaceMR_1_1ImGuiMeasurementIndicators.html#a4d966db5f1fff71ae5319b8c43a10e81", null ],
     [ "point", "namespaceMR_1_1ImGuiMeasurementIndicators.html#a41f4d6d002c7cff807425bbcb80c5edd", null ],
     [ "prepareCurve", "namespaceMR_1_1ImGuiMeasurementIndicators.html#aa8511657c2ed1cc63ff209a6ede1c0f9", null ],
-    [ "text", "namespaceMR_1_1ImGuiMeasurementIndicators.html#a3679b03b28c5edb458b526d13cf222d0", null ]
+    [ "text", "namespaceMR_1_1ImGuiMeasurementIndicators.html#a9525e58e5d8838c21548fe997b800ae0", null ]
 ];
