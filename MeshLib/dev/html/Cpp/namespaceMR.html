@@ -2082,6 +2082,8 @@ Concepts</h2></td></tr>
 Typedefs</h2></td></tr>
 <tr class="memitem:abf9e7451b5087b4485b6207161438dc3" id="r_abf9e7451b5087b4485b6207161438dc3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf9e7451b5087b4485b6207161438dc3">FileNamesStack</a> = std::vector&lt;std::filesystem::path&gt;</td></tr>
 <tr class="separator:abf9e7451b5087b4485b6207161438dc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a411faa62b143da1682138c9bd622937b" id="r_a411faa62b143da1682138c9bd622937b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a411faa62b143da1682138c9bd622937b">PdfGeneralFont</a> = std::variant&lt;<a class="el" href="#a23e900d0cb79ee7e0562507ab9e9f562">PdfBuildinFont</a>, std::filesystem::path&gt;</td></tr>
+<tr class="separator:a411faa62b143da1682138c9bd622937b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga2d9f9e10f5365b971c9f7300264be632" id="r_ga2d9f9e10f5365b971c9f7300264be632"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga2d9f9e10f5365b971c9f7300264be632">FaceTreeTraits3</a> = <a class="el" href="structMR_1_1AABBTreeTraits.html">AABBTreeTraits</a>&lt;<a class="el" href="#a7a4a96848eb4b1524be699a7adcd8017">FaceTag</a>, Box3f&gt;</td></tr>
 <tr class="separator:ga2d9f9e10f5365b971c9f7300264be632"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga876e325460f0c5460c1e453324ca329c" id="r_ga876e325460f0c5460c1e453324ca329c"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
@@ -2516,6 +2518,28 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
+<tr class="memitem:a23e900d0cb79ee7e0562507ab9e9f562" id="r_a23e900d0cb79ee7e0562507ab9e9f562"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a23e900d0cb79ee7e0562507ab9e9f562">PdfBuildinFont</a> { <br />
+&#160;&#160;<a class="el" href="#a23e900d0cb79ee7e0562507ab9e9f562a5055d1a4444c630d6839f48ab48aef91">Courier</a>
+, <a class="el" href="#a23e900d0cb79ee7e0562507ab9e9f562af4df7bfe79eef34b241c935fa75e8e45">CourierBold</a>
+, <a class="el" href="#a23e900d0cb79ee7e0562507ab9e9f562aa66e799dd8107ba13fbd4a597e85eb59">CourierOblique</a>
+, <a class="el" href="#a23e900d0cb79ee7e0562507ab9e9f562af0a2b85c296fc058c759b1f33329ca61">CourierBoldOblique</a>
+, <br />
+&#160;&#160;<a class="el" href="#a23e900d0cb79ee7e0562507ab9e9f562a9b846c60f2b2d24b350f55077e4dd894">Helvetica</a>
+, <a class="el" href="#a23e900d0cb79ee7e0562507ab9e9f562ae79ef129c4e4976d7686f44658770509">HelveticaBold</a>
+, <a class="el" href="#a23e900d0cb79ee7e0562507ab9e9f562a0e06d7b4c97d36685f662380b83e33b0">HelveticaOblique</a>
+, <a class="el" href="#a23e900d0cb79ee7e0562507ab9e9f562acceb963436af58f047d7b754a3840c95">HelveticaBoldOblique</a>
+, <br />
+&#160;&#160;<a class="el" href="#a23e900d0cb79ee7e0562507ab9e9f562afa6004157a474ea805414a5b897240ce">TimesRoman</a>
+, <a class="el" href="#a23e900d0cb79ee7e0562507ab9e9f562a92de2f3d11895b35fc3700a6f0b9fc5e">TimesBold</a>
+, <a class="el" href="#a23e900d0cb79ee7e0562507ab9e9f562a0ce01fdd3bf91a4e641b9bf9e9f58335">TimesItalic</a>
+, <a class="el" href="#a23e900d0cb79ee7e0562507ab9e9f562a88588f5c7476077230f94634d2e75fbd">TimesBoldItalic</a>
+, <br />
+&#160;&#160;<a class="el" href="#a23e900d0cb79ee7e0562507ab9e9f562a02c86eb2792f3262c21d030a87e19793">Symbol</a>
+, <a class="el" href="#a23e900d0cb79ee7e0562507ab9e9f562adae058d33af7adc6257c9e4cd2085c9b">ZapfDingbats</a>
+, <a class="el" href="#a23e900d0cb79ee7e0562507ab9e9f562ae93f994f01c537c4e2f7d8528c3eb5e9">Count</a>
+<br />
+ }</td></tr>
+<tr class="separator:a23e900d0cb79ee7e0562507ab9e9f562"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05195fdcf0d1d90b73a5d24b11150005" id="r_a05195fdcf0d1d90b73a5d24b11150005"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05195fdcf0d1d90b73a5d24b11150005">Axis</a> { <a class="el" href="#a05195fdcf0d1d90b73a5d24b11150005a02129bb861061d1a052c592e2dc6b383">X</a>
 , <a class="el" href="#a05195fdcf0d1d90b73a5d24b11150005a57cec4137b614c87cb4e24a3d003a3e0">Y</a>
 , <a class="el" href="#a05195fdcf0d1d90b73a5d24b11150005a21c2e59531c8710156d34a3c30ac81d5">Z</a>
@@ -8921,6 +8945,20 @@ template&lt;typename T , typename <a class="el" href="#a3e65b1f56010b420ea87dd02
 
 </div>
 </div>
+<a id="a411faa62b143da1682138c9bd622937b" name="a411faa62b143da1682138c9bd622937b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a411faa62b143da1682138c9bd622937b">&#9670;&#160;</a></span>PdfGeneralFont</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#a411faa62b143da1682138c9bd622937b">MR::PdfGeneralFont</a> = std::variant&lt;<a class="el" href="#a23e900d0cb79ee7e0562507ab9e9f562">PdfBuildinFont</a>, std::filesystem::path&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a3c6c4a3a98a6d5a53b51d05984395fa3" name="a3c6c4a3a98a6d5a53b51d05984395fa3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3c6c4a3a98a6d5a53b51d05984395fa3">&#9670;&#160;</a></span>PickedPoint</h2>
 
@@ -10813,6 +10851,46 @@ template&lt;typename T &gt; </div>
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ad7e1f7039c3adef672abd4150bc4786ca81cda646477dd0d1137c68b398ca755c" name="ad7e1f7039c3adef672abd4150bc4786ca81cda646477dd0d1137c68b398ca755c"></a>Geodesic&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ad7e1f7039c3adef672abd4150bc4786ca766cae017fab4bcc1d1e83fbb9af87c3" name="ad7e1f7039c3adef672abd4150bc4786ca766cae017fab4bcc1d1e83fbb9af87c3"></a>Convex&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ad7e1f7039c3adef672abd4150bc4786ca1cb290ed5917afdbf2532bb2bf6f0192" name="ad7e1f7039c3adef672abd4150bc4786ca1cb290ed5917afdbf2532bb2bf6f0192"></a>Concave&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="a23e900d0cb79ee7e0562507ab9e9f562" name="a23e900d0cb79ee7e0562507ab9e9f562"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23e900d0cb79ee7e0562507ab9e9f562">&#9670;&#160;</a></span>PdfBuildinFont</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="#a23e900d0cb79ee7e0562507ab9e9f562">MR::PdfBuildinFont</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Fonts included in libharu please note that using default font does not allow UTF-8 encoding </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a23e900d0cb79ee7e0562507ab9e9f562a5055d1a4444c630d6839f48ab48aef91" name="a23e900d0cb79ee7e0562507ab9e9f562a5055d1a4444c630d6839f48ab48aef91"></a>Courier&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a23e900d0cb79ee7e0562507ab9e9f562af4df7bfe79eef34b241c935fa75e8e45" name="a23e900d0cb79ee7e0562507ab9e9f562af4df7bfe79eef34b241c935fa75e8e45"></a>CourierBold&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a23e900d0cb79ee7e0562507ab9e9f562aa66e799dd8107ba13fbd4a597e85eb59" name="a23e900d0cb79ee7e0562507ab9e9f562aa66e799dd8107ba13fbd4a597e85eb59"></a>CourierOblique&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a23e900d0cb79ee7e0562507ab9e9f562af0a2b85c296fc058c759b1f33329ca61" name="a23e900d0cb79ee7e0562507ab9e9f562af0a2b85c296fc058c759b1f33329ca61"></a>CourierBoldOblique&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a23e900d0cb79ee7e0562507ab9e9f562a9b846c60f2b2d24b350f55077e4dd894" name="a23e900d0cb79ee7e0562507ab9e9f562a9b846c60f2b2d24b350f55077e4dd894"></a>Helvetica&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a23e900d0cb79ee7e0562507ab9e9f562ae79ef129c4e4976d7686f44658770509" name="a23e900d0cb79ee7e0562507ab9e9f562ae79ef129c4e4976d7686f44658770509"></a>HelveticaBold&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a23e900d0cb79ee7e0562507ab9e9f562a0e06d7b4c97d36685f662380b83e33b0" name="a23e900d0cb79ee7e0562507ab9e9f562a0e06d7b4c97d36685f662380b83e33b0"></a>HelveticaOblique&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a23e900d0cb79ee7e0562507ab9e9f562acceb963436af58f047d7b754a3840c95" name="a23e900d0cb79ee7e0562507ab9e9f562acceb963436af58f047d7b754a3840c95"></a>HelveticaBoldOblique&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a23e900d0cb79ee7e0562507ab9e9f562afa6004157a474ea805414a5b897240ce" name="a23e900d0cb79ee7e0562507ab9e9f562afa6004157a474ea805414a5b897240ce"></a>TimesRoman&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a23e900d0cb79ee7e0562507ab9e9f562a92de2f3d11895b35fc3700a6f0b9fc5e" name="a23e900d0cb79ee7e0562507ab9e9f562a92de2f3d11895b35fc3700a6f0b9fc5e"></a>TimesBold&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a23e900d0cb79ee7e0562507ab9e9f562a0ce01fdd3bf91a4e641b9bf9e9f58335" name="a23e900d0cb79ee7e0562507ab9e9f562a0ce01fdd3bf91a4e641b9bf9e9f58335"></a>TimesItalic&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a23e900d0cb79ee7e0562507ab9e9f562a88588f5c7476077230f94634d2e75fbd" name="a23e900d0cb79ee7e0562507ab9e9f562a88588f5c7476077230f94634d2e75fbd"></a>TimesBoldItalic&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a23e900d0cb79ee7e0562507ab9e9f562a02c86eb2792f3262c21d030a87e19793" name="a23e900d0cb79ee7e0562507ab9e9f562a02c86eb2792f3262c21d030a87e19793"></a>Symbol&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a23e900d0cb79ee7e0562507ab9e9f562adae058d33af7adc6257c9e4cd2085c9b" name="a23e900d0cb79ee7e0562507ab9e9f562adae058d33af7adc6257c9e4cd2085c9b"></a>ZapfDingbats&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a23e900d0cb79ee7e0562507ab9e9f562ae93f994f01c537c4e2f7d8528c3eb5e9" name="a23e900d0cb79ee7e0562507ab9e9f562ae93f994f01c537c4e2f7d8528c3eb5e9"></a>Count&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>

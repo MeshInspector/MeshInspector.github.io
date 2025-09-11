@@ -150,7 +150,6 @@ var hierarchy =
     [ "mrmeshpy.Buffer_VertId", "classmrmeshpy_1_1Buffer__VertId.html", null ],
     [ "mrmeshpy.Buffer_VertId_VertId", "classmrmeshpy_1_1Buffer__VertId__VertId.html", null ],
     [ "mrmeshpy.Buffer_VoxelId_VoxelId", "classmrmeshpy_1_1Buffer__VoxelId__VoxelId.html", null ],
-    [ "mrmeshpy.PdfParameters.BuildinFont", "classmrmeshpy_1_1PdfParameters_1_1BuildinFont.html", null ],
     [ "mrmeshpy.MeshBuilder.BuildSettings", "classmrmeshpy_1_1MeshBuilder_1_1BuildSettings.html", null ],
     [ "mrmeshpy.BypassDirection", "classmrmeshpy_1_1BypassDirection.html", null ],
     [ "mrmeshpy.MarchingCubesParams.CachingMode", "classmrmeshpy_1_1MarchingCubesParams_1_1CachingMode.html", null ],
@@ -803,6 +802,7 @@ var hierarchy =
     [ "mrmeshpy.PartMapping", "classmrmeshpy_1_1PartMapping.html", null ],
     [ "mrmeshpy.PathError", "classmrmeshpy_1_1PathError.html", null ],
     [ "mrmeshpy.Pdf", "classmrmeshpy_1_1Pdf.html", null ],
+    [ "mrmeshpy.PdfBuildinFont", "classmrmeshpy_1_1PdfBuildinFont.html", null ],
     [ "mrmeshpy.PdfParameters", "classmrmeshpy_1_1PdfParameters.html", null ],
     [ "mrmeshpy.phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag", "classmrmeshpy_1_1phmap__flat__hash__map__Id__EdgeTag__Id__EdgeTag.html", null ],
     [ "mrmeshpy.phmap_flat_hash_map_Id_FaceTag_Id_FaceTag", "classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag.html", null ],
@@ -1035,7 +1035,7 @@ var hierarchy =
     [ "mrmeshpy.std_variant_float_Vector3_float", "classmrmeshpy_1_1std__variant__float__Vector3__float.html", null ],
     [ "mrmeshpy.std_variant_Id_FaceTag_Id_EdgeTag_Id_VertTag", "classmrmeshpy_1_1std__variant__Id__FaceTag__Id__EdgeTag__Id__VertTag.html", null ],
     [ "mrmeshpy.std_variant_int_float_bool_std_string_Pdf_EmptyCell", "classmrmeshpy_1_1std__variant__int__float__bool__std__string__Pdf__EmptyCell.html", null ],
-    [ "mrmeshpy.std_variant_PdfParameters_BuildinFont_std_filesystem_path", "classmrmeshpy_1_1std__variant__PdfParameters__BuildinFont__std__filesystem__path.html", null ],
+    [ "mrmeshpy.std_variant_PdfBuildinFont_std_filesystem_path", "classmrmeshpy_1_1std__variant__PdfBuildinFont__std__filesystem__path.html", null ],
     [ "mrmeshpy.std_variant_Polynomial_double_0ul_Polynomial_double_1ul_Polynomial_double_2ul_Polynomial_double_3ul_Polynomial_double_4ul_Polynomial_double_5ul_Polynomial_double_6ul", "classmrmeshpy_1_1std__variant__Polynomial__double__0ul__Polynomial__double__1ul__Polynomial__dou2f412bbc4e3a625bf6802bb4d4c6097b.html", null ],
     [ "mrmeshpy.std_variant_Polynomial_float_0ul_Polynomial_float_1ul_Polynomial_float_2ul_Polynomial_float_3ul_Polynomial_float_4ul_Polynomial_float_5ul_Polynomial_float_6ul", "classmrmeshpy_1_1std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomial__float6d172424a64a8d1a395e20db43ad7e51.html", null ],
     [ "mrmeshpy.std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane", "classmrmeshpy_1_1std__variant__Sphere__Vector3__float__Features__Primitives__ConeSegment__Features__Primitives__Plane.html", null ],
@@ -1222,6 +1222,8 @@ var hierarchy =
     [ "mrmeshpy.SystemPath", "classmrmeshpy_1_1SystemPath.html", null ],
     [ "mrmeshpy.TeethMaskToDirectionVolumeConvertor", "classmrmeshpy_1_1TeethMaskToDirectionVolumeConvertor.html", null ],
     [ "mrmeshpy.TerminalVertex", "classmrmeshpy_1_1TerminalVertex.html", null ],
+    [ "mrmeshpy.Pdf.TextCellParams", "classmrmeshpy_1_1Pdf_1_1TextCellParams.html", null ],
+    [ "mrmeshpy.Pdf.TextParams", "classmrmeshpy_1_1Pdf_1_1TextParams.html", null ],
     [ "mrmeshpy.TextureId", "classmrmeshpy_1_1TextureId.html", [
       [ "mrmeshpy.NoDefInit_TextureId", "classmrmeshpy_1_1NoDefInit__TextureId.html", null ]
     ] ],

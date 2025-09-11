@@ -1092,6 +1092,7 @@ var namespaceMR =
     [ "ParallelHashMap", "namespaceMR.html#a05d4e4903837647940c265c6939dcfdf", null ],
     [ "ParallelHashSet", "namespaceMR.html#ad321412e874739790b445adf4bbb1139", null ],
     [ "PathMeshEdgePointCallback", "namespaceMR.html#a2403984460c26289689a1eddd1fb4270", null ],
+    [ "PdfGeneralFont", "namespaceMR.html#a411faa62b143da1682138c9bd622937b", null ],
     [ "PickedPoint", "namespaceMR.html#a3c6c4a3a98a6d5a53b51d05984395fa3", null ],
     [ "PlaneSection", "namespaceMR.html#a92cbbca830da255a9350ce63a48f49c3", null ],
     [ "PlaneSections", "namespaceMR.html#a5e21b52bde652c1330fdd745ee2ccbbc", null ],
@@ -1446,6 +1447,23 @@ var namespaceMR =
       [ "Geodesic", "namespaceMR.html#ad7e1f7039c3adef672abd4150bc4786ca81cda646477dd0d1137c68b398ca755c", null ],
       [ "Convex", "namespaceMR.html#ad7e1f7039c3adef672abd4150bc4786ca766cae017fab4bcc1d1e83fbb9af87c3", null ],
       [ "Concave", "namespaceMR.html#ad7e1f7039c3adef672abd4150bc4786ca1cb290ed5917afdbf2532bb2bf6f0192", null ]
+    ] ],
+    [ "PdfBuildinFont", "namespaceMR.html#a23e900d0cb79ee7e0562507ab9e9f562", [
+      [ "Courier", "namespaceMR.html#a23e900d0cb79ee7e0562507ab9e9f562a5055d1a4444c630d6839f48ab48aef91", null ],
+      [ "CourierBold", "namespaceMR.html#a23e900d0cb79ee7e0562507ab9e9f562af4df7bfe79eef34b241c935fa75e8e45", null ],
+      [ "CourierOblique", "namespaceMR.html#a23e900d0cb79ee7e0562507ab9e9f562aa66e799dd8107ba13fbd4a597e85eb59", null ],
+      [ "CourierBoldOblique", "namespaceMR.html#a23e900d0cb79ee7e0562507ab9e9f562af0a2b85c296fc058c759b1f33329ca61", null ],
+      [ "Helvetica", "namespaceMR.html#a23e900d0cb79ee7e0562507ab9e9f562a9b846c60f2b2d24b350f55077e4dd894", null ],
+      [ "HelveticaBold", "namespaceMR.html#a23e900d0cb79ee7e0562507ab9e9f562ae79ef129c4e4976d7686f44658770509", null ],
+      [ "HelveticaOblique", "namespaceMR.html#a23e900d0cb79ee7e0562507ab9e9f562a0e06d7b4c97d36685f662380b83e33b0", null ],
+      [ "HelveticaBoldOblique", "namespaceMR.html#a23e900d0cb79ee7e0562507ab9e9f562acceb963436af58f047d7b754a3840c95", null ],
+      [ "TimesRoman", "namespaceMR.html#a23e900d0cb79ee7e0562507ab9e9f562afa6004157a474ea805414a5b897240ce", null ],
+      [ "TimesBold", "namespaceMR.html#a23e900d0cb79ee7e0562507ab9e9f562a92de2f3d11895b35fc3700a6f0b9fc5e", null ],
+      [ "TimesItalic", "namespaceMR.html#a23e900d0cb79ee7e0562507ab9e9f562a0ce01fdd3bf91a4e641b9bf9e9f58335", null ],
+      [ "TimesBoldItalic", "namespaceMR.html#a23e900d0cb79ee7e0562507ab9e9f562a88588f5c7476077230f94634d2e75fbd", null ],
+      [ "Symbol", "namespaceMR.html#a23e900d0cb79ee7e0562507ab9e9f562a02c86eb2792f3262c21d030a87e19793", null ],
+      [ "ZapfDingbats", "namespaceMR.html#a23e900d0cb79ee7e0562507ab9e9f562adae058d33af7adc6257c9e4cd2085c9b", null ],
+      [ "Count", "namespaceMR.html#a23e900d0cb79ee7e0562507ab9e9f562ae93f994f01c537c4e2f7d8528c3eb5e9", null ]
     ] ],
     [ "PixelSizeUnit", "namespaceMR.html#a081251e7d4b8d991d57cadeed71cf287", [
       [ "pixels", "namespaceMR.html#a081251e7d4b8d991d57cadeed71cf287ad399848208da8b80a306af0fd62bb03f", null ],

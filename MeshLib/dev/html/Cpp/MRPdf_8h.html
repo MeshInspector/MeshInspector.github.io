@@ -147,7 +147,9 @@ $(function(){initNavTree('MRPdf_8h.html',''); initResizable(true); });
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a>  </div>
   <div class="headertitle"><div class="title">MRPdf.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -172,6 +174,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Pdf.html">MR::Pdf</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Pdf_1_1TextParams.html">MR::Pdf::TextParams</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Pdf_1_1PaletteRowStats.html">MR::Pdf::PaletteRowStats</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Pdf_1_1ImageParams.html">MR::Pdf::ImageParams</a></td></tr>
@@ -183,11 +187,43 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Pdf_1_1CellCustomParams.html">MR::Pdf::CellCustomParams</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1Pdf_1_1TextCellParams.html">MR::Pdf::TextCellParams</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a411faa62b143da1682138c9bd622937b" id="r_a411faa62b143da1682138c9bd622937b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a411faa62b143da1682138c9bd622937b">MR::PdfGeneralFont</a> = std::variant&lt;<a class="el" href="namespaceMR.html#a23e900d0cb79ee7e0562507ab9e9f562">PdfBuildinFont</a>, std::filesystem::path&gt;</td></tr>
+<tr class="separator:a411faa62b143da1682138c9bd622937b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a23e900d0cb79ee7e0562507ab9e9f562" id="r_a23e900d0cb79ee7e0562507ab9e9f562"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a23e900d0cb79ee7e0562507ab9e9f562">MR::PdfBuildinFont</a> { <br />
+&#160;&#160;<a class="el" href="namespaceMR.html#a23e900d0cb79ee7e0562507ab9e9f562a5055d1a4444c630d6839f48ab48aef91">MR::Courier</a>
+, <a class="el" href="namespaceMR.html#a23e900d0cb79ee7e0562507ab9e9f562af4df7bfe79eef34b241c935fa75e8e45">MR::CourierBold</a>
+, <a class="el" href="namespaceMR.html#a23e900d0cb79ee7e0562507ab9e9f562aa66e799dd8107ba13fbd4a597e85eb59">MR::CourierOblique</a>
+, <a class="el" href="namespaceMR.html#a23e900d0cb79ee7e0562507ab9e9f562af0a2b85c296fc058c759b1f33329ca61">MR::CourierBoldOblique</a>
+, <br />
+&#160;&#160;<a class="el" href="namespaceMR.html#a23e900d0cb79ee7e0562507ab9e9f562a9b846c60f2b2d24b350f55077e4dd894">MR::Helvetica</a>
+, <a class="el" href="namespaceMR.html#a23e900d0cb79ee7e0562507ab9e9f562ae79ef129c4e4976d7686f44658770509">MR::HelveticaBold</a>
+, <a class="el" href="namespaceMR.html#a23e900d0cb79ee7e0562507ab9e9f562a0e06d7b4c97d36685f662380b83e33b0">MR::HelveticaOblique</a>
+, <a class="el" href="namespaceMR.html#a23e900d0cb79ee7e0562507ab9e9f562acceb963436af58f047d7b754a3840c95">MR::HelveticaBoldOblique</a>
+, <br />
+&#160;&#160;<a class="el" href="namespaceMR.html#a23e900d0cb79ee7e0562507ab9e9f562afa6004157a474ea805414a5b897240ce">MR::TimesRoman</a>
+, <a class="el" href="namespaceMR.html#a23e900d0cb79ee7e0562507ab9e9f562a92de2f3d11895b35fc3700a6f0b9fc5e">MR::TimesBold</a>
+, <a class="el" href="namespaceMR.html#a23e900d0cb79ee7e0562507ab9e9f562a0ce01fdd3bf91a4e641b9bf9e9f58335">MR::TimesItalic</a>
+, <a class="el" href="namespaceMR.html#a23e900d0cb79ee7e0562507ab9e9f562a88588f5c7476077230f94634d2e75fbd">MR::TimesBoldItalic</a>
+, <br />
+&#160;&#160;<a class="el" href="namespaceMR.html#a23e900d0cb79ee7e0562507ab9e9f562a02c86eb2792f3262c21d030a87e19793">MR::Symbol</a>
+, <a class="el" href="namespaceMR.html#a23e900d0cb79ee7e0562507ab9e9f562adae058d33af7adc6257c9e4cd2085c9b">MR::ZapfDingbats</a>
+, <a class="el" href="namespaceMR.html#a23e900d0cb79ee7e0562507ab9e9f562ae93f994f01c537c4e2f7d8528c3eb5e9">MR::Count</a>
+<br />
+ }</td></tr>
+<tr class="separator:a23e900d0cb79ee7e0562507ab9e9f562"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
