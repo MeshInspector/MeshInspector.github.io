@@ -2274,6 +2274,7 @@ var namespaceMR =
     [ "getAllFilters", "group__DataModelGroup.html#gac7615c6e4894a59a84ec57986cbfc9c7", null ],
     [ "getAllObjectsInTree", "namespaceMR.html#a079f85cf6e53fc4d193a549f04a7b8c2", null ],
     [ "getAllObjectsInTree", "namespaceMR.html#a60db6fdac099905987b703a7fffe4746", null ],
+    [ "getAltModName", "namespaceMR.html#a59e287d59d32965c7f9173c11cb820ee", null ],
     [ "getAt", "namespaceMR.html#a43427e0d96ff10e6af29370a3b0d7c17", null ],
     [ "getAt", "namespaceMR.html#adb46200d5ca10864658a0b4036a25bd4", null ],
     [ "getAt", "namespaceMR.html#acc5ecd2826659aa256d0bb1b168cc3bc", null ],

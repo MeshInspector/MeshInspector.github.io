@@ -1,5 +1,6 @@
 var NAVTREEINDEX38 =
 {
+"classMR_1_1PluginCloseOnSelectedObjectRemove.html#a3692cfee7d26f636f2487f01cfa6afc8":[6,0,1,0,1,511,0],
 "classMR_1_1PluginCloseOnSelectedObjectRemove.html#a3692cfee7d26f636f2487f01cfa6afc8":[6,0,2,0,1,494,0],
 "classMR_1_1PluginCloseOnSelectedObjectRemove.html#a4be1eca9d7909ac4a5cbe2b48ceee2f2":[6,0,1,0,1,511,1],
 "classMR_1_1PluginCloseOnSelectedObjectRemove.html#a4be1eca9d7909ac4a5cbe2b48ceee2f2":[6,0,2,0,1,494,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX38 =
 "classMR_1_1PythonExport.html#a27091fc0ef96636d5c59ff459694a6bfa6246655a4c0a99b49f104cd87a0a7a7a":[6,0,2,0,1,550,2,0],
 "classMR_1_1PythonExport.html#a27091fc0ef96636d5c59ff459694a6bfab672f52ade975e864ae6b58722c03689":[6,0,1,0,1,567,2,1],
 "classMR_1_1PythonExport.html#a27091fc0ef96636d5c59ff459694a6bfab672f52ade975e864ae6b58722c03689":[6,0,2,0,1,550,2,1],
-"classMR_1_1PythonExport.html#a27091fc0ef96636d5c59ff459694a6bfae93f994f01c537c4e2f7d8528c3eb5e9":[6,0,1,0,1,567,2,2],
-"classMR_1_1PythonExport.html#a27091fc0ef96636d5c59ff459694a6bfae93f994f01c537c4e2f7d8528c3eb5e9":[6,0,2,0,1,550,2,2]
+"classMR_1_1PythonExport.html#a27091fc0ef96636d5c59ff459694a6bfae93f994f01c537c4e2f7d8528c3eb5e9":[6,0,1,0,1,567,2,2]
 };

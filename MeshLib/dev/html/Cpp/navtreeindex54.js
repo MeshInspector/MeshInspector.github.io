@@ -1,5 +1,6 @@
 var NAVTREEINDEX54 =
 {
+"conceptMR_1_1ImGuiMath_1_1detail_1_1VectorOrScalar.html":[6,0,1,0,1,14,0,10],
 "conceptMR_1_1ImGuiMath_1_1detail_1_1VectorOrScalarMaybeCvref.html":[6,0,1,0,1,14,0,11],
 "conceptMR_1_1Trivial.html":[6,0,1,0,1,837],
 "conceptMR_1_1UI_1_1TestEngine_1_1AllowedValueType.html":[6,0,1,0,1,41,1,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX54 =
 "group__AABBTreeGroup.html#ga834d7e50b54b1b8c511990fc9d14c09c":[6,0,0,1,99],
 "group__AABBTreeGroup.html#ga835e26690b8579246b5fe66eecd773ac":[6,0,0,1,87],
 "group__AABBTreeGroup.html#ga8658f18b6b0489c1dafa4903c64c0165":[6,0,0,1,103],
-"group__AABBTreeGroup.html#ga865abfe228b7d60d582d2c6ce24ffb19":[6,0,0,1,42],
-"group__AABBTreeGroup.html#ga876e325460f0c5460c1e453324ca329c":[6,0,0,1,46]
+"group__AABBTreeGroup.html#ga865abfe228b7d60d582d2c6ce24ffb19":[6,0,0,1,42]
 };

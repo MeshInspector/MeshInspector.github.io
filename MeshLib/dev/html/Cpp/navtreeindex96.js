@@ -1,5 +1,7 @@
 var NAVTREEINDEX96 =
 {
+"structMR_1_1VoxelsVolume.html#a6ea81e0ad21fc888dfa262fb957f3c2e":[6,0,2,0,1,800,2],
+"structMR_1_1VoxelsVolume.html#aec69290a92637368e463e39fadfea701":[6,0,1,0,1,817,3],
 "structMR_1_1VoxelsVolume.html#aec69290a92637368e463e39fadfea701":[6,0,2,0,1,800,3],
 "structMR_1_1VoxelsVolume.html#af9f77daea56312d1b6f7ac20d2473713":[6,0,1,0,1,817,0],
 "structMR_1_1VoxelsVolume.html#af9f77daea56312d1b6f7ac20d2473713":[6,0,2,0,1,800,0],

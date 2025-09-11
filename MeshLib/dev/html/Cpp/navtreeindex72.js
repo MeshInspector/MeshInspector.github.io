@@ -1,5 +1,7 @@
 var NAVTREEINDEX72 =
 {
+"structMR_1_1DecimatePolylineSettings.html#a68c78013b24475c60475093e77bbdeff":[6,0,0,10,2,7],
+"structMR_1_1DecimatePolylineSettings.html#ac197ac53747aee8558fe409834910a4a":[6,0,0,10,2,2],
 "structMR_1_1DecimatePolylineSettings.html#ad58496f8458d8d5a517ba34926cb0c61":[6,0,0,10,2,0],
 "structMR_1_1DecimatePolylineSettings.html#adce38a07b8b04db0fe998e792e4a6e34":[6,0,0,10,2,6],
 "structMR_1_1DecimatePolylineSettings.html#ae829d8045ed74bf373bd86f2d835151a":[6,0,0,10,2,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX72 =
 "structMR_1_1DoubleOffsetSettings.html#a6efd8487cfb1467ad4247b7cea3fc74c":[6,0,1,0,1,206,7],
 "structMR_1_1DoubleOffsetSettings.html#a6efd8487cfb1467ad4247b7cea3fc74c":[6,0,2,0,1,189,7],
 "structMR_1_1DoubleOffsetSettings.html#a7338b38b26ada80c399b32ba147f7ac1":[6,0,1,0,1,206,4],
-"structMR_1_1DoubleOffsetSettings.html#a7338b38b26ada80c399b32ba147f7ac1":[6,0,2,0,1,189,4],
-"structMR_1_1DoubleOffsetSettings.html#aa5cfa224b05a400e1911699259e1b549":[6,0,1,0,1,206,0],
-"structMR_1_1DoubleOffsetSettings.html#aa5cfa224b05a400e1911699259e1b549":[6,0,2,0,1,189,0]
+"structMR_1_1DoubleOffsetSettings.html#a7338b38b26ada80c399b32ba147f7ac1":[6,0,2,0,1,189,4]
 };

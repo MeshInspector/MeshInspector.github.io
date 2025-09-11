@@ -1,5 +1,6 @@
 var NAVTREEINDEX8 =
 {
+"MRMeshLoadSettings_8h_source.html":[6,0,3,0,0,1,4,212],
 "MRMeshMath_8h.html":[6,0,3,0,0,1,4,213],
 "MRMeshMath_8h.html#a0140eb8894552101f3fdabe8d842eb25":[6,0,3,0,0,1,4,213,30],
 "MRMeshMath_8h.html#a0558eb3364f004c3a1898af28571b3af":[6,0,3,0,0,1,4,213,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX8 =
 "MRMesh_2MRMeshBoolean_8h.html#a7d91ff46fa87c38d967780fced1c5f70":[6,0,3,0,0,1,4,188,7],
 "MRMesh_2MRMeshBoolean_8h.html#acbc5236e62cf60939c3dc2324fbff5d8":[6,0,3,0,0,1,4,188,10],
 "MRMesh_2MRMeshBoolean_8h.html#af4cc0a870f29d514b767b1038b980a59":[6,0,3,0,0,1,4,188,5],
-"MRMesh_2MRMeshBoolean_8h_source.html":[6,0,3,0,0,1,4,188],
-"MRMesh_2MRMeshBuilder_8h.html":[6,0,3,0,0,1,4,191]
+"MRMesh_2MRMeshBoolean_8h_source.html":[6,0,3,0,0,1,4,188]
 };

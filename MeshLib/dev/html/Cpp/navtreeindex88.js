@@ -1,5 +1,7 @@
 var NAVTREEINDEX88 =
 {
+"structMR_1_1Quaternion.html#adb5df4281ceff5b0f0e031a7102a9a9e":[6,0,0,0,21,25],
+"structMR_1_1Quaternion.html#afde85af8bb0b46b18e7c0b7f9ab0a2be":[6,0,0,0,21,16],
 "structMR_1_1RangeSize.html":[6,0,1,0,1,578],
 "structMR_1_1RangeSize.html":[6,0,2,0,1,561],
 "structMR_1_1RangeSize.html#a5dde8b6f1f684eac4b8bf2c2bc72386e":[6,0,1,0,1,578,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX88 =
 "structMR_1_1RibbonNotification.html":[6,0,2,0,1,600],
 "structMR_1_1RibbonNotification.html#a156a1963010372c4c838def5344897ab":[6,0,1,0,1,617,2],
 "structMR_1_1RibbonNotification.html#a156a1963010372c4c838def5344897ab":[6,0,2,0,1,600,2],
-"structMR_1_1RibbonNotification.html#a2074bc13c9424073e04d319984ae6d49":[6,0,1,0,1,617,6],
-"structMR_1_1RibbonNotification.html#a2074bc13c9424073e04d319984ae6d49":[6,0,2,0,1,600,6],
-"structMR_1_1RibbonNotification.html#a22ab6a5e3459fed757c4443f8d3ad51a":[6,0,1,0,1,617,0]
+"structMR_1_1RibbonNotification.html#a2074bc13c9424073e04d319984ae6d49":[6,0,1,0,1,617,6]
 };

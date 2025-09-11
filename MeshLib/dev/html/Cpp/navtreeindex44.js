@@ -1,5 +1,6 @@
 var NAVTREEINDEX44 =
 {
+"classMR_1_1SceneObjectsListDrawer.html#a10c80ec2e0551fe4c73122703e48897e":[6,0,1,0,1,646,2],
 "classMR_1_1SceneObjectsListDrawer.html#a10c80ec2e0551fe4c73122703e48897e":[6,0,2,0,1,629,2],
 "classMR_1_1SceneObjectsListDrawer.html#a2e703a641c0ffc898d9aa4e864ab912a":[6,0,1,0,1,646,12],
 "classMR_1_1SceneObjectsListDrawer.html#a2e703a641c0ffc898d9aa4e864ab912a":[6,0,2,0,1,629,12],
@@ -248,6 +249,5 @@ var NAVTREEINDEX44 =
 "classMR_1_1SetViewPresetMenuItem.html#a370683fe5e745d7ea982e94c2ae476dcae93f994f01c537c4e2f7d8528c3eb5e9":[6,0,1,0,1,672,0,7],
 "classMR_1_1SetViewPresetMenuItem.html#a370683fe5e745d7ea982e94c2ae476dcae93f994f01c537c4e2f7d8528c3eb5e9":[6,0,2,0,1,655,0,7],
 "classMR_1_1SetViewPresetMenuItem.html#a51faff0dc6e4224c895240fefd9e06b5":[6,0,1,0,1,672,1],
-"classMR_1_1SetViewPresetMenuItem.html#a51faff0dc6e4224c895240fefd9e06b5":[6,0,2,0,1,655,1],
-"classMR_1_1SetViewportConfigPresetMenuItem.html":[6,0,1,0,1,671]
+"classMR_1_1SetViewPresetMenuItem.html#a51faff0dc6e4224c895240fefd9e06b5":[6,0,2,0,1,655,1]
 };

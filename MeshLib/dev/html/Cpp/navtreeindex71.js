@@ -1,5 +1,7 @@
 var NAVTREEINDEX71 =
 {
+"structMR_1_1ChunkIterator.html#ad58d2cd0f8108c9f1c0e00cc2d750508":[6,0,1,0,1,141,0],
+"structMR_1_1ChunkIterator.html#ad58d2cd0f8108c9f1c0e00cc2d750508":[6,0,2,0,1,124,0],
 "structMR_1_1ChunkIterator.html#ad816264908bdaf06f5629a4d163c16f6":[6,0,1,0,1,141,4],
 "structMR_1_1ChunkIterator.html#ad816264908bdaf06f5629a4d163c16f6":[6,0,2,0,1,124,4],
 "structMR_1_1ChunkIterator.html#ad8208e10b106ed35392e4b212e98c87d":[6,0,1,0,1,141,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX71 =
 "structMR_1_1DecimatePolylineSettings.html#a041fda2a9c1b5df5de8cb74bacbd7ff1":[6,0,0,10,2,4],
 "structMR_1_1DecimatePolylineSettings.html#a3b25e672e4446e2af56927c0cf0237db":[6,0,0,10,2,9],
 "structMR_1_1DecimatePolylineSettings.html#a53477903f660597feae1534ecba5ce74":[6,0,0,10,2,3],
-"structMR_1_1DecimatePolylineSettings.html#a58d4128740b065b31e9b4d1b637bc0c7":[6,0,0,10,2,1],
-"structMR_1_1DecimatePolylineSettings.html#a68c78013b24475c60475093e77bbdeff":[6,0,0,10,2,7],
-"structMR_1_1DecimatePolylineSettings.html#ac197ac53747aee8558fe409834910a4a":[6,0,0,10,2,2]
+"structMR_1_1DecimatePolylineSettings.html#a58d4128740b065b31e9b4d1b637bc0c7":[6,0,0,10,2,1]
 };

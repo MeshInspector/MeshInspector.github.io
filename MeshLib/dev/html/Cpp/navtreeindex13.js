@@ -1,5 +1,6 @@
 var NAVTREEINDEX13 =
 {
+"MRRenderDefaultObjects_8h.html":[6,0,3,0,0,1,11,68],
 "MRRenderDefaultObjects_8h.html#aa5d866485e96941a542d624ba6cc6f4b":[6,0,3,0,0,1,11,68,1],
 "MRRenderDefaultObjects_8h_source.html":[6,0,3,0,0,1,11,68],
 "MRRenderDimensions_8h.html":[6,0,3,0,0,1,11,69],
@@ -248,6 +249,5 @@ var NAVTREEINDEX13 =
 "MRSceneTextureGL_8h_source.html":[6,0,3,0,0,1,11,105],
 "MRScopedValue_8h.html":[6,0,3,0,0,1,4,348],
 "MRScopedValue_8h.html#a1351f3ee7d9ca8f0a3eef6e8c5da5fac":[6,0,3,0,0,1,4,348,0],
-"MRScopedValue_8h_source.html":[6,0,3,0,0,1,4,348],
-"MRSegmPoint_8h.html":[6,0,3,0,0,1,4,349]
+"MRScopedValue_8h_source.html":[6,0,3,0,0,1,4,348]
 };

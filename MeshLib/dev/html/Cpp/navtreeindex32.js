@@ -1,5 +1,6 @@
 var NAVTREEINDEX32 =
 {
+"classMR_1_1MoveObjectByMouseImpl.html#a3932fa9a5384b09c3fd4b7f7179697c6":[6,0,1,0,1,421,13],
 "classMR_1_1MoveObjectByMouseImpl.html#a3932fa9a5384b09c3fd4b7f7179697c6":[6,0,2,0,1,404,13],
 "classMR_1_1MoveObjectByMouseImpl.html#a4516bc68a71f976621ce71dff17b7837":[6,0,1,0,1,421,14],
 "classMR_1_1MoveObjectByMouseImpl.html#a4516bc68a71f976621ce71dff17b7837":[6,0,2,0,1,404,14],
@@ -248,6 +249,5 @@ var NAVTREEINDEX32 =
 "classMR_1_1ObjectComparableWithReference.html#a7e386df110c9d0fa3c799cf002cbc845":[6,0,2,0,1,431,14],
 "classMR_1_1ObjectComparableWithReference.html#a83e6e08749efd393e0a34bdf6804bc2e":[6,0,1,0,1,448,3],
 "classMR_1_1ObjectComparableWithReference.html#a83e6e08749efd393e0a34bdf6804bc2e":[6,0,2,0,1,431,3],
-"classMR_1_1ObjectComparableWithReference.html#aab13b511da066b66c07235be25abce0b":[6,0,1,0,1,448,6],
-"classMR_1_1ObjectComparableWithReference.html#aab13b511da066b66c07235be25abce0b":[6,0,2,0,1,431,6]
+"classMR_1_1ObjectComparableWithReference.html#aab13b511da066b66c07235be25abce0b":[6,0,1,0,1,448,6]
 };

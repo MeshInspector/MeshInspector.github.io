@@ -1,5 +1,6 @@
 var NAVTREEINDEX11 =
 {
+"MRNotificationType_8h_source.html":[6,0,3,0,0,1,11,51],
 "MRObjectComparableWithReference_8h.html":[6,0,3,0,0,1,4,246],
 "MRObjectComparableWithReference_8h_source.html":[6,0,3,0,0,1,4,246],
 "MRObjectDimensionsEnum_8h.html":[6,0,3,0,0,1,4,247],
@@ -248,6 +249,5 @@ var NAVTREEINDEX11 =
 "MRPointCloudRadius_8h.html#a1366441a63d8da63b7db115a4fe66c31":[6,0,3,0,0,1,4,285,0],
 "MRPointCloudRadius_8h.html#a3531ebf5781cbdc7f3a5bc36fd936d5e":[6,0,3,0,0,1,4,285,1],
 "MRPointCloudRadius_8h_source.html":[6,0,3,0,0,1,4,285],
-"MRPointCloudRelax_8h.html":[6,0,3,0,0,1,4,286],
-"MRPointCloudRelax_8h_source.html":[6,0,3,0,0,1,4,286]
+"MRPointCloudRelax_8h.html":[6,0,3,0,0,1,4,286]
 };

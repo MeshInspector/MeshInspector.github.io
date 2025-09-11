@@ -1,5 +1,7 @@
 var NAVTREEINDEX74 =
 {
+"structMR_1_1EndMillCutter.html#ab507809dfb8f5d7c74c8629fbb94d518a353df421c4fc976e2637061d7a83f601":[6,0,2,0,1,209,0,1],
+"structMR_1_1EndMillCutter.html#ab507809dfb8f5d7c74c8629fbb94d518a7081aaaca6f0bb0d1f920ba52c6c287c":[6,0,1,0,1,226,0,2],
 "structMR_1_1EndMillCutter.html#ab507809dfb8f5d7c74c8629fbb94d518a7081aaaca6f0bb0d1f920ba52c6c287c":[6,0,2,0,1,209,0,2],
 "structMR_1_1EndMillCutter.html#ab507809dfb8f5d7c74c8629fbb94d518a745e3db6a7ffd50e1a72b39482f0882d":[6,0,1,0,1,226,0,0],
 "structMR_1_1EndMillCutter.html#ab507809dfb8f5d7c74c8629fbb94d518a745e3db6a7ffd50e1a72b39482f0882d":[6,0,2,0,1,209,0,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX74 =
 "structMR_1_1Features_1_1Traits_1_1Unary.html":[6,0,2,0,1,2,1,7],
 "structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1ConeSegment_01_4.html":[6,0,1,0,1,6,1,8],
 "structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1ConeSegment_01_4.html":[6,0,2,0,1,2,1,8],
-"structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1ConeSegment_01_4.html#a5c925dcac2e6ec9e5b0423871da7b408":[6,0,1,0,1,6,1,8,0],
-"structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1ConeSegment_01_4.html#a5c925dcac2e6ec9e5b0423871da7b408":[6,0,2,0,1,2,1,8,0],
-"structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1Plane_01_4.html":[6,0,1,0,1,6,1,9]
+"structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1ConeSegment_01_4.html#a5c925dcac2e6ec9e5b0423871da7b408":[6,0,1,0,1,6,1,8,0]
 };

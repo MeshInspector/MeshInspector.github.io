@@ -1,5 +1,7 @@
 var NAVTREEINDEX95 =
 {
+"structMR_1_1Vector4.html#ac74abf5cb3163a238fa06697948c9e90":[6,0,0,0,12,2,29],
+"structMR_1_1Vector4.html#aca06a481c53bf7bef1d1f701851ce9de":[6,0,0,0,12,2,30],
 "structMR_1_1Vector4.html#ad5b1e1a25f8e5ae5cdb4ec10942c8384":[6,0,0,0,12,2,25],
 "structMR_1_1Vector4.html#adc44955f85b32da55a4f43ea11cd257f":[6,0,0,0,12,2,10],
 "structMR_1_1Vector4.html#ae5b8ac0b6c0e0a39fc6983c0fea0a016":[6,0,0,0,12,2,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX95 =
 "structMR_1_1VoxelsVolume.html#a3d40ff5d6e909a58566b67d177842ba0":[6,0,2,0,1,800,4],
 "structMR_1_1VoxelsVolume.html#a6098927f3eb1a5ae05be948dd3ddf6ea":[6,0,1,0,1,817,1],
 "structMR_1_1VoxelsVolume.html#a6098927f3eb1a5ae05be948dd3ddf6ea":[6,0,2,0,1,800,1],
-"structMR_1_1VoxelsVolume.html#a6ea81e0ad21fc888dfa262fb957f3c2e":[6,0,1,0,1,817,2],
-"structMR_1_1VoxelsVolume.html#a6ea81e0ad21fc888dfa262fb957f3c2e":[6,0,2,0,1,800,2],
-"structMR_1_1VoxelsVolume.html#aec69290a92637368e463e39fadfea701":[6,0,1,0,1,817,3]
+"structMR_1_1VoxelsVolume.html#a6ea81e0ad21fc888dfa262fb957f3c2e":[6,0,1,0,1,817,2]
 };

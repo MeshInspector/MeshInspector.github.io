@@ -1,5 +1,6 @@
 var NAVTREEINDEX53 =
 {
+"classMR_1_1VisualObject.html#ab87c9fab3f92c38aba589584b5466a98":[6,0,0,11,2,5,74],
 "classMR_1_1VisualObject.html#ac75d179334e336af0672bf0d9c997038":[6,0,0,11,2,5,81],
 "classMR_1_1VisualObject.html#ac8fd310ffa1926e733e28b521f658778":[6,0,0,11,2,5,53],
 "classMR_1_1VisualObject.html#acd4b651e989735ef689f9ed94bbf302d":[6,0,0,11,2,5,63],
@@ -248,6 +249,5 @@ var NAVTREEINDEX53 =
 "conceptMR_1_1HasGetNormalMethod.html":[6,0,1,0,1,838],
 "conceptMR_1_1ImGuiMath_1_1detail_1_1Scalar.html":[6,0,1,0,1,14,0,8],
 "conceptMR_1_1ImGuiMath_1_1detail_1_1ValidOperands.html":[6,0,1,0,1,14,0,12],
-"conceptMR_1_1ImGuiMath_1_1detail_1_1Vector.html":[6,0,1,0,1,14,0,9],
-"conceptMR_1_1ImGuiMath_1_1detail_1_1VectorOrScalar.html":[6,0,1,0,1,14,0,10]
+"conceptMR_1_1ImGuiMath_1_1detail_1_1Vector.html":[6,0,1,0,1,14,0,9]
 };

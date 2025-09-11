@@ -1,5 +1,6 @@
 var NAVTREEINDEX14 =
 {
+"MRSegmPoint_8h.html":[6,0,3,0,0,1,4,349],
 "MRSegmPoint_8h_source.html":[6,0,3,0,0,1,4,349],
 "MRSelectCurvaturePreference_8h.html":[6,0,3,0,0,1,11,106],
 "MRSelectCurvaturePreference_8h.html#ad7e1f7039c3adef672abd4150bc4786c":[6,0,3,0,0,1,11,106,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX14 =
 "MRSystem_8h.html#ac6f40535c1b612f6ce24e70b7ee28a36":[6,0,3,0,0,1,4,374,9],
 "MRSystem_8h.html#ac8ef1e5eb550d8cb502e7a5a5ac8c038":[6,0,3,0,0,1,4,374,14],
 "MRSystem_8h.html#ad01e0850be9f75dcc1d0bd461787535f":[6,0,3,0,0,1,4,374,11],
-"MRSystem_8h.html#aec820d50ac448217d66131a079fce39a":[6,0,3,0,0,1,4,374,17],
-"MRSystem_8h_source.html":[6,0,3,0,0,1,4,374]
+"MRSystem_8h.html#aec820d50ac448217d66131a079fce39a":[6,0,3,0,0,1,4,374,17]
 };

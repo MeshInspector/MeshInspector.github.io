@@ -1,5 +1,6 @@
 var NAVTREEINDEX12 =
 {
+"MRPointCloudRelax_8h_source.html":[6,0,3,0,0,1,4,286],
 "MRPointCloudTriangulationHelpers_8h.html":[6,0,3,0,0,1,4,288],
 "MRPointCloudTriangulationHelpers_8h.html#a0e54822d80eff541695984d7a72a2ac9":[6,0,3,0,0,1,4,288,3],
 "MRPointCloudTriangulationHelpers_8h.html#a691dadc49fb6346b701545653e8e1dcf":[6,0,3,0,0,1,4,288,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX12 =
 "MRRegularMapMesher_8h.html":[6,0,3,0,0,1,4,335],
 "MRRegularMapMesher_8h_source.html":[6,0,3,0,0,1,4,335],
 "MRRenderClickableRect_8h.html":[6,0,3,0,0,1,11,67],
-"MRRenderClickableRect_8h_source.html":[6,0,3,0,0,1,11,67],
-"MRRenderDefaultObjects_8h.html":[6,0,3,0,0,1,11,68]
+"MRRenderClickableRect_8h_source.html":[6,0,3,0,0,1,11,67]
 };
