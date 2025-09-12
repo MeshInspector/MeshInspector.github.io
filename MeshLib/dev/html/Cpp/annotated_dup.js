@@ -46,6 +46,15 @@ var annotated_dup =
       [ "FileDialog", "namespaceMR_1_1FileDialog.html", [
         [ "Parameters", "structMR_1_1FileDialog_1_1Parameters.html", "structMR_1_1FileDialog_1_1Parameters" ]
       ] ],
+      [ "FillingSurface", "namespaceMR_1_1FillingSurface.html", [
+        [ "CellularSurface", "namespaceMR_1_1FillingSurface_1_1CellularSurface.html", [
+          [ "Params", "structMR_1_1FillingSurface_1_1CellularSurface_1_1Params.html", "structMR_1_1FillingSurface_1_1CellularSurface_1_1Params" ]
+        ] ],
+        [ "TPMS", "namespaceMR_1_1FillingSurface_1_1TPMS.html", [
+          [ "MeshParams", "structMR_1_1FillingSurface_1_1TPMS_1_1MeshParams.html", "structMR_1_1FillingSurface_1_1TPMS_1_1MeshParams" ],
+          [ "VolumeParams", "structMR_1_1FillingSurface_1_1TPMS_1_1VolumeParams.html", "structMR_1_1FillingSurface_1_1TPMS_1_1VolumeParams" ]
+        ] ]
+      ] ],
       [ "FixUndercuts", "namespaceMR_1_1FixUndercuts.html", [
         [ "DistMapImproveDirectionParameters", "structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html", "structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters" ],
         [ "FindParams", "structMR_1_1FixUndercuts_1_1FindParams.html", "structMR_1_1FixUndercuts_1_1FindParams" ],
@@ -183,10 +192,6 @@ var annotated_dup =
       ] ],
       [ "SelfIntersections", "namespaceMR_1_1SelfIntersections.html", [
         [ "Settings", "structMR_1_1SelfIntersections_1_1Settings.html", "structMR_1_1SelfIntersections_1_1Settings" ]
-      ] ],
-      [ "TPMS", "namespaceMR_1_1TPMS.html", [
-        [ "MeshParams", "structMR_1_1TPMS_1_1MeshParams.html", "structMR_1_1TPMS_1_1MeshParams" ],
-        [ "VolumeParams", "structMR_1_1TPMS_1_1VolumeParams.html", "structMR_1_1TPMS_1_1VolumeParams" ]
       ] ],
       [ "TriangulationHelpers", "namespaceMR_1_1TriangulationHelpers.html", [
         [ "FanOptimizerQueueElement", "structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html", "structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement" ],

@@ -1,5 +1,17 @@
 var NAVTREEINDEX39 =
 {
+"classMR_1_1PriorityQueue.html#ac59724ac4d832ab0bd70f42d9c2170d1":[6,0,1,0,1,563,10],
+"classMR_1_1PriorityQueue.html#ac59724ac4d832ab0bd70f42d9c2170d1":[6,0,2,0,1,546,10],
+"classMR_1_1PriorityQueue.html#ada44a589fd04a828763560decb38cdf8":[6,0,1,0,1,563,8],
+"classMR_1_1PriorityQueue.html#ada44a589fd04a828763560decb38cdf8":[6,0,2,0,1,546,8],
+"classMR_1_1PriorityQueue.html#aeaf2b86418b3f772aaf5c8bc2329d8c2":[6,0,1,0,1,563,0],
+"classMR_1_1PriorityQueue.html#aeaf2b86418b3f772aaf5c8bc2329d8c2":[6,0,2,0,1,546,0],
+"classMR_1_1PriorityQueue.html#aebd81e426914ebd5fa07ba5e4bfa0142":[6,0,1,0,1,563,4],
+"classMR_1_1PriorityQueue.html#aebd81e426914ebd5fa07ba5e4bfa0142":[6,0,2,0,1,546,4],
+"classMR_1_1PriorityQueue.html#af82d3663565c02f63678292a87e97192":[6,0,1,0,1,563,12],
+"classMR_1_1PriorityQueue.html#af82d3663565c02f63678292a87e97192":[6,0,2,0,1,546,12],
+"classMR_1_1ProvidesViewportWidget.html":[6,0,1,0,1,566],
+"classMR_1_1ProvidesViewportWidget.html":[6,0,2,0,1,549],
 "classMR_1_1ProvidesViewportWidget.html#a109c919bd164ef9b221f3f71e6db2c41":[6,0,1,0,1,566,2],
 "classMR_1_1ProvidesViewportWidget.html#a109c919bd164ef9b221f3f71e6db2c41":[6,0,2,0,1,549,2],
 "classMR_1_1ProvidesViewportWidget.html#a3bf7f1350760c817d94d1173339aba56":[6,0,1,0,1,566,3],
@@ -237,17 +249,5 @@ var NAVTREEINDEX39 =
 "classMR_1_1RectIndexer.html#ab4a6c53f72e0260996768505672d9052":[6,0,0,5,8,13],
 "classMR_1_1RectIndexer.html#abd5035619b34370c067840c03ffb5b82":[6,0,0,5,8,8],
 "classMR_1_1RectIndexer.html#ac517f36a12430a41779b1e7fd847684b":[6,0,0,5,8,5],
-"classMR_1_1RectIndexer.html#af3cae594fa09e2f9517846460b7ab08a":[6,0,0,5,8,14],
-"classMR_1_1RegisterRenderObjectConstructor.html":[6,0,1,0,1,585],
-"classMR_1_1RegisterRenderObjectConstructor.html":[6,0,2,0,1,568],
-"classMR_1_1RegisterRenderObjectConstructor.html#a68b36d5a17409d933e14092222e0ff3e":[6,0,1,0,1,585,0],
-"classMR_1_1RegisterRenderObjectConstructor.html#a68b36d5a17409d933e14092222e0ff3e":[6,0,2,0,1,568,0],
-"classMR_1_1RegisterRenderObjectConstructor.html#a7680dbd1b8cb8d02d09cce6fc8fb0200":[6,0,1,0,1,585,1],
-"classMR_1_1RegisterRenderObjectConstructor.html#a7680dbd1b8cb8d02d09cce6fc8fb0200":[6,0,2,0,1,568,1],
-"classMR_1_1RegularMapMesher.html":[6,0,0,12,3],
-"classMR_1_1RegularMapMesher.html#a351acfb608cafb88929a69ba41f63bfa":[6,0,0,12,3,1],
-"classMR_1_1RegularMapMesher.html#a48f6cd19965602a3fb9f4669c22e3c14":[6,0,0,12,3,3],
-"classMR_1_1RegularMapMesher.html#a8556a43fd905bbb2cba1cb5bb5743739":[6,0,0,12,3,2],
-"classMR_1_1RegularMapMesher.html#a9ed2cde9e77dce74ecb24b16eb4db785":[6,0,0,12,3,4],
-"classMR_1_1RegularMapMesher.html#acdde192d67f89fe363a158f3ee13f499":[6,0,0,12,3,0]
+"classMR_1_1RectIndexer.html#af3cae594fa09e2f9517846460b7ab08a":[6,0,0,5,8,14]
 };

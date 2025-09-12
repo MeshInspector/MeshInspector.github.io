@@ -158,6 +158,7 @@ var hierarchy =
     [ "mrmeshpy.MultiwayICPSamplingParameters.CascadeMode", "classmrmeshpy_1_1MultiwayICPSamplingParameters_1_1CascadeMode.html", null ],
     [ "mrmeshpy.Pdf.Cell", "classmrmeshpy_1_1Pdf_1_1Cell.html", null ],
     [ "mrmeshpy.Pdf.CellCustomParams", "classmrmeshpy_1_1Pdf_1_1CellCustomParams.html", null ],
+    [ "mrmeshpy.FillingSurface.CellularSurface", "classmrmeshpy_1_1FillingSurface_1_1CellularSurface.html", null ],
     [ "mrmeshpy.char_output", "classmrmeshpy_1_1char__output.html", null ],
     [ "mrmeshpy.Chunk", "classmrmeshpy_1_1Chunk.html", null ],
     [ "mrmeshpy.ChunkIterator", "classmrmeshpy_1_1ChunkIterator.html", null ],
@@ -304,6 +305,7 @@ var hierarchy =
     [ "mrmeshpy.FillHoleMetric", "classmrmeshpy_1_1FillHoleMetric.html", null ],
     [ "mrmeshpy.FillHoleNicelySettings", "classmrmeshpy_1_1FillHoleNicelySettings.html", null ],
     [ "mrmeshpy.FillHoleParams", "classmrmeshpy_1_1FillHoleParams.html", null ],
+    [ "mrmeshpy.FillingSurface", "classmrmeshpy_1_1FillingSurface.html", null ],
     [ "mrmeshpy.FilterType", "classmrmeshpy_1_1FilterType.html", null ],
     [ "mrmeshpy.FindDisorientationParams", "classmrmeshpy_1_1FindDisorientationParams.html", null ],
     [ "mrmeshpy.FindInnerShellSettings", "classmrmeshpy_1_1FindInnerShellSettings.html", null ],
@@ -551,6 +553,7 @@ var hierarchy =
     [ "mrmeshpy.IteratorRange_RingIterator_NextEdgeSameOrigin", "classmrmeshpy_1_1IteratorRange__RingIterator__NextEdgeSameOrigin.html", null ],
     [ "mrmeshpy.IteratorRange_UndirectedEdgeIterator", "classmrmeshpy_1_1IteratorRange__UndirectedEdgeIterator.html", null ],
     [ "mrviewerpy.KeyMod", "classmrviewerpy_1_1KeyMod.html", null ],
+    [ "mrmeshpy.FillingSurface.Kind", "classmrmeshpy_1_1FillingSurface_1_1Kind.html", null ],
     [ "mrmeshpy.LabelVisualizePropertyType", "classmrmeshpy_1_1LabelVisualizePropertyType.html", null ],
     [ "mrmeshpy.Laplacian", "classmrmeshpy_1_1Laplacian.html", null ],
     [ "mrmeshpy.MeshComponents.LargeByAreaComponentsSettings", "classmrmeshpy_1_1MeshComponents_1_1LargeByAreaComponentsSettings.html", null ],
@@ -799,6 +802,7 @@ var hierarchy =
       [ "mrmeshpy.WeightedShell.ParametersMetric", "classmrmeshpy_1_1WeightedShell_1_1ParametersMetric.html", null ],
       [ "mrmeshpy.WeightedShell.ParametersRegions", "classmrmeshpy_1_1WeightedShell_1_1ParametersRegions.html", null ]
     ] ],
+    [ "mrmeshpy.FillingSurface.CellularSurface.Params", "classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params.html", null ],
     [ "mrmeshpy.PartMapping", "classmrmeshpy_1_1PartMapping.html", null ],
     [ "mrmeshpy.PathError", "classmrmeshpy_1_1PathError.html", null ],
     [ "mrmeshpy.Pdf", "classmrmeshpy_1_1Pdf.html", null ],
@@ -1040,6 +1044,8 @@ var hierarchy =
     [ "mrmeshpy.std_variant_Polynomial_float_0ul_Polynomial_float_1ul_Polynomial_float_2ul_Polynomial_float_3ul_Polynomial_float_4ul_Polynomial_float_5ul_Polynomial_float_6ul", "classmrmeshpy_1_1std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomial__float6d172424a64a8d1a395e20db43ad7e51.html", null ],
     [ "mrmeshpy.std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane", "classmrmeshpy_1_1std__variant__Sphere__Vector3__float__Features__Primitives__ConeSegment__Features__Primitives__Plane.html", null ],
     [ "mrmeshpy.std_variant_std_monostate_MeshTriPoint_EdgePoint_Id_VertTag", "classmrmeshpy_1_1std__variant__std__monostate__MeshTriPoint__EdgePoint__Id__VertTag.html", null ],
+    [ "mrmeshpy.std_variant_std_reference_wrapper_FillingSurface_TPMS_MeshParams_const_std_reference_wrapper_FillingSurface_CellularSurface_Params_const", "classmrmeshpy_1_1std__variant__std__reference__wrapper__FillingSurface__TPMS__MeshParams__const_89dd054c5cdc01828ddd8b073728f57b.html", null ],
+    [ "mrmeshpy.std_variant_std_reference_wrapper_FillingSurface_TPMS_MeshParams_std_reference_wrapper_FillingSurface_CellularSurface_Params", "classmrmeshpy_1_1std__variant__std__reference__wrapper__FillingSurface__TPMS__MeshParams__std__r5e01003d37e636c8789042e3eb6cd773.html", null ],
     [ "mrmeshpy.std_variant_Vector_Id_EdgeTag_Id_EdgeTag_phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag", "classmrmeshpy_1_1std__variant__Vector__Id__EdgeTag__Id__EdgeTag__phmap__flat__hash__map__Id__EdgeTag__Id__EdgeTag.html", null ],
     [ "mrmeshpy.std_variant_Vector_Id_EdgeTag_Id_UndirectedEdgeTag_phmap_flat_hash_map_Id_UndirectedEdgeTag_Id_EdgeTag", "classmrmeshpy_1_1std__variant__Vector__Id__EdgeTag__Id__UndirectedEdgeTag__phmap__flat__hash__ma9dd2036428ec798de078df863afa0b00.html", null ],
     [ "mrmeshpy.std_variant_Vector_Id_FaceTag_Id_FaceTag_phmap_flat_hash_map_Id_FaceTag_Id_FaceTag", "classmrmeshpy_1_1std__variant__Vector__Id__FaceTag__Id__FaceTag__phmap__flat__hash__map__Id__FaceTag__Id__FaceTag.html", null ],
@@ -1234,7 +1240,7 @@ var hierarchy =
       [ "mrmeshpy.ConstantCuspParams", "classmrmeshpy_1_1ConstantCuspParams.html", null ]
     ] ],
     [ "mrmeshpy.ToolPathResult", "classmrmeshpy_1_1ToolPathResult.html", null ],
-    [ "mrmeshpy.TPMS", "classmrmeshpy_1_1TPMS.html", null ],
+    [ "mrmeshpy.FillingSurface.TPMS", "classmrmeshpy_1_1FillingSurface_1_1TPMS.html", null ],
     [ "mrmeshpy.Features.Traits", "classmrmeshpy_1_1Features_1_1Traits.html", null ],
     [ "mrmeshpy.TransformedMesh", "classmrmeshpy_1_1TransformedMesh.html", null ],
     [ "mrmeshpy.TransformVdbVolumeResult", "classmrmeshpy_1_1TransformVdbVolumeResult.html", null ],
@@ -1255,11 +1261,11 @@ var hierarchy =
     [ "mrmeshpy.ChangeObjectColorAction.Type", "classmrmeshpy_1_1ChangeObjectColorAction_1_1Type.html", null ],
     [ "mrmeshpy.ChangeSceneAction.Type", "classmrmeshpy_1_1ChangeSceneAction_1_1Type.html", null ],
     [ "mrmeshpy.EndMillCutter.Type", "classmrmeshpy_1_1EndMillCutter_1_1Type.html", null ],
+    [ "mrmeshpy.FillingSurface.TPMS.Type", "classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1Type.html", null ],
     [ "mrmeshpy.HistoryAction.Type", "classmrmeshpy_1_1HistoryAction_1_1Type.html", null ],
     [ "mrmeshpy.MeshToVolumeParams.Type", "classmrmeshpy_1_1MeshToVolumeParams_1_1Type.html", null ],
     [ "mrmeshpy.OffsetContoursParams.Type", "classmrmeshpy_1_1OffsetContoursParams_1_1Type.html", null ],
     [ "mrmeshpy.SceneColors.Type", "classmrmeshpy_1_1SceneColors_1_1Type.html", null ],
-    [ "mrmeshpy.TPMS.Type", "classmrmeshpy_1_1TPMS_1_1Type.html", null ],
     [ "mrviewerpy.UiEntry", "classmrviewerpy_1_1UiEntry.html", null ],
     [ "mrviewerpy.UiEntryType", "classmrviewerpy_1_1UiEntryType.html", null ],
     [ "mrmeshpy.UiRenderManager", "classmrmeshpy_1_1UiRenderManager.html", null ],
@@ -1394,8 +1400,8 @@ var hierarchy =
     [ "mrmeshpy.ViewportProperty_XfBasedCache_Box3f", "classmrmeshpy_1_1ViewportProperty__XfBasedCache__Box3f.html", null ],
     [ "mrmeshpy.VisualizeMaskType", "classmrmeshpy_1_1VisualizeMaskType.html", null ],
     [ "mrmeshpy.VolumeIndexer", "classmrmeshpy_1_1VolumeIndexer.html", null ],
-    [ "mrmeshpy.TPMS.VolumeParams", "classmrmeshpy_1_1TPMS_1_1VolumeParams.html", [
-      [ "mrmeshpy.TPMS.MeshParams", "classmrmeshpy_1_1TPMS_1_1MeshParams.html", null ]
+    [ "mrmeshpy.FillingSurface.TPMS.VolumeParams", "classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1VolumeParams.html", [
+      [ "mrmeshpy.FillingSurface.TPMS.MeshParams", "classmrmeshpy_1_1FillingSurface_1_1TPMS_1_1MeshParams.html", null ]
     ] ],
     [ "mrmeshpy.ObjectVoxels.VolumeRenderingParams", "classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams.html", null ],
     [ "mrmeshpy.VolumeSegmentationParameters", "classmrmeshpy_1_1VolumeSegmentationParameters.html", null ],

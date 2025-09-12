@@ -1,5 +1,17 @@
 var NAVTREEINDEX37 =
 {
+"classMR_1_1Palette.html#a7896773ea69981587644c20af439a0f4":[6,0,1,0,1,493,39],
+"classMR_1_1Palette.html#a7896773ea69981587644c20af439a0f4":[6,0,2,0,1,476,39],
+"classMR_1_1Palette.html#a79ec1bbcff59caf42691d6cea60db1b7":[6,0,1,0,1,493,31],
+"classMR_1_1Palette.html#a79ec1bbcff59caf42691d6cea60db1b7":[6,0,2,0,1,476,31],
+"classMR_1_1Palette.html#a7d6dd19e47f31c6e502113f4b413ff77":[6,0,1,0,1,493,40],
+"classMR_1_1Palette.html#a7d6dd19e47f31c6e502113f4b413ff77":[6,0,2,0,1,476,40],
+"classMR_1_1Palette.html#a9118290947382258ebf670ae4ed5db23":[6,0,1,0,1,493,10],
+"classMR_1_1Palette.html#a9118290947382258ebf670ae4ed5db23":[6,0,2,0,1,476,10],
+"classMR_1_1Palette.html#a95993f62dda52bd555e9902cb0663a68":[6,0,1,0,1,493,34],
+"classMR_1_1Palette.html#a95993f62dda52bd555e9902cb0663a68":[6,0,2,0,1,476,34],
+"classMR_1_1Palette.html#a993b22e2c8c190cfe6473013283f6c04":[6,0,1,0,1,493,9],
+"classMR_1_1Palette.html#a993b22e2c8c190cfe6473013283f6c04":[6,0,2,0,1,476,9],
 "classMR_1_1Palette.html#aa4516e9a134ac39f12c28ba08bc1b7e8":[6,0,1,0,1,493,41],
 "classMR_1_1Palette.html#aa4516e9a134ac39f12c28ba08bc1b7e8":[6,0,2,0,1,476,41],
 "classMR_1_1Palette.html#ab242ee951ea58ca0e4a9312253bf3184":[6,0,1,0,1,493,24],
@@ -237,17 +249,5 @@ var NAVTREEINDEX37 =
 "classMR_1_1PlaneWidget.html#a8ae56fec0c4c5e422a127b1db23a053d":[6,0,2,0,1,490,14],
 "classMR_1_1PlaneWidget.html#a9b0b77f99abe5bd98ad35232c69bf7a2":[6,0,1,0,1,507,12],
 "classMR_1_1PlaneWidget.html#a9b0b77f99abe5bd98ad35232c69bf7a2":[6,0,2,0,1,490,12],
-"classMR_1_1PlaneWidget.html#ab430c40e09189d949fa9195c31787702":[6,0,1,0,1,507,13],
-"classMR_1_1PlaneWidget.html#ab430c40e09189d949fa9195c31787702":[6,0,2,0,1,490,13],
-"classMR_1_1PlaneWidget.html#ade4245fe1a8605fb5f9b563ea03d5f71":[6,0,1,0,1,507,0],
-"classMR_1_1PlaneWidget.html#ade4245fe1a8605fb5f9b563ea03d5f71":[6,0,2,0,1,490,0],
-"classMR_1_1PlaneWidget.html#adf199dcf2c914f0c5584c3703355e7ae":[6,0,1,0,1,507,9],
-"classMR_1_1PlaneWidget.html#adf199dcf2c914f0c5584c3703355e7ae":[6,0,2,0,1,490,9],
-"classMR_1_1PlaneWidget.html#adf904937d1dcfe1bd338c31cd4e45a2d":[6,0,1,0,1,507,6],
-"classMR_1_1PlaneWidget.html#adf904937d1dcfe1bd338c31cd4e45a2d":[6,0,2,0,1,490,6],
-"classMR_1_1PluginCloseOnChangeMesh.html":[6,0,1,0,1,508],
-"classMR_1_1PluginCloseOnChangeMesh.html":[6,0,2,0,1,491],
-"classMR_1_1PluginCloseOnChangeMesh.html#a2e05f59d67c502229f3a2a2e919886fc":[6,0,1,0,1,508,1],
-"classMR_1_1PluginCloseOnChangeMesh.html#a2e05f59d67c502229f3a2a2e919886fc":[6,0,2,0,1,491,1],
-"classMR_1_1PluginCloseOnChangeMesh.html#a5790fe8a480493d40913adc3812e1127":[6,0,1,0,1,508,2]
+"classMR_1_1PlaneWidget.html#ab430c40e09189d949fa9195c31787702":[6,0,1,0,1,507,13]
 };

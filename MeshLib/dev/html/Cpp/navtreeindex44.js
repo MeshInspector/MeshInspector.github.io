@@ -1,5 +1,17 @@
 var NAVTREEINDEX44 =
 {
+"classMR_1_1SaveOnClosePlugin.html#aac82fa6173a5c41f046e06e39465445e":[6,0,2,0,1,622,1],
+"classMR_1_1SaveOnClosePlugin.html#acd23d814e2dac0931459aee0b97440b3":[6,0,1,0,1,639,0],
+"classMR_1_1SaveOnClosePlugin.html#acd23d814e2dac0931459aee0b97440b3":[6,0,2,0,1,622,0],
+"classMR_1_1SaveSceneAsMenuItem.html":[6,0,1,0,1,640],
+"classMR_1_1SaveSceneAsMenuItem.html":[6,0,2,0,1,623],
+"classMR_1_1SaveSceneAsMenuItem.html#a33f327abf26fb3fe2e09c3584ce0ff9b":[6,0,1,0,1,640,0],
+"classMR_1_1SaveSceneAsMenuItem.html#a33f327abf26fb3fe2e09c3584ce0ff9b":[6,0,2,0,1,623,0],
+"classMR_1_1SaveSceneAsMenuItem.html#a41627a7bfcc714127ad6906c9d4da3a9":[6,0,1,0,1,640,2],
+"classMR_1_1SaveSceneAsMenuItem.html#a41627a7bfcc714127ad6906c9d4da3a9":[6,0,2,0,1,623,2],
+"classMR_1_1SaveSceneAsMenuItem.html#a6870e8bb691b830a00186d9a60d52a3d":[6,0,1,0,1,640,1],
+"classMR_1_1SaveSceneAsMenuItem.html#a6870e8bb691b830a00186d9a60d52a3d":[6,0,2,0,1,623,1],
+"classMR_1_1SaveSceneAsMenuItem.html#ac08afb2181aa6be826c5cc179272d01d":[6,0,1,0,1,640,4],
 "classMR_1_1SaveSceneAsMenuItem.html#ac08afb2181aa6be826c5cc179272d01d":[6,0,2,0,1,623,4],
 "classMR_1_1SaveSceneAsMenuItem.html#ad61d6a7f10df6c02d7aa4131e069920a":[6,0,1,0,1,640,3],
 "classMR_1_1SaveSceneAsMenuItem.html#ad61d6a7f10df6c02d7aa4131e069920a":[6,0,2,0,1,623,3],
@@ -237,17 +249,5 @@ var NAVTREEINDEX44 =
 "classMR_1_1SeparationPointStorage.html#ac2cd0c47a3c902b6c162620b71ccf9c6":[6,0,2,0,1,651,6],
 "classMR_1_1SeparationPointStorage.html#ad8c6370ffaec4ad07e20b71a365327d7":[6,0,1,0,1,668,2],
 "classMR_1_1SeparationPointStorage.html#ad8c6370ffaec4ad07e20b71a365327d7":[6,0,2,0,1,651,2],
-"classMR_1_1SetBitIteratorT.html":[6,0,0,3,4],
-"classMR_1_1SetBitIteratorT.html#a18f2206478b0e1495f2ebbd017d41ff2":[6,0,0,3,4,11],
-"classMR_1_1SetBitIteratorT.html#a22e03a8a13140a2e652009346c41c0ba":[6,0,0,3,4,3],
-"classMR_1_1SetBitIteratorT.html#a38daf11addb75bcfab304e51d62ba9f8":[6,0,0,3,4,6],
-"classMR_1_1SetBitIteratorT.html#a3ead9e2691fedc1c67d1212721d3a157":[6,0,0,3,4,2],
-"classMR_1_1SetBitIteratorT.html#a4462188d7adb7134739834723a0e405e":[6,0,0,3,4,8],
-"classMR_1_1SetBitIteratorT.html#a65326d51ccb6cea126d404534ea2a329":[6,0,0,3,4,5],
-"classMR_1_1SetBitIteratorT.html#a680dec55a3b2c4c1c9bf339ab88fe367":[6,0,0,3,4,4],
-"classMR_1_1SetBitIteratorT.html#a819b9dc59c1187b38e0a0793779bb8b0":[6,0,0,3,4,1],
-"classMR_1_1SetBitIteratorT.html#aa231d32ed4abe7e732adfff36d5e267b":[6,0,0,3,4,9],
-"classMR_1_1SetBitIteratorT.html#aad821003890f84db390e9a4011c8d37d":[6,0,0,3,4,10],
-"classMR_1_1SetBitIteratorT.html#ab6e4b92cd100336048e5869d8fadc6ca":[6,0,0,3,4,7],
-"classMR_1_1SetBitIteratorT.html#af520ca8fde7b2302d963bb596a4e326b":[6,0,0,3,4,0]
+"classMR_1_1SetBitIteratorT.html":[6,0,0,3,4]
 };

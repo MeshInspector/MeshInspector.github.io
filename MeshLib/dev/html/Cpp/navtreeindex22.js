@@ -1,5 +1,17 @@
 var NAVTREEINDEX22 =
 {
+"classMR_1_1ColorMapAggregator.html#ab256b40e5b8b82eac72187cf3cc0712a":[6,0,1,0,1,147,3],
+"classMR_1_1ColorMapAggregator.html#ab256b40e5b8b82eac72187cf3cc0712a":[6,0,2,0,1,130,3],
+"classMR_1_1ColorMapAggregator.html#ab256b40e5b8b82eac72187cf3cc0712aa6b551379c3c0b59326abdaf3b4395bd3":[6,0,1,0,1,147,3,0],
+"classMR_1_1ColorMapAggregator.html#ab256b40e5b8b82eac72187cf3cc0712aa6b551379c3c0b59326abdaf3b4395bd3":[6,0,2,0,1,130,3,0],
+"classMR_1_1ColorMapAggregator.html#ab256b40e5b8b82eac72187cf3cc0712aa84e358c0cfad27b29c41c888167828f3":[6,0,1,0,1,147,3,1],
+"classMR_1_1ColorMapAggregator.html#ab256b40e5b8b82eac72187cf3cc0712aa84e358c0cfad27b29c41c888167828f3":[6,0,2,0,1,130,3,1],
+"classMR_1_1ColorMapAggregator.html#ab824efbaafb7860d9d22e8166bb84a80":[6,0,1,0,1,147,9],
+"classMR_1_1ColorMapAggregator.html#ab824efbaafb7860d9d22e8166bb84a80":[6,0,2,0,1,130,9],
+"classMR_1_1ColorMapAggregator.html#ac67f25c8d9133cd6915063fa8e301fd6":[6,0,1,0,1,147,11],
+"classMR_1_1ColorMapAggregator.html#ac67f25c8d9133cd6915063fa8e301fd6":[6,0,2,0,1,130,11],
+"classMR_1_1ColorMapAggregator.html#af72490cd5097c80ebcf4fe9e28821f15":[6,0,1,0,1,147,12],
+"classMR_1_1ColorMapAggregator.html#af72490cd5097c80ebcf4fe9e28821f15":[6,0,2,0,1,130,12],
 "classMR_1_1ColorTheme.html":[6,0,1,0,1,148],
 "classMR_1_1ColorTheme.html":[6,0,2,0,1,131],
 "classMR_1_1ColorTheme.html#a91b6b928ca7f490fdd396c347347bcdc":[6,0,1,0,1,148,3],
@@ -237,17 +249,5 @@ var NAVTREEINDEX22 =
 "classMR_1_1ConeObject.html#aee0cce82eb8d15e883bf0d50eaecfd27":[6,0,0,11,0,1,10],
 "classMR_1_1ConeObject.html#af41c7ee41d175791f53fa013772f99b9":[6,0,0,11,0,1,21],
 "classMR_1_1ConeObject.html#af6287a16f4c08d79fb7eabf432759e42":[6,0,0,11,0,1,18],
-"classMR_1_1ConeObject.html#af938f4c12b7998e3a7fa7ddd2e713568":[6,0,0,11,0,1,2],
-"classMR_1_1ConeObject.html#afd3e44ebcd56377cde2ddecee9e57216":[6,0,0,11,0,1,7],
-"classMR_1_1Config.html":[6,0,1,0,1,158],
-"classMR_1_1Config.html":[6,0,2,0,1,141],
-"classMR_1_1Config.html#a1a1c1e3afa9a60434b3b7a17eaa402c4":[6,0,1,0,1,158,3],
-"classMR_1_1Config.html#a1a1c1e3afa9a60434b3b7a17eaa402c4":[6,0,2,0,1,141,3],
-"classMR_1_1Config.html#a264c1a7b8aa598635f2500ae12c29606":[6,0,1,0,1,158,4],
-"classMR_1_1Config.html#a264c1a7b8aa598635f2500ae12c29606":[6,0,2,0,1,141,4],
-"classMR_1_1Config.html#a3388c3cd27c60f2c4a990ef889f58b70":[6,0,1,0,1,158,19],
-"classMR_1_1Config.html#a3388c3cd27c60f2c4a990ef889f58b70":[6,0,2,0,1,141,19],
-"classMR_1_1Config.html#a3933d06b4e35a4f309cff393747e1f2f":[6,0,1,0,1,158,0],
-"classMR_1_1Config.html#a3933d06b4e35a4f309cff393747e1f2f":[6,0,2,0,1,141,0],
-"classMR_1_1Config.html#a3b36a74eccd9dd120a1e85983e8f64e3":[6,0,1,0,1,158,16]
+"classMR_1_1ConeObject.html#af938f4c12b7998e3a7fa7ddd2e713568":[6,0,0,11,0,1,2]
 };

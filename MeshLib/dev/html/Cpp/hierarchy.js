@@ -1010,6 +1010,7 @@ var hierarchy =
       [ "MR::WeightedShell::ParametersMetric", "structMR_1_1WeightedShell_1_1ParametersMetric.html", null ],
       [ "MR::WeightedShell::ParametersRegions", "structMR_1_1WeightedShell_1_1ParametersRegions.html", null ]
     ] ],
+    [ "MR::FillingSurface::CellularSurface::Params", "structMR_1_1FillingSurface_1_1CellularSurface_1_1Params.html", null ],
     [ "MR::ImGuiMeasurementIndicators::Params", "structMR_1_1ImGuiMeasurementIndicators_1_1Params.html", null ],
     [ "MR::PickPointManager::Params", "structMR_1_1PickPointManager_1_1Params.html", null ],
     [ "MR::UI::NonOverlappingLabelTask::Params", "structMR_1_1UI_1_1NonOverlappingLabelTask_1_1Params.html", null ],
@@ -1432,8 +1433,8 @@ var hierarchy =
     [ "MR::VisualObjectTagManager", "classMR_1_1VisualObjectTagManager.html", null ],
     [ "MR::TransformControls::VisualParams", "structMR_1_1TransformControls_1_1VisualParams.html", null ],
     [ "MR::VolumeIndexer", "classMR_1_1VolumeIndexer.html", null ],
-    [ "MR::TPMS::VolumeParams", "structMR_1_1TPMS_1_1VolumeParams.html", [
-      [ "MR::TPMS::MeshParams", "structMR_1_1TPMS_1_1MeshParams.html", null ]
+    [ "MR::FillingSurface::TPMS::VolumeParams", "structMR_1_1FillingSurface_1_1TPMS_1_1VolumeParams.html", [
+      [ "MR::FillingSurface::TPMS::MeshParams", "structMR_1_1FillingSurface_1_1TPMS_1_1MeshParams.html", null ]
     ] ],
     [ "MR::ObjectVoxels::VolumeRenderingParams", "structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html", null ],
     [ "MR::VolumeSegmentationParameters", "structMR_1_1VolumeSegmentationParameters.html", null ],
