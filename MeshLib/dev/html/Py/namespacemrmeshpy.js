@@ -1488,7 +1488,7 @@ var namespacemrmeshpy =
     [ "edgeLengthMetric", "namespacemrmeshpy.html#a9206f1f51d3ee008d85f613994353866", null ],
     [ "edgeLengths", "namespacemrmeshpy.html#a608fe2f91ca0858e02ff00229811db8b", null ],
     [ "edgeLengthSq", "namespacemrmeshpy.html#afb2a5295f6450af93a6a25b203c59740", null ],
-    [ "edgeMapsComposition", "namespacemrmeshpy.html#a0597ea2e2aacabc927e613658193ee59", null ],
+    [ "edgeMapsComposition", "namespacemrmeshpy.html#af99208afafedafef83cc770f16c49d74", null ],
     [ "edgePoint", "namespacemrmeshpy.html#a1864074694962c23063d762199014147", null ],
     [ "edgePoint", "namespacemrmeshpy.html#a8dbc5dfc00ff8a89fa7248b4bebbd25c", null ],
     [ "edgePointsFromContours", "namespacemrmeshpy.html#ab5dde666905488d8a7ba31ecf05f38db", null ],
