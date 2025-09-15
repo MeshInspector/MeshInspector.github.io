@@ -224,15 +224,15 @@ var NAVTREEINDEX =
 "structMR_1_1PackMapping.html#a53564598fd272bd72bf4ea9a97a2340a",
 "structMR_1_1PickPointManager_1_1Params.html#aecc58a961497595f91a31e0ba17b453b",
 "structMR_1_1PointsToMeshParameters.html",
-"structMR_1_1PreciseVertCoords2.html",
-"structMR_1_1RenderDimensions_1_1RadiusParams.html#acbc9da122212ec41904e71d4e3002cc9",
-"structMR_1_1SceneLoad_1_1SceneLoadResult.html",
-"structMR_1_1SpaceMouseUpListener.html#aeb1221c28639fac7d66504b83874d0bc",
-"structMR_1_1ThreadRootTimeRecord.html",
-"structMR_1_1TransformedMesh.html",
-"structMR_1_1UI_1_1SeparatorParams.html#a9b20fca071888883ff3bf93187e13e24",
-"structMR_1_1Vector3.html#a14f7f0adb55e73e84d46a542b9b91186",
-"structMR_1_1VoxelMetricParameters.html#a4a39f4473b82dc98d9b380e6c081a438"
+"structMR_1_1PreciseVertCoords.html#a0c89d0a0e8bdc63b8bd4559e3761df3c",
+"structMR_1_1RenderDimensions_1_1RadiusParams.html#a840dbe12e26001840b6e0464356dce72",
+"structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aaeb82699de3b3185559737804c6043809",
+"structMR_1_1SpaceMouseUpListener.html#a0a5bf1247e3588e2db497d9836f77454",
+"structMR_1_1ThickenParams.html#a84e1ba01802eb40a5e2142beef606294",
+"structMR_1_1TransformVdbVolumeResult.html#acd7cd4ab1f0836d7ad1a8aca8f5447a2",
+"structMR_1_1UI_1_1SeparatorParams.html#a9566bcbe86e1d94a70ecba64961edb29",
+"structMR_1_1Vector3.html#a0e6e304d7db4cd0fbcec701048cb543c",
+"structMR_1_1VoxelMetricParameters.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

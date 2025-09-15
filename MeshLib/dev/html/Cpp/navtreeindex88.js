@@ -1,5 +1,9 @@
 var NAVTREEINDEX88 =
 {
+"structMR_1_1PreciseVertCoords.html#a0c89d0a0e8bdc63b8bd4559e3761df3c":[6,0,1,0,1,559,1],
+"structMR_1_1PreciseVertCoords.html#a0c89d0a0e8bdc63b8bd4559e3761df3c":[6,0,2,0,1,542,1],
+"structMR_1_1PreciseVertCoords.html#aee4e7653cf187ba47b0eceff8088e6a5":[6,0,1,0,1,559,0],
+"structMR_1_1PreciseVertCoords.html#aee4e7653cf187ba47b0eceff8088e6a5":[6,0,2,0,1,542,0],
 "structMR_1_1PreciseVertCoords2.html":[6,0,1,0,1,560],
 "structMR_1_1PreciseVertCoords2.html":[6,0,2,0,1,543],
 "structMR_1_1PreciseVertCoords2.html#a5d5322f95eb294c6584a9f15f247fcd7":[6,0,1,0,1,560,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX88 =
 "structMR_1_1RenderDimensions_1_1RadiusParams.html#a209f752c72abb3b57f493fdde9dfe41e":[6,0,1,0,1,33,5,6],
 "structMR_1_1RenderDimensions_1_1RadiusParams.html#a209f752c72abb3b57f493fdde9dfe41e":[6,0,2,0,1,19,5,6],
 "structMR_1_1RenderDimensions_1_1RadiusParams.html#a6b8dbcb732f8c02e1c86373dbaf198ce":[6,0,1,0,1,33,5,5],
-"structMR_1_1RenderDimensions_1_1RadiusParams.html#a6b8dbcb732f8c02e1c86373dbaf198ce":[6,0,2,0,1,19,5,5],
-"structMR_1_1RenderDimensions_1_1RadiusParams.html#a840dbe12e26001840b6e0464356dce72":[6,0,1,0,1,33,5,1],
-"structMR_1_1RenderDimensions_1_1RadiusParams.html#a840dbe12e26001840b6e0464356dce72":[6,0,2,0,1,19,5,1],
-"structMR_1_1RenderDimensions_1_1RadiusParams.html#abdf65391e79f7573aa94c2fc65ab7c26":[6,0,1,0,1,33,5,4],
-"structMR_1_1RenderDimensions_1_1RadiusParams.html#abdf65391e79f7573aa94c2fc65ab7c26":[6,0,2,0,1,19,5,4]
+"structMR_1_1RenderDimensions_1_1RadiusParams.html#a6b8dbcb732f8c02e1c86373dbaf198ce":[6,0,2,0,1,19,5,5]
 };

@@ -1,5 +1,13 @@
 var NAVTREEINDEX79 =
 {
+"classmrmeshpy_1_1Sphere2d.html#aae3227cd27a0f2d05d45aa182691f5db":[6,1,0,0,2,787,0],
+"classmrmeshpy_1_1Sphere2d.html#aae3227cd27a0f2d05d45aa182691f5db":[6,1,1,0,1,787,0],
+"classmrmeshpy_1_1Sphere2d.html#ad6d31bb0fd2a32e50a18eb1972c77516":[6,1,0,0,2,787,6],
+"classmrmeshpy_1_1Sphere2d.html#ad6d31bb0fd2a32e50a18eb1972c77516":[6,1,1,0,1,787,6],
+"classmrmeshpy_1_1Sphere2d.html#af73a6015134904bc7dfb52682bb2330e":[6,1,0,0,2,787,2],
+"classmrmeshpy_1_1Sphere2d.html#af73a6015134904bc7dfb52682bb2330e":[6,1,1,0,1,787,2],
+"classmrmeshpy_1_1Sphere2f.html":[6,1,0,0,2,788],
+"classmrmeshpy_1_1Sphere2f.html":[6,1,1,0,1,788],
 "classmrmeshpy_1_1Sphere2f.html#a212d095db990241509a41901a531668c":[6,1,0,0,2,788,6],
 "classmrmeshpy_1_1Sphere2f.html#a212d095db990241509a41901a531668c":[6,1,1,0,1,788,6],
 "classmrmeshpy_1_1Sphere2f.html#a58209bad0c43a66a2b4a70ddfb18259f":[6,1,0,0,2,788,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX79 =
 "classmrmeshpy_1_1SurfaceDistanceBuilder.html#a91258a202e454588b189efb3aeb48881":[6,1,0,0,2,999,5],
 "classmrmeshpy_1_1SurfaceDistanceBuilder.html#a91258a202e454588b189efb3aeb48881":[6,1,1,0,1,999,5],
 "classmrmeshpy_1_1SurfaceDistanceBuilder.html#a9d0b36ce3fa8d4bd286b19fcec392b8b":[6,1,0,0,2,999,9],
-"classmrmeshpy_1_1SurfaceDistanceBuilder.html#a9d0b36ce3fa8d4bd286b19fcec392b8b":[6,1,1,0,1,999,9],
-"classmrmeshpy_1_1SurfaceDistanceBuilder.html#ac77e229ecf2592b3bd0bdc0a30cd91dc":[6,1,0,0,2,999,1],
-"classmrmeshpy_1_1SurfaceDistanceBuilder.html#ac77e229ecf2592b3bd0bdc0a30cd91dc":[6,1,1,0,1,999,1],
-"classmrmeshpy_1_1SurfaceDistanceBuilder.html#ae417ef8b41fe1c2574270cbea1646a2a":[6,1,0,0,2,999,0],
-"classmrmeshpy_1_1SurfaceDistanceBuilder.html#ae417ef8b41fe1c2574270cbea1646a2a":[6,1,1,0,1,999,0],
-"classmrmeshpy_1_1SymMatrix2b.html":[6,1,0,0,2,1001],
-"classmrmeshpy_1_1SymMatrix2b.html":[6,1,1,0,1,1001],
-"classmrmeshpy_1_1SymMatrix2b.html#a0fe4ad0481b538e0c78ecf7e8d7debfe":[6,1,0,0,2,1001,4],
-"classmrmeshpy_1_1SymMatrix2b.html#a0fe4ad0481b538e0c78ecf7e8d7debfe":[6,1,1,0,1,1001,4]
+"classmrmeshpy_1_1SurfaceDistanceBuilder.html#a9d0b36ce3fa8d4bd286b19fcec392b8b":[6,1,1,0,1,999,9]
 };

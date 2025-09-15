@@ -1,5 +1,7 @@
 var NAVTREEINDEX95 =
 {
+"structMR_1_1Vector3.html#a0e6e304d7db4cd0fbcec701048cb543c":[6,0,0,0,12,1,32],
+"structMR_1_1Vector3.html#a12ace0a073b6d056e20f50fabe0b9940":[6,0,0,0,12,1,21],
 "structMR_1_1Vector3.html#a14f7f0adb55e73e84d46a542b9b91186":[6,0,0,0,12,1,38],
 "structMR_1_1Vector3.html#a1b7a343939b1a92e61700fb5bd609b56":[6,0,0,0,12,1,19],
 "structMR_1_1Vector3.html#a1be16f68d003d1fe45b63bd915d50bff":[6,0,0,0,12,1,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX95 =
 "structMR_1_1VolumeToMeshByPartsSettings.html":[6,0,0,17,5],
 "structMR_1_1VolumeToMeshByPartsSettings.html#a49895c0e58dfde0834b03dcc99e6279c":[6,0,0,17,5,1],
 "structMR_1_1VolumeToMeshByPartsSettings.html#addf979a4cc4d34fb2f506e84d1a9cf7a":[6,0,0,17,5,0],
-"structMR_1_1VoxelLocation.html":[6,0,0,17,0,0],
-"structMR_1_1VoxelMetricParameters.html":[6,0,0,17,3,0],
-"structMR_1_1VoxelMetricParameters.html#a3ae620491a9dd4eff4445eb022a73b7e":[6,0,0,17,3,0,0]
+"structMR_1_1VoxelLocation.html":[6,0,0,17,0,0]
 };

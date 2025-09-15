@@ -1,5 +1,9 @@
 var NAVTREEINDEX124 =
 {
+"std__optional__std__vector__MR__SomeLocalTriangulations_8h.html#a96a4efbc5e5934820f5146e5077638c8":[6,2,1,0,0,0,2,213,6],
+"std__optional__std__vector__MR__SomeLocalTriangulations_8h.html#aa94effafdfa0d4ebccdb8ce83845fd86":[6,2,1,0,0,0,2,213,7],
+"std__optional__std__vector__MR__SomeLocalTriangulations_8h.html#ad6b5849ad99081bb08583da022a6c943":[6,2,1,0,0,0,2,213,11],
+"std__optional__std__vector__MR__SomeLocalTriangulations_8h.html#af5a6121e3cb5169ce803451b3ecd6812":[6,2,1,0,0,0,2,213,3],
 "std__optional__std__vector__MR__SomeLocalTriangulations_8h.html#afdc31f7f68f5f81095aae6e16a8d412c":[6,2,1,0,0,0,2,213,4],
 "std__optional__std__vector__MR__SomeLocalTriangulations_8h_source.html":[6,2,1,0,0,0,2,213],
 "std__pair__MR__DistanceMap__MR__DistanceMap_8h.html":[6,2,1,0,0,0,2,219],
@@ -245,9 +249,5 @@ var NAVTREEINDEX124 =
 "std__pair__bool__int32__t_8h.html#ab6e159ee2fcac42aa27a27c3425a7da5":[6,2,1,0,0,0,2,214,11],
 "std__pair__bool__int32__t_8h.html#ad8526ae60ac5b8d42a80ffef0b8b2c51":[6,2,1,0,0,0,2,214,4],
 "std__pair__bool__int32__t_8h.html#ae0562d84c6617cb55e9410703671a841":[6,2,1,0,0,0,2,214,1],
-"std__pair__bool__int32__t_8h.html#ae281a385a78d481f71075f5f591d8ffd":[6,2,1,0,0,0,2,214,9],
-"std__pair__bool__int32__t_8h.html#af1cde3f79014b13f3105b1c11f7adbba":[6,2,1,0,0,0,2,214,7],
-"std__pair__bool__int32__t_8h_source.html":[6,2,1,0,0,0,2,214],
-"std__pair__double__int32__t_8h.html":[6,2,1,0,0,0,2,215],
-"std__pair__double__int32__t_8h.html#a0227b2420a36afe724c2bc880ac8d99c":[6,2,1,0,0,0,2,215,10]
+"std__pair__bool__int32__t_8h.html#ae281a385a78d481f71075f5f591d8ffd":[6,2,1,0,0,0,2,214,9]
 };

@@ -162,25 +162,8 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a84e1ba01802eb40a5e2142beef606294" id="r_a84e1ba01802eb40a5e2142beef606294"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84e1ba01802eb40a5e2142beef606294">insideOffset</a> = 0</td></tr>
 <tr class="memdesc:a84e1ba01802eb40a5e2142beef606294"><td class="mdescLeft">&#160;</td><td class="mdescRight">the amount of offset for cloned mirrored mesh vertices in the opposite direction  <br /></td></tr>
 <tr class="separator:a84e1ba01802eb40a5e2142beef606294"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7463190cd805a727a5ab3655475cc7c" id="r_aa7463190cd805a727a5ab3655475cc7c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7463190cd805a727a5ab3655475cc7c">dirFieldStabilizer</a> = FLT_MAX</td></tr>
-<tr class="separator:aa7463190cd805a727a5ab3655475cc7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="aa7463190cd805a727a5ab3655475cc7c" name="aa7463190cd805a727a5ab3655475cc7c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa7463190cd805a727a5ab3655475cc7c">&#9670;&#160;</a></span>dirFieldStabilizer</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float MR::ThickenParams::dirFieldStabilizer = FLT_MAX</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>offset directions of vertices can be smoothed for nearby vertices to have similar directions, the value FLT_MAX means no smoothing at all, and use vertices' pseudo-normals as is for offset directions, other values &gt;= 0 active directions smoothing, which becomes larger for smaller positive values </p>
-
-</div>
-</div>
 <a id="a84e1ba01802eb40a5e2142beef606294" name="a84e1ba01802eb40a5e2142beef606294"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a84e1ba01802eb40a5e2142beef606294">&#9670;&#160;</a></span>insideOffset</h2>
 
