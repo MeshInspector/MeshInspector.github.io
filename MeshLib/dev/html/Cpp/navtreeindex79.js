@@ -1,5 +1,11 @@
 var NAVTREEINDEX79 =
 {
+"structMR_1_1IsVisualizeMaskEnum.html":[6,0,0,11,2,1],
+"structMR_1_1IsVisualizeMaskEnum_3_01DimensionsVisualizePropertyType_01_4.html":[6,0,1,0,1,327],
+"structMR_1_1IsVisualizeMaskEnum_3_01DimensionsVisualizePropertyType_01_4.html":[6,0,2,0,1,310],
+"structMR_1_1IsVisualizeMaskEnum_3_01FeatureVisualizePropertyType_01_4.html":[6,0,1,0,1,328],
+"structMR_1_1IsVisualizeMaskEnum_3_01FeatureVisualizePropertyType_01_4.html":[6,0,2,0,1,311],
+"structMR_1_1IsVisualizeMaskEnum_3_01LabelVisualizePropertyType_01_4.html":[6,0,1,0,1,329],
 "structMR_1_1IsVisualizeMaskEnum_3_01LabelVisualizePropertyType_01_4.html":[6,0,2,0,1,312],
 "structMR_1_1IsVisualizeMaskEnum_3_01LinesVisualizePropertyType_01_4.html":[6,0,1,0,1,330],
 "structMR_1_1IsVisualizeMaskEnum_3_01LinesVisualizePropertyType_01_4.html":[6,0,2,0,1,313],
@@ -243,11 +249,5 @@ var NAVTREEINDEX79 =
 "structMR_1_1MarchingCubesParams.html#ac8f6405c0c8d2ba48016836b657b6469":[6,0,2,0,1,341,1],
 "structMR_1_1MarchingCubesParams.html#ad2534810fa0b1d6ede8c56229226770d":[6,0,1,0,1,358,0],
 "structMR_1_1MarchingCubesParams.html#ad2534810fa0b1d6ede8c56229226770d":[6,0,2,0,1,341,0],
-"structMR_1_1MarchingCubesParams.html#ad2534810fa0b1d6ede8c56229226770da086247a9b57fde6eefee2a0c4752242d":[6,0,1,0,1,358,0,0],
-"structMR_1_1MarchingCubesParams.html#ad2534810fa0b1d6ede8c56229226770da086247a9b57fde6eefee2a0c4752242d":[6,0,2,0,1,341,0,0],
-"structMR_1_1MarchingCubesParams.html#ad2534810fa0b1d6ede8c56229226770da6adf97f83acf6453d4a6a4b1070f3754":[6,0,1,0,1,358,0,1],
-"structMR_1_1MarchingCubesParams.html#ad2534810fa0b1d6ede8c56229226770da6adf97f83acf6453d4a6a4b1070f3754":[6,0,2,0,1,341,0,1],
-"structMR_1_1MarchingCubesParams.html#ad2534810fa0b1d6ede8c56229226770da960b44c579bc2f6818d2daaf9e4c16f0":[6,0,1,0,1,358,0,2],
-"structMR_1_1MarchingCubesParams.html#ad2534810fa0b1d6ede8c56229226770da960b44c579bc2f6818d2daaf9e4c16f0":[6,0,2,0,1,341,0,2],
-"structMR_1_1MarchingCubesParams.html#ad2aa80147c810b8b84221bd763c2d1bc":[6,0,1,0,1,358,9]
+"structMR_1_1MarchingCubesParams.html#ad2534810fa0b1d6ede8c56229226770da086247a9b57fde6eefee2a0c4752242d":[6,0,1,0,1,358,0,0]
 };

@@ -1,5 +1,11 @@
 var NAVTREEINDEX85 =
 {
+"structMR_1_1PackMapping.html":[6,0,1,0,1,492],
+"structMR_1_1PackMapping.html":[6,0,2,0,1,475],
+"structMR_1_1PackMapping.html#a064cdbdc31f7c5de6f7cb77f75c1a962":[6,0,1,0,1,492,0],
+"structMR_1_1PackMapping.html#a064cdbdc31f7c5de6f7cb77f75c1a962":[6,0,2,0,1,475,0],
+"structMR_1_1PackMapping.html#a3080324e4d0c9556be1e426c7a87ff79":[6,0,1,0,1,492,2],
+"structMR_1_1PackMapping.html#a3080324e4d0c9556be1e426c7a87ff79":[6,0,2,0,1,475,2],
 "structMR_1_1PackMapping.html#a53564598fd272bd72bf4ea9a97a2340a":[6,0,1,0,1,492,1],
 "structMR_1_1PackMapping.html#a53564598fd272bd72bf4ea9a97a2340a":[6,0,2,0,1,475,1],
 "structMR_1_1Palette_1_1Histogram.html":[6,0,1,0,1,493,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX85 =
 "structMR_1_1PickPointManager_1_1Params.html#a648a0ae70816ba38a53eb3e858578152":[6,0,1,0,1,503,1,6],
 "structMR_1_1PickPointManager_1_1Params.html#a648a0ae70816ba38a53eb3e858578152":[6,0,2,0,1,486,1,6],
 "structMR_1_1PickPointManager_1_1Params.html#a9530ff46e6ad646ba04ba4460b560bca":[6,0,1,0,1,503,1,3],
-"structMR_1_1PickPointManager_1_1Params.html#a9530ff46e6ad646ba04ba4460b560bca":[6,0,2,0,1,486,1,3],
-"structMR_1_1PickPointManager_1_1Params.html#aa8322f01c1fe98d959fc28c58ff04416":[6,0,1,0,1,503,1,5],
-"structMR_1_1PickPointManager_1_1Params.html#aa8322f01c1fe98d959fc28c58ff04416":[6,0,2,0,1,486,1,5],
-"structMR_1_1PickPointManager_1_1Params.html#acca15c3df6d4a2c610e3ecd95dbb1c71":[6,0,1,0,1,503,1,13],
-"structMR_1_1PickPointManager_1_1Params.html#acca15c3df6d4a2c610e3ecd95dbb1c71":[6,0,2,0,1,486,1,13],
-"structMR_1_1PickPointManager_1_1Params.html#ad997221c3784992d7685e6445516f107":[6,0,1,0,1,503,1,7],
-"structMR_1_1PickPointManager_1_1Params.html#ad997221c3784992d7685e6445516f107":[6,0,2,0,1,486,1,7]
+"structMR_1_1PickPointManager_1_1Params.html#a9530ff46e6ad646ba04ba4460b560bca":[6,0,2,0,1,486,1,3]
 };
