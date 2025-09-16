@@ -230,9 +230,9 @@ var NAVTREEINDEX =
 "structMR_1_1SpaceMouseParameters.html#a0aacd5998cdf0ce46fd7ff6066c9e5a3",
 "structMR_1_1TextMeshAlignParams.html#af917f5ff67df027c6d4b028e6a1de41f",
 "structMR_1_1TransformControls_1_1VisualParams.html#ae43b3a461c666eefa1a0f948bd1b4070",
-"structMR_1_1UI_1_1SeparatorParams.html#a45d774a2f55193f4952b880261aaa082",
-"structMR_1_1Vector2.html#aee6a87706790d7a864533d60413038c9",
-"structMR_1_1VolumeSegmentationParameters.html#ab07494ac7f1627ecc2dfce39e9502118"
+"structMR_1_1UI_1_1SaveChangesPopupSettings.html#afe88334f75c2605ce27940f67c1a5448",
+"structMR_1_1Vector2.html#ac44db7ddb1694b996824036c9f755b9e",
+"structMR_1_1VisualObjectTag.html#aea8f1b7edc9df06d7955309b333fb83c"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
