@@ -492,8 +492,8 @@ Functions</h2></td></tr>
 <tr class="separator:a2dae9a59ef30e0794808333a8199cff1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a97eaae4cd70c1e579eba1b1ddc720fea" id="r_a97eaae4cd70c1e579eba1b1ddc720fea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ac5567e0b4cf6bc31b3476f0e988d2d16">MR_BasicUiRenderTask_BackwardPassParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97eaae4cd70c1e579eba1b1ddc720fea">MR_UiRenderManager_beginBackwardPass</a> (<a class="el" href="#a2e9fd3ee0a8f19bd1a78a400e2a74287">MR_UiRenderManager</a> *_this, <a class="el" href="structMR__ViewportId.html">MR_ViewportId</a> viewport, <a class="el" href="#a320623fa0e63d3dc63342b8004f087e4">MR_std_vector_std_shared_ptr_MR_BasicUiRenderTask</a> *tasks)</td></tr>
 <tr class="separator:a97eaae4cd70c1e579eba1b1ddc720fea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ef3a405394cc2c61b8fd5471b6245a3" id="r_a0ef3a405394cc2c61b8fd5471b6245a3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ef3a405394cc2c61b8fd5471b6245a3">MR_UiRenderManager_finishBackwardPass</a> (<a class="el" href="#a2e9fd3ee0a8f19bd1a78a400e2a74287">MR_UiRenderManager</a> *_this, const <a class="el" href="#ac5567e0b4cf6bc31b3476f0e988d2d16">MR_BasicUiRenderTask_BackwardPassParams</a> *params)</td></tr>
-<tr class="separator:a0ef3a405394cc2c61b8fd5471b6245a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef43c44a70648a8811991447c0dbd91e" id="r_aef43c44a70648a8811991447c0dbd91e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef43c44a70648a8811991447c0dbd91e">MR_UiRenderManager_finishBackwardPass</a> (<a class="el" href="#a2e9fd3ee0a8f19bd1a78a400e2a74287">MR_UiRenderManager</a> *_this, <a class="el" href="structMR__ViewportId.html">MR_ViewportId</a> viewport, const <a class="el" href="#ac5567e0b4cf6bc31b3476f0e988d2d16">MR_BasicUiRenderTask_BackwardPassParams</a> *params)</td></tr>
+<tr class="separator:aef43c44a70648a8811991447c0dbd91e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0becd0c4886ebd265bc7bd6d9870711d" id="r_a0becd0c4886ebd265bc7bd6d9870711d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0becd0c4886ebd265bc7bd6d9870711d">MR_IRenderObject_Destroy</a> (const <a class="el" href="#a80ed9a7e0d9ea2def89249ad0d8e39dd">MR_IRenderObject</a> *_this)</td></tr>
 <tr class="memdesc:a0becd0c4886ebd265bc7bd6d9870711d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_IRenderObject</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:a0becd0c4886ebd265bc7bd6d9870711d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2932,8 +2932,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a0ef3a405394cc2c61b8fd5471b6245a3" name="a0ef3a405394cc2c61b8fd5471b6245a3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0ef3a405394cc2c61b8fd5471b6245a3">&#9670;&#160;</a></span>MR_UiRenderManager_finishBackwardPass()</h2>
+<a id="aef43c44a70648a8811991447c0dbd91e" name="aef43c44a70648a8811991447c0dbd91e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef43c44a70648a8811991447c0dbd91e">&#9670;&#160;</a></span>MR_UiRenderManager_finishBackwardPass()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2942,6 +2942,11 @@ Functions</h2></td></tr>
           <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_UiRenderManager_finishBackwardPass </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a2e9fd3ee0a8f19bd1a78a400e2a74287">MR_UiRenderManager</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__ViewportId.html">MR_ViewportId</a></td>          <td class="paramname"><span class="paramname"><em>viewport</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
