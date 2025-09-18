@@ -1,6 +1,5 @@
 var NAVTREEINDEX123 =
 {
-"std__optional__MR__PolylineIntersectionResult2_8h.html#a6e5817d02f4a5b4d5f8eae2bed9469d1":[6,2,1,0,0,0,2,199,12],
 "std__optional__MR__PolylineIntersectionResult2_8h.html#a7ddf344178e13f1bec84d5cc6b982b02":[6,2,1,0,0,0,2,199,13],
 "std__optional__MR__PolylineIntersectionResult2_8h.html#aa299b19dbb58e91cb68f606e0b22a1d5":[6,2,1,0,0,0,2,199,10],
 "std__optional__MR__PolylineIntersectionResult2_8h.html#aab8ca47902d7c4c1ac19071c75ac56d3":[6,2,1,0,0,0,2,199,6],
@@ -249,5 +248,6 @@ var NAVTREEINDEX123 =
 "std__optional__std__vector__MR__SomeLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f":[6,2,1,0,0,0,2,213,1],
 "std__optional__std__vector__MR__SomeLocalTriangulations_8h.html#a6b9aad0751e52b707b472702bba194e8":[6,2,1,0,0,0,2,213,2],
 "std__optional__std__vector__MR__SomeLocalTriangulations_8h.html#a6fb419834af6e74d2df2d44a0e054d00":[6,2,1,0,0,0,2,213,10],
-"std__optional__std__vector__MR__SomeLocalTriangulations_8h.html#a7f86c94368db922217344f9d92fdc3ef":[6,2,1,0,0,0,2,213,12]
+"std__optional__std__vector__MR__SomeLocalTriangulations_8h.html#a7f86c94368db922217344f9d92fdc3ef":[6,2,1,0,0,0,2,213,12],
+"std__optional__std__vector__MR__SomeLocalTriangulations_8h.html#a96a4efbc5e5934820f5146e5077638c8":[6,2,1,0,0,0,2,213,6]
 };

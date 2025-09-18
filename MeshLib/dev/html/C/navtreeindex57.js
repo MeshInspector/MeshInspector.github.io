@@ -1,6 +1,5 @@
 var NAVTREEINDEX57 =
 {
-"MRMultiwayICP_8h.html#af3cb07a6a8a2be6201067584274befc7":[6,2,1,0,0,0,1,204,43],
 "MRMultiwayICP_8h.html#af4db36c3c358c10eb3421215dfaf0cab":[6,2,1,0,0,0,1,204,3],
 "MRMultiwayICP_8h.html#af5bfc0a2ad5c27235007e16462a6bbbd":[6,2,1,0,0,0,1,204,102],
 "MRMultiwayICP_8h.html#af5dec69f50522a278264a112a77bbe12":[6,2,1,0,0,0,1,204,31],
@@ -249,5 +248,6 @@ var NAVTREEINDEX57 =
 "MRNormalsToPoints_8h.html#abf66ce274cc8fe92ce91936a0bd7706b":[6,2,1,0,0,0,1,208,17],
 "MRNormalsToPoints_8h.html#ac72f0f0d21910240e2e22d1683761ca0":[6,2,1,0,0,0,1,208,5],
 "MRNormalsToPoints_8h.html#acf83b4f2eefdb0948092ceddd0f937f7":[6,2,1,0,0,0,1,208,11],
-"MRNormalsToPoints_8h.html#ad0f60a185dca1e1f050c6acad5c0bc41":[6,2,1,0,0,0,1,208,15]
+"MRNormalsToPoints_8h.html#ad0f60a185dca1e1f050c6acad5c0bc41":[6,2,1,0,0,0,1,208,15],
+"MRNormalsToPoints_8h.html#ad396cf7d4433c5ba7924776f5b379c9b":[6,2,1,0,0,0,1,208,1]
 };

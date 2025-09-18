@@ -1,6 +1,5 @@
 var NAVTREEINDEX18 =
 {
-"MRViewerSettingsPlugin_8h_source.html":[6,0,3,0,0,1,11,147],
 "MRViewerTitle_8h.html":[6,0,3,0,0,1,11,148],
 "MRViewerTitle_8h_source.html":[6,0,3,0,0,1,11,148],
 "MRViewer_2MRVectorTraits_8h.html":[6,0,3,0,0,1,11,139],
@@ -8,7 +7,6 @@ var NAVTREEINDEX18 =
 "MRViewer_2config_8h.html":[6,0,3,0,0,1,11,0],
 "MRViewer_2config_8h_source.html":[6,0,3,0,0,1,11,0],
 "MRViewer_8h.html":[6,0,3,0,0,1,11,140],
-"MRViewer_8h.html#a03d769eae4675e20e6b50c3fddaf8eba":[6,0,3,0,0,1,11,140,8],
 "MRViewer_8h.html#a17ccacdfeadccb79721c62567730f6cc":[6,0,3,0,0,1,11,140,6],
 "MRViewer_8h.html#a1a1151cfe48505fed9bdf9d94af7cbde":[6,0,3,0,0,1,11,140,4],
 "MRViewer_8h.html#a47bc3da84c367214966eb167e5d2a70d":[6,0,3,0,0,1,11,140,5],
@@ -249,5 +247,7 @@ var NAVTREEINDEX18 =
 "classMR_1_1AABBTreeBase.html#aa0b2c5625ad2b069c42780d685db9281":[6,0,1,0,1,47,9],
 "classMR_1_1AABBTreeBase.html#aa0b2c5625ad2b069c42780d685db9281":[6,0,2,0,1,30,9],
 "classMR_1_1AABBTreeBase.html#aa68c6e8f36c8a52617b624e91f11568d":[6,0,1,0,1,47,1],
-"classMR_1_1AABBTreeBase.html#aa68c6e8f36c8a52617b624e91f11568d":[6,0,2,0,1,30,1]
+"classMR_1_1AABBTreeBase.html#aa68c6e8f36c8a52617b624e91f11568d":[6,0,2,0,1,30,1],
+"classMR_1_1AABBTreeBase.html#aaa00490fa2cf5eac02779a7f87baa86a":[6,0,1,0,1,47,13],
+"classMR_1_1AABBTreeBase.html#aaa00490fa2cf5eac02779a7f87baa86a":[6,0,2,0,1,30,13]
 };

@@ -1,9 +1,5 @@
 var NAVTREEINDEX90 =
 {
-"structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa9f119aa11d1fc9a1e5ed2047fbe7da9c":[6,0,0,18,2,0,2],
-"structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aaa3d1106c4606956fa8bf8f24f9db1486":[6,0,0,18,2,0,15],
-"structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aab77a9984caf569880644435a85b17f0b":[6,0,0,18,2,0,11],
-"structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aac0df0200072fe04b4bdc85cc051c800f":[6,0,0,18,2,0,17],
 "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aad2861ea5be4d6def67d2bf7855296343":[6,0,0,18,2,0,9],
 "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aae4f723429576e2b535e52168ac94eda2":[6,0,0,18,2,0,28],
 "structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aaeb82699de3b3185559737804c6043809":[6,0,0,18,2,0,12],
@@ -249,5 +245,9 @@ var NAVTREEINDEX90 =
 "structMR_1_1SpaceMouseMoveListener.html#ad6cac85205366b4d1518a8cda5ae50d9":[6,0,1,0,1,695,0],
 "structMR_1_1SpaceMouseMoveListener.html#ad6cac85205366b4d1518a8cda5ae50d9":[6,0,2,0,1,678,0],
 "structMR_1_1SpaceMouseParameters.html":[6,0,1,0,1,696],
-"structMR_1_1SpaceMouseParameters.html":[6,0,2,0,1,679]
+"structMR_1_1SpaceMouseParameters.html":[6,0,2,0,1,679],
+"structMR_1_1SpaceMouseParameters.html#a0aacd5998cdf0ce46fd7ff6066c9e5a3":[6,0,1,0,1,696,0],
+"structMR_1_1SpaceMouseParameters.html#a0aacd5998cdf0ce46fd7ff6066c9e5a3":[6,0,2,0,1,679,0],
+"structMR_1_1SpaceMouseParameters.html#ad46ecdb679bfef1395ebc85444ed520e":[6,0,1,0,1,696,1],
+"structMR_1_1SpaceMouseParameters.html#ad46ecdb679bfef1395ebc85444ed520e":[6,0,2,0,1,679,1]
 };

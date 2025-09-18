@@ -1,6 +1,5 @@
 var NAVTREEINDEX69 =
 {
-"MRPointToPointAligningTransform_8h.html#a6ad6ba0883a0435632ecad489cb61e87":[6,2,1,0,0,0,1,261,6],
 "MRPointToPointAligningTransform_8h.html#a6bf133eda1ec95be202b77c33412bc8e":[6,2,1,0,0,0,1,261,1],
 "MRPointToPointAligningTransform_8h.html#a946f112d149247946ba0f35b89c61abe":[6,2,1,0,0,0,1,261,2],
 "MRPointToPointAligningTransform_8h.html#a95e94d22349edc45f0ddcb1abaff3015":[6,2,1,0,0,0,1,261,12],
@@ -249,5 +248,6 @@ var NAVTREEINDEX69 =
 "MRPointsToMeshFusion_8h.html#a30bd875d3288b2f01e9c9fc0403b3bfb":[6,2,1,0,0,0,4,18,17],
 "MRPointsToMeshFusion_8h.html#a317e76002fcde4f09243b54a46c9f88d":[6,2,1,0,0,0,4,18,19],
 "MRPointsToMeshFusion_8h.html#a4830fa967ef96feb25e71be0148e7cdf":[6,2,1,0,0,0,4,18,7],
-"MRPointsToMeshFusion_8h.html#a5a8dcc9a88c89ff385041a5983609d86":[6,2,1,0,0,0,4,18,28]
+"MRPointsToMeshFusion_8h.html#a5a8dcc9a88c89ff385041a5983609d86":[6,2,1,0,0,0,4,18,28],
+"MRPointsToMeshFusion_8h.html#a610b4d73529880adec7ca7f208d35953":[6,2,1,0,0,0,4,18,30]
 };

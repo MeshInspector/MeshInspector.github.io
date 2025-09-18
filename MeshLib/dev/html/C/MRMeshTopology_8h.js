@@ -24,7 +24,6 @@ var MRMeshTopology_8h =
     [ "MR_VertMap", "MRMeshTopology_8h.html#a0c1baad62a31685b2dfb5955f3fb8230", null ],
     [ "MR_WholeEdgeMap", "MRMeshTopology_8h.html#a50066b58d97b0be73d826cfdcc9eb188", null ],
     [ "MR_equal_MR_MeshTopology", "MRMeshTopology_8h.html#a1353838af914e970525c2fa47f5b5db9", null ],
-    [ "MR_loadMeshDll", "MRMeshTopology_8h.html#a92e664edeb8e831d1844b5a6c99ef6d1", null ],
     [ "MR_MeshTopology_addFaceId", "MRMeshTopology_8h.html#a6cccf80df0460ce6f8c34399c41d0507", null ],
     [ "MR_MeshTopology_addPackedPart", "MRMeshTopology_8h.html#a7febfc626b5e04f5ba2f8be80cd4fba1", null ],
     [ "MR_MeshTopology_addPart_3", "MRMeshTopology_8h.html#aa266c38459bbdea4753cb755e09b2d00", null ],

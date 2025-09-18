@@ -2068,7 +2068,6 @@ var mrmeshpy_8pyi =
     [ "loadLines", "mrmeshpy_8pyi.html#a16e72f19b8efdc7a54cd9b6f6a8dc214", null ],
     [ "loadMesh", "mrmeshpy_8pyi.html#ac870d6fee4e3b3e3dcf73bc12a21d0f5", null ],
     [ "loadMesh", "mrmeshpy_8pyi.html#a9d9fa030ba1689422eff113b46927c93", null ],
-    [ "loadMeshDll", "mrmeshpy_8pyi.html#a239b5a7989baaa08f97deee1f144afa4", null ],
     [ "loadMrmesh", "mrmeshpy_8pyi.html#ace47c7da30dbab46d8287ac4bfcc4c39", null ],
     [ "loadMrmesh", "mrmeshpy_8pyi.html#aa4894166d10a01ed3a97f8ac38e0a4fb", null ],
     [ "loadObj", "mrmeshpy_8pyi.html#a85e2b4c39cd5dfec4bba1efbc064972b", null ],

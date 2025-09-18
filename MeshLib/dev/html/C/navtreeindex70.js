@@ -1,6 +1,5 @@
 var NAVTREEINDEX70 =
 {
-"MRPointsToMeshFusion_8h.html#a610b4d73529880adec7ca7f208d35953":[6,2,1,0,0,0,4,18,30],
 "MRPointsToMeshFusion_8h.html#a70aa6d57f226ed981c9ec2a480cd1550":[6,2,1,0,0,0,4,18,31],
 "MRPointsToMeshFusion_8h.html#a74fe108ab7072b6d30f12d30445b8943":[6,2,1,0,0,0,4,18,11],
 "MRPointsToMeshFusion_8h.html#a782fb383ff70ce44d5c9f43b7aaffbc1":[6,2,1,0,0,0,4,18,15],
@@ -249,5 +248,6 @@ var NAVTREEINDEX70 =
 "MRPolylineDecimate_8h.html#ae9cd767da01215a6f6333b55937bcb50":[6,2,1,0,0,0,1,266,49],
 "MRPolylineDecimate_8h.html#aed7ed0009d4f93c41b387d9e2e18fe17":[6,2,1,0,0,0,1,266,39],
 "MRPolylineDecimate_8h.html#aefed148a09a0ae55edbd22814638b462":[6,2,1,0,0,0,1,266,10],
-"MRPolylineDecimate_8h.html#af210e05a371fdd89dfdc2edbada114cb":[6,2,1,0,0,0,1,266,14]
+"MRPolylineDecimate_8h.html#af210e05a371fdd89dfdc2edbada114cb":[6,2,1,0,0,0,1,266,14],
+"MRPolylineDecimate_8h.html#af3ae972f4acf6dd1ffc9c11061641f3f":[6,2,1,0,0,0,1,266,9]
 };

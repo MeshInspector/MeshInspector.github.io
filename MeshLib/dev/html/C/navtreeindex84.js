@@ -1,6 +1,5 @@
 var NAVTREEINDEX84 =
 {
-"MRToolPath_8h.html#aa05c930c7254a67d9a0bd8da8d3f6611":[6,2,1,0,0,0,4,24,101],
 "MRToolPath_8h.html#aa290f9d8e9ffd10651cc07b958021e43":[6,2,1,0,0,0,4,24,140],
 "MRToolPath_8h.html#aa35e8c78c50d2c0c8743a79778da4bd9":[6,2,1,0,0,0,4,24,30],
 "MRToolPath_8h.html#aa7afa9d7ed4de422dab358c82eda871d":[6,2,1,0,0,0,4,24,118],
@@ -249,5 +248,6 @@ var NAVTREEINDEX84 =
 "MRTunnelDetector_8h.html#afd3fc575adea56c6e315220126442739":[6,2,1,0,0,0,1,335,27],
 "MRTunnelDetector_8h_source.html":[6,2,1,0,0,0,1,335],
 "MRUniformSampling_8h.html":[6,2,1,0,0,0,1,336],
-"MRUniformSampling_8h.html#a0d97f913ba505f7b3b5f786c0437a6dc":[6,2,1,0,0,0,1,336,3]
+"MRUniformSampling_8h.html#a0d97f913ba505f7b3b5f786c0437a6dc":[6,2,1,0,0,0,1,336,3],
+"MRUniformSampling_8h.html#a0fccc62c4bcd4a71c235e0cfaee5d1f0":[6,2,1,0,0,0,1,336,7]
 };
