@@ -243,7 +243,6 @@ var group__DataModelGroup =
       [ "updateLinesColorMap", "classMR_1_1ObjectLinesHolder.html#a59e3e83d9bf413fdb9a84fedda40f08f", null ],
       [ "updateVertsColorMap", "classMR_1_1ObjectLinesHolder.html#ab2d21946ef246e3fb5f97cdd7fc89e1c", null ],
       [ "avgEdgeLen_", "classMR_1_1ObjectLinesHolder.html#a2abf795e99899109737e507f19ac02a7", null ],
-      [ "dashed_", "classMR_1_1ObjectLinesHolder.html#a64d69137f11ccce4e6ba7aaa0ef41237", null ],
       [ "linesColorMap_", "classMR_1_1ObjectLinesHolder.html#a58e224092d5971b40208e6d4a15e6862", null ],
       [ "lineWidth_", "classMR_1_1ObjectLinesHolder.html#ab981ac159b7e944aef46d972503003e7", null ],
       [ "numComponents_", "classMR_1_1ObjectLinesHolder.html#ac4657e92207e28ae97a59ce816f15f2e", null ],

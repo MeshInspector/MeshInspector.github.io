@@ -1,9 +1,5 @@
 var NAVTREEINDEX89 =
 {
-"structMR_1_1RenderDimensions_1_1LengthParams.html":[6,0,1,0,1,34,3],
-"structMR_1_1RenderDimensions_1_1LengthParams.html":[6,0,2,0,1,19,3],
-"structMR_1_1RenderDimensions_1_1LengthParams.html#a39c3eb2e95daad75555328645c768d56":[6,0,1,0,1,34,3,4],
-"structMR_1_1RenderDimensions_1_1LengthParams.html#a39c3eb2e95daad75555328645c768d56":[6,0,2,0,1,19,3,4],
 "structMR_1_1RenderDimensions_1_1LengthParams.html#a59af6d3622c087865305af028ee374fa":[6,0,1,0,1,34,3,2],
 "structMR_1_1RenderDimensions_1_1LengthParams.html#a59af6d3622c087865305af028ee374fa":[6,0,2,0,1,19,3,2],
 "structMR_1_1RenderDimensions_1_1LengthParams.html#a99d7c54bac0e735e5f2c61762ba68d00":[6,0,1,0,1,34,3,3],
@@ -249,5 +245,9 @@ var NAVTREEINDEX89 =
 "structMR_1_1SaveSettings.html#a972e4972bf3626cb56f22c55b69cccc0":[6,0,1,0,1,644,7],
 "structMR_1_1SaveSettings.html#a972e4972bf3626cb56f22c55b69cccc0":[6,0,2,0,1,626,7],
 "structMR_1_1SaveSettings.html#af59abe4d1987a4ccd1c117cfe7f3c160":[6,0,1,0,1,644,3],
-"structMR_1_1SaveSettings.html#af59abe4d1987a4ccd1c117cfe7f3c160":[6,0,2,0,1,626,3]
+"structMR_1_1SaveSettings.html#af59abe4d1987a4ccd1c117cfe7f3c160":[6,0,2,0,1,626,3],
+"structMR_1_1SceneColors.html":[6,0,0,18,2],
+"structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3a":[6,0,0,18,2,0],
+"structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa02ea243d26ba88b944774b0dd860cca9":[6,0,0,18,2,0,6],
+"structMR_1_1SceneColors.html#a1cacbfc4a30c305f1acb6b5c8d6b3a3aa17965fcffe887a1ca6981a1818d44f6f":[6,0,0,18,2,0,0]
 };

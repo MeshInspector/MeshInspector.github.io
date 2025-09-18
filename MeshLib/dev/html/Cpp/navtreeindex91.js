@@ -1,9 +1,5 @@
 var NAVTREEINDEX91 =
 {
-"structMR_1_1SortIntersectionsData.html#ac190f44f37a1e2b9ece5d869fe02015d":[6,0,1,0,1,691,4],
-"structMR_1_1SortIntersectionsData.html#ac190f44f37a1e2b9ece5d869fe02015d":[6,0,2,0,1,673,4],
-"structMR_1_1SpaceMouseDownListener.html":[6,0,1,0,1,693],
-"structMR_1_1SpaceMouseDownListener.html":[6,0,2,0,1,675],
 "structMR_1_1SpaceMouseDownListener.html#a05b541f48e7534ed7df5e11043b82bca":[6,0,1,0,1,693,0],
 "structMR_1_1SpaceMouseDownListener.html#a05b541f48e7534ed7df5e11043b82bca":[6,0,2,0,1,675,0],
 "structMR_1_1SpaceMouseDownListener.html#a395df26bbdf613370b0ad0b4af252f1f":[6,0,1,0,1,693,3],
@@ -249,5 +245,9 @@ var NAVTREEINDEX91 =
 "structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html":[6,0,1,0,1,724,0],
 "structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html":[6,0,2,0,1,706,0],
 "structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html#aa8849bb4bffd6166d4ee7359da6b2c31":[6,0,1,0,1,724,0,0],
-"structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html#aa8849bb4bffd6166d4ee7359da6b2c31":[6,0,2,0,1,706,0,0]
+"structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html#aa8849bb4bffd6166d4ee7359da6b2c31":[6,0,2,0,1,706,0,0],
+"structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html#ad47933a9cf1030b769dce59bc9a3d1ab":[6,0,1,0,1,724,0,1],
+"structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html#ad47933a9cf1030b769dce59bc9a3d1ab":[6,0,2,0,1,706,0,1],
+"structMR_1_1TerminalVertex.html":[6,0,1,0,1,725],
+"structMR_1_1TerminalVertex.html":[6,0,2,0,1,707]
 };

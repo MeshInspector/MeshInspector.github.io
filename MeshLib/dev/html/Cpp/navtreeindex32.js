@@ -1,6 +1,5 @@
 var NAVTREEINDEX32 =
 {
-"classMR_1_1MouseController.html#a7696a282703b3fb0ade622ed97e5e3ba":[6,0,1,0,1,414,10],
 "classMR_1_1MouseController.html#a7696a282703b3fb0ade622ed97e5e3ba":[6,0,2,0,1,396,10],
 "classMR_1_1MouseController.html#a801124ee76e24e9a65f09339f064e35b":[6,0,1,0,1,414,1],
 "classMR_1_1MouseController.html#a801124ee76e24e9a65f09339f064e35b":[6,0,2,0,1,396,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX32 =
 "classMR_1_1Object.html#ac8e64c569d24d04c1dfcfe7cb1511580":[6,0,0,11,4,74],
 "classMR_1_1Object.html#acd0464af4d89730f9a969f997fdcc8ce":[6,0,0,11,4,67],
 "classMR_1_1Object.html#ace89695fb0235bdf97caecfe26390349":[6,0,0,11,4,66],
-"classMR_1_1Object.html#ad7f9426f9adc37a95648822d1566db77":[6,0,0,11,4,43]
+"classMR_1_1Object.html#ad7f9426f9adc37a95648822d1566db77":[6,0,0,11,4,43],
+"classMR_1_1Object.html#ad99d5459862ef664776cb3dde87df0ee":[6,0,0,11,4,31]
 };

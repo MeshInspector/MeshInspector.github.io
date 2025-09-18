@@ -1,6 +1,5 @@
 var NAVTREEINDEX23 =
 {
-"classMR_1_1ConeObject.html#aa4c317887a4c55672bcca1fa1534b2b7":[6,0,0,11,0,1,6],
 "classMR_1_1ConeObject.html#aa6ffe65ecb905c4a85d865c70c753d4c":[6,0,0,11,0,1,26],
 "classMR_1_1ConeObject.html#ab66f3e6b0a4c5168078a082dd7320592":[6,0,0,11,0,1,19],
 "classMR_1_1ConeObject.html#acf915767d92ede7e04ca9da619fa3845":[6,0,0,11,0,1,3],
@@ -249,5 +248,6 @@ var NAVTREEINDEX23 =
 "classMR_1_1DirectionWidget.html#a71d4351e8ab58f288d52351d11efb325":[6,0,1,0,1,190,4],
 "classMR_1_1DirectionWidget.html#a71d4351e8ab58f288d52351d11efb325":[6,0,2,0,1,172,4],
 "classMR_1_1DirectionWidget.html#a7b1457c3dbaa0ebd7923ba303d3d1a98":[6,0,1,0,1,190,11],
-"classMR_1_1DirectionWidget.html#a7b1457c3dbaa0ebd7923ba303d3d1a98":[6,0,2,0,1,172,11]
+"classMR_1_1DirectionWidget.html#a7b1457c3dbaa0ebd7923ba303d3d1a98":[6,0,2,0,1,172,11],
+"classMR_1_1DirectionWidget.html#a801060d204bb001111c96202a5d9fb2a":[6,0,1,0,1,190,30]
 };

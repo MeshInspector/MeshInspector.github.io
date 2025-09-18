@@ -1,6 +1,5 @@
 var NAVTREEINDEX13 =
 {
-"MRQuaternion_8h_source.html":[6,0,3,0,0,1,4,327],
 "MRRadiusCompensation_8h.html":[6,0,3,0,0,1,4,328],
 "MRRadiusCompensation_8h.html#a8544e1baad1fd29e080b74865bb8c0a0":[6,0,3,0,0,1,4,328,1],
 "MRRadiusCompensation_8h_source.html":[6,0,3,0,0,1,4,328],
@@ -249,5 +248,6 @@ var NAVTREEINDEX13 =
 "MRSceneControlMenuItems_8h_source.html":[6,0,3,0,0,1,0,2,3],
 "MRSceneLoad_8h.html":[6,0,3,0,0,1,4,345],
 "MRSceneLoad_8h.html#a089505a3e07c34d60c30955259757d11":[6,0,3,0,0,1,4,345,3],
-"MRSceneLoad_8h.html#a70619566d4d89dbf29aaa2a7a3b4833e":[6,0,3,0,0,1,4,345,2]
+"MRSceneLoad_8h.html#a70619566d4d89dbf29aaa2a7a3b4833e":[6,0,3,0,0,1,4,345,2],
+"MRSceneLoad_8h.html#ab13020e377967aca04518368ed70a509":[6,0,3,0,0,1,4,345,1]
 };
