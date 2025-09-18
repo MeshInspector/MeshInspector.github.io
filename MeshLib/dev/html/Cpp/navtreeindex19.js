@@ -1,5 +1,6 @@
 var NAVTREEINDEX19 =
 {
+"classMR_1_1AABBTreeBase.html#a6fd4a54abb1c4fe946e503bcb14d15c4":[6,0,2,0,1,30,2],
 "classMR_1_1AABBTreeBase.html#a79ff8d3344f3800e230483376df94d1f":[6,0,1,0,1,48,10],
 "classMR_1_1AABBTreeBase.html#a79ff8d3344f3800e230483376df94d1f":[6,0,2,0,1,30,10],
 "classMR_1_1AABBTreeBase.html#a7a0335fa16114969e7f5e031192bf45b":[6,0,1,0,1,48,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX19 =
 "classMR_1_1BestFitPolynomial.html#a6e839e3a51321f2d22350459fa2c280d":[6,0,2,0,1,60,0],
 "classMR_1_1BestFitPolynomial.html#a8100999b4e841b219d7accb5a05c23bb":[6,0,1,0,1,78,2],
 "classMR_1_1BestFitPolynomial.html#a8100999b4e841b219d7accb5a05c23bb":[6,0,2,0,1,60,2],
-"classMR_1_1BestFitPolynomial.html#a94178932bf3011077ad8a874c0e442ab":[6,0,1,0,1,78,3],
-"classMR_1_1BestFitPolynomial.html#a94178932bf3011077ad8a874c0e442ab":[6,0,2,0,1,60,3]
+"classMR_1_1BestFitPolynomial.html#a94178932bf3011077ad8a874c0e442ab":[6,0,1,0,1,78,3]
 };

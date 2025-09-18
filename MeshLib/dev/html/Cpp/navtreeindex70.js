@@ -1,5 +1,9 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1AncillaryLines.html#a663141ea1eeeab9d4b542f46a84aa82b":[6,0,1,0,1,61,1],
+"structMR_1_1AncillaryLines.html#a663141ea1eeeab9d4b542f46a84aa82b":[6,0,2,0,1,43,1],
+"structMR_1_1AncillaryLines.html#a784111585bac595d1a06938e219488e2":[6,0,1,0,1,61,13],
+"structMR_1_1AncillaryLines.html#a784111585bac595d1a06938e219488e2":[6,0,2,0,1,43,13],
 "structMR_1_1AncillaryLines.html#a8130f94500e75fddfc646adf79fc1756":[6,0,1,0,1,61,8],
 "structMR_1_1AncillaryLines.html#a8130f94500e75fddfc646adf79fc1756":[6,0,2,0,1,43,8],
 "structMR_1_1AncillaryLines.html#a927df020362fa03d9ad1e8a2af3b7b3c":[6,0,1,0,1,61,11],
@@ -245,9 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1BooleanResultMapper.html#ad0b1836dae4789a5640522e69a889587a7fc56270e7a70fa81a5935b72eacbe29":[6,0,0,8,0,1,0],
 "structMR_1_1BooleanResultMapper.html#ad0b1836dae4789a5640522e69a889587a9d5ed678fe57bcca610140957afab571":[6,0,0,8,0,1,1],
 "structMR_1_1BooleanResultMapper.html#ad0b1836dae4789a5640522e69a889587ae93f994f01c537c4e2f7d8528c3eb5e9":[6,0,0,8,0,1,2],
-"structMR_1_1BooleanResultMapper_1_1Maps.html":[6,0,0,8,0,0],
-"structMR_1_1BooleanResultMapper_1_1Maps.html#a70a6c9015f66d50b0889a5cfbdc6b9a9":[6,0,0,8,0,0,3],
-"structMR_1_1BooleanResultMapper_1_1Maps.html#a759f148ae9dcef7ecb6908d19f726e7c":[6,0,0,8,0,0,0],
-"structMR_1_1BooleanResultMapper_1_1Maps.html#a854bf26bb7bda5effd4d5f1be56f0aa9":[6,0,0,8,0,0,1],
-"structMR_1_1BooleanResultMapper_1_1Maps.html#abb0760c2ba75ba32b9fcf2d5e36fe803":[6,0,0,8,0,0,2]
+"structMR_1_1BooleanResultMapper_1_1Maps.html":[6,0,0,8,0,0]
 };
