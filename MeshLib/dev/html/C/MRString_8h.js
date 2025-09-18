@@ -5,6 +5,7 @@ var MRString_8h =
     [ "MR_std_vector_std_string", "MRString_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900", null ],
     [ "MR_calcDamerauLevenshteinDistance", "MRString_8h.html#a413f6acfc925a5322ba31fff4c8f7d1c", null ],
     [ "MR_findSubstringCaseInsensitive", "MRString_8h.html#a8eb19766a0ece131fdb1f2b6fd79dd8d", null ],
+    [ "MR_hasFormatPlaceholders", "MRString_8h.html#a3f559f4b3910c386775645dad777c241", null ],
     [ "MR_replace", "MRString_8h.html#ac8335e464659f316b9021b3b115f2d89", null ],
     [ "MR_replaceInplace", "MRString_8h.html#a1e0bde14d170a00b409d84ed2c46f8f9", null ],
     [ "MR_split", "MRString_8h.html#a04420a5039828092861e5e439652aefa", null ],

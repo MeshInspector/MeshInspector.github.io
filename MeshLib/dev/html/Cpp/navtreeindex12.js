@@ -1,5 +1,6 @@
 var NAVTREEINDEX12 =
 {
+"MRPlaneObject_8h_source.html":[6,0,3,0,0,1,4,278],
 "MRPlaneWidget_8h.html":[6,0,3,0,0,1,11,60],
 "MRPlaneWidget_8h_source.html":[6,0,3,0,0,1,11,60],
 "MRPly_8h.html":[6,0,3,0,0,1,4,279],
@@ -248,6 +249,5 @@ var NAVTREEINDEX12 =
 "MRQuadraticForm_8h.html":[6,0,3,0,0,1,4,326],
 "MRQuadraticForm_8h_source.html":[6,0,3,0,0,1,4,326],
 "MRQuaternion_8h.html":[6,0,3,0,0,1,4,327],
-"MRQuaternion_8h_source.html":[6,0,3,0,0,1,4,327],
-"MRRadiusCompensation_8h.html":[6,0,3,0,0,1,4,328]
+"MRQuaternion_8h_source.html":[6,0,3,0,0,1,4,327]
 };

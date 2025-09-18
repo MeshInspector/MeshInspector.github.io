@@ -132,6 +132,9 @@ var namespaceMR =
       [ "setup", "namespaceMR_1_1ProgressBar.html#abd759374a06a6cb111abb5a5ad608ea1", null ],
       [ "simpleCallBackSetProgress", "namespaceMR_1_1ProgressBar.html#a481e32fa95706159e765a2da757f57c0", null ]
     ] ],
+    [ "QualityControl", "namespaceMR_1_1QualityControl.html", [
+      [ "inputTolerance", "namespaceMR_1_1QualityControl.html#a600a1988a0760fe9cdd44d41331c62f8", null ]
+    ] ],
     [ "RenderDimensions", "namespaceMR_1_1RenderDimensions.html", "namespaceMR_1_1RenderDimensions" ],
     [ "RenderFeatures", "namespaceMR_1_1RenderFeatures.html", "namespaceMR_1_1RenderFeatures" ],
     [ "RenderWrapObject", "namespaceMR_1_1RenderWrapObject.html", "namespaceMR_1_1RenderWrapObject" ],
@@ -2464,6 +2467,7 @@ var namespaceMR =
     [ "hasAnyIsoline", "namespaceMR.html#af6919ccacfe9dfaf51234ebc70f41d86", null ],
     [ "hasAnyPlaneSection", "namespaceMR.html#a2c2376e41aa2ed7d937d084b6861c2e8", null ],
     [ "hasAnyXYPlaneSection", "namespaceMR.html#a103a2ddf3834f4c8cff7f83fc77a0a7c", null ],
+    [ "hasFormatPlaceholders", "namespaceMR.html#a36dd0324e538647cb66802f21a522b68", null ],
     [ "hasMultipleEdges", "group__MeshFixerGroup.html#ga1aa9c53dc2ae474fe6c0c6d90d347f3e", null ],
     [ "hasProhibitedChars", "namespaceMR.html#a58401eef2addb5c0fef7e5dd90a17ddf", null ],
     [ "heapBytes", "group__BasicGroup.html#gacfd51356fbcb71948b1ef3f058ac75c7", null ],

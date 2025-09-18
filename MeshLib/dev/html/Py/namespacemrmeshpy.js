@@ -1856,6 +1856,7 @@ var namespacemrmeshpy =
     [ "hasAnyIsoline", "namespacemrmeshpy.html#a859df36cff2197dc89785a1130e59e0e", null ],
     [ "hasAnyPlaneSection", "namespacemrmeshpy.html#a24c570cb7dce804397b88d335e668b9a", null ],
     [ "hasAnyXYPlaneSection", "namespacemrmeshpy.html#ab2d1f5c1d7a40a6af1256c65a67967ec", null ],
+    [ "hasFormatPlaceholders", "namespacemrmeshpy.html#ad08692945aa2db9962bc60be1003e591", null ],
     [ "hasMultipleEdges", "namespacemrmeshpy.html#ac4c9e0d73e2c530f3125cec14e7a484b", null ],
     [ "hasProhibitedChars", "namespacemrmeshpy.html#a9eca53aeabfa6d70e9441d9f9a1aeef6", null ],
     [ "heapBytes", "namespacemrmeshpy.html#a354da45367f201aedfd7817fe3fcb44a", null ],

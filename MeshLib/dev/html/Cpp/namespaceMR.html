@@ -226,6 +226,8 @@ Namespaces</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1ProgressBar.html">ProgressBar</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1QualityControl.html">QualityControl</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1RenderDimensions.html">RenderDimensions</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1RenderFeatures.html">RenderFeatures</a></td></tr>
@@ -5745,6 +5747,9 @@ same leafs are skipped and different leafs area processed with <code>processLeaf
 <tr class="memitem:afc9f574268d072e85d31e140353743df" id="r_afc9f574268d072e85d31e140353743df"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::string_view&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc9f574268d072e85d31e140353743df">trimRight</a> (std::string_view str)</td></tr>
 <tr class="memdesc:afc9f574268d072e85d31e140353743df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all whitespace character (detected by std::isspace) at the end of string view.  <br /></td></tr>
 <tr class="separator:afc9f574268d072e85d31e140353743df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36dd0324e538647cb66802f21a522b68" id="r_a36dd0324e538647cb66802f21a522b68"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a36dd0324e538647cb66802f21a522b68">hasFormatPlaceholders</a> (std::string_view str)</td></tr>
+<tr class="memdesc:a36dd0324e538647cb66802f21a522b68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if <code>str</code> has at least one <code>{...}</code> formatting placeholder.  <br /></td></tr>
+<tr class="separator:a36dd0324e538647cb66802f21a522b68"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga9c68f9a0e1405a37f98f03203a234da5" id="r_ga9c68f9a0e1405a37f98f03203a234da5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::wstring&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga9c68f9a0e1405a37f98f03203a234da5">utf8ToWide</a> (const char *utf8)</td></tr>
 <tr class="memdesc:ga9c68f9a0e1405a37f98f03203a234da5"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts UTF8-encoded string into UTF16-encoded string  <br /></td></tr>
 <tr class="separator:ga9c68f9a0e1405a37f98f03203a234da5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -25400,6 +25405,33 @@ requires (<a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt
 </div><div class="memdoc">
 
 <p>quickly returns true if extractXYPlaneSections produce not-empty set for the same arguments </p>
+
+</div>
+</div>
+<a id="a36dd0324e538647cb66802f21a522b68" name="a36dd0324e538647cb66802f21a522b68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36dd0324e538647cb66802f21a522b68">&#9670;&#160;</a></span>hasFormatPlaceholders()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::hasFormatPlaceholders </td>
+          <td>(</td>
+          <td class="paramtype">std::string_view</td>          <td class="paramname"><span class="paramname"><em>str</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if <code>str</code> has at least one <code>{...}</code> formatting placeholder. </p>
 
 </div>
 </div>

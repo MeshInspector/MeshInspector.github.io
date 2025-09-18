@@ -290,15 +290,15 @@ var NAVTREEINDEX =
 "mrmeshpy_8pyi.html#a7ebe17a976f2e617ba5b73a8044200b1",
 "mrmeshpy_8pyi.html#aa4894166d10a01ed3a97f8ac38e0a4fb",
 "mrmeshpy_8pyi.html#ac6ab89b83c98595ead68b2be64b68eb2",
-"mrmeshpy_8pyi.html#aebdaf7eff4a50246424223dfaa7b04fa",
-"namespacemrcudapy.html#abacc3f1ddc84e70bb38d8d75c6595bd3",
-"namespacemrmeshpy.html#a256667da0e86259f9398488583ad55cd",
-"namespacemrmeshpy.html#a4673549bd9c0829f9494fa6b99b0f1e9",
-"namespacemrmeshpy.html#a6b8760edd216097436f626011aa38b85",
-"namespacemrmeshpy.html#a93ced976ec058e9af1dda5d82b1f79b3",
-"namespacemrmeshpy.html#ab81033a64ce36608ba8ca5ebbf6034da",
-"namespacemrmeshpy.html#ad97c045ed52069cd4efb7de9528e6039",
-"namespacemrviewerpy.html"
+"mrmeshpy_8pyi.html#aebd3950d2efabefa84ab5801447b6fb5",
+"namespacemrcudapy.html#aab9adabccec4346ca61b1e628d692a35",
+"namespacemrmeshpy.html#a255b18d7e4fcbb8bc774dec9c05e05e5",
+"namespacemrmeshpy.html#a463c27efa9fb6ec9d7c5537b94312653",
+"namespacemrmeshpy.html#a6b7a835fa14dad27c18d770f608a5a1f",
+"namespacemrmeshpy.html#a93b85f416167dc6f48c5d825767592c7",
+"namespacemrmeshpy.html#ab7fc7677d272c14e9d39d0c296327569",
+"namespacemrmeshpy.html#ad94f634b90545055e826375b4c96d96c",
+"namespacemrmeshpy.html#aff4ccefe20907b8648bd4f13d67acc81"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

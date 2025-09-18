@@ -185,6 +185,8 @@ Functions</h2></td></tr>
 <tr class="separator:a29d2ca719ccfa90529543fb832aa871f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a95ca4120d6ab5fee907117ac3d93edce" id="r_a95ca4120d6ab5fee907117ac3d93edce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRDistanceMeasurementObject_8h.html#a169b2cb1c4b9a267fdcd4b388a456d37">MR_std_string_view</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95ca4120d6ab5fee907117ac3d93edce">MR_trimRight</a> (const char *str, const char *str_end)</td></tr>
 <tr class="separator:a95ca4120d6ab5fee907117ac3d93edce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f559f4b3910c386775645dad777c241" id="r_a3f559f4b3910c386775645dad777c241"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f559f4b3910c386775645dad777c241">MR_hasFormatPlaceholders</a> (const char *str, const char *str_end)</td></tr>
+<tr class="separator:a3f559f4b3910c386775645dad777c241"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="a69dc6868c10c92fb8b8a255b0130d289" name="a69dc6868c10c92fb8b8a255b0130d289"></a>
@@ -286,6 +288,28 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Finds the substring in the string. </p><dl class="section return"><dt>Returns</dt><dd>position, npos if not found Generated from function <code><a class="elRef" href="../Cpp/group__BasicGroup.html#ga245584b85505ab9157d346bb3d8caf53">MR::findSubstringCaseInsensitive</a></code>. Parameter <code>string</code> can not be null. It is a single object. Parameter <code>substring</code> can not be null. It is a single object. </dd></dl>
+
+</div>
+</div>
+<a id="a3f559f4b3910c386775645dad777c241" name="a3f559f4b3910c386775645dad777c241"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f559f4b3910c386775645dad777c241">&#9670;&#160;</a></span>MR_hasFormatPlaceholders()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_hasFormatPlaceholders </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>str</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>str_end</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns true if <code>str</code> has at least one <code>{...}</code> formatting placeholder. Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a36dd0324e538647cb66802f21a522b68">MR::hasFormatPlaceholders</a></code>. Parameter <code>str</code> can not be null. If <code>str_end</code> is null, then <code>str</code> is assumed to be null-terminated. </p>
 
 </div>
 </div>

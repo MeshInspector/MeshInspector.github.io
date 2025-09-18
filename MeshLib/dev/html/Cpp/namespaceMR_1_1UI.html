@@ -159,6 +159,8 @@ $(function(){initNavTree('namespaceMR_1_1UI.html',''); initResizable(true); });
 Namespaces</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UI_1_1detail.html">detail</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UI_1_1StateStorage.html">StateStorage</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UI_1_1TestEngine.html">TestEngine</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -218,6 +220,10 @@ Functions</h2></td></tr>
 <tr class="separator:a8782e9cded23844b3ae2138d6287b99c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af1937d08c3cb699681eeb7fd4dde005e" id="r_af1937d08c3cb699681eeb7fd4dde005e"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1937d08c3cb699681eeb7fd4dde005e">saveChangesPopup</a> (const char *str_id, const <a class="el" href="structMR_1_1UI_1_1SaveChangesPopupSettings.html">SaveChangesPopupSettings</a> &amp;settings={})</td></tr>
 <tr class="separator:af1937d08c3cb699681eeb7fd4dde005e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d2fd1d58ef16bcced4cfefc67d2c023" id="r_a5d2fd1d58ef16bcced4cfefc67d2c023"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d2fd1d58ef16bcced4cfefc67d2c023">scale</a> ()</td></tr>
+<tr class="separator:a5d2fd1d58ef16bcced4cfefc67d2c023"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e1ec7c96ccb4a9963415c5d53b50081" id="r_a1e1ec7c96ccb4a9963415c5d53b50081"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e1ec7c96ccb4a9963415c5d53b50081">isItemActive</a> (const char *name)</td></tr>
+<tr class="separator:a1e1ec7c96ccb4a9963415c5d53b50081"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d337a1adf7e16aaa08b683a6b65e886" id="r_a0d337a1adf7e16aaa08b683a6b65e886"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::unique_ptr&lt; <a class="el" href="classMR_1_1ImGuiImage.html">ImGuiImage</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d337a1adf7e16aaa08b683a6b65e886">getTexture</a> (<a class="el" href="#a0a816a5d6ff63a4668d7a9b26bb0aaf6">TextureType</a> type)</td></tr>
 <tr class="separator:a0d337a1adf7e16aaa08b683a6b65e886"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a986e400ed59dea0ae3e54284d9b8d110" id="r_a986e400ed59dea0ae3e54284d9b8d110"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a986e400ed59dea0ae3e54284d9b8d110">init</a> ()</td></tr>
@@ -328,18 +334,34 @@ Functions</h2></td></tr>
 <tr class="memitem:a5e2ab9c1b7ae397ac4ef58403551d17c" id="r_a5e2ab9c1b7ae397ac4ef58403551d17c"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e2ab9c1b7ae397ac4ef58403551d17c">inputTextCenteredReadOnly</a> (const char *label, const std::string &amp;str, float <a class="el" href="group__BoxGroup.html#ga03ccb991cf0d9c433fd5a054a5d026af">width</a>=0.0f, const std::optional&lt; ImVec4 &gt; &amp;textColor={}, const std::optional&lt; ImVec4 &gt; &amp;labelColor={})</td></tr>
 <tr class="memdesc:a5e2ab9c1b7ae397ac4ef58403551d17c"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw read-only text box with text aligned by center  <br /></td></tr>
 <tr class="separator:a5e2ab9c1b7ae397ac4ef58403551d17c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73b24c79591c799e7d48900fbeb29f28" id="r_a73b24c79591c799e7d48900fbeb29f28"><td class="memTemplParams" colspan="2">template&lt;UnitEnum E, detail::VectorOrScalar T&gt; <br />
+requires ( <a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt;T&gt;<a class="el" href="namespaceMR.html#a306ff1f62992b3eb33c446913b64188a">::size</a> == 1 )</td></tr>
+<tr class="memitem:a73b24c79591c799e7d48900fbeb29f28"><td class="memTemplItemLeft" align="right" valign="top">float&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a73b24c79591c799e7d48900fbeb29f28">getDefaultDragSpeed</a> ()</td></tr>
+<tr class="separator:a73b24c79591c799e7d48900fbeb29f28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34c3f1871780efe66e47bcc052cefd3d" id="r_a34c3f1871780efe66e47bcc052cefd3d"><td class="memTemplParams" colspan="2">template&lt;UnitEnum E, detail::VectorOrScalar T, detail::VectorOrScalar TargetType&gt; </td></tr>
+<tr class="memitem:a34c3f1871780efe66e47bcc052cefd3d"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a34c3f1871780efe66e47bcc052cefd3d">getDefaultStep</a> (bool fast)</td></tr>
+<tr class="separator:a34c3f1871780efe66e47bcc052cefd3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ede0f8f76cc959c7be6cb81ee9174f8" id="r_a7ede0f8f76cc959c7be6cb81ee9174f8"><td class="memTemplParams" colspan="2">template&lt;UnitEnum E, detail::VectorOrScalar T, detail::ValidBoundForTargetType&lt; T &gt; U = typename VectorTraits&lt;T&gt;::BaseType&gt; </td></tr>
 <tr class="memitem:a7ede0f8f76cc959c7be6cb81ee9174f8"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a7ede0f8f76cc959c7be6cb81ee9174f8">slider</a> (const char *label, T &amp;v, const U &amp;vMin, const U &amp;vMax, <a class="el" href="structMR_1_1UnitToStringParams.html">UnitToStringParams</a>&lt; E &gt; unitParams={}, ImGuiSliderFlags flags=<a class="el" href="#a7ce97f5be533c3522d66cb2fbfaf250f">defaultSliderFlags</a>)</td></tr>
 <tr class="separator:a7ede0f8f76cc959c7be6cb81ee9174f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1527cab8abd6795f21baa9abcfec2804" id="r_a1527cab8abd6795f21baa9abcfec2804"><td class="memTemplParams" colspan="2">template&lt;UnitEnum E, detail::VectorOrScalar T, detail::ValidDragSpeedForTargetType&lt; T &gt; SpeedType = float, detail::ValidBoundForTargetType&lt; T &gt; U = typename VectorTraits&lt;T&gt;::BaseType&gt; </td></tr>
-<tr class="memitem:a1527cab8abd6795f21baa9abcfec2804"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a1527cab8abd6795f21baa9abcfec2804">drag</a> (const char *label, T &amp;v, SpeedType vSpeed=<a class="el" href="namespaceMR_1_1UI_1_1detail.html#a797ee2107c897bf2d084fede574e062b">detail::getDefaultDragSpeed</a>&lt; E, SpeedType &gt;(), const U &amp;vMin=std::numeric_limits&lt; U &gt;::lowest(), const U &amp;vMax=std::numeric_limits&lt; U &gt;::max(), <a class="el" href="structMR_1_1UnitToStringParams.html">UnitToStringParams</a>&lt; E &gt; unitParams={}, ImGuiSliderFlags flags=<a class="el" href="#a7ce97f5be533c3522d66cb2fbfaf250f">defaultSliderFlags</a>, const U &amp;step=<a class="el" href="namespaceMR_1_1UI_1_1detail.html#a0b9ea313e9b93469005d3c375b2b9652">detail::getDefaultStep</a>&lt; E, U, T &gt;(false), const U &amp;stepFast=<a class="el" href="namespaceMR_1_1UI_1_1detail.html#a0b9ea313e9b93469005d3c375b2b9652">detail::getDefaultStep</a>&lt; E, U, T &gt;(true))</td></tr>
-<tr class="separator:a1527cab8abd6795f21baa9abcfec2804"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7164936f126dc1678e8ee461b926adec" id="r_a7164936f126dc1678e8ee461b926adec"><td class="memTemplParams" colspan="2">template&lt;UnitEnum E, detail::VectorOrScalar T, detail::ValidDragSpeedForTargetType&lt; T &gt; SpeedType = float, detail::ValidBoundForTargetType&lt; T &gt; U = typename VectorTraits&lt;T&gt;::BaseType&gt; </td></tr>
+<tr class="memitem:a7164936f126dc1678e8ee461b926adec"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a7164936f126dc1678e8ee461b926adec">drag</a> (const char *label, T &amp;v, SpeedType vSpeed=<a class="el" href="#a73b24c79591c799e7d48900fbeb29f28">getDefaultDragSpeed</a>&lt; E, SpeedType &gt;(), const U &amp;vMin=std::numeric_limits&lt; U &gt;::lowest(), const U &amp;vMax=std::numeric_limits&lt; U &gt;::max(), <a class="el" href="structMR_1_1UnitToStringParams.html">UnitToStringParams</a>&lt; E &gt; unitParams={}, ImGuiSliderFlags flags=<a class="el" href="#a7ce97f5be533c3522d66cb2fbfaf250f">defaultSliderFlags</a>, const U &amp;step=<a class="el" href="#a34c3f1871780efe66e47bcc052cefd3d">getDefaultStep</a>&lt; E, U, T &gt;(false), const U &amp;stepFast=<a class="el" href="#a34c3f1871780efe66e47bcc052cefd3d">getDefaultStep</a>&lt; E, U, T &gt;(true))</td></tr>
+<tr class="separator:a7164936f126dc1678e8ee461b926adec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abbed04ca5643f08d7b41e56fec98ee8b" id="r_abbed04ca5643f08d7b41e56fec98ee8b"><td class="memTemplParams" colspan="2">template&lt;UnitEnum E, detail::VectorOrScalar T, detail::ValidBoundForTargetType&lt; T &gt; U = typename VectorTraits&lt;T&gt;::BaseType&gt; </td></tr>
 <tr class="memitem:abbed04ca5643f08d7b41e56fec98ee8b"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#abbed04ca5643f08d7b41e56fec98ee8b">input</a> (const char *label, T &amp;v, const U &amp;vMin=std::numeric_limits&lt; U &gt;::lowest(), const U &amp;vMax=std::numeric_limits&lt; U &gt;::max(), <a class="el" href="structMR_1_1UnitToStringParams.html">UnitToStringParams</a>&lt; E &gt; unitParams={}, ImGuiSliderFlags flags=<a class="el" href="#a7ce97f5be533c3522d66cb2fbfaf250f">defaultSliderFlags</a>)</td></tr>
 <tr class="separator:abbed04ca5643f08d7b41e56fec98ee8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1fd1e704f1ff98b82cc4c98e452f57a" id="r_aa1fd1e704f1ff98b82cc4c98e452f57a"><td class="memTemplParams" colspan="2">template&lt;UnitEnum E, detail::VectorOrScalar T&gt; </td></tr>
 <tr class="memitem:aa1fd1e704f1ff98b82cc4c98e452f57a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#aa1fd1e704f1ff98b82cc4c98e452f57a">readOnlyValue</a> (const char *label, const T &amp;v, std::optional&lt; ImVec4 &gt; textColor={}, <a class="el" href="structMR_1_1UnitToStringParams.html">UnitToStringParams</a>&lt; E &gt; unitParams={}, std::optional&lt; ImVec4 &gt; labelColor={})</td></tr>
 <tr class="separator:aa1fd1e704f1ff98b82cc4c98e452f57a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e2c992cf1725ac8f53f110fdb0f5541" id="r_a7e2c992cf1725ac8f53f110fdb0f5541"><td class="memTemplParams" colspan="2">template&lt;UnitEnum E, detail::Scalar T, typename F &gt; </td></tr>
+<tr class="memitem:a7e2c992cf1725ac8f53f110fdb0f5541"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a7e2c992cf1725ac8f53f110fdb0f5541">plusMinusGeneric</a> (const char *label, T &amp;plus, T &amp;minus, <a class="el" href="structMR_1_1UnitToStringParams.html">UnitToStringParams</a>&lt; E &gt; unitToStringParams, F &amp;&amp;func)</td></tr>
+<tr class="separator:a7e2c992cf1725ac8f53f110fdb0f5541"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59568041afcf5034cb6871916598a340" id="r_a59568041afcf5034cb6871916598a340"><td class="memTemplParams" colspan="2">template&lt;UnitEnum E, detail::Scalar T, detail::ValidDragSpeedForTargetType&lt; T &gt; SpeedType = float, typename F  = std::nullptr_t&gt; </td></tr>
+<tr class="memitem:a59568041afcf5034cb6871916598a340"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a59568041afcf5034cb6871916598a340">dragPlusMinus</a> (const char *label, T &amp;plus, T &amp;minus, SpeedType speed=<a class="el" href="#a73b24c79591c799e7d48900fbeb29f28">getDefaultDragSpeed</a>&lt; E, SpeedType &gt;(), T plusMin=T{}, T plusMax=std::numeric_limits&lt; T &gt;::max(), <a class="el" href="structMR_1_1UnitToStringParams.html">UnitToStringParams</a>&lt; E &gt; unitParams={}, ImGuiSliderFlags flags=<a class="el" href="#a7ce97f5be533c3522d66cb2fbfaf250f">defaultSliderFlags</a>, F &amp;&amp;wrapFunc=nullptr)</td></tr>
+<tr class="separator:a59568041afcf5034cb6871916598a340"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d696a4ba7ed6899c61e4f297218a530" id="r_a2d696a4ba7ed6899c61e4f297218a530"><td class="memTemplParams" colspan="2">template&lt;UnitEnum E, detail::Scalar T, typename F  = std::nullptr_t&gt; </td></tr>
+<tr class="memitem:a2d696a4ba7ed6899c61e4f297218a530"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a2d696a4ba7ed6899c61e4f297218a530">inputPlusMinus</a> (const char *label, T &amp;plus, T &amp;minus, T plusMin=T{}, T plusMax=std::numeric_limits&lt; T &gt;::max(), <a class="el" href="structMR_1_1UnitToStringParams.html">UnitToStringParams</a>&lt; E &gt; unitParams={}, ImGuiSliderFlags flags=<a class="el" href="#a7ce97f5be533c3522d66cb2fbfaf250f">defaultSliderFlags</a>, F &amp;&amp;wrapFunc=nullptr)</td></tr>
+<tr class="separator:a2d696a4ba7ed6899c61e4f297218a530"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8383efc65d62e5b793a5e660ecd07c1e" id="r_a8383efc65d62e5b793a5e660ecd07c1e"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API const std::pair&lt; const char *, ImU32 &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8383efc65d62e5b793a5e660ecd07c1e">notificationChar</a> (<a class="el" href="namespaceMR.html#a3ccf27858d11d72a88bdbaf6e9d2b05d">NotificationType</a> type)</td></tr>
 <tr class="memdesc:a8383efc65d62e5b793a5e660ecd07c1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns icons font character for given notification type, and its color  <br /></td></tr>
 <tr class="separator:a8383efc65d62e5b793a5e660ecd07c1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1328,8 +1350,8 @@ template&lt;typename Getter , typename Setter &gt; </div>
 
 </div>
 </div>
-<a id="a1527cab8abd6795f21baa9abcfec2804" name="a1527cab8abd6795f21baa9abcfec2804"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1527cab8abd6795f21baa9abcfec2804">&#9670;&#160;</a></span>drag()</h2>
+<a id="a7164936f126dc1678e8ee461b926adec" name="a7164936f126dc1678e8ee461b926adec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7164936f126dc1678e8ee461b926adec">&#9670;&#160;</a></span>drag()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1349,7 +1371,7 @@ template&lt;UnitEnum E, detail::VectorOrScalar T, detail::ValidDragSpeedForTarge
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">SpeedType</td>          <td class="paramname"><span class="paramname"><em>vSpeed</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="namespaceMR_1_1UI_1_1detail.html#a797ee2107c897bf2d084fede574e062b">detail::getDefaultDragSpeed</a>&lt;&#160;E,&#160;SpeedType&#160;&gt;()</span>, </td>
+          <td class="paramtype">SpeedType</td>          <td class="paramname"><span class="paramname"><em>vSpeed</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="#a73b24c79591c799e7d48900fbeb29f28">getDefaultDragSpeed</a>&lt;&#160;E,&#160;SpeedType&#160;&gt;()</span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1374,12 +1396,70 @@ template&lt;UnitEnum E, detail::VectorOrScalar T, detail::ValidDragSpeedForTarge
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const U &amp;</td>          <td class="paramname"><span class="paramname"><em>step</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="namespaceMR_1_1UI_1_1detail.html#a0b9ea313e9b93469005d3c375b2b9652">detail::getDefaultStep</a>&lt;&#160;E,&#160;U,&#160;T&#160;&gt;(false)</span>, </td>
+          <td class="paramtype">const U &amp;</td>          <td class="paramname"><span class="paramname"><em>step</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="#a34c3f1871780efe66e47bcc052cefd3d">getDefaultStep</a>&lt;&#160;E,&#160;U,&#160;T&#160;&gt;(false)</span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const U &amp;</td>          <td class="paramname"><span class="paramname"><em>stepFast</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="namespaceMR_1_1UI_1_1detail.html#a0b9ea313e9b93469005d3c375b2b9652">detail::getDefaultStep</a>&lt;&#160;E,&#160;U,&#160;T&#160;&gt;(true)</span>&#160;)</td>
+          <td class="paramtype">const U &amp;</td>          <td class="paramname"><span class="paramname"><em>stepFast</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="#a34c3f1871780efe66e47bcc052cefd3d">getDefaultStep</a>&lt;&#160;E,&#160;U,&#160;T&#160;&gt;(true)</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a59568041afcf5034cb6871916598a340" name="a59568041afcf5034cb6871916598a340"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59568041afcf5034cb6871916598a340">&#9670;&#160;</a></span>dragPlusMinus()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;UnitEnum E, detail::Scalar T, detail::ValidDragSpeedForTargetType&lt; T &gt; SpeedType = float, typename F  = std::nullptr_t&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::UI::dragPlusMinus </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>label</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T &amp;</td>          <td class="paramname"><span class="paramname"><em>plus</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T &amp;</td>          <td class="paramname"><span class="paramname"><em>minus</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">SpeedType</td>          <td class="paramname"><span class="paramname"><em>speed</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="#a73b24c79591c799e7d48900fbeb29f28">getDefaultDragSpeed</a>&lt;&#160;E,&#160;SpeedType&#160;&gt;()</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>plusMin</em></span><span class="paramdefsep"> = </span><span class="paramdefval">T{}</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>plusMax</em></span><span class="paramdefsep"> = </span><span class="paramdefval">std::numeric_limits&lt;&#160;T&#160;&gt;::max()</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR_1_1UnitToStringParams.html">UnitToStringParams</a>&lt; E &gt;</td>          <td class="paramname"><span class="paramname"><em>unitParams</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ImGuiSliderFlags</td>          <td class="paramname"><span class="paramname"><em>flags</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="#a7ce97f5be533c3522d66cb2fbfaf250f">defaultSliderFlags</a></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">F &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>wrapFunc</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1479,6 +1559,34 @@ template&lt;UnitEnum E, detail::VectorOrScalar T, detail::ValidDragSpeedForTarge
 
 </div>
 </div>
+<a id="a73b24c79591c799e7d48900fbeb29f28" name="a73b24c79591c799e7d48900fbeb29f28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73b24c79591c799e7d48900fbeb29f28">&#9670;&#160;</a></span>getDefaultDragSpeed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;UnitEnum E, detail::VectorOrScalar T&gt; <br />
+requires ( <a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt;T&gt;<a class="el" href="namespaceMR.html#a306ff1f62992b3eb33c446913b64188a">::size</a> == 1 )</div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MR::UI::getDefaultDragSpeed </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a8782e9cded23844b3ae2138d6287b99c" name="a8782e9cded23844b3ae2138d6287b99c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8782e9cded23844b3ae2138d6287b99c">&#9670;&#160;</a></span>getDefaultLabelRectAllocator()</h2>
 
@@ -1492,6 +1600,33 @@ template&lt;UnitEnum E, detail::VectorOrScalar T, detail::ValidDragSpeedForTarge
           <td class="memname">MRVIEWER_API <a class="el" href="classMR_1_1UI_1_1LabelRectAllocator.html">LabelRectAllocator</a> &amp; MR::UI::getDefaultLabelRectAllocator </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a34c3f1871780efe66e47bcc052cefd3d" name="a34c3f1871780efe66e47bcc052cefd3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34c3f1871780efe66e47bcc052cefd3d">&#9670;&#160;</a></span>getDefaultStep()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;UnitEnum E, detail::VectorOrScalar T, detail::VectorOrScalar TargetType&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T MR::UI::getDefaultStep </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>fast</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1648,6 +1783,59 @@ template&lt;UnitEnum E, detail::VectorOrScalar T, detail::ValidBoundForTargetTyp
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">ImGuiSliderFlags</td>          <td class="paramname"><span class="paramname"><em>flags</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="#a7ce97f5be533c3522d66cb2fbfaf250f">defaultSliderFlags</a></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2d696a4ba7ed6899c61e4f297218a530" name="a2d696a4ba7ed6899c61e4f297218a530"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d696a4ba7ed6899c61e4f297218a530">&#9670;&#160;</a></span>inputPlusMinus()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;UnitEnum E, detail::Scalar T, typename F  = std::nullptr_t&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::UI::inputPlusMinus </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>label</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T &amp;</td>          <td class="paramname"><span class="paramname"><em>plus</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T &amp;</td>          <td class="paramname"><span class="paramname"><em>minus</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>plusMin</em></span><span class="paramdefsep"> = </span><span class="paramdefval">T{}</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>plusMax</em></span><span class="paramdefsep"> = </span><span class="paramdefval">std::numeric_limits&lt;&#160;T&#160;&gt;::max()</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR_1_1UnitToStringParams.html">UnitToStringParams</a>&lt; E &gt;</td>          <td class="paramname"><span class="paramname"><em>unitParams</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ImGuiSliderFlags</td>          <td class="paramname"><span class="paramname"><em>flags</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="#a7ce97f5be533c3522d66cb2fbfaf250f">defaultSliderFlags</a></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">F &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>wrapFunc</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2006,6 +2194,31 @@ template&lt;UnitEnum E, detail::VectorOrScalar T, detail::ValidBoundForTargetTyp
 
 </div>
 </div>
+<a id="a1e1ec7c96ccb4a9963415c5d53b50081" name="a1e1ec7c96ccb4a9963415c5d53b50081"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e1ec7c96ccb4a9963415c5d53b50081">&#9670;&#160;</a></span>isItemActive()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API bool MR::UI::isItemActive </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>name</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a4d7733f0351b6a1220f2fe89aecf9106" name="a4d7733f0351b6a1220f2fe89aecf9106"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4d7733f0351b6a1220f2fe89aecf9106">&#9670;&#160;</a></span>mouseControlHint()</h2>
 
@@ -2095,6 +2308,44 @@ template&lt;UnitEnum E, detail::VectorOrScalar T, detail::ValidBoundForTargetTyp
 </div><div class="memdoc">
 
 <p>similar to ImGui::TextWrapped but also have styled background and notification type indicator </p>
+
+</div>
+</div>
+<a id="a7e2c992cf1725ac8f53f110fdb0f5541" name="a7e2c992cf1725ac8f53f110fdb0f5541"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e2c992cf1725ac8f53f110fdb0f5541">&#9670;&#160;</a></span>plusMinusGeneric()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;UnitEnum E, detail::Scalar T, typename F &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR::UI::plusMinusGeneric </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>label</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T &amp;</td>          <td class="paramname"><span class="paramname"><em>plus</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T &amp;</td>          <td class="paramname"><span class="paramname"><em>minus</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR_1_1UnitToStringParams.html">UnitToStringParams</a>&lt; E &gt;</td>          <td class="paramname"><span class="paramname"><em>unitToStringParams</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">F &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>func</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -2283,6 +2534,31 @@ template&lt;UnitEnum E, detail::VectorOrScalar T&gt; </div>
           <td class="paramtype">const <a class="el" href="structMR_1_1UI_1_1SaveChangesPopupSettings.html">SaveChangesPopupSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5d2fd1d58ef16bcced4cfefc67d2c023" name="a5d2fd1d58ef16bcced4cfefc67d2c023"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d2fd1d58ef16bcced4cfefc67d2c023">&#9670;&#160;</a></span>scale()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRVIEWER_API float MR::UI::scale </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

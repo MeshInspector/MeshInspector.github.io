@@ -167,12 +167,13 @@ var NAVTREEINDEX10 =
 "MRMesh_2MRSignDetectionMode_8h.html#adef43100b8549538f5eac0fb7a9a0107":[6,0,3,0,0,1,4,355,2],
 "MRMesh_2MRSignDetectionMode_8h_source.html":[6,0,3,0,0,1,4,355],
 "MRMesh_2MRString_8h.html":[6,0,3,0,0,1,4,363],
-"MRMesh_2MRString_8h.html#a2584c6bf8d14b42355582e7b634bb1ee":[6,0,3,0,0,1,4,363,2],
-"MRMesh_2MRString_8h.html#a7739cc70dc943e30f0635c478a93ef14":[6,0,3,0,0,1,4,363,7],
-"MRMesh_2MRString_8h.html#aacd64ab3b893a3975e6dced2b5ff2722":[6,0,3,0,0,1,4,363,6],
-"MRMesh_2MRString_8h.html#aad02dff14ccec10b269b5073bb74ca63":[6,0,3,0,0,1,4,363,5],
-"MRMesh_2MRString_8h.html#afc584d61fd54ca2a86dec086736fdfd4":[6,0,3,0,0,1,4,363,3],
-"MRMesh_2MRString_8h.html#afc9f574268d072e85d31e140353743df":[6,0,3,0,0,1,4,363,8],
+"MRMesh_2MRString_8h.html#a2584c6bf8d14b42355582e7b634bb1ee":[6,0,3,0,0,1,4,363,3],
+"MRMesh_2MRString_8h.html#a36dd0324e538647cb66802f21a522b68":[6,0,3,0,0,1,4,363,2],
+"MRMesh_2MRString_8h.html#a7739cc70dc943e30f0635c478a93ef14":[6,0,3,0,0,1,4,363,8],
+"MRMesh_2MRString_8h.html#aacd64ab3b893a3975e6dced2b5ff2722":[6,0,3,0,0,1,4,363,7],
+"MRMesh_2MRString_8h.html#aad02dff14ccec10b269b5073bb74ca63":[6,0,3,0,0,1,4,363,6],
+"MRMesh_2MRString_8h.html#afc584d61fd54ca2a86dec086736fdfd4":[6,0,3,0,0,1,4,363,4],
+"MRMesh_2MRString_8h.html#afc9f574268d072e85d31e140353743df":[6,0,3,0,0,1,4,363,9],
 "MRMesh_2MRString_8h_source.html":[6,0,3,0,0,1,4,363],
 "MRMesh_2MRTorus_8h.html":[6,0,3,0,0,1,4,383],
 "MRMesh_2MRTorus_8h.html#a04928fbb61dfb4922c926c1e5d2dce8e":[6,0,3,0,0,1,4,383,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX10 =
 "MRMruFormatParameters_8h_source.html":[6,0,3,0,0,1,11,50],
 "MRMultiwayAligningTransform_8h.html":[6,0,3,0,0,1,4,239],
 "MRMultiwayAligningTransform_8h_source.html":[6,0,3,0,0,1,4,239],
-"MRMutexOwner_8h.html":[6,0,3,0,0,1,4,241],
-"MRMutexOwner_8h_source.html":[6,0,3,0,0,1,4,241]
+"MRMutexOwner_8h.html":[6,0,3,0,0,1,4,241]
 };

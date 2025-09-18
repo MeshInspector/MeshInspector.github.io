@@ -165,18 +165,13 @@ Concepts</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a725a5cb7e447bbae4a1ae586a0f981d9" id="r_a725a5cb7e447bbae4a1ae586a0f981d9"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a725a5cb7e447bbae4a1ae586a0f981d9">setScale</a> (float newScale)</td></tr>
+<tr class="separator:a725a5cb7e447bbae4a1ae586a0f981d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94d9e7cba8a9ce853aeee7b29b563391" id="r_a94d9e7cba8a9ce853aeee7b29b563391"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94d9e7cba8a9ce853aeee7b29b563391">genericSlider</a> (const char *label, ImGuiDataType data_type, void *p_data, const void *p_min, const void *p_max, const char *format, ImGuiSliderFlags flags)</td></tr>
 <tr class="separator:a94d9e7cba8a9ce853aeee7b29b563391"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab56fe865a416552aa6f504ce57514ae3" id="r_ab56fe865a416552aa6f504ce57514ae3"><td class="memTemplParams" colspan="2">template&lt;UnitEnum E, VectorOrScalar T, typename F &gt; </td></tr>
 <tr class="memitem:ab56fe865a416552aa6f504ce57514ae3"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ab56fe865a416552aa6f504ce57514ae3">unitWidget</a> (const char *label, T &amp;v, <a class="el" href="structMR_1_1UnitToStringParams.html">UnitToStringParams</a>&lt; E &gt; &amp;unitParams, F &amp;&amp;func)</td></tr>
 <tr class="separator:ab56fe865a416552aa6f504ce57514ae3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a797ee2107c897bf2d084fede574e062b" id="r_a797ee2107c897bf2d084fede574e062b"><td class="memTemplParams" colspan="2">template&lt;UnitEnum E, VectorOrScalar T&gt; <br />
-requires ( <a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt;T&gt;<a class="el" href="namespaceMR.html#a306ff1f62992b3eb33c446913b64188a">::size</a> == 1 )</td></tr>
-<tr class="memitem:a797ee2107c897bf2d084fede574e062b"><td class="memTemplItemLeft" align="right" valign="top">float&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a797ee2107c897bf2d084fede574e062b">getDefaultDragSpeed</a> ()</td></tr>
-<tr class="separator:a797ee2107c897bf2d084fede574e062b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b9ea313e9b93469005d3c375b2b9652" id="r_a0b9ea313e9b93469005d3c375b2b9652"><td class="memTemplParams" colspan="2">template&lt;UnitEnum E, VectorOrScalar T, VectorOrScalar TargetType&gt; </td></tr>
-<tr class="memitem:a0b9ea313e9b93469005d3c375b2b9652"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a0b9ea313e9b93469005d3c375b2b9652">getDefaultStep</a> (bool fast)</td></tr>
-<tr class="separator:a0b9ea313e9b93469005d3c375b2b9652"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a94d9e7cba8a9ce853aeee7b29b563391" name="a94d9e7cba8a9ce853aeee7b29b563391"></a>
@@ -225,57 +220,19 @@ requires ( <a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&l
 
 </div>
 </div>
-<a id="a797ee2107c897bf2d084fede574e062b" name="a797ee2107c897bf2d084fede574e062b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a797ee2107c897bf2d084fede574e062b">&#9670;&#160;</a></span>getDefaultDragSpeed()</h2>
+<a id="a725a5cb7e447bbae4a1ae586a0f981d9" name="a725a5cb7e447bbae4a1ae586a0f981d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a725a5cb7e447bbae4a1ae586a0f981d9">&#9670;&#160;</a></span>setScale()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;UnitEnum E, VectorOrScalar T&gt; <br />
-requires ( <a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt;T&gt;<a class="el" href="namespaceMR.html#a306ff1f62992b3eb33c446913b64188a">::size</a> == 1 )</div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">float MR::UI::detail::getDefaultDragSpeed </td>
+          <td class="memname">MRVIEWER_API void MR::UI::detail::setScale </td>
           <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>newScale</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0b9ea313e9b93469005d3c375b2b9652" name="a0b9ea313e9b93469005d3c375b2b9652"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0b9ea313e9b93469005d3c375b2b9652">&#9670;&#160;</a></span>getDefaultStep()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;UnitEnum E, VectorOrScalar T, VectorOrScalar TargetType&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">T MR::UI::detail::getDefaultStep </td>
-          <td>(</td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>fast</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
