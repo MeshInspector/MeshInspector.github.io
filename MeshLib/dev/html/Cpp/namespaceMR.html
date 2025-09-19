@@ -2410,12 +2410,12 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a421af22aea174a88968edea770000bbc" id="r_a421af22aea174a88968edea770000bbc"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a421af22aea174a88968edea770000bbc">OnPointInBallFound</a> = std::function&lt;<a class="el" href="#ae9fc4543eb3302ae33b7843707485149">Processing</a>( const <a class="el" href="structMR_1_1PointsProjectionResult.html">PointsProjectionResult</a> &amp; found, const Vector3f &amp; foundXfPos, Ball3f &amp; ball )&gt;</td></tr>
 <tr class="memdesc:a421af22aea174a88968edea770000bbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">this callback is invoked on every point located within the ball, and allows changing the ball for search continuation  <br /></td></tr>
 <tr class="separator:a421af22aea174a88968edea770000bbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9068e662a90d2fbd3b3c8877feeb39a2" id="r_a9068e662a90d2fbd3b3c8877feeb39a2"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a9068e662a90d2fbd3b3c8877feeb39a2"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a9068e662a90d2fbd3b3c8877feeb39a2">PolylineIntersectionCallback2</a> = std::function&lt;<a class="el" href="#ae9fc4543eb3302ae33b7843707485149">Processing</a>(const <a class="el" href="structMR_1_1EdgePoint.html">EdgePoint</a> &amp; polylinePoint, T rayPos, T &amp; rayEnd)&gt;</td></tr>
-<tr class="separator:a9068e662a90d2fbd3b3c8877feeb39a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae0b1767f78412a4100c7baa4ae2cb2de" id="r_ae0b1767f78412a4100c7baa4ae2cb2de"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae0b1767f78412a4100c7baa4ae2cb2de">PolylineIntersectionCallback2f</a> = <a class="el" href="#a9068e662a90d2fbd3b3c8877feeb39a2">PolylineIntersectionCallback2</a>&lt;float&gt;</td></tr>
+<tr class="memitem:a80d1c820a9a9983c511c6785b2c8ed94" id="r_a80d1c820a9a9983c511c6785b2c8ed94"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a80d1c820a9a9983c511c6785b2c8ed94"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a80d1c820a9a9983c511c6785b2c8ed94">PolylineIntersectionCallback2</a> = std::function&lt;<a class="el" href="#ae9fc4543eb3302ae33b7843707485149">Processing</a>(const <a class="el" href="structMR_1_1EdgePoint.html">EdgePoint</a> &amp; polylinePoint, T rayPos, T &amp; rayStart, T &amp; rayEnd)&gt;</td></tr>
+<tr class="separator:a80d1c820a9a9983c511c6785b2c8ed94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0b1767f78412a4100c7baa4ae2cb2de" id="r_ae0b1767f78412a4100c7baa4ae2cb2de"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae0b1767f78412a4100c7baa4ae2cb2de">PolylineIntersectionCallback2f</a> = <a class="el" href="#a80d1c820a9a9983c511c6785b2c8ed94">PolylineIntersectionCallback2</a>&lt;float&gt;</td></tr>
 <tr class="separator:ae0b1767f78412a4100c7baa4ae2cb2de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba7cace2c59d8ea1874ea0223d3c3d42" id="r_aba7cace2c59d8ea1874ea0223d3c3d42"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba7cace2c59d8ea1874ea0223d3c3d42">PolylineIntersectionCallback2d</a> = <a class="el" href="#a9068e662a90d2fbd3b3c8877feeb39a2">PolylineIntersectionCallback2</a>&lt;double&gt;</td></tr>
+<tr class="memitem:aba7cace2c59d8ea1874ea0223d3c3d42" id="r_aba7cace2c59d8ea1874ea0223d3c3d42"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba7cace2c59d8ea1874ea0223d3c3d42">PolylineIntersectionCallback2d</a> = <a class="el" href="#a80d1c820a9a9983c511c6785b2c8ed94">PolylineIntersectionCallback2</a>&lt;double&gt;</td></tr>
 <tr class="separator:aba7cace2c59d8ea1874ea0223d3c3d42"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e7bbd2938192cd9a3d3616faa293ed9" id="r_a6e7bbd2938192cd9a3d3616faa293ed9"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e7bbd2938192cd9a3d3616faa293ed9">DecimatePolylineSettings2</a> = <a class="el" href="structMR_1_1DecimatePolylineSettings.html">DecimatePolylineSettings</a>&lt;Vector2f&gt;</td></tr>
 <tr class="separator:a6e7bbd2938192cd9a3d3616faa293ed9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -9002,8 +9002,8 @@ template&lt;typename T , typename <a class="el" href="#a3e65b1f56010b420ea87dd02
 
 </div>
 </div>
-<a id="a9068e662a90d2fbd3b3c8877feeb39a2" name="a9068e662a90d2fbd3b3c8877feeb39a2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9068e662a90d2fbd3b3c8877feeb39a2">&#9670;&#160;</a></span>PolylineIntersectionCallback2</h2>
+<a id="a80d1c820a9a9983c511c6785b2c8ed94" name="a80d1c820a9a9983c511c6785b2c8ed94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80d1c820a9a9983c511c6785b2c8ed94">&#9670;&#160;</a></span>PolylineIntersectionCallback2</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9011,7 +9011,7 @@ template&lt;typename T , typename <a class="el" href="#a3e65b1f56010b420ea87dd02
 template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#a9068e662a90d2fbd3b3c8877feeb39a2">MR::PolylineIntersectionCallback2</a> = std::function&lt;<a class="el" href="#ae9fc4543eb3302ae33b7843707485149">Processing</a>(const <a class="el" href="structMR_1_1EdgePoint.html">EdgePoint</a> &amp; polylinePoint, T rayPos, T &amp; rayEnd)&gt;</td>
+          <td class="memname">using <a class="el" href="#a80d1c820a9a9983c511c6785b2c8ed94">MR::PolylineIntersectionCallback2</a> = std::function&lt;<a class="el" href="#ae9fc4543eb3302ae33b7843707485149">Processing</a>(const <a class="el" href="structMR_1_1EdgePoint.html">EdgePoint</a> &amp; polylinePoint, T rayPos, T &amp; rayStart, T &amp; rayEnd)&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -9026,7 +9026,7 @@ template&lt;typename T &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#aba7cace2c59d8ea1874ea0223d3c3d42">MR::PolylineIntersectionCallback2d</a> = <a class="el" href="#a9068e662a90d2fbd3b3c8877feeb39a2">PolylineIntersectionCallback2</a>&lt;double&gt;</td>
+          <td class="memname">using <a class="el" href="#aba7cace2c59d8ea1874ea0223d3c3d42">MR::PolylineIntersectionCallback2d</a> = <a class="el" href="#a80d1c820a9a9983c511c6785b2c8ed94">PolylineIntersectionCallback2</a>&lt;double&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -9040,7 +9040,7 @@ template&lt;typename T &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#ae0b1767f78412a4100c7baa4ae2cb2de">MR::PolylineIntersectionCallback2f</a> = <a class="el" href="#a9068e662a90d2fbd3b3c8877feeb39a2">PolylineIntersectionCallback2</a>&lt;float&gt;</td>
+          <td class="memname">using <a class="el" href="#ae0b1767f78412a4100c7baa4ae2cb2de">MR::PolylineIntersectionCallback2f</a> = <a class="el" href="#a80d1c820a9a9983c511c6785b2c8ed94">PolylineIntersectionCallback2</a>&lt;float&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -35610,7 +35610,7 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Finds ray and polyline intersection in double-precision. <code>rayStart</code> and <code>rayEnd</code> define the interval on the ray to detect an intersection. <code>prec</code> can be specified to reuse some precomputations (e.g. for checking many parallel rays). Finds the closest to ray origin intersection (or any intersection for better performance if <code>!closestIntersect</code>). </p>
+<p>Finds ray and polyline intersection in double-precision. <code>rayStart</code> and <code>rayEnd</code> define the interval on the ray to detect an intersection. <code>prec</code> can be specified to reuse some precomputations (e.g. for checking many parallel rays). Finds the closest intersection to ray origin (line param=0) or any intersection for better performance if <code>!closestIntersect</code>. </p>
 
 </div>
 </div>
@@ -35660,7 +35660,7 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Finds ray and polyline intersection in float-precision. <code>rayStart</code> and <code>rayEnd</code> define the interval on the ray to detect an intersection. <code>prec</code> can be specified to reuse some precomputations (e.g. for checking many parallel rays). Finds the closest to ray origin intersection (or any intersection for better performance if <code>!closestIntersect</code>). </p>
+<p>Finds ray and polyline intersection in float-precision. <code>rayStart</code> and <code>rayEnd</code> define the interval on the ray to detect an intersection. <code>prec</code> can be specified to reuse some precomputations (e.g. for checking many parallel rays). Finds the closest intersection to ray origin (line param=0) or any intersection for better performance if <code>!closestIntersect</code>. </p>
 
 </div>
 </div>

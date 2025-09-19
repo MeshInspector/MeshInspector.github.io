@@ -7,8 +7,8 @@ var MRPolyline2Intersect_8h =
     [ "MR_Line2f", "MRPolyline2Intersect_8h.html#a42f4324f3958a2b1ca19cd1728c5db67", null ],
     [ "MR_Polyline2", "MRPolyline2Intersect_8h.html#ac19d267fe4a2399b21a578c74213dfd2", null ],
     [ "MR_PolylineIntersectionResult2", "MRPolyline2Intersect_8h.html#a3db0409fc80b9fae469a9fbca2407a83", null ],
-    [ "MR_std_function_MR_Processing_from_const_MR_EdgePoint_ref_double_double_ref", "MRPolyline2Intersect_8h.html#adc0081ea4ef4547fbbb87dbf0b3fb88b", null ],
-    [ "MR_std_function_MR_Processing_from_const_MR_EdgePoint_ref_float_float_ref", "MRPolyline2Intersect_8h.html#aed51ebcbd47bdf14170149a5d9618822", null ],
+    [ "MR_std_function_MR_Processing_from_const_MR_EdgePoint_ref_double_double_ref_double_ref", "MRPolyline2Intersect_8h.html#a86a322fd0d6145e9282cc5dbadc12ece", null ],
+    [ "MR_std_function_MR_Processing_from_const_MR_EdgePoint_ref_float_float_ref_float_ref", "MRPolyline2Intersect_8h.html#a9b3eb01056e3e3d7af16c8a419dc8bc5", null ],
     [ "MR_std_optional_MR_PolylineIntersectionResult2", "MRPolyline2Intersect_8h.html#ab703fb0e787f91fc7194e3fe95e9c09a", null ],
     [ "MR_Vector2f", "MRPolyline2Intersect_8h.html#a72ab0be0b71b29e9f310e7526a8cc57b", null ],
     [ "MR_isPointInsidePolyline", "MRPolyline2Intersect_8h.html#acf93cf3a1f5ba3084dba6820c954ff9a", null ],
@@ -29,6 +29,6 @@ var MRPolyline2Intersect_8h =
     [ "MR_PolylineIntersectionResult2_Set_edgePoint", "MRPolyline2Intersect_8h.html#acffed28fd0cfc2889aed03314c390d45", null ],
     [ "MR_rayPolylineIntersect_MR_Line2d", "MRPolyline2Intersect_8h.html#abd87907f1ae171a4b9530f31fde20875", null ],
     [ "MR_rayPolylineIntersect_MR_Line2f", "MRPolyline2Intersect_8h.html#a92312f60bca0bd85f6b94fa5fe372ba0", null ],
-    [ "MR_rayPolylineIntersectAll_MR_Line2d", "MRPolyline2Intersect_8h.html#afa20bb1952f80fdfbea807405f475515", null ],
-    [ "MR_rayPolylineIntersectAll_MR_Line2f", "MRPolyline2Intersect_8h.html#af705ff1149e850538787ba455063aae6", null ]
+    [ "MR_rayPolylineIntersectAll_MR_Line2d", "MRPolyline2Intersect_8h.html#ac251f61e4e0ac87a07541470d7c6b90b", null ],
+    [ "MR_rayPolylineIntersectAll_MR_Line2f", "MRPolyline2Intersect_8h.html#a4b4e396182ac0d68894af1c4e8e4c65e", null ]
 ];

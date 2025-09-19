@@ -290,7 +290,7 @@ var NAVTREEINDEX =
 "mrmeshpy_8pyi.html#a7ddbbd85fe960e9532bd3fdc63f2acca",
 "mrmeshpy_8pyi.html#aa3dd9fe6a253b90dd9e838b84dcab577",
 "mrmeshpy_8pyi.html#ac69f97acfa239fe5929326bede33a944",
-"mrmeshpy_8pyi.html#aeb8a732b0377be16799ae8625695a26a",
+"mrmeshpy_8pyi.html#aeb8436e701e85437540761e9686fb7b7",
 "namespacemrcudapy.html#a8a9ec4e4e7f0e927968c4198510a4d27",
 "namespacemrmeshpy.html#a24d96e8be5ad7730b1909996dbbfa0c8",
 "namespacemrmeshpy.html#a45ba46dfd211e56fa7e0e580e7bb5659",
