@@ -226,14 +226,14 @@ var NAVTREEINDEX =
 "structMR_1_1PointsLoad_1_1PointsLoader.html",
 "structMR_1_1PreDrawListener.html#a4e0adfc848772aeae37ad04a7d61d787",
 "structMR_1_1RenderDimensions_1_1LengthParams.html",
-"structMR_1_1SceneColors.html",
-"structMR_1_1SortIntersectionsData.html#ac190f44f37a1e2b9ece5d869fe02015d",
-"structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html#ad47933a9cf1030b769dce59bc9a3d1ab",
-"structMR_1_1TransformControls_1_1VisualParams.html#a2000340dcc4b3b42415a4a5113590373",
-"structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult.html",
-"structMR_1_1Vector2.html#a344bd19e0a6d0ddfd67e5739333a38cd",
-"structMR_1_1Viewport_1_1PickRenderObjectParams.html",
-"structvector__wrapper__base.html#a1e4fa20924d9c035f933daacb80443ae"
+"structMR_1_1SaveSettings.html#a972e4972bf3626cb56f22c55b69cccc0",
+"structMR_1_1SortIntersectionsData.html#a4ffc178d247321fb6150846084fd616a",
+"structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html",
+"structMR_1_1TransformControls_1_1VisualParams.html#a04d8b2be8f4de0ff07797799a68c1697",
+"structMR_1_1UI_1_1RadioButtonOrModifierState.html#a9d6a399bbfee336d360bbfc7339c022e",
+"structMR_1_1Vector2.html#a0704f4e80fa32a97a3c269ddbf09728d",
+"structMR_1_1Viewport_1_1Parameters.html#ad62b164cd614da4c2dcf2d2c45b82326",
+"structvector__wrapper.html#aef0e0a9cb97cb6725cc119fbfc9b87cd"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
