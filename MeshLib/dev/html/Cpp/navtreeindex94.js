@@ -1,5 +1,7 @@
 var NAVTREEINDEX94 =
 {
+"structMR_1_1UI_1_1RadioButtonOrModifierState.html#a6f0147734869738bb359e2b4a7a04b0c":[6,0,2,0,1,25,9,2],
+"structMR_1_1UI_1_1RadioButtonOrModifierState.html#a9d6a399bbfee336d360bbfc7339c022e":[6,0,1,0,1,42,11,1],
 "structMR_1_1UI_1_1RadioButtonOrModifierState.html#a9d6a399bbfee336d360bbfc7339c022e":[6,0,2,0,1,25,9,1],
 "structMR_1_1UI_1_1RadioButtonOrModifierState.html#aef2b0d98c760a75a666aedd5cf4143c5":[6,0,1,0,1,42,11,0],
 "structMR_1_1UI_1_1RadioButtonOrModifierState.html#aef2b0d98c760a75a666aedd5cf4143c5":[6,0,2,0,1,25,9,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX94 =
 "structMR_1_1VarEdgeTri_1_1FlaggedTri.html#a29688551fde640070c748b997eddb5ab":[6,0,0,1,18,0,2],
 "structMR_1_1VarEdgeTri_1_1FlaggedTri.html#a408a18646248d1d57deb6e7546ec9716":[6,0,0,1,18,0,0],
 "structMR_1_1VarEdgeTri_1_1FlaggedTri.html#aa5ab2cbeb1b2f73ba9d3a268be384ace":[6,0,0,1,18,0,1],
-"structMR_1_1Vector2.html":[6,0,0,0,12,0],
-"structMR_1_1Vector2.html#a04bd8b12649cc77863672d0a6d31e51c":[6,0,0,0,12,0,36],
-"structMR_1_1Vector2.html#a0537b0cb50cc7b0605e0fc95ffaf6b0b":[6,0,0,0,12,0,4]
+"structMR_1_1Vector2.html":[6,0,0,0,12,0]
 };

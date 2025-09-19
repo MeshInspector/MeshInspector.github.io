@@ -2,7 +2,6 @@ var classMR_1_1Pdf =
 [
     [ "Cell", "structMR_1_1Pdf_1_1Cell.html", "structMR_1_1Pdf_1_1Cell" ],
     [ "CellCustomParams", "structMR_1_1Pdf_1_1CellCustomParams.html", "structMR_1_1Pdf_1_1CellCustomParams" ],
-    [ "EmptyCell", "structMR_1_1Pdf_1_1EmptyCell.html", null ],
     [ "ImageParams", "structMR_1_1Pdf_1_1ImageParams.html", "structMR_1_1Pdf_1_1ImageParams" ],
     [ "PaletteRowStats", "structMR_1_1Pdf_1_1PaletteRowStats.html", "structMR_1_1Pdf_1_1PaletteRowStats" ],
     [ "TextCellParams", "structMR_1_1Pdf_1_1TextCellParams.html", "structMR_1_1Pdf_1_1TextCellParams" ],

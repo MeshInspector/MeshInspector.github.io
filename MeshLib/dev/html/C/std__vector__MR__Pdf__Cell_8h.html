@@ -195,6 +195,8 @@ Functions</h2></td></tr>
 <tr class="separator:ae65ddfdd2c8b85eb5f779b5cc45bb2fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad0f4f512313511848d803ada7f03206d" id="r_ad0f4f512313511848d803ada7f03206d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad0f4f512313511848d803ada7f03206d">MR_std_vector_MR_Pdf_Cell_IsEmpty</a> (const <a class="el" href="MRPdf_8h.html#aef8d990bfea0998dac0c1348fef4b81e">MR_std_vector_MR_Pdf_Cell</a> *_this)</td></tr>
 <tr class="separator:ad0f4f512313511848d803ada7f03206d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace8d8a545c71fcc86e0d471fa85d6ac9" id="r_ace8d8a545c71fcc86e0d471fa85d6ac9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace8d8a545c71fcc86e0d471fa85d6ac9">MR_std_vector_MR_Pdf_Cell_Resize</a> (<a class="el" href="MRPdf_8h.html#aef8d990bfea0998dac0c1348fef4b81e">MR_std_vector_MR_Pdf_Cell</a> *_this, size_t new_size)</td></tr>
+<tr class="separator:ace8d8a545c71fcc86e0d471fa85d6ac9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe72fc94f6bd3c08cb3a6018a34c015d" id="r_afe72fc94f6bd3c08cb3a6018a34c015d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe72fc94f6bd3c08cb3a6018a34c015d">MR_std_vector_MR_Pdf_Cell_ResizeWithDefaultValue</a> (<a class="el" href="MRPdf_8h.html#aef8d990bfea0998dac0c1348fef4b81e">MR_std_vector_MR_Pdf_Cell</a> *_this, size_t new_size, const <a class="el" href="MRPdf_8h.html#ac32c6eea51284f144d284dc88e942cf8">MR_Pdf_Cell</a> *value)</td></tr>
 <tr class="separator:afe72fc94f6bd3c08cb3a6018a34c015d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1385578f28b728a41a1d1127234e3a2e" id="r_a1385578f28b728a41a1d1127234e3a2e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1385578f28b728a41a1d1127234e3a2e">MR_std_vector_MR_Pdf_Cell_Clear</a> (<a class="el" href="MRPdf_8h.html#aef8d990bfea0998dac0c1348fef4b81e">MR_std_vector_MR_Pdf_Cell</a> *_this)</td></tr>
@@ -1658,6 +1660,28 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Reserves memory for a certain number of elements. Never shrinks the memory. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="ace8d8a545c71fcc86e0d471fa85d6ac9" name="ace8d8a545c71fcc86e0d471fa85d6ac9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace8d8a545c71fcc86e0d471fa85d6ac9">&#9670;&#160;</a></span>MR_std_vector_MR_Pdf_Cell_Resize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_std_vector_MR_Pdf_Cell_Resize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRPdf_8h.html#aef8d990bfea0998dac0c1348fef4b81e">MR_std_vector_MR_Pdf_Cell</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>new_size</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Resizes the container. The new elements if any are zeroed. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>

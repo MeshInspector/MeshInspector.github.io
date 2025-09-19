@@ -1,5 +1,7 @@
 var NAVTREEINDEX90 =
 {
+"structMR_1_1SaveSettings.html#a88539fbafc85e15a6dbc49b2b3144a15":[6,0,1,0,1,644,2],
+"structMR_1_1SaveSettings.html#a88539fbafc85e15a6dbc49b2b3144a15":[6,0,2,0,1,626,2],
 "structMR_1_1SaveSettings.html#a972e4972bf3626cb56f22c55b69cccc0":[6,0,1,0,1,644,7],
 "structMR_1_1SaveSettings.html#a972e4972bf3626cb56f22c55b69cccc0":[6,0,2,0,1,626,7],
 "structMR_1_1SaveSettings.html#af59abe4d1987a4ccd1c117cfe7f3c160":[6,0,1,0,1,644,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX90 =
 "structMR_1_1SortIntersectionsData.html#a24cce95182673d88059c5d9a38905fc0":[6,0,1,0,1,691,5],
 "structMR_1_1SortIntersectionsData.html#a24cce95182673d88059c5d9a38905fc0":[6,0,2,0,1,673,5],
 "structMR_1_1SortIntersectionsData.html#a3e022423fc25738632598f90c2caf5b1":[6,0,1,0,1,691,0],
-"structMR_1_1SortIntersectionsData.html#a3e022423fc25738632598f90c2caf5b1":[6,0,2,0,1,673,0],
-"structMR_1_1SortIntersectionsData.html#a4799d62c8691f94b44fc3c7f3a77bbe4":[6,0,1,0,1,691,1],
-"structMR_1_1SortIntersectionsData.html#a4799d62c8691f94b44fc3c7f3a77bbe4":[6,0,2,0,1,673,1]
+"structMR_1_1SortIntersectionsData.html#a3e022423fc25738632598f90c2caf5b1":[6,0,2,0,1,673,0]
 };

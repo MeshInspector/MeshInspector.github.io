@@ -1,5 +1,7 @@
 var NAVTREEINDEX84 =
 {
+"classmrmeshpy_1_1TextureBitSet.html#af0b6ac70b88b380f3f51a8a7f158da8a":[6,1,0,0,2,1021,11],
+"classmrmeshpy_1_1TextureBitSet.html#af0b6ac70b88b380f3f51a8a7f158da8a":[6,1,1,0,1,1021,11],
 "classmrmeshpy_1_1TextureBitSet.html#af2381fbf286b2b3a6f77dede3bf802f4":[6,1,0,0,2,1021,41],
 "classmrmeshpy_1_1TextureBitSet.html#af2381fbf286b2b3a6f77dede3bf802f4":[6,1,1,0,1,1021,41],
 "classmrmeshpy_1_1TextureBitSet.html#af44b693e531b0c5f121697aa0430fe81":[6,1,0,0,2,1021,31],
@@ -247,7 +249,5 @@ var NAVTREEINDEX84 =
 "classmrmeshpy_1_1ToolPathResult.html#a212f90490317f851d514e1af1585e4d9":[6,1,0,0,2,1028,2],
 "classmrmeshpy_1_1ToolPathResult.html#a212f90490317f851d514e1af1585e4d9":[6,1,1,0,1,1028,2],
 "classmrmeshpy_1_1ToolPathResult.html#a498c72d3107699ba1d0554fed7941132":[6,1,0,0,2,1028,8],
-"classmrmeshpy_1_1ToolPathResult.html#a498c72d3107699ba1d0554fed7941132":[6,1,1,0,1,1028,8],
-"classmrmeshpy_1_1ToolPathResult.html#a4da74998438962e63e4860c6994c976e":[6,1,0,0,2,1028,6],
-"classmrmeshpy_1_1ToolPathResult.html#a4da74998438962e63e4860c6994c976e":[6,1,1,0,1,1028,6]
+"classmrmeshpy_1_1ToolPathResult.html#a498c72d3107699ba1d0554fed7941132":[6,1,1,0,1,1028,8]
 };

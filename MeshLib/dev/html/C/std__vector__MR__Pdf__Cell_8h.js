@@ -66,6 +66,7 @@ var std__vector__MR__Pdf__Cell_8h =
     [ "MR_std_vector_MR_Pdf_Cell_PopBack", "std__vector__MR__Pdf__Cell_8h.html#a1cc15acb21a76da85d329abe5bb757ec", null ],
     [ "MR_std_vector_MR_Pdf_Cell_PushBack", "std__vector__MR__Pdf__Cell_8h.html#ae6bba0e92f1e3f08f9190fae7bf47ae0", null ],
     [ "MR_std_vector_MR_Pdf_Cell_Reserve", "std__vector__MR__Pdf__Cell_8h.html#ac66f5d44fe96e258a0d6babed74037c4", null ],
+    [ "MR_std_vector_MR_Pdf_Cell_Resize", "std__vector__MR__Pdf__Cell_8h.html#ace8d8a545c71fcc86e0d471fa85d6ac9", null ],
     [ "MR_std_vector_MR_Pdf_Cell_ResizeWithDefaultValue", "std__vector__MR__Pdf__Cell_8h.html#afe72fc94f6bd3c08cb3a6018a34c015d", null ],
     [ "MR_std_vector_MR_Pdf_Cell_ShrinkToFit", "std__vector__MR__Pdf__Cell_8h.html#a01694c6641690410e521631efd7f3d87", null ],
     [ "MR_std_vector_MR_Pdf_Cell_Size", "std__vector__MR__Pdf__Cell_8h.html#ae65ddfdd2c8b85eb5f779b5cc45bb2fe", null ],

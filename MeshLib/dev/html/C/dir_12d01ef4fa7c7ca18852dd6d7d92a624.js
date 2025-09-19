@@ -270,7 +270,7 @@ var dir_12d01ef4fa7c7ca18852dd6d7d92a624 =
     [ "std_string_view.h", "std__string__view_8h.html", "std__string__view_8h" ],
     [ "std_unordered_set_std_string.h", "std__unordered__set__std__string_8h.html", "std__unordered__set__std__string_8h" ],
     [ "std_variant_float_MR_Vector3f.h", "std__variant__float__MR__Vector3f_8h.html", "std__variant__float__MR__Vector3f_8h" ],
-    [ "std_variant_int32_t_float_bool_std_string_MR_Pdf_EmptyCell.h", "std__variant__int32__t__float__bool__std__string__MR__Pdf__EmptyCell_8h.html", "std__variant__int32__t__float__bool__std__string__MR__Pdf__EmptyCell_8h" ],
+    [ "std_variant_int32_t_float_bool_std_string_MR_Pdf_Cell_Empty.h", "std__variant__int32__t__float__bool__std__string__MR__Pdf__Cell__Empty_8h.html", "std__variant__int32__t__float__bool__std__string__MR__Pdf__Cell__Empty_8h" ],
     [ "std_variant_MR_EdgeMap_phmap_flat_hash_map_MR_EdgeId_MR_EdgeId.h", "std__variant__MR__EdgeMap__phmap__flat__hash__map__MR__EdgeId__MR__EdgeId_8h.html", "std__variant__MR__EdgeMap__phmap__flat__hash__map__MR__EdgeId__MR__EdgeId_8h" ],
     [ "std_variant_MR_FaceId_MR_EdgeId_MR_VertId.h", "std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h.html", "std__variant__MR__FaceId__MR__EdgeId__MR__VertId_8h" ],
     [ "std_variant_MR_FaceMap_phmap_flat_hash_map_MR_FaceId_MR_FaceId.h", "std__variant__MR__FaceMap__phmap__flat__hash__map__MR__FaceId__MR__FaceId_8h.html", "std__variant__MR__FaceMap__phmap__flat__hash__map__MR__FaceId__MR__FaceId_8h" ],

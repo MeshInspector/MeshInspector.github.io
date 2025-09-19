@@ -1,5 +1,7 @@
 var NAVTREEINDEX92 =
 {
+"structMR_1_1TbbTaskArenaAndGroup.html#a4c412febc6da82629fc96409954f1824":[6,0,1,0,1,722,1],
+"structMR_1_1TbbTaskArenaAndGroup.html#a4c412febc6da82629fc96409954f1824":[6,0,2,0,1,704,1],
 "structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html":[6,0,1,0,1,724,0],
 "structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html":[6,0,2,0,1,706,0],
 "structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html#aa8849bb4bffd6166d4ee7359da6b2c31":[6,0,1,0,1,724,0,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX92 =
 "structMR_1_1TouchpadZoomGestureUpdateListener.html#ab217e54fd04b93bb68db492b58504e33":[6,0,2,0,1,731,2],
 "structMR_1_1TouchpadZoomGestureUpdateListener.html#ae08054a4d6183bf4e0352e5ecdfcb450":[6,0,1,0,1,749,3],
 "structMR_1_1TouchpadZoomGestureUpdateListener.html#ae08054a4d6183bf4e0352e5ecdfcb450":[6,0,2,0,1,731,3],
-"structMR_1_1TransformControls_1_1VisualParams.html":[6,0,1,0,1,751,0],
-"structMR_1_1TransformControls_1_1VisualParams.html":[6,0,2,0,1,733,0],
-"structMR_1_1TransformControls_1_1VisualParams.html#a04d8b2be8f4de0ff07797799a68c1697":[6,0,1,0,1,751,0,12]
+"structMR_1_1TransformControls_1_1VisualParams.html":[6,0,1,0,1,751,0]
 };

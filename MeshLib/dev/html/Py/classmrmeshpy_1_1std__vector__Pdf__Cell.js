@@ -21,6 +21,7 @@ var classmrmeshpy_1_1std__vector__Pdf__Cell =
     [ "insert", "classmrmeshpy_1_1std__vector__Pdf__Cell.html#ade4c8b26dc635993bc38933589a317ee", null ],
     [ "pop", "classmrmeshpy_1_1std__vector__Pdf__Cell.html#a330363b8e5ab6aa5785ab90bbff907bf", null ],
     [ "pop", "classmrmeshpy_1_1std__vector__Pdf__Cell.html#a518bf4083bd25fdaeb33db5c80b8647a", null ],
+    [ "resize", "classmrmeshpy_1_1std__vector__Pdf__Cell.html#a85793fdff0b86aecf632a03b2b80d7eb", null ],
     [ "resize", "classmrmeshpy_1_1std__vector__Pdf__Cell.html#ae3d2d4fcb74d7f1d86fa43c9244cd725", null ],
     [ "size", "classmrmeshpy_1_1std__vector__Pdf__Cell.html#a69ade296ba2c775f7298fb16501af93f", null ]
 ];

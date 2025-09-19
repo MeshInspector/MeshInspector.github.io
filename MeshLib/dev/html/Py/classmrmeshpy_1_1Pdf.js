@@ -3,7 +3,6 @@ var classmrmeshpy_1_1Pdf =
     [ "AlignmentHorizontal", "classmrmeshpy_1_1Pdf_1_1AlignmentHorizontal.html", "classmrmeshpy_1_1Pdf_1_1AlignmentHorizontal" ],
     [ "Cell", "classmrmeshpy_1_1Pdf_1_1Cell.html", "classmrmeshpy_1_1Pdf_1_1Cell" ],
     [ "CellCustomParams", "classmrmeshpy_1_1Pdf_1_1CellCustomParams.html", "classmrmeshpy_1_1Pdf_1_1CellCustomParams" ],
-    [ "EmptyCell", "classmrmeshpy_1_1Pdf_1_1EmptyCell.html", "classmrmeshpy_1_1Pdf_1_1EmptyCell" ],
     [ "ImageParams", "classmrmeshpy_1_1Pdf_1_1ImageParams.html", "classmrmeshpy_1_1Pdf_1_1ImageParams" ],
     [ "PaletteRowStats", "classmrmeshpy_1_1Pdf_1_1PaletteRowStats.html", "classmrmeshpy_1_1Pdf_1_1PaletteRowStats" ],
     [ "TextCellParams", "classmrmeshpy_1_1Pdf_1_1TextCellParams.html", "classmrmeshpy_1_1Pdf_1_1TextCellParams" ],

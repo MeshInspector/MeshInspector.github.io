@@ -222,18 +222,18 @@ var NAVTREEINDEX =
 "structMR_1_1MinArg.html#a90ff34f715406ed3ab55e23094cb6141",
 "structMR_1_1NoVisualRepresentationCheck.html",
 "structMR_1_1OriginAndDimensions.html",
-"structMR_1_1PickPointManager_1_1Params.html",
-"structMR_1_1PointsLoad_1_1PointsLoader.html",
-"structMR_1_1PreDrawListener.html#a4e0adfc848772aeae37ad04a7d61d787",
-"structMR_1_1RenderDimensions_1_1LengthParams.html",
-"structMR_1_1SaveSettings.html#a972e4972bf3626cb56f22c55b69cccc0",
-"structMR_1_1SortIntersectionsData.html#a4ffc178d247321fb6150846084fd616a",
-"structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult.html",
-"structMR_1_1TransformControls_1_1VisualParams.html#a04d8b2be8f4de0ff07797799a68c1697",
-"structMR_1_1UI_1_1RadioButtonOrModifierState.html#a9d6a399bbfee336d360bbfc7339c022e",
-"structMR_1_1Vector2.html#a0704f4e80fa32a97a3c269ddbf09728d",
-"structMR_1_1Viewport_1_1Parameters.html#ad62b164cd614da4c2dcf2d2c45b82326",
-"structvector__wrapper.html#aef0e0a9cb97cb6725cc119fbfc9b87cd"
+"structMR_1_1PickPointManager_1_1ObjectState.html#af4c22ebf57c9cc7c0fe199923143bb51",
+"structMR_1_1PointsLoad_1_1NamedCloud.html#af2d5b81d7968e83a07655bf1a5cb95b8",
+"structMR_1_1PreDrawListener.html#a315d3fdaaa28ec7d64ac68a04c1a8429",
+"structMR_1_1RenderDimensions_1_1CommonParams.html#aa609dc0e9f68c9ca781df34a9acbe475",
+"structMR_1_1SaveSettings.html#a88539fbafc85e15a6dbc49b2b3144a15",
+"structMR_1_1SortIntersectionsData.html#a4799d62c8691f94b44fc3c7f3a77bbe4",
+"structMR_1_1TbbTaskArenaAndGroup.html#a4c412febc6da82629fc96409954f1824",
+"structMR_1_1TransformControls_1_1VisualParams.html",
+"structMR_1_1UI_1_1RadioButtonOrModifierState.html#a6f0147734869738bb359e2b4a7a04b0c",
+"structMR_1_1Vector2.html#a04bd8b12649cc77863672d0a6d31e51c",
+"structMR_1_1Viewport_1_1Parameters.html#ace4bc4bedd8fc05cfc34236d8f4c7612",
+"structvector__wrapper.html#a53fb301d5d0304c9b925026a7de3d286"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
