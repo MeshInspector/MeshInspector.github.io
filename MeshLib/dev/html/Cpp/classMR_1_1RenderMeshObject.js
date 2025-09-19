@@ -43,6 +43,7 @@ var classMR_1_1RenderMeshObject =
     [ "edgeSize_", "classMR_1_1RenderMeshObject.html#a888fbd0e8bad27a4ff46ec6c1e1680e5", null ],
     [ "edgesTexture_", "classMR_1_1RenderMeshObject.html#adec18a7be82779db2756036737e2119e", null ],
     [ "emptyLinesColorTexture_", "classMR_1_1RenderMeshObject.html#a363bdae2a388d10c4408213932092acc", null ],
+    [ "emptyScnLengthColorTexture_", "classMR_1_1RenderMeshObject.html#a138e52649aef511c1435cf3ab8d36518", null ],
     [ "emptyVertsColorTexture_", "classMR_1_1RenderMeshObject.html#a1823d62e4541feb96b41da5e82b73db4", null ],
     [ "faceColorsTex_", "classMR_1_1RenderMeshObject.html#af99f6b1103fb8791d9d8a2fbd0275213", null ],
     [ "faceIndicesSize_", "classMR_1_1RenderMeshObject.html#a7c197e5a47c0adda4d0e19fe67bc8ad6", null ],

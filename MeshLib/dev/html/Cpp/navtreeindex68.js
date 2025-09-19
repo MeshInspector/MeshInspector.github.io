@@ -1,5 +1,9 @@
 var NAVTREEINDEX68 =
 {
+"namespacemembers_y.html":[6,0,1,1,0,23],
+"namespacemembers_z.html":[6,0,1,1,0,24],
+"namespaces.html":[6,0,1,0],
+"namespacespdlog.html":[6,0,1,0,2],
 "namespacespdlog.html#ace143432a1dd3e3ddde8949f014f90da":[6,0,1,0,2,1],
 "namespacespdlog_1_1sinks.html":[6,0,1,0,2,0],
 "pages.html":[],
@@ -245,9 +249,5 @@ var NAVTREEINDEX68 =
 "structMRMeshMeshDistanceResult.html#a6c5ba6fb0e5f8105e23cae1c77933876":[6,0,2,0,36,0],
 "structMRMeshMeshDistanceResult.html#a79fe294fc035918e458c861100dfdaa4":[6,0,2,0,36,2],
 "structMRMeshNormals.html":[6,0,2,0,37],
-"structMRMeshNormals.html#a58543953950bc092626df8324b68b436":[6,0,2,0,37,1],
-"structMRMeshNormals.html#a7339fd6fc019ca383d4fdf329519ccc4":[6,0,2,0,37,0],
-"structMRMeshPart.html":[6,0,2,0,38],
-"structMRMeshPart.html#a58a6c4fd3c48e9285aae697c3fe43cf0":[6,0,2,0,38,0],
-"structMRMeshPart.html#a5ce5edc6f84e9905919f9f558dc65922":[6,0,2,0,38,1]
+"structMRMeshNormals.html#a58543953950bc092626df8324b68b436":[6,0,2,0,37,1]
 };

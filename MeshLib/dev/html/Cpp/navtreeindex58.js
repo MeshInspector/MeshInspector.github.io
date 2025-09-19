@@ -1,5 +1,9 @@
 var NAVTREEINDEX58 =
 {
+"group__PolylineSubdivideGroup.html#ga0bbd08d4c425d1f7af74133abd56be58":[6,0,0,15,1],
+"group__PolylineSubdivideGroup.html#ga7f91969af2bfe0c0487b2811d32925c9":[6,0,0,15,2],
+"group__RayBoxIntersectionGroup.html":[6,0,0,0,9],
+"group__RayBoxIntersectionGroup.html#ga710fb3f98b472e45efdd6c3671f90581":[6,0,0,0,9,1],
 "group__RayBoxIntersectionGroup.html#ga774d7b2ef218b7634faca3e3300f13b9":[6,0,0,0,9,2],
 "group__SerializerGroup.html":[6,0,0,2,15],
 "group__SerializerGroup.html#ga008566c571e968e28ac38c4317a9fbbe":[6,0,0,2,15,17],
@@ -245,9 +249,5 @@ var NAVTREEINDEX58 =
 "group__VoxelGroup.html#gaa1c0e0f0f1418ecbd002c094e0d42e13":[6,0,0,17,27],
 "group__VoxelGroup.html#gaa969e84361224c40ebdaea70a2942ea6":[6,0,0,17,29],
 "group__VoxelGroup.html#gaaaebc49a422252db86351ce55dc91bef":[6,0,0,17,19],
-"group__VoxelGroup.html#gacc3f28e9566b6b9fb9fe666e09034075":[6,0,0,17,12],
-"group__VoxelGroup.html#gad64c0feac5a4c85334c9de7dda628dfb":[6,0,0,17,26],
-"group__VoxelGroup.html#gad83baf7155c4c4be0ffa42c4de418e6b":[6,0,0,17,7],
-"group__VoxelGroup.html#gada259ed5ae07b6f5138fb6e8212f7531":[6,0,0,17,30],
-"group__VoxelGroup.html#gae847dbed512fd911819dbc766c0dc9bf":[6,0,0,17,15]
+"group__VoxelGroup.html#gacc3f28e9566b6b9fb9fe666e09034075":[6,0,0,17,12]
 };
