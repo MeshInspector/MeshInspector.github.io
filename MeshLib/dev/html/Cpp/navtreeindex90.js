@@ -1,5 +1,6 @@
 var NAVTREEINDEX90 =
 {
+"structMR_1_1SaveSettings.html#a71c2ed63cb6a101dbd9b47f8ca9898fd":[6,0,2,0,1,626,6],
 "structMR_1_1SaveSettings.html#a88539fbafc85e15a6dbc49b2b3144a15":[6,0,1,0,1,644,2],
 "structMR_1_1SaveSettings.html#a88539fbafc85e15a6dbc49b2b3144a15":[6,0,2,0,1,626,2],
 "structMR_1_1SaveSettings.html#a972e4972bf3626cb56f22c55b69cccc0":[6,0,1,0,1,644,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX90 =
 "structMR_1_1SortIntersectionsData.html":[6,0,2,0,1,673],
 "structMR_1_1SortIntersectionsData.html#a24cce95182673d88059c5d9a38905fc0":[6,0,1,0,1,691,5],
 "structMR_1_1SortIntersectionsData.html#a24cce95182673d88059c5d9a38905fc0":[6,0,2,0,1,673,5],
-"structMR_1_1SortIntersectionsData.html#a3e022423fc25738632598f90c2caf5b1":[6,0,1,0,1,691,0],
-"structMR_1_1SortIntersectionsData.html#a3e022423fc25738632598f90c2caf5b1":[6,0,2,0,1,673,0]
+"structMR_1_1SortIntersectionsData.html#a3e022423fc25738632598f90c2caf5b1":[6,0,1,0,1,691,0]
 };

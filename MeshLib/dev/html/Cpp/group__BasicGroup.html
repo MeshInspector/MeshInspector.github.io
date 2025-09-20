@@ -366,6 +366,8 @@ Functions</h2></td></tr>
 <tr class="memitem:ga98812dc656fac3fb9c565e7fc0c7922d" id="r_ga98812dc656fac3fb9c565e7fc0c7922d"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga98812dc656fac3fb9c565e7fc0c7922d">MR::utf8string</a> (const std::filesystem::path &amp;path)</td></tr>
 <tr class="memdesc:ga98812dc656fac3fb9c565e7fc0c7922d"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns filename as UTF8-encoded string  <br /></td></tr>
 <tr class="separator:ga98812dc656fac3fb9c565e7fc0c7922d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9d44c29a02f4672e97b9cf002eb4f7ca" id="r_ga9d44c29a02f4672e97b9cf002eb4f7ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9d44c29a02f4672e97b9cf002eb4f7ca">MR::utf8substr</a> (const char *s, size_t pos, size_t count)</td></tr>
+<tr class="separator:ga9d44c29a02f4672e97b9cf002eb4f7ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga52ef6e1208fe1f50e79f683d8f04fd15" id="r_ga52ef6e1208fe1f50e79f683d8f04fd15"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga52ef6e1208fe1f50e79f683d8f04fd15">MR::printTimingTreeAtEnd</a> (bool on, double minTimeSec=0.1)</td></tr>
 <tr class="separator:ga52ef6e1208fe1f50e79f683d8f04fd15"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga92715abafbf0ac9f1aef87f2cff3088a" id="r_ga92715abafbf0ac9f1aef87f2cff3088a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga92715abafbf0ac9f1aef87f2cff3088a">MR::printCurrentTimerBranch</a> ()</td></tr>
@@ -2233,6 +2235,41 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 </div><div class="memdoc">
 
 <p>returns filename as UTF8-encoded string </p>
+
+</div>
+</div>
+<a id="ga9d44c29a02f4672e97b9cf002eb4f7ca" name="ga9d44c29a02f4672e97b9cf002eb4f7ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9d44c29a02f4672e97b9cf002eb4f7ca">&#9670;&#160;</a></span>utf8substr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::string MR::utf8substr </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>s</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>pos</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>count</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>given on input a valid utf8-encoded string, returns its substring starting at <code>pos</code> unicode symbol, and containing at most <code>count</code> unicode symbols (but res.size() can be more than <code>count</code> since a unicode symbol can be represented by more than 1 byte) </p>
 
 </div>
 </div>

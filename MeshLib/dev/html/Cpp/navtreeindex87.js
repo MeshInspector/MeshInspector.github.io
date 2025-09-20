@@ -1,5 +1,6 @@
 var NAVTREEINDEX87 =
 {
+"structMR_1_1PointsLoad_1_1NamedCloud.html#af2d5b81d7968e83a07655bf1a5cb95b8":[6,0,1,0,1,29,1,1],
 "structMR_1_1PointsLoad_1_1NamedCloud.html#af2d5b81d7968e83a07655bf1a5cb95b8":[6,0,2,0,1,17,1,1],
 "structMR_1_1PointsLoad_1_1PointsLoader.html":[6,0,1,0,1,29,2],
 "structMR_1_1PointsLoad_1_1PointsLoader.html":[6,0,2,0,1,17,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX87 =
 "structMR_1_1PostResizeListener.html#a9c2552a72af5e8d7a454f240a42de130":[6,0,1,0,1,557,3],
 "structMR_1_1PostResizeListener.html#a9c2552a72af5e8d7a454f240a42de130":[6,0,2,0,1,539,3],
 "structMR_1_1PreDrawListener.html":[6,0,1,0,1,562],
-"structMR_1_1PreDrawListener.html":[6,0,2,0,1,544],
-"structMR_1_1PreDrawListener.html#a315d3fdaaa28ec7d64ac68a04c1a8429":[6,0,1,0,1,562,0]
+"structMR_1_1PreDrawListener.html":[6,0,2,0,1,544]
 };

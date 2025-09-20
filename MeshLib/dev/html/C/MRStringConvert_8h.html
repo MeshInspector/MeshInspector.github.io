@@ -173,6 +173,8 @@ Functions</h2></td></tr>
 <tr class="separator:a99bf727762fbf7aa8e30a16c8b45a558"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a364d0a51cad8d9fcbd1b83734b5f52b5" id="r_a364d0a51cad8d9fcbd1b83734b5f52b5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a364d0a51cad8d9fcbd1b83734b5f52b5">MR_utf8string</a> (const char *path, const char *path_end)</td></tr>
 <tr class="separator:a364d0a51cad8d9fcbd1b83734b5f52b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a502366fa7a09ea97bf3887611a2431fa" id="r_a502366fa7a09ea97bf3887611a2431fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a502366fa7a09ea97bf3887611a2431fa">MR_utf8substr</a> (const char *s, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> pos, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> count)</td></tr>
+<tr class="separator:a502366fa7a09ea97bf3887611a2431fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8c2bf57225428d63eefbf15ce09b020" id="r_ad8c2bf57225428d63eefbf15ce09b020"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8c2bf57225428d63eefbf15ce09b020">MR_bytesString</a> (<a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> <a class="elRef" href="../Cpp/group__VoxelGroup.html#ga1a728fc2d1e7dd47e0f137af620f6985">size</a>)</td></tr>
 <tr class="separator:ad8c2bf57225428d63eefbf15ce09b020"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae4237f74e0dd8658a7eb52c43a1f0d0d" id="r_ae4237f74e0dd8658a7eb52c43a1f0d0d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4237f74e0dd8658a7eb52c43a1f0d0d">MR_hasProhibitedChars</a> (const <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *line)</td></tr>
@@ -421,6 +423,33 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Generated from function <code><a class="elRef" href="../Cpp/group__BasicGroup.html#ga98812dc656fac3fb9c565e7fc0c7922d">MR::utf8string</a></code>. Parameter <code>path</code> is a UTF-8 encoded filesystem path. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__string_8h.html#a9ffa0a79c0c1ac50a81c8dfdf2fd5d91" title="Destroys a heap-allocated instance of MR_std_string. Does nothing if the pointer is null.">MR_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a502366fa7a09ea97bf3887611a2431fa" name="a502366fa7a09ea97bf3887611a2431fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a502366fa7a09ea97bf3887611a2431fa">&#9670;&#160;</a></span>MR_utf8substr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_utf8substr </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>s</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></td>          <td class="paramname"><span class="paramname"><em>pos</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></td>          <td class="paramname"><span class="paramname"><em>count</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>given on input a valid utf8-encoded string, returns its substring starting at <code>pos</code> unicode symbol, and containing at most <code>count</code> unicode symbols (but res.size() can be more than <code>count</code> since a unicode symbol can be represented by more than 1 byte) Generated from function <code><a class="elRef" href="../Cpp/group__BasicGroup.html#ga9d44c29a02f4672e97b9cf002eb4f7ca">MR::utf8substr</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__string_8h.html#a9ffa0a79c0c1ac50a81c8dfdf2fd5d91" title="Destroys a heap-allocated instance of MR_std_string. Does nothing if the pointer is null.">MR_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>

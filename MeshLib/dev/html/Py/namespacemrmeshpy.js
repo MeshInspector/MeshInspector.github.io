@@ -2337,6 +2337,7 @@ var namespacemrmeshpy =
     [ "updateIndicatorFast", "namespacemrmeshpy.html#a5ffbe63dd32beecf891562cd0c73271a", null ],
     [ "updatePointPairs", "namespacemrmeshpy.html#ab61a8315fafc8a7ba82845dbf15fc182", null ],
     [ "utf8string", "namespacemrmeshpy.html#a44c5a46c8d632eff18d069175e5bde49", null ],
+    [ "utf8substr", "namespacemrmeshpy.html#aefd62381b61aa9a233a353977723f816", null ],
     [ "utf8ToSystem", "namespacemrmeshpy.html#aeedbc6066950b44c5cf197042db51ffe", null ],
     [ "vdbVolumeToSimpleVolume", "namespacemrmeshpy.html#a0ba6ae1d2173a8253d9e3b82288b566d", null ],
     [ "vdbVolumeToSimpleVolumeNorm", "namespacemrmeshpy.html#a5bde546eae6d904ff97860194a9baacc", null ],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX68 =
 {
+"namespacemembers_x.html":[6,0,1,1,0,22],
 "namespacemembers_y.html":[6,0,1,1,0,23],
 "namespacemembers_z.html":[6,0,1,1,0,24],
 "namespaces.html":[6,0,1,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX68 =
 "structMRMeshMeshDistanceResult.html#a4bbf3159d9b22de48cc7e68391820358":[6,0,2,0,36,1],
 "structMRMeshMeshDistanceResult.html#a6c5ba6fb0e5f8105e23cae1c77933876":[6,0,2,0,36,0],
 "structMRMeshMeshDistanceResult.html#a79fe294fc035918e458c861100dfdaa4":[6,0,2,0,36,2],
-"structMRMeshNormals.html":[6,0,2,0,37],
-"structMRMeshNormals.html#a58543953950bc092626df8324b68b436":[6,0,2,0,37,1]
+"structMRMeshNormals.html":[6,0,2,0,37]
 };

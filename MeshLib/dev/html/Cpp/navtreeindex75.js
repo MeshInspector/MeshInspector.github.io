@@ -1,5 +1,6 @@
 var NAVTREEINDEX75 =
 {
+"structMR_1_1Features_1_1MeasureResult_1_1Distance.html#a63df7d9b2bc70ecaf640167b54487acc":[6,0,2,0,1,2,2,2,3],
 "structMR_1_1Features_1_1MeasureResult_1_1Distance.html#a8670c18dcc3043de2c9724f9e7412b45":[6,0,1,0,1,6,2,2,0],
 "structMR_1_1Features_1_1MeasureResult_1_1Distance.html#a8670c18dcc3043de2c9724f9e7412b45":[6,0,2,0,1,2,2,2,0],
 "structMR_1_1Features_1_1MeasureResult_1_1Distance.html#aa226d42d5a35c9f64e1e15313df72d2c":[6,0,1,0,1,6,2,2,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX75 =
 "structMR_1_1FindInnerShellSettings.html#a376bbe83d190953bcff30be0a55cac6c":[6,0,1,0,1,250,1],
 "structMR_1_1FindInnerShellSettings.html#a376bbe83d190953bcff30be0a55cac6c":[6,0,2,0,1,232,1],
 "structMR_1_1FindInnerShellSettings.html#a39404f52d441394b9b7ca203201d7899":[6,0,1,0,1,250,2],
-"structMR_1_1FindInnerShellSettings.html#a39404f52d441394b9b7ca203201d7899":[6,0,2,0,1,232,2],
-"structMR_1_1FindInnerShellSettings.html#a5e16efa54e3c7e27d31e800475109fcb":[6,0,1,0,1,250,4]
+"structMR_1_1FindInnerShellSettings.html#a39404f52d441394b9b7ca203201d7899":[6,0,2,0,1,232,2]
 };

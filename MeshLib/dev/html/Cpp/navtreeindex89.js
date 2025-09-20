@@ -1,5 +1,6 @@
 var NAVTREEINDEX89 =
 {
+"structMR_1_1RenderDimensions_1_1CommonParams.html#a24e53f6e56b159ccb14495ab5e06145f":[6,0,2,0,1,19,2,1],
 "structMR_1_1RenderDimensions_1_1CommonParams.html#aa609dc0e9f68c9ca781df34a9acbe475":[6,0,1,0,1,34,2,0],
 "structMR_1_1RenderDimensions_1_1CommonParams.html#aa609dc0e9f68c9ca781df34a9acbe475":[6,0,2,0,1,19,2,0],
 "structMR_1_1RenderDimensions_1_1LengthParams.html":[6,0,1,0,1,34,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX89 =
 "structMR_1_1SaveSettings.html#a3614a6ca71783b2dd64369d4f122ee69":[6,0,2,0,1,626,1],
 "structMR_1_1SaveSettings.html#a6aa78ab8ac3342aaeb267aa07e82721a":[6,0,1,0,1,644,0],
 "structMR_1_1SaveSettings.html#a6aa78ab8ac3342aaeb267aa07e82721a":[6,0,2,0,1,626,0],
-"structMR_1_1SaveSettings.html#a71c2ed63cb6a101dbd9b47f8ca9898fd":[6,0,1,0,1,644,6],
-"structMR_1_1SaveSettings.html#a71c2ed63cb6a101dbd9b47f8ca9898fd":[6,0,2,0,1,626,6]
+"structMR_1_1SaveSettings.html#a71c2ed63cb6a101dbd9b47f8ca9898fd":[6,0,1,0,1,644,6]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX72 =
 {
+"structMR_1_1ContourToDistanceMapParams.html#afe6ef70a540df80fca43fb338ca681ce":[6,0,0,5,4,12],
 "structMR_1_1ContoursDistanceMapOffset.html":[6,0,0,5,1],
 "structMR_1_1ContoursDistanceMapOffset.html#a68a80dcbb5c3dc5175cdb355315dd038":[6,0,0,5,1,2],
 "structMR_1_1ContoursDistanceMapOffset.html#adedbc97955e245ed2441465fc386f0c5":[6,0,0,5,1,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX72 =
 "structMR_1_1DirectoryRecursiveIterator.html#affefc79c1a274349122ac58b55d2db20":[6,0,1,0,1,194,3],
 "structMR_1_1DirectoryRecursiveIterator.html#affefc79c1a274349122ac58b55d2db20":[6,0,2,0,1,176,3],
 "structMR_1_1Dirty.html":[6,0,0,11,2,4],
-"structMR_1_1Dirty.html#a193091023ad909fc52546edecd127232":[6,0,0,11,2,4,0],
-"structMR_1_1Dirty.html#a365faf5e38062ddadd121c9f543bf71d":[6,0,0,11,2,4,8]
+"structMR_1_1Dirty.html#a193091023ad909fc52546edecd127232":[6,0,0,11,2,4,0]
 };
