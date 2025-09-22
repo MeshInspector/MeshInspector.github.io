@@ -1,5 +1,7 @@
 var NAVTREEINDEX94 =
 {
+"structMR_1_1UI_1_1CheckboxOrModifierState.html":[6,0,2,0,1,25,4],
+"structMR_1_1UI_1_1CheckboxOrModifierState.html#a17db618bc34c02a2da1a620fbc1734f4":[6,0,1,0,1,42,6,2],
 "structMR_1_1UI_1_1CheckboxOrModifierState.html#a17db618bc34c02a2da1a620fbc1734f4":[6,0,2,0,1,25,4,2],
 "structMR_1_1UI_1_1CheckboxOrModifierState.html#a1b7f056835dfa614cc9907ac8d467d87":[6,0,1,0,1,42,6,4],
 "structMR_1_1UI_1_1CheckboxOrModifierState.html#a1b7f056835dfa614cc9907ac8d467d87":[6,0,2,0,1,25,4,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX94 =
 "structMR_1_1UniteManyMeshesParams.html#a28a4b396128672937ced813919301558":[6,0,2,0,1,759,4],
 "structMR_1_1UniteManyMeshesParams.html#a37fc9fd84323ac5579854222ba3453c8":[6,0,1,0,1,777,3],
 "structMR_1_1UniteManyMeshesParams.html#a37fc9fd84323ac5579854222ba3453c8":[6,0,2,0,1,759,3],
-"structMR_1_1UniteManyMeshesParams.html#a3a9dfe0c8c99c3913373200d1cb1ddfc":[6,0,1,0,1,777,7],
-"structMR_1_1UniteManyMeshesParams.html#a3a9dfe0c8c99c3913373200d1cb1ddfc":[6,0,2,0,1,759,7],
-"structMR_1_1UniteManyMeshesParams.html#a87d0c6c71297df5ccba6efb599d35f57":[6,0,1,0,1,777,2]
+"structMR_1_1UniteManyMeshesParams.html#a3a9dfe0c8c99c3913373200d1cb1ddfc":[6,0,1,0,1,777,7]
 };

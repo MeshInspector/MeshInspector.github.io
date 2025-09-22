@@ -1,5 +1,6 @@
 var NAVTREEINDEX41 =
 {
+"classMR_1_1RenderImGuiLabelObject.html":[6,0,1,0,1,595],
 "classMR_1_1RenderImGuiLabelObject.html":[6,0,2,0,1,577],
 "classMR_1_1RenderImGuiLabelObject.html#a10bda644e5bf5d339048fc403685a021":[6,0,1,0,1,595,1],
 "classMR_1_1RenderImGuiLabelObject.html#a10bda644e5bf5d339048fc403685a021":[6,0,2,0,1,577,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX41 =
 "classMR_1_1RenderPointsObject.html#a88bbfafb06a1d55fbcc5d082f4239094":[6,0,1,0,1,603,6],
 "classMR_1_1RenderPointsObject.html#a88bbfafb06a1d55fbcc5d082f4239094":[6,0,2,0,1,585,6],
 "classMR_1_1RenderPointsObject.html#ab99ca8621e3c55c14e02d3452bbdd239":[6,0,1,0,1,603,0],
-"classMR_1_1RenderPointsObject.html#ab99ca8621e3c55c14e02d3452bbdd239":[6,0,2,0,1,585,0],
-"classMR_1_1RenderPointsObject.html#ac57d8a541df401cff5ddf7566f0b9bb4":[6,0,1,0,1,603,4]
+"classMR_1_1RenderPointsObject.html#ab99ca8621e3c55c14e02d3452bbdd239":[6,0,2,0,1,585,0]
 };

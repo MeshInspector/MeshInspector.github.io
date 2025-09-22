@@ -151,7 +151,8 @@ $(function(){initNavTree('MROffsetVerts_8h.html',''); initResizable(true); });
   <div class="headertitle"><div class="title">MROffsetVerts.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
 </div>
@@ -168,6 +169,9 @@ Typedefs</h2></td></tr>
 <tr class="memitem:aab9015c36c2d8e2dc6b6e2dd876905a3" id="r_aab9015c36c2d8e2dc6b6e2dd876905a3"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#aab9015c36c2d8e2dc6b6e2dd876905a3">MR_ThickenParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab9015c36c2d8e2dc6b6e2dd876905a3">MR_ThickenParams</a></td></tr>
 <tr class="memdesc:aab9015c36c2d8e2dc6b6e2dd876905a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1ThickenParams.html">MR::ThickenParams</a></code>.  <br /></td></tr>
 <tr class="separator:aab9015c36c2d8e2dc6b6e2dd876905a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba5e4bdfdaae2b4eb0af6f4aec7f933a" id="r_aba5e4bdfdaae2b4eb0af6f4aec7f933a"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#aba5e4bdfdaae2b4eb0af6f4aec7f933a">MR_ZCompensateParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba5e4bdfdaae2b4eb0af6f4aec7f933a">MR_ZCompensateParams</a></td></tr>
+<tr class="memdesc:aba5e4bdfdaae2b4eb0af6f4aec7f933a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1ZCompensateParams.html">MR::ZCompensateParams</a></code>.  <br /></td></tr>
+<tr class="separator:aba5e4bdfdaae2b4eb0af6f4aec7f933a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -209,6 +213,42 @@ Functions</h2></td></tr>
 <tr class="separator:a4f7b6c93f13b6fb9e266f4aa80f4e2d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17ec19d8ea4c71d7d676e78dce6292c8" id="r_a17ec19d8ea4c71d7d676e78dce6292c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17ec19d8ea4c71d7d676e78dce6292c8">MR_makeThickMesh</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *m, const <a class="el" href="#aab9015c36c2d8e2dc6b6e2dd876905a3">MR_ThickenParams</a> *params)</td></tr>
 <tr class="separator:a17ec19d8ea4c71d7d676e78dce6292c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfac63b6c67ac203195428a1a731e3c7" id="r_abfac63b6c67ac203195428a1a731e3c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abfac63b6c67ac203195428a1a731e3c7">MR_ZCompensateParams_Get_maxShift</a> (const <a class="el" href="#aba5e4bdfdaae2b4eb0af6f4aec7f933a">MR_ZCompensateParams</a> *_this)</td></tr>
+<tr class="separator:abfac63b6c67ac203195428a1a731e3c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae721f1f01be2ebcff815c416f7222f5b" id="r_ae721f1f01be2ebcff815c416f7222f5b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae721f1f01be2ebcff815c416f7222f5b">MR_ZCompensateParams_Set_maxShift</a> (<a class="el" href="#aba5e4bdfdaae2b4eb0af6f4aec7f933a">MR_ZCompensateParams</a> *_this, float value)</td></tr>
+<tr class="separator:ae721f1f01be2ebcff815c416f7222f5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3dbb60a3651d76ca61b51a871298a7a" id="r_ad3dbb60a3651d76ca61b51a871298a7a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad3dbb60a3651d76ca61b51a871298a7a">MR_ZCompensateParams_GetMutable_maxShift</a> (<a class="el" href="#aba5e4bdfdaae2b4eb0af6f4aec7f933a">MR_ZCompensateParams</a> *_this)</td></tr>
+<tr class="separator:ad3dbb60a3651d76ca61b51a871298a7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2979c368bb5e00d52121f5cebbad3af" id="r_aa2979c368bb5e00d52121f5cebbad3af"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2979c368bb5e00d52121f5cebbad3af">MR_ZCompensateParams_Get_progress</a> (const <a class="el" href="#aba5e4bdfdaae2b4eb0af6f4aec7f933a">MR_ZCompensateParams</a> *_this)</td></tr>
+<tr class="separator:aa2979c368bb5e00d52121f5cebbad3af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adeaea736086c2d96bdd4bedd09bc3883" id="r_adeaea736086c2d96bdd4bedd09bc3883"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adeaea736086c2d96bdd4bedd09bc3883">MR_ZCompensateParams_Set_progress</a> (<a class="el" href="#aba5e4bdfdaae2b4eb0af6f4aec7f933a">MR_ZCompensateParams</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *value)</td></tr>
+<tr class="separator:adeaea736086c2d96bdd4bedd09bc3883"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2317f086162717d3dbb0e2275d22dbac" id="r_a2317f086162717d3dbb0e2275d22dbac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2317f086162717d3dbb0e2275d22dbac">MR_ZCompensateParams_GetMutable_progress</a> (<a class="el" href="#aba5e4bdfdaae2b4eb0af6f4aec7f933a">MR_ZCompensateParams</a> *_this)</td></tr>
+<tr class="separator:a2317f086162717d3dbb0e2275d22dbac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01afad5ea1110f5707cf12be90202cd1" id="r_a01afad5ea1110f5707cf12be90202cd1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aba5e4bdfdaae2b4eb0af6f4aec7f933a">MR_ZCompensateParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01afad5ea1110f5707cf12be90202cd1">MR_ZCompensateParams_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a01afad5ea1110f5707cf12be90202cd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ba0ffbf6353e7f123f9ad11706c777a" id="r_a7ba0ffbf6353e7f123f9ad11706c777a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aba5e4bdfdaae2b4eb0af6f4aec7f933a">MR_ZCompensateParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ba0ffbf6353e7f123f9ad11706c777a">MR_ZCompensateParams_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a7ba0ffbf6353e7f123f9ad11706c777a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02497c9c024557389e58172c52620bdd" id="r_a02497c9c024557389e58172c52620bdd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aba5e4bdfdaae2b4eb0af6f4aec7f933a">MR_ZCompensateParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a02497c9c024557389e58172c52620bdd">MR_ZCompensateParams_ConstructFrom</a> (float maxShift, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> progress_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *progress)</td></tr>
+<tr class="separator:a02497c9c024557389e58172c52620bdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91c547c2eb3b61728b2183620dfe5577" id="r_a91c547c2eb3b61728b2183620dfe5577"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#aba5e4bdfdaae2b4eb0af6f4aec7f933a">MR_ZCompensateParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91c547c2eb3b61728b2183620dfe5577">MR_ZCompensateParams_OffsetPtr</a> (const <a class="el" href="#aba5e4bdfdaae2b4eb0af6f4aec7f933a">MR_ZCompensateParams</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a91c547c2eb3b61728b2183620dfe5577"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a91c547c2eb3b61728b2183620dfe5577"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0cb6719a2325598ef2ed82ff5e921aa0" id="r_a0cb6719a2325598ef2ed82ff5e921aa0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aba5e4bdfdaae2b4eb0af6f4aec7f933a">MR_ZCompensateParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0cb6719a2325598ef2ed82ff5e921aa0">MR_ZCompensateParams_OffsetMutablePtr</a> (<a class="el" href="#aba5e4bdfdaae2b4eb0af6f4aec7f933a">MR_ZCompensateParams</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a0cb6719a2325598ef2ed82ff5e921aa0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a0cb6719a2325598ef2ed82ff5e921aa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef14298bc682b9e0c3c5099a714006de" id="r_aef14298bc682b9e0c3c5099a714006de"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aba5e4bdfdaae2b4eb0af6f4aec7f933a">MR_ZCompensateParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef14298bc682b9e0c3c5099a714006de">MR_ZCompensateParams_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#aba5e4bdfdaae2b4eb0af6f4aec7f933a">MR_ZCompensateParams</a> *_other)</td></tr>
+<tr class="separator:aef14298bc682b9e0c3c5099a714006de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8ecc780ce5081df86fb65b9f06a8e1f" id="r_af8ecc780ce5081df86fb65b9f06a8e1f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af8ecc780ce5081df86fb65b9f06a8e1f">MR_ZCompensateParams_Destroy</a> (const <a class="el" href="#aba5e4bdfdaae2b4eb0af6f4aec7f933a">MR_ZCompensateParams</a> *_this)</td></tr>
+<tr class="memdesc:af8ecc780ce5081df86fb65b9f06a8e1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_ZCompensateParams</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:af8ecc780ce5081df86fb65b9f06a8e1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb4fb8c1117a74b1901b224a0f7acbf1" id="r_acb4fb8c1117a74b1901b224a0f7acbf1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb4fb8c1117a74b1901b224a0f7acbf1">MR_ZCompensateParams_DestroyArray</a> (const <a class="el" href="#aba5e4bdfdaae2b4eb0af6f4aec7f933a">MR_ZCompensateParams</a> *_this)</td></tr>
+<tr class="memdesc:acb4fb8c1117a74b1901b224a0f7acbf1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_ZCompensateParams</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:acb4fb8c1117a74b1901b224a0f7acbf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a642847632d386e7578a926288b9b4055" id="r_a642847632d386e7578a926288b9b4055"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aba5e4bdfdaae2b4eb0af6f4aec7f933a">MR_ZCompensateParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a642847632d386e7578a926288b9b4055">MR_ZCompensateParams_AssignFromAnother</a> (<a class="el" href="#aba5e4bdfdaae2b4eb0af6f4aec7f933a">MR_ZCompensateParams</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#aba5e4bdfdaae2b4eb0af6f4aec7f933a">MR_ZCompensateParams</a> *_other)</td></tr>
+<tr class="separator:a642847632d386e7578a926288b9b4055"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19d8dcc1b660f771bcc40ca183ee87b4" id="r_a19d8dcc1b660f771bcc40ca183ee87b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a19d8dcc1b660f771bcc40ca183ee87b4">MR_zCompensate</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="#aba5e4bdfdaae2b4eb0af6f4aec7f933a">MR_ZCompensateParams</a> *params)</td></tr>
+<tr class="separator:a19d8dcc1b660f771bcc40ca183ee87b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="a31b172f68efca6438544d56eb86d6f40" name="a31b172f68efca6438544d56eb86d6f40"></a>
@@ -266,6 +306,22 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1ThickenParams.html">MR::ThickenParams</a></code>. </p>
+
+</div>
+</div>
+<a id="aba5e4bdfdaae2b4eb0af6f4aec7f933a" name="aba5e4bdfdaae2b4eb0af6f4aec7f933a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba5e4bdfdaae2b4eb0af6f4aec7f933a">&#9670;&#160;</a></span>MR_ZCompensateParams</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#aba5e4bdfdaae2b4eb0af6f4aec7f933a">MR_ZCompensateParams</a> <a class="el" href="#aba5e4bdfdaae2b4eb0af6f4aec7f933a">MR_ZCompensateParams</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1ZCompensateParams.html">MR::ZCompensateParams</a></code>. </p>
 
 </div>
 </div>
@@ -614,6 +670,345 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>the amount of offset for original mesh vertices Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ThickenParams.html">MR::ThickenParams</a></code> named <code>outsideOffset</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a19d8dcc1b660f771bcc40ca183ee87b4" name="a19d8dcc1b660f771bcc40ca183ee87b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19d8dcc1b660f771bcc40ca183ee87b4">&#9670;&#160;</a></span>MR_zCompensate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_zCompensate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#aba5e4bdfdaae2b4eb0af6f4aec7f933a">MR_ZCompensateParams</a> *</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>For 3D printers: shifts every vertex with normal having negative projection on Z-axis, along Z-axis </p><dl class="section return"><dt>Returns</dt><dd>false if cancelled. Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a08ac3fca0ca82a431356f09a83cde032">MR::zCompensate</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>params</code> can not be null. It is a single object. </dd></dl>
+
+</div>
+</div>
+<a id="a642847632d386e7578a926288b9b4055" name="a642847632d386e7578a926288b9b4055"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a642847632d386e7578a926288b9b4055">&#9670;&#160;</a></span>MR_ZCompensateParams_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aba5e4bdfdaae2b4eb0af6f4aec7f933a">MR_ZCompensateParams</a> * MR_ZCompensateParams_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aba5e4bdfdaae2b4eb0af6f4aec7f933a">MR_ZCompensateParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#aba5e4bdfdaae2b4eb0af6f4aec7f933a">MR_ZCompensateParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1ZCompensateParams.html">MR::ZCompensateParams</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a02497c9c024557389e58172c52620bdd" name="a02497c9c024557389e58172c52620bdd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02497c9c024557389e58172c52620bdd">&#9670;&#160;</a></span>MR_ZCompensateParams_ConstructFrom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aba5e4bdfdaae2b4eb0af6f4aec7f933a">MR_ZCompensateParams</a> * MR_ZCompensateParams_ConstructFrom </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>maxShift</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>progress_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *</td>          <td class="paramname"><span class="paramname"><em>progress</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1ZCompensateParams.html">MR::ZCompensateParams</a></code> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#af8ecc780ce5081df86fb65b9f06a8e1f" title="Destroys a heap-allocated instance of MR_ZCompensateParams. Does nothing if the pointer is null.">MR_ZCompensateParams_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="aef14298bc682b9e0c3c5099a714006de" name="aef14298bc682b9e0c3c5099a714006de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef14298bc682b9e0c3c5099a714006de">&#9670;&#160;</a></span>MR_ZCompensateParams_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aba5e4bdfdaae2b4eb0af6f4aec7f933a">MR_ZCompensateParams</a> * MR_ZCompensateParams_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#aba5e4bdfdaae2b4eb0af6f4aec7f933a">MR_ZCompensateParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1ZCompensateParams.html">MR::ZCompensateParams</a></code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#af8ecc780ce5081df86fb65b9f06a8e1f" title="Destroys a heap-allocated instance of MR_ZCompensateParams. Does nothing if the pointer is null.">MR_ZCompensateParams_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a01afad5ea1110f5707cf12be90202cd1" name="a01afad5ea1110f5707cf12be90202cd1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01afad5ea1110f5707cf12be90202cd1">&#9670;&#160;</a></span>MR_ZCompensateParams_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aba5e4bdfdaae2b4eb0af6f4aec7f933a">MR_ZCompensateParams</a> * MR_ZCompensateParams_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#af8ecc780ce5081df86fb65b9f06a8e1f" title="Destroys a heap-allocated instance of MR_ZCompensateParams. Does nothing if the pointer is null.">MR_ZCompensateParams_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a7ba0ffbf6353e7f123f9ad11706c777a" name="a7ba0ffbf6353e7f123f9ad11706c777a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ba0ffbf6353e7f123f9ad11706c777a">&#9670;&#160;</a></span>MR_ZCompensateParams_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aba5e4bdfdaae2b4eb0af6f4aec7f933a">MR_ZCompensateParams</a> * MR_ZCompensateParams_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#acb4fb8c1117a74b1901b224a0f7acbf1" title="Destroys a heap-allocated array of MR_ZCompensateParams. Does nothing if the pointer is null.">MR_ZCompensateParams_DestroyArray()</a></code>. Use <code><a class="el" href="#a0cb6719a2325598ef2ed82ff5e921aa0" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_ZCompensateParams_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a91c547c2eb3b61728b2183620dfe5577" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_ZCompensateParams_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="af8ecc780ce5081df86fb65b9f06a8e1f" name="af8ecc780ce5081df86fb65b9f06a8e1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8ecc780ce5081df86fb65b9f06a8e1f">&#9670;&#160;</a></span>MR_ZCompensateParams_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_ZCompensateParams_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aba5e4bdfdaae2b4eb0af6f4aec7f933a">MR_ZCompensateParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_ZCompensateParams</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="acb4fb8c1117a74b1901b224a0f7acbf1" name="acb4fb8c1117a74b1901b224a0f7acbf1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb4fb8c1117a74b1901b224a0f7acbf1">&#9670;&#160;</a></span>MR_ZCompensateParams_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_ZCompensateParams_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aba5e4bdfdaae2b4eb0af6f4aec7f933a">MR_ZCompensateParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_ZCompensateParams</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="abfac63b6c67ac203195428a1a731e3c7" name="abfac63b6c67ac203195428a1a731e3c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfac63b6c67ac203195428a1a731e3c7">&#9670;&#160;</a></span>MR_ZCompensateParams_Get_maxShift()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float * MR_ZCompensateParams_Get_maxShift </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aba5e4bdfdaae2b4eb0af6f4aec7f933a">MR_ZCompensateParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>shift of mesh parts orthogonal to Z-axis with normal against Z-axis; for other mesh parts the shift will be less and will depend on the angle between point pseudo-normal and Z-axis Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ZCompensateParams.html">MR::ZCompensateParams</a></code> named <code>maxShift</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="aa2979c368bb5e00d52121f5cebbad3af" name="aa2979c368bb5e00d52121f5cebbad3af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2979c368bb5e00d52121f5cebbad3af">&#9670;&#160;</a></span>MR_ZCompensateParams_Get_progress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> * MR_ZCompensateParams_Get_progress </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aba5e4bdfdaae2b4eb0af6f4aec7f933a">MR_ZCompensateParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>to report progress and cancel processing Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ZCompensateParams.html">MR::ZCompensateParams</a></code> named <code>progress</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ad3dbb60a3651d76ca61b51a871298a7a" name="ad3dbb60a3651d76ca61b51a871298a7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3dbb60a3651d76ca61b51a871298a7a">&#9670;&#160;</a></span>MR_ZCompensateParams_GetMutable_maxShift()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float * MR_ZCompensateParams_GetMutable_maxShift </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aba5e4bdfdaae2b4eb0af6f4aec7f933a">MR_ZCompensateParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>shift of mesh parts orthogonal to Z-axis with normal against Z-axis; for other mesh parts the shift will be less and will depend on the angle between point pseudo-normal and Z-axis Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ZCompensateParams.html">MR::ZCompensateParams</a></code> named <code>maxShift</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a2317f086162717d3dbb0e2275d22dbac" name="a2317f086162717d3dbb0e2275d22dbac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2317f086162717d3dbb0e2275d22dbac">&#9670;&#160;</a></span>MR_ZCompensateParams_GetMutable_progress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> * MR_ZCompensateParams_GetMutable_progress </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aba5e4bdfdaae2b4eb0af6f4aec7f933a">MR_ZCompensateParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>to report progress and cancel processing Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ZCompensateParams.html">MR::ZCompensateParams</a></code> named <code>progress</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a0cb6719a2325598ef2ed82ff5e921aa0" name="a0cb6719a2325598ef2ed82ff5e921aa0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0cb6719a2325598ef2ed82ff5e921aa0">&#9670;&#160;</a></span>MR_ZCompensateParams_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aba5e4bdfdaae2b4eb0af6f4aec7f933a">MR_ZCompensateParams</a> * MR_ZCompensateParams_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aba5e4bdfdaae2b4eb0af6f4aec7f933a">MR_ZCompensateParams</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a91c547c2eb3b61728b2183620dfe5577" name="a91c547c2eb3b61728b2183620dfe5577"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91c547c2eb3b61728b2183620dfe5577">&#9670;&#160;</a></span>MR_ZCompensateParams_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#aba5e4bdfdaae2b4eb0af6f4aec7f933a">MR_ZCompensateParams</a> * MR_ZCompensateParams_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#aba5e4bdfdaae2b4eb0af6f4aec7f933a">MR_ZCompensateParams</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="ae721f1f01be2ebcff815c416f7222f5b" name="ae721f1f01be2ebcff815c416f7222f5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae721f1f01be2ebcff815c416f7222f5b">&#9670;&#160;</a></span>MR_ZCompensateParams_Set_maxShift()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_ZCompensateParams_Set_maxShift </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aba5e4bdfdaae2b4eb0af6f4aec7f933a">MR_ZCompensateParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>shift of mesh parts orthogonal to Z-axis with normal against Z-axis; for other mesh parts the shift will be less and will depend on the angle between point pseudo-normal and Z-axis Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ZCompensateParams.html">MR::ZCompensateParams</a></code> named <code>maxShift</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="adeaea736086c2d96bdd4bedd09bc3883" name="adeaea736086c2d96bdd4bedd09bc3883"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adeaea736086c2d96bdd4bedd09bc3883">&#9670;&#160;</a></span>MR_ZCompensateParams_Set_progress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_ZCompensateParams_Set_progress </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#aba5e4bdfdaae2b4eb0af6f4aec7f933a">MR_ZCompensateParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>to report progress and cancel processing Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ZCompensateParams.html">MR::ZCompensateParams</a></code> named <code>progress</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
 
 </div>
 </div>

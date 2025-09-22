@@ -1441,5 +1441,6 @@ var hierarchy =
     [ "mrmeshpy.PlanarTriangulation.WindingMode", "classmrmeshpy_1_1PlanarTriangulation_1_1WindingMode.html", null ],
     [ "mrmeshpy.WrapType", "classmrmeshpy_1_1WrapType.html", null ],
     [ "mrmeshpy.XfBasedCache_Box3f", "classmrmeshpy_1_1XfBasedCache__Box3f.html", null ],
+    [ "mrmeshpy.ZCompensateParams", "classmrmeshpy_1_1ZCompensateParams.html", null ],
     [ "mrmeshpy.ZeroOnMove_unsigned_long", "classmrmeshpy_1_1ZeroOnMove__unsigned__long.html", null ]
 ];

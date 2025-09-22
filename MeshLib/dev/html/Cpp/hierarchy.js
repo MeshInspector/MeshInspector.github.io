@@ -1472,6 +1472,7 @@ var hierarchy =
     [ "MR::Writer< T >", "structMR_1_1Writer.html", null ],
     [ "MR::XfBasedCache< T >", "classMR_1_1XfBasedCache.html", null ],
     [ "MR::XfBasedCache< Box3f >", "classMR_1_1XfBasedCache.html", null ],
+    [ "MR::ZCompensateParams", "structMR_1_1ZCompensateParams.html", null ],
     [ "MR::ZeroOnMove< T >", "structMR_1_1ZeroOnMove.html", null ],
     [ "MR::ZeroOnMove< size_t >", "structMR_1_1ZeroOnMove.html", null ]
 ];

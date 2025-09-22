@@ -1,5 +1,6 @@
 var NAVTREEINDEX17 =
 {
+"MRUIStyle_8h.html#a0a816a5d6ff63a4668d7a9b26bb0aaf6ae352199311c805c4756751f60bf786e2":[6,0,3,0,0,1,11,137,12,4],
 "MRUIStyle_8h.html#a0a816a5d6ff63a4668d7a9b26bb0aaf6ae93f994f01c537c4e2f7d8528c3eb5e9":[6,0,3,0,0,1,11,137,12,6],
 "MRUIStyle_8h.html#a0a816a5d6ff63a4668d7a9b26bb0aaf6aecbe96567baf8cf6569140a80096a953":[6,0,3,0,0,1,11,137,12,2],
 "MRUIStyle_8h.html#a0c37be14d527eafdf4f327608985ab9e":[6,0,3,0,0,1,11,137,36],
@@ -248,6 +249,5 @@ var NAVTREEINDEX17 =
 "MRViewerEventsListener_8h.html":[6,0,3,0,0,1,11,144],
 "MRViewerEventsListener_8h_source.html":[6,0,3,0,0,1,11,144],
 "MRViewerFwd_8h.html":[6,0,3,0,0,1,11,145],
-"MRViewerFwd_8h.html#a13de6dbfcc4586d8d224d8ff0dd2deed":[6,0,3,0,0,1,11,145,1],
-"MRViewerFwd_8h.html#a55cd176bca8ea774ad922ad2876e0f0d":[6,0,3,0,0,1,11,145,4]
+"MRViewerFwd_8h.html#a13de6dbfcc4586d8d224d8ff0dd2deed":[6,0,3,0,0,1,11,145,1]
 };

@@ -1031,6 +1031,7 @@ var annotated_dup =
       [ "WeightedVertex", "structMR_1_1WeightedVertex.html", "structMR_1_1WeightedVertex" ],
       [ "Writer", "structMR_1_1Writer.html", "structMR_1_1Writer" ],
       [ "XfBasedCache", "classMR_1_1XfBasedCache.html", "classMR_1_1XfBasedCache" ],
+      [ "ZCompensateParams", "structMR_1_1ZCompensateParams.html", "structMR_1_1ZCompensateParams" ],
       [ "ZeroOnMove", "structMR_1_1ZeroOnMove.html", "structMR_1_1ZeroOnMove" ]
     ] ],
     [ "auto_cast_trait", "structauto__cast__trait.html", null ],

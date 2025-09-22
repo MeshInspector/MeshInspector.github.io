@@ -1,8 +1,9 @@
 var searchData=
 [
-  ['zeroonmove_0',['ZeroOnMove',['../structMR_1_1ZeroOnMove.html',1,'MR']]],
-  ['zeroonmove_3c_20size_5ft_20_3e_1',['ZeroOnMove&lt; size_t &gt;',['../structMR_1_1ZeroOnMove.html',1,'MR']]],
-  ['zeroonmove_5funsigned_5flong_2',['ZeroOnMove_unsigned_long',['../../Py/classmrmeshpy_1_1ZeroOnMove__unsigned__long.html',1,'mrmeshpy']]],
+  ['zcompensateparams_0',['ZCompensateParams',['../structMR_1_1ZCompensateParams.html',1,'MR::ZCompensateParams'],['../../Py/classmrmeshpy_1_1ZCompensateParams.html',1,'mrmeshpy::ZCompensateParams']]],
+  ['zeroonmove_1',['ZeroOnMove',['../structMR_1_1ZeroOnMove.html',1,'MR']]],
+  ['zeroonmove_3c_20size_5ft_20_3e_2',['ZeroOnMove&lt; size_t &gt;',['../structMR_1_1ZeroOnMove.html',1,'MR']]],
+  ['zeroonmove_5funsigned_5flong_3',['ZeroOnMove_unsigned_long',['../../Py/classmrmeshpy_1_1ZeroOnMove__unsigned__long.html',1,'mrmeshpy']]],
   ['label_0',['Label',['../structMR_1_1Palette_1_1Label.html',1,'MR::Palette']]],
   ['labelparams_1',['LabelParams',['../structMR_1_1ImGuiMenu_1_1LabelParams.html',1,'MR::ImGuiMenu']]],
   ['labelrectallocator_2',['LabelRectAllocator',['../classMR_1_1UI_1_1LabelRectAllocator.html',1,'MR::UI']]],

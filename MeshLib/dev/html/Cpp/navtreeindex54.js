@@ -1,5 +1,6 @@
 var NAVTREEINDEX54 =
 {
+"classMR_1_1WatershedGraph.html#a75dfd7892ea152c119be891a63d24d0e":[6,0,2,0,1,817,23],
 "classMR_1_1WatershedGraph.html#a8a02b4b9dff2548231f6154119e3de65":[6,0,1,0,1,835,14],
 "classMR_1_1WatershedGraph.html#a8a02b4b9dff2548231f6154119e3de65":[6,0,2,0,1,817,14],
 "classMR_1_1WatershedGraph.html#a9af63cdf457000d537668057705b684c":[6,0,1,0,1,835,4],
@@ -103,20 +104,20 @@ var NAVTREEINDEX54 =
 "conceptMR_1_1AnyVisualizeMaskEnumType.html":[6,0,0,11,2,0],
 "conceptMR_1_1Features_1_1MeasureSupported.html":[6,0,1,0,1,6,4],
 "conceptMR_1_1Features_1_1Traits_1_1MeasureSupportedOneWay.html":[6,0,1,0,1,6,1,11],
-"conceptMR_1_1HasGetDirectionMethod.html":[6,0,1,0,1,843],
-"conceptMR_1_1HasGetNormalMethod.html":[6,0,1,0,1,842],
+"conceptMR_1_1HasGetDirectionMethod.html":[6,0,1,0,1,844],
+"conceptMR_1_1HasGetNormalMethod.html":[6,0,1,0,1,843],
 "conceptMR_1_1ImGuiMath_1_1detail_1_1Scalar.html":[6,0,1,0,1,15,0,8],
 "conceptMR_1_1ImGuiMath_1_1detail_1_1ValidOperands.html":[6,0,1,0,1,15,0,12],
 "conceptMR_1_1ImGuiMath_1_1detail_1_1Vector.html":[6,0,1,0,1,15,0,9],
 "conceptMR_1_1ImGuiMath_1_1detail_1_1VectorOrScalar.html":[6,0,1,0,1,15,0,10],
 "conceptMR_1_1ImGuiMath_1_1detail_1_1VectorOrScalarMaybeCvref.html":[6,0,1,0,1,15,0,11],
-"conceptMR_1_1Trivial.html":[6,0,1,0,1,841],
+"conceptMR_1_1Trivial.html":[6,0,1,0,1,842],
 "conceptMR_1_1UI_1_1TestEngine_1_1AllowedValueType.html":[6,0,1,0,1,42,2,5],
 "conceptMR_1_1UI_1_1detail_1_1Scalar.html":[6,0,1,0,1,42,0,0],
 "conceptMR_1_1UI_1_1detail_1_1ValidBoundForTargetType.html":[6,0,1,0,1,42,0,2],
 "conceptMR_1_1UI_1_1detail_1_1ValidDragSpeedForTargetType.html":[6,0,1,0,1,42,0,3],
 "conceptMR_1_1UI_1_1detail_1_1VectorOrScalar.html":[6,0,1,0,1,42,0,1],
-"conceptMR_1_1UnitEnum.html":[6,0,1,0,1,845],
+"conceptMR_1_1UnitEnum.html":[6,0,1,0,1,846],
 "conceptMR_1_1detail_1_1Units_1_1Scalar.html":[6,0,1,0,1,3,0,1],
 "dir_0548e20a3bcd59381bf0bdb32f67cd97.html":[6,0,3,0,0,1,12],
 "dir_0bdaba6e8456798d85bbc67aaa90fe25.html":[6,0,3,0,0,1,0,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX54 =
 "functions_w.html":[6,0,2,3,0,23],
 "functions_x.html":[6,0,2,3,0,24],
 "functions_y.html":[6,0,2,3,0,25],
-"functions_z.html":[6,0,2,3,0,26],
-"functions_~.html":[6,0,2,3,0,27]
+"functions_z.html":[6,0,2,3,0,26]
 };

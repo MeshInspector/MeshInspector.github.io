@@ -1,5 +1,6 @@
 var NAVTREEINDEX56 =
 {
+"group__BooleanGroup.html":[6,0,0,8],
 "group__BooleanGroup.html#ga33e04ff2f620e99f7bcd23080433c39f":[6,0,0,8,12],
 "group__BooleanGroup.html#ga3f74a4803a385d6714d3711d05b747dc":[6,0,0,8,17],
 "group__BooleanGroup.html#ga4415eacd7a732188919def7411ee0245":[6,0,0,8,15],
@@ -248,6 +249,5 @@ var NAVTREEINDEX56 =
 "group__IntersectionGroup.html#ga09243a2c7d047fea71d5b6ee805bb486":[6,0,0,0,6,8],
 "group__IntersectionGroup.html#ga0de20b6f8f6b0d5d0ac0b878f9a3d8f3":[6,0,0,0,6,10],
 "group__IntersectionGroup.html#ga174ea372194ccce008006eeca81c9c81":[6,0,0,0,6,2],
-"group__IntersectionGroup.html#ga1ff63020d1319814baf4c97e72dfcc2b":[6,0,0,0,6,7],
-"group__IntersectionGroup.html#ga4396b23b8c03f5aa66c3cd584dbdfe48":[6,0,0,0,6,0]
+"group__IntersectionGroup.html#ga1ff63020d1319814baf4c97e72dfcc2b":[6,0,0,0,6,7]
 };

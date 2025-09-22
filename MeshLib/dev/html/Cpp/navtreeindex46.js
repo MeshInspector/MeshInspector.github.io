@@ -1,5 +1,6 @@
 var NAVTREEINDEX46 =
 {
+"classMR_1_1SpaceMouseHandlerHidapi.html#ae76882db7c2042147f95e35d15b93371":[6,0,1,0,1,698,3],
 "classMR_1_1SpaceMouseHandlerHidapi.html#ae76882db7c2042147f95e35d15b93371":[6,0,2,0,1,680,3],
 "classMR_1_1SpaceMouseHandlerHidapi.html#af7ffed7a44b21d7f048c46f34264e551":[6,0,1,0,1,698,1],
 "classMR_1_1SpaceMouseHandlerHidapi.html#af7ffed7a44b21d7f048c46f34264e551":[6,0,2,0,1,680,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX46 =
 "classMR_1_1SurfaceManipulationWidget.html#a87e780495d7aae0fc12390c68b58631d":[6,0,1,0,1,716,31],
 "classMR_1_1SurfaceManipulationWidget.html#a87e780495d7aae0fc12390c68b58631d":[6,0,2,0,1,698,31],
 "classMR_1_1SurfaceManipulationWidget.html#a8b49dc6133efe789f4fa17bb75f3641c":[6,0,1,0,1,716,29],
-"classMR_1_1SurfaceManipulationWidget.html#a8b49dc6133efe789f4fa17bb75f3641c":[6,0,2,0,1,698,29],
-"classMR_1_1SurfaceManipulationWidget.html#a8c958ed29a4e3f960ce7aab676126adb":[6,0,1,0,1,716,61]
+"classMR_1_1SurfaceManipulationWidget.html#a8b49dc6133efe789f4fa17bb75f3641c":[6,0,2,0,1,698,29]
 };

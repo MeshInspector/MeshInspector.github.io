@@ -2070,6 +2070,8 @@ Structure has some options to control <a class="el" href="group__FillHoleGroup.h
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1XfBasedCache.html">XfBasedCache</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ZCompensateParams.html">ZCompensateParams</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ZeroOnMove.html">ZeroOnMove</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -5042,6 +5044,8 @@ Functions</h2></td></tr>
 <tr class="separator:ab541c8fc31d1c7ee3daa4d9f935ffc33"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a676dff9eff2ba59b0e881d73f18900fe" id="r_a676dff9eff2ba59b0e881d73f18900fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a676dff9eff2ba59b0e881d73f18900fe">makeThickMesh</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;m, const <a class="el" href="structMR_1_1ThickenParams.html">ThickenParams</a> &amp;params)</td></tr>
 <tr class="separator:a676dff9eff2ba59b0e881d73f18900fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08ac3fca0ca82a431356f09a83cde032" id="r_a08ac3fca0ca82a431356f09a83cde032"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08ac3fca0ca82a431356f09a83cde032">zCompensate</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1ZCompensateParams.html">ZCompensateParams</a> &amp;params)</td></tr>
+<tr class="separator:a08ac3fca0ca82a431356f09a83cde032"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4123fa411b7305bb9172a398b8cc3c51" id="r_a4123fa411b7305bb9172a398b8cc3c51"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4123fa411b7305bb9172a398b8cc3c51">subdivideLoneContours</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="group__BooleanGroup.html#ga9ecf19b8a704c505e8026abe7e64e38a">OneMeshContours</a> &amp;contours, <a class="el" href="#a93482f559c684be16c718d5acd291d3e">FaceHashMap</a> *new2oldMap=nullptr)</td></tr>
 <tr class="separator:a4123fa411b7305bb9172a398b8cc3c51"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae38923b09ce82880669f4d008f0ee4d2" id="r_ae38923b09ce82880669f4d008f0ee4d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae38923b09ce82880669f4d008f0ee4d2">getOneMeshIntersectionContours</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;meshA, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;meshB, const <a class="el" href="#a9f26ad2470dbd62255be7fc1cab2b503">ContinuousContours</a> &amp;contours, <a class="el" href="group__BooleanGroup.html#ga9ecf19b8a704c505e8026abe7e64e38a">OneMeshContours</a> *outA, <a class="el" href="group__BooleanGroup.html#ga9ecf19b8a704c505e8026abe7e64e38a">OneMeshContours</a> *outB, const <a class="el" href="structMR_1_1CoordinateConverters.html">CoordinateConverters</a> &amp;converters, const AffineXf3f *rigidB2A=nullptr, <a class="el" href="#a4c444df98a6ef4e28be3eaab462d38a1">Contours3f</a> *outPtsA=nullptr, bool addSelfyTerminalVerts=false)</td></tr>
@@ -40553,6 +40557,28 @@ template&lt;typename Volume &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a08ac3fca0ca82a431356f09a83cde032" name="a08ac3fca0ca82a431356f09a83cde032"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08ac3fca0ca82a431356f09a83cde032">&#9670;&#160;</a></span>zCompensate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::zCompensate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1ZCompensateParams.html">ZCompensateParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>For 3D printers: shifts every vertex with normal having negative projection on Z-axis, along Z-axis </p><dl class="section return"><dt>Returns</dt><dd>false if cancelled. </dd></dl>
 
 </div>
 </div>

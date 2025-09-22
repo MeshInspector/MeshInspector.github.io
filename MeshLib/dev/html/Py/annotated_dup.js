@@ -1195,6 +1195,7 @@ var annotated_dup =
       [ "WholeEdgeMap", "classmrmeshpy_1_1WholeEdgeMap.html", "classmrmeshpy_1_1WholeEdgeMap" ],
       [ "WrapType", "classmrmeshpy_1_1WrapType.html", "classmrmeshpy_1_1WrapType" ],
       [ "XfBasedCache_Box3f", "classmrmeshpy_1_1XfBasedCache__Box3f.html", "classmrmeshpy_1_1XfBasedCache__Box3f" ],
+      [ "ZCompensateParams", "classmrmeshpy_1_1ZCompensateParams.html", "classmrmeshpy_1_1ZCompensateParams" ],
       [ "ZeroOnMove_unsigned_long", "classmrmeshpy_1_1ZeroOnMove__unsigned__long.html", "classmrmeshpy_1_1ZeroOnMove__unsigned__long" ]
     ] ],
     [ "mrviewerpy", "namespacemrviewerpy.html", [
