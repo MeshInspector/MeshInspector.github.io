@@ -149,7 +149,6 @@ $(function(){initNavTree('classMR_1_1PointObject.html',''); initResizable(true);
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
-<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classMR_1_1PointObject-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR::PointObject Class Reference<div class="ingroups"><a class="el" href="group__DataModelGroup.html">Data Model</a> &raquo; <a class="el" href="group__FeaturesGroup.html">Features</a></div></div></div>
 </div><!--header-->
@@ -164,11 +163,10 @@ $(function(){initNavTree('classMR_1_1PointObject.html',''); initResizable(true);
  <div class="center">
   <img src="classMR_1_1PointObject.png" usemap="#MR::PointObject_map" alt=""/>
   <map id="MR::PointObject_map" name="MR::PointObject_map">
-<area href="classMR_1_1FeatureObject.html" title="An interface class which allows feature objects to share setters and getters on their main properties..." alt="MR::FeatureObject" shape="rect" coords="0,168,225,192"/>
-<area href="classMR_1_1ObjectComparableWithReference.html" alt="MR::ObjectComparableWithReference" shape="rect" coords="235,168,460,192"/>
-<area href="classMR_1_1VisualObject.html" title="Visual Object." alt="MR::VisualObject" shape="rect" coords="0,112,225,136"/>
-<area href="classMR_1_1Object.html" title="named object in the data model" alt="MR::Object" shape="rect" coords="0,56,225,80"/>
-<area href="classMR_1_1ObjectChildrenHolder.html" alt="MR::ObjectChildrenHolder" shape="rect" coords="0,0,225,24"/>
+<area href="classMR_1_1FeatureObject.html" title="An interface class which allows feature objects to share setters and getters on their main properties..." alt="MR::FeatureObject" shape="rect" coords="0,168,160,192"/>
+<area href="classMR_1_1VisualObject.html" title="Visual Object." alt="MR::VisualObject" shape="rect" coords="0,112,160,136"/>
+<area href="classMR_1_1Object.html" title="named object in the data model" alt="MR::Object" shape="rect" coords="0,56,160,80"/>
+<area href="classMR_1_1ObjectChildrenHolder.html" alt="MR::ObjectChildrenHolder" shape="rect" coords="0,0,160,24"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -207,26 +205,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a9e2e061a111ddbe853c098d2fd55f750"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a06050ab20411667b9ec0718bd29b8047" id="r_a06050ab20411667b9ec0718bd29b8047"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1FeatureObjectProjectPointResult.html">FeatureObjectProjectPointResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06050ab20411667b9ec0718bd29b8047">projectPoint</a> (const Vector3f &amp;, <a class="el" href="classMR_1_1ViewportId.html">ViewportId</a> id={}) const override</td></tr>
 <tr class="separator:a06050ab20411667b9ec0718bd29b8047"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab2387dd163a995ba7088374567f6e1c2" id="r_ab2387dd163a995ba7088374567f6e1c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab2387dd163a995ba7088374567f6e1c2">numComparableProperties</a> () const override</td></tr>
-<tr class="separator:ab2387dd163a995ba7088374567f6e1c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e104b9bd2f1093c17d2c1ac30d1f545" id="r_a4e104b9bd2f1093c17d2c1ac30d1f545"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::string_view&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e104b9bd2f1093c17d2c1ac30d1f545">getComparablePropertyName</a> (std::size_t i) const override</td></tr>
-<tr class="separator:a4e104b9bd2f1093c17d2c1ac30d1f545"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a405f70c4921e625611c8f123b63b3d2e" id="r_a405f70c4921e625611c8f123b63b3d2e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; <a class="el" href="structMR_1_1ObjectComparableWithReference_1_1ComparableProperty.html">ComparableProperty</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a405f70c4921e625611c8f123b63b3d2e">computeComparableProperty</a> (std::size_t i) const override</td></tr>
-<tr class="separator:a405f70c4921e625611c8f123b63b3d2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae114866670e1b33370022b0e44c99522" id="r_ae114866670e1b33370022b0e44c99522"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; <a class="el" href="structMR_1_1ObjectComparableWithReference_1_1ComparisonTolerance.html">ComparisonTolerance</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae114866670e1b33370022b0e44c99522">getComparisonTolerence</a> (std::size_t i) const override</td></tr>
-<tr class="separator:ae114866670e1b33370022b0e44c99522"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad5a637474b871b0eeb7c5611e7e0717e" id="r_ad5a637474b871b0eeb7c5611e7e0717e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5a637474b871b0eeb7c5611e7e0717e">setComparisonTolerance</a> (std::size_t i, std::optional&lt; <a class="el" href="structMR_1_1ObjectComparableWithReference_1_1ComparisonTolerance.html">ComparisonTolerance</a> &gt; newTolerance) override</td></tr>
-<tr class="separator:ad5a637474b871b0eeb7c5611e7e0717e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af78f04f7a5e05b3ff66195466cb70380" id="r_af78f04f7a5e05b3ff66195466cb70380"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af78f04f7a5e05b3ff66195466cb70380">comparisonToleranceIsAlwaysOnlyPositive</a> (std::size_t i) const override</td></tr>
-<tr class="separator:af78f04f7a5e05b3ff66195466cb70380"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8dfe3665850adbcdd3cd9ac1ec7410e4" id="r_a8dfe3665850adbcdd3cd9ac1ec7410e4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8dfe3665850adbcdd3cd9ac1ec7410e4">numComparisonReferenceValues</a> () const override</td></tr>
-<tr class="separator:a8dfe3665850adbcdd3cd9ac1ec7410e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a51bd94351afd7b15a44782c68719ce73" id="r_a51bd94351afd7b15a44782c68719ce73"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::string_view&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51bd94351afd7b15a44782c68719ce73">getComparisonReferenceValueName</a> (std::size_t i) const override</td></tr>
-<tr class="separator:a51bd94351afd7b15a44782c68719ce73"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af564deca0ed6ad0666fb51edd4705f7a" id="r_af564deca0ed6ad0666fb51edd4705f7a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue.html">ComparisonReferenceValue</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af564deca0ed6ad0666fb51edd4705f7a">getComparisonReferenceValue</a> (std::size_t i) const override</td></tr>
-<tr class="separator:af564deca0ed6ad0666fb51edd4705f7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a47fdd801090f2e2102460aed19e8a0" id="r_a2a47fdd801090f2e2102460aed19e8a0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a47fdd801090f2e2102460aed19e8a0">setComparisonReferenceValue</a> (std::size_t i, std::optional&lt; ComparisonReferenceValue::Var &gt; value) override</td></tr>
-<tr class="separator:a2a47fdd801090f2e2102460aed19e8a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classMR_1_1FeatureObject"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classMR_1_1FeatureObject')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classMR_1_1FeatureObject.html">MR::FeatureObject</a></td></tr>
 <tr class="memitem:aa371d414660e743cb7ffe960edbd7f7b inherit pub_methods_classMR_1_1FeatureObject" id="r_aa371d414660e743cb7ffe960edbd7f7b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1FeatureObject.html#aa371d414660e743cb7ffe960edbd7f7b">supportsVisualizeProperty</a> (<a class="el" href="classMR_1_1AnyVisualizeMaskEnum.html">AnyVisualizeMaskEnum</a> type) const override</td></tr>
 <tr class="memdesc:aa371d414660e743cb7ffe960edbd7f7b inherit pub_methods_classMR_1_1FeatureObject"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this class supports the property <code>type</code>. Otherwise passing it to the functions below is illegal.  <br /></td></tr>
@@ -618,19 +596,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a64c12f40ae3ee9c61ba167319e33f4a8 inherit pub_methods_classMR_1_1ObjectChildrenHolder"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2c5ae3e70a79035b70eff2b38bd1e383 inherit pub_methods_classMR_1_1ObjectChildrenHolder" id="r_a2c5ae3e70a79035b70eff2b38bd1e383"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectChildrenHolder.html#a2c5ae3e70a79035b70eff2b38bd1e383">heapBytes</a> () const</td></tr>
 <tr class="separator:a2c5ae3e70a79035b70eff2b38bd1e383 inherit pub_methods_classMR_1_1ObjectChildrenHolder"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_classMR_1_1ObjectComparableWithReference"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classMR_1_1ObjectComparableWithReference')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classMR_1_1ObjectComparableWithReference.html">MR::ObjectComparableWithReference</a></td></tr>
-<tr class="memitem:a83e6e08749efd393e0a34bdf6804bc2e inherit pub_methods_classMR_1_1ObjectComparableWithReference" id="r_a83e6e08749efd393e0a34bdf6804bc2e"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectComparableWithReference.html#a83e6e08749efd393e0a34bdf6804bc2e">~ObjectComparableWithReference</a> ()=default</td></tr>
-<tr class="separator:a83e6e08749efd393e0a34bdf6804bc2e inherit pub_methods_classMR_1_1ObjectComparableWithReference"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a39179dbfa89d894ecf784f2398c9c78b inherit pub_methods_classMR_1_1ObjectComparableWithReference" id="r_a39179dbfa89d894ecf784f2398c9c78b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectComparableWithReference.html#a39179dbfa89d894ecf784f2398c9c78b">ObjectComparableWithReference</a> ()=default</td></tr>
-<tr class="separator:a39179dbfa89d894ecf784f2398c9c78b inherit pub_methods_classMR_1_1ObjectComparableWithReference"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae825a8e0a74fc989c2bcd3147ff8bed2 inherit pub_methods_classMR_1_1ObjectComparableWithReference" id="r_ae825a8e0a74fc989c2bcd3147ff8bed2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectComparableWithReference.html#ae825a8e0a74fc989c2bcd3147ff8bed2">ObjectComparableWithReference</a> (const <a class="el" href="classMR_1_1ObjectComparableWithReference.html">ObjectComparableWithReference</a> &amp;)=default</td></tr>
-<tr class="separator:ae825a8e0a74fc989c2bcd3147ff8bed2 inherit pub_methods_classMR_1_1ObjectComparableWithReference"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab13b511da066b66c07235be25abce0b inherit pub_methods_classMR_1_1ObjectComparableWithReference" id="r_aab13b511da066b66c07235be25abce0b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectComparableWithReference.html#aab13b511da066b66c07235be25abce0b">ObjectComparableWithReference</a> (<a class="el" href="classMR_1_1ObjectComparableWithReference.html">ObjectComparableWithReference</a> &amp;&amp;)=default</td></tr>
-<tr class="separator:aab13b511da066b66c07235be25abce0b inherit pub_methods_classMR_1_1ObjectComparableWithReference"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1905b7160fa76212ab3913f59d132ce inherit pub_methods_classMR_1_1ObjectComparableWithReference" id="r_ad1905b7160fa76212ab3913f59d132ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1ObjectComparableWithReference.html">ObjectComparableWithReference</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectComparableWithReference.html#ad1905b7160fa76212ab3913f59d132ce">operator=</a> (const <a class="el" href="classMR_1_1ObjectComparableWithReference.html">ObjectComparableWithReference</a> &amp;)=default</td></tr>
-<tr class="separator:ad1905b7160fa76212ab3913f59d132ce inherit pub_methods_classMR_1_1ObjectComparableWithReference"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6079e4aac0a4e04a8055a9f639264096 inherit pub_methods_classMR_1_1ObjectComparableWithReference" id="r_a6079e4aac0a4e04a8055a9f639264096"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1ObjectComparableWithReference.html">ObjectComparableWithReference</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectComparableWithReference.html#a6079e4aac0a4e04a8055a9f639264096">operator=</a> (<a class="el" href="classMR_1_1ObjectComparableWithReference.html">ObjectComparableWithReference</a> &amp;&amp;)=default</td></tr>
-<tr class="separator:a6079e4aac0a4e04a8055a9f639264096 inherit pub_methods_classMR_1_1ObjectComparableWithReference"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -714,14 +679,14 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:ae552548142751ab5d35d446cb5d56fae inherit pro_methods_classMR_1_1Object" id="r_ae552548142751ab5d35d446cb5d56fae"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#ae552548142751ab5d35d446cb5d56fae">onWorldXfChanged_</a> ()</td></tr>
 <tr class="separator:ae552548142751ab5d35d446cb5d56fae inherit pro_methods_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
-<tr class="memitem:a6c351c0002f72d5577a8e386773a1f0a" id="r_a6c351c0002f72d5577a8e386773a1f0a"><td class="memItemLeft" align="right" valign="top">std::optional&lt; Vector3f &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c351c0002f72d5577a8e386773a1f0a">referencePos_</a></td></tr>
-<tr class="separator:a6c351c0002f72d5577a8e386773a1f0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa1a669390611cf0bdba1c1340d3a8afb" id="r_aa1a669390611cf0bdba1c1340d3a8afb"><td class="memItemLeft" align="right" valign="top">std::optional&lt; Vector3f &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1a669390611cf0bdba1c1340d3a8afb">referenceNormal_</a></td></tr>
-<tr class="separator:aa1a669390611cf0bdba1c1340d3a8afb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a334b48d4b0053a3722e1dc8d898ab72b" id="r_a334b48d4b0053a3722e1dc8d898ab72b"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="structMR_1_1ObjectComparableWithReference_1_1ComparisonTolerance.html">ComparisonTolerance</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a334b48d4b0053a3722e1dc8d898ab72b">tolerance_</a></td></tr>
-<tr class="separator:a334b48d4b0053a3722e1dc8d898ab72b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_types_classMR_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_types_classMR_1_1Object')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classMR_1_1Object.html">MR::Object</a></td></tr>
+<tr class="memitem:adbe9460ebe355b8838a49e5a8a7d5830 inherit pub_types_classMR_1_1Object" id="r_adbe9460ebe355b8838a49e5a8a7d5830"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#adbe9460ebe355b8838a49e5a8a7d5830">XfChangedSignal</a> = <a class="el" href="structMR_1_1Signal.html">Signal</a>&lt;void()&gt;</td></tr>
+<tr class="separator:adbe9460ebe355b8838a49e5a8a7d5830 inherit pub_types_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_attribs_classMR_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_attribs_classMR_1_1Object')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="classMR_1_1Object.html">MR::Object</a></td></tr>
+<tr class="memitem:a84debbb8e5d281139acb86024c2f7964 inherit pub_attribs_classMR_1_1Object" id="r_a84debbb8e5d281139acb86024c2f7964"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Object.html#adbe9460ebe355b8838a49e5a8a7d5830">XfChangedSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a84debbb8e5d281139acb86024c2f7964">worldXfChangedSignal</a></td></tr>
+<tr class="separator:a84debbb8e5d281139acb86024c2f7964 inherit pub_attribs_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classMR_1_1FeatureObject"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1FeatureObject')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1FeatureObject.html">MR::FeatureObject</a></td></tr>
 <tr class="memitem:abd213076dcde954e6f1f26d06fa6d2fa inherit pro_attribs_classMR_1_1FeatureObject" id="r_abd213076dcde954e6f1f26d06fa6d2fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1ViewportMask.html">ViewportMask</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1FeatureObject.html#abd213076dcde954e6f1f26d06fa6d2fa">subfeatureVisibility_</a> = <a class="el" href="classMR_1_1ViewportMask.html#a46b7527f0e3a3394b41be2515c171747">ViewportMask::all</a>()</td></tr>
 <tr class="separator:abd213076dcde954e6f1f26d06fa6d2fa inherit pro_attribs_classMR_1_1FeatureObject"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -811,15 +776,6 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a2ba9302240c85bc5dfd78068e7b2e918 inherit pro_attribs_classMR_1_1ObjectChildrenHolder" id="r_a2ba9302240c85bc5dfd78068e7b2e918"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::weak_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectChildrenHolder.html#a2ba9302240c85bc5dfd78068e7b2e918">bastards_</a></td></tr>
 <tr class="memdesc:a2ba9302240c85bc5dfd78068e7b2e918 inherit pro_attribs_classMR_1_1ObjectChildrenHolder"><td class="mdescLeft">&#160;</td><td class="mdescRight">recognized ones  <br /></td></tr>
 <tr class="separator:a2ba9302240c85bc5dfd78068e7b2e918 inherit pro_attribs_classMR_1_1ObjectChildrenHolder"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pub_types_classMR_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_types_classMR_1_1Object')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classMR_1_1Object.html">MR::Object</a></td></tr>
-<tr class="memitem:adbe9460ebe355b8838a49e5a8a7d5830 inherit pub_types_classMR_1_1Object" id="r_adbe9460ebe355b8838a49e5a8a7d5830"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#adbe9460ebe355b8838a49e5a8a7d5830">XfChangedSignal</a> = <a class="el" href="structMR_1_1Signal.html">Signal</a>&lt;void()&gt;</td></tr>
-<tr class="separator:adbe9460ebe355b8838a49e5a8a7d5830 inherit pub_types_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_attribs_classMR_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_attribs_classMR_1_1Object')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="classMR_1_1Object.html">MR::Object</a></td></tr>
-<tr class="memitem:a84debbb8e5d281139acb86024c2f7964 inherit pub_attribs_classMR_1_1Object" id="r_a84debbb8e5d281139acb86024c2f7964"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1Object.html#adbe9460ebe355b8838a49e5a8a7d5830">XfChangedSignal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Object.html#a84debbb8e5d281139acb86024c2f7964">worldXfChangedSignal</a></td></tr>
-<tr class="separator:a84debbb8e5d281139acb86024c2f7964 inherit pub_attribs_classMR_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="classMR_1_1Object.html" title="named object in the data model">Object</a> to show point feature </p>
@@ -1075,60 +1031,6 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="af78f04f7a5e05b3ff66195466cb70380" name="af78f04f7a5e05b3ff66195466cb70380"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af78f04f7a5e05b3ff66195466cb70380">&#9670;&#160;</a></span>comparisonToleranceIsAlwaysOnlyPositive()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::PointObject::comparisonToleranceIsAlwaysOnlyPositive </td>
-          <td>(</td>
-          <td class="paramtype">std::size_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Reimplemented from <a class="el" href="classMR_1_1ObjectComparableWithReference.html#ac27662b0d2266f41b4dfab6844dba1e4">MR::ObjectComparableWithReference</a>.</p>
-
-</div>
-</div>
-<a id="a405f70c4921e625611c8f123b63b3d2e" name="a405f70c4921e625611c8f123b63b3d2e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a405f70c4921e625611c8f123b63b3d2e">&#9670;&#160;</a></span>computeComparableProperty()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; <a class="el" href="structMR_1_1ObjectComparableWithReference_1_1ComparableProperty.html">ComparableProperty</a> &gt; MR::PointObject::computeComparableProperty </td>
-          <td>(</td>
-          <td class="paramtype">std::size_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implements <a class="el" href="classMR_1_1ObjectComparableWithReference.html#a329df4e0165f775043393c15f51db899">MR::ObjectComparableWithReference</a>.</p>
-
-</div>
-</div>
 <a id="a11959f6deff417510fd5847ba06dd31c" name="a11959f6deff417510fd5847ba06dd31c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a11959f6deff417510fd5847ba06dd31c">&#9670;&#160;</a></span>deserializeModel_()</h2>
 
@@ -1191,114 +1093,6 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a4e104b9bd2f1093c17d2c1ac30d1f545" name="a4e104b9bd2f1093c17d2c1ac30d1f545"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4e104b9bd2f1093c17d2c1ac30d1f545">&#9670;&#160;</a></span>getComparablePropertyName()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::string_view MR::PointObject::getComparablePropertyName </td>
-          <td>(</td>
-          <td class="paramtype">std::size_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implements <a class="el" href="classMR_1_1ObjectComparableWithReference.html#adf521b4333a73a595da64ed48a3a7076">MR::ObjectComparableWithReference</a>.</p>
-
-</div>
-</div>
-<a id="af564deca0ed6ad0666fb51edd4705f7a" name="af564deca0ed6ad0666fb51edd4705f7a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af564deca0ed6ad0666fb51edd4705f7a">&#9670;&#160;</a></span>getComparisonReferenceValue()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="structMR_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue.html">ComparisonReferenceValue</a> MR::PointObject::getComparisonReferenceValue </td>
-          <td>(</td>
-          <td class="paramtype">std::size_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implements <a class="el" href="classMR_1_1ObjectComparableWithReference.html#a0fe95bc93503759817b9966ccebc4b0e">MR::ObjectComparableWithReference</a>.</p>
-
-</div>
-</div>
-<a id="a51bd94351afd7b15a44782c68719ce73" name="a51bd94351afd7b15a44782c68719ce73"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a51bd94351afd7b15a44782c68719ce73">&#9670;&#160;</a></span>getComparisonReferenceValueName()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::string_view MR::PointObject::getComparisonReferenceValueName </td>
-          <td>(</td>
-          <td class="paramtype">std::size_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implements <a class="el" href="classMR_1_1ObjectComparableWithReference.html#ac3f2255c124f60526c36eb2cc32be9f9">MR::ObjectComparableWithReference</a>.</p>
-
-</div>
-</div>
-<a id="ae114866670e1b33370022b0e44c99522" name="ae114866670e1b33370022b0e44c99522"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae114866670e1b33370022b0e44c99522">&#9670;&#160;</a></span>getComparisonTolerence()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; <a class="el" href="structMR_1_1ObjectComparableWithReference_1_1ComparisonTolerance.html">ComparisonTolerance</a> &gt; MR::PointObject::getComparisonTolerence </td>
-          <td>(</td>
-          <td class="paramtype">std::size_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implements <a class="el" href="classMR_1_1ObjectComparableWithReference.html#ae22bf9ebca049eed0868db359a75e855">MR::ObjectComparableWithReference</a>.</p>
-
-</div>
-</div>
 <a id="a3a5e23a960b340fbbebd773dffc94b36" name="a3a5e23a960b340fbbebd773dffc94b36"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3a5e23a960b340fbbebd773dffc94b36">&#9670;&#160;</a></span>getPoint()</h2>
 
@@ -1323,60 +1117,6 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>calculates point from xf </p>
-
-</div>
-</div>
-<a id="ab2387dd163a995ba7088374567f6e1c2" name="ab2387dd163a995ba7088374567f6e1c2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab2387dd163a995ba7088374567f6e1c2">&#9670;&#160;</a></span>numComparableProperties()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::size_t MR::PointObject::numComparableProperties </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implements <a class="el" href="classMR_1_1ObjectComparableWithReference.html#a7308ba05352b5ce9d88d9dd0510db0a8">MR::ObjectComparableWithReference</a>.</p>
-
-</div>
-</div>
-<a id="a8dfe3665850adbcdd3cd9ac1ec7410e4" name="a8dfe3665850adbcdd3cd9ac1ec7410e4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8dfe3665850adbcdd3cd9ac1ec7410e4">&#9670;&#160;</a></span>numComparisonReferenceValues()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::size_t MR::PointObject::numComparisonReferenceValues </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Reimplemented from <a class="el" href="classMR_1_1ObjectComparableWithReference.html#a7e386df110c9d0fa3c799cf002cbc845">MR::ObjectComparableWithReference</a>.</p>
 
 </div>
 </div>
@@ -1489,68 +1229,6 @@ Additional Inherited Members</h2></td></tr>
 <p>Creates future to save object model (e.g. mesh) in given file path is full filename without extension </p>
 
 <p>Reimplemented from <a class="el" href="classMR_1_1Object.html#a7bf17e9cdecb511570759169e86bf0e2">MR::Object</a>.</p>
-
-</div>
-</div>
-<a id="a2a47fdd801090f2e2102460aed19e8a0" name="a2a47fdd801090f2e2102460aed19e8a0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2a47fdd801090f2e2102460aed19e8a0">&#9670;&#160;</a></span>setComparisonReferenceValue()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::PointObject::setComparisonReferenceValue </td>
-          <td>(</td>
-          <td class="paramtype">std::size_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::optional&lt; ComparisonReferenceValue::Var &gt;</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implements <a class="el" href="classMR_1_1ObjectComparableWithReference.html#acb98cc0c1aa80731b206a983e8e79b0a">MR::ObjectComparableWithReference</a>.</p>
-
-</div>
-</div>
-<a id="ad5a637474b871b0eeb7c5611e7e0717e" name="ad5a637474b871b0eeb7c5611e7e0717e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad5a637474b871b0eeb7c5611e7e0717e">&#9670;&#160;</a></span>setComparisonTolerance()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::PointObject::setComparisonTolerance </td>
-          <td>(</td>
-          <td class="paramtype">std::size_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::optional&lt; <a class="el" href="structMR_1_1ObjectComparableWithReference_1_1ComparisonTolerance.html">ComparisonTolerance</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>newTolerance</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implements <a class="el" href="classMR_1_1ObjectComparableWithReference.html#a7df2402af378c17572454d7492ba7eec">MR::ObjectComparableWithReference</a>.</p>
 
 </div>
 </div>
@@ -1711,73 +1389,6 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="classMR_1_1FeatureObject.html#a45535da24d737a00a9262dd1fbe8525f">MR::FeatureObject</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="aa1a669390611cf0bdba1c1340d3a8afb" name="aa1a669390611cf0bdba1c1340d3a8afb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa1a669390611cf0bdba1c1340d3a8afb">&#9670;&#160;</a></span>referenceNormal_</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::optional&lt;Vector3f&gt; MR::PointObject::referenceNormal_</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6c351c0002f72d5577a8e386773a1f0a" name="a6c351c0002f72d5577a8e386773a1f0a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6c351c0002f72d5577a8e386773a1f0a">&#9670;&#160;</a></span>referencePos_</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::optional&lt;Vector3f&gt; MR::PointObject::referencePos_</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a334b48d4b0053a3722e1dc8d898ab72b" name="a334b48d4b0053a3722e1dc8d898ab72b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a334b48d4b0053a3722e1dc8d898ab72b">&#9670;&#160;</a></span>tolerance_</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::optional&lt;<a class="el" href="structMR_1_1ObjectComparableWithReference_1_1ComparisonTolerance.html">ComparisonTolerance</a>&gt; MR::PointObject::tolerance_</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>

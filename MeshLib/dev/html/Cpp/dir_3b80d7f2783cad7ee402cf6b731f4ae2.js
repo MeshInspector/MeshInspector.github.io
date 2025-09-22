@@ -289,6 +289,7 @@ var dir_3b80d7f2783cad7ee402cf6b731f4ae2 =
     [ "MRPointCloudRelax.h", "MRPointCloudRelax_8h.html", "MRPointCloudRelax_8h" ],
     [ "MRPointCloudTriangulation.h", "MRMesh_2MRPointCloudTriangulation_8h.html", "MRMesh_2MRPointCloudTriangulation_8h" ],
     [ "MRPointCloudTriangulationHelpers.h", "MRPointCloudTriangulationHelpers_8h.html", "MRPointCloudTriangulationHelpers_8h" ],
+    [ "MRPointMeasurementObject.h", "MRPointMeasurementObject_8h.html", "MRPointMeasurementObject_8h" ],
     [ "MRPointObject.h", "MRPointObject_8h.html", null ],
     [ "MRPointOnFace.h", "MRMesh_2MRPointOnFace_8h.html", "MRMesh_2MRPointOnFace_8h" ],
     [ "MRPointOnObject.h", "MRPointOnObject_8h.html", "MRPointOnObject_8h" ],

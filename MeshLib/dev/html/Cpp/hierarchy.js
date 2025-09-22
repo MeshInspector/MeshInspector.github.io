@@ -86,6 +86,9 @@ var hierarchy =
         [ "MR::RenderImGuiLabelObject", "classMR_1_1RenderImGuiLabelObject.html", null ],
         [ "MR::RenderRadiusObject", "classMR_1_1RenderRadiusObject.html", null ]
       ] ],
+      [ "MR::RenderObjectCombinator< RenderNameObject >", "classMR_1_1RenderObjectCombinator.html", [
+        [ "MR::RenderPointMeasurementObject", "classMR_1_1RenderPointMeasurementObject.html", null ]
+      ] ],
       [ "MR::RenderObjectCombinator< Bases >", "classMR_1_1RenderObjectCombinator.html", null ]
     ] ],
     [ "MR::BaseShellParameters", "structMR_1_1BaseShellParameters.html", [
@@ -936,6 +939,7 @@ var hierarchy =
           [ "MR::MeasurementObject", "classMR_1_1MeasurementObject.html", [
             [ "MR::AngleMeasurementObject", "classMR_1_1AngleMeasurementObject.html", null ],
             [ "MR::DistanceMeasurementObject", "classMR_1_1DistanceMeasurementObject.html", null ],
+            [ "MR::PointMeasurementObject", "classMR_1_1PointMeasurementObject.html", null ],
             [ "MR::RadiusMeasurementObject", "classMR_1_1RadiusMeasurementObject.html", null ]
           ] ],
           [ "MR::ObjectImGuiLabel", "classMR_1_1ObjectImGuiLabel.html", null ],
@@ -963,7 +967,7 @@ var hierarchy =
     ] ],
     [ "MR::ObjectComparableWithReference", "classMR_1_1ObjectComparableWithReference.html", [
       [ "MR::DistanceMeasurementObject", "classMR_1_1DistanceMeasurementObject.html", null ],
-      [ "MR::PointObject", "classMR_1_1PointObject.html", null ]
+      [ "MR::PointMeasurementObject", "classMR_1_1PointMeasurementObject.html", null ]
     ] ],
     [ "MR::ObjectFactoryBase", "classMR_1_1ObjectFactoryBase.html", [
       [ "MR::ObjectFactory< T >", "classMR_1_1ObjectFactory.html", null ]

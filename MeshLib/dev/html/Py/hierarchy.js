@@ -732,6 +732,7 @@ var hierarchy =
           [ "mrmeshpy.MeasurementObject", "classmrmeshpy_1_1MeasurementObject.html", [
             [ "mrmeshpy.AngleMeasurementObject", "classmrmeshpy_1_1AngleMeasurementObject.html", null ],
             [ "mrmeshpy.DistanceMeasurementObject", "classmrmeshpy_1_1DistanceMeasurementObject.html", null ],
+            [ "mrmeshpy.PointMeasurementObject", "classmrmeshpy_1_1PointMeasurementObject.html", null ],
             [ "mrmeshpy.RadiusMeasurementObject", "classmrmeshpy_1_1RadiusMeasurementObject.html", null ]
           ] ],
           [ "mrmeshpy.ObjectLabel", "classmrmeshpy_1_1ObjectLabel.html", null ],
@@ -752,7 +753,7 @@ var hierarchy =
     ] ],
     [ "mrmeshpy.ObjectComparableWithReference", "classmrmeshpy_1_1ObjectComparableWithReference.html", [
       [ "mrmeshpy.DistanceMeasurementObject", "classmrmeshpy_1_1DistanceMeasurementObject.html", null ],
-      [ "mrmeshpy.PointObject", "classmrmeshpy_1_1PointObject.html", null ]
+      [ "mrmeshpy.PointMeasurementObject", "classmrmeshpy_1_1PointMeasurementObject.html", null ]
     ] ],
     [ "mrmeshpy.ObjectFactoryBase", "classmrmeshpy_1_1ObjectFactoryBase.html", null ],
     [ "mrmeshpy.ObjectMeshData", "classmrmeshpy_1_1ObjectMeshData.html", null ],

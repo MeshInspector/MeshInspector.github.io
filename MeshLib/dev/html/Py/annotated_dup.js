@@ -674,6 +674,7 @@ var annotated_dup =
       [ "PointCloudComponents", "classmrmeshpy_1_1PointCloudComponents.html", null ],
       [ "PointCloudPart", "classmrmeshpy_1_1PointCloudPart.html", "classmrmeshpy_1_1PointCloudPart" ],
       [ "PointCloudRelaxParams", "classmrmeshpy_1_1PointCloudRelaxParams.html", "classmrmeshpy_1_1PointCloudRelaxParams" ],
+      [ "PointMeasurementObject", "classmrmeshpy_1_1PointMeasurementObject.html", "classmrmeshpy_1_1PointMeasurementObject" ],
       [ "PointObject", "classmrmeshpy_1_1PointObject.html", "classmrmeshpy_1_1PointObject" ],
       [ "PointOnFace", "classmrmeshpy_1_1PointOnFace.html", "classmrmeshpy_1_1PointOnFace" ],
       [ "PointOnObject", "classmrmeshpy_1_1PointOnObject.html", "classmrmeshpy_1_1PointOnObject" ],

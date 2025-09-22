@@ -1,5 +1,7 @@
 var NAVTREEINDEX20 =
 {
+"classMR_1_1BestFitPolynomial.html#a8100999b4e841b219d7accb5a05c23bb":[6,0,2,0,1,60,2],
+"classMR_1_1BestFitPolynomial.html#a94178932bf3011077ad8a874c0e442ab":[6,0,1,0,1,78,3],
 "classMR_1_1BestFitPolynomial.html#a94178932bf3011077ad8a874c0e442ab":[6,0,2,0,1,60,3],
 "classMR_1_1BinaryOperations.html":[6,0,1,0,1,79],
 "classMR_1_1BinaryOperations.html":[6,0,2,0,1,61],
@@ -247,7 +249,5 @@ var NAVTREEINDEX20 =
 "classMR_1_1ChangeMeshCreasesAction.html#a1dcddeee79326fa1a00c79904fb4a1b7":[6,0,0,4,30,3],
 "classMR_1_1ChangeMeshCreasesAction.html#a222e4ff1e014646782819abea4d1a92d":[6,0,0,4,30,0],
 "classMR_1_1ChangeMeshCreasesAction.html#a35abf0006f1f9dde31def6af394af1ae":[6,0,0,4,30,1],
-"classMR_1_1ChangeMeshCreasesAction.html#a850dbf46650c86a5fe37b4b876fe5e43":[6,0,0,4,30,5],
-"classMR_1_1ChangeMeshCreasesAction.html#a8e94b4602cd0f65cfe61ec32c75659db":[6,0,0,4,30,4],
-"classMR_1_1ChangeMeshCreasesAction.html#abaa4073cae3371c003ef86720b945c86":[6,0,0,4,30,6]
+"classMR_1_1ChangeMeshCreasesAction.html#a850dbf46650c86a5fe37b4b876fe5e43":[6,0,0,4,30,5]
 };
