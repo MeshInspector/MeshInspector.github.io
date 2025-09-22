@@ -129,14 +129,11 @@ var MRIRenderObject_8h =
     [ "MR_UiRenderParams_ConstructFromAnother", "MRIRenderObject_8h.html#a018537cd94893852c3aa65a05959a327", null ],
     [ "MR_UiRenderParams_Destroy", "MRIRenderObject_8h.html#ad29dc208671ded1b2dd24ebbe18db3b7", null ],
     [ "MR_UiRenderParams_DestroyArray", "MRIRenderObject_8h.html#ad3e8f2b56c56369733b3f8d343ddf63f", null ],
-    [ "MR_UiRenderParams_Get_scale", "MRIRenderObject_8h.html#a3b1aef414f8ad0a217d57e60d28fb6f0", null ],
     [ "MR_UiRenderParams_Get_tasks", "MRIRenderObject_8h.html#a0c0c63ce9e85f8466a099936ed25e330", null ],
-    [ "MR_UiRenderParams_GetMutable_scale", "MRIRenderObject_8h.html#a8c87828b53fcb60767207a1457bec477", null ],
     [ "MR_UiRenderParams_GetMutable_tasks", "MRIRenderObject_8h.html#afd78c3668b2702c1cbd7516d5d9bac18", null ],
     [ "MR_UiRenderParams_MutableUpcastTo_MR_BaseRenderParams", "MRIRenderObject_8h.html#a22d91218a2e270664cddf53f9c15ad18", null ],
     [ "MR_UiRenderParams_OffsetMutablePtr", "MRIRenderObject_8h.html#a62b36a1dce6d509f7db97817fef1609e", null ],
     [ "MR_UiRenderParams_OffsetPtr", "MRIRenderObject_8h.html#a0acddb4078e51a0bd95633624531545c", null ],
-    [ "MR_UiRenderParams_Set_scale", "MRIRenderObject_8h.html#ac927c9d822c685153eeb4233ef81cf88", null ],
     [ "MR_UiRenderParams_Set_tasks", "MRIRenderObject_8h.html#a3cccc6fe8c1b2eaee20c318a1189cb4b", null ],
     [ "MR_UiRenderParams_UpcastTo_MR_BaseRenderParams", "MRIRenderObject_8h.html#aa62f041c621ad306751752998ea44e07", null ]
 ];

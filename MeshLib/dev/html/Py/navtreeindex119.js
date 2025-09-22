@@ -1,9 +1,5 @@
 var NAVTREEINDEX119 =
 {
-"classmrmeshpy_1_1func__bool__from__Id__EdgeTag__Vector3__float.html#a1f7f5062e012243d5943d0de282ed349":[6,1,0,0,2,283,7],
-"classmrmeshpy_1_1func__bool__from__Id__EdgeTag__Vector3__float.html#a1f7f5062e012243d5943d0de282ed349":[6,1,1,0,1,283,7],
-"classmrmeshpy_1_1func__bool__from__Id__EdgeTag__Vector3__float.html#a21dbdd69d0dd85bdf4421fa9647a80f2":[6,1,0,0,2,283,1],
-"classmrmeshpy_1_1func__bool__from__Id__EdgeTag__Vector3__float.html#a21dbdd69d0dd85bdf4421fa9647a80f2":[6,1,1,0,1,283,1],
 "classmrmeshpy_1_1func__bool__from__Id__EdgeTag__Vector3__float.html#a72c5996963141c7d692b4a33a01a6ef4":[6,1,0,0,2,283,2],
 "classmrmeshpy_1_1func__bool__from__Id__EdgeTag__Vector3__float.html#a72c5996963141c7d692b4a33a01a6ef4":[6,1,1,0,1,283,2],
 "classmrmeshpy_1_1func__bool__from__Id__EdgeTag__Vector3__float.html#a9ec0aeff02bfd8047d135cbaa20a89e0":[6,1,0,0,2,283,0],
@@ -249,5 +245,9 @@ var NAVTREEINDEX119 =
 "classmrmeshpy_1_1func__double__from__TypedBitSet__Id__FaceTag__FixUndercuts__FindParams.html#ab79202b6e535999897ef97db3335d7d1":[6,1,0,0,2,296,3],
 "classmrmeshpy_1_1func__double__from__TypedBitSet__Id__FaceTag__FixUndercuts__FindParams.html#ab79202b6e535999897ef97db3335d7d1":[6,1,1,0,1,296,3],
 "classmrmeshpy_1_1func__double__from__double__double.html":[6,1,0,0,2,293],
-"classmrmeshpy_1_1func__double__from__double__double.html":[6,1,1,0,1,293]
+"classmrmeshpy_1_1func__double__from__double__double.html":[6,1,1,0,1,293],
+"classmrmeshpy_1_1func__double__from__double__double.html#a03d76a374b3287154fb57a7a35cd19d3":[6,1,0,0,2,293,4],
+"classmrmeshpy_1_1func__double__from__double__double.html#a03d76a374b3287154fb57a7a35cd19d3":[6,1,1,0,1,293,4],
+"classmrmeshpy_1_1func__double__from__double__double.html#a0673a80cfdff0a0c638eaf070e174ad0":[6,1,0,0,2,293,0],
+"classmrmeshpy_1_1func__double__from__double__double.html#a0673a80cfdff0a0c638eaf070e174ad0":[6,1,1,0,1,293,0]
 };

@@ -1,8 +1,5 @@
 var NAVTREEINDEX86 =
 {
-"MRUniteManyMeshes_8h_source.html":[6,2,1,0,0,0,1,341],
-"MRUnorientedTriangle_8h.html":[6,2,1,0,0,0,1,342],
-"MRUnorientedTriangle_8h.html#a0f57b4982b8b12751754594bc79c3e83":[6,2,1,0,0,0,1,342,3],
 "MRUnorientedTriangle_8h.html#a2ba35a57297946739b295026d61cbb37":[6,2,1,0,0,0,1,342,7],
 "MRUnorientedTriangle_8h.html#a2cdd56f9005d43ce0bbf5ec4357ea0e2":[6,2,1,0,0,0,1,342,17],
 "MRUnorientedTriangle_8h.html#a31e44df4ed6582a8049a7cac8ee69a75":[6,2,1,0,0,0,1,342,12],
@@ -249,5 +246,8 @@ var NAVTREEINDEX86 =
 "MRVector2_8h.html#a4d3ac7f54611ac1d21cd2feba2f24300":[6,2,1,0,0,0,1,344,85],
 "MRVector2_8h.html#a4eae106531fae8ee5c157cef5facd188":[6,2,1,0,0,0,1,344,107],
 "MRVector2_8h.html#a4f2b952518e2378eddb5a9cd35729a03":[6,2,1,0,0,0,1,344,79],
-"MRVector2_8h.html#a4f9ff5dcd9f7d8e60c3d997030e87048":[6,2,1,0,0,0,1,344,51]
+"MRVector2_8h.html#a4f9ff5dcd9f7d8e60c3d997030e87048":[6,2,1,0,0,0,1,344,51],
+"MRVector2_8h.html#a5934270b8b6e0e432eb2a3f0a2cfaeb9":[6,2,1,0,0,0,1,344,74],
+"MRVector2_8h.html#a59853989d08f4661a81e58d7d14e1cdf":[6,2,1,0,0,0,1,344,63],
+"MRVector2_8h.html#a5d2e767a47c2fddd463ae66990539ca7":[6,2,1,0,0,0,1,344,88]
 };

@@ -1,9 +1,5 @@
 var NAVTREEINDEX127 =
 {
-"classmrmeshpy_1_1std__optional__Color.html#aef965ea102723e4c88d030ad38f8550d":[6,1,0,0,2,820,3],
-"classmrmeshpy_1_1std__optional__Color.html#aef965ea102723e4c88d030ad38f8550d":[6,1,1,0,1,820,3],
-"classmrmeshpy_1_1std__optional__ObjectComparableWithReference__ComparisonTolerance.html":[6,1,0,0,2,823],
-"classmrmeshpy_1_1std__optional__ObjectComparableWithReference__ComparisonTolerance.html":[6,1,1,0,1,823],
 "classmrmeshpy_1_1std__optional__ObjectComparableWithReference__ComparisonTolerance.html#a189a60ea27d11a593dcfabde42dde811":[6,1,0,0,2,823,5],
 "classmrmeshpy_1_1std__optional__ObjectComparableWithReference__ComparisonTolerance.html#a189a60ea27d11a593dcfabde42dde811":[6,1,1,0,1,823,5],
 "classmrmeshpy_1_1std__optional__ObjectComparableWithReference__ComparisonTolerance.html#a3605149ad814a9d24ea1118f303475a0":[6,1,0,0,2,823,1],
@@ -249,5 +245,9 @@ var NAVTREEINDEX127 =
 "classmrmeshpy_1_1std__variant__Polynomial__double__0ul__Polynomial__double__1ul__Polynomial__dou2f412bbc4e3a625bf6802bb4d4c6097b.html#adabf4b83ef865c76e81fb931a2d8d120":[6,1,0,0,2,837,14],
 "classmrmeshpy_1_1std__variant__Polynomial__double__0ul__Polynomial__double__1ul__Polynomial__dou2f412bbc4e3a625bf6802bb4d4c6097b.html#adabf4b83ef865c76e81fb931a2d8d120":[6,1,1,0,1,837,14],
 "classmrmeshpy_1_1std__variant__Polynomial__double__0ul__Polynomial__double__1ul__Polynomial__dou2f412bbc4e3a625bf6802bb4d4c6097b.html#ade9e1d3dfd57e9dc3e24700790f013fa":[6,1,0,0,2,837,5],
-"classmrmeshpy_1_1std__variant__Polynomial__double__0ul__Polynomial__double__1ul__Polynomial__dou2f412bbc4e3a625bf6802bb4d4c6097b.html#ade9e1d3dfd57e9dc3e24700790f013fa":[6,1,1,0,1,837,5]
+"classmrmeshpy_1_1std__variant__Polynomial__double__0ul__Polynomial__double__1ul__Polynomial__dou2f412bbc4e3a625bf6802bb4d4c6097b.html#ade9e1d3dfd57e9dc3e24700790f013fa":[6,1,1,0,1,837,5],
+"classmrmeshpy_1_1std__variant__Polynomial__double__0ul__Polynomial__double__1ul__Polynomial__dou2f412bbc4e3a625bf6802bb4d4c6097b.html#ae4fbd6cbae666632c560117784e2094d":[6,1,0,0,2,837,6],
+"classmrmeshpy_1_1std__variant__Polynomial__double__0ul__Polynomial__double__1ul__Polynomial__dou2f412bbc4e3a625bf6802bb4d4c6097b.html#ae4fbd6cbae666632c560117784e2094d":[6,1,1,0,1,837,6],
+"classmrmeshpy_1_1std__variant__Polynomial__double__0ul__Polynomial__double__1ul__Polynomial__dou2f412bbc4e3a625bf6802bb4d4c6097b.html#af0549430333d4abd26523d3e1fea07cd":[6,1,0,0,2,837,13],
+"classmrmeshpy_1_1std__variant__Polynomial__double__0ul__Polynomial__double__1ul__Polynomial__dou2f412bbc4e3a625bf6802bb4d4c6097b.html#af0549430333d4abd26523d3e1fea07cd":[6,1,1,0,1,837,13]
 };

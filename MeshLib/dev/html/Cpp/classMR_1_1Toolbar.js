@@ -12,6 +12,5 @@ var classMR_1_1Toolbar =
     [ "setItemsListMigrations", "classMR_1_1Toolbar.html#a24ece620051dcd552679361dbf55ceeb", null ],
     [ "setItemsListVersion", "classMR_1_1Toolbar.html#a8cd2e212765ca42ea120fff0d4cd9a31", null ],
     [ "setMaxItemCount", "classMR_1_1Toolbar.html#a914add34afdb7a807157d39de024b404", null ],
-    [ "setRibbonMenu", "classMR_1_1Toolbar.html#a3c6f2005020ccba3494b2feba5e534b1", null ],
-    [ "setScaling", "classMR_1_1Toolbar.html#a64ad2138175d51de7ec1c4719179bf73", null ]
+    [ "setRibbonMenu", "classMR_1_1Toolbar.html#a3c6f2005020ccba3494b2feba5e534b1", null ]
 ];

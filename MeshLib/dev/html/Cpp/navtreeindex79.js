@@ -1,13 +1,5 @@
 var NAVTREEINDEX79 =
 {
-"structMR_1_1ImproveSamplingSettings.html":[6,0,2,0,1,291],
-"structMR_1_1ImproveSamplingSettings.html#a16a300ede2680b4bc68e81aeb8130903":[6,0,1,0,1,309,3],
-"structMR_1_1ImproveSamplingSettings.html#a16a300ede2680b4bc68e81aeb8130903":[6,0,2,0,1,291,3],
-"structMR_1_1ImproveSamplingSettings.html#a23d034e4e8ff34a828259420ecd4a8d5":[6,0,1,0,1,309,2],
-"structMR_1_1ImproveSamplingSettings.html#a23d034e4e8ff34a828259420ecd4a8d5":[6,0,2,0,1,291,2],
-"structMR_1_1ImproveSamplingSettings.html#a360e357b9f7ac2e2bd821f4ed477a6ba":[6,0,1,0,1,309,4],
-"structMR_1_1ImproveSamplingSettings.html#a360e357b9f7ac2e2bd821f4ed477a6ba":[6,0,2,0,1,291,4],
-"structMR_1_1ImproveSamplingSettings.html#a402a2839352286a79e22d7c24a11be24":[6,0,1,0,1,309,6],
 "structMR_1_1ImproveSamplingSettings.html#a402a2839352286a79e22d7c24a11be24":[6,0,2,0,1,291,6],
 "structMR_1_1ImproveSamplingSettings.html#a4aa26d04f708ecea38d954ac1c1d50c6":[6,0,1,0,1,309,1],
 "structMR_1_1ImproveSamplingSettings.html#a4aa26d04f708ecea38d954ac1c1d50c6":[6,0,2,0,1,291,1],
@@ -249,5 +241,13 @@ var NAVTREEINDEX79 =
 "structMR_1_1LoadedObjectT.html#aabc1e6add51daf7ce715234cb96c9805":[6,0,1,0,1,351,1],
 "structMR_1_1LoadedObjectT.html#aabc1e6add51daf7ce715234cb96c9805":[6,0,2,0,1,333,1],
 "structMR_1_1LoadedObjects.html":[6,0,1,0,1,350],
-"structMR_1_1LoadedObjects.html":[6,0,2,0,1,332]
+"structMR_1_1LoadedObjects.html":[6,0,2,0,1,332],
+"structMR_1_1LoadedObjects.html#a4a78ecdda3d1b42586d0d6e6e6e6bd0e":[6,0,1,0,1,350,1],
+"structMR_1_1LoadedObjects.html#a4a78ecdda3d1b42586d0d6e6e6e6bd0e":[6,0,2,0,1,332,1],
+"structMR_1_1LoadedObjects.html#aad900de70ed9e1d66bf895d703b0eb6d":[6,0,1,0,1,350,0],
+"structMR_1_1LoadedObjects.html#aad900de70ed9e1d66bf895d703b0eb6d":[6,0,2,0,1,332,0],
+"structMR_1_1MakeBridgeResult.html":[6,0,0,9,3,4],
+"structMR_1_1MakeBridgeResult.html#a083042e18f6b7e0a27d0e66142053119":[6,0,0,9,3,4,0],
+"structMR_1_1MakeBridgeResult.html#a2d3386014f3867f61860546d2b63b02a":[6,0,0,9,3,4,3],
+"structMR_1_1MakeBridgeResult.html#a5959fa7b09b9a888870b4492e158145f":[6,0,0,9,3,4,1]
 };

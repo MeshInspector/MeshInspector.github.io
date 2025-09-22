@@ -35,7 +35,7 @@ var namespaceImGui =
     [ "getExpSpeed", "namespaceImGui.html#a22263f205e7e3988ff6be4e152a963a6", null ],
     [ "GetImagePointerCoord", "namespaceImGui.html#a1fb7653d1377ce1f2dd7a8f9d1057615", null ],
     [ "getLuminance", "namespaceImGui.html#adcf2f35edd39ac820b77b169fce7c33e", null ],
-    [ "GetTitleBarHeght", "namespaceImGui.html#a660b386cc39248222a1d8dd3eec60024", null ],
+    [ "GetTitleBarHeght", "namespaceImGui.html#a9566862a34c508f460141204ccee118d", null ],
     [ "Image", "namespaceImGui.html#ad271bb43979f12d68480619505b2900f", null ],
     [ "Image", "namespaceImGui.html#a35ab4450ec9a2caa24b029e5c5c11ecb", null ],
     [ "InputIntBitSet", "namespaceImGui.html#acd8cc938250148aa8872b289ee37a885", null ],
@@ -45,12 +45,12 @@ var namespaceImGui =
     [ "ListBox", "namespaceImGui.html#a378834d8803566841b144ddf878ef623", null ],
     [ "LoadSavedWindowPos", "namespaceImGui.html#aba3aedd4bc21e49dc028ea838c0a2146", null ],
     [ "LoadSavedWindowPos", "namespaceImGui.html#abc9641ecb8b0feb32e48a68aa785e864", null ],
-    [ "ModalBigTitle", "namespaceImGui.html#a5e04ca06524f269a621e6ca35c63d70a", null ],
-    [ "ModalExitButton", "namespaceImGui.html#a39a8802226377b3d155788257f848b1a", null ],
-    [ "Palette", "namespaceImGui.html#a57a1654a1953301d7dca389a0dba5215", null ],
-    [ "Plane", "namespaceImGui.html#af082cf53c058ecd0adf21f0115b11121", null ],
+    [ "ModalBigTitle", "namespaceImGui.html#acedb24606d4e2b34b200ade5cb5ccf14", null ],
+    [ "ModalExitButton", "namespaceImGui.html#a29d932a1f5e6a9e91213d1a209b09e1a", null ],
+    [ "Palette", "namespaceImGui.html#a9c130223f0795222ba5a4445f8c9e917", null ],
+    [ "Plane", "namespaceImGui.html#a1ff64ab0bea9537c8755a84b4226dde0", null ],
     [ "PlotCustomHistogram", "namespaceImGui.html#aab9ea83bb6bf2bc7f7bb8d0c582bd9a9", null ],
     [ "SaveWindowPosition", "namespaceImGui.html#a5cc3e778e75f9ee629a7ae99f8472c6f", null ],
     [ "SaveWindowPosition", "namespaceImGui.html#a083d798cae08523bfb8851595088a61b", null ],
-    [ "Spinner", "namespaceImGui.html#a2965953a64a756c9e40bf0c620028b06", null ]
+    [ "Spinner", "namespaceImGui.html#abd01e3d0c0bcd6ca3f831a2e16d7bdd4", null ]
 ];

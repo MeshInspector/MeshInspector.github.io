@@ -1,10 +1,5 @@
 var NAVTREEINDEX65 =
 {
-"namespaceMR.html#ad8a0a944a1b80921f633fa066021dafe":[6,0,1,0,1,2365],
-"namespaceMR.html#ad8bfcdd27aa7037f5d7fa7b17f725c21":[6,0,1,0,1,2119],
-"namespaceMR.html#ad8e49582fe849014967a8baf003fd27b":[6,0,1,0,1,1909],
-"namespaceMR.html#ad8fa8ec5590f6b95bdbfc2224e8d190f":[6,0,1,0,1,2361],
-"namespaceMR.html#ad955b6a2b26f772c9baa0e45f672f3b4":[6,0,1,0,1,1865],
 "namespaceMR.html#ad96edb1d2f888b3550b04cb5c5d423cf":[6,0,1,0,1,1907],
 "namespaceMR.html#ad99ac1ebe76b35b655adb5b8f25c4378":[6,0,1,0,1,2276],
 "namespaceMR.html#ad99d01aba3a14b1b917f72e9f16b58d6":[6,0,1,0,1,1391],
@@ -93,7 +88,6 @@ var NAVTREEINDEX65 =
 "namespaceMR.html#ae679240dc1c3cb46bbffe4002f1f48e5":[6,0,1,0,1,1038],
 "namespaceMR.html#ae67e358aa67b3bec22536c544a8ed160":[6,0,1,0,1,2658],
 "namespaceMR.html#ae69d6d886eeae936d8c70e983d245cd5":[6,0,1,0,1,2043],
-"namespaceMR.html#ae6a703f529a05e3f2fa59d68fd266627":[6,0,1,0,1,2470],
 "namespaceMR.html#ae6b021b9aa296238fa47d7443aa5c680":[6,0,1,0,1,1296],
 "namespaceMR.html#ae6f8c0d05b25de07d0d245e6a0387f57":[6,0,1,0,1,985],
 "namespaceMR.html#ae719e21c5b523b6f877ceee126fedb6e":[6,0,1,0,1,1593],
@@ -249,5 +243,11 @@ var NAVTREEINDEX65 =
 "namespaceMR_1_1Cuda.html#a2ca6e42153313ca635d7ea3e12d19bf0":[6,0,1,0,1,2,28],
 "namespaceMR_1_1Cuda.html#a2fed8d0688936d46135f8dad5f3497ee":[6,0,1,0,1,2,19],
 "namespaceMR_1_1Cuda.html#a3847533ea91606e4e7a4068edd599d86":[6,0,1,0,1,2,16],
-"namespaceMR_1_1Cuda.html#a3e5fd79d686c56c93e9dc89064653219":[6,0,1,0,1,2,24]
+"namespaceMR_1_1Cuda.html#a3e5fd79d686c56c93e9dc89064653219":[6,0,1,0,1,2,24],
+"namespaceMR_1_1Cuda.html#a45296cef05363425e0b1271f76436597":[6,0,1,0,1,2,22],
+"namespaceMR_1_1Cuda.html#a481800f210dd09851992846af357b7e2":[6,0,1,0,1,2,20],
+"namespaceMR_1_1Cuda.html#a57e91a18687a893997356f499e9a7e94":[6,0,1,0,1,2,11],
+"namespaceMR_1_1Cuda.html#a5caa3c21e1c35ac6d6dd2eb125484783":[6,0,1,0,1,2,21],
+"namespaceMR_1_1Cuda.html#a76d46e2388018a2bca5a72dfaefd30e9":[6,0,1,0,1,2,27],
+"namespaceMR_1_1Cuda.html#a770259831b49f60068c30df5121056c9":[6,0,1,0,1,2,29]
 };

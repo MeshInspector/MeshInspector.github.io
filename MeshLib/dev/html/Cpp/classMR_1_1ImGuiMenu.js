@@ -5,7 +5,7 @@ var classMR_1_1ImGuiMenu =
     [ "SelectionInformationStyle", "structMR_1_1ImGuiMenu_1_1SelectionInformationStyle.html", "structMR_1_1ImGuiMenu_1_1SelectionInformationStyle" ],
     [ "TagEditorState", "structMR_1_1ImGuiMenu_1_1TagEditorState.html", "structMR_1_1ImGuiMenu_1_1TagEditorState" ],
     [ "UiRenderManagerImpl", "classMR_1_1ImGuiMenu_1_1UiRenderManagerImpl.html", "classMR_1_1ImGuiMenu_1_1UiRenderManagerImpl" ],
-    [ "DrawSceneUiSignal", "classMR_1_1ImGuiMenu.html#a2f2b40e4dafea90e3ea284ebf7e9b128", null ],
+    [ "DrawSceneUiSignal", "classMR_1_1ImGuiMenu.html#a942483ecfa0154d8246586de1560c3eb", null ],
     [ "NameTagClickSignal", "classMR_1_1ImGuiMenu.html#a108b6e7b1762c1e145d04713a3badf63", null ],
     [ "NameTagSelectionMode", "classMR_1_1ImGuiMenu.html#acf12d9bbd08c5c2a1b528461e7294587", [
       [ "selectOne", "classMR_1_1ImGuiMenu.html#acf12d9bbd08c5c2a1b528461e7294587ad95c24770daa211f223817331372d91c", null ],

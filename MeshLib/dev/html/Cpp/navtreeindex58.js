@@ -1,11 +1,5 @@
 var NAVTREEINDEX58 =
 {
-"group__MeshSubdivideGroup.html#gaf0f7ef934651257fe2a70de0eb1f9b8b":[6,0,0,9,7,4],
-"group__PlanarPathGroup.html":[6,0,0,16,0],
-"group__PlanarPathGroup.html#ga453514d922da4d7c4a02c78ca0b4eabe":[6,0,0,16,0,1],
-"group__PlanarPathGroup.html#ga64d6263ac2b571832be0c1a3e8114cfb":[6,0,0,16,0,2],
-"group__PlanarPathGroup.html#gaf1a65dfbfdcd23da6f9a48589ee8060e":[6,0,0,16,0,3],
-"group__PlanarPathGroup.html#gaf1dd390e537cb9342ced1b65ad2b29d6":[6,0,0,16,0,0],
 "group__PlanarPathGroup.html#gafc3a801f48da79fea27b2c5a60579ddb":[6,0,0,16,0,4],
 "group__PointCloudComponentsGroup.html":[6,0,0,19,1],
 "group__PointCloudComponentsGroup.html#ga14df913179759fda2f2122b83b643423":[6,0,0,19,1,3],
@@ -249,5 +243,11 @@ var NAVTREEINDEX58 =
 "group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a2d7eb6cdde4e22fa902012a7a63152a9":[6,0,0,11,2,7,14],
 "group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a32fcd55df4b9420427f5168b5558a4a6":[6,0,0,11,2,7,10],
 "group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a38d6a5c484bf483e7d19d0e88b575a5f":[6,0,0,11,2,7,18],
-"group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a3a601c32f4902f478919ce2b64a4e475":[6,0,0,11,2,7,11]
+"group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a3a601c32f4902f478919ce2b64a4e475":[6,0,0,11,2,7,11],
+"group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a48d2a0f89c21288fc6f9acde5fb8338d":[6,0,0,11,2,7,6],
+"group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a4d37651692aaecc731860a4e8c4df169":[6,0,0,11,2,7,17],
+"group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a5f0ff2832e18692b2704a662acfc6b2a":[6,0,0,11,2,7,21],
+"group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a6c7eea869dc164adaaa93aa744a519f2":[6,0,0,11,2,7,20],
+"group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a7901e85f6ada294be0794acc817a1914":[6,0,0,11,2,7,3],
+"group__VisualObjectGroup.html#gga03255e831f4895337e7cf27d64e51269a7930beec8f8d317d708811012219855a":[6,0,0,11,2,7,19]
 };

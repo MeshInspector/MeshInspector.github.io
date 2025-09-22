@@ -1,9 +1,5 @@
 var NAVTREEINDEX94 =
 {
-"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#a02eded01a99ce8b568ca105e16381146":[6,1,0,0,2,1085,5],
-"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#a02eded01a99ce8b568ca105e16381146":[6,1,0,0,2,1085,6],
-"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#a02eded01a99ce8b568ca105e16381146":[6,1,1,0,1,1085,5],
-"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#a02eded01a99ce8b568ca105e16381146":[6,1,1,0,1,1085,6],
 "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#a064c23fe9decfa7d5544d056532d5e91":[6,1,0,0,2,1085,36],
 "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#a064c23fe9decfa7d5544d056532d5e91":[6,1,1,0,1,1085,36],
 "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId.html#a0b2ddde06c7d121ec8e398c1293205c5":[6,1,0,0,2,1085,22],
@@ -249,5 +245,9 @@ var NAVTREEINDEX94 =
 "classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId.html#a374574d9d89a0a5710140881e7add257":[6,1,0,0,2,1088,31],
 "classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId.html#a374574d9d89a0a5710140881e7add257":[6,1,1,0,1,1088,31],
 "classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId.html#a37f13de0e0e9cad3c976be8507fe575f":[6,1,0,0,2,1088,17],
-"classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId.html#a37f13de0e0e9cad3c976be8507fe575f":[6,1,1,0,1,1088,17]
+"classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId.html#a37f13de0e0e9cad3c976be8507fe575f":[6,1,1,0,1,1088,17],
+"classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId.html#a409901b90b46ea7c2f8ba556bed37167":[6,1,0,0,2,1088,4],
+"classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId.html#a409901b90b46ea7c2f8ba556bed37167":[6,1,1,0,1,1088,4],
+"classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId.html#a4e1bf318e4971b1c47390c1c8eb4cc82":[6,1,0,0,2,1088,32],
+"classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId.html#a4e1bf318e4971b1c47390c1c8eb4cc82":[6,1,1,0,1,1088,32]
 };

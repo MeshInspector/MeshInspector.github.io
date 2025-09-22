@@ -1,9 +1,5 @@
 var NAVTREEINDEX179 =
 {
-"namespacemrmeshpy.html#afb52eb800023323158a02a3c74524fe0":[6,1,0,0,2,2143],
-"namespacemrmeshpy.html#afbc3d334e1156fa036c30f9412b5eaaf":[6,1,0,0,2,1203],
-"namespacemrmeshpy.html#afbcaf618d0d6b5a5930bc7eebe5d35f7":[6,1,0,0,2,2777],
-"namespacemrmeshpy.html#afc0a47bfaf548c6edc38e2428021f901":[6,1,0,0,2,2447],
 "namespacemrmeshpy.html#afc0f6d812712f9e19762f242192b81a5":[6,1,0,0,2,1328],
 "namespacemrmeshpy.html#afc253e4ce6b106ad367e0649a8b5cd28":[6,1,0,0,2,2109],
 "namespacemrmeshpy.html#afc32f106f018b57e984f8d1517397b1d":[6,1,0,0,2,2247],

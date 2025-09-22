@@ -1,9 +1,5 @@
 var NAVTREEINDEX45 =
 {
-"classMR_1_1SceneStateExactCheck.html#a1e1b5cbd3ebad0cb3495f2ebb2100b84":[6,0,1,0,1,660,0],
-"classMR_1_1SceneStateExactCheck.html#a1e1b5cbd3ebad0cb3495f2ebb2100b84":[6,0,2,0,1,642,0],
-"classMR_1_1SceneStateExactCheck.html#abcdaa2e32bc223876a3043e83eb591e8":[6,0,1,0,1,660,1],
-"classMR_1_1SceneStateExactCheck.html#abcdaa2e32bc223876a3043e83eb591e8":[6,0,2,0,1,642,1],
 "classMR_1_1SceneStateExactCheck_3_01N_00_01ObjectT_00_01NoModelCheck_01_4.html":[6,0,1,0,1,661],
 "classMR_1_1SceneStateExactCheck_3_01N_00_01ObjectT_00_01NoModelCheck_01_4.html":[6,0,2,0,1,643],
 "classMR_1_1SceneStateExactCheck_3_01N_00_01ObjectT_00_01NoModelCheck_01_4.html#a188ad7b9cba3b6b3dfe51322b6cc4d57":[6,0,1,0,1,661,0],
@@ -46,8 +42,8 @@ var NAVTREEINDEX45 =
 "classMR_1_1ScopeHistory.html#ab4c17b1dd2ac2de71650b8211d421d1b":[6,0,2,0,1,647,2],
 "classMR_1_1SelectObjectByClick.html":[6,0,1,0,1,670],
 "classMR_1_1SelectObjectByClick.html":[6,0,2,0,1,652],
-"classMR_1_1SelectObjectByClick.html#a2a30b5e16efad50fc9ee0f3a38a87296":[6,0,1,0,1,670,2],
-"classMR_1_1SelectObjectByClick.html#a2a30b5e16efad50fc9ee0f3a38a87296":[6,0,2,0,1,652,2],
+"classMR_1_1SelectObjectByClick.html#a399a69727e32d794b8eb24565f369fe7":[6,0,1,0,1,670,2],
+"classMR_1_1SelectObjectByClick.html#a399a69727e32d794b8eb24565f369fe7":[6,0,2,0,1,652,2],
 "classMR_1_1SelectObjectByClick.html#a4e224981a48ecad3ccd0f3644cfeecd5":[6,0,1,0,1,670,1],
 "classMR_1_1SelectObjectByClick.html#a4e224981a48ecad3ccd0f3644cfeecd5":[6,0,2,0,1,652,1],
 "classMR_1_1SelectObjectByClick.html#af233d2ee48f41e6835cdf6896f6c9676":[6,0,1,0,1,670,0],
@@ -249,5 +245,9 @@ var NAVTREEINDEX45 =
 "classMR_1_1SpaceMouseHandlerHidapi.html#af7ffed7a44b21d7f048c46f34264e551":[6,0,2,0,1,679,1],
 "classMR_1_1SpaceMouseHandlerHidapi.html#afd46f7a6766658893e08a5f80973bc0b":[6,0,1,0,1,697,4],
 "classMR_1_1SpaceMouseHandlerHidapi.html#afd46f7a6766658893e08a5f80973bc0b":[6,0,2,0,1,679,4],
-"classMR_1_1SparsePolynomial.html":[6,0,1,0,1,702]
+"classMR_1_1SparsePolynomial.html":[6,0,1,0,1,702],
+"classMR_1_1SparsePolynomial.html":[6,0,2,0,1,684],
+"classMR_1_1SparsePolynomial.html#a3121c41d3714630889e95595c2ed63ba":[6,0,1,0,1,702,4],
+"classMR_1_1SparsePolynomial.html#a3121c41d3714630889e95595c2ed63ba":[6,0,2,0,1,684,4],
+"classMR_1_1SparsePolynomial.html#a33daec7c11a36c33eb5530ffa262a597":[6,0,1,0,1,702,8]
 };

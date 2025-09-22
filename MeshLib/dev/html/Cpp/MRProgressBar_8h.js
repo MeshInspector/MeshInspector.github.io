@@ -20,6 +20,6 @@ var MRProgressBar_8h =
     [ "resetTaskName", "MRProgressBar_8h.html#aa2b9b5f5b7a526d0721702a144530d7f", null ],
     [ "setProgress", "MRProgressBar_8h.html#a1abb6f1a99317df23eca0b7dab5ca9d4", null ],
     [ "setTaskCount", "MRProgressBar_8h.html#ae692760ee83b399be6653c81468172ea", null ],
-    [ "setup", "MRProgressBar_8h.html#abd759374a06a6cb111abb5a5ad608ea1", null ],
+    [ "setup", "MRProgressBar_8h.html#aa25a776012fb8df34ee05b32461a2157", null ],
     [ "simpleCallBackSetProgress", "MRProgressBar_8h.html#a481e32fa95706159e765a2da757f57c0", null ]
 ];

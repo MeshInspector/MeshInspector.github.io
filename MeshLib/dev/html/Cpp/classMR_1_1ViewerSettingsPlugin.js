@@ -14,7 +14,7 @@ var classMR_1_1ViewerSettingsPlugin =
     [ "addComboSettings", "classMR_1_1ViewerSettingsPlugin.html#acf4f908a53429634d394195587aabb59", null ],
     [ "blocking", "classMR_1_1ViewerSettingsPlugin.html#ac31f0ed7c0847408208b9cd59d7a9c40", null ],
     [ "delComboSettings", "classMR_1_1ViewerSettingsPlugin.html#a25d8a5c93929180a4b438d21afe8cb02", null ],
-    [ "drawDialog", "classMR_1_1ViewerSettingsPlugin.html#ab07645da2528b86e8844b18dd97c93a9", null ],
+    [ "drawDialog", "classMR_1_1ViewerSettingsPlugin.html#a119e03f41d8f3bdf0c9ee522b8ad623b", null ],
     [ "setActiveTab", "classMR_1_1ViewerSettingsPlugin.html#aa3fd8eed1495a80edbc79bc1dc67e298", null ],
     [ "updateThemes", "classMR_1_1ViewerSettingsPlugin.html#ae579b363d0283ded6914225b425efd99", null ]
 ];

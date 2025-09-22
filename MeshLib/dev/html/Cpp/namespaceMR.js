@@ -129,7 +129,7 @@ var namespaceMR =
       [ "resetTaskName", "namespaceMR_1_1ProgressBar.html#aa2b9b5f5b7a526d0721702a144530d7f", null ],
       [ "setProgress", "namespaceMR_1_1ProgressBar.html#a1abb6f1a99317df23eca0b7dab5ca9d4", null ],
       [ "setTaskCount", "namespaceMR_1_1ProgressBar.html#ae692760ee83b399be6653c81468172ea", null ],
-      [ "setup", "namespaceMR_1_1ProgressBar.html#abd759374a06a6cb111abb5a5ad608ea1", null ],
+      [ "setup", "namespaceMR_1_1ProgressBar.html#aa25a776012fb8df34ee05b32461a2157", null ],
       [ "simpleCallBackSetProgress", "namespaceMR_1_1ProgressBar.html#a481e32fa95706159e765a2da757f57c0", null ]
     ] ],
     [ "QualityControl", "namespaceMR_1_1QualityControl.html", [
@@ -3018,7 +3018,7 @@ var namespaceMR =
     [ "segmentVolumeByGraphCut", "group__VoxelGroup.html#gaaaebc49a422252db86351ce55dc91bef", null ],
     [ "segmentVoxelMaskToInstances", "group__VolumeSegmentationGroup.html#ga5d17b05296307303570bd202a858ec1a", null ],
     [ "SegPoints", "namespaceMR.html#aaf4d239a6cdece7da03913ad2b3a6efe", null ],
-    [ "SelectCurvaturePreference", "namespaceMR.html#ae6a703f529a05e3f2fa59d68fd266627", null ],
+    [ "SelectCurvaturePreference", "namespaceMR.html#ac0b91539ada635d196a67afe2f39fe5d", null ],
     [ "selfBoolean", "namespaceMR.html#acbc5236e62cf60939c3dc2324fbff5d8", null ],
     [ "separateClosedContour", "namespaceMR.html#a0e4db0a98c3228b98384be5bcfadba5a", null ],
     [ "serializeJsonValue", "group__SerializerGroup.html#ga6495aafc6ad7f28a253874643bee186d", null ],

@@ -1,9 +1,5 @@
 var NAVTREEINDEX129 =
 {
-"classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float.html#a509d0521127c16b1d983df093cc3cec0":[6,1,0,0,2,848,3],
-"classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float.html#a509d0521127c16b1d983df093cc3cec0":[6,1,1,0,1,848,3],
-"classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float.html#a56b703ecb33921a8cdbb9c6b60f0c70c":[6,1,0,0,2,848,23],
-"classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float.html#a56b703ecb33921a8cdbb9c6b60f0c70c":[6,1,1,0,1,848,23],
 "classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float.html#a5782c27ff8024d39240521b881310669":[6,1,0,0,2,848,15],
 "classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float.html#a5782c27ff8024d39240521b881310669":[6,1,1,0,1,848,15],
 "classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float.html#a5f2c5edf81db39091083a13a0efd557f":[6,1,0,0,2,848,20],
@@ -249,5 +245,9 @@ var NAVTREEINDEX129 =
 "classmrmeshpy_1_1std__vector__AABBTreePoints__Point.html#a3248ab0720cf1ae9a555059755d75b09":[6,1,0,0,2,853,21],
 "classmrmeshpy_1_1std__vector__AABBTreePoints__Point.html#a3248ab0720cf1ae9a555059755d75b09":[6,1,1,0,1,853,21],
 "classmrmeshpy_1_1std__vector__AABBTreePoints__Point.html#a36728d380a160f41f60d193ff8698ed7":[6,1,0,0,2,853,11],
-"classmrmeshpy_1_1std__vector__AABBTreePoints__Point.html#a36728d380a160f41f60d193ff8698ed7":[6,1,1,0,1,853,11]
+"classmrmeshpy_1_1std__vector__AABBTreePoints__Point.html#a36728d380a160f41f60d193ff8698ed7":[6,1,1,0,1,853,11],
+"classmrmeshpy_1_1std__vector__AABBTreePoints__Point.html#a52af1414dd0d2d7d2b6cc2c20ad93cec":[6,1,0,0,2,853,2],
+"classmrmeshpy_1_1std__vector__AABBTreePoints__Point.html#a52af1414dd0d2d7d2b6cc2c20ad93cec":[6,1,1,0,1,853,2],
+"classmrmeshpy_1_1std__vector__AABBTreePoints__Point.html#a594a4cf9614521f5768d76bc87393e4f":[6,1,0,0,2,853,7],
+"classmrmeshpy_1_1std__vector__AABBTreePoints__Point.html#a594a4cf9614521f5768d76bc87393e4f":[6,1,1,0,1,853,7]
 };

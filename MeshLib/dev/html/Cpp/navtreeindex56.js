@@ -1,11 +1,5 @@
 var NAVTREEINDEX56 =
 {
-"group__BooleanGroup.html#ga698235aeb90b1a947f95fa76eeb78ff3":[6,0,0,8,11],
-"group__BooleanGroup.html#ga6f7ebfbd5a56670b4a78787e6318ee7e":[6,0,0,8,9],
-"group__BooleanGroup.html#ga883d13829f7b1336863883d48777b302":[6,0,0,8,13],
-"group__BooleanGroup.html#ga9d5cd0e3c54003e08c1884a7895b3e74":[6,0,0,8,14],
-"group__BooleanGroup.html#ga9e84a8cc429efdf5cc108ca1c6aaccbd":[6,0,0,8,7],
-"group__BooleanGroup.html#ga9ecf19b8a704c505e8026abe7e64e38a":[6,0,0,8,6],
 "group__BooleanGroup.html#gabcddc5448fa2c146bca47925a093d3c2":[6,0,0,8,18],
 "group__BooleanGroup.html#gafb1acfb7ea34c1828a3f0e9b415c6dcc":[6,0,0,8,16],
 "group__BooleanGroup.html#gafe85b81b6d40ee16ccd3e12919143c43":[6,0,0,8,10],
@@ -249,5 +243,11 @@ var NAVTREEINDEX56 =
 "group__IntersectionGroup.html#ga5aa33ccde105060c1f523292e81dfcbf":[6,0,0,0,6,9],
 "group__IntersectionGroup.html#ga8fe41c203bb90cc8a7dc06426f6682f4":[6,0,0,0,6,5],
 "group__IntersectionGroup.html#ga9f71b2c20cd6a91f42d8d76dbc038190":[6,0,0,0,6,4],
-"group__IntersectionGroup.html#gaab24181e6c7cccda09f6e6fc5045f3a4":[6,0,0,0,6,1]
+"group__IntersectionGroup.html#gaab24181e6c7cccda09f6e6fc5045f3a4":[6,0,0,0,6,1],
+"group__IntersectionGroup.html#gad9c4f2546d1a40da39bccf700c70ee49":[6,0,0,0,6,6],
+"group__IteratorRange.html":[6,0,0,3,0],
+"group__LinesLoad.html":[6,0,0,2,8],
+"group__LinesLoad.html#ga5bbd4986a67fe058c317fc572072f788":[6,0,0,2,8,2],
+"group__LinesLoad.html#ga6b9ba72bb9c72e152c3157c6e6e7d20a":[6,0,0,2,8,3],
+"group__LinesLoad.html#ga6d309e19703b9fd3f9a7b5258471f304":[6,0,0,2,8,4]
 };

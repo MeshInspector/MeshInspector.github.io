@@ -1,9 +1,5 @@
 var NAVTREEINDEX46 =
 {
-"classMR_1_1SparsePolynomial.html":[6,0,2,0,1,684],
-"classMR_1_1SparsePolynomial.html#a3121c41d3714630889e95595c2ed63ba":[6,0,1,0,1,702,4],
-"classMR_1_1SparsePolynomial.html#a3121c41d3714630889e95595c2ed63ba":[6,0,2,0,1,684,4],
-"classMR_1_1SparsePolynomial.html#a33daec7c11a36c33eb5530ffa262a597":[6,0,1,0,1,702,8],
 "classMR_1_1SparsePolynomial.html#a33daec7c11a36c33eb5530ffa262a597":[6,0,2,0,1,684,8],
 "classMR_1_1SparsePolynomial.html#a3dc64df27400abce4c5aa702e5829ac3":[6,0,1,0,1,702,0],
 "classMR_1_1SparsePolynomial.html#a3dc64df27400abce4c5aa702e5829ac3":[6,0,2,0,1,684,0],
@@ -112,10 +108,10 @@ var NAVTREEINDEX46 =
 "classMR_1_1StateBasePlugin.html#a9a8917bb4527c6108a4ec176619d2990":[6,0,2,0,1,691,1],
 "classMR_1_1StateBasePlugin.html#aa1855ed7ea42bd976bee234e52655ffd":[6,0,1,0,1,709,10],
 "classMR_1_1StateBasePlugin.html#aa1855ed7ea42bd976bee234e52655ffd":[6,0,2,0,1,691,10],
+"classMR_1_1StateBasePlugin.html#aa3a6877967ca8f424ed261e43345bd26":[6,0,1,0,1,709,6],
+"classMR_1_1StateBasePlugin.html#aa3a6877967ca8f424ed261e43345bd26":[6,0,2,0,1,691,6],
 "classMR_1_1StateBasePlugin.html#ac3e8d3db81bf9d8a316c46e82f369980":[6,0,1,0,1,709,23],
 "classMR_1_1StateBasePlugin.html#ac3e8d3db81bf9d8a316c46e82f369980":[6,0,2,0,1,691,23],
-"classMR_1_1StateBasePlugin.html#ac3f19da0e3d2d9bf92be7b02af2985be":[6,0,1,0,1,709,6],
-"classMR_1_1StateBasePlugin.html#ac3f19da0e3d2d9bf92be7b02af2985be":[6,0,2,0,1,691,6],
 "classMR_1_1StateBasePlugin.html#ad91197be262f6b569d9234033d73bb8d":[6,0,1,0,1,709,5],
 "classMR_1_1StateBasePlugin.html#ad91197be262f6b569d9234033d73bb8d":[6,0,2,0,1,691,5],
 "classMR_1_1StateBasePlugin.html#adede9d0773e7eff370bd78dc66a4c898":[6,0,1,0,1,709,17],
@@ -249,5 +245,9 @@ var NAVTREEINDEX46 =
 "classMR_1_1SurfaceManipulationWidget.html#a8d43ee87f7e0a5475028a3d1b0ba4940":[6,0,2,0,1,697,44],
 "classMR_1_1SurfaceManipulationWidget.html#a90ca984430afc6677edfa65a39a5d5bb":[6,0,1,0,1,715,80],
 "classMR_1_1SurfaceManipulationWidget.html#a90ca984430afc6677edfa65a39a5d5bb":[6,0,2,0,1,697,80],
-"classMR_1_1SurfaceManipulationWidget.html#a93366e4a5e29c99eca29d636b62f11f8":[6,0,1,0,1,715,35]
+"classMR_1_1SurfaceManipulationWidget.html#a93366e4a5e29c99eca29d636b62f11f8":[6,0,1,0,1,715,35],
+"classMR_1_1SurfaceManipulationWidget.html#a93366e4a5e29c99eca29d636b62f11f8":[6,0,2,0,1,697,35],
+"classMR_1_1SurfaceManipulationWidget.html#a93cf79c946234166435c0c26b7334a74":[6,0,1,0,1,715,74],
+"classMR_1_1SurfaceManipulationWidget.html#a93cf79c946234166435c0c26b7334a74":[6,0,2,0,1,697,74],
+"classMR_1_1SurfaceManipulationWidget.html#a959fcbd7bbe023bb87adc1de1a8dda45":[6,0,1,0,1,715,19]
 };

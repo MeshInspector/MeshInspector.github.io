@@ -1,13 +1,5 @@
 var NAVTREEINDEX82 =
 {
-"structMR_1_1MeshEqualizeTriAreasParams.html":[6,0,0,9,6,1],
-"structMR_1_1MeshEqualizeTriAreasParams.html#a7a54f93ce9d16e271b34554e4b0bd4f0":[6,0,0,9,6,1,0],
-"structMR_1_1MeshIntersectionResult.html":[6,0,0,1,19],
-"structMR_1_1MeshIntersectionResult.html#a35b9064f7ab7e270307559622c3ec903":[6,0,0,1,19,0],
-"structMR_1_1MeshIntersectionResult.html#a59e06434bac0180ffaac80a2fb3041d1":[6,0,0,1,19,3],
-"structMR_1_1MeshIntersectionResult.html#a701e1414a45534a29d2ad1f7074c3c61":[6,0,0,1,19,1],
-"structMR_1_1MeshIntersectionResult.html#aa6767f8fee0dd3f9883b1657e2d9fcb2":[6,0,0,1,19,2],
-"structMR_1_1MeshLoadSettings.html":[6,0,1,0,1,379],
 "structMR_1_1MeshLoadSettings.html":[6,0,2,0,1,361],
 "structMR_1_1MeshLoadSettings.html#a1fdd9db8e441e5ff1bcee3e9d4b664a7":[6,0,1,0,1,379,2],
 "structMR_1_1MeshLoadSettings.html#a1fdd9db8e441e5ff1bcee3e9d4b664a7":[6,0,2,0,1,361,2],
@@ -249,5 +241,13 @@ var NAVTREEINDEX82 =
 "structMR_1_1MeshTriPoint.html#a6c6fbefac0cf996b3da9fa89a3146eac":[6,0,0,7,3,7],
 "structMR_1_1MeshTriPoint.html#a7856dabc24d2467efad8b2ce055c8677":[6,0,0,7,3,2],
 "structMR_1_1MeshTriPoint.html#a8a974fd4d0a547b3acff27ac8730ef92":[6,0,0,7,3,21],
-"structMR_1_1MeshTriPoint.html#a90a50a563b67d4e1fa6ad0e30f2e9d71":[6,0,0,7,3,11]
+"structMR_1_1MeshTriPoint.html#a90a50a563b67d4e1fa6ad0e30f2e9d71":[6,0,0,7,3,11],
+"structMR_1_1MeshTriPoint.html#a969e2436a97d15353beb543c26d45590":[6,0,0,7,3,8],
+"structMR_1_1MeshTriPoint.html#a99f6b57a79938db1c601698948926581":[6,0,0,7,3,20],
+"structMR_1_1MeshTriPoint.html#aa232faeb2eb2a1b2892e47492f450e90":[6,0,0,7,3,4],
+"structMR_1_1MeshTriPoint.html#aa951af6819fd0e1934e6e33e8b29af4a":[6,0,0,7,3,10],
+"structMR_1_1MeshTriPoint.html#aabb02c854af5fe943fbefdec9600d4c9":[6,0,0,7,3,5],
+"structMR_1_1MeshTriPoint.html#ab5509e634e7415787efe42cfc5daf178":[6,0,0,7,3,3],
+"structMR_1_1MeshTriPoint.html#abb0591df25f88f44c1c55406d826b63e":[6,0,0,7,3,15],
+"structMR_1_1MeshTriPoint.html#abbd2e1560699eb7d09752dce26fe2ee7":[6,0,0,7,3,6]
 };

@@ -1,8 +1,5 @@
 var NAVTREEINDEX85 =
 {
-"MRTripleFaceIntersections_8h.html#a3f5e2c24852ad4a69469fe12e4e058f6":[6,2,1,0,0,0,1,334,22],
-"MRTripleFaceIntersections_8h.html#a446d74c4b129294cc2c39435fbd9ccd7":[6,2,1,0,0,0,1,334,19],
-"MRTripleFaceIntersections_8h.html#a4839e8fedbd5eeaa3cd836ab35eda681":[6,2,1,0,0,0,1,334,11],
 "MRTripleFaceIntersections_8h.html#a48e643e4de18fab4ed90550e3c6e10cf":[6,2,1,0,0,0,1,334,10],
 "MRTripleFaceIntersections_8h.html#a51806312db211445662f611906cd12f0":[6,2,1,0,0,0,1,334,6],
 "MRTripleFaceIntersections_8h.html#a5a6691270f528928ef37144a99745626":[6,2,1,0,0,0,1,334,15],
@@ -249,5 +246,8 @@ var NAVTREEINDEX85 =
 "MRUniteManyMeshes_8h.html#aea757129ffa2722d3062c2f234acf0fe":[6,2,1,0,0,0,1,341,6],
 "MRUniteManyMeshes_8h.html#af72e4f9ed5825f5341a675e70e72bc45":[6,2,1,0,0,0,1,341,19],
 "MRUniteManyMeshes_8h.html#afa460daf111c9e7b7054c663656e01c1":[6,2,1,0,0,0,1,341,8],
-"MRUniteManyMeshes_8h.html#afbcc59689b65300b513db258ed8cddbc":[6,2,1,0,0,0,1,341,39]
+"MRUniteManyMeshes_8h.html#afbcc59689b65300b513db258ed8cddbc":[6,2,1,0,0,0,1,341,39],
+"MRUniteManyMeshes_8h_source.html":[6,2,1,0,0,0,1,341],
+"MRUnorientedTriangle_8h.html":[6,2,1,0,0,0,1,342],
+"MRUnorientedTriangle_8h.html#a0f57b4982b8b12751754594bc79c3e83":[6,2,1,0,0,0,1,342,3]
 };

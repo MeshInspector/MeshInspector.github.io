@@ -26,10 +26,10 @@ var namespaceMR_1_1ImGuiMeasurementIndicators =
     [ "TextIcon", "namespaceMR_1_1ImGuiMeasurementIndicators.html#ada21c38059140ab54d2c729c198e39f4", [
       [ "diameter", "namespaceMR_1_1ImGuiMeasurementIndicators.html#ada21c38059140ab54d2c729c198e39f4a35f16dc084a53860f5cb3962107d5378", null ]
     ] ],
-    [ "arrowTriangle", "namespaceMR_1_1ImGuiMeasurementIndicators.html#a660e781c3399b37449e24305cf8bbdc4", null ],
-    [ "distance", "namespaceMR_1_1ImGuiMeasurementIndicators.html#a1a7e62c5850ea868f114dc9e958dcb4c", null ],
-    [ "line", "namespaceMR_1_1ImGuiMeasurementIndicators.html#a4d966db5f1fff71ae5319b8c43a10e81", null ],
-    [ "point", "namespaceMR_1_1ImGuiMeasurementIndicators.html#a41f4d6d002c7cff807425bbcb80c5edd", null ],
+    [ "arrowTriangle", "namespaceMR_1_1ImGuiMeasurementIndicators.html#a8c5e10a09f814d534e98407570061530", null ],
+    [ "distance", "namespaceMR_1_1ImGuiMeasurementIndicators.html#adde528adacd6500e6e542902d77f3690", null ],
+    [ "line", "namespaceMR_1_1ImGuiMeasurementIndicators.html#a5eeca0f9dda534003c2bd14f598dd27c", null ],
+    [ "point", "namespaceMR_1_1ImGuiMeasurementIndicators.html#ad36daa50d771e787011f42e1d74ef4fe", null ],
     [ "prepareCurve", "namespaceMR_1_1ImGuiMeasurementIndicators.html#aa8511657c2ed1cc63ff209a6ede1c0f9", null ],
-    [ "text", "namespaceMR_1_1ImGuiMeasurementIndicators.html#a9525e58e5d8838c21548fe997b800ae0", null ]
+    [ "text", "namespaceMR_1_1ImGuiMeasurementIndicators.html#ad06ab5868363731bf9b8a19d146e0d0b", null ]
 ];
