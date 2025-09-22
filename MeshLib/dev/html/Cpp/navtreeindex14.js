@@ -1,5 +1,6 @@
 var NAVTREEINDEX14 =
 {
+"MRSceneColors_8h_source.html":[6,0,3,0,0,1,4,345],
 "MRSceneControlMenuItems_8h.html":[6,0,3,0,0,1,0,2,3],
 "MRSceneControlMenuItems_8h_source.html":[6,0,3,0,0,1,0,2,3],
 "MRSceneLoad_8h.html":[6,0,3,0,0,1,4,346],
@@ -248,6 +249,5 @@ var NAVTREEINDEX14 =
 "MRSymMatrix2_8h_source.html":[6,0,3,0,0,1,4,372],
 "MRSymMatrix3_8h.html":[6,0,3,0,0,1,4,373],
 "MRSymMatrix3_8h_source.html":[6,0,3,0,0,1,4,373],
-"MRSymMatrix4_8h.html":[6,0,3,0,0,1,4,374],
-"MRSymMatrix4_8h_source.html":[6,0,3,0,0,1,4,374]
+"MRSymMatrix4_8h.html":[6,0,3,0,0,1,4,374]
 };

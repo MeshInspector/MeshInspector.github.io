@@ -1,9 +1,11 @@
 var MROffsetVerts_8h =
 [
     [ "MR_Mesh", "MROffsetVerts_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
+    [ "MR_MeshTopology", "MROffsetVerts_8h.html#ad396cf7d4433c5ba7924776f5b379c9b", null ],
     [ "MR_std_function_bool_from_float", "MROffsetVerts_8h.html#adb03ce28cacfff1e499d75d512dc4a84", null ],
     [ "MR_std_function_float_from_MR_VertId", "MROffsetVerts_8h.html#ac83010bf4ae4af15d0e13d005e33fce1", null ],
     [ "MR_ThickenParams", "MROffsetVerts_8h.html#aab9015c36c2d8e2dc6b6e2dd876905a3", null ],
+    [ "MR_VertCoords", "MROffsetVerts_8h.html#a249fd9254c0c3395567807936ad32641", null ],
     [ "MR_ZCompensateParams", "MROffsetVerts_8h.html#aba5e4bdfdaae2b4eb0af6f4aec7f933a", null ],
     [ "MR_makeThickMesh", "MROffsetVerts_8h.html#a17ec19d8ea4c71d7d676e78dce6292c8", null ],
     [ "MR_offsetVerts", "MROffsetVerts_8h.html#a131e1cc155d1cfaa54fcaf2c4f0d589b", null ],
@@ -22,7 +24,8 @@ var MROffsetVerts_8h =
     [ "MR_ThickenParams_OffsetPtr", "MROffsetVerts_8h.html#a90c64dddbbc768d6ea4a6883091bb70b", null ],
     [ "MR_ThickenParams_Set_insideOffset", "MROffsetVerts_8h.html#a283aa0fd4ead40a649a6af438e45696e", null ],
     [ "MR_ThickenParams_Set_outsideOffset", "MROffsetVerts_8h.html#a80e6d6a5a9add6b0ab5cbe6428c4a1ba", null ],
-    [ "MR_zCompensate", "MROffsetVerts_8h.html#a19d8dcc1b660f771bcc40ca183ee87b4", null ],
+    [ "MR_zCompensate_2", "MROffsetVerts_8h.html#af5fd30231a9e267566fbd23edb813d9a", null ],
+    [ "MR_zCompensate_3", "MROffsetVerts_8h.html#a3785b3beb43b823afcc5fca4eb292617", null ],
     [ "MR_ZCompensateParams_AssignFromAnother", "MROffsetVerts_8h.html#a642847632d386e7578a926288b9b4055", null ],
     [ "MR_ZCompensateParams_ConstructFrom", "MROffsetVerts_8h.html#a02497c9c024557389e58172c52620bdd", null ],
     [ "MR_ZCompensateParams_ConstructFromAnother", "MROffsetVerts_8h.html#aef14298bc682b9e0c3c5099a714006de", null ],

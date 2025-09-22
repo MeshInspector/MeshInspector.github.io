@@ -1,5 +1,7 @@
 var NAVTREEINDEX72 =
 {
+"structMR_1_1Cone3ApproximationParams.html#a5b47cd0b4ce1e73f079a35fdc80d2850":[6,0,1,0,1,156,1],
+"structMR_1_1Cone3ApproximationParams.html#a5b47cd0b4ce1e73f079a35fdc80d2850":[6,0,2,0,1,138,1],
 "structMR_1_1Cone3ApproximationParams.html#a6c4848e08b47fefbf24a221b15e00329":[6,0,1,0,1,156,3],
 "structMR_1_1Cone3ApproximationParams.html#a6c4848e08b47fefbf24a221b15e00329":[6,0,2,0,1,138,3],
 "structMR_1_1Cone3ApproximationParams.html#a78abf2b4f9d3845ec382b09ec2c865d3":[6,0,1,0,1,156,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX72 =
 "structMR_1_1DetectTunnelSettings.html#a27a0181891bd9064803eb7608e3f0e10":[6,0,0,16,4,0,0],
 "structMR_1_1DetectTunnelSettings.html#abce133e9001f28cbce044fc8c1206ace":[6,0,0,16,4,0,1],
 "structMR_1_1DetectTunnelSettings.html#ae823ab96c2d11f1cccba5d61003a1202":[6,0,0,16,4,0,3],
-"structMR_1_1Dipole.html":[6,0,1,0,1,189],
-"structMR_1_1Dipole.html":[6,0,2,0,1,171],
-"structMR_1_1Dipole.html#a778dc3bfc3f81905b9e4922c640bb584":[6,0,1,0,1,189,4]
+"structMR_1_1Dipole.html":[6,0,1,0,1,189]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX66 =
 {
+"namespaceMR_1_1BitSetParallel.html#ac886c0876beae880356ab560e584b63e":[6,0,1,0,1,1,1],
+"namespaceMR_1_1Cuda.html":[6,0,1,0,1,2],
 "namespaceMR_1_1Cuda.html#a0383a2435c0b02c9305d443c8e9f5579":[6,0,1,0,1,2,17],
 "namespaceMR_1_1Cuda.html#a07684cc6b916a645e4ed28757498d51a":[6,0,1,0,1,2,25],
 "namespaceMR_1_1Cuda.html#a2ca6e42153313ca635d7ea3e12d19bf0":[6,0,1,0,1,2,28],
@@ -247,7 +249,5 @@ var NAVTREEINDEX66 =
 "namespaceMR_1_1ProgressBar.html":[6,0,1,0,1,32],
 "namespaceMR_1_1ProgressBar.html#a01e2c488a5c5dea28c7203cfbfbfd0f1":[6,0,1,0,1,32,11],
 "namespaceMR_1_1ProgressBar.html#a08670326b3d5427ad65c0583c83ff4ee":[6,0,1,0,1,32,3],
-"namespaceMR_1_1ProgressBar.html#a096de280a40715b2c4db2b4ccfeb821d":[6,0,1,0,1,32,0],
-"namespaceMR_1_1ProgressBar.html#a17865bb846061f43e17a0ad267ca598a":[6,0,1,0,1,32,7],
-"namespaceMR_1_1ProgressBar.html#a1abb6f1a99317df23eca0b7dab5ca9d4":[6,0,1,0,1,32,18]
+"namespaceMR_1_1ProgressBar.html#a096de280a40715b2c4db2b4ccfeb821d":[6,0,1,0,1,32,0]
 };

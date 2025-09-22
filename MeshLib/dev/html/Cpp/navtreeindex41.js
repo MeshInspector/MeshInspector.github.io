@@ -1,5 +1,6 @@
 var NAVTREEINDEX41 =
 {
+"classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart_3_01IsPrimary_00_01ObjectPoints_01_4.html#ab8af8dcf5138af62a9672ae2ac1145db":[6,0,2,0,1,20,0,4,1],
 "classMR_1_1RenderImGuiLabelObject.html":[6,0,1,0,1,595],
 "classMR_1_1RenderImGuiLabelObject.html":[6,0,2,0,1,577],
 "classMR_1_1RenderImGuiLabelObject.html#a10bda644e5bf5d339048fc403685a021":[6,0,1,0,1,595,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX41 =
 "classMR_1_1RenderPointsObject.html#a84ee58e0127a952e60ebcae7ee3a712a":[6,0,2,0,1,585,2],
 "classMR_1_1RenderPointsObject.html#a88bbfafb06a1d55fbcc5d082f4239094":[6,0,1,0,1,603,6],
 "classMR_1_1RenderPointsObject.html#a88bbfafb06a1d55fbcc5d082f4239094":[6,0,2,0,1,585,6],
-"classMR_1_1RenderPointsObject.html#ab99ca8621e3c55c14e02d3452bbdd239":[6,0,1,0,1,603,0],
-"classMR_1_1RenderPointsObject.html#ab99ca8621e3c55c14e02d3452bbdd239":[6,0,2,0,1,585,0]
+"classMR_1_1RenderPointsObject.html#ab99ca8621e3c55c14e02d3452bbdd239":[6,0,1,0,1,603,0]
 };

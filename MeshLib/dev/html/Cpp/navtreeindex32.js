@@ -1,5 +1,6 @@
 var NAVTREEINDEX32 =
 {
+"classMR_1_1ModalDialog.html#a858234d06631d6898dea488a675bc6d9":[6,0,1,0,1,409,1],
 "classMR_1_1ModalDialog.html#a858234d06631d6898dea488a675bc6d9":[6,0,2,0,1,391,1],
 "classMR_1_1MouseController.html":[6,0,1,0,1,415],
 "classMR_1_1MouseController.html":[6,0,2,0,1,397],
@@ -248,6 +249,5 @@ var NAVTREEINDEX32 =
 "classMR_1_1Object.html#a9f8a60330354b5cd43536c22bed08f3d":[6,0,0,11,4,38],
 "classMR_1_1Object.html#aa3e60b6a82814bffff2ba324dcaa7bd2":[6,0,0,11,4,30],
 "classMR_1_1Object.html#aa6cdc407999b7e829fd23b242cb6346d":[6,0,0,11,4,7],
-"classMR_1_1Object.html#aa988bb552650c9d30e888e456f458d46":[6,0,0,11,4,53],
-"classMR_1_1Object.html#aaa2378c439796ceb7a28ad41322cb8d7":[6,0,0,11,4,49]
+"classMR_1_1Object.html#aa988bb552650c9d30e888e456f458d46":[6,0,0,11,4,53]
 };
