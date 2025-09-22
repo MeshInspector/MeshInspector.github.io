@@ -1,5 +1,7 @@
 var NAVTREEINDEX8 =
 {
+"MRMeshC_8h.html#a54e0fd4c90bf3b106364a0b506860f88":[6,0,3,0,0,1,5,28,13],
+"MRMeshC_8h.html#a60c1ce9ed772eb0a4326776c021b33dd":[6,0,3,0,0,1,5,28,6],
 "MRMeshC_8h.html#a623fb3de189397803e03bda8f951bdc1":[6,0,3,0,0,1,5,28,5],
 "MRMeshC_8h.html#a66876c0d684c51318803ae141caeb384":[6,0,3,0,0,1,5,28,2],
 "MRMeshC_8h.html#a88b4aa69ad48bdea4d15724f942e7ff5":[6,0,3,0,0,1,5,28,11],
@@ -105,8 +107,8 @@ var NAVTREEINDEX8 =
 "MRMeshMath_8h.html#afb5e341e476649b321cdb9f27e72c6d1":[6,0,3,0,0,1,4,213,13],
 "MRMeshMath_8h.html#aff94707b83310dd38361b67bf3490f8e":[6,0,3,0,0,1,4,213,18],
 "MRMeshMath_8h_source.html":[6,0,3,0,0,1,4,213],
-"MRMeshModifier_8h.html":[6,0,3,0,0,1,11,44],
-"MRMeshModifier_8h_source.html":[6,0,3,0,0,1,11,44],
+"MRMeshModifier_8h.html":[6,0,3,0,0,1,11,45],
+"MRMeshModifier_8h_source.html":[6,0,3,0,0,1,11,45],
 "MRMeshOrPointsObject_8h.html":[6,0,3,0,0,1,4,218],
 "MRMeshOrPointsObject_8h_source.html":[6,0,3,0,0,1,4,218],
 "MRMeshOverhangs_8h.html":[6,0,3,0,0,1,4,219],
@@ -115,12 +117,12 @@ var NAVTREEINDEX8 =
 "MRMeshReplicate_8h.html":[6,0,3,0,0,1,4,223],
 "MRMeshReplicate_8h.html#a79f3df2d39c85eaa93b57d5538d388b7":[6,0,3,0,0,1,4,223,0],
 "MRMeshReplicate_8h_source.html":[6,0,3,0,0,1,4,223],
-"MRMeshShader_8h.html":[6,0,3,0,0,1,11,45],
-"MRMeshShader_8h.html#a1ef70778faa5587efd51d899e5e425e1":[6,0,3,0,0,1,11,45,3],
-"MRMeshShader_8h.html#a39b7369e50f9ced96eeab9d590413970":[6,0,3,0,0,1,11,45,0],
-"MRMeshShader_8h.html#a983223b5a1d14a48822c74d9b77cbd96":[6,0,3,0,0,1,11,45,2],
-"MRMeshShader_8h.html#adf0c9f368d580d753d6be5949cb9aeb5":[6,0,3,0,0,1,11,45,1],
-"MRMeshShader_8h_source.html":[6,0,3,0,0,1,11,45],
+"MRMeshShader_8h.html":[6,0,3,0,0,1,11,46],
+"MRMeshShader_8h.html#a1ef70778faa5587efd51d899e5e425e1":[6,0,3,0,0,1,11,46,3],
+"MRMeshShader_8h.html#a39b7369e50f9ced96eeab9d590413970":[6,0,3,0,0,1,11,46,0],
+"MRMeshShader_8h.html#a983223b5a1d14a48822c74d9b77cbd96":[6,0,3,0,0,1,11,46,2],
+"MRMeshShader_8h.html#adf0c9f368d580d753d6be5949cb9aeb5":[6,0,3,0,0,1,11,46,1],
+"MRMeshShader_8h_source.html":[6,0,3,0,0,1,11,46],
 "MRMeshSubdivideCallbacks_8h.html":[6,0,3,0,0,1,4,227],
 "MRMeshSubdivideCallbacks_8h.html#a0cbd8d6510e4b482f6a3d60f86926e70":[6,0,3,0,0,1,4,227,2],
 "MRMeshSubdivideCallbacks_8h.html#a834d4370af921a7bc3c36d95b47f25d5":[6,0,3,0,0,1,4,227,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX8 =
 "MRMesh_2MRId_8h.html#a431af2072742e04e253f3c9d62962f77":[6,0,3,0,0,1,4,138,9],
 "MRMesh_2MRId_8h.html#a4c846a23a00296bb3205029a07c86bac":[6,0,3,0,0,1,4,138,8],
 "MRMesh_2MRId_8h.html#a57aee9f1f7e0d5ef7240fcb8513963ac":[6,0,3,0,0,1,4,138,12],
-"MRMesh_2MRId_8h.html#a9ab1ddfa8621958cde8c0dd267bc9d30":[6,0,3,0,0,1,4,138,11],
-"MRMesh_2MRId_8h.html#aaabec0b590b199d56d36804df0255a3b":[6,0,3,0,0,1,4,138,4],
-"MRMesh_2MRId_8h.html#aac109a0388ac45fa4689b36534d58a8e":[6,0,3,0,0,1,4,138,13]
+"MRMesh_2MRId_8h.html#a9ab1ddfa8621958cde8c0dd267bc9d30":[6,0,3,0,0,1,4,138,11]
 };

@@ -1,5 +1,15 @@
 var NAVTREEINDEX70 =
 {
+"structMR_1_1AffineXf.html#aed36bec4a9d093011a85c99f21ced5f3":[6,0,0,0,13,5],
+"structMR_1_1AffineXf.html#afca9328028fe0e2b5c4f3d1181867792":[6,0,0,0,13,4],
+"structMR_1_1AllLocalTriangulations.html":[6,0,1,0,1,57],
+"structMR_1_1AllLocalTriangulations.html":[6,0,2,0,1,39],
+"structMR_1_1AllLocalTriangulations.html#a37b85e8c82a4f3cc21ee54015ba67cbb":[6,0,1,0,1,57,1],
+"structMR_1_1AllLocalTriangulations.html#a37b85e8c82a4f3cc21ee54015ba67cbb":[6,0,2,0,1,39,1],
+"structMR_1_1AllLocalTriangulations.html#a63033f3b2a1d4be33d6fc4e3d709a2cf":[6,0,1,0,1,57,0],
+"structMR_1_1AllLocalTriangulations.html#a63033f3b2a1d4be33d6fc4e3d709a2cf":[6,0,2,0,1,39,0],
+"structMR_1_1AncillaryLabel.html":[6,0,1,0,1,60],
+"structMR_1_1AncillaryLabel.html":[6,0,2,0,1,42],
 "structMR_1_1AncillaryLabel.html#a070a922323be7efce55dd8c8690ea31f":[6,0,1,0,1,60,5],
 "structMR_1_1AncillaryLabel.html#a070a922323be7efce55dd8c8690ea31f":[6,0,2,0,1,42,5],
 "structMR_1_1AncillaryLabel.html#a16025faba8e564c0ffa83a7e2f72bf40":[6,0,1,0,1,60,6],
@@ -239,15 +249,5 @@ var NAVTREEINDEX70 =
 "structMR_1_1BooleanInternalParameters.html":[6,0,0,8,1],
 "structMR_1_1BooleanInternalParameters.html#a2733395f91f3ed00b0e61ccae13ce37d":[6,0,0,8,1,1],
 "structMR_1_1BooleanInternalParameters.html#a3d8d32104f837c9064678f6e0cbc420c":[6,0,0,8,1,0],
-"structMR_1_1BooleanInternalParameters.html#a9564c4edb40ecc90fa59bfc7a9342bc5":[6,0,0,8,1,2],
-"structMR_1_1BooleanParameters.html":[6,0,1,0,1,84],
-"structMR_1_1BooleanParameters.html":[6,0,2,0,1,66],
-"structMR_1_1BooleanParameters.html#a3c9ab9ed36085974e0aedcdba8ee7b0c":[6,0,1,0,1,84,6],
-"structMR_1_1BooleanParameters.html#a3c9ab9ed36085974e0aedcdba8ee7b0c":[6,0,2,0,1,66,6],
-"structMR_1_1BooleanParameters.html#a3e10d01aa0e3e192325518ba6d1ea24c":[6,0,1,0,1,84,0],
-"structMR_1_1BooleanParameters.html#a3e10d01aa0e3e192325518ba6d1ea24c":[6,0,2,0,1,66,0],
-"structMR_1_1BooleanParameters.html#a4502c74eb11e7d2d08ea54e0fa153ac1":[6,0,1,0,1,84,1],
-"structMR_1_1BooleanParameters.html#a4502c74eb11e7d2d08ea54e0fa153ac1":[6,0,2,0,1,66,1],
-"structMR_1_1BooleanParameters.html#a4617bb49dfbad4a7fda08bd0c7a9fe2e":[6,0,1,0,1,84,3],
-"structMR_1_1BooleanParameters.html#a4617bb49dfbad4a7fda08bd0c7a9fe2e":[6,0,2,0,1,66,3]
+"structMR_1_1BooleanInternalParameters.html#a9564c4edb40ecc90fa59bfc7a9342bc5":[6,0,0,8,1,2]
 };

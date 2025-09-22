@@ -456,6 +456,7 @@ var namespaceMR =
     [ "IsVisualizeMaskEnum< MeshVisualizePropertyType >", "structMR_1_1IsVisualizeMaskEnum_3_01MeshVisualizePropertyType_01_4.html", null ],
     [ "IsVisualizeMaskEnum< PointsVisualizePropertyType >", "structMR_1_1IsVisualizeMaskEnum_3_01PointsVisualizePropertyType_01_4.html", null ],
     [ "IsVisualizeMaskEnum< VisualizeMaskType >", "structMR_1_1IsVisualizeMaskEnum_3_01VisualizeMaskType_01_4.html", null ],
+    [ "ItemEnabledPerViewport", "classMR_1_1ItemEnabledPerViewport.html", "classMR_1_1ItemEnabledPerViewport" ],
     [ "IteratorRange", "structMR_1_1IteratorRange.html", "structMR_1_1IteratorRange" ],
     [ "ITransformControls", "classMR_1_1ITransformControls.html", "classMR_1_1ITransformControls" ],
     [ "IViewerSettingsManager", "classMR_1_1IViewerSettingsManager.html", "classMR_1_1IViewerSettingsManager" ],

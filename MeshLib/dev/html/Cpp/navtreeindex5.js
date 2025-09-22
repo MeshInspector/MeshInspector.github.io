@@ -1,13 +1,15 @@
 var NAVTREEINDEX5 =
 {
+"MRMatrix3Decompose_8h.html#abfe7262e1e5d80122b05aa8e68fc0545":[6,0,3,0,0,1,4,183,1],
+"MRMatrix3Decompose_8h_source.html":[6,0,3,0,0,1,4,183],
 "MRMatrix4_8h.html":[6,0,3,0,0,1,4,184],
 "MRMatrix4_8h_source.html":[6,0,3,0,0,1,4,184],
 "MRMatrix_8h.html":[6,0,3,0,0,1,4,180],
 "MRMatrix_8h_source.html":[6,0,3,0,0,1,4,180],
 "MRMeasurementObject_8h.html":[6,0,3,0,0,1,4,185],
 "MRMeasurementObject_8h_source.html":[6,0,3,0,0,1,4,185],
-"MRMenu_8h.html":[6,0,3,0,0,1,11,42],
-"MRMenu_8h_source.html":[6,0,3,0,0,1,11,42],
+"MRMenu_8h.html":[6,0,3,0,0,1,11,43],
+"MRMenu_8h_source.html":[6,0,3,0,0,1,11,43],
 "MRMeshAttributesToUpdate_8h.html":[6,0,3,0,0,1,4,187],
 "MRMeshAttributesToUpdate_8h_source.html":[6,0,3,0,0,1,4,187],
 "MRMeshBooleanFacade_8h.html":[6,0,3,0,0,1,4,189],
@@ -15,8 +17,8 @@ var NAVTREEINDEX5 =
 "MRMeshBooleanFacade_8h.html#a816a1c0aec6d5b2d8994b750a9ecfb9f":[6,0,3,0,0,1,4,189,4],
 "MRMeshBooleanFacade_8h.html#ab3166f1ae304a5ff0106e7c88b67960e":[6,0,3,0,0,1,4,189,2],
 "MRMeshBooleanFacade_8h_source.html":[6,0,3,0,0,1,4,189],
-"MRMeshBoundarySelectionWidget_8h.html":[6,0,3,0,0,1,11,43],
-"MRMeshBoundarySelectionWidget_8h_source.html":[6,0,3,0,0,1,11,43],
+"MRMeshBoundarySelectionWidget_8h.html":[6,0,3,0,0,1,11,44],
+"MRMeshBoundarySelectionWidget_8h_source.html":[6,0,3,0,0,1,11,44],
 "MRMeshBoundary_8h.html":[6,0,3,0,0,1,4,190],
 "MRMeshBoundary_8h_source.html":[6,0,3,0,0,1,4,190],
 "MRMeshBuilderTypes_8h.html":[6,0,3,0,0,1,4,192],
@@ -247,7 +249,5 @@ var NAVTREEINDEX5 =
 "MRMeshC_2MRICP_8h.html#ad13059f0ee11805873789c5c2a23c4eda10c506de436752392581e7caf768e046":[6,0,3,0,0,1,5,18,13,0],
 "MRMeshC_2MRICP_8h.html#ad13059f0ee11805873789c5c2a23c4eda34e280367064f88f205bee18fe9e0aa1":[6,0,3,0,0,1,5,18,13,1],
 "MRMeshC_2MRICP_8h.html#ad13059f0ee11805873789c5c2a23c4edaca07e234f7785c96d25379d2f7c3a2fa":[6,0,3,0,0,1,5,18,13,2],
-"MRMeshC_2MRICP_8h.html#ad4e9636bc22be4235319224e809adbb6":[6,0,3,0,0,1,5,18,21],
-"MRMeshC_2MRICP_8h.html#ad6572e9fd51800d785882fab5dc53502":[6,0,3,0,0,1,5,18,27],
-"MRMeshC_2MRICP_8h.html#ae00bfaafa2a5cd791ec1206c17fc151f":[6,0,3,0,0,1,5,18,25]
+"MRMeshC_2MRICP_8h.html#ad4e9636bc22be4235319224e809adbb6":[6,0,3,0,0,1,5,18,21]
 };

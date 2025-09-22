@@ -718,6 +718,7 @@ var hierarchy =
       [ "MR::SceneStateExactCheck< N, ObjectT, NoVisualRepresentationCheck >", "classMR_1_1SceneStateExactCheck_3_01N_00_01ObjectT_00_01NoVisualRepresentationCheck_01_4.html", null ]
     ] ],
     [ "MR::NormalsToPoints::ISolver", "classMR_1_1NormalsToPoints_1_1ISolver.html", null ],
+    [ "MR::ItemEnabledPerViewport", "classMR_1_1ItemEnabledPerViewport.html", null ],
     [ "MR::IteratorRange< I >", "structMR_1_1IteratorRange.html", null ],
     [ "MR::ITransformControls", "classMR_1_1ITransformControls.html", [
       [ "MR::TransformControls", "classMR_1_1TransformControls.html", null ]

@@ -37,6 +37,7 @@ var dir_6e96927c85b5db1a870a672280c47921 =
     [ "MRImGuiMenuListeners.h", "MRImGuiMenuListeners_8h.html", "MRImGuiMenuListeners_8h" ],
     [ "MRImGuiVectorOperators.h", "MRImGuiVectorOperators_8h.html", "MRImGuiVectorOperators_8h" ],
     [ "MRISceneStateCheck.h", "MRISceneStateCheck_8h.html", "MRISceneStateCheck_8h" ],
+    [ "MRItemEnabledPerViewport.h", "MRItemEnabledPerViewport_8h.html", "MRItemEnabledPerViewport_8h" ],
     [ "MRLambdaRibbonItem.h", "MRLambdaRibbonItem_8h.html", "MRLambdaRibbonItem_8h" ],
     [ "MRLinesShader.h", "MRLinesShader_8h.html", "MRLinesShader_8h" ],
     [ "MRMacOSOpenDocumentsHandler.h", "MRMacOSOpenDocumentsHandler_8h.html", null ],
