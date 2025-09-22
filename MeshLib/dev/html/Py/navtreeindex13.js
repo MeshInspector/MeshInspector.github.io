@@ -1,5 +1,15 @@
 var NAVTREEINDEX13 =
 {
+"classmrmeshpy_1_1ChangeMeshEdgeSelectionAction.html#a4e7248f46b69ae006b9b3539a98badf6":[6,1,0,0,2,108,3],
+"classmrmeshpy_1_1ChangeMeshEdgeSelectionAction.html#a4e7248f46b69ae006b9b3539a98badf6":[6,1,1,0,1,108,3],
+"classmrmeshpy_1_1ChangeMeshEdgeSelectionAction.html#a7250b66b3736dc051174d3272c4d5ee5":[6,1,0,0,2,108,2],
+"classmrmeshpy_1_1ChangeMeshEdgeSelectionAction.html#a7250b66b3736dc051174d3272c4d5ee5":[6,1,1,0,1,108,2],
+"classmrmeshpy_1_1ChangeMeshFaceSelectionAction.html":[6,1,0,0,2,109],
+"classmrmeshpy_1_1ChangeMeshFaceSelectionAction.html":[6,1,1,0,1,109],
+"classmrmeshpy_1_1ChangeMeshFaceSelectionAction.html#a0a21ce660b45b1aebb618f22ff3469d7":[6,1,0,0,2,109,1],
+"classmrmeshpy_1_1ChangeMeshFaceSelectionAction.html#a0a21ce660b45b1aebb618f22ff3469d7":[6,1,1,0,1,109,1],
+"classmrmeshpy_1_1ChangeMeshFaceSelectionAction.html#a0bf0c814cdb526b502a61dc4c9730727":[6,1,0,0,2,109,4],
+"classmrmeshpy_1_1ChangeMeshFaceSelectionAction.html#a0bf0c814cdb526b502a61dc4c9730727":[6,1,1,0,1,109,4],
 "classmrmeshpy_1_1ChangeMeshFaceSelectionAction.html#a518fc73879772a55dbe183305fa46d1a":[6,1,0,0,2,109,2],
 "classmrmeshpy_1_1ChangeMeshFaceSelectionAction.html#a518fc73879772a55dbe183305fa46d1a":[6,1,1,0,1,109,2],
 "classmrmeshpy_1_1ChangeMeshFaceSelectionAction.html#a5a803725e5d40a8c4fd69100d7b61141":[6,1,0,0,2,109,0],
@@ -239,15 +249,5 @@ var NAVTREEINDEX13 =
 "classmrmeshpy_1_1ChangePolylinePointsAction.html#a0976efe6a59ef72acd5f51fd476706bd":[6,1,0,0,2,127,2],
 "classmrmeshpy_1_1ChangePolylinePointsAction.html#a0976efe6a59ef72acd5f51fd476706bd":[6,1,1,0,1,127,2],
 "classmrmeshpy_1_1ChangePolylinePointsAction.html#a44c1d531c27dcc607568ee421756c91c":[6,1,0,0,2,127,1],
-"classmrmeshpy_1_1ChangePolylinePointsAction.html#a44c1d531c27dcc607568ee421756c91c":[6,1,1,0,1,127,1],
-"classmrmeshpy_1_1ChangePolylinePointsAction.html#a44ccc8a6af031013449e3221ad7372e2":[6,1,0,0,2,127,0],
-"classmrmeshpy_1_1ChangePolylinePointsAction.html#a44ccc8a6af031013449e3221ad7372e2":[6,1,1,0,1,127,0],
-"classmrmeshpy_1_1ChangePolylinePointsAction.html#a78ed549707511b6f65c5105580bf05bf":[6,1,0,0,2,127,3],
-"classmrmeshpy_1_1ChangePolylinePointsAction.html#a78ed549707511b6f65c5105580bf05bf":[6,1,1,0,1,127,3],
-"classmrmeshpy_1_1ChangePolylineTopologyAction.html":[6,1,0,0,2,128],
-"classmrmeshpy_1_1ChangePolylineTopologyAction.html":[6,1,1,0,1,128],
-"classmrmeshpy_1_1ChangePolylineTopologyAction.html#a10acc2c47955aad611dd8f9d89d69d96":[6,1,0,0,2,128,3],
-"classmrmeshpy_1_1ChangePolylineTopologyAction.html#a10acc2c47955aad611dd8f9d89d69d96":[6,1,1,0,1,128,3],
-"classmrmeshpy_1_1ChangePolylineTopologyAction.html#a1b91a45de1dcea661602a2d1eb26885e":[6,1,0,0,2,128,1],
-"classmrmeshpy_1_1ChangePolylineTopologyAction.html#a1b91a45de1dcea661602a2d1eb26885e":[6,1,1,0,1,128,1]
+"classmrmeshpy_1_1ChangePolylinePointsAction.html#a44c1d531c27dcc607568ee421756c91c":[6,1,1,0,1,127,1]
 };

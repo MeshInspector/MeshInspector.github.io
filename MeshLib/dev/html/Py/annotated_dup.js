@@ -1,6 +1,7 @@
 var annotated_dup =
 [
     [ "mrcudapy", "namespacemrcudapy.html", [
+      [ "ComputeToolDistance", "classmrcudapy_1_1ComputeToolDistance.html", "classmrcudapy_1_1ComputeToolDistance" ],
       [ "FastWindingNumber", "classmrcudapy_1_1FastWindingNumber.html", "classmrcudapy_1_1FastWindingNumber" ],
       [ "func_tl_expected_void_std_string_from_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_int", "classmrcudapy_1_1func__tl__expected__void__std__string__from__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__int.html", "classmrcudapy_1_1func__tl__expected__void__std__string__from__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__int" ],
       [ "PointsProjector", "classmrcudapy_1_1PointsProjector.html", "classmrcudapy_1_1PointsProjector" ],
@@ -162,6 +163,7 @@ var annotated_dup =
       [ "CombinedHistoryAction", "classmrmeshpy_1_1CombinedHistoryAction.html", "classmrmeshpy_1_1CombinedHistoryAction" ],
       [ "CompensateRadiusParams", "classmrmeshpy_1_1CompensateRadiusParams.html", "classmrmeshpy_1_1CompensateRadiusParams" ],
       [ "ComputeSteepestDescentPathSettings", "classmrmeshpy_1_1ComputeSteepestDescentPathSettings.html", "classmrmeshpy_1_1ComputeSteepestDescentPathSettings" ],
+      [ "ComputeSweptVolumeParameters", "classmrmeshpy_1_1ComputeSweptVolumeParameters.html", "classmrmeshpy_1_1ComputeSweptVolumeParameters" ],
       [ "Cone3ApproximationParams", "classmrmeshpy_1_1Cone3ApproximationParams.html", "classmrmeshpy_1_1Cone3ApproximationParams" ],
       [ "Cone3d", "classmrmeshpy_1_1Cone3d.html", "classmrmeshpy_1_1Cone3d" ],
       [ "Cone3f", "classmrmeshpy_1_1Cone3f.html", "classmrmeshpy_1_1Cone3f" ],
@@ -380,6 +382,7 @@ var annotated_dup =
       [ "Histogram", "classmrmeshpy_1_1Histogram.html", "classmrmeshpy_1_1Histogram" ],
       [ "HistoryAction", "classmrmeshpy_1_1HistoryAction.html", "classmrmeshpy_1_1HistoryAction" ],
       [ "HoleFillPlan", "classmrmeshpy_1_1HoleFillPlan.html", "classmrmeshpy_1_1HoleFillPlan" ],
+      [ "IComputeToolDistance", "classmrmeshpy_1_1IComputeToolDistance.html", "classmrmeshpy_1_1IComputeToolDistance" ],
       [ "ICP", "classmrmeshpy_1_1ICP.html", "classmrmeshpy_1_1ICP" ],
       [ "ICPExitType", "classmrmeshpy_1_1ICPExitType.html", "classmrmeshpy_1_1ICPExitType" ],
       [ "ICPGroupPair", "classmrmeshpy_1_1ICPGroupPair.html", "classmrmeshpy_1_1ICPGroupPair" ],

@@ -1,5 +1,14 @@
 var NAVTREEINDEX19 =
 {
+"classMR_1_1AABBTreeBase.html":[6,0,1,0,1,48],
+"classMR_1_1AABBTreeBase.html":[6,0,2,0,1,30],
+"classMR_1_1AABBTreeBase.html#a11f524576ba6c686729f0173615bc190":[6,0,1,0,1,48,18],
+"classMR_1_1AABBTreeBase.html#a11f524576ba6c686729f0173615bc190":[6,0,2,0,1,30,18],
+"classMR_1_1AABBTreeBase.html#a380c83540a90e46211318ad9752c2fd2":[6,0,1,0,1,48,0],
+"classMR_1_1AABBTreeBase.html#a380c83540a90e46211318ad9752c2fd2":[6,0,2,0,1,30,0],
+"classMR_1_1AABBTreeBase.html#a444c40a8f2e0206606d5abe15c0f506f":[6,0,1,0,1,48,16],
+"classMR_1_1AABBTreeBase.html#a444c40a8f2e0206606d5abe15c0f506f":[6,0,2,0,1,30,16],
+"classMR_1_1AABBTreeBase.html#a4a87e995071aa1a99752d3f3f32a72b3":[6,0,1,0,1,48,5],
 "classMR_1_1AABBTreeBase.html#a4a87e995071aa1a99752d3f3f32a72b3":[6,0,2,0,1,30,5],
 "classMR_1_1AABBTreeBase.html#a58f8dd538965bde14c46c2ed60aac1f9":[6,0,1,0,1,48,15],
 "classMR_1_1AABBTreeBase.html#a58f8dd538965bde14c46c2ed60aac1f9":[6,0,2,0,1,30,15],
@@ -240,14 +249,5 @@ var NAVTREEINDEX19 =
 "classMR_1_1BasinVolumeCalculator.html#ac7233d0978a844b09ce6707086caf51c":[6,0,1,0,1,76,1],
 "classMR_1_1BasinVolumeCalculator.html#ac7233d0978a844b09ce6707086caf51c":[6,0,2,0,1,58,1],
 "classMR_1_1BestFitParabola.html":[6,0,1,0,1,77],
-"classMR_1_1BestFitParabola.html":[6,0,2,0,1,59],
-"classMR_1_1BestFitParabola.html#a35bb9336bb5fe0191c718e89261c9645":[6,0,1,0,1,77,1],
-"classMR_1_1BestFitParabola.html#a35bb9336bb5fe0191c718e89261c9645":[6,0,2,0,1,59,1],
-"classMR_1_1BestFitParabola.html#a5aa2674186bbd028f31bcc7308f82255":[6,0,1,0,1,77,2],
-"classMR_1_1BestFitParabola.html#a5aa2674186bbd028f31bcc7308f82255":[6,0,2,0,1,59,2],
-"classMR_1_1BestFitParabola.html#a8b4c1d8441a656b128c01711395e395b":[6,0,1,0,1,77,0],
-"classMR_1_1BestFitParabola.html#a8b4c1d8441a656b128c01711395e395b":[6,0,2,0,1,59,0],
-"classMR_1_1BestFitPolynomial.html":[6,0,1,0,1,78],
-"classMR_1_1BestFitPolynomial.html":[6,0,2,0,1,60],
-"classMR_1_1BestFitPolynomial.html#a131a7e21452f03e4a9613d1d168482c8":[6,0,1,0,1,78,1]
+"classMR_1_1BestFitParabola.html":[6,0,2,0,1,59]
 };

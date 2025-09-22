@@ -179,6 +179,7 @@ var hierarchy =
     [ "mrmeshpy.ObjectComparableWithReference.ComparisonTolerance", "classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonTolerance.html", null ],
     [ "mrmeshpy.CompensateRadiusParams", "classmrmeshpy_1_1CompensateRadiusParams.html", null ],
     [ "mrmeshpy.ComputeSteepestDescentPathSettings", "classmrmeshpy_1_1ComputeSteepestDescentPathSettings.html", null ],
+    [ "mrmeshpy.ComputeSweptVolumeParameters", "classmrmeshpy_1_1ComputeSweptVolumeParameters.html", null ],
     [ "mrmeshpy.Cone3ApproximationParams", "classmrmeshpy_1_1Cone3ApproximationParams.html", null ],
     [ "mrmeshpy.Cone3d", "classmrmeshpy_1_1Cone3d.html", null ],
     [ "mrmeshpy.Cone3f", "classmrmeshpy_1_1Cone3f.html", null ],
@@ -473,6 +474,10 @@ var hierarchy =
       [ "mrmeshpy.PartialChangeMeshTopologyAction", "classmrmeshpy_1_1PartialChangeMeshTopologyAction.html", null ]
     ] ],
     [ "mrmeshpy.HoleFillPlan", "classmrmeshpy_1_1HoleFillPlan.html", null ],
+    [ "meshlib.mrmeshpy.IComputeToolDistance", null, [
+      [ "mrcudapy.ComputeToolDistance", "classmrcudapy_1_1ComputeToolDistance.html", null ]
+    ] ],
+    [ "mrmeshpy.IComputeToolDistance", "classmrmeshpy_1_1IComputeToolDistance.html", null ],
     [ "mrmeshpy.ICP", "classmrmeshpy_1_1ICP.html", null ],
     [ "mrmeshpy.ICPExitType", "classmrmeshpy_1_1ICPExitType.html", null ],
     [ "mrmeshpy.ICPMethod", "classmrmeshpy_1_1ICPMethod.html", null ],

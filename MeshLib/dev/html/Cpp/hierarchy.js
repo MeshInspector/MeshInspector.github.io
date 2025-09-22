@@ -217,6 +217,7 @@ var hierarchy =
     [ "MR::ObjectComparableWithReference::ComparisonTolerance", "structMR_1_1ObjectComparableWithReference_1_1ComparisonTolerance.html", null ],
     [ "MR::CompensateRadiusParams", "structMR_1_1CompensateRadiusParams.html", null ],
     [ "MR::ComputeSteepestDescentPathSettings", "structMR_1_1ComputeSteepestDescentPathSettings.html", null ],
+    [ "MR::ComputeSweptVolumeParameters", "structMR_1_1ComputeSweptVolumeParameters.html", null ],
     [ "MR::Cone3< T >", "classMR_1_1Cone3.html", null ],
     [ "MR::Cone3Approximation< T >", "classMR_1_1Cone3Approximation.html", null ],
     [ "MR::Cone3ApproximationParams", "structMR_1_1Cone3ApproximationParams.html", null ],
@@ -504,6 +505,9 @@ var hierarchy =
     [ "MR::HistoryStore", "classMR_1_1HistoryStore.html", null ],
     [ "MR::HoleEdgePoint", "structMR_1_1HoleEdgePoint.html", null ],
     [ "MR::HoleFillPlan", "structMR_1_1HoleFillPlan.html", null ],
+    [ "MR::IComputeToolDistance", "classMR_1_1IComputeToolDistance.html", [
+      [ "MR::Cuda::ComputeToolDistance", "classMR_1_1Cuda_1_1ComputeToolDistance.html", null ]
+    ] ],
     [ "MR::IConnectable", "structMR_1_1IConnectable.html", [
       [ "MR::ConnectionHolder", "structMR_1_1ConnectionHolder.html", [
         [ "MR::CharPressedListener", "structMR_1_1CharPressedListener.html", null ],

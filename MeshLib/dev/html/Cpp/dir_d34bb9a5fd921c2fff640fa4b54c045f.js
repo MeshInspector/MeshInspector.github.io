@@ -13,5 +13,6 @@ var dir_d34bb9a5fd921c2fff640fa4b54c045f =
     [ "MRCudaPointsToMeshProjector.h", "MRCudaPointsToMeshProjector_8h.html", "MRCudaPointsToMeshProjector_8h" ],
     [ "MRCudaPolyline.h", "MRCudaPolyline_8h.html", "MRCudaPolyline_8h" ],
     [ "MRCudaSolarRadiation.h", "MRCudaSolarRadiation_8h.html", "MRCudaSolarRadiation_8h" ],
+    [ "MRCudaSweptVolume.h", "MRCudaSweptVolume_8h.html", "MRCudaSweptVolume_8h" ],
     [ "MRCudaTest.h", "MRCudaTest_8h.html", "MRCudaTest_8h" ]
 ];

@@ -26,6 +26,7 @@ var dir_0548e20a3bcd59381bf0bdb32f67cd97 =
     [ "MRRebuildMesh.h", "MRRebuildMesh_8h.html", "MRRebuildMesh_8h" ],
     [ "MRScalarConvert.h", "MRScalarConvert_8h.html", "MRScalarConvert_8h" ],
     [ "MRScanHelpers.h", "MRScanHelpers_8h.html", "MRScanHelpers_8h" ],
+    [ "MRSweptVolume.h", "MRSweptVolume_8h.html", "MRSweptVolume_8h" ],
     [ "MRTeethMaskToDirectionVolume.h", "MRTeethMaskToDirectionVolume_8h.html", "MRTeethMaskToDirectionVolume_8h" ],
     [ "MRToolPath.h", "MRToolPath_8h.html", "MRToolPath_8h" ],
     [ "MRVDBConversions.h", "MRVoxels_2MRVDBConversions_8h.html", "MRVoxels_2MRVDBConversions_8h" ],

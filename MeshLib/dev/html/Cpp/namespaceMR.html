@@ -513,6 +513,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ComputeSteepestDescentPathSettings.html">ComputeSteepestDescentPathSettings</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ComputeSweptVolumeParameters.html">ComputeSweptVolumeParameters</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters for computeSweptVolume* functions.  <a href="structMR_1_1ComputeSweptVolumeParameters.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Cone3.html">Cone3</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Cone3Approximation.html">Cone3Approximation</a></td></tr>
@@ -845,6 +848,9 @@ Structure has some options to control <a class="el" href="group__FillHoleGroup.h
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1HoleFillPlan.html">HoleFillPlan</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">concise representation of proposed hole triangulation  <a href="structMR_1_1HoleFillPlan.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1IComputeToolDistance.html">IComputeToolDistance</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interface for custom tool distance computation implementations.  <a href="classMR_1_1IComputeToolDistance.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1IConnectable.html">IConnectable</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -6723,6 +6729,18 @@ requires (<a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt
 <tr class="memitem:a5f2711691fd38c7824e19ec119dd53c5" id="r_a5f2711691fd38c7824e19ec119dd53c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f2711691fd38c7824e19ec119dd53c5">sortScanFilesByName</a> (std::vector&lt; std::filesystem::path &gt; &amp;scans)</td></tr>
 <tr class="memdesc:a5f2711691fd38c7824e19ec119dd53c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort scan files in given vector by names (respect numbers in it)  <br /></td></tr>
 <tr class="separator:a5f2711691fd38c7824e19ec119dd53c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f080f919e3c7334a412f19631c396fe" id="r_a7f080f919e3c7334a412f19631c396fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> Box3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f080f919e3c7334a412f19631c396fe">computeWorkArea</a> (const Polyline3 &amp;toolpath, const MeshPart &amp;tool)</td></tr>
+<tr class="memdesc:a7f080f919e3c7334a412f19631c396fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute bounding box for swept volume for given tool and toolpath.  <br /></td></tr>
+<tr class="separator:a7f080f919e3c7334a412f19631c396fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af590a2721f4796524975bc0be4f8d2d0" id="r_af590a2721f4796524975bc0be4f8d2d0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> Box3i&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af590a2721f4796524975bc0be4f8d2d0">computeGridBox</a> (const Box3f &amp;workArea, float voxelSize)</td></tr>
+<tr class="memdesc:af590a2721f4796524975bc0be4f8d2d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute required voxel volume's dimensions for given work area.  <br /></td></tr>
+<tr class="separator:af590a2721f4796524975bc0be4f8d2d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7de93f663b2025ec247f2e5fffede03" id="r_ab7de93f663b2025ec247f2e5fffede03"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7de93f663b2025ec247f2e5fffede03">computeSweptVolumeWithMeshMovement</a> (const <a class="el" href="structMR_1_1ComputeSweptVolumeParameters.html">ComputeSweptVolumeParameters</a> &amp;params)</td></tr>
+<tr class="separator:ab7de93f663b2025ec247f2e5fffede03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff37dc7dc71521d21f88feca9dec28ee" id="r_aff37dc7dc71521d21f88feca9dec28ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff37dc7dc71521d21f88feca9dec28ee">computeSweptVolumeWithDistanceVolume</a> (const <a class="el" href="structMR_1_1ComputeSweptVolumeParameters.html">ComputeSweptVolumeParameters</a> &amp;params)</td></tr>
+<tr class="separator:aff37dc7dc71521d21f88feca9dec28ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa91ec60e342e62e88f740e7fab22eaf0" id="r_aa91ec60e342e62e88f740e7fab22eaf0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa91ec60e342e62e88f740e7fab22eaf0">computeSweptVolumeWithCustomToolDistance</a> (<a class="el" href="classMR_1_1IComputeToolDistance.html">IComputeToolDistance</a> &amp;comp, const <a class="el" href="structMR_1_1ComputeSweptVolumeParameters.html">ComputeSweptVolumeParameters</a> &amp;params)</td></tr>
+<tr class="separator:aa91ec60e342e62e88f740e7fab22eaf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a60b64c60400c783d65cff22715afab1e" id="r_a60b64c60400c783d65cff22715afab1e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::array&lt; SimpleVolumeMinMax, 3 &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60b64c60400c783d65cff22715afab1e">teethMaskToDirectionVolume</a> (const VdbVolume &amp;<a class="el" href="#a83e40508b3f05b594da19748c1da2d05">volume</a>, const std::vector&lt; int &gt; &amp;additionalIds={})</td></tr>
 <tr class="memdesc:a60b64c60400c783d65cff22715afab1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">A shortcut for <a class="el" href="classMR_1_1TeethMaskToDirectionVolumeConvertor.html#a89983e40e7eb6539ae2adb1b772a2129">TeethMaskToDirectionVolumeConvertor::create</a> and <a class="el" href="classMR_1_1TeethMaskToDirectionVolumeConvertor.html#a73d08553d48acf30d322b43f3de7d4a3">TeethMaskToDirectionVolumeConvertor::convertAll</a>.  <br /></td></tr>
 <tr class="separator:a60b64c60400c783d65cff22715afab1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -14064,6 +14082,29 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="af590a2721f4796524975bc0be4f8d2d0" name="af590a2721f4796524975bc0be4f8d2d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af590a2721f4796524975bc0be4f8d2d0">&#9670;&#160;</a></span>computeGridBox()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> Box3i MR::computeGridBox </td>
+          <td>(</td>
+          <td class="paramtype">const Box3f &amp;</td>          <td class="paramname"><span class="paramname"><em>workArea</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>voxelSize</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Compute required voxel volume's dimensions for given work area. </p>
+
+</div>
+</div>
 <a id="a3012b3adfc77002b6a98aa0d6d3df46d" name="a3012b3adfc77002b6a98aa0d6d3df46d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3012b3adfc77002b6a98aa0d6d3df46d">&#9670;&#160;</a></span>computeInSphereThicknessAtVertices()</h2>
 
@@ -14263,6 +14304,64 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="aa91ec60e342e62e88f740e7fab22eaf0" name="aa91ec60e342e62e88f740e7fab22eaf0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa91ec60e342e62e88f740e7fab22eaf0">&#9670;&#160;</a></span>computeSweptVolumeWithCustomToolDistance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt; MR::computeSweptVolumeWithCustomToolDistance </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1IComputeToolDistance.html">IComputeToolDistance</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>comp</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1ComputeSweptVolumeParameters.html">ComputeSweptVolumeParameters</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Compute swept volume for given toolpath and tool Creates a distance-to-tool volume using custom tool distance computation object and converts it to mesh using the marching cubes algorithm </p>
+
+</div>
+</div>
+<a id="aff37dc7dc71521d21f88feca9dec28ee" name="aff37dc7dc71521d21f88feca9dec28ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff37dc7dc71521d21f88feca9dec28ee">&#9670;&#160;</a></span>computeSweptVolumeWithDistanceVolume()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt; MR::computeSweptVolumeWithDistanceVolume </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1ComputeSweptVolumeParameters.html">ComputeSweptVolumeParameters</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Compute swept volume for given toolpath and tool Creates a distance-to-tool volume and converts it to mesh using the marching cubes algorithm </p>
+
+</div>
+</div>
+<a id="ab7de93f663b2025ec247f2e5fffede03" name="ab7de93f663b2025ec247f2e5fffede03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7de93f663b2025ec247f2e5fffede03">&#9670;&#160;</a></span>computeSweptVolumeWithMeshMovement()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt; MR::computeSweptVolumeWithMeshMovement </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1ComputeSweptVolumeParameters.html">ComputeSweptVolumeParameters</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Compute swept volume for given toolpath and tool Builds mesh for each tool movement and joins them using voxel boolean </p>
+
+</div>
+</div>
 <a id="a86a7a7e15f6ca97ab7fc48a6b80ccfc3" name="a86a7a7e15f6ca97ab7fc48a6b80ccfc3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a86a7a7e15f6ca97ab7fc48a6b80ccfc3">&#9670;&#160;</a></span>computeThicknessAtVertices()</h2>
 
@@ -14304,6 +14403,29 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>computes statistics about the number of triangle repetitions in local triangulations </p>
+
+</div>
+</div>
+<a id="a7f080f919e3c7334a412f19631c396fe" name="a7f080f919e3c7334a412f19631c396fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f080f919e3c7334a412f19631c396fe">&#9670;&#160;</a></span>computeWorkArea()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> Box3f MR::computeWorkArea </td>
+          <td>(</td>
+          <td class="paramtype">const Polyline3 &amp;</td>          <td class="paramname"><span class="paramname"><em>toolpath</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const MeshPart &amp;</td>          <td class="paramname"><span class="paramname"><em>tool</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Compute bounding box for swept volume for given tool and toolpath. </p>
 
 </div>
 </div>

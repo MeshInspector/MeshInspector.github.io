@@ -1,5 +1,6 @@
 var namespacemrcudapy =
 [
+    [ "ComputeToolDistance", "classmrcudapy_1_1ComputeToolDistance.html", "classmrcudapy_1_1ComputeToolDistance" ],
     [ "FastWindingNumber", "classmrcudapy_1_1FastWindingNumber.html", "classmrcudapy_1_1FastWindingNumber" ],
     [ "func_tl_expected_void_std_string_from_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_int", "classmrcudapy_1_1func__tl__expected__void__std__string__from__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__int.html", "classmrcudapy_1_1func__tl__expected__void__std__string__from__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__int" ],
     [ "PointsProjector", "classmrcudapy_1_1PointsProjector.html", "classmrcudapy_1_1PointsProjector" ],

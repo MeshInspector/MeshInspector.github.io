@@ -1,5 +1,14 @@
 var NAVTREEINDEX20 =
 {
+"classMR_1_1BestFitParabola.html#a35bb9336bb5fe0191c718e89261c9645":[6,0,1,0,1,77,1],
+"classMR_1_1BestFitParabola.html#a35bb9336bb5fe0191c718e89261c9645":[6,0,2,0,1,59,1],
+"classMR_1_1BestFitParabola.html#a5aa2674186bbd028f31bcc7308f82255":[6,0,1,0,1,77,2],
+"classMR_1_1BestFitParabola.html#a5aa2674186bbd028f31bcc7308f82255":[6,0,2,0,1,59,2],
+"classMR_1_1BestFitParabola.html#a8b4c1d8441a656b128c01711395e395b":[6,0,1,0,1,77,0],
+"classMR_1_1BestFitParabola.html#a8b4c1d8441a656b128c01711395e395b":[6,0,2,0,1,59,0],
+"classMR_1_1BestFitPolynomial.html":[6,0,1,0,1,78],
+"classMR_1_1BestFitPolynomial.html":[6,0,2,0,1,60],
+"classMR_1_1BestFitPolynomial.html#a131a7e21452f03e4a9613d1d168482c8":[6,0,1,0,1,78,1],
 "classMR_1_1BestFitPolynomial.html#a131a7e21452f03e4a9613d1d168482c8":[6,0,2,0,1,60,1],
 "classMR_1_1BestFitPolynomial.html#a6e839e3a51321f2d22350459fa2c280d":[6,0,1,0,1,78,0],
 "classMR_1_1BestFitPolynomial.html#a6e839e3a51321f2d22350459fa2c280d":[6,0,2,0,1,60,0],
@@ -240,14 +249,5 @@ var NAVTREEINDEX20 =
 "classMR_1_1ChangeLinesColorMapAction.html#a58c39c7fe8142548916393082fe71741":[6,0,0,4,2,5],
 "classMR_1_1ChangeLinesColorMapAction.html#a5c000b7f2ed38d70be031166c9529327":[6,0,0,4,2,4],
 "classMR_1_1ChangeLinesColorMapAction.html#a72f12b1fca7e6ed8731a32ca1796e0b2":[6,0,0,4,2,3],
-"classMR_1_1ChangeLinesColorMapAction.html#a7806259621a23a6b67669e9b3be99e92":[6,0,0,4,2,1],
-"classMR_1_1ChangeLinesColorMapAction.html#aa8ddee0413ffd1f5443c24e425457f07":[6,0,0,4,2,2],
-"classMR_1_1ChangeMeshAction.html":[6,0,0,4,4],
-"classMR_1_1ChangeMeshAction.html#a6e73aebdc0c2a7d4d2273eed02ad84ab":[6,0,0,4,4,5],
-"classMR_1_1ChangeMeshAction.html#a95aa4293570939f1ab9d6f90ac117dad":[6,0,0,4,4,2],
-"classMR_1_1ChangeMeshAction.html#aa047c1990777d68d6c09a53db29e6d61":[6,0,0,4,4,1],
-"classMR_1_1ChangeMeshAction.html#ac10a0aa665f6874a187cfb802dcb7dc8":[6,0,0,4,4,3],
-"classMR_1_1ChangeMeshAction.html#ad0dbdadda7bb2d160c77aa14e2eea201":[6,0,0,4,4,4],
-"classMR_1_1ChangeMeshAction.html#af714055379496f5d4d7cc0762f755fea":[6,0,0,4,4,0],
-"classMR_1_1ChangeMeshCreasesAction.html":[6,0,0,4,30]
+"classMR_1_1ChangeLinesColorMapAction.html#a7806259621a23a6b67669e9b3be99e92":[6,0,0,4,2,1]
 };

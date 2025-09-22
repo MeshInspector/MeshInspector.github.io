@@ -23,6 +23,7 @@ var dir_f3347e714ce645328a0f1e84cdba4df7 =
     [ "MRRebuildMesh.h", "MRRebuildMesh_8h.html", "MRRebuildMesh_8h" ],
     [ "MRScalarConvert.h", "MRScalarConvert_8h.html", "MRScalarConvert_8h" ],
     [ "MRScanHelpers.h", "MRScanHelpers_8h.html", "MRScanHelpers_8h" ],
+    [ "MRSweptVolume.h", "MRSweptVolume_8h.html", "MRSweptVolume_8h" ],
     [ "MRTeethMaskToDirectionVolume.h", "MRTeethMaskToDirectionVolume_8h.html", "MRTeethMaskToDirectionVolume_8h" ],
     [ "MRToolPath.h", "MRToolPath_8h.html", "MRToolPath_8h" ],
     [ "MRVDBConversions.h", "MRVDBConversions_8h.html", "MRVDBConversions_8h" ],

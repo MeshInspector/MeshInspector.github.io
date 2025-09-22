@@ -32,6 +32,7 @@ var dir_12d01ef4fa7c7ca18852dd6d7d92a624 =
     [ "expected_MR_UndirectedEdgeBitSet_std_string.h", "expected__MR__UndirectedEdgeBitSet__std__string_8h.html", "expected__MR__UndirectedEdgeBitSet__std__string_8h" ],
     [ "expected_MR_UnionFind_MR_VertId_std_string.h", "expected__MR__UnionFind__MR__VertId__std__string_8h.html", "expected__MR__UnionFind__MR__VertId__std__string_8h" ],
     [ "expected_MR_VdbVolume_std_string.h", "expected__MR__VdbVolume__std__string_8h.html", "expected__MR__VdbVolume__std__string_8h" ],
+    [ "expected_MR_Vector3i_std_string.h", "expected__MR__Vector3i__std__string_8h.html", "expected__MR__Vector3i__std__string_8h" ],
     [ "expected_MR_VertBitSet_std_string.h", "expected__MR__VertBitSet__std__string_8h.html", "expected__MR__VertBitSet__std__string_8h" ],
     [ "expected_MR_VertColors_std_string.h", "expected__MR__VertColors__std__string_8h.html", "expected__MR__VertColors__std__string_8h" ],
     [ "expected_MR_VertCoords_std_string.h", "expected__MR__VertCoords__std__string_8h.html", "expected__MR__VertCoords__std__string_8h" ],

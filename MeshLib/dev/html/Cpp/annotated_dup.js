@@ -8,6 +8,7 @@ var annotated_dup =
     ] ],
     [ "MR", "namespaceMR.html", [
       [ "Cuda", "namespaceMR_1_1Cuda.html", [
+        [ "ComputeToolDistance", "classMR_1_1Cuda_1_1ComputeToolDistance.html", "classMR_1_1Cuda_1_1ComputeToolDistance" ],
         [ "FastWindingNumber", "classMR_1_1Cuda_1_1FastWindingNumber.html", "classMR_1_1Cuda_1_1FastWindingNumber" ],
         [ "PointsProjector", "classMR_1_1Cuda_1_1PointsProjector.html", "classMR_1_1Cuda_1_1PointsProjector" ],
         [ "PointsToMeshProjector", "classMR_1_1Cuda_1_1PointsToMeshProjector.html", "classMR_1_1Cuda_1_1PointsToMeshProjector" ],
@@ -345,6 +346,7 @@ var annotated_dup =
       [ "CommandLoop", "classMR_1_1CommandLoop.html", "classMR_1_1CommandLoop" ],
       [ "CompensateRadiusParams", "structMR_1_1CompensateRadiusParams.html", "structMR_1_1CompensateRadiusParams" ],
       [ "ComputeSteepestDescentPathSettings", "structMR_1_1ComputeSteepestDescentPathSettings.html", "structMR_1_1ComputeSteepestDescentPathSettings" ],
+      [ "ComputeSweptVolumeParameters", "structMR_1_1ComputeSweptVolumeParameters.html", "structMR_1_1ComputeSweptVolumeParameters" ],
       [ "Cone3", "classMR_1_1Cone3.html", "classMR_1_1Cone3" ],
       [ "Cone3Approximation", "classMR_1_1Cone3Approximation.html", "classMR_1_1Cone3Approximation" ],
       [ "Cone3ApproximationParams", "structMR_1_1Cone3ApproximationParams.html", "structMR_1_1Cone3ApproximationParams" ],
@@ -483,6 +485,7 @@ var annotated_dup =
       [ "HistoryStore", "classMR_1_1HistoryStore.html", "classMR_1_1HistoryStore" ],
       [ "HoleEdgePoint", "structMR_1_1HoleEdgePoint.html", "structMR_1_1HoleEdgePoint" ],
       [ "HoleFillPlan", "structMR_1_1HoleFillPlan.html", "structMR_1_1HoleFillPlan" ],
+      [ "IComputeToolDistance", "classMR_1_1IComputeToolDistance.html", "classMR_1_1IComputeToolDistance" ],
       [ "IConnectable", "structMR_1_1IConnectable.html", "structMR_1_1IConnectable" ],
       [ "ICP", "classMR_1_1ICP.html", "classMR_1_1ICP" ],
       [ "ICPGroupPair", "structMR_1_1ICPGroupPair.html", "structMR_1_1ICPGroupPair" ],

@@ -1,5 +1,15 @@
 var NAVTREEINDEX12 =
 {
+"classmrmeshpy_1_1Buffer__unsigned__char.html#aafe28302a2e8c3ecea7b5368c95ef381":[6,1,1,0,1,92,2],
+"classmrmeshpy_1_1Buffer__unsigned__char.html#aafe28302a2e8c3ecea7b5368c95ef381":[6,1,1,0,1,92,3],
+"classmrmeshpy_1_1Buffer__unsigned__char.html#ab1d0a1e8e9f37e78d6222c1aa70c38f3":[6,1,0,0,2,92,8],
+"classmrmeshpy_1_1Buffer__unsigned__char.html#ab1d0a1e8e9f37e78d6222c1aa70c38f3":[6,1,1,0,1,92,8],
+"classmrmeshpy_1_1Buffer__unsigned__char.html#ad590a85a73a66c3e612888a9bdb30399":[6,1,0,0,2,92,6],
+"classmrmeshpy_1_1Buffer__unsigned__char.html#ad590a85a73a66c3e612888a9bdb30399":[6,1,1,0,1,92,6],
+"classmrmeshpy_1_1Buffer__unsigned__char.html#adbf74802ea62e23aeeb38dab853b1437":[6,1,0,0,2,92,13],
+"classmrmeshpy_1_1Buffer__unsigned__char.html#adbf74802ea62e23aeeb38dab853b1437":[6,1,1,0,1,92,13],
+"classmrmeshpy_1_1Buffer__unsigned__char.html#aec770727bb4957d35592a3e17d73bfb7":[6,1,0,0,2,92,10],
+"classmrmeshpy_1_1Buffer__unsigned__char.html#aec770727bb4957d35592a3e17d73bfb7":[6,1,0,0,2,92,11],
 "classmrmeshpy_1_1Buffer__unsigned__char.html#aec770727bb4957d35592a3e17d73bfb7":[6,1,1,0,1,92,10],
 "classmrmeshpy_1_1Buffer__unsigned__char.html#aec770727bb4957d35592a3e17d73bfb7":[6,1,1,0,1,92,11],
 "classmrmeshpy_1_1Buffer__unsigned__char.html#afa721bfaa37b9048a6d77444cf70aa14":[6,1,0,0,2,92,12],
@@ -239,15 +249,5 @@ var NAVTREEINDEX12 =
 "classmrmeshpy_1_1ChangeMeshEdgeSelectionAction.html#a2cba21755ca206468f2a834d869c6bc8":[6,1,0,0,2,108,1],
 "classmrmeshpy_1_1ChangeMeshEdgeSelectionAction.html#a2cba21755ca206468f2a834d869c6bc8":[6,1,1,0,1,108,1],
 "classmrmeshpy_1_1ChangeMeshEdgeSelectionAction.html#a305ee64a58b467b95900992d0199b324":[6,1,0,0,2,108,4],
-"classmrmeshpy_1_1ChangeMeshEdgeSelectionAction.html#a305ee64a58b467b95900992d0199b324":[6,1,1,0,1,108,4],
-"classmrmeshpy_1_1ChangeMeshEdgeSelectionAction.html#a4e7248f46b69ae006b9b3539a98badf6":[6,1,0,0,2,108,3],
-"classmrmeshpy_1_1ChangeMeshEdgeSelectionAction.html#a4e7248f46b69ae006b9b3539a98badf6":[6,1,1,0,1,108,3],
-"classmrmeshpy_1_1ChangeMeshEdgeSelectionAction.html#a7250b66b3736dc051174d3272c4d5ee5":[6,1,0,0,2,108,2],
-"classmrmeshpy_1_1ChangeMeshEdgeSelectionAction.html#a7250b66b3736dc051174d3272c4d5ee5":[6,1,1,0,1,108,2],
-"classmrmeshpy_1_1ChangeMeshFaceSelectionAction.html":[6,1,0,0,2,109],
-"classmrmeshpy_1_1ChangeMeshFaceSelectionAction.html":[6,1,1,0,1,109],
-"classmrmeshpy_1_1ChangeMeshFaceSelectionAction.html#a0a21ce660b45b1aebb618f22ff3469d7":[6,1,0,0,2,109,1],
-"classmrmeshpy_1_1ChangeMeshFaceSelectionAction.html#a0a21ce660b45b1aebb618f22ff3469d7":[6,1,1,0,1,109,1],
-"classmrmeshpy_1_1ChangeMeshFaceSelectionAction.html#a0bf0c814cdb526b502a61dc4c9730727":[6,1,0,0,2,109,4],
-"classmrmeshpy_1_1ChangeMeshFaceSelectionAction.html#a0bf0c814cdb526b502a61dc4c9730727":[6,1,1,0,1,109,4]
+"classmrmeshpy_1_1ChangeMeshEdgeSelectionAction.html#a305ee64a58b467b95900992d0199b324":[6,1,1,0,1,108,4]
 };
