@@ -565,6 +565,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1CustomButtonParameters.html">CustomButtonParameters</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1CutByProjectionSettings.html">CutByProjectionSettings</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Settings structurer for cutMeshByProjection function.  <a href="structMR_1_1CutByProjectionSettings.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1CutMeshParameters.html">CutMeshParameters</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters of <a class="el" href="group__BooleanGroup.html#gafb1acfb7ea34c1828a3f0e9b415c6dcc" title="Cuts mesh by given contours.">MR::cutMesh</a>.  <a href="structMR_1_1CutMeshParameters.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -3494,6 +3497,9 @@ Functions</h2></td></tr>
 <tr class="separator:a634c3caa2efb7688c1bfa187112c6b99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a486d3531e070ce83fedba740ecd3650b" id="r_a486d3531e070ce83fedba740ecd3650b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; FaceBitSet &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a486d3531e070ce83fedba740ecd3650b">cutMeshByContours</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="#a4c444df98a6ef4e28be3eaab462d38a1">Contours3f</a> &amp;contours, const AffineXf3f &amp;xf={})</td></tr>
 <tr class="separator:a486d3531e070ce83fedba740ecd3650b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a899f81510a6708101bbd6e1d76d8c55f" id="r_a899f81510a6708101bbd6e1d76d8c55f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::vector&lt; <a class="el" href="#a9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a899f81510a6708101bbd6e1d76d8c55f">cutMeshByProjection</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="#a4c444df98a6ef4e28be3eaab462d38a1">Contours3f</a> &amp;contours, const <a class="el" href="structMR_1_1CutByProjectionSettings.html">CutByProjectionSettings</a> &amp;settings)</td></tr>
+<tr class="memdesc:a899f81510a6708101bbd6e1d76d8c55f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs orthographic projection with of given contours to mesh and cut result lines, fails if any point of contours has missed mesh on projection stage or cut contours contains self-intersections.  <br /></td></tr>
+<tr class="separator:a899f81510a6708101bbd6e1d76d8c55f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gafe85b81b6d40ee16ccd3e12919143c43" id="r_gafe85b81b6d40ee16ccd3e12919143c43"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="group__BooleanGroup.html#ga9ecf19b8a704c505e8026abe7e64e38a">OneMeshContours</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BooleanGroup.html#gafe85b81b6d40ee16ccd3e12919143c43">convertMeshTriPointsSurfaceOffsetToMeshContours</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const std::vector&lt; <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &gt; &amp;surfaceLine, float offset, <a class="el" href="structMR_1_1SearchPathSettings.html">SearchPathSettings</a> searchSettings={})</td></tr>
 <tr class="memdesc:gafe85b81b6d40ee16ccd3e12919143c43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes continuous contour by iso-line from mesh tri points, if first and last meshTriPoint is the same, makes closed contour.  <br /></td></tr>
 <tr class="separator:gafe85b81b6d40ee16ccd3e12919143c43"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -15182,7 +15188,9 @@ template&lt;typename ObjectType &gt; </div>
   </table>
   </dd>
 </dl>
-<dl class="section note"><dt>Note</dt><dd><code>mesh</code> is modified, see <a class="el" href="group__BooleanGroup.html#gafb1acfb7ea34c1828a3f0e9b415c6dcc">cutMesh</a> for info </dd></dl>
+<dl class="section note"><dt>Note</dt><dd><code>mesh</code> is modified, see <a class="el" href="group__BooleanGroup.html#gafb1acfb7ea34c1828a3f0e9b415c6dcc">cutMesh</a> for info </dd>
+<dd>
+it might be useful to subdivide mesh before cut, to avoid issues related to lone contours </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>Faces to the left of the polyline </dd></dl>
 
 </div>
@@ -15224,8 +15232,56 @@ template&lt;typename ObjectType &gt; </div>
   </table>
   </dd>
 </dl>
-<dl class="section note"><dt>Note</dt><dd><code>mesh</code> is modified, see <a class="el" href="group__BooleanGroup.html#gafb1acfb7ea34c1828a3f0e9b415c6dcc">cutMesh</a> for info </dd></dl>
+<dl class="section note"><dt>Note</dt><dd><code>mesh</code> is modified, see <a class="el" href="group__BooleanGroup.html#gafb1acfb7ea34c1828a3f0e9b415c6dcc">cutMesh</a> for info </dd>
+<dd>
+it might be useful to subdivide mesh before cut, to avoid issues related to lone contours </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>Faces to the left of the polyline </dd></dl>
+
+</div>
+</div>
+<a id="a899f81510a6708101bbd6e1d76d8c55f" name="a899f81510a6708101bbd6e1d76d8c55f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a899f81510a6708101bbd6e1d76d8c55f">&#9670;&#160;</a></span>cutMeshByProjection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="el" href="#a6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::vector&lt; <a class="el" href="#a9f6c1e614e45e332d4cecfc5e77bc07e">EdgePath</a> &gt; &gt; MR::cutMeshByProjection </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a4c444df98a6ef4e28be3eaab462d38a1">Contours3f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>contours</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1CutByProjectionSettings.html">CutByProjectionSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Performs orthographic projection with of given contours to mesh and cut result lines, fails if any point of contours has missed mesh on projection stage or cut contours contains self-intersections. </p>
+<dl class="section note"><dt>Note</dt><dd>it might be useful to subdivide mesh before cut, to avoid issues related to lone contours</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mesh</td><td>for cutting, it will be changed</td></tr>
+    <tr><td class="paramname">contours</td><td>for projection onto mesh</td></tr>
+    <tr><td class="paramname">settings</td><td>to specify direction and <code>contours</code> to <code>mesh</code> space transformation</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>newly appeared edges on the mesh after cut or error</dd></dl>
 
 </div>
 </div>

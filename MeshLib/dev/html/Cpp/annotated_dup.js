@@ -366,6 +366,7 @@ var annotated_dup =
       [ "CudaAccessor", "classMR_1_1CudaAccessor.html", "classMR_1_1CudaAccessor" ],
       [ "CursorEntranceListener", "structMR_1_1CursorEntranceListener.html", "structMR_1_1CursorEntranceListener" ],
       [ "CustomButtonParameters", "structMR_1_1CustomButtonParameters.html", "structMR_1_1CustomButtonParameters" ],
+      [ "CutByProjectionSettings", "structMR_1_1CutByProjectionSettings.html", "structMR_1_1CutByProjectionSettings" ],
       [ "CutMeshParameters", "structMR_1_1CutMeshParameters.html", "structMR_1_1CutMeshParameters" ],
       [ "CutMeshResult", "structMR_1_1CutMeshResult.html", "structMR_1_1CutMeshResult" ],
       [ "Cylinder3", "classMR_1_1Cylinder3.html", "classMR_1_1Cylinder3" ],

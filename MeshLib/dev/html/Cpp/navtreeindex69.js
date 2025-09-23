@@ -1,5 +1,7 @@
 var NAVTREEINDEX69 =
 {
+"structMRFillHoleParams.html#ad6d00d886b5618cbcb8961f55f2e7aa5":[6,0,2,0,19,3],
+"structMRFillHoleParams.html#ad9a62fbf15487b1e3b40f08affb75286":[6,0,2,0,19,2],
 "structMRFindProjectionParameters.html":[6,0,2,0,20],
 "structMRFindProjectionParameters.html#a450cde41003d929b141e82cea1f233da":[6,0,2,0,20,2],
 "structMRFindProjectionParameters.html#a4ec582ee2a2711933884e6b771f2e681":[6,0,2,0,20,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX69 =
 "structMRUniformSamplingSettings.html":[6,0,2,0,67],
 "structMRUniformSamplingSettings.html#a3661faaaac79fa783e93507d114aeea6":[6,0,2,0,67,2],
 "structMRUniformSamplingSettings.html#adf1fd2bf0258a6c592623791f771562d":[6,0,2,0,67,1],
-"structMRUniformSamplingSettings.html#af53ccb0037059b7785056e7d882f9c33":[6,0,2,0,67,3],
-"structMRUniformSamplingSettings.html#afea94f2de617154b2959a6ba91d5fea2":[6,0,2,0,67,0],
-"structMRVarEdgeTri.html":[6,0,2,0,68]
+"structMRUniformSamplingSettings.html#af53ccb0037059b7785056e7d882f9c33":[6,0,2,0,67,3]
 };

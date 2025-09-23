@@ -300,6 +300,7 @@ var hierarchy =
     [ "MR::ImGuiMeasurementIndicators::CurveParams", "structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html", null ],
     [ "MR::CustomButtonParameters", "structMR_1_1CustomButtonParameters.html", null ],
     [ "ImGui::CustomStatePluginWindowParameters", "structImGui_1_1CustomStatePluginWindowParameters.html", null ],
+    [ "MR::CutByProjectionSettings", "structMR_1_1CutByProjectionSettings.html", null ],
     [ "MR::CutMeshParameters", "structMR_1_1CutMeshParameters.html", null ],
     [ "MR::CutMeshResult", "structMR_1_1CutMeshResult.html", null ],
     [ "MR::Cylinder3< T >", "classMR_1_1Cylinder3.html", null ],

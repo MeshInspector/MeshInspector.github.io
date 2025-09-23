@@ -152,7 +152,8 @@ $(function(){initNavTree('MRContoursCut_8h.html',''); initResizable(true); });
   <div class="headertitle"><div class="title">MRContoursCut.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="MRVector3_8h_source.html">MRCMesh/MRVector3.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
 <code>#include &lt;stdint.h&gt;</code><br />
@@ -179,6 +180,8 @@ Typedefs</h2></td></tr>
 <tr class="separator:a6aeecd4fac2aea90513510421de3f37b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4be6517a31b66da090092aa8bb37c304" id="r_a4be6517a31b66da090092aa8bb37c304"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a4be6517a31b66da090092aa8bb37c304">MR_expected_std_vector_MR_OneMeshContour_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4be6517a31b66da090092aa8bb37c304">MR_expected_std_vector_MR_OneMeshContour_std_string</a></td></tr>
 <tr class="separator:a4be6517a31b66da090092aa8bb37c304"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbb58c6b3a4c5746c9ae773c02b24591" id="r_afbb58c6b3a4c5746c9ae773c02b24591"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#afbb58c6b3a4c5746c9ae773c02b24591">MR_expected_std_vector_std_vector_MR_EdgeId_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afbb58c6b3a4c5746c9ae773c02b24591">MR_expected_std_vector_std_vector_MR_EdgeId_std_string</a></td></tr>
+<tr class="separator:afbb58c6b3a4c5746c9ae773c02b24591"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a527e30eede22a5ec4932109f1442583e" id="r_a527e30eede22a5ec4932109f1442583e"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a527e30eede22a5ec4932109f1442583e">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_int32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a527e30eede22a5ec4932109f1442583e">MR_phmap_flat_hash_map_MR_UndirectedEdgeId_int32_t</a></td></tr>
 <tr class="separator:a527e30eede22a5ec4932109f1442583e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6377e4343d87a90ac0bb8191522a2c9c" id="r_a6377e4343d87a90ac0bb8191522a2c9c"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a6377e4343d87a90ac0bb8191522a2c9c">MR_std_function_float_from_int32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6377e4343d87a90ac0bb8191522a2c9c">MR_std_function_float_from_int32_t</a></td></tr>
@@ -203,6 +206,8 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a1ef5cd763a69b557722dd0e3f63df036" id="r_a1ef5cd763a69b557722dd0e3f63df036"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a1ef5cd763a69b557722dd0e3f63df036">MR_CutMeshResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ef5cd763a69b557722dd0e3f63df036">MR_CutMeshResult</a></td></tr>
 <tr class="memdesc:a1ef5cd763a69b557722dd0e3f63df036"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1CutMeshResult.html">MR::CutMeshResult</a></code>.  <br /></td></tr>
 <tr class="separator:a1ef5cd763a69b557722dd0e3f63df036"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b06ea63ec08a6f2c1a5cf99b29cc3ff" id="r_a4b06ea63ec08a6f2c1a5cf99b29cc3ff"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a4b06ea63ec08a6f2c1a5cf99b29cc3ff">MR_CutByProjectionSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b06ea63ec08a6f2c1a5cf99b29cc3ff">MR_CutByProjectionSettings</a></td></tr>
+<tr class="separator:a4b06ea63ec08a6f2c1a5cf99b29cc3ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -335,6 +340,43 @@ Functions</h2></td></tr>
 <tr class="separator:a29da5ce9fe890cb1510675a23751afd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40cf1dd6bf4954cd7f8d4ef605210688" id="r_a40cf1dd6bf4954cd7f8d4ef605210688"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a6aeecd4fac2aea90513510421de3f37b">MR_expected_MR_FaceBitSet_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40cf1dd6bf4954cd7f8d4ef605210688">MR_cutMeshByContours</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRContour_8h.html#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> *contours, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *xf)</td></tr>
 <tr class="separator:a40cf1dd6bf4954cd7f8d4ef605210688"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb6f4be629aa2160044bf1794e77d518" id="r_aeb6f4be629aa2160044bf1794e77d518"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb6f4be629aa2160044bf1794e77d518">MR_CutByProjectionSettings_Get_direction</a> (const <a class="el" href="#a4b06ea63ec08a6f2c1a5cf99b29cc3ff">MR_CutByProjectionSettings</a> *_this)</td></tr>
+<tr class="separator:aeb6f4be629aa2160044bf1794e77d518"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a334ec3cb892b2dc08350677d86cbbe43" id="r_a334ec3cb892b2dc08350677d86cbbe43"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a334ec3cb892b2dc08350677d86cbbe43">MR_CutByProjectionSettings_Set_direction</a> (<a class="el" href="#a4b06ea63ec08a6f2c1a5cf99b29cc3ff">MR_CutByProjectionSettings</a> *_this, <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> value)</td></tr>
+<tr class="separator:a334ec3cb892b2dc08350677d86cbbe43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6495d3b31e3152caa4332c88c5f3f468" id="r_a6495d3b31e3152caa4332c88c5f3f468"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6495d3b31e3152caa4332c88c5f3f468">MR_CutByProjectionSettings_GetMutable_direction</a> (<a class="el" href="#a4b06ea63ec08a6f2c1a5cf99b29cc3ff">MR_CutByProjectionSettings</a> *_this)</td></tr>
+<tr class="separator:a6495d3b31e3152caa4332c88c5f3f468"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a924f1f67bfbc1da723f7b908de7ba6d1" id="r_a924f1f67bfbc1da723f7b908de7ba6d1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a924f1f67bfbc1da723f7b908de7ba6d1">MR_CutByProjectionSettings_Get_cont2mesh</a> (const <a class="el" href="#a4b06ea63ec08a6f2c1a5cf99b29cc3ff">MR_CutByProjectionSettings</a> *_this)</td></tr>
+<tr class="separator:a924f1f67bfbc1da723f7b908de7ba6d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73fd4a4de36d90b53b3836aedfd47b9a" id="r_a73fd4a4de36d90b53b3836aedfd47b9a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73fd4a4de36d90b53b3836aedfd47b9a">MR_CutByProjectionSettings_Set_cont2mesh</a> (<a class="el" href="#a4b06ea63ec08a6f2c1a5cf99b29cc3ff">MR_CutByProjectionSettings</a> *_this, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *value)</td></tr>
+<tr class="separator:a73fd4a4de36d90b53b3836aedfd47b9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c7ed4f09a3b322fd09c30ea9ab00731" id="r_a3c7ed4f09a3b322fd09c30ea9ab00731"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c7ed4f09a3b322fd09c30ea9ab00731">MR_CutByProjectionSettings_GetMutable_cont2mesh</a> (<a class="el" href="#a4b06ea63ec08a6f2c1a5cf99b29cc3ff">MR_CutByProjectionSettings</a> *_this)</td></tr>
+<tr class="separator:a3c7ed4f09a3b322fd09c30ea9ab00731"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e89a73f2ee8ce1fa4b266f19dfeceb5" id="r_a8e89a73f2ee8ce1fa4b266f19dfeceb5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a4b06ea63ec08a6f2c1a5cf99b29cc3ff">MR_CutByProjectionSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e89a73f2ee8ce1fa4b266f19dfeceb5">MR_CutByProjectionSettings_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a8e89a73f2ee8ce1fa4b266f19dfeceb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2aa6ec12a6e08d43ee0a52b4e4c92495" id="r_a2aa6ec12a6e08d43ee0a52b4e4c92495"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a4b06ea63ec08a6f2c1a5cf99b29cc3ff">MR_CutByProjectionSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2aa6ec12a6e08d43ee0a52b4e4c92495">MR_CutByProjectionSettings_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:a2aa6ec12a6e08d43ee0a52b4e4c92495"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1890924ddc887f21bb5f5d12cf80d467" id="r_a1890924ddc887f21bb5f5d12cf80d467"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a4b06ea63ec08a6f2c1a5cf99b29cc3ff">MR_CutByProjectionSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1890924ddc887f21bb5f5d12cf80d467">MR_CutByProjectionSettings_ConstructFrom</a> (<a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> direction, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *cont2mesh)</td></tr>
+<tr class="separator:a1890924ddc887f21bb5f5d12cf80d467"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c7ccd64edd3e2885126d77cff1b6022" id="r_a0c7ccd64edd3e2885126d77cff1b6022"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a4b06ea63ec08a6f2c1a5cf99b29cc3ff">MR_CutByProjectionSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c7ccd64edd3e2885126d77cff1b6022">MR_CutByProjectionSettings_OffsetPtr</a> (const <a class="el" href="#a4b06ea63ec08a6f2c1a5cf99b29cc3ff">MR_CutByProjectionSettings</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a0c7ccd64edd3e2885126d77cff1b6022"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a0c7ccd64edd3e2885126d77cff1b6022"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec3968301c9a9d7f7e15413ea01d5063" id="r_aec3968301c9a9d7f7e15413ea01d5063"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a4b06ea63ec08a6f2c1a5cf99b29cc3ff">MR_CutByProjectionSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec3968301c9a9d7f7e15413ea01d5063">MR_CutByProjectionSettings_OffsetMutablePtr</a> (<a class="el" href="#a4b06ea63ec08a6f2c1a5cf99b29cc3ff">MR_CutByProjectionSettings</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:aec3968301c9a9d7f7e15413ea01d5063"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:aec3968301c9a9d7f7e15413ea01d5063"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a63b95caccce52467559c75e1895062" id="r_a1a63b95caccce52467559c75e1895062"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a4b06ea63ec08a6f2c1a5cf99b29cc3ff">MR_CutByProjectionSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a63b95caccce52467559c75e1895062">MR_CutByProjectionSettings_ConstructFromAnother</a> (const <a class="el" href="#a4b06ea63ec08a6f2c1a5cf99b29cc3ff">MR_CutByProjectionSettings</a> *_other)</td></tr>
+<tr class="separator:a1a63b95caccce52467559c75e1895062"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a104c867313cba06f249b6a6eb0b8e5b2" id="r_a104c867313cba06f249b6a6eb0b8e5b2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a104c867313cba06f249b6a6eb0b8e5b2">MR_CutByProjectionSettings_Destroy</a> (const <a class="el" href="#a4b06ea63ec08a6f2c1a5cf99b29cc3ff">MR_CutByProjectionSettings</a> *_this)</td></tr>
+<tr class="memdesc:a104c867313cba06f249b6a6eb0b8e5b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_CutByProjectionSettings</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a104c867313cba06f249b6a6eb0b8e5b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7c973aa816d8cb9e34b96d415e23c0c" id="r_ab7c973aa816d8cb9e34b96d415e23c0c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7c973aa816d8cb9e34b96d415e23c0c">MR_CutByProjectionSettings_DestroyArray</a> (const <a class="el" href="#a4b06ea63ec08a6f2c1a5cf99b29cc3ff">MR_CutByProjectionSettings</a> *_this)</td></tr>
+<tr class="memdesc:ab7c973aa816d8cb9e34b96d415e23c0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_CutByProjectionSettings</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:ab7c973aa816d8cb9e34b96d415e23c0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a412cbdbaa9b68d53a897d33fbcbf4ec1" id="r_a412cbdbaa9b68d53a897d33fbcbf4ec1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a4b06ea63ec08a6f2c1a5cf99b29cc3ff">MR_CutByProjectionSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a412cbdbaa9b68d53a897d33fbcbf4ec1">MR_CutByProjectionSettings_AssignFromAnother</a> (<a class="el" href="#a4b06ea63ec08a6f2c1a5cf99b29cc3ff">MR_CutByProjectionSettings</a> *_this, const <a class="el" href="#a4b06ea63ec08a6f2c1a5cf99b29cc3ff">MR_CutByProjectionSettings</a> *_other)</td></tr>
+<tr class="separator:a412cbdbaa9b68d53a897d33fbcbf4ec1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03b8a6f92dec9b222dc364c7151d33df" id="r_a03b8a6f92dec9b222dc364c7151d33df"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#afbb58c6b3a4c5746c9ae773c02b24591">MR_expected_std_vector_std_vector_MR_EdgeId_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03b8a6f92dec9b222dc364c7151d33df">MR_cutMeshByProjection</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRContour_8h.html#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> *contours, const <a class="el" href="#a4b06ea63ec08a6f2c1a5cf99b29cc3ff">MR_CutByProjectionSettings</a> *settings)</td></tr>
+<tr class="memdesc:a03b8a6f92dec9b222dc364c7151d33df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs orthographic projection with of given contours to mesh and cut result lines, fails if any point of contours has missed mesh on projection stage or cut contours contains self-intersections.  <br /></td></tr>
+<tr class="separator:a03b8a6f92dec9b222dc364c7151d33df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1211d658133a8cec342d464c04f3afd2" id="r_a1211d658133a8cec342d464c04f3afd2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a4be6517a31b66da090092aa8bb37c304">MR_expected_std_vector_MR_OneMeshContour_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1211d658133a8cec342d464c04f3afd2">MR_convertMeshTriPointsSurfaceOffsetToMeshContours_float</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAggregateFlow_8h.html#a087d1afcc55aadc6e828d844329c9727">MR_std_vector_MR_MeshTriPoint</a> *surfaceLine, float offset, const <a class="el" href="#a8148a83a9f1530146fb64e96c19511b8">MR_SearchPathSettings</a> *searchSettings)</td></tr>
 <tr class="memdesc:a1211d658133a8cec342d464c04f3afd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes continuous contour by iso-line from mesh tri points, if first and last meshTriPoint is the same, makes closed contour.  <br /></td></tr>
 <tr class="separator:a1211d658133a8cec342d464c04f3afd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -354,6 +396,21 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4b06ea63ec08a6f2c1a5cf99b29cc3ff" name="a4b06ea63ec08a6f2c1a5cf99b29cc3ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b06ea63ec08a6f2c1a5cf99b29cc3ff">&#9670;&#160;</a></span>MR_CutByProjectionSettings</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a4b06ea63ec08a6f2c1a5cf99b29cc3ff">MR_CutByProjectionSettings</a> <a class="el" href="#a4b06ea63ec08a6f2c1a5cf99b29cc3ff">MR_CutByProjectionSettings</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Settings structurer for cutMeshByProjection function Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1CutByProjectionSettings.html">MR::CutByProjectionSettings</a></code>. </p>
 
 </div>
 </div>
@@ -427,6 +484,20 @@ Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">typedef struct <a class="el" href="#a4be6517a31b66da090092aa8bb37c304">MR_expected_std_vector_MR_OneMeshContour_std_string</a> <a class="el" href="#a4be6517a31b66da090092aa8bb37c304">MR_expected_std_vector_MR_OneMeshContour_std_string</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afbb58c6b3a4c5746c9ae773c02b24591" name="afbb58c6b3a4c5746c9ae773c02b24591"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afbb58c6b3a4c5746c9ae773c02b24591">&#9670;&#160;</a></span>MR_expected_std_vector_std_vector_MR_EdgeId_std_string</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#afbb58c6b3a4c5746c9ae773c02b24591">MR_expected_std_vector_std_vector_MR_EdgeId_std_string</a> <a class="el" href="#afbb58c6b3a4c5746c9ae773c02b24591">MR_expected_std_vector_std_vector_MR_EdgeId_std_string</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -731,6 +802,304 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a412cbdbaa9b68d53a897d33fbcbf4ec1" name="a412cbdbaa9b68d53a897d33fbcbf4ec1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a412cbdbaa9b68d53a897d33fbcbf4ec1">&#9670;&#160;</a></span>MR_CutByProjectionSettings_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a4b06ea63ec08a6f2c1a5cf99b29cc3ff">MR_CutByProjectionSettings</a> * MR_CutByProjectionSettings_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a4b06ea63ec08a6f2c1a5cf99b29cc3ff">MR_CutByProjectionSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a4b06ea63ec08a6f2c1a5cf99b29cc3ff">MR_CutByProjectionSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1CutByProjectionSettings.html">MR::CutByProjectionSettings</a></code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a1890924ddc887f21bb5f5d12cf80d467" name="a1890924ddc887f21bb5f5d12cf80d467"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1890924ddc887f21bb5f5d12cf80d467">&#9670;&#160;</a></span>MR_CutByProjectionSettings_ConstructFrom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a4b06ea63ec08a6f2c1a5cf99b29cc3ff">MR_CutByProjectionSettings</a> * MR_CutByProjectionSettings_ConstructFrom </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR__Vector3f.html">MR_Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>direction</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *</td>          <td class="paramname"><span class="paramname"><em>cont2mesh</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1CutByProjectionSettings.html">MR::CutByProjectionSettings</a></code> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a104c867313cba06f249b6a6eb0b8e5b2" title="Destroys a heap-allocated instance of MR_CutByProjectionSettings. Does nothing if the pointer is null...">MR_CutByProjectionSettings_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a1a63b95caccce52467559c75e1895062" name="a1a63b95caccce52467559c75e1895062"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a63b95caccce52467559c75e1895062">&#9670;&#160;</a></span>MR_CutByProjectionSettings_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a4b06ea63ec08a6f2c1a5cf99b29cc3ff">MR_CutByProjectionSettings</a> * MR_CutByProjectionSettings_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a4b06ea63ec08a6f2c1a5cf99b29cc3ff">MR_CutByProjectionSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1CutByProjectionSettings.html">MR::CutByProjectionSettings</a></code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a104c867313cba06f249b6a6eb0b8e5b2" title="Destroys a heap-allocated instance of MR_CutByProjectionSettings. Does nothing if the pointer is null...">MR_CutByProjectionSettings_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a8e89a73f2ee8ce1fa4b266f19dfeceb5" name="a8e89a73f2ee8ce1fa4b266f19dfeceb5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e89a73f2ee8ce1fa4b266f19dfeceb5">&#9670;&#160;</a></span>MR_CutByProjectionSettings_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a4b06ea63ec08a6f2c1a5cf99b29cc3ff">MR_CutByProjectionSettings</a> * MR_CutByProjectionSettings_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a104c867313cba06f249b6a6eb0b8e5b2" title="Destroys a heap-allocated instance of MR_CutByProjectionSettings. Does nothing if the pointer is null...">MR_CutByProjectionSettings_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a2aa6ec12a6e08d43ee0a52b4e4c92495" name="a2aa6ec12a6e08d43ee0a52b4e4c92495"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2aa6ec12a6e08d43ee0a52b4e4c92495">&#9670;&#160;</a></span>MR_CutByProjectionSettings_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a4b06ea63ec08a6f2c1a5cf99b29cc3ff">MR_CutByProjectionSettings</a> * MR_CutByProjectionSettings_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#ab7c973aa816d8cb9e34b96d415e23c0c" title="Destroys a heap-allocated array of MR_CutByProjectionSettings. Does nothing if the pointer is null.">MR_CutByProjectionSettings_DestroyArray()</a></code>. Use <code><a class="el" href="#aec3968301c9a9d7f7e15413ea01d5063" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_CutByProjectionSettings_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a0c7ccd64edd3e2885126d77cff1b6022" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_CutByProjectionSettings_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a104c867313cba06f249b6a6eb0b8e5b2" name="a104c867313cba06f249b6a6eb0b8e5b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a104c867313cba06f249b6a6eb0b8e5b2">&#9670;&#160;</a></span>MR_CutByProjectionSettings_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_CutByProjectionSettings_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a4b06ea63ec08a6f2c1a5cf99b29cc3ff">MR_CutByProjectionSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_CutByProjectionSettings</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="ab7c973aa816d8cb9e34b96d415e23c0c" name="ab7c973aa816d8cb9e34b96d415e23c0c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7c973aa816d8cb9e34b96d415e23c0c">&#9670;&#160;</a></span>MR_CutByProjectionSettings_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_CutByProjectionSettings_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a4b06ea63ec08a6f2c1a5cf99b29cc3ff">MR_CutByProjectionSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_CutByProjectionSettings</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a924f1f67bfbc1da723f7b908de7ba6d1" name="a924f1f67bfbc1da723f7b908de7ba6d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a924f1f67bfbc1da723f7b908de7ba6d1">&#9670;&#160;</a></span>MR_CutByProjectionSettings_Get_cont2mesh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *const  * MR_CutByProjectionSettings_Get_cont2mesh </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a4b06ea63ec08a6f2c1a5cf99b29cc3ff">MR_CutByProjectionSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if set - used to transform contours form its local space to mesh local space Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1CutByProjectionSettings.html">MR::CutByProjectionSettings</a></code> named <code>cont2mesh</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="aeb6f4be629aa2160044bf1794e77d518" name="aeb6f4be629aa2160044bf1794e77d518"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb6f4be629aa2160044bf1794e77d518">&#9670;&#160;</a></span>MR_CutByProjectionSettings_Get_direction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> * MR_CutByProjectionSettings_Get_direction </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a4b06ea63ec08a6f2c1a5cf99b29cc3ff">MR_CutByProjectionSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>direction of projection (in mesh space) Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1CutByProjectionSettings.html">MR::CutByProjectionSettings</a></code> named <code>direction</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a3c7ed4f09a3b322fd09c30ea9ab00731" name="a3c7ed4f09a3b322fd09c30ea9ab00731"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c7ed4f09a3b322fd09c30ea9ab00731">&#9670;&#160;</a></span>MR_CutByProjectionSettings_GetMutable_cont2mesh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> ** MR_CutByProjectionSettings_GetMutable_cont2mesh </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a4b06ea63ec08a6f2c1a5cf99b29cc3ff">MR_CutByProjectionSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if set - used to transform contours form its local space to mesh local space Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1CutByProjectionSettings.html">MR::CutByProjectionSettings</a></code> named <code>cont2mesh</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a6495d3b31e3152caa4332c88c5f3f468" name="a6495d3b31e3152caa4332c88c5f3f468"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6495d3b31e3152caa4332c88c5f3f468">&#9670;&#160;</a></span>MR_CutByProjectionSettings_GetMutable_direction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> * MR_CutByProjectionSettings_GetMutable_direction </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a4b06ea63ec08a6f2c1a5cf99b29cc3ff">MR_CutByProjectionSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>direction of projection (in mesh space) Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1CutByProjectionSettings.html">MR::CutByProjectionSettings</a></code> named <code>direction</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="aec3968301c9a9d7f7e15413ea01d5063" name="aec3968301c9a9d7f7e15413ea01d5063"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec3968301c9a9d7f7e15413ea01d5063">&#9670;&#160;</a></span>MR_CutByProjectionSettings_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a4b06ea63ec08a6f2c1a5cf99b29cc3ff">MR_CutByProjectionSettings</a> * MR_CutByProjectionSettings_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a4b06ea63ec08a6f2c1a5cf99b29cc3ff">MR_CutByProjectionSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a0c7ccd64edd3e2885126d77cff1b6022" name="a0c7ccd64edd3e2885126d77cff1b6022"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c7ccd64edd3e2885126d77cff1b6022">&#9670;&#160;</a></span>MR_CutByProjectionSettings_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a4b06ea63ec08a6f2c1a5cf99b29cc3ff">MR_CutByProjectionSettings</a> * MR_CutByProjectionSettings_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a4b06ea63ec08a6f2c1a5cf99b29cc3ff">MR_CutByProjectionSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a73fd4a4de36d90b53b3836aedfd47b9a" name="a73fd4a4de36d90b53b3836aedfd47b9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73fd4a4de36d90b53b3836aedfd47b9a">&#9670;&#160;</a></span>MR_CutByProjectionSettings_Set_cont2mesh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_CutByProjectionSettings_Set_cont2mesh </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a4b06ea63ec08a6f2c1a5cf99b29cc3ff">MR_CutByProjectionSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>if set - used to transform contours form its local space to mesh local space Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1CutByProjectionSettings.html">MR::CutByProjectionSettings</a></code> named <code>cont2mesh</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a334ec3cb892b2dc08350677d86cbbe43" name="a334ec3cb892b2dc08350677d86cbbe43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a334ec3cb892b2dc08350677d86cbbe43">&#9670;&#160;</a></span>MR_CutByProjectionSettings_Set_direction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_CutByProjectionSettings_Set_direction </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a4b06ea63ec08a6f2c1a5cf99b29cc3ff">MR_CutByProjectionSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__Vector3f.html">MR_Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>direction of projection (in mesh space) Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1CutByProjectionSettings.html">MR::CutByProjectionSettings</a></code> named <code>direction</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
 <a id="a137196b8b10dcd022a5bb6a85b3a8d4d" name="a137196b8b10dcd022a5bb6a85b3a8d4d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a137196b8b10dcd022a5bb6a85b3a8d4d">&#9670;&#160;</a></span>MR_cutMesh()</h2>
 
@@ -801,7 +1170,9 @@ so if you cannot guarantee contours without intersections better make copy of me
   </table>
   </dd>
 </dl>
-<dl class="section note"><dt>Note</dt><dd><code>mesh</code> is modified, see cutMesh for info </dd></dl>
+<dl class="section note"><dt>Note</dt><dd><code>mesh</code> is modified, see cutMesh for info </dd>
+<dd>
+it might be useful to subdivide mesh before cut, to avoid issues related to lone contours </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>Faces to the left of the polyline Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a634c3caa2efb7688c1bfa187112c6b99">MR::cutMeshByContour</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>contour</code> can not be null. It is a single object. Parameter <code>xf</code> is a single object. Parameter <code>xf</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__FaceBitSet__std__string_8h.html#a49f25f78be01bd3b7e077cd474bb21d5" title="Destroys a heap-allocated instance of MR_expected_MR_FaceBitSet_std_string. Does nothing if the point...">MR_expected_MR_FaceBitSet_std_string_Destroy()</a></code> to free it when you're done using it. </dd></dl>
 
 </div>
@@ -835,8 +1206,49 @@ so if you cannot guarantee contours without intersections better make copy of me
   </table>
   </dd>
 </dl>
-<dl class="section note"><dt>Note</dt><dd><code>mesh</code> is modified, see cutMesh for info </dd></dl>
+<dl class="section note"><dt>Note</dt><dd><code>mesh</code> is modified, see cutMesh for info </dd>
+<dd>
+it might be useful to subdivide mesh before cut, to avoid issues related to lone contours </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>Faces to the left of the polyline Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a486d3531e070ce83fedba740ecd3650b">MR::cutMeshByContours</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>contours</code> can not be null. It is a single object. Parameter <code>xf</code> is a single object. Parameter <code>xf</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__MR__FaceBitSet__std__string_8h.html#a49f25f78be01bd3b7e077cd474bb21d5" title="Destroys a heap-allocated instance of MR_expected_MR_FaceBitSet_std_string. Does nothing if the point...">MR_expected_MR_FaceBitSet_std_string_Destroy()</a></code> to free it when you're done using it. </dd></dl>
+
+</div>
+</div>
+<a id="a03b8a6f92dec9b222dc364c7151d33df" name="a03b8a6f92dec9b222dc364c7151d33df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03b8a6f92dec9b222dc364c7151d33df">&#9670;&#160;</a></span>MR_cutMeshByProjection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#afbb58c6b3a4c5746c9ae773c02b24591">MR_expected_std_vector_std_vector_MR_EdgeId_std_string</a> * MR_cutMeshByProjection </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRContour_8h.html#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>contours</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a4b06ea63ec08a6f2c1a5cf99b29cc3ff">MR_CutByProjectionSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>settings</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Performs orthographic projection with of given contours to mesh and cut result lines, fails if any point of contours has missed mesh on projection stage or cut contours contains self-intersections. </p>
+<dl class="section note"><dt>Note</dt><dd>it might be useful to subdivide mesh before cut, to avoid issues related to lone contours</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mesh</td><td>for cutting, it will be changed</td></tr>
+    <tr><td class="paramname">contours</td><td>for projection onto mesh</td></tr>
+    <tr><td class="paramname">settings</td><td>to specify direction and <code>contours</code> to <code>mesh</code> space transformation</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>newly appeared edges on the mesh after cut or error</dd></dl>
+<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a899f81510a6708101bbd6e1d76d8c55f">MR::cutMeshByProjection</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>contours</code> can not be null. It is a single object. Parameter <code>settings</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__std__vector__std__vector__MR__EdgeId__std__string_8h.html#a3f5f8deba5a718542c6408a289a1c707" title="Destroys a heap-allocated instance of MR_expected_std_vector_std_vector_MR_EdgeId_std_string....">MR_expected_std_vector_std_vector_MR_EdgeId_std_string_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>

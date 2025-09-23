@@ -196,6 +196,7 @@ var hierarchy =
     [ "mrmeshpy.CubicBezierCurve2f", "classmrmeshpy_1_1CubicBezierCurve2f.html", null ],
     [ "mrmeshpy.CubicBezierCurve3d", "classmrmeshpy_1_1CubicBezierCurve3d.html", null ],
     [ "mrmeshpy.CubicBezierCurve3f", "classmrmeshpy_1_1CubicBezierCurve3f.html", null ],
+    [ "mrmeshpy.CutByProjectionSettings", "classmrmeshpy_1_1CutByProjectionSettings.html", null ],
     [ "mrmeshpy.CutMeshParameters", "classmrmeshpy_1_1CutMeshParameters.html", null ],
     [ "mrmeshpy.CutMeshResult", "classmrmeshpy_1_1CutMeshResult.html", null ],
     [ "mrmeshpy.Cylinder3d", "classmrmeshpy_1_1Cylinder3d.html", null ],

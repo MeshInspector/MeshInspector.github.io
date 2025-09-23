@@ -1,5 +1,6 @@
 var NAVTREEINDEX20 =
 {
+"classMR_1_1BasinVolumeCalculator.html#a9b99b97f9c008057ea3281d4f9461d89":[6,0,2,0,1,58,0],
 "classMR_1_1BasinVolumeCalculator.html#ac7233d0978a844b09ce6707086caf51c":[6,0,1,0,1,77,1],
 "classMR_1_1BasinVolumeCalculator.html#ac7233d0978a844b09ce6707086caf51c":[6,0,2,0,1,58,1],
 "classMR_1_1BestFitParabola.html":[6,0,1,0,1,78],
@@ -248,6 +249,5 @@ var NAVTREEINDEX20 =
 "classMR_1_1ChangeLabelAction.html#a49b7949dc2497e15510dbf8c51c83e61":[6,0,2,0,1,86,3],
 "classMR_1_1ChangeLabelAction.html#ab1fc1b5e85ebdd6e6737c7e8301d6239":[6,0,1,0,1,105,1],
 "classMR_1_1ChangeLabelAction.html#ab1fc1b5e85ebdd6e6737c7e8301d6239":[6,0,2,0,1,86,1],
-"classMR_1_1ChangeLinesColorMapAction.html":[6,0,0,4,2],
-"classMR_1_1ChangeLinesColorMapAction.html#a55aeaa9aea474f11f11d8cd2d9410499":[6,0,0,4,2,0]
+"classMR_1_1ChangeLinesColorMapAction.html":[6,0,0,4,2]
 };
