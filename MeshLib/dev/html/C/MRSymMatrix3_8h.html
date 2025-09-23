@@ -176,6 +176,8 @@ Typedefs</h2></td></tr>
 <tr class="separator:acc98317fa841947f4df16cb8b58b046a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c368f42c21a18903319f8bf1c63ef01" id="r_a1c368f42c21a18903319f8bf1c63ef01"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRQuadraticForm_8h.html#a1c368f42c21a18903319f8bf1c63ef01">MR_SymMatrix3d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c368f42c21a18903319f8bf1c63ef01">MR_SymMatrix3d</a></td></tr>
 <tr class="separator:a1c368f42c21a18903319f8bf1c63ef01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6414a449442f3fdf1720e067285519bb" id="r_a6414a449442f3fdf1720e067285519bb"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a></td></tr>
+<tr class="separator:a6414a449442f3fdf1720e067285519bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -583,6 +585,84 @@ Functions</h2></td></tr>
 <tr class="separator:a1545533a46faa049341a9d0b4e78519a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b2148db2cb4af1837c36301572b2993" id="r_a6b2148db2cb4af1837c36301572b2993"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRQuadraticForm_8h.html#a1c368f42c21a18903319f8bf1c63ef01">MR_SymMatrix3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b2148db2cb4af1837c36301572b2993">MR_SymMatrix3d_pseudoinverse</a> (const <a class="el" href="MRQuadraticForm_8h.html#a1c368f42c21a18903319f8bf1c63ef01">MR_SymMatrix3d</a> *_this, const double *tol, int32_t *rank, <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *space)</td></tr>
 <tr class="separator:a6b2148db2cb4af1837c36301572b2993"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a944e689f60c47bb9167e616d80a7be13" id="r_a944e689f60c47bb9167e616d80a7be13"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a944e689f60c47bb9167e616d80a7be13">MR_SymMatrix3_uint8_t_Get_xx</a> (const <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *_this)</td></tr>
+<tr class="separator:a944e689f60c47bb9167e616d80a7be13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec8ac9970000d93ac818968c32a1fa24" id="r_aec8ac9970000d93ac818968c32a1fa24"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec8ac9970000d93ac818968c32a1fa24">MR_SymMatrix3_uint8_t_Set_xx</a> (<a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *_this, uint8_t value)</td></tr>
+<tr class="separator:aec8ac9970000d93ac818968c32a1fa24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abea259278f6f2b09687a3a053ebaef28" id="r_abea259278f6f2b09687a3a053ebaef28"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abea259278f6f2b09687a3a053ebaef28">MR_SymMatrix3_uint8_t_GetMutable_xx</a> (<a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *_this)</td></tr>
+<tr class="separator:abea259278f6f2b09687a3a053ebaef28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f1e5f2bf5c6573ba7c0864b39cd4047" id="r_a4f1e5f2bf5c6573ba7c0864b39cd4047"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f1e5f2bf5c6573ba7c0864b39cd4047">MR_SymMatrix3_uint8_t_Get_xy</a> (const <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *_this)</td></tr>
+<tr class="separator:a4f1e5f2bf5c6573ba7c0864b39cd4047"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a870f807bb3a6af8c880e6140d64d6383" id="r_a870f807bb3a6af8c880e6140d64d6383"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a870f807bb3a6af8c880e6140d64d6383">MR_SymMatrix3_uint8_t_Set_xy</a> (<a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *_this, uint8_t value)</td></tr>
+<tr class="separator:a870f807bb3a6af8c880e6140d64d6383"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9be65191d8b55840b0eb3c85d9d25e11" id="r_a9be65191d8b55840b0eb3c85d9d25e11"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9be65191d8b55840b0eb3c85d9d25e11">MR_SymMatrix3_uint8_t_GetMutable_xy</a> (<a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *_this)</td></tr>
+<tr class="separator:a9be65191d8b55840b0eb3c85d9d25e11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a898f484645042ece22f15a7113192947" id="r_a898f484645042ece22f15a7113192947"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a898f484645042ece22f15a7113192947">MR_SymMatrix3_uint8_t_Get_xz</a> (const <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *_this)</td></tr>
+<tr class="separator:a898f484645042ece22f15a7113192947"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79c9bb343ba9c40c2dd0285f55ee7069" id="r_a79c9bb343ba9c40c2dd0285f55ee7069"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79c9bb343ba9c40c2dd0285f55ee7069">MR_SymMatrix3_uint8_t_Set_xz</a> (<a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *_this, uint8_t value)</td></tr>
+<tr class="separator:a79c9bb343ba9c40c2dd0285f55ee7069"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaba8d3ff7dd85f034b14e5814134af19" id="r_aaba8d3ff7dd85f034b14e5814134af19"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaba8d3ff7dd85f034b14e5814134af19">MR_SymMatrix3_uint8_t_GetMutable_xz</a> (<a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *_this)</td></tr>
+<tr class="separator:aaba8d3ff7dd85f034b14e5814134af19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84746ef94c77bde35472fadbdbc77614" id="r_a84746ef94c77bde35472fadbdbc77614"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84746ef94c77bde35472fadbdbc77614">MR_SymMatrix3_uint8_t_Get_yy</a> (const <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *_this)</td></tr>
+<tr class="separator:a84746ef94c77bde35472fadbdbc77614"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6793f88081850e5d8b2d5e8bb547deb" id="r_ab6793f88081850e5d8b2d5e8bb547deb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6793f88081850e5d8b2d5e8bb547deb">MR_SymMatrix3_uint8_t_Set_yy</a> (<a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *_this, uint8_t value)</td></tr>
+<tr class="separator:ab6793f88081850e5d8b2d5e8bb547deb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84d45956306bfaabf7142fae5c09d99e" id="r_a84d45956306bfaabf7142fae5c09d99e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84d45956306bfaabf7142fae5c09d99e">MR_SymMatrix3_uint8_t_GetMutable_yy</a> (<a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *_this)</td></tr>
+<tr class="separator:a84d45956306bfaabf7142fae5c09d99e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a380d623e51d0b9582e4a5f6b8738532d" id="r_a380d623e51d0b9582e4a5f6b8738532d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a380d623e51d0b9582e4a5f6b8738532d">MR_SymMatrix3_uint8_t_Get_yz</a> (const <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *_this)</td></tr>
+<tr class="separator:a380d623e51d0b9582e4a5f6b8738532d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a201c83b826f02ca26b58a9bb498959ea" id="r_a201c83b826f02ca26b58a9bb498959ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a201c83b826f02ca26b58a9bb498959ea">MR_SymMatrix3_uint8_t_Set_yz</a> (<a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *_this, uint8_t value)</td></tr>
+<tr class="separator:a201c83b826f02ca26b58a9bb498959ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6be841dda670fe6010acf9b64731d990" id="r_a6be841dda670fe6010acf9b64731d990"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6be841dda670fe6010acf9b64731d990">MR_SymMatrix3_uint8_t_GetMutable_yz</a> (<a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *_this)</td></tr>
+<tr class="separator:a6be841dda670fe6010acf9b64731d990"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f63845673526e478af1a5621e83b75c" id="r_a0f63845673526e478af1a5621e83b75c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f63845673526e478af1a5621e83b75c">MR_SymMatrix3_uint8_t_Get_zz</a> (const <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *_this)</td></tr>
+<tr class="separator:a0f63845673526e478af1a5621e83b75c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ea50ec16fd044721522fef030a499bc" id="r_a0ea50ec16fd044721522fef030a499bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ea50ec16fd044721522fef030a499bc">MR_SymMatrix3_uint8_t_Set_zz</a> (<a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *_this, uint8_t value)</td></tr>
+<tr class="separator:a0ea50ec16fd044721522fef030a499bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d71cffe05a0e9b7f1ba0dcdb3f65e6e" id="r_a7d71cffe05a0e9b7f1ba0dcdb3f65e6e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> uint8_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d71cffe05a0e9b7f1ba0dcdb3f65e6e">MR_SymMatrix3_uint8_t_GetMutable_zz</a> (<a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *_this)</td></tr>
+<tr class="separator:a7d71cffe05a0e9b7f1ba0dcdb3f65e6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1cd276469ccf1d7e14e7bc8bf1ead2a" id="r_af1cd276469ccf1d7e14e7bc8bf1ead2a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1cd276469ccf1d7e14e7bc8bf1ead2a">MR_SymMatrix3_uint8_t_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:af1cd276469ccf1d7e14e7bc8bf1ead2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa028690b0964e968ac491de61c71a50e" id="r_aa028690b0964e968ac491de61c71a50e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa028690b0964e968ac491de61c71a50e">MR_SymMatrix3_uint8_t_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:aa028690b0964e968ac491de61c71a50e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a332937af3a658a244d976de0a751d2ef" id="r_a332937af3a658a244d976de0a751d2ef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a332937af3a658a244d976de0a751d2ef">MR_SymMatrix3_uint8_t_OffsetPtr</a> (const <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:a332937af3a658a244d976de0a751d2ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:a332937af3a658a244d976de0a751d2ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6d8a32ffa51b299446f41a0f72ae22b" id="r_ae6d8a32ffa51b299446f41a0f72ae22b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6d8a32ffa51b299446f41a0f72ae22b">MR_SymMatrix3_uint8_t_OffsetMutablePtr</a> (<a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memdesc:ae6d8a32ffa51b299446f41a0f72ae22b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
+<tr class="separator:ae6d8a32ffa51b299446f41a0f72ae22b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6eed0a86c8ed9e878f1653745b94a2ca" id="r_a6eed0a86c8ed9e878f1653745b94a2ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6eed0a86c8ed9e878f1653745b94a2ca">MR_SymMatrix3_uint8_t_ConstructFromAnother</a> (const <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *_other)</td></tr>
+<tr class="separator:a6eed0a86c8ed9e878f1653745b94a2ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0606980ae14d6ccd3d33c04b165219f6" id="r_a0606980ae14d6ccd3d33c04b165219f6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0606980ae14d6ccd3d33c04b165219f6">MR_SymMatrix3_uint8_t_Destroy</a> (const <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *_this)</td></tr>
+<tr class="memdesc:a0606980ae14d6ccd3d33c04b165219f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_SymMatrix3_uint8_t</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a0606980ae14d6ccd3d33c04b165219f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75d3c97029b33c7d26fd3445113ef080" id="r_a75d3c97029b33c7d26fd3445113ef080"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75d3c97029b33c7d26fd3445113ef080">MR_SymMatrix3_uint8_t_DestroyArray</a> (const <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *_this)</td></tr>
+<tr class="memdesc:a75d3c97029b33c7d26fd3445113ef080"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_SymMatrix3_uint8_t</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a75d3c97029b33c7d26fd3445113ef080"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b38882e6cf2e3ccc549911607e11293" id="r_a7b38882e6cf2e3ccc549911607e11293"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b38882e6cf2e3ccc549911607e11293">MR_SymMatrix3_uint8_t_AssignFromAnother</a> (<a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *_this, const <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *_other)</td></tr>
+<tr class="separator:a7b38882e6cf2e3ccc549911607e11293"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a630a60f867f4828c005ee7fd17d2f951" id="r_a630a60f867f4828c005ee7fd17d2f951"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a630a60f867f4828c005ee7fd17d2f951">MR_SymMatrix3_uint8_t_identity</a> (void)</td></tr>
+<tr class="separator:a630a60f867f4828c005ee7fd17d2f951"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2d9be27a6c0f8bc02bdaca88b0143eb" id="r_aa2d9be27a6c0f8bc02bdaca88b0143eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2d9be27a6c0f8bc02bdaca88b0143eb">MR_SymMatrix3_uint8_t_diagonal</a> (uint8_t diagVal)</td></tr>
+<tr class="separator:aa2d9be27a6c0f8bc02bdaca88b0143eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae511a684a01001cf70d959fb397ee005" id="r_ae511a684a01001cf70d959fb397ee005"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae511a684a01001cf70d959fb397ee005">MR_SymMatrix3_uint8_t_trace</a> (const <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *_this)</td></tr>
+<tr class="separator:ae511a684a01001cf70d959fb397ee005"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:addef88eafe21d5fdba54484fd132e2d0" id="r_addef88eafe21d5fdba54484fd132e2d0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#addef88eafe21d5fdba54484fd132e2d0">MR_SymMatrix3_uint8_t_normSq</a> (const <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *_this)</td></tr>
+<tr class="separator:addef88eafe21d5fdba54484fd132e2d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a8c2af8e32e5b8267f87979201bbe49" id="r_a3a8c2af8e32e5b8267f87979201bbe49"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a8c2af8e32e5b8267f87979201bbe49">MR_SymMatrix3_uint8_t_det</a> (const <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *_this)</td></tr>
+<tr class="separator:a3a8c2af8e32e5b8267f87979201bbe49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7aecc87702c917e8bbe5868e722a1cd" id="r_ae7aecc87702c917e8bbe5868e722a1cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae7aecc87702c917e8bbe5868e722a1cd">MR_SymMatrix3_uint8_t_inverse_0</a> (const <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *_this)</td></tr>
+<tr class="separator:ae7aecc87702c917e8bbe5868e722a1cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a607656ebf6e27f3ce7719e5bd60ef3ee" id="r_a607656ebf6e27f3ce7719e5bd60ef3ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a607656ebf6e27f3ce7719e5bd60ef3ee">MR_SymMatrix3_uint8_t_inverse_1</a> (const <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *_this, uint8_t det)</td></tr>
+<tr class="separator:a607656ebf6e27f3ce7719e5bd60ef3ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85ad87957055e93b0c66ed1ea594780b" id="r_a85ad87957055e93b0c66ed1ea594780b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a85ad87957055e93b0c66ed1ea594780b">MR_SymMatrix3_uint8_t_add_assign</a> (<a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *_this, const <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *b)</td></tr>
+<tr class="separator:a85ad87957055e93b0c66ed1ea594780b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9eb8b299619a135d9a4993af1d3e807c" id="r_a9eb8b299619a135d9a4993af1d3e807c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9eb8b299619a135d9a4993af1d3e807c">MR_SymMatrix3_uint8_t_sub_assign</a> (<a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *_this, const <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *b)</td></tr>
+<tr class="separator:a9eb8b299619a135d9a4993af1d3e807c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11a49e828a98d8669e2f38d78c521042" id="r_a11a49e828a98d8669e2f38d78c521042"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11a49e828a98d8669e2f38d78c521042">MR_SymMatrix3_uint8_t_mul_assign</a> (<a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *_this, uint8_t b)</td></tr>
+<tr class="separator:a11a49e828a98d8669e2f38d78c521042"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9232b71c3fb0a74f477b4c78911e8522" id="r_a9232b71c3fb0a74f477b4c78911e8522"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9232b71c3fb0a74f477b4c78911e8522">MR_SymMatrix3_uint8_t_div_assign</a> (<a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *_this, uint8_t b)</td></tr>
+<tr class="separator:a9232b71c3fb0a74f477b4c78911e8522"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="af75d5aee2f1ffaf5e022bf46adacedaa" name="af75d5aee2f1ffaf5e022bf46adacedaa"></a>
@@ -610,6 +690,21 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6414a449442f3fdf1720e067285519bb" name="a6414a449442f3fdf1720e067285519bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6414a449442f3fdf1720e067285519bb">&#9670;&#160;</a></span>MR_SymMatrix3_uint8_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>symmetric 3x3 matrix Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1SymMatrix3.html">MR::SymMatrix3</a>&lt;uint8_t&gt;</code>. </p>
 
 </div>
 </div>
@@ -689,6 +784,732 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="a85ad87957055e93b0c66ed1ea594780b" name="a85ad87957055e93b0c66ed1ea594780b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85ad87957055e93b0c66ed1ea594780b">&#9670;&#160;</a></span>MR_SymMatrix3_uint8_t_add_assign()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> * MR_SymMatrix3_uint8_t_add_assign </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1SymMatrix3.html">MR::SymMatrix3</a>&lt;uint8_t&gt;</code> named <code>operator+=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>b</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a7b38882e6cf2e3ccc549911607e11293" name="a7b38882e6cf2e3ccc549911607e11293"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b38882e6cf2e3ccc549911607e11293">&#9670;&#160;</a></span>MR_SymMatrix3_uint8_t_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> * MR_SymMatrix3_uint8_t_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1SymMatrix3.html">MR::SymMatrix3</a>&lt;uint8_t&gt;</code> named <code>operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a6eed0a86c8ed9e878f1653745b94a2ca" name="a6eed0a86c8ed9e878f1653745b94a2ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6eed0a86c8ed9e878f1653745b94a2ca">&#9670;&#160;</a></span>MR_SymMatrix3_uint8_t_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> * MR_SymMatrix3_uint8_t_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1SymMatrix3.html">MR::SymMatrix3</a>&lt;uint8_t&gt;</code>. Parameter <code>_other</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a0606980ae14d6ccd3d33c04b165219f6" title="Destroys a heap-allocated instance of MR_SymMatrix3_uint8_t. Does nothing if the pointer is null.">MR_SymMatrix3_uint8_t_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="af1cd276469ccf1d7e14e7bc8bf1ead2a" name="af1cd276469ccf1d7e14e7bc8bf1ead2a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1cd276469ccf1d7e14e7bc8bf1ead2a">&#9670;&#160;</a></span>MR_SymMatrix3_uint8_t_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> * MR_SymMatrix3_uint8_t_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a0606980ae14d6ccd3d33c04b165219f6" title="Destroys a heap-allocated instance of MR_SymMatrix3_uint8_t. Does nothing if the pointer is null.">MR_SymMatrix3_uint8_t_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="aa028690b0964e968ac491de61c71a50e" name="aa028690b0964e968ac491de61c71a50e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa028690b0964e968ac491de61c71a50e">&#9670;&#160;</a></span>MR_SymMatrix3_uint8_t_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> * MR_SymMatrix3_uint8_t_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a75d3c97029b33c7d26fd3445113ef080" title="Destroys a heap-allocated array of MR_SymMatrix3_uint8_t. Does nothing if the pointer is null.">MR_SymMatrix3_uint8_t_DestroyArray()</a></code>. Use <code><a class="el" href="#ae6d8a32ffa51b299446f41a0f72ae22b" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_SymMatrix3_uint8_t_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a332937af3a658a244d976de0a751d2ef" title="Offsets a pointer to an array element by i positions (not bytes). Use only if you&#39;re certain that the...">MR_SymMatrix3_uint8_t_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a0606980ae14d6ccd3d33c04b165219f6" name="a0606980ae14d6ccd3d33c04b165219f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0606980ae14d6ccd3d33c04b165219f6">&#9670;&#160;</a></span>MR_SymMatrix3_uint8_t_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_SymMatrix3_uint8_t_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_SymMatrix3_uint8_t</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a75d3c97029b33c7d26fd3445113ef080" name="a75d3c97029b33c7d26fd3445113ef080"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75d3c97029b33c7d26fd3445113ef080">&#9670;&#160;</a></span>MR_SymMatrix3_uint8_t_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_SymMatrix3_uint8_t_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_SymMatrix3_uint8_t</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a3a8c2af8e32e5b8267f87979201bbe49" name="a3a8c2af8e32e5b8267f87979201bbe49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a8c2af8e32e5b8267f87979201bbe49">&#9670;&#160;</a></span>MR_SymMatrix3_uint8_t_det()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> uint8_t MR_SymMatrix3_uint8_t_det </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>computes determinant of the matrix Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1SymMatrix3.html">MR::SymMatrix3</a>&lt;uint8_t&gt;</code> named <code>det</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="aa2d9be27a6c0f8bc02bdaca88b0143eb" name="aa2d9be27a6c0f8bc02bdaca88b0143eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2d9be27a6c0f8bc02bdaca88b0143eb">&#9670;&#160;</a></span>MR_SymMatrix3_uint8_t_diagonal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> * MR_SymMatrix3_uint8_t_diagonal </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t</td>          <td class="paramname"><span class="paramname"><em>diagVal</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1SymMatrix3.html">MR::SymMatrix3</a>&lt;uint8_t&gt;</code> named <code>diagonal</code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a0606980ae14d6ccd3d33c04b165219f6" title="Destroys a heap-allocated instance of MR_SymMatrix3_uint8_t. Does nothing if the pointer is null.">MR_SymMatrix3_uint8_t_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a9232b71c3fb0a74f477b4c78911e8522" name="a9232b71c3fb0a74f477b4c78911e8522"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9232b71c3fb0a74f477b4c78911e8522">&#9670;&#160;</a></span>MR_SymMatrix3_uint8_t_div_assign()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> * MR_SymMatrix3_uint8_t_div_assign </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1SymMatrix3.html">MR::SymMatrix3</a>&lt;uint8_t&gt;</code> named <code>operator/=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a944e689f60c47bb9167e616d80a7be13" name="a944e689f60c47bb9167e616d80a7be13"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a944e689f60c47bb9167e616d80a7be13">&#9670;&#160;</a></span>MR_SymMatrix3_uint8_t_Get_xx()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const uint8_t * MR_SymMatrix3_uint8_t_Get_xx </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>zero matrix by default Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SymMatrix3.html">MR::SymMatrix3</a>&lt;uint8_t&gt;</code> named <code>xx</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a4f1e5f2bf5c6573ba7c0864b39cd4047" name="a4f1e5f2bf5c6573ba7c0864b39cd4047"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f1e5f2bf5c6573ba7c0864b39cd4047">&#9670;&#160;</a></span>MR_SymMatrix3_uint8_t_Get_xy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const uint8_t * MR_SymMatrix3_uint8_t_Get_xy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>zero matrix by default Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SymMatrix3.html">MR::SymMatrix3</a>&lt;uint8_t&gt;</code> named <code>xy</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a898f484645042ece22f15a7113192947" name="a898f484645042ece22f15a7113192947"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a898f484645042ece22f15a7113192947">&#9670;&#160;</a></span>MR_SymMatrix3_uint8_t_Get_xz()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const uint8_t * MR_SymMatrix3_uint8_t_Get_xz </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>zero matrix by default Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SymMatrix3.html">MR::SymMatrix3</a>&lt;uint8_t&gt;</code> named <code>xz</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a84746ef94c77bde35472fadbdbc77614" name="a84746ef94c77bde35472fadbdbc77614"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84746ef94c77bde35472fadbdbc77614">&#9670;&#160;</a></span>MR_SymMatrix3_uint8_t_Get_yy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const uint8_t * MR_SymMatrix3_uint8_t_Get_yy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>zero matrix by default Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SymMatrix3.html">MR::SymMatrix3</a>&lt;uint8_t&gt;</code> named <code>yy</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a380d623e51d0b9582e4a5f6b8738532d" name="a380d623e51d0b9582e4a5f6b8738532d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a380d623e51d0b9582e4a5f6b8738532d">&#9670;&#160;</a></span>MR_SymMatrix3_uint8_t_Get_yz()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const uint8_t * MR_SymMatrix3_uint8_t_Get_yz </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>zero matrix by default Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SymMatrix3.html">MR::SymMatrix3</a>&lt;uint8_t&gt;</code> named <code>yz</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a0f63845673526e478af1a5621e83b75c" name="a0f63845673526e478af1a5621e83b75c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f63845673526e478af1a5621e83b75c">&#9670;&#160;</a></span>MR_SymMatrix3_uint8_t_Get_zz()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const uint8_t * MR_SymMatrix3_uint8_t_Get_zz </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>zero matrix by default Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SymMatrix3.html">MR::SymMatrix3</a>&lt;uint8_t&gt;</code> named <code>zz</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="abea259278f6f2b09687a3a053ebaef28" name="abea259278f6f2b09687a3a053ebaef28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abea259278f6f2b09687a3a053ebaef28">&#9670;&#160;</a></span>MR_SymMatrix3_uint8_t_GetMutable_xx()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> uint8_t * MR_SymMatrix3_uint8_t_GetMutable_xx </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>zero matrix by default Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SymMatrix3.html">MR::SymMatrix3</a>&lt;uint8_t&gt;</code> named <code>xx</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a9be65191d8b55840b0eb3c85d9d25e11" name="a9be65191d8b55840b0eb3c85d9d25e11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9be65191d8b55840b0eb3c85d9d25e11">&#9670;&#160;</a></span>MR_SymMatrix3_uint8_t_GetMutable_xy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> uint8_t * MR_SymMatrix3_uint8_t_GetMutable_xy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>zero matrix by default Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SymMatrix3.html">MR::SymMatrix3</a>&lt;uint8_t&gt;</code> named <code>xy</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="aaba8d3ff7dd85f034b14e5814134af19" name="aaba8d3ff7dd85f034b14e5814134af19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaba8d3ff7dd85f034b14e5814134af19">&#9670;&#160;</a></span>MR_SymMatrix3_uint8_t_GetMutable_xz()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> uint8_t * MR_SymMatrix3_uint8_t_GetMutable_xz </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>zero matrix by default Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SymMatrix3.html">MR::SymMatrix3</a>&lt;uint8_t&gt;</code> named <code>xz</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a84d45956306bfaabf7142fae5c09d99e" name="a84d45956306bfaabf7142fae5c09d99e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84d45956306bfaabf7142fae5c09d99e">&#9670;&#160;</a></span>MR_SymMatrix3_uint8_t_GetMutable_yy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> uint8_t * MR_SymMatrix3_uint8_t_GetMutable_yy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>zero matrix by default Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SymMatrix3.html">MR::SymMatrix3</a>&lt;uint8_t&gt;</code> named <code>yy</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a6be841dda670fe6010acf9b64731d990" name="a6be841dda670fe6010acf9b64731d990"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6be841dda670fe6010acf9b64731d990">&#9670;&#160;</a></span>MR_SymMatrix3_uint8_t_GetMutable_yz()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> uint8_t * MR_SymMatrix3_uint8_t_GetMutable_yz </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>zero matrix by default Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SymMatrix3.html">MR::SymMatrix3</a>&lt;uint8_t&gt;</code> named <code>yz</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a7d71cffe05a0e9b7f1ba0dcdb3f65e6e" name="a7d71cffe05a0e9b7f1ba0dcdb3f65e6e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d71cffe05a0e9b7f1ba0dcdb3f65e6e">&#9670;&#160;</a></span>MR_SymMatrix3_uint8_t_GetMutable_zz()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> uint8_t * MR_SymMatrix3_uint8_t_GetMutable_zz </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>zero matrix by default Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SymMatrix3.html">MR::SymMatrix3</a>&lt;uint8_t&gt;</code> named <code>zz</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a630a60f867f4828c005ee7fd17d2f951" name="a630a60f867f4828c005ee7fd17d2f951"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a630a60f867f4828c005ee7fd17d2f951">&#9670;&#160;</a></span>MR_SymMatrix3_uint8_t_identity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> * MR_SymMatrix3_uint8_t_identity </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1SymMatrix3.html">MR::SymMatrix3</a>&lt;uint8_t&gt;</code> named <code>identity</code>. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a0606980ae14d6ccd3d33c04b165219f6" title="Destroys a heap-allocated instance of MR_SymMatrix3_uint8_t. Does nothing if the pointer is null.">MR_SymMatrix3_uint8_t_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ae7aecc87702c917e8bbe5868e722a1cd" name="ae7aecc87702c917e8bbe5868e722a1cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7aecc87702c917e8bbe5868e722a1cd">&#9670;&#160;</a></span>MR_SymMatrix3_uint8_t_inverse_0()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> * MR_SymMatrix3_uint8_t_inverse_0 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>computes inverse matrix Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1SymMatrix3.html">MR::SymMatrix3</a>&lt;uint8_t&gt;</code> named <code>inverse</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a0606980ae14d6ccd3d33c04b165219f6" title="Destroys a heap-allocated instance of MR_SymMatrix3_uint8_t. Does nothing if the pointer is null.">MR_SymMatrix3_uint8_t_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a607656ebf6e27f3ce7719e5bd60ef3ee" name="a607656ebf6e27f3ce7719e5bd60ef3ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a607656ebf6e27f3ce7719e5bd60ef3ee">&#9670;&#160;</a></span>MR_SymMatrix3_uint8_t_inverse_1()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> * MR_SymMatrix3_uint8_t_inverse_1 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t</td>          <td class="paramname"><span class="paramname"><em>det</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>computes inverse matrix given determinant of this Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1SymMatrix3.html">MR::SymMatrix3</a>&lt;uint8_t&gt;</code> named <code>inverse</code>. Parameter <code>_this</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a0606980ae14d6ccd3d33c04b165219f6" title="Destroys a heap-allocated instance of MR_SymMatrix3_uint8_t. Does nothing if the pointer is null.">MR_SymMatrix3_uint8_t_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a11a49e828a98d8669e2f38d78c521042" name="a11a49e828a98d8669e2f38d78c521042"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11a49e828a98d8669e2f38d78c521042">&#9670;&#160;</a></span>MR_SymMatrix3_uint8_t_mul_assign()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> * MR_SymMatrix3_uint8_t_mul_assign </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1SymMatrix3.html">MR::SymMatrix3</a>&lt;uint8_t&gt;</code> named <code>operator*=</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="addef88eafe21d5fdba54484fd132e2d0" name="addef88eafe21d5fdba54484fd132e2d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#addef88eafe21d5fdba54484fd132e2d0">&#9670;&#160;</a></span>MR_SymMatrix3_uint8_t_normSq()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> uint8_t MR_SymMatrix3_uint8_t_normSq </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>computes the squared norm of the matrix, which is equal to the sum of 9 squared elements Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1SymMatrix3.html">MR::SymMatrix3</a>&lt;uint8_t&gt;</code> named <code>normSq</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="ae6d8a32ffa51b299446f41a0f72ae22b" name="ae6d8a32ffa51b299446f41a0f72ae22b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6d8a32ffa51b299446f41a0f72ae22b">&#9670;&#160;</a></span>MR_SymMatrix3_uint8_t_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> * MR_SymMatrix3_uint8_t_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="a332937af3a658a244d976de0a751d2ef" name="a332937af3a658a244d976de0a751d2ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a332937af3a658a244d976de0a751d2ef">&#9670;&#160;</a></span>MR_SymMatrix3_uint8_t_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> * MR_SymMatrix3_uint8_t_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. </p>
+
+</div>
+</div>
+<a id="aec8ac9970000d93ac818968c32a1fa24" name="aec8ac9970000d93ac818968c32a1fa24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec8ac9970000d93ac818968c32a1fa24">&#9670;&#160;</a></span>MR_SymMatrix3_uint8_t_Set_xx()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_SymMatrix3_uint8_t_Set_xx </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>zero matrix by default Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SymMatrix3.html">MR::SymMatrix3</a>&lt;uint8_t&gt;</code> named <code>xx</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a870f807bb3a6af8c880e6140d64d6383" name="a870f807bb3a6af8c880e6140d64d6383"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a870f807bb3a6af8c880e6140d64d6383">&#9670;&#160;</a></span>MR_SymMatrix3_uint8_t_Set_xy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_SymMatrix3_uint8_t_Set_xy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>zero matrix by default Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SymMatrix3.html">MR::SymMatrix3</a>&lt;uint8_t&gt;</code> named <code>xy</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a79c9bb343ba9c40c2dd0285f55ee7069" name="a79c9bb343ba9c40c2dd0285f55ee7069"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79c9bb343ba9c40c2dd0285f55ee7069">&#9670;&#160;</a></span>MR_SymMatrix3_uint8_t_Set_xz()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_SymMatrix3_uint8_t_Set_xz </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>zero matrix by default Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SymMatrix3.html">MR::SymMatrix3</a>&lt;uint8_t&gt;</code> named <code>xz</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="ab6793f88081850e5d8b2d5e8bb547deb" name="ab6793f88081850e5d8b2d5e8bb547deb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6793f88081850e5d8b2d5e8bb547deb">&#9670;&#160;</a></span>MR_SymMatrix3_uint8_t_Set_yy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_SymMatrix3_uint8_t_Set_yy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>zero matrix by default Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SymMatrix3.html">MR::SymMatrix3</a>&lt;uint8_t&gt;</code> named <code>yy</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a201c83b826f02ca26b58a9bb498959ea" name="a201c83b826f02ca26b58a9bb498959ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a201c83b826f02ca26b58a9bb498959ea">&#9670;&#160;</a></span>MR_SymMatrix3_uint8_t_Set_yz()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_SymMatrix3_uint8_t_Set_yz </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>zero matrix by default Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SymMatrix3.html">MR::SymMatrix3</a>&lt;uint8_t&gt;</code> named <code>yz</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a0ea50ec16fd044721522fef030a499bc" name="a0ea50ec16fd044721522fef030a499bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ea50ec16fd044721522fef030a499bc">&#9670;&#160;</a></span>MR_SymMatrix3_uint8_t_Set_zz()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_SymMatrix3_uint8_t_Set_zz </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>zero matrix by default Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1SymMatrix3.html">MR::SymMatrix3</a>&lt;uint8_t&gt;</code> named <code>zz</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="a9eb8b299619a135d9a4993af1d3e807c" name="a9eb8b299619a135d9a4993af1d3e807c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9eb8b299619a135d9a4993af1d3e807c">&#9670;&#160;</a></span>MR_SymMatrix3_uint8_t_sub_assign()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> * MR_SymMatrix3_uint8_t_sub_assign </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *</td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1SymMatrix3.html">MR::SymMatrix3</a>&lt;uint8_t&gt;</code> named <code>operator-=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>b</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="ae511a684a01001cf70d959fb397ee005" name="ae511a684a01001cf70d959fb397ee005"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae511a684a01001cf70d959fb397ee005">&#9670;&#160;</a></span>MR_SymMatrix3_uint8_t_trace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> uint8_t MR_SymMatrix3_uint8_t_trace </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a6414a449442f3fdf1720e067285519bb">MR_SymMatrix3_uint8_t</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>computes trace of the matrix Generated from a method of class <code><a class="elRef" href="../Cpp/structMR_1_1SymMatrix3.html">MR::SymMatrix3</a>&lt;uint8_t&gt;</code> named <code>trace</code>. Parameter <code>_this</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
 <a id="a75c58f26411eb9aec69349b5170a1a3a" name="a75c58f26411eb9aec69349b5170a1a3a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a75c58f26411eb9aec69349b5170a1a3a">&#9670;&#160;</a></span>MR_SymMatrix3b_add_assign()</h2>
 

@@ -165,6 +165,9 @@ var namespaceMR =
       [ "setUiLengthUnit", "namespaceMR_1_1UnitSettings.html#ad8d6be62abf0d99eeb86139fd7939da1", null ],
       [ "setUiRatioPrecision", "namespaceMR_1_1UnitSettings.html#a2fa49ac2e3a36c4f6472b6b5ea7793cc", null ]
     ] ],
+    [ "Unsigned", "namespaceMR_1_1Unsigned.html", [
+      [ "abs", "namespaceMR_1_1Unsigned.html#a297e05c1691001d7ce0261fa2e9c3dc4", null ]
+    ] ],
     [ "VoxelsLoad", "namespaceMR_1_1VoxelsLoad.html", "namespaceMR_1_1VoxelsLoad" ],
     [ "VoxelsSave", "namespaceMR_1_1VoxelsSave.html", "namespaceMR_1_1VoxelsSave" ],
     [ "WeightedShell", "namespaceMR_1_1WeightedShell.html", "namespaceMR_1_1WeightedShell" ],
@@ -1002,6 +1005,7 @@ var namespaceMR =
     [ "ConvertToIntVector", "namespaceMR.html#ab81d3ad87ff9cd57deee77336ddf83e1", null ],
     [ "ConvertToIntVector2", "namespaceMR.html#a9966302a175074e0eccc6f6af09819e3", null ],
     [ "CubicBezierCurve3", "namespaceMR.html#a276ec0bff54ddd0554c26d4d2fa1d0f2", null ],
+    [ "DashPattern", "namespaceMR.html#ae8b74ab7c0497cec5fd2550a40addfd9", null ],
     [ "DecimatePolylineSettings2", "namespaceMR.html#a6e7bbd2938192cd9a3d3616faa293ed9", null ],
     [ "DecimatePolylineSettings3", "namespaceMR.html#a123fe754e35b341ca5ffe226b5eecc9a", null ],
     [ "DisabledWarnings", "namespaceMR.html#af32258fa43e72bfbd6c42df4283b25db", null ],

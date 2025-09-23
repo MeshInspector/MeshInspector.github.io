@@ -267,9 +267,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0e7dfc4d1ce4492b22b5430476500520" id="r_a0e7dfc4d1ce4492b22b5430476500520"><td class="memTemplParams" colspan="2">template&lt;typename ObjectT &gt; </td></tr>
 <tr class="memitem:a0e7dfc4d1ce4492b22b5430476500520"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a0e7dfc4d1ce4492b22b5430476500520">make_color_selector</a> (std::vector&lt; std::shared_ptr&lt; ObjectT &gt; &gt; selectedVisualObjs, const char *label, std::function&lt; Vector4f(const ObjectT *)&gt; getter, std::function&lt; void(ObjectT *, const Vector4f &amp;)&gt; setter)</td></tr>
 <tr class="separator:a0e7dfc4d1ce4492b22b5430476500520"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a98f83c09c96441c509677145fdb27276" id="r_a98f83c09c96441c509677145fdb27276"><td class="memTemplParams" colspan="2">template&lt;typename ObjType &gt; </td></tr>
-<tr class="memitem:a98f83c09c96441c509677145fdb27276"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a98f83c09c96441c509677145fdb27276">make_width</a> (std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &gt; selectedVisualObjs, const char *label, std::function&lt; float(const ObjType *)&gt; getter, std::function&lt; void(ObjType *, const float &amp;)&gt; setter)</td></tr>
-<tr class="separator:a98f83c09c96441c509677145fdb27276"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a967e9c0fa0dcd8845ce52d4b5bb065" id="r_a2a967e9c0fa0dcd8845ce52d4b5bb065"><td class="memTemplParams" colspan="2">template&lt;typename ObjType , typename ValueT &gt; </td></tr>
+<tr class="memitem:a2a967e9c0fa0dcd8845ce52d4b5bb065"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a2a967e9c0fa0dcd8845ce52d4b5bb065">make_width</a> (std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &gt; selectedVisualObjs, const char *label, std::function&lt; ValueT(const ObjType *)&gt; getter, std::function&lt; void(ObjType *, const ValueT &amp;)&gt; setter)</td></tr>
+<tr class="separator:a2a967e9c0fa0dcd8845ce52d4b5bb065"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a47c3996c85c24d180bec9f89358e666e" id="r_a47c3996c85c24d180bec9f89358e666e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47c3996c85c24d180bec9f89358e666e">make_light_strength</a> (std::vector&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt; &gt; selectedVisualObjs, const char *label, std::function&lt; float(const <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> *)&gt; getter, std::function&lt; void(<a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> *, const float &amp;)&gt; setter)</td></tr>
 <tr class="separator:a47c3996c85c24d180bec9f89358e666e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b9508550f2dc503c7e8bfe4d20c6756" id="r_a0b9508550f2dc503c7e8bfe4d20c6756"><td class="memTemplParams" colspan="2">template&lt;typename T , typename ObjectType &gt; </td></tr>
@@ -2148,13 +2148,13 @@ template&lt;typename T , typename ObjectType &gt; </div>
 
 </div>
 </div>
-<a id="a98f83c09c96441c509677145fdb27276" name="a98f83c09c96441c509677145fdb27276"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a98f83c09c96441c509677145fdb27276">&#9670;&#160;</a></span>make_width()</h2>
+<a id="a2a967e9c0fa0dcd8845ce52d4b5bb065" name="a2a967e9c0fa0dcd8845ce52d4b5bb065"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a967e9c0fa0dcd8845ce52d4b5bb065">&#9670;&#160;</a></span>make_width()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename ObjType &gt; </div>
+template&lt;typename ObjType , typename ValueT &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">void MR::ImGuiMenu::make_width </td>
@@ -2169,12 +2169,12 @@ template&lt;typename ObjType &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::function&lt; float(const ObjType *)&gt;</td>          <td class="paramname"><span class="paramname"><em>getter</em></span>, </td>
+          <td class="paramtype">std::function&lt; ValueT(const ObjType *)&gt;</td>          <td class="paramname"><span class="paramname"><em>getter</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::function&lt; void(ObjType *, const float &amp;)&gt;</td>          <td class="paramname"><span class="paramname"><em>setter</em></span>&#160;)</td>
+          <td class="paramtype">std::function&lt; void(ObjType *, const ValueT &amp;)&gt;</td>          <td class="paramname"><span class="paramname"><em>setter</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

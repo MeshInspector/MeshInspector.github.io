@@ -248,6 +248,8 @@ Namespaces</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1UnitSettings.html">UnitSettings</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Unsigned.html">Unsigned</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1VoxelsLoad.html">VoxelsLoad</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1VoxelsSave.html">VoxelsSave</a></td></tr>
@@ -2409,6 +2411,8 @@ Typedefs</h2></td></tr>
 <tr class="separator:a331d6b27226046972c32b7d946f0624b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d0081672e0ccdc9545b8df2b84c3663" id="r_a3d0081672e0ccdc9545b8df2b84c3663"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d0081672e0ccdc9545b8df2b84c3663">ICPPairsGrid</a> = <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;<a class="el" href="classMR_1_1Vector.html">Vector</a>&lt;<a class="el" href="structMR_1_1ICPGroupPairs.html">ICPGroupPairs</a>, <a class="el" href="#ab448f2e256aabf3e97eaaef010380fb1">ICPElementId</a>&gt;, <a class="el" href="#ab448f2e256aabf3e97eaaef010380fb1">ICPElementId</a>&gt;</td></tr>
 <tr class="separator:a3d0081672e0ccdc9545b8df2b84c3663"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8b74ab7c0497cec5fd2550a40addfd9" id="r_ae8b74ab7c0497cec5fd2550a40addfd9"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae8b74ab7c0497cec5fd2550a40addfd9">DashPattern</a> = <a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt;uint8_t&gt;</td></tr>
+<tr class="separator:ae8b74ab7c0497cec5fd2550a40addfd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abbeb6c9515d4865378050cb9687fd180" id="r_abbeb6c9515d4865378050cb9687fd180"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abbeb6c9515d4865378050cb9687fd180">OffsetContoursVertMap</a> = std::vector&lt;<a class="el" href="structMR_1_1OffsetContoursOrigins.html">OffsetContoursOrigins</a>&gt;</td></tr>
 <tr class="separator:abbeb6c9515d4865378050cb9687fd180"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f87a9abf93ab132bc1ea3f939459b37" id="r_a3f87a9abf93ab132bc1ea3f939459b37"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f87a9abf93ab132bc1ea3f939459b37">OffsetContoursVertMaps</a> = std::vector&lt;<a class="el" href="#abbeb6c9515d4865378050cb9687fd180">OffsetContoursVertMap</a>&gt;</td></tr>
@@ -7851,6 +7855,21 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae8b74ab7c0497cec5fd2550a40addfd9" name="ae8b74ab7c0497cec5fd2550a40addfd9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8b74ab7c0497cec5fd2550a40addfd9">&#9670;&#160;</a></span>DashPattern</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#ae8b74ab7c0497cec5fd2550a40addfd9">MR::DashPattern</a> = <a class="el" href="structMR_1_1Vector4.html">Vector4</a>&lt;uint8_t&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>specify dash pattern in pixels [0] - dash [1] - space [2] - dash [3] - space </p>
 
 </div>
 </div>
@@ -31225,7 +31244,7 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Offsets mesh by converting it to distance field in voxels using OpenVDB library, signDetectionMode = <a class="el" href="#a03fba1fe0e5d6fe3c22dc41c9d57d309aa1a914735b205424ba6c40b85528d78a" title="unsigned distance, useful for bidirectional Shell offset">Unsigned(from OpenVDB)</a> | OpenVDB | HoleWindingRule, and then converts back using OpenVDB library (dual marching cubes), so result mesh is always closed </p>
+<p>Offsets mesh by converting it to distance field in voxels using OpenVDB library, signDetectionMode = Unsigned(from OpenVDB) | OpenVDB | HoleWindingRule, and then converts back using OpenVDB library (dual marching cubes), so result mesh is always closed </p>
 
 </div>
 </div>

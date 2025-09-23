@@ -201,6 +201,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae0b496042ca65d7b8bdb862c9e984ff7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4693af2f58656c85b0fe600e323273ff" id="r_a4693af2f58656c85b0fe600e323273ff"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4693af2f58656c85b0fe600e323273ff">setDirtyFlags</a> (uint32_t mask, bool invalidateCaches=true) override</td></tr>
 <tr class="separator:a4693af2f58656c85b0fe600e323273ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9211895465ab621237d8ad28b942ad42" id="r_a9211895465ab621237d8ad28b942ad42"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9211895465ab621237d8ad28b942ad42">setDashPattern</a> (const <a class="el" href="namespaceMR.html#ae8b74ab7c0497cec5fd2550a40addfd9">DashPattern</a> &amp;pattern, <a class="el" href="classMR_1_1ViewportId.html">ViewportId</a> vpId={})</td></tr>
+<tr class="separator:a9211895465ab621237d8ad28b942ad42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b42c2e0a5a94bede326754d2b3f369c" id="r_a7b42c2e0a5a94bede326754d2b3f369c"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="namespaceMR.html#ae8b74ab7c0497cec5fd2550a40addfd9">DashPattern</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b42c2e0a5a94bede326754d2b3f369c">getDashPattern</a> (<a class="el" href="classMR_1_1ViewportId.html">ViewportId</a> vpId={}, bool *isDef=nullptr) const</td></tr>
+<tr class="separator:a7b42c2e0a5a94bede326754d2b3f369c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a34d49b96c99eb2e836b6ccc26aaa22" id="r_a2a34d49b96c99eb2e836b6ccc26aaa22"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a34d49b96c99eb2e836b6ccc26aaa22">setLineWidth</a> (float <a class="el" href="group__BoxGroup.html#ga03ccb991cf0d9c433fd5a054a5d026af">width</a>)</td></tr>
 <tr class="separator:a2a34d49b96c99eb2e836b6ccc26aaa22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad29f08547db22aca65fa19e23ac218b7" id="r_ad29f08547db22aca65fa19e23ac218b7"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad29f08547db22aca65fa19e23ac218b7">getLineWidth</a> () const</td></tr>
@@ -675,6 +679,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a5e2decefeb68afc04d745403e70da92f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64d69137f11ccce4e6ba7aaa0ef41237" id="r_a64d69137f11ccce4e6ba7aaa0ef41237"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1ViewportMask.html">ViewportMask</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64d69137f11ccce4e6ba7aaa0ef41237">dashed_</a></td></tr>
 <tr class="separator:a64d69137f11ccce4e6ba7aaa0ef41237"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe70f54ddf2aae2d5784d3aac54214ca" id="r_abe70f54ddf2aae2d5784d3aac54214ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1ViewportProperty.html">ViewportProperty</a>&lt; <a class="el" href="namespaceMR.html#ae8b74ab7c0497cec5fd2550a40addfd9">DashPattern</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abe70f54ddf2aae2d5784d3aac54214ca">dashPattern_</a> = <a class="el" href="structMR_1_1Vector4.html#aae32c22644b25c26b237f41ac439da53">DashPattern::diagonal</a>( 20 )</td></tr>
+<tr class="separator:abe70f54ddf2aae2d5784d3aac54214ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab981ac159b7e944aef46d972503003e7" id="r_ab981ac159b7e944aef46d972503003e7"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab981ac159b7e944aef46d972503003e7">lineWidth_</a> { 1.0f }</td></tr>
 <tr class="memdesc:ab981ac159b7e944aef46d972503003e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">width on lines on screen in pixels  <br /></td></tr>
 <tr class="separator:ab981ac159b7e944aef46d972503003e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1122,6 +1128,35 @@ Additional Inherited Members</h2></td></tr>
 <p>get all visualize properties masks </p>
 
 <p>Reimplemented from <a class="el" href="classMR_1_1VisualObject.html#ab5a7a842052c24ab9b286eafae1bfb8d">MR::VisualObject</a>.</p>
+
+</div>
+</div>
+<a id="a7b42c2e0a5a94bede326754d2b3f369c" name="a7b42c2e0a5a94bede326754d2b3f369c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b42c2e0a5a94bede326754d2b3f369c">&#9670;&#160;</a></span>getDashPattern()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual const <a class="el" href="namespaceMR.html#ae8b74ab7c0497cec5fd2550a40addfd9">DashPattern</a> &amp; MR::ObjectLinesHolder::getDashPattern </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1ViewportId.html">ViewportId</a></td>          <td class="paramname"><span class="paramname"><em>vpId</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool *</td>          <td class="paramname"><span class="paramname"><em>isDef</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;) const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -1599,6 +1634,36 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a9211895465ab621237d8ad28b942ad42" name="a9211895465ab621237d8ad28b942ad42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9211895465ab621237d8ad28b942ad42">&#9670;&#160;</a></span>setDashPattern()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::ObjectLinesHolder::setDashPattern </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespaceMR.html#ae8b74ab7c0497cec5fd2550a40addfd9">DashPattern</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>pattern</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1ViewportId.html">ViewportId</a></td>          <td class="paramname"><span class="paramname"><em>vpId</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>specify dash pattern in pixels [0] - dash [1] - space [2] - dash [3] - space </p>
+
+</div>
+</div>
 <a id="a4693af2f58656c85b0fe600e323273ff" name="a4693af2f58656c85b0fe600e323273ff"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4693af2f58656c85b0fe600e323273ff">&#9670;&#160;</a></span>setDirtyFlags()</h2>
 
@@ -2026,6 +2091,28 @@ Additional Inherited Members</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="classMR_1_1ViewportMask.html">ViewportMask</a> MR::ObjectLinesHolder::dashed_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abe70f54ddf2aae2d5784d3aac54214ca" name="abe70f54ddf2aae2d5784d3aac54214ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe70f54ddf2aae2d5784d3aac54214ca">&#9670;&#160;</a></span>dashPattern_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classMR_1_1ViewportProperty.html">ViewportProperty</a>&lt;<a class="el" href="namespaceMR.html#ae8b74ab7c0497cec5fd2550a40addfd9">DashPattern</a>&gt; MR::ObjectLinesHolder::dashPattern_ = <a class="el" href="structMR_1_1Vector4.html#aae32c22644b25c26b237f41ac439da53">DashPattern::diagonal</a>( 20 )</td>
         </tr>
       </table>
   </td>

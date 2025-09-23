@@ -1435,6 +1435,7 @@ var hierarchy =
     [ "MR::ViewportProperty< ControlBit >", "classMR_1_1ViewportProperty.html", null ],
     [ "MR::ViewportProperty< Matrix3f >", "classMR_1_1ViewportProperty.html", null ],
     [ "MR::ViewportProperty< MR::Color >", "classMR_1_1ViewportProperty.html", null ],
+    [ "MR::ViewportProperty< MR::Vector4 >", "classMR_1_1ViewportProperty.html", null ],
     [ "MR::ViewportProperty< MR::XfBasedCache< Box3f > >", "classMR_1_1ViewportProperty.html", null ],
     [ "MR::ViewportProperty< uint8_t >", "classMR_1_1ViewportProperty.html", null ],
     [ "MR::ProvidesViewportWidget::ViewportWidgetInterface", "structMR_1_1ProvidesViewportWidget_1_1ViewportWidgetInterface.html", null ],

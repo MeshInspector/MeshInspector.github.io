@@ -2,7 +2,7 @@ var structMR_1_1Matrix2 =
 [
     [ "ValueType", "structMR_1_1Matrix2.html#a7c1746ef11222bfb25d596d33f0858df", null ],
     [ "VectorType", "structMR_1_1Matrix2.html#a7cf6cc56bb0bc27163e42206eb175932", null ],
-    [ "Matrix2", "structMR_1_1Matrix2.html#ab0edfda85530e048b830e26c6d5f964e", null ],
+    [ "Matrix2", "structMR_1_1Matrix2.html#a11b0766cdd3a2c4ef934d13fe73ab629", null ],
     [ "Matrix2", "structMR_1_1Matrix2.html#a465743fcd9bcc254f07f16213bfe27b5", null ],
     [ "Matrix2", "structMR_1_1Matrix2.html#a017815a02af27c71fd22fb0aa281ba24", null ],
     [ "col", "structMR_1_1Matrix2.html#a54d2436df3221ca1c8a71f6a6f9c83f6", null ],

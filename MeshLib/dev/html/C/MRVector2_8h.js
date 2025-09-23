@@ -92,8 +92,6 @@ var MRVector2_8h =
     [ "MR_Vector2b_index_const", "MRVector2_8h.html#ae63a5a216c73f9db5fb0006377ef0056", null ],
     [ "MR_Vector2b_length", "MRVector2_8h.html#af8d7de106424802d320f385599e69ed7", null ],
     [ "MR_Vector2b_lengthSq", "MRVector2_8h.html#a95729316db9b39e7456d7e567d3757a1", null ],
-    [ "MR_Vector2b_minusX", "MRVector2_8h.html#a782fcc87e15b6aa7a86950a0160f5805", null ],
-    [ "MR_Vector2b_minusY", "MRVector2_8h.html#a141bcc703476a50530e8c9f108fa54ca", null ],
     [ "MR_Vector2b_plusX", "MRVector2_8h.html#acec2cf3f5f010908b7f9a1a5eeb40485", null ],
     [ "MR_Vector2b_plusY", "MRVector2_8h.html#a888d808df8235afcfcef12240d8d2041", null ],
     [ "MR_Vector2d_Construct_1", "MRVector2_8h.html#a84b84a5fe1cbe9712e7e8f439a175bbc", null ],

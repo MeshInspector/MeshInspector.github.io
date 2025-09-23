@@ -79,7 +79,7 @@ var classMR_1_1ImGuiMenu =
     [ "make_points_discretization", "classMR_1_1ImGuiMenu.html#a344b3a7a1c2340b70efb4c3d5ffa920f", null ],
     [ "make_slider", "classMR_1_1ImGuiMenu.html#a0b9508550f2dc503c7e8bfe4d20c6756", null ],
     [ "make_visualize_checkbox", "classMR_1_1ImGuiMenu.html#a2cde4a8f3fa825bbab90240c16545c1a", null ],
-    [ "make_width", "classMR_1_1ImGuiMenu.html#a98f83c09c96441c509677145fdb27276", null ],
+    [ "make_width", "classMR_1_1ImGuiMenu.html#a2a967e9c0fa0dcd8845ce52d4b5bb065", null ],
     [ "menu_scaling", "classMR_1_1ImGuiMenu.html#a6b675470dbdebfb5d03efb515c5e8b63", null ],
     [ "onCharPressed_", "classMR_1_1ImGuiMenu.html#a7906a1932a537af9cea6a47dcc68a00d", null ],
     [ "onKeyDown_", "classMR_1_1ImGuiMenu.html#a0e858510ba6a8fd6ef7f6a8875c6c36d", null ],
