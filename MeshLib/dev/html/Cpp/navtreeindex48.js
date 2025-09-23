@@ -1,5 +1,7 @@
 var NAVTREEINDEX48 =
 {
+"classMR_1_1TbbThreadMutex.html#a90d44121dc83fee14538cf016ad521ee":[6,0,1,0,1,730,2],
+"classMR_1_1TbbThreadMutex.html#a90d44121dc83fee14538cf016ad521ee":[6,0,2,0,1,711,2],
 "classMR_1_1TbbThreadMutex_1_1LockGuard.html":[6,0,1,0,1,730,0],
 "classMR_1_1TbbThreadMutex_1_1LockGuard.html":[6,0,2,0,1,711,0],
 "classMR_1_1TbbThreadMutex_1_1LockGuard.html#a2e87f4a3c9426ac9a138859d40f5723e":[6,0,1,0,1,730,0,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX48 =
 "classMR_1_1UndirectedEdgeIterator.html#afb9397abf0ea6c1ab579232a1d3d527e":[6,0,1,0,1,773,4],
 "classMR_1_1UndirectedEdgeIterator.html#afb9397abf0ea6c1ab579232a1d3d527e":[6,0,2,0,1,754,4],
 "classMR_1_1UndirectedEdgeIterator.html#afd61e3c0df7e5d0f0b23e76f6f0ca42e":[6,0,1,0,1,773,1],
-"classMR_1_1UndirectedEdgeIterator.html#afd61e3c0df7e5d0f0b23e76f6f0ca42e":[6,0,2,0,1,754,1],
-"classMR_1_1UnifiedPythonStream.html":[6,0,1,0,1,775],
-"classMR_1_1UnifiedPythonStream.html":[6,0,2,0,1,756]
+"classMR_1_1UndirectedEdgeIterator.html#afd61e3c0df7e5d0f0b23e76f6f0ca42e":[6,0,2,0,1,754,1]
 };

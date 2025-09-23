@@ -1,5 +1,7 @@
 var NAVTREEINDEX22 =
 {
+"classMR_1_1CircleObject.html#a895c02e2871ba07f4a6660e543acf2f2":[6,0,0,11,0,0,10],
+"classMR_1_1CircleObject.html#a93090fe220169d0ebb34d3fcc16425d5":[6,0,0,11,0,0,2],
 "classMR_1_1CircleObject.html#a954c37422d60d6788e245dab3c929332":[6,0,0,11,0,0,18],
 "classMR_1_1CircleObject.html#a96496ee95759ab735c258bd759a95719":[6,0,0,11,0,0,9],
 "classMR_1_1CircleObject.html#a991beec8b2a8e873d3c1325a07e90050":[6,0,0,11,0,0,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX22 =
 "classMR_1_1Cone3.html#ac88828ed52ec42c8758c744ff1fdaf20":[6,0,1,0,1,156,8],
 "classMR_1_1Cone3.html#ac88828ed52ec42c8758c744ff1fdaf20":[6,0,2,0,1,137,8],
 "classMR_1_1Cone3Approximation.html":[6,0,1,0,1,157],
-"classMR_1_1Cone3Approximation.html":[6,0,2,0,1,138],
-"classMR_1_1Cone3Approximation.html#a7c6a542eabe69884f78ec5044ab1df50":[6,0,1,0,1,157,1],
-"classMR_1_1Cone3Approximation.html#a7c6a542eabe69884f78ec5044ab1df50":[6,0,2,0,1,138,1]
+"classMR_1_1Cone3Approximation.html":[6,0,2,0,1,138]
 };

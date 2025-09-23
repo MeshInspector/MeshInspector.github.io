@@ -1,5 +1,7 @@
 var NAVTREEINDEX90 =
 {
+"structMR_1_1RibbonNotification.html#a40618c97689369cde22e2db71719697e":[6,0,1,0,1,625,5],
+"structMR_1_1RibbonNotification.html#a40618c97689369cde22e2db71719697e":[6,0,2,0,1,606,5],
 "structMR_1_1RibbonNotification.html#a4da1179863d307c12ec913c673695c06":[6,0,1,0,1,625,7],
 "structMR_1_1RibbonNotification.html#a4da1179863d307c12ec913c673695c06":[6,0,2,0,1,606,7],
 "structMR_1_1RibbonNotification.html#a9a3ccb0e6e8a56c16b1f5b4bf1ee2490":[6,0,1,0,1,625,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX90 =
 "structMR_1_1SeparationPointStorage_1_1Block.html#a58df13a2b6e26ec0a73b3883451f7c27":[6,0,2,0,1,657,0,1],
 "structMR_1_1SeparationPointStorage_1_1Block.html#a846d3bc158a03f5fd24580dc8b40e085":[6,0,1,0,1,676,0,5],
 "structMR_1_1SeparationPointStorage_1_1Block.html#a846d3bc158a03f5fd24580dc8b40e085":[6,0,2,0,1,657,0,5],
-"structMR_1_1SeparationPointStorage_1_1Block.html#ab2e39467c0dd89a73144f53515aaeedb":[6,0,1,0,1,676,0,3],
-"structMR_1_1SeparationPointStorage_1_1Block.html#ab2e39467c0dd89a73144f53515aaeedb":[6,0,2,0,1,657,0,3],
-"structMR_1_1SetNew.html":[6,0,0,4,38]
+"structMR_1_1SeparationPointStorage_1_1Block.html#ab2e39467c0dd89a73144f53515aaeedb":[6,0,1,0,1,676,0,3]
 };

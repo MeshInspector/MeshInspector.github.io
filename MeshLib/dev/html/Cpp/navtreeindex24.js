@@ -1,5 +1,7 @@
 var NAVTREEINDEX24 =
 {
+"classMR_1_1DirectionWidget.html":[6,0,1,0,1,193],
+"classMR_1_1DirectionWidget.html":[6,0,2,0,1,174],
 "classMR_1_1DirectionWidget.html#a0128153cf5d0c06d9fdfd105c8255ba5":[6,0,1,0,1,193,10],
 "classMR_1_1DirectionWidget.html#a0128153cf5d0c06d9fdfd105c8255ba5":[6,0,2,0,1,174,10],
 "classMR_1_1DirectionWidget.html#a0b215c94ee35a19ee1fc4beb14824c54":[6,0,1,0,1,193,25],
@@ -247,7 +249,5 @@ var NAVTREEINDEX24 =
 "classMR_1_1EnumNeihbourVertices.html":[6,0,2,0,1,214],
 "classMR_1_1EnumNeihbourVertices.html#a82eaa1eebaf7fc188b2c9ab048fc745a":[6,0,1,0,1,233,0],
 "classMR_1_1EnumNeihbourVertices.html#a82eaa1eebaf7fc188b2c9ab048fc745a":[6,0,2,0,1,214,0],
-"classMR_1_1EnumNeihbourVertices.html#aa6216d158e1f9f47eb52c1e8662e8ce7":[6,0,1,0,1,233,1],
-"classMR_1_1EnumNeihbourVertices.html#aa6216d158e1f9f47eb52c1e8662e8ce7":[6,0,2,0,1,214,1],
-"classMR_1_1FastWindingNumber.html":[6,0,0,1,14]
+"classMR_1_1EnumNeihbourVertices.html#aa6216d158e1f9f47eb52c1e8662e8ce7":[6,0,1,0,1,233,1]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX49 =
 {
+"classMR_1_1UnifiedPythonStream.html":[6,0,1,0,1,775],
+"classMR_1_1UnifiedPythonStream.html":[6,0,2,0,1,756],
 "classMR_1_1UnionFind.html":[6,0,0,3,15],
 "classMR_1_1UnionFind.html#a009ad612aecca5afb9b91768536c406f":[6,0,0,3,15,11],
 "classMR_1_1UnionFind.html#a0739ab9258f8fc25ef45ce06106fffce":[6,0,0,3,15,12],
@@ -247,7 +249,5 @@ var NAVTREEINDEX49 =
 "classMR_1_1Viewer.html#a4cc2b3d7e246b0136ffdf60186e31c16":[6,0,1,0,1,800,33],
 "classMR_1_1Viewer.html#a4cc2b3d7e246b0136ffdf60186e31c16":[6,0,2,0,1,781,33],
 "classMR_1_1Viewer.html#a4cdddbaa5eba70fd3ab533a608991894":[6,0,1,0,1,800,224],
-"classMR_1_1Viewer.html#a4cdddbaa5eba70fd3ab533a608991894":[6,0,2,0,1,781,224],
-"classMR_1_1Viewer.html#a4ddbf48e08044f241c126505d2914ce1":[6,0,1,0,1,800,18],
-"classMR_1_1Viewer.html#a4ddbf48e08044f241c126505d2914ce1":[6,0,2,0,1,781,18]
+"classMR_1_1Viewer.html#a4cdddbaa5eba70fd3ab533a608991894":[6,0,2,0,1,781,224]
 };

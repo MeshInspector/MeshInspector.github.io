@@ -1,5 +1,7 @@
 var NAVTREEINDEX92 =
 {
+"structMR_1_1SurfaceManipulationWidget_1_1Settings.html#ab14405334e68a28589b518f7764d2176":[6,0,1,0,1,720,0,1],
+"structMR_1_1SurfaceManipulationWidget_1_1Settings.html#ab14405334e68a28589b518f7764d2176":[6,0,2,0,1,701,0,1],
 "structMR_1_1SurfaceManipulationWidget_1_1Settings.html#ab3d9e28df35121c177e6e2eead86a43a":[6,0,1,0,1,720,0,4],
 "structMR_1_1SurfaceManipulationWidget_1_1Settings.html#ab3d9e28df35121c177e6e2eead86a43a":[6,0,2,0,1,701,0,4],
 "structMR_1_1SurfaceManipulationWidget_1_1Settings.html#ac91503b98cd4530afb0bafe21f09b924":[6,0,1,0,1,720,0,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX92 =
 "structMR_1_1TouchEndListener.html#ad4f9cdfb229f3a5fd00c8412b90506ef":[6,0,2,0,1,724,2],
 "structMR_1_1TouchMoveListener.html":[6,0,1,0,1,745],
 "structMR_1_1TouchMoveListener.html":[6,0,2,0,1,726],
-"structMR_1_1TouchMoveListener.html#a45f1bdd6f4f5573df003142c4e9a883a":[6,0,1,0,1,745,3],
-"structMR_1_1TouchMoveListener.html#a45f1bdd6f4f5573df003142c4e9a883a":[6,0,2,0,1,726,3],
-"structMR_1_1TouchMoveListener.html#a4f362107fcc44cd725b83ae045795b07":[6,0,1,0,1,745,2]
+"structMR_1_1TouchMoveListener.html#a45f1bdd6f4f5573df003142c4e9a883a":[6,0,1,0,1,745,3]
 };
