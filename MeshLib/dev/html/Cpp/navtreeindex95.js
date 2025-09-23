@@ -1,5 +1,7 @@
 var NAVTREEINDEX95 =
 {
+"structMR_1_1UndirectedEdgeUndirectedEdge.html#afc38d24da2e811fd6d7ae9a05045b2d0":[6,0,0,1,13,1],
+"structMR_1_1UniformSamplingSettings.html":[6,0,1,0,1,776],
 "structMR_1_1UniformSamplingSettings.html":[6,0,2,0,1,757],
 "structMR_1_1UniformSamplingSettings.html#a010165bed75fd690071dbe15b50f8c58":[6,0,1,0,1,776,0],
 "structMR_1_1UniformSamplingSettings.html#a010165bed75fd690071dbe15b50f8c58":[6,0,2,0,1,757,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX95 =
 "structMR_1_1VectorTraits.html#adbadae2704ad269b8d78edbb0f2faa93":[6,0,2,0,1,771,0],
 "structMR_1_1VectorTraits_3_01ImVec2_01_4.html":[6,0,1,0,1,791],
 "structMR_1_1VectorTraits_3_01ImVec2_01_4.html":[6,0,2,0,1,772],
-"structMR_1_1VectorTraits_3_01ImVec2_01_4.html#a2eddd5b493699059c72e5edaf944e3f5":[6,0,1,0,1,791,1],
-"structMR_1_1VectorTraits_3_01ImVec2_01_4.html#a2eddd5b493699059c72e5edaf944e3f5":[6,0,2,0,1,772,1],
-"structMR_1_1VectorTraits_3_01ImVec2_01_4.html#aa6933497906e7baf8dd6f57ebded16c4":[6,0,1,0,1,791,0]
+"structMR_1_1VectorTraits_3_01ImVec2_01_4.html#a2eddd5b493699059c72e5edaf944e3f5":[6,0,1,0,1,791,1]
 };

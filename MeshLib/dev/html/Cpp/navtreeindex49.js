@@ -1,5 +1,7 @@
 var NAVTREEINDEX49 =
 {
+"classMR_1_1UndirectedEdgeIterator.html#afd61e3c0df7e5d0f0b23e76f6f0ca42e":[6,0,1,0,1,773,1],
+"classMR_1_1UndirectedEdgeIterator.html#afd61e3c0df7e5d0f0b23e76f6f0ca42e":[6,0,2,0,1,754,1],
 "classMR_1_1UnifiedPythonStream.html":[6,0,1,0,1,775],
 "classMR_1_1UnifiedPythonStream.html":[6,0,2,0,1,756],
 "classMR_1_1UnionFind.html":[6,0,0,3,15],
@@ -247,7 +249,5 @@ var NAVTREEINDEX49 =
 "classMR_1_1Viewer.html#a4c175c5eee2d6f8367e9fcfe26eee6a5":[6,0,1,0,1,800,201],
 "classMR_1_1Viewer.html#a4c175c5eee2d6f8367e9fcfe26eee6a5":[6,0,2,0,1,781,201],
 "classMR_1_1Viewer.html#a4cc2b3d7e246b0136ffdf60186e31c16":[6,0,1,0,1,800,33],
-"classMR_1_1Viewer.html#a4cc2b3d7e246b0136ffdf60186e31c16":[6,0,2,0,1,781,33],
-"classMR_1_1Viewer.html#a4cdddbaa5eba70fd3ab533a608991894":[6,0,1,0,1,800,224],
-"classMR_1_1Viewer.html#a4cdddbaa5eba70fd3ab533a608991894":[6,0,2,0,1,781,224]
+"classMR_1_1Viewer.html#a4cc2b3d7e246b0136ffdf60186e31c16":[6,0,2,0,1,781,33]
 };
