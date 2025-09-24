@@ -150,6 +150,62 @@ $(function(){initNavTree('ExampleMeshOffsetWeighted.html',''); initResizable(tru
 <div class="contents">
 <div class="textblock"><p>Example of mesh weighted offset</p>
 <div class="tabbed"></div><div class="tabbed"><ul>
+<li><b class="tab-title">C++</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &quot;MRMesh/MRTorus.h&quot;</span></div>
+<div class="line"><span class="preprocessor">#include &quot;MRMesh/MRMesh.h&quot;</span></div>
+<div class="line"><span class="preprocessor">#include &quot;<a class="codeRef" href="./Cpp/MRParallelFor_8h.html">MRMesh/MRParallelFor.h</a>&quot;</span></div>
+<div class="line"><span class="preprocessor">#include &quot;<a class="codeRef" href="./Cpp/MRWeightedPointsShell_8h.html">MRVoxels/MRWeightedPointsShell.h</a>&quot;</span></div>
+<div class="line"><span class="preprocessor">#include &quot;MRVoxels/MROffset.h&quot;</span></div>
+<div class="line"><span class="preprocessor">#include &quot;MRMesh/MRMeshSave.h&quot;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"> </div>
+<div class="line"><span class="keywordtype">int</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>()</div>
+<div class="line">{</div>
+<div class="line">    <span class="comment">// Create some mesh</span></div>
+<div class="line">    <span class="keyword">auto</span> mesh = <a class="code hl_functionRef" href="./Cpp/namespaceMR.html#a9c4abf9ec20745c55a6825637894668c">MR::makeTorus</a>();</div>
+<div class="line"> </div>
+<div class="line">    <span class="comment">// Create VertScalars obj with weights for every vertex</span></div>
+<div class="line">    <span class="keyword">auto</span> vertSize = mesh.topology.vertSize();</div>
+<div class="line">    MR::VertScalars scalars( vertSize );</div>
+<div class="line">    <a class="code hl_functionRef" href="./Cpp/group__BasicGroup.html#gacebe01b37f86a061aec73665e5458155">MR::ParallelFor</a>( scalars, [&amp;] ( MR::VertId v )</div>
+<div class="line">    {</div>
+<div class="line">        scalars[v] = std::abs( mesh.points[v].x / 5.0f ); <span class="comment">// Individual extra offset sizes for points</span></div>
+<div class="line">    } );</div>
+<div class="line"> </div>
+<div class="line">    <span class="keyword">auto</span> params = <a class="code hl_structRef" href="./Cpp/structMR_1_1WeightedShell_1_1ParametersMetric.html">MR::WeightedShell::ParametersMetric</a>();</div>
+<div class="line">    <span class="comment">// Algorithm is voxel based, voxel size affects performance and form of result mesh</span></div>
+<div class="line">    params.voxelSize = <a class="code hl_functionRef" href="./Cpp/namespaceMR.html#a346ad7a38921d6822ceffafc1eba769d">MR::suggestVoxelSize</a>( mesh, 1000 );</div>
+<div class="line">    <span class="comment">// common basic offset applied for all point</span></div>
+<div class="line">    <span class="comment">// Vertex-specific weighted offsets applied after the basic one</span></div>
+<div class="line">    params.offset = 0.2f;</div>
+<div class="line">    params.dist.maxWeight = *std::max_element( <a class="code hl_functionRef" href="./Cpp/group__BasicGroup.html#ga130a7b2de56f57ba4b13111c6e3a31ef">MR::begin</a>( scalars ), <a class="code hl_functionRef" href="./Cpp/group__BasicGroup.html#gab900ba901f90bfe11c4580814af4fbf6">MR::end</a>( scalars ) ); <span class="comment">// should always have maximum between weights provided</span></div>
+<div class="line"> </div>
+<div class="line">    <span class="keyword">auto</span> res = <a class="code hl_functionRef" href="./Cpp/namespaceMR_1_1WeightedShell.html#a5f3f7e651a5e21cd4346de588b7641b1">MR::WeightedShell::meshShell</a>( mesh, scalars, params );</div>
+<div class="line">    <span class="keywordflow">if</span> ( !res.has_value() )</div>
+<div class="line">    {</div>
+<div class="line">        std::cerr &lt;&lt; res.error();</div>
+<div class="line">        <span class="keywordflow">return</span> 1;</div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">    <span class="keyword">auto</span> saveRes = <a class="code hl_functionRef" href="./Cpp/group__MeshSaveGroup.html#ga6f98b4f73676fa32a7e3573939cb76b9">MR::MeshSave::toAnySupportedFormat</a>( *res, <span class="stringliteral">&quot;offset_weighted.ctm&quot;</span> );</div>
+<div class="line">    <span class="keywordflow">if</span> ( !saveRes.has_value() )</div>
+<div class="line">    {</div>
+<div class="line">        std::cerr &lt;&lt; saveRes.error();</div>
+<div class="line">        <span class="keywordflow">return</span> 1;</div>
+<div class="line">    }</div>
+<div class="line">    <span class="keywordflow">return</span> 0;</div>
+<div class="line">}</div>
+<div class="ttc" id="aLaplacianDeformation_8cpp_html_ae66f6b31b5ad750f1fe042a706a4e3d4"><div class="ttname"><a href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a></div><div class="ttdeci">int main()</div><div class="ttdef"><b>Definition</b> LaplacianDeformation.cpp:4</div></div>
+<div class="ttc" id="aMRParallelFor_8h_html"><div class="ttname"><a href="./Cpp/MRParallelFor_8h.html">MRParallelFor.h</a></div></div>
+<div class="ttc" id="aMRWeightedPointsShell_8h_html"><div class="ttname"><a href="./Cpp/MRWeightedPointsShell_8h.html">MRWeightedPointsShell.h</a></div></div>
+<div class="ttc" id="agroup__BasicGroup_html_ga130a7b2de56f57ba4b13111c6e3a31ef"><div class="ttname"><a href="./Cpp/group__BasicGroup.html#ga130a7b2de56f57ba4b13111c6e3a31ef">MR::begin</a></div><div class="ttdeci">MR_BIND_IGNORE auto begin(const BitSet &amp;a)</div></div>
+<div class="ttc" id="agroup__BasicGroup_html_gab900ba901f90bfe11c4580814af4fbf6"><div class="ttname"><a href="./Cpp/group__BasicGroup.html#gab900ba901f90bfe11c4580814af4fbf6">MR::end</a></div><div class="ttdeci">MR_BIND_IGNORE auto end(const BitSet &amp;)</div></div>
+<div class="ttc" id="agroup__BasicGroup_html_gacebe01b37f86a061aec73665e5458155"><div class="ttname"><a href="./Cpp/group__BasicGroup.html#gacebe01b37f86a061aec73665e5458155">MR::ParallelFor</a></div><div class="ttdeci">auto ParallelFor(I begin, I end, F &amp;&amp;... f)</div></div>
+<div class="ttc" id="agroup__MeshSaveGroup_html_ga6f98b4f73676fa32a7e3573939cb76b9"><div class="ttname"><a href="./Cpp/group__MeshSaveGroup.html#ga6f98b4f73676fa32a7e3573939cb76b9">MR::MeshSave::toAnySupportedFormat</a></div><div class="ttdeci">MRMESH_API Expected&lt; void &gt; toAnySupportedFormat(const Mesh &amp;mesh, const std::filesystem::path &amp;file, const SaveSettings &amp;settings={})</div></div>
+<div class="ttc" id="anamespaceMR_1_1WeightedShell_html_a5f3f7e651a5e21cd4346de588b7641b1"><div class="ttname"><a href="./Cpp/namespaceMR_1_1WeightedShell.html#a5f3f7e651a5e21cd4346de588b7641b1">MR::WeightedShell::meshShell</a></div><div class="ttdeci">MR_BIND_IGNORE MRVOXELS_API Expected&lt; Mesh &gt; meshShell(const Mesh &amp;mesh, const ParametersMetric &amp;params)</div></div>
+<div class="ttc" id="anamespaceMR_html_a346ad7a38921d6822ceffafc1eba769d"><div class="ttname"><a href="./Cpp/namespaceMR.html#a346ad7a38921d6822ceffafc1eba769d">MR::suggestVoxelSize</a></div><div class="ttdeci">MRVOXELS_API float suggestVoxelSize(const MeshPart &amp;mp, float approxNumVoxels)</div></div>
+<div class="ttc" id="anamespaceMR_html_a9c4abf9ec20745c55a6825637894668c"><div class="ttname"><a href="./Cpp/namespaceMR.html#a9c4abf9ec20745c55a6825637894668c">MR::makeTorus</a></div><div class="ttdeci">MRMESH_API Mesh makeTorus(float primaryRadius=1.0f, float secondaryRadius=0.1f, int primaryResolution=16, int secondaryResolution=16, std::vector&lt; Vector3f &gt; *points=nullptr)</div></div>
+<div class="ttc" id="astructMR_1_1WeightedShell_1_1ParametersMetric_html"><div class="ttname"><a href="./Cpp/structMR_1_1WeightedShell_1_1ParametersMetric.html">MR::WeightedShell::ParametersMetric</a></div></div>
+</div><!-- fragment --></li>
 <li><b class="tab-title">Python</b> <div class="fragment"><div class="line"><span class="keyword">from</span> meshlib <span class="keyword">import</span> mrmeshpy</div>
 <div class="line"> </div>
 <div class="line"><span class="comment"># Create some mesh</span></div>
