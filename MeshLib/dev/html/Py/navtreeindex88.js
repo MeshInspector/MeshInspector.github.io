@@ -1,5 +1,7 @@
 var NAVTREEINDEX88 =
 {
+"classmrmeshpy_1_1TrimWithPlaneParams.html#aee2b8995a27b7bbe87aac866d7609631":[6,1,0,0,2,1046,4],
+"classmrmeshpy_1_1TrimWithPlaneParams.html#aee2b8995a27b7bbe87aac866d7609631":[6,1,1,0,1,1046,4],
 "classmrmeshpy_1_1TrimWithPlaneParams.html#af4df101f3d2c914c9bc3d0ec9d080672":[6,1,0,0,2,1046,8],
 "classmrmeshpy_1_1TrimWithPlaneParams.html#af4df101f3d2c914c9bc3d0ec9d080672":[6,1,1,0,1,1046,8],
 "classmrmeshpy_1_1TrivialMetricToPenalty.html":[6,1,0,0,2,1049],
@@ -247,7 +249,5 @@ var NAVTREEINDEX88 =
 "classmrmeshpy_1_1UndirectedEdgeBitSet.html#a014c16ba35665fec2b7f229eb5552f56":[6,1,0,0,2,1054,19],
 "classmrmeshpy_1_1UndirectedEdgeBitSet.html#a014c16ba35665fec2b7f229eb5552f56":[6,1,1,0,1,1054,19],
 "classmrmeshpy_1_1UndirectedEdgeBitSet.html#a05c7256465c9b710d85004528f3e1f5a":[6,1,0,0,2,1054,32],
-"classmrmeshpy_1_1UndirectedEdgeBitSet.html#a05c7256465c9b710d85004528f3e1f5a":[6,1,1,0,1,1054,32],
-"classmrmeshpy_1_1UndirectedEdgeBitSet.html#a152f2b14f4909f101b562a4933068280":[6,1,0,0,2,1054,0],
-"classmrmeshpy_1_1UndirectedEdgeBitSet.html#a152f2b14f4909f101b562a4933068280":[6,1,1,0,1,1054,0]
+"classmrmeshpy_1_1UndirectedEdgeBitSet.html#a05c7256465c9b710d85004528f3e1f5a":[6,1,1,0,1,1054,32]
 };

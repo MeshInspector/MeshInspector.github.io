@@ -1,5 +1,12 @@
 var NAVTREEINDEX29 =
 {
+"classMR_1_1ImGuiMenu.html#a09e144807f360fa5ae2c48aa130a940d":[6,0,1,0,1,312,146],
+"classMR_1_1ImGuiMenu.html#a09e144807f360fa5ae2c48aa130a940d":[6,0,2,0,1,293,146],
+"classMR_1_1ImGuiMenu.html#a0b9508550f2dc503c7e8bfe4d20c6756":[6,0,1,0,1,312,69],
+"classMR_1_1ImGuiMenu.html#a0b9508550f2dc503c7e8bfe4d20c6756":[6,0,2,0,1,293,69],
+"classMR_1_1ImGuiMenu.html#a0d3348b637e1e6672669ff2da445a8e8":[6,0,1,0,1,312,55],
+"classMR_1_1ImGuiMenu.html#a0d3348b637e1e6672669ff2da445a8e8":[6,0,2,0,1,293,55],
+"classMR_1_1ImGuiMenu.html#a0d7ed7302aaadf4457e4e0e381bfaedf":[6,0,1,0,1,312,20],
 "classMR_1_1ImGuiMenu.html#a0d7ed7302aaadf4457e4e0e381bfaedf":[6,0,2,0,1,293,20],
 "classMR_1_1ImGuiMenu.html#a0df92b241b5b7ddcc8f855ed329f2eeb":[6,0,1,0,1,312,46],
 "classMR_1_1ImGuiMenu.html#a0df92b241b5b7ddcc8f855ed329f2eeb":[6,0,2,0,1,293,46],
@@ -242,12 +249,5 @@ var NAVTREEINDEX29 =
 "classMR_1_1ImGuiMenu.html#acf12d9bbd08c5c2a1b528461e7294587a41f984bb082af806e510740db289125d":[6,0,1,0,1,312,7,1],
 "classMR_1_1ImGuiMenu.html#acf12d9bbd08c5c2a1b528461e7294587a41f984bb082af806e510740db289125d":[6,0,2,0,1,293,7,1],
 "classMR_1_1ImGuiMenu.html#acf12d9bbd08c5c2a1b528461e7294587ad95c24770daa211f223817331372d91c":[6,0,1,0,1,312,7,0],
-"classMR_1_1ImGuiMenu.html#acf12d9bbd08c5c2a1b528461e7294587ad95c24770daa211f223817331372d91c":[6,0,2,0,1,293,7,0],
-"classMR_1_1ImGuiMenu.html#acf26f479a1c27455aadd05900f3832bd":[6,0,1,0,1,312,62],
-"classMR_1_1ImGuiMenu.html#acf26f479a1c27455aadd05900f3832bd":[6,0,2,0,1,293,62],
-"classMR_1_1ImGuiMenu.html#ad09d9b751f97c0d1e2ba46c849392a7c":[6,0,1,0,1,312,121],
-"classMR_1_1ImGuiMenu.html#ad09d9b751f97c0d1e2ba46c849392a7c":[6,0,2,0,1,293,121],
-"classMR_1_1ImGuiMenu.html#ad16e3a9ef41b44123e96565a98582cda":[6,0,1,0,1,312,96],
-"classMR_1_1ImGuiMenu.html#ad16e3a9ef41b44123e96565a98582cda":[6,0,2,0,1,293,96],
-"classMR_1_1ImGuiMenu.html#ad3c1c5744647a6fd39a4296770a420f6":[6,0,1,0,1,312,14]
+"classMR_1_1ImGuiMenu.html#acf12d9bbd08c5c2a1b528461e7294587ad95c24770daa211f223817331372d91c":[6,0,2,0,1,293,7,0]
 };

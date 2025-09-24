@@ -84,10 +84,8 @@ var hierarchy =
         [ "MR::RenderAngleObject", "classMR_1_1RenderAngleObject.html", null ],
         [ "MR::RenderDistanceObject", "classMR_1_1RenderDistanceObject.html", null ],
         [ "MR::RenderImGuiLabelObject", "classMR_1_1RenderImGuiLabelObject.html", null ],
+        [ "MR::RenderPointObject", "classMR_1_1RenderPointObject.html", null ],
         [ "MR::RenderRadiusObject", "classMR_1_1RenderRadiusObject.html", null ]
-      ] ],
-      [ "MR::RenderObjectCombinator< RenderNameObject >", "classMR_1_1RenderObjectCombinator.html", [
-        [ "MR::RenderPointMeasurementObject", "classMR_1_1RenderPointMeasurementObject.html", null ]
       ] ],
       [ "MR::RenderObjectCombinator< Bases >", "classMR_1_1RenderObjectCombinator.html", null ]
     ] ],
@@ -109,6 +107,7 @@ var hierarchy =
       [ "MR::BasicClickableRectUiRenderTask", "classMR_1_1BasicClickableRectUiRenderTask.html", [
         [ "MR::RenderDimensions::AngleTask", "classMR_1_1RenderDimensions_1_1AngleTask.html", null ],
         [ "MR::RenderDimensions::LengthTask", "classMR_1_1RenderDimensions_1_1LengthTask.html", null ],
+        [ "MR::RenderDimensions::PointTask", "classMR_1_1RenderDimensions_1_1PointTask.html", null ],
         [ "MR::RenderDimensions::RadiusTask", "classMR_1_1RenderDimensions_1_1RadiusTask.html", null ]
       ] ],
       [ "MR::UI::NonOverlappingLabelTask", "classMR_1_1UI_1_1NonOverlappingLabelTask.html", null ]
@@ -740,10 +739,12 @@ var hierarchy =
     [ "MR::LaunchParams", "structMR_1_1LaunchParams.html", null ],
     [ "MR::RenderDimensions::LengthParams", "structMR_1_1RenderDimensions_1_1LengthParams.html", null ],
     [ "MR::ImGuiMeasurementIndicators::Text::Line", "structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Line.html", null ],
+    [ "MR::ImGuiMeasurementIndicators::TextParams::Line", "structMR_1_1ImGuiMeasurementIndicators_1_1TextParams_1_1Line.html", null ],
     [ "MR::Line< V >", "structMR_1_1Line.html", null ],
     [ "MR::Line3Mesh< T >", "structMR_1_1Line3Mesh.html", null ],
     [ "MR::Line< T >", "structMR_1_1Line.html", null ],
     [ "MR::UI::LineAntialiasingDisabler", "classMR_1_1UI_1_1LineAntialiasingDisabler.html", null ],
+    [ "MR::ImGuiMeasurementIndicators::LineBodyParams", "structMR_1_1ImGuiMeasurementIndicators_1_1LineBodyParams.html", null ],
     [ "MR::ImGuiMeasurementIndicators::LineCap", "structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html", null ],
     [ "MR::LineInterpolationParams", "structMR_1_1LineInterpolationParams.html", null ],
     [ "MR::ImGuiMeasurementIndicators::LineParams", "structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html", null ],
@@ -1048,6 +1049,7 @@ var hierarchy =
     [ "MR::PointInAllSpaces", "structMR_1_1PointInAllSpaces.html", null ],
     [ "MR::PointOnFace", "structMR_1_1PointOnFace.html", null ],
     [ "MR::PointOnObject", "structMR_1_1PointOnObject.html", null ],
+    [ "MR::RenderDimensions::PointParams", "structMR_1_1RenderDimensions_1_1PointParams.html", null ],
     [ "MR::PointsLoad::PointsLoader", "structMR_1_1PointsLoad_1_1PointsLoader.html", null ],
     [ "MR::PointsLoadSettings", "structMR_1_1PointsLoadSettings.html", null ],
     [ "MR::PointsProjectionResult", "structMR_1_1PointsProjectionResult.html", null ],
@@ -1292,7 +1294,7 @@ var hierarchy =
     [ "MR::Tgt2SrcMaps", "classMR_1_1Tgt2SrcMaps.html", null ],
     [ "MR::ThickenParams", "structMR_1_1ThickenParams.html", null ],
     [ "MR::Timer", "classMR_1_1Timer.html", null ],
-    [ "MR::RenderDimensions::LengthParams::Tolerance", "structMR_1_1RenderDimensions_1_1LengthParams_1_1Tolerance.html", null ],
+    [ "MR::RenderDimensions::Tolerance", "structMR_1_1RenderDimensions_1_1Tolerance.html", null ],
     [ "MR::Toolbar", "classMR_1_1Toolbar.html", null ],
     [ "MR::ToolPathParams", "structMR_1_1ToolPathParams.html", [
       [ "MR::ConstantCuspParams", "structMR_1_1ConstantCuspParams.html", null ]

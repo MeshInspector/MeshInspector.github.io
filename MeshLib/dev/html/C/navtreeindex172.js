@@ -1,5 +1,6 @@
 var NAVTREEINDEX172 =
 {
+"std__vector__std__vector__MR__VertId_8h_source.html":[6,2,1,0,0,0,2,421],
 "std__vector__uint16__t_8h.html":[6,2,1,0,0,0,2,422],
 "std__vector__uint16__t_8h.html#a0174a67b1fd12eae205693326e14eee7":[6,2,1,0,0,0,2,422,44],
 "std__vector__uint16__t_8h.html#a04e8210209a7b7183430bf3ccb77e03a":[6,2,1,0,0,0,2,422,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX172 =
 "structMR__Box1f.html#aff65c0b19d2d1335795c89e322e56d88":[6,2,0,0,5,0],
 "structMR__Box1i.html":[6,2,0,0,6],
 "structMR__Box1i.html#a51023cc7982fbf6538d2a92c2e6b75d1":[6,2,0,0,6,0],
-"structMR__Box1i.html#a6bb03f51860340f9d68bb111cdf997d4":[6,2,0,0,6,1],
-"structMR__Box1i64.html":[6,2,0,0,7]
+"structMR__Box1i.html#a6bb03f51860340f9d68bb111cdf997d4":[6,2,0,0,6,1]
 };

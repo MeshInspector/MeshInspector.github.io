@@ -161,6 +161,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1DistanceResult.html">DistanceResult</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1LineBodyParams.html">LineBodyParams</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html">LineCap</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html">LineParams</a></td></tr>
@@ -194,8 +196,19 @@ Enumerations</h2></td></tr>
 <tr class="memitem:ada21c38059140ab54d2c729c198e39f4" id="r_ada21c38059140ab54d2c729c198e39f4"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada21c38059140ab54d2c729c198e39f4">TextIcon</a> { <a class="el" href="#ada21c38059140ab54d2c729c198e39f4a35f16dc084a53860f5cb3962107d5378">diameter</a>
  }</td></tr>
 <tr class="separator:ada21c38059140ab54d2c729c198e39f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57d1104a2e78b1f148bbd864c7d7cd6a" id="r_a57d1104a2e78b1f148bbd864c7d7cd6a"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a57d1104a2e78b1f148bbd864c7d7cd6a">LineCapDecoration</a> { <br />
+&#160;&#160;<a class="el" href="#a57d1104a2e78b1f148bbd864c7d7cd6aa334c4a4c42fdb79d7ebc3e73b517e6f8">none</a>
+, <a class="el" href="#a57d1104a2e78b1f148bbd864c7d7cd6aae3ce6f35dccfb7791bc311b81504efe9">noOutline</a>
+, <a class="el" href="#a57d1104a2e78b1f148bbd864c7d7cd6aae0a91e6db6ff1103171559559f2d9698">extend</a>
+, <a class="el" href="#a57d1104a2e78b1f148bbd864c7d7cd6aa9022a153e6190f10d9b57aa4232b8aea">arrow</a>
+, <br />
+&#160;&#160;<a class="el" href="#a57d1104a2e78b1f148bbd864c7d7cd6aa78ee54aa8f813885fe2fe20d232518b9">point</a>
+<br />
+ }</td></tr>
+<tr class="separator:a57d1104a2e78b1f148bbd864c7d7cd6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf160e58360dc1e2c715f0b72dba162d" id="r_aaf160e58360dc1e2c715f0b72dba162d"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf160e58360dc1e2c715f0b72dba162d">LineFlags</a> { <a class="el" href="#aaf160e58360dc1e2c715f0b72dba162da06a224da9e61bee19ec9eef88b95f934">narrow</a> = 1 &lt;&lt; 0
 , <a class="el" href="#aaf160e58360dc1e2c715f0b72dba162da5c4562eb35560ecfac0098dbf8cb3a74">noBackwardArrowTipOffset</a> = 1 &lt;&lt; 1
+, <a class="el" href="#aaf160e58360dc1e2c715f0b72dba162da5927c315d864270693959758800d99d7">onlyOutline</a> = 1 &lt;&lt; 2
  }</td></tr>
 <tr class="separator:aaf160e58360dc1e2c715f0b72dba162d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -243,6 +256,35 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a57d1104a2e78b1f148bbd864c7d7cd6a" name="a57d1104a2e78b1f148bbd864c7d7cd6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57d1104a2e78b1f148bbd864c7d7cd6a">&#9670;&#160;</a></span>LineCapDecoration</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="#a57d1104a2e78b1f148bbd864c7d7cd6a">MR::ImGuiMeasurementIndicators::LineCapDecoration</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a57d1104a2e78b1f148bbd864c7d7cd6aa334c4a4c42fdb79d7ebc3e73b517e6f8" name="a57d1104a2e78b1f148bbd864c7d7cd6aa334c4a4c42fdb79d7ebc3e73b517e6f8"></a>none&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a57d1104a2e78b1f148bbd864c7d7cd6aae3ce6f35dccfb7791bc311b81504efe9" name="a57d1104a2e78b1f148bbd864c7d7cd6aae3ce6f35dccfb7791bc311b81504efe9"></a>noOutline&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a57d1104a2e78b1f148bbd864c7d7cd6aae0a91e6db6ff1103171559559f2d9698" name="a57d1104a2e78b1f148bbd864c7d7cd6aae0a91e6db6ff1103171559559f2d9698"></a>extend&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a57d1104a2e78b1f148bbd864c7d7cd6aa9022a153e6190f10d9b57aa4232b8aea" name="a57d1104a2e78b1f148bbd864c7d7cd6aa9022a153e6190f10d9b57aa4232b8aea"></a>arrow&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a57d1104a2e78b1f148bbd864c7d7cd6aa78ee54aa8f813885fe2fe20d232518b9" name="a57d1104a2e78b1f148bbd864c7d7cd6aa78ee54aa8f813885fe2fe20d232518b9"></a>point&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <a id="aaf160e58360dc1e2c715f0b72dba162d" name="aaf160e58360dc1e2c715f0b72dba162d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aaf160e58360dc1e2c715f0b72dba162d">&#9670;&#160;</a></span>LineFlags</h2>
 
@@ -265,6 +307,7 @@ Functions</h2></td></tr>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aaf160e58360dc1e2c715f0b72dba162da06a224da9e61bee19ec9eef88b95f934" name="aaf160e58360dc1e2c715f0b72dba162da06a224da9e61bee19ec9eef88b95f934"></a>narrow&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aaf160e58360dc1e2c715f0b72dba162da5c4562eb35560ecfac0098dbf8cb3a74" name="aaf160e58360dc1e2c715f0b72dba162da5c4562eb35560ecfac0098dbf8cb3a74"></a>noBackwardArrowTipOffset&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aaf160e58360dc1e2c715f0b72dba162da5927c315d864270693959758800d99d7" name="aaf160e58360dc1e2c715f0b72dba162da5927c315d864270693959758800d99d7"></a>onlyOutline&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>

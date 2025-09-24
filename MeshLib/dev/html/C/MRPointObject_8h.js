@@ -31,7 +31,7 @@ var MRPointObject_8h =
     [ "MR_PointObject_OffsetMutablePtr", "MRPointObject_8h.html#a61b771fa8f456bd044ad405021488ed5", null ],
     [ "MR_PointObject_OffsetPtr", "MRPointObject_8h.html#a5449e88f3e3ec6b13a08ab24ce1439d0", null ],
     [ "MR_PointObject_projectPoint", "MRPointObject_8h.html#abbaa6965495333def6087cbd322eae1c", null ],
-    [ "MR_PointObject_setPoint", "MRPointObject_8h.html#a3136cd81979b0b9b47a64254decafc9b", null ],
+    [ "MR_PointObject_setLocalPoint", "MRPointObject_8h.html#a61da9ab10e62bb75d7f1a2c332b11a71", null ],
     [ "MR_PointObject_shallowClone", "MRPointObject_8h.html#a0d7c496d611c2342d644ca7b02a41de6", null ],
     [ "MR_PointObject_TypeName", "MRPointObject_8h.html#afbcae48d7f662887e00fa2ba870a6d0e", null ],
     [ "MR_PointObject_typeName", "MRPointObject_8h.html#af5941cc70dec7251a15697a3d7effd75", null ],

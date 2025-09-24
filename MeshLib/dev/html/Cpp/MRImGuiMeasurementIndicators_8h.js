@@ -9,7 +9,9 @@ var MRImGuiMeasurementIndicators_8h =
     [ "MR::ImGuiMeasurementIndicators::Text::Elem", "structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem.html", "structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem" ],
     [ "MR::ImGuiMeasurementIndicators::Text::Line", "structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Line.html", "structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Line" ],
     [ "MR::ImGuiMeasurementIndicators::Text::DrawResult", "structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1DrawResult.html", "structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1DrawResult" ],
+    [ "MR::ImGuiMeasurementIndicators::LineBodyParams", "structMR_1_1ImGuiMeasurementIndicators_1_1LineBodyParams.html", "structMR_1_1ImGuiMeasurementIndicators_1_1LineBodyParams" ],
     [ "MR::ImGuiMeasurementIndicators::TextParams", "structMR_1_1ImGuiMeasurementIndicators_1_1TextParams.html", "structMR_1_1ImGuiMeasurementIndicators_1_1TextParams" ],
+    [ "MR::ImGuiMeasurementIndicators::TextParams::Line", "structMR_1_1ImGuiMeasurementIndicators_1_1TextParams_1_1Line.html", "structMR_1_1ImGuiMeasurementIndicators_1_1TextParams_1_1Line" ],
     [ "MR::ImGuiMeasurementIndicators::TextResult", "structMR_1_1ImGuiMeasurementIndicators_1_1TextResult.html", "structMR_1_1ImGuiMeasurementIndicators_1_1TextResult" ],
     [ "MR::ImGuiMeasurementIndicators::LineCap", "structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html", "structMR_1_1ImGuiMeasurementIndicators_1_1LineCap" ],
     [ "MR::ImGuiMeasurementIndicators::LineParams", "structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html", "structMR_1_1ImGuiMeasurementIndicators_1_1LineParams" ],
@@ -23,9 +25,17 @@ var MRImGuiMeasurementIndicators_8h =
       [ "outline", "MRImGuiMeasurementIndicators_8h.html#ab3d1526afb0782fa9501df90cb1b2898a1a18f19535b3b1edd5de7f535141f476", null ],
       [ "both", "MRImGuiMeasurementIndicators_8h.html#ab3d1526afb0782fa9501df90cb1b2898af6cb3e816496528d4187db53bc66567f", null ]
     ] ],
+    [ "LineCapDecoration", "MRImGuiMeasurementIndicators_8h.html#a57d1104a2e78b1f148bbd864c7d7cd6a", [
+      [ "none", "MRImGuiMeasurementIndicators_8h.html#a57d1104a2e78b1f148bbd864c7d7cd6aa334c4a4c42fdb79d7ebc3e73b517e6f8", null ],
+      [ "noOutline", "MRImGuiMeasurementIndicators_8h.html#a57d1104a2e78b1f148bbd864c7d7cd6aae3ce6f35dccfb7791bc311b81504efe9", null ],
+      [ "extend", "MRImGuiMeasurementIndicators_8h.html#a57d1104a2e78b1f148bbd864c7d7cd6aae0a91e6db6ff1103171559559f2d9698", null ],
+      [ "arrow", "MRImGuiMeasurementIndicators_8h.html#a57d1104a2e78b1f148bbd864c7d7cd6aa9022a153e6190f10d9b57aa4232b8aea", null ],
+      [ "point", "MRImGuiMeasurementIndicators_8h.html#a57d1104a2e78b1f148bbd864c7d7cd6aa78ee54aa8f813885fe2fe20d232518b9", null ]
+    ] ],
     [ "LineFlags", "MRImGuiMeasurementIndicators_8h.html#aaf160e58360dc1e2c715f0b72dba162d", [
       [ "narrow", "MRImGuiMeasurementIndicators_8h.html#aaf160e58360dc1e2c715f0b72dba162da06a224da9e61bee19ec9eef88b95f934", null ],
-      [ "noBackwardArrowTipOffset", "MRImGuiMeasurementIndicators_8h.html#aaf160e58360dc1e2c715f0b72dba162da5c4562eb35560ecfac0098dbf8cb3a74", null ]
+      [ "noBackwardArrowTipOffset", "MRImGuiMeasurementIndicators_8h.html#aaf160e58360dc1e2c715f0b72dba162da5c4562eb35560ecfac0098dbf8cb3a74", null ],
+      [ "onlyOutline", "MRImGuiMeasurementIndicators_8h.html#aaf160e58360dc1e2c715f0b72dba162da5927c315d864270693959758800d99d7", null ]
     ] ],
     [ "TextIcon", "MRImGuiMeasurementIndicators_8h.html#ada21c38059140ab54d2c729c198e39f4", [
       [ "diameter", "MRImGuiMeasurementIndicators_8h.html#ada21c38059140ab54d2c729c198e39f4a35f16dc084a53860f5cb3962107d5378", null ]

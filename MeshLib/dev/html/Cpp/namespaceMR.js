@@ -729,7 +729,7 @@ var namespaceMR =
     [ "RenderNameObject", "classMR_1_1RenderNameObject.html", "classMR_1_1RenderNameObject" ],
     [ "RenderObjectBuffer", "classMR_1_1RenderObjectBuffer.html", "classMR_1_1RenderObjectBuffer" ],
     [ "RenderObjectCombinator", "classMR_1_1RenderObjectCombinator.html", "classMR_1_1RenderObjectCombinator" ],
-    [ "RenderPointMeasurementObject", "classMR_1_1RenderPointMeasurementObject.html", "classMR_1_1RenderPointMeasurementObject" ],
+    [ "RenderPointObject", "classMR_1_1RenderPointObject.html", "classMR_1_1RenderPointObject" ],
     [ "RenderPointsObject", "classMR_1_1RenderPointsObject.html", "classMR_1_1RenderPointsObject" ],
     [ "RenderRadiusObject", "classMR_1_1RenderRadiusObject.html", "classMR_1_1RenderRadiusObject" ],
     [ "RenderResetDirtyComponent", "classMR_1_1RenderResetDirtyComponent.html", "classMR_1_1RenderResetDirtyComponent" ],

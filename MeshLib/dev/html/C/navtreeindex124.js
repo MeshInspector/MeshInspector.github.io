@@ -1,5 +1,6 @@
 var NAVTREEINDEX124 =
 {
+"std__optional__MR__Box1f_8h.html#af619bb63e7b03b24687386c9f96a47cf":[6,2,1,0,0,0,2,185,6],
 "std__optional__MR__Box1f_8h.html#af61db614d091a7095a4e536afbfd0075":[6,2,1,0,0,0,2,185,11],
 "std__optional__MR__Box1f_8h_source.html":[6,2,1,0,0,0,2,185],
 "std__optional__MR__Box3f_8h.html":[6,2,1,0,0,0,2,186],
@@ -248,6 +249,5 @@ var NAVTREEINDEX124 =
 "std__optional__MR__SignedDistanceToMeshResult_8h.html#ab8f68329316590423dea22273d4992a3":[6,2,1,0,0,0,2,201,5],
 "std__optional__MR__SignedDistanceToMeshResult_8h.html#aca4af3b3bc6caa254922196b6480ce19":[6,2,1,0,0,0,2,201,11],
 "std__optional__MR__SignedDistanceToMeshResult_8h.html#ae2ac01170927ef8235d27a2b3a607094":[6,2,1,0,0,0,2,201,8],
-"std__optional__MR__SignedDistanceToMeshResult_8h_source.html":[6,2,1,0,0,0,2,201],
-"std__optional__MR__TriIntersectResult_8h.html":[6,2,1,0,0,0,2,203]
+"std__optional__MR__SignedDistanceToMeshResult_8h_source.html":[6,2,1,0,0,0,2,201]
 };

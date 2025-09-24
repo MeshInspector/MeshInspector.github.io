@@ -1,5 +1,6 @@
 var NAVTREEINDEX125 =
 {
+"std__optional__MR__TriIntersectResult_8h.html":[6,2,1,0,0,0,2,203],
 "std__optional__MR__TriIntersectResult_8h.html#a3155a1e631288d05270693a674f62207":[6,2,1,0,0,0,2,203,1],
 "std__optional__MR__TriIntersectResult_8h.html#a362417a55fc0c30489df68e8a7d82774":[6,2,1,0,0,0,2,203,5],
 "std__optional__MR__TriIntersectResult_8h.html#a3eebdbca3a1c6ba73a551bdada7f4727":[6,2,1,0,0,0,2,203,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX125 =
 "std__pair__MR__DistanceMap__MR__DistanceMap_8h.html#ada8d0210adcd4557f7269c38dec32609":[6,2,1,0,0,0,2,220,4],
 "std__pair__MR__DistanceMap__MR__DistanceMap_8h.html#adffed00b4be56f6854160189c5af80d5":[6,2,1,0,0,0,2,220,14],
 "std__pair__MR__DistanceMap__MR__DistanceMap_8h.html#ae5823a6c963838d7b66689a7f0c4ebec":[6,2,1,0,0,0,2,220,2],
-"std__pair__MR__DistanceMap__MR__DistanceMap_8h_source.html":[6,2,1,0,0,0,2,220],
-"std__pair__MR__EdgeId__MR__EdgeId_8h.html":[6,2,1,0,0,0,2,221]
+"std__pair__MR__DistanceMap__MR__DistanceMap_8h_source.html":[6,2,1,0,0,0,2,220]
 };

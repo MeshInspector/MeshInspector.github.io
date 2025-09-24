@@ -15,7 +15,7 @@ var classMR_1_1PointObject =
     [ "projectPoint", "classMR_1_1PointObject.html#a06050ab20411667b9ec0718bd29b8047", null ],
     [ "serializeFields_", "classMR_1_1PointObject.html#aeb16ff07a3bf800cb981d3d78a999a0d", null ],
     [ "serializeModel_", "classMR_1_1PointObject.html#aed6f47b23720a4f19897185093cd86d4", null ],
-    [ "setPoint", "classMR_1_1PointObject.html#aeee86049f51bee69c243963b0b63f7c4", null ],
+    [ "setLocalPoint", "classMR_1_1PointObject.html#affd9c16e1c5b1cace73f7f171ef12651", null ],
     [ "setupRenderObject_", "classMR_1_1PointObject.html#ab2817019fd4767a9959a629537d5eb3c", null ],
     [ "shallowClone", "classMR_1_1PointObject.html#a2073cb832f307501a3efea77d5f2f461", null ],
     [ "swapBase_", "classMR_1_1PointObject.html#afdd7f6159c74701c90843b6632e7e75f", null ],

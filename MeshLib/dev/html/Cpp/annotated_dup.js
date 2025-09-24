@@ -81,6 +81,7 @@ var annotated_dup =
         [ "CurveParams", "structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams.html", "structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams" ],
         [ "DistanceParams", "structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams.html", "structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams" ],
         [ "DistanceResult", "structMR_1_1ImGuiMeasurementIndicators_1_1DistanceResult.html", "structMR_1_1ImGuiMeasurementIndicators_1_1DistanceResult" ],
+        [ "LineBodyParams", "structMR_1_1ImGuiMeasurementIndicators_1_1LineBodyParams.html", "structMR_1_1ImGuiMeasurementIndicators_1_1LineBodyParams" ],
         [ "LineCap", "structMR_1_1ImGuiMeasurementIndicators_1_1LineCap.html", "structMR_1_1ImGuiMeasurementIndicators_1_1LineCap" ],
         [ "LineParams", "structMR_1_1ImGuiMeasurementIndicators_1_1LineParams.html", "structMR_1_1ImGuiMeasurementIndicators_1_1LineParams" ],
         [ "LineResult", "structMR_1_1ImGuiMeasurementIndicators_1_1LineResult.html", "structMR_1_1ImGuiMeasurementIndicators_1_1LineResult" ],
@@ -154,8 +155,11 @@ var annotated_dup =
         [ "CommonParams", "structMR_1_1RenderDimensions_1_1CommonParams.html", "structMR_1_1RenderDimensions_1_1CommonParams" ],
         [ "LengthParams", "structMR_1_1RenderDimensions_1_1LengthParams.html", "structMR_1_1RenderDimensions_1_1LengthParams" ],
         [ "LengthTask", "classMR_1_1RenderDimensions_1_1LengthTask.html", "classMR_1_1RenderDimensions_1_1LengthTask" ],
+        [ "PointParams", "structMR_1_1RenderDimensions_1_1PointParams.html", "structMR_1_1RenderDimensions_1_1PointParams" ],
+        [ "PointTask", "classMR_1_1RenderDimensions_1_1PointTask.html", "classMR_1_1RenderDimensions_1_1PointTask" ],
         [ "RadiusParams", "structMR_1_1RenderDimensions_1_1RadiusParams.html", "structMR_1_1RenderDimensions_1_1RadiusParams" ],
-        [ "RadiusTask", "classMR_1_1RenderDimensions_1_1RadiusTask.html", "classMR_1_1RenderDimensions_1_1RadiusTask" ]
+        [ "RadiusTask", "classMR_1_1RenderDimensions_1_1RadiusTask.html", "classMR_1_1RenderDimensions_1_1RadiusTask" ],
+        [ "Tolerance", "structMR_1_1RenderDimensions_1_1Tolerance.html", "structMR_1_1RenderDimensions_1_1Tolerance" ]
       ] ],
       [ "RenderFeatures", "namespaceMR_1_1RenderFeatures.html", [
         [ "detail", "namespaceMR_1_1RenderFeatures_1_1detail.html", [
@@ -797,7 +801,7 @@ var annotated_dup =
       [ "RenderNameObject", "classMR_1_1RenderNameObject.html", "classMR_1_1RenderNameObject" ],
       [ "RenderObjectBuffer", "classMR_1_1RenderObjectBuffer.html", "classMR_1_1RenderObjectBuffer" ],
       [ "RenderObjectCombinator", "classMR_1_1RenderObjectCombinator.html", "classMR_1_1RenderObjectCombinator" ],
-      [ "RenderPointMeasurementObject", "classMR_1_1RenderPointMeasurementObject.html", "classMR_1_1RenderPointMeasurementObject" ],
+      [ "RenderPointObject", "classMR_1_1RenderPointObject.html", "classMR_1_1RenderPointObject" ],
       [ "RenderPointsObject", "classMR_1_1RenderPointsObject.html", "classMR_1_1RenderPointsObject" ],
       [ "RenderRadiusObject", "classMR_1_1RenderRadiusObject.html", "classMR_1_1RenderRadiusObject" ],
       [ "RenderResetDirtyComponent", "classMR_1_1RenderResetDirtyComponent.html", "classMR_1_1RenderResetDirtyComponent" ],

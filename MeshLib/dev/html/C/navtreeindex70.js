@@ -1,5 +1,6 @@
 var NAVTREEINDEX70 =
 {
+"MRPointsInBall_8h.html#aaa96ed5b79deaa81e7e5e848584a7b6a":[6,2,1,0,0,0,1,254,0],
 "MRPointsInBall_8h.html#aad17d0a4282ef4a0f42fa6c1827a44dc":[6,2,1,0,0,0,1,254,6],
 "MRPointsInBall_8h.html#abcc37ba85e761dfb3c7641155f0ae7ab":[6,2,1,0,0,0,1,254,5],
 "MRPointsInBall_8h_source.html":[6,2,1,0,0,0,1,254],
@@ -248,6 +249,5 @@ var NAVTREEINDEX70 =
 "MRPointsToMeshProjector_8h.html#a21fd4848f3fbf486241426dc944c862e":[6,2,1,0,0,0,1,260,30],
 "MRPointsToMeshProjector_8h.html#a249fd9254c0c3395567807936ad32641":[6,2,1,0,0,0,1,260,8],
 "MRPointsToMeshProjector_8h.html#a2655161ae6961ded56211981a17303d3":[6,2,1,0,0,0,1,260,20],
-"MRPointsToMeshProjector_8h.html#a2a5088044848ec455716db598f152e25":[6,2,1,0,0,0,1,260,12],
-"MRPointsToMeshProjector_8h.html#a2a6e12152251d7ac791b878c7686c386":[6,2,1,0,0,0,1,260,19]
+"MRPointsToMeshProjector_8h.html#a2a5088044848ec455716db598f152e25":[6,2,1,0,0,0,1,260,12]
 };
