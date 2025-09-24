@@ -234,8 +234,7 @@ var hierarchy =
         [ "MR::DemoPlugin", "classMR_1_1DemoPlugin.html", null ]
       ] ],
       [ "MR::MultiListener< MouseDownListener, MouseMoveListener, MouseUpListener >", "structMR_1_1MultiListener.html", [
-        [ "MR::DirectionWidget", "classMR_1_1DirectionWidget.html", null ],
-        [ "MR::PlaneWidget", "classMR_1_1PlaneWidget.html", null ]
+        [ "MR::DirectionWidget", "classMR_1_1DirectionWidget.html", null ]
       ] ],
       [ "MR::MultiListener< MouseDownListener, MouseMoveListener, MouseUpListener, MouseScrollListener, CursorEntranceListener, CharPressedListener, KeyDownListener, KeyUpListener, KeyRepeatListener, SpaceMouseMoveListener, SpaceMouseDownListener, TouchpadRotateGestureBeginListener, TouchpadRotateGestureUpdateListener, TouchpadRotateGestureEndListener, TouchpadSwipeGestureBeginListener, TouchpadSwipeGestureUpdateListener, TouchpadSwipeGestureEndListener, TouchpadZoomGestureBeginListener, TouchpadZoomGestureUpdateListener, TouchpadZoomGestureEndListener, PostResizeListener, PostRescaleListener >", "structMR_1_1MultiListener.html", [
         [ "MR::ImGuiMenu", "classMR_1_1ImGuiMenu.html", [
@@ -264,6 +263,9 @@ var hierarchy =
       ] ],
       [ "MR::MultiListener< DragEntranceListener, DragOverListener, DragDropListener, PreDrawListener >", "structMR_1_1MultiListener.html", [
         [ "MR::OpenFilesMenuItem", "classMR_1_1OpenFilesMenuItem.html", null ]
+      ] ],
+      [ "MR::MultiListener< DragStartListener, DragListener, DragEndListener >", "structMR_1_1MultiListener.html", [
+        [ "MR::PlaneWidget", "classMR_1_1PlaneWidget.html", null ]
       ] ],
       [ "MR::MultiListener< PreDrawListener >", "structMR_1_1MultiListener.html", [
         [ "MR::ResetSceneMenuItem", "classMR_1_1ResetSceneMenuItem.html", null ]
