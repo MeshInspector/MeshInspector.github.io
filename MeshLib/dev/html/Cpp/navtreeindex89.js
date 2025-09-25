@@ -1,5 +1,6 @@
 var NAVTREEINDEX89 =
 {
+"structMR_1_1QuadraticForm.html#a040faabf3a0fafc7f0a8afadd3108d2a":[6,0,0,0,20,1],
 "structMR_1_1QuadraticForm.html#a0b59f3e15f491ff0d64f1121a8b0a463":[6,0,0,0,20,11],
 "structMR_1_1QuadraticForm.html#a4612e1bf2a83cf9f8c04bcffd05b8be0":[6,0,0,0,20,4],
 "structMR_1_1QuadraticForm.html#a613642585592285c402e51d9af48651a":[6,0,0,0,20,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX89 =
 "structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html#a4a178e6ea3323a12fdb7394b7f89cd71":[6,0,2,0,1,595,0,1],
 "structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html#a9048532b67f8ae6a79ec42cf2a196ddf":[6,0,1,0,1,614,0,0],
 "structMR_1_1RibbonButtonDrawer_1_1ButtonItemWidth.html#a9048532b67f8ae6a79ec42cf2a196ddf":[6,0,2,0,1,595,0,0],
-"structMR_1_1RibbonConfig.html":[6,0,1,0,1,615],
-"structMR_1_1RibbonConfig.html":[6,0,2,0,1,596]
+"structMR_1_1RibbonConfig.html":[6,0,1,0,1,615]
 };

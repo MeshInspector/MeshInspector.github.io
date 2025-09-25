@@ -1,5 +1,6 @@
 var NAVTREEINDEX87 =
 {
+"structMR_1_1PlanarTriangulation_1_1OutlineParameters.html#ad009c4928ad149dd5ce93232c4d495f2":[6,0,2,0,1,16,3,1],
 "structMR_1_1Plane3.html":[6,0,0,0,18],
 "structMR_1_1Plane3.html#a29f7ab9c3671dc6904b3a79d854445ad":[6,0,0,0,18,0],
 "structMR_1_1Plane3.html#a383135f606af5200e0386204ae1eecf3":[6,0,0,0,18,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX87 =
 "structMR_1_1Polyline.html#a9142ac9cb66c174e62a22937ddb32c24":[6,0,0,14,0,1],
 "structMR_1_1Polyline.html#a91470a70289b04baf4e278a4b7c4702b":[6,0,0,14,0,13],
 "structMR_1_1Polyline.html#a92d855c680b2d29a825203463bd926fe":[6,0,0,14,0,40],
-"structMR_1_1Polyline.html#a97fea45a4170313a719a900d98a1ee7d":[6,0,0,14,0,8],
-"structMR_1_1Polyline.html#aa95a33cc56a264a94edd7ef4c0f833bf":[6,0,0,14,0,3]
+"structMR_1_1Polyline.html#a97fea45a4170313a719a900d98a1ee7d":[6,0,0,14,0,8]
 };

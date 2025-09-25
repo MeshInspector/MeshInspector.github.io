@@ -1,5 +1,6 @@
 var NAVTREEINDEX86 =
 {
+"structMR_1_1Parabola.html#a0cdfe97a6580c1aaa9b873a6320f0793":[6,0,2,0,1,482,0],
 "structMR_1_1Parabola.html#a3244e04984e6a61cd9243af2af6e178d":[6,0,1,0,1,501,4],
 "structMR_1_1Parabola.html#a3244e04984e6a61cd9243af2af6e178d":[6,0,2,0,1,482,4],
 "structMR_1_1Parabola.html#a34d2109107ef4c428253a8755305114b":[6,0,1,0,1,501,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX86 =
 "structMR_1_1PlanarTriangulation_1_1OutlineParameters.html":[6,0,2,0,1,16,3],
 "structMR_1_1PlanarTriangulation_1_1OutlineParameters.html#a528577df88b99d1a7703da3953605d11":[6,0,1,0,1,27,3,0],
 "structMR_1_1PlanarTriangulation_1_1OutlineParameters.html#a528577df88b99d1a7703da3953605d11":[6,0,2,0,1,16,3,0],
-"structMR_1_1PlanarTriangulation_1_1OutlineParameters.html#ad009c4928ad149dd5ce93232c4d495f2":[6,0,1,0,1,27,3,1],
-"structMR_1_1PlanarTriangulation_1_1OutlineParameters.html#ad009c4928ad149dd5ce93232c4d495f2":[6,0,2,0,1,16,3,1]
+"structMR_1_1PlanarTriangulation_1_1OutlineParameters.html#ad009c4928ad149dd5ce93232c4d495f2":[6,0,1,0,1,27,3,1]
 };

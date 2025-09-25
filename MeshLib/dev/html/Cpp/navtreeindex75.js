@@ -1,5 +1,6 @@
 var NAVTREEINDEX75 =
 {
+"structMR_1_1EmbeddedStructureParameters.html#aa7558ae5f2adc54f37b0610cb406b7a3":[6,0,2,0,1,210,1],
 "structMR_1_1EmbeddedStructureParameters.html#aae10852bdbbce2035519d95bceadd171":[6,0,1,0,1,229,2],
 "structMR_1_1EmbeddedStructureParameters.html#aae10852bdbbce2035519d95bceadd171":[6,0,2,0,1,210,2],
 "structMR_1_1EmbeddedStructureParameters.html#abaade64848830680e26108a772fd1350":[6,0,1,0,1,229,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX75 =
 "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1ConeSegment_01_4.html":[6,0,2,0,1,2,1,3],
 "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1ConeSegment_01_4.html#a182d33e799ffdd3e42408fedd13b3720":[6,0,1,0,1,6,1,3,0],
 "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1ConeSegment_01_4.html#a182d33e799ffdd3e42408fedd13b3720":[6,0,2,0,1,2,1,3,0],
-"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Plane_01_4.html":[6,0,1,0,1,6,1,4],
-"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Plane_01_4.html":[6,0,2,0,1,2,1,4]
+"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Plane_01_4.html":[6,0,1,0,1,6,1,4]
 };

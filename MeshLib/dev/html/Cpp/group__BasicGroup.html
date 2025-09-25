@@ -366,6 +366,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga98812dc656fac3fb9c565e7fc0c7922d" id="r_ga98812dc656fac3fb9c565e7fc0c7922d"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga98812dc656fac3fb9c565e7fc0c7922d">MR::utf8string</a> (const std::filesystem::path &amp;path)</td></tr>
 <tr class="memdesc:ga98812dc656fac3fb9c565e7fc0c7922d"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns filename as UTF8-encoded string  <br /></td></tr>
 <tr class="separator:ga98812dc656fac3fb9c565e7fc0c7922d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga94712bce613ec3f52b3d976ed63e7910" id="r_ga94712bce613ec3f52b3d976ed63e7910"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga94712bce613ec3f52b3d976ed63e7910">MR::utf8string</a> (const std::string &amp;)=delete</td></tr>
+<tr class="memdesc:ga94712bce613ec3f52b3d976ed63e7910"><td class="mdescLeft">&#160;</td><td class="mdescRight">it is a mistake to call the function with implicit construction of path from string  <br /></td></tr>
+<tr class="separator:ga94712bce613ec3f52b3d976ed63e7910"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga9d44c29a02f4672e97b9cf002eb4f7ca" id="r_ga9d44c29a02f4672e97b9cf002eb4f7ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9d44c29a02f4672e97b9cf002eb4f7ca">MR::utf8substr</a> (const char *s, size_t pos, size_t count)</td></tr>
 <tr class="separator:ga9d44c29a02f4672e97b9cf002eb4f7ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga52ef6e1208fe1f50e79f683d8f04fd15" id="r_ga52ef6e1208fe1f50e79f683d8f04fd15"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga52ef6e1208fe1f50e79f683d8f04fd15">MR::printTimingTreeAtEnd</a> (bool on, double minTimeSec=0.1)</td></tr>
@@ -2212,7 +2215,7 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 </div>
 </div>
 <a id="ga98812dc656fac3fb9c565e7fc0c7922d" name="ga98812dc656fac3fb9c565e7fc0c7922d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga98812dc656fac3fb9c565e7fc0c7922d">&#9670;&#160;</a></span>utf8string()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga98812dc656fac3fb9c565e7fc0c7922d">&#9670;&#160;</a></span>utf8string() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2235,6 +2238,33 @@ template&lt;typename T , typename <a class="el" href="namespaceMR.html#aae89e209
 </div><div class="memdoc">
 
 <p>returns filename as UTF8-encoded string </p>
+
+</div>
+</div>
+<a id="ga94712bce613ec3f52b3d976ed63e7910" name="ga94712bce613ec3f52b3d976ed63e7910"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga94712bce613ec3f52b3d976ed63e7910">&#9670;&#160;</a></span>utf8string() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string MR::utf8string </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>it is a mistake to call the function with implicit construction of path from string </p>
 
 </div>
 </div>

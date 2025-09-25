@@ -3216,6 +3216,7 @@ var namespaceMR =
     [ "updateIndicatorFast", "namespaceMR.html#a40847df1ce412c4c7085dd392037e050", null ],
     [ "updatePointPairs", "namespaceMR.html#ae1720596759ae985fe19f03af8b48c36", null ],
     [ "utf8string", "group__BasicGroup.html#ga98812dc656fac3fb9c565e7fc0c7922d", null ],
+    [ "utf8string", "group__BasicGroup.html#ga94712bce613ec3f52b3d976ed63e7910", null ],
     [ "utf8substr", "group__BasicGroup.html#ga9d44c29a02f4672e97b9cf002eb4f7ca", null ],
     [ "utf8ToSystem", "group__BasicGroup.html#ga01094b293542b9fcf1b2f084dbf799a9", null ],
     [ "utf8ToWide", "group__BasicGroup.html#ga9c68f9a0e1405a37f98f03203a234da5", null ],

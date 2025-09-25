@@ -1,5 +1,6 @@
 var NAVTREEINDEX85 =
 {
+"structMR_1_1ObjTreeTraits.html#ae8c8c6d7c93de2cba91378f547c50a8e":[6,0,1,0,1,479,0],
 "structMR_1_1ObjTreeTraits.html#ae8c8c6d7c93de2cba91378f547c50a8e":[6,0,2,0,1,460,0],
 "structMR_1_1ObjVertId.html":[6,0,1,0,1,480],
 "structMR_1_1ObjVertId.html":[6,0,2,0,1,461],
@@ -248,6 +249,5 @@ var NAVTREEINDEX85 =
 "structMR_1_1Palette_1_1Parameters.html#ae9f6c64d1d00c242d6863b39c8a466fe":[6,0,2,0,1,480,2,2],
 "structMR_1_1Parabola.html":[6,0,1,0,1,501],
 "structMR_1_1Parabola.html":[6,0,2,0,1,482],
-"structMR_1_1Parabola.html#a0cdfe97a6580c1aaa9b873a6320f0793":[6,0,1,0,1,501,0],
-"structMR_1_1Parabola.html#a0cdfe97a6580c1aaa9b873a6320f0793":[6,0,2,0,1,482,0]
+"structMR_1_1Parabola.html#a0cdfe97a6580c1aaa9b873a6320f0793":[6,0,1,0,1,501,0]
 };

@@ -320,6 +320,7 @@ var group__BasicGroup =
     [ "MR::systemToUtf8", "group__BasicGroup.html#ga9a6b64a85d116ca32c7ff8b93ca80da1", null ],
     [ "MR::unregisterThreadRootTimeRecord", "group__BasicGroup.html#gad352239f809241e329ff312b293854bd", null ],
     [ "MR::utf8string", "group__BasicGroup.html#ga98812dc656fac3fb9c565e7fc0c7922d", null ],
+    [ "MR::utf8string", "group__BasicGroup.html#ga94712bce613ec3f52b3d976ed63e7910", null ],
     [ "MR::utf8substr", "group__BasicGroup.html#ga9d44c29a02f4672e97b9cf002eb4f7ca", null ],
     [ "MR::utf8ToSystem", "group__BasicGroup.html#ga01094b293542b9fcf1b2f084dbf799a9", null ],
     [ "MR::utf8ToWide", "group__BasicGroup.html#ga9c68f9a0e1405a37f98f03203a234da5", null ],

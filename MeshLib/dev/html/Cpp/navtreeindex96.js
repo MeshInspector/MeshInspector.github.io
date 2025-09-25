@@ -1,5 +1,6 @@
 var NAVTREEINDEX96 =
 {
+"structMR_1_1Vector3.html#abe4fb08c12b763d3aeec47507ccd0973":[6,0,0,0,12,1,34],
 "structMR_1_1Vector3.html#ac519c0badafc5dd614c0c6f8b8b28994":[6,0,0,0,12,1,37],
 "structMR_1_1Vector3.html#ac91a0462b62bab22f973bb517dc805ca":[6,0,0,0,12,1,16],
 "structMR_1_1Vector3.html#ad8b62d7466c2f210d9618cc9c3fe555f":[6,0,0,0,12,1,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX96 =
 "structMR_1_1VoxelsLoad_1_1DicomStatus.html":[6,0,2,0,1,26,0],
 "structMR_1_1VoxelsLoad_1_1DicomStatus.html#a397021c2f11cc76a8178e525bd2bed86":[6,0,1,0,1,45,0,3],
 "structMR_1_1VoxelsLoad_1_1DicomStatus.html#a397021c2f11cc76a8178e525bd2bed86":[6,0,2,0,1,26,0,3],
-"structMR_1_1VoxelsLoad_1_1DicomStatus.html#a69fabaf9380693815d99277fda43022f":[6,0,1,0,1,45,0,4],
-"structMR_1_1VoxelsLoad_1_1DicomStatus.html#a69fabaf9380693815d99277fda43022f":[6,0,2,0,1,26,0,4]
+"structMR_1_1VoxelsLoad_1_1DicomStatus.html#a69fabaf9380693815d99277fda43022f":[6,0,1,0,1,45,0,4]
 };

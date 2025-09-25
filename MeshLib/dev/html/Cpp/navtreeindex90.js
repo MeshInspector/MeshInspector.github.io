@@ -1,5 +1,6 @@
 var NAVTREEINDEX90 =
 {
+"structMR_1_1RibbonConfig.html":[6,0,2,0,1,596],
 "structMR_1_1RibbonConfig.html#a5002834cd308d2eeda7cc7f532840f8a":[6,0,1,0,1,615,1],
 "structMR_1_1RibbonConfig.html#a5002834cd308d2eeda7cc7f532840f8a":[6,0,2,0,1,596,1],
 "structMR_1_1RibbonConfig.html#a64f5562c14952b7d260af9fa205a774e":[6,0,1,0,1,615,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX90 =
 "structMR_1_1SceneReorder.html#ad02567fbc39d8a94b4870c8b0f55a01a":[6,0,2,0,1,636,3],
 "structMR_1_1SearchPathSettings.html":[6,0,1,0,1,671],
 "structMR_1_1SearchPathSettings.html":[6,0,2,0,1,652],
-"structMR_1_1SearchPathSettings.html#a73e36cb0460a39c6bf496d2038aced39":[6,0,1,0,1,671,0],
-"structMR_1_1SearchPathSettings.html#a73e36cb0460a39c6bf496d2038aced39":[6,0,2,0,1,652,0]
+"structMR_1_1SearchPathSettings.html#a73e36cb0460a39c6bf496d2038aced39":[6,0,1,0,1,671,0]
 };

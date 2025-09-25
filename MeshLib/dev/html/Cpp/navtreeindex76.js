@@ -1,5 +1,6 @@
 var NAVTREEINDEX76 =
 {
+"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Plane_01_4.html":[6,0,2,0,1,2,1,4],
 "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Plane_01_4.html#a21d958650e567c81e194e8d73d8b2107":[6,0,1,0,1,6,1,4,0],
 "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Plane_01_4.html#a21d958650e567c81e194e8d73d8b2107":[6,0,2,0,1,2,1,4,0],
 "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Sphere_01_4.html":[6,0,1,0,1,6,1,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX76 =
 "structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html#a865b6dc16827bcf5024f2e675a74e8e0":[6,0,1,0,1,9,0,0],
 "structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html#a865b6dc16827bcf5024f2e675a74e8e0":[6,0,2,0,1,5,0,0],
 "structMR_1_1FixUndercuts_1_1FindParams.html":[6,0,1,0,1,9,1],
-"structMR_1_1FixUndercuts_1_1FindParams.html":[6,0,2,0,1,5,1],
-"structMR_1_1FixUndercuts_1_1FindParams.html#a0cdbe15c0d5243296ca490c36131b41a":[6,0,1,0,1,9,1,1]
+"structMR_1_1FixUndercuts_1_1FindParams.html":[6,0,2,0,1,5,1]
 };
