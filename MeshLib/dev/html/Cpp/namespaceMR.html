@@ -2511,6 +2511,8 @@ Typedefs</h2></td></tr>
 <tr class="separator:a823106cad6887745b09385757b15b82e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55cd176bca8ea774ad922ad2876e0f0d" id="r_a55cd176bca8ea774ad922ad2876e0f0d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a55cd176bca8ea774ad922ad2876e0f0d">RequirementsFunction</a> = std::function&lt;std::string( const std::shared_ptr&lt;<a class="el" href="classMR_1_1RibbonMenuItem.html">RibbonMenuItem</a>&gt;&amp; )&gt;</td></tr>
 <tr class="separator:a55cd176bca8ea774ad922ad2876e0f0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa81b46bc5e733f50fb93fe00f095b2f8" id="r_aa81b46bc5e733f50fb93fe00f095b2f8"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa81b46bc5e733f50fb93fe00f095b2f8">WebResponseCallback</a> = std::function&lt;void( const Json::Value&amp; response )&gt;</td></tr>
+<tr class="separator:aa81b46bc5e733f50fb93fe00f095b2f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af79e59969dc38af8f99d87b8d80385f2" id="r_af79e59969dc38af8f99d87b8d80385f2"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af79e59969dc38af8f99d87b8d80385f2">VoxelPointPositioner</a> = std::function&lt;Vector3f( const Vector3f&amp;, const Vector3f&amp;, float, float, float )&gt;</td></tr>
 <tr class="separator:af79e59969dc38af8f99d87b8d80385f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9381161a7388eeabb33982f4df1cf1c3" id="r_a9381161a7388eeabb33982f4df1cf1c3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9381161a7388eeabb33982f4df1cf1c3">MeshOnVoxelsVdb</a> = <a class="el" href="classMR_1_1MeshOnVoxelsT.html">MeshOnVoxelsT</a>&lt;<a class="el" href="structMR_1_1Mesh.html">Mesh</a>, VdbVolume&gt;</td></tr>
@@ -7335,6 +7337,8 @@ Variables</h2></td></tr>
 <tr class="separator:a31f77e731e7a4fa3bb8606a8a801848d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe49e137af70c8aaef17a39366b4bd32" id="r_afe49e137af70c8aaef17a39366b4bd32"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe49e137af70c8aaef17a39366b4bd32">cRadioInnerSpacingX</a> = 12.f</td></tr>
 <tr class="separator:afe49e137af70c8aaef17a39366b4bd32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad94e4d4dcae262fbf618c54cbdbdf4aa" id="r_ad94e4d4dcae262fbf618c54cbdbdf4aa"><td class="memItemLeft" align="right" valign="top">class MRVIEWER_CLASS&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad94e4d4dcae262fbf618c54cbdbdf4aa">WebRequest</a></td></tr>
+<tr class="separator:ad94e4d4dcae262fbf618c54cbdbdf4aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaaa4989f3d8e88d20b6cbebc9f51db434" id="r_gaaa4989f3d8e88d20b6cbebc9f51db434"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="MRVoxels_2MRVoxelsFwd_8h.html#a9f036b05518b862a538b52711d41d242">MRVOXELS_CLASS</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicStructuresGroup.html#gaaa4989f3d8e88d20b6cbebc9f51db434">OpenVdbFloatGrid</a></td></tr>
 <tr class="separator:gaaa4989f3d8e88d20b6cbebc9f51db434"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a748899906b8ac8f5f125c7f913e38007" id="r_a748899906b8ac8f5f125c7f913e38007"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a748899906b8ac8f5f125c7f913e38007">ObjectMakerFunc</a> = std::shared_ptr&lt;<a class="el" href="classMR_1_1Object.html">Object</a>&gt;()</td></tr>
@@ -9829,6 +9833,20 @@ template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="#ada46b69d3d2ace0362d693aafcee7f0f">MR::VoxelValueGetter</a> = std::function&lt;T ( const Vector3i&amp; )&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa81b46bc5e733f50fb93fe00f095b2f8" name="aa81b46bc5e733f50fb93fe00f095b2f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa81b46bc5e733f50fb93fe00f095b2f8">&#9670;&#160;</a></span>WebResponseCallback</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#aa81b46bc5e733f50fb93fe00f095b2f8">MR::WebResponseCallback</a> = std::function&lt;void( const Json::Value&amp; response )&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -42582,6 +42600,20 @@ template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">class <a class="el" href="MRMesh_2MRMeshFwd_8h.html#a45ed33a118705bfd4aac6d294495276a">MRMESH_CLASS</a> MR::VoxelTag</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad94e4d4dcae262fbf618c54cbdbdf4aa" name="ad94e4d4dcae262fbf618c54cbdbdf4aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad94e4d4dcae262fbf618c54cbdbdf4aa">&#9670;&#160;</a></span>WebRequest</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">class MRVIEWER_CLASS MR::WebRequest</td>
         </tr>
       </table>
 </div><div class="memdoc">

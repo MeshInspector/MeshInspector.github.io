@@ -7,5 +7,6 @@ var MRViewerFwd_8h =
     [ "RequirementsFunction", "MRViewerFwd_8h.html#a55cd176bca8ea774ad922ad2876e0f0d", null ],
     [ "StatePlugin", "MRViewerFwd_8h.html#ab03e30b3d478dc602964140a67391c49", null ],
     [ "ViewerEventCallback", "MRViewerFwd_8h.html#af677bfbbed9f6c283d0a3101b5e91aea", null ],
-    [ "ViewportRectangle", "MRViewerFwd_8h.html#ae679240dc1c3cb46bbffe4002f1f48e5", null ]
+    [ "ViewportRectangle", "MRViewerFwd_8h.html#ae679240dc1c3cb46bbffe4002f1f48e5", null ],
+    [ "WebRequest", "MRViewerFwd_8h.html#ad94e4d4dcae262fbf618c54cbdbdf4aa", null ]
 ];

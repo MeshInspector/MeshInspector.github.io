@@ -1,5 +1,11 @@
 var NAVTREEINDEX69 =
 {
+"structMRDecimateSettings.html#ac280387b37c574d825a5dae4e745b550":[6,0,2,0,12,11],
+"structMRDecimateSettings.html#ad1e58750f155e9e45c27770c31ebe6f8":[6,0,2,0,12,14],
+"structMRDecimateSettings.html#ad43c7ad0a3072a5a93ec8e44e56be28a":[6,0,2,0,12,20],
+"structMRDecimateSettings.html#ad80f5a2ff69a7fe804e27ce7a20ba275":[6,0,2,0,12,15],
+"structMRDecimateSettings.html#af30ab932574161654a545582168d7f23":[6,0,2,0,12,17],
+"structMRDecimateSettings.html#af58a10c0e7e72a5fd0b9159736c8faaa":[6,0,2,0,12,13],
 "structMRDenoiseViaNormalsSettings.html":[6,0,2,0,13],
 "structMRDenoiseViaNormalsSettings.html#a541307655765642beba67c1d626b5d1e":[6,0,2,0,13,0],
 "structMRDenoiseViaNormalsSettings.html#a61870a5eb66d1e95c15e6d2c945f58d8":[6,0,2,0,13,5],
@@ -243,11 +249,5 @@ var NAVTREEINDEX69 =
 "structMRResolveMeshDegenSettings.html#aaca7eab20af75f05a9c80d319d272697":[6,0,2,0,59,3],
 "structMRResolveMeshDegenSettings.html#ac7f4eb8239025008cd8575b29ac69bce":[6,0,2,0,59,5],
 "structMRSaveSettings.html":[6,0,2,0,60],
-"structMRSaveSettings.html#a40940a32066a3028433059783509250d":[6,0,2,0,60,1],
-"structMRSaveSettings.html#a4b5228506d4dfed3dba5069b28b2a57b":[6,0,2,0,60,2],
-"structMRSaveSettings.html#a9c114be117bb46a789028e6f1f814201":[6,0,2,0,60,3],
-"structMRSaveSettings.html#ab91ad76d039a96d79720bce0772eb46b":[6,0,2,0,60,0],
-"structMRSphereParams.html":[6,0,2,0,61],
-"structMRSphereParams.html#a4439c01e0e27173543a6da34336b2024":[6,0,2,0,61,1],
-"structMRSphereParams.html#a5f59105f7d8815267e7e295ce861e739":[6,0,2,0,61,0]
+"structMRSaveSettings.html#a40940a32066a3028433059783509250d":[6,0,2,0,60,1]
 };

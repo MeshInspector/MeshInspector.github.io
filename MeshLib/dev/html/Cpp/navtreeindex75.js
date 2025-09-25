@@ -1,5 +1,11 @@
 var NAVTREEINDEX75 =
 {
+"structMR_1_1EmbeddedStructureParameters.html#aae10852bdbbce2035519d95bceadd171":[6,0,1,0,1,229,2],
+"structMR_1_1EmbeddedStructureParameters.html#aae10852bdbbce2035519d95bceadd171":[6,0,2,0,1,210,2],
+"structMR_1_1EmbeddedStructureParameters.html#abaade64848830680e26108a772fd1350":[6,0,1,0,1,229,4],
+"structMR_1_1EmbeddedStructureParameters.html#abaade64848830680e26108a772fd1350":[6,0,2,0,1,210,4],
+"structMR_1_1EndMillCutter.html":[6,0,1,0,1,230],
+"structMR_1_1EndMillCutter.html":[6,0,2,0,1,211],
 "structMR_1_1EndMillCutter.html#a345bf16216bfaccfd158af74e386acbc":[6,0,1,0,1,230,4],
 "structMR_1_1EndMillCutter.html#a345bf16216bfaccfd158af74e386acbc":[6,0,2,0,1,211,4],
 "structMR_1_1EndMillCutter.html#a70c992b2d214834d246a23811425f9d8":[6,0,1,0,1,230,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX75 =
 "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1ConeSegment_01_4.html#a182d33e799ffdd3e42408fedd13b3720":[6,0,1,0,1,6,1,3,0],
 "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1ConeSegment_01_4.html#a182d33e799ffdd3e42408fedd13b3720":[6,0,2,0,1,2,1,3,0],
 "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Plane_01_4.html":[6,0,1,0,1,6,1,4],
-"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Plane_01_4.html":[6,0,2,0,1,2,1,4],
-"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Plane_01_4.html#a21d958650e567c81e194e8d73d8b2107":[6,0,1,0,1,6,1,4,0],
-"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Plane_01_4.html#a21d958650e567c81e194e8d73d8b2107":[6,0,2,0,1,2,1,4,0],
-"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Sphere_01_4.html":[6,0,1,0,1,6,1,5],
-"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Sphere_01_4.html":[6,0,2,0,1,2,1,5],
-"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Sphere_01_4.html#a21b9de9268120c982f8c3838220d8cc7":[6,0,1,0,1,6,1,5,0],
-"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Sphere_01_4.html#a21b9de9268120c982f8c3838220d8cc7":[6,0,2,0,1,2,1,5,0]
+"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Plane_01_4.html":[6,0,2,0,1,2,1,4]
 };

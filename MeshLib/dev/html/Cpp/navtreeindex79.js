@@ -1,5 +1,11 @@
 var NAVTREEINDEX79 =
 {
+"structMR_1_1ImGuiMeasurementIndicators_1_1TextColor.html#ae345223a87d4417bf78dfd0a28df08bb":[6,0,1,0,1,16,11,1],
+"structMR_1_1ImGuiMeasurementIndicators_1_1TextColor.html#ae345223a87d4417bf78dfd0a28df08bb":[6,0,2,0,1,7,11,1],
+"structMR_1_1ImGuiMeasurementIndicators_1_1TextFont.html":[6,0,1,0,1,16,12],
+"structMR_1_1ImGuiMeasurementIndicators_1_1TextFont.html":[6,0,2,0,1,7,12],
+"structMR_1_1ImGuiMeasurementIndicators_1_1TextFont.html#a47b6424fbecbea19cd78a5e947b9b944":[6,0,1,0,1,16,12,0],
+"structMR_1_1ImGuiMeasurementIndicators_1_1TextFont.html#a47b6424fbecbea19cd78a5e947b9b944":[6,0,2,0,1,7,12,0],
 "structMR_1_1ImGuiMeasurementIndicators_1_1TextParams.html":[6,0,1,0,1,16,13],
 "structMR_1_1ImGuiMeasurementIndicators_1_1TextParams.html":[6,0,2,0,1,7,13],
 "structMR_1_1ImGuiMeasurementIndicators_1_1TextParams.html#a0488824dd2e0c5d0496391ffc6bfec38":[6,0,1,0,1,16,13,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX79 =
 "structMR_1_1LaunchParams.html":[6,0,1,0,1,348],
 "structMR_1_1LaunchParams.html":[6,0,2,0,1,329],
 "structMR_1_1LaunchParams.html#a022b76b62fcdfb2c120c1c0ccb08513d":[6,0,1,0,1,348,0],
-"structMR_1_1LaunchParams.html#a022b76b62fcdfb2c120c1c0ccb08513d":[6,0,2,0,1,329,0],
-"structMR_1_1LaunchParams.html#a022b76b62fcdfb2c120c1c0ccb08513da2a8313f2f3ab507d4c85c1be27dc0516":[6,0,1,0,1,348,0,1],
-"structMR_1_1LaunchParams.html#a022b76b62fcdfb2c120c1c0ccb08513da2a8313f2f3ab507d4c85c1be27dc0516":[6,0,2,0,1,329,0,1],
-"structMR_1_1LaunchParams.html#a022b76b62fcdfb2c120c1c0ccb08513da5af8ae97e3ef8bd78ef2091cbde8ed2e":[6,0,1,0,1,348,0,4],
-"structMR_1_1LaunchParams.html#a022b76b62fcdfb2c120c1c0ccb08513da5af8ae97e3ef8bd78ef2091cbde8ed2e":[6,0,2,0,1,329,0,4],
-"structMR_1_1LaunchParams.html#a022b76b62fcdfb2c120c1c0ccb08513da6eb9143e151d9fefbe06837619a5c846":[6,0,1,0,1,348,0,3],
-"structMR_1_1LaunchParams.html#a022b76b62fcdfb2c120c1c0ccb08513da6eb9143e151d9fefbe06837619a5c846":[6,0,2,0,1,329,0,3]
+"structMR_1_1LaunchParams.html#a022b76b62fcdfb2c120c1c0ccb08513d":[6,0,2,0,1,329,0]
 };

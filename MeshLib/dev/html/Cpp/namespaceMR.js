@@ -1173,6 +1173,7 @@ var namespaceMR =
     [ "VoxelPointPositioner", "namespaceMR.html#af79e59969dc38af8f99d87b8d80385f2", null ],
     [ "VoxelsMetric", "group__VoxelPathGroup.html#ga803e99bc9c6b6b6afa785b1395881cce", null ],
     [ "VoxelValueGetter", "namespaceMR.html#ada46b69d3d2ace0362d693aafcee7f0f", null ],
+    [ "WebResponseCallback", "namespaceMR.html#aa81b46bc5e733f50fb93fe00f095b2f8", null ],
     [ "WholeEdgeHashMap", "namespaceMR.html#a7a097c2851c9c54eef96a938f84750a4", null ],
     [ "WholeEdgeMapOrHashMap", "namespaceMR.html#a97913e3bb3380204133f3b371cc4b6de", null ],
     [ "AlignType", "namespaceMR.html#a78218d9e8bdad31c92f563f91f5d470a", [
@@ -3345,5 +3346,6 @@ var namespaceMR =
     [ "TextureTag", "namespaceMR.html#a7d62b7c394a1e0ed5d376fcb130fafb9", null ],
     [ "UndirectedEdgeTag", "namespaceMR.html#a1bbe6aa7d7136f740286af86f591c19b", null ],
     [ "VertTag", "namespaceMR.html#aa92378bf233fad3fbb22ac30f72ea71e", null ],
-    [ "VoxelTag", "namespaceMR.html#a643d3f06a57ec77e78fffeee6a27fc3d", null ]
+    [ "VoxelTag", "namespaceMR.html#a643d3f06a57ec77e78fffeee6a27fc3d", null ],
+    [ "WebRequest", "namespaceMR.html#ad94e4d4dcae262fbf618c54cbdbdf4aa", null ]
 ];

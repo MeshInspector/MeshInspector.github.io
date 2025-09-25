@@ -1,5 +1,11 @@
 var NAVTREEINDEX97 =
 {
+"structMR_1_1VoxelsLoad_1_1DicomStatus.html#a780a5ecc96a3b09773f7fc297c5c4958":[6,0,1,0,1,45,0,0],
+"structMR_1_1VoxelsLoad_1_1DicomStatus.html#a780a5ecc96a3b09773f7fc297c5c4958":[6,0,2,0,1,26,0,0],
+"structMR_1_1VoxelsLoad_1_1DicomStatus.html#a8152065aa9150e9c3a5dd1e0ce064abb":[6,0,1,0,1,45,0,1],
+"structMR_1_1VoxelsLoad_1_1DicomStatus.html#a8152065aa9150e9c3a5dd1e0ce064abb":[6,0,2,0,1,26,0,1],
+"structMR_1_1VoxelsLoad_1_1DicomStatus.html#a9d58008a01c9a02bc872fb06b4dfe30f":[6,0,1,0,1,45,0,2],
+"structMR_1_1VoxelsLoad_1_1DicomStatus.html#a9d58008a01c9a02bc872fb06b4dfe30f":[6,0,2,0,1,26,0,2],
 "structMR_1_1VoxelsLoad_1_1DicomVolumeT.html":[6,0,1,0,1,45,1],
 "structMR_1_1VoxelsLoad_1_1DicomVolumeT.html":[6,0,2,0,1,26,1],
 "structMR_1_1VoxelsLoad_1_1DicomVolumeT.html#a41a585b4f3781b67e22daa8ff5b9479d":[6,0,1,0,1,45,1,0],

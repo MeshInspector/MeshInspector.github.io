@@ -1,5 +1,9 @@
 var NAVTREEINDEX25 =
 {
+"classMR_1_1EdgePathsBuilderT.html#ae50a59bc1425eff2906ad0c18accbabc":[6,0,1,0,1,223,7],
+"classMR_1_1EdgePathsBuilderT.html#ae50a59bc1425eff2906ad0c18accbabc":[6,0,2,0,1,204,7],
+"classMR_1_1EmbeddedPython.html":[6,0,1,0,1,228],
+"classMR_1_1EmbeddedPython.html":[6,0,2,0,1,209],
 "classMR_1_1EnumNeihbourFaces.html":[6,0,1,0,1,232],
 "classMR_1_1EnumNeihbourFaces.html":[6,0,2,0,1,213],
 "classMR_1_1EnumNeihbourFaces.html#a85f07106265d0d9ea1a93a7fd8ba1973":[6,0,1,0,1,232,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX25 =
 "classMR_1_1FrameCounter.html#ad31cb34958177047b45d91d3bde14b0b":[6,0,2,0,1,252,7],
 "classMR_1_1FrameCounter.html#aea5d0a29f0eeb7d5301f5761259fbb71":[6,0,1,0,1,271,5],
 "classMR_1_1FrameCounter.html#aea5d0a29f0eeb7d5301f5761259fbb71":[6,0,2,0,1,252,5],
-"classMR_1_1FrameRedrawRequest.html":[6,0,1,0,1,272],
-"classMR_1_1FrameRedrawRequest.html":[6,0,2,0,1,253],
-"classMR_1_1FrameRedrawRequest.html#a232fbb1566c535b2b9267303a1a7d25c":[6,0,1,0,1,272,1],
-"classMR_1_1FrameRedrawRequest.html#a232fbb1566c535b2b9267303a1a7d25c":[6,0,2,0,1,253,1],
-"classMR_1_1FrameRedrawRequest.html#a27be825efa89c1f49d55d88cee285d38":[6,0,1,0,1,272,0]
+"classMR_1_1FrameRedrawRequest.html":[6,0,1,0,1,272]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX24 =
 {
+"classMR_1_1DefaultSplashWindow.html#a1603070b83b67e1cb87b26b980e19cf6":[6,0,2,0,1,166,0],
+"classMR_1_1DemoPlugin.html":[6,0,1,0,1,187],
+"classMR_1_1DemoPlugin.html":[6,0,2,0,1,168],
+"classMR_1_1DemoPlugin.html#a6be2d6bfd3895d3f759775a2843ed7fe":[6,0,1,0,1,187,0],
 "classMR_1_1DemoPlugin.html#a6be2d6bfd3895d3f759775a2843ed7fe":[6,0,2,0,1,168,0],
 "classMR_1_1DemoPlugin.html#afd0d013177b9745090ea82dd3e6321e7":[6,0,1,0,1,187,1],
 "classMR_1_1DemoPlugin.html#afd0d013177b9745090ea82dd3e6321e7":[6,0,2,0,1,168,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX24 =
 "classMR_1_1EdgePathsBuilderT.html#aa5a3f3206ed7ec78c89eef5860137181":[6,0,1,0,1,223,6],
 "classMR_1_1EdgePathsBuilderT.html#aa5a3f3206ed7ec78c89eef5860137181":[6,0,2,0,1,204,6],
 "classMR_1_1EdgePathsBuilderT.html#ad30700907c0223d6668cc9e5910765c3":[6,0,1,0,1,223,10],
-"classMR_1_1EdgePathsBuilderT.html#ad30700907c0223d6668cc9e5910765c3":[6,0,2,0,1,204,10],
-"classMR_1_1EdgePathsBuilderT.html#ae50a59bc1425eff2906ad0c18accbabc":[6,0,1,0,1,223,7],
-"classMR_1_1EdgePathsBuilderT.html#ae50a59bc1425eff2906ad0c18accbabc":[6,0,2,0,1,204,7],
-"classMR_1_1EmbeddedPython.html":[6,0,1,0,1,228],
-"classMR_1_1EmbeddedPython.html":[6,0,2,0,1,209]
+"classMR_1_1EdgePathsBuilderT.html#ad30700907c0223d6668cc9e5910765c3":[6,0,2,0,1,204,10]
 };

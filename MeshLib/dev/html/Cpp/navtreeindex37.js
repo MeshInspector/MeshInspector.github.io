@@ -1,5 +1,9 @@
 var NAVTREEINDEX37 =
 {
+"classMR_1_1OpenDICOMsMenuItem.html#a552788c299eeab9cb93cef6a1454e287":[6,0,1,0,1,488,1],
+"classMR_1_1OpenDICOMsMenuItem.html#a552788c299eeab9cb93cef6a1454e287":[6,0,2,0,1,469,1],
+"classMR_1_1OpenDICOMsMenuItem.html#afff7b73e7857e5eff442b9c8fea806ad":[6,0,1,0,1,488,0],
+"classMR_1_1OpenDICOMsMenuItem.html#afff7b73e7857e5eff442b9c8fea806ad":[6,0,2,0,1,469,0],
 "classMR_1_1OpenDirectoryMenuItem.html":[6,0,1,0,1,489],
 "classMR_1_1OpenDirectoryMenuItem.html":[6,0,2,0,1,470],
 "classMR_1_1OpenDirectoryMenuItem.html#a4823452a80e9a83ccd30f93c77a7e233":[6,0,1,0,1,489,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX37 =
 "classMR_1_1PickPointManager.html#a9c4b283d6f473e8f7b894b329c3af11d":[6,0,1,0,1,509,23],
 "classMR_1_1PickPointManager.html#a9c4b283d6f473e8f7b894b329c3af11d":[6,0,2,0,1,490,23],
 "classMR_1_1PickPointManager.html#aaa77594d52f4d994bf5604f3eae7d6cb":[6,0,1,0,1,509,12],
-"classMR_1_1PickPointManager.html#aaa77594d52f4d994bf5604f3eae7d6cb":[6,0,2,0,1,490,12],
-"classMR_1_1PickPointManager.html#ab409cc955cfe26509e58b47d527cfa88":[6,0,1,0,1,509,9],
-"classMR_1_1PickPointManager.html#ab409cc955cfe26509e58b47d527cfa88":[6,0,2,0,1,490,9],
-"classMR_1_1PickPointManager.html#abf753ac8d813babfa08dc56142474e65":[6,0,1,0,1,509,21],
-"classMR_1_1PickPointManager.html#abf753ac8d813babfa08dc56142474e65":[6,0,2,0,1,490,21]
+"classMR_1_1PickPointManager.html#aaa77594d52f4d994bf5604f3eae7d6cb":[6,0,2,0,1,490,12]
 };
