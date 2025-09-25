@@ -1,5 +1,13 @@
 var NAVTREEINDEX78 =
 {
+"structMR_1_1IOFilter.html":[6,0,0,2,6,0],
+"structMR_1_1IOFilter.html#a54c41ce2b24a4ff3c52cb1bc4b87094a":[6,0,0,2,6,0,1],
+"structMR_1_1IOFilter.html#a5f6f14f66f3758e05a9ca414470b17e3":[6,0,0,2,6,0,0],
+"structMR_1_1IOFilter.html#a608730d6a06e28828607af1531f9a765":[6,0,0,2,6,0,2],
+"structMR_1_1IOFilter.html#a80dd32b51dbd9885a56ae8cf65001c7a":[6,0,0,2,6,0,3],
+"structMR_1_1IOFilter.html#a8806427d8212780dc5b20506b24b1223":[6,0,0,2,6,0,4],
+"structMR_1_1IOFilter.html#ad4426ebb26f3474b6d69ca07c8e35980":[6,0,0,2,6,0,5],
+"structMR_1_1IPointPairs.html":[6,0,1,0,1,325],
 "structMR_1_1IPointPairs.html":[6,0,2,0,1,306],
 "structMR_1_1IPointPairs.html#a21b4f073206e446af1e8c0c8895e56a8":[6,0,1,0,1,325,8],
 "structMR_1_1IPointPairs.html#a21b4f073206e446af1e8c0c8895e56a8":[6,0,2,0,1,306,8],
@@ -241,13 +249,5 @@ var NAVTREEINDEX78 =
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#ada8abd512f2564b6e933ba4332bdce0c":[6,0,2,0,1,7,10,17],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#ae831e755d5fa4e114cf8d2eaef532bdc":[6,0,1,0,1,16,10,3],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#ae831e755d5fa4e114cf8d2eaef532bdc":[6,0,2,0,1,7,10,3],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#af8b5e638410d87130b72445eb3a009cd":[6,0,1,0,1,16,10,16],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#af8b5e638410d87130b72445eb3a009cd":[6,0,2,0,1,7,10,16],
-"structMR_1_1ImGuiMeasurementIndicators_1_1TextColor.html":[6,0,1,0,1,16,11],
-"structMR_1_1ImGuiMeasurementIndicators_1_1TextColor.html":[6,0,2,0,1,7,11],
-"structMR_1_1ImGuiMeasurementIndicators_1_1TextColor.html#a3ec9519a874594345d17324a079237aa":[6,0,1,0,1,16,11,2],
-"structMR_1_1ImGuiMeasurementIndicators_1_1TextColor.html#a3ec9519a874594345d17324a079237aa":[6,0,2,0,1,7,11,2],
-"structMR_1_1ImGuiMeasurementIndicators_1_1TextColor.html#a6fa66d705cd65bc5dd8e745435221e52":[6,0,1,0,1,16,11,0],
-"structMR_1_1ImGuiMeasurementIndicators_1_1TextColor.html#a6fa66d705cd65bc5dd8e745435221e52":[6,0,2,0,1,7,11,0],
-"structMR_1_1ImGuiMeasurementIndicators_1_1TextColor.html#a9e3d5ac123e9d4946e2528d2e39fc91b":[6,0,1,0,1,16,11,3]
+"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#af8b5e638410d87130b72445eb3a009cd":[6,0,1,0,1,16,10,16]
 };

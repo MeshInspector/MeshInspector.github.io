@@ -460,6 +460,7 @@ var namespaceMR =
     [ "IsVisualizeMaskEnum< LabelVisualizePropertyType >", "structMR_1_1IsVisualizeMaskEnum_3_01LabelVisualizePropertyType_01_4.html", null ],
     [ "IsVisualizeMaskEnum< LinesVisualizePropertyType >", "structMR_1_1IsVisualizeMaskEnum_3_01LinesVisualizePropertyType_01_4.html", null ],
     [ "IsVisualizeMaskEnum< MeshVisualizePropertyType >", "structMR_1_1IsVisualizeMaskEnum_3_01MeshVisualizePropertyType_01_4.html", null ],
+    [ "IsVisualizeMaskEnum< PointMeasurementVisualizePropertyType >", "structMR_1_1IsVisualizeMaskEnum_3_01PointMeasurementVisualizePropertyType_01_4.html", null ],
     [ "IsVisualizeMaskEnum< PointsVisualizePropertyType >", "structMR_1_1IsVisualizeMaskEnum_3_01PointsVisualizePropertyType_01_4.html", null ],
     [ "IsVisualizeMaskEnum< VisualizeMaskType >", "structMR_1_1IsVisualizeMaskEnum_3_01VisualizeMaskType_01_4.html", null ],
     [ "ItemEnabledPerViewport", "classMR_1_1ItemEnabledPerViewport.html", "classMR_1_1ItemEnabledPerViewport" ],

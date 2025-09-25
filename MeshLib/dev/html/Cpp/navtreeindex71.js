@@ -1,5 +1,13 @@
 var NAVTREEINDEX71 =
 {
+"structMR_1_1BaseFitParams.html#ae74aad8ea3ab5114c97b3b5cf02a6cd6":[6,0,2,0,1,52,0],
+"structMR_1_1BaseRenderParams.html":[6,0,1,0,1,72],
+"structMR_1_1BaseRenderParams.html":[6,0,2,0,1,53],
+"structMR_1_1BaseRenderParams.html#a564bcf6e1925912d15fa1cb20a3b0a3c":[6,0,1,0,1,72,1],
+"structMR_1_1BaseRenderParams.html#a564bcf6e1925912d15fa1cb20a3b0a3c":[6,0,2,0,1,53,1],
+"structMR_1_1BaseRenderParams.html#aabb1d7dfa544bd6cb1d98a79a8d036a9":[6,0,1,0,1,72,2],
+"structMR_1_1BaseRenderParams.html#aabb1d7dfa544bd6cb1d98a79a8d036a9":[6,0,2,0,1,53,2],
+"structMR_1_1BaseRenderParams.html#ab108063540156c1b73540c07c48e6d01":[6,0,1,0,1,72,0],
 "structMR_1_1BaseRenderParams.html#ab108063540156c1b73540c07c48e6d01":[6,0,2,0,1,53,0],
 "structMR_1_1BaseRenderParams.html#adf952473500110be7f693c5d725f6fde":[6,0,1,0,1,72,3],
 "structMR_1_1BaseRenderParams.html#adf952473500110be7f693c5d725f6fde":[6,0,2,0,1,53,3],
@@ -241,13 +249,5 @@ var NAVTREEINDEX71 =
 "structMR_1_1ChunkIterator.html#a97b66824787d4e3a2921761974cca10d":[6,0,1,0,1,143,1],
 "structMR_1_1ChunkIterator.html#a97b66824787d4e3a2921761974cca10d":[6,0,2,0,1,124,1],
 "structMR_1_1ChunkIterator.html#a987331c567ec798d896b77adaf490fc0":[6,0,1,0,1,143,11],
-"structMR_1_1ChunkIterator.html#a987331c567ec798d896b77adaf490fc0":[6,0,2,0,1,124,11],
-"structMR_1_1ChunkIterator.html#ac0f52b399269d4be6c5c051272d0db86":[6,0,1,0,1,143,9],
-"structMR_1_1ChunkIterator.html#ac0f52b399269d4be6c5c051272d0db86":[6,0,2,0,1,124,9],
-"structMR_1_1ChunkIterator.html#ad126dd050bd11d03d34d56437f52debd":[6,0,1,0,1,143,5],
-"structMR_1_1ChunkIterator.html#ad126dd050bd11d03d34d56437f52debd":[6,0,2,0,1,124,5],
-"structMR_1_1ChunkIterator.html#ad58d2cd0f8108c9f1c0e00cc2d750508":[6,0,1,0,1,143,0],
-"structMR_1_1ChunkIterator.html#ad58d2cd0f8108c9f1c0e00cc2d750508":[6,0,2,0,1,124,0],
-"structMR_1_1ChunkIterator.html#ad816264908bdaf06f5629a4d163c16f6":[6,0,1,0,1,143,4],
-"structMR_1_1ChunkIterator.html#ad816264908bdaf06f5629a4d163c16f6":[6,0,2,0,1,124,4]
+"structMR_1_1ChunkIterator.html#a987331c567ec798d896b77adaf490fc0":[6,0,2,0,1,124,11]
 };

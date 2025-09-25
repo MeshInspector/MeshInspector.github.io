@@ -1,5 +1,13 @@
 var NAVTREEINDEX69 =
 {
+"structMRDecimateSettings.html#a4e04ee54a67240824fcf155e24e679b6":[6,0,2,0,12,12],
+"structMRDecimateSettings.html#a6752b8883770f758f44fc5956c8238c4":[6,0,2,0,12,9],
+"structMRDecimateSettings.html#a679658d2e5a069713519041347304233":[6,0,2,0,12,16],
+"structMRDecimateSettings.html#a6b5b07423ef64eadeec3662a51a57bba":[6,0,2,0,12,18],
+"structMRDecimateSettings.html#a74c3f1a345b8010234658a32c8f29cb2":[6,0,2,0,12,3],
+"structMRDecimateSettings.html#a772d763e2025022e8ecad5e0df7081ee":[6,0,2,0,12,10],
+"structMRDecimateSettings.html#a868cd45481f4a69102b4ca7467320dde":[6,0,2,0,12,1],
+"structMRDecimateSettings.html#a9b4ec1883fa5a1aa043899f0151b85ea":[6,0,2,0,12,19],
 "structMRDecimateSettings.html#aafb6028ee59303a8ee4ec69083b50f4c":[6,0,2,0,12,4],
 "structMRDecimateSettings.html#ac280387b37c574d825a5dae4e745b550":[6,0,2,0,12,11],
 "structMRDecimateSettings.html#ad1e58750f155e9e45c27770c31ebe6f8":[6,0,2,0,12,14],
@@ -241,13 +249,5 @@ var NAVTREEINDEX69 =
 "structMRRemeshSettings.html#ab58b49a00c7efe6fe7b4a2f423bfbab3":[6,0,2,0,58,8],
 "structMRRemeshSettings.html#abbafe7fdf1d4baf1a12add0274a6a7db":[6,0,2,0,58,5],
 "structMRRemeshSettings.html#ac8e31341ae62a21b0a026dd78bcb2a12":[6,0,2,0,58,2],
-"structMRRemeshSettings.html#ae1948ca96b6e8e0a5c7777ec08e18a3f":[6,0,2,0,58,0],
-"structMRResolveMeshDegenSettings.html":[6,0,2,0,59],
-"structMRResolveMeshDegenSettings.html#a40805f081847f33445b8c25f2288f1ca":[6,0,2,0,59,4],
-"structMRResolveMeshDegenSettings.html#a40b2f63f667fbab16bbd7d3496b7f8af":[6,0,2,0,59,0],
-"structMRResolveMeshDegenSettings.html#a8ae976fcf6c01ae956769a1e25746315":[6,0,2,0,59,1],
-"structMRResolveMeshDegenSettings.html#a9b77421321a8654f8bc72f883429a070":[6,0,2,0,59,2],
-"structMRResolveMeshDegenSettings.html#aaca7eab20af75f05a9c80d319d272697":[6,0,2,0,59,3],
-"structMRResolveMeshDegenSettings.html#ac7f4eb8239025008cd8575b29ac69bce":[6,0,2,0,59,5],
-"structMRSaveSettings.html":[6,0,2,0,60]
+"structMRRemeshSettings.html#ae1948ca96b6e8e0a5c7777ec08e18a3f":[6,0,2,0,58,0]
 };

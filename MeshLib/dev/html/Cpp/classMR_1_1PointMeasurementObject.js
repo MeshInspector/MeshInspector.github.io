@@ -10,11 +10,13 @@ var classMR_1_1PointMeasurementObject =
     [ "comparisonToleranceIsAlwaysOnlyPositive", "classMR_1_1PointMeasurementObject.html#a637a5b8ccb6f5960bb6cd7f00062ac5d", null ],
     [ "computeComparableProperty", "classMR_1_1PointMeasurementObject.html#a8ce121a7423e6fa308670d48fee0761f", null ],
     [ "deserializeFields_", "classMR_1_1PointMeasurementObject.html#aa9b595f58846314d64145f6224563839", null ],
+    [ "getAllVisualizeProperties", "classMR_1_1PointMeasurementObject.html#ac44e9caf1510826e5de34c71bd1f421c", null ],
     [ "getComparablePropertyName", "classMR_1_1PointMeasurementObject.html#a456c050996b14fe38e883c1216b179a7", null ],
     [ "getComparisonReferenceValue", "classMR_1_1PointMeasurementObject.html#a2502d60be202333d006f03e401e10678", null ],
     [ "getComparisonReferenceValueName", "classMR_1_1PointMeasurementObject.html#a5b3ba57a1c8309e5583843098e4db9df", null ],
     [ "getComparisonTolerence", "classMR_1_1PointMeasurementObject.html#a93ef05872a9f20c631b26b90e4ab53cc", null ],
     [ "getLocalPoint", "classMR_1_1PointMeasurementObject.html#a4f096d4ff6390ee1cabcf8d8cf0ef611", null ],
+    [ "getVisualizePropertyMask", "classMR_1_1PointMeasurementObject.html#adf8043ed27a7f7991ddbb7da81ed8a09", null ],
     [ "getWorldPoint", "classMR_1_1PointMeasurementObject.html#a13f8b97fa55a8edf13bc7411d644d805", null ],
     [ "numComparableProperties", "classMR_1_1PointMeasurementObject.html#aa1ffcc4fad5546ca7dee26151fb10630", null ],
     [ "numComparisonReferenceValues", "classMR_1_1PointMeasurementObject.html#afddca9da80584a50508e93a5d4fbd422", null ],
@@ -26,6 +28,7 @@ var classMR_1_1PointMeasurementObject =
     [ "setupRenderObject_", "classMR_1_1PointMeasurementObject.html#a204af2ade8b0b40f0c1233e4c7d2a625", null ],
     [ "setWorldPoint", "classMR_1_1PointMeasurementObject.html#aaae306c4977abf865c6cc08110ef00f9", null ],
     [ "shallowClone", "classMR_1_1PointMeasurementObject.html#a3900b0b2a1c555af5028468829a2ae82", null ],
+    [ "supportsVisualizeProperty", "classMR_1_1PointMeasurementObject.html#a0e98fb837af399d0beabc15ccb244735", null ],
     [ "swapBase_", "classMR_1_1PointMeasurementObject.html#ac48271380b514265ffc50f490fba6aff", null ],
     [ "typeName", "classMR_1_1PointMeasurementObject.html#a34bf1cdc06d67d92c5a859278440c05a", null ]
 ];

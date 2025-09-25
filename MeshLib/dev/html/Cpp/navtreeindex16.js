@@ -1,5 +1,7 @@
 var NAVTREEINDEX16 =
 {
+"MRTestC_2MRColor_8h.html#a9e67426543be9f41656281b15e05b577":[6,0,3,0,0,1,9,4,4],
+"MRTestC_2MRColor_8h.html#ac31b9045c8dae1b4d7fa3a1a8ae73c36":[6,0,3,0,0,1,9,4,3],
 "MRTestC_2MRColor_8h_source.html":[6,0,3,0,0,1,9,4],
 "MRTestC_2MRExpandShrink_8h.html":[6,0,3,0,0,1,9,5],
 "MRTestC_2MRExpandShrink_8h.html#a6fe71176bc46c348ef2ff68a130e28a6":[6,0,3,0,0,1,9,5,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX16 =
 "MRTupleBindings_8h.html#aac529af9159db98123ad959d1708a303":[6,0,3,0,0,1,4,392,2],
 "MRTupleBindings_8h.html#aae733878440cead52d3fc2fd6c4429b9":[6,0,3,0,0,1,4,392,1],
 "MRTupleBindings_8h.html#ab1cf2ee509740a5f5564fce176ac6b05":[6,0,3,0,0,1,4,392,8],
-"MRTupleBindings_8h.html#ac87e12b44af38ae6f625b3bc7749aec7":[6,0,3,0,0,1,4,392,3],
-"MRTupleBindings_8h.html#ada36a4ce0d1d0bf666e421ec3cb00f39":[6,0,3,0,0,1,4,392,4],
-"MRTupleBindings_8h.html#adb3a21b01f96eab713fd525c22ba5569":[6,0,3,0,0,1,4,392,15]
+"MRTupleBindings_8h.html#ac87e12b44af38ae6f625b3bc7749aec7":[6,0,3,0,0,1,4,392,3]
 };

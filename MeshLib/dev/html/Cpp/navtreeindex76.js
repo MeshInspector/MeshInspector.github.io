@@ -1,5 +1,13 @@
 var NAVTREEINDEX76 =
 {
+"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1ConeSegment_00_01Primitives_1_1Sphere_01_4.html":[6,0,2,0,1,2,1,2],
+"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1ConeSegment_00_01Primitives_1_1Sphere_01_4.html#a385a1aa67d30c28d96c3b353b2301288":[6,0,1,0,1,6,1,2,0],
+"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1ConeSegment_00_01Primitives_1_1Sphere_01_4.html#a385a1aa67d30c28d96c3b353b2301288":[6,0,2,0,1,2,1,2,0],
+"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1ConeSegment_01_4.html":[6,0,1,0,1,6,1,3],
+"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1ConeSegment_01_4.html":[6,0,2,0,1,2,1,3],
+"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1ConeSegment_01_4.html#a182d33e799ffdd3e42408fedd13b3720":[6,0,1,0,1,6,1,3,0],
+"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1ConeSegment_01_4.html#a182d33e799ffdd3e42408fedd13b3720":[6,0,2,0,1,2,1,3,0],
+"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Plane_01_4.html":[6,0,1,0,1,6,1,4],
 "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Plane_01_4.html":[6,0,2,0,1,2,1,4],
 "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Plane_01_4.html#a21d958650e567c81e194e8d73d8b2107":[6,0,1,0,1,6,1,4,0],
 "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Plane_01_4.html#a21d958650e567c81e194e8d73d8b2107":[6,0,2,0,1,2,1,4,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX76 =
 "structMR_1_1FixMeshDegeneraciesParams.html#a5c91e8c36061ca0e6a68afef44486f42a0bf6dee16a4d7f43f80c7ab2f6157c10":[6,0,0,9,4,0,0,1],
 "structMR_1_1FixMeshDegeneraciesParams.html#a5c91e8c36061ca0e6a68afef44486f42a4e891fd0a3fb80f7f59fe0f768d95554":[6,0,0,9,4,0,0,0],
 "structMR_1_1FixMeshDegeneraciesParams.html#a5c91e8c36061ca0e6a68afef44486f42afdff1c7af1a0e17ae94181b693bb5de7":[6,0,0,9,4,0,0,2],
-"structMR_1_1FixMeshDegeneraciesParams.html#a78bb997d121e9c191fabce84d8f05980":[6,0,0,9,4,0,2],
-"structMR_1_1FixMeshDegeneraciesParams.html#a7fb7943cde7ab98ddfd5ffe1d1f4170e":[6,0,0,9,4,0,8],
-"structMR_1_1FixMeshDegeneraciesParams.html#adbf34724488c4de119231db46448de01":[6,0,0,9,4,0,7],
-"structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html":[6,0,1,0,1,9,0],
-"structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html":[6,0,2,0,1,5,0],
-"structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html#a865b6dc16827bcf5024f2e675a74e8e0":[6,0,1,0,1,9,0,0],
-"structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html#a865b6dc16827bcf5024f2e675a74e8e0":[6,0,2,0,1,5,0,0],
-"structMR_1_1FixUndercuts_1_1FindParams.html":[6,0,1,0,1,9,1],
-"structMR_1_1FixUndercuts_1_1FindParams.html":[6,0,2,0,1,5,1]
+"structMR_1_1FixMeshDegeneraciesParams.html#a78bb997d121e9c191fabce84d8f05980":[6,0,0,9,4,0,2]
 };

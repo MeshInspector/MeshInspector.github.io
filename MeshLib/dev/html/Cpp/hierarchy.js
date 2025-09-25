@@ -1320,6 +1320,7 @@ var hierarchy =
       [ "MR::IsVisualizeMaskEnum< LabelVisualizePropertyType >", "structMR_1_1IsVisualizeMaskEnum_3_01LabelVisualizePropertyType_01_4.html", null ],
       [ "MR::IsVisualizeMaskEnum< LinesVisualizePropertyType >", "structMR_1_1IsVisualizeMaskEnum_3_01LinesVisualizePropertyType_01_4.html", null ],
       [ "MR::IsVisualizeMaskEnum< MeshVisualizePropertyType >", "structMR_1_1IsVisualizeMaskEnum_3_01MeshVisualizePropertyType_01_4.html", null ],
+      [ "MR::IsVisualizeMaskEnum< PointMeasurementVisualizePropertyType >", "structMR_1_1IsVisualizeMaskEnum_3_01PointMeasurementVisualizePropertyType_01_4.html", null ],
       [ "MR::IsVisualizeMaskEnum< PointsVisualizePropertyType >", "structMR_1_1IsVisualizeMaskEnum_3_01PointsVisualizePropertyType_01_4.html", null ],
       [ "MR::IsVisualizeMaskEnum< VisualizeMaskType >", "structMR_1_1IsVisualizeMaskEnum_3_01VisualizeMaskType_01_4.html", null ]
     ] ],
