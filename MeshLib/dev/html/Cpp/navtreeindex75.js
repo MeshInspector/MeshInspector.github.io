@@ -1,5 +1,7 @@
 var NAVTREEINDEX75 =
 {
+"structMR_1_1EndMillCutter.html#a345bf16216bfaccfd158af74e386acbc":[6,0,1,0,1,230,4],
+"structMR_1_1EndMillCutter.html#a345bf16216bfaccfd158af74e386acbc":[6,0,2,0,1,211,4],
 "structMR_1_1EndMillCutter.html#a70c992b2d214834d246a23811425f9d8":[6,0,1,0,1,230,1],
 "structMR_1_1EndMillCutter.html#a70c992b2d214834d246a23811425f9d8":[6,0,2,0,1,211,1],
 "structMR_1_1EndMillCutter.html#a81eafe021d71d7fb7b20c845dc847c94":[6,0,1,0,1,230,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX75 =
 "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Sphere_01_4.html":[6,0,1,0,1,6,1,5],
 "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Sphere_01_4.html":[6,0,2,0,1,2,1,5],
 "structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Sphere_01_4.html#a21b9de9268120c982f8c3838220d8cc7":[6,0,1,0,1,6,1,5,0],
-"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Sphere_01_4.html#a21b9de9268120c982f8c3838220d8cc7":[6,0,2,0,1,2,1,5,0],
-"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Sphere_00_01Primitives_1_1Sphere_01_4.html":[6,0,1,0,1,6,1,6],
-"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Sphere_00_01Primitives_1_1Sphere_01_4.html":[6,0,2,0,1,2,1,6]
+"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Plane_00_01Primitives_1_1Sphere_01_4.html#a21b9de9268120c982f8c3838220d8cc7":[6,0,2,0,1,2,1,5,0]
 };

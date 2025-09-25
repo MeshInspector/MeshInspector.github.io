@@ -1,5 +1,7 @@
 var NAVTREEINDEX40 =
 {
+"classMR_1_1RadiusMeasurementObject.html#afd09bfdf435a2c589bea011e532c6ecc":[6,0,2,0,1,561,19],
+"classMR_1_1RangeCounter.html":[6,0,1,0,1,581],
 "classMR_1_1RangeCounter.html":[6,0,2,0,1,562],
 "classMR_1_1RangeCounter.html#a2843b3697415f694e48b3921d0b244d8":[6,0,1,0,1,581,0],
 "classMR_1_1RangeCounter.html#a2843b3697415f694e48b3921d0b244d8":[6,0,2,0,1,562,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX40 =
 "classMR_1_1RenderFeatures_1_1RenderFeaturePointsComponent.html":[6,0,2,0,1,20,7],
 "classMR_1_1RenderFeatures_1_1RenderFeaturePointsComponent.html#a142237d698d085d466a1d8c2177ddafe":[6,0,1,0,1,35,7,0],
 "classMR_1_1RenderFeatures_1_1RenderFeaturePointsComponent.html#a142237d698d085d466a1d8c2177ddafe":[6,0,2,0,1,20,7,0],
-"classMR_1_1RenderFeatures_1_1RenderLineFeatureObject.html":[6,0,1,0,1,35,8],
-"classMR_1_1RenderFeatures_1_1RenderLineFeatureObject.html":[6,0,2,0,1,20,8],
-"classMR_1_1RenderFeatures_1_1RenderLineFeatureObject.html#a16f0d7d2ad6cf590fa1c26626ad43195":[6,0,1,0,1,35,8,0]
+"classMR_1_1RenderFeatures_1_1RenderLineFeatureObject.html":[6,0,1,0,1,35,8]
 };

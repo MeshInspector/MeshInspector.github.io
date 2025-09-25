@@ -1,5 +1,7 @@
 var NAVTREEINDEX74 =
 {
+"structMR_1_1DoubleOffsetSettings.html#a1cadab99fc35f1301c687dea94206707":[6,0,2,0,1,191,1],
+"structMR_1_1DoubleOffsetSettings.html#a2ea174fec10de72e248dbb0a5e1073d8":[6,0,1,0,1,210,5],
 "structMR_1_1DoubleOffsetSettings.html#a2ea174fec10de72e248dbb0a5e1073d8":[6,0,2,0,1,191,5],
 "structMR_1_1DoubleOffsetSettings.html#a53b1276a0dd7d52159b86fe6633c89f4":[6,0,1,0,1,210,3],
 "structMR_1_1DoubleOffsetSettings.html#a53b1276a0dd7d52159b86fe6633c89f4":[6,0,2,0,1,191,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX74 =
 "structMR_1_1EmbeddedStructureParameters.html#abaade64848830680e26108a772fd1350":[6,0,1,0,1,229,4],
 "structMR_1_1EmbeddedStructureParameters.html#abaade64848830680e26108a772fd1350":[6,0,2,0,1,210,4],
 "structMR_1_1EndMillCutter.html":[6,0,1,0,1,230],
-"structMR_1_1EndMillCutter.html":[6,0,2,0,1,211],
-"structMR_1_1EndMillCutter.html#a345bf16216bfaccfd158af74e386acbc":[6,0,1,0,1,230,4],
-"structMR_1_1EndMillCutter.html#a345bf16216bfaccfd158af74e386acbc":[6,0,2,0,1,211,4]
+"structMR_1_1EndMillCutter.html":[6,0,2,0,1,211]
 };

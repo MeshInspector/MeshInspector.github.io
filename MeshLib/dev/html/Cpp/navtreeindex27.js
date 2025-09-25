@@ -1,5 +1,7 @@
 var NAVTREEINDEX27 =
 {
+"classMR_1_1Graph.html#a2dab2ce76e4259ff2c5d66ec4c68c98a":[6,0,2,0,1,266,14],
+"classMR_1_1Graph.html#a39fd49331c460c5a968a62a2140d2990":[6,0,1,0,1,285,15],
 "classMR_1_1Graph.html#a39fd49331c460c5a968a62a2140d2990":[6,0,2,0,1,266,15],
 "classMR_1_1Graph.html#a429f57208104bd4a3efcceeaa5ba4dce":[6,0,1,0,1,285,3],
 "classMR_1_1Graph.html#a429f57208104bd4a3efcceeaa5ba4dce":[6,0,2,0,1,266,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX27 =
 "classMR_1_1IRenderObject.html#adefa4d9a963e416cc21d7116749cdffe":[6,0,1,0,1,328,2],
 "classMR_1_1IRenderObject.html#adefa4d9a963e416cc21d7116749cdffe":[6,0,2,0,1,309,2],
 "classMR_1_1ISceneSelectionChange.html":[6,0,1,0,1,329],
-"classMR_1_1ISceneSelectionChange.html":[6,0,2,0,1,310],
-"classMR_1_1ISceneSelectionChange.html#a0e5a18c4e15ba23a7536d1511cb823b6":[6,0,1,0,1,329,1],
-"classMR_1_1ISceneSelectionChange.html#a0e5a18c4e15ba23a7536d1511cb823b6":[6,0,2,0,1,310,1]
+"classMR_1_1ISceneSelectionChange.html":[6,0,2,0,1,310]
 };

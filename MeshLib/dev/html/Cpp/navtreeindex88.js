@@ -1,5 +1,7 @@
 var NAVTREEINDEX88 =
 {
+"structMR_1_1Polyline.html#adb4149d3e094b89744f9831dac1103dd":[6,0,0,14,0,26],
+"structMR_1_1Polyline.html#adcd14ead7b771006dcdc733950976288":[6,0,0,14,0,35],
 "structMR_1_1Polyline.html#adcd9babfa09e9b253e4e80937c08fa6f":[6,0,0,14,0,28],
 "structMR_1_1Polyline.html#addf7be82ffec83205ba7adcd66001c5b":[6,0,0,14,0,23],
 "structMR_1_1Polyline.html#ae6187af336b61283c5118d9aca6f0a12":[6,0,0,14,0,20],
@@ -247,7 +249,5 @@ var NAVTREEINDEX88 =
 "structMR_1_1QuadraticForm.html#a613642585592285c402e51d9af48651a":[6,0,0,0,20,8],
 "structMR_1_1QuadraticForm.html#a6aa8242b430ea2a8b0c65ac776f01e69":[6,0,0,0,20,3],
 "structMR_1_1QuadraticForm.html#aa22182ab842edbfd36369edae2063b3c":[6,0,0,0,20,2],
-"structMR_1_1QuadraticForm.html#aaa0e315bd432a25ff55c9f30b926ffda":[6,0,0,0,20,10],
-"structMR_1_1QuadraticForm.html#ab0c3bc061463b886469241c7c3b17cd2":[6,0,0,0,20,7],
-"structMR_1_1QuadraticForm.html#abd84de324207ec889e01f594968dd8a1":[6,0,0,0,20,5]
+"structMR_1_1QuadraticForm.html#aaa0e315bd432a25ff55c9f30b926ffda":[6,0,0,0,20,10]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX71 =
 {
+"structMR_1_1BaseShellParameters.html#a21a919475b5c9882d80ab9a26dd60d50":[6,0,1,0,1,73,0],
+"structMR_1_1BaseShellParameters.html#a21a919475b5c9882d80ab9a26dd60d50":[6,0,2,0,1,54,0],
 "structMR_1_1BaseTiffParameters.html":[6,0,1,0,1,74],
 "structMR_1_1BaseTiffParameters.html":[6,0,2,0,1,55],
 "structMR_1_1BaseTiffParameters.html#a29407caa933d6665768b37358d7733e0":[6,0,1,0,1,74,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX71 =
 "structMR_1_1ChunkIterator.html#ad9459060feb2b5f7111c02781e75879c":[6,0,2,0,1,124,13],
 "structMR_1_1ChunkIterator.html#ae873581e7d1361e2837dad74512411f0":[6,0,1,0,1,143,12],
 "structMR_1_1ChunkIterator.html#ae873581e7d1361e2837dad74512411f0":[6,0,2,0,1,124,12],
-"structMR_1_1ChunkIterator.html#af4366e6dfa9d07ea87cbe5b372afe36e":[6,0,1,0,1,143,10],
-"structMR_1_1ChunkIterator.html#af4366e6dfa9d07ea87cbe5b372afe36e":[6,0,2,0,1,124,10],
-"structMR_1_1ChunkIterator.html#af99ba138aa910783abd6301c80706164":[6,0,1,0,1,143,3]
+"structMR_1_1ChunkIterator.html#af4366e6dfa9d07ea87cbe5b372afe36e":[6,0,1,0,1,143,10]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX68 =
 {
+"namespaceMR_1_1UI_1_1TestEngine_1_1detail.html#ac2f7518d44c7eb65bc5d01a679aa92b1":[6,0,1,0,1,42,2,0,3],
+"namespaceMR_1_1UI_1_1TestEngine_1_1detail.html#ac882563b64f6642213d1e878402bc2a4":[6,0,1,0,1,42,2,0,6],
 "namespaceMR_1_1UI_1_1TestEngine_1_1detail.html#aea3a5234b7dda295afcf90ff4f467aae":[6,0,1,0,1,42,2,0,5],
 "namespaceMR_1_1UI_1_1detail.html":[6,0,1,0,1,42,0],
 "namespaceMR_1_1UI_1_1detail.html#a725a5cb7e447bbae4a1ae586a0f981d9":[6,0,1,0,1,42,0,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX68 =
 "structMRDecimateSettings.html#ad43c7ad0a3072a5a93ec8e44e56be28a":[6,0,2,0,12,20],
 "structMRDecimateSettings.html#ad80f5a2ff69a7fe804e27ce7a20ba275":[6,0,2,0,12,15],
 "structMRDecimateSettings.html#af30ab932574161654a545582168d7f23":[6,0,2,0,12,17],
-"structMRDecimateSettings.html#af58a10c0e7e72a5fd0b9159736c8faaa":[6,0,2,0,12,13],
-"structMRDenoiseViaNormalsSettings.html":[6,0,2,0,13],
-"structMRDenoiseViaNormalsSettings.html#a541307655765642beba67c1d626b5d1e":[6,0,2,0,13,0]
+"structMRDecimateSettings.html#af58a10c0e7e72a5fd0b9159736c8faaa":[6,0,2,0,12,13]
 };

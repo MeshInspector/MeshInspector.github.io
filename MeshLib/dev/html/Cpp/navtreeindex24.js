@@ -1,5 +1,7 @@
 var NAVTREEINDEX24 =
 {
+"classMR_1_1DemoPlugin.html#a6be2d6bfd3895d3f759775a2843ed7fe":[6,0,2,0,1,168,0],
+"classMR_1_1DemoPlugin.html#afd0d013177b9745090ea82dd3e6321e7":[6,0,1,0,1,187,1],
 "classMR_1_1DemoPlugin.html#afd0d013177b9745090ea82dd3e6321e7":[6,0,2,0,1,168,1],
 "classMR_1_1DentalId.html":[6,0,1,0,1,190],
 "classMR_1_1DentalId.html":[6,0,2,0,1,171],
@@ -247,7 +249,5 @@ var NAVTREEINDEX24 =
 "classMR_1_1EdgePathsBuilderT.html#ae50a59bc1425eff2906ad0c18accbabc":[6,0,1,0,1,223,7],
 "classMR_1_1EdgePathsBuilderT.html#ae50a59bc1425eff2906ad0c18accbabc":[6,0,2,0,1,204,7],
 "classMR_1_1EmbeddedPython.html":[6,0,1,0,1,228],
-"classMR_1_1EmbeddedPython.html":[6,0,2,0,1,209],
-"classMR_1_1EnumNeihbourFaces.html":[6,0,1,0,1,232],
-"classMR_1_1EnumNeihbourFaces.html":[6,0,2,0,1,213]
+"classMR_1_1EmbeddedPython.html":[6,0,2,0,1,209]
 };

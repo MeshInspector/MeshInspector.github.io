@@ -1,5 +1,7 @@
 var NAVTREEINDEX39 =
 {
+"classMR_1_1PointToPlaneAligningTransform.html#a8555475cfcfcf18d967f750232989d78":[6,0,0,0,8,1,2],
+"classMR_1_1PointToPlaneAligningTransform.html#a85d1216f9a1a5ea606fc155ed9ffcd3c":[6,0,0,0,8,1,11],
 "classMR_1_1PointToPlaneAligningTransform.html#aaab037d0039ed961116c7af28bd59347":[6,0,0,0,8,1,6],
 "classMR_1_1PointToPlaneAligningTransform.html#ac7f842e0e3e90350579783534790080e":[6,0,0,0,8,1,4],
 "classMR_1_1PointToPlaneAligningTransform.html#ad0ef5fe0bddd87ee28ec85ec049e779f":[6,0,0,0,8,1,12],
@@ -247,7 +249,5 @@ var NAVTREEINDEX39 =
 "classMR_1_1RadiusMeasurementObject.html#af6ed0088150cdf029ec712982ec5df1c":[6,0,2,0,1,561,3],
 "classMR_1_1RadiusMeasurementObject.html#afccf6fe9560dab8bface087cf76efc94":[6,0,1,0,1,580,0],
 "classMR_1_1RadiusMeasurementObject.html#afccf6fe9560dab8bface087cf76efc94":[6,0,2,0,1,561,0],
-"classMR_1_1RadiusMeasurementObject.html#afd09bfdf435a2c589bea011e532c6ecc":[6,0,1,0,1,580,19],
-"classMR_1_1RadiusMeasurementObject.html#afd09bfdf435a2c589bea011e532c6ecc":[6,0,2,0,1,561,19],
-"classMR_1_1RangeCounter.html":[6,0,1,0,1,581]
+"classMR_1_1RadiusMeasurementObject.html#afd09bfdf435a2c589bea011e532c6ecc":[6,0,1,0,1,580,19]
 };

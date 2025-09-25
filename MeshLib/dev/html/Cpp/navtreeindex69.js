@@ -1,5 +1,7 @@
 var NAVTREEINDEX69 =
 {
+"structMRDenoiseViaNormalsSettings.html":[6,0,2,0,13],
+"structMRDenoiseViaNormalsSettings.html#a541307655765642beba67c1d626b5d1e":[6,0,2,0,13,0],
 "structMRDenoiseViaNormalsSettings.html#a61870a5eb66d1e95c15e6d2c945f58d8":[6,0,2,0,13,5],
 "structMRDenoiseViaNormalsSettings.html#a7adbffbe48f999ba44ccc2d6e50d3090":[6,0,2,0,13,6],
 "structMRDenoiseViaNormalsSettings.html#a9c96228a47b139c7c8fecc74f52faeb2":[6,0,2,0,13,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX69 =
 "structMRSaveSettings.html#ab91ad76d039a96d79720bce0772eb46b":[6,0,2,0,60,0],
 "structMRSphereParams.html":[6,0,2,0,61],
 "structMRSphereParams.html#a4439c01e0e27173543a6da34336b2024":[6,0,2,0,61,1],
-"structMRSphereParams.html#a5f59105f7d8815267e7e295ce861e739":[6,0,2,0,61,0],
-"structMRStitchHolesParams.html":[6,0,2,0,62],
-"structMRStitchHolesParams.html#ab1a3eda7adaffbeaa8f8a7da237d2888":[6,0,2,0,62,1]
+"structMRSphereParams.html#a5f59105f7d8815267e7e295ce861e739":[6,0,2,0,61,0]
 };
