@@ -263,6 +263,8 @@ Functions</h2></td></tr>
 <tr class="separator:a1bafe719df4923928dda826c343591e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a19cc1ed9b99d25f16b7f69c7fd834b" id="r_a2a19cc1ed9b99d25f16b7f69c7fd834b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a19cc1ed9b99d25f16b7f69c7fd834b">MR_PointMeasurementObject_setLocalPoint</a> (<a class="el" href="MRMeasurementObject_8h.html#a749cca566de75c01b7c4210dfd5ab596">MR_PointMeasurementObject</a> *_this, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *point, const <a class="el" href="structMR__ViewportId.html">MR_ViewportId</a> *id)</td></tr>
 <tr class="separator:a2a19cc1ed9b99d25f16b7f69c7fd834b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4864f8adaa3adda33decd88c7b3c2eb3" id="r_a4864f8adaa3adda33decd88c7b3c2eb3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4864f8adaa3adda33decd88c7b3c2eb3">MR_PointMeasurementObject_setWorldPoint</a> (<a class="el" href="MRMeasurementObject_8h.html#a749cca566de75c01b7c4210dfd5ab596">MR_PointMeasurementObject</a> *_this, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *point, const <a class="el" href="structMR__ViewportId.html">MR_ViewportId</a> *id)</td></tr>
+<tr class="separator:a4864f8adaa3adda33decd88c7b3c2eb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a469081f25818b14d804b5fb588e8b929" id="r_a469081f25818b14d804b5fb588e8b929"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a469081f25818b14d804b5fb588e8b929">MR_PointMeasurementObject_numComparableProperties</a> (const <a class="el" href="MRMeasurementObject_8h.html#a749cca566de75c01b7c4210dfd5ab596">MR_PointMeasurementObject</a> *_this)</td></tr>
 <tr class="separator:a469081f25818b14d804b5fb588e8b929"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b142398101cd94592a4134ff1f1ffff" id="r_a2b142398101cd94592a4134ff1f1ffff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRDistanceMeasurementObject_8h.html#a169b2cb1c4b9a267fdcd4b388a456d37">MR_std_string_view</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b142398101cd94592a4134ff1f1ffff">MR_PointMeasurementObject_getComparablePropertyName</a> (const <a class="el" href="MRMeasurementObject_8h.html#a749cca566de75c01b7c4210dfd5ab596">MR_PointMeasurementObject</a> *_this, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> i)</td></tr>
@@ -1129,6 +1131,33 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>updates xf to fit given point Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PointMeasurementObject.html">MR::PointMeasurementObject</a></code> named <code>setLocalPoint</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>point</code> can not be null. It is a single object. Parameter <code>id</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </p>
+
+</div>
+</div>
+<a id="a4864f8adaa3adda33decd88c7b3c2eb3" name="a4864f8adaa3adda33decd88c7b3c2eb3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4864f8adaa3adda33decd88c7b3c2eb3">&#9670;&#160;</a></span>MR_PointMeasurementObject_setWorldPoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_PointMeasurementObject_setWorldPoint </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="MRMeasurementObject_8h.html#a749cca566de75c01b7c4210dfd5ab596">MR_PointMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>point</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR__ViewportId.html">MR_ViewportId</a> *</td>          <td class="paramname"><span class="paramname"><em>id</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1PointMeasurementObject.html">MR::PointMeasurementObject</a></code> named <code>setWorldPoint</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>point</code> can not be null. It is a single object. Parameter <code>id</code> has a default argument: <code>{}</code>, pass a null pointer to use it. </p>
 
 </div>
 </div>

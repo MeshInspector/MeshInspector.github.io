@@ -1,5 +1,9 @@
 var NAVTREEINDEX94 =
 {
+"structMR_1_1TriangleSegmentIntersectResult.html#a44ebc6eac0ba7a7421c713970a69f480":[6,0,2,0,1,742,0],
+"structMR_1_1TriangleSegmentIntersectResult.html#a8676a2019b59ed30aa2204aef62a8ff8":[6,0,1,0,1,761,2],
+"structMR_1_1TriangleSegmentIntersectResult.html#a8676a2019b59ed30aa2204aef62a8ff8":[6,0,2,0,1,742,2],
+"structMR_1_1TriangleSegmentIntersectResult.html#ad6af3b8ab26b46c4d6592c534e9b59c8":[6,0,1,0,1,761,1],
 "structMR_1_1TriangleSegmentIntersectResult.html#ad6af3b8ab26b46c4d6592c534e9b59c8":[6,0,2,0,1,742,1],
 "structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html":[6,0,1,0,1,41,0],
 "structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html":[6,0,2,0,1,24,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX94 =
 "structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value.html":[6,0,2,0,1,25,0,4,0],
 "structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value.html#a0c53df5fe946d2f3a130df1ba36cc8dc":[6,0,1,0,1,42,2,4,0,0],
 "structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value.html#a0c53df5fe946d2f3a130df1ba36cc8dc":[6,0,2,0,1,25,0,4,0,0],
-"structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value.html#aa7bef794128e145f7ef27bb57872e2de":[6,0,1,0,1,42,2,4,0,1],
-"structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value.html#aa7bef794128e145f7ef27bb57872e2de":[6,0,2,0,1,25,0,4,0,1],
-"structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value.html#aaa2f88e1c672ce3881f126bcb168693b":[6,0,1,0,1,42,2,4,0,4],
-"structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value.html#aaa2f88e1c672ce3881f126bcb168693b":[6,0,2,0,1,25,0,4,0,4],
-"structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value.html#ad03470ce1d0b8fc32529eae1388ddcdd":[6,0,1,0,1,42,2,4,0,2]
+"structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value.html#aa7bef794128e145f7ef27bb57872e2de":[6,0,1,0,1,42,2,4,0,1]
 };

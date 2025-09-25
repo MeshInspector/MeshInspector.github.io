@@ -24,6 +24,7 @@ var classMR_1_1PointMeasurementObject =
     [ "setComparisonTolerance", "classMR_1_1PointMeasurementObject.html#ab556527a39bd0b6f01016764e6bd2c66", null ],
     [ "setLocalPoint", "classMR_1_1PointMeasurementObject.html#a71c4ad5ffa51590212c574a6aec07f8b", null ],
     [ "setupRenderObject_", "classMR_1_1PointMeasurementObject.html#a204af2ade8b0b40f0c1233e4c7d2a625", null ],
+    [ "setWorldPoint", "classMR_1_1PointMeasurementObject.html#aaae306c4977abf865c6cc08110ef00f9", null ],
     [ "shallowClone", "classMR_1_1PointMeasurementObject.html#a3900b0b2a1c555af5028468829a2ae82", null ],
     [ "swapBase_", "classMR_1_1PointMeasurementObject.html#ac48271380b514265ffc50f490fba6aff", null ],
     [ "typeName", "classMR_1_1PointMeasurementObject.html#a34bf1cdc06d67d92c5a859278440c05a", null ]

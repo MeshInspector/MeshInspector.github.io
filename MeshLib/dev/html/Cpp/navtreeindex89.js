@@ -1,5 +1,9 @@
 var NAVTREEINDEX89 =
 {
+"structMR_1_1QuadraticForm.html#adea6aa750372ae79cb7d305a5f939f50":[6,0,0,0,20,0],
+"structMR_1_1QuadraticForm.html#ae2db52d249d73990155ac0aee19ecdf7":[6,0,0,0,20,9],
+"structMR_1_1QuadraticForm.html#afacdc7d86d21e277ea2c254a90c29b61":[6,0,0,0,20,6],
+"structMR_1_1Quaternion.html":[6,0,0,0,21],
 "structMR_1_1Quaternion.html#a0267d5aee3f765c24fb3f40ad811f9b4":[6,0,0,0,21,22],
 "structMR_1_1Quaternion.html#a1265e8d1076efd17d1c3b70cb310480e":[6,0,0,0,21,5],
 "structMR_1_1Quaternion.html#a14d0a626cbd31413d550eea26b9e3303":[6,0,0,0,21,30],
@@ -245,9 +249,5 @@ var NAVTREEINDEX89 =
 "structMR_1_1RibbonConfig.html#a678575ecbadf5b880fab6e6072873ee5":[6,0,1,0,1,615,2],
 "structMR_1_1RibbonConfig.html#a678575ecbadf5b880fab6e6072873ee5":[6,0,2,0,1,596,2],
 "structMR_1_1RibbonConfig.html#ac2c7bf907acefc60264b250f1af05e61":[6,0,1,0,1,615,3],
-"structMR_1_1RibbonConfig.html#ac2c7bf907acefc60264b250f1af05e61":[6,0,2,0,1,596,3],
-"structMR_1_1RibbonConfig.html#afccbd7944f12542b4f6d3f27184a4633":[6,0,1,0,1,615,4],
-"structMR_1_1RibbonConfig.html#afccbd7944f12542b4f6d3f27184a4633":[6,0,2,0,1,596,4],
-"structMR_1_1RibbonMenuSearch_1_1Parameters.html":[6,0,1,0,1,623,0],
-"structMR_1_1RibbonMenuSearch_1_1Parameters.html":[6,0,2,0,1,604,0]
+"structMR_1_1RibbonConfig.html#ac2c7bf907acefc60264b250f1af05e61":[6,0,2,0,1,596,3]
 };

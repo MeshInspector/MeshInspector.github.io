@@ -78,6 +78,7 @@ var MRObjectComparableWithReference_8h =
     [ "MR_ObjectComparableWithReference_numComparisonReferenceValues", "MRObjectComparableWithReference_8h.html#a79044cba2a7f1f5d6b251e8a8c6363a1", null ],
     [ "MR_ObjectComparableWithReference_OffsetMutablePtr", "MRObjectComparableWithReference_8h.html#ad864b79b89def207a4afc87a75ad2f43", null ],
     [ "MR_ObjectComparableWithReference_OffsetPtr", "MRObjectComparableWithReference_8h.html#a97c43994005202de40e0d3d4288baae6", null ],
+    [ "MR_ObjectComparableWithReference_setComparisonReferenceVal", "MRObjectComparableWithReference_8h.html#ae71d7f978b36e36e9aaf77c6d7067bc5", null ],
     [ "MR_ObjectComparableWithReference_setComparisonReferenceValue", "MRObjectComparableWithReference_8h.html#a0e6358d8dbb8f9e348659ef26d8f576b", null ],
     [ "MR_ObjectComparableWithReference_setComparisonTolerance", "MRObjectComparableWithReference_8h.html#a89e3548f3b2930bf3f006c9b28320169", null ],
     [ "MR_ObjectComparableWithReference_StaticDowncastTo_MR_DistanceMeasurementObject", "MRObjectComparableWithReference_8h.html#ad28694d5b22342a94e7bf263c5ae7bef", null ],

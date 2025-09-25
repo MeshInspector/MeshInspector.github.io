@@ -17,6 +17,7 @@ var classMR_1_1ObjectComparableWithReference =
     [ "numComparisonReferenceValues", "classMR_1_1ObjectComparableWithReference.html#a7e386df110c9d0fa3c799cf002cbc845", null ],
     [ "operator=", "classMR_1_1ObjectComparableWithReference.html#ad1905b7160fa76212ab3913f59d132ce", null ],
     [ "operator=", "classMR_1_1ObjectComparableWithReference.html#a6079e4aac0a4e04a8055a9f639264096", null ],
+    [ "setComparisonReferenceVal", "classMR_1_1ObjectComparableWithReference.html#a09b21bda8f6435e0b9c520c31f2607ed", null ],
     [ "setComparisonReferenceValue", "classMR_1_1ObjectComparableWithReference.html#acb98cc0c1aa80731b206a983e8e79b0a", null ],
     [ "setComparisonTolerance", "classMR_1_1ObjectComparableWithReference.html#a7df2402af378c17572454d7492ba7eec", null ]
 ];

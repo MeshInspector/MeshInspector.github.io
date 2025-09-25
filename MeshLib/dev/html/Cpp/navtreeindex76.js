@@ -1,5 +1,9 @@
 var NAVTREEINDEX76 =
 {
+"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Sphere_00_01Primitives_1_1Sphere_01_4.html#a9c244f51235da14d2ff3e28d232e0015":[6,0,1,0,1,6,1,6,0],
+"structMR_1_1Features_1_1Traits_1_1Binary_3_01Primitives_1_1Sphere_00_01Primitives_1_1Sphere_01_4.html#a9c244f51235da14d2ff3e28d232e0015":[6,0,2,0,1,2,1,6,0],
+"structMR_1_1Features_1_1Traits_1_1Unary.html":[6,0,1,0,1,6,1,7],
+"structMR_1_1Features_1_1Traits_1_1Unary.html":[6,0,2,0,1,2,1,7],
 "structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1ConeSegment_01_4.html":[6,0,1,0,1,6,1,8],
 "structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1ConeSegment_01_4.html":[6,0,2,0,1,2,1,8],
 "structMR_1_1Features_1_1Traits_1_1Unary_3_01Primitives_1_1ConeSegment_01_4.html#a5c925dcac2e6ec9e5b0423871da7b408":[6,0,1,0,1,6,1,8,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX76 =
 "structMR_1_1FixUndercuts_1_1FixParams.html":[6,0,2,0,1,5,2],
 "structMR_1_1FixUndercuts_1_1FixParams.html#a0b82b3ed40ea6b099489b664630a2e27":[6,0,1,0,1,9,2,0],
 "structMR_1_1FixUndercuts_1_1FixParams.html#a0b82b3ed40ea6b099489b664630a2e27":[6,0,2,0,1,5,2,0],
-"structMR_1_1FixUndercuts_1_1FixParams.html#a563ee145e303eb2d0a3cd31b71ca7344":[6,0,1,0,1,9,2,1],
-"structMR_1_1FixUndercuts_1_1FixParams.html#a563ee145e303eb2d0a3cd31b71ca7344":[6,0,2,0,1,5,2,1],
-"structMR_1_1FixUndercuts_1_1FixParams.html#a6d4290fa46807217ffa96e93f832b506":[6,0,1,0,1,9,2,5],
-"structMR_1_1FixUndercuts_1_1FixParams.html#a6d4290fa46807217ffa96e93f832b506":[6,0,2,0,1,5,2,5],
-"structMR_1_1FixUndercuts_1_1FixParams.html#a86fb3b02eb0f9d3df9cdeb8e1b66ca22":[6,0,1,0,1,9,2,4]
+"structMR_1_1FixUndercuts_1_1FixParams.html#a563ee145e303eb2d0a3cd31b71ca7344":[6,0,1,0,1,9,2,1]
 };

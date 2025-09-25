@@ -1,5 +1,9 @@
 var NAVTREEINDEX129 =
 {
+"classmrmeshpy_1_1std__optional__Vector3__float.html#a89c822546f4e060d881d57a17152b97e":[6,1,0,0,2,832,1],
+"classmrmeshpy_1_1std__optional__Vector3__float.html#a89c822546f4e060d881d57a17152b97e":[6,1,1,0,1,832,1],
+"classmrmeshpy_1_1std__optional__Vector__std__array__Id__VertTag__2ul__Id__UndirectedEdgeTag.html":[6,1,0,0,2,833],
+"classmrmeshpy_1_1std__optional__Vector__std__array__Id__VertTag__2ul__Id__UndirectedEdgeTag.html":[6,1,1,0,1,833],
 "classmrmeshpy_1_1std__optional__Vector__std__array__Id__VertTag__2ul__Id__UndirectedEdgeTag.html#a105b6d76f77a40324f2a652213966d22":[6,1,0,0,2,833,0],
 "classmrmeshpy_1_1std__optional__Vector__std__array__Id__VertTag__2ul__Id__UndirectedEdgeTag.html#a105b6d76f77a40324f2a652213966d22":[6,1,1,0,1,833,0],
 "classmrmeshpy_1_1std__optional__Vector__std__array__Id__VertTag__2ul__Id__UndirectedEdgeTag.html#a32f3117cd7e5d29860629c1df4ce82cf":[6,1,0,0,2,833,4],
@@ -245,9 +249,5 @@ var NAVTREEINDEX129 =
 "classmrmeshpy_1_1std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomial__float6d172424a64a8d1a395e20db43ad7e51.html#ad7039f72985cce99f2fe4f64de506e4c":[6,1,0,0,2,843,13],
 "classmrmeshpy_1_1std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomial__float6d172424a64a8d1a395e20db43ad7e51.html#ad7039f72985cce99f2fe4f64de506e4c":[6,1,1,0,1,843,13],
 "classmrmeshpy_1_1std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomial__float6d172424a64a8d1a395e20db43ad7e51.html#ae409c0b328db61754197b1a3bff6a10f":[6,1,0,0,2,843,11],
-"classmrmeshpy_1_1std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomial__float6d172424a64a8d1a395e20db43ad7e51.html#ae409c0b328db61754197b1a3bff6a10f":[6,1,1,0,1,843,11],
-"classmrmeshpy_1_1std__variant__Sphere__Vector3__float__Features__Primitives__ConeSegment__Features__Primitives__Plane.html":[6,1,0,0,2,844],
-"classmrmeshpy_1_1std__variant__Sphere__Vector3__float__Features__Primitives__ConeSegment__Features__Primitives__Plane.html":[6,1,1,0,1,844],
-"classmrmeshpy_1_1std__variant__Sphere__Vector3__float__Features__Primitives__ConeSegment__Features__Primitives__Plane.html#a1fa773f527483391079941c50f2b1fac":[6,1,0,0,2,844,7],
-"classmrmeshpy_1_1std__variant__Sphere__Vector3__float__Features__Primitives__ConeSegment__Features__Primitives__Plane.html#a1fa773f527483391079941c50f2b1fac":[6,1,1,0,1,844,7]
+"classmrmeshpy_1_1std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomial__float6d172424a64a8d1a395e20db43ad7e51.html#ae409c0b328db61754197b1a3bff6a10f":[6,1,1,0,1,843,11]
 };

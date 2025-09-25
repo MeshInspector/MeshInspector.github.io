@@ -17,6 +17,7 @@ var classmrmeshpy_1_1PointMeasurementObject =
     [ "setComparisonReferenceValue", "classmrmeshpy_1_1PointMeasurementObject.html#aa5035b534508ad1aea7878908e596845", null ],
     [ "setComparisonTolerance", "classmrmeshpy_1_1PointMeasurementObject.html#a5c502ea504e393cc4ed2f1dee3b1edf0", null ],
     [ "setLocalPoint", "classmrmeshpy_1_1PointMeasurementObject.html#abdf28b760fd30cb7c575d72f5c9271af", null ],
+    [ "setWorldPoint", "classmrmeshpy_1_1PointMeasurementObject.html#a3167c75ba52a4af83673625c2b1bd289", null ],
     [ "shallowClone", "classmrmeshpy_1_1PointMeasurementObject.html#aaa720c51c066293abe68efa3b0d3737d", null ],
     [ "typeName", "classmrmeshpy_1_1PointMeasurementObject.html#a09139b86ecb13053fd45bf8ca3549f33", null ]
 ];

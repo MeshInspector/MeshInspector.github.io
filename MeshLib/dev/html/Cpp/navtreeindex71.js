@@ -1,5 +1,9 @@
 var NAVTREEINDEX71 =
 {
+"structMR_1_1BaseTiffParameters.html":[6,0,1,0,1,74],
+"structMR_1_1BaseTiffParameters.html":[6,0,2,0,1,55],
+"structMR_1_1BaseTiffParameters.html#a29407caa933d6665768b37358d7733e0":[6,0,1,0,1,74,1],
+"structMR_1_1BaseTiffParameters.html#a29407caa933d6665768b37358d7733e0":[6,0,2,0,1,55,1],
 "structMR_1_1BaseTiffParameters.html#a29407caa933d6665768b37358d7733e0a88183b946cc5f0e8c96b2e66e1c74a7e":[6,0,1,0,1,74,1,0],
 "structMR_1_1BaseTiffParameters.html#a29407caa933d6665768b37358d7733e0a88183b946cc5f0e8c96b2e66e1c74a7e":[6,0,2,0,1,55,1,0],
 "structMR_1_1BaseTiffParameters.html#a29407caa933d6665768b37358d7733e0a889574aebacda6bfd3e534e2b49b8028":[6,0,1,0,1,74,1,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX71 =
 "structMR_1_1ChunkIterator.html#ae873581e7d1361e2837dad74512411f0":[6,0,2,0,1,124,12],
 "structMR_1_1ChunkIterator.html#af4366e6dfa9d07ea87cbe5b372afe36e":[6,0,1,0,1,143,10],
 "structMR_1_1ChunkIterator.html#af4366e6dfa9d07ea87cbe5b372afe36e":[6,0,2,0,1,124,10],
-"structMR_1_1ChunkIterator.html#af99ba138aa910783abd6301c80706164":[6,0,1,0,1,143,3],
-"structMR_1_1ChunkIterator.html#af99ba138aa910783abd6301c80706164":[6,0,2,0,1,124,3],
-"structMR_1_1CloudPartMapping.html":[6,0,1,0,1,145],
-"structMR_1_1CloudPartMapping.html":[6,0,2,0,1,126],
-"structMR_1_1CloudPartMapping.html#a067263261bdd0276850b5722ebbdb8f1":[6,0,1,0,1,145,1]
+"structMR_1_1ChunkIterator.html#af99ba138aa910783abd6301c80706164":[6,0,1,0,1,143,3]
 };

@@ -199,6 +199,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a71c4ad5ffa51590212c574a6aec07f8b" id="r_a71c4ad5ffa51590212c574a6aec07f8b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71c4ad5ffa51590212c574a6aec07f8b">setLocalPoint</a> (const Vector3f &amp;point, <a class="el" href="classMR_1_1ViewportId.html">ViewportId</a> id={})</td></tr>
 <tr class="memdesc:a71c4ad5ffa51590212c574a6aec07f8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">updates xf to fit given point  <br /></td></tr>
 <tr class="separator:a71c4ad5ffa51590212c574a6aec07f8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaae306c4977abf865c6cc08110ef00f9" id="r_aaae306c4977abf865c6cc08110ef00f9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaae306c4977abf865c6cc08110ef00f9">setWorldPoint</a> (const Vector3f &amp;point, <a class="el" href="classMR_1_1ViewportId.html">ViewportId</a> id={})</td></tr>
+<tr class="separator:aaae306c4977abf865c6cc08110ef00f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1ffcc4fad5546ca7dee26151fb10630" id="r_aa1ffcc4fad5546ca7dee26151fb10630"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1ffcc4fad5546ca7dee26151fb10630">numComparableProperties</a> () const override</td></tr>
 <tr class="separator:aa1ffcc4fad5546ca7dee26151fb10630"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a456c050996b14fe38e883c1216b179a7" id="r_a456c050996b14fe38e883c1216b179a7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::string_view&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a456c050996b14fe38e883c1216b179a7">getComparablePropertyName</a> (std::size_t i) const override</td></tr>
@@ -572,6 +574,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad1905b7160fa76212ab3913f59d132ce inherit pub_methods_classMR_1_1ObjectComparableWithReference"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6079e4aac0a4e04a8055a9f639264096 inherit pub_methods_classMR_1_1ObjectComparableWithReference" id="r_a6079e4aac0a4e04a8055a9f639264096"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1ObjectComparableWithReference.html">ObjectComparableWithReference</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectComparableWithReference.html#a6079e4aac0a4e04a8055a9f639264096">operator=</a> (<a class="el" href="classMR_1_1ObjectComparableWithReference.html">ObjectComparableWithReference</a> &amp;&amp;)=default</td></tr>
 <tr class="separator:a6079e4aac0a4e04a8055a9f639264096 inherit pub_methods_classMR_1_1ObjectComparableWithReference"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09b21bda8f6435e0b9c520c31f2607ed inherit pub_methods_classMR_1_1ObjectComparableWithReference" id="r_a09b21bda8f6435e0b9c520c31f2607ed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ObjectComparableWithReference.html#a09b21bda8f6435e0b9c520c31f2607ed">setComparisonReferenceVal</a> (std::size_t i, const <a class="el" href="structMR_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue.html">ComparisonReferenceValue</a> &amp;value)</td></tr>
+<tr class="separator:a09b21bda8f6435e0b9c520c31f2607ed inherit pub_methods_classMR_1_1ObjectComparableWithReference"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -1419,6 +1423,27 @@ Additional Inherited Members</h2></td></tr>
 <p>each renderable child of <a class="el" href="classMR_1_1VisualObject.html" title="Visual Object.">VisualObject</a> should implement this method and assign renderObj_ inside </p>
 
 <p>Reimplemented from <a class="el" href="classMR_1_1VisualObject.html#a8c9ac961e923f7c61ccf3424413be0fb">MR::VisualObject</a>.</p>
+
+</div>
+</div>
+<a id="aaae306c4977abf865c6cc08110ef00f9" name="aaae306c4977abf865c6cc08110ef00f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaae306c4977abf865c6cc08110ef00f9">&#9670;&#160;</a></span>setWorldPoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void MR::PointMeasurementObject::setWorldPoint </td>
+          <td>(</td>
+          <td class="paramtype">const Vector3f &amp;</td>          <td class="paramname"><span class="paramname"><em>point</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1ViewportId.html">ViewportId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>

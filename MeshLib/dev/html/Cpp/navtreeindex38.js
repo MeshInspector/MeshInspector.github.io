@@ -1,5 +1,7 @@
 var NAVTREEINDEX38 =
 {
+"classMR_1_1PickPointManager.html#ada6902120790d59fb87b99281b702b8c":[6,0,1,0,1,509,25],
+"classMR_1_1PickPointManager.html#ada6902120790d59fb87b99281b702b8c":[6,0,2,0,1,490,25],
 "classMR_1_1PickPointManager.html#adc30aaa3b2d5dea491584b3a5e6bf4c5":[6,0,1,0,1,509,22],
 "classMR_1_1PickPointManager.html#adc30aaa3b2d5dea491584b3a5e6bf4c5":[6,0,2,0,1,490,22],
 "classMR_1_1PickPointManager.html#adffaab931d52fa647870ad0274b3166f":[6,0,1,0,1,509,3],
@@ -175,10 +177,10 @@ var NAVTREEINDEX38 =
 "classMR_1_1PointMeasurementObject.html#a204af2ade8b0b40f0c1233e4c7d2a625":[6,0,2,0,1,509,23],
 "classMR_1_1PointMeasurementObject.html#a2502d60be202333d006f03e401e10678":[6,0,1,0,1,528,11],
 "classMR_1_1PointMeasurementObject.html#a2502d60be202333d006f03e401e10678":[6,0,2,0,1,509,11],
-"classMR_1_1PointMeasurementObject.html#a34bf1cdc06d67d92c5a859278440c05a":[6,0,1,0,1,528,26],
-"classMR_1_1PointMeasurementObject.html#a34bf1cdc06d67d92c5a859278440c05a":[6,0,2,0,1,509,26],
-"classMR_1_1PointMeasurementObject.html#a3900b0b2a1c555af5028468829a2ae82":[6,0,1,0,1,528,24],
-"classMR_1_1PointMeasurementObject.html#a3900b0b2a1c555af5028468829a2ae82":[6,0,2,0,1,509,24],
+"classMR_1_1PointMeasurementObject.html#a34bf1cdc06d67d92c5a859278440c05a":[6,0,1,0,1,528,27],
+"classMR_1_1PointMeasurementObject.html#a34bf1cdc06d67d92c5a859278440c05a":[6,0,2,0,1,509,27],
+"classMR_1_1PointMeasurementObject.html#a3900b0b2a1c555af5028468829a2ae82":[6,0,1,0,1,528,25],
+"classMR_1_1PointMeasurementObject.html#a3900b0b2a1c555af5028468829a2ae82":[6,0,2,0,1,509,25],
 "classMR_1_1PointMeasurementObject.html#a429c054af979eb58cbcbe556d8ea58a0":[6,0,1,0,1,528,3],
 "classMR_1_1PointMeasurementObject.html#a429c054af979eb58cbcbe556d8ea58a0":[6,0,2,0,1,509,3],
 "classMR_1_1PointMeasurementObject.html#a456c050996b14fe38e883c1216b179a7":[6,0,1,0,1,528,10],
@@ -207,10 +209,12 @@ var NAVTREEINDEX38 =
 "classMR_1_1PointMeasurementObject.html#aa1ffcc4fad5546ca7dee26151fb10630":[6,0,2,0,1,509,16],
 "classMR_1_1PointMeasurementObject.html#aa9b595f58846314d64145f6224563839":[6,0,1,0,1,528,9],
 "classMR_1_1PointMeasurementObject.html#aa9b595f58846314d64145f6224563839":[6,0,2,0,1,509,9],
+"classMR_1_1PointMeasurementObject.html#aaae306c4977abf865c6cc08110ef00f9":[6,0,1,0,1,528,24],
+"classMR_1_1PointMeasurementObject.html#aaae306c4977abf865c6cc08110ef00f9":[6,0,2,0,1,509,24],
 "classMR_1_1PointMeasurementObject.html#ab556527a39bd0b6f01016764e6bd2c66":[6,0,1,0,1,528,21],
 "classMR_1_1PointMeasurementObject.html#ab556527a39bd0b6f01016764e6bd2c66":[6,0,2,0,1,509,21],
-"classMR_1_1PointMeasurementObject.html#ac48271380b514265ffc50f490fba6aff":[6,0,1,0,1,528,25],
-"classMR_1_1PointMeasurementObject.html#ac48271380b514265ffc50f490fba6aff":[6,0,2,0,1,509,25],
+"classMR_1_1PointMeasurementObject.html#ac48271380b514265ffc50f490fba6aff":[6,0,1,0,1,528,26],
+"classMR_1_1PointMeasurementObject.html#ac48271380b514265ffc50f490fba6aff":[6,0,2,0,1,509,26],
 "classMR_1_1PointMeasurementObject.html#aceade7c12dff0fd663f1b3863d59eb46":[6,0,1,0,1,528,4],
 "classMR_1_1PointMeasurementObject.html#aceade7c12dff0fd663f1b3863d59eb46":[6,0,2,0,1,509,4],
 "classMR_1_1PointMeasurementObject.html#af6f6387bd339571f102c4abbab18b0aa":[6,0,1,0,1,528,5],
@@ -245,9 +249,5 @@ var NAVTREEINDEX38 =
 "classMR_1_1PointToPlaneAligningTransform.html#a4d07c954a8bbd8984f99644bc4ee2764":[6,0,0,0,8,1,5],
 "classMR_1_1PointToPlaneAligningTransform.html#a5162299152d3a4f6ae9de54c2a1ccb58":[6,0,0,0,8,1,9],
 "classMR_1_1PointToPlaneAligningTransform.html#a8555475cfcfcf18d967f750232989d78":[6,0,0,0,8,1,2],
-"classMR_1_1PointToPlaneAligningTransform.html#a85d1216f9a1a5ea606fc155ed9ffcd3c":[6,0,0,0,8,1,11],
-"classMR_1_1PointToPlaneAligningTransform.html#aaab037d0039ed961116c7af28bd59347":[6,0,0,0,8,1,6],
-"classMR_1_1PointToPlaneAligningTransform.html#ac7f842e0e3e90350579783534790080e":[6,0,0,0,8,1,4],
-"classMR_1_1PointToPlaneAligningTransform.html#ad0ef5fe0bddd87ee28ec85ec049e779f":[6,0,0,0,8,1,12],
-"classMR_1_1PointToPlaneAligningTransform.html#ad5685f4e41d5b6e952889366f8b118f8":[6,0,0,0,8,1,3]
+"classMR_1_1PointToPlaneAligningTransform.html#a85d1216f9a1a5ea606fc155ed9ffcd3c":[6,0,0,0,8,1,11]
 };

@@ -11,6 +11,7 @@ var classmrmeshpy_1_1ObjectComparableWithReference =
     [ "getComparisonTolerence", "classmrmeshpy_1_1ObjectComparableWithReference.html#a6d0dd1c5733292e7a823b22d5caaf9a3", null ],
     [ "numComparableProperties", "classmrmeshpy_1_1ObjectComparableWithReference.html#a91bbbf28972f451f9a6453e53662dc50", null ],
     [ "numComparisonReferenceValues", "classmrmeshpy_1_1ObjectComparableWithReference.html#a0095fef2bf196a155da6270e100367c1", null ],
+    [ "setComparisonReferenceVal", "classmrmeshpy_1_1ObjectComparableWithReference.html#aa90cbf90f3001d7f1981206315904ecd", null ],
     [ "setComparisonReferenceValue", "classmrmeshpy_1_1ObjectComparableWithReference.html#a45a4e8483c68d3235a3bdd8ea05f11a7", null ],
     [ "setComparisonTolerance", "classmrmeshpy_1_1ObjectComparableWithReference.html#abc9240a99ba821dd077b5f35a6065176", null ]
 ];

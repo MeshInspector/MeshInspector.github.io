@@ -45,6 +45,7 @@ var MRPointMeasurementObject_8h =
     [ "MR_PointMeasurementObject_setComparisonReferenceValue", "MRPointMeasurementObject_8h.html#a42dfc2ebd1b6e5e17cab9bc339618854", null ],
     [ "MR_PointMeasurementObject_setComparisonTolerance", "MRPointMeasurementObject_8h.html#a205270fde0552fff22c472b6655c7ba2", null ],
     [ "MR_PointMeasurementObject_setLocalPoint", "MRPointMeasurementObject_8h.html#a2a19cc1ed9b99d25f16b7f69c7fd834b", null ],
+    [ "MR_PointMeasurementObject_setWorldPoint", "MRPointMeasurementObject_8h.html#a4864f8adaa3adda33decd88c7b3c2eb3", null ],
     [ "MR_PointMeasurementObject_shallowClone", "MRPointMeasurementObject_8h.html#a6bc8167de29254217847b1fce5345ef9", null ],
     [ "MR_PointMeasurementObject_TypeName", "MRPointMeasurementObject_8h.html#afdd3a12f6602f186ace4bfff60baf3de", null ],
     [ "MR_PointMeasurementObject_typeName", "MRPointMeasurementObject_8h.html#a9b2f4ca361a9389560edd0b99cd7ac0c", null ],

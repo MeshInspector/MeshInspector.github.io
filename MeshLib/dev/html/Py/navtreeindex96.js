@@ -1,5 +1,9 @@
 var NAVTREEINDEX96 =
 {
+"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a1c975c25fbd79ee1e61eea4550733325":[6,1,0,0,2,1095,30],
+"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a1c975c25fbd79ee1e61eea4550733325":[6,1,1,0,1,1095,30],
+"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a1d19f724a6014d63a1e832cc4379dabf":[6,1,0,0,2,1095,34],
+"classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a1d19f724a6014d63a1e832cc4379dabf":[6,1,1,0,1,1095,34],
 "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a21715a8666da0580c36479661b83000e":[6,1,0,0,2,1095,12],
 "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a21715a8666da0580c36479661b83000e":[6,1,0,0,2,1095,13],
 "classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box3f__NodeId.html#a21715a8666da0580c36479661b83000e":[6,1,1,0,1,1095,12],
@@ -245,9 +249,5 @@ var NAVTREEINDEX96 =
 "classmrmeshpy_1_1Vector__AffineXf3f__ObjId.html#a867d554190ce1d6f4ecd163b0bc2cb80":[6,1,0,0,2,1098,1],
 "classmrmeshpy_1_1Vector__AffineXf3f__ObjId.html#a867d554190ce1d6f4ecd163b0bc2cb80":[6,1,1,0,1,1098,1],
 "classmrmeshpy_1_1Vector__AffineXf3f__ObjId.html#a8efe4b5d7b73ca1fbdd95859336964a5":[6,1,0,0,2,1098,6],
-"classmrmeshpy_1_1Vector__AffineXf3f__ObjId.html#a8efe4b5d7b73ca1fbdd95859336964a5":[6,1,0,0,2,1098,7],
-"classmrmeshpy_1_1Vector__AffineXf3f__ObjId.html#a8efe4b5d7b73ca1fbdd95859336964a5":[6,1,1,0,1,1098,6],
-"classmrmeshpy_1_1Vector__AffineXf3f__ObjId.html#a8efe4b5d7b73ca1fbdd95859336964a5":[6,1,1,0,1,1098,7],
-"classmrmeshpy_1_1Vector__AffineXf3f__ObjId.html#a8f598d28e95114351e4b72deaf0c7f49":[6,1,0,0,2,1098,34],
-"classmrmeshpy_1_1Vector__AffineXf3f__ObjId.html#a8f598d28e95114351e4b72deaf0c7f49":[6,1,1,0,1,1098,34]
+"classmrmeshpy_1_1Vector__AffineXf3f__ObjId.html#a8efe4b5d7b73ca1fbdd95859336964a5":[6,1,0,0,2,1098,7]
 };
