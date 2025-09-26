@@ -15,6 +15,7 @@ var classMR_1_1Pdf =
     [ "Pdf", "classMR_1_1Pdf.html#a9f0c7ef105e92a128194a9adfc92d221", null ],
     [ "Pdf", "classMR_1_1Pdf.html#aee0d3ee8980ff7e8cfd1d6e28aee30a0", null ],
     [ "~Pdf", "classMR_1_1Pdf.html#ae6fd1a7d1d29456ea75c56e4266869b6", null ],
+    [ "addImage", "classMR_1_1Pdf.html#ab5a8f63787fc46e9ce3d55e4589b934a", null ],
     [ "addImageFromFile", "classMR_1_1Pdf.html#a4039adc925552c73016c055ff4af499a", null ],
     [ "addPaletteStatsTable", "classMR_1_1Pdf.html#a77343f24e2ba4af1f5eb5d348ffd9f89", null ],
     [ "addRow", "classMR_1_1Pdf.html#ab32723b16f57913d8b0edd654da12d4a", null ],

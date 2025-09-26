@@ -165,6 +165,8 @@ $(function(){initNavTree('MRPdf_8h.html',''); initResizable(true); });
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
+<tr class="memitem:a5e2943bfe5a7ecddf6b533bccae5f9c0" id="r_a5e2943bfe5a7ecddf6b533bccae5f9c0"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a></td></tr>
+<tr class="separator:a5e2943bfe5a7ecddf6b533bccae5f9c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a077b8debfae88f9cf2267ad2db95c006" id="r_a077b8debfae88f9cf2267ad2db95c006"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a></td></tr>
 <tr class="separator:a077b8debfae88f9cf2267ad2db95c006"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a014d63cabce66811deff5fb8ede94606" id="r_a014d63cabce66811deff5fb8ede94606"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a014d63cabce66811deff5fb8ede94606">MR_std_function_MR_Pdf_CellCustomParams_from_int32_t_int32_t_const_std_string_ref</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a014d63cabce66811deff5fb8ede94606">MR_std_function_MR_Pdf_CellCustomParams_from_int32_t_int32_t_const_std_string_ref</a></td></tr>
@@ -259,6 +261,7 @@ Enumerations</h2></td></tr>
 <tr class="memitem:abc6126af1d45847bc59afa0aa3216b04" id="r_abc6126af1d45847bc59afa0aa3216b04"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#abc6126af1d45847bc59afa0aa3216b04ac02e8c81d9bf90b8b1dca905ac6af848">MR_Pdf_ImageParams_UniformScale_None</a> = 0
 , <a class="el" href="#abc6126af1d45847bc59afa0aa3216b04ae876cb2082a35514ed648c974fd3f8ba">MR_Pdf_ImageParams_UniformScale_FromWidth</a> = 1
 , <a class="el" href="#abc6126af1d45847bc59afa0aa3216b04a35a3f4b1fd9acfb3d89fc9d3527f2d1c">MR_Pdf_ImageParams_UniformScale_FromHeight</a> = 2
+, <a class="el" href="#abc6126af1d45847bc59afa0aa3216b04a782d92a23f6eca2c2c8f8969d1fbb984">MR_Pdf_ImageParams_UniformScale_Auto</a> = 3
  }</td></tr>
 <tr class="separator:abc6126af1d45847bc59afa0aa3216b04"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc29c2ff13d900c2f185ee95427fb06c" id="r_adc29c2ff13d900c2f185ee95427fb06c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#adc29c2ff13d900c2f185ee95427fb06ca2cac4768a21bb3f4f4fe00dd7599be9c">MR_Pdf_ImageParams_AlignmentVertical_Top</a> = 0
@@ -365,6 +368,8 @@ Functions</h2></td></tr>
 <tr class="memitem:a3a5de75ce3838f536657ab8760f9b57e" id="r_a3a5de75ce3838f536657ab8760f9b57e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a5de75ce3838f536657ab8760f9b57e">MR_Pdf_addImageFromFile</a> (<a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> *_this, const char *imagePath, const char *imagePath_end, const <a class="el" href="#add13760b5b87407faf414a9205c9311f">MR_Pdf_ImageParams</a> *params)</td></tr>
 <tr class="memdesc:a3a5de75ce3838f536657ab8760f9b57e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add image from file in current cursor position. If image bigger than page size, autoscale image to page size. Move cursor.  <br /></td></tr>
 <tr class="separator:a3a5de75ce3838f536657ab8760f9b57e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa364d5b023e3e0eac12619a757335fc4" id="r_aa364d5b023e3e0eac12619a757335fc4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa364d5b023e3e0eac12619a757335fc4">MR_Pdf_addImage</a> (<a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> *_this, const <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *image, const <a class="el" href="#add13760b5b87407faf414a9205c9311f">MR_Pdf_ImageParams</a> *params)</td></tr>
+<tr class="separator:aa364d5b023e3e0eac12619a757335fc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add669e6a600d6266d8beec43e0f3593c" id="r_add669e6a600d6266d8beec43e0f3593c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add669e6a600d6266d8beec43e0f3593c">MR_Pdf_newPage</a> (<a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> *_this)</td></tr>
 <tr class="separator:add669e6a600d6266d8beec43e0f3593c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d94b3ff51cf33035202d8376740c829" id="r_a4d94b3ff51cf33035202d8376740c829"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d94b3ff51cf33035202d8376740c829">MR_Pdf_setNewPageAction</a> (<a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> action_pass_by, <a class="el" href="#aeda2ce2e7a7e99a9f35e4c976913b9dd">MR_std_function_void_from_MR_Pdf_ref</a> *<a class="elRef" href="../Cpp/group__HistoryGroup.html#gab0a69b615a514d76010260695c2116e5">action</a>)</td></tr>
@@ -701,6 +706,20 @@ Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">typedef struct <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5e2943bfe5a7ecddf6b533bccae5f9c0" name="a5e2943bfe5a7ecddf6b533bccae5f9c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e2943bfe5a7ecddf6b533bccae5f9c0">&#9670;&#160;</a></span>MR_Image</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1145,6 +1164,7 @@ Functions</h2></td></tr>
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="abc6126af1d45847bc59afa0aa3216b04ac02e8c81d9bf90b8b1dca905ac6af848" name="abc6126af1d45847bc59afa0aa3216b04ac02e8c81d9bf90b8b1dca905ac6af848"></a>MR_Pdf_ImageParams_UniformScale_None&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="abc6126af1d45847bc59afa0aa3216b04ae876cb2082a35514ed648c974fd3f8ba" name="abc6126af1d45847bc59afa0aa3216b04ae876cb2082a35514ed648c974fd3f8ba"></a>MR_Pdf_ImageParams_UniformScale_FromWidth&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="abc6126af1d45847bc59afa0aa3216b04a35a3f4b1fd9acfb3d89fc9d3527f2d1c" name="abc6126af1d45847bc59afa0aa3216b04a35a3f4b1fd9acfb3d89fc9d3527f2d1c"></a>MR_Pdf_ImageParams_UniformScale_FromHeight&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abc6126af1d45847bc59afa0aa3216b04a782d92a23f6eca2c2c8f8969d1fbb984" name="abc6126af1d45847bc59afa0aa3216b04a782d92a23f6eca2c2c8f8969d1fbb984"></a>MR_Pdf_ImageParams_UniformScale_Auto&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -1169,6 +1189,33 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="aa364d5b023e3e0eac12619a757335fc4" name="aa364d5b023e3e0eac12619a757335fc4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa364d5b023e3e0eac12619a757335fc4">&#9670;&#160;</a></span>MR_Pdf_addImage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_Pdf_addImage </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a0c39d182e0489d71e7a28dd6358004c2">MR_Pdf</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *</td>          <td class="paramname"><span class="paramname"><em>image</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#add13760b5b87407faf414a9205c9311f">MR_Pdf_ImageParams</a> *</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1Pdf.html">MR::Pdf</a></code> named <code>addImage</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>image</code> can not be null. It is a single object. Parameter <code>params</code> can not be null. It is a single object. </p>
+
+</div>
+</div>
 <a id="a3a5de75ce3838f536657ab8760f9b57e" name="a3a5de75ce3838f536657ab8760f9b57e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3a5de75ce3838f536657ab8760f9b57e">&#9670;&#160;</a></span>MR_Pdf_addImageFromFile()</h2>
 

@@ -1,6 +1,7 @@
 var MRPdf_8h =
 [
     [ "MR_expected_void_std_string", "MRPdf_8h.html#a077b8debfae88f9cf2267ad2db95c006", null ],
+    [ "MR_Image", "MRPdf_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0", null ],
     [ "MR_Pdf", "MRPdf_8h.html#a0c39d182e0489d71e7a28dd6358004c2", null ],
     [ "MR_Pdf_AlignmentHorizontal", "MRPdf_8h.html#a6de0e12f24473efcc6e3c2f548e9ed67", null ],
     [ "MR_Pdf_Cell", "MRPdf_8h.html#ac32c6eea51284f144d284dc88e942cf8", null ],
@@ -26,6 +27,7 @@ var MRPdf_8h =
     [ "MR_std_vector_MR_Pdf_PaletteRowStats", "MRPdf_8h.html#a3a02eff57619c7f1f4ebe81a9aca0c4a", null ],
     [ "MR_std_vector_std_pair_std_string_float", "MRPdf_8h.html#af7b77ccae07737ff0cd656471d9e777e", null ],
     [ "MR_std_vector_std_string", "MRPdf_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900", null ],
+    [ "MR_Pdf_addImage", "MRPdf_8h.html#aa364d5b023e3e0eac12619a757335fc4", null ],
     [ "MR_Pdf_addImageFromFile", "MRPdf_8h.html#a3a5de75ce3838f536657ab8760f9b57e", null ],
     [ "MR_Pdf_addPaletteStatsTable", "MRPdf_8h.html#ae23694d9898001d786190aaf8510f832", null ],
     [ "MR_Pdf_addRow", "MRPdf_8h.html#afee686009d134aab72f760046ea3e75d", null ],

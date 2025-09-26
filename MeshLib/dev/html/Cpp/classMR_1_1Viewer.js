@@ -60,6 +60,7 @@ var classMR_1_1Viewer =
     [ "draw", "classMR_1_1Viewer.html#ae8671eecc60d8e0d8585683df92ea007", null ],
     [ "drawFull", "classMR_1_1Viewer.html#ad21c4f4dd1ab1c0615689d4abaec15da", null ],
     [ "drawScene", "classMR_1_1Viewer.html#ad939ce39d52c9c10c967429100c9fffd", null ],
+    [ "drawUiRenderObjects", "classMR_1_1Viewer.html#a4982baeba6e7a4cf6b8dcfc47b80e5f7", null ],
     [ "emplaceEvent", "classMR_1_1Viewer.html#a7491e8da28f4f91c65a046245af2b38a", null ],
     [ "enableAlphaSort", "classMR_1_1Viewer.html#a8487684b5cd02ab06da1de9e06c8744f", null ],
     [ "enableGlobalHistory", "classMR_1_1Viewer.html#a5acf533169d66d16a01d49084d887c51", null ],

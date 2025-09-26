@@ -764,36 +764,35 @@ $(function(){initNavTree('MRViewer_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00618" name="l00618"></a><span class="lineno">  618</span> </div>
 <div class="line"><a id="l00621" name="l00621"></a><span class="lineno"><a class="line" href="classMR_1_1Viewer.html#aebf2cb865d789166174af6ef9a67d295">  621</a></span>    MRVIEWER_API <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1Viewer.html#aebf2cb865d789166174af6ef9a67d295">initSpaceMouseHandler</a>( std::function&lt;<span class="keywordtype">void</span>(<span class="keyword">const</span> std::string&amp;)&gt; deviceSignal = {} );</div>
 <div class="line"><a id="l00622" name="l00622"></a><span class="lineno">  622</span> </div>
-<div class="line"><a id="l00623" name="l00623"></a><span class="lineno">  623</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00624" name="l00624"></a><span class="lineno">  624</span>    <a class="code hl_class" href="classMR_1_1Viewer.html">Viewer</a>();</div>
-<div class="line"><a id="l00625" name="l00625"></a><span class="lineno">  625</span>    <a class="code hl_class" href="classMR_1_1Viewer.html">~Viewer</a>();</div>
-<div class="line"><a id="l00626" name="l00626"></a><span class="lineno">  626</span> </div>
-<div class="line"><a id="l00627" name="l00627"></a><span class="lineno">  627</span>    <span class="comment">// Init window</span></div>
-<div class="line"><a id="l00628" name="l00628"></a><span class="lineno">  628</span>    <span class="keywordtype">int</span> launchInit_( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1LaunchParams.html">LaunchParams</a>&amp; params );</div>
-<div class="line"><a id="l00629" name="l00629"></a><span class="lineno">  629</span> </div>
-<div class="line"><a id="l00630" name="l00630"></a><span class="lineno">  630</span>    <span class="comment">// Called from launchInit_ after window creating to configure it properly</span></div>
-<div class="line"><a id="l00631" name="l00631"></a><span class="lineno">  631</span>    <span class="keywordtype">bool</span> setupWindow_( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1LaunchParams.html">LaunchParams</a>&amp; params );</div>
-<div class="line"><a id="l00632" name="l00632"></a><span class="lineno">  632</span> </div>
-<div class="line"><a id="l00633" name="l00633"></a><span class="lineno">  633</span>    <span class="comment">// Return true if OpenGL loaded successfully</span></div>
-<div class="line"><a id="l00634" name="l00634"></a><span class="lineno">  634</span>    <span class="keywordtype">bool</span> checkOpenGL_(<span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1LaunchParams.html">LaunchParams</a>&amp; params );</div>
-<div class="line"><a id="l00635" name="l00635"></a><span class="lineno">  635</span> </div>
-<div class="line"><a id="l00636" name="l00636"></a><span class="lineno">  636</span>    <span class="comment">// Init base objects</span></div>
-<div class="line"><a id="l00637" name="l00637"></a><span class="lineno">  637</span>    <span class="keywordtype">void</span> init_();</div>
-<div class="line"><a id="l00638" name="l00638"></a><span class="lineno">  638</span> </div>
-<div class="line"><a id="l00639" name="l00639"></a><span class="lineno">  639</span>    <span class="comment">// Init all plugins on start</span></div>
-<div class="line"><a id="l00640" name="l00640"></a><span class="lineno">  640</span>    <span class="keywordtype">void</span> initPlugins_();</div>
-<div class="line"><a id="l00641" name="l00641"></a><span class="lineno">  641</span> </div>
-<div class="line"><a id="l00642" name="l00642"></a><span class="lineno">  642</span>    <span class="comment">// Shut all plugins at the end</span></div>
-<div class="line"><a id="l00643" name="l00643"></a><span class="lineno">  643</span>    <span class="keywordtype">void</span> shutdownPlugins_();</div>
-<div class="line"><a id="l00644" name="l00644"></a><span class="lineno">  644</span> </div>
-<div class="line"><a id="l00645" name="l00645"></a><span class="lineno">  645</span><span class="preprocessor">#ifdef __EMSCRIPTEN__</span></div>
-<div class="line"><a id="l00646" name="l00646"></a><span class="lineno">  646</span>    <span class="keywordtype">void</span> mainLoopFunc_();</div>
-<div class="line"><a id="l00647" name="l00647"></a><span class="lineno">  647</span>    <span class="keyword">static</span> <span class="keywordtype">void</span> emsMainInfiniteLoop();</div>
-<div class="line"><a id="l00648" name="l00648"></a><span class="lineno">  648</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00649" name="l00649"></a><span class="lineno">  649</span>    <span class="comment">// returns true if was swapped</span></div>
-<div class="line"><a id="l00650" name="l00650"></a><span class="lineno">  650</span>    <span class="keywordtype">bool</span> draw_( <span class="keywordtype">bool</span> force );</div>
-<div class="line"><a id="l00651" name="l00651"></a><span class="lineno">  651</span> </div>
-<div class="line"><a id="l00652" name="l00652"></a><span class="lineno">  652</span>    <span class="keywordtype">void</span> drawUiRenderObjects_();</div>
+<div class="line"><a id="l00624" name="l00624"></a><span class="lineno"><a class="line" href="classMR_1_1Viewer.html#a4982baeba6e7a4cf6b8dcfc47b80e5f7">  624</a></span>    MRVIEWER_API <span class="keywordtype">void</span> <a class="code hl_function" href="classMR_1_1Viewer.html#a4982baeba6e7a4cf6b8dcfc47b80e5f7">drawUiRenderObjects</a>();</div>
+<div class="line"><a id="l00625" name="l00625"></a><span class="lineno">  625</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00626" name="l00626"></a><span class="lineno">  626</span>    <a class="code hl_class" href="classMR_1_1Viewer.html">Viewer</a>();</div>
+<div class="line"><a id="l00627" name="l00627"></a><span class="lineno">  627</span>    <a class="code hl_class" href="classMR_1_1Viewer.html">~Viewer</a>();</div>
+<div class="line"><a id="l00628" name="l00628"></a><span class="lineno">  628</span> </div>
+<div class="line"><a id="l00629" name="l00629"></a><span class="lineno">  629</span>    <span class="comment">// Init window</span></div>
+<div class="line"><a id="l00630" name="l00630"></a><span class="lineno">  630</span>    <span class="keywordtype">int</span> launchInit_( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1LaunchParams.html">LaunchParams</a>&amp; params );</div>
+<div class="line"><a id="l00631" name="l00631"></a><span class="lineno">  631</span> </div>
+<div class="line"><a id="l00632" name="l00632"></a><span class="lineno">  632</span>    <span class="comment">// Called from launchInit_ after window creating to configure it properly</span></div>
+<div class="line"><a id="l00633" name="l00633"></a><span class="lineno">  633</span>    <span class="keywordtype">bool</span> setupWindow_( <span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1LaunchParams.html">LaunchParams</a>&amp; params );</div>
+<div class="line"><a id="l00634" name="l00634"></a><span class="lineno">  634</span> </div>
+<div class="line"><a id="l00635" name="l00635"></a><span class="lineno">  635</span>    <span class="comment">// Return true if OpenGL loaded successfully</span></div>
+<div class="line"><a id="l00636" name="l00636"></a><span class="lineno">  636</span>    <span class="keywordtype">bool</span> checkOpenGL_(<span class="keyword">const</span> <a class="code hl_struct" href="structMR_1_1LaunchParams.html">LaunchParams</a>&amp; params );</div>
+<div class="line"><a id="l00637" name="l00637"></a><span class="lineno">  637</span> </div>
+<div class="line"><a id="l00638" name="l00638"></a><span class="lineno">  638</span>    <span class="comment">// Init base objects</span></div>
+<div class="line"><a id="l00639" name="l00639"></a><span class="lineno">  639</span>    <span class="keywordtype">void</span> init_();</div>
+<div class="line"><a id="l00640" name="l00640"></a><span class="lineno">  640</span> </div>
+<div class="line"><a id="l00641" name="l00641"></a><span class="lineno">  641</span>    <span class="comment">// Init all plugins on start</span></div>
+<div class="line"><a id="l00642" name="l00642"></a><span class="lineno">  642</span>    <span class="keywordtype">void</span> initPlugins_();</div>
+<div class="line"><a id="l00643" name="l00643"></a><span class="lineno">  643</span> </div>
+<div class="line"><a id="l00644" name="l00644"></a><span class="lineno">  644</span>    <span class="comment">// Shut all plugins at the end</span></div>
+<div class="line"><a id="l00645" name="l00645"></a><span class="lineno">  645</span>    <span class="keywordtype">void</span> shutdownPlugins_();</div>
+<div class="line"><a id="l00646" name="l00646"></a><span class="lineno">  646</span> </div>
+<div class="line"><a id="l00647" name="l00647"></a><span class="lineno">  647</span><span class="preprocessor">#ifdef __EMSCRIPTEN__</span></div>
+<div class="line"><a id="l00648" name="l00648"></a><span class="lineno">  648</span>    <span class="keywordtype">void</span> mainLoopFunc_();</div>
+<div class="line"><a id="l00649" name="l00649"></a><span class="lineno">  649</span>    <span class="keyword">static</span> <span class="keywordtype">void</span> emsMainInfiniteLoop();</div>
+<div class="line"><a id="l00650" name="l00650"></a><span class="lineno">  650</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00651" name="l00651"></a><span class="lineno">  651</span>    <span class="comment">// returns true if was swapped</span></div>
+<div class="line"><a id="l00652" name="l00652"></a><span class="lineno">  652</span>    <span class="keywordtype">bool</span> draw_( <span class="keywordtype">bool</span> force );</div>
 <div class="line"><a id="l00653" name="l00653"></a><span class="lineno">  653</span> </div>
 <div class="line"><a id="l00654" name="l00654"></a><span class="lineno">  654</span>    <span class="comment">// the minimum number of frames to be rendered even if the scene is unchanged</span></div>
 <div class="line"><a id="l00655" name="l00655"></a><span class="lineno">  655</span>    <span class="keywordtype">int</span> forceRedrawFrames_{ 0 };</div>
@@ -964,6 +963,7 @@ $(function(){initNavTree('MRViewer_8h_source.html',''); initResizable(true); });
 <div class="ttc" id="aclassMR_1_1Viewer_html_a45e00f21d3408c12427477ab6d312382"><div class="ttname"><a href="classMR_1_1Viewer.html#a45e00f21d3408c12427477ab6d312382">MR::Viewer::onSceneSaved</a></div><div class="ttdeci">MRVIEWER_API void onSceneSaved(const std::filesystem::path &amp;savePath, bool storeInRecent=true)</div></div>
 <div class="ttc" id="aclassMR_1_1Viewer_html_a46f94e450b4fb564b98d42a724da2323"><div class="ttname"><a href="classMR_1_1Viewer.html#a46f94e450b4fb564b98d42a724da2323">MR::Viewer::TouchpadGestureBeginSignal</a></div><div class="ttdeci">boost::signals2::signal&lt; bool(), SignalStopHandler &gt; TouchpadGestureBeginSignal</div><div class="ttdef"><b>Definition</b> MRViewer.h:574</div></div>
 <div class="ttc" id="aclassMR_1_1Viewer_html_a477a9c818f621b480bfe6bceb017d06e"><div class="ttname"><a href="classMR_1_1Viewer.html#a477a9c818f621b480bfe6bceb017d06e">MR::Viewer::touchStart</a></div><div class="ttdeci">MRVIEWER_API bool touchStart(int id, int x, int y)</div></div>
+<div class="ttc" id="aclassMR_1_1Viewer_html_a4982baeba6e7a4cf6b8dcfc47b80e5f7"><div class="ttname"><a href="classMR_1_1Viewer.html#a4982baeba6e7a4cf6b8dcfc47b80e5f7">MR::Viewer::drawUiRenderObjects</a></div><div class="ttdeci">MRVIEWER_API void drawUiRenderObjects()</div><div class="ttdoc">draw 2d (UI) part of objects in scene</div></div>
 <div class="ttc" id="aclassMR_1_1Viewer_html_a4b83b6b437c54b924fb899be6d452d7a"><div class="ttname"><a href="classMR_1_1Viewer.html#a4b83b6b437c54b924fb899be6d452d7a">MR::Viewer::mouseMove</a></div><div class="ttdeci">MRVIEWER_API bool mouseMove(int mouse_x, int mouse_y)</div></div>
 <div class="ttc" id="aclassMR_1_1Viewer_html_a4c175c5eee2d6f8367e9fcfe26eee6a5"><div class="ttname"><a href="classMR_1_1Viewer.html#a4c175c5eee2d6f8367e9fcfe26eee6a5">MR::Viewer::rotationSphere</a></div><div class="ttdeci">std::shared_ptr&lt; ObjectMesh &gt; rotationSphere</div><div class="ttdef"><b>Definition</b> MRViewer.h:502</div></div>
 <div class="ttc" id="aclassMR_1_1Viewer_html_a4cc2b3d7e246b0136ffdf60186e31c16"><div class="ttname"><a href="classMR_1_1Viewer.html#a4cc2b3d7e246b0136ffdf60186e31c16">MR::Viewer::clearFramebuffers</a></div><div class="ttdeci">MRVIEWER_API void clearFramebuffers()</div></div>

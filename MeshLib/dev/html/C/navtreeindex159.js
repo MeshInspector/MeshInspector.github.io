@@ -1,5 +1,7 @@
 var NAVTREEINDEX159 =
 {
+"std__vector__MR__WatershedGraph__BasinInfo_8h.html#a8388313eece4a312b3c4cabd6c5b47ad":[6,2,1,0,0,0,2,384,34],
+"std__vector__MR__WatershedGraph__BasinInfo_8h.html#a840d942d55c7ab0cf8c26022b96b454e":[6,2,1,0,0,0,2,384,13],
 "std__vector__MR__WatershedGraph__BasinInfo_8h.html#a8468eecff29cf9aa7f752d9cec5ed3a6":[6,2,1,0,0,0,2,384,46],
 "std__vector__MR__WatershedGraph__BasinInfo_8h.html#a8cf154981eaa05b1a879861f005bcb6d":[6,2,1,0,0,0,2,384,55],
 "std__vector__MR__WatershedGraph__BasinInfo_8h.html#a913fff7799c3afdb29bde2f2a44acaf5":[6,2,1,0,0,0,2,384,52],
@@ -247,7 +249,5 @@ var NAVTREEINDEX159 =
 "std__vector__MR__WeightedShell__ParametersRegions__Region_8h.html#ac8c4eb65203730d60031a2b155bf635c":[6,2,1,0,0,0,2,387,24],
 "std__vector__MR__WeightedShell__ParametersRegions__Region_8h.html#ac9b7c8209ada7b2cce566cf7271f2165":[6,2,1,0,0,0,2,387,25],
 "std__vector__MR__WeightedShell__ParametersRegions__Region_8h.html#aca72e4a1de51612b8e63d4cf74b758b1":[6,2,1,0,0,0,2,387,41],
-"std__vector__MR__WeightedShell__ParametersRegions__Region_8h.html#acc22995d33111166b445f0cc106a2b69":[6,2,1,0,0,0,2,387,30],
-"std__vector__MR__WeightedShell__ParametersRegions__Region_8h.html#accfc95e7a56807d235df9268e666b518":[6,2,1,0,0,0,2,387,36],
-"std__vector__MR__WeightedShell__ParametersRegions__Region_8h.html#ad62b3f54df6f290ea1932f61550bd805":[6,2,1,0,0,0,2,387,44]
+"std__vector__MR__WeightedShell__ParametersRegions__Region_8h.html#acc22995d33111166b445f0cc106a2b69":[6,2,1,0,0,0,2,387,30]
 };

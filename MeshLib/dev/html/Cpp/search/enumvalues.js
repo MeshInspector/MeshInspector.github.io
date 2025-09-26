@@ -87,7 +87,7 @@ var searchData=
   ['arccw_28',['ArcCW',['../namespaceMR.html#a88f1fdd848610bc41226918baa28e601aa9479796fed0e84208885bc83352c5ea',1,'MR']]],
   ['arrow_29',['arrow',['../namespaceMR_1_1ImGuiMeasurementIndicators.html#a57d1104a2e78b1f148bbd864c7d7cd6aa9022a153e6190f10d9b57aa4232b8aea',1,'MR::ImGuiMeasurementIndicators']]],
   ['asis_30',['asIs',['../namespaceMR.html#aa591847657e546eba90e70acf2185c02ace48e9164dfd613f28dec7b3a9985e07',1,'MR']]],
-  ['auto_31',['Auto',['../structMR_1_1Viewport_1_1Parameters.html#ab498d9b4852811b8095a89935081126fa06b9281e396db002010bde1de57262eb',1,'MR::Viewport::Parameters::Auto'],['../namespaceMR.html#a07048ed78d40b323183d7f5479f821d0a06b9281e396db002010bde1de57262eb',1,'MR::Auto']]],
+  ['auto_31',['Auto',['../structMR_1_1Pdf_1_1ImageParams.html#ac62f55dffb41437f678f5417604d361fa06b9281e396db002010bde1de57262eb',1,'MR::Pdf::ImageParams::Auto'],['../structMR_1_1Viewport_1_1Parameters.html#ab498d9b4852811b8095a89935081126fa06b9281e396db002010bde1de57262eb',1,'MR::Viewport::Parameters::Auto'],['../namespaceMR.html#a07048ed78d40b323183d7f5479f821d0a06b9281e396db002010bde1de57262eb',1,'MR::Auto']]],
   ['autodetect_32',['AutoDetect',['../classMR_1_1SceneSettings.html#a308e72dcfc90ae1a9370ca7c7bc3290ca10c84306f5bb51fdad714b1f2f4463cf',1,'MR::SceneSettings']]],
   ['automatic_33',['Automatic',['../structMR_1_1MarchingCubesParams.html#ad2534810fa0b1d6ede8c56229226770da086247a9b57fde6eefee2a0c4752242d',1,'MR::MarchingCubesParams']]],
   ['awayfromorigin_34',['AwayFromOrigin',['../namespaceMR.html#af24a4564a6b209f61d84fd30c8c71a8ba08b9149d45da3efbdd41811c50774bf7',1,'MR']]],

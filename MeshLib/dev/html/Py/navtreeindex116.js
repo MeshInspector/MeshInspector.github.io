@@ -1,5 +1,7 @@
 var NAVTREEINDEX116 =
 {
+"classmrmeshpy_1_1VoxelBitSet.html#ab06ac82abeb0bd077ca27b52b4e5da0a":[6,1,0,0,2,1172,37],
+"classmrmeshpy_1_1VoxelBitSet.html#ab06ac82abeb0bd077ca27b52b4e5da0a":[6,1,1,0,1,1172,37],
 "classmrmeshpy_1_1VoxelBitSet.html#ab95c6373ec6b1605b296e4f83be7bee8":[6,1,0,0,2,1172,26],
 "classmrmeshpy_1_1VoxelBitSet.html#ab95c6373ec6b1605b296e4f83be7bee8":[6,1,1,0,1,1172,26],
 "classmrmeshpy_1_1VoxelBitSet.html#ab9e60ab26d1faca1f633d3dee318aab4":[6,1,0,0,2,1172,34],
@@ -247,7 +249,5 @@ var NAVTREEINDEX116 =
 "classmrmeshpy_1_1VoxelsLoad_1_1DicomVolumeAsVdb.html#aaf78bfaabec94ead1a44dc27655826b1":[6,1,0,0,2,1177,3,1],
 "classmrmeshpy_1_1VoxelsLoad_1_1DicomVolumeAsVdb.html#aaf78bfaabec94ead1a44dc27655826b1":[6,1,1,0,1,1177,3,1],
 "classmrmeshpy_1_1VoxelsLoad_1_1DicomVolumeAsVdb.html#ab1d6fcb03478ac62c13838e1fe362543":[6,1,0,0,2,1177,3,0],
-"classmrmeshpy_1_1VoxelsLoad_1_1DicomVolumeAsVdb.html#ab1d6fcb03478ac62c13838e1fe362543":[6,1,1,0,1,1177,3,0],
-"classmrmeshpy_1_1VoxelsLoad_1_1GridType.html":[6,1,0,0,2,1177,4],
-"classmrmeshpy_1_1VoxelsLoad_1_1GridType.html":[6,1,1,0,1,1177,4]
+"classmrmeshpy_1_1VoxelsLoad_1_1DicomVolumeAsVdb.html#ab1d6fcb03478ac62c13838e1fe362543":[6,1,1,0,1,1177,3,0]
 };

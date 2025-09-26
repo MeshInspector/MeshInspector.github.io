@@ -1,5 +1,9 @@
 var NAVTREEINDEX86 =
 {
+"structMR_1_1Palette_1_1Label.html#a9fb9db8edb847b9fa9b2d46e2f216bdb":[6,0,2,0,1,481,1,1],
+"structMR_1_1Palette_1_1Label.html#abbf2f53809f0072d2e09bde212cc58d7":[6,0,1,0,1,500,1,0],
+"structMR_1_1Palette_1_1Label.html#abbf2f53809f0072d2e09bde212cc58d7":[6,0,2,0,1,481,1,0],
+"structMR_1_1Palette_1_1Label.html#ae0d781a22905f1df26b03b698576c19f":[6,0,1,0,1,500,1,3],
 "structMR_1_1Palette_1_1Label.html#ae0d781a22905f1df26b03b698576c19f":[6,0,2,0,1,481,1,3],
 "structMR_1_1Palette_1_1Label.html#ae6199d36ccd109e8875ae47368e79a0d":[6,0,1,0,1,500,1,2],
 "structMR_1_1Palette_1_1Label.html#ae6199d36ccd109e8875ae47368e79a0d":[6,0,2,0,1,481,1,2],
@@ -139,6 +143,8 @@ var NAVTREEINDEX86 =
 "structMR_1_1Pdf_1_1ImageParams.html#a843c1626b5d850e2a8fef83bc77b097e":[6,0,2,0,1,489,2,2],
 "structMR_1_1Pdf_1_1ImageParams.html#ac62f55dffb41437f678f5417604d361f":[6,0,1,0,1,508,2,1],
 "structMR_1_1Pdf_1_1ImageParams.html#ac62f55dffb41437f678f5417604d361f":[6,0,2,0,1,489,2,1],
+"structMR_1_1Pdf_1_1ImageParams.html#ac62f55dffb41437f678f5417604d361fa06b9281e396db002010bde1de57262eb":[6,0,1,0,1,508,2,1,3],
+"structMR_1_1Pdf_1_1ImageParams.html#ac62f55dffb41437f678f5417604d361fa06b9281e396db002010bde1de57262eb":[6,0,2,0,1,489,2,1,3],
 "structMR_1_1Pdf_1_1ImageParams.html#ac62f55dffb41437f678f5417604d361fa6adf97f83acf6453d4a6a4b1070f3754":[6,0,1,0,1,508,2,1,0],
 "structMR_1_1Pdf_1_1ImageParams.html#ac62f55dffb41437f678f5417604d361fa6adf97f83acf6453d4a6a4b1070f3754":[6,0,2,0,1,489,2,1,0],
 "structMR_1_1Pdf_1_1ImageParams.html#ac62f55dffb41437f678f5417604d361fa729fb415472b2cb38cf56f33a887f406":[6,0,1,0,1,508,2,1,2],
@@ -243,11 +249,5 @@ var NAVTREEINDEX86 =
 "structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html":[6,0,2,0,1,16,1],
 "structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a1ba150196ca38c47b298c26615eab80e":[6,0,1,0,1,27,1,1],
 "structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a1ba150196ca38c47b298c26615eab80e":[6,0,2,0,1,16,1,1],
-"structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a2fa82e2dbbf17f35ba932bcd731f08c6":[6,0,1,0,1,27,1,2],
-"structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a2fa82e2dbbf17f35ba932bcd731f08c6":[6,0,2,0,1,16,1,2],
-"structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a317063d55c098c2ef928c24f84e7d072":[6,0,1,0,1,27,1,4],
-"structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a317063d55c098c2ef928c24f84e7d072":[6,0,2,0,1,16,1,4],
-"structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a3ed890ec3241e636e8fd100f7ed41f04":[6,0,1,0,1,27,1,0],
-"structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a3ed890ec3241e636e8fd100f7ed41f04":[6,0,2,0,1,16,1,0],
-"structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a486648a6478caadcce4b7e8b5ccfe262":[6,0,1,0,1,27,1,6]
+"structMR_1_1PlanarTriangulation_1_1IntersectionInfo.html#a2fa82e2dbbf17f35ba932bcd731f08c6":[6,0,1,0,1,27,1,2]
 };

@@ -8,7 +8,8 @@ var structMR_1_1Pdf_1_1ImageParams =
     [ "UniformScale", "structMR_1_1Pdf_1_1ImageParams.html#ac62f55dffb41437f678f5417604d361f", [
       [ "None", "structMR_1_1Pdf_1_1ImageParams.html#ac62f55dffb41437f678f5417604d361fa6adf97f83acf6453d4a6a4b1070f3754", null ],
       [ "FromWidth", "structMR_1_1Pdf_1_1ImageParams.html#ac62f55dffb41437f678f5417604d361fae82836abadfb4090798de99270897263", null ],
-      [ "FromHeight", "structMR_1_1Pdf_1_1ImageParams.html#ac62f55dffb41437f678f5417604d361fa729fb415472b2cb38cf56f33a887f406", null ]
+      [ "FromHeight", "structMR_1_1Pdf_1_1ImageParams.html#ac62f55dffb41437f678f5417604d361fa729fb415472b2cb38cf56f33a887f406", null ],
+      [ "Auto", "structMR_1_1Pdf_1_1ImageParams.html#ac62f55dffb41437f678f5417604d361fa06b9281e396db002010bde1de57262eb", null ]
     ] ],
     [ "alignmentHorizontal", "structMR_1_1Pdf_1_1ImageParams.html#a843c1626b5d850e2a8fef83bc77b097e", null ],
     [ "alignmentVertical", "structMR_1_1Pdf_1_1ImageParams.html#a4539cd7cb0d2e7178a1c788e1ce4c43b", null ],

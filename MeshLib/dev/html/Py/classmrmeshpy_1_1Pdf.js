@@ -10,6 +10,7 @@ var classmrmeshpy_1_1Pdf =
     [ "__init__", "classmrmeshpy_1_1Pdf.html#a9d71ed873d4849d4890d6ee5f6777674", null ],
     [ "__bool__", "classmrmeshpy_1_1Pdf.html#a40a6eea69478be94bcdf0f8e35f09172", null ],
     [ "__repr__", "classmrmeshpy_1_1Pdf.html#ad3a53512d47466724d34d6a124805d61", null ],
+    [ "addImage", "classmrmeshpy_1_1Pdf.html#a442264ed224a5fe9ad818b623a84d757", null ],
     [ "addImageFromFile", "classmrmeshpy_1_1Pdf.html#a878ae81b78f655d6150c3080945fc5ef", null ],
     [ "addPaletteStatsTable", "classmrmeshpy_1_1Pdf.html#af06934f050b86f2171a900f35534092a", null ],
     [ "addRow", "classmrmeshpy_1_1Pdf.html#a83277819becefd776265a99eeb6f3305", null ],

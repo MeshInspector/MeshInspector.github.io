@@ -1,5 +1,7 @@
 var NAVTREEINDEX48 =
 {
+"classMR_1_1SurfacePointWidget.html#adbc7a66606acd915861c47e2c89b347e":[6,0,2,0,1,703,15],
+"classMR_1_1SurfacePointWidget.html#adf37cc4ca96ed9fd71cd2578f8a46f07":[6,0,1,0,1,722,10],
 "classMR_1_1SurfacePointWidget.html#adf37cc4ca96ed9fd71cd2578f8a46f07":[6,0,2,0,1,703,10],
 "classMR_1_1SurfacePointWidget.html#af0454cbea26d720ec55e0e993b62d01b":[6,0,1,0,1,722,16],
 "classMR_1_1SurfacePointWidget.html#af0454cbea26d720ec55e0e993b62d01b":[6,0,2,0,1,703,16],
@@ -247,7 +249,5 @@ var NAVTREEINDEX48 =
 "classMR_1_1UI_1_1LabelRectAllocator.html":[6,0,2,0,1,25,5],
 "classMR_1_1UI_1_1LabelRectAllocator.html#a3b90eb278b5e53756c88dc2464876ed0":[6,0,1,0,1,42,7,0],
 "classMR_1_1UI_1_1LabelRectAllocator.html#a3b90eb278b5e53756c88dc2464876ed0":[6,0,2,0,1,25,5,0],
-"classMR_1_1UI_1_1LineAntialiasingDisabler.html":[6,0,1,0,1,42,8],
-"classMR_1_1UI_1_1LineAntialiasingDisabler.html":[6,0,2,0,1,25,6],
-"classMR_1_1UI_1_1LineAntialiasingDisabler.html#a2afdce202165a67c850a8ee3a43d33e2":[6,0,1,0,1,42,8,3]
+"classMR_1_1UI_1_1LineAntialiasingDisabler.html":[6,0,1,0,1,42,8]
 };
