@@ -221,6 +221,75 @@ $(function(){initNavTree('ExampleMeshFromText.html',''); initResizable(true); })
 <div class="ttc" id="anamespacemrmeshpy_html_a0f6b2b16672621f1c75bbd082c1ca388"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#a0f6b2b16672621f1c75bbd082c1ca388">mrmeshpy::saveMesh</a></div><div class="ttdeci">None saveMesh(Mesh mesh, os.PathLike|str|bytes file, SaveSettings settings='{}')</div></div>
 <div class="ttc" id="anamespacemrmeshpy_html_ad59b2a98d03fe6c2c4b7adbd6900aeee"><div class="ttname"><a href="./Py/namespacemrmeshpy.html#ad59b2a98d03fe6c2c4b7adbd6900aeee">mrmeshpy::createSymbolsMesh</a></div><div class="ttdeci">Mesh createSymbolsMesh(SymbolMeshParams params)</div></div>
 </div><!-- fragment --></li>
+<li><b class="tab-title">C</b> <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/MRSymbolMesh_8h.html">MRCSymbolMesh/MRSymbolMesh.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/MRMeshSave_8h.html">MRCMesh/MRMeshSave.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/expected__MR__Mesh__std__string_8h.html">MRCMisc/expected_MR_Mesh_std_string.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/expected__void__std__string_8h.html">MRCMisc/expected_void_std_string.h</a>&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;<a class="codeRef" href="./C/std__string_8h.html">MRCMisc/std_string.h</a>&gt;</span></div>
+<div class="line"> </div>
+<div class="line"><span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;stdlib.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;string.h&gt;</span></div>
+<div class="line"> </div>
+<div class="line"><span class="keywordtype">int</span> <a class="code hl_function" href="LaplacianDeformation_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a>( <span class="keywordtype">int</span> argc, <span class="keywordtype">char</span>** argv )</div>
+<div class="line">{</div>
+<div class="line">    <span class="keywordtype">int</span> rc = EXIT_FAILURE;</div>
+<div class="line">    <span class="keywordflow">if</span> ( argc &lt; 3 )</div>
+<div class="line">    {</div>
+<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Usage: MeshFromText fontpath text&quot;</span> );</div>
+<div class="line">        <span class="keywordflow">goto</span> bad_usage;</div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRAlignTextToMesh_8h.html#adc08a6832856be67ef1c2acff16c9f59">MR_SymbolMeshParams</a>* params = <a class="code hl_functionRef" href="./C/MRSymbolMesh_8h.html#a53d18c24cd19cdf4ad49fc2203653160">MR_SymbolMeshParams_DefaultConstruct</a>();</div>
+<div class="line">    <a class="code hl_functionRef" href="./C/MRSymbolMesh_8h.html#a7e6ce16a1d8f7a024dbc61b3b547b8bf">MR_SymbolMeshParams_Set_text</a>( params, argv[2], NULL );</div>
+<div class="line">    <a class="code hl_functionRef" href="./C/MRSymbolMesh_8h.html#a2c18e7cfd3a2f9d2fb37722323598b9c">MR_SymbolMeshParams_Set_pathToFontFile</a>( params, argv[1], NULL );</div>
+<div class="line"> </div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a>* convRes = <a class="code hl_functionRef" href="./C/MRSymbolMesh_8h.html#a8a38738ab2c8cd01c15235d0b2e01c32">MR_createSymbolsMesh</a>( params );</div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a>* mesh = <a class="code hl_functionRef" href="./C/expected__MR__Mesh__std__string_8h.html#a099fbb9e0fc70d161a966f38eff8fa03">MR_expected_MR_Mesh_std_string_GetMutableValue</a>( convRes );</div>
+<div class="line">    <span class="keywordflow">if</span> ( !mesh )</div>
+<div class="line">    {</div>
+<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to convert text to mesh: %s\n&quot;</span>, <a class="code hl_functionRef" href="./C/std__string_8h.html#ae6d1b10a4ee031ae30876d74a6894c67">MR_std_string_Data</a>( <a class="code hl_functionRef" href="./C/expected__MR__Mesh__std__string_8h.html#a8dc957718cb4d5be7e2557eed5b1dc1e">MR_expected_MR_Mesh_std_string_GetError</a>( convRes ) ) );</div>
+<div class="line">        <span class="keywordflow">goto</span> fail_conv;</div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a>* saveEx = <a class="code hl_functionRef" href="./C/MRMeshSave_8h.html#a82c411e8ebdadfc3cd47a800f2385591">MR_MeshSave_toAnySupportedFormat_3</a>( mesh, <span class="stringliteral">&quot;mesh.ply&quot;</span>, NULL, NULL );</div>
+<div class="line">    <span class="keywordflow">if</span> ( <a class="code hl_functionRef" href="./C/expected__void__std__string_8h.html#a734251d65885afdad21d65eea75e2810">MR_expected_void_std_string_GetError</a>( saveEx ) )</div>
+<div class="line">    {</div>
+<div class="line">        fprintf( stderr, <span class="stringliteral">&quot;Failed to save mesh: %s\n&quot;</span>, <a class="code hl_functionRef" href="./C/std__string_8h.html#ae6d1b10a4ee031ae30876d74a6894c67">MR_std_string_Data</a>( <a class="code hl_functionRef" href="./C/expected__void__std__string_8h.html#a734251d65885afdad21d65eea75e2810">MR_expected_void_std_string_GetError</a>( saveEx ) ) );</div>
+<div class="line">        <span class="keywordflow">goto</span> fail_save; <span class="comment">// error while saving file</span></div>
+<div class="line">    }</div>
+<div class="line"> </div>
+<div class="line">    rc = EXIT_SUCCESS;</div>
+<div class="line">fail_save:</div>
+<div class="line">    <a class="code hl_functionRef" href="./C/expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9">MR_expected_void_std_string_Destroy</a>( saveEx );</div>
+<div class="line"> </div>
+<div class="line">fail_conv:</div>
+<div class="line">    <a class="code hl_functionRef" href="./C/expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1">MR_expected_MR_Mesh_std_string_Destroy</a>( convRes );</div>
+<div class="line">    <a class="code hl_functionRef" href="./C/MRSymbolMesh_8h.html#af2a15f9689b0a5626ab85c8ed876d3ff">MR_SymbolMeshParams_Destroy</a>( params );</div>
+<div class="line">bad_usage:</div>
+<div class="line">    <span class="keywordflow">return</span> rc;</div>
+<div class="line">}</div>
+<div class="ttc" id="aMRAlignTextToMesh_8h_html_adc08a6832856be67ef1c2acff16c9f59"><div class="ttname"><a href="./C/MRAlignTextToMesh_8h.html#adc08a6832856be67ef1c2acff16c9f59">MR_SymbolMeshParams</a></div><div class="ttdeci">struct MR_SymbolMeshParams MR_SymbolMeshParams</div></div>
+<div class="ttc" id="aMRCtm_8h_html_a077b8debfae88f9cf2267ad2db95c006"><div class="ttname"><a href="./C/MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a></div><div class="ttdeci">struct MR_expected_void_std_string MR_expected_void_std_string</div></div>
+<div class="ttc" id="aMRCtm_8h_html_a0d97154d4aed695055160a4688c04a3d"><div class="ttname"><a href="./C/MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a></div><div class="ttdeci">struct MR_expected_MR_Mesh_std_string MR_expected_MR_Mesh_std_string</div></div>
+<div class="ttc" id="aMRCtm_8h_html_a31b172f68efca6438544d56eb86d6f40"><div class="ttname"><a href="./C/MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a></div><div class="ttdeci">struct MR_Mesh MR_Mesh</div></div>
+<div class="ttc" id="aMRMeshSave_8h_html"><div class="ttname"><a href="./C/MRMeshSave_8h.html">MRMeshSave.h</a></div></div>
+<div class="ttc" id="aMRMeshSave_8h_html_a82c411e8ebdadfc3cd47a800f2385591"><div class="ttname"><a href="./C/MRMeshSave_8h.html#a82c411e8ebdadfc3cd47a800f2385591">MR_MeshSave_toAnySupportedFormat_3</a></div><div class="ttdeci">MRC_API MR_expected_void_std_string * MR_MeshSave_toAnySupportedFormat_3(const MR_Mesh *mesh, const char *file, const char *file_end, const MR_SaveSettings *settings)</div></div>
+<div class="ttc" id="aMRSymbolMesh_8h_html_a2c18e7cfd3a2f9d2fb37722323598b9c"><div class="ttname"><a href="./C/MRSymbolMesh_8h.html#a2c18e7cfd3a2f9d2fb37722323598b9c">MR_SymbolMeshParams_Set_pathToFontFile</a></div><div class="ttdeci">MRC_API void MR_SymbolMeshParams_Set_pathToFontFile(MR_SymbolMeshParams *_this, const char *value, const char *value_end)</div></div>
+<div class="ttc" id="aMRSymbolMesh_8h_html_a53d18c24cd19cdf4ad49fc2203653160"><div class="ttname"><a href="./C/MRSymbolMesh_8h.html#a53d18c24cd19cdf4ad49fc2203653160">MR_SymbolMeshParams_DefaultConstruct</a></div><div class="ttdeci">MRC_API MR_SymbolMeshParams * MR_SymbolMeshParams_DefaultConstruct(void)</div></div>
+<div class="ttc" id="aMRSymbolMesh_8h_html_a7e6ce16a1d8f7a024dbc61b3b547b8bf"><div class="ttname"><a href="./C/MRSymbolMesh_8h.html#a7e6ce16a1d8f7a024dbc61b3b547b8bf">MR_SymbolMeshParams_Set_text</a></div><div class="ttdeci">MRC_API void MR_SymbolMeshParams_Set_text(MR_SymbolMeshParams *_this, const char *value, const char *value_end)</div></div>
+<div class="ttc" id="aMRSymbolMesh_8h_html_a8a38738ab2c8cd01c15235d0b2e01c32"><div class="ttname"><a href="./C/MRSymbolMesh_8h.html#a8a38738ab2c8cd01c15235d0b2e01c32">MR_createSymbolsMesh</a></div><div class="ttdeci">MRC_API MR_expected_MR_Mesh_std_string * MR_createSymbolsMesh(const MR_SymbolMeshParams *params)</div></div>
+<div class="ttc" id="aMRSymbolMesh_8h_html_af2a15f9689b0a5626ab85c8ed876d3ff"><div class="ttname"><a href="./C/MRSymbolMesh_8h.html#af2a15f9689b0a5626ab85c8ed876d3ff">MR_SymbolMeshParams_Destroy</a></div><div class="ttdeci">MRC_API void MR_SymbolMeshParams_Destroy(const MR_SymbolMeshParams *_this)</div></div>
+<div class="ttc" id="aexpected__MR__Mesh__std__string_8h_html"><div class="ttname"><a href="./C/expected__MR__Mesh__std__string_8h.html">expected_MR_Mesh_std_string.h</a></div></div>
+<div class="ttc" id="aexpected__MR__Mesh__std__string_8h_html_a099fbb9e0fc70d161a966f38eff8fa03"><div class="ttname"><a href="./C/expected__MR__Mesh__std__string_8h.html#a099fbb9e0fc70d161a966f38eff8fa03">MR_expected_MR_Mesh_std_string_GetMutableValue</a></div><div class="ttdeci">MRC_API MR_Mesh * MR_expected_MR_Mesh_std_string_GetMutableValue(MR_expected_MR_Mesh_std_string *_this)</div></div>
+<div class="ttc" id="aexpected__MR__Mesh__std__string_8h_html_a8dc957718cb4d5be7e2557eed5b1dc1e"><div class="ttname"><a href="./C/expected__MR__Mesh__std__string_8h.html#a8dc957718cb4d5be7e2557eed5b1dc1e">MR_expected_MR_Mesh_std_string_GetError</a></div><div class="ttdeci">MRC_API const MR_std_string * MR_expected_MR_Mesh_std_string_GetError(const MR_expected_MR_Mesh_std_string *_this)</div></div>
+<div class="ttc" id="aexpected__MR__Mesh__std__string_8h_html_adf45ed943c3005d85a9baaa15feb26f1"><div class="ttname"><a href="./C/expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1">MR_expected_MR_Mesh_std_string_Destroy</a></div><div class="ttdeci">MRC_API void MR_expected_MR_Mesh_std_string_Destroy(const MR_expected_MR_Mesh_std_string *_this)</div></div>
+<div class="ttc" id="aexpected__void__std__string_8h_html"><div class="ttname"><a href="./C/expected__void__std__string_8h.html">expected_void_std_string.h</a></div></div>
+<div class="ttc" id="aexpected__void__std__string_8h_html_a734251d65885afdad21d65eea75e2810"><div class="ttname"><a href="./C/expected__void__std__string_8h.html#a734251d65885afdad21d65eea75e2810">MR_expected_void_std_string_GetError</a></div><div class="ttdeci">MRC_API const MR_std_string * MR_expected_void_std_string_GetError(const MR_expected_void_std_string *_this)</div></div>
+<div class="ttc" id="aexpected__void__std__string_8h_html_a9638e07d2c5281b4bf574c618ab6f2e9"><div class="ttname"><a href="./C/expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9">MR_expected_void_std_string_Destroy</a></div><div class="ttdeci">MRC_API void MR_expected_void_std_string_Destroy(const MR_expected_void_std_string *_this)</div></div>
+<div class="ttc" id="astd__string_8h_html"><div class="ttname"><a href="./C/std__string_8h.html">std_string.h</a></div></div>
+<div class="ttc" id="astd__string_8h_html_ae6d1b10a4ee031ae30876d74a6894c67"><div class="ttname"><a href="./C/std__string_8h.html#ae6d1b10a4ee031ae30876d74a6894c67">MR_std_string_Data</a></div><div class="ttdeci">MRC_API const char * MR_std_string_Data(const MR_std_string *_this)</div></div>
+</div><!-- fragment --></li>
 </ul>
 </div><div class="tabbed"></div> </div></div><!-- contents -->
 </div><!-- PageDoc -->
