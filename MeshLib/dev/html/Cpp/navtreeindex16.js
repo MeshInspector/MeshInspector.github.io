@@ -1,5 +1,11 @@
 var NAVTREEINDEX16 =
 {
+"MRTestC_2MRBox_8h.html#aa147e497e46bef9b7925657ce0557672":[6,0,3,0,0,1,9,3,2],
+"MRTestC_2MRBox_8h_source.html":[6,0,3,0,0,1,9,3],
+"MRTestC_2MRColor_8h.html":[6,0,3,0,0,1,9,4],
+"MRTestC_2MRColor_8h.html#a4c85209b833182acfd31ea75d9efa2f2":[6,0,3,0,0,1,9,4,2],
+"MRTestC_2MRColor_8h.html#a6cf525d352cebc486e9070ae6668a896":[6,0,3,0,0,1,9,4,0],
+"MRTestC_2MRColor_8h.html#a740ee317ba28daf22a52ff96cd7a5e63":[6,0,3,0,0,1,9,4,1],
 "MRTestC_2MRColor_8h.html#a9e67426543be9f41656281b15e05b577":[6,0,3,0,0,1,9,4,4],
 "MRTestC_2MRColor_8h.html#ac31b9045c8dae1b4d7fa3a1a8ae73c36":[6,0,3,0,0,1,9,4,3],
 "MRTestC_2MRColor_8h_source.html":[6,0,3,0,0,1,9,4],
@@ -243,11 +249,5 @@ var NAVTREEINDEX16 =
 "MRTupleBindings_8h.html#a4bc6e978265e037bdca77110eae89d64":[6,0,3,0,0,1,4,392,14],
 "MRTupleBindings_8h.html#a4e767d46dd23fb8b21130cc65ef9eb61":[6,0,3,0,0,1,4,392,12],
 "MRTupleBindings_8h.html#a4f46e33f779ccbcf3bbee75323347837":[6,0,3,0,0,1,4,392,17],
-"MRTupleBindings_8h.html#a7aa397b5ed81246a0465fb3bdc4f5599":[6,0,3,0,0,1,4,392,13],
-"MRTupleBindings_8h.html#a8adef0dcb5a67d508801a46f29deb81f":[6,0,3,0,0,1,4,392,7],
-"MRTupleBindings_8h.html#a8c1f285288de8cd4487966109876601b":[6,0,3,0,0,1,4,392,0],
-"MRTupleBindings_8h.html#aac529af9159db98123ad959d1708a303":[6,0,3,0,0,1,4,392,2],
-"MRTupleBindings_8h.html#aae733878440cead52d3fc2fd6c4429b9":[6,0,3,0,0,1,4,392,1],
-"MRTupleBindings_8h.html#ab1cf2ee509740a5f5564fce176ac6b05":[6,0,3,0,0,1,4,392,8],
-"MRTupleBindings_8h.html#ac87e12b44af38ae6f625b3bc7749aec7":[6,0,3,0,0,1,4,392,3]
+"MRTupleBindings_8h.html#a7aa397b5ed81246a0465fb3bdc4f5599":[6,0,3,0,0,1,4,392,13]
 };

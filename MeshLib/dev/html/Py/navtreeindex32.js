@@ -1,5 +1,11 @@
 var NAVTREEINDEX32 =
 {
+"classmrmeshpy_1_1FindOutliersParams.html#ad5a1a7f3bbf991cbf0985506007d9f96":[6,1,0,0,2,265,10],
+"classmrmeshpy_1_1FindOutliersParams.html#ad5a1a7f3bbf991cbf0985506007d9f96":[6,1,1,0,1,265,10],
+"classmrmeshpy_1_1FindOutliersParams.html#ad6f62fd082498a6452c8be56acb1e08a":[6,1,0,0,2,265,7],
+"classmrmeshpy_1_1FindOutliersParams.html#ad6f62fd082498a6452c8be56acb1e08a":[6,1,1,0,1,265,7],
+"classmrmeshpy_1_1FindOutliersParams.html#adc6ecf95d49aebb37ea6f98f0fb3eb37":[6,1,0,0,2,265,9],
+"classmrmeshpy_1_1FindOutliersParams.html#adc6ecf95d49aebb37ea6f98f0fb3eb37":[6,1,1,0,1,265,9],
 "classmrmeshpy_1_1FindOverhangsSettings.html":[6,1,0,0,2,266],
 "classmrmeshpy_1_1FindOverhangsSettings.html":[6,1,1,0,1,266],
 "classmrmeshpy_1_1FindOverhangsSettings.html#a079debe5758267455cadd11dd59b2b41":[6,1,0,0,2,266,5],
@@ -243,11 +249,5 @@ var NAVTREEINDEX32 =
 "classmrmeshpy_1_1FixUndercuts_1_1ImproveDirectionParameters.html#aebe2148dbf8ea1e10fdc58e8ee9d2771":[6,1,0,0,2,271,3,1],
 "classmrmeshpy_1_1FixUndercuts_1_1ImproveDirectionParameters.html#aebe2148dbf8ea1e10fdc58e8ee9d2771":[6,1,1,0,1,271,3,1],
 "classmrmeshpy_1_1FlipEdge.html":[6,1,0,0,2,272],
-"classmrmeshpy_1_1FlipEdge.html":[6,1,1,0,1,272],
-"classmrmeshpy_1_1FlipEdge.html#a0e839f0ff29448107b5b265b85644696":[6,1,0,0,2,272,9],
-"classmrmeshpy_1_1FlipEdge.html#a0e839f0ff29448107b5b265b85644696":[6,1,1,0,1,272,9],
-"classmrmeshpy_1_1FlipEdge.html#a12d6ebe8eef7383b653c4b41abd1658d":[6,1,0,0,2,272,7],
-"classmrmeshpy_1_1FlipEdge.html#a12d6ebe8eef7383b653c4b41abd1658d":[6,1,1,0,1,272,7],
-"classmrmeshpy_1_1FlipEdge.html#a472a07a54fc050f2b05e18c871bb0eed":[6,1,0,0,2,272,4],
-"classmrmeshpy_1_1FlipEdge.html#a472a07a54fc050f2b05e18c871bb0eed":[6,1,1,0,1,272,4]
+"classmrmeshpy_1_1FlipEdge.html":[6,1,1,0,1,272]
 };

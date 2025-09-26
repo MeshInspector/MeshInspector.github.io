@@ -1,5 +1,11 @@
 var NAVTREEINDEX125 =
 {
+"std__optional__MR__PolylineIntersectionResult2_8h.html#a687ec6cfc6119bc6934b032c46581ee5":[6,2,1,0,0,0,2,200,8],
+"std__optional__MR__PolylineIntersectionResult2_8h.html#a6e5817d02f4a5b4d5f8eae2bed9469d1":[6,2,1,0,0,0,2,200,12],
+"std__optional__MR__PolylineIntersectionResult2_8h.html#a7ddf344178e13f1bec84d5cc6b982b02":[6,2,1,0,0,0,2,200,13],
+"std__optional__MR__PolylineIntersectionResult2_8h.html#aa299b19dbb58e91cb68f606e0b22a1d5":[6,2,1,0,0,0,2,200,10],
+"std__optional__MR__PolylineIntersectionResult2_8h.html#aab8ca47902d7c4c1ac19071c75ac56d3":[6,2,1,0,0,0,2,200,6],
+"std__optional__MR__PolylineIntersectionResult2_8h.html#ab703fb0e787f91fc7194e3fe95e9c09a":[6,2,1,0,0,0,2,200,1],
 "std__optional__MR__PolylineIntersectionResult2_8h.html#ad3264ceeed199d92fdebc3fa148a4cc7":[6,2,1,0,0,0,2,200,3],
 "std__optional__MR__PolylineIntersectionResult2_8h_source.html":[6,2,1,0,0,0,2,200],
 "std__optional__MR__SignedDistanceToMeshResult_8h.html":[6,2,1,0,0,0,2,201],
@@ -243,11 +249,5 @@ var NAVTREEINDEX125 =
 "std__optional__std__vector__MR__SomeLocalTriangulations_8h.html#a23bc5aa137ce64a429197fca2def138b":[6,2,1,0,0,0,2,214,8],
 "std__optional__std__vector__MR__SomeLocalTriangulations_8h.html#a489561b95f6667ee8ca345740e307a4f":[6,2,1,0,0,0,2,214,1],
 "std__optional__std__vector__MR__SomeLocalTriangulations_8h.html#a6b9aad0751e52b707b472702bba194e8":[6,2,1,0,0,0,2,214,2],
-"std__optional__std__vector__MR__SomeLocalTriangulations_8h.html#a6fb419834af6e74d2df2d44a0e054d00":[6,2,1,0,0,0,2,214,10],
-"std__optional__std__vector__MR__SomeLocalTriangulations_8h.html#a7f86c94368db922217344f9d92fdc3ef":[6,2,1,0,0,0,2,214,12],
-"std__optional__std__vector__MR__SomeLocalTriangulations_8h.html#a96a4efbc5e5934820f5146e5077638c8":[6,2,1,0,0,0,2,214,6],
-"std__optional__std__vector__MR__SomeLocalTriangulations_8h.html#aa94effafdfa0d4ebccdb8ce83845fd86":[6,2,1,0,0,0,2,214,7],
-"std__optional__std__vector__MR__SomeLocalTriangulations_8h.html#ad6b5849ad99081bb08583da022a6c943":[6,2,1,0,0,0,2,214,11],
-"std__optional__std__vector__MR__SomeLocalTriangulations_8h.html#af5a6121e3cb5169ce803451b3ecd6812":[6,2,1,0,0,0,2,214,3],
-"std__optional__std__vector__MR__SomeLocalTriangulations_8h.html#afdc31f7f68f5f81095aae6e16a8d412c":[6,2,1,0,0,0,2,214,4]
+"std__optional__std__vector__MR__SomeLocalTriangulations_8h.html#a6fb419834af6e74d2df2d44a0e054d00":[6,2,1,0,0,0,2,214,10]
 };

@@ -1,5 +1,11 @@
 var NAVTREEINDEX37 =
 {
+"classMR_1_1ObjectVoxels.html#af7fd2489b0d231cb123d39993536de2b":[6,0,0,11,14,56],
+"classMR_1_1ObjectVoxels.html#af9f3bf968d1e9084c912f67cf8fcdaec":[6,0,0,11,14,76],
+"classMR_1_1ObjectVoxels.html#afbad2a43279c25456d0ae5f6ad86f37e":[6,0,0,11,14,60],
+"classMR_1_1ObjectVoxels.html#afcc452d7af81256782737daa253d27f8":[6,0,0,11,14,9],
+"classMR_1_1ObjectVoxels.html#aff1133d23968e690753672eb833bc4e7":[6,0,0,11,14,35],
+"classMR_1_1ObjectVoxels.html#aff8794b9bd15a75ebc129b43162e181d":[6,0,0,11,14,15],
 "classMR_1_1OpenDICOMsMenuItem.html":[6,0,1,0,1,489],
 "classMR_1_1OpenDICOMsMenuItem.html":[6,0,2,0,1,470],
 "classMR_1_1OpenDICOMsMenuItem.html#a552788c299eeab9cb93cef6a1454e287":[6,0,1,0,1,489,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX37 =
 "classMR_1_1PickPointManager.html#a5293eb3d7c9e32d1534443a4eaadd070":[6,0,1,0,1,510,16],
 "classMR_1_1PickPointManager.html#a5293eb3d7c9e32d1534443a4eaadd070":[6,0,2,0,1,491,16],
 "classMR_1_1PickPointManager.html#a61baa844efa1ebb8a509db54e7fa814c":[6,0,1,0,1,510,14],
-"classMR_1_1PickPointManager.html#a61baa844efa1ebb8a509db54e7fa814c":[6,0,2,0,1,491,14],
-"classMR_1_1PickPointManager.html#a66fec48ba08655d3ee9486f9b4e2c3f0":[6,0,1,0,1,510,7],
-"classMR_1_1PickPointManager.html#a66fec48ba08655d3ee9486f9b4e2c3f0":[6,0,2,0,1,491,7],
-"classMR_1_1PickPointManager.html#a7785cb6ce3cab3d064b6c20f07958cf3":[6,0,1,0,1,510,19],
-"classMR_1_1PickPointManager.html#a7785cb6ce3cab3d064b6c20f07958cf3":[6,0,2,0,1,491,19],
-"classMR_1_1PickPointManager.html#a9c4b283d6f473e8f7b894b329c3af11d":[6,0,1,0,1,510,23],
-"classMR_1_1PickPointManager.html#a9c4b283d6f473e8f7b894b329c3af11d":[6,0,2,0,1,491,23]
+"classMR_1_1PickPointManager.html#a61baa844efa1ebb8a509db54e7fa814c":[6,0,2,0,1,491,14]
 };

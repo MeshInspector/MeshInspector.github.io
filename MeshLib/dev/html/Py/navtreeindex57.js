@@ -1,5 +1,11 @@
 var NAVTREEINDEX57 =
 {
+"classmrmeshpy_1_1NodeBitSet.html#acbc72a38eb3db38b420515eddfd1d88d":[6,1,0,0,2,558,5],
+"classmrmeshpy_1_1NodeBitSet.html#acbc72a38eb3db38b420515eddfd1d88d":[6,1,1,0,1,558,5],
+"classmrmeshpy_1_1NodeBitSet.html#acff536e69312f246e4887cdd370bf0c0":[6,1,0,0,2,558,27],
+"classmrmeshpy_1_1NodeBitSet.html#acff536e69312f246e4887cdd370bf0c0":[6,1,1,0,1,558,27],
+"classmrmeshpy_1_1NodeBitSet.html#ad2a863b8e3ebac9a7067b63371179a09":[6,1,0,0,2,558,16],
+"classmrmeshpy_1_1NodeBitSet.html#ad2a863b8e3ebac9a7067b63371179a09":[6,1,1,0,1,558,16],
 "classmrmeshpy_1_1NodeBitSet.html#ad43491c6ae578af46e14a8e96a3b1363":[6,1,0,0,2,558,37],
 "classmrmeshpy_1_1NodeBitSet.html#ad43491c6ae578af46e14a8e96a3b1363":[6,1,1,0,1,558,37],
 "classmrmeshpy_1_1NodeBitSet.html#ad61a251c87e3505ef479a64eb7717bf1":[6,1,0,0,2,558,21],
@@ -243,11 +249,5 @@ var NAVTREEINDEX57 =
 "classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Cylinder.html#a7ec87be1af24c5c8d0f45ebf959f41b0":[6,1,1,0,1,601,0],
 "classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Cylinder.html#a7ec87be1af24c5c8d0f45ebf959f41b0":[6,1,1,0,1,601,2],
 "classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Line.html":[6,1,0,0,2,602],
-"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Line.html":[6,1,1,0,1,602],
-"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Line.html#a016d3d82065982c5172679bf104325c2":[6,1,0,0,2,602,1],
-"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Line.html#a016d3d82065982c5172679bf104325c2":[6,1,1,0,1,602,1],
-"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Line.html#ab41336f3835dd6057579c41dc84ab953":[6,1,0,0,2,602,0],
-"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Line.html#ab41336f3835dd6057579c41dc84ab953":[6,1,0,0,2,602,2],
-"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Line.html#ab41336f3835dd6057579c41dc84ab953":[6,1,1,0,1,602,0],
-"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Line.html#ab41336f3835dd6057579c41dc84ab953":[6,1,1,0,1,602,2]
+"classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Line.html":[6,1,1,0,1,602]
 };

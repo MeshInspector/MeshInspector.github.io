@@ -1,5 +1,11 @@
 var NAVTREEINDEX70 =
 {
+"classmrmeshpy_1_1Polyline2ProjectionWithOffsetResult.html#aa3ea49c2ed4991cda446d31e8e9fb2c8":[6,1,0,0,2,692,8],
+"classmrmeshpy_1_1Polyline2ProjectionWithOffsetResult.html#aa3ea49c2ed4991cda446d31e8e9fb2c8":[6,1,1,0,1,692,8],
+"classmrmeshpy_1_1Polyline2ProjectionWithOffsetResult.html#acd8d3f53ab33345f319bb5056edbb703":[6,1,0,0,2,692,1],
+"classmrmeshpy_1_1Polyline2ProjectionWithOffsetResult.html#acd8d3f53ab33345f319bb5056edbb703":[6,1,1,0,1,692,1],
+"classmrmeshpy_1_1Polyline2ProjectionWithOffsetResult.html#acf99f6e1c5ef8cf9e819661daf14d567":[6,1,0,0,2,692,0],
+"classmrmeshpy_1_1Polyline2ProjectionWithOffsetResult.html#acf99f6e1c5ef8cf9e819661daf14d567":[6,1,1,0,1,692,0],
 "classmrmeshpy_1_1Polyline2ProjectionWithOffsetResult.html#aeba5bbda9ea6812014bfacf9e525eeab":[6,1,0,0,2,692,2],
 "classmrmeshpy_1_1Polyline2ProjectionWithOffsetResult.html#aeba5bbda9ea6812014bfacf9e525eeab":[6,1,1,0,1,692,2],
 "classmrmeshpy_1_1Polyline2ProjectionWithOffsetResult.html#aeeb912d78c8a2774712f0ed51988bcaa":[6,1,0,0,2,692,4],
@@ -243,11 +249,5 @@ var NAVTREEINDEX70 =
 "classmrmeshpy_1_1PolylineToDistanceVolumeParams.html#a3aa5580696de2d75be5e6e3964ad06b9":[6,1,0,0,2,702,4],
 "classmrmeshpy_1_1PolylineToDistanceVolumeParams.html#a3aa5580696de2d75be5e6e3964ad06b9":[6,1,1,0,1,702,4],
 "classmrmeshpy_1_1PolylineToDistanceVolumeParams.html#a463bb066d98f0935256f3ea109090e7c":[6,1,0,0,2,702,1],
-"classmrmeshpy_1_1PolylineToDistanceVolumeParams.html#a463bb066d98f0935256f3ea109090e7c":[6,1,1,0,1,702,1],
-"classmrmeshpy_1_1PolylineToDistanceVolumeParams.html#a728da100cf1681d2222184408bac107e":[6,1,0,0,2,702,3],
-"classmrmeshpy_1_1PolylineToDistanceVolumeParams.html#a728da100cf1681d2222184408bac107e":[6,1,1,0,1,702,3],
-"classmrmeshpy_1_1PolylineToDistanceVolumeParams.html#a80fc30f54dbbc5cf8c086355854b2d76":[6,1,0,0,2,702,0],
-"classmrmeshpy_1_1PolylineToDistanceVolumeParams.html#a80fc30f54dbbc5cf8c086355854b2d76":[6,1,1,0,1,702,0],
-"classmrmeshpy_1_1PolylineToDistanceVolumeParams.html#aac3be6e45dac26bbe93c24c7a6cbb1df":[6,1,0,0,2,702,6],
-"classmrmeshpy_1_1PolylineToDistanceVolumeParams.html#aac3be6e45dac26bbe93c24c7a6cbb1df":[6,1,1,0,1,702,6]
+"classmrmeshpy_1_1PolylineToDistanceVolumeParams.html#a463bb066d98f0935256f3ea109090e7c":[6,1,1,0,1,702,1]
 };

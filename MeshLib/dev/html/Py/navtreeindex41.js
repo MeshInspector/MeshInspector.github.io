@@ -1,5 +1,11 @@
 var NAVTREEINDEX41 =
 {
+"classmrmeshpy_1_1LoadedObjectT__ObjectPoints.html":[6,1,0,0,2,444],
+"classmrmeshpy_1_1LoadedObjectT__ObjectPoints.html":[6,1,1,0,1,444],
+"classmrmeshpy_1_1LoadedObjectT__ObjectPoints.html#a11bb638cf958c51b262b182fb9c52dab":[6,1,0,0,2,444,4],
+"classmrmeshpy_1_1LoadedObjectT__ObjectPoints.html#a11bb638cf958c51b262b182fb9c52dab":[6,1,1,0,1,444,4],
+"classmrmeshpy_1_1LoadedObjectT__ObjectPoints.html#a17d7188be2185c592bc3c1a9fe75185a":[6,1,0,0,2,444,2],
+"classmrmeshpy_1_1LoadedObjectT__ObjectPoints.html#a17d7188be2185c592bc3c1a9fe75185a":[6,1,1,0,1,444,2],
 "classmrmeshpy_1_1LoadedObjectT__ObjectPoints.html#a756342ca2ead13f275ab328de9e12065":[6,1,0,0,2,444,1],
 "classmrmeshpy_1_1LoadedObjectT__ObjectPoints.html#a756342ca2ead13f275ab328de9e12065":[6,1,1,0,1,444,1],
 "classmrmeshpy_1_1LoadedObjectT__ObjectPoints.html#ab8e180d5460c111e7e46ac8cc650e80e":[6,1,0,0,2,444,3],
@@ -243,11 +249,5 @@ var NAVTREEINDEX41 =
 "classmrmeshpy_1_1MapOrHashMap__VertId__VertId.html#ab8b8a0711ec27876df0d7d8c85e4efed":[6,1,1,0,1,453,4],
 "classmrmeshpy_1_1MapOrHashMap__VertId__VertId.html#ab8b8a0711ec27876df0d7d8c85e4efed":[6,1,1,0,1,453,5],
 "classmrmeshpy_1_1MapOrHashMap__VertId__VertId.html#ad24db6641c02284a320d4e16b96e2d6d":[6,1,0,0,2,453,10],
-"classmrmeshpy_1_1MapOrHashMap__VertId__VertId.html#ad24db6641c02284a320d4e16b96e2d6d":[6,1,1,0,1,453,10],
-"classmrmeshpy_1_1MapOrHashMap__VertId__VertId.html#ad2b7cb9afc458979433e37ed87e932e8":[6,1,0,0,2,453,3],
-"classmrmeshpy_1_1MapOrHashMap__VertId__VertId.html#ad2b7cb9afc458979433e37ed87e932e8":[6,1,1,0,1,453,3],
-"classmrmeshpy_1_1MapOrHashMap__VertId__VertId.html#adca10f24b8b5d5e1e50bc44fec6c4eaf":[6,1,0,0,2,453,0],
-"classmrmeshpy_1_1MapOrHashMap__VertId__VertId.html#adca10f24b8b5d5e1e50bc44fec6c4eaf":[6,1,1,0,1,453,0],
-"classmrmeshpy_1_1MapOrHashMap__VertId__VertId.html#aea921d6dbbc1265ae7cfdfa7d9dac1eb":[6,1,0,0,2,453,12],
-"classmrmeshpy_1_1MapOrHashMap__VertId__VertId.html#aea921d6dbbc1265ae7cfdfa7d9dac1eb":[6,1,1,0,1,453,12]
+"classmrmeshpy_1_1MapOrHashMap__VertId__VertId.html#ad24db6641c02284a320d4e16b96e2d6d":[6,1,1,0,1,453,10]
 };

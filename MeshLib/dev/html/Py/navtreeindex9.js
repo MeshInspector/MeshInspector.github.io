@@ -1,5 +1,11 @@
 var NAVTREEINDEX9 =
 {
+"classmrmeshpy_1_1Box3i64.html#a5c4c825ad2e0f0a4567891f6f6cdc5f4":[6,1,0,0,2,75,7],
+"classmrmeshpy_1_1Box3i64.html#a5c4c825ad2e0f0a4567891f6f6cdc5f4":[6,1,1,0,1,75,7],
+"classmrmeshpy_1_1Box3i64.html#a60212e554c019630ec7b679844d08963":[6,1,0,0,2,75,14],
+"classmrmeshpy_1_1Box3i64.html#a60212e554c019630ec7b679844d08963":[6,1,1,0,1,75,14],
+"classmrmeshpy_1_1Box3i64.html#a7d999dcb657a35fed5ad5a928926823c":[6,1,0,0,2,75,6],
+"classmrmeshpy_1_1Box3i64.html#a7d999dcb657a35fed5ad5a928926823c":[6,1,1,0,1,75,6],
 "classmrmeshpy_1_1Box3i64.html#a871143d7b50d57089165ac14ea043b05":[6,1,0,0,2,75,13],
 "classmrmeshpy_1_1Box3i64.html#a871143d7b50d57089165ac14ea043b05":[6,1,1,0,1,75,13],
 "classmrmeshpy_1_1Box3i64.html#a9013453c04afa482c7b707b75c61cb87":[6,1,0,0,2,75,18],
@@ -243,11 +249,5 @@ var NAVTREEINDEX9 =
 "classmrmeshpy_1_1Buffer__GraphEdgeId__GraphEdgeId.html#a654fe0b75baf07ffe17d1c2e9085fb9b":[6,1,0,0,2,82,15],
 "classmrmeshpy_1_1Buffer__GraphEdgeId__GraphEdgeId.html#a654fe0b75baf07ffe17d1c2e9085fb9b":[6,1,1,0,1,82,15],
 "classmrmeshpy_1_1Buffer__GraphEdgeId__GraphEdgeId.html#a776622106c87fba4fd316a646a8d9525":[6,1,0,0,2,82,13],
-"classmrmeshpy_1_1Buffer__GraphEdgeId__GraphEdgeId.html#a776622106c87fba4fd316a646a8d9525":[6,1,1,0,1,82,13],
-"classmrmeshpy_1_1Buffer__GraphEdgeId__GraphEdgeId.html#a7beeded443f1772ce34e92c26cd7aff3":[6,1,0,0,2,82,6],
-"classmrmeshpy_1_1Buffer__GraphEdgeId__GraphEdgeId.html#a7beeded443f1772ce34e92c26cd7aff3":[6,1,1,0,1,82,6],
-"classmrmeshpy_1_1Buffer__GraphEdgeId__GraphEdgeId.html#a80f7b45a89164d4664b4d8bf7b27d5b8":[6,1,0,0,2,82,7],
-"classmrmeshpy_1_1Buffer__GraphEdgeId__GraphEdgeId.html#a80f7b45a89164d4664b4d8bf7b27d5b8":[6,1,1,0,1,82,7],
-"classmrmeshpy_1_1Buffer__GraphEdgeId__GraphEdgeId.html#a8a41d1bbdd768cdc29ba40dcb910eae9":[6,1,0,0,2,82,4],
-"classmrmeshpy_1_1Buffer__GraphEdgeId__GraphEdgeId.html#a8a41d1bbdd768cdc29ba40dcb910eae9":[6,1,1,0,1,82,4]
+"classmrmeshpy_1_1Buffer__GraphEdgeId__GraphEdgeId.html#a776622106c87fba4fd316a646a8d9525":[6,1,1,0,1,82,13]
 };

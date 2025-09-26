@@ -1,5 +1,11 @@
 var NAVTREEINDEX10 =
 {
+"classmrmeshpy_1_1Buffer__GraphEdgeId__GraphEdgeId.html#a7beeded443f1772ce34e92c26cd7aff3":[6,1,0,0,2,82,6],
+"classmrmeshpy_1_1Buffer__GraphEdgeId__GraphEdgeId.html#a7beeded443f1772ce34e92c26cd7aff3":[6,1,1,0,1,82,6],
+"classmrmeshpy_1_1Buffer__GraphEdgeId__GraphEdgeId.html#a80f7b45a89164d4664b4d8bf7b27d5b8":[6,1,0,0,2,82,7],
+"classmrmeshpy_1_1Buffer__GraphEdgeId__GraphEdgeId.html#a80f7b45a89164d4664b4d8bf7b27d5b8":[6,1,1,0,1,82,7],
+"classmrmeshpy_1_1Buffer__GraphEdgeId__GraphEdgeId.html#a8a41d1bbdd768cdc29ba40dcb910eae9":[6,1,0,0,2,82,4],
+"classmrmeshpy_1_1Buffer__GraphEdgeId__GraphEdgeId.html#a8a41d1bbdd768cdc29ba40dcb910eae9":[6,1,1,0,1,82,4],
 "classmrmeshpy_1_1Buffer__GraphEdgeId__GraphEdgeId.html#a92dc6df9144423be5441c6ed75f042f7":[6,1,0,0,2,82,0],
 "classmrmeshpy_1_1Buffer__GraphEdgeId__GraphEdgeId.html#a92dc6df9144423be5441c6ed75f042f7":[6,1,1,0,1,82,0],
 "classmrmeshpy_1_1Buffer__GraphEdgeId__GraphEdgeId.html#aa26e2919892873ddf2d4a1cbf548a128":[6,1,0,0,2,82,10],
@@ -243,11 +249,5 @@ var NAVTREEINDEX10 =
 "classmrmeshpy_1_1Buffer__TextureId__TextureId.html#a76004aabe3149bfdbb472325e4fe4ab3":[6,1,0,0,2,89,6],
 "classmrmeshpy_1_1Buffer__TextureId__TextureId.html#a76004aabe3149bfdbb472325e4fe4ab3":[6,1,1,0,1,89,6],
 "classmrmeshpy_1_1Buffer__TextureId__TextureId.html#a802a184025ec2d9322c045e79fc4b52a":[6,1,0,0,2,89,5],
-"classmrmeshpy_1_1Buffer__TextureId__TextureId.html#a802a184025ec2d9322c045e79fc4b52a":[6,1,1,0,1,89,5],
-"classmrmeshpy_1_1Buffer__TextureId__TextureId.html#a9360c771051d31bd602fa2d47a7ff6fe":[6,1,0,0,2,89,15],
-"classmrmeshpy_1_1Buffer__TextureId__TextureId.html#a9360c771051d31bd602fa2d47a7ff6fe":[6,1,1,0,1,89,15],
-"classmrmeshpy_1_1Buffer__TextureId__TextureId.html#a9798eff7685c2c9d1e25a2e40fb4ae4f":[6,1,0,0,2,89,7],
-"classmrmeshpy_1_1Buffer__TextureId__TextureId.html#a9798eff7685c2c9d1e25a2e40fb4ae4f":[6,1,1,0,1,89,7],
-"classmrmeshpy_1_1Buffer__TextureId__TextureId.html#aa192b5d8befbb05b8ea8edfa5ac38bfd":[6,1,0,0,2,89,14],
-"classmrmeshpy_1_1Buffer__TextureId__TextureId.html#aa192b5d8befbb05b8ea8edfa5ac38bfd":[6,1,1,0,1,89,14]
+"classmrmeshpy_1_1Buffer__TextureId__TextureId.html#a802a184025ec2d9322c045e79fc4b52a":[6,1,1,0,1,89,5]
 };

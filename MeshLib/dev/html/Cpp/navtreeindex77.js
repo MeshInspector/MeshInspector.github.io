@@ -1,5 +1,11 @@
 var NAVTREEINDEX77 =
 {
+"structMR_1_1FixMeshDegeneraciesParams.html#a53fef689c0014c588a5990ec1626c5a7":[6,0,0,9,4,0,6],
+"structMR_1_1FixMeshDegeneraciesParams.html#a5c91e8c36061ca0e6a68afef44486f42":[6,0,0,9,4,0,0],
+"structMR_1_1FixMeshDegeneraciesParams.html#a5c91e8c36061ca0e6a68afef44486f42a0bf6dee16a4d7f43f80c7ab2f6157c10":[6,0,0,9,4,0,0,1],
+"structMR_1_1FixMeshDegeneraciesParams.html#a5c91e8c36061ca0e6a68afef44486f42a4e891fd0a3fb80f7f59fe0f768d95554":[6,0,0,9,4,0,0,0],
+"structMR_1_1FixMeshDegeneraciesParams.html#a5c91e8c36061ca0e6a68afef44486f42afdff1c7af1a0e17ae94181b693bb5de7":[6,0,0,9,4,0,0,2],
+"structMR_1_1FixMeshDegeneraciesParams.html#a78bb997d121e9c191fabce84d8f05980":[6,0,0,9,4,0,2],
 "structMR_1_1FixMeshDegeneraciesParams.html#a7fb7943cde7ab98ddfd5ffe1d1f4170e":[6,0,0,9,4,0,8],
 "structMR_1_1FixMeshDegeneraciesParams.html#adbf34724488c4de119231db46448de01":[6,0,0,9,4,0,7],
 "structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters.html":[6,0,1,0,1,9,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX77 =
 "structMR_1_1ICPProperties.html#afe075e9e4944999f30c142f357d071d7":[6,0,1,0,1,301,3],
 "structMR_1_1ICPProperties.html#afe075e9e4944999f30c142f357d071d7":[6,0,2,0,1,282,3],
 "structMR_1_1IConnectable.html":[6,0,1,0,1,296],
-"structMR_1_1IConnectable.html":[6,0,2,0,1,277],
-"structMR_1_1IConnectable.html#a2212095d3996892cff578320ac2ce746":[6,0,1,0,1,296,1],
-"structMR_1_1IConnectable.html#a2212095d3996892cff578320ac2ce746":[6,0,2,0,1,277,1],
-"structMR_1_1IConnectable.html#a28c07761e682b80befbb2d5f91bdd38c":[6,0,1,0,1,296,0],
-"structMR_1_1IConnectable.html#a28c07761e682b80befbb2d5f91bdd38c":[6,0,2,0,1,277,0],
-"structMR_1_1IConnectable.html#a7e18fe37723ce6b3587e47978c25ad71":[6,0,1,0,1,296,2],
-"structMR_1_1IConnectable.html#a7e18fe37723ce6b3587e47978c25ad71":[6,0,2,0,1,277,2]
+"structMR_1_1IConnectable.html":[6,0,2,0,1,277]
 };

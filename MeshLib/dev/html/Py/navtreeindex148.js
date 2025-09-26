@@ -1,5 +1,11 @@
 var NAVTREEINDEX148 =
 {
+"classmrmeshpy_1_1std__vector__SliceInfo.html#ad5b52dea5a3b478ab70573226bdc6feb":[6,1,0,0,2,936,10],
+"classmrmeshpy_1_1std__vector__SliceInfo.html#ad5b52dea5a3b478ab70573226bdc6feb":[6,1,1,0,1,936,10],
+"classmrmeshpy_1_1std__vector__SliceInfo.html#ad6279b6eab55999353b168e572f3bc08":[6,1,0,0,2,936,8],
+"classmrmeshpy_1_1std__vector__SliceInfo.html#ad6279b6eab55999353b168e572f3bc08":[6,1,1,0,1,936,8],
+"classmrmeshpy_1_1std__vector__SliceInfo.html#ae5656753397903f54bafae354b43ee9f":[6,1,0,0,2,936,5],
+"classmrmeshpy_1_1std__vector__SliceInfo.html#ae5656753397903f54bafae354b43ee9f":[6,1,1,0,1,936,5],
 "classmrmeshpy_1_1std__vector__SliceInfo.html#af6316a09aad6cfdddf8e5573751c6513":[6,1,0,0,2,936,22],
 "classmrmeshpy_1_1std__vector__SliceInfo.html#af6316a09aad6cfdddf8e5573751c6513":[6,1,1,0,1,936,22],
 "classmrmeshpy_1_1std__vector__SliceInfo.html#af8693a5a5b4f605468d4622db3c0f69f":[6,1,0,0,2,936,28],
@@ -243,11 +249,5 @@ var NAVTREEINDEX148 =
 "classmrmeshpy_1_1std__vector__TypedBitSet__Id__FaceTag.html#af95a6d6ea577d904ad595962d7be1fac":[6,1,0,0,2,981,14],
 "classmrmeshpy_1_1std__vector__TypedBitSet__Id__FaceTag.html#af95a6d6ea577d904ad595962d7be1fac":[6,1,1,0,1,981,14],
 "classmrmeshpy_1_1std__vector__TypedBitSet__Id__FaceTag.html#aff00fe23b885773f475b9cc6e4206c5b":[6,1,0,0,2,981,27],
-"classmrmeshpy_1_1std__vector__TypedBitSet__Id__FaceTag.html#aff00fe23b885773f475b9cc6e4206c5b":[6,1,1,0,1,981,27],
-"classmrmeshpy_1_1std__vector__TypedBitSet__Id__UndirectedEdgeTag.html":[6,1,0,0,2,982],
-"classmrmeshpy_1_1std__vector__TypedBitSet__Id__UndirectedEdgeTag.html":[6,1,1,0,1,982],
-"classmrmeshpy_1_1std__vector__TypedBitSet__Id__UndirectedEdgeTag.html#a009222ab18cb34a123526b103312321d":[6,1,0,0,2,982,2],
-"classmrmeshpy_1_1std__vector__TypedBitSet__Id__UndirectedEdgeTag.html#a009222ab18cb34a123526b103312321d":[6,1,1,0,1,982,2],
-"classmrmeshpy_1_1std__vector__TypedBitSet__Id__UndirectedEdgeTag.html#a1b6851f6c8fb60094b08c95f54e22428":[6,1,0,0,2,982,24],
-"classmrmeshpy_1_1std__vector__TypedBitSet__Id__UndirectedEdgeTag.html#a1b6851f6c8fb60094b08c95f54e22428":[6,1,1,0,1,982,24]
+"classmrmeshpy_1_1std__vector__TypedBitSet__Id__FaceTag.html#aff00fe23b885773f475b9cc6e4206c5b":[6,1,1,0,1,981,27]
 };

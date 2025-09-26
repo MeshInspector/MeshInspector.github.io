@@ -1,5 +1,11 @@
 var NAVTREEINDEX78 =
 {
+"structMR_1_1IConnectable.html#a2212095d3996892cff578320ac2ce746":[6,0,1,0,1,296,1],
+"structMR_1_1IConnectable.html#a2212095d3996892cff578320ac2ce746":[6,0,2,0,1,277,1],
+"structMR_1_1IConnectable.html#a28c07761e682b80befbb2d5f91bdd38c":[6,0,1,0,1,296,0],
+"structMR_1_1IConnectable.html#a28c07761e682b80befbb2d5f91bdd38c":[6,0,2,0,1,277,0],
+"structMR_1_1IConnectable.html#a7e18fe37723ce6b3587e47978c25ad71":[6,0,1,0,1,296,2],
+"structMR_1_1IConnectable.html#a7e18fe37723ce6b3587e47978c25ad71":[6,0,2,0,1,277,2],
 "structMR_1_1IOFilter.html":[6,0,0,2,6,0],
 "structMR_1_1IOFilter.html#a54c41ce2b24a4ff3c52cb1bc4b87094a":[6,0,0,2,6,0,1],
 "structMR_1_1IOFilter.html#a5f6f14f66f3758e05a9ca414470b17e3":[6,0,0,2,6,0,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX78 =
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#abe8531c1f5fdb8d1d8d3a8d69a64d2b5":[6,0,2,0,1,7,10,9],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#acc827ec3aa0ec6711b73aaca7693bc19":[6,0,1,0,1,16,10,14],
 "structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#acc827ec3aa0ec6711b73aaca7693bc19":[6,0,2,0,1,7,10,14],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#ad91ba5b259552f2af641bf94826eeea1":[6,0,1,0,1,16,10,19],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#ad91ba5b259552f2af641bf94826eeea1":[6,0,2,0,1,7,10,19],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#ada8abd512f2564b6e933ba4332bdce0c":[6,0,1,0,1,16,10,17],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#ada8abd512f2564b6e933ba4332bdce0c":[6,0,2,0,1,7,10,17],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#ae831e755d5fa4e114cf8d2eaef532bdc":[6,0,1,0,1,16,10,3],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#ae831e755d5fa4e114cf8d2eaef532bdc":[6,0,2,0,1,7,10,3],
-"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#af8b5e638410d87130b72445eb3a009cd":[6,0,1,0,1,16,10,16]
+"structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#ad91ba5b259552f2af641bf94826eeea1":[6,0,1,0,1,16,10,19]
 };

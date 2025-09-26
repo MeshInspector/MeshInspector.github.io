@@ -1,5 +1,11 @@
 var NAVTREEINDEX48 =
 {
+"classMR_1_1SurfacePointWidget.html#adf37cc4ca96ed9fd71cd2578f8a46f07":[6,0,2,0,1,703,10],
+"classMR_1_1SurfacePointWidget.html#af0454cbea26d720ec55e0e993b62d01b":[6,0,1,0,1,722,16],
+"classMR_1_1SurfacePointWidget.html#af0454cbea26d720ec55e0e993b62d01b":[6,0,2,0,1,703,16],
+"classMR_1_1SwapRootAction.html":[6,0,1,0,1,723],
+"classMR_1_1SwapRootAction.html":[6,0,2,0,1,704],
+"classMR_1_1SwapRootAction.html#a1ea4ac4e26ce6a38aae5ecd3ffd4c428":[6,0,1,0,1,723,3],
 "classMR_1_1SwapRootAction.html#a1ea4ac4e26ce6a38aae5ecd3ffd4c428":[6,0,2,0,1,704,3],
 "classMR_1_1SwapRootAction.html#ad4f29239d50c1ce54e67f398259ce4a8":[6,0,1,0,1,723,1],
 "classMR_1_1SwapRootAction.html#ad4f29239d50c1ce54e67f398259ce4a8":[6,0,2,0,1,704,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX48 =
 "classMR_1_1UI_1_1LabelRectAllocator.html#a3b90eb278b5e53756c88dc2464876ed0":[6,0,2,0,1,25,5,0],
 "classMR_1_1UI_1_1LineAntialiasingDisabler.html":[6,0,1,0,1,42,8],
 "classMR_1_1UI_1_1LineAntialiasingDisabler.html":[6,0,2,0,1,25,6],
-"classMR_1_1UI_1_1LineAntialiasingDisabler.html#a2afdce202165a67c850a8ee3a43d33e2":[6,0,1,0,1,42,8,3],
-"classMR_1_1UI_1_1LineAntialiasingDisabler.html#a2afdce202165a67c850a8ee3a43d33e2":[6,0,2,0,1,25,6,3],
-"classMR_1_1UI_1_1LineAntialiasingDisabler.html#a3e96e121ccb7297da23e022c771758d7":[6,0,1,0,1,42,8,0],
-"classMR_1_1UI_1_1LineAntialiasingDisabler.html#a3e96e121ccb7297da23e022c771758d7":[6,0,2,0,1,25,6,0],
-"classMR_1_1UI_1_1LineAntialiasingDisabler.html#a4c1bcced668486eea2307f7544fc7f6c":[6,0,1,0,1,42,8,1],
-"classMR_1_1UI_1_1LineAntialiasingDisabler.html#a4c1bcced668486eea2307f7544fc7f6c":[6,0,2,0,1,25,6,1],
-"classMR_1_1UI_1_1LineAntialiasingDisabler.html#a69fc4df33a2c9a777ba5a28e3a7245ae":[6,0,1,0,1,42,8,2]
+"classMR_1_1UI_1_1LineAntialiasingDisabler.html#a2afdce202165a67c850a8ee3a43d33e2":[6,0,1,0,1,42,8,3]
 };

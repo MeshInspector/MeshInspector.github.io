@@ -1,5 +1,11 @@
 var NAVTREEINDEX27 =
 {
+"classmrmeshpy_1_1FaceDistancesSettings.html#afea8336a5e0f0eb00188d6da98b10c71":[6,1,0,0,2,239,5],
+"classmrmeshpy_1_1FaceDistancesSettings.html#afea8336a5e0f0eb00188d6da98b10c71":[6,1,1,0,1,239,5],
+"classmrmeshpy_1_1FaceDistancesSettings_1_1OutputFaceValues.html":[6,1,0,0,2,239,0],
+"classmrmeshpy_1_1FaceDistancesSettings_1_1OutputFaceValues.html":[6,1,1,0,1,239,0],
+"classmrmeshpy_1_1FaceDistancesSettings_1_1OutputFaceValues.html#a56fe134c9adfb3835e24d9f6d05b78d9":[6,1,0,0,2,239,0,11],
+"classmrmeshpy_1_1FaceDistancesSettings_1_1OutputFaceValues.html#a56fe134c9adfb3835e24d9f6d05b78d9":[6,1,1,0,1,239,0,11],
 "classmrmeshpy_1_1FaceDistancesSettings_1_1OutputFaceValues.html#a66791b84364c9c082852d872956e1c2c":[6,1,0,0,2,239,0,7],
 "classmrmeshpy_1_1FaceDistancesSettings_1_1OutputFaceValues.html#a66791b84364c9c082852d872956e1c2c":[6,1,1,0,1,239,0,7],
 "classmrmeshpy_1_1FaceDistancesSettings_1_1OutputFaceValues.html#a96305c1b69fc021c719ffb3fe592ce06":[6,1,0,0,2,239,0,10],
@@ -243,11 +249,5 @@ var NAVTREEINDEX27 =
 "classmrmeshpy_1_1FaceNormals.html#add8af2783aa290a0d3b05cef37958d22":[6,1,0,0,2,244,34],
 "classmrmeshpy_1_1FaceNormals.html#add8af2783aa290a0d3b05cef37958d22":[6,1,1,0,1,244,34],
 "classmrmeshpy_1_1FaceNormals.html#ae31b4659cca4456f15e9c16ce252dc8b":[6,1,0,0,2,244,42],
-"classmrmeshpy_1_1FaceNormals.html#ae31b4659cca4456f15e9c16ce252dc8b":[6,1,1,0,1,244,42],
-"classmrmeshpy_1_1FaceNormals.html#aebd68c53832cb151a89109157bc73ae3":[6,1,0,0,2,244,0],
-"classmrmeshpy_1_1FaceNormals.html#aebd68c53832cb151a89109157bc73ae3":[6,1,1,0,1,244,0],
-"classmrmeshpy_1_1FaceNormals.html#aee2125e9f9d592e1d0aaae0c2ba41c65":[6,1,0,0,2,244,38],
-"classmrmeshpy_1_1FaceNormals.html#aee2125e9f9d592e1d0aaae0c2ba41c65":[6,1,1,0,1,244,38],
-"classmrmeshpy_1_1FaceNormals.html#af820269263931af48ebacdd107f68fc8":[6,1,0,0,2,244,33],
-"classmrmeshpy_1_1FaceNormals.html#af820269263931af48ebacdd107f68fc8":[6,1,1,0,1,244,33]
+"classmrmeshpy_1_1FaceNormals.html#ae31b4659cca4456f15e9c16ce252dc8b":[6,1,1,0,1,244,42]
 };
