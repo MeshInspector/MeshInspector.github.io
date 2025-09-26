@@ -9,7 +9,7 @@ var MRSystem_8h =
     [ "GetFontsDirectory", "MRSystem_8h.html#a67b0d94d13d167822c0f29d0c8bf0378", null ],
     [ "GetHomeDirectory", "MRSystem_8h.html#a2ddb2bd9b31853c37146f070b0b472c1", null ],
     [ "GetLibsDirectory", "MRSystem_8h.html#a56e81e881b5eb58845a48c7b40a88834", null ],
-    [ "GetMRVersionString", "MRSystem_8h.html#ac6f40535c1b612f6ce24e70b7ee28a36", null ],
+    [ "GetMRVersionString", "MRSystem_8h.html#a30ab310d8783b53dbd1a71407ebfdbe9", null ],
     [ "getOSNoSpaces", "MRSystem_8h.html#a4495a70f291d11bdf905106b2a3856b5", null ],
     [ "GetResourcesDirectory", "MRSystem_8h.html#ad01e0850be9f75dcc1d0bd461787535f", null ],
     [ "getSystemMemory", "MRSystem_8h.html#a3ba2aca05f28a3dd3c05cb49fbf09b66", null ],

@@ -7,7 +7,7 @@ var MRSystem_8h =
     [ "MR_getCurrentStacktrace", "MRSystem_8h.html#adf06857533c49bb6393404d4ea300537", null ],
     [ "MR_GetDetailedOSName", "MRSystem_8h.html#a763282bac1d140525911aa5346e1fe25", null ],
     [ "MR_GetHomeDirectory", "MRSystem_8h.html#ac25d6d94ea946d7e1df8c5e01263b651", null ],
-    [ "MR_GetMRVersionString", "MRSystem_8h.html#a48ce432a0251a8fa17cbe994ad22c059", null ],
+    [ "MR_GetMRVersionString", "MRSystem_8h.html#a877a907ee82d0e1a8741225e178e45c7", null ],
     [ "MR_getOSNoSpaces", "MRSystem_8h.html#afa5ff2cec02b5e4df57d3abdbc5a01d2", null ],
     [ "MR_getSystemMemory", "MRSystem_8h.html#acbdc598c7ca798b4161d5bfb2f991317", null ],
     [ "MR_GetTempDirectory", "MRSystem_8h.html#a0c335e0bb34f13011ed92f045cff2b03", null ],
