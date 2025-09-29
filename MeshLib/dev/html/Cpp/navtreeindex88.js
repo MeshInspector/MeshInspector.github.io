@@ -1,5 +1,7 @@
 var NAVTREEINDEX88 =
 {
+"structMR_1_1Polyline.html#a036db71418e9c25f3d9fc51772ce4e6a":[6,0,0,14,0,34],
+"structMR_1_1Polyline.html#a09efa3e658e95b29f1dea8f362d18289":[6,0,0,14,0,19],
 "structMR_1_1Polyline.html#a17426532df4513648d6e3d0212e8f334":[6,0,0,14,0,33],
 "structMR_1_1Polyline.html#a21cfd60868c3fbabcfda71008f98cfa1":[6,0,0,14,0,4],
 "structMR_1_1Polyline.html#a29635bdcaade26236bf38e9044e1605a":[6,0,0,14,0,14],
@@ -247,7 +249,5 @@ var NAVTREEINDEX88 =
 "structMR_1_1ProgressInterrupter.html#ad4f40f015b6a225a963200f8fced9ea8":[6,0,2,0,1,553,0],
 "structMR_1_1ProjectAttributeParams.html":[6,0,1,0,1,573],
 "structMR_1_1ProjectAttributeParams.html":[6,0,2,0,1,554],
-"structMR_1_1ProjectAttributeParams.html#a4ed7b5103a09ec50b55cc7d76e2fd9a5":[6,0,1,0,1,573,1],
-"structMR_1_1ProjectAttributeParams.html#a4ed7b5103a09ec50b55cc7d76e2fd9a5":[6,0,2,0,1,554,1],
-"structMR_1_1ProjectAttributeParams.html#af693ac66bc0bd5d4efcd44cde67cfda4":[6,0,1,0,1,573,0]
+"structMR_1_1ProjectAttributeParams.html#a4ed7b5103a09ec50b55cc7d76e2fd9a5":[6,0,1,0,1,573,1]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX73 =
 {
+"structMR_1_1CursorEntranceListener.html#adab2592cc61c2b1c1c6cf9edd031f71b":[6,0,2,0,1,154,2],
+"structMR_1_1CustomButtonParameters.html":[6,0,1,0,1,174],
 "structMR_1_1CustomButtonParameters.html":[6,0,2,0,1,155],
 "structMR_1_1CustomButtonParameters.html#ac4659ddd4f1cc193ad87ef0c017e00eb":[6,0,1,0,1,174,0],
 "structMR_1_1CustomButtonParameters.html#ac4659ddd4f1cc193ad87ef0c017e00eb":[6,0,2,0,1,155,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX73 =
 "structMR_1_1DistanceVolumeParams.html#a920081c5dce988d2f087b470ea72803a":[6,0,1,0,1,207,0],
 "structMR_1_1DistanceVolumeParams.html#a920081c5dce988d2f087b470ea72803a":[6,0,2,0,1,188,0],
 "structMR_1_1DistanceVolumeParams.html#ade7c79fd5b25f3a928fa747f8e6d61d2":[6,0,1,0,1,207,1],
-"structMR_1_1DistanceVolumeParams.html#ade7c79fd5b25f3a928fa747f8e6d61d2":[6,0,2,0,1,188,1],
-"structMR_1_1DividePointCloudOptionalOutput.html":[6,0,1,0,1,208],
-"structMR_1_1DividePointCloudOptionalOutput.html":[6,0,2,0,1,189]
+"structMR_1_1DistanceVolumeParams.html#ade7c79fd5b25f3a928fa747f8e6d61d2":[6,0,2,0,1,188,1]
 };
