@@ -7,7 +7,7 @@ var MRSharpenMarchingCubesMesh_8h =
     [ "MR_Vector_MR_VoxelId_MR_FaceId", "MRSharpenMarchingCubesMesh_8h.html#a9692dc04329fdb84eb3ddd8d265ba089", null ],
     [ "MR_sharpenMarchingCubesMesh", "MRSharpenMarchingCubesMesh_8h.html#a0d59244b3ffae9c30b528e16e48dfbe4", null ],
     [ "MR_SharpenMarchingCubesMeshSettings_AssignFromAnother", "MRSharpenMarchingCubesMesh_8h.html#a19285a27a0f78b0f88d4c93af4f2f491", null ],
-    [ "MR_SharpenMarchingCubesMeshSettings_ConstructFrom", "MRSharpenMarchingCubesMesh_8h.html#a5a8d2a73fc05f10760d990cc7e09cc62", null ],
+    [ "MR_SharpenMarchingCubesMeshSettings_ConstructFrom", "MRSharpenMarchingCubesMesh_8h.html#a5adb29e31b9e585e4d1334eaf6240e42", null ],
     [ "MR_SharpenMarchingCubesMeshSettings_ConstructFromAnother", "MRSharpenMarchingCubesMesh_8h.html#a80f6450c6a7a68416aaea24e68568966", null ],
     [ "MR_SharpenMarchingCubesMeshSettings_DefaultConstruct", "MRSharpenMarchingCubesMesh_8h.html#a49a2aba7e0bb39b07e4e6842a73e44ea", null ],
     [ "MR_SharpenMarchingCubesMeshSettings_DefaultConstructArray", "MRSharpenMarchingCubesMesh_8h.html#a444f506eb364ebc9bc475def833c7e2b", null ],
@@ -19,14 +19,14 @@ var MRSharpenMarchingCubesMesh_8h =
     [ "MR_SharpenMarchingCubesMeshSettings_Get_minNewVertDev", "MRSharpenMarchingCubesMesh_8h.html#a534a4787d194bbe8e73d5150972c8a32", null ],
     [ "MR_SharpenMarchingCubesMeshSettings_Get_offset", "MRSharpenMarchingCubesMesh_8h.html#a31e793795ef80083cc00aaf1ef4fa454", null ],
     [ "MR_SharpenMarchingCubesMeshSettings_Get_outSharpEdges", "MRSharpenMarchingCubesMesh_8h.html#af816b1f84f9f326a46515876615f7ca0", null ],
-    [ "MR_SharpenMarchingCubesMeshSettings_Get_posSelIters", "MRSharpenMarchingCubesMesh_8h.html#a1431befdd924e981504833530e63baf0", null ],
+    [ "MR_SharpenMarchingCubesMeshSettings_Get_posSelIters", "MRSharpenMarchingCubesMesh_8h.html#a2192d0e7c211da49081e30287360f01c", null ],
     [ "MR_SharpenMarchingCubesMeshSettings_GetMutable_maxNewRank2VertDev", "MRSharpenMarchingCubesMesh_8h.html#a9208c856c3d1c30fddc8f9d710e6b73f", null ],
     [ "MR_SharpenMarchingCubesMeshSettings_GetMutable_maxNewRank3VertDev", "MRSharpenMarchingCubesMesh_8h.html#af40b3c33ac54262801bbd882e686bcba", null ],
     [ "MR_SharpenMarchingCubesMeshSettings_GetMutable_maxOldVertPosCorrection", "MRSharpenMarchingCubesMesh_8h.html#a9c39d58363184cea54902699ccc1ca30", null ],
     [ "MR_SharpenMarchingCubesMeshSettings_GetMutable_minNewVertDev", "MRSharpenMarchingCubesMesh_8h.html#af9ff70d6f8b36eaad7b1b407e5b8956e", null ],
     [ "MR_SharpenMarchingCubesMeshSettings_GetMutable_offset", "MRSharpenMarchingCubesMesh_8h.html#ae8f2a7393dd98862c1a8bc490c926bcd", null ],
     [ "MR_SharpenMarchingCubesMeshSettings_GetMutable_outSharpEdges", "MRSharpenMarchingCubesMesh_8h.html#a782fe5d8f28da80e703df06548a4e28b", null ],
-    [ "MR_SharpenMarchingCubesMeshSettings_GetMutable_posSelIters", "MRSharpenMarchingCubesMesh_8h.html#a564b210fb0ee1cb3ee68e28afd1821a1", null ],
+    [ "MR_SharpenMarchingCubesMeshSettings_GetMutable_posSelIters", "MRSharpenMarchingCubesMesh_8h.html#ab0938d6b37495bd98ce236ab8f3c2e47", null ],
     [ "MR_SharpenMarchingCubesMeshSettings_OffsetMutablePtr", "MRSharpenMarchingCubesMesh_8h.html#abcb083740befce324bfa579df104c1b8", null ],
     [ "MR_SharpenMarchingCubesMeshSettings_OffsetPtr", "MRSharpenMarchingCubesMesh_8h.html#a587d90e4a3835925acab6105abdbb1d8", null ],
     [ "MR_SharpenMarchingCubesMeshSettings_Set_maxNewRank2VertDev", "MRSharpenMarchingCubesMesh_8h.html#ab7f011022ee3ba9481a58224d8d05181", null ],
@@ -35,5 +35,5 @@ var MRSharpenMarchingCubesMesh_8h =
     [ "MR_SharpenMarchingCubesMeshSettings_Set_minNewVertDev", "MRSharpenMarchingCubesMesh_8h.html#aa423e394403b9a384559cb1a751a42c1", null ],
     [ "MR_SharpenMarchingCubesMeshSettings_Set_offset", "MRSharpenMarchingCubesMesh_8h.html#a032a352efe279c75b38940f4a8521df7", null ],
     [ "MR_SharpenMarchingCubesMeshSettings_Set_outSharpEdges", "MRSharpenMarchingCubesMesh_8h.html#aa36d0c1f25560e81610b14e380c205be", null ],
-    [ "MR_SharpenMarchingCubesMeshSettings_Set_posSelIters", "MRSharpenMarchingCubesMesh_8h.html#adaa09f9c21d01505bf64fc62553649ce", null ]
+    [ "MR_SharpenMarchingCubesMeshSettings_Set_posSelIters", "MRSharpenMarchingCubesMesh_8h.html#a3cb836753c677cf3774d22ce0ac7caed", null ]
 ];

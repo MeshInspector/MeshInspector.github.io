@@ -32,7 +32,7 @@ var MRObjectLines_8h =
     [ "MR_ObjectLines_MutableUpcastTo_MR_VisualObject", "MRObjectLines_8h.html#aeb69306f0f82add77b1eb59c15037db6", null ],
     [ "MR_ObjectLines_OffsetMutablePtr", "MRObjectLines_8h.html#a44cd09792fa97fae62ff645dbe19a0b7", null ],
     [ "MR_ObjectLines_OffsetPtr", "MRObjectLines_8h.html#a0cd5a0e2b6bdb0e560676a9446862936", null ],
-    [ "MR_ObjectLines_setDirtyFlags", "MRObjectLines_8h.html#ae0a206f9f5f86ad9977351526a4c3a2c", null ],
+    [ "MR_ObjectLines_setDirtyFlags", "MRObjectLines_8h.html#a0ed3348e849de01b109f15690966f608", null ],
     [ "MR_ObjectLines_setPolyline", "MRObjectLines_8h.html#a1e6627f8720c1aa65087fcf250798982", null ],
     [ "MR_ObjectLines_shallowClone", "MRObjectLines_8h.html#ad93d8823f12ad3e27bb03b10ca63ad2b", null ],
     [ "MR_ObjectLines_TypeName", "MRObjectLines_8h.html#a445f6456af266db1f0f0f71839e4d42b", null ],

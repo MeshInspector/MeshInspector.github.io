@@ -267,7 +267,7 @@ $(function(){initNavTree('ExampleMeshOffsetWeighted.html',''); initResizable(tru
 <div class="line">{</div>
 <div class="line">    <span class="keywordtype">int</span> rc = EXIT_FAILURE;</div>
 <div class="line">    <span class="comment">// Create some mesh</span></div>
-<div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a>* mesh = <a class="code hl_functionRef" href="./C/MRTorus_8h.html#a8f14b19701dedd60dcd2b435ff3333b6">MR_makeTorus</a>( NULL, NULL, NULL, NULL, NULL );</div>
+<div class="line">    <a class="code hl_typedefRef" href="./C/MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a>* mesh = <a class="code hl_functionRef" href="./C/MRTorus_8h.html#ad75f7fc4482dfb1265495d664597e838">MR_makeTorus</a>( NULL, NULL, NULL, NULL, NULL );</div>
 <div class="line"> </div>
 <div class="line">    <span class="comment">// Create VertScalars obj with weights for every vertex</span></div>
 <div class="line">    <a class="code hl_typedefRef" href="./C/common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> vertSize = <a class="code hl_functionRef" href="./C/MRMeshTopology_8h.html#a7d146d26508c6dd03119d92674224a64">MR_MeshTopology_vertSize</a>( <a class="code hl_functionRef" href="./C/MRMesh_8h.html#a9b14debb3b7b0ebd19d7cbd8ba217aa7">MR_Mesh_Get_topology</a>( mesh ) );</div>
@@ -346,7 +346,7 @@ $(function(){initNavTree('ExampleMeshOffsetWeighted.html',''); initResizable(tru
 <div class="ttc" id="aMROffset_8h_html"><div class="ttname"><a href="./C/MROffset_8h.html">MROffset.h</a></div></div>
 <div class="ttc" id="aMROffset_8h_html_a94e675d289bd141d1d07a642cc1d8597"><div class="ttname"><a href="./C/MROffset_8h.html#a94e675d289bd141d1d07a642cc1d8597">MR_suggestVoxelSize</a></div><div class="ttdeci">MRC_API float MR_suggestVoxelSize(const MR_MeshPart *mp, float approxNumVoxels)</div></div>
 <div class="ttc" id="aMRTorus_8h_html"><div class="ttname"><a href="./C/MRTorus_8h.html">MRTorus.h</a></div></div>
-<div class="ttc" id="aMRTorus_8h_html_a8f14b19701dedd60dcd2b435ff3333b6"><div class="ttname"><a href="./C/MRTorus_8h.html#a8f14b19701dedd60dcd2b435ff3333b6">MR_makeTorus</a></div><div class="ttdeci">MRC_API MR_Mesh * MR_makeTorus(const float *primaryRadius, const float *secondaryRadius, const int32_t *primaryResolution, const int32_t *secondaryResolution, MR_std_vector_MR_Vector3f *points)</div></div>
+<div class="ttc" id="aMRTorus_8h_html_ad75f7fc4482dfb1265495d664597e838"><div class="ttname"><a href="./C/MRTorus_8h.html#ad75f7fc4482dfb1265495d664597e838">MR_makeTorus</a></div><div class="ttdeci">MRC_API MR_Mesh * MR_makeTorus(const float *primaryRadius, const float *secondaryRadius, const int *primaryResolution, const int *secondaryResolution, MR_std_vector_MR_Vector3f *points)</div></div>
 <div class="ttc" id="aMRVector_8h_html"><div class="ttname"><a href="./C/MRVector_8h.html">MRVector.h</a></div></div>
 <div class="ttc" id="aMRVector_8h_html_a47dde72e8d6f9ddaff1ae13bab4d31f9"><div class="ttname"><a href="./C/MRVector_8h.html#a47dde72e8d6f9ddaff1ae13bab4d31f9">MR_VertScalars_data</a></div><div class="ttdeci">MRC_API float * MR_VertScalars_data(MR_VertScalars *_this)</div></div>
 <div class="ttc" id="aMRVector_8h_html_a8051103952d4df4381c1e399dca22022"><div class="ttname"><a href="./C/MRVector_8h.html#a8051103952d4df4381c1e399dca22022">MR_VertScalars_Construct_1_uint64_t</a></div><div class="ttdeci">MRC_API MR_VertScalars * MR_VertScalars_Construct_1_uint64_t(MR_uint64_t size)</div></div>

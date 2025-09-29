@@ -43,7 +43,7 @@ var annotated_dup =
     [ "MR_RegionId", "structMR__RegionId.html", "structMR__RegionId" ],
     [ "MR_std_array_double_4", "structMR__std__array__double__4.html", "structMR__std__array__double__4" ],
     [ "MR_std_array_float_4", "structMR__std__array__float__4.html", "structMR__std__array__float__4" ],
-    [ "MR_std_array_int32_t_4", "structMR__std__array__int32__t__4.html", "structMR__std__array__int32__t__4" ],
+    [ "MR_std_array_int_4", "structMR__std__array__int__4.html", "structMR__std__array__int__4" ],
     [ "MR_std_array_MR_AffineXf3d_4", "structMR__std__array__MR__AffineXf3d__4.html", "structMR__std__array__MR__AffineXf3d__4" ],
     [ "MR_std_array_MR_AffineXf3f_4", "structMR__std__array__MR__AffineXf3f__4.html", "structMR__std__array__MR__AffineXf3f__4" ],
     [ "MR_std_array_MR_Vector3f_3", "structMR__std__array__MR__Vector3f__3.html", "structMR__std__array__MR__Vector3f__3" ],

@@ -8,7 +8,7 @@ var MRPointMeasurementObject_8h =
     [ "MR_ObjectComparableWithReference_ComparisonReferenceValue", "MRPointMeasurementObject_8h.html#ab2078183aee736bfebb1bb874807d75d", null ],
     [ "MR_ObjectComparableWithReference_ComparisonTolerance", "MRPointMeasurementObject_8h.html#aadd5f2632221b9bf806db1fcddbf58fa", null ],
     [ "MR_PointMeasurementObject", "MRPointMeasurementObject_8h.html#a749cca566de75c01b7c4210dfd5ab596", null ],
-    [ "MR_PointMeasurementVisualizePropertyType", "MRPointMeasurementObject_8h.html#ab82125ebcd187661271f5f28367cb0aa", null ],
+    [ "MR_PointMeasurementVisualizePropertyType", "MRPointMeasurementObject_8h.html#adb7266cf6aafb21c21e3c775d9684684", null ],
     [ "MR_std_optional_MR_ObjectComparableWithReference_ComparableProperty", "MRPointMeasurementObject_8h.html#a80d9dd1ef50d7c3b70695bdf73404526", null ],
     [ "MR_std_optional_MR_ObjectComparableWithReference_ComparisonTolerance", "MRPointMeasurementObject_8h.html#a8e4615b108b22d42920cafb89a85540b", null ],
     [ "MR_std_shared_ptr_MR_Object", "MRPointMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4", null ],
@@ -18,6 +18,10 @@ var MRPointMeasurementObject_8h =
     [ "MR_std_vector_MR_ViewportMask", "MRPointMeasurementObject_8h.html#aa6b334578883a55d60d5ef67962505ba", null ],
     [ "MR_ViewportMask", "MRPointMeasurementObject_8h.html#a85b2b5f875361920283d305645987092", null ],
     [ "MR_VisualObject", "MRPointMeasurementObject_8h.html#a36f3696eda81d7005927ebc5fdf17e14", null ],
+    [ "MR_PointMeasurementVisualizePropertyType", "MRPointMeasurementObject_8h.html#aee49882c96b7a628fa889c52eb64e308", [
+      [ "MR_PointMeasurementVisualizePropertyType_CapVisibility", "MRPointMeasurementObject_8h.html#aee49882c96b7a628fa889c52eb64e308a22d592229c42e4d59ec49c0d32a9c9e4", null ],
+      [ "MR_PointMeasurementVisualizePropertyType__count", "MRPointMeasurementObject_8h.html#aee49882c96b7a628fa889c52eb64e308a4c2f70bbff760685bcc892376eeab494", null ]
+    ] ],
     [ "MR_PointMeasurementObject_AssignFromAnother", "MRPointMeasurementObject_8h.html#afd0c404ab0d834b5986d39184f8cd580", null ],
     [ "MR_PointMeasurementObject_ClassName", "MRPointMeasurementObject_8h.html#ac34a90756cb07e8e8edc708d4ee05b97", null ],
     [ "MR_PointMeasurementObject_className", "MRPointMeasurementObject_8h.html#af79c098c606c0cbdd858693cb8bbcafc", null ],

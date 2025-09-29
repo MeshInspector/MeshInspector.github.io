@@ -1,6 +1,6 @@
 var MRSeparationPoint_8h =
 [
-    [ "MR_NeighborDir", "MRSeparationPoint_8h.html#ae9d79ecb8712cfe46600b3fda1831948", null ],
+    [ "MR_NeighborDir", "MRSeparationPoint_8h.html#a50ba1e74dca2acd917bebcdb2820e6d9", null ],
     [ "MR_phmap_flat_hash_map_uint64_t_std_array_MR_VertId_3_phmap_Hash_uint64_t", "MRSeparationPoint_8h.html#a74f8c3cd688b18a927b2d464fad5f575", null ],
     [ "MR_SeparationPointStorage", "MRSeparationPoint_8h.html#a5bcf2d9a78b61d58787442aa38075ffa", null ],
     [ "MR_SeparationPointStorage_Block", "MRSeparationPoint_8h.html#ac6335a684721a20e9d9b3d4afd039f60", null ],
@@ -9,6 +9,12 @@ var MRSeparationPoint_8h =
     [ "MR_Triangulation", "MRSeparationPoint_8h.html#a33f2cead15f3bf37534d3678feb4af22", null ],
     [ "MR_Vector_MR_VoxelId_MR_FaceId", "MRSeparationPoint_8h.html#a9692dc04329fdb84eb3ddd8d265ba089", null ],
     [ "MR_VertCoords", "MRSeparationPoint_8h.html#a249fd9254c0c3395567807936ad32641", null ],
+    [ "MR_NeighborDir", "MRSeparationPoint_8h.html#a1701eebc218aef79b7c6bb1852a5144f", [
+      [ "MR_NeighborDir_X", "MRSeparationPoint_8h.html#a1701eebc218aef79b7c6bb1852a5144faacf3d60d150604dc568a6e09b8322624", null ],
+      [ "MR_NeighborDir_Y", "MRSeparationPoint_8h.html#a1701eebc218aef79b7c6bb1852a5144fa403abf7430a15e7ee80dddb120fad50d", null ],
+      [ "MR_NeighborDir_Z", "MRSeparationPoint_8h.html#a1701eebc218aef79b7c6bb1852a5144fafd53be8272339c5a7b837883dbb04278", null ],
+      [ "MR_NeighborDir_Count", "MRSeparationPoint_8h.html#a1701eebc218aef79b7c6bb1852a5144fab7c1f4e8f8e93e271e528f8bcd4ceb6c", null ]
+    ] ],
     [ "MR_SeparationPointStorage_AssignFromAnother", "MRSeparationPoint_8h.html#ae7fd342ff031c2ead3e9c9f1239fcdf4", null ],
     [ "MR_SeparationPointStorage_Block_AssignFromAnother", "MRSeparationPoint_8h.html#a236034e49f95598f77736cee70d37bab", null ],
     [ "MR_SeparationPointStorage_Block_ConstructFrom", "MRSeparationPoint_8h.html#a9405d3ee9901b9e5060ce99d6dc2347e", null ],
@@ -44,7 +50,7 @@ var MRSeparationPoint_8h =
     [ "MR_SeparationPointStorage_getBlock", "MRSeparationPoint_8h.html#aec0c858b61de0b6e336f18dc29ff93ac", null ],
     [ "MR_SeparationPointStorage_getPoints", "MRSeparationPoint_8h.html#ac022f7aa5dd682168925740dec383a28", null ],
     [ "MR_SeparationPointStorage_getTriangulation", "MRSeparationPoint_8h.html#a5012a12ae4039b58e2c521b0f74be86f", null ],
-    [ "MR_SeparationPointStorage_makeUniqueVids", "MRSeparationPoint_8h.html#ab90eb9ce5e13989924003199b6b1879c", null ],
+    [ "MR_SeparationPointStorage_makeUniqueVids", "MRSeparationPoint_8h.html#a17530cd40b76035f062a021b99c04c1d", null ],
     [ "MR_SeparationPointStorage_OffsetMutablePtr", "MRSeparationPoint_8h.html#a7d5fc7a08975e1d0bb7e3427cec2f516", null ],
     [ "MR_SeparationPointStorage_OffsetPtr", "MRSeparationPoint_8h.html#a3791e21b79773f8f980914f218e792ac", null ],
     [ "MR_SeparationPointStorage_resize", "MRSeparationPoint_8h.html#af518135d3d01aa481d98ea7887d696f3", null ]

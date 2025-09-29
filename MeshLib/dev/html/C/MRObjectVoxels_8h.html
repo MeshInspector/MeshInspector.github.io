@@ -161,7 +161,6 @@ $(function(){initNavTree('MRObjectVoxels_8h.html',''); initResizable(true); });
 <code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
-<code>#include &lt;stdint.h&gt;</code><br />
 </div>
 <p><a href="MRObjectVoxels_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -216,30 +215,30 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a24e57a3a62e88a846a5ed1147f069192" id="r_a24e57a3a62e88a846a5ed1147f069192"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a24e57a3a62e88a846a5ed1147f069192">MR_ObjectVoxels_VolumeRenderingParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a24e57a3a62e88a846a5ed1147f069192">MR_ObjectVoxels_VolumeRenderingParams</a></td></tr>
 <tr class="memdesc:a24e57a3a62e88a846a5ed1147f069192"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html">MR::ObjectVoxels::VolumeRenderingParams</a></code>.  <br /></td></tr>
 <tr class="separator:a24e57a3a62e88a846a5ed1147f069192"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a68f5232f63bbad7f27706606216561" id="r_a6a68f5232f63bbad7f27706606216561"><td class="memItemLeft" align="right" valign="top">typedef int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a68f5232f63bbad7f27706606216561">MR_ObjectVoxels_VolumeRenderingParams_ShadingType</a></td></tr>
-<tr class="separator:a6a68f5232f63bbad7f27706606216561"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a01b90e2c18a2df76312c41fdb2b25b80" id="r_a01b90e2c18a2df76312c41fdb2b25b80"><td class="memItemLeft" align="right" valign="top">typedef int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01b90e2c18a2df76312c41fdb2b25b80">MR_ObjectVoxels_VolumeRenderingParams_LutType</a></td></tr>
-<tr class="separator:a01b90e2c18a2df76312c41fdb2b25b80"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad5178d645cdb05027e26c6b1ce99e9da" id="r_ad5178d645cdb05027e26c6b1ce99e9da"><td class="memItemLeft" align="right" valign="top">typedef int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5178d645cdb05027e26c6b1ce99e9da">MR_ObjectVoxels_VolumeRenderingParams_AlphaType</a></td></tr>
-<tr class="separator:ad5178d645cdb05027e26c6b1ce99e9da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2bdb9532472b3549d20f13f8f992871" id="r_ac2bdb9532472b3549d20f13f8f992871"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#a65a820e29a9b216c318a156ff3751198">MR_ObjectVoxels_VolumeRenderingParams_ShadingType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2bdb9532472b3549d20f13f8f992871">MR_ObjectVoxels_VolumeRenderingParams_ShadingType</a></td></tr>
+<tr class="separator:ac2bdb9532472b3549d20f13f8f992871"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68d5f0c968dc131442d70d263799247b" id="r_a68d5f0c968dc131442d70d263799247b"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#a089026df649feecf55996bbfb788387b">MR_ObjectVoxels_VolumeRenderingParams_LutType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68d5f0c968dc131442d70d263799247b">MR_ObjectVoxels_VolumeRenderingParams_LutType</a></td></tr>
+<tr class="separator:a68d5f0c968dc131442d70d263799247b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2383d3fe858980d08e8dc799e57c93a" id="r_ac2383d3fe858980d08e8dc799e57c93a"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#af38dac0489752363c06549b4b3db52ff">MR_ObjectVoxels_VolumeRenderingParams_AlphaType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2383d3fe858980d08e8dc799e57c93a">MR_ObjectVoxels_VolumeRenderingParams_AlphaType</a></td></tr>
+<tr class="separator:ac2383d3fe858980d08e8dc799e57c93a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a950bf8e3371138ceb9649d45e9a96340" id="r_a950bf8e3371138ceb9649d45e9a96340"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#a950bf8e3371138ceb9649d45e9a96340ab7cf51323fcfdd20566c8ceb464ad1f9">MR_ObjectVoxels_VolumeRenderingParams_ShadingType_None</a> = 0
-, <a class="el" href="#a950bf8e3371138ceb9649d45e9a96340a32b30dc3da220d5ea1c7e8ebfbfbefe9">MR_ObjectVoxels_VolumeRenderingParams_ShadingType_ValueGradient</a> = 1
-, <a class="el" href="#a950bf8e3371138ceb9649d45e9a96340a703afe4f067b0bb60ec936653cf542fa">MR_ObjectVoxels_VolumeRenderingParams_ShadingType_AlphaGradient</a> = 2
+<tr class="memitem:a65a820e29a9b216c318a156ff3751198" id="r_a65a820e29a9b216c318a156ff3751198"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65a820e29a9b216c318a156ff3751198">MR_ObjectVoxels_VolumeRenderingParams_ShadingType</a> { <a class="el" href="#a65a820e29a9b216c318a156ff3751198ab7cf51323fcfdd20566c8ceb464ad1f9">MR_ObjectVoxels_VolumeRenderingParams_ShadingType_None</a> = 0
+, <a class="el" href="#a65a820e29a9b216c318a156ff3751198a32b30dc3da220d5ea1c7e8ebfbfbefe9">MR_ObjectVoxels_VolumeRenderingParams_ShadingType_ValueGradient</a> = 1
+, <a class="el" href="#a65a820e29a9b216c318a156ff3751198a703afe4f067b0bb60ec936653cf542fa">MR_ObjectVoxels_VolumeRenderingParams_ShadingType_AlphaGradient</a> = 2
  }</td></tr>
-<tr class="separator:a950bf8e3371138ceb9649d45e9a96340"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a77d65f4abba81d4456fa6ba8136e24" id="r_a5a77d65f4abba81d4456fa6ba8136e24"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#a5a77d65f4abba81d4456fa6ba8136e24af0d912aa981b6534fcd5090ce833ba6e">MR_ObjectVoxels_VolumeRenderingParams_LutType_GrayShades</a> = 0
-, <a class="el" href="#a5a77d65f4abba81d4456fa6ba8136e24a7fee5bff368aa0199d3c28b3af49a1ae">MR_ObjectVoxels_VolumeRenderingParams_LutType_Rainbow</a> = 1
-, <a class="el" href="#a5a77d65f4abba81d4456fa6ba8136e24a283d34f1bd50e3b21cfc03398874c5db">MR_ObjectVoxels_VolumeRenderingParams_LutType_OneColor</a> = 2
+<tr class="separator:a65a820e29a9b216c318a156ff3751198"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a089026df649feecf55996bbfb788387b" id="r_a089026df649feecf55996bbfb788387b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a089026df649feecf55996bbfb788387b">MR_ObjectVoxels_VolumeRenderingParams_LutType</a> { <a class="el" href="#a089026df649feecf55996bbfb788387baf0d912aa981b6534fcd5090ce833ba6e">MR_ObjectVoxels_VolumeRenderingParams_LutType_GrayShades</a> = 0
+, <a class="el" href="#a089026df649feecf55996bbfb788387ba7fee5bff368aa0199d3c28b3af49a1ae">MR_ObjectVoxels_VolumeRenderingParams_LutType_Rainbow</a> = 1
+, <a class="el" href="#a089026df649feecf55996bbfb788387ba283d34f1bd50e3b21cfc03398874c5db">MR_ObjectVoxels_VolumeRenderingParams_LutType_OneColor</a> = 2
  }</td></tr>
-<tr class="separator:a5a77d65f4abba81d4456fa6ba8136e24"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad393aa3e173d7f081ab4bbc6ba5027d" id="r_aad393aa3e173d7f081ab4bbc6ba5027d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#aad393aa3e173d7f081ab4bbc6ba5027dafe32f474a5249218a1dce2dc140f1eef">MR_ObjectVoxels_VolumeRenderingParams_AlphaType_Constant</a> = 0
-, <a class="el" href="#aad393aa3e173d7f081ab4bbc6ba5027daf555a09f61bf4e9f0f1dd858f1287c02">MR_ObjectVoxels_VolumeRenderingParams_AlphaType_LinearIncreasing</a> = 1
-, <a class="el" href="#aad393aa3e173d7f081ab4bbc6ba5027dab7f71ec5837eee915ad0f4bb63006c18">MR_ObjectVoxels_VolumeRenderingParams_AlphaType_LinearDecreasing</a> = 2
+<tr class="separator:a089026df649feecf55996bbfb788387b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af38dac0489752363c06549b4b3db52ff" id="r_af38dac0489752363c06549b4b3db52ff"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af38dac0489752363c06549b4b3db52ff">MR_ObjectVoxels_VolumeRenderingParams_AlphaType</a> { <a class="el" href="#af38dac0489752363c06549b4b3db52ffafe32f474a5249218a1dce2dc140f1eef">MR_ObjectVoxels_VolumeRenderingParams_AlphaType_Constant</a> = 0
+, <a class="el" href="#af38dac0489752363c06549b4b3db52ffaf555a09f61bf4e9f0f1dd858f1287c02">MR_ObjectVoxels_VolumeRenderingParams_AlphaType_LinearIncreasing</a> = 1
+, <a class="el" href="#af38dac0489752363c06549b4b3db52ffab7f71ec5837eee915ad0f4bb63006c18">MR_ObjectVoxels_VolumeRenderingParams_AlphaType_LinearDecreasing</a> = 2
  }</td></tr>
-<tr class="separator:aad393aa3e173d7f081ab4bbc6ba5027d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:af38dac0489752363c06549b4b3db52ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -525,42 +524,42 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ad5178d645cdb05027e26c6b1ce99e9da" name="ad5178d645cdb05027e26c6b1ce99e9da"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad5178d645cdb05027e26c6b1ce99e9da">&#9670;&#160;</a></span>MR_ObjectVoxels_VolumeRenderingParams_AlphaType</h2>
+<a id="ac2383d3fe858980d08e8dc799e57c93a" name="ac2383d3fe858980d08e8dc799e57c93a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2383d3fe858980d08e8dc799e57c93a">&#9670;&#160;</a></span>MR_ObjectVoxels_VolumeRenderingParams_AlphaType</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef int32_t <a class="el" href="#ad5178d645cdb05027e26c6b1ce99e9da">MR_ObjectVoxels_VolumeRenderingParams_AlphaType</a></td>
+          <td class="memname">typedef enum <a class="el" href="#af38dac0489752363c06549b4b3db52ff">MR_ObjectVoxels_VolumeRenderingParams_AlphaType</a> <a class="el" href="#af38dac0489752363c06549b4b3db52ff">MR_ObjectVoxels_VolumeRenderingParams_AlphaType</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a01b90e2c18a2df76312c41fdb2b25b80" name="a01b90e2c18a2df76312c41fdb2b25b80"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a01b90e2c18a2df76312c41fdb2b25b80">&#9670;&#160;</a></span>MR_ObjectVoxels_VolumeRenderingParams_LutType</h2>
+<a id="a68d5f0c968dc131442d70d263799247b" name="a68d5f0c968dc131442d70d263799247b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68d5f0c968dc131442d70d263799247b">&#9670;&#160;</a></span>MR_ObjectVoxels_VolumeRenderingParams_LutType</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef int32_t <a class="el" href="#a01b90e2c18a2df76312c41fdb2b25b80">MR_ObjectVoxels_VolumeRenderingParams_LutType</a></td>
+          <td class="memname">typedef enum <a class="el" href="#a089026df649feecf55996bbfb788387b">MR_ObjectVoxels_VolumeRenderingParams_LutType</a> <a class="el" href="#a089026df649feecf55996bbfb788387b">MR_ObjectVoxels_VolumeRenderingParams_LutType</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a6a68f5232f63bbad7f27706606216561" name="a6a68f5232f63bbad7f27706606216561"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6a68f5232f63bbad7f27706606216561">&#9670;&#160;</a></span>MR_ObjectVoxels_VolumeRenderingParams_ShadingType</h2>
+<a id="ac2bdb9532472b3549d20f13f8f992871" name="ac2bdb9532472b3549d20f13f8f992871"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2bdb9532472b3549d20f13f8f992871">&#9670;&#160;</a></span>MR_ObjectVoxels_VolumeRenderingParams_ShadingType</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef int32_t <a class="el" href="#a6a68f5232f63bbad7f27706606216561">MR_ObjectVoxels_VolumeRenderingParams_ShadingType</a></td>
+          <td class="memname">typedef enum <a class="el" href="#a65a820e29a9b216c318a156ff3751198">MR_ObjectVoxels_VolumeRenderingParams_ShadingType</a> <a class="el" href="#a65a820e29a9b216c318a156ff3751198">MR_ObjectVoxels_VolumeRenderingParams_ShadingType</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -764,59 +763,59 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a950bf8e3371138ceb9649d45e9a96340" name="a950bf8e3371138ceb9649d45e9a96340"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a950bf8e3371138ceb9649d45e9a96340">&#9670;&#160;</a></span>anonymous enum</h2>
+<a id="af38dac0489752363c06549b4b3db52ff" name="af38dac0489752363c06549b4b3db52ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af38dac0489752363c06549b4b3db52ff">&#9670;&#160;</a></span>MR_ObjectVoxels_VolumeRenderingParams_AlphaType</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">anonymous enum</td>
+          <td class="memname">enum <a class="el" href="#af38dac0489752363c06549b4b3db52ff">MR_ObjectVoxels_VolumeRenderingParams_AlphaType</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a950bf8e3371138ceb9649d45e9a96340ab7cf51323fcfdd20566c8ceb464ad1f9" name="a950bf8e3371138ceb9649d45e9a96340ab7cf51323fcfdd20566c8ceb464ad1f9"></a>MR_ObjectVoxels_VolumeRenderingParams_ShadingType_None&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a950bf8e3371138ceb9649d45e9a96340a32b30dc3da220d5ea1c7e8ebfbfbefe9" name="a950bf8e3371138ceb9649d45e9a96340a32b30dc3da220d5ea1c7e8ebfbfbefe9"></a>MR_ObjectVoxels_VolumeRenderingParams_ShadingType_ValueGradient&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a950bf8e3371138ceb9649d45e9a96340a703afe4f067b0bb60ec936653cf542fa" name="a950bf8e3371138ceb9649d45e9a96340a703afe4f067b0bb60ec936653cf542fa"></a>MR_ObjectVoxels_VolumeRenderingParams_ShadingType_AlphaGradient&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="af38dac0489752363c06549b4b3db52ffafe32f474a5249218a1dce2dc140f1eef" name="af38dac0489752363c06549b4b3db52ffafe32f474a5249218a1dce2dc140f1eef"></a>MR_ObjectVoxels_VolumeRenderingParams_AlphaType_Constant&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af38dac0489752363c06549b4b3db52ffaf555a09f61bf4e9f0f1dd858f1287c02" name="af38dac0489752363c06549b4b3db52ffaf555a09f61bf4e9f0f1dd858f1287c02"></a>MR_ObjectVoxels_VolumeRenderingParams_AlphaType_LinearIncreasing&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af38dac0489752363c06549b4b3db52ffab7f71ec5837eee915ad0f4bb63006c18" name="af38dac0489752363c06549b4b3db52ffab7f71ec5837eee915ad0f4bb63006c18"></a>MR_ObjectVoxels_VolumeRenderingParams_AlphaType_LinearDecreasing&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
 </div>
-<a id="a5a77d65f4abba81d4456fa6ba8136e24" name="a5a77d65f4abba81d4456fa6ba8136e24"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5a77d65f4abba81d4456fa6ba8136e24">&#9670;&#160;</a></span>anonymous enum</h2>
+<a id="a089026df649feecf55996bbfb788387b" name="a089026df649feecf55996bbfb788387b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a089026df649feecf55996bbfb788387b">&#9670;&#160;</a></span>MR_ObjectVoxels_VolumeRenderingParams_LutType</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">anonymous enum</td>
+          <td class="memname">enum <a class="el" href="#a089026df649feecf55996bbfb788387b">MR_ObjectVoxels_VolumeRenderingParams_LutType</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a5a77d65f4abba81d4456fa6ba8136e24af0d912aa981b6534fcd5090ce833ba6e" name="a5a77d65f4abba81d4456fa6ba8136e24af0d912aa981b6534fcd5090ce833ba6e"></a>MR_ObjectVoxels_VolumeRenderingParams_LutType_GrayShades&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a5a77d65f4abba81d4456fa6ba8136e24a7fee5bff368aa0199d3c28b3af49a1ae" name="a5a77d65f4abba81d4456fa6ba8136e24a7fee5bff368aa0199d3c28b3af49a1ae"></a>MR_ObjectVoxels_VolumeRenderingParams_LutType_Rainbow&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a5a77d65f4abba81d4456fa6ba8136e24a283d34f1bd50e3b21cfc03398874c5db" name="a5a77d65f4abba81d4456fa6ba8136e24a283d34f1bd50e3b21cfc03398874c5db"></a>MR_ObjectVoxels_VolumeRenderingParams_LutType_OneColor&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a089026df649feecf55996bbfb788387baf0d912aa981b6534fcd5090ce833ba6e" name="a089026df649feecf55996bbfb788387baf0d912aa981b6534fcd5090ce833ba6e"></a>MR_ObjectVoxels_VolumeRenderingParams_LutType_GrayShades&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a089026df649feecf55996bbfb788387ba7fee5bff368aa0199d3c28b3af49a1ae" name="a089026df649feecf55996bbfb788387ba7fee5bff368aa0199d3c28b3af49a1ae"></a>MR_ObjectVoxels_VolumeRenderingParams_LutType_Rainbow&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a089026df649feecf55996bbfb788387ba283d34f1bd50e3b21cfc03398874c5db" name="a089026df649feecf55996bbfb788387ba283d34f1bd50e3b21cfc03398874c5db"></a>MR_ObjectVoxels_VolumeRenderingParams_LutType_OneColor&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
 </div>
-<a id="aad393aa3e173d7f081ab4bbc6ba5027d" name="aad393aa3e173d7f081ab4bbc6ba5027d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad393aa3e173d7f081ab4bbc6ba5027d">&#9670;&#160;</a></span>anonymous enum</h2>
+<a id="a65a820e29a9b216c318a156ff3751198" name="a65a820e29a9b216c318a156ff3751198"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65a820e29a9b216c318a156ff3751198">&#9670;&#160;</a></span>MR_ObjectVoxels_VolumeRenderingParams_ShadingType</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">anonymous enum</td>
+          <td class="memname">enum <a class="el" href="#a65a820e29a9b216c318a156ff3751198">MR_ObjectVoxels_VolumeRenderingParams_ShadingType</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aad393aa3e173d7f081ab4bbc6ba5027dafe32f474a5249218a1dce2dc140f1eef" name="aad393aa3e173d7f081ab4bbc6ba5027dafe32f474a5249218a1dce2dc140f1eef"></a>MR_ObjectVoxels_VolumeRenderingParams_AlphaType_Constant&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aad393aa3e173d7f081ab4bbc6ba5027daf555a09f61bf4e9f0f1dd858f1287c02" name="aad393aa3e173d7f081ab4bbc6ba5027daf555a09f61bf4e9f0f1dd858f1287c02"></a>MR_ObjectVoxels_VolumeRenderingParams_AlphaType_LinearIncreasing&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aad393aa3e173d7f081ab4bbc6ba5027dab7f71ec5837eee915ad0f4bb63006c18" name="aad393aa3e173d7f081ab4bbc6ba5027dab7f71ec5837eee915ad0f4bb63006c18"></a>MR_ObjectVoxels_VolumeRenderingParams_AlphaType_LinearDecreasing&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a65a820e29a9b216c318a156ff3751198ab7cf51323fcfdd20566c8ceb464ad1f9" name="a65a820e29a9b216c318a156ff3751198ab7cf51323fcfdd20566c8ceb464ad1f9"></a>MR_ObjectVoxels_VolumeRenderingParams_ShadingType_None&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a65a820e29a9b216c318a156ff3751198a32b30dc3da220d5ea1c7e8ebfbfbefe9" name="a65a820e29a9b216c318a156ff3751198a32b30dc3da220d5ea1c7e8ebfbfbefe9"></a>MR_ObjectVoxels_VolumeRenderingParams_ShadingType_ValueGradient&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a65a820e29a9b216c318a156ff3751198a703afe4f067b0bb60ec936653cf542fa" name="a65a820e29a9b216c318a156ff3751198a703afe4f067b0bb60ec936653cf542fa"></a>MR_ObjectVoxels_VolumeRenderingParams_ShadingType_AlphaGradient&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -2260,11 +2259,11 @@ Functions</h2></td></tr>
 <p>/ Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectVoxels.html">MR::ObjectVoxels</a></code> named <code>getVolumeRenderingParams</code>. / Parameter <code>_this</code> can not be null. It is a single object. / The returned pointer will never be null. It is non-owning, do NOT destroy it. MRC_API const MR_ObjectVoxels_VolumeRenderingParams *MR_ObjectVoxels_getVolumeRenderingParams(const MR_ObjectVoxels *_this);</p>
 <p>/ Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectVoxels.html">MR::ObjectVoxels</a></code> named <code>setVolumeRenderingParams</code>. / Parameter <code>_this</code> can not be null. It is a single object. / Parameter <code>params</code> can not be null. It is a single object. MRC_API void MR_ObjectVoxels_setVolumeRenderingParams(MR_ObjectVoxels *_this, const MR_ObjectVoxels_VolumeRenderingParams *params);</p>
 <p>/ Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectVoxels.html">MR::ObjectVoxels</a></code> named <code>hasVisualRepresentation</code>. / Parameter <code>_this</code> can not be null. It is a single object. MRC_API bool MR_ObjectVoxels_hasVisualRepresentation(const MR_ObjectVoxels *_this);</p>
-<p>/ sets top limit on the number of vertices in the iso-surface / Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectVoxels.html">MR::ObjectVoxels</a></code> named <code>setMaxSurfaceVertices</code>. / Parameter <code>_this</code> can not be null. It is a single object. MRC_API void MR_ObjectVoxels_setMaxSurfaceVertices(MR_ObjectVoxels *_this, int32_t maxVerts);</p>
-<p>/ gets top limit on the number of vertices in the iso-surface / Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectVoxels.html">MR::ObjectVoxels</a></code> named <code>getMaxSurfaceVertices</code>. / Parameter <code>_this</code> can not be null. It is a single object. MRC_API int32_t MR_ObjectVoxels_getMaxSurfaceVertices(const MR_ObjectVoxels *_this);</p>
+<p>/ sets top limit on the number of vertices in the iso-surface / Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectVoxels.html">MR::ObjectVoxels</a></code> named <code>setMaxSurfaceVertices</code>. / Parameter <code>_this</code> can not be null. It is a single object. MRC_API void MR_ObjectVoxels_setMaxSurfaceVertices(MR_ObjectVoxels *_this, int maxVerts);</p>
+<p>/ gets top limit on the number of vertices in the iso-surface / Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectVoxels.html">MR::ObjectVoxels</a></code> named <code>getMaxSurfaceVertices</code>. / Parameter <code>_this</code> can not be null. It is a single object. MRC_API int MR_ObjectVoxels_getMaxSurfaceVertices(const MR_ObjectVoxels *_this);</p>
 <p>/ Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectVoxels.html">MR::ObjectVoxels</a></code> named <code>clone</code>. / Parameter <code>_this</code> can not be null. It is a single object. / Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__shared__ptr__MR__Object_8h.html#ac4d53a470c9103f8ebd58aa32856108e" title="Destroys a heap-allocated instance of MR_std_shared_ptr_MR_Object. Does nothing if the pointer is nul...">MR_std_shared_ptr_MR_Object_Destroy()</a></code> to free it when you're done using it. MRC_API MR_std_shared_ptr_MR_Object *MR_ObjectVoxels_clone(const MR_ObjectVoxels *_this);</p>
 <p>/ Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectVoxels.html">MR::ObjectVoxels</a></code> named <code>shallowClone</code>. / Parameter <code>_this</code> can not be null. It is a single object. / Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__shared__ptr__MR__Object_8h.html#ac4d53a470c9103f8ebd58aa32856108e" title="Destroys a heap-allocated instance of MR_std_shared_ptr_MR_Object. Does nothing if the pointer is nul...">MR_std_shared_ptr_MR_Object_Destroy()</a></code> to free it when you're done using it. MRC_API MR_std_shared_ptr_MR_Object *MR_ObjectVoxels_shallowClone(const MR_ObjectVoxels *_this);</p>
-<p>/ Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectVoxels.html">MR::ObjectVoxels</a></code> named <code>setDirtyFlags</code>. / Parameter <code>_this</code> can not be null. It is a single object. / Parameter <code>invalidateCaches</code> has a default argument: <code>true</code>, pass a null pointer to use it. MRC_API void MR_ObjectVoxels_setDirtyFlags(MR_ObjectVoxels *_this, uint32_t mask, const bool *invalidateCaches);</p>
+<p>/ Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectVoxels.html">MR::ObjectVoxels</a></code> named <code>setDirtyFlags</code>. / Parameter <code>_this</code> can not be null. It is a single object. / Parameter <code>invalidateCaches</code> has a default argument: <code>true</code>, pass a null pointer to use it. MRC_API void MR_ObjectVoxels_setDirtyFlags(MR_ObjectVoxels *_this, unsigned int mask, const bool *invalidateCaches);</p>
 <p>/ returns cached information about the number of active voxels / Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectVoxels.html">MR::ObjectVoxels</a></code> named <code>activeVoxels</code>. / Parameter <code>_this</code> can not be null. It is a single object. MRC_API MR_uint64_t MR_ObjectVoxels_activeVoxels(const MR_ObjectVoxels *_this);</p>
 <p>/ returns the amount of memory this object occupies on heap / Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectVoxels.html">MR::ObjectVoxels</a></code> named <code>heapBytes</code>. / Parameter <code>_this</code> can not be null. It is a single object. MRC_API MR_uint64_t MR_ObjectVoxels_heapBytes(const MR_ObjectVoxels *_this);</p>
 <p>/ returns overriden file extension used to serialize voxels inside this object, nullptr means defaultSerializeVoxelsFormat() / Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1ObjectVoxels.html">MR::ObjectVoxels</a></code> named <code>serializeFormat</code>. / Parameter <code>_this</code> can not be null. It is a single object. MRC_API const char *MR_ObjectVoxels_serializeFormat(const MR_ObjectVoxels *_this);</p>
@@ -2294,12 +2293,12 @@ Functions</h2></td></tr>
 <p>/ Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html">MR::ObjectVoxels::VolumeRenderingParams</a></code> named <code>alphaType</code>. / Parameter <code>_this</code> can not be null. It is a single object. / The returned pointer will never be null. It is non-owning, do NOT destroy it. MRC_API const MR_ObjectVoxels_VolumeRenderingParams_AlphaType *MR_ObjectVoxels_VolumeRenderingParams_Get_alphaType(const MR_ObjectVoxels_VolumeRenderingParams *_this);</p>
 <p>/ Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html">MR::ObjectVoxels::VolumeRenderingParams</a></code> named <code>alphaType</code>. / Parameter <code>_this</code> can not be null. It is a single object. MRC_API void MR_ObjectVoxels_VolumeRenderingParams_Set_alphaType(MR_ObjectVoxels_VolumeRenderingParams *_this, MR_ObjectVoxels_VolumeRenderingParams_AlphaType value);</p>
 <p>/ Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html">MR::ObjectVoxels::VolumeRenderingParams</a></code> named <code>alphaType</code>. / Parameter <code>_this</code> can not be null. It is a single object. / The returned pointer will never be null. It is non-owning, do NOT destroy it. MRC_API MR_ObjectVoxels_VolumeRenderingParams_AlphaType *MR_ObjectVoxels_VolumeRenderingParams_GetMutable_alphaType(MR_ObjectVoxels_VolumeRenderingParams *_this);</p>
-<p>/ Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html">MR::ObjectVoxels::VolumeRenderingParams</a></code> named <code>alphaLimit</code>. / Parameter <code>_this</code> can not be null. It is a single object. / The returned pointer will never be null. It is non-owning, do NOT destroy it. MRC_API const uint8_t *MR_ObjectVoxels_VolumeRenderingParams_Get_alphaLimit(const MR_ObjectVoxels_VolumeRenderingParams *_this);</p>
-<p>/ Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html">MR::ObjectVoxels::VolumeRenderingParams</a></code> named <code>alphaLimit</code>. / Parameter <code>_this</code> can not be null. It is a single object. MRC_API void MR_ObjectVoxels_VolumeRenderingParams_Set_alphaLimit(MR_ObjectVoxels_VolumeRenderingParams *_this, uint8_t value);</p>
-<p>/ Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html">MR::ObjectVoxels::VolumeRenderingParams</a></code> named <code>alphaLimit</code>. / Parameter <code>_this</code> can not be null. It is a single object. / The returned pointer will never be null. It is non-owning, do NOT destroy it. MRC_API uint8_t *MR_ObjectVoxels_VolumeRenderingParams_GetMutable_alphaLimit(MR_ObjectVoxels_VolumeRenderingParams *_this);</p>
+<p>/ Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html">MR::ObjectVoxels::VolumeRenderingParams</a></code> named <code>alphaLimit</code>. / Parameter <code>_this</code> can not be null. It is a single object. / The returned pointer will never be null. It is non-owning, do NOT destroy it. MRC_API const unsigned char *MR_ObjectVoxels_VolumeRenderingParams_Get_alphaLimit(const MR_ObjectVoxels_VolumeRenderingParams *_this);</p>
+<p>/ Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html">MR::ObjectVoxels::VolumeRenderingParams</a></code> named <code>alphaLimit</code>. / Parameter <code>_this</code> can not be null. It is a single object. MRC_API void MR_ObjectVoxels_VolumeRenderingParams_Set_alphaLimit(MR_ObjectVoxels_VolumeRenderingParams *_this, unsigned char value);</p>
+<p>/ Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html">MR::ObjectVoxels::VolumeRenderingParams</a></code> named <code>alphaLimit</code>. / Parameter <code>_this</code> can not be null. It is a single object. / The returned pointer will never be null. It is non-owning, do NOT destroy it. MRC_API unsigned char *MR_ObjectVoxels_VolumeRenderingParams_GetMutable_alphaLimit(MR_ObjectVoxels_VolumeRenderingParams *_this);</p>
 <p>/ Constructs an empty (default-constructed) instance. / Never returns null. Returns an instance allocated on the heap! Must call <code>MR_ObjectVoxels_VolumeRenderingParams_Destroy()</code> to free it when you're done using it. MRC_API MR_ObjectVoxels_VolumeRenderingParams *MR_ObjectVoxels_VolumeRenderingParams_DefaultConstruct(void);</p>
 <p>/ Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. / The array must be destroyed using <code>MR_ObjectVoxels_VolumeRenderingParams_DestroyArray()</code>. / Use <code>MR_ObjectVoxels_VolumeRenderingParams_OffsetMutablePtr()</code> and <code>MR_ObjectVoxels_VolumeRenderingParams_OffsetPtr()</code> to access the array elements. MRC_API MR_ObjectVoxels_VolumeRenderingParams *MR_ObjectVoxels_VolumeRenderingParams_DefaultConstructArray(size_t num_elems);</p>
-<p>/ Constructs <code><a class="elRef" href="../Cpp/structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html">MR::ObjectVoxels::VolumeRenderingParams</a></code> elementwise. / Never returns null. Returns an instance allocated on the heap! Must call <code>MR_ObjectVoxels_VolumeRenderingParams_Destroy()</code> to free it when you're done using it. MRC_API MR_ObjectVoxels_VolumeRenderingParams *MR_ObjectVoxels_VolumeRenderingParams_ConstructFrom(MR_FilterType volumeFilterType, MR_ObjectVoxels_VolumeRenderingParams_ShadingType shadingType, MR_ObjectVoxels_VolumeRenderingParams_LutType lutType, <a class="el" href="structMR__Color.html" title="Generated from class MR::Color.">MR_Color</a> oneColor, float min, float max, float samplingStep, MR_ObjectVoxels_VolumeRenderingParams_AlphaType alphaType, uint8_t alphaLimit);</p>
+<p>/ Constructs <code><a class="elRef" href="../Cpp/structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html">MR::ObjectVoxels::VolumeRenderingParams</a></code> elementwise. / Never returns null. Returns an instance allocated on the heap! Must call <code>MR_ObjectVoxels_VolumeRenderingParams_Destroy()</code> to free it when you're done using it. MRC_API MR_ObjectVoxels_VolumeRenderingParams *MR_ObjectVoxels_VolumeRenderingParams_ConstructFrom(MR_FilterType volumeFilterType, MR_ObjectVoxels_VolumeRenderingParams_ShadingType shadingType, MR_ObjectVoxels_VolumeRenderingParams_LutType lutType, <a class="el" href="structMR__Color.html" title="Generated from class MR::Color.">MR_Color</a> oneColor, float min, float max, float samplingStep, MR_ObjectVoxels_VolumeRenderingParams_AlphaType alphaType, unsigned char alphaLimit);</p>
 <p>/ Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. MRC_API const MR_ObjectVoxels_VolumeRenderingParams *MR_ObjectVoxels_VolumeRenderingParams_OffsetPtr(const MR_ObjectVoxels_VolumeRenderingParams *ptr, ptrdiff_t i);</p>
 <p>/ Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. MRC_API MR_ObjectVoxels_VolumeRenderingParams *MR_ObjectVoxels_VolumeRenderingParams_OffsetMutablePtr(MR_ObjectVoxels_VolumeRenderingParams *ptr, ptrdiff_t i);</p>
 <p>/ Generated from a constructor of class <code><a class="elRef" href="../Cpp/structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html">MR::ObjectVoxels::VolumeRenderingParams</a></code>. / Parameter <code>_other</code> can not be null. It is a single object. / Never returns null. Returns an instance allocated on the heap! Must call <code>MR_ObjectVoxels_VolumeRenderingParams_Destroy()</code> to free it when you're done using it. MRC_API MR_ObjectVoxels_VolumeRenderingParams *MR_ObjectVoxels_VolumeRenderingParams_ConstructFromAnother(const MR_ObjectVoxels_VolumeRenderingParams *_other);</p>

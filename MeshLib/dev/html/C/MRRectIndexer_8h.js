@@ -2,10 +2,10 @@ var MRRectIndexer_8h =
 [
     [ "MR_DistanceMap", "MRRectIndexer_8h.html#ac5b3176651bd10f11559934b0565b6ee", null ],
     [ "MR_Matrix_float", "MRRectIndexer_8h.html#a7cdde60e20392324b624c6508b359f95", null ],
-    [ "MR_OutEdge2", "MRRectIndexer_8h.html#adbb0f842a0b4b7e200f6b1a38d89a490", null ],
+    [ "MR_OutEdge2", "MRRectIndexer_8h.html#a9da9bad660b3fc045413d2d5cfe0597b", null ],
     [ "MR_PixelBitSet", "MRRectIndexer_8h.html#afa3a86d9b655499ff627de90d4de265e", null ],
     [ "MR_RectIndexer", "MRRectIndexer_8h.html#a1a5efdccd2df88c9e6fd685e2f82f57b", null ],
-    [ "MR_expandPixelMask", "MRRectIndexer_8h.html#a226016ea9cd2116c674b3f4f79794f9b", null ],
+    [ "MR_expandPixelMask", "MRRectIndexer_8h.html#a96bb28ee56b22338a63ace6eb77fef96", null ],
     [ "MR_opposite_MR_OutEdge2", "MRRectIndexer_8h.html#abf7b469b8c7ebb19c78aaf18c98bc3b9", null ],
     [ "MR_RectIndexer_areNeigbors_MR_PixelId", "MRRectIndexer_8h.html#acc8314171f38bb63f61e7cfa37c31a5b", null ],
     [ "MR_RectIndexer_areNeigbors_MR_Vector2i", "MRRectIndexer_8h.html#abc2c9777792225a2964016594ab5bee0", null ],
@@ -31,5 +31,5 @@ var MRRectIndexer_8h =
     [ "MR_RectIndexer_toPixelId", "MRRectIndexer_8h.html#a42959ab3aa093eb4b9ed280584f794c4", null ],
     [ "MR_RectIndexer_toPos_MR_PixelId", "MRRectIndexer_8h.html#ae823480ba633697b40ac5f71010278f6", null ],
     [ "MR_RectIndexer_toPos_uint64_t", "MRRectIndexer_8h.html#a2a4fa5ae1c9ee8d3658ced1944aa638f", null ],
-    [ "MR_shrinkPixelMask", "MRRectIndexer_8h.html#a688334a182ae4ceb4a6ae322af0924ae", null ]
+    [ "MR_shrinkPixelMask", "MRRectIndexer_8h.html#a99bd26041e9f4b810bb537d152a466c1", null ]
 ];

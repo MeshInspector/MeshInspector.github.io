@@ -156,7 +156,6 @@ $(function(){initNavTree('MRSeparationPoint_8h.html',''); initResizable(true); }
 <code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
-<code>#include &lt;stdint.h&gt;</code><br />
 </div>
 <p><a href="MRSeparationPoint_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -174,8 +173,8 @@ Typedefs</h2></td></tr>
 <tr class="separator:a93a0c4d7b47d7dae609a79a31bf54018"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aefed148a09a0ae55edbd22814638b462" id="r_aefed148a09a0ae55edbd22814638b462"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a></td></tr>
 <tr class="separator:aefed148a09a0ae55edbd22814638b462"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae9d79ecb8712cfe46600b3fda1831948" id="r_ae9d79ecb8712cfe46600b3fda1831948"><td class="memItemLeft" align="right" valign="top">typedef int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9d79ecb8712cfe46600b3fda1831948">MR_NeighborDir</a></td></tr>
-<tr class="separator:ae9d79ecb8712cfe46600b3fda1831948"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50ba1e74dca2acd917bebcdb2820e6d9" id="r_a50ba1e74dca2acd917bebcdb2820e6d9"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#a1701eebc218aef79b7c6bb1852a5144f">MR_NeighborDir</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50ba1e74dca2acd917bebcdb2820e6d9">MR_NeighborDir</a></td></tr>
+<tr class="separator:a50ba1e74dca2acd917bebcdb2820e6d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5bcf2d9a78b61d58787442aa38075ffa" id="r_a5bcf2d9a78b61d58787442aa38075ffa"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a5bcf2d9a78b61d58787442aa38075ffa">MR_SeparationPointStorage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5bcf2d9a78b61d58787442aa38075ffa">MR_SeparationPointStorage</a></td></tr>
 <tr class="separator:a5bcf2d9a78b61d58787442aa38075ffa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac6335a684721a20e9d9b3d4afd039f60" id="r_ac6335a684721a20e9d9b3d4afd039f60"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a></td></tr>
@@ -184,12 +183,12 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a550cb4231d535863c55643bbd2d3c6ba" id="r_a550cb4231d535863c55643bbd2d3c6ba"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#a550cb4231d535863c55643bbd2d3c6baaacf3d60d150604dc568a6e09b8322624">MR_NeighborDir_X</a> = 0
-, <a class="el" href="#a550cb4231d535863c55643bbd2d3c6baa403abf7430a15e7ee80dddb120fad50d">MR_NeighborDir_Y</a> = 1
-, <a class="el" href="#a550cb4231d535863c55643bbd2d3c6baafd53be8272339c5a7b837883dbb04278">MR_NeighborDir_Z</a> = 2
-, <a class="el" href="#a550cb4231d535863c55643bbd2d3c6baab7c1f4e8f8e93e271e528f8bcd4ceb6c">MR_NeighborDir_Count</a> = 3
+<tr class="memitem:a1701eebc218aef79b7c6bb1852a5144f" id="r_a1701eebc218aef79b7c6bb1852a5144f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1701eebc218aef79b7c6bb1852a5144f">MR_NeighborDir</a> { <a class="el" href="#a1701eebc218aef79b7c6bb1852a5144faacf3d60d150604dc568a6e09b8322624">MR_NeighborDir_X</a> = 0
+, <a class="el" href="#a1701eebc218aef79b7c6bb1852a5144fa403abf7430a15e7ee80dddb120fad50d">MR_NeighborDir_Y</a> = 1
+, <a class="el" href="#a1701eebc218aef79b7c6bb1852a5144fafd53be8272339c5a7b837883dbb04278">MR_NeighborDir_Z</a> = 2
+, <a class="el" href="#a1701eebc218aef79b7c6bb1852a5144fab7c1f4e8f8e93e271e528f8bcd4ceb6c">MR_NeighborDir_Count</a> = 3
  }</td></tr>
-<tr class="separator:a550cb4231d535863c55643bbd2d3c6ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a1701eebc218aef79b7c6bb1852a5144f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -217,8 +216,8 @@ Functions</h2></td></tr>
 <tr class="separator:af518135d3d01aa481d98ea7887d696f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec0c858b61de0b6e336f18dc29ff93ac" id="r_aec0c858b61de0b6e336f18dc29ff93ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ac6335a684721a20e9d9b3d4afd039f60">MR_SeparationPointStorage_Block</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec0c858b61de0b6e336f18dc29ff93ac">MR_SeparationPointStorage_getBlock</a> (<a class="el" href="#a5bcf2d9a78b61d58787442aa38075ffa">MR_SeparationPointStorage</a> *_this, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> blockIndex)</td></tr>
 <tr class="separator:aec0c858b61de0b6e336f18dc29ff93ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab90eb9ce5e13989924003199b6b1879c" id="r_ab90eb9ce5e13989924003199b6b1879c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab90eb9ce5e13989924003199b6b1879c">MR_SeparationPointStorage_makeUniqueVids</a> (<a class="el" href="#a5bcf2d9a78b61d58787442aa38075ffa">MR_SeparationPointStorage</a> *_this)</td></tr>
-<tr class="separator:ab90eb9ce5e13989924003199b6b1879c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17530cd40b76035f062a021b99c04c1d" id="r_a17530cd40b76035f062a021b99c04c1d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17530cd40b76035f062a021b99c04c1d">MR_SeparationPointStorage_makeUniqueVids</a> (<a class="el" href="#a5bcf2d9a78b61d58787442aa38075ffa">MR_SeparationPointStorage</a> *_this)</td></tr>
+<tr class="separator:a17530cd40b76035f062a021b99c04c1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a71b2fe47dc8a3c6a285019c7f0871fd3" id="r_a71b2fe47dc8a3c6a285019c7f0871fd3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__std__array__MR__VertId__3.html">MR_std_array_MR_VertId_3</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71b2fe47dc8a3c6a285019c7f0871fd3">MR_SeparationPointStorage_findSeparationPointSet</a> (const <a class="el" href="#a5bcf2d9a78b61d58787442aa38075ffa">MR_SeparationPointStorage</a> *_this, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> voxelId)</td></tr>
 <tr class="separator:a71b2fe47dc8a3c6a285019c7f0871fd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5012a12ae4039b58e2c521b0f74be86f" id="r_a5012a12ae4039b58e2c521b0f74be86f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRIdentifyVertices_8h.html#a33f2cead15f3bf37534d3678feb4af22">MR_Triangulation</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5012a12ae4039b58e2c521b0f74be86f">MR_SeparationPointStorage_getTriangulation</a> (const <a class="el" href="#a5bcf2d9a78b61d58787442aa38075ffa">MR_SeparationPointStorage</a> *_this, <a class="el" href="#a9692dc04329fdb84eb3ddd8d265ba089">MR_Vector_MR_VoxelId_MR_FaceId</a> *outVoxelPerFaceMap)</td></tr>
@@ -281,14 +280,14 @@ Functions</h2></td></tr>
 <tr class="separator:af326ebe75a756fccd1be286862835638"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
-<a id="ae9d79ecb8712cfe46600b3fda1831948" name="ae9d79ecb8712cfe46600b3fda1831948"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae9d79ecb8712cfe46600b3fda1831948">&#9670;&#160;</a></span>MR_NeighborDir</h2>
+<a id="a50ba1e74dca2acd917bebcdb2820e6d9" name="a50ba1e74dca2acd917bebcdb2820e6d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50ba1e74dca2acd917bebcdb2820e6d9">&#9670;&#160;</a></span>MR_NeighborDir</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef int32_t <a class="el" href="#ae9d79ecb8712cfe46600b3fda1831948">MR_NeighborDir</a></td>
+          <td class="memname">typedef enum <a class="el" href="#a1701eebc218aef79b7c6bb1852a5144f">MR_NeighborDir</a> <a class="el" href="#a1701eebc218aef79b7c6bb1852a5144f">MR_NeighborDir</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -411,22 +410,22 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a550cb4231d535863c55643bbd2d3c6ba" name="a550cb4231d535863c55643bbd2d3c6ba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a550cb4231d535863c55643bbd2d3c6ba">&#9670;&#160;</a></span>anonymous enum</h2>
+<a id="a1701eebc218aef79b7c6bb1852a5144f" name="a1701eebc218aef79b7c6bb1852a5144f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1701eebc218aef79b7c6bb1852a5144f">&#9670;&#160;</a></span>MR_NeighborDir</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">anonymous enum</td>
+          <td class="memname">enum <a class="el" href="#a1701eebc218aef79b7c6bb1852a5144f">MR_NeighborDir</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a550cb4231d535863c55643bbd2d3c6baaacf3d60d150604dc568a6e09b8322624" name="a550cb4231d535863c55643bbd2d3c6baaacf3d60d150604dc568a6e09b8322624"></a>MR_NeighborDir_X&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a550cb4231d535863c55643bbd2d3c6baa403abf7430a15e7ee80dddb120fad50d" name="a550cb4231d535863c55643bbd2d3c6baa403abf7430a15e7ee80dddb120fad50d"></a>MR_NeighborDir_Y&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a550cb4231d535863c55643bbd2d3c6baafd53be8272339c5a7b837883dbb04278" name="a550cb4231d535863c55643bbd2d3c6baafd53be8272339c5a7b837883dbb04278"></a>MR_NeighborDir_Z&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a550cb4231d535863c55643bbd2d3c6baab7c1f4e8f8e93e271e528f8bcd4ceb6c" name="a550cb4231d535863c55643bbd2d3c6baab7c1f4e8f8e93e271e528f8bcd4ceb6c"></a>MR_NeighborDir_Count&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a1701eebc218aef79b7c6bb1852a5144faacf3d60d150604dc568a6e09b8322624" name="a1701eebc218aef79b7c6bb1852a5144faacf3d60d150604dc568a6e09b8322624"></a>MR_NeighborDir_X&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a1701eebc218aef79b7c6bb1852a5144fa403abf7430a15e7ee80dddb120fad50d" name="a1701eebc218aef79b7c6bb1852a5144fa403abf7430a15e7ee80dddb120fad50d"></a>MR_NeighborDir_Y&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a1701eebc218aef79b7c6bb1852a5144fafd53be8272339c5a7b837883dbb04278" name="a1701eebc218aef79b7c6bb1852a5144fafd53be8272339c5a7b837883dbb04278"></a>MR_NeighborDir_Z&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a1701eebc218aef79b7c6bb1852a5144fab7c1f4e8f8e93e271e528f8bcd4ceb6c" name="a1701eebc218aef79b7c6bb1852a5144fab7c1f4e8f8e93e271e528f8bcd4ceb6c"></a>MR_NeighborDir_Count&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -1197,14 +1196,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ab90eb9ce5e13989924003199b6b1879c" name="ab90eb9ce5e13989924003199b6b1879c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab90eb9ce5e13989924003199b6b1879c">&#9670;&#160;</a></span>MR_SeparationPointStorage_makeUniqueVids()</h2>
+<a id="a17530cd40b76035f062a021b99c04c1d" name="a17530cd40b76035f062a021b99c04c1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17530cd40b76035f062a021b99c04c1d">&#9670;&#160;</a></span>MR_SeparationPointStorage_makeUniqueVids()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t MR_SeparationPointStorage_makeUniqueVids </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int MR_SeparationPointStorage_makeUniqueVids </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a5bcf2d9a78b61d58787442aa38075ffa">MR_SeparationPointStorage</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>

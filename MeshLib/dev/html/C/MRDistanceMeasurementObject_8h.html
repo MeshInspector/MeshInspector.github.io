@@ -157,7 +157,6 @@ $(function(){initNavTree('MRDistanceMeasurementObject_8h.html',''); initResizabl
 <code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
-<code>#include &lt;stdint.h&gt;</code><br />
 </div>
 <p><a href="MRDistanceMeasurementObject_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -193,22 +192,22 @@ Typedefs</h2></td></tr>
 <tr class="separator:ab26d333cd7549e6f3f49cc80e3ba5900"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9185d6c78b24d67f65fff43bd4a336c3" id="r_a9185d6c78b24d67f65fff43bd4a336c3"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a></td></tr>
 <tr class="separator:a9185d6c78b24d67f65fff43bd4a336c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6af58bb8f8050961e9a2e6486d2003f2" id="r_a6af58bb8f8050961e9a2e6486d2003f2"><td class="memItemLeft" align="right" valign="top">typedef int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6af58bb8f8050961e9a2e6486d2003f2">MR_DistanceMeasurementObject_DistanceMode</a></td></tr>
-<tr class="separator:a6af58bb8f8050961e9a2e6486d2003f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4dd17bdc5fce292c8a32d4fd04b03ad2" id="r_a4dd17bdc5fce292c8a32d4fd04b03ad2"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#a866370df7c69a40c7d8780a42858651c">MR_DistanceMeasurementObject_DistanceMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4dd17bdc5fce292c8a32d4fd04b03ad2">MR_DistanceMeasurementObject_DistanceMode</a></td></tr>
+<tr class="separator:a4dd17bdc5fce292c8a32d4fd04b03ad2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a6b7b47dd702d9e331586d485013fd1ea" id="r_a6b7b47dd702d9e331586d485013fd1ea"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
-&#160;&#160;<a class="el" href="#a6b7b47dd702d9e331586d485013fd1eaa3ec32fcc2ccdacdb04d65ee43385d391">MR_DistanceMeasurementObject_DistanceMode_euclidean</a> = 0
-, <a class="el" href="#a6b7b47dd702d9e331586d485013fd1eaae3d4cf5a3a553ba06e5131faaffbbfc4">MR_DistanceMeasurementObject_DistanceMode_euclideanWithSignedDeltasPerAxis</a> = 1
-, <a class="el" href="#a6b7b47dd702d9e331586d485013fd1eaafa1fc5830182c25082b2f77d01c454f8">MR_DistanceMeasurementObject_DistanceMode_euclideanWithAbsoluteDeltasPerAxis</a> = 2
-, <a class="el" href="#a6b7b47dd702d9e331586d485013fd1eaa671ba75be745be4e18a27db94cf0f1df">MR_DistanceMeasurementObject_DistanceMode_xAbsolute</a> = 3
+<tr class="memitem:a866370df7c69a40c7d8780a42858651c" id="r_a866370df7c69a40c7d8780a42858651c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a866370df7c69a40c7d8780a42858651c">MR_DistanceMeasurementObject_DistanceMode</a> { <br />
+&#160;&#160;<a class="el" href="#a866370df7c69a40c7d8780a42858651ca3ec32fcc2ccdacdb04d65ee43385d391">MR_DistanceMeasurementObject_DistanceMode_euclidean</a> = 0
+, <a class="el" href="#a866370df7c69a40c7d8780a42858651cae3d4cf5a3a553ba06e5131faaffbbfc4">MR_DistanceMeasurementObject_DistanceMode_euclideanWithSignedDeltasPerAxis</a> = 1
+, <a class="el" href="#a866370df7c69a40c7d8780a42858651cafa1fc5830182c25082b2f77d01c454f8">MR_DistanceMeasurementObject_DistanceMode_euclideanWithAbsoluteDeltasPerAxis</a> = 2
+, <a class="el" href="#a866370df7c69a40c7d8780a42858651ca671ba75be745be4e18a27db94cf0f1df">MR_DistanceMeasurementObject_DistanceMode_xAbsolute</a> = 3
 , <br />
-&#160;&#160;<a class="el" href="#a6b7b47dd702d9e331586d485013fd1eaa85721f131d51bcffdea101027f22554c">MR_DistanceMeasurementObject_DistanceMode_yAbsolute</a> = 4
-, <a class="el" href="#a6b7b47dd702d9e331586d485013fd1eaa9a9f4bf4add0184ac833e55d72173abc">MR_DistanceMeasurementObject_DistanceMode_zAbsolute</a> = 5
+&#160;&#160;<a class="el" href="#a866370df7c69a40c7d8780a42858651ca85721f131d51bcffdea101027f22554c">MR_DistanceMeasurementObject_DistanceMode_yAbsolute</a> = 4
+, <a class="el" href="#a866370df7c69a40c7d8780a42858651ca9a9f4bf4add0184ac833e55d72173abc">MR_DistanceMeasurementObject_DistanceMode_zAbsolute</a> = 5
 <br />
  }</td></tr>
-<tr class="separator:a6b7b47dd702d9e331586d485013fd1ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a866370df7c69a40c7d8780a42858651c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -292,9 +291,9 @@ Functions</h2></td></tr>
 <tr class="separator:ac9792f1a163a5999f16cba51828ba221"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a688727fe1d985531097ee18f91b3ef24" id="r_a688727fe1d985531097ee18f91b3ef24"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a688727fe1d985531097ee18f91b3ef24">MR_DistanceMeasurementObject_setIsNegative</a> (<a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this, bool value)</td></tr>
 <tr class="separator:a688727fe1d985531097ee18f91b3ef24"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a24f53d448db98b308fdc53db69a8758e" id="r_a24f53d448db98b308fdc53db69a8758e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a6af58bb8f8050961e9a2e6486d2003f2">MR_DistanceMeasurementObject_DistanceMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a24f53d448db98b308fdc53db69a8758e">MR_DistanceMeasurementObject_getDistanceMode</a> (const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this)</td></tr>
+<tr class="memitem:a24f53d448db98b308fdc53db69a8758e" id="r_a24f53d448db98b308fdc53db69a8758e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a866370df7c69a40c7d8780a42858651c">MR_DistanceMeasurementObject_DistanceMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a24f53d448db98b308fdc53db69a8758e">MR_DistanceMeasurementObject_getDistanceMode</a> (const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this)</td></tr>
 <tr class="separator:a24f53d448db98b308fdc53db69a8758e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5820e60a0ae31a43a2b37b83e7d1a468" id="r_a5820e60a0ae31a43a2b37b83e7d1a468"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5820e60a0ae31a43a2b37b83e7d1a468">MR_DistanceMeasurementObject_setDistanceMode</a> (<a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this, <a class="el" href="#a6af58bb8f8050961e9a2e6486d2003f2">MR_DistanceMeasurementObject_DistanceMode</a> mode)</td></tr>
+<tr class="memitem:a5820e60a0ae31a43a2b37b83e7d1a468" id="r_a5820e60a0ae31a43a2b37b83e7d1a468"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5820e60a0ae31a43a2b37b83e7d1a468">MR_DistanceMeasurementObject_setDistanceMode</a> (<a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this, <a class="el" href="#a866370df7c69a40c7d8780a42858651c">MR_DistanceMeasurementObject_DistanceMode</a> mode)</td></tr>
 <tr class="separator:a5820e60a0ae31a43a2b37b83e7d1a468"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:accd2b73ecb5a61dd96c70c18bf1e61f0" id="r_accd2b73ecb5a61dd96c70c18bf1e61f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#accd2b73ecb5a61dd96c70c18bf1e61f0">MR_DistanceMeasurementObject_computeDistance</a> (const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *_this)</td></tr>
 <tr class="separator:accd2b73ecb5a61dd96c70c18bf1e61f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -333,14 +332,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a6af58bb8f8050961e9a2e6486d2003f2" name="a6af58bb8f8050961e9a2e6486d2003f2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6af58bb8f8050961e9a2e6486d2003f2">&#9670;&#160;</a></span>MR_DistanceMeasurementObject_DistanceMode</h2>
+<a id="a4dd17bdc5fce292c8a32d4fd04b03ad2" name="a4dd17bdc5fce292c8a32d4fd04b03ad2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4dd17bdc5fce292c8a32d4fd04b03ad2">&#9670;&#160;</a></span>MR_DistanceMeasurementObject_DistanceMode</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef int32_t <a class="el" href="#a6af58bb8f8050961e9a2e6486d2003f2">MR_DistanceMeasurementObject_DistanceMode</a></td>
+          <td class="memname">typedef enum <a class="el" href="#a866370df7c69a40c7d8780a42858651c">MR_DistanceMeasurementObject_DistanceMode</a> <a class="el" href="#a866370df7c69a40c7d8780a42858651c">MR_DistanceMeasurementObject_DistanceMode</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -544,24 +543,24 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a6b7b47dd702d9e331586d485013fd1ea" name="a6b7b47dd702d9e331586d485013fd1ea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6b7b47dd702d9e331586d485013fd1ea">&#9670;&#160;</a></span>anonymous enum</h2>
+<a id="a866370df7c69a40c7d8780a42858651c" name="a866370df7c69a40c7d8780a42858651c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a866370df7c69a40c7d8780a42858651c">&#9670;&#160;</a></span>MR_DistanceMeasurementObject_DistanceMode</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">anonymous enum</td>
+          <td class="memname">enum <a class="el" href="#a866370df7c69a40c7d8780a42858651c">MR_DistanceMeasurementObject_DistanceMode</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a6b7b47dd702d9e331586d485013fd1eaa3ec32fcc2ccdacdb04d65ee43385d391" name="a6b7b47dd702d9e331586d485013fd1eaa3ec32fcc2ccdacdb04d65ee43385d391"></a>MR_DistanceMeasurementObject_DistanceMode_euclidean&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a6b7b47dd702d9e331586d485013fd1eaae3d4cf5a3a553ba06e5131faaffbbfc4" name="a6b7b47dd702d9e331586d485013fd1eaae3d4cf5a3a553ba06e5131faaffbbfc4"></a>MR_DistanceMeasurementObject_DistanceMode_euclideanWithSignedDeltasPerAxis&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a6b7b47dd702d9e331586d485013fd1eaafa1fc5830182c25082b2f77d01c454f8" name="a6b7b47dd702d9e331586d485013fd1eaafa1fc5830182c25082b2f77d01c454f8"></a>MR_DistanceMeasurementObject_DistanceMode_euclideanWithAbsoluteDeltasPerAxis&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a6b7b47dd702d9e331586d485013fd1eaa671ba75be745be4e18a27db94cf0f1df" name="a6b7b47dd702d9e331586d485013fd1eaa671ba75be745be4e18a27db94cf0f1df"></a>MR_DistanceMeasurementObject_DistanceMode_xAbsolute&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a6b7b47dd702d9e331586d485013fd1eaa85721f131d51bcffdea101027f22554c" name="a6b7b47dd702d9e331586d485013fd1eaa85721f131d51bcffdea101027f22554c"></a>MR_DistanceMeasurementObject_DistanceMode_yAbsolute&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a6b7b47dd702d9e331586d485013fd1eaa9a9f4bf4add0184ac833e55d72173abc" name="a6b7b47dd702d9e331586d485013fd1eaa9a9f4bf4add0184ac833e55d72173abc"></a>MR_DistanceMeasurementObject_DistanceMode_zAbsolute&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a866370df7c69a40c7d8780a42858651ca3ec32fcc2ccdacdb04d65ee43385d391" name="a866370df7c69a40c7d8780a42858651ca3ec32fcc2ccdacdb04d65ee43385d391"></a>MR_DistanceMeasurementObject_DistanceMode_euclidean&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a866370df7c69a40c7d8780a42858651cae3d4cf5a3a553ba06e5131faaffbbfc4" name="a866370df7c69a40c7d8780a42858651cae3d4cf5a3a553ba06e5131faaffbbfc4"></a>MR_DistanceMeasurementObject_DistanceMode_euclideanWithSignedDeltasPerAxis&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a866370df7c69a40c7d8780a42858651cafa1fc5830182c25082b2f77d01c454f8" name="a866370df7c69a40c7d8780a42858651cafa1fc5830182c25082b2f77d01c454f8"></a>MR_DistanceMeasurementObject_DistanceMode_euclideanWithAbsoluteDeltasPerAxis&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a866370df7c69a40c7d8780a42858651ca671ba75be745be4e18a27db94cf0f1df" name="a866370df7c69a40c7d8780a42858651ca671ba75be745be4e18a27db94cf0f1df"></a>MR_DistanceMeasurementObject_DistanceMode_xAbsolute&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a866370df7c69a40c7d8780a42858651ca85721f131d51bcffdea101027f22554c" name="a866370df7c69a40c7d8780a42858651ca85721f131d51bcffdea101027f22554c"></a>MR_DistanceMeasurementObject_DistanceMode_yAbsolute&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a866370df7c69a40c7d8780a42858651ca9a9f4bf4add0184ac833e55d72173abc" name="a866370df7c69a40c7d8780a42858651ca9a9f4bf4add0184ac833e55d72173abc"></a>MR_DistanceMeasurementObject_DistanceMode_zAbsolute&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -917,7 +916,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a6af58bb8f8050961e9a2e6486d2003f2">MR_DistanceMeasurementObject_DistanceMode</a> MR_DistanceMeasurementObject_getDistanceMode </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a866370df7c69a40c7d8780a42858651c">MR_DistanceMeasurementObject_DistanceMode</a> MR_DistanceMeasurementObject_getDistanceMode </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a9185d6c78b24d67f65fff43bd4a336c3">MR_DistanceMeasurementObject</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1263,7 +1262,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#a6af58bb8f8050961e9a2e6486d2003f2">MR_DistanceMeasurementObject_DistanceMode</a></td>          <td class="paramname"><span class="paramname"><em>mode</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="#a866370df7c69a40c7d8780a42858651c">MR_DistanceMeasurementObject_DistanceMode</a></td>          <td class="paramname"><span class="paramname"><em>mode</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

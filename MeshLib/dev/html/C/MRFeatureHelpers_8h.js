@@ -1,7 +1,7 @@
 var MRFeatureHelpers_8h =
 [
     [ "MR_FeatureObject", "MRFeatureHelpers_8h.html#aff93746de8efe15fd5fa764838b71e9b", null ],
-    [ "MR_FeaturesObjectKind", "MRFeatureHelpers_8h.html#a08ba1d484424f7a3b034019721fd9a46", null ],
+    [ "MR_FeaturesObjectKind", "MRFeatureHelpers_8h.html#a1e0d5e4897988cd7170e5e9cf9cf2926", null ],
     [ "MR_ObjKindTraits_MR_FeaturesObjectKind_Circle", "MRFeatureHelpers_8h.html#aaf74f8eef6a303d13d3aff8d9f27b8fc", null ],
     [ "MR_ObjKindTraits_MR_FeaturesObjectKind_Cone", "MRFeatureHelpers_8h.html#afea6d10419fc916c21bc300359482759", null ],
     [ "MR_ObjKindTraits_MR_FeaturesObjectKind_Cylinder", "MRFeatureHelpers_8h.html#a936f08e04bc514d5999314e008235755", null ],
@@ -13,6 +13,16 @@ var MRFeatureHelpers_8h =
     [ "MR_std_shared_ptr_MR_VisualObject", "MRFeatureHelpers_8h.html#aa4b9828f4113d20d85483568f977c8ff", null ],
     [ "MR_std_string_view", "MRFeatureHelpers_8h.html#a169b2cb1c4b9a267fdcd4b388a456d37", null ],
     [ "MR_std_unordered_set_std_string", "MRFeatureHelpers_8h.html#aaa57d1ba166411d1c6f286286739d905", null ],
+    [ "MR_FeaturesObjectKind", "MRFeatureHelpers_8h.html#a27112dad4e290863cba866c44ac4c7fe", [
+      [ "MR_FeaturesObjectKind_Point", "MRFeatureHelpers_8h.html#a27112dad4e290863cba866c44ac4c7fea0db356fbdb019e20a09be9170816bf35", null ],
+      [ "MR_FeaturesObjectKind_Line", "MRFeatureHelpers_8h.html#a27112dad4e290863cba866c44ac4c7fea0c31e63565d9b85a3bfbbde817b88376", null ],
+      [ "MR_FeaturesObjectKind_Plane", "MRFeatureHelpers_8h.html#a27112dad4e290863cba866c44ac4c7fea3a63b9de41af83519aa61bfd2d3d8938", null ],
+      [ "MR_FeaturesObjectKind_Circle", "MRFeatureHelpers_8h.html#a27112dad4e290863cba866c44ac4c7fea840ac92ea29857ae5e83e3c8194caca6", null ],
+      [ "MR_FeaturesObjectKind_Sphere", "MRFeatureHelpers_8h.html#a27112dad4e290863cba866c44ac4c7feaef915e6db983c8ad4b968f65e3b1a6a7", null ],
+      [ "MR_FeaturesObjectKind_Cylinder", "MRFeatureHelpers_8h.html#a27112dad4e290863cba866c44ac4c7fea6f7287cb67c5c83facbff32288cb9948", null ],
+      [ "MR_FeaturesObjectKind_Cone", "MRFeatureHelpers_8h.html#a27112dad4e290863cba866c44ac4c7fea819372d0182d4e2f9567d8aa4bb25d27", null ],
+      [ "MR_FeaturesObjectKind__count", "MRFeatureHelpers_8h.html#a27112dad4e290863cba866c44ac4c7feaf22cb6638d0caa98ec76b27fae33b493", null ]
+    ] ],
     [ "MR_getFeatureDirection", "MRFeatureHelpers_8h.html#a0968517790e43ae5c02e7f825022ab4a", null ],
     [ "MR_getFeatureNormal", "MRFeatureHelpers_8h.html#adf3f3a320db3c8369cbd55e94b8dce9c", null ],
     [ "MR_getFeaturesTypeWithDirections", "MRFeatureHelpers_8h.html#a33b0b848585118f6bcf9a845f5382fad", null ],

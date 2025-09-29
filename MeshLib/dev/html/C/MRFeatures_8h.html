@@ -157,7 +157,6 @@ $(function(){initNavTree('MRFeatures_8h.html',''); initResizable(true); });
 <code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
-<code>#include &lt;stdint.h&gt;</code><br />
 </div>
 <p><a href="MRFeatures_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -196,8 +195,8 @@ Typedefs</h2></td></tr>
 <tr class="separator:a39b58207df022bb5fab425c6a19707d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3447b0e9a1f13a98f1ee73073ce4f29a" id="r_a3447b0e9a1f13a98f1ee73073ce4f29a"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a3447b0e9a1f13a98f1ee73073ce4f29a">MR_Features_MeasureResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3447b0e9a1f13a98f1ee73073ce4f29a">MR_Features_MeasureResult</a></td></tr>
 <tr class="separator:a3447b0e9a1f13a98f1ee73073ce4f29a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1791876d8b4888ad807a735db5c30648" id="r_a1791876d8b4888ad807a735db5c30648"><td class="memItemLeft" align="right" valign="top">typedef int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1791876d8b4888ad807a735db5c30648">MR_Features_MeasureResult_Status</a></td></tr>
-<tr class="separator:a1791876d8b4888ad807a735db5c30648"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadf370b8e5e1b34a985b25b91a68f171" id="r_aadf370b8e5e1b34a985b25b91a68f171"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#a67c95ec0c15eaa868b73681ab0fc7c53">MR_Features_MeasureResult_Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aadf370b8e5e1b34a985b25b91a68f171">MR_Features_MeasureResult_Status</a></td></tr>
+<tr class="separator:aadf370b8e5e1b34a985b25b91a68f171"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8eb06d4b6cb7617bbe5b9543b753a1a9" id="r_a8eb06d4b6cb7617bbe5b9543b753a1a9"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a8eb06d4b6cb7617bbe5b9543b753a1a9">MR_Features_MeasureResult_BasicPart</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8eb06d4b6cb7617bbe5b9543b753a1a9">MR_Features_MeasureResult_BasicPart</a></td></tr>
 <tr class="separator:a8eb06d4b6cb7617bbe5b9543b753a1a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a215b95ccd1a4c5ef3ad0fde9a5566ce9" id="r_a215b95ccd1a4c5ef3ad0fde9a5566ce9"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a215b95ccd1a4c5ef3ad0fde9a5566ce9">MR_Features_MeasureResult_Distance</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a215b95ccd1a4c5ef3ad0fde9a5566ce9">MR_Features_MeasureResult_Distance</a></td></tr>
@@ -234,16 +233,16 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a4790f45dcc812c1b00184a2edccdddf5" id="r_a4790f45dcc812c1b00184a2edccdddf5"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
-&#160;&#160;<a class="el" href="#a4790f45dcc812c1b00184a2edccdddf5ac55a29990f97a53dcb557ed428663a99">MR_Features_MeasureResult_Status_ok</a> = 0
-, <a class="el" href="#a4790f45dcc812c1b00184a2edccdddf5a63936d942addd46e0ec02e1f32af1b48">MR_Features_MeasureResult_Status_notImplemented</a> = 1
-, <a class="el" href="#a4790f45dcc812c1b00184a2edccdddf5ab8d88756859b2dbe37e620f571a5bc70">MR_Features_MeasureResult_Status_badFeaturePair</a> = 2
-, <a class="el" href="#a4790f45dcc812c1b00184a2edccdddf5a052222199e20cf51d5da4694803a10a7">MR_Features_MeasureResult_Status_badRelativeLocation</a> = 3
+<tr class="memitem:a67c95ec0c15eaa868b73681ab0fc7c53" id="r_a67c95ec0c15eaa868b73681ab0fc7c53"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67c95ec0c15eaa868b73681ab0fc7c53">MR_Features_MeasureResult_Status</a> { <br />
+&#160;&#160;<a class="el" href="#a67c95ec0c15eaa868b73681ab0fc7c53ac55a29990f97a53dcb557ed428663a99">MR_Features_MeasureResult_Status_ok</a> = 0
+, <a class="el" href="#a67c95ec0c15eaa868b73681ab0fc7c53a63936d942addd46e0ec02e1f32af1b48">MR_Features_MeasureResult_Status_notImplemented</a> = 1
+, <a class="el" href="#a67c95ec0c15eaa868b73681ab0fc7c53ab8d88756859b2dbe37e620f571a5bc70">MR_Features_MeasureResult_Status_badFeaturePair</a> = 2
+, <a class="el" href="#a67c95ec0c15eaa868b73681ab0fc7c53a052222199e20cf51d5da4694803a10a7">MR_Features_MeasureResult_Status_badRelativeLocation</a> = 3
 , <br />
-&#160;&#160;<a class="el" href="#a4790f45dcc812c1b00184a2edccdddf5a03cd13cc558511519c2277507f359529">MR_Features_MeasureResult_Status_notFinite</a> = 4
+&#160;&#160;<a class="el" href="#a67c95ec0c15eaa868b73681ab0fc7c53a03cd13cc558511519c2277507f359529">MR_Features_MeasureResult_Status_notFinite</a> = 4
 <br />
  }</td></tr>
-<tr class="separator:a4790f45dcc812c1b00184a2edccdddf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a67c95ec0c15eaa868b73681ab0fc7c53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -455,17 +454,17 @@ Functions</h2></td></tr>
 <tr class="separator:abe077dc1ca6caf24026e0ab51b40b126"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa990927965280df89b0c86eee842f321" id="r_aa990927965280df89b0c86eee842f321"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa990927965280df89b0c86eee842f321">MR_Features_MeasureResult_swapObjects</a> (<a class="el" href="#a3447b0e9a1f13a98f1ee73073ce4f29a">MR_Features_MeasureResult</a> *_this)</td></tr>
 <tr class="separator:aa990927965280df89b0c86eee842f321"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc8930d9f5f2b5d0bbc20b986dca3f2e" id="r_abc8930d9f5f2b5d0bbc20b986dca3f2e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a1791876d8b4888ad807a735db5c30648">MR_Features_MeasureResult_Status</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc8930d9f5f2b5d0bbc20b986dca3f2e">MR_Features_MeasureResult_BasicPart_Get_status</a> (const <a class="el" href="#a8eb06d4b6cb7617bbe5b9543b753a1a9">MR_Features_MeasureResult_BasicPart</a> *_this)</td></tr>
+<tr class="memitem:abc8930d9f5f2b5d0bbc20b986dca3f2e" id="r_abc8930d9f5f2b5d0bbc20b986dca3f2e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a67c95ec0c15eaa868b73681ab0fc7c53">MR_Features_MeasureResult_Status</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc8930d9f5f2b5d0bbc20b986dca3f2e">MR_Features_MeasureResult_BasicPart_Get_status</a> (const <a class="el" href="#a8eb06d4b6cb7617bbe5b9543b753a1a9">MR_Features_MeasureResult_BasicPart</a> *_this)</td></tr>
 <tr class="separator:abc8930d9f5f2b5d0bbc20b986dca3f2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff18f6965bdca787a0dd9763c592f352" id="r_aff18f6965bdca787a0dd9763c592f352"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff18f6965bdca787a0dd9763c592f352">MR_Features_MeasureResult_BasicPart_Set_status</a> (<a class="el" href="#a8eb06d4b6cb7617bbe5b9543b753a1a9">MR_Features_MeasureResult_BasicPart</a> *_this, <a class="el" href="#a1791876d8b4888ad807a735db5c30648">MR_Features_MeasureResult_Status</a> value)</td></tr>
+<tr class="memitem:aff18f6965bdca787a0dd9763c592f352" id="r_aff18f6965bdca787a0dd9763c592f352"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff18f6965bdca787a0dd9763c592f352">MR_Features_MeasureResult_BasicPart_Set_status</a> (<a class="el" href="#a8eb06d4b6cb7617bbe5b9543b753a1a9">MR_Features_MeasureResult_BasicPart</a> *_this, <a class="el" href="#a67c95ec0c15eaa868b73681ab0fc7c53">MR_Features_MeasureResult_Status</a> value)</td></tr>
 <tr class="separator:aff18f6965bdca787a0dd9763c592f352"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa54f56d68ca33b6f4a701cdb485abec9" id="r_aa54f56d68ca33b6f4a701cdb485abec9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a1791876d8b4888ad807a735db5c30648">MR_Features_MeasureResult_Status</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa54f56d68ca33b6f4a701cdb485abec9">MR_Features_MeasureResult_BasicPart_GetMutable_status</a> (<a class="el" href="#a8eb06d4b6cb7617bbe5b9543b753a1a9">MR_Features_MeasureResult_BasicPart</a> *_this)</td></tr>
+<tr class="memitem:aa54f56d68ca33b6f4a701cdb485abec9" id="r_aa54f56d68ca33b6f4a701cdb485abec9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a67c95ec0c15eaa868b73681ab0fc7c53">MR_Features_MeasureResult_Status</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa54f56d68ca33b6f4a701cdb485abec9">MR_Features_MeasureResult_BasicPart_GetMutable_status</a> (<a class="el" href="#a8eb06d4b6cb7617bbe5b9543b753a1a9">MR_Features_MeasureResult_BasicPart</a> *_this)</td></tr>
 <tr class="separator:aa54f56d68ca33b6f4a701cdb485abec9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae62877593ac2b0d8a63b088bd4a70fde" id="r_ae62877593ac2b0d8a63b088bd4a70fde"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a8eb06d4b6cb7617bbe5b9543b753a1a9">MR_Features_MeasureResult_BasicPart</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae62877593ac2b0d8a63b088bd4a70fde">MR_Features_MeasureResult_BasicPart_DefaultConstruct</a> (void)</td></tr>
 <tr class="separator:ae62877593ac2b0d8a63b088bd4a70fde"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6b795ed064ab095e54c4a2b58c181c7" id="r_ae6b795ed064ab095e54c4a2b58c181c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a8eb06d4b6cb7617bbe5b9543b753a1a9">MR_Features_MeasureResult_BasicPart</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6b795ed064ab095e54c4a2b58c181c7">MR_Features_MeasureResult_BasicPart_DefaultConstructArray</a> (size_t num_elems)</td></tr>
 <tr class="separator:ae6b795ed064ab095e54c4a2b58c181c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7ede92e6ab39beadbcdda0b015e2349" id="r_ac7ede92e6ab39beadbcdda0b015e2349"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a8eb06d4b6cb7617bbe5b9543b753a1a9">MR_Features_MeasureResult_BasicPart</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7ede92e6ab39beadbcdda0b015e2349">MR_Features_MeasureResult_BasicPart_ConstructFrom</a> (<a class="el" href="#a1791876d8b4888ad807a735db5c30648">MR_Features_MeasureResult_Status</a> status)</td></tr>
+<tr class="memitem:ac7ede92e6ab39beadbcdda0b015e2349" id="r_ac7ede92e6ab39beadbcdda0b015e2349"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a8eb06d4b6cb7617bbe5b9543b753a1a9">MR_Features_MeasureResult_BasicPart</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7ede92e6ab39beadbcdda0b015e2349">MR_Features_MeasureResult_BasicPart_ConstructFrom</a> (<a class="el" href="#a67c95ec0c15eaa868b73681ab0fc7c53">MR_Features_MeasureResult_Status</a> status)</td></tr>
 <tr class="separator:ac7ede92e6ab39beadbcdda0b015e2349"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f4a72f591ac528e6355befb0f80aca4" id="r_a8f4a72f591ac528e6355befb0f80aca4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a8eb06d4b6cb7617bbe5b9543b753a1a9">MR_Features_MeasureResult_BasicPart</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f4a72f591ac528e6355befb0f80aca4">MR_Features_MeasureResult_BasicPart_OffsetPtr</a> (const <a class="el" href="#a8eb06d4b6cb7617bbe5b9543b753a1a9">MR_Features_MeasureResult_BasicPart</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:a8f4a72f591ac528e6355befb0f80aca4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
@@ -538,10 +537,10 @@ Functions</h2></td></tr>
 <tr class="separator:a312fb9368ba80fe19a441961883c6a91"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42c32d2d5fd95c288b3b438f0b3852de" id="r_a42c32d2d5fd95c288b3b438f0b3852de"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42c32d2d5fd95c288b3b438f0b3852de">MR_Features_MeasureResult_Distance_closestPointFor</a> (const <a class="el" href="#a215b95ccd1a4c5ef3ad0fde9a5566ce9">MR_Features_MeasureResult_Distance</a> *_this, bool b)</td></tr>
 <tr class="separator:a42c32d2d5fd95c288b3b438f0b3852de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a564f50dc26bb3c33b0625d80e55e3f13" id="r_a564f50dc26bb3c33b0625d80e55e3f13"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a564f50dc26bb3c33b0625d80e55e3f13">MR_Features_MeasureResult_Distance_distanceAlongAxis</a> (const <a class="el" href="#a215b95ccd1a4c5ef3ad0fde9a5566ce9">MR_Features_MeasureResult_Distance</a> *_this, int32_t i)</td></tr>
-<tr class="separator:a564f50dc26bb3c33b0625d80e55e3f13"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b53ccd727057cd0286d049c652f83e9" id="r_a0b53ccd727057cd0286d049c652f83e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b53ccd727057cd0286d049c652f83e9">MR_Features_MeasureResult_Distance_distanceAlongAxisAbs</a> (const <a class="el" href="#a215b95ccd1a4c5ef3ad0fde9a5566ce9">MR_Features_MeasureResult_Distance</a> *_this, int32_t i)</td></tr>
-<tr class="separator:a0b53ccd727057cd0286d049c652f83e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a43c16fda43c06268f55f0251bfc96d" id="r_a2a43c16fda43c06268f55f0251bfc96d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a43c16fda43c06268f55f0251bfc96d">MR_Features_MeasureResult_Distance_distanceAlongAxis</a> (const <a class="el" href="#a215b95ccd1a4c5ef3ad0fde9a5566ce9">MR_Features_MeasureResult_Distance</a> *_this, int i)</td></tr>
+<tr class="separator:a2a43c16fda43c06268f55f0251bfc96d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7785af7a625ccaf59836d4086e312ac0" id="r_a7785af7a625ccaf59836d4086e312ac0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7785af7a625ccaf59836d4086e312ac0">MR_Features_MeasureResult_Distance_distanceAlongAxisAbs</a> (const <a class="el" href="#a215b95ccd1a4c5ef3ad0fde9a5566ce9">MR_Features_MeasureResult_Distance</a> *_this, int i)</td></tr>
+<tr class="separator:a7785af7a625ccaf59836d4086e312ac0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a10ca712cf76345a67d0d27a6292ad7bd" id="r_a10ca712cf76345a67d0d27a6292ad7bd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10ca712cf76345a67d0d27a6292ad7bd">MR_Features_MeasureResult_Angle_Get_pointA</a> (const <a class="el" href="#ad66d30b0f5fc1048949a7a5dfadb69ca">MR_Features_MeasureResult_Angle</a> *_this)</td></tr>
 <tr class="separator:a10ca712cf76345a67d0d27a6292ad7bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad1a07c239647828822d4a037fede936a" id="r_ad1a07c239647828822d4a037fede936a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1a07c239647828822d4a037fede936a">MR_Features_MeasureResult_Angle_Set_pointA</a> (<a class="el" href="#ad66d30b0f5fc1048949a7a5dfadb69ca">MR_Features_MeasureResult_Angle</a> *_this, <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> value)</td></tr>
@@ -611,7 +610,7 @@ Functions</h2></td></tr>
 <tr class="separator:a7a33d4d06110387c060de12762420ee4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7b0afda4d38e0e9b8bfe0ac26301f6fa" id="r_a7b0afda4d38e0e9b8bfe0ac26301f6fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b0afda4d38e0e9b8bfe0ac26301f6fa">MR_Features_MeasureResult_Angle_computeAngleInRadians</a> (const <a class="el" href="#ad66d30b0f5fc1048949a7a5dfadb69ca">MR_Features_MeasureResult_Angle</a> *_this)</td></tr>
 <tr class="separator:a7b0afda4d38e0e9b8bfe0ac26301f6fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad840653bea70ccb791e8d64549a274c5" id="r_ad840653bea70ccb791e8d64549a274c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRDistanceMeasurementObject_8h.html#a169b2cb1c4b9a267fdcd4b388a456d37">MR_std_string_view</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad840653bea70ccb791e8d64549a274c5">MR_Features_toString</a> (<a class="el" href="#a1791876d8b4888ad807a735db5c30648">MR_Features_MeasureResult_Status</a> status)</td></tr>
+<tr class="memitem:ad840653bea70ccb791e8d64549a274c5" id="r_ad840653bea70ccb791e8d64549a274c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRDistanceMeasurementObject_8h.html#a169b2cb1c4b9a267fdcd4b388a456d37">MR_std_string_view</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad840653bea70ccb791e8d64549a274c5">MR_Features_toString</a> (<a class="el" href="#a67c95ec0c15eaa868b73681ab0fc7c53">MR_Features_MeasureResult_Status</a> status)</td></tr>
 <tr class="separator:ad840653bea70ccb791e8d64549a274c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ada0deaa66e6ffedec3e0204445bd9a80" id="r_ada0deaa66e6ffedec3e0204445bd9a80"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a61a148423f83f3019e73e12d5cb993c4">MR_Features_Traits_Unary_MR_Sphere3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada0deaa66e6ffedec3e0204445bd9a80">MR_Features_Traits_Unary_MR_Sphere3f_DefaultConstruct</a> (void)</td></tr>
 <tr class="separator:ada0deaa66e6ffedec3e0204445bd9a80"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -919,14 +918,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a1791876d8b4888ad807a735db5c30648" name="a1791876d8b4888ad807a735db5c30648"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1791876d8b4888ad807a735db5c30648">&#9670;&#160;</a></span>MR_Features_MeasureResult_Status</h2>
+<a id="aadf370b8e5e1b34a985b25b91a68f171" name="aadf370b8e5e1b34a985b25b91a68f171"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aadf370b8e5e1b34a985b25b91a68f171">&#9670;&#160;</a></span>MR_Features_MeasureResult_Status</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef int32_t <a class="el" href="#a1791876d8b4888ad807a735db5c30648">MR_Features_MeasureResult_Status</a></td>
+          <td class="memname">typedef enum <a class="el" href="#a67c95ec0c15eaa868b73681ab0fc7c53">MR_Features_MeasureResult_Status</a> <a class="el" href="#a67c95ec0c15eaa868b73681ab0fc7c53">MR_Features_MeasureResult_Status</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1249,26 +1248,26 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a4790f45dcc812c1b00184a2edccdddf5" name="a4790f45dcc812c1b00184a2edccdddf5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4790f45dcc812c1b00184a2edccdddf5">&#9670;&#160;</a></span>anonymous enum</h2>
+<a id="a67c95ec0c15eaa868b73681ab0fc7c53" name="a67c95ec0c15eaa868b73681ab0fc7c53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67c95ec0c15eaa868b73681ab0fc7c53">&#9670;&#160;</a></span>MR_Features_MeasureResult_Status</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">anonymous enum</td>
+          <td class="memname">enum <a class="el" href="#a67c95ec0c15eaa868b73681ab0fc7c53">MR_Features_MeasureResult_Status</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a4790f45dcc812c1b00184a2edccdddf5ac55a29990f97a53dcb557ed428663a99" name="a4790f45dcc812c1b00184a2edccdddf5ac55a29990f97a53dcb557ed428663a99"></a>MR_Features_MeasureResult_Status_ok&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4790f45dcc812c1b00184a2edccdddf5a63936d942addd46e0ec02e1f32af1b48" name="a4790f45dcc812c1b00184a2edccdddf5a63936d942addd46e0ec02e1f32af1b48"></a>MR_Features_MeasureResult_Status_notImplemented&#160;</td><td class="fielddoc"><p>Algorithms set this if this when something isn't yet implemented. </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a67c95ec0c15eaa868b73681ab0fc7c53ac55a29990f97a53dcb557ed428663a99" name="a67c95ec0c15eaa868b73681ab0fc7c53ac55a29990f97a53dcb557ed428663a99"></a>MR_Features_MeasureResult_Status_ok&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a67c95ec0c15eaa868b73681ab0fc7c53a63936d942addd46e0ec02e1f32af1b48" name="a67c95ec0c15eaa868b73681ab0fc7c53a63936d942addd46e0ec02e1f32af1b48"></a>MR_Features_MeasureResult_Status_notImplemented&#160;</td><td class="fielddoc"><p>Algorithms set this if this when something isn't yet implemented. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a4790f45dcc812c1b00184a2edccdddf5ab8d88756859b2dbe37e620f571a5bc70" name="a4790f45dcc812c1b00184a2edccdddf5ab8d88756859b2dbe37e620f571a5bc70"></a>MR_Features_MeasureResult_Status_badFeaturePair&#160;</td><td class="fielddoc"><p>Algorithms set this when the calculation doesn't make sense for those object types. This result can be based on object parameters, but not on their relative location. </p>
+<tr><td class="fieldname"><a id="a67c95ec0c15eaa868b73681ab0fc7c53ab8d88756859b2dbe37e620f571a5bc70" name="a67c95ec0c15eaa868b73681ab0fc7c53ab8d88756859b2dbe37e620f571a5bc70"></a>MR_Features_MeasureResult_Status_badFeaturePair&#160;</td><td class="fielddoc"><p>Algorithms set this when the calculation doesn't make sense for those object types. This result can be based on object parameters, but not on their relative location. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a4790f45dcc812c1b00184a2edccdddf5a052222199e20cf51d5da4694803a10a7" name="a4790f45dcc812c1b00184a2edccdddf5a052222199e20cf51d5da4694803a10a7"></a>MR_Features_MeasureResult_Status_badRelativeLocation&#160;</td><td class="fielddoc"><p>Can't be computed because of how the objects are located relative to each other. </p>
+<tr><td class="fieldname"><a id="a67c95ec0c15eaa868b73681ab0fc7c53a052222199e20cf51d5da4694803a10a7" name="a67c95ec0c15eaa868b73681ab0fc7c53a052222199e20cf51d5da4694803a10a7"></a>MR_Features_MeasureResult_Status_badRelativeLocation&#160;</td><td class="fielddoc"><p>Can't be computed because of how the objects are located relative to each other. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a4790f45dcc812c1b00184a2edccdddf5a03cd13cc558511519c2277507f359529" name="a4790f45dcc812c1b00184a2edccdddf5a03cd13cc558511519c2277507f359529"></a>MR_Features_MeasureResult_Status_notFinite&#160;</td><td class="fielddoc"><p>The result was not finite. This is set automatically if you return non-finite values, but you can also set this manually. </p>
+<tr><td class="fieldname"><a id="a67c95ec0c15eaa868b73681ab0fc7c53a03cd13cc558511519c2277507f359529" name="a67c95ec0c15eaa868b73681ab0fc7c53a03cd13cc558511519c2277507f359529"></a>MR_Features_MeasureResult_Status_notFinite&#160;</td><td class="fielddoc"><p>The result was not finite. This is set automatically if you return non-finite values, but you can also set this manually. </p>
 </td></tr>
 </table>
 
@@ -2028,7 +2027,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a8eb06d4b6cb7617bbe5b9543b753a1a9">MR_Features_MeasureResult_BasicPart</a> * MR_Features_MeasureResult_BasicPart_ConstructFrom </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#a1791876d8b4888ad807a735db5c30648">MR_Features_MeasureResult_Status</a></td>          <td class="paramname"><span class="paramname"><em>status</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="#a67c95ec0c15eaa868b73681ab0fc7c53">MR_Features_MeasureResult_Status</a></td>          <td class="paramname"><span class="paramname"><em>status</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -2154,7 +2153,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a1791876d8b4888ad807a735db5c30648">MR_Features_MeasureResult_Status</a> * MR_Features_MeasureResult_BasicPart_Get_status </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a67c95ec0c15eaa868b73681ab0fc7c53">MR_Features_MeasureResult_Status</a> * MR_Features_MeasureResult_BasicPart_Get_status </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a8eb06d4b6cb7617bbe5b9543b753a1a9">MR_Features_MeasureResult_BasicPart</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -2172,7 +2171,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a1791876d8b4888ad807a735db5c30648">MR_Features_MeasureResult_Status</a> * MR_Features_MeasureResult_BasicPart_GetMutable_status </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a67c95ec0c15eaa868b73681ab0fc7c53">MR_Features_MeasureResult_Status</a> * MR_Features_MeasureResult_BasicPart_GetMutable_status </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a8eb06d4b6cb7617bbe5b9543b753a1a9">MR_Features_MeasureResult_BasicPart</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -2279,7 +2278,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#a1791876d8b4888ad807a735db5c30648">MR_Features_MeasureResult_Status</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="#a67c95ec0c15eaa868b73681ab0fc7c53">MR_Features_MeasureResult_Status</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2592,8 +2591,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a564f50dc26bb3c33b0625d80e55e3f13" name="a564f50dc26bb3c33b0625d80e55e3f13"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a564f50dc26bb3c33b0625d80e55e3f13">&#9670;&#160;</a></span>MR_Features_MeasureResult_Distance_distanceAlongAxis()</h2>
+<a id="a2a43c16fda43c06268f55f0251bfc96d" name="a2a43c16fda43c06268f55f0251bfc96d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a43c16fda43c06268f55f0251bfc96d">&#9670;&#160;</a></span>MR_Features_MeasureResult_Distance_distanceAlongAxis()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2606,7 +2605,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2614,8 +2613,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a0b53ccd727057cd0286d049c652f83e9" name="a0b53ccd727057cd0286d049c652f83e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0b53ccd727057cd0286d049c652f83e9">&#9670;&#160;</a></span>MR_Features_MeasureResult_Distance_distanceAlongAxisAbs()</h2>
+<a id="a7785af7a625ccaf59836d4086e312ac0" name="a7785af7a625ccaf59836d4086e312ac0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7785af7a625ccaf59836d4086e312ac0">&#9670;&#160;</a></span>MR_Features_MeasureResult_Distance_distanceAlongAxisAbs()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2628,7 +2627,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4637,7 +4636,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRDistanceMeasurementObject_8h.html#a169b2cb1c4b9a267fdcd4b388a456d37">MR_std_string_view</a> * MR_Features_toString </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#a1791876d8b4888ad807a735db5c30648">MR_Features_MeasureResult_Status</a></td>          <td class="paramname"><span class="paramname"><em>status</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="#a67c95ec0c15eaa868b73681ab0fc7c53">MR_Features_MeasureResult_Status</a></td>          <td class="paramname"><span class="paramname"><em>status</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>

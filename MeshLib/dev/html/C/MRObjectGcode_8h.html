@@ -156,7 +156,6 @@ $(function(){initNavTree('MRObjectGcode_8h.html',''); initResizable(true); });
 <code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
-<code>#include &lt;stdint.h&gt;</code><br />
 </div>
 <p><a href="MRObjectGcode_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -182,8 +181,8 @@ Typedefs</h2></td></tr>
 <tr class="separator:a69dc6868c10c92fb8b8a255b0130d289"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac9be9ae97af22d55be76e6cf4df34f8a" id="r_ac9be9ae97af22d55be76e6cf4df34f8a"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRGcodeProcessor_8h.html#ac9be9ae97af22d55be76e6cf4df34f8a">MR_std_vector_MR_GcodeProcessor_MoveAction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac9be9ae97af22d55be76e6cf4df34f8a">MR_std_vector_MR_GcodeProcessor_MoveAction</a></td></tr>
 <tr class="separator:ac9be9ae97af22d55be76e6cf4df34f8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3f10f6b559b293d87a6320a3b17ccc6" id="r_af3f10f6b559b293d87a6320a3b17ccc6"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRIntersectionContour_8h.html#af3f10f6b559b293d87a6320a3b17ccc6">MR_std_vector_int32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3f10f6b559b293d87a6320a3b17ccc6">MR_std_vector_int32_t</a></td></tr>
-<tr class="separator:af3f10f6b559b293d87a6320a3b17ccc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39843253e49249719b6defbb7948aa79" id="r_a39843253e49249719b6defbb7948aa79"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRIntersectionContour_8h.html#a39843253e49249719b6defbb7948aa79">MR_std_vector_int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a39843253e49249719b6defbb7948aa79">MR_std_vector_int</a></td></tr>
+<tr class="separator:a39843253e49249719b6defbb7948aa79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab26d333cd7549e6f3f49cc80e3ba5900" id="r_ab26d333cd7549e6f3f49cc80e3ba5900"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRPdf_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a></td></tr>
 <tr class="separator:ab26d333cd7549e6f3f49cc80e3ba5900"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af23a4f0a386adc3ab051268483b937da" id="r_af23a4f0a386adc3ab051268483b937da"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a></td></tr>
@@ -260,10 +259,10 @@ Functions</h2></td></tr>
 <tr class="separator:a3fde7373ddc829b91a44a008375aff2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf716618128ea90bc4f1dff6e9976304" id="r_aaf716618128ea90bc4f1dff6e9976304"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRGcodeProcessor_8h.html#ac9be9ae97af22d55be76e6cf4df34f8a">MR_std_vector_MR_GcodeProcessor_MoveAction</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf716618128ea90bc4f1dff6e9976304">MR_ObjectGcode_actionList</a> (const <a class="el" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *_this)</td></tr>
 <tr class="separator:aaf716618128ea90bc4f1dff6e9976304"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04b9af581a1212624606a92425875588" id="r_a04b9af581a1212624606a92425875588"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRIntersectionContour_8h.html#af3f10f6b559b293d87a6320a3b17ccc6">MR_std_vector_int32_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04b9af581a1212624606a92425875588">MR_ObjectGcode_segmentToSourceLineMap</a> (const <a class="el" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *_this)</td></tr>
-<tr class="separator:a04b9af581a1212624606a92425875588"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a262acbcc54184f849cb9897ca39aede5" id="r_a262acbcc54184f849cb9897ca39aede5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a262acbcc54184f849cb9897ca39aede5">MR_ObjectGcode_setDirtyFlags</a> (<a class="el" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *_this, uint32_t mask, const bool *invalidateCaches)</td></tr>
-<tr class="separator:a262acbcc54184f849cb9897ca39aede5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26ef3a9ab32d260d71f1b7989904a4ff" id="r_a26ef3a9ab32d260d71f1b7989904a4ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRIntersectionContour_8h.html#a39843253e49249719b6defbb7948aa79">MR_std_vector_int</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a26ef3a9ab32d260d71f1b7989904a4ff">MR_ObjectGcode_segmentToSourceLineMap</a> (const <a class="el" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *_this)</td></tr>
+<tr class="separator:a26ef3a9ab32d260d71f1b7989904a4ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cff24bf0d815f42d51e5dcd3f8a8621" id="r_a2cff24bf0d815f42d51e5dcd3f8a8621"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2cff24bf0d815f42d51e5dcd3f8a8621">MR_ObjectGcode_setDirtyFlags</a> (<a class="el" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *_this, unsigned int mask, const bool *invalidateCaches)</td></tr>
+<tr class="separator:a2cff24bf0d815f42d51e5dcd3f8a8621"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb8062120f73ffbe0522e48f68aee869" id="r_aeb8062120f73ffbe0522e48f68aee869"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRPdf_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb8062120f73ffbe0522e48f68aee869">MR_ObjectGcode_getInfoLines</a> (const <a class="el" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *_this)</td></tr>
 <tr class="separator:aeb8062120f73ffbe0522e48f68aee869"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab4c502a2b0a897256f9592cc0fb816de" id="r_ab4c502a2b0a897256f9592cc0fb816de"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4c502a2b0a897256f9592cc0fb816de">MR_ObjectGcode_switchFeedrateGradient</a> (<a class="el" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *_this, bool isFeedrateGradientEnabled)</td></tr>
@@ -409,14 +408,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="af3f10f6b559b293d87a6320a3b17ccc6" name="af3f10f6b559b293d87a6320a3b17ccc6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af3f10f6b559b293d87a6320a3b17ccc6">&#9670;&#160;</a></span>MR_std_vector_int32_t</h2>
+<a id="a39843253e49249719b6defbb7948aa79" name="a39843253e49249719b6defbb7948aa79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39843253e49249719b6defbb7948aa79">&#9670;&#160;</a></span>MR_std_vector_int</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef struct <a class="el" href="MRIntersectionContour_8h.html#af3f10f6b559b293d87a6320a3b17ccc6">MR_std_vector_int32_t</a> <a class="el" href="MRIntersectionContour_8h.html#af3f10f6b559b293d87a6320a3b17ccc6">MR_std_vector_int32_t</a></td>
+          <td class="memname">typedef struct <a class="el" href="MRIntersectionContour_8h.html#a39843253e49249719b6defbb7948aa79">MR_std_vector_int</a> <a class="el" href="MRIntersectionContour_8h.html#a39843253e49249719b6defbb7948aa79">MR_std_vector_int</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -929,14 +928,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a04b9af581a1212624606a92425875588" name="a04b9af581a1212624606a92425875588"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a04b9af581a1212624606a92425875588">&#9670;&#160;</a></span>MR_ObjectGcode_segmentToSourceLineMap()</h2>
+<a id="a26ef3a9ab32d260d71f1b7989904a4ff" name="a26ef3a9ab32d260d71f1b7989904a4ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26ef3a9ab32d260d71f1b7989904a4ff">&#9670;&#160;</a></span>MR_ObjectGcode_segmentToSourceLineMap()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRIntersectionContour_8h.html#af3f10f6b559b293d87a6320a3b17ccc6">MR_std_vector_int32_t</a> * MR_ObjectGcode_segmentToSourceLineMap </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRIntersectionContour_8h.html#a39843253e49249719b6defbb7948aa79">MR_std_vector_int</a> * MR_ObjectGcode_segmentToSourceLineMap </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRObject_8h.html#af23a4f0a386adc3ab051268483b937da">MR_ObjectGcode</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -991,8 +990,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a262acbcc54184f849cb9897ca39aede5" name="a262acbcc54184f849cb9897ca39aede5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a262acbcc54184f849cb9897ca39aede5">&#9670;&#160;</a></span>MR_ObjectGcode_setDirtyFlags()</h2>
+<a id="a2cff24bf0d815f42d51e5dcd3f8a8621" name="a2cff24bf0d815f42d51e5dcd3f8a8621"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2cff24bf0d815f42d51e5dcd3f8a8621">&#9670;&#160;</a></span>MR_ObjectGcode_setDirtyFlags()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1005,7 +1004,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>mask</em></span>, </td>
+          <td class="paramtype">unsigned int</td>          <td class="paramname"><span class="paramname"><em>mask</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

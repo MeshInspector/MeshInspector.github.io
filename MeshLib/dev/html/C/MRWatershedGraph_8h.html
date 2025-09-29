@@ -156,7 +156,6 @@ $(function(){initNavTree('MRWatershedGraph_8h.html',''); initResizable(true); })
 <code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
-<code>#include &lt;stdint.h&gt;</code><br />
 </div>
 <p><a href="MRWatershedGraph_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -174,8 +173,8 @@ Typedefs</h2></td></tr>
 <tr class="separator:a4e5a7cc8670588a2b2921a48cd85beee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aadf36a7d4ab7b262835d20da5403b847" id="r_aadf36a7d4ab7b262835d20da5403b847"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRBitSet_8h.html#aadf36a7d4ab7b262835d20da5403b847">MR_Vector_MR_GraphVertId_MR_GraphVertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aadf36a7d4ab7b262835d20da5403b847">MR_Vector_MR_GraphVertId_MR_GraphVertId</a></td></tr>
 <tr class="separator:aadf36a7d4ab7b262835d20da5403b847"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aed25c41d6776e629faba1105169bcd88" id="r_aed25c41d6776e629faba1105169bcd88"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRVector_8h.html#aed25c41d6776e629faba1105169bcd88">MR_Vector_int32_t_MR_FaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed25c41d6776e629faba1105169bcd88">MR_Vector_int32_t_MR_FaceId</a></td></tr>
-<tr class="separator:aed25c41d6776e629faba1105169bcd88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cecbe6d6abe0a304f00ea1990538db2" id="r_a4cecbe6d6abe0a304f00ea1990538db2"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRVector_8h.html#a4cecbe6d6abe0a304f00ea1990538db2">MR_Vector_int_MR_FaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4cecbe6d6abe0a304f00ea1990538db2">MR_Vector_int_MR_FaceId</a></td></tr>
+<tr class="separator:a4cecbe6d6abe0a304f00ea1990538db2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab889caeae0badb9df54c8b243b1f9597" id="r_ab889caeae0badb9df54c8b243b1f9597"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ab889caeae0badb9df54c8b243b1f9597">MR_std_pair_MR_GraphEdgeId_float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab889caeae0badb9df54c8b243b1f9597">MR_std_pair_MR_GraphEdgeId_float</a></td></tr>
 <tr class="separator:ab889caeae0badb9df54c8b243b1f9597"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0e1be5d2b2761870a9995877c9657d8" id="r_ab0e1be5d2b2761870a9995877c9657d8"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ab0e1be5d2b2761870a9995877c9657d8">MR_std_vector_MR_WatershedGraph_OverflowPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0e1be5d2b2761870a9995877c9657d8">MR_std_vector_MR_WatershedGraph_OverflowPoint</a></td></tr>
@@ -199,8 +198,8 @@ Functions</h2></td></tr>
 <tr class="memitem:ab977642236261fa8eba2b32f14a29c5c" id="r_ab977642236261fa8eba2b32f14a29c5c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRPrecipitationSimulator_8h.html#a0691b4cabfa34960d5cd00f39ec4c7a9">MR_WatershedGraph</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab977642236261fa8eba2b32f14a29c5c">MR_WatershedGraph_OffsetMutablePtr</a> (<a class="el" href="MRPrecipitationSimulator_8h.html#a0691b4cabfa34960d5cd00f39ec4c7a9">MR_WatershedGraph</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:ab977642236261fa8eba2b32f14a29c5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
 <tr class="separator:ab977642236261fa8eba2b32f14a29c5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a07727c90f2bf3a76e6825479583bf010" id="r_a07727c90f2bf3a76e6825479583bf010"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRPrecipitationSimulator_8h.html#a0691b4cabfa34960d5cd00f39ec4c7a9">MR_WatershedGraph</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a07727c90f2bf3a76e6825479583bf010">MR_WatershedGraph_Construct</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRVector_8h.html#aed25c41d6776e629faba1105169bcd88">MR_Vector_int32_t_MR_FaceId</a> *face2basin, int32_t numBasins)</td></tr>
-<tr class="separator:a07727c90f2bf3a76e6825479583bf010"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87ade88c19340deb8b0338b0be61b615" id="r_a87ade88c19340deb8b0338b0be61b615"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRPrecipitationSimulator_8h.html#a0691b4cabfa34960d5cd00f39ec4c7a9">MR_WatershedGraph</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a87ade88c19340deb8b0338b0be61b615">MR_WatershedGraph_Construct</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRVector_8h.html#a4cecbe6d6abe0a304f00ea1990538db2">MR_Vector_int_MR_FaceId</a> *face2basin, int numBasins)</td></tr>
+<tr class="separator:a87ade88c19340deb8b0338b0be61b615"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a845f265f22fed0408f2a8d8e281c1a2b" id="r_a845f265f22fed0408f2a8d8e281c1a2b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a845f265f22fed0408f2a8d8e281c1a2b">MR_WatershedGraph_Destroy</a> (const <a class="el" href="MRPrecipitationSimulator_8h.html#a0691b4cabfa34960d5cd00f39ec4c7a9">MR_WatershedGraph</a> *_this)</td></tr>
 <tr class="memdesc:a845f265f22fed0408f2a8d8e281c1a2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_WatershedGraph</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:a845f265f22fed0408f2a8d8e281c1a2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -213,8 +212,8 @@ Functions</h2></td></tr>
 <tr class="separator:a0a8fce915e977690a3d42099ec9e10bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a96dd3921b345b7b5765bffb1e712d044" id="r_a96dd3921b345b7b5765bffb1e712d044"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a96dd3921b345b7b5765bffb1e712d044">MR_WatershedGraph_totalArea</a> (const <a class="el" href="MRPrecipitationSimulator_8h.html#a0691b4cabfa34960d5cd00f39ec4c7a9">MR_WatershedGraph</a> *_this)</td></tr>
 <tr class="separator:a96dd3921b345b7b5765bffb1e712d044"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e146a7d48198550f5bb4e9962c5ed5b" id="r_a0e146a7d48198550f5bb4e9962c5ed5b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e146a7d48198550f5bb4e9962c5ed5b">MR_WatershedGraph_numBasins</a> (const <a class="el" href="MRPrecipitationSimulator_8h.html#a0691b4cabfa34960d5cd00f39ec4c7a9">MR_WatershedGraph</a> *_this)</td></tr>
-<tr class="separator:a0e146a7d48198550f5bb4e9962c5ed5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6d2956b47c92673f077d3fb48672e97" id="r_ae6d2956b47c92673f077d3fb48672e97"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6d2956b47c92673f077d3fb48672e97">MR_WatershedGraph_numBasins</a> (const <a class="el" href="MRPrecipitationSimulator_8h.html#a0691b4cabfa34960d5cd00f39ec4c7a9">MR_WatershedGraph</a> *_this)</td></tr>
+<tr class="separator:ae6d2956b47c92673f077d3fb48672e97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a277bcb55bdd9c475a7eb0b4c19b6d4d3" id="r_a277bcb55bdd9c475a7eb0b4c19b6d4d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRVector_8h.html#a9c7c2a4f5d98b95ad690a545b3e1560b">MR_WatershedGraph_BasinInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a277bcb55bdd9c475a7eb0b4c19b6d4d3">MR_WatershedGraph_basinInfo_const</a> (const <a class="el" href="MRPrecipitationSimulator_8h.html#a0691b4cabfa34960d5cd00f39ec4c7a9">MR_WatershedGraph</a> *_this, <a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a> v)</td></tr>
 <tr class="separator:a277bcb55bdd9c475a7eb0b4c19b6d4d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40b0515ffe89ecd6c0e9f96727d2440d" id="r_a40b0515ffe89ecd6c0e9f96727d2440d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRVector_8h.html#a9c7c2a4f5d98b95ad690a545b3e1560b">MR_WatershedGraph_BasinInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40b0515ffe89ecd6c0e9f96727d2440d">MR_WatershedGraph_basinInfo</a> (<a class="el" href="MRPrecipitationSimulator_8h.html#a0691b4cabfa34960d5cd00f39ec4c7a9">MR_WatershedGraph</a> *_this, <a class="el" href="structMR__GraphVertId.html">MR_GraphVertId</a> v)</td></tr>
@@ -493,14 +492,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aed25c41d6776e629faba1105169bcd88" name="aed25c41d6776e629faba1105169bcd88"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aed25c41d6776e629faba1105169bcd88">&#9670;&#160;</a></span>MR_Vector_int32_t_MR_FaceId</h2>
+<a id="a4cecbe6d6abe0a304f00ea1990538db2" name="a4cecbe6d6abe0a304f00ea1990538db2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4cecbe6d6abe0a304f00ea1990538db2">&#9670;&#160;</a></span>MR_Vector_int_MR_FaceId</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef struct <a class="el" href="MRVector_8h.html#aed25c41d6776e629faba1105169bcd88">MR_Vector_int32_t_MR_FaceId</a> <a class="el" href="MRVector_8h.html#aed25c41d6776e629faba1105169bcd88">MR_Vector_int32_t_MR_FaceId</a></td>
+          <td class="memname">typedef struct <a class="el" href="MRVector_8h.html#a4cecbe6d6abe0a304f00ea1990538db2">MR_Vector_int_MR_FaceId</a> <a class="el" href="MRVector_8h.html#a4cecbe6d6abe0a304f00ea1990538db2">MR_Vector_int_MR_FaceId</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1743,8 +1742,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a07727c90f2bf3a76e6825479583bf010" name="a07727c90f2bf3a76e6825479583bf010"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a07727c90f2bf3a76e6825479583bf010">&#9670;&#160;</a></span>MR_WatershedGraph_Construct()</h2>
+<a id="a87ade88c19340deb8b0338b0be61b615" name="a87ade88c19340deb8b0338b0be61b615"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87ade88c19340deb8b0338b0be61b615">&#9670;&#160;</a></span>MR_WatershedGraph_Construct()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1757,12 +1756,12 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="MRVector_8h.html#aed25c41d6776e629faba1105169bcd88">MR_Vector_int32_t_MR_FaceId</a> *</td>          <td class="paramname"><span class="paramname"><em>face2basin</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="MRVector_8h.html#a4cecbe6d6abe0a304f00ea1990538db2">MR_Vector_int_MR_FaceId</a> *</td>          <td class="paramname"><span class="paramname"><em>face2basin</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>numBasins</em></span>&#160;)</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>numBasins</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2161,14 +2160,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a0e146a7d48198550f5bb4e9962c5ed5b" name="a0e146a7d48198550f5bb4e9962c5ed5b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0e146a7d48198550f5bb4e9962c5ed5b">&#9670;&#160;</a></span>MR_WatershedGraph_numBasins()</h2>
+<a id="ae6d2956b47c92673f077d3fb48672e97" name="ae6d2956b47c92673f077d3fb48672e97"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6d2956b47c92673f077d3fb48672e97">&#9670;&#160;</a></span>MR_WatershedGraph_numBasins()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t MR_WatershedGraph_numBasins </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int MR_WatershedGraph_numBasins </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRPrecipitationSimulator_8h.html#a0691b4cabfa34960d5cd00f39ec4c7a9">MR_WatershedGraph</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>

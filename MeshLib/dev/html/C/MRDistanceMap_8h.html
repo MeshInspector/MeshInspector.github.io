@@ -156,7 +156,6 @@ $(function(){initNavTree('MRDistanceMap_8h.html',''); initResizable(true); });
 <code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
-<code>#include &lt;stdint.h&gt;</code><br />
 </div>
 <p><a href="MRDistanceMap_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -214,8 +213,8 @@ Typedefs</h2></td></tr>
 <tr class="separator:ac5b3176651bd10f11559934b0565b6ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae18f6794b8034a86519b671a964d9446" id="r_ae18f6794b8034a86519b671a964d9446"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ae18f6794b8034a86519b671a964d9446">MR_ContoursDistanceMapOffset</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae18f6794b8034a86519b671a964d9446">MR_ContoursDistanceMapOffset</a></td></tr>
 <tr class="separator:ae18f6794b8034a86519b671a964d9446"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad69e7f801fe3b5d8e92d28976d055bc1" id="r_ad69e7f801fe3b5d8e92d28976d055bc1"><td class="memItemLeft" align="right" valign="top">typedef int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad69e7f801fe3b5d8e92d28976d055bc1">MR_ContoursDistanceMapOffset_OffsetType</a></td></tr>
-<tr class="separator:ad69e7f801fe3b5d8e92d28976d055bc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbde8fb1044a6d36d859925985464770" id="r_acbde8fb1044a6d36d859925985464770"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#a7ee1d04e7837b8c167cd2cd5d68475ab">MR_ContoursDistanceMapOffset_OffsetType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acbde8fb1044a6d36d859925985464770">MR_ContoursDistanceMapOffset_OffsetType</a></td></tr>
+<tr class="separator:acbde8fb1044a6d36d859925985464770"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af9858814c2a5d9f1e896f1f5569bd76e" id="r_af9858814c2a5d9f1e896f1f5569bd76e"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#af9858814c2a5d9f1e896f1f5569bd76e">MR_ContoursDistanceMapOptions</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af9858814c2a5d9f1e896f1f5569bd76e">MR_ContoursDistanceMapOptions</a></td></tr>
 <tr class="memdesc:af9858814c2a5d9f1e896f1f5569bd76e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1ContoursDistanceMapOptions.html">MR::ContoursDistanceMapOptions</a></code>.  <br /></td></tr>
 <tr class="separator:af9858814c2a5d9f1e896f1f5569bd76e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -225,10 +224,10 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a80155586fa275b28773c9b203f52caba" id="r_a80155586fa275b28773c9b203f52caba"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#a80155586fa275b28773c9b203f52cabaa56c1ba008c4ac90aae12e5edbe885830">MR_ContoursDistanceMapOffset_OffsetType_Normal</a> = 0
-, <a class="el" href="#a80155586fa275b28773c9b203f52cabaa55db81eff0bb5e4b6ba10188cb10a178">MR_ContoursDistanceMapOffset_OffsetType_Shell</a> = 1
+<tr class="memitem:a7ee1d04e7837b8c167cd2cd5d68475ab" id="r_a7ee1d04e7837b8c167cd2cd5d68475ab"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ee1d04e7837b8c167cd2cd5d68475ab">MR_ContoursDistanceMapOffset_OffsetType</a> { <a class="el" href="#a7ee1d04e7837b8c167cd2cd5d68475aba56c1ba008c4ac90aae12e5edbe885830">MR_ContoursDistanceMapOffset_OffsetType_Normal</a> = 0
+, <a class="el" href="#a7ee1d04e7837b8c167cd2cd5d68475aba55db81eff0bb5e4b6ba10188cb10a178">MR_ContoursDistanceMapOffset_OffsetType_Shell</a> = 1
  }</td></tr>
-<tr class="separator:a80155586fa275b28773c9b203f52caba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a7ee1d04e7837b8c167cd2cd5d68475ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abea21d3d81ffe6d8a0009139d08c6f63" id="r_abea21d3d81ffe6d8a0009139d08c6f63"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abea21d3d81ffe6d8a0009139d08c6f63">MR_ContoursDistanceMapOptions_SignedDetectionMethod</a> { <a class="el" href="#abea21d3d81ffe6d8a0009139d08c6f63abed323e381600a2e9ee8105488fdabc5">MR_ContoursDistanceMapOptions_SignedDetectionMethod_ContourOrientation</a> = 0
 , <a class="el" href="#abea21d3d81ffe6d8a0009139d08c6f63abd9f3bf71168084626261ff46eda49b4">MR_ContoursDistanceMapOptions_SignedDetectionMethod_WindingRule</a> = 1
  }</td></tr>
@@ -354,15 +353,15 @@ Functions</h2></td></tr>
 <tr class="separator:affc90af0b9f7f7d112084c6ebae23c96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a35f22ae0a2f3ac4e5762afd3df349a77" id="r_a35f22ae0a2f3ac4e5762afd3df349a77"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAggregateFlow_8h.html#af24d03a25a98fafdbaf79dfeda2fc526">MR_UndirectedEdgeScalars</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a35f22ae0a2f3ac4e5762afd3df349a77">MR_ContoursDistanceMapOffset_Get_perEdgeOffset</a> (const <a class="el" href="#ae18f6794b8034a86519b671a964d9446">MR_ContoursDistanceMapOffset</a> *_this)</td></tr>
 <tr class="separator:a35f22ae0a2f3ac4e5762afd3df349a77"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6ad73db78c7af808333aef6a8f1664a" id="r_ae6ad73db78c7af808333aef6a8f1664a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ad69e7f801fe3b5d8e92d28976d055bc1">MR_ContoursDistanceMapOffset_OffsetType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6ad73db78c7af808333aef6a8f1664a">MR_ContoursDistanceMapOffset_Get_type</a> (const <a class="el" href="#ae18f6794b8034a86519b671a964d9446">MR_ContoursDistanceMapOffset</a> *_this)</td></tr>
+<tr class="memitem:ae6ad73db78c7af808333aef6a8f1664a" id="r_ae6ad73db78c7af808333aef6a8f1664a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a7ee1d04e7837b8c167cd2cd5d68475ab">MR_ContoursDistanceMapOffset_OffsetType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6ad73db78c7af808333aef6a8f1664a">MR_ContoursDistanceMapOffset_Get_type</a> (const <a class="el" href="#ae18f6794b8034a86519b671a964d9446">MR_ContoursDistanceMapOffset</a> *_this)</td></tr>
 <tr class="separator:ae6ad73db78c7af808333aef6a8f1664a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7fb54f2acb2cba484b67b5a997d19161" id="r_a7fb54f2acb2cba484b67b5a997d19161"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7fb54f2acb2cba484b67b5a997d19161">MR_ContoursDistanceMapOffset_Set_type</a> (<a class="el" href="#ae18f6794b8034a86519b671a964d9446">MR_ContoursDistanceMapOffset</a> *_this, <a class="el" href="#ad69e7f801fe3b5d8e92d28976d055bc1">MR_ContoursDistanceMapOffset_OffsetType</a> value)</td></tr>
+<tr class="memitem:a7fb54f2acb2cba484b67b5a997d19161" id="r_a7fb54f2acb2cba484b67b5a997d19161"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7fb54f2acb2cba484b67b5a997d19161">MR_ContoursDistanceMapOffset_Set_type</a> (<a class="el" href="#ae18f6794b8034a86519b671a964d9446">MR_ContoursDistanceMapOffset</a> *_this, <a class="el" href="#a7ee1d04e7837b8c167cd2cd5d68475ab">MR_ContoursDistanceMapOffset_OffsetType</a> value)</td></tr>
 <tr class="separator:a7fb54f2acb2cba484b67b5a997d19161"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a989cc139dfd7fbeaa1c7103a515176da" id="r_a989cc139dfd7fbeaa1c7103a515176da"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ad69e7f801fe3b5d8e92d28976d055bc1">MR_ContoursDistanceMapOffset_OffsetType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a989cc139dfd7fbeaa1c7103a515176da">MR_ContoursDistanceMapOffset_GetMutable_type</a> (<a class="el" href="#ae18f6794b8034a86519b671a964d9446">MR_ContoursDistanceMapOffset</a> *_this)</td></tr>
+<tr class="memitem:a989cc139dfd7fbeaa1c7103a515176da" id="r_a989cc139dfd7fbeaa1c7103a515176da"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a7ee1d04e7837b8c167cd2cd5d68475ab">MR_ContoursDistanceMapOffset_OffsetType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a989cc139dfd7fbeaa1c7103a515176da">MR_ContoursDistanceMapOffset_GetMutable_type</a> (<a class="el" href="#ae18f6794b8034a86519b671a964d9446">MR_ContoursDistanceMapOffset</a> *_this)</td></tr>
 <tr class="separator:a989cc139dfd7fbeaa1c7103a515176da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4cbfee2df5dd35adbe81d25541c4a86" id="r_ac4cbfee2df5dd35adbe81d25541c4a86"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae18f6794b8034a86519b671a964d9446">MR_ContoursDistanceMapOffset</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac4cbfee2df5dd35adbe81d25541c4a86">MR_ContoursDistanceMapOffset_ConstructFromAnother</a> (const <a class="el" href="#ae18f6794b8034a86519b671a964d9446">MR_ContoursDistanceMapOffset</a> *_other)</td></tr>
 <tr class="separator:ac4cbfee2df5dd35adbe81d25541c4a86"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9047241d32675a70ae3cf8b2eee9952" id="r_ab9047241d32675a70ae3cf8b2eee9952"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae18f6794b8034a86519b671a964d9446">MR_ContoursDistanceMapOffset</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9047241d32675a70ae3cf8b2eee9952">MR_ContoursDistanceMapOffset_ConstructFrom</a> (const <a class="el" href="MRAggregateFlow_8h.html#af24d03a25a98fafdbaf79dfeda2fc526">MR_UndirectedEdgeScalars</a> *perEdgeOffset, <a class="el" href="#ad69e7f801fe3b5d8e92d28976d055bc1">MR_ContoursDistanceMapOffset_OffsetType</a> type)</td></tr>
+<tr class="memitem:ab9047241d32675a70ae3cf8b2eee9952" id="r_ab9047241d32675a70ae3cf8b2eee9952"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae18f6794b8034a86519b671a964d9446">MR_ContoursDistanceMapOffset</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9047241d32675a70ae3cf8b2eee9952">MR_ContoursDistanceMapOffset_ConstructFrom</a> (const <a class="el" href="MRAggregateFlow_8h.html#af24d03a25a98fafdbaf79dfeda2fc526">MR_UndirectedEdgeScalars</a> *perEdgeOffset, <a class="el" href="#a7ee1d04e7837b8c167cd2cd5d68475ab">MR_ContoursDistanceMapOffset_OffsetType</a> type)</td></tr>
 <tr class="separator:ab9047241d32675a70ae3cf8b2eee9952"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adcb2e26e3323e6097a0e9cd9be8cff9b" id="r_adcb2e26e3323e6097a0e9cd9be8cff9b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ae18f6794b8034a86519b671a964d9446">MR_ContoursDistanceMapOffset</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adcb2e26e3323e6097a0e9cd9be8cff9b">MR_ContoursDistanceMapOffset_OffsetPtr</a> (const <a class="el" href="#ae18f6794b8034a86519b671a964d9446">MR_ContoursDistanceMapOffset</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memdesc:adcb2e26e3323e6097a0e9cd9be8cff9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element.  <br /></td></tr>
@@ -498,14 +497,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ad69e7f801fe3b5d8e92d28976d055bc1" name="ad69e7f801fe3b5d8e92d28976d055bc1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad69e7f801fe3b5d8e92d28976d055bc1">&#9670;&#160;</a></span>MR_ContoursDistanceMapOffset_OffsetType</h2>
+<a id="acbde8fb1044a6d36d859925985464770" name="acbde8fb1044a6d36d859925985464770"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acbde8fb1044a6d36d859925985464770">&#9670;&#160;</a></span>MR_ContoursDistanceMapOffset_OffsetType</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef int32_t <a class="el" href="#ad69e7f801fe3b5d8e92d28976d055bc1">MR_ContoursDistanceMapOffset_OffsetType</a></td>
+          <td class="memname">typedef enum <a class="el" href="#a7ee1d04e7837b8c167cd2cd5d68475ab">MR_ContoursDistanceMapOffset_OffsetType</a> <a class="el" href="#a7ee1d04e7837b8c167cd2cd5d68475ab">MR_ContoursDistanceMapOffset_OffsetType</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -882,22 +881,22 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a80155586fa275b28773c9b203f52caba" name="a80155586fa275b28773c9b203f52caba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a80155586fa275b28773c9b203f52caba">&#9670;&#160;</a></span>anonymous enum</h2>
+<a id="a7ee1d04e7837b8c167cd2cd5d68475ab" name="a7ee1d04e7837b8c167cd2cd5d68475ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ee1d04e7837b8c167cd2cd5d68475ab">&#9670;&#160;</a></span>MR_ContoursDistanceMapOffset_OffsetType</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">anonymous enum</td>
+          <td class="memname">enum <a class="el" href="#a7ee1d04e7837b8c167cd2cd5d68475ab">MR_ContoursDistanceMapOffset_OffsetType</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a80155586fa275b28773c9b203f52cabaa56c1ba008c4ac90aae12e5edbe885830" name="a80155586fa275b28773c9b203f52cabaa56c1ba008c4ac90aae12e5edbe885830"></a>MR_ContoursDistanceMapOffset_OffsetType_Normal&#160;</td><td class="fielddoc"><p>distance map from given polyline with values offset </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a7ee1d04e7837b8c167cd2cd5d68475aba56c1ba008c4ac90aae12e5edbe885830" name="a7ee1d04e7837b8c167cd2cd5d68475aba56c1ba008c4ac90aae12e5edbe885830"></a>MR_ContoursDistanceMapOffset_OffsetType_Normal&#160;</td><td class="fielddoc"><p>distance map from given polyline with values offset </p>
 <p>distance map from shell of given polyline (perEdgeOffset should not have negative values ) </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a80155586fa275b28773c9b203f52cabaa55db81eff0bb5e4b6ba10188cb10a178" name="a80155586fa275b28773c9b203f52cabaa55db81eff0bb5e4b6ba10188cb10a178"></a>MR_ContoursDistanceMapOffset_OffsetType_Shell&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7ee1d04e7837b8c167cd2cd5d68475aba55db81eff0bb5e4b6ba10188cb10a178" name="a7ee1d04e7837b8c167cd2cd5d68475aba55db81eff0bb5e4b6ba10188cb10a178"></a>MR_ContoursDistanceMapOffset_OffsetType_Shell&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -1073,7 +1072,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#ad69e7f801fe3b5d8e92d28976d055bc1">MR_ContoursDistanceMapOffset_OffsetType</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="#a7ee1d04e7837b8c167cd2cd5d68475ab">MR_ContoursDistanceMapOffset_OffsetType</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1162,7 +1161,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ad69e7f801fe3b5d8e92d28976d055bc1">MR_ContoursDistanceMapOffset_OffsetType</a> * MR_ContoursDistanceMapOffset_Get_type </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a7ee1d04e7837b8c167cd2cd5d68475ab">MR_ContoursDistanceMapOffset_OffsetType</a> * MR_ContoursDistanceMapOffset_Get_type </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ae18f6794b8034a86519b671a964d9446">MR_ContoursDistanceMapOffset</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1180,7 +1179,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ad69e7f801fe3b5d8e92d28976d055bc1">MR_ContoursDistanceMapOffset_OffsetType</a> * MR_ContoursDistanceMapOffset_GetMutable_type </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a7ee1d04e7837b8c167cd2cd5d68475ab">MR_ContoursDistanceMapOffset_OffsetType</a> * MR_ContoursDistanceMapOffset_GetMutable_type </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae18f6794b8034a86519b671a964d9446">MR_ContoursDistanceMapOffset</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1251,7 +1250,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#ad69e7f801fe3b5d8e92d28976d055bc1">MR_ContoursDistanceMapOffset_OffsetType</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="#a7ee1d04e7837b8c167cd2cd5d68475ab">MR_ContoursDistanceMapOffset_OffsetType</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

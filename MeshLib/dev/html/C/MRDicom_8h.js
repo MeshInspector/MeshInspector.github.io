@@ -15,9 +15,14 @@ var MRDicom_8h =
     [ "MR_std_vector_std_filesystem_path", "MRDicom_8h.html#a4d75e004d098bc7d987ebfcf304f5454", null ],
     [ "MR_VdbVolume", "MRDicom_8h.html#a3d8aa59058b2516d2c9b34241f2c0441", null ],
     [ "MR_VoxelsLoad_DicomStatus", "MRDicom_8h.html#a9fd4af972412813296b282fd7042d277", null ],
-    [ "MR_VoxelsLoad_DicomStatusEnum", "MRDicom_8h.html#ad937f001760bfcde36ee3ec9131dd402", null ],
+    [ "MR_VoxelsLoad_DicomStatusEnum", "MRDicom_8h.html#a9af2256210153a38c8a3b251fd89e222", null ],
     [ "MR_VoxelsLoad_DicomVolume", "MRDicom_8h.html#a1c1de47979cfb2cc84815ccfa9be6e28", null ],
     [ "MR_VoxelsLoad_DicomVolumeAsVdb", "MRDicom_8h.html#a9d393acc53f121bcf783d272d17c5c24", null ],
+    [ "MR_VoxelsLoad_DicomStatusEnum", "MRDicom_8h.html#a6ea51423c33aa81cd0783c4382038594", [
+      [ "MR_VoxelsLoad_DicomStatusEnum_Ok", "MRDicom_8h.html#a6ea51423c33aa81cd0783c4382038594a4ec510413f204434bea8b6b7a720e908", null ],
+      [ "MR_VoxelsLoad_DicomStatusEnum_Invalid", "MRDicom_8h.html#a6ea51423c33aa81cd0783c4382038594a2a89fbe983873bd947a2e04621e3f349", null ],
+      [ "MR_VoxelsLoad_DicomStatusEnum_Unsupported", "MRDicom_8h.html#a6ea51423c33aa81cd0783c4382038594a10908142d0e5f4d8ad570525ea7af4b5", null ]
+    ] ],
     [ "MR_equal_MR_VoxelsLoad_DicomStatus_MR_VoxelsLoad_DicomStatusEnum", "MRDicom_8h.html#a37808afe2627de3d31e5b6c2458492af", null ],
     [ "MR_VoxelsLoad_createObjectVoxels", "MRDicom_8h.html#a86a9681a08625c5dc443411450d1ba00", null ],
     [ "MR_VoxelsLoad_DicomStatus_AssignFromAnother", "MRDicom_8h.html#abb4d5b6245f00b852a26c4b681d36ef4", null ],
@@ -75,12 +80,12 @@ var MRDicom_8h =
     [ "MR_VoxelsLoad_isDicomFolder", "MRDicom_8h.html#a6e05e836c12cce5e79279941f72789e6", null ],
     [ "MR_VoxelsLoad_loadDicomFile", "MRDicom_8h.html#abb0b34677e5b1e7cdf9cf21ceab15314", null ],
     [ "MR_VoxelsLoad_loadDicomFileAsVdb", "MRDicom_8h.html#a1597ab397930d150b409284b24d97b86", null ],
-    [ "MR_VoxelsLoad_loadDicomFolder", "MRDicom_8h.html#a19d0ba29e04cefe7c405f999c86fbd5a", null ],
-    [ "MR_VoxelsLoad_loadDicomFolderAsVdb", "MRDicom_8h.html#ae5f6c017ea439063055f9b35a807b662", null ],
-    [ "MR_VoxelsLoad_loadDicomsFolder", "MRDicom_8h.html#a306eb7b5795bf85fc54449b8f9ad821d", null ],
-    [ "MR_VoxelsLoad_loadDicomsFolderAsVdb", "MRDicom_8h.html#a93bae2c4e0215dc7d258adaf7074f150", null ],
-    [ "MR_VoxelsLoad_loadDicomsFolderTreeAsVdb", "MRDicom_8h.html#a3626fb2af4475b216df69bde4709fcd1", null ],
+    [ "MR_VoxelsLoad_loadDicomFolder", "MRDicom_8h.html#a8c274718f640187b78ade72decaf1cf7", null ],
+    [ "MR_VoxelsLoad_loadDicomFolderAsVdb", "MRDicom_8h.html#a1101afc890f290100874afbed63844f0", null ],
+    [ "MR_VoxelsLoad_loadDicomsFolder", "MRDicom_8h.html#a524fdb5d951e6cda1a06082dd58b42a2", null ],
+    [ "MR_VoxelsLoad_loadDicomsFolderAsVdb", "MRDicom_8h.html#a312ae37c9dc100e318b1785d82012dc8", null ],
+    [ "MR_VoxelsLoad_loadDicomsFolderTreeAsVdb", "MRDicom_8h.html#a1db14d41fbab6a01942e08208a3bc85e", null ],
     [ "MR_VoxelsLoad_makeObjectVoxelsFromDicomFolder", "MRDicom_8h.html#a5f534a6b32ac72ccf8e8afea0e7116f0", null ],
     [ "MR_VoxelsSave_toDicom", "MRDicom_8h.html#a5415914aba25efc9f174dda35606cf40", null ],
-    [ "MR_VoxelsSave_toDicom_uint16_t", "MRDicom_8h.html#adc7f5d0aadf706d9d20d88a48b643eff", null ]
+    [ "MR_VoxelsSave_toDicom_unsigned_short", "MRDicom_8h.html#a82406e55b585c406b5b42cc5c7923d35", null ]
 ];

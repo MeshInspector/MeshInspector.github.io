@@ -2,9 +2,9 @@ var MRBooleanOperation_8h =
 [
     [ "MR_AffineXf3f", "MRBooleanOperation_8h.html#a88a1df6fb138786a55241b1d77a4b0cc", null ],
     [ "MR_BooleanInternalParameters", "MRBooleanOperation_8h.html#a3af009690a5c2d9c70bcf789daec7f6b", null ],
-    [ "MR_BooleanOperation", "MRBooleanOperation_8h.html#a8682ca3f1f59fbf59efc9c9efb8e0df3", null ],
+    [ "MR_BooleanOperation", "MRBooleanOperation_8h.html#a8a246f470737b3738795958e5807f66c", null ],
     [ "MR_BooleanResultMapper", "MRBooleanOperation_8h.html#a525cc4d3dcd23270a5db9cfcfb224548", null ],
-    [ "MR_BooleanResultMapper_MapObject", "MRBooleanOperation_8h.html#aa84a6870f435f3acaaf2cffc04b68be8", null ],
+    [ "MR_BooleanResultMapper_MapObject", "MRBooleanOperation_8h.html#a759a9c7800e3bc0fca2e9d8daaa18f89", null ],
     [ "MR_BooleanResultMapper_Maps", "MRBooleanOperation_8h.html#a7d191f578301123ae97adbfd5ac96d34", null ],
     [ "MR_EdgeBitSet", "MRBooleanOperation_8h.html#a0ab67259585b94fe4f3e06c70ba102f3", null ],
     [ "MR_expected_MR_Mesh_std_string", "MRBooleanOperation_8h.html#a0d97154d4aed695055160a4688c04a3d", null ],
@@ -17,6 +17,22 @@ var MRBooleanOperation_8h =
     [ "MR_VertBitSet", "MRBooleanOperation_8h.html#a3df50e76b078a1626dd994e1df803764", null ],
     [ "MR_VertMap", "MRBooleanOperation_8h.html#a0c1baad62a31685b2dfb5955f3fb8230", null ],
     [ "MR_WholeEdgeMap", "MRBooleanOperation_8h.html#a50066b58d97b0be73d826cfdcc9eb188", null ],
+    [ "MR_BooleanOperation", "MRBooleanOperation_8h.html#a251062e1161744270ec7b749518f75c5", [
+      [ "MR_BooleanOperation_InsideA", "MRBooleanOperation_8h.html#a251062e1161744270ec7b749518f75c5abeed6eb985c743a4aa21ed1f93490066", null ],
+      [ "MR_BooleanOperation_InsideB", "MRBooleanOperation_8h.html#a251062e1161744270ec7b749518f75c5a6b965892509e59c342b8f1087c9d9923", null ],
+      [ "MR_BooleanOperation_OutsideA", "MRBooleanOperation_8h.html#a251062e1161744270ec7b749518f75c5aecf052f2ca63894cd03c94cda93ba24e", null ],
+      [ "MR_BooleanOperation_OutsideB", "MRBooleanOperation_8h.html#a251062e1161744270ec7b749518f75c5aa7542305c802d60aa9664402cc4b0342", null ],
+      [ "MR_BooleanOperation_Union", "MRBooleanOperation_8h.html#a251062e1161744270ec7b749518f75c5a04d90e3b4384ecffdba5b3dad2a47b44", null ],
+      [ "MR_BooleanOperation_Intersection", "MRBooleanOperation_8h.html#a251062e1161744270ec7b749518f75c5a824b1b283018224d68b50afb9e02f7c5", null ],
+      [ "MR_BooleanOperation_DifferenceBA", "MRBooleanOperation_8h.html#a251062e1161744270ec7b749518f75c5a46128c20368a82be9f10ed03c5b82c9e", null ],
+      [ "MR_BooleanOperation_DifferenceAB", "MRBooleanOperation_8h.html#a251062e1161744270ec7b749518f75c5aeb3fcde96a5a69b980a8079c39769cc9", null ],
+      [ "MR_BooleanOperation_Count", "MRBooleanOperation_8h.html#a251062e1161744270ec7b749518f75c5a59f55c132e028b2ec1bfbaf7e5fc0c8c", null ]
+    ] ],
+    [ "MR_BooleanResultMapper_MapObject", "MRBooleanOperation_8h.html#a1f20dc964754f84d715a70753e959c1d", [
+      [ "MR_BooleanResultMapper_MapObject_A", "MRBooleanOperation_8h.html#a1f20dc964754f84d715a70753e959c1da2ee0200e40e0b6be72c92a20c6783505", null ],
+      [ "MR_BooleanResultMapper_MapObject_B", "MRBooleanOperation_8h.html#a1f20dc964754f84d715a70753e959c1dad33190689e4f625a2d8d0ec1ba80f6be", null ],
+      [ "MR_BooleanResultMapper_MapObject_Count", "MRBooleanOperation_8h.html#a1f20dc964754f84d715a70753e959c1da4c6f3be4cabf966396dcdde7fcbbb73b", null ]
+    ] ],
     [ "MR_BooleanInternalParameters_AssignFromAnother", "MRBooleanOperation_8h.html#a05137d8f5cdb70e93ea4da25a56dc5ab", null ],
     [ "MR_BooleanInternalParameters_ConstructFrom", "MRBooleanOperation_8h.html#aa7874b804cb6343ddf7a0577117e09df", null ],
     [ "MR_BooleanInternalParameters_ConstructFromAnother", "MRBooleanOperation_8h.html#aad91f694a22aef97dcd7c1a5f188cae3", null ],

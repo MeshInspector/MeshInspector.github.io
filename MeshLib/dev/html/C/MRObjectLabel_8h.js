@@ -2,7 +2,7 @@ var MRObjectLabel_8h =
 [
     [ "MR_AnyVisualizeMaskEnum", "MRObjectLabel_8h.html#a47309f5020d832f0d5effdd481071a1e", null ],
     [ "MR_Color", "MRObjectLabel_8h.html#ab04f90c0c45a09f664d0bd8e652bc339", null ],
-    [ "MR_LabelVisualizePropertyType", "MRObjectLabel_8h.html#a17c00b529e6190f578743d2f6669ddff", null ],
+    [ "MR_LabelVisualizePropertyType", "MRObjectLabel_8h.html#a84057dee07f0b5c1d6295602a46c7db5", null ],
     [ "MR_Object", "MRObjectLabel_8h.html#accce9c9179cadabc541edda0fc7a2571", null ],
     [ "MR_ObjectChildrenHolder", "MRObjectLabel_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc", null ],
     [ "MR_ObjectLabel", "MRObjectLabel_8h.html#a4edfc78551f61ec34b3b0e5f5173453f", null ],
@@ -15,6 +15,13 @@ var MRObjectLabel_8h =
     [ "MR_ViewportMask", "MRObjectLabel_8h.html#a85b2b5f875361920283d305645987092", null ],
     [ "MR_ViewportProperty_MR_Color", "MRObjectLabel_8h.html#aacabcfa2021a7c9f2d2f8862cd9c75c6", null ],
     [ "MR_VisualObject", "MRObjectLabel_8h.html#a36f3696eda81d7005927ebc5fdf17e14", null ],
+    [ "MR_LabelVisualizePropertyType", "MRObjectLabel_8h.html#a49cdb8c5e7c474664a48c4a47b2c5276", [
+      [ "MR_LabelVisualizePropertyType_SourcePoint", "MRObjectLabel_8h.html#a49cdb8c5e7c474664a48c4a47b2c5276a922eb827e6cdad1d6eeff943319b9c31", null ],
+      [ "MR_LabelVisualizePropertyType_LeaderLine", "MRObjectLabel_8h.html#a49cdb8c5e7c474664a48c4a47b2c5276a4450fb8ce2c13de12e66a4ab68a52ccb", null ],
+      [ "MR_LabelVisualizePropertyType_Background", "MRObjectLabel_8h.html#a49cdb8c5e7c474664a48c4a47b2c5276a888aafe9069b38fca7601e453a53218c", null ],
+      [ "MR_LabelVisualizePropertyType_Contour", "MRObjectLabel_8h.html#a49cdb8c5e7c474664a48c4a47b2c5276a10f3893db4f2dd57c02f35894270473f", null ],
+      [ "MR_LabelVisualizePropertyType__count", "MRObjectLabel_8h.html#a49cdb8c5e7c474664a48c4a47b2c5276aef82af7b05f23f45af3c9c7e4d3e5a3e", null ]
+    ] ],
     [ "MR_ObjectLabel_applyScale", "MRObjectLabel_8h.html#a464d18abc72fbb96d6cc0ed13da11bbb", null ],
     [ "MR_ObjectLabel_AssignFromAnother", "MRObjectLabel_8h.html#ac0ede85d1b6acd8e8e52fbe402ee5afb", null ],
     [ "MR_ObjectLabel_buildMeshFromText", "MRObjectLabel_8h.html#af1ca2db28638ddb2d1e80971d632072e", null ],

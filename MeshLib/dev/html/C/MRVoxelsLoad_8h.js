@@ -10,9 +10,13 @@ var MRVoxelsLoad_8h =
     [ "MR_std_filesystem_path", "MRVoxelsLoad_8h.html#a006d61fd2048bba5b5622d42cbe72526", null ],
     [ "MR_std_function_bool_from_float", "MRVoxelsLoad_8h.html#adb03ce28cacfff1e499d75d512dc4a84", null ],
     [ "MR_std_istream", "MRVoxelsLoad_8h.html#aef22a11476e76208a3f9a5cf2eba4c98", null ],
-    [ "MR_VoxelsLoad_GridType", "MRVoxelsLoad_8h.html#a636d5442fee281cbfc2e4f63dec2570d", null ],
+    [ "MR_VoxelsLoad_GridType", "MRVoxelsLoad_8h.html#a48dc9955a7e911e90a30f8306223fce3", null ],
     [ "MR_VoxelsLoad_LoadingTiffSettings", "MRVoxelsLoad_8h.html#aeb55c2e7200cad314e4876ce3d2d50a9", null ],
     [ "MR_VoxelsLoad_RawParameters", "MRVoxelsLoad_8h.html#af646f8f51576a586c8b409eb6b38e998", null ],
+    [ "MR_VoxelsLoad_GridType", "MRVoxelsLoad_8h.html#ade81850d307663037a73e44454100a3e", [
+      [ "MR_VoxelsLoad_GridType_DenseGrid", "MRVoxelsLoad_8h.html#ade81850d307663037a73e44454100a3ea692c6c55e992b9c5076ae747616ef2e2", null ],
+      [ "MR_VoxelsLoad_GridType_LevelSet", "MRVoxelsLoad_8h.html#ade81850d307663037a73e44454100a3ea47d65f766447b295a21ed3614b20b22b", null ]
+    ] ],
     [ "MR_makeObjectFromVoxelsFile", "MRVoxelsLoad_8h.html#a52b39239ae5695304c1d98ff2d13b7bc", null ],
     [ "MR_makeObjectVoxelsFromFile", "MRVoxelsLoad_8h.html#a1ef86ceb605d0bffae3b67211a5598b2", null ],
     [ "MR_VoxelsLoad_findRawParameters", "MRVoxelsLoad_8h.html#a41b5d827b24453df587f673f2028e086", null ],

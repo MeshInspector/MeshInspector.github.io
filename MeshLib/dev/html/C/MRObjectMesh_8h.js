@@ -34,7 +34,7 @@ var MRObjectMesh_8h =
     [ "MR_ObjectMesh_MutableUpcastTo_MR_VisualObject", "MRObjectMesh_8h.html#a9cac2af182c11c1b1764d297921c72c8", null ],
     [ "MR_ObjectMesh_OffsetMutablePtr", "MRObjectMesh_8h.html#ad7a05c98c6dd0c356970e7a21eb23a53", null ],
     [ "MR_ObjectMesh_OffsetPtr", "MRObjectMesh_8h.html#acbc633b779811e16334d165cafa1e05b", null ],
-    [ "MR_ObjectMesh_setDirtyFlags", "MRObjectMesh_8h.html#aa47e4a9c41e623c53f18ddd81429d032", null ],
+    [ "MR_ObjectMesh_setDirtyFlags", "MRObjectMesh_8h.html#a2109272a2e1fa0c104dcde3296341b77", null ],
     [ "MR_ObjectMesh_setMesh", "MRObjectMesh_8h.html#a0f9768d69fdde68fd943b941e9f3b49b", null ],
     [ "MR_ObjectMesh_shallowClone", "MRObjectMesh_8h.html#a679fd70e9fa63009348004b730bd21ad", null ],
     [ "MR_ObjectMesh_TypeName", "MRObjectMesh_8h.html#a772b85c659bc6f99e5ac0990882f2e2f", null ],

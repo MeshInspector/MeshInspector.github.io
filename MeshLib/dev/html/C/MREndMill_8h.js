@@ -1,9 +1,16 @@
 var MREndMill_8h =
 [
     [ "MR_EndMillCutter", "MREndMill_8h.html#a0775be5ed04dda6e9b978e00a1ce786b", null ],
-    [ "MR_EndMillCutter_Type", "MREndMill_8h.html#a0c2a0426eb52d9951dc0fa13cfd2599f", null ],
+    [ "MR_EndMillCutter_Type", "MREndMill_8h.html#a473ae07be6ee28af7d0e50e2f0b1ab11", null ],
     [ "MR_EndMillTool", "MREndMill_8h.html#afb9772e287e6b9050531d23886e426c0", null ],
     [ "MR_Mesh", "MREndMill_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
+    [ "MR_EndMillCutter_Type", "MREndMill_8h.html#a83570155983a77f6db263535b4f438ab", [
+      [ "MR_EndMillCutter_Type_Flat", "MREndMill_8h.html#a83570155983a77f6db263535b4f438ababed1a41fa548ed8fffd130453f1d7c7b", null ],
+      [ "MR_EndMillCutter_Type_Ball", "MREndMill_8h.html#a83570155983a77f6db263535b4f438aba8129cf667bb1b5edd5822d007eaf2d58", null ],
+      [ "MR_EndMillCutter_Type_BullNose", "MREndMill_8h.html#a83570155983a77f6db263535b4f438aba247b13661bb5779844d9b4f98835feb1", null ],
+      [ "MR_EndMillCutter_Type_Chamfer", "MREndMill_8h.html#a83570155983a77f6db263535b4f438ababe3b0ef7d4dcefaf2f9839ea881acc74", null ],
+      [ "MR_EndMillCutter_Type_Count", "MREndMill_8h.html#a83570155983a77f6db263535b4f438abaa528dad29d246861e500801c57bc9bec", null ]
+    ] ],
     [ "MR_EndMillCutter_AssignFromAnother", "MREndMill_8h.html#a126cfad5f4725a5453df565d8b94fb34", null ],
     [ "MR_EndMillCutter_ConstructFrom", "MREndMill_8h.html#a1b7cf8af60c1869bec6adb92e7ad35c2", null ],
     [ "MR_EndMillCutter_ConstructFromAnother", "MREndMill_8h.html#ae76e1707eaac4a0b9e755dadbf98e58b", null ],
@@ -44,5 +51,5 @@ var MREndMill_8h =
     [ "MR_EndMillTool_Set_cutter", "MREndMill_8h.html#a6540d31d8f0f5c815bdd0b882b1e3875", null ],
     [ "MR_EndMillTool_Set_diameter", "MREndMill_8h.html#a60d0d9bcc3e2c99d6cb8e8b3a1295106", null ],
     [ "MR_EndMillTool_Set_length", "MREndMill_8h.html#a21bea832b18cbd410964df41a64e5b83", null ],
-    [ "MR_EndMillTool_toMesh", "MREndMill_8h.html#a36c9d3e70a79fe00d4cd54d46bdda92b", null ]
+    [ "MR_EndMillTool_toMesh", "MREndMill_8h.html#a4466650e1507551c5b426ce42313b165", null ]
 ];

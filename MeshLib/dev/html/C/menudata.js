@@ -130,7 +130,8 @@ var menudata={children:[
 {text:"m",url:"globals_func.html#index_m"}]},
 {text:"Typedefs",url:"globals_type.html",children:[
 {text:"m",url:"globals_type.html#index_m"}]},
-{text:"Enumerations",url:"globals_enum.html"},
+{text:"Enumerations",url:"globals_enum.html",children:[
+{text:"m",url:"globals_enum.html#index_m"}]},
 {text:"Enumerator",url:"globals_eval.html",children:[
 {text:"m",url:"globals_eval.html#index_m"}]},
 {text:"Macros",url:"globals_defs.html"}]}]}]}]},

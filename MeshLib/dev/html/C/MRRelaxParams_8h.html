@@ -155,7 +155,6 @@ $(function(){initNavTree('MRRelaxParams_8h.html',''); initResizable(true); });
 <div class="textblock"><code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
-<code>#include &lt;stdint.h&gt;</code><br />
 </div>
 <p><a href="MRRelaxParams_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -175,24 +174,24 @@ Typedefs</h2></td></tr>
 <tr class="separator:a3df50e76b078a1626dd994e1df803764"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acbad516b8cbb2b5069857163ee94db3f" id="r_acbad516b8cbb2b5069857163ee94db3f"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a></td></tr>
 <tr class="separator:acbad516b8cbb2b5069857163ee94db3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad9afe6f617031f8762108430bbdebd3f" id="r_ad9afe6f617031f8762108430bbdebd3f"><td class="memItemLeft" align="right" valign="top">typedef int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad9afe6f617031f8762108430bbdebd3f">MR_RelaxApproxType</a></td></tr>
-<tr class="separator:ad9afe6f617031f8762108430bbdebd3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a263e9befdfb2ab381789404f8e2118d2" id="r_a263e9befdfb2ab381789404f8e2118d2"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#a1112baea9bbd6b1cbc51256e83bd698e">MR_RelaxApproxType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a263e9befdfb2ab381789404f8e2118d2">MR_RelaxApproxType</a></td></tr>
+<tr class="separator:a263e9befdfb2ab381789404f8e2118d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a8628933cde20921c453a6d2607bdad62" id="r_a8628933cde20921c453a6d2607bdad62"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#a8628933cde20921c453a6d2607bdad62a0e5c1dd8eaff3292c00303440503c71a">MR_RelaxApproxType_Planar</a> = 0
-, <a class="el" href="#a8628933cde20921c453a6d2607bdad62a597bee20b1dba23ef679b01a3e00a379">MR_RelaxApproxType_Quadric</a> = 1
+<tr class="memitem:a1112baea9bbd6b1cbc51256e83bd698e" id="r_a1112baea9bbd6b1cbc51256e83bd698e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1112baea9bbd6b1cbc51256e83bd698e">MR_RelaxApproxType</a> { <a class="el" href="#a1112baea9bbd6b1cbc51256e83bd698ea0e5c1dd8eaff3292c00303440503c71a">MR_RelaxApproxType_Planar</a> = 0
+, <a class="el" href="#a1112baea9bbd6b1cbc51256e83bd698ea597bee20b1dba23ef679b01a3e00a379">MR_RelaxApproxType_Quadric</a> = 1
  }</td></tr>
-<tr class="separator:a8628933cde20921c453a6d2607bdad62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a1112baea9bbd6b1cbc51256e83bd698e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a4d81850f53f19a0f17371b86d6c3eee7" id="r_a4d81850f53f19a0f17371b86d6c3eee7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d81850f53f19a0f17371b86d6c3eee7">MR_RelaxParams_Get_iterations</a> (const <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *_this)</td></tr>
-<tr class="separator:a4d81850f53f19a0f17371b86d6c3eee7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d4edc7f49b219c7d9aa32404b8fb4e2" id="r_a7d4edc7f49b219c7d9aa32404b8fb4e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d4edc7f49b219c7d9aa32404b8fb4e2">MR_RelaxParams_Set_iterations</a> (<a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *_this, int32_t value)</td></tr>
-<tr class="separator:a7d4edc7f49b219c7d9aa32404b8fb4e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab056d2c7ffa5d64bc7367c7641f85578" id="r_ab056d2c7ffa5d64bc7367c7641f85578"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab056d2c7ffa5d64bc7367c7641f85578">MR_RelaxParams_GetMutable_iterations</a> (<a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *_this)</td></tr>
-<tr class="separator:ab056d2c7ffa5d64bc7367c7641f85578"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad28a71db9e860a02315430407b8c7f06" id="r_ad28a71db9e860a02315430407b8c7f06"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad28a71db9e860a02315430407b8c7f06">MR_RelaxParams_Get_iterations</a> (const <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *_this)</td></tr>
+<tr class="separator:ad28a71db9e860a02315430407b8c7f06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96e091f32783bbdc4bb48ba31ebab119" id="r_a96e091f32783bbdc4bb48ba31ebab119"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a96e091f32783bbdc4bb48ba31ebab119">MR_RelaxParams_Set_iterations</a> (<a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *_this, int value)</td></tr>
+<tr class="separator:a96e091f32783bbdc4bb48ba31ebab119"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a008ce749ed54dbf0dc8e9a0ad85bcb56" id="r_a008ce749ed54dbf0dc8e9a0ad85bcb56"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a008ce749ed54dbf0dc8e9a0ad85bcb56">MR_RelaxParams_GetMutable_iterations</a> (<a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *_this)</td></tr>
+<tr class="separator:a008ce749ed54dbf0dc8e9a0ad85bcb56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f8ee19f99322450b383b09ae2185978" id="r_a5f8ee19f99322450b383b09ae2185978"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f8ee19f99322450b383b09ae2185978">MR_RelaxParams_Get_region</a> (const <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *_this)</td></tr>
 <tr class="separator:a5f8ee19f99322450b383b09ae2185978"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a758bc619e407735c4b809cb43b201353" id="r_a758bc619e407735c4b809cb43b201353"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a758bc619e407735c4b809cb43b201353">MR_RelaxParams_Set_region</a> (<a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *_this, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *value)</td></tr>
@@ -329,14 +328,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ad9afe6f617031f8762108430bbdebd3f" name="ad9afe6f617031f8762108430bbdebd3f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad9afe6f617031f8762108430bbdebd3f">&#9670;&#160;</a></span>MR_RelaxApproxType</h2>
+<a id="a263e9befdfb2ab381789404f8e2118d2" name="a263e9befdfb2ab381789404f8e2118d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a263e9befdfb2ab381789404f8e2118d2">&#9670;&#160;</a></span>MR_RelaxApproxType</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef int32_t <a class="el" href="#ad9afe6f617031f8762108430bbdebd3f">MR_RelaxApproxType</a></td>
+          <td class="memname">typedef enum <a class="el" href="#a1112baea9bbd6b1cbc51256e83bd698e">MR_RelaxApproxType</a> <a class="el" href="#a1112baea9bbd6b1cbc51256e83bd698e">MR_RelaxApproxType</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -373,20 +372,20 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a8628933cde20921c453a6d2607bdad62" name="a8628933cde20921c453a6d2607bdad62"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8628933cde20921c453a6d2607bdad62">&#9670;&#160;</a></span>anonymous enum</h2>
+<a id="a1112baea9bbd6b1cbc51256e83bd698e" name="a1112baea9bbd6b1cbc51256e83bd698e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1112baea9bbd6b1cbc51256e83bd698e">&#9670;&#160;</a></span>MR_RelaxApproxType</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">anonymous enum</td>
+          <td class="memname">enum <a class="el" href="#a1112baea9bbd6b1cbc51256e83bd698e">MR_RelaxApproxType</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a8628933cde20921c453a6d2607bdad62a0e5c1dd8eaff3292c00303440503c71a" name="a8628933cde20921c453a6d2607bdad62a0e5c1dd8eaff3292c00303440503c71a"></a>MR_RelaxApproxType_Planar&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a8628933cde20921c453a6d2607bdad62a597bee20b1dba23ef679b01a3e00a379" name="a8628933cde20921c453a6d2607bdad62a597bee20b1dba23ef679b01a3e00a379"></a>MR_RelaxApproxType_Quadric&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a1112baea9bbd6b1cbc51256e83bd698ea0e5c1dd8eaff3292c00303440503c71a" name="a1112baea9bbd6b1cbc51256e83bd698ea0e5c1dd8eaff3292c00303440503c71a"></a>MR_RelaxApproxType_Planar&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a1112baea9bbd6b1cbc51256e83bd698ea597bee20b1dba23ef679b01a3e00a379" name="a1112baea9bbd6b1cbc51256e83bd698ea597bee20b1dba23ef679b01a3e00a379"></a>MR_RelaxApproxType_Quadric&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -524,14 +523,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a4d81850f53f19a0f17371b86d6c3eee7" name="a4d81850f53f19a0f17371b86d6c3eee7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4d81850f53f19a0f17371b86d6c3eee7">&#9670;&#160;</a></span>MR_RelaxParams_Get_iterations()</h2>
+<a id="ad28a71db9e860a02315430407b8c7f06" name="ad28a71db9e860a02315430407b8c7f06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad28a71db9e860a02315430407b8c7f06">&#9670;&#160;</a></span>MR_RelaxParams_Get_iterations()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int32_t * MR_RelaxParams_Get_iterations </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int * MR_RelaxParams_Get_iterations </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -614,14 +613,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ab056d2c7ffa5d64bc7367c7641f85578" name="ab056d2c7ffa5d64bc7367c7641f85578"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab056d2c7ffa5d64bc7367c7641f85578">&#9670;&#160;</a></span>MR_RelaxParams_GetMutable_iterations()</h2>
+<a id="a008ce749ed54dbf0dc8e9a0ad85bcb56" name="a008ce749ed54dbf0dc8e9a0ad85bcb56"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a008ce749ed54dbf0dc8e9a0ad85bcb56">&#9670;&#160;</a></span>MR_RelaxParams_GetMutable_iterations()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t * MR_RelaxParams_GetMutable_iterations </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int * MR_RelaxParams_GetMutable_iterations </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRMeshRelax_8h.html#acbad516b8cbb2b5069857163ee94db3f">MR_RelaxParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -844,8 +843,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a7d4edc7f49b219c7d9aa32404b8fb4e2" name="a7d4edc7f49b219c7d9aa32404b8fb4e2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7d4edc7f49b219c7d9aa32404b8fb4e2">&#9670;&#160;</a></span>MR_RelaxParams_Set_iterations()</h2>
+<a id="a96e091f32783bbdc4bb48ba31ebab119" name="a96e091f32783bbdc4bb48ba31ebab119"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96e091f32783bbdc4bb48ba31ebab119">&#9670;&#160;</a></span>MR_RelaxParams_Set_iterations()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -858,7 +857,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

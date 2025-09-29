@@ -10,9 +10,9 @@ var MRObjectVoxels_8h =
     [ "MR_ObjectMeshHolder", "MRObjectVoxels_8h.html#a1c5e41e50d86c1613114a6f1296f0934", null ],
     [ "MR_ObjectVoxels", "MRObjectVoxels_8h.html#a4b484d976d1077ae78acdc3b6ea174c0", null ],
     [ "MR_ObjectVoxels_VolumeRenderingParams", "MRObjectVoxels_8h.html#a24e57a3a62e88a846a5ed1147f069192", null ],
-    [ "MR_ObjectVoxels_VolumeRenderingParams_AlphaType", "MRObjectVoxels_8h.html#ad5178d645cdb05027e26c6b1ce99e9da", null ],
-    [ "MR_ObjectVoxels_VolumeRenderingParams_LutType", "MRObjectVoxels_8h.html#a01b90e2c18a2df76312c41fdb2b25b80", null ],
-    [ "MR_ObjectVoxels_VolumeRenderingParams_ShadingType", "MRObjectVoxels_8h.html#a6a68f5232f63bbad7f27706606216561", null ],
+    [ "MR_ObjectVoxels_VolumeRenderingParams_AlphaType", "MRObjectVoxels_8h.html#ac2383d3fe858980d08e8dc799e57c93a", null ],
+    [ "MR_ObjectVoxels_VolumeRenderingParams_LutType", "MRObjectVoxels_8h.html#a68d5f0c968dc131442d70d263799247b", null ],
+    [ "MR_ObjectVoxels_VolumeRenderingParams_ShadingType", "MRObjectVoxels_8h.html#ac2bdb9532472b3549d20f13f8f992871", null ],
     [ "MR_SimpleVolume", "MRObjectVoxels_8h.html#a9eebc3ffb6c9528989e38a2930f391cf", null ],
     [ "MR_SimpleVolumeMinMax", "MRObjectVoxels_8h.html#a8926b75bb2beb7a906aef87b4867fe03", null ],
     [ "MR_std_function_bool_from_float", "MRObjectVoxels_8h.html#adb03ce28cacfff1e499d75d512dc4a84", null ],
@@ -27,6 +27,21 @@ var MRObjectVoxels_8h =
     [ "MR_VisualObject", "MRObjectVoxels_8h.html#a36f3696eda81d7005927ebc5fdf17e14", null ],
     [ "MR_VolumeIndexer", "MRObjectVoxels_8h.html#a21a0b4c112c2e10f8d0497cde9a81c01", null ],
     [ "MR_VoxelBitSet", "MRObjectVoxels_8h.html#a94b5f700f4835481dce132716ff73b05", null ],
+    [ "MR_ObjectVoxels_VolumeRenderingParams_AlphaType", "MRObjectVoxels_8h.html#af38dac0489752363c06549b4b3db52ff", [
+      [ "MR_ObjectVoxels_VolumeRenderingParams_AlphaType_Constant", "MRObjectVoxels_8h.html#af38dac0489752363c06549b4b3db52ffafe32f474a5249218a1dce2dc140f1eef", null ],
+      [ "MR_ObjectVoxels_VolumeRenderingParams_AlphaType_LinearIncreasing", "MRObjectVoxels_8h.html#af38dac0489752363c06549b4b3db52ffaf555a09f61bf4e9f0f1dd858f1287c02", null ],
+      [ "MR_ObjectVoxels_VolumeRenderingParams_AlphaType_LinearDecreasing", "MRObjectVoxels_8h.html#af38dac0489752363c06549b4b3db52ffab7f71ec5837eee915ad0f4bb63006c18", null ]
+    ] ],
+    [ "MR_ObjectVoxels_VolumeRenderingParams_LutType", "MRObjectVoxels_8h.html#a089026df649feecf55996bbfb788387b", [
+      [ "MR_ObjectVoxels_VolumeRenderingParams_LutType_GrayShades", "MRObjectVoxels_8h.html#a089026df649feecf55996bbfb788387baf0d912aa981b6534fcd5090ce833ba6e", null ],
+      [ "MR_ObjectVoxels_VolumeRenderingParams_LutType_Rainbow", "MRObjectVoxels_8h.html#a089026df649feecf55996bbfb788387ba7fee5bff368aa0199d3c28b3af49a1ae", null ],
+      [ "MR_ObjectVoxels_VolumeRenderingParams_LutType_OneColor", "MRObjectVoxels_8h.html#a089026df649feecf55996bbfb788387ba283d34f1bd50e3b21cfc03398874c5db", null ]
+    ] ],
+    [ "MR_ObjectVoxels_VolumeRenderingParams_ShadingType", "MRObjectVoxels_8h.html#a65a820e29a9b216c318a156ff3751198", [
+      [ "MR_ObjectVoxels_VolumeRenderingParams_ShadingType_None", "MRObjectVoxels_8h.html#a65a820e29a9b216c318a156ff3751198ab7cf51323fcfdd20566c8ceb464ad1f9", null ],
+      [ "MR_ObjectVoxels_VolumeRenderingParams_ShadingType_ValueGradient", "MRObjectVoxels_8h.html#a65a820e29a9b216c318a156ff3751198a32b30dc3da220d5ea1c7e8ebfbfbefe9", null ],
+      [ "MR_ObjectVoxels_VolumeRenderingParams_ShadingType_AlphaGradient", "MRObjectVoxels_8h.html#a65a820e29a9b216c318a156ff3751198a703afe4f067b0bb60ec936653cf542fa", null ]
+    ] ],
     [ "MR_ObjectVoxels_applyScale", "MRObjectVoxels_8h.html#a2dc3f76d4042393dad23c9d2e3b8b175", null ],
     [ "MR_ObjectVoxels_AssignFromAnother", "MRObjectVoxels_8h.html#aeb59712992e6fe04ef2ae48ce33c22a8", null ],
     [ "MR_ObjectVoxels_ClassName", "MRObjectVoxels_8h.html#a469e16c986e1bf7c3be1e2b53e51c764", null ],

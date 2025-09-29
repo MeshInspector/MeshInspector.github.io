@@ -1,17 +1,22 @@
 var MRCNCMachineSettings_8h =
 [
     [ "MR_CNCMachineSettings", "MRCNCMachineSettings_8h.html#a325911971cee7957b63b98e5d38aedc4", null ],
-    [ "MR_CNCMachineSettings_RotationAxisName", "MRCNCMachineSettings_8h.html#a86ba2ec3a874980ece7e1a7fc9e7502f", null ],
+    [ "MR_CNCMachineSettings_RotationAxisName", "MRCNCMachineSettings_8h.html#aaad98f4791940b48d73de8c12400fec6", null ],
     [ "MR_std_optional_MR_Vector2f", "MRCNCMachineSettings_8h.html#af7ea855ac419f239c2499023478617a4", null ],
     [ "MR_std_vector_MR_CNCMachineSettings_RotationAxisName", "MRCNCMachineSettings_8h.html#a39222f7cde24558ae20257c7486241e8", null ],
     [ "MR_Vector3f", "MRCNCMachineSettings_8h.html#a6bf133eda1ec95be202b77c33412bc8e", null ],
+    [ "MR_CNCMachineSettings_RotationAxisName", "MRCNCMachineSettings_8h.html#acba24652264852e5e5822638cbe3cfd3", [
+      [ "MR_CNCMachineSettings_RotationAxisName_A", "MRCNCMachineSettings_8h.html#acba24652264852e5e5822638cbe3cfd3ab823c8f1458d69230e1f2c1f25def03d", null ],
+      [ "MR_CNCMachineSettings_RotationAxisName_B", "MRCNCMachineSettings_8h.html#acba24652264852e5e5822638cbe3cfd3a21307c6b0f43cce9307388df9e95db5c", null ],
+      [ "MR_CNCMachineSettings_RotationAxisName_C", "MRCNCMachineSettings_8h.html#acba24652264852e5e5822638cbe3cfd3a712176eac9cf69e7a2648af60be16bc2", null ]
+    ] ],
     [ "MR_CNCMachineSettings_AssignFromAnother", "MRCNCMachineSettings_8h.html#ab6e1f3adede2862500a7c3a23ada1854", null ],
     [ "MR_CNCMachineSettings_ConstructFromAnother", "MRCNCMachineSettings_8h.html#a3b0383112f73fcc239341ddafbb4d3ed", null ],
     [ "MR_CNCMachineSettings_DefaultConstruct", "MRCNCMachineSettings_8h.html#a6ad20d393144b5135fc9ee0097fa41a2", null ],
     [ "MR_CNCMachineSettings_DefaultConstructArray", "MRCNCMachineSettings_8h.html#ae2634e9ecddd38f7d01691956c15d25c", null ],
     [ "MR_CNCMachineSettings_Destroy", "MRCNCMachineSettings_8h.html#a226dea3340cbfd87c8403879a74c0ae7", null ],
     [ "MR_CNCMachineSettings_DestroyArray", "MRCNCMachineSettings_8h.html#aded2af0183f4c32a17dca8b9da114635", null ],
-    [ "MR_CNCMachineSettings_getAxesCount", "MRCNCMachineSettings_8h.html#a3508abf4448bbdbeabcb28fe3fee5329", null ],
+    [ "MR_CNCMachineSettings_getAxesCount", "MRCNCMachineSettings_8h.html#a23a0c2df513f8c1315199490cf04ec5f", null ],
     [ "MR_CNCMachineSettings_getFeedrateIdle", "MRCNCMachineSettings_8h.html#af48f39b6b84299c894b68555a99a0b41", null ],
     [ "MR_CNCMachineSettings_getHomePosition", "MRCNCMachineSettings_8h.html#a6fe667e8a270e9f01e38544faa5b148c", null ],
     [ "MR_CNCMachineSettings_getRotationAxis", "MRCNCMachineSettings_8h.html#aa9bd91452515f76a68711991d16fe8c4", null ],

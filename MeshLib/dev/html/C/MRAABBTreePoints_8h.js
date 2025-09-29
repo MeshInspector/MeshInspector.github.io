@@ -5,7 +5,7 @@ var MRAABBTreePoints_8h =
     [ "MR_AABBTreePoints_Point", "MRAABBTreePoints_8h.html#a95218be66d288a0d4bf57491e6e8b109", null ],
     [ "MR_Mesh", "MRAABBTreePoints_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
     [ "MR_PointCloud", "MRAABBTreePoints_8h.html#aa319738c95f0bbde075b7ef777cf2665", null ],
-    [ "MR_std_pair_int32_t_int32_t", "MRAABBTreePoints_8h.html#a7d06b084d022a4beaac6f3b03286fc07", null ],
+    [ "MR_std_pair_int_int", "MRAABBTreePoints_8h.html#a3ad79c88fa1e467d5ccd88cbcf762ae3", null ],
     [ "MR_std_vector_MR_AABBTreePoints_Point", "MRAABBTreePoints_8h.html#a73ecbd814e9edb9c62f4f57cbbf98cb6", null ],
     [ "MR_Vector_MR_AABBTreePoints_Node_MR_NodeId", "MRAABBTreePoints_8h.html#ab2a7de4aa3afd6ac2dbca1388a451783", null ],
     [ "MR_VertBitSet", "MRAABBTreePoints_8h.html#a3df50e76b078a1626dd994e1df803764", null ],
@@ -19,7 +19,7 @@ var MRAABBTreePoints_8h =
     [ "MR_AABBTreePoints_ConstructFromAnother", "MRAABBTreePoints_8h.html#a7632a4b90c37749c146c62774876f20e", null ],
     [ "MR_AABBTreePoints_Destroy", "MRAABBTreePoints_8h.html#a91d2feea31d1fa6f7893557bea94da0e", null ],
     [ "MR_AABBTreePoints_DestroyArray", "MRAABBTreePoints_8h.html#a6980aba96ab2c05eb26b1fac9259fcc3", null ],
-    [ "MR_AABBTreePoints_Get_MaxNumPointsInLeaf", "MRAABBTreePoints_8h.html#a99f45e0afe368ea53980565fa437c9ca", null ],
+    [ "MR_AABBTreePoints_Get_MaxNumPointsInLeaf", "MRAABBTreePoints_8h.html#a3626d16aeacb848377bf3e4ea8cc98dc", null ],
     [ "MR_AABBTreePoints_getBoundingBox", "MRAABBTreePoints_8h.html#a4905ba9533ad4b3de079026bdbefd97a", null ],
     [ "MR_AABBTreePoints_getLeafOrder", "MRAABBTreePoints_8h.html#ac774351d1624e4ecf0e491b1e2dfd053", null ],
     [ "MR_AABBTreePoints_getLeafOrderAndReset", "MRAABBTreePoints_8h.html#ac42dcc57173073e41fce7055494c46bc", null ],
@@ -35,7 +35,7 @@ var MRAABBTreePoints_8h =
     [ "MR_AABBTreePoints_Node_Get_box", "MRAABBTreePoints_8h.html#a4bd5e977044062c54dc0aff24932fdb5", null ],
     [ "MR_AABBTreePoints_Node_Get_l", "MRAABBTreePoints_8h.html#aa4305ee9efb8c611a4b2a708bc42e483", null ],
     [ "MR_AABBTreePoints_Node_Get_r", "MRAABBTreePoints_8h.html#ad5b58934597f3769996c5eeb9121b4ea", null ],
-    [ "MR_AABBTreePoints_Node_getLeafPointRange", "MRAABBTreePoints_8h.html#a8f224d0297c19aaf296e84adc21a046e", null ],
+    [ "MR_AABBTreePoints_Node_getLeafPointRange", "MRAABBTreePoints_8h.html#a54d06478333f385563a6112f7134cd89", null ],
     [ "MR_AABBTreePoints_Node_GetMutable_box", "MRAABBTreePoints_8h.html#af365a02768f3ae94873f9e96fbdec96a", null ],
     [ "MR_AABBTreePoints_Node_GetMutable_l", "MRAABBTreePoints_8h.html#a3b153b78de28780ce476eaac48862dd8", null ],
     [ "MR_AABBTreePoints_Node_GetMutable_r", "MRAABBTreePoints_8h.html#a6106fad835fdfeeca6c4d87c01c5bc1f", null ],
@@ -45,7 +45,7 @@ var MRAABBTreePoints_8h =
     [ "MR_AABBTreePoints_Node_Set_box", "MRAABBTreePoints_8h.html#a77976d087930392aa6b2bec1c83892cb", null ],
     [ "MR_AABBTreePoints_Node_Set_l", "MRAABBTreePoints_8h.html#a450e8630523750b382e938a8802565c8", null ],
     [ "MR_AABBTreePoints_Node_Set_r", "MRAABBTreePoints_8h.html#ae9139a9a90e761120bddba4c1fa89afb", null ],
-    [ "MR_AABBTreePoints_Node_setLeafPointRange", "MRAABBTreePoints_8h.html#ad2bcb1a34a060c315411f08cbd3f289d", null ],
+    [ "MR_AABBTreePoints_Node_setLeafPointRange", "MRAABBTreePoints_8h.html#a1e09f6c0debcdd7cd307e4b0edaf08fc", null ],
     [ "MR_AABBTreePoints_nodes", "MRAABBTreePoints_8h.html#ade426fb0fcf8adfadc71bf6476cbae33", null ],
     [ "MR_AABBTreePoints_OffsetMutablePtr", "MRAABBTreePoints_8h.html#a0b941e5cc34387fea69ecbe137180ece", null ],
     [ "MR_AABBTreePoints_OffsetPtr", "MRAABBTreePoints_8h.html#adeea268b279be2b7d08179a8429caebb", null ],
@@ -67,5 +67,5 @@ var MRAABBTreePoints_8h =
     [ "MR_AABBTreePoints_Point_Set_id", "MRAABBTreePoints_8h.html#af3d0276d7802284550dfb4d97263cb33", null ],
     [ "MR_AABBTreePoints_refit", "MRAABBTreePoints_8h.html#aa06ff8bd5342fec197db747fb90c5fe7", null ],
     [ "MR_AABBTreePoints_rootNodeId", "MRAABBTreePoints_8h.html#a1121b6687ee852eed3bc958222bc449a", null ],
-    [ "MR_getNumNodesPoints", "MRAABBTreePoints_8h.html#a4490c2c4525d8139f2cb2300ed360fc5", null ]
+    [ "MR_getNumNodesPoints", "MRAABBTreePoints_8h.html#a13e421218ef034b47c8ae7e79ff41ee9", null ]
 ];

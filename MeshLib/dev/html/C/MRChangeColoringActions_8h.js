@@ -3,7 +3,7 @@ var MRChangeColoringActions_8h =
     [ "MR_ChangeFacesColorMapAction", "MRChangeColoringActions_8h.html#aa58fe3709044e59d1dfb8d98ebf99e87", null ],
     [ "MR_ChangeLinesColorMapAction", "MRChangeColoringActions_8h.html#a5d3e82a1fb3901ece39b0b72e3f54800", null ],
     [ "MR_ChangeObjectColorAction", "MRChangeColoringActions_8h.html#ac5655fa994c66e1064866af75a1c3f2b", null ],
-    [ "MR_ChangeObjectColorAction_Type", "MRChangeColoringActions_8h.html#a8134e20f6944b47ad56683dc43298223", null ],
+    [ "MR_ChangeObjectColorAction_Type", "MRChangeColoringActions_8h.html#ad0923473099f8142766aa2e3f19a66da", null ],
     [ "MR_FaceColors", "MRChangeColoringActions_8h.html#a88c7503c40b624a577fda0eab1faa5fa", null ],
     [ "MR_HistoryAction", "MRChangeColoringActions_8h.html#a26fdcccc5668d7a10acc1e27c11d1e56", null ],
     [ "MR_std_shared_ptr_MR_ObjectLinesHolder", "MRChangeColoringActions_8h.html#ad458eacc045c043795ff381c6b6455a7", null ],
@@ -11,6 +11,11 @@ var MRChangeColoringActions_8h =
     [ "MR_std_shared_ptr_MR_VisualObject", "MRChangeColoringActions_8h.html#aa4b9828f4113d20d85483568f977c8ff", null ],
     [ "MR_std_string", "MRChangeColoringActions_8h.html#a69dc6868c10c92fb8b8a255b0130d289", null ],
     [ "MR_UndirectedEdgeColors", "MRChangeColoringActions_8h.html#a63019091c05b8b468f7f88db47cfb0ef", null ],
+    [ "MR_ChangeObjectColorAction_Type", "MRChangeColoringActions_8h.html#a9789518b7ebd15e444aa399fec82113b", [
+      [ "MR_ChangeObjectColorAction_Type_Unselected", "MRChangeColoringActions_8h.html#a9789518b7ebd15e444aa399fec82113bab7a5afbdff1adbd80b5608ae7243da51", null ],
+      [ "MR_ChangeObjectColorAction_Type_Selected", "MRChangeColoringActions_8h.html#a9789518b7ebd15e444aa399fec82113ba1e8cbc41ddcf2ced5bcd057acf267063", null ],
+      [ "MR_ChangeObjectColorAction_Type_Back", "MRChangeColoringActions_8h.html#a9789518b7ebd15e444aa399fec82113baa6bfe306da5b05891481dc4629693916", null ]
+    ] ],
     [ "MR_ChangeFacesColorMapAction_action", "MRChangeColoringActions_8h.html#aae7b3d9f3c8a6966e77b3e8c2d9f825a", null ],
     [ "MR_ChangeFacesColorMapAction_AssignFromAnother", "MRChangeColoringActions_8h.html#a38bf41ad35b0570084760057877fec8d", null ],
     [ "MR_ChangeFacesColorMapAction_Construct_2", "MRChangeColoringActions_8h.html#afe990c63bce6d07d10a9e284385ee23d", null ],

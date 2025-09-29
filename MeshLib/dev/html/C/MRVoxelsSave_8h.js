@@ -19,7 +19,7 @@ var MRVoxelsSave_8h =
     [ "MR_VoxelsSave_gridToVdb_std_filesystem_path", "MRVoxelsSave_8h.html#a656e8272c2c853ae895ee6ee2075c4ca", null ],
     [ "MR_VoxelsSave_gridToVdb_std_ostream", "MRVoxelsSave_8h.html#a28c88b891571df62b246a6a72ba205d6", null ],
     [ "MR_VoxelsSave_saveAllSlicesToImage", "MRVoxelsSave_8h.html#a99a42d62095524e10fe9f09c949e8545", null ],
-    [ "MR_VoxelsSave_saveSliceToImage", "MRVoxelsSave_8h.html#a490bc4bc94fe1f83d7b97e1714a05848", null ],
+    [ "MR_VoxelsSave_saveSliceToImage", "MRVoxelsSave_8h.html#a343bd1970402fb7fb50b8dcba5af42e3", null ],
     [ "MR_VoxelsSave_SavingSettings_AssignFromAnother", "MRVoxelsSave_8h.html#aaf12d77fff75d5982fecd80b7e5a298e", null ],
     [ "MR_VoxelsSave_SavingSettings_ConstructFrom", "MRVoxelsSave_8h.html#aa6b50ebc77db1ce564b984384b1b09cd", null ],
     [ "MR_VoxelsSave_SavingSettings_ConstructFromAnother", "MRVoxelsSave_8h.html#a02a822de385b5bda07673df16978ed7c", null ],

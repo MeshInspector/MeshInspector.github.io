@@ -35,7 +35,7 @@ var MRObjectPoints_8h =
     [ "MR_ObjectPoints_MutableUpcastTo_MR_VisualObject", "MRObjectPoints_8h.html#a2616793ce3509f58622711eb0b48a379", null ],
     [ "MR_ObjectPoints_OffsetMutablePtr", "MRObjectPoints_8h.html#ae75fb4e5af6713aba1a5edff1f49249c", null ],
     [ "MR_ObjectPoints_OffsetPtr", "MRObjectPoints_8h.html#ad60ccd803f0c682ca3350f71c531f2ec", null ],
-    [ "MR_ObjectPoints_setDirtyFlags", "MRObjectPoints_8h.html#ab20e520f94fe44bed03e98ec0c3ce29e", null ],
+    [ "MR_ObjectPoints_setDirtyFlags", "MRObjectPoints_8h.html#a11f855845a99cd7e60d6c2544e7606be", null ],
     [ "MR_ObjectPoints_setPointCloud", "MRObjectPoints_8h.html#a083188ada4e563a60bbbffd21a671189", null ],
     [ "MR_ObjectPoints_shallowClone", "MRObjectPoints_8h.html#a7b5447a70e8f5e5d21c2f6f0bcaa0f0c", null ],
     [ "MR_ObjectPoints_swapPointCloud", "MRObjectPoints_8h.html#a397c43ccf8337338135b39dad8f61171", null ],

@@ -12,8 +12,8 @@ var MRFeatureObject_8h =
     [ "MR_FeatureObject", "MRFeatureObject_8h.html#aff93746de8efe15fd5fa764838b71e9b", null ],
     [ "MR_FeatureObjectProjectPointResult", "MRFeatureObject_8h.html#af9fa34609dfd430727cb347f86a5f28f", null ],
     [ "MR_FeatureObjectSharedProperty", "MRFeatureObject_8h.html#a91951c4045b3ad37edb3f58d23ca7185", null ],
-    [ "MR_FeaturePropertyKind", "MRFeatureObject_8h.html#abca0c881ea6d174bd8c4cadb6a59e614", null ],
-    [ "MR_FeatureVisualizePropertyType", "MRFeatureObject_8h.html#a3c02e356e81641d91a78354b35cdb617", null ],
+    [ "MR_FeaturePropertyKind", "MRFeatureObject_8h.html#ae34a2e051c3c91ba1a3ad66db8156da7", null ],
+    [ "MR_FeatureVisualizePropertyType", "MRFeatureObject_8h.html#a51bbbaf3e31431a00ce7d9ef3002d0b8", null ],
     [ "MR_LineObject", "MRFeatureObject_8h.html#a7a2a1e79f2d7916e5b59911ffa2ce37e", null ],
     [ "MR_Object", "MRFeatureObject_8h.html#accce9c9179cadabc541edda0fc7a2571", null ],
     [ "MR_ObjectChildrenHolder", "MRFeatureObject_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc", null ],
@@ -29,6 +29,18 @@ var MRFeatureObject_8h =
     [ "MR_ViewportMask", "MRFeatureObject_8h.html#a85b2b5f875361920283d305645987092", null ],
     [ "MR_ViewportProperty_MR_Color", "MRFeatureObject_8h.html#aacabcfa2021a7c9f2d2f8862cd9c75c6", null ],
     [ "MR_VisualObject", "MRFeatureObject_8h.html#a36f3696eda81d7005927ebc5fdf17e14", null ],
+    [ "MR_FeaturePropertyKind", "MRFeatureObject_8h.html#a9a47a372833359aa51b3b0ff59adcb83", [
+      [ "MR_FeaturePropertyKind_position", "MRFeatureObject_8h.html#a9a47a372833359aa51b3b0ff59adcb83ab937e3066b82d8bfff009dff663c97a6", null ],
+      [ "MR_FeaturePropertyKind_linearDimension", "MRFeatureObject_8h.html#a9a47a372833359aa51b3b0ff59adcb83aef840df72b0cbea14307682df5c6a793", null ],
+      [ "MR_FeaturePropertyKind_direction", "MRFeatureObject_8h.html#a9a47a372833359aa51b3b0ff59adcb83af7a2254dd06399f512249e66821e1265", null ],
+      [ "MR_FeaturePropertyKind_angle", "MRFeatureObject_8h.html#a9a47a372833359aa51b3b0ff59adcb83aff926299d051525986ffb0c7abf226c3", null ],
+      [ "MR_FeaturePropertyKind_other", "MRFeatureObject_8h.html#a9a47a372833359aa51b3b0ff59adcb83afc0548543c18c58e8172be4aee1692c9", null ]
+    ] ],
+    [ "MR_FeatureVisualizePropertyType", "MRFeatureObject_8h.html#a592d824807b97001a50538cd6d3ad159", [
+      [ "MR_FeatureVisualizePropertyType_Subfeatures", "MRFeatureObject_8h.html#a592d824807b97001a50538cd6d3ad159a23565a28e581a11fe855e4849f6598cb", null ],
+      [ "MR_FeatureVisualizePropertyType_DetailsOnNameTag", "MRFeatureObject_8h.html#a592d824807b97001a50538cd6d3ad159aba2dfbb536fff21cefac8130bf3d2c73", null ],
+      [ "MR_FeatureVisualizePropertyType__count", "MRFeatureObject_8h.html#a592d824807b97001a50538cd6d3ad159a0db45b7f31b8d883c25d21475fd771bc", null ]
+    ] ],
     [ "MR_FeatureObject_ClassName", "MRFeatureObject_8h.html#a730a3686c45d93045e1c95ed68960c85", null ],
     [ "MR_FeatureObject_className", "MRFeatureObject_8h.html#a58c3ae6481ffcc5e7ebfd54041dc2c8d", null ],
     [ "MR_FeatureObject_ClassNameInPlural", "MRFeatureObject_8h.html#ae3a2b008c05a52a8a843e8097cfbc7a1", null ],

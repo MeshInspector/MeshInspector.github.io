@@ -1347,7 +1347,7 @@ var searchData=
   ['mr_5fregionid_169',['MR_RegionId',['.././C/structMR__RegionId.html',1,'']]],
   ['mr_5fstd_5farray_5fdouble_5f4_170',['MR_std_array_double_4',['.././C/structMR__std__array__double__4.html',1,'']]],
   ['mr_5fstd_5farray_5ffloat_5f4_171',['MR_std_array_float_4',['.././C/structMR__std__array__float__4.html',1,'']]],
-  ['mr_5fstd_5farray_5fint32_5ft_5f4_172',['MR_std_array_int32_t_4',['.././C/structMR__std__array__int32__t__4.html',1,'']]],
+  ['mr_5fstd_5farray_5fint_5f4_172',['MR_std_array_int_4',['.././C/structMR__std__array__int__4.html',1,'']]],
   ['mr_5fstd_5farray_5fmr_5faffinexf3d_5f4_173',['MR_std_array_MR_AffineXf3d_4',['.././C/structMR__std__array__MR__AffineXf3d__4.html',1,'']]],
   ['mr_5fstd_5farray_5fmr_5faffinexf3f_5f4_174',['MR_std_array_MR_AffineXf3f_4',['.././C/structMR__std__array__MR__AffineXf3f__4.html',1,'']]],
   ['mr_5fstd_5farray_5fmr_5fvector3f_5f3_175',['MR_std_array_MR_Vector3f_3',['.././C/structMR__std__array__MR__Vector3f__3.html',1,'']]],

@@ -154,7 +154,6 @@ $(function(){initNavTree('MRFeatureHelpers_8h.html',''); initResizable(true); })
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
-<code>#include &lt;stdint.h&gt;</code><br />
 </div>
 <p><a href="MRFeatureHelpers_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -170,8 +169,8 @@ Typedefs</h2></td></tr>
 <tr class="separator:a169b2cb1c4b9a267fdcd4b388a456d37"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa57d1ba166411d1c6f286286739d905" id="r_aaa57d1ba166411d1c6f286286739d905"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#aaa57d1ba166411d1c6f286286739d905">MR_std_unordered_set_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaa57d1ba166411d1c6f286286739d905">MR_std_unordered_set_std_string</a></td></tr>
 <tr class="separator:aaa57d1ba166411d1c6f286286739d905"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a08ba1d484424f7a3b034019721fd9a46" id="r_a08ba1d484424f7a3b034019721fd9a46"><td class="memItemLeft" align="right" valign="top">typedef int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08ba1d484424f7a3b034019721fd9a46">MR_FeaturesObjectKind</a></td></tr>
-<tr class="separator:a08ba1d484424f7a3b034019721fd9a46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e0d5e4897988cd7170e5e9cf9cf2926" id="r_a1e0d5e4897988cd7170e5e9cf9cf2926"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#a27112dad4e290863cba866c44ac4c7fe">MR_FeaturesObjectKind</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e0d5e4897988cd7170e5e9cf9cf2926">MR_FeaturesObjectKind</a></td></tr>
+<tr class="separator:a1e0d5e4897988cd7170e5e9cf9cf2926"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09787c2631c274290f1a5332058588bf" id="r_a09787c2631c274290f1a5332058588bf"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a09787c2631c274290f1a5332058588bf">MR_ObjKindTraits_MR_FeaturesObjectKind_Point</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09787c2631c274290f1a5332058588bf">MR_ObjKindTraits_MR_FeaturesObjectKind_Point</a></td></tr>
 <tr class="memdesc:a09787c2631c274290f1a5332058588bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1ObjKindTraits.html">MR::ObjKindTraits</a>&lt;MR::FeaturesObjectKind::Point&gt;</code>.  <br /></td></tr>
 <tr class="separator:a09787c2631c274290f1a5332058588bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -196,19 +195,19 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:aac34dfe6c6b73b43a4656c9dce041034" id="r_aac34dfe6c6b73b43a4656c9dce041034"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
-&#160;&#160;<a class="el" href="#aac34dfe6c6b73b43a4656c9dce041034a0db356fbdb019e20a09be9170816bf35">MR_FeaturesObjectKind_Point</a> = 0
-, <a class="el" href="#aac34dfe6c6b73b43a4656c9dce041034a0c31e63565d9b85a3bfbbde817b88376">MR_FeaturesObjectKind_Line</a> = 1
-, <a class="el" href="#aac34dfe6c6b73b43a4656c9dce041034a3a63b9de41af83519aa61bfd2d3d8938">MR_FeaturesObjectKind_Plane</a> = 2
-, <a class="el" href="#aac34dfe6c6b73b43a4656c9dce041034a840ac92ea29857ae5e83e3c8194caca6">MR_FeaturesObjectKind_Circle</a> = 3
+<tr class="memitem:a27112dad4e290863cba866c44ac4c7fe" id="r_a27112dad4e290863cba866c44ac4c7fe"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a27112dad4e290863cba866c44ac4c7fe">MR_FeaturesObjectKind</a> { <br />
+&#160;&#160;<a class="el" href="#a27112dad4e290863cba866c44ac4c7fea0db356fbdb019e20a09be9170816bf35">MR_FeaturesObjectKind_Point</a> = 0
+, <a class="el" href="#a27112dad4e290863cba866c44ac4c7fea0c31e63565d9b85a3bfbbde817b88376">MR_FeaturesObjectKind_Line</a> = 1
+, <a class="el" href="#a27112dad4e290863cba866c44ac4c7fea3a63b9de41af83519aa61bfd2d3d8938">MR_FeaturesObjectKind_Plane</a> = 2
+, <a class="el" href="#a27112dad4e290863cba866c44ac4c7fea840ac92ea29857ae5e83e3c8194caca6">MR_FeaturesObjectKind_Circle</a> = 3
 , <br />
-&#160;&#160;<a class="el" href="#aac34dfe6c6b73b43a4656c9dce041034aef915e6db983c8ad4b968f65e3b1a6a7">MR_FeaturesObjectKind_Sphere</a> = 4
-, <a class="el" href="#aac34dfe6c6b73b43a4656c9dce041034a6f7287cb67c5c83facbff32288cb9948">MR_FeaturesObjectKind_Cylinder</a> = 5
-, <a class="el" href="#aac34dfe6c6b73b43a4656c9dce041034a819372d0182d4e2f9567d8aa4bb25d27">MR_FeaturesObjectKind_Cone</a> = 6
-, <a class="el" href="#aac34dfe6c6b73b43a4656c9dce041034af22cb6638d0caa98ec76b27fae33b493">MR_FeaturesObjectKind__count</a> = 7
+&#160;&#160;<a class="el" href="#a27112dad4e290863cba866c44ac4c7feaef915e6db983c8ad4b968f65e3b1a6a7">MR_FeaturesObjectKind_Sphere</a> = 4
+, <a class="el" href="#a27112dad4e290863cba866c44ac4c7fea6f7287cb67c5c83facbff32288cb9948">MR_FeaturesObjectKind_Cylinder</a> = 5
+, <a class="el" href="#a27112dad4e290863cba866c44ac4c7fea819372d0182d4e2f9567d8aa4bb25d27">MR_FeaturesObjectKind_Cone</a> = 6
+, <a class="el" href="#a27112dad4e290863cba866c44ac4c7feaf22cb6638d0caa98ec76b27fae33b493">MR_FeaturesObjectKind__count</a> = 7
 <br />
  }</td></tr>
-<tr class="separator:aac34dfe6c6b73b43a4656c9dce041034"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a27112dad4e290863cba866c44ac4c7fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -366,7 +365,7 @@ Functions</h2></td></tr>
 <tr class="separator:abc627bfc9bd25b7a73a45453cef8dcf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a454177bc0e037ce3ff98eb3b127edf85" id="r_a454177bc0e037ce3ff98eb3b127edf85"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#afea6d10419fc916c21bc300359482759">MR_ObjKindTraits_MR_FeaturesObjectKind_Cone</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a454177bc0e037ce3ff98eb3b127edf85">MR_ObjKindTraits_MR_FeaturesObjectKind_Cone_AssignFromAnother</a> (<a class="el" href="#afea6d10419fc916c21bc300359482759">MR_ObjKindTraits_MR_FeaturesObjectKind_Cone</a> *_this, const <a class="el" href="#afea6d10419fc916c21bc300359482759">MR_ObjKindTraits_MR_FeaturesObjectKind_Cone</a> *_other)</td></tr>
 <tr class="separator:a454177bc0e037ce3ff98eb3b127edf85"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac1257ee9c71e0aaf7175647529fe0282" id="r_ac1257ee9c71e0aaf7175647529fe0282"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRChangeColoringActions_8h.html#aa4b9828f4113d20d85483568f977c8ff">MR_std_shared_ptr_MR_VisualObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac1257ee9c71e0aaf7175647529fe0282">MR_makeObjectFromEnum</a> (<a class="el" href="#a08ba1d484424f7a3b034019721fd9a46">MR_FeaturesObjectKind</a> kind)</td></tr>
+<tr class="memitem:ac1257ee9c71e0aaf7175647529fe0282" id="r_ac1257ee9c71e0aaf7175647529fe0282"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRChangeColoringActions_8h.html#aa4b9828f4113d20d85483568f977c8ff">MR_std_shared_ptr_MR_VisualObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac1257ee9c71e0aaf7175647529fe0282">MR_makeObjectFromEnum</a> (<a class="el" href="#a27112dad4e290863cba866c44ac4c7fe">MR_FeaturesObjectKind</a> kind)</td></tr>
 <tr class="separator:ac1257ee9c71e0aaf7175647529fe0282"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adfbeb7e074abddc3c254b04728f35fe8" id="r_adfbeb7e074abddc3c254b04728f35fe8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRChangeColoringActions_8h.html#aa4b9828f4113d20d85483568f977c8ff">MR_std_shared_ptr_MR_VisualObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adfbeb7e074abddc3c254b04728f35fe8">MR_makeObjectFromClassName</a> (const char *className, const char *className_end)</td></tr>
 <tr class="separator:adfbeb7e074abddc3c254b04728f35fe8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -394,14 +393,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a08ba1d484424f7a3b034019721fd9a46" name="a08ba1d484424f7a3b034019721fd9a46"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a08ba1d484424f7a3b034019721fd9a46">&#9670;&#160;</a></span>MR_FeaturesObjectKind</h2>
+<a id="a1e0d5e4897988cd7170e5e9cf9cf2926" name="a1e0d5e4897988cd7170e5e9cf9cf2926"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e0d5e4897988cd7170e5e9cf9cf2926">&#9670;&#160;</a></span>MR_FeaturesObjectKind</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef int32_t <a class="el" href="#a08ba1d484424f7a3b034019721fd9a46">MR_FeaturesObjectKind</a></td>
+          <td class="memname">typedef enum <a class="el" href="#a27112dad4e290863cba866c44ac4c7fe">MR_FeaturesObjectKind</a> <a class="el" href="#a27112dad4e290863cba866c44ac4c7fe">MR_FeaturesObjectKind</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -578,26 +577,27 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="aac34dfe6c6b73b43a4656c9dce041034" name="aac34dfe6c6b73b43a4656c9dce041034"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aac34dfe6c6b73b43a4656c9dce041034">&#9670;&#160;</a></span>anonymous enum</h2>
+<a id="a27112dad4e290863cba866c44ac4c7fe" name="a27112dad4e290863cba866c44ac4c7fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27112dad4e290863cba866c44ac4c7fe">&#9670;&#160;</a></span>MR_FeaturesObjectKind</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">anonymous enum</td>
+          <td class="memname">enum <a class="el" href="#a27112dad4e290863cba866c44ac4c7fe">MR_FeaturesObjectKind</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Which object type we're adding. Update <code>ObjKindTraits</code> if you change this enum. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aac34dfe6c6b73b43a4656c9dce041034a0db356fbdb019e20a09be9170816bf35" name="aac34dfe6c6b73b43a4656c9dce041034a0db356fbdb019e20a09be9170816bf35"></a>MR_FeaturesObjectKind_Point&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aac34dfe6c6b73b43a4656c9dce041034a0c31e63565d9b85a3bfbbde817b88376" name="aac34dfe6c6b73b43a4656c9dce041034a0c31e63565d9b85a3bfbbde817b88376"></a>MR_FeaturesObjectKind_Line&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aac34dfe6c6b73b43a4656c9dce041034a3a63b9de41af83519aa61bfd2d3d8938" name="aac34dfe6c6b73b43a4656c9dce041034a3a63b9de41af83519aa61bfd2d3d8938"></a>MR_FeaturesObjectKind_Plane&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aac34dfe6c6b73b43a4656c9dce041034a840ac92ea29857ae5e83e3c8194caca6" name="aac34dfe6c6b73b43a4656c9dce041034a840ac92ea29857ae5e83e3c8194caca6"></a>MR_FeaturesObjectKind_Circle&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aac34dfe6c6b73b43a4656c9dce041034aef915e6db983c8ad4b968f65e3b1a6a7" name="aac34dfe6c6b73b43a4656c9dce041034aef915e6db983c8ad4b968f65e3b1a6a7"></a>MR_FeaturesObjectKind_Sphere&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aac34dfe6c6b73b43a4656c9dce041034a6f7287cb67c5c83facbff32288cb9948" name="aac34dfe6c6b73b43a4656c9dce041034a6f7287cb67c5c83facbff32288cb9948"></a>MR_FeaturesObjectKind_Cylinder&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aac34dfe6c6b73b43a4656c9dce041034a819372d0182d4e2f9567d8aa4bb25d27" name="aac34dfe6c6b73b43a4656c9dce041034a819372d0182d4e2f9567d8aa4bb25d27"></a>MR_FeaturesObjectKind_Cone&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aac34dfe6c6b73b43a4656c9dce041034af22cb6638d0caa98ec76b27fae33b493" name="aac34dfe6c6b73b43a4656c9dce041034af22cb6638d0caa98ec76b27fae33b493"></a>MR_FeaturesObjectKind__count&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a27112dad4e290863cba866c44ac4c7fea0db356fbdb019e20a09be9170816bf35" name="a27112dad4e290863cba866c44ac4c7fea0db356fbdb019e20a09be9170816bf35"></a>MR_FeaturesObjectKind_Point&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a27112dad4e290863cba866c44ac4c7fea0c31e63565d9b85a3bfbbde817b88376" name="a27112dad4e290863cba866c44ac4c7fea0c31e63565d9b85a3bfbbde817b88376"></a>MR_FeaturesObjectKind_Line&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a27112dad4e290863cba866c44ac4c7fea3a63b9de41af83519aa61bfd2d3d8938" name="a27112dad4e290863cba866c44ac4c7fea3a63b9de41af83519aa61bfd2d3d8938"></a>MR_FeaturesObjectKind_Plane&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a27112dad4e290863cba866c44ac4c7fea840ac92ea29857ae5e83e3c8194caca6" name="a27112dad4e290863cba866c44ac4c7fea840ac92ea29857ae5e83e3c8194caca6"></a>MR_FeaturesObjectKind_Circle&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a27112dad4e290863cba866c44ac4c7feaef915e6db983c8ad4b968f65e3b1a6a7" name="a27112dad4e290863cba866c44ac4c7feaef915e6db983c8ad4b968f65e3b1a6a7"></a>MR_FeaturesObjectKind_Sphere&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a27112dad4e290863cba866c44ac4c7fea6f7287cb67c5c83facbff32288cb9948" name="a27112dad4e290863cba866c44ac4c7fea6f7287cb67c5c83facbff32288cb9948"></a>MR_FeaturesObjectKind_Cylinder&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a27112dad4e290863cba866c44ac4c7fea819372d0182d4e2f9567d8aa4bb25d27" name="a27112dad4e290863cba866c44ac4c7fea819372d0182d4e2f9567d8aa4bb25d27"></a>MR_FeaturesObjectKind_Cone&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a27112dad4e290863cba866c44ac4c7feaf22cb6638d0caa98ec76b27fae33b493" name="a27112dad4e290863cba866c44ac4c7feaf22cb6638d0caa98ec76b27fae33b493"></a>MR_FeaturesObjectKind__count&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -706,7 +706,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRChangeColoringActions_8h.html#aa4b9828f4113d20d85483568f977c8ff">MR_std_shared_ptr_MR_VisualObject</a> * MR_makeObjectFromEnum </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#a08ba1d484424f7a3b034019721fd9a46">MR_FeaturesObjectKind</a></td>          <td class="paramname"><span class="paramname"><em>kind</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="#a27112dad4e290863cba866c44ac4c7fe">MR_FeaturesObjectKind</a></td>          <td class="paramname"><span class="paramname"><em>kind</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>

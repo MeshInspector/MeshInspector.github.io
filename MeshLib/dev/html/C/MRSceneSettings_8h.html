@@ -155,7 +155,6 @@ $(function(){initNavTree('MRSceneSettings_8h.html',''); initResizable(true); });
 <div class="textblock"><code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
-<code>#include &lt;stdint.h&gt;</code><br />
 </div>
 <p><a href="MRSceneSettings_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -165,64 +164,65 @@ Typedefs</h2></td></tr>
 <tr class="separator:a325911971cee7957b63b98e5d38aedc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a71b8f6135364d23bd16fac524ef466a8" id="r_a71b8f6135364d23bd16fac524ef466a8"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a71b8f6135364d23bd16fac524ef466a8">MR_SceneSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71b8f6135364d23bd16fac524ef466a8">MR_SceneSettings</a></td></tr>
 <tr class="separator:a71b8f6135364d23bd16fac524ef466a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ac1b5459e24330ada9935553d5f2b04" id="r_a3ac1b5459e24330ada9935553d5f2b04"><td class="memItemLeft" align="right" valign="top">typedef int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ac1b5459e24330ada9935553d5f2b04">MR_SceneSettings_BoolType</a></td></tr>
-<tr class="separator:a3ac1b5459e24330ada9935553d5f2b04"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f2cfda9d4ce62dfe3821cc8e0066e7b" id="r_a8f2cfda9d4ce62dfe3821cc8e0066e7b"><td class="memItemLeft" align="right" valign="top">typedef int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f2cfda9d4ce62dfe3821cc8e0066e7b">MR_SceneSettings_FloatType</a></td></tr>
-<tr class="separator:a8f2cfda9d4ce62dfe3821cc8e0066e7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a63c85bca2e9b6c248304e0d63f6921b6" id="r_a63c85bca2e9b6c248304e0d63f6921b6"><td class="memItemLeft" align="right" valign="top">typedef int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a63c85bca2e9b6c248304e0d63f6921b6">MR_SceneSettings_ShadingMode</a></td></tr>
-<tr class="memdesc:a63c85bca2e9b6c248304e0d63f6921b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mesh faces shading mode.  <br /></td></tr>
-<tr class="separator:a63c85bca2e9b6c248304e0d63f6921b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3649382c7f0d2ead3e39ed8a9b4a751d" id="r_a3649382c7f0d2ead3e39ed8a9b4a751d"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#afd5c0646a798b47e39746fc490dc7399">MR_SceneSettings_BoolType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3649382c7f0d2ead3e39ed8a9b4a751d">MR_SceneSettings_BoolType</a></td></tr>
+<tr class="separator:a3649382c7f0d2ead3e39ed8a9b4a751d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d4b4e5796cebc0245ab16d6398b3b1a" id="r_a1d4b4e5796cebc0245ab16d6398b3b1a"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#ae897549c10cee2a94efa47e00fd49f5a">MR_SceneSettings_FloatType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d4b4e5796cebc0245ab16d6398b3b1a">MR_SceneSettings_FloatType</a></td></tr>
+<tr class="separator:a1d4b4e5796cebc0245ab16d6398b3b1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0215ab4cc7cbc9b6a7fbc81fddc1f82f" id="r_a0215ab4cc7cbc9b6a7fbc81fddc1f82f"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#ad36202035d26a38fd21ab7870e5a527c">MR_SceneSettings_ShadingMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0215ab4cc7cbc9b6a7fbc81fddc1f82f">MR_SceneSettings_ShadingMode</a></td></tr>
+<tr class="memdesc:a0215ab4cc7cbc9b6a7fbc81fddc1f82f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mesh faces shading mode.  <br /></td></tr>
+<tr class="separator:a0215ab4cc7cbc9b6a7fbc81fddc1f82f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a9e93d8eae633734dfeb29e24a1f3a7c0" id="r_a9e93d8eae633734dfeb29e24a1f3a7c0"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#a9e93d8eae633734dfeb29e24a1f3a7c0a386f4fa6ebbbe01fa4dea28b0da52234">MR_SceneSettings_BoolType_UseDefaultScenePropertiesOnDeserialization</a> = 0
-, <a class="el" href="#a9e93d8eae633734dfeb29e24a1f3a7c0a32248c9830d3739e6abb95737ed46c29">MR_SceneSettings_BoolType_Count</a> = 1
+<tr class="memitem:afd5c0646a798b47e39746fc490dc7399" id="r_afd5c0646a798b47e39746fc490dc7399"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd5c0646a798b47e39746fc490dc7399">MR_SceneSettings_BoolType</a> { <a class="el" href="#afd5c0646a798b47e39746fc490dc7399a386f4fa6ebbbe01fa4dea28b0da52234">MR_SceneSettings_BoolType_UseDefaultScenePropertiesOnDeserialization</a> = 0
+, <a class="el" href="#afd5c0646a798b47e39746fc490dc7399a32248c9830d3739e6abb95737ed46c29">MR_SceneSettings_BoolType_Count</a> = 1
  }</td></tr>
-<tr class="separator:a9e93d8eae633734dfeb29e24a1f3a7c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb8e1c282570d629a6b603a94a4650d6" id="r_aeb8e1c282570d629a6b603a94a4650d6"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
-&#160;&#160;<a class="el" href="#aeb8e1c282570d629a6b603a94a4650d6a70b2496ce1edd12c79bec8e1cb9adcb7">MR_SceneSettings_FloatType_FeaturePointsAlpha</a> = 0
-, <a class="el" href="#aeb8e1c282570d629a6b603a94a4650d6a31aba07c25ffd31786ae6b900e97faeb">MR_SceneSettings_FloatType_FeatureLinesAlpha</a> = 1
-, <a class="el" href="#aeb8e1c282570d629a6b603a94a4650d6a32b1158d7f811abe3a76bb91ab505266">MR_SceneSettings_FloatType_FeatureMeshAlpha</a> = 2
-, <a class="el" href="#aeb8e1c282570d629a6b603a94a4650d6a818a9bbb11917cc1620111a81155872c">MR_SceneSettings_FloatType_FeatureSubPointsAlpha</a> = 3
+<tr class="separator:afd5c0646a798b47e39746fc490dc7399"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae897549c10cee2a94efa47e00fd49f5a" id="r_ae897549c10cee2a94efa47e00fd49f5a"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae897549c10cee2a94efa47e00fd49f5a">MR_SceneSettings_FloatType</a> { <br />
+&#160;&#160;<a class="el" href="#ae897549c10cee2a94efa47e00fd49f5aa70b2496ce1edd12c79bec8e1cb9adcb7">MR_SceneSettings_FloatType_FeaturePointsAlpha</a> = 0
+, <a class="el" href="#ae897549c10cee2a94efa47e00fd49f5aa31aba07c25ffd31786ae6b900e97faeb">MR_SceneSettings_FloatType_FeatureLinesAlpha</a> = 1
+, <a class="el" href="#ae897549c10cee2a94efa47e00fd49f5aa32b1158d7f811abe3a76bb91ab505266">MR_SceneSettings_FloatType_FeatureMeshAlpha</a> = 2
+, <a class="el" href="#ae897549c10cee2a94efa47e00fd49f5aa818a9bbb11917cc1620111a81155872c">MR_SceneSettings_FloatType_FeatureSubPointsAlpha</a> = 3
 , <br />
-&#160;&#160;<a class="el" href="#aeb8e1c282570d629a6b603a94a4650d6a635ad78dd286fd5c042feccb9eb8aefc">MR_SceneSettings_FloatType_FeatureSubLinesAlpha</a> = 4
-, <a class="el" href="#aeb8e1c282570d629a6b603a94a4650d6a372c4f5c8c068d04ebf04acf2638eb85">MR_SceneSettings_FloatType_FeatureSubMeshAlpha</a> = 5
-, <a class="el" href="#aeb8e1c282570d629a6b603a94a4650d6ac46c48393d58aa0ea74fe84d4c88d055">MR_SceneSettings_FloatType_FeatureLineWidth</a> = 6
-, <a class="el" href="#aeb8e1c282570d629a6b603a94a4650d6a79600a60d4962090df2c1f6c59d01e47">MR_SceneSettings_FloatType_FeatureSubLineWidth</a> = 7
+&#160;&#160;<a class="el" href="#ae897549c10cee2a94efa47e00fd49f5aa635ad78dd286fd5c042feccb9eb8aefc">MR_SceneSettings_FloatType_FeatureSubLinesAlpha</a> = 4
+, <a class="el" href="#ae897549c10cee2a94efa47e00fd49f5aa372c4f5c8c068d04ebf04acf2638eb85">MR_SceneSettings_FloatType_FeatureSubMeshAlpha</a> = 5
+, <a class="el" href="#ae897549c10cee2a94efa47e00fd49f5aac46c48393d58aa0ea74fe84d4c88d055">MR_SceneSettings_FloatType_FeatureLineWidth</a> = 6
+, <a class="el" href="#ae897549c10cee2a94efa47e00fd49f5aa79600a60d4962090df2c1f6c59d01e47">MR_SceneSettings_FloatType_FeatureSubLineWidth</a> = 7
 , <br />
-&#160;&#160;<a class="el" href="#aeb8e1c282570d629a6b603a94a4650d6ac154b74eade46154dddb97f39af07474">MR_SceneSettings_FloatType_FeaturePointSize</a> = 8
-, <a class="el" href="#aeb8e1c282570d629a6b603a94a4650d6a21d77c2fac5d3290bfee83a9afc860df">MR_SceneSettings_FloatType_FeatureSubPointSize</a> = 9
-, <a class="el" href="#aeb8e1c282570d629a6b603a94a4650d6ac6139ca174f3b409f55421b48ee3b63e">MR_SceneSettings_FloatType_AmbientCoefSelectedObj</a> = 10
-, <a class="el" href="#aeb8e1c282570d629a6b603a94a4650d6a72473618effa8d52d344427bdaca5181">MR_SceneSettings_FloatType_Count</a> = 11
+&#160;&#160;<a class="el" href="#ae897549c10cee2a94efa47e00fd49f5aac154b74eade46154dddb97f39af07474">MR_SceneSettings_FloatType_FeaturePointSize</a> = 8
+, <a class="el" href="#ae897549c10cee2a94efa47e00fd49f5aa21d77c2fac5d3290bfee83a9afc860df">MR_SceneSettings_FloatType_FeatureSubPointSize</a> = 9
+, <a class="el" href="#ae897549c10cee2a94efa47e00fd49f5aac6139ca174f3b409f55421b48ee3b63e">MR_SceneSettings_FloatType_AmbientCoefSelectedObj</a> = 10
+, <a class="el" href="#ae897549c10cee2a94efa47e00fd49f5aa72473618effa8d52d344427bdaca5181">MR_SceneSettings_FloatType_Count</a> = 11
 <br />
  }</td></tr>
-<tr class="separator:aeb8e1c282570d629a6b603a94a4650d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a109bfaad92bd6d348dab484aec11edbb" id="r_a109bfaad92bd6d348dab484aec11edbb"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#a109bfaad92bd6d348dab484aec11edbba1bff0494fd174ff51fdffd185aa5f8f9">MR_SceneSettings_ShadingMode_AutoDetect</a> = 0
-, <a class="el" href="#a109bfaad92bd6d348dab484aec11edbbaf30e7268eb77ccd2d9eebb157f50d9b7">MR_SceneSettings_ShadingMode_Smooth</a> = 1
-, <a class="el" href="#a109bfaad92bd6d348dab484aec11edbba35189b2220eb83edeb8eb135501cf65d">MR_SceneSettings_ShadingMode_Flat</a> = 2
+<tr class="separator:ae897549c10cee2a94efa47e00fd49f5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad36202035d26a38fd21ab7870e5a527c" id="r_ad36202035d26a38fd21ab7870e5a527c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad36202035d26a38fd21ab7870e5a527c">MR_SceneSettings_ShadingMode</a> { <a class="el" href="#ad36202035d26a38fd21ab7870e5a527ca1bff0494fd174ff51fdffd185aa5f8f9">MR_SceneSettings_ShadingMode_AutoDetect</a> = 0
+, <a class="el" href="#ad36202035d26a38fd21ab7870e5a527caf30e7268eb77ccd2d9eebb157f50d9b7">MR_SceneSettings_ShadingMode_Smooth</a> = 1
+, <a class="el" href="#ad36202035d26a38fd21ab7870e5a527ca35189b2220eb83edeb8eb135501cf65d">MR_SceneSettings_ShadingMode_Flat</a> = 2
  }</td></tr>
-<tr class="separator:a109bfaad92bd6d348dab484aec11edbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memdesc:ad36202035d26a38fd21ab7870e5a527c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mesh faces shading mode.  <a href="#ad36202035d26a38fd21ab7870e5a527c">More...</a><br /></td></tr>
+<tr class="separator:ad36202035d26a38fd21ab7870e5a527c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ac398ae069f5b6ed067e0ceacdb82e060" id="r_ac398ae069f5b6ed067e0ceacdb82e060"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac398ae069f5b6ed067e0ceacdb82e060">MR_SceneSettings_reset</a> (void)</td></tr>
 <tr class="memdesc:ac398ae069f5b6ed067e0ceacdb82e060"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1SceneSettings.html">MR::SceneSettings</a></code> named <code>reset</code>.  <br /></td></tr>
 <tr class="separator:ac398ae069f5b6ed067e0ceacdb82e060"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a511c5016fa7f2fdbbae2a42760919f9e" id="r_a511c5016fa7f2fdbbae2a42760919f9e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a511c5016fa7f2fdbbae2a42760919f9e">MR_SceneSettings_get_MR_SceneSettings_BoolType</a> (<a class="el" href="#a3ac1b5459e24330ada9935553d5f2b04">MR_SceneSettings_BoolType</a> type)</td></tr>
+<tr class="memitem:a511c5016fa7f2fdbbae2a42760919f9e" id="r_a511c5016fa7f2fdbbae2a42760919f9e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a511c5016fa7f2fdbbae2a42760919f9e">MR_SceneSettings_get_MR_SceneSettings_BoolType</a> (<a class="el" href="#afd5c0646a798b47e39746fc490dc7399">MR_SceneSettings_BoolType</a> type)</td></tr>
 <tr class="memdesc:a511c5016fa7f2fdbbae2a42760919f9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1SceneSettings.html">MR::SceneSettings</a></code> named <code>get</code>.  <br /></td></tr>
 <tr class="separator:a511c5016fa7f2fdbbae2a42760919f9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f53b33ea65b401b2bfdb0216efceef8" id="r_a2f53b33ea65b401b2bfdb0216efceef8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f53b33ea65b401b2bfdb0216efceef8">MR_SceneSettings_get_MR_SceneSettings_FloatType</a> (<a class="el" href="#a8f2cfda9d4ce62dfe3821cc8e0066e7b">MR_SceneSettings_FloatType</a> type)</td></tr>
+<tr class="memitem:a2f53b33ea65b401b2bfdb0216efceef8" id="r_a2f53b33ea65b401b2bfdb0216efceef8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f53b33ea65b401b2bfdb0216efceef8">MR_SceneSettings_get_MR_SceneSettings_FloatType</a> (<a class="el" href="#ae897549c10cee2a94efa47e00fd49f5a">MR_SceneSettings_FloatType</a> type)</td></tr>
 <tr class="memdesc:a2f53b33ea65b401b2bfdb0216efceef8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1SceneSettings.html">MR::SceneSettings</a></code> named <code>get</code>.  <br /></td></tr>
 <tr class="separator:a2f53b33ea65b401b2bfdb0216efceef8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a706cb745d9b13d1824be57c4de4848da" id="r_a706cb745d9b13d1824be57c4de4848da"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a706cb745d9b13d1824be57c4de4848da">MR_SceneSettings_set_MR_SceneSettings_BoolType</a> (<a class="el" href="#a3ac1b5459e24330ada9935553d5f2b04">MR_SceneSettings_BoolType</a> type, bool value)</td></tr>
+<tr class="memitem:a706cb745d9b13d1824be57c4de4848da" id="r_a706cb745d9b13d1824be57c4de4848da"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a706cb745d9b13d1824be57c4de4848da">MR_SceneSettings_set_MR_SceneSettings_BoolType</a> (<a class="el" href="#afd5c0646a798b47e39746fc490dc7399">MR_SceneSettings_BoolType</a> type, bool value)</td></tr>
 <tr class="memdesc:a706cb745d9b13d1824be57c4de4848da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1SceneSettings.html">MR::SceneSettings</a></code> named <code>set</code>.  <br /></td></tr>
 <tr class="separator:a706cb745d9b13d1824be57c4de4848da"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e8c8ff62b21948e15c8bb790016863b" id="r_a9e8c8ff62b21948e15c8bb790016863b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e8c8ff62b21948e15c8bb790016863b">MR_SceneSettings_set_MR_SceneSettings_FloatType</a> (<a class="el" href="#a8f2cfda9d4ce62dfe3821cc8e0066e7b">MR_SceneSettings_FloatType</a> type, float value)</td></tr>
+<tr class="memitem:a9e8c8ff62b21948e15c8bb790016863b" id="r_a9e8c8ff62b21948e15c8bb790016863b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e8c8ff62b21948e15c8bb790016863b">MR_SceneSettings_set_MR_SceneSettings_FloatType</a> (<a class="el" href="#ae897549c10cee2a94efa47e00fd49f5a">MR_SceneSettings_FloatType</a> type, float value)</td></tr>
 <tr class="memdesc:a9e8c8ff62b21948e15c8bb790016863b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1SceneSettings.html">MR::SceneSettings</a></code> named <code>set</code>.  <br /></td></tr>
 <tr class="separator:a9e8c8ff62b21948e15c8bb790016863b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a81fb989e8e1e7db26369df3d8d294961" id="r_a81fb989e8e1e7db26369df3d8d294961"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a63c85bca2e9b6c248304e0d63f6921b6">MR_SceneSettings_ShadingMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a81fb989e8e1e7db26369df3d8d294961">MR_SceneSettings_getDefaultShadingMode</a> (void)</td></tr>
+<tr class="memitem:a81fb989e8e1e7db26369df3d8d294961" id="r_a81fb989e8e1e7db26369df3d8d294961"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ad36202035d26a38fd21ab7870e5a527c">MR_SceneSettings_ShadingMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a81fb989e8e1e7db26369df3d8d294961">MR_SceneSettings_getDefaultShadingMode</a> (void)</td></tr>
 <tr class="separator:a81fb989e8e1e7db26369df3d8d294961"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7692ae8be694b0e839f86b766f0c45eb" id="r_a7692ae8be694b0e839f86b766f0c45eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7692ae8be694b0e839f86b766f0c45eb">MR_SceneSettings_setDefaultShadingMode</a> (<a class="el" href="#a63c85bca2e9b6c248304e0d63f6921b6">MR_SceneSettings_ShadingMode</a> mode)</td></tr>
+<tr class="memitem:a7692ae8be694b0e839f86b766f0c45eb" id="r_a7692ae8be694b0e839f86b766f0c45eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7692ae8be694b0e839f86b766f0c45eb">MR_SceneSettings_setDefaultShadingMode</a> (<a class="el" href="#ad36202035d26a38fd21ab7870e5a527c">MR_SceneSettings_ShadingMode</a> mode)</td></tr>
 <tr class="memdesc:a7692ae8be694b0e839f86b766f0c45eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from a method of class <code><a class="elRef" href="../Cpp/classMR_1_1SceneSettings.html">MR::SceneSettings</a></code> named <code>setDefaultShadingMode</code>.  <br /></td></tr>
 <tr class="separator:a7692ae8be694b0e839f86b766f0c45eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79465aef7f1817ef1eada7eac8374fa7" id="r_a79465aef7f1817ef1eada7eac8374fa7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRCNCMachineSettings_8h.html#a325911971cee7957b63b98e5d38aedc4">MR_CNCMachineSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79465aef7f1817ef1eada7eac8374fa7">MR_SceneSettings_getCNCMachineSettings</a> (void)</td></tr>
@@ -266,42 +266,42 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a3ac1b5459e24330ada9935553d5f2b04" name="a3ac1b5459e24330ada9935553d5f2b04"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3ac1b5459e24330ada9935553d5f2b04">&#9670;&#160;</a></span>MR_SceneSettings_BoolType</h2>
+<a id="a3649382c7f0d2ead3e39ed8a9b4a751d" name="a3649382c7f0d2ead3e39ed8a9b4a751d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3649382c7f0d2ead3e39ed8a9b4a751d">&#9670;&#160;</a></span>MR_SceneSettings_BoolType</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef int32_t <a class="el" href="#a3ac1b5459e24330ada9935553d5f2b04">MR_SceneSettings_BoolType</a></td>
+          <td class="memname">typedef enum <a class="el" href="#afd5c0646a798b47e39746fc490dc7399">MR_SceneSettings_BoolType</a> <a class="el" href="#afd5c0646a798b47e39746fc490dc7399">MR_SceneSettings_BoolType</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a8f2cfda9d4ce62dfe3821cc8e0066e7b" name="a8f2cfda9d4ce62dfe3821cc8e0066e7b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8f2cfda9d4ce62dfe3821cc8e0066e7b">&#9670;&#160;</a></span>MR_SceneSettings_FloatType</h2>
+<a id="a1d4b4e5796cebc0245ab16d6398b3b1a" name="a1d4b4e5796cebc0245ab16d6398b3b1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d4b4e5796cebc0245ab16d6398b3b1a">&#9670;&#160;</a></span>MR_SceneSettings_FloatType</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef int32_t <a class="el" href="#a8f2cfda9d4ce62dfe3821cc8e0066e7b">MR_SceneSettings_FloatType</a></td>
+          <td class="memname">typedef enum <a class="el" href="#ae897549c10cee2a94efa47e00fd49f5a">MR_SceneSettings_FloatType</a> <a class="el" href="#ae897549c10cee2a94efa47e00fd49f5a">MR_SceneSettings_FloatType</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a63c85bca2e9b6c248304e0d63f6921b6" name="a63c85bca2e9b6c248304e0d63f6921b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a63c85bca2e9b6c248304e0d63f6921b6">&#9670;&#160;</a></span>MR_SceneSettings_ShadingMode</h2>
+<a id="a0215ab4cc7cbc9b6a7fbc81fddc1f82f" name="a0215ab4cc7cbc9b6a7fbc81fddc1f82f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0215ab4cc7cbc9b6a7fbc81fddc1f82f">&#9670;&#160;</a></span>MR_SceneSettings_ShadingMode</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef int32_t <a class="el" href="#a63c85bca2e9b6c248304e0d63f6921b6">MR_SceneSettings_ShadingMode</a></td>
+          <td class="memname">typedef enum <a class="el" href="#ad36202035d26a38fd21ab7870e5a527c">MR_SceneSettings_ShadingMode</a> <a class="el" href="#ad36202035d26a38fd21ab7870e5a527c">MR_SceneSettings_ShadingMode</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -311,69 +311,71 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a9e93d8eae633734dfeb29e24a1f3a7c0" name="a9e93d8eae633734dfeb29e24a1f3a7c0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9e93d8eae633734dfeb29e24a1f3a7c0">&#9670;&#160;</a></span>anonymous enum</h2>
+<a id="afd5c0646a798b47e39746fc490dc7399" name="afd5c0646a798b47e39746fc490dc7399"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd5c0646a798b47e39746fc490dc7399">&#9670;&#160;</a></span>MR_SceneSettings_BoolType</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">anonymous enum</td>
+          <td class="memname">enum <a class="el" href="#afd5c0646a798b47e39746fc490dc7399">MR_SceneSettings_BoolType</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a9e93d8eae633734dfeb29e24a1f3a7c0a386f4fa6ebbbe01fa4dea28b0da52234" name="a9e93d8eae633734dfeb29e24a1f3a7c0a386f4fa6ebbbe01fa4dea28b0da52234"></a>MR_SceneSettings_BoolType_UseDefaultScenePropertiesOnDeserialization&#160;</td><td class="fielddoc"><p>on deserialization replace object properties with default values from SceneSettings and SceneColors </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="afd5c0646a798b47e39746fc490dc7399a386f4fa6ebbbe01fa4dea28b0da52234" name="afd5c0646a798b47e39746fc490dc7399a386f4fa6ebbbe01fa4dea28b0da52234"></a>MR_SceneSettings_BoolType_UseDefaultScenePropertiesOnDeserialization&#160;</td><td class="fielddoc"><p>on deserialization replace object properties with default values from SceneSettings and SceneColors </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a9e93d8eae633734dfeb29e24a1f3a7c0a32248c9830d3739e6abb95737ed46c29" name="a9e93d8eae633734dfeb29e24a1f3a7c0a32248c9830d3739e6abb95737ed46c29"></a>MR_SceneSettings_BoolType_Count&#160;</td><td class="fielddoc"><p>total count </p>
+<tr><td class="fieldname"><a id="afd5c0646a798b47e39746fc490dc7399a32248c9830d3739e6abb95737ed46c29" name="afd5c0646a798b47e39746fc490dc7399a32248c9830d3739e6abb95737ed46c29"></a>MR_SceneSettings_BoolType_Count&#160;</td><td class="fielddoc"><p>total count </p>
 </td></tr>
 </table>
 
 </div>
 </div>
-<a id="aeb8e1c282570d629a6b603a94a4650d6" name="aeb8e1c282570d629a6b603a94a4650d6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeb8e1c282570d629a6b603a94a4650d6">&#9670;&#160;</a></span>anonymous enum</h2>
+<a id="ae897549c10cee2a94efa47e00fd49f5a" name="ae897549c10cee2a94efa47e00fd49f5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae897549c10cee2a94efa47e00fd49f5a">&#9670;&#160;</a></span>MR_SceneSettings_FloatType</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">anonymous enum</td>
+          <td class="memname">enum <a class="el" href="#ae897549c10cee2a94efa47e00fd49f5a">MR_SceneSettings_FloatType</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aeb8e1c282570d629a6b603a94a4650d6a70b2496ce1edd12c79bec8e1cb9adcb7" name="aeb8e1c282570d629a6b603a94a4650d6a70b2496ce1edd12c79bec8e1cb9adcb7"></a>MR_SceneSettings_FloatType_FeaturePointsAlpha&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aeb8e1c282570d629a6b603a94a4650d6a31aba07c25ffd31786ae6b900e97faeb" name="aeb8e1c282570d629a6b603a94a4650d6a31aba07c25ffd31786ae6b900e97faeb"></a>MR_SceneSettings_FloatType_FeatureLinesAlpha&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aeb8e1c282570d629a6b603a94a4650d6a32b1158d7f811abe3a76bb91ab505266" name="aeb8e1c282570d629a6b603a94a4650d6a32b1158d7f811abe3a76bb91ab505266"></a>MR_SceneSettings_FloatType_FeatureMeshAlpha&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aeb8e1c282570d629a6b603a94a4650d6a818a9bbb11917cc1620111a81155872c" name="aeb8e1c282570d629a6b603a94a4650d6a818a9bbb11917cc1620111a81155872c"></a>MR_SceneSettings_FloatType_FeatureSubPointsAlpha&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aeb8e1c282570d629a6b603a94a4650d6a635ad78dd286fd5c042feccb9eb8aefc" name="aeb8e1c282570d629a6b603a94a4650d6a635ad78dd286fd5c042feccb9eb8aefc"></a>MR_SceneSettings_FloatType_FeatureSubLinesAlpha&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aeb8e1c282570d629a6b603a94a4650d6a372c4f5c8c068d04ebf04acf2638eb85" name="aeb8e1c282570d629a6b603a94a4650d6a372c4f5c8c068d04ebf04acf2638eb85"></a>MR_SceneSettings_FloatType_FeatureSubMeshAlpha&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aeb8e1c282570d629a6b603a94a4650d6ac46c48393d58aa0ea74fe84d4c88d055" name="aeb8e1c282570d629a6b603a94a4650d6ac46c48393d58aa0ea74fe84d4c88d055"></a>MR_SceneSettings_FloatType_FeatureLineWidth&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aeb8e1c282570d629a6b603a94a4650d6a79600a60d4962090df2c1f6c59d01e47" name="aeb8e1c282570d629a6b603a94a4650d6a79600a60d4962090df2c1f6c59d01e47"></a>MR_SceneSettings_FloatType_FeatureSubLineWidth&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aeb8e1c282570d629a6b603a94a4650d6ac154b74eade46154dddb97f39af07474" name="aeb8e1c282570d629a6b603a94a4650d6ac154b74eade46154dddb97f39af07474"></a>MR_SceneSettings_FloatType_FeaturePointSize&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aeb8e1c282570d629a6b603a94a4650d6a21d77c2fac5d3290bfee83a9afc860df" name="aeb8e1c282570d629a6b603a94a4650d6a21d77c2fac5d3290bfee83a9afc860df"></a>MR_SceneSettings_FloatType_FeatureSubPointSize&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aeb8e1c282570d629a6b603a94a4650d6ac6139ca174f3b409f55421b48ee3b63e" name="aeb8e1c282570d629a6b603a94a4650d6ac6139ca174f3b409f55421b48ee3b63e"></a>MR_SceneSettings_FloatType_AmbientCoefSelectedObj&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aeb8e1c282570d629a6b603a94a4650d6a72473618effa8d52d344427bdaca5181" name="aeb8e1c282570d629a6b603a94a4650d6a72473618effa8d52d344427bdaca5181"></a>MR_SceneSettings_FloatType_Count&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae897549c10cee2a94efa47e00fd49f5aa70b2496ce1edd12c79bec8e1cb9adcb7" name="ae897549c10cee2a94efa47e00fd49f5aa70b2496ce1edd12c79bec8e1cb9adcb7"></a>MR_SceneSettings_FloatType_FeaturePointsAlpha&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae897549c10cee2a94efa47e00fd49f5aa31aba07c25ffd31786ae6b900e97faeb" name="ae897549c10cee2a94efa47e00fd49f5aa31aba07c25ffd31786ae6b900e97faeb"></a>MR_SceneSettings_FloatType_FeatureLinesAlpha&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae897549c10cee2a94efa47e00fd49f5aa32b1158d7f811abe3a76bb91ab505266" name="ae897549c10cee2a94efa47e00fd49f5aa32b1158d7f811abe3a76bb91ab505266"></a>MR_SceneSettings_FloatType_FeatureMeshAlpha&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae897549c10cee2a94efa47e00fd49f5aa818a9bbb11917cc1620111a81155872c" name="ae897549c10cee2a94efa47e00fd49f5aa818a9bbb11917cc1620111a81155872c"></a>MR_SceneSettings_FloatType_FeatureSubPointsAlpha&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae897549c10cee2a94efa47e00fd49f5aa635ad78dd286fd5c042feccb9eb8aefc" name="ae897549c10cee2a94efa47e00fd49f5aa635ad78dd286fd5c042feccb9eb8aefc"></a>MR_SceneSettings_FloatType_FeatureSubLinesAlpha&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae897549c10cee2a94efa47e00fd49f5aa372c4f5c8c068d04ebf04acf2638eb85" name="ae897549c10cee2a94efa47e00fd49f5aa372c4f5c8c068d04ebf04acf2638eb85"></a>MR_SceneSettings_FloatType_FeatureSubMeshAlpha&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae897549c10cee2a94efa47e00fd49f5aac46c48393d58aa0ea74fe84d4c88d055" name="ae897549c10cee2a94efa47e00fd49f5aac46c48393d58aa0ea74fe84d4c88d055"></a>MR_SceneSettings_FloatType_FeatureLineWidth&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae897549c10cee2a94efa47e00fd49f5aa79600a60d4962090df2c1f6c59d01e47" name="ae897549c10cee2a94efa47e00fd49f5aa79600a60d4962090df2c1f6c59d01e47"></a>MR_SceneSettings_FloatType_FeatureSubLineWidth&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae897549c10cee2a94efa47e00fd49f5aac154b74eade46154dddb97f39af07474" name="ae897549c10cee2a94efa47e00fd49f5aac154b74eade46154dddb97f39af07474"></a>MR_SceneSettings_FloatType_FeaturePointSize&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae897549c10cee2a94efa47e00fd49f5aa21d77c2fac5d3290bfee83a9afc860df" name="ae897549c10cee2a94efa47e00fd49f5aa21d77c2fac5d3290bfee83a9afc860df"></a>MR_SceneSettings_FloatType_FeatureSubPointSize&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae897549c10cee2a94efa47e00fd49f5aac6139ca174f3b409f55421b48ee3b63e" name="ae897549c10cee2a94efa47e00fd49f5aac6139ca174f3b409f55421b48ee3b63e"></a>MR_SceneSettings_FloatType_AmbientCoefSelectedObj&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae897549c10cee2a94efa47e00fd49f5aa72473618effa8d52d344427bdaca5181" name="ae897549c10cee2a94efa47e00fd49f5aa72473618effa8d52d344427bdaca5181"></a>MR_SceneSettings_FloatType_Count&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
 </div>
-<a id="a109bfaad92bd6d348dab484aec11edbb" name="a109bfaad92bd6d348dab484aec11edbb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a109bfaad92bd6d348dab484aec11edbb">&#9670;&#160;</a></span>anonymous enum</h2>
+<a id="ad36202035d26a38fd21ab7870e5a527c" name="ad36202035d26a38fd21ab7870e5a527c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad36202035d26a38fd21ab7870e5a527c">&#9670;&#160;</a></span>MR_SceneSettings_ShadingMode</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">anonymous enum</td>
+          <td class="memname">enum <a class="el" href="#ad36202035d26a38fd21ab7870e5a527c">MR_SceneSettings_ShadingMode</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Mesh faces shading mode. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a109bfaad92bd6d348dab484aec11edbba1bff0494fd174ff51fdffd185aa5f8f9" name="a109bfaad92bd6d348dab484aec11edbba1bff0494fd174ff51fdffd185aa5f8f9"></a>MR_SceneSettings_ShadingMode_AutoDetect&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a109bfaad92bd6d348dab484aec11edbbaf30e7268eb77ccd2d9eebb157f50d9b7" name="a109bfaad92bd6d348dab484aec11edbbaf30e7268eb77ccd2d9eebb157f50d9b7"></a>MR_SceneSettings_ShadingMode_Smooth&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a109bfaad92bd6d348dab484aec11edbba35189b2220eb83edeb8eb135501cf65d" name="a109bfaad92bd6d348dab484aec11edbba35189b2220eb83edeb8eb135501cf65d"></a>MR_SceneSettings_ShadingMode_Flat&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ad36202035d26a38fd21ab7870e5a527ca1bff0494fd174ff51fdffd185aa5f8f9" name="ad36202035d26a38fd21ab7870e5a527ca1bff0494fd174ff51fdffd185aa5f8f9"></a>MR_SceneSettings_ShadingMode_AutoDetect&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad36202035d26a38fd21ab7870e5a527caf30e7268eb77ccd2d9eebb157f50d9b7" name="ad36202035d26a38fd21ab7870e5a527caf30e7268eb77ccd2d9eebb157f50d9b7"></a>MR_SceneSettings_ShadingMode_Smooth&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad36202035d26a38fd21ab7870e5a527ca35189b2220eb83edeb8eb135501cf65d" name="ad36202035d26a38fd21ab7870e5a527ca35189b2220eb83edeb8eb135501cf65d"></a>MR_SceneSettings_ShadingMode_Flat&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -388,7 +390,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_SceneSettings_get_MR_SceneSettings_BoolType </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#a3ac1b5459e24330ada9935553d5f2b04">MR_SceneSettings_BoolType</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="#afd5c0646a798b47e39746fc490dc7399">MR_SceneSettings_BoolType</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -407,7 +409,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float MR_SceneSettings_get_MR_SceneSettings_FloatType </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#a8f2cfda9d4ce62dfe3821cc8e0066e7b">MR_SceneSettings_FloatType</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="#ae897549c10cee2a94efa47e00fd49f5a">MR_SceneSettings_FloatType</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -442,7 +444,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a63c85bca2e9b6c248304e0d63f6921b6">MR_SceneSettings_ShadingMode</a> MR_SceneSettings_getDefaultShadingMode </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ad36202035d26a38fd21ab7870e5a527c">MR_SceneSettings_ShadingMode</a> MR_SceneSettings_getDefaultShadingMode </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -527,7 +529,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_SceneSettings_set_MR_SceneSettings_BoolType </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#a3ac1b5459e24330ada9935553d5f2b04">MR_SceneSettings_BoolType</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span>, </td>
+          <td class="paramtype"><a class="el" href="#afd5c0646a798b47e39746fc490dc7399">MR_SceneSettings_BoolType</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -550,7 +552,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_SceneSettings_set_MR_SceneSettings_FloatType </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#a8f2cfda9d4ce62dfe3821cc8e0066e7b">MR_SceneSettings_FloatType</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span>, </td>
+          <td class="paramtype"><a class="el" href="#ae897549c10cee2a94efa47e00fd49f5a">MR_SceneSettings_FloatType</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -591,7 +593,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_SceneSettings_setDefaultShadingMode </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#a63c85bca2e9b6c248304e0d63f6921b6">MR_SceneSettings_ShadingMode</a></td>          <td class="paramname"><span class="paramname"><em>mode</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="#ad36202035d26a38fd21ab7870e5a527c">MR_SceneSettings_ShadingMode</a></td>          <td class="paramname"><span class="paramname"><em>mode</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>

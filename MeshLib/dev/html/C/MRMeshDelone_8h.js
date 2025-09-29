@@ -3,7 +3,7 @@ var MRMeshDelone_8h =
     [ "MR_DeloneSettings", "MRMeshDelone_8h.html#af90f4b39ad520e70053fc29ba9bb57c7", null ],
     [ "MR_EdgeLengthMesh", "MRMeshDelone_8h.html#a21d0c9081671ec94a88f3883cd8e36f2", null ],
     [ "MR_FaceBitSet", "MRMeshDelone_8h.html#aba7bc6ac732c34fd4721c543fa3445ea", null ],
-    [ "MR_FlipEdge", "MRMeshDelone_8h.html#a47f4b0063e899863c39907df0ccc21ff", null ],
+    [ "MR_FlipEdge", "MRMeshDelone_8h.html#a25812984958f89a4d14d48a2bcf46824", null ],
     [ "MR_IntrinsicDeloneSettings", "MRMeshDelone_8h.html#a41a41039ee70031a05a4562044cce3ca", null ],
     [ "MR_Mesh", "MRMeshDelone_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
     [ "MR_MeshTopology", "MRMeshDelone_8h.html#ad396cf7d4433c5ba7924776f5b379c9b", null ],
@@ -13,6 +13,11 @@ var MRMeshDelone_8h =
     [ "MR_Vector3f", "MRMeshDelone_8h.html#a6bf133eda1ec95be202b77c33412bc8e", null ],
     [ "MR_VertBitSet", "MRMeshDelone_8h.html#a3df50e76b078a1626dd994e1df803764", null ],
     [ "MR_VertCoords", "MRMeshDelone_8h.html#a249fd9254c0c3395567807936ad32641", null ],
+    [ "MR_FlipEdge", "MRMeshDelone_8h.html#aa76435b4ee48431a19de6d633c8833ae", [
+      [ "MR_FlipEdge_Can", "MRMeshDelone_8h.html#aa76435b4ee48431a19de6d633c8833aea1e535a74c97b4c58ecdef88940d255d0", null ],
+      [ "MR_FlipEdge_Cannot", "MRMeshDelone_8h.html#aa76435b4ee48431a19de6d633c8833aeaa30a4a3b259653566dd43cfb4f281a8e", null ],
+      [ "MR_FlipEdge_Must", "MRMeshDelone_8h.html#aa76435b4ee48431a19de6d633c8833aeab516cff6dfa2c661ad2a72861328085b", null ]
+    ] ],
     [ "MR_bestQuadrangleDiagonal", "MRMeshDelone_8h.html#a56b3455ba58ec578dcc0dbf02b37cc36", null ],
     [ "MR_canFlipEdge", "MRMeshDelone_8h.html#a52e89c63c068bd558c0deb5033702550", null ],
     [ "MR_checkDeloneQuadrangle_MR_Vector3d", "MRMeshDelone_8h.html#a0a7383636af3a845c54d33e4be2659e9", null ],
@@ -67,9 +72,9 @@ var MRMeshDelone_8h =
     [ "MR_IntrinsicDeloneSettings_Set_region", "MRMeshDelone_8h.html#a2ae45a9138bed0cad9194bb2eb16ba23", null ],
     [ "MR_IntrinsicDeloneSettings_Set_threshold", "MRMeshDelone_8h.html#ad1c29dabf0325c9525755fd4fc730e3f", null ],
     [ "MR_IntrinsicDeloneSettings_Set_vertRegion", "MRMeshDelone_8h.html#af7545cdc1b5adc57805b7b56abe86035", null ],
-    [ "MR_makeDeloneEdgeFlips_4_MR_EdgeLengthMesh", "MRMeshDelone_8h.html#ada8a3418f56febb4428e0e397917dc85", null ],
-    [ "MR_makeDeloneEdgeFlips_4_MR_Mesh", "MRMeshDelone_8h.html#a0dca0503ecd52308c88a2bb0f35aac55", null ],
-    [ "MR_makeDeloneEdgeFlips_5", "MRMeshDelone_8h.html#aaa21fed7d29803eefe84c94cb9dd67fd", null ],
+    [ "MR_makeDeloneEdgeFlips_4_MR_EdgeLengthMesh", "MRMeshDelone_8h.html#ace6519aee91ccff2891b2668e29ebbb1", null ],
+    [ "MR_makeDeloneEdgeFlips_4_MR_Mesh", "MRMeshDelone_8h.html#a5b4f4f38bedbf5f199612e3fd28d22b7", null ],
+    [ "MR_makeDeloneEdgeFlips_5", "MRMeshDelone_8h.html#a711ce4d63c5b526cc1518d13681f6354", null ],
     [ "MR_makeDeloneOriginRing_3", "MRMeshDelone_8h.html#a5a9d358438c3b49d42e9a34cd7803763", null ],
     [ "MR_makeDeloneOriginRing_4", "MRMeshDelone_8h.html#a9d9f2d1395cee882c3f7ec9498c4534c", null ]
 ];

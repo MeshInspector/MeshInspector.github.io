@@ -2,13 +2,18 @@ var MRUniteManyMeshes_8h =
 [
     [ "MR_expected_MR_Mesh_std_string", "MRUniteManyMeshes_8h.html#a0d97154d4aed695055160a4688c04a3d", null ],
     [ "MR_FaceBitSet", "MRUniteManyMeshes_8h.html#aba7bc6ac732c34fd4721c543fa3445ea", null ],
-    [ "MR_NestedComponenetsMode", "MRUniteManyMeshes_8h.html#acfde5ee8f62ba3de783e8f63282a683f", null ],
+    [ "MR_NestedComponenetsMode", "MRUniteManyMeshes_8h.html#a8e5eb6878680e80dcb60b3200acd0b03", null ],
     [ "MR_std_function_bool_from_float", "MRUniteManyMeshes_8h.html#adb03ce28cacfff1e499d75d512dc4a84", null ],
     [ "MR_std_vector_const_MR_Mesh_ptr", "MRUniteManyMeshes_8h.html#ae7193edfceac57cfb2d1d3b5b68a90b8", null ],
     [ "MR_UniteManyMeshesParams", "MRUniteManyMeshes_8h.html#a768fbaa1a635c9393fdb3628694b9f61", null ],
+    [ "MR_NestedComponenetsMode", "MRUniteManyMeshes_8h.html#a4d170c6ac395b7e751c7ff25ae839ac5", [
+      [ "MR_NestedComponenetsMode_Remove", "MRUniteManyMeshes_8h.html#a4d170c6ac395b7e751c7ff25ae839ac5a1f9866b626345c006575db992e30e70a", null ],
+      [ "MR_NestedComponenetsMode_Merge", "MRUniteManyMeshes_8h.html#a4d170c6ac395b7e751c7ff25ae839ac5a5686960c5309ee42c800b9aae6d53557", null ],
+      [ "MR_NestedComponenetsMode_Union", "MRUniteManyMeshes_8h.html#a4d170c6ac395b7e751c7ff25ae839ac5a78ef8e00427c0af348d84b9a69df2d85", null ]
+    ] ],
     [ "MR_uniteManyMeshes", "MRUniteManyMeshes_8h.html#aea757129ffa2722d3062c2f234acf0fe", null ],
     [ "MR_UniteManyMeshesParams_AssignFromAnother", "MRUniteManyMeshes_8h.html#a2b9cc39c7987242ef812466516187831", null ],
-    [ "MR_UniteManyMeshesParams_ConstructFrom", "MRUniteManyMeshes_8h.html#afa460daf111c9e7b7054c663656e01c1", null ],
+    [ "MR_UniteManyMeshesParams_ConstructFrom", "MRUniteManyMeshes_8h.html#a87c006da53cc0a9054d0afb1986bae2b", null ],
     [ "MR_UniteManyMeshesParams_ConstructFromAnother", "MRUniteManyMeshes_8h.html#a4824c6fc906c8bbb0901aefd1cabceb0", null ],
     [ "MR_UniteManyMeshesParams_DefaultConstruct", "MRUniteManyMeshes_8h.html#aea25dd860532caabb4545140e67c3773", null ],
     [ "MR_UniteManyMeshesParams_DefaultConstructArray", "MRUniteManyMeshes_8h.html#a973f757a98dc45a29df0ea202982411d", null ],
@@ -21,7 +26,7 @@ var MRUniteManyMeshes_8h =
     [ "MR_UniteManyMeshesParams_Get_nestedComponentsMode", "MRUniteManyMeshes_8h.html#ade5e7a8333f3b493b6ecd5e0de810bea", null ],
     [ "MR_UniteManyMeshesParams_Get_newFaces", "MRUniteManyMeshes_8h.html#af72e4f9ed5825f5341a675e70e72bc45", null ],
     [ "MR_UniteManyMeshesParams_Get_progressCb", "MRUniteManyMeshes_8h.html#a17a85aa62b4e0013af638f2d511effe1", null ],
-    [ "MR_UniteManyMeshesParams_Get_randomShiftsSeed", "MRUniteManyMeshes_8h.html#a43c5748c8daea1c6a57a040a4742842d", null ],
+    [ "MR_UniteManyMeshesParams_Get_randomShiftsSeed", "MRUniteManyMeshes_8h.html#a70c75718ab3a41239834c257b81dc796", null ],
     [ "MR_UniteManyMeshesParams_Get_useRandomShifts", "MRUniteManyMeshes_8h.html#a815aeec03d41ba8646fcbdac6c9a7bb9", null ],
     [ "MR_UniteManyMeshesParams_GetMutable_fixDegenerations", "MRUniteManyMeshes_8h.html#a1504abd5af5b5a33f63671af7a788996", null ],
     [ "MR_UniteManyMeshesParams_GetMutable_forceCut", "MRUniteManyMeshes_8h.html#a582895e6bacbdc68c33fadd71312aa05", null ],
@@ -30,7 +35,7 @@ var MRUniteManyMeshes_8h =
     [ "MR_UniteManyMeshesParams_GetMutable_nestedComponentsMode", "MRUniteManyMeshes_8h.html#ab9918bbfb181a8c73974a959291c4743", null ],
     [ "MR_UniteManyMeshesParams_GetMutable_newFaces", "MRUniteManyMeshes_8h.html#a90512e36c0f8188183949f30d298d6be", null ],
     [ "MR_UniteManyMeshesParams_GetMutable_progressCb", "MRUniteManyMeshes_8h.html#a93c8e78713f0a6edbe3badbeaa4ae39c", null ],
-    [ "MR_UniteManyMeshesParams_GetMutable_randomShiftsSeed", "MRUniteManyMeshes_8h.html#a9cd81de979cc8efebbe64a15e2a517f2", null ],
+    [ "MR_UniteManyMeshesParams_GetMutable_randomShiftsSeed", "MRUniteManyMeshes_8h.html#a441855aa68b57c9e34fb4d732cdbf3fe", null ],
     [ "MR_UniteManyMeshesParams_GetMutable_useRandomShifts", "MRUniteManyMeshes_8h.html#a202072a113d7b995762e70912bc88b60", null ],
     [ "MR_UniteManyMeshesParams_OffsetMutablePtr", "MRUniteManyMeshes_8h.html#a2c7233bf8812cb4af5412dcd22e6ac60", null ],
     [ "MR_UniteManyMeshesParams_OffsetPtr", "MRUniteManyMeshes_8h.html#a963ca5e79de4f0122e2ec63db134d238", null ],
@@ -41,6 +46,6 @@ var MRUniteManyMeshes_8h =
     [ "MR_UniteManyMeshesParams_Set_nestedComponentsMode", "MRUniteManyMeshes_8h.html#a765535345779f67b4492757b3d613d57", null ],
     [ "MR_UniteManyMeshesParams_Set_newFaces", "MRUniteManyMeshes_8h.html#afbcc59689b65300b513db258ed8cddbc", null ],
     [ "MR_UniteManyMeshesParams_Set_progressCb", "MRUniteManyMeshes_8h.html#a9014cb316d4a994f59f7ea04e1257248", null ],
-    [ "MR_UniteManyMeshesParams_Set_randomShiftsSeed", "MRUniteManyMeshes_8h.html#a3056d3f5d5596c05f94f54d6a297f5b1", null ],
+    [ "MR_UniteManyMeshesParams_Set_randomShiftsSeed", "MRUniteManyMeshes_8h.html#ac881f6ffd1c094cc5366a297a00c9df5", null ],
     [ "MR_UniteManyMeshesParams_Set_useRandomShifts", "MRUniteManyMeshes_8h.html#a811f8a6529787d033b5897f8bd4995f9", null ]
 ];

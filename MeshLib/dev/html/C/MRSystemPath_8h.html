@@ -155,7 +155,6 @@ $(function(){initNavTree('MRSystemPath_8h.html',''); initResizable(true); });
 <div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
-<code>#include &lt;stdint.h&gt;</code><br />
 </div>
 <p><a href="MRSystemPath_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -167,34 +166,35 @@ Typedefs</h2></td></tr>
 <tr class="separator:a3a17e15e4b66a301f71cac93df990e0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af29de8d6ca67e0ba0959a08446baca82" id="r_af29de8d6ca67e0ba0959a08446baca82"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#af29de8d6ca67e0ba0959a08446baca82">MR_SystemPath</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af29de8d6ca67e0ba0959a08446baca82">MR_SystemPath</a></td></tr>
 <tr class="separator:af29de8d6ca67e0ba0959a08446baca82"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a14211c12c9f804ef899c656c1c7cfb46" id="r_a14211c12c9f804ef899c656c1c7cfb46"><td class="memItemLeft" align="right" valign="top">typedef int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14211c12c9f804ef899c656c1c7cfb46">MR_SystemPath_Directory</a></td></tr>
-<tr class="memdesc:a14211c12c9f804ef899c656c1c7cfb46"><td class="mdescLeft">&#160;</td><td class="mdescRight">directory category  <br /></td></tr>
-<tr class="separator:a14211c12c9f804ef899c656c1c7cfb46"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c922649d5e1a73e8dc2c36450eda659" id="r_a9c922649d5e1a73e8dc2c36450eda659"><td class="memItemLeft" align="right" valign="top">typedef int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c922649d5e1a73e8dc2c36450eda659">MR_SystemPath_SystemFontType</a></td></tr>
-<tr class="separator:a9c922649d5e1a73e8dc2c36450eda659"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac81681648b9802837f3eef1c8d7d8eb8" id="r_ac81681648b9802837f3eef1c8d7d8eb8"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#a70557e8d35dfa65b6cb36e9188560b8d">MR_SystemPath_Directory</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac81681648b9802837f3eef1c8d7d8eb8">MR_SystemPath_Directory</a></td></tr>
+<tr class="memdesc:ac81681648b9802837f3eef1c8d7d8eb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">directory category  <br /></td></tr>
+<tr class="separator:ac81681648b9802837f3eef1c8d7d8eb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e3bc589c9efdedfe787f732c0223675" id="r_a0e3bc589c9efdedfe787f732c0223675"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#ae7da682249d21e8d643737507877dc67">MR_SystemPath_SystemFontType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0e3bc589c9efdedfe787f732c0223675">MR_SystemPath_SystemFontType</a></td></tr>
+<tr class="separator:a0e3bc589c9efdedfe787f732c0223675"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a7859c0a3efa8b1c360f5c2376baf051e" id="r_a7859c0a3efa8b1c360f5c2376baf051e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
-&#160;&#160;<a class="el" href="#a7859c0a3efa8b1c360f5c2376baf051ea8b9e0f9217140c7722033559155bbf3d">MR_SystemPath_Directory_Resources</a> = 0
-, <a class="el" href="#a7859c0a3efa8b1c360f5c2376baf051ea74f2b27af2e90345c92a98e0a83338b5">MR_SystemPath_Directory_Fonts</a> = 1
-, <a class="el" href="#a7859c0a3efa8b1c360f5c2376baf051ea9fd2c7310c4d5ba08ee6a928e9eed194">MR_SystemPath_Directory_Plugins</a> = 2
-, <a class="el" href="#a7859c0a3efa8b1c360f5c2376baf051ea8b2abccbf088a0be1a53828a8728dc6d">MR_SystemPath_Directory_PythonModules</a> = 3
+<tr class="memitem:a70557e8d35dfa65b6cb36e9188560b8d" id="r_a70557e8d35dfa65b6cb36e9188560b8d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70557e8d35dfa65b6cb36e9188560b8d">MR_SystemPath_Directory</a> { <br />
+&#160;&#160;<a class="el" href="#a70557e8d35dfa65b6cb36e9188560b8da8b9e0f9217140c7722033559155bbf3d">MR_SystemPath_Directory_Resources</a> = 0
+, <a class="el" href="#a70557e8d35dfa65b6cb36e9188560b8da74f2b27af2e90345c92a98e0a83338b5">MR_SystemPath_Directory_Fonts</a> = 1
+, <a class="el" href="#a70557e8d35dfa65b6cb36e9188560b8da9fd2c7310c4d5ba08ee6a928e9eed194">MR_SystemPath_Directory_Plugins</a> = 2
+, <a class="el" href="#a70557e8d35dfa65b6cb36e9188560b8da8b2abccbf088a0be1a53828a8728dc6d">MR_SystemPath_Directory_PythonModules</a> = 3
 , <br />
-&#160;&#160;<a class="el" href="#a7859c0a3efa8b1c360f5c2376baf051eae561935baf0248ed439e4811b796c554">MR_SystemPath_Directory_Count</a> = 4
+&#160;&#160;<a class="el" href="#a70557e8d35dfa65b6cb36e9188560b8dae561935baf0248ed439e4811b796c554">MR_SystemPath_Directory_Count</a> = 4
 <br />
  }</td></tr>
-<tr class="separator:a7859c0a3efa8b1c360f5c2376baf051e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79e9f285d34216706a748fd7ba8941b7" id="r_a79e9f285d34216706a748fd7ba8941b7"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
-&#160;&#160;<a class="el" href="#a79e9f285d34216706a748fd7ba8941b7a4fc55a89174256b03e8031864f248bac">MR_SystemPath_SystemFontType_Regular</a> = 0
-, <a class="el" href="#a79e9f285d34216706a748fd7ba8941b7abf08d81aac574c56f2225132d1d18101">MR_SystemPath_SystemFontType_Bold</a> = 1
-, <a class="el" href="#a79e9f285d34216706a748fd7ba8941b7a073462eed4a1077f66f478797091b31a">MR_SystemPath_SystemFontType_Italic</a> = 2
-, <a class="el" href="#a79e9f285d34216706a748fd7ba8941b7a901831291904b0b2c756285b51d43b3c">MR_SystemPath_SystemFontType_BoldItalic</a> = 3
+<tr class="memdesc:a70557e8d35dfa65b6cb36e9188560b8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">directory category  <a href="#a70557e8d35dfa65b6cb36e9188560b8d">More...</a><br /></td></tr>
+<tr class="separator:a70557e8d35dfa65b6cb36e9188560b8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7da682249d21e8d643737507877dc67" id="r_ae7da682249d21e8d643737507877dc67"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae7da682249d21e8d643737507877dc67">MR_SystemPath_SystemFontType</a> { <br />
+&#160;&#160;<a class="el" href="#ae7da682249d21e8d643737507877dc67a4fc55a89174256b03e8031864f248bac">MR_SystemPath_SystemFontType_Regular</a> = 0
+, <a class="el" href="#ae7da682249d21e8d643737507877dc67abf08d81aac574c56f2225132d1d18101">MR_SystemPath_SystemFontType_Bold</a> = 1
+, <a class="el" href="#ae7da682249d21e8d643737507877dc67a073462eed4a1077f66f478797091b31a">MR_SystemPath_SystemFontType_Italic</a> = 2
+, <a class="el" href="#ae7da682249d21e8d643737507877dc67a901831291904b0b2c756285b51d43b3c">MR_SystemPath_SystemFontType_BoldItalic</a> = 3
 , <br />
-&#160;&#160;<a class="el" href="#a79e9f285d34216706a748fd7ba8941b7a04f78d989aeb9dfe43722478ece160d8">MR_SystemPath_SystemFontType_Count</a> = 4
+&#160;&#160;<a class="el" href="#ae7da682249d21e8d643737507877dc67a04f78d989aeb9dfe43722478ece160d8">MR_SystemPath_SystemFontType_Count</a> = 4
 <br />
  }</td></tr>
-<tr class="separator:a79e9f285d34216706a748fd7ba8941b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:ae7da682249d21e8d643737507877dc67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -218,9 +218,9 @@ Functions</h2></td></tr>
 <tr class="separator:a230545ee11adfc4053917e9b5929c6ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75604acbd9a81e192361377186095f7e" id="r_a75604acbd9a81e192361377186095f7e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af29de8d6ca67e0ba0959a08446baca82">MR_SystemPath</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a75604acbd9a81e192361377186095f7e">MR_SystemPath_AssignFromAnother</a> (<a class="el" href="#af29de8d6ca67e0ba0959a08446baca82">MR_SystemPath</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#af29de8d6ca67e0ba0959a08446baca82">MR_SystemPath</a> *_other)</td></tr>
 <tr class="separator:a75604acbd9a81e192361377186095f7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a59112bb8f5929a70a65ddcc412c2993d" id="r_a59112bb8f5929a70a65ddcc412c2993d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRSceneRoot_8h.html#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59112bb8f5929a70a65ddcc412c2993d">MR_SystemPath_getDirectory</a> (<a class="el" href="#a14211c12c9f804ef899c656c1c7cfb46">MR_SystemPath_Directory</a> dir)</td></tr>
+<tr class="memitem:a59112bb8f5929a70a65ddcc412c2993d" id="r_a59112bb8f5929a70a65ddcc412c2993d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRSceneRoot_8h.html#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59112bb8f5929a70a65ddcc412c2993d">MR_SystemPath_getDirectory</a> (<a class="el" href="#a70557e8d35dfa65b6cb36e9188560b8d">MR_SystemPath_Directory</a> dir)</td></tr>
 <tr class="separator:a59112bb8f5929a70a65ddcc412c2993d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a819a7e67bc131d009ac4110c3ca482af" id="r_a819a7e67bc131d009ac4110c3ca482af"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a819a7e67bc131d009ac4110c3ca482af">MR_SystemPath_overrideDirectory</a> (<a class="el" href="#a14211c12c9f804ef899c656c1c7cfb46">MR_SystemPath_Directory</a> dir, const char *path, const char *path_end)</td></tr>
+<tr class="memitem:a819a7e67bc131d009ac4110c3ca482af" id="r_a819a7e67bc131d009ac4110c3ca482af"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a819a7e67bc131d009ac4110c3ca482af">MR_SystemPath_overrideDirectory</a> (<a class="el" href="#a70557e8d35dfa65b6cb36e9188560b8d">MR_SystemPath_Directory</a> dir, const char *path, const char *path_end)</td></tr>
 <tr class="separator:a819a7e67bc131d009ac4110c3ca482af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a80aed6cf06de3032f26a2ecffe084698" id="r_a80aed6cf06de3032f26a2ecffe084698"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRSceneRoot_8h.html#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a80aed6cf06de3032f26a2ecffe084698">MR_SystemPath_getResourcesDirectory</a> (void)</td></tr>
 <tr class="separator:a80aed6cf06de3032f26a2ecffe084698"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -277,14 +277,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a14211c12c9f804ef899c656c1c7cfb46" name="a14211c12c9f804ef899c656c1c7cfb46"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a14211c12c9f804ef899c656c1c7cfb46">&#9670;&#160;</a></span>MR_SystemPath_Directory</h2>
+<a id="ac81681648b9802837f3eef1c8d7d8eb8" name="ac81681648b9802837f3eef1c8d7d8eb8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac81681648b9802837f3eef1c8d7d8eb8">&#9670;&#160;</a></span>MR_SystemPath_Directory</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef int32_t <a class="el" href="#a14211c12c9f804ef899c656c1c7cfb46">MR_SystemPath_Directory</a></td>
+          <td class="memname">typedef enum <a class="el" href="#a70557e8d35dfa65b6cb36e9188560b8d">MR_SystemPath_Directory</a> <a class="el" href="#a70557e8d35dfa65b6cb36e9188560b8d">MR_SystemPath_Directory</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -293,14 +293,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a9c922649d5e1a73e8dc2c36450eda659" name="a9c922649d5e1a73e8dc2c36450eda659"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9c922649d5e1a73e8dc2c36450eda659">&#9670;&#160;</a></span>MR_SystemPath_SystemFontType</h2>
+<a id="a0e3bc589c9efdedfe787f732c0223675" name="a0e3bc589c9efdedfe787f732c0223675"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e3bc589c9efdedfe787f732c0223675">&#9670;&#160;</a></span>MR_SystemPath_SystemFontType</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef int32_t <a class="el" href="#a9c922649d5e1a73e8dc2c36450eda659">MR_SystemPath_SystemFontType</a></td>
+          <td class="memname">typedef enum <a class="el" href="#ae7da682249d21e8d643737507877dc67">MR_SystemPath_SystemFontType</a> <a class="el" href="#ae7da682249d21e8d643737507877dc67">MR_SystemPath_SystemFontType</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -308,49 +308,51 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a7859c0a3efa8b1c360f5c2376baf051e" name="a7859c0a3efa8b1c360f5c2376baf051e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7859c0a3efa8b1c360f5c2376baf051e">&#9670;&#160;</a></span>anonymous enum</h2>
+<a id="a70557e8d35dfa65b6cb36e9188560b8d" name="a70557e8d35dfa65b6cb36e9188560b8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70557e8d35dfa65b6cb36e9188560b8d">&#9670;&#160;</a></span>MR_SystemPath_Directory</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">anonymous enum</td>
+          <td class="memname">enum <a class="el" href="#a70557e8d35dfa65b6cb36e9188560b8d">MR_SystemPath_Directory</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>directory category </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a7859c0a3efa8b1c360f5c2376baf051ea8b9e0f9217140c7722033559155bbf3d" name="a7859c0a3efa8b1c360f5c2376baf051ea8b9e0f9217140c7722033559155bbf3d"></a>MR_SystemPath_Directory_Resources&#160;</td><td class="fielddoc"><p>resources (.json, .png) </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a70557e8d35dfa65b6cb36e9188560b8da8b9e0f9217140c7722033559155bbf3d" name="a70557e8d35dfa65b6cb36e9188560b8da8b9e0f9217140c7722033559155bbf3d"></a>MR_SystemPath_Directory_Resources&#160;</td><td class="fielddoc"><p>resources (.json, .png) </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a7859c0a3efa8b1c360f5c2376baf051ea74f2b27af2e90345c92a98e0a83338b5" name="a7859c0a3efa8b1c360f5c2376baf051ea74f2b27af2e90345c92a98e0a83338b5"></a>MR_SystemPath_Directory_Fonts&#160;</td><td class="fielddoc"><p>fonts (.ttf, .otf) </p>
+<tr><td class="fieldname"><a id="a70557e8d35dfa65b6cb36e9188560b8da74f2b27af2e90345c92a98e0a83338b5" name="a70557e8d35dfa65b6cb36e9188560b8da74f2b27af2e90345c92a98e0a83338b5"></a>MR_SystemPath_Directory_Fonts&#160;</td><td class="fielddoc"><p>fonts (.ttf, .otf) </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a7859c0a3efa8b1c360f5c2376baf051ea9fd2c7310c4d5ba08ee6a928e9eed194" name="a7859c0a3efa8b1c360f5c2376baf051ea9fd2c7310c4d5ba08ee6a928e9eed194"></a>MR_SystemPath_Directory_Plugins&#160;</td><td class="fielddoc"><p>plugins (.dll, .so, .dylib) </p>
+<tr><td class="fieldname"><a id="a70557e8d35dfa65b6cb36e9188560b8da9fd2c7310c4d5ba08ee6a928e9eed194" name="a70557e8d35dfa65b6cb36e9188560b8da9fd2c7310c4d5ba08ee6a928e9eed194"></a>MR_SystemPath_Directory_Plugins&#160;</td><td class="fielddoc"><p>plugins (.dll, .so, .dylib) </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a7859c0a3efa8b1c360f5c2376baf051ea8b2abccbf088a0be1a53828a8728dc6d" name="a7859c0a3efa8b1c360f5c2376baf051ea8b2abccbf088a0be1a53828a8728dc6d"></a>MR_SystemPath_Directory_PythonModules&#160;</td><td class="fielddoc"><p>Python modules (.pyd, .so, .dylib, .pyi) </p>
+<tr><td class="fieldname"><a id="a70557e8d35dfa65b6cb36e9188560b8da8b2abccbf088a0be1a53828a8728dc6d" name="a70557e8d35dfa65b6cb36e9188560b8da8b2abccbf088a0be1a53828a8728dc6d"></a>MR_SystemPath_Directory_PythonModules&#160;</td><td class="fielddoc"><p>Python modules (.pyd, .so, .dylib, .pyi) </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a7859c0a3efa8b1c360f5c2376baf051eae561935baf0248ed439e4811b796c554" name="a7859c0a3efa8b1c360f5c2376baf051eae561935baf0248ed439e4811b796c554"></a>MR_SystemPath_Directory_Count&#160;</td><td class="fielddoc"><p>Python modules (.pyd, .so, .dylib, .pyi) </p>
+<tr><td class="fieldname"><a id="a70557e8d35dfa65b6cb36e9188560b8dae561935baf0248ed439e4811b796c554" name="a70557e8d35dfa65b6cb36e9188560b8dae561935baf0248ed439e4811b796c554"></a>MR_SystemPath_Directory_Count&#160;</td><td class="fielddoc"><p>Python modules (.pyd, .so, .dylib, .pyi) </p>
 </td></tr>
 </table>
 
 </div>
 </div>
-<a id="a79e9f285d34216706a748fd7ba8941b7" name="a79e9f285d34216706a748fd7ba8941b7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a79e9f285d34216706a748fd7ba8941b7">&#9670;&#160;</a></span>anonymous enum</h2>
+<a id="ae7da682249d21e8d643737507877dc67" name="ae7da682249d21e8d643737507877dc67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7da682249d21e8d643737507877dc67">&#9670;&#160;</a></span>MR_SystemPath_SystemFontType</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">anonymous enum</td>
+          <td class="memname">enum <a class="el" href="#ae7da682249d21e8d643737507877dc67">MR_SystemPath_SystemFontType</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a79e9f285d34216706a748fd7ba8941b7a4fc55a89174256b03e8031864f248bac" name="a79e9f285d34216706a748fd7ba8941b7a4fc55a89174256b03e8031864f248bac"></a>MR_SystemPath_SystemFontType_Regular&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a79e9f285d34216706a748fd7ba8941b7abf08d81aac574c56f2225132d1d18101" name="a79e9f285d34216706a748fd7ba8941b7abf08d81aac574c56f2225132d1d18101"></a>MR_SystemPath_SystemFontType_Bold&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a79e9f285d34216706a748fd7ba8941b7a073462eed4a1077f66f478797091b31a" name="a79e9f285d34216706a748fd7ba8941b7a073462eed4a1077f66f478797091b31a"></a>MR_SystemPath_SystemFontType_Italic&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a79e9f285d34216706a748fd7ba8941b7a901831291904b0b2c756285b51d43b3c" name="a79e9f285d34216706a748fd7ba8941b7a901831291904b0b2c756285b51d43b3c"></a>MR_SystemPath_SystemFontType_BoldItalic&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a79e9f285d34216706a748fd7ba8941b7a04f78d989aeb9dfe43722478ece160d8" name="a79e9f285d34216706a748fd7ba8941b7a04f78d989aeb9dfe43722478ece160d8"></a>MR_SystemPath_SystemFontType_Count&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae7da682249d21e8d643737507877dc67a4fc55a89174256b03e8031864f248bac" name="ae7da682249d21e8d643737507877dc67a4fc55a89174256b03e8031864f248bac"></a>MR_SystemPath_SystemFontType_Regular&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae7da682249d21e8d643737507877dc67abf08d81aac574c56f2225132d1d18101" name="ae7da682249d21e8d643737507877dc67abf08d81aac574c56f2225132d1d18101"></a>MR_SystemPath_SystemFontType_Bold&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae7da682249d21e8d643737507877dc67a073462eed4a1077f66f478797091b31a" name="ae7da682249d21e8d643737507877dc67a073462eed4a1077f66f478797091b31a"></a>MR_SystemPath_SystemFontType_Italic&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae7da682249d21e8d643737507877dc67a901831291904b0b2c756285b51d43b3c" name="ae7da682249d21e8d643737507877dc67a901831291904b0b2c756285b51d43b3c"></a>MR_SystemPath_SystemFontType_BoldItalic&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae7da682249d21e8d643737507877dc67a04f78d989aeb9dfe43722478ece160d8" name="ae7da682249d21e8d643737507877dc67a04f78d989aeb9dfe43722478ece160d8"></a>MR_SystemPath_SystemFontType_Count&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -488,7 +490,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRSceneRoot_8h.html#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a> * MR_SystemPath_getDirectory </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#a14211c12c9f804ef899c656c1c7cfb46">MR_SystemPath_Directory</a></td>          <td class="paramname"><span class="paramname"><em>dir</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="#a70557e8d35dfa65b6cb36e9188560b8d">MR_SystemPath_Directory</a></td>          <td class="paramname"><span class="paramname"><em>dir</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -642,7 +644,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_SystemPath_overrideDirectory </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="#a14211c12c9f804ef899c656c1c7cfb46">MR_SystemPath_Directory</a></td>          <td class="paramname"><span class="paramname"><em>dir</em></span>, </td>
+          <td class="paramtype"><a class="el" href="#a70557e8d35dfa65b6cb36e9188560b8d">MR_SystemPath_Directory</a></td>          <td class="paramname"><span class="paramname"><em>dir</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

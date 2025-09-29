@@ -1,9 +1,14 @@
 var MRPrecipitationSimulator_8h =
 [
     [ "MR_PrecipitationSimulator", "MRPrecipitationSimulator_8h.html#a1b92295242390c95dc53e1966dc86b29", null ],
-    [ "MR_PrecipitationSimulator_Event", "MRPrecipitationSimulator_8h.html#a82db0baa132154eb45774084be587171", null ],
+    [ "MR_PrecipitationSimulator_Event", "MRPrecipitationSimulator_8h.html#a430e686771186947114c9de31e5ca51b", null ],
     [ "MR_PrecipitationSimulator_SimulationStep", "MRPrecipitationSimulator_8h.html#a3864fee6711538ede04b706cbefc7606", null ],
     [ "MR_WatershedGraph", "MRPrecipitationSimulator_8h.html#a0691b4cabfa34960d5cd00f39ec4c7a9", null ],
+    [ "MR_PrecipitationSimulator_Event", "MRPrecipitationSimulator_8h.html#ae6d1330898096b0a1fefe35e2564a7f2", [
+      [ "MR_PrecipitationSimulator_Event_Finish", "MRPrecipitationSimulator_8h.html#ae6d1330898096b0a1fefe35e2564a7f2a497f7e4d059b1e50c66a4ca4b04c9961", null ],
+      [ "MR_PrecipitationSimulator_Event_BasinFull", "MRPrecipitationSimulator_8h.html#ae6d1330898096b0a1fefe35e2564a7f2a4e4816a65976504e9e2f84900b961e3e", null ],
+      [ "MR_PrecipitationSimulator_Event_Merge", "MRPrecipitationSimulator_8h.html#ae6d1330898096b0a1fefe35e2564a7f2a2548769d0ab4b8eb77f9a4e8efb38240", null ]
+    ] ],
     [ "MR_PrecipitationSimulator_Construct", "MRPrecipitationSimulator_8h.html#a849882ee6de8bec5ae6a570c85929fcc", null ],
     [ "MR_PrecipitationSimulator_ConstructFromAnother", "MRPrecipitationSimulator_8h.html#aad4995001f0f419a3481face0e5e7817", null ],
     [ "MR_PrecipitationSimulator_Destroy", "MRPrecipitationSimulator_8h.html#ad978ba1996561c6be2277c0b7765a1b9", null ],

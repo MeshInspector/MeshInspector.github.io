@@ -158,7 +158,6 @@ $(function(){initNavTree('MRObjectMeshHolder_8h.html',''); initResizable(true); 
 <code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
-<code>#include &lt;stdint.h&gt;</code><br />
 </div>
 <p><a href="MRObjectMeshHolder_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -216,31 +215,31 @@ Typedefs</h2></td></tr>
 <tr class="separator:a69dc6868c10c92fb8b8a255b0130d289"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6b334578883a55d60d5ef67962505ba" id="r_aa6b334578883a55d60d5ef67962505ba"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAddVisualPropertiesMixin_8h.html#aa6b334578883a55d60d5ef67962505ba">MR_std_vector_MR_ViewportMask</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6b334578883a55d60d5ef67962505ba">MR_std_vector_MR_ViewportMask</a></td></tr>
 <tr class="separator:aa6b334578883a55d60d5ef67962505ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae2a97f36477815d4c90928996d867cae" id="r_ae2a97f36477815d4c90928996d867cae"><td class="memItemLeft" align="right" valign="top">typedef int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae2a97f36477815d4c90928996d867cae">MR_MeshVisualizePropertyType</a></td></tr>
-<tr class="separator:ae2a97f36477815d4c90928996d867cae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9393bfa09d7423f464d34331c430af03" id="r_a9393bfa09d7423f464d34331c430af03"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#aef00701a9f40fa9ae8341987a432b50b">MR_MeshVisualizePropertyType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9393bfa09d7423f464d34331c430af03">MR_MeshVisualizePropertyType</a></td></tr>
+<tr class="separator:a9393bfa09d7423f464d34331c430af03"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c5e41e50d86c1613114a6f1296f0934" id="r_a1c5e41e50d86c1613114a6f1296f0934"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRObject_8h.html#a1c5e41e50d86c1613114a6f1296f0934">MR_ObjectMeshHolder</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c5e41e50d86c1613114a6f1296f0934">MR_ObjectMeshHolder</a></td></tr>
 <tr class="separator:a1c5e41e50d86c1613114a6f1296f0934"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a1be3860693af99a6c1da72580097294c" id="r_a1be3860693af99a6c1da72580097294c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
-&#160;&#160;<a class="el" href="#a1be3860693af99a6c1da72580097294ca27e4188af216397714f4522cf948645a">MR_MeshVisualizePropertyType_Faces</a> = 0
-, <a class="el" href="#a1be3860693af99a6c1da72580097294cad0ed5976142d1d258475edd7a845e942">MR_MeshVisualizePropertyType_Texture</a> = 1
-, <a class="el" href="#a1be3860693af99a6c1da72580097294ca0c423a274aacf27ea12e1561861df168">MR_MeshVisualizePropertyType_Edges</a> = 2
-, <a class="el" href="#a1be3860693af99a6c1da72580097294cae69b603b638ea5b86ed798832385a328">MR_MeshVisualizePropertyType_Points</a> = 3
+<tr class="memitem:aef00701a9f40fa9ae8341987a432b50b" id="r_aef00701a9f40fa9ae8341987a432b50b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef00701a9f40fa9ae8341987a432b50b">MR_MeshVisualizePropertyType</a> { <br />
+&#160;&#160;<a class="el" href="#aef00701a9f40fa9ae8341987a432b50ba27e4188af216397714f4522cf948645a">MR_MeshVisualizePropertyType_Faces</a> = 0
+, <a class="el" href="#aef00701a9f40fa9ae8341987a432b50bad0ed5976142d1d258475edd7a845e942">MR_MeshVisualizePropertyType_Texture</a> = 1
+, <a class="el" href="#aef00701a9f40fa9ae8341987a432b50ba0c423a274aacf27ea12e1561861df168">MR_MeshVisualizePropertyType_Edges</a> = 2
+, <a class="el" href="#aef00701a9f40fa9ae8341987a432b50bae69b603b638ea5b86ed798832385a328">MR_MeshVisualizePropertyType_Points</a> = 3
 , <br />
-&#160;&#160;<a class="el" href="#a1be3860693af99a6c1da72580097294ca1f9b51f09252ea7cf5193c9ea57542be">MR_MeshVisualizePropertyType_SelectedFaces</a> = 4
-, <a class="el" href="#a1be3860693af99a6c1da72580097294ca2841e05955269ac945f1af607da0f1ac">MR_MeshVisualizePropertyType_SelectedEdges</a> = 5
-, <a class="el" href="#a1be3860693af99a6c1da72580097294ca83fd1b6f4aa0d9369f968b03d4557944">MR_MeshVisualizePropertyType_EnableShading</a> = 6
-, <a class="el" href="#a1be3860693af99a6c1da72580097294caefa854d511bc214a273471e2c73c7231">MR_MeshVisualizePropertyType_FlatShading</a> = 7
+&#160;&#160;<a class="el" href="#aef00701a9f40fa9ae8341987a432b50ba1f9b51f09252ea7cf5193c9ea57542be">MR_MeshVisualizePropertyType_SelectedFaces</a> = 4
+, <a class="el" href="#aef00701a9f40fa9ae8341987a432b50ba2841e05955269ac945f1af607da0f1ac">MR_MeshVisualizePropertyType_SelectedEdges</a> = 5
+, <a class="el" href="#aef00701a9f40fa9ae8341987a432b50ba83fd1b6f4aa0d9369f968b03d4557944">MR_MeshVisualizePropertyType_EnableShading</a> = 6
+, <a class="el" href="#aef00701a9f40fa9ae8341987a432b50baefa854d511bc214a273471e2c73c7231">MR_MeshVisualizePropertyType_FlatShading</a> = 7
 , <br />
-&#160;&#160;<a class="el" href="#a1be3860693af99a6c1da72580097294ca01dab9a99ed6c31fa53d1a56d9a7534f">MR_MeshVisualizePropertyType_OnlyOddFragments</a> = 8
-, <a class="el" href="#a1be3860693af99a6c1da72580097294ca252c2e47feb4779b3a7d19ad765ee284">MR_MeshVisualizePropertyType_BordersHighlight</a> = 9
-, <a class="el" href="#a1be3860693af99a6c1da72580097294cadc51713b2c841b8631e8fa4bf825248a">MR_MeshVisualizePropertyType_PolygonOffsetFromCamera</a> = 10
-, <a class="el" href="#a1be3860693af99a6c1da72580097294ca54141b91c07c95a797ef0bb214ee2431">MR_MeshVisualizePropertyType__count</a> = 11
+&#160;&#160;<a class="el" href="#aef00701a9f40fa9ae8341987a432b50ba01dab9a99ed6c31fa53d1a56d9a7534f">MR_MeshVisualizePropertyType_OnlyOddFragments</a> = 8
+, <a class="el" href="#aef00701a9f40fa9ae8341987a432b50ba252c2e47feb4779b3a7d19ad765ee284">MR_MeshVisualizePropertyType_BordersHighlight</a> = 9
+, <a class="el" href="#aef00701a9f40fa9ae8341987a432b50badc51713b2c841b8631e8fa4bf825248a">MR_MeshVisualizePropertyType_PolygonOffsetFromCamera</a> = 10
+, <a class="el" href="#aef00701a9f40fa9ae8341987a432b50ba54141b91c07c95a797ef0bb214ee2431">MR_MeshVisualizePropertyType__count</a> = 11
 <br />
  }</td></tr>
-<tr class="separator:a1be3860693af99a6c1da72580097294c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:aef00701a9f40fa9ae8341987a432b50b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -334,8 +333,8 @@ Functions</h2></td></tr>
 <tr class="separator:a29eb23eda449bf61714309d2ae56c535"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7b2d656a4dca055f2dd7f5531a1197e0" id="r_a7b2d656a4dca055f2dd7f5531a1197e0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAngleMeasurementObject_8h.html#a9e9b9c2b8a1a0540b204b1b7e6e792f4">MR_std_shared_ptr_MR_Object</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b2d656a4dca055f2dd7f5531a1197e0">MR_ObjectMeshHolder_shallowClone</a> (const <a class="el" href="MRObject_8h.html#a1c5e41e50d86c1613114a6f1296f0934">MR_ObjectMeshHolder</a> *_this)</td></tr>
 <tr class="separator:a7b2d656a4dca055f2dd7f5531a1197e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1d3b30a906e3595f17c624b47be12e33" id="r_a1d3b30a906e3595f17c624b47be12e33"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1d3b30a906e3595f17c624b47be12e33">MR_ObjectMeshHolder_setDirtyFlags</a> (<a class="el" href="MRObject_8h.html#a1c5e41e50d86c1613114a6f1296f0934">MR_ObjectMeshHolder</a> *_this, uint32_t mask, const bool *invalidateCaches)</td></tr>
-<tr class="separator:a1d3b30a906e3595f17c624b47be12e33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac665c1701a02c1595cbce2d5d962517" id="r_aac665c1701a02c1595cbce2d5d962517"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac665c1701a02c1595cbce2d5d962517">MR_ObjectMeshHolder_setDirtyFlags</a> (<a class="el" href="MRObject_8h.html#a1c5e41e50d86c1613114a6f1296f0934">MR_ObjectMeshHolder</a> *_this, unsigned int mask, const bool *invalidateCaches)</td></tr>
+<tr class="separator:aac665c1701a02c1595cbce2d5d962517"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa4a7c2747ebf21afdb5c14f7bd881c32" id="r_aa4a7c2747ebf21afdb5c14f7bd881c32"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4a7c2747ebf21afdb5c14f7bd881c32">MR_ObjectMeshHolder_getSelectedFaces</a> (const <a class="el" href="MRObject_8h.html#a1c5e41e50d86c1613114a6f1296f0934">MR_ObjectMeshHolder</a> *_this)</td></tr>
 <tr class="separator:aa4a7c2747ebf21afdb5c14f7bd881c32"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a04f1623d20e1454fa9aab5d3b6e6ac2a" id="r_a04f1623d20e1454fa9aab5d3b6e6ac2a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04f1623d20e1454fa9aab5d3b6e6ac2a">MR_ObjectMeshHolder_selectFaces</a> (<a class="el" href="MRObject_8h.html#a1c5e41e50d86c1613114a6f1296f0934">MR_ObjectMeshHolder</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> newSelection_pass_by, <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *newSelection)</td></tr>
@@ -460,8 +459,8 @@ Functions</h2></td></tr>
 <tr class="separator:a685a875c6db021eaa234f3a0857035e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc4fee7ad106b52292cbe75b747ba4d3" id="r_adc4fee7ad106b52292cbe75b747ba4d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc4fee7ad106b52292cbe75b747ba4d3">MR_ObjectMeshHolder_clearAncillaryTexture</a> (<a class="el" href="MRObject_8h.html#a1c5e41e50d86c1613114a6f1296f0934">MR_ObjectMeshHolder</a> *_this)</td></tr>
 <tr class="separator:adc4fee7ad106b52292cbe75b747ba4d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af4f4fe246a3679034c339f66d3fbbd59" id="r_af4f4fe246a3679034c339f66d3fbbd59"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af4f4fe246a3679034c339f66d3fbbd59">MR_ObjectMeshHolder_getNeededNormalsRenderDirtyValue</a> (const <a class="el" href="MRObject_8h.html#a1c5e41e50d86c1613114a6f1296f0934">MR_ObjectMeshHolder</a> *_this, const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a85b2b5f875361920283d305645987092">MR_ViewportMask</a> *viewportMask)</td></tr>
-<tr class="separator:af4f4fe246a3679034c339f66d3fbbd59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8694b4fe976b4ea92bffd9be9698bc43" id="r_a8694b4fe976b4ea92bffd9be9698bc43"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8694b4fe976b4ea92bffd9be9698bc43">MR_ObjectMeshHolder_getNeededNormalsRenderDirtyValue</a> (const <a class="el" href="MRObject_8h.html#a1c5e41e50d86c1613114a6f1296f0934">MR_ObjectMeshHolder</a> *_this, const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a85b2b5f875361920283d305645987092">MR_ViewportMask</a> *viewportMask)</td></tr>
+<tr class="separator:a8694b4fe976b4ea92bffd9be9698bc43"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2757ab6201b014989614833c006bdc3b" id="r_a2757ab6201b014989614833c006bdc3b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2757ab6201b014989614833c006bdc3b">MR_ObjectMeshHolder_getRedrawFlag</a> (const <a class="el" href="MRObject_8h.html#a1c5e41e50d86c1613114a6f1296f0934">MR_ObjectMeshHolder</a> *_this, const <a class="el" href="MRAddVisualPropertiesMixin_8h.html#a85b2b5f875361920283d305645987092">MR_ViewportMask</a> *viewportMask)</td></tr>
 <tr class="separator:a2757ab6201b014989614833c006bdc3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4371bf3061e55dd6b9d5ddb71f3e4850" id="r_a4371bf3061e55dd6b9d5ddb71f3e4850"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4371bf3061e55dd6b9d5ddb71f3e4850">MR_ObjectMeshHolder_isMeshClosed</a> (const <a class="el" href="MRObject_8h.html#a1c5e41e50d86c1613114a6f1296f0934">MR_ObjectMeshHolder</a> *_this)</td></tr>
@@ -606,14 +605,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ae2a97f36477815d4c90928996d867cae" name="ae2a97f36477815d4c90928996d867cae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae2a97f36477815d4c90928996d867cae">&#9670;&#160;</a></span>MR_MeshVisualizePropertyType</h2>
+<a id="a9393bfa09d7423f464d34331c430af03" name="a9393bfa09d7423f464d34331c430af03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9393bfa09d7423f464d34331c430af03">&#9670;&#160;</a></span>MR_MeshVisualizePropertyType</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef int32_t <a class="el" href="#ae2a97f36477815d4c90928996d867cae">MR_MeshVisualizePropertyType</a></td>
+          <td class="memname">typedef enum <a class="el" href="#aef00701a9f40fa9ae8341987a432b50b">MR_MeshVisualizePropertyType</a> <a class="el" href="#aef00701a9f40fa9ae8341987a432b50b">MR_MeshVisualizePropertyType</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -902,30 +901,30 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a1be3860693af99a6c1da72580097294c" name="a1be3860693af99a6c1da72580097294c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1be3860693af99a6c1da72580097294c">&#9670;&#160;</a></span>anonymous enum</h2>
+<a id="aef00701a9f40fa9ae8341987a432b50b" name="aef00701a9f40fa9ae8341987a432b50b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef00701a9f40fa9ae8341987a432b50b">&#9670;&#160;</a></span>MR_MeshVisualizePropertyType</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">anonymous enum</td>
+          <td class="memname">enum <a class="el" href="#aef00701a9f40fa9ae8341987a432b50b">MR_MeshVisualizePropertyType</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a1be3860693af99a6c1da72580097294ca27e4188af216397714f4522cf948645a" name="a1be3860693af99a6c1da72580097294ca27e4188af216397714f4522cf948645a"></a>MR_MeshVisualizePropertyType_Faces&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a1be3860693af99a6c1da72580097294cad0ed5976142d1d258475edd7a845e942" name="a1be3860693af99a6c1da72580097294cad0ed5976142d1d258475edd7a845e942"></a>MR_MeshVisualizePropertyType_Texture&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a1be3860693af99a6c1da72580097294ca0c423a274aacf27ea12e1561861df168" name="a1be3860693af99a6c1da72580097294ca0c423a274aacf27ea12e1561861df168"></a>MR_MeshVisualizePropertyType_Edges&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a1be3860693af99a6c1da72580097294cae69b603b638ea5b86ed798832385a328" name="a1be3860693af99a6c1da72580097294cae69b603b638ea5b86ed798832385a328"></a>MR_MeshVisualizePropertyType_Points&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a1be3860693af99a6c1da72580097294ca1f9b51f09252ea7cf5193c9ea57542be" name="a1be3860693af99a6c1da72580097294ca1f9b51f09252ea7cf5193c9ea57542be"></a>MR_MeshVisualizePropertyType_SelectedFaces&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a1be3860693af99a6c1da72580097294ca2841e05955269ac945f1af607da0f1ac" name="a1be3860693af99a6c1da72580097294ca2841e05955269ac945f1af607da0f1ac"></a>MR_MeshVisualizePropertyType_SelectedEdges&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a1be3860693af99a6c1da72580097294ca83fd1b6f4aa0d9369f968b03d4557944" name="a1be3860693af99a6c1da72580097294ca83fd1b6f4aa0d9369f968b03d4557944"></a>MR_MeshVisualizePropertyType_EnableShading&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a1be3860693af99a6c1da72580097294caefa854d511bc214a273471e2c73c7231" name="a1be3860693af99a6c1da72580097294caefa854d511bc214a273471e2c73c7231"></a>MR_MeshVisualizePropertyType_FlatShading&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a1be3860693af99a6c1da72580097294ca01dab9a99ed6c31fa53d1a56d9a7534f" name="a1be3860693af99a6c1da72580097294ca01dab9a99ed6c31fa53d1a56d9a7534f"></a>MR_MeshVisualizePropertyType_OnlyOddFragments&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a1be3860693af99a6c1da72580097294ca252c2e47feb4779b3a7d19ad765ee284" name="a1be3860693af99a6c1da72580097294ca252c2e47feb4779b3a7d19ad765ee284"></a>MR_MeshVisualizePropertyType_BordersHighlight&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a1be3860693af99a6c1da72580097294cadc51713b2c841b8631e8fa4bf825248a" name="a1be3860693af99a6c1da72580097294cadc51713b2c841b8631e8fa4bf825248a"></a>MR_MeshVisualizePropertyType_PolygonOffsetFromCamera&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a1be3860693af99a6c1da72580097294ca54141b91c07c95a797ef0bb214ee2431" name="a1be3860693af99a6c1da72580097294ca54141b91c07c95a797ef0bb214ee2431"></a>MR_MeshVisualizePropertyType__count&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aef00701a9f40fa9ae8341987a432b50ba27e4188af216397714f4522cf948645a" name="aef00701a9f40fa9ae8341987a432b50ba27e4188af216397714f4522cf948645a"></a>MR_MeshVisualizePropertyType_Faces&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aef00701a9f40fa9ae8341987a432b50bad0ed5976142d1d258475edd7a845e942" name="aef00701a9f40fa9ae8341987a432b50bad0ed5976142d1d258475edd7a845e942"></a>MR_MeshVisualizePropertyType_Texture&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aef00701a9f40fa9ae8341987a432b50ba0c423a274aacf27ea12e1561861df168" name="aef00701a9f40fa9ae8341987a432b50ba0c423a274aacf27ea12e1561861df168"></a>MR_MeshVisualizePropertyType_Edges&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aef00701a9f40fa9ae8341987a432b50bae69b603b638ea5b86ed798832385a328" name="aef00701a9f40fa9ae8341987a432b50bae69b603b638ea5b86ed798832385a328"></a>MR_MeshVisualizePropertyType_Points&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aef00701a9f40fa9ae8341987a432b50ba1f9b51f09252ea7cf5193c9ea57542be" name="aef00701a9f40fa9ae8341987a432b50ba1f9b51f09252ea7cf5193c9ea57542be"></a>MR_MeshVisualizePropertyType_SelectedFaces&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aef00701a9f40fa9ae8341987a432b50ba2841e05955269ac945f1af607da0f1ac" name="aef00701a9f40fa9ae8341987a432b50ba2841e05955269ac945f1af607da0f1ac"></a>MR_MeshVisualizePropertyType_SelectedEdges&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aef00701a9f40fa9ae8341987a432b50ba83fd1b6f4aa0d9369f968b03d4557944" name="aef00701a9f40fa9ae8341987a432b50ba83fd1b6f4aa0d9369f968b03d4557944"></a>MR_MeshVisualizePropertyType_EnableShading&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aef00701a9f40fa9ae8341987a432b50baefa854d511bc214a273471e2c73c7231" name="aef00701a9f40fa9ae8341987a432b50baefa854d511bc214a273471e2c73c7231"></a>MR_MeshVisualizePropertyType_FlatShading&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aef00701a9f40fa9ae8341987a432b50ba01dab9a99ed6c31fa53d1a56d9a7534f" name="aef00701a9f40fa9ae8341987a432b50ba01dab9a99ed6c31fa53d1a56d9a7534f"></a>MR_MeshVisualizePropertyType_OnlyOddFragments&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aef00701a9f40fa9ae8341987a432b50ba252c2e47feb4779b3a7d19ad765ee284" name="aef00701a9f40fa9ae8341987a432b50ba252c2e47feb4779b3a7d19ad765ee284"></a>MR_MeshVisualizePropertyType_BordersHighlight&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aef00701a9f40fa9ae8341987a432b50badc51713b2c841b8631e8fa4bf825248a" name="aef00701a9f40fa9ae8341987a432b50badc51713b2c841b8631e8fa4bf825248a"></a>MR_MeshVisualizePropertyType_PolygonOffsetFromCamera&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aef00701a9f40fa9ae8341987a432b50ba54141b91c07c95a797ef0bb214ee2431" name="aef00701a9f40fa9ae8341987a432b50ba54141b91c07c95a797ef0bb214ee2431"></a>MR_MeshVisualizePropertyType__count&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -1601,14 +1600,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="af4f4fe246a3679034c339f66d3fbbd59" name="af4f4fe246a3679034c339f66d3fbbd59"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af4f4fe246a3679034c339f66d3fbbd59">&#9670;&#160;</a></span>MR_ObjectMeshHolder_getNeededNormalsRenderDirtyValue()</h2>
+<a id="a8694b4fe976b4ea92bffd9be9698bc43" name="a8694b4fe976b4ea92bffd9be9698bc43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8694b4fe976b4ea92bffd9be9698bc43">&#9670;&#160;</a></span>MR_ObjectMeshHolder_getNeededNormalsRenderDirtyValue()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> uint32_t MR_ObjectMeshHolder_getNeededNormalsRenderDirtyValue </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> unsigned int MR_ObjectMeshHolder_getNeededNormalsRenderDirtyValue </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRObject_8h.html#a1c5e41e50d86c1613114a6f1296f0934">MR_ObjectMeshHolder</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -2735,8 +2734,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a1d3b30a906e3595f17c624b47be12e33" name="a1d3b30a906e3595f17c624b47be12e33"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1d3b30a906e3595f17c624b47be12e33">&#9670;&#160;</a></span>MR_ObjectMeshHolder_setDirtyFlags()</h2>
+<a id="aac665c1701a02c1595cbce2d5d962517" name="aac665c1701a02c1595cbce2d5d962517"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac665c1701a02c1595cbce2d5d962517">&#9670;&#160;</a></span>MR_ObjectMeshHolder_setDirtyFlags()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2749,7 +2748,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>mask</em></span>, </td>
+          <td class="paramtype">unsigned int</td>          <td class="paramname"><span class="paramname"><em>mask</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

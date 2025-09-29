@@ -158,7 +158,6 @@ $(function(){initNavTree('MRPointMeasurementObject_8h.html',''); initResizable(t
 <code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
-<code>#include &lt;stdint.h&gt;</code><br />
 </div>
 <p><a href="MRPointMeasurementObject_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -196,17 +195,17 @@ Typedefs</h2></td></tr>
 <tr class="separator:af3d91d0213ab95de48f9478fac0d21e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6b334578883a55d60d5ef67962505ba" id="r_aa6b334578883a55d60d5ef67962505ba"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAddVisualPropertiesMixin_8h.html#aa6b334578883a55d60d5ef67962505ba">MR_std_vector_MR_ViewportMask</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6b334578883a55d60d5ef67962505ba">MR_std_vector_MR_ViewportMask</a></td></tr>
 <tr class="separator:aa6b334578883a55d60d5ef67962505ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab82125ebcd187661271f5f28367cb0aa" id="r_ab82125ebcd187661271f5f28367cb0aa"><td class="memItemLeft" align="right" valign="top">typedef int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab82125ebcd187661271f5f28367cb0aa">MR_PointMeasurementVisualizePropertyType</a></td></tr>
-<tr class="separator:ab82125ebcd187661271f5f28367cb0aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb7266cf6aafb21c21e3c775d9684684" id="r_adb7266cf6aafb21c21e3c775d9684684"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#aee49882c96b7a628fa889c52eb64e308">MR_PointMeasurementVisualizePropertyType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb7266cf6aafb21c21e3c775d9684684">MR_PointMeasurementVisualizePropertyType</a></td></tr>
+<tr class="separator:adb7266cf6aafb21c21e3c775d9684684"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a749cca566de75c01b7c4210dfd5ab596" id="r_a749cca566de75c01b7c4210dfd5ab596"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRMeasurementObject_8h.html#a749cca566de75c01b7c4210dfd5ab596">MR_PointMeasurementObject</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a749cca566de75c01b7c4210dfd5ab596">MR_PointMeasurementObject</a></td></tr>
 <tr class="separator:a749cca566de75c01b7c4210dfd5ab596"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a2f80701c36e79c0640d91c788feee0b3" id="r_a2f80701c36e79c0640d91c788feee0b3"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#a2f80701c36e79c0640d91c788feee0b3a22d592229c42e4d59ec49c0d32a9c9e4">MR_PointMeasurementVisualizePropertyType_CapVisibility</a> = 0
-, <a class="el" href="#a2f80701c36e79c0640d91c788feee0b3a4c2f70bbff760685bcc892376eeab494">MR_PointMeasurementVisualizePropertyType__count</a> = 1
+<tr class="memitem:aee49882c96b7a628fa889c52eb64e308" id="r_aee49882c96b7a628fa889c52eb64e308"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee49882c96b7a628fa889c52eb64e308">MR_PointMeasurementVisualizePropertyType</a> { <a class="el" href="#aee49882c96b7a628fa889c52eb64e308a22d592229c42e4d59ec49c0d32a9c9e4">MR_PointMeasurementVisualizePropertyType_CapVisibility</a> = 0
+, <a class="el" href="#aee49882c96b7a628fa889c52eb64e308a4c2f70bbff760685bcc892376eeab494">MR_PointMeasurementVisualizePropertyType__count</a> = 1
  }</td></tr>
-<tr class="separator:a2f80701c36e79c0640d91c788feee0b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:aee49882c96b7a628fa889c52eb64e308"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -423,14 +422,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ab82125ebcd187661271f5f28367cb0aa" name="ab82125ebcd187661271f5f28367cb0aa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab82125ebcd187661271f5f28367cb0aa">&#9670;&#160;</a></span>MR_PointMeasurementVisualizePropertyType</h2>
+<a id="adb7266cf6aafb21c21e3c775d9684684" name="adb7266cf6aafb21c21e3c775d9684684"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb7266cf6aafb21c21e3c775d9684684">&#9670;&#160;</a></span>MR_PointMeasurementVisualizePropertyType</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef int32_t <a class="el" href="#ab82125ebcd187661271f5f28367cb0aa">MR_PointMeasurementVisualizePropertyType</a></td>
+          <td class="memname">typedef enum <a class="el" href="#aee49882c96b7a628fa889c52eb64e308">MR_PointMeasurementVisualizePropertyType</a> <a class="el" href="#aee49882c96b7a628fa889c52eb64e308">MR_PointMeasurementVisualizePropertyType</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -564,20 +563,20 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a2f80701c36e79c0640d91c788feee0b3" name="a2f80701c36e79c0640d91c788feee0b3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2f80701c36e79c0640d91c788feee0b3">&#9670;&#160;</a></span>anonymous enum</h2>
+<a id="aee49882c96b7a628fa889c52eb64e308" name="aee49882c96b7a628fa889c52eb64e308"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee49882c96b7a628fa889c52eb64e308">&#9670;&#160;</a></span>MR_PointMeasurementVisualizePropertyType</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">anonymous enum</td>
+          <td class="memname">enum <a class="el" href="#aee49882c96b7a628fa889c52eb64e308">MR_PointMeasurementVisualizePropertyType</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a2f80701c36e79c0640d91c788feee0b3a22d592229c42e4d59ec49c0d32a9c9e4" name="a2f80701c36e79c0640d91c788feee0b3a22d592229c42e4d59ec49c0d32a9c9e4"></a>MR_PointMeasurementVisualizePropertyType_CapVisibility&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2f80701c36e79c0640d91c788feee0b3a4c2f70bbff760685bcc892376eeab494" name="a2f80701c36e79c0640d91c788feee0b3a4c2f70bbff760685bcc892376eeab494"></a>MR_PointMeasurementVisualizePropertyType__count&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aee49882c96b7a628fa889c52eb64e308a22d592229c42e4d59ec49c0d32a9c9e4" name="aee49882c96b7a628fa889c52eb64e308a22d592229c42e4d59ec49c0d32a9c9e4"></a>MR_PointMeasurementVisualizePropertyType_CapVisibility&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aee49882c96b7a628fa889c52eb64e308a4c2f70bbff760685bcc892376eeab494" name="aee49882c96b7a628fa889c52eb64e308a4c2f70bbff760685bcc892376eeab494"></a>MR_PointMeasurementVisualizePropertyType__count&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>

@@ -2,15 +2,26 @@ var MRFillingSurface_8h =
 [
     [ "MR_expected_MR_Mesh_std_string", "MRFillingSurface_8h.html#a0d97154d4aed695055160a4688c04a3d", null ],
     [ "MR_FillingSurface_CellularSurface_Params", "MRFillingSurface_8h.html#ae4efb998aa5d6c2ddd6698e7648180d6", null ],
-    [ "MR_FillingSurface_Kind", "MRFillingSurface_8h.html#ac38608e230b14606a94aa696e7a688ca", null ],
+    [ "MR_FillingSurface_Kind", "MRFillingSurface_8h.html#a9ecc51cc6fdb079af3baa878955db0e0", null ],
     [ "MR_FillingSurface_TPMS_MeshParams", "MRFillingSurface_8h.html#ac5722023b66951c9f1f6164dca48cecf", null ],
-    [ "MR_FillingSurface_TPMS_Type", "MRFillingSurface_8h.html#a210db1b4de985e9bdf85ad3b0b4d279b", null ],
+    [ "MR_FillingSurface_TPMS_Type", "MRFillingSurface_8h.html#a202556565dc01b05e3826d14a7135a6d", null ],
     [ "MR_FillingSurface_TPMS_VolumeParams", "MRFillingSurface_8h.html#a0b9839dfde3aa393d5c20e25f9d6b30e", null ],
     [ "MR_FunctionVolume", "MRFillingSurface_8h.html#ab294732b2988d23c13fd8799dc19a43a", null ],
     [ "MR_Mesh", "MRFillingSurface_8h.html#a31b172f68efca6438544d56eb86d6f40", null ],
     [ "MR_std_function_bool_from_float", "MRFillingSurface_8h.html#adb03ce28cacfff1e499d75d512dc4a84", null ],
     [ "MR_std_optional_float", "MRFillingSurface_8h.html#a55e42a260ef15081eb6a47c600bd1f4b", null ],
     [ "MR_std_vector_std_string", "MRFillingSurface_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900", null ],
+    [ "MR_FillingSurface_Kind", "MRFillingSurface_8h.html#a21d3adbc3b56cda211a5275e3b2dd996", [
+      [ "MR_FillingSurface_Kind_TPMS", "MRFillingSurface_8h.html#a21d3adbc3b56cda211a5275e3b2dd996a5959d380d1988a9ffee91685fa868b59", null ],
+      [ "MR_FillingSurface_Kind_Cellular", "MRFillingSurface_8h.html#a21d3adbc3b56cda211a5275e3b2dd996a6c6a40cd78d13da61e209512370b2fc3", null ]
+    ] ],
+    [ "MR_FillingSurface_TPMS_Type", "MRFillingSurface_8h.html#ae86ae655ee24778c5d70b3d523794514", [
+      [ "MR_FillingSurface_TPMS_Type_SchwartzP", "MRFillingSurface_8h.html#ae86ae655ee24778c5d70b3d523794514aeea3af5b18ab1789ee8e4f68f5ae95d5", null ],
+      [ "MR_FillingSurface_TPMS_Type_ThickSchwartzP", "MRFillingSurface_8h.html#ae86ae655ee24778c5d70b3d523794514ab9ba253970f79dec8be2cac15a3e715b", null ],
+      [ "MR_FillingSurface_TPMS_Type_DoubleGyroid", "MRFillingSurface_8h.html#ae86ae655ee24778c5d70b3d523794514ad9e22229de4b1df5db0acfc4beae8ff9", null ],
+      [ "MR_FillingSurface_TPMS_Type_ThickGyroid", "MRFillingSurface_8h.html#ae86ae655ee24778c5d70b3d523794514a72bd8181ae67afd3ae03c7ee6bc42e36", null ],
+      [ "MR_FillingSurface_TPMS_Type_Count", "MRFillingSurface_8h.html#ae86ae655ee24778c5d70b3d523794514af5253393a2247a72cf41bf8c476ab631", null ]
+    ] ],
     [ "MR_FillingSurface_CellularSurface_build", "MRFillingSurface_8h.html#a74cbe9dee59edafa78c82b85d7d686e0", null ],
     [ "MR_FillingSurface_CellularSurface_estimateDensity", "MRFillingSurface_8h.html#aebc03d57a68bb8a78e4a76de2d396165", null ],
     [ "MR_FillingSurface_CellularSurface_estimateWidth", "MRFillingSurface_8h.html#aec461310ebfc9d811a423eaff3d0e1ff", null ],

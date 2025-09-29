@@ -2,7 +2,7 @@ var MRDistanceMap_8h =
 [
     [ "MR_AffineXf3f", "MRDistanceMap_8h.html#a88a1df6fb138786a55241b1d77a4b0cc", null ],
     [ "MR_ContoursDistanceMapOffset", "MRDistanceMap_8h.html#ae18f6794b8034a86519b671a964d9446", null ],
-    [ "MR_ContoursDistanceMapOffset_OffsetType", "MRDistanceMap_8h.html#ad69e7f801fe3b5d8e92d28976d055bc1", null ],
+    [ "MR_ContoursDistanceMapOffset_OffsetType", "MRDistanceMap_8h.html#acbde8fb1044a6d36d859925985464770", null ],
     [ "MR_ContoursDistanceMapOptions", "MRDistanceMap_8h.html#af9858814c2a5d9f1e896f1f5569bd76e", null ],
     [ "MR_ContoursDistanceMapOptions_SignedDetectionMethod", "MRDistanceMap_8h.html#ae1ee1f5632a211391fb21b2dcd5572fd", null ],
     [ "MR_ContourToDistanceMapParams", "MRDistanceMap_8h.html#ad61286dbd4af331e293fe93f97dbf8c4", null ],
@@ -29,6 +29,10 @@ var MRDistanceMap_8h =
     [ "MR_std_vector_MR_Vector3f", "MRDistanceMap_8h.html#aefed148a09a0ae55edbd22814638b462", null ],
     [ "MR_std_vector_std_pair_uint64_t_uint64_t", "MRDistanceMap_8h.html#a4ba956ab86bd003d0950519b103eff66", null ],
     [ "MR_UndirectedEdgeScalars", "MRDistanceMap_8h.html#af24d03a25a98fafdbaf79dfeda2fc526", null ],
+    [ "MR_ContoursDistanceMapOffset_OffsetType", "MRDistanceMap_8h.html#a7ee1d04e7837b8c167cd2cd5d68475ab", [
+      [ "MR_ContoursDistanceMapOffset_OffsetType_Normal", "MRDistanceMap_8h.html#a7ee1d04e7837b8c167cd2cd5d68475aba56c1ba008c4ac90aae12e5edbe885830", null ],
+      [ "MR_ContoursDistanceMapOffset_OffsetType_Shell", "MRDistanceMap_8h.html#a7ee1d04e7837b8c167cd2cd5d68475aba55db81eff0bb5e4b6ba10188cb10a178", null ]
+    ] ],
     [ "MR_ContoursDistanceMapOptions_SignedDetectionMethod", "MRDistanceMap_8h.html#abea21d3d81ffe6d8a0009139d08c6f63", [
       [ "MR_ContoursDistanceMapOptions_SignedDetectionMethod_ContourOrientation", "MRDistanceMap_8h.html#abea21d3d81ffe6d8a0009139d08c6f63abed323e381600a2e9ee8105488fdabc5", null ],
       [ "MR_ContoursDistanceMapOptions_SignedDetectionMethod_WindingRule", "MRDistanceMap_8h.html#abea21d3d81ffe6d8a0009139d08c6f63abd9f3bf71168084626261ff46eda49b4", null ]

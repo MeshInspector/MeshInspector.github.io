@@ -155,7 +155,6 @@ $(function(){initNavTree('MRVoxelsSave_8h.html',''); initResizable(true); });
 <code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="MRVoxelPath_8h_source.html">MRCVoxels/MRVoxelPath.h</a>&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
-<code>#include &lt;stdint.h&gt;</code><br />
 </div>
 <p><a href="MRVoxelsSave_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -223,8 +222,8 @@ Functions</h2></td></tr>
 <tr class="separator:ae3b70a2ff05b5c2c6ed52657f80a7edd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4073bf1f4c13ae29b1bd176e92b3f20f" id="r_a4073bf1f4c13ae29b1bd176e92b3f20f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4073bf1f4c13ae29b1bd176e92b3f20f">MR_VoxelsSave_toAnySupportedFormat</a> (const <a class="el" href="MRBox_8h.html#a3d8aa59058b2516d2c9b34241f2c0441">MR_VdbVolume</a> *vdbVolume, const char *file, const char *file_end, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> callback_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *callback)</td></tr>
 <tr class="separator:a4073bf1f4c13ae29b1bd176e92b3f20f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a490bc4bc94fe1f83d7b97e1714a05848" id="r_a490bc4bc94fe1f83d7b97e1714a05848"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a490bc4bc94fe1f83d7b97e1714a05848">MR_VoxelsSave_saveSliceToImage</a> (const char *path, const char *path_end, const <a class="el" href="MRBox_8h.html#a3d8aa59058b2516d2c9b34241f2c0441">MR_VdbVolume</a> *vdbVolume, const <a class="el" href="MRVoxelPath_8h.html#a5fefa7874fd77b5c87ee0874702f1ac2">MR_SlicePlane</a> *slicePlain, int32_t sliceNumber, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> callback_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *callback)</td></tr>
-<tr class="separator:a490bc4bc94fe1f83d7b97e1714a05848"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a343bd1970402fb7fb50b8dcba5af42e3" id="r_a343bd1970402fb7fb50b8dcba5af42e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a343bd1970402fb7fb50b8dcba5af42e3">MR_VoxelsSave_saveSliceToImage</a> (const char *path, const char *path_end, const <a class="el" href="MRBox_8h.html#a3d8aa59058b2516d2c9b34241f2c0441">MR_VdbVolume</a> *vdbVolume, const <a class="el" href="MRVoxelPath_8h.html#a5fefa7874fd77b5c87ee0874702f1ac2">MR_SlicePlane</a> *slicePlain, int sliceNumber, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> callback_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *callback)</td></tr>
+<tr class="separator:a343bd1970402fb7fb50b8dcba5af42e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab05ac627279e4ed7c9bbe782c4ecf146" id="r_ab05ac627279e4ed7c9bbe782c4ecf146"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRSceneRoot_8h.html#a006d61fd2048bba5b5622d42cbe72526">MR_std_filesystem_path</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab05ac627279e4ed7c9bbe782c4ecf146">MR_VoxelsSave_SavingSettings_Get_path</a> (const <a class="el" href="#a4fbdf2733718be5c8a4eb6b77207c017">MR_VoxelsSave_SavingSettings</a> *_this)</td></tr>
 <tr class="separator:ab05ac627279e4ed7c9bbe782c4ecf146"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03ad557405a5944fc590903962227704" id="r_a03ad557405a5944fc590903962227704"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03ad557405a5944fc590903962227704">MR_VoxelsSave_SavingSettings_Set_path</a> (<a class="el" href="#a4fbdf2733718be5c8a4eb6b77207c017">MR_VoxelsSave_SavingSettings</a> *_this, const char *value, const char *value_end)</td></tr>
@@ -692,8 +691,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a490bc4bc94fe1f83d7b97e1714a05848" name="a490bc4bc94fe1f83d7b97e1714a05848"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a490bc4bc94fe1f83d7b97e1714a05848">&#9670;&#160;</a></span>MR_VoxelsSave_saveSliceToImage()</h2>
+<a id="a343bd1970402fb7fb50b8dcba5af42e3" name="a343bd1970402fb7fb50b8dcba5af42e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a343bd1970402fb7fb50b8dcba5af42e3">&#9670;&#160;</a></span>MR_VoxelsSave_saveSliceToImage()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -721,7 +720,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>sliceNumber</em></span>, </td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>sliceNumber</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

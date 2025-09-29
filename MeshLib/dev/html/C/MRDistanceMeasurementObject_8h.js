@@ -1,7 +1,7 @@
 var MRDistanceMeasurementObject_8h =
 [
     [ "MR_DistanceMeasurementObject", "MRDistanceMeasurementObject_8h.html#a9185d6c78b24d67f65fff43bd4a336c3", null ],
-    [ "MR_DistanceMeasurementObject_DistanceMode", "MRDistanceMeasurementObject_8h.html#a6af58bb8f8050961e9a2e6486d2003f2", null ],
+    [ "MR_DistanceMeasurementObject_DistanceMode", "MRDistanceMeasurementObject_8h.html#a4dd17bdc5fce292c8a32d4fd04b03ad2", null ],
     [ "MR_MeasurementObject", "MRDistanceMeasurementObject_8h.html#af3835b44b6f41035bcc3f994b4711cc1", null ],
     [ "MR_Object", "MRDistanceMeasurementObject_8h.html#accce9c9179cadabc541edda0fc7a2571", null ],
     [ "MR_ObjectChildrenHolder", "MRDistanceMeasurementObject_8h.html#aecafdb5edbdb31eb13fbab762e3c39bc", null ],
@@ -16,6 +16,14 @@ var MRDistanceMeasurementObject_8h =
     [ "MR_std_variant_float_MR_Vector3f", "MRDistanceMeasurementObject_8h.html#af3d91d0213ab95de48f9478fac0d21e0", null ],
     [ "MR_std_vector_std_string", "MRDistanceMeasurementObject_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900", null ],
     [ "MR_VisualObject", "MRDistanceMeasurementObject_8h.html#a36f3696eda81d7005927ebc5fdf17e14", null ],
+    [ "MR_DistanceMeasurementObject_DistanceMode", "MRDistanceMeasurementObject_8h.html#a866370df7c69a40c7d8780a42858651c", [
+      [ "MR_DistanceMeasurementObject_DistanceMode_euclidean", "MRDistanceMeasurementObject_8h.html#a866370df7c69a40c7d8780a42858651ca3ec32fcc2ccdacdb04d65ee43385d391", null ],
+      [ "MR_DistanceMeasurementObject_DistanceMode_euclideanWithSignedDeltasPerAxis", "MRDistanceMeasurementObject_8h.html#a866370df7c69a40c7d8780a42858651cae3d4cf5a3a553ba06e5131faaffbbfc4", null ],
+      [ "MR_DistanceMeasurementObject_DistanceMode_euclideanWithAbsoluteDeltasPerAxis", "MRDistanceMeasurementObject_8h.html#a866370df7c69a40c7d8780a42858651cafa1fc5830182c25082b2f77d01c454f8", null ],
+      [ "MR_DistanceMeasurementObject_DistanceMode_xAbsolute", "MRDistanceMeasurementObject_8h.html#a866370df7c69a40c7d8780a42858651ca671ba75be745be4e18a27db94cf0f1df", null ],
+      [ "MR_DistanceMeasurementObject_DistanceMode_yAbsolute", "MRDistanceMeasurementObject_8h.html#a866370df7c69a40c7d8780a42858651ca85721f131d51bcffdea101027f22554c", null ],
+      [ "MR_DistanceMeasurementObject_DistanceMode_zAbsolute", "MRDistanceMeasurementObject_8h.html#a866370df7c69a40c7d8780a42858651ca9a9f4bf4add0184ac833e55d72173abc", null ]
+    ] ],
     [ "MR_DistanceMeasurementObject_AssignFromAnother", "MRDistanceMeasurementObject_8h.html#ace23cb7d6be40c2b2d6b1099683fcaed", null ],
     [ "MR_DistanceMeasurementObject_ClassName", "MRDistanceMeasurementObject_8h.html#ae1eda2ddd8a9b63fa78b564398650d87", null ],
     [ "MR_DistanceMeasurementObject_className", "MRDistanceMeasurementObject_8h.html#a5eb389c6509ad5e6267dff71bbfbb6f5", null ],

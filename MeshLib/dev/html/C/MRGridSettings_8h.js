@@ -4,8 +4,18 @@ var MRGridSettings_8h =
     [ "MR_BMap_MR_UndirectedEdgeId_uint64_t", "MRGridSettings_8h.html#a8a7105d6f2c0d694d7dff11a45e316f9", null ],
     [ "MR_BMap_MR_VertId_uint64_t", "MRGridSettings_8h.html#a7f5f03336386d65f3e0804994394713e", null ],
     [ "MR_GridSettings", "MRGridSettings_8h.html#a1fed3ff99b050e83b401a1b490fe0e58", null ],
-    [ "MR_GridSettings_EdgeType", "MRGridSettings_8h.html#aa18020c716b5d3813c965a215afebbdf", null ],
-    [ "MR_GridSettings_TriType", "MRGridSettings_8h.html#af37ad3f09548dd36b1036e00ba4a09de", null ],
+    [ "MR_GridSettings_EdgeType", "MRGridSettings_8h.html#ae3c511aee8952cf05f248dd162b3ddb2", null ],
+    [ "MR_GridSettings_TriType", "MRGridSettings_8h.html#a7a393df8efcc2bc97f02f376b197a66b", null ],
+    [ "MR_GridSettings_EdgeType", "MRGridSettings_8h.html#aaa9624438105f4572d37fa0b0be8840e", [
+      [ "MR_GridSettings_EdgeType_Horizontal", "MRGridSettings_8h.html#aaa9624438105f4572d37fa0b0be8840ea34e00de7af99b531ac6a6cf1ba66f158", null ],
+      [ "MR_GridSettings_EdgeType_Vertical", "MRGridSettings_8h.html#aaa9624438105f4572d37fa0b0be8840ea237494c0fba9e01b9fa12e6af2f5d990", null ],
+      [ "MR_GridSettings_EdgeType_DiagonalA", "MRGridSettings_8h.html#aaa9624438105f4572d37fa0b0be8840ea4a2066df98c9a25af05159d9c375fe95", null ],
+      [ "MR_GridSettings_EdgeType_DiagonalB", "MRGridSettings_8h.html#aaa9624438105f4572d37fa0b0be8840ea359499b97064127bfecffb4ac4a85924", null ]
+    ] ],
+    [ "MR_GridSettings_TriType", "MRGridSettings_8h.html#a67dfa26a9268fcb75419dba0e0247ece", [
+      [ "MR_GridSettings_TriType_Lower", "MRGridSettings_8h.html#a67dfa26a9268fcb75419dba0e0247eceadeaa19f5169b597f8536cff7fab31d72", null ],
+      [ "MR_GridSettings_TriType_Upper", "MRGridSettings_8h.html#a67dfa26a9268fcb75419dba0e0247ecead0ae47796f0485f9f765e4e852366de2", null ]
+    ] ],
     [ "MR_GridSettings_AssignFromAnother", "MRGridSettings_8h.html#a6a8b8d44268cc46142c76a113449c04b", null ],
     [ "MR_GridSettings_ConstructFrom", "MRGridSettings_8h.html#a12454e087ab76df832f2389610634cc1", null ],
     [ "MR_GridSettings_ConstructFromAnother", "MRGridSettings_8h.html#a998e128bb271649a68cac29369700976", null ],

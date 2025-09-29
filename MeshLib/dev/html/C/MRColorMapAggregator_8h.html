@@ -155,7 +155,6 @@ $(function(){initNavTree('MRColorMapAggregator_8h.html',''); initResizable(true)
 <div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
-<code>#include &lt;stdint.h&gt;</code><br />
 </div>
 <p><a href="MRColorMapAggregator_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -180,40 +179,43 @@ Typedefs</h2></td></tr>
 <tr class="separator:aa06542dda3b7a636d18636955399ece4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad112967572c31509cc0fe1aa56fce9b5" id="r_ad112967572c31509cc0fe1aa56fce9b5"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ad112967572c31509cc0fe1aa56fce9b5">MR_ColorMapAggregator_MR_VertTag_PartialColorMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad112967572c31509cc0fe1aa56fce9b5">MR_ColorMapAggregator_MR_VertTag_PartialColorMap</a></td></tr>
 <tr class="separator:ad112967572c31509cc0fe1aa56fce9b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ec98de5657149f083a3241c29f52b82" id="r_a7ec98de5657149f083a3241c29f52b82"><td class="memItemLeft" align="right" valign="top">typedef int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ec98de5657149f083a3241c29f52b82">MR_ColorMapAggregator_MR_VertTag_AggregateMode</a></td></tr>
-<tr class="memdesc:a7ec98de5657149f083a3241c29f52b82"><td class="mdescLeft">&#160;</td><td class="mdescRight">color map aggregating mode  <br /></td></tr>
-<tr class="separator:a7ec98de5657149f083a3241c29f52b82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a981b7592a7ab68cfd181cb28452e3e8c" id="r_a981b7592a7ab68cfd181cb28452e3e8c"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#af167108ad97055d6af4428ae33453841">MR_ColorMapAggregator_MR_VertTag_AggregateMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a981b7592a7ab68cfd181cb28452e3e8c">MR_ColorMapAggregator_MR_VertTag_AggregateMode</a></td></tr>
+<tr class="memdesc:a981b7592a7ab68cfd181cb28452e3e8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">color map aggregating mode  <br /></td></tr>
+<tr class="separator:a981b7592a7ab68cfd181cb28452e3e8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a86d71ed439c40b739e94b1de6c2fe0" id="r_a0a86d71ed439c40b739e94b1de6c2fe0"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a0a86d71ed439c40b739e94b1de6c2fe0">MR_UndirEdgeColorMapAggregator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a86d71ed439c40b739e94b1de6c2fe0">MR_UndirEdgeColorMapAggregator</a></td></tr>
 <tr class="memdesc:a0a86d71ed439c40b739e94b1de6c2fe0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class for aggregate several color map in one Color maps are aggregated according order.  <br /></td></tr>
 <tr class="separator:a0a86d71ed439c40b739e94b1de6c2fe0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a845fded56ba0794121f75691a3d7162a" id="r_a845fded56ba0794121f75691a3d7162a"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a845fded56ba0794121f75691a3d7162a">MR_ColorMapAggregator_MR_UndirectedEdgeTag_PartialColorMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a845fded56ba0794121f75691a3d7162a">MR_ColorMapAggregator_MR_UndirectedEdgeTag_PartialColorMap</a></td></tr>
 <tr class="separator:a845fded56ba0794121f75691a3d7162a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a41722b7ccf0f4b2b0c1be562ee840d53" id="r_a41722b7ccf0f4b2b0c1be562ee840d53"><td class="memItemLeft" align="right" valign="top">typedef int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41722b7ccf0f4b2b0c1be562ee840d53">MR_ColorMapAggregator_MR_UndirectedEdgeTag_AggregateMode</a></td></tr>
-<tr class="memdesc:a41722b7ccf0f4b2b0c1be562ee840d53"><td class="mdescLeft">&#160;</td><td class="mdescRight">color map aggregating mode  <br /></td></tr>
-<tr class="separator:a41722b7ccf0f4b2b0c1be562ee840d53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad126a48ea420dbdb8f8408fbf55a392e" id="r_ad126a48ea420dbdb8f8408fbf55a392e"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#a3ad327457042f15a9bd0397463d21970">MR_ColorMapAggregator_MR_UndirectedEdgeTag_AggregateMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad126a48ea420dbdb8f8408fbf55a392e">MR_ColorMapAggregator_MR_UndirectedEdgeTag_AggregateMode</a></td></tr>
+<tr class="memdesc:ad126a48ea420dbdb8f8408fbf55a392e"><td class="mdescLeft">&#160;</td><td class="mdescRight">color map aggregating mode  <br /></td></tr>
+<tr class="separator:ad126a48ea420dbdb8f8408fbf55a392e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3201bc53016d10f34c140a762fd4b28c" id="r_a3201bc53016d10f34c140a762fd4b28c"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a3201bc53016d10f34c140a762fd4b28c">MR_FaceColorMapAggregator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3201bc53016d10f34c140a762fd4b28c">MR_FaceColorMapAggregator</a></td></tr>
 <tr class="memdesc:a3201bc53016d10f34c140a762fd4b28c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class for aggregate several color map in one Color maps are aggregated according order.  <br /></td></tr>
 <tr class="separator:a3201bc53016d10f34c140a762fd4b28c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acefcfd40cf1fc2e253b84740efb81363" id="r_acefcfd40cf1fc2e253b84740efb81363"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#acefcfd40cf1fc2e253b84740efb81363">MR_ColorMapAggregator_MR_FaceTag_PartialColorMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acefcfd40cf1fc2e253b84740efb81363">MR_ColorMapAggregator_MR_FaceTag_PartialColorMap</a></td></tr>
 <tr class="separator:acefcfd40cf1fc2e253b84740efb81363"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7b9667633cb9e854f64b36720d58fd26" id="r_a7b9667633cb9e854f64b36720d58fd26"><td class="memItemLeft" align="right" valign="top">typedef int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b9667633cb9e854f64b36720d58fd26">MR_ColorMapAggregator_MR_FaceTag_AggregateMode</a></td></tr>
-<tr class="memdesc:a7b9667633cb9e854f64b36720d58fd26"><td class="mdescLeft">&#160;</td><td class="mdescRight">color map aggregating mode  <br /></td></tr>
-<tr class="separator:a7b9667633cb9e854f64b36720d58fd26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a967d434878151e003c9a4c6a5c4dbb8d" id="r_a967d434878151e003c9a4c6a5c4dbb8d"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#aa54d15bb655971bdac300d124e524afe">MR_ColorMapAggregator_MR_FaceTag_AggregateMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a967d434878151e003c9a4c6a5c4dbb8d">MR_ColorMapAggregator_MR_FaceTag_AggregateMode</a></td></tr>
+<tr class="memdesc:a967d434878151e003c9a4c6a5c4dbb8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">color map aggregating mode  <br /></td></tr>
+<tr class="separator:a967d434878151e003c9a4c6a5c4dbb8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:ac36f475ca5b446f4fde4c9b90bec77c8" id="r_ac36f475ca5b446f4fde4c9b90bec77c8"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#ac36f475ca5b446f4fde4c9b90bec77c8ac3cf4928350e1a32e90b47dbea35c10e">MR_ColorMapAggregator_MR_VertTag_AggregateMode_Overlay</a> = 0
-, <a class="el" href="#ac36f475ca5b446f4fde4c9b90bec77c8acfdf970c8e4ad295c5abc4f17a408915">MR_ColorMapAggregator_MR_VertTag_AggregateMode_Blending</a> = 1
+<tr class="memitem:af167108ad97055d6af4428ae33453841" id="r_af167108ad97055d6af4428ae33453841"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af167108ad97055d6af4428ae33453841">MR_ColorMapAggregator_MR_VertTag_AggregateMode</a> { <a class="el" href="#af167108ad97055d6af4428ae33453841ac3cf4928350e1a32e90b47dbea35c10e">MR_ColorMapAggregator_MR_VertTag_AggregateMode_Overlay</a> = 0
+, <a class="el" href="#af167108ad97055d6af4428ae33453841acfdf970c8e4ad295c5abc4f17a408915">MR_ColorMapAggregator_MR_VertTag_AggregateMode_Blending</a> = 1
  }</td></tr>
-<tr class="separator:ac36f475ca5b446f4fde4c9b90bec77c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05589fbab0657f08285ebdfe93f5ec9e" id="r_a05589fbab0657f08285ebdfe93f5ec9e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#a05589fbab0657f08285ebdfe93f5ec9ea7a7e9c4e3451ae33f108469240824fcd">MR_ColorMapAggregator_MR_UndirectedEdgeTag_AggregateMode_Overlay</a> = 0
-, <a class="el" href="#a05589fbab0657f08285ebdfe93f5ec9eae89593bfe84d70c39bfd45a38f99fd77">MR_ColorMapAggregator_MR_UndirectedEdgeTag_AggregateMode_Blending</a> = 1
+<tr class="memdesc:af167108ad97055d6af4428ae33453841"><td class="mdescLeft">&#160;</td><td class="mdescRight">color map aggregating mode  <a href="#af167108ad97055d6af4428ae33453841">More...</a><br /></td></tr>
+<tr class="separator:af167108ad97055d6af4428ae33453841"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ad327457042f15a9bd0397463d21970" id="r_a3ad327457042f15a9bd0397463d21970"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ad327457042f15a9bd0397463d21970">MR_ColorMapAggregator_MR_UndirectedEdgeTag_AggregateMode</a> { <a class="el" href="#a3ad327457042f15a9bd0397463d21970a7a7e9c4e3451ae33f108469240824fcd">MR_ColorMapAggregator_MR_UndirectedEdgeTag_AggregateMode_Overlay</a> = 0
+, <a class="el" href="#a3ad327457042f15a9bd0397463d21970ae89593bfe84d70c39bfd45a38f99fd77">MR_ColorMapAggregator_MR_UndirectedEdgeTag_AggregateMode_Blending</a> = 1
  }</td></tr>
-<tr class="separator:a05589fbab0657f08285ebdfe93f5ec9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a16af7b253440dadd46a80a4b9fddba4d" id="r_a16af7b253440dadd46a80a4b9fddba4d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#a16af7b253440dadd46a80a4b9fddba4daee76537019e6d542b02221ffff29ad7f">MR_ColorMapAggregator_MR_FaceTag_AggregateMode_Overlay</a> = 0
-, <a class="el" href="#a16af7b253440dadd46a80a4b9fddba4da3eb58c5162cfdf6cddd95d2c21bddd3d">MR_ColorMapAggregator_MR_FaceTag_AggregateMode_Blending</a> = 1
+<tr class="memdesc:a3ad327457042f15a9bd0397463d21970"><td class="mdescLeft">&#160;</td><td class="mdescRight">color map aggregating mode  <a href="#a3ad327457042f15a9bd0397463d21970">More...</a><br /></td></tr>
+<tr class="separator:a3ad327457042f15a9bd0397463d21970"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa54d15bb655971bdac300d124e524afe" id="r_aa54d15bb655971bdac300d124e524afe"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa54d15bb655971bdac300d124e524afe">MR_ColorMapAggregator_MR_FaceTag_AggregateMode</a> { <a class="el" href="#aa54d15bb655971bdac300d124e524afeaee76537019e6d542b02221ffff29ad7f">MR_ColorMapAggregator_MR_FaceTag_AggregateMode_Overlay</a> = 0
+, <a class="el" href="#aa54d15bb655971bdac300d124e524afea3eb58c5162cfdf6cddd95d2c21bddd3d">MR_ColorMapAggregator_MR_FaceTag_AggregateMode_Blending</a> = 1
  }</td></tr>
-<tr class="separator:a16af7b253440dadd46a80a4b9fddba4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memdesc:aa54d15bb655971bdac300d124e524afe"><td class="mdescLeft">&#160;</td><td class="mdescRight">color map aggregating mode  <a href="#aa54d15bb655971bdac300d124e524afe">More...</a><br /></td></tr>
+<tr class="separator:aa54d15bb655971bdac300d124e524afe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -241,19 +243,19 @@ Functions</h2></td></tr>
 <tr class="separator:ad09f2ca3c669f5c92d98e4571cf2fc4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b21fe83b4b8a5bdd533885fad28e831" id="r_a3b21fe83b4b8a5bdd533885fad28e831"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b21fe83b4b8a5bdd533885fad28e831">MR_VertColorMapAggregator_pushBack</a> (<a class="el" href="#aa06542dda3b7a636d18636955399ece4">MR_VertColorMapAggregator</a> *_this, const <a class="el" href="#ad112967572c31509cc0fe1aa56fce9b5">MR_ColorMapAggregator_MR_VertTag_PartialColorMap</a> *partitialColorMap)</td></tr>
 <tr class="separator:a3b21fe83b4b8a5bdd533885fad28e831"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae0cd09c1c52b96f1532dc100d9b9e4f6" id="r_ae0cd09c1c52b96f1532dc100d9b9e4f6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae0cd09c1c52b96f1532dc100d9b9e4f6">MR_VertColorMapAggregator_insert</a> (<a class="el" href="#aa06542dda3b7a636d18636955399ece4">MR_VertColorMapAggregator</a> *_this, int32_t i, const <a class="el" href="#ad112967572c31509cc0fe1aa56fce9b5">MR_ColorMapAggregator_MR_VertTag_PartialColorMap</a> *partitialColorMap)</td></tr>
-<tr class="separator:ae0cd09c1c52b96f1532dc100d9b9e4f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ea82b3354657922e173cc3f0a84ff16" id="r_a7ea82b3354657922e173cc3f0a84ff16"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ea82b3354657922e173cc3f0a84ff16">MR_VertColorMapAggregator_replace</a> (<a class="el" href="#aa06542dda3b7a636d18636955399ece4">MR_VertColorMapAggregator</a> *_this, int32_t i, const <a class="el" href="#ad112967572c31509cc0fe1aa56fce9b5">MR_ColorMapAggregator_MR_VertTag_PartialColorMap</a> *partitialColorMap)</td></tr>
-<tr class="separator:a7ea82b3354657922e173cc3f0a84ff16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33e2e25d2094a715df91850557b9ad0f" id="r_a33e2e25d2094a715df91850557b9ad0f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33e2e25d2094a715df91850557b9ad0f">MR_VertColorMapAggregator_insert</a> (<a class="el" href="#aa06542dda3b7a636d18636955399ece4">MR_VertColorMapAggregator</a> *_this, int i, const <a class="el" href="#ad112967572c31509cc0fe1aa56fce9b5">MR_ColorMapAggregator_MR_VertTag_PartialColorMap</a> *partitialColorMap)</td></tr>
+<tr class="separator:a33e2e25d2094a715df91850557b9ad0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3908ccac72518a61ba25f00594a96de" id="r_af3908ccac72518a61ba25f00594a96de"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3908ccac72518a61ba25f00594a96de">MR_VertColorMapAggregator_replace</a> (<a class="el" href="#aa06542dda3b7a636d18636955399ece4">MR_VertColorMapAggregator</a> *_this, int i, const <a class="el" href="#ad112967572c31509cc0fe1aa56fce9b5">MR_ColorMapAggregator_MR_VertTag_PartialColorMap</a> *partitialColorMap)</td></tr>
+<tr class="separator:af3908ccac72518a61ba25f00594a96de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91b8b417569e59867214fbd09135b2f6" id="r_a91b8b417569e59867214fbd09135b2f6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91b8b417569e59867214fbd09135b2f6">MR_VertColorMapAggregator_reset</a> (<a class="el" href="#aa06542dda3b7a636d18636955399ece4">MR_VertColorMapAggregator</a> *_this)</td></tr>
 <tr class="separator:a91b8b417569e59867214fbd09135b2f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0bf53fbfa2674d10454acd7e35edb810" id="r_a0bf53fbfa2674d10454acd7e35edb810"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0bf53fbfa2674d10454acd7e35edb810">MR_VertColorMapAggregator_getColorMapNumber</a> (<a class="el" href="#aa06542dda3b7a636d18636955399ece4">MR_VertColorMapAggregator</a> *_this)</td></tr>
 <tr class="separator:a0bf53fbfa2674d10454acd7e35edb810"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af305746c70ebec6abd96f79165d54310" id="r_af305746c70ebec6abd96f79165d54310"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ad112967572c31509cc0fe1aa56fce9b5">MR_ColorMapAggregator_MR_VertTag_PartialColorMap</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af305746c70ebec6abd96f79165d54310">MR_VertColorMapAggregator_getPartialColorMap</a> (<a class="el" href="#aa06542dda3b7a636d18636955399ece4">MR_VertColorMapAggregator</a> *_this, int32_t i)</td></tr>
-<tr class="separator:af305746c70ebec6abd96f79165d54310"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad0a9b87f954e3062e976f5501ca6fa36" id="r_ad0a9b87f954e3062e976f5501ca6fa36"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad0a9b87f954e3062e976f5501ca6fa36">MR_VertColorMapAggregator_erase</a> (<a class="el" href="#aa06542dda3b7a636d18636955399ece4">MR_VertColorMapAggregator</a> *_this, int32_t i, const int32_t *n)</td></tr>
-<tr class="separator:ad0a9b87f954e3062e976f5501ca6fa36"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ab36d688324f777c58ba19be8dd135a" id="r_a3ab36d688324f777c58ba19be8dd135a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ab36d688324f777c58ba19be8dd135a">MR_VertColorMapAggregator_setMode</a> (<a class="el" href="#aa06542dda3b7a636d18636955399ece4">MR_VertColorMapAggregator</a> *_this, <a class="el" href="#a7ec98de5657149f083a3241c29f52b82">MR_ColorMapAggregator_MR_VertTag_AggregateMode</a> mode)</td></tr>
+<tr class="memitem:a474febb765f926696768343e1c29edac" id="r_a474febb765f926696768343e1c29edac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ad112967572c31509cc0fe1aa56fce9b5">MR_ColorMapAggregator_MR_VertTag_PartialColorMap</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a474febb765f926696768343e1c29edac">MR_VertColorMapAggregator_getPartialColorMap</a> (<a class="el" href="#aa06542dda3b7a636d18636955399ece4">MR_VertColorMapAggregator</a> *_this, int i)</td></tr>
+<tr class="separator:a474febb765f926696768343e1c29edac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a084d9b40a4364ce634d6813f05c12c4c" id="r_a084d9b40a4364ce634d6813f05c12c4c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a084d9b40a4364ce634d6813f05c12c4c">MR_VertColorMapAggregator_erase</a> (<a class="el" href="#aa06542dda3b7a636d18636955399ece4">MR_VertColorMapAggregator</a> *_this, int i, const int *n)</td></tr>
+<tr class="separator:a084d9b40a4364ce634d6813f05c12c4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ab36d688324f777c58ba19be8dd135a" id="r_a3ab36d688324f777c58ba19be8dd135a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ab36d688324f777c58ba19be8dd135a">MR_VertColorMapAggregator_setMode</a> (<a class="el" href="#aa06542dda3b7a636d18636955399ece4">MR_VertColorMapAggregator</a> *_this, <a class="el" href="#af167108ad97055d6af4428ae33453841">MR_ColorMapAggregator_MR_VertTag_AggregateMode</a> mode)</td></tr>
 <tr class="separator:a3ab36d688324f777c58ba19be8dd135a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab180312694452d3f4928ff9ce85085e4" id="r_ab180312694452d3f4928ff9ce85085e4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRE57_8h.html#a20dc7d636220f61a60c7ae92b8caa768">MR_VertColors</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab180312694452d3f4928ff9ce85085e4">MR_VertColorMapAggregator_aggregate</a> (<a class="el" href="#aa06542dda3b7a636d18636955399ece4">MR_VertColorMapAggregator</a> *_this, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *elementBitSet)</td></tr>
 <tr class="separator:ab180312694452d3f4928ff9ce85085e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -315,19 +317,19 @@ Functions</h2></td></tr>
 <tr class="separator:a331b31c7660c9fa815467a4694241dda"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acbe5025567e56b4fb1ea48c1c4d15ed3" id="r_acbe5025567e56b4fb1ea48c1c4d15ed3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acbe5025567e56b4fb1ea48c1c4d15ed3">MR_UndirEdgeColorMapAggregator_pushBack</a> (<a class="el" href="#a0a86d71ed439c40b739e94b1de6c2fe0">MR_UndirEdgeColorMapAggregator</a> *_this, const <a class="el" href="#a845fded56ba0794121f75691a3d7162a">MR_ColorMapAggregator_MR_UndirectedEdgeTag_PartialColorMap</a> *partitialColorMap)</td></tr>
 <tr class="separator:acbe5025567e56b4fb1ea48c1c4d15ed3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3942481e276082b08d4442ebb5871947" id="r_a3942481e276082b08d4442ebb5871947"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3942481e276082b08d4442ebb5871947">MR_UndirEdgeColorMapAggregator_insert</a> (<a class="el" href="#a0a86d71ed439c40b739e94b1de6c2fe0">MR_UndirEdgeColorMapAggregator</a> *_this, int32_t i, const <a class="el" href="#a845fded56ba0794121f75691a3d7162a">MR_ColorMapAggregator_MR_UndirectedEdgeTag_PartialColorMap</a> *partitialColorMap)</td></tr>
-<tr class="separator:a3942481e276082b08d4442ebb5871947"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab525f3bcf40931118c61162a8e38ba45" id="r_ab525f3bcf40931118c61162a8e38ba45"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab525f3bcf40931118c61162a8e38ba45">MR_UndirEdgeColorMapAggregator_replace</a> (<a class="el" href="#a0a86d71ed439c40b739e94b1de6c2fe0">MR_UndirEdgeColorMapAggregator</a> *_this, int32_t i, const <a class="el" href="#a845fded56ba0794121f75691a3d7162a">MR_ColorMapAggregator_MR_UndirectedEdgeTag_PartialColorMap</a> *partitialColorMap)</td></tr>
-<tr class="separator:ab525f3bcf40931118c61162a8e38ba45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfe8faed1f23c59b17d29ac88298dd75" id="r_acfe8faed1f23c59b17d29ac88298dd75"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acfe8faed1f23c59b17d29ac88298dd75">MR_UndirEdgeColorMapAggregator_insert</a> (<a class="el" href="#a0a86d71ed439c40b739e94b1de6c2fe0">MR_UndirEdgeColorMapAggregator</a> *_this, int i, const <a class="el" href="#a845fded56ba0794121f75691a3d7162a">MR_ColorMapAggregator_MR_UndirectedEdgeTag_PartialColorMap</a> *partitialColorMap)</td></tr>
+<tr class="separator:acfe8faed1f23c59b17d29ac88298dd75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42ed24bfe15276a337a9d651eb8786f6" id="r_a42ed24bfe15276a337a9d651eb8786f6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42ed24bfe15276a337a9d651eb8786f6">MR_UndirEdgeColorMapAggregator_replace</a> (<a class="el" href="#a0a86d71ed439c40b739e94b1de6c2fe0">MR_UndirEdgeColorMapAggregator</a> *_this, int i, const <a class="el" href="#a845fded56ba0794121f75691a3d7162a">MR_ColorMapAggregator_MR_UndirectedEdgeTag_PartialColorMap</a> *partitialColorMap)</td></tr>
+<tr class="separator:a42ed24bfe15276a337a9d651eb8786f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5fded5aa114bf8f511e4ce5329adeec" id="r_ad5fded5aa114bf8f511e4ce5329adeec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad5fded5aa114bf8f511e4ce5329adeec">MR_UndirEdgeColorMapAggregator_reset</a> (<a class="el" href="#a0a86d71ed439c40b739e94b1de6c2fe0">MR_UndirEdgeColorMapAggregator</a> *_this)</td></tr>
 <tr class="separator:ad5fded5aa114bf8f511e4ce5329adeec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af072bf897b68a84b71264a08ffdbba9e" id="r_af072bf897b68a84b71264a08ffdbba9e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af072bf897b68a84b71264a08ffdbba9e">MR_UndirEdgeColorMapAggregator_getColorMapNumber</a> (<a class="el" href="#a0a86d71ed439c40b739e94b1de6c2fe0">MR_UndirEdgeColorMapAggregator</a> *_this)</td></tr>
 <tr class="separator:af072bf897b68a84b71264a08ffdbba9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac50ff573df088efe9487466d94db0815" id="r_ac50ff573df088efe9487466d94db0815"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a845fded56ba0794121f75691a3d7162a">MR_ColorMapAggregator_MR_UndirectedEdgeTag_PartialColorMap</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac50ff573df088efe9487466d94db0815">MR_UndirEdgeColorMapAggregator_getPartialColorMap</a> (<a class="el" href="#a0a86d71ed439c40b739e94b1de6c2fe0">MR_UndirEdgeColorMapAggregator</a> *_this, int32_t i)</td></tr>
-<tr class="separator:ac50ff573df088efe9487466d94db0815"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aabdbc43ac36013f284978113295e585d" id="r_aabdbc43ac36013f284978113295e585d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aabdbc43ac36013f284978113295e585d">MR_UndirEdgeColorMapAggregator_erase</a> (<a class="el" href="#a0a86d71ed439c40b739e94b1de6c2fe0">MR_UndirEdgeColorMapAggregator</a> *_this, int32_t i, const int32_t *n)</td></tr>
-<tr class="separator:aabdbc43ac36013f284978113295e585d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa12c385ae90fff66b1f9050735baeda3" id="r_aa12c385ae90fff66b1f9050735baeda3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa12c385ae90fff66b1f9050735baeda3">MR_UndirEdgeColorMapAggregator_setMode</a> (<a class="el" href="#a0a86d71ed439c40b739e94b1de6c2fe0">MR_UndirEdgeColorMapAggregator</a> *_this, <a class="el" href="#a41722b7ccf0f4b2b0c1be562ee840d53">MR_ColorMapAggregator_MR_UndirectedEdgeTag_AggregateMode</a> mode)</td></tr>
+<tr class="memitem:a3086805a6c959448e66239d2dc530408" id="r_a3086805a6c959448e66239d2dc530408"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a845fded56ba0794121f75691a3d7162a">MR_ColorMapAggregator_MR_UndirectedEdgeTag_PartialColorMap</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3086805a6c959448e66239d2dc530408">MR_UndirEdgeColorMapAggregator_getPartialColorMap</a> (<a class="el" href="#a0a86d71ed439c40b739e94b1de6c2fe0">MR_UndirEdgeColorMapAggregator</a> *_this, int i)</td></tr>
+<tr class="separator:a3086805a6c959448e66239d2dc530408"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af66c4f107d0a8a42f920f56f99a6514a" id="r_af66c4f107d0a8a42f920f56f99a6514a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af66c4f107d0a8a42f920f56f99a6514a">MR_UndirEdgeColorMapAggregator_erase</a> (<a class="el" href="#a0a86d71ed439c40b739e94b1de6c2fe0">MR_UndirEdgeColorMapAggregator</a> *_this, int i, const int *n)</td></tr>
+<tr class="separator:af66c4f107d0a8a42f920f56f99a6514a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa12c385ae90fff66b1f9050735baeda3" id="r_aa12c385ae90fff66b1f9050735baeda3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa12c385ae90fff66b1f9050735baeda3">MR_UndirEdgeColorMapAggregator_setMode</a> (<a class="el" href="#a0a86d71ed439c40b739e94b1de6c2fe0">MR_UndirEdgeColorMapAggregator</a> *_this, <a class="el" href="#a3ad327457042f15a9bd0397463d21970">MR_ColorMapAggregator_MR_UndirectedEdgeTag_AggregateMode</a> mode)</td></tr>
 <tr class="separator:aa12c385ae90fff66b1f9050735baeda3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a85473c0c89414499ecd274b48683da3c" id="r_a85473c0c89414499ecd274b48683da3c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRChangeColoringActions_8h.html#a63019091c05b8b468f7f88db47cfb0ef">MR_UndirectedEdgeColors</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a85473c0c89414499ecd274b48683da3c">MR_UndirEdgeColorMapAggregator_aggregate</a> (<a class="el" href="#a0a86d71ed439c40b739e94b1de6c2fe0">MR_UndirEdgeColorMapAggregator</a> *_this, const <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *elementBitSet)</td></tr>
 <tr class="separator:a85473c0c89414499ecd274b48683da3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -389,19 +391,19 @@ Functions</h2></td></tr>
 <tr class="separator:a3c9b2806e60bc15a0767593b664d93df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac7403555086e5e1aa4b00738536d1141" id="r_ac7403555086e5e1aa4b00738536d1141"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7403555086e5e1aa4b00738536d1141">MR_FaceColorMapAggregator_pushBack</a> (<a class="el" href="#a3201bc53016d10f34c140a762fd4b28c">MR_FaceColorMapAggregator</a> *_this, const <a class="el" href="#acefcfd40cf1fc2e253b84740efb81363">MR_ColorMapAggregator_MR_FaceTag_PartialColorMap</a> *partitialColorMap)</td></tr>
 <tr class="separator:ac7403555086e5e1aa4b00738536d1141"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7b12cfe22baa785a075a2f7de02e454b" id="r_a7b12cfe22baa785a075a2f7de02e454b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b12cfe22baa785a075a2f7de02e454b">MR_FaceColorMapAggregator_insert</a> (<a class="el" href="#a3201bc53016d10f34c140a762fd4b28c">MR_FaceColorMapAggregator</a> *_this, int32_t i, const <a class="el" href="#acefcfd40cf1fc2e253b84740efb81363">MR_ColorMapAggregator_MR_FaceTag_PartialColorMap</a> *partitialColorMap)</td></tr>
-<tr class="separator:a7b12cfe22baa785a075a2f7de02e454b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af111fd99fd5ebf9ba3420cb80cff0b72" id="r_af111fd99fd5ebf9ba3420cb80cff0b72"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af111fd99fd5ebf9ba3420cb80cff0b72">MR_FaceColorMapAggregator_replace</a> (<a class="el" href="#a3201bc53016d10f34c140a762fd4b28c">MR_FaceColorMapAggregator</a> *_this, int32_t i, const <a class="el" href="#acefcfd40cf1fc2e253b84740efb81363">MR_ColorMapAggregator_MR_FaceTag_PartialColorMap</a> *partitialColorMap)</td></tr>
-<tr class="separator:af111fd99fd5ebf9ba3420cb80cff0b72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83ff2ee9e0cd11dba7f89d4240821922" id="r_a83ff2ee9e0cd11dba7f89d4240821922"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a83ff2ee9e0cd11dba7f89d4240821922">MR_FaceColorMapAggregator_insert</a> (<a class="el" href="#a3201bc53016d10f34c140a762fd4b28c">MR_FaceColorMapAggregator</a> *_this, int i, const <a class="el" href="#acefcfd40cf1fc2e253b84740efb81363">MR_ColorMapAggregator_MR_FaceTag_PartialColorMap</a> *partitialColorMap)</td></tr>
+<tr class="separator:a83ff2ee9e0cd11dba7f89d4240821922"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33f186a8991d8edb9ceced77c8db63c8" id="r_a33f186a8991d8edb9ceced77c8db63c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33f186a8991d8edb9ceced77c8db63c8">MR_FaceColorMapAggregator_replace</a> (<a class="el" href="#a3201bc53016d10f34c140a762fd4b28c">MR_FaceColorMapAggregator</a> *_this, int i, const <a class="el" href="#acefcfd40cf1fc2e253b84740efb81363">MR_ColorMapAggregator_MR_FaceTag_PartialColorMap</a> *partitialColorMap)</td></tr>
+<tr class="separator:a33f186a8991d8edb9ceced77c8db63c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1cd0c1e3a9ee905484bb85aaa26d33cd" id="r_a1cd0c1e3a9ee905484bb85aaa26d33cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1cd0c1e3a9ee905484bb85aaa26d33cd">MR_FaceColorMapAggregator_reset</a> (<a class="el" href="#a3201bc53016d10f34c140a762fd4b28c">MR_FaceColorMapAggregator</a> *_this)</td></tr>
 <tr class="separator:a1cd0c1e3a9ee905484bb85aaa26d33cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:addba208b286f3ef28083749df2bc795a" id="r_addba208b286f3ef28083749df2bc795a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#addba208b286f3ef28083749df2bc795a">MR_FaceColorMapAggregator_getColorMapNumber</a> (<a class="el" href="#a3201bc53016d10f34c140a762fd4b28c">MR_FaceColorMapAggregator</a> *_this)</td></tr>
 <tr class="separator:addba208b286f3ef28083749df2bc795a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a431d37507391fc295ea836e0622c1a0f" id="r_a431d37507391fc295ea836e0622c1a0f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#acefcfd40cf1fc2e253b84740efb81363">MR_ColorMapAggregator_MR_FaceTag_PartialColorMap</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a431d37507391fc295ea836e0622c1a0f">MR_FaceColorMapAggregator_getPartialColorMap</a> (<a class="el" href="#a3201bc53016d10f34c140a762fd4b28c">MR_FaceColorMapAggregator</a> *_this, int32_t i)</td></tr>
-<tr class="separator:a431d37507391fc295ea836e0622c1a0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4db9ceb51cfdfe7f15a77e1debe0dfd8" id="r_a4db9ceb51cfdfe7f15a77e1debe0dfd8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4db9ceb51cfdfe7f15a77e1debe0dfd8">MR_FaceColorMapAggregator_erase</a> (<a class="el" href="#a3201bc53016d10f34c140a762fd4b28c">MR_FaceColorMapAggregator</a> *_this, int32_t i, const int32_t *n)</td></tr>
-<tr class="separator:a4db9ceb51cfdfe7f15a77e1debe0dfd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e14a8009dc7366d1cccd84def11ff25" id="r_a6e14a8009dc7366d1cccd84def11ff25"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e14a8009dc7366d1cccd84def11ff25">MR_FaceColorMapAggregator_setMode</a> (<a class="el" href="#a3201bc53016d10f34c140a762fd4b28c">MR_FaceColorMapAggregator</a> *_this, <a class="el" href="#a7b9667633cb9e854f64b36720d58fd26">MR_ColorMapAggregator_MR_FaceTag_AggregateMode</a> mode)</td></tr>
+<tr class="memitem:a40f5f658634d86d3b5049b86a5d1556e" id="r_a40f5f658634d86d3b5049b86a5d1556e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#acefcfd40cf1fc2e253b84740efb81363">MR_ColorMapAggregator_MR_FaceTag_PartialColorMap</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40f5f658634d86d3b5049b86a5d1556e">MR_FaceColorMapAggregator_getPartialColorMap</a> (<a class="el" href="#a3201bc53016d10f34c140a762fd4b28c">MR_FaceColorMapAggregator</a> *_this, int i)</td></tr>
+<tr class="separator:a40f5f658634d86d3b5049b86a5d1556e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef2992449e0daaa7d064ad5fda380cf7" id="r_aef2992449e0daaa7d064ad5fda380cf7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef2992449e0daaa7d064ad5fda380cf7">MR_FaceColorMapAggregator_erase</a> (<a class="el" href="#a3201bc53016d10f34c140a762fd4b28c">MR_FaceColorMapAggregator</a> *_this, int i, const int *n)</td></tr>
+<tr class="separator:aef2992449e0daaa7d064ad5fda380cf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e14a8009dc7366d1cccd84def11ff25" id="r_a6e14a8009dc7366d1cccd84def11ff25"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e14a8009dc7366d1cccd84def11ff25">MR_FaceColorMapAggregator_setMode</a> (<a class="el" href="#a3201bc53016d10f34c140a762fd4b28c">MR_FaceColorMapAggregator</a> *_this, <a class="el" href="#aa54d15bb655971bdac300d124e524afe">MR_ColorMapAggregator_MR_FaceTag_AggregateMode</a> mode)</td></tr>
 <tr class="separator:a6e14a8009dc7366d1cccd84def11ff25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a96b068e21e0494bde88502666de1c108" id="r_a96b068e21e0494bde88502666de1c108"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRChangeColoringActions_8h.html#a88c7503c40b624a577fda0eab1faa5fa">MR_FaceColors</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a96b068e21e0494bde88502666de1c108">MR_FaceColorMapAggregator_aggregate</a> (<a class="el" href="#a3201bc53016d10f34c140a762fd4b28c">MR_FaceColorMapAggregator</a> *_this, const <a class="el" href="MRAABBTreeBase_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *elementBitSet)</td></tr>
 <tr class="separator:a96b068e21e0494bde88502666de1c108"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -455,14 +457,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a7b9667633cb9e854f64b36720d58fd26" name="a7b9667633cb9e854f64b36720d58fd26"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7b9667633cb9e854f64b36720d58fd26">&#9670;&#160;</a></span>MR_ColorMapAggregator_MR_FaceTag_AggregateMode</h2>
+<a id="a967d434878151e003c9a4c6a5c4dbb8d" name="a967d434878151e003c9a4c6a5c4dbb8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a967d434878151e003c9a4c6a5c4dbb8d">&#9670;&#160;</a></span>MR_ColorMapAggregator_MR_FaceTag_AggregateMode</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef int32_t <a class="el" href="#a7b9667633cb9e854f64b36720d58fd26">MR_ColorMapAggregator_MR_FaceTag_AggregateMode</a></td>
+          <td class="memname">typedef enum <a class="el" href="#aa54d15bb655971bdac300d124e524afe">MR_ColorMapAggregator_MR_FaceTag_AggregateMode</a> <a class="el" href="#aa54d15bb655971bdac300d124e524afe">MR_ColorMapAggregator_MR_FaceTag_AggregateMode</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -486,14 +488,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a41722b7ccf0f4b2b0c1be562ee840d53" name="a41722b7ccf0f4b2b0c1be562ee840d53"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a41722b7ccf0f4b2b0c1be562ee840d53">&#9670;&#160;</a></span>MR_ColorMapAggregator_MR_UndirectedEdgeTag_AggregateMode</h2>
+<a id="ad126a48ea420dbdb8f8408fbf55a392e" name="ad126a48ea420dbdb8f8408fbf55a392e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad126a48ea420dbdb8f8408fbf55a392e">&#9670;&#160;</a></span>MR_ColorMapAggregator_MR_UndirectedEdgeTag_AggregateMode</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef int32_t <a class="el" href="#a41722b7ccf0f4b2b0c1be562ee840d53">MR_ColorMapAggregator_MR_UndirectedEdgeTag_AggregateMode</a></td>
+          <td class="memname">typedef enum <a class="el" href="#a3ad327457042f15a9bd0397463d21970">MR_ColorMapAggregator_MR_UndirectedEdgeTag_AggregateMode</a> <a class="el" href="#a3ad327457042f15a9bd0397463d21970">MR_ColorMapAggregator_MR_UndirectedEdgeTag_AggregateMode</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -517,14 +519,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a7ec98de5657149f083a3241c29f52b82" name="a7ec98de5657149f083a3241c29f52b82"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7ec98de5657149f083a3241c29f52b82">&#9670;&#160;</a></span>MR_ColorMapAggregator_MR_VertTag_AggregateMode</h2>
+<a id="a981b7592a7ab68cfd181cb28452e3e8c" name="a981b7592a7ab68cfd181cb28452e3e8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a981b7592a7ab68cfd181cb28452e3e8c">&#9670;&#160;</a></span>MR_ColorMapAggregator_MR_VertTag_AggregateMode</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef int32_t <a class="el" href="#a7ec98de5657149f083a3241c29f52b82">MR_ColorMapAggregator_MR_VertTag_AggregateMode</a></td>
+          <td class="memname">typedef enum <a class="el" href="#af167108ad97055d6af4428ae33453841">MR_ColorMapAggregator_MR_VertTag_AggregateMode</a> <a class="el" href="#af167108ad97055d6af4428ae33453841">MR_ColorMapAggregator_MR_VertTag_AggregateMode</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -684,58 +686,64 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="ac36f475ca5b446f4fde4c9b90bec77c8" name="ac36f475ca5b446f4fde4c9b90bec77c8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac36f475ca5b446f4fde4c9b90bec77c8">&#9670;&#160;</a></span>anonymous enum</h2>
+<a id="aa54d15bb655971bdac300d124e524afe" name="aa54d15bb655971bdac300d124e524afe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa54d15bb655971bdac300d124e524afe">&#9670;&#160;</a></span>MR_ColorMapAggregator_MR_FaceTag_AggregateMode</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">anonymous enum</td>
+          <td class="memname">enum <a class="el" href="#aa54d15bb655971bdac300d124e524afe">MR_ColorMapAggregator_MR_FaceTag_AggregateMode</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>color map aggregating mode </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ac36f475ca5b446f4fde4c9b90bec77c8ac3cf4928350e1a32e90b47dbea35c10e" name="ac36f475ca5b446f4fde4c9b90bec77c8ac3cf4928350e1a32e90b47dbea35c10e"></a>MR_ColorMapAggregator_MR_VertTag_AggregateMode_Overlay&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ac36f475ca5b446f4fde4c9b90bec77c8acfdf970c8e4ad295c5abc4f17a408915" name="ac36f475ca5b446f4fde4c9b90bec77c8acfdf970c8e4ad295c5abc4f17a408915"></a>MR_ColorMapAggregator_MR_VertTag_AggregateMode_Blending&#160;</td><td class="fielddoc"><p>result element color is element color of more priority color map (or default color, if there isn't color map for this element) </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aa54d15bb655971bdac300d124e524afeaee76537019e6d542b02221ffff29ad7f" name="aa54d15bb655971bdac300d124e524afeaee76537019e6d542b02221ffff29ad7f"></a>MR_ColorMapAggregator_MR_FaceTag_AggregateMode_Overlay&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa54d15bb655971bdac300d124e524afea3eb58c5162cfdf6cddd95d2c21bddd3d" name="aa54d15bb655971bdac300d124e524afea3eb58c5162cfdf6cddd95d2c21bddd3d"></a>MR_ColorMapAggregator_MR_FaceTag_AggregateMode_Blending&#160;</td><td class="fielddoc"><p>result element color is element color of more priority color map (or default color, if there isn't color map for this element) </p>
 </td></tr>
 </table>
 
 </div>
 </div>
-<a id="a05589fbab0657f08285ebdfe93f5ec9e" name="a05589fbab0657f08285ebdfe93f5ec9e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a05589fbab0657f08285ebdfe93f5ec9e">&#9670;&#160;</a></span>anonymous enum</h2>
+<a id="a3ad327457042f15a9bd0397463d21970" name="a3ad327457042f15a9bd0397463d21970"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ad327457042f15a9bd0397463d21970">&#9670;&#160;</a></span>MR_ColorMapAggregator_MR_UndirectedEdgeTag_AggregateMode</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">anonymous enum</td>
+          <td class="memname">enum <a class="el" href="#a3ad327457042f15a9bd0397463d21970">MR_ColorMapAggregator_MR_UndirectedEdgeTag_AggregateMode</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>color map aggregating mode </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a05589fbab0657f08285ebdfe93f5ec9ea7a7e9c4e3451ae33f108469240824fcd" name="a05589fbab0657f08285ebdfe93f5ec9ea7a7e9c4e3451ae33f108469240824fcd"></a>MR_ColorMapAggregator_MR_UndirectedEdgeTag_AggregateMode_Overlay&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a05589fbab0657f08285ebdfe93f5ec9eae89593bfe84d70c39bfd45a38f99fd77" name="a05589fbab0657f08285ebdfe93f5ec9eae89593bfe84d70c39bfd45a38f99fd77"></a>MR_ColorMapAggregator_MR_UndirectedEdgeTag_AggregateMode_Blending&#160;</td><td class="fielddoc"><p>result element color is element color of more priority color map (or default color, if there isn't color map for this element) </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a3ad327457042f15a9bd0397463d21970a7a7e9c4e3451ae33f108469240824fcd" name="a3ad327457042f15a9bd0397463d21970a7a7e9c4e3451ae33f108469240824fcd"></a>MR_ColorMapAggregator_MR_UndirectedEdgeTag_AggregateMode_Overlay&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3ad327457042f15a9bd0397463d21970ae89593bfe84d70c39bfd45a38f99fd77" name="a3ad327457042f15a9bd0397463d21970ae89593bfe84d70c39bfd45a38f99fd77"></a>MR_ColorMapAggregator_MR_UndirectedEdgeTag_AggregateMode_Blending&#160;</td><td class="fielddoc"><p>result element color is element color of more priority color map (or default color, if there isn't color map for this element) </p>
 </td></tr>
 </table>
 
 </div>
 </div>
-<a id="a16af7b253440dadd46a80a4b9fddba4d" name="a16af7b253440dadd46a80a4b9fddba4d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a16af7b253440dadd46a80a4b9fddba4d">&#9670;&#160;</a></span>anonymous enum</h2>
+<a id="af167108ad97055d6af4428ae33453841" name="af167108ad97055d6af4428ae33453841"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af167108ad97055d6af4428ae33453841">&#9670;&#160;</a></span>MR_ColorMapAggregator_MR_VertTag_AggregateMode</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">anonymous enum</td>
+          <td class="memname">enum <a class="el" href="#af167108ad97055d6af4428ae33453841">MR_ColorMapAggregator_MR_VertTag_AggregateMode</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>color map aggregating mode </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a16af7b253440dadd46a80a4b9fddba4daee76537019e6d542b02221ffff29ad7f" name="a16af7b253440dadd46a80a4b9fddba4daee76537019e6d542b02221ffff29ad7f"></a>MR_ColorMapAggregator_MR_FaceTag_AggregateMode_Overlay&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a16af7b253440dadd46a80a4b9fddba4da3eb58c5162cfdf6cddd95d2c21bddd3d" name="a16af7b253440dadd46a80a4b9fddba4da3eb58c5162cfdf6cddd95d2c21bddd3d"></a>MR_ColorMapAggregator_MR_FaceTag_AggregateMode_Blending&#160;</td><td class="fielddoc"><p>result element color is element color of more priority color map (or default color, if there isn't color map for this element) </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="af167108ad97055d6af4428ae33453841ac3cf4928350e1a32e90b47dbea35c10e" name="af167108ad97055d6af4428ae33453841ac3cf4928350e1a32e90b47dbea35c10e"></a>MR_ColorMapAggregator_MR_VertTag_AggregateMode_Overlay&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af167108ad97055d6af4428ae33453841acfdf970c8e4ad295c5abc4f17a408915" name="af167108ad97055d6af4428ae33453841acfdf970c8e4ad295c5abc4f17a408915"></a>MR_ColorMapAggregator_MR_VertTag_AggregateMode_Blending&#160;</td><td class="fielddoc"><p>result element color is element color of more priority color map (or default color, if there isn't color map for this element) </p>
 </td></tr>
 </table>
 
@@ -1868,8 +1876,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a4db9ceb51cfdfe7f15a77e1debe0dfd8" name="a4db9ceb51cfdfe7f15a77e1debe0dfd8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4db9ceb51cfdfe7f15a77e1debe0dfd8">&#9670;&#160;</a></span>MR_FaceColorMapAggregator_erase()</h2>
+<a id="aef2992449e0daaa7d064ad5fda380cf7" name="aef2992449e0daaa7d064ad5fda380cf7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef2992449e0daaa7d064ad5fda380cf7">&#9670;&#160;</a></span>MR_FaceColorMapAggregator_erase()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1882,12 +1890,12 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>, </td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>i</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const int32_t *</td>          <td class="paramname"><span class="paramname"><em>n</em></span>&#160;)</td>
+          <td class="paramtype">const int *</td>          <td class="paramname"><span class="paramname"><em>n</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1913,8 +1921,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a431d37507391fc295ea836e0622c1a0f" name="a431d37507391fc295ea836e0622c1a0f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a431d37507391fc295ea836e0622c1a0f">&#9670;&#160;</a></span>MR_FaceColorMapAggregator_getPartialColorMap()</h2>
+<a id="a40f5f658634d86d3b5049b86a5d1556e" name="a40f5f658634d86d3b5049b86a5d1556e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40f5f658634d86d3b5049b86a5d1556e">&#9670;&#160;</a></span>MR_FaceColorMapAggregator_getPartialColorMap()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1927,7 +1935,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1935,8 +1943,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a7b12cfe22baa785a075a2f7de02e454b" name="a7b12cfe22baa785a075a2f7de02e454b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7b12cfe22baa785a075a2f7de02e454b">&#9670;&#160;</a></span>MR_FaceColorMapAggregator_insert()</h2>
+<a id="a83ff2ee9e0cd11dba7f89d4240821922" name="a83ff2ee9e0cd11dba7f89d4240821922"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83ff2ee9e0cd11dba7f89d4240821922">&#9670;&#160;</a></span>MR_FaceColorMapAggregator_insert()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1949,7 +1957,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>, </td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>i</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2030,8 +2038,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="af111fd99fd5ebf9ba3420cb80cff0b72" name="af111fd99fd5ebf9ba3420cb80cff0b72"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af111fd99fd5ebf9ba3420cb80cff0b72">&#9670;&#160;</a></span>MR_FaceColorMapAggregator_replace()</h2>
+<a id="a33f186a8991d8edb9ceced77c8db63c8" name="a33f186a8991d8edb9ceced77c8db63c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33f186a8991d8edb9ceced77c8db63c8">&#9670;&#160;</a></span>MR_FaceColorMapAggregator_replace()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2044,7 +2052,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>, </td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>i</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2111,7 +2119,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#a7b9667633cb9e854f64b36720d58fd26">MR_ColorMapAggregator_MR_FaceTag_AggregateMode</a></td>          <td class="paramname"><span class="paramname"><em>mode</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="#aa54d15bb655971bdac300d124e524afe">MR_ColorMapAggregator_MR_FaceTag_AggregateMode</a></td>          <td class="paramname"><span class="paramname"><em>mode</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2264,8 +2272,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aabdbc43ac36013f284978113295e585d" name="aabdbc43ac36013f284978113295e585d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aabdbc43ac36013f284978113295e585d">&#9670;&#160;</a></span>MR_UndirEdgeColorMapAggregator_erase()</h2>
+<a id="af66c4f107d0a8a42f920f56f99a6514a" name="af66c4f107d0a8a42f920f56f99a6514a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af66c4f107d0a8a42f920f56f99a6514a">&#9670;&#160;</a></span>MR_UndirEdgeColorMapAggregator_erase()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2278,12 +2286,12 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>, </td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>i</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const int32_t *</td>          <td class="paramname"><span class="paramname"><em>n</em></span>&#160;)</td>
+          <td class="paramtype">const int *</td>          <td class="paramname"><span class="paramname"><em>n</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2309,8 +2317,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ac50ff573df088efe9487466d94db0815" name="ac50ff573df088efe9487466d94db0815"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac50ff573df088efe9487466d94db0815">&#9670;&#160;</a></span>MR_UndirEdgeColorMapAggregator_getPartialColorMap()</h2>
+<a id="a3086805a6c959448e66239d2dc530408" name="a3086805a6c959448e66239d2dc530408"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3086805a6c959448e66239d2dc530408">&#9670;&#160;</a></span>MR_UndirEdgeColorMapAggregator_getPartialColorMap()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2323,7 +2331,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2331,8 +2339,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a3942481e276082b08d4442ebb5871947" name="a3942481e276082b08d4442ebb5871947"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3942481e276082b08d4442ebb5871947">&#9670;&#160;</a></span>MR_UndirEdgeColorMapAggregator_insert()</h2>
+<a id="acfe8faed1f23c59b17d29ac88298dd75" name="acfe8faed1f23c59b17d29ac88298dd75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acfe8faed1f23c59b17d29ac88298dd75">&#9670;&#160;</a></span>MR_UndirEdgeColorMapAggregator_insert()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2345,7 +2353,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>, </td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>i</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2426,8 +2434,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ab525f3bcf40931118c61162a8e38ba45" name="ab525f3bcf40931118c61162a8e38ba45"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab525f3bcf40931118c61162a8e38ba45">&#9670;&#160;</a></span>MR_UndirEdgeColorMapAggregator_replace()</h2>
+<a id="a42ed24bfe15276a337a9d651eb8786f6" name="a42ed24bfe15276a337a9d651eb8786f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42ed24bfe15276a337a9d651eb8786f6">&#9670;&#160;</a></span>MR_UndirEdgeColorMapAggregator_replace()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2440,7 +2448,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>, </td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>i</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2507,7 +2515,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#a41722b7ccf0f4b2b0c1be562ee840d53">MR_ColorMapAggregator_MR_UndirectedEdgeTag_AggregateMode</a></td>          <td class="paramname"><span class="paramname"><em>mode</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="#a3ad327457042f15a9bd0397463d21970">MR_ColorMapAggregator_MR_UndirectedEdgeTag_AggregateMode</a></td>          <td class="paramname"><span class="paramname"><em>mode</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2660,8 +2668,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ad0a9b87f954e3062e976f5501ca6fa36" name="ad0a9b87f954e3062e976f5501ca6fa36"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad0a9b87f954e3062e976f5501ca6fa36">&#9670;&#160;</a></span>MR_VertColorMapAggregator_erase()</h2>
+<a id="a084d9b40a4364ce634d6813f05c12c4c" name="a084d9b40a4364ce634d6813f05c12c4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a084d9b40a4364ce634d6813f05c12c4c">&#9670;&#160;</a></span>MR_VertColorMapAggregator_erase()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2674,12 +2682,12 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>, </td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>i</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const int32_t *</td>          <td class="paramname"><span class="paramname"><em>n</em></span>&#160;)</td>
+          <td class="paramtype">const int *</td>          <td class="paramname"><span class="paramname"><em>n</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2705,8 +2713,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="af305746c70ebec6abd96f79165d54310" name="af305746c70ebec6abd96f79165d54310"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af305746c70ebec6abd96f79165d54310">&#9670;&#160;</a></span>MR_VertColorMapAggregator_getPartialColorMap()</h2>
+<a id="a474febb765f926696768343e1c29edac" name="a474febb765f926696768343e1c29edac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a474febb765f926696768343e1c29edac">&#9670;&#160;</a></span>MR_VertColorMapAggregator_getPartialColorMap()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2719,7 +2727,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2727,8 +2735,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ae0cd09c1c52b96f1532dc100d9b9e4f6" name="ae0cd09c1c52b96f1532dc100d9b9e4f6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae0cd09c1c52b96f1532dc100d9b9e4f6">&#9670;&#160;</a></span>MR_VertColorMapAggregator_insert()</h2>
+<a id="a33e2e25d2094a715df91850557b9ad0f" name="a33e2e25d2094a715df91850557b9ad0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33e2e25d2094a715df91850557b9ad0f">&#9670;&#160;</a></span>MR_VertColorMapAggregator_insert()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2741,7 +2749,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>, </td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>i</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2822,8 +2830,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a7ea82b3354657922e173cc3f0a84ff16" name="a7ea82b3354657922e173cc3f0a84ff16"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7ea82b3354657922e173cc3f0a84ff16">&#9670;&#160;</a></span>MR_VertColorMapAggregator_replace()</h2>
+<a id="af3908ccac72518a61ba25f00594a96de" name="af3908ccac72518a61ba25f00594a96de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3908ccac72518a61ba25f00594a96de">&#9670;&#160;</a></span>MR_VertColorMapAggregator_replace()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2836,7 +2844,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int32_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>, </td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>i</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2903,7 +2911,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="#a7ec98de5657149f083a3241c29f52b82">MR_ColorMapAggregator_MR_VertTag_AggregateMode</a></td>          <td class="paramname"><span class="paramname"><em>mode</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="#af167108ad97055d6af4428ae33453841">MR_ColorMapAggregator_MR_VertTag_AggregateMode</a></td>          <td class="paramname"><span class="paramname"><em>mode</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

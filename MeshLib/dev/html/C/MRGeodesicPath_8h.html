@@ -154,7 +154,6 @@ $(function(){initNavTree('MRGeodesicPath_8h.html',''); initResizable(true); });
 <div class="textblock"><code>#include &lt;<a class="el" href="MRId_8h_source.html">MRCMesh/MRId.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
-<code>#include &lt;stdint.h&gt;</code><br />
 </div>
 <p><a href="MRGeodesicPath_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -173,8 +172,8 @@ Typedefs</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a59213ee09c5f29eb6273e57886f8086c" id="r_a59213ee09c5f29eb6273e57886f8086c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59213ee09c5f29eb6273e57886f8086c">MR_reducePathViaVertex</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *start, <a class="el" href="structMR__VertId.html">MR_VertId</a> v, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *end, <a class="el" href="MREdgePaths_8h.html#a9138e3f58ce2b39215044d2e368587ae">MR_std_vector_MR_EdgePoint</a> *outPath, <a class="el" href="MRContour_8h.html#af3ae972f4acf6dd1ffc9c11061641f3f">MR_std_vector_MR_Vector2f</a> *tmp, <a class="el" href="MREdgePaths_8h.html#a9138e3f58ce2b39215044d2e368587ae">MR_std_vector_MR_EdgePoint</a> *cachePath)</td></tr>
 <tr class="separator:a59213ee09c5f29eb6273e57886f8086c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ecf3b3d599f14c0ac8b96c472122419" id="r_a0ecf3b3d599f14c0ac8b96c472122419"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ecf3b3d599f14c0ac8b96c472122419">MR_reducePath</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *start, <a class="el" href="MREdgePaths_8h.html#a9138e3f58ce2b39215044d2e368587ae">MR_std_vector_MR_EdgePoint</a> *path, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *end, const int32_t *maxIter)</td></tr>
-<tr class="separator:a0ecf3b3d599f14c0ac8b96c472122419"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a0e8014fc410d5398a75f5e7944cd51" id="r_a3a0e8014fc410d5398a75f5e7944cd51"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a0e8014fc410d5398a75f5e7944cd51">MR_reducePath</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *start, <a class="el" href="MREdgePaths_8h.html#a9138e3f58ce2b39215044d2e368587ae">MR_std_vector_MR_EdgePoint</a> *path, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *end, const int *maxIter)</td></tr>
+<tr class="separator:a3a0e8014fc410d5398a75f5e7944cd51"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="a31b172f68efca6438544d56eb86d6f40" name="a31b172f68efca6438544d56eb86d6f40"></a>
@@ -234,14 +233,14 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a0ecf3b3d599f14c0ac8b96c472122419" name="a0ecf3b3d599f14c0ac8b96c472122419"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0ecf3b3d599f14c0ac8b96c472122419">&#9670;&#160;</a></span>MR_reducePath()</h2>
+<a id="a3a0e8014fc410d5398a75f5e7944cd51" name="a3a0e8014fc410d5398a75f5e7944cd51"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a0e8014fc410d5398a75f5e7944cd51">&#9670;&#160;</a></span>MR_reducePath()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int32_t MR_reducePath </td>
+          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int MR_reducePath </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
@@ -263,7 +262,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const int32_t *</td>          <td class="paramname"><span class="paramname"><em>maxIter</em></span>&#160;)</td>
+          <td class="paramtype">const int *</td>          <td class="paramname"><span class="paramname"><em>maxIter</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
