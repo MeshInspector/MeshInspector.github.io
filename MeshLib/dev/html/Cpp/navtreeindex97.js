@@ -1,5 +1,7 @@
 var NAVTREEINDEX97 =
 {
+"structMR_1_1VoxelMetricParameters.html#a3ae620491a9dd4eff4445eb022a73b7e":[6,0,0,17,3,0,0],
+"structMR_1_1VoxelMetricParameters.html#a4a39f4473b82dc98d9b380e6c081a438":[6,0,0,17,3,0,2],
 "structMR_1_1VoxelMetricParameters.html#a5fae9a4b03e837ee2d487ce8e8dae34e":[6,0,0,17,3,0,1],
 "structMR_1_1VoxelMetricParameters.html#ab2680e847f9d7f989c60b09700889278":[6,0,0,17,3,0,4],
 "structMR_1_1VoxelMetricParameters.html#ae851669e25fee95a2b98a79736a529cf":[6,0,0,17,3,0,3],
@@ -181,8 +183,12 @@ var NAVTREEINDEX97 =
 "structMR_1_1Writer.html#abf4ee009f08992fff0aadc8ee8e79daa":[6,0,2,0,1,824,0],
 "structMR_1_1ZCompensateParams.html":[6,0,1,0,1,845],
 "structMR_1_1ZCompensateParams.html":[6,0,2,0,1,826],
-"structMR_1_1ZCompensateParams.html#a6a4bf630cbc10985ba4034e18d604f3f":[6,0,1,0,1,845,1],
-"structMR_1_1ZCompensateParams.html#a6a4bf630cbc10985ba4034e18d604f3f":[6,0,2,0,1,826,1],
+"structMR_1_1ZCompensateParams.html#a63aacee1cab39c7a61fbcbd98bb05d08":[6,0,1,0,1,845,3],
+"structMR_1_1ZCompensateParams.html#a63aacee1cab39c7a61fbcbd98bb05d08":[6,0,2,0,1,826,3],
+"structMR_1_1ZCompensateParams.html#a6a4bf630cbc10985ba4034e18d604f3f":[6,0,1,0,1,845,2],
+"structMR_1_1ZCompensateParams.html#a6a4bf630cbc10985ba4034e18d604f3f":[6,0,2,0,1,826,2],
+"structMR_1_1ZCompensateParams.html#ab7a1ca3fc82fe6085925f64efc8337b4":[6,0,1,0,1,845,1],
+"structMR_1_1ZCompensateParams.html#ab7a1ca3fc82fe6085925f64efc8337b4":[6,0,2,0,1,826,1],
 "structMR_1_1ZCompensateParams.html#ace23d61165b2d32752b31667f44c5306":[6,0,1,0,1,845,0],
 "structMR_1_1ZCompensateParams.html#ace23d61165b2d32752b31667f44c5306":[6,0,2,0,1,826,0],
 "structMR_1_1ZeroOnMove.html":[6,0,1,0,1,846],

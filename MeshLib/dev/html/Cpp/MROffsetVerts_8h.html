@@ -155,6 +155,7 @@ $(function(){initNavTree('MROffsetVerts_8h.html',''); initResizable(true); });
 <div class="textblock"><code>#include &quot;<a class="el" href="MRMesh_2MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRProgressCallback_8h_source.html">MRProgressCallback.h</a>&quot;</code><br />
 <code>#include &lt;cfloat&gt;</code><br />
+<code>#include &lt;optional&gt;</code><br />
 </div>
 <p><a href="MROffsetVerts_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -178,8 +179,12 @@ Functions</h2></td></tr>
 <tr class="separator:a676dff9eff2ba59b0e881d73f18900fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08ac3fca0ca82a431356f09a83cde032" id="r_a08ac3fca0ca82a431356f09a83cde032"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a08ac3fca0ca82a431356f09a83cde032">MR::zCompensate</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1ZCompensateParams.html">ZCompensateParams</a> &amp;params)</td></tr>
 <tr class="separator:a08ac3fca0ca82a431356f09a83cde032"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b3d5244b2d8a9736fab79490480948a" id="r_a5b3d5244b2d8a9736fab79490480948a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a5b3d5244b2d8a9736fab79490480948a">MR::zCompensate</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, VertCoords &amp;points, const <a class="el" href="structMR_1_1ZCompensateParams.html">ZCompensateParams</a> &amp;params)</td></tr>
-<tr class="separator:a5b3d5244b2d8a9736fab79490480948a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbe3ddcb19f5fe435a1a58b74c833314" id="r_acbe3ddcb19f5fe435a1a58b74c833314"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; VertScalars &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#acbe3ddcb19f5fe435a1a58b74c833314">MR::findZcompensationShifts</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1ZCompensateParams.html">ZCompensateParams</a> &amp;params)</td></tr>
+<tr class="memdesc:acbe3ddcb19f5fe435a1a58b74c833314"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds the shift along z-axis for each vertex without modifying the mesh  <br /></td></tr>
+<tr class="separator:acbe3ddcb19f5fe435a1a58b74c833314"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20373caf5716c8954478743f6d0d7238" id="r_a20373caf5716c8954478743f6d0d7238"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; VertCoords &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a20373caf5716c8954478743f6d0d7238">MR::findZcompensatedPositions</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1ZCompensateParams.html">ZCompensateParams</a> &amp;params)</td></tr>
+<tr class="memdesc:a20373caf5716c8954478743f6d0d7238"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds vertices positions of the mesh after z-compensation without modifying the mesh  <br /></td></tr>
+<tr class="separator:a20373caf5716c8954478743f6d0d7238"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

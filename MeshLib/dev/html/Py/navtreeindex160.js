@@ -1,5 +1,13 @@
 var NAVTREEINDEX160 =
 {
+"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPointsHolder.html#ac38949d639c743599b94db7b7c640c6c":[6,1,0,0,2,960,16],
+"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPointsHolder.html#ac38949d639c743599b94db7b7c640c6c":[6,1,1,0,1,960,16],
+"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPointsHolder.html#ad4bf725fac2b0904eeb8570344b97d2c":[6,1,0,0,2,960,7],
+"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPointsHolder.html#ad4bf725fac2b0904eeb8570344b97d2c":[6,1,1,0,1,960,7],
+"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPointsHolder.html#adc6d156a1732614721e4dd5d7fc2080e":[6,1,0,0,2,960,27],
+"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPointsHolder.html#adc6d156a1732614721e4dd5d7fc2080e":[6,1,1,0,1,960,27],
+"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPointsHolder.html#af1826a5770593107214f6f52ffa28293":[6,1,0,0,2,960,21],
+"classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectPointsHolder.html#af1826a5770593107214f6f52ffa28293":[6,1,1,0,1,960,21],
 "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels.html":[6,1,0,0,2,961],
 "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels.html":[6,1,1,0,1,961],
 "classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels.html#a007fd1feb6b0b324de88f30ddadbb016":[6,1,0,0,2,961,24],
@@ -241,13 +249,5 @@ var NAVTREEINDEX160 =
 "classmrmeshpy_1_1std__vector__std__string.html#ac66184a50a4035a14146df620baa34e3":[6,1,0,0,2,963,25],
 "classmrmeshpy_1_1std__vector__std__string.html#ac66184a50a4035a14146df620baa34e3":[6,1,1,0,1,963,25],
 "classmrmeshpy_1_1std__vector__std__string.html#ad02fee6fd83f1931fdcb3c5df3900371":[6,1,0,0,2,963,11],
-"classmrmeshpy_1_1std__vector__std__string.html#ad02fee6fd83f1931fdcb3c5df3900371":[6,1,1,0,1,963,11],
-"classmrmeshpy_1_1std__vector__std__string.html#adaaf18d859e634e9aeccadf77f798377":[6,1,0,0,2,963,5],
-"classmrmeshpy_1_1std__vector__std__string.html#adaaf18d859e634e9aeccadf77f798377":[6,1,1,0,1,963,5],
-"classmrmeshpy_1_1std__vector__std__string.html#ae7aefb9080fc2f7ef08bbca23f00e983":[6,1,0,0,2,963,29],
-"classmrmeshpy_1_1std__vector__std__string.html#ae7aefb9080fc2f7ef08bbca23f00e983":[6,1,1,0,1,963,29],
-"classmrmeshpy_1_1std__vector__std__string.html#af8efa21f9cf8e0de62af4e2caa9231dc":[6,1,0,0,2,963,20],
-"classmrmeshpy_1_1std__vector__std__string.html#af8efa21f9cf8e0de62af4e2caa9231dc":[6,1,1,0,1,963,20],
-"classmrmeshpy_1_1std__vector__std__variant__Sphere__Vector3__float__Features__Primitives__ConeSe36744d36d6e8968ccd9e2b2f97409193.html":[6,1,0,0,2,964],
-"classmrmeshpy_1_1std__vector__std__variant__Sphere__Vector3__float__Features__Primitives__ConeSe36744d36d6e8968ccd9e2b2f97409193.html":[6,1,1,0,1,964]
+"classmrmeshpy_1_1std__vector__std__string.html#ad02fee6fd83f1931fdcb3c5df3900371":[6,1,1,0,1,963,11]
 };

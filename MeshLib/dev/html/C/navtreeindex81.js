@@ -1,5 +1,12 @@
 var NAVTREEINDEX81 =
 {
+"MRSignDetectionMode_8h.html#ad947acaab65b108b9b20a683b2d1c571a2455f559eee51bfd07ac40102eaae775":[6,2,1,0,0,0,1,307,2,1],
+"MRSignDetectionMode_8h.html#ad947acaab65b108b9b20a683b2d1c571a7f2d79698464d85d61eef3259fe78bea":[6,2,1,0,0,0,1,307,2,4],
+"MRSignDetectionMode_8h.html#ad947acaab65b108b9b20a683b2d1c571ab5ab8141c9894c69d2d6de5775f32897":[6,2,1,0,0,0,1,307,2,3],
+"MRSignDetectionMode_8h.html#ad947acaab65b108b9b20a683b2d1c571abf87fdf5ca035202bb103aca9393b8d1":[6,2,1,0,0,0,1,307,2,0],
+"MRSignDetectionMode_8h_source.html":[6,2,1,0,0,0,1,307],
+"MRSolarRadiation_8h.html":[6,2,1,0,0,0,1,308],
+"MRSolarRadiation_8h.html#a0196e32e6f2146982c4aa46c32b2fd24":[6,2,1,0,0,0,1,308,23],
 "MRSolarRadiation_8h.html#a036dc80bf10949d81e50517828e6d453":[6,2,1,0,0,0,1,308,3],
 "MRSolarRadiation_8h.html#a1c46daf24f82fe0b9a4e94b416c2b180":[6,2,1,0,0,0,1,308,22],
 "MRSolarRadiation_8h.html#a249fd9254c0c3395567807936ad32641":[6,2,1,0,0,0,1,308,7],
@@ -242,12 +249,5 @@ var NAVTREEINDEX81 =
 "MRSubfeatures_8h.html#aeb2472172c06023be0b7f657a164a3e0":[6,2,1,0,0,0,1,316,22],
 "MRSubfeatures_8h.html#af02ee38df887308b7c41fb18e2cbc06d":[6,2,1,0,0,0,1,316,20],
 "MRSubfeatures_8h_source.html":[6,2,1,0,0,0,1,316],
-"MRSurfaceDistanceBuilder_8h.html":[6,2,1,0,0,0,1,318],
-"MRSurfaceDistanceBuilder_8h.html#a0ec70674d6412513e8008d61c284c453":[6,2,1,0,0,0,1,318,19],
-"MRSurfaceDistanceBuilder_8h.html#a1d0a59dcbf14d2c46eb7f09430511c2f":[6,2,1,0,0,0,1,318,3],
-"MRSurfaceDistanceBuilder_8h.html#a22fb39b5cdf9c24469e46b5037c37fd4":[6,2,1,0,0,0,1,318,25],
-"MRSurfaceDistanceBuilder_8h.html#a2f145ce2b4622eff463121dc35d67ea7":[6,2,1,0,0,0,1,318,36],
-"MRSurfaceDistanceBuilder_8h.html#a31b172f68efca6438544d56eb86d6f40":[6,2,1,0,0,0,1,318,0],
-"MRSurfaceDistanceBuilder_8h.html#a33ea51b92cca6cac01baf4aa7a78e24a":[6,2,1,0,0,0,1,318,6],
-"MRSurfaceDistanceBuilder_8h.html#a3a7c9174bbab76896d52ae82f2b4ded9":[6,2,1,0,0,0,1,318,28]
+"MRSurfaceDistanceBuilder_8h.html":[6,2,1,0,0,0,1,318]
 };

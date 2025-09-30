@@ -1,5 +1,7 @@
 var NAVTREEINDEX80 =
 {
+"structMR_1_1KeyDownListener.html#af86a1cfaae2446a6124adbf0d57fcd22":[6,0,2,0,1,325,2],
+"structMR_1_1KeyRepeatListener.html":[6,0,1,0,1,345],
 "structMR_1_1KeyRepeatListener.html":[6,0,2,0,1,326],
 "structMR_1_1KeyRepeatListener.html#a0f51c4b0274522776a58519e64f392d3":[6,0,1,0,1,345,3],
 "structMR_1_1KeyRepeatListener.html#a0f51c4b0274522776a58519e64f392d3":[6,0,2,0,1,326,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX80 =
 "structMR_1_1MarkedVoxelSlice_1_1Mark.html#afc0fa59f798e85b81397aba33a9e0ec6":[6,0,1,0,1,367,0,1],
 "structMR_1_1MarkedVoxelSlice_1_1Mark.html#afc0fa59f798e85b81397aba33a9e0ec6":[6,0,2,0,1,348,0,1],
 "structMR_1_1MarkedVoxelSlice_1_1Parameters.html":[6,0,1,0,1,367,1],
-"structMR_1_1MarkedVoxelSlice_1_1Parameters.html":[6,0,2,0,1,348,1],
-"structMR_1_1MarkedVoxelSlice_1_1Parameters.html#a40042bd3d06dc6fbad5b2ffa07f34a32":[6,0,1,0,1,367,1,1],
-"structMR_1_1MarkedVoxelSlice_1_1Parameters.html#a40042bd3d06dc6fbad5b2ffa07f34a32":[6,0,2,0,1,348,1,1]
+"structMR_1_1MarkedVoxelSlice_1_1Parameters.html":[6,0,2,0,1,348,1]
 };

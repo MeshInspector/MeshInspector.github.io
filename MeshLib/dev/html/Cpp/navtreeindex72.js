@@ -1,5 +1,7 @@
 var NAVTREEINDEX72 =
 {
+"structMR_1_1Chunk.html#adb4508fa30f32657421915e81df16da7":[6,0,1,0,1,142,1],
+"structMR_1_1Chunk.html#adb4508fa30f32657421915e81df16da7":[6,0,2,0,1,123,1],
 "structMR_1_1ChunkIterator.html":[6,0,1,0,1,143],
 "structMR_1_1ChunkIterator.html":[6,0,2,0,1,124],
 "structMR_1_1ChunkIterator.html#a3d81344e7c7048e9e13514de12883555":[6,0,1,0,1,143,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX72 =
 "structMR_1_1CursorEntranceListener.html#a2d5c27d95f9984ab5220e7c158d41841":[6,0,2,0,1,154,1],
 "structMR_1_1CursorEntranceListener.html#a2e6ad6df00a5718db8e060aec257534b":[6,0,1,0,1,173,3],
 "structMR_1_1CursorEntranceListener.html#a2e6ad6df00a5718db8e060aec257534b":[6,0,2,0,1,154,3],
-"structMR_1_1CursorEntranceListener.html#abd94cdf4627914e91f8f24f1aef2cb54":[6,0,1,0,1,173,0],
-"structMR_1_1CursorEntranceListener.html#abd94cdf4627914e91f8f24f1aef2cb54":[6,0,2,0,1,154,0],
-"structMR_1_1CursorEntranceListener.html#adab2592cc61c2b1c1c6cf9edd031f71b":[6,0,1,0,1,173,2]
+"structMR_1_1CursorEntranceListener.html#abd94cdf4627914e91f8f24f1aef2cb54":[6,0,1,0,1,173,0]
 };

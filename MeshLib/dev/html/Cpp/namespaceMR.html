@@ -5066,8 +5066,12 @@ Functions</h2></td></tr>
 <tr class="separator:a676dff9eff2ba59b0e881d73f18900fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08ac3fca0ca82a431356f09a83cde032" id="r_a08ac3fca0ca82a431356f09a83cde032"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08ac3fca0ca82a431356f09a83cde032">zCompensate</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1ZCompensateParams.html">ZCompensateParams</a> &amp;params)</td></tr>
 <tr class="separator:a08ac3fca0ca82a431356f09a83cde032"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b3d5244b2d8a9736fab79490480948a" id="r_a5b3d5244b2d8a9736fab79490480948a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b3d5244b2d8a9736fab79490480948a">zCompensate</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, VertCoords &amp;points, const <a class="el" href="structMR_1_1ZCompensateParams.html">ZCompensateParams</a> &amp;params)</td></tr>
-<tr class="separator:a5b3d5244b2d8a9736fab79490480948a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbe3ddcb19f5fe435a1a58b74c833314" id="r_acbe3ddcb19f5fe435a1a58b74c833314"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; VertScalars &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acbe3ddcb19f5fe435a1a58b74c833314">findZcompensationShifts</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1ZCompensateParams.html">ZCompensateParams</a> &amp;params)</td></tr>
+<tr class="memdesc:acbe3ddcb19f5fe435a1a58b74c833314"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds the shift along z-axis for each vertex without modifying the mesh  <br /></td></tr>
+<tr class="separator:acbe3ddcb19f5fe435a1a58b74c833314"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20373caf5716c8954478743f6d0d7238" id="r_a20373caf5716c8954478743f6d0d7238"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; VertCoords &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20373caf5716c8954478743f6d0d7238">findZcompensatedPositions</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1ZCompensateParams.html">ZCompensateParams</a> &amp;params)</td></tr>
+<tr class="memdesc:a20373caf5716c8954478743f6d0d7238"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds vertices positions of the mesh after z-compensation without modifying the mesh  <br /></td></tr>
+<tr class="separator:a20373caf5716c8954478743f6d0d7238"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4123fa411b7305bb9172a398b8cc3c51" id="r_a4123fa411b7305bb9172a398b8cc3c51"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4123fa411b7305bb9172a398b8cc3c51">subdivideLoneContours</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="group__BooleanGroup.html#ga9ecf19b8a704c505e8026abe7e64e38a">OneMeshContours</a> &amp;contours, <a class="el" href="#a93482f559c684be16c718d5acd291d3e">FaceHashMap</a> *new2oldMap=nullptr)</td></tr>
 <tr class="separator:a4123fa411b7305bb9172a398b8cc3c51"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae38923b09ce82880669f4d008f0ee4d2" id="r_ae38923b09ce82880669f4d008f0ee4d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae38923b09ce82880669f4d008f0ee4d2">getOneMeshIntersectionContours</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;meshA, const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;meshB, const <a class="el" href="#a9f26ad2470dbd62255be7fc1cab2b503">ContinuousContours</a> &amp;contours, <a class="el" href="group__BooleanGroup.html#ga9ecf19b8a704c505e8026abe7e64e38a">OneMeshContours</a> *outA, <a class="el" href="group__BooleanGroup.html#ga9ecf19b8a704c505e8026abe7e64e38a">OneMeshContours</a> *outB, const <a class="el" href="structMR_1_1CoordinateConverters.html">CoordinateConverters</a> &amp;converters, const AffineXf3f *rigidB2A=nullptr, <a class="el" href="#a4c444df98a6ef4e28be3eaab462d38a1">Contours3f</a> *outPtsA=nullptr, bool addSelfyTerminalVerts=false)</td></tr>
@@ -21096,6 +21100,68 @@ template&lt;typename T &gt; </div>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a20373caf5716c8954478743f6d0d7238" name="a20373caf5716c8954478743f6d0d7238"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20373caf5716c8954478743f6d0d7238">&#9670;&#160;</a></span>findZcompensatedPositions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; VertCoords &gt; MR::findZcompensatedPositions </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1ZCompensateParams.html">ZCompensateParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>finds vertices positions of the mesh after z-compensation without modifying the mesh </p>
+
+</div>
+</div>
+<a id="acbe3ddcb19f5fe435a1a58b74c833314" name="acbe3ddcb19f5fe435a1a58b74c833314"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acbe3ddcb19f5fe435a1a58b74c833314">&#9670;&#160;</a></span>findZcompensationShifts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; VertScalars &gt; MR::findZcompensationShifts </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1ZCompensateParams.html">ZCompensateParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>finds the shift along z-axis for each vertex without modifying the mesh </p>
 
 </div>
 </div>
@@ -40782,34 +40848,8 @@ template&lt;typename Volume &gt; </div>
 
 </div>
 </div>
-<a id="a5b3d5244b2d8a9736fab79490480948a" name="a5b3d5244b2d8a9736fab79490480948a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5b3d5244b2d8a9736fab79490480948a">&#9670;&#160;</a></span>zCompensate() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="MRMesh_2MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::zCompensate </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">VertCoords &amp;</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1ZCompensateParams.html">ZCompensateParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>params</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a08ac3fca0ca82a431356f09a83cde032" name="a08ac3fca0ca82a431356f09a83cde032"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a08ac3fca0ca82a431356f09a83cde032">&#9670;&#160;</a></span>zCompensate() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a08ac3fca0ca82a431356f09a83cde032">&#9670;&#160;</a></span>zCompensate()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -40826,7 +40866,7 @@ template&lt;typename Volume &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>For 3D printers: shifts every vertex with normal having negative projection on Z-axis, along Z-axis </p><dl class="section return"><dt>Returns</dt><dd>false if cancelled. </dd></dl>
+<p>For 3D printers: shifts every vertex with normal having negative projection on Z-axis, along Z-axis; mesh's topology is preserved unchanged </p><dl class="section return"><dt>Returns</dt><dd>false if cancelled. </dd></dl>
 
 </div>
 </div>

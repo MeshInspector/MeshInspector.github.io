@@ -1,5 +1,12 @@
 var NAVTREEINDEX135 =
 {
+"std__vector__MR__CNCMachineSettings__RotationAxisName_8h.html#a1c94d3f0c7a9521c1de11d759772b96b":[6,2,1,0,0,0,2,297,20],
+"std__vector__MR__CNCMachineSettings__RotationAxisName_8h.html#a2592c68f5a493d2dd9860eacb0a3e29c":[6,2,1,0,0,0,2,297,30],
+"std__vector__MR__CNCMachineSettings__RotationAxisName_8h.html#a25c07ee30ac78fde9adf89133a7c3538":[6,2,1,0,0,0,2,297,73],
+"std__vector__MR__CNCMachineSettings__RotationAxisName_8h.html#a2638e71c052b2a7f848290264421f545":[6,2,1,0,0,0,2,297,11],
+"std__vector__MR__CNCMachineSettings__RotationAxisName_8h.html#a27bb1bab92ab2ab57a7601dc8a2679a4":[6,2,1,0,0,0,2,297,25],
+"std__vector__MR__CNCMachineSettings__RotationAxisName_8h.html#a2abca4d64b7dd7c31180849465593acb":[6,2,1,0,0,0,2,297,52],
+"std__vector__MR__CNCMachineSettings__RotationAxisName_8h.html#a304dcb51b01e3f063f990f674c6681be":[6,2,1,0,0,0,2,297,24],
 "std__vector__MR__CNCMachineSettings__RotationAxisName_8h.html#a3455250a299f40e18c16ead947b13adf":[6,2,1,0,0,0,2,297,12],
 "std__vector__MR__CNCMachineSettings__RotationAxisName_8h.html#a37d4ccfe4aaad69aeadc3274d07ff728":[6,2,1,0,0,0,2,297,39],
 "std__vector__MR__CNCMachineSettings__RotationAxisName_8h.html#a39209bf5678400438549bf7ad456373f":[6,2,1,0,0,0,2,297,9],
@@ -242,12 +249,5 @@ var NAVTREEINDEX135 =
 "std__vector__MR__EdgeBitSet_8h.html#a5ba7a4d21e0d5d616b543f1ac9a4496f":[6,2,1,0,0,0,2,300,57],
 "std__vector__MR__EdgeBitSet_8h.html#a5d169c0b8fa5474e22178086f94215fb":[6,2,1,0,0,0,2,300,56],
 "std__vector__MR__EdgeBitSet_8h.html#a619e7e2dfab5b36326fd5320922efa84":[6,2,1,0,0,0,2,300,34],
-"std__vector__MR__EdgeBitSet_8h.html#a62e3e4af4fa406e1ebddad496809ca8a":[6,2,1,0,0,0,2,300,58],
-"std__vector__MR__EdgeBitSet_8h.html#a683e4aafa820b517a06c3e69a82de65a":[6,2,1,0,0,0,2,300,39],
-"std__vector__MR__EdgeBitSet_8h.html#a68b51bdab75b029ea268705f62886898":[6,2,1,0,0,0,2,300,22],
-"std__vector__MR__EdgeBitSet_8h.html#a725d6df672e17436f12d9ff8fb700f28":[6,2,1,0,0,0,2,300,15],
-"std__vector__MR__EdgeBitSet_8h.html#a72e25067a453b1ebf90eacb9ce8d9390":[6,2,1,0,0,0,2,300,27],
-"std__vector__MR__EdgeBitSet_8h.html#a790fe8fd1292244b9f4934cdd1506ecd":[6,2,1,0,0,0,2,300,7],
-"std__vector__MR__EdgeBitSet_8h.html#a796a847b829c29e3cdc31a5bcbe4ec9e":[6,2,1,0,0,0,2,300,46],
-"std__vector__MR__EdgeBitSet_8h.html#a81b9ffd8cf9d2fda06717836142bfc53":[6,2,1,0,0,0,2,300,36]
+"std__vector__MR__EdgeBitSet_8h.html#a62e3e4af4fa406e1ebddad496809ca8a":[6,2,1,0,0,0,2,300,58]
 };
