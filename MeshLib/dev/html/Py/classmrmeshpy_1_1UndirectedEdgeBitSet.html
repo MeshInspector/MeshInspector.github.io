@@ -174,6 +174,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aa423765dd694f30be60c91370d24b018"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a152f2b14f4909f101b562a4933068280" id="r_a152f2b14f4909f101b562a4933068280"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a152f2b14f4909f101b562a4933068280">__init__</a> (self)</td></tr>
 <tr class="separator:a152f2b14f4909f101b562a4933068280"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac6eaf57ac77dbee27183cb9734362e1" id="r_aac6eaf57ac77dbee27183cb9734362e1"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac6eaf57ac77dbee27183cb9734362e1">__init__</a> (self, int numBits, bool fillValue)</td></tr>
+<tr class="separator:aac6eaf57ac77dbee27183cb9734362e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9ccdf2a846553fafc6033d6f24d36a4" id="r_ab9ccdf2a846553fafc6033d6f24d36a4"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9ccdf2a846553fafc6033d6f24d36a4">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1BitSet.html">BitSet</a> src)</td></tr>
 <tr class="separator:ab9ccdf2a846553fafc6033d6f24d36a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9ccdf2a846553fafc6033d6f24d36a4" id="r_ab9ccdf2a846553fafc6033d6f24d36a4"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9ccdf2a846553fafc6033d6f24d36a4">__init__</a> (self, <a class="el" href="classmrmeshpy_1_1BitSet.html">BitSet</a> src)</td></tr>
@@ -293,7 +295,7 @@ Vector&lt;bool, I&gt; like container (random-access, I - index type, bool - valu
 with all bits after size() considered off during testing
 </pre> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aeef231fecfb1da6574de47f55022b82a" name="aeef231fecfb1da6574de47f55022b82a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeef231fecfb1da6574de47f55022b82a">&#9670;&#160;</a></span>__init__() <span class="overload">[1/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aeef231fecfb1da6574de47f55022b82a">&#9670;&#160;</a></span>__init__() <span class="overload">[1/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -324,7 +326,7 @@ with all bits after size() considered off during testing
 </div>
 </div>
 <a id="a152f2b14f4909f101b562a4933068280" name="a152f2b14f4909f101b562a4933068280"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a152f2b14f4909f101b562a4933068280">&#9670;&#160;</a></span>__init__() <span class="overload">[2/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a152f2b14f4909f101b562a4933068280">&#9670;&#160;</a></span>__init__() <span class="overload">[2/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -342,8 +344,37 @@ with all bits after size() considered off during testing
 
 </div>
 </div>
+<a id="aac6eaf57ac77dbee27183cb9734362e1" name="aac6eaf57ac77dbee27183cb9734362e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac6eaf57ac77dbee27183cb9734362e1">&#9670;&#160;</a></span>__init__() <span class="overload">[3/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None mrmeshpy.UndirectedEdgeBitSet.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>numBits</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>fillValue</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">creates bitset of given size filled with given value
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1BitSet.html#aec2d31c5842b18f1ef3a2e3e1de0ddf3">mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
 <a id="ab9ccdf2a846553fafc6033d6f24d36a4" name="ab9ccdf2a846553fafc6033d6f24d36a4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab9ccdf2a846553fafc6033d6f24d36a4">&#9670;&#160;</a></span>__init__() <span class="overload">[3/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9ccdf2a846553fafc6033d6f24d36a4">&#9670;&#160;</a></span>__init__() <span class="overload">[4/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -367,7 +398,7 @@ with all bits after size() considered off during testing
 </div>
 </div>
 <a id="ab9ccdf2a846553fafc6033d6f24d36a4" name="ab9ccdf2a846553fafc6033d6f24d36a4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab9ccdf2a846553fafc6033d6f24d36a4">&#9670;&#160;</a></span>__init__() <span class="overload">[4/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9ccdf2a846553fafc6033d6f24d36a4">&#9670;&#160;</a></span>__init__() <span class="overload">[5/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -391,7 +422,7 @@ with all bits after size() considered off during testing
 </div>
 </div>
 <a id="a8cb0325d0f71ff203924c46ef355b001" name="a8cb0325d0f71ff203924c46ef355b001"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8cb0325d0f71ff203924c46ef355b001">&#9670;&#160;</a></span>__init__() <span class="overload">[5/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8cb0325d0f71ff203924c46ef355b001">&#9670;&#160;</a></span>__init__() <span class="overload">[6/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

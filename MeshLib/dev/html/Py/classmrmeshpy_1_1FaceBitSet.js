@@ -1,6 +1,7 @@
 var classmrmeshpy_1_1FaceBitSet =
 [
     [ "__init__", "classmrmeshpy_1_1FaceBitSet.html#a6f5f1fa4bdad810423d1a95586f40a65", null ],
+    [ "__init__", "classmrmeshpy_1_1FaceBitSet.html#a66ec6c79f785c26ee877d19a77c1c124", null ],
     [ "__init__", "classmrmeshpy_1_1FaceBitSet.html#ad588e9f51d281a05ce61e8c3e3e9f5d9", null ],
     [ "__init__", "classmrmeshpy_1_1FaceBitSet.html#ad588e9f51d281a05ce61e8c3e3e9f5d9", null ],
     [ "__init__", "classmrmeshpy_1_1FaceBitSet.html#a63b2afcce37aeab792d47351386d6e41", null ],

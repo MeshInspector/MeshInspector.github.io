@@ -1,6 +1,7 @@
 var classmrmeshpy_1_1UndirectedEdgeBitSet =
 [
     [ "__init__", "classmrmeshpy_1_1UndirectedEdgeBitSet.html#a152f2b14f4909f101b562a4933068280", null ],
+    [ "__init__", "classmrmeshpy_1_1UndirectedEdgeBitSet.html#aac6eaf57ac77dbee27183cb9734362e1", null ],
     [ "__init__", "classmrmeshpy_1_1UndirectedEdgeBitSet.html#ab9ccdf2a846553fafc6033d6f24d36a4", null ],
     [ "__init__", "classmrmeshpy_1_1UndirectedEdgeBitSet.html#ab9ccdf2a846553fafc6033d6f24d36a4", null ],
     [ "__init__", "classmrmeshpy_1_1UndirectedEdgeBitSet.html#a8cb0325d0f71ff203924c46ef355b001", null ],

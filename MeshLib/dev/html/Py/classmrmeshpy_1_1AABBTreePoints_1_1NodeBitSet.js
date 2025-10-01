@@ -1,6 +1,7 @@
 var classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet =
 [
     [ "__init__", "classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a6aba2a7e6780ea90c7675900f497d3fb", null ],
+    [ "__init__", "classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#ab92b26b63db8861a28307234fa368a11", null ],
     [ "__init__", "classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a167febe06d6aaafd413af1d66c4bb600", null ],
     [ "__init__", "classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a167febe06d6aaafd413af1d66c4bb600", null ],
     [ "__init__", "classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a75b2a4c88d194278ad98d3d32f63d959", null ],
